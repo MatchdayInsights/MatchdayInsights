@@ -634,12 +634,7 @@ async function showClub(idx){
   document.getElementById('league-table-container').innerHTML='<div class="live-loading">Loading live table...</div>';
   document.getElementById('results-container').innerHTML='<div class="live-loading">Loading...</div>';
   document.getElementById('fixtures-container').innerHTML='<div class="live-loading">Loading...</div>';
-  if(API_KEY==='YOUR_API_KEY_HERE'){
-    document.getElementById('league-table-container').innerHTML='<div class="live-error">Add your API key to enable live data</div>';
-    document.getElementById('results-container').innerHTML='<div class="live-error">Add your API key to enable live data</div>';
-    document.getElementById('fixtures-container').innerHTML='<div class="live-error">Add your API key to enable live data</div>';
-    return;
-  }
+
   const teamId=await findTeamId(c.club,c.league_code);
   await Promise.all([loadLeagueTable(c.league_code,teamId,c.club),loadFixtures(teamId,c.club)]);
 }
