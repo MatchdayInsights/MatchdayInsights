@@ -157,6 +157,7 @@ td{padding:10px 14px;vertical-align:middle}
 .chart-panel{padding:20px 28px}
 .chart-panel:first-child{border-right:1px solid var(--border)}
 .chart-title{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
+.chart-range{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);opacity:0.6;letter-spacing:0.5px;margin-top:-10px;margin-bottom:12px}
 .chart-svg-wrap{width:100%;overflow:hidden;position:relative}
 .chart-tooltip{position:absolute;background:rgba(13,15,20,0.96);border:1px solid rgba(61,186,94,0.3);border-radius:6px;padding:8px 12px;pointer-events:none;opacity:0;transition:opacity 0.1s;z-index:10;white-space:nowrap}
 .chart-tooltip.show{opacity:1}
@@ -362,10 +363,12 @@ td{padding:10px 14px;vertical-align:middle}
     <div class="charts-grid">
       <div class="chart-panel">
         <div class="chart-title">Rating &mdash; Last 60 Updates</div>
+        <div class="chart-range">Sep 29, 2025 &mdash; Apr 23, 2026</div>
         <div class="chart-svg-wrap" id="chart-elo-wrap"><div class="chart-tooltip" id="tooltip-elo"></div></div>
       </div>
       <div class="chart-panel">
         <div class="chart-title">Ranking &mdash; Last 60 Updates</div>
+        <div class="chart-range">Sep 29, 2025 &mdash; Apr 23, 2026</div>
         <div class="chart-svg-wrap" id="chart-rank-wrap"><div class="chart-tooltip" id="tooltip-rank"></div></div>
       </div>
     </div>
