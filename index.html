@@ -195,8 +195,9 @@ td{padding:10px 14px;vertical-align:middle}
 .chart-tooltip-date{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);margin-bottom:2px}
 .chart-tooltip-val{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600}
 /* LEAGUE TABLE */
-.league-table-section{padding:20px 28px;border-bottom:1px solid var(--border);overflow-x:auto}
-.league-table{width:100%;border-collapse:collapse;font-size:13px;min-width:420px}
+.league-table-section{padding:20px 28px;border-bottom:1px solid var(--border)}
+.league-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.league-table{width:100%;border-collapse:collapse;font-size:13px;min-width:480px}
 .league-table thead tr{border-bottom:1px solid var(--border2)}
 .league-table th{font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:500;letter-spacing:1px;color:var(--muted);text-transform:uppercase;padding:7px 8px;text-align:right;white-space:nowrap}
 .league-table th:nth-child(2){text-align:left}
@@ -209,10 +210,6 @@ td{padding:10px 14px;vertical-align:middle}
 .league-table tr.highlighted td:last-child{color:var(--green)}
 .lt-zone-label{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:1px;text-transform:uppercase;opacity:0.7;margin-top:10px;margin-bottom:4px;padding:0 8px}
 .lt-tiebreaker{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);padding:10px 8px 0;line-height:1.6;opacity:0.7}
-/* Hide GF/GA and EUR# on small screens, keep essentials */
-@media(max-width:600px){
-  .league-table .lt-hide{display:none}
-}
 /* COMPARE */
 .compare-header{padding:28px 28px 20px;border-bottom:2px solid var(--blue);background:linear-gradient(135deg,rgba(10,13,20,0.8) 0%,transparent 60%)}
 .compare-clubs-header{display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:center;margin-top:16px}
@@ -666,7 +663,7 @@ function renderLeagueTable(c){
   section.style.display='block';
   titleEl.textContent=lt.name+' '+lt.season+' Table';
   const zones=lt.zones||{},teams=lt.teams;
-  let html='<table class="league-table"><thead><tr><th>#</th><th>Club</th><th>GP</th><th>W</th><th>D</th><th>L</th><th class="lt-hide">GF</th><th class="lt-hide">GA</th><th>GD</th><th>Pts</th><th style="text-align:right">Rating</th><th class="lt-hide" style="text-align:right">EUR #</th></tr></thead><tbody>';
+  let html='<div class="league-table-wrap"><table class="league-table"><thead><tr><th>#</th><th>Club</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th style="text-align:right">Rating</th><th style="text-align:right">EUR #</th></tr></thead><tbody>';
   let specialLegend=[];
   teams.forEach(function(t,i){
     const zone=zones[t.rank],prevZone=i>0?zones[teams[i-1].rank]:null;
@@ -686,10 +683,10 @@ function renderLeagueTable(c){
     html+='<td style="font-family:monospace;font-size:11px;font-weight:600;color:'+posColor+'">'+t.rank+'</td>';
     html+='<td>'+t.club+szBadge+'</td>';
     html+='<td>'+t.gp+'</td><td>'+t.w+'</td><td>'+t.d+'</td><td>'+t.l+'</td>';
-    html+='<td class="lt-hide">'+t.gf+'</td><td class="lt-hide">'+t.ga+'</td><td>'+gd+'</td><td>'+t.pts+'</td>';
-    html+=eloHtml+eurHtml.replace('<td','<td class="lt-hide"')+'</tr>';
+    html+='<td>'+t.gf+'</td><td>'+t.ga+'</td><td>'+gd+'</td><td>'+t.pts+'</td>';
+    html+=eloHtml+eurHtml+'</tr>';
   });
-  html+='</tbody></table>';
+  html+='</tbody></table></div>';
   // Zone legend
   const seen=[],items=[];
   Object.values(zones).forEach(function(z){if(seen.indexOf(z.label)===-1){seen.push(z.label);items.push(z);}});
