@@ -703,31 +703,35 @@ async function updateCharts(){
   const c = currentClub;
   const eloN  = document.getElementById('timeframe-elo').value;
   const rankN = document.getElementById('timeframe-rank').value;
+  const eloWrap  = document.getElementById('chart-elo-wrap');
+  const rankWrap = document.getElementById('chart-rank-wrap');
 
   if(eloN === 'all' || rankN === 'all') {
-    const eloWrap  = document.getElementById('chart-elo-wrap');
-    const rankWrap = document.getElementById('chart-rank-wrap');
-    if(eloN === 'all')  eloWrap.innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
-    if(rankN === 'all') rankWrap.innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
+    if(eloN === 'all')  eloWrap.innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading…</div>';
+    if(rankN === 'all') rankWrap.innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading…</div>';
     const ok = await loadAllHistory();
-    if(!ok) {
-      if(eloN === 'all')  document.getElementById('chart-elo-wrap').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
-      if(rankN === 'all') document.getElementById('chart-rank-wrap').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
+    if(!ok){
+      if(eloN === 'all')  eloWrap.innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
+      if(rankN === 'all') rankWrap.innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
       return;
     }
   }
 
+  // Get data — all-time uses ALL_HISTORY, others use embedded 200-point history
   const eloData  = getChartData(c.club, 'elo',  eloN);
   const rankData = getChartData(c.club, 'rank', rankN);
+
+  // Get dates AFTER data is loaded so ALL_DATES_FULL is available
   const eloDates  = getChartDatesForN(eloN);
   const rankDates = getChartDatesForN(rankN);
-  const latest = CHART_DATES_200[CHART_DATES_200.length-1];
+  const eloLatest  = eloDates.length  ? eloDates[eloDates.length-1]   : CHART_DATES_200[CHART_DATES_200.length-1];
+  const rankLatest = rankDates.length ? rankDates[rankDates.length-1]  : CHART_DATES_200[CHART_DATES_200.length-1];
+  const eloStart   = eloDates.length  ? eloDates[0]  : '';
+  const rankStart  = rankDates.length ? rankDates[0] : '';
 
-  document.getElementById('chart-elo-range').textContent  = (eloDates[0]  || '') + ' — ' + latest;
-  document.getElementById('chart-rank-range').textContent = (rankDates[0] || '') + ' — ' + latest;
+  document.getElementById('chart-elo-range').textContent  = eloStart  + ' — ' + eloLatest;
+  document.getElementById('chart-rank-range').textContent = rankStart + ' — ' + rankLatest;
 
-  const eloWrap  = document.getElementById('chart-elo-wrap');
-  const rankWrap = document.getElementById('chart-rank-wrap');
   eloWrap.innerHTML  = '<div class="chart-tooltip" id="tooltip-elo"></div>'  + buildSvgChart(eloData,  '#3dba5e', false, 'tooltip-elo',  ' pts', eloDates);
   rankWrap.innerHTML = '<div class="chart-tooltip" id="tooltip-rank"></div>' + buildSvgChart(rankData, '#7880a0', true,  'tooltip-rank', '',      rankDates);
 }
@@ -866,10 +870,10 @@ async function updateCompareCharts(){
   const colorA=window._cmpColorA, colorB=window._cmpColorB, leg=window._cmpLeg;
 
   if(nStr === 'all') {
-    document.getElementById('compare-elo-chart').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
-    document.getElementById('compare-rank-chart').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
+    document.getElementById('compare-elo-chart').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading…</div>';
+    document.getElementById('compare-rank-chart').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading…</div>';
     const ok = await loadAllHistory();
-    if(!ok) {
+    if(!ok){
       document.getElementById('compare-elo-chart').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
       document.getElementById('compare-rank-chart').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
       return;
@@ -880,11 +884,14 @@ async function updateCompareCharts(){
   const eloB  = getChartData(cB.club, 'elo',  nStr);
   const rankA = getChartData(cA.club, 'rank', nStr);
   const rankB = getChartData(cB.club, 'rank', nStr);
-  const dates = getChartDatesForN(nStr);
-  const latest = dates[dates.length-1] || CHART_DATES_200[CHART_DATES_200.length-1];
-  const startDate = dates[0] || '';
-  document.getElementById('compare-elo-label').textContent  = 'Rating History — '+startDate+' – '+latest;
-  document.getElementById('compare-rank-label').textContent = 'Ranking History — '+startDate+' – '+latest;
+
+  // Get dates AFTER potential data load
+  const dates  = getChartDatesForN(nStr);
+  const latest = dates.length ? dates[dates.length-1] : CHART_DATES_200[CHART_DATES_200.length-1];
+  const start  = dates.length ? dates[0] : '';
+
+  document.getElementById('compare-elo-label').textContent  = 'Rating History — '+start+' – '+latest;
+  document.getElementById('compare-rank-label').textContent = 'Ranking History — '+start+' – '+latest;
   document.getElementById('compare-elo-chart').innerHTML  = leg+buildCompareChart(eloA,eloB,colorA,colorB,false);
   document.getElementById('compare-rank-chart').innerHTML = leg+buildCompareChart(rankA,rankB,colorA,colorB,true);
 }
