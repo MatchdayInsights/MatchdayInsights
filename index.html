@@ -615,7 +615,9 @@ async function loadAllHistory() {
   }
   _allHistoryLoading = true;
   try {
-    const r = await fetch('all_history.json');
+    // Try relative path first, then absolute GitHub Pages path
+    const basePath = window.location.pathname.replace('/index.html','').replace(/\/$/,'');
+    const r = await fetch(basePath + '/all_history.json');
     const d = await r.json();
     ALL_HISTORY = d.history;
     ALL_DATES_FULL = d.dates;
@@ -642,7 +644,7 @@ function getChartData(club_name, type, n) {
 
 function getChartDatesForN(n) {
   if(n === 'all' && ALL_DATES_FULL) return ALL_DATES_FULL;
-  if(n === 'all') return CHART_DATES_200;
+  if(n === 'all') return [];
   const count = parseInt(n);
   return CHART_DATES_200.slice(-Math.min(count, CHART_DATES_200.length));
 }
