@@ -615,9 +615,7 @@ async function loadAllHistory() {
   }
   _allHistoryLoading = true;
   try {
-    // Try relative path first, then absolute GitHub Pages path
-    const basePath = window.location.pathname.replace('/index.html','').replace(/\/$/,'');
-    const r = await fetch(basePath + '/all_history.json');
+    const r = await fetch('https://matchdayinsights.github.io/MatchdayInsights/all_history.json');
     const d = await r.json();
     ALL_HISTORY = d.history;
     ALL_DATES_FULL = d.dates;
