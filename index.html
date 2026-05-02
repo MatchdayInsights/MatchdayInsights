@@ -438,6 +438,7 @@ td{padding:10px 14px;vertical-align:middle}
             <option value="60" selected>Last 60 updates</option>
             <option value="100">Last 100 updates</option>
             <option value="200">Last 200 updates</option>
+          <option value="all">All time (since Aug 2021)</option>
           </select>
         </div>
         <div class="chart-range-label" id="chart-elo-range"></div>
@@ -451,6 +452,7 @@ td{padding:10px 14px;vertical-align:middle}
             <option value="60" selected>Last 60 updates</option>
             <option value="100">Last 100 updates</option>
             <option value="200">Last 200 updates</option>
+          <option value="all">All time (since Aug 2021)</option>
           </select>
         </div>
         <div class="chart-range-label" id="chart-rank-range"></div>
@@ -491,6 +493,7 @@ td{padding:10px 14px;vertical-align:middle}
         <option value="60" selected>Last 60 updates</option>
         <option value="100">Last 100 updates</option>
         <option value="200">Last 200 updates</option>
+      <option value="all">All time (since Aug 2021)</option>
       </select>
     </div>
     <div class="panel-title" style="font-size:9px;color:var(--muted);margin-bottom:8px" id="compare-elo-label">Rating History &mdash; Last 60 Updates</div>
@@ -597,11 +600,63 @@ function getChartDates(n) {
 }
 
 // Chart builder — accepts optional dates array for tooltips
+
+// All-time history — lazy loaded when user selects "All time"
+let ALL_HISTORY = null;
+let ALL_DATES_FULL = null;
+let _allHistoryLoading = false;
+
+async function loadAllHistory() {
+  if(ALL_HISTORY) return true;
+  if(_allHistoryLoading) {
+    // Wait for it
+    await new Promise(r => setTimeout(r, 500));
+    return ALL_HISTORY !== null;
+  }
+  _allHistoryLoading = true;
+  try {
+    const r = await fetch('all_history.json');
+    const d = await r.json();
+    ALL_HISTORY = d.history;
+    ALL_DATES_FULL = d.dates;
+    return true;
+  } catch(e) {
+    console.warn('Could not load all-time history:', e);
+    _allHistoryLoading = false;
+    return false;
+  }
+}
+
+function getChartData(club_name, type, n) {
+  if(n === 'all' && ALL_HISTORY && ALL_HISTORY[club_name]) {
+    const h = ALL_HISTORY[club_name];
+    return type === 'elo' ? (h.e || []) : (h.r || []);
+  }
+  // Fall back to embedded 200-point history from CLUBS
+  const c = CLUBS.find(x => x.club === club_name);
+  if(!c) return [];
+  const hist = type === 'elo' ? c.elo_history : c.rank_history;
+  if(n === 'all') return hist;
+  return hist.slice(-Math.min(parseInt(n), hist.length));
+}
+
+function getChartDatesForN(n) {
+  if(n === 'all' && ALL_DATES_FULL) return ALL_DATES_FULL;
+  if(n === 'all') return CHART_DATES_200;
+  const count = parseInt(n);
+  return CHART_DATES_200.slice(-Math.min(count, CHART_DATES_200.length));
+}
+
 function buildSvgChart(data,color,reverse=false,tooltipId=null,unit='',chartDates=null){
   const W=400,H=160,PL=48,PR=10,PT=14,PB=28;
   const cw=W-PL-PR,ch=H-PT-PB;
   const valid=data.filter(v=>v!==null&&v!==undefined);
   if(valid.length<2)return '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Not enough data</div>';
+  // Trim leading nulls so chart starts from first real data point
+  const firstValid=data.findIndex(v=>v!==null&&v!==undefined);
+  const trimmed=data.slice(firstValid);
+  const trimDates=chartDates?chartDates.slice(firstValid):null;
+  data=trimmed; chartDates=trimDates;
   const mn=Math.min(...valid),mx=Math.max(...valid),range=mx-mn||1;
   const xp=i=>PL+(i/(data.length-1))*cw;
   const yp=v=>reverse?PT+((v-mn)/range)*ch:PT+(1-((v-mn)/range))*ch;
@@ -643,27 +698,38 @@ function showChartTooltip(e,id,date,val){
 function hideChartTooltip(id){const tip=document.getElementById(id);if(tip)tip.classList.remove('show');}
 
 // Update charts based on selected timeframe
-function updateCharts(){
+async function updateCharts(){
   if(!currentClub) return;
   const c = currentClub;
   const eloN  = document.getElementById('timeframe-elo').value;
   const rankN = document.getElementById('timeframe-rank').value;
 
-  const eloData  = getHistorySlice(c.elo_history,  eloN);
-  const rankData = getHistorySlice(c.rank_history, rankN);
+  if(eloN === 'all' || rankN === 'all') {
+    const eloWrap  = document.getElementById('chart-elo-wrap');
+    const rankWrap = document.getElementById('chart-rank-wrap');
+    if(eloN === 'all')  eloWrap.innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
+    if(rankN === 'all') rankWrap.innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
+    const ok = await loadAllHistory();
+    if(!ok) {
+      if(eloN === 'all')  document.getElementById('chart-elo-wrap').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
+      if(rankN === 'all') document.getElementById('chart-rank-wrap').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
+      return;
+    }
+  }
 
-  // Date range labels using CHART_DATES_200
-  const eloDates  = getChartDates(eloN);
-  const rankDates = getChartDates(rankN);
+  const eloData  = getChartData(c.club, 'elo',  eloN);
+  const rankData = getChartData(c.club, 'rank', rankN);
+  const eloDates  = getChartDatesForN(eloN);
+  const rankDates = getChartDatesForN(rankN);
   const latest = CHART_DATES_200[CHART_DATES_200.length-1];
 
-  document.getElementById('chart-elo-range').textContent  = `${eloDates[0] || ''} \u2014 ${latest}`;
-  document.getElementById('chart-rank-range').textContent = `${rankDates[0] || ''} \u2014 ${latest}`;
+  document.getElementById('chart-elo-range').textContent  = (eloDates[0]  || '') + ' — ' + latest;
+  document.getElementById('chart-rank-range').textContent = (rankDates[0] || '') + ' — ' + latest;
 
   const eloWrap  = document.getElementById('chart-elo-wrap');
   const rankWrap = document.getElementById('chart-rank-wrap');
-  eloWrap.innerHTML  = `<div class="chart-tooltip" id="tooltip-elo"></div>`  + buildSvgChart(eloData,  '#3dba5e', false, 'tooltip-elo',  ' pts', eloDates);
-  rankWrap.innerHTML = `<div class="chart-tooltip" id="tooltip-rank"></div>` + buildSvgChart(rankData, '#7880a0', true,  'tooltip-rank', '',      rankDates);
+  eloWrap.innerHTML  = '<div class="chart-tooltip" id="tooltip-elo"></div>'  + buildSvgChart(eloData,  '#3dba5e', false, 'tooltip-elo',  ' pts', eloDates);
+  rankWrap.innerHTML = '<div class="chart-tooltip" id="tooltip-rank"></div>' + buildSvgChart(rankData, '#7880a0', true,  'tooltip-rank', '',      rankDates);
 }
 
 // League table
@@ -793,19 +859,34 @@ function addToCompareFromProfile(){
   addToCompare(currentClubIdx);showRankings();
 }
 
-function updateCompareCharts(){
+async function updateCompareCharts(){
   const cA=window._cmpA, cB=window._cmpB;
   if(!cA||!cB) return;
-  const n=parseInt(document.getElementById('compare-timeframe').value)||60;
+  const nStr=document.getElementById('compare-timeframe').value||'60';
   const colorA=window._cmpColorA, colorB=window._cmpColorB, leg=window._cmpLeg;
-  const eloA  = cA.elo_history.slice(-n),  eloB  = cB.elo_history.slice(-n);
-  const rankA = cA.rank_history.slice(-n), rankB = cB.rank_history.slice(-n);
-  const latest = CHART_DATES_200[CHART_DATES_200.length-1];
-  const startDate = CHART_DATES_200[Math.max(0, CHART_DATES_200.length-n)];
+
+  if(nStr === 'all') {
+    document.getElementById('compare-elo-chart').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
+    document.getElementById('compare-rank-chart').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Loading...</div>';
+    const ok = await loadAllHistory();
+    if(!ok) {
+      document.getElementById('compare-elo-chart').innerHTML  = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
+      document.getElementById('compare-rank-chart').innerHTML = '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">All-time data unavailable</div>';
+      return;
+    }
+  }
+
+  const eloA  = getChartData(cA.club, 'elo',  nStr);
+  const eloB  = getChartData(cB.club, 'elo',  nStr);
+  const rankA = getChartData(cA.club, 'rank', nStr);
+  const rankB = getChartData(cB.club, 'rank', nStr);
+  const dates = getChartDatesForN(nStr);
+  const latest = dates[dates.length-1] || CHART_DATES_200[CHART_DATES_200.length-1];
+  const startDate = dates[0] || '';
   document.getElementById('compare-elo-label').textContent  = 'Rating History — '+startDate+' – '+latest;
   document.getElementById('compare-rank-label').textContent = 'Ranking History — '+startDate+' – '+latest;
-  document.getElementById('compare-elo-chart').innerHTML  = leg+buildCompareChart(eloA,  eloB,  colorA,colorB,false);
-  document.getElementById('compare-rank-chart').innerHTML = leg+buildCompareChart(rankA, rankB, colorA,colorB,true);
+  document.getElementById('compare-elo-chart').innerHTML  = leg+buildCompareChart(eloA,eloB,colorA,colorB,false);
+  document.getElementById('compare-rank-chart').innerHTML = leg+buildCompareChart(rankA,rankB,colorA,colorB,true);
 }
 
 function runComparison(){
