@@ -484,9 +484,18 @@ td{padding:10px 14px;vertical-align:middle}
   </div>
   <div class="compare-stats-section" id="compare-stats"></div>
   <div class="compare-charts">
-    <div class="panel-title" style="margin-bottom:14px">Rating History &mdash; Last 60 Updates</div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+      <div class="panel-title">Rating &amp; Ranking History</div>
+      <select class="timeframe-select" id="compare-timeframe" onchange="updateCompareCharts()" style="font-size:10px">
+        <option value="20">Last 20 updates</option>
+        <option value="60" selected>Last 60 updates</option>
+        <option value="100">Last 100 updates</option>
+        <option value="200">Last 200 updates</option>
+      </select>
+    </div>
+    <div class="panel-title" style="font-size:9px;color:var(--muted);margin-bottom:8px" id="compare-elo-label">Rating History &mdash; Last 60 Updates</div>
     <div id="compare-elo-chart"></div>
-    <div class="panel-title" style="margin:20px 0 14px">Ranking History &mdash; Last 60 Updates</div>
+    <div class="panel-title" style="font-size:9px;color:var(--muted);margin:20px 0 8px" id="compare-rank-label">Ranking History &mdash; Last 60 Updates</div>
     <div id="compare-rank-chart"></div>
   </div>
 </div>
@@ -743,7 +752,24 @@ function toggleCompareMode(){
   document.getElementById('compare-slot-1').style.display='none';
   document.getElementById('compare-slot-2').style.display='none';
   document.getElementById('compare-go-btn').disabled=true;
-  renderTable();
+  
+function updateCompareCharts(){
+  const cA=window._cmpA, cB=window._cmpB;
+  if(!cA||!cB) return;
+  const n=parseInt(document.getElementById('compare-timeframe').value)||60;
+  const colorA=window._cmpColorA, colorB=window._cmpColorB, leg=window._cmpLeg;
+  // Slice from end of 200-point history to get most recent n points
+  const eloA  = cA.elo_history.slice(-n),  eloB  = cB.elo_history.slice(-n);
+  const rankA = cA.rank_history.slice(-n), rankB = cB.rank_history.slice(-n);
+  // Update labels
+  const latest = CHART_DATES_200[CHART_DATES_200.length-1];
+  const startDate = CHART_DATES_200[Math.max(0, CHART_DATES_200.length-n)];
+  document.getElementById('compare-elo-label').textContent  = 'Rating History — '+startDate+' – '+latest;
+  document.getElementById('compare-rank-label').textContent = 'Ranking History — '+startDate+' – '+latest;
+  document.getElementById('compare-elo-chart').innerHTML  = leg+buildCompareChart(eloA,  eloB,  colorA,colorB,false);
+  document.getElementById('compare-rank-chart').innerHTML = leg+buildCompareChart(rankA, rankB, colorA,colorB,true);
+}
+renderTable();
 }
 function addToCompare(idx){
   const c=CLUBS[idx];
@@ -766,6 +792,22 @@ function addToCompareFromProfile(){
   if(!compareMode){compareMode=true;document.getElementById('compare-mode-btn').classList.add('active');document.getElementById('compare-banner').classList.add('show');}
   addToCompare(currentClubIdx);showRankings();
 }
+
+function updateCompareCharts(){
+  const cA=window._cmpA, cB=window._cmpB;
+  if(!cA||!cB) return;
+  const n=parseInt(document.getElementById('compare-timeframe').value)||60;
+  const colorA=window._cmpColorA, colorB=window._cmpColorB, leg=window._cmpLeg;
+  const eloA  = cA.elo_history.slice(-n),  eloB  = cB.elo_history.slice(-n);
+  const rankA = cA.rank_history.slice(-n), rankB = cB.rank_history.slice(-n);
+  const latest = CHART_DATES_200[CHART_DATES_200.length-1];
+  const startDate = CHART_DATES_200[Math.max(0, CHART_DATES_200.length-n)];
+  document.getElementById('compare-elo-label').textContent  = 'Rating History — '+startDate+' – '+latest;
+  document.getElementById('compare-rank-label').textContent = 'Ranking History — '+startDate+' – '+latest;
+  document.getElementById('compare-elo-chart').innerHTML  = leg+buildCompareChart(eloA,  eloB,  colorA,colorB,false);
+  document.getElementById('compare-rank-chart').innerHTML = leg+buildCompareChart(rankA, rankB, colorA,colorB,true);
+}
+
 function runComparison(){
   if(compareSelections.length<2)return;
   const cA=compareSelections[0].club,cB=compareSelections[1].club;
@@ -795,8 +837,11 @@ function runComparison(){
   ];
   document.getElementById('compare-stats').innerHTML=stats.map(s=>`<div class="compare-stat-row"><div class="compare-stat-val left ${s.winA?'winner':''}">${s.valA}${s.dateA?`<div class="compare-stat-date">${s.dateA}</div>`:''}</div><div class="compare-stat-label">${s.label}</div><div class="compare-stat-val right ${s.winB?'winner':''}">${s.valB}${s.dateB?`<div class="compare-stat-date">${s.dateB}</div>`:''}</div></div>`).join('');
   const leg=`<div style="display:flex;gap:20px;margin-bottom:10px;font-family:'JetBrains Mono',monospace;font-size:10px"><span style="color:${colorA}">&#x2014; ${cA.club}</span><span style="color:${colorB};margin-left:8px">&#x2508; ${cB.club}</span></div>`;
-  document.getElementById('compare-elo-chart').innerHTML=leg+buildCompareChart(cA.elo_history,cB.elo_history,colorA,colorB,false);
-  document.getElementById('compare-rank-chart').innerHTML=leg+buildCompareChart(cA.rank_history,cB.rank_history,colorA,colorB,true);
+  // Store current compare clubs for timeframe updates
+  window._cmpA = cA; window._cmpB = cB;
+  window._cmpColorA = colorA; window._cmpColorB = colorB;
+  window._cmpLeg = leg;
+  updateCompareCharts();
 }
 
 function renderTable(){
