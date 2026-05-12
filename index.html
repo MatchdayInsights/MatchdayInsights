@@ -21,14 +21,26 @@
   --border:#181c24;--border2:#1e2330;
   --text:#dde0ec;--text2:#7880a0;--muted:#565e78;
   --green:#3dba5e;--green-dim:#1e4d2e;--red:#e84466;--gold:#f5c842;--blue:#4a90d9;
+  --chart-grid:#1e2330;--chart-label:#565e78;--chart-dot-stroke:#0c0d11;
+  --header-bg:rgba(8,10,13,0.95);
 }
+body.light-mode{
+  --bg:#f2f5ef;--surface:#ffffff;--surface2:#edf0e8;
+  --border:#d8e0d0;--border2:#c8d4bc;
+  --text:#1a2410;--text2:#4a6040;--muted:#7a9068;
+  --green:#2e9e50;--green-dim:#b8d8c0;--red:#c03040;--gold:#8a6800;--blue:#2a6ab0;
+  --chart-grid:#d8e0d0;--chart-label:#7a9068;--chart-dot-stroke:#f2f5ef;
+  --header-bg:rgba(242,245,239,0.97);
+  color-scheme:light;
+}
+
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:'Barlow Condensed',sans-serif;min-height:100vh;overflow-x:hidden}
 ::-webkit-scrollbar{width:5px;height:5px}
 ::-webkit-scrollbar-track{background:var(--bg)}
 ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
 /* HEADER */
-.site-header{border-bottom:2px solid var(--green-dim);padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:58px;position:sticky;top:0;background:rgba(8,10,13,0.95);backdrop-filter:blur(10px);z-index:200}
+.site-header{border-bottom:2px solid var(--green-dim);padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:58px;position:sticky;top:0;background:var(--header-bg);backdrop-filter:blur(10px);z-index:200}
 .logo-area{display:flex;align-items:center;gap:10px;cursor:pointer}
 .logo-img{width:36px;height:36px;border-radius:7px;border:1px solid var(--green-dim);object-fit:cover}
 .brand-name{font-size:16px;font-weight:900;letter-spacing:1.5px;color:var(--green);text-transform:uppercase;line-height:1}
@@ -270,6 +282,18 @@ td{padding:10px 14px;vertical-align:middle}
   .chart-panel{padding:16px}
   .league-table-section{padding:14px 16px}
 }
+
+/* ── THEME TOGGLE ── */
+.theme-toggle{display:flex;align-items:center;gap:7px;cursor:pointer;background:none;border:none;padding:0;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);transition:color 0.2s;}
+.theme-toggle:hover{color:var(--text);}
+.tog-track{width:36px;height:20px;border-radius:10px;background:var(--border2);position:relative;transition:background 0.3s;border:1px solid var(--border2);flex-shrink:0;}
+.tog-knob{position:absolute;top:3px;left:3px;width:12px;height:12px;border-radius:50%;background:var(--green);transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);}
+body.light-mode .tog-knob{transform:translateX(16px);}
+.tog-label{transition:color 0.2s;}
+/* smooth global transitions */
+body,body *{transition:background-color 0.25s,border-color 0.25s,color 0.25s;}
+body *{transition-property:background-color,border-color,color;}
+
 </style>
 </head>
 <body>
@@ -281,7 +305,11 @@ td{padding:10px 14px;vertical-align:middle}
   <div class="header-right">
     <span class="update-chip">&#x2B21; Updated May 7, 2026</span>
     <a href="https://x.com/MDInsights_FC" class="ig-link" target="_blank">@MDInsights_FC</a>
-  </div>
+    <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle light/dark mode">
+    <span class="tog-label" id="tog-label">☀️</span>
+    <div class="tog-track"><div class="tog-knob"></div></div>
+  </button>
+</div>
 </header>
 
 <!-- STICKY CLUB HEADER (shown when scrolling inside a club profile) -->
@@ -660,7 +688,6 @@ function buildSvgChart(data,color,reverse=false,tooltipId=null,unit='',chartDate
   const cw=W-PL-PR,ch=H-PT-PB;
   const valid=data.filter(v=>v!==null&&v!==undefined);
   if(valid.length<2)return '<div style="color:var(--muted);font-family:monospace;font-size:11px;padding:20px 0;text-align:center">Not enough data</div>';
-  // Trim leading nulls so chart starts from first real data point
   const firstValid=data.findIndex(v=>v!==null&&v!==undefined);
   const trimmed=data.slice(firstValid);
   const trimDates=chartDates?chartDates.slice(firstValid):null;
@@ -669,17 +696,26 @@ function buildSvgChart(data,color,reverse=false,tooltipId=null,unit='',chartDate
   const xp=i=>PL+(i/(data.length-1))*cw;
   const yp=v=>reverse?PT+((v-mn)/range)*ch:PT+(1-((v-mn)/range))*ch;
   const fi=data.findIndex(v=>v!==null),li=data.length-1-[...data].reverse().findIndex(v=>v!==null);
-  const pts=data.map((v,i)=>v!==null?`${xp(i).toFixed(1)},${yp(v).toFixed(1)}`:null).filter(Boolean).join(' ');
+  // Build separate polyline segments — break on null gaps
+  let segments=[],seg=[];
+  data.forEach((v,i)=>{
+    if(v!==null){seg.push(`${xp(i).toFixed(1)},${yp(v).toFixed(1)}`)}
+    else{if(seg.length>0){segments.push(seg.join(' '));seg=[];}}
+  });
+  if(seg.length>0)segments.push(seg.join(' '));
+  // Fill polygon only using the full connected points (no nulls bridged)
+  const allPts=data.map((v,i)=>v!==null?`${xp(i).toFixed(1)},${yp(v).toFixed(1)}`:null).filter(Boolean).join(' ');
   const aS=`${xp(fi).toFixed(1)},${yp(data[fi]).toFixed(1)}`,aE=`${xp(li).toFixed(1)},${(PT+ch).toFixed(1)} ${xp(fi).toFixed(1)},${(PT+ch).toFixed(1)}`;
   let ytH='';
-  for(let i=0;i<=3;i++){const v=mn+(range*i/3),y=yp(v);ytH+=`<line x1="${PL}" y1="${y.toFixed(1)}" x2="${PL+cw}" y2="${y.toFixed(1)}" stroke="#1e2330" stroke-width="1"/><text x="${PL-4}" y="${(y+4).toFixed(1)}" text-anchor="end" fill="#565e78" font-family="monospace" font-size="10">${reverse?'#'+Math.round(v):Math.round(v)}</text>`;}
+  for(let i=0;i<=3;i++){const v=mn+(range*i/3),y=yp(v);ytH+=`<line x1="${PL}" y1="${y.toFixed(1)}" x2="${PL+cw}" y2="${y.toFixed(1)}" stroke="var(--chart-grid)" stroke-width="1"/><text x="${PL-4}" y="${(y+4).toFixed(1)}" text-anchor="end" fill="var(--chart-label)" font-family="monospace" font-size="10">${reverse?'#'+Math.round(v):Math.round(v)}</text>`;}
   const gid=`g${Math.random().toString(36).substr(2,6)}`;
+  const polylines=segments.map(s=>`<polyline points="${s}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`).join('');
   let hits='';
   if(tooltipId){
     const dates = chartDates || CHART_DATES_200.slice(-data.length);
     data.forEach((v,i)=>{if(v===null)return;const x=xp(i),y=yp(v);const ds=dates[i]||'';const vs=reverse?`#${Math.round(v)}`:`${v.toFixed(1)}${unit}`;hits+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6" fill="transparent" onmousemove="showChartTooltip(event,'${tooltipId}','${ds}','${vs}')" onmouseleave="hideChartTooltip('${tooltipId}')"/>`;});
   }
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" style="display:block"><defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${color}" stop-opacity="0.25"/><stop offset="100%" stop-color="${color}" stop-opacity="0.02"/></linearGradient></defs>${ytH}<polygon points="${aS} ${pts} ${aE}" fill="url(#${gid})"/><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${xp(fi).toFixed(1)}" cy="${yp(data[fi]).toFixed(1)}" r="4" fill="${color}" stroke="#0c0d11" stroke-width="2"/><circle cx="${xp(li).toFixed(1)}" cy="${yp(data[li]).toFixed(1)}" r="5" fill="${color}" stroke="#0c0d11" stroke-width="2"/>${hits}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" style="display:block"><defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${color}" stop-opacity="0.25"/><stop offset="100%" stop-color="${color}" stop-opacity="0.02"/></linearGradient></defs>${ytH}<polygon points="${aS} ${allPts} ${aE}" fill="url(#${gid})"/>${polylines}<circle cx="${xp(fi).toFixed(1)}" cy="${yp(data[fi]).toFixed(1)}" r="4" fill="${color}" stroke="var(--chart-dot-stroke)" stroke-width="2"/><circle cx="${xp(li).toFixed(1)}" cy="${yp(data[li]).toFixed(1)}" r="5" fill="${color}" stroke="var(--chart-dot-stroke)" stroke-width="2"/>${hits}</svg>`;
 }
 
 function buildCompareChart(dA,dB,cA,cB,reverse=false){
@@ -691,7 +727,7 @@ function buildCompareChart(dA,dB,cA,cB,reverse=false){
   const pA=dA.map((v,i)=>v!==null?`${xp(i).toFixed(1)},${yp(v).toFixed(1)}`:null).filter(Boolean).join(' ');
   const pB=dB.map((v,i)=>v!==null?`${xp(i).toFixed(1)},${yp(v).toFixed(1)}`:null).filter(Boolean).join(' ');
   let ytH='';
-  for(let i=0;i<=4;i++){const v=mn+(range*i/4),y=yp(v);ytH+=`<line x1="${PL}" y1="${y.toFixed(1)}" x2="${PL+cw}" y2="${y.toFixed(1)}" stroke="#1e2330" stroke-width="1"/><text x="${PL-4}" y="${(y+4).toFixed(1)}" text-anchor="end" fill="#565e78" font-family="monospace" font-size="10">${reverse?'#'+Math.round(v):Math.round(v)}</text>`;}
+  for(let i=0;i<=4;i++){const v=mn+(range*i/4),y=yp(v);ytH+=`<line x1="${PL}" y1="${y.toFixed(1)}" x2="${PL+cw}" y2="${y.toFixed(1)}" stroke="var(--chart-grid)" stroke-width="1"/><text x="${PL-4}" y="${(y+4).toFixed(1)}" text-anchor="end" fill="var(--chart-label)" font-family="monospace" font-size="10">${reverse?'#'+Math.round(v):Math.round(v)}</text>`;}
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" style="display:block">${ytH}<polyline points="${pA}" fill="none" stroke="${cA}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><polyline points="${pB}" fill="none" stroke="${cB}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6,4"/></svg>`;
 }
 
@@ -701,6 +737,7 @@ function showChartTooltip(e,id,date,val){
   const wrap=tip.parentElement,rect=wrap.getBoundingClientRect();
   let x=e.clientX-rect.left+10,y=e.clientY-rect.top-40;
   if(x+120>wrap.offsetWidth)x=e.clientX-rect.left-120;
+  if(y<4)y=e.clientY-rect.top+16;
   tip.style.left=x+'px';tip.style.top=y+'px';tip.classList.add('show');
 }
 function hideChartTooltip(id){const tip=document.getElementById(id);if(tip)tip.classList.remove('show');}
@@ -1159,6 +1196,23 @@ function showRankings(){
 }
 
 renderTable();
+
+
+function toggleTheme(){
+  const light=document.body.classList.toggle('light-mode');
+  document.getElementById('tog-label').textContent=light?'🌙':'☀️';
+  localStorage.setItem('mi-theme',light?'light':'dark');
+}
+(function(){
+  if(localStorage.getItem('mi-theme')==='light'){
+    document.body.classList.add('light-mode');
+    document.addEventListener('DOMContentLoaded',function(){
+      const lbl=document.getElementById('tog-label');
+      if(lbl)lbl.textContent='🌙';
+    });
+  }
+})();
+
 </script>
 </body>
 </html>
