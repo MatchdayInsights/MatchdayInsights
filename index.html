@@ -332,23 +332,17 @@ td{padding:10px 14px;vertical-align:middle}
     </div>
     <select class="filter-select" id="filter-country"><option value="">All Countries</option><option value="ALB">ALB</option>
 <option value="AND">AND</option>
-<option value="ARG">ARG</option>
 <option value="ARM">ARM</option>
 <option value="AUT">AUT</option>
 <option value="AZE">AZE</option>
 <option value="BEL">BEL</option>
 <option value="BIH">BIH</option>
 <option value="BLR">BLR</option>
-<option value="BOL">BOL</option>
-<option value="BRA">BRA</option>
 <option value="BUL">BUL</option>
-<option value="CHI">CHI</option>
-<option value="COL">COL</option>
 <option value="CRO">CRO</option>
 <option value="CYP">CYP</option>
 <option value="CZE">CZE</option>
 <option value="DEN">DEN</option>
-<option value="ECU">ECU</option>
 <option value="ENG">ENG</option>
 <option value="ESP">ESP</option>
 <option value="EST">EST</option>
@@ -376,8 +370,6 @@ td{padding:10px 14px;vertical-align:middle}
 <option value="NED">NED</option>
 <option value="NIR">NIR</option>
 <option value="NOR">NOR</option>
-<option value="PAR">PAR</option>
-<option value="PER">PER</option>
 <option value="POL">POL</option>
 <option value="POR">POR</option>
 <option value="ROU">ROU</option>
@@ -391,9 +383,18 @@ td{padding:10px 14px;vertical-align:middle}
 <option value="SWE">SWE</option>
 <option value="TUR">TUR</option>
 <option value="UKR">UKR</option>
+<option value="WAL">WAL</option><option value="ARG">ARG</option>
+<option value="BOL">BOL</option>
+<option value="BRA">BRA</option>
+<option value="CHI">CHI</option>
+<option value="COL">COL</option>
+<option value="ECU">ECU</option>
+<option value="PAR">PAR</option>
+<option value="PER">PER</option>
 <option value="URU">URU</option>
 <option value="VEN">VEN</option>
-<option value="WAL">WAL</option></select>
+</select>
+    <select class="filter-select" id="filter-confederation"><option value="">All Confederations</option><option value="UEFA">UEFA (Europe)</option><option value="CONMEBOL">CONMEBOL (South America)</option></select>
     <select class="filter-select" id="filter-range">
       <option value="all">All Rankings</option>
       <option value="top10">Top 10</option><option value="top25">Top 25</option>
@@ -607,6 +608,17 @@ const SVG_FLAGS={
   SMR:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="7" fill="#5EB6E4"/><rect y="7" width="20" height="7" fill="#fff"/><rect x="8.5" y="3" width="3" height="5" fill="none" stroke="#5EB6E4" stroke-width="0.8"/><rect x="9" y="2" width="2" height="1.5" fill="#5EB6E4"/></svg>`,
   AND:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="6.67" height="14" fill="#0032A0"/><rect x="6.67" width="6.67" height="14" fill="#FEDF00"/><rect x="13.33" width="6.67" height="14" fill="#D52B1E"/></svg>`,
   MNE:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#D4AF37"/><rect x="1.5" y="1.5" width="17" height="11" fill="#D4206D"/><polygon points="10,4 9,6.5 11,6.5" fill="#D4AF37"/><polygon points="10,7 8.5,8 9.5,9.5 10,8.5 10.5,9.5 11.5,8 10,7" fill="#D4AF37"/></svg>`,
+
+  ARG:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#74ACDF"/><rect y="4.67" width="20" height="4.67" fill="#fff"/><rect y="9.33" width="20" height="4.67" fill="#74ACDF"/></svg>`,
+  BOL:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#D52B1E"/><rect y="4.67" width="20" height="4.67" fill="#F9E300"/><rect y="9.33" width="20" height="4.67" fill="#007A3D"/></svg>`,
+  BRA:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#009C3B"/><polygon points="10,1.5 18.5,7 10,12.5 1.5,7" fill="#FFDF00"/><circle cx="10" cy="7" r="3" fill="#002776"/></svg>`,
+  CHI:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="7" fill="#fff"/><rect y="7" width="20" height="7" fill="#D52B1E"/><rect width="7" height="7" fill="#0032A0"/></svg>`,
+  COL:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="7" fill="#FCD116"/><rect y="7" width="20" height="3.5" fill="#003087"/><rect y="10.5" width="20" height="3.5" fill="#CE1126"/></svg>`,
+  ECU:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="5.6" fill="#FFD100"/><rect y="5.6" width="20" height="2.8" fill="#003087"/><rect y="8.4" width="20" height="5.6" fill="#CE1126"/></svg>`,
+  PAR:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#D52B1E"/><rect y="4.67" width="20" height="4.67" fill="#fff"/><rect y="9.33" width="20" height="4.67" fill="#0038A8"/></svg>`,
+  PER:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="6.67" height="14" fill="#D91023"/><rect x="6.67" width="6.67" height="14" fill="#fff"/><rect x="13.33" width="6.67" height="14" fill="#D91023"/></svg>`,
+  URU:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#fff"/><rect y="1.56" width="20" height="1.56" fill="#75AADB"/><rect y="4.67" width="20" height="1.56" fill="#75AADB"/><rect y="7.78" width="20" height="1.56" fill="#75AADB"/><rect y="10.89" width="20" height="1.56" fill="#75AADB"/></svg>`,
+  VEN:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#FFD700"/><rect y="4.67" width="20" height="4.67" fill="#003087"/><rect y="9.33" width="20" height="4.67" fill="#CF142B"/></svg>`,
 };
 function getFlag(c){const b=c.split('_')[0];return SVG_FLAGS[b]||SVG_FLAGS[c]||'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#334"/></svg>';}
 
@@ -948,14 +960,20 @@ function goPage(n){
   currentPage=n;renderTable();
   window.scrollTo({top:document.querySelector('.controls').offsetTop-60,behavior:'smooth'});
 }
+
+const CONMEBOL_COUNTRIES=['ARG','BOL','BRA','CHI','COL','ECU','PAR','PER','URU','VEN'];
+const UEFA_COUNTRIES=['ALB','AND','ARM','AUT','AZE','BEL','BIH','BLR','BUL','CRO','CYP','CZE','DEN','ENG','ESP','EST','FIN','FRA','FRO','GBR','GEO','GER','GRE','HUN','IRL','ISL','ISR','ITA','KAZ','KOS','LTU','LUX','LVA','MKD','MLD','MLT','MNE','NED','NIR','NOR','POL','POR','ROU','RUS','SCO','SMR','SRB','SUI','SVK','SVN','SWE','TUR','UKR','WAL'];
 function applyFilters(){
   const q=document.getElementById('search').value.toLowerCase().trim();
   const country=document.getElementById('filter-country').value;
+  const confederation=document.getElementById('filter-confederation').value;
   const range=document.getElementById('filter-range').value;
   const result=document.getElementById('filter-result').value;
   filtered=CLUBS.filter(c=>{
     if(q&&!c.club.toLowerCase().includes(q)&&!c.league_code.toLowerCase().includes(q))return false;
     if(country&&c.country!==country)return false;
+    if(confederation==='CONMEBOL'&&!CONMEBOL_COUNTRIES.includes(c.country))return false;
+    if(confederation==='UEFA'&&!UEFA_COUNTRIES.includes(c.country))return false;
     if(range==='top10'&&c.rank>10)return false;
     if(range==='top25'&&c.rank>25)return false;
     if(range==='top50'&&c.rank>50)return false;
@@ -975,7 +993,7 @@ document.querySelectorAll('th[data-col]').forEach(th=>{
     currentPage=1;renderTable();
   });
 });
-['search','filter-country','filter-range','filter-result'].forEach(id=>
+['search','filter-country','filter-confederation','filter-range','filter-result'].forEach(id=>
   document.getElementById(id).addEventListener(id==='search'?'input':'change',applyFilters)
 );
 
