@@ -5,14 +5,14 @@
 
 ## 1. PROJECT OVERVIEW
 
-**Site:** matchdayinsights.github.io/MatchdayInsights  
+**Site:** matchdayinsights.com  
 **X/Twitter:** @MDInsights_FC  
 **Stack:** Single `index.html` + `all_history.json` on GitHub Pages. Vanilla JS, no build step.  
 **Local folder:** `C:\Users\Greg\Matchday Insights\`
 
 **Brand rules — never violate:**
 - Never say "ELO" in any user-facing text — say "our model", "our rating", or "rating points"
-- URL always: `matchdayinsights.github.io/MatchdayInsights` (full path, mixed case)
+- URL always: `matchdayinsights.com` (full path, mixed case)
 - Body background always `#f5f6f2` (off-white) — never dark for graphic body
 - Header/footer always `#1a1a2e` dark
 - Minimum font size 14px in any graphic
@@ -38,25 +38,91 @@ Greg runs updates himself locally. No Claude session needed for routine updates.
 - `update_site.py` — the engine, never edit
 - `league_config.py` — only contains SEASON_LIST and TIER_THRESHOLDS, rarely needs editing
 - `index_base.html` — master template
+- `generate_club_pages.py` — SEO static page generator (auto-called by update_site.py)
 - `h2h_generator.html` — H2H matchup tool (auto-updated by script)
 - `weekly_tools.html` — Risers/Fallers + Country vs Country tool
-- `New_UEFA_Club_Ranking_Revamp_.xlsx` — rankings data (replaced each update)
-- `New_Historical_Rankings_Revamp.xlsx` — history data (replaced each update)
+- `.gitignore` — tells Git to ignore xlsx files and other large/unnecessary files
+- `New_UEFA_Club_Ranking_Revamp_.xlsx` — rankings data (replaced each update, NOT pushed to GitHub)
+- `New_Historical_Rankings_Revamp.xlsx` — history data (replaced each update, NOT pushed to GitHub)
 
 **To run:**
 ```
 cd "C:\Users\Greg\Matchday Insights"
 python update_site.py
+git add -A
+git commit -m "Update [date]"
+git push origin master
 ```
 
-**Output:** `index.html` + `all_history.json` → push both to GitHub.
+**Output:** `index.html`, `all_history.json`, and `clubs/` folder all pushed to GitHub in one step.
 
-**What the script does (5 steps):**
+**GitHub repo:** https://github.com/MatchdayInsights/MatchdayInsights.git  
+**Live site:** https://matchdayinsights.com
+
+**What the script does (6 steps):**
 1. Load both xlsx files (Rank + Matches + Historical Scores/Rank + Club Records sheets)
 2. Build `all_history.json` from Historical Scores + Rank sheets (includes gap filler)
 3. Build CLUBS array
 4. Inject into `index_base.html` → output `index.html`
 5. Auto-regenerate `h2h_generator.html` if present in folder
+6. Generate SEO club pages (`clubs/` folder, `sitemap.xml`) if `generate_club_pages.py` is present
+
+---
+
+## 3b. GIT / GITHUB WORKFLOW
+
+Greg uses Git from Command Prompt — no GitHub Desktop.
+
+**One-time setup (already done):**
+```
+git config --global user.name "Matchday Insights"
+git config --global user.email "gregory.m.toledo@gmail.com"
+cd "C:\Users\Greg\Matchday Insights"
+git init
+git remote add origin https://github.com/MatchdayInsights/MatchdayInsights.git
+git pull origin main
+```
+
+**Every Monday/Thursday update (4 commands):**
+```
+cd "C:\Users\Greg\Matchday Insights"
+python update_site.py
+git add -A
+git commit -m "Update [date]"
+git push origin master
+```
+
+**Key facts:**
+- Branch is `master` (not `main`)
+- Repo URL: `https://github.com/MatchdayInsights/MatchdayInsights.git`
+- xlsx files are in `.gitignore` — never pushed to GitHub (too large)
+- The `clubs/` folder (~1,751 HTML files) pushes automatically with `git add -A`
+- First push after adding clubs was ~120MB — subsequent pushes are small (only changed files)
+
+**If push fails with auth error:** GitHub uses Personal Access Tokens not passwords.
+Go to github.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token → tick `repo` → copy and use as password.
+
+---
+
+## 3c. DOMAIN & SEO
+
+**Live URL:** https://matchdayinsights.com (custom domain via GoDaddy → GitHub Pages)  
+**GitHub Pages:** Settings → Pages → Custom domain: matchdayinsights.com + Enforce HTTPS  
+**Sitemap:** https://matchdayinsights.com/sitemap.xml — submit to Google Search Console  
+
+**SEO club pages:**
+- 1,751 static HTML pages in `clubs/` folder
+- Each has unique title, meta description, canonical URL, all-time stats, last 5 results, related clubs
+- CTA button links back to main SPA via hash routing (`index.html#club=palmeiras`)
+- Auto-regenerated every update cycle by `generate_club_pages.py`
+- `SITE_BASE` at top of `generate_club_pages.py` = `https://matchdayinsights.com`
+
+**To change domain in future:** update `SITE_BASE` in `generate_club_pages.py` and re-run update
+
+**Club name changes:**
+- Spreadsheet update → script picks up new name automatically
+- Old slug becomes dead link — acceptable, Google will recrawl
+- `all_history.json` needs manual fix: find old name key, rename to new name (find & replace in text editor)
 
 ---
 

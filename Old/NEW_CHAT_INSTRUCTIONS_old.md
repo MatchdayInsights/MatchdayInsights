@@ -21,11 +21,12 @@
 
 ## 2. DATA STATE (as of July 6, 2026)
 
-- **1,468 ranked clubs** (pre-season, clubs removed until they play official matches)
-- **513 dates** in all_history.json (Aug 9, 2021 → Jul 6, 2026)
-- **2,163 clubs** total in all_history.json (includes lower divisions + inactive clubs)
+- **1,751 ranked clubs** across UEFA + CONMEBOL
+- **519 dates** in all_history.json (Aug 9, 2021 → Jul 26, 2026)
+- **2,442 clubs** total in all_history.json (UEFA + CONMEBOL + lower divisions + inactive)
 - **Update schedule:** Monday & Thursday
 - **League tables:** removed from site as of July 2026
+- **CONMEBOL added:** July 2026 — ARG, ARG_2, BOL, BRA, BRA_2, BRA_3, CHI, COL, ECU, PAR, PER, URU, VEN
 
 ---
 
@@ -70,6 +71,10 @@ LUX_FLAG_SVG = '...'  # Luxembourg flag SVG — do not edit
 ```
 
 `SEASON_LIST` needs updating once per year when a new season starts (add the new season at the front, drop the oldest from the end).
+
+**CONMEBOL country codes** (used in `country` field after `_N` stripping):
+`ARG, BOL, BRA, CHI, COL, ECU, PAR, PER, URU, VEN`
+These are automatically handled — `ARG_2` → `ARG` etc. No config change needed. when a new season starts (add the new season at the front, drop the oldest from the end).
 
 ---
 
@@ -165,6 +170,34 @@ These are already built — never remove or rebuild:
 
 ---
 
+## 8b. CONFEDERATION FILTER
+
+Added July 2026. A "All Confederations" dropdown sits next to the country filter.
+
+**Options:** All Confederations / UEFA (Europe) / CONMEBOL (South America)
+
+**How it works in JS:**
+```javascript
+const CONMEBOL_COUNTRIES = ['ARG','BOL','BRA','CHI','COL','ECU','PAR','PER','URU','VEN'];
+const UEFA_COUNTRIES = ['ALB','AND', ... 'WAL'];  // all UEFA member associations
+// In applyFilters():
+if(confederation==='CONMEBOL' && !CONMEBOL_COUNTRIES.includes(c.country)) return false;
+if(confederation==='UEFA'     && !UEFA_COUNTRIES.includes(c.country))     return false;
+```
+
+**update_site.py handles automatically:**
+- Injects SA flags (ARG, BOL, BRA, CHI, COL, ECU, PAR, PER, URU, VEN) into SVG_FLAGS
+- Adds CONMEBOL countries to the country dropdown
+- Adds the confederation dropdown if missing
+- All idempotent — safe to run repeatedly
+
+**To add a new confederation (e.g. CONCACAF):**
+1. Add country codes to `CONMEBOL_COUNTRIES`-style const in `update_site.py`
+2. Add a new `<option>` in the confederation dropdown HTML
+3. Add a new `if(confederation==='CONCACAF'...)` check in `applyFilters`
+
+---
+
 ## 9. TOOLS
 
 ### H2H Generator (h2h_generator.html)
@@ -220,6 +253,8 @@ GOLD_ACC  = '#c8a400'   # trophies
 | H2H tool crashed silently | Apostrophe in SHORT_NAMES broke JS string — avoid apostrophes in values |
 | Clubs with accented names wrong color in H2H | Unicode escape mismatch — always add via Claude, never type manually |
 | CLUBS out of rank order | `CLUBS.sort(key=lambda x: x['rank'])` after building array |
+| SA clubs not showing flag | Flags injected by update_site.py — re-run script if missing |
+| SA clubs not in country dropdown | Dropdown updated by update_site.py — re-run script if missing |
 
 ---
 
