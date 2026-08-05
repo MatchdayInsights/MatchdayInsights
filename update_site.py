@@ -150,6 +150,16 @@ for _, row in league_matches.iterrows():
             if pd.notna(team) and pd.notna(level):
                 club_season_levels[str(team)][season].append(str(level))
 
+# Total match count per club (all competitions, all tracked seasons) —
+# used to hold off milestone alerts for clubs new to the dataset until
+# they've built up a real sample size.
+match_counts = Counter()
+for _, row in df_matches.iterrows():
+    if pd.notna(row.get('Team 1')):
+        match_counts[str(row['Team 1'])] += 1
+    if pd.notna(row.get('Team 2')):
+        match_counts[str(row['Team 2'])] += 1
+
 # Form column names
 result_cols = ['< Result'] + [f'<{i} Result' for i in range(2, 11)]
 opp_cols    = ['<Opp']     + [f'<{i} Opp'    for i in range(2, 11)]
@@ -277,6 +287,62 @@ for _, row in df_rank.iterrows():
 # Ensure clubs are sorted by rank regardless of spreadsheet order
 CLUBS.sort(key=lambda x: x['rank'])
 print(f"    Built {len(CLUBS)} clubs")
+
+# ═══════════════════════════════════════════════════════════════
+# STEP 3b: MILESTONE DETECTION
+# ═══════════════════════════════════════════════════════════════
+print("\n[3b] Checking for milestones...")
+
+TODAY = dates_ordered[-1]
+RANK_THRESHOLDS = [1, 10, 25, 50, 100]
+MIN_MATCHES_FOR_MILESTONES = 20
+milestones = []
+
+for c in CLUBS:
+    club = c['club']
+    played = match_counts.get(club, 0)
+
+    # Only flag genuine milestones — wait until a club has a real sample size,
+    # so newly-added clubs (e.g. a new confederation rollout) don't immediately
+    # trigger "all-time high" off a handful of matches.
+    if played >= MIN_MATCHES_FOR_MILESTONES:
+        if c['all_time_high_elo_date'] == TODAY:
+            milestones.append(f"  \u25B2 ALL-TIME HIGH RATING  — {club}: {c['all_time_high_elo']} (rank #{c['rank']})")
+        if c['all_time_low_elo_date'] == TODAY:
+            milestones.append(f"  \u25BC ALL-TIME LOW RATING   — {club}: {c['all_time_low_elo']} (rank #{c['rank']})")
+        if c['all_time_high_rank_date'] == TODAY:
+            milestones.append(f"  \u25B2 ALL-TIME HIGH RANK    — {club}: #{c['all_time_high_rank']}")
+        if c['all_time_low_rank_date'] == TODAY:
+            milestones.append(f"  \u25BC ALL-TIME LOW RANK     — {club}: #{c['all_time_low_rank']}")
+
+    # Round-number rank threshold crossings (entering/leaving top N)
+    prev_rank, rank = c['prev_rank'], c['rank']
+    if played >= MIN_MATCHES_FOR_MILESTONES and prev_rank != rank:
+        for t in RANK_THRESHOLDS:
+            if prev_rank > t and rank <= t:
+                milestones.append(f"  \u2605 ENTERED TOP {t:<4}     — {club}: #{prev_rank} \u2192 #{rank}")
+            elif prev_rank <= t and rank > t:
+                milestones.append(f"  \u2606 DROPPED OUT OF TOP {t:<4} — {club}: #{prev_rank} \u2192 #{rank}")
+
+if milestones:
+    print(f"    {len(milestones)} milestone(s) this update:")
+    for m in milestones:
+        print(m)
+else:
+    print("    No milestones this update.")
+
+# Append to a running log so milestones aren't lost once the console scrolls
+try:
+    log_path = os.path.join(SCRIPT_DIR, 'milestones_log.txt')
+    with open(log_path, 'a', encoding='utf-8') as f:
+        f.write(f"\n=== {TODAY} ===\n")
+        if milestones:
+            for m in milestones:
+                f.write(m.strip() + '\n')
+        else:
+            f.write("  (no milestones)\n")
+except Exception as e:
+    print(f"    WARNING: Could not write milestones_log.txt — {e}")
 
 # ═══════════════════════════════════════════════════════════════
 # STEP 4: INJECT INTO index_base.html AND SAVE

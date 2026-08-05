@@ -18,6 +18,8 @@ OUTPUT FILES (push these to GitHub):
 """
 
 import pandas as pd
+# SEO page generator (optional — only runs if generate_club_pages.py is present)
+_seo_gen = None  # loaded after SCRIPT_DIR is defined
 import numpy as np
 import json
 import re
@@ -35,6 +37,11 @@ except ImportError:
 
 # ── File paths ─────────────────────────────────────────────────────────────────
 SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
+try:
+    import sys as _sys; _sys.path.insert(0, SCRIPT_DIR)
+    from generate_club_pages import generate_all as _seo_gen
+except ImportError:
+    _seo_gen = None
 RANK_FILE     = os.path.join(SCRIPT_DIR, 'New_UEFA_Club_Ranking_Revamp_.xlsx')
 HISTORY_FILE  = os.path.join(SCRIPT_DIR, 'New_Historical_Rankings_Revamp.xlsx')
 BASE_HTML     = os.path.join(SCRIPT_DIR, 'index_base.html')
@@ -330,7 +337,7 @@ SA_FLAGS = {
     'ECU': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="5.6" fill="#FFD100"/><rect y="5.6" width="20" height="2.8" fill="#003087"/><rect y="8.4" width="20" height="5.6" fill="#CE1126"/></svg>',
     'PAR': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#D52B1E"/><rect y="4.67" width="20" height="4.67" fill="#fff"/><rect y="9.33" width="20" height="4.67" fill="#0038A8"/></svg>',
     'PER': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="6.67" height="14" fill="#D91023"/><rect x="6.67" width="6.67" height="14" fill="#fff"/><rect x="13.33" width="6.67" height="14" fill="#D91023"/></svg>',
-    'URU': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#fff"/><rect y="2.33" width="20" height="1.56" fill="#75AADB"/><rect y="4.67" width="20" height="1.56" fill="#75AADB"/><rect y="7.0" width="20" height="1.56" fill="#75AADB"/><rect y="9.33" width="20" height="1.56" fill="#75AADB"/><rect y="11.67" width="20" height="1.56" fill="#75AADB"/><rect width="7" height="7" fill="#fff"/><circle cx="3.5" cy="3.5" r="1.2" fill="#F6B40E"/></svg>',
+    'URU': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#fff"/><rect y="1.56" width="20" height="1.56" fill="#75AADB"/><rect y="4.67" width="20" height="1.56" fill="#75AADB"/><rect y="7.78" width="20" height="1.56" fill="#75AADB"/><rect y="10.89" width="20" height="1.56" fill="#75AADB"/></svg>',
     'VEN': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#FFD700"/><rect y="4.67" width="20" height="4.67" fill="#003087"/><rect y="9.33" width="20" height="4.67" fill="#CF142B"/></svg>',
 }
 CONMEBOL_CODES = ['ARG', 'BOL', 'BRA', 'CHI', 'COL', 'ECU', 'PAR', 'PER', 'URU', 'VEN']
@@ -390,6 +397,24 @@ print(f"    Saved: all_history.json ({os.path.getsize(OUT_HISTORY)/1024/1024:.1f
 # ═══════════════════════════════════════════════════════════════
 # DONE
 # ═══════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
+# STEP 6 (OPTIONAL): GENERATE SEO CLUB PAGES
+# ═══════════════════════════════════════════════════════════════
+SEO_GEN = os.path.join(SCRIPT_DIR, 'generate_club_pages.py')
+if os.path.exists(SEO_GEN) and _seo_gen:
+    print("\n[6/6] Generating SEO club pages...")
+    try:
+        _seo_gen(
+            CLUBS,
+            output_dir=os.path.join(SCRIPT_DIR, 'clubs'),
+            site_base_url='https://matchdayinsights.github.io/MatchdayInsights',
+            verbose=True
+        )
+    except Exception as e:
+        print(f"    WARNING: SEO generation failed — {e}")
+else:
+    print("\n[6/6] generate_club_pages.py not found — skipping SEO pages")
+
 print("\n" + "=" * 60)
 print("✓ UPDATE COMPLETE")
 print(f"  Clubs:   {len(CLUBS)}")
