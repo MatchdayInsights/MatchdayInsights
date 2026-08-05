@@ -302,10 +302,21 @@ for c in CLUBS:
     club = c['club']
     played = match_counts.get(club, 0)
 
+    # A club's rank can shift purely because OTHER clubs moved — that's not
+    # a milestone for this club. Only flag when their own rating actually
+    # changed this update, which only happens if they played a match.
+    e_list = history.get(club, {'e': []})['e']
+    played_this_update = (
+        len(e_list) >= 2
+        and e_list[-1] is not None
+        and e_list[-2] is not None
+        and e_list[-1] != e_list[-2]
+    )
+
     # Only flag genuine milestones — wait until a club has a real sample size,
     # so newly-added clubs (e.g. a new confederation rollout) don't immediately
     # trigger "all-time high" off a handful of matches.
-    if played >= MIN_MATCHES_FOR_MILESTONES:
+    if played >= MIN_MATCHES_FOR_MILESTONES and played_this_update:
         if c['all_time_high_elo_date'] == TODAY:
             milestones.append(f"  \u25B2 ALL-TIME HIGH RATING  — {club}: {c['all_time_high_elo']} (rank #{c['rank']})")
         if c['all_time_low_elo_date'] == TODAY:
@@ -317,7 +328,7 @@ for c in CLUBS:
 
     # Round-number rank threshold crossings (entering/leaving top N)
     prev_rank, rank = c['prev_rank'], c['rank']
-    if played >= MIN_MATCHES_FOR_MILESTONES and prev_rank != rank:
+    if played >= MIN_MATCHES_FOR_MILESTONES and played_this_update and prev_rank != rank:
         for t in RANK_THRESHOLDS:
             if prev_rank > t and rank <= t:
                 milestones.append(f"  \u2605 ENTERED TOP {t:<4}     — {club}: #{prev_rank} \u2192 #{rank}")
