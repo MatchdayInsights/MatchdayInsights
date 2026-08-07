@@ -1,0 +1,511 @@
+﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1334278,2025-01-23T22:00:00+00:00,FT,Godoy Cruz,439,Rosario Central,437,0,3,True
+1334277,2025-01-23T22:00:00+00:00,FT,Tigre,452,Velez Sarsfield,438,3,0,True
+1334280,2025-01-24T00:30:00+00:00,FT,Defensa Y Justicia,442,Banfield,449,0,1,True
+1334282,2025-01-24T00:30:00+00:00,FT,Lanus,446,Deportivo Riestra,476,0,2,True
+1334279,2025-01-24T00:30:00+00:00,FT,Newells Old Boys,457,Independ. Rivadavia,473,0,1,True
+1334281,2025-01-24T20:00:00+00:00,FT,Barracas Central,2432,Racing Club,436,1,3,True
+1334283,2025-01-24T22:15:00+00:00,FT,Independiente,453,Sarmiento Junin,474,2,1,True
+1334284,2025-01-25T00:00:00+00:00,FT,Belgrano Cordoba,440,Huracan,445,1,1,True
+1334285,2025-01-25T00:30:00+00:00,FT,San Martin S.J.,461,Atletico Tucuman,455,0,1,True
+1334286,2025-01-25T20:00:00+00:00,FT,San Lorenzo,460,Talleres Cordoba,456,1,0,True
+1334287,2025-01-25T22:15:00+00:00,FT,Estudiantes L.P.,450,Union Santa Fe,441,3,1,True
+1334288,2025-01-25T22:15:00+00:00,FT,Instituto Cordoba,478,Gimnasia L.P.,434,3,0,True
+1334289,2025-01-26T00:30:00+00:00,FT,Platense,1064,River Plate,435,1,1,True
+1334290,2025-01-26T22:00:00+00:00,FT,Boca Juniors,451,Argentinos JRS,458,0,0,True
+1334291,2025-01-27T00:00:00+00:00,FT,Central Cordoba de Santiago,1065,Aldosivi,463,1,0,True
+1334292,2025-01-27T23:00:00+00:00,FT,Banfield,449,Newells Old Boys,457,3,0,True
+1334293,2025-01-28T20:00:00+00:00,FT,Deportivo Riestra,476,San Martin S.J.,461,0,0,True
+1334294,2025-01-28T22:15:00+00:00,FT,Rosario Central,437,Lanus,446,2,1,True
+1334295,2025-01-28T22:15:00+00:00,FT,Sarmiento Junin,474,Godoy Cruz,439,0,0,True
+1334297,2025-01-29T00:30:00+00:00,FT,Velez Sarsfield,438,Platense,1064,0,1,True
+1334296,2025-01-29T00:30:00+00:00,FT,Independ. Rivadavia,473,Barracas Central,2432,0,0,True
+1334299,2025-01-29T20:00:00+00:00,FT,Gimnasia L.P.,434,San Lorenzo,460,0,2,True
+1334298,2025-01-29T20:00:00+00:00,FT,Talleres Cordoba,456,Independiente,453,2,3,True
+1334301,2025-01-29T22:15:00+00:00,FT,Union Santa Fe,441,Boca Juniors,451,1,1,True
+1334300,2025-01-29T22:15:00+00:00,FT,Huracan,445,Estudiantes L.P.,450,0,0,True
+1334302,2025-01-30T00:30:00+00:00,FT,River Plate,435,Instituto Cordoba,478,1,0,True
+1334303,2025-01-30T20:00:00+00:00,FT,Aldosivi,463,Defensa Y Justicia,442,0,5,True
+1334304,2025-01-30T22:15:00+00:00,FT,Racing Club,436,Belgrano Cordoba,440,4,0,True
+1334305,2025-01-31T00:30:00+00:00,FT,Argentinos JRS,458,Tigre,452,1,0,True
+1334306,2025-01-31T00:30:00+00:00,FT,Central Cordoba de Santiago,1065,Atletico Tucuman,455,2,0,True
+1334307,2025-02-01T20:00:00+00:00,FT,Barracas Central,2432,Banfield,449,1,0,True
+1334308,2025-02-01T22:00:00+00:00,FT,San Martin S.J.,461,Rosario Central,437,0,0,True
+1334309,2025-02-02T00:00:00+00:00,FT,Lanus,446,Sarmiento Junin,474,2,0,True
+1334310,2025-02-02T20:00:00+00:00,FT,San Lorenzo,460,River Plate,435,0,0,True
+1334311,2025-02-02T22:15:00+00:00,FT,Boca Juniors,451,Huracan,445,2,1,True
+1334312,2025-02-02T22:15:00+00:00,FT,Newells Old Boys,457,Aldosivi,463,1,0,True
+1334314,2025-02-03T00:30:00+00:00,FT,Independiente,453,Gimnasia L.P.,434,2,0,True
+1334313,2025-02-03T00:30:00+00:00,FT,Instituto Cordoba,478,Velez Sarsfield,438,2,0,True
+1334316,2025-02-03T20:00:00+00:00,FT,Defensa Y Justicia,442,Central Cordoba de Santiago,1065,2,1,True
+1334317,2025-02-03T22:15:00+00:00,FT,Estudiantes L.P.,450,Racing Club,436,2,0,True
+1334315,2025-02-03T22:15:00+00:00,FT,Tigre,452,Union Santa Fe,441,1,0,True
+1334318,2025-02-04T00:30:00+00:00,FT,Belgrano Cordoba,440,Independ. Rivadavia,473,0,3,True
+1334319,2025-02-04T00:30:00+00:00,FT,Argentinos JRS,458,Platense,1064,1,0,True
+1334321,2025-02-05T00:00:00+00:00,FT,Atletico Tucuman,455,Deportivo Riestra,476,0,3,True
+1334322,2025-02-06T20:00:00+00:00,FT,Aldosivi,463,Barracas Central,2432,1,3,True
+1334323,2025-02-06T23:00:00+00:00,FT,Sarmiento Junin,474,San Martin S.J.,461,1,1,True
+1334324,2025-02-07T20:45:00+00:00,FT,Banfield,449,Belgrano Cordoba,440,1,1,True
+1334326,2025-02-07T23:00:00+00:00,FT,Huracan,445,Tigre,452,2,0,True
+1334325,2025-02-07T23:00:00+00:00,FT,Central Cordoba de Santiago,1065,Newells Old Boys,457,2,0,True
+1334328,2025-02-08T01:15:00+00:00,FT,Union Santa Fe,441,Argentinos JRS,458,0,1,True
+1334327,2025-02-08T01:15:00+00:00,FT,Independ. Rivadavia,473,Estudiantes L.P.,450,2,2,True
+1334330,2025-02-08T21:00:00+00:00,FT,Velez Sarsfield,438,San Lorenzo,460,0,0,True
+1334329,2025-02-08T22:30:00+00:00,FT,Rosario Central,437,Atletico Tucuman,455,3,1,True
+1334331,2025-02-08T23:15:00+00:00,FT,River Plate,435,Independiente,453,2,0,True
+1334332,2025-02-09T01:15:00+00:00,FT,Racing Club,436,Boca Juniors,451,2,0,True
+1334334,2025-02-09T20:00:00+00:00,FT,Deportivo Riestra,476,Defensa Y Justicia,442,1,1,True
+1334333,2025-02-09T20:00:00+00:00,FT,Platense,1064,Instituto Cordoba,478,1,0,True
+1334335,2025-02-09T22:15:00+00:00,FT,Gimnasia L.P.,434,Godoy Cruz,439,3,0,True
+1334336,2025-02-10T00:30:00+00:00,FT,Talleres Cordoba,456,Lanus,446,0,1,True
+1334338,2025-02-11T20:45:00+00:00,FT,Barracas Central,2432,Central Cordoba de Santiago,1065,3,3,True
+1334340,2025-02-11T23:00:00+00:00,FT,Estudiantes L.P.,450,Banfield,449,1,0,True
+1334339,2025-02-11T23:00:00+00:00,FT,Boca Juniors,451,Independ. Rivadavia,473,2,0,True
+1334341,2025-02-12T01:15:00+00:00,FT,Belgrano Cordoba,440,Aldosivi,463,2,0,True
+1334337,2025-02-12T01:15:00+00:00,FT,Tigre,452,Racing Club,436,1,0,True
+1334343,2025-02-12T20:00:00+00:00,FT,Deportivo Riestra,476,Rosario Central,437,0,0,True
+1334342,2025-02-12T20:45:00+00:00,FT,Newells Old Boys,457,Defensa Y Justicia,442,0,1,True
+1334345,2025-02-12T23:00:00+00:00,FT,Independiente,453,Velez Sarsfield,438,3,0,True
+1334344,2025-02-12T23:00:00+00:00,FT,Argentinos JRS,458,Huracan,445,1,1,True
+1334346,2025-02-13T01:15:00+00:00,FT,Godoy Cruz,439,River Plate,435,0,0,True
+1334347,2025-02-13T20:45:00+00:00,FT,Lanus,446,Gimnasia L.P.,434,0,0,True
+1334348,2025-02-13T23:00:00+00:00,FT,San Lorenzo,460,Platense,1064,2,1,True
+1334349,2025-02-13T23:00:00+00:00,FT,San Martin S.J.,461,Talleres Cordoba,456,0,1,True
+1334351,2025-02-14T01:15:00+00:00,FT,Union Santa Fe,441,Instituto Cordoba,478,0,0,True
+1334350,2025-02-14T01:15:00+00:00,FT,Atletico Tucuman,455,Sarmiento Junin,474,5,0,True
+1334352,2025-02-14T23:00:00+00:00,FT,Banfield,449,Boca Juniors,451,0,1,True
+1334353,2025-02-15T20:00:00+00:00,FT,Defensa Y Justicia,442,Barracas Central,2432,1,1,True
+1334354,2025-02-15T20:00:00+00:00,FT,Aldosivi,463,Estudiantes L.P.,450,2,2,True
+1334356,2025-02-15T22:15:00+00:00,FT,Independ. Rivadavia,473,Tigre,452,1,4,True
+1334355,2025-02-15T22:15:00+00:00,FT,Central Cordoba de Santiago,1065,Belgrano Cordoba,440,4,0,True
+1334357,2025-02-16T00:30:00+00:00,FT,Racing Club,436,Argentinos JRS,458,2,3,True
+1334358,2025-02-16T20:00:00+00:00,FT,Newells Old Boys,457,Rosario Central,437,1,2,True
+1334359,2025-02-16T22:15:00+00:00,FT,River Plate,435,Lanus,446,1,0,True
+1334360,2025-02-17T00:30:00+00:00,FT,Huracan,445,Union Santa Fe,441,1,0,True
+1334361,2025-02-17T00:30:00+00:00,FT,Talleres Cordoba,456,Atletico Tucuman,455,1,1,True
+1334363,2025-02-17T20:00:00+00:00,FT,Gimnasia L.P.,434,San Martin S.J.,461,1,0,True
+1334362,2025-02-17T20:00:00+00:00,FT,Sarmiento Junin,474,Deportivo Riestra,476,2,1,True
+1334364,2025-02-17T22:15:00+00:00,FT,Platense,1064,Independiente,453,1,1,True
+1334365,2025-02-18T00:30:00+00:00,FT,Velez Sarsfield,438,Godoy Cruz,439,0,2,True
+1334366,2025-02-18T00:30:00+00:00,FT,Instituto Cordoba,478,San Lorenzo,460,0,1,True
+1334367,2025-02-21T20:00:00+00:00,FT,Deportivo Riestra,476,Talleres Cordoba,456,0,0,True
+1334369,2025-02-21T22:15:00+00:00,FT,Godoy Cruz,439,Platense,1064,1,1,True
+1334368,2025-02-21T22:15:00+00:00,FT,Estudiantes L.P.,450,Central Cordoba de Santiago,1065,3,2,True
+1334370,2025-02-22T00:30:00+00:00,FT,Lanus,446,Velez Sarsfield,438,0,0,True
+1334371,2025-02-22T21:00:00+00:00,FT,Independiente,453,Instituto Cordoba,478,2,0,True
+1334373,2025-02-22T22:30:00+00:00,FT,Boca Juniors,451,Aldosivi,463,2,1,True
+1334374,2025-02-23T00:30:00+00:00,FT,San Martin S.J.,461,River Plate,435,0,2,True
+1334372,2025-02-23T00:45:00+00:00,FT,Rosario Central,437,Sarmiento Junin,474,1,0,True
+1334375,2025-02-23T21:00:00+00:00,FT,Huracan,445,San Lorenzo,460,2,0,True
+1334376,2025-02-24T00:00:00+00:00,FT,Belgrano Cordoba,440,Defensa Y Justicia,442,2,0,True
+1334377,2025-02-24T00:00:00+00:00,FT,Atletico Tucuman,455,Gimnasia L.P.,434,0,1,True
+1334379,2025-02-24T20:00:00+00:00,FT,Barracas Central,2432,Newells Old Boys,457,2,0,True
+1334380,2025-02-24T22:00:00+00:00,FT,Argentinos JRS,458,Independ. Rivadavia,473,0,0,True
+1334381,2025-02-25T00:00:00+00:00,FT,Tigre,452,Banfield,449,1,0,True
+1334382,2025-02-28T23:00:00+00:00,FT,Boca Juniors,451,Rosario Central,437,1,0,True
+1334384,2025-03-01T01:15:00+00:00,FT,San Martin S.J.,461,Belgrano Cordoba,440,3,1,True
+1334383,2025-03-01T01:15:00+00:00,FT,Central Cordoba de Santiago,1065,Deportivo Riestra,476,0,0,True
+1334385,2025-03-01T20:00:00+00:00,FT,Aldosivi,463,Sarmiento Junin,474,2,2,True
+1334386,2025-03-01T22:15:00+00:00,FT,River Plate,435,Estudiantes L.P.,450,0,2,True
+1334387,2025-03-02T00:30:00+00:00,FT,Union Santa Fe,441,Gimnasia L.P.,434,1,0,True
+1334388,2025-03-02T00:30:00+00:00,FT,Talleres Cordoba,456,Tigre,452,1,2,True
+1334390,2025-03-02T20:00:00+00:00,FT,Argentinos JRS,458,Instituto Cordoba,478,2,0,True
+1334389,2025-03-02T20:00:00+00:00,FT,Independ. Rivadavia,473,Lanus,446,1,1,True
+1334391,2025-03-02T22:15:00+00:00,FT,Velez Sarsfield,438,Huracan,445,0,2,True
+1334394,2025-03-03T20:00:00+00:00,FT,Barracas Central,2432,Godoy Cruz,439,1,2,True
+1334395,2025-03-03T22:00:00+00:00,FT,San Lorenzo,460,Racing Club,436,3,2,True
+1334396,2025-03-04T00:00:00+00:00,FT,Atletico Tucuman,455,Newells Old Boys,457,1,2,True
+1334392,2025-03-04T22:30:00+00:00,FT,Banfield,449,Independiente,453,0,0,True
+1334393,2025-03-04T23:00:00+00:00,FT,Platense,1064,Defensa Y Justicia,442,0,1,True
+1334398,2025-03-07T22:00:00+00:00,FT,Velez Sarsfield,438,San Martin S.J.,461,1,0,True
+1334397,2025-03-07T22:00:00+00:00,FT,Banfield,449,Argentinos JRS,458,1,2,True
+1334399,2025-03-08T00:15:00+00:00,FT,Central Cordoba de Santiago,1065,Boca Juniors,451,0,3,True
+1334400,2025-03-08T20:00:00+00:00,FT,San Lorenzo,460,Independiente,453,1,2,True
+1334401,2025-03-08T22:15:00+00:00,FT,Racing Club,436,Huracan,445,0,1,True
+1334403,2025-03-09T00:30:00+00:00,FT,Sarmiento Junin,474,Barracas Central,2432,1,1,True
+1334402,2025-03-09T00:30:00+00:00,FT,Platense,1064,Lanus,446,0,0,True
+1334404,2025-03-09T20:00:00+00:00,FT,Defensa Y Justicia,442,Estudiantes L.P.,450,1,0,True
+1334405,2025-03-09T20:00:00+00:00,FT,Aldosivi,463,Tigre,452,0,2,True
+1334406,2025-03-09T22:15:00+00:00,FT,River Plate,435,Atletico Tucuman,455,1,0,True
+1334407,2025-03-10T00:30:00+00:00,FT,Newells Old Boys,457,Belgrano Cordoba,440,0,0,True
+1334408,2025-03-10T00:30:00+00:00,FT,Instituto Cordoba,478,Godoy Cruz,439,1,1,True
+1334409,2025-03-10T22:00:00+00:00,FT,Gimnasia L.P.,434,Deportivo Riestra,476,1,1,True
+1334411,2025-03-11T00:15:00+00:00,FT,Talleres Cordoba,456,Rosario Central,437,0,0,True
+1334410,2025-03-11T00:15:00+00:00,FT,Independ. Rivadavia,473,Union Santa Fe,441,2,0,True
+1334412,2025-03-14T22:00:00+00:00,FT,Argentinos JRS,458,Aldosivi,463,0,2,True
+1334413,2025-03-15T00:00:00+00:00,FT,Godoy Cruz,439,San Lorenzo,460,0,0,True
+1334414,2025-03-15T19:00:00+00:00,FT,Deportivo Riestra,476,River Plate,435,0,0,True
+1334416,2025-03-15T21:30:00+00:00,FT,Rosario Central,437,Gimnasia L.P.,434,2,1,True
+1334415,2025-03-15T21:30:00+00:00,FT,Estudiantes L.P.,450,Newells Old Boys,457,1,1,True
+1334417,2025-03-16T00:00:00+00:00,FT,Huracan,445,Independ. Rivadavia,473,2,0,True
+1334418,2025-03-16T00:00:00+00:00,FT,Sarmiento Junin,474,Talleres Cordoba,456,0,0,True
+1334419,2025-03-16T19:00:00+00:00,FT,Independiente,453,Racing Club,436,1,1,True
+1334420,2025-03-16T21:15:00+00:00,FT,Boca Juniors,451,Defensa Y Justicia,442,4,0,True
+1334421,2025-03-17T00:00:00+00:00,FT,Belgrano Cordoba,440,Barracas Central,2432,1,1,True
+1334422,2025-03-17T00:00:00+00:00,FT,Lanus,446,Instituto Cordoba,478,4,1,True
+1334423,2025-03-17T22:00:00+00:00,FT,Union Santa Fe,441,Banfield,449,3,1,True
+1334424,2025-03-17T22:00:00+00:00,FT,Tigre,452,Central Cordoba de Santiago,1065,1,2,True
+1334426,2025-03-18T00:15:00+00:00,FT,Atletico Tucuman,455,Velez Sarsfield,438,1,2,True
+1334425,2025-03-18T00:15:00+00:00,FT,San Martin S.J.,461,Platense,1064,0,2,True
+1334378,2025-03-21T00:00:00+00:00,FT,Union Santa Fe,441,Racing Club,436,0,1,True
+1334320,2025-03-22T20:00:00+00:00,FT,Godoy Cruz,439,Talleres Cordoba,456,0,0,True
+1334431,2025-03-27T18:30:00+00:00,FT,Aldosivi,463,Union Santa Fe,441,2,1,True
+1334427,2025-03-27T21:00:00+00:00,FT,Barracas Central,2432,Estudiantes L.P.,450,2,1,True
+1334433,2025-03-28T00:00:00+00:00,FT,Independ. Rivadavia,473,Racing Club,436,2,1,True
+1334429,2025-03-28T20:00:00+00:00,FT,Defensa Y Justicia,442,Tigre,452,1,2,True
+1334432,2025-03-28T22:15:00+00:00,FT,Banfield,449,Huracan,445,0,0,True
+1334439,2025-03-28T22:15:00+00:00,FT,San Lorenzo,460,Lanus,446,1,1,True
+1334436,2025-03-29T00:30:00+00:00,FT,Velez Sarsfield,438,Deportivo Riestra,476,0,1,True
+1334437,2025-03-29T00:30:00+00:00,FT,Platense,1064,Atletico Tucuman,455,2,1,True
+1334438,2025-03-29T19:30:00+00:00,FT,Instituto Cordoba,478,San Martin S.J.,461,1,0,True
+1334430,2025-03-29T21:30:00+00:00,FT,Central Cordoba de Santiago,1065,Argentinos JRS,458,1,1,True
+1334440,2025-03-29T21:45:00+00:00,FT,Independiente,453,Godoy Cruz,439,4,0,True
+1334435,2025-03-30T00:00:00+00:00,FT,River Plate,435,Rosario Central,437,2,2,True
+1334441,2025-03-30T18:00:00+00:00,FT,Belgrano Cordoba,440,Talleres Cordoba,456,1,1,True
+1334434,2025-03-30T19:00:00+00:00,FT,Gimnasia L.P.,434,Sarmiento Junin,474,0,0,True
+1334428,2025-03-30T22:30:00+00:00,FT,Newells Old Boys,457,Boca Juniors,451,2,0,True
+1334448,2025-04-04T22:00:00+00:00,FT,Estudiantes L.P.,450,Belgrano Cordoba,440,0,1,True
+1334450,2025-04-05T01:00:00+00:00,FT,San Martin S.J.,461,San Lorenzo,460,0,1,True
+1334453,2025-04-05T18:30:00+00:00,FT,Rosario Central,437,Velez Sarsfield,438,2,1,True
+1334456,2025-04-05T18:30:00+00:00,FT,Godoy Cruz,439,Independ. Rivadavia,473,1,1,True
+1334443,2025-04-05T21:00:00+00:00,FT,Huracan,445,Aldosivi,463,3,3,True
+1334455,2025-04-05T21:00:00+00:00,FT,Talleres Cordoba,456,Gimnasia L.P.,434,2,0,True
+1334454,2025-04-05T23:30:00+00:00,FT,Sarmiento Junin,474,River Plate,435,1,1,True
+1334444,2025-04-06T18:30:00+00:00,FT,Union Santa Fe,441,Central Cordoba de Santiago,1065,1,0,True
+1334449,2025-04-06T18:30:00+00:00,FT,Lanus,446,Independiente,453,1,1,True
+1334447,2025-04-06T21:00:00+00:00,FT,Boca Juniors,451,Barracas Central,2432,1,0,True
+1334442,2025-04-06T23:15:00+00:00,FT,Racing Club,436,Banfield,449,4,1,True
+1334445,2025-04-06T23:15:00+00:00,FT,Argentinos JRS,458,Defensa Y Justicia,442,4,1,True
+1334452,2025-04-07T18:30:00+00:00,FT,Deportivo Riestra,476,Platense,1064,1,0,True
+1334446,2025-04-08T00:00:00+00:00,FT,Tigre,452,Newells Old Boys,457,0,2,True
+1334451,2025-04-08T00:00:00+00:00,FT,Atletico Tucuman,455,Instituto Cordoba,478,3,2,True
+1334463,2025-04-11T22:00:00+00:00,FT,Banfield,449,Independ. Rivadavia,473,1,1,True
+1334459,2025-04-12T00:00:00+00:00,FT,Newells Old Boys,457,Argentinos JRS,458,0,0,True
+1334468,2025-04-12T18:30:00+00:00,FT,San Lorenzo,460,Atletico Tucuman,455,1,0,True
+1334458,2025-04-12T21:00:00+00:00,FT,Barracas Central,2432,Tigre,452,1,0,True
+1334457,2025-04-12T23:30:00+00:00,FT,Belgrano Cordoba,440,Boca Juniors,451,1,3,True
+1334471,2025-04-13T18:30:00+00:00,FT,Gimnasia L.P.,434,Estudiantes L.P.,450,1,1,True
+1334467,2025-04-13T18:30:00+00:00,FT,Instituto Cordoba,478,Deportivo Riestra,476,3,0,True
+1334469,2025-04-13T21:00:00+00:00,FT,Independiente,453,San Martin S.J.,461,2,0,True
+1334464,2025-04-13T23:15:00+00:00,FT,River Plate,435,Talleres Cordoba,456,1,1,True
+1334462,2025-04-14T18:30:00+00:00,FT,Aldosivi,463,Racing Club,436,0,2,True
+1334461,2025-04-14T21:00:00+00:00,FT,Central Cordoba de Santiago,1065,Huracan,445,1,2,True
+1334460,2025-04-14T22:00:00+00:00,FT,Defensa Y Justicia,442,Union Santa Fe,441,0,0,True
+1334465,2025-04-15T00:15:00+00:00,FT,Velez Sarsfield,438,Sarmiento Junin,474,0,1,True
+1334470,2025-04-15T00:15:00+00:00,FT,Godoy Cruz,439,Lanus,446,0,0,True
+1334466,2025-04-15T23:00:00+00:00,FT,Platense,1064,Rosario Central,437,0,0,True
+1334485,2025-04-18T20:00:00+00:00,FT,Gimnasia L.P.,434,River Plate,435,0,3,True
+1334473,2025-04-18T22:15:00+00:00,FT,Racing Club,436,Central Cordoba de Santiago,1065,1,0,True
+1334484,2025-04-18T22:15:00+00:00,FT,Talleres Cordoba,456,Velez Sarsfield,438,0,1,True
+1334475,2025-04-19T00:30:00+00:00,FT,Union Santa Fe,441,Newells Old Boys,457,1,1,True
+1334486,2025-04-19T19:15:00+00:00,FT,Lanus,446,Banfield,449,1,1,True
+1334474,2025-04-19T21:15:00+00:00,FT,Huracan,445,Defensa Y Justicia,442,1,1,True
+1334478,2025-04-19T23:30:00+00:00,FT,Boca Juniors,451,Estudiantes L.P.,450,2,0,True
+1334481,2025-04-20T18:30:00+00:00,FT,Deportivo Riestra,476,San Lorenzo,460,0,0,True
+1334479,2025-04-20T19:30:00+00:00,FT,San Martin S.J.,461,Godoy Cruz,439,1,0,True
+1334483,2025-04-20T21:00:00+00:00,FT,Sarmiento Junin,474,Platense,1064,0,1,True
+1334482,2025-04-20T23:30:00+00:00,FT,Rosario Central,437,Instituto Cordoba,478,3,0,True
+1334477,2025-04-22T22:00:00+00:00,FT,Tigre,452,Belgrano Cordoba,440,0,0,True
+1334476,2025-04-22T22:00:00+00:00,FT,Argentinos JRS,458,Barracas Central,2432,3,0,True
+1334472,2025-04-23T00:15:00+00:00,FT,Independ. Rivadavia,473,Aldosivi,463,1,0,True
+1334493,2025-04-26T18:00:00+00:00,FT,Aldosivi,463,Banfield,449,2,1,True
+1334497,2025-04-26T20:00:00+00:00,FT,San Lorenzo,460,Rosario Central,437,0,1,True
+1334488,2025-04-26T22:00:00+00:00,FT,Belgrano Cordoba,440,Argentinos JRS,458,1,1,True
+1334501,2025-04-27T18:30:00+00:00,FT,River Plate,435,Boca Juniors,451,2,1,True
+1334500,2025-04-27T22:00:00+00:00,FT,Lanus,446,San Martin S.J.,461,1,0,True
+1334496,2025-04-27T22:00:00+00:00,FT,Instituto Cordoba,478,Sarmiento Junin,474,1,1,True
+1334498,2025-04-28T00:15:00+00:00,FT,Independiente,453,Deportivo Riestra,476,0,0,True
+1334489,2025-04-28T18:00:00+00:00,FT,Barracas Central,2432,Union Santa Fe,441,2,1,True
+1334499,2025-04-28T20:15:00+00:00,FT,Godoy Cruz,439,Atletico Tucuman,455,1,0,True
+1334491,2025-04-28T22:30:00+00:00,FT,Defensa Y Justicia,442,Racing Club,436,1,2,True
+1334487,2025-04-28T22:30:00+00:00,FT,Estudiantes L.P.,450,Tigre,452,0,0,True
+1334494,2025-04-29T00:45:00+00:00,FT,Velez Sarsfield,438,Gimnasia L.P.,434,1,0,True
+1334492,2025-04-29T00:45:00+00:00,FT,Central Cordoba de Santiago,1065,Independ. Rivadavia,473,1,2,True
+1334490,2025-04-29T22:00:00+00:00,FT,Newells Old Boys,457,Huracan,445,2,0,True
+1334495,2025-04-29T22:00:00+00:00,FT,Platense,1064,Talleres Cordoba,456,2,1,True
+1334480,2025-05-01T00:00:00+00:00,FT,Atletico Tucuman,455,Independiente,453,2,0,True
+1334504,2025-05-02T18:30:00+00:00,FT,Racing Club,436,Newells Old Boys,457,1,0,True
+1334502,2025-05-02T18:30:00+00:00,FT,Banfield,449,Central Cordoba de Santiago,1065,3,1,True
+1334507,2025-05-02T18:30:00+00:00,FT,Argentinos JRS,458,Estudiantes L.P.,450,4,0,True
+1334503,2025-05-02T18:30:00+00:00,FT,Independ. Rivadavia,473,Defensa Y Justicia,442,3,2,True
+1334506,2025-05-02T21:00:00+00:00,FT,Union Santa Fe,441,Belgrano Cordoba,440,1,1,True
+1334513,2025-05-03T19:00:00+00:00,FT,Talleres Cordoba,456,Instituto Cordoba,478,1,2,True
+1334512,2025-05-03T19:00:00+00:00,FT,Sarmiento Junin,474,San Lorenzo,460,1,1,True
+1334510,2025-05-03T19:00:00+00:00,FT,Deportivo Riestra,476,Godoy Cruz,439,3,0,True
+1334511,2025-05-03T21:30:00+00:00,FT,Rosario Central,437,Independiente,453,1,0,True
+1334505,2025-05-04T00:00:00+00:00,FT,Huracan,445,Barracas Central,2432,0,1,True
+1334509,2025-05-04T00:00:00+00:00,FT,Atletico Tucuman,455,Lanus,446,1,0,True
+1334514,2025-05-04T18:30:00+00:00,FT,Gimnasia L.P.,434,Platense,1064,1,0,True
+1334516,2025-05-04T18:30:00+00:00,FT,San Martin S.J.,461,Aldosivi,463,0,3,True
+1334508,2025-05-04T21:00:00+00:00,FT,Tigre,452,Boca Juniors,451,1,1,True
+1334515,2025-05-04T23:30:00+00:00,FT,River Plate,435,Velez Sarsfield,438,4,1,True
+1374524,2025-05-10T17:00:00+00:00,FT,San Lorenzo,460,Tigre,452,2,1,True
+1374525,2025-05-10T19:30:00+00:00,FT,Rosario Central,437,Estudiantes L.P.,450,2,0,True
+1374526,2025-05-10T21:45:00+00:00,FT,Racing Club,436,Platense,1064,0,1,True
+1374527,2025-05-11T00:00:00+00:00,PEN,Boca Juniors,451,Lanus,446,0,0,False
+1374528,2025-05-11T18:30:00+00:00,FT,Independiente,453,Independ. Rivadavia,473,1,0,True
+1374529,2025-05-11T21:00:00+00:00,FT,Argentinos JRS,458,Instituto Cordoba,478,3,1,True
+1374530,2025-05-11T23:30:00+00:00,FT,Huracan,445,Deportivo Riestra,476,3,2,True
+1374531,2025-05-12T23:30:00+00:00,FT,River Plate,435,Barracas Central,2432,3,0,True
+1375309,2025-05-18T22:00:00+00:00,FT,Rosario Central,437,Huracan,445,0,1,True
+1375310,2025-05-19T22:00:00+00:00,PEN,Argentinos JRS,458,San Lorenzo,460,1,1,False
+1375311,2025-05-20T00:30:00+00:00,FT,Boca Juniors,451,Independiente,453,0,1,True
+1375312,2025-05-20T23:30:00+00:00,PEN,River Plate,435,Platense,1064,1,1,False
+1376084,2025-05-24T21:30:00+00:00,PEN,Independiente,453,Huracan,445,0,0,False
+1376085,2025-05-25T19:00:00+00:00,FT,San Lorenzo,460,Platense,1064,0,1,True
+1376552,2025-06-01T20:00:00+00:00,FT,Huracan,445,Platense,1064,0,1,True
+1374069,2025-07-11T18:30:00+00:00,FT,Aldosivi,463,Central Cordoba de Santiago,1065,0,0,True
+1374073,2025-07-11T23:00:00+00:00,FT,Talleres Cordoba,456,San Lorenzo,460,1,2,True
+1374075,2025-07-12T19:00:00+00:00,FT,Rosario Central,437,Godoy Cruz,439,1,1,True
+1374072,2025-07-12T21:30:00+00:00,FT,Gimnasia L.P.,434,Instituto Cordoba,478,0,1,True
+1374065,2025-07-12T21:30:00+00:00,FT,Huracan,445,Belgrano Cordoba,440,0,3,True
+1374066,2025-07-12T23:45:00+00:00,FT,Racing Club,436,Barracas Central,2432,0,1,True
+1374074,2025-07-13T17:15:00+00:00,FT,Sarmiento Junin,474,Independiente,453,2,2,True
+1374077,2025-07-13T19:30:00+00:00,FT,Atletico Tucuman,455,San Martin S.J.,461,2,1,True
+1374067,2025-07-13T19:30:00+00:00,FT,Independ. Rivadavia,473,Newells Old Boys,457,1,2,True
+1374063,2025-07-13T21:45:00+00:00,FT,Argentinos JRS,458,Boca Juniors,451,0,0,True
+1374071,2025-07-14T00:00:00+00:00,FT,River Plate,435,Platense,1064,3,1,True
+1374076,2025-07-14T19:30:00+00:00,FT,Deportivo Riestra,476,Lanus,446,1,0,True
+1374068,2025-07-14T22:00:00+00:00,FT,Banfield,449,Defensa Y Justicia,442,0,0,True
+1374070,2025-07-15T00:15:00+00:00,FT,Velez Sarsfield,438,Tigre,452,2,1,True
+1374064,2025-07-15T00:15:00+00:00,FT,Union Santa Fe,441,Estudiantes L.P.,450,1,0,True
+1374083,2025-07-18T22:30:00+00:00,FT,Boca Juniors,451,Union Santa Fe,441,1,1,True
+1374092,2025-07-19T00:30:00+00:00,FT,Atletico Tucuman,455,Central Cordoba de Santiago,1065,1,1,True
+1374089,2025-07-19T17:30:00+00:00,FT,San Lorenzo,460,Gimnasia L.P.,434,0,0,True
+1374086,2025-07-19T19:30:00+00:00,FT,Lanus,446,Rosario Central,437,0,1,True
+1374087,2025-07-19T21:45:00+00:00,FT,Godoy Cruz,439,Sarmiento Junin,474,0,0,True
+1374091,2025-07-19T21:45:00+00:00,FT,Platense,1064,Velez Sarsfield,438,0,0,True
+1374090,2025-07-20T00:00:00+00:00,FT,Instituto Cordoba,478,River Plate,435,0,4,True
+1374080,2025-07-20T17:30:00+00:00,FT,Barracas Central,2432,Independ. Rivadavia,473,0,3,True
+1374084,2025-07-20T19:45:00+00:00,FT,Tigre,452,Argentinos JRS,458,2,1,True
+1374079,2025-07-20T19:45:00+00:00,FT,Newells Old Boys,457,Banfield,449,1,2,True
+1374081,2025-07-20T22:00:00+00:00,FT,Belgrano Cordoba,440,Racing Club,436,0,1,True
+1374088,2025-07-21T00:00:00+00:00,FT,Independiente,453,Talleres Cordoba,456,1,2,True
+1374082,2025-07-21T22:00:00+00:00,FT,Estudiantes L.P.,450,Huracan,445,2,1,True
+1374078,2025-07-22T00:15:00+00:00,FT,Defensa Y Justicia,442,Aldosivi,463,2,0,True
+1374085,2025-07-22T00:15:00+00:00,FT,San Martin S.J.,461,Deportivo Riestra,476,3,2,True
+1374104,2025-07-25T22:00:00+00:00,FT,Sarmiento Junin,474,Lanus,446,0,2,True
+1374093,2025-07-26T00:15:00+00:00,FT,Union Santa Fe,441,Tigre,452,0,0,True
+1374096,2025-07-26T00:15:00+00:00,FT,Independ. Rivadavia,473,Belgrano Cordoba,440,0,0,True
+1374098,2025-07-26T17:30:00+00:00,FT,Aldosivi,463,Newells Old Boys,457,0,0,True
+1374105,2025-07-26T19:45:00+00:00,FT,Rosario Central,437,San Martin S.J.,461,0,0,True
+1374107,2025-07-26T22:00:00+00:00,FT,Platense,1064,Argentinos JRS,458,0,0,True
+1374100,2025-07-26T22:15:00+00:00,FT,Velez Sarsfield,438,Instituto Cordoba,478,0,0,True
+1374095,2025-07-27T00:15:00+00:00,FT,Racing Club,436,Estudiantes L.P.,450,0,1,True
+1374102,2025-07-27T19:00:00+00:00,FT,Gimnasia L.P.,434,Independiente,453,1,0,True
+1374103,2025-07-27T19:00:00+00:00,FT,Talleres Cordoba,456,Godoy Cruz,439,0,0,True
+1374094,2025-07-27T21:30:00+00:00,FT,Huracan,445,Boca Juniors,451,1,0,True
+1374101,2025-07-27T23:30:00+00:00,FT,River Plate,435,San Lorenzo,460,0,0,True
+1374106,2025-07-28T19:00:00+00:00,FT,Deportivo Riestra,476,Atletico Tucuman,455,1,0,True
+1374099,2025-07-28T21:00:00+00:00,FT,Central Cordoba de Santiago,1065,Defensa Y Justicia,442,2,1,True
+1374097,2025-07-28T23:00:00+00:00,FT,Banfield,449,Barracas Central,2432,1,3,True
+1374118,2025-08-07T20:00:00+00:00,FT,Godoy Cruz,439,Gimnasia L.P.,434,1,2,True
+1374120,2025-08-07T22:00:00+00:00,FT,San Lorenzo,460,Velez Sarsfield,438,1,0,True
+1374111,2025-08-08T00:00:00+00:00,FT,Estudiantes L.P.,450,Independ. Rivadavia,473,2,1,True
+1374113,2025-08-08T22:00:00+00:00,FT,Tigre,452,Huracan,445,0,1,True
+1374108,2025-08-09T00:00:00+00:00,FT,Newells Old Boys,457,Central Cordoba de Santiago,1065,1,1,True
+1374117,2025-08-09T00:15:00+00:00,FT,Lanus,446,Talleres Cordoba,456,1,0,True
+1374116,2025-08-09T17:30:00+00:00,FT,San Martin S.J.,461,Sarmiento Junin,474,0,1,True
+1374112,2025-08-09T19:30:00+00:00,FT,Boca Juniors,451,Racing Club,436,1,1,True
+1374119,2025-08-09T21:30:00+00:00,FT,Independiente,453,River Plate,435,0,0,True
+1374110,2025-08-09T23:45:00+00:00,FT,Belgrano Cordoba,440,Banfield,449,2,1,True
+1374115,2025-08-09T23:45:00+00:00,FT,Atletico Tucuman,455,Rosario Central,437,0,0,True
+1374109,2025-08-10T18:00:00+00:00,FT,Barracas Central,2432,Aldosivi,463,3,1,True
+1374121,2025-08-10T20:00:00+00:00,FT,Instituto Cordoba,478,Platense,1064,1,1,True
+1374114,2025-08-10T23:00:00+00:00,FT,Argentinos JRS,458,Union Santa Fe,441,1,0,True
+1374122,2025-08-11T22:00:00+00:00,FT,Defensa Y Justicia,442,Deportivo Riestra,476,1,0,True
+1374127,2025-08-15T18:30:00+00:00,FT,Aldosivi,463,Belgrano Cordoba,440,0,0,True
+1374137,2025-08-15T22:00:00+00:00,FT,Instituto Cordoba,478,Union Santa Fe,441,0,4,True
+1374124,2025-08-16T00:00:00+00:00,FT,Racing Club,436,Tigre,452,1,2,True
+1374130,2025-08-16T17:15:00+00:00,FT,Platense,1064,San Lorenzo,460,2,1,True
+1374123,2025-08-16T19:15:00+00:00,FT,Huracan,445,Argentinos JRS,458,1,0,True
+1374136,2025-08-16T21:30:00+00:00,FT,Rosario Central,437,Deportivo Riestra,476,1,1,True
+1374131,2025-08-16T23:30:00+00:00,FT,Velez Sarsfield,438,Independiente,453,2,1,True
+1374133,2025-08-17T17:00:00+00:00,FT,Gimnasia L.P.,434,Lanus,446,1,2,True
+1374129,2025-08-17T17:00:00+00:00,FT,Defensa Y Justicia,442,Newells Old Boys,457,1,1,True
+1374126,2025-08-17T19:15:00+00:00,FT,Banfield,449,Estudiantes L.P.,450,3,2,True
+1374128,2025-08-17T19:15:00+00:00,FT,Central Cordoba de Santiago,1065,Barracas Central,2432,1,1,True
+1374132,2025-08-17T21:30:00+00:00,FT,River Plate,435,Godoy Cruz,439,4,2,True
+1374125,2025-08-17T23:30:00+00:00,FT,Independ. Rivadavia,473,Boca Juniors,451,0,3,True
+1374135,2025-08-18T22:00:00+00:00,FT,Sarmiento Junin,474,Atletico Tucuman,455,2,2,True
+1374134,2025-08-19T00:00:00+00:00,FT,Talleres Cordoba,456,San Martin S.J.,461,0,0,True
+1374138,2025-08-22T18:30:00+00:00,FT,Barracas Central,2432,Defensa Y Justicia,442,1,1,True
+1374142,2025-08-22T23:00:00+00:00,FT,Tigre,452,Independ. Rivadavia,473,1,1,True
+1374151,2025-08-23T17:30:00+00:00,FT,San Lorenzo,460,Instituto Cordoba,478,1,0,True
+1374152,2025-08-23T20:30:00+00:00,FT,Rosario Central,437,Newells Old Boys,457,1,0,True
+1374146,2025-08-23T23:00:00+00:00,FT,Atletico Tucuman,455,Talleres Cordoba,456,3,0,True
+1374147,2025-08-23T23:00:00+00:00,FT,San Martin S.J.,461,Gimnasia L.P.,434,1,0,True
+1374144,2025-08-24T17:00:00+00:00,FT,Union Santa Fe,441,Huracan,445,1,1,True
+1374143,2025-08-24T19:15:00+00:00,FT,Argentinos JRS,458,Racing Club,436,4,1,True
+1374141,2025-08-24T21:15:00+00:00,FT,Boca Juniors,451,Banfield,449,2,0,True
+1374145,2025-08-25T18:00:00+00:00,FT,Deportivo Riestra,476,Sarmiento Junin,474,3,0,True
+1374149,2025-08-25T20:00:00+00:00,FT,Godoy Cruz,439,Velez Sarsfield,438,0,2,True
+1374139,2025-08-25T22:00:00+00:00,FT,Belgrano Cordoba,440,Central Cordoba de Santiago,1065,0,3,True
+1374140,2025-08-25T22:15:00+00:00,FT,Estudiantes L.P.,450,Aldosivi,463,1,0,True
+1374148,2025-08-26T00:15:00+00:00,FT,Lanus,446,River Plate,435,1,1,True
+1374155,2025-08-29T22:00:00+00:00,FT,Banfield,449,Tigre,452,1,0,True
+1374159,2025-08-29T22:00:00+00:00,FT,Newells Old Boys,457,Barracas Central,2432,1,2,True
+1374160,2025-08-30T00:15:00+00:00,FT,Instituto Cordoba,478,Independiente,453,0,0,True
+1374167,2025-08-30T17:45:00+00:00,FT,San Lorenzo,460,Huracan,445,0,0,True
+1374154,2025-08-30T20:00:00+00:00,FT,Independ. Rivadavia,473,Argentinos JRS,458,2,1,True
+1374157,2025-08-30T20:00:00+00:00,FT,Central Cordoba de Santiago,1065,Estudiantes L.P.,450,2,0,True
+1374162,2025-08-31T00:30:00+00:00,FT,Velez Sarsfield,438,Lanus,446,3,0,True
+1374156,2025-08-31T17:30:00+00:00,FT,Aldosivi,463,Boca Juniors,451,0,2,True
+1374158,2025-08-31T19:45:00+00:00,FT,Defensa Y Justicia,442,Belgrano Cordoba,440,2,1,True
+1374165,2025-08-31T19:45:00+00:00,FT,Talleres Cordoba,456,Deportivo Riestra,476,0,1,True
+1374163,2025-08-31T22:15:00+00:00,FT,River Plate,435,San Martin S.J.,461,2,0,True
+1374153,2025-09-01T00:15:00+00:00,FT,Racing Club,436,Union Santa Fe,441,2,3,True
+1374164,2025-09-01T20:00:00+00:00,FT,Gimnasia L.P.,434,Atletico Tucuman,455,1,0,True
+1374161,2025-09-01T22:15:00+00:00,FT,Platense,1064,Godoy Cruz,439,1,3,True
+1374180,2025-09-11T23:00:00+00:00,FT,Belgrano Cordoba,440,San Martin S.J.,461,0,0,True
+1374178,2025-09-12T17:30:00+00:00,FT,Deportivo Riestra,476,Central Cordoba de Santiago,1065,2,0,True
+1374179,2025-09-12T22:00:00+00:00,FT,Racing Club,436,San Lorenzo,460,2,0,True
+1374170,2025-09-12T22:00:00+00:00,FT,Huracan,445,Velez Sarsfield,438,0,0,True
+1374172,2025-09-13T00:15:00+00:00,FT,Lanus,446,Independ. Rivadavia,473,1,0,True
+1374173,2025-09-13T00:15:00+00:00,FT,Newells Old Boys,457,Atletico Tucuman,455,2,0,True
+1374171,2025-09-13T17:30:00+00:00,FT,Godoy Cruz,439,Barracas Central,2432,0,0,True
+1374168,2025-09-13T19:45:00+00:00,FT,Independiente,453,Banfield,449,0,1,True
+1374169,2025-09-13T22:00:00+00:00,FT,Estudiantes L.P.,450,River Plate,435,1,2,True
+1374182,2025-09-14T00:15:00+00:00,FT,Sarmiento Junin,474,Aldosivi,463,2,0,True
+1374176,2025-09-14T18:00:00+00:00,FT,Gimnasia L.P.,434,Union Santa Fe,441,1,3,True
+1374174,2025-09-14T18:00:00+00:00,FT,Instituto Cordoba,478,Argentinos JRS,458,2,0,True
+1374181,2025-09-14T20:30:00+00:00,FT,Rosario Central,437,Boca Juniors,451,1,1,True
+1374175,2025-09-14T23:00:00+00:00,FT,Defensa Y Justicia,442,Platense,1064,1,2,True
+1374177,2025-09-14T23:00:00+00:00,FT,Tigre,452,Talleres Cordoba,456,0,0,True
+1374191,2025-09-19T20:00:00+00:00,FT,Deportivo Riestra,476,Gimnasia L.P.,434,1,0,True
+1374189,2025-09-19T22:00:00+00:00,FT,Huracan,445,Racing Club,436,0,2,True
+1374193,2025-09-19T22:15:00+00:00,FT,San Martin S.J.,461,Velez Sarsfield,438,1,2,True
+1374194,2025-09-20T00:15:00+00:00,FT,Lanus,446,Platense,1064,2,1,True
+1374197,2025-09-20T17:30:00+00:00,FT,Barracas Central,2432,Sarmiento Junin,474,0,1,True
+1374188,2025-09-20T19:45:00+00:00,FT,Union Santa Fe,441,Independ. Rivadavia,473,2,2,True
+1374192,2025-09-21T00:15:00+00:00,FT,Atletico Tucuman,455,River Plate,435,2,0,True
+1374186,2025-09-21T15:00:00+00:00,FT,Tigre,452,Aldosivi,463,2,0,True
+1374196,2025-09-21T17:30:00+00:00,FT,Independiente,453,San Lorenzo,460,1,1,True
+1374195,2025-09-21T19:45:00+00:00,FT,Godoy Cruz,439,Instituto Cordoba,478,1,1,True
+1374190,2025-09-21T22:00:00+00:00,FT,Rosario Central,437,Talleres Cordoba,456,1,1,True
+1374187,2025-09-21T22:00:00+00:00,FT,Argentinos JRS,458,Banfield,449,3,0,True
+1374185,2025-09-22T00:15:00+00:00,FT,Boca Juniors,451,Central Cordoba de Santiago,1065,2,2,True
+1374184,2025-09-22T22:00:00+00:00,FT,Estudiantes L.P.,450,Defensa Y Justicia,442,1,0,True
+1374183,2025-09-23T00:00:00+00:00,FT,Belgrano Cordoba,440,Newells Old Boys,457,3,0,True
+1374199,2025-09-26T22:00:00+00:00,FT,Banfield,449,Union Santa Fe,441,0,0,True
+1374207,2025-09-26T22:00:00+00:00,FT,Platense,1064,San Martin S.J.,461,2,2,True
+1374201,2025-09-27T00:15:00+00:00,FT,Central Cordoba de Santiago,1065,Tigre,452,0,1,True
+1374210,2025-09-27T17:30:00+00:00,FT,Gimnasia L.P.,434,Rosario Central,437,0,3,True
+1374200,2025-09-27T17:30:00+00:00,FT,Aldosivi,463,Argentinos JRS,458,0,2,True
+1374205,2025-09-27T19:45:00+00:00,FT,San Lorenzo,460,Godoy Cruz,439,2,0,True
+1374202,2025-09-27T22:00:00+00:00,FT,Defensa Y Justicia,442,Boca Juniors,451,2,1,True
+1374211,2025-09-28T00:15:00+00:00,FT,Talleres Cordoba,456,Sarmiento Junin,474,1,0,True
+1374212,2025-09-28T18:15:00+00:00,FT,Racing Club,436,Independiente,453,0,0,True
+1374209,2025-09-28T21:00:00+00:00,FT,River Plate,435,Deportivo Riestra,476,1,2,True
+1374198,2025-09-28T22:30:00+00:00,FT,Independ. Rivadavia,473,Huracan,445,0,0,True
+1374206,2025-09-28T23:15:00+00:00,FT,Instituto Cordoba,478,Lanus,446,0,0,True
+1374204,2025-09-29T18:30:00+00:00,FT,Barracas Central,2432,Belgrano Cordoba,440,1,1,True
+1374208,2025-09-29T23:00:00+00:00,FT,Velez Sarsfield,438,Atletico Tucuman,455,3,1,True
+1374203,2025-09-30T22:00:00+00:00,FT,Newells Old Boys,457,Estudiantes L.P.,450,1,1,True
+1374215,2025-10-03T22:00:00+00:00,FT,Tigre,452,Defensa Y Justicia,442,1,1,True
+1374217,2025-10-04T00:15:00+00:00,FT,Union Santa Fe,441,Aldosivi,463,0,2,True
+1374216,2025-10-04T00:15:00+00:00,FT,Argentinos JRS,458,Central Cordoba de Santiago,1065,0,0,True
+1374220,2025-10-04T17:30:00+00:00,FT,Sarmiento Junin,474,Gimnasia L.P.,434,0,1,True
+1374224,2025-10-04T19:45:00+00:00,FT,San Martin S.J.,461,Instituto Cordoba,478,0,0,True
+1374218,2025-10-04T22:00:00+00:00,FT,Huracan,445,Banfield,449,1,0,True
+1374223,2025-10-04T22:00:00+00:00,FT,Atletico Tucuman,455,Platense,1064,2,0,True
+1374225,2025-10-05T00:15:00+00:00,FT,Lanus,446,San Lorenzo,460,2,1,True
+1374226,2025-10-05T17:30:00+00:00,FT,Godoy Cruz,439,Independiente,453,1,1,True
+1374213,2025-10-05T19:30:00+00:00,FT,Estudiantes L.P.,450,Barracas Central,2432,1,1,True
+1374227,2025-10-05T19:45:00+00:00,FT,Talleres Cordoba,456,Belgrano Cordoba,440,0,0,True
+1374214,2025-10-05T22:00:00+00:00,FT,Boca Juniors,451,Newells Old Boys,457,5,0,True
+1374221,2025-10-06T00:15:00+00:00,FT,Rosario Central,437,River Plate,435,2,1,True
+1374222,2025-10-06T22:00:00+00:00,FT,Deportivo Riestra,476,Velez Sarsfield,438,2,2,True
+1374219,2025-10-07T00:00:00+00:00,FT,Racing Club,436,Independ. Rivadavia,473,0,0,True
+1374236,2025-10-10T17:30:00+00:00,FT,San Lorenzo,460,San Martin S.J.,461,0,1,True
+1374231,2025-10-10T19:15:00+00:00,FT,Defensa Y Justicia,442,Argentinos JRS,458,1,0,True
+1374230,2025-10-10T19:45:00+00:00,FT,Central Cordoba de Santiago,1065,Union Santa Fe,441,3,1,True
+1374232,2025-10-10T21:30:00+00:00,FT,Newells Old Boys,457,Tigre,452,1,1,True
+1374241,2025-10-11T19:00:00+00:00,FT,Gimnasia L.P.,434,Talleres Cordoba,456,1,2,True
+1374228,2025-10-11T21:00:00+00:00,FT,Banfield,449,Racing Club,436,1,3,True
+1374239,2025-10-12T01:15:00+00:00,FT,Velez Sarsfield,438,Rosario Central,437,1,2,True
+1374234,2025-10-12T01:15:00+00:00,FT,Belgrano Cordoba,440,Estudiantes L.P.,450,1,1,True
+1374229,2025-10-12T17:30:00+00:00,FT,Aldosivi,463,Huracan,445,2,0,True
+1374242,2025-10-12T19:45:00+00:00,FT,Independ. Rivadavia,473,Godoy Cruz,439,0,0,True
+1374237,2025-10-12T19:45:00+00:00,FT,Instituto Cordoba,478,Atletico Tucuman,455,2,0,True
+1374240,2025-10-12T22:15:00+00:00,FT,River Plate,435,Sarmiento Junin,474,0,1,True
+1374235,2025-10-13T00:15:00+00:00,FT,Independiente,453,Lanus,446,0,2,True
+1374238,2025-10-13T21:30:00+00:00,FT,Platense,1064,Deportivo Riestra,476,1,1,True
+1374248,2025-10-17T22:00:00+00:00,FT,Racing Club,436,Aldosivi,463,1,0,True
+1374256,2025-10-18T00:15:00+00:00,FT,Lanus,446,Godoy Cruz,439,2,0,True
+1374245,2025-10-18T00:15:00+00:00,FT,Argentinos JRS,458,Newells Old Boys,457,3,1,True
+1374249,2025-10-18T18:45:00+00:00,FT,Independ. Rivadavia,473,Banfield,449,1,2,True
+1374243,2025-10-18T21:00:00+00:00,FT,Boca Juniors,451,Belgrano Cordoba,440,1,2,True
+1374250,2025-10-18T23:30:00+00:00,FT,Talleres Cordoba,456,River Plate,435,0,2,True
+1374257,2025-10-19T18:00:00+00:00,FT,Estudiantes L.P.,450,Gimnasia L.P.,434,2,0,True
+1374251,2025-10-19T18:00:00+00:00,FT,Sarmiento Junin,474,Velez Sarsfield,438,0,2,True
+1374252,2025-10-19T21:00:00+00:00,FT,Rosario Central,437,Platense,1064,1,0,True
+1374255,2025-10-19T21:00:00+00:00,FT,San Martin S.J.,461,Independiente,453,1,0,True
+1374244,2025-10-20T22:00:00+00:00,FT,Tigre,452,Barracas Central,2432,2,2,True
+1374253,2025-10-20T22:00:00+00:00,FT,Deportivo Riestra,476,Instituto Cordoba,478,1,0,True
+1374254,2025-10-21T00:15:00+00:00,FT,Atletico Tucuman,455,San Lorenzo,460,1,2,True
+1374246,2025-10-21T22:15:00+00:00,FT,Union Santa Fe,441,Defensa Y Justicia,442,3,0,True
+1374247,2025-10-22T22:30:00+00:00,FT,Huracan,445,Central Cordoba de Santiago,1065,0,1,True
+1374166,2025-10-24T19:00:00+00:00,FT,Sarmiento Junin,474,Rosario Central,437,0,1,True
+1374150,2025-10-24T21:00:00+00:00,FT,Independiente,453,Platense,1064,3,0,True
+1374233,2025-10-27T19:00:00+00:00,FT,Barracas Central,2432,Boca Juniors,451,1,3,True
+1374267,2025-10-31T22:00:00+00:00,FT,San Lorenzo,460,Deportivo Riestra,476,1,0,True
+1374261,2025-11-01T00:15:00+00:00,FT,Newells Old Boys,457,Union Santa Fe,441,0,1,True
+1374268,2025-11-01T00:15:00+00:00,FT,Instituto Cordoba,478,Rosario Central,437,1,3,True
+1374258,2025-11-01T17:45:00+00:00,FT,Aldosivi,463,Independ. Rivadavia,473,3,1,True
+1374262,2025-11-01T19:00:00+00:00,FT,Barracas Central,2432,Argentinos JRS,458,2,0,True
+1374270,2025-11-01T20:00:00+00:00,FT,Velez Sarsfield,438,Talleres Cordoba,456,0,1,True
+1374266,2025-11-01T23:00:00+00:00,FT,Independiente,453,Atletico Tucuman,455,3,0,True
+1374264,2025-11-02T19:00:00+00:00,FT,Estudiantes L.P.,450,Boca Juniors,451,1,2,True
+1374265,2025-11-02T21:30:00+00:00,FT,Godoy Cruz,439,San Martin S.J.,461,0,0,True
+1374271,2025-11-02T23:30:00+00:00,FT,River Plate,435,Gimnasia L.P.,434,0,1,True
+1374260,2025-11-03T19:45:00+00:00,FT,Defensa Y Justicia,442,Huracan,445,1,3,True
+1374269,2025-11-03T19:45:00+00:00,FT,Platense,1064,Sarmiento Junin,474,1,1,True
+1374259,2025-11-03T22:00:00+00:00,FT,Central Cordoba de Santiago,1065,Racing Club,436,0,0,True
+1374263,2025-11-04T00:15:00+00:00,FT,Belgrano Cordoba,440,Tigre,452,0,0,True
+1374272,2025-11-04T00:15:00+00:00,FT,Banfield,449,Lanus,446,2,1,True
+1374283,2025-11-08T00:00:00+00:00,FT,Rosario Central,437,San Lorenzo,460,0,0,True
+1374277,2025-11-08T20:00:00+00:00,FT,Racing Club,436,Defensa Y Justicia,442,1,0,True
+1374276,2025-11-08T20:00:00+00:00,FT,Huracan,445,Newells Old Boys,457,0,2,True
+1374281,2025-11-08T22:15:00+00:00,FT,Talleres Cordoba,456,Platense,1064,1,0,True
+1374275,2025-11-09T00:30:00+00:00,FT,Union Santa Fe,441,Barracas Central,2432,0,0,True
+1374286,2025-11-09T00:30:00+00:00,FT,San Martin S.J.,461,Lanus,446,1,1,True
+1374287,2025-11-09T19:30:00+00:00,FT,Boca Juniors,451,River Plate,435,2,0,True
+1374279,2025-11-09T22:20:00+00:00,FT,Banfield,449,Aldosivi,463,0,1,True
+1374282,2025-11-09T22:20:00+00:00,FT,Sarmiento Junin,474,Instituto Cordoba,478,2,1,True
+1374273,2025-11-10T00:30:00+00:00,FT,Tigre,452,Estudiantes L.P.,450,1,0,True
+1374285,2025-11-10T00:30:00+00:00,FT,Atletico Tucuman,455,Godoy Cruz,439,2,1,True
+1374280,2025-11-10T20:00:00+00:00,FT,Gimnasia L.P.,434,Velez Sarsfield,438,2,0,True
+1374284,2025-11-10T22:00:00+00:00,FT,Deportivo Riestra,476,Independiente,453,0,1,True
+1374274,2025-11-11T00:15:00+00:00,FT,Argentinos JRS,458,Belgrano Cordoba,440,1,0,True
+1374278,2025-11-11T00:15:00+00:00,FT,Independ. Rivadavia,473,Central Cordoba de Santiago,1065,0,0,True
+1374295,2025-11-14T23:00:00+00:00,FT,Lanus,446,Atletico Tucuman,455,3,1,True
+1374296,2025-11-15T20:00:00+00:00,FT,Godoy Cruz,439,Deportivo Riestra,476,1,1,True
+1374302,2025-11-15T20:00:00+00:00,FT,Aldosivi,463,San Martin S.J.,461,4,2,True
+1374298,2025-11-15T22:30:00+00:00,FT,San Lorenzo,460,Sarmiento Junin,474,1,1,True
+1374297,2025-11-16T00:30:00+00:00,FT,Independiente,453,Rosario Central,437,1,0,True
+1374301,2025-11-16T20:00:00+00:00,FT,Velez Sarsfield,438,River Plate,435,0,0,True
+1374299,2025-11-16T20:00:00+00:00,FT,Instituto Cordoba,478,Talleres Cordoba,456,0,0,True
+1374293,2025-11-16T23:15:00+00:00,FT,Estudiantes L.P.,450,Argentinos JRS,458,1,2,True
+1374294,2025-11-16T23:15:00+00:00,FT,Boca Juniors,451,Tigre,452,2,0,True
+1374290,2025-11-16T23:15:00+00:00,FT,Newells Old Boys,457,Racing Club,436,0,1,True
+1374288,2025-11-16T23:15:00+00:00,FT,Central Cordoba de Santiago,1065,Banfield,449,1,1,True
+1374292,2025-11-17T20:00:00+00:00,FT,Belgrano Cordoba,440,Union Santa Fe,441,0,0,True
+1374289,2025-11-17T20:00:00+00:00,FT,Defensa Y Justicia,442,Independ. Rivadavia,473,0,2,True
+1374291,2025-11-17T20:00:00+00:00,FT,Barracas Central,2432,Huracan,445,1,1,True
+1374300,2025-11-17T22:30:00+00:00,FT,Platense,1064,Gimnasia L.P.,434,0,3,True
+1486754,2025-11-22T23:00:00+00:00,FT,Velez Sarsfield,438,Argentinos JRS,458,0,2,True
+1486748,2025-11-23T01:00:00+00:00,FT,Central Cordoba de Santiago,1065,San Lorenzo,460,2,1,True
+1486752,2025-11-23T20:30:00+00:00,FT,Rosario Central,437,Estudiantes L.P.,450,0,1,True
+1486755,2025-11-23T23:00:00+00:00,FT,Boca Juniors,451,Talleres Cordoba,456,2,0,True
+1486749,2025-11-24T20:00:00+00:00,AET,Deportivo Riestra,476,Barracas Central,2432,0,1,False
+1486751,2025-11-24T22:15:00+00:00,FT,Racing Club,436,River Plate,435,3,2,True
+1486753,2025-11-25T01:00:00+00:00,FT,Union Santa Fe,441,Gimnasia L.P.,434,1,2,True
+1486750,2025-11-27T00:30:00+00:00,FT,Lanus,446,Tigre,452,0,1,True
+1488200,2025-11-30T00:30:00+00:00,FT,Central Cordoba de Santiago,1065,Estudiantes L.P.,450,0,1,True
+1488201,2025-11-30T21:30:00+00:00,FT,Boca Juniors,451,Argentinos JRS,458,1,0,True
+1488224,2025-12-01T20:00:00+00:00,FT,Barracas Central,2432,Gimnasia L.P.,434,0,2,True
+1488406,2025-12-02T00:30:00+00:00,PEN,Racing Club,436,Tigre,452,0,0,False
+1488799,2025-12-07T22:00:00+00:00,FT,Boca Juniors,451,Racing Club,436,0,1,True
+1488800,2025-12-08T20:00:00+00:00,FT,Gimnasia L.P.,434,Estudiantes L.P.,450,0,1,True
+1490750,2025-12-14T00:00:00+00:00,PEN,Racing Club,436,Estudiantes L.P.,450,1,1,False

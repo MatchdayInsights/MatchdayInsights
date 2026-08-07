@@ -18,6 +18,21 @@ from datetime import datetime
 SITE_BASE = 'https://matchdayinsights.github.io/MatchdayInsights'
 SITE_NAME = 'Matchday Insights'
 
+SLUG_REGISTRY_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'slug_registry.json')
+
+def load_slug_registry():
+    """club name -> permanently-assigned slug. Once a club has a slug, it
+    NEVER changes, even if the club's name changes later (crosswalk rename,
+    sponsorship rebrand, etc.) — critical so indexed URLs stay stable."""
+    if os.path.exists(SLUG_REGISTRY_PATH):
+        with open(SLUG_REGISTRY_PATH, encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+def save_slug_registry(registry):
+    with open(SLUG_REGISTRY_PATH, 'w', encoding='utf-8') as f:
+        json.dump(registry, f, indent=2, ensure_ascii=False, sort_keys=True)
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def slugify(name):
@@ -97,7 +112,7 @@ COUNTRY_NAMES = {
 
 # ── HTML template ─────────────────────────────────────────────────────────────
 
-def make_club_page(club, slug, related_clubs, site_base):
+def make_club_page(club, slug, related_clubs, site_base, slug_map=None):
     name      = html_module.escape(club['club'])
     rank      = club['rank']
     elo       = club['elo']
@@ -136,7 +151,7 @@ def make_club_page(club, slug, related_clubs, site_base):
 
     related_html = ''
     for rc in related_clubs:
-        rc_slug = slugify(rc['club'])
+        rc_slug = (slug_map or {}).get(f"{rc['club']}||{rc.get('country', '')}") or slugify(rc['club'])
         rc_name = html_module.escape(rc['club'])
         related_html += f'<a href="{site_base}/clubs/{rc_slug}.html" class="related-link">#{rc["rank"]} {rc_name}</a>\n'
 
@@ -378,7 +393,7 @@ def make_sitemap(clubs, slugs, site_base):
     <priority>1.0</priority>
   </url>"""]
     for club in clubs:
-        slug = slugs[club['club']]
+        slug = slugs[f"{club['club']}||{club.get('country', '')}"]
         urls.append(f"""  <url>
     <loc>{site_base}/clubs/{slug}.html</loc>
     <lastmod>{today}</lastmod>
@@ -401,15 +416,39 @@ def generate_all(clubs, output_dir='clubs', site_base_url=SITE_BASE, verbose=Tru
     """
     os.makedirs(output_dir, exist_ok=True)
 
-    # Build slug map (club name → slug, disambiguated by league if needed)
+    # Build slug map (club name+country → slug). Any club already in
+    # slug_registry.json reuses its EXISTING slug regardless of what
+    # slugify() would produce for its current name — this is what keeps
+    # URLs stable across name changes (crosswalk renames, rebrands, etc.).
+    # Only genuinely new clubs (never seen before) get a freshly generated,
+    # disambiguated slug.
+    #
+    # Keyed by (name, country) rather than name alone: two different clubs
+    # can share an identical name in different countries (e.g. "Union" in
+    # England vs Germany) — keying by name alone would silently collide
+    # them, causing one club's page to overwrite the other's. Country is
+    # used rather than league_code since a club's country never changes,
+    # while league_code changes on promotion/relegation (which would
+    # otherwise wrongly look like "a new club" every time that happened).
+    registry = load_slug_registry()
     slug_map = {}
-    seen = {}
+    seen = set(registry.values())  # pre-seed collisions with ALL existing slugs, not just this run's
+    new_assignments = 0
+
     for c in clubs:
-        slug = slugify(c['club'])
-        if slug in seen:
-            slug = f"{slug}-{c['league_code'].lower().replace('_','-')}"
-        seen[slug] = True
-        slug_map[c['club']] = slug
+        key = f"{c['club']}||{c.get('country', '')}"
+        if key in registry:
+            slug = registry[key]
+        else:
+            slug = slugify(c['club'])
+            if slug in seen:
+                slug = f"{slug}-{c['league_code'].lower().replace('_','-')}"
+            registry[key] = slug
+            new_assignments += 1
+        seen.add(slug)
+        slug_map[key] = slug
+
+    save_slug_registry(registry)
 
     # Build lookup by league and country for related clubs
     by_league   = {}
@@ -422,7 +461,7 @@ def generate_all(clubs, output_dir='clubs', site_base_url=SITE_BASE, verbose=Tru
     # Generate pages
     count = 0
     for c in clubs:
-        slug = slug_map[c['club']]
+        slug = slug_map[f"{c['club']}||{c.get('country', '')}"]
 
         # Related: up to 2 from same league, then 2 from same country, then nearest rank
         related = []
@@ -441,7 +480,7 @@ def generate_all(clubs, output_dir='clubs', site_base_url=SITE_BASE, verbose=Tru
                     if rc['club'] != c['club'] and rc not in related and len(related) < 4:
                         related.append(rc)
 
-        page_html = make_club_page(c, slug, related[:4], site_base_url)
+        page_html = make_club_page(c, slug, related[:4], site_base_url, slug_map=slug_map)
         out_path  = os.path.join(output_dir, f"{slug}.html")
         with open(out_path, 'w', encoding='utf-8') as f:
             f.write(page_html)
@@ -460,6 +499,7 @@ def generate_all(clubs, output_dir='clubs', site_base_url=SITE_BASE, verbose=Tru
         print(f"    Generated {count} club pages → {output_dir}/")
         print(f"    Generated sitemap.xml ({count+1} URLs)")
         print(f"    Generated club-page.css")
+        print(f"    Slugs: {new_assignments} newly assigned, {len(slug_map) - new_assignments} reused from slug_registry.json")
 
     return slug_map
 

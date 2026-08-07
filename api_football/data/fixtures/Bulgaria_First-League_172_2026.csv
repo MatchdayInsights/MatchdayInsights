@@ -1,0 +1,183 @@
+﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1551053,2026-07-17T16:00:00+00:00,FT,Spartak Varna,4660,CSKA 1948,1426,2,2,True
+1551049,2026-07-17T18:15:00+00:00,FT,Levski Sofia,646,Dunav Ruse,683,2,1,True
+1551051,2026-07-18T16:00:00+00:00,FT,Septemvri Sofia,856,Arda Kardzhali,1430,1,1,True
+1551050,2026-07-18T18:15:00+00:00,FT,Ludogorets,566,Lokomotiv Plovdiv,858,1,0,True
+1551048,2026-07-19T16:30:00+00:00,FT,Botev Vratsa,859,Cherno More Varna,851,1,1,True
+1551052,2026-07-20T16:15:00+00:00,FT,Slavia Sofia,854,CSKA Sofia,853,0,0,True
+1551047,2026-07-21T18:30:00+00:00,FT,Botev Plovdiv,634,Lokomotiv Sofia,1416,1,1,True
+1551054,2026-07-24T18:15:00+00:00,FT,Arda Kardzhali,1430,Slavia Sofia,854,1,0,True
+1551056,2026-07-25T16:00:00+00:00,FT,CSKA 1948,1426,Botev Vratsa,859,2,1,True
+1551060,2026-07-25T18:15:00+00:00,FT,Lokomotiv Sofia,1416,Levski Sofia,646,1,2,True
+1551055,2026-07-26T16:00:00+00:00,FT,Cherno More Varna,851,Spartak Varna,4660,0,3,True
+1551059,2026-07-26T18:15:00+00:00,FT,Lokomotiv Plovdiv,858,Septemvri Sofia,856,2,1,True
+1551058,2026-07-27T16:00:00+00:00,FT,Dunav Ruse,683,Ludogorets,566,0,2,True
+1551057,2026-07-27T18:15:00+00:00,FT,CSKA Sofia,853,Botev Plovdiv,634,3,2,True
+1551066,2026-07-31T16:00:00+00:00,FT,Slavia Sofia,854,Lokomotiv Sofia,1416,1,1,True
+1551062,2026-07-31T18:15:00+00:00,FT,CSKA 1948,1426,Arda Kardzhali,1430,2,1,True
+1551064,2026-08-01T16:00:00+00:00,FT,Levski Sofia,646,Septemvri Sofia,856,3,0,True
+1551061,2026-08-01T18:15:00+00:00,FT,Botev Plovdiv,634,Cherno More Varna,851,1,0,True
+1551065,2026-08-02T16:00:00+00:00,FT,Ludogorets,566,Botev Vratsa,859,2,1,True
+1551063,2026-08-02T18:15:00+00:00,FT,CSKA Sofia,853,Dunav Ruse,683,2,1,True
+1551067,2026-08-03T18:15:00+00:00,FT,Spartak Varna,4660,Lokomotiv Plovdiv,858,1,0,True
+1551072,2026-08-07T18:15:00+00:00,NS,Levski Sofia,646,Lokomotiv Plovdiv,858,,,False
+1551073,2026-08-08T16:00:00+00:00,NS,Lokomotiv Sofia,1416,CSKA 1948,1426,,,False
+1551071,2026-08-08T18:15:00+00:00,NS,Dunav Ruse,683,Arda Kardzhali,1430,,,False
+1551070,2026-08-09T16:00:00+00:00,NS,Cherno More Varna,851,Ludogorets,566,,,False
+1551074,2026-08-09T18:15:00+00:00,NS,Septemvri Sofia,856,CSKA Sofia,853,,,False
+1551069,2026-08-10T16:00:00+00:00,NS,Botev Vratsa,859,Slavia Sofia,854,,,False
+1551068,2026-08-10T18:15:00+00:00,NS,Botev Plovdiv,634,Spartak Varna,4660,,,False
+1551076,2026-08-14T18:15:00+00:00,NS,CSKA 1948,1426,Cherno More Varna,851,,,False
+1551080,2026-08-15T16:00:00+00:00,NS,Slavia Sofia,854,Levski Sofia,646,,,False
+1551079,2026-08-15T18:15:00+00:00,NS,Ludogorets,566,Botev Plovdiv,634,,,False
+1551077,2026-08-16T16:00:00+00:00,NS,CSKA Sofia,853,Botev Vratsa,859,,,False
+1551078,2026-08-16T18:15:00+00:00,NS,Lokomotiv Plovdiv,858,Dunav Ruse,683,,,False
+1551081,2026-08-17T16:00:00+00:00,NS,Spartak Varna,4660,Septemvri Sofia,856,,,False
+1551075,2026-08-17T18:15:00+00:00,NS,Arda Kardzhali,1430,Lokomotiv Sofia,1416,,,False
+1551087,2026-08-22T15:00:00+00:00,NS,Ludogorets,566,Slavia Sofia,854,,,False
+1551084,2026-08-22T15:00:00+00:00,NS,Levski Sofia,646,Spartak Varna,4660,,,False
+1551083,2026-08-22T15:00:00+00:00,NS,Cherno More Varna,851,Dunav Ruse,683,,,False
+1551088,2026-08-22T15:00:00+00:00,NS,Septemvri Sofia,856,CSKA 1948,1426,,,False
+1551085,2026-08-22T15:00:00+00:00,NS,Lokomotiv Plovdiv,858,Arda Kardzhali,1430,,,False
+1551082,2026-08-22T15:00:00+00:00,NS,Botev Vratsa,859,Botev Plovdiv,634,,,False
+1551086,2026-08-22T15:00:00+00:00,NS,Lokomotiv Sofia,1416,CSKA Sofia,853,,,False
+1551090,2026-08-29T15:00:00+00:00,NS,Botev Plovdiv,634,Levski Sofia,646,,,False
+1551093,2026-08-29T15:00:00+00:00,NS,Dunav Ruse,683,Lokomotiv Sofia,1416,,,False
+1551092,2026-08-29T15:00:00+00:00,NS,CSKA Sofia,853,Cherno More Varna,851,,,False
+1551094,2026-08-29T15:00:00+00:00,NS,Slavia Sofia,854,Septemvri Sofia,856,,,False
+1551091,2026-08-29T15:00:00+00:00,NS,CSKA 1948,1426,Lokomotiv Plovdiv,858,,,False
+1551089,2026-08-29T15:00:00+00:00,NS,Arda Kardzhali,1430,Botev Vratsa,859,,,False
+1551095,2026-08-29T15:00:00+00:00,NS,Spartak Varna,4660,Ludogorets,566,,,False
+1551098,2026-09-05T15:00:00+00:00,NS,Levski Sofia,646,CSKA 1948,1426,,,False
+1551097,2026-09-05T15:00:00+00:00,NS,Dunav Ruse,683,Slavia Sofia,854,,,False
+1551101,2026-09-05T15:00:00+00:00,NS,Septemvri Sofia,856,Botev Vratsa,859,,,False
+1551099,2026-09-05T15:00:00+00:00,NS,Lokomotiv Plovdiv,858,Cherno More Varna,851,,,False
+1551100,2026-09-05T15:00:00+00:00,NS,Lokomotiv Sofia,1416,Ludogorets,566,,,False
+1551096,2026-09-05T15:00:00+00:00,NS,Arda Kardzhali,1430,Botev Plovdiv,634,,,False
+1551102,2026-09-05T15:00:00+00:00,NS,Spartak Varna,4660,CSKA Sofia,853,,,False
+1551108,2026-09-12T15:00:00+00:00,NS,Ludogorets,566,Septemvri Sofia,856,,,False
+1551103,2026-09-12T15:00:00+00:00,NS,Botev Plovdiv,634,Lokomotiv Plovdiv,858,,,False
+1551105,2026-09-12T15:00:00+00:00,NS,Cherno More Varna,851,Lokomotiv Sofia,1416,,,False
+1551107,2026-09-12T15:00:00+00:00,NS,CSKA Sofia,853,Arda Kardzhali,1430,,,False
+1551109,2026-09-12T15:00:00+00:00,NS,Slavia Sofia,854,Spartak Varna,4660,,,False
+1551104,2026-09-12T15:00:00+00:00,NS,Botev Vratsa,859,Levski Sofia,646,,,False
+1551106,2026-09-12T15:00:00+00:00,NS,CSKA 1948,1426,Dunav Ruse,683,,,False
+1551112,2026-09-19T15:00:00+00:00,NS,Levski Sofia,646,Ludogorets,566,,,False
+1551111,2026-09-19T15:00:00+00:00,NS,Dunav Ruse,683,Botev Vratsa,859,,,False
+1551115,2026-09-19T15:00:00+00:00,NS,Slavia Sofia,854,CSKA 1948,1426,,,False
+1551114,2026-09-19T15:00:00+00:00,NS,Septemvri Sofia,856,Botev Plovdiv,634,,,False
+1551113,2026-09-19T15:00:00+00:00,NS,Lokomotiv Plovdiv,858,CSKA Sofia,853,,,False
+1551110,2026-09-19T15:00:00+00:00,NS,Arda Kardzhali,1430,Cherno More Varna,851,,,False
+1551116,2026-09-19T15:00:00+00:00,NS,Spartak Varna,4660,Lokomotiv Sofia,1416,,,False
+1551122,2026-10-10T15:00:00+00:00,NS,Ludogorets,566,Arda Kardzhali,1430,,,False
+1551117,2026-10-10T15:00:00+00:00,NS,Botev Plovdiv,634,Slavia Sofia,854,,,False
+1551119,2026-10-10T15:00:00+00:00,NS,Cherno More Varna,851,Levski Sofia,646,,,False
+1551123,2026-10-10T15:00:00+00:00,NS,Septemvri Sofia,856,Dunav Ruse,683,,,False
+1551118,2026-10-10T15:00:00+00:00,NS,Botev Vratsa,859,Spartak Varna,4660,,,False
+1551121,2026-10-10T15:00:00+00:00,NS,Lokomotiv Sofia,1416,Lokomotiv Plovdiv,858,,,False
+1551120,2026-10-10T15:00:00+00:00,NS,CSKA 1948,1426,CSKA Sofia,853,,,False
+1551128,2026-10-24T15:00:00+00:00,NS,Dunav Ruse,683,Spartak Varna,4660,,,False
+1551125,2026-10-24T15:00:00+00:00,NS,Cherno More Varna,851,Septemvri Sofia,856,,,False
+1551127,2026-10-24T15:00:00+00:00,NS,CSKA Sofia,853,Ludogorets,566,,,False
+1551129,2026-10-24T15:00:00+00:00,NS,Lokomotiv Plovdiv,858,Slavia Sofia,854,,,False
+1551130,2026-10-24T15:00:00+00:00,NS,Lokomotiv Sofia,1416,Botev Vratsa,859,,,False
+1551126,2026-10-24T15:00:00+00:00,NS,CSKA 1948,1426,Botev Plovdiv,634,,,False
+1551124,2026-10-24T15:00:00+00:00,NS,Arda Kardzhali,1430,Levski Sofia,646,,,False
+1551134,2026-10-31T16:00:00+00:00,NS,Ludogorets,566,CSKA 1948,1426,,,False
+1551131,2026-10-31T16:00:00+00:00,NS,Botev Plovdiv,634,Dunav Ruse,683,,,False
+1551133,2026-10-31T16:00:00+00:00,NS,Levski Sofia,646,CSKA Sofia,853,,,False
+1551136,2026-10-31T16:00:00+00:00,NS,Slavia Sofia,854,Cherno More Varna,851,,,False
+1551135,2026-10-31T16:00:00+00:00,NS,Septemvri Sofia,856,Lokomotiv Sofia,1416,,,False
+1551132,2026-10-31T16:00:00+00:00,NS,Botev Vratsa,859,Lokomotiv Plovdiv,858,,,False
+1551137,2026-10-31T16:00:00+00:00,NS,Spartak Varna,4660,Arda Kardzhali,1430,,,False
+1551142,2026-11-07T16:00:00+00:00,NS,Dunav Ruse,683,Levski Sofia,646,,,False
+1551139,2026-11-07T16:00:00+00:00,NS,Cherno More Varna,851,Botev Vratsa,859,,,False
+1551141,2026-11-07T16:00:00+00:00,NS,CSKA Sofia,853,Slavia Sofia,854,,,False
+1551143,2026-11-07T16:00:00+00:00,NS,Lokomotiv Plovdiv,858,Ludogorets,566,,,False
+1551144,2026-11-07T16:00:00+00:00,NS,Lokomotiv Sofia,1416,Botev Plovdiv,634,,,False
+1551140,2026-11-07T16:00:00+00:00,NS,CSKA 1948,1426,Spartak Varna,4660,,,False
+1551138,2026-11-07T16:00:00+00:00,NS,Arda Kardzhali,1430,Septemvri Sofia,856,,,False
+1551148,2026-11-21T16:00:00+00:00,NS,Ludogorets,566,Dunav Ruse,683,,,False
+1551145,2026-11-21T16:00:00+00:00,NS,Botev Plovdiv,634,CSKA Sofia,853,,,False
+1551147,2026-11-21T16:00:00+00:00,NS,Levski Sofia,646,Lokomotiv Sofia,1416,,,False
+1551150,2026-11-21T16:00:00+00:00,NS,Slavia Sofia,854,Arda Kardzhali,1430,,,False
+1551149,2026-11-21T16:00:00+00:00,NS,Septemvri Sofia,856,Lokomotiv Plovdiv,858,,,False
+1551146,2026-11-21T16:00:00+00:00,NS,Botev Vratsa,859,CSKA 1948,1426,,,False
+1551151,2026-11-21T16:00:00+00:00,NS,Spartak Varna,4660,Cherno More Varna,851,,,False
+1551155,2026-11-28T16:00:00+00:00,NS,Dunav Ruse,683,CSKA Sofia,853,,,False
+1551154,2026-11-28T16:00:00+00:00,NS,Cherno More Varna,851,Botev Plovdiv,634,,,False
+1551158,2026-11-28T16:00:00+00:00,NS,Septemvri Sofia,856,Levski Sofia,646,,,False
+1551156,2026-11-28T16:00:00+00:00,NS,Lokomotiv Plovdiv,858,Spartak Varna,4660,,,False
+1551153,2026-11-28T16:00:00+00:00,NS,Botev Vratsa,859,Ludogorets,566,,,False
+1551157,2026-11-28T16:00:00+00:00,NS,Lokomotiv Sofia,1416,Slavia Sofia,854,,,False
+1551152,2026-11-28T16:00:00+00:00,NS,Arda Kardzhali,1430,CSKA 1948,1426,,,False
+1551163,2026-12-05T16:00:00+00:00,NS,Ludogorets,566,Cherno More Varna,851,,,False
+1551161,2026-12-05T16:00:00+00:00,NS,CSKA Sofia,853,Septemvri Sofia,856,,,False
+1551164,2026-12-05T16:00:00+00:00,NS,Slavia Sofia,854,Botev Vratsa,859,,,False
+1551162,2026-12-05T16:00:00+00:00,NS,Lokomotiv Plovdiv,858,Levski Sofia,646,,,False
+1551160,2026-12-05T16:00:00+00:00,NS,CSKA 1948,1426,Lokomotiv Sofia,1416,,,False
+1551159,2026-12-05T16:00:00+00:00,NS,Arda Kardzhali,1430,Dunav Ruse,683,,,False
+1551165,2026-12-05T16:00:00+00:00,NS,Spartak Varna,4660,Botev Plovdiv,634,,,False
+1551166,2027-02-13T16:00:00+00:00,NS,Botev Plovdiv,634,Ludogorets,566,,,False
+1551170,2027-02-13T16:00:00+00:00,NS,Levski Sofia,646,Slavia Sofia,854,,,False
+1551169,2027-02-13T16:00:00+00:00,NS,Dunav Ruse,683,Lokomotiv Plovdiv,858,,,False
+1551168,2027-02-13T16:00:00+00:00,NS,Cherno More Varna,851,CSKA 1948,1426,,,False
+1551172,2027-02-13T16:00:00+00:00,NS,Septemvri Sofia,856,Spartak Varna,4660,,,False
+1551167,2027-02-13T16:00:00+00:00,NS,Botev Vratsa,859,CSKA Sofia,853,,,False
+1551171,2027-02-13T16:00:00+00:00,NS,Lokomotiv Sofia,1416,Arda Kardzhali,1430,,,False
+1551174,2027-02-20T16:00:00+00:00,NS,Botev Plovdiv,634,Botev Vratsa,859,,,False
+1551177,2027-02-20T16:00:00+00:00,NS,Dunav Ruse,683,Cherno More Varna,851,,,False
+1551176,2027-02-20T16:00:00+00:00,NS,CSKA Sofia,853,Lokomotiv Sofia,1416,,,False
+1551178,2027-02-20T16:00:00+00:00,NS,Slavia Sofia,854,Ludogorets,566,,,False
+1551175,2027-02-20T16:00:00+00:00,NS,CSKA 1948,1426,Septemvri Sofia,856,,,False
+1551173,2027-02-20T16:00:00+00:00,NS,Arda Kardzhali,1430,Lokomotiv Plovdiv,858,,,False
+1551179,2027-02-20T16:00:00+00:00,NS,Spartak Varna,4660,Levski Sofia,646,,,False
+1551185,2027-02-27T16:00:00+00:00,NS,Ludogorets,566,Spartak Varna,4660,,,False
+1551182,2027-02-27T16:00:00+00:00,NS,Levski Sofia,646,Botev Plovdiv,634,,,False
+1551181,2027-02-27T16:00:00+00:00,NS,Cherno More Varna,851,CSKA Sofia,853,,,False
+1551186,2027-02-27T16:00:00+00:00,NS,Septemvri Sofia,856,Slavia Sofia,854,,,False
+1551183,2027-02-27T16:00:00+00:00,NS,Lokomotiv Plovdiv,858,CSKA 1948,1426,,,False
+1551180,2027-02-27T16:00:00+00:00,NS,Botev Vratsa,859,Arda Kardzhali,1430,,,False
+1551184,2027-02-27T16:00:00+00:00,NS,Lokomotiv Sofia,1416,Dunav Ruse,683,,,False
+1551192,2027-03-06T16:00:00+00:00,NS,Ludogorets,566,Lokomotiv Sofia,1416,,,False
+1551187,2027-03-06T16:00:00+00:00,NS,Botev Plovdiv,634,Arda Kardzhali,1430,,,False
+1551189,2027-03-06T16:00:00+00:00,NS,Cherno More Varna,851,Lokomotiv Plovdiv,858,,,False
+1551191,2027-03-06T16:00:00+00:00,NS,CSKA Sofia,853,Spartak Varna,4660,,,False
+1551193,2027-03-06T16:00:00+00:00,NS,Slavia Sofia,854,Dunav Ruse,683,,,False
+1551188,2027-03-06T16:00:00+00:00,NS,Botev Vratsa,859,Septemvri Sofia,856,,,False
+1551190,2027-03-06T16:00:00+00:00,NS,CSKA 1948,1426,Levski Sofia,646,,,False
+1551196,2027-03-13T16:00:00+00:00,NS,Levski Sofia,646,Botev Vratsa,859,,,False
+1551195,2027-03-13T16:00:00+00:00,NS,Dunav Ruse,683,CSKA 1948,1426,,,False
+1551199,2027-03-13T16:00:00+00:00,NS,Septemvri Sofia,856,Ludogorets,566,,,False
+1551197,2027-03-13T16:00:00+00:00,NS,Lokomotiv Plovdiv,858,Botev Plovdiv,634,,,False
+1551198,2027-03-13T16:00:00+00:00,NS,Lokomotiv Sofia,1416,Cherno More Varna,851,,,False
+1551194,2027-03-13T16:00:00+00:00,NS,Arda Kardzhali,1430,CSKA Sofia,853,,,False
+1551200,2027-03-13T16:00:00+00:00,NS,Spartak Varna,4660,Slavia Sofia,854,,,False
+1551207,2027-03-20T16:00:00+00:00,NS,Ludogorets,566,Levski Sofia,646,,,False
+1551201,2027-03-20T16:00:00+00:00,NS,Botev Plovdiv,634,Septemvri Sofia,856,,,False
+1551203,2027-03-20T16:00:00+00:00,NS,Cherno More Varna,851,Arda Kardzhali,1430,,,False
+1551205,2027-03-20T16:00:00+00:00,NS,CSKA Sofia,853,Lokomotiv Plovdiv,858,,,False
+1551202,2027-03-20T16:00:00+00:00,NS,Botev Vratsa,859,Dunav Ruse,683,,,False
+1551206,2027-03-20T16:00:00+00:00,NS,Lokomotiv Sofia,1416,Spartak Varna,4660,,,False
+1551204,2027-03-20T16:00:00+00:00,NS,CSKA 1948,1426,Slavia Sofia,854,,,False
+1551211,2027-04-03T15:00:00+00:00,NS,Levski Sofia,646,Cherno More Varna,851,,,False
+1551210,2027-04-03T15:00:00+00:00,NS,Dunav Ruse,683,Septemvri Sofia,856,,,False
+1551209,2027-04-03T15:00:00+00:00,NS,CSKA Sofia,853,CSKA 1948,1426,,,False
+1551213,2027-04-03T15:00:00+00:00,NS,Slavia Sofia,854,Botev Plovdiv,634,,,False
+1551212,2027-04-03T15:00:00+00:00,NS,Lokomotiv Plovdiv,858,Lokomotiv Sofia,1416,,,False
+1551208,2027-04-03T15:00:00+00:00,NS,Arda Kardzhali,1430,Ludogorets,566,,,False
+1551214,2027-04-03T15:00:00+00:00,NS,Spartak Varna,4660,Botev Vratsa,859,,,False
+1551218,2027-04-10T15:00:00+00:00,NS,Ludogorets,566,CSKA Sofia,853,,,False
+1551215,2027-04-10T15:00:00+00:00,NS,Botev Plovdiv,634,CSKA 1948,1426,,,False
+1551217,2027-04-10T15:00:00+00:00,NS,Levski Sofia,646,Arda Kardzhali,1430,,,False
+1551220,2027-04-10T15:00:00+00:00,NS,Slavia Sofia,854,Lokomotiv Plovdiv,858,,,False
+1551219,2027-04-10T15:00:00+00:00,NS,Septemvri Sofia,856,Cherno More Varna,851,,,False
+1551216,2027-04-10T15:00:00+00:00,NS,Botev Vratsa,859,Lokomotiv Sofia,1416,,,False
+1551221,2027-04-10T15:00:00+00:00,NS,Spartak Varna,4660,Dunav Ruse,683,,,False
+1551226,2027-04-17T15:00:00+00:00,NS,Dunav Ruse,683,Botev Plovdiv,634,,,False
+1551223,2027-04-17T15:00:00+00:00,NS,Cherno More Varna,851,Slavia Sofia,854,,,False
+1551225,2027-04-17T15:00:00+00:00,NS,CSKA Sofia,853,Levski Sofia,646,,,False
+1551227,2027-04-17T15:00:00+00:00,NS,Lokomotiv Plovdiv,858,Botev Vratsa,859,,,False
+1551228,2027-04-17T15:00:00+00:00,NS,Lokomotiv Sofia,1416,Septemvri Sofia,856,,,False
+1551224,2027-04-17T15:00:00+00:00,NS,CSKA 1948,1426,Ludogorets,566,,,False
+1551222,2027-04-17T15:00:00+00:00,NS,Arda Kardzhali,1430,Spartak Varna,4660,,,False
