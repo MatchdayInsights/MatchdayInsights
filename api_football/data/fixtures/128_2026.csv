@@ -1,0 +1,496 @@
+﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1493030,2026-08-06T00:15:00+00:00,2H,Tigre,452,Belgrano Cordoba,440,0,0,False
+1491818,2026-01-22T20:00:00+00:00,FT,Aldosivi,463,Defensa Y Justicia,442,0,0,True
+1491832,2026-01-22T23:00:00+00:00,FT,Union Santa Fe,441,Platense,1064,0,0,True
+1491820,2026-01-22T23:00:00+00:00,FT,Banfield,449,Huracan,445,1,1,True
+1491827,2026-01-23T01:15:00+00:00,FT,Instituto Cordoba,478,Velez Sarsfield,438,0,1,True
+1491823,2026-01-23T01:15:00+00:00,FT,Central Cordoba de Santiago,1065,Gimnasia M.,1066,0,1,True
+1491829,2026-01-23T22:00:00+00:00,FT,San Lorenzo,460,Lanus,446,2,3,True
+1491825,2026-01-23T23:00:00+00:00,FT,Independiente,453,Estudiantes L.P.,450,1,1,True
+1491830,2026-01-24T01:15:00+00:00,FT,Talleres Cordoba,456,Newells Old Boys,457,2,1,True
+1491826,2026-01-24T01:15:00+00:00,FT,Independ. Rivadavia,473,Atletico Tucuman,455,2,1,True
+1491821,2026-01-24T20:00:00+00:00,FT,Barracas Central,2432,River Plate,435,0,1,True
+1491824,2026-01-24T22:30:00+00:00,FT,Gimnasia L.P.,434,Racing Club,436,2,1,True
+1491828,2026-01-25T01:00:00+00:00,FT,Rosario Central,437,Belgrano Cordoba,440,1,2,True
+1491822,2026-01-25T21:30:00+00:00,FT,Boca Juniors,451,Deportivo Riestra,476,1,0,True
+1491831,2026-01-26T00:00:00+00:00,FT,Tigre,452,Estudiantes de Rio Cuarto,2424,2,0,True
+1491819,2026-01-26T00:00:00+00:00,FT,Argentinos JRS,458,Sarmiento Junin,474,1,0,True
+1491843,2026-01-26T20:00:00+00:00,FT,Platense,1064,Instituto Cordoba,478,2,1,True
+1491847,2026-01-27T20:45:00+00:00,FT,Velez Sarsfield,438,Talleres Cordoba,456,2,1,True
+1491840,2026-01-27T23:00:00+00:00,FT,Huracan,445,Independ. Rivadavia,473,1,2,True
+1491839,2026-01-27T23:00:00+00:00,FT,Gimnasia M.,1066,San Lorenzo,460,0,1,True
+1491834,2026-01-28T01:15:00+00:00,FT,Atletico Tucuman,455,Central Cordoba de Santiago,1065,0,0,True
+1491842,2026-01-28T01:15:00+00:00,FT,Newells Old Boys,457,Independiente,453,1,1,True
+1491833,2026-01-28T20:00:00+00:00,FT,Aldosivi,463,Barracas Central,2432,0,0,True
+1491844,2026-01-28T22:00:00+00:00,FT,Racing Club,436,Rosario Central,437,1,2,True
+1491845,2026-01-28T23:00:00+00:00,FT,River Plate,435,Gimnasia L.P.,434,2,0,True
+1491837,2026-01-29T01:15:00+00:00,FT,Estudiantes L.P.,450,Boca Juniors,451,2,1,True
+1491836,2026-01-29T20:00:00+00:00,FT,Deportivo Riestra,476,Defensa Y Justicia,442,0,1,True
+1491835,2026-01-29T22:15:00+00:00,FT,Belgrano Cordoba,440,Tigre,452,1,1,True
+1491841,2026-01-29T22:15:00+00:00,FT,Lanus,446,Union Santa Fe,441,2,1,True
+1491846,2026-01-30T00:30:00+00:00,FT,Sarmiento Junin,474,Banfield,449,1,0,True
+1491838,2026-01-30T00:30:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Argentinos JRS,458,0,0,True
+1491859,2026-01-31T20:30:00+00:00,FT,San Lorenzo,460,Central Cordoba de Santiago,1065,1,0,True
+1491855,2026-01-31T22:45:00+00:00,FT,Independiente,453,Velez Sarsfield,438,1,1,True
+1491849,2026-02-01T01:00:00+00:00,FT,Atletico Tucuman,455,Huracan,445,1,1,True
+1491860,2026-02-01T01:00:00+00:00,FT,Talleres Cordoba,456,Platense,1064,1,2,True
+1491851,2026-02-01T20:00:00+00:00,FT,Barracas Central,2432,Deportivo Riestra,476,1,1,True
+1491852,2026-02-01T22:15:00+00:00,FT,Boca Juniors,451,Newells Old Boys,457,2,0,True
+1491858,2026-02-02T00:30:00+00:00,FT,Rosario Central,437,River Plate,435,0,0,True
+1491854,2026-02-02T20:30:00+00:00,FT,Gimnasia L.P.,434,Aldosivi,463,3,1,True
+1491853,2026-02-02T22:45:00+00:00,FT,Defensa Y Justicia,442,Estudiantes L.P.,450,0,0,True
+1491861,2026-02-02T22:45:00+00:00,FT,Tigre,452,Racing Club,436,3,1,True
+1491862,2026-02-03T01:00:00+00:00,FT,Union Santa Fe,441,Gimnasia M.,1066,4,0,True
+1491848,2026-02-03T01:00:00+00:00,FT,Argentinos JRS,458,Belgrano Cordoba,440,0,0,True
+1491850,2026-02-03T22:00:00+00:00,FT,Banfield,449,Estudiantes de Rio Cuarto,2424,2,1,True
+1491856,2026-02-04T00:15:00+00:00,FT,Independ. Rivadavia,473,Sarmiento Junin,474,2,1,True
+1491857,2026-02-04T00:15:00+00:00,FT,Instituto Cordoba,478,Lanus,446,2,2,True
+1491866,2026-02-07T00:00:00+00:00,FT,Central Cordoba de Santiago,1065,Union Santa Fe,441,1,0,True
+1491863,2026-02-07T20:00:00+00:00,FT,Aldosivi,463,Rosario Central,437,1,1,True
+1491874,2026-02-07T21:00:00+00:00,FT,Racing Club,436,Argentinos JRS,458,2,1,True
+1491875,2026-02-07T23:00:00+00:00,FT,River Plate,435,Tigre,452,1,4,True
+1491865,2026-02-08T01:15:00+00:00,FT,Belgrano Cordoba,440,Banfield,449,1,0,True
+1491872,2026-02-08T01:15:00+00:00,FT,Newells Old Boys,457,Defensa Y Justicia,442,2,3,True
+1491876,2026-02-08T20:00:00+00:00,FT,Sarmiento Junin,474,Atletico Tucuman,455,2,1,True
+1491873,2026-02-08T20:00:00+00:00,FT,Platense,1064,Independiente,453,0,1,True
+1491870,2026-02-08T22:15:00+00:00,FT,Huracan,445,San Lorenzo,460,1,0,True
+1491877,2026-02-09T01:15:00+00:00,FT,Velez Sarsfield,438,Boca Juniors,451,2,1,True
+1491869,2026-02-09T01:15:00+00:00,FT,Gimnasia M.,1066,Instituto Cordoba,478,1,0,True
+1491864,2026-02-09T20:00:00+00:00,FT,Barracas Central,2432,Gimnasia L.P.,434,2,0,True
+1491871,2026-02-09T22:15:00+00:00,FT,Lanus,446,Talleres Cordoba,456,1,1,True
+1491867,2026-02-09T22:15:00+00:00,FT,Estudiantes L.P.,450,Deportivo Riestra,476,1,0,True
+1491868,2026-02-10T00:30:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Independ. Rivadavia,473,0,1,True
+1491891,2026-02-12T22:00:00+00:00,FT,Tigre,452,Aldosivi,463,1,0,True
+1491878,2026-02-13T00:15:00+00:00,FT,Argentinos JRS,458,River Plate,435,1,0,True
+1491886,2026-02-13T23:00:00+00:00,FT,Independiente,453,Lanus,446,2,0,True
+1491892,2026-02-14T01:15:00+00:00,FT,Union Santa Fe,441,San Lorenzo,460,0,0,True
+1491882,2026-02-14T01:15:00+00:00,FT,Defensa Y Justicia,442,Velez Sarsfield,438,1,1,True
+1491880,2026-02-14T20:30:00+00:00,FT,Banfield,449,Racing Club,436,0,2,True
+1491885,2026-02-14T22:45:00+00:00,FT,Huracan,445,Sarmiento Junin,474,1,0,True
+1491890,2026-02-14T22:45:00+00:00,FT,Talleres Cordoba,456,Gimnasia M.,1066,2,1,True
+1491879,2026-02-15T01:00:00+00:00,FT,Atletico Tucuman,455,Estudiantes de Rio Cuarto,2424,4,0,True
+1491887,2026-02-15T01:00:00+00:00,FT,Independ. Rivadavia,473,Belgrano Cordoba,440,0,1,True
+1491884,2026-02-15T20:00:00+00:00,FT,Gimnasia L.P.,434,Estudiantes L.P.,450,0,0,True
+1491881,2026-02-15T22:30:00+00:00,FT,Boca Juniors,451,Platense,1064,0,0,True
+1491889,2026-02-16T01:00:00+00:00,FT,Rosario Central,437,Barracas Central,2432,2,0,True
+1491888,2026-02-16T01:00:00+00:00,FT,Instituto Cordoba,478,Central Cordoba de Santiago,1065,2,0,True
+1491883,2026-02-16T22:00:00+00:00,FT,Deportivo Riestra,476,Newells Old Boys,457,1,1,True
+1491897,2026-02-20T20:15:00+00:00,FT,Defensa Y Justicia,442,Belgrano Cordoba,440,1,1,True
+1491899,2026-02-20T20:45:00+00:00,FT,Estudiantes L.P.,450,Sarmiento Junin,474,1,0,True
+1491895,2026-02-20T23:00:00+00:00,FT,Boca Juniors,451,Racing Club,436,0,0,True
+1491902,2026-02-20T23:00:00+00:00,FT,Instituto Cordoba,478,Atletico Tucuman,455,2,1,True
+1491904,2026-02-21T01:15:00+00:00,FT,Rosario Central,437,Talleres Cordoba,456,0,1,True
+1491900,2026-02-21T01:15:00+00:00,FT,Gimnasia M.,1066,Gimnasia L.P.,434,0,1,True
+1491901,2026-02-21T20:00:00+00:00,FT,Independ. Rivadavia,473,Independiente,453,3,2,True
+1491903,2026-02-21T20:00:00+00:00,FT,Platense,1064,Barracas Central,2432,1,0,True
+1491894,2026-02-21T22:15:00+00:00,FT,Banfield,449,Newells Old Boys,457,3,0,True
+1491898,2026-02-21T22:15:00+00:00,FT,Deportivo Riestra,476,Huracan,445,0,0,True
+1491896,2026-02-22T00:30:00+00:00,FT,Central Cordoba de Santiago,1065,Tigre,452,0,0,True
+1491905,2026-02-22T20:00:00+00:00,FT,San Lorenzo,460,Estudiantes de Rio Cuarto,2424,2,0,True
+1491907,2026-02-22T22:15:00+00:00,FT,Velez Sarsfield,438,River Plate,435,1,0,True
+1491906,2026-02-23T00:30:00+00:00,FT,Union Santa Fe,441,Aldosivi,463,1,0,True
+1491917,2026-02-24T20:00:00+00:00,FT,Platense,1064,Defensa Y Justicia,442,0,0,True
+1491920,2026-02-24T22:15:00+00:00,FT,San Lorenzo,460,Instituto Cordoba,478,1,1,True
+1491911,2026-02-24T22:45:00+00:00,FT,Central Cordoba de Santiago,1065,Talleres Cordoba,456,2,0,True
+1491910,2026-02-25T00:30:00+00:00,FT,Belgrano Cordoba,440,Atletico Tucuman,455,3,1,True
+1491914,2026-02-25T01:00:00+00:00,FT,Gimnasia M.,1066,Independiente,453,1,1,True
+1491913,2026-02-25T20:00:00+00:00,FT,Gimnasia L.P.,434,Rosario Central,437,1,2,True
+1491909,2026-02-25T20:00:00+00:00,FT,Barracas Central,2432,Tigre,452,2,1,True
+1491922,2026-02-25T22:30:00+00:00,FT,Velez Sarsfield,438,Deportivo Riestra,476,0,0,True
+1491916,2026-02-25T22:30:00+00:00,FT,Newells Old Boys,457,Estudiantes L.P.,450,0,2,True
+1491918,2026-02-26T20:15:00+00:00,FT,Racing Club,436,Independ. Rivadavia,473,1,1,True
+1491921,2026-02-26T20:15:00+00:00,FT,Sarmiento Junin,474,Union Santa Fe,441,1,3,True
+1491919,2026-02-26T22:30:00+00:00,FT,River Plate,435,Banfield,449,3,1,True
+1491912,2026-02-26T22:30:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Huracan,445,2,0,True
+1491926,2026-02-28T20:45:00+00:00,FT,Boca Juniors,451,Gimnasia M.,1066,1,1,True
+1491931,2026-02-28T23:00:00+00:00,FT,Independiente,453,Central Cordoba de Santiago,1065,2,0,True
+1491936,2026-03-01T01:15:00+00:00,FT,Talleres Cordoba,456,San Lorenzo,460,0,0,True
+1491934,2026-03-01T20:00:00+00:00,FT,Newells Old Boys,457,Rosario Central,437,0,2,True
+1491923,2026-03-01T22:15:00+00:00,FT,Argentinos JRS,458,Barracas Central,2432,1,1,True
+1491933,2026-03-01T22:15:00+00:00,FT,Instituto Cordoba,478,Union Santa Fe,441,1,2,True
+1491927,2026-03-02T00:30:00+00:00,FT,Defensa Y Justicia,442,Lanus,446,1,1,True
+1491937,2026-03-02T00:30:00+00:00,FT,Tigre,452,Gimnasia L.P.,434,2,2,True
+1491929,2026-03-02T22:15:00+00:00,FT,Estudiantes L.P.,450,Velez Sarsfield,438,0,1,True
+1491928,2026-03-02T22:15:00+00:00,FT,Deportivo Riestra,476,Platense,1064,0,0,True
+1491925,2026-03-03T00:30:00+00:00,FT,Banfield,449,Aldosivi,463,2,0,True
+1491932,2026-03-03T00:30:00+00:00,FT,Independ. Rivadavia,473,River Plate,435,1,1,True
+1491935,2026-03-03T22:00:00+00:00,FT,Sarmiento Junin,474,Estudiantes de Rio Cuarto,2424,1,0,True
+1491930,2026-03-03T22:15:00+00:00,FT,Huracan,445,Belgrano Cordoba,440,3,1,True
+1491924,2026-03-04T00:15:00+00:00,FT,Atletico Tucuman,455,Racing Club,436,0,3,True
+1491915,2026-03-05T00:00:00+00:00,FT,Lanus,446,Boca Juniors,451,0,3,True
+1491967,2026-03-10T22:45:00+00:00,FT,Tigre,452,Velez Sarsfield,438,1,1,True
+1491962,2026-03-10T22:45:00+00:00,FT,Independiente,453,Union Santa Fe,441,4,4,True
+1491964,2026-03-11T01:00:00+00:00,FT,Newells Old Boys,457,Platense,1064,1,1,True
+1491965,2026-03-11T01:00:00+00:00,FT,Sarmiento Junin,474,Racing Club,436,0,0,True
+1491955,2026-03-11T20:30:00+00:00,FT,Banfield,449,Gimnasia L.P.,434,1,2,True
+1491953,2026-03-11T20:30:00+00:00,FT,Argentinos JRS,458,Rosario Central,437,0,0,True
+1491956,2026-03-11T22:45:00+00:00,FT,Boca Juniors,451,San Lorenzo,460,1,1,True
+1491954,2026-03-12T01:00:00+00:00,FT,Atletico Tucuman,455,Aldosivi,463,1,1,True
+1491963,2026-03-12T01:00:00+00:00,FT,Independ. Rivadavia,473,Barracas Central,2432,1,2,True
+1491957,2026-03-12T20:00:00+00:00,FT,Defensa Y Justicia,442,Central Cordoba de Santiago,1065,1,1,True
+1491958,2026-03-12T20:00:00+00:00,FT,Deportivo Riestra,476,Gimnasia M.,1066,0,0,True
+1491966,2026-03-12T22:15:00+00:00,FT,Talleres Cordoba,456,Instituto Cordoba,478,2,0,True
+1491960,2026-03-12T22:15:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Belgrano Cordoba,440,0,1,True
+1491961,2026-03-13T00:30:00+00:00,FT,Huracan,445,River Plate,435,1,2,True
+1491959,2026-03-13T23:00:00+00:00,FT,Estudiantes L.P.,450,Lanus,446,0,1,True
+1491976,2026-03-14T22:00:00+00:00,FT,Platense,1064,Velez Sarsfield,438,0,2,True
+1491979,2026-03-15T00:00:00+00:00,FT,Rosario Central,437,Banfield,449,2,1,True
+1491972,2026-03-15T18:15:00+00:00,FT,Gimnasia L.P.,434,Independ. Rivadavia,473,2,3,True
+1491970,2026-03-15T20:30:00+00:00,FT,Belgrano Cordoba,440,Talleres Cordoba,456,0,0,True
+1491978,2026-03-15T22:45:00+00:00,FT,River Plate,435,Sarmiento Junin,474,2,0,True
+1491982,2026-03-16T01:00:00+00:00,FT,Union Santa Fe,441,Boca Juniors,451,1,1,True
+1491981,2026-03-16T01:00:00+00:00,FT,Tigre,452,Argentinos JRS,458,1,1,True
+1491968,2026-03-16T18:30:00+00:00,FT,Aldosivi,463,Huracan,445,0,0,True
+1491969,2026-03-16T18:30:00+00:00,FT,Barracas Central,2432,Atletico Tucuman,455,2,1,True
+1491980,2026-03-16T21:30:00+00:00,FT,San Lorenzo,460,Defensa Y Justicia,442,2,5,True
+1491977,2026-03-16T23:00:00+00:00,FT,Racing Club,436,Estudiantes de Rio Cuarto,2424,2,0,True
+1491974,2026-03-17T01:15:00+00:00,FT,Instituto Cordoba,478,Independiente,453,2,1,True
+1491975,2026-03-17T22:00:00+00:00,FT,Lanus,446,Newells Old Boys,457,5,0,True
+1491971,2026-03-18T00:15:00+00:00,FT,Central Cordoba de Santiago,1065,Deportivo Riestra,476,1,0,True
+1491973,2026-03-18T00:15:00+00:00,FT,Gimnasia M.,1066,Estudiantes L.P.,450,1,2,True
+1491985,2026-03-21T00:00:00+00:00,FT,Banfield,449,Tigre,452,1,0,True
+1491984,2026-03-21T00:00:00+00:00,FT,Atletico Tucuman,455,Gimnasia L.P.,434,1,0,True
+1491997,2026-03-21T18:30:00+00:00,FT,Velez Sarsfield,438,Lanus,446,0,1,True
+1491988,2026-03-21T20:45:00+00:00,FT,Defensa Y Justicia,442,Union Santa Fe,441,2,0,True
+1491995,2026-03-21T20:45:00+00:00,FT,Newells Old Boys,457,Gimnasia M.,1066,1,0,True
+1491993,2026-03-21T23:00:00+00:00,FT,Independiente,453,Talleres Cordoba,456,1,2,True
+1491986,2026-03-22T01:15:00+00:00,FT,Belgrano Cordoba,440,Racing Club,436,1,2,True
+1491996,2026-03-22T18:30:00+00:00,FT,Sarmiento Junin,474,Aldosivi,463,2,0,True
+1491991,2026-03-22T20:45:00+00:00,FT,Estudiantes de Rio Cuarto,2424,River Plate,435,0,2,True
+1491987,2026-03-22T23:00:00+00:00,FT,Boca Juniors,451,Instituto Cordoba,478,2,0,True
+1491983,2026-03-23T01:15:00+00:00,FT,Argentinos JRS,458,Platense,1064,1,0,True
+1491994,2026-03-23T01:15:00+00:00,FT,Independ. Rivadavia,473,Rosario Central,437,2,0,True
+1491990,2026-03-23T22:00:00+00:00,FT,Estudiantes L.P.,450,Central Cordoba de Santiago,1065,5,0,True
+1491992,2026-03-24T00:15:00+00:00,FT,Huracan,445,Barracas Central,2432,0,0,True
+1491989,2026-03-25T22:00:00+00:00,FT,Deportivo Riestra,476,San Lorenzo,460,1,1,True
+1491893,2026-03-27T00:00:00+00:00,FT,Argentinos JRS,458,Lanus,446,2,1,True
+1491908,2026-03-31T17:00:00+00:00,FT,Aldosivi,463,Argentinos JRS,458,0,2,True
+1492006,2026-04-01T23:00:00+00:00,FT,Lanus,446,Platense,1064,0,0,True
+1492000,2026-04-02T18:00:00+00:00,FT,Barracas Central,2432,Sarmiento Junin,474,1,2,True
+1492011,2026-04-02T20:30:00+00:00,FT,Tigre,452,Independ. Rivadavia,473,0,2,True
+1492010,2026-04-02T23:30:00+00:00,FT,Talleres Cordoba,456,Boca Juniors,451,0,1,True
+1492003,2026-04-03T18:00:00+00:00,FT,Gimnasia M.,1066,Velez Sarsfield,438,3,2,True
+1492012,2026-04-03T20:15:00+00:00,FT,Union Santa Fe,441,Deportivo Riestra,476,2,0,True
+1492009,2026-04-03T22:30:00+00:00,FT,San Lorenzo,460,Estudiantes L.P.,450,1,0,True
+1491998,2026-04-04T16:30:00+00:00,FT,Aldosivi,463,Estudiantes de Rio Cuarto,2424,0,0,True
+1492004,2026-04-04T20:30:00+00:00,FT,Independiente,453,Racing Club,436,1,0,True
+1492008,2026-04-05T00:00:00+00:00,FT,Rosario Central,437,Atletico Tucuman,455,2,1,True
+1492002,2026-04-05T18:30:00+00:00,FT,Gimnasia L.P.,434,Huracan,445,0,3,True
+1492007,2026-04-05T21:00:00+00:00,FT,River Plate,435,Belgrano Cordoba,440,3,0,True
+1492001,2026-04-05T23:30:00+00:00,FT,Central Cordoba de Santiago,1065,Newells Old Boys,457,1,3,True
+1491999,2026-04-06T22:00:00+00:00,FT,Argentinos JRS,458,Banfield,449,3,2,True
+1492005,2026-04-07T00:15:00+00:00,FT,Instituto Cordoba,478,Defensa Y Justicia,442,2,0,True
+1492014,2026-04-11T00:00:00+00:00,FT,Belgrano Cordoba,440,Aldosivi,463,1,0,True
+1492017,2026-04-11T18:00:00+00:00,FT,Deportivo Riestra,476,Instituto Cordoba,478,0,1,True
+1492021,2026-04-11T18:30:00+00:00,FT,Independ. Rivadavia,473,Argentinos JRS,458,3,1,True
+1492018,2026-04-11T20:15:00+00:00,FT,Estudiantes L.P.,450,Union Santa Fe,441,2,1,True
+1492015,2026-04-11T22:30:00+00:00,FT,Boca Juniors,451,Independiente,453,1,1,True
+1492019,2026-04-12T00:45:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Barracas Central,2432,1,2,True
+1492023,2026-04-12T18:00:00+00:00,FT,Newells Old Boys,457,San Lorenzo,460,0,0,True
+1492024,2026-04-12T18:00:00+00:00,FT,Platense,1064,Gimnasia M.,1066,1,1,True
+1492020,2026-04-12T20:30:00+00:00,FT,Huracan,445,Rosario Central,437,3,1,True
+1492013,2026-04-12T20:30:00+00:00,FT,Atletico Tucuman,455,Tigre,452,0,0,True
+1492025,2026-04-12T23:00:00+00:00,FT,Racing Club,436,River Plate,435,0,2,True
+1492016,2026-04-13T19:30:00+00:00,FT,Defensa Y Justicia,442,Talleres Cordoba,456,1,2,True
+1492026,2026-04-13T19:30:00+00:00,FT,Sarmiento Junin,474,Gimnasia L.P.,434,1,2,True
+1492022,2026-04-13T22:00:00+00:00,FT,Lanus,446,Banfield,449,1,0,True
+1492027,2026-04-14T00:30:00+00:00,FT,Velez Sarsfield,438,Central Cordoba de Santiago,1065,1,0,True
+1492042,2026-04-17T23:30:00+00:00,FT,Union Santa Fe,441,Newells Old Boys,457,2,3,True
+1492033,2026-04-18T18:00:00+00:00,FT,Gimnasia L.P.,434,Estudiantes de Rio Cuarto,2424,1,0,True
+1492036,2026-04-18T20:15:00+00:00,FT,Instituto Cordoba,478,Estudiantes L.P.,450,0,1,True
+1492035,2026-04-18T22:30:00+00:00,FT,Independiente,453,Defensa Y Justicia,442,3,1,True
+1492029,2026-04-19T00:45:00+00:00,FT,Argentinos JRS,458,Atletico Tucuman,455,1,0,True
+1492028,2026-04-19T16:30:00+00:00,FT,Aldosivi,463,Racing Club,436,1,1,True
+1492037,2026-04-19T20:00:00+00:00,FT,River Plate,435,Boca Juniors,451,0,1,True
+1492038,2026-04-19T23:30:00+00:00,FT,Rosario Central,437,Sarmiento Junin,474,2,1,True
+1492040,2026-04-19T23:30:00+00:00,FT,Talleres Cordoba,456,Deportivo Riestra,476,2,0,True
+1492031,2026-04-20T18:00:00+00:00,FT,Barracas Central,2432,Belgrano Cordoba,440,0,0,True
+1492030,2026-04-20T20:15:00+00:00,FT,Banfield,449,Independ. Rivadavia,473,0,0,True
+1492032,2026-04-20T20:15:00+00:00,FT,Central Cordoba de Santiago,1065,Platense,1064,4,3,True
+1492039,2026-04-20T22:30:00+00:00,FT,San Lorenzo,460,Velez Sarsfield,438,0,0,True
+1492041,2026-04-21T00:45:00+00:00,FT,Tigre,452,Huracan,445,1,1,True
+1492034,2026-04-21T00:45:00+00:00,FT,Gimnasia M.,1066,Lanus,446,1,0,True
+1492045,2026-04-23T23:00:00+00:00,FT,Defensa Y Justicia,442,Boca Juniors,451,0,4,True
+1492046,2026-04-24T20:00:00+00:00,FT,Deportivo Riestra,476,Independiente,453,2,0,True
+1492051,2026-04-24T22:15:00+00:00,FT,Lanus,446,Central Cordoba de Santiago,1065,0,0,True
+1492048,2026-04-24T22:15:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Rosario Central,437,1,2,True
+1492054,2026-04-25T00:30:00+00:00,FT,Racing Club,436,Barracas Central,2432,1,1,True
+1492053,2026-04-25T00:30:00+00:00,FT,Platense,1064,San Lorenzo,460,0,1,True
+1492047,2026-04-25T20:00:00+00:00,FT,Estudiantes L.P.,450,Talleres Cordoba,456,0,0,True
+1492056,2026-04-25T22:15:00+00:00,FT,Sarmiento Junin,474,Tigre,452,1,0,True
+1492055,2026-04-26T00:30:00+00:00,FT,River Plate,435,Aldosivi,463,3,1,True
+1492050,2026-04-26T18:00:00+00:00,FT,Independ. Rivadavia,473,Gimnasia M.,1066,5,1,True
+1492044,2026-04-26T20:30:00+00:00,FT,Belgrano Cordoba,440,Gimnasia L.P.,434,0,1,True
+1492052,2026-04-26T20:30:00+00:00,FT,Newells Old Boys,457,Instituto Cordoba,478,1,1,True
+1492043,2026-04-26T23:00:00+00:00,FT,Atletico Tucuman,455,Banfield,449,1,1,True
+1492057,2026-04-27T21:45:00+00:00,FT,Velez Sarsfield,438,Union Santa Fe,441,2,2,True
+1492049,2026-04-28T00:00:00+00:00,FT,Huracan,445,Argentinos JRS,458,1,2,True
+1491939,2026-05-02T17:00:00+00:00,FT,Barracas Central,2432,Banfield,449,1,2,True
+1491945,2026-05-02T17:30:00+00:00,FT,Lanus,446,Deportivo Riestra,476,0,0,True
+1491941,2026-05-02T19:15:00+00:00,FT,Central Cordoba de Santiago,1065,Boca Juniors,451,1,2,True
+1491951,2026-05-02T21:45:00+00:00,FT,Union Santa Fe,441,Talleres Cordoba,456,1,1,True
+1491950,2026-05-02T21:45:00+00:00,FT,San Lorenzo,460,Independiente,453,1,2,True
+1491946,2026-05-03T00:15:00+00:00,FT,Platense,1064,Estudiantes L.P.,450,0,2,True
+1491938,2026-05-03T16:30:00+00:00,FT,Aldosivi,463,Independ. Rivadavia,473,1,1,True
+1491943,2026-05-03T19:00:00+00:00,FT,Gimnasia L.P.,434,Argentinos JRS,458,2,0,True
+1491947,2026-05-03T19:00:00+00:00,FT,Racing Club,436,Huracan,445,0,0,True
+1491949,2026-05-03T19:00:00+00:00,FT,Rosario Central,437,Tigre,452,1,1,True
+1491940,2026-05-03T19:00:00+00:00,FT,Belgrano Cordoba,440,Sarmiento Junin,474,4,0,True
+1491948,2026-05-03T21:30:00+00:00,FT,River Plate,435,Atletico Tucuman,455,0,1,True
+1491944,2026-05-04T20:00:00+00:00,FT,Gimnasia M.,1066,Defensa Y Justicia,442,2,1,True
+1491952,2026-05-04T22:15:00+00:00,FT,Velez Sarsfield,438,Newells Old Boys,457,1,1,True
+1491942,2026-05-05T00:30:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Instituto Cordoba,478,0,2,True
+1544176,2026-05-09T19:30:00+00:00,FT,Talleres Cordoba,456,Belgrano Cordoba,440,0,1,True
+1544177,2026-05-09T22:00:00+00:00,AET,Boca Juniors,451,Huracan,445,2,3,False
+1544179,2026-05-10T00:30:00+00:00,FT,Independ. Rivadavia,473,Union Santa Fe,441,1,2,True
+1544178,2026-05-10T01:15:00+00:00,FT,Argentinos JRS,458,Lanus,446,2,0,True
+1544180,2026-05-10T18:00:00+00:00,FT,Rosario Central,437,Independiente,453,3,1,True
+1544181,2026-05-10T20:00:00+00:00,FT,Estudiantes L.P.,450,Racing Club,436,0,1,True
+1544182,2026-05-10T22:00:00+00:00,PEN,River Plate,435,San Lorenzo,460,1,1,False
+1544183,2026-05-11T00:30:00+00:00,FT,Velez Sarsfield,438,Gimnasia L.P.,434,0,1,True
+1544849,2026-05-12T22:00:00+00:00,FT,Belgrano Cordoba,440,Union Santa Fe,441,2,0,True
+1544850,2026-05-13T00:30:00+00:00,AET,Argentinos JRS,458,Huracan,445,1,0,False
+1544851,2026-05-13T21:45:00+00:00,AET,Rosario Central,437,Racing Club,436,2,1,False
+1544852,2026-05-14T00:45:00+00:00,FT,River Plate,435,Gimnasia L.P.,434,2,0,True
+1545164,2026-05-16T22:30:00+00:00,FT,River Plate,435,Rosario Central,437,1,0,True
+1545165,2026-05-17T20:00:00+00:00,PEN,Argentinos JRS,458,Belgrano Cordoba,440,1,1,False
+1545443,2026-05-24T18:30:00+00:00,FT,River Plate,435,Belgrano Cordoba,440,2,3,True
+1493003,2026-07-23T22:30:00+00:00,FT,Belgrano Cordoba,440,Rosario Central,437,2,1,True
+1493015,2026-07-23T22:30:00+00:00,FT,Sarmiento Junin,474,Argentinos JRS,458,2,3,True
+1493004,2026-07-24T00:45:00+00:00,FT,Defensa Y Justicia,442,Aldosivi,463,1,1,True
+1493008,2026-07-24T19:45:00+00:00,FT,Gimnasia M.,1066,Central Cordoba de Santiago,1065,1,0,True
+1493013,2026-07-24T22:00:00+00:00,FT,Racing Club,436,Gimnasia L.P.,434,2,1,True
+1493016,2026-07-24T22:00:00+00:00,FT,Velez Sarsfield,438,Instituto Cordoba,478,1,0,True
+1493009,2026-07-25T00:15:00+00:00,FT,Huracan,445,Banfield,449,1,0,True
+1493012,2026-07-25T00:15:00+00:00,FT,Platense,1064,Union Santa Fe,441,2,2,True
+1493007,2026-07-25T17:45:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Tigre,452,1,0,True
+1493011,2026-07-25T20:00:00+00:00,FT,Newells Old Boys,457,Talleres Cordoba,456,1,0,True
+1493014,2026-07-25T22:15:00+00:00,FT,River Plate,435,Barracas Central,2432,0,1,True
+1493010,2026-07-26T00:30:00+00:00,FT,Lanus,446,San Lorenzo,460,1,0,True
+1493002,2026-07-26T18:00:00+00:00,FT,Atletico Tucuman,455,Independ. Rivadavia,473,0,0,True
+1493006,2026-07-26T20:15:00+00:00,FT,Estudiantes L.P.,450,Independiente,453,0,2,True
+1493005,2026-07-26T22:30:00+00:00,FT,Deportivo Riestra,476,Boca Juniors,451,3,0,True
+1493018,2026-07-28T22:00:00+00:00,FT,Banfield,449,Sarmiento Junin,474,3,2,True
+1493028,2026-07-28T22:00:00+00:00,FT,San Lorenzo,460,Gimnasia M.,1066,1,0,True
+1493027,2026-07-29T00:15:00+00:00,FT,Rosario Central,437,Racing Club,436,0,0,True
+1493017,2026-07-29T00:15:00+00:00,FT,Argentinos JRS,458,Estudiantes de Rio Cuarto,2424,3,0,True
+1493019,2026-07-29T17:30:00+00:00,FT,Barracas Central,2432,Aldosivi,463,1,0,True
+1493022,2026-07-29T20:00:00+00:00,FT,Defensa Y Justicia,442,Deportivo Riestra,476,2,1,True
+1493023,2026-07-29T22:15:00+00:00,FT,Gimnasia L.P.,434,River Plate,435,1,0,True
+1493026,2026-07-30T00:30:00+00:00,FT,Instituto Cordoba,478,Platense,1064,2,1,True
+1493029,2026-07-30T22:00:00+00:00,FT,Talleres Cordoba,456,Velez Sarsfield,438,1,3,True
+1493025,2026-07-30T22:00:00+00:00,FT,Independ. Rivadavia,473,Huracan,445,2,1,True
+1493024,2026-07-31T00:15:00+00:00,FT,Independiente,453,Newells Old Boys,457,1,0,True
+1493021,2026-07-31T00:15:00+00:00,FT,Central Cordoba de Santiago,1065,Atletico Tucuman,455,0,2,True
+1493038,2026-08-01T18:30:00+00:00,FT,Gimnasia M.,1066,Union Santa Fe,441,2,0,True
+1493037,2026-08-01T18:30:00+00:00,FT,Estudiantes de Rio Cuarto,2424,Banfield,449,0,0,True
+1493033,2026-08-01T21:00:00+00:00,FT,Belgrano Cordoba,440,Argentinos JRS,458,0,1,True
+1493036,2026-08-01T21:00:00+00:00,FT,Estudiantes L.P.,450,Defensa Y Justicia,442,3,0,True
+1493043,2026-08-01T23:30:00+00:00,FT,Racing Club,436,Tigre,452,1,3,True
+1493032,2026-08-02T17:30:00+00:00,FT,Aldosivi,463,Gimnasia L.P.,434,1,2,True
+1493035,2026-08-02T17:30:00+00:00,FT,Deportivo Riestra,476,Barracas Central,2432,0,1,True
+1493041,2026-08-02T20:00:00+00:00,FT,Newells Old Boys,457,Boca Juniors,451,2,2,True
+1493044,2026-08-02T22:15:00+00:00,FT,River Plate,435,Rosario Central,437,0,1,True
+1493040,2026-08-03T00:30:00+00:00,FT,Lanus,446,Instituto Cordoba,478,0,1,True
+1493045,2026-08-03T19:45:00+00:00,FT,Sarmiento Junin,474,Independ. Rivadavia,473,2,1,True
+1493046,2026-08-03T22:00:00+00:00,FT,Velez Sarsfield,438,Independiente,453,1,0,True
+1493042,2026-08-03T22:00:00+00:00,FT,Platense,1064,Talleres Cordoba,456,0,4,True
+1493039,2026-08-04T00:15:00+00:00,FT,Huracan,445,Atletico Tucuman,455,0,0,True
+1493034,2026-08-04T00:15:00+00:00,FT,Central Cordoba de Santiago,1065,San Lorenzo,460,1,0,True
+1493020,2026-08-05T22:00:00+00:00,FT,Boca Juniors,451,Estudiantes L.P.,450,1,0,True
+1493031,2026-08-06T22:00:00+00:00,NS,Union Santa Fe,441,Lanus,446,,,False
+1493057,2026-08-07T22:30:00+00:00,NS,Rosario Central,437,Aldosivi,463,,,False
+1493055,2026-08-08T00:45:00+00:00,NS,Independ. Rivadavia,473,Estudiantes de Rio Cuarto,2424,,,False
+1493048,2026-08-08T17:45:00+00:00,NS,Atletico Tucuman,455,Sarmiento Junin,474,,,False
+1493052,2026-08-08T17:45:00+00:00,NS,Deportivo Riestra,476,Estudiantes L.P.,450,,,False
+1493060,2026-08-08T20:00:00+00:00,NS,Tigre,452,River Plate,435,,,False
+1493050,2026-08-08T22:15:00+00:00,NS,Boca Juniors,451,Velez Sarsfield,438,,,False
+1493054,2026-08-09T00:30:00+00:00,NS,Independiente,453,Platense,1064,,,False
+1493058,2026-08-09T18:00:00+00:00,NS,San Lorenzo,460,Huracan,445,,,False
+1493053,2026-08-09T20:45:00+00:00,NS,Gimnasia L.P.,434,Barracas Central,2432,,,False
+1493051,2026-08-09T20:45:00+00:00,NS,Defensa Y Justicia,442,Newells Old Boys,457,,,False
+1493047,2026-08-09T23:15:00+00:00,NS,Argentinos JRS,458,Racing Club,436,,,False
+1493056,2026-08-10T00:30:00+00:00,NS,Instituto Cordoba,478,Gimnasia M.,1066,,,False
+1493049,2026-08-10T22:00:00+00:00,NS,Banfield,449,Belgrano Cordoba,440,,,False
+1493061,2026-08-11T00:15:00+00:00,NS,Union Santa Fe,441,Central Cordoba de Santiago,1065,,,False
+1493059,2026-08-12T00:00:00+00:00,NS,Talleres Cordoba,456,Lanus,446,,,False
+1493072,2026-08-14T23:30:00+00:00,NS,Racing Club,436,Banfield,449,,,False
+1493074,2026-08-15T17:30:00+00:00,NS,San Lorenzo,460,Union Santa Fe,441,,,False
+1493062,2026-08-15T17:30:00+00:00,NS,Aldosivi,463,Tigre,452,,,False
+1493066,2026-08-15T19:45:00+00:00,NS,Estudiantes L.P.,450,Gimnasia L.P.,434,,,False
+1493064,2026-08-15T22:00:00+00:00,NS,Belgrano Cordoba,440,Independ. Rivadavia,473,,,False
+1493070,2026-08-15T22:00:00+00:00,NS,Newells Old Boys,457,Deportivo Riestra,476,,,False
+1493071,2026-08-16T00:15:00+00:00,NS,Platense,1064,Boca Juniors,451,,,False
+1493075,2026-08-16T18:00:00+00:00,NS,Sarmiento Junin,474,Huracan,445,,,False
+1493065,2026-08-16T18:00:00+00:00,NS,Central Cordoba de Santiago,1065,Instituto Cordoba,478,,,False
+1493073,2026-08-16T21:00:00+00:00,NS,River Plate,435,Argentinos JRS,458,,,False
+1493063,2026-08-16T23:15:00+00:00,NS,Barracas Central,2432,Rosario Central,437,,,False
+1493067,2026-08-17T17:45:00+00:00,NS,Estudiantes de Rio Cuarto,2424,Atletico Tucuman,455,,,False
+1493069,2026-08-17T20:00:00+00:00,NS,Lanus,446,Independiente,453,,,False
+1493076,2026-08-17T22:15:00+00:00,NS,Velez Sarsfield,438,Defensa Y Justicia,442,,,False
+1493068,2026-08-18T00:30:00+00:00,NS,Gimnasia M.,1066,Talleres Cordoba,456,,,False
+1493077,2026-08-21T17:30:00+00:00,NS,Aldosivi,463,Union Santa Fe,441,,,False
+1493081,2026-08-21T23:00:00+00:00,NS,Estudiantes de Rio Cuarto,2424,San Lorenzo,460,,,False
+1493082,2026-08-22T19:00:00+00:00,NS,Gimnasia L.P.,434,Gimnasia M.,1066,,,False
+1493078,2026-08-22T19:00:00+00:00,NS,Atletico Tucuman,455,Instituto Cordoba,478,,,False
+1493084,2026-08-22T21:30:00+00:00,NS,Independiente,453,Independ. Rivadavia,473,,,False
+1493083,2026-08-23T00:00:00+00:00,NS,Huracan,445,Deportivo Riestra,476,,,False
+1493086,2026-08-23T00:00:00+00:00,NS,Newells Old Boys,457,Banfield,449,,,False
+1493089,2026-08-23T17:45:00+00:00,NS,Sarmiento Junin,474,Estudiantes L.P.,450,,,False
+1493079,2026-08-23T17:45:00+00:00,NS,Barracas Central,2432,Platense,1064,,,False
+1493080,2026-08-23T20:00:00+00:00,NS,Belgrano Cordoba,440,Defensa Y Justicia,442,,,False
+1493088,2026-08-23T22:15:00+00:00,NS,River Plate,435,Velez Sarsfield,438,,,False
+1493087,2026-08-24T00:30:00+00:00,NS,Racing Club,436,Boca Juniors,451,,,False
+1493091,2026-08-24T22:00:00+00:00,NS,Tigre,452,Central Cordoba de Santiago,1065,,,False
+1493085,2026-08-25T00:15:00+00:00,NS,Lanus,446,Argentinos JRS,458,,,False
+1493090,2026-08-25T00:15:00+00:00,NS,Talleres Cordoba,456,Rosario Central,437,,,False
+1493099,2026-08-28T22:00:00+00:00,NS,Huracan,445,Estudiantes de Rio Cuarto,2424,,,False
+1493106,2026-08-29T00:15:00+00:00,NS,Union Santa Fe,441,Sarmiento Junin,474,,,False
+1493097,2026-08-29T17:45:00+00:00,NS,Deportivo Riestra,476,Velez Sarsfield,438,,,False
+1493103,2026-08-29T20:00:00+00:00,NS,Rosario Central,437,Gimnasia L.P.,434,,,False
+1493095,2026-08-29T22:00:00+00:00,NS,Boca Juniors,451,Lanus,446,,,False
+1493093,2026-08-30T00:30:00+00:00,NS,Atletico Tucuman,455,Belgrano Cordoba,440,,,False
+1493104,2026-08-30T00:30:00+00:00,NS,Talleres Cordoba,456,Central Cordoba de Santiago,1065,,,False
+1493094,2026-08-30T18:00:00+00:00,NS,Banfield,449,River Plate,435,,,False
+1493092,2026-08-30T20:00:00+00:00,NS,Argentinos JRS,458,Aldosivi,463,,,False
+1493100,2026-08-30T22:15:00+00:00,NS,Independiente,453,Gimnasia M.,1066,,,False
+1493101,2026-08-31T00:30:00+00:00,NS,Independ. Rivadavia,473,Racing Club,436,,,False
+1493096,2026-08-31T22:00:00+00:00,NS,Defensa Y Justicia,442,Platense,1064,,,False
+1493098,2026-08-31T22:00:00+00:00,NS,Estudiantes L.P.,450,Newells Old Boys,457,,,False
+1493105,2026-09-01T00:15:00+00:00,NS,Tigre,452,Barracas Central,2432,,,False
+1493102,2026-09-01T00:15:00+00:00,NS,Instituto Cordoba,478,San Lorenzo,460,,,False
+1493112,2026-09-06T20:00:00+00:00,NS,Gimnasia L.P.,434,Tigre,452,,,False
+1493117,2026-09-06T20:00:00+00:00,NS,River Plate,435,Independ. Rivadavia,473,,,False
+1493116,2026-09-06T20:00:00+00:00,NS,Racing Club,436,Atletico Tucuman,455,,,False
+1493118,2026-09-06T20:00:00+00:00,NS,Rosario Central,437,Newells Old Boys,457,,,False
+1493121,2026-09-06T20:00:00+00:00,NS,Velez Sarsfield,438,Estudiantes L.P.,450,,,False
+1493109,2026-09-06T20:00:00+00:00,NS,Belgrano Cordoba,440,Huracan,445,,,False
+1493120,2026-09-06T20:00:00+00:00,NS,Union Santa Fe,441,Instituto Cordoba,478,,,False
+1493114,2026-09-06T20:00:00+00:00,NS,Lanus,446,Defensa Y Justicia,442,,,False
+1493119,2026-09-06T20:00:00+00:00,NS,San Lorenzo,460,Talleres Cordoba,456,,,False
+1493107,2026-09-06T20:00:00+00:00,NS,Aldosivi,463,Banfield,449,,,False
+1493115,2026-09-06T20:00:00+00:00,NS,Platense,1064,Deportivo Riestra,476,,,False
+1493110,2026-09-06T20:00:00+00:00,NS,Central Cordoba de Santiago,1065,Independiente,453,,,False
+1493113,2026-09-06T20:00:00+00:00,NS,Gimnasia M.,1066,Boca Juniors,451,,,False
+1493111,2026-09-06T20:00:00+00:00,NS,Estudiantes de Rio Cuarto,2424,Sarmiento Junin,474,,,False
+1493108,2026-09-06T20:00:00+00:00,NS,Barracas Central,2432,Argentinos JRS,458,,,False
+1493126,2026-09-13T20:00:00+00:00,NS,Defensa Y Justicia,442,Gimnasia M.,1066,,,False
+1493129,2026-09-13T20:00:00+00:00,NS,Huracan,445,Racing Club,436,,,False
+1493124,2026-09-13T20:00:00+00:00,NS,Banfield,449,Barracas Central,2432,,,False
+1493128,2026-09-13T20:00:00+00:00,NS,Estudiantes L.P.,450,Platense,1064,,,False
+1493125,2026-09-13T20:00:00+00:00,NS,Boca Juniors,451,Central Cordoba de Santiago,1065,,,False
+1493136,2026-09-13T20:00:00+00:00,NS,Tigre,452,Rosario Central,437,,,False
+1493130,2026-09-13T20:00:00+00:00,NS,Independiente,453,San Lorenzo,460,,,False
+1493123,2026-09-13T20:00:00+00:00,NS,Atletico Tucuman,455,River Plate,435,,,False
+1493135,2026-09-13T20:00:00+00:00,NS,Talleres Cordoba,456,Union Santa Fe,441,,,False
+1493133,2026-09-13T20:00:00+00:00,NS,Newells Old Boys,457,Velez Sarsfield,438,,,False
+1493122,2026-09-13T20:00:00+00:00,NS,Argentinos JRS,458,Gimnasia L.P.,434,,,False
+1493131,2026-09-13T20:00:00+00:00,NS,Independ. Rivadavia,473,Aldosivi,463,,,False
+1493134,2026-09-13T20:00:00+00:00,NS,Sarmiento Junin,474,Belgrano Cordoba,440,,,False
+1493127,2026-09-13T20:00:00+00:00,NS,Deportivo Riestra,476,Lanus,446,,,False
+1493132,2026-09-13T20:00:00+00:00,NS,Instituto Cordoba,478,Estudiantes de Rio Cuarto,2424,,,False
+1493141,2026-09-20T20:00:00+00:00,NS,Gimnasia L.P.,434,Banfield,449,,,False
+1493147,2026-09-20T20:00:00+00:00,NS,River Plate,435,Huracan,445,,,False
+1493146,2026-09-20T20:00:00+00:00,NS,Racing Club,436,Sarmiento Junin,474,,,False
+1493148,2026-09-20T20:00:00+00:00,NS,Rosario Central,437,Argentinos JRS,458,,,False
+1493151,2026-09-20T20:00:00+00:00,NS,Velez Sarsfield,438,Tigre,452,,,False
+1493139,2026-09-20T20:00:00+00:00,NS,Belgrano Cordoba,440,Estudiantes de Rio Cuarto,2424,,,False
+1493150,2026-09-20T20:00:00+00:00,NS,Union Santa Fe,441,Independiente,453,,,False
+1493144,2026-09-20T20:00:00+00:00,NS,Lanus,446,Estudiantes L.P.,450,,,False
+1493149,2026-09-20T20:00:00+00:00,NS,San Lorenzo,460,Boca Juniors,451,,,False
+1493137,2026-09-20T20:00:00+00:00,NS,Aldosivi,463,Atletico Tucuman,455,,,False
+1493143,2026-09-20T20:00:00+00:00,NS,Instituto Cordoba,478,Talleres Cordoba,456,,,False
+1493145,2026-09-20T20:00:00+00:00,NS,Platense,1064,Newells Old Boys,457,,,False
+1493140,2026-09-20T20:00:00+00:00,NS,Central Cordoba de Santiago,1065,Defensa Y Justicia,442,,,False
+1493142,2026-09-20T20:00:00+00:00,NS,Gimnasia M.,1066,Deportivo Riestra,476,,,False
+1493138,2026-09-20T20:00:00+00:00,NS,Barracas Central,2432,Independ. Rivadavia,473,,,False
+1493166,2026-10-04T20:00:00+00:00,NS,Velez Sarsfield,438,Platense,1064,,,False
+1493156,2026-10-04T20:00:00+00:00,NS,Defensa Y Justicia,442,San Lorenzo,460,,,False
+1493160,2026-10-04T20:00:00+00:00,NS,Huracan,445,Aldosivi,463,,,False
+1493154,2026-10-04T20:00:00+00:00,NS,Banfield,449,Rosario Central,437,,,False
+1493158,2026-10-04T20:00:00+00:00,NS,Estudiantes L.P.,450,Gimnasia M.,1066,,,False
+1493155,2026-10-04T20:00:00+00:00,NS,Boca Juniors,451,Union Santa Fe,441,,,False
+1493161,2026-10-04T20:00:00+00:00,NS,Independiente,453,Instituto Cordoba,478,,,False
+1493153,2026-10-04T20:00:00+00:00,NS,Atletico Tucuman,455,Barracas Central,2432,,,False
+1493165,2026-10-04T20:00:00+00:00,NS,Talleres Cordoba,456,Belgrano Cordoba,440,,,False
+1493163,2026-10-04T20:00:00+00:00,NS,Newells Old Boys,457,Lanus,446,,,False
+1493152,2026-10-04T20:00:00+00:00,NS,Argentinos JRS,458,Tigre,452,,,False
+1493162,2026-10-04T20:00:00+00:00,NS,Independ. Rivadavia,473,Gimnasia L.P.,434,,,False
+1493164,2026-10-04T20:00:00+00:00,NS,Sarmiento Junin,474,River Plate,435,,,False
+1493157,2026-10-04T20:00:00+00:00,NS,Deportivo Riestra,476,Central Cordoba de Santiago,1065,,,False
+1493159,2026-10-04T20:00:00+00:00,NS,Estudiantes de Rio Cuarto,2424,Racing Club,436,,,False
+1493170,2026-10-11T20:00:00+00:00,NS,Gimnasia L.P.,434,Atletico Tucuman,455,,,False
+1493176,2026-10-11T20:00:00+00:00,NS,River Plate,435,Estudiantes de Rio Cuarto,2424,,,False
+1493175,2026-10-11T20:00:00+00:00,NS,Racing Club,436,Belgrano Cordoba,440,,,False
+1493177,2026-10-11T20:00:00+00:00,NS,Rosario Central,437,Independ. Rivadavia,473,,,False
+1493181,2026-10-11T20:00:00+00:00,NS,Union Santa Fe,441,Defensa Y Justicia,442,,,False
+1493173,2026-10-11T20:00:00+00:00,NS,Lanus,446,Velez Sarsfield,438,,,False
+1493180,2026-10-11T20:00:00+00:00,NS,Tigre,452,Banfield,449,,,False
+1493179,2026-10-11T20:00:00+00:00,NS,Talleres Cordoba,456,Independiente,453,,,False
+1493178,2026-10-11T20:00:00+00:00,NS,San Lorenzo,460,Deportivo Riestra,476,,,False
+1493167,2026-10-11T20:00:00+00:00,NS,Aldosivi,463,Sarmiento Junin,474,,,False
+1493172,2026-10-11T20:00:00+00:00,NS,Instituto Cordoba,478,Boca Juniors,451,,,False
+1493174,2026-10-11T20:00:00+00:00,NS,Platense,1064,Argentinos JRS,458,,,False
+1493169,2026-10-11T20:00:00+00:00,NS,Central Cordoba de Santiago,1065,Estudiantes L.P.,450,,,False
+1493171,2026-10-11T20:00:00+00:00,NS,Gimnasia M.,1066,Newells Old Boys,457,,,False
+1493168,2026-10-11T20:00:00+00:00,NS,Barracas Central,2432,Huracan,445,,,False
+1493194,2026-10-18T20:00:00+00:00,NS,Racing Club,436,Independiente,453,,,False
+1493196,2026-10-18T20:00:00+00:00,NS,Velez Sarsfield,438,Gimnasia M.,1066,,,False
+1493184,2026-10-18T20:00:00+00:00,NS,Belgrano Cordoba,440,River Plate,435,,,False
+1493186,2026-10-18T20:00:00+00:00,NS,Defensa Y Justicia,442,Instituto Cordoba,478,,,False
+1493190,2026-10-18T20:00:00+00:00,NS,Huracan,445,Gimnasia L.P.,434,,,False
+1493183,2026-10-18T20:00:00+00:00,NS,Banfield,449,Argentinos JRS,458,,,False
+1493188,2026-10-18T20:00:00+00:00,NS,Estudiantes L.P.,450,San Lorenzo,460,,,False
+1493185,2026-10-18T20:00:00+00:00,NS,Boca Juniors,451,Talleres Cordoba,456,,,False
+1493182,2026-10-18T20:00:00+00:00,NS,Atletico Tucuman,455,Rosario Central,437,,,False
+1493192,2026-10-18T20:00:00+00:00,NS,Newells Old Boys,457,Central Cordoba de Santiago,1065,,,False
+1493191,2026-10-18T20:00:00+00:00,NS,Independ. Rivadavia,473,Tigre,452,,,False
+1493195,2026-10-18T20:00:00+00:00,NS,Sarmiento Junin,474,Barracas Central,2432,,,False
+1493187,2026-10-18T20:00:00+00:00,NS,Deportivo Riestra,476,Union Santa Fe,441,,,False
+1493193,2026-10-18T20:00:00+00:00,NS,Platense,1064,Lanus,446,,,False
+1493189,2026-10-18T20:00:00+00:00,NS,Estudiantes de Rio Cuarto,2424,Aldosivi,463,,,False
+1493202,2026-10-25T21:00:00+00:00,NS,Gimnasia L.P.,434,Sarmiento Junin,474,,,False
+1493206,2026-10-25T21:00:00+00:00,NS,River Plate,435,Racing Club,436,,,False
+1493207,2026-10-25T21:00:00+00:00,NS,Rosario Central,437,Huracan,445,,,False
+1493211,2026-10-25T21:00:00+00:00,NS,Union Santa Fe,441,Estudiantes L.P.,450,,,False
+1493199,2026-10-25T21:00:00+00:00,NS,Banfield,449,Lanus,446,,,False
+1493210,2026-10-25T21:00:00+00:00,NS,Tigre,452,Atletico Tucuman,455,,,False
+1493204,2026-10-25T21:00:00+00:00,NS,Independiente,453,Boca Juniors,451,,,False
+1493209,2026-10-25T21:00:00+00:00,NS,Talleres Cordoba,456,Defensa Y Justicia,442,,,False
+1493198,2026-10-25T21:00:00+00:00,NS,Argentinos JRS,458,Independ. Rivadavia,473,,,False
+1493208,2026-10-25T21:00:00+00:00,NS,San Lorenzo,460,Newells Old Boys,457,,,False
+1493197,2026-10-25T21:00:00+00:00,NS,Aldosivi,463,Belgrano Cordoba,440,,,False
+1493205,2026-10-25T21:00:00+00:00,NS,Instituto Cordoba,478,Deportivo Riestra,476,,,False
+1493201,2026-10-25T21:00:00+00:00,NS,Central Cordoba de Santiago,1065,Velez Sarsfield,438,,,False
+1493203,2026-10-25T21:00:00+00:00,NS,Gimnasia M.,1066,Platense,1064,,,False
+1493200,2026-10-25T21:00:00+00:00,NS,Barracas Central,2432,Estudiantes de Rio Cuarto,2424,,,False
+1493224,2026-11-01T21:00:00+00:00,NS,Racing Club,436,Aldosivi,463,,,False
+1493226,2026-11-01T21:00:00+00:00,NS,Velez Sarsfield,438,San Lorenzo,460,,,False
+1493213,2026-11-01T21:00:00+00:00,NS,Belgrano Cordoba,440,Barracas Central,2432,,,False
+1493215,2026-11-01T21:00:00+00:00,NS,Defensa Y Justicia,442,Independiente,453,,,False
+1493219,2026-11-01T21:00:00+00:00,NS,Huracan,445,Tigre,452,,,False
+1493221,2026-11-01T21:00:00+00:00,NS,Lanus,446,Gimnasia M.,1066,,,False
+1493217,2026-11-01T21:00:00+00:00,NS,Estudiantes L.P.,450,Instituto Cordoba,478,,,False
+1493214,2026-11-01T21:00:00+00:00,NS,Boca Juniors,451,River Plate,435,,,False
+1493212,2026-11-01T21:00:00+00:00,NS,Atletico Tucuman,455,Argentinos JRS,458,,,False
+1493222,2026-11-01T21:00:00+00:00,NS,Newells Old Boys,457,Union Santa Fe,441,,,False
+1493220,2026-11-01T21:00:00+00:00,NS,Independ. Rivadavia,473,Banfield,449,,,False
+1493225,2026-11-01T21:00:00+00:00,NS,Sarmiento Junin,474,Rosario Central,437,,,False
+1493216,2026-11-01T21:00:00+00:00,NS,Deportivo Riestra,476,Talleres Cordoba,456,,,False
+1493223,2026-11-01T21:00:00+00:00,NS,Platense,1064,Central Cordoba de Santiago,1065,,,False
+1493218,2026-11-01T21:00:00+00:00,NS,Estudiantes de Rio Cuarto,2424,Gimnasia L.P.,434,,,False
+1493233,2026-11-08T21:00:00+00:00,NS,Gimnasia L.P.,434,Belgrano Cordoba,440,,,False
+1493237,2026-11-08T21:00:00+00:00,NS,Rosario Central,437,Estudiantes de Rio Cuarto,2424,,,False
+1493241,2026-11-08T21:00:00+00:00,NS,Union Santa Fe,441,Velez Sarsfield,438,,,False
+1493229,2026-11-08T21:00:00+00:00,NS,Banfield,449,Atletico Tucuman,455,,,False
+1493231,2026-11-08T21:00:00+00:00,NS,Boca Juniors,451,Defensa Y Justicia,442,,,False
+1493240,2026-11-08T21:00:00+00:00,NS,Tigre,452,Sarmiento Junin,474,,,False
+1493235,2026-11-08T21:00:00+00:00,NS,Independiente,453,Deportivo Riestra,476,,,False
+1493239,2026-11-08T21:00:00+00:00,NS,Talleres Cordoba,456,Estudiantes L.P.,450,,,False
+1493228,2026-11-08T21:00:00+00:00,NS,Argentinos JRS,458,Huracan,445,,,False
+1493238,2026-11-08T21:00:00+00:00,NS,San Lorenzo,460,Platense,1064,,,False
+1493227,2026-11-08T21:00:00+00:00,NS,Aldosivi,463,River Plate,435,,,False
+1493236,2026-11-08T21:00:00+00:00,NS,Instituto Cordoba,478,Newells Old Boys,457,,,False
+1493232,2026-11-08T21:00:00+00:00,NS,Central Cordoba de Santiago,1065,Lanus,446,,,False
+1493234,2026-11-08T21:00:00+00:00,NS,Gimnasia M.,1066,Independ. Rivadavia,473,,,False
+1493230,2026-11-08T21:00:00+00:00,NS,Barracas Central,2432,Racing Club,436,,,False

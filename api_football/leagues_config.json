@@ -2778,6 +2778,13 @@
         2024,
         2025
       ]
+    },
+    {
+      "name": "League Cup",
+      "league_id": 360,
+      "seasons": [
+        2020
+      ]
     }
   ],
   "Israel": [
@@ -3877,6 +3884,32 @@
         2024,
         2025
       ]
+    },
+    {
+      "name": "Eerste Divisie",
+      "league_id": 89,
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Tweede Divisie",
+      "league_id": 492,
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
     }
   ],
   "New-Zealand": [
@@ -4276,6 +4309,98 @@
         2019,
         2020,
         2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group A",
+      "league_id": 457,
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group B",
+      "league_id": 458,
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group C",
+      "league_id": 459,
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group D",
+      "league_id": 460,
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group E",
+      "league_id": 681,
+      "seasons": [
+        2020,
+        2021
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group F",
+      "league_id": 682,
+      "seasons": [
+        2020,
+        2021
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group G",
+      "league_id": 683,
+      "seasons": [
+        2020
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Group H",
+      "league_id": 684,
+      "seasons": [
+        2020
+      ]
+    },
+    {
+      "name": "Campeonato de Portugal Prio - Promotion Round",
+      "league_id": 991,
+      "seasons": [
         2022,
         2023,
         2024,

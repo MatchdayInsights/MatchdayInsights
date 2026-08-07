@@ -1,0 +1,79 @@
+﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+159136,2020-02-14T15:00:00+00:00,FT,Tsarsko Selo,1413,Vitosha Bistritsa,850,1,0,True
+159138,2020-02-15T12:45:00+00:00,FT,Levski Sofia,646,CSKA Sofia,853,0,0,True
+159141,2020-02-15T15:30:00+00:00,FT,Ludogorets,566,Botev Vratsa,859,6,0,True
+159135,2020-02-16T10:00:00+00:00,FT,Beroe,857,Etar Veliko Tarnovo,855,2,0,True
+159137,2020-02-16T12:30:00+00:00,FT,Botev Plovdiv,634,Lokomotiv Plovdiv,858,0,0,True
+159139,2020-02-16T15:00:00+00:00,FT,Dunav Ruse,683,Cherno More Varna,851,0,2,True
+159140,2020-02-17T15:00:00+00:00,FT,Arda Kardzhali,1430,Slavia Sofia,854,0,1,True
+159143,2020-02-22T10:00:00+00:00,FT,Botev Vratsa,859,Arda Kardzhali,1430,3,1,True
+159145,2020-02-22T12:15:00+00:00,FT,Cherno More Varna,851,Levski Sofia,646,2,2,True
+159146,2020-02-22T14:30:00+00:00,FT,CSKA Sofia,853,Botev Plovdiv,634,1,0,True
+159148,2020-02-23T10:00:00+00:00,FT,Vitosha Bistritsa,850,Beroe,857,1,2,True
+159147,2020-02-23T12:15:00+00:00,FT,Lokomotiv Plovdiv,858,Tsarsko Selo,1413,4,0,True
+159142,2020-02-23T14:30:00+00:00,FT,Etar Veliko Tarnovo,855,Ludogorets,566,1,1,True
+159144,2020-02-24T15:00:00+00:00,FT,Slavia Sofia,854,Dunav Ruse,683,3,1,True
+159150,2020-02-28T15:30:00+00:00,FT,Beroe,857,Lokomotiv Plovdiv,858,2,0,True
+159154,2020-02-29T10:30:00+00:00,FT,Dunav Ruse,683,Botev Vratsa,859,0,0,True
+159152,2020-02-29T13:00:00+00:00,FT,Botev Plovdiv,634,Cherno More Varna,851,1,1,True
+159151,2020-02-29T15:30:00+00:00,FT,Tsarsko Selo,1413,CSKA Sofia,853,2,1,True
+159153,2020-03-01T12:15:00+00:00,FT,Levski Sofia,646,Slavia Sofia,854,1,2,True
+159149,2020-03-02T15:30:00+00:00,FT,Vitosha Bistritsa,850,Etar Veliko Tarnovo,855,2,6,True
+159160,2020-03-06T15:30:00+00:00,FT,Cherno More Varna,851,Tsarsko Selo,1413,1,0,True
+159156,2020-03-07T10:30:00+00:00,FT,Etar Veliko Tarnovo,855,Arda Kardzhali,1430,1,1,True
+159162,2020-03-07T13:00:00+00:00,FT,Lokomotiv Plovdiv,858,Vitosha Bistritsa,850,1,1,True
+159161,2020-03-07T15:30:00+00:00,FT,CSKA Sofia,853,Beroe,857,2,0,True
+159159,2020-03-08T10:30:00+00:00,FT,Slavia Sofia,854,Botev Plovdiv,634,2,1,True
+159158,2020-03-08T13:00:00+00:00,FT,Botev Vratsa,859,Levski Sofia,646,0,0,True
+159157,2020-03-08T15:30:00+00:00,FT,Ludogorets,566,Dunav Ruse,683,5,1,True
+159163,2020-06-05T15:45:00+00:00,FT,Lokomotiv Plovdiv,858,Etar Veliko Tarnovo,855,2,0,True
+159168,2020-06-05T18:00:00+00:00,FT,Levski Sofia,646,Ludogorets,566,0,1,True
+159169,2020-06-06T14:00:00+00:00,FT,Dunav Ruse,683,Arda Kardzhali,1430,0,0,True
+159167,2020-06-06T15:45:00+00:00,FT,Botev Plovdiv,634,Botev Vratsa,859,0,1,True
+159164,2020-06-06T18:00:00+00:00,FT,Vitosha Bistritsa,850,CSKA Sofia,853,0,1,True
+159165,2020-06-07T17:30:00+00:00,FT,Beroe,857,Cherno More Varna,851,3,0,True
+159166,2020-06-08T17:30:00+00:00,FT,Tsarsko Selo,1413,Slavia Sofia,854,1,3,True
+159155,2020-06-10T15:45:00+00:00,FT,Arda Kardzhali,1430,Ludogorets,566,1,1,True
+159170,2020-06-11T17:30:00+00:00,FT,Etar Veliko Tarnovo,855,Dunav Ruse,683,5,3,True
+159173,2020-06-12T17:30:00+00:00,FT,Botev Vratsa,859,Tsarsko Selo,1413,0,1,True
+159175,2020-06-13T15:45:00+00:00,FT,Cherno More Varna,851,Vitosha Bistritsa,850,2,0,True
+159174,2020-06-13T18:00:00+00:00,FT,Slavia Sofia,854,Beroe,857,2,4,True
+159171,2020-06-14T13:30:00+00:00,FT,Arda Kardzhali,1430,Levski Sofia,646,1,3,True
+159172,2020-06-14T15:45:00+00:00,FT,Ludogorets,566,Botev Plovdiv,634,2,1,True
+159176,2020-06-14T18:00:00+00:00,FT,CSKA Sofia,853,Lokomotiv Plovdiv,858,1,1,True
+565967,2020-06-19T15:15:00+00:00,FT,Cherno More Varna,851,Vitosha Bistritsa,850,1,0,True
+565543,2020-06-20T13:15:00+00:00,FT,CSKA Sofia,853,Levski Sofia,646,3,3,True
+565544,2020-06-20T15:45:00+00:00,FT,Lokomotiv Plovdiv,858,Slavia Sofia,854,0,1,True
+565968,2020-06-20T18:00:00+00:00,FT,Botev Plovdiv,634,Botev Vratsa,859,3,2,True
+565545,2020-06-21T13:30:00+00:00,FT,Ludogorets,566,Beroe,857,2,1,True
+565969,2020-06-21T16:00:00+00:00,FT,Arda Kardzhali,1430,Dunav Ruse,683,0,2,True
+565970,2020-06-22T17:30:00+00:00,FT,Etar Veliko Tarnovo,855,Tsarsko Selo,1413,0,1,True
+565971,2020-06-26T15:45:00+00:00,FT,Cherno More Varna,851,Etar Veliko Tarnovo,855,2,2,True
+565972,2020-06-27T13:30:00+00:00,FT,Vitosha Bistritsa,850,Tsarsko Selo,1413,0,1,True
+565546,2020-06-27T15:45:00+00:00,FT,Slavia Sofia,854,CSKA Sofia,853,0,0,True
+565548,2020-06-27T18:00:00+00:00,FT,Ludogorets,566,Lokomotiv Plovdiv,858,6,1,True
+565547,2020-06-28T18:00:00+00:00,FT,Beroe,857,Levski Sofia,646,1,2,True
+565974,2020-06-29T15:45:00+00:00,FT,Dunav Ruse,683,Botev Vratsa,859,1,3,True
+565973,2020-06-29T18:00:00+00:00,FT,Arda Kardzhali,1430,Botev Plovdiv,634,1,0,True
+565977,2020-07-02T15:30:00+00:00,FT,Etar Veliko Tarnovo,855,Vitosha Bistritsa,850,1,0,True
+565978,2020-07-02T17:45:00+00:00,FT,Tsarsko Selo,1413,Cherno More Varna,851,1,4,True
+565976,2020-07-03T15:45:00+00:00,FT,Botev Vratsa,859,Arda Kardzhali,1430,0,0,True
+565975,2020-07-03T18:00:00+00:00,FT,Botev Plovdiv,634,Dunav Ruse,683,3,1,True
+565549,2020-07-04T15:00:00+00:00,FT,Levski Sofia,646,Slavia Sofia,854,1,2,True
+565551,2020-07-05T15:45:00+00:00,FT,Lokomotiv Plovdiv,858,Beroe,857,0,2,True
+565550,2020-07-05T18:00:00+00:00,FT,CSKA Sofia,853,Ludogorets,566,1,1,True
+567155,2020-07-06T18:00:00+00:00,FT,Botev Vratsa,859,Dunav Ruse,683,0,0,True
+567153,2020-07-07T15:00:00+00:00,FT,Cherno More Varna,851,Arda Kardzhali,1430,1,0,True
+567154,2020-07-07T18:00:00+00:00,FT,Botev Plovdiv,634,Etar Veliko Tarnovo,855,1,0,True
+565554,2020-07-08T15:30:00+00:00,FT,Ludogorets,566,Levski Sofia,646,3,0,True
+565552,2020-07-08T18:15:00+00:00,FT,Beroe,857,Slavia Sofia,854,2,0,True
+567156,2020-07-09T15:00:00+00:00,FT,Tsarsko Selo,1413,Botev Vratsa,859,0,3,True
+565553,2020-07-09T17:30:00+00:00,FT,Lokomotiv Plovdiv,858,CSKA Sofia,853,1,2,True
+568073,2020-07-11T17:00:00+00:00,FT,Cherno More Varna,851,Botev Plovdiv,634,0,1,True
+565556,2020-07-12T18:00:00+00:00,FT,Levski Sofia,646,Lokomotiv Plovdiv,858,1,2,True
+565557,2020-07-12T18:00:00+00:00,FT,CSKA Sofia,853,Beroe,857,5,0,True
+565555,2020-07-12T18:00:00+00:00,FT,Slavia Sofia,854,Ludogorets,566,3,1,True
+567157,2020-07-13T15:15:00+00:00,FT,Dunav Ruse,683,Tsarsko Selo,1413,1,0,True
+570970,2020-07-17T17:00:00+00:00,FT,Dunav Ruse,683,Montana,1424,1,4,True
+570971,2020-07-18T17:00:00+00:00,FT,Tsarsko Selo,1413,Septemvri Sofia,856,2,0,True
+570418,2020-07-19T17:30:00+00:00,FT,Slavia Sofia,854,Botev Plovdiv,634,2,1,True
