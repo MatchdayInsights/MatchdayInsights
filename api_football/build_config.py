@@ -47,6 +47,27 @@ CONMEBOL_COUNTRIES = {
     "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela",
 }
 
+# All 55 UEFA member associations — used as a POSITIVE inclusion list for
+# --rewiden's default scope. "Not CONMEBOL" alone is NOT the same as
+# "European": it silently includes anything else sitting in your config too
+# (AFC countries like Uzbekistan/Vietnam auto-added during an early,
+# unscoped build_config.py run, for example). Names should match
+# API-Football's country.name field — check leagues_master.json if one of
+# your countries doesn't get picked up (e.g. "Czech Republic" vs "Czechia").
+UEFA_COUNTRIES = {
+    "Albania", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus",
+    "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus",
+    "Czech Republic", "Denmark", "England", "Estonia", "Faroe Islands",
+    "Finland", "France", "Georgia", "Germany", "Gibraltar", "Greece",
+    "Hungary", "Iceland", "Israel", "Italy", "Kazakhstan", "Kosovo",
+    "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta",
+    "Moldova", "Monaco", "Montenegro", "Netherlands", "North Macedonia",
+    "Northern Ireland", "Norway", "Poland", "Portugal", "Republic of Ireland",
+    "Ireland", "Romania", "Russia", "San Marino", "Scotland", "Serbia",
+    "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey",
+    "Ukraine", "Wales",
+}
+
 
 def load_master():
     if not os.path.exists(MASTER_PATH):
@@ -163,8 +184,10 @@ def main():
                               "--history-start and WIDEN its seasons list if more seasons now qualify. "
                               "Never removes seasons, only adds. No prompts — always safe.")
     parser.add_argument("--include-conmebol", action="store_true",
-                         help="Include CONMEBOL countries in --rewiden too. Off by default since "
-                              "CONMEBOL has no pre-2025 legacy data to backfill in the first place.")
+                         help="Widen ALL countries in your config, not just UEFA ones (despite the "
+                              "flag name — kept for backward compatibility). Off by default since "
+                              "non-UEFA countries (CONMEBOL, or anything else that snuck into your "
+                              "config) have no pre-2025 legacy data to backfill in the first place.")
     parser.add_argument("--country", type=str, default=None,
                          help="Reopen ONE country's full League+Cup menu (e.g. --country Germany) to "
                               "add competitions you previously declined — useful after widening the "
@@ -236,9 +259,12 @@ def main():
     if args.rewiden:
         master_by_id = {e["league"]["id"]: e for e in master}
         widened, unchanged, not_found = 0, 0, 0
+        skipped_non_uefa = set()
 
         for country, comps in config.items():
-            if country in CONMEBOL_COUNTRIES and not args.include_conmebol:
+            if not args.include_conmebol and country not in UEFA_COUNTRIES:
+                if country != "World":
+                    skipped_non_uefa.add(country)
                 continue
             for comp in comps:
                 master_entry = master_by_id.get(comp["league_id"])
@@ -262,9 +288,10 @@ def main():
         print(f"Already covered the full range, no change: {unchanged}")
         if not_found:
             print(f"WARNING: {not_found} entries had a league_id not found in leagues_master.json — left unchanged")
-        if CONMEBOL_COUNTRIES & set(config.keys()) and not args.include_conmebol:
-            print(f"(CONMEBOL countries skipped — pass --include-conmebol to widen those too, "
-                  f"though they shouldn't need it)")
+        if skipped_non_uefa:
+            print(f"(Skipped {len(skipped_non_uefa)} non-UEFA countries in your config — "
+                  f"{', '.join(sorted(skipped_non_uefa))} — pass --include-conmebol to widen "
+                  f"everything anyway, though non-UEFA countries shouldn't need this)")
         print(f"Saved to {CONFIG_PATH}")
         return
 
