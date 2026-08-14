@@ -1,5 +1,5 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1510049,2026-01-22T16:00:00+00:00,PEN,Al-Gharafa,2903,Sharjah FC,2874,1,1,False
-1511449,2026-01-23T16:00:00+00:00,FT,Al Wahda FC,2875,Al-Duhail SC,2904,1,0,True
-1511450,2026-01-24T16:00:00+00:00,FT,Al Sadd,2895,Shabab Al Ahli Dubai,2870,3,2,True
-1511451,2026-01-25T16:00:00+00:00,PEN,Al-Jazira,2871,Al Ahli Doha,2896,1,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1510049,2026-01-22T16:00:00+00:00,PEN,Final,Al-Gharafa,2903,Sharjah FC,2874,1,1,False
+1511449,2026-01-23T16:00:00+00:00,FT,Final,Al Wahda FC,2875,Al-Duhail SC,2904,1,0,True
+1511450,2026-01-24T16:00:00+00:00,FT,Final,Al Sadd,2895,Shabab Al Ahli Dubai,2870,3,2,True
+1511451,2026-01-25T16:00:00+00:00,PEN,Final,Al-Jazira,2871,Al Ahli Doha,2896,1,1,False

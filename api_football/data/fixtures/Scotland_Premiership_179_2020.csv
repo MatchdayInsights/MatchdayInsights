@@ -1,0 +1,235 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+569463,2020-08-01T11:30:00+00:00,FT,1st Phase - 1,Aberdeen,252,Rangers,257,0,1,True
+569462,2020-08-01T14:00:00+00:00,FT,1st Phase - 1,Hibernian,249,Kilmarnock,250,2,1,True
+569460,2020-08-01T14:00:00+00:00,FT,1st Phase - 1,ST Mirren,251,Livingston,255,1,0,True
+569461,2020-08-01T14:00:00+00:00,FT,1st Phase - 1,Dundee Utd,1386,ST Johnstone,258,1,1,True
+569464,2020-08-02T15:30:00+00:00,FT,1st Phase - 1,Celtic,247,Hamilton Academical,248,5,1,True
+569465,2020-08-03T18:45:00+00:00,FT,1st Phase - 1,Ross County,902,Motherwell,256,1,0,True
+569467,2020-08-08T14:00:00+00:00,FT,1st Phase - 2,Hamilton Academical,248,Ross County,902,0,1,True
+569468,2020-08-08T14:00:00+00:00,FT,1st Phase - 2,Livingston,255,Hibernian,249,1,4,True
+569469,2020-08-08T14:00:00+00:00,FT,1st Phase - 2,Motherwell,256,Dundee Utd,1386,0,1,True
+569470,2020-08-09T14:00:00+00:00,FT,1st Phase - 2,Rangers,257,ST Mirren,251,3,0,True
+569471,2020-08-09T15:30:00+00:00,FT,1st Phase - 2,Kilmarnock,250,Celtic,247,1,1,True
+569472,2020-08-11T17:00:00+00:00,FT,1st Phase - 3,Dundee Utd,1386,Hibernian,249,0,1,True
+569475,2020-08-12T18:45:00+00:00,FT,1st Phase - 3,Motherwell,256,Livingston,255,2,2,True
+569477,2020-08-12T18:45:00+00:00,FT,1st Phase - 3,Rangers,257,ST Johnstone,258,3,0,True
+569476,2020-08-12T18:45:00+00:00,FT,1st Phase - 3,Ross County,902,Kilmarnock,250,2,2,True
+569480,2020-08-15T14:00:00+00:00,FT,1st Phase - 4,Hamilton Academical,248,ST Mirren,251,0,1,True
+569481,2020-08-15T14:00:00+00:00,FT,1st Phase - 4,Kilmarnock,250,ST Johnstone,258,1,2,True
+569479,2020-08-15T14:00:00+00:00,FT,1st Phase - 4,Ross County,902,Dundee Utd,1386,1,2,True
+569482,2020-08-15T16:30:00+00:00,FT,1st Phase - 4,Hibernian,249,Motherwell,256,0,0,True
+569483,2020-08-16T15:30:00+00:00,FT,1st Phase - 4,Livingston,255,Rangers,257,0,0,True
+569466,2020-08-20T18:30:00+00:00,FT,1st Phase - 2,ST Johnstone,258,Aberdeen,252,0,1,True
+569485,2020-08-22T14:00:00+00:00,FT,1st Phase - 5,ST Mirren,251,Ross County,902,1,1,True
+569486,2020-08-22T14:00:00+00:00,FT,1st Phase - 5,Motherwell,256,Hamilton Academical,248,0,1,True
+569487,2020-08-22T14:00:00+00:00,FT,1st Phase - 5,Rangers,257,Kilmarnock,250,2,0,True
+569488,2020-08-22T16:30:00+00:00,FT,1st Phase - 5,Dundee Utd,1386,Celtic,247,0,1,True
+569484,2020-08-23T14:00:00+00:00,FT,1st Phase - 5,Aberdeen,252,Livingston,255,2,1,True
+569489,2020-08-23T15:30:00+00:00,FT,1st Phase - 5,ST Johnstone,258,Hibernian,249,0,1,True
+569492,2020-08-29T14:00:00+00:00,FT,1st Phase - 6,Kilmarnock,250,Dundee Utd,1386,4,0,True
+569493,2020-08-29T14:00:00+00:00,FT,1st Phase - 6,Livingston,255,Ross County,902,1,0,True
+569491,2020-08-29T14:00:00+00:00,FT,1st Phase - 6,ST Johnstone,258,ST Mirren,251,1,0,True
+569494,2020-08-29T16:30:00+00:00,FT,1st Phase - 6,Hamilton Academical,248,Rangers,257,0,2,True
+569490,2020-08-30T14:00:00+00:00,FT,1st Phase - 6,Celtic,247,Motherwell,256,3,0,True
+569495,2020-08-30T15:30:00+00:00,FT,1st Phase - 6,Hibernian,249,Aberdeen,252,0,1,True
+569501,2020-09-12T14:00:00+00:00,FT,1st Phase - 7,ST Mirren,251,Hibernian,249,0,3,True
+569497,2020-09-12T14:00:00+00:00,FT,1st Phase - 7,Aberdeen,252,Kilmarnock,250,1,0,True
+569496,2020-09-12T14:00:00+00:00,FT,1st Phase - 7,Livingston,255,Hamilton Academical,248,1,2,True
+569498,2020-09-12T14:00:00+00:00,FT,1st Phase - 7,Motherwell,256,ST Johnstone,258,1,0,True
+569499,2020-09-12T14:00:00+00:00,FT,1st Phase - 7,Rangers,257,Dundee Utd,1386,4,0,True
+569500,2020-09-12T14:00:00+00:00,FT,1st Phase - 7,Ross County,902,Celtic,247,0,5,True
+569473,2020-09-16T18:45:00+00:00,FT,1st Phase - 3,ST Mirren,251,Celtic,247,1,2,True
+569502,2020-09-19T14:00:00+00:00,FT,1st Phase - 8,Celtic,247,Livingston,255,3,2,True
+569506,2020-09-19T14:00:00+00:00,FT,1st Phase - 8,Kilmarnock,250,Hamilton Academical,248,2,1,True
+569507,2020-09-19T14:00:00+00:00,FT,1st Phase - 8,ST Johnstone,258,Ross County,902,0,1,True
+569504,2020-09-19T14:00:00+00:00,FT,1st Phase - 8,Dundee Utd,1386,ST Mirren,251,2,1,True
+569505,2020-09-20T11:00:00+00:00,FT,1st Phase - 8,Hibernian,249,Rangers,257,2,2,True
+569503,2020-09-20T14:00:00+00:00,FT,1st Phase - 8,Aberdeen,252,Motherwell,256,0,3,True
+569508,2020-09-26T14:00:00+00:00,FT,1st Phase - 9,Hamilton Academical,248,Dundee Utd,1386,1,1,True
+569513,2020-09-26T14:00:00+00:00,FT,1st Phase - 9,ST Mirren,251,Kilmarnock,250,0,1,True
+569510,2020-09-26T14:00:00+00:00,FT,1st Phase - 9,Livingston,255,ST Johnstone,258,2,0,True
+569511,2020-09-27T11:00:00+00:00,FT,1st Phase - 9,Motherwell,256,Rangers,257,1,5,True
+569509,2020-09-27T14:00:00+00:00,FT,1st Phase - 9,Celtic,247,Hibernian,249,3,0,True
+569512,2020-09-27T14:00:00+00:00,FT,1st Phase - 9,Ross County,902,Aberdeen,252,0,3,True
+569516,2020-10-02T18:45:00+00:00,FT,1st Phase - 10,Hibernian,249,Hamilton Academical,248,3,2,True
+569515,2020-10-02T18:45:00+00:00,FT,1st Phase - 10,Aberdeen,252,ST Mirren,251,2,1,True
+569514,2020-10-02T18:45:00+00:00,FT,1st Phase - 10,Dundee Utd,1386,Livingston,255,1,2,True
+569519,2020-10-04T11:00:00+00:00,FT,1st Phase - 10,ST Johnstone,258,Celtic,247,0,2,True
+569518,2020-10-04T14:00:00+00:00,FT,1st Phase - 10,Rangers,257,Ross County,902,2,0,True
+569521,2020-10-17T11:30:00+00:00,FT,1st Phase - 11,Celtic,247,Rangers,257,0,2,True
+569522,2020-10-17T14:00:00+00:00,FT,1st Phase - 11,Hamilton Academical,248,ST Johnstone,258,3,5,True
+569523,2020-10-17T14:00:00+00:00,FT,1st Phase - 11,Livingston,255,Kilmarnock,250,1,3,True
+569524,2020-10-17T14:00:00+00:00,FT,1st Phase - 11,Ross County,902,Hibernian,249,0,0,True
+569520,2020-10-17T14:00:00+00:00,FT,1st Phase - 11,Dundee Utd,1386,Aberdeen,252,0,0,True
+569474,2020-10-20T18:00:00+00:00,FT,1st Phase - 3,Aberdeen,252,Hamilton Academical,248,4,2,True
+569526,2020-10-24T14:00:00+00:00,FT,1st Phase - 12,Kilmarnock,250,Hibernian,249,0,1,True
+569528,2020-10-24T14:00:00+00:00,FT,1st Phase - 12,Motherwell,256,Ross County,902,4,0,True
+569530,2020-10-24T14:00:00+00:00,FT,1st Phase - 12,ST Johnstone,258,Dundee Utd,1386,0,0,True
+569527,2020-10-25T12:00:00+00:00,FT,1st Phase - 12,Aberdeen,252,Celtic,247,3,3,True
+569529,2020-10-25T15:00:00+00:00,FT,1st Phase - 12,Rangers,257,Livingston,255,2,0,True
+569537,2020-10-31T15:00:00+00:00,FT,1st Phase - 13,Livingston,255,Motherwell,256,0,2,True
+569532,2020-10-31T15:00:00+00:00,FT,1st Phase - 13,Dundee Utd,1386,Ross County,902,2,1,True
+569536,2020-11-01T12:00:00+00:00,FT,1st Phase - 13,Kilmarnock,250,Rangers,257,0,1,True
+569543,2020-11-06T19:45:00+00:00,FT,1st Phase - 14,ST Mirren,251,Dundee Utd,1386,0,0,True
+569539,2020-11-06T19:45:00+00:00,FT,1st Phase - 14,Aberdeen,252,Hibernian,249,2,0,True
+569542,2020-11-06T19:45:00+00:00,FT,1st Phase - 14,ST Johnstone,258,Kilmarnock,250,1,0,True
+569541,2020-11-06T19:45:00+00:00,FT,1st Phase - 14,Ross County,902,Livingston,255,1,1,True
+569538,2020-11-08T12:00:00+00:00,FT,1st Phase - 14,Motherwell,256,Celtic,247,1,4,True
+569540,2020-11-08T15:00:00+00:00,FT,1st Phase - 14,Rangers,257,Hamilton Academical,248,8,0,True
+569544,2020-11-21T15:00:00+00:00,FT,1st Phase - 15,Hibernian,249,Celtic,247,2,2,True
+569546,2020-11-21T15:00:00+00:00,FT,1st Phase - 15,Kilmarnock,250,Ross County,902,3,1,True
+569547,2020-11-21T15:00:00+00:00,FT,1st Phase - 15,Livingston,255,ST Mirren,251,0,1,True
+569549,2020-11-21T15:00:00+00:00,FT,1st Phase - 15,ST Johnstone,258,Motherwell,256,1,1,True
+569545,2020-11-21T15:00:00+00:00,FT,1st Phase - 15,Dundee Utd,1386,Hamilton Academical,248,2,1,True
+569548,2020-11-22T12:00:00+00:00,FT,1st Phase - 15,Rangers,257,Aberdeen,252,4,0,True
+569535,2020-11-24T19:00:00+00:00,FT,1st Phase - 13,Hibernian,249,ST Johnstone,258,2,2,True
+569534,2020-11-25T19:00:00+00:00,FT,1st Phase - 13,Hamilton Academical,248,Aberdeen,252,1,1,True
+569550,2020-12-05T15:00:00+00:00,FT,1st Phase - 16,Hamilton Academical,248,Kilmarnock,250,1,0,True
+569555,2020-12-05T15:00:00+00:00,FT,1st Phase - 16,ST Mirren,251,Aberdeen,252,1,1,True
+569552,2020-12-05T15:00:00+00:00,FT,1st Phase - 16,Livingston,255,Dundee Utd,1386,2,0,True
+569553,2020-12-05T15:00:00+00:00,FT,1st Phase - 16,Motherwell,256,Hibernian,249,0,3,True
+569554,2020-12-06T12:00:00+00:00,FT,1st Phase - 16,Ross County,902,Rangers,257,0,4,True
+569551,2020-12-06T15:00:00+00:00,FT,1st Phase - 16,Celtic,247,ST Johnstone,258,1,1,True
+569559,2020-12-12T15:00:00+00:00,FT,1st Phase - 17,Hamilton Academical,248,Hibernian,249,0,4,True
+569557,2020-12-12T15:00:00+00:00,FT,1st Phase - 17,Aberdeen,252,Ross County,902,2,0,True
+569560,2020-12-12T15:00:00+00:00,FT,1st Phase - 17,Motherwell,256,ST Mirren,251,0,1,True
+569561,2020-12-12T15:00:00+00:00,FT,1st Phase - 17,ST Johnstone,258,Livingston,255,1,2,True
+569558,2020-12-13T12:00:00+00:00,FT,1st Phase - 17,Dundee Utd,1386,Rangers,257,1,2,True
+569556,2020-12-13T15:00:00+00:00,FT,1st Phase - 17,Celtic,247,Kilmarnock,250,2,0,True
+569563,2020-12-19T15:00:00+00:00,FT,1st Phase - 18,Hibernian,249,Dundee Utd,1386,1,1,True
+569567,2020-12-19T15:00:00+00:00,FT,1st Phase - 18,ST Mirren,251,ST Johnstone,258,3,2,True
+569565,2020-12-19T15:00:00+00:00,FT,1st Phase - 18,Rangers,257,Motherwell,256,3,1,True
+569566,2020-12-19T15:00:00+00:00,FT,1st Phase - 18,Ross County,902,Hamilton Academical,248,0,2,True
+569562,2020-12-20T12:00:00+00:00,FT,1st Phase - 18,Kilmarnock,250,Aberdeen,252,0,2,True
+569569,2020-12-23T18:00:00+00:00,FT,1st Phase - 19,Celtic,247,Ross County,902,2,0,True
+569570,2020-12-23T18:00:00+00:00,FT,1st Phase - 19,Hamilton Academical,248,Livingston,255,0,2,True
+569571,2020-12-23T18:00:00+00:00,FT,1st Phase - 19,Hibernian,249,ST Mirren,251,1,0,True
+569573,2020-12-23T18:00:00+00:00,FT,1st Phase - 19,ST Johnstone,258,Rangers,257,0,3,True
+569572,2020-12-23T18:15:00+00:00,FT,1st Phase - 19,Motherwell,256,Aberdeen,252,0,0,True
+569568,2020-12-23T18:30:00+00:00,FT,1st Phase - 19,Dundee Utd,1386,Kilmarnock,250,2,0,True
+569578,2020-12-26T12:30:00+00:00,FT,1st Phase - 20,Rangers,257,Hibernian,249,1,0,True
+569576,2020-12-26T15:00:00+00:00,FT,1st Phase - 20,Hamilton Academical,248,Celtic,247,0,3,True
+569577,2020-12-26T15:00:00+00:00,FT,1st Phase - 20,Kilmarnock,250,Livingston,255,1,2,True
+569575,2020-12-26T15:00:00+00:00,FT,1st Phase - 20,Aberdeen,252,ST Johnstone,258,2,1,True
+569579,2020-12-26T15:00:00+00:00,FT,1st Phase - 20,Ross County,902,ST Mirren,251,0,2,True
+569574,2020-12-26T15:00:00+00:00,FT,1st Phase - 20,Dundee Utd,1386,Motherwell,256,1,1,True
+569581,2020-12-30T15:00:00+00:00,FT,1st Phase - 21,Celtic,247,Dundee Utd,1386,3,0,True
+569585,2020-12-30T15:00:00+00:00,FT,1st Phase - 21,ST Mirren,251,Rangers,257,0,2,True
+569584,2020-12-30T15:00:00+00:00,FT,1st Phase - 21,ST Johnstone,258,Hamilton Academical,248,0,0,True
+569580,2020-12-30T18:00:00+00:00,FT,1st Phase - 21,Hibernian,249,Ross County,902,0,2,True
+569583,2020-12-30T18:15:00+00:00,FT,1st Phase - 21,Motherwell,256,Kilmarnock,250,0,2,True
+569590,2021-01-02T12:30:00+00:00,FT,1st Phase - 22,Rangers,257,Celtic,247,1,0,True
+569586,2021-01-02T15:00:00+00:00,FT,1st Phase - 22,Hamilton Academical,248,Motherwell,256,3,0,True
+569588,2021-01-02T15:00:00+00:00,FT,1st Phase - 22,Hibernian,249,Livingston,255,0,3,True
+569589,2021-01-02T15:00:00+00:00,FT,1st Phase - 22,Kilmarnock,250,ST Mirren,251,1,1,True
+569587,2021-01-02T15:00:00+00:00,FT,1st Phase - 22,Aberdeen,252,Dundee Utd,1386,0,0,True
+569591,2021-01-02T15:00:00+00:00,FT,1st Phase - 22,Ross County,902,ST Johnstone,258,1,1,True
+569595,2021-01-09T15:00:00+00:00,FT,1st Phase - 23,Kilmarnock,250,Hamilton Academical,248,2,0,True
+569597,2021-01-09T15:00:00+00:00,FT,1st Phase - 23,ST Mirren,251,Motherwell,256,1,1,True
+569593,2021-01-10T15:00:00+00:00,FT,1st Phase - 23,Aberdeen,252,Rangers,257,1,2,True
+569596,2021-01-10T15:00:00+00:00,FT,1st Phase - 23,Livingston,255,Ross County,902,3,1,True
+569592,2021-01-11T19:45:00+00:00,FT,1st Phase - 23,Celtic,247,Hibernian,249,1,1,True
+569594,2021-01-12T18:30:00+00:00,FT,1st Phase - 23,Dundee Utd,1386,ST Johnstone,258,2,2,True
+569599,2021-01-16T15:00:00+00:00,FT,1st Phase - 24,Celtic,247,Livingston,255,0,0,True
+569598,2021-01-16T15:00:00+00:00,FT,1st Phase - 24,Hamilton Academical,248,Dundee Utd,1386,0,0,True
+569600,2021-01-16T15:00:00+00:00,FT,1st Phase - 24,Hibernian,249,Kilmarnock,250,2,0,True
+569603,2021-01-16T15:00:00+00:00,FT,1st Phase - 24,ST Johnstone,258,ST Mirren,251,1,0,True
+569602,2021-01-16T15:00:00+00:00,FT,1st Phase - 24,Ross County,902,Aberdeen,252,4,1,True
+569601,2021-01-17T12:00:00+00:00,FT,1st Phase - 24,Motherwell,256,Rangers,257,1,1,True
+569564,2021-01-20T20:15:00+00:00,FT,1st Phase - 18,Livingston,255,Celtic,247,2,2,True
+569605,2021-01-23T15:00:00+00:00,FT,1st Phase - 25,Aberdeen,252,Motherwell,256,2,0,True
+569608,2021-01-23T15:00:00+00:00,FT,1st Phase - 25,Rangers,257,Ross County,902,5,0,True
+569615,2021-01-27T18:00:00+00:00,FT,1st Phase - 26,ST Johnstone,258,Aberdeen,252,0,0,True
+569614,2021-01-27T18:00:00+00:00,FT,1st Phase - 26,Ross County,902,Motherwell,256,1,2,True
+569610,2021-01-27T18:00:00+00:00,FT,1st Phase - 26,Dundee Utd,1386,ST Mirren,251,1,5,True
+569611,2021-01-27T19:45:00+00:00,FT,1st Phase - 26,Celtic,247,Hamilton Academical,248,2,0,True
+569612,2021-01-27T19:45:00+00:00,FT,1st Phase - 26,Hibernian,249,Rangers,257,0,1,True
+569613,2021-01-27T19:45:00+00:00,FT,1st Phase - 26,Livingston,255,Kilmarnock,250,2,0,True
+569533,2021-01-30T15:00:00+00:00,FT,1st Phase - 13,Celtic,247,ST Mirren,251,1,2,True
+569606,2021-01-30T15:00:00+00:00,FT,1st Phase - 25,Kilmarnock,250,ST Johnstone,258,2,3,True
+569582,2021-01-30T15:00:00+00:00,FT,1st Phase - 21,Livingston,255,Aberdeen,252,0,0,True
+569604,2021-01-30T15:00:00+00:00,FT,1st Phase - 25,Dundee Utd,1386,Hibernian,249,0,2,True
+569621,2021-02-02T18:00:00+00:00,FT,1st Phase - 27,ST Mirren,251,Hibernian,249,1,2,True
+569617,2021-02-02T18:00:00+00:00,FT,1st Phase - 27,Aberdeen,252,Livingston,255,0,2,True
+569618,2021-02-02T19:45:00+00:00,FT,1st Phase - 27,Kilmarnock,250,Celtic,247,0,4,True
+569616,2021-02-03T18:00:00+00:00,FT,1st Phase - 27,Hamilton Academical,248,Ross County,902,1,2,True
+569619,2021-02-03T18:00:00+00:00,FT,1st Phase - 27,Motherwell,256,Dundee Utd,1386,2,1,True
+569620,2021-02-03T19:45:00+00:00,FT,1st Phase - 27,Rangers,257,ST Johnstone,258,1,0,True
+569623,2021-02-06T15:00:00+00:00,FT,1st Phase - 28,Celtic,247,Motherwell,256,2,1,True
+569624,2021-02-06T15:00:00+00:00,FT,1st Phase - 28,Hibernian,249,Aberdeen,252,2,0,True
+569627,2021-02-06T15:00:00+00:00,FT,1st Phase - 28,ST Mirren,251,Kilmarnock,250,2,0,True
+569625,2021-02-06T15:00:00+00:00,FT,1st Phase - 28,Livingston,255,ST Johnstone,258,1,2,True
+569626,2021-02-06T15:00:00+00:00,FT,1st Phase - 28,Ross County,902,Dundee Utd,1386,0,2,True
+569622,2021-02-07T12:00:00+00:00,FT,1st Phase - 28,Hamilton Academical,248,Rangers,257,1,1,True
+569517,2021-02-10T18:00:00+00:00,FT,1st Phase - 10,Kilmarnock,250,Motherwell,256,0,1,True
+569609,2021-02-10T20:00:00+00:00,FT,1st Phase - 25,ST Mirren,251,Celtic,247,0,4,True
+569629,2021-02-13T15:00:00+00:00,FT,1st Phase - 29,Aberdeen,252,ST Mirren,251,0,0,True
+569630,2021-02-13T15:00:00+00:00,FT,1st Phase - 29,Motherwell,256,Hamilton Academical,248,1,4,True
+569631,2021-02-13T15:00:00+00:00,FT,1st Phase - 29,Rangers,257,Kilmarnock,250,1,0,True
+569628,2021-02-13T15:00:00+00:00,FT,1st Phase - 29,Dundee Utd,1386,Livingston,255,3,0,True
+569633,2021-02-14T12:00:00+00:00,FT,1st Phase - 29,ST Johnstone,258,Celtic,247,1,2,True
+569478,2021-02-17T18:00:00+00:00,FT,1st Phase - 4,Celtic,247,Aberdeen,252,1,0,True
+569531,2021-02-17T18:00:00+00:00,FT,1st Phase - 12,ST Mirren,251,Hamilton Academical,248,1,1,True
+569652,2021-02-20T15:00:00+00:00,FT,1st Phase - 33,Hibernian,249,Hamilton Academical,248,2,0,True
+569657,2021-02-20T15:00:00+00:00,FT,1st Phase - 33,ST Mirren,251,Livingston,255,1,1,True
+569653,2021-02-20T15:00:00+00:00,FT,1st Phase - 33,Aberdeen,252,Kilmarnock,250,1,0,True
+569654,2021-02-20T15:00:00+00:00,FT,1st Phase - 33,Motherwell,256,ST Johnstone,258,0,3,True
+569655,2021-02-21T15:00:00+00:00,FT,1st Phase - 33,Rangers,257,Dundee Utd,1386,4,1,True
+569656,2021-02-21T19:30:00+00:00,FT,1st Phase - 33,Ross County,902,Celtic,247,1,0,True
+569525,2021-02-24T18:00:00+00:00,FT,1st Phase - 11,ST Mirren,251,Motherwell,256,0,0,True
+569635,2021-02-27T15:00:00+00:00,FT,1st Phase - 30,Celtic,247,Aberdeen,252,1,0,True
+569636,2021-02-27T15:00:00+00:00,FT,1st Phase - 30,Hibernian,249,Motherwell,256,0,2,True
+569637,2021-02-27T15:00:00+00:00,FT,1st Phase - 30,Kilmarnock,250,Dundee Utd,1386,1,1,True
+569639,2021-02-27T15:00:00+00:00,FT,1st Phase - 30,ST Mirren,251,Ross County,902,1,0,True
+569634,2021-03-03T18:00:00+00:00,FT,1st Phase - 30,Hamilton Academical,248,ST Johnstone,258,1,1,True
+569638,2021-03-03T18:00:00+00:00,FT,1st Phase - 30,Livingston,255,Rangers,257,0,1,True
+569641,2021-03-06T15:00:00+00:00,FT,1st Phase - 31,Aberdeen,252,Hamilton Academical,248,0,0,True
+569642,2021-03-06T15:00:00+00:00,FT,1st Phase - 31,Motherwell,256,Livingston,255,3,1,True
+569643,2021-03-06T15:00:00+00:00,FT,1st Phase - 31,Rangers,257,ST Mirren,251,3,0,True
+569645,2021-03-06T15:00:00+00:00,FT,1st Phase - 31,ST Johnstone,258,Hibernian,249,1,0,True
+569644,2021-03-06T15:00:00+00:00,FT,1st Phase - 31,Ross County,902,Kilmarnock,250,3,2,True
+569640,2021-03-07T12:00:00+00:00,FT,1st Phase - 31,Dundee Utd,1386,Celtic,247,0,0,True
+569607,2021-03-13T15:00:00+00:00,FT,1st Phase - 25,Livingston,255,Hamilton Academical,248,2,1,True
+569632,2021-03-13T15:00:00+00:00,FT,1st Phase - 29,Ross County,902,Hibernian,249,1,2,True
+569648,2021-03-20T15:00:00+00:00,FT,1st Phase - 32,Hamilton Academical,248,ST Mirren,251,1,1,True
+569649,2021-03-20T15:00:00+00:00,FT,1st Phase - 32,Kilmarnock,250,Motherwell,256,4,1,True
+569650,2021-03-20T15:00:00+00:00,FT,1st Phase - 32,Livingston,255,Hibernian,249,1,1,True
+569651,2021-03-20T15:00:00+00:00,FT,1st Phase - 32,ST Johnstone,258,Ross County,902,1,0,True
+569646,2021-03-20T15:00:00+00:00,FT,1st Phase - 32,Dundee Utd,1386,Aberdeen,252,1,0,True
+569647,2021-03-21T12:00:00+00:00,FT,1st Phase - 32,Celtic,247,Rangers,257,1,1,True
+687086,2021-04-10T14:00:00+00:00,FT,Championship Round - 1,Celtic,247,Livingston,255,6,0,True
+687088,2021-04-10T14:00:00+00:00,FT,Championship Round - 1,Hamilton Academical,248,Dundee Utd,1386,0,1,True
+687089,2021-04-10T14:00:00+00:00,FT,Championship Round - 1,Kilmarnock,250,Ross County,902,2,2,True
+687090,2021-04-10T14:00:00+00:00,FT,Championship Round - 1,Motherwell,256,ST Mirren,251,1,0,True
+687087,2021-04-10T14:00:00+00:00,FT,Championship Round - 1,ST Johnstone,258,Aberdeen,252,0,1,True
+687091,2021-04-11T14:00:00+00:00,FT,Championship Round - 1,Rangers,257,Hibernian,249,2,1,True
+687095,2021-04-21T17:00:00+00:00,FT,Championship Round - 2,Hamilton Academical,248,Motherwell,256,0,1,True
+687093,2021-04-21T17:00:00+00:00,FT,Championship Round - 2,Hibernian,249,Livingston,255,2,1,True
+687094,2021-04-21T18:00:00+00:00,FT,Championship Round - 2,ST Johnstone,258,Rangers,257,1,1,True
+687096,2021-04-21T18:45:00+00:00,FT,Championship Round - 2,Kilmarnock,250,Dundee Utd,1386,3,0,True
+687092,2021-04-21T18:45:00+00:00,FT,Championship Round - 2,Aberdeen,252,Celtic,247,1,1,True
+687097,2021-04-21T18:45:00+00:00,FT,Championship Round - 2,Ross County,902,ST Mirren,251,1,3,True
+687098,2021-05-01T14:00:00+00:00,FT,Championship Round - 3,Hibernian,249,ST Johnstone,258,0,1,True
+687102,2021-05-01T14:00:00+00:00,FT,Championship Round - 3,ST Mirren,251,Hamilton Academical,248,1,2,True
+687099,2021-05-01T14:00:00+00:00,FT,Championship Round - 3,Livingston,255,Aberdeen,252,1,2,True
+687101,2021-05-01T14:00:00+00:00,FT,Championship Round - 3,Motherwell,256,Kilmarnock,250,2,0,True
+687100,2021-05-01T14:00:00+00:00,FT,Championship Round - 3,Dundee Utd,1386,Ross County,902,0,2,True
+687103,2021-05-02T11:00:00+00:00,FT,Championship Round - 3,Rangers,257,Celtic,247,4,1,True
+702905,2021-05-04T18:00:00+00:00,FT,Relegation Round,Dunfermline,1388,Raith Rovers,1385,0,0,True
+702906,2021-05-08T14:00:00+00:00,FT,Relegation Round,Raith Rovers,1385,Dunfermline,1388,2,0,True
+687106,2021-05-12T17:00:00+00:00,FT,Championship Round - 4,Livingston,255,Rangers,257,0,3,True
+687107,2021-05-12T17:00:00+00:00,FT,Championship Round - 4,Dundee Utd,1386,Motherwell,256,2,2,True
+687105,2021-05-12T17:30:00+00:00,FT,Championship Round - 4,Celtic,247,ST Johnstone,258,4,0,True
+687108,2021-05-12T18:45:00+00:00,FT,Championship Round - 4,Kilmarnock,250,ST Mirren,251,3,3,True
+687104,2021-05-12T18:45:00+00:00,FT,Championship Round - 4,Aberdeen,252,Hibernian,249,0,1,True
+687109,2021-05-12T18:45:00+00:00,FT,Championship Round - 4,Ross County,902,Hamilton Academical,248,2,1,True
+702903,2021-05-12T18:45:00+00:00,FT,Relegation Round,Raith Rovers,1385,Dundee,253,0,3,True
+687110,2021-05-15T11:30:00+00:00,FT,Championship Round - 5,Hibernian,249,Celtic,247,0,0,True
+687111,2021-05-15T11:30:00+00:00,FT,Championship Round - 5,Rangers,257,Aberdeen,252,4,0,True
+687112,2021-05-15T11:30:00+00:00,FT,Championship Round - 5,ST Johnstone,258,Livingston,255,0,0,True
+702904,2021-05-15T18:45:00+00:00,FT,Relegation Round,Dundee,253,Raith Rovers,1385,0,1,True
+687113,2021-05-16T11:00:00+00:00,FT,Championship Round - 5,Hamilton Academical,248,Kilmarnock,250,0,2,True
+687115,2021-05-16T11:00:00+00:00,FT,Championship Round - 5,ST Mirren,251,Dundee Utd,1386,0,0,True
+687114,2021-05-16T11:00:00+00:00,FT,Championship Round - 5,Motherwell,256,Ross County,902,1,2,True
+704518,2021-05-20T19:15:00+00:00,FT,Relegation Round,Dundee,253,Kilmarnock,250,2,1,True
+704519,2021-05-24T18:45:00+00:00,FT,Relegation Round,Kilmarnock,250,Dundee,253,1,2,True

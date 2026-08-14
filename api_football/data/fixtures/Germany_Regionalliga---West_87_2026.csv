@@ -1,307 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1587399,2026-07-31T17:30:00+00:00,FT,Bonner SC,1637,Rot-weiss Oberhausen,1658,1,2,True
-1587405,2026-08-01T12:00:00+00:00,FT,Sportfreunde Lotte,1323,FC Gutersloh,14485,0,1,True
-1587400,2026-08-01T12:00:00+00:00,FT,Bergisch Gladbach,9366,SG Wattenscheid 09,1629,1,1,True
-1587401,2026-08-01T12:00:00+00:00,FT,Borussia M'gladbach II,9368,SV Rodinghausen,1650,2,0,True
-1587404,2026-08-01T12:00:00+00:00,FT,Köln II,9371,Wiedenbrück,12897,2,1,True
-1587406,2026-08-01T12:00:00+00:00,FT,Schalke 04 II,9373,Paderborn II,12827,2,3,True
-1587407,2026-08-01T12:00:00+00:00,FT,Westfalia Rhynern,14826,Sportfreunde Siegen,13935,3,2,True
-1587402,2026-08-01T12:00:00+00:00,FT,Bochum II,24430,Borussia Dortmund II,9367,1,1,True
-1587403,2026-08-01T14:00:00+00:00,FT,Hilden,12790,FC Bocholt,12764,0,0,True
-1587409,2026-08-07T17:30:00+00:00,NS,Borussia Dortmund II,9367,Köln II,9371,,,False
-1587410,2026-08-07T17:30:00+00:00,NS,FC Gutersloh,14485,Bochum II,24430,,,False
-1587414,2026-08-08T12:00:00+00:00,NS,SG Wattenscheid 09,1629,Westfalia Rhynern,14826,,,False
-1587413,2026-08-08T12:00:00+00:00,NS,SV Rodinghausen,1650,Bonner SC,1637,,,False
-1587408,2026-08-08T12:00:00+00:00,NS,FC Bocholt,12764,Schalke 04 II,9373,,,False
-1587412,2026-08-08T12:00:00+00:00,NS,Paderborn II,12827,Borussia M'gladbach II,9368,,,False
-1587415,2026-08-08T12:00:00+00:00,NS,Sportfreunde Siegen,13935,Hilden,12790,,,False
-1587411,2026-08-09T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Sportfreunde Lotte,1323,,,False
-1587416,2026-08-09T12:00:00+00:00,NS,Wiedenbrück,12897,Bergisch Gladbach,9366,,,False
-1587420,2026-08-14T17:30:00+00:00,NS,Bonner SC,1637,Sportfreunde Lotte,1323,,,False
-1587417,2026-08-14T17:30:00+00:00,NS,Bergisch Gladbach,9366,Borussia Dortmund II,9367,,,False
-1587424,2026-08-14T17:30:00+00:00,NS,Schalke 04 II,9373,Sportfreunde Siegen,13935,,,False
-1587425,2026-08-14T17:30:00+00:00,NS,Westfalia Rhynern,14826,Wiedenbrück,12897,,,False
-1587423,2026-08-15T12:00:00+00:00,NS,SV Rodinghausen,1650,Paderborn II,12827,,,False
-1587418,2026-08-15T12:00:00+00:00,NS,Borussia M'gladbach II,9368,FC Bocholt,12764,,,False
-1587419,2026-08-15T12:00:00+00:00,NS,Bochum II,24430,Rot-weiss Oberhausen,1658,,,False
-1587421,2026-08-15T14:00:00+00:00,NS,Hilden,12790,SG Wattenscheid 09,1629,,,False
-1587422,2026-08-16T12:00:00+00:00,NS,Köln II,9371,FC Gutersloh,14485,,,False
-1587432,2026-08-21T17:00:00+00:00,NS,SG Wattenscheid 09,1629,Schalke 04 II,9373,,,False
-1587433,2026-08-21T17:00:00+00:00,NS,Sportfreunde Siegen,13935,Borussia M'gladbach II,9368,,,False
-1587430,2026-08-22T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Köln II,9371,,,False
-1587426,2026-08-22T12:00:00+00:00,NS,FC Bocholt,12764,SV Rodinghausen,1650,,,False
-1587434,2026-08-22T12:00:00+00:00,NS,Wiedenbrück,12897,Hilden,12790,,,False
-1587428,2026-08-22T12:00:00+00:00,NS,FC Gutersloh,14485,Bergisch Gladbach,9366,,,False
-1587429,2026-08-23T12:00:00+00:00,NS,Sportfreunde Lotte,1323,Bochum II,24430,,,False
-1587431,2026-08-23T12:00:00+00:00,NS,Paderborn II,12827,Bonner SC,1637,,,False
-1587437,2026-08-28T17:30:00+00:00,NS,Bonner SC,1637,Bochum II,24430,,,False
-1587441,2026-08-28T17:30:00+00:00,NS,SV Rodinghausen,1650,Sportfreunde Siegen,13935,,,False
-1587443,2026-08-28T17:30:00+00:00,NS,Westfalia Rhynern,14826,FC Gutersloh,14485,,,False
-1587435,2026-08-29T12:00:00+00:00,NS,Bergisch Gladbach,9366,Rot-weiss Oberhausen,1658,,,False
-1587436,2026-08-29T12:00:00+00:00,NS,Borussia M'gladbach II,9368,SG Wattenscheid 09,1629,,,False
-1587439,2026-08-29T12:00:00+00:00,NS,Köln II,9371,Sportfreunde Lotte,1323,,,False
-1587442,2026-08-29T12:00:00+00:00,NS,Schalke 04 II,9373,Wiedenbrück,12897,,,False
-1587438,2026-08-29T12:00:00+00:00,NS,Hilden,12790,Borussia Dortmund II,9367,,,False
-1587440,2026-08-29T12:00:00+00:00,NS,Paderborn II,12827,FC Bocholt,12764,,,False
-1587445,2026-09-01T14:00:00+00:00,NS,Bochum II,24430,Köln II,9371,,,False
-1587449,2026-09-01T17:30:00+00:00,NS,Rot-weiss Oberhausen,1658,Westfalia Rhynern,14826,,,False
-1587446,2026-09-01T17:30:00+00:00,NS,Borussia Dortmund II,9367,Schalke 04 II,9373,,,False
-1587444,2026-09-01T17:30:00+00:00,NS,FC Bocholt,12764,Bonner SC,1637,,,False
-1587447,2026-09-01T17:30:00+00:00,NS,FC Gutersloh,14485,Hilden,12790,,,False
-1587450,2026-09-02T17:00:00+00:00,NS,SG Wattenscheid 09,1629,SV Rodinghausen,1650,,,False
-1587448,2026-09-02T17:30:00+00:00,NS,Sportfreunde Lotte,1323,Bergisch Gladbach,9366,,,False
-1587452,2026-09-02T17:30:00+00:00,NS,Wiedenbrück,12897,Borussia M'gladbach II,9368,,,False
-1587451,2026-09-02T17:30:00+00:00,NS,Sportfreunde Siegen,13935,Paderborn II,12827,,,False
-1587456,2026-09-04T17:30:00+00:00,NS,Bonner SC,1637,Köln II,9371,,,False
-1587457,2026-09-04T17:30:00+00:00,NS,Hilden,12790,Rot-weiss Oberhausen,1658,,,False
-1587459,2026-09-05T12:00:00+00:00,NS,SV Rodinghausen,1650,Wiedenbrück,12897,,,False
-1587454,2026-09-05T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Borussia Dortmund II,9367,,,False
-1587455,2026-09-05T12:00:00+00:00,NS,FC Bocholt,12764,Sportfreunde Siegen,13935,,,False
-1587461,2026-09-05T12:00:00+00:00,NS,Westfalia Rhynern,14826,Sportfreunde Lotte,1323,,,False
-1587453,2026-09-06T12:00:00+00:00,NS,Bergisch Gladbach,9366,Bochum II,24430,,,False
-1587460,2026-09-06T12:00:00+00:00,NS,Schalke 04 II,9373,FC Gutersloh,14485,,,False
-1587458,2026-09-06T12:00:00+00:00,NS,Paderborn II,12827,SG Wattenscheid 09,1629,,,False
-1587469,2026-09-11T17:00:00+00:00,NS,Sportfreunde Siegen,13935,Bonner SC,1637,,,False
-1587467,2026-09-11T17:30:00+00:00,NS,Rot-weiss Oberhausen,1658,Schalke 04 II,9373,,,False
-1587466,2026-09-12T12:00:00+00:00,NS,Sportfreunde Lotte,1323,Hilden,12790,,,False
-1587468,2026-09-12T12:00:00+00:00,NS,SG Wattenscheid 09,1629,FC Bocholt,12764,,,False
-1587465,2026-09-12T12:00:00+00:00,NS,Köln II,9371,Bergisch Gladbach,9366,,,False
-1587470,2026-09-12T12:00:00+00:00,NS,Wiedenbrück,12897,Paderborn II,12827,,,False
-1587464,2026-09-12T12:00:00+00:00,NS,FC Gutersloh,14485,Borussia M'gladbach II,9368,,,False
-1587462,2026-09-12T12:00:00+00:00,NS,Bochum II,24430,Westfalia Rhynern,14826,,,False
-1587463,2026-09-13T12:00:00+00:00,NS,Borussia Dortmund II,9367,SV Rodinghausen,1650,,,False
-1587427,2026-09-16T17:30:00+00:00,NS,Borussia Dortmund II,9367,Westfalia Rhynern,14826,,,False
-1587476,2026-09-18T17:30:00+00:00,NS,SV Rodinghausen,1650,FC Gutersloh,14485,,,False
-1587478,2026-09-18T17:30:00+00:00,NS,Sportfreunde Siegen,13935,SG Wattenscheid 09,1629,,,False
-1587473,2026-09-19T12:00:00+00:00,NS,Bonner SC,1637,Bergisch Gladbach,9366,,,False
-1587471,2026-09-19T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Rot-weiss Oberhausen,1658,,,False
-1587477,2026-09-19T12:00:00+00:00,NS,Schalke 04 II,9373,Sportfreunde Lotte,1323,,,False
-1587472,2026-09-19T12:00:00+00:00,NS,FC Bocholt,12764,Wiedenbrück,12897,,,False
-1587474,2026-09-19T12:00:00+00:00,NS,Hilden,12790,Bochum II,24430,,,False
-1587479,2026-09-19T12:00:00+00:00,NS,Westfalia Rhynern,14826,Köln II,9371,,,False
-1587475,2026-09-21T16:00:00+00:00,NS,Paderborn II,12827,Borussia Dortmund II,9367,,,False
-1587485,2026-09-26T12:00:00+00:00,NS,Sportfreunde Lotte,1323,Borussia M'gladbach II,9368,,,False
-1587487,2026-09-26T12:00:00+00:00,NS,SG Wattenscheid 09,1629,Bonner SC,1637,,,False
-1587486,2026-09-26T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,SV Rodinghausen,1650,,,False
-1587480,2026-09-26T12:00:00+00:00,NS,Bergisch Gladbach,9366,Westfalia Rhynern,14826,,,False
-1587482,2026-09-26T12:00:00+00:00,NS,Borussia Dortmund II,9367,FC Bocholt,12764,,,False
-1587484,2026-09-26T12:00:00+00:00,NS,Köln II,9371,Hilden,12790,,,False
-1587488,2026-09-26T12:00:00+00:00,NS,Wiedenbrück,12897,Sportfreunde Siegen,13935,,,False
-1587483,2026-09-26T12:00:00+00:00,NS,FC Gutersloh,14485,Paderborn II,12827,,,False
-1587481,2026-09-26T12:00:00+00:00,NS,Bochum II,24430,Schalke 04 II,9373,,,False
-1587496,2026-10-03T12:00:00+00:00,NS,SG Wattenscheid 09,1629,Wiedenbrück,12897,,,False
-1587491,2026-10-03T12:00:00+00:00,NS,Bonner SC,1637,Westfalia Rhynern,14826,,,False
-1587494,2026-10-03T12:00:00+00:00,NS,SV Rodinghausen,1650,Sportfreunde Lotte,1323,,,False
-1587489,2026-10-03T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Bochum II,24430,,,False
-1587495,2026-10-03T12:00:00+00:00,NS,Schalke 04 II,9373,Köln II,9371,,,False
-1587490,2026-10-03T12:00:00+00:00,NS,FC Bocholt,12764,FC Gutersloh,14485,,,False
-1587492,2026-10-03T12:00:00+00:00,NS,Hilden,12790,Bergisch Gladbach,9366,,,False
-1587493,2026-10-03T12:00:00+00:00,NS,Paderborn II,12827,Rot-weiss Oberhausen,1658,,,False
-1587497,2026-10-03T12:00:00+00:00,NS,Sportfreunde Siegen,13935,Borussia Dortmund II,9367,,,False
-1587503,2026-10-10T12:00:00+00:00,NS,Sportfreunde Lotte,1323,Paderborn II,12827,,,False
-1587504,2026-10-10T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,FC Bocholt,12764,,,False
-1587498,2026-10-10T12:00:00+00:00,NS,Bergisch Gladbach,9366,Schalke 04 II,9373,,,False
-1587500,2026-10-10T12:00:00+00:00,NS,Borussia Dortmund II,9367,SG Wattenscheid 09,1629,,,False
-1587502,2026-10-10T12:00:00+00:00,NS,Köln II,9371,Borussia M'gladbach II,9368,,,False
-1587506,2026-10-10T12:00:00+00:00,NS,Wiedenbrück,12897,Bonner SC,1637,,,False
-1587501,2026-10-10T12:00:00+00:00,NS,FC Gutersloh,14485,Sportfreunde Siegen,13935,,,False
-1587505,2026-10-10T12:00:00+00:00,NS,Westfalia Rhynern,14826,Hilden,12790,,,False
-1587499,2026-10-10T12:00:00+00:00,NS,Bochum II,24430,SV Rodinghausen,1650,,,False
-1587513,2026-10-17T12:00:00+00:00,NS,SG Wattenscheid 09,1629,FC Gutersloh,14485,,,False
-1587509,2026-10-17T12:00:00+00:00,NS,Bonner SC,1637,Hilden,12790,,,False
-1587511,2026-10-17T12:00:00+00:00,NS,SV Rodinghausen,1650,Köln II,9371,,,False
-1587507,2026-10-17T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Bergisch Gladbach,9366,,,False
-1587512,2026-10-17T12:00:00+00:00,NS,Schalke 04 II,9373,Westfalia Rhynern,14826,,,False
-1587508,2026-10-17T12:00:00+00:00,NS,FC Bocholt,12764,Sportfreunde Lotte,1323,,,False
-1587510,2026-10-17T12:00:00+00:00,NS,Paderborn II,12827,Bochum II,24430,,,False
-1587515,2026-10-17T12:00:00+00:00,NS,Wiedenbrück,12897,Borussia Dortmund II,9367,,,False
-1587514,2026-10-17T12:00:00+00:00,NS,Sportfreunde Siegen,13935,Rot-weiss Oberhausen,1658,,,False
-1587522,2026-10-24T12:00:00+00:00,NS,Sportfreunde Lotte,1323,Sportfreunde Siegen,13935,,,False
-1587523,2026-10-24T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,SG Wattenscheid 09,1629,,,False
-1587516,2026-10-24T12:00:00+00:00,NS,Bergisch Gladbach,9366,SV Rodinghausen,1650,,,False
-1587518,2026-10-24T12:00:00+00:00,NS,Borussia Dortmund II,9367,Bonner SC,1637,,,False
-1587521,2026-10-24T12:00:00+00:00,NS,Köln II,9371,Paderborn II,12827,,,False
-1587520,2026-10-24T12:00:00+00:00,NS,Hilden,12790,Schalke 04 II,9373,,,False
-1587519,2026-10-24T12:00:00+00:00,NS,FC Gutersloh,14485,Wiedenbrück,12897,,,False
-1587524,2026-10-24T12:00:00+00:00,NS,Westfalia Rhynern,14826,Borussia M'gladbach II,9368,,,False
-1587517,2026-10-24T12:00:00+00:00,NS,Bochum II,24430,FC Bocholt,12764,,,False
-1587531,2026-10-31T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Sportfreunde Lotte,1323,,,False
-1587527,2026-10-31T13:00:00+00:00,NS,Bonner SC,1637,Schalke 04 II,9373,,,False
-1587530,2026-10-31T13:00:00+00:00,NS,SV Rodinghausen,1650,Westfalia Rhynern,14826,,,False
-1587528,2026-10-31T13:00:00+00:00,NS,Borussia Dortmund II,9367,FC Gutersloh,14485,,,False
-1587525,2026-10-31T13:00:00+00:00,NS,Borussia M'gladbach II,9368,Hilden,12790,,,False
-1587526,2026-10-31T13:00:00+00:00,NS,FC Bocholt,12764,Köln II,9371,,,False
-1587529,2026-10-31T13:00:00+00:00,NS,Paderborn II,12827,Bergisch Gladbach,9366,,,False
-1587533,2026-10-31T13:00:00+00:00,NS,Wiedenbrück,12897,Rot-weiss Oberhausen,1658,,,False
-1587532,2026-10-31T13:00:00+00:00,NS,Sportfreunde Siegen,13935,Bochum II,24430,,,False
-1587539,2026-11-07T13:00:00+00:00,NS,Sportfreunde Lotte,1323,Wiedenbrück,12897,,,False
-1587536,2026-11-07T13:00:00+00:00,NS,Bonner SC,1637,FC Gutersloh,14485,,,False
-1587540,2026-11-07T13:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Borussia Dortmund II,9367,,,False
-1587534,2026-11-07T13:00:00+00:00,NS,Bergisch Gladbach,9366,FC Bocholt,12764,,,False
-1587538,2026-11-07T13:00:00+00:00,NS,Köln II,9371,Sportfreunde Siegen,13935,,,False
-1587541,2026-11-07T13:00:00+00:00,NS,Schalke 04 II,9373,Borussia M'gladbach II,9368,,,False
-1587537,2026-11-07T13:00:00+00:00,NS,Hilden,12790,SV Rodinghausen,1650,,,False
-1587542,2026-11-07T13:00:00+00:00,NS,Westfalia Rhynern,14826,Paderborn II,12827,,,False
-1587535,2026-11-07T13:00:00+00:00,NS,Bochum II,24430,SG Wattenscheid 09,1629,,,False
-1587549,2026-11-21T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Köln II,9371,,,False
-1587548,2026-11-21T13:00:00+00:00,NS,SV Rodinghausen,1650,Schalke 04 II,9373,,,False
-1587545,2026-11-21T13:00:00+00:00,NS,Borussia Dortmund II,9367,Sportfreunde Lotte,1323,,,False
-1587543,2026-11-21T13:00:00+00:00,NS,Borussia M'gladbach II,9368,Bonner SC,1637,,,False
-1587544,2026-11-21T13:00:00+00:00,NS,FC Bocholt,12764,Westfalia Rhynern,14826,,,False
-1587547,2026-11-21T13:00:00+00:00,NS,Paderborn II,12827,Hilden,12790,,,False
-1587551,2026-11-21T13:00:00+00:00,NS,Wiedenbrück,12897,Bochum II,24430,,,False
-1587550,2026-11-21T13:00:00+00:00,NS,Sportfreunde Siegen,13935,Bergisch Gladbach,9366,,,False
-1587546,2026-11-21T13:00:00+00:00,NS,FC Gutersloh,14485,Rot-weiss Oberhausen,1658,,,False
-1587558,2026-11-28T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Bergisch Gladbach,9366,,,False
-1587557,2026-11-28T13:00:00+00:00,NS,SV Rodinghausen,1650,Borussia M'gladbach II,9368,,,False
-1587555,2026-11-28T13:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Bonner SC,1637,,,False
-1587553,2026-11-28T13:00:00+00:00,NS,Borussia Dortmund II,9367,Bochum II,24430,,,False
-1587552,2026-11-28T13:00:00+00:00,NS,FC Bocholt,12764,Hilden,12790,,,False
-1587556,2026-11-28T13:00:00+00:00,NS,Paderborn II,12827,Schalke 04 II,9373,,,False
-1587560,2026-11-28T13:00:00+00:00,NS,Wiedenbrück,12897,Köln II,9371,,,False
-1587559,2026-11-28T13:00:00+00:00,NS,Sportfreunde Siegen,13935,Westfalia Rhynern,14826,,,False
-1587554,2026-11-28T13:00:00+00:00,NS,FC Gutersloh,14485,Sportfreunde Lotte,1323,,,False
-1587567,2026-12-05T13:00:00+00:00,NS,Sportfreunde Lotte,1323,Rot-weiss Oberhausen,1658,,,False
-1587564,2026-12-05T13:00:00+00:00,NS,Bonner SC,1637,SV Rodinghausen,1650,,,False
-1587561,2026-12-05T13:00:00+00:00,NS,Bergisch Gladbach,9366,Wiedenbrück,12897,,,False
-1587562,2026-12-05T13:00:00+00:00,NS,Borussia M'gladbach II,9368,Paderborn II,12827,,,False
-1587566,2026-12-05T13:00:00+00:00,NS,Köln II,9371,Borussia Dortmund II,9367,,,False
-1587568,2026-12-05T13:00:00+00:00,NS,Schalke 04 II,9373,FC Bocholt,12764,,,False
-1587565,2026-12-05T13:00:00+00:00,NS,Hilden,12790,Sportfreunde Siegen,13935,,,False
-1587569,2026-12-05T13:00:00+00:00,NS,Westfalia Rhynern,14826,SG Wattenscheid 09,1629,,,False
-1587563,2026-12-05T13:00:00+00:00,NS,Bochum II,24430,FC Gutersloh,14485,,,False
-1587573,2026-12-12T13:00:00+00:00,NS,Sportfreunde Lotte,1323,Bonner SC,1637,,,False
-1587576,2026-12-12T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Hilden,12790,,,False
-1587574,2026-12-12T13:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Bochum II,24430,,,False
-1587571,2026-12-12T13:00:00+00:00,NS,Borussia Dortmund II,9367,Bergisch Gladbach,9366,,,False
-1587570,2026-12-12T13:00:00+00:00,NS,FC Bocholt,12764,Borussia M'gladbach II,9368,,,False
-1587575,2026-12-12T13:00:00+00:00,NS,Paderborn II,12827,SV Rodinghausen,1650,,,False
-1587578,2026-12-12T13:00:00+00:00,NS,Wiedenbrück,12897,Westfalia Rhynern,14826,,,False
-1587577,2026-12-12T13:00:00+00:00,NS,Sportfreunde Siegen,13935,Schalke 04 II,9373,,,False
-1587572,2026-12-12T13:00:00+00:00,NS,FC Gutersloh,14485,Köln II,9371,,,False
-1587582,2027-02-13T13:00:00+00:00,NS,Bonner SC,1637,Paderborn II,12827,,,False
-1587585,2027-02-13T13:00:00+00:00,NS,SV Rodinghausen,1650,FC Bocholt,12764,,,False
-1587579,2027-02-13T13:00:00+00:00,NS,Bergisch Gladbach,9366,FC Gutersloh,14485,,,False
-1587580,2027-02-13T13:00:00+00:00,NS,Borussia M'gladbach II,9368,Sportfreunde Siegen,13935,,,False
-1587584,2027-02-13T13:00:00+00:00,NS,Köln II,9371,Rot-weiss Oberhausen,1658,,,False
-1587586,2027-02-13T13:00:00+00:00,NS,Schalke 04 II,9373,SG Wattenscheid 09,1629,,,False
-1587583,2027-02-13T13:00:00+00:00,NS,Hilden,12790,Wiedenbrück,12897,,,False
-1587587,2027-02-13T13:00:00+00:00,NS,Westfalia Rhynern,14826,Borussia Dortmund II,9367,,,False
-1587581,2027-02-13T13:00:00+00:00,NS,Bochum II,24430,Sportfreunde Lotte,1323,,,False
-1587592,2027-02-20T13:00:00+00:00,NS,Sportfreunde Lotte,1323,Köln II,9371,,,False
-1587594,2027-02-20T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Borussia M'gladbach II,9368,,,False
-1587593,2027-02-20T13:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Bergisch Gladbach,9366,,,False
-1587590,2027-02-20T13:00:00+00:00,NS,Borussia Dortmund II,9367,Hilden,12790,,,False
-1587588,2027-02-20T13:00:00+00:00,NS,FC Bocholt,12764,Paderborn II,12827,,,False
-1587596,2027-02-20T13:00:00+00:00,NS,Wiedenbrück,12897,Schalke 04 II,9373,,,False
-1587595,2027-02-20T13:00:00+00:00,NS,Sportfreunde Siegen,13935,SV Rodinghausen,1650,,,False
-1587591,2027-02-20T13:00:00+00:00,NS,FC Gutersloh,14485,Westfalia Rhynern,14826,,,False
-1587589,2027-02-20T13:00:00+00:00,NS,Bochum II,24430,Bonner SC,1637,,,False
-1587599,2027-02-27T13:00:00+00:00,NS,Bonner SC,1637,FC Bocholt,12764,,,False
-1587603,2027-02-27T13:00:00+00:00,NS,SV Rodinghausen,1650,SG Wattenscheid 09,1629,,,False
-1587597,2027-02-27T13:00:00+00:00,NS,Bergisch Gladbach,9366,Sportfreunde Lotte,1323,,,False
-1587598,2027-02-27T13:00:00+00:00,NS,Borussia M'gladbach II,9368,Wiedenbrück,12897,,,False
-1587601,2027-02-27T13:00:00+00:00,NS,Köln II,9371,Bochum II,24430,,,False
-1587604,2027-02-27T13:00:00+00:00,NS,Schalke 04 II,9373,Borussia Dortmund II,9367,,,False
-1587600,2027-02-27T13:00:00+00:00,NS,Hilden,12790,FC Gutersloh,14485,,,False
-1587602,2027-02-27T13:00:00+00:00,NS,Paderborn II,12827,Sportfreunde Siegen,13935,,,False
-1587605,2027-02-27T13:00:00+00:00,NS,Westfalia Rhynern,14826,Rot-weiss Oberhausen,1658,,,False
-1587610,2027-03-06T13:00:00+00:00,NS,Sportfreunde Lotte,1323,Westfalia Rhynern,14826,,,False
-1587612,2027-03-06T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Paderborn II,12827,,,False
-1587611,2027-03-06T13:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Hilden,12790,,,False
-1587607,2027-03-06T13:00:00+00:00,NS,Borussia Dortmund II,9367,Borussia M'gladbach II,9368,,,False
-1587609,2027-03-06T13:00:00+00:00,NS,Köln II,9371,Bonner SC,1637,,,False
-1587614,2027-03-06T13:00:00+00:00,NS,Wiedenbrück,12897,SV Rodinghausen,1650,,,False
-1587613,2027-03-06T13:00:00+00:00,NS,Sportfreunde Siegen,13935,FC Bocholt,12764,,,False
-1587608,2027-03-06T13:00:00+00:00,NS,FC Gutersloh,14485,Schalke 04 II,9373,,,False
-1587606,2027-03-06T13:00:00+00:00,NS,Bochum II,24430,Bergisch Gladbach,9366,,,False
-1587618,2027-03-13T13:00:00+00:00,NS,Bonner SC,1637,Sportfreunde Siegen,13935,,,False
-1587621,2027-03-13T13:00:00+00:00,NS,SV Rodinghausen,1650,Borussia Dortmund II,9367,,,False
-1587615,2027-03-13T13:00:00+00:00,NS,Bergisch Gladbach,9366,Köln II,9371,,,False
-1587616,2027-03-13T13:00:00+00:00,NS,Borussia M'gladbach II,9368,FC Gutersloh,14485,,,False
-1587622,2027-03-13T13:00:00+00:00,NS,Schalke 04 II,9373,Rot-weiss Oberhausen,1658,,,False
-1587617,2027-03-13T13:00:00+00:00,NS,FC Bocholt,12764,SG Wattenscheid 09,1629,,,False
-1587619,2027-03-13T13:00:00+00:00,NS,Hilden,12790,Sportfreunde Lotte,1323,,,False
-1587620,2027-03-13T13:00:00+00:00,NS,Paderborn II,12827,Wiedenbrück,12897,,,False
-1587623,2027-03-13T13:00:00+00:00,NS,Westfalia Rhynern,14826,Bochum II,24430,,,False
-1587629,2027-03-20T13:00:00+00:00,NS,Sportfreunde Lotte,1323,Schalke 04 II,9373,,,False
-1587631,2027-03-20T13:00:00+00:00,NS,SG Wattenscheid 09,1629,Sportfreunde Siegen,13935,,,False
-1587630,2027-03-20T13:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Borussia M'gladbach II,9368,,,False
-1587624,2027-03-20T13:00:00+00:00,NS,Bergisch Gladbach,9366,Bonner SC,1637,,,False
-1587626,2027-03-20T13:00:00+00:00,NS,Borussia Dortmund II,9367,Paderborn II,12827,,,False
-1587628,2027-03-20T13:00:00+00:00,NS,Köln II,9371,Westfalia Rhynern,14826,,,False
-1587632,2027-03-20T13:00:00+00:00,NS,Wiedenbrück,12897,FC Bocholt,12764,,,False
-1587627,2027-03-20T13:00:00+00:00,NS,FC Gutersloh,14485,SV Rodinghausen,1650,,,False
-1587625,2027-03-20T13:00:00+00:00,NS,Bochum II,24430,Hilden,12790,,,False
-1587635,2027-03-25T18:30:00+00:00,NS,Bonner SC,1637,SG Wattenscheid 09,1629,,,False
-1587638,2027-03-25T18:30:00+00:00,NS,SV Rodinghausen,1650,Rot-weiss Oberhausen,1658,,,False
-1587633,2027-03-25T18:30:00+00:00,NS,Borussia M'gladbach II,9368,Sportfreunde Lotte,1323,,,False
-1587639,2027-03-25T18:30:00+00:00,NS,Schalke 04 II,9373,Bochum II,24430,,,False
-1587634,2027-03-25T18:30:00+00:00,NS,FC Bocholt,12764,Borussia Dortmund II,9367,,,False
-1587636,2027-03-25T18:30:00+00:00,NS,Hilden,12790,Köln II,9371,,,False
-1587637,2027-03-25T18:30:00+00:00,NS,Paderborn II,12827,FC Gutersloh,14485,,,False
-1587640,2027-03-25T18:30:00+00:00,NS,Sportfreunde Siegen,13935,Wiedenbrück,12897,,,False
-1587641,2027-03-25T18:30:00+00:00,NS,Westfalia Rhynern,14826,Bergisch Gladbach,9366,,,False
-1587647,2027-04-03T12:00:00+00:00,NS,Sportfreunde Lotte,1323,SV Rodinghausen,1650,,,False
-1587648,2027-04-03T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Paderborn II,12827,,,False
-1587642,2027-04-03T12:00:00+00:00,NS,Bergisch Gladbach,9366,Hilden,12790,,,False
-1587644,2027-04-03T12:00:00+00:00,NS,Borussia Dortmund II,9367,Sportfreunde Siegen,13935,,,False
-1587646,2027-04-03T12:00:00+00:00,NS,Köln II,9371,Schalke 04 II,9373,,,False
-1587650,2027-04-03T12:00:00+00:00,NS,Wiedenbrück,12897,SG Wattenscheid 09,1629,,,False
-1587645,2027-04-03T12:00:00+00:00,NS,FC Gutersloh,14485,FC Bocholt,12764,,,False
-1587649,2027-04-03T12:00:00+00:00,NS,Westfalia Rhynern,14826,Bonner SC,1637,,,False
-1587643,2027-04-03T12:00:00+00:00,NS,Bochum II,24430,Borussia M'gladbach II,9368,,,False
-1587658,2027-04-10T12:00:00+00:00,NS,SG Wattenscheid 09,1629,Borussia Dortmund II,9367,,,False
-1587653,2027-04-10T12:00:00+00:00,NS,Bonner SC,1637,Wiedenbrück,12897,,,False
-1587656,2027-04-10T12:00:00+00:00,NS,SV Rodinghausen,1650,Bochum II,24430,,,False
-1587651,2027-04-10T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Köln II,9371,,,False
-1587657,2027-04-10T12:00:00+00:00,NS,Schalke 04 II,9373,Bergisch Gladbach,9366,,,False
-1587652,2027-04-10T12:00:00+00:00,NS,FC Bocholt,12764,Rot-weiss Oberhausen,1658,,,False
-1587654,2027-04-10T12:00:00+00:00,NS,Hilden,12790,Westfalia Rhynern,14826,,,False
-1587655,2027-04-10T12:00:00+00:00,NS,Paderborn II,12827,Sportfreunde Lotte,1323,,,False
-1587659,2027-04-10T12:00:00+00:00,NS,Sportfreunde Siegen,13935,FC Gutersloh,14485,,,False
-1587666,2027-04-17T12:00:00+00:00,NS,Sportfreunde Lotte,1323,FC Bocholt,12764,,,False
-1587667,2027-04-17T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Sportfreunde Siegen,13935,,,False
-1587660,2027-04-17T12:00:00+00:00,NS,Bergisch Gladbach,9366,Borussia M'gladbach II,9368,,,False
-1587662,2027-04-17T12:00:00+00:00,NS,Borussia Dortmund II,9367,Wiedenbrück,12897,,,False
-1587665,2027-04-17T12:00:00+00:00,NS,Köln II,9371,SV Rodinghausen,1650,,,False
-1587664,2027-04-17T12:00:00+00:00,NS,Hilden,12790,Bonner SC,1637,,,False
-1587663,2027-04-17T12:00:00+00:00,NS,FC Gutersloh,14485,SG Wattenscheid 09,1629,,,False
-1587668,2027-04-17T12:00:00+00:00,NS,Westfalia Rhynern,14826,Schalke 04 II,9373,,,False
-1587661,2027-04-17T12:00:00+00:00,NS,Bochum II,24430,Paderborn II,12827,,,False
-1587675,2027-04-24T12:00:00+00:00,NS,SG Wattenscheid 09,1629,Rot-weiss Oberhausen,1658,,,False
-1587671,2027-04-24T12:00:00+00:00,NS,Bonner SC,1637,Borussia Dortmund II,9367,,,False
-1587673,2027-04-24T12:00:00+00:00,NS,SV Rodinghausen,1650,Bergisch Gladbach,9366,,,False
-1587669,2027-04-24T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Westfalia Rhynern,14826,,,False
-1587674,2027-04-24T12:00:00+00:00,NS,Schalke 04 II,9373,Hilden,12790,,,False
-1587670,2027-04-24T12:00:00+00:00,NS,FC Bocholt,12764,Bochum II,24430,,,False
-1587672,2027-04-24T12:00:00+00:00,NS,Paderborn II,12827,Köln II,9371,,,False
-1587677,2027-04-24T12:00:00+00:00,NS,Wiedenbrück,12897,FC Gutersloh,14485,,,False
-1587676,2027-04-24T12:00:00+00:00,NS,Sportfreunde Siegen,13935,Sportfreunde Lotte,1323,,,False
-1587683,2027-05-08T12:00:00+00:00,NS,Sportfreunde Lotte,1323,SG Wattenscheid 09,1629,,,False
-1587684,2027-05-08T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,Wiedenbrück,12897,,,False
-1587678,2027-05-08T12:00:00+00:00,NS,Bergisch Gladbach,9366,Paderborn II,12827,,,False
-1587682,2027-05-08T12:00:00+00:00,NS,Köln II,9371,FC Bocholt,12764,,,False
-1587685,2027-05-08T12:00:00+00:00,NS,Schalke 04 II,9373,Bonner SC,1637,,,False
-1587681,2027-05-08T12:00:00+00:00,NS,Hilden,12790,Borussia M'gladbach II,9368,,,False
-1587680,2027-05-08T12:00:00+00:00,NS,FC Gutersloh,14485,Borussia Dortmund II,9367,,,False
-1587686,2027-05-08T12:00:00+00:00,NS,Westfalia Rhynern,14826,SV Rodinghausen,1650,,,False
-1587679,2027-05-08T12:00:00+00:00,NS,Bochum II,24430,Sportfreunde Siegen,13935,,,False
-1587693,2027-05-15T12:00:00+00:00,NS,SG Wattenscheid 09,1629,Bochum II,24430,,,False
-1587692,2027-05-15T12:00:00+00:00,NS,SV Rodinghausen,1650,Hilden,12790,,,False
-1587689,2027-05-15T12:00:00+00:00,NS,Borussia Dortmund II,9367,Rot-weiss Oberhausen,1658,,,False
-1587687,2027-05-15T12:00:00+00:00,NS,Borussia M'gladbach II,9368,Schalke 04 II,9373,,,False
-1587688,2027-05-15T12:00:00+00:00,NS,FC Bocholt,12764,Bergisch Gladbach,9366,,,False
-1587691,2027-05-15T12:00:00+00:00,NS,Paderborn II,12827,Westfalia Rhynern,14826,,,False
-1587695,2027-05-15T12:00:00+00:00,NS,Wiedenbrück,12897,Sportfreunde Lotte,1323,,,False
-1587694,2027-05-15T12:00:00+00:00,NS,Sportfreunde Siegen,13935,Köln II,9371,,,False
-1587690,2027-05-15T12:00:00+00:00,NS,FC Gutersloh,14485,Bonner SC,1637,,,False
-1587701,2027-05-22T12:00:00+00:00,NS,Sportfreunde Lotte,1323,Borussia Dortmund II,9367,,,False
-1587698,2027-05-22T12:00:00+00:00,NS,Bonner SC,1637,Borussia M'gladbach II,9368,,,False
-1587702,2027-05-22T12:00:00+00:00,NS,Rot-weiss Oberhausen,1658,FC Gutersloh,14485,,,False
-1587696,2027-05-22T12:00:00+00:00,NS,Bergisch Gladbach,9366,Sportfreunde Siegen,13935,,,False
-1587700,2027-05-22T12:00:00+00:00,NS,Köln II,9371,SG Wattenscheid 09,1629,,,False
-1587703,2027-05-22T12:00:00+00:00,NS,Schalke 04 II,9373,SV Rodinghausen,1650,,,False
-1587699,2027-05-22T12:00:00+00:00,NS,Hilden,12790,Paderborn II,12827,,,False
-1587704,2027-05-22T12:00:00+00:00,NS,Westfalia Rhynern,14826,FC Bocholt,12764,,,False
-1587697,2027-05-22T12:00:00+00:00,NS,Bochum II,24430,Wiedenbrück,12897,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1587399,2026-07-31T17:30:00+00:00,FT,West - 1,Bonner SC,1637,Rot-weiss Oberhausen,1658,1,2,True
+1587405,2026-08-01T12:00:00+00:00,FT,West - 1,Sportfreunde Lotte,1323,FC Gutersloh,14485,0,1,True
+1587400,2026-08-01T12:00:00+00:00,FT,West - 1,Bergisch Gladbach,9366,SG Wattenscheid 09,1629,1,1,True
+1587401,2026-08-01T12:00:00+00:00,FT,West - 1,Borussia M'gladbach II,9368,SV Rodinghausen,1650,2,0,True
+1587404,2026-08-01T12:00:00+00:00,FT,West - 1,Köln II,9371,Wiedenbrück,12897,2,1,True
+1587406,2026-08-01T12:00:00+00:00,FT,West - 1,Schalke 04 II,9373,Paderborn II,12827,2,3,True
+1587407,2026-08-01T12:00:00+00:00,FT,West - 1,Westfalia Rhynern,14826,Sportfreunde Siegen,13935,3,2,True
+1587402,2026-08-01T12:00:00+00:00,FT,West - 1,Bochum II,24430,Borussia Dortmund II,9367,1,1,True
+1587403,2026-08-01T14:00:00+00:00,FT,West - 1,Hilden,12790,FC Bocholt,12764,0,0,True
+1587409,2026-08-07T17:30:00+00:00,NS,West - 2,Borussia Dortmund II,9367,Köln II,9371,,,False
+1587410,2026-08-07T17:30:00+00:00,NS,West - 2,FC Gutersloh,14485,Bochum II,24430,,,False
+1587414,2026-08-08T12:00:00+00:00,NS,West - 2,SG Wattenscheid 09,1629,Westfalia Rhynern,14826,,,False
+1587413,2026-08-08T12:00:00+00:00,NS,West - 2,SV Rodinghausen,1650,Bonner SC,1637,,,False
+1587408,2026-08-08T12:00:00+00:00,NS,West - 2,FC Bocholt,12764,Schalke 04 II,9373,,,False
+1587412,2026-08-08T12:00:00+00:00,NS,West - 2,Paderborn II,12827,Borussia M'gladbach II,9368,,,False
+1587415,2026-08-08T12:00:00+00:00,NS,West - 2,Sportfreunde Siegen,13935,Hilden,12790,,,False
+1587411,2026-08-09T12:00:00+00:00,NS,West - 2,Rot-weiss Oberhausen,1658,Sportfreunde Lotte,1323,,,False
+1587416,2026-08-09T12:00:00+00:00,NS,West - 2,Wiedenbrück,12897,Bergisch Gladbach,9366,,,False
+1587420,2026-08-14T17:30:00+00:00,NS,West - 3,Bonner SC,1637,Sportfreunde Lotte,1323,,,False
+1587417,2026-08-14T17:30:00+00:00,NS,West - 3,Bergisch Gladbach,9366,Borussia Dortmund II,9367,,,False
+1587424,2026-08-14T17:30:00+00:00,NS,West - 3,Schalke 04 II,9373,Sportfreunde Siegen,13935,,,False
+1587425,2026-08-14T17:30:00+00:00,NS,West - 3,Westfalia Rhynern,14826,Wiedenbrück,12897,,,False
+1587423,2026-08-15T12:00:00+00:00,NS,West - 3,SV Rodinghausen,1650,Paderborn II,12827,,,False
+1587418,2026-08-15T12:00:00+00:00,NS,West - 3,Borussia M'gladbach II,9368,FC Bocholt,12764,,,False
+1587419,2026-08-15T12:00:00+00:00,NS,West - 3,Bochum II,24430,Rot-weiss Oberhausen,1658,,,False
+1587421,2026-08-15T14:00:00+00:00,NS,West - 3,Hilden,12790,SG Wattenscheid 09,1629,,,False
+1587422,2026-08-16T12:00:00+00:00,NS,West - 3,Köln II,9371,FC Gutersloh,14485,,,False
+1587432,2026-08-21T17:00:00+00:00,NS,West - 4,SG Wattenscheid 09,1629,Schalke 04 II,9373,,,False
+1587433,2026-08-21T17:00:00+00:00,NS,West - 4,Sportfreunde Siegen,13935,Borussia M'gladbach II,9368,,,False
+1587430,2026-08-22T12:00:00+00:00,NS,West - 4,Rot-weiss Oberhausen,1658,Köln II,9371,,,False
+1587426,2026-08-22T12:00:00+00:00,NS,West - 4,FC Bocholt,12764,SV Rodinghausen,1650,,,False
+1587434,2026-08-22T12:00:00+00:00,NS,West - 4,Wiedenbrück,12897,Hilden,12790,,,False
+1587428,2026-08-22T12:00:00+00:00,NS,West - 4,FC Gutersloh,14485,Bergisch Gladbach,9366,,,False
+1587429,2026-08-23T12:00:00+00:00,NS,West - 4,Sportfreunde Lotte,1323,Bochum II,24430,,,False
+1587431,2026-08-23T12:00:00+00:00,NS,West - 4,Paderborn II,12827,Bonner SC,1637,,,False
+1587437,2026-08-28T17:30:00+00:00,NS,West - 5,Bonner SC,1637,Bochum II,24430,,,False
+1587441,2026-08-28T17:30:00+00:00,NS,West - 5,SV Rodinghausen,1650,Sportfreunde Siegen,13935,,,False
+1587443,2026-08-28T17:30:00+00:00,NS,West - 5,Westfalia Rhynern,14826,FC Gutersloh,14485,,,False
+1587435,2026-08-29T12:00:00+00:00,NS,West - 5,Bergisch Gladbach,9366,Rot-weiss Oberhausen,1658,,,False
+1587436,2026-08-29T12:00:00+00:00,NS,West - 5,Borussia M'gladbach II,9368,SG Wattenscheid 09,1629,,,False
+1587439,2026-08-29T12:00:00+00:00,NS,West - 5,Köln II,9371,Sportfreunde Lotte,1323,,,False
+1587442,2026-08-29T12:00:00+00:00,NS,West - 5,Schalke 04 II,9373,Wiedenbrück,12897,,,False
+1587438,2026-08-29T12:00:00+00:00,NS,West - 5,Hilden,12790,Borussia Dortmund II,9367,,,False
+1587440,2026-08-29T12:00:00+00:00,NS,West - 5,Paderborn II,12827,FC Bocholt,12764,,,False
+1587445,2026-09-01T14:00:00+00:00,NS,West - 6,Bochum II,24430,Köln II,9371,,,False
+1587449,2026-09-01T17:30:00+00:00,NS,West - 6,Rot-weiss Oberhausen,1658,Westfalia Rhynern,14826,,,False
+1587446,2026-09-01T17:30:00+00:00,NS,West - 6,Borussia Dortmund II,9367,Schalke 04 II,9373,,,False
+1587444,2026-09-01T17:30:00+00:00,NS,West - 6,FC Bocholt,12764,Bonner SC,1637,,,False
+1587447,2026-09-01T17:30:00+00:00,NS,West - 6,FC Gutersloh,14485,Hilden,12790,,,False
+1587450,2026-09-02T17:00:00+00:00,NS,West - 6,SG Wattenscheid 09,1629,SV Rodinghausen,1650,,,False
+1587448,2026-09-02T17:30:00+00:00,NS,West - 6,Sportfreunde Lotte,1323,Bergisch Gladbach,9366,,,False
+1587452,2026-09-02T17:30:00+00:00,NS,West - 6,Wiedenbrück,12897,Borussia M'gladbach II,9368,,,False
+1587451,2026-09-02T17:30:00+00:00,NS,West - 6,Sportfreunde Siegen,13935,Paderborn II,12827,,,False
+1587456,2026-09-04T17:30:00+00:00,NS,West - 7,Bonner SC,1637,Köln II,9371,,,False
+1587457,2026-09-04T17:30:00+00:00,NS,West - 7,Hilden,12790,Rot-weiss Oberhausen,1658,,,False
+1587459,2026-09-05T12:00:00+00:00,NS,West - 7,SV Rodinghausen,1650,Wiedenbrück,12897,,,False
+1587454,2026-09-05T12:00:00+00:00,NS,West - 7,Borussia M'gladbach II,9368,Borussia Dortmund II,9367,,,False
+1587455,2026-09-05T12:00:00+00:00,NS,West - 7,FC Bocholt,12764,Sportfreunde Siegen,13935,,,False
+1587461,2026-09-05T12:00:00+00:00,NS,West - 7,Westfalia Rhynern,14826,Sportfreunde Lotte,1323,,,False
+1587453,2026-09-06T12:00:00+00:00,NS,West - 7,Bergisch Gladbach,9366,Bochum II,24430,,,False
+1587460,2026-09-06T12:00:00+00:00,NS,West - 7,Schalke 04 II,9373,FC Gutersloh,14485,,,False
+1587458,2026-09-06T12:00:00+00:00,NS,West - 7,Paderborn II,12827,SG Wattenscheid 09,1629,,,False
+1587469,2026-09-11T17:00:00+00:00,NS,West - 8,Sportfreunde Siegen,13935,Bonner SC,1637,,,False
+1587467,2026-09-11T17:30:00+00:00,NS,West - 8,Rot-weiss Oberhausen,1658,Schalke 04 II,9373,,,False
+1587466,2026-09-12T12:00:00+00:00,NS,West - 8,Sportfreunde Lotte,1323,Hilden,12790,,,False
+1587468,2026-09-12T12:00:00+00:00,NS,West - 8,SG Wattenscheid 09,1629,FC Bocholt,12764,,,False
+1587465,2026-09-12T12:00:00+00:00,NS,West - 8,Köln II,9371,Bergisch Gladbach,9366,,,False
+1587470,2026-09-12T12:00:00+00:00,NS,West - 8,Wiedenbrück,12897,Paderborn II,12827,,,False
+1587464,2026-09-12T12:00:00+00:00,NS,West - 8,FC Gutersloh,14485,Borussia M'gladbach II,9368,,,False
+1587462,2026-09-12T12:00:00+00:00,NS,West - 8,Bochum II,24430,Westfalia Rhynern,14826,,,False
+1587463,2026-09-13T12:00:00+00:00,NS,West - 8,Borussia Dortmund II,9367,SV Rodinghausen,1650,,,False
+1587427,2026-09-16T17:30:00+00:00,NS,West - 4,Borussia Dortmund II,9367,Westfalia Rhynern,14826,,,False
+1587476,2026-09-18T17:30:00+00:00,NS,West - 9,SV Rodinghausen,1650,FC Gutersloh,14485,,,False
+1587478,2026-09-18T17:30:00+00:00,NS,West - 9,Sportfreunde Siegen,13935,SG Wattenscheid 09,1629,,,False
+1587473,2026-09-19T12:00:00+00:00,NS,West - 9,Bonner SC,1637,Bergisch Gladbach,9366,,,False
+1587471,2026-09-19T12:00:00+00:00,NS,West - 9,Borussia M'gladbach II,9368,Rot-weiss Oberhausen,1658,,,False
+1587477,2026-09-19T12:00:00+00:00,NS,West - 9,Schalke 04 II,9373,Sportfreunde Lotte,1323,,,False
+1587472,2026-09-19T12:00:00+00:00,NS,West - 9,FC Bocholt,12764,Wiedenbrück,12897,,,False
+1587474,2026-09-19T12:00:00+00:00,NS,West - 9,Hilden,12790,Bochum II,24430,,,False
+1587479,2026-09-19T12:00:00+00:00,NS,West - 9,Westfalia Rhynern,14826,Köln II,9371,,,False
+1587475,2026-09-21T16:00:00+00:00,NS,West - 9,Paderborn II,12827,Borussia Dortmund II,9367,,,False
+1587485,2026-09-26T12:00:00+00:00,NS,West - 10,Sportfreunde Lotte,1323,Borussia M'gladbach II,9368,,,False
+1587487,2026-09-26T12:00:00+00:00,NS,West - 10,SG Wattenscheid 09,1629,Bonner SC,1637,,,False
+1587486,2026-09-26T12:00:00+00:00,NS,West - 10,Rot-weiss Oberhausen,1658,SV Rodinghausen,1650,,,False
+1587480,2026-09-26T12:00:00+00:00,NS,West - 10,Bergisch Gladbach,9366,Westfalia Rhynern,14826,,,False
+1587482,2026-09-26T12:00:00+00:00,NS,West - 10,Borussia Dortmund II,9367,FC Bocholt,12764,,,False
+1587484,2026-09-26T12:00:00+00:00,NS,West - 10,Köln II,9371,Hilden,12790,,,False
+1587488,2026-09-26T12:00:00+00:00,NS,West - 10,Wiedenbrück,12897,Sportfreunde Siegen,13935,,,False
+1587483,2026-09-26T12:00:00+00:00,NS,West - 10,FC Gutersloh,14485,Paderborn II,12827,,,False
+1587481,2026-09-26T12:00:00+00:00,NS,West - 10,Bochum II,24430,Schalke 04 II,9373,,,False
+1587496,2026-10-03T12:00:00+00:00,NS,West - 11,SG Wattenscheid 09,1629,Wiedenbrück,12897,,,False
+1587491,2026-10-03T12:00:00+00:00,NS,West - 11,Bonner SC,1637,Westfalia Rhynern,14826,,,False
+1587494,2026-10-03T12:00:00+00:00,NS,West - 11,SV Rodinghausen,1650,Sportfreunde Lotte,1323,,,False
+1587489,2026-10-03T12:00:00+00:00,NS,West - 11,Borussia M'gladbach II,9368,Bochum II,24430,,,False
+1587495,2026-10-03T12:00:00+00:00,NS,West - 11,Schalke 04 II,9373,Köln II,9371,,,False
+1587490,2026-10-03T12:00:00+00:00,NS,West - 11,FC Bocholt,12764,FC Gutersloh,14485,,,False
+1587492,2026-10-03T12:00:00+00:00,NS,West - 11,Hilden,12790,Bergisch Gladbach,9366,,,False
+1587493,2026-10-03T12:00:00+00:00,NS,West - 11,Paderborn II,12827,Rot-weiss Oberhausen,1658,,,False
+1587497,2026-10-03T12:00:00+00:00,NS,West - 11,Sportfreunde Siegen,13935,Borussia Dortmund II,9367,,,False
+1587503,2026-10-10T12:00:00+00:00,NS,West - 12,Sportfreunde Lotte,1323,Paderborn II,12827,,,False
+1587504,2026-10-10T12:00:00+00:00,NS,West - 12,Rot-weiss Oberhausen,1658,FC Bocholt,12764,,,False
+1587498,2026-10-10T12:00:00+00:00,NS,West - 12,Bergisch Gladbach,9366,Schalke 04 II,9373,,,False
+1587500,2026-10-10T12:00:00+00:00,NS,West - 12,Borussia Dortmund II,9367,SG Wattenscheid 09,1629,,,False
+1587502,2026-10-10T12:00:00+00:00,NS,West - 12,Köln II,9371,Borussia M'gladbach II,9368,,,False
+1587506,2026-10-10T12:00:00+00:00,NS,West - 12,Wiedenbrück,12897,Bonner SC,1637,,,False
+1587501,2026-10-10T12:00:00+00:00,NS,West - 12,FC Gutersloh,14485,Sportfreunde Siegen,13935,,,False
+1587505,2026-10-10T12:00:00+00:00,NS,West - 12,Westfalia Rhynern,14826,Hilden,12790,,,False
+1587499,2026-10-10T12:00:00+00:00,NS,West - 12,Bochum II,24430,SV Rodinghausen,1650,,,False
+1587513,2026-10-17T12:00:00+00:00,NS,West - 13,SG Wattenscheid 09,1629,FC Gutersloh,14485,,,False
+1587509,2026-10-17T12:00:00+00:00,NS,West - 13,Bonner SC,1637,Hilden,12790,,,False
+1587511,2026-10-17T12:00:00+00:00,NS,West - 13,SV Rodinghausen,1650,Köln II,9371,,,False
+1587507,2026-10-17T12:00:00+00:00,NS,West - 13,Borussia M'gladbach II,9368,Bergisch Gladbach,9366,,,False
+1587512,2026-10-17T12:00:00+00:00,NS,West - 13,Schalke 04 II,9373,Westfalia Rhynern,14826,,,False
+1587508,2026-10-17T12:00:00+00:00,NS,West - 13,FC Bocholt,12764,Sportfreunde Lotte,1323,,,False
+1587510,2026-10-17T12:00:00+00:00,NS,West - 13,Paderborn II,12827,Bochum II,24430,,,False
+1587515,2026-10-17T12:00:00+00:00,NS,West - 13,Wiedenbrück,12897,Borussia Dortmund II,9367,,,False
+1587514,2026-10-17T12:00:00+00:00,NS,West - 13,Sportfreunde Siegen,13935,Rot-weiss Oberhausen,1658,,,False
+1587522,2026-10-24T12:00:00+00:00,NS,West - 14,Sportfreunde Lotte,1323,Sportfreunde Siegen,13935,,,False
+1587523,2026-10-24T12:00:00+00:00,NS,West - 14,Rot-weiss Oberhausen,1658,SG Wattenscheid 09,1629,,,False
+1587516,2026-10-24T12:00:00+00:00,NS,West - 14,Bergisch Gladbach,9366,SV Rodinghausen,1650,,,False
+1587518,2026-10-24T12:00:00+00:00,NS,West - 14,Borussia Dortmund II,9367,Bonner SC,1637,,,False
+1587521,2026-10-24T12:00:00+00:00,NS,West - 14,Köln II,9371,Paderborn II,12827,,,False
+1587520,2026-10-24T12:00:00+00:00,NS,West - 14,Hilden,12790,Schalke 04 II,9373,,,False
+1587519,2026-10-24T12:00:00+00:00,NS,West - 14,FC Gutersloh,14485,Wiedenbrück,12897,,,False
+1587524,2026-10-24T12:00:00+00:00,NS,West - 14,Westfalia Rhynern,14826,Borussia M'gladbach II,9368,,,False
+1587517,2026-10-24T12:00:00+00:00,NS,West - 14,Bochum II,24430,FC Bocholt,12764,,,False
+1587531,2026-10-31T13:00:00+00:00,NS,West - 15,SG Wattenscheid 09,1629,Sportfreunde Lotte,1323,,,False
+1587527,2026-10-31T13:00:00+00:00,NS,West - 15,Bonner SC,1637,Schalke 04 II,9373,,,False
+1587530,2026-10-31T13:00:00+00:00,NS,West - 15,SV Rodinghausen,1650,Westfalia Rhynern,14826,,,False
+1587528,2026-10-31T13:00:00+00:00,NS,West - 15,Borussia Dortmund II,9367,FC Gutersloh,14485,,,False
+1587525,2026-10-31T13:00:00+00:00,NS,West - 15,Borussia M'gladbach II,9368,Hilden,12790,,,False
+1587526,2026-10-31T13:00:00+00:00,NS,West - 15,FC Bocholt,12764,Köln II,9371,,,False
+1587529,2026-10-31T13:00:00+00:00,NS,West - 15,Paderborn II,12827,Bergisch Gladbach,9366,,,False
+1587533,2026-10-31T13:00:00+00:00,NS,West - 15,Wiedenbrück,12897,Rot-weiss Oberhausen,1658,,,False
+1587532,2026-10-31T13:00:00+00:00,NS,West - 15,Sportfreunde Siegen,13935,Bochum II,24430,,,False
+1587539,2026-11-07T13:00:00+00:00,NS,West - 16,Sportfreunde Lotte,1323,Wiedenbrück,12897,,,False
+1587536,2026-11-07T13:00:00+00:00,NS,West - 16,Bonner SC,1637,FC Gutersloh,14485,,,False
+1587540,2026-11-07T13:00:00+00:00,NS,West - 16,Rot-weiss Oberhausen,1658,Borussia Dortmund II,9367,,,False
+1587534,2026-11-07T13:00:00+00:00,NS,West - 16,Bergisch Gladbach,9366,FC Bocholt,12764,,,False
+1587538,2026-11-07T13:00:00+00:00,NS,West - 16,Köln II,9371,Sportfreunde Siegen,13935,,,False
+1587541,2026-11-07T13:00:00+00:00,NS,West - 16,Schalke 04 II,9373,Borussia M'gladbach II,9368,,,False
+1587537,2026-11-07T13:00:00+00:00,NS,West - 16,Hilden,12790,SV Rodinghausen,1650,,,False
+1587542,2026-11-07T13:00:00+00:00,NS,West - 16,Westfalia Rhynern,14826,Paderborn II,12827,,,False
+1587535,2026-11-07T13:00:00+00:00,NS,West - 16,Bochum II,24430,SG Wattenscheid 09,1629,,,False
+1587549,2026-11-21T13:00:00+00:00,NS,West - 17,SG Wattenscheid 09,1629,Köln II,9371,,,False
+1587548,2026-11-21T13:00:00+00:00,NS,West - 17,SV Rodinghausen,1650,Schalke 04 II,9373,,,False
+1587545,2026-11-21T13:00:00+00:00,NS,West - 17,Borussia Dortmund II,9367,Sportfreunde Lotte,1323,,,False
+1587543,2026-11-21T13:00:00+00:00,NS,West - 17,Borussia M'gladbach II,9368,Bonner SC,1637,,,False
+1587544,2026-11-21T13:00:00+00:00,NS,West - 17,FC Bocholt,12764,Westfalia Rhynern,14826,,,False
+1587547,2026-11-21T13:00:00+00:00,NS,West - 17,Paderborn II,12827,Hilden,12790,,,False
+1587551,2026-11-21T13:00:00+00:00,NS,West - 17,Wiedenbrück,12897,Bochum II,24430,,,False
+1587550,2026-11-21T13:00:00+00:00,NS,West - 17,Sportfreunde Siegen,13935,Bergisch Gladbach,9366,,,False
+1587546,2026-11-21T13:00:00+00:00,NS,West - 17,FC Gutersloh,14485,Rot-weiss Oberhausen,1658,,,False
+1587558,2026-11-28T13:00:00+00:00,NS,West - 18,SG Wattenscheid 09,1629,Bergisch Gladbach,9366,,,False
+1587557,2026-11-28T13:00:00+00:00,NS,West - 18,SV Rodinghausen,1650,Borussia M'gladbach II,9368,,,False
+1587555,2026-11-28T13:00:00+00:00,NS,West - 18,Rot-weiss Oberhausen,1658,Bonner SC,1637,,,False
+1587553,2026-11-28T13:00:00+00:00,NS,West - 18,Borussia Dortmund II,9367,Bochum II,24430,,,False
+1587552,2026-11-28T13:00:00+00:00,NS,West - 18,FC Bocholt,12764,Hilden,12790,,,False
+1587556,2026-11-28T13:00:00+00:00,NS,West - 18,Paderborn II,12827,Schalke 04 II,9373,,,False
+1587560,2026-11-28T13:00:00+00:00,NS,West - 18,Wiedenbrück,12897,Köln II,9371,,,False
+1587559,2026-11-28T13:00:00+00:00,NS,West - 18,Sportfreunde Siegen,13935,Westfalia Rhynern,14826,,,False
+1587554,2026-11-28T13:00:00+00:00,NS,West - 18,FC Gutersloh,14485,Sportfreunde Lotte,1323,,,False
+1587567,2026-12-05T13:00:00+00:00,NS,West - 19,Sportfreunde Lotte,1323,Rot-weiss Oberhausen,1658,,,False
+1587564,2026-12-05T13:00:00+00:00,NS,West - 19,Bonner SC,1637,SV Rodinghausen,1650,,,False
+1587561,2026-12-05T13:00:00+00:00,NS,West - 19,Bergisch Gladbach,9366,Wiedenbrück,12897,,,False
+1587562,2026-12-05T13:00:00+00:00,NS,West - 19,Borussia M'gladbach II,9368,Paderborn II,12827,,,False
+1587566,2026-12-05T13:00:00+00:00,NS,West - 19,Köln II,9371,Borussia Dortmund II,9367,,,False
+1587568,2026-12-05T13:00:00+00:00,NS,West - 19,Schalke 04 II,9373,FC Bocholt,12764,,,False
+1587565,2026-12-05T13:00:00+00:00,NS,West - 19,Hilden,12790,Sportfreunde Siegen,13935,,,False
+1587569,2026-12-05T13:00:00+00:00,NS,West - 19,Westfalia Rhynern,14826,SG Wattenscheid 09,1629,,,False
+1587563,2026-12-05T13:00:00+00:00,NS,West - 19,Bochum II,24430,FC Gutersloh,14485,,,False
+1587573,2026-12-12T13:00:00+00:00,NS,West - 20,Sportfreunde Lotte,1323,Bonner SC,1637,,,False
+1587576,2026-12-12T13:00:00+00:00,NS,West - 20,SG Wattenscheid 09,1629,Hilden,12790,,,False
+1587574,2026-12-12T13:00:00+00:00,NS,West - 20,Rot-weiss Oberhausen,1658,Bochum II,24430,,,False
+1587571,2026-12-12T13:00:00+00:00,NS,West - 20,Borussia Dortmund II,9367,Bergisch Gladbach,9366,,,False
+1587570,2026-12-12T13:00:00+00:00,NS,West - 20,FC Bocholt,12764,Borussia M'gladbach II,9368,,,False
+1587575,2026-12-12T13:00:00+00:00,NS,West - 20,Paderborn II,12827,SV Rodinghausen,1650,,,False
+1587578,2026-12-12T13:00:00+00:00,NS,West - 20,Wiedenbrück,12897,Westfalia Rhynern,14826,,,False
+1587577,2026-12-12T13:00:00+00:00,NS,West - 20,Sportfreunde Siegen,13935,Schalke 04 II,9373,,,False
+1587572,2026-12-12T13:00:00+00:00,NS,West - 20,FC Gutersloh,14485,Köln II,9371,,,False
+1587582,2027-02-13T13:00:00+00:00,NS,West - 21,Bonner SC,1637,Paderborn II,12827,,,False
+1587585,2027-02-13T13:00:00+00:00,NS,West - 21,SV Rodinghausen,1650,FC Bocholt,12764,,,False
+1587579,2027-02-13T13:00:00+00:00,NS,West - 21,Bergisch Gladbach,9366,FC Gutersloh,14485,,,False
+1587580,2027-02-13T13:00:00+00:00,NS,West - 21,Borussia M'gladbach II,9368,Sportfreunde Siegen,13935,,,False
+1587584,2027-02-13T13:00:00+00:00,NS,West - 21,Köln II,9371,Rot-weiss Oberhausen,1658,,,False
+1587586,2027-02-13T13:00:00+00:00,NS,West - 21,Schalke 04 II,9373,SG Wattenscheid 09,1629,,,False
+1587583,2027-02-13T13:00:00+00:00,NS,West - 21,Hilden,12790,Wiedenbrück,12897,,,False
+1587587,2027-02-13T13:00:00+00:00,NS,West - 21,Westfalia Rhynern,14826,Borussia Dortmund II,9367,,,False
+1587581,2027-02-13T13:00:00+00:00,NS,West - 21,Bochum II,24430,Sportfreunde Lotte,1323,,,False
+1587592,2027-02-20T13:00:00+00:00,NS,West - 22,Sportfreunde Lotte,1323,Köln II,9371,,,False
+1587594,2027-02-20T13:00:00+00:00,NS,West - 22,SG Wattenscheid 09,1629,Borussia M'gladbach II,9368,,,False
+1587593,2027-02-20T13:00:00+00:00,NS,West - 22,Rot-weiss Oberhausen,1658,Bergisch Gladbach,9366,,,False
+1587590,2027-02-20T13:00:00+00:00,NS,West - 22,Borussia Dortmund II,9367,Hilden,12790,,,False
+1587588,2027-02-20T13:00:00+00:00,NS,West - 22,FC Bocholt,12764,Paderborn II,12827,,,False
+1587596,2027-02-20T13:00:00+00:00,NS,West - 22,Wiedenbrück,12897,Schalke 04 II,9373,,,False
+1587595,2027-02-20T13:00:00+00:00,NS,West - 22,Sportfreunde Siegen,13935,SV Rodinghausen,1650,,,False
+1587591,2027-02-20T13:00:00+00:00,NS,West - 22,FC Gutersloh,14485,Westfalia Rhynern,14826,,,False
+1587589,2027-02-20T13:00:00+00:00,NS,West - 22,Bochum II,24430,Bonner SC,1637,,,False
+1587599,2027-02-27T13:00:00+00:00,NS,West - 23,Bonner SC,1637,FC Bocholt,12764,,,False
+1587603,2027-02-27T13:00:00+00:00,NS,West - 23,SV Rodinghausen,1650,SG Wattenscheid 09,1629,,,False
+1587597,2027-02-27T13:00:00+00:00,NS,West - 23,Bergisch Gladbach,9366,Sportfreunde Lotte,1323,,,False
+1587598,2027-02-27T13:00:00+00:00,NS,West - 23,Borussia M'gladbach II,9368,Wiedenbrück,12897,,,False
+1587601,2027-02-27T13:00:00+00:00,NS,West - 23,Köln II,9371,Bochum II,24430,,,False
+1587604,2027-02-27T13:00:00+00:00,NS,West - 23,Schalke 04 II,9373,Borussia Dortmund II,9367,,,False
+1587600,2027-02-27T13:00:00+00:00,NS,West - 23,Hilden,12790,FC Gutersloh,14485,,,False
+1587602,2027-02-27T13:00:00+00:00,NS,West - 23,Paderborn II,12827,Sportfreunde Siegen,13935,,,False
+1587605,2027-02-27T13:00:00+00:00,NS,West - 23,Westfalia Rhynern,14826,Rot-weiss Oberhausen,1658,,,False
+1587610,2027-03-06T13:00:00+00:00,NS,West - 24,Sportfreunde Lotte,1323,Westfalia Rhynern,14826,,,False
+1587612,2027-03-06T13:00:00+00:00,NS,West - 24,SG Wattenscheid 09,1629,Paderborn II,12827,,,False
+1587611,2027-03-06T13:00:00+00:00,NS,West - 24,Rot-weiss Oberhausen,1658,Hilden,12790,,,False
+1587607,2027-03-06T13:00:00+00:00,NS,West - 24,Borussia Dortmund II,9367,Borussia M'gladbach II,9368,,,False
+1587609,2027-03-06T13:00:00+00:00,NS,West - 24,Köln II,9371,Bonner SC,1637,,,False
+1587614,2027-03-06T13:00:00+00:00,NS,West - 24,Wiedenbrück,12897,SV Rodinghausen,1650,,,False
+1587613,2027-03-06T13:00:00+00:00,NS,West - 24,Sportfreunde Siegen,13935,FC Bocholt,12764,,,False
+1587608,2027-03-06T13:00:00+00:00,NS,West - 24,FC Gutersloh,14485,Schalke 04 II,9373,,,False
+1587606,2027-03-06T13:00:00+00:00,NS,West - 24,Bochum II,24430,Bergisch Gladbach,9366,,,False
+1587618,2027-03-13T13:00:00+00:00,NS,West - 25,Bonner SC,1637,Sportfreunde Siegen,13935,,,False
+1587621,2027-03-13T13:00:00+00:00,NS,West - 25,SV Rodinghausen,1650,Borussia Dortmund II,9367,,,False
+1587615,2027-03-13T13:00:00+00:00,NS,West - 25,Bergisch Gladbach,9366,Köln II,9371,,,False
+1587616,2027-03-13T13:00:00+00:00,NS,West - 25,Borussia M'gladbach II,9368,FC Gutersloh,14485,,,False
+1587622,2027-03-13T13:00:00+00:00,NS,West - 25,Schalke 04 II,9373,Rot-weiss Oberhausen,1658,,,False
+1587617,2027-03-13T13:00:00+00:00,NS,West - 25,FC Bocholt,12764,SG Wattenscheid 09,1629,,,False
+1587619,2027-03-13T13:00:00+00:00,NS,West - 25,Hilden,12790,Sportfreunde Lotte,1323,,,False
+1587620,2027-03-13T13:00:00+00:00,NS,West - 25,Paderborn II,12827,Wiedenbrück,12897,,,False
+1587623,2027-03-13T13:00:00+00:00,NS,West - 25,Westfalia Rhynern,14826,Bochum II,24430,,,False
+1587629,2027-03-20T13:00:00+00:00,NS,West - 26,Sportfreunde Lotte,1323,Schalke 04 II,9373,,,False
+1587631,2027-03-20T13:00:00+00:00,NS,West - 26,SG Wattenscheid 09,1629,Sportfreunde Siegen,13935,,,False
+1587630,2027-03-20T13:00:00+00:00,NS,West - 26,Rot-weiss Oberhausen,1658,Borussia M'gladbach II,9368,,,False
+1587624,2027-03-20T13:00:00+00:00,NS,West - 26,Bergisch Gladbach,9366,Bonner SC,1637,,,False
+1587626,2027-03-20T13:00:00+00:00,NS,West - 26,Borussia Dortmund II,9367,Paderborn II,12827,,,False
+1587628,2027-03-20T13:00:00+00:00,NS,West - 26,Köln II,9371,Westfalia Rhynern,14826,,,False
+1587632,2027-03-20T13:00:00+00:00,NS,West - 26,Wiedenbrück,12897,FC Bocholt,12764,,,False
+1587627,2027-03-20T13:00:00+00:00,NS,West - 26,FC Gutersloh,14485,SV Rodinghausen,1650,,,False
+1587625,2027-03-20T13:00:00+00:00,NS,West - 26,Bochum II,24430,Hilden,12790,,,False
+1587635,2027-03-25T18:30:00+00:00,NS,West - 27,Bonner SC,1637,SG Wattenscheid 09,1629,,,False
+1587638,2027-03-25T18:30:00+00:00,NS,West - 27,SV Rodinghausen,1650,Rot-weiss Oberhausen,1658,,,False
+1587633,2027-03-25T18:30:00+00:00,NS,West - 27,Borussia M'gladbach II,9368,Sportfreunde Lotte,1323,,,False
+1587639,2027-03-25T18:30:00+00:00,NS,West - 27,Schalke 04 II,9373,Bochum II,24430,,,False
+1587634,2027-03-25T18:30:00+00:00,NS,West - 27,FC Bocholt,12764,Borussia Dortmund II,9367,,,False
+1587636,2027-03-25T18:30:00+00:00,NS,West - 27,Hilden,12790,Köln II,9371,,,False
+1587637,2027-03-25T18:30:00+00:00,NS,West - 27,Paderborn II,12827,FC Gutersloh,14485,,,False
+1587640,2027-03-25T18:30:00+00:00,NS,West - 27,Sportfreunde Siegen,13935,Wiedenbrück,12897,,,False
+1587641,2027-03-25T18:30:00+00:00,NS,West - 27,Westfalia Rhynern,14826,Bergisch Gladbach,9366,,,False
+1587647,2027-04-03T12:00:00+00:00,NS,West - 28,Sportfreunde Lotte,1323,SV Rodinghausen,1650,,,False
+1587648,2027-04-03T12:00:00+00:00,NS,West - 28,Rot-weiss Oberhausen,1658,Paderborn II,12827,,,False
+1587642,2027-04-03T12:00:00+00:00,NS,West - 28,Bergisch Gladbach,9366,Hilden,12790,,,False
+1587644,2027-04-03T12:00:00+00:00,NS,West - 28,Borussia Dortmund II,9367,Sportfreunde Siegen,13935,,,False
+1587646,2027-04-03T12:00:00+00:00,NS,West - 28,Köln II,9371,Schalke 04 II,9373,,,False
+1587650,2027-04-03T12:00:00+00:00,NS,West - 28,Wiedenbrück,12897,SG Wattenscheid 09,1629,,,False
+1587645,2027-04-03T12:00:00+00:00,NS,West - 28,FC Gutersloh,14485,FC Bocholt,12764,,,False
+1587649,2027-04-03T12:00:00+00:00,NS,West - 28,Westfalia Rhynern,14826,Bonner SC,1637,,,False
+1587643,2027-04-03T12:00:00+00:00,NS,West - 28,Bochum II,24430,Borussia M'gladbach II,9368,,,False
+1587658,2027-04-10T12:00:00+00:00,NS,West - 29,SG Wattenscheid 09,1629,Borussia Dortmund II,9367,,,False
+1587653,2027-04-10T12:00:00+00:00,NS,West - 29,Bonner SC,1637,Wiedenbrück,12897,,,False
+1587656,2027-04-10T12:00:00+00:00,NS,West - 29,SV Rodinghausen,1650,Bochum II,24430,,,False
+1587651,2027-04-10T12:00:00+00:00,NS,West - 29,Borussia M'gladbach II,9368,Köln II,9371,,,False
+1587657,2027-04-10T12:00:00+00:00,NS,West - 29,Schalke 04 II,9373,Bergisch Gladbach,9366,,,False
+1587652,2027-04-10T12:00:00+00:00,NS,West - 29,FC Bocholt,12764,Rot-weiss Oberhausen,1658,,,False
+1587654,2027-04-10T12:00:00+00:00,NS,West - 29,Hilden,12790,Westfalia Rhynern,14826,,,False
+1587655,2027-04-10T12:00:00+00:00,NS,West - 29,Paderborn II,12827,Sportfreunde Lotte,1323,,,False
+1587659,2027-04-10T12:00:00+00:00,NS,West - 29,Sportfreunde Siegen,13935,FC Gutersloh,14485,,,False
+1587666,2027-04-17T12:00:00+00:00,NS,West - 30,Sportfreunde Lotte,1323,FC Bocholt,12764,,,False
+1587667,2027-04-17T12:00:00+00:00,NS,West - 30,Rot-weiss Oberhausen,1658,Sportfreunde Siegen,13935,,,False
+1587660,2027-04-17T12:00:00+00:00,NS,West - 30,Bergisch Gladbach,9366,Borussia M'gladbach II,9368,,,False
+1587662,2027-04-17T12:00:00+00:00,NS,West - 30,Borussia Dortmund II,9367,Wiedenbrück,12897,,,False
+1587665,2027-04-17T12:00:00+00:00,NS,West - 30,Köln II,9371,SV Rodinghausen,1650,,,False
+1587664,2027-04-17T12:00:00+00:00,NS,West - 30,Hilden,12790,Bonner SC,1637,,,False
+1587663,2027-04-17T12:00:00+00:00,NS,West - 30,FC Gutersloh,14485,SG Wattenscheid 09,1629,,,False
+1587668,2027-04-17T12:00:00+00:00,NS,West - 30,Westfalia Rhynern,14826,Schalke 04 II,9373,,,False
+1587661,2027-04-17T12:00:00+00:00,NS,West - 30,Bochum II,24430,Paderborn II,12827,,,False
+1587675,2027-04-24T12:00:00+00:00,NS,West - 31,SG Wattenscheid 09,1629,Rot-weiss Oberhausen,1658,,,False
+1587671,2027-04-24T12:00:00+00:00,NS,West - 31,Bonner SC,1637,Borussia Dortmund II,9367,,,False
+1587673,2027-04-24T12:00:00+00:00,NS,West - 31,SV Rodinghausen,1650,Bergisch Gladbach,9366,,,False
+1587669,2027-04-24T12:00:00+00:00,NS,West - 31,Borussia M'gladbach II,9368,Westfalia Rhynern,14826,,,False
+1587674,2027-04-24T12:00:00+00:00,NS,West - 31,Schalke 04 II,9373,Hilden,12790,,,False
+1587670,2027-04-24T12:00:00+00:00,NS,West - 31,FC Bocholt,12764,Bochum II,24430,,,False
+1587672,2027-04-24T12:00:00+00:00,NS,West - 31,Paderborn II,12827,Köln II,9371,,,False
+1587677,2027-04-24T12:00:00+00:00,NS,West - 31,Wiedenbrück,12897,FC Gutersloh,14485,,,False
+1587676,2027-04-24T12:00:00+00:00,NS,West - 31,Sportfreunde Siegen,13935,Sportfreunde Lotte,1323,,,False
+1587683,2027-05-08T12:00:00+00:00,NS,West - 32,Sportfreunde Lotte,1323,SG Wattenscheid 09,1629,,,False
+1587684,2027-05-08T12:00:00+00:00,NS,West - 32,Rot-weiss Oberhausen,1658,Wiedenbrück,12897,,,False
+1587678,2027-05-08T12:00:00+00:00,NS,West - 32,Bergisch Gladbach,9366,Paderborn II,12827,,,False
+1587682,2027-05-08T12:00:00+00:00,NS,West - 32,Köln II,9371,FC Bocholt,12764,,,False
+1587685,2027-05-08T12:00:00+00:00,NS,West - 32,Schalke 04 II,9373,Bonner SC,1637,,,False
+1587681,2027-05-08T12:00:00+00:00,NS,West - 32,Hilden,12790,Borussia M'gladbach II,9368,,,False
+1587680,2027-05-08T12:00:00+00:00,NS,West - 32,FC Gutersloh,14485,Borussia Dortmund II,9367,,,False
+1587686,2027-05-08T12:00:00+00:00,NS,West - 32,Westfalia Rhynern,14826,SV Rodinghausen,1650,,,False
+1587679,2027-05-08T12:00:00+00:00,NS,West - 32,Bochum II,24430,Sportfreunde Siegen,13935,,,False
+1587693,2027-05-15T12:00:00+00:00,NS,West - 33,SG Wattenscheid 09,1629,Bochum II,24430,,,False
+1587692,2027-05-15T12:00:00+00:00,NS,West - 33,SV Rodinghausen,1650,Hilden,12790,,,False
+1587689,2027-05-15T12:00:00+00:00,NS,West - 33,Borussia Dortmund II,9367,Rot-weiss Oberhausen,1658,,,False
+1587687,2027-05-15T12:00:00+00:00,NS,West - 33,Borussia M'gladbach II,9368,Schalke 04 II,9373,,,False
+1587688,2027-05-15T12:00:00+00:00,NS,West - 33,FC Bocholt,12764,Bergisch Gladbach,9366,,,False
+1587691,2027-05-15T12:00:00+00:00,NS,West - 33,Paderborn II,12827,Westfalia Rhynern,14826,,,False
+1587695,2027-05-15T12:00:00+00:00,NS,West - 33,Wiedenbrück,12897,Sportfreunde Lotte,1323,,,False
+1587694,2027-05-15T12:00:00+00:00,NS,West - 33,Sportfreunde Siegen,13935,Köln II,9371,,,False
+1587690,2027-05-15T12:00:00+00:00,NS,West - 33,FC Gutersloh,14485,Bonner SC,1637,,,False
+1587701,2027-05-22T12:00:00+00:00,NS,West - 34,Sportfreunde Lotte,1323,Borussia Dortmund II,9367,,,False
+1587698,2027-05-22T12:00:00+00:00,NS,West - 34,Bonner SC,1637,Borussia M'gladbach II,9368,,,False
+1587702,2027-05-22T12:00:00+00:00,NS,West - 34,Rot-weiss Oberhausen,1658,FC Gutersloh,14485,,,False
+1587696,2027-05-22T12:00:00+00:00,NS,West - 34,Bergisch Gladbach,9366,Sportfreunde Siegen,13935,,,False
+1587700,2027-05-22T12:00:00+00:00,NS,West - 34,Köln II,9371,SG Wattenscheid 09,1629,,,False
+1587703,2027-05-22T12:00:00+00:00,NS,West - 34,Schalke 04 II,9373,SV Rodinghausen,1650,,,False
+1587699,2027-05-22T12:00:00+00:00,NS,West - 34,Hilden,12790,Paderborn II,12827,,,False
+1587704,2027-05-22T12:00:00+00:00,NS,West - 34,Westfalia Rhynern,14826,FC Bocholt,12764,,,False
+1587697,2027-05-22T12:00:00+00:00,NS,West - 34,Bochum II,24430,Wiedenbrück,12897,,,False

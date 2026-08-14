@@ -1,101 +1,245 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1213111,2025-02-28T16:00:00+00:00,FT,Dinamo Makhachkala,6813,Lokomotiv,597,1,1,True
-1213110,2025-03-01T11:00:00+00:00,FT,Nizhny Novgorod,2011,Akron,6786,2,1,True
-1213105,2025-03-01T13:30:00+00:00,FT,Zenit,596,CSKA Moscow,555,0,0,True
-1213109,2025-03-01T16:00:00+00:00,FT,Akhmat,1085,Rubin,1083,2,1,True
-1213108,2025-03-01T16:30:00+00:00,FT,FC Krasnodar,621,Krylia Sovetov,1079,1,1,True
-1213112,2025-03-02T11:00:00+00:00,FT,Khimki,1994,Fakel,1993,1,0,True
-1213106,2025-03-02T13:30:00+00:00,FT,Spartak Moscow,558,FC Orenburg,1080,2,0,True
-1213107,2025-03-02T16:30:00+00:00,FT,FC Rostov,779,Dynamo,1088,1,1,True
-1213119,2025-03-07T15:00:00+00:00,FT,Nizhny Novgorod,2011,FC Krasnodar,621,0,3,True
-1213116,2025-03-07T17:15:00+00:00,FT,Lokomotiv,597,Akhmat,1085,1,1,True
-1213120,2025-03-08T09:00:00+00:00,FT,FC Orenburg,1080,FC Rostov,779,1,2,True
-1213117,2025-03-08T11:30:00+00:00,FT,Fakel,1993,Zenit,596,0,2,True
-1213114,2025-03-08T14:00:00+00:00,FT,CSKA Moscow,555,Khimki,1994,1,0,True
-1213115,2025-03-08T16:30:00+00:00,FT,Dynamo,1088,Dinamo Makhachkala,6813,4,0,True
-1213113,2025-03-09T13:30:00+00:00,FT,Krylia Sovetov,1079,Akron,6786,0,2,True
-1213118,2025-03-09T16:30:00+00:00,FT,Rubin,1083,Spartak Moscow,558,2,1,True
-1213125,2025-03-15T09:00:00+00:00,FT,FC Orenburg,1080,Fakel,1993,1,0,True
-1213128,2025-03-15T11:30:00+00:00,FT,Khimki,1994,Akhmat,1085,1,1,True
-1213126,2025-03-15T14:00:00+00:00,FT,Dinamo Makhachkala,6813,Krylia Sovetov,1079,4,0,True
-1213123,2025-03-15T16:30:00+00:00,FT,Lokomotiv,597,Dynamo,1088,2,1,True
-1213127,2025-03-16T10:00:00+00:00,FT,Akron,6786,CSKA Moscow,555,1,2,True
-1213124,2025-03-16T12:15:00+00:00,FT,Rubin,1083,Nizhny Novgorod,2011,1,0,True
-1213122,2025-03-16T14:00:00+00:00,FT,FC Rostov,779,FC Krasnodar,621,0,1,True
-1213121,2025-03-16T16:45:00+00:00,FT,Spartak Moscow,558,Zenit,596,2,1,True
-1213131,2025-03-28T15:30:00+00:00,FT,Krylia Sovetov,1079,Lokomotiv,597,5,1,True
-1213133,2025-03-29T11:00:00+00:00,FT,Dynamo,1088,FC Orenburg,1080,5,1,True
-1213136,2025-03-29T13:30:00+00:00,FT,Khimki,1994,Nizhny Novgorod,2011,2,0,True
-1213132,2025-03-29T16:30:00+00:00,FT,CSKA Moscow,555,Dinamo Makhachkala,6813,2,0,True
-1213130,2025-03-30T11:00:00+00:00,FT,FC Krasnodar,621,Fakel,1993,5,0,True
-1213134,2025-03-30T13:30:00+00:00,FT,Akhmat,1085,Spartak Moscow,558,0,0,True
-1213129,2025-03-30T16:30:00+00:00,FT,Zenit,596,Rubin,1083,4,0,True
-1213135,2025-03-31T15:30:00+00:00,FT,Akron,6786,FC Rostov,779,2,3,True
-1213143,2025-04-04T16:00:00+00:00,FT,Nizhny Novgorod,2011,FC Orenburg,1080,1,2,True
-1213139,2025-04-05T10:00:00+00:00,FT,Krylia Sovetov,1079,Rubin,1083,1,1,True
-1213142,2025-04-05T12:15:00+00:00,FT,Fakel,1993,Akhmat,1085,0,0,True
-1213141,2025-04-05T14:30:00+00:00,FT,Lokomotiv,597,Zenit,596,1,1,True
-1213138,2025-04-05T16:45:00+00:00,FT,FC Krasnodar,621,Akron,6786,1,0,True
-1213144,2025-04-06T11:00:00+00:00,FT,Dinamo Makhachkala,6813,Khimki,1994,4,1,True
-1213137,2025-04-06T13:30:00+00:00,FT,FC Rostov,779,Spartak Moscow,558,0,3,True
-1213140,2025-04-06T16:30:00+00:00,FT,CSKA Moscow,555,Dynamo,1088,3,1,True
-1213146,2025-04-11T16:30:00+00:00,FT,Spartak Moscow,558,Dinamo Makhachkala,6813,1,2,True
-1213150,2025-04-12T09:00:00+00:00,FT,FC Orenburg,1080,CSKA Moscow,555,0,2,True
-1213149,2025-04-12T11:30:00+00:00,FT,Nizhny Novgorod,2011,Dynamo,1088,1,1,True
-1213148,2025-04-12T14:00:00+00:00,FT,Rubin,1083,Lokomotiv,597,1,0,True
-1213147,2025-04-12T16:30:00+00:00,FT,Akhmat,1085,FC Rostov,779,2,1,True
-1213151,2025-04-13T11:30:00+00:00,FT,Akron,6786,Fakel,1993,1,0,True
-1213145,2025-04-13T14:00:00+00:00,FT,Zenit,596,FC Krasnodar,621,4,1,True
-1213152,2025-04-13T16:30:00+00:00,FT,Khimki,1994,Krylia Sovetov,1079,1,3,True
-1213159,2025-04-19T09:00:00+00:00,FT,FC Orenburg,1080,Dinamo Makhachkala,6813,2,1,True
-1213160,2025-04-19T11:30:00+00:00,FT,Akron,6786,Spartak Moscow,558,2,3,True
-1213157,2025-04-19T14:00:00+00:00,FT,Lokomotiv,597,Nizhny Novgorod,2011,3,0,True
-1213154,2025-04-19T16:30:00+00:00,FT,FC Krasnodar,621,Akhmat,1085,3,1,True
-1213156,2025-04-20T11:00:00+00:00,FT,Dynamo,1088,Rubin,1083,3,1,True
-1213158,2025-04-20T11:00:00+00:00,FT,Fakel,1993,FC Rostov,779,0,2,True
-1213153,2025-04-20T13:30:00+00:00,FT,Zenit,596,Khimki,1994,1,0,True
-1213155,2025-04-20T16:30:00+00:00,FT,CSKA Moscow,555,Krylia Sovetov,1079,1,1,True
-1213167,2025-04-25T16:30:00+00:00,FT,Dinamo Makhachkala,6813,FC Krasnodar,621,2,3,True
-1213164,2025-04-26T11:00:00+00:00,FT,Dynamo,1088,Zenit,596,1,1,True
-1213166,2025-04-26T11:00:00+00:00,FT,Nizhny Novgorod,2011,Akhmat,1085,1,0,True
-1213162,2025-04-26T13:30:00+00:00,FT,FC Rostov,779,Lokomotiv,597,1,1,True
-1213161,2025-04-26T16:30:00+00:00,FT,Spartak Moscow,558,CSKA Moscow,555,1,2,True
-1213163,2025-04-27T11:00:00+00:00,FT,Krylia Sovetov,1079,FC Orenburg,1080,2,0,True
-1213168,2025-04-27T13:30:00+00:00,FT,Khimki,1994,Akron,6786,2,2,True
-1213165,2025-04-27T16:00:00+00:00,FT,Rubin,1083,Fakel,1993,2,1,True
-1213175,2025-05-02T15:00:00+00:00,FT,Akron,6786,Dinamo Makhachkala,6813,1,0,True
-1213173,2025-05-03T14:00:00+00:00,FT,Lokomotiv,597,FC Orenburg,1080,1,1,True
-1213171,2025-05-03T16:30:00+00:00,FT,FC Krasnodar,621,Rubin,1083,2,1,True
-1212997,2025-05-04T11:00:00+00:00,FT,Fakel,1993,Spartak Moscow,558,0,0,True
-1213174,2025-05-04T13:30:00+00:00,FT,Akhmat,1085,CSKA Moscow,555,1,1,True
-1213169,2025-05-04T16:30:00+00:00,FT,Zenit,596,Nizhny Novgorod,2011,2,1,True
-1213176,2025-05-04T16:30:00+00:00,FT,Khimki,1994,FC Rostov,779,1,1,True
-1213172,2025-05-05T15:30:00+00:00,FT,Krylia Sovetov,1079,Dynamo,1088,1,3,True
-1213182,2025-05-10T11:30:00+00:00,FT,FC Orenburg,1080,Khimki,1994,1,1,True
-1213183,2025-05-10T14:00:00+00:00,FT,Dinamo Makhachkala,6813,Zenit,596,0,1,True
-1213177,2025-05-10T16:30:00+00:00,FT,CSKA Moscow,555,FC Krasnodar,621,1,0,True
-1213184,2025-05-11T11:00:00+00:00,FT,Akron,6786,Akhmat,1085,3,2,True
-1213179,2025-05-11T13:30:00+00:00,FT,Fakel,1993,Lokomotiv,597,0,1,True
-1213180,2025-05-11T16:30:00+00:00,FT,Rubin,1083,FC Rostov,779,1,0,True
-1213178,2025-05-11T16:30:00+00:00,FT,Dynamo,1088,Spartak Moscow,558,2,0,True
-1213181,2025-05-12T16:00:00+00:00,FT,Nizhny Novgorod,2011,Krylia Sovetov,1079,5,2,True
-1213191,2025-05-17T11:00:00+00:00,FT,FC Orenburg,1080,FC Krasnodar,621,1,2,True
-1213192,2025-05-17T13:30:00+00:00,FT,Khimki,1994,Rubin,1083,3,2,True
-1213190,2025-05-17T16:00:00+00:00,FT,Nizhny Novgorod,2011,Fakel,1993,1,1,True
-1213186,2025-05-18T10:30:00+00:00,FT,Krylia Sovetov,1079,Spartak Moscow,558,0,2,True
-1213189,2025-05-18T11:00:00+00:00,FT,Akhmat,1085,Dinamo Makhachkala,6813,1,1,True
-1213187,2025-05-18T13:30:00+00:00,FT,Dynamo,1088,Akron,6786,2,1,True
-1213185,2025-05-18T16:00:00+00:00,FT,FC Rostov,779,Zenit,596,0,1,True
-1213188,2025-05-19T17:30:00+00:00,FT,Lokomotiv,597,CSKA Moscow,555,2,2,True
-1213196,2025-05-24T13:30:00+00:00,FT,CSKA Moscow,555,Nizhny Novgorod,2011,2,0,True
-1213194,2025-05-24T13:30:00+00:00,FT,Spartak Moscow,558,Khimki,1994,5,0,True
-1213193,2025-05-24T13:30:00+00:00,FT,Zenit,596,Akhmat,1085,3,0,True
-1213195,2025-05-24T13:30:00+00:00,FT,FC Krasnodar,621,Dynamo,1088,3,0,True
-1213198,2025-05-24T13:30:00+00:00,FT,Rubin,1083,FC Orenburg,1080,4,2,True
-1213197,2025-05-24T13:30:00+00:00,FT,Fakel,1993,Krylia Sovetov,1079,1,1,True
-1213200,2025-05-24T13:30:00+00:00,FT,Akron,6786,Lokomotiv,597,1,4,True
-1213199,2025-05-24T13:30:00+00:00,FT,Dinamo Makhachkala,6813,FC Rostov,779,1,1,True
-1376519,2025-05-28T14:00:00+00:00,FT,Ural,1084,Akhmat,1085,2,1,True
-1376521,2025-05-28T16:30:00+00:00,FT,FC Sochi,2012,Nizhny Novgorod,2011,1,2,True
-1376522,2025-05-31T14:00:00+00:00,FT,Nizhny Novgorod,2011,FC Sochi,2012,1,3,True
-1376520,2025-05-31T16:30:00+00:00,FT,Akhmat,1085,Ural,1084,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1212964,2024-07-20T12:00:00+00:00,FT,Regular Season - 1,Lokomotiv,597,Akron,6786,3,2,True
+1212962,2024-07-20T14:30:00+00:00,FT,Regular Season - 1,Krylia Sovetov,1079,Zenit,596,0,4,True
+1212961,2024-07-20T17:00:00+00:00,FT,Regular Season - 1,FC Rostov,779,CSKA Moscow,555,0,0,True
+1212963,2024-07-20T17:00:00+00:00,FT,Regular Season - 1,Dynamo,1088,Fakel,1993,3,1,True
+1212967,2024-07-21T14:30:00+00:00,FT,Regular Season - 1,FC Orenburg,1080,Spartak Moscow,558,2,0,True
+1212965,2024-07-21T17:00:00+00:00,FT,Regular Season - 1,Akhmat,1085,FC Krasnodar,621,1,1,True
+1212968,2024-07-21T17:00:00+00:00,FT,Regular Season - 1,Khimki,1994,Dinamo Makhachkala,6813,1,1,True
+1212966,2024-07-22T17:00:00+00:00,FT,Regular Season - 1,Nizhny Novgorod,2011,Rubin,1083,2,4,True
+1212970,2024-07-26T15:00:00+00:00,FT,Regular Season - 2,Krylia Sovetov,1079,FC Rostov,779,1,3,True
+1212974,2024-07-27T12:00:00+00:00,FT,Regular Season - 2,Nizhny Novgorod,2011,CSKA Moscow,555,0,3,True
+1212973,2024-07-27T14:30:00+00:00,FT,Regular Season - 2,Rubin,1083,Zenit,596,0,4,True
+1212971,2024-07-27T14:30:00+00:00,FT,Regular Season - 2,Dynamo,1088,Lokomotiv,597,3,1,True
+1212972,2024-07-27T17:00:00+00:00,FT,Regular Season - 2,Fakel,1993,Akron,6786,0,2,True
+1212976,2024-07-28T12:00:00+00:00,FT,Regular Season - 2,Khimki,1994,Spartak Moscow,558,1,3,True
+1212975,2024-07-28T14:30:00+00:00,FT,Regular Season - 2,FC Orenburg,1080,Akhmat,1085,0,0,True
+1212969,2024-07-28T17:00:00+00:00,FT,Regular Season - 2,FC Krasnodar,621,Dinamo Makhachkala,6813,0,0,True
+1212984,2024-08-03T12:00:00+00:00,FT,Regular Season - 3,Akron,6786,Dynamo,1088,0,2,True
+1212977,2024-08-03T14:30:00+00:00,FT,Regular Season - 3,Zenit,596,FC Rostov,779,5,0,True
+1212982,2024-08-03T17:00:00+00:00,FT,Regular Season - 3,Rubin,1083,Khimki,1994,2,3,True
+1212979,2024-08-04T12:30:00+00:00,FT,Regular Season - 3,CSKA Moscow,555,FC Orenburg,1080,5,1,True
+1212981,2024-08-04T14:30:00+00:00,FT,Regular Season - 3,Fakel,1993,FC Krasnodar,621,0,0,True
+1212980,2024-08-04T17:30:00+00:00,FT,Regular Season - 3,Akhmat,1085,Lokomotiv,597,0,5,True
+1212983,2024-08-04T17:30:00+00:00,FT,Regular Season - 3,Dinamo Makhachkala,6813,Nizhny Novgorod,2011,0,1,True
+1212978,2024-08-05T17:00:00+00:00,FT,Regular Season - 3,Spartak Moscow,558,Krylia Sovetov,1079,3,0,True
+1212991,2024-08-09T15:30:00+00:00,FT,Regular Season - 4,Nizhny Novgorod,2011,Khimki,1994,1,0,True
+1212987,2024-08-09T17:45:00+00:00,FT,Regular Season - 4,FC Rostov,779,Rubin,1083,1,1,True
+1212990,2024-08-10T12:00:00+00:00,FT,Regular Season - 4,Lokomotiv,597,Dinamo Makhachkala,6813,2,0,True
+1212985,2024-08-10T14:30:00+00:00,FT,Regular Season - 4,Zenit,596,Dynamo,1088,1,0,True
+1212992,2024-08-10T14:30:00+00:00,FT,Regular Season - 4,FC Orenburg,1080,Akron,6786,2,2,True
+1212988,2024-08-10T17:00:00+00:00,FT,Regular Season - 4,FC Krasnodar,621,CSKA Moscow,555,2,1,True
+1212989,2024-08-11T14:30:00+00:00,FT,Regular Season - 4,Krylia Sovetov,1079,Fakel,1993,2,0,True
+1212986,2024-08-11T17:00:00+00:00,FT,Regular Season - 4,Spartak Moscow,558,Akhmat,1085,0,0,True
+1212996,2024-08-17T14:00:00+00:00,FT,Regular Season - 5,Dynamo,1088,Krylia Sovetov,1079,1,0,True
+1212993,2024-08-17T16:30:00+00:00,FT,Regular Season - 5,FC Rostov,779,FC Orenburg,1080,3,2,True
+1213000,2024-08-18T12:00:00+00:00,FT,Regular Season - 5,Khimki,1994,Zenit,596,1,1,True
+1212995,2024-08-18T14:30:00+00:00,FT,Regular Season - 5,CSKA Moscow,555,Lokomotiv,597,0,1,True
+1213170,2024-08-18T14:30:00+00:00,FT,Regular Season - 5,Spartak Moscow,558,Fakel,1993,3,0,True
+1212994,2024-08-18T17:00:00+00:00,FT,Regular Season - 5,FC Krasnodar,621,Nizhny Novgorod,2011,2,1,True
+1212999,2024-08-19T14:30:00+00:00,FT,Regular Season - 5,Akron,6786,Rubin,1083,1,2,True
+1212998,2024-08-19T17:00:00+00:00,FT,Regular Season - 5,Dinamo Makhachkala,6813,Akhmat,1085,1,0,True
+1213008,2024-08-23T17:00:00+00:00,FT,Regular Season - 6,Rubin,1083,Dinamo Makhachkala,6813,2,0,True
+1213003,2024-08-24T12:00:00+00:00,FT,Regular Season - 6,CSKA Moscow,555,Akron,6786,4,0,True
+1213001,2024-08-24T14:30:00+00:00,FT,Regular Season - 6,Zenit,596,Spartak Moscow,558,0,0,True
+1213007,2024-08-24T14:30:00+00:00,FT,Regular Season - 6,Fakel,1993,FC Orenburg,1080,1,0,True
+1213006,2024-08-24T17:00:00+00:00,FT,Regular Season - 6,Akhmat,1085,Khimki,1994,3,3,True
+1213002,2024-08-25T12:00:00+00:00,FT,Regular Season - 6,Krylia Sovetov,1079,Nizhny Novgorod,2011,3,1,True
+1213004,2024-08-25T14:30:00+00:00,FT,Regular Season - 6,Dynamo,1088,FC Krasnodar,621,0,1,True
+1213005,2024-08-25T17:00:00+00:00,FT,Regular Season - 6,Lokomotiv,597,FC Rostov,779,3,2,True
+1213016,2024-08-31T12:00:00+00:00,FT,Regular Season - 7,Khimki,1994,CSKA Moscow,555,0,2,True
+1213014,2024-08-31T14:30:00+00:00,FT,Regular Season - 7,Nizhny Novgorod,2011,Zenit,596,0,3,True
+1213009,2024-08-31T16:45:00+00:00,FT,Regular Season - 7,Spartak Moscow,558,Rubin,1083,1,0,True
+1213013,2024-08-31T17:00:00+00:00,FT,Regular Season - 7,Akhmat,1085,Akron,6786,0,0,True
+1213015,2024-09-01T12:00:00+00:00,FT,Regular Season - 7,FC Orenburg,1080,Dynamo,1088,2,2,True
+1213011,2024-09-01T14:30:00+00:00,FT,Regular Season - 7,Krylia Sovetov,1079,Dinamo Makhachkala,6813,0,1,True
+1213012,2024-09-01T16:45:00+00:00,FT,Regular Season - 7,Lokomotiv,597,FC Krasnodar,621,0,3,True
+1213010,2024-09-01T17:00:00+00:00,FT,Regular Season - 7,FC Rostov,779,Fakel,1993,4,1,True
+1213021,2024-09-13T17:15:00+00:00,FT,Regular Season - 8,Rubin,1083,Krylia Sovetov,1079,0,2,True
+1213022,2024-09-14T09:00:00+00:00,FT,Regular Season - 8,FC Orenburg,1080,Lokomotiv,597,2,4,True
+1213020,2024-09-14T11:15:00+00:00,FT,Regular Season - 8,Fakel,1993,Nizhny Novgorod,2011,0,0,True
+1213018,2024-09-14T13:30:00+00:00,FT,Regular Season - 8,CSKA Moscow,555,Zenit,596,0,1,True
+1213017,2024-09-14T16:00:00+00:00,FT,Regular Season - 8,FC Krasnodar,621,FC Rostov,779,2,0,True
+1213019,2024-09-15T11:15:00+00:00,FT,Regular Season - 8,Dynamo,1088,Akhmat,1085,4,2,True
+1213024,2024-09-15T13:30:00+00:00,FT,Regular Season - 8,Akron,6786,Khimki,1994,3,0,True
+1213023,2024-09-15T16:00:00+00:00,FT,Regular Season - 8,Dinamo Makhachkala,6813,Spartak Moscow,558,1,1,True
+1213031,2024-09-21T11:00:00+00:00,FT,Regular Season - 9,Akron,6786,FC Krasnodar,621,2,5,True
+1213025,2024-09-21T13:30:00+00:00,FT,Regular Season - 9,Zenit,596,Fakel,1993,3,1,True
+1213029,2024-09-21T16:00:00+00:00,FT,Regular Season - 9,Rubin,1083,CSKA Moscow,555,1,1,True
+1213032,2024-09-22T11:15:00+00:00,FT,Regular Season - 9,Khimki,1994,FC Orenburg,1080,0,0,True
+1213026,2024-09-22T13:30:00+00:00,FT,Regular Season - 9,Spartak Moscow,558,Dynamo,1088,2,2,True
+1213027,2024-09-22T13:30:00+00:00,FT,Regular Season - 9,FC Rostov,779,Dinamo Makhachkala,6813,0,0,True
+1213030,2024-09-22T16:00:00+00:00,FT,Regular Season - 9,Nizhny Novgorod,2011,Lokomotiv,597,1,3,True
+1213028,2024-09-23T15:30:00+00:00,FT,Regular Season - 9,Akhmat,1085,Krylia Sovetov,1079,1,1,True
+1213039,2024-09-27T13:30:00+00:00,FT,Regular Season - 10,FC Orenburg,1080,Nizhny Novgorod,2011,1,2,True
+1213038,2024-09-27T16:00:00+00:00,FT,Regular Season - 10,Fakel,1993,Rubin,1083,0,0,True
+1213036,2024-09-28T11:00:00+00:00,FT,Regular Season - 10,CSKA Moscow,555,Akhmat,1085,3,0,True
+1213037,2024-09-28T13:30:00+00:00,FT,Regular Season - 10,Lokomotiv,597,Spartak Moscow,558,3,1,True
+1213034,2024-09-28T16:30:00+00:00,FT,Regular Season - 10,FC Krasnodar,621,Zenit,596,2,0,True
+1213033,2024-09-28T17:00:00+00:00,FT,Regular Season - 10,FC Rostov,779,Akron,6786,0,2,True
+1213035,2024-09-29T13:30:00+00:00,FT,Regular Season - 10,Krylia Sovetov,1079,Khimki,1994,0,0,True
+1213040,2024-09-29T16:00:00+00:00,FT,Regular Season - 10,Dinamo Makhachkala,6813,Dynamo,1088,0,1,True
+1213048,2024-10-05T11:00:00+00:00,FT,Regular Season - 11,Akron,6786,Nizhny Novgorod,2011,2,2,True
+1213041,2024-10-05T13:30:00+00:00,FT,Regular Season - 11,Zenit,596,FC Orenburg,1080,1,0,True
+1213042,2024-10-05T16:00:00+00:00,FT,Regular Season - 11,Spartak Moscow,558,FC Rostov,779,3,0,True
+1213047,2024-10-05T16:00:00+00:00,FT,Regular Season - 11,Rubin,1083,Akhmat,1085,2,0,True
+1213046,2024-10-06T11:00:00+00:00,FT,Regular Season - 11,Fakel,1993,Dinamo Makhachkala,6813,1,1,True
+1213045,2024-10-06T13:30:00+00:00,FT,Regular Season - 11,Lokomotiv,597,Krylia Sovetov,1079,1,0,True
+1213043,2024-10-06T16:00:00+00:00,FT,Regular Season - 11,FC Krasnodar,621,Khimki,1994,4,0,True
+1213044,2024-10-06T16:00:00+00:00,FT,Regular Season - 11,Dynamo,1088,CSKA Moscow,555,1,2,True
+1213055,2024-10-18T15:00:00+00:00,FT,Regular Season - 12,Akron,6786,Zenit,596,0,5,True
+1213050,2024-10-18T17:15:00+00:00,FT,Regular Season - 12,Akhmat,1085,Fakel,1993,2,3,True
+1213052,2024-10-19T11:00:00+00:00,FT,Regular Season - 12,Nizhny Novgorod,2011,FC Rostov,779,1,1,True
+1213049,2024-10-19T13:30:00+00:00,FT,Regular Season - 12,Spartak Moscow,558,FC Krasnodar,621,0,3,True
+1213056,2024-10-19T13:30:00+00:00,FT,Regular Season - 12,Khimki,1994,Lokomotiv,597,2,0,True
+1213054,2024-10-19T16:00:00+00:00,FT,Regular Season - 12,Dinamo Makhachkala,6813,CSKA Moscow,555,0,1,True
+1213053,2024-10-20T13:30:00+00:00,FT,Regular Season - 12,FC Orenburg,1080,Krylia Sovetov,1079,2,2,True
+1213051,2024-10-20T16:00:00+00:00,FT,Regular Season - 12,Rubin,1083,Dynamo,1088,0,4,True
+1213063,2024-10-26T11:00:00+00:00,FT,Regular Season - 13,Dinamo Makhachkala,6813,Akron,6786,1,1,True
+1213060,2024-10-26T13:30:00+00:00,FT,Regular Season - 13,CSKA Moscow,555,Fakel,1993,0,0,True
+1213058,2024-10-26T16:00:00+00:00,FT,Regular Season - 13,FC Rostov,779,Akhmat,1085,2,3,True
+1213062,2024-10-27T08:00:00+00:00,FT,Regular Season - 13,FC Orenburg,1080,Rubin,1083,1,2,True
+1213061,2024-10-27T10:15:00+00:00,FT,Regular Season - 13,Nizhny Novgorod,2011,Spartak Moscow,558,0,2,True
+1213064,2024-10-27T12:30:00+00:00,FT,Regular Season - 13,Khimki,1994,Dynamo,1088,3,4,True
+1213057,2024-10-27T15:30:00+00:00,FT,Regular Season - 13,Zenit,596,Lokomotiv,597,1,1,True
+1213059,2024-10-28T15:30:00+00:00,FT,Regular Season - 13,Krylia Sovetov,1079,FC Krasnodar,621,1,2,True
+1213068,2024-11-01T16:00:00+00:00,FT,Regular Season - 14,Dynamo,1088,FC Rostov,779,1,1,True
+1213065,2024-11-02T15:00:00+00:00,FT,Regular Season - 14,Zenit,596,Dinamo Makhachkala,6813,2,1,True
+1213069,2024-11-02T15:00:00+00:00,FT,Regular Season - 14,Lokomotiv,597,Rubin,1083,1,0,True
+1213067,2024-11-02T17:45:00+00:00,FT,Regular Season - 14,CSKA Moscow,555,Spartak Moscow,558,0,2,True
+1213072,2024-11-03T10:00:00+00:00,FT,Regular Season - 14,Akron,6786,Krylia Sovetov,1079,2,0,True
+1213070,2024-11-03T12:15:00+00:00,FT,Regular Season - 14,Akhmat,1085,Nizhny Novgorod,2011,0,2,True
+1213071,2024-11-03T14:30:00+00:00,FT,Regular Season - 14,Fakel,1993,Khimki,1994,1,1,True
+1213066,2024-11-03T16:45:00+00:00,FT,Regular Season - 14,FC Krasnodar,621,FC Orenburg,1080,4,0,True
+1213077,2024-11-09T11:00:00+00:00,FT,Regular Season - 15,Lokomotiv,597,Fakel,1993,2,1,True
+1213080,2024-11-09T13:30:00+00:00,FT,Regular Season - 15,Dinamo Makhachkala,6813,FC Orenburg,1080,2,1,True
+1213074,2024-11-09T16:00:00+00:00,FT,Regular Season - 15,FC Rostov,779,Khimki,1994,3,1,True
+1213076,2024-11-09T16:30:00+00:00,FT,Regular Season - 15,Dynamo,1088,Nizhny Novgorod,2011,3,1,True
+1213075,2024-11-10T10:00:00+00:00,FT,Regular Season - 15,Krylia Sovetov,1079,CSKA Moscow,555,1,2,True
+1213073,2024-11-10T12:15:00+00:00,FT,Regular Season - 15,Spartak Moscow,558,Akron,6786,4,0,True
+1213078,2024-11-10T14:30:00+00:00,FT,Regular Season - 15,Akhmat,1085,Zenit,596,1,2,True
+1213079,2024-11-10T16:45:00+00:00,FT,Regular Season - 15,Rubin,1083,FC Krasnodar,621,1,1,True
+1213085,2024-11-22T16:00:00+00:00,FT,Regular Season - 16,Rubin,1083,Akron,6786,3,0,True
+1213087,2024-11-23T09:00:00+00:00,FT,Regular Season - 16,FC Orenburg,1080,Zenit,596,0,1,True
+1213083,2024-11-23T11:15:00+00:00,FT,Regular Season - 16,CSKA Moscow,555,FC Rostov,779,1,2,True
+1213088,2024-11-23T13:30:00+00:00,FT,Regular Season - 16,Khimki,1994,FC Krasnodar,621,2,2,True
+1213081,2024-11-23T15:00:00+00:00,FT,Regular Season - 16,Spartak Moscow,558,Lokomotiv,597,5,2,True
+1213082,2024-11-24T11:00:00+00:00,FT,Regular Season - 16,Krylia Sovetov,1079,Akhmat,1085,2,1,True
+1213084,2024-11-24T13:30:00+00:00,FT,Regular Season - 16,Fakel,1993,Dynamo,1088,1,1,True
+1213086,2024-11-24T16:00:00+00:00,FT,Regular Season - 16,Nizhny Novgorod,2011,Dinamo Makhachkala,6813,0,0,True
+1213096,2024-11-30T11:00:00+00:00,FT,Regular Season - 17,Akron,6786,FC Orenburg,1080,1,0,True
+1213092,2024-11-30T13:30:00+00:00,FT,Regular Season - 17,CSKA Moscow,555,Rubin,1083,2,2,True
+1213090,2024-11-30T16:00:00+00:00,FT,Regular Season - 17,FC Rostov,779,Nizhny Novgorod,2011,4,0,True
+1213093,2024-12-01T11:00:00+00:00,FT,Regular Season - 17,Lokomotiv,597,Khimki,1994,1,3,True
+1213089,2024-12-01T13:30:00+00:00,FT,Regular Season - 17,Zenit,596,Krylia Sovetov,1079,2,3,True
+1213095,2024-12-01T16:00:00+00:00,FT,Regular Season - 17,Dinamo Makhachkala,6813,Fakel,1993,0,0,True
+1213091,2024-12-01T16:30:00+00:00,FT,Regular Season - 17,FC Krasnodar,621,Spartak Moscow,558,0,3,True
+1213094,2024-12-02T16:00:00+00:00,FT,Regular Season - 17,Akhmat,1085,Dynamo,1088,1,1,True
+1213098,2024-12-07T11:00:00+00:00,FT,Regular Season - 18,Spartak Moscow,558,Nizhny Novgorod,2011,3,0,True
+1213097,2024-12-07T13:30:00+00:00,FT,Regular Season - 18,Zenit,596,Akron,6786,1,2,True
+1213099,2024-12-07T13:30:00+00:00,FT,Regular Season - 18,FC Rostov,779,Krylia Sovetov,1079,3,1,True
+1213104,2024-12-07T16:00:00+00:00,FT,Regular Season - 18,Dinamo Makhachkala,6813,Rubin,1083,2,3,True
+1213101,2024-12-08T11:00:00+00:00,FT,Regular Season - 18,Dynamo,1088,Khimki,1994,4,1,True
+1213103,2024-12-08T13:30:00+00:00,FT,Regular Season - 18,Fakel,1993,CSKA Moscow,555,0,1,True
+1213102,2024-12-08T16:00:00+00:00,FT,Regular Season - 18,Akhmat,1085,FC Orenburg,1080,1,0,True
+1213100,2024-12-08T16:30:00+00:00,FT,Regular Season - 18,FC Krasnodar,621,Lokomotiv,597,0,0,True
+1213111,2025-02-28T16:00:00+00:00,FT,Regular Season - 19,Dinamo Makhachkala,6813,Lokomotiv,597,1,1,True
+1213110,2025-03-01T11:00:00+00:00,FT,Regular Season - 19,Nizhny Novgorod,2011,Akron,6786,2,1,True
+1213105,2025-03-01T13:30:00+00:00,FT,Regular Season - 19,Zenit,596,CSKA Moscow,555,0,0,True
+1213109,2025-03-01T16:00:00+00:00,FT,Regular Season - 19,Akhmat,1085,Rubin,1083,2,1,True
+1213108,2025-03-01T16:30:00+00:00,FT,Regular Season - 19,FC Krasnodar,621,Krylia Sovetov,1079,1,1,True
+1213112,2025-03-02T11:00:00+00:00,FT,Regular Season - 19,Khimki,1994,Fakel,1993,1,0,True
+1213106,2025-03-02T13:30:00+00:00,FT,Regular Season - 19,Spartak Moscow,558,FC Orenburg,1080,2,0,True
+1213107,2025-03-02T16:30:00+00:00,FT,Regular Season - 19,FC Rostov,779,Dynamo,1088,1,1,True
+1213119,2025-03-07T15:00:00+00:00,FT,Regular Season - 20,Nizhny Novgorod,2011,FC Krasnodar,621,0,3,True
+1213116,2025-03-07T17:15:00+00:00,FT,Regular Season - 20,Lokomotiv,597,Akhmat,1085,1,1,True
+1213120,2025-03-08T09:00:00+00:00,FT,Regular Season - 20,FC Orenburg,1080,FC Rostov,779,1,2,True
+1213117,2025-03-08T11:30:00+00:00,FT,Regular Season - 20,Fakel,1993,Zenit,596,0,2,True
+1213114,2025-03-08T14:00:00+00:00,FT,Regular Season - 20,CSKA Moscow,555,Khimki,1994,1,0,True
+1213115,2025-03-08T16:30:00+00:00,FT,Regular Season - 20,Dynamo,1088,Dinamo Makhachkala,6813,4,0,True
+1213113,2025-03-09T13:30:00+00:00,FT,Regular Season - 20,Krylia Sovetov,1079,Akron,6786,0,2,True
+1213118,2025-03-09T16:30:00+00:00,FT,Regular Season - 20,Rubin,1083,Spartak Moscow,558,2,1,True
+1213125,2025-03-15T09:00:00+00:00,FT,Regular Season - 21,FC Orenburg,1080,Fakel,1993,1,0,True
+1213128,2025-03-15T11:30:00+00:00,FT,Regular Season - 21,Khimki,1994,Akhmat,1085,1,1,True
+1213126,2025-03-15T14:00:00+00:00,FT,Regular Season - 21,Dinamo Makhachkala,6813,Krylia Sovetov,1079,4,0,True
+1213123,2025-03-15T16:30:00+00:00,FT,Regular Season - 21,Lokomotiv,597,Dynamo,1088,2,1,True
+1213127,2025-03-16T10:00:00+00:00,FT,Regular Season - 21,Akron,6786,CSKA Moscow,555,1,2,True
+1213124,2025-03-16T12:15:00+00:00,FT,Regular Season - 21,Rubin,1083,Nizhny Novgorod,2011,1,0,True
+1213122,2025-03-16T14:00:00+00:00,FT,Regular Season - 21,FC Rostov,779,FC Krasnodar,621,0,1,True
+1213121,2025-03-16T16:45:00+00:00,FT,Regular Season - 21,Spartak Moscow,558,Zenit,596,2,1,True
+1213131,2025-03-28T15:30:00+00:00,FT,Regular Season - 22,Krylia Sovetov,1079,Lokomotiv,597,5,1,True
+1213133,2025-03-29T11:00:00+00:00,FT,Regular Season - 22,Dynamo,1088,FC Orenburg,1080,5,1,True
+1213136,2025-03-29T13:30:00+00:00,FT,Regular Season - 22,Khimki,1994,Nizhny Novgorod,2011,2,0,True
+1213132,2025-03-29T16:30:00+00:00,FT,Regular Season - 22,CSKA Moscow,555,Dinamo Makhachkala,6813,2,0,True
+1213130,2025-03-30T11:00:00+00:00,FT,Regular Season - 22,FC Krasnodar,621,Fakel,1993,5,0,True
+1213134,2025-03-30T13:30:00+00:00,FT,Regular Season - 22,Akhmat,1085,Spartak Moscow,558,0,0,True
+1213129,2025-03-30T16:30:00+00:00,FT,Regular Season - 22,Zenit,596,Rubin,1083,4,0,True
+1213135,2025-03-31T15:30:00+00:00,FT,Regular Season - 22,Akron,6786,FC Rostov,779,2,3,True
+1213143,2025-04-04T16:00:00+00:00,FT,Regular Season - 23,Nizhny Novgorod,2011,FC Orenburg,1080,1,2,True
+1213139,2025-04-05T10:00:00+00:00,FT,Regular Season - 23,Krylia Sovetov,1079,Rubin,1083,1,1,True
+1213142,2025-04-05T12:15:00+00:00,FT,Regular Season - 23,Fakel,1993,Akhmat,1085,0,0,True
+1213141,2025-04-05T14:30:00+00:00,FT,Regular Season - 23,Lokomotiv,597,Zenit,596,1,1,True
+1213138,2025-04-05T16:45:00+00:00,FT,Regular Season - 23,FC Krasnodar,621,Akron,6786,1,0,True
+1213144,2025-04-06T11:00:00+00:00,FT,Regular Season - 23,Dinamo Makhachkala,6813,Khimki,1994,4,1,True
+1213137,2025-04-06T13:30:00+00:00,FT,Regular Season - 23,FC Rostov,779,Spartak Moscow,558,0,3,True
+1213140,2025-04-06T16:30:00+00:00,FT,Regular Season - 23,CSKA Moscow,555,Dynamo,1088,3,1,True
+1213146,2025-04-11T16:30:00+00:00,FT,Regular Season - 24,Spartak Moscow,558,Dinamo Makhachkala,6813,1,2,True
+1213150,2025-04-12T09:00:00+00:00,FT,Regular Season - 24,FC Orenburg,1080,CSKA Moscow,555,0,2,True
+1213149,2025-04-12T11:30:00+00:00,FT,Regular Season - 24,Nizhny Novgorod,2011,Dynamo,1088,1,1,True
+1213148,2025-04-12T14:00:00+00:00,FT,Regular Season - 24,Rubin,1083,Lokomotiv,597,1,0,True
+1213147,2025-04-12T16:30:00+00:00,FT,Regular Season - 24,Akhmat,1085,FC Rostov,779,2,1,True
+1213151,2025-04-13T11:30:00+00:00,FT,Regular Season - 24,Akron,6786,Fakel,1993,1,0,True
+1213145,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,Zenit,596,FC Krasnodar,621,4,1,True
+1213152,2025-04-13T16:30:00+00:00,FT,Regular Season - 24,Khimki,1994,Krylia Sovetov,1079,1,3,True
+1213159,2025-04-19T09:00:00+00:00,FT,Regular Season - 25,FC Orenburg,1080,Dinamo Makhachkala,6813,2,1,True
+1213160,2025-04-19T11:30:00+00:00,FT,Regular Season - 25,Akron,6786,Spartak Moscow,558,2,3,True
+1213157,2025-04-19T14:00:00+00:00,FT,Regular Season - 25,Lokomotiv,597,Nizhny Novgorod,2011,3,0,True
+1213154,2025-04-19T16:30:00+00:00,FT,Regular Season - 25,FC Krasnodar,621,Akhmat,1085,3,1,True
+1213156,2025-04-20T11:00:00+00:00,FT,Regular Season - 25,Dynamo,1088,Rubin,1083,3,1,True
+1213158,2025-04-20T11:00:00+00:00,FT,Regular Season - 25,Fakel,1993,FC Rostov,779,0,2,True
+1213153,2025-04-20T13:30:00+00:00,FT,Regular Season - 25,Zenit,596,Khimki,1994,1,0,True
+1213155,2025-04-20T16:30:00+00:00,FT,Regular Season - 25,CSKA Moscow,555,Krylia Sovetov,1079,1,1,True
+1213167,2025-04-25T16:30:00+00:00,FT,Regular Season - 26,Dinamo Makhachkala,6813,FC Krasnodar,621,2,3,True
+1213164,2025-04-26T11:00:00+00:00,FT,Regular Season - 26,Dynamo,1088,Zenit,596,1,1,True
+1213166,2025-04-26T11:00:00+00:00,FT,Regular Season - 26,Nizhny Novgorod,2011,Akhmat,1085,1,0,True
+1213162,2025-04-26T13:30:00+00:00,FT,Regular Season - 26,FC Rostov,779,Lokomotiv,597,1,1,True
+1213161,2025-04-26T16:30:00+00:00,FT,Regular Season - 26,Spartak Moscow,558,CSKA Moscow,555,1,2,True
+1213163,2025-04-27T11:00:00+00:00,FT,Regular Season - 26,Krylia Sovetov,1079,FC Orenburg,1080,2,0,True
+1213168,2025-04-27T13:30:00+00:00,FT,Regular Season - 26,Khimki,1994,Akron,6786,2,2,True
+1213165,2025-04-27T16:00:00+00:00,FT,Regular Season - 26,Rubin,1083,Fakel,1993,2,1,True
+1213175,2025-05-02T15:00:00+00:00,FT,Regular Season - 27,Akron,6786,Dinamo Makhachkala,6813,1,0,True
+1213173,2025-05-03T14:00:00+00:00,FT,Regular Season - 27,Lokomotiv,597,FC Orenburg,1080,1,1,True
+1213171,2025-05-03T16:30:00+00:00,FT,Regular Season - 27,FC Krasnodar,621,Rubin,1083,2,1,True
+1212997,2025-05-04T11:00:00+00:00,FT,Regular Season - 27,Fakel,1993,Spartak Moscow,558,0,0,True
+1213174,2025-05-04T13:30:00+00:00,FT,Regular Season - 27,Akhmat,1085,CSKA Moscow,555,1,1,True
+1213169,2025-05-04T16:30:00+00:00,FT,Regular Season - 27,Zenit,596,Nizhny Novgorod,2011,2,1,True
+1213176,2025-05-04T16:30:00+00:00,FT,Regular Season - 27,Khimki,1994,FC Rostov,779,1,1,True
+1213172,2025-05-05T15:30:00+00:00,FT,Regular Season - 27,Krylia Sovetov,1079,Dynamo,1088,1,3,True
+1213182,2025-05-10T11:30:00+00:00,FT,Regular Season - 28,FC Orenburg,1080,Khimki,1994,1,1,True
+1213183,2025-05-10T14:00:00+00:00,FT,Regular Season - 28,Dinamo Makhachkala,6813,Zenit,596,0,1,True
+1213177,2025-05-10T16:30:00+00:00,FT,Regular Season - 28,CSKA Moscow,555,FC Krasnodar,621,1,0,True
+1213184,2025-05-11T11:00:00+00:00,FT,Regular Season - 28,Akron,6786,Akhmat,1085,3,2,True
+1213179,2025-05-11T13:30:00+00:00,FT,Regular Season - 28,Fakel,1993,Lokomotiv,597,0,1,True
+1213180,2025-05-11T16:30:00+00:00,FT,Regular Season - 28,Rubin,1083,FC Rostov,779,1,0,True
+1213178,2025-05-11T16:30:00+00:00,FT,Regular Season - 28,Dynamo,1088,Spartak Moscow,558,2,0,True
+1213181,2025-05-12T16:00:00+00:00,FT,Regular Season - 28,Nizhny Novgorod,2011,Krylia Sovetov,1079,5,2,True
+1213191,2025-05-17T11:00:00+00:00,FT,Regular Season - 29,FC Orenburg,1080,FC Krasnodar,621,1,2,True
+1213192,2025-05-17T13:30:00+00:00,FT,Regular Season - 29,Khimki,1994,Rubin,1083,3,2,True
+1213190,2025-05-17T16:00:00+00:00,FT,Regular Season - 29,Nizhny Novgorod,2011,Fakel,1993,1,1,True
+1213186,2025-05-18T10:30:00+00:00,FT,Regular Season - 29,Krylia Sovetov,1079,Spartak Moscow,558,0,2,True
+1213189,2025-05-18T11:00:00+00:00,FT,Regular Season - 29,Akhmat,1085,Dinamo Makhachkala,6813,1,1,True
+1213187,2025-05-18T13:30:00+00:00,FT,Regular Season - 29,Dynamo,1088,Akron,6786,2,1,True
+1213185,2025-05-18T16:00:00+00:00,FT,Regular Season - 29,FC Rostov,779,Zenit,596,0,1,True
+1213188,2025-05-19T17:30:00+00:00,FT,Regular Season - 29,Lokomotiv,597,CSKA Moscow,555,2,2,True
+1213196,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,CSKA Moscow,555,Nizhny Novgorod,2011,2,0,True
+1213194,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,Spartak Moscow,558,Khimki,1994,5,0,True
+1213193,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,Zenit,596,Akhmat,1085,3,0,True
+1213195,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,FC Krasnodar,621,Dynamo,1088,3,0,True
+1213198,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,Rubin,1083,FC Orenburg,1080,4,2,True
+1213197,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,Fakel,1993,Krylia Sovetov,1079,1,1,True
+1213200,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,Akron,6786,Lokomotiv,597,1,4,True
+1213199,2025-05-24T13:30:00+00:00,FT,Regular Season - 30,Dinamo Makhachkala,6813,FC Rostov,779,1,1,True
+1376519,2025-05-28T14:00:00+00:00,FT,Relegation Round,Ural,1084,Akhmat,1085,2,1,True
+1376521,2025-05-28T16:30:00+00:00,FT,Relegation Round,FC Sochi,2012,Nizhny Novgorod,2011,1,2,True
+1376522,2025-05-31T14:00:00+00:00,FT,Relegation Round,Nizhny Novgorod,2011,FC Sochi,2012,1,3,True
+1376520,2025-05-31T16:30:00+00:00,FT,Relegation Round,Akhmat,1085,Ural,1084,2,0,True

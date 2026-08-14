@@ -1,79 +1,79 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1515131,2026-03-17T22:30:00+00:00,FT,Richmond Kickers,4024,Evergreen,4049,2,0,True
-1515133,2026-03-17T23:00:00+00:00,FT,Vermont Green,18912,Portland Hearts of Pine,25486,1,0,True
-1515132,2026-03-17T23:00:00+00:00,FT,Rhode Island,22855,Faialense,25688,4,0,True
-1515136,2026-03-17T23:30:00+00:00,FT,West Chester United,9037,Loudoun United,3999,1,2,True
-1515134,2026-03-17T23:30:00+00:00,FT,Detroit City,9043,Michigan Rangers,23999,5,1,True
-1515137,2026-03-18T00:00:00+00:00,FT,Colorado Springs,3992,Azteca,9039,3,0,True
-1515138,2026-03-18T00:00:00+00:00,FT,Indy Eleven,3996,Des Moines Menace,4047,3,0,True
-1515139,2026-03-18T02:00:00+00:00,FT,Phoenix Rising,4009,San Ramon,24028,4,0,True
-1515140,2026-03-18T22:00:00+00:00,FT,Chattanooga,9073,Kalonji,27440,2,1,True
-1515142,2026-03-18T22:30:00+00:00,FT,Charleston Battery,3990,Florida Badgers,27439,2,1,True
-1515141,2026-03-18T22:30:00+00:00,FT,Asheville City,10094,Greenville Triumph,9026,3,1,True
-1515144,2026-03-18T23:00:00+00:00,FT,Louisville City,4000,Southern Indiana,25694,2,0,True
-1515145,2026-03-18T23:00:00+00:00,FT,FC Motown,9022,Hartford Athletic,3995,0,2,True
-1515143,2026-03-18T23:00:00+00:00,FT,Naples,25485,Red Force,9060,3,0,True
-1515146,2026-03-18T23:30:00+00:00,FT,Vistula,27443,One Knoxville,18905,1,3,True
-1515148,2026-03-19T00:00:00+00:00,FT,Little Rock Rangers,9029,FC Tulsa,4022,2,4,True
-1515147,2026-03-19T00:00:00+00:00,FT,BOHFS St. Louis,27438,Union Omaha,10283,0,8,True
-1515149,2026-03-19T00:30:00+00:00,FT,San Antonio,4017,New Stars,17733,6,0,True
-1515150,2026-03-19T01:30:00+00:00,FT,New Mexico United,4003,Cruizers,25874,3,2,True
-1515151,2026-03-19T02:00:00+00:00,AET,Sacramento Republic,4015,El Farolito,9019,2,0,False
-1515153,2026-03-19T02:30:00+00:00,FT,Orange County SC,4007,Laguna United,25690,3,0,True
-1515154,2026-03-19T02:30:00+00:00,FT,Ventura County Fusion,4093,Spokane Velocity,22785,1,2,True
-1515152,2026-03-19T02:30:00+00:00,FT,Alta,25838,Valley 559 FC,27442,0,1,True
-1515155,2026-03-19T22:00:00+00:00,FT,Carolina Core,23063,Virginia Dream,24016,1,2,True
-1515156,2026-03-19T22:30:00+00:00,FT,Charlotte Independence,3991,Ristozi,25881,4,1,True
-1515157,2026-03-19T22:30:00+00:00,FT,Flint City Bucks,4052,Forward Madison,9025,2,0,True
-1515158,2026-03-19T23:00:00+00:00,FT,Lexington,20808,Flower City Union,18470,9,0,True
-1515159,2026-03-19T23:30:00+00:00,FT,Westchester SC,25488,NY Renegades,25691,2,0,True
-1515161,2026-03-20T00:30:00+00:00,FT,Laredo Heat,9028,El Paso Locomotive,3993,0,2,True
-1515160,2026-03-20T01:15:00+00:00,FT,Tennessee Tempo,27441,Chattanooga Red Wolves,9016,1,0,True
-1515135,2026-03-25T23:00:00+00:00,FT,Pittsburgh Riverhounds,4010,Steel City,23227,2,1,True
-1536067,2026-03-31T23:00:00+00:00,FT,Indy Eleven,3996,Union Omaha,10283,1,2,True
-1537387,2026-03-31T23:00:00+00:00,FT,Pittsburgh Riverhounds,4010,Virginia Dream,24016,2,0,True
-1536065,2026-03-31T23:00:00+00:00,PEN,Asheville City,10094,One Knoxville,18905,1,1,False
-1536066,2026-03-31T23:00:00+00:00,FT,Naples,25485,America CFL Spurs,23215,3,0,True
-1536068,2026-03-31T23:30:00+00:00,AET,Charlotte Independence,3991,Charleston Battery,3990,3,2,False
-1536069,2026-04-01T02:00:00+00:00,FT,Valley 559 FC,27442,Sacramento Republic,4015,0,4,True
-1536070,2026-04-01T22:00:00+00:00,FT,Chattanooga,9073,Tennessee Tempo,27441,1,0,True
-1536071,2026-04-01T22:30:00+00:00,FT,Richmond Kickers,4024,Loudoun United,3999,1,0,True
-1536074,2026-04-01T23:00:00+00:00,PEN,Vermont Green,18912,Westchester SC,25488,0,0,False
-1536072,2026-04-01T23:00:00+00:00,FT,Lexington,20808,Louisville City,4000,0,2,True
-1536073,2026-04-01T23:00:00+00:00,FT,Rhode Island,22855,Hartford Athletic,3995,2,0,True
-1536075,2026-04-01T23:30:00+00:00,FT,Flint City Bucks,4052,Detroit City,9043,0,1,True
-1536076,2026-04-02T00:00:00+00:00,PEN,Colorado Springs,3992,Spokane Velocity,22785,1,1,False
-1536077,2026-04-02T00:30:00+00:00,AET,San Antonio,4017,FC Tulsa,4022,0,1,False
-1536078,2026-04-02T01:30:00+00:00,FT,New Mexico United,4003,El Paso Locomotive,3993,0,4,True
-1536079,2026-04-02T02:00:00+00:00,AET,Orange County SC,4007,Phoenix Rising,4009,1,2,False
-1539394,2026-04-14T23:00:00+00:00,PEN,New England Revolution,1609,Rhode Island,22855,1,1,False
-1539393,2026-04-14T23:00:00+00:00,FT,Louisville City,4000,Austin,16489,2,1,True
-1539395,2026-04-14T23:30:00+00:00,FT,Detroit City,9043,Chicago Fire,1607,1,2,True
-1539396,2026-04-14T23:30:00+00:00,FT,Westchester SC,25488,New York City FC,1604,2,5,True
-1539397,2026-04-15T00:00:00+00:00,FT,Colorado Springs,3992,Sporting Kansas City,1611,3,0,True
-1539398,2026-04-15T01:30:00+00:00,FT,Colorado Rapids,1610,Union Omaha,10283,1,0,True
-1539399,2026-04-15T02:00:00+00:00,PEN,Sacramento Republic,4015,Minnesota United FC,1612,0,0,False
-1539400,2026-04-15T23:00:00+00:00,FT,Naples,25485,Orlando City SC,1598,0,1,True
-1539404,2026-04-15T23:30:00+00:00,FT,New York Red Bulls,1602,Pittsburgh Riverhounds,4010,3,1,True
-1539403,2026-04-15T23:30:00+00:00,PEN,DC United,1615,One Knoxville,18905,2,2,False
-1539405,2026-04-15T23:30:00+00:00,FT,Richmond Kickers,4024,Columbus Crew,1613,0,3,True
-1539402,2026-04-15T23:30:00+00:00,FT,Chattanooga,9073,Atlanta United FC,1608,1,3,True
-1539401,2026-04-15T23:30:00+00:00,FT,Charlotte,18310,Charlotte Independence,3991,6,0,True
-1539406,2026-04-16T00:00:00+00:00,FT,Houston Dynamo,1600,El Paso Locomotive,3993,4,1,True
-1539407,2026-04-16T00:00:00+00:00,FT,St. Louis City,20787,FC Tulsa,4022,4,0,True
-1539408,2026-04-16T02:00:00+00:00,FT,San Jose Earthquakes,1596,Phoenix Rising,4009,2,0,True
-1540849,2026-04-28T23:00:00+00:00,FT,Charlotte,18310,Atlanta United FC,1608,0,2,True
-1540855,2026-04-29T02:00:00+00:00,FT,San Jose Earthquakes,1596,Minnesota United FC,1612,4,2,True
-1540854,2026-04-29T23:00:00+00:00,FT,New York Red Bulls,1602,New York City FC,1604,1,3,True
-1540853,2026-04-29T23:30:00+00:00,FT,New England Revolution,1609,Orlando City SC,1598,3,4,True
-1540851,2026-04-29T23:30:00+00:00,FT,Columbus Crew,1613,One Knoxville,18905,4,1,True
-1540852,2026-04-30T00:00:00+00:00,AET,Houston Dynamo,1600,Louisville City,4000,2,1,False
-1540850,2026-04-30T00:00:00+00:00,FT,Chicago Fire,1607,St. Louis City,20787,1,2,True
-1540776,2026-04-30T01:00:00+00:00,PEN,Colorado Rapids,1610,Colorado Springs,3992,1,1,False
-1543866,2026-05-19T23:30:00+00:00,FT,Orlando City SC,1598,Atlanta United FC,1608,4,1,True
-1543867,2026-05-20T00:00:00+00:00,PEN,St. Louis City,20787,Houston Dynamo,1600,2,2,False
-1543868,2026-05-20T23:30:00+00:00,FT,Columbus Crew,1613,New York City FC,1604,1,0,True
-1543869,2026-05-21T02:00:00+00:00,FT,Colorado Rapids,1610,San Jose Earthquakes,1596,2,0,True
-1545812,2026-09-16T20:00:00+00:00,NS,Orlando City SC,1598,Columbus Crew,1613,,,False
-1545813,2026-09-16T20:00:00+00:00,NS,St. Louis City,20787,Colorado Rapids,1610,,,False
-1515130,2026-03-17T22:00:00+00:00,WO,Tormenta,4108,America CFL Spurs,23215,0,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1515131,2026-03-17T22:30:00+00:00,FT,Round of 128,Richmond Kickers,4024,Evergreen,4049,2,0,True
+1515133,2026-03-17T23:00:00+00:00,FT,Round of 128,Vermont Green,18912,Portland Hearts of Pine,25486,1,0,True
+1515132,2026-03-17T23:00:00+00:00,FT,Round of 128,Rhode Island,22855,Faialense,25688,4,0,True
+1515136,2026-03-17T23:30:00+00:00,FT,Round of 128,West Chester United,9037,Loudoun United,3999,1,2,True
+1515134,2026-03-17T23:30:00+00:00,FT,Round of 128,Detroit City,9043,Michigan Rangers,23999,5,1,True
+1515137,2026-03-18T00:00:00+00:00,FT,Round of 128,Colorado Springs,3992,Azteca,9039,3,0,True
+1515138,2026-03-18T00:00:00+00:00,FT,Round of 128,Indy Eleven,3996,Des Moines Menace,4047,3,0,True
+1515139,2026-03-18T02:00:00+00:00,FT,Round of 128,Phoenix Rising,4009,San Ramon,24028,4,0,True
+1515140,2026-03-18T22:00:00+00:00,FT,Round of 128,Chattanooga,9073,Kalonji,27440,2,1,True
+1515142,2026-03-18T22:30:00+00:00,FT,Round of 128,Charleston Battery,3990,Florida Badgers,27439,2,1,True
+1515141,2026-03-18T22:30:00+00:00,FT,Round of 128,Asheville City,10094,Greenville Triumph,9026,3,1,True
+1515144,2026-03-18T23:00:00+00:00,FT,Round of 128,Louisville City,4000,Southern Indiana,25694,2,0,True
+1515145,2026-03-18T23:00:00+00:00,FT,Round of 128,FC Motown,9022,Hartford Athletic,3995,0,2,True
+1515143,2026-03-18T23:00:00+00:00,FT,Round of 128,Naples,25485,Red Force,9060,3,0,True
+1515146,2026-03-18T23:30:00+00:00,FT,Round of 128,Vistula,27443,One Knoxville,18905,1,3,True
+1515148,2026-03-19T00:00:00+00:00,FT,Round of 128,Little Rock Rangers,9029,FC Tulsa,4022,2,4,True
+1515147,2026-03-19T00:00:00+00:00,FT,Round of 128,BOHFS St. Louis,27438,Union Omaha,10283,0,8,True
+1515149,2026-03-19T00:30:00+00:00,FT,Round of 128,San Antonio,4017,New Stars,17733,6,0,True
+1515150,2026-03-19T01:30:00+00:00,FT,Round of 128,New Mexico United,4003,Cruizers,25874,3,2,True
+1515151,2026-03-19T02:00:00+00:00,AET,Round of 128,Sacramento Republic,4015,El Farolito,9019,2,0,False
+1515153,2026-03-19T02:30:00+00:00,FT,Round of 128,Orange County SC,4007,Laguna United,25690,3,0,True
+1515154,2026-03-19T02:30:00+00:00,FT,Round of 128,Ventura County Fusion,4093,Spokane Velocity,22785,1,2,True
+1515152,2026-03-19T02:30:00+00:00,FT,Round of 128,Alta,25838,Valley 559 FC,27442,0,1,True
+1515155,2026-03-19T22:00:00+00:00,FT,Round of 128,Carolina Core,23063,Virginia Dream,24016,1,2,True
+1515156,2026-03-19T22:30:00+00:00,FT,Round of 128,Charlotte Independence,3991,Ristozi,25881,4,1,True
+1515157,2026-03-19T22:30:00+00:00,FT,Round of 128,Flint City Bucks,4052,Forward Madison,9025,2,0,True
+1515158,2026-03-19T23:00:00+00:00,FT,Round of 128,Lexington,20808,Flower City Union,18470,9,0,True
+1515159,2026-03-19T23:30:00+00:00,FT,Round of 128,Westchester SC,25488,NY Renegades,25691,2,0,True
+1515161,2026-03-20T00:30:00+00:00,FT,Round of 128,Laredo Heat,9028,El Paso Locomotive,3993,0,2,True
+1515160,2026-03-20T01:15:00+00:00,FT,Round of 128,Tennessee Tempo,27441,Chattanooga Red Wolves,9016,1,0,True
+1515135,2026-03-25T23:00:00+00:00,FT,Round of 128,Pittsburgh Riverhounds,4010,Steel City,23227,2,1,True
+1536067,2026-03-31T23:00:00+00:00,FT,Round of 64,Indy Eleven,3996,Union Omaha,10283,1,2,True
+1537387,2026-03-31T23:00:00+00:00,FT,Round of 64,Pittsburgh Riverhounds,4010,Virginia Dream,24016,2,0,True
+1536065,2026-03-31T23:00:00+00:00,PEN,Round of 64,Asheville City,10094,One Knoxville,18905,1,1,False
+1536066,2026-03-31T23:00:00+00:00,FT,Round of 64,Naples,25485,America CFL Spurs,23215,3,0,True
+1536068,2026-03-31T23:30:00+00:00,AET,Round of 64,Charlotte Independence,3991,Charleston Battery,3990,3,2,False
+1536069,2026-04-01T02:00:00+00:00,FT,Round of 64,Valley 559 FC,27442,Sacramento Republic,4015,0,4,True
+1536070,2026-04-01T22:00:00+00:00,FT,Round of 64,Chattanooga,9073,Tennessee Tempo,27441,1,0,True
+1536071,2026-04-01T22:30:00+00:00,FT,Round of 64,Richmond Kickers,4024,Loudoun United,3999,1,0,True
+1536074,2026-04-01T23:00:00+00:00,PEN,Round of 64,Vermont Green,18912,Westchester SC,25488,0,0,False
+1536072,2026-04-01T23:00:00+00:00,FT,Round of 64,Lexington,20808,Louisville City,4000,0,2,True
+1536073,2026-04-01T23:00:00+00:00,FT,Round of 64,Rhode Island,22855,Hartford Athletic,3995,2,0,True
+1536075,2026-04-01T23:30:00+00:00,FT,Round of 64,Flint City Bucks,4052,Detroit City,9043,0,1,True
+1536076,2026-04-02T00:00:00+00:00,PEN,Round of 64,Colorado Springs,3992,Spokane Velocity,22785,1,1,False
+1536077,2026-04-02T00:30:00+00:00,AET,Round of 64,San Antonio,4017,FC Tulsa,4022,0,1,False
+1536078,2026-04-02T01:30:00+00:00,FT,Round of 64,New Mexico United,4003,El Paso Locomotive,3993,0,4,True
+1536079,2026-04-02T02:00:00+00:00,AET,Round of 64,Orange County SC,4007,Phoenix Rising,4009,1,2,False
+1539394,2026-04-14T23:00:00+00:00,PEN,Round of 32,New England Revolution,1609,Rhode Island,22855,1,1,False
+1539393,2026-04-14T23:00:00+00:00,FT,Round of 32,Louisville City,4000,Austin,16489,2,1,True
+1539395,2026-04-14T23:30:00+00:00,FT,Round of 32,Detroit City,9043,Chicago Fire,1607,1,2,True
+1539396,2026-04-14T23:30:00+00:00,FT,Round of 32,Westchester SC,25488,New York City FC,1604,2,5,True
+1539397,2026-04-15T00:00:00+00:00,FT,Round of 32,Colorado Springs,3992,Sporting Kansas City,1611,3,0,True
+1539398,2026-04-15T01:30:00+00:00,FT,Round of 32,Colorado Rapids,1610,Union Omaha,10283,1,0,True
+1539399,2026-04-15T02:00:00+00:00,PEN,Round of 32,Sacramento Republic,4015,Minnesota United FC,1612,0,0,False
+1539400,2026-04-15T23:00:00+00:00,FT,Round of 32,Naples,25485,Orlando City SC,1598,0,1,True
+1539404,2026-04-15T23:30:00+00:00,FT,Round of 32,New York Red Bulls,1602,Pittsburgh Riverhounds,4010,3,1,True
+1539403,2026-04-15T23:30:00+00:00,PEN,Round of 32,DC United,1615,One Knoxville,18905,2,2,False
+1539405,2026-04-15T23:30:00+00:00,FT,Round of 32,Richmond Kickers,4024,Columbus Crew,1613,0,3,True
+1539402,2026-04-15T23:30:00+00:00,FT,Round of 32,Chattanooga,9073,Atlanta United FC,1608,1,3,True
+1539401,2026-04-15T23:30:00+00:00,FT,Round of 32,Charlotte,18310,Charlotte Independence,3991,6,0,True
+1539406,2026-04-16T00:00:00+00:00,FT,Round of 32,Houston Dynamo,1600,El Paso Locomotive,3993,4,1,True
+1539407,2026-04-16T00:00:00+00:00,FT,Round of 32,St. Louis City,20787,FC Tulsa,4022,4,0,True
+1539408,2026-04-16T02:00:00+00:00,FT,Round of 32,San Jose Earthquakes,1596,Phoenix Rising,4009,2,0,True
+1540849,2026-04-28T23:00:00+00:00,FT,Round of 16,Charlotte,18310,Atlanta United FC,1608,0,2,True
+1540855,2026-04-29T02:00:00+00:00,FT,Round of 16,San Jose Earthquakes,1596,Minnesota United FC,1612,4,2,True
+1540854,2026-04-29T23:00:00+00:00,FT,Round of 16,New York Red Bulls,1602,New York City FC,1604,1,3,True
+1540853,2026-04-29T23:30:00+00:00,FT,Round of 16,New England Revolution,1609,Orlando City SC,1598,3,4,True
+1540851,2026-04-29T23:30:00+00:00,FT,Round of 16,Columbus Crew,1613,One Knoxville,18905,4,1,True
+1540852,2026-04-30T00:00:00+00:00,AET,Round of 16,Houston Dynamo,1600,Louisville City,4000,2,1,False
+1540850,2026-04-30T00:00:00+00:00,FT,Round of 16,Chicago Fire,1607,St. Louis City,20787,1,2,True
+1540776,2026-04-30T01:00:00+00:00,PEN,Round of 16,Colorado Rapids,1610,Colorado Springs,3992,1,1,False
+1543866,2026-05-19T23:30:00+00:00,FT,Quarter-finals,Orlando City SC,1598,Atlanta United FC,1608,4,1,True
+1543867,2026-05-20T00:00:00+00:00,PEN,Quarter-finals,St. Louis City,20787,Houston Dynamo,1600,2,2,False
+1543868,2026-05-20T23:30:00+00:00,FT,Quarter-finals,Columbus Crew,1613,New York City FC,1604,1,0,True
+1543869,2026-05-21T02:00:00+00:00,FT,Quarter-finals,Colorado Rapids,1610,San Jose Earthquakes,1596,2,0,True
+1545812,2026-09-16T20:00:00+00:00,NS,Semi-finals,Orlando City SC,1598,Columbus Crew,1613,,,False
+1545813,2026-09-16T20:00:00+00:00,NS,Semi-finals,St. Louis City,20787,Colorado Rapids,1610,,,False
+1515130,2026-03-17T22:00:00+00:00,WO,Round of 128,Tormenta,4108,America CFL Spurs,23215,0,0,False

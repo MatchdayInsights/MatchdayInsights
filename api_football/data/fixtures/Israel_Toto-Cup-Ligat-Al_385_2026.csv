@@ -1,22 +1,22 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1557930,2026-07-18T17:30:00+00:00,PEN,Beitar Jerusalem,657,Hapoel Tel Aviv,4501,2,2,False
-1557933,2026-07-25T17:30:00+00:00,FT,Maccabi Haifa,4195,Hapoel Haifa,2253,2,3,True
-1557931,2026-07-25T17:30:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Petah Tikva,4495,1,0,True
-1557934,2026-07-25T17:30:00+00:00,FT,Maccabi Netanya,4505,Hapoel Katamon,4486,3,1,True
-1557932,2026-07-25T17:30:00+00:00,FT,Ironi Tiberias,6181,Bnei Sakhnin,4481,2,1,True
-1557935,2026-07-28T16:45:00+00:00,FT,Hapoel Haifa,2253,Ironi Tiberias,6181,3,1,True
-1557937,2026-07-28T17:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Maccabi Haifa,4195,3,0,True
-1557938,2026-07-29T16:45:00+00:00,FT,Maccabi Petah Tikva,4495,Maccabi Netanya,4505,1,2,True
-1557936,2026-07-29T17:00:00+00:00,FT,Hapoel Ramat Gan,4489,Hapoel Petah Tikva,4488,2,1,True
-1557939,2026-08-01T17:30:00+00:00,FT,Bnei Sakhnin,4481,Hapoel Haifa,2253,1,2,True
-1557941,2026-08-01T17:30:00+00:00,FT,Ironi Tiberias,6181,Ironi Kiryat Shmona,4510,0,1,True
-1557940,2026-08-02T16:45:00+00:00,FT,Hapoel Katamon,4486,Maccabi Petah Tikva,4495,1,0,True
-1557942,2026-08-02T17:00:00+00:00,FT,Maccabi Netanya,4505,Hapoel Ramat Gan,4489,2,3,True
-1557945,2026-08-04T16:45:00+00:00,FT,Ironi Kiryat Shmona,4510,Bnei Sakhnin,4481,1,0,True
-1557946,2026-08-04T17:00:00+00:00,FT,Maccabi Haifa,4195,Ironi Tiberias,6181,4,2,True
-1557943,2026-08-05T16:45:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Netanya,4505,0,2,True
-1557944,2026-08-05T17:00:00+00:00,FT,Hapoel Ramat Gan,4489,Hapoel Katamon,4486,2,2,True
-1557947,2026-08-08T17:30:00+00:00,NS,Hapoel Haifa,2253,Ironi Kiryat Shmona,4510,,,False
-1557950,2026-08-08T17:30:00+00:00,NS,Bnei Sakhnin,4481,Maccabi Haifa,4195,,,False
-1557948,2026-08-09T17:00:00+00:00,NS,Hapoel Katamon,4486,Hapoel Petah Tikva,4488,,,False
-1557949,2026-08-09T17:00:00+00:00,NS,Maccabi Petah Tikva,4495,Hapoel Ramat Gan,4489,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1557930,2026-07-18T17:30:00+00:00,PEN,Qualification - Play Offs,Beitar Jerusalem,657,Hapoel Tel Aviv,4501,2,2,False
+1557933,2026-07-25T17:30:00+00:00,FT,Regular season - 1,Maccabi Haifa,4195,Hapoel Haifa,2253,2,3,True
+1557931,2026-07-25T17:30:00+00:00,FT,Regular season - 1,Hapoel Petah Tikva,4488,Maccabi Petah Tikva,4495,1,0,True
+1557934,2026-07-25T17:30:00+00:00,FT,Regular season - 1,Maccabi Netanya,4505,Hapoel Katamon,4486,3,1,True
+1557932,2026-07-25T17:30:00+00:00,FT,Regular season - 1,Ironi Tiberias,6181,Bnei Sakhnin,4481,2,1,True
+1557935,2026-07-28T16:45:00+00:00,FT,Regular season - 2,Hapoel Haifa,2253,Ironi Tiberias,6181,3,1,True
+1557937,2026-07-28T17:00:00+00:00,FT,Regular season - 2,Ironi Kiryat Shmona,4510,Maccabi Haifa,4195,3,0,True
+1557938,2026-07-29T16:45:00+00:00,FT,Regular season - 2,Maccabi Petah Tikva,4495,Maccabi Netanya,4505,1,2,True
+1557936,2026-07-29T17:00:00+00:00,FT,Regular season - 2,Hapoel Ramat Gan,4489,Hapoel Petah Tikva,4488,2,1,True
+1557939,2026-08-01T17:30:00+00:00,FT,Regular season - 3,Bnei Sakhnin,4481,Hapoel Haifa,2253,1,2,True
+1557941,2026-08-01T17:30:00+00:00,FT,Regular season - 3,Ironi Tiberias,6181,Ironi Kiryat Shmona,4510,0,1,True
+1557940,2026-08-02T16:45:00+00:00,FT,Regular season - 3,Hapoel Katamon,4486,Maccabi Petah Tikva,4495,1,0,True
+1557942,2026-08-02T17:00:00+00:00,FT,Regular season - 3,Maccabi Netanya,4505,Hapoel Ramat Gan,4489,2,3,True
+1557945,2026-08-04T16:45:00+00:00,FT,Regular season - 4,Ironi Kiryat Shmona,4510,Bnei Sakhnin,4481,1,0,True
+1557946,2026-08-04T17:00:00+00:00,FT,Regular season - 4,Maccabi Haifa,4195,Ironi Tiberias,6181,4,2,True
+1557943,2026-08-05T16:45:00+00:00,FT,Regular season - 4,Hapoel Petah Tikva,4488,Maccabi Netanya,4505,0,2,True
+1557944,2026-08-05T17:00:00+00:00,FT,Regular season - 4,Hapoel Ramat Gan,4489,Hapoel Katamon,4486,2,2,True
+1557947,2026-08-08T17:30:00+00:00,NS,Regular season - 5,Hapoel Haifa,2253,Ironi Kiryat Shmona,4510,,,False
+1557950,2026-08-08T17:30:00+00:00,NS,Regular season - 5,Bnei Sakhnin,4481,Maccabi Haifa,4195,,,False
+1557948,2026-08-09T17:00:00+00:00,NS,Regular season - 5,Hapoel Katamon,4486,Hapoel Petah Tikva,4488,,,False
+1557949,2026-08-09T17:00:00+00:00,NS,Regular season - 5,Maccabi Petah Tikva,4495,Hapoel Ramat Gan,4489,,,False

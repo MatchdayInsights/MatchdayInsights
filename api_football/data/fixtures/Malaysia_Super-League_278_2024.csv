@@ -1,57 +1,157 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1315646,2025-01-10T09:30:00+00:00,FT,Kelantan United,10107,Kedah,2527,0,1,True
-1315645,2025-01-10T13:00:00+00:00,FT,Negeri Sembilan,2502,Pahang,2525,2,1,True
-1315647,2025-01-11T09:15:00+00:00,FT,Pdrm,2500,Kuching FA,10108,0,2,True
-1315648,2025-01-11T12:15:00+00:00,FT,Johor Darul Takzim FC,2523,Sabah FA,2505,4,0,True
-1315649,2025-01-12T09:15:00+00:00,FT,Selangor,2526,Kuala Lumpur FA,2517,1,0,True
-1315650,2025-01-12T12:15:00+00:00,FT,Penang,2504,Perak,2524,3,3,True
-1315652,2025-01-25T09:30:00+00:00,FT,Negeri Sembilan,2502,Sabah FA,2505,1,2,True
-1315653,2025-01-25T12:15:00+00:00,FT,Penang,2504,Selangor,2526,1,1,True
-1315654,2025-01-25T13:00:00+00:00,FT,Terengganu,2518,Johor Darul Takzim FC,2523,0,1,True
-1315656,2025-01-26T12:15:00+00:00,FT,Pahang,2525,Kuala Lumpur FA,2517,1,1,True
-1315655,2025-01-26T13:00:00+00:00,FT,Perak,2524,Kelantan United,10107,7,0,True
-1315657,2025-02-05T12:15:00+00:00,FT,Johor Darul Takzim FC,2523,Pdrm,2500,4,0,True
-1315658,2025-02-07T11:30:00+00:00,FT,Kuching FA,10108,Perak,2524,1,1,True
-1315659,2025-02-07T13:00:00+00:00,FT,Kelantan United,10107,Penang,2504,1,6,True
-1315660,2025-02-08T12:15:00+00:00,FT,Selangor,2526,Pahang,2525,2,0,True
-1315662,2025-02-09T13:00:00+00:00,FT,Negeri Sembilan,2502,Terengganu,2518,0,2,True
-1315664,2025-02-14T13:00:00+00:00,FT,Terengganu,2518,Kuala Lumpur FA,2517,1,2,True
-1315665,2025-02-16T12:15:00+00:00,FT,Sabah FA,2505,Pahang,2525,2,2,True
-1315666,2025-02-16T13:00:00+00:00,FT,Penang,2504,Kuching FA,10108,1,1,True
-1315661,2025-02-21T11:15:00+00:00,FT,Sabah FA,2505,Kuala Lumpur FA,2517,1,1,True
-1315644,2025-02-21T13:00:00+00:00,FT,Terengganu,2518,Kuching FA,10108,2,2,True
-1315672,2025-02-24T12:15:00+00:00,FT,Johor Darul Takzim FC,2523,Perak,2524,2,0,True
-1315669,2025-02-26T12:15:00+00:00,FT,Kuala Lumpur FA,2517,Pdrm,2500,2,1,True
-1315671,2025-02-26T13:00:00+00:00,FT,Negeri Sembilan,2502,Kedah,2527,2,0,True
-1315670,2025-02-26T13:00:00+00:00,FT,Kelantan United,10107,Kuching FA,10108,0,3,True
-1315673,2025-02-27T13:00:00+00:00,FT,Pahang,2525,Terengganu,2518,1,5,True
-1315674,2025-02-27T13:00:00+00:00,FT,Selangor,2526,Sabah FA,2505,0,0,True
-1310465,2025-03-04T14:00:00+00:00,FT,Pahang,2525,Kuching FA,10108,0,2,True
-1315676,2025-03-07T14:00:00+00:00,FT,Terengganu,2518,Sabah FA,2505,2,2,True
-1315675,2025-03-07T14:00:00+00:00,FT,Kedah,2527,Kuala Lumpur FA,2517,2,3,True
-1315678,2025-03-08T14:00:00+00:00,FT,Pdrm,2500,Pahang,2525,1,3,True
-1315677,2025-03-08T14:00:00+00:00,FT,Perak,2524,Negeri Sembilan,2502,0,0,True
-1315667,2025-03-08T14:00:00+00:00,FT,Kelantan United,10107,Selangor,2526,0,7,True
-1315651,2025-03-12T13:15:00+00:00,FT,Kuching FA,10108,Kedah,2527,3,0,True
-1315663,2025-03-15T14:00:00+00:00,FT,Pdrm,2500,Negeri Sembilan,2502,2,1,True
-1315680,2025-03-16T13:15:00+00:00,FT,Kuching FA,10108,Selangor,2526,2,1,True
-1315679,2025-03-16T14:00:00+00:00,FT,Penang,2504,Johor Darul Takzim FC,2523,0,3,True
-1315668,2025-03-29T14:00:00+00:00,FT,Kedah,2527,Johor Darul Takzim FC,2523,1,6,True
-1315683,2025-04-05T12:15:00+00:00,FT,Selangor,2526,Terengganu,2518,1,0,True
-1315684,2025-04-05T13:00:00+00:00,FT,Negeri Sembilan,2502,Penang,2504,0,2,True
-1315685,2025-04-06T09:15:00+00:00,FT,Kuala Lumpur FA,2517,Perak,2524,1,2,True
-1315682,2025-04-08T11:15:00+00:00,FT,Sabah FA,2505,Pdrm,2500,1,0,True
-1315686,2025-04-08T13:00:00+00:00,FT,Pahang,2525,Kedah,2527,6,0,True
-1315681,2025-04-10T12:15:00+00:00,FT,Johor Darul Takzim FC,2523,Kelantan United,10107,9,0,True
-1315690,2025-04-12T12:15:00+00:00,FT,Pdrm,2500,Terengganu,2518,1,0,True
-1315689,2025-04-12T13:00:00+00:00,FT,Perak,2524,Pahang,2525,0,1,True
-1315688,2025-04-12T13:00:00+00:00,FT,Kedah,2527,Sabah FA,2505,1,1,True
-1315692,2025-04-13T12:15:00+00:00,FT,Penang,2504,Kuala Lumpur FA,2517,1,0,True
-1315687,2025-04-13T13:00:00+00:00,FT,Kelantan United,10107,Negeri Sembilan,2502,1,2,True
-1315691,2025-04-16T12:15:00+00:00,FT,Kuching FA,10108,Johor Darul Takzim FC,2523,0,2,True
-1361492,2025-04-19T12:15:00+00:00,FT,Pahang,2525,Penang,2504,3,2,True
-1361488,2025-04-19T12:15:00+00:00,FT,Selangor,2526,Pdrm,2500,2,0,True
-1361490,2025-04-20T13:00:00+00:00,FT,Negeri Sembilan,2502,Kuching FA,10108,1,3,True
-1361487,2025-04-20T13:00:00+00:00,FT,Sabah FA,2505,Perak,2524,0,1,True
-1361491,2025-04-20T13:00:00+00:00,FT,Kuala Lumpur FA,2517,Kelantan United,10107,5,2,True
-1361489,2025-04-20T13:00:00+00:00,FT,Terengganu,2518,Kedah,2527,3,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1194462,2024-05-10T13:00:00+00:00,FT,Regular Season - 1,Johor Darul Takzim FC,2523,Selangor,2526,3,0,True
+1194463,2024-05-11T09:30:00+00:00,FT,Regular Season - 1,Pdrm,2500,Kedah,2527,0,1,True
+1194464,2024-05-11T12:15:00+00:00,FT,Regular Season - 1,Pahang,2525,Kelantan United,10107,1,0,True
+1194465,2024-05-11T13:00:00+00:00,FT,Regular Season - 1,Terengganu,2518,Perak,2524,3,1,True
+1194466,2024-05-12T09:45:00+00:00,FT,Regular Season - 1,Sabah FA,2505,Penang,2504,0,0,True
+1194467,2024-05-12T13:00:00+00:00,FT,Regular Season - 1,Kuala Lumpur FA,2517,Kuching FA,10108,1,1,True
+1194468,2024-05-17T13:00:00+00:00,FT,Regular Season - 2,Kelantan United,10107,Sabah FA,2505,2,3,True
+1194469,2024-05-18T09:30:00+00:00,FT,Regular Season - 2,Johor Darul Takzim FC,2523,Negeri Sembilan,2502,3,1,True
+1194470,2024-05-18T12:15:00+00:00,FT,Regular Season - 2,Selangor,2526,Kedah,2527,1,0,True
+1194471,2024-05-18T13:00:00+00:00,FT,Regular Season - 2,Perak,2524,Pdrm,2500,2,3,True
+1194472,2024-05-19T08:45:00+00:00,FT,Regular Season - 2,Kuching FA,10108,Pahang,2525,2,2,True
+1194473,2024-05-19T12:15:00+00:00,FT,Regular Season - 2,Penang,2504,Terengganu,2518,0,0,True
+1194474,2024-05-24T12:15:00+00:00,FT,Regular Season - 3,Terengganu,2518,Kelantan United,10107,3,0,True
+1194475,2024-05-24T13:00:00+00:00,FT,Regular Season - 3,Kedah,2527,Perak,2524,0,2,True
+1194476,2024-05-25T09:30:00+00:00,FT,Regular Season - 3,Kuala Lumpur FA,2517,Johor Darul Takzim FC,2523,1,5,True
+1194477,2024-05-25T12:15:00+00:00,FT,Regular Season - 3,Sabah FA,2505,Kuching FA,10108,2,1,True
+1194478,2024-05-25T13:00:00+00:00,FT,Regular Season - 3,Pdrm,2500,Penang,2504,1,1,True
+1194479,2024-05-26T12:15:00+00:00,FT,Regular Season - 3,Selangor,2526,Negeri Sembilan,2502,4,0,True
+1194480,2024-06-21T13:00:00+00:00,FT,Regular Season - 4,Negeri Sembilan,2502,Kuala Lumpur FA,2517,0,3,True
+1194481,2024-06-22T09:30:00+00:00,FT,Regular Season - 4,Johor Darul Takzim FC,2523,Pahang,2525,3,0,True
+1194482,2024-06-22T12:15:00+00:00,FT,Regular Season - 4,Kuching FA,10108,Terengganu,2518,1,1,True
+1194483,2024-06-22T13:00:00+00:00,FT,Regular Season - 4,Penang,2504,Kedah,2527,0,1,True
+1194484,2024-06-23T09:30:00+00:00,FT,Regular Season - 4,Selangor,2526,Perak,2524,2,1,True
+1194485,2024-06-23T13:00:00+00:00,FT,Regular Season - 4,Kelantan United,10107,Pdrm,2500,1,0,True
+1194486,2024-07-12T12:15:00+00:00,FT,Regular Season - 5,Kuching FA,10108,Pdrm,2500,2,0,True
+1194487,2024-07-12T13:00:00+00:00,FT,Regular Season - 5,Kedah,2527,Kelantan United,10107,3,0,True
+1194488,2024-07-13T09:30:00+00:00,FT,Regular Season - 5,Pahang,2525,Negeri Sembilan,2502,0,2,True
+1194489,2024-07-13T12:15:00+00:00,FT,Regular Season - 5,Sabah FA,2505,Johor Darul Takzim FC,2523,1,3,True
+1194490,2024-07-13T13:00:00+00:00,FT,Regular Season - 5,Perak,2524,Penang,2504,0,2,True
+1194491,2024-07-14T12:15:00+00:00,FT,Regular Season - 5,Kuala Lumpur FA,2517,Selangor,2526,1,0,True
+1194495,2024-07-25T12:15:00+00:00,FT,Regular Season - 6,Sabah FA,2505,Negeri Sembilan,2502,2,0,True
+1194492,2024-07-26T12:15:00+00:00,FT,Regular Season - 6,Johor Darul Takzim FC,2523,Terengganu,2518,4,0,True
+1194494,2024-07-26T13:00:00+00:00,FT,Regular Season - 6,Kedah,2527,Kuching FA,10108,1,1,True
+1194493,2024-07-26T13:00:00+00:00,FT,Regular Season - 6,Kelantan United,10107,Perak,2524,1,3,True
+1194496,2024-07-27T12:15:00+00:00,FT,Regular Season - 6,Selangor,2526,Penang,2504,4,1,True
+1194497,2024-07-27T13:00:00+00:00,FT,Regular Season - 6,Kuala Lumpur FA,2517,Pahang,2525,0,0,True
+1194499,2024-07-30T12:15:00+00:00,FT,Regular Season - 7,Perak,2524,Kuching FA,10108,1,2,True
+1194500,2024-07-30T13:00:00+00:00,FT,Regular Season - 7,Terengganu,2518,Negeri Sembilan,2502,3,2,True
+1194498,2024-07-31T12:15:00+00:00,FT,Regular Season - 7,Kuala Lumpur FA,2517,Sabah FA,2505,3,0,True
+1194501,2024-07-31T12:15:00+00:00,FT,Regular Season - 7,Pahang,2525,Selangor,2526,1,1,True
+1194502,2024-07-31T13:00:00+00:00,FT,Regular Season - 7,Pdrm,2500,Johor Darul Takzim FC,2523,1,1,True
+1194503,2024-08-01T13:00:00+00:00,FT,Regular Season - 7,Penang,2504,Kelantan United,10107,3,0,True
+1194504,2024-08-09T12:15:00+00:00,FT,Regular Season - 8,Johor Darul Takzim FC,2523,Kedah,2527,6,0,True
+1194505,2024-08-09T13:00:00+00:00,FT,Regular Season - 8,Pahang,2525,Sabah FA,2505,2,3,True
+1194506,2024-08-10T09:30:00+00:00,FT,Regular Season - 8,Selangor,2526,Kelantan United,10107,2,0,True
+1194507,2024-08-10T13:00:00+00:00,FT,Regular Season - 8,Kuala Lumpur FA,2517,Terengganu,2518,0,2,True
+1194508,2024-08-11T08:45:00+00:00,FT,Regular Season - 8,Kuching FA,10108,Penang,2504,2,2,True
+1194509,2024-08-11T13:00:00+00:00,FT,Regular Season - 8,Negeri Sembilan,2502,Pdrm,2500,1,2,True
+1194510,2024-08-13T12:15:00+00:00,FT,Regular Season - 9,Sabah FA,2505,Selangor,2526,1,2,True
+1194511,2024-08-16T12:15:00+00:00,FT,Regular Season - 9,Terengganu,2518,Pahang,2525,1,1,True
+1194512,2024-08-16T13:00:00+00:00,FT,Regular Season - 9,Pdrm,2500,Kuala Lumpur FA,2517,2,1,True
+1194513,2024-08-17T09:30:00+00:00,FT,Regular Season - 9,Kedah,2527,Negeri Sembilan,2502,2,2,True
+1194514,2024-08-26T12:15:00+00:00,FT,Regular Season - 9,Kuching FA,10108,Kelantan United,10107,1,0,True
+1194516,2024-09-12T12:15:00+00:00,FT,Regular Season - 10,Johor Darul Takzim FC,2523,Penang,2504,5,0,True
+1194517,2024-09-13T13:00:00+00:00,FT,Regular Season - 10,Selangor,2526,Kuching FA,10108,4,0,True
+1194518,2024-09-14T09:30:00+00:00,FT,Regular Season - 10,Negeri Sembilan,2502,Perak,2524,0,1,True
+1194519,2024-09-14T13:00:00+00:00,FT,Regular Season - 10,Kuala Lumpur FA,2517,Kedah,2527,5,0,True
+1194520,2024-09-15T12:15:00+00:00,FT,Regular Season - 10,Sabah FA,2505,Terengganu,2518,1,1,True
+1194521,2024-09-15T13:00:00+00:00,FT,Regular Season - 10,Pahang,2525,Pdrm,2500,5,1,True
+1194522,2024-09-20T13:00:00+00:00,FT,Regular Season - 11,Kedah,2527,Pahang,2525,2,2,True
+1194523,2024-09-21T09:30:00+00:00,FT,Regular Season - 11,Pdrm,2500,Sabah FA,2505,1,0,True
+1194524,2024-09-21T12:15:00+00:00,FT,Regular Season - 11,Perak,2524,Kuala Lumpur FA,2517,1,0,True
+1194526,2024-09-22T09:30:00+00:00,FT,Regular Season - 11,Penang,2504,Negeri Sembilan,2502,2,2,True
+1194527,2024-09-22T13:00:00+00:00,FT,Regular Season - 11,Kelantan United,10107,Johor Darul Takzim FC,2523,1,6,True
+1194528,2024-09-27T12:15:00+00:00,FT,Regular Season - 12,Johor Darul Takzim FC,2523,Kuching FA,10108,2,1,True
+1194529,2024-09-27T13:00:00+00:00,FT,Regular Season - 12,Negeri Sembilan,2502,Kelantan United,10107,2,3,True
+1194525,2024-09-28T13:00:00+00:00,FT,Regular Season - 11,Terengganu,2518,Selangor,2526,0,1,True
+1194531,2024-09-28T13:00:00+00:00,FT,Regular Season - 12,Pahang,2525,Perak,2524,0,3,True
+1194532,2024-09-29T09:30:00+00:00,FT,Regular Season - 12,Kuala Lumpur FA,2517,Penang,2504,4,2,True
+1194533,2024-10-04T13:00:00+00:00,FT,Regular Season - 12,Terengganu,2518,Pdrm,2500,1,1,True
+1194535,2024-10-18T13:00:00+00:00,FT,Regular Season - 13,Kelantan United,10107,Kuala Lumpur FA,2517,1,3,True
+1194537,2024-10-19T09:00:00+00:00,FT,Regular Season - 13,Perak,2524,Sabah FA,2505,2,4,True
+1194536,2024-10-19T13:00:00+00:00,FT,Regular Season - 13,Pdrm,2500,Selangor,2526,1,1,True
+1194538,2024-10-19T13:00:00+00:00,FT,Regular Season - 13,Kedah,2527,Terengganu,2518,1,0,True
+1194534,2024-10-20T11:30:00+00:00,FT,Regular Season - 13,Kuching FA,10108,Negeri Sembilan,2502,1,1,True
+1194539,2024-10-20T12:15:00+00:00,FT,Regular Season - 13,Penang,2504,Pahang,2525,0,1,True
+1310457,2024-10-25T12:15:00+00:00,FT,Regular Season - 14,Penang,2504,Sabah FA,2505,0,4,True
+1310458,2024-10-25T13:00:00+00:00,FT,Regular Season - 14,Kedah,2527,Pdrm,2500,1,1,True
+1310459,2024-10-25T13:00:00+00:00,FT,Regular Season - 14,Kelantan United,10107,Pahang,2525,1,1,True
+1310460,2024-10-26T09:00:00+00:00,FT,Regular Season - 14,Perak,2524,Terengganu,2518,2,2,True
+1310461,2024-10-26T12:00:00+00:00,FT,Regular Season - 14,Kuching FA,10108,Kuala Lumpur FA,2517,3,1,True
+1310462,2024-10-27T12:15:00+00:00,FT,Regular Season - 14,Selangor,2526,Johor Darul Takzim FC,2523,0,3,True
+1194530,2024-10-29T10:45:00+00:00,FT,Regular Season - 12,Sabah FA,2505,Kedah,2527,5,2,True
+1310463,2024-11-01T12:30:00+00:00,FT,Regular Season - 15,Negeri Sembilan,2502,Johor Darul Takzim FC,2523,0,4,True
+1310464,2024-11-01T13:00:00+00:00,FT,Regular Season - 15,Terengganu,2518,Penang,2504,1,0,True
+1310466,2024-11-02T12:15:00+00:00,FT,Regular Season - 15,Pdrm,2500,Perak,2524,1,1,True
+1310467,2024-11-02T13:00:00+00:00,FT,Regular Season - 15,Kedah,2527,Selangor,2526,0,1,True
+1310468,2024-11-03T10:45:00+00:00,FT,Regular Season - 15,Sabah FA,2505,Kelantan United,10107,4,1,True
+1194515,2024-11-10T12:15:00+00:00,FT,Regular Season - 9,Perak,2524,Johor Darul Takzim FC,2523,0,5,True
+1310470,2024-12-04T09:00:00+00:00,FT,Regular Season - 16,Perak,2524,Kedah,2527,1,1,True
+1310469,2024-12-04T09:00:00+00:00,FT,Regular Season - 16,Kelantan United,10107,Terengganu,2518,1,2,True
+1310473,2024-12-04T11:30:00+00:00,FT,Regular Season - 16,Kuching FA,10108,Sabah FA,2505,1,2,True
+1310471,2024-12-04T13:00:00+00:00,FT,Regular Season - 16,Penang,2504,Pdrm,2500,2,0,True
+1310472,2024-12-08T12:15:00+00:00,FT,Regular Season - 16,Johor Darul Takzim FC,2523,Kuala Lumpur FA,2517,3,0,True
+1310474,2024-12-09T12:30:00+00:00,FT,Regular Season - 16,Negeri Sembilan,2502,Selangor,2526,0,4,True
+1315640,2024-12-17T09:30:00+00:00,FT,Regular Season - 17,Kuala Lumpur FA,2517,Negeri Sembilan,2502,2,1,True
+1315639,2024-12-17T12:30:00+00:00,FT,Regular Season - 17,Perak,2524,Selangor,2526,1,2,True
+1315641,2024-12-17T13:00:00+00:00,FT,Regular Season - 17,Pahang,2525,Johor Darul Takzim FC,2523,1,3,True
+1315642,2024-12-18T12:15:00+00:00,FT,Regular Season - 17,Pdrm,2500,Kelantan United,10107,5,0,True
+1315643,2024-12-18T13:00:00+00:00,FT,Regular Season - 17,Kedah,2527,Penang,2504,1,0,True
+1315646,2025-01-10T09:30:00+00:00,FT,Regular Season - 18,Kelantan United,10107,Kedah,2527,0,1,True
+1315645,2025-01-10T13:00:00+00:00,FT,Regular Season - 18,Negeri Sembilan,2502,Pahang,2525,2,1,True
+1315647,2025-01-11T09:15:00+00:00,FT,Regular Season - 18,Pdrm,2500,Kuching FA,10108,0,2,True
+1315648,2025-01-11T12:15:00+00:00,FT,Regular Season - 18,Johor Darul Takzim FC,2523,Sabah FA,2505,4,0,True
+1315649,2025-01-12T09:15:00+00:00,FT,Regular Season - 18,Selangor,2526,Kuala Lumpur FA,2517,1,0,True
+1315650,2025-01-12T12:15:00+00:00,FT,Regular Season - 18,Penang,2504,Perak,2524,3,3,True
+1315652,2025-01-25T09:30:00+00:00,FT,Regular Season - 19,Negeri Sembilan,2502,Sabah FA,2505,1,2,True
+1315653,2025-01-25T12:15:00+00:00,FT,Regular Season - 19,Penang,2504,Selangor,2526,1,1,True
+1315654,2025-01-25T13:00:00+00:00,FT,Regular Season - 19,Terengganu,2518,Johor Darul Takzim FC,2523,0,1,True
+1315656,2025-01-26T12:15:00+00:00,FT,Regular Season - 19,Pahang,2525,Kuala Lumpur FA,2517,1,1,True
+1315655,2025-01-26T13:00:00+00:00,FT,Regular Season - 19,Perak,2524,Kelantan United,10107,7,0,True
+1315657,2025-02-05T12:15:00+00:00,FT,Regular Season - 20,Johor Darul Takzim FC,2523,Pdrm,2500,4,0,True
+1315658,2025-02-07T11:30:00+00:00,FT,Regular Season - 20,Kuching FA,10108,Perak,2524,1,1,True
+1315659,2025-02-07T13:00:00+00:00,FT,Regular Season - 20,Kelantan United,10107,Penang,2504,1,6,True
+1315660,2025-02-08T12:15:00+00:00,FT,Regular Season - 20,Selangor,2526,Pahang,2525,2,0,True
+1315662,2025-02-09T13:00:00+00:00,FT,Regular Season - 20,Negeri Sembilan,2502,Terengganu,2518,0,2,True
+1315664,2025-02-14T13:00:00+00:00,FT,Regular Season - 21,Terengganu,2518,Kuala Lumpur FA,2517,1,2,True
+1315665,2025-02-16T12:15:00+00:00,FT,Regular Season - 21,Sabah FA,2505,Pahang,2525,2,2,True
+1315666,2025-02-16T13:00:00+00:00,FT,Regular Season - 21,Penang,2504,Kuching FA,10108,1,1,True
+1315661,2025-02-21T11:15:00+00:00,FT,Regular Season - 20,Sabah FA,2505,Kuala Lumpur FA,2517,1,1,True
+1315644,2025-02-21T13:00:00+00:00,FT,Regular Season - 17,Terengganu,2518,Kuching FA,10108,2,2,True
+1315672,2025-02-24T12:15:00+00:00,FT,Regular Season - 22,Johor Darul Takzim FC,2523,Perak,2524,2,0,True
+1315669,2025-02-26T12:15:00+00:00,FT,Regular Season - 22,Kuala Lumpur FA,2517,Pdrm,2500,2,1,True
+1315671,2025-02-26T13:00:00+00:00,FT,Regular Season - 22,Negeri Sembilan,2502,Kedah,2527,2,0,True
+1315670,2025-02-26T13:00:00+00:00,FT,Regular Season - 22,Kelantan United,10107,Kuching FA,10108,0,3,True
+1315673,2025-02-27T13:00:00+00:00,FT,Regular Season - 22,Pahang,2525,Terengganu,2518,1,5,True
+1315674,2025-02-27T13:00:00+00:00,FT,Regular Season - 22,Selangor,2526,Sabah FA,2505,0,0,True
+1310465,2025-03-04T14:00:00+00:00,FT,Regular Season - 15,Pahang,2525,Kuching FA,10108,0,2,True
+1315676,2025-03-07T14:00:00+00:00,FT,Regular Season - 23,Terengganu,2518,Sabah FA,2505,2,2,True
+1315675,2025-03-07T14:00:00+00:00,FT,Regular Season - 23,Kedah,2527,Kuala Lumpur FA,2517,2,3,True
+1315678,2025-03-08T14:00:00+00:00,FT,Regular Season - 23,Pdrm,2500,Pahang,2525,1,3,True
+1315677,2025-03-08T14:00:00+00:00,FT,Regular Season - 23,Perak,2524,Negeri Sembilan,2502,0,0,True
+1315667,2025-03-08T14:00:00+00:00,FT,Regular Season - 21,Kelantan United,10107,Selangor,2526,0,7,True
+1315651,2025-03-12T13:15:00+00:00,FT,Regular Season - 19,Kuching FA,10108,Kedah,2527,3,0,True
+1315663,2025-03-15T14:00:00+00:00,FT,Regular Season - 21,Pdrm,2500,Negeri Sembilan,2502,2,1,True
+1315680,2025-03-16T13:15:00+00:00,FT,Regular Season - 23,Kuching FA,10108,Selangor,2526,2,1,True
+1315679,2025-03-16T14:00:00+00:00,FT,Regular Season - 23,Penang,2504,Johor Darul Takzim FC,2523,0,3,True
+1315668,2025-03-29T14:00:00+00:00,FT,Regular Season - 21,Kedah,2527,Johor Darul Takzim FC,2523,1,6,True
+1315683,2025-04-05T12:15:00+00:00,FT,Regular Season - 24,Selangor,2526,Terengganu,2518,1,0,True
+1315684,2025-04-05T13:00:00+00:00,FT,Regular Season - 24,Negeri Sembilan,2502,Penang,2504,0,2,True
+1315685,2025-04-06T09:15:00+00:00,FT,Regular Season - 24,Kuala Lumpur FA,2517,Perak,2524,1,2,True
+1315682,2025-04-08T11:15:00+00:00,FT,Regular Season - 24,Sabah FA,2505,Pdrm,2500,1,0,True
+1315686,2025-04-08T13:00:00+00:00,FT,Regular Season - 24,Pahang,2525,Kedah,2527,6,0,True
+1315681,2025-04-10T12:15:00+00:00,FT,Regular Season - 24,Johor Darul Takzim FC,2523,Kelantan United,10107,9,0,True
+1315690,2025-04-12T12:15:00+00:00,FT,Regular Season - 25,Pdrm,2500,Terengganu,2518,1,0,True
+1315689,2025-04-12T13:00:00+00:00,FT,Regular Season - 25,Perak,2524,Pahang,2525,0,1,True
+1315688,2025-04-12T13:00:00+00:00,FT,Regular Season - 25,Kedah,2527,Sabah FA,2505,1,1,True
+1315692,2025-04-13T12:15:00+00:00,FT,Regular Season - 25,Penang,2504,Kuala Lumpur FA,2517,1,0,True
+1315687,2025-04-13T13:00:00+00:00,FT,Regular Season - 25,Kelantan United,10107,Negeri Sembilan,2502,1,2,True
+1315691,2025-04-16T12:15:00+00:00,FT,Regular Season - 25,Kuching FA,10108,Johor Darul Takzim FC,2523,0,2,True
+1361492,2025-04-19T12:15:00+00:00,FT,Regular Season - 26,Pahang,2525,Penang,2504,3,2,True
+1361488,2025-04-19T12:15:00+00:00,FT,Regular Season - 26,Selangor,2526,Pdrm,2500,2,0,True
+1361490,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,Negeri Sembilan,2502,Kuching FA,10108,1,3,True
+1361487,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,Sabah FA,2505,Perak,2524,0,1,True
+1361491,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,Kuala Lumpur FA,2517,Kelantan United,10107,5,2,True
+1361489,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,Terengganu,2518,Kedah,2527,3,0,True

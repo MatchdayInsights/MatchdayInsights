@@ -1,8 +1,8 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1481202,2025-10-08T09:30:00+00:00,FT,East Bengal II,21137,Sreenidi Deccan,18305,4,0,True
-1481203,2025-10-11T09:00:00+00:00,FT,Sreenidi Deccan,18305,Namdhari,22596,0,3,True
-1481204,2025-10-12T09:00:00+00:00,FT,United,8241,Gokulam,3464,1,0,True
-1481205,2025-10-14T09:00:00+00:00,FT,Namdhari,22596,East Bengal II,21137,0,2,True
-1481206,2025-10-15T09:00:00+00:00,FT,ATK Mohun Bagan,15516,United,8241,2,0,True
-1481207,2025-10-09T09:30:00+00:00,FT,Gokulam,3464,ATK Mohun Bagan,15516,1,5,True
-1482073,2025-10-18T12:30:00+00:00,PEN,East Bengal II,21137,ATK Mohun Bagan,15516,1,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1481202,2025-10-08T09:30:00+00:00,FT,Group Stage,East Bengal II,21137,Sreenidi Deccan,18305,4,0,True
+1481203,2025-10-11T09:00:00+00:00,FT,Group Stage,Sreenidi Deccan,18305,Namdhari,22596,0,3,True
+1481204,2025-10-12T09:00:00+00:00,FT,Group Stage,United,8241,Gokulam,3464,1,0,True
+1481205,2025-10-14T09:00:00+00:00,FT,Group Stage,Namdhari,22596,East Bengal II,21137,0,2,True
+1481206,2025-10-15T09:00:00+00:00,FT,Group Stage,ATK Mohun Bagan,15516,United,8241,2,0,True
+1481207,2025-10-09T09:30:00+00:00,FT,Group Stage,Gokulam,3464,ATK Mohun Bagan,15516,1,5,True
+1482073,2025-10-18T12:30:00+00:00,PEN,Final,East Bengal II,21137,ATK Mohun Bagan,15516,1,1,False

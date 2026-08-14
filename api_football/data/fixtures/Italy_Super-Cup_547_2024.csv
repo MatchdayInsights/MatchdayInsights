@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1311195,2025-01-02T19:00:00+00:00,FT,Inter,505,Atalanta,499,2,0,True
-1311196,2025-01-03T19:00:00+00:00,FT,Juventus,496,AC Milan,489,1,2,True
-1332513,2025-01-06T19:00:00+00:00,FT,Inter,505,AC Milan,489,2,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1311195,2025-01-02T19:00:00+00:00,FT,Semi-finals,Inter,505,Atalanta,499,2,0,True
+1311196,2025-01-03T19:00:00+00:00,FT,Semi-finals,Juventus,496,AC Milan,489,1,2,True
+1332513,2025-01-06T19:00:00+00:00,FT,Final,Inter,505,AC Milan,489,2,3,True

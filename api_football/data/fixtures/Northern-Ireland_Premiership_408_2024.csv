@@ -1,104 +1,234 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1221857,2025-01-07T19:45:00+00:00,FT,Crusaders FC,697,Larne,5354,1,3,True
-1221997,2025-01-10T19:45:00+00:00,FT,Larne,5354,Cliftonville FC,2266,2,0,True
-1221998,2025-01-11T15:00:00+00:00,FT,Linfield,583,Carrick Rangers,5350,3,0,True
-1221995,2025-01-11T15:00:00+00:00,FT,Crusaders FC,697,Dungannon Swifts,5351,1,5,True
-1221999,2025-01-11T15:00:00+00:00,FT,Loughgall,5345,Portadown,5348,0,1,True
-1222003,2025-01-17T19:45:00+00:00,FT,Dungannon Swifts,5351,Glenavon FC,2275,2,3,True
-1222002,2025-01-18T15:00:00+00:00,FT,Coleraine FC,669,Crusaders FC,697,0,2,True
-1222001,2025-01-18T15:00:00+00:00,FT,Cliftonville FC,2266,Loughgall,5345,2,0,True
-1222005,2025-01-18T15:00:00+00:00,FT,Portadown,5348,Linfield,583,1,3,True
-1222000,2025-01-18T15:00:00+00:00,FT,Carrick Rangers,5350,Ballymena United,668,0,0,True
-1222006,2025-01-25T15:00:00+00:00,FT,Crusaders FC,697,Portadown,5348,3,2,True
-1222008,2025-01-25T15:00:00+00:00,FT,Glenavon FC,2275,Carrick Rangers,5350,2,1,True
-1222011,2025-01-25T15:00:00+00:00,FT,Loughgall,5345,Glentoran,5352,1,2,True
-1222007,2025-01-25T15:00:00+00:00,FT,Dungannon Swifts,5351,Coleraine FC,669,1,1,True
-1222009,2025-01-25T15:00:00+00:00,FT,Larne,5354,Ballymena United,668,2,1,True
-1222010,2025-01-25T17:30:00+00:00,FT,Linfield,583,Cliftonville FC,2266,2,1,True
-1221885,2025-01-28T19:45:00+00:00,FT,Linfield,583,Crusaders FC,697,2,1,True
-1221872,2025-02-01T17:30:00+00:00,FT,Larne,5354,Portadown,5348,1,1,True
-1221917,2025-02-04T19:45:00+00:00,FT,Coleraine FC,669,Cliftonville FC,2266,0,0,True
-1221863,2025-02-04T19:45:00+00:00,FT,Carrick Rangers,5350,Larne,5354,1,2,True
-1222012,2025-02-07T19:45:00+00:00,FT,Ballymena United,668,Linfield,583,2,2,True
-1222013,2025-02-08T15:00:00+00:00,FT,Carrick Rangers,5350,Coleraine FC,669,0,1,True
-1222015,2025-02-08T15:00:00+00:00,FT,Glentoran,5352,Dungannon Swifts,5351,1,0,True
-1222016,2025-02-08T15:00:00+00:00,FT,Larne,5354,Crusaders FC,697,0,1,True
-1222014,2025-02-09T15:00:00+00:00,FT,Cliftonville FC,2266,Portadown,5348,2,2,True
-1221991,2025-02-11T19:45:00+00:00,FT,Linfield,583,Larne,5354,1,0,True
-1221964,2025-02-12T19:45:00+00:00,FT,Cliftonville FC,2266,Carrick Rangers,5350,3,0,True
-1222018,2025-02-14T19:45:00+00:00,FT,Coleraine FC,669,Glentoran,5352,1,2,True
-1222022,2025-02-15T15:00:00+00:00,FT,Linfield,583,Loughgall,5345,1,0,True
-1222019,2025-02-15T15:00:00+00:00,FT,Crusaders FC,697,Ballymena United,668,3,1,True
-1222021,2025-02-15T15:00:00+00:00,FT,Glenavon FC,2275,Cliftonville FC,2266,3,1,True
-1222020,2025-02-15T15:00:00+00:00,FT,Dungannon Swifts,5351,Carrick Rangers,5350,3,1,True
-1222023,2025-02-15T17:30:00+00:00,FT,Portadown,5348,Larne,5354,2,0,True
-1221994,2025-02-18T19:45:00+00:00,FT,Ballymena United,668,Glentoran,5352,1,1,True
-1221973,2025-02-18T19:45:00+00:00,FT,Larne,5354,Glenavon FC,2275,1,1,True
-1222026,2025-02-21T19:45:00+00:00,FT,Cliftonville FC,2266,Glentoran,5352,2,0,True
-1222029,2025-02-22T15:00:00+00:00,FT,Linfield,583,Coleraine FC,669,0,2,True
-1222024,2025-02-22T15:00:00+00:00,FT,Ballymena United,668,Portadown,5348,2,0,True
-1222027,2025-02-22T15:00:00+00:00,FT,Glenavon FC,2275,Crusaders FC,697,0,1,True
-1222025,2025-02-22T15:00:00+00:00,FT,Carrick Rangers,5350,Loughgall,5345,0,0,True
-1222028,2025-02-22T15:00:00+00:00,FT,Larne,5354,Dungannon Swifts,5351,0,1,True
-1221969,2025-02-26T19:45:00+00:00,FT,Loughgall,5345,Larne,5354,1,4,True
-1221965,2025-03-01T15:00:00+00:00,FT,Coleraine FC,669,Portadown,5348,2,0,True
-1222017,2025-03-04T19:45:00+00:00,FT,Loughgall,5345,Glenavon FC,2275,0,2,True
-1221916,2025-03-04T19:45:00+00:00,FT,Carrick Rangers,5350,Larne,5354,1,0,True
-1221968,2025-03-04T19:45:00+00:00,FT,Glentoran,5352,Ballymena United,668,1,0,True
-1222031,2025-03-07T19:45:00+00:00,FT,Crusaders FC,697,Linfield,583,0,2,True
-1221996,2025-03-08T15:00:00+00:00,FT,Glenavon FC,2275,Coleraine FC,669,0,1,True
-1222034,2025-03-08T15:00:00+00:00,FT,Loughgall,5345,Larne,5354,0,1,True
-1222032,2025-03-08T15:00:00+00:00,FT,Dungannon Swifts,5351,Ballymena United,668,0,3,True
-1222035,2025-03-08T17:30:00+00:00,FT,Portadown,5348,Carrick Rangers,5350,1,0,True
-1221952,2025-03-11T19:45:00+00:00,FT,Ballymena United,668,Larne,5354,1,2,True
-1221990,2025-03-12T19:45:00+00:00,FT,Cliftonville FC,2266,Dungannon Swifts,5351,0,2,True
-1222033,2025-03-12T19:45:00+00:00,FT,Glentoran,5352,Glenavon FC,2275,3,3,True
-1222040,2025-03-15T15:00:00+00:00,FT,Linfield,583,Glenavon FC,2275,2,0,True
-1222036,2025-03-15T15:00:00+00:00,FT,Ballymena United,668,Cliftonville FC,2266,1,0,True
-1222038,2025-03-15T15:00:00+00:00,FT,Crusaders FC,697,Loughgall,5345,1,1,True
-1222037,2025-03-15T15:00:00+00:00,FT,Carrick Rangers,5350,Glentoran,5352,0,0,True
-1222041,2025-03-15T17:30:00+00:00,FT,Portadown,5348,Dungannon Swifts,5351,1,1,True
-1222039,2025-03-15T17:30:00+00:00,FT,Larne,5354,Coleraine FC,669,1,1,True
-1222030,2025-03-18T19:45:00+00:00,FT,Coleraine FC,669,Cliftonville FC,2266,2,2,True
-1222004,2025-03-18T19:45:00+00:00,FT,Glentoran,5352,Larne,5354,2,2,True
-1222043,2025-03-22T15:00:00+00:00,FT,Coleraine FC,669,Portadown,5348,1,0,True
-1222042,2025-03-22T15:00:00+00:00,FT,Cliftonville FC,2266,Carrick Rangers,5350,3,0,True
-1222045,2025-03-22T15:00:00+00:00,FT,Glenavon FC,2275,Larne,5354,0,1,True
-1222047,2025-03-22T15:00:00+00:00,FT,Loughgall,5345,Ballymena United,668,2,1,True
-1222046,2025-03-22T15:00:00+00:00,FT,Glentoran,5352,Crusaders FC,697,0,1,True
-1222044,2025-03-24T20:00:00+00:00,FT,Dungannon Swifts,5351,Linfield,583,0,3,True
-1366542,2025-04-01T18:45:00+00:00,FT,Linfield,583,Crusaders FC,697,3,1,True
-1366555,2025-04-01T18:45:00+00:00,FT,Ballymena United,668,Loughgall,5345,5,2,True
-1366557,2025-04-01T18:45:00+00:00,FT,Portadown,5348,Glenavon FC,2275,1,1,True
-1366556,2025-04-01T18:45:00+00:00,FT,Carrick Rangers,5350,Cliftonville FC,2266,1,3,True
-1366540,2025-04-01T18:45:00+00:00,FT,Dungannon Swifts,5351,Larne,5354,1,1,True
-1366541,2025-04-01T18:45:00+00:00,FT,Glentoran,5352,Coleraine FC,669,2,1,True
-1366545,2025-04-05T12:00:00+00:00,FT,Linfield,583,Glentoran,5352,2,1,True
-1366543,2025-04-05T14:00:00+00:00,FT,Coleraine FC,669,Dungannon Swifts,5351,3,2,True
-1366544,2025-04-05T14:00:00+00:00,FT,Crusaders FC,697,Larne,5354,2,2,True
-1366559,2025-04-05T14:00:00+00:00,FT,Cliftonville FC,2266,Ballymena United,668,5,0,True
-1366560,2025-04-05T14:00:00+00:00,FT,Glenavon FC,2275,Loughgall,5345,0,1,True
-1366558,2025-04-05T14:00:00+00:00,FT,Carrick Rangers,5350,Portadown,5348,4,1,True
-1366548,2025-04-12T14:00:00+00:00,FT,Linfield,583,Dungannon Swifts,5351,2,0,True
-1366561,2025-04-12T14:00:00+00:00,FT,Ballymena United,668,Carrick Rangers,5350,1,1,True
-1366546,2025-04-12T14:00:00+00:00,FT,Coleraine FC,669,Larne,5354,1,2,True
-1366547,2025-04-12T14:00:00+00:00,FT,Crusaders FC,697,Glentoran,5352,0,4,True
-1366563,2025-04-12T14:00:00+00:00,FT,Cliftonville FC,2266,Glenavon FC,2275,2,0,True
-1366562,2025-04-12T14:00:00+00:00,FT,Portadown,5348,Loughgall,5345,3,1,True
-1366549,2025-04-18T18:45:00+00:00,FT,Larne,5354,Linfield,583,2,1,True
-1366550,2025-04-19T14:00:00+00:00,FT,Crusaders FC,697,Coleraine FC,669,3,0,True
-1366564,2025-04-19T14:00:00+00:00,FT,Glenavon FC,2275,Ballymena United,668,2,0,True
-1366565,2025-04-19T14:00:00+00:00,FT,Loughgall,5345,Carrick Rangers,5350,2,2,True
-1366566,2025-04-19T14:00:00+00:00,FT,Portadown,5348,Cliftonville FC,2266,2,0,True
-1366551,2025-04-19T14:00:00+00:00,FT,Dungannon Swifts,5351,Glentoran,5352,3,2,True
-1366567,2025-04-26T14:00:00+00:00,FT,Carrick Rangers,5350,Glenavon FC,2275,0,4,True
-1366552,2025-04-26T16:30:00+00:00,FT,Coleraine FC,669,Linfield,583,1,0,True
-1366568,2025-04-26T16:30:00+00:00,FT,Loughgall,5345,Cliftonville FC,2266,1,4,True
-1366569,2025-04-26T16:30:00+00:00,FT,Portadown,5348,Ballymena United,668,2,1,True
-1366553,2025-04-26T16:30:00+00:00,FT,Dungannon Swifts,5351,Crusaders FC,697,1,0,True
-1366554,2025-04-26T16:30:00+00:00,FT,Larne,5354,Glentoran,5352,0,0,True
-1373288,2025-04-29T18:45:00+00:00,FT,Annagh United,11109,Carrick Rangers,5350,2,5,True
-1373289,2025-05-02T18:45:00+00:00,FT,Carrick Rangers,5350,Annagh United,11109,3,1,True
-1374058,2025-05-07T18:45:00+00:00,FT,Coleraine FC,669,Crusaders FC,697,1,0,True
-1374057,2025-05-07T18:45:00+00:00,FT,Glentoran,5352,Cliftonville FC,2266,0,2,True
-1374874,2025-05-11T13:00:00+00:00,FT,Coleraine FC,669,Cliftonville FC,2266,0,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1221854,2024-08-09T18:45:00+00:00,FT,Regular Season - 1,Glentoran,5352,Crusaders FC,697,0,1,True
+1221850,2024-08-10T14:00:00+00:00,FT,Regular Season - 1,Ballymena United,668,Linfield,583,0,2,True
+1221851,2024-08-10T14:00:00+00:00,FT,Regular Season - 1,Carrick Rangers,5350,Glenavon FC,2275,2,0,True
+1221853,2024-08-10T14:00:00+00:00,FT,Regular Season - 1,Dungannon Swifts,5351,Coleraine FC,669,1,1,True
+1221852,2024-08-11T14:00:00+00:00,FT,Regular Season - 1,Cliftonville FC,2266,Portadown,5348,1,0,True
+1221856,2024-08-16T18:45:00+00:00,FT,Regular Season - 2,Coleraine FC,669,Ballymena United,668,4,2,True
+1221859,2024-08-17T14:00:00+00:00,FT,Regular Season - 2,Linfield,583,Dungannon Swifts,5351,3,1,True
+1221858,2024-08-17T14:00:00+00:00,FT,Regular Season - 2,Glenavon FC,2275,Cliftonville FC,2266,1,2,True
+1221860,2024-08-17T14:00:00+00:00,FT,Regular Season - 2,Loughgall,5345,Carrick Rangers,5350,3,0,True
+1221861,2024-08-17T14:00:00+00:00,FT,Regular Season - 2,Portadown,5348,Glentoran,5352,1,2,True
+1221862,2024-08-20T18:45:00+00:00,FT,Regular Season - 3,Ballymena United,668,Crusaders FC,697,0,1,True
+1221864,2024-08-20T18:45:00+00:00,FT,Regular Season - 3,Cliftonville FC,2266,Dungannon Swifts,5351,1,0,True
+1221865,2024-08-20T18:45:00+00:00,FT,Regular Season - 3,Glenavon FC,2275,Linfield,583,0,3,True
+1221867,2024-08-20T18:45:00+00:00,FT,Regular Season - 3,Loughgall,5345,Portadown,5348,2,2,True
+1221866,2024-08-20T18:45:00+00:00,FT,Regular Season - 3,Glentoran,5352,Coleraine FC,669,0,0,True
+1221868,2024-08-23T18:45:00+00:00,FT,Regular Season - 4,Carrick Rangers,5350,Glentoran,5352,2,3,True
+1221873,2024-08-24T14:00:00+00:00,FT,Regular Season - 4,Linfield,583,Loughgall,5345,5,1,True
+1221869,2024-08-24T14:00:00+00:00,FT,Regular Season - 4,Coleraine FC,669,Glenavon FC,2275,0,2,True
+1221870,2024-08-24T14:00:00+00:00,FT,Regular Season - 4,Crusaders FC,697,Cliftonville FC,2266,1,1,True
+1221871,2024-08-24T14:00:00+00:00,FT,Regular Season - 4,Dungannon Swifts,5351,Ballymena United,668,1,0,True
+1221874,2024-08-30T18:45:00+00:00,FT,Regular Season - 5,Ballymena United,668,Glenavon FC,2275,3,1,True
+1221876,2024-08-30T18:45:00+00:00,FT,Regular Season - 5,Portadown,5348,Linfield,583,2,2,True
+1221877,2024-08-31T14:00:00+00:00,FT,Regular Season - 5,Crusaders FC,697,Carrick Rangers,5350,2,1,True
+1221879,2024-08-31T14:00:00+00:00,FT,Regular Season - 5,Loughgall,5345,Dungannon Swifts,5351,0,2,True
+1221878,2024-08-31T14:00:00+00:00,FT,Regular Season - 5,Glentoran,5352,Cliftonville FC,2266,1,0,True
+1221875,2024-09-01T13:15:00+00:00,FT,Regular Season - 5,Coleraine FC,669,Larne,5354,1,1,True
+1221883,2024-09-07T14:00:00+00:00,FT,Regular Season - 6,Glenavon FC,2275,Loughgall,5345,2,2,True
+1221880,2024-09-07T14:00:00+00:00,FT,Regular Season - 6,Carrick Rangers,5350,Portadown,5348,0,1,True
+1221882,2024-09-07T14:00:00+00:00,FT,Regular Season - 6,Dungannon Swifts,5351,Glentoran,5352,1,0,True
+1221884,2024-09-07T14:00:00+00:00,FT,Regular Season - 6,Larne,5354,Ballymena United,668,0,1,True
+1221886,2024-09-13T18:45:00+00:00,FT,Regular Season - 7,Portadown,5348,Dungannon Swifts,5351,2,1,True
+1221890,2024-09-14T14:00:00+00:00,FT,Regular Season - 7,Linfield,583,Larne,5354,0,1,True
+1221887,2024-09-14T14:00:00+00:00,FT,Regular Season - 7,Ballymena United,668,Glentoran,5352,1,0,True
+1221888,2024-09-14T14:00:00+00:00,FT,Regular Season - 7,Coleraine FC,669,Carrick Rangers,5350,3,1,True
+1221889,2024-09-14T14:00:00+00:00,FT,Regular Season - 7,Crusaders FC,697,Glenavon FC,2275,0,1,True
+1221891,2024-09-14T14:00:00+00:00,FT,Regular Season - 7,Loughgall,5345,Cliftonville FC,2266,1,5,True
+1221893,2024-09-17T18:45:00+00:00,FT,Regular Season - 8,Cliftonville FC,2266,Linfield,583,0,0,True
+1221895,2024-09-17T18:45:00+00:00,FT,Regular Season - 8,Glenavon FC,2275,Larne,5354,0,0,True
+1221897,2024-09-17T18:45:00+00:00,FT,Regular Season - 8,Portadown,5348,Coleraine FC,669,2,2,True
+1221892,2024-09-17T18:45:00+00:00,FT,Regular Season - 8,Carrick Rangers,5350,Ballymena United,668,1,4,True
+1221894,2024-09-17T18:45:00+00:00,FT,Regular Season - 8,Dungannon Swifts,5351,Crusaders FC,697,1,0,True
+1221896,2024-09-17T18:45:00+00:00,FT,Regular Season - 8,Glentoran,5352,Loughgall,5345,2,0,True
+1221902,2024-09-20T18:45:00+00:00,FT,Regular Season - 9,Larne,5354,Glentoran,5352,2,0,True
+1221903,2024-09-21T14:00:00+00:00,FT,Regular Season - 9,Linfield,583,Carrick Rangers,5350,1,0,True
+1221898,2024-09-21T14:00:00+00:00,FT,Regular Season - 9,Ballymena United,668,Cliftonville FC,2266,3,2,True
+1221899,2024-09-21T14:00:00+00:00,FT,Regular Season - 9,Coleraine FC,669,Loughgall,5345,2,0,True
+1221900,2024-09-21T14:00:00+00:00,FT,Regular Season - 9,Crusaders FC,697,Portadown,5348,0,3,True
+1221901,2024-09-21T14:00:00+00:00,FT,Regular Season - 9,Glenavon FC,2275,Dungannon Swifts,5351,1,1,True
+1221855,2024-09-24T18:45:00+00:00,FT,Regular Season - 1,Larne,5354,Loughgall,5345,2,0,True
+1221904,2024-09-27T18:45:00+00:00,FT,Regular Season - 10,Cliftonville FC,2266,Larne,5354,1,3,True
+1221905,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Coleraine FC,669,Linfield,583,0,3,True
+1221908,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Loughgall,5345,Crusaders FC,697,0,4,True
+1221909,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Portadown,5348,Ballymena United,668,0,1,True
+1221906,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Dungannon Swifts,5351,Carrick Rangers,5350,4,0,True
+1221907,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Glentoran,5352,Glenavon FC,2275,0,0,True
+1221915,2024-10-04T18:45:00+00:00,FT,Regular Season - 11,Linfield,583,Glentoran,5352,1,3,True
+1221910,2024-10-05T14:00:00+00:00,FT,Regular Season - 11,Ballymena United,668,Loughgall,5345,4,1,True
+1221912,2024-10-05T14:00:00+00:00,FT,Regular Season - 11,Crusaders FC,697,Coleraine FC,669,2,1,True
+1221913,2024-10-05T14:00:00+00:00,FT,Regular Season - 11,Glenavon FC,2275,Portadown,5348,2,1,True
+1221911,2024-10-05T14:00:00+00:00,FT,Regular Season - 11,Carrick Rangers,5350,Cliftonville FC,2266,2,0,True
+1221914,2024-10-06T13:00:00+00:00,FT,Regular Season - 11,Larne,5354,Dungannon Swifts,5351,0,3,True
+1221918,2024-10-12T14:00:00+00:00,FT,Regular Season - 12,Crusaders FC,697,Linfield,583,2,3,True
+1221919,2024-10-12T14:00:00+00:00,FT,Regular Season - 12,Glenavon FC,2275,Ballymena United,668,0,1,True
+1221977,2024-10-12T14:00:00+00:00,FT,Regular Season - 22,Carrick Rangers,5350,Coleraine FC,669,2,1,True
+1221920,2024-10-12T14:00:00+00:00,FT,Regular Season - 12,Glentoran,5352,Dungannon Swifts,5351,2,0,True
+1221921,2024-10-12T16:30:00+00:00,FT,Regular Season - 12,Portadown,5348,Loughgall,5345,1,0,True
+1221927,2024-10-18T18:45:00+00:00,FT,Regular Season - 13,Loughgall,5345,Linfield,583,1,3,True
+1221923,2024-10-19T13:30:00+00:00,FT,Regular Season - 13,Cliftonville FC,2266,Glenavon FC,2275,0,0,True
+1221922,2024-10-19T14:00:00+00:00,FT,Regular Season - 13,Ballymena United,668,Coleraine FC,669,0,1,True
+1221924,2024-10-19T14:00:00+00:00,FT,Regular Season - 13,Dungannon Swifts,5351,Portadown,5348,2,0,True
+1221925,2024-10-19T14:00:00+00:00,FT,Regular Season - 13,Glentoran,5352,Carrick Rangers,5350,1,1,True
+1221926,2024-10-19T14:00:00+00:00,FT,Regular Season - 13,Larne,5354,Crusaders FC,697,1,1,True
+1221881,2024-10-22T18:45:00+00:00,FT,Regular Season - 6,Cliftonville FC,2266,Coleraine FC,669,2,1,True
+1221932,2024-10-26T14:00:00+00:00,FT,Regular Season - 14,Linfield,583,Cliftonville FC,2266,1,2,True
+1221928,2024-10-26T14:00:00+00:00,FT,Regular Season - 14,Coleraine FC,669,Glentoran,5352,2,1,True
+1221929,2024-10-26T14:00:00+00:00,FT,Regular Season - 14,Crusaders FC,697,Ballymena United,668,1,0,True
+1221931,2024-10-26T14:00:00+00:00,FT,Regular Season - 14,Glenavon FC,2275,Carrick Rangers,5350,1,1,True
+1221930,2024-10-26T14:00:00+00:00,FT,Regular Season - 14,Dungannon Swifts,5351,Loughgall,5345,1,3,True
+1221933,2024-10-27T14:00:00+00:00,FT,Regular Season - 14,Portadown,5348,Larne,5354,2,1,True
+1221934,2024-11-01T19:45:00+00:00,FT,Regular Season - 15,Ballymena United,668,Portadown,5348,0,3,True
+1221936,2024-11-01T19:45:00+00:00,FT,Regular Season - 15,Cliftonville FC,2266,Crusaders FC,697,1,0,True
+1221937,2024-11-02T15:00:00+00:00,FT,Regular Season - 15,Coleraine FC,669,Dungannon Swifts,5351,4,1,True
+1221939,2024-11-02T15:00:00+00:00,FT,Regular Season - 15,Loughgall,5345,Glenavon FC,2275,3,0,True
+1221938,2024-11-02T15:00:00+00:00,FT,Regular Season - 15,Glentoran,5352,Larne,5354,0,2,True
+1221935,2024-11-03T12:30:00+00:00,FT,Regular Season - 15,Carrick Rangers,5350,Linfield,583,1,3,True
+1221944,2024-11-09T15:00:00+00:00,FT,Regular Season - 16,Linfield,583,Ballymena United,668,2,0,True
+1221940,2024-11-09T15:00:00+00:00,FT,Regular Season - 16,Crusaders FC,697,Loughgall,5345,3,1,True
+1221942,2024-11-09T15:00:00+00:00,FT,Regular Season - 16,Glenavon FC,2275,Glentoran,5352,0,3,True
+1221945,2024-11-09T15:00:00+00:00,FT,Regular Season - 16,Portadown,5348,Carrick Rangers,5350,1,1,True
+1221941,2024-11-09T15:00:00+00:00,FT,Regular Season - 16,Dungannon Swifts,5351,Cliftonville FC,2266,1,4,True
+1221943,2024-11-10T14:00:00+00:00,FT,Regular Season - 16,Larne,5354,Coleraine FC,669,2,1,True
+1221947,2024-11-16T15:00:00+00:00,FT,Regular Season - 17,Cliftonville FC,2266,Ballymena United,668,0,1,True
+1221951,2024-11-16T15:00:00+00:00,FT,Regular Season - 17,Loughgall,5345,Coleraine FC,669,0,4,True
+1221946,2024-11-16T15:00:00+00:00,FT,Regular Season - 17,Carrick Rangers,5350,Crusaders FC,697,3,0,True
+1221948,2024-11-16T15:00:00+00:00,FT,Regular Season - 17,Dungannon Swifts,5351,Glenavon FC,2275,2,0,True
+1221949,2024-11-16T15:00:00+00:00,FT,Regular Season - 17,Glentoran,5352,Portadown,5348,0,2,True
+1221950,2024-11-16T17:30:00+00:00,FT,Regular Season - 17,Larne,5354,Linfield,583,0,1,True
+1221956,2024-11-22T19:45:00+00:00,FT,Regular Season - 18,Glentoran,5352,Linfield,583,1,0,True
+1221954,2024-11-23T15:00:00+00:00,FT,Regular Season - 18,Cliftonville FC,2266,Loughgall,5345,4,0,True
+1221957,2024-11-23T15:00:00+00:00,FT,Regular Season - 18,Portadown,5348,Glenavon FC,2275,1,0,True
+1221953,2024-11-23T15:00:00+00:00,FT,Regular Season - 18,Carrick Rangers,5350,Dungannon Swifts,5351,0,1,True
+1221955,2024-11-24T12:30:00+00:00,FT,Regular Season - 18,Coleraine FC,669,Crusaders FC,697,1,2,True
+1221962,2024-11-30T15:00:00+00:00,FT,Regular Season - 19,Linfield,583,Portadown,5348,2,1,True
+1221958,2024-11-30T15:00:00+00:00,FT,Regular Season - 19,Ballymena United,668,Carrick Rangers,5350,1,2,True
+1221959,2024-11-30T15:00:00+00:00,FT,Regular Season - 19,Crusaders FC,697,Dungannon Swifts,5351,2,2,True
+1221960,2024-11-30T15:00:00+00:00,FT,Regular Season - 19,Glenavon FC,2275,Coleraine FC,669,3,3,True
+1221963,2024-11-30T15:00:00+00:00,FT,Regular Season - 19,Loughgall,5345,Glentoran,5352,2,2,True
+1221961,2024-12-01T14:00:00+00:00,FT,Regular Season - 19,Larne,5354,Cliftonville FC,2266,1,1,True
+1221972,2024-12-13T19:45:00+00:00,FT,Regular Season - 21,Crusaders FC,697,Glentoran,5352,1,3,True
+1221974,2024-12-14T15:00:00+00:00,FT,Regular Season - 21,Linfield,583,Coleraine FC,669,3,0,True
+1221970,2024-12-14T15:00:00+00:00,FT,Regular Season - 21,Ballymena United,668,Dungannon Swifts,5351,0,1,True
+1221975,2024-12-14T15:00:00+00:00,FT,Regular Season - 21,Portadown,5348,Cliftonville FC,2266,2,0,True
+1221971,2024-12-14T15:00:00+00:00,FT,Regular Season - 21,Carrick Rangers,5350,Loughgall,5345,0,0,True
+1221967,2024-12-17T19:45:00+00:00,FT,Regular Season - 20,Glenavon FC,2275,Crusaders FC,697,3,1,True
+1221966,2024-12-17T19:45:00+00:00,FT,Regular Season - 20,Dungannon Swifts,5351,Linfield,583,0,1,True
+1221979,2024-12-21T15:00:00+00:00,FT,Regular Season - 22,Linfield,583,Glenavon FC,2275,1,0,True
+1221976,2024-12-21T15:00:00+00:00,FT,Regular Season - 22,Cliftonville FC,2266,Glentoran,5352,1,2,True
+1221980,2024-12-21T15:00:00+00:00,FT,Regular Season - 22,Loughgall,5345,Ballymena United,668,2,3,True
+1221981,2024-12-21T15:00:00+00:00,FT,Regular Season - 22,Portadown,5348,Crusaders FC,697,1,0,True
+1221978,2024-12-23T19:45:00+00:00,FT,Regular Season - 22,Dungannon Swifts,5351,Larne,5354,0,1,True
+1221983,2024-12-26T15:00:00+00:00,FT,Regular Season - 23,Coleraine FC,669,Ballymena United,668,2,2,True
+1221982,2024-12-26T15:00:00+00:00,FT,Regular Season - 23,Crusaders FC,697,Cliftonville FC,2266,2,0,True
+1221985,2024-12-26T15:00:00+00:00,FT,Regular Season - 23,Glenavon FC,2275,Portadown,5348,2,0,True
+1221984,2024-12-26T15:00:00+00:00,FT,Regular Season - 23,Dungannon Swifts,5351,Loughgall,5345,2,1,True
+1221986,2024-12-26T15:00:00+00:00,FT,Regular Season - 23,Glentoran,5352,Linfield,583,0,0,True
+1221987,2024-12-26T15:00:00+00:00,FT,Regular Season - 23,Larne,5354,Carrick Rangers,5350,0,0,True
+1221988,2024-12-30T19:45:00+00:00,FT,Regular Season - 24,Ballymena United,668,Glenavon FC,2275,0,2,True
+1221992,2024-12-30T19:45:00+00:00,FT,Regular Season - 24,Loughgall,5345,Coleraine FC,669,1,3,True
+1221993,2024-12-30T19:45:00+00:00,FT,Regular Season - 24,Portadown,5348,Glentoran,5352,0,2,True
+1221989,2024-12-30T19:45:00+00:00,FT,Regular Season - 24,Carrick Rangers,5350,Crusaders FC,697,0,0,True
+1221857,2025-01-07T19:45:00+00:00,FT,Regular Season - 2,Crusaders FC,697,Larne,5354,1,3,True
+1221997,2025-01-10T19:45:00+00:00,FT,Regular Season - 25,Larne,5354,Cliftonville FC,2266,2,0,True
+1221998,2025-01-11T15:00:00+00:00,FT,Regular Season - 25,Linfield,583,Carrick Rangers,5350,3,0,True
+1221995,2025-01-11T15:00:00+00:00,FT,Regular Season - 25,Crusaders FC,697,Dungannon Swifts,5351,1,5,True
+1221999,2025-01-11T15:00:00+00:00,FT,Regular Season - 25,Loughgall,5345,Portadown,5348,0,1,True
+1222003,2025-01-17T19:45:00+00:00,FT,Regular Season - 26,Dungannon Swifts,5351,Glenavon FC,2275,2,3,True
+1222002,2025-01-18T15:00:00+00:00,FT,Regular Season - 26,Coleraine FC,669,Crusaders FC,697,0,2,True
+1222001,2025-01-18T15:00:00+00:00,FT,Regular Season - 26,Cliftonville FC,2266,Loughgall,5345,2,0,True
+1222005,2025-01-18T15:00:00+00:00,FT,Regular Season - 26,Portadown,5348,Linfield,583,1,3,True
+1222000,2025-01-18T15:00:00+00:00,FT,Regular Season - 26,Carrick Rangers,5350,Ballymena United,668,0,0,True
+1222006,2025-01-25T15:00:00+00:00,FT,Regular Season - 27,Crusaders FC,697,Portadown,5348,3,2,True
+1222008,2025-01-25T15:00:00+00:00,FT,Regular Season - 27,Glenavon FC,2275,Carrick Rangers,5350,2,1,True
+1222011,2025-01-25T15:00:00+00:00,FT,Regular Season - 27,Loughgall,5345,Glentoran,5352,1,2,True
+1222007,2025-01-25T15:00:00+00:00,FT,Regular Season - 27,Dungannon Swifts,5351,Coleraine FC,669,1,1,True
+1222009,2025-01-25T15:00:00+00:00,FT,Regular Season - 27,Larne,5354,Ballymena United,668,2,1,True
+1222010,2025-01-25T17:30:00+00:00,FT,Regular Season - 27,Linfield,583,Cliftonville FC,2266,2,1,True
+1221885,2025-01-28T19:45:00+00:00,FT,Regular Season - 6,Linfield,583,Crusaders FC,697,2,1,True
+1221872,2025-02-01T17:30:00+00:00,FT,Regular Season - 4,Larne,5354,Portadown,5348,1,1,True
+1221917,2025-02-04T19:45:00+00:00,FT,Regular Season - 12,Coleraine FC,669,Cliftonville FC,2266,0,0,True
+1221863,2025-02-04T19:45:00+00:00,FT,Regular Season - 3,Carrick Rangers,5350,Larne,5354,1,2,True
+1222012,2025-02-07T19:45:00+00:00,FT,Regular Season - 28,Ballymena United,668,Linfield,583,2,2,True
+1222013,2025-02-08T15:00:00+00:00,FT,Regular Season - 28,Carrick Rangers,5350,Coleraine FC,669,0,1,True
+1222015,2025-02-08T15:00:00+00:00,FT,Regular Season - 28,Glentoran,5352,Dungannon Swifts,5351,1,0,True
+1222016,2025-02-08T15:00:00+00:00,FT,Regular Season - 28,Larne,5354,Crusaders FC,697,0,1,True
+1222014,2025-02-09T15:00:00+00:00,FT,Regular Season - 28,Cliftonville FC,2266,Portadown,5348,2,2,True
+1221991,2025-02-11T19:45:00+00:00,FT,Regular Season - 24,Linfield,583,Larne,5354,1,0,True
+1221964,2025-02-12T19:45:00+00:00,FT,Regular Season - 20,Cliftonville FC,2266,Carrick Rangers,5350,3,0,True
+1222018,2025-02-14T19:45:00+00:00,FT,Regular Season - 29,Coleraine FC,669,Glentoran,5352,1,2,True
+1222022,2025-02-15T15:00:00+00:00,FT,Regular Season - 29,Linfield,583,Loughgall,5345,1,0,True
+1222019,2025-02-15T15:00:00+00:00,FT,Regular Season - 29,Crusaders FC,697,Ballymena United,668,3,1,True
+1222021,2025-02-15T15:00:00+00:00,FT,Regular Season - 29,Glenavon FC,2275,Cliftonville FC,2266,3,1,True
+1222020,2025-02-15T15:00:00+00:00,FT,Regular Season - 29,Dungannon Swifts,5351,Carrick Rangers,5350,3,1,True
+1222023,2025-02-15T17:30:00+00:00,FT,Regular Season - 29,Portadown,5348,Larne,5354,2,0,True
+1221994,2025-02-18T19:45:00+00:00,FT,Regular Season - 25,Ballymena United,668,Glentoran,5352,1,1,True
+1221973,2025-02-18T19:45:00+00:00,FT,Regular Season - 21,Larne,5354,Glenavon FC,2275,1,1,True
+1222026,2025-02-21T19:45:00+00:00,FT,Regular Season - 30,Cliftonville FC,2266,Glentoran,5352,2,0,True
+1222029,2025-02-22T15:00:00+00:00,FT,Regular Season - 30,Linfield,583,Coleraine FC,669,0,2,True
+1222024,2025-02-22T15:00:00+00:00,FT,Regular Season - 30,Ballymena United,668,Portadown,5348,2,0,True
+1222027,2025-02-22T15:00:00+00:00,FT,Regular Season - 30,Glenavon FC,2275,Crusaders FC,697,0,1,True
+1222025,2025-02-22T15:00:00+00:00,FT,Regular Season - 30,Carrick Rangers,5350,Loughgall,5345,0,0,True
+1222028,2025-02-22T15:00:00+00:00,FT,Regular Season - 30,Larne,5354,Dungannon Swifts,5351,0,1,True
+1221969,2025-02-26T19:45:00+00:00,FT,Regular Season - 20,Loughgall,5345,Larne,5354,1,4,True
+1221965,2025-03-01T15:00:00+00:00,FT,Regular Season - 20,Coleraine FC,669,Portadown,5348,2,0,True
+1222017,2025-03-04T19:45:00+00:00,FT,Regular Season - 28,Loughgall,5345,Glenavon FC,2275,0,2,True
+1221916,2025-03-04T19:45:00+00:00,FT,Regular Season - 12,Carrick Rangers,5350,Larne,5354,1,0,True
+1221968,2025-03-04T19:45:00+00:00,FT,Regular Season - 20,Glentoran,5352,Ballymena United,668,1,0,True
+1222031,2025-03-07T19:45:00+00:00,FT,Regular Season - 31,Crusaders FC,697,Linfield,583,0,2,True
+1221996,2025-03-08T15:00:00+00:00,FT,Regular Season - 25,Glenavon FC,2275,Coleraine FC,669,0,1,True
+1222034,2025-03-08T15:00:00+00:00,FT,Regular Season - 31,Loughgall,5345,Larne,5354,0,1,True
+1222032,2025-03-08T15:00:00+00:00,FT,Regular Season - 31,Dungannon Swifts,5351,Ballymena United,668,0,3,True
+1222035,2025-03-08T17:30:00+00:00,FT,Regular Season - 31,Portadown,5348,Carrick Rangers,5350,1,0,True
+1221952,2025-03-11T19:45:00+00:00,FT,Regular Season - 18,Ballymena United,668,Larne,5354,1,2,True
+1221990,2025-03-12T19:45:00+00:00,FT,Regular Season - 24,Cliftonville FC,2266,Dungannon Swifts,5351,0,2,True
+1222033,2025-03-12T19:45:00+00:00,FT,Regular Season - 31,Glentoran,5352,Glenavon FC,2275,3,3,True
+1222040,2025-03-15T15:00:00+00:00,FT,Regular Season - 32,Linfield,583,Glenavon FC,2275,2,0,True
+1222036,2025-03-15T15:00:00+00:00,FT,Regular Season - 32,Ballymena United,668,Cliftonville FC,2266,1,0,True
+1222038,2025-03-15T15:00:00+00:00,FT,Regular Season - 32,Crusaders FC,697,Loughgall,5345,1,1,True
+1222037,2025-03-15T15:00:00+00:00,FT,Regular Season - 32,Carrick Rangers,5350,Glentoran,5352,0,0,True
+1222041,2025-03-15T17:30:00+00:00,FT,Regular Season - 32,Portadown,5348,Dungannon Swifts,5351,1,1,True
+1222039,2025-03-15T17:30:00+00:00,FT,Regular Season - 32,Larne,5354,Coleraine FC,669,1,1,True
+1222030,2025-03-18T19:45:00+00:00,FT,Regular Season - 31,Coleraine FC,669,Cliftonville FC,2266,2,2,True
+1222004,2025-03-18T19:45:00+00:00,FT,Regular Season - 26,Glentoran,5352,Larne,5354,2,2,True
+1222043,2025-03-22T15:00:00+00:00,FT,Regular Season - 33,Coleraine FC,669,Portadown,5348,1,0,True
+1222042,2025-03-22T15:00:00+00:00,FT,Regular Season - 33,Cliftonville FC,2266,Carrick Rangers,5350,3,0,True
+1222045,2025-03-22T15:00:00+00:00,FT,Regular Season - 33,Glenavon FC,2275,Larne,5354,0,1,True
+1222047,2025-03-22T15:00:00+00:00,FT,Regular Season - 33,Loughgall,5345,Ballymena United,668,2,1,True
+1222046,2025-03-22T15:00:00+00:00,FT,Regular Season - 33,Glentoran,5352,Crusaders FC,697,0,1,True
+1222044,2025-03-24T20:00:00+00:00,FT,Regular Season - 33,Dungannon Swifts,5351,Linfield,583,0,3,True
+1366542,2025-04-01T18:45:00+00:00,FT,Championship Round - 1,Linfield,583,Crusaders FC,697,3,1,True
+1366555,2025-04-01T18:45:00+00:00,FT,Relegation Round - 1,Ballymena United,668,Loughgall,5345,5,2,True
+1366557,2025-04-01T18:45:00+00:00,FT,Relegation Round - 1,Portadown,5348,Glenavon FC,2275,1,1,True
+1366556,2025-04-01T18:45:00+00:00,FT,Relegation Round - 1,Carrick Rangers,5350,Cliftonville FC,2266,1,3,True
+1366540,2025-04-01T18:45:00+00:00,FT,Championship Round - 1,Dungannon Swifts,5351,Larne,5354,1,1,True
+1366541,2025-04-01T18:45:00+00:00,FT,Championship Round - 1,Glentoran,5352,Coleraine FC,669,2,1,True
+1366545,2025-04-05T12:00:00+00:00,FT,Championship Round - 2,Linfield,583,Glentoran,5352,2,1,True
+1366543,2025-04-05T14:00:00+00:00,FT,Championship Round - 2,Coleraine FC,669,Dungannon Swifts,5351,3,2,True
+1366544,2025-04-05T14:00:00+00:00,FT,Championship Round - 2,Crusaders FC,697,Larne,5354,2,2,True
+1366559,2025-04-05T14:00:00+00:00,FT,Relegation Round - 2,Cliftonville FC,2266,Ballymena United,668,5,0,True
+1366560,2025-04-05T14:00:00+00:00,FT,Relegation Round - 2,Glenavon FC,2275,Loughgall,5345,0,1,True
+1366558,2025-04-05T14:00:00+00:00,FT,Relegation Round - 2,Carrick Rangers,5350,Portadown,5348,4,1,True
+1366548,2025-04-12T14:00:00+00:00,FT,Championship Round - 3,Linfield,583,Dungannon Swifts,5351,2,0,True
+1366561,2025-04-12T14:00:00+00:00,FT,Relegation Round - 3,Ballymena United,668,Carrick Rangers,5350,1,1,True
+1366546,2025-04-12T14:00:00+00:00,FT,Championship Round - 3,Coleraine FC,669,Larne,5354,1,2,True
+1366547,2025-04-12T14:00:00+00:00,FT,Championship Round - 3,Crusaders FC,697,Glentoran,5352,0,4,True
+1366563,2025-04-12T14:00:00+00:00,FT,Relegation Round - 3,Cliftonville FC,2266,Glenavon FC,2275,2,0,True
+1366562,2025-04-12T14:00:00+00:00,FT,Relegation Round - 3,Portadown,5348,Loughgall,5345,3,1,True
+1366549,2025-04-18T18:45:00+00:00,FT,Championship Round - 4,Larne,5354,Linfield,583,2,1,True
+1366550,2025-04-19T14:00:00+00:00,FT,Championship Round - 4,Crusaders FC,697,Coleraine FC,669,3,0,True
+1366564,2025-04-19T14:00:00+00:00,FT,Relegation Round - 4,Glenavon FC,2275,Ballymena United,668,2,0,True
+1366565,2025-04-19T14:00:00+00:00,FT,Relegation Round - 4,Loughgall,5345,Carrick Rangers,5350,2,2,True
+1366566,2025-04-19T14:00:00+00:00,FT,Relegation Round - 4,Portadown,5348,Cliftonville FC,2266,2,0,True
+1366551,2025-04-19T14:00:00+00:00,FT,Championship Round - 4,Dungannon Swifts,5351,Glentoran,5352,3,2,True
+1366567,2025-04-26T14:00:00+00:00,FT,Relegation Round - 5,Carrick Rangers,5350,Glenavon FC,2275,0,4,True
+1366552,2025-04-26T16:30:00+00:00,FT,Championship Round - 5,Coleraine FC,669,Linfield,583,1,0,True
+1366568,2025-04-26T16:30:00+00:00,FT,Relegation Round - 5,Loughgall,5345,Cliftonville FC,2266,1,4,True
+1366569,2025-04-26T16:30:00+00:00,FT,Relegation Round - 5,Portadown,5348,Ballymena United,668,2,1,True
+1366553,2025-04-26T16:30:00+00:00,FT,Championship Round - 5,Dungannon Swifts,5351,Crusaders FC,697,1,0,True
+1366554,2025-04-26T16:30:00+00:00,FT,Championship Round - 5,Larne,5354,Glentoran,5352,0,0,True
+1373288,2025-04-29T18:45:00+00:00,FT,Relegation Round,Annagh United,11109,Carrick Rangers,5350,2,5,True
+1373289,2025-05-02T18:45:00+00:00,FT,Relegation Round,Carrick Rangers,5350,Annagh United,11109,3,1,True
+1374058,2025-05-07T18:45:00+00:00,FT,Conference League Play-offs - Semi-finals,Coleraine FC,669,Crusaders FC,697,1,0,True
+1374057,2025-05-07T18:45:00+00:00,FT,Conference League Play-offs - Semi-finals,Glentoran,5352,Cliftonville FC,2266,0,2,True
+1374874,2025-05-11T13:00:00+00:00,FT,Conference League Play-offs - Final,Coleraine FC,669,Cliftonville FC,2266,0,2,True

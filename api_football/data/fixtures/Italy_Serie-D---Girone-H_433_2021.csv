@@ -1,0 +1,381 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+796921,2021-09-19T13:00:00+00:00,FT,Group H - 1,Casertana,885,Nola 1925,9560,2,1,True
+796920,2021-09-19T13:00:00+00:00,FT,Group H - 1,Bisceglie,1703,Nocerina,9548,0,0,True
+796925,2021-09-19T13:00:00+00:00,FT,Group H - 1,Nardò,9536,Team Altamura,9549,4,2,True
+796919,2021-09-19T13:00:00+00:00,FT,Group H - 1,Audace Cerignola,9539,Città di Fasano,5604,3,1,True
+796922,2021-09-19T13:00:00+00:00,FT,Group H - 1,Francavilla,9543,Brindisi,9541,2,1,True
+796923,2021-09-19T13:00:00+00:00,FT,Group H - 1,Gravina,9546,Casarano,9542,1,2,True
+796924,2021-09-19T13:00:00+00:00,FT,Group H - 1,Lavello,17847,Molfetta Calcio,17849,1,1,True
+796926,2021-09-19T13:00:00+00:00,FT,Group H - 1,Mariglianese,17848,Sorrento,9537,0,2,True
+796927,2021-09-19T13:00:00+00:00,FT,Group H - 1,Virtus Matino,17852,San Giorgio,17851,1,1,True
+796928,2021-09-19T13:30:00+00:00,FT,Group H - 1,Bitonto,9540,Rotonda,17850,2,2,True
+796931,2021-09-26T13:00:00+00:00,FT,Group H - 2,Città di Fasano,5604,Casertana,885,1,1,True
+796937,2021-09-26T13:00:00+00:00,FT,Group H - 2,Sorrento,9537,Virtus Matino,17852,0,2,True
+796929,2021-09-26T13:00:00+00:00,FT,Group H - 2,Brindisi,9541,Bitonto,9540,1,3,True
+796930,2021-09-26T13:00:00+00:00,FT,Group H - 2,Casarano,9542,Bisceglie,1703,0,1,True
+796935,2021-09-26T13:00:00+00:00,FT,Group H - 2,Nocerina,9548,Francavilla,9543,2,1,True
+796932,2021-09-26T13:00:00+00:00,FT,Group H - 2,Nola 1925,9560,Nardò,9536,2,1,True
+796934,2021-09-26T13:00:00+00:00,FT,Group H - 2,Molfetta Calcio,17849,Audace Cerignola,9539,1,1,True
+796936,2021-09-26T13:00:00+00:00,FT,Group H - 2,Rotonda,17850,Mariglianese,17848,0,1,True
+796933,2021-09-26T13:00:00+00:00,FT,Group H - 2,San Giorgio,17851,Lavello,17847,0,1,True
+796938,2021-09-26T17:00:00+00:00,FT,Group H - 2,Team Altamura,9549,Gravina,9546,0,1,True
+796947,2021-10-02T13:00:00+00:00,FT,Group H - 3,Mariglianese,17848,San Giorgio,17851,0,0,True
+796948,2021-10-02T13:00:00+00:00,FT,Group H - 3,Virtus Matino,17852,Molfetta Calcio,17849,0,3,True
+796939,2021-10-02T16:00:00+00:00,FT,Group H - 3,Audace Cerignola,9539,Nola 1925,9560,6,0,True
+796941,2021-10-03T13:00:00+00:00,FT,Group H - 3,Casertana,885,Team Altamura,9549,1,1,True
+796945,2021-10-03T13:00:00+00:00,FT,Group H - 3,Nardò,9536,Casarano,9542,0,1,True
+796940,2021-10-03T13:00:00+00:00,FT,Group H - 3,Bitonto,9540,Sorrento,9537,1,1,True
+796942,2021-10-03T13:00:00+00:00,FT,Group H - 3,Francavilla,9543,Rotonda,17850,2,0,True
+796946,2021-10-03T13:00:00+00:00,FT,Group H - 3,Nocerina,9548,Brindisi,9541,3,0,True
+796944,2021-10-03T13:00:00+00:00,FT,Group H - 3,Lavello,17847,Città di Fasano,5604,0,3,True
+796943,2021-10-03T14:00:00+00:00,FT,Group H - 3,Gravina,9546,Bisceglie,1703,1,0,True
+796949,2021-10-06T13:00:00+00:00,FT,Group H - 4,Bisceglie,1703,Casertana,885,0,0,True
+796951,2021-10-06T13:00:00+00:00,FT,Group H - 4,Città di Fasano,5604,Mariglianese,17848,1,0,True
+796957,2021-10-06T13:00:00+00:00,FT,Group H - 4,Sorrento,9537,Brindisi,9541,1,0,True
+796950,2021-10-06T13:00:00+00:00,FT,Group H - 4,Casarano,9542,Audace Cerignola,9539,2,0,True
+796954,2021-10-06T13:00:00+00:00,FT,Group H - 4,Gravina,9546,Nardò,9536,1,0,True
+796958,2021-10-06T13:00:00+00:00,FT,Group H - 4,Team Altamura,9549,Lavello,17847,1,2,True
+796952,2021-10-06T13:00:00+00:00,FT,Group H - 4,Nola 1925,9560,Virtus Matino,17852,2,1,True
+796955,2021-10-06T13:00:00+00:00,FT,Group H - 4,Molfetta Calcio,17849,Bitonto,9540,0,1,True
+796953,2021-10-06T13:00:00+00:00,FT,Group H - 4,San Giorgio,17851,Francavilla,9543,1,2,True
+796956,2021-10-07T13:00:00+00:00,FT,Group H - 4,Rotonda,17850,Nocerina,9548,1,0,True
+796962,2021-10-10T13:00:00+00:00,FT,Group H - 5,Casertana,885,Casarano,9542,1,0,True
+796965,2021-10-10T13:00:00+00:00,FT,Group H - 5,Nardò,9536,Bisceglie,1703,1,1,True
+796959,2021-10-10T13:00:00+00:00,FT,Group H - 5,Audace Cerignola,9539,Team Altamura,9549,0,1,True
+796960,2021-10-10T13:00:00+00:00,FT,Group H - 5,Bitonto,9540,San Giorgio,17851,2,1,True
+796961,2021-10-10T13:00:00+00:00,FT,Group H - 5,Brindisi,9541,Rotonda,17850,0,2,True
+796963,2021-10-10T13:00:00+00:00,FT,Group H - 5,Francavilla,9543,Sorrento,9537,5,0,True
+796964,2021-10-10T13:00:00+00:00,FT,Group H - 5,Lavello,17847,Nola 1925,9560,4,0,True
+796967,2021-10-10T13:00:00+00:00,FT,Group H - 5,Mariglianese,17848,Molfetta Calcio,17849,1,1,True
+796968,2021-10-10T13:00:00+00:00,FT,Group H - 5,Virtus Matino,17852,Città di Fasano,5604,1,1,True
+796966,2021-10-10T13:30:00+00:00,FT,Group H - 5,Nocerina,9548,Gravina,9546,2,1,True
+796975,2021-10-16T13:00:00+00:00,FT,Group H - 6,Molfetta Calcio,17849,Brindisi,9541,3,1,True
+796969,2021-10-17T13:00:00+00:00,FT,Group H - 6,Bisceglie,1703,Lavello,17847,1,2,True
+796971,2021-10-17T13:00:00+00:00,FT,Group H - 6,Città di Fasano,5604,Francavilla,9543,2,1,True
+796976,2021-10-17T13:00:00+00:00,FT,Group H - 6,Nardò,9536,Casertana,885,1,2,True
+796977,2021-10-17T13:00:00+00:00,FT,Group H - 6,Sorrento,9537,Nocerina,9548,0,0,True
+796970,2021-10-17T13:00:00+00:00,FT,Group H - 6,Casarano,9542,Virtus Matino,17852,1,0,True
+796972,2021-10-17T13:00:00+00:00,FT,Group H - 6,Nola 1925,9560,Bitonto,9540,1,2,True
+796973,2021-10-17T13:00:00+00:00,FT,Group H - 6,San Giorgio,17851,Rotonda,17850,1,1,True
+796974,2021-10-17T14:00:00+00:00,FT,Group H - 6,Gravina,9546,Audace Cerignola,9539,0,1,True
+796978,2021-10-17T14:00:00+00:00,FT,Group H - 6,Team Altamura,9549,Mariglianese,17848,2,2,True
+796982,2021-10-20T13:00:00+00:00,FT,Group H - 7,Casertana,885,Gravina,9546,5,1,True
+796979,2021-10-20T13:00:00+00:00,FT,Group H - 7,Audace Cerignola,9539,Bisceglie,1703,4,0,True
+796980,2021-10-20T13:00:00+00:00,FT,Group H - 7,Bitonto,9540,Città di Fasano,5604,3,0,True
+796981,2021-10-20T13:00:00+00:00,FT,Group H - 7,Brindisi,9541,San Giorgio,17851,0,0,True
+796983,2021-10-20T13:00:00+00:00,FT,Group H - 7,Francavilla,9543,Molfetta Calcio,17849,0,1,True
+796985,2021-10-20T13:00:00+00:00,FT,Group H - 7,Nocerina,9548,Nardò,9536,2,0,True
+796984,2021-10-20T13:00:00+00:00,FT,Group H - 7,Lavello,17847,Casarano,9542,4,1,True
+796987,2021-10-20T13:00:00+00:00,FT,Group H - 7,Mariglianese,17848,Nola 1925,9560,5,2,True
+796986,2021-10-20T13:00:00+00:00,FT,Group H - 7,Rotonda,17850,Sorrento,9537,3,0,True
+796988,2021-10-20T13:00:00+00:00,FT,Group H - 7,Virtus Matino,17852,Team Altamura,9549,0,2,True
+796991,2021-10-24T13:00:00+00:00,FT,Group H - 8,Casertana,885,Audace Cerignola,9539,2,2,True
+796989,2021-10-24T13:00:00+00:00,FT,Group H - 8,Bisceglie,1703,Mariglianese,17848,1,0,True
+796992,2021-10-24T13:00:00+00:00,FT,Group H - 8,Città di Fasano,5604,Rotonda,17850,0,1,True
+796997,2021-10-24T13:00:00+00:00,FT,Group H - 8,Nardò,9536,Lavello,17847,2,1,True
+796990,2021-10-24T13:00:00+00:00,FT,Group H - 8,Casarano,9542,Bitonto,9540,0,1,True
+796995,2021-10-24T13:00:00+00:00,FT,Group H - 8,Gravina,9546,Virtus Matino,17852,0,2,True
+796993,2021-10-24T13:00:00+00:00,FT,Group H - 8,Nola 1925,9560,Brindisi,9541,2,1,True
+796996,2021-10-24T13:00:00+00:00,FT,Group H - 8,Molfetta Calcio,17849,Sorrento,9537,1,1,True
+796994,2021-10-24T13:00:00+00:00,FT,Group H - 8,San Giorgio,17851,Nocerina,9548,0,1,True
+796998,2021-10-24T14:00:00+00:00,FT,Group H - 8,Team Altamura,9549,Francavilla,9543,0,1,True
+797006,2021-10-31T13:30:00+00:00,FT,Group H - 9,Sorrento,9537,San Giorgio,17851,3,1,True
+797000,2021-10-31T13:30:00+00:00,FT,Group H - 9,Bitonto,9540,Team Altamura,9549,2,1,True
+797001,2021-10-31T13:30:00+00:00,FT,Group H - 9,Brindisi,9541,Città di Fasano,5604,0,1,True
+797002,2021-10-31T13:30:00+00:00,FT,Group H - 9,Francavilla,9543,Nola 1925,9560,1,1,True
+797003,2021-10-31T13:30:00+00:00,FT,Group H - 9,Lavello,17847,Gravina,9546,3,3,True
+797007,2021-10-31T13:30:00+00:00,FT,Group H - 9,Mariglianese,17848,Casarano,9542,2,0,True
+797005,2021-10-31T13:30:00+00:00,FT,Group H - 9,Rotonda,17850,Molfetta Calcio,17849,3,0,True
+797008,2021-10-31T13:30:00+00:00,FT,Group H - 9,Virtus Matino,17852,Bisceglie,1703,0,1,True
+796999,2021-10-31T14:00:00+00:00,FT,Group H - 9,Audace Cerignola,9539,Nardò,9536,1,1,True
+797004,2021-11-03T13:30:00+00:00,FT,Group H - 9,Nocerina,9548,Casertana,885,1,3,True
+797012,2021-11-07T13:30:00+00:00,FT,Group H - 10,Casertana,885,Virtus Matino,17852,2,0,True
+797010,2021-11-07T13:30:00+00:00,FT,Group H - 10,Bisceglie,1703,Francavilla,9543,2,4,True
+797013,2021-11-07T13:30:00+00:00,FT,Group H - 10,Città di Fasano,5604,San Giorgio,17851,0,1,True
+797011,2021-11-07T13:30:00+00:00,FT,Group H - 10,Casarano,9542,Brindisi,9541,0,0,True
+797015,2021-11-07T13:30:00+00:00,FT,Group H - 10,Gravina,9546,Bitonto,9540,3,0,True
+797014,2021-11-07T13:30:00+00:00,FT,Group H - 10,Nola 1925,9560,Sorrento,9537,0,0,True
+797017,2021-11-07T14:00:00+00:00,FT,Group H - 10,Nardò,9536,Mariglianese,17848,2,1,True
+797009,2021-11-07T14:00:00+00:00,FT,Group H - 10,Audace Cerignola,9539,Lavello,17847,2,1,True
+797018,2021-11-07T14:00:00+00:00,FT,Group H - 10,Team Altamura,9549,Rotonda,17850,2,0,True
+797016,2021-11-07T14:30:00+00:00,FT,Group H - 10,Molfetta Calcio,17849,Nocerina,9548,0,0,True
+797026,2021-11-14T13:30:00+00:00,FT,Group H - 11,Sorrento,9537,Città di Fasano,5604,2,1,True
+797019,2021-11-14T13:30:00+00:00,FT,Group H - 11,Bitonto,9540,Bisceglie,1703,0,0,True
+797020,2021-11-14T13:30:00+00:00,FT,Group H - 11,Brindisi,9541,Team Altamura,9549,2,2,True
+797022,2021-11-14T13:30:00+00:00,FT,Group H - 11,Francavilla,9543,Casarano,9542,2,1,True
+797024,2021-11-14T13:30:00+00:00,FT,Group H - 11,Nocerina,9548,Audace Cerignola,9539,2,3,True
+797023,2021-11-14T13:30:00+00:00,FT,Group H - 11,Lavello,17847,Casertana,885,2,2,True
+797027,2021-11-14T13:30:00+00:00,FT,Group H - 11,Mariglianese,17848,Gravina,9546,1,2,True
+797025,2021-11-14T13:30:00+00:00,FT,Group H - 11,Rotonda,17850,Nola 1925,9560,1,0,True
+797021,2021-11-14T13:30:00+00:00,FT,Group H - 11,San Giorgio,17851,Molfetta Calcio,17849,0,0,True
+797028,2021-11-14T13:30:00+00:00,FT,Group H - 11,Virtus Matino,17852,Nardò,9536,0,1,True
+797032,2021-11-21T13:30:00+00:00,FT,Group H - 12,Casertana,885,Bitonto,9540,2,1,True
+797033,2021-11-21T13:30:00+00:00,FT,Group H - 12,Città di Fasano,5604,Nocerina,9548,6,1,True
+797031,2021-11-21T13:30:00+00:00,FT,Group H - 12,Casarano,9542,Sorrento,9537,1,1,True
+797038,2021-11-21T13:30:00+00:00,FT,Group H - 12,Team Altamura,9549,San Giorgio,17851,1,2,True
+797034,2021-11-21T13:30:00+00:00,FT,Group H - 12,Nola 1925,9560,Molfetta Calcio,17849,2,0,True
+797036,2021-11-21T13:30:00+00:00,FT,Group H - 12,Lavello,17847,Virtus Matino,17852,1,0,True
+797030,2021-11-21T14:00:00+00:00,FT,Group H - 12,Bisceglie,1703,Rotonda,17850,0,0,True
+797037,2021-11-21T14:00:00+00:00,FT,Group H - 12,Nardò,9536,Francavilla,9543,2,3,True
+797029,2021-11-21T14:00:00+00:00,FT,Group H - 12,Audace Cerignola,9539,Mariglianese,17848,4,0,True
+797035,2021-11-21T14:00:00+00:00,FT,Group H - 12,Gravina,9546,Brindisi,9541,2,1,True
+797046,2021-11-28T13:30:00+00:00,FT,Group H - 13,Sorrento,9537,Team Altamura,9549,1,1,True
+797039,2021-11-28T13:30:00+00:00,FT,Group H - 13,Bitonto,9540,Nardò,9536,2,0,True
+797040,2021-11-28T13:30:00+00:00,FT,Group H - 13,Brindisi,9541,Bisceglie,1703,0,0,True
+797042,2021-11-28T13:30:00+00:00,FT,Group H - 13,Francavilla,9543,Gravina,9546,1,0,True
+797044,2021-11-28T13:30:00+00:00,FT,Group H - 13,Nocerina,9548,Lavello,17847,4,3,True
+797047,2021-11-28T13:30:00+00:00,FT,Group H - 13,Mariglianese,17848,Casertana,885,4,1,True
+797045,2021-11-28T13:30:00+00:00,FT,Group H - 13,Rotonda,17850,Casarano,9542,0,0,True
+797041,2021-11-28T13:30:00+00:00,FT,Group H - 13,San Giorgio,17851,Nola 1925,9560,0,0,True
+797048,2021-11-28T13:30:00+00:00,FT,Group H - 13,Virtus Matino,17852,Audace Cerignola,9539,0,2,True
+797043,2021-11-28T14:00:00+00:00,FT,Group H - 13,Molfetta Calcio,17849,Città di Fasano,5604,0,4,True
+797054,2021-12-04T13:30:00+00:00,FT,Group H - 14,Gravina,9546,Sorrento,9537,2,0,True
+797055,2021-12-04T13:30:00+00:00,FT,Group H - 14,Lavello,17847,Bitonto,9540,2,1,True
+797058,2021-12-04T13:30:00+00:00,FT,Group H - 14,Virtus Matino,17852,Mariglianese,17848,0,1,True
+797052,2021-12-05T13:30:00+00:00,FT,Group H - 14,Casertana,885,Brindisi,9541,0,2,True
+797050,2021-12-05T13:30:00+00:00,FT,Group H - 14,Bisceglie,1703,San Giorgio,17851,1,1,True
+797051,2021-12-05T13:30:00+00:00,FT,Group H - 14,Casarano,9542,Molfetta Calcio,17849,0,1,True
+797053,2021-12-05T13:30:00+00:00,FT,Group H - 14,Nola 1925,9560,Nocerina,9548,0,2,True
+797056,2021-12-05T14:00:00+00:00,FT,Group H - 14,Nardò,9536,Rotonda,17850,1,2,True
+797049,2021-12-05T14:00:00+00:00,FT,Group H - 14,Audace Cerignola,9539,Francavilla,9543,2,0,True
+797057,2021-12-05T14:00:00+00:00,FT,Group H - 14,Team Altamura,9549,Città di Fasano,5604,1,2,True
+797067,2021-12-08T13:30:00+00:00,FT,Group H - 15,Sorrento,9537,Bisceglie,1703,2,0,True
+797059,2021-12-08T13:30:00+00:00,FT,Group H - 15,Bitonto,9540,Audace Cerignola,9539,0,0,True
+797060,2021-12-08T13:30:00+00:00,FT,Group H - 15,Brindisi,9541,Nardò,9536,1,1,True
+797063,2021-12-08T13:30:00+00:00,FT,Group H - 15,Francavilla,9543,Casertana,885,2,1,True
+797065,2021-12-08T13:30:00+00:00,FT,Group H - 15,Nocerina,9548,Virtus Matino,17852,2,1,True
+797068,2021-12-08T13:30:00+00:00,FT,Group H - 15,Mariglianese,17848,Lavello,17847,3,0,True
+797066,2021-12-08T13:30:00+00:00,FT,Group H - 15,Rotonda,17850,Gravina,9546,0,1,True
+797062,2021-12-08T13:30:00+00:00,FT,Group H - 15,San Giorgio,17851,Casarano,9542,1,1,True
+797061,2021-12-08T14:00:00+00:00,FT,Group H - 15,Città di Fasano,5604,Nola 1925,9560,1,1,True
+797064,2021-12-08T14:30:00+00:00,FT,Group H - 15,Molfetta Calcio,17849,Team Altamura,9549,0,0,True
+797072,2021-12-12T13:30:00+00:00,FT,Group H - 16,Casertana,885,Sorrento,9537,4,0,True
+797075,2021-12-12T13:30:00+00:00,FT,Group H - 16,Nardò,9536,San Giorgio,17851,2,1,True
+797071,2021-12-12T13:30:00+00:00,FT,Group H - 16,Casarano,9542,Nola 1925,9560,2,6,True
+797074,2021-12-12T13:30:00+00:00,FT,Group H - 16,Lavello,17847,Brindisi,9541,3,1,True
+797077,2021-12-12T13:30:00+00:00,FT,Group H - 16,Mariglianese,17848,Bitonto,9540,0,2,True
+797078,2021-12-12T13:30:00+00:00,FT,Group H - 16,Virtus Matino,17852,Francavilla,9543,0,1,True
+797070,2021-12-12T14:00:00+00:00,FT,Group H - 16,Bisceglie,1703,Città di Fasano,5604,3,4,True
+797069,2021-12-12T14:00:00+00:00,FT,Group H - 16,Audace Cerignola,9539,Rotonda,17850,3,0,True
+797073,2021-12-12T14:00:00+00:00,FT,Group H - 16,Gravina,9546,Molfetta Calcio,17849,0,0,True
+797076,2021-12-12T14:00:00+00:00,FT,Group H - 16,Team Altamura,9549,Nocerina,9548,2,0,True
+797081,2021-12-18T13:30:00+00:00,FT,Group H - 17,Città di Fasano,5604,Casarano,9542,3,2,True
+797082,2021-12-18T13:30:00+00:00,FT,Group H - 17,Nola 1925,9560,Team Altamura,9549,0,1,True
+797088,2021-12-19T13:30:00+00:00,FT,Group H - 17,Sorrento,9537,Nardò,9536,0,0,True
+797079,2021-12-19T13:30:00+00:00,FT,Group H - 17,Bitonto,9540,Virtus Matino,17852,3,2,True
+797084,2021-12-19T13:30:00+00:00,FT,Group H - 17,Francavilla,9543,Lavello,17847,3,1,True
+797086,2021-12-19T13:30:00+00:00,FT,Group H - 17,Nocerina,9548,Mariglianese,17848,1,3,True
+797085,2021-12-19T13:30:00+00:00,FT,Group H - 17,Molfetta Calcio,17849,Bisceglie,1703,2,2,True
+797087,2021-12-19T13:30:00+00:00,FT,Group H - 17,Rotonda,17850,Casertana,885,2,1,True
+797083,2021-12-19T13:30:00+00:00,FT,Group H - 17,San Giorgio,17851,Gravina,9546,1,3,True
+797093,2021-12-22T13:30:00+00:00,FT,Group H - 18,Casertana,885,Molfetta Calcio,17849,2,4,True
+797091,2021-12-22T13:30:00+00:00,FT,Group H - 18,Bitonto,9540,Francavilla,9543,2,0,True
+797092,2021-12-22T13:30:00+00:00,FT,Group H - 18,Casarano,9542,Nocerina,9548,2,1,True
+797095,2021-12-22T13:30:00+00:00,FT,Group H - 18,Lavello,17847,Sorrento,9537,0,2,True
+797097,2021-12-22T13:30:00+00:00,FT,Group H - 18,Mariglianese,17848,Brindisi,9541,1,1,True
+797098,2021-12-22T13:30:00+00:00,FT,Group H - 18,Virtus Matino,17852,Rotonda,17850,1,1,True
+797096,2021-12-22T14:00:00+00:00,FT,Group H - 18,Nardò,9536,Città di Fasano,5604,2,0,True
+797094,2021-12-22T14:00:00+00:00,FT,Group H - 18,Gravina,9546,Nola 1925,9560,1,0,True
+797090,2021-12-22T17:00:00+00:00,FT,Group H - 18,Bisceglie,1703,Team Altamura,9549,0,0,True
+797080,2022-01-19T13:30:00+00:00,FT,Group H - 17,Brindisi,9541,Audace Cerignola,9539,0,4,True
+797107,2022-01-23T13:30:00+00:00,FT,Group H - 19,Sorrento,9537,Audace Cerignola,9539,0,3,True
+797099,2022-01-23T13:30:00+00:00,FT,Group H - 19,Brindisi,9541,Virtus Matino,17852,1,0,True
+797105,2022-01-23T13:30:00+00:00,FT,Group H - 19,Nocerina,9548,Bitonto,9540,0,3,True
+797102,2022-01-23T13:30:00+00:00,FT,Group H - 19,San Giorgio,17851,Casertana,885,0,1,True
+797100,2022-01-23T14:30:00+00:00,FT,Group H - 19,Città di Fasano,5604,Gravina,9546,5,2,True
+797104,2022-01-23T14:30:00+00:00,FT,Group H - 19,Molfetta Calcio,17849,Nardò,9536,5,0,True
+797089,2022-01-26T14:00:00+00:00,FT,Group H - 18,Audace Cerignola,9539,San Giorgio,17851,2,1,True
+797117,2022-01-29T13:30:00+00:00,FT,Group H - 20,Sorrento,9537,Mariglianese,17848,3,1,True
+797110,2022-01-29T14:00:00+00:00,FT,Group H - 20,Casarano,9542,Gravina,9546,1,1,True
+797109,2022-01-30T13:30:00+00:00,FT,Group H - 20,Brindisi,9541,Francavilla,9543,2,1,True
+797115,2022-01-30T13:30:00+00:00,FT,Group H - 20,Nocerina,9548,Bisceglie,1703,0,0,True
+797112,2022-01-30T13:30:00+00:00,FT,Group H - 20,Nola 1925,9560,Casertana,885,2,0,True
+797114,2022-01-30T13:30:00+00:00,FT,Group H - 20,Molfetta Calcio,17849,Lavello,17847,1,1,True
+797116,2022-01-30T13:30:00+00:00,FT,Group H - 20,Rotonda,17850,Bitonto,9540,1,2,True
+797113,2022-01-30T13:30:00+00:00,FT,Group H - 20,San Giorgio,17851,Virtus Matino,17852,2,1,True
+797111,2022-01-30T14:00:00+00:00,FT,Group H - 20,Città di Fasano,5604,Audace Cerignola,9539,3,3,True
+797122,2022-02-02T13:30:00+00:00,FT,Group H - 21,Casertana,885,Città di Fasano,5604,1,3,True
+797120,2022-02-02T13:30:00+00:00,FT,Group H - 21,Bisceglie,1703,Casarano,9542,2,2,True
+797121,2022-02-02T13:30:00+00:00,FT,Group H - 21,Bitonto,9540,Brindisi,9541,4,0,True
+797123,2022-02-02T13:30:00+00:00,FT,Group H - 21,Francavilla,9543,Nocerina,9548,1,1,True
+797125,2022-02-02T13:30:00+00:00,FT,Group H - 21,Lavello,17847,San Giorgio,17851,0,1,True
+797127,2022-02-02T13:30:00+00:00,FT,Group H - 21,Mariglianese,17848,Rotonda,17850,0,0,True
+797128,2022-02-02T13:30:00+00:00,FT,Group H - 21,Virtus Matino,17852,Sorrento,9537,2,0,True
+797119,2022-02-02T14:00:00+00:00,FT,Group H - 21,Audace Cerignola,9539,Molfetta Calcio,17849,3,3,True
+797124,2022-02-02T17:00:00+00:00,FT,Group H - 21,Gravina,9546,Team Altamura,9549,1,0,True
+797137,2022-02-06T13:30:00+00:00,FT,Group H - 22,Sorrento,9537,Bitonto,9540,4,1,True
+797133,2022-02-06T13:30:00+00:00,FT,Group H - 22,Nola 1925,9560,Audace Cerignola,9539,0,2,True
+797135,2022-02-06T13:30:00+00:00,FT,Group H - 22,Molfetta Calcio,17849,Virtus Matino,17852,5,0,True
+797136,2022-02-06T13:30:00+00:00,FT,Group H - 22,Rotonda,17850,Francavilla,9543,0,1,True
+797134,2022-02-06T13:30:00+00:00,FT,Group H - 22,San Giorgio,17851,Mariglianese,17848,1,0,True
+797129,2022-02-06T14:00:00+00:00,FT,Group H - 22,Bisceglie,1703,Gravina,9546,2,3,True
+797132,2022-02-06T14:00:00+00:00,FT,Group H - 22,Città di Fasano,5604,Lavello,17847,2,0,True
+797138,2022-02-06T14:00:00+00:00,FT,Group H - 22,Team Altamura,9549,Casertana,885,3,1,True
+797143,2022-02-12T13:30:00+00:00,FT,Group H - 23,Francavilla,9543,San Giorgio,17851,0,1,True
+797147,2022-02-12T13:30:00+00:00,FT,Group H - 23,Mariglianese,17848,Città di Fasano,5604,0,1,True
+797142,2022-02-13T13:30:00+00:00,FT,Group H - 23,Casertana,885,Bisceglie,1703,1,1,True
+797140,2022-02-13T13:30:00+00:00,FT,Group H - 23,Bitonto,9540,Molfetta Calcio,17849,2,1,True
+797141,2022-02-13T13:30:00+00:00,FT,Group H - 23,Brindisi,9541,Sorrento,9537,0,2,True
+797146,2022-02-13T13:30:00+00:00,FT,Group H - 23,Nocerina,9548,Rotonda,17850,4,2,True
+797144,2022-02-13T13:30:00+00:00,FT,Group H - 23,Lavello,17847,Team Altamura,9549,0,0,True
+797148,2022-02-13T13:30:00+00:00,FT,Group H - 23,Virtus Matino,17852,Nola 1925,9560,2,1,True
+797145,2022-02-13T14:00:00+00:00,FT,Group H - 23,Nardò,9536,Gravina,9546,2,3,True
+797139,2022-02-13T14:00:00+00:00,FT,Group H - 23,Audace Cerignola,9539,Casarano,9542,1,0,True
+797157,2022-02-16T13:30:00+00:00,FT,Group H - 24,Sorrento,9537,Francavilla,9543,0,2,True
+797152,2022-02-16T13:30:00+00:00,FT,Group H - 24,Nola 1925,9560,Lavello,17847,0,0,True
+797156,2022-02-16T13:30:00+00:00,FT,Group H - 24,Rotonda,17850,Brindisi,9541,1,3,True
+797153,2022-02-16T13:30:00+00:00,FT,Group H - 24,San Giorgio,17851,Bitonto,9540,0,1,True
+797149,2022-02-16T14:00:00+00:00,FT,Group H - 24,Bisceglie,1703,Nardò,9536,2,1,True
+797150,2022-02-16T14:00:00+00:00,FT,Group H - 24,Casarano,9542,Casertana,885,3,2,True
+797154,2022-02-16T14:00:00+00:00,FT,Group H - 24,Gravina,9546,Nocerina,9548,0,2,True
+797158,2022-02-16T14:30:00+00:00,FT,Group H - 24,Team Altamura,9549,Audace Cerignola,9539,1,1,True
+797155,2022-02-16T14:30:00+00:00,FT,Group H - 24,Molfetta Calcio,17849,Mariglianese,17848,1,0,True
+797151,2022-02-16T16:00:00+00:00,FT,Group H - 24,Città di Fasano,5604,Virtus Matino,17852,2,2,True
+797162,2022-02-20T13:30:00+00:00,FT,Group H - 25,Casertana,885,Nardò,9536,3,0,True
+797160,2022-02-20T13:30:00+00:00,FT,Group H - 25,Bitonto,9540,Nola 1925,9560,0,2,True
+797161,2022-02-20T13:30:00+00:00,FT,Group H - 25,Brindisi,9541,Molfetta Calcio,17849,1,0,True
+797163,2022-02-20T13:30:00+00:00,FT,Group H - 25,Francavilla,9543,Città di Fasano,5604,3,1,True
+797164,2022-02-20T13:30:00+00:00,FT,Group H - 25,Lavello,17847,Bisceglie,1703,2,0,True
+797167,2022-02-20T13:30:00+00:00,FT,Group H - 25,Mariglianese,17848,Team Altamura,9549,1,0,True
+797166,2022-02-20T13:30:00+00:00,FT,Group H - 25,Rotonda,17850,San Giorgio,17851,0,0,True
+797168,2022-02-20T13:30:00+00:00,FT,Group H - 25,Virtus Matino,17852,Casarano,9542,1,2,True
+797159,2022-02-20T14:00:00+00:00,FT,Group H - 25,Audace Cerignola,9539,Gravina,9546,2,1,True
+797165,2022-02-20T14:00:00+00:00,FT,Group H - 25,Nocerina,9548,Sorrento,9537,3,0,True
+797170,2022-02-26T14:00:00+00:00,FT,Group H - 26,Casarano,9542,Lavello,17847,1,1,True
+797171,2022-02-27T13:30:00+00:00,FT,Group H - 26,Città di Fasano,5604,Bitonto,9540,2,2,True
+797176,2022-02-27T13:30:00+00:00,FT,Group H - 26,Nardò,9536,Nocerina,9548,0,2,True
+797177,2022-02-27T13:30:00+00:00,FT,Group H - 26,Sorrento,9537,Rotonda,17850,2,1,True
+797172,2022-02-27T13:30:00+00:00,FT,Group H - 26,Nola 1925,9560,Mariglianese,17848,1,1,True
+797173,2022-02-27T13:30:00+00:00,FT,Group H - 26,San Giorgio,17851,Brindisi,9541,0,1,True
+797169,2022-02-27T14:00:00+00:00,FT,Group H - 26,Bisceglie,1703,Audace Cerignola,9539,0,0,True
+797174,2022-02-27T14:00:00+00:00,FT,Group H - 26,Gravina,9546,Casertana,885,0,1,True
+797178,2022-02-27T14:00:00+00:00,FT,Group H - 26,Team Altamura,9549,Virtus Matino,17852,2,1,True
+797175,2022-02-27T14:00:00+00:00,FT,Group H - 26,Molfetta Calcio,17849,Francavilla,9543,1,1,True
+797101,2022-03-02T13:30:00+00:00,FT,Group H - 19,Nola 1925,9560,Bisceglie,1703,3,0,True
+797106,2022-03-02T13:30:00+00:00,FT,Group H - 19,Rotonda,17850,Lavello,17847,2,1,True
+797103,2022-03-02T14:00:00+00:00,FT,Group H - 19,Francavilla,9543,Mariglianese,17848,2,1,True
+797108,2022-03-02T14:00:00+00:00,FT,Group H - 19,Team Altamura,9549,Casarano,9542,1,1,True
+797186,2022-03-06T13:30:00+00:00,FT,Group H - 27,Sorrento,9537,Molfetta Calcio,17849,1,0,True
+797180,2022-03-06T13:30:00+00:00,FT,Group H - 27,Bitonto,9540,Casarano,9542,0,1,True
+797181,2022-03-06T13:30:00+00:00,FT,Group H - 27,Brindisi,9541,Nola 1925,9560,2,1,True
+797182,2022-03-06T13:30:00+00:00,FT,Group H - 27,Francavilla,9543,Team Altamura,9549,1,0,True
+797187,2022-03-06T13:30:00+00:00,FT,Group H - 27,Mariglianese,17848,Bisceglie,1703,0,1,True
+797185,2022-03-06T13:30:00+00:00,FT,Group H - 27,Rotonda,17850,Città di Fasano,5604,1,0,True
+797179,2022-03-06T14:00:00+00:00,FT,Group H - 27,Audace Cerignola,9539,Casertana,885,3,0,True
+797184,2022-03-06T14:00:00+00:00,FT,Group H - 27,Nocerina,9548,San Giorgio,17851,2,0,True
+797130,2022-03-09T13:30:00+00:00,FT,Group H - 22,Brindisi,9541,Nocerina,9548,1,0,True
+797118,2022-03-09T14:30:00+00:00,FT,Group H - 20,Team Altamura,9549,Nardò,9536,2,3,True
+797190,2022-03-13T13:30:00+00:00,FT,Group H - 28,Casarano,9542,Mariglianese,17848,2,1,True
+797193,2022-03-13T13:30:00+00:00,FT,Group H - 28,Nola 1925,9560,Francavilla,9543,3,1,True
+797194,2022-03-13T13:30:00+00:00,FT,Group H - 28,San Giorgio,17851,Sorrento,9537,1,0,True
+797191,2022-03-13T14:00:00+00:00,FT,Group H - 28,Casertana,885,Nocerina,9548,1,1,True
+797197,2022-03-13T14:00:00+00:00,FT,Group H - 28,Nardò,9536,Audace Cerignola,9539,2,2,True
+797195,2022-03-13T14:00:00+00:00,FT,Group H - 28,Gravina,9546,Lavello,17847,2,0,True
+797196,2022-03-13T14:00:00+00:00,FT,Group H - 28,Molfetta Calcio,17849,Rotonda,17850,1,0,True
+797192,2022-03-13T14:30:00+00:00,FT,Group H - 28,Città di Fasano,5604,Brindisi,9541,1,0,True
+797198,2022-03-13T14:30:00+00:00,FT,Group H - 28,Team Altamura,9549,Bitonto,9540,1,1,True
+797188,2022-03-18T13:30:00+00:00,FT,Group H - 27,Virtus Matino,17852,Gravina,9546,3,2,True
+797126,2022-03-20T14:00:00+00:00,FT,Group H - 21,Nardò,9536,Nola 1925,9560,1,1,True
+797201,2022-03-26T13:30:00+00:00,FT,Group H - 29,San Giorgio,17851,Città di Fasano,5604,1,0,True
+797208,2022-03-26T13:30:00+00:00,FT,Group H - 29,Virtus Matino,17852,Casertana,885,1,1,True
+797206,2022-03-26T14:00:00+00:00,FT,Group H - 29,Sorrento,9537,Nola 1925,9560,4,0,True
+797203,2022-03-26T14:00:00+00:00,FT,Group H - 29,Lavello,17847,Audace Cerignola,9539,0,1,True
+797199,2022-03-27T13:00:00+00:00,FT,Group H - 29,Bitonto,9540,Gravina,9546,2,2,True
+797200,2022-03-27T13:00:00+00:00,FT,Group H - 29,Brindisi,9541,Casarano,9542,1,0,True
+797202,2022-03-27T13:00:00+00:00,FT,Group H - 29,Francavilla,9543,Bisceglie,1703,2,1,True
+797204,2022-03-27T13:30:00+00:00,FT,Group H - 29,Nocerina,9548,Molfetta Calcio,17849,2,0,True
+797212,2022-03-30T13:00:00+00:00,FT,Group H - 30,Casertana,885,Lavello,17847,3,2,True
+797217,2022-03-30T13:00:00+00:00,FT,Group H - 30,Nardò,9536,Virtus Matino,17852,0,0,True
+797209,2022-03-30T13:00:00+00:00,FT,Group H - 30,Audace Cerignola,9539,Nocerina,9548,3,2,True
+797211,2022-03-30T13:00:00+00:00,FT,Group H - 30,Casarano,9542,Francavilla,9543,1,1,True
+797215,2022-03-30T13:00:00+00:00,FT,Group H - 30,Gravina,9546,Mariglianese,17848,0,0,True
+797218,2022-03-30T13:00:00+00:00,FT,Group H - 30,Team Altamura,9549,Brindisi,9541,2,2,True
+797216,2022-03-30T13:00:00+00:00,FT,Group H - 30,Molfetta Calcio,17849,San Giorgio,17851,3,1,True
+797213,2022-03-30T14:00:00+00:00,FT,Group H - 30,Città di Fasano,5604,Sorrento,9537,1,1,True
+797210,2022-03-30T17:00:00+00:00,FT,Group H - 30,Bisceglie,1703,Bitonto,9540,1,1,True
+797226,2022-04-03T13:00:00+00:00,FT,Group H - 31,Sorrento,9537,Casarano,9542,3,0,True
+797219,2022-04-03T13:00:00+00:00,FT,Group H - 31,Bitonto,9540,Casertana,885,0,2,True
+797220,2022-04-03T13:00:00+00:00,FT,Group H - 31,Brindisi,9541,Gravina,9546,1,0,True
+797222,2022-04-03T13:00:00+00:00,FT,Group H - 31,Francavilla,9543,Nardò,9536,3,2,True
+797224,2022-04-03T13:00:00+00:00,FT,Group H - 31,Nocerina,9548,Città di Fasano,5604,0,2,True
+797227,2022-04-03T13:00:00+00:00,FT,Group H - 31,Mariglianese,17848,Audace Cerignola,9539,0,3,True
+797223,2022-04-03T13:00:00+00:00,FT,Group H - 31,Molfetta Calcio,17849,Nola 1925,9560,0,3,True
+797225,2022-04-03T13:00:00+00:00,FT,Group H - 31,Rotonda,17850,Bisceglie,1703,2,0,True
+797221,2022-04-03T13:00:00+00:00,FT,Group H - 31,San Giorgio,17851,Team Altamura,9549,1,2,True
+797228,2022-04-03T13:00:00+00:00,FT,Group H - 31,Virtus Matino,17852,Lavello,17847,1,2,True
+797189,2022-04-06T13:00:00+00:00,FT,Group H - 28,Bisceglie,1703,Virtus Matino,17852,1,2,True
+797131,2022-04-06T13:00:00+00:00,FT,Group H - 22,Casarano,9542,Nardò,9536,1,2,True
+797205,2022-04-06T13:00:00+00:00,FT,Group H - 29,Rotonda,17850,Team Altamura,9549,1,4,True
+797232,2022-04-10T13:00:00+00:00,FT,Group H - 32,Casertana,885,Mariglianese,17848,1,3,True
+797237,2022-04-10T13:00:00+00:00,FT,Group H - 32,Nardò,9536,Bitonto,9540,0,1,True
+797231,2022-04-10T13:00:00+00:00,FT,Group H - 32,Casarano,9542,Rotonda,17850,0,1,True
+797236,2022-04-10T13:00:00+00:00,FT,Group H - 32,Lavello,17847,Nocerina,9548,0,0,True
+797230,2022-04-10T13:30:00+00:00,FT,Group H - 32,Bisceglie,1703,Brindisi,9541,0,2,True
+797235,2022-04-10T13:30:00+00:00,FT,Group H - 32,Gravina,9546,Francavilla,9543,3,2,True
+797238,2022-04-10T13:30:00+00:00,FT,Group H - 32,Team Altamura,9549,Sorrento,9537,1,0,True
+797229,2022-04-10T14:00:00+00:00,FT,Group H - 32,Audace Cerignola,9539,Virtus Matino,17852,1,0,True
+797233,2022-04-10T18:00:00+00:00,FT,Group H - 32,Città di Fasano,5604,Molfetta Calcio,17849,0,0,True
+797247,2022-04-14T13:00:00+00:00,FT,Group H - 33,Sorrento,9537,Gravina,9546,2,2,True
+797239,2022-04-14T13:00:00+00:00,FT,Group H - 33,Bitonto,9540,Lavello,17847,0,1,True
+797240,2022-04-14T13:00:00+00:00,FT,Group H - 33,Brindisi,9541,Casertana,885,2,3,True
+797243,2022-04-14T13:00:00+00:00,FT,Group H - 33,Francavilla,9543,Audace Cerignola,9539,0,1,True
+797248,2022-04-14T13:00:00+00:00,FT,Group H - 33,Mariglianese,17848,Virtus Matino,17852,1,0,True
+797244,2022-04-14T13:00:00+00:00,FT,Group H - 33,Molfetta Calcio,17849,Casarano,9542,0,1,True
+797246,2022-04-14T13:00:00+00:00,FT,Group H - 33,Rotonda,17850,Nardò,9536,2,5,True
+797241,2022-04-14T17:00:00+00:00,FT,Group H - 33,Città di Fasano,5604,Team Altamura,9549,3,2,True
+797245,2022-04-14T18:45:00+00:00,FT,Group H - 33,Nocerina,9548,Nola 1925,9560,4,2,True
+797214,2022-04-20T13:00:00+00:00,FT,Group H - 30,Nola 1925,9560,Rotonda,17850,2,1,True
+797183,2022-04-20T13:00:00+00:00,FT,Group H - 27,Lavello,17847,Nardò,9536,3,3,True
+797252,2022-04-24T13:00:00+00:00,FT,Group H - 34,Casertana,885,Francavilla,9543,0,1,True
+797256,2022-04-24T13:00:00+00:00,FT,Group H - 34,Nardò,9536,Brindisi,9541,2,4,True
+797251,2022-04-24T13:00:00+00:00,FT,Group H - 34,Casarano,9542,San Giorgio,17851,1,1,True
+797253,2022-04-24T13:00:00+00:00,FT,Group H - 34,Nola 1925,9560,Città di Fasano,5604,2,1,True
+797255,2022-04-24T13:00:00+00:00,FT,Group H - 34,Lavello,17847,Mariglianese,17848,0,1,True
+797258,2022-04-24T13:00:00+00:00,FT,Group H - 34,Virtus Matino,17852,Nocerina,9548,2,1,True
+797254,2022-04-24T13:30:00+00:00,FT,Group H - 34,Gravina,9546,Rotonda,17850,0,1,True
+797250,2022-04-24T14:00:00+00:00,FT,Group H - 34,Bisceglie,1703,Sorrento,9537,3,1,True
+797249,2022-04-24T14:00:00+00:00,FT,Group H - 34,Audace Cerignola,9539,Bitonto,9540,1,0,True
+797257,2022-04-24T15:00:00+00:00,FT,Group H - 34,Team Altamura,9549,Molfetta Calcio,17849,2,3,True
+797234,2022-04-27T14:30:00+00:00,FT,Group H - 32,Nola 1925,9560,San Giorgio,17851,3,3,True
+797207,2022-04-30T13:00:00+00:00,FT,Group H - 29,Mariglianese,17848,Nardò,9536,2,3,True
+797266,2022-04-30T15:00:00+00:00,FT,Group H - 35,Nocerina,9548,Team Altamura,9549,1,2,True
+797268,2022-05-01T13:00:00+00:00,FT,Group H - 35,Sorrento,9537,Casertana,885,0,0,True
+797264,2022-05-01T13:00:00+00:00,FT,Group H - 35,Francavilla,9543,Virtus Matino,17852,2,3,True
+797242,2022-05-01T13:30:00+00:00,FT,Group H - 33,San Giorgio,17851,Bisceglie,1703,0,0,True
+797265,2022-05-01T16:30:00+00:00,FT,Group H - 35,Molfetta Calcio,17849,Gravina,9546,1,1,True
+797259,2022-05-04T13:00:00+00:00,FT,Group H - 35,Bitonto,9540,Mariglianese,17848,2,1,True
+797267,2022-05-04T13:00:00+00:00,FT,Group H - 35,Rotonda,17850,Audace Cerignola,9539,2,2,True
+797263,2022-05-04T14:00:00+00:00,FT,Group H - 35,San Giorgio,17851,Nardò,9536,1,1,True
+797260,2022-05-04T14:30:00+00:00,FT,Group H - 35,Brindisi,9541,Lavello,17847,3,1,True
+797262,2022-05-04T14:30:00+00:00,FT,Group H - 35,Nola 1925,9560,Casarano,9542,1,1,True
+797261,2022-05-04T18:00:00+00:00,FT,Group H - 35,Città di Fasano,5604,Bisceglie,1703,1,0,True
+797272,2022-05-08T14:00:00+00:00,FT,Group H - 36,Casertana,885,Rotonda,17850,2,0,True
+797270,2022-05-08T14:00:00+00:00,FT,Group H - 36,Bisceglie,1703,Molfetta Calcio,17849,1,0,True
+797275,2022-05-08T14:00:00+00:00,FT,Group H - 36,Nardò,9536,Sorrento,9537,4,0,True
+797271,2022-05-08T14:00:00+00:00,FT,Group H - 36,Casarano,9542,Città di Fasano,5604,1,0,True
+797273,2022-05-08T14:00:00+00:00,FT,Group H - 36,Gravina,9546,San Giorgio,17851,1,1,True
+797276,2022-05-08T14:00:00+00:00,FT,Group H - 36,Team Altamura,9549,Nola 1925,9560,0,2,True
+797274,2022-05-08T14:00:00+00:00,FT,Group H - 36,Lavello,17847,Francavilla,9543,1,3,True
+797277,2022-05-08T14:00:00+00:00,FT,Group H - 36,Mariglianese,17848,Nocerina,9548,1,0,True
+797278,2022-05-08T14:00:00+00:00,FT,Group H - 36,Virtus Matino,17852,Bitonto,9540,1,5,True
+797280,2022-05-15T14:00:00+00:00,FT,Group H - 37,Città di Fasano,5604,Nardò,9536,3,2,True
+797287,2022-05-15T14:00:00+00:00,FT,Group H - 37,Sorrento,9537,Lavello,17847,2,1,True
+797279,2022-05-15T14:00:00+00:00,FT,Group H - 37,Brindisi,9541,Mariglianese,17848,0,1,True
+797283,2022-05-15T14:00:00+00:00,FT,Group H - 37,Francavilla,9543,Bitonto,9540,1,0,True
+797285,2022-05-15T14:00:00+00:00,FT,Group H - 37,Nocerina,9548,Casarano,9542,4,1,True
+797288,2022-05-15T14:00:00+00:00,FT,Group H - 37,Team Altamura,9549,Bisceglie,1703,3,0,True
+797281,2022-05-15T14:00:00+00:00,FT,Group H - 37,Nola 1925,9560,Gravina,9546,1,0,True
+797284,2022-05-15T14:00:00+00:00,FT,Group H - 37,Molfetta Calcio,17849,Casertana,885,1,1,True
+797286,2022-05-15T14:00:00+00:00,FT,Group H - 37,Rotonda,17850,Virtus Matino,17852,2,0,True
+797282,2022-05-15T14:00:00+00:00,FT,Group H - 37,San Giorgio,17851,Audace Cerignola,9539,1,6,True
+797269,2022-05-18T14:00:00+00:00,FT,Group H - 36,Audace Cerignola,9539,Brindisi,9541,3,0,True
+797297,2022-05-21T13:00:00+00:00,FT,Group H - 38,Mariglianese,17848,Francavilla,9543,3,3,True
+797293,2022-05-22T14:00:00+00:00,FT,Group H - 38,Casertana,885,San Giorgio,17851,0,1,True
+797290,2022-05-22T14:00:00+00:00,FT,Group H - 38,Bisceglie,1703,Nola 1925,9560,4,0,True
+797296,2022-05-22T14:00:00+00:00,FT,Group H - 38,Nardò,9536,Molfetta Calcio,17849,5,4,True
+797289,2022-05-22T14:00:00+00:00,FT,Group H - 38,Audace Cerignola,9539,Sorrento,9537,2,0,True
+797291,2022-05-22T14:00:00+00:00,FT,Group H - 38,Bitonto,9540,Nocerina,9548,1,2,True
+797292,2022-05-22T14:00:00+00:00,FT,Group H - 38,Casarano,9542,Team Altamura,9549,1,0,True
+797294,2022-05-22T14:00:00+00:00,FT,Group H - 38,Gravina,9546,Città di Fasano,5604,4,1,True
+797295,2022-05-22T14:00:00+00:00,FT,Group H - 38,Lavello,17847,Rotonda,17850,2,0,True
+797298,2022-05-22T14:00:00+00:00,FT,Group H - 38,Virtus Matino,17852,Brindisi,9541,3,4,True

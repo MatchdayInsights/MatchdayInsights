@@ -1,77 +1,197 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1212430,2025-01-01T14:30:00+00:00,FT,Haverfordwest County AFC,2194,Aberystwyth Town,351,1,0,True
-1212429,2025-01-01T14:30:00+00:00,FT,Flint Town United,5614,Newtown AFC,358,2,0,True
-1212415,2025-01-04T14:30:00+00:00,FT,The New Saints,354,Newtown AFC,358,2,1,True
-1212419,2025-01-04T14:30:00+00:00,FT,Penybont,2191,GAP Connah S Quay FC,357,1,0,True
-1212414,2025-01-04T14:30:00+00:00,FT,Haverfordwest County AFC,2194,Briton Ferry,2201,5,1,True
-1212432,2025-01-11T12:45:00+00:00,FT,Aberystwyth Town,351,Briton Ferry,2201,1,6,True
-1212426,2025-01-11T12:45:00+00:00,FT,Bala Town,352,Caernarfon Town,356,0,2,True
-1212435,2025-01-14T19:45:00+00:00,FT,Cardiff MET,353,The New Saints,354,0,2,True
-1212434,2025-01-14T19:45:00+00:00,FT,Caernarfon Town,356,Flint Town United,5614,3,0,True
-1212437,2025-01-14T19:45:00+00:00,FT,Newtown AFC,358,Penybont,2191,1,2,True
-1212433,2025-01-14T19:45:00+00:00,FT,Barry Town,361,Haverfordwest County AFC,2194,1,1,True
-1212436,2025-01-17T19:45:00+00:00,FT,GAP Connah S Quay FC,357,Bala Town,352,0,2,True
-1338855,2025-01-24T19:45:00+00:00,FT,Cardiff MET,353,Penybont,2191,2,1,True
-1338884,2025-01-24T19:45:00+00:00,FT,Newtown AFC,358,Briton Ferry,2201,2,2,True
-1338885,2025-01-24T20:00:00+00:00,FT,Aberystwyth Town,351,Barry Town,361,1,2,True
-1338856,2025-01-25T14:30:00+00:00,FT,Haverfordwest County AFC,2194,Bala Town,352,3,2,True
-1338886,2025-01-25T14:30:00+00:00,FT,Flint Town United,5614,GAP Connah S Quay FC,357,2,1,True
-1338857,2025-01-31T19:45:00+00:00,FT,Bala Town,352,Caernarfon Town,356,1,3,True
-1338858,2025-02-01T12:15:00+00:00,FT,Penybont,2191,Haverfordwest County AFC,2194,0,0,True
-1338859,2025-02-01T14:30:00+00:00,FT,The New Saints,354,Cardiff MET,353,3,1,True
-1338889,2025-02-01T14:30:00+00:00,FT,GAP Connah S Quay FC,357,Newtown AFC,358,1,0,True
-1338887,2025-02-01T14:30:00+00:00,FT,Barry Town,361,Flint Town United,5614,3,1,True
-1338888,2025-02-01T14:30:00+00:00,FT,Briton Ferry,2201,Aberystwyth Town,351,2,3,True
-1338890,2025-02-07T19:45:00+00:00,FT,Flint Town United,5614,Aberystwyth Town,351,2,0,True
-1338860,2025-02-08T12:15:00+00:00,FT,The New Saints,354,Penybont,2191,4,0,True
-1338862,2025-02-08T14:30:00+00:00,FT,Cardiff MET,353,Bala Town,352,2,1,True
-1338861,2025-02-08T14:30:00+00:00,FT,Caernarfon Town,356,Haverfordwest County AFC,2194,1,1,True
-1338891,2025-02-08T14:30:00+00:00,FT,GAP Connah S Quay FC,357,Briton Ferry,2201,0,1,True
-1338892,2025-02-08T14:30:00+00:00,FT,Newtown AFC,358,Barry Town,361,1,1,True
-1338854,2025-02-11T19:45:00+00:00,FT,Caernarfon Town,356,The New Saints,354,0,1,True
-1338863,2025-02-21T19:45:00+00:00,FT,Bala Town,352,The New Saints,354,0,2,True
-1338864,2025-02-21T19:45:00+00:00,FT,Haverfordwest County AFC,2194,Cardiff MET,353,1,0,True
-1338893,2025-02-22T12:15:00+00:00,FT,Aberystwyth Town,351,Newtown AFC,358,0,1,True
-1338865,2025-02-22T14:30:00+00:00,FT,Caernarfon Town,356,Penybont,2191,3,2,True
-1338894,2025-02-22T14:30:00+00:00,FT,Barry Town,361,GAP Connah S Quay FC,357,0,2,True
-1338895,2025-02-22T14:30:00+00:00,FT,Flint Town United,5614,Briton Ferry,2201,3,1,True
-1338897,2025-03-07T19:45:00+00:00,FT,GAP Connah S Quay FC,357,Aberystwyth Town,351,3,0,True
-1338898,2025-03-07T19:45:00+00:00,FT,Newtown AFC,358,Flint Town United,5614,2,2,True
-1338896,2025-03-07T19:45:00+00:00,FT,Briton Ferry,2201,Barry Town,361,3,4,True
-1338868,2025-03-08T12:15:00+00:00,FT,The New Saints,354,Haverfordwest County AFC,2194,5,1,True
-1338866,2025-03-08T14:30:00+00:00,FT,Cardiff MET,353,Caernarfon Town,356,4,2,True
-1338867,2025-03-08T14:30:00+00:00,FT,Penybont,2191,Bala Town,352,3,2,True
-1338870,2025-03-11T19:45:00+00:00,FT,The New Saints,354,Caernarfon Town,356,2,0,True
-1338901,2025-03-11T19:45:00+00:00,FT,GAP Connah S Quay FC,357,Flint Town United,5614,4,0,True
-1338899,2025-03-11T19:45:00+00:00,FT,Barry Town,361,Aberystwyth Town,351,2,1,True
-1338900,2025-03-11T19:45:00+00:00,FT,Briton Ferry,2201,Newtown AFC,358,1,1,True
-1338869,2025-03-14T19:45:00+00:00,FT,Penybont,2191,Cardiff MET,353,0,0,True
-1338871,2025-03-15T14:30:00+00:00,FT,Bala Town,352,Haverfordwest County AFC,2194,0,0,True
-1338872,2025-03-21T19:45:00+00:00,FT,Caernarfon Town,356,Bala Town,352,5,0,True
-1338902,2025-03-21T19:45:00+00:00,FT,Newtown AFC,358,GAP Connah S Quay FC,357,2,3,True
-1338873,2025-03-21T19:45:00+00:00,FT,Haverfordwest County AFC,2194,Penybont,2191,1,2,True
-1338903,2025-03-21T20:00:00+00:00,FT,Aberystwyth Town,351,Briton Ferry,2201,0,1,True
-1338874,2025-03-22T14:30:00+00:00,FT,Cardiff MET,353,The New Saints,354,0,6,True
-1338904,2025-03-22T14:30:00+00:00,FT,Flint Town United,5614,Barry Town,361,3,2,True
-1338905,2025-03-28T19:45:00+00:00,FT,Barry Town,361,Newtown AFC,358,2,1,True
-1338906,2025-03-28T20:00:00+00:00,FT,Aberystwyth Town,351,Flint Town United,5614,1,2,True
-1338875,2025-03-29T14:30:00+00:00,FT,Bala Town,352,Cardiff MET,353,0,0,True
-1338877,2025-03-29T14:30:00+00:00,FT,Penybont,2191,The New Saints,354,1,0,True
-1338876,2025-03-29T14:30:00+00:00,FT,Haverfordwest County AFC,2194,Caernarfon Town,356,1,1,True
-1338907,2025-03-29T14:30:00+00:00,FT,Briton Ferry,2201,GAP Connah S Quay FC,357,1,0,True
-1338878,2025-04-11T18:45:00+00:00,FT,Cardiff MET,353,Haverfordwest County AFC,2194,1,1,True
-1338879,2025-04-11T18:45:00+00:00,FT,The New Saints,354,Bala Town,352,2,1,True
-1338909,2025-04-12T11:45:00+00:00,FT,Newtown AFC,358,Aberystwyth Town,351,2,3,True
-1338908,2025-04-12T13:30:00+00:00,FT,Briton Ferry,2201,Flint Town United,5614,1,2,True
-1338910,2025-04-13T13:30:00+00:00,FT,GAP Connah S Quay FC,357,Barry Town,361,0,2,True
-1338880,2025-04-13T13:30:00+00:00,FT,Penybont,2191,Caernarfon Town,356,3,1,True
-1338911,2025-04-19T11:45:00+00:00,FT,Aberystwyth Town,351,GAP Connah S Quay FC,357,1,1,True
-1338882,2025-04-19T11:45:00+00:00,FT,Caernarfon Town,356,Cardiff MET,353,2,1,True
-1338912,2025-04-19T11:45:00+00:00,FT,Barry Town,361,Briton Ferry,2201,5,0,True
-1338883,2025-04-19T11:45:00+00:00,FT,Haverfordwest County AFC,2194,The New Saints,354,1,3,True
-1338913,2025-04-19T11:45:00+00:00,FT,Flint Town United,5614,Newtown AFC,358,4,0,True
-1338881,2025-04-19T12:00:00+00:00,FT,Bala Town,352,Penybont,2191,3,2,True
-1372661,2025-04-26T11:15:00+00:00,FT,Caernarfon Town,356,Barry Town,361,5,2,True
-1372662,2025-04-26T13:30:00+00:00,FT,Cardiff MET,353,Bala Town,352,1,0,True
-1374376,2025-05-11T16:10:00+00:00,PEN,Caernarfon Town,356,Cardiff MET,353,0,0,False
-1375263,2025-05-18T16:10:00+00:00,FT,Haverfordwest County AFC,2194,Caernarfon Town,356,3,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1212306,2024-08-09T18:45:00+00:00,FT,Regular Season - 1,Newtown AFC,358,Aberystwyth Town,351,4,1,True
+1212307,2024-08-10T13:30:00+00:00,FT,Regular Season - 1,Barry Town,361,Bala Town,352,1,1,True
+1212308,2024-08-10T13:30:00+00:00,FT,Regular Season - 1,Flint Town United,5614,Cardiff MET,353,1,2,True
+1212310,2024-08-11T13:30:00+00:00,FT,Regular Season - 1,GAP Connah S Quay FC,357,Haverfordwest County AFC,2194,0,1,True
+1212309,2024-08-11T16:10:00+00:00,FT,Regular Season - 1,Briton Ferry,2201,Penybont,2191,0,2,True
+1212312,2024-08-16T18:45:00+00:00,FT,Regular Season - 2,Bala Town,352,Briton Ferry,2201,2,0,True
+1212313,2024-08-16T18:45:00+00:00,FT,Regular Season - 2,Cardiff MET,353,Barry Town,361,1,1,True
+1212315,2024-08-16T18:45:00+00:00,FT,Regular Season - 2,Penybont,2191,Newtown AFC,358,0,0,True
+1212314,2024-08-16T18:45:00+00:00,FT,Regular Season - 2,Flint Town United,5614,The New Saints,354,1,4,True
+1212316,2024-08-16T19:00:00+00:00,FT,Regular Season - 2,Aberystwyth Town,351,GAP Connah S Quay FC,357,1,1,True
+1212317,2024-08-17T16:15:00+00:00,FT,Regular Season - 2,Caernarfon Town,356,Haverfordwest County AFC,2194,1,2,True
+1212318,2024-08-23T18:45:00+00:00,FT,Regular Season - 3,Bala Town,352,Flint Town United,5614,2,0,True
+1212322,2024-08-23T18:45:00+00:00,FT,Regular Season - 3,Newtown AFC,358,Caernarfon Town,356,0,4,True
+1212321,2024-08-23T18:45:00+00:00,FT,Regular Season - 3,Haverfordwest County AFC,2194,Penybont,2191,0,0,True
+1212319,2024-08-23T18:45:00+00:00,FT,Regular Season - 3,Briton Ferry,2201,Cardiff MET,353,1,5,True
+1212323,2024-08-23T19:00:00+00:00,FT,Regular Season - 3,Aberystwyth Town,351,Barry Town,361,1,0,True
+1212325,2024-08-26T13:30:00+00:00,FT,Regular Season - 4,Cardiff MET,353,Haverfordwest County AFC,2194,0,0,True
+1212324,2024-08-26T13:30:00+00:00,FT,Regular Season - 4,Caernarfon Town,356,Bala Town,352,0,0,True
+1212329,2024-08-26T13:30:00+00:00,FT,Regular Season - 4,Barry Town,361,Newtown AFC,358,1,2,True
+1212327,2024-08-26T13:30:00+00:00,FT,Regular Season - 4,Penybont,2191,Aberystwyth Town,351,5,1,True
+1212326,2024-08-26T13:30:00+00:00,FT,Regular Season - 4,Flint Town United,5614,GAP Connah S Quay FC,357,0,1,True
+1212331,2024-08-30T18:45:00+00:00,FT,Regular Season - 5,Haverfordwest County AFC,2194,Newtown AFC,358,3,0,True
+1212332,2024-08-31T13:30:00+00:00,FT,Regular Season - 5,Bala Town,352,Penybont,2191,1,2,True
+1212335,2024-08-31T13:30:00+00:00,FT,Regular Season - 5,Caernarfon Town,356,Cardiff MET,353,1,2,True
+1212333,2024-08-31T13:30:00+00:00,FT,Regular Season - 5,Barry Town,361,Flint Town United,5614,3,2,True
+1212334,2024-08-31T13:30:00+00:00,FT,Regular Season - 5,Briton Ferry,2201,GAP Connah S Quay FC,357,1,5,True
+1212330,2024-09-03T18:45:00+00:00,FT,Regular Season - 5,The New Saints,354,Aberystwyth Town,351,2,0,True
+1212337,2024-09-07T13:30:00+00:00,FT,Regular Season - 6,Bala Town,352,Cardiff MET,353,0,1,True
+1212338,2024-09-07T13:30:00+00:00,FT,Regular Season - 6,GAP Connah S Quay FC,357,Barry Town,361,1,2,True
+1212340,2024-09-07T13:30:00+00:00,FT,Regular Season - 6,Newtown AFC,358,Briton Ferry,2201,1,0,True
+1212341,2024-09-07T13:30:00+00:00,FT,Regular Season - 6,Penybont,2191,Caernarfon Town,356,2,0,True
+1212339,2024-09-07T13:30:00+00:00,FT,Regular Season - 6,Haverfordwest County AFC,2194,The New Saints,354,0,1,True
+1212336,2024-09-07T16:15:00+00:00,FT,Regular Season - 6,Aberystwyth Town,351,Flint Town United,5614,0,2,True
+1212342,2024-09-13T18:45:00+00:00,FT,Regular Season - 7,Bala Town,352,Aberystwyth Town,351,3,0,True
+1212343,2024-09-13T18:45:00+00:00,FT,Regular Season - 7,Newtown AFC,358,Cardiff MET,353,2,1,True
+1212346,2024-09-14T13:30:00+00:00,FT,Regular Season - 7,The New Saints,354,Barry Town,361,4,0,True
+1212344,2024-09-14T13:30:00+00:00,FT,Regular Season - 7,Caernarfon Town,356,Briton Ferry,2201,3,2,True
+1212345,2024-09-14T13:30:00+00:00,FT,Regular Season - 7,Flint Town United,5614,Haverfordwest County AFC,2194,1,0,True
+1212347,2024-09-15T13:30:00+00:00,FT,Regular Season - 7,GAP Connah S Quay FC,357,Penybont,2191,0,1,True
+1212348,2024-09-20T18:45:00+00:00,FT,Regular Season - 8,Bala Town,352,Newtown AFC,358,2,2,True
+1212349,2024-09-20T18:45:00+00:00,FT,Regular Season - 8,Penybont,2191,The New Saints,354,2,1,True
+1212350,2024-09-20T19:00:00+00:00,FT,Regular Season - 8,Aberystwyth Town,351,Haverfordwest County AFC,2194,0,3,True
+1212353,2024-09-21T13:30:00+00:00,FT,Regular Season - 8,Cardiff MET,353,GAP Connah S Quay FC,357,2,1,True
+1212351,2024-09-21T13:30:00+00:00,FT,Regular Season - 8,Barry Town,361,Caernarfon Town,356,1,1,True
+1212352,2024-09-21T13:30:00+00:00,FT,Regular Season - 8,Briton Ferry,2201,Flint Town United,5614,1,1,True
+1212357,2024-09-24T18:45:00+00:00,FT,Regular Season - 9,The New Saints,354,Bala Town,352,2,3,True
+1212354,2024-09-24T18:45:00+00:00,FT,Regular Season - 9,GAP Connah S Quay FC,357,Newtown AFC,358,1,1,True
+1212356,2024-09-24T18:45:00+00:00,FT,Regular Season - 9,Penybont,2191,Briton Ferry,2201,0,1,True
+1212355,2024-09-24T18:45:00+00:00,FT,Regular Season - 9,Haverfordwest County AFC,2194,Barry Town,361,1,1,True
+1212358,2024-09-24T19:00:00+00:00,FT,Regular Season - 9,Aberystwyth Town,351,Cardiff MET,353,1,2,True
+1212359,2024-09-25T18:45:00+00:00,FT,Regular Season - 9,Flint Town United,5614,Caernarfon Town,356,1,2,True
+1212362,2024-09-27T18:45:00+00:00,FT,Regular Season - 10,Newtown AFC,358,The New Saints,354,1,6,True
+1212360,2024-09-27T18:45:00+00:00,FT,Regular Season - 10,Barry Town,361,Aberystwyth Town,351,1,0,True
+1212363,2024-09-27T18:45:00+00:00,FT,Regular Season - 10,Haverfordwest County AFC,2194,Cardiff MET,353,1,0,True
+1212364,2024-09-28T13:30:00+00:00,FT,Regular Season - 10,Briton Ferry,2201,Bala Town,352,2,2,True
+1212365,2024-09-28T13:30:00+00:00,FT,Regular Season - 10,Flint Town United,5614,Penybont,2191,0,1,True
+1212361,2024-09-28T16:15:00+00:00,FT,Regular Season - 10,Caernarfon Town,356,GAP Connah S Quay FC,357,3,1,True
+1212366,2024-10-04T18:45:00+00:00,FT,Regular Season - 11,Bala Town,352,Haverfordwest County AFC,2194,0,2,True
+1212368,2024-10-04T18:45:00+00:00,FT,Regular Season - 11,GAP Connah S Quay FC,357,Aberystwyth Town,351,3,0,True
+1212369,2024-10-04T18:45:00+00:00,FT,Regular Season - 11,Newtown AFC,358,Flint Town United,5614,2,4,True
+1212370,2024-10-04T18:45:00+00:00,FT,Regular Season - 11,Penybont,2191,Barry Town,361,4,1,True
+1212371,2024-10-05T13:30:00+00:00,FT,Regular Season - 11,Cardiff MET,353,Caernarfon Town,356,1,2,True
+1212311,2024-10-09T18:45:00+00:00,FT,Regular Season - 1,The New Saints,354,Caernarfon Town,356,1,2,True
+1212372,2024-10-12T13:30:00+00:00,FT,Regular Season - 12,Aberystwyth Town,351,Penybont,2191,0,3,True
+1212377,2024-10-12T13:30:00+00:00,FT,Regular Season - 12,The New Saints,354,Cardiff MET,353,3,0,True
+1212374,2024-10-12T13:30:00+00:00,FT,Regular Season - 12,Caernarfon Town,356,Newtown AFC,358,1,2,True
+1212373,2024-10-12T13:30:00+00:00,FT,Regular Season - 12,Barry Town,361,Briton Ferry,2201,3,1,True
+1212376,2024-10-12T13:30:00+00:00,FT,Regular Season - 12,Haverfordwest County AFC,2194,GAP Connah S Quay FC,357,0,0,True
+1212375,2024-10-12T13:30:00+00:00,FT,Regular Season - 12,Flint Town United,5614,Bala Town,352,2,2,True
+1212378,2024-10-15T18:45:00+00:00,FT,Regular Season - 13,Bala Town,352,GAP Connah S Quay FC,357,0,0,True
+1212381,2024-10-15T18:45:00+00:00,FT,Regular Season - 13,Cardiff MET,353,Penybont,2191,1,1,True
+1212383,2024-10-15T18:45:00+00:00,FT,Regular Season - 13,The New Saints,354,Flint Town United,5614,5,0,True
+1212380,2024-10-15T18:45:00+00:00,FT,Regular Season - 13,Caernarfon Town,356,Aberystwyth Town,351,1,4,True
+1212382,2024-10-15T18:45:00+00:00,FT,Regular Season - 13,Newtown AFC,358,Barry Town,361,2,4,True
+1212379,2024-10-15T18:45:00+00:00,FT,Regular Season - 13,Briton Ferry,2201,Haverfordwest County AFC,2194,1,2,True
+1212385,2024-10-25T18:45:00+00:00,FT,Regular Season - 14,Cardiff MET,353,Newtown AFC,358,2,1,True
+1212388,2024-10-26T13:30:00+00:00,FT,Regular Season - 14,Penybont,2191,Bala Town,352,1,1,True
+1212386,2024-10-26T13:30:00+00:00,FT,Regular Season - 14,Flint Town United,5614,Barry Town,361,1,2,True
+1212387,2024-10-26T16:15:00+00:00,FT,Regular Season - 14,Haverfordwest County AFC,2194,Caernarfon Town,356,0,0,True
+1212384,2024-10-27T13:00:00+00:00,FT,Regular Season - 14,Aberystwyth Town,351,The New Saints,354,2,4,True
+1212389,2024-10-27T14:30:00+00:00,FT,Regular Season - 14,GAP Connah S Quay FC,357,Briton Ferry,2201,2,1,True
+1212320,2024-10-30T19:45:00+00:00,FT,Regular Season - 3,GAP Connah S Quay FC,357,The New Saints,354,1,2,True
+1212391,2024-11-02T13:00:00+00:00,FT,Regular Season - 15,Barry Town,361,The New Saints,354,1,4,True
+1212392,2024-11-02T14:30:00+00:00,FT,Regular Season - 15,Caernarfon Town,356,Penybont,2191,1,5,True
+1212393,2024-11-02T14:30:00+00:00,FT,Regular Season - 15,GAP Connah S Quay FC,357,Cardiff MET,353,1,0,True
+1212395,2024-11-02T14:30:00+00:00,FT,Regular Season - 15,Newtown AFC,358,Bala Town,352,0,0,True
+1212394,2024-11-02T14:30:00+00:00,FT,Regular Season - 15,Haverfordwest County AFC,2194,Flint Town United,5614,4,1,True
+1212390,2024-11-02T17:15:00+00:00,FT,Regular Season - 15,Briton Ferry,2201,Aberystwyth Town,351,4,0,True
+1212396,2024-11-08T19:45:00+00:00,FT,Regular Season - 16,Aberystwyth Town,351,Newtown AFC,358,3,1,True
+1212398,2024-11-09T14:30:00+00:00,FT,Regular Season - 16,Barry Town,361,GAP Connah S Quay FC,357,3,2,True
+1212400,2024-11-09T14:30:00+00:00,FT,Regular Season - 16,Penybont,2191,Flint Town United,5614,3,1,True
+1212399,2024-11-09T14:30:00+00:00,FT,Regular Season - 16,Briton Ferry,2201,Caernarfon Town,356,0,1,True
+1212397,2024-11-09T17:15:00+00:00,FT,Regular Season - 16,Cardiff MET,353,Bala Town,352,3,3,True
+1212401,2024-11-10T14:30:00+00:00,FT,Regular Season - 16,The New Saints,354,Haverfordwest County AFC,2194,2,1,True
+1212367,2024-11-20T19:45:00+00:00,FT,Regular Season - 11,Briton Ferry,2201,The New Saints,354,3,1,True
+1212403,2024-11-23T14:30:00+00:00,FT,Regular Season - 17,Cardiff MET,353,Aberystwyth Town,351,3,0,True
+1212407,2024-11-23T14:30:00+00:00,FT,Regular Season - 17,The New Saints,354,Penybont,2191,3,2,True
+1212405,2024-11-23T14:30:00+00:00,FT,Regular Season - 17,Haverfordwest County AFC,2194,Bala Town,352,0,0,True
+1212404,2024-11-23T14:30:00+00:00,FT,Regular Season - 17,Flint Town United,5614,Briton Ferry,2201,2,1,True
+1212406,2024-11-30T14:30:00+00:00,FT,Regular Season - 17,Newtown AFC,358,GAP Connah S Quay FC,357,0,3,True
+1212411,2024-12-03T19:45:00+00:00,FT,Regular Season - 18,GAP Connah S Quay FC,357,Caernarfon Town,356,1,1,True
+1212412,2024-12-03T19:45:00+00:00,FT,Regular Season - 18,Penybont,2191,Haverfordwest County AFC,2194,1,0,True
+1212410,2024-12-03T19:45:00+00:00,FT,Regular Season - 18,Briton Ferry,2201,Newtown AFC,358,2,1,True
+1212408,2024-12-04T19:45:00+00:00,FT,Regular Season - 18,Bala Town,352,The New Saints,354,1,0,True
+1212413,2024-12-04T19:45:00+00:00,FT,Regular Season - 18,Flint Town United,5614,Aberystwyth Town,351,3,0,True
+1212409,2024-12-10T19:45:00+00:00,FT,Regular Season - 18,Barry Town,361,Cardiff MET,353,2,1,True
+1212418,2024-12-14T14:30:00+00:00,FT,Regular Season - 19,Cardiff MET,353,Flint Town United,5614,2,0,True
+1212402,2024-12-14T14:30:00+00:00,FT,Regular Season - 17,Caernarfon Town,356,Barry Town,361,3,2,True
+1212416,2024-12-21T14:30:00+00:00,FT,Regular Season - 19,Aberystwyth Town,351,Caernarfon Town,356,3,1,True
+1212417,2024-12-21T14:30:00+00:00,FT,Regular Season - 19,Bala Town,352,Barry Town,361,3,1,True
+1212328,2024-12-22T14:30:00+00:00,FT,Regular Season - 4,The New Saints,354,Briton Ferry,2201,5,2,True
+1212421,2024-12-26T12:30:00+00:00,FT,Regular Season - 20,Cardiff MET,353,Briton Ferry,2201,1,3,True
+1212420,2024-12-26T12:30:00+00:00,FT,Regular Season - 20,Barry Town,361,Penybont,2191,1,2,True
+1212422,2024-12-26T14:30:00+00:00,FT,Regular Season - 20,Aberystwyth Town,351,Bala Town,352,0,0,True
+1212423,2024-12-26T14:30:00+00:00,FT,Regular Season - 20,Caernarfon Town,356,The New Saints,354,2,5,True
+1212424,2024-12-26T14:30:00+00:00,FT,Regular Season - 20,GAP Connah S Quay FC,357,Flint Town United,5614,7,2,True
+1212425,2024-12-26T14:30:00+00:00,FT,Regular Season - 20,Newtown AFC,358,Haverfordwest County AFC,2194,0,2,True
+1212428,2024-12-31T12:30:00+00:00,FT,Regular Season - 21,Briton Ferry,2201,Barry Town,361,0,0,True
+1212427,2024-12-31T14:30:00+00:00,FT,Regular Season - 21,The New Saints,354,GAP Connah S Quay FC,357,2,1,True
+1212431,2024-12-31T17:45:00+00:00,FT,Regular Season - 21,Penybont,2191,Cardiff MET,353,2,2,True
+1212430,2025-01-01T14:30:00+00:00,FT,Regular Season - 21,Haverfordwest County AFC,2194,Aberystwyth Town,351,1,0,True
+1212429,2025-01-01T14:30:00+00:00,FT,Regular Season - 21,Flint Town United,5614,Newtown AFC,358,2,0,True
+1212415,2025-01-04T14:30:00+00:00,FT,Regular Season - 19,The New Saints,354,Newtown AFC,358,2,1,True
+1212419,2025-01-04T14:30:00+00:00,FT,Regular Season - 19,Penybont,2191,GAP Connah S Quay FC,357,1,0,True
+1212414,2025-01-04T14:30:00+00:00,FT,Regular Season - 19,Haverfordwest County AFC,2194,Briton Ferry,2201,5,1,True
+1212432,2025-01-11T12:45:00+00:00,FT,Regular Season - 22,Aberystwyth Town,351,Briton Ferry,2201,1,6,True
+1212426,2025-01-11T12:45:00+00:00,FT,Regular Season - 21,Bala Town,352,Caernarfon Town,356,0,2,True
+1212435,2025-01-14T19:45:00+00:00,FT,Regular Season - 22,Cardiff MET,353,The New Saints,354,0,2,True
+1212434,2025-01-14T19:45:00+00:00,FT,Regular Season - 22,Caernarfon Town,356,Flint Town United,5614,3,0,True
+1212437,2025-01-14T19:45:00+00:00,FT,Regular Season - 22,Newtown AFC,358,Penybont,2191,1,2,True
+1212433,2025-01-14T19:45:00+00:00,FT,Regular Season - 22,Barry Town,361,Haverfordwest County AFC,2194,1,1,True
+1212436,2025-01-17T19:45:00+00:00,FT,Regular Season - 22,GAP Connah S Quay FC,357,Bala Town,352,0,2,True
+1338855,2025-01-24T19:45:00+00:00,FT,Championship Round - 1,Cardiff MET,353,Penybont,2191,2,1,True
+1338884,2025-01-24T19:45:00+00:00,FT,Relegation Round - 1,Newtown AFC,358,Briton Ferry,2201,2,2,True
+1338885,2025-01-24T20:00:00+00:00,FT,Relegation Round - 1,Aberystwyth Town,351,Barry Town,361,1,2,True
+1338856,2025-01-25T14:30:00+00:00,FT,Championship Round - 1,Haverfordwest County AFC,2194,Bala Town,352,3,2,True
+1338886,2025-01-25T14:30:00+00:00,FT,Relegation Round - 1,Flint Town United,5614,GAP Connah S Quay FC,357,2,1,True
+1338857,2025-01-31T19:45:00+00:00,FT,Championship Round - 2,Bala Town,352,Caernarfon Town,356,1,3,True
+1338858,2025-02-01T12:15:00+00:00,FT,Championship Round - 2,Penybont,2191,Haverfordwest County AFC,2194,0,0,True
+1338859,2025-02-01T14:30:00+00:00,FT,Championship Round - 2,The New Saints,354,Cardiff MET,353,3,1,True
+1338889,2025-02-01T14:30:00+00:00,FT,Relegation Round - 2,GAP Connah S Quay FC,357,Newtown AFC,358,1,0,True
+1338887,2025-02-01T14:30:00+00:00,FT,Relegation Round - 2,Barry Town,361,Flint Town United,5614,3,1,True
+1338888,2025-02-01T14:30:00+00:00,FT,Relegation Round - 2,Briton Ferry,2201,Aberystwyth Town,351,2,3,True
+1338890,2025-02-07T19:45:00+00:00,FT,Relegation Round - 3,Flint Town United,5614,Aberystwyth Town,351,2,0,True
+1338860,2025-02-08T12:15:00+00:00,FT,Championship Round - 3,The New Saints,354,Penybont,2191,4,0,True
+1338862,2025-02-08T14:30:00+00:00,FT,Championship Round - 3,Cardiff MET,353,Bala Town,352,2,1,True
+1338861,2025-02-08T14:30:00+00:00,FT,Championship Round - 3,Caernarfon Town,356,Haverfordwest County AFC,2194,1,1,True
+1338891,2025-02-08T14:30:00+00:00,FT,Relegation Round - 3,GAP Connah S Quay FC,357,Briton Ferry,2201,0,1,True
+1338892,2025-02-08T14:30:00+00:00,FT,Relegation Round - 3,Newtown AFC,358,Barry Town,361,1,1,True
+1338854,2025-02-11T19:45:00+00:00,FT,Championship Round - 1,Caernarfon Town,356,The New Saints,354,0,1,True
+1338863,2025-02-21T19:45:00+00:00,FT,Championship Round - 4,Bala Town,352,The New Saints,354,0,2,True
+1338864,2025-02-21T19:45:00+00:00,FT,Championship Round - 4,Haverfordwest County AFC,2194,Cardiff MET,353,1,0,True
+1338893,2025-02-22T12:15:00+00:00,FT,Relegation Round - 4,Aberystwyth Town,351,Newtown AFC,358,0,1,True
+1338865,2025-02-22T14:30:00+00:00,FT,Championship Round - 4,Caernarfon Town,356,Penybont,2191,3,2,True
+1338894,2025-02-22T14:30:00+00:00,FT,Relegation Round - 4,Barry Town,361,GAP Connah S Quay FC,357,0,2,True
+1338895,2025-02-22T14:30:00+00:00,FT,Relegation Round - 4,Flint Town United,5614,Briton Ferry,2201,3,1,True
+1338897,2025-03-07T19:45:00+00:00,FT,Relegation Round - 5,GAP Connah S Quay FC,357,Aberystwyth Town,351,3,0,True
+1338898,2025-03-07T19:45:00+00:00,FT,Relegation Round - 5,Newtown AFC,358,Flint Town United,5614,2,2,True
+1338896,2025-03-07T19:45:00+00:00,FT,Relegation Round - 5,Briton Ferry,2201,Barry Town,361,3,4,True
+1338868,2025-03-08T12:15:00+00:00,FT,Championship Round - 5,The New Saints,354,Haverfordwest County AFC,2194,5,1,True
+1338866,2025-03-08T14:30:00+00:00,FT,Championship Round - 5,Cardiff MET,353,Caernarfon Town,356,4,2,True
+1338867,2025-03-08T14:30:00+00:00,FT,Championship Round - 5,Penybont,2191,Bala Town,352,3,2,True
+1338870,2025-03-11T19:45:00+00:00,FT,Championship Round - 6,The New Saints,354,Caernarfon Town,356,2,0,True
+1338901,2025-03-11T19:45:00+00:00,FT,Relegation Round - 6,GAP Connah S Quay FC,357,Flint Town United,5614,4,0,True
+1338899,2025-03-11T19:45:00+00:00,FT,Relegation Round - 6,Barry Town,361,Aberystwyth Town,351,2,1,True
+1338900,2025-03-11T19:45:00+00:00,FT,Relegation Round - 6,Briton Ferry,2201,Newtown AFC,358,1,1,True
+1338869,2025-03-14T19:45:00+00:00,FT,Championship Round - 6,Penybont,2191,Cardiff MET,353,0,0,True
+1338871,2025-03-15T14:30:00+00:00,FT,Championship Round - 6,Bala Town,352,Haverfordwest County AFC,2194,0,0,True
+1338872,2025-03-21T19:45:00+00:00,FT,Championship Round - 7,Caernarfon Town,356,Bala Town,352,5,0,True
+1338902,2025-03-21T19:45:00+00:00,FT,Relegation Round - 7,Newtown AFC,358,GAP Connah S Quay FC,357,2,3,True
+1338873,2025-03-21T19:45:00+00:00,FT,Championship Round - 7,Haverfordwest County AFC,2194,Penybont,2191,1,2,True
+1338903,2025-03-21T20:00:00+00:00,FT,Relegation Round - 7,Aberystwyth Town,351,Briton Ferry,2201,0,1,True
+1338874,2025-03-22T14:30:00+00:00,FT,Championship Round - 7,Cardiff MET,353,The New Saints,354,0,6,True
+1338904,2025-03-22T14:30:00+00:00,FT,Relegation Round - 7,Flint Town United,5614,Barry Town,361,3,2,True
+1338905,2025-03-28T19:45:00+00:00,FT,Relegation Round - 8,Barry Town,361,Newtown AFC,358,2,1,True
+1338906,2025-03-28T20:00:00+00:00,FT,Relegation Round - 8,Aberystwyth Town,351,Flint Town United,5614,1,2,True
+1338875,2025-03-29T14:30:00+00:00,FT,Championship Round - 8,Bala Town,352,Cardiff MET,353,0,0,True
+1338877,2025-03-29T14:30:00+00:00,FT,Championship Round - 8,Penybont,2191,The New Saints,354,1,0,True
+1338876,2025-03-29T14:30:00+00:00,FT,Championship Round - 8,Haverfordwest County AFC,2194,Caernarfon Town,356,1,1,True
+1338907,2025-03-29T14:30:00+00:00,FT,Relegation Round - 8,Briton Ferry,2201,GAP Connah S Quay FC,357,1,0,True
+1338878,2025-04-11T18:45:00+00:00,FT,Championship Round - 9,Cardiff MET,353,Haverfordwest County AFC,2194,1,1,True
+1338879,2025-04-11T18:45:00+00:00,FT,Championship Round - 9,The New Saints,354,Bala Town,352,2,1,True
+1338909,2025-04-12T11:45:00+00:00,FT,Relegation Round - 9,Newtown AFC,358,Aberystwyth Town,351,2,3,True
+1338908,2025-04-12T13:30:00+00:00,FT,Relegation Round - 9,Briton Ferry,2201,Flint Town United,5614,1,2,True
+1338910,2025-04-13T13:30:00+00:00,FT,Relegation Round - 9,GAP Connah S Quay FC,357,Barry Town,361,0,2,True
+1338880,2025-04-13T13:30:00+00:00,FT,Championship Round - 9,Penybont,2191,Caernarfon Town,356,3,1,True
+1338911,2025-04-19T11:45:00+00:00,FT,Relegation Round - 10,Aberystwyth Town,351,GAP Connah S Quay FC,357,1,1,True
+1338882,2025-04-19T11:45:00+00:00,FT,Championship Round - 10,Caernarfon Town,356,Cardiff MET,353,2,1,True
+1338912,2025-04-19T11:45:00+00:00,FT,Relegation Round - 10,Barry Town,361,Briton Ferry,2201,5,0,True
+1338883,2025-04-19T11:45:00+00:00,FT,Championship Round - 10,Haverfordwest County AFC,2194,The New Saints,354,1,3,True
+1338913,2025-04-19T11:45:00+00:00,FT,Relegation Round - 10,Flint Town United,5614,Newtown AFC,358,4,0,True
+1338881,2025-04-19T12:00:00+00:00,FT,Championship Round - 10,Bala Town,352,Penybont,2191,3,2,True
+1372661,2025-04-26T11:15:00+00:00,FT,Conference League Play-offs - 1st Round,Caernarfon Town,356,Barry Town,361,5,2,True
+1372662,2025-04-26T13:30:00+00:00,FT,Conference League Play-offs - 1st Round,Cardiff MET,353,Bala Town,352,1,0,True
+1374376,2025-05-11T16:10:00+00:00,PEN,Conference League Play-offs - Semi-finals,Caernarfon Town,356,Cardiff MET,353,0,0,False
+1375263,2025-05-18T16:10:00+00:00,FT,Conference League Play-offs - Final,Haverfordwest County AFC,2194,Caernarfon Town,356,3,1,True

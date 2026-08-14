@@ -1,123 +1,243 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1231173,2025-02-09T14:00:00+00:00,FT,AS Jeunesse Esch,2034,Progres Niederkorn,658,3,1,True
-1231177,2025-02-09T14:00:00+00:00,FT,Rodange 91,2039,UNA Strassen,2036,2,2,True
-1231178,2025-02-09T14:00:00+00:00,FT,Wiltz,11906,Racing FC Union Luxembourg,2030,1,0,True
-1231171,2025-02-09T14:00:00+00:00,FT,Swift Hesperange,11907,US Hostert,2040,3,0,True
-1231176,2025-02-09T15:00:00+00:00,FT,FC Differdange 03,684,Fola Esch,626,4,0,True
-1231175,2025-02-09T15:00:00+00:00,FT,Victoria Rosport,2038,F91 Dudelange,578,0,3,True
-1231174,2025-02-09T15:00:00+00:00,FT,Bettembourg,10881,US Mondorf-les-bains,2037,1,2,True
-1231172,2025-02-09T15:00:00+00:00,FT,Mondercange,15886,Union Titus Petange,2032,0,2,True
-1231182,2025-02-15T15:00:00+00:00,FT,F91 Dudelange,578,FC Differdange 03,684,0,1,True
-1231184,2025-02-16T14:00:00+00:00,FT,Progres Niederkorn,658,Bettembourg,10881,1,0,True
-1231185,2025-02-16T14:00:00+00:00,FT,Union Titus Petange,2032,AS Jeunesse Esch,2034,0,0,True
-1231180,2025-02-16T14:00:00+00:00,FT,UNA Strassen,2036,Wiltz,11906,3,0,True
-1231179,2025-02-16T14:00:00+00:00,FT,US Hostert,2040,Racing FC Union Luxembourg,2030,1,0,True
-1231183,2025-02-16T15:00:00+00:00,FT,US Mondorf-les-bains,2037,Victoria Rosport,2038,2,3,True
-1231186,2025-02-16T15:00:00+00:00,FT,Swift Hesperange,11907,Mondercange,15886,0,0,True
-1231181,2025-02-16T16:30:00+00:00,FT,Fola Esch,626,Rodange 91,2039,1,5,True
-1231194,2025-02-22T16:00:00+00:00,FT,Racing FC Union Luxembourg,2030,UNA Strassen,2036,0,1,True
-1231188,2025-02-23T14:00:00+00:00,FT,AS Jeunesse Esch,2034,Swift Hesperange,11907,3,3,True
-1231192,2025-02-23T14:00:00+00:00,FT,Rodange 91,2039,F91 Dudelange,578,1,3,True
-1231193,2025-02-23T14:00:00+00:00,FT,Wiltz,11906,Fola Esch,626,4,1,True
-1231187,2025-02-23T14:00:00+00:00,FT,Mondercange,15886,US Hostert,2040,2,4,True
-1231191,2025-02-23T15:00:00+00:00,FT,FC Differdange 03,684,US Mondorf-les-bains,2037,3,0,True
-1231190,2025-02-23T15:00:00+00:00,FT,Victoria Rosport,2038,Progres Niederkorn,658,0,0,True
-1231189,2025-02-23T16:30:00+00:00,FT,Bettembourg,10881,Union Titus Petange,2032,1,3,True
-1231199,2025-03-01T17:00:00+00:00,FT,Progres Niederkorn,658,FC Differdange 03,684,0,2,True
-1231197,2025-03-02T15:00:00+00:00,FT,F91 Dudelange,578,Wiltz,11906,3,1,True
-1231196,2025-03-02T15:00:00+00:00,FT,Fola Esch,626,Racing FC Union Luxembourg,2030,0,3,True
-1231200,2025-03-02T15:00:00+00:00,FT,Union Titus Petange,2032,Victoria Rosport,2038,0,0,True
-1231198,2025-03-02T15:00:00+00:00,FT,US Mondorf-les-bains,2037,Rodange 91,2039,1,1,True
-1231195,2025-03-02T15:00:00+00:00,FT,US Hostert,2040,UNA Strassen,2036,2,2,True
-1231201,2025-03-02T15:00:00+00:00,FT,Swift Hesperange,11907,Bettembourg,10881,1,0,True
-1231202,2025-03-02T15:00:00+00:00,FT,Mondercange,15886,AS Jeunesse Esch,2034,1,0,True
-1231206,2025-03-08T17:00:00+00:00,FT,FC Differdange 03,684,Union Titus Petange,2032,2,0,True
-1231209,2025-03-08T17:00:00+00:00,FT,Racing FC Union Luxembourg,2030,F91 Dudelange,578,1,1,True
-1231203,2025-03-08T17:00:00+00:00,FT,AS Jeunesse Esch,2034,US Hostert,2040,0,3,True
-1231210,2025-03-08T17:00:00+00:00,FT,UNA Strassen,2036,Fola Esch,626,3,0,True
-1231205,2025-03-08T17:00:00+00:00,FT,Victoria Rosport,2038,Swift Hesperange,11907,1,1,True
-1231207,2025-03-08T17:00:00+00:00,FT,Rodange 91,2039,Progres Niederkorn,658,1,1,True
-1231204,2025-03-09T15:00:00+00:00,FT,Bettembourg,10881,Mondercange,15886,2,1,True
-1231208,2025-03-09T15:00:00+00:00,FT,Wiltz,11906,US Mondorf-les-bains,2037,0,2,True
-1231212,2025-03-16T15:00:00+00:00,FT,F91 Dudelange,578,UNA Strassen,2036,1,3,True
-1231215,2025-03-16T15:00:00+00:00,FT,Union Titus Petange,2032,Rodange 91,2039,3,0,True
-1231213,2025-03-16T15:00:00+00:00,FT,US Mondorf-les-bains,2037,Racing FC Union Luxembourg,2030,0,1,True
-1231211,2025-03-16T15:00:00+00:00,FT,US Hostert,2040,Fola Esch,626,2,1,True
-1231216,2025-03-16T15:00:00+00:00,FT,Swift Hesperange,11907,FC Differdange 03,684,0,2,True
-1231217,2025-03-16T15:00:00+00:00,FT,Mondercange,15886,Victoria Rosport,2038,1,1,True
-1231218,2025-03-16T17:00:00+00:00,FT,AS Jeunesse Esch,2034,Bettembourg,10881,5,1,True
-1231214,2025-03-16T17:30:00+00:00,FT,Progres Niederkorn,658,Wiltz,11906,3,1,True
-1231222,2025-03-28T19:00:00+00:00,FT,Rodange 91,2039,Swift Hesperange,11907,0,2,True
-1231224,2025-03-29T17:30:00+00:00,FT,Racing FC Union Luxembourg,2030,Progres Niederkorn,658,1,3,True
-1231226,2025-03-30T14:00:00+00:00,FT,Fola Esch,626,F91 Dudelange,578,0,2,True
-1231221,2025-03-30T14:00:00+00:00,FT,FC Differdange 03,684,Mondercange,15886,4,0,True
-1231225,2025-03-30T14:00:00+00:00,FT,UNA Strassen,2036,US Mondorf-les-bains,2037,1,3,True
-1231220,2025-03-30T14:00:00+00:00,FT,Victoria Rosport,2038,AS Jeunesse Esch,2034,1,1,True
-1231107,2025-03-30T14:00:00+00:00,FT,US Hostert,2040,Bettembourg,10881,1,3,True
-1231223,2025-03-30T14:00:00+00:00,FT,Wiltz,11906,Union Titus Petange,2032,0,3,True
-1231229,2025-04-05T16:00:00+00:00,FT,Progres Niederkorn,658,UNA Strassen,2036,1,0,True
-1231230,2025-04-06T14:00:00+00:00,FT,Union Titus Petange,2032,Racing FC Union Luxembourg,2030,1,0,True
-1231233,2025-04-06T14:00:00+00:00,FT,AS Jeunesse Esch,2034,FC Differdange 03,684,0,2,True
-1231228,2025-04-06T14:00:00+00:00,FT,US Mondorf-les-bains,2037,Fola Esch,626,2,0,True
-1231227,2025-04-06T14:00:00+00:00,FT,US Hostert,2040,F91 Dudelange,578,1,1,True
-1231234,2025-04-06T14:00:00+00:00,FT,Bettembourg,10881,Victoria Rosport,2038,1,2,True
-1231231,2025-04-06T14:00:00+00:00,FT,Swift Hesperange,11907,Wiltz,11906,3,1,True
-1231232,2025-04-06T14:00:00+00:00,FT,Mondercange,15886,Rodange 91,2039,0,2,True
-1231239,2025-04-12T13:00:00+00:00,FT,Racing FC Union Luxembourg,2030,Swift Hesperange,11907,3,1,True
-1231236,2025-04-12T15:00:00+00:00,FT,FC Differdange 03,684,Bettembourg,10881,1,0,True
-1231242,2025-04-13T14:00:00+00:00,FT,F91 Dudelange,578,US Mondorf-les-bains,2037,3,0,True
-1231241,2025-04-13T14:00:00+00:00,FT,Fola Esch,626,Progres Niederkorn,658,0,2,True
-1231240,2025-04-13T14:00:00+00:00,FT,UNA Strassen,2036,Union Titus Petange,2032,4,0,True
-1231235,2025-04-13T14:00:00+00:00,FT,Victoria Rosport,2038,US Hostert,2040,1,2,True
-1231237,2025-04-13T14:00:00+00:00,FT,Rodange 91,2039,AS Jeunesse Esch,2034,2,0,True
-1231238,2025-04-13T14:00:00+00:00,FT,Wiltz,11906,Mondercange,15886,2,0,True
-1231245,2025-04-18T18:00:00+00:00,FT,Union Titus Petange,2032,Fola Esch,626,2,4,True
-1231247,2025-04-18T18:00:00+00:00,FT,Mondercange,15886,Racing FC Union Luxembourg,2030,0,4,True
-1231248,2025-04-19T15:00:00+00:00,FT,AS Jeunesse Esch,2034,Wiltz,11906,1,1,True
-1231250,2025-04-19T15:00:00+00:00,FT,Victoria Rosport,2038,FC Differdange 03,684,0,2,True
-1231244,2025-04-19T16:00:00+00:00,FT,Progres Niederkorn,658,F91 Dudelange,578,2,1,True
-1231243,2025-04-19T16:00:00+00:00,FT,US Hostert,2040,US Mondorf-les-bains,2037,2,1,True
-1231249,2025-04-19T16:00:00+00:00,FT,Bettembourg,10881,Rodange 91,2039,1,2,True
-1231246,2025-04-19T16:00:00+00:00,FT,Swift Hesperange,11907,UNA Strassen,2036,1,2,True
-1231257,2025-04-27T14:00:00+00:00,FT,F91 Dudelange,578,Union Titus Petange,2032,1,1,True
-1231256,2025-04-27T14:00:00+00:00,FT,Fola Esch,626,Swift Hesperange,11907,0,3,True
-1231251,2025-04-27T14:00:00+00:00,FT,FC Differdange 03,684,US Hostert,2040,4,0,True
-1231254,2025-04-27T14:00:00+00:00,FT,Racing FC Union Luxembourg,2030,AS Jeunesse Esch,2034,2,0,True
-1231255,2025-04-27T14:00:00+00:00,FT,UNA Strassen,2036,Mondercange,15886,5,0,True
-1231258,2025-04-27T14:00:00+00:00,FT,US Mondorf-les-bains,2037,Progres Niederkorn,658,2,1,True
-1231252,2025-04-27T14:00:00+00:00,FT,Rodange 91,2039,Victoria Rosport,2038,0,0,True
-1231253,2025-04-27T14:00:00+00:00,FT,Wiltz,11906,Bettembourg,10881,3,2,True
-1231265,2025-05-03T15:00:00+00:00,FT,Swift Hesperange,11907,F91 Dudelange,578,0,4,True
-1231260,2025-05-04T14:00:00+00:00,FT,FC Differdange 03,684,Rodange 91,2039,0,0,True
-1231266,2025-05-04T14:00:00+00:00,FT,Union Titus Petange,2032,US Mondorf-les-bains,2037,1,2,True
-1231263,2025-05-04T14:00:00+00:00,FT,AS Jeunesse Esch,2034,UNA Strassen,2036,3,2,True
-1231261,2025-05-04T14:00:00+00:00,FT,Victoria Rosport,2038,Wiltz,11906,1,1,True
-1231259,2025-05-04T14:00:00+00:00,FT,US Hostert,2040,Progres Niederkorn,658,1,3,True
-1231262,2025-05-04T14:00:00+00:00,FT,Bettembourg,10881,Racing FC Union Luxembourg,2030,0,0,True
-1231264,2025-05-04T14:00:00+00:00,FT,Mondercange,15886,Fola Esch,626,0,1,True
-1231268,2025-05-10T15:00:00+00:00,FT,Wiltz,11906,FC Differdange 03,684,0,4,True
-1231274,2025-05-10T16:00:00+00:00,FT,Progres Niederkorn,658,Union Titus Petange,2032,0,1,True
-1231272,2025-05-11T14:00:00+00:00,FT,F91 Dudelange,578,Mondercange,15886,2,3,True
-1231269,2025-05-11T14:00:00+00:00,FT,Racing FC Union Luxembourg,2030,Victoria Rosport,2038,2,0,True
-1231270,2025-05-11T14:00:00+00:00,FT,UNA Strassen,2036,Bettembourg,10881,3,0,True
-1231273,2025-05-11T14:00:00+00:00,FT,US Mondorf-les-bains,2037,Swift Hesperange,11907,4,0,True
-1231267,2025-05-11T14:00:00+00:00,FT,Rodange 91,2039,US Hostert,2040,1,1,True
-1231271,2025-05-12T18:00:00+00:00,FT,Fola Esch,626,AS Jeunesse Esch,2034,0,1,True
-1231281,2025-05-18T14:00:00+00:00,FT,FC Differdange 03,684,Racing FC Union Luxembourg,2030,1,1,True
-1231278,2025-05-18T14:00:00+00:00,FT,AS Jeunesse Esch,2034,F91 Dudelange,578,2,0,True
-1231280,2025-05-18T14:00:00+00:00,FT,Victoria Rosport,2038,UNA Strassen,2036,0,3,True
-1231282,2025-05-18T14:00:00+00:00,FT,Rodange 91,2039,Wiltz,11906,4,2,True
-1231275,2025-05-18T14:00:00+00:00,FT,US Hostert,2040,Union Titus Petange,2032,1,8,True
-1231279,2025-05-18T14:00:00+00:00,FT,Bettembourg,10881,Fola Esch,626,2,0,True
-1231276,2025-05-18T14:00:00+00:00,FT,Swift Hesperange,11907,Progres Niederkorn,658,1,0,True
-1231277,2025-05-18T14:00:00+00:00,FT,Mondercange,15886,US Mondorf-les-bains,2037,1,2,True
-1231287,2025-05-25T14:00:00+00:00,FT,F91 Dudelange,578,Bettembourg,10881,5,0,True
-1231286,2025-05-25T14:00:00+00:00,FT,Fola Esch,626,Victoria Rosport,2038,1,4,True
-1231289,2025-05-25T14:00:00+00:00,FT,Progres Niederkorn,658,Mondercange,15886,7,2,True
-1231284,2025-05-25T14:00:00+00:00,FT,Racing FC Union Luxembourg,2030,Rodange 91,2039,2,0,True
-1231290,2025-05-25T14:00:00+00:00,FT,Union Titus Petange,2032,Swift Hesperange,11907,0,3,True
-1231285,2025-05-25T14:00:00+00:00,FT,UNA Strassen,2036,FC Differdange 03,684,1,0,True
-1231288,2025-05-25T14:00:00+00:00,FT,US Mondorf-les-bains,2037,AS Jeunesse Esch,2034,4,1,True
-1231283,2025-05-25T14:00:00+00:00,FT,Wiltz,11906,US Hostert,2040,2,2,True
-1376891,2025-05-29T17:00:00+00:00,FT,Bettembourg,10881,Atert Bissen,15847,0,1,True
-1376892,2025-06-01T17:00:00+00:00,AET,Wiltz,11906,Jeunesse Canach,2029,1,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1231052,2024-08-03T16:00:00+00:00,FT,Regular Season - 1,Rodange 91,2039,Racing FC Union Luxembourg,2030,1,1,True
+1231056,2024-08-04T14:00:00+00:00,FT,Regular Season - 1,AS Jeunesse Esch,2034,US Mondorf-les-bains,2037,1,1,True
+1231054,2024-08-04T14:00:00+00:00,FT,Regular Season - 1,Victoria Rosport,2038,Fola Esch,626,1,0,True
+1231051,2024-08-04T14:00:00+00:00,FT,Regular Season - 1,US Hostert,2040,Wiltz,11906,3,4,True
+1231055,2024-08-04T14:00:00+00:00,FT,Regular Season - 1,Bettembourg,10881,F91 Dudelange,578,0,3,True
+1231058,2024-08-04T14:00:00+00:00,FT,Regular Season - 1,Swift Hesperange,11907,Union Titus Petange,2032,4,0,True
+1231057,2024-08-04T16:30:00+00:00,FT,Regular Season - 1,Mondercange,15886,Progres Niederkorn,658,0,2,True
+1231053,2024-08-05T18:00:00+00:00,FT,Regular Season - 1,FC Differdange 03,684,UNA Strassen,2036,2,0,True
+1231063,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,F91 Dudelange,578,Victoria Rosport,2038,3,0,True
+1231064,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,Fola Esch,626,FC Differdange 03,684,0,5,True
+1231066,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,Racing FC Union Luxembourg,2030,Wiltz,11906,3,0,True
+1231060,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,Union Titus Petange,2032,Mondercange,15886,6,0,True
+1231065,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,UNA Strassen,2036,Rodange 91,2039,4,0,True
+1231062,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,US Mondorf-les-bains,2037,Bettembourg,10881,2,1,True
+1231059,2024-08-11T14:00:00+00:00,FT,Regular Season - 2,US Hostert,2040,Swift Hesperange,11907,1,5,True
+1231061,2024-08-11T16:30:00+00:00,FT,Regular Season - 2,Progres Niederkorn,658,AS Jeunesse Esch,2034,3,0,True
+1231067,2024-08-17T16:00:00+00:00,FT,Regular Season - 3,Racing FC Union Luxembourg,2030,US Hostert,2040,4,1,True
+1231073,2024-08-18T14:00:00+00:00,FT,Regular Season - 3,AS Jeunesse Esch,2034,Union Titus Petange,2032,0,0,True
+1231071,2024-08-18T14:00:00+00:00,FT,Regular Season - 3,Victoria Rosport,2038,US Mondorf-les-bains,2037,1,0,True
+1231069,2024-08-18T14:00:00+00:00,FT,Regular Season - 3,Rodange 91,2039,Fola Esch,626,3,1,True
+1231068,2024-08-18T14:00:00+00:00,FT,Regular Season - 3,Wiltz,11906,UNA Strassen,2036,0,3,True
+1231070,2024-08-18T16:30:00+00:00,FT,Regular Season - 3,FC Differdange 03,684,F91 Dudelange,578,3,0,True
+1231072,2024-08-18T16:30:00+00:00,FT,Regular Season - 3,Bettembourg,10881,Progres Niederkorn,658,1,3,True
+1231074,2024-08-18T16:30:00+00:00,FT,Regular Season - 3,Mondercange,15886,Swift Hesperange,11907,1,2,True
+1231076,2024-08-24T16:00:00+00:00,FT,Regular Season - 4,Swift Hesperange,11907,AS Jeunesse Esch,2034,5,1,True
+1231080,2024-08-25T14:00:00+00:00,FT,Regular Season - 4,F91 Dudelange,578,Rodange 91,2039,3,2,True
+1231081,2024-08-25T14:00:00+00:00,FT,Regular Season - 4,Fola Esch,626,Wiltz,11906,1,0,True
+1231078,2024-08-25T14:00:00+00:00,FT,Regular Season - 4,Progres Niederkorn,658,Victoria Rosport,2038,2,1,True
+1231077,2024-08-25T14:00:00+00:00,FT,Regular Season - 4,Union Titus Petange,2032,Bettembourg,10881,4,0,True
+1231082,2024-08-25T14:00:00+00:00,FT,Regular Season - 4,UNA Strassen,2036,Racing FC Union Luxembourg,2030,0,0,True
+1231075,2024-08-25T14:00:00+00:00,FT,Regular Season - 4,US Hostert,2040,Mondercange,15886,2,1,True
+1231079,2024-08-25T16:30:00+00:00,FT,Regular Season - 4,US Mondorf-les-bains,2037,FC Differdange 03,684,0,4,True
+1231085,2024-08-31T15:00:00+00:00,FT,Regular Season - 5,Wiltz,11906,F91 Dudelange,578,0,4,True
+1231084,2024-09-01T14:00:00+00:00,FT,Regular Season - 5,Racing FC Union Luxembourg,2030,Fola Esch,626,2,1,True
+1231090,2024-09-01T14:00:00+00:00,FT,Regular Season - 5,AS Jeunesse Esch,2034,Mondercange,15886,3,0,True
+1231083,2024-09-01T14:00:00+00:00,FT,Regular Season - 5,UNA Strassen,2036,US Hostert,2040,2,1,True
+1231088,2024-09-01T14:00:00+00:00,FT,Regular Season - 5,Victoria Rosport,2038,Union Titus Petange,2032,1,2,True
+1231086,2024-09-01T14:00:00+00:00,FT,Regular Season - 5,Rodange 91,2039,US Mondorf-les-bains,2037,1,5,True
+1231089,2024-09-01T14:00:00+00:00,FT,Regular Season - 5,Bettembourg,10881,Swift Hesperange,11907,3,0,True
+1231087,2024-09-01T16:30:00+00:00,FT,Regular Season - 5,FC Differdange 03,684,Progres Niederkorn,658,1,0,True
+1231091,2024-09-14T14:00:00+00:00,FT,Regular Season - 6,US Hostert,2040,AS Jeunesse Esch,2034,0,0,True
+1231097,2024-09-15T14:00:00+00:00,FT,Regular Season - 6,F91 Dudelange,578,Racing FC Union Luxembourg,2030,2,4,True
+1231094,2024-09-15T14:00:00+00:00,FT,Regular Season - 6,Union Titus Petange,2032,FC Differdange 03,684,0,1,True
+1231096,2024-09-15T14:00:00+00:00,FT,Regular Season - 6,US Mondorf-les-bains,2037,Wiltz,11906,3,2,True
+1231093,2024-09-15T14:00:00+00:00,FT,Regular Season - 6,Swift Hesperange,11907,Victoria Rosport,2038,5,0,True
+1231092,2024-09-15T14:00:00+00:00,FT,Regular Season - 6,Mondercange,15886,Bettembourg,10881,0,2,True
+1231098,2024-09-15T16:30:00+00:00,FT,Regular Season - 6,Fola Esch,626,UNA Strassen,2036,0,1,True
+1231095,2024-09-15T16:30:00+00:00,FT,Regular Season - 6,Progres Niederkorn,658,Rodange 91,2039,5,1,True
+1231099,2024-09-21T15:00:00+00:00,FT,Regular Season - 7,Fola Esch,626,US Hostert,2040,0,4,True
+1231100,2024-09-21T15:00:00+00:00,FT,Regular Season - 7,UNA Strassen,2036,F91 Dudelange,578,0,1,True
+1231103,2024-09-21T15:00:00+00:00,FT,Regular Season - 7,Rodange 91,2039,Union Titus Petange,2032,0,0,True
+1231101,2024-09-21T16:00:00+00:00,FT,Regular Season - 7,Racing FC Union Luxembourg,2030,US Mondorf-les-bains,2037,3,0,True
+1231102,2024-09-21T18:00:00+00:00,FT,Regular Season - 7,Wiltz,11906,Progres Niederkorn,658,1,2,True
+1231104,2024-09-22T14:00:00+00:00,FT,Regular Season - 7,FC Differdange 03,684,Swift Hesperange,11907,0,0,True
+1231105,2024-09-22T14:00:00+00:00,FT,Regular Season - 7,Victoria Rosport,2038,Mondercange,15886,2,0,True
+1231106,2024-09-22T16:30:00+00:00,FT,Regular Season - 7,Bettembourg,10881,AS Jeunesse Esch,2034,1,2,True
+1231114,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,F91 Dudelange,578,Fola Esch,626,6,1,True
+1231111,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,Union Titus Petange,2032,Wiltz,11906,1,0,True
+1231108,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,AS Jeunesse Esch,2034,Victoria Rosport,2038,1,1,True
+1231113,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,US Mondorf-les-bains,2037,UNA Strassen,2036,1,1,True
+1231219,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,Bettembourg,10881,US Hostert,2040,2,4,True
+1231110,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,Swift Hesperange,11907,Rodange 91,2039,4,0,True
+1231109,2024-09-25T18:00:00+00:00,FT,Regular Season - 8,Mondercange,15886,FC Differdange 03,684,1,2,True
+1231115,2024-09-29T14:00:00+00:00,FT,Regular Season - 9,F91 Dudelange,578,US Hostert,2040,3,0,True
+1231116,2024-09-29T14:00:00+00:00,FT,Regular Season - 9,Fola Esch,626,US Mondorf-les-bains,2037,0,4,True
+1231117,2024-09-29T14:00:00+00:00,FT,Regular Season - 9,UNA Strassen,2036,Progres Niederkorn,658,1,1,True
+1231122,2024-09-29T14:00:00+00:00,FT,Regular Season - 9,Victoria Rosport,2038,Bettembourg,10881,1,1,True
+1231120,2024-09-29T14:00:00+00:00,FT,Regular Season - 9,Rodange 91,2039,Mondercange,15886,3,2,True
+1231119,2024-09-29T14:00:00+00:00,FT,Regular Season - 9,Wiltz,11906,Swift Hesperange,11907,0,0,True
+1231121,2024-09-29T15:00:00+00:00,FT,Regular Season - 9,FC Differdange 03,684,AS Jeunesse Esch,2034,1,0,True
+1231118,2024-09-29T16:30:00+00:00,FT,Regular Season - 9,Racing FC Union Luxembourg,2030,Union Titus Petange,2032,2,1,True
+1231127,2024-10-19T15:00:00+00:00,FT,Regular Season - 10,Swift Hesperange,11907,Racing FC Union Luxembourg,2030,1,0,True
+1231129,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,Progres Niederkorn,658,Fola Esch,626,5,2,True
+1231128,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,Union Titus Petange,2032,UNA Strassen,2036,0,1,True
+1231125,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,AS Jeunesse Esch,2034,Rodange 91,2039,3,2,True
+1231130,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,US Mondorf-les-bains,2037,F91 Dudelange,578,2,2,True
+1231123,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,US Hostert,2040,Victoria Rosport,2038,1,4,True
+1231124,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,Bettembourg,10881,FC Differdange 03,684,0,3,True
+1231126,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,Mondercange,15886,Wiltz,11906,0,3,True
+1231134,2024-10-26T15:00:00+00:00,FT,Regular Season - 11,UNA Strassen,2036,Swift Hesperange,11907,0,2,True
+1231133,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,Fola Esch,626,Union Titus Petange,2032,0,0,True
+1231138,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,FC Differdange 03,684,Victoria Rosport,2038,3,0,True
+1231135,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,Racing FC Union Luxembourg,2030,Mondercange,15886,5,2,True
+1231131,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,US Mondorf-les-bains,2037,US Hostert,2040,3,1,True
+1231137,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,Rodange 91,2039,Bettembourg,10881,1,2,True
+1231136,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,Wiltz,11906,AS Jeunesse Esch,2034,2,3,True
+1231132,2024-10-27T17:30:00+00:00,FT,Regular Season - 11,F91 Dudelange,578,Progres Niederkorn,658,1,0,True
+1231112,2024-10-30T19:00:00+00:00,FT,Regular Season - 8,Progres Niederkorn,658,Racing FC Union Luxembourg,2030,1,1,True
+1231145,2024-11-02T16:00:00+00:00,FT,Regular Season - 12,Union Titus Petange,2032,F91 Dudelange,578,2,2,True
+1231146,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Progres Niederkorn,658,US Mondorf-les-bains,2037,1,1,True
+1231139,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,US Hostert,2040,FC Differdange 03,684,1,3,True
+1231141,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Bettembourg,10881,Wiltz,11906,0,1,True
+1231143,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Mondercange,15886,UNA Strassen,2036,1,1,True
+1231140,2024-11-03T15:00:00+00:00,FT,Regular Season - 12,Victoria Rosport,2038,Rodange 91,2039,1,0,True
+1231144,2024-11-03T15:00:00+00:00,FT,Regular Season - 12,Swift Hesperange,11907,Fola Esch,626,2,0,True
+1231142,2024-11-03T16:00:00+00:00,FT,Regular Season - 12,AS Jeunesse Esch,2034,Racing FC Union Luxembourg,2030,2,1,True
+1231153,2024-11-23T16:00:00+00:00,FT,Regular Season - 13,F91 Dudelange,578,Swift Hesperange,11907,4,3,True
+1231150,2024-11-23T16:00:00+00:00,FT,Regular Season - 13,Racing FC Union Luxembourg,2030,Bettembourg,10881,1,0,True
+1231152,2024-11-24T14:00:00+00:00,FT,Regular Season - 13,Fola Esch,626,Mondercange,15886,1,0,True
+1231147,2024-11-24T14:00:00+00:00,FT,Regular Season - 13,Progres Niederkorn,658,US Hostert,2040,3,2,True
+1231151,2024-11-24T14:00:00+00:00,FT,Regular Season - 13,UNA Strassen,2036,AS Jeunesse Esch,2034,5,0,True
+1231148,2024-11-24T14:00:00+00:00,FT,Regular Season - 13,Rodange 91,2039,FC Differdange 03,684,1,5,True
+1231154,2024-11-24T15:00:00+00:00,FT,Regular Season - 13,US Mondorf-les-bains,2037,Union Titus Petange,2032,1,0,True
+1231149,2024-11-24T16:00:00+00:00,FT,Regular Season - 13,Wiltz,11906,Victoria Rosport,2038,1,1,True
+1231160,2024-11-30T15:00:00+00:00,FT,Regular Season - 14,Mondercange,15886,F91 Dudelange,578,0,2,True
+1231156,2024-12-01T14:00:00+00:00,FT,Regular Season - 14,FC Differdange 03,684,Wiltz,11906,4,1,True
+1231162,2024-12-01T15:00:00+00:00,FT,Regular Season - 14,Union Titus Petange,2032,Progres Niederkorn,658,0,0,True
+1231158,2024-12-01T15:00:00+00:00,FT,Regular Season - 14,Bettembourg,10881,UNA Strassen,2036,0,4,True
+1231161,2024-12-01T15:00:00+00:00,FT,Regular Season - 14,Swift Hesperange,11907,US Mondorf-les-bains,2037,0,3,True
+1231157,2024-12-01T16:00:00+00:00,FT,Regular Season - 14,Victoria Rosport,2038,Racing FC Union Luxembourg,2030,0,2,True
+1231163,2024-12-07T15:00:00+00:00,FT,Regular Season - 15,Union Titus Petange,2032,US Hostert,2040,0,2,True
+1231166,2024-12-07T16:00:00+00:00,FT,Regular Season - 15,F91 Dudelange,578,AS Jeunesse Esch,2034,1,1,True
+1231169,2024-12-07T16:00:00+00:00,FT,Regular Season - 15,Racing FC Union Luxembourg,2030,FC Differdange 03,684,1,0,True
+1231168,2024-12-08T14:00:00+00:00,FT,Regular Season - 15,UNA Strassen,2036,Victoria Rosport,2038,4,1,True
+1231170,2024-12-08T14:00:00+00:00,FT,Regular Season - 15,Wiltz,11906,Rodange 91,2039,3,1,True
+1231167,2024-12-08T15:00:00+00:00,FT,Regular Season - 15,Fola Esch,626,Bettembourg,10881,0,2,True
+1231165,2024-12-08T15:00:00+00:00,FT,Regular Season - 15,US Mondorf-les-bains,2037,Mondercange,15886,0,2,True
+1231164,2024-12-11T19:00:00+00:00,FT,Regular Season - 15,Progres Niederkorn,658,Swift Hesperange,11907,1,1,True
+1231159,2024-12-11T19:00:00+00:00,FT,Regular Season - 14,AS Jeunesse Esch,2034,Fola Esch,626,4,2,True
+1231155,2024-12-11T19:00:00+00:00,FT,Regular Season - 14,US Hostert,2040,Rodange 91,2039,4,3,True
+1231173,2025-02-09T14:00:00+00:00,FT,Regular Season - 16,AS Jeunesse Esch,2034,Progres Niederkorn,658,3,1,True
+1231177,2025-02-09T14:00:00+00:00,FT,Regular Season - 16,Rodange 91,2039,UNA Strassen,2036,2,2,True
+1231178,2025-02-09T14:00:00+00:00,FT,Regular Season - 16,Wiltz,11906,Racing FC Union Luxembourg,2030,1,0,True
+1231171,2025-02-09T14:00:00+00:00,FT,Regular Season - 16,Swift Hesperange,11907,US Hostert,2040,3,0,True
+1231176,2025-02-09T15:00:00+00:00,FT,Regular Season - 16,FC Differdange 03,684,Fola Esch,626,4,0,True
+1231175,2025-02-09T15:00:00+00:00,FT,Regular Season - 16,Victoria Rosport,2038,F91 Dudelange,578,0,3,True
+1231174,2025-02-09T15:00:00+00:00,FT,Regular Season - 16,Bettembourg,10881,US Mondorf-les-bains,2037,1,2,True
+1231172,2025-02-09T15:00:00+00:00,FT,Regular Season - 16,Mondercange,15886,Union Titus Petange,2032,0,2,True
+1231182,2025-02-15T15:00:00+00:00,FT,Regular Season - 17,F91 Dudelange,578,FC Differdange 03,684,0,1,True
+1231184,2025-02-16T14:00:00+00:00,FT,Regular Season - 17,Progres Niederkorn,658,Bettembourg,10881,1,0,True
+1231185,2025-02-16T14:00:00+00:00,FT,Regular Season - 17,Union Titus Petange,2032,AS Jeunesse Esch,2034,0,0,True
+1231180,2025-02-16T14:00:00+00:00,FT,Regular Season - 17,UNA Strassen,2036,Wiltz,11906,3,0,True
+1231179,2025-02-16T14:00:00+00:00,FT,Regular Season - 17,US Hostert,2040,Racing FC Union Luxembourg,2030,1,0,True
+1231183,2025-02-16T15:00:00+00:00,FT,Regular Season - 17,US Mondorf-les-bains,2037,Victoria Rosport,2038,2,3,True
+1231186,2025-02-16T15:00:00+00:00,FT,Regular Season - 17,Swift Hesperange,11907,Mondercange,15886,0,0,True
+1231181,2025-02-16T16:30:00+00:00,FT,Regular Season - 17,Fola Esch,626,Rodange 91,2039,1,5,True
+1231194,2025-02-22T16:00:00+00:00,FT,Regular Season - 18,Racing FC Union Luxembourg,2030,UNA Strassen,2036,0,1,True
+1231188,2025-02-23T14:00:00+00:00,FT,Regular Season - 18,AS Jeunesse Esch,2034,Swift Hesperange,11907,3,3,True
+1231192,2025-02-23T14:00:00+00:00,FT,Regular Season - 18,Rodange 91,2039,F91 Dudelange,578,1,3,True
+1231193,2025-02-23T14:00:00+00:00,FT,Regular Season - 18,Wiltz,11906,Fola Esch,626,4,1,True
+1231187,2025-02-23T14:00:00+00:00,FT,Regular Season - 18,Mondercange,15886,US Hostert,2040,2,4,True
+1231191,2025-02-23T15:00:00+00:00,FT,Regular Season - 18,FC Differdange 03,684,US Mondorf-les-bains,2037,3,0,True
+1231190,2025-02-23T15:00:00+00:00,FT,Regular Season - 18,Victoria Rosport,2038,Progres Niederkorn,658,0,0,True
+1231189,2025-02-23T16:30:00+00:00,FT,Regular Season - 18,Bettembourg,10881,Union Titus Petange,2032,1,3,True
+1231199,2025-03-01T17:00:00+00:00,FT,Regular Season - 19,Progres Niederkorn,658,FC Differdange 03,684,0,2,True
+1231197,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,F91 Dudelange,578,Wiltz,11906,3,1,True
+1231196,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,Fola Esch,626,Racing FC Union Luxembourg,2030,0,3,True
+1231200,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,Union Titus Petange,2032,Victoria Rosport,2038,0,0,True
+1231198,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,US Mondorf-les-bains,2037,Rodange 91,2039,1,1,True
+1231195,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,US Hostert,2040,UNA Strassen,2036,2,2,True
+1231201,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,Swift Hesperange,11907,Bettembourg,10881,1,0,True
+1231202,2025-03-02T15:00:00+00:00,FT,Regular Season - 19,Mondercange,15886,AS Jeunesse Esch,2034,1,0,True
+1231206,2025-03-08T17:00:00+00:00,FT,Regular Season - 20,FC Differdange 03,684,Union Titus Petange,2032,2,0,True
+1231209,2025-03-08T17:00:00+00:00,FT,Regular Season - 20,Racing FC Union Luxembourg,2030,F91 Dudelange,578,1,1,True
+1231203,2025-03-08T17:00:00+00:00,FT,Regular Season - 20,AS Jeunesse Esch,2034,US Hostert,2040,0,3,True
+1231210,2025-03-08T17:00:00+00:00,FT,Regular Season - 20,UNA Strassen,2036,Fola Esch,626,3,0,True
+1231205,2025-03-08T17:00:00+00:00,FT,Regular Season - 20,Victoria Rosport,2038,Swift Hesperange,11907,1,1,True
+1231207,2025-03-08T17:00:00+00:00,FT,Regular Season - 20,Rodange 91,2039,Progres Niederkorn,658,1,1,True
+1231204,2025-03-09T15:00:00+00:00,FT,Regular Season - 20,Bettembourg,10881,Mondercange,15886,2,1,True
+1231208,2025-03-09T15:00:00+00:00,FT,Regular Season - 20,Wiltz,11906,US Mondorf-les-bains,2037,0,2,True
+1231212,2025-03-16T15:00:00+00:00,FT,Regular Season - 21,F91 Dudelange,578,UNA Strassen,2036,1,3,True
+1231215,2025-03-16T15:00:00+00:00,FT,Regular Season - 21,Union Titus Petange,2032,Rodange 91,2039,3,0,True
+1231213,2025-03-16T15:00:00+00:00,FT,Regular Season - 21,US Mondorf-les-bains,2037,Racing FC Union Luxembourg,2030,0,1,True
+1231211,2025-03-16T15:00:00+00:00,FT,Regular Season - 21,US Hostert,2040,Fola Esch,626,2,1,True
+1231216,2025-03-16T15:00:00+00:00,FT,Regular Season - 21,Swift Hesperange,11907,FC Differdange 03,684,0,2,True
+1231217,2025-03-16T15:00:00+00:00,FT,Regular Season - 21,Mondercange,15886,Victoria Rosport,2038,1,1,True
+1231218,2025-03-16T17:00:00+00:00,FT,Regular Season - 21,AS Jeunesse Esch,2034,Bettembourg,10881,5,1,True
+1231214,2025-03-16T17:30:00+00:00,FT,Regular Season - 21,Progres Niederkorn,658,Wiltz,11906,3,1,True
+1231222,2025-03-28T19:00:00+00:00,FT,Regular Season - 22,Rodange 91,2039,Swift Hesperange,11907,0,2,True
+1231224,2025-03-29T17:30:00+00:00,FT,Regular Season - 22,Racing FC Union Luxembourg,2030,Progres Niederkorn,658,1,3,True
+1231226,2025-03-30T14:00:00+00:00,FT,Regular Season - 22,Fola Esch,626,F91 Dudelange,578,0,2,True
+1231221,2025-03-30T14:00:00+00:00,FT,Regular Season - 22,FC Differdange 03,684,Mondercange,15886,4,0,True
+1231225,2025-03-30T14:00:00+00:00,FT,Regular Season - 22,UNA Strassen,2036,US Mondorf-les-bains,2037,1,3,True
+1231220,2025-03-30T14:00:00+00:00,FT,Regular Season - 22,Victoria Rosport,2038,AS Jeunesse Esch,2034,1,1,True
+1231107,2025-03-30T14:00:00+00:00,FT,Regular Season - 22,US Hostert,2040,Bettembourg,10881,1,3,True
+1231223,2025-03-30T14:00:00+00:00,FT,Regular Season - 22,Wiltz,11906,Union Titus Petange,2032,0,3,True
+1231229,2025-04-05T16:00:00+00:00,FT,Regular Season - 23,Progres Niederkorn,658,UNA Strassen,2036,1,0,True
+1231230,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,Union Titus Petange,2032,Racing FC Union Luxembourg,2030,1,0,True
+1231233,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,AS Jeunesse Esch,2034,FC Differdange 03,684,0,2,True
+1231228,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,US Mondorf-les-bains,2037,Fola Esch,626,2,0,True
+1231227,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,US Hostert,2040,F91 Dudelange,578,1,1,True
+1231234,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,Bettembourg,10881,Victoria Rosport,2038,1,2,True
+1231231,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,Swift Hesperange,11907,Wiltz,11906,3,1,True
+1231232,2025-04-06T14:00:00+00:00,FT,Regular Season - 23,Mondercange,15886,Rodange 91,2039,0,2,True
+1231239,2025-04-12T13:00:00+00:00,FT,Regular Season - 24,Racing FC Union Luxembourg,2030,Swift Hesperange,11907,3,1,True
+1231236,2025-04-12T15:00:00+00:00,FT,Regular Season - 24,FC Differdange 03,684,Bettembourg,10881,1,0,True
+1231242,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,F91 Dudelange,578,US Mondorf-les-bains,2037,3,0,True
+1231241,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,Fola Esch,626,Progres Niederkorn,658,0,2,True
+1231240,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,UNA Strassen,2036,Union Titus Petange,2032,4,0,True
+1231235,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,Victoria Rosport,2038,US Hostert,2040,1,2,True
+1231237,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,Rodange 91,2039,AS Jeunesse Esch,2034,2,0,True
+1231238,2025-04-13T14:00:00+00:00,FT,Regular Season - 24,Wiltz,11906,Mondercange,15886,2,0,True
+1231245,2025-04-18T18:00:00+00:00,FT,Regular Season - 25,Union Titus Petange,2032,Fola Esch,626,2,4,True
+1231247,2025-04-18T18:00:00+00:00,FT,Regular Season - 25,Mondercange,15886,Racing FC Union Luxembourg,2030,0,4,True
+1231248,2025-04-19T15:00:00+00:00,FT,Regular Season - 25,AS Jeunesse Esch,2034,Wiltz,11906,1,1,True
+1231250,2025-04-19T15:00:00+00:00,FT,Regular Season - 25,Victoria Rosport,2038,FC Differdange 03,684,0,2,True
+1231244,2025-04-19T16:00:00+00:00,FT,Regular Season - 25,Progres Niederkorn,658,F91 Dudelange,578,2,1,True
+1231243,2025-04-19T16:00:00+00:00,FT,Regular Season - 25,US Hostert,2040,US Mondorf-les-bains,2037,2,1,True
+1231249,2025-04-19T16:00:00+00:00,FT,Regular Season - 25,Bettembourg,10881,Rodange 91,2039,1,2,True
+1231246,2025-04-19T16:00:00+00:00,FT,Regular Season - 25,Swift Hesperange,11907,UNA Strassen,2036,1,2,True
+1231257,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,F91 Dudelange,578,Union Titus Petange,2032,1,1,True
+1231256,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,Fola Esch,626,Swift Hesperange,11907,0,3,True
+1231251,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,FC Differdange 03,684,US Hostert,2040,4,0,True
+1231254,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,Racing FC Union Luxembourg,2030,AS Jeunesse Esch,2034,2,0,True
+1231255,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,UNA Strassen,2036,Mondercange,15886,5,0,True
+1231258,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,US Mondorf-les-bains,2037,Progres Niederkorn,658,2,1,True
+1231252,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,Rodange 91,2039,Victoria Rosport,2038,0,0,True
+1231253,2025-04-27T14:00:00+00:00,FT,Regular Season - 26,Wiltz,11906,Bettembourg,10881,3,2,True
+1231265,2025-05-03T15:00:00+00:00,FT,Regular Season - 27,Swift Hesperange,11907,F91 Dudelange,578,0,4,True
+1231260,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,FC Differdange 03,684,Rodange 91,2039,0,0,True
+1231266,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,Union Titus Petange,2032,US Mondorf-les-bains,2037,1,2,True
+1231263,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,AS Jeunesse Esch,2034,UNA Strassen,2036,3,2,True
+1231261,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,Victoria Rosport,2038,Wiltz,11906,1,1,True
+1231259,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,US Hostert,2040,Progres Niederkorn,658,1,3,True
+1231262,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,Bettembourg,10881,Racing FC Union Luxembourg,2030,0,0,True
+1231264,2025-05-04T14:00:00+00:00,FT,Regular Season - 27,Mondercange,15886,Fola Esch,626,0,1,True
+1231268,2025-05-10T15:00:00+00:00,FT,Regular Season - 28,Wiltz,11906,FC Differdange 03,684,0,4,True
+1231274,2025-05-10T16:00:00+00:00,FT,Regular Season - 28,Progres Niederkorn,658,Union Titus Petange,2032,0,1,True
+1231272,2025-05-11T14:00:00+00:00,FT,Regular Season - 28,F91 Dudelange,578,Mondercange,15886,2,3,True
+1231269,2025-05-11T14:00:00+00:00,FT,Regular Season - 28,Racing FC Union Luxembourg,2030,Victoria Rosport,2038,2,0,True
+1231270,2025-05-11T14:00:00+00:00,FT,Regular Season - 28,UNA Strassen,2036,Bettembourg,10881,3,0,True
+1231273,2025-05-11T14:00:00+00:00,FT,Regular Season - 28,US Mondorf-les-bains,2037,Swift Hesperange,11907,4,0,True
+1231267,2025-05-11T14:00:00+00:00,FT,Regular Season - 28,Rodange 91,2039,US Hostert,2040,1,1,True
+1231271,2025-05-12T18:00:00+00:00,FT,Regular Season - 28,Fola Esch,626,AS Jeunesse Esch,2034,0,1,True
+1231281,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,FC Differdange 03,684,Racing FC Union Luxembourg,2030,1,1,True
+1231278,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,AS Jeunesse Esch,2034,F91 Dudelange,578,2,0,True
+1231280,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,Victoria Rosport,2038,UNA Strassen,2036,0,3,True
+1231282,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,Rodange 91,2039,Wiltz,11906,4,2,True
+1231275,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,US Hostert,2040,Union Titus Petange,2032,1,8,True
+1231279,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,Bettembourg,10881,Fola Esch,626,2,0,True
+1231276,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,Swift Hesperange,11907,Progres Niederkorn,658,1,0,True
+1231277,2025-05-18T14:00:00+00:00,FT,Regular Season - 29,Mondercange,15886,US Mondorf-les-bains,2037,1,2,True
+1231287,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,F91 Dudelange,578,Bettembourg,10881,5,0,True
+1231286,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,Fola Esch,626,Victoria Rosport,2038,1,4,True
+1231289,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,Progres Niederkorn,658,Mondercange,15886,7,2,True
+1231284,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,Racing FC Union Luxembourg,2030,Rodange 91,2039,2,0,True
+1231290,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,Union Titus Petange,2032,Swift Hesperange,11907,0,3,True
+1231285,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,UNA Strassen,2036,FC Differdange 03,684,1,0,True
+1231288,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,US Mondorf-les-bains,2037,AS Jeunesse Esch,2034,4,1,True
+1231283,2025-05-25T14:00:00+00:00,FT,Regular Season - 30,Wiltz,11906,US Hostert,2040,2,2,True
+1376891,2025-05-29T17:00:00+00:00,FT,Finals,Bettembourg,10881,Atert Bissen,15847,0,1,True
+1376892,2025-06-01T17:00:00+00:00,AET,Finals,Wiltz,11906,Jeunesse Canach,2029,1,1,False

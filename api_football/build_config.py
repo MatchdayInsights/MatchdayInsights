@@ -56,16 +56,15 @@ CONMEBOL_COUNTRIES = {
 # your countries doesn't get picked up (e.g. "Czech Republic" vs "Czechia").
 UEFA_COUNTRIES = {
     "Albania", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus",
-    "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus",
-    "Czech Republic", "Denmark", "England", "Estonia", "Faroe Islands",
-    "Finland", "France", "Georgia", "Germany", "Gibraltar", "Greece",
-    "Hungary", "Iceland", "Israel", "Italy", "Kazakhstan", "Kosovo",
-    "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta",
-    "Moldova", "Monaco", "Montenegro", "Netherlands", "North Macedonia",
-    "Northern Ireland", "Norway", "Poland", "Portugal", "Republic of Ireland",
-    "Ireland", "Romania", "Russia", "San Marino", "Scotland", "Serbia",
-    "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey",
-    "Ukraine", "Wales",
+    "Belgium", "Bosnia", "Bulgaria", "Croatia", "Cyprus", "Czech-Republic",
+    "Denmark", "England", "Estonia", "Faroe-Islands", "Finland", "France",
+    "Georgia", "Germany", "Gibraltar", "Greece", "Hungary", "Iceland",
+    "Ireland", "Israel", "Italy", "Kazakhstan", "Kosovo", "Latvia",
+    "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Malta",
+    "Moldova", "Montenegro", "Netherlands", "Northern-Ireland", "Norway",
+    "Poland", "Portugal", "Romania", "Russia", "San-Marino", "Scotland",
+    "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland",
+    "Turkey", "Ukraine", "Wales",
 }
 
 

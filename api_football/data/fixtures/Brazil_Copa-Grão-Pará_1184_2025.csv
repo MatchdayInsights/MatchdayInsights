@@ -1,6 +1,6 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1367654,2025-04-02T13:00:00+00:00,FT,Castanhal,13124,Capitao Poco,24999,3,1,True
-1367655,2025-04-03T18:00:00+00:00,FT,Bragantino PA,2207,Santa Rosa,22873,4,1,True
-1367878,2025-04-06T12:30:00+00:00,FT,Tuna Luso,15611,Castanhal,13124,2,1,True
-1367879,2025-04-06T20:00:00+00:00,PEN,Águia de Marabá,7879,Bragantino PA,2207,2,2,False
-1371205,2025-04-12T19:00:00+00:00,PEN,Tuna Luso,15611,Águia de Marabá,7879,1,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1367654,2025-04-02T13:00:00+00:00,FT,1st Round,Castanhal,13124,Capitao Poco,24999,3,1,True
+1367655,2025-04-03T18:00:00+00:00,FT,1st Round,Bragantino PA,2207,Santa Rosa,22873,4,1,True
+1367878,2025-04-06T12:30:00+00:00,FT,Semi-finals,Tuna Luso,15611,Castanhal,13124,2,1,True
+1367879,2025-04-06T20:00:00+00:00,PEN,Semi-finals,Águia de Marabá,7879,Bragantino PA,2207,2,2,False
+1371205,2025-04-12T19:00:00+00:00,PEN,Final,Tuna Luso,15611,Águia de Marabá,7879,1,1,False

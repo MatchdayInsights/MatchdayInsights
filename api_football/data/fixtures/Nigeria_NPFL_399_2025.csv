@@ -1,194 +1,381 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1314441,2025-01-08T15:00:00+00:00,FT,Enyimba,5177,Nasarawa United,5188,2,1,True
-1314407,2025-01-23T15:00:00+00:00,FT,Kano Pillars,5183,Enyimba,5177,2,0,True
-1334915,2025-01-25T13:00:00+00:00,FT,Nasarawa United,5188,Katsina United,5184,1,0,True
-1334914,2025-01-25T14:00:00+00:00,FT,Enugu Rangers,5176,Niger Tornadoes,5189,1,2,True
-1334916,2025-01-25T15:00:00+00:00,FT,Sunshine Stars,5193,Ikorodu City,24512,4,3,True
-1334913,2025-01-25T15:15:00+00:00,FT,Abia Warriors,5171,Bayelsa United,17445,1,0,True
-1334919,2025-01-26T13:00:00+00:00,FT,Heartland,5180,Lobi Stars,5186,1,0,True
-1333759,2025-01-26T15:00:00+00:00,FT,Akwa United,5172,Remo Stars,5191,1,2,True
-1334918,2025-01-26T15:15:00+00:00,FT,Plateau United,5190,Rivers United,5192,2,1,True
-1314429,2025-01-27T15:00:00+00:00,FT,Kwara United,5185,Enyimba,5177,2,0,True
-1334922,2025-01-29T14:00:00+00:00,FT,El Kanemi Warriors,5175,Enugu Rangers,5176,2,1,True
-1334921,2025-01-29T14:00:00+00:00,FT,Bayelsa United,17445,Sunshine Stars,5193,4,1,True
-1334925,2025-01-29T15:00:00+00:00,FT,Akwa United,5172,Lobi Stars,5186,1,1,True
-1333761,2025-01-29T15:00:00+00:00,FT,Remo Stars,5191,Abia Warriors,5171,3,2,True
-1334926,2025-01-29T15:00:00+00:00,FT,Ikorodu City,24512,Kano Pillars,5183,4,1,True
-1333760,2025-01-29T16:30:00+00:00,FT,Shooting Stars,5504,Nasarawa United,5188,2,0,True
-1334928,2025-01-30T14:00:00+00:00,FT,Enyimba,5177,Heartland,5180,1,1,True
-1334927,2025-01-30T15:00:00+00:00,FT,Katsina United,5184,Plateau United,5190,1,0,True
-1334923,2025-01-30T15:00:00+00:00,FT,Niger Tornadoes,5189,Kwara United,5185,2,1,True
-1334924,2025-01-30T15:00:00+00:00,FT,Rivers United,5192,Bendel Insurance,5173,2,2,True
-1334929,2025-02-01T15:00:00+00:00,FT,Sunshine Stars,5193,Remo Stars,5191,1,2,True
-1334931,2025-02-02T14:00:00+00:00,FT,Kano Pillars,5183,Bayelsa United,17445,0,0,True
-1334933,2025-02-02T14:00:00+00:00,FT,Plateau United,5190,Shooting Stars,5504,1,1,True
-1334937,2025-02-02T15:00:00+00:00,FT,Abia Warriors,5171,Akwa United,5172,2,0,True
-1334936,2025-02-02T15:00:00+00:00,FT,Heartland,5180,Rivers United,5192,2,0,True
-1334938,2025-02-02T15:00:00+00:00,FT,Nasarawa United,5188,Niger Tornadoes,5189,2,0,True
-1334935,2025-02-03T14:00:00+00:00,FT,Lobi Stars,5186,Enyimba,5177,0,1,True
-1334930,2025-02-03T15:00:00+00:00,FT,Bendel Insurance,5173,Katsina United,5184,1,0,True
-1334932,2025-02-03T15:00:00+00:00,FT,Enugu Rangers,5176,Ikorodu City,24512,2,0,True
-1334934,2025-02-03T16:30:00+00:00,FT,Kwara United,5185,El Kanemi Warriors,5175,2,0,True
-1346875,2025-02-07T14:00:00+00:00,FT,Katsina United,5184,Heartland,5180,1,0,True
-1345718,2025-02-08T14:00:00+00:00,FT,El Kanemi Warriors,5175,Nasarawa United,5188,1,0,True
-1345720,2025-02-08T15:00:00+00:00,FT,Remo Stars,5191,Kano Pillars,5183,2,1,True
-1346876,2025-02-08T16:30:00+00:00,FT,Shooting Stars,5504,Bendel Insurance,5173,1,0,True
-1345721,2025-02-09T14:00:00+00:00,FT,Niger Tornadoes,5189,Plateau United,5190,1,1,True
-1346873,2025-02-09T15:00:00+00:00,FT,Abia Warriors,5171,Sunshine Stars,5193,3,0,True
-1345719,2025-02-09T15:00:00+00:00,FT,Akwa United,5172,Enyimba,5177,2,1,True
-1346874,2025-02-09T15:00:00+00:00,FT,Rivers United,5192,Lobi Stars,5186,1,0,True
-1346872,2025-02-09T15:00:00+00:00,FT,Bayelsa United,17445,Enugu Rangers,5176,0,0,True
-1345722,2025-02-09T16:30:00+00:00,FT,Ikorodu City,24512,Kwara United,5185,2,1,True
-1334917,2025-02-12T14:00:00+00:00,FT,Kano Pillars,5183,El Kanemi Warriors,5175,2,1,True
-1334920,2025-02-12T15:00:00+00:00,FT,Bendel Insurance,5173,Enyimba,5177,1,0,True
-1333758,2025-02-12T15:00:00+00:00,FT,Kwara United,5185,Shooting Stars,5504,2,0,True
-1345730,2025-02-15T14:00:00+00:00,FT,Enyimba,5177,Rivers United,5192,1,0,True
-1346877,2025-02-15T14:00:00+00:00,FT,Kano Pillars,5183,Abia Warriors,5171,1,0,True
-1345724,2025-02-15T15:00:00+00:00,FT,Kwara United,5185,Bayelsa United,17445,1,0,True
-1345726,2025-02-15T15:00:00+00:00,FT,Lobi Stars,5186,Katsina United,5184,1,1,True
-1345727,2025-02-15T15:00:00+00:00,FT,Nasarawa United,5188,Ikorodu City,24512,0,0,True
-1345723,2025-02-15T15:00:00+00:00,FT,Plateau United,5190,El Kanemi Warriors,5175,2,0,True
-1346878,2025-02-15T16:30:00+00:00,FT,Sunshine Stars,5193,Akwa United,5172,1,0,True
-1345729,2025-02-16T14:00:00+00:00,FT,Enugu Rangers,5176,Remo Stars,5191,2,1,True
-1345728,2025-02-16T15:00:00+00:00,FT,Heartland,5180,Shooting Stars,5504,2,1,True
-1345725,2025-02-16T16:30:00+00:00,FT,Bendel Insurance,5173,Niger Tornadoes,5189,3,0,True
-1352402,2025-02-19T14:00:00+00:00,FT,El Kanemi Warriors,5175,Bendel Insurance,5173,0,0,True
-1352405,2025-02-19T15:00:00+00:00,FT,Abia Warriors,5171,Enugu Rangers,5176,1,0,True
-1352404,2025-02-19T15:00:00+00:00,FT,Akwa United,5172,Rivers United,5192,1,1,True
-1352406,2025-02-19T15:00:00+00:00,FT,Niger Tornadoes,5189,Heartland,5180,2,1,True
-1352403,2025-02-19T15:00:00+00:00,FT,Sunshine Stars,5193,Kano Pillars,5183,1,1,True
-1352407,2025-02-19T15:00:00+00:00,FT,Bayelsa United,17445,Nasarawa United,5188,2,2,True
-1352409,2025-02-19T16:30:00+00:00,FT,Shooting Stars,5504,Lobi Stars,5186,2,2,True
-1352408,2025-02-19T16:30:00+00:00,FT,Ikorodu City,24512,Plateau United,5190,2,1,True
-1352410,2025-02-20T15:00:00+00:00,FT,Katsina United,5184,Enyimba,5177,2,1,True
-1352411,2025-02-20T16:30:00+00:00,FT,Remo Stars,5191,Kwara United,5185,2,0,True
-1352419,2025-02-26T14:00:00+00:00,FT,Enyimba,5177,Shooting Stars,5504,1,1,True
-1352413,2025-02-26T15:00:00+00:00,FT,Enugu Rangers,5176,Sunshine Stars,5193,3,0,True
-1352418,2025-02-26T15:00:00+00:00,FT,Heartland,5180,El Kanemi Warriors,5175,0,0,True
-1352412,2025-02-26T15:00:00+00:00,FT,Kano Pillars,5183,Akwa United,5172,1,0,True
-1352421,2025-02-26T15:00:00+00:00,FT,Kwara United,5185,Abia Warriors,5171,0,0,True
-1352416,2025-02-26T15:00:00+00:00,FT,Lobi Stars,5186,Niger Tornadoes,5189,0,2,True
-1352415,2025-02-26T15:00:00+00:00,FT,Nasarawa United,5188,Remo Stars,5191,1,0,True
-1352414,2025-02-26T15:00:00+00:00,FT,Plateau United,5190,Bayelsa United,17445,1,0,True
-1352417,2025-02-27T16:30:00+00:00,FT,Bendel Insurance,5173,Ikorodu City,24512,2,1,True
-1352420,2025-02-28T15:00:00+00:00,FT,Rivers United,5192,Katsina United,5184,1,0,True
-1352422,2025-03-01T15:00:00+00:00,FT,Sunshine Stars,5193,Kwara United,5185,4,2,True
-1352426,2025-03-02T14:00:00+00:00,FT,Abia Warriors,5171,Nasarawa United,5188,1,1,True
-1352423,2025-03-02T15:00:00+00:00,FT,Kano Pillars,5183,Enugu Rangers,5176,2,1,True
-1352430,2025-03-02T15:00:00+00:00,FT,Niger Tornadoes,5189,Enyimba,5177,0,1,True
-1352428,2025-03-02T15:00:00+00:00,FT,Bayelsa United,17445,Bendel Insurance,5173,2,1,True
-1352425,2025-03-02T16:30:00+00:00,FT,Remo Stars,5191,Plateau United,5190,1,0,True
-1352427,2025-03-02T16:30:00+00:00,FT,Ikorodu City,24512,Heartland,5180,2,0,True
-1352429,2025-03-03T14:00:00+00:00,FT,Akwa United,5172,Katsina United,5184,1,0,True
-1352424,2025-03-03T14:00:00+00:00,FT,El Kanemi Warriors,5175,Lobi Stars,5186,1,0,True
-1352431,2025-03-03T16:30:00+00:00,FT,Shooting Stars,5504,Rivers United,5192,0,0,True
-1352440,2025-03-07T15:00:00+00:00,FT,Katsina United,5184,Shooting Stars,5504,1,0,True
-1352441,2025-03-08T14:00:00+00:00,FT,Rivers United,5192,Niger Tornadoes,5189,1,0,True
-1352432,2025-03-08T15:00:00+00:00,FT,Bendel Insurance,5173,Remo Stars,5191,2,1,True
-1352433,2025-03-08T15:00:00+00:00,FT,Lobi Stars,5186,Ikorodu City,24512,0,1,True
-1352436,2025-03-09T14:00:00+00:00,FT,Plateau United,5190,Abia Warriors,5171,1,0,True
-1352435,2025-03-09T15:00:00+00:00,FT,Enugu Rangers,5176,Akwa United,5172,1,1,True
-1352439,2025-03-09T15:00:00+00:00,FT,Enyimba,5177,El Kanemi Warriors,5175,1,0,True
-1352438,2025-03-09T15:00:00+00:00,FT,Kwara United,5185,Kano Pillars,5183,2,0,True
-1352437,2025-03-09T15:00:00+00:00,FT,Nasarawa United,5188,Sunshine Stars,5193,1,1,True
-1352434,2025-03-09T16:30:00+00:00,FT,Heartland,5180,Bayelsa United,17445,1,1,True
-1360279,2025-03-14T15:00:00+00:00,FT,Niger Tornadoes,5189,Katsina United,5184,1,0,True
-1360281,2025-03-15T15:00:00+00:00,FT,Enugu Rangers,5176,Kwara United,5185,3,0,True
-1360275,2025-03-16T14:00:00+00:00,FT,El Kanemi Warriors,5175,Rivers United,5192,1,2,True
-1360274,2025-03-16T14:00:00+00:00,FT,Kano Pillars,5183,Nasarawa United,5188,1,1,True
-1360276,2025-03-16T15:00:00+00:00,FT,Abia Warriors,5171,Bendel Insurance,5173,1,0,True
-1360278,2025-03-16T15:00:00+00:00,FT,Akwa United,5172,Shooting Stars,5504,2,0,True
-1360282,2025-03-16T15:00:00+00:00,FT,Bayelsa United,17445,Lobi Stars,5186,1,0,True
-1360277,2025-03-16T16:30:00+00:00,FT,Remo Stars,5191,Heartland,5180,2,0,True
-1360280,2025-03-16T16:30:00+00:00,FT,Ikorodu City,24512,Enyimba,5177,2,2,True
-1360273,2025-03-17T15:00:00+00:00,FT,Sunshine Stars,5193,Plateau United,5190,2,2,True
-1360286,2025-03-21T15:00:00+00:00,FT,Nasarawa United,5188,Enugu Rangers,5176,1,0,True
-1360285,2025-03-22T14:00:00+00:00,FT,Plateau United,5190,Kano Pillars,5183,2,1,True
-1360284,2025-03-22T16:30:00+00:00,FT,Bendel Insurance,5173,Sunshine Stars,5193,1,0,True
-1360289,2025-03-23T15:00:00+00:00,FT,Enyimba,5177,Bayelsa United,17445,1,1,True
-1360288,2025-03-23T15:00:00+00:00,FT,Heartland,5180,Abia Warriors,5171,0,1,True
-1360290,2025-03-23T15:00:00+00:00,FT,Katsina United,5184,El Kanemi Warriors,5175,3,0,True
-1360287,2025-03-23T15:00:00+00:00,FT,Kwara United,5185,Akwa United,5172,0,2,True
-1360291,2025-03-23T15:00:00+00:00,FT,Rivers United,5192,Ikorodu City,24512,1,0,True
-1360292,2025-03-23T16:30:00+00:00,FT,Shooting Stars,5504,Niger Tornadoes,5189,3,1,True
-1360302,2025-03-26T15:00:00+00:00,FT,Abia Warriors,5171,Lobi Stars,5186,2,0,True
-1360294,2025-03-26T15:00:00+00:00,FT,Kano Pillars,5183,Bendel Insurance,5173,0,0,True
-1360296,2025-03-26T15:00:00+00:00,FT,Kwara United,5185,Nasarawa United,5188,1,0,True
-1360293,2025-03-26T15:00:00+00:00,FT,Sunshine Stars,5193,Heartland,5180,0,0,True
-1360300,2025-03-26T15:00:00+00:00,FT,Bayelsa United,17445,Rivers United,5192,1,0,True
-1360295,2025-03-27T14:00:00+00:00,FT,El Kanemi Warriors,5175,Shooting Stars,5504,2,2,True
-1360297,2025-03-27T15:00:00+00:00,FT,Akwa United,5172,Niger Tornadoes,5189,2,0,True
-1360301,2025-03-27T15:00:00+00:00,FT,Enugu Rangers,5176,Plateau United,5190,0,1,True
-1360298,2025-03-27T15:00:00+00:00,FT,Remo Stars,5191,Enyimba,5177,2,0,True
-1367520,2025-04-05T14:00:00+00:00,FT,Heartland,5180,Kano Pillars,5183,2,0,True
-1367514,2025-04-05T16:30:00+00:00,FT,Bendel Insurance,5173,Enugu Rangers,5176,0,0,True
-1367515,2025-04-06T15:00:00+00:00,FT,Enyimba,5177,Abia Warriors,5171,2,1,True
-1367521,2025-04-06T15:00:00+00:00,FT,Katsina United,5184,Bayelsa United,17445,1,1,True
-1367513,2025-04-06T15:00:00+00:00,FT,Lobi Stars,5186,Sunshine Stars,5193,1,1,True
-1367518,2025-04-06T15:00:00+00:00,FT,Nasarawa United,5188,Akwa United,5172,2,0,True
-1367517,2025-04-06T15:00:00+00:00,FT,Niger Tornadoes,5189,El Kanemi Warriors,5175,2,0,True
-1367516,2025-04-06T15:00:00+00:00,FT,Plateau United,5190,Kwara United,5185,0,0,True
-1367519,2025-04-06T15:00:00+00:00,FT,Rivers United,5192,Remo Stars,5191,1,0,True
-1367522,2025-04-06T16:30:00+00:00,FT,Shooting Stars,5504,Ikorodu City,24512,0,0,True
-1360283,2025-04-09T15:00:00+00:00,FT,Lobi Stars,5186,Remo Stars,5191,2,2,True
-1360299,2025-04-10T16:30:00+00:00,FT,Ikorodu City,24512,Katsina United,5184,6,0,True
-1367524,2025-04-11T15:00:00+00:00,FT,Bayelsa United,17445,Shooting Stars,5504,3,0,True
-1367525,2025-04-13T14:00:00+00:00,FT,Enugu Rangers,5176,Heartland,5180,0,2,True
-1367530,2025-04-13T15:00:00+00:00,FT,Abia Warriors,5171,Rivers United,5192,2,0,True
-1367531,2025-04-13T15:00:00+00:00,FT,Akwa United,5172,El Kanemi Warriors,5175,1,1,True
-1367526,2025-04-13T15:00:00+00:00,FT,Kano Pillars,5183,Lobi Stars,5186,2,0,True
-1367529,2025-04-13T15:00:00+00:00,FT,Nasarawa United,5188,Plateau United,5190,3,2,True
-1367527,2025-04-13T15:00:00+00:00,FT,Remo Stars,5191,Katsina United,5184,0,0,True
-1367523,2025-04-13T15:00:00+00:00,FT,Sunshine Stars,5193,Enyimba,5177,2,1,True
-1367528,2025-04-13T16:30:00+00:00,FT,Kwara United,5185,Bendel Insurance,5173,0,1,True
-1367532,2025-04-13T16:30:00+00:00,FT,Ikorodu City,24512,Niger Tornadoes,5189,3,0,True
-1367538,2025-04-19T14:00:00+00:00,FT,Katsina United,5184,Abia Warriors,5171,5,1,True
-1367539,2025-04-19T15:00:00+00:00,FT,Enyimba,5177,Kano Pillars,5183,2,1,True
-1367533,2025-04-19T15:00:00+00:00,FT,Lobi Stars,5186,Enugu Rangers,5176,0,1,True
-1367535,2025-04-20T14:00:00+00:00,FT,El Kanemi Warriors,5175,Ikorodu City,24512,1,1,True
-1367536,2025-04-20T14:00:00+00:00,FT,Niger Tornadoes,5189,Bayelsa United,17445,1,1,True
-1367540,2025-04-20T15:00:00+00:00,FT,Heartland,5180,Kwara United,5185,0,0,True
-1367541,2025-04-20T15:00:00+00:00,FT,Plateau United,5190,Akwa United,5172,1,0,True
-1367537,2025-04-20T15:00:00+00:00,FT,Rivers United,5192,Sunshine Stars,5193,1,0,True
-1367542,2025-04-20T15:00:00+00:00,FT,Shooting Stars,5504,Remo Stars,5191,0,1,True
-1367534,2025-04-20T16:30:00+00:00,FT,Bendel Insurance,5173,Nasarawa United,5188,1,1,True
-1367549,2025-04-25T15:00:00+00:00,FT,Kano Pillars,5183,Rivers United,5192,2,0,True
-1367552,2025-04-27T14:00:00+00:00,FT,Nasarawa United,5188,Heartland,5180,1,0,True
-1367547,2025-04-27T15:00:00+00:00,FT,Abia Warriors,5171,Shooting Stars,5504,3,1,True
-1367548,2025-04-27T15:00:00+00:00,FT,Akwa United,5172,Ikorodu City,24512,2,1,True
-1367551,2025-04-27T15:00:00+00:00,FT,Enugu Rangers,5176,Enyimba,5177,1,2,True
-1367550,2025-04-27T15:00:00+00:00,FT,Kwara United,5185,Lobi Stars,5186,4,0,True
-1367544,2025-04-27T15:00:00+00:00,FT,Plateau United,5190,Bendel Insurance,5173,2,1,True
-1367543,2025-04-27T15:00:00+00:00,FT,Sunshine Stars,5193,Katsina United,5184,2,0,True
-1367546,2025-04-27T15:00:00+00:00,FT,Bayelsa United,17445,El Kanemi Warriors,5175,2,0,True
-1367545,2025-04-27T16:30:00+00:00,FT,Remo Stars,5191,Niger Tornadoes,5189,1,0,True
-1373232,2025-05-07T14:00:00+00:00,FT,El Kanemi Warriors,5175,Remo Stars,5191,2,0,True
-1373238,2025-05-07T14:00:00+00:00,FT,Lobi Stars,5186,Nasarawa United,5188,1,2,True
-1373234,2025-05-07T15:00:00+00:00,FT,Bendel Insurance,5173,Akwa United,5172,1,0,True
-1373239,2025-05-07T15:00:00+00:00,FT,Enyimba,5177,Kwara United,5185,2,0,True
-1373235,2025-05-07T15:00:00+00:00,FT,Heartland,5180,Plateau United,5190,2,0,True
-1373236,2025-05-07T15:00:00+00:00,FT,Katsina United,5184,Kano Pillars,5183,1,0,True
-1373237,2025-05-07T15:00:00+00:00,FT,Niger Tornadoes,5189,Abia Warriors,5171,1,1,True
-1373233,2025-05-07T15:00:00+00:00,FT,Rivers United,5192,Enugu Rangers,5176,1,0,True
-1373241,2025-05-07T15:00:00+00:00,FT,Shooting Stars,5504,Sunshine Stars,5193,1,0,True
-1373240,2025-05-07T16:30:00+00:00,FT,Ikorodu City,24512,Bayelsa United,17445,3,2,True
-1373245,2025-05-11T14:00:00+00:00,FT,Abia Warriors,5171,El Kanemi Warriors,5175,2,1,True
-1373244,2025-05-11T14:00:00+00:00,FT,Akwa United,5172,Bayelsa United,17445,2,0,True
-1373248,2025-05-11T14:00:00+00:00,FT,Bendel Insurance,5173,Heartland,5180,1,0,True
-1373247,2025-05-11T14:00:00+00:00,FT,Enugu Rangers,5176,Katsina United,5184,4,0,True
-1373251,2025-05-11T14:00:00+00:00,FT,Kano Pillars,5183,Shooting Stars,5504,3,1,True
-1373250,2025-05-11T14:00:00+00:00,FT,Kwara United,5185,Rivers United,5192,3,1,True
-1373249,2025-05-11T14:00:00+00:00,FT,Nasarawa United,5188,Enyimba,5177,3,2,True
-1373242,2025-05-11T14:00:00+00:00,FT,Plateau United,5190,Lobi Stars,5186,2,1,True
-1373243,2025-05-11T14:00:00+00:00,FT,Remo Stars,5191,Ikorodu City,24512,4,1,True
-1373246,2025-05-11T14:00:00+00:00,FT,Sunshine Stars,5193,Niger Tornadoes,5189,1,2,True
-1373261,2025-05-25T15:00:00+00:00,FT,El Kanemi Warriors,5175,Sunshine Stars,5193,1,0,True
-1373254,2025-05-25T15:00:00+00:00,FT,Enyimba,5177,Plateau United,5190,0,1,True
-1373253,2025-05-25T15:00:00+00:00,FT,Heartland,5180,Akwa United,5172,2,1,True
-1373260,2025-05-25T15:00:00+00:00,FT,Katsina United,5184,Kwara United,5185,1,0,True
-1373252,2025-05-25T15:00:00+00:00,FT,Niger Tornadoes,5189,Kano Pillars,5183,3,2,True
-1373259,2025-05-25T15:00:00+00:00,FT,Rivers United,5192,Nasarawa United,5188,2,1,True
-1373256,2025-05-25T15:00:00+00:00,FT,Shooting Stars,5504,Enugu Rangers,5176,5,1,True
-1373258,2025-05-25T15:00:00+00:00,FT,Bayelsa United,17445,Remo Stars,5191,3,0,True
-1373257,2025-05-25T15:00:00+00:00,FT,Ikorodu City,24512,Abia Warriors,5171,3,2,True
-1373255,2025-05-25T15:20:00+00:00,FT,Lobi Stars,5186,Bendel Insurance,5173,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1251354,2024-08-31T15:00:00+00:00,FT,Regular Season - 1,Enugu Rangers,5176,El Kanemi Warriors,5175,0,0,True
+1251362,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Abia Warriors,5171,Remo Stars,5191,0,2,True
+1251361,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Bendel Insurance,5173,Rivers United,5192,0,0,True
+1251355,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Heartland,5180,Enyimba,5177,1,3,True
+1251356,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Kano Pillars,5183,Ikorodu City,24512,3,0,True
+1251359,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Kwara United,5185,Niger Tornadoes,5189,1,2,True
+1251360,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Nasarawa United,5188,Shooting Stars,5504,1,1,True
+1251363,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Plateau United,5190,Katsina United,5184,1,0,True
+1251358,2024-09-08T15:00:00+00:00,FT,Regular Season - 1,Sunshine Stars,5193,Bayelsa United,17445,3,0,True
+1251357,2024-09-09T15:00:00+00:00,FT,Regular Season - 1,Lobi Stars,5186,Akwa United,5172,0,0,True
+1304306,2024-09-14T14:00:00+00:00,FT,Regular Season - 2,Rivers United,5192,Heartland,5180,3,1,True
+1304304,2024-09-14T16:30:00+00:00,FT,Regular Season - 2,Remo Stars,5191,Sunshine Stars,5193,1,0,True
+1304303,2024-09-15T14:00:00+00:00,FT,Regular Season - 2,Akwa United,5172,Abia Warriors,5171,1,1,True
+1304309,2024-09-15T15:00:00+00:00,FT,Regular Season - 2,Katsina United,5184,Bendel Insurance,5173,2,1,True
+1304308,2024-09-15T15:00:00+00:00,FT,Regular Season - 2,Niger Tornadoes,5189,Nasarawa United,5188,0,0,True
+1304307,2024-09-15T15:00:00+00:00,FT,Regular Season - 2,Bayelsa United,17445,Kano Pillars,5183,1,1,True
+1304310,2024-09-15T16:30:00+00:00,FT,Regular Season - 2,Shooting Stars,5504,Plateau United,5190,1,1,True
+1305159,2024-09-21T13:00:00+00:00,FT,Regular Season - 3,Lobi Stars,5186,Rivers United,5192,0,1,True
+1305160,2024-09-21T15:00:00+00:00,FT,Regular Season - 3,Nasarawa United,5188,El Kanemi Warriors,5175,3,4,True
+1305162,2024-09-22T14:00:00+00:00,FT,Regular Season - 3,Plateau United,5190,Niger Tornadoes,5189,1,2,True
+1305158,2024-09-22T15:00:00+00:00,FT,Regular Season - 3,Heartland,5180,Katsina United,5184,0,0,True
+1305163,2024-09-22T15:00:00+00:00,FT,Regular Season - 3,Kano Pillars,5183,Remo Stars,5191,0,2,True
+1305161,2024-09-22T15:00:00+00:00,FT,Regular Season - 3,Sunshine Stars,5193,Abia Warriors,5171,0,0,True
+1305164,2024-09-22T16:30:00+00:00,FT,Regular Season - 3,Kwara United,5185,Ikorodu City,24512,0,0,True
+1304312,2024-09-25T15:00:00+00:00,FT,Regular Season - 2,Enyimba,5177,Lobi Stars,5186,2,1,True
+1304311,2024-09-25T15:00:00+00:00,FT,Regular Season - 2,Ikorodu City,24512,Enugu Rangers,5176,0,1,True
+1305168,2024-09-28T14:00:00+00:00,FT,Regular Season - 4,Ikorodu City,24512,Nasarawa United,5188,1,2,True
+1305172,2024-09-28T16:30:00+00:00,FT,Regular Season - 4,Akwa United,5172,Sunshine Stars,5193,1,2,True
+1305167,2024-09-29T14:00:00+00:00,FT,Regular Season - 4,El Kanemi Warriors,5175,Plateau United,5190,2,2,True
+1305169,2024-09-29T14:00:00+00:00,FT,Regular Season - 4,Niger Tornadoes,5189,Bendel Insurance,5173,1,1,True
+1305174,2024-09-29T14:00:00+00:00,FT,Regular Season - 4,Rivers United,5192,Enyimba,5177,2,0,True
+1305176,2024-09-29T15:00:00+00:00,FT,Regular Season - 4,Abia Warriors,5171,Kano Pillars,5183,2,0,True
+1305170,2024-09-29T15:00:00+00:00,FT,Regular Season - 4,Katsina United,5184,Lobi Stars,5186,3,0,True
+1305175,2024-09-29T15:00:00+00:00,FT,Regular Season - 4,Bayelsa United,17445,Kwara United,5185,1,1,True
+1305171,2024-09-29T16:30:00+00:00,FT,Regular Season - 4,Remo Stars,5191,Enugu Rangers,5176,2,1,True
+1305173,2024-09-29T16:30:00+00:00,FT,Regular Season - 4,Shooting Stars,5504,Heartland,5180,1,0,True
+1305157,2024-10-02T15:00:00+00:00,FT,Regular Season - 3,Bendel Insurance,5173,Shooting Stars,5504,1,0,True
+1305166,2024-10-02T15:00:00+00:00,FT,Regular Season - 3,Enyimba,5177,Akwa United,5172,1,0,True
+1305165,2024-10-03T15:00:00+00:00,FT,Regular Season - 3,Enugu Rangers,5176,Bayelsa United,17445,1,0,True
+1308648,2024-10-05T15:00:00+00:00,FT,Regular Season - 5,Bendel Insurance,5173,El Kanemi Warriors,5175,1,1,True
+1308641,2024-10-05T15:00:00+00:00,FT,Regular Season - 5,Lobi Stars,5186,Shooting Stars,5504,1,0,True
+1308649,2024-10-06T13:00:00+00:00,FT,Regular Season - 5,Nasarawa United,5188,Bayelsa United,17445,0,0,True
+1308643,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Enugu Rangers,5176,Abia Warriors,5171,1,0,True
+1308642,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Heartland,5180,Niger Tornadoes,5189,2,0,True
+1308646,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Kano Pillars,5183,Sunshine Stars,5193,2,0,True
+1308640,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Kwara United,5185,Remo Stars,5191,1,0,True
+1308647,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Plateau United,5190,Ikorodu City,24512,1,0,True
+1308645,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Rivers United,5192,Akwa United,5172,2,1,True
+1308644,2024-10-07T15:00:00+00:00,FT,Regular Season - 5,Enyimba,5177,Katsina United,5184,3,0,True
+1310645,2024-10-12T15:00:00+00:00,FT,Regular Season - 6,Ikorodu City,24512,Bendel Insurance,5173,3,0,True
+1310646,2024-10-12T15:30:00+00:00,FT,Regular Season - 6,Sunshine Stars,5193,Enugu Rangers,5176,1,0,True
+1310650,2024-10-13T07:00:00+00:00,FT,Regular Season - 6,Abia Warriors,5171,Kwara United,5185,1,0,True
+1310649,2024-10-13T14:00:00+00:00,FT,Regular Season - 6,El Kanemi Warriors,5175,Heartland,5180,0,0,True
+1310643,2024-10-13T14:00:00+00:00,FT,Regular Season - 6,Bayelsa United,17445,Plateau United,5190,1,0,True
+1310648,2024-10-13T15:00:00+00:00,FT,Regular Season - 6,Akwa United,5172,Kano Pillars,5183,2,0,True
+1310644,2024-10-13T15:00:00+00:00,FT,Regular Season - 6,Katsina United,5184,Rivers United,5192,0,0,True
+1311066,2024-10-13T15:00:00+00:00,FT,Regular Season - 6,Niger Tornadoes,5189,Lobi Stars,5186,1,1,True
+1310647,2024-10-13T15:00:00+00:00,FT,Regular Season - 6,Remo Stars,5191,Nasarawa United,5188,3,0,True
+1310642,2024-10-13T16:30:00+00:00,FT,Regular Season - 6,Shooting Stars,5504,Enyimba,5177,0,0,True
+1311336,2024-10-16T13:00:00+00:00,FT,Regular Season - 7,Lobi Stars,5186,El Kanemi Warriors,5175,2,2,True
+1311337,2024-10-16T14:00:00+00:00,FT,Regular Season - 7,Enugu Rangers,5176,Kano Pillars,5183,3,4,True
+1311342,2024-10-16T15:00:00+00:00,FT,Regular Season - 7,Enyimba,5177,Niger Tornadoes,5189,1,1,True
+1311340,2024-10-16T15:00:00+00:00,FT,Regular Season - 7,Kwara United,5185,Sunshine Stars,5193,3,0,True
+1311339,2024-10-16T15:00:00+00:00,FT,Regular Season - 7,Nasarawa United,5188,Abia Warriors,5171,3,0,True
+1311341,2024-10-17T14:00:00+00:00,FT,Regular Season - 7,Bendel Insurance,5173,Bayelsa United,17445,3,0,True
+1311338,2024-10-17T15:00:00+00:00,FT,Regular Season - 7,Heartland,5180,Ikorodu City,24512,1,1,True
+1311345,2024-10-17T15:00:00+00:00,FT,Regular Season - 7,Katsina United,5184,Akwa United,5172,1,0,True
+1311343,2024-10-17T15:00:00+00:00,FT,Regular Season - 7,Plateau United,5190,Remo Stars,5191,3,1,True
+1311344,2024-10-17T15:00:00+00:00,FT,Regular Season - 7,Rivers United,5192,Shooting Stars,5504,2,0,True
+1311348,2024-10-20T14:00:00+00:00,FT,Regular Season - 8,Bayelsa United,17445,Heartland,5180,1,0,True
+1311351,2024-10-20T15:00:00+00:00,FT,Regular Season - 8,Abia Warriors,5171,Plateau United,5190,3,1,True
+1311349,2024-10-20T15:00:00+00:00,FT,Regular Season - 8,El Kanemi Warriors,5175,Enyimba,5177,1,0,True
+1311352,2024-10-20T15:00:00+00:00,FT,Regular Season - 8,Kano Pillars,5183,Kwara United,5185,1,1,True
+1311355,2024-10-20T15:00:00+00:00,FT,Regular Season - 8,Sunshine Stars,5193,Nasarawa United,5188,1,0,True
+1311354,2024-10-20T16:30:00+00:00,FT,Regular Season - 8,Remo Stars,5191,Bendel Insurance,5173,1,0,True
+1311353,2024-10-21T14:00:00+00:00,FT,Regular Season - 8,Ikorodu City,24512,Lobi Stars,5186,4,2,True
+1311350,2024-10-21T15:00:00+00:00,FT,Regular Season - 8,Niger Tornadoes,5189,Rivers United,5192,0,1,True
+1311347,2024-10-21T15:00:00+00:00,FT,Regular Season - 8,Shooting Stars,5504,Katsina United,5184,1,0,True
+1311346,2024-10-21T16:30:00+00:00,FT,Regular Season - 8,Akwa United,5172,Enugu Rangers,5176,0,0,True
+1304305,2024-10-23T14:00:00+00:00,FT,Regular Season - 2,El Kanemi Warriors,5175,Kwara United,5185,1,1,True
+1311361,2024-10-26T14:00:00+00:00,FT,Regular Season - 9,Katsina United,5184,Niger Tornadoes,5189,1,1,True
+1311357,2024-10-26T16:30:00+00:00,FT,Regular Season - 9,Bendel Insurance,5173,Abia Warriors,5171,0,1,True
+1311365,2024-10-27T14:00:00+00:00,FT,Regular Season - 9,Nasarawa United,5188,Kano Pillars,5183,1,0,True
+1311360,2024-10-27T15:00:00+00:00,FT,Regular Season - 9,Enyimba,5177,Ikorodu City,24512,2,1,True
+1311358,2024-10-27T15:00:00+00:00,FT,Regular Season - 9,Heartland,5180,Remo Stars,5191,1,0,True
+1311362,2024-10-27T15:00:00+00:00,FT,Regular Season - 9,Plateau United,5190,Sunshine Stars,5193,3,0,True
+1311364,2024-10-27T15:00:00+00:00,FT,Regular Season - 9,Rivers United,5192,El Kanemi Warriors,5175,1,1,True
+1311363,2024-10-27T15:00:00+00:00,FT,Regular Season - 9,Shooting Stars,5504,Akwa United,5172,2,1,True
+1311356,2024-10-28T14:00:00+00:00,FT,Regular Season - 9,Lobi Stars,5186,Bayelsa United,17445,2,1,True
+1311359,2024-10-28T15:00:00+00:00,FT,Regular Season - 9,Kwara United,5185,Enugu Rangers,5176,1,1,True
+1314374,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Abia Warriors,5171,Heartland,5180,0,2,True
+1314368,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Akwa United,5172,Kwara United,5185,2,1,True
+1314366,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,El Kanemi Warriors,5175,Katsina United,5184,1,0,True
+1314372,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Enugu Rangers,5176,Nasarawa United,5188,2,0,True
+1314371,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Kano Pillars,5183,Plateau United,5190,2,1,True
+1314367,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Niger Tornadoes,5189,Shooting Stars,5504,2,0,True
+1314375,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Remo Stars,5191,Lobi Stars,5186,1,0,True
+1314369,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Sunshine Stars,5193,Bendel Insurance,5173,1,2,True
+1314370,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Bayelsa United,17445,Enyimba,5177,1,1,True
+1314373,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Ikorodu City,24512,Rivers United,5192,2,0,True
+1314376,2024-11-09T15:00:00+00:00,FT,Regular Season - 11,Bendel Insurance,5173,Kano Pillars,5183,0,1,True
+1314377,2024-11-09T15:00:00+00:00,FT,Regular Season - 11,Lobi Stars,5186,Abia Warriors,5171,3,1,True
+1314381,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Enyimba,5177,Remo Stars,5191,0,0,True
+1314383,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Heartland,5180,Sunshine Stars,5193,1,0,True
+1314380,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Katsina United,5184,Ikorodu City,24512,1,2,True
+1314382,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Nasarawa United,5188,Kwara United,5185,0,1,True
+1314378,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Niger Tornadoes,5189,Akwa United,5172,1,0,True
+1314385,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Plateau United,5190,Enugu Rangers,5176,0,0,True
+1314379,2024-11-10T15:00:00+00:00,FT,Regular Season - 11,Rivers United,5192,Bayelsa United,17445,0,1,True
+1314384,2024-11-10T16:30:00+00:00,FT,Regular Season - 11,Shooting Stars,5504,El Kanemi Warriors,5175,3,0,True
+1314391,2024-11-16T15:00:00+00:00,FT,Regular Season - 12,Akwa United,5172,Nasarawa United,5188,1,0,True
+1314386,2024-11-17T14:00:00+00:00,FT,Regular Season - 12,El Kanemi Warriors,5175,Niger Tornadoes,5189,1,0,True
+1314394,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Abia Warriors,5171,Enyimba,5177,1,1,True
+1314389,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Enugu Rangers,5176,Bendel Insurance,5173,3,2,True
+1314388,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Kano Pillars,5183,Heartland,5180,2,2,True
+1314390,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Kwara United,5185,Plateau United,5190,2,0,True
+1314387,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Remo Stars,5191,Rivers United,5192,0,0,True
+1314393,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Sunshine Stars,5193,Lobi Stars,5186,1,0,True
+1314392,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Bayelsa United,17445,Katsina United,5184,1,1,True
+1314395,2024-11-17T15:00:00+00:00,FT,Regular Season - 12,Ikorodu City,24512,Shooting Stars,5504,2,1,True
+1314396,2024-11-23T14:00:00+00:00,FT,Regular Season - 13,El Kanemi Warriors,5175,Akwa United,5172,1,0,True
+1314400,2024-11-23T15:00:00+00:00,FT,Regular Season - 13,Bendel Insurance,5173,Kwara United,5185,3,1,True
+1314403,2024-11-23T15:00:00+00:00,FT,Regular Season - 13,Heartland,5180,Enugu Rangers,5176,0,0,True
+1314405,2024-11-23T15:00:00+00:00,FT,Regular Season - 13,Lobi Stars,5186,Kano Pillars,5183,2,2,True
+1314399,2024-11-23T15:00:00+00:00,FT,Regular Season - 13,Niger Tornadoes,5189,Ikorodu City,24512,0,0,True
+1314398,2024-11-24T15:00:00+00:00,FT,Regular Season - 13,Katsina United,5184,Remo Stars,5191,2,0,True
+1314401,2024-11-24T15:00:00+00:00,FT,Regular Season - 13,Plateau United,5190,Nasarawa United,5188,2,0,True
+1314402,2024-11-24T15:00:00+00:00,FT,Regular Season - 13,Rivers United,5192,Abia Warriors,5171,1,0,True
+1314397,2024-11-24T16:30:00+00:00,FT,Regular Season - 13,Shooting Stars,5504,Bayelsa United,17445,1,0,True
+1314412,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Abia Warriors,5171,Katsina United,5184,2,0,True
+1314406,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Akwa United,5172,Plateau United,5190,1,0,True
+1314410,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Enugu Rangers,5176,Lobi Stars,5186,3,0,True
+1314409,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Kwara United,5185,Heartland,5180,1,0,True
+1314413,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Nasarawa United,5188,Bendel Insurance,5173,2,1,True
+1314414,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Remo Stars,5191,Shooting Stars,5504,2,0,True
+1314415,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Sunshine Stars,5193,Rivers United,5192,1,1,True
+1314411,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Bayelsa United,17445,Niger Tornadoes,5189,4,1,True
+1314408,2024-11-27T15:00:00+00:00,FT,Regular Season - 14,Ikorodu City,24512,El Kanemi Warriors,5175,2,0,True
+1314417,2024-11-30T15:00:00+00:00,FT,Regular Season - 15,Bendel Insurance,5173,Plateau United,5190,2,1,True
+1314416,2024-11-30T15:00:00+00:00,FT,Regular Season - 15,Lobi Stars,5186,Kwara United,5185,1,0,True
+1314418,2024-12-01T14:00:00+00:00,FT,Regular Season - 15,El Kanemi Warriors,5175,Bayelsa United,17445,0,0,True
+1314424,2024-12-01T15:00:00+00:00,FT,Regular Season - 15,Heartland,5180,Nasarawa United,5188,3,2,True
+1314423,2024-12-01T15:00:00+00:00,FT,Regular Season - 15,Katsina United,5184,Sunshine Stars,5193,1,0,True
+1314425,2024-12-01T15:00:00+00:00,FT,Regular Season - 15,Niger Tornadoes,5189,Remo Stars,5191,2,1,True
+1314419,2024-12-01T15:00:00+00:00,FT,Regular Season - 15,Rivers United,5192,Kano Pillars,5183,1,0,True
+1314421,2024-12-01T15:00:00+00:00,FT,Regular Season - 15,Ikorodu City,24512,Akwa United,5172,4,1,True
+1314422,2024-12-01T16:30:00+00:00,FT,Regular Season - 15,Shooting Stars,5504,Abia Warriors,5171,2,0,True
+1314420,2024-12-03T15:00:00+00:00,FT,Regular Season - 15,Enyimba,5177,Enugu Rangers,5176,0,0,True
+1314430,2024-12-07T14:00:00+00:00,FT,Regular Season - 16,Nasarawa United,5188,Lobi Stars,5186,1,0,True
+1314431,2024-12-07T16:30:00+00:00,FT,Regular Season - 16,Sunshine Stars,5193,Shooting Stars,5504,0,1,True
+1314432,2024-12-08T14:00:00+00:00,FT,Regular Season - 16,Plateau United,5190,Heartland,5180,3,2,True
+1314434,2024-12-08T15:00:00+00:00,FT,Regular Season - 16,Abia Warriors,5171,Niger Tornadoes,5189,2,1,True
+1314427,2024-12-08T15:00:00+00:00,FT,Regular Season - 16,Enugu Rangers,5176,Rivers United,5192,1,0,True
+1314435,2024-12-08T15:00:00+00:00,FT,Regular Season - 16,Kano Pillars,5183,Katsina United,5184,1,0,True
+1314426,2024-12-08T15:00:00+00:00,FT,Regular Season - 16,Bayelsa United,17445,Ikorodu City,24512,1,0,True
+1314433,2024-12-08T16:30:00+00:00,FT,Regular Season - 16,Remo Stars,5191,El Kanemi Warriors,5175,2,0,True
+1314428,2024-12-09T15:00:00+00:00,FT,Regular Season - 16,Akwa United,5172,Bendel Insurance,5173,1,1,True
+1314404,2024-12-11T15:00:00+00:00,FT,Regular Season - 13,Enyimba,5177,Sunshine Stars,5193,0,0,True
+1314436,2024-12-14T14:00:00+00:00,FT,Regular Season - 17,Lobi Stars,5186,Plateau United,5190,1,0,True
+1314443,2024-12-14T16:30:00+00:00,FT,Regular Season - 17,Shooting Stars,5504,Kano Pillars,5183,2,0,True
+1314437,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,El Kanemi Warriors,5175,Abia Warriors,5171,3,0,True
+1314442,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,Katsina United,5184,Enugu Rangers,5176,0,0,True
+1314445,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,Niger Tornadoes,5189,Sunshine Stars,5193,4,1,True
+1314440,2024-12-15T15:00:00+00:00,FT,Regular Season - 17,Heartland,5180,Bendel Insurance,5173,1,1,True
+1314444,2024-12-15T15:00:00+00:00,FT,Regular Season - 17,Rivers United,5192,Kwara United,5185,2,1,True
+1314439,2024-12-15T15:00:00+00:00,FT,Regular Season - 17,Bayelsa United,17445,Akwa United,5172,2,1,True
+1314438,2024-12-15T16:30:00+00:00,FT,Regular Season - 17,Ikorodu City,24512,Remo Stars,5191,1,1,True
+1314453,2024-12-21T14:00:00+00:00,FT,Regular Season - 18,Kano Pillars,5183,Niger Tornadoes,5189,2,1,True
+1314449,2024-12-21T15:00:00+00:00,FT,Regular Season - 18,Sunshine Stars,5193,El Kanemi Warriors,5175,1,0,True
+1314447,2024-12-21T16:30:00+00:00,FT,Regular Season - 18,Bendel Insurance,5173,Lobi Stars,5186,1,0,True
+1314452,2024-12-22T15:00:00+00:00,FT,Regular Season - 18,Abia Warriors,5171,Ikorodu City,24512,2,0,True
+1314450,2024-12-22T15:00:00+00:00,FT,Regular Season - 18,Enugu Rangers,5176,Shooting Stars,5504,0,1,True
+1314446,2024-12-22T15:00:00+00:00,FT,Regular Season - 18,Nasarawa United,5188,Rivers United,5192,1,1,True
+1314451,2024-12-22T15:00:00+00:00,FT,Regular Season - 18,Remo Stars,5191,Bayelsa United,17445,2,0,True
+1314454,2024-12-22T16:30:00+00:00,FT,Regular Season - 18,Kwara United,5185,Katsina United,5184,1,0,True
+1314455,2024-12-23T15:00:00+00:00,FT,Regular Season - 18,Akwa United,5172,Heartland,5180,2,0,True
+1314448,2024-12-26T15:00:00+00:00,FT,Regular Season - 18,Plateau United,5190,Enyimba,5177,0,0,True
+1314464,2024-12-28T15:00:00+00:00,FT,Regular Season - 19,Bayelsa United,17445,Abia Warriors,5171,0,1,True
+1314457,2024-12-29T14:00:00+00:00,FT,Regular Season - 19,El Kanemi Warriors,5175,Kano Pillars,5183,1,0,True
+1314465,2024-12-29T14:00:00+00:00,FT,Regular Season - 19,Niger Tornadoes,5189,Enugu Rangers,5176,0,1,True
+1314461,2024-12-29T15:00:00+00:00,FT,Regular Season - 19,Katsina United,5184,Nasarawa United,5188,1,0,True
+1314456,2024-12-29T15:00:00+00:00,FT,Regular Season - 19,Lobi Stars,5186,Heartland,5180,0,0,True
+1314462,2024-12-29T15:00:00+00:00,FT,Regular Season - 19,Ikorodu City,24512,Sunshine Stars,5193,2,1,True
+1314459,2024-12-29T16:30:00+00:00,FT,Regular Season - 19,Remo Stars,5191,Akwa United,5172,2,1,True
+1314460,2024-12-29T16:30:00+00:00,FT,Regular Season - 19,Shooting Stars,5504,Kwara United,5185,1,0,True
+1314463,2024-12-30T15:00:00+00:00,FT,Regular Season - 19,Rivers United,5192,Plateau United,5190,1,1,True
+1314458,2024-12-31T15:00:00+00:00,FT,Regular Season - 19,Enyimba,5177,Bendel Insurance,5173,0,0,True
+1314441,2025-01-08T15:00:00+00:00,FT,Regular Season - 17,Enyimba,5177,Nasarawa United,5188,2,1,True
+1314407,2025-01-23T15:00:00+00:00,FT,Regular Season - 14,Kano Pillars,5183,Enyimba,5177,2,0,True
+1334915,2025-01-25T13:00:00+00:00,FT,Regular Season - 20,Nasarawa United,5188,Katsina United,5184,1,0,True
+1334914,2025-01-25T14:00:00+00:00,FT,Regular Season - 20,Enugu Rangers,5176,Niger Tornadoes,5189,1,2,True
+1334916,2025-01-25T15:00:00+00:00,FT,Regular Season - 20,Sunshine Stars,5193,Ikorodu City,24512,4,3,True
+1334913,2025-01-25T15:15:00+00:00,FT,Regular Season - 20,Abia Warriors,5171,Bayelsa United,17445,1,0,True
+1334919,2025-01-26T13:00:00+00:00,FT,Regular Season - 20,Heartland,5180,Lobi Stars,5186,1,0,True
+1333759,2025-01-26T15:00:00+00:00,FT,Regular Season - 20,Akwa United,5172,Remo Stars,5191,1,2,True
+1334918,2025-01-26T15:15:00+00:00,FT,Regular Season - 20,Plateau United,5190,Rivers United,5192,2,1,True
+1314429,2025-01-27T15:00:00+00:00,FT,Regular Season - 16,Kwara United,5185,Enyimba,5177,2,0,True
+1334922,2025-01-29T14:00:00+00:00,FT,Regular Season - 21,El Kanemi Warriors,5175,Enugu Rangers,5176,2,1,True
+1334921,2025-01-29T14:00:00+00:00,FT,Regular Season - 21,Bayelsa United,17445,Sunshine Stars,5193,4,1,True
+1334925,2025-01-29T15:00:00+00:00,FT,Regular Season - 21,Akwa United,5172,Lobi Stars,5186,1,1,True
+1333761,2025-01-29T15:00:00+00:00,FT,Regular Season - 21,Remo Stars,5191,Abia Warriors,5171,3,2,True
+1334926,2025-01-29T15:00:00+00:00,FT,Regular Season - 21,Ikorodu City,24512,Kano Pillars,5183,4,1,True
+1333760,2025-01-29T16:30:00+00:00,FT,Regular Season - 21,Shooting Stars,5504,Nasarawa United,5188,2,0,True
+1334928,2025-01-30T14:00:00+00:00,FT,Regular Season - 21,Enyimba,5177,Heartland,5180,1,1,True
+1334927,2025-01-30T15:00:00+00:00,FT,Regular Season - 21,Katsina United,5184,Plateau United,5190,1,0,True
+1334923,2025-01-30T15:00:00+00:00,FT,Regular Season - 21,Niger Tornadoes,5189,Kwara United,5185,2,1,True
+1334924,2025-01-30T15:00:00+00:00,FT,Regular Season - 21,Rivers United,5192,Bendel Insurance,5173,2,2,True
+1334929,2025-02-01T15:00:00+00:00,FT,Regular Season - 22,Sunshine Stars,5193,Remo Stars,5191,1,2,True
+1334931,2025-02-02T14:00:00+00:00,FT,Regular Season - 22,Kano Pillars,5183,Bayelsa United,17445,0,0,True
+1334933,2025-02-02T14:00:00+00:00,FT,Regular Season - 22,Plateau United,5190,Shooting Stars,5504,1,1,True
+1334937,2025-02-02T15:00:00+00:00,FT,Regular Season - 22,Abia Warriors,5171,Akwa United,5172,2,0,True
+1334936,2025-02-02T15:00:00+00:00,FT,Regular Season - 22,Heartland,5180,Rivers United,5192,2,0,True
+1334938,2025-02-02T15:00:00+00:00,FT,Regular Season - 22,Nasarawa United,5188,Niger Tornadoes,5189,2,0,True
+1334935,2025-02-03T14:00:00+00:00,FT,Regular Season - 22,Lobi Stars,5186,Enyimba,5177,0,1,True
+1334930,2025-02-03T15:00:00+00:00,FT,Regular Season - 22,Bendel Insurance,5173,Katsina United,5184,1,0,True
+1334932,2025-02-03T15:00:00+00:00,FT,Regular Season - 22,Enugu Rangers,5176,Ikorodu City,24512,2,0,True
+1334934,2025-02-03T16:30:00+00:00,FT,Regular Season - 22,Kwara United,5185,El Kanemi Warriors,5175,2,0,True
+1346875,2025-02-07T14:00:00+00:00,FT,Regular Season - 23,Katsina United,5184,Heartland,5180,1,0,True
+1345718,2025-02-08T14:00:00+00:00,FT,Regular Season - 23,El Kanemi Warriors,5175,Nasarawa United,5188,1,0,True
+1345720,2025-02-08T15:00:00+00:00,FT,Regular Season - 23,Remo Stars,5191,Kano Pillars,5183,2,1,True
+1346876,2025-02-08T16:30:00+00:00,FT,Regular Season - 23,Shooting Stars,5504,Bendel Insurance,5173,1,0,True
+1345721,2025-02-09T14:00:00+00:00,FT,Regular Season - 23,Niger Tornadoes,5189,Plateau United,5190,1,1,True
+1346873,2025-02-09T15:00:00+00:00,FT,Regular Season - 23,Abia Warriors,5171,Sunshine Stars,5193,3,0,True
+1345719,2025-02-09T15:00:00+00:00,FT,Regular Season - 23,Akwa United,5172,Enyimba,5177,2,1,True
+1346874,2025-02-09T15:00:00+00:00,FT,Regular Season - 23,Rivers United,5192,Lobi Stars,5186,1,0,True
+1346872,2025-02-09T15:00:00+00:00,FT,Regular Season - 23,Bayelsa United,17445,Enugu Rangers,5176,0,0,True
+1345722,2025-02-09T16:30:00+00:00,FT,Regular Season - 23,Ikorodu City,24512,Kwara United,5185,2,1,True
+1334917,2025-02-12T14:00:00+00:00,FT,Regular Season - 20,Kano Pillars,5183,El Kanemi Warriors,5175,2,1,True
+1334920,2025-02-12T15:00:00+00:00,FT,Regular Season - 20,Bendel Insurance,5173,Enyimba,5177,1,0,True
+1333758,2025-02-12T15:00:00+00:00,FT,Regular Season - 20,Kwara United,5185,Shooting Stars,5504,2,0,True
+1345730,2025-02-15T14:00:00+00:00,FT,Regular Season - 24,Enyimba,5177,Rivers United,5192,1,0,True
+1346877,2025-02-15T14:00:00+00:00,FT,Regular Season - 24,Kano Pillars,5183,Abia Warriors,5171,1,0,True
+1345724,2025-02-15T15:00:00+00:00,FT,Regular Season - 24,Kwara United,5185,Bayelsa United,17445,1,0,True
+1345726,2025-02-15T15:00:00+00:00,FT,Regular Season - 24,Lobi Stars,5186,Katsina United,5184,1,1,True
+1345727,2025-02-15T15:00:00+00:00,FT,Regular Season - 24,Nasarawa United,5188,Ikorodu City,24512,0,0,True
+1345723,2025-02-15T15:00:00+00:00,FT,Regular Season - 24,Plateau United,5190,El Kanemi Warriors,5175,2,0,True
+1346878,2025-02-15T16:30:00+00:00,FT,Regular Season - 24,Sunshine Stars,5193,Akwa United,5172,1,0,True
+1345729,2025-02-16T14:00:00+00:00,FT,Regular Season - 24,Enugu Rangers,5176,Remo Stars,5191,2,1,True
+1345728,2025-02-16T15:00:00+00:00,FT,Regular Season - 24,Heartland,5180,Shooting Stars,5504,2,1,True
+1345725,2025-02-16T16:30:00+00:00,FT,Regular Season - 24,Bendel Insurance,5173,Niger Tornadoes,5189,3,0,True
+1352402,2025-02-19T14:00:00+00:00,FT,Regular Season - 25,El Kanemi Warriors,5175,Bendel Insurance,5173,0,0,True
+1352405,2025-02-19T15:00:00+00:00,FT,Regular Season - 25,Abia Warriors,5171,Enugu Rangers,5176,1,0,True
+1352404,2025-02-19T15:00:00+00:00,FT,Regular Season - 25,Akwa United,5172,Rivers United,5192,1,1,True
+1352406,2025-02-19T15:00:00+00:00,FT,Regular Season - 25,Niger Tornadoes,5189,Heartland,5180,2,1,True
+1352403,2025-02-19T15:00:00+00:00,FT,Regular Season - 25,Sunshine Stars,5193,Kano Pillars,5183,1,1,True
+1352407,2025-02-19T15:00:00+00:00,FT,Regular Season - 25,Bayelsa United,17445,Nasarawa United,5188,2,2,True
+1352409,2025-02-19T16:30:00+00:00,FT,Regular Season - 25,Shooting Stars,5504,Lobi Stars,5186,2,2,True
+1352408,2025-02-19T16:30:00+00:00,FT,Regular Season - 25,Ikorodu City,24512,Plateau United,5190,2,1,True
+1352410,2025-02-20T15:00:00+00:00,FT,Regular Season - 25,Katsina United,5184,Enyimba,5177,2,1,True
+1352411,2025-02-20T16:30:00+00:00,FT,Regular Season - 25,Remo Stars,5191,Kwara United,5185,2,0,True
+1352419,2025-02-26T14:00:00+00:00,FT,Regular Season - 26,Enyimba,5177,Shooting Stars,5504,1,1,True
+1352413,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Enugu Rangers,5176,Sunshine Stars,5193,3,0,True
+1352418,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Heartland,5180,El Kanemi Warriors,5175,0,0,True
+1352412,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Kano Pillars,5183,Akwa United,5172,1,0,True
+1352421,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Kwara United,5185,Abia Warriors,5171,0,0,True
+1352416,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Lobi Stars,5186,Niger Tornadoes,5189,0,2,True
+1352415,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Nasarawa United,5188,Remo Stars,5191,1,0,True
+1352414,2025-02-26T15:00:00+00:00,FT,Regular Season - 26,Plateau United,5190,Bayelsa United,17445,1,0,True
+1352417,2025-02-27T16:30:00+00:00,FT,Regular Season - 26,Bendel Insurance,5173,Ikorodu City,24512,2,1,True
+1352420,2025-02-28T15:00:00+00:00,FT,Regular Season - 26,Rivers United,5192,Katsina United,5184,1,0,True
+1352422,2025-03-01T15:00:00+00:00,FT,Regular Season - 27,Sunshine Stars,5193,Kwara United,5185,4,2,True
+1352426,2025-03-02T14:00:00+00:00,FT,Regular Season - 27,Abia Warriors,5171,Nasarawa United,5188,1,1,True
+1352423,2025-03-02T15:00:00+00:00,FT,Regular Season - 27,Kano Pillars,5183,Enugu Rangers,5176,2,1,True
+1352430,2025-03-02T15:00:00+00:00,FT,Regular Season - 27,Niger Tornadoes,5189,Enyimba,5177,0,1,True
+1352428,2025-03-02T15:00:00+00:00,FT,Regular Season - 27,Bayelsa United,17445,Bendel Insurance,5173,2,1,True
+1352425,2025-03-02T16:30:00+00:00,FT,Regular Season - 27,Remo Stars,5191,Plateau United,5190,1,0,True
+1352427,2025-03-02T16:30:00+00:00,FT,Regular Season - 27,Ikorodu City,24512,Heartland,5180,2,0,True
+1352429,2025-03-03T14:00:00+00:00,FT,Regular Season - 27,Akwa United,5172,Katsina United,5184,1,0,True
+1352424,2025-03-03T14:00:00+00:00,FT,Regular Season - 27,El Kanemi Warriors,5175,Lobi Stars,5186,1,0,True
+1352431,2025-03-03T16:30:00+00:00,FT,Regular Season - 27,Shooting Stars,5504,Rivers United,5192,0,0,True
+1352440,2025-03-07T15:00:00+00:00,FT,Regular Season - 28,Katsina United,5184,Shooting Stars,5504,1,0,True
+1352441,2025-03-08T14:00:00+00:00,FT,Regular Season - 28,Rivers United,5192,Niger Tornadoes,5189,1,0,True
+1352432,2025-03-08T15:00:00+00:00,FT,Regular Season - 28,Bendel Insurance,5173,Remo Stars,5191,2,1,True
+1352433,2025-03-08T15:00:00+00:00,FT,Regular Season - 28,Lobi Stars,5186,Ikorodu City,24512,0,1,True
+1352436,2025-03-09T14:00:00+00:00,FT,Regular Season - 28,Plateau United,5190,Abia Warriors,5171,1,0,True
+1352435,2025-03-09T15:00:00+00:00,FT,Regular Season - 28,Enugu Rangers,5176,Akwa United,5172,1,1,True
+1352439,2025-03-09T15:00:00+00:00,FT,Regular Season - 28,Enyimba,5177,El Kanemi Warriors,5175,1,0,True
+1352438,2025-03-09T15:00:00+00:00,FT,Regular Season - 28,Kwara United,5185,Kano Pillars,5183,2,0,True
+1352437,2025-03-09T15:00:00+00:00,FT,Regular Season - 28,Nasarawa United,5188,Sunshine Stars,5193,1,1,True
+1352434,2025-03-09T16:30:00+00:00,FT,Regular Season - 28,Heartland,5180,Bayelsa United,17445,1,1,True
+1360279,2025-03-14T15:00:00+00:00,FT,Regular Season - 29,Niger Tornadoes,5189,Katsina United,5184,1,0,True
+1360281,2025-03-15T15:00:00+00:00,FT,Regular Season - 29,Enugu Rangers,5176,Kwara United,5185,3,0,True
+1360275,2025-03-16T14:00:00+00:00,FT,Regular Season - 29,El Kanemi Warriors,5175,Rivers United,5192,1,2,True
+1360274,2025-03-16T14:00:00+00:00,FT,Regular Season - 29,Kano Pillars,5183,Nasarawa United,5188,1,1,True
+1360276,2025-03-16T15:00:00+00:00,FT,Regular Season - 29,Abia Warriors,5171,Bendel Insurance,5173,1,0,True
+1360278,2025-03-16T15:00:00+00:00,FT,Regular Season - 29,Akwa United,5172,Shooting Stars,5504,2,0,True
+1360282,2025-03-16T15:00:00+00:00,FT,Regular Season - 29,Bayelsa United,17445,Lobi Stars,5186,1,0,True
+1360277,2025-03-16T16:30:00+00:00,FT,Regular Season - 29,Remo Stars,5191,Heartland,5180,2,0,True
+1360280,2025-03-16T16:30:00+00:00,FT,Regular Season - 29,Ikorodu City,24512,Enyimba,5177,2,2,True
+1360273,2025-03-17T15:00:00+00:00,FT,Regular Season - 29,Sunshine Stars,5193,Plateau United,5190,2,2,True
+1360286,2025-03-21T15:00:00+00:00,FT,Regular Season - 30,Nasarawa United,5188,Enugu Rangers,5176,1,0,True
+1360285,2025-03-22T14:00:00+00:00,FT,Regular Season - 30,Plateau United,5190,Kano Pillars,5183,2,1,True
+1360284,2025-03-22T16:30:00+00:00,FT,Regular Season - 30,Bendel Insurance,5173,Sunshine Stars,5193,1,0,True
+1360289,2025-03-23T15:00:00+00:00,FT,Regular Season - 30,Enyimba,5177,Bayelsa United,17445,1,1,True
+1360288,2025-03-23T15:00:00+00:00,FT,Regular Season - 30,Heartland,5180,Abia Warriors,5171,0,1,True
+1360290,2025-03-23T15:00:00+00:00,FT,Regular Season - 30,Katsina United,5184,El Kanemi Warriors,5175,3,0,True
+1360287,2025-03-23T15:00:00+00:00,FT,Regular Season - 30,Kwara United,5185,Akwa United,5172,0,2,True
+1360291,2025-03-23T15:00:00+00:00,FT,Regular Season - 30,Rivers United,5192,Ikorodu City,24512,1,0,True
+1360292,2025-03-23T16:30:00+00:00,FT,Regular Season - 30,Shooting Stars,5504,Niger Tornadoes,5189,3,1,True
+1360302,2025-03-26T15:00:00+00:00,FT,Regular Season - 31,Abia Warriors,5171,Lobi Stars,5186,2,0,True
+1360294,2025-03-26T15:00:00+00:00,FT,Regular Season - 31,Kano Pillars,5183,Bendel Insurance,5173,0,0,True
+1360296,2025-03-26T15:00:00+00:00,FT,Regular Season - 31,Kwara United,5185,Nasarawa United,5188,1,0,True
+1360293,2025-03-26T15:00:00+00:00,FT,Regular Season - 31,Sunshine Stars,5193,Heartland,5180,0,0,True
+1360300,2025-03-26T15:00:00+00:00,FT,Regular Season - 31,Bayelsa United,17445,Rivers United,5192,1,0,True
+1360295,2025-03-27T14:00:00+00:00,FT,Regular Season - 31,El Kanemi Warriors,5175,Shooting Stars,5504,2,2,True
+1360297,2025-03-27T15:00:00+00:00,FT,Regular Season - 31,Akwa United,5172,Niger Tornadoes,5189,2,0,True
+1360301,2025-03-27T15:00:00+00:00,FT,Regular Season - 31,Enugu Rangers,5176,Plateau United,5190,0,1,True
+1360298,2025-03-27T15:00:00+00:00,FT,Regular Season - 31,Remo Stars,5191,Enyimba,5177,2,0,True
+1367520,2025-04-05T14:00:00+00:00,FT,Regular Season - 32,Heartland,5180,Kano Pillars,5183,2,0,True
+1367514,2025-04-05T16:30:00+00:00,FT,Regular Season - 32,Bendel Insurance,5173,Enugu Rangers,5176,0,0,True
+1367515,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Enyimba,5177,Abia Warriors,5171,2,1,True
+1367521,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Katsina United,5184,Bayelsa United,17445,1,1,True
+1367513,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Lobi Stars,5186,Sunshine Stars,5193,1,1,True
+1367518,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Nasarawa United,5188,Akwa United,5172,2,0,True
+1367517,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Niger Tornadoes,5189,El Kanemi Warriors,5175,2,0,True
+1367516,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Plateau United,5190,Kwara United,5185,0,0,True
+1367519,2025-04-06T15:00:00+00:00,FT,Regular Season - 32,Rivers United,5192,Remo Stars,5191,1,0,True
+1367522,2025-04-06T16:30:00+00:00,FT,Regular Season - 32,Shooting Stars,5504,Ikorodu City,24512,0,0,True
+1360283,2025-04-09T15:00:00+00:00,FT,Regular Season - 30,Lobi Stars,5186,Remo Stars,5191,2,2,True
+1360299,2025-04-10T16:30:00+00:00,FT,Regular Season - 31,Ikorodu City,24512,Katsina United,5184,6,0,True
+1367524,2025-04-11T15:00:00+00:00,FT,Regular Season - 33,Bayelsa United,17445,Shooting Stars,5504,3,0,True
+1367525,2025-04-13T14:00:00+00:00,FT,Regular Season - 33,Enugu Rangers,5176,Heartland,5180,0,2,True
+1367530,2025-04-13T15:00:00+00:00,FT,Regular Season - 33,Abia Warriors,5171,Rivers United,5192,2,0,True
+1367531,2025-04-13T15:00:00+00:00,FT,Regular Season - 33,Akwa United,5172,El Kanemi Warriors,5175,1,1,True
+1367526,2025-04-13T15:00:00+00:00,FT,Regular Season - 33,Kano Pillars,5183,Lobi Stars,5186,2,0,True
+1367529,2025-04-13T15:00:00+00:00,FT,Regular Season - 33,Nasarawa United,5188,Plateau United,5190,3,2,True
+1367527,2025-04-13T15:00:00+00:00,FT,Regular Season - 33,Remo Stars,5191,Katsina United,5184,0,0,True
+1367523,2025-04-13T15:00:00+00:00,FT,Regular Season - 33,Sunshine Stars,5193,Enyimba,5177,2,1,True
+1367528,2025-04-13T16:30:00+00:00,FT,Regular Season - 33,Kwara United,5185,Bendel Insurance,5173,0,1,True
+1367532,2025-04-13T16:30:00+00:00,FT,Regular Season - 33,Ikorodu City,24512,Niger Tornadoes,5189,3,0,True
+1367538,2025-04-19T14:00:00+00:00,FT,Regular Season - 34,Katsina United,5184,Abia Warriors,5171,5,1,True
+1367539,2025-04-19T15:00:00+00:00,FT,Regular Season - 34,Enyimba,5177,Kano Pillars,5183,2,1,True
+1367533,2025-04-19T15:00:00+00:00,FT,Regular Season - 34,Lobi Stars,5186,Enugu Rangers,5176,0,1,True
+1367535,2025-04-20T14:00:00+00:00,FT,Regular Season - 34,El Kanemi Warriors,5175,Ikorodu City,24512,1,1,True
+1367536,2025-04-20T14:00:00+00:00,FT,Regular Season - 34,Niger Tornadoes,5189,Bayelsa United,17445,1,1,True
+1367540,2025-04-20T15:00:00+00:00,FT,Regular Season - 34,Heartland,5180,Kwara United,5185,0,0,True
+1367541,2025-04-20T15:00:00+00:00,FT,Regular Season - 34,Plateau United,5190,Akwa United,5172,1,0,True
+1367537,2025-04-20T15:00:00+00:00,FT,Regular Season - 34,Rivers United,5192,Sunshine Stars,5193,1,0,True
+1367542,2025-04-20T15:00:00+00:00,FT,Regular Season - 34,Shooting Stars,5504,Remo Stars,5191,0,1,True
+1367534,2025-04-20T16:30:00+00:00,FT,Regular Season - 34,Bendel Insurance,5173,Nasarawa United,5188,1,1,True
+1367549,2025-04-25T15:00:00+00:00,FT,Regular Season - 35,Kano Pillars,5183,Rivers United,5192,2,0,True
+1367552,2025-04-27T14:00:00+00:00,FT,Regular Season - 35,Nasarawa United,5188,Heartland,5180,1,0,True
+1367547,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Abia Warriors,5171,Shooting Stars,5504,3,1,True
+1367548,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Akwa United,5172,Ikorodu City,24512,2,1,True
+1367551,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Enugu Rangers,5176,Enyimba,5177,1,2,True
+1367550,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Kwara United,5185,Lobi Stars,5186,4,0,True
+1367544,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Plateau United,5190,Bendel Insurance,5173,2,1,True
+1367543,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Sunshine Stars,5193,Katsina United,5184,2,0,True
+1367546,2025-04-27T15:00:00+00:00,FT,Regular Season - 35,Bayelsa United,17445,El Kanemi Warriors,5175,2,0,True
+1367545,2025-04-27T16:30:00+00:00,FT,Regular Season - 35,Remo Stars,5191,Niger Tornadoes,5189,1,0,True
+1373232,2025-05-07T14:00:00+00:00,FT,Regular Season - 36,El Kanemi Warriors,5175,Remo Stars,5191,2,0,True
+1373238,2025-05-07T14:00:00+00:00,FT,Regular Season - 36,Lobi Stars,5186,Nasarawa United,5188,1,2,True
+1373234,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Bendel Insurance,5173,Akwa United,5172,1,0,True
+1373239,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Enyimba,5177,Kwara United,5185,2,0,True
+1373235,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Heartland,5180,Plateau United,5190,2,0,True
+1373236,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Katsina United,5184,Kano Pillars,5183,1,0,True
+1373237,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Niger Tornadoes,5189,Abia Warriors,5171,1,1,True
+1373233,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Rivers United,5192,Enugu Rangers,5176,1,0,True
+1373241,2025-05-07T15:00:00+00:00,FT,Regular Season - 36,Shooting Stars,5504,Sunshine Stars,5193,1,0,True
+1373240,2025-05-07T16:30:00+00:00,FT,Regular Season - 36,Ikorodu City,24512,Bayelsa United,17445,3,2,True
+1373245,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Abia Warriors,5171,El Kanemi Warriors,5175,2,1,True
+1373244,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Akwa United,5172,Bayelsa United,17445,2,0,True
+1373248,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Bendel Insurance,5173,Heartland,5180,1,0,True
+1373247,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Enugu Rangers,5176,Katsina United,5184,4,0,True
+1373251,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Kano Pillars,5183,Shooting Stars,5504,3,1,True
+1373250,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Kwara United,5185,Rivers United,5192,3,1,True
+1373249,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Nasarawa United,5188,Enyimba,5177,3,2,True
+1373242,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Plateau United,5190,Lobi Stars,5186,2,1,True
+1373243,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Remo Stars,5191,Ikorodu City,24512,4,1,True
+1373246,2025-05-11T14:00:00+00:00,FT,Regular Season - 37,Sunshine Stars,5193,Niger Tornadoes,5189,1,2,True
+1373261,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,El Kanemi Warriors,5175,Sunshine Stars,5193,1,0,True
+1373254,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Enyimba,5177,Plateau United,5190,0,1,True
+1373253,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Heartland,5180,Akwa United,5172,2,1,True
+1373260,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Katsina United,5184,Kwara United,5185,1,0,True
+1373252,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Niger Tornadoes,5189,Kano Pillars,5183,3,2,True
+1373259,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Rivers United,5192,Nasarawa United,5188,2,1,True
+1373256,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Shooting Stars,5504,Enugu Rangers,5176,5,1,True
+1373258,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Bayelsa United,17445,Remo Stars,5191,3,0,True
+1373257,2025-05-25T15:00:00+00:00,FT,Regular Season - 38,Ikorodu City,24512,Abia Warriors,5171,3,2,True
+1373255,2025-05-25T15:20:00+00:00,FT,Regular Season - 38,Lobi Stars,5186,Bendel Insurance,5173,2,1,True

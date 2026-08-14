@@ -1,0 +1,381 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+734334,2021-07-15T16:30:00+00:00,FT,Bayern - 1,Aubstadt,9323,SpVgg Unterhaching,1314,0,0,True
+734335,2021-07-16T16:30:00+00:00,FT,Bayern - 1,Rain / Lech,9333,Bayreuth,9325,0,4,True
+734336,2021-07-16T17:00:00+00:00,FT,Bayern - 1,Heimstetten,9329,Memmingen,9331,4,1,True
+734338,2021-07-16T17:00:00+00:00,FT,Bayern - 1,Illertissen,9330,Viktoria Aschaffenburg,9336,1,0,True
+734337,2021-07-16T17:00:00+00:00,FT,Bayern - 1,Wacker Burghausen,9337,Schalding-Heining,9334,0,1,True
+734339,2021-07-17T12:00:00+00:00,FT,Bayern - 1,Augsburg II,9324,Bayern München II,4674,0,3,True
+734340,2021-07-17T12:00:00+00:00,FT,Bayern - 1,Nürnberg II,9332,Pipinsried,12832,2,2,True
+734342,2021-07-17T15:00:00+00:00,FT,Bayern - 1,Buchbach,9326,FC Schweinfurt 05,1635,1,1,True
+734341,2021-07-17T15:00:00+00:00,FT,Bayern - 1,Eltersdorf,12762,Eichstätt,4262,0,3,True
+734343,2021-07-18T12:00:00+00:00,FT,Bayern - 1,Greuther Fürth II,9328,1860 Rosenheim,9322,1,1,True
+734344,2021-07-23T16:00:00+00:00,FT,Bayern - 2,Greuther Fürth II,9328,Bayreuth,9325,0,5,True
+734346,2021-07-23T16:30:00+00:00,FT,Bayern - 2,Schalding-Heining,9334,Nürnberg II,9332,1,1,True
+734345,2021-07-23T16:30:00+00:00,FT,Bayern - 2,Viktoria Aschaffenburg,9336,Buchbach,9326,1,0,True
+734347,2021-07-23T17:00:00+00:00,FT,Bayern - 2,SpVgg Unterhaching,1314,Wacker Burghausen,9337,1,2,True
+734348,2021-07-23T17:00:00+00:00,FT,Bayern - 2,Bayern München II,4674,Heimstetten,9329,1,0,True
+734349,2021-07-23T17:30:00+00:00,FT,Bayern - 2,Memmingen,9331,Eltersdorf,12762,1,1,True
+734350,2021-07-24T12:00:00+00:00,FT,Bayern - 2,FC Schweinfurt 05,1635,Rain / Lech,9333,5,1,True
+734351,2021-07-24T12:00:00+00:00,FT,Bayern - 2,1860 Rosenheim,9322,Aubstadt,9323,0,0,True
+734353,2021-07-24T15:00:00+00:00,FT,Bayern - 2,Eichstätt,4262,Illertissen,9330,1,1,True
+734352,2021-07-24T15:00:00+00:00,FT,Bayern - 2,Pipinsried,12832,Augsburg II,9324,3,1,True
+734354,2021-07-27T16:00:00+00:00,FT,Bayern - 3,Nürnberg II,9332,SpVgg Unterhaching,1314,5,1,True
+734358,2021-07-27T16:30:00+00:00,FT,Bayern - 3,Eichstätt,4262,Memmingen,9331,3,2,True
+734355,2021-07-27T16:30:00+00:00,FT,Bayern - 3,Aubstadt,9323,Bayreuth,9325,1,2,True
+734356,2021-07-27T16:30:00+00:00,FT,Bayern - 3,Greuther Fürth II,9328,FC Schweinfurt 05,1635,1,4,True
+734357,2021-07-27T16:30:00+00:00,FT,Bayern - 3,Rain / Lech,9333,Viktoria Aschaffenburg,9336,0,2,True
+734361,2021-07-27T17:00:00+00:00,FT,Bayern - 3,Augsburg II,9324,Schalding-Heining,9334,3,1,True
+734360,2021-07-27T17:00:00+00:00,FT,Bayern - 3,Heimstetten,9329,Pipinsried,12832,1,3,True
+734359,2021-07-27T17:00:00+00:00,FT,Bayern - 3,Illertissen,9330,Buchbach,9326,0,1,True
+734362,2021-07-27T17:00:00+00:00,FT,Bayern - 3,Wacker Burghausen,9337,1860 Rosenheim,9322,8,0,True
+734363,2021-07-27T17:00:00+00:00,FT,Bayern - 3,Eltersdorf,12762,Bayern München II,4674,2,6,True
+734364,2021-07-30T16:30:00+00:00,FT,Bayern - 4,Viktoria Aschaffenburg,9336,Greuther Fürth II,9328,2,2,True
+734365,2021-07-30T17:00:00+00:00,FT,Bayern - 4,SpVgg Unterhaching,1314,Augsburg II,9324,1,0,True
+734366,2021-07-30T17:00:00+00:00,FT,Bayern - 4,Bayern München II,4674,Eichstätt,4262,6,3,True
+734369,2021-07-30T17:00:00+00:00,FT,Bayern - 4,1860 Rosenheim,9322,Nürnberg II,9332,1,0,True
+734368,2021-07-30T17:00:00+00:00,FT,Bayern - 4,Bayreuth,9325,Wacker Burghausen,9337,2,3,True
+734367,2021-07-30T17:00:00+00:00,FT,Bayern - 4,Buchbach,9326,Rain / Lech,9333,4,0,True
+734370,2021-07-30T17:30:00+00:00,FT,Bayern - 4,Memmingen,9331,Illertissen,9330,2,2,True
+734371,2021-07-31T12:00:00+00:00,FT,Bayern - 4,FC Schweinfurt 05,1635,Aubstadt,9323,5,1,True
+734372,2021-07-31T15:00:00+00:00,FT,Bayern - 4,Schalding-Heining,9334,Heimstetten,9329,0,0,True
+734373,2021-07-31T15:00:00+00:00,FT,Bayern - 4,Pipinsried,12832,Eltersdorf,12762,1,0,True
+734374,2021-08-03T16:00:00+00:00,FT,Bayern - 5,Nürnberg II,9332,Bayreuth,9325,0,3,True
+734377,2021-08-03T16:30:00+00:00,FT,Bayern - 5,Eichstätt,4262,Pipinsried,12832,1,0,True
+734375,2021-08-03T16:30:00+00:00,FT,Bayern - 5,Aubstadt,9323,Viktoria Aschaffenburg,9336,4,0,True
+734376,2021-08-03T16:30:00+00:00,FT,Bayern - 5,Greuther Fürth II,9328,Buchbach,9326,0,3,True
+734380,2021-08-03T17:00:00+00:00,FT,Bayern - 5,Augsburg II,9324,1860 Rosenheim,9322,3,1,True
+734379,2021-08-03T17:00:00+00:00,FT,Bayern - 5,Heimstetten,9329,SpVgg Unterhaching,1314,0,2,True
+734378,2021-08-03T17:00:00+00:00,FT,Bayern - 5,Illertissen,9330,Rain / Lech,9333,1,1,True
+734381,2021-08-03T17:00:00+00:00,FT,Bayern - 5,Wacker Burghausen,9337,FC Schweinfurt 05,1635,5,2,True
+734382,2021-08-03T17:00:00+00:00,FT,Bayern - 5,Eltersdorf,12762,Schalding-Heining,9334,1,1,True
+734383,2021-08-03T17:30:00+00:00,FT,Bayern - 5,Memmingen,9331,Bayern München II,4674,0,4,True
+734384,2021-08-06T16:30:00+00:00,FT,Bayern - 6,Viktoria Aschaffenburg,9336,Wacker Burghausen,9337,3,1,True
+734385,2021-08-06T17:00:00+00:00,FT,Bayern - 6,SpVgg Unterhaching,1314,Eltersdorf,12762,2,0,True
+734386,2021-08-06T17:00:00+00:00,FT,Bayern - 6,1860 Rosenheim,9322,Heimstetten,9329,0,2,True
+734387,2021-08-07T12:00:00+00:00,FT,Bayern - 6,FC Schweinfurt 05,1635,Nürnberg II,9332,1,1,True
+734389,2021-08-07T12:00:00+00:00,FT,Bayern - 6,Illertissen,9330,Bayern München II,4674,1,1,True
+734393,2021-08-07T15:00:00+00:00,FT,Bayern - 6,Buchbach,9326,Aubstadt,9323,1,1,True
+734392,2021-08-07T15:00:00+00:00,FT,Bayern - 6,Rain / Lech,9333,Greuther Fürth II,9328,2,2,True
+734390,2021-08-07T15:00:00+00:00,FT,Bayern - 6,Schalding-Heining,9334,Eichstätt,4262,1,3,True
+734391,2021-08-07T15:00:00+00:00,FT,Bayern - 6,Pipinsried,12832,Memmingen,9331,1,2,True
+734396,2021-08-13T17:00:00+00:00,FT,Bayern - 7,Bayern München II,4674,Pipinsried,12832,6,1,True
+734399,2021-08-13T17:00:00+00:00,FT,Bayern - 7,Augsburg II,9324,FC Schweinfurt 05,1635,2,2,True
+734394,2021-08-13T17:00:00+00:00,FT,Bayern - 7,Heimstetten,9329,Bayreuth,9325,2,3,True
+734398,2021-08-13T17:00:00+00:00,FT,Bayern - 7,Illertissen,9330,Greuther Fürth II,9328,2,0,True
+734395,2021-08-13T17:00:00+00:00,FT,Bayern - 7,Wacker Burghausen,9337,Buchbach,9326,1,1,True
+734397,2021-08-13T17:00:00+00:00,FT,Bayern - 7,Eltersdorf,12762,1860 Rosenheim,9322,5,1,True
+734400,2021-08-13T17:30:00+00:00,FT,Bayern - 7,Memmingen,9331,Schalding-Heining,9334,3,1,True
+734402,2021-08-14T12:00:00+00:00,FT,Bayern - 7,Aubstadt,9323,Rain / Lech,9333,4,0,True
+734401,2021-08-14T12:00:00+00:00,FT,Bayern - 7,Nürnberg II,9332,Viktoria Aschaffenburg,9336,3,1,True
+734403,2021-08-14T15:00:00+00:00,FT,Bayern - 7,Eichstätt,4262,SpVgg Unterhaching,1314,1,2,True
+734404,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Bayreuth,9325,Eltersdorf,12762,3,1,True
+734410,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Buchbach,9326,Nürnberg II,9332,2,1,True
+734407,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Greuther Fürth II,9328,Aubstadt,9323,2,3,True
+734408,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Rain / Lech,9333,Wacker Burghausen,9337,0,4,True
+734405,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Schalding-Heining,9334,Bayern München II,4674,2,1,True
+734409,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Viktoria Aschaffenburg,9336,Augsburg II,9324,2,1,True
+734406,2021-08-17T16:30:00+00:00,FT,Bayern - 8,Pipinsried,12832,Illertissen,9330,1,4,True
+734413,2021-08-17T17:00:00+00:00,FT,Bayern - 8,SpVgg Unterhaching,1314,Memmingen,9331,4,2,True
+734412,2021-08-17T17:00:00+00:00,FT,Bayern - 8,FC Schweinfurt 05,1635,Heimstetten,9329,4,0,True
+734411,2021-08-17T17:00:00+00:00,FT,Bayern - 8,1860 Rosenheim,9322,Eichstätt,4262,2,2,True
+734414,2021-08-20T17:00:00+00:00,FT,Bayern - 9,Bayern München II,4674,SpVgg Unterhaching,1314,5,1,True
+734417,2021-08-20T17:00:00+00:00,FT,Bayern - 9,Heimstetten,9329,Viktoria Aschaffenburg,9336,4,0,True
+734416,2021-08-20T17:00:00+00:00,FT,Bayern - 9,Illertissen,9330,Aubstadt,9323,1,2,True
+734415,2021-08-20T17:00:00+00:00,FT,Bayern - 9,Eltersdorf,12762,FC Schweinfurt 05,1635,0,4,True
+734418,2021-08-20T17:30:00+00:00,FT,Bayern - 9,Memmingen,9331,1860 Rosenheim,9322,4,0,True
+734419,2021-08-21T12:00:00+00:00,FT,Bayern - 9,Augsburg II,9324,Buchbach,9326,0,0,True
+734420,2021-08-21T12:00:00+00:00,FT,Bayern - 9,Nürnberg II,9332,Rain / Lech,9333,0,1,True
+734423,2021-08-21T15:00:00+00:00,FT,Bayern - 9,Eichstätt,4262,Bayreuth,9325,1,3,True
+734421,2021-08-21T15:00:00+00:00,FT,Bayern - 9,Wacker Burghausen,9337,Greuther Fürth II,9328,1,4,True
+734422,2021-08-21T15:00:00+00:00,FT,Bayern - 9,Pipinsried,12832,Schalding-Heining,9334,3,0,True
+734425,2021-08-27T16:00:00+00:00,FT,Bayern - 10,Aubstadt,9323,Wacker Burghausen,9337,1,2,True
+734424,2021-08-27T16:00:00+00:00,FT,Bayern - 10,Viktoria Aschaffenburg,9336,Eltersdorf,12762,1,4,True
+734426,2021-08-27T17:00:00+00:00,FT,Bayern - 10,SpVgg Unterhaching,1314,Pipinsried,12832,1,1,True
+734428,2021-08-27T17:00:00+00:00,FT,Bayern - 10,1860 Rosenheim,9322,Bayern München II,4674,0,6,True
+734427,2021-08-27T17:00:00+00:00,FT,Bayern - 10,Buchbach,9326,Heimstetten,9329,4,0,True
+734429,2021-08-28T12:00:00+00:00,FT,Bayern - 10,FC Schweinfurt 05,1635,Eichstätt,4262,6,0,True
+734430,2021-08-28T12:00:00+00:00,FT,Bayern - 10,Bayreuth,9325,Memmingen,9331,2,1,True
+734432,2021-08-28T12:00:00+00:00,FT,Bayern - 10,Greuther Fürth II,9328,Nürnberg II,9332,1,1,True
+734431,2021-08-28T12:00:00+00:00,FT,Bayern - 10,Schalding-Heining,9334,Illertissen,9330,1,3,True
+734433,2021-08-28T15:00:00+00:00,FT,Bayern - 10,Rain / Lech,9333,Augsburg II,9324,2,4,True
+734437,2021-08-31T16:00:00+00:00,FT,Bayern - 11,Eichstätt,4262,Viktoria Aschaffenburg,9336,0,0,True
+734434,2021-08-31T16:00:00+00:00,FT,Bayern - 11,Nürnberg II,9332,Aubstadt,9323,1,1,True
+734435,2021-08-31T16:00:00+00:00,FT,Bayern - 11,Schalding-Heining,9334,SpVgg Unterhaching,1314,5,4,True
+734439,2021-08-31T17:00:00+00:00,FT,Bayern - 11,Heimstetten,9329,Rain / Lech,9333,3,1,True
+734438,2021-08-31T17:00:00+00:00,FT,Bayern - 11,Illertissen,9330,Wacker Burghausen,9337,1,2,True
+734442,2021-08-31T17:00:00+00:00,FT,Bayern - 11,Eltersdorf,12762,Buchbach,9326,4,2,True
+734443,2021-08-31T17:30:00+00:00,FT,Bayern - 11,Memmingen,9331,FC Schweinfurt 05,1635,1,0,True
+734444,2021-09-03T17:00:00+00:00,FT,Bayern - 12,SpVgg Unterhaching,1314,Illertissen,9330,0,2,True
+734446,2021-09-03T17:00:00+00:00,FT,Bayern - 12,1860 Rosenheim,9322,Schalding-Heining,9334,2,2,True
+734445,2021-09-03T17:00:00+00:00,FT,Bayern - 12,Viktoria Aschaffenburg,9336,Memmingen,9331,4,1,True
+734449,2021-09-04T12:00:00+00:00,FT,Bayern - 12,Aubstadt,9323,Augsburg II,9324,1,1,True
+734451,2021-09-04T12:00:00+00:00,FT,Bayern - 12,Bayreuth,9325,Pipinsried,12832,1,2,True
+734447,2021-09-04T12:00:00+00:00,FT,Bayern - 12,Wacker Burghausen,9337,Nürnberg II,9332,3,2,True
+734452,2021-09-04T15:00:00+00:00,FT,Bayern - 12,Buchbach,9326,Eichstätt,4262,1,3,True
+734462,2021-09-10T15:15:00+00:00,FT,Bayern - 13,Pipinsried,12832,FC Schweinfurt 05,1635,2,2,True
+734456,2021-09-10T17:00:00+00:00,FT,Bayern - 13,Bayern München II,4674,Viktoria Aschaffenburg,9336,2,2,True
+734454,2021-09-10T17:00:00+00:00,FT,Bayern - 13,Heimstetten,9329,Aubstadt,9323,1,4,True
+734458,2021-09-10T17:00:00+00:00,FT,Bayern - 13,Illertissen,9330,Nürnberg II,9332,2,4,True
+734459,2021-09-10T17:30:00+00:00,FT,Bayern - 13,Memmingen,9331,Buchbach,9326,0,1,True
+734455,2021-09-11T12:00:00+00:00,FT,Bayern - 13,SpVgg Unterhaching,1314,1860 Rosenheim,9322,5,4,True
+734463,2021-09-11T12:00:00+00:00,FT,Bayern - 13,Eichstätt,4262,Rain / Lech,9333,0,1,True
+734461,2021-09-11T12:00:00+00:00,FT,Bayern - 13,Schalding-Heining,9334,Bayreuth,9325,0,1,True
+734453,2021-09-14T15:30:00+00:00,FT,Bayern - 12,Rain / Lech,9333,Eltersdorf,12762,0,2,True
+734460,2021-09-14T17:00:00+00:00,FT,Bayern - 13,Augsburg II,9324,Wacker Burghausen,9337,3,1,True
+734465,2021-09-17T17:00:00+00:00,FT,Bayern - 14,Buchbach,9326,Bayern München II,4674,2,2,True
+734464,2021-09-17T17:00:00+00:00,FT,Bayern - 14,Wacker Burghausen,9337,Heimstetten,9329,0,3,True
+734468,2021-09-18T12:00:00+00:00,FT,Bayern - 14,FC Schweinfurt 05,1635,Schalding-Heining,9334,6,0,True
+734471,2021-09-18T12:00:00+00:00,FT,Bayern - 14,Aubstadt,9323,Eltersdorf,12762,2,1,True
+734472,2021-09-18T12:00:00+00:00,FT,Bayern - 14,Greuther Fürth II,9328,Eichstätt,4262,3,0,True
+734470,2021-09-18T12:00:00+00:00,FT,Bayern - 14,Nürnberg II,9332,Augsburg II,9324,0,3,True
+734473,2021-09-18T12:00:00+00:00,FT,Bayern - 14,Rain / Lech,9333,Memmingen,9331,0,2,True
+734478,2021-09-24T17:00:00+00:00,FT,Bayern - 15,1860 Rosenheim,9322,Bayreuth,9325,1,5,True
+734477,2021-09-24T17:00:00+00:00,FT,Bayern - 15,Illertissen,9330,Augsburg II,9324,4,0,True
+734476,2021-09-24T17:00:00+00:00,FT,Bayern - 15,Eltersdorf,12762,Wacker Burghausen,9337,1,5,True
+734479,2021-09-24T17:30:00+00:00,FT,Bayern - 15,Memmingen,9331,Greuther Fürth II,9328,3,3,True
+734483,2021-09-25T12:00:00+00:00,FT,Bayern - 15,Eichstätt,4262,Aubstadt,9323,2,1,True
+734475,2021-09-25T12:00:00+00:00,FT,Bayern - 15,Bayern München II,4674,Rain / Lech,9333,3,1,True
+734480,2021-09-25T12:00:00+00:00,FT,Bayern - 15,Heimstetten,9329,Nürnberg II,9332,0,0,True
+734481,2021-09-25T12:00:00+00:00,FT,Bayern - 15,Schalding-Heining,9334,Viktoria Aschaffenburg,9336,2,0,True
+734482,2021-09-25T12:00:00+00:00,FT,Bayern - 15,Pipinsried,12832,Buchbach,9326,0,5,True
+734448,2021-09-28T17:00:00+00:00,FT,Bayern - 12,FC Schweinfurt 05,1635,Bayern München II,4674,3,6,True
+734579,2021-09-28T17:00:00+00:00,FT,Bayern - 6,Augsburg II,9324,Bayreuth,9325,2,6,True
+734642,2021-09-29T16:30:00+00:00,FT,Bayern - 12,Heimstetten,9329,Greuther Fürth II,9328,2,0,True
+734484,2021-10-01T17:00:00+00:00,FT,Bayern - 16,Buchbach,9326,Schalding-Heining,9334,2,0,True
+734489,2021-10-02T11:00:00+00:00,FT,Bayern - 16,Augsburg II,9324,Heimstetten,9329,2,2,True
+734487,2021-10-02T12:00:00+00:00,FT,Bayern - 16,FC Schweinfurt 05,1635,1860 Rosenheim,9322,8,0,True
+734491,2021-10-02T12:00:00+00:00,FT,Bayern - 16,Aubstadt,9323,Memmingen,9331,3,1,True
+734488,2021-10-02T12:00:00+00:00,FT,Bayern - 16,Bayreuth,9325,Illertissen,9330,4,2,True
+734492,2021-10-02T12:00:00+00:00,FT,Bayern - 16,Greuther Fürth II,9328,Bayern München II,4674,0,3,True
+734490,2021-10-02T12:00:00+00:00,FT,Bayern - 16,Nürnberg II,9332,Eltersdorf,12762,1,3,True
+734493,2021-10-02T12:00:00+00:00,FT,Bayern - 16,Rain / Lech,9333,Pipinsried,12832,4,3,True
+734486,2021-10-02T15:00:00+00:00,FT,Bayern - 16,Wacker Burghausen,9337,Eichstätt,4262,3,0,True
+734466,2021-10-05T17:00:00+00:00,FT,Bayern - 14,Viktoria Aschaffenburg,9336,Pipinsried,12832,2,1,True
+734497,2021-10-08T17:00:00+00:00,FT,Bayern - 17,Illertissen,9330,Heimstetten,9329,4,1,True
+734496,2021-10-08T17:00:00+00:00,FT,Bayern - 17,Eltersdorf,12762,Augsburg II,9324,2,1,True
+734498,2021-10-08T17:30:00+00:00,FT,Bayern - 17,Memmingen,9331,Wacker Burghausen,9337,0,3,True
+734503,2021-10-09T12:00:00+00:00,FT,Bayern - 17,Eichstätt,4262,Nürnberg II,9332,0,3,True
+734500,2021-10-09T12:00:00+00:00,FT,Bayern - 17,1860 Rosenheim,9322,Viktoria Aschaffenburg,9336,0,2,True
+734499,2021-10-09T12:00:00+00:00,FT,Bayern - 17,Bayreuth,9325,FC Schweinfurt 05,1635,0,3,True
+734501,2021-10-09T12:00:00+00:00,FT,Bayern - 17,Schalding-Heining,9334,Rain / Lech,9333,0,1,True
+734502,2021-10-09T12:00:00+00:00,FT,Bayern - 17,Pipinsried,12832,Greuther Fürth II,9328,0,2,True
+734494,2021-10-12T17:00:00+00:00,FT,Bayern - 17,SpVgg Unterhaching,1314,Buchbach,9326,2,2,True
+734440,2021-10-12T17:00:00+00:00,FT,Bayern - 11,Augsburg II,9324,Greuther Fürth II,9328,2,2,True
+734467,2021-10-13T17:00:00+00:00,FT,Bayern - 14,1860 Rosenheim,9322,Illertissen,9330,0,3,True
+734505,2021-10-15T17:00:00+00:00,FT,Bayern - 18,Viktoria Aschaffenburg,9336,Bayreuth,9325,0,1,True
+734510,2021-10-15T17:00:00+00:00,FT,Bayern - 18,Wacker Burghausen,9337,Bayern München II,4674,2,2,True
+734511,2021-10-16T12:00:00+00:00,FT,Bayern - 18,Aubstadt,9323,Pipinsried,12832,4,1,True
+734508,2021-10-16T12:00:00+00:00,FT,Bayern - 18,Augsburg II,9324,Eichstätt,4262,2,0,True
+734512,2021-10-16T12:00:00+00:00,FT,Bayern - 18,Greuther Fürth II,9328,Schalding-Heining,9334,2,2,True
+734506,2021-10-16T12:00:00+00:00,FT,Bayern - 18,Illertissen,9330,FC Schweinfurt 05,1635,1,1,True
+734509,2021-10-16T12:00:00+00:00,FT,Bayern - 18,Nürnberg II,9332,Memmingen,9331,1,1,True
+734513,2021-10-16T12:00:00+00:00,FT,Bayern - 18,Rain / Lech,9333,SpVgg Unterhaching,1314,2,1,True
+734504,2021-10-17T10:15:00+00:00,FT,Bayern - 18,Buchbach,9326,1860 Rosenheim,9322,1,0,True
+734441,2021-10-19T17:00:00+00:00,FT,Bayern - 11,Bayern München II,4674,Bayreuth,9325,1,1,True
+734485,2021-10-19T17:00:00+00:00,FT,Bayern - 16,Viktoria Aschaffenburg,9336,SpVgg Unterhaching,1314,1,1,True
+734514,2021-10-22T17:00:00+00:00,FT,Bayern - 19,SpVgg Unterhaching,1314,Greuther Fürth II,9328,5,2,True
+734515,2021-10-22T17:00:00+00:00,FT,Bayern - 19,Bayern München II,4674,Nürnberg II,9332,3,0,True
+734516,2021-10-22T17:00:00+00:00,FT,Bayern - 19,Eltersdorf,12762,Illertissen,9330,0,2,True
+734517,2021-10-22T17:30:00+00:00,FT,Bayern - 19,Memmingen,9331,Augsburg II,9324,0,6,True
+734518,2021-10-23T12:00:00+00:00,FT,Bayern - 19,FC Schweinfurt 05,1635,Viktoria Aschaffenburg,9336,2,1,True
+734523,2021-10-23T12:00:00+00:00,FT,Bayern - 19,Eichstätt,4262,Heimstetten,9329,3,0,True
+734520,2021-10-23T12:00:00+00:00,FT,Bayern - 19,1860 Rosenheim,9322,Rain / Lech,9333,1,0,True
+734519,2021-10-23T12:00:00+00:00,FT,Bayern - 19,Bayreuth,9325,Buchbach,9326,1,1,True
+734521,2021-10-23T12:00:00+00:00,FT,Bayern - 19,Schalding-Heining,9334,Aubstadt,9323,0,3,True
+734522,2021-10-23T12:00:00+00:00,FT,Bayern - 19,Pipinsried,12832,Wacker Burghausen,9337,1,0,True
+734525,2021-10-29T17:00:00+00:00,FT,Bayern - 20,SpVgg Unterhaching,1314,Aubstadt,9323,1,0,True
+734524,2021-10-29T17:00:00+00:00,FT,Bayern - 20,Bayern München II,4674,Augsburg II,9324,3,2,True
+734530,2021-10-30T12:00:00+00:00,FT,Bayern - 20,1860 Rosenheim,9322,Greuther Fürth II,9328,1,0,True
+734531,2021-10-30T12:00:00+00:00,FT,Bayern - 20,Bayreuth,9325,Rain / Lech,9333,1,0,True
+734529,2021-10-30T12:00:00+00:00,FT,Bayern - 20,Schalding-Heining,9334,Wacker Burghausen,9337,1,0,True
+734527,2021-10-30T12:00:00+00:00,FT,Bayern - 20,Viktoria Aschaffenburg,9336,Illertissen,9330,0,1,True
+734528,2021-10-30T12:00:00+00:00,FT,Bayern - 20,Pipinsried,12832,Nürnberg II,9332,0,1,True
+734495,2021-11-03T18:00:00+00:00,FT,Bayern - 17,Bayern München II,4674,Aubstadt,9323,3,3,True
+734535,2021-11-05T18:00:00+00:00,FT,Bayern - 21,Wacker Burghausen,9337,SpVgg Unterhaching,1314,1,4,True
+734538,2021-11-06T13:00:00+00:00,FT,Bayern - 21,Aubstadt,9323,1860 Rosenheim,9322,2,0,True
+734540,2021-11-06T13:00:00+00:00,FT,Bayern - 21,Augsburg II,9324,Pipinsried,12832,2,0,True
+734537,2021-11-06T13:00:00+00:00,FT,Bayern - 21,Bayreuth,9325,Greuther Fürth II,9328,4,0,True
+734543,2021-11-06T13:00:00+00:00,FT,Bayern - 21,Buchbach,9326,Viktoria Aschaffenburg,9336,1,0,True
+734542,2021-11-06T13:00:00+00:00,FT,Bayern - 21,Illertissen,9330,Eichstätt,4262,3,1,True
+734539,2021-11-06T13:00:00+00:00,FT,Bayern - 21,Nürnberg II,9332,Schalding-Heining,9334,2,1,True
+734541,2021-11-07T12:00:00+00:00,FT,Bayern - 21,Heimstetten,9329,Bayern München II,4674,1,2,True
+734532,2021-11-10T18:00:00+00:00,FT,Bayern - 20,FC Schweinfurt 05,1635,Buchbach,9326,3,0,True
+734544,2021-11-12T18:00:00+00:00,FT,Bayern - 22,SpVgg Unterhaching,1314,Nürnberg II,9332,1,1,True
+734551,2021-11-13T13:00:00+00:00,FT,Bayern - 22,Bayreuth,9325,Aubstadt,9323,2,0,True
+734547,2021-11-13T13:00:00+00:00,FT,Bayern - 22,Buchbach,9326,Illertissen,9330,0,1,True
+734546,2021-11-13T13:00:00+00:00,FT,Bayern - 22,Memmingen,9331,Eichstätt,4262,2,2,True
+734549,2021-11-13T13:00:00+00:00,FT,Bayern - 22,Schalding-Heining,9334,Augsburg II,9324,0,1,True
+734553,2021-11-13T13:00:00+00:00,FT,Bayern - 22,Viktoria Aschaffenburg,9336,Rain / Lech,9333,3,0,True
+734548,2021-11-13T13:00:00+00:00,FT,Bayern - 22,Pipinsried,12832,Heimstetten,9329,3,2,True
+734694,2021-11-16T18:30:00+00:00,FT,Bayern - 18,Eltersdorf,12762,Heimstetten,9329,2,0,True
+734556,2021-11-19T18:00:00+00:00,FT,Bayern - 23,Wacker Burghausen,9337,Bayreuth,9325,0,1,True
+734554,2021-11-19T18:00:00+00:00,FT,Bayern - 23,Eltersdorf,12762,Pipinsried,12832,1,2,True
+734560,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Eichstätt,4262,Bayern München II,4674,3,1,True
+734555,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Aubstadt,9323,FC Schweinfurt 05,1635,2,2,True
+734558,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Augsburg II,9324,SpVgg Unterhaching,1314,1,1,True
+734563,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Greuther Fürth II,9328,Viktoria Aschaffenburg,9336,0,5,True
+734559,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Heimstetten,9329,Schalding-Heining,9334,1,4,True
+734561,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Illertissen,9330,Memmingen,9331,1,1,True
+734557,2021-11-20T13:00:00+00:00,FT,Bayern - 23,Nürnberg II,9332,1860 Rosenheim,9322,1,1,True
+734552,2021-11-23T18:00:00+00:00,FT,Bayern - 22,FC Schweinfurt 05,1635,Greuther Fürth II,9328,3,1,True
+734630,2021-11-23T18:00:00+00:00,FT,Bayern - 11,1860 Rosenheim,9322,Pipinsried,12832,0,0,True
+734526,2021-11-23T18:30:00+00:00,FT,Bayern - 20,Memmingen,9331,Heimstetten,9329,2,1,True
+734564,2021-11-26T18:00:00+00:00,FT,Bayern - 24,SpVgg Unterhaching,1314,Heimstetten,9329,4,3,True
+734565,2021-11-26T18:00:00+00:00,FT,Bayern - 24,Bayern München II,4674,Memmingen,9331,1,1,True
+734569,2021-11-27T13:00:00+00:00,FT,Bayern - 24,FC Schweinfurt 05,1635,Wacker Burghausen,9337,2,2,True
+734568,2021-11-27T13:00:00+00:00,FT,Bayern - 24,Bayreuth,9325,Nürnberg II,9332,5,2,True
+734570,2021-11-27T13:00:00+00:00,FT,Bayern - 24,Viktoria Aschaffenburg,9336,Aubstadt,9323,0,2,True
+734572,2021-11-27T13:00:00+00:00,FT,Bayern - 24,Pipinsried,12832,Eichstätt,4262,0,2,True
+734534,2021-11-30T18:00:00+00:00,FT,Bayern - 21,Eltersdorf,12762,Memmingen,9331,1,3,True
+734574,2021-12-03T18:00:00+00:00,FT,Bayern - 25,Bayern München II,4674,Illertissen,9330,2,0,True
+734469,2022-02-19T13:00:00+00:00,FT,Bayern - 14,Bayreuth,9325,SpVgg Unterhaching,1314,2,1,True
+734582,2022-02-19T13:00:00+00:00,FT,Bayern - 25,Greuther Fürth II,9328,Rain / Lech,9333,0,1,True
+734576,2022-02-19T13:00:00+00:00,FT,Bayern - 25,Wacker Burghausen,9337,Viktoria Aschaffenburg,9336,4,1,True
+734578,2022-02-20T13:00:00+00:00,FT,Bayern - 25,Nürnberg II,9332,FC Schweinfurt 05,1635,2,0,True
+734584,2022-02-25T18:00:00+00:00,FT,Bayern - 26,SpVgg Unterhaching,1314,Eichstätt,4262,1,4,True
+734587,2022-02-26T13:00:00+00:00,FT,Bayern - 26,FC Schweinfurt 05,1635,Augsburg II,9324,6,0,True
+734593,2022-02-26T13:00:00+00:00,FT,Bayern - 26,1860 Rosenheim,9322,Eltersdorf,12762,3,4,True
+734586,2022-02-26T13:00:00+00:00,FT,Bayern - 26,Bayreuth,9325,Heimstetten,9329,3,0,True
+734585,2022-02-26T13:00:00+00:00,FT,Bayern - 26,Greuther Fürth II,9328,Illertissen,9330,0,2,True
+734590,2022-02-26T13:00:00+00:00,FT,Bayern - 26,Rain / Lech,9333,Aubstadt,9323,1,0,True
+734589,2022-02-27T13:00:00+00:00,FT,Bayern - 26,Buchbach,9326,Wacker Burghausen,9337,1,3,True
+734567,2022-03-01T17:00:00+00:00,FT,Bayern - 24,1860 Rosenheim,9322,Augsburg II,9324,1,1,True
+734457,2022-03-01T18:00:00+00:00,FT,Bayern - 13,Eltersdorf,12762,Greuther Fürth II,9328,0,3,True
+734594,2022-03-04T18:00:00+00:00,FT,Bayern - 27,Eltersdorf,12762,Bayreuth,9325,0,3,True
+734595,2022-03-05T12:00:00+00:00,FT,Bayern - 27,Bayern München II,4674,Schalding-Heining,9334,1,0,True
+734598,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Eichstätt,4262,1860 Rosenheim,9322,2,0,True
+734600,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Aubstadt,9323,Greuther Fürth II,9328,0,0,True
+734603,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Augsburg II,9324,Viktoria Aschaffenburg,9336,0,2,True
+734597,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Heimstetten,9329,FC Schweinfurt 05,1635,2,2,True
+734599,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Illertissen,9330,Pipinsried,12832,1,0,True
+734596,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Memmingen,9331,SpVgg Unterhaching,1314,0,2,True
+734601,2022-03-05T13:00:00+00:00,FT,Bayern - 27,Wacker Burghausen,9337,Rain / Lech,9333,3,2,True
+734602,2022-03-06T13:30:00+00:00,FT,Bayern - 27,Nürnberg II,9332,Buchbach,9326,1,0,True
+734550,2022-03-08T18:00:00+00:00,FT,Bayern - 22,1860 Rosenheim,9322,Wacker Burghausen,9337,1,1,True
+734575,2022-03-08T18:00:00+00:00,FT,Bayern - 25,Eltersdorf,12762,SpVgg Unterhaching,1314,1,5,True
+734577,2022-03-08T18:30:00+00:00,FT,Bayern - 25,Memmingen,9331,Pipinsried,12832,1,3,True
+734571,2022-03-09T18:00:00+00:00,FT,Bayern - 24,Buchbach,9326,Greuther Fürth II,9328,0,2,True
+734604,2022-03-11T18:00:00+00:00,FT,Bayern - 28,SpVgg Unterhaching,1314,Bayern München II,4674,0,3,True
+734606,2022-03-11T18:00:00+00:00,FT,Bayern - 28,Viktoria Aschaffenburg,9336,Heimstetten,9329,0,2,True
+734611,2022-03-12T12:00:00+00:00,FT,Bayern - 28,1860 Rosenheim,9322,Memmingen,9331,1,1,True
+734613,2022-03-12T13:00:00+00:00,FT,Bayern - 28,FC Schweinfurt 05,1635,Eltersdorf,12762,4,2,True
+734605,2022-03-12T13:00:00+00:00,FT,Bayern - 28,Aubstadt,9323,Illertissen,9330,1,1,True
+734612,2022-03-12T13:00:00+00:00,FT,Bayern - 28,Bayreuth,9325,Eichstätt,4262,4,1,True
+734610,2022-03-12T13:00:00+00:00,FT,Bayern - 28,Schalding-Heining,9334,Pipinsried,12832,0,1,True
+734474,2022-03-15T18:00:00+00:00,FT,Bayern - 15,SpVgg Unterhaching,1314,FC Schweinfurt 05,1635,1,1,True
+734545,2022-03-15T18:00:00+00:00,FT,Bayern - 22,Bayern München II,4674,Eltersdorf,12762,5,1,True
+734588,2022-03-15T18:00:00+00:00,FT,Bayern - 26,Viktoria Aschaffenburg,9336,Nürnberg II,9332,2,2,True
+734615,2022-03-18T18:00:00+00:00,FT,Bayern - 29,Eltersdorf,12762,Viktoria Aschaffenburg,9336,0,1,True
+734616,2022-03-18T18:30:00+00:00,FT,Bayern - 29,Memmingen,9331,Bayreuth,9325,0,3,True
+734617,2022-03-19T13:00:00+00:00,FT,Bayern - 29,Eichstätt,4262,FC Schweinfurt 05,1635,0,0,True
+734622,2022-03-19T13:00:00+00:00,FT,Bayern - 29,Augsburg II,9324,Rain / Lech,9333,0,2,True
+734623,2022-03-19T13:00:00+00:00,FT,Bayern - 29,Heimstetten,9329,Buchbach,9326,2,0,True
+734621,2022-03-19T13:00:00+00:00,FT,Bayern - 29,Nürnberg II,9332,Greuther Fürth II,9328,1,0,True
+734620,2022-03-19T13:00:00+00:00,FT,Bayern - 29,Wacker Burghausen,9337,Aubstadt,9323,0,3,True
+734618,2022-03-19T13:00:00+00:00,FT,Bayern - 29,Pipinsried,12832,SpVgg Unterhaching,1314,1,2,True
+734609,2022-03-22T18:00:00+00:00,FT,Bayern - 28,Greuther Fürth II,9328,Wacker Burghausen,9337,1,1,True
+734624,2022-03-25T18:00:00+00:00,FT,Bayern - 30,SpVgg Unterhaching,1314,Schalding-Heining,9334,4,0,True
+734633,2022-03-25T18:00:00+00:00,FT,Bayern - 30,Buchbach,9326,Eltersdorf,12762,1,1,True
+734625,2022-03-25T18:00:00+00:00,FT,Bayern - 30,Viktoria Aschaffenburg,9336,Eichstätt,4262,0,0,True
+734632,2022-03-26T13:00:00+00:00,FT,Bayern - 30,FC Schweinfurt 05,1635,Memmingen,9331,1,0,True
+734627,2022-03-26T13:00:00+00:00,FT,Bayern - 30,Rain / Lech,9333,Heimstetten,9329,4,2,True
+734581,2022-03-29T15:45:00+00:00,FT,Bayern - 25,Eichstätt,4262,Schalding-Heining,9334,1,0,True
+734388,2022-03-29T15:45:00+00:00,FT,Bayern - 25,Bayreuth,9325,Augsburg II,9324,4,0,True
+734640,2022-04-02T12:00:00+00:00,FT,Bayern - 31,Nürnberg II,9332,Wacker Burghausen,9337,2,2,True
+734634,2022-04-04T17:00:00+00:00,FT,Bayern - 31,Bayern München II,4674,FC Schweinfurt 05,1635,5,1,True
+734629,2022-04-05T15:45:00+00:00,FT,Bayern - 30,Aubstadt,9323,Nürnberg II,9332,0,1,True
+734566,2022-04-05T15:45:00+00:00,FT,Bayern - 24,Rain / Lech,9333,Illertissen,9330,1,2,True
+734573,2022-04-05T15:45:00+00:00,FT,Bayern - 24,Schalding-Heining,9334,Eltersdorf,12762,2,2,True
+734637,2022-04-05T17:30:00+00:00,FT,Bayern - 31,Memmingen,9331,Viktoria Aschaffenburg,9336,0,0,True
+734436,2022-04-06T15:45:00+00:00,FT,Bayern - 30,Pipinsried,12832,1860 Rosenheim,9322,2,2,True
+734651,2022-04-08T17:00:00+00:00,FT,Bayern - 32,Buchbach,9326,Memmingen,9331,1,1,True
+734644,2022-04-08T17:00:00+00:00,FT,Bayern - 32,Viktoria Aschaffenburg,9336,Bayern München II,4674,1,2,True
+734647,2022-04-08T17:00:00+00:00,FT,Bayern - 32,Wacker Burghausen,9337,Augsburg II,9324,4,1,True
+734650,2022-04-09T12:00:00+00:00,FT,Bayern - 32,FC Schweinfurt 05,1635,Pipinsried,12832,3,0,True
+734648,2022-04-09T12:00:00+00:00,FT,Bayern - 32,1860 Rosenheim,9322,SpVgg Unterhaching,1314,1,3,True
+734646,2022-04-09T12:00:00+00:00,FT,Bayern - 32,Aubstadt,9323,Heimstetten,9329,1,0,True
+734649,2022-04-09T12:00:00+00:00,FT,Bayern - 32,Bayreuth,9325,Schalding-Heining,9334,6,0,True
+734653,2022-04-09T12:00:00+00:00,FT,Bayern - 32,Greuther Fürth II,9328,Eltersdorf,12762,2,1,True
+734652,2022-04-09T12:00:00+00:00,FT,Bayern - 32,Rain / Lech,9333,Eichstätt,4262,1,1,True
+734645,2022-04-10T12:00:00+00:00,FT,Bayern - 32,Nürnberg II,9332,Illertissen,9330,3,1,True
+734660,2022-04-13T16:00:00+00:00,FT,Bayern - 33,Eichstätt,4262,Greuther Fürth II,9328,0,0,True
+734562,2022-04-13T16:00:00+00:00,FT,Bayern - 23,Rain / Lech,9333,Buchbach,9326,0,0,True
+734592,2022-04-13T16:00:00+00:00,FT,Bayern - 26,Schalding-Heining,9334,Memmingen,9331,3,0,True
+734591,2022-04-13T16:00:00+00:00,FT,Bayern - 26,Pipinsried,12832,Bayern München II,4674,1,5,True
+734580,2022-04-13T17:00:00+00:00,FT,Bayern - 25,Heimstetten,9329,1860 Rosenheim,9322,4,3,True
+734654,2022-04-13T17:00:00+00:00,FT,Bayern - 33,Eltersdorf,12762,Aubstadt,9323,1,0,True
+734656,2022-04-14T17:00:00+00:00,FT,Bayern - 33,SpVgg Unterhaching,1314,Bayreuth,9325,2,2,True
+734658,2022-04-14T17:00:00+00:00,FT,Bayern - 33,Augsburg II,9324,Nürnberg II,9332,4,2,True
+734626,2022-04-14T17:00:00+00:00,FT,Bayern - 30,Wacker Burghausen,9337,Illertissen,9330,3,0,True
+734533,2022-04-16T12:00:00+00:00,FT,Bayern - 20,Eichstätt,4262,Eltersdorf,12762,0,3,True
+734583,2022-04-16T12:00:00+00:00,FT,Bayern - 25,Aubstadt,9323,Buchbach,9326,4,1,True
+734657,2022-04-16T12:00:00+00:00,FT,Bayern - 33,Illertissen,9330,1860 Rosenheim,9322,4,0,True
+734661,2022-04-16T12:00:00+00:00,FT,Bayern - 33,Memmingen,9331,Rain / Lech,9333,0,0,True
+734655,2022-04-16T12:00:00+00:00,FT,Bayern - 33,Schalding-Heining,9334,FC Schweinfurt 05,1635,0,2,True
+734663,2022-04-16T12:00:00+00:00,FT,Bayern - 33,Pipinsried,12832,Viktoria Aschaffenburg,9336,3,3,True
+734631,2022-04-18T12:00:00+00:00,FT,Bayern - 30,Bayreuth,9325,Bayern München II,4674,4,0,True
+734659,2022-04-18T12:00:00+00:00,FT,Bayern - 33,Heimstetten,9329,Wacker Burghausen,9337,1,0,True
+734643,2022-04-20T16:00:00+00:00,FT,Bayern - 31,Eichstätt,4262,Buchbach,9326,1,1,True
+734639,2022-04-20T16:15:00+00:00,FT,Bayern - 31,Schalding-Heining,9334,1860 Rosenheim,9322,1,1,True
+734641,2022-04-20T17:00:00+00:00,FT,Bayern - 31,Augsburg II,9324,Aubstadt,9323,2,2,True
+734636,2022-04-20T17:00:00+00:00,FT,Bayern - 31,Illertissen,9330,SpVgg Unterhaching,1314,0,2,True
+734635,2022-04-20T17:00:00+00:00,FT,Bayern - 31,Eltersdorf,12762,Rain / Lech,9333,0,1,True
+734669,2022-04-23T12:00:00+00:00,FT,Bayern - 34,FC Schweinfurt 05,1635,SpVgg Unterhaching,1314,0,2,True
+734673,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Aubstadt,9323,Eichstätt,4262,4,0,True
+734666,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Augsburg II,9324,Illertissen,9330,4,0,True
+734668,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Bayreuth,9325,1860 Rosenheim,9322,0,4,True
+734672,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Greuther Fürth II,9328,Memmingen,9331,0,1,True
+734671,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Rain / Lech,9333,Bayern München II,4674,2,4,True
+734664,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Viktoria Aschaffenburg,9336,Schalding-Heining,9334,4,0,True
+734665,2022-04-23T12:00:00+00:00,FT,Bayern - 34,Wacker Burghausen,9337,Eltersdorf,12762,3,0,True
+734667,2022-04-23T12:30:00+00:00,FT,Bayern - 34,Nürnberg II,9332,Heimstetten,9329,0,0,True
+734670,2022-04-23T15:00:00+00:00,FT,Bayern - 34,Buchbach,9326,Pipinsried,12832,0,2,True
+734628,2022-04-26T16:00:00+00:00,FT,Bayern - 30,Greuther Fürth II,9328,Augsburg II,9324,3,2,True
+734536,2022-04-26T16:30:00+00:00,FT,Bayern - 21,Rain / Lech,9333,FC Schweinfurt 05,1635,2,1,True
+734619,2022-04-26T17:00:00+00:00,FT,Bayern - 29,Illertissen,9330,Schalding-Heining,9334,0,0,True
+734662,2022-04-27T17:00:00+00:00,FT,Bayern - 33,Bayern München II,4674,Buchbach,9326,1,0,True
+734676,2022-04-29T17:00:00+00:00,FT,Bayern - 35,SpVgg Unterhaching,1314,Viktoria Aschaffenburg,9336,1,1,True
+734677,2022-04-29T17:00:00+00:00,FT,Bayern - 35,Illertissen,9330,Bayreuth,9325,0,1,True
+734674,2022-04-29T17:00:00+00:00,FT,Bayern - 35,Eltersdorf,12762,Nürnberg II,9332,3,3,True
+734678,2022-04-29T17:30:00+00:00,FT,Bayern - 35,Memmingen,9331,Aubstadt,9323,2,3,True
+734681,2022-04-30T12:00:00+00:00,FT,Bayern - 35,Eichstätt,4262,Wacker Burghausen,9337,2,2,True
+734679,2022-04-30T12:00:00+00:00,FT,Bayern - 35,1860 Rosenheim,9322,FC Schweinfurt 05,1635,2,2,True
+734680,2022-04-30T12:00:00+00:00,FT,Bayern - 35,Heimstetten,9329,Augsburg II,9324,4,3,True
+734683,2022-04-30T12:00:00+00:00,FT,Bayern - 35,Schalding-Heining,9334,Buchbach,9326,1,3,True
+734682,2022-04-30T14:00:00+00:00,FT,Bayern - 35,Pipinsried,12832,Rain / Lech,9333,1,0,True
+734675,2022-05-01T12:00:00+00:00,FT,Bayern - 35,Bayern München II,4674,Greuther Fürth II,9328,2,1,True
+734638,2022-05-03T16:00:00+00:00,FT,Bayern - 31,Pipinsried,12832,Bayreuth,9325,1,2,True
+734608,2022-05-03T16:30:00+00:00,FT,Bayern - 28,Rain / Lech,9333,Nürnberg II,9332,1,1,True
+734607,2022-05-03T17:00:00+00:00,FT,Bayern - 28,Buchbach,9326,Augsburg II,9324,0,1,True
+734713,2022-05-03T17:00:00+00:00,FT,Bayern - 38,Illertissen,9330,Eltersdorf,12762,1,2,True
+734450,2022-05-04T16:30:00+00:00,FT,Bayern - 31,Greuther Fürth II,9328,Heimstetten,9329,0,2,True
+734614,2022-05-04T17:00:00+00:00,FT,Bayern - 29,Bayern München II,4674,1860 Rosenheim,9322,8,1,True
+734684,2022-05-06T17:00:00+00:00,FT,Bayern - 36,Viktoria Aschaffenburg,9336,1860 Rosenheim,9322,3,1,True
+734685,2022-05-06T17:00:00+00:00,FT,Bayern - 36,Wacker Burghausen,9337,Memmingen,9331,3,0,True
+734687,2022-05-07T12:00:00+00:00,FT,Bayern - 36,FC Schweinfurt 05,1635,Bayreuth,9325,1,5,True
+734691,2022-05-07T12:00:00+00:00,FT,Bayern - 36,Aubstadt,9323,Bayern München II,4674,0,1,True
+734693,2022-05-07T12:00:00+00:00,FT,Bayern - 36,Augsburg II,9324,Eltersdorf,12762,5,1,True
+734690,2022-05-07T12:00:00+00:00,FT,Bayern - 36,Greuther Fürth II,9328,Pipinsried,12832,3,0,True
+734686,2022-05-07T12:00:00+00:00,FT,Bayern - 36,Heimstetten,9329,Illertissen,9330,1,0,True
+734692,2022-05-07T12:00:00+00:00,FT,Bayern - 36,Nürnberg II,9332,Eichstätt,4262,1,1,True
+734689,2022-05-07T12:00:00+00:00,FT,Bayern - 36,Rain / Lech,9333,Schalding-Heining,9334,3,0,True
+734688,2022-05-07T15:00:00+00:00,FT,Bayern - 36,Buchbach,9326,SpVgg Unterhaching,1314,1,1,True
+734707,2022-05-10T16:15:00+00:00,FT,Bayern - 38,Greuther Fürth II,9328,SpVgg Unterhaching,1314,2,0,True
+734700,2022-05-10T16:30:00+00:00,FT,Bayern - 37,Pipinsried,12832,Aubstadt,9323,3,2,True
+734695,2022-05-13T17:00:00+00:00,FT,Bayern - 37,Bayern München II,4674,Wacker Burghausen,9337,0,4,True
+734702,2022-05-13T17:00:00+00:00,FT,Bayern - 37,1860 Rosenheim,9322,Buchbach,9326,2,1,True
+734696,2022-05-14T12:00:00+00:00,FT,Bayern - 37,SpVgg Unterhaching,1314,Rain / Lech,9333,2,0,True
+734698,2022-05-14T12:00:00+00:00,FT,Bayern - 37,FC Schweinfurt 05,1635,Illertissen,9330,1,2,True
+734699,2022-05-14T12:00:00+00:00,FT,Bayern - 37,Eichstätt,4262,Augsburg II,9324,1,0,True
+734708,2022-05-14T12:00:00+00:00,FT,Bayern - 38,Aubstadt,9323,Schalding-Heining,9334,9,1,True
+734703,2022-05-14T12:00:00+00:00,FT,Bayern - 37,Bayreuth,9325,Viktoria Aschaffenburg,9336,2,1,True
+734507,2022-05-14T12:00:00+00:00,FT,Bayern - 37,Heimstetten,9329,Eltersdorf,12762,1,2,True
+734697,2022-05-14T12:00:00+00:00,FT,Bayern - 37,Memmingen,9331,Nürnberg II,9332,1,0,True
+734704,2022-05-17T17:00:00+00:00,FT,Bayern - 38,Viktoria Aschaffenburg,9336,FC Schweinfurt 05,1635,3,2,True
+734710,2022-05-20T17:00:00+00:00,FT,Bayern - 38,Nürnberg II,9332,Bayern München II,4674,3,3,True
+734711,2022-05-21T12:00:00+00:00,FT,Bayern - 38,Augsburg II,9324,Memmingen,9331,3,1,True
+734705,2022-05-21T12:00:00+00:00,FT,Bayern - 38,Buchbach,9326,Bayreuth,9325,5,2,True
+734712,2022-05-21T12:00:00+00:00,FT,Bayern - 38,Heimstetten,9329,Eichstätt,4262,2,1,True
+734706,2022-05-21T12:00:00+00:00,FT,Bayern - 38,Rain / Lech,9333,1860 Rosenheim,9322,5,0,True
+734701,2022-05-21T12:00:00+00:00,FT,Bayern - 37,Schalding-Heining,9334,Greuther Fürth II,9328,0,5,True
+734709,2022-05-21T12:00:00+00:00,FT,Bayern - 38,Wacker Burghausen,9337,Pipinsried,12832,2,3,True

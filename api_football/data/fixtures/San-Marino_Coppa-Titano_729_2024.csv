@@ -1,6 +1,28 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1338997,2025-03-05T19:45:00+00:00,FT,La Fiorita,2249,Virtus,5308,0,0,True
-1338999,2025-03-05T19:45:00+00:00,FT,Tre Fiori,2260,Tre Penne,700,0,1,True
-1339000,2025-04-02T18:45:00+00:00,FT,Tre Penne,700,Tre Fiori,2260,1,0,True
-1338998,2025-04-02T18:45:00+00:00,AET,Virtus,5308,La Fiorita,2249,1,0,False
-1367766,2025-05-24T18:45:00+00:00,FT,Virtus,5308,Tre Fiori,2260,1,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1296039,2024-09-24T18:45:00+00:00,FT,Round of 16,Folgore,672,Murata,5305,1,0,True
+1296035,2024-09-24T18:45:00+00:00,FT,Round of 16,Tre Fiori,2260,Libertas,5303,2,0,True
+1296037,2024-09-24T18:45:00+00:00,FT,Round of 16,Domagnano,5299,San Giovanni,5307,0,1,True
+1296043,2024-09-25T18:45:00+00:00,FT,Round of 16,Cailungo,5297,Tre Penne,700,0,6,True
+1296047,2024-09-25T18:45:00+00:00,FT,Round of 16,Cosmos,5298,Virtus,5308,0,1,True
+1296041,2024-09-25T18:45:00+00:00,FT,Round of 16,Faetano,5300,Pennarossa,5306,2,1,True
+1296045,2024-09-25T18:45:00+00:00,FT,Round of 16,Juvenes / Dogana,5302,Fiorentino,5301,1,0,True
+1296044,2024-10-22T18:45:00+00:00,FT,Round of 16,Tre Penne,700,Cailungo,5297,4,1,True
+1296036,2024-10-22T18:45:00+00:00,FT,Round of 16,Libertas,5303,Tre Fiori,2260,0,3,True
+1296042,2024-10-22T18:45:00+00:00,FT,Round of 16,Pennarossa,5306,Faetano,5300,0,0,True
+1296046,2024-10-23T18:45:00+00:00,FT,Round of 16,Fiorentino,5301,Juvenes / Dogana,5302,0,2,True
+1296040,2024-10-23T18:45:00+00:00,FT,Round of 16,Murata,5305,Folgore,672,0,0,True
+1296038,2024-10-23T18:45:00+00:00,FT,Round of 16,San Giovanni,5307,Domagnano,5299,1,1,True
+1296048,2024-10-23T18:45:00+00:00,FT,Round of 16,Virtus,5308,Cosmos,5298,2,2,True
+1314648,2024-11-27T19:45:00+00:00,FT,Quarter-finals,Folgore,672,Tre Penne,700,0,1,True
+1314642,2024-11-27T19:45:00+00:00,FT,Quarter-finals,La Fiorita,2249,Juvenes / Dogana,5302,2,0,True
+1314646,2024-11-27T19:45:00+00:00,FT,Quarter-finals,Tre Fiori,2260,San Giovanni,5307,4,0,True
+1314644,2024-11-27T19:45:00+00:00,FT,Quarter-finals,Faetano,5300,Virtus,5308,1,4,True
+1314649,2024-12-11T19:45:00+00:00,AET,Quarter-finals,Tre Penne,700,Folgore,672,3,2,False
+1314643,2024-12-11T19:45:00+00:00,FT,Quarter-finals,Juvenes / Dogana,5302,La Fiorita,2249,0,2,True
+1314647,2024-12-11T19:45:00+00:00,FT,Quarter-finals,San Giovanni,5307,Tre Fiori,2260,2,2,True
+1314645,2024-12-11T19:45:00+00:00,FT,Quarter-finals,Virtus,5308,Faetano,5300,2,0,True
+1338997,2025-03-05T19:45:00+00:00,FT,Semi-finals,La Fiorita,2249,Virtus,5308,0,0,True
+1338999,2025-03-05T19:45:00+00:00,FT,Semi-finals,Tre Fiori,2260,Tre Penne,700,0,1,True
+1339000,2025-04-02T18:45:00+00:00,FT,Semi-finals,Tre Penne,700,Tre Fiori,2260,1,0,True
+1338998,2025-04-02T18:45:00+00:00,AET,Semi-finals,Virtus,5308,La Fiorita,2249,1,0,False
+1367766,2025-05-24T18:45:00+00:00,FT,Final,Virtus,5308,Tre Fiori,2260,1,0,True

@@ -1,8 +1,32 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1314328,2025-01-06T12:30:00+00:00,PEN,Al-Raed,2935,Al Jabalain,2958,1,1,False
-1314327,2025-01-06T15:00:00+00:00,FT,Al Shabab,2940,Al-Fayha,2944,2,1,True
-1314330,2025-01-07T15:00:00+00:00,FT,Al Taawon,2936,Al-Qadisiyah FC,2933,0,3,True
-1314329,2025-01-07T17:30:00+00:00,PEN,Al-Hilal Saudi FC,2932,Al-Ittihad FC,2938,2,2,False
-1334102,2025-04-01T18:00:00+00:00,FT,Al-Ittihad FC,2938,Al Shabab,2940,3,2,True
-1334103,2025-04-02T18:00:00+00:00,FT,Al-Qadisiyah FC,2933,Al-Raed,2935,1,0,True
-1371500,2025-05-30T18:00:00+00:00,FT,Al-Ittihad FC,2938,Al-Qadisiyah FC,2933,3,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1207991,2024-09-22T15:35:00+00:00,FT,Round of 32,Al Okhdood,2977,Al Arabi SC,2971,1,2,True
+1207990,2024-09-22T18:00:00+00:00,FT,Round of 32,Al-Qadisiyah FC,2933,Al Orubah,2961,4,1,True
+1207992,2024-09-22T18:00:00+00:00,PEN,Round of 32,Al Wehda Club,2937,Al-Faisaly FC,2930,1,1,False
+1207996,2024-09-23T15:30:00+00:00,FT,Round of 32,Al-Fayha,2944,Al Baten,2926,4,0,True
+1207995,2024-09-23T15:35:00+00:00,FT,Round of 32,Al-Hazm,2945,Al-Nassr,2939,1,2,True
+1207998,2024-09-23T15:45:00+00:00,AET,Round of 32,Al Taee,2942,Al Khaleej Saihat,2928,5,2,False
+1207993,2024-09-23T18:00:00+00:00,FT,Round of 32,Al-Ahli Jeddah,2929,Al Jandal,10507,1,2,True
+1207989,2024-09-23T18:00:00+00:00,FT,Round of 32,Al-Ettifaq,2934,Al-Adalah,2950,2,0,True
+1207999,2024-09-24T15:35:00+00:00,FT,Round of 32,Al Bukayriyah,2966,Al-Hilal Saudi FC,2932,0,1,True
+1208001,2024-09-24T15:45:00+00:00,FT,Round of 32,Al Jabalain,2958,Al-Fateh,2931,2,0,True
+1207997,2024-09-24T18:00:00+00:00,FT,Round of 32,Al-Ittihad FC,2938,Al-Ain,13170,3,0,True
+1208000,2024-09-24T18:00:00+00:00,FT,Round of 32,Al Kholood,10509,Al Shabab,2940,1,3,True
+1208003,2024-09-25T15:35:00+00:00,FT,Round of 32,Al Najma,2992,Damac,2956,2,0,True
+1207994,2024-09-25T15:40:00+00:00,AET,Round of 32,Abha,2951,Al Taawon,2936,2,3,False
+1208002,2024-09-25T18:00:00+00:00,FT,Round of 32,Jeddah Club,2947,Al-Raed,2935,0,2,True
+1208004,2024-09-25T18:00:00+00:00,FT,Round of 32,Al Safa,2990,Al Riyadh,10511,1,3,True
+1309277,2024-10-28T14:50:00+00:00,FT,Round of 16,Al Riyadh,10511,Al Shabab,2940,0,2,True
+1309276,2024-10-28T17:30:00+00:00,FT,Round of 16,Al Wehda Club,2937,Al-Qadisiyah FC,2933,1,2,True
+1309274,2024-10-28T17:30:00+00:00,FT,Round of 16,Al-Ittihad FC,2938,Al Jandal,10507,2,0,True
+1309273,2024-10-29T15:00:00+00:00,FT,Round of 16,Al Najma,2992,Al-Raed,2935,0,1,True
+1309275,2024-10-29T15:05:00+00:00,FT,Round of 16,Al Taee,2942,Al-Hilal Saudi FC,2932,1,4,True
+1309271,2024-10-29T17:30:00+00:00,FT,Round of 16,Al-Nassr,2939,Al Taawon,2936,0,1,True
+1309272,2024-10-29T17:30:00+00:00,FT,Round of 16,Al-Fayha,2944,Al Arabi SC,2971,1,0,True
+1309278,2024-10-30T15:05:00+00:00,FT,Round of 16,Al Jabalain,2958,Al-Ettifaq,2934,3,1,True
+1314328,2025-01-06T12:30:00+00:00,PEN,Quarter-finals,Al-Raed,2935,Al Jabalain,2958,1,1,False
+1314327,2025-01-06T15:00:00+00:00,FT,Quarter-finals,Al Shabab,2940,Al-Fayha,2944,2,1,True
+1314330,2025-01-07T15:00:00+00:00,FT,Quarter-finals,Al Taawon,2936,Al-Qadisiyah FC,2933,0,3,True
+1314329,2025-01-07T17:30:00+00:00,PEN,Quarter-finals,Al-Hilal Saudi FC,2932,Al-Ittihad FC,2938,2,2,False
+1334102,2025-04-01T18:00:00+00:00,FT,Semi-finals,Al-Ittihad FC,2938,Al Shabab,2940,3,2,True
+1334103,2025-04-02T18:00:00+00:00,FT,Semi-finals,Al-Qadisiyah FC,2933,Al-Raed,2935,1,0,True
+1371500,2025-05-30T18:00:00+00:00,FT,Final,Al-Ittihad FC,2938,Al-Qadisiyah FC,2933,3,1,True

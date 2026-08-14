@@ -1,0 +1,381 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+952792,2022-09-04T15:30:00+00:00,FT,Girone C - 1,Guidonia Montecelio 1937,882,Audace Cerignola,9539,3,0,True
+952791,2022-09-04T15:30:00+00:00,FT,Girone C - 1,Giugliano,9556,Viterbese,1585,2,0,True
+952796,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Foggia,521,Latina,804,1,3,True
+952799,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Pescara,525,Avellino,528,1,0,True
+952793,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Messina,898,Crotone,501,2,4,True
+952794,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Catanzaro,1687,AZ Picerno,1587,4,0,True
+952795,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Fidelis Andria,1695,Potenza,1710,0,0,True
+952800,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Turris,5608,Virtus Francavilla,873,2,2,True
+952797,2022-09-04T18:30:00+00:00,FT,Girone C - 1,Gelbison,9544,Juve Stabia,863,1,3,True
+952798,2022-09-04T18:30:00+00:00,FT,Girone C - 1,SS Monopoli,10138,Taranto,1696,4,1,True
+952806,2022-09-11T12:30:00+00:00,FT,Girone C - 2,Potenza,1710,Guidonia Montecelio 1937,882,2,2,True
+952803,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Crotone,501,SS Monopoli,10138,2,0,True
+952802,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Avellino,528,Gelbison,9544,0,0,True
+952805,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Latina,804,Pescara,525,1,2,True
+952804,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Juve Stabia,863,Turris,5608,0,2,True
+952808,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Virtus Francavilla,873,Messina,898,1,0,True
+952809,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Viterbese,1585,Fidelis Andria,1695,2,2,True
+952807,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Taranto,1696,Catanzaro,1687,0,3,True
+952801,2022-09-11T15:30:00+00:00,FT,Girone C - 2,Audace Cerignola,9539,Giugliano,9556,1,0,True
+952810,2022-09-12T18:30:00+00:00,FT,Girone C - 2,AZ Picerno,1587,Foggia,521,3,0,True
+952816,2022-09-14T16:00:00+00:00,FT,Girone C - 3,Guidonia Montecelio 1937,882,Juve Stabia,863,0,1,True
+952815,2022-09-14T18:30:00+00:00,FT,Girone C - 3,SS Monopoli,10138,Avellino,528,2,1,True
+952817,2022-09-14T19:00:00+00:00,FT,Girone C - 3,Pescara,525,Crotone,501,0,1,True
+952811,2022-09-14T19:00:00+00:00,FT,Girone C - 3,Messina,898,Viterbese,1585,1,1,True
+952812,2022-09-14T19:00:00+00:00,FT,Girone C - 3,Catanzaro,1687,Latina,804,5,0,True
+952813,2022-09-14T19:00:00+00:00,FT,Girone C - 3,Fidelis Andria,1695,Audace Cerignola,9539,1,2,True
+952818,2022-09-14T19:00:00+00:00,FT,Girone C - 3,Turris,5608,Taranto,1696,2,1,True
+952814,2022-09-14T19:00:00+00:00,FT,Girone C - 3,Gelbison,9544,Potenza,1710,1,1,True
+952819,2022-09-15T19:00:00+00:00,FT,Girone C - 3,Foggia,521,Virtus Francavilla,873,1,0,True
+952820,2022-09-15T19:00:00+00:00,FT,Girone C - 3,Giugliano,9556,AZ Picerno,1587,2,2,True
+952823,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Crotone,501,Guidonia Montecelio 1937,882,1,0,True
+952822,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Avellino,528,Messina,898,2,1,True
+952825,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Latina,804,Giugliano,9556,2,2,True
+952824,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Juve Stabia,863,SS Monopoli,10138,2,0,True
+952829,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Virtus Francavilla,873,Gelbison,9544,1,0,True
+952830,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Viterbese,1585,Pescara,525,0,1,True
+952826,2022-09-18T15:30:00+00:00,FT,Girone C - 4,AZ Picerno,1587,Turris,5608,0,1,True
+952828,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Taranto,1696,Fidelis Andria,1695,2,1,True
+952827,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Potenza,1710,Foggia,521,1,1,True
+952821,2022-09-18T15:30:00+00:00,FT,Girone C - 4,Audace Cerignola,9539,Catanzaro,1687,2,2,True
+952839,2022-09-24T10:30:00+00:00,FT,Girone C - 5,Guidonia Montecelio 1937,882,Virtus Francavilla,873,2,1,True
+952832,2022-09-24T12:30:00+00:00,FT,Girone C - 5,Fidelis Andria,1695,AZ Picerno,1587,1,1,True
+952833,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Foggia,521,Pescara,525,0,4,True
+952837,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Latina,804,Avellino,528,1,0,True
+952836,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Juve Stabia,863,Viterbese,1585,0,0,True
+952831,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Catanzaro,1687,Messina,898,3,0,True
+952840,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Potenza,1710,Crotone,501,1,1,True
+952834,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Gelbison,9544,Taranto,1696,3,0,True
+952835,2022-09-24T18:30:00+00:00,FT,Girone C - 5,Giugliano,9556,Turris,5608,4,1,True
+952838,2022-09-24T18:30:00+00:00,FT,Girone C - 5,SS Monopoli,10138,Audace Cerignola,9539,2,1,True
+952841,2022-10-01T12:30:00+00:00,FT,Girone C - 6,Messina,898,Giugliano,9556,1,0,True
+952844,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Crotone,501,Juve Stabia,863,1,0,True
+952845,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Pescara,525,Guidonia Montecelio 1937,882,2,2,True
+952843,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Avellino,528,Potenza,1710,2,0,True
+952849,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Virtus Francavilla,873,Fidelis Andria,1695,2,1,True
+952850,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Viterbese,1585,Latina,804,1,5,True
+952846,2022-10-01T15:30:00+00:00,FT,Girone C - 6,AZ Picerno,1587,SS Monopoli,10138,1,2,True
+952847,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Taranto,1696,Foggia,521,1,0,True
+952848,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Turris,5608,Catanzaro,1687,0,4,True
+952842,2022-10-01T15:30:00+00:00,FT,Girone C - 6,Audace Cerignola,9539,Gelbison,9544,0,1,True
+952859,2022-10-08T10:30:00+00:00,FT,Girone C - 7,Guidonia Montecelio 1937,882,Turris,5608,3,5,True
+952856,2022-10-08T12:30:00+00:00,FT,Girone C - 7,Juve Stabia,863,AZ Picerno,1587,1,0,True
+952853,2022-10-08T12:30:00+00:00,FT,Girone C - 7,Fidelis Andria,1695,Catanzaro,1687,0,4,True
+952855,2022-10-08T12:30:00+00:00,FT,Girone C - 7,Giugliano,9556,Virtus Francavilla,873,2,0,True
+952858,2022-10-08T12:30:00+00:00,FT,Girone C - 7,SS Monopoli,10138,Viterbese,1585,0,1,True
+952852,2022-10-08T15:30:00+00:00,FT,Girone C - 7,Crotone,501,Avellino,528,2,0,True
+952857,2022-10-08T15:30:00+00:00,FT,Girone C - 7,Latina,804,Taranto,1696,1,0,True
+952860,2022-10-08T15:30:00+00:00,FT,Girone C - 7,Potenza,1710,Pescara,525,1,3,True
+952851,2022-10-08T15:30:00+00:00,FT,Girone C - 7,Audace Cerignola,9539,Messina,898,3,0,True
+952854,2022-10-08T15:30:00+00:00,FT,Girone C - 7,Gelbison,9544,Foggia,521,2,0,True
+952865,2022-10-15T10:30:00+00:00,FT,Girone C - 8,Guidonia Montecelio 1937,882,Giugliano,9556,2,2,True
+952864,2022-10-15T12:30:00+00:00,FT,Girone C - 8,Foggia,521,Crotone,501,1,0,True
+952866,2022-10-15T12:30:00+00:00,FT,Girone C - 8,Pescara,525,Fidelis Andria,1695,3,0,True
+952861,2022-10-15T12:30:00+00:00,FT,Girone C - 8,Messina,898,Gelbison,9544,0,1,True
+952868,2022-10-15T12:30:00+00:00,FT,Girone C - 8,Taranto,1696,Juve Stabia,863,2,0,True
+952862,2022-10-15T15:30:00+00:00,FT,Girone C - 8,Avellino,528,Audace Cerignola,9539,1,1,True
+952870,2022-10-15T15:30:00+00:00,FT,Girone C - 8,Virtus Francavilla,873,Latina,804,0,0,True
+952863,2022-10-15T15:30:00+00:00,FT,Girone C - 8,Catanzaro,1687,Viterbese,1585,3,2,True
+952869,2022-10-15T15:30:00+00:00,FT,Girone C - 8,Turris,5608,SS Monopoli,10138,0,0,True
+952867,2022-10-15T18:30:00+00:00,FT,Girone C - 8,AZ Picerno,1587,Potenza,1710,2,2,True
+952876,2022-10-18T12:30:00+00:00,FT,Girone C - 9,Juve Stabia,863,Foggia,521,1,1,True
+952873,2022-10-18T12:30:00+00:00,FT,Girone C - 9,Fidelis Andria,1695,Messina,898,3,0,True
+952875,2022-10-18T12:30:00+00:00,FT,Girone C - 9,Giugliano,9556,Pescara,525,1,1,True
+952874,2022-10-18T13:00:00+00:00,FT,Girone C - 9,Gelbison,9544,Guidonia Montecelio 1937,882,0,1,True
+952877,2022-10-18T16:30:00+00:00,FT,Girone C - 9,Latina,804,AZ Picerno,1587,1,0,True
+952872,2022-10-18T19:00:00+00:00,FT,Girone C - 9,Crotone,501,Virtus Francavilla,873,3,0,True
+952880,2022-10-18T19:00:00+00:00,FT,Girone C - 9,Viterbese,1585,Avellino,528,2,0,True
+952879,2022-10-18T19:00:00+00:00,FT,Girone C - 9,Potenza,1710,Turris,5608,2,1,True
+952871,2022-10-18T19:00:00+00:00,FT,Girone C - 9,Audace Cerignola,9539,Taranto,1696,0,0,True
+952878,2022-10-18T19:00:00+00:00,FT,Girone C - 9,SS Monopoli,10138,Catanzaro,1687,0,1,True
+952883,2022-10-22T12:30:00+00:00,FT,Girone C - 10,Foggia,521,Fidelis Andria,1695,3,1,True
+952886,2022-10-22T12:30:00+00:00,FT,Girone C - 10,Pescara,525,Audace Cerignola,9539,2,0,True
+952881,2022-10-22T12:30:00+00:00,FT,Girone C - 10,Messina,898,Latina,804,4,1,True
+952887,2022-10-22T12:30:00+00:00,FT,Girone C - 10,AZ Picerno,1587,Viterbese,1585,0,0,True
+952890,2022-10-22T15:30:00+00:00,FT,Girone C - 10,Virtus Francavilla,873,Avellino,528,2,3,True
+952882,2022-10-22T15:30:00+00:00,FT,Girone C - 10,Catanzaro,1687,Juve Stabia,863,2,0,True
+952888,2022-10-22T15:30:00+00:00,FT,Girone C - 10,Taranto,1696,Potenza,1710,2,0,True
+952884,2022-10-22T15:30:00+00:00,FT,Girone C - 10,Giugliano,9556,Gelbison,9544,1,1,True
+952889,2022-10-23T15:30:00+00:00,FT,Girone C - 10,Turris,5608,Crotone,501,2,4,True
+952885,2022-10-24T18:30:00+00:00,FT,Girone C - 10,Guidonia Montecelio 1937,882,SS Monopoli,10138,2,2,True
+952896,2022-10-30T13:30:00+00:00,FT,Girone C - 11,Latina,804,Guidonia Montecelio 1937,882,0,2,True
+952900,2022-10-30T13:30:00+00:00,FT,Girone C - 11,Viterbese,1585,Foggia,521,1,2,True
+952899,2022-10-30T13:30:00+00:00,FT,Girone C - 11,Taranto,1696,Giugliano,9556,0,1,True
+952893,2022-10-30T16:30:00+00:00,FT,Girone C - 11,Crotone,501,AZ Picerno,1587,1,0,True
+952892,2022-10-30T16:30:00+00:00,FT,Girone C - 11,Avellino,528,Catanzaro,1687,2,2,True
+952895,2022-10-30T16:30:00+00:00,FT,Girone C - 11,Juve Stabia,863,Pescara,525,1,2,True
+952898,2022-10-30T16:30:00+00:00,FT,Girone C - 11,Potenza,1710,Virtus Francavilla,873,2,2,True
+952891,2022-10-30T16:30:00+00:00,FT,Girone C - 11,Audace Cerignola,9539,Turris,5608,2,1,True
+952894,2022-10-30T16:30:00+00:00,FT,Girone C - 11,Gelbison,9544,Fidelis Andria,1695,0,0,True
+952897,2022-10-30T16:30:00+00:00,FT,Girone C - 11,SS Monopoli,10138,Messina,898,2,0,True
+952901,2022-11-06T11:00:00+00:00,FT,Girone C - 12,Messina,898,Guidonia Montecelio 1937,882,3,2,True
+952906,2022-11-06T13:30:00+00:00,FT,Girone C - 12,Pescara,525,Gelbison,9544,2,1,True
+952910,2022-11-06T13:30:00+00:00,FT,Girone C - 12,Viterbese,1585,Potenza,1710,3,3,True
+952907,2022-11-06T13:30:00+00:00,FT,Girone C - 12,AZ Picerno,1587,Taranto,1696,2,1,True
+952902,2022-11-06T13:30:00+00:00,FT,Girone C - 12,Catanzaro,1687,Crotone,501,2,0,True
+952903,2022-11-06T13:30:00+00:00,FT,Girone C - 12,Fidelis Andria,1695,SS Monopoli,10138,1,1,True
+952908,2022-11-06T13:30:00+00:00,FT,Girone C - 12,Turris,5608,Latina,804,2,2,True
+952905,2022-11-06T13:30:00+00:00,FT,Girone C - 12,Giugliano,9556,Juve Stabia,863,0,1,True
+952909,2022-11-06T16:30:00+00:00,FT,Girone C - 12,Virtus Francavilla,873,Audace Cerignola,9539,1,1,True
+952904,2022-11-07T19:30:00+00:00,FT,Girone C - 12,Foggia,521,Avellino,528,1,1,True
+952917,2022-11-13T13:30:00+00:00,FT,Girone C - 13,Guidonia Montecelio 1937,882,Catanzaro,1687,0,1,True
+952920,2022-11-13T13:30:00+00:00,FT,Girone C - 13,Taranto,1696,Viterbese,1585,2,1,True
+952919,2022-11-13T13:30:00+00:00,FT,Girone C - 13,Potenza,1710,Latina,804,3,0,True
+952914,2022-11-13T13:30:00+00:00,FT,Girone C - 13,Gelbison,9544,Turris,5608,1,0,True
+952916,2022-11-13T13:30:00+00:00,FT,Girone C - 13,SS Monopoli,10138,Foggia,521,0,2,True
+952918,2022-11-13T14:00:00+00:00,FT,Girone C - 13,Pescara,525,Messina,898,1,0,True
+952913,2022-11-13T16:30:00+00:00,FT,Girone C - 13,Crotone,501,Fidelis Andria,1695,2,1,True
+952912,2022-11-13T16:30:00+00:00,FT,Girone C - 13,Avellino,528,Giugliano,9556,0,1,True
+952915,2022-11-13T16:30:00+00:00,FT,Girone C - 13,Juve Stabia,863,Virtus Francavilla,873,2,0,True
+952911,2022-11-13T16:30:00+00:00,FT,Girone C - 13,Audace Cerignola,9539,AZ Picerno,1587,1,1,True
+952924,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Foggia,521,Audace Cerignola,9539,2,3,True
+952926,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Latina,804,Juve Stabia,863,0,0,True
+952921,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Messina,898,Potenza,1710,1,1,True
+952930,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Viterbese,1585,Crotone,501,1,3,True
+952927,2022-11-20T13:30:00+00:00,FT,Girone C - 14,AZ Picerno,1587,Avellino,528,2,1,True
+952922,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Catanzaro,1687,Gelbison,9544,3,0,True
+952923,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Fidelis Andria,1695,Guidonia Montecelio 1937,882,1,0,True
+952925,2022-11-20T13:30:00+00:00,FT,Girone C - 14,Giugliano,9556,SS Monopoli,10138,2,1,True
+952929,2022-11-20T16:30:00+00:00,FT,Girone C - 14,Virtus Francavilla,873,Taranto,1696,3,0,True
+952928,2022-11-21T19:30:00+00:00,FT,Girone C - 14,Turris,5608,Pescara,525,2,3,True
+952932,2022-11-27T11:00:00+00:00,FT,Girone C - 15,Audace Cerignola,9539,Viterbese,1585,2,0,True
+952934,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Crotone,501,Latina,804,1,0,True
+952940,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Pescara,525,Catanzaro,1687,0,3,True
+952933,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Avellino,528,Taranto,1696,4,0,True
+952939,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Guidonia Montecelio 1937,882,Foggia,521,1,1,True
+952931,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Messina,898,Turris,5608,0,1,True
+952935,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Fidelis Andria,1695,Giugliano,9556,2,0,True
+952936,2022-11-27T13:30:00+00:00,FT,Girone C - 15,Gelbison,9544,AZ Picerno,1587,0,0,True
+952937,2022-11-27T16:30:00+00:00,FT,Girone C - 15,Juve Stabia,863,Potenza,1710,0,0,True
+952938,2022-11-27T16:30:00+00:00,FT,Girone C - 15,SS Monopoli,10138,Virtus Francavilla,873,1,0,True
+952943,2022-11-30T13:30:00+00:00,FT,Girone C - 16,Foggia,521,Messina,898,1,0,True
+952945,2022-11-30T13:30:00+00:00,FT,Girone C - 16,AZ Picerno,1587,Guidonia Montecelio 1937,882,1,0,True
+952942,2022-11-30T16:30:00+00:00,FT,Girone C - 16,Catanzaro,1687,Giugliano,9556,3,0,True
+952944,2022-11-30T17:00:00+00:00,FT,Girone C - 16,Latina,804,SS Monopoli,10138,0,0,True
+952947,2022-11-30T17:00:00+00:00,FT,Girone C - 16,Taranto,1696,Crotone,501,2,2,True
+952941,2022-11-30T20:00:00+00:00,FT,Girone C - 16,Avellino,528,Juve Stabia,863,0,0,True
+952949,2022-11-30T20:00:00+00:00,FT,Girone C - 16,Virtus Francavilla,873,Pescara,525,3,2,True
+952950,2022-11-30T20:00:00+00:00,FT,Girone C - 16,Viterbese,1585,Gelbison,9544,0,0,True
+952946,2022-11-30T20:00:00+00:00,FT,Girone C - 16,Potenza,1710,Audace Cerignola,9539,0,0,True
+952948,2022-11-30T20:00:00+00:00,FT,Girone C - 16,Turris,5608,Fidelis Andria,1695,0,0,True
+952958,2022-12-04T13:30:00+00:00,FT,Girone C - 17,Guidonia Montecelio 1937,882,Viterbese,1585,2,1,True
+952951,2022-12-04T13:30:00+00:00,FT,Girone C - 17,Messina,898,AZ Picerno,1587,0,1,True
+952953,2022-12-04T13:30:00+00:00,FT,Girone C - 17,Catanzaro,1687,Virtus Francavilla,873,4,1,True
+952955,2022-12-04T13:30:00+00:00,FT,Girone C - 17,Gelbison,9544,Latina,804,0,0,True
+952954,2022-12-04T16:30:00+00:00,FT,Girone C - 17,Fidelis Andria,1695,Juve Stabia,863,0,1,True
+952960,2022-12-04T16:30:00+00:00,FT,Girone C - 17,Turris,5608,Avellino,528,1,3,True
+952952,2022-12-04T16:30:00+00:00,FT,Girone C - 17,Audace Cerignola,9539,Crotone,501,0,1,True
+952956,2022-12-04T16:30:00+00:00,FT,Girone C - 17,Giugliano,9556,Foggia,521,3,2,True
+952957,2022-12-04T16:30:00+00:00,FT,Girone C - 17,SS Monopoli,10138,Potenza,1710,1,2,True
+952959,2022-12-05T19:30:00+00:00,FT,Girone C - 17,Pescara,525,Taranto,1696,0,2,True
+952965,2022-12-11T13:30:00+00:00,FT,Girone C - 18,Latina,804,Audace Cerignola,9539,1,0,True
+952970,2022-12-11T13:30:00+00:00,FT,Girone C - 18,Viterbese,1585,Turris,5608,1,1,True
+952967,2022-12-11T13:30:00+00:00,FT,Girone C - 18,AZ Picerno,1587,Virtus Francavilla,873,2,1,True
+952969,2022-12-11T13:30:00+00:00,FT,Girone C - 18,Taranto,1696,Guidonia Montecelio 1937,882,1,0,True
+952968,2022-12-11T13:30:00+00:00,FT,Girone C - 18,Potenza,1710,Giugliano,9556,1,1,True
+952962,2022-12-11T16:30:00+00:00,FT,Girone C - 18,Crotone,501,Gelbison,9544,1,1,True
+952961,2022-12-11T16:30:00+00:00,FT,Girone C - 18,Avellino,528,Fidelis Andria,1695,1,0,True
+952964,2022-12-11T16:30:00+00:00,FT,Girone C - 18,Juve Stabia,863,Messina,898,3,0,True
+952966,2022-12-11T16:30:00+00:00,FT,Girone C - 18,SS Monopoli,10138,Pescara,525,1,2,True
+952963,2022-12-12T19:30:00+00:00,FT,Girone C - 18,Foggia,521,Catanzaro,1687,0,0,True
+952975,2022-12-17T13:30:00+00:00,FT,Girone C - 19,Gelbison,9544,SS Monopoli,10138,1,5,True
+952980,2022-12-18T11:00:00+00:00,FT,Girone C - 19,Virtus Francavilla,873,Viterbese,1585,2,1,True
+952978,2022-12-18T11:30:00+00:00,FT,Girone C - 19,Pescara,525,AZ Picerno,1587,0,1,True
+952977,2022-12-18T11:30:00+00:00,FT,Girone C - 19,Guidonia Montecelio 1937,882,Avellino,528,0,0,True
+952971,2022-12-18T11:30:00+00:00,FT,Girone C - 19,Messina,898,Taranto,1696,1,2,True
+952973,2022-12-18T11:30:00+00:00,FT,Girone C - 19,Catanzaro,1687,Potenza,1710,6,1,True
+952979,2022-12-18T11:30:00+00:00,FT,Girone C - 19,Turris,5608,Foggia,521,1,2,True
+952976,2022-12-18T11:30:00+00:00,FT,Girone C - 19,Giugliano,9556,Crotone,501,2,3,True
+952974,2022-12-18T19:30:00+00:00,FT,Girone C - 19,Fidelis Andria,1695,Latina,804,0,3,True
+952972,2022-12-19T19:30:00+00:00,FT,Girone C - 19,Audace Cerignola,9539,Juve Stabia,863,4,2,True
+952981,2022-12-23T13:30:00+00:00,FT,Girone C - 20,Crotone,501,Messina,898,1,0,True
+952986,2022-12-23T13:30:00+00:00,FT,Girone C - 20,Viterbese,1585,Giugliano,9556,2,1,True
+952982,2022-12-23T13:30:00+00:00,FT,Girone C - 20,AZ Picerno,1587,Catanzaro,1687,0,1,True
+952983,2022-12-23T13:30:00+00:00,FT,Girone C - 20,Potenza,1710,Fidelis Andria,1695,2,1,True
+952989,2022-12-23T16:30:00+00:00,FT,Girone C - 20,Avellino,528,Pescara,525,1,0,True
+952984,2022-12-23T19:30:00+00:00,FT,Girone C - 20,Latina,804,Foggia,521,1,5,True
+952985,2022-12-23T19:30:00+00:00,FT,Girone C - 20,Juve Stabia,863,Gelbison,9544,1,0,True
+952990,2022-12-23T19:30:00+00:00,FT,Girone C - 20,Virtus Francavilla,873,Turris,5608,3,1,True
+952987,2022-12-23T19:30:00+00:00,FT,Girone C - 20,Taranto,1696,SS Monopoli,10138,0,0,True
+952988,2022-12-23T19:30:00+00:00,FT,Girone C - 20,Audace Cerignola,9539,Guidonia Montecelio 1937,882,3,0,True
+952995,2023-01-07T13:30:00+00:00,FT,Girone C - 21,Pescara,525,Latina,804,2,2,True
+952997,2023-01-07T13:30:00+00:00,FT,Girone C - 21,Guidonia Montecelio 1937,882,Potenza,1710,0,0,True
+952999,2023-01-07T13:30:00+00:00,FT,Girone C - 21,Messina,898,Virtus Francavilla,873,2,1,True
+952992,2023-01-07T13:30:00+00:00,FT,Girone C - 21,Gelbison,9544,Avellino,528,1,1,True
+952996,2023-01-07T16:30:00+00:00,FT,Girone C - 21,Foggia,521,AZ Picerno,1587,2,3,True
+952998,2023-01-07T16:30:00+00:00,FT,Girone C - 21,Catanzaro,1687,Taranto,1696,1,0,True
+953000,2023-01-07T16:30:00+00:00,FT,Girone C - 21,Fidelis Andria,1695,Viterbese,1585,1,1,True
+952991,2023-01-07T16:30:00+00:00,FT,Girone C - 21,Giugliano,9556,Audace Cerignola,9539,1,1,True
+952993,2023-01-07T16:30:00+00:00,FT,Girone C - 21,SS Monopoli,10138,Crotone,501,1,2,True
+952994,2023-01-07T19:30:00+00:00,FT,Girone C - 21,Turris,5608,Juve Stabia,863,1,1,True
+953004,2023-01-14T13:30:00+00:00,FT,Girone C - 22,Virtus Francavilla,873,Foggia,521,1,0,True
+953002,2023-01-15T13:30:00+00:00,FT,Girone C - 22,Latina,804,Catanzaro,1687,0,1,True
+953006,2023-01-15T13:30:00+00:00,FT,Girone C - 22,AZ Picerno,1587,Giugliano,9556,1,1,True
+953007,2023-01-15T16:30:00+00:00,FT,Girone C - 22,Avellino,528,SS Monopoli,10138,0,0,True
+953008,2023-01-15T16:30:00+00:00,FT,Girone C - 22,Juve Stabia,863,Guidonia Montecelio 1937,882,1,3,True
+953001,2023-01-15T16:30:00+00:00,FT,Girone C - 22,Viterbese,1585,Messina,898,1,3,True
+953010,2023-01-15T16:30:00+00:00,FT,Girone C - 22,Taranto,1696,Turris,5608,0,0,True
+953005,2023-01-15T16:30:00+00:00,FT,Girone C - 22,Potenza,1710,Gelbison,9544,3,1,True
+953003,2023-01-15T16:30:00+00:00,FT,Girone C - 22,Audace Cerignola,9539,Fidelis Andria,1695,2,0,True
+953009,2023-01-16T19:30:00+00:00,FT,Girone C - 22,Crotone,501,Pescara,525,1,0,True
+953019,2023-01-21T13:30:00+00:00,FT,Girone C - 23,Gelbison,9544,Virtus Francavilla,873,2,0,True
+953017,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Foggia,521,Potenza,1710,3,0,True
+953020,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Pescara,525,Viterbese,1585,1,0,True
+953013,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Guidonia Montecelio 1937,882,Crotone,501,1,1,True
+953012,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Messina,898,Avellino,528,2,0,True
+953011,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Catanzaro,1687,Audace Cerignola,9539,4,0,True
+953016,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Turris,5608,AZ Picerno,1587,1,1,True
+953015,2023-01-22T13:30:00+00:00,FT,Girone C - 23,Giugliano,9556,Latina,804,1,1,True
+953018,2023-01-22T16:30:00+00:00,FT,Girone C - 23,Fidelis Andria,1695,Taranto,1696,0,0,True
+953014,2023-01-23T19:30:00+00:00,FT,Girone C - 23,SS Monopoli,10138,Juve Stabia,863,1,0,True
+953030,2023-01-29T13:30:00+00:00,FT,Girone C - 24,Crotone,501,Potenza,1710,0,0,True
+953023,2023-01-29T13:30:00+00:00,FT,Girone C - 24,Pescara,525,Foggia,521,0,4,True
+953027,2023-01-29T13:30:00+00:00,FT,Girone C - 24,Avellino,528,Latina,804,0,0,True
+953021,2023-01-29T13:30:00+00:00,FT,Girone C - 24,Messina,898,Catanzaro,1687,1,1,True
+953026,2023-01-29T13:30:00+00:00,FT,Girone C - 24,Viterbese,1585,Juve Stabia,863,0,1,True
+953022,2023-01-29T13:30:00+00:00,FT,Girone C - 24,AZ Picerno,1587,Fidelis Andria,1695,3,1,True
+953025,2023-01-29T13:30:00+00:00,FT,Girone C - 24,Turris,5608,Giugliano,9556,0,2,True
+953029,2023-01-29T16:30:00+00:00,FT,Girone C - 24,Virtus Francavilla,873,Guidonia Montecelio 1937,882,3,0,True
+953024,2023-01-29T16:30:00+00:00,FT,Girone C - 24,Taranto,1696,Gelbison,9544,0,0,True
+953028,2023-01-30T19:30:00+00:00,FT,Girone C - 24,Audace Cerignola,9539,SS Monopoli,10138,1,3,True
+953035,2023-02-01T13:30:00+00:00,FT,Girone C - 25,Guidonia Montecelio 1937,882,Pescara,525,0,0,True
+953033,2023-02-01T13:30:00+00:00,FT,Girone C - 25,Potenza,1710,Avellino,528,2,4,True
+953031,2023-02-01T13:30:00+00:00,FT,Girone C - 25,Giugliano,9556,Messina,898,2,2,True
+953038,2023-02-01T17:00:00+00:00,FT,Girone C - 25,Catanzaro,1687,Turris,5608,1,0,True
+953037,2023-02-01T20:00:00+00:00,FT,Girone C - 25,Foggia,521,Taranto,1696,2,0,True
+953040,2023-02-01T20:00:00+00:00,FT,Girone C - 25,Latina,804,Viterbese,1585,1,0,True
+953034,2023-02-01T20:00:00+00:00,FT,Girone C - 25,Juve Stabia,863,Crotone,501,1,2,True
+953039,2023-02-01T20:00:00+00:00,FT,Girone C - 25,Fidelis Andria,1695,Virtus Francavilla,873,0,0,True
+953032,2023-02-02T13:30:00+00:00,FT,Girone C - 25,Gelbison,9544,Audace Cerignola,9539,0,0,True
+953036,2023-02-02T14:00:00+00:00,FT,Girone C - 25,SS Monopoli,10138,AZ Picerno,1587,1,0,True
+953050,2023-02-05T13:30:00+00:00,FT,Girone C - 26,Pescara,525,Potenza,1710,5,0,True
+953041,2023-02-05T13:30:00+00:00,FT,Girone C - 26,Messina,898,Audace Cerignola,9539,0,1,True
+953048,2023-02-05T13:30:00+00:00,FT,Girone C - 26,Viterbese,1585,SS Monopoli,10138,2,0,True
+953046,2023-02-05T13:30:00+00:00,FT,Girone C - 26,AZ Picerno,1587,Juve Stabia,863,1,0,True
+953043,2023-02-05T13:30:00+00:00,FT,Girone C - 26,Catanzaro,1687,Fidelis Andria,1695,4,0,True
+953049,2023-02-05T13:30:00+00:00,FT,Girone C - 26,Turris,5608,Guidonia Montecelio 1937,882,2,0,True
+953044,2023-02-05T16:30:00+00:00,FT,Girone C - 26,Foggia,521,Gelbison,9544,1,1,True
+953045,2023-02-05T16:30:00+00:00,FT,Girone C - 26,Virtus Francavilla,873,Giugliano,9556,4,1,True
+953047,2023-02-05T16:30:00+00:00,FT,Girone C - 26,Taranto,1696,Latina,804,1,0,True
+953042,2023-02-06T19:30:00+00:00,FT,Girone C - 26,Avellino,528,Crotone,501,3,1,True
+953054,2023-02-11T16:30:00+00:00,FT,Girone C - 27,Crotone,501,Foggia,521,1,1,True
+953060,2023-02-12T13:30:00+00:00,FT,Girone C - 27,Latina,804,Virtus Francavilla,873,2,1,True
+953058,2023-02-12T13:30:00+00:00,FT,Girone C - 27,Juve Stabia,863,Taranto,1696,0,0,True
+953051,2023-02-12T13:30:00+00:00,FT,Girone C - 27,Gelbison,9544,Messina,898,1,2,True
+953055,2023-02-12T13:30:00+00:00,FT,Girone C - 27,Giugliano,9556,Guidonia Montecelio 1937,882,0,2,True
+953059,2023-02-12T13:30:00+00:00,FT,Girone C - 27,SS Monopoli,10138,Turris,5608,2,0,True
+953053,2023-02-12T16:30:00+00:00,FT,Girone C - 27,Viterbese,1585,Catanzaro,1687,1,0,True
+953056,2023-02-12T16:30:00+00:00,FT,Girone C - 27,Fidelis Andria,1695,Pescara,525,0,0,True
+953057,2023-02-12T16:30:00+00:00,FT,Girone C - 27,Potenza,1710,AZ Picerno,1587,2,2,True
+953052,2023-02-12T16:30:00+00:00,FT,Girone C - 27,Audace Cerignola,9539,Avellino,528,3,1,True
+953066,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Foggia,521,Juve Stabia,863,3,0,True
+953065,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Pescara,525,Giugliano,9556,1,1,True
+953070,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Avellino,528,Viterbese,1585,0,2,True
+953062,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Virtus Francavilla,873,Crotone,501,1,2,True
+953064,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Guidonia Montecelio 1937,882,Gelbison,9544,0,1,True
+953063,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Messina,898,Fidelis Andria,1695,0,0,True
+953067,2023-02-19T13:30:00+00:00,FT,Girone C - 28,AZ Picerno,1587,Latina,804,1,0,True
+953068,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Catanzaro,1687,SS Monopoli,10138,6,0,True
+953061,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Taranto,1696,Audace Cerignola,9539,0,0,True
+953069,2023-02-19T13:30:00+00:00,FT,Girone C - 28,Turris,5608,Potenza,1710,0,1,True
+953079,2023-02-25T13:30:00+00:00,FT,Girone C - 29,Crotone,501,Turris,5608,0,0,True
+953080,2023-02-25T13:30:00+00:00,FT,Girone C - 29,Avellino,528,Virtus Francavilla,873,0,1,True
+953071,2023-02-25T13:30:00+00:00,FT,Girone C - 29,Latina,804,Messina,898,0,2,True
+953072,2023-02-25T13:30:00+00:00,FT,Girone C - 29,Juve Stabia,863,Catanzaro,1687,1,4,True
+953077,2023-02-25T13:30:00+00:00,FT,Girone C - 29,Viterbese,1585,AZ Picerno,1587,1,1,True
+953074,2023-02-25T13:30:00+00:00,FT,Girone C - 29,Gelbison,9544,Giugliano,9556,1,1,True
+953073,2023-02-25T16:30:00+00:00,FT,Girone C - 29,Fidelis Andria,1695,Foggia,521,0,1,True
+953078,2023-02-25T16:30:00+00:00,FT,Girone C - 29,Potenza,1710,Taranto,1696,1,0,True
+953076,2023-02-25T16:30:00+00:00,FT,Girone C - 29,Audace Cerignola,9539,Pescara,525,1,0,True
+953075,2023-02-25T16:30:00+00:00,FT,Girone C - 29,SS Monopoli,10138,Guidonia Montecelio 1937,882,3,2,True
+953090,2023-03-04T13:30:00+00:00,FT,Girone C - 30,Foggia,521,Viterbese,1585,2,0,True
+953085,2023-03-04T13:30:00+00:00,FT,Girone C - 30,Pescara,525,Juve Stabia,863,2,2,True
+953086,2023-03-04T13:30:00+00:00,FT,Girone C - 30,Guidonia Montecelio 1937,882,Latina,804,0,0,True
+953087,2023-03-04T13:30:00+00:00,FT,Girone C - 30,Messina,898,SS Monopoli,10138,0,1,True
+953083,2023-03-04T13:30:00+00:00,FT,Girone C - 30,AZ Picerno,1587,Crotone,501,1,1,True
+953089,2023-03-04T13:30:00+00:00,FT,Girone C - 30,Giugliano,9556,Taranto,1696,0,0,True
+953082,2023-03-04T16:30:00+00:00,FT,Girone C - 30,Catanzaro,1687,Avellino,528,4,1,True
+953084,2023-03-04T16:30:00+00:00,FT,Girone C - 30,Fidelis Andria,1695,Gelbison,9544,1,1,True
+953081,2023-03-04T19:30:00+00:00,FT,Girone C - 30,Turris,5608,Audace Cerignola,9539,2,1,True
+953088,2023-03-05T13:30:00+00:00,FT,Girone C - 30,Virtus Francavilla,873,Potenza,1710,1,1,True
+953091,2023-03-12T13:30:00+00:00,FT,Girone C - 31,Guidonia Montecelio 1937,882,Messina,898,1,1,True
+953100,2023-03-12T13:30:00+00:00,FT,Girone C - 31,Potenza,1710,Viterbese,1585,2,0,True
+953096,2023-03-12T13:30:00+00:00,FT,Girone C - 31,Gelbison,9544,Pescara,525,1,2,True
+953094,2023-03-12T16:30:00+00:00,FT,Girone C - 31,Avellino,528,Foggia,521,3,2,True
+953098,2023-03-12T16:30:00+00:00,FT,Girone C - 31,Latina,804,Turris,5608,0,0,True
+953095,2023-03-12T16:30:00+00:00,FT,Girone C - 31,Juve Stabia,863,Giugliano,9556,2,1,True
+953097,2023-03-12T16:30:00+00:00,FT,Girone C - 31,Taranto,1696,AZ Picerno,1587,0,1,True
+953093,2023-03-12T16:30:00+00:00,FT,Girone C - 31,SS Monopoli,10138,Fidelis Andria,1695,1,2,True
+953099,2023-03-12T19:30:00+00:00,FT,Girone C - 31,Audace Cerignola,9539,Virtus Francavilla,873,1,0,True
+953092,2023-03-13T19:30:00+00:00,FT,Girone C - 31,Crotone,501,Catanzaro,1687,1,1,True
+953109,2023-03-15T13:30:00+00:00,FT,Girone C - 32,Latina,804,Potenza,1710,0,0,True
+953108,2023-03-15T13:30:00+00:00,FT,Girone C - 32,Messina,898,Pescara,525,1,0,True
+953110,2023-03-15T13:30:00+00:00,FT,Girone C - 32,Viterbese,1585,Taranto,1696,0,0,True
+953101,2023-03-15T13:30:00+00:00,FT,Girone C - 32,AZ Picerno,1587,Audace Cerignola,9539,2,0,True
+953104,2023-03-15T13:30:00+00:00,FT,Girone C - 32,Turris,5608,Gelbison,9544,1,0,True
+953102,2023-03-15T17:00:00+00:00,FT,Girone C - 32,Giugliano,9556,Avellino,528,2,4,True
+953106,2023-03-15T20:00:00+00:00,FT,Girone C - 32,Foggia,521,SS Monopoli,10138,1,0,True
+953105,2023-03-15T20:00:00+00:00,FT,Girone C - 32,Virtus Francavilla,873,Juve Stabia,863,3,1,True
+953103,2023-03-16T13:30:00+00:00,FT,Girone C - 32,Fidelis Andria,1695,Crotone,501,0,0,True
+953107,2023-03-16T16:30:00+00:00,FT,Girone C - 32,Catanzaro,1687,Guidonia Montecelio 1937,882,3,0,True
+953120,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Crotone,501,Viterbese,1585,3,2,True
+953118,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Pescara,525,Turris,5608,3,1,True
+953117,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Avellino,528,AZ Picerno,1587,0,2,True
+953116,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Juve Stabia,863,Latina,804,1,3,True
+953113,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Guidonia Montecelio 1937,882,Fidelis Andria,1695,0,0,True
+953111,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Potenza,1710,Messina,898,0,1,True
+953112,2023-03-19T13:30:00+00:00,FT,Girone C - 33,Gelbison,9544,Catanzaro,1687,0,2,True
+953115,2023-03-19T13:30:00+00:00,FT,Girone C - 33,SS Monopoli,10138,Giugliano,9556,1,3,True
+953114,2023-03-19T14:00:00+00:00,FT,Girone C - 33,Audace Cerignola,9539,Foggia,521,4,2,True
+953119,2023-03-19T16:30:00+00:00,FT,Girone C - 33,Taranto,1696,Virtus Francavilla,873,1,0,True
+953129,2023-03-25T13:30:00+00:00,FT,Girone C - 34,Foggia,521,Guidonia Montecelio 1937,882,1,2,True
+953124,2023-03-25T13:30:00+00:00,FT,Girone C - 34,Latina,804,Crotone,501,2,2,True
+953122,2023-03-25T13:30:00+00:00,FT,Girone C - 34,Viterbese,1585,Audace Cerignola,9539,1,1,True
+953126,2023-03-25T13:30:00+00:00,FT,Girone C - 34,AZ Picerno,1587,Gelbison,9544,0,0,True
+953121,2023-03-25T13:30:00+00:00,FT,Girone C - 34,Turris,5608,Messina,898,3,0,True
+953125,2023-03-25T13:30:00+00:00,FT,Girone C - 34,Giugliano,9556,Fidelis Andria,1695,4,3,True
+953123,2023-03-25T16:30:00+00:00,FT,Girone C - 34,Taranto,1696,Avellino,528,2,2,True
+953127,2023-03-25T16:30:00+00:00,FT,Girone C - 34,Potenza,1710,Juve Stabia,863,5,2,True
+953130,2023-03-26T12:30:00+00:00,FT,Girone C - 34,Catanzaro,1687,Pescara,525,2,2,True
+953128,2023-03-26T15:30:00+00:00,FT,Girone C - 34,Virtus Francavilla,873,SS Monopoli,10138,2,0,True
+953135,2023-04-02T12:30:00+00:00,FT,Girone C - 35,Guidonia Montecelio 1937,882,AZ Picerno,1587,1,1,True
+953133,2023-04-02T12:30:00+00:00,FT,Girone C - 35,Messina,898,Foggia,521,0,1,True
+953132,2023-04-02T12:30:00+00:00,FT,Girone C - 35,Giugliano,9556,Catanzaro,1687,0,4,True
+953134,2023-04-02T12:30:00+00:00,FT,Girone C - 35,SS Monopoli,10138,Latina,804,3,1,True
+953137,2023-04-02T15:30:00+00:00,FT,Girone C - 35,Crotone,501,Taranto,1696,1,0,True
+953139,2023-04-02T15:30:00+00:00,FT,Girone C - 35,Pescara,525,Virtus Francavilla,873,4,1,True
+953131,2023-04-02T15:30:00+00:00,FT,Girone C - 35,Juve Stabia,863,Avellino,528,2,1,True
+953138,2023-04-02T15:30:00+00:00,FT,Girone C - 35,Fidelis Andria,1695,Turris,5608,2,0,True
+953136,2023-04-02T15:30:00+00:00,FT,Girone C - 35,Audace Cerignola,9539,Potenza,1710,1,1,True
+953140,2023-04-02T15:30:00+00:00,FT,Girone C - 35,Gelbison,9544,Viterbese,1585,0,1,True
+953142,2023-04-08T12:30:00+00:00,FT,Girone C - 36,Crotone,501,Audace Cerignola,9539,0,1,True
+953145,2023-04-08T12:30:00+00:00,FT,Girone C - 36,Latina,804,Gelbison,9544,2,0,True
+953149,2023-04-08T12:30:00+00:00,FT,Girone C - 36,Taranto,1696,Pescara,525,3,0,True
+953146,2023-04-08T15:30:00+00:00,FT,Girone C - 36,Foggia,521,Giugliano,9556,3,0,True
+953150,2023-04-08T15:30:00+00:00,FT,Girone C - 36,Avellino,528,Turris,5608,0,1,True
+953144,2023-04-08T15:30:00+00:00,FT,Girone C - 36,Juve Stabia,863,Fidelis Andria,1695,1,1,True
+953141,2023-04-08T15:30:00+00:00,FT,Girone C - 36,AZ Picerno,1587,Messina,898,0,0,True
+953147,2023-04-08T15:30:00+00:00,FT,Girone C - 36,Potenza,1710,SS Monopoli,10138,1,2,True
+953143,2023-04-08T18:30:00+00:00,FT,Girone C - 36,Virtus Francavilla,873,Catanzaro,1687,2,4,True
+953148,2023-04-08T18:30:00+00:00,FT,Girone C - 36,Viterbese,1585,Guidonia Montecelio 1937,882,0,1,True
+953156,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Pescara,525,SS Monopoli,10138,2,1,True
+953157,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Virtus Francavilla,873,AZ Picerno,1587,0,1,True
+953159,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Guidonia Montecelio 1937,882,Taranto,1696,0,0,True
+953154,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Messina,898,Juve Stabia,863,1,0,True
+953153,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Catanzaro,1687,Foggia,521,2,1,True
+953151,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Fidelis Andria,1695,Avellino,528,1,0,True
+953160,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Turris,5608,Viterbese,1585,2,1,True
+953155,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Audace Cerignola,9539,Latina,804,2,1,True
+953152,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Gelbison,9544,Crotone,501,0,2,True
+953158,2023-04-16T15:30:00+00:00,FT,Girone C - 37,Giugliano,9556,Potenza,1710,3,2,True
+953166,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Crotone,501,Giugliano,9556,3,1,True
+953169,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Foggia,521,Turris,5608,4,0,True
+953167,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Avellino,528,Guidonia Montecelio 1937,882,0,2,True
+953164,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Latina,804,Fidelis Andria,1695,2,1,True
+953162,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Juve Stabia,863,Audace Cerignola,9539,2,2,True
+953170,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Viterbese,1585,Virtus Francavilla,873,2,1,True
+953168,2023-04-23T15:30:00+00:00,FT,Girone C - 38,AZ Picerno,1587,Pescara,525,0,3,True
+953161,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Taranto,1696,Messina,898,0,0,True
+953163,2023-04-23T15:30:00+00:00,FT,Girone C - 38,Potenza,1710,Catanzaro,1687,3,2,True
+953165,2023-04-23T15:30:00+00:00,FT,Girone C - 38,SS Monopoli,10138,Gelbison,9544,2,1,True

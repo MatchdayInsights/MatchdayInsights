@@ -1,241 +1,241 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1589439,2026-08-01T16:00:00+00:00,FT,Wiltz,11906,Etzella Ettelbruck,2042,1,1,True
-1589442,2026-08-01T17:00:00+00:00,FT,Progres Niederkorn,658,AS Jeunesse Esch,2034,2,1,True
-1589443,2026-08-02T14:00:00+00:00,FT,Racing FC Union Luxembourg,2030,UN Kaerjeng 97,2035,5,1,True
-1589444,2026-08-02T14:00:00+00:00,FT,US Rumelange,2033,Swift Hesperange,11907,1,0,True
-1589441,2026-08-02T14:00:00+00:00,FT,US Mondorf-les-bains,2037,FC Differdange 03,684,3,2,True
-1589446,2026-08-02T14:00:00+00:00,FT,Résidence Walferdange,15900,US Hostert,2040,3,2,True
-1589445,2026-08-04T18:00:00+00:00,FT,UNA Strassen,2036,Victoria Rosport,2038,4,0,True
-1589440,2026-08-04T18:00:00+00:00,FT,Atert Bissen,15847,F91 Dudelange,578,2,0,True
-1589448,2026-08-09T14:00:00+00:00,NS,F91 Dudelange,578,UNA Strassen,2036,,,False
-1589447,2026-08-09T14:00:00+00:00,NS,FC Differdange 03,684,US Rumelange,2033,,,False
-1589452,2026-08-09T14:00:00+00:00,NS,UN Kaerjeng 97,2035,US Hostert,2040,,,False
-1589453,2026-08-09T14:00:00+00:00,NS,Victoria Rosport,2038,US Mondorf-les-bains,2037,,,False
-1589449,2026-08-09T14:00:00+00:00,NS,Etzella Ettelbruck,2042,Racing FC Union Luxembourg,2030,,,False
-1589454,2026-08-09T14:00:00+00:00,NS,Résidence Walferdange,15900,Progres Niederkorn,658,,,False
-1589450,2026-08-09T16:00:00+00:00,NS,Swift Hesperange,11907,Wiltz,11906,,,False
-1589451,2026-08-09T17:00:00+00:00,NS,AS Jeunesse Esch,2034,Atert Bissen,15847,,,False
-1589460,2026-08-16T14:00:00+00:00,NS,US Rumelange,2033,Victoria Rosport,2038,,,False
-1589457,2026-08-16T14:00:00+00:00,NS,UN Kaerjeng 97,2035,Résidence Walferdange,15900,,,False
-1589461,2026-08-16T14:00:00+00:00,NS,UNA Strassen,2036,AS Jeunesse Esch,2034,,,False
-1589458,2026-08-16T14:00:00+00:00,NS,US Mondorf-les-bains,2037,F91 Dudelange,578,,,False
-1589456,2026-08-16T14:00:00+00:00,NS,US Hostert,2040,Etzella Ettelbruck,2042,,,False
-1589462,2026-08-16T14:00:00+00:00,NS,Wiltz,11906,FC Differdange 03,684,,,False
-1589455,2026-08-16T14:00:00+00:00,NS,Atert Bissen,15847,Progres Niederkorn,658,,,False
-1589459,2026-08-16T16:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Swift Hesperange,11907,,,False
-1589464,2026-08-23T14:00:00+00:00,NS,F91 Dudelange,578,US Rumelange,2033,,,False
-1589468,2026-08-23T14:00:00+00:00,NS,Progres Niederkorn,658,UNA Strassen,2036,,,False
-1589463,2026-08-23T14:00:00+00:00,NS,FC Differdange 03,684,Racing FC Union Luxembourg,2030,,,False
-1589467,2026-08-23T14:00:00+00:00,NS,AS Jeunesse Esch,2034,US Mondorf-les-bains,2037,,,False
-1589469,2026-08-23T14:00:00+00:00,NS,Victoria Rosport,2038,Wiltz,11906,,,False
-1589465,2026-08-23T14:00:00+00:00,NS,Etzella Ettelbruck,2042,UN Kaerjeng 97,2035,,,False
-1589466,2026-08-23T14:00:00+00:00,NS,Swift Hesperange,11907,US Hostert,2040,,,False
-1589470,2026-08-23T14:00:00+00:00,NS,Résidence Walferdange,15900,Atert Bissen,15847,,,False
-1589475,2026-08-30T14:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Victoria Rosport,2038,,,False
-1589476,2026-08-30T14:00:00+00:00,NS,US Rumelange,2033,AS Jeunesse Esch,2034,,,False
-1589473,2026-08-30T14:00:00+00:00,NS,UN Kaerjeng 97,2035,Swift Hesperange,11907,,,False
-1589477,2026-08-30T14:00:00+00:00,NS,UNA Strassen,2036,Atert Bissen,15847,,,False
-1589474,2026-08-30T14:00:00+00:00,NS,US Mondorf-les-bains,2037,Progres Niederkorn,658,,,False
-1589472,2026-08-30T14:00:00+00:00,NS,US Hostert,2040,FC Differdange 03,684,,,False
-1589471,2026-08-30T14:00:00+00:00,NS,Etzella Ettelbruck,2042,Résidence Walferdange,15900,,,False
-1589478,2026-08-30T14:00:00+00:00,NS,Wiltz,11906,F91 Dudelange,578,,,False
-1589481,2026-09-06T14:00:00+00:00,NS,F91 Dudelange,578,Racing FC Union Luxembourg,2030,,,False
-1589484,2026-09-06T14:00:00+00:00,NS,Progres Niederkorn,658,US Rumelange,2033,,,False
-1589480,2026-09-06T14:00:00+00:00,NS,FC Differdange 03,684,UN Kaerjeng 97,2035,,,False
-1589483,2026-09-06T14:00:00+00:00,NS,AS Jeunesse Esch,2034,Wiltz,11906,,,False
-1589485,2026-09-06T14:00:00+00:00,NS,Victoria Rosport,2038,US Hostert,2040,,,False
-1589482,2026-09-06T14:00:00+00:00,NS,Swift Hesperange,11907,Etzella Ettelbruck,2042,,,False
-1589479,2026-09-06T14:00:00+00:00,NS,Atert Bissen,15847,US Mondorf-les-bains,2037,,,False
-1589486,2026-09-06T14:00:00+00:00,NS,Résidence Walferdange,15900,UNA Strassen,2036,,,False
-1589492,2026-09-13T14:00:00+00:00,NS,Racing FC Union Luxembourg,2030,AS Jeunesse Esch,2034,,,False
-1589493,2026-09-13T14:00:00+00:00,NS,US Rumelange,2033,Atert Bissen,15847,,,False
-1589490,2026-09-13T14:00:00+00:00,NS,UN Kaerjeng 97,2035,Victoria Rosport,2038,,,False
-1589491,2026-09-13T14:00:00+00:00,NS,US Mondorf-les-bains,2037,UNA Strassen,2036,,,False
-1589489,2026-09-13T14:00:00+00:00,NS,US Hostert,2040,F91 Dudelange,578,,,False
-1589487,2026-09-13T14:00:00+00:00,NS,Etzella Ettelbruck,2042,FC Differdange 03,684,,,False
-1589494,2026-09-13T14:00:00+00:00,NS,Wiltz,11906,Progres Niederkorn,658,,,False
-1589488,2026-09-13T14:00:00+00:00,NS,Swift Hesperange,11907,Résidence Walferdange,15900,,,False
-1589497,2026-09-16T18:00:00+00:00,NS,F91 Dudelange,578,UN Kaerjeng 97,2035,,,False
-1589499,2026-09-16T18:00:00+00:00,NS,Progres Niederkorn,658,Racing FC Union Luxembourg,2030,,,False
-1589496,2026-09-16T18:00:00+00:00,NS,FC Differdange 03,684,Swift Hesperange,11907,,,False
-1589498,2026-09-16T18:00:00+00:00,NS,AS Jeunesse Esch,2034,US Hostert,2040,,,False
-1589500,2026-09-16T18:00:00+00:00,NS,UNA Strassen,2036,US Rumelange,2033,,,False
-1589501,2026-09-16T18:00:00+00:00,NS,Victoria Rosport,2038,Etzella Ettelbruck,2042,,,False
-1589495,2026-09-16T18:00:00+00:00,NS,Atert Bissen,15847,Wiltz,11906,,,False
-1589502,2026-09-16T18:00:00+00:00,NS,Résidence Walferdange,15900,US Mondorf-les-bains,2037,,,False
-1589503,2026-10-11T14:00:00+00:00,NS,FC Differdange 03,684,Résidence Walferdange,15900,,,False
-1589508,2026-10-11T14:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Atert Bissen,15847,,,False
-1589509,2026-10-11T14:00:00+00:00,NS,US Rumelange,2033,US Mondorf-les-bains,2037,,,False
-1589507,2026-10-11T14:00:00+00:00,NS,UN Kaerjeng 97,2035,AS Jeunesse Esch,2034,,,False
-1589506,2026-10-11T14:00:00+00:00,NS,US Hostert,2040,Progres Niederkorn,658,,,False
-1589504,2026-10-11T14:00:00+00:00,NS,Etzella Ettelbruck,2042,F91 Dudelange,578,,,False
-1589510,2026-10-11T14:00:00+00:00,NS,Wiltz,11906,UNA Strassen,2036,,,False
-1589505,2026-10-11T14:00:00+00:00,NS,Swift Hesperange,11907,Victoria Rosport,2038,,,False
-1589512,2026-10-18T14:00:00+00:00,NS,F91 Dudelange,578,Swift Hesperange,11907,,,False
-1589515,2026-10-18T14:00:00+00:00,NS,Progres Niederkorn,658,UN Kaerjeng 97,2035,,,False
-1589513,2026-10-18T14:00:00+00:00,NS,AS Jeunesse Esch,2034,Etzella Ettelbruck,2042,,,False
-1589516,2026-10-18T14:00:00+00:00,NS,UNA Strassen,2036,Racing FC Union Luxembourg,2030,,,False
-1589514,2026-10-18T14:00:00+00:00,NS,US Mondorf-les-bains,2037,Wiltz,11906,,,False
-1589517,2026-10-18T14:00:00+00:00,NS,Victoria Rosport,2038,FC Differdange 03,684,,,False
-1589511,2026-10-18T14:00:00+00:00,NS,Atert Bissen,15847,US Hostert,2040,,,False
-1589518,2026-10-18T14:00:00+00:00,NS,Résidence Walferdange,15900,US Rumelange,2033,,,False
-1589519,2026-10-25T15:00:00+00:00,NS,FC Differdange 03,684,F91 Dudelange,578,,,False
-1589524,2026-10-25T15:00:00+00:00,NS,Racing FC Union Luxembourg,2030,US Mondorf-les-bains,2037,,,False
-1589523,2026-10-25T15:00:00+00:00,NS,UN Kaerjeng 97,2035,Atert Bissen,15847,,,False
-1589525,2026-10-25T15:00:00+00:00,NS,Victoria Rosport,2038,Résidence Walferdange,15900,,,False
-1589522,2026-10-25T15:00:00+00:00,NS,US Hostert,2040,UNA Strassen,2036,,,False
-1589520,2026-10-25T15:00:00+00:00,NS,Etzella Ettelbruck,2042,Progres Niederkorn,658,,,False
-1589526,2026-10-25T15:00:00+00:00,NS,Wiltz,11906,US Rumelange,2033,,,False
-1589521,2026-10-25T15:00:00+00:00,NS,Swift Hesperange,11907,AS Jeunesse Esch,2034,,,False
-1589528,2026-10-31T17:00:00+00:00,NS,F91 Dudelange,578,Victoria Rosport,2038,,,False
-1589531,2026-10-31T17:00:00+00:00,NS,Progres Niederkorn,658,Swift Hesperange,11907,,,False
-1589532,2026-10-31T17:00:00+00:00,NS,US Rumelange,2033,Racing FC Union Luxembourg,2030,,,False
-1589529,2026-10-31T17:00:00+00:00,NS,AS Jeunesse Esch,2034,FC Differdange 03,684,,,False
-1589533,2026-10-31T17:00:00+00:00,NS,UNA Strassen,2036,UN Kaerjeng 97,2035,,,False
-1589530,2026-10-31T17:00:00+00:00,NS,US Mondorf-les-bains,2037,US Hostert,2040,,,False
-1589527,2026-10-31T17:00:00+00:00,NS,Atert Bissen,15847,Etzella Ettelbruck,2042,,,False
-1589534,2026-10-31T17:00:00+00:00,NS,Résidence Walferdange,15900,Wiltz,11906,,,False
-1589536,2026-11-22T15:00:00+00:00,NS,F91 Dudelange,578,Résidence Walferdange,15900,,,False
-1589535,2026-11-22T15:00:00+00:00,NS,FC Differdange 03,684,Progres Niederkorn,658,,,False
-1589541,2026-11-22T15:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Wiltz,11906,,,False
-1589540,2026-11-22T15:00:00+00:00,NS,UN Kaerjeng 97,2035,US Mondorf-les-bains,2037,,,False
-1589542,2026-11-22T15:00:00+00:00,NS,Victoria Rosport,2038,AS Jeunesse Esch,2034,,,False
-1589539,2026-11-22T15:00:00+00:00,NS,US Hostert,2040,US Rumelange,2033,,,False
-1589537,2026-11-22T15:00:00+00:00,NS,Etzella Ettelbruck,2042,UNA Strassen,2036,,,False
-1589538,2026-11-22T15:00:00+00:00,NS,Swift Hesperange,11907,Atert Bissen,15847,,,False
-1589546,2026-11-29T15:00:00+00:00,NS,Progres Niederkorn,658,Victoria Rosport,2038,,,False
-1589547,2026-11-29T15:00:00+00:00,NS,US Rumelange,2033,UN Kaerjeng 97,2035,,,False
-1589544,2026-11-29T15:00:00+00:00,NS,AS Jeunesse Esch,2034,F91 Dudelange,578,,,False
-1589548,2026-11-29T15:00:00+00:00,NS,UNA Strassen,2036,Swift Hesperange,11907,,,False
-1589545,2026-11-29T15:00:00+00:00,NS,US Mondorf-les-bains,2037,Etzella Ettelbruck,2042,,,False
-1589550,2026-11-29T15:00:00+00:00,NS,Wiltz,11906,US Hostert,2040,,,False
-1589543,2026-11-29T15:00:00+00:00,NS,Atert Bissen,15847,FC Differdange 03,684,,,False
-1589549,2026-11-29T15:00:00+00:00,NS,Résidence Walferdange,15900,Racing FC Union Luxembourg,2030,,,False
-1589552,2026-12-06T15:00:00+00:00,NS,F91 Dudelange,578,Progres Niederkorn,658,,,False
-1589551,2026-12-06T15:00:00+00:00,NS,FC Differdange 03,684,UNA Strassen,2036,,,False
-1589556,2026-12-06T15:00:00+00:00,NS,AS Jeunesse Esch,2034,Résidence Walferdange,15900,,,False
-1589557,2026-12-06T15:00:00+00:00,NS,UN Kaerjeng 97,2035,Wiltz,11906,,,False
-1589558,2026-12-06T15:00:00+00:00,NS,Victoria Rosport,2038,Atert Bissen,15847,,,False
-1589555,2026-12-06T15:00:00+00:00,NS,US Hostert,2040,Racing FC Union Luxembourg,2030,,,False
-1589553,2026-12-06T15:00:00+00:00,NS,Etzella Ettelbruck,2042,US Rumelange,2033,,,False
-1589554,2026-12-06T15:00:00+00:00,NS,Swift Hesperange,11907,US Mondorf-les-bains,2037,,,False
-1589562,2027-02-07T15:00:00+00:00,NS,Progres Niederkorn,658,Résidence Walferdange,15900,,,False
-1589563,2027-02-07T15:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Etzella Ettelbruck,2042,,,False
-1589564,2027-02-07T15:00:00+00:00,NS,US Rumelange,2033,FC Differdange 03,684,,,False
-1589565,2027-02-07T15:00:00+00:00,NS,UNA Strassen,2036,F91 Dudelange,578,,,False
-1589561,2027-02-07T15:00:00+00:00,NS,US Mondorf-les-bains,2037,Victoria Rosport,2038,,,False
-1589560,2027-02-07T15:00:00+00:00,NS,US Hostert,2040,UN Kaerjeng 97,2035,,,False
-1589566,2027-02-07T15:00:00+00:00,NS,Wiltz,11906,Swift Hesperange,11907,,,False
-1589559,2027-02-07T15:00:00+00:00,NS,Atert Bissen,15847,AS Jeunesse Esch,2034,,,False
-1589568,2027-02-14T15:00:00+00:00,NS,F91 Dudelange,578,US Mondorf-les-bains,2037,,,False
-1589572,2027-02-14T15:00:00+00:00,NS,Progres Niederkorn,658,Atert Bissen,15847,,,False
-1589567,2027-02-14T15:00:00+00:00,NS,FC Differdange 03,684,Wiltz,11906,,,False
-1589571,2027-02-14T15:00:00+00:00,NS,AS Jeunesse Esch,2034,UNA Strassen,2036,,,False
-1589573,2027-02-14T15:00:00+00:00,NS,Victoria Rosport,2038,US Rumelange,2033,,,False
-1589569,2027-02-14T15:00:00+00:00,NS,Etzella Ettelbruck,2042,US Hostert,2040,,,False
-1589570,2027-02-14T15:00:00+00:00,NS,Swift Hesperange,11907,Racing FC Union Luxembourg,2030,,,False
-1589574,2027-02-14T15:00:00+00:00,NS,Résidence Walferdange,15900,UN Kaerjeng 97,2035,,,False
-1589579,2027-02-21T15:00:00+00:00,NS,Racing FC Union Luxembourg,2030,FC Differdange 03,684,,,False
-1589580,2027-02-21T15:00:00+00:00,NS,US Rumelange,2033,F91 Dudelange,578,,,False
-1589577,2027-02-21T15:00:00+00:00,NS,UN Kaerjeng 97,2035,Etzella Ettelbruck,2042,,,False
-1589581,2027-02-21T15:00:00+00:00,NS,UNA Strassen,2036,Progres Niederkorn,658,,,False
-1589578,2027-02-21T15:00:00+00:00,NS,US Mondorf-les-bains,2037,AS Jeunesse Esch,2034,,,False
-1589576,2027-02-21T15:00:00+00:00,NS,US Hostert,2040,Swift Hesperange,11907,,,False
-1589582,2027-02-21T15:00:00+00:00,NS,Wiltz,11906,Victoria Rosport,2038,,,False
-1589575,2027-02-21T15:00:00+00:00,NS,Atert Bissen,15847,Résidence Walferdange,15900,,,False
-1589585,2027-02-28T15:00:00+00:00,NS,F91 Dudelange,578,Wiltz,11906,,,False
-1589588,2027-02-28T15:00:00+00:00,NS,Progres Niederkorn,658,US Mondorf-les-bains,2037,,,False
-1589584,2027-02-28T15:00:00+00:00,NS,FC Differdange 03,684,US Hostert,2040,,,False
-1589587,2027-02-28T15:00:00+00:00,NS,AS Jeunesse Esch,2034,US Rumelange,2033,,,False
-1589589,2027-02-28T15:00:00+00:00,NS,Victoria Rosport,2038,Racing FC Union Luxembourg,2030,,,False
-1589586,2027-02-28T15:00:00+00:00,NS,Swift Hesperange,11907,UN Kaerjeng 97,2035,,,False
-1589583,2027-02-28T15:00:00+00:00,NS,Atert Bissen,15847,UNA Strassen,2036,,,False
-1589590,2027-02-28T15:00:00+00:00,NS,Résidence Walferdange,15900,Etzella Ettelbruck,2042,,,False
-1589595,2027-03-07T15:00:00+00:00,NS,Racing FC Union Luxembourg,2030,F91 Dudelange,578,,,False
-1589596,2027-03-07T15:00:00+00:00,NS,US Rumelange,2033,Progres Niederkorn,658,,,False
-1589593,2027-03-07T15:00:00+00:00,NS,UN Kaerjeng 97,2035,FC Differdange 03,684,,,False
-1589597,2027-03-07T15:00:00+00:00,NS,UNA Strassen,2036,Résidence Walferdange,15900,,,False
-1589594,2027-03-07T15:00:00+00:00,NS,US Mondorf-les-bains,2037,Atert Bissen,15847,,,False
-1589592,2027-03-07T15:00:00+00:00,NS,US Hostert,2040,Victoria Rosport,2038,,,False
-1589591,2027-03-07T15:00:00+00:00,NS,Etzella Ettelbruck,2042,Swift Hesperange,11907,,,False
-1589598,2027-03-07T15:00:00+00:00,NS,Wiltz,11906,AS Jeunesse Esch,2034,,,False
-1589601,2027-03-14T15:00:00+00:00,NS,F91 Dudelange,578,US Hostert,2040,,,False
-1589603,2027-03-14T15:00:00+00:00,NS,Progres Niederkorn,658,Wiltz,11906,,,False
-1589600,2027-03-14T15:00:00+00:00,NS,FC Differdange 03,684,Etzella Ettelbruck,2042,,,False
-1589602,2027-03-14T15:00:00+00:00,NS,AS Jeunesse Esch,2034,Racing FC Union Luxembourg,2030,,,False
-1589604,2027-03-14T15:00:00+00:00,NS,UNA Strassen,2036,US Mondorf-les-bains,2037,,,False
-1589605,2027-03-14T15:00:00+00:00,NS,Victoria Rosport,2038,UN Kaerjeng 97,2035,,,False
-1589599,2027-03-14T15:00:00+00:00,NS,Atert Bissen,15847,US Rumelange,2033,,,False
-1589606,2027-03-14T15:00:00+00:00,NS,Résidence Walferdange,15900,Swift Hesperange,11907,,,False
-1589612,2027-03-21T15:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Progres Niederkorn,658,,,False
-1589613,2027-03-21T15:00:00+00:00,NS,US Rumelange,2033,UNA Strassen,2036,,,False
-1589610,2027-03-21T15:00:00+00:00,NS,UN Kaerjeng 97,2035,F91 Dudelange,578,,,False
-1589611,2027-03-21T15:00:00+00:00,NS,US Mondorf-les-bains,2037,Résidence Walferdange,15900,,,False
-1589609,2027-03-21T15:00:00+00:00,NS,US Hostert,2040,AS Jeunesse Esch,2034,,,False
-1589607,2027-03-21T15:00:00+00:00,NS,Etzella Ettelbruck,2042,Victoria Rosport,2038,,,False
-1589614,2027-03-21T15:00:00+00:00,NS,Wiltz,11906,Atert Bissen,15847,,,False
-1589608,2027-03-21T15:00:00+00:00,NS,Swift Hesperange,11907,FC Differdange 03,684,,,False
-1589616,2027-04-04T14:00:00+00:00,NS,F91 Dudelange,578,Etzella Ettelbruck,2042,,,False
-1589619,2027-04-04T14:00:00+00:00,NS,Progres Niederkorn,658,US Hostert,2040,,,False
-1589617,2027-04-04T14:00:00+00:00,NS,AS Jeunesse Esch,2034,UN Kaerjeng 97,2035,,,False
-1589620,2027-04-04T14:00:00+00:00,NS,UNA Strassen,2036,Wiltz,11906,,,False
-1589618,2027-04-04T14:00:00+00:00,NS,US Mondorf-les-bains,2037,US Rumelange,2033,,,False
-1589621,2027-04-04T14:00:00+00:00,NS,Victoria Rosport,2038,Swift Hesperange,11907,,,False
-1589615,2027-04-04T14:00:00+00:00,NS,Atert Bissen,15847,Racing FC Union Luxembourg,2030,,,False
-1589622,2027-04-04T14:00:00+00:00,NS,Résidence Walferdange,15900,FC Differdange 03,684,,,False
-1589623,2027-04-11T14:00:00+00:00,NS,FC Differdange 03,684,Victoria Rosport,2038,,,False
-1589628,2027-04-11T14:00:00+00:00,NS,Racing FC Union Luxembourg,2030,UNA Strassen,2036,,,False
-1589629,2027-04-11T14:00:00+00:00,NS,US Rumelange,2033,Résidence Walferdange,15900,,,False
-1589627,2027-04-11T14:00:00+00:00,NS,UN Kaerjeng 97,2035,Progres Niederkorn,658,,,False
-1589626,2027-04-11T14:00:00+00:00,NS,US Hostert,2040,Atert Bissen,15847,,,False
-1589624,2027-04-11T14:00:00+00:00,NS,Etzella Ettelbruck,2042,AS Jeunesse Esch,2034,,,False
-1589630,2027-04-11T14:00:00+00:00,NS,Wiltz,11906,US Mondorf-les-bains,2037,,,False
-1589625,2027-04-11T14:00:00+00:00,NS,Swift Hesperange,11907,F91 Dudelange,578,,,False
-1589632,2027-04-18T14:00:00+00:00,NS,F91 Dudelange,578,FC Differdange 03,684,,,False
-1589635,2027-04-18T14:00:00+00:00,NS,Progres Niederkorn,658,Etzella Ettelbruck,2042,,,False
-1589636,2027-04-18T14:00:00+00:00,NS,US Rumelange,2033,Wiltz,11906,,,False
-1589633,2027-04-18T14:00:00+00:00,NS,AS Jeunesse Esch,2034,Swift Hesperange,11907,,,False
-1589637,2027-04-18T14:00:00+00:00,NS,UNA Strassen,2036,US Hostert,2040,,,False
-1589634,2027-04-18T14:00:00+00:00,NS,US Mondorf-les-bains,2037,Racing FC Union Luxembourg,2030,,,False
-1589631,2027-04-18T14:00:00+00:00,NS,Atert Bissen,15847,UN Kaerjeng 97,2035,,,False
-1589638,2027-04-18T14:00:00+00:00,NS,Résidence Walferdange,15900,Victoria Rosport,2038,,,False
-1589639,2027-04-25T14:00:00+00:00,NS,FC Differdange 03,684,AS Jeunesse Esch,2034,,,False
-1589644,2027-04-25T14:00:00+00:00,NS,Racing FC Union Luxembourg,2030,US Rumelange,2033,,,False
-1589643,2027-04-25T14:00:00+00:00,NS,UN Kaerjeng 97,2035,UNA Strassen,2036,,,False
-1589645,2027-04-25T14:00:00+00:00,NS,Victoria Rosport,2038,F91 Dudelange,578,,,False
-1589642,2027-04-25T14:00:00+00:00,NS,US Hostert,2040,US Mondorf-les-bains,2037,,,False
-1589640,2027-04-25T14:00:00+00:00,NS,Etzella Ettelbruck,2042,Atert Bissen,15847,,,False
-1589646,2027-04-25T14:00:00+00:00,NS,Wiltz,11906,Résidence Walferdange,15900,,,False
-1589641,2027-04-25T14:00:00+00:00,NS,Swift Hesperange,11907,Progres Niederkorn,658,,,False
-1589650,2027-05-02T14:00:00+00:00,NS,Progres Niederkorn,658,FC Differdange 03,684,,,False
-1589651,2027-05-02T14:00:00+00:00,NS,US Rumelange,2033,US Hostert,2040,,,False
-1589648,2027-05-02T14:00:00+00:00,NS,AS Jeunesse Esch,2034,Victoria Rosport,2038,,,False
-1589652,2027-05-02T14:00:00+00:00,NS,UNA Strassen,2036,Etzella Ettelbruck,2042,,,False
-1589649,2027-05-02T14:00:00+00:00,NS,US Mondorf-les-bains,2037,UN Kaerjeng 97,2035,,,False
-1589654,2027-05-02T14:00:00+00:00,NS,Wiltz,11906,Racing FC Union Luxembourg,2030,,,False
-1589647,2027-05-02T14:00:00+00:00,NS,Atert Bissen,15847,Swift Hesperange,11907,,,False
-1589653,2027-05-02T14:00:00+00:00,NS,Résidence Walferdange,15900,F91 Dudelange,578,,,False
-1589656,2027-05-09T14:00:00+00:00,NS,F91 Dudelange,578,AS Jeunesse Esch,2034,,,False
-1589655,2027-05-09T14:00:00+00:00,NS,FC Differdange 03,684,Atert Bissen,15847,,,False
-1589661,2027-05-09T14:00:00+00:00,NS,Racing FC Union Luxembourg,2030,Résidence Walferdange,15900,,,False
-1589660,2027-05-09T14:00:00+00:00,NS,UN Kaerjeng 97,2035,US Rumelange,2033,,,False
-1589662,2027-05-09T14:00:00+00:00,NS,Victoria Rosport,2038,Progres Niederkorn,658,,,False
-1589659,2027-05-09T14:00:00+00:00,NS,US Hostert,2040,Wiltz,11906,,,False
-1589657,2027-05-09T14:00:00+00:00,NS,Etzella Ettelbruck,2042,US Mondorf-les-bains,2037,,,False
-1589658,2027-05-09T14:00:00+00:00,NS,Swift Hesperange,11907,UNA Strassen,2036,,,False
-1589665,2027-05-15T16:00:00+00:00,NS,Progres Niederkorn,658,F91 Dudelange,578,,,False
-1589666,2027-05-15T16:00:00+00:00,NS,Racing FC Union Luxembourg,2030,US Hostert,2040,,,False
-1589667,2027-05-15T16:00:00+00:00,NS,US Rumelange,2033,Etzella Ettelbruck,2042,,,False
-1589668,2027-05-15T16:00:00+00:00,NS,UNA Strassen,2036,FC Differdange 03,684,,,False
-1589664,2027-05-15T16:00:00+00:00,NS,US Mondorf-les-bains,2037,Swift Hesperange,11907,,,False
-1589670,2027-05-15T16:00:00+00:00,NS,Wiltz,11906,UN Kaerjeng 97,2035,,,False
-1589663,2027-05-15T16:00:00+00:00,NS,Atert Bissen,15847,Victoria Rosport,2038,,,False
-1589669,2027-05-15T16:00:00+00:00,NS,Résidence Walferdange,15900,AS Jeunesse Esch,2034,,,False
-1589672,2027-05-23T14:00:00+00:00,NS,F91 Dudelange,578,Atert Bissen,15847,,,False
-1589671,2027-05-23T14:00:00+00:00,NS,FC Differdange 03,684,US Mondorf-les-bains,2037,,,False
-1589676,2027-05-23T14:00:00+00:00,NS,AS Jeunesse Esch,2034,Progres Niederkorn,658,,,False
-1589677,2027-05-23T14:00:00+00:00,NS,UN Kaerjeng 97,2035,Racing FC Union Luxembourg,2030,,,False
-1589678,2027-05-23T14:00:00+00:00,NS,Victoria Rosport,2038,UNA Strassen,2036,,,False
-1589675,2027-05-23T14:00:00+00:00,NS,US Hostert,2040,Résidence Walferdange,15900,,,False
-1589673,2027-05-23T14:00:00+00:00,NS,Etzella Ettelbruck,2042,Wiltz,11906,,,False
-1589674,2027-05-23T14:00:00+00:00,NS,Swift Hesperange,11907,US Rumelange,2033,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1589439,2026-08-01T16:00:00+00:00,FT,Regular Season - 1,Wiltz,11906,Etzella Ettelbruck,2042,1,1,True
+1589442,2026-08-01T17:00:00+00:00,FT,Regular Season - 1,Progres Niederkorn,658,AS Jeunesse Esch,2034,2,1,True
+1589443,2026-08-02T14:00:00+00:00,FT,Regular Season - 1,Racing FC Union Luxembourg,2030,UN Kaerjeng 97,2035,5,1,True
+1589444,2026-08-02T14:00:00+00:00,FT,Regular Season - 1,US Rumelange,2033,Swift Hesperange,11907,1,0,True
+1589441,2026-08-02T14:00:00+00:00,FT,Regular Season - 1,US Mondorf-les-bains,2037,FC Differdange 03,684,3,2,True
+1589446,2026-08-02T14:00:00+00:00,FT,Regular Season - 1,Résidence Walferdange,15900,US Hostert,2040,3,2,True
+1589445,2026-08-04T18:00:00+00:00,FT,Regular Season - 1,UNA Strassen,2036,Victoria Rosport,2038,4,0,True
+1589440,2026-08-04T18:00:00+00:00,FT,Regular Season - 1,Atert Bissen,15847,F91 Dudelange,578,2,0,True
+1589448,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,F91 Dudelange,578,UNA Strassen,2036,,,False
+1589447,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,FC Differdange 03,684,US Rumelange,2033,,,False
+1589452,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,UN Kaerjeng 97,2035,US Hostert,2040,,,False
+1589453,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,Victoria Rosport,2038,US Mondorf-les-bains,2037,,,False
+1589449,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,Etzella Ettelbruck,2042,Racing FC Union Luxembourg,2030,,,False
+1589454,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,Résidence Walferdange,15900,Progres Niederkorn,658,,,False
+1589450,2026-08-09T16:00:00+00:00,NS,Regular Season - 2,Swift Hesperange,11907,Wiltz,11906,,,False
+1589451,2026-08-09T17:00:00+00:00,NS,Regular Season - 2,AS Jeunesse Esch,2034,Atert Bissen,15847,,,False
+1589460,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,US Rumelange,2033,Victoria Rosport,2038,,,False
+1589457,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,UN Kaerjeng 97,2035,Résidence Walferdange,15900,,,False
+1589461,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,UNA Strassen,2036,AS Jeunesse Esch,2034,,,False
+1589458,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,US Mondorf-les-bains,2037,F91 Dudelange,578,,,False
+1589456,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,US Hostert,2040,Etzella Ettelbruck,2042,,,False
+1589462,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,Wiltz,11906,FC Differdange 03,684,,,False
+1589455,2026-08-16T14:00:00+00:00,NS,Regular Season - 3,Atert Bissen,15847,Progres Niederkorn,658,,,False
+1589459,2026-08-16T16:00:00+00:00,NS,Regular Season - 3,Racing FC Union Luxembourg,2030,Swift Hesperange,11907,,,False
+1589464,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,F91 Dudelange,578,US Rumelange,2033,,,False
+1589468,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,Progres Niederkorn,658,UNA Strassen,2036,,,False
+1589463,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,FC Differdange 03,684,Racing FC Union Luxembourg,2030,,,False
+1589467,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,AS Jeunesse Esch,2034,US Mondorf-les-bains,2037,,,False
+1589469,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,Victoria Rosport,2038,Wiltz,11906,,,False
+1589465,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,Etzella Ettelbruck,2042,UN Kaerjeng 97,2035,,,False
+1589466,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,Swift Hesperange,11907,US Hostert,2040,,,False
+1589470,2026-08-23T14:00:00+00:00,NS,Regular Season - 4,Résidence Walferdange,15900,Atert Bissen,15847,,,False
+1589475,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,Racing FC Union Luxembourg,2030,Victoria Rosport,2038,,,False
+1589476,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,US Rumelange,2033,AS Jeunesse Esch,2034,,,False
+1589473,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,UN Kaerjeng 97,2035,Swift Hesperange,11907,,,False
+1589477,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,UNA Strassen,2036,Atert Bissen,15847,,,False
+1589474,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,US Mondorf-les-bains,2037,Progres Niederkorn,658,,,False
+1589472,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,US Hostert,2040,FC Differdange 03,684,,,False
+1589471,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,Etzella Ettelbruck,2042,Résidence Walferdange,15900,,,False
+1589478,2026-08-30T14:00:00+00:00,NS,Regular Season - 5,Wiltz,11906,F91 Dudelange,578,,,False
+1589481,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,F91 Dudelange,578,Racing FC Union Luxembourg,2030,,,False
+1589484,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,Progres Niederkorn,658,US Rumelange,2033,,,False
+1589480,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,FC Differdange 03,684,UN Kaerjeng 97,2035,,,False
+1589483,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,AS Jeunesse Esch,2034,Wiltz,11906,,,False
+1589485,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,Victoria Rosport,2038,US Hostert,2040,,,False
+1589482,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,Swift Hesperange,11907,Etzella Ettelbruck,2042,,,False
+1589479,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,Atert Bissen,15847,US Mondorf-les-bains,2037,,,False
+1589486,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,Résidence Walferdange,15900,UNA Strassen,2036,,,False
+1589492,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,Racing FC Union Luxembourg,2030,AS Jeunesse Esch,2034,,,False
+1589493,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,US Rumelange,2033,Atert Bissen,15847,,,False
+1589490,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,UN Kaerjeng 97,2035,Victoria Rosport,2038,,,False
+1589491,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,US Mondorf-les-bains,2037,UNA Strassen,2036,,,False
+1589489,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,US Hostert,2040,F91 Dudelange,578,,,False
+1589487,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,Etzella Ettelbruck,2042,FC Differdange 03,684,,,False
+1589494,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,Wiltz,11906,Progres Niederkorn,658,,,False
+1589488,2026-09-13T14:00:00+00:00,NS,Regular Season - 7,Swift Hesperange,11907,Résidence Walferdange,15900,,,False
+1589497,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,F91 Dudelange,578,UN Kaerjeng 97,2035,,,False
+1589499,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,Progres Niederkorn,658,Racing FC Union Luxembourg,2030,,,False
+1589496,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,FC Differdange 03,684,Swift Hesperange,11907,,,False
+1589498,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,AS Jeunesse Esch,2034,US Hostert,2040,,,False
+1589500,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,UNA Strassen,2036,US Rumelange,2033,,,False
+1589501,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,Victoria Rosport,2038,Etzella Ettelbruck,2042,,,False
+1589495,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,Atert Bissen,15847,Wiltz,11906,,,False
+1589502,2026-09-16T18:00:00+00:00,NS,Regular Season - 8,Résidence Walferdange,15900,US Mondorf-les-bains,2037,,,False
+1589503,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,FC Differdange 03,684,Résidence Walferdange,15900,,,False
+1589508,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,Racing FC Union Luxembourg,2030,Atert Bissen,15847,,,False
+1589509,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,US Rumelange,2033,US Mondorf-les-bains,2037,,,False
+1589507,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,UN Kaerjeng 97,2035,AS Jeunesse Esch,2034,,,False
+1589506,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,US Hostert,2040,Progres Niederkorn,658,,,False
+1589504,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,Etzella Ettelbruck,2042,F91 Dudelange,578,,,False
+1589510,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,Wiltz,11906,UNA Strassen,2036,,,False
+1589505,2026-10-11T14:00:00+00:00,NS,Regular Season - 9,Swift Hesperange,11907,Victoria Rosport,2038,,,False
+1589512,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,F91 Dudelange,578,Swift Hesperange,11907,,,False
+1589515,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,Progres Niederkorn,658,UN Kaerjeng 97,2035,,,False
+1589513,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,AS Jeunesse Esch,2034,Etzella Ettelbruck,2042,,,False
+1589516,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,UNA Strassen,2036,Racing FC Union Luxembourg,2030,,,False
+1589514,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,US Mondorf-les-bains,2037,Wiltz,11906,,,False
+1589517,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,Victoria Rosport,2038,FC Differdange 03,684,,,False
+1589511,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,Atert Bissen,15847,US Hostert,2040,,,False
+1589518,2026-10-18T14:00:00+00:00,NS,Regular Season - 10,Résidence Walferdange,15900,US Rumelange,2033,,,False
+1589519,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,FC Differdange 03,684,F91 Dudelange,578,,,False
+1589524,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,Racing FC Union Luxembourg,2030,US Mondorf-les-bains,2037,,,False
+1589523,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,UN Kaerjeng 97,2035,Atert Bissen,15847,,,False
+1589525,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,Victoria Rosport,2038,Résidence Walferdange,15900,,,False
+1589522,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,US Hostert,2040,UNA Strassen,2036,,,False
+1589520,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,Etzella Ettelbruck,2042,Progres Niederkorn,658,,,False
+1589526,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,Wiltz,11906,US Rumelange,2033,,,False
+1589521,2026-10-25T15:00:00+00:00,NS,Regular Season - 11,Swift Hesperange,11907,AS Jeunesse Esch,2034,,,False
+1589528,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,F91 Dudelange,578,Victoria Rosport,2038,,,False
+1589531,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,Progres Niederkorn,658,Swift Hesperange,11907,,,False
+1589532,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,US Rumelange,2033,Racing FC Union Luxembourg,2030,,,False
+1589529,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,AS Jeunesse Esch,2034,FC Differdange 03,684,,,False
+1589533,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,UNA Strassen,2036,UN Kaerjeng 97,2035,,,False
+1589530,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,US Mondorf-les-bains,2037,US Hostert,2040,,,False
+1589527,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,Atert Bissen,15847,Etzella Ettelbruck,2042,,,False
+1589534,2026-10-31T17:00:00+00:00,NS,Regular Season - 12,Résidence Walferdange,15900,Wiltz,11906,,,False
+1589536,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,F91 Dudelange,578,Résidence Walferdange,15900,,,False
+1589535,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,FC Differdange 03,684,Progres Niederkorn,658,,,False
+1589541,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,Racing FC Union Luxembourg,2030,Wiltz,11906,,,False
+1589540,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,UN Kaerjeng 97,2035,US Mondorf-les-bains,2037,,,False
+1589542,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,Victoria Rosport,2038,AS Jeunesse Esch,2034,,,False
+1589539,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,US Hostert,2040,US Rumelange,2033,,,False
+1589537,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,Etzella Ettelbruck,2042,UNA Strassen,2036,,,False
+1589538,2026-11-22T15:00:00+00:00,NS,Regular Season - 13,Swift Hesperange,11907,Atert Bissen,15847,,,False
+1589546,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,Progres Niederkorn,658,Victoria Rosport,2038,,,False
+1589547,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,US Rumelange,2033,UN Kaerjeng 97,2035,,,False
+1589544,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,AS Jeunesse Esch,2034,F91 Dudelange,578,,,False
+1589548,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,UNA Strassen,2036,Swift Hesperange,11907,,,False
+1589545,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,US Mondorf-les-bains,2037,Etzella Ettelbruck,2042,,,False
+1589550,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,Wiltz,11906,US Hostert,2040,,,False
+1589543,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,Atert Bissen,15847,FC Differdange 03,684,,,False
+1589549,2026-11-29T15:00:00+00:00,NS,Regular Season - 14,Résidence Walferdange,15900,Racing FC Union Luxembourg,2030,,,False
+1589552,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,F91 Dudelange,578,Progres Niederkorn,658,,,False
+1589551,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,FC Differdange 03,684,UNA Strassen,2036,,,False
+1589556,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,AS Jeunesse Esch,2034,Résidence Walferdange,15900,,,False
+1589557,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,UN Kaerjeng 97,2035,Wiltz,11906,,,False
+1589558,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,Victoria Rosport,2038,Atert Bissen,15847,,,False
+1589555,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,US Hostert,2040,Racing FC Union Luxembourg,2030,,,False
+1589553,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,Etzella Ettelbruck,2042,US Rumelange,2033,,,False
+1589554,2026-12-06T15:00:00+00:00,NS,Regular Season - 15,Swift Hesperange,11907,US Mondorf-les-bains,2037,,,False
+1589562,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,Progres Niederkorn,658,Résidence Walferdange,15900,,,False
+1589563,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,Racing FC Union Luxembourg,2030,Etzella Ettelbruck,2042,,,False
+1589564,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,US Rumelange,2033,FC Differdange 03,684,,,False
+1589565,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,UNA Strassen,2036,F91 Dudelange,578,,,False
+1589561,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,US Mondorf-les-bains,2037,Victoria Rosport,2038,,,False
+1589560,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,US Hostert,2040,UN Kaerjeng 97,2035,,,False
+1589566,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,Wiltz,11906,Swift Hesperange,11907,,,False
+1589559,2027-02-07T15:00:00+00:00,NS,Regular Season - 16,Atert Bissen,15847,AS Jeunesse Esch,2034,,,False
+1589568,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,F91 Dudelange,578,US Mondorf-les-bains,2037,,,False
+1589572,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,Progres Niederkorn,658,Atert Bissen,15847,,,False
+1589567,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,FC Differdange 03,684,Wiltz,11906,,,False
+1589571,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,AS Jeunesse Esch,2034,UNA Strassen,2036,,,False
+1589573,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,Victoria Rosport,2038,US Rumelange,2033,,,False
+1589569,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,Etzella Ettelbruck,2042,US Hostert,2040,,,False
+1589570,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,Swift Hesperange,11907,Racing FC Union Luxembourg,2030,,,False
+1589574,2027-02-14T15:00:00+00:00,NS,Regular Season - 17,Résidence Walferdange,15900,UN Kaerjeng 97,2035,,,False
+1589579,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,Racing FC Union Luxembourg,2030,FC Differdange 03,684,,,False
+1589580,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,US Rumelange,2033,F91 Dudelange,578,,,False
+1589577,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,UN Kaerjeng 97,2035,Etzella Ettelbruck,2042,,,False
+1589581,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,UNA Strassen,2036,Progres Niederkorn,658,,,False
+1589578,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,US Mondorf-les-bains,2037,AS Jeunesse Esch,2034,,,False
+1589576,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,US Hostert,2040,Swift Hesperange,11907,,,False
+1589582,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,Wiltz,11906,Victoria Rosport,2038,,,False
+1589575,2027-02-21T15:00:00+00:00,NS,Regular Season - 18,Atert Bissen,15847,Résidence Walferdange,15900,,,False
+1589585,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,F91 Dudelange,578,Wiltz,11906,,,False
+1589588,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,Progres Niederkorn,658,US Mondorf-les-bains,2037,,,False
+1589584,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,FC Differdange 03,684,US Hostert,2040,,,False
+1589587,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,AS Jeunesse Esch,2034,US Rumelange,2033,,,False
+1589589,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,Victoria Rosport,2038,Racing FC Union Luxembourg,2030,,,False
+1589586,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,Swift Hesperange,11907,UN Kaerjeng 97,2035,,,False
+1589583,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,Atert Bissen,15847,UNA Strassen,2036,,,False
+1589590,2027-02-28T15:00:00+00:00,NS,Regular Season - 19,Résidence Walferdange,15900,Etzella Ettelbruck,2042,,,False
+1589595,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,Racing FC Union Luxembourg,2030,F91 Dudelange,578,,,False
+1589596,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,US Rumelange,2033,Progres Niederkorn,658,,,False
+1589593,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,UN Kaerjeng 97,2035,FC Differdange 03,684,,,False
+1589597,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,UNA Strassen,2036,Résidence Walferdange,15900,,,False
+1589594,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,US Mondorf-les-bains,2037,Atert Bissen,15847,,,False
+1589592,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,US Hostert,2040,Victoria Rosport,2038,,,False
+1589591,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,Etzella Ettelbruck,2042,Swift Hesperange,11907,,,False
+1589598,2027-03-07T15:00:00+00:00,NS,Regular Season - 20,Wiltz,11906,AS Jeunesse Esch,2034,,,False
+1589601,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,F91 Dudelange,578,US Hostert,2040,,,False
+1589603,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,Progres Niederkorn,658,Wiltz,11906,,,False
+1589600,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,FC Differdange 03,684,Etzella Ettelbruck,2042,,,False
+1589602,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,AS Jeunesse Esch,2034,Racing FC Union Luxembourg,2030,,,False
+1589604,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,UNA Strassen,2036,US Mondorf-les-bains,2037,,,False
+1589605,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,Victoria Rosport,2038,UN Kaerjeng 97,2035,,,False
+1589599,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,Atert Bissen,15847,US Rumelange,2033,,,False
+1589606,2027-03-14T15:00:00+00:00,NS,Regular Season - 21,Résidence Walferdange,15900,Swift Hesperange,11907,,,False
+1589612,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,Racing FC Union Luxembourg,2030,Progres Niederkorn,658,,,False
+1589613,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,US Rumelange,2033,UNA Strassen,2036,,,False
+1589610,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,UN Kaerjeng 97,2035,F91 Dudelange,578,,,False
+1589611,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,US Mondorf-les-bains,2037,Résidence Walferdange,15900,,,False
+1589609,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,US Hostert,2040,AS Jeunesse Esch,2034,,,False
+1589607,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,Etzella Ettelbruck,2042,Victoria Rosport,2038,,,False
+1589614,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,Wiltz,11906,Atert Bissen,15847,,,False
+1589608,2027-03-21T15:00:00+00:00,NS,Regular Season - 22,Swift Hesperange,11907,FC Differdange 03,684,,,False
+1589616,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,F91 Dudelange,578,Etzella Ettelbruck,2042,,,False
+1589619,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,Progres Niederkorn,658,US Hostert,2040,,,False
+1589617,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,AS Jeunesse Esch,2034,UN Kaerjeng 97,2035,,,False
+1589620,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,UNA Strassen,2036,Wiltz,11906,,,False
+1589618,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,US Mondorf-les-bains,2037,US Rumelange,2033,,,False
+1589621,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,Victoria Rosport,2038,Swift Hesperange,11907,,,False
+1589615,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,Atert Bissen,15847,Racing FC Union Luxembourg,2030,,,False
+1589622,2027-04-04T14:00:00+00:00,NS,Regular Season - 23,Résidence Walferdange,15900,FC Differdange 03,684,,,False
+1589623,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,FC Differdange 03,684,Victoria Rosport,2038,,,False
+1589628,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,Racing FC Union Luxembourg,2030,UNA Strassen,2036,,,False
+1589629,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,US Rumelange,2033,Résidence Walferdange,15900,,,False
+1589627,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,UN Kaerjeng 97,2035,Progres Niederkorn,658,,,False
+1589626,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,US Hostert,2040,Atert Bissen,15847,,,False
+1589624,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,Etzella Ettelbruck,2042,AS Jeunesse Esch,2034,,,False
+1589630,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,Wiltz,11906,US Mondorf-les-bains,2037,,,False
+1589625,2027-04-11T14:00:00+00:00,NS,Regular Season - 24,Swift Hesperange,11907,F91 Dudelange,578,,,False
+1589632,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,F91 Dudelange,578,FC Differdange 03,684,,,False
+1589635,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,Progres Niederkorn,658,Etzella Ettelbruck,2042,,,False
+1589636,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,US Rumelange,2033,Wiltz,11906,,,False
+1589633,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,AS Jeunesse Esch,2034,Swift Hesperange,11907,,,False
+1589637,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,UNA Strassen,2036,US Hostert,2040,,,False
+1589634,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,US Mondorf-les-bains,2037,Racing FC Union Luxembourg,2030,,,False
+1589631,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,Atert Bissen,15847,UN Kaerjeng 97,2035,,,False
+1589638,2027-04-18T14:00:00+00:00,NS,Regular Season - 25,Résidence Walferdange,15900,Victoria Rosport,2038,,,False
+1589639,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,FC Differdange 03,684,AS Jeunesse Esch,2034,,,False
+1589644,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,Racing FC Union Luxembourg,2030,US Rumelange,2033,,,False
+1589643,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,UN Kaerjeng 97,2035,UNA Strassen,2036,,,False
+1589645,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,Victoria Rosport,2038,F91 Dudelange,578,,,False
+1589642,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,US Hostert,2040,US Mondorf-les-bains,2037,,,False
+1589640,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,Etzella Ettelbruck,2042,Atert Bissen,15847,,,False
+1589646,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,Wiltz,11906,Résidence Walferdange,15900,,,False
+1589641,2027-04-25T14:00:00+00:00,NS,Regular Season - 26,Swift Hesperange,11907,Progres Niederkorn,658,,,False
+1589650,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,Progres Niederkorn,658,FC Differdange 03,684,,,False
+1589651,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,US Rumelange,2033,US Hostert,2040,,,False
+1589648,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,AS Jeunesse Esch,2034,Victoria Rosport,2038,,,False
+1589652,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,UNA Strassen,2036,Etzella Ettelbruck,2042,,,False
+1589649,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,US Mondorf-les-bains,2037,UN Kaerjeng 97,2035,,,False
+1589654,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,Wiltz,11906,Racing FC Union Luxembourg,2030,,,False
+1589647,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,Atert Bissen,15847,Swift Hesperange,11907,,,False
+1589653,2027-05-02T14:00:00+00:00,NS,Regular Season - 27,Résidence Walferdange,15900,F91 Dudelange,578,,,False
+1589656,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,F91 Dudelange,578,AS Jeunesse Esch,2034,,,False
+1589655,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,FC Differdange 03,684,Atert Bissen,15847,,,False
+1589661,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,Racing FC Union Luxembourg,2030,Résidence Walferdange,15900,,,False
+1589660,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,UN Kaerjeng 97,2035,US Rumelange,2033,,,False
+1589662,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,Victoria Rosport,2038,Progres Niederkorn,658,,,False
+1589659,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,US Hostert,2040,Wiltz,11906,,,False
+1589657,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,Etzella Ettelbruck,2042,US Mondorf-les-bains,2037,,,False
+1589658,2027-05-09T14:00:00+00:00,NS,Regular Season - 28,Swift Hesperange,11907,UNA Strassen,2036,,,False
+1589665,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,Progres Niederkorn,658,F91 Dudelange,578,,,False
+1589666,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,Racing FC Union Luxembourg,2030,US Hostert,2040,,,False
+1589667,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,US Rumelange,2033,Etzella Ettelbruck,2042,,,False
+1589668,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,UNA Strassen,2036,FC Differdange 03,684,,,False
+1589664,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,US Mondorf-les-bains,2037,Swift Hesperange,11907,,,False
+1589670,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,Wiltz,11906,UN Kaerjeng 97,2035,,,False
+1589663,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,Atert Bissen,15847,Victoria Rosport,2038,,,False
+1589669,2027-05-15T16:00:00+00:00,NS,Regular Season - 29,Résidence Walferdange,15900,AS Jeunesse Esch,2034,,,False
+1589672,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,F91 Dudelange,578,Atert Bissen,15847,,,False
+1589671,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,FC Differdange 03,684,US Mondorf-les-bains,2037,,,False
+1589676,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,AS Jeunesse Esch,2034,Progres Niederkorn,658,,,False
+1589677,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,UN Kaerjeng 97,2035,Racing FC Union Luxembourg,2030,,,False
+1589678,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,Victoria Rosport,2038,UNA Strassen,2036,,,False
+1589675,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,US Hostert,2040,Résidence Walferdange,15900,,,False
+1589673,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,Etzella Ettelbruck,2042,Wiltz,11906,,,False
+1589674,2027-05-23T14:00:00+00:00,NS,Regular Season - 30,Swift Hesperange,11907,US Rumelange,2033,,,False

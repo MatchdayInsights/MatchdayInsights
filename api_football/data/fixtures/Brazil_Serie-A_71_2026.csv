@@ -1,381 +1,381 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1492116,2026-01-28T22:00:00+00:00,FT,Internacional,119,Atletico Paranaense,134,0,1,True
-1492119,2026-01-28T22:00:00+00:00,FT,Vitoria,136,Remo,1198,2,0,True
-1492114,2026-01-28T22:00:00+00:00,FT,Coritiba,147,RB Bragantino,794,0,1,True
-1492110,2026-01-28T22:00:00+00:00,FT,Atletico-MG,1062,Palmeiras,121,2,2,True
-1492115,2026-01-28T22:30:00+00:00,FT,Fluminense,124,Gremio,130,2,1,True
-1492113,2026-01-28T23:00:00+00:00,FT,Corinthians,131,Bahia,118,1,2,True
-1492112,2026-01-28T23:00:00+00:00,FT,Chapecoense-sc,132,Santos,128,4,2,True
-1492118,2026-01-29T00:30:00+00:00,FT,Sao Paulo,126,Flamengo,127,2,1,True
-1492117,2026-01-29T23:00:00+00:00,FT,Mirassol,7848,Vasco DA Gama,133,2,1,True
-1492111,2026-01-30T00:30:00+00:00,FT,Botafogo,120,Cruzeiro,135,4,0,True
-1492124,2026-02-04T22:00:00+00:00,FT,Flamengo,127,Internacional,119,1,1,True
-1492122,2026-02-04T22:00:00+00:00,FT,RB Bragantino,794,Atletico-MG,1062,1,0,True
-1492128,2026-02-04T23:00:00+00:00,FT,Santos,128,Sao Paulo,126,1,1,True
-1492127,2026-02-04T23:00:00+00:00,FT,Remo,1198,Mirassol,7848,2,2,True
-1492126,2026-02-05T00:30:00+00:00,FT,Palmeiras,121,Vitoria,136,5,1,True
-1492125,2026-02-05T00:30:00+00:00,FT,Gremio,130,Botafogo,120,5,3,True
-1492121,2026-02-05T22:00:00+00:00,FT,Bahia,118,Fluminense,124,1,1,True
-1492129,2026-02-05T23:00:00+00:00,FT,Vasco DA Gama,133,Chapecoense-sc,132,1,1,True
-1492123,2026-02-06T00:30:00+00:00,FT,Cruzeiro,135,Coritiba,147,1,2,True
-1492139,2026-02-11T00:30:00+00:00,FT,Vitoria,136,Flamengo,127,1,2,True
-1492132,2026-02-11T22:00:00+00:00,FT,Chapecoense-sc,132,Coritiba,147,3,3,True
-1492136,2026-02-11T22:00:00+00:00,FT,Mirassol,7848,Cruzeiro,135,2,2,True
-1492131,2026-02-11T23:00:00+00:00,FT,Atletico-MG,1062,Remo,1198,3,3,True
-1492137,2026-02-12T00:30:00+00:00,FT,Sao Paulo,126,Gremio,130,2,0,True
-1492138,2026-02-12T00:30:00+00:00,FT,Vasco DA Gama,133,Bahia,118,0,1,True
-1492130,2026-02-12T22:00:00+00:00,FT,Atletico Paranaense,134,Santos,128,2,1,True
-1492134,2026-02-12T22:30:00+00:00,FT,Fluminense,124,Botafogo,120,1,0,True
-1492133,2026-02-12T23:00:00+00:00,FT,Corinthians,131,RB Bragantino,794,2,0,True
-1492135,2026-02-13T00:30:00+00:00,FT,Internacional,119,Palmeiras,121,1,3,True
-1492120,2026-02-19T22:30:00+00:00,FT,Atletico Paranaense,134,Corinthians,131,0,1,True
-1492142,2026-02-25T22:00:00+00:00,FT,RB Bragantino,794,Atletico Paranaense,134,1,1,True
-1492148,2026-02-25T22:00:00+00:00,FT,Remo,1198,Internacional,119,1,1,True
-1492143,2026-02-25T22:30:00+00:00,FT,Coritiba,147,Sao Paulo,126,0,1,True
-1492144,2026-02-25T23:00:00+00:00,FT,Cruzeiro,135,Corinthians,131,1,1,True
-1492147,2026-02-26T00:30:00+00:00,FT,Palmeiras,121,Fluminense,124,2,1,True
-1492146,2026-02-26T00:30:00+00:00,FT,Gremio,130,Atletico-MG,1062,2,1,True
-1492149,2026-02-26T22:00:00+00:00,FT,Santos,128,Vasco DA Gama,133,2,1,True
-1492156,2026-03-11T00:30:00+00:00,FT,Mirassol,7848,Santos,128,2,2,True
-1492151,2026-03-11T22:00:00+00:00,FT,Atletico-MG,1062,Internacional,119,1,0,True
-1492152,2026-03-11T23:00:00+00:00,FT,Bahia,118,Vitoria,136,1,1,True
-1492154,2026-03-12T00:30:00+00:00,FT,Flamengo,127,Cruzeiro,135,2,0,True
-1492153,2026-03-12T00:30:00+00:00,FT,Corinthians,131,Coritiba,147,0,2,True
-1492157,2026-03-12T22:00:00+00:00,FT,Remo,1198,Fluminense,124,0,2,True
-1492159,2026-03-12T22:30:00+00:00,FT,Vasco DA Gama,133,Palmeiras,121,2,1,True
-1492158,2026-03-12T23:00:00+00:00,FT,Sao Paulo,126,Chapecoense-sc,132,2,0,True
-1492155,2026-03-13T00:30:00+00:00,FT,Gremio,130,RB Bragantino,794,1,1,True
-1492169,2026-03-14T21:30:00+00:00,FT,Vitoria,136,Atletico-MG,1062,2,0,True
-1492160,2026-03-14T23:30:00+00:00,FT,Botafogo,120,Flamengo,127,0,3,True
-1492166,2026-03-15T19:00:00+00:00,FT,Internacional,119,Bahia,118,0,1,True
-1492165,2026-03-15T19:00:00+00:00,FT,Fluminense,124,Atletico Paranaense,134,3,2,True
-1492168,2026-03-15T19:00:00+00:00,FT,Santos,128,Corinthians,131,1,1,True
-1492167,2026-03-15T21:30:00+00:00,FT,Palmeiras,121,Mirassol,7848,1,0,True
-1492163,2026-03-15T21:30:00+00:00,FT,Coritiba,147,Remo,1198,1,0,True
-1492164,2026-03-15T23:30:00+00:00,FT,Cruzeiro,135,Vasco DA Gama,133,3,3,True
-1492161,2026-03-15T23:30:00+00:00,FT,RB Bragantino,794,Sao Paulo,126,1,2,True
-1492162,2026-03-16T23:00:00+00:00,FT,Chapecoense-sc,132,Gremio,130,1,1,True
-1492172,2026-03-18T22:00:00+00:00,FT,Bahia,118,RB Bragantino,794,2,0,True
-1492177,2026-03-18T22:00:00+00:00,FT,Palmeiras,121,Botafogo,120,2,1,True
-1492170,2026-03-18T22:30:00+00:00,FT,Atletico Paranaense,134,Cruzeiro,135,2,1,True
-1492171,2026-03-18T23:00:00+00:00,FT,Atletico-MG,1062,Sao Paulo,126,1,0,True
-1492176,2026-03-18T23:00:00+00:00,FT,Mirassol,7848,Coritiba,147,0,1,True
-1492178,2026-03-19T00:30:00+00:00,FT,Santos,128,Internacional,119,1,2,True
-1492179,2026-03-19T00:30:00+00:00,FT,Vasco DA Gama,133,Fluminense,124,3,2,True
-1492175,2026-03-19T22:00:00+00:00,FT,Gremio,130,Vitoria,136,2,0,True
-1492174,2026-03-19T23:00:00+00:00,FT,Flamengo,127,Remo,1198,3,0,True
-1492173,2026-03-20T00:30:00+00:00,FT,Chapecoense-sc,132,Corinthians,131,0,0,True
-1492181,2026-03-21T19:00:00+00:00,FT,RB Bragantino,794,Botafogo,120,1,2,True
-1492184,2026-03-21T21:30:00+00:00,FT,Fluminense,124,Atletico-MG,1062,1,0,True
-1492187,2026-03-22T00:00:00+00:00,FT,Sao Paulo,126,Palmeiras,121,0,1,True
-1492188,2026-03-22T19:00:00+00:00,FT,Vasco DA Gama,133,Gremio,130,2,1,True
-1492180,2026-03-22T19:00:00+00:00,FT,Atletico Paranaense,134,Coritiba,147,2,0,True
-1492183,2026-03-22T19:00:00+00:00,FT,Cruzeiro,135,Santos,128,0,0,True
-1492186,2026-03-22T19:00:00+00:00,FT,Remo,1198,Bahia,118,4,1,True
-1492185,2026-03-22T21:30:00+00:00,FT,Internacional,119,Chapecoense-sc,132,2,0,True
-1492189,2026-03-22T21:30:00+00:00,FT,Vitoria,136,Mirassol,7848,1,0,True
-1492182,2026-03-22T23:30:00+00:00,FT,Corinthians,131,Flamengo,127,1,1,True
-1492150,2026-03-29T22:30:00+00:00,FT,Atletico Paranaense,134,Botafogo,120,4,1,True
-1492197,2026-04-01T22:30:00+00:00,FT,Internacional,119,Sao Paulo,126,1,1,True
-1492191,2026-04-01T22:30:00+00:00,FT,Botafogo,120,Mirassol,7848,3,2,True
-1492190,2026-04-01T23:00:00+00:00,FT,Bahia,118,Atletico Paranaense,134,3,0,True
-1492195,2026-04-01T23:00:00+00:00,FT,Cruzeiro,135,Vitoria,136,3,0,True
-1492194,2026-04-01T23:30:00+00:00,FT,Coritiba,147,Vasco DA Gama,133,1,1,True
-1492196,2026-04-02T00:30:00+00:00,FT,Fluminense,124,Corinthians,131,3,1,True
-1492199,2026-04-02T22:00:00+00:00,FT,Santos,128,Remo,1198,2,0,True
-1492193,2026-04-02T22:00:00+00:00,FT,Chapecoense-sc,132,Atletico-MG,1062,0,4,True
-1492198,2026-04-03T00:30:00+00:00,FT,Palmeiras,121,Gremio,130,2,1,True
-1492192,2026-04-03T00:30:00+00:00,FT,RB Bragantino,794,Flamengo,127,3,0,True
-1492208,2026-04-04T21:30:00+00:00,FT,Sao Paulo,126,Cruzeiro,135,4,1,True
-1492204,2026-04-04T23:30:00+00:00,FT,Coritiba,147,Fluminense,124,1,1,True
-1492209,2026-04-05T00:00:00+00:00,FT,Vasco DA Gama,133,Botafogo,120,1,2,True
-1492202,2026-04-05T19:00:00+00:00,FT,Chapecoense-sc,132,Vitoria,136,1,1,True
-1492205,2026-04-05T20:30:00+00:00,FT,Flamengo,127,Santos,128,3,1,True
-1492200,2026-04-05T20:30:00+00:00,FT,Atletico-MG,1062,Atletico Paranaense,134,2,1,True
-1492201,2026-04-05T22:30:00+00:00,FT,Bahia,118,Palmeiras,121,1,2,True
-1492203,2026-04-05T22:30:00+00:00,FT,Corinthians,131,Internacional,119,0,1,True
-1492207,2026-04-05T23:00:00+00:00,FT,Mirassol,7848,RB Bragantino,794,0,1,True
-1492206,2026-04-05T23:30:00+00:00,FT,Gremio,130,Remo,1198,0,0,True
-1492219,2026-04-11T19:30:00+00:00,FT,Vitoria,136,Sao Paulo,126,2,0,True
-1492217,2026-04-11T19:30:00+00:00,FT,Remo,1198,Vasco DA Gama,133,1,1,True
-1492216,2026-04-11T21:30:00+00:00,FT,Mirassol,7848,Bahia,118,1,2,True
-1492218,2026-04-11T23:00:00+00:00,FT,Santos,128,Atletico-MG,1062,1,0,True
-1492215,2026-04-11T23:30:00+00:00,FT,Internacional,119,Gremio,130,0,0,True
-1492210,2026-04-12T14:00:00+00:00,FT,Atletico Paranaense,134,Chapecoense-sc,132,2,0,True
-1492211,2026-04-12T19:00:00+00:00,FT,Botafogo,120,Coritiba,147,2,2,True
-1492214,2026-04-12T21:00:00+00:00,FT,Fluminense,124,Flamengo,127,1,2,True
-1492212,2026-04-12T21:30:00+00:00,FT,Corinthians,131,Palmeiras,121,0,0,True
-1492213,2026-04-12T21:30:00+00:00,FT,Cruzeiro,135,RB Bragantino,794,2,1,True
-1492221,2026-04-18T21:30:00+00:00,FT,Chapecoense-sc,132,Botafogo,120,1,4,True
-1492228,2026-04-18T21:30:00+00:00,FT,Vasco DA Gama,133,Sao Paulo,126,2,1,True
-1492229,2026-04-18T23:00:00+00:00,FT,Vitoria,136,Corinthians,131,0,0,True
-1492223,2026-04-18T23:30:00+00:00,FT,Cruzeiro,135,Gremio,130,2,0,True
-1492225,2026-04-19T14:00:00+00:00,FT,Internacional,119,Mirassol,7848,1,2,True
-1492227,2026-04-19T19:00:00+00:00,FT,Santos,128,Fluminense,124,2,3,True
-1492222,2026-04-19T19:00:00+00:00,FT,Coritiba,147,Atletico-MG,1062,2,0,True
-1492226,2026-04-19T21:30:00+00:00,FT,Palmeiras,121,Atletico Paranaense,134,1,0,True
-1492220,2026-04-19T21:30:00+00:00,FT,RB Bragantino,794,Remo,1198,4,2,True
-1492224,2026-04-19T22:30:00+00:00,FT,Flamengo,127,Bahia,118,2,0,True
-1492232,2026-04-25T21:30:00+00:00,FT,Bahia,118,Santos,128,2,2,True
-1492233,2026-04-25T21:30:00+00:00,FT,Botafogo,120,Internacional,119,2,2,True
-1492238,2026-04-25T21:30:00+00:00,FT,Remo,1198,Cruzeiro,135,0,1,True
-1492239,2026-04-26T00:00:00+00:00,FT,Sao Paulo,126,Mirassol,7848,1,0,True
-1492237,2026-04-26T19:00:00+00:00,FT,Gremio,130,Coritiba,147,1,0,True
-1492235,2026-04-26T19:00:00+00:00,FT,Corinthians,131,Vasco DA Gama,133,1,0,True
-1492230,2026-04-26T21:30:00+00:00,FT,Atletico Paranaense,134,Vitoria,136,3,1,True
-1492234,2026-04-26T21:30:00+00:00,FT,RB Bragantino,794,Palmeiras,121,0,1,True
-1492236,2026-04-26T23:30:00+00:00,FT,Fluminense,124,Chapecoense-sc,132,2,1,True
-1492231,2026-04-26T23:30:00+00:00,FT,Atletico-MG,1062,Flamengo,127,0,4,True
-1492241,2026-05-02T19:00:00+00:00,FT,Botafogo,120,Remo,1198,1,2,True
-1492247,2026-05-02T21:30:00+00:00,FT,Palmeiras,121,Santos,128,1,1,True
-1492249,2026-05-02T21:30:00+00:00,FT,Vitoria,136,Coritiba,147,4,1,True
-1492240,2026-05-02T23:30:00+00:00,FT,Atletico Paranaense,134,Gremio,130,0,0,True
-1492243,2026-05-03T00:00:00+00:00,FT,Cruzeiro,135,Atletico-MG,1062,1,3,True
-1492248,2026-05-03T19:00:00+00:00,FT,Sao Paulo,126,Bahia,118,2,2,True
-1492244,2026-05-03T19:00:00+00:00,FT,Flamengo,127,Vasco DA Gama,133,2,2,True
-1492245,2026-05-03T21:30:00+00:00,FT,Internacional,119,Fluminense,124,2,0,True
-1492242,2026-05-03T21:30:00+00:00,FT,Chapecoense-sc,132,RB Bragantino,794,1,2,True
-1492246,2026-05-03T23:30:00+00:00,FT,Mirassol,7848,Corinthians,131,2,1,True
-1492253,2026-05-09T19:00:00+00:00,FT,Coritiba,147,Internacional,119,2,2,True
-1492254,2026-05-09T21:00:00+00:00,FT,Fluminense,124,Vitoria,136,2,2,True
-1492251,2026-05-10T00:00:00+00:00,FT,Bahia,118,Cruzeiro,135,1,2,True
-1492250,2026-05-10T19:00:00+00:00,FT,Atletico-MG,1062,Botafogo,120,1,1,True
-1492257,2026-05-10T19:00:00+00:00,FT,Remo,1198,Palmeiras,121,1,1,True
-1492258,2026-05-10T21:30:00+00:00,FT,Santos,128,RB Bragantino,794,2,0,True
-1492252,2026-05-10T21:30:00+00:00,FT,Corinthians,131,Sao Paulo,126,3,2,True
-1492256,2026-05-10T21:30:00+00:00,FT,Mirassol,7848,Chapecoense-sc,132,1,1,True
-1492255,2026-05-10T22:30:00+00:00,FT,Gremio,130,Flamengo,127,0,1,True
-1492259,2026-05-10T23:30:00+00:00,FT,Vasco DA Gama,133,Atletico Paranaense,134,1,0,True
-1492267,2026-05-16T21:30:00+00:00,FT,Internacional,119,Vasco DA Gama,133,4,1,True
-1492261,2026-05-16T21:30:00+00:00,FT,Atletico-MG,1062,Mirassol,7848,3,1,True
-1492266,2026-05-16T22:00:00+00:00,FT,Fluminense,124,Sao Paulo,126,2,1,True
-1492268,2026-05-17T00:00:00+00:00,FT,Palmeiras,121,Cruzeiro,135,1,1,True
-1492269,2026-05-17T14:00:00+00:00,FT,Santos,128,Coritiba,147,0,3,True
-1492262,2026-05-17T19:00:00+00:00,FT,Bahia,118,Gremio,130,1,1,True
-1492263,2026-05-17T19:00:00+00:00,FT,Botafogo,120,Corinthians,131,3,1,True
-1492265,2026-05-17T21:30:00+00:00,FT,Chapecoense-sc,132,Remo,1198,2,3,True
-1492264,2026-05-17T21:30:00+00:00,FT,RB Bragantino,794,Vitoria,136,2,0,True
-1492260,2026-05-17T22:30:00+00:00,FT,Atletico Paranaense,134,Flamengo,127,1,1,True
-1492277,2026-05-23T20:00:00+00:00,FT,Sao Paulo,126,Botafogo,120,1,1,True
-1492279,2026-05-23T20:00:00+00:00,FT,Vitoria,136,Internacional,119,2,0,True
-1492274,2026-05-23T22:00:00+00:00,FT,Gremio,130,Santos,128,3,2,True
-1492275,2026-05-23T22:00:00+00:00,FT,Mirassol,7848,Fluminense,124,1,0,True
-1492273,2026-05-24T00:00:00+00:00,FT,Flamengo,127,Palmeiras,121,0,3,True
-1492272,2026-05-24T19:00:00+00:00,FT,Cruzeiro,135,Chapecoense-sc,132,2,1,True
-1492276,2026-05-24T19:00:00+00:00,FT,Remo,1198,Atletico Paranaense,134,1,2,True
-1492270,2026-05-24T21:30:00+00:00,FT,Corinthians,131,Atletico-MG,1062,1,0,True
-1492278,2026-05-24T23:30:00+00:00,FT,Vasco DA Gama,133,RB Bragantino,794,0,3,True
-1492271,2026-05-25T23:00:00+00:00,FT,Coritiba,147,Bahia,118,3,2,True
-1492284,2026-05-30T19:00:00+00:00,FT,Flamengo,127,Coritiba,147,3,0,True
-1492280,2026-05-30T19:00:00+00:00,FT,Atletico Paranaense,134,Mirassol,7848,1,0,True
-1492281,2026-05-30T20:30:00+00:00,FT,Bahia,118,Botafogo,120,2,1,True
-1492285,2026-05-30T20:30:00+00:00,FT,Gremio,130,Corinthians,131,1,3,True
-1492288,2026-05-30T23:00:00+00:00,FT,Santos,128,Vitoria,136,3,1,True
-1492282,2026-05-31T14:00:00+00:00,FT,RB Bragantino,794,Internacional,119,3,1,True
-1492286,2026-05-31T19:00:00+00:00,FT,Palmeiras,121,Chapecoense-sc,132,1,0,True
-1492289,2026-05-31T19:00:00+00:00,FT,Vasco DA Gama,133,Atletico-MG,1062,0,1,True
-1492283,2026-05-31T23:30:00+00:00,FT,Cruzeiro,135,Fluminense,124,1,1,True
-1492287,2026-05-31T23:30:00+00:00,FT,Remo,1198,Sao Paulo,126,1,0,True
-1492291,2026-07-16T22:30:00+00:00,FT,Botafogo,120,Santos,128,2,1,True
-1492299,2026-07-16T22:30:00+00:00,FT,Vitoria,136,Vasco DA Gama,133,1,0,True
-1492140,2026-07-17T22:30:00+00:00,FT,Bahia,118,Chapecoense-sc,132,2,0,True
-1492295,2026-07-17T23:00:00+00:00,FT,Fluminense,124,RB Bragantino,794,1,1,True
-1492297,2026-07-17T23:00:00+00:00,FT,Mirassol,7848,Gremio,130,2,1,True
-1492290,2026-07-21T22:30:00+00:00,FT,Atletico-MG,1062,Bahia,118,1,1,True
-1492294,2026-07-22T22:30:00+00:00,FT,Coritiba,147,Palmeiras,121,1,3,True
-1492296,2026-07-23T00:30:00+00:00,FT,Internacional,119,Cruzeiro,135,1,2,True
-1492298,2026-07-23T00:30:00+00:00,FT,Sao Paulo,126,Atletico Paranaense,134,1,2,True
-1492292,2026-07-23T00:30:00+00:00,FT,Chapecoense-sc,132,Flamengo,127,0,4,True
-1492141,2026-07-23T22:30:00+00:00,FT,Botafogo,120,Vitoria,136,0,0,True
-1492293,2026-07-23T22:30:00+00:00,FT,Corinthians,131,Remo,1198,3,0,True
-1492308,2026-07-25T21:30:00+00:00,FT,Santos,128,Chapecoense-sc,132,2,2,True
-1492300,2026-07-25T21:30:00+00:00,FT,Atletico Paranaense,134,Internacional,119,2,0,True
-1492309,2026-07-25T23:30:00+00:00,FT,Vasco DA Gama,133,Mirassol,7848,1,1,True
-1492301,2026-07-26T19:00:00+00:00,FT,Bahia,118,Corinthians,131,1,1,True
-1492303,2026-07-26T19:00:00+00:00,FT,Cruzeiro,135,Botafogo,120,0,1,True
-1492304,2026-07-26T21:30:00+00:00,FT,Flamengo,127,Sao Paulo,126,1,1,True
-1492305,2026-07-26T21:30:00+00:00,FT,Gremio,130,Fluminense,124,1,1,True
-1492302,2026-07-26T21:30:00+00:00,FT,RB Bragantino,794,Coritiba,147,0,0,True
-1492306,2026-07-26T22:30:00+00:00,FT,Palmeiras,121,Atletico-MG,1062,1,2,True
-1492307,2026-07-26T22:30:00+00:00,FT,Remo,1198,Vitoria,136,2,0,True
-1492316,2026-07-29T22:30:00+00:00,FT,Internacional,119,Flamengo,127,1,1,True
-1492317,2026-07-29T22:30:00+00:00,FT,Mirassol,7848,Remo,1198,2,1,True
-1492315,2026-07-30T00:30:00+00:00,FT,Fluminense,124,Bahia,118,0,0,True
-1492319,2026-07-30T00:30:00+00:00,FT,Vitoria,136,Palmeiras,121,0,4,True
-1492313,2026-07-30T22:30:00+00:00,FT,Corinthians,131,Atletico Paranaense,134,0,0,True
-1492314,2026-07-31T00:30:00+00:00,FT,Coritiba,147,Cruzeiro,135,0,1,True
-1492145,2026-02-25T21:00:00+00:00,PST,Flamengo,127,Mirassol,7848,,,False
-1492311,2026-07-29T20:00:00+00:00,PST,Botafogo,120,Gremio,130,,,False
-1492318,2026-07-29T20:00:00+00:00,PST,Sao Paulo,126,Santos,128,,,False
-1492312,2026-07-29T20:00:00+00:00,PST,Chapecoense-sc,132,Vasco DA Gama,133,,,False
-1492310,2026-07-29T20:00:00+00:00,PST,Atletico-MG,1062,RB Bragantino,794,,,False
-1492326,2026-08-08T19:00:00+00:00,NS,Gremio,130,Sao Paulo,126,,,False
-1492328,2026-08-08T21:30:00+00:00,NS,Remo,1198,Atletico-MG,1062,,,False
-1492323,2026-08-08T23:30:00+00:00,NS,Coritiba,147,Chapecoense-sc,132,,,False
-1492321,2026-08-09T00:00:00+00:00,NS,Botafogo,120,Fluminense,124,,,False
-1492324,2026-08-09T14:00:00+00:00,NS,Cruzeiro,135,Mirassol,7848,,,False
-1492320,2026-08-09T19:00:00+00:00,NS,Bahia,118,Vasco DA Gama,133,,,False
-1492327,2026-08-09T19:00:00+00:00,NS,Palmeiras,121,Internacional,119,,,False
-1492329,2026-08-09T21:30:00+00:00,NS,Santos,128,Atletico Paranaense,134,,,False
-1492322,2026-08-09T21:30:00+00:00,NS,RB Bragantino,794,Corinthians,131,,,False
-1492325,2026-08-09T22:30:00+00:00,NS,Flamengo,127,Vitoria,136,,,False
-1492334,2026-08-15T19:30:00+00:00,NS,Fluminense,124,Palmeiras,121,,,False
-1492331,2026-08-15T19:30:00+00:00,NS,Atletico-MG,1062,Gremio,130,,,False
-1492330,2026-08-15T21:30:00+00:00,NS,Atletico Paranaense,134,RB Bragantino,794,,,False
-1492337,2026-08-16T00:00:00+00:00,NS,Sao Paulo,126,Coritiba,147,,,False
-1492332,2026-08-16T14:00:00+00:00,NS,Chapecoense-sc,132,Bahia,118,,,False
-1492338,2026-08-16T19:00:00+00:00,NS,Vasco DA Gama,133,Santos,128,,,False
-1492339,2026-08-16T21:30:00+00:00,NS,Vitoria,136,Botafogo,120,,,False
-1492336,2026-08-16T21:30:00+00:00,NS,Mirassol,7848,Flamengo,127,,,False
-1492333,2026-08-16T22:30:00+00:00,NS,Corinthians,131,Cruzeiro,135,,,False
-1492335,2026-08-17T23:00:00+00:00,NS,Internacional,119,Remo,1198,,,False
-1492345,2026-08-22T19:00:00+00:00,NS,Fluminense,124,Remo,1198,,,False
-1492346,2026-08-22T21:30:00+00:00,NS,Internacional,119,Atletico-MG,1062,,,False
-1492344,2026-08-22T23:30:00+00:00,NS,Cruzeiro,135,Flamengo,127,,,False
-1492347,2026-08-23T19:00:00+00:00,NS,Palmeiras,121,Vasco DA Gama,133,,,False
-1492349,2026-08-23T19:00:00+00:00,NS,Vitoria,136,Bahia,118,,,False
-1492341,2026-08-23T19:00:00+00:00,NS,RB Bragantino,794,Gremio,130,,,False
-1492348,2026-08-23T21:30:00+00:00,NS,Santos,128,Mirassol,7848,,,False
-1492342,2026-08-23T21:30:00+00:00,NS,Chapecoense-sc,132,Sao Paulo,126,,,False
-1492343,2026-08-23T22:30:00+00:00,NS,Coritiba,147,Corinthians,131,,,False
-1492340,2026-08-24T23:00:00+00:00,NS,Botafogo,120,Atletico Paranaense,134,,,False
-1492352,2026-08-30T20:00:00+00:00,NS,Bahia,118,Internacional,119,,,False
-1492358,2026-08-30T20:00:00+00:00,NS,Sao Paulo,126,RB Bragantino,794,,,False
-1492354,2026-08-30T20:00:00+00:00,NS,Flamengo,127,Botafogo,120,,,False
-1492355,2026-08-30T20:00:00+00:00,NS,Gremio,130,Chapecoense-sc,132,,,False
-1492353,2026-08-30T20:00:00+00:00,NS,Corinthians,131,Santos,128,,,False
-1492359,2026-08-30T20:00:00+00:00,NS,Vasco DA Gama,133,Cruzeiro,135,,,False
-1492350,2026-08-30T20:00:00+00:00,NS,Atletico Paranaense,134,Fluminense,124,,,False
-1492351,2026-08-30T20:00:00+00:00,NS,Atletico-MG,1062,Vitoria,136,,,False
-1492357,2026-08-30T20:00:00+00:00,NS,Remo,1198,Coritiba,147,,,False
-1492356,2026-08-30T20:00:00+00:00,NS,Mirassol,7848,Palmeiras,121,,,False
-1492366,2026-09-06T20:00:00+00:00,NS,Internacional,119,Santos,128,,,False
-1492360,2026-09-06T20:00:00+00:00,NS,Botafogo,120,Palmeiras,121,,,False
-1492365,2026-09-06T20:00:00+00:00,NS,Fluminense,124,Vasco DA Gama,133,,,False
-1492368,2026-09-06T20:00:00+00:00,NS,Sao Paulo,126,Atletico-MG,1062,,,False
-1492362,2026-09-06T20:00:00+00:00,NS,Corinthians,131,Chapecoense-sc,132,,,False
-1492364,2026-09-06T20:00:00+00:00,NS,Cruzeiro,135,Atletico Paranaense,134,,,False
-1492369,2026-09-06T20:00:00+00:00,NS,Vitoria,136,Gremio,130,,,False
-1492363,2026-09-06T20:00:00+00:00,NS,Coritiba,147,Mirassol,7848,,,False
-1492361,2026-09-06T20:00:00+00:00,NS,RB Bragantino,794,Bahia,118,,,False
-1492367,2026-09-06T20:00:00+00:00,NS,Remo,1198,Flamengo,127,,,False
-1492371,2026-09-13T20:00:00+00:00,NS,Bahia,118,Remo,1198,,,False
-1492372,2026-09-13T20:00:00+00:00,NS,Botafogo,120,RB Bragantino,794,,,False
-1492378,2026-09-13T20:00:00+00:00,NS,Palmeiras,121,Sao Paulo,126,,,False
-1492375,2026-09-13T20:00:00+00:00,NS,Flamengo,127,Corinthians,131,,,False
-1492379,2026-09-13T20:00:00+00:00,NS,Santos,128,Cruzeiro,135,,,False
-1492376,2026-09-13T20:00:00+00:00,NS,Gremio,130,Vasco DA Gama,133,,,False
-1492373,2026-09-13T20:00:00+00:00,NS,Chapecoense-sc,132,Internacional,119,,,False
-1492374,2026-09-13T20:00:00+00:00,NS,Coritiba,147,Atletico Paranaense,134,,,False
-1492370,2026-09-13T20:00:00+00:00,NS,Atletico-MG,1062,Fluminense,124,,,False
-1492377,2026-09-13T20:00:00+00:00,NS,Mirassol,7848,Vitoria,136,,,False
-1492387,2026-09-20T20:00:00+00:00,NS,Sao Paulo,126,Internacional,119,,,False
-1492383,2026-09-20T20:00:00+00:00,NS,Flamengo,127,RB Bragantino,794,,,False
-1492384,2026-09-20T20:00:00+00:00,NS,Gremio,130,Palmeiras,121,,,False
-1492382,2026-09-20T20:00:00+00:00,NS,Corinthians,131,Fluminense,124,,,False
-1492388,2026-09-20T20:00:00+00:00,NS,Vasco DA Gama,133,Coritiba,147,,,False
-1492380,2026-09-20T20:00:00+00:00,NS,Atletico Paranaense,134,Bahia,118,,,False
-1492389,2026-09-20T20:00:00+00:00,NS,Vitoria,136,Cruzeiro,135,,,False
-1492381,2026-09-20T20:00:00+00:00,NS,Atletico-MG,1062,Chapecoense-sc,132,,,False
-1492386,2026-09-20T20:00:00+00:00,NS,Remo,1198,Santos,128,,,False
-1492385,2026-09-20T20:00:00+00:00,NS,Mirassol,7848,Botafogo,120,,,False
-1492395,2026-10-07T20:00:00+00:00,NS,Internacional,119,Corinthians,131,,,False
-1492391,2026-10-07T20:00:00+00:00,NS,Botafogo,120,Vasco DA Gama,133,,,False
-1492396,2026-10-07T20:00:00+00:00,NS,Palmeiras,121,Bahia,118,,,False
-1492394,2026-10-07T20:00:00+00:00,NS,Fluminense,124,Coritiba,147,,,False
-1492398,2026-10-07T20:00:00+00:00,NS,Santos,128,Flamengo,127,,,False
-1492390,2026-10-07T20:00:00+00:00,NS,Atletico Paranaense,134,Atletico-MG,1062,,,False
-1492393,2026-10-07T20:00:00+00:00,NS,Cruzeiro,135,Sao Paulo,126,,,False
-1492399,2026-10-07T20:00:00+00:00,NS,Vitoria,136,Chapecoense-sc,132,,,False
-1492392,2026-10-07T20:00:00+00:00,NS,RB Bragantino,794,Mirassol,7848,,,False
-1492397,2026-10-07T20:00:00+00:00,NS,Remo,1198,Gremio,130,,,False
-1492401,2026-10-11T20:00:00+00:00,NS,Bahia,118,Mirassol,7848,,,False
-1492407,2026-10-11T20:00:00+00:00,NS,Palmeiras,121,Corinthians,131,,,False
-1492408,2026-10-11T20:00:00+00:00,NS,Sao Paulo,126,Vitoria,136,,,False
-1492405,2026-10-11T20:00:00+00:00,NS,Flamengo,127,Fluminense,124,,,False
-1492406,2026-10-11T20:00:00+00:00,NS,Gremio,130,Internacional,119,,,False
-1492403,2026-10-11T20:00:00+00:00,NS,Chapecoense-sc,132,Atletico Paranaense,134,,,False
-1492409,2026-10-11T20:00:00+00:00,NS,Vasco DA Gama,133,Remo,1198,,,False
-1492404,2026-10-11T20:00:00+00:00,NS,Coritiba,147,Botafogo,120,,,False
-1492402,2026-10-11T20:00:00+00:00,NS,RB Bragantino,794,Cruzeiro,135,,,False
-1492400,2026-10-11T20:00:00+00:00,NS,Atletico-MG,1062,Santos,128,,,False
-1492412,2026-10-18T20:00:00+00:00,NS,Bahia,118,Flamengo,127,,,False
-1492413,2026-10-18T20:00:00+00:00,NS,Botafogo,120,Chapecoense-sc,132,,,False
-1492415,2026-10-18T20:00:00+00:00,NS,Fluminense,124,Santos,128,,,False
-1492419,2026-10-18T20:00:00+00:00,NS,Sao Paulo,126,Vasco DA Gama,133,,,False
-1492416,2026-10-18T20:00:00+00:00,NS,Gremio,130,Cruzeiro,135,,,False
-1492414,2026-10-18T20:00:00+00:00,NS,Corinthians,131,Vitoria,136,,,False
-1492410,2026-10-18T20:00:00+00:00,NS,Atletico Paranaense,134,Palmeiras,121,,,False
-1492411,2026-10-18T20:00:00+00:00,NS,Atletico-MG,1062,Coritiba,147,,,False
-1492418,2026-10-18T20:00:00+00:00,NS,Remo,1198,RB Bragantino,794,,,False
-1492417,2026-10-18T20:00:00+00:00,NS,Mirassol,7848,Internacional,119,,,False
-1492424,2026-10-25T21:00:00+00:00,NS,Internacional,119,Botafogo,120,,,False
-1492426,2026-10-25T21:00:00+00:00,NS,Palmeiras,121,RB Bragantino,794,,,False
-1492423,2026-10-25T21:00:00+00:00,NS,Flamengo,127,Atletico-MG,1062,,,False
-1492427,2026-10-25T21:00:00+00:00,NS,Santos,128,Bahia,118,,,False
-1492420,2026-10-25T21:00:00+00:00,NS,Chapecoense-sc,132,Fluminense,124,,,False
-1492428,2026-10-25T21:00:00+00:00,NS,Vasco DA Gama,133,Corinthians,131,,,False
-1492422,2026-10-25T21:00:00+00:00,NS,Cruzeiro,135,Remo,1198,,,False
-1492429,2026-10-25T21:00:00+00:00,NS,Vitoria,136,Atletico Paranaense,134,,,False
-1492421,2026-10-25T21:00:00+00:00,NS,Coritiba,147,Gremio,130,,,False
-1492425,2026-10-25T21:00:00+00:00,NS,Mirassol,7848,Sao Paulo,126,,,False
-1492431,2026-10-28T21:00:00+00:00,NS,Bahia,118,Sao Paulo,126,,,False
-1492435,2026-10-28T21:00:00+00:00,NS,Fluminense,124,Internacional,119,,,False
-1492438,2026-10-28T21:00:00+00:00,NS,Santos,128,Palmeiras,121,,,False
-1492436,2026-10-28T21:00:00+00:00,NS,Gremio,130,Atletico Paranaense,134,,,False
-1492433,2026-10-28T21:00:00+00:00,NS,Corinthians,131,Mirassol,7848,,,False
-1492439,2026-10-28T21:00:00+00:00,NS,Vasco DA Gama,133,Flamengo,127,,,False
-1492434,2026-10-28T21:00:00+00:00,NS,Coritiba,147,Vitoria,136,,,False
-1492432,2026-10-28T21:00:00+00:00,NS,RB Bragantino,794,Chapecoense-sc,132,,,False
-1492430,2026-10-28T21:00:00+00:00,NS,Atletico-MG,1062,Cruzeiro,135,,,False
-1492437,2026-10-28T21:00:00+00:00,NS,Remo,1198,Botafogo,120,,,False
-1492446,2026-11-04T21:00:00+00:00,NS,Internacional,119,Coritiba,147,,,False
-1492441,2026-11-04T21:00:00+00:00,NS,Botafogo,120,Atletico-MG,1062,,,False
-1492447,2026-11-04T21:00:00+00:00,NS,Palmeiras,121,Remo,1198,,,False
-1492448,2026-11-04T21:00:00+00:00,NS,Sao Paulo,126,Corinthians,131,,,False
-1492445,2026-11-04T21:00:00+00:00,NS,Flamengo,127,Gremio,130,,,False
-1492443,2026-11-04T21:00:00+00:00,NS,Chapecoense-sc,132,Mirassol,7848,,,False
-1492440,2026-11-04T21:00:00+00:00,NS,Atletico Paranaense,134,Vasco DA Gama,133,,,False
-1492444,2026-11-04T21:00:00+00:00,NS,Cruzeiro,135,Bahia,118,,,False
-1492449,2026-11-04T21:00:00+00:00,NS,Vitoria,136,Fluminense,124,,,False
-1492442,2026-11-04T21:00:00+00:00,NS,RB Bragantino,794,Santos,128,,,False
-1492457,2026-11-18T21:00:00+00:00,NS,Sao Paulo,126,Fluminense,124,,,False
-1492453,2026-11-18T21:00:00+00:00,NS,Flamengo,127,Atletico Paranaense,134,,,False
-1492454,2026-11-18T21:00:00+00:00,NS,Gremio,130,Bahia,118,,,False
-1492450,2026-11-18T21:00:00+00:00,NS,Corinthians,131,Botafogo,120,,,False
-1492458,2026-11-18T21:00:00+00:00,NS,Vasco DA Gama,133,Internacional,119,,,False
-1492452,2026-11-18T21:00:00+00:00,NS,Cruzeiro,135,Palmeiras,121,,,False
-1492459,2026-11-18T21:00:00+00:00,NS,Vitoria,136,RB Bragantino,794,,,False
-1492451,2026-11-18T21:00:00+00:00,NS,Coritiba,147,Santos,128,,,False
-1492456,2026-11-18T21:00:00+00:00,NS,Remo,1198,Chapecoense-sc,132,,,False
-1492455,2026-11-18T21:00:00+00:00,NS,Mirassol,7848,Atletico-MG,1062,,,False
-1492462,2026-11-22T21:00:00+00:00,NS,Bahia,118,Coritiba,147,,,False
-1492467,2026-11-22T21:00:00+00:00,NS,Internacional,119,Vitoria,136,,,False
-1492463,2026-11-22T21:00:00+00:00,NS,Botafogo,120,Sao Paulo,126,,,False
-1492468,2026-11-22T21:00:00+00:00,NS,Palmeiras,121,Flamengo,127,,,False
-1492466,2026-11-22T21:00:00+00:00,NS,Fluminense,124,Mirassol,7848,,,False
-1492469,2026-11-22T21:00:00+00:00,NS,Santos,128,Gremio,130,,,False
-1492465,2026-11-22T21:00:00+00:00,NS,Chapecoense-sc,132,Cruzeiro,135,,,False
-1492460,2026-11-22T21:00:00+00:00,NS,Atletico Paranaense,134,Remo,1198,,,False
-1492464,2026-11-22T21:00:00+00:00,NS,RB Bragantino,794,Vasco DA Gama,133,,,False
-1492461,2026-11-22T21:00:00+00:00,NS,Atletico-MG,1062,Corinthians,131,,,False
-1492476,2026-11-29T21:00:00+00:00,NS,Internacional,119,RB Bragantino,794,,,False
-1492471,2026-11-29T21:00:00+00:00,NS,Botafogo,120,Bahia,118,,,False
-1492475,2026-11-29T21:00:00+00:00,NS,Fluminense,124,Cruzeiro,135,,,False
-1492478,2026-11-29T21:00:00+00:00,NS,Sao Paulo,126,Remo,1198,,,False
-1492473,2026-11-29T21:00:00+00:00,NS,Corinthians,131,Gremio,130,,,False
-1492472,2026-11-29T21:00:00+00:00,NS,Chapecoense-sc,132,Palmeiras,121,,,False
-1492479,2026-11-29T21:00:00+00:00,NS,Vitoria,136,Santos,128,,,False
-1492474,2026-11-29T21:00:00+00:00,NS,Coritiba,147,Flamengo,127,,,False
-1492470,2026-11-29T21:00:00+00:00,NS,Atletico-MG,1062,Vasco DA Gama,133,,,False
-1492477,2026-11-29T21:00:00+00:00,NS,Mirassol,7848,Atletico Paranaense,134,,,False
-1492481,2026-12-02T21:00:00+00:00,NS,Bahia,118,Atletico-MG,1062,,,False
-1492486,2026-12-02T21:00:00+00:00,NS,Palmeiras,121,Coritiba,147,,,False
-1492484,2026-12-02T21:00:00+00:00,NS,Flamengo,127,Chapecoense-sc,132,,,False
-1492488,2026-12-02T21:00:00+00:00,NS,Santos,128,Botafogo,120,,,False
-1492485,2026-12-02T21:00:00+00:00,NS,Gremio,130,Mirassol,7848,,,False
-1492489,2026-12-02T21:00:00+00:00,NS,Vasco DA Gama,133,Vitoria,136,,,False
-1492480,2026-12-02T21:00:00+00:00,NS,Atletico Paranaense,134,Sao Paulo,126,,,False
-1492483,2026-12-02T21:00:00+00:00,NS,Cruzeiro,135,Internacional,119,,,False
-1492482,2026-12-02T21:00:00+00:00,NS,RB Bragantino,794,Fluminense,124,,,False
-1492487,2026-12-02T21:00:00+00:00,NS,Remo,1198,Corinthians,131,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1492116,2026-01-28T22:00:00+00:00,FT,Regular Season - 1,Internacional,119,Atletico Paranaense,134,0,1,True
+1492119,2026-01-28T22:00:00+00:00,FT,Regular Season - 1,Vitoria,136,Remo,1198,2,0,True
+1492114,2026-01-28T22:00:00+00:00,FT,Regular Season - 1,Coritiba,147,RB Bragantino,794,0,1,True
+1492110,2026-01-28T22:00:00+00:00,FT,Regular Season - 1,Atletico-MG,1062,Palmeiras,121,2,2,True
+1492115,2026-01-28T22:30:00+00:00,FT,Regular Season - 1,Fluminense,124,Gremio,130,2,1,True
+1492113,2026-01-28T23:00:00+00:00,FT,Regular Season - 1,Corinthians,131,Bahia,118,1,2,True
+1492112,2026-01-28T23:00:00+00:00,FT,Regular Season - 1,Chapecoense-sc,132,Santos,128,4,2,True
+1492118,2026-01-29T00:30:00+00:00,FT,Regular Season - 1,Sao Paulo,126,Flamengo,127,2,1,True
+1492117,2026-01-29T23:00:00+00:00,FT,Regular Season - 1,Mirassol,7848,Vasco DA Gama,133,2,1,True
+1492111,2026-01-30T00:30:00+00:00,FT,Regular Season - 1,Botafogo,120,Cruzeiro,135,4,0,True
+1492124,2026-02-04T22:00:00+00:00,FT,Regular Season - 2,Flamengo,127,Internacional,119,1,1,True
+1492122,2026-02-04T22:00:00+00:00,FT,Regular Season - 2,RB Bragantino,794,Atletico-MG,1062,1,0,True
+1492128,2026-02-04T23:00:00+00:00,FT,Regular Season - 2,Santos,128,Sao Paulo,126,1,1,True
+1492127,2026-02-04T23:00:00+00:00,FT,Regular Season - 2,Remo,1198,Mirassol,7848,2,2,True
+1492126,2026-02-05T00:30:00+00:00,FT,Regular Season - 2,Palmeiras,121,Vitoria,136,5,1,True
+1492125,2026-02-05T00:30:00+00:00,FT,Regular Season - 2,Gremio,130,Botafogo,120,5,3,True
+1492121,2026-02-05T22:00:00+00:00,FT,Regular Season - 2,Bahia,118,Fluminense,124,1,1,True
+1492129,2026-02-05T23:00:00+00:00,FT,Regular Season - 2,Vasco DA Gama,133,Chapecoense-sc,132,1,1,True
+1492123,2026-02-06T00:30:00+00:00,FT,Regular Season - 2,Cruzeiro,135,Coritiba,147,1,2,True
+1492139,2026-02-11T00:30:00+00:00,FT,Regular Season - 3,Vitoria,136,Flamengo,127,1,2,True
+1492132,2026-02-11T22:00:00+00:00,FT,Regular Season - 3,Chapecoense-sc,132,Coritiba,147,3,3,True
+1492136,2026-02-11T22:00:00+00:00,FT,Regular Season - 3,Mirassol,7848,Cruzeiro,135,2,2,True
+1492131,2026-02-11T23:00:00+00:00,FT,Regular Season - 3,Atletico-MG,1062,Remo,1198,3,3,True
+1492137,2026-02-12T00:30:00+00:00,FT,Regular Season - 3,Sao Paulo,126,Gremio,130,2,0,True
+1492138,2026-02-12T00:30:00+00:00,FT,Regular Season - 3,Vasco DA Gama,133,Bahia,118,0,1,True
+1492130,2026-02-12T22:00:00+00:00,FT,Regular Season - 3,Atletico Paranaense,134,Santos,128,2,1,True
+1492134,2026-02-12T22:30:00+00:00,FT,Regular Season - 3,Fluminense,124,Botafogo,120,1,0,True
+1492133,2026-02-12T23:00:00+00:00,FT,Regular Season - 3,Corinthians,131,RB Bragantino,794,2,0,True
+1492135,2026-02-13T00:30:00+00:00,FT,Regular Season - 3,Internacional,119,Palmeiras,121,1,3,True
+1492120,2026-02-19T22:30:00+00:00,FT,Regular Season - 2,Atletico Paranaense,134,Corinthians,131,0,1,True
+1492142,2026-02-25T22:00:00+00:00,FT,Regular Season - 4,RB Bragantino,794,Atletico Paranaense,134,1,1,True
+1492148,2026-02-25T22:00:00+00:00,FT,Regular Season - 4,Remo,1198,Internacional,119,1,1,True
+1492143,2026-02-25T22:30:00+00:00,FT,Regular Season - 4,Coritiba,147,Sao Paulo,126,0,1,True
+1492144,2026-02-25T23:00:00+00:00,FT,Regular Season - 4,Cruzeiro,135,Corinthians,131,1,1,True
+1492147,2026-02-26T00:30:00+00:00,FT,Regular Season - 4,Palmeiras,121,Fluminense,124,2,1,True
+1492146,2026-02-26T00:30:00+00:00,FT,Regular Season - 4,Gremio,130,Atletico-MG,1062,2,1,True
+1492149,2026-02-26T22:00:00+00:00,FT,Regular Season - 4,Santos,128,Vasco DA Gama,133,2,1,True
+1492156,2026-03-11T00:30:00+00:00,FT,Regular Season - 5,Mirassol,7848,Santos,128,2,2,True
+1492151,2026-03-11T22:00:00+00:00,FT,Regular Season - 5,Atletico-MG,1062,Internacional,119,1,0,True
+1492152,2026-03-11T23:00:00+00:00,FT,Regular Season - 5,Bahia,118,Vitoria,136,1,1,True
+1492154,2026-03-12T00:30:00+00:00,FT,Regular Season - 5,Flamengo,127,Cruzeiro,135,2,0,True
+1492153,2026-03-12T00:30:00+00:00,FT,Regular Season - 5,Corinthians,131,Coritiba,147,0,2,True
+1492157,2026-03-12T22:00:00+00:00,FT,Regular Season - 5,Remo,1198,Fluminense,124,0,2,True
+1492159,2026-03-12T22:30:00+00:00,FT,Regular Season - 5,Vasco DA Gama,133,Palmeiras,121,2,1,True
+1492158,2026-03-12T23:00:00+00:00,FT,Regular Season - 5,Sao Paulo,126,Chapecoense-sc,132,2,0,True
+1492155,2026-03-13T00:30:00+00:00,FT,Regular Season - 5,Gremio,130,RB Bragantino,794,1,1,True
+1492169,2026-03-14T21:30:00+00:00,FT,Regular Season - 6,Vitoria,136,Atletico-MG,1062,2,0,True
+1492160,2026-03-14T23:30:00+00:00,FT,Regular Season - 6,Botafogo,120,Flamengo,127,0,3,True
+1492166,2026-03-15T19:00:00+00:00,FT,Regular Season - 6,Internacional,119,Bahia,118,0,1,True
+1492165,2026-03-15T19:00:00+00:00,FT,Regular Season - 6,Fluminense,124,Atletico Paranaense,134,3,2,True
+1492168,2026-03-15T19:00:00+00:00,FT,Regular Season - 6,Santos,128,Corinthians,131,1,1,True
+1492167,2026-03-15T21:30:00+00:00,FT,Regular Season - 6,Palmeiras,121,Mirassol,7848,1,0,True
+1492163,2026-03-15T21:30:00+00:00,FT,Regular Season - 6,Coritiba,147,Remo,1198,1,0,True
+1492164,2026-03-15T23:30:00+00:00,FT,Regular Season - 6,Cruzeiro,135,Vasco DA Gama,133,3,3,True
+1492161,2026-03-15T23:30:00+00:00,FT,Regular Season - 6,RB Bragantino,794,Sao Paulo,126,1,2,True
+1492162,2026-03-16T23:00:00+00:00,FT,Regular Season - 6,Chapecoense-sc,132,Gremio,130,1,1,True
+1492172,2026-03-18T22:00:00+00:00,FT,Regular Season - 7,Bahia,118,RB Bragantino,794,2,0,True
+1492177,2026-03-18T22:00:00+00:00,FT,Regular Season - 7,Palmeiras,121,Botafogo,120,2,1,True
+1492170,2026-03-18T22:30:00+00:00,FT,Regular Season - 7,Atletico Paranaense,134,Cruzeiro,135,2,1,True
+1492171,2026-03-18T23:00:00+00:00,FT,Regular Season - 7,Atletico-MG,1062,Sao Paulo,126,1,0,True
+1492176,2026-03-18T23:00:00+00:00,FT,Regular Season - 7,Mirassol,7848,Coritiba,147,0,1,True
+1492178,2026-03-19T00:30:00+00:00,FT,Regular Season - 7,Santos,128,Internacional,119,1,2,True
+1492179,2026-03-19T00:30:00+00:00,FT,Regular Season - 7,Vasco DA Gama,133,Fluminense,124,3,2,True
+1492175,2026-03-19T22:00:00+00:00,FT,Regular Season - 7,Gremio,130,Vitoria,136,2,0,True
+1492174,2026-03-19T23:00:00+00:00,FT,Regular Season - 7,Flamengo,127,Remo,1198,3,0,True
+1492173,2026-03-20T00:30:00+00:00,FT,Regular Season - 7,Chapecoense-sc,132,Corinthians,131,0,0,True
+1492181,2026-03-21T19:00:00+00:00,FT,Regular Season - 8,RB Bragantino,794,Botafogo,120,1,2,True
+1492184,2026-03-21T21:30:00+00:00,FT,Regular Season - 8,Fluminense,124,Atletico-MG,1062,1,0,True
+1492187,2026-03-22T00:00:00+00:00,FT,Regular Season - 8,Sao Paulo,126,Palmeiras,121,0,1,True
+1492188,2026-03-22T19:00:00+00:00,FT,Regular Season - 8,Vasco DA Gama,133,Gremio,130,2,1,True
+1492180,2026-03-22T19:00:00+00:00,FT,Regular Season - 8,Atletico Paranaense,134,Coritiba,147,2,0,True
+1492183,2026-03-22T19:00:00+00:00,FT,Regular Season - 8,Cruzeiro,135,Santos,128,0,0,True
+1492186,2026-03-22T19:00:00+00:00,FT,Regular Season - 8,Remo,1198,Bahia,118,4,1,True
+1492185,2026-03-22T21:30:00+00:00,FT,Regular Season - 8,Internacional,119,Chapecoense-sc,132,2,0,True
+1492189,2026-03-22T21:30:00+00:00,FT,Regular Season - 8,Vitoria,136,Mirassol,7848,1,0,True
+1492182,2026-03-22T23:30:00+00:00,FT,Regular Season - 8,Corinthians,131,Flamengo,127,1,1,True
+1492150,2026-03-29T22:30:00+00:00,FT,Regular Season - 5,Atletico Paranaense,134,Botafogo,120,4,1,True
+1492197,2026-04-01T22:30:00+00:00,FT,Regular Season - 9,Internacional,119,Sao Paulo,126,1,1,True
+1492191,2026-04-01T22:30:00+00:00,FT,Regular Season - 9,Botafogo,120,Mirassol,7848,3,2,True
+1492190,2026-04-01T23:00:00+00:00,FT,Regular Season - 9,Bahia,118,Atletico Paranaense,134,3,0,True
+1492195,2026-04-01T23:00:00+00:00,FT,Regular Season - 9,Cruzeiro,135,Vitoria,136,3,0,True
+1492194,2026-04-01T23:30:00+00:00,FT,Regular Season - 9,Coritiba,147,Vasco DA Gama,133,1,1,True
+1492196,2026-04-02T00:30:00+00:00,FT,Regular Season - 9,Fluminense,124,Corinthians,131,3,1,True
+1492199,2026-04-02T22:00:00+00:00,FT,Regular Season - 9,Santos,128,Remo,1198,2,0,True
+1492193,2026-04-02T22:00:00+00:00,FT,Regular Season - 9,Chapecoense-sc,132,Atletico-MG,1062,0,4,True
+1492198,2026-04-03T00:30:00+00:00,FT,Regular Season - 9,Palmeiras,121,Gremio,130,2,1,True
+1492192,2026-04-03T00:30:00+00:00,FT,Regular Season - 9,RB Bragantino,794,Flamengo,127,3,0,True
+1492208,2026-04-04T21:30:00+00:00,FT,Regular Season - 10,Sao Paulo,126,Cruzeiro,135,4,1,True
+1492204,2026-04-04T23:30:00+00:00,FT,Regular Season - 10,Coritiba,147,Fluminense,124,1,1,True
+1492209,2026-04-05T00:00:00+00:00,FT,Regular Season - 10,Vasco DA Gama,133,Botafogo,120,1,2,True
+1492202,2026-04-05T19:00:00+00:00,FT,Regular Season - 10,Chapecoense-sc,132,Vitoria,136,1,1,True
+1492205,2026-04-05T20:30:00+00:00,FT,Regular Season - 10,Flamengo,127,Santos,128,3,1,True
+1492200,2026-04-05T20:30:00+00:00,FT,Regular Season - 10,Atletico-MG,1062,Atletico Paranaense,134,2,1,True
+1492201,2026-04-05T22:30:00+00:00,FT,Regular Season - 10,Bahia,118,Palmeiras,121,1,2,True
+1492203,2026-04-05T22:30:00+00:00,FT,Regular Season - 10,Corinthians,131,Internacional,119,0,1,True
+1492207,2026-04-05T23:00:00+00:00,FT,Regular Season - 10,Mirassol,7848,RB Bragantino,794,0,1,True
+1492206,2026-04-05T23:30:00+00:00,FT,Regular Season - 10,Gremio,130,Remo,1198,0,0,True
+1492219,2026-04-11T19:30:00+00:00,FT,Regular Season - 11,Vitoria,136,Sao Paulo,126,2,0,True
+1492217,2026-04-11T19:30:00+00:00,FT,Regular Season - 11,Remo,1198,Vasco DA Gama,133,1,1,True
+1492216,2026-04-11T21:30:00+00:00,FT,Regular Season - 11,Mirassol,7848,Bahia,118,1,2,True
+1492218,2026-04-11T23:00:00+00:00,FT,Regular Season - 11,Santos,128,Atletico-MG,1062,1,0,True
+1492215,2026-04-11T23:30:00+00:00,FT,Regular Season - 11,Internacional,119,Gremio,130,0,0,True
+1492210,2026-04-12T14:00:00+00:00,FT,Regular Season - 11,Atletico Paranaense,134,Chapecoense-sc,132,2,0,True
+1492211,2026-04-12T19:00:00+00:00,FT,Regular Season - 11,Botafogo,120,Coritiba,147,2,2,True
+1492214,2026-04-12T21:00:00+00:00,FT,Regular Season - 11,Fluminense,124,Flamengo,127,1,2,True
+1492212,2026-04-12T21:30:00+00:00,FT,Regular Season - 11,Corinthians,131,Palmeiras,121,0,0,True
+1492213,2026-04-12T21:30:00+00:00,FT,Regular Season - 11,Cruzeiro,135,RB Bragantino,794,2,1,True
+1492221,2026-04-18T21:30:00+00:00,FT,Regular Season - 12,Chapecoense-sc,132,Botafogo,120,1,4,True
+1492228,2026-04-18T21:30:00+00:00,FT,Regular Season - 12,Vasco DA Gama,133,Sao Paulo,126,2,1,True
+1492229,2026-04-18T23:00:00+00:00,FT,Regular Season - 12,Vitoria,136,Corinthians,131,0,0,True
+1492223,2026-04-18T23:30:00+00:00,FT,Regular Season - 12,Cruzeiro,135,Gremio,130,2,0,True
+1492225,2026-04-19T14:00:00+00:00,FT,Regular Season - 12,Internacional,119,Mirassol,7848,1,2,True
+1492227,2026-04-19T19:00:00+00:00,FT,Regular Season - 12,Santos,128,Fluminense,124,2,3,True
+1492222,2026-04-19T19:00:00+00:00,FT,Regular Season - 12,Coritiba,147,Atletico-MG,1062,2,0,True
+1492226,2026-04-19T21:30:00+00:00,FT,Regular Season - 12,Palmeiras,121,Atletico Paranaense,134,1,0,True
+1492220,2026-04-19T21:30:00+00:00,FT,Regular Season - 12,RB Bragantino,794,Remo,1198,4,2,True
+1492224,2026-04-19T22:30:00+00:00,FT,Regular Season - 12,Flamengo,127,Bahia,118,2,0,True
+1492232,2026-04-25T21:30:00+00:00,FT,Regular Season - 13,Bahia,118,Santos,128,2,2,True
+1492233,2026-04-25T21:30:00+00:00,FT,Regular Season - 13,Botafogo,120,Internacional,119,2,2,True
+1492238,2026-04-25T21:30:00+00:00,FT,Regular Season - 13,Remo,1198,Cruzeiro,135,0,1,True
+1492239,2026-04-26T00:00:00+00:00,FT,Regular Season - 13,Sao Paulo,126,Mirassol,7848,1,0,True
+1492237,2026-04-26T19:00:00+00:00,FT,Regular Season - 13,Gremio,130,Coritiba,147,1,0,True
+1492235,2026-04-26T19:00:00+00:00,FT,Regular Season - 13,Corinthians,131,Vasco DA Gama,133,1,0,True
+1492230,2026-04-26T21:30:00+00:00,FT,Regular Season - 13,Atletico Paranaense,134,Vitoria,136,3,1,True
+1492234,2026-04-26T21:30:00+00:00,FT,Regular Season - 13,RB Bragantino,794,Palmeiras,121,0,1,True
+1492236,2026-04-26T23:30:00+00:00,FT,Regular Season - 13,Fluminense,124,Chapecoense-sc,132,2,1,True
+1492231,2026-04-26T23:30:00+00:00,FT,Regular Season - 13,Atletico-MG,1062,Flamengo,127,0,4,True
+1492241,2026-05-02T19:00:00+00:00,FT,Regular Season - 14,Botafogo,120,Remo,1198,1,2,True
+1492247,2026-05-02T21:30:00+00:00,FT,Regular Season - 14,Palmeiras,121,Santos,128,1,1,True
+1492249,2026-05-02T21:30:00+00:00,FT,Regular Season - 14,Vitoria,136,Coritiba,147,4,1,True
+1492240,2026-05-02T23:30:00+00:00,FT,Regular Season - 14,Atletico Paranaense,134,Gremio,130,0,0,True
+1492243,2026-05-03T00:00:00+00:00,FT,Regular Season - 14,Cruzeiro,135,Atletico-MG,1062,1,3,True
+1492248,2026-05-03T19:00:00+00:00,FT,Regular Season - 14,Sao Paulo,126,Bahia,118,2,2,True
+1492244,2026-05-03T19:00:00+00:00,FT,Regular Season - 14,Flamengo,127,Vasco DA Gama,133,2,2,True
+1492245,2026-05-03T21:30:00+00:00,FT,Regular Season - 14,Internacional,119,Fluminense,124,2,0,True
+1492242,2026-05-03T21:30:00+00:00,FT,Regular Season - 14,Chapecoense-sc,132,RB Bragantino,794,1,2,True
+1492246,2026-05-03T23:30:00+00:00,FT,Regular Season - 14,Mirassol,7848,Corinthians,131,2,1,True
+1492253,2026-05-09T19:00:00+00:00,FT,Regular Season - 15,Coritiba,147,Internacional,119,2,2,True
+1492254,2026-05-09T21:00:00+00:00,FT,Regular Season - 15,Fluminense,124,Vitoria,136,2,2,True
+1492251,2026-05-10T00:00:00+00:00,FT,Regular Season - 15,Bahia,118,Cruzeiro,135,1,2,True
+1492250,2026-05-10T19:00:00+00:00,FT,Regular Season - 15,Atletico-MG,1062,Botafogo,120,1,1,True
+1492257,2026-05-10T19:00:00+00:00,FT,Regular Season - 15,Remo,1198,Palmeiras,121,1,1,True
+1492258,2026-05-10T21:30:00+00:00,FT,Regular Season - 15,Santos,128,RB Bragantino,794,2,0,True
+1492252,2026-05-10T21:30:00+00:00,FT,Regular Season - 15,Corinthians,131,Sao Paulo,126,3,2,True
+1492256,2026-05-10T21:30:00+00:00,FT,Regular Season - 15,Mirassol,7848,Chapecoense-sc,132,1,1,True
+1492255,2026-05-10T22:30:00+00:00,FT,Regular Season - 15,Gremio,130,Flamengo,127,0,1,True
+1492259,2026-05-10T23:30:00+00:00,FT,Regular Season - 15,Vasco DA Gama,133,Atletico Paranaense,134,1,0,True
+1492267,2026-05-16T21:30:00+00:00,FT,Regular Season - 16,Internacional,119,Vasco DA Gama,133,4,1,True
+1492261,2026-05-16T21:30:00+00:00,FT,Regular Season - 16,Atletico-MG,1062,Mirassol,7848,3,1,True
+1492266,2026-05-16T22:00:00+00:00,FT,Regular Season - 16,Fluminense,124,Sao Paulo,126,2,1,True
+1492268,2026-05-17T00:00:00+00:00,FT,Regular Season - 16,Palmeiras,121,Cruzeiro,135,1,1,True
+1492269,2026-05-17T14:00:00+00:00,FT,Regular Season - 16,Santos,128,Coritiba,147,0,3,True
+1492262,2026-05-17T19:00:00+00:00,FT,Regular Season - 16,Bahia,118,Gremio,130,1,1,True
+1492263,2026-05-17T19:00:00+00:00,FT,Regular Season - 16,Botafogo,120,Corinthians,131,3,1,True
+1492265,2026-05-17T21:30:00+00:00,FT,Regular Season - 16,Chapecoense-sc,132,Remo,1198,2,3,True
+1492264,2026-05-17T21:30:00+00:00,FT,Regular Season - 16,RB Bragantino,794,Vitoria,136,2,0,True
+1492260,2026-05-17T22:30:00+00:00,FT,Regular Season - 16,Atletico Paranaense,134,Flamengo,127,1,1,True
+1492277,2026-05-23T20:00:00+00:00,FT,Regular Season - 17,Sao Paulo,126,Botafogo,120,1,1,True
+1492279,2026-05-23T20:00:00+00:00,FT,Regular Season - 17,Vitoria,136,Internacional,119,2,0,True
+1492274,2026-05-23T22:00:00+00:00,FT,Regular Season - 17,Gremio,130,Santos,128,3,2,True
+1492275,2026-05-23T22:00:00+00:00,FT,Regular Season - 17,Mirassol,7848,Fluminense,124,1,0,True
+1492273,2026-05-24T00:00:00+00:00,FT,Regular Season - 17,Flamengo,127,Palmeiras,121,0,3,True
+1492272,2026-05-24T19:00:00+00:00,FT,Regular Season - 17,Cruzeiro,135,Chapecoense-sc,132,2,1,True
+1492276,2026-05-24T19:00:00+00:00,FT,Regular Season - 17,Remo,1198,Atletico Paranaense,134,1,2,True
+1492270,2026-05-24T21:30:00+00:00,FT,Regular Season - 17,Corinthians,131,Atletico-MG,1062,1,0,True
+1492278,2026-05-24T23:30:00+00:00,FT,Regular Season - 17,Vasco DA Gama,133,RB Bragantino,794,0,3,True
+1492271,2026-05-25T23:00:00+00:00,FT,Regular Season - 17,Coritiba,147,Bahia,118,3,2,True
+1492284,2026-05-30T19:00:00+00:00,FT,Regular Season - 18,Flamengo,127,Coritiba,147,3,0,True
+1492280,2026-05-30T19:00:00+00:00,FT,Regular Season - 18,Atletico Paranaense,134,Mirassol,7848,1,0,True
+1492281,2026-05-30T20:30:00+00:00,FT,Regular Season - 18,Bahia,118,Botafogo,120,2,1,True
+1492285,2026-05-30T20:30:00+00:00,FT,Regular Season - 18,Gremio,130,Corinthians,131,1,3,True
+1492288,2026-05-30T23:00:00+00:00,FT,Regular Season - 18,Santos,128,Vitoria,136,3,1,True
+1492282,2026-05-31T14:00:00+00:00,FT,Regular Season - 18,RB Bragantino,794,Internacional,119,3,1,True
+1492286,2026-05-31T19:00:00+00:00,FT,Regular Season - 18,Palmeiras,121,Chapecoense-sc,132,1,0,True
+1492289,2026-05-31T19:00:00+00:00,FT,Regular Season - 18,Vasco DA Gama,133,Atletico-MG,1062,0,1,True
+1492283,2026-05-31T23:30:00+00:00,FT,Regular Season - 18,Cruzeiro,135,Fluminense,124,1,1,True
+1492287,2026-05-31T23:30:00+00:00,FT,Regular Season - 18,Remo,1198,Sao Paulo,126,1,0,True
+1492291,2026-07-16T22:30:00+00:00,FT,Regular Season - 19,Botafogo,120,Santos,128,2,1,True
+1492299,2026-07-16T22:30:00+00:00,FT,Regular Season - 19,Vitoria,136,Vasco DA Gama,133,1,0,True
+1492140,2026-07-17T22:30:00+00:00,FT,Regular Season - 4,Bahia,118,Chapecoense-sc,132,2,0,True
+1492295,2026-07-17T23:00:00+00:00,FT,Regular Season - 19,Fluminense,124,RB Bragantino,794,1,1,True
+1492297,2026-07-17T23:00:00+00:00,FT,Regular Season - 19,Mirassol,7848,Gremio,130,2,1,True
+1492290,2026-07-21T22:30:00+00:00,FT,Regular Season - 19,Atletico-MG,1062,Bahia,118,1,1,True
+1492294,2026-07-22T22:30:00+00:00,FT,Regular Season - 19,Coritiba,147,Palmeiras,121,1,3,True
+1492296,2026-07-23T00:30:00+00:00,FT,Regular Season - 19,Internacional,119,Cruzeiro,135,1,2,True
+1492298,2026-07-23T00:30:00+00:00,FT,Regular Season - 19,Sao Paulo,126,Atletico Paranaense,134,1,2,True
+1492292,2026-07-23T00:30:00+00:00,FT,Regular Season - 19,Chapecoense-sc,132,Flamengo,127,0,4,True
+1492141,2026-07-23T22:30:00+00:00,FT,Regular Season - 4,Botafogo,120,Vitoria,136,0,0,True
+1492293,2026-07-23T22:30:00+00:00,FT,Regular Season - 19,Corinthians,131,Remo,1198,3,0,True
+1492308,2026-07-25T21:30:00+00:00,FT,Regular Season - 20,Santos,128,Chapecoense-sc,132,2,2,True
+1492300,2026-07-25T21:30:00+00:00,FT,Regular Season - 20,Atletico Paranaense,134,Internacional,119,2,0,True
+1492309,2026-07-25T23:30:00+00:00,FT,Regular Season - 20,Vasco DA Gama,133,Mirassol,7848,1,1,True
+1492301,2026-07-26T19:00:00+00:00,FT,Regular Season - 20,Bahia,118,Corinthians,131,1,1,True
+1492303,2026-07-26T19:00:00+00:00,FT,Regular Season - 20,Cruzeiro,135,Botafogo,120,0,1,True
+1492304,2026-07-26T21:30:00+00:00,FT,Regular Season - 20,Flamengo,127,Sao Paulo,126,1,1,True
+1492305,2026-07-26T21:30:00+00:00,FT,Regular Season - 20,Gremio,130,Fluminense,124,1,1,True
+1492302,2026-07-26T21:30:00+00:00,FT,Regular Season - 20,RB Bragantino,794,Coritiba,147,0,0,True
+1492306,2026-07-26T22:30:00+00:00,FT,Regular Season - 20,Palmeiras,121,Atletico-MG,1062,1,2,True
+1492307,2026-07-26T22:30:00+00:00,FT,Regular Season - 20,Remo,1198,Vitoria,136,2,0,True
+1492316,2026-07-29T22:30:00+00:00,FT,Regular Season - 21,Internacional,119,Flamengo,127,1,1,True
+1492317,2026-07-29T22:30:00+00:00,FT,Regular Season - 21,Mirassol,7848,Remo,1198,2,1,True
+1492315,2026-07-30T00:30:00+00:00,FT,Regular Season - 21,Fluminense,124,Bahia,118,0,0,True
+1492319,2026-07-30T00:30:00+00:00,FT,Regular Season - 21,Vitoria,136,Palmeiras,121,0,4,True
+1492313,2026-07-30T22:30:00+00:00,FT,Regular Season - 21,Corinthians,131,Atletico Paranaense,134,0,0,True
+1492314,2026-07-31T00:30:00+00:00,FT,Regular Season - 21,Coritiba,147,Cruzeiro,135,0,1,True
+1492145,2026-02-25T21:00:00+00:00,PST,Regular Season - 4,Flamengo,127,Mirassol,7848,,,False
+1492311,2026-07-29T20:00:00+00:00,PST,Regular Season - 21,Botafogo,120,Gremio,130,,,False
+1492318,2026-07-29T20:00:00+00:00,PST,Regular Season - 21,Sao Paulo,126,Santos,128,,,False
+1492312,2026-07-29T20:00:00+00:00,PST,Regular Season - 21,Chapecoense-sc,132,Vasco DA Gama,133,,,False
+1492310,2026-07-29T20:00:00+00:00,PST,Regular Season - 21,Atletico-MG,1062,RB Bragantino,794,,,False
+1492326,2026-08-08T19:00:00+00:00,NS,Regular Season - 22,Gremio,130,Sao Paulo,126,,,False
+1492328,2026-08-08T21:30:00+00:00,NS,Regular Season - 22,Remo,1198,Atletico-MG,1062,,,False
+1492323,2026-08-08T23:30:00+00:00,NS,Regular Season - 22,Coritiba,147,Chapecoense-sc,132,,,False
+1492321,2026-08-09T00:00:00+00:00,NS,Regular Season - 22,Botafogo,120,Fluminense,124,,,False
+1492324,2026-08-09T14:00:00+00:00,NS,Regular Season - 22,Cruzeiro,135,Mirassol,7848,,,False
+1492320,2026-08-09T19:00:00+00:00,NS,Regular Season - 22,Bahia,118,Vasco DA Gama,133,,,False
+1492327,2026-08-09T19:00:00+00:00,NS,Regular Season - 22,Palmeiras,121,Internacional,119,,,False
+1492329,2026-08-09T21:30:00+00:00,NS,Regular Season - 22,Santos,128,Atletico Paranaense,134,,,False
+1492322,2026-08-09T21:30:00+00:00,NS,Regular Season - 22,RB Bragantino,794,Corinthians,131,,,False
+1492325,2026-08-09T22:30:00+00:00,NS,Regular Season - 22,Flamengo,127,Vitoria,136,,,False
+1492334,2026-08-15T19:30:00+00:00,NS,Regular Season - 23,Fluminense,124,Palmeiras,121,,,False
+1492331,2026-08-15T19:30:00+00:00,NS,Regular Season - 23,Atletico-MG,1062,Gremio,130,,,False
+1492330,2026-08-15T21:30:00+00:00,NS,Regular Season - 23,Atletico Paranaense,134,RB Bragantino,794,,,False
+1492337,2026-08-16T00:00:00+00:00,NS,Regular Season - 23,Sao Paulo,126,Coritiba,147,,,False
+1492332,2026-08-16T14:00:00+00:00,NS,Regular Season - 23,Chapecoense-sc,132,Bahia,118,,,False
+1492338,2026-08-16T19:00:00+00:00,NS,Regular Season - 23,Vasco DA Gama,133,Santos,128,,,False
+1492339,2026-08-16T21:30:00+00:00,NS,Regular Season - 23,Vitoria,136,Botafogo,120,,,False
+1492336,2026-08-16T21:30:00+00:00,NS,Regular Season - 23,Mirassol,7848,Flamengo,127,,,False
+1492333,2026-08-16T22:30:00+00:00,NS,Regular Season - 23,Corinthians,131,Cruzeiro,135,,,False
+1492335,2026-08-17T23:00:00+00:00,NS,Regular Season - 23,Internacional,119,Remo,1198,,,False
+1492345,2026-08-22T19:00:00+00:00,NS,Regular Season - 24,Fluminense,124,Remo,1198,,,False
+1492346,2026-08-22T21:30:00+00:00,NS,Regular Season - 24,Internacional,119,Atletico-MG,1062,,,False
+1492344,2026-08-22T23:30:00+00:00,NS,Regular Season - 24,Cruzeiro,135,Flamengo,127,,,False
+1492347,2026-08-23T19:00:00+00:00,NS,Regular Season - 24,Palmeiras,121,Vasco DA Gama,133,,,False
+1492349,2026-08-23T19:00:00+00:00,NS,Regular Season - 24,Vitoria,136,Bahia,118,,,False
+1492341,2026-08-23T19:00:00+00:00,NS,Regular Season - 24,RB Bragantino,794,Gremio,130,,,False
+1492348,2026-08-23T21:30:00+00:00,NS,Regular Season - 24,Santos,128,Mirassol,7848,,,False
+1492342,2026-08-23T21:30:00+00:00,NS,Regular Season - 24,Chapecoense-sc,132,Sao Paulo,126,,,False
+1492343,2026-08-23T22:30:00+00:00,NS,Regular Season - 24,Coritiba,147,Corinthians,131,,,False
+1492340,2026-08-24T23:00:00+00:00,NS,Regular Season - 24,Botafogo,120,Atletico Paranaense,134,,,False
+1492352,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Bahia,118,Internacional,119,,,False
+1492358,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Sao Paulo,126,RB Bragantino,794,,,False
+1492354,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Flamengo,127,Botafogo,120,,,False
+1492355,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Gremio,130,Chapecoense-sc,132,,,False
+1492353,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Corinthians,131,Santos,128,,,False
+1492359,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Vasco DA Gama,133,Cruzeiro,135,,,False
+1492350,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Atletico Paranaense,134,Fluminense,124,,,False
+1492351,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Atletico-MG,1062,Vitoria,136,,,False
+1492357,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Remo,1198,Coritiba,147,,,False
+1492356,2026-08-30T20:00:00+00:00,NS,Regular Season - 25,Mirassol,7848,Palmeiras,121,,,False
+1492366,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Internacional,119,Santos,128,,,False
+1492360,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Botafogo,120,Palmeiras,121,,,False
+1492365,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Fluminense,124,Vasco DA Gama,133,,,False
+1492368,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Sao Paulo,126,Atletico-MG,1062,,,False
+1492362,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Corinthians,131,Chapecoense-sc,132,,,False
+1492364,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Cruzeiro,135,Atletico Paranaense,134,,,False
+1492369,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Vitoria,136,Gremio,130,,,False
+1492363,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Coritiba,147,Mirassol,7848,,,False
+1492361,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,RB Bragantino,794,Bahia,118,,,False
+1492367,2026-09-06T20:00:00+00:00,NS,Regular Season - 26,Remo,1198,Flamengo,127,,,False
+1492371,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Bahia,118,Remo,1198,,,False
+1492372,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Botafogo,120,RB Bragantino,794,,,False
+1492378,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Palmeiras,121,Sao Paulo,126,,,False
+1492375,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Flamengo,127,Corinthians,131,,,False
+1492379,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Santos,128,Cruzeiro,135,,,False
+1492376,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Gremio,130,Vasco DA Gama,133,,,False
+1492373,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Chapecoense-sc,132,Internacional,119,,,False
+1492374,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Coritiba,147,Atletico Paranaense,134,,,False
+1492370,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Atletico-MG,1062,Fluminense,124,,,False
+1492377,2026-09-13T20:00:00+00:00,NS,Regular Season - 27,Mirassol,7848,Vitoria,136,,,False
+1492387,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Sao Paulo,126,Internacional,119,,,False
+1492383,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Flamengo,127,RB Bragantino,794,,,False
+1492384,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Gremio,130,Palmeiras,121,,,False
+1492382,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Corinthians,131,Fluminense,124,,,False
+1492388,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Vasco DA Gama,133,Coritiba,147,,,False
+1492380,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Atletico Paranaense,134,Bahia,118,,,False
+1492389,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Vitoria,136,Cruzeiro,135,,,False
+1492381,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Atletico-MG,1062,Chapecoense-sc,132,,,False
+1492386,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Remo,1198,Santos,128,,,False
+1492385,2026-09-20T20:00:00+00:00,NS,Regular Season - 28,Mirassol,7848,Botafogo,120,,,False
+1492395,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Internacional,119,Corinthians,131,,,False
+1492391,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Botafogo,120,Vasco DA Gama,133,,,False
+1492396,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Palmeiras,121,Bahia,118,,,False
+1492394,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Fluminense,124,Coritiba,147,,,False
+1492398,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Santos,128,Flamengo,127,,,False
+1492390,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Atletico Paranaense,134,Atletico-MG,1062,,,False
+1492393,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Cruzeiro,135,Sao Paulo,126,,,False
+1492399,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Vitoria,136,Chapecoense-sc,132,,,False
+1492392,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,RB Bragantino,794,Mirassol,7848,,,False
+1492397,2026-10-07T20:00:00+00:00,NS,Regular Season - 29,Remo,1198,Gremio,130,,,False
+1492401,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Bahia,118,Mirassol,7848,,,False
+1492407,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Palmeiras,121,Corinthians,131,,,False
+1492408,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Sao Paulo,126,Vitoria,136,,,False
+1492405,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Flamengo,127,Fluminense,124,,,False
+1492406,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Gremio,130,Internacional,119,,,False
+1492403,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Chapecoense-sc,132,Atletico Paranaense,134,,,False
+1492409,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Vasco DA Gama,133,Remo,1198,,,False
+1492404,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Coritiba,147,Botafogo,120,,,False
+1492402,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,RB Bragantino,794,Cruzeiro,135,,,False
+1492400,2026-10-11T20:00:00+00:00,NS,Regular Season - 30,Atletico-MG,1062,Santos,128,,,False
+1492412,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Bahia,118,Flamengo,127,,,False
+1492413,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Botafogo,120,Chapecoense-sc,132,,,False
+1492415,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Fluminense,124,Santos,128,,,False
+1492419,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Sao Paulo,126,Vasco DA Gama,133,,,False
+1492416,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Gremio,130,Cruzeiro,135,,,False
+1492414,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Corinthians,131,Vitoria,136,,,False
+1492410,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Atletico Paranaense,134,Palmeiras,121,,,False
+1492411,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Atletico-MG,1062,Coritiba,147,,,False
+1492418,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Remo,1198,RB Bragantino,794,,,False
+1492417,2026-10-18T20:00:00+00:00,NS,Regular Season - 31,Mirassol,7848,Internacional,119,,,False
+1492424,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Internacional,119,Botafogo,120,,,False
+1492426,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Palmeiras,121,RB Bragantino,794,,,False
+1492423,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Flamengo,127,Atletico-MG,1062,,,False
+1492427,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Santos,128,Bahia,118,,,False
+1492420,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Chapecoense-sc,132,Fluminense,124,,,False
+1492428,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Vasco DA Gama,133,Corinthians,131,,,False
+1492422,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Cruzeiro,135,Remo,1198,,,False
+1492429,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Vitoria,136,Atletico Paranaense,134,,,False
+1492421,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Coritiba,147,Gremio,130,,,False
+1492425,2026-10-25T21:00:00+00:00,NS,Regular Season - 32,Mirassol,7848,Sao Paulo,126,,,False
+1492431,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Bahia,118,Sao Paulo,126,,,False
+1492435,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Fluminense,124,Internacional,119,,,False
+1492438,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Santos,128,Palmeiras,121,,,False
+1492436,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Gremio,130,Atletico Paranaense,134,,,False
+1492433,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Corinthians,131,Mirassol,7848,,,False
+1492439,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Vasco DA Gama,133,Flamengo,127,,,False
+1492434,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Coritiba,147,Vitoria,136,,,False
+1492432,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,RB Bragantino,794,Chapecoense-sc,132,,,False
+1492430,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Atletico-MG,1062,Cruzeiro,135,,,False
+1492437,2026-10-28T21:00:00+00:00,NS,Regular Season - 33,Remo,1198,Botafogo,120,,,False
+1492446,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Internacional,119,Coritiba,147,,,False
+1492441,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Botafogo,120,Atletico-MG,1062,,,False
+1492447,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Palmeiras,121,Remo,1198,,,False
+1492448,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Sao Paulo,126,Corinthians,131,,,False
+1492445,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Flamengo,127,Gremio,130,,,False
+1492443,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Chapecoense-sc,132,Mirassol,7848,,,False
+1492440,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Atletico Paranaense,134,Vasco DA Gama,133,,,False
+1492444,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Cruzeiro,135,Bahia,118,,,False
+1492449,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,Vitoria,136,Fluminense,124,,,False
+1492442,2026-11-04T21:00:00+00:00,NS,Regular Season - 34,RB Bragantino,794,Santos,128,,,False
+1492457,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Sao Paulo,126,Fluminense,124,,,False
+1492453,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Flamengo,127,Atletico Paranaense,134,,,False
+1492454,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Gremio,130,Bahia,118,,,False
+1492450,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Corinthians,131,Botafogo,120,,,False
+1492458,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Vasco DA Gama,133,Internacional,119,,,False
+1492452,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Cruzeiro,135,Palmeiras,121,,,False
+1492459,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Vitoria,136,RB Bragantino,794,,,False
+1492451,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Coritiba,147,Santos,128,,,False
+1492456,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Remo,1198,Chapecoense-sc,132,,,False
+1492455,2026-11-18T21:00:00+00:00,NS,Regular Season - 35,Mirassol,7848,Atletico-MG,1062,,,False
+1492462,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Bahia,118,Coritiba,147,,,False
+1492467,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Internacional,119,Vitoria,136,,,False
+1492463,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Botafogo,120,Sao Paulo,126,,,False
+1492468,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Palmeiras,121,Flamengo,127,,,False
+1492466,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Fluminense,124,Mirassol,7848,,,False
+1492469,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Santos,128,Gremio,130,,,False
+1492465,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Chapecoense-sc,132,Cruzeiro,135,,,False
+1492460,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Atletico Paranaense,134,Remo,1198,,,False
+1492464,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,RB Bragantino,794,Vasco DA Gama,133,,,False
+1492461,2026-11-22T21:00:00+00:00,NS,Regular Season - 36,Atletico-MG,1062,Corinthians,131,,,False
+1492476,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Internacional,119,RB Bragantino,794,,,False
+1492471,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Botafogo,120,Bahia,118,,,False
+1492475,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Fluminense,124,Cruzeiro,135,,,False
+1492478,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Sao Paulo,126,Remo,1198,,,False
+1492473,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Corinthians,131,Gremio,130,,,False
+1492472,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Chapecoense-sc,132,Palmeiras,121,,,False
+1492479,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Vitoria,136,Santos,128,,,False
+1492474,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Coritiba,147,Flamengo,127,,,False
+1492470,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Atletico-MG,1062,Vasco DA Gama,133,,,False
+1492477,2026-11-29T21:00:00+00:00,NS,Regular Season - 37,Mirassol,7848,Atletico Paranaense,134,,,False
+1492481,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Bahia,118,Atletico-MG,1062,,,False
+1492486,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Palmeiras,121,Coritiba,147,,,False
+1492484,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Flamengo,127,Chapecoense-sc,132,,,False
+1492488,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Santos,128,Botafogo,120,,,False
+1492485,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Gremio,130,Mirassol,7848,,,False
+1492489,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Vasco DA Gama,133,Vitoria,136,,,False
+1492480,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Atletico Paranaense,134,Sao Paulo,126,,,False
+1492483,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Cruzeiro,135,Internacional,119,,,False
+1492482,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,RB Bragantino,794,Fluminense,124,,,False
+1492487,2026-12-02T21:00:00+00:00,NS,Regular Season - 38,Remo,1198,Corinthians,131,,,False

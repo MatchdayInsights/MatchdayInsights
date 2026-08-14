@@ -1,49 +1,49 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1500650,2026-01-10T19:00:00+00:00,FT,Vitoria,136,Atlético Alagoinhas,9997,0,0,True
-1500651,2026-01-10T21:30:00+00:00,FT,Porto BA,23591,Jacuipense,7831,3,2,True
-1500652,2026-01-11T19:00:00+00:00,FT,Bahia,118,Jequié,15104,4,2,True
-1500653,2026-01-11T21:30:00+00:00,FT,Juazeirense,1224,Bahia de Feira,7822,0,0,True
-1500654,2026-01-12T00:00:00+00:00,FT,Barcelona BA,15103,Galícia,12935,2,0,True
-1500655,2026-01-13T22:15:00+00:00,FT,Jacuipense,7831,Vitoria,136,0,0,True
-1500656,2026-01-14T20:00:00+00:00,FT,Galícia,12935,Juazeirense,1224,2,0,True
-1500657,2026-01-14T22:15:00+00:00,FT,Bahia de Feira,7822,Bahia,118,0,3,True
-1500658,2026-01-15T00:30:00+00:00,FT,Atlético Alagoinhas,9997,Barcelona BA,15103,0,1,True
-1500659,2026-01-15T22:15:00+00:00,FT,Jequié,15104,Porto BA,23591,1,1,True
-1500660,2026-01-17T19:00:00+00:00,FT,Bahia,118,Galícia,12935,3,0,True
-1500661,2026-01-17T21:30:00+00:00,FT,Barcelona BA,15103,Jacuipense,7831,0,0,True
-1500662,2026-01-18T19:00:00+00:00,FT,Porto BA,23591,Vitoria,136,1,1,True
-1500663,2026-01-18T21:30:00+00:00,FT,Atlético Alagoinhas,9997,Bahia de Feira,7822,0,0,True
-1500664,2026-01-19T00:00:00+00:00,FT,Juazeirense,1224,Jequié,15104,1,0,True
-1500665,2026-01-20T22:15:00+00:00,FT,Bahia,118,Barcelona BA,15103,5,1,True
-1500666,2026-01-21T22:15:00+00:00,FT,Vitoria,136,Juazeirense,1224,4,0,True
-1500667,2026-01-22T22:15:00+00:00,FT,Bahia de Feira,7822,Porto BA,23591,1,1,True
-1500668,2026-01-23T00:30:00+00:00,FT,Jequié,15104,Atlético Alagoinhas,9997,4,1,True
-1500669,2026-01-24T19:00:00+00:00,FT,Jacuipense,7831,Galícia,12935,2,1,True
-1500670,2026-01-25T19:00:00+00:00,FT,Vitoria,136,Bahia,118,0,1,True
-1500671,2026-01-27T22:15:00+00:00,FT,Galícia,12935,Atlético Alagoinhas,9997,1,0,True
-1500672,2026-01-28T22:15:00+00:00,FT,Porto BA,23591,Barcelona BA,15103,1,1,True
-1500673,2026-01-29T00:30:00+00:00,FT,Juazeirense,1224,Jacuipense,7831,0,0,True
-1500674,2026-01-29T22:15:00+00:00,FT,Bahia de Feira,7822,Jequié,15104,1,2,True
-1500676,2026-02-01T19:00:00+00:00,FT,Barcelona BA,15103,Vitoria,136,0,2,True
-1500675,2026-02-01T21:30:00+00:00,FT,Bahia,118,Porto BA,23591,3,1,True
-1500677,2026-02-03T22:15:00+00:00,FT,Atlético Alagoinhas,9997,Juazeirense,1224,1,2,True
-1500679,2026-02-04T00:30:00+00:00,FT,Galícia,12935,Bahia de Feira,7822,1,2,True
-1500678,2026-02-04T22:15:00+00:00,FT,Jacuipense,7831,Jequié,15104,0,2,True
-1500680,2026-02-07T19:00:00+00:00,FT,Jequié,15104,Vitoria,136,2,2,True
-1500681,2026-02-07T21:30:00+00:00,FT,Porto BA,23591,Galícia,12935,1,0,True
-1500682,2026-02-08T19:00:00+00:00,FT,Juazeirense,1224,Bahia,118,1,1,True
-1500683,2026-02-10T22:15:00+00:00,FT,Jacuipense,7831,Atlético Alagoinhas,9997,2,1,True
-1500684,2026-02-11T22:15:00+00:00,FT,Bahia de Feira,7822,Barcelona BA,15103,6,1,True
-1500685,2026-02-12T00:30:00+00:00,FT,Galícia,12935,Jequié,15104,2,1,True
-1500686,2026-02-14T19:00:00+00:00,FT,Bahia,118,Jacuipense,7831,2,2,True
-1500687,2026-02-15T19:00:00+00:00,FT,Atlético Alagoinhas,9997,Porto BA,23591,0,0,True
-1500688,2026-02-18T22:15:00+00:00,FT,Vitoria,136,Bahia de Feira,7822,1,0,True
-1500689,2026-02-19T22:15:00+00:00,FT,Barcelona BA,15103,Juazeirense,1224,0,0,True
-1500690,2026-02-21T23:00:00+00:00,FT,Atlético Alagoinhas,9997,Bahia,118,2,4,True
-1500694,2026-02-22T19:00:00+00:00,FT,Vitoria,136,Galícia,12935,3,0,True
-1500691,2026-02-22T19:00:00+00:00,FT,Jacuipense,7831,Bahia de Feira,7822,3,1,True
-1500692,2026-02-22T19:00:00+00:00,FT,Jequié,15104,Barcelona BA,15103,1,1,True
-1500693,2026-02-22T19:00:00+00:00,FT,Porto BA,23591,Juazeirense,1224,1,3,True
-1526324,2026-02-28T20:00:00+00:00,FT,Bahia,118,Juazeirense,1224,4,2,True
-1526325,2026-03-01T20:00:00+00:00,PEN,Vitoria,136,Jacuipense,7831,1,1,False
-1528823,2026-03-07T20:00:00+00:00,FT,Bahia,118,Vitoria,136,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1500650,2026-01-10T19:00:00+00:00,FT,Regular Season - 1,Vitoria,136,Atlético Alagoinhas,9997,0,0,True
+1500651,2026-01-10T21:30:00+00:00,FT,Regular Season - 1,Porto BA,23591,Jacuipense,7831,3,2,True
+1500652,2026-01-11T19:00:00+00:00,FT,Regular Season - 1,Bahia,118,Jequié,15104,4,2,True
+1500653,2026-01-11T21:30:00+00:00,FT,Regular Season - 1,Juazeirense,1224,Bahia de Feira,7822,0,0,True
+1500654,2026-01-12T00:00:00+00:00,FT,Regular Season - 1,Barcelona BA,15103,Galícia,12935,2,0,True
+1500655,2026-01-13T22:15:00+00:00,FT,Regular Season - 2,Jacuipense,7831,Vitoria,136,0,0,True
+1500656,2026-01-14T20:00:00+00:00,FT,Regular Season - 2,Galícia,12935,Juazeirense,1224,2,0,True
+1500657,2026-01-14T22:15:00+00:00,FT,Regular Season - 2,Bahia de Feira,7822,Bahia,118,0,3,True
+1500658,2026-01-15T00:30:00+00:00,FT,Regular Season - 2,Atlético Alagoinhas,9997,Barcelona BA,15103,0,1,True
+1500659,2026-01-15T22:15:00+00:00,FT,Regular Season - 2,Jequié,15104,Porto BA,23591,1,1,True
+1500660,2026-01-17T19:00:00+00:00,FT,Regular Season - 3,Bahia,118,Galícia,12935,3,0,True
+1500661,2026-01-17T21:30:00+00:00,FT,Regular Season - 3,Barcelona BA,15103,Jacuipense,7831,0,0,True
+1500662,2026-01-18T19:00:00+00:00,FT,Regular Season - 3,Porto BA,23591,Vitoria,136,1,1,True
+1500663,2026-01-18T21:30:00+00:00,FT,Regular Season - 3,Atlético Alagoinhas,9997,Bahia de Feira,7822,0,0,True
+1500664,2026-01-19T00:00:00+00:00,FT,Regular Season - 3,Juazeirense,1224,Jequié,15104,1,0,True
+1500665,2026-01-20T22:15:00+00:00,FT,Regular Season - 4,Bahia,118,Barcelona BA,15103,5,1,True
+1500666,2026-01-21T22:15:00+00:00,FT,Regular Season - 4,Vitoria,136,Juazeirense,1224,4,0,True
+1500667,2026-01-22T22:15:00+00:00,FT,Regular Season - 4,Bahia de Feira,7822,Porto BA,23591,1,1,True
+1500668,2026-01-23T00:30:00+00:00,FT,Regular Season - 4,Jequié,15104,Atlético Alagoinhas,9997,4,1,True
+1500669,2026-01-24T19:00:00+00:00,FT,Regular Season - 4,Jacuipense,7831,Galícia,12935,2,1,True
+1500670,2026-01-25T19:00:00+00:00,FT,Regular Season - 5,Vitoria,136,Bahia,118,0,1,True
+1500671,2026-01-27T22:15:00+00:00,FT,Regular Season - 5,Galícia,12935,Atlético Alagoinhas,9997,1,0,True
+1500672,2026-01-28T22:15:00+00:00,FT,Regular Season - 5,Porto BA,23591,Barcelona BA,15103,1,1,True
+1500673,2026-01-29T00:30:00+00:00,FT,Regular Season - 5,Juazeirense,1224,Jacuipense,7831,0,0,True
+1500674,2026-01-29T22:15:00+00:00,FT,Regular Season - 5,Bahia de Feira,7822,Jequié,15104,1,2,True
+1500676,2026-02-01T19:00:00+00:00,FT,Regular Season - 6,Barcelona BA,15103,Vitoria,136,0,2,True
+1500675,2026-02-01T21:30:00+00:00,FT,Regular Season - 6,Bahia,118,Porto BA,23591,3,1,True
+1500677,2026-02-03T22:15:00+00:00,FT,Regular Season - 6,Atlético Alagoinhas,9997,Juazeirense,1224,1,2,True
+1500679,2026-02-04T00:30:00+00:00,FT,Regular Season - 6,Galícia,12935,Bahia de Feira,7822,1,2,True
+1500678,2026-02-04T22:15:00+00:00,FT,Regular Season - 6,Jacuipense,7831,Jequié,15104,0,2,True
+1500680,2026-02-07T19:00:00+00:00,FT,Regular Season - 7,Jequié,15104,Vitoria,136,2,2,True
+1500681,2026-02-07T21:30:00+00:00,FT,Regular Season - 7,Porto BA,23591,Galícia,12935,1,0,True
+1500682,2026-02-08T19:00:00+00:00,FT,Regular Season - 7,Juazeirense,1224,Bahia,118,1,1,True
+1500683,2026-02-10T22:15:00+00:00,FT,Regular Season - 7,Jacuipense,7831,Atlético Alagoinhas,9997,2,1,True
+1500684,2026-02-11T22:15:00+00:00,FT,Regular Season - 7,Bahia de Feira,7822,Barcelona BA,15103,6,1,True
+1500685,2026-02-12T00:30:00+00:00,FT,Regular Season - 8,Galícia,12935,Jequié,15104,2,1,True
+1500686,2026-02-14T19:00:00+00:00,FT,Regular Season - 8,Bahia,118,Jacuipense,7831,2,2,True
+1500687,2026-02-15T19:00:00+00:00,FT,Regular Season - 8,Atlético Alagoinhas,9997,Porto BA,23591,0,0,True
+1500688,2026-02-18T22:15:00+00:00,FT,Regular Season - 8,Vitoria,136,Bahia de Feira,7822,1,0,True
+1500689,2026-02-19T22:15:00+00:00,FT,Regular Season - 8,Barcelona BA,15103,Juazeirense,1224,0,0,True
+1500690,2026-02-21T23:00:00+00:00,FT,Regular Season - 9,Atlético Alagoinhas,9997,Bahia,118,2,4,True
+1500694,2026-02-22T19:00:00+00:00,FT,Regular Season - 9,Vitoria,136,Galícia,12935,3,0,True
+1500691,2026-02-22T19:00:00+00:00,FT,Regular Season - 9,Jacuipense,7831,Bahia de Feira,7822,3,1,True
+1500692,2026-02-22T19:00:00+00:00,FT,Regular Season - 9,Jequié,15104,Barcelona BA,15103,1,1,True
+1500693,2026-02-22T19:00:00+00:00,FT,Regular Season - 9,Porto BA,23591,Juazeirense,1224,1,3,True
+1526324,2026-02-28T20:00:00+00:00,FT,Semi-finals,Bahia,118,Juazeirense,1224,4,2,True
+1526325,2026-03-01T20:00:00+00:00,PEN,Semi-finals,Vitoria,136,Jacuipense,7831,1,1,False
+1528823,2026-03-07T20:00:00+00:00,FT,Final,Bahia,118,Vitoria,136,2,1,True

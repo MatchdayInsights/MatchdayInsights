@@ -1,171 +1,309 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1231570,2025-01-04T11:00:00+00:00,FT,Portimonense,216,Alverca,4724,1,0,True
-1231573,2025-01-04T14:00:00+00:00,FT,Chaves,223,Penafiel,235,0,1,True
-1231574,2025-01-04T15:30:00+00:00,FT,Feirense,213,Leixoes,244,1,0,True
-1231571,2025-01-04T18:00:00+00:00,FT,Tondela,218,União de Leiria,4662,1,4,True
-1231568,2025-01-05T11:00:00+00:00,FT,Oliveirense,233,Felgueiras 1932,4744,0,3,True
-1231567,2025-01-05T14:00:00+00:00,FT,Torreense,4799,Mafra,245,1,0,True
-1231569,2025-01-05T15:30:00+00:00,FT,Vizela,810,Maritimo,214,3,2,True
-1231572,2025-01-05T18:00:00+00:00,FT,Pacos Ferreira,234,Academico Viseu,238,4,3,True
-1231575,2025-01-06T18:00:00+00:00,FT,Benfica B,229,FC Porto B,243,2,1,True
-1231565,2025-01-12T11:00:00+00:00,FT,Academico Viseu,238,Vizela,810,0,0,True
-1231566,2025-01-12T11:00:00+00:00,FT,Felgueiras 1932,4744,Pacos Ferreira,234,1,0,True
-1231563,2025-01-12T12:45:00+00:00,FT,FC Porto B,243,Portimonense,216,1,2,True
-1231562,2025-01-12T18:00:00+00:00,FT,Leixoes,244,Torreense,4799,1,1,True
-1231560,2025-01-12T18:00:00+00:00,FT,União de Leiria,4662,Chaves,223,1,1,True
-1231564,2025-01-12T20:30:00+00:00,FT,Alverca,4724,Tondela,218,1,1,True
-1231577,2025-01-17T18:00:00+00:00,FT,Benfica B,229,Leixoes,244,4,0,True
-1231581,2025-01-17T20:15:00+00:00,FT,Chaves,223,Academico Viseu,238,3,0,True
-1231579,2025-01-18T11:00:00+00:00,FT,Alverca,4724,FC Porto B,243,2,0,True
-1231582,2025-01-18T14:00:00+00:00,FT,Portimonense,216,Felgueiras 1932,4744,3,2,True
-1231576,2025-01-18T15:30:00+00:00,FT,Feirense,213,Torreense,4799,1,1,True
-1231580,2025-01-19T11:00:00+00:00,FT,Vizela,810,União de Leiria,4662,1,0,True
-1231583,2025-01-19T14:00:00+00:00,FT,Pacos Ferreira,234,Mafra,245,2,1,True
-1231584,2025-01-19T15:30:00+00:00,FT,Tondela,218,Maritimo,214,0,0,True
-1231578,2025-01-20T18:00:00+00:00,FT,Oliveirense,233,Penafiel,235,2,2,True
-1231593,2025-01-24T18:00:00+00:00,FT,Academico Viseu,238,Feirense,213,2,1,True
-1231590,2025-01-25T11:00:00+00:00,FT,Felgueiras 1932,4744,Alverca,4724,0,1,True
-1231592,2025-01-25T14:00:00+00:00,FT,Leixoes,244,Chaves,223,0,0,True
-1231586,2025-01-25T15:30:00+00:00,FT,Maritimo,214,Pacos Ferreira,234,2,2,True
-1231588,2025-01-26T11:00:00+00:00,FT,Penafiel,235,Vizela,810,1,1,True
-1231589,2025-01-26T14:00:00+00:00,FT,Mafra,245,Oliveirense,233,0,0,True
-1231585,2025-01-26T15:30:00+00:00,FT,FC Porto B,243,Tondela,218,2,2,True
-1231587,2025-01-26T15:30:00+00:00,FT,União de Leiria,4662,Portimonense,216,1,0,True
-1231591,2025-01-27T18:00:00+00:00,FT,Torreense,4799,Benfica B,229,1,1,True
-1231602,2025-01-31T18:00:00+00:00,FT,Pacos Ferreira,234,Leixoes,244,0,0,True
-1231594,2025-02-01T11:00:00+00:00,FT,Feirense,213,Felgueiras 1932,4744,3,2,True
-1231600,2025-02-01T14:00:00+00:00,FT,Tondela,218,Penafiel,235,2,0,True
-1231599,2025-02-01T15:30:00+00:00,FT,FC Porto B,243,Academico Viseu,238,3,2,True
-1231598,2025-02-01T15:30:00+00:00,FT,Vizela,810,Benfica B,229,1,0,True
-1231601,2025-02-01T18:00:00+00:00,FT,Portimonense,216,Mafra,245,2,0,True
-1231596,2025-02-02T11:00:00+00:00,FT,Oliveirense,233,Torreense,4799,0,0,True
-1231595,2025-02-02T14:00:00+00:00,FT,Chaves,223,Maritimo,214,1,1,True
-1231597,2025-02-02T15:30:00+00:00,FT,Alverca,4724,União de Leiria,4662,2,1,True
-1231605,2025-02-07T18:00:00+00:00,FT,Benfica B,229,Feirense,213,0,1,True
-1231606,2025-02-08T11:00:00+00:00,FT,Leixoes,244,Oliveirense,233,1,2,True
-1231611,2025-02-08T14:00:00+00:00,FT,Felgueiras 1932,4744,Tondela,218,1,0,True
-1231603,2025-02-08T15:30:00+00:00,FT,Maritimo,214,Portimonense,216,2,0,True
-1231608,2025-02-08T18:00:00+00:00,FT,Penafiel,235,Pacos Ferreira,234,1,2,True
-1231610,2025-02-09T11:00:00+00:00,FT,Mafra,245,Chaves,223,0,0,True
-1231609,2025-02-09T14:00:00+00:00,FT,Academico Viseu,238,Alverca,4724,2,2,True
-1231607,2025-02-09T15:30:00+00:00,FT,União de Leiria,4662,FC Porto B,243,0,0,True
-1231604,2025-02-10T18:00:00+00:00,FT,Torreense,4799,Vizela,810,2,4,True
-1231613,2025-02-15T11:00:00+00:00,FT,Chaves,223,Felgueiras 1932,4744,2,0,True
-1231619,2025-02-15T14:00:00+00:00,FT,Pacos Ferreira,234,Feirense,213,1,2,True
-1231618,2025-02-15T15:30:00+00:00,FT,Tondela,218,Mafra,245,1,0,True
-1231615,2025-02-16T11:00:00+00:00,FT,Oliveirense,233,Benfica B,229,3,2,True
-1231616,2025-02-16T11:00:00+00:00,FT,Vizela,810,Leixoes,244,0,0,True
-1231614,2025-02-16T14:00:00+00:00,FT,Portimonense,216,Torreense,4799,1,2,True
-1231620,2025-02-16T15:30:00+00:00,FT,FC Porto B,243,Penafiel,235,3,2,True
-1231612,2025-02-16T17:00:00+00:00,FT,Alverca,4724,Maritimo,214,5,0,True
-1231617,2025-02-17T18:00:00+00:00,FT,União de Leiria,4662,Academico Viseu,238,1,1,True
-1231623,2025-02-21T18:00:00+00:00,FT,Penafiel,235,Portimonense,216,3,0,True
-1231622,2025-02-22T11:00:00+00:00,FT,Felgueiras 1932,4744,FC Porto B,243,1,0,True
-1231625,2025-02-22T14:00:00+00:00,FT,Benfica B,229,Pacos Ferreira,234,0,0,True
-1231621,2025-02-22T14:00:00+00:00,FT,Mafra,245,Vizela,810,1,4,True
-1231629,2025-02-22T15:30:00+00:00,FT,Maritimo,214,União de Leiria,4662,1,2,True
-1231624,2025-02-22T18:00:00+00:00,FT,Feirense,213,Oliveirense,233,3,1,True
-1231627,2025-02-23T11:00:00+00:00,FT,Torreense,4799,Chaves,223,1,2,True
-1231628,2025-02-23T14:00:00+00:00,FT,Leixoes,244,Alverca,4724,1,1,True
-1231626,2025-02-23T15:30:00+00:00,FT,Academico Viseu,238,Tondela,218,1,1,True
-1231635,2025-02-28T20:15:00+00:00,FT,Chaves,223,Benfica B,229,1,2,True
-1231630,2025-03-01T11:00:00+00:00,FT,Academico Viseu,238,Felgueiras 1932,4744,0,0,True
-1231631,2025-03-01T14:00:00+00:00,FT,Alverca,4724,Mafra,245,2,0,True
-1231632,2025-03-01T15:30:00+00:00,FT,Tondela,218,Torreense,4799,2,2,True
-1231636,2025-03-02T11:00:00+00:00,FT,Portimonense,216,Leixoes,244,2,1,True
-1231638,2025-03-02T14:00:00+00:00,FT,FC Porto B,243,Maritimo,214,0,1,True
-1231634,2025-03-02T14:00:00+00:00,FT,União de Leiria,4662,Penafiel,235,1,0,True
-1231637,2025-03-02T18:00:00+00:00,FT,Vizela,810,Feirense,213,5,0,True
-1231633,2025-03-03T18:00:00+00:00,FT,Pacos Ferreira,234,Oliveirense,233,0,1,True
-1231644,2025-03-07T18:00:00+00:00,FT,Feirense,213,Chaves,223,0,1,True
-1231645,2025-03-08T11:00:00+00:00,FT,Penafiel,235,Alverca,4724,3,2,True
-1231639,2025-03-08T14:00:00+00:00,FT,Felgueiras 1932,4744,União de Leiria,4662,2,2,True
-1231647,2025-03-08T15:30:00+00:00,FT,Torreense,4799,Pacos Ferreira,234,3,0,True
-1231643,2025-03-09T11:00:00+00:00,FT,Mafra,245,FC Porto B,243,0,0,True
-1231646,2025-03-09T14:00:00+00:00,FT,Maritimo,214,Academico Viseu,238,1,1,True
-1231642,2025-03-09T15:30:00+00:00,FT,Oliveirense,233,Vizela,810,0,1,True
-1231641,2025-03-09T18:00:00+00:00,FT,Benfica B,229,Portimonense,216,0,0,True
-1231640,2025-03-10T18:00:00+00:00,FT,Leixoes,244,Tondela,218,0,1,True
-1231655,2025-03-14T18:45:00+00:00,FT,Portimonense,216,Feirense,213,1,2,True
-1231648,2025-03-14T20:45:00+00:00,FT,Alverca,4724,Torreense,4799,2,2,True
-1231649,2025-03-15T11:00:00+00:00,FT,Academico Viseu,238,Penafiel,235,1,0,True
-1231654,2025-03-15T14:00:00+00:00,FT,Maritimo,214,Felgueiras 1932,4744,0,0,True
-1231650,2025-03-15T15:30:00+00:00,FT,Chaves,223,Oliveirense,233,4,0,True
-1231653,2025-03-16T11:00:00+00:00,FT,Tondela,218,Benfica B,229,2,1,True
-1231651,2025-03-16T14:00:00+00:00,FT,União de Leiria,4662,Mafra,245,3,1,True
-1231656,2025-03-16T15:30:00+00:00,FT,FC Porto B,243,Leixoes,244,0,1,True
-1231652,2025-03-16T20:30:00+00:00,FT,Vizela,810,Pacos Ferreira,234,2,1,True
-1231659,2025-03-29T11:00:00+00:00,FT,Oliveirense,233,Tondela,218,1,3,True
-1231660,2025-03-29T14:00:00+00:00,FT,Penafiel,235,Maritimo,214,0,1,True
-1231657,2025-03-29T15:30:00+00:00,FT,Vizela,810,Portimonense,216,3,2,True
-1231658,2025-03-30T10:00:00+00:00,FT,Leixoes,244,União de Leiria,4662,0,1,True
-1231665,2025-03-30T11:45:00+00:00,FT,Torreense,4799,FC Porto B,243,2,4,True
-1231661,2025-03-30T13:00:00+00:00,FT,Pacos Ferreira,234,Chaves,223,2,0,True
-1231664,2025-03-30T17:00:00+00:00,FT,Feirense,213,Alverca,4724,0,1,True
-1231662,2025-03-31T17:00:00+00:00,FT,Benfica B,229,Academico Viseu,238,1,0,True
-1231663,2025-03-31T19:15:00+00:00,FT,Mafra,245,Felgueiras 1932,4744,1,0,True
-1231671,2025-04-05T10:00:00+00:00,FT,Tondela,218,Feirense,213,2,1,True
-1231666,2025-04-05T13:00:00+00:00,FT,Felgueiras 1932,4744,Penafiel,235,1,0,True
-1231672,2025-04-05T14:30:00+00:00,FT,Maritimo,214,Leixoes,244,1,1,True
-1231667,2025-04-05T17:00:00+00:00,FT,Chaves,223,Vizela,810,1,2,True
-1231673,2025-04-06T10:00:00+00:00,FT,FC Porto B,243,Pacos Ferreira,234,1,0,True
-1231668,2025-04-06T10:00:00+00:00,FT,União de Leiria,4662,Torreense,4799,1,3,True
-1231670,2025-04-06T13:00:00+00:00,FT,Academico Viseu,238,Mafra,245,3,1,True
-1231674,2025-04-06T14:30:00+00:00,FT,Portimonense,216,Oliveirense,233,2,3,True
-1231669,2025-04-06T17:00:00+00:00,FT,Alverca,4724,Benfica B,229,0,0,True
-1231683,2025-04-11T17:00:00+00:00,FT,Feirense,213,União de Leiria,4662,2,1,True
-1231678,2025-04-12T10:00:00+00:00,FT,Pacos Ferreira,234,Tondela,218,0,1,True
-1231680,2025-04-12T10:00:00+00:00,FT,Leixoes,244,Academico Viseu,238,1,1,True
-1231675,2025-04-12T13:00:00+00:00,FT,Chaves,223,Portimonense,216,2,0,True
-1231681,2025-04-13T10:00:00+00:00,FT,Torreense,4799,Felgueiras 1932,4744,1,1,True
-1231676,2025-04-13T13:00:00+00:00,FT,Benfica B,229,Maritimo,214,1,2,True
-1231682,2025-04-13T13:00:00+00:00,FT,Vizela,810,Alverca,4724,1,1,True
-1231677,2025-04-13T14:30:00+00:00,FT,Oliveirense,233,FC Porto B,243,1,1,True
-1231679,2025-04-14T19:15:00+00:00,FT,Mafra,245,Penafiel,235,4,2,True
-1231687,2025-04-18T10:00:00+00:00,FT,União de Leiria,4662,Benfica B,229,1,3,True
-1231686,2025-04-18T10:00:00+00:00,FT,Felgueiras 1932,4744,Leixoes,244,4,0,True
-1231692,2025-04-18T13:00:00+00:00,FT,Portimonense,216,Pacos Ferreira,234,2,0,True
-1231691,2025-04-19T10:00:00+00:00,FT,Penafiel,235,Feirense,213,1,2,True
-1231684,2025-04-19T13:00:00+00:00,FT,Academico Viseu,238,Torreense,4799,1,2,True
-1231689,2025-04-19T14:30:00+00:00,FT,FC Porto B,243,Chaves,223,1,2,True
-1231688,2025-04-20T10:00:00+00:00,FT,Alverca,4724,Oliveirense,233,4,0,True
-1231690,2025-04-20T14:30:00+00:00,FT,Maritimo,214,Mafra,245,2,0,True
-1231685,2025-04-20T19:30:00+00:00,FT,Tondela,218,Vizela,810,0,1,True
-1231698,2025-04-25T14:30:00+00:00,FT,Oliveirense,233,Academico Viseu,238,2,0,True
-1231697,2025-04-25T17:00:00+00:00,FT,Pacos Ferreira,234,União de Leiria,4662,2,3,True
-1231701,2025-04-26T10:00:00+00:00,FT,Torreense,4799,Maritimo,214,2,2,True
-1231699,2025-04-26T13:00:00+00:00,FT,Vizela,810,Felgueiras 1932,4744,1,1,True
-1231696,2025-04-27T10:00:00+00:00,FT,Feirense,213,FC Porto B,243,0,1,True
-1231694,2025-04-27T13:00:00+00:00,FT,Portimonense,216,Tondela,218,2,2,True
-1231693,2025-04-27T14:30:00+00:00,FT,Leixoes,244,Penafiel,235,3,1,True
-1231700,2025-04-29T19:00:00+00:00,FT,Chaves,223,Alverca,4724,0,2,True
-1231695,2025-04-30T17:00:00+00:00,FT,Benfica B,229,Mafra,245,5,0,True
-1231704,2025-05-02T17:00:00+00:00,FT,União de Leiria,4662,Oliveirense,233,5,0,True
-1231705,2025-05-03T10:00:00+00:00,FT,Academico Viseu,238,Portimonense,216,2,1,True
-1231703,2025-05-03T14:30:00+00:00,FT,FC Porto B,243,Vizela,810,0,1,True
-1231702,2025-05-04T10:00:00+00:00,FT,Alverca,4724,Pacos Ferreira,234,1,0,True
-1231707,2025-05-04T10:00:00+00:00,FT,Felgueiras 1932,4744,Benfica B,229,3,3,True
-1231710,2025-05-04T13:00:00+00:00,FT,Mafra,245,Leixoes,244,1,2,True
-1231709,2025-05-04T14:30:00+00:00,FT,Maritimo,214,Feirense,213,1,1,True
-1231708,2025-05-04T17:00:00+00:00,FT,Tondela,218,Chaves,223,2,1,True
-1231706,2025-05-05T17:00:00+00:00,FT,Penafiel,235,Torreense,4799,0,1,True
-1231715,2025-05-09T19:15:00+00:00,FT,Feirense,213,Mafra,245,2,1,True
-1231719,2025-05-10T10:00:00+00:00,FT,Pacos Ferreira,234,Felgueiras 1932,4744,1,2,True
-1231711,2025-05-10T13:00:00+00:00,FT,Oliveirense,233,Maritimo,214,1,1,True
-1231712,2025-05-10T17:00:00+00:00,FT,Chaves,223,União de Leiria,4662,0,2,True
-1231714,2025-05-11T10:00:00+00:00,FT,Torreense,4799,Leixoes,244,3,2,True
-1231717,2025-05-11T13:00:00+00:00,FT,Tondela,218,Alverca,4724,1,2,True
-1231718,2025-05-11T13:00:00+00:00,FT,Vizela,810,Academico Viseu,238,1,1,True
-1231716,2025-05-11T17:00:00+00:00,FT,Portimonense,216,FC Porto B,243,0,3,True
-1231713,2025-05-11T17:00:00+00:00,FT,Benfica B,229,Penafiel,235,1,1,True
-1231727,2025-05-14T19:15:00+00:00,FT,Leixoes,244,Feirense,213,2,0,True
-1231726,2025-05-15T17:45:00+00:00,FT,Penafiel,235,Chaves,223,0,0,True
-1231720,2025-05-15T19:45:00+00:00,FT,Mafra,245,Torreense,4799,2,0,True
-1231722,2025-05-16T19:30:00+00:00,FT,Maritimo,214,Vizela,810,1,2,True
-1231724,2025-05-16T19:30:00+00:00,FT,União de Leiria,4662,Tondela,218,0,2,True
-1231723,2025-05-16T19:30:00+00:00,FT,Alverca,4724,Portimonense,216,2,1,True
-1231728,2025-05-17T10:00:00+00:00,FT,FC Porto B,243,Benfica B,229,1,4,True
-1231725,2025-05-17T13:00:00+00:00,FT,Academico Viseu,238,Pacos Ferreira,234,0,1,True
-1231721,2025-05-17T13:00:00+00:00,FT,Felgueiras 1932,4744,Oliveirense,233,2,1,True
-1376352,2025-05-24T18:00:00+00:00,FT,CF Os Belenenses,17692,Pacos Ferreira,234,2,1,True
-1376353,2025-06-01T16:00:00+00:00,AET,Pacos Ferreira,234,CF Os Belenenses,17692,1,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1231431,2024-08-10T10:00:00+00:00,FT,Regular Season - 1,Maritimo,214,Tondela,218,2,2,True
+1231428,2024-08-10T13:00:00+00:00,FT,Regular Season - 1,Mafra,245,Pacos Ferreira,234,0,1,True
+1231423,2024-08-10T14:30:00+00:00,FT,Regular Season - 1,Leixoes,244,Benfica B,229,2,1,True
+1231425,2024-08-10T17:00:00+00:00,FT,Regular Season - 1,Academico Viseu,238,Chaves,223,2,1,True
+1231424,2024-08-11T10:00:00+00:00,FT,Regular Season - 1,Penafiel,235,Oliveirense,233,4,3,True
+1231427,2024-08-11T13:00:00+00:00,FT,Regular Season - 1,Torreense,4799,Feirense,213,0,1,True
+1231426,2024-08-11T17:00:00+00:00,FT,Regular Season - 1,FC Porto B,243,Alverca,4724,1,1,True
+1231429,2024-08-11T19:30:00+00:00,FT,Regular Season - 1,União de Leiria,4662,Vizela,810,0,2,True
+1231430,2024-08-12T17:00:00+00:00,FT,Regular Season - 1,Felgueiras 1932,4744,Portimonense,216,0,0,True
+1231437,2024-08-17T10:00:00+00:00,FT,Regular Season - 2,Alverca,4724,Felgueiras 1932,4744,1,1,True
+1231438,2024-08-17T13:00:00+00:00,FT,Regular Season - 2,Oliveirense,233,Mafra,245,0,0,True
+1231434,2024-08-17T19:30:00+00:00,FT,Regular Season - 2,Portimonense,216,União de Leiria,4662,0,3,True
+1231433,2024-08-18T10:00:00+00:00,FT,Regular Season - 2,Pacos Ferreira,234,Maritimo,214,1,2,True
+1231440,2024-08-18T13:00:00+00:00,FT,Regular Season - 2,Feirense,213,Academico Viseu,238,2,2,True
+1231435,2024-08-18T14:30:00+00:00,FT,Regular Season - 2,Vizela,810,Penafiel,235,1,2,True
+1231436,2024-08-18T17:00:00+00:00,FT,Regular Season - 2,Chaves,223,Leixoes,244,0,0,True
+1231439,2024-08-18T17:00:00+00:00,FT,Regular Season - 2,Benfica B,229,Torreense,4799,2,0,True
+1231432,2024-08-19T17:00:00+00:00,FT,Regular Season - 2,Tondela,218,FC Porto B,243,2,2,True
+1231443,2024-08-23T17:00:00+00:00,FT,Regular Season - 3,União de Leiria,4662,Alverca,4724,1,1,True
+1231441,2024-08-24T10:00:00+00:00,FT,Regular Season - 3,Felgueiras 1932,4744,Feirense,213,0,0,True
+1231444,2024-08-24T13:00:00+00:00,FT,Regular Season - 3,Torreense,4799,Oliveirense,233,3,0,True
+1231449,2024-08-24T14:30:00+00:00,FT,Regular Season - 3,Leixoes,244,Pacos Ferreira,234,3,3,True
+1231448,2024-08-25T10:00:00+00:00,FT,Regular Season - 3,Academico Viseu,238,FC Porto B,243,2,0,True
+1231447,2024-08-25T13:00:00+00:00,FT,Regular Season - 3,Penafiel,235,Tondela,218,2,2,True
+1231442,2024-08-25T14:30:00+00:00,FT,Regular Season - 3,Maritimo,214,Chaves,223,1,1,True
+1231446,2024-08-25T17:00:00+00:00,FT,Regular Season - 3,Benfica B,229,Vizela,810,1,0,True
+1231445,2024-08-25T17:00:00+00:00,FT,Regular Season - 3,Mafra,245,Portimonense,216,2,2,True
+1231456,2024-08-30T17:00:00+00:00,FT,Regular Season - 4,Alverca,4724,Academico Viseu,238,0,4,True
+1231454,2024-08-31T10:00:00+00:00,FT,Regular Season - 4,Oliveirense,233,Leixoes,244,0,1,True
+1231458,2024-08-31T13:00:00+00:00,FT,Regular Season - 4,Tondela,218,Felgueiras 1932,4744,1,1,True
+1231451,2024-08-31T14:30:00+00:00,FT,Regular Season - 4,Vizela,810,Torreense,4799,1,2,True
+1231450,2024-09-01T10:00:00+00:00,FT,Regular Season - 4,Portimonense,216,Maritimo,214,5,1,True
+1231452,2024-09-01T13:00:00+00:00,FT,Regular Season - 4,Feirense,213,Benfica B,229,2,3,True
+1231455,2024-09-01T14:30:00+00:00,FT,Regular Season - 4,Pacos Ferreira,234,Penafiel,235,1,3,True
+1231457,2024-09-01T17:00:00+00:00,FT,Regular Season - 4,Chaves,223,Mafra,245,0,3,True
+1231453,2024-09-01T17:00:00+00:00,FT,Regular Season - 4,FC Porto B,243,União de Leiria,4662,1,1,True
+1231461,2024-09-13T17:00:00+00:00,FT,Regular Season - 5,Torreense,4799,Portimonense,216,3,2,True
+1231460,2024-09-14T10:00:00+00:00,FT,Regular Season - 5,Felgueiras 1932,4744,Chaves,223,1,2,True
+1231466,2024-09-14T13:00:00+00:00,FT,Regular Season - 5,Academico Viseu,238,União de Leiria,4662,0,1,True
+1231459,2024-09-15T10:00:00+00:00,FT,Regular Season - 5,Maritimo,214,Alverca,4724,1,2,True
+1231465,2024-09-15T10:00:00+00:00,FT,Regular Season - 5,Mafra,245,Tondela,218,0,4,True
+1231467,2024-09-15T11:45:00+00:00,FT,Regular Season - 5,Penafiel,235,FC Porto B,243,1,1,True
+1231462,2024-09-15T14:30:00+00:00,FT,Regular Season - 5,Benfica B,229,Oliveirense,233,2,2,True
+1231464,2024-09-15T14:30:00+00:00,FT,Regular Season - 5,Leixoes,244,Vizela,810,0,1,True
+1231463,2024-09-16T17:00:00+00:00,FT,Regular Season - 5,Feirense,213,Pacos Ferreira,234,2,0,True
+1231474,2024-09-28T10:00:00+00:00,FT,Regular Season - 6,Chaves,223,Torreense,4799,2,1,True
+1231471,2024-09-28T13:00:00+00:00,FT,Regular Season - 6,Pacos Ferreira,234,Benfica B,229,0,3,True
+1231470,2024-09-28T17:00:00+00:00,FT,Regular Season - 6,Portimonense,216,Penafiel,235,0,2,True
+1231473,2024-09-28T19:30:00+00:00,FT,Regular Season - 6,Tondela,218,Academico Viseu,238,4,1,True
+1231472,2024-09-29T10:00:00+00:00,FT,Regular Season - 6,Oliveirense,233,Feirense,213,1,0,True
+1231469,2024-09-29T10:00:00+00:00,FT,Regular Season - 6,FC Porto B,243,Felgueiras 1932,4744,0,2,True
+1231475,2024-09-29T13:00:00+00:00,FT,Regular Season - 6,Alverca,4724,Leixoes,244,1,1,True
+1231476,2024-09-29T14:30:00+00:00,FT,Regular Season - 6,União de Leiria,4662,Maritimo,214,1,1,True
+1231468,2024-09-30T17:00:00+00:00,FT,Regular Season - 6,Vizela,810,Mafra,245,3,0,True
+1231479,2024-10-04T17:00:00+00:00,FT,Regular Season - 7,Torreense,4799,Tondela,218,0,2,True
+1231477,2024-10-05T10:00:00+00:00,FT,Regular Season - 7,Felgueiras 1932,4744,Academico Viseu,238,1,1,True
+1231485,2024-10-05T13:00:00+00:00,FT,Regular Season - 7,Maritimo,214,FC Porto B,243,1,0,True
+1231481,2024-10-05T14:30:00+00:00,FT,Regular Season - 7,Oliveirense,233,Pacos Ferreira,234,0,2,True
+1231483,2024-10-05T17:00:00+00:00,FT,Regular Season - 7,Leixoes,244,Portimonense,216,3,0,True
+1231484,2024-10-06T10:00:00+00:00,FT,Regular Season - 7,Feirense,213,Vizela,810,0,0,True
+1231480,2024-10-06T13:00:00+00:00,FT,Regular Season - 7,Penafiel,235,União de Leiria,4662,1,0,True
+1231482,2024-10-06T14:30:00+00:00,FT,Regular Season - 7,Benfica B,229,Chaves,223,1,0,True
+1231478,2024-10-06T14:30:00+00:00,FT,Regular Season - 7,Mafra,245,Alverca,4724,1,1,True
+1231486,2024-10-11T17:00:00+00:00,FT,Regular Season - 8,União de Leiria,4662,Felgueiras 1932,4744,1,3,True
+1231487,2024-10-12T10:00:00+00:00,FT,Regular Season - 8,Tondela,218,Leixoes,244,2,1,True
+1231492,2024-10-12T13:00:00+00:00,FT,Regular Season - 8,Alverca,4724,Penafiel,235,2,2,True
+1231493,2024-10-13T14:30:00+00:00,FT,Regular Season - 8,Academico Viseu,238,Maritimo,214,0,2,True
+1231494,2024-10-13T17:00:00+00:00,FT,Regular Season - 8,Pacos Ferreira,234,Torreense,4799,1,0,True
+1231491,2024-10-13T19:30:00+00:00,FT,Regular Season - 8,Chaves,223,Feirense,213,0,0,True
+1231490,2024-10-23T14:30:00+00:00,FT,Regular Season - 8,FC Porto B,243,Mafra,245,2,1,True
+1231501,2024-10-25T17:00:00+00:00,FT,Regular Season - 9,Pacos Ferreira,234,Vizela,810,1,1,True
+1231498,2024-10-26T10:00:00+00:00,FT,Regular Season - 9,Penafiel,235,Academico Viseu,238,0,2,True
+1231496,2024-10-26T13:00:00+00:00,FT,Regular Season - 9,Oliveirense,233,Chaves,223,0,3,True
+1231502,2024-10-26T14:30:00+00:00,FT,Regular Season - 9,Feirense,213,Portimonense,216,1,1,True
+1231500,2024-10-26T17:00:00+00:00,FT,Regular Season - 9,Benfica B,229,Tondela,218,1,3,True
+1231495,2024-10-27T11:00:00+00:00,FT,Regular Season - 9,Torreense,4799,Alverca,4724,1,0,True
+1231499,2024-10-27T14:00:00+00:00,FT,Regular Season - 9,Felgueiras 1932,4744,Maritimo,214,1,3,True
+1231503,2024-10-27T15:30:00+00:00,FT,Regular Season - 9,Leixoes,244,FC Porto B,243,3,0,True
+1231497,2024-10-28T18:00:00+00:00,FT,Regular Season - 9,Mafra,245,União de Leiria,4662,2,1,True
+1231510,2024-11-01T18:00:00+00:00,FT,Regular Season - 10,Alverca,4724,Feirense,213,1,0,True
+1231505,2024-11-02T11:00:00+00:00,FT,Regular Season - 10,Portimonense,216,Vizela,810,1,1,True
+1231504,2024-11-02T14:00:00+00:00,FT,Regular Season - 10,Maritimo,214,Penafiel,235,1,2,True
+1231508,2024-11-02T15:30:00+00:00,FT,Regular Season - 10,Chaves,223,Pacos Ferreira,234,2,1,True
+1231511,2024-11-03T11:00:00+00:00,FT,Regular Season - 10,Academico Viseu,238,Benfica B,229,1,1,True
+1231512,2024-11-03T14:00:00+00:00,FT,Regular Season - 10,Felgueiras 1932,4744,Mafra,245,1,1,True
+1231509,2024-11-03T15:30:00+00:00,FT,Regular Season - 10,FC Porto B,243,Torreense,4799,1,1,True
+1231506,2024-11-03T15:30:00+00:00,FT,Regular Season - 10,União de Leiria,4662,Leixoes,244,1,0,True
+1231507,2024-11-04T18:00:00+00:00,FT,Regular Season - 10,Tondela,218,Oliveirense,233,2,0,True
+1231515,2024-11-08T18:00:00+00:00,FT,Regular Season - 11,Vizela,810,Chaves,223,0,1,True
+1231514,2024-11-09T11:00:00+00:00,FT,Regular Season - 11,Penafiel,235,Felgueiras 1932,4744,2,1,True
+1231518,2024-11-09T14:00:00+00:00,FT,Regular Season - 11,Oliveirense,233,Portimonense,216,0,2,True
+1231517,2024-11-09T15:30:00+00:00,FT,Regular Season - 11,Mafra,245,Academico Viseu,238,0,2,True
+1231520,2024-11-09T18:00:00+00:00,FT,Regular Season - 11,Feirense,213,Tondela,218,1,1,True
+1231519,2024-11-10T11:00:00+00:00,FT,Regular Season - 11,Pacos Ferreira,234,FC Porto B,243,2,2,True
+1231521,2024-11-10T14:00:00+00:00,FT,Regular Season - 11,Leixoes,244,Maritimo,214,2,1,True
+1231513,2024-11-10T15:30:00+00:00,FT,Regular Season - 11,Benfica B,229,Alverca,4724,2,1,True
+1231516,2024-11-10T15:30:00+00:00,FT,Regular Season - 11,Torreense,4799,União de Leiria,4662,2,1,True
+1231488,2024-11-23T11:00:00+00:00,FT,Regular Season - 8,Portimonense,216,Benfica B,229,0,2,True
+1231556,2024-11-23T15:30:00+00:00,FT,Regular Season - 15,Feirense,213,Maritimo,214,1,0,True
+1231489,2024-11-24T11:00:00+00:00,FT,Regular Season - 8,Vizela,810,Oliveirense,233,0,0,True
+1231529,2024-11-29T18:00:00+00:00,FT,Regular Season - 12,Academico Viseu,238,Leixoes,244,2,0,True
+1231530,2024-11-30T11:00:00+00:00,FT,Regular Season - 12,Felgueiras 1932,4744,Torreense,4799,1,2,True
+1231527,2024-11-30T14:00:00+00:00,FT,Regular Season - 12,União de Leiria,4662,Feirense,213,1,0,True
+1231523,2024-11-30T15:30:00+00:00,FT,Regular Season - 12,Portimonense,216,Chaves,223,1,2,True
+1231528,2024-11-30T18:00:00+00:00,FT,Regular Season - 12,Alverca,4724,Vizela,810,4,2,True
+1231526,2024-12-01T11:00:00+00:00,FT,Regular Season - 12,Penafiel,235,Mafra,245,1,1,True
+1231522,2024-12-01T14:00:00+00:00,FT,Regular Season - 12,Tondela,218,Pacos Ferreira,234,2,1,True
+1231524,2024-12-01T15:30:00+00:00,FT,Regular Season - 12,Maritimo,214,Benfica B,229,1,1,True
+1231525,2024-12-01T15:30:00+00:00,FT,Regular Season - 12,FC Porto B,243,Oliveirense,233,2,1,True
+1231538,2024-12-07T11:00:00+00:00,FT,Regular Season - 13,Feirense,213,Penafiel,235,3,0,True
+1231535,2024-12-07T14:00:00+00:00,FT,Regular Season - 13,Benfica B,229,União de Leiria,4662,0,5,True
+1231531,2024-12-07T14:00:00+00:00,FT,Regular Season - 13,Torreense,4799,Academico Viseu,238,1,0,True
+1231534,2024-12-07T15:30:00+00:00,FT,Regular Season - 13,Leixoes,244,Felgueiras 1932,4744,2,2,True
+1231539,2024-12-08T11:00:00+00:00,FT,Regular Season - 13,Pacos Ferreira,234,Portimonense,216,0,1,True
+1231532,2024-12-08T14:00:00+00:00,FT,Regular Season - 13,Oliveirense,233,Alverca,4724,1,4,True
+1231537,2024-12-08T15:30:00+00:00,FT,Regular Season - 13,Mafra,245,Maritimo,214,2,3,True
+1231536,2024-12-08T18:00:00+00:00,FT,Regular Season - 13,Chaves,223,FC Porto B,243,2,1,True
+1231533,2024-12-08T20:30:00+00:00,FT,Regular Season - 13,Vizela,810,Tondela,218,1,1,True
+1231544,2024-12-14T11:00:00+00:00,FT,Regular Season - 14,União de Leiria,4662,Pacos Ferreira,234,0,1,True
+1231546,2024-12-14T12:45:00+00:00,FT,Regular Season - 14,Alverca,4724,Chaves,223,3,1,True
+1231541,2024-12-14T14:00:00+00:00,FT,Regular Season - 14,Penafiel,235,Leixoes,244,3,1,True
+1231543,2024-12-14T15:30:00+00:00,FT,Regular Season - 14,Mafra,245,Benfica B,229,2,0,True
+1231548,2024-12-15T11:00:00+00:00,FT,Regular Season - 14,Felgueiras 1932,4744,Vizela,810,2,1,True
+1231542,2024-12-15T14:00:00+00:00,FT,Regular Season - 14,Tondela,218,Portimonense,216,2,0,True
+1231545,2024-12-15T15:30:00+00:00,FT,Regular Season - 14,Maritimo,214,Torreense,4799,0,3,True
+1231540,2024-12-15T15:30:00+00:00,FT,Regular Season - 14,FC Porto B,243,Feirense,213,0,0,True
+1231547,2024-12-16T18:00:00+00:00,FT,Regular Season - 14,Academico Viseu,238,Oliveirense,233,2,1,True
+1231557,2024-12-20T18:00:00+00:00,FT,Regular Season - 15,Leixoes,244,Mafra,245,2,1,True
+1231551,2024-12-21T11:00:00+00:00,FT,Regular Season - 15,Vizela,810,FC Porto B,243,2,1,True
+1231553,2024-12-21T14:00:00+00:00,FT,Regular Season - 15,Portimonense,216,Academico Viseu,238,1,1,True
+1231555,2024-12-21T15:30:00+00:00,FT,Regular Season - 15,Chaves,223,Tondela,218,2,2,True
+1231549,2024-12-22T11:00:00+00:00,FT,Regular Season - 15,Pacos Ferreira,234,Alverca,4724,1,3,True
+1231552,2024-12-22T14:00:00+00:00,FT,Regular Season - 15,Oliveirense,233,União de Leiria,4662,1,2,True
+1231550,2024-12-22T15:30:00+00:00,FT,Regular Season - 15,Torreense,4799,Penafiel,235,0,1,True
+1231554,2024-12-22T18:00:00+00:00,FT,Regular Season - 15,Benfica B,229,Felgueiras 1932,4744,2,0,True
+1231561,2024-12-29T11:00:00+00:00,FT,Regular Season - 16,Penafiel,235,Benfica B,229,1,1,True
+1231559,2024-12-29T14:00:00+00:00,FT,Regular Season - 16,Mafra,245,Feirense,213,0,0,True
+1231558,2024-12-29T15:30:00+00:00,FT,Regular Season - 16,Maritimo,214,Oliveirense,233,1,2,True
+1231570,2025-01-04T11:00:00+00:00,FT,Regular Season - 17,Portimonense,216,Alverca,4724,1,0,True
+1231573,2025-01-04T14:00:00+00:00,FT,Regular Season - 17,Chaves,223,Penafiel,235,0,1,True
+1231574,2025-01-04T15:30:00+00:00,FT,Regular Season - 17,Feirense,213,Leixoes,244,1,0,True
+1231571,2025-01-04T18:00:00+00:00,FT,Regular Season - 17,Tondela,218,União de Leiria,4662,1,4,True
+1231568,2025-01-05T11:00:00+00:00,FT,Regular Season - 17,Oliveirense,233,Felgueiras 1932,4744,0,3,True
+1231567,2025-01-05T14:00:00+00:00,FT,Regular Season - 17,Torreense,4799,Mafra,245,1,0,True
+1231569,2025-01-05T15:30:00+00:00,FT,Regular Season - 17,Vizela,810,Maritimo,214,3,2,True
+1231572,2025-01-05T18:00:00+00:00,FT,Regular Season - 17,Pacos Ferreira,234,Academico Viseu,238,4,3,True
+1231575,2025-01-06T18:00:00+00:00,FT,Regular Season - 17,Benfica B,229,FC Porto B,243,2,1,True
+1231565,2025-01-12T11:00:00+00:00,FT,Regular Season - 16,Academico Viseu,238,Vizela,810,0,0,True
+1231566,2025-01-12T11:00:00+00:00,FT,Regular Season - 16,Felgueiras 1932,4744,Pacos Ferreira,234,1,0,True
+1231563,2025-01-12T12:45:00+00:00,FT,Regular Season - 16,FC Porto B,243,Portimonense,216,1,2,True
+1231562,2025-01-12T18:00:00+00:00,FT,Regular Season - 16,Leixoes,244,Torreense,4799,1,1,True
+1231560,2025-01-12T18:00:00+00:00,FT,Regular Season - 16,União de Leiria,4662,Chaves,223,1,1,True
+1231564,2025-01-12T20:30:00+00:00,FT,Regular Season - 16,Alverca,4724,Tondela,218,1,1,True
+1231577,2025-01-17T18:00:00+00:00,FT,Regular Season - 18,Benfica B,229,Leixoes,244,4,0,True
+1231581,2025-01-17T20:15:00+00:00,FT,Regular Season - 18,Chaves,223,Academico Viseu,238,3,0,True
+1231579,2025-01-18T11:00:00+00:00,FT,Regular Season - 18,Alverca,4724,FC Porto B,243,2,0,True
+1231582,2025-01-18T14:00:00+00:00,FT,Regular Season - 18,Portimonense,216,Felgueiras 1932,4744,3,2,True
+1231576,2025-01-18T15:30:00+00:00,FT,Regular Season - 18,Feirense,213,Torreense,4799,1,1,True
+1231580,2025-01-19T11:00:00+00:00,FT,Regular Season - 18,Vizela,810,União de Leiria,4662,1,0,True
+1231583,2025-01-19T14:00:00+00:00,FT,Regular Season - 18,Pacos Ferreira,234,Mafra,245,2,1,True
+1231584,2025-01-19T15:30:00+00:00,FT,Regular Season - 18,Tondela,218,Maritimo,214,0,0,True
+1231578,2025-01-20T18:00:00+00:00,FT,Regular Season - 18,Oliveirense,233,Penafiel,235,2,2,True
+1231593,2025-01-24T18:00:00+00:00,FT,Regular Season - 19,Academico Viseu,238,Feirense,213,2,1,True
+1231590,2025-01-25T11:00:00+00:00,FT,Regular Season - 19,Felgueiras 1932,4744,Alverca,4724,0,1,True
+1231592,2025-01-25T14:00:00+00:00,FT,Regular Season - 19,Leixoes,244,Chaves,223,0,0,True
+1231586,2025-01-25T15:30:00+00:00,FT,Regular Season - 19,Maritimo,214,Pacos Ferreira,234,2,2,True
+1231588,2025-01-26T11:00:00+00:00,FT,Regular Season - 19,Penafiel,235,Vizela,810,1,1,True
+1231589,2025-01-26T14:00:00+00:00,FT,Regular Season - 19,Mafra,245,Oliveirense,233,0,0,True
+1231585,2025-01-26T15:30:00+00:00,FT,Regular Season - 19,FC Porto B,243,Tondela,218,2,2,True
+1231587,2025-01-26T15:30:00+00:00,FT,Regular Season - 19,União de Leiria,4662,Portimonense,216,1,0,True
+1231591,2025-01-27T18:00:00+00:00,FT,Regular Season - 19,Torreense,4799,Benfica B,229,1,1,True
+1231602,2025-01-31T18:00:00+00:00,FT,Regular Season - 20,Pacos Ferreira,234,Leixoes,244,0,0,True
+1231594,2025-02-01T11:00:00+00:00,FT,Regular Season - 20,Feirense,213,Felgueiras 1932,4744,3,2,True
+1231600,2025-02-01T14:00:00+00:00,FT,Regular Season - 20,Tondela,218,Penafiel,235,2,0,True
+1231599,2025-02-01T15:30:00+00:00,FT,Regular Season - 20,FC Porto B,243,Academico Viseu,238,3,2,True
+1231598,2025-02-01T15:30:00+00:00,FT,Regular Season - 20,Vizela,810,Benfica B,229,1,0,True
+1231601,2025-02-01T18:00:00+00:00,FT,Regular Season - 20,Portimonense,216,Mafra,245,2,0,True
+1231596,2025-02-02T11:00:00+00:00,FT,Regular Season - 20,Oliveirense,233,Torreense,4799,0,0,True
+1231595,2025-02-02T14:00:00+00:00,FT,Regular Season - 20,Chaves,223,Maritimo,214,1,1,True
+1231597,2025-02-02T15:30:00+00:00,FT,Regular Season - 20,Alverca,4724,União de Leiria,4662,2,1,True
+1231605,2025-02-07T18:00:00+00:00,FT,Regular Season - 21,Benfica B,229,Feirense,213,0,1,True
+1231606,2025-02-08T11:00:00+00:00,FT,Regular Season - 21,Leixoes,244,Oliveirense,233,1,2,True
+1231611,2025-02-08T14:00:00+00:00,FT,Regular Season - 21,Felgueiras 1932,4744,Tondela,218,1,0,True
+1231603,2025-02-08T15:30:00+00:00,FT,Regular Season - 21,Maritimo,214,Portimonense,216,2,0,True
+1231608,2025-02-08T18:00:00+00:00,FT,Regular Season - 21,Penafiel,235,Pacos Ferreira,234,1,2,True
+1231610,2025-02-09T11:00:00+00:00,FT,Regular Season - 21,Mafra,245,Chaves,223,0,0,True
+1231609,2025-02-09T14:00:00+00:00,FT,Regular Season - 21,Academico Viseu,238,Alverca,4724,2,2,True
+1231607,2025-02-09T15:30:00+00:00,FT,Regular Season - 21,União de Leiria,4662,FC Porto B,243,0,0,True
+1231604,2025-02-10T18:00:00+00:00,FT,Regular Season - 21,Torreense,4799,Vizela,810,2,4,True
+1231613,2025-02-15T11:00:00+00:00,FT,Regular Season - 22,Chaves,223,Felgueiras 1932,4744,2,0,True
+1231619,2025-02-15T14:00:00+00:00,FT,Regular Season - 22,Pacos Ferreira,234,Feirense,213,1,2,True
+1231618,2025-02-15T15:30:00+00:00,FT,Regular Season - 22,Tondela,218,Mafra,245,1,0,True
+1231615,2025-02-16T11:00:00+00:00,FT,Regular Season - 22,Oliveirense,233,Benfica B,229,3,2,True
+1231616,2025-02-16T11:00:00+00:00,FT,Regular Season - 22,Vizela,810,Leixoes,244,0,0,True
+1231614,2025-02-16T14:00:00+00:00,FT,Regular Season - 22,Portimonense,216,Torreense,4799,1,2,True
+1231620,2025-02-16T15:30:00+00:00,FT,Regular Season - 22,FC Porto B,243,Penafiel,235,3,2,True
+1231612,2025-02-16T17:00:00+00:00,FT,Regular Season - 22,Alverca,4724,Maritimo,214,5,0,True
+1231617,2025-02-17T18:00:00+00:00,FT,Regular Season - 22,União de Leiria,4662,Academico Viseu,238,1,1,True
+1231623,2025-02-21T18:00:00+00:00,FT,Regular Season - 23,Penafiel,235,Portimonense,216,3,0,True
+1231622,2025-02-22T11:00:00+00:00,FT,Regular Season - 23,Felgueiras 1932,4744,FC Porto B,243,1,0,True
+1231625,2025-02-22T14:00:00+00:00,FT,Regular Season - 23,Benfica B,229,Pacos Ferreira,234,0,0,True
+1231621,2025-02-22T14:00:00+00:00,FT,Regular Season - 23,Mafra,245,Vizela,810,1,4,True
+1231629,2025-02-22T15:30:00+00:00,FT,Regular Season - 23,Maritimo,214,União de Leiria,4662,1,2,True
+1231624,2025-02-22T18:00:00+00:00,FT,Regular Season - 23,Feirense,213,Oliveirense,233,3,1,True
+1231627,2025-02-23T11:00:00+00:00,FT,Regular Season - 23,Torreense,4799,Chaves,223,1,2,True
+1231628,2025-02-23T14:00:00+00:00,FT,Regular Season - 23,Leixoes,244,Alverca,4724,1,1,True
+1231626,2025-02-23T15:30:00+00:00,FT,Regular Season - 23,Academico Viseu,238,Tondela,218,1,1,True
+1231635,2025-02-28T20:15:00+00:00,FT,Regular Season - 24,Chaves,223,Benfica B,229,1,2,True
+1231630,2025-03-01T11:00:00+00:00,FT,Regular Season - 24,Academico Viseu,238,Felgueiras 1932,4744,0,0,True
+1231631,2025-03-01T14:00:00+00:00,FT,Regular Season - 24,Alverca,4724,Mafra,245,2,0,True
+1231632,2025-03-01T15:30:00+00:00,FT,Regular Season - 24,Tondela,218,Torreense,4799,2,2,True
+1231636,2025-03-02T11:00:00+00:00,FT,Regular Season - 24,Portimonense,216,Leixoes,244,2,1,True
+1231638,2025-03-02T14:00:00+00:00,FT,Regular Season - 24,FC Porto B,243,Maritimo,214,0,1,True
+1231634,2025-03-02T14:00:00+00:00,FT,Regular Season - 24,União de Leiria,4662,Penafiel,235,1,0,True
+1231637,2025-03-02T18:00:00+00:00,FT,Regular Season - 24,Vizela,810,Feirense,213,5,0,True
+1231633,2025-03-03T18:00:00+00:00,FT,Regular Season - 24,Pacos Ferreira,234,Oliveirense,233,0,1,True
+1231644,2025-03-07T18:00:00+00:00,FT,Regular Season - 25,Feirense,213,Chaves,223,0,1,True
+1231645,2025-03-08T11:00:00+00:00,FT,Regular Season - 25,Penafiel,235,Alverca,4724,3,2,True
+1231639,2025-03-08T14:00:00+00:00,FT,Regular Season - 25,Felgueiras 1932,4744,União de Leiria,4662,2,2,True
+1231647,2025-03-08T15:30:00+00:00,FT,Regular Season - 25,Torreense,4799,Pacos Ferreira,234,3,0,True
+1231643,2025-03-09T11:00:00+00:00,FT,Regular Season - 25,Mafra,245,FC Porto B,243,0,0,True
+1231646,2025-03-09T14:00:00+00:00,FT,Regular Season - 25,Maritimo,214,Academico Viseu,238,1,1,True
+1231642,2025-03-09T15:30:00+00:00,FT,Regular Season - 25,Oliveirense,233,Vizela,810,0,1,True
+1231641,2025-03-09T18:00:00+00:00,FT,Regular Season - 25,Benfica B,229,Portimonense,216,0,0,True
+1231640,2025-03-10T18:00:00+00:00,FT,Regular Season - 25,Leixoes,244,Tondela,218,0,1,True
+1231655,2025-03-14T18:45:00+00:00,FT,Regular Season - 26,Portimonense,216,Feirense,213,1,2,True
+1231648,2025-03-14T20:45:00+00:00,FT,Regular Season - 26,Alverca,4724,Torreense,4799,2,2,True
+1231649,2025-03-15T11:00:00+00:00,FT,Regular Season - 26,Academico Viseu,238,Penafiel,235,1,0,True
+1231654,2025-03-15T14:00:00+00:00,FT,Regular Season - 26,Maritimo,214,Felgueiras 1932,4744,0,0,True
+1231650,2025-03-15T15:30:00+00:00,FT,Regular Season - 26,Chaves,223,Oliveirense,233,4,0,True
+1231653,2025-03-16T11:00:00+00:00,FT,Regular Season - 26,Tondela,218,Benfica B,229,2,1,True
+1231651,2025-03-16T14:00:00+00:00,FT,Regular Season - 26,União de Leiria,4662,Mafra,245,3,1,True
+1231656,2025-03-16T15:30:00+00:00,FT,Regular Season - 26,FC Porto B,243,Leixoes,244,0,1,True
+1231652,2025-03-16T20:30:00+00:00,FT,Regular Season - 26,Vizela,810,Pacos Ferreira,234,2,1,True
+1231659,2025-03-29T11:00:00+00:00,FT,Regular Season - 27,Oliveirense,233,Tondela,218,1,3,True
+1231660,2025-03-29T14:00:00+00:00,FT,Regular Season - 27,Penafiel,235,Maritimo,214,0,1,True
+1231657,2025-03-29T15:30:00+00:00,FT,Regular Season - 27,Vizela,810,Portimonense,216,3,2,True
+1231658,2025-03-30T10:00:00+00:00,FT,Regular Season - 27,Leixoes,244,União de Leiria,4662,0,1,True
+1231665,2025-03-30T11:45:00+00:00,FT,Regular Season - 27,Torreense,4799,FC Porto B,243,2,4,True
+1231661,2025-03-30T13:00:00+00:00,FT,Regular Season - 27,Pacos Ferreira,234,Chaves,223,2,0,True
+1231664,2025-03-30T17:00:00+00:00,FT,Regular Season - 27,Feirense,213,Alverca,4724,0,1,True
+1231662,2025-03-31T17:00:00+00:00,FT,Regular Season - 27,Benfica B,229,Academico Viseu,238,1,0,True
+1231663,2025-03-31T19:15:00+00:00,FT,Regular Season - 27,Mafra,245,Felgueiras 1932,4744,1,0,True
+1231671,2025-04-05T10:00:00+00:00,FT,Regular Season - 28,Tondela,218,Feirense,213,2,1,True
+1231666,2025-04-05T13:00:00+00:00,FT,Regular Season - 28,Felgueiras 1932,4744,Penafiel,235,1,0,True
+1231672,2025-04-05T14:30:00+00:00,FT,Regular Season - 28,Maritimo,214,Leixoes,244,1,1,True
+1231667,2025-04-05T17:00:00+00:00,FT,Regular Season - 28,Chaves,223,Vizela,810,1,2,True
+1231673,2025-04-06T10:00:00+00:00,FT,Regular Season - 28,FC Porto B,243,Pacos Ferreira,234,1,0,True
+1231668,2025-04-06T10:00:00+00:00,FT,Regular Season - 28,União de Leiria,4662,Torreense,4799,1,3,True
+1231670,2025-04-06T13:00:00+00:00,FT,Regular Season - 28,Academico Viseu,238,Mafra,245,3,1,True
+1231674,2025-04-06T14:30:00+00:00,FT,Regular Season - 28,Portimonense,216,Oliveirense,233,2,3,True
+1231669,2025-04-06T17:00:00+00:00,FT,Regular Season - 28,Alverca,4724,Benfica B,229,0,0,True
+1231683,2025-04-11T17:00:00+00:00,FT,Regular Season - 29,Feirense,213,União de Leiria,4662,2,1,True
+1231678,2025-04-12T10:00:00+00:00,FT,Regular Season - 29,Pacos Ferreira,234,Tondela,218,0,1,True
+1231680,2025-04-12T10:00:00+00:00,FT,Regular Season - 29,Leixoes,244,Academico Viseu,238,1,1,True
+1231675,2025-04-12T13:00:00+00:00,FT,Regular Season - 29,Chaves,223,Portimonense,216,2,0,True
+1231681,2025-04-13T10:00:00+00:00,FT,Regular Season - 29,Torreense,4799,Felgueiras 1932,4744,1,1,True
+1231676,2025-04-13T13:00:00+00:00,FT,Regular Season - 29,Benfica B,229,Maritimo,214,1,2,True
+1231682,2025-04-13T13:00:00+00:00,FT,Regular Season - 29,Vizela,810,Alverca,4724,1,1,True
+1231677,2025-04-13T14:30:00+00:00,FT,Regular Season - 29,Oliveirense,233,FC Porto B,243,1,1,True
+1231679,2025-04-14T19:15:00+00:00,FT,Regular Season - 29,Mafra,245,Penafiel,235,4,2,True
+1231687,2025-04-18T10:00:00+00:00,FT,Regular Season - 30,União de Leiria,4662,Benfica B,229,1,3,True
+1231686,2025-04-18T10:00:00+00:00,FT,Regular Season - 30,Felgueiras 1932,4744,Leixoes,244,4,0,True
+1231692,2025-04-18T13:00:00+00:00,FT,Regular Season - 30,Portimonense,216,Pacos Ferreira,234,2,0,True
+1231691,2025-04-19T10:00:00+00:00,FT,Regular Season - 30,Penafiel,235,Feirense,213,1,2,True
+1231684,2025-04-19T13:00:00+00:00,FT,Regular Season - 30,Academico Viseu,238,Torreense,4799,1,2,True
+1231689,2025-04-19T14:30:00+00:00,FT,Regular Season - 30,FC Porto B,243,Chaves,223,1,2,True
+1231688,2025-04-20T10:00:00+00:00,FT,Regular Season - 30,Alverca,4724,Oliveirense,233,4,0,True
+1231690,2025-04-20T14:30:00+00:00,FT,Regular Season - 30,Maritimo,214,Mafra,245,2,0,True
+1231685,2025-04-20T19:30:00+00:00,FT,Regular Season - 30,Tondela,218,Vizela,810,0,1,True
+1231698,2025-04-25T14:30:00+00:00,FT,Regular Season - 31,Oliveirense,233,Academico Viseu,238,2,0,True
+1231697,2025-04-25T17:00:00+00:00,FT,Regular Season - 31,Pacos Ferreira,234,União de Leiria,4662,2,3,True
+1231701,2025-04-26T10:00:00+00:00,FT,Regular Season - 31,Torreense,4799,Maritimo,214,2,2,True
+1231699,2025-04-26T13:00:00+00:00,FT,Regular Season - 31,Vizela,810,Felgueiras 1932,4744,1,1,True
+1231696,2025-04-27T10:00:00+00:00,FT,Regular Season - 31,Feirense,213,FC Porto B,243,0,1,True
+1231694,2025-04-27T13:00:00+00:00,FT,Regular Season - 31,Portimonense,216,Tondela,218,2,2,True
+1231693,2025-04-27T14:30:00+00:00,FT,Regular Season - 31,Leixoes,244,Penafiel,235,3,1,True
+1231700,2025-04-29T19:00:00+00:00,FT,Regular Season - 31,Chaves,223,Alverca,4724,0,2,True
+1231695,2025-04-30T17:00:00+00:00,FT,Regular Season - 31,Benfica B,229,Mafra,245,5,0,True
+1231704,2025-05-02T17:00:00+00:00,FT,Regular Season - 32,União de Leiria,4662,Oliveirense,233,5,0,True
+1231705,2025-05-03T10:00:00+00:00,FT,Regular Season - 32,Academico Viseu,238,Portimonense,216,2,1,True
+1231703,2025-05-03T14:30:00+00:00,FT,Regular Season - 32,FC Porto B,243,Vizela,810,0,1,True
+1231702,2025-05-04T10:00:00+00:00,FT,Regular Season - 32,Alverca,4724,Pacos Ferreira,234,1,0,True
+1231707,2025-05-04T10:00:00+00:00,FT,Regular Season - 32,Felgueiras 1932,4744,Benfica B,229,3,3,True
+1231710,2025-05-04T13:00:00+00:00,FT,Regular Season - 32,Mafra,245,Leixoes,244,1,2,True
+1231709,2025-05-04T14:30:00+00:00,FT,Regular Season - 32,Maritimo,214,Feirense,213,1,1,True
+1231708,2025-05-04T17:00:00+00:00,FT,Regular Season - 32,Tondela,218,Chaves,223,2,1,True
+1231706,2025-05-05T17:00:00+00:00,FT,Regular Season - 32,Penafiel,235,Torreense,4799,0,1,True
+1231715,2025-05-09T19:15:00+00:00,FT,Regular Season - 33,Feirense,213,Mafra,245,2,1,True
+1231719,2025-05-10T10:00:00+00:00,FT,Regular Season - 33,Pacos Ferreira,234,Felgueiras 1932,4744,1,2,True
+1231711,2025-05-10T13:00:00+00:00,FT,Regular Season - 33,Oliveirense,233,Maritimo,214,1,1,True
+1231712,2025-05-10T17:00:00+00:00,FT,Regular Season - 33,Chaves,223,União de Leiria,4662,0,2,True
+1231714,2025-05-11T10:00:00+00:00,FT,Regular Season - 33,Torreense,4799,Leixoes,244,3,2,True
+1231717,2025-05-11T13:00:00+00:00,FT,Regular Season - 33,Tondela,218,Alverca,4724,1,2,True
+1231718,2025-05-11T13:00:00+00:00,FT,Regular Season - 33,Vizela,810,Academico Viseu,238,1,1,True
+1231716,2025-05-11T17:00:00+00:00,FT,Regular Season - 33,Portimonense,216,FC Porto B,243,0,3,True
+1231713,2025-05-11T17:00:00+00:00,FT,Regular Season - 33,Benfica B,229,Penafiel,235,1,1,True
+1231727,2025-05-14T19:15:00+00:00,FT,Regular Season - 34,Leixoes,244,Feirense,213,2,0,True
+1231726,2025-05-15T17:45:00+00:00,FT,Regular Season - 34,Penafiel,235,Chaves,223,0,0,True
+1231720,2025-05-15T19:45:00+00:00,FT,Regular Season - 34,Mafra,245,Torreense,4799,2,0,True
+1231722,2025-05-16T19:30:00+00:00,FT,Regular Season - 34,Maritimo,214,Vizela,810,1,2,True
+1231724,2025-05-16T19:30:00+00:00,FT,Regular Season - 34,União de Leiria,4662,Tondela,218,0,2,True
+1231723,2025-05-16T19:30:00+00:00,FT,Regular Season - 34,Alverca,4724,Portimonense,216,2,1,True
+1231728,2025-05-17T10:00:00+00:00,FT,Regular Season - 34,FC Porto B,243,Benfica B,229,1,4,True
+1231725,2025-05-17T13:00:00+00:00,FT,Regular Season - 34,Academico Viseu,238,Pacos Ferreira,234,0,1,True
+1231721,2025-05-17T13:00:00+00:00,FT,Regular Season - 34,Felgueiras 1932,4744,Oliveirense,233,2,1,True
+1376352,2025-05-24T18:00:00+00:00,FT,Relegation Round,CF Os Belenenses,17692,Pacos Ferreira,234,2,1,True
+1376353,2025-06-01T16:00:00+00:00,AET,Relegation Round,Pacos Ferreira,234,CF Os Belenenses,17692,1,0,False

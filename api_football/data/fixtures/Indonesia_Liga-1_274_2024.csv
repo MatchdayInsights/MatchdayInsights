@@ -1,155 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1268660,2025-01-07T12:00:00+00:00,FT,Bali United,2448,Persib Bandung,2445,1,1,True
-1268714,2025-01-10T08:30:00+00:00,FT,Barito Putera,2453,Persija Jakarta,2439,2,3,True
-1268713,2025-01-10T08:30:00+00:00,FT,Malut United,22409,Persepam Madura Utd,2444,0,1,True
-1268715,2025-01-11T06:30:00+00:00,FT,PSBS Biak Numfor,4232,Persib Bandung,2445,1,1,True
-1268716,2025-01-11T08:30:00+00:00,FT,PSS Sleman,3882,Persebaya Surabaya,2446,3,1,True
-1268717,2025-01-11T12:00:00+00:00,FT,Dewa United,17902,Arema FC,2438,2,0,True
-1268718,2025-01-12T08:30:00+00:00,FT,Persita,4244,PSIS Semarang,2451,2,1,True
-1268719,2025-01-12T12:00:00+00:00,FT,Bali United,2448,Persik Kediri,4241,1,3,True
-1268720,2025-01-13T12:00:00+00:00,FT,Persis Solo,4243,PSM Makassar,2441,0,1,True
-1268721,2025-01-14T12:00:00+00:00,FT,Pusamania Borneo,2442,Semen Padang,2456,1,3,True
-1268722,2025-01-17T08:30:00+00:00,FT,Persebaya Surabaya,2446,Malut United,22409,0,2,True
-1268723,2025-01-17T12:00:00+00:00,FT,Persib Bandung,2445,Dewa United,17902,0,2,True
-1268724,2025-01-18T08:30:00+00:00,FT,PSM Makassar,2441,PSBS Biak Numfor,4232,1,1,True
-1268725,2025-01-18T12:00:00+00:00,FT,Persepam Madura Utd,2444,Barito Putera,2453,2,4,True
-1268727,2025-01-19T08:30:00+00:00,FT,Pusamania Borneo,2442,Arema FC,2438,3,1,True
-1268726,2025-01-19T08:30:00+00:00,FT,Persik Kediri,4241,PSS Sleman,3882,0,0,True
-1268728,2025-01-19T12:00:00+00:00,FT,Persija Jakarta,2439,Persita,4244,2,0,True
-1268729,2025-01-20T08:30:00+00:00,FT,Semen Padang,2456,Bali United,2448,1,5,True
-1268730,2025-01-20T12:00:00+00:00,FT,PSIS Semarang,2451,Persis Solo,4243,1,2,True
-1268731,2025-01-24T08:30:00+00:00,FT,Arema FC,2438,Persib Bandung,2445,1,3,True
-1268732,2025-01-24T12:00:00+00:00,FT,Persita,4244,Persepam Madura Utd,2444,1,1,True
-1268733,2025-01-25T08:00:00+00:00,FT,Malut United,22409,Persik Kediri,4241,2,1,True
-1268734,2025-01-25T12:00:00+00:00,FT,Barito Putera,2453,Persebaya Surabaya,2446,3,0,True
-1268735,2025-01-26T06:30:00+00:00,FT,PSBS Biak Numfor,4232,PSIS Semarang,2451,1,3,True
-1268736,2025-01-26T08:30:00+00:00,FT,PSS Sleman,3882,Semen Padang,2456,2,4,True
-1268737,2025-01-26T12:00:00+00:00,FT,Persis Solo,4243,Persija Jakarta,2439,3,3,True
-1268738,2025-01-27T08:30:00+00:00,FT,Dewa United,17902,PSM Makassar,2441,3,2,True
-1268739,2025-01-28T12:00:00+00:00,FT,Bali United,2448,Pusamania Borneo,2442,3,2,True
-1268740,2025-01-31T08:30:00+00:00,FT,Persik Kediri,4241,Barito Putera,2453,1,1,True
-1268741,2025-01-31T12:00:00+00:00,FT,Persebaya Surabaya,2446,Persita,4244,1,1,True
-1268742,2025-02-01T08:30:00+00:00,FT,Persepam Madura Utd,2444,Persis Solo,4243,2,0,True
-1268743,2025-02-01T12:00:00+00:00,FT,Persib Bandung,2445,PSM Makassar,2441,1,0,True
-1268744,2025-02-02T08:30:00+00:00,FT,Pusamania Borneo,2442,PSS Sleman,3882,1,0,True
-1268745,2025-02-02T08:30:00+00:00,FT,Semen Padang,2456,Malut United,22409,1,1,True
-1268746,2025-02-02T12:00:00+00:00,FT,Persija Jakarta,2439,PSBS Biak Numfor,4232,2,2,True
-1268747,2025-02-03T08:30:00+00:00,FT,Arema FC,2438,Bali United,2448,1,0,True
-1268748,2025-02-03T12:00:00+00:00,FT,PSIS Semarang,2451,Dewa United,17902,1,4,True
-1268749,2025-02-07T08:30:00+00:00,FT,Persita,4244,Persik Kediri,4241,1,0,True
-1268750,2025-02-07T12:00:00+00:00,FT,Persis Solo,4243,Persebaya Surabaya,2446,2,1,True
-1268752,2025-02-08T08:30:00+00:00,FT,Persepam Madura Utd,2444,PSBS Biak Numfor,4232,0,0,True
-1268751,2025-02-08T08:30:00+00:00,FT,Barito Putera,2453,Semen Padang,2456,2,1,True
-1268753,2025-02-08T12:00:00+00:00,FT,Dewa United,17902,Persija Jakarta,2439,2,1,True
-1268754,2025-02-09T08:30:00+00:00,FT,PSS Sleman,3882,Bali United,2448,1,2,True
-1268755,2025-02-09T12:00:00+00:00,FT,PSIS Semarang,2451,Persib Bandung,2445,0,1,True
-1268757,2025-02-10T08:30:00+00:00,FT,Arema FC,2438,PSM Makassar,2441,1,1,True
-1268756,2025-02-10T12:00:00+00:00,FT,Malut United,22409,Pusamania Borneo,2442,3,0,True
-1268758,2025-02-14T08:30:00+00:00,FT,Semen Padang,2456,Persita,4244,2,0,True
-1268759,2025-02-14T12:00:00+00:00,FT,Persik Kediri,4241,Persis Solo,4243,0,0,True
-1268760,2025-02-15T08:30:00+00:00,FT,Persepam Madura Utd,2444,Dewa United,17902,3,1,True
-1268761,2025-02-15T12:00:00+00:00,FT,Persebaya Surabaya,2446,PSBS Biak Numfor,4232,1,0,True
-1268762,2025-02-16T08:30:00+00:00,FT,Persija Jakarta,2439,Persib Bandung,2445,2,2,True
-1268763,2025-02-16T08:30:00+00:00,FT,Pusamania Borneo,2442,Barito Putera,2453,2,1,True
-1268764,2025-02-16T12:00:00+00:00,FT,PSIS Semarang,2451,PSM Makassar,2441,1,1,True
-1268765,2025-02-17T08:30:00+00:00,FT,Arema FC,2438,PSS Sleman,3882,6,2,True
-1268766,2025-02-17T12:00:00+00:00,FT,Bali United,2448,Malut United,22409,1,1,True
-1268767,2025-02-21T08:30:00+00:00,FT,PSBS Biak Numfor,4232,Persik Kediri,4241,1,1,True
-1268768,2025-02-21T08:30:00+00:00,FT,Persis Solo,4243,Semen Padang,2456,1,1,True
-1268769,2025-02-21T12:00:00+00:00,FT,Dewa United,17902,Persebaya Surabaya,2446,2,0,True
-1268770,2025-02-22T08:30:00+00:00,FT,Persita,4244,Pusamania Borneo,2442,1,2,True
-1268771,2025-02-22T12:00:00+00:00,FT,Persib Bandung,2445,Persepam Madura Utd,2444,0,0,True
-1268773,2025-02-23T08:30:00+00:00,FT,PSM Makassar,2441,Persija Jakarta,2439,1,0,True
-1268772,2025-02-23T12:00:00+00:00,FT,Malut United,22409,PSS Sleman,3882,1,0,True
-1268774,2025-02-24T08:30:00+00:00,FT,Arema FC,2438,PSIS Semarang,2451,2,2,True
-1268775,2025-02-24T12:00:00+00:00,FT,Barito Putera,2453,Bali United,2448,3,1,True
-1268778,2025-03-01T13:30:00+00:00,FT,Persebaya Surabaya,2446,Persib Bandung,2445,4,1,True
-1268777,2025-03-01T13:30:00+00:00,FT,Persik Kediri,4241,Dewa United,17902,1,2,True
-1268776,2025-03-01T14:00:00+00:00,FT,Semen Padang,2456,PSBS Biak Numfor,4232,1,1,True
-1268779,2025-03-02T13:30:00+00:00,FT,Pusamania Borneo,2442,Persis Solo,4243,0,1,True
-1268781,2025-03-02T13:30:00+00:00,FT,Persepam Madura Utd,2444,PSM Makassar,2441,1,3,True
-1268780,2025-03-02T13:30:00+00:00,FT,Bali United,2448,Persita,4244,1,1,True
-1268782,2025-03-03T13:30:00+00:00,FT,PSS Sleman,3882,Barito Putera,2453,1,2,True
-1268783,2025-03-04T12:30:00+00:00,FT,Malut United,22409,Arema FC,2438,2,1,True
-1268784,2025-03-05T13:30:00+00:00,FT,Persija Jakarta,2439,PSIS Semarang,2451,2,0,True
-1268786,2025-03-05T13:30:00+00:00,FT,Persib Bandung,2445,Persik Kediri,4241,4,1,True
-1268785,2025-03-05T13:30:00+00:00,FT,Dewa United,17902,Semen Padang,2456,6,0,True
-1268787,2025-03-06T13:30:00+00:00,FT,PSBS Biak Numfor,4232,Pusamania Borneo,2442,1,0,True
-1268788,2025-03-06T13:30:00+00:00,FT,Persis Solo,4243,Bali United,2448,2,2,True
-1268789,2025-03-07T13:30:00+00:00,FT,PSM Makassar,2441,Persebaya Surabaya,2446,0,1,True
-1268790,2025-03-07T13:30:00+00:00,FT,Persita,4244,PSS Sleman,3882,1,2,True
-1268791,2025-03-08T13:30:00+00:00,FT,Barito Putera,2453,Malut United,22409,1,1,True
-1268793,2025-03-09T13:30:00+00:00,FT,Persija Jakarta,2439,Arema FC,2438,1,3,True
-1268794,2025-03-10T13:30:00+00:00,FT,Dewa United,17902,Pusamania Borneo,2442,0,1,True
-1268795,2025-03-10T14:00:00+00:00,FT,Semen Padang,2456,Persib Bandung,2445,1,4,True
-1268796,2025-03-11T13:30:00+00:00,FT,Bali United,2448,PSBS Biak Numfor,4232,0,2,True
-1268797,2025-03-11T13:30:00+00:00,FT,PSS Sleman,3882,Persis Solo,4243,1,4,True
-1268798,2025-03-11T13:30:00+00:00,FT,Persik Kediri,4241,PSM Makassar,2441,2,2,True
-1268799,2025-03-12T12:30:00+00:00,FT,Malut United,22409,Persita,4244,2,1,True
-1268800,2025-03-12T13:30:00+00:00,FT,Persebaya Surabaya,2446,PSIS Semarang,2451,1,1,True
-1268802,2025-03-13T13:30:00+00:00,FT,Arema FC,2438,Barito Putera,2453,4,2,True
-1268792,2025-03-16T13:30:00+00:00,FT,PSIS Semarang,2451,Persepam Madura Utd,2444,1,2,True
-1268801,2025-04-06T12:00:00+00:00,FT,Persepam Madura Utd,2444,Persija Jakarta,2439,1,0,True
-1268804,2025-04-10T08:30:00+00:00,FT,PSM Makassar,2441,Semen Padang,2456,2,0,True
-1268805,2025-04-10T12:00:00+00:00,FT,Bali United,2448,Dewa United,17902,0,0,True
-1268806,2025-04-11T08:30:00+00:00,FT,PSIS Semarang,2451,Persik Kediri,4241,0,0,True
-1268803,2025-04-11T08:30:00+00:00,FT,PSBS Biak Numfor,4232,PSS Sleman,3882,2,1,True
-1268807,2025-04-11T12:00:00+00:00,FT,Pusamania Borneo,2442,Persib Bandung,2445,2,2,True
-1268808,2025-04-12T08:30:00+00:00,FT,Persis Solo,4243,Malut United,22409,1,3,True
-1268809,2025-04-12T12:00:00+00:00,FT,Persija Jakarta,2439,Persebaya Surabaya,2446,1,1,True
-1268810,2025-04-13T12:00:00+00:00,FT,Persita,4244,Barito Putera,2453,2,1,True
-1268812,2025-04-17T08:30:00+00:00,FT,Semen Padang,2456,PSIS Semarang,2451,3,2,True
-1268813,2025-04-17T12:00:00+00:00,FT,PSS Sleman,3882,Dewa United,17902,0,1,True
-1268815,2025-04-18T08:30:00+00:00,FT,Pusamania Borneo,2442,PSM Makassar,2441,1,1,True
-1268816,2025-04-18T12:00:00+00:00,FT,Persib Bandung,2445,Bali United,2448,2,1,True
-1268814,2025-04-18T12:00:00+00:00,FT,Malut United,22409,PSBS Biak Numfor,4232,1,1,True
-1268817,2025-04-19T12:00:00+00:00,FT,Barito Putera,2453,Persis Solo,4243,0,1,True
-1268818,2025-04-19T12:00:00+00:00,FT,Persik Kediri,4241,Persija Jakarta,2439,0,1,True
-1268819,2025-04-20T08:30:00+00:00,FT,Persita,4244,Arema FC,2438,3,2,True
-1268820,2025-04-20T12:00:00+00:00,FT,Persebaya Surabaya,2446,Persepam Madura Utd,2444,1,0,True
-1268811,2025-04-24T12:00:00+00:00,FT,Arema FC,2438,Persepam Madura Utd,2444,0,1,True
-1268821,2025-04-25T08:30:00+00:00,FT,PSIS Semarang,2451,Pusamania Borneo,2442,2,5,True
-1268822,2025-04-25T08:30:00+00:00,FT,Dewa United,17902,Malut United,22409,1,2,True
-1268823,2025-04-25T12:00:00+00:00,FT,PSM Makassar,2441,Bali United,2448,0,1,True
-1268824,2025-04-26T08:30:00+00:00,FT,PSBS Biak Numfor,4232,Barito Putera,2453,2,1,True
-1268825,2025-04-26T12:00:00+00:00,FT,Persib Bandung,2445,PSS Sleman,3882,3,0,True
-1268826,2025-04-27T08:30:00+00:00,FT,Persis Solo,4243,Persita,4244,1,0,True
-1268827,2025-04-27T12:00:00+00:00,FT,Persija Jakarta,2439,Semen Padang,2456,0,2,True
-1268828,2025-04-28T08:30:00+00:00,FT,Arema FC,2438,Persebaya Surabaya,2446,1,1,True
-1268829,2025-04-28T12:00:00+00:00,FT,Persepam Madura Utd,2444,Persik Kediri,4241,2,1,True
-1268830,2025-05-01T12:00:00+00:00,FT,Bali United,2448,PSIS Semarang,2451,4,0,True
-1268832,2025-05-02T08:30:00+00:00,FT,Barito Putera,2453,Dewa United,17902,1,1,True
-1268831,2025-05-02T12:00:00+00:00,FT,Malut United,22409,Persib Bandung,2445,1,0,True
-1268833,2025-05-03T08:30:00+00:00,FT,Persita,4244,PSBS Biak Numfor,4232,0,2,True
-1268834,2025-05-03T12:00:00+00:00,FT,PSS Sleman,3882,PSM Makassar,2441,3,1,True
-1268835,2025-05-04T08:30:00+00:00,FT,Semen Padang,2456,Persepam Madura Utd,2444,2,1,True
-1268836,2025-05-04T12:00:00+00:00,FT,Pusamania Borneo,2442,Persija Jakarta,2439,1,0,True
-1268837,2025-05-05T08:30:00+00:00,FT,Persik Kediri,4241,Persebaya Surabaya,2446,3,3,True
-1268838,2025-05-05T12:00:00+00:00,FT,Persis Solo,4243,Arema FC,2438,0,1,True
-1268839,2025-05-09T08:30:00+00:00,FT,PSIS Semarang,2451,PSS Sleman,3882,1,2,True
-1268840,2025-05-09T08:30:00+00:00,FT,Dewa United,17902,Persita,4244,3,0,True
-1268841,2025-05-09T12:00:00+00:00,FT,Persib Bandung,2445,Barito Putera,2453,1,1,True
-1268842,2025-05-10T08:30:00+00:00,FT,PSM Makassar,2441,Malut United,22409,3,2,True
-1268843,2025-05-10T08:30:00+00:00,FT,Persepam Madura Utd,2444,Pusamania Borneo,2442,2,3,True
-1268844,2025-05-10T12:00:00+00:00,FT,Persija Jakarta,2439,Bali United,2448,3,0,True
-1268845,2025-05-11T06:30:00+00:00,FT,PSBS Biak Numfor,4232,Persis Solo,4243,0,2,True
-1268846,2025-05-11T08:30:00+00:00,FT,Arema FC,2438,Persik Kediri,4241,0,3,True
-1268847,2025-05-11T12:00:00+00:00,FT,Persebaya Surabaya,2446,Semen Padang,2456,1,1,True
-1268849,2025-05-16T08:30:00+00:00,FT,Persita,4244,Persib Bandung,2445,2,2,True
-1268848,2025-05-16T12:00:00+00:00,FT,Malut United,22409,PSIS Semarang,2451,5,1,True
-1268851,2025-05-17T08:30:00+00:00,FT,Bali United,2448,Persepam Madura Utd,2444,0,2,True
-1268850,2025-05-17T08:30:00+00:00,FT,Barito Putera,2453,PSM Makassar,2441,1,4,True
-1268852,2025-05-17T12:00:00+00:00,FT,PSS Sleman,3882,Persija Jakarta,2439,2,1,True
-1268853,2025-05-17T12:00:00+00:00,FT,Persis Solo,4243,Dewa United,17902,1,1,True
-1268854,2025-05-18T06:30:00+00:00,FT,PSBS Biak Numfor,4232,Arema FC,2438,2,2,True
-1268855,2025-05-18T08:30:00+00:00,FT,Semen Padang,2456,Persik Kediri,4241,1,1,True
-1268856,2025-05-18T12:00:00+00:00,FT,Pusamania Borneo,2442,Persebaya Surabaya,2446,1,1,True
-1268857,2025-05-23T08:30:00+00:00,FT,Persik Kediri,4241,Pusamania Borneo,2442,1,2,True
-1268859,2025-05-23T12:00:00+00:00,FT,Persija Jakarta,2439,Malut United,22409,0,0,True
-1268862,2025-05-23T12:00:00+00:00,FT,PSM Makassar,2441,Persita,4244,1,0,True
-1268858,2025-05-23T12:00:00+00:00,FT,Persebaya Surabaya,2446,Bali United,2448,1,3,True
-1268863,2025-05-23T12:00:00+00:00,FT,Dewa United,17902,PSBS Biak Numfor,4232,4,0,True
-1268860,2025-05-24T09:00:00+00:00,FT,Arema FC,2438,Semen Padang,2456,0,2,True
-1268864,2025-05-24T09:00:00+00:00,FT,Persepam Madura Utd,2444,PSS Sleman,3882,0,3,True
-1268865,2025-05-24T09:00:00+00:00,FT,Persib Bandung,2445,Persis Solo,4243,3,2,True
-1268861,2025-05-24T09:00:00+00:00,FT,PSIS Semarang,2451,Barito Putera,2453,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1268560,2024-08-09T12:00:00+00:00,FT,Regular Season - 1,Persib Bandung,2445,PSBS Biak Numfor,4232,4,1,True
+1268562,2024-08-10T08:30:00+00:00,FT,Regular Season - 1,PSM Makassar,2441,Persis Solo,4243,3,0,True
+1268561,2024-08-10T08:30:00+00:00,FT,Regular Season - 1,Persepam Madura Utd,2444,Malut United,22409,1,1,True
+1268563,2024-08-10T12:00:00+00:00,FT,Regular Season - 1,Persija Jakarta,2439,Barito Putera,2453,3,0,True
+1268564,2024-08-11T08:30:00+00:00,FT,Regular Season - 1,PSIS Semarang,2451,Persita,4244,0,1,True
+1268565,2024-08-11T08:30:00+00:00,FT,Regular Season - 1,Persik Kediri,4241,Bali United,2448,1,3,True
+1268566,2024-08-11T12:00:00+00:00,FT,Regular Season - 1,Persebaya Surabaya,2446,PSS Sleman,3882,1,0,True
+1268567,2024-08-12T08:30:00+00:00,FT,Regular Season - 1,Arema FC,2438,Dewa United,17902,0,0,True
+1268568,2024-08-12T12:00:00+00:00,FT,Regular Season - 1,Semen Padang,2456,Pusamania Borneo,2442,1,3,True
+1268569,2024-08-16T08:30:00+00:00,FT,Regular Season - 2,PSBS Biak Numfor,4232,PSM Makassar,2441,1,2,True
+1268570,2024-08-16T08:30:00+00:00,FT,Regular Season - 2,Malut United,22409,Persebaya Surabaya,2446,0,0,True
+1268571,2024-08-16T12:00:00+00:00,FT,Regular Season - 2,Barito Putera,2453,Persepam Madura Utd,2444,1,0,True
+1268572,2024-08-17T08:30:00+00:00,FT,Regular Season - 2,Arema FC,2438,Pusamania Borneo,2442,0,2,True
+1268573,2024-08-17T12:00:00+00:00,FT,Regular Season - 2,Persis Solo,4243,PSIS Semarang,2451,0,1,True
+1268574,2024-08-18T08:30:00+00:00,FT,Regular Season - 2,Bali United,2448,Semen Padang,2456,2,0,True
+1268575,2024-08-18T12:00:00+00:00,FT,Regular Season - 2,Persita,4244,Persija Jakarta,2439,0,0,True
+1268576,2024-08-19T08:30:00+00:00,FT,Regular Season - 2,PSS Sleman,3882,Persik Kediri,4241,0,2,True
+1268577,2024-08-19T12:00:00+00:00,FT,Regular Season - 2,Dewa United,17902,Persib Bandung,2445,2,2,True
+1268578,2024-08-23T08:30:00+00:00,FT,Regular Season - 3,PSIS Semarang,2451,PSBS Biak Numfor,4232,1,0,True
+1268579,2024-08-23T12:00:00+00:00,FT,Regular Season - 3,Persebaya Surabaya,2446,Barito Putera,2453,2,1,True
+1268580,2024-08-24T08:30:00+00:00,FT,Regular Season - 3,Persepam Madura Utd,2444,Persita,4244,0,1,True
+1268581,2024-08-24T12:00:00+00:00,FT,Regular Season - 3,Persija Jakarta,2439,Persis Solo,4243,2,1,True
+1268582,2024-08-25T08:30:00+00:00,FT,Regular Season - 3,Persik Kediri,4241,Malut United,22409,0,0,True
+1268583,2024-08-25T12:00:00+00:00,FT,Regular Season - 3,Persib Bandung,2445,Arema FC,2438,1,1,True
+1268584,2024-08-26T08:30:00+00:00,FT,Regular Season - 3,Semen Padang,2456,PSS Sleman,3882,1,0,True
+1268585,2024-08-26T12:00:00+00:00,FT,Regular Season - 3,PSM Makassar,2441,Dewa United,17902,3,1,True
+1268586,2024-08-27T12:00:00+00:00,FT,Regular Season - 3,Pusamania Borneo,2442,Bali United,2448,2,0,True
+1268589,2024-09-11T08:30:00+00:00,FT,Regular Season - 4,PSM Makassar,2441,Persib Bandung,2445,0,0,True
+1268587,2024-09-11T08:30:00+00:00,FT,Regular Season - 4,Bali United,2448,Arema FC,2438,0,0,True
+1268588,2024-09-11T08:30:00+00:00,FT,Regular Season - 4,Dewa United,17902,PSIS Semarang,2451,2,1,True
+1268590,2024-09-12T08:30:00+00:00,FT,Regular Season - 4,PSS Sleman,3882,Pusamania Borneo,2442,1,1,True
+1268591,2024-09-12T12:00:00+00:00,FT,Regular Season - 4,PSBS Biak Numfor,4232,Persija Jakarta,2439,3,1,True
+1268592,2024-09-13T08:30:00+00:00,FT,Regular Season - 4,Malut United,22409,Semen Padang,2456,2,1,True
+1268593,2024-09-13T12:00:00+00:00,FT,Regular Season - 4,Persis Solo,4243,Persepam Madura Utd,2444,4,0,True
+1268594,2024-09-14T08:30:00+00:00,FT,Regular Season - 4,Barito Putera,2453,Persik Kediri,4241,2,2,True
+1268595,2024-09-14T12:00:00+00:00,FT,Regular Season - 4,Persita,4244,Persebaya Surabaya,2446,0,1,True
+1268596,2024-09-15T08:30:00+00:00,FT,Regular Season - 5,PSM Makassar,2441,Arema FC,2438,0,1,True
+1268597,2024-09-15T12:00:00+00:00,FT,Regular Season - 5,Persib Bandung,2445,PSIS Semarang,2451,2,1,True
+1268598,2024-09-16T08:30:00+00:00,FT,Regular Season - 5,Bali United,2448,PSS Sleman,3882,0,0,True
+1268599,2024-09-16T12:00:00+00:00,FT,Regular Season - 5,Persija Jakarta,2439,Dewa United,17902,0,0,True
+1268600,2024-09-17T08:30:00+00:00,FT,Regular Season - 5,PSBS Biak Numfor,4232,Persepam Madura Utd,2444,2,1,True
+1268601,2024-09-17T12:00:00+00:00,FT,Regular Season - 5,Pusamania Borneo,2442,Malut United,22409,1,0,True
+1268602,2024-09-18T08:30:00+00:00,FT,Regular Season - 5,Semen Padang,2456,Barito Putera,2453,1,2,True
+1268603,2024-09-18T08:30:00+00:00,FT,Regular Season - 5,Persik Kediri,4241,Persita,4244,1,0,True
+1268604,2024-09-18T12:00:00+00:00,FT,Regular Season - 5,Persebaya Surabaya,2446,Persis Solo,4243,2,1,True
+1268605,2024-09-20T08:30:00+00:00,FT,Regular Season - 6,PSS Sleman,3882,Arema FC,2438,3,1,True
+1268606,2024-09-20T12:00:00+00:00,FT,Regular Season - 6,PSM Makassar,2441,PSIS Semarang,2451,0,0,True
+1268607,2024-09-21T08:30:00+00:00,FT,Regular Season - 6,Dewa United,17902,Persepam Madura Utd,2444,3,3,True
+1268608,2024-09-21T12:00:00+00:00,FT,Regular Season - 6,Malut United,22409,Bali United,2448,1,4,True
+1268609,2024-09-22T08:30:00+00:00,FT,Regular Season - 6,Persita,4244,Semen Padang,2456,1,0,True
+1268610,2024-09-22T12:00:00+00:00,FT,Regular Season - 6,PSBS Biak Numfor,4232,Persebaya Surabaya,2446,0,1,True
+1268612,2024-09-23T08:30:00+00:00,FT,Regular Season - 6,Persib Bandung,2445,Persija Jakarta,2439,2,0,True
+1268611,2024-09-23T08:30:00+00:00,FT,Regular Season - 6,Persis Solo,4243,Persik Kediri,4241,0,1,True
+1268613,2024-09-23T12:00:00+00:00,FT,Regular Season - 6,Barito Putera,2453,Pusamania Borneo,2442,1,1,True
+1268614,2024-09-26T08:30:00+00:00,FT,Regular Season - 7,PSIS Semarang,2451,Arema FC,2438,1,2,True
+1268615,2024-09-26T12:00:00+00:00,FT,Regular Season - 7,PSS Sleman,3882,Malut United,22409,0,1,True
+1268616,2024-09-27T08:30:00+00:00,FT,Regular Season - 7,Bali United,2448,Barito Putera,2453,3,2,True
+1268617,2024-09-27T12:00:00+00:00,FT,Regular Season - 7,Persebaya Surabaya,2446,Dewa United,17902,0,0,True
+1268618,2024-09-28T08:30:00+00:00,FT,Regular Season - 7,Persik Kediri,4241,PSBS Biak Numfor,4232,0,1,True
+1268620,2024-09-28T12:00:00+00:00,FT,Regular Season - 7,Persepam Madura Utd,2444,Persib Bandung,2445,2,2,True
+1268621,2024-09-29T08:30:00+00:00,FT,Regular Season - 7,Semen Padang,2456,Persis Solo,4243,0,0,True
+1268622,2024-09-29T12:00:00+00:00,FT,Regular Season - 7,Persija Jakarta,2439,PSM Makassar,2441,1,1,True
+1268619,2024-09-30T12:00:00+00:00,FT,Regular Season - 7,Pusamania Borneo,2442,Persita,4244,0,0,True
+1268623,2024-10-17T08:30:00+00:00,FT,Regular Season - 8,Dewa United,17902,Persik Kediri,4241,2,3,True
+1268624,2024-10-17T12:00:00+00:00,FT,Regular Season - 8,PSIS Semarang,2451,Persija Jakarta,2439,0,2,True
+1268626,2024-10-18T08:30:00+00:00,FT,Regular Season - 8,Persib Bandung,2445,Persebaya Surabaya,2446,2,0,True
+1268625,2024-10-18T08:30:00+00:00,FT,Regular Season - 8,PSBS Biak Numfor,4232,Semen Padang,2456,3,2,True
+1268627,2024-10-18T12:00:00+00:00,FT,Regular Season - 8,PSM Makassar,2441,Persepam Madura Utd,2444,2,0,True
+1268628,2024-10-19T08:30:00+00:00,FT,Regular Season - 8,Arema FC,2438,Malut United,22409,3,1,True
+1268629,2024-10-19T12:00:00+00:00,FT,Regular Season - 8,Persis Solo,4243,Pusamania Borneo,2442,3,2,True
+1268630,2024-10-20T08:30:00+00:00,FT,Regular Season - 8,Barito Putera,2453,PSS Sleman,3882,0,3,True
+1268631,2024-10-20T12:00:00+00:00,FT,Regular Season - 8,Persita,4244,Bali United,2448,0,1,True
+1268632,2024-10-23T08:30:00+00:00,FT,Regular Season - 9,Persepam Madura Utd,2444,PSIS Semarang,2451,2,0,True
+1268633,2024-10-23T12:00:00+00:00,FT,Regular Season - 9,Persebaya Surabaya,2446,PSM Makassar,2441,1,1,True
+1268634,2024-10-25T08:30:00+00:00,FT,Regular Season - 9,Semen Padang,2456,Dewa United,17902,1,8,True
+1268635,2024-10-25T12:00:00+00:00,FT,Regular Season - 9,Pusamania Borneo,2442,PSBS Biak Numfor,4232,3,0,True
+1268636,2024-10-26T08:30:00+00:00,FT,Regular Season - 9,Malut United,22409,Barito Putera,2453,0,0,True
+1268637,2024-10-26T12:00:00+00:00,FT,Regular Season - 9,Arema FC,2438,Persija Jakarta,2439,1,2,True
+1268638,2024-10-27T08:30:00+00:00,FT,Regular Season - 9,PSS Sleman,3882,Persita,4244,1,2,True
+1268639,2024-10-27T12:00:00+00:00,FT,Regular Season - 9,Bali United,2448,Persis Solo,4243,3,0,True
+1268640,2024-10-28T12:00:00+00:00,FT,Regular Season - 9,Persik Kediri,4241,Persib Bandung,2445,0,2,True
+1268641,2024-11-01T08:30:00+00:00,FT,Regular Season - 10,Barito Putera,2453,Arema FC,2438,1,3,True
+1268642,2024-11-01T12:00:00+00:00,FT,Regular Season - 10,Persib Bandung,2445,Semen Padang,2456,1,1,True
+1268643,2024-11-02T08:30:00+00:00,FT,Regular Season - 10,PSIS Semarang,2451,Persebaya Surabaya,2446,0,1,True
+1268644,2024-11-02T12:00:00+00:00,FT,Regular Season - 10,Pusamania Borneo,2442,Dewa United,17902,1,0,True
+1268645,2024-11-03T08:30:00+00:00,FT,Regular Season - 10,PSBS Biak Numfor,4232,Bali United,2448,2,0,True
+1268646,2024-11-03T12:00:00+00:00,FT,Regular Season - 10,Persis Solo,4243,PSS Sleman,3882,0,2,True
+1268647,2024-11-04T08:30:00+00:00,FT,Regular Season - 10,Persita,4244,Malut United,22409,1,1,True
+1268648,2024-11-04T12:00:00+00:00,FT,Regular Season - 10,PSM Makassar,2441,Persik Kediri,4241,1,1,True
+1268649,2024-11-06T12:00:00+00:00,FT,Regular Season - 10,Persija Jakarta,2439,Persepam Madura Utd,2444,4,1,True
+1268651,2024-11-21T08:30:00+00:00,FT,Regular Season - 11,Persepam Madura Utd,2444,Arema FC,2438,2,4,True
+1268650,2024-11-21T08:30:00+00:00,FT,Regular Season - 11,Malut United,22409,Persis Solo,4243,3,0,True
+1268652,2024-11-21T12:00:00+00:00,FT,Regular Season - 11,Semen Padang,2456,PSM Makassar,2441,1,1,True
+1268654,2024-11-22T08:30:00+00:00,FT,Regular Season - 11,Persebaya Surabaya,2446,Persija Jakarta,2439,2,1,True
+1268653,2024-11-22T08:30:00+00:00,FT,Regular Season - 11,PSS Sleman,3882,PSBS Biak Numfor,4232,0,1,True
+1268655,2024-11-22T12:00:00+00:00,FT,Regular Season - 11,Persib Bandung,2445,Pusamania Borneo,2442,1,0,True
+1268657,2024-11-23T08:30:00+00:00,FT,Regular Season - 11,Barito Putera,2453,Persita,4244,0,2,True
+1268656,2024-11-23T08:30:00+00:00,FT,Regular Season - 11,Persik Kediri,4241,PSIS Semarang,2451,0,1,True
+1268658,2024-11-23T12:00:00+00:00,FT,Regular Season - 11,Dewa United,17902,Bali United,2448,1,0,True
+1268661,2024-12-01T08:30:00+00:00,FT,Regular Season - 12,Persija Jakarta,2439,Persik Kediri,4241,2,0,True
+1268659,2024-12-01T08:30:00+00:00,FT,Regular Season - 12,PSIS Semarang,2451,Semen Padang,2456,1,0,True
+1268663,2024-12-02T08:30:00+00:00,FT,Regular Season - 12,PSM Makassar,2441,Pusamania Borneo,2442,1,0,True
+1268662,2024-12-02T08:30:00+00:00,FT,Regular Season - 12,PSBS Biak Numfor,4232,Malut United,22409,1,3,True
+1268664,2024-12-02T12:00:00+00:00,FT,Regular Season - 12,Persepam Madura Utd,2444,Persebaya Surabaya,2446,1,2,True
+1268665,2024-12-03T08:30:00+00:00,FT,Regular Season - 12,Arema FC,2438,Persita,4244,3,0,True
+1268666,2024-12-03T08:30:00+00:00,FT,Regular Season - 12,Dewa United,17902,PSS Sleman,3882,2,1,True
+1268667,2024-12-03T12:00:00+00:00,FT,Regular Season - 12,Persis Solo,4243,Barito Putera,2453,0,0,True
+1268669,2024-12-06T08:30:00+00:00,FT,Regular Season - 13,Pusamania Borneo,2442,PSIS Semarang,2451,0,0,True
+1268668,2024-12-06T08:30:00+00:00,FT,Regular Season - 13,Persik Kediri,4241,Persepam Madura Utd,2444,1,0,True
+1268670,2024-12-06T12:00:00+00:00,FT,Regular Season - 13,Semen Padang,2456,Persija Jakarta,2439,0,1,True
+1268671,2024-12-07T08:30:00+00:00,FT,Regular Season - 13,Persebaya Surabaya,2446,Arema FC,2438,3,2,True
+1268672,2024-12-07T08:30:00+00:00,FT,Regular Season - 13,Malut United,22409,Dewa United,17902,1,1,True
+1268673,2024-12-07T12:00:00+00:00,FT,Regular Season - 13,Bali United,2448,PSM Makassar,2441,1,1,True
+1268674,2024-12-08T08:30:00+00:00,FT,Regular Season - 13,Barito Putera,2453,PSBS Biak Numfor,4232,0,3,True
+1268675,2024-12-08T12:00:00+00:00,FT,Regular Season - 13,Persita,4244,Persis Solo,4243,2,0,True
+1268676,2024-12-09T12:00:00+00:00,FT,Regular Season - 13,PSS Sleman,3882,Persib Bandung,2445,1,2,True
+1268677,2024-12-10T08:30:00+00:00,FT,Regular Season - 14,Persepam Madura Utd,2444,Semen Padang,2456,0,1,True
+1268678,2024-12-10T12:00:00+00:00,FT,Regular Season - 14,Persija Jakarta,2439,Pusamania Borneo,2442,1,1,True
+1268679,2024-12-11T08:30:00+00:00,FT,Regular Season - 14,Persebaya Surabaya,2446,Persik Kediri,4241,4,1,True
+1268680,2024-12-11T12:00:00+00:00,FT,Regular Season - 14,PSIS Semarang,2451,Bali United,2448,2,1,True
+1268682,2024-12-12T08:30:00+00:00,FT,Regular Season - 14,Arema FC,2438,Persis Solo,4243,1,1,True
+1268681,2024-12-12T08:30:00+00:00,FT,Regular Season - 14,PSBS Biak Numfor,4232,Persita,4244,1,3,True
+1268683,2024-12-12T12:00:00+00:00,FT,Regular Season - 14,Dewa United,17902,Barito Putera,2453,1,1,True
+1268684,2024-12-13T08:30:00+00:00,FT,Regular Season - 14,PSM Makassar,2441,PSS Sleman,3882,1,1,True
+1268685,2024-12-13T12:00:00+00:00,FT,Regular Season - 14,Persib Bandung,2445,Malut United,22409,2,0,True
+1268686,2024-12-14T12:00:00+00:00,FT,Regular Season - 15,Pusamania Borneo,2442,Persepam Madura Utd,2444,5,0,True
+1268687,2024-12-15T08:30:00+00:00,FT,Regular Season - 15,Semen Padang,2456,Persebaya Surabaya,2446,0,0,True
+1268688,2024-12-15T12:00:00+00:00,FT,Regular Season - 15,Bali United,2448,Persija Jakarta,2439,3,1,True
+1268689,2024-12-16T08:30:00+00:00,FT,Regular Season - 15,Persik Kediri,4241,Arema FC,2438,1,0,True
+1268690,2024-12-16T08:30:00+00:00,FT,Regular Season - 15,Persita,4244,Dewa United,17902,0,4,True
+1268691,2024-12-16T12:00:00+00:00,FT,Regular Season - 15,Persis Solo,4243,PSBS Biak Numfor,4232,1,1,True
+1268692,2024-12-17T08:30:00+00:00,FT,Regular Season - 15,Malut United,22409,PSM Makassar,2441,2,2,True
+1268693,2024-12-17T12:00:00+00:00,FT,Regular Season - 15,PSS Sleman,3882,PSIS Semarang,2451,2,1,True
+1268694,2024-12-18T12:00:00+00:00,FT,Regular Season - 15,Barito Putera,2453,Persib Bandung,2445,1,2,True
+1268695,2024-12-20T08:30:00+00:00,FT,Regular Season - 16,Persepam Madura Utd,2444,Bali United,2448,2,1,True
+1268696,2024-12-20T12:00:00+00:00,FT,Regular Season - 16,Persebaya Surabaya,2446,Pusamania Borneo,2442,2,1,True
+1268697,2024-12-21T08:30:00+00:00,FT,Regular Season - 16,Arema FC,2438,PSBS Biak Numfor,4232,3,2,True
+1268698,2024-12-21T08:30:00+00:00,FT,Regular Season - 16,Persik Kediri,4241,Semen Padang,2456,3,1,True
+1268700,2024-12-21T12:00:00+00:00,FT,Regular Season - 16,Persija Jakarta,2439,PSS Sleman,3882,3,1,True
+1268699,2024-12-21T12:00:00+00:00,FT,Regular Season - 16,Dewa United,17902,Persis Solo,4243,2,0,True
+1268702,2024-12-22T08:30:00+00:00,FT,Regular Season - 16,PSM Makassar,2441,Barito Putera,2453,3,2,True
+1268701,2024-12-22T08:30:00+00:00,FT,Regular Season - 16,PSIS Semarang,2451,Malut United,22409,1,3,True
+1268703,2024-12-22T12:00:00+00:00,FT,Regular Season - 16,Persib Bandung,2445,Persita,4244,3,1,True
+1268704,2024-12-27T08:30:00+00:00,FT,Regular Season - 17,Semen Padang,2456,Arema FC,2438,1,2,True
+1268705,2024-12-27T12:00:00+00:00,FT,Regular Season - 17,Pusamania Borneo,2442,Persik Kediri,4241,0,4,True
+1268706,2024-12-27T12:00:00+00:00,FT,Regular Season - 17,PSS Sleman,3882,Persepam Madura Utd,2444,4,0,True
+1268707,2024-12-28T08:30:00+00:00,FT,Regular Season - 17,PSBS Biak Numfor,4232,Dewa United,17902,3,1,True
+1268708,2024-12-28T08:30:00+00:00,FT,Regular Season - 17,Malut United,22409,Persija Jakarta,2439,0,1,True
+1268709,2024-12-28T12:00:00+00:00,FT,Regular Season - 17,Bali United,2448,Persebaya Surabaya,2446,2,0,True
+1268710,2024-12-29T08:30:00+00:00,FT,Regular Season - 17,Persita,4244,PSM Makassar,2441,2,1,True
+1268711,2024-12-29T12:00:00+00:00,FT,Regular Season - 17,Barito Putera,2453,PSIS Semarang,2451,0,0,True
+1268712,2024-12-29T12:00:00+00:00,FT,Regular Season - 17,Persis Solo,4243,Persib Bandung,2445,0,1,True
+1268660,2025-01-07T12:00:00+00:00,FT,Regular Season - 12,Bali United,2448,Persib Bandung,2445,1,1,True
+1268714,2025-01-10T08:30:00+00:00,FT,Regular Season - 18,Barito Putera,2453,Persija Jakarta,2439,2,3,True
+1268713,2025-01-10T08:30:00+00:00,FT,Regular Season - 18,Malut United,22409,Persepam Madura Utd,2444,0,1,True
+1268715,2025-01-11T06:30:00+00:00,FT,Regular Season - 18,PSBS Biak Numfor,4232,Persib Bandung,2445,1,1,True
+1268716,2025-01-11T08:30:00+00:00,FT,Regular Season - 18,PSS Sleman,3882,Persebaya Surabaya,2446,3,1,True
+1268717,2025-01-11T12:00:00+00:00,FT,Regular Season - 18,Dewa United,17902,Arema FC,2438,2,0,True
+1268718,2025-01-12T08:30:00+00:00,FT,Regular Season - 18,Persita,4244,PSIS Semarang,2451,2,1,True
+1268719,2025-01-12T12:00:00+00:00,FT,Regular Season - 18,Bali United,2448,Persik Kediri,4241,1,3,True
+1268720,2025-01-13T12:00:00+00:00,FT,Regular Season - 18,Persis Solo,4243,PSM Makassar,2441,0,1,True
+1268721,2025-01-14T12:00:00+00:00,FT,Regular Season - 18,Pusamania Borneo,2442,Semen Padang,2456,1,3,True
+1268722,2025-01-17T08:30:00+00:00,FT,Regular Season - 19,Persebaya Surabaya,2446,Malut United,22409,0,2,True
+1268723,2025-01-17T12:00:00+00:00,FT,Regular Season - 19,Persib Bandung,2445,Dewa United,17902,0,2,True
+1268724,2025-01-18T08:30:00+00:00,FT,Regular Season - 19,PSM Makassar,2441,PSBS Biak Numfor,4232,1,1,True
+1268725,2025-01-18T12:00:00+00:00,FT,Regular Season - 19,Persepam Madura Utd,2444,Barito Putera,2453,2,4,True
+1268727,2025-01-19T08:30:00+00:00,FT,Regular Season - 19,Pusamania Borneo,2442,Arema FC,2438,3,1,True
+1268726,2025-01-19T08:30:00+00:00,FT,Regular Season - 19,Persik Kediri,4241,PSS Sleman,3882,0,0,True
+1268728,2025-01-19T12:00:00+00:00,FT,Regular Season - 19,Persija Jakarta,2439,Persita,4244,2,0,True
+1268729,2025-01-20T08:30:00+00:00,FT,Regular Season - 19,Semen Padang,2456,Bali United,2448,1,5,True
+1268730,2025-01-20T12:00:00+00:00,FT,Regular Season - 19,PSIS Semarang,2451,Persis Solo,4243,1,2,True
+1268731,2025-01-24T08:30:00+00:00,FT,Regular Season - 20,Arema FC,2438,Persib Bandung,2445,1,3,True
+1268732,2025-01-24T12:00:00+00:00,FT,Regular Season - 20,Persita,4244,Persepam Madura Utd,2444,1,1,True
+1268733,2025-01-25T08:00:00+00:00,FT,Regular Season - 20,Malut United,22409,Persik Kediri,4241,2,1,True
+1268734,2025-01-25T12:00:00+00:00,FT,Regular Season - 20,Barito Putera,2453,Persebaya Surabaya,2446,3,0,True
+1268735,2025-01-26T06:30:00+00:00,FT,Regular Season - 20,PSBS Biak Numfor,4232,PSIS Semarang,2451,1,3,True
+1268736,2025-01-26T08:30:00+00:00,FT,Regular Season - 20,PSS Sleman,3882,Semen Padang,2456,2,4,True
+1268737,2025-01-26T12:00:00+00:00,FT,Regular Season - 20,Persis Solo,4243,Persija Jakarta,2439,3,3,True
+1268738,2025-01-27T08:30:00+00:00,FT,Regular Season - 20,Dewa United,17902,PSM Makassar,2441,3,2,True
+1268739,2025-01-28T12:00:00+00:00,FT,Regular Season - 20,Bali United,2448,Pusamania Borneo,2442,3,2,True
+1268740,2025-01-31T08:30:00+00:00,FT,Regular Season - 21,Persik Kediri,4241,Barito Putera,2453,1,1,True
+1268741,2025-01-31T12:00:00+00:00,FT,Regular Season - 21,Persebaya Surabaya,2446,Persita,4244,1,1,True
+1268742,2025-02-01T08:30:00+00:00,FT,Regular Season - 21,Persepam Madura Utd,2444,Persis Solo,4243,2,0,True
+1268743,2025-02-01T12:00:00+00:00,FT,Regular Season - 21,Persib Bandung,2445,PSM Makassar,2441,1,0,True
+1268744,2025-02-02T08:30:00+00:00,FT,Regular Season - 21,Pusamania Borneo,2442,PSS Sleman,3882,1,0,True
+1268745,2025-02-02T08:30:00+00:00,FT,Regular Season - 21,Semen Padang,2456,Malut United,22409,1,1,True
+1268746,2025-02-02T12:00:00+00:00,FT,Regular Season - 21,Persija Jakarta,2439,PSBS Biak Numfor,4232,2,2,True
+1268747,2025-02-03T08:30:00+00:00,FT,Regular Season - 21,Arema FC,2438,Bali United,2448,1,0,True
+1268748,2025-02-03T12:00:00+00:00,FT,Regular Season - 21,PSIS Semarang,2451,Dewa United,17902,1,4,True
+1268749,2025-02-07T08:30:00+00:00,FT,Regular Season - 22,Persita,4244,Persik Kediri,4241,1,0,True
+1268750,2025-02-07T12:00:00+00:00,FT,Regular Season - 22,Persis Solo,4243,Persebaya Surabaya,2446,2,1,True
+1268752,2025-02-08T08:30:00+00:00,FT,Regular Season - 22,Persepam Madura Utd,2444,PSBS Biak Numfor,4232,0,0,True
+1268751,2025-02-08T08:30:00+00:00,FT,Regular Season - 22,Barito Putera,2453,Semen Padang,2456,2,1,True
+1268753,2025-02-08T12:00:00+00:00,FT,Regular Season - 22,Dewa United,17902,Persija Jakarta,2439,2,1,True
+1268754,2025-02-09T08:30:00+00:00,FT,Regular Season - 22,PSS Sleman,3882,Bali United,2448,1,2,True
+1268755,2025-02-09T12:00:00+00:00,FT,Regular Season - 22,PSIS Semarang,2451,Persib Bandung,2445,0,1,True
+1268757,2025-02-10T08:30:00+00:00,FT,Regular Season - 22,Arema FC,2438,PSM Makassar,2441,1,1,True
+1268756,2025-02-10T12:00:00+00:00,FT,Regular Season - 22,Malut United,22409,Pusamania Borneo,2442,3,0,True
+1268758,2025-02-14T08:30:00+00:00,FT,Regular Season - 23,Semen Padang,2456,Persita,4244,2,0,True
+1268759,2025-02-14T12:00:00+00:00,FT,Regular Season - 23,Persik Kediri,4241,Persis Solo,4243,0,0,True
+1268760,2025-02-15T08:30:00+00:00,FT,Regular Season - 23,Persepam Madura Utd,2444,Dewa United,17902,3,1,True
+1268761,2025-02-15T12:00:00+00:00,FT,Regular Season - 23,Persebaya Surabaya,2446,PSBS Biak Numfor,4232,1,0,True
+1268762,2025-02-16T08:30:00+00:00,FT,Regular Season - 23,Persija Jakarta,2439,Persib Bandung,2445,2,2,True
+1268763,2025-02-16T08:30:00+00:00,FT,Regular Season - 23,Pusamania Borneo,2442,Barito Putera,2453,2,1,True
+1268764,2025-02-16T12:00:00+00:00,FT,Regular Season - 23,PSIS Semarang,2451,PSM Makassar,2441,1,1,True
+1268765,2025-02-17T08:30:00+00:00,FT,Regular Season - 23,Arema FC,2438,PSS Sleman,3882,6,2,True
+1268766,2025-02-17T12:00:00+00:00,FT,Regular Season - 23,Bali United,2448,Malut United,22409,1,1,True
+1268767,2025-02-21T08:30:00+00:00,FT,Regular Season - 24,PSBS Biak Numfor,4232,Persik Kediri,4241,1,1,True
+1268768,2025-02-21T08:30:00+00:00,FT,Regular Season - 24,Persis Solo,4243,Semen Padang,2456,1,1,True
+1268769,2025-02-21T12:00:00+00:00,FT,Regular Season - 24,Dewa United,17902,Persebaya Surabaya,2446,2,0,True
+1268770,2025-02-22T08:30:00+00:00,FT,Regular Season - 24,Persita,4244,Pusamania Borneo,2442,1,2,True
+1268771,2025-02-22T12:00:00+00:00,FT,Regular Season - 24,Persib Bandung,2445,Persepam Madura Utd,2444,0,0,True
+1268773,2025-02-23T08:30:00+00:00,FT,Regular Season - 24,PSM Makassar,2441,Persija Jakarta,2439,1,0,True
+1268772,2025-02-23T12:00:00+00:00,FT,Regular Season - 24,Malut United,22409,PSS Sleman,3882,1,0,True
+1268774,2025-02-24T08:30:00+00:00,FT,Regular Season - 24,Arema FC,2438,PSIS Semarang,2451,2,2,True
+1268775,2025-02-24T12:00:00+00:00,FT,Regular Season - 24,Barito Putera,2453,Bali United,2448,3,1,True
+1268778,2025-03-01T13:30:00+00:00,FT,Regular Season - 25,Persebaya Surabaya,2446,Persib Bandung,2445,4,1,True
+1268777,2025-03-01T13:30:00+00:00,FT,Regular Season - 25,Persik Kediri,4241,Dewa United,17902,1,2,True
+1268776,2025-03-01T14:00:00+00:00,FT,Regular Season - 25,Semen Padang,2456,PSBS Biak Numfor,4232,1,1,True
+1268779,2025-03-02T13:30:00+00:00,FT,Regular Season - 25,Pusamania Borneo,2442,Persis Solo,4243,0,1,True
+1268781,2025-03-02T13:30:00+00:00,FT,Regular Season - 25,Persepam Madura Utd,2444,PSM Makassar,2441,1,3,True
+1268780,2025-03-02T13:30:00+00:00,FT,Regular Season - 25,Bali United,2448,Persita,4244,1,1,True
+1268782,2025-03-03T13:30:00+00:00,FT,Regular Season - 25,PSS Sleman,3882,Barito Putera,2453,1,2,True
+1268783,2025-03-04T12:30:00+00:00,FT,Regular Season - 25,Malut United,22409,Arema FC,2438,2,1,True
+1268784,2025-03-05T13:30:00+00:00,FT,Regular Season - 25,Persija Jakarta,2439,PSIS Semarang,2451,2,0,True
+1268786,2025-03-05T13:30:00+00:00,FT,Regular Season - 26,Persib Bandung,2445,Persik Kediri,4241,4,1,True
+1268785,2025-03-05T13:30:00+00:00,FT,Regular Season - 26,Dewa United,17902,Semen Padang,2456,6,0,True
+1268787,2025-03-06T13:30:00+00:00,FT,Regular Season - 26,PSBS Biak Numfor,4232,Pusamania Borneo,2442,1,0,True
+1268788,2025-03-06T13:30:00+00:00,FT,Regular Season - 26,Persis Solo,4243,Bali United,2448,2,2,True
+1268789,2025-03-07T13:30:00+00:00,FT,Regular Season - 26,PSM Makassar,2441,Persebaya Surabaya,2446,0,1,True
+1268790,2025-03-07T13:30:00+00:00,FT,Regular Season - 26,Persita,4244,PSS Sleman,3882,1,2,True
+1268791,2025-03-08T13:30:00+00:00,FT,Regular Season - 26,Barito Putera,2453,Malut United,22409,1,1,True
+1268793,2025-03-09T13:30:00+00:00,FT,Regular Season - 26,Persija Jakarta,2439,Arema FC,2438,1,3,True
+1268794,2025-03-10T13:30:00+00:00,FT,Regular Season - 27,Dewa United,17902,Pusamania Borneo,2442,0,1,True
+1268795,2025-03-10T14:00:00+00:00,FT,Regular Season - 27,Semen Padang,2456,Persib Bandung,2445,1,4,True
+1268796,2025-03-11T13:30:00+00:00,FT,Regular Season - 27,Bali United,2448,PSBS Biak Numfor,4232,0,2,True
+1268797,2025-03-11T13:30:00+00:00,FT,Regular Season - 27,PSS Sleman,3882,Persis Solo,4243,1,4,True
+1268798,2025-03-11T13:30:00+00:00,FT,Regular Season - 27,Persik Kediri,4241,PSM Makassar,2441,2,2,True
+1268799,2025-03-12T12:30:00+00:00,FT,Regular Season - 27,Malut United,22409,Persita,4244,2,1,True
+1268800,2025-03-12T13:30:00+00:00,FT,Regular Season - 27,Persebaya Surabaya,2446,PSIS Semarang,2451,1,1,True
+1268802,2025-03-13T13:30:00+00:00,FT,Regular Season - 27,Arema FC,2438,Barito Putera,2453,4,2,True
+1268792,2025-03-16T13:30:00+00:00,FT,Regular Season - 26,PSIS Semarang,2451,Persepam Madura Utd,2444,1,2,True
+1268801,2025-04-06T12:00:00+00:00,FT,Regular Season - 27,Persepam Madura Utd,2444,Persija Jakarta,2439,1,0,True
+1268804,2025-04-10T08:30:00+00:00,FT,Regular Season - 28,PSM Makassar,2441,Semen Padang,2456,2,0,True
+1268805,2025-04-10T12:00:00+00:00,FT,Regular Season - 28,Bali United,2448,Dewa United,17902,0,0,True
+1268806,2025-04-11T08:30:00+00:00,FT,Regular Season - 28,PSIS Semarang,2451,Persik Kediri,4241,0,0,True
+1268803,2025-04-11T08:30:00+00:00,FT,Regular Season - 28,PSBS Biak Numfor,4232,PSS Sleman,3882,2,1,True
+1268807,2025-04-11T12:00:00+00:00,FT,Regular Season - 28,Pusamania Borneo,2442,Persib Bandung,2445,2,2,True
+1268808,2025-04-12T08:30:00+00:00,FT,Regular Season - 28,Persis Solo,4243,Malut United,22409,1,3,True
+1268809,2025-04-12T12:00:00+00:00,FT,Regular Season - 28,Persija Jakarta,2439,Persebaya Surabaya,2446,1,1,True
+1268810,2025-04-13T12:00:00+00:00,FT,Regular Season - 28,Persita,4244,Barito Putera,2453,2,1,True
+1268812,2025-04-17T08:30:00+00:00,FT,Regular Season - 29,Semen Padang,2456,PSIS Semarang,2451,3,2,True
+1268813,2025-04-17T12:00:00+00:00,FT,Regular Season - 29,PSS Sleman,3882,Dewa United,17902,0,1,True
+1268815,2025-04-18T08:30:00+00:00,FT,Regular Season - 29,Pusamania Borneo,2442,PSM Makassar,2441,1,1,True
+1268816,2025-04-18T12:00:00+00:00,FT,Regular Season - 29,Persib Bandung,2445,Bali United,2448,2,1,True
+1268814,2025-04-18T12:00:00+00:00,FT,Regular Season - 29,Malut United,22409,PSBS Biak Numfor,4232,1,1,True
+1268817,2025-04-19T12:00:00+00:00,FT,Regular Season - 29,Barito Putera,2453,Persis Solo,4243,0,1,True
+1268818,2025-04-19T12:00:00+00:00,FT,Regular Season - 29,Persik Kediri,4241,Persija Jakarta,2439,0,1,True
+1268819,2025-04-20T08:30:00+00:00,FT,Regular Season - 29,Persita,4244,Arema FC,2438,3,2,True
+1268820,2025-04-20T12:00:00+00:00,FT,Regular Season - 29,Persebaya Surabaya,2446,Persepam Madura Utd,2444,1,0,True
+1268811,2025-04-24T12:00:00+00:00,FT,Regular Season - 28,Arema FC,2438,Persepam Madura Utd,2444,0,1,True
+1268821,2025-04-25T08:30:00+00:00,FT,Regular Season - 30,PSIS Semarang,2451,Pusamania Borneo,2442,2,5,True
+1268822,2025-04-25T08:30:00+00:00,FT,Regular Season - 30,Dewa United,17902,Malut United,22409,1,2,True
+1268823,2025-04-25T12:00:00+00:00,FT,Regular Season - 30,PSM Makassar,2441,Bali United,2448,0,1,True
+1268824,2025-04-26T08:30:00+00:00,FT,Regular Season - 30,PSBS Biak Numfor,4232,Barito Putera,2453,2,1,True
+1268825,2025-04-26T12:00:00+00:00,FT,Regular Season - 30,Persib Bandung,2445,PSS Sleman,3882,3,0,True
+1268826,2025-04-27T08:30:00+00:00,FT,Regular Season - 30,Persis Solo,4243,Persita,4244,1,0,True
+1268827,2025-04-27T12:00:00+00:00,FT,Regular Season - 30,Persija Jakarta,2439,Semen Padang,2456,0,2,True
+1268828,2025-04-28T08:30:00+00:00,FT,Regular Season - 30,Arema FC,2438,Persebaya Surabaya,2446,1,1,True
+1268829,2025-04-28T12:00:00+00:00,FT,Regular Season - 30,Persepam Madura Utd,2444,Persik Kediri,4241,2,1,True
+1268830,2025-05-01T12:00:00+00:00,FT,Regular Season - 31,Bali United,2448,PSIS Semarang,2451,4,0,True
+1268832,2025-05-02T08:30:00+00:00,FT,Regular Season - 31,Barito Putera,2453,Dewa United,17902,1,1,True
+1268831,2025-05-02T12:00:00+00:00,FT,Regular Season - 31,Malut United,22409,Persib Bandung,2445,1,0,True
+1268833,2025-05-03T08:30:00+00:00,FT,Regular Season - 31,Persita,4244,PSBS Biak Numfor,4232,0,2,True
+1268834,2025-05-03T12:00:00+00:00,FT,Regular Season - 31,PSS Sleman,3882,PSM Makassar,2441,3,1,True
+1268835,2025-05-04T08:30:00+00:00,FT,Regular Season - 31,Semen Padang,2456,Persepam Madura Utd,2444,2,1,True
+1268836,2025-05-04T12:00:00+00:00,FT,Regular Season - 31,Pusamania Borneo,2442,Persija Jakarta,2439,1,0,True
+1268837,2025-05-05T08:30:00+00:00,FT,Regular Season - 31,Persik Kediri,4241,Persebaya Surabaya,2446,3,3,True
+1268838,2025-05-05T12:00:00+00:00,FT,Regular Season - 31,Persis Solo,4243,Arema FC,2438,0,1,True
+1268839,2025-05-09T08:30:00+00:00,FT,Regular Season - 32,PSIS Semarang,2451,PSS Sleman,3882,1,2,True
+1268840,2025-05-09T08:30:00+00:00,FT,Regular Season - 32,Dewa United,17902,Persita,4244,3,0,True
+1268841,2025-05-09T12:00:00+00:00,FT,Regular Season - 32,Persib Bandung,2445,Barito Putera,2453,1,1,True
+1268842,2025-05-10T08:30:00+00:00,FT,Regular Season - 32,PSM Makassar,2441,Malut United,22409,3,2,True
+1268843,2025-05-10T08:30:00+00:00,FT,Regular Season - 32,Persepam Madura Utd,2444,Pusamania Borneo,2442,2,3,True
+1268844,2025-05-10T12:00:00+00:00,FT,Regular Season - 32,Persija Jakarta,2439,Bali United,2448,3,0,True
+1268845,2025-05-11T06:30:00+00:00,FT,Regular Season - 32,PSBS Biak Numfor,4232,Persis Solo,4243,0,2,True
+1268846,2025-05-11T08:30:00+00:00,FT,Regular Season - 32,Arema FC,2438,Persik Kediri,4241,0,3,True
+1268847,2025-05-11T12:00:00+00:00,FT,Regular Season - 32,Persebaya Surabaya,2446,Semen Padang,2456,1,1,True
+1268849,2025-05-16T08:30:00+00:00,FT,Regular Season - 33,Persita,4244,Persib Bandung,2445,2,2,True
+1268848,2025-05-16T12:00:00+00:00,FT,Regular Season - 33,Malut United,22409,PSIS Semarang,2451,5,1,True
+1268851,2025-05-17T08:30:00+00:00,FT,Regular Season - 33,Bali United,2448,Persepam Madura Utd,2444,0,2,True
+1268850,2025-05-17T08:30:00+00:00,FT,Regular Season - 33,Barito Putera,2453,PSM Makassar,2441,1,4,True
+1268852,2025-05-17T12:00:00+00:00,FT,Regular Season - 33,PSS Sleman,3882,Persija Jakarta,2439,2,1,True
+1268853,2025-05-17T12:00:00+00:00,FT,Regular Season - 33,Persis Solo,4243,Dewa United,17902,1,1,True
+1268854,2025-05-18T06:30:00+00:00,FT,Regular Season - 33,PSBS Biak Numfor,4232,Arema FC,2438,2,2,True
+1268855,2025-05-18T08:30:00+00:00,FT,Regular Season - 33,Semen Padang,2456,Persik Kediri,4241,1,1,True
+1268856,2025-05-18T12:00:00+00:00,FT,Regular Season - 33,Pusamania Borneo,2442,Persebaya Surabaya,2446,1,1,True
+1268857,2025-05-23T08:30:00+00:00,FT,Regular Season - 34,Persik Kediri,4241,Pusamania Borneo,2442,1,2,True
+1268859,2025-05-23T12:00:00+00:00,FT,Regular Season - 34,Persija Jakarta,2439,Malut United,22409,0,0,True
+1268862,2025-05-23T12:00:00+00:00,FT,Regular Season - 34,PSM Makassar,2441,Persita,4244,1,0,True
+1268858,2025-05-23T12:00:00+00:00,FT,Regular Season - 34,Persebaya Surabaya,2446,Bali United,2448,1,3,True
+1268863,2025-05-23T12:00:00+00:00,FT,Regular Season - 34,Dewa United,17902,PSBS Biak Numfor,4232,4,0,True
+1268860,2025-05-24T09:00:00+00:00,FT,Regular Season - 34,Arema FC,2438,Semen Padang,2456,0,2,True
+1268864,2025-05-24T09:00:00+00:00,FT,Regular Season - 34,Persepam Madura Utd,2444,PSS Sleman,3882,0,3,True
+1268865,2025-05-24T09:00:00+00:00,FT,Regular Season - 34,Persib Bandung,2445,Persis Solo,4243,3,2,True
+1268861,2025-05-24T09:00:00+00:00,FT,Regular Season - 34,PSIS Semarang,2451,Barito Putera,2453,1,2,True

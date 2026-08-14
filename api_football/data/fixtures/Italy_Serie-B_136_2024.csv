@@ -1,191 +1,391 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1234837,2025-01-12T11:30:00+00:00,FT,Salernitana,514,Sassuolo,488,1,2,True
-1234833,2025-01-12T14:00:00+00:00,FT,Frosinone,512,Cremonese,520,0,3,True
-1234838,2025-01-12T14:00:00+00:00,FT,Spezia,515,Juve Stabia,863,1,1,True
-1234834,2025-01-12T14:00:00+00:00,FT,Palermo,522,Modena,899,2,0,True
-1234836,2025-01-12T14:00:00+00:00,FT,Reggiana,880,Bari,508,0,0,True
-1234839,2025-01-12T14:00:00+00:00,FT,Sudtirol,1578,Catanzaro,1687,1,1,True
-1234832,2025-01-12T14:00:00+00:00,FT,Cosenza,10137,Mantova,1693,2,2,True
-1234831,2025-01-12T16:15:00+00:00,FT,Cesena,509,Cittadella,510,0,0,True
-1234830,2025-01-12T18:30:00+00:00,FT,Brescia,518,Sampdoria,498,1,1,True
-1234835,2025-01-13T19:30:00+00:00,FT,Pisa,801,Carrarese,1581,2,1,True
-1234848,2025-01-17T19:30:00+00:00,FT,Sampdoria,498,Cesena,509,1,2,True
-1234843,2025-01-18T14:00:00+00:00,FT,Cittadella,510,Mantova,1693,1,2,True
-1234847,2025-01-18T14:00:00+00:00,FT,Salernitana,514,Reggiana,880,2,1,True
-1234844,2025-01-18T14:00:00+00:00,FT,Cremonese,520,Cosenza,10137,3,1,True
-1234845,2025-01-18T14:00:00+00:00,FT,Modena,899,Frosinone,512,1,1,True
-1234840,2025-01-18T16:15:00+00:00,FT,Bari,508,Brescia,518,2,2,True
-1234849,2025-01-19T14:00:00+00:00,FT,Sassuolo,488,Sudtirol,1578,5,3,True
-1234846,2025-01-19T14:00:00+00:00,FT,Palermo,522,Juve Stabia,863,1,0,True
-1234842,2025-01-19T14:00:00+00:00,FT,Catanzaro,1687,Pisa,801,0,0,True
-1234841,2025-01-19T16:15:00+00:00,FT,Carrarese,1581,Spezia,515,0,4,True
-1234859,2025-01-24T19:30:00+00:00,FT,Spezia,515,Sassuolo,488,2,1,True
-1234851,2025-01-25T14:00:00+00:00,FT,Cesena,509,Bari,508,1,1,True
-1234854,2025-01-25T14:00:00+00:00,FT,Frosinone,512,Sudtirol,1578,0,3,True
-1234855,2025-01-25T14:00:00+00:00,FT,Juve Stabia,863,Carrarese,1581,2,1,True
-1234852,2025-01-25T14:00:00+00:00,FT,Cosenza,10137,Cittadella,510,0,1,True
-1234856,2025-01-25T16:15:00+00:00,FT,Mantova,1693,Sampdoria,498,2,2,True
-1234850,2025-01-26T14:00:00+00:00,FT,Brescia,518,Catanzaro,1687,2,3,True
-1234857,2025-01-26T14:00:00+00:00,FT,Pisa,801,Salernitana,514,1,0,True
-1234858,2025-01-26T14:00:00+00:00,FT,Reggiana,880,Palermo,522,2,1,True
-1234853,2025-01-26T16:15:00+00:00,FT,Cremonese,520,Modena,899,2,2,True
-1234865,2025-01-31T19:30:00+00:00,FT,Palermo,522,Pisa,801,1,2,True
-1234868,2025-02-01T14:00:00+00:00,FT,Sassuolo,488,Juve Stabia,863,2,0,True
-1234867,2025-02-01T14:00:00+00:00,FT,Sampdoria,498,Cosenza,10137,1,0,True
-1234863,2025-02-01T14:00:00+00:00,FT,Cittadella,510,Spezia,515,0,2,True
-1234862,2025-02-01T14:00:00+00:00,FT,Catanzaro,1687,Cesena,509,4,2,True
-1234864,2025-02-01T16:15:00+00:00,FT,Modena,899,Mantova,1693,3,1,True
-1234866,2025-02-02T14:00:00+00:00,FT,Salernitana,514,Cremonese,520,1,0,True
-1234869,2025-02-02T14:00:00+00:00,FT,Sudtirol,1578,Reggiana,880,2,0,True
-1234861,2025-02-02T14:00:00+00:00,FT,Carrarese,1581,Brescia,518,1,2,True
-1234860,2025-02-02T16:15:00+00:00,FT,Bari,508,Frosinone,512,2,1,True
-1234870,2025-02-07T19:30:00+00:00,FT,Brescia,518,Salernitana,514,0,0,True
-1234873,2025-02-08T14:00:00+00:00,FT,Frosinone,512,Catanzaro,1687,1,1,True
-1234876,2025-02-08T14:00:00+00:00,FT,Pisa,801,Cittadella,510,0,1,True
-1234875,2025-02-08T14:00:00+00:00,FT,Mantova,1693,Sassuolo,488,0,3,True
-1234871,2025-02-08T14:00:00+00:00,FT,Cosenza,10137,Carrarese,1581,1,0,True
-1234878,2025-02-08T16:15:00+00:00,FT,Sampdoria,498,Modena,899,1,0,True
-1234879,2025-02-09T14:00:00+00:00,FT,Spezia,515,Palermo,522,2,2,True
-1234872,2025-02-09T14:00:00+00:00,FT,Cremonese,520,Sudtirol,1578,3,1,True
-1234877,2025-02-09T14:00:00+00:00,FT,Reggiana,880,Cesena,509,0,1,True
-1234874,2025-02-09T16:15:00+00:00,FT,Juve Stabia,863,Bari,508,3,1,True
-1234882,2025-02-14T19:30:00+00:00,FT,Catanzaro,1687,Cittadella,510,1,0,True
-1234888,2025-02-15T14:00:00+00:00,FT,Sassuolo,488,Brescia,518,2,0,True
-1234886,2025-02-15T14:00:00+00:00,FT,Modena,899,Spezia,515,1,1,True
-1234889,2025-02-15T14:00:00+00:00,FT,Sudtirol,1578,Sampdoria,498,2,1,True
-1234881,2025-02-15T14:00:00+00:00,FT,Carrarese,1581,Salernitana,514,3,2,True
-1234880,2025-02-15T16:15:00+00:00,FT,Bari,508,Cremonese,520,1,1,True
-1234884,2025-02-16T14:00:00+00:00,FT,Frosinone,512,Reggiana,880,1,1,True
-1234887,2025-02-16T14:00:00+00:00,FT,Palermo,522,Mantova,1693,2,2,True
-1234885,2025-02-16T14:00:00+00:00,FT,Juve Stabia,863,Cosenza,10137,3,0,True
-1234883,2025-02-16T16:15:00+00:00,FT,Cesena,509,Pisa,801,1,1,True
-1234898,2025-02-21T19:30:00+00:00,FT,Sampdoria,498,Sassuolo,488,0,0,True
-1234891,2025-02-22T14:00:00+00:00,FT,Cittadella,510,Modena,899,0,2,True
-1234895,2025-02-22T14:00:00+00:00,FT,Pisa,801,Juve Stabia,863,3,1,True
-1234896,2025-02-22T14:00:00+00:00,FT,Reggiana,880,Carrarese,1581,2,2,True
-1234894,2025-02-22T14:00:00+00:00,FT,Mantova,1693,Bari,508,0,1,True
-1234893,2025-02-22T16:15:00+00:00,FT,Cremonese,520,Cesena,509,1,2,True
-1234899,2025-02-23T14:00:00+00:00,FT,Spezia,515,Catanzaro,1687,0,1,True
-1234890,2025-02-23T14:00:00+00:00,FT,Brescia,518,Sudtirol,1578,0,0,True
-1234892,2025-02-23T14:00:00+00:00,FT,Cosenza,10137,Palermo,522,0,3,True
-1234897,2025-02-23T16:15:00+00:00,FT,Salernitana,514,Frosinone,512,1,1,True
-1234909,2025-02-28T18:30:00+00:00,FT,Sudtirol,1578,Spezia,515,1,1,True
-1234903,2025-03-01T14:00:00+00:00,FT,Cesena,509,Salernitana,514,2,0,True
-1234904,2025-03-01T14:00:00+00:00,FT,Frosinone,512,Mantova,1693,2,1,True
-1234905,2025-03-01T14:00:00+00:00,FT,Juve Stabia,863,Cittadella,510,0,1,True
-1234901,2025-03-01T14:00:00+00:00,FT,Carrarese,1581,Cremonese,520,2,2,True
-1234908,2025-03-01T16:15:00+00:00,FT,Sassuolo,488,Pisa,801,1,0,True
-1234907,2025-03-02T14:00:00+00:00,FT,Palermo,522,Brescia,518,1,0,True
-1234906,2025-03-02T14:00:00+00:00,FT,Modena,899,Cosenza,10137,1,1,True
-1234902,2025-03-02T14:00:00+00:00,FT,Catanzaro,1687,Reggiana,880,1,1,True
-1234900,2025-03-02T16:15:00+00:00,FT,Bari,508,Sampdoria,498,1,1,True
-1234913,2025-03-07T19:30:00+00:00,FT,Cosenza,10137,Reggiana,880,1,0,True
-1234916,2025-03-08T14:00:00+00:00,FT,Salernitana,514,Modena,899,1,0,True
-1234914,2025-03-08T14:00:00+00:00,FT,Cremonese,520,Catanzaro,1687,4,0,True
-1234911,2025-03-08T14:00:00+00:00,FT,Carrarese,1581,Frosinone,512,0,1,True
-1234915,2025-03-08T14:00:00+00:00,FT,Mantova,1693,Juve Stabia,863,1,1,True
-1234917,2025-03-08T16:15:00+00:00,FT,Sampdoria,498,Palermo,522,1,1,True
-1234910,2025-03-08T18:30:00+00:00,FT,Brescia,518,Cesena,509,1,1,True
-1234918,2025-03-09T14:00:00+00:00,FT,Sassuolo,488,Bari,508,1,1,True
-1234919,2025-03-09T14:00:00+00:00,FT,Spezia,515,Pisa,801,3,2,True
-1234912,2025-03-09T16:15:00+00:00,FT,Cittadella,510,Sudtirol,1578,1,5,True
-1234926,2025-03-14T19:30:00+00:00,FT,Palermo,522,Cremonese,520,2,3,True
-1234922,2025-03-15T14:00:00+00:00,FT,Cesena,509,Spezia,515,0,0,True
-1234923,2025-03-15T14:00:00+00:00,FT,Cittadella,510,Sassuolo,488,1,2,True
-1234924,2025-03-15T14:00:00+00:00,FT,Frosinone,512,Brescia,518,2,1,True
-1234925,2025-03-15T14:00:00+00:00,FT,Juve Stabia,863,Modena,899,2,1,True
-1234920,2025-03-15T18:30:00+00:00,FT,Bari,508,Salernitana,514,0,0,True
-1234927,2025-03-16T14:00:00+00:00,FT,Pisa,801,Mantova,1693,3,1,True
-1234928,2025-03-16T14:00:00+00:00,FT,Reggiana,880,Sampdoria,498,2,2,True
-1234929,2025-03-16T14:00:00+00:00,FT,Sudtirol,1578,Carrarese,1581,2,2,True
-1234921,2025-03-16T16:15:00+00:00,FT,Catanzaro,1687,Cosenza,10137,4,0,True
-1234939,2025-03-28T19:30:00+00:00,FT,Spezia,515,Brescia,518,0,1,True
-1234937,2025-03-29T14:00:00+00:00,FT,Sampdoria,498,Frosinone,512,0,3,True
-1234935,2025-03-29T14:00:00+00:00,FT,Modena,899,Catanzaro,1687,2,1,True
-1234934,2025-03-29T14:00:00+00:00,FT,Mantova,1693,Sudtirol,1578,2,0,True
-1234932,2025-03-29T14:00:00+00:00,FT,Cosenza,10137,Pisa,801,0,3,True
-1234933,2025-03-29T16:15:00+00:00,FT,Cremonese,520,Cittadella,510,2,2,True
-1234938,2025-03-29T18:30:00+00:00,FT,Sassuolo,488,Reggiana,880,5,1,True
-1234931,2025-03-30T13:00:00+00:00,FT,Cesena,509,Juve Stabia,863,1,2,True
-1234930,2025-03-30T13:00:00+00:00,FT,Carrarese,1581,Bari,508,2,1,True
-1234936,2025-03-30T15:15:00+00:00,FT,Salernitana,514,Palermo,522,1,2,True
-1234947,2025-04-04T18:30:00+00:00,FT,Reggiana,880,Cremonese,520,1,2,True
-1234942,2025-04-05T13:00:00+00:00,FT,Cittadella,510,Carrarese,1581,0,0,True
-1234943,2025-04-05T13:00:00+00:00,FT,Frosinone,512,Cosenza,10137,2,2,True
-1234940,2025-04-05T13:00:00+00:00,FT,Brescia,518,Mantova,1693,1,2,True
-1234949,2025-04-05T13:00:00+00:00,FT,Sudtirol,1578,Cesena,509,1,1,True
-1234946,2025-04-05T15:15:00+00:00,FT,Pisa,801,Modena,899,1,2,True
-1234944,2025-04-05T17:30:00+00:00,FT,Juve Stabia,863,Salernitana,514,1,0,True
-1234945,2025-04-06T13:00:00+00:00,FT,Palermo,522,Sassuolo,488,5,3,True
-1234941,2025-04-06T13:00:00+00:00,FT,Catanzaro,1687,Bari,508,3,3,True
-1234948,2025-04-06T15:15:00+00:00,FT,Spezia,515,Sampdoria,498,2,0,True
-1234950,2025-04-11T18:30:00+00:00,FT,Bari,508,Palermo,522,2,1,True
-1234958,2025-04-12T13:00:00+00:00,FT,Salernitana,514,Sudtirol,1578,2,1,True
-1234957,2025-04-12T13:00:00+00:00,FT,Reggiana,880,Pisa,801,0,2,True
-1234951,2025-04-12T13:00:00+00:00,FT,Carrarese,1581,Catanzaro,1687,2,2,True
-1234953,2025-04-12T13:00:00+00:00,FT,Cosenza,10137,Brescia,518,1,1,True
-1234959,2025-04-12T15:15:00+00:00,FT,Sampdoria,498,Cittadella,510,1,0,True
-1234956,2025-04-12T17:30:00+00:00,FT,Modena,899,Sassuolo,488,1,3,True
-1234952,2025-04-13T13:00:00+00:00,FT,Cesena,509,Frosinone,512,1,1,True
-1234954,2025-04-13T13:00:00+00:00,FT,Cremonese,520,Juve Stabia,863,1,1,True
-1234955,2025-04-13T15:15:00+00:00,FT,Mantova,1693,Spezia,515,2,2,True
-1234976,2025-04-25T10:30:00+00:00,FT,Frosinone,512,Spezia,515,2,2,True
-1234970,2025-04-25T13:00:00+00:00,FT,Bari,508,Modena,899,1,2,True
-1234978,2025-04-25T13:00:00+00:00,FT,Salernitana,514,Cosenza,10137,3,1,True
-1234971,2025-04-25T13:00:00+00:00,FT,Brescia,518,Pisa,801,1,2,True
-1234977,2025-04-25T13:00:00+00:00,FT,Reggiana,880,Cittadella,510,2,1,True
-1234972,2025-04-25T13:00:00+00:00,FT,Carrarese,1581,Sampdoria,498,1,0,True
-1234975,2025-04-25T16:00:00+00:00,FT,Cremonese,520,Mantova,1693,4,2,True
-1234974,2025-04-25T18:30:00+00:00,FT,Cesena,509,Sassuolo,488,0,2,True
-1234979,2025-04-27T13:00:00+00:00,FT,Sudtirol,1578,Juve Stabia,863,2,0,True
-1234973,2025-04-27T13:00:00+00:00,FT,Catanzaro,1687,Palermo,522,1,3,True
-1234982,2025-05-01T10:30:00+00:00,FT,Juve Stabia,863,Catanzaro,1687,2,0,True
-1234987,2025-05-01T13:00:00+00:00,FT,Sampdoria,498,Cremonese,520,0,0,True
-1234989,2025-05-01T13:00:00+00:00,FT,Spezia,515,Salernitana,514,2,0,True
-1234985,2025-05-01T13:00:00+00:00,FT,Palermo,522,Sudtirol,1578,1,2,True
-1234986,2025-05-01T13:00:00+00:00,FT,Pisa,801,Frosinone,512,1,0,True
-1234984,2025-05-01T13:00:00+00:00,FT,Modena,899,Reggiana,880,2,3,True
-1234983,2025-05-01T13:00:00+00:00,FT,Mantova,1693,Cesena,509,3,0,True
-1234981,2025-05-01T13:00:00+00:00,FT,Cosenza,10137,Bari,508,1,0,True
-1234980,2025-05-01T15:15:00+00:00,FT,Cittadella,510,Brescia,518,0,1,True
-1234988,2025-05-01T17:30:00+00:00,FT,Sassuolo,488,Carrarese,1581,2,0,True
-1234990,2025-05-04T13:00:00+00:00,FT,Bari,508,Pisa,801,1,0,True
-1234994,2025-05-04T13:00:00+00:00,FT,Cesena,509,Palermo,522,2,1,True
-1234996,2025-05-04T13:00:00+00:00,FT,Frosinone,512,Cittadella,510,1,1,True
-1234998,2025-05-04T13:00:00+00:00,FT,Salernitana,514,Mantova,1693,2,0,True
-1234991,2025-05-04T13:00:00+00:00,FT,Brescia,518,Juve Stabia,863,0,0,True
-1234997,2025-05-04T13:00:00+00:00,FT,Reggiana,880,Spezia,515,2,1,True
-1234999,2025-05-04T13:00:00+00:00,FT,Sudtirol,1578,Cosenza,10137,2,1,True
-1234992,2025-05-04T13:00:00+00:00,FT,Carrarese,1581,Modena,899,2,1,True
-1234993,2025-05-04T13:00:00+00:00,FT,Catanzaro,1687,Sampdoria,498,2,2,True
-1234995,2025-05-04T17:30:00+00:00,FT,Cremonese,520,Sassuolo,488,1,1,True
-1235008,2025-05-09T18:30:00+00:00,FT,Sassuolo,488,Catanzaro,1687,0,2,True
-1235007,2025-05-09T18:30:00+00:00,FT,Sampdoria,498,Salernitana,514,1,0,True
-1235000,2025-05-09T18:30:00+00:00,FT,Cittadella,510,Bari,508,3,1,True
-1235009,2025-05-09T18:30:00+00:00,FT,Spezia,515,Cremonese,520,2,3,True
-1235005,2025-05-09T18:30:00+00:00,FT,Palermo,522,Frosinone,512,2,0,True
-1235006,2025-05-09T18:30:00+00:00,FT,Pisa,801,Sudtirol,1578,3,3,True
-1235002,2025-05-09T18:30:00+00:00,FT,Juve Stabia,863,Reggiana,880,1,2,True
-1235004,2025-05-09T18:30:00+00:00,FT,Modena,899,Brescia,518,2,2,True
-1235003,2025-05-09T18:30:00+00:00,FT,Mantova,1693,Carrarese,1581,2,1,True
-1235001,2025-05-09T18:30:00+00:00,FT,Cosenza,10137,Cesena,509,0,1,True
-1234967,2025-05-13T18:30:00+00:00,FT,Sassuolo,488,Frosinone,512,0,1,True
-1234961,2025-05-13T18:30:00+00:00,FT,Cittadella,510,Salernitana,514,0,2,True
-1234968,2025-05-13T18:30:00+00:00,FT,Spezia,515,Cosenza,10137,3,1,True
-1234960,2025-05-13T18:30:00+00:00,FT,Brescia,518,Reggiana,880,2,1,True
-1234965,2025-05-13T18:30:00+00:00,FT,Palermo,522,Carrarese,1581,1,1,True
-1234966,2025-05-13T18:30:00+00:00,FT,Pisa,801,Cremonese,520,2,1,True
-1234962,2025-05-13T18:30:00+00:00,FT,Juve Stabia,863,Sampdoria,498,0,0,True
-1234964,2025-05-13T18:30:00+00:00,FT,Modena,899,Cesena,509,0,1,True
-1234969,2025-05-13T18:30:00+00:00,FT,Sudtirol,1578,Bari,508,0,0,True
-1234963,2025-05-13T18:30:00+00:00,FT,Mantova,1693,Catanzaro,1687,0,0,True
-1375443,2025-05-17T15:15:00+00:00,FT,Catanzaro,1687,Cesena,509,1,0,True
-1375444,2025-05-17T17:30:00+00:00,FT,Juve Stabia,863,Palermo,522,1,0,True
-1375818,2025-05-21T18:30:00+00:00,FT,Juve Stabia,863,Cremonese,520,2,1,True
-1375820,2025-05-21T18:30:00+00:00,FT,Catanzaro,1687,Spezia,515,0,2,True
-1375819,2025-05-25T15:15:00+00:00,FT,Cremonese,520,Juve Stabia,863,3,0,True
-1375821,2025-05-25T17:30:00+00:00,FT,Spezia,515,Catanzaro,1687,2,1,True
-1376535,2025-05-29T18:30:00+00:00,FT,Cremonese,520,Spezia,515,0,0,True
-1376536,2025-06-01T18:30:00+00:00,FT,Spezia,515,Cremonese,520,2,3,True
-1375442,2025-06-15T18:30:00+00:00,FT,Sampdoria,498,Salernitana,514,2,0,True
-1375441,2025-06-22T18:30:00+00:00,AWD,Salernitana,514,Sampdoria,498,0,3,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1234631,2024-08-16T18:30:00+00:00,FT,Regular Season - 1,Brescia,518,Palermo,522,1,0,True
+1234630,2024-08-17T18:30:00+00:00,FT,Regular Season - 1,Bari,508,Juve Stabia,863,1,3,True
+1234638,2024-08-17T18:30:00+00:00,FT,Regular Season - 1,Salernitana,514,Cittadella,510,2,1,True
+1234636,2024-08-17T18:30:00+00:00,FT,Regular Season - 1,Pisa,801,Spezia,515,2,2,True
+1234639,2024-08-17T18:30:00+00:00,FT,Regular Season - 1,Sudtirol,1578,Modena,899,2,1,True
+1234633,2024-08-18T18:30:00+00:00,FT,Regular Season - 1,Cesena,509,Carrarese,1581,2,1,True
+1234635,2024-08-18T18:30:00+00:00,FT,Regular Season - 1,Frosinone,512,Sampdoria,498,2,2,True
+1234637,2024-08-18T18:30:00+00:00,FT,Regular Season - 1,Reggiana,880,Mantova,1693,2,2,True
+1234632,2024-08-18T18:30:00+00:00,FT,Regular Season - 1,Catanzaro,1687,Sassuolo,488,1,1,True
+1234634,2024-08-18T18:30:00+00:00,FT,Regular Season - 1,Cosenza,10137,Cremonese,520,1,0,True
+1234644,2024-08-23T18:30:00+00:00,FT,Regular Season - 2,Modena,899,Bari,508,2,1,True
+1234649,2024-08-24T17:30:00+00:00,FT,Regular Season - 2,Sudtirol,1578,Salernitana,514,3,2,True
+1234647,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,Sassuolo,488,Cesena,509,2,1,True
+1234646,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,Sampdoria,498,Reggiana,880,0,1,True
+1234648,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,Spezia,515,Frosinone,512,2,1,True
+1234640,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,Brescia,518,Cittadella,510,0,1,True
+1234642,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,Cremonese,520,Carrarese,1581,1,0,True
+1234645,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,Pisa,801,Palermo,522,2,0,True
+1234641,2024-08-25T18:30:00+00:00,FT,Regular Season - 2,Catanzaro,1687,Juve Stabia,863,0,0,True
+1234643,2024-08-25T18:30:00+00:00,FT,Regular Season - 2,Mantova,1693,Cosenza,10137,3,2,True
+1234650,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Bari,508,Sassuolo,488,1,1,True
+1234653,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Cittadella,510,Pisa,801,1,1,True
+1234656,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Frosinone,512,Modena,899,1,1,True
+1234659,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Salernitana,514,Sampdoria,498,3,2,True
+1234655,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Cremonese,520,Palermo,522,0,1,True
+1234658,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Reggiana,880,Brescia,518,2,0,True
+1234651,2024-08-27T18:30:00+00:00,FT,Regular Season - 3,Carrarese,1581,Sudtirol,1578,2,0,True
+1234652,2024-08-28T18:30:00+00:00,FT,Regular Season - 3,Cesena,509,Catanzaro,1687,2,0,True
+1234657,2024-08-28T18:30:00+00:00,FT,Regular Season - 3,Juve Stabia,863,Mantova,1693,1,0,True
+1234654,2024-08-28T18:30:00+00:00,FT,Regular Season - 3,Cosenza,10137,Spezia,515,0,0,True
+1234666,2024-08-31T16:00:00+00:00,FT,Regular Season - 4,Sampdoria,498,Bari,508,0,0,True
+1234667,2024-08-31T18:30:00+00:00,FT,Regular Season - 4,Sassuolo,488,Cremonese,520,1,4,True
+1234665,2024-08-31T18:30:00+00:00,FT,Regular Season - 4,Pisa,801,Reggiana,880,2,1,True
+1234663,2024-08-31T18:30:00+00:00,FT,Regular Season - 4,Modena,899,Cittadella,510,0,1,True
+1234669,2024-08-31T18:30:00+00:00,FT,Regular Season - 4,Sudtirol,1578,Brescia,518,1,2,True
+1234661,2024-09-01T18:30:00+00:00,FT,Regular Season - 4,Frosinone,512,Juve Stabia,863,0,0,True
+1234668,2024-09-01T18:30:00+00:00,FT,Regular Season - 4,Spezia,515,Cesena,509,2,1,True
+1234664,2024-09-01T18:30:00+00:00,FT,Regular Season - 4,Palermo,522,Cosenza,10137,1,1,True
+1234660,2024-09-01T18:30:00+00:00,FT,Regular Season - 4,Catanzaro,1687,Carrarese,1581,3,1,True
+1234662,2024-09-01T18:30:00+00:00,FT,Regular Season - 4,Mantova,1693,Salernitana,514,1,0,True
+1234673,2024-09-13T18:30:00+00:00,FT,Regular Season - 5,Cesena,509,Modena,899,2,2,True
+1234670,2024-09-14T13:00:00+00:00,FT,Regular Season - 5,Bari,508,Mantova,1693,2,0,True
+1234674,2024-09-14T13:00:00+00:00,FT,Regular Season - 5,Cittadella,510,Catanzaro,1687,0,0,True
+1234671,2024-09-14T13:00:00+00:00,FT,Regular Season - 5,Brescia,518,Frosinone,512,4,0,True
+1234676,2024-09-14T13:00:00+00:00,FT,Regular Season - 5,Cremonese,520,Spezia,515,1,1,True
+1234677,2024-09-14T13:00:00+00:00,FT,Regular Season - 5,Juve Stabia,863,Palermo,522,1,3,True
+1234679,2024-09-15T13:00:00+00:00,FT,Regular Season - 5,Salernitana,514,Pisa,801,2,3,True
+1234678,2024-09-15T13:00:00+00:00,FT,Regular Season - 5,Reggiana,880,Sudtirol,1578,1,3,True
+1234672,2024-09-15T13:00:00+00:00,FT,Regular Season - 5,Carrarese,1581,Sassuolo,488,0,2,True
+1234675,2024-09-15T13:00:00+00:00,FT,Regular Season - 5,Cosenza,10137,Sampdoria,498,2,1,True
+1234680,2024-09-20T18:30:00+00:00,FT,Regular Season - 6,Catanzaro,1687,Cremonese,520,1,2,True
+1234688,2024-09-21T13:00:00+00:00,FT,Regular Season - 6,Sampdoria,498,Sudtirol,1578,1,0,True
+1234685,2024-09-21T13:00:00+00:00,FT,Regular Season - 6,Palermo,522,Cesena,509,0,0,True
+1234686,2024-09-21T13:00:00+00:00,FT,Regular Season - 6,Pisa,801,Brescia,518,2,1,True
+1234687,2024-09-21T13:00:00+00:00,FT,Regular Season - 6,Reggiana,880,Salernitana,514,0,0,True
+1234681,2024-09-21T13:00:00+00:00,FT,Regular Season - 6,Cosenza,10137,Sassuolo,488,0,1,True
+1234684,2024-09-21T16:00:00+00:00,FT,Regular Season - 6,Modena,899,Juve Stabia,863,3,0,True
+1234682,2024-09-22T13:00:00+00:00,FT,Regular Season - 6,Frosinone,512,Bari,508,0,3,True
+1234689,2024-09-22T13:00:00+00:00,FT,Regular Season - 6,Spezia,515,Carrarese,1581,4,2,True
+1234683,2024-09-22T13:00:00+00:00,FT,Regular Season - 6,Mantova,1693,Cittadella,510,1,0,True
+1234694,2024-09-27T18:30:00+00:00,FT,Regular Season - 7,Cittadella,510,Frosinone,512,1,2,True
+1234698,2024-09-28T13:00:00+00:00,FT,Regular Season - 7,Sassuolo,488,Spezia,515,0,0,True
+1234690,2024-09-28T13:00:00+00:00,FT,Regular Season - 7,Bari,508,Cosenza,10137,1,1,True
+1234692,2024-09-28T13:00:00+00:00,FT,Regular Season - 7,Carrarese,1581,Reggiana,880,0,0,True
+1234693,2024-09-29T13:00:00+00:00,FT,Regular Season - 7,Cesena,509,Mantova,1693,4,2,True
+1234697,2024-09-29T13:00:00+00:00,FT,Regular Season - 7,Salernitana,514,Catanzaro,1687,0,0,True
+1234695,2024-09-29T13:00:00+00:00,FT,Regular Season - 7,Juve Stabia,863,Pisa,801,2,0,True
+1234696,2024-09-29T13:00:00+00:00,FT,Regular Season - 7,Modena,899,Sampdoria,498,1,3,True
+1234699,2024-09-30T17:30:00+00:00,FT,Regular Season - 7,Sudtirol,1578,Palermo,522,1,3,True
+1234691,2024-09-30T18:30:00+00:00,FT,Regular Season - 7,Brescia,518,Cremonese,520,3,2,True
+1234707,2024-10-04T18:30:00+00:00,FT,Regular Season - 8,Sampdoria,498,Juve Stabia,863,1,2,True
+1234708,2024-10-05T13:00:00+00:00,FT,Regular Season - 8,Sassuolo,488,Cittadella,510,6,1,True
+1234703,2024-10-05T13:00:00+00:00,FT,Regular Season - 8,Frosinone,512,Carrarese,1581,0,1,True
+1234709,2024-10-05T13:00:00+00:00,FT,Regular Season - 8,Spezia,515,Reggiana,880,1,0,True
+1234706,2024-10-05T13:00:00+00:00,FT,Regular Season - 8,Pisa,801,Cesena,509,3,1,True
+1234702,2024-10-06T13:00:00+00:00,FT,Regular Season - 8,Cremonese,520,Bari,508,1,1,True
+1234705,2024-10-06T13:00:00+00:00,FT,Regular Season - 8,Palermo,522,Salernitana,514,0,1,True
+1234700,2024-10-06T13:00:00+00:00,FT,Regular Season - 8,Catanzaro,1687,Modena,899,2,2,True
+1234704,2024-10-06T13:00:00+00:00,FT,Regular Season - 8,Mantova,1693,Brescia,518,1,1,True
+1234701,2024-10-06T13:00:00+00:00,FT,Regular Season - 8,Cosenza,10137,Sudtirol,1578,0,2,True
+1234710,2024-10-18T18:30:00+00:00,FT,Regular Season - 9,Bari,508,Catanzaro,1687,1,1,True
+1234714,2024-10-19T13:00:00+00:00,FT,Regular Season - 9,Cittadella,510,Cosenza,10137,0,0,True
+1234718,2024-10-19T13:00:00+00:00,FT,Regular Season - 9,Salernitana,514,Spezia,515,0,2,True
+1234716,2024-10-19T13:00:00+00:00,FT,Regular Season - 9,Modena,899,Palermo,522,2,2,True
+1234719,2024-10-19T13:00:00+00:00,FT,Regular Season - 9,Sudtirol,1578,Pisa,801,1,2,True
+1234711,2024-10-19T15:15:00+00:00,FT,Regular Season - 9,Brescia,518,Sassuolo,488,2,5,True
+1234715,2024-10-20T13:00:00+00:00,FT,Regular Season - 9,Juve Stabia,863,Cremonese,520,1,2,True
+1234717,2024-10-20T13:00:00+00:00,FT,Regular Season - 9,Reggiana,880,Frosinone,512,2,0,True
+1234712,2024-10-20T13:00:00+00:00,FT,Regular Season - 9,Carrarese,1581,Mantova,1693,1,1,True
+1234713,2024-10-20T15:15:00+00:00,FT,Regular Season - 9,Cesena,509,Sampdoria,498,3,5,True
+1234729,2024-10-25T18:30:00+00:00,FT,Regular Season - 10,Spezia,515,Bari,508,0,0,True
+1234722,2024-10-26T13:00:00+00:00,FT,Regular Season - 10,Cesena,509,Brescia,518,2,0,True
+1234724,2024-10-26T13:00:00+00:00,FT,Regular Season - 10,Cremonese,520,Salernitana,514,2,1,True
+1234726,2024-10-26T13:00:00+00:00,FT,Regular Season - 10,Palermo,522,Reggiana,880,2,0,True
+1234723,2024-10-26T13:00:00+00:00,FT,Regular Season - 10,Cosenza,10137,Juve Stabia,863,1,1,True
+1234728,2024-10-26T15:15:00+00:00,FT,Regular Season - 10,Sassuolo,488,Modena,899,2,0,True
+1234720,2024-10-26T15:15:00+00:00,FT,Regular Season - 10,Carrarese,1581,Cittadella,510,3,0,True
+1234727,2024-10-27T14:00:00+00:00,FT,Regular Season - 10,Sampdoria,498,Mantova,1693,1,0,True
+1234725,2024-10-27T14:00:00+00:00,FT,Regular Season - 10,Frosinone,512,Pisa,801,0,0,True
+1234721,2024-10-27T14:00:00+00:00,FT,Regular Season - 10,Catanzaro,1687,Sudtirol,1578,3,0,True
+1234730,2024-10-29T19:30:00+00:00,FT,Regular Season - 11,Bari,508,Carrarese,1581,0,0,True
+1234738,2024-10-29T19:30:00+00:00,FT,Regular Season - 11,Salernitana,514,Cesena,509,1,1,True
+1234731,2024-10-29T19:30:00+00:00,FT,Regular Season - 11,Brescia,518,Spezia,515,1,1,True
+1234733,2024-10-29T19:30:00+00:00,FT,Regular Season - 11,Juve Stabia,863,Sassuolo,488,2,2,True
+1234737,2024-10-29T19:30:00+00:00,FT,Regular Season - 11,Reggiana,880,Cosenza,10137,0,1,True
+1234735,2024-10-29T19:30:00+00:00,FT,Regular Season - 11,Modena,899,Cremonese,520,2,2,True
+1234739,2024-10-30T18:30:00+00:00,FT,Regular Season - 11,Sudtirol,1578,Frosinone,512,1,1,True
+1234732,2024-10-30T19:30:00+00:00,FT,Regular Season - 11,Cittadella,510,Sampdoria,498,0,0,True
+1234736,2024-10-30T19:30:00+00:00,FT,Regular Season - 11,Pisa,801,Catanzaro,1687,0,0,True
+1234734,2024-10-30T19:30:00+00:00,FT,Regular Season - 11,Mantova,1693,Palermo,522,0,0,True
+1234740,2024-11-02T14:00:00+00:00,FT,Regular Season - 12,Bari,508,Reggiana,880,2,2,True
+1234749,2024-11-02T14:00:00+00:00,FT,Regular Season - 12,Spezia,515,Modena,899,1,0,True
+1234741,2024-11-02T14:00:00+00:00,FT,Regular Season - 12,Carrarese,1581,Juve Stabia,863,0,0,True
+1234743,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Cesena,509,Sudtirol,1578,1,0,True
+1234745,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Cremonese,520,Pisa,801,1,3,True
+1234746,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Palermo,522,Cittadella,510,0,1,True
+1234742,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Catanzaro,1687,Frosinone,512,0,0,True
+1234744,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Cosenza,10137,Salernitana,514,1,1,True
+1234748,2024-11-03T16:15:00+00:00,FT,Regular Season - 12,Sassuolo,488,Mantova,1693,1,0,True
+1234747,2024-11-03T16:15:00+00:00,FT,Regular Season - 12,Sampdoria,498,Brescia,518,0,1,True
+1234752,2024-11-08T19:30:00+00:00,FT,Regular Season - 13,Frosinone,512,Palermo,522,1,1,True
+1234750,2024-11-09T14:00:00+00:00,FT,Regular Season - 13,Brescia,518,Cosenza,10137,2,3,True
+1234756,2024-11-09T14:00:00+00:00,FT,Regular Season - 13,Pisa,801,Sampdoria,498,3,0,True
+1234755,2024-11-09T14:00:00+00:00,FT,Regular Season - 13,Modena,899,Carrarese,1581,2,0,True
+1234759,2024-11-09T14:00:00+00:00,FT,Regular Season - 13,Sudtirol,1578,Sassuolo,488,0,1,True
+1234754,2024-11-09T16:15:00+00:00,FT,Regular Season - 13,Mantova,1693,Cremonese,520,1,0,True
+1234751,2024-11-10T14:00:00+00:00,FT,Regular Season - 13,Cittadella,510,Cesena,509,0,2,True
+1234753,2024-11-10T14:00:00+00:00,FT,Regular Season - 13,Juve Stabia,863,Spezia,515,0,3,True
+1234757,2024-11-10T14:00:00+00:00,FT,Regular Season - 13,Reggiana,880,Catanzaro,1687,2,2,True
+1234758,2024-11-10T16:15:00+00:00,FT,Regular Season - 13,Salernitana,514,Bari,508,0,2,True
+1234764,2024-11-22T19:30:00+00:00,FT,Regular Season - 14,Cosenza,10137,Modena,899,1,1,True
+1234768,2024-11-23T14:00:00+00:00,FT,Regular Season - 14,Sassuolo,488,Salernitana,514,4,0,True
+1234766,2024-11-23T14:00:00+00:00,FT,Regular Season - 14,Juve Stabia,863,Brescia,518,0,0,True
+1234761,2024-11-23T14:00:00+00:00,FT,Regular Season - 14,Carrarese,1581,Pisa,801,1,0,True
+1234762,2024-11-23T14:00:00+00:00,FT,Regular Season - 14,Catanzaro,1687,Mantova,1693,2,2,True
+1234763,2024-11-23T16:15:00+00:00,FT,Regular Season - 14,Cesena,509,Reggiana,880,1,1,True
+1234760,2024-11-24T14:00:00+00:00,FT,Regular Season - 14,Bari,508,Cittadella,510,3,2,True
+1234769,2024-11-24T14:00:00+00:00,FT,Regular Season - 14,Spezia,515,Sudtirol,1578,3,0,True
+1234765,2024-11-24T14:00:00+00:00,FT,Regular Season - 14,Cremonese,520,Frosinone,512,1,0,True
+1234767,2024-11-24T16:15:00+00:00,FT,Regular Season - 14,Palermo,522,Sampdoria,498,1,1,True
+1234776,2024-11-29T19:30:00+00:00,FT,Regular Season - 15,Reggiana,880,Sassuolo,488,0,2,True
+1234778,2024-11-30T14:00:00+00:00,FT,Regular Season - 15,Sampdoria,498,Catanzaro,1687,3,3,True
+1234771,2024-11-30T14:00:00+00:00,FT,Regular Season - 15,Cittadella,510,Juve Stabia,863,2,2,True
+1234770,2024-11-30T14:00:00+00:00,FT,Regular Season - 15,Brescia,518,Bari,508,1,1,True
+1234779,2024-11-30T14:00:00+00:00,FT,Regular Season - 15,Sudtirol,1578,Cremonese,520,0,4,True
+1234773,2024-11-30T16:15:00+00:00,FT,Regular Season - 15,Mantova,1693,Modena,899,0,0,True
+1234772,2024-12-01T14:00:00+00:00,FT,Regular Season - 15,Frosinone,512,Cesena,509,3,2,True
+1234774,2024-12-01T14:00:00+00:00,FT,Regular Season - 15,Palermo,522,Spezia,515,2,0,True
+1234775,2024-12-01T14:00:00+00:00,FT,Regular Season - 15,Pisa,801,Cosenza,10137,2,2,True
+1234777,2024-12-01T16:15:00+00:00,FT,Regular Season - 15,Salernitana,514,Carrarese,1581,4,1,True
+1234785,2024-12-06T19:30:00+00:00,FT,Regular Season - 16,Juve Stabia,863,Sudtirol,1578,2,1,True
+1234780,2024-12-07T14:00:00+00:00,FT,Regular Season - 16,Bari,508,Cesena,509,1,0,True
+1234787,2024-12-07T14:00:00+00:00,FT,Regular Season - 16,Modena,899,Salernitana,514,1,1,True
+1234781,2024-12-07T14:00:00+00:00,FT,Regular Season - 16,Carrarese,1581,Palermo,522,1,0,True
+1234786,2024-12-07T14:00:00+00:00,FT,Regular Season - 16,Mantova,1693,Pisa,801,2,3,True
+1234783,2024-12-07T16:15:00+00:00,FT,Regular Season - 16,Cosenza,10137,Frosinone,512,0,1,True
+1234789,2024-12-08T14:00:00+00:00,FT,Regular Season - 16,Spezia,515,Cittadella,510,5,0,True
+1234784,2024-12-08T14:00:00+00:00,FT,Regular Season - 16,Cremonese,520,Reggiana,880,0,2,True
+1234782,2024-12-08T14:00:00+00:00,FT,Regular Season - 16,Catanzaro,1687,Brescia,518,2,1,True
+1234788,2024-12-08T16:15:00+00:00,FT,Regular Season - 16,Sassuolo,488,Sampdoria,498,5,1,True
+1234795,2024-12-13T19:30:00+00:00,FT,Regular Season - 17,Pisa,801,Bari,508,2,0,True
+1234791,2024-12-14T14:00:00+00:00,FT,Regular Season - 17,Cesena,509,Cosenza,10137,2,1,True
+1234793,2024-12-14T14:00:00+00:00,FT,Regular Season - 17,Frosinone,512,Sassuolo,488,1,2,True
+1234796,2024-12-14T14:00:00+00:00,FT,Regular Season - 17,Reggiana,880,Modena,899,0,1,True
+1234799,2024-12-14T14:00:00+00:00,FT,Regular Season - 17,Sudtirol,1578,Mantova,1693,2,2,True
+1234798,2024-12-14T16:15:00+00:00,FT,Regular Season - 17,Sampdoria,498,Spezia,515,0,0,True
+1234792,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,Cittadella,510,Cremonese,520,0,0,True
+1234790,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,Brescia,518,Carrarese,1581,0,0,True
+1234794,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,Palermo,522,Catanzaro,1687,1,2,True
+1234797,2024-12-15T16:15:00+00:00,FT,Regular Season - 17,Salernitana,514,Juve Stabia,863,1,2,True
+1234808,2024-12-20T19:30:00+00:00,FT,Regular Season - 18,Salernitana,514,Brescia,518,0,0,True
+1234809,2024-12-21T14:00:00+00:00,FT,Regular Season - 18,Sassuolo,488,Palermo,522,2,1,True
+1234800,2024-12-21T14:00:00+00:00,FT,Regular Season - 18,Bari,508,Sudtirol,1578,0,1,True
+1234801,2024-12-21T14:00:00+00:00,FT,Regular Season - 18,Carrarese,1581,Cosenza,10137,1,0,True
+1234806,2024-12-21T14:00:00+00:00,FT,Regular Season - 18,Mantova,1693,Frosinone,512,3,1,True
+1234803,2024-12-21T16:15:00+00:00,FT,Regular Season - 18,Cittadella,510,Reggiana,880,3,1,True
+1234807,2024-12-21T16:15:00+00:00,FT,Regular Season - 18,Modena,899,Pisa,801,1,0,True
+1234802,2024-12-21T16:15:00+00:00,FT,Regular Season - 18,Catanzaro,1687,Spezia,515,0,1,True
+1234805,2024-12-22T14:00:00+00:00,FT,Regular Season - 18,Juve Stabia,863,Cesena,509,1,0,True
+1234804,2024-12-22T16:15:00+00:00,FT,Regular Season - 18,Cremonese,520,Sampdoria,498,1,1,True
+1234815,2024-12-26T11:30:00+00:00,FT,Regular Season - 19,Pisa,801,Sassuolo,488,3,1,True
+1234811,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Cesena,509,Cremonese,520,0,1,True
+1234813,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Frosinone,512,Salernitana,514,2,0,True
+1234818,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Spezia,515,Mantova,1693,1,1,True
+1234810,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Brescia,518,Modena,899,3,3,True
+1234816,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Reggiana,880,Juve Stabia,863,2,1,True
+1234819,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Sudtirol,1578,Cittadella,510,1,2,True
+1234812,2024-12-26T14:00:00+00:00,FT,Regular Season - 19,Cosenza,10137,Catanzaro,1687,1,1,True
+1234814,2024-12-26T17:00:00+00:00,FT,Regular Season - 19,Palermo,522,Bari,508,1,0,True
+1234817,2024-12-26T19:30:00+00:00,FT,Regular Season - 19,Sampdoria,498,Carrarese,1581,1,1,True
+1234824,2024-12-29T11:30:00+00:00,FT,Regular Season - 20,Cremonese,520,Brescia,518,1,1,True
+1234829,2024-12-29T14:00:00+00:00,FT,Regular Season - 20,Sassuolo,488,Cosenza,10137,2,1,True
+1234820,2024-12-29T14:00:00+00:00,FT,Regular Season - 20,Bari,508,Spezia,515,2,0,True
+1234827,2024-12-29T14:00:00+00:00,FT,Regular Season - 20,Modena,899,Sudtirol,1578,0,0,True
+1234821,2024-12-29T14:00:00+00:00,FT,Regular Season - 20,Carrarese,1581,Cesena,509,2,0,True
+1234826,2024-12-29T14:00:00+00:00,FT,Regular Season - 20,Mantova,1693,Reggiana,880,0,2,True
+1234823,2024-12-29T16:15:00+00:00,FT,Regular Season - 20,Cittadella,510,Palermo,522,2,1,True
+1234825,2024-12-29T16:15:00+00:00,FT,Regular Season - 20,Juve Stabia,863,Frosinone,512,1,1,True
+1234822,2024-12-29T16:15:00+00:00,FT,Regular Season - 20,Catanzaro,1687,Salernitana,514,1,0,True
+1234828,2024-12-29T18:30:00+00:00,FT,Regular Season - 20,Sampdoria,498,Pisa,801,0,1,True
+1234837,2025-01-12T11:30:00+00:00,FT,Regular Season - 21,Salernitana,514,Sassuolo,488,1,2,True
+1234833,2025-01-12T14:00:00+00:00,FT,Regular Season - 21,Frosinone,512,Cremonese,520,0,3,True
+1234838,2025-01-12T14:00:00+00:00,FT,Regular Season - 21,Spezia,515,Juve Stabia,863,1,1,True
+1234834,2025-01-12T14:00:00+00:00,FT,Regular Season - 21,Palermo,522,Modena,899,2,0,True
+1234836,2025-01-12T14:00:00+00:00,FT,Regular Season - 21,Reggiana,880,Bari,508,0,0,True
+1234839,2025-01-12T14:00:00+00:00,FT,Regular Season - 21,Sudtirol,1578,Catanzaro,1687,1,1,True
+1234832,2025-01-12T14:00:00+00:00,FT,Regular Season - 21,Cosenza,10137,Mantova,1693,2,2,True
+1234831,2025-01-12T16:15:00+00:00,FT,Regular Season - 21,Cesena,509,Cittadella,510,0,0,True
+1234830,2025-01-12T18:30:00+00:00,FT,Regular Season - 21,Brescia,518,Sampdoria,498,1,1,True
+1234835,2025-01-13T19:30:00+00:00,FT,Regular Season - 21,Pisa,801,Carrarese,1581,2,1,True
+1234848,2025-01-17T19:30:00+00:00,FT,Regular Season - 22,Sampdoria,498,Cesena,509,1,2,True
+1234843,2025-01-18T14:00:00+00:00,FT,Regular Season - 22,Cittadella,510,Mantova,1693,1,2,True
+1234847,2025-01-18T14:00:00+00:00,FT,Regular Season - 22,Salernitana,514,Reggiana,880,2,1,True
+1234844,2025-01-18T14:00:00+00:00,FT,Regular Season - 22,Cremonese,520,Cosenza,10137,3,1,True
+1234845,2025-01-18T14:00:00+00:00,FT,Regular Season - 22,Modena,899,Frosinone,512,1,1,True
+1234840,2025-01-18T16:15:00+00:00,FT,Regular Season - 22,Bari,508,Brescia,518,2,2,True
+1234849,2025-01-19T14:00:00+00:00,FT,Regular Season - 22,Sassuolo,488,Sudtirol,1578,5,3,True
+1234846,2025-01-19T14:00:00+00:00,FT,Regular Season - 22,Palermo,522,Juve Stabia,863,1,0,True
+1234842,2025-01-19T14:00:00+00:00,FT,Regular Season - 22,Catanzaro,1687,Pisa,801,0,0,True
+1234841,2025-01-19T16:15:00+00:00,FT,Regular Season - 22,Carrarese,1581,Spezia,515,0,4,True
+1234859,2025-01-24T19:30:00+00:00,FT,Regular Season - 23,Spezia,515,Sassuolo,488,2,1,True
+1234851,2025-01-25T14:00:00+00:00,FT,Regular Season - 23,Cesena,509,Bari,508,1,1,True
+1234854,2025-01-25T14:00:00+00:00,FT,Regular Season - 23,Frosinone,512,Sudtirol,1578,0,3,True
+1234855,2025-01-25T14:00:00+00:00,FT,Regular Season - 23,Juve Stabia,863,Carrarese,1581,2,1,True
+1234852,2025-01-25T14:00:00+00:00,FT,Regular Season - 23,Cosenza,10137,Cittadella,510,0,1,True
+1234856,2025-01-25T16:15:00+00:00,FT,Regular Season - 23,Mantova,1693,Sampdoria,498,2,2,True
+1234850,2025-01-26T14:00:00+00:00,FT,Regular Season - 23,Brescia,518,Catanzaro,1687,2,3,True
+1234857,2025-01-26T14:00:00+00:00,FT,Regular Season - 23,Pisa,801,Salernitana,514,1,0,True
+1234858,2025-01-26T14:00:00+00:00,FT,Regular Season - 23,Reggiana,880,Palermo,522,2,1,True
+1234853,2025-01-26T16:15:00+00:00,FT,Regular Season - 23,Cremonese,520,Modena,899,2,2,True
+1234865,2025-01-31T19:30:00+00:00,FT,Regular Season - 24,Palermo,522,Pisa,801,1,2,True
+1234868,2025-02-01T14:00:00+00:00,FT,Regular Season - 24,Sassuolo,488,Juve Stabia,863,2,0,True
+1234867,2025-02-01T14:00:00+00:00,FT,Regular Season - 24,Sampdoria,498,Cosenza,10137,1,0,True
+1234863,2025-02-01T14:00:00+00:00,FT,Regular Season - 24,Cittadella,510,Spezia,515,0,2,True
+1234862,2025-02-01T14:00:00+00:00,FT,Regular Season - 24,Catanzaro,1687,Cesena,509,4,2,True
+1234864,2025-02-01T16:15:00+00:00,FT,Regular Season - 24,Modena,899,Mantova,1693,3,1,True
+1234866,2025-02-02T14:00:00+00:00,FT,Regular Season - 24,Salernitana,514,Cremonese,520,1,0,True
+1234869,2025-02-02T14:00:00+00:00,FT,Regular Season - 24,Sudtirol,1578,Reggiana,880,2,0,True
+1234861,2025-02-02T14:00:00+00:00,FT,Regular Season - 24,Carrarese,1581,Brescia,518,1,2,True
+1234860,2025-02-02T16:15:00+00:00,FT,Regular Season - 24,Bari,508,Frosinone,512,2,1,True
+1234870,2025-02-07T19:30:00+00:00,FT,Regular Season - 25,Brescia,518,Salernitana,514,0,0,True
+1234873,2025-02-08T14:00:00+00:00,FT,Regular Season - 25,Frosinone,512,Catanzaro,1687,1,1,True
+1234876,2025-02-08T14:00:00+00:00,FT,Regular Season - 25,Pisa,801,Cittadella,510,0,1,True
+1234875,2025-02-08T14:00:00+00:00,FT,Regular Season - 25,Mantova,1693,Sassuolo,488,0,3,True
+1234871,2025-02-08T14:00:00+00:00,FT,Regular Season - 25,Cosenza,10137,Carrarese,1581,1,0,True
+1234878,2025-02-08T16:15:00+00:00,FT,Regular Season - 25,Sampdoria,498,Modena,899,1,0,True
+1234879,2025-02-09T14:00:00+00:00,FT,Regular Season - 25,Spezia,515,Palermo,522,2,2,True
+1234872,2025-02-09T14:00:00+00:00,FT,Regular Season - 25,Cremonese,520,Sudtirol,1578,3,1,True
+1234877,2025-02-09T14:00:00+00:00,FT,Regular Season - 25,Reggiana,880,Cesena,509,0,1,True
+1234874,2025-02-09T16:15:00+00:00,FT,Regular Season - 25,Juve Stabia,863,Bari,508,3,1,True
+1234882,2025-02-14T19:30:00+00:00,FT,Regular Season - 26,Catanzaro,1687,Cittadella,510,1,0,True
+1234888,2025-02-15T14:00:00+00:00,FT,Regular Season - 26,Sassuolo,488,Brescia,518,2,0,True
+1234886,2025-02-15T14:00:00+00:00,FT,Regular Season - 26,Modena,899,Spezia,515,1,1,True
+1234889,2025-02-15T14:00:00+00:00,FT,Regular Season - 26,Sudtirol,1578,Sampdoria,498,2,1,True
+1234881,2025-02-15T14:00:00+00:00,FT,Regular Season - 26,Carrarese,1581,Salernitana,514,3,2,True
+1234880,2025-02-15T16:15:00+00:00,FT,Regular Season - 26,Bari,508,Cremonese,520,1,1,True
+1234884,2025-02-16T14:00:00+00:00,FT,Regular Season - 26,Frosinone,512,Reggiana,880,1,1,True
+1234887,2025-02-16T14:00:00+00:00,FT,Regular Season - 26,Palermo,522,Mantova,1693,2,2,True
+1234885,2025-02-16T14:00:00+00:00,FT,Regular Season - 26,Juve Stabia,863,Cosenza,10137,3,0,True
+1234883,2025-02-16T16:15:00+00:00,FT,Regular Season - 26,Cesena,509,Pisa,801,1,1,True
+1234898,2025-02-21T19:30:00+00:00,FT,Regular Season - 27,Sampdoria,498,Sassuolo,488,0,0,True
+1234891,2025-02-22T14:00:00+00:00,FT,Regular Season - 27,Cittadella,510,Modena,899,0,2,True
+1234895,2025-02-22T14:00:00+00:00,FT,Regular Season - 27,Pisa,801,Juve Stabia,863,3,1,True
+1234896,2025-02-22T14:00:00+00:00,FT,Regular Season - 27,Reggiana,880,Carrarese,1581,2,2,True
+1234894,2025-02-22T14:00:00+00:00,FT,Regular Season - 27,Mantova,1693,Bari,508,0,1,True
+1234893,2025-02-22T16:15:00+00:00,FT,Regular Season - 27,Cremonese,520,Cesena,509,1,2,True
+1234899,2025-02-23T14:00:00+00:00,FT,Regular Season - 27,Spezia,515,Catanzaro,1687,0,1,True
+1234890,2025-02-23T14:00:00+00:00,FT,Regular Season - 27,Brescia,518,Sudtirol,1578,0,0,True
+1234892,2025-02-23T14:00:00+00:00,FT,Regular Season - 27,Cosenza,10137,Palermo,522,0,3,True
+1234897,2025-02-23T16:15:00+00:00,FT,Regular Season - 27,Salernitana,514,Frosinone,512,1,1,True
+1234909,2025-02-28T18:30:00+00:00,FT,Regular Season - 28,Sudtirol,1578,Spezia,515,1,1,True
+1234903,2025-03-01T14:00:00+00:00,FT,Regular Season - 28,Cesena,509,Salernitana,514,2,0,True
+1234904,2025-03-01T14:00:00+00:00,FT,Regular Season - 28,Frosinone,512,Mantova,1693,2,1,True
+1234905,2025-03-01T14:00:00+00:00,FT,Regular Season - 28,Juve Stabia,863,Cittadella,510,0,1,True
+1234901,2025-03-01T14:00:00+00:00,FT,Regular Season - 28,Carrarese,1581,Cremonese,520,2,2,True
+1234908,2025-03-01T16:15:00+00:00,FT,Regular Season - 28,Sassuolo,488,Pisa,801,1,0,True
+1234907,2025-03-02T14:00:00+00:00,FT,Regular Season - 28,Palermo,522,Brescia,518,1,0,True
+1234906,2025-03-02T14:00:00+00:00,FT,Regular Season - 28,Modena,899,Cosenza,10137,1,1,True
+1234902,2025-03-02T14:00:00+00:00,FT,Regular Season - 28,Catanzaro,1687,Reggiana,880,1,1,True
+1234900,2025-03-02T16:15:00+00:00,FT,Regular Season - 28,Bari,508,Sampdoria,498,1,1,True
+1234913,2025-03-07T19:30:00+00:00,FT,Regular Season - 29,Cosenza,10137,Reggiana,880,1,0,True
+1234916,2025-03-08T14:00:00+00:00,FT,Regular Season - 29,Salernitana,514,Modena,899,1,0,True
+1234914,2025-03-08T14:00:00+00:00,FT,Regular Season - 29,Cremonese,520,Catanzaro,1687,4,0,True
+1234911,2025-03-08T14:00:00+00:00,FT,Regular Season - 29,Carrarese,1581,Frosinone,512,0,1,True
+1234915,2025-03-08T14:00:00+00:00,FT,Regular Season - 29,Mantova,1693,Juve Stabia,863,1,1,True
+1234917,2025-03-08T16:15:00+00:00,FT,Regular Season - 29,Sampdoria,498,Palermo,522,1,1,True
+1234910,2025-03-08T18:30:00+00:00,FT,Regular Season - 29,Brescia,518,Cesena,509,1,1,True
+1234918,2025-03-09T14:00:00+00:00,FT,Regular Season - 29,Sassuolo,488,Bari,508,1,1,True
+1234919,2025-03-09T14:00:00+00:00,FT,Regular Season - 29,Spezia,515,Pisa,801,3,2,True
+1234912,2025-03-09T16:15:00+00:00,FT,Regular Season - 29,Cittadella,510,Sudtirol,1578,1,5,True
+1234926,2025-03-14T19:30:00+00:00,FT,Regular Season - 30,Palermo,522,Cremonese,520,2,3,True
+1234922,2025-03-15T14:00:00+00:00,FT,Regular Season - 30,Cesena,509,Spezia,515,0,0,True
+1234923,2025-03-15T14:00:00+00:00,FT,Regular Season - 30,Cittadella,510,Sassuolo,488,1,2,True
+1234924,2025-03-15T14:00:00+00:00,FT,Regular Season - 30,Frosinone,512,Brescia,518,2,1,True
+1234925,2025-03-15T14:00:00+00:00,FT,Regular Season - 30,Juve Stabia,863,Modena,899,2,1,True
+1234920,2025-03-15T18:30:00+00:00,FT,Regular Season - 30,Bari,508,Salernitana,514,0,0,True
+1234927,2025-03-16T14:00:00+00:00,FT,Regular Season - 30,Pisa,801,Mantova,1693,3,1,True
+1234928,2025-03-16T14:00:00+00:00,FT,Regular Season - 30,Reggiana,880,Sampdoria,498,2,2,True
+1234929,2025-03-16T14:00:00+00:00,FT,Regular Season - 30,Sudtirol,1578,Carrarese,1581,2,2,True
+1234921,2025-03-16T16:15:00+00:00,FT,Regular Season - 30,Catanzaro,1687,Cosenza,10137,4,0,True
+1234939,2025-03-28T19:30:00+00:00,FT,Regular Season - 31,Spezia,515,Brescia,518,0,1,True
+1234937,2025-03-29T14:00:00+00:00,FT,Regular Season - 31,Sampdoria,498,Frosinone,512,0,3,True
+1234935,2025-03-29T14:00:00+00:00,FT,Regular Season - 31,Modena,899,Catanzaro,1687,2,1,True
+1234934,2025-03-29T14:00:00+00:00,FT,Regular Season - 31,Mantova,1693,Sudtirol,1578,2,0,True
+1234932,2025-03-29T14:00:00+00:00,FT,Regular Season - 31,Cosenza,10137,Pisa,801,0,3,True
+1234933,2025-03-29T16:15:00+00:00,FT,Regular Season - 31,Cremonese,520,Cittadella,510,2,2,True
+1234938,2025-03-29T18:30:00+00:00,FT,Regular Season - 31,Sassuolo,488,Reggiana,880,5,1,True
+1234931,2025-03-30T13:00:00+00:00,FT,Regular Season - 31,Cesena,509,Juve Stabia,863,1,2,True
+1234930,2025-03-30T13:00:00+00:00,FT,Regular Season - 31,Carrarese,1581,Bari,508,2,1,True
+1234936,2025-03-30T15:15:00+00:00,FT,Regular Season - 31,Salernitana,514,Palermo,522,1,2,True
+1234947,2025-04-04T18:30:00+00:00,FT,Regular Season - 32,Reggiana,880,Cremonese,520,1,2,True
+1234942,2025-04-05T13:00:00+00:00,FT,Regular Season - 32,Cittadella,510,Carrarese,1581,0,0,True
+1234943,2025-04-05T13:00:00+00:00,FT,Regular Season - 32,Frosinone,512,Cosenza,10137,2,2,True
+1234940,2025-04-05T13:00:00+00:00,FT,Regular Season - 32,Brescia,518,Mantova,1693,1,2,True
+1234949,2025-04-05T13:00:00+00:00,FT,Regular Season - 32,Sudtirol,1578,Cesena,509,1,1,True
+1234946,2025-04-05T15:15:00+00:00,FT,Regular Season - 32,Pisa,801,Modena,899,1,2,True
+1234944,2025-04-05T17:30:00+00:00,FT,Regular Season - 32,Juve Stabia,863,Salernitana,514,1,0,True
+1234945,2025-04-06T13:00:00+00:00,FT,Regular Season - 32,Palermo,522,Sassuolo,488,5,3,True
+1234941,2025-04-06T13:00:00+00:00,FT,Regular Season - 32,Catanzaro,1687,Bari,508,3,3,True
+1234948,2025-04-06T15:15:00+00:00,FT,Regular Season - 32,Spezia,515,Sampdoria,498,2,0,True
+1234950,2025-04-11T18:30:00+00:00,FT,Regular Season - 33,Bari,508,Palermo,522,2,1,True
+1234958,2025-04-12T13:00:00+00:00,FT,Regular Season - 33,Salernitana,514,Sudtirol,1578,2,1,True
+1234957,2025-04-12T13:00:00+00:00,FT,Regular Season - 33,Reggiana,880,Pisa,801,0,2,True
+1234951,2025-04-12T13:00:00+00:00,FT,Regular Season - 33,Carrarese,1581,Catanzaro,1687,2,2,True
+1234953,2025-04-12T13:00:00+00:00,FT,Regular Season - 33,Cosenza,10137,Brescia,518,1,1,True
+1234959,2025-04-12T15:15:00+00:00,FT,Regular Season - 33,Sampdoria,498,Cittadella,510,1,0,True
+1234956,2025-04-12T17:30:00+00:00,FT,Regular Season - 33,Modena,899,Sassuolo,488,1,3,True
+1234952,2025-04-13T13:00:00+00:00,FT,Regular Season - 33,Cesena,509,Frosinone,512,1,1,True
+1234954,2025-04-13T13:00:00+00:00,FT,Regular Season - 33,Cremonese,520,Juve Stabia,863,1,1,True
+1234955,2025-04-13T15:15:00+00:00,FT,Regular Season - 33,Mantova,1693,Spezia,515,2,2,True
+1234976,2025-04-25T10:30:00+00:00,FT,Regular Season - 35,Frosinone,512,Spezia,515,2,2,True
+1234970,2025-04-25T13:00:00+00:00,FT,Regular Season - 35,Bari,508,Modena,899,1,2,True
+1234978,2025-04-25T13:00:00+00:00,FT,Regular Season - 35,Salernitana,514,Cosenza,10137,3,1,True
+1234971,2025-04-25T13:00:00+00:00,FT,Regular Season - 35,Brescia,518,Pisa,801,1,2,True
+1234977,2025-04-25T13:00:00+00:00,FT,Regular Season - 35,Reggiana,880,Cittadella,510,2,1,True
+1234972,2025-04-25T13:00:00+00:00,FT,Regular Season - 35,Carrarese,1581,Sampdoria,498,1,0,True
+1234975,2025-04-25T16:00:00+00:00,FT,Regular Season - 35,Cremonese,520,Mantova,1693,4,2,True
+1234974,2025-04-25T18:30:00+00:00,FT,Regular Season - 35,Cesena,509,Sassuolo,488,0,2,True
+1234979,2025-04-27T13:00:00+00:00,FT,Regular Season - 35,Sudtirol,1578,Juve Stabia,863,2,0,True
+1234973,2025-04-27T13:00:00+00:00,FT,Regular Season - 35,Catanzaro,1687,Palermo,522,1,3,True
+1234982,2025-05-01T10:30:00+00:00,FT,Regular Season - 36,Juve Stabia,863,Catanzaro,1687,2,0,True
+1234987,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Sampdoria,498,Cremonese,520,0,0,True
+1234989,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Spezia,515,Salernitana,514,2,0,True
+1234985,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Palermo,522,Sudtirol,1578,1,2,True
+1234986,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Pisa,801,Frosinone,512,1,0,True
+1234984,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Modena,899,Reggiana,880,2,3,True
+1234983,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Mantova,1693,Cesena,509,3,0,True
+1234981,2025-05-01T13:00:00+00:00,FT,Regular Season - 36,Cosenza,10137,Bari,508,1,0,True
+1234980,2025-05-01T15:15:00+00:00,FT,Regular Season - 36,Cittadella,510,Brescia,518,0,1,True
+1234988,2025-05-01T17:30:00+00:00,FT,Regular Season - 36,Sassuolo,488,Carrarese,1581,2,0,True
+1234990,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Bari,508,Pisa,801,1,0,True
+1234994,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Cesena,509,Palermo,522,2,1,True
+1234996,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Frosinone,512,Cittadella,510,1,1,True
+1234998,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Salernitana,514,Mantova,1693,2,0,True
+1234991,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Brescia,518,Juve Stabia,863,0,0,True
+1234997,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Reggiana,880,Spezia,515,2,1,True
+1234999,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Sudtirol,1578,Cosenza,10137,2,1,True
+1234992,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Carrarese,1581,Modena,899,2,1,True
+1234993,2025-05-04T13:00:00+00:00,FT,Regular Season - 37,Catanzaro,1687,Sampdoria,498,2,2,True
+1234995,2025-05-04T17:30:00+00:00,FT,Regular Season - 37,Cremonese,520,Sassuolo,488,1,1,True
+1235008,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Sassuolo,488,Catanzaro,1687,0,2,True
+1235007,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Sampdoria,498,Salernitana,514,1,0,True
+1235000,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Cittadella,510,Bari,508,3,1,True
+1235009,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Spezia,515,Cremonese,520,2,3,True
+1235005,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Palermo,522,Frosinone,512,2,0,True
+1235006,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Pisa,801,Sudtirol,1578,3,3,True
+1235002,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Juve Stabia,863,Reggiana,880,1,2,True
+1235004,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Modena,899,Brescia,518,2,2,True
+1235003,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Mantova,1693,Carrarese,1581,2,1,True
+1235001,2025-05-09T18:30:00+00:00,FT,Regular Season - 38,Cosenza,10137,Cesena,509,0,1,True
+1234967,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Sassuolo,488,Frosinone,512,0,1,True
+1234961,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Cittadella,510,Salernitana,514,0,2,True
+1234968,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Spezia,515,Cosenza,10137,3,1,True
+1234960,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Brescia,518,Reggiana,880,2,1,True
+1234965,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Palermo,522,Carrarese,1581,1,1,True
+1234966,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Pisa,801,Cremonese,520,2,1,True
+1234962,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Juve Stabia,863,Sampdoria,498,0,0,True
+1234964,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Modena,899,Cesena,509,0,1,True
+1234969,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Sudtirol,1578,Bari,508,0,0,True
+1234963,2025-05-13T18:30:00+00:00,FT,Regular Season - 34,Mantova,1693,Catanzaro,1687,0,0,True
+1375443,2025-05-17T15:15:00+00:00,FT,Promotion Play-offs - Qualifying Round,Catanzaro,1687,Cesena,509,1,0,True
+1375444,2025-05-17T17:30:00+00:00,FT,Promotion Play-offs - Qualifying Round,Juve Stabia,863,Palermo,522,1,0,True
+1375818,2025-05-21T18:30:00+00:00,FT,Promotion Play-offs - Semi-finals,Juve Stabia,863,Cremonese,520,2,1,True
+1375820,2025-05-21T18:30:00+00:00,FT,Promotion Play-offs - Semi-finals,Catanzaro,1687,Spezia,515,0,2,True
+1375819,2025-05-25T15:15:00+00:00,FT,Promotion Play-offs - Semi-finals,Cremonese,520,Juve Stabia,863,3,0,True
+1375821,2025-05-25T17:30:00+00:00,FT,Promotion Play-offs - Semi-finals,Spezia,515,Catanzaro,1687,2,1,True
+1376535,2025-05-29T18:30:00+00:00,FT,Promotion Play-offs - Final,Cremonese,520,Spezia,515,0,0,True
+1376536,2025-06-01T18:30:00+00:00,FT,Promotion Play-offs - Final,Spezia,515,Cremonese,520,2,3,True
+1375442,2025-06-15T18:30:00+00:00,FT,Relegation Play-offs - Final,Sampdoria,498,Salernitana,514,2,0,True
+1375441,2025-06-22T18:30:00+00:00,AWD,Relegation Play-offs - Final,Salernitana,514,Sampdoria,498,0,3,False

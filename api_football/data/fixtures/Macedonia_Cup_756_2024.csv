@@ -1,10 +1,33 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1321852,2025-02-26T13:00:00+00:00,FT,Vardar Skopje,574,Sileks,4331,1,0,True
-1321851,2025-02-26T13:00:00+00:00,FT,Akademija Pandev,4194,Aresimi,19753,1,1,True
-1321849,2025-02-26T13:00:00+00:00,FT,Struga,4346,KF Gostivari,4338,1,0,True
-1321850,2025-02-26T13:00:00+00:00,FT,Detonit Plachkovica,19754,Shkendija,609,0,1,True
-1367730,2025-04-09T14:00:00+00:00,FT,Vardar Skopje,574,Akademija Pandev,4194,3,0,True
-1367729,2025-04-09T14:00:00+00:00,FT,Shkendija,609,Struga,4346,1,2,True
-1367731,2025-04-23T14:00:00+00:00,FT,Akademija Pandev,4194,Vardar Skopje,574,1,1,True
-1367728,2025-04-23T14:00:00+00:00,FT,Struga,4346,Shkendija,609,1,1,True
-1372955,2025-05-21T18:00:00+00:00,FT,Vardar Skopje,574,Struga,4346,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1294435,2024-09-18T13:00:00+00:00,FT,1st Round,Skopje,4332,Pelister,693,0,1,True
+1294433,2024-09-18T13:00:00+00:00,FT,1st Round,Borec,4334,Detonit Plachkovica,19754,0,1,True
+1294425,2024-09-18T13:00:00+00:00,FT,1st Round,Kozuv Gevgelija,4340,Aresimi,19753,1,2,True
+1294426,2024-09-18T13:00:00+00:00,FT,1st Round,Vardar Negotino,4349,Akademija Pandev,4194,0,4,True
+1294436,2024-09-18T13:00:00+00:00,FT,1st Round,Novaci,4353,Vardar Skopje,574,0,2,True
+1294431,2024-09-18T13:00:00+00:00,FT,1st Round,Ohrid,6290,Besa Dobërdoll,17660,1,4,True
+1294434,2024-09-18T13:00:00+00:00,FT,1st Round,Sloga Vinica,14274,Struga,4346,1,6,True
+1294437,2024-09-18T13:00:00+00:00,FT,1st Round,Karbinci,19752,Sileks,4331,1,4,True
+1294427,2024-09-18T13:00:00+00:00,FT,1st Round,Jenimaale Bitola,24780,Shkendija,609,0,5,True
+1294432,2024-09-18T13:00:00+00:00,FT,1st Round,Shkëndija Haraçinë,24781,FK Rabotnicki,663,2,0,True
+1294428,2024-09-18T13:00:00+00:00,FT,1st Round,Sloboden Skopje,24782,Bregalnica Štip,4333,0,6,True
+1294424,2024-09-18T13:00:00+00:00,FT,1st Round,Xhepçishti,24783,Shkupi 1927,2265,0,8,True
+1294429,2024-10-02T12:00:00+00:00,PEN,1st Round,Belasica,4328,Makedonija GjP,4196,2,2,False
+1294423,2024-10-02T12:00:00+00:00,FT,1st Round,KF Gostivari,4338,Pobeda,4329,3,1,True
+1294430,2024-10-02T12:00:00+00:00,FT,1st Round,Bashkimi Kumanovo,22153,Voska Sport,17663,0,2,True
+1310870,2024-10-23T12:00:00+00:00,FT,Round of 16,Vardar Skopje,574,Tikveš,4348,2,0,True
+1310873,2024-10-23T12:00:00+00:00,FT,Round of 16,Shkendija,609,Shkëndija Haraçinë,24781,1,0,True
+1310872,2024-10-23T12:00:00+00:00,PEN,Round of 16,Pelister,693,Detonit Plachkovica,19754,1,1,False
+1310869,2024-10-23T12:00:00+00:00,FT,Round of 16,Akademija Pandev,4194,Besa Dobërdoll,17660,2,0,True
+1310875,2024-10-23T12:00:00+00:00,PEN,Round of 16,Sileks,4331,Shkupi 1927,2265,0,0,False
+1310871,2024-10-23T12:00:00+00:00,FT,Round of 16,KF Gostivari,4338,Bregalnica Štip,4333,1,0,True
+1310874,2024-10-23T12:00:00+00:00,FT,Round of 16,Struga,4346,Makedonija GjP,4196,2,0,True
+1310876,2024-10-23T12:00:00+00:00,FT,Round of 16,Aresimi,19753,Voska Sport,17663,3,1,True
+1321852,2025-02-26T13:00:00+00:00,FT,Quarter-finals,Vardar Skopje,574,Sileks,4331,1,0,True
+1321851,2025-02-26T13:00:00+00:00,FT,Quarter-finals,Akademija Pandev,4194,Aresimi,19753,1,1,True
+1321849,2025-02-26T13:00:00+00:00,FT,Quarter-finals,Struga,4346,KF Gostivari,4338,1,0,True
+1321850,2025-02-26T13:00:00+00:00,FT,Quarter-finals,Detonit Plachkovica,19754,Shkendija,609,0,1,True
+1367730,2025-04-09T14:00:00+00:00,FT,Semi-finals,Vardar Skopje,574,Akademija Pandev,4194,3,0,True
+1367729,2025-04-09T14:00:00+00:00,FT,Semi-finals,Shkendija,609,Struga,4346,1,2,True
+1367731,2025-04-23T14:00:00+00:00,FT,Semi-finals,Akademija Pandev,4194,Vardar Skopje,574,1,1,True
+1367728,2025-04-23T14:00:00+00:00,FT,Semi-finals,Struga,4346,Shkendija,609,1,1,True
+1372955,2025-05-21T18:00:00+00:00,FT,Final,Vardar Skopje,574,Struga,4346,2,0,True

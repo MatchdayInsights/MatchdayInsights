@@ -1,59 +1,145 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1196642,2025-01-13T12:15:00+00:00,FT,DPMM FC Brunei,4202,Home United,4204,2,4,True
-1196643,2025-01-17T11:45:00+00:00,FT,Home United,4204,Albirex Niigata S,4200,6,0,True
-1196644,2025-01-18T10:00:00+00:00,FT,Young Lions,4208,Tanjong Pagar,10077,1,1,True
-1196645,2025-01-18T12:15:00+00:00,FT,DPMM FC Brunei,4202,Geylang International,4203,0,2,True
-1196646,2025-01-19T10:00:00+00:00,FT,Hougang United,4205,Balestier Khalsa,4201,3,1,True
-1196648,2025-01-25T10:00:00+00:00,FT,Balestier Khalsa,4201,Young Lions,4208,2,3,True
-1196647,2025-01-25T10:00:00+00:00,FT,Tampines Rovers,4206,Hougang United,4205,2,4,True
-1196650,2025-01-26T10:00:00+00:00,FT,Geylang International,4203,Home United,4204,1,2,True
-1196649,2025-01-26T10:00:00+00:00,FT,Tanjong Pagar,10077,DPMM FC Brunei,4202,3,0,True
-1196651,2025-02-07T12:15:00+00:00,FT,DPMM FC Brunei,4202,Balestier Khalsa,4201,2,3,True
-1196653,2025-02-08T10:00:00+00:00,FT,Young Lions,4208,Tampines Rovers,4206,1,5,True
-1196654,2025-02-09T10:00:00+00:00,FT,Albirex Niigata S,4200,Geylang International,4203,1,1,True
-1196652,2025-02-09T10:00:00+00:00,FT,Home United,4204,Tanjong Pagar,10077,4,1,True
-1196655,2025-02-21T11:45:00+00:00,FT,Tanjong Pagar,10077,Albirex Niigata S,4200,1,2,True
-1196656,2025-02-22T10:00:00+00:00,FT,Hougang United,4205,Young Lions,4208,3,3,True
-1196658,2025-02-23T10:00:00+00:00,FT,Balestier Khalsa,4201,Home United,4204,1,5,True
-1196657,2025-02-23T10:00:00+00:00,FT,Tampines Rovers,4206,DPMM FC Brunei,4202,1,0,True
-1196660,2025-02-26T11:45:00+00:00,FT,DPMM FC Brunei,4202,Hougang United,4205,2,1,True
-1196659,2025-02-26T11:45:00+00:00,FT,Home United,4204,Tampines Rovers,4206,1,0,True
-1196661,2025-02-27T11:45:00+00:00,FT,Albirex Niigata S,4200,Balestier Khalsa,4201,4,0,True
-1196662,2025-02-27T11:45:00+00:00,FT,Geylang International,4203,Tanjong Pagar,10077,5,0,True
-1196663,2025-03-07T12:30:00+00:00,FT,Geylang International,4203,Balestier Khalsa,4201,3,4,True
-1196664,2025-03-08T12:30:00+00:00,FT,Young Lions,4208,DPMM FC Brunei,4202,1,1,True
-1196665,2025-03-09T12:30:00+00:00,FT,Albirex Niigata S,4200,Tampines Rovers,4206,0,4,True
-1196666,2025-03-09T12:30:00+00:00,FT,Hougang United,4205,Home United,4204,1,1,True
-1196667,2025-04-04T11:45:00+00:00,FT,Tampines Rovers,4206,Geylang International,4203,3,1,True
-1196669,2025-04-05T10:00:00+00:00,FT,Balestier Khalsa,4201,Tanjong Pagar,10077,3,3,True
-1196668,2025-04-05T10:00:00+00:00,FT,Hougang United,4205,Albirex Niigata S,4200,1,0,True
-1196670,2025-04-06T10:00:00+00:00,FT,Young Lions,4208,Home United,4204,0,8,True
-1196671,2025-04-11T11:45:00+00:00,FT,Geylang International,4203,Hougang United,4205,4,3,True
-1196672,2025-04-11T11:45:00+00:00,FT,Tanjong Pagar,10077,Tampines Rovers,4206,0,2,True
-1196673,2025-04-12T10:00:00+00:00,FT,Home United,4204,DPMM FC Brunei,4202,0,0,True
-1196674,2025-04-13T10:00:00+00:00,FT,Albirex Niigata S,4200,Young Lions,4208,0,0,True
-1196676,2025-04-19T12:15:00+00:00,FT,DPMM FC Brunei,4202,Albirex Niigata S,4200,3,0,True
-1196682,2025-04-24T11:45:00+00:00,FT,Balestier Khalsa,4201,Hougang United,4205,2,1,True
-1196679,2025-04-25T12:15:00+00:00,FT,Albirex Niigata S,4200,Home United,4204,0,2,True
-1196681,2025-04-29T12:30:00+00:00,FT,Geylang International,4203,DPMM FC Brunei,4202,1,3,True
-1196633,2025-04-30T11:45:00+00:00,FT,Home United,4204,Young Lions,4208,3,1,True
-1196683,2025-05-02T11:45:00+00:00,FT,Hougang United,4205,Tampines Rovers,4206,1,4,True
-1196684,2025-05-02T12:15:00+00:00,FT,DPMM FC Brunei,4202,Tanjong Pagar,10077,2,1,True
-1196686,2025-05-03T10:00:00+00:00,FT,Young Lions,4208,Balestier Khalsa,4201,0,4,True
-1196685,2025-05-04T10:00:00+00:00,FT,Home United,4204,Geylang International,4203,2,3,True
-1196678,2025-05-07T11:45:00+00:00,FT,Tampines Rovers,4206,Balestier Khalsa,4201,0,1,True
-1196680,2025-05-07T11:45:00+00:00,FT,Tanjong Pagar,10077,Young Lions,4208,1,1,True
-1196687,2025-05-10T10:00:00+00:00,FT,Tampines Rovers,4206,Young Lions,4208,2,0,True
-1196688,2025-05-10T10:00:00+00:00,FT,Tanjong Pagar,10077,Home United,4204,0,1,True
-1196689,2025-05-11T10:00:00+00:00,FT,Balestier Khalsa,4201,DPMM FC Brunei,4202,3,4,True
-1196690,2025-05-11T10:00:00+00:00,FT,Geylang International,4203,Albirex Niigata S,4200,1,4,True
-1196677,2025-05-13T11:45:00+00:00,FT,Tanjong Pagar,10077,Hougang United,4205,1,1,True
-1196692,2025-05-14T11:45:00+00:00,FT,Home United,4204,Balestier Khalsa,4201,0,1,True
-1196675,2025-05-15T11:45:00+00:00,FT,Young Lions,4208,Geylang International,4203,1,2,True
-1196691,2025-05-16T11:45:00+00:00,FT,Albirex Niigata S,4200,Tanjong Pagar,10077,5,1,True
-1196693,2025-05-17T12:15:00+00:00,FT,DPMM FC Brunei,4202,Tampines Rovers,4206,2,1,True
-1196694,2025-05-19T11:45:00+00:00,FT,Young Lions,4208,Hougang United,4205,4,3,True
-1196695,2025-05-24T10:00:00+00:00,FT,Hougang United,4205,DPMM FC Brunei,4202,2,3,True
-1196696,2025-05-24T10:00:00+00:00,FT,Tampines Rovers,4206,Home United,4204,0,0,True
-1196697,2025-05-25T10:00:00+00:00,FT,Balestier Khalsa,4201,Albirex Niigata S,4200,3,2,True
-1196698,2025-05-25T10:00:00+00:00,FT,Tanjong Pagar,10077,Geylang International,4203,3,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1196556,2024-05-10T11:45:00+00:00,FT,Regular Season - 1,Balestier Khalsa,4201,Geylang International,4203,2,2,True
+1196555,2024-05-10T11:45:00+00:00,FT,Regular Season - 1,Hougang United,4205,Home United,4204,1,4,True
+1196557,2024-05-11T10:00:00+00:00,FT,Regular Season - 1,Young Lions,4208,DPMM FC Brunei,4202,1,2,True
+1196558,2024-05-12T10:00:00+00:00,FT,Regular Season - 1,Tampines Rovers,4206,Albirex Niigata S,4200,3,1,True
+1196559,2024-05-17T11:45:00+00:00,FT,Regular Season - 2,Geylang International,4203,Tampines Rovers,4206,4,4,True
+1196560,2024-05-18T10:00:00+00:00,FT,Regular Season - 2,Albirex Niigata S,4200,Hougang United,4205,1,0,True
+1196561,2024-05-18T10:00:00+00:00,FT,Regular Season - 2,Home United,4204,Young Lions,4208,3,1,True
+1196562,2024-05-19T10:00:00+00:00,FT,Regular Season - 2,Tanjong Pagar,10077,Balestier Khalsa,4201,0,5,True
+1196563,2024-05-24T11:45:00+00:00,FT,Regular Season - 3,Balestier Khalsa,4201,Tampines Rovers,4206,2,4,True
+1196564,2024-05-25T10:00:00+00:00,FT,Regular Season - 3,Albirex Niigata S,4200,DPMM FC Brunei,4202,1,4,True
+1196565,2024-05-25T10:00:00+00:00,FT,Regular Season - 3,Geylang International,4203,Young Lions,4208,7,1,True
+1196566,2024-05-26T10:00:00+00:00,FT,Regular Season - 3,Tanjong Pagar,10077,Hougang United,4205,1,1,True
+1196567,2024-06-14T11:45:00+00:00,FT,Regular Season - 4,Hougang United,4205,Geylang International,4203,2,6,True
+1196568,2024-06-15T10:00:00+00:00,FT,Regular Season - 4,Young Lions,4208,Albirex Niigata S,4200,3,2,True
+1196570,2024-06-16T10:00:00+00:00,FT,Regular Season - 4,Tampines Rovers,4206,Tanjong Pagar,10077,3,0,True
+1196569,2024-06-18T11:45:00+00:00,FT,Regular Season - 4,DPMM FC Brunei,4202,Home United,4204,0,2,True
+1196571,2024-06-21T11:45:00+00:00,FT,Regular Season - 5,Hougang United,4205,Balestier Khalsa,4201,3,3,True
+1196572,2024-06-22T10:00:00+00:00,FT,Regular Season - 5,Young Lions,4208,Tanjong Pagar,10077,3,2,True
+1196573,2024-06-22T12:15:00+00:00,FT,Regular Season - 5,DPMM FC Brunei,4202,Geylang International,4203,3,3,True
+1196574,2024-06-23T10:00:00+00:00,FT,Regular Season - 5,Home United,4204,Albirex Niigata S,4200,7,1,True
+1196575,2024-06-28T11:45:00+00:00,FT,Regular Season - 6,Geylang International,4203,Home United,4204,1,1,True
+1196577,2024-06-29T10:00:00+00:00,FT,Regular Season - 6,Balestier Khalsa,4201,Young Lions,4208,3,2,True
+1196576,2024-06-29T10:00:00+00:00,FT,Regular Season - 6,Tanjong Pagar,10077,DPMM FC Brunei,4202,3,2,True
+1196578,2024-06-30T10:00:00+00:00,FT,Regular Season - 6,Tampines Rovers,4206,Hougang United,4205,5,1,True
+1196579,2024-07-05T11:45:00+00:00,FT,Regular Season - 7,Balestier Khalsa,4201,DPMM FC Brunei,4202,4,2,True
+1196580,2024-07-06T10:00:00+00:00,FT,Regular Season - 7,Albirex Niigata S,4200,Geylang International,4203,0,6,True
+1196581,2024-07-06T10:00:00+00:00,FT,Regular Season - 7,Young Lions,4208,Tampines Rovers,4206,0,2,True
+1196582,2024-07-07T10:00:00+00:00,FT,Regular Season - 7,Home United,4204,Tanjong Pagar,10077,3,0,True
+1196583,2024-07-12T11:45:00+00:00,FT,Regular Season - 8,Tanjong Pagar,10077,Albirex Niigata S,4200,2,1,True
+1196584,2024-07-13T10:00:00+00:00,FT,Regular Season - 8,Balestier Khalsa,4201,Home United,4204,2,4,True
+1196585,2024-07-13T10:00:00+00:00,FT,Regular Season - 8,Tampines Rovers,4206,DPMM FC Brunei,4202,3,0,True
+1196586,2024-07-14T10:00:00+00:00,FT,Regular Season - 8,Hougang United,4205,Young Lions,4208,2,2,True
+1196587,2024-07-18T11:45:00+00:00,FT,Regular Season - 9,Albirex Niigata S,4200,Balestier Khalsa,4201,7,2,True
+1196588,2024-07-18T11:45:00+00:00,FT,Regular Season - 9,Home United,4204,Tampines Rovers,4206,0,5,True
+1196589,2024-07-19T11:45:00+00:00,FT,Regular Season - 9,Geylang International,4203,Tanjong Pagar,10077,5,3,True
+1196590,2024-07-19T12:15:00+00:00,FT,Regular Season - 9,DPMM FC Brunei,4202,Hougang United,4205,1,1,True
+1196591,2024-07-22T11:45:00+00:00,FT,Regular Season - 10,Young Lions,4208,Home United,4204,0,6,True
+1196592,2024-07-23T11:45:00+00:00,FT,Regular Season - 10,Hougang United,4205,Albirex Niigata S,4200,1,0,True
+1196594,2024-07-24T11:45:00+00:00,FT,Regular Season - 10,Balestier Khalsa,4201,Tanjong Pagar,10077,5,2,True
+1196593,2024-07-24T11:45:00+00:00,FT,Regular Season - 10,Tampines Rovers,4206,Geylang International,4203,2,2,True
+1196595,2024-07-27T10:00:00+00:00,FT,Regular Season - 11,Albirex Niigata S,4200,Tampines Rovers,4206,2,4,True
+1196596,2024-07-27T10:00:00+00:00,FT,Regular Season - 11,DPMM FC Brunei,4202,Young Lions,4208,1,3,True
+1196598,2024-07-28T10:00:00+00:00,FT,Regular Season - 11,Geylang International,4203,Balestier Khalsa,4201,4,4,True
+1196597,2024-07-28T10:00:00+00:00,FT,Regular Season - 11,Home United,4204,Hougang United,4205,7,1,True
+1196599,2024-08-02T11:45:00+00:00,FT,Regular Season - 12,Geylang International,4203,Hougang United,4205,0,1,True
+1196600,2024-08-03T10:00:00+00:00,FT,Regular Season - 12,Home United,4204,DPMM FC Brunei,4202,3,0,True
+1196601,2024-08-03T10:00:00+00:00,FT,Regular Season - 12,Tanjong Pagar,10077,Tampines Rovers,4206,0,3,True
+1196602,2024-08-04T10:00:00+00:00,FT,Regular Season - 12,Albirex Niigata S,4200,Young Lions,4208,2,1,True
+1196603,2024-08-10T10:00:00+00:00,FT,Regular Season - 13,Young Lions,4208,Geylang International,4203,0,3,True
+1196604,2024-08-10T12:15:00+00:00,FT,Regular Season - 13,DPMM FC Brunei,4202,Albirex Niigata S,4200,0,0,True
+1196606,2024-08-11T10:00:00+00:00,FT,Regular Season - 13,Balestier Khalsa,4201,Tampines Rovers,4206,2,2,True
+1196605,2024-08-11T10:00:00+00:00,FT,Regular Season - 13,Hougang United,4205,Tanjong Pagar,10077,5,1,True
+1196607,2024-08-23T11:45:00+00:00,FT,Regular Season - 14,Balestier Khalsa,4201,Hougang United,4205,3,1,True
+1196609,2024-08-24T10:00:00+00:00,FT,Regular Season - 14,Geylang International,4203,DPMM FC Brunei,4202,2,4,True
+1196608,2024-08-24T10:00:00+00:00,FT,Regular Season - 14,Tanjong Pagar,10077,Young Lions,4208,1,3,True
+1196610,2024-08-25T10:00:00+00:00,FT,Regular Season - 14,Albirex Niigata S,4200,Home United,4204,3,1,True
+1196612,2024-08-30T11:45:00+00:00,FT,Regular Season - 15,Home United,4204,Geylang International,4203,2,2,True
+1196611,2024-08-30T11:45:00+00:00,FT,Regular Season - 15,Hougang United,4205,Tampines Rovers,4206,1,1,True
+1196613,2024-08-31T10:00:00+00:00,FT,Regular Season - 15,Young Lions,4208,Balestier Khalsa,4201,2,7,True
+1196614,2024-08-31T12:15:00+00:00,FT,Regular Season - 15,DPMM FC Brunei,4202,Tanjong Pagar,10077,1,1,True
+1196618,2024-09-13T11:45:00+00:00,FT,Regular Season - 16,DPMM FC Brunei,4202,Balestier Khalsa,4201,2,2,True
+1196616,2024-09-14T10:00:00+00:00,FT,Regular Season - 16,Tampines Rovers,4206,Young Lions,4208,2,2,True
+1196615,2024-09-14T10:00:00+00:00,FT,Regular Season - 16,Tanjong Pagar,10077,Home United,4204,0,6,True
+1196617,2024-09-15T10:00:00+00:00,FT,Regular Season - 16,Geylang International,4203,Albirex Niigata S,4200,5,1,True
+1196619,2024-09-20T11:45:00+00:00,FT,Regular Season - 17,Albirex Niigata S,4200,Tanjong Pagar,10077,4,1,True
+1196620,2024-09-21T10:00:00+00:00,FT,Regular Season - 17,Young Lions,4208,Hougang United,4205,4,4,True
+1196621,2024-09-22T10:00:00+00:00,FT,Regular Season - 17,Home United,4204,Balestier Khalsa,4201,3,1,True
+1196622,2024-09-22T12:15:00+00:00,FT,Regular Season - 17,DPMM FC Brunei,4202,Tampines Rovers,4206,3,2,True
+1196623,2024-09-27T11:45:00+00:00,FT,Regular Season - 18,Hougang United,4205,DPMM FC Brunei,4202,2,2,True
+1196624,2024-09-28T10:00:00+00:00,FT,Regular Season - 18,Balestier Khalsa,4201,Albirex Niigata S,4200,2,3,True
+1196625,2024-09-28T10:00:00+00:00,FT,Regular Season - 18,Tanjong Pagar,10077,Geylang International,4203,2,7,True
+1196626,2024-09-29T10:00:00+00:00,FT,Regular Season - 18,Tampines Rovers,4206,Home United,4204,2,2,True
+1196627,2024-10-18T12:15:00+00:00,FT,Regular Season - 19,DPMM FC Brunei,4202,Young Lions,4208,0,3,True
+1196629,2024-10-19T10:00:00+00:00,FT,Regular Season - 19,Home United,4204,Hougang United,4205,3,1,True
+1196628,2024-10-19T10:00:00+00:00,FT,Regular Season - 19,Tampines Rovers,4206,Albirex Niigata S,4200,2,3,True
+1196630,2024-10-20T10:00:00+00:00,FT,Regular Season - 19,Balestier Khalsa,4201,Geylang International,4203,1,4,True
+1196634,2024-10-28T11:45:00+00:00,FT,Regular Season - 20,Tanjong Pagar,10077,Balestier Khalsa,4201,0,5,True
+1196631,2024-10-29T11:45:00+00:00,FT,Regular Season - 20,Albirex Niigata S,4200,Hougang United,4205,2,1,True
+1196632,2024-10-29T11:45:00+00:00,FT,Regular Season - 20,Geylang International,4203,Tampines Rovers,4206,0,3,True
+1196635,2024-11-01T11:45:00+00:00,FT,Regular Season - 21,Hougang United,4205,Tanjong Pagar,10077,6,0,True
+1196636,2024-11-02T10:00:00+00:00,FT,Regular Season - 21,Albirex Niigata S,4200,DPMM FC Brunei,4202,2,3,True
+1196637,2024-11-02T10:00:00+00:00,FT,Regular Season - 21,Tampines Rovers,4206,Balestier Khalsa,4201,3,1,True
+1196638,2024-11-03T10:00:00+00:00,FT,Regular Season - 21,Geylang International,4203,Young Lions,4208,4,0,True
+1196640,2024-11-22T11:45:00+00:00,FT,Regular Season - 22,Tampines Rovers,4206,Tanjong Pagar,10077,5,0,True
+1196641,2024-11-23T10:00:00+00:00,FT,Regular Season - 22,Young Lions,4208,Albirex Niigata S,4200,0,1,True
+1196639,2024-11-24T10:00:00+00:00,FT,Regular Season - 22,Hougang United,4205,Geylang International,4203,2,3,True
+1196642,2025-01-13T12:15:00+00:00,FT,Regular Season - 22,DPMM FC Brunei,4202,Home United,4204,2,4,True
+1196643,2025-01-17T11:45:00+00:00,FT,Regular Season - 23,Home United,4204,Albirex Niigata S,4200,6,0,True
+1196644,2025-01-18T10:00:00+00:00,FT,Regular Season - 23,Young Lions,4208,Tanjong Pagar,10077,1,1,True
+1196645,2025-01-18T12:15:00+00:00,FT,Regular Season - 23,DPMM FC Brunei,4202,Geylang International,4203,0,2,True
+1196646,2025-01-19T10:00:00+00:00,FT,Regular Season - 23,Hougang United,4205,Balestier Khalsa,4201,3,1,True
+1196648,2025-01-25T10:00:00+00:00,FT,Regular Season - 24,Balestier Khalsa,4201,Young Lions,4208,2,3,True
+1196647,2025-01-25T10:00:00+00:00,FT,Regular Season - 24,Tampines Rovers,4206,Hougang United,4205,2,4,True
+1196650,2025-01-26T10:00:00+00:00,FT,Regular Season - 24,Geylang International,4203,Home United,4204,1,2,True
+1196649,2025-01-26T10:00:00+00:00,FT,Regular Season - 24,Tanjong Pagar,10077,DPMM FC Brunei,4202,3,0,True
+1196651,2025-02-07T12:15:00+00:00,FT,Regular Season - 25,DPMM FC Brunei,4202,Balestier Khalsa,4201,2,3,True
+1196653,2025-02-08T10:00:00+00:00,FT,Regular Season - 25,Young Lions,4208,Tampines Rovers,4206,1,5,True
+1196654,2025-02-09T10:00:00+00:00,FT,Regular Season - 25,Albirex Niigata S,4200,Geylang International,4203,1,1,True
+1196652,2025-02-09T10:00:00+00:00,FT,Regular Season - 25,Home United,4204,Tanjong Pagar,10077,4,1,True
+1196655,2025-02-21T11:45:00+00:00,FT,Regular Season - 26,Tanjong Pagar,10077,Albirex Niigata S,4200,1,2,True
+1196656,2025-02-22T10:00:00+00:00,FT,Regular Season - 26,Hougang United,4205,Young Lions,4208,3,3,True
+1196658,2025-02-23T10:00:00+00:00,FT,Regular Season - 26,Balestier Khalsa,4201,Home United,4204,1,5,True
+1196657,2025-02-23T10:00:00+00:00,FT,Regular Season - 26,Tampines Rovers,4206,DPMM FC Brunei,4202,1,0,True
+1196660,2025-02-26T11:45:00+00:00,FT,Regular Season - 27,DPMM FC Brunei,4202,Hougang United,4205,2,1,True
+1196659,2025-02-26T11:45:00+00:00,FT,Regular Season - 27,Home United,4204,Tampines Rovers,4206,1,0,True
+1196661,2025-02-27T11:45:00+00:00,FT,Regular Season - 27,Albirex Niigata S,4200,Balestier Khalsa,4201,4,0,True
+1196662,2025-02-27T11:45:00+00:00,FT,Regular Season - 27,Geylang International,4203,Tanjong Pagar,10077,5,0,True
+1196663,2025-03-07T12:30:00+00:00,FT,Regular Season - 28,Geylang International,4203,Balestier Khalsa,4201,3,4,True
+1196664,2025-03-08T12:30:00+00:00,FT,Regular Season - 28,Young Lions,4208,DPMM FC Brunei,4202,1,1,True
+1196665,2025-03-09T12:30:00+00:00,FT,Regular Season - 28,Albirex Niigata S,4200,Tampines Rovers,4206,0,4,True
+1196666,2025-03-09T12:30:00+00:00,FT,Regular Season - 28,Hougang United,4205,Home United,4204,1,1,True
+1196667,2025-04-04T11:45:00+00:00,FT,Regular Season - 29,Tampines Rovers,4206,Geylang International,4203,3,1,True
+1196669,2025-04-05T10:00:00+00:00,FT,Regular Season - 29,Balestier Khalsa,4201,Tanjong Pagar,10077,3,3,True
+1196668,2025-04-05T10:00:00+00:00,FT,Regular Season - 29,Hougang United,4205,Albirex Niigata S,4200,1,0,True
+1196670,2025-04-06T10:00:00+00:00,FT,Regular Season - 29,Young Lions,4208,Home United,4204,0,8,True
+1196671,2025-04-11T11:45:00+00:00,FT,Regular Season - 30,Geylang International,4203,Hougang United,4205,4,3,True
+1196672,2025-04-11T11:45:00+00:00,FT,Regular Season - 30,Tanjong Pagar,10077,Tampines Rovers,4206,0,2,True
+1196673,2025-04-12T10:00:00+00:00,FT,Regular Season - 30,Home United,4204,DPMM FC Brunei,4202,0,0,True
+1196674,2025-04-13T10:00:00+00:00,FT,Regular Season - 30,Albirex Niigata S,4200,Young Lions,4208,0,0,True
+1196676,2025-04-19T12:15:00+00:00,FT,Regular Season - 31,DPMM FC Brunei,4202,Albirex Niigata S,4200,3,0,True
+1196682,2025-04-24T11:45:00+00:00,FT,Regular Season - 32,Balestier Khalsa,4201,Hougang United,4205,2,1,True
+1196679,2025-04-25T12:15:00+00:00,FT,Regular Season - 32,Albirex Niigata S,4200,Home United,4204,0,2,True
+1196681,2025-04-29T12:30:00+00:00,FT,Regular Season - 32,Geylang International,4203,DPMM FC Brunei,4202,1,3,True
+1196633,2025-04-30T11:45:00+00:00,FT,Regular Season - 20,Home United,4204,Young Lions,4208,3,1,True
+1196683,2025-05-02T11:45:00+00:00,FT,Regular Season - 33,Hougang United,4205,Tampines Rovers,4206,1,4,True
+1196684,2025-05-02T12:15:00+00:00,FT,Regular Season - 33,DPMM FC Brunei,4202,Tanjong Pagar,10077,2,1,True
+1196686,2025-05-03T10:00:00+00:00,FT,Regular Season - 33,Young Lions,4208,Balestier Khalsa,4201,0,4,True
+1196685,2025-05-04T10:00:00+00:00,FT,Regular Season - 33,Home United,4204,Geylang International,4203,2,3,True
+1196678,2025-05-07T11:45:00+00:00,FT,Regular Season - 31,Tampines Rovers,4206,Balestier Khalsa,4201,0,1,True
+1196680,2025-05-07T11:45:00+00:00,FT,Regular Season - 32,Tanjong Pagar,10077,Young Lions,4208,1,1,True
+1196687,2025-05-10T10:00:00+00:00,FT,Regular Season - 34,Tampines Rovers,4206,Young Lions,4208,2,0,True
+1196688,2025-05-10T10:00:00+00:00,FT,Regular Season - 34,Tanjong Pagar,10077,Home United,4204,0,1,True
+1196689,2025-05-11T10:00:00+00:00,FT,Regular Season - 34,Balestier Khalsa,4201,DPMM FC Brunei,4202,3,4,True
+1196690,2025-05-11T10:00:00+00:00,FT,Regular Season - 34,Geylang International,4203,Albirex Niigata S,4200,1,4,True
+1196677,2025-05-13T11:45:00+00:00,FT,Regular Season - 31,Tanjong Pagar,10077,Hougang United,4205,1,1,True
+1196692,2025-05-14T11:45:00+00:00,FT,Regular Season - 35,Home United,4204,Balestier Khalsa,4201,0,1,True
+1196675,2025-05-15T11:45:00+00:00,FT,Regular Season - 31,Young Lions,4208,Geylang International,4203,1,2,True
+1196691,2025-05-16T11:45:00+00:00,FT,Regular Season - 35,Albirex Niigata S,4200,Tanjong Pagar,10077,5,1,True
+1196693,2025-05-17T12:15:00+00:00,FT,Regular Season - 35,DPMM FC Brunei,4202,Tampines Rovers,4206,2,1,True
+1196694,2025-05-19T11:45:00+00:00,FT,Regular Season - 35,Young Lions,4208,Hougang United,4205,4,3,True
+1196695,2025-05-24T10:00:00+00:00,FT,Regular Season - 36,Hougang United,4205,DPMM FC Brunei,4202,2,3,True
+1196696,2025-05-24T10:00:00+00:00,FT,Regular Season - 36,Tampines Rovers,4206,Home United,4204,0,0,True
+1196697,2025-05-25T10:00:00+00:00,FT,Regular Season - 36,Balestier Khalsa,4201,Albirex Niigata S,4200,3,2,True
+1196698,2025-05-25T10:00:00+00:00,FT,Regular Season - 36,Tanjong Pagar,10077,Geylang International,4203,3,3,True

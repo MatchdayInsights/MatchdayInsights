@@ -1,6 +1,170 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1325455,2025-02-12T14:00:00+00:00,FT,Martina Franca,19975,Guidonia Montecelio 1937,882,0,0,True
-1325453,2025-02-12T16:30:00+00:00,FT,Ravenna,1705,Lavagnese,9436,2,0,True
-1325454,2025-02-26T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Martina Franca,19975,5,0,True
-1325452,2025-02-26T14:00:00+00:00,FT,Lavagnese,9436,Ravenna,1705,1,1,True
-1355244,2025-03-12T14:30:00+00:00,PEN,Guidonia Montecelio 1937,882,Ravenna,1705,2,2,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1286023,2024-08-24T14:00:00+00:00,FT,Preliminary Round,Francavilla,9543,Pompei,24697,3,1,True
+1286005,2024-08-24T16:00:00+00:00,FT,Preliminary Round,Livorno,868,Zenith Prato,24704,3,0,True
+1286015,2024-08-24T18:30:00+00:00,FT,Preliminary Round,Recanatese,9517,Ancona,897,1,3,True
+1286010,2024-08-24T18:30:00+00:00,PEN,Preliminary Round,Latte Dolce,9528,Atletico Uri,17842,0,0,False
+1286018,2024-08-25T13:00:00+00:00,FT,Preliminary Round,Terracina Calcio,24702,Real Acerrana,24698,0,4,True
+1285989,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Fossano,9434,Saluzzo,17814,1,3,True
+1285992,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Castellanzese,9448,Club Milano,22307,1,3,True
+1286000,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Chions,9467,Brian Lignano,24683,2,1,True
+1285991,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Breno,9481,Ciliverghe,883,1,2,True
+1285996,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Crema,9484,Fiorenzuola,9485,1,0,True
+1286002,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Sammaurese,9489,Imolese,893,1,2,True
+1286004,2024-08-25T14:00:00+00:00,FT,Preliminary Round,San Donato Tavarnelle,9502,FC Siena,24691,2,0,True
+1286017,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Avezzano,9507,Sora,22318,4,2,True
+1286021,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Gravina,9546,Manfredonia,22313,2,0,True
+1286001,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Progresso,13168,Cittadella Vis Modena,24686,1,2,True
+1285995,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Real Calepina,17140,Sondrio,9458,0,1,True
+1285993,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Sangiuliano City,17817,Pro Sesto,9456,2,0,True
+1286006,2024-08-25T14:00:00+00:00,PEN,Preliminary Round,ASD Sasso Marconi,17823,Tuttocuoio,1686,1,1,False
+1286012,2024-08-25T14:00:00+00:00,PEN,Preliminary Round,Albalonga,17844,Anzio,22300,0,0,False
+1286011,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Real Monterotondo,17846,Guidonia Montecelio 1937,882,1,2,True
+1286019,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Angri Calcio,19967,Costa D’Amalfi,24689,0,1,True
+1286007,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Cairese,24684,Imperia,17811,0,3,True
+1285998,2024-08-25T14:00:00+00:00,PEN,Preliminary Round,Calvi Noale,24685,Luparense,9473,0,0,False
+1286016,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Città di Isernia,24687,Teramo,1683,0,2,True
+1286014,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Civitanovese,24688,Fermana,1701,3,1,True
+1286003,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Fulgens Foligno,24692,Orvietana Calcio,19977,1,0,True
+1285999,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Lavis,24693,Cjarlins Muzane,9468,0,2,True
+1285997,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Ospitaletto,24696,Vigasio,9478,0,1,True
+1286020,2024-08-25T14:00:00+00:00,FT,Preliminary Round,Sarnese,24700,Savoia,9564,3,0,True
+1286027,2024-08-25T15:00:00+00:00,FT,Preliminary Round,Siracusa,894,Sancataldese,17860,2,0,True
+1286008,2024-08-25T15:00:00+00:00,PEN,Preliminary Round,Sangiovannese,9503,Terranuova Traiana,19988,0,0,False
+1285988,2024-08-25T15:00:00+00:00,PEN,Preliminary Round,Borgaro Nobis,24682,Chieri,1594,1,1,False
+1286013,2024-08-25T15:30:00+00:00,PEN,Preliminary Round,Castelfidardo Calcio,17836,United Riccione,20111,2,2,False
+1286009,2024-08-25T16:00:00+00:00,PEN,Preliminary Round,Olbia,1697,Ilvamaddalena,19973,1,1,False
+1285990,2024-08-25T16:00:00+00:00,FT,Preliminary Round,Derthona,17810,Magenta,3076,3,1,True
+1286025,2024-08-25T16:00:00+00:00,PEN,Preliminary Round,Locri 1909,19974,Paternò,17857,0,0,False
+1286026,2024-08-25T16:00:00+00:00,PEN,Preliminary Round,Nissa,24694,Enna,24690,1,1,False
+1286022,2024-08-25T17:30:00+00:00,FT,Preliminary Round,Virtus Francavilla,873,Ugento,24703,2,1,True
+1286024,2024-08-25T18:30:00+00:00,FT,Preliminary Round,Brindisi,9541,Sambiase,24699,0,1,True
+1285994,2024-08-25T18:30:00+00:00,PEN,Preliminary Round,Vogherese,22320,Oltrepò,24695,1,1,False
+1296469,2024-08-31T13:00:00+00:00,FT,1st Round,Livorno,868,Grosseto,9499,3,0,True
+1296468,2024-08-31T13:00:00+00:00,FT,1st Round,Poggibonsi,17831,Sangiovannese,9503,0,2,True
+1296471,2024-08-31T13:00:00+00:00,FT,1st Round,Sarrabus Ogliastra,19984,Latte Dolce,9528,1,0,True
+1296638,2024-08-31T14:00:00+00:00,FT,1st Round,Victor San Marino,22124,Castelfidardo Calcio,17836,2,3,True
+1285963,2024-08-31T15:00:00+00:00,PEN,1st Round,Bra,9430,Asti,17808,1,1,False
+1285979,2024-09-01T13:00:00+00:00,PEN,1st Round,Sambenedettese,871,Atletico Ascoli,22302,1,1,False
+1285975,2024-09-01T13:00:00+00:00,FT,1st Round,Trastevere,874,Atletico Lodigiani,24762,1,3,True
+1296459,2024-09-01T13:00:00+00:00,FT,1st Round,Campodarsego,1592,Calvi Noale,24685,2,1,True
+1285976,2024-09-01T13:00:00+00:00,FT,1st Round,Prato,1680,Seravezza,9441,0,1,True
+1296466,2024-09-01T13:00:00+00:00,FT,1st Round,Gavorrano,1699,ASD Sasso Marconi,17823,2,1,True
+1296458,2024-09-01T13:00:00+00:00,FT,1st Round,Mestre,1704,Chions,9467,2,0,True
+1296636,2024-09-01T13:00:00+00:00,FT,1st Round,Gozzano,1714,Oltrepò,24695,0,1,True
+1285977,2024-09-01T13:00:00+00:00,PEN,1st Round,Ghivizzano Borgo Mozzano,9435,Tau Altopascio,19986,2,2,False
+1285967,2024-09-01T13:00:00+00:00,FT,1st Round,Caravaggio,9447,Brusaporto,9445,0,2,True
+1285970,2024-09-01T13:00:00+00:00,FT,1st Round,Villa Valle,9460,Chievo,491,1,0,True
+1285978,2024-09-01T13:00:00+00:00,FT,1st Round,Montevarchi Calcio,9500,Figline,22108,0,3,True
+1296467,2024-09-01T13:00:00+00:00,FT,1st Round,San Donato Tavarnelle,9502,Pistoiese,1589,2,0,True
+1285966,2024-09-01T13:00:00+00:00,FT,1st Round,Città di Varese,17809,Varesina,18177,2,0,True
+1296641,2024-09-01T13:00:00+00:00,FT,1st Round,Paternò,17857,Igea Virtus,22310,1,0,True
+1296464,2024-09-01T13:00:00+00:00,FT,1st Round,Roma City,19981,Albalonga,17844,3,1,True
+1296475,2024-09-01T13:00:00+00:00,PEN,1st Round,Termoli Calcio,19987,Teramo,1683,1,1,False
+1296452,2024-09-01T13:00:00+00:00,FT,1st Round,Albenga,22299,Imperia,17811,0,2,True
+1296463,2024-09-01T13:00:00+00:00,FT,1st Round,Fossombrone,22308,Imolese,893,2,1,True
+1296476,2024-09-01T13:00:00+00:00,FT,1st Round,Ischia,22311,Real Acerrana,24698,2,1,True
+1285980,2024-09-01T13:00:00+00:00,FT,1st Round,L'Aquila,22312,Notaresco,9518,1,0,True
+1296454,2024-09-01T13:00:00+00:00,FT,1st Round,Pro Palazzolo,22329,Ciliverghe,883,2,1,True
+1296462,2024-09-01T13:00:00+00:00,FT,1st Round,Cittadella Vis Modena,24686,Corticella,19972,2,0,True
+1296474,2024-09-01T13:00:00+00:00,FT,1st Round,Civitanovese,24688,Chieti,9509,2,0,True
+1285987,2024-09-01T14:00:00+00:00,FT,1st Round,Akragas,1684,Licata,9557,4,0,True
+1296451,2024-09-01T14:00:00+00:00,PEN,1st Round,Ligorna,9437,Saluzzo,17814,0,0,False
+1285965,2024-09-01T14:00:00+00:00,FT,1st Round,Vado,9442,Sanremese,9439,3,0,True
+1296453,2024-09-01T14:00:00+00:00,FT,1st Round,Arconatese,9444,Club Milano,22307,0,3,True
+1285971,2024-09-01T14:00:00+00:00,FT,1st Round,Este,9471,Adriese,5603,1,2,True
+1296461,2024-09-01T14:00:00+00:00,FT,1st Round,Lentigione,9487,Crema,9484,2,1,True
+1296470,2024-09-01T14:00:00+00:00,FT,1st Round,Sporting Trestina,9505,Fulgens Foligno,24692,1,0,True
+1296472,2024-09-01T14:00:00+00:00,FT,1st Round,Cassino,9525,Avezzano,9507,2,0,True
+1296637,2024-09-01T14:00:00+00:00,FT,1st Round,Ostia Mare,9530,Ilvamaddalena,19973,3,0,True
+1296478,2024-09-01T14:00:00+00:00,FT,1st Round,Nocerina,9548,Costa D’Amalfi,24689,3,1,True
+1296634,2024-09-01T14:00:00+00:00,FT,1st Round,Chisola,19970,Borgaro Nobis,24682,2,1,True
+1285969,2024-09-01T14:00:00+00:00,FT,1st Round,Sant'Angelo,19983,USD Casatese,17563,2,1,True
+1285981,2024-09-01T14:00:00+00:00,FT,1st Round,USD Palmese,19991,Gelbison,9544,1,2,True
+1296477,2024-09-01T14:00:00+00:00,FT,1st Round,Sarnese,24700,Paganese,890,1,2,True
+1296640,2024-09-01T14:30:00+00:00,FT,1st Round,Francavilla,9543,Virtus Francavilla,873,1,5,True
+1285973,2024-09-01T14:30:00+00:00,FT,1st Round,Montecchio Maggiore,19976,Bassano Virtus,881,2,1,True
+1296642,2024-09-01T14:30:00+00:00,FT,1st Round,Enna,24690,CastrumFavara,24763,1,0,True
+1296480,2024-09-01T15:00:00+00:00,FT,1st Round,Siracusa,894,Ragusa,20303,1,0,True
+1285985,2024-09-01T15:00:00+00:00,FT,1st Round,Reggina,1692,Vibonese,1681,2,0,True
+1285968,2024-09-01T15:00:00+00:00,FT,1st Round,Fanfulla,5605,Piacenza,872,1,2,True
+1296465,2024-09-01T15:00:00+00:00,PEN,1st Round,Flaminia,9497,Guidonia Montecelio 1937,882,2,2,False
+1296460,2024-09-01T15:00:00+00:00,PEN,1st Round,Portogruaro,19979,Cjarlins Muzane,9468,2,2,False
+1285982,2024-09-01T15:00:00+00:00,FT,1st Round,Scafatese,24701,Puteolana,17542,2,0,True
+1285984,2024-09-01T15:30:00+00:00,FT,1st Round,Città di Fasano,5604,Matera,869,0,4,True
+1296457,2024-09-01T15:30:00+00:00,PEN,1st Round,Desenzano Calvina,17816,Vigasio,9478,2,2,False
+1285964,2024-09-01T16:00:00+00:00,PEN,1st Round,Lavagnese,9436,Fezzanese,9433,1,1,False
+1296455,2024-09-01T16:00:00+00:00,PEN,1st Round,Folgore Caratese,9450,Sangiuliano City,17817,2,2,False
+1285983,2024-09-01T16:00:00+00:00,FT,1st Round,Nardò,9536,Fidelis Andria,1695,1,6,True
+1296635,2024-09-01T16:00:00+00:00,PEN,1st Round,Derthona,17810,NovaRomentin,24761,1,1,False
+1285986,2024-09-01T16:30:00+00:00,FT,1st Round,Acireale,9550,Città Di Sant’Agata,17854,2,0,True
+1296479,2024-09-01T16:30:00+00:00,FT,1st Round,Martina Franca,19975,Gravina,9546,1,0,True
+1296473,2024-09-01T16:30:00+00:00,PEN,1st Round,Vigor Senigallia,19992,Ancona,897,2,2,False
+1296639,2024-09-01T17:00:00+00:00,FT,1st Round,Casarano,9542,Sambiase,24699,3,1,True
+1285972,2024-09-01T17:00:00+00:00,PEN,1st Round,Treviso,22319,Dolomiti Bellunesi,17820,0,0,False
+1285974,2024-09-01T18:30:00+00:00,PEN,1st Round,Ravenna,1705,Forli,1688,1,1,False
+1296456,2024-09-11T15:00:00+00:00,FT,1st Round,Virtus Ciserano Bergamo,9462,Real Calepina,17140,5,1,True
+1307102,2024-11-06T13:30:00+00:00,FT,Round of 64,Sambenedettese,871,Vigor Senigallia,19992,1,2,True
+1307110,2024-11-06T13:30:00+00:00,PEN,Round of 64,Guidonia Montecelio 1937,882,Cassino,9525,0,0,False
+1307112,2024-11-06T13:30:00+00:00,PEN,Round of 64,Paganese,890,Scafatese,24701,1,1,False
+1307119,2024-11-06T13:30:00+00:00,FT,Round of 64,Siracusa,894,Paternò,17857,3,0,True
+1307118,2024-11-06T13:30:00+00:00,FT,Round of 64,Akragas,1684,Enna,24690,0,2,True
+1307117,2024-11-06T13:30:00+00:00,FT,Round of 64,Reggina,1692,Acireale,9550,2,1,True
+1307108,2024-11-06T13:30:00+00:00,FT,Round of 64,Gavorrano,1699,Sporting Trestina,9505,1,0,True
+1307099,2024-11-06T13:30:00+00:00,FT,Round of 64,Adriese,5603,Mestre,1704,2,1,True
+1307105,2024-11-06T13:30:00+00:00,PEN,Round of 64,Seravezza,9441,San Donato Tavarnelle,9502,1,1,False
+1307092,2024-11-06T13:30:00+00:00,FT,Round of 64,Brusaporto,9445,Sangiuliano City,17817,1,2,True
+1307097,2024-11-06T13:30:00+00:00,FT,Round of 64,Cjarlins Muzane,9468,Montecchio Maggiore,19976,2,0,True
+1307096,2024-11-06T13:30:00+00:00,PEN,Round of 64,Vigasio,9478,Pro Palazzolo,22329,0,0,False
+1307111,2024-11-06T13:30:00+00:00,PEN,Round of 64,Ostia Mare,9530,Sarrabus Ogliastra,19984,1,1,False
+1307114,2024-11-06T13:30:00+00:00,FT,Round of 64,Gelbison,9544,Matera,869,2,1,True
+1307113,2024-11-06T13:30:00+00:00,FT,Round of 64,Nocerina,9548,Ischia,22311,1,2,True
+1307089,2024-11-06T13:30:00+00:00,PEN,Round of 64,Imperia,17811,Vado,9442,0,0,False
+1307098,2024-11-06T13:30:00+00:00,FT,Round of 64,Dolomiti Bellunesi,17820,Campodarsego,1592,2,1,True
+1307103,2024-11-06T13:30:00+00:00,FT,Round of 64,Castelfidardo Calcio,17836,Civitanovese,24688,4,1,True
+1307106,2024-11-06T13:30:00+00:00,FT,Round of 64,Figline,22108,Sangiovannese,9503,1,2,True
+1307091,2024-11-06T13:30:00+00:00,FT,Round of 64,Club Milano,22307,NovaRomentin,24761,2,0,True
+1307104,2024-11-06T13:30:00+00:00,FT,Round of 64,L'Aquila,22312,Termoli Calcio,19987,1,0,True
+1307109,2024-11-06T13:30:00+00:00,FT,Round of 64,Atletico Lodigiani,24762,Roma City,19981,0,3,True
+1307090,2024-11-06T14:00:00+00:00,FT,Round of 64,Saluzzo,17814,Chisola,19970,3,0,True
+1307115,2024-11-06T15:00:00+00:00,FT,Round of 64,Fidelis Andria,1695,Casarano,9542,2,3,True
+1307093,2024-11-06T16:00:00+00:00,FT,Round of 64,Sant'Angelo,19983,Città di Varese,17809,3,0,True
+1307107,2024-11-06T17:00:00+00:00,FT,Round of 64,Livorno,868,Ghivizzano Borgo Mozzano,9435,3,1,True
+1307094,2024-11-06T19:30:00+00:00,FT,Round of 64,Villa Valle,9460,Real Calepina,17140,1,0,True
+1307116,2024-11-13T13:30:00+00:00,FT,Round of 64,Virtus Francavilla,873,Martina Franca,19975,0,1,True
+1307100,2024-11-13T13:30:00+00:00,FT,Round of 64,Cittadella Vis Modena,24686,Lentigione,9487,0,2,True
+1307088,2024-11-13T14:00:00+00:00,FT,Round of 64,Lavagnese,9436,Bra,9430,3,1,True
+1307101,2024-11-13T17:00:00+00:00,FT,Round of 64,Ravenna,1705,Fossombrone,22308,3,1,True
+1307095,2024-11-13T19:30:00+00:00,FT,Round of 64,Oltrepò,24695,Piacenza,872,0,2,True
+1315939,2024-11-20T13:30:00+00:00,PEN,Round of 32,Vado,9442,Saluzzo,17814,0,0,False
+1315941,2024-11-20T13:30:00+00:00,FT,Round of 32,Lentigione,9487,Ravenna,1705,0,1,True
+1315324,2024-11-20T13:30:00+00:00,FT,Round of 32,Sangiovannese,9503,Gavorrano,1699,1,2,True
+1315942,2024-11-20T13:30:00+00:00,FT,Round of 32,Gelbison,9544,Reggina,1692,1,3,True
+1315321,2024-11-20T13:30:00+00:00,PEN,Round of 32,Dolomiti Bellunesi,17820,Adriese,5603,3,3,False
+1315325,2024-11-20T13:30:00+00:00,PEN,Round of 32,Roma City,19981,L'Aquila,22312,0,0,False
+1315326,2024-11-20T13:30:00+00:00,PEN,Round of 32,Sarrabus Ogliastra,19984,Guidonia Montecelio 1937,882,1,1,False
+1315319,2024-11-20T13:30:00+00:00,FT,Round of 32,Club Milano,22307,Sant'Angelo,19983,1,2,True
+1315329,2024-11-20T13:30:00+00:00,FT,Round of 32,Enna,24690,Siracusa,894,3,2,True
+1315327,2024-11-20T13:30:00+00:00,FT,Round of 32,Scafatese,24701,Ischia,22311,6,0,True
+1315318,2024-11-20T14:00:00+00:00,FT,Round of 32,Lavagnese,9436,Sangiuliano City,17817,2,1,True
+1315328,2024-11-20T14:00:00+00:00,FT,Round of 32,Martina Franca,19975,Casarano,9542,1,0,True
+1315320,2024-11-20T14:00:00+00:00,FT,Round of 32,Pro Palazzolo,22329,Cjarlins Muzane,9468,1,2,True
+1315940,2024-11-20T16:00:00+00:00,FT,Round of 32,Piacenza,872,Villa Valle,9460,2,1,True
+1315323,2024-11-20T19:30:00+00:00,FT,Round of 32,Livorno,868,Seravezza,9441,3,0,True
+1315322,2024-11-27T13:30:00+00:00,FT,Round of 32,Vigor Senigallia,19992,Castelfidardo Calcio,17836,1,2,True
+1316394,2024-12-04T13:00:00+00:00,FT,Round of 16,Scafatese,24701,Martina Franca,19975,0,1,True
+1316393,2024-12-04T13:30:00+00:00,FT,Round of 16,Guidonia Montecelio 1937,882,L'Aquila,22312,4,0,True
+1316395,2024-12-04T13:30:00+00:00,PEN,Round of 16,Reggina,1692,Enna,24690,1,1,False
+1316392,2024-12-04T13:30:00+00:00,PEN,Round of 16,Gavorrano,1699,Livorno,868,1,1,False
+1316391,2024-12-04T13:30:00+00:00,FT,Round of 16,Cjarlins Muzane,9468,Dolomiti Bellunesi,17820,3,0,True
+1316389,2024-12-04T13:30:00+00:00,FT,Round of 16,Saluzzo,17814,Lavagnese,9436,0,2,True
+1317939,2024-12-04T13:30:00+00:00,FT,Round of 16,Castelfidardo Calcio,17836,Ravenna,1705,1,2,True
+1316390,2024-12-04T14:00:00+00:00,FT,Round of 16,Sant'Angelo,19983,Piacenza,872,0,3,True
+1319946,2024-12-18T13:30:00+00:00,FT,Quarter-finals,Livorno,868,Guidonia Montecelio 1937,882,2,3,True
+1319944,2024-12-18T14:00:00+00:00,FT,Quarter-finals,Piacenza,872,Lavagnese,9436,1,2,True
+1319945,2024-12-18T16:00:00+00:00,PEN,Quarter-finals,Ravenna,1705,Cjarlins Muzane,9468,2,2,False
+1319947,2024-12-18T19:30:00+00:00,FT,Quarter-finals,Martina Franca,19975,Enna,24690,1,0,True
+1325455,2025-02-12T14:00:00+00:00,FT,Semi-finals,Martina Franca,19975,Guidonia Montecelio 1937,882,0,0,True
+1325453,2025-02-12T16:30:00+00:00,FT,Semi-finals,Ravenna,1705,Lavagnese,9436,2,0,True
+1325454,2025-02-26T13:30:00+00:00,FT,Semi-finals,Guidonia Montecelio 1937,882,Martina Franca,19975,5,0,True
+1325452,2025-02-26T14:00:00+00:00,FT,Semi-finals,Lavagnese,9436,Ravenna,1705,1,1,True
+1355244,2025-03-12T14:30:00+00:00,PEN,Final,Guidonia Montecelio 1937,882,Ravenna,1705,2,2,False

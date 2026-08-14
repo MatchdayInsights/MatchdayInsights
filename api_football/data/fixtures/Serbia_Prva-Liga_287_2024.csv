@@ -1,137 +1,297 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1206316,2025-02-14T12:00:00+00:00,FT,Mladost Novi Sad,14261,OFK Vršac,12329,1,0,True
-1206323,2025-02-15T12:00:00+00:00,FT,Borac Cacak,2649,Radnik Surdulica,2657,0,2,True
-1206322,2025-02-15T12:00:00+00:00,FT,Grafičar,4252,Macva,2637,0,0,True
-1206320,2025-02-15T14:00:00+00:00,FT,FK Vozdovac,2658,Dubočica,12312,1,0,True
-1206318,2025-02-15T16:00:00+00:00,FT,Javor,2653,FK Trayal,2651,3,0,True
-1206317,2025-02-16T12:00:00+00:00,FT,Indjija,2631,Sloboda Uzice,2641,0,0,True
-1206319,2025-02-16T12:00:00+00:00,FT,Zemun,2642,Sloven Ruma,22084,1,1,True
-1206321,2025-02-16T12:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Semendrija 1924,4254,1,1,True
-1206324,2025-02-21T13:00:00+00:00,FT,OFK Vršac,12329,Borac Cacak,2649,1,2,True
-1206329,2025-02-21T13:00:00+00:00,FT,Sloven Ruma,22084,Javor,2653,1,1,True
-1206330,2025-02-21T14:00:00+00:00,FT,FK Trayal,2651,Indjija,2631,1,1,True
-1206331,2025-02-22T13:00:00+00:00,FT,Sloboda Uzice,2641,Mladost Novi Sad,14261,0,1,True
-1206327,2025-02-22T13:00:00+00:00,FT,Semendrija 1924,4254,FK Vozdovac,2658,0,0,True
-1206328,2025-02-22T13:00:00+00:00,FT,Dubočica,12312,Zemun,2642,1,5,True
-1206326,2025-02-22T14:00:00+00:00,FT,Macva,2637,Radnički Sr. Mitrovica,12338,3,1,True
-1206325,2025-02-23T13:00:00+00:00,FT,Radnik Surdulica,2657,Grafičar,4252,4,1,True
-1206333,2025-02-25T13:00:00+00:00,FT,Mladost Novi Sad,14261,FK Trayal,2651,0,3,True
-1206334,2025-02-26T13:00:00+00:00,FT,Indjija,2631,Sloven Ruma,22084,0,0,True
-1206337,2025-02-26T13:00:00+00:00,FT,FK Vozdovac,2658,Macva,2637,1,1,True
-1206332,2025-02-26T16:00:00+00:00,FT,Sloboda Uzice,2641,OFK Vršac,12329,0,1,True
-1206335,2025-02-26T16:00:00+00:00,FT,Javor,2653,Dubočica,12312,1,0,True
-1206339,2025-02-27T13:00:00+00:00,FT,Grafičar,4252,Borac Cacak,2649,3,1,True
-1206338,2025-02-27T13:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Radnik Surdulica,2657,0,3,True
-1206336,2025-02-27T14:00:00+00:00,FT,Zemun,2642,Semendrija 1924,4254,2,2,True
-1206347,2025-03-02T13:00:00+00:00,FT,FK Trayal,2651,Sloboda Uzice,2641,1,0,True
-1206345,2025-03-02T13:00:00+00:00,FT,Dubočica,12312,Indjija,2631,3,1,True
-1206346,2025-03-02T13:00:00+00:00,FT,Sloven Ruma,22084,Mladost Novi Sad,14261,0,0,True
-1206341,2025-03-03T13:00:00+00:00,FT,Borac Cacak,2649,Radnički Sr. Mitrovica,12338,1,0,True
-1206342,2025-03-03T13:00:00+00:00,FT,Radnik Surdulica,2657,FK Vozdovac,2658,1,0,True
-1206344,2025-03-03T13:00:00+00:00,FT,Semendrija 1924,4254,Javor,2653,0,0,True
-1206340,2025-03-03T13:00:00+00:00,FT,OFK Vršac,12329,Grafičar,4252,0,1,True
-1206343,2025-03-03T16:00:00+00:00,FT,Macva,2637,Zemun,2642,0,0,True
-1206351,2025-03-07T13:00:00+00:00,FT,Indjija,2631,Semendrija 1924,4254,1,2,True
-1206348,2025-03-07T13:00:00+00:00,FT,FK Trayal,2651,OFK Vršac,12329,0,0,True
-1206353,2025-03-08T13:00:00+00:00,FT,Zemun,2642,Radnik Surdulica,2657,2,1,True
-1206354,2025-03-08T13:00:00+00:00,FT,FK Vozdovac,2658,Borac Cacak,2649,0,0,True
-1206355,2025-03-08T13:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Grafičar,4252,1,1,True
-1206349,2025-03-08T16:00:00+00:00,FT,Sloboda Uzice,2641,Sloven Ruma,22084,2,2,True
-1206352,2025-03-08T16:00:00+00:00,FT,Javor,2653,Macva,2637,2,2,True
-1206350,2025-03-09T13:00:00+00:00,FT,Mladost Novi Sad,14261,Dubočica,12312,2,1,True
-1206358,2025-03-12T13:00:00+00:00,FT,Borac Cacak,2649,Zemun,2642,0,2,True
-1206357,2025-03-12T13:00:00+00:00,FT,Grafičar,4252,FK Vozdovac,2658,1,1,True
-1206361,2025-03-12T13:00:00+00:00,FT,Semendrija 1924,4254,Mladost Novi Sad,14261,0,0,True
-1206356,2025-03-12T13:00:00+00:00,FT,OFK Vršac,12329,Radnički Sr. Mitrovica,12338,0,1,True
-1206363,2025-03-12T13:00:00+00:00,FT,Sloven Ruma,22084,FK Trayal,2651,3,1,True
-1206360,2025-03-12T16:00:00+00:00,FT,Macva,2637,Indjija,2631,0,1,True
-1206362,2025-03-13T13:00:00+00:00,FT,Dubočica,12312,Sloboda Uzice,2641,1,1,True
-1206368,2025-03-16T13:00:00+00:00,FT,Indjija,2631,Radnik Surdulica,2657,0,2,True
-1206369,2025-03-16T13:00:00+00:00,FT,Javor,2653,Borac Cacak,2649,2,1,True
-1206364,2025-03-16T13:00:00+00:00,FT,Sloven Ruma,22084,OFK Vršac,12329,0,0,True
-1206370,2025-03-17T13:00:00+00:00,FT,Zemun,2642,Grafičar,4252,2,0,True
-1206365,2025-03-17T13:00:00+00:00,FT,FK Trayal,2651,Dubočica,12312,1,2,True
-1206371,2025-03-17T13:00:00+00:00,FT,FK Vozdovac,2658,Radnički Sr. Mitrovica,12338,1,1,True
-1206367,2025-03-17T13:00:00+00:00,FT,Mladost Novi Sad,14261,Macva,2637,0,0,True
-1206366,2025-03-17T16:00:00+00:00,FT,Sloboda Uzice,2641,Semendrija 1924,4254,2,1,True
-1206374,2025-03-22T13:00:00+00:00,FT,Grafičar,4252,Javor,2653,1,1,True
-1206375,2025-03-22T14:00:00+00:00,FT,Borac Cacak,2649,Indjija,2631,2,1,True
-1206376,2025-03-22T14:00:00+00:00,FT,Radnik Surdulica,2657,Mladost Novi Sad,14261,3,0,True
-1206379,2025-03-22T14:00:00+00:00,FT,Dubočica,12312,Sloven Ruma,22084,2,3,True
-1206378,2025-03-24T14:00:00+00:00,FT,Semendrija 1924,4254,FK Trayal,2651,0,0,True
-1206372,2025-03-24T14:00:00+00:00,FT,OFK Vršac,12329,FK Vozdovac,2658,1,1,True
-1206373,2025-03-24T14:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Zemun,2642,0,0,True
-1206377,2025-03-24T17:00:00+00:00,FT,Macva,2637,Sloboda Uzice,2641,1,0,True
-1206359,2025-03-26T14:00:00+00:00,FT,Radnik Surdulica,2657,Javor,2653,2,0,True
-1206380,2025-03-29T14:00:00+00:00,FT,Dubočica,12312,OFK Vršac,12329,4,0,True
-1206384,2025-03-29T14:00:00+00:00,FT,Mladost Novi Sad,14261,Borac Cacak,2649,1,1,True
-1206381,2025-03-29T14:00:00+00:00,FT,Sloven Ruma,22084,Semendrija 1924,4254,3,2,True
-1206385,2025-03-30T14:00:00+00:00,FT,Indjija,2631,Grafičar,4252,2,3,True
-1206387,2025-03-30T14:00:00+00:00,FT,Zemun,2642,FK Vozdovac,2658,1,2,True
-1206382,2025-03-30T14:00:00+00:00,FT,FK Trayal,2651,Macva,2637,0,0,True
-1206383,2025-03-30T16:00:00+00:00,FT,Sloboda Uzice,2641,Radnik Surdulica,2657,0,3,True
-1206386,2025-03-30T16:00:00+00:00,FT,Javor,2653,Radnički Sr. Mitrovica,12338,0,2,True
-1206393,2025-04-05T14:00:00+00:00,FT,Radnik Surdulica,2657,FK Trayal,2651,2,1,True
-1206391,2025-04-05T14:00:00+00:00,FT,Grafičar,4252,Mladost Novi Sad,14261,2,0,True
-1206388,2025-04-05T14:00:00+00:00,FT,OFK Vršac,12329,Zemun,2642,0,1,True
-1206392,2025-04-06T14:00:00+00:00,FT,Borac Cacak,2649,Sloboda Uzice,2641,2,0,True
-1206389,2025-04-06T14:00:00+00:00,FT,FK Vozdovac,2658,Javor,2653,1,0,True
-1206395,2025-04-06T14:00:00+00:00,FT,Semendrija 1924,4254,Dubočica,12312,0,1,True
-1206390,2025-04-06T14:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Indjija,2631,1,0,True
-1206394,2025-04-06T16:00:00+00:00,FT,Macva,2637,Sloven Ruma,22084,2,1,True
-1368342,2025-04-11T14:00:00+00:00,FT,Grafičar,4252,OFK Vršac,12329,0,0,True
-1368368,2025-04-12T14:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Sloven Ruma,22084,1,1,True
-1368339,2025-04-13T14:00:00+00:00,FT,Radnik Surdulica,2657,Javor,2653,2,1,True
-1368341,2025-04-13T14:00:00+00:00,FT,FK Vozdovac,2658,Borac Cacak,2649,2,0,True
-1368370,2025-04-13T14:00:00+00:00,FT,Semendrija 1924,4254,Indjija,2631,1,1,True
-1368340,2025-04-13T16:00:00+00:00,FT,Macva,2637,Mladost Novi Sad,14261,1,3,True
-1368367,2025-04-14T14:00:00+00:00,FT,Zemun,2642,FK Trayal,2651,2,5,True
-1368369,2025-04-14T16:00:00+00:00,FT,Dubočica,12312,Sloboda Uzice,2641,2,0,True
-1368374,2025-04-23T14:00:00+00:00,FT,Indjija,2631,Dubočica,12312,3,1,True
-1368345,2025-04-23T14:00:00+00:00,FT,Borac Cacak,2649,Grafičar,4252,1,2,True
-1368373,2025-04-23T14:00:00+00:00,FT,FK Trayal,2651,Radnički Sr. Mitrovica,12338,1,0,True
-1368346,2025-04-23T14:00:00+00:00,FT,OFK Vršac,12329,FK Vozdovac,2658,0,1,True
-1368343,2025-04-23T14:00:00+00:00,FT,Mladost Novi Sad,14261,Radnik Surdulica,2657,2,1,True
-1368372,2025-04-23T14:00:00+00:00,FT,Sloven Ruma,22084,Semendrija 1924,4254,1,0,True
-1368371,2025-04-23T16:00:00+00:00,FT,Sloboda Uzice,2641,Zemun,2642,2,0,True
-1368344,2025-04-24T16:00:00+00:00,FT,Javor,2653,Macva,2637,2,1,True
-1368348,2025-04-27T12:00:00+00:00,FT,FK Vozdovac,2658,Grafičar,4252,2,2,True
-1368375,2025-04-27T14:00:00+00:00,FT,Zemun,2642,Sloven Ruma,22084,0,0,True
-1368350,2025-04-27T14:00:00+00:00,FT,Borac Cacak,2649,OFK Vršac,12329,1,2,True
-1368376,2025-04-27T14:00:00+00:00,FT,Semendrija 1924,4254,Sloboda Uzice,2641,1,0,True
-1368347,2025-04-28T14:00:00+00:00,FT,Radnik Surdulica,2657,Macva,2637,4,0,True
-1368377,2025-04-28T14:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Indjija,2631,3,0,True
-1368349,2025-04-28T16:00:00+00:00,FT,Javor,2653,Mladost Novi Sad,14261,1,0,True
-1368378,2025-04-28T17:00:00+00:00,FT,Dubočica,12312,FK Trayal,2651,1,2,True
-1368353,2025-05-03T14:00:00+00:00,FT,OFK Vršac,12329,Javor,2653,1,3,True
-1368382,2025-05-03T16:00:00+00:00,FT,Sloboda Uzice,2641,Sloven Ruma,22084,1,0,True
-1368381,2025-05-04T14:00:00+00:00,FT,FK Trayal,2651,Indjija,2631,1,1,True
-1368351,2025-05-04T14:00:00+00:00,FT,Grafičar,4252,Radnik Surdulica,2657,3,3,True
-1368352,2025-05-04T16:00:00+00:00,FT,Macva,2637,FK Vozdovac,2658,1,0,True
-1368379,2025-05-05T15:00:00+00:00,FT,Semendrija 1924,4254,Zemun,2642,4,3,True
-1368380,2025-05-05T15:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Dubočica,12312,0,1,True
-1368354,2025-05-05T15:00:00+00:00,FT,Mladost Novi Sad,14261,Borac Cacak,2649,4,3,True
-1368386,2025-05-10T15:00:00+00:00,FT,Indjija,2631,Sloboda Uzice,2641,0,1,True
-1368357,2025-05-10T17:00:00+00:00,FT,Javor,2653,Grafičar,4252,3,0,True
-1368383,2025-05-11T15:00:00+00:00,FT,Zemun,2642,Radnički Sr. Mitrovica,12338,3,2,True
-1368385,2025-05-11T15:00:00+00:00,FT,Sloven Ruma,22084,FK Trayal,2651,1,1,True
-1368358,2025-05-11T17:00:00+00:00,FT,Macva,2637,Borac Cacak,2649,0,1,True
-1368355,2025-05-12T15:00:00+00:00,FT,Radnik Surdulica,2657,FK Vozdovac,2658,2,0,True
-1368384,2025-05-12T15:00:00+00:00,FT,Dubočica,12312,Semendrija 1924,4254,2,1,True
-1368356,2025-05-12T15:00:00+00:00,FT,Mladost Novi Sad,14261,OFK Vršac,12329,3,1,True
-1368361,2025-05-17T15:00:00+00:00,FT,Borac Cacak,2649,Javor,2653,1,2,True
-1368360,2025-05-17T15:00:00+00:00,FT,FK Vozdovac,2658,Mladost Novi Sad,14261,2,2,True
-1368362,2025-05-17T15:00:00+00:00,FT,Grafičar,4252,Macva,2637,1,1,True
-1368359,2025-05-18T14:00:00+00:00,FT,OFK Vršac,12329,Radnik Surdulica,2657,1,2,True
-1368387,2025-05-19T15:00:00+00:00,FT,Indjija,2631,Zemun,2642,1,2,True
-1368389,2025-05-19T15:00:00+00:00,FT,Sloboda Uzice,2641,Radnički Sr. Mitrovica,12338,1,1,True
-1368390,2025-05-19T15:00:00+00:00,FT,Semendrija 1924,4254,FK Trayal,2651,0,0,True
-1368388,2025-05-19T15:00:00+00:00,FT,Dubočica,12312,Sloven Ruma,22084,0,1,True
-1368363,2025-05-23T15:00:00+00:00,FT,Radnik Surdulica,2657,Borac Cacak,2649,2,0,True
-1368364,2025-05-23T17:00:00+00:00,FT,Javor,2653,FK Vozdovac,2658,1,1,True
-1368365,2025-05-24T15:00:00+00:00,FT,Macva,2637,OFK Vršac,12329,0,1,True
-1368366,2025-05-24T15:00:00+00:00,FT,Mladost Novi Sad,14261,Grafičar,4252,1,2,True
-1368391,2025-05-25T15:00:00+00:00,FT,Zemun,2642,Dubočica,12312,1,1,True
-1368394,2025-05-25T15:00:00+00:00,FT,FK Trayal,2651,Sloboda Uzice,2641,2,0,True
-1368393,2025-05-25T15:00:00+00:00,FT,Radnički Sr. Mitrovica,12338,Semendrija 1924,4254,0,1,True
-1368392,2025-05-25T15:00:00+00:00,FT,Sloven Ruma,22084,Indjija,2631,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1206158,2024-08-02T15:30:00+00:00,FT,Regular Season - 1,Radnik Surdulica,2657,Sloven Ruma,22084,1,0,True
+1206160,2024-08-03T15:30:00+00:00,FT,Regular Season - 1,Grafičar,4252,Sloboda Uzice,2641,3,1,True
+1206161,2024-08-03T15:30:00+00:00,FT,Regular Season - 1,Radnički Sr. Mitrovica,12338,Mladost Novi Sad,14261,1,1,True
+1206157,2024-08-03T17:00:00+00:00,FT,Regular Season - 1,Macva,2637,Dubočica,12312,4,0,True
+1206162,2024-08-03T18:00:00+00:00,FT,Regular Season - 1,FK Vozdovac,2658,Indjija,2631,2,0,True
+1206163,2024-08-04T15:30:00+00:00,FT,Regular Season - 1,Zemun,2642,Javor,2653,0,0,True
+1206156,2024-08-05T15:30:00+00:00,FT,Regular Season - 1,Semendrija 1924,4254,OFK Vršac,12329,0,2,True
+1206159,2024-08-05T17:00:00+00:00,FT,Regular Season - 1,Borac Cacak,2649,FK Trayal,2651,4,0,True
+1206168,2024-08-10T15:30:00+00:00,FT,Regular Season - 2,FK Trayal,2651,Grafičar,4252,2,4,True
+1206164,2024-08-10T15:30:00+00:00,FT,Regular Season - 2,OFK Vršac,12329,Javor,2653,0,0,True
+1206166,2024-08-10T15:30:00+00:00,FT,Regular Season - 2,Mladost Novi Sad,14261,FK Vozdovac,2658,0,0,True
+1206169,2024-08-10T15:30:00+00:00,FT,Regular Season - 2,Sloven Ruma,22084,Borac Cacak,2649,0,0,True
+1206171,2024-08-11T15:30:00+00:00,FT,Regular Season - 2,Semendrija 1924,4254,Macva,2637,1,2,True
+1206170,2024-08-11T15:30:00+00:00,FT,Regular Season - 2,Dubočica,12312,Radnik Surdulica,2657,1,1,True
+1206165,2024-08-12T15:30:00+00:00,FT,Regular Season - 2,Indjija,2631,Zemun,2642,0,0,True
+1206167,2024-08-12T17:00:00+00:00,FT,Regular Season - 2,Sloboda Uzice,2641,Radnički Sr. Mitrovica,12338,1,1,True
+1206175,2024-08-17T15:30:00+00:00,FT,Regular Season - 3,Grafičar,4252,Sloven Ruma,22084,2,0,True
+1206179,2024-08-17T17:00:00+00:00,FT,Regular Season - 3,Javor,2653,Indjija,2631,1,0,True
+1206177,2024-08-17T18:00:00+00:00,FT,Regular Season - 3,FK Vozdovac,2658,Sloboda Uzice,2641,2,0,True
+1206178,2024-08-18T15:30:00+00:00,FT,Regular Season - 3,Zemun,2642,Mladost Novi Sad,14261,0,2,True
+1206173,2024-08-18T15:30:00+00:00,FT,Regular Season - 3,Radnik Surdulica,2657,Semendrija 1924,4254,0,0,True
+1206176,2024-08-18T15:30:00+00:00,FT,Regular Season - 3,Radnički Sr. Mitrovica,12338,FK Trayal,2651,1,0,True
+1206174,2024-08-19T17:00:00+00:00,FT,Regular Season - 3,Borac Cacak,2649,Dubočica,12312,1,1,True
+1206172,2024-08-19T18:00:00+00:00,FT,Regular Season - 3,Macva,2637,OFK Vršac,12329,5,1,True
+1206183,2024-08-24T15:00:00+00:00,FT,Regular Season - 4,FK Trayal,2651,FK Vozdovac,2658,1,0,True
+1206180,2024-08-24T15:00:00+00:00,FT,Regular Season - 4,OFK Vršac,12329,Indjija,2631,0,2,True
+1206181,2024-08-24T15:00:00+00:00,FT,Regular Season - 4,Mladost Novi Sad,14261,Javor,2653,1,0,True
+1206184,2024-08-24T15:00:00+00:00,FT,Regular Season - 4,Sloven Ruma,22084,Radnički Sr. Mitrovica,12338,3,2,True
+1206182,2024-08-24T17:00:00+00:00,FT,Regular Season - 4,Sloboda Uzice,2641,Zemun,2642,3,0,True
+1206187,2024-08-25T17:00:00+00:00,FT,Regular Season - 4,Macva,2637,Radnik Surdulica,2657,1,0,True
+1206186,2024-08-25T17:00:00+00:00,FT,Regular Season - 4,Semendrija 1924,4254,Borac Cacak,2649,3,2,True
+1206185,2024-08-26T16:30:00+00:00,FT,Regular Season - 4,Dubočica,12312,Grafičar,4252,1,3,True
+1206195,2024-08-31T15:00:00+00:00,FT,Regular Season - 5,Indjija,2631,Mladost Novi Sad,14261,1,3,True
+1206193,2024-08-31T15:00:00+00:00,FT,Regular Season - 5,Zemun,2642,FK Trayal,2651,1,0,True
+1206191,2024-08-31T15:00:00+00:00,FT,Regular Season - 5,Radnički Sr. Mitrovica,12338,Dubočica,12312,0,0,True
+1206194,2024-08-31T17:00:00+00:00,FT,Regular Season - 5,Javor,2653,Sloboda Uzice,2641,1,0,True
+1206188,2024-09-01T15:00:00+00:00,FT,Regular Season - 5,Radnik Surdulica,2657,OFK Vršac,12329,1,1,True
+1206190,2024-09-01T15:00:00+00:00,FT,Regular Season - 5,Grafičar,4252,Semendrija 1924,4254,2,0,True
+1206189,2024-09-01T17:00:00+00:00,FT,Regular Season - 5,Borac Cacak,2649,Macva,2637,2,0,True
+1206192,2024-09-02T18:00:00+00:00,FT,Regular Season - 5,FK Vozdovac,2658,Sloven Ruma,22084,5,0,True
+1206198,2024-09-07T14:30:00+00:00,FT,Regular Season - 6,FK Trayal,2651,Javor,2653,1,3,True
+1206200,2024-09-07T14:30:00+00:00,FT,Regular Season - 6,Dubočica,12312,FK Vozdovac,2658,0,3,True
+1206199,2024-09-07T14:30:00+00:00,FT,Regular Season - 6,Sloven Ruma,22084,Zemun,2642,1,1,True
+1206201,2024-09-07T17:00:00+00:00,FT,Regular Season - 6,Semendrija 1924,4254,Radnički Sr. Mitrovica,12338,2,0,True
+1206203,2024-09-08T14:30:00+00:00,FT,Regular Season - 6,Radnik Surdulica,2657,Borac Cacak,2649,4,0,True
+1206196,2024-09-08T14:30:00+00:00,FT,Regular Season - 6,OFK Vršac,12329,Mladost Novi Sad,14261,1,1,True
+1206202,2024-09-09T16:30:00+00:00,FT,Regular Season - 6,Macva,2637,Grafičar,4252,2,0,True
+1206197,2024-09-09T16:30:00+00:00,FT,Regular Season - 6,Sloboda Uzice,2641,Indjija,2631,0,2,True
+1206207,2024-09-14T17:00:00+00:00,FT,Regular Season - 7,FK Vozdovac,2658,Semendrija 1924,4254,0,1,True
+1206210,2024-09-15T14:00:00+00:00,FT,Regular Season - 7,Indjija,2631,FK Trayal,2651,1,2,True
+1206208,2024-09-15T14:00:00+00:00,FT,Regular Season - 7,Zemun,2642,Dubočica,12312,1,4,True
+1206205,2024-09-15T14:00:00+00:00,FT,Regular Season - 7,Grafičar,4252,Radnik Surdulica,2657,1,0,True
+1206206,2024-09-15T14:00:00+00:00,FT,Regular Season - 7,Radnički Sr. Mitrovica,12338,Macva,2637,0,1,True
+1206209,2024-09-15T17:00:00+00:00,FT,Regular Season - 7,Javor,2653,Sloven Ruma,22084,0,0,True
+1206211,2024-09-16T14:00:00+00:00,FT,Regular Season - 7,Mladost Novi Sad,14261,Sloboda Uzice,2641,1,0,True
+1206204,2024-09-16T17:00:00+00:00,FT,Regular Season - 7,Borac Cacak,2649,OFK Vršac,12329,3,1,True
+1206214,2024-09-21T14:00:00+00:00,FT,Regular Season - 8,Sloven Ruma,22084,Indjija,2631,1,1,True
+1206217,2024-09-21T16:00:00+00:00,FT,Regular Season - 8,Macva,2637,FK Vozdovac,2658,3,1,True
+1206219,2024-09-22T17:00:00+00:00,FT,Regular Season - 8,Borac Cacak,2649,Grafičar,4252,2,1,True
+1206216,2024-09-23T14:00:00+00:00,FT,Regular Season - 8,Semendrija 1924,4254,Zemun,2642,1,1,True
+1206215,2024-09-23T14:00:00+00:00,FT,Regular Season - 8,Dubočica,12312,Javor,2653,1,1,True
+1206212,2024-09-23T14:00:00+00:00,FT,Regular Season - 8,OFK Vršac,12329,Sloboda Uzice,2641,1,0,True
+1206213,2024-09-23T15:00:00+00:00,FT,Regular Season - 8,FK Trayal,2651,Mladost Novi Sad,14261,0,1,True
+1206218,2024-09-23T15:00:00+00:00,FT,Regular Season - 8,Radnik Surdulica,2657,Radnički Sr. Mitrovica,12338,0,0,True
+1206225,2024-09-28T13:00:00+00:00,FT,Regular Season - 9,Indjija,2631,Dubočica,12312,2,4,True
+1206220,2024-09-28T13:00:00+00:00,FT,Regular Season - 9,Grafičar,4252,OFK Vršac,12329,1,1,True
+1206221,2024-09-28T13:00:00+00:00,FT,Regular Season - 9,Radnički Sr. Mitrovica,12338,Borac Cacak,2649,0,0,True
+1206226,2024-09-28T13:00:00+00:00,FT,Regular Season - 9,Mladost Novi Sad,14261,Sloven Ruma,22084,2,0,True
+1206227,2024-09-28T17:00:00+00:00,FT,Regular Season - 9,Sloboda Uzice,2641,FK Trayal,2651,1,1,True
+1206222,2024-09-28T17:00:00+00:00,FT,Regular Season - 9,FK Vozdovac,2658,Radnik Surdulica,2657,1,3,True
+1206223,2024-09-29T13:00:00+00:00,FT,Regular Season - 9,Zemun,2642,Macva,2637,0,2,True
+1206224,2024-10-02T17:00:00+00:00,FT,Regular Season - 9,Javor,2653,Semendrija 1924,4254,2,0,True
+1206228,2024-10-04T13:00:00+00:00,FT,Regular Season - 10,OFK Vršac,12329,FK Trayal,2651,2,0,True
+1206230,2024-10-05T13:00:00+00:00,FT,Regular Season - 10,Dubočica,12312,Mladost Novi Sad,14261,1,1,True
+1206229,2024-10-05T13:00:00+00:00,FT,Regular Season - 10,Sloven Ruma,22084,Sloboda Uzice,2641,1,4,True
+1206234,2024-10-05T16:00:00+00:00,FT,Regular Season - 10,Borac Cacak,2649,FK Vozdovac,2658,1,0,True
+1206235,2024-10-06T13:00:00+00:00,FT,Regular Season - 10,Grafičar,4252,Radnički Sr. Mitrovica,12338,0,0,True
+1206232,2024-10-06T16:00:00+00:00,FT,Regular Season - 10,Macva,2637,Javor,2653,0,2,True
+1206233,2024-10-06T16:00:00+00:00,FT,Regular Season - 10,Radnik Surdulica,2657,Zemun,2642,1,1,True
+1206231,2024-10-07T14:00:00+00:00,FT,Regular Season - 10,Semendrija 1924,4254,Indjija,2631,0,0,True
+1206239,2024-10-11T17:00:00+00:00,FT,Regular Season - 11,Javor,2653,Radnik Surdulica,2657,0,0,True
+1206240,2024-10-13T13:00:00+00:00,FT,Regular Season - 11,Indjija,2631,Macva,2637,1,0,True
+1206238,2024-10-13T13:00:00+00:00,FT,Regular Season - 11,Zemun,2642,Borac Cacak,2649,3,0,True
+1206243,2024-10-13T13:00:00+00:00,FT,Regular Season - 11,FK Trayal,2651,Sloven Ruma,22084,1,1,True
+1206236,2024-10-13T13:00:00+00:00,FT,Regular Season - 11,Radnički Sr. Mitrovica,12338,OFK Vršac,12329,4,2,True
+1206242,2024-10-13T16:00:00+00:00,FT,Regular Season - 11,Sloboda Uzice,2641,Dubočica,12312,1,1,True
+1206237,2024-10-13T16:00:00+00:00,FT,Regular Season - 11,FK Vozdovac,2658,Grafičar,4252,2,1,True
+1206241,2024-10-15T13:00:00+00:00,FT,Regular Season - 11,Mladost Novi Sad,14261,Semendrija 1924,4254,1,0,True
+1206248,2024-10-19T12:00:00+00:00,FT,Regular Season - 12,Radnik Surdulica,2657,Indjija,2631,5,0,True
+1206250,2024-10-19T12:00:00+00:00,FT,Regular Season - 12,Grafičar,4252,Zemun,2642,2,2,True
+1206244,2024-10-19T12:00:00+00:00,FT,Regular Season - 12,OFK Vršac,12329,Sloven Ruma,22084,1,0,True
+1206249,2024-10-19T16:00:00+00:00,FT,Regular Season - 12,Borac Cacak,2649,Javor,2653,1,1,True
+1206246,2024-10-20T12:00:00+00:00,FT,Regular Season - 12,Semendrija 1924,4254,Sloboda Uzice,2641,2,0,True
+1206251,2024-10-20T12:00:00+00:00,FT,Regular Season - 12,Radnički Sr. Mitrovica,12338,FK Vozdovac,2658,0,1,True
+1206247,2024-10-20T16:00:00+00:00,FT,Regular Season - 12,Macva,2637,Mladost Novi Sad,14261,0,0,True
+1206245,2024-10-21T12:00:00+00:00,FT,Regular Season - 12,Dubočica,12312,FK Trayal,2651,0,4,True
+1206255,2024-10-26T12:00:00+00:00,FT,Regular Season - 13,Indjija,2631,Borac Cacak,2649,2,2,True
+1206253,2024-10-26T12:00:00+00:00,FT,Regular Season - 13,Zemun,2642,Radnički Sr. Mitrovica,12338,3,0,True
+1206258,2024-10-26T12:00:00+00:00,FT,Regular Season - 13,FK Trayal,2651,Semendrija 1924,4254,3,0,True
+1206256,2024-10-26T12:00:00+00:00,FT,Regular Season - 13,Mladost Novi Sad,14261,Radnik Surdulica,2657,0,0,True
+1206259,2024-10-26T12:00:00+00:00,FT,Regular Season - 13,Sloven Ruma,22084,Dubočica,12312,0,0,True
+1206257,2024-10-26T16:00:00+00:00,FT,Regular Season - 13,Sloboda Uzice,2641,Macva,2637,1,0,True
+1206254,2024-10-26T16:00:00+00:00,FT,Regular Season - 13,Javor,2653,Grafičar,4252,3,1,True
+1206252,2024-10-26T16:00:00+00:00,FT,Regular Season - 13,FK Vozdovac,2658,OFK Vršac,12329,0,0,True
+1206261,2024-11-03T12:00:00+00:00,FT,Regular Season - 14,Semendrija 1924,4254,Sloven Ruma,22084,2,1,True
+1206260,2024-11-03T12:00:00+00:00,FT,Regular Season - 14,OFK Vršac,12329,Dubočica,12312,2,0,True
+1206264,2024-11-03T14:00:00+00:00,FT,Regular Season - 14,Borac Cacak,2649,Mladost Novi Sad,14261,1,1,True
+1206262,2024-11-03T17:00:00+00:00,FT,Regular Season - 14,Macva,2637,FK Trayal,2651,2,0,True
+1206263,2024-11-04T12:00:00+00:00,FT,Regular Season - 14,Radnik Surdulica,2657,Sloboda Uzice,2641,2,0,True
+1206265,2024-11-04T12:00:00+00:00,FT,Regular Season - 14,Grafičar,4252,Indjija,2631,2,0,True
+1206266,2024-11-04T12:00:00+00:00,FT,Regular Season - 14,Radnički Sr. Mitrovica,12338,Javor,2653,0,0,True
+1206267,2024-11-04T17:00:00+00:00,FT,Regular Season - 14,FK Vozdovac,2658,Zemun,2642,0,0,True
+1206270,2024-11-09T12:00:00+00:00,FT,Regular Season - 15,Indjija,2631,Radnički Sr. Mitrovica,12338,0,0,True
+1206274,2024-11-09T12:00:00+00:00,FT,Regular Season - 15,Sloven Ruma,22084,Macva,2637,0,1,True
+1206268,2024-11-10T12:00:00+00:00,FT,Regular Season - 15,Zemun,2642,OFK Vršac,12329,0,1,True
+1206272,2024-11-10T16:00:00+00:00,FT,Regular Season - 15,Sloboda Uzice,2641,Borac Cacak,2649,0,0,True
+1206269,2024-11-10T16:00:00+00:00,FT,Regular Season - 15,Javor,2653,FK Vozdovac,2658,1,0,True
+1206273,2024-11-11T12:00:00+00:00,FT,Regular Season - 15,FK Trayal,2651,Radnik Surdulica,2657,1,2,True
+1206275,2024-11-11T12:00:00+00:00,FT,Regular Season - 15,Dubočica,12312,Semendrija 1924,4254,1,2,True
+1206271,2024-11-11T12:00:00+00:00,FT,Regular Season - 15,Mladost Novi Sad,14261,Grafičar,4252,3,1,True
+1206282,2024-11-16T12:00:00+00:00,FT,Regular Season - 16,Indjija,2631,FK Vozdovac,2658,4,1,True
+1206280,2024-11-16T12:00:00+00:00,FT,Regular Season - 16,Sloboda Uzice,2641,Grafičar,4252,0,0,True
+1206276,2024-11-16T12:00:00+00:00,FT,Regular Season - 16,OFK Vršac,12329,Semendrija 1924,4254,2,0,True
+1206281,2024-11-16T12:00:00+00:00,FT,Regular Season - 16,Mladost Novi Sad,14261,Radnički Sr. Mitrovica,12338,1,1,True
+1206278,2024-11-16T12:00:00+00:00,FT,Regular Season - 16,Sloven Ruma,22084,Radnik Surdulica,2657,1,0,True
+1206283,2024-11-16T17:00:00+00:00,FT,Regular Season - 16,Javor,2653,Zemun,2642,2,1,True
+1206279,2024-11-17T16:00:00+00:00,FT,Regular Season - 16,FK Trayal,2651,Borac Cacak,2649,4,0,True
+1206277,2024-11-20T12:00:00+00:00,FT,Regular Season - 16,Dubočica,12312,Macva,2637,2,2,True
+1206289,2024-11-23T12:00:00+00:00,FT,Regular Season - 17,Borac Cacak,2649,Sloven Ruma,22084,4,1,True
+1206286,2024-11-23T12:00:00+00:00,FT,Regular Season - 17,FK Vozdovac,2658,Mladost Novi Sad,14261,0,0,True
+1206287,2024-11-23T12:00:00+00:00,FT,Regular Season - 17,Radnički Sr. Mitrovica,12338,Sloboda Uzice,2641,2,0,True
+1206284,2024-11-23T15:00:00+00:00,FT,Regular Season - 17,Javor,2653,OFK Vršac,12329,0,2,True
+1206290,2024-11-24T12:00:00+00:00,FT,Regular Season - 17,Radnik Surdulica,2657,Dubočica,12312,2,0,True
+1206285,2024-11-25T12:00:00+00:00,FT,Regular Season - 17,Zemun,2642,Indjija,2631,0,0,True
+1206291,2024-11-25T15:00:00+00:00,FT,Regular Season - 17,Macva,2637,Semendrija 1924,4254,1,0,True
+1206299,2024-11-30T12:00:00+00:00,FT,Regular Season - 18,Indjija,2631,Javor,2653,1,2,True
+1206297,2024-11-30T12:00:00+00:00,FT,Regular Season - 18,Sloboda Uzice,2641,FK Vozdovac,2658,0,1,True
+1206298,2024-11-30T12:00:00+00:00,FT,Regular Season - 18,Mladost Novi Sad,14261,Zemun,2642,2,1,True
+1206295,2024-11-30T12:00:00+00:00,FT,Regular Season - 18,Sloven Ruma,22084,Grafičar,4252,3,0,True
+1206296,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,FK Trayal,2651,Radnički Sr. Mitrovica,12338,0,0,True
+1206293,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,Semendrija 1924,4254,Radnik Surdulica,2657,0,2,True
+1206294,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,Dubočica,12312,Borac Cacak,2649,0,2,True
+1206292,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,OFK Vršac,12329,Macva,2637,3,0,True
+1206300,2024-12-07T12:00:00+00:00,FT,Regular Season - 19,Indjija,2631,OFK Vršac,12329,1,2,True
+1206302,2024-12-07T12:00:00+00:00,FT,Regular Season - 19,Zemun,2642,Sloboda Uzice,2641,1,1,True
+1206306,2024-12-08T12:00:00+00:00,FT,Regular Season - 19,Borac Cacak,2649,Semendrija 1924,4254,4,0,True
+1206307,2024-12-08T12:00:00+00:00,FT,Regular Season - 19,Radnik Surdulica,2657,Macva,2637,1,0,True
+1206305,2024-12-08T12:00:00+00:00,FT,Regular Season - 19,Grafičar,4252,Dubočica,12312,1,1,True
+1206304,2024-12-08T12:00:00+00:00,FT,Regular Season - 19,Radnički Sr. Mitrovica,12338,Sloven Ruma,22084,1,0,True
+1206303,2024-12-08T17:00:00+00:00,FT,Regular Season - 19,FK Vozdovac,2658,FK Trayal,2651,2,0,True
+1206301,2024-12-09T15:00:00+00:00,FT,Regular Season - 19,Javor,2653,Mladost Novi Sad,14261,1,0,True
+1206314,2024-12-14T12:00:00+00:00,FT,Regular Season - 20,Sloboda Uzice,2641,Javor,2653,0,1,True
+1206310,2024-12-14T12:00:00+00:00,FT,Regular Season - 20,Semendrija 1924,4254,Grafičar,4252,1,1,True
+1206315,2024-12-14T12:00:00+00:00,FT,Regular Season - 20,Mladost Novi Sad,14261,Indjija,2631,2,1,True
+1206312,2024-12-14T12:00:00+00:00,FT,Regular Season - 20,Sloven Ruma,22084,FK Vozdovac,2658,0,1,True
+1206309,2024-12-14T15:00:00+00:00,FT,Regular Season - 20,Macva,2637,Borac Cacak,2649,1,0,True
+1206313,2024-12-14T15:00:00+00:00,FT,Regular Season - 20,FK Trayal,2651,Zemun,2642,0,3,True
+1206311,2024-12-15T12:00:00+00:00,FT,Regular Season - 20,Dubočica,12312,Radnički Sr. Mitrovica,12338,2,1,True
+1206308,2024-12-15T12:00:00+00:00,FT,Regular Season - 20,OFK Vršac,12329,Radnik Surdulica,2657,0,0,True
+1206288,2024-12-18T12:00:00+00:00,FT,Regular Season - 17,Grafičar,4252,FK Trayal,2651,0,2,True
+1206316,2025-02-14T12:00:00+00:00,FT,Regular Season - 21,Mladost Novi Sad,14261,OFK Vršac,12329,1,0,True
+1206323,2025-02-15T12:00:00+00:00,FT,Regular Season - 21,Borac Cacak,2649,Radnik Surdulica,2657,0,2,True
+1206322,2025-02-15T12:00:00+00:00,FT,Regular Season - 21,Grafičar,4252,Macva,2637,0,0,True
+1206320,2025-02-15T14:00:00+00:00,FT,Regular Season - 21,FK Vozdovac,2658,Dubočica,12312,1,0,True
+1206318,2025-02-15T16:00:00+00:00,FT,Regular Season - 21,Javor,2653,FK Trayal,2651,3,0,True
+1206317,2025-02-16T12:00:00+00:00,FT,Regular Season - 21,Indjija,2631,Sloboda Uzice,2641,0,0,True
+1206319,2025-02-16T12:00:00+00:00,FT,Regular Season - 21,Zemun,2642,Sloven Ruma,22084,1,1,True
+1206321,2025-02-16T12:00:00+00:00,FT,Regular Season - 21,Radnički Sr. Mitrovica,12338,Semendrija 1924,4254,1,1,True
+1206324,2025-02-21T13:00:00+00:00,FT,Regular Season - 22,OFK Vršac,12329,Borac Cacak,2649,1,2,True
+1206329,2025-02-21T13:00:00+00:00,FT,Regular Season - 22,Sloven Ruma,22084,Javor,2653,1,1,True
+1206330,2025-02-21T14:00:00+00:00,FT,Regular Season - 22,FK Trayal,2651,Indjija,2631,1,1,True
+1206331,2025-02-22T13:00:00+00:00,FT,Regular Season - 22,Sloboda Uzice,2641,Mladost Novi Sad,14261,0,1,True
+1206327,2025-02-22T13:00:00+00:00,FT,Regular Season - 22,Semendrija 1924,4254,FK Vozdovac,2658,0,0,True
+1206328,2025-02-22T13:00:00+00:00,FT,Regular Season - 22,Dubočica,12312,Zemun,2642,1,5,True
+1206326,2025-02-22T14:00:00+00:00,FT,Regular Season - 22,Macva,2637,Radnički Sr. Mitrovica,12338,3,1,True
+1206325,2025-02-23T13:00:00+00:00,FT,Regular Season - 22,Radnik Surdulica,2657,Grafičar,4252,4,1,True
+1206333,2025-02-25T13:00:00+00:00,FT,Regular Season - 23,Mladost Novi Sad,14261,FK Trayal,2651,0,3,True
+1206334,2025-02-26T13:00:00+00:00,FT,Regular Season - 23,Indjija,2631,Sloven Ruma,22084,0,0,True
+1206337,2025-02-26T13:00:00+00:00,FT,Regular Season - 23,FK Vozdovac,2658,Macva,2637,1,1,True
+1206332,2025-02-26T16:00:00+00:00,FT,Regular Season - 23,Sloboda Uzice,2641,OFK Vršac,12329,0,1,True
+1206335,2025-02-26T16:00:00+00:00,FT,Regular Season - 23,Javor,2653,Dubočica,12312,1,0,True
+1206339,2025-02-27T13:00:00+00:00,FT,Regular Season - 23,Grafičar,4252,Borac Cacak,2649,3,1,True
+1206338,2025-02-27T13:00:00+00:00,FT,Regular Season - 23,Radnički Sr. Mitrovica,12338,Radnik Surdulica,2657,0,3,True
+1206336,2025-02-27T14:00:00+00:00,FT,Regular Season - 23,Zemun,2642,Semendrija 1924,4254,2,2,True
+1206347,2025-03-02T13:00:00+00:00,FT,Regular Season - 24,FK Trayal,2651,Sloboda Uzice,2641,1,0,True
+1206345,2025-03-02T13:00:00+00:00,FT,Regular Season - 24,Dubočica,12312,Indjija,2631,3,1,True
+1206346,2025-03-02T13:00:00+00:00,FT,Regular Season - 24,Sloven Ruma,22084,Mladost Novi Sad,14261,0,0,True
+1206341,2025-03-03T13:00:00+00:00,FT,Regular Season - 24,Borac Cacak,2649,Radnički Sr. Mitrovica,12338,1,0,True
+1206342,2025-03-03T13:00:00+00:00,FT,Regular Season - 24,Radnik Surdulica,2657,FK Vozdovac,2658,1,0,True
+1206344,2025-03-03T13:00:00+00:00,FT,Regular Season - 24,Semendrija 1924,4254,Javor,2653,0,0,True
+1206340,2025-03-03T13:00:00+00:00,FT,Regular Season - 24,OFK Vršac,12329,Grafičar,4252,0,1,True
+1206343,2025-03-03T16:00:00+00:00,FT,Regular Season - 24,Macva,2637,Zemun,2642,0,0,True
+1206351,2025-03-07T13:00:00+00:00,FT,Regular Season - 25,Indjija,2631,Semendrija 1924,4254,1,2,True
+1206348,2025-03-07T13:00:00+00:00,FT,Regular Season - 25,FK Trayal,2651,OFK Vršac,12329,0,0,True
+1206353,2025-03-08T13:00:00+00:00,FT,Regular Season - 25,Zemun,2642,Radnik Surdulica,2657,2,1,True
+1206354,2025-03-08T13:00:00+00:00,FT,Regular Season - 25,FK Vozdovac,2658,Borac Cacak,2649,0,0,True
+1206355,2025-03-08T13:00:00+00:00,FT,Regular Season - 25,Radnički Sr. Mitrovica,12338,Grafičar,4252,1,1,True
+1206349,2025-03-08T16:00:00+00:00,FT,Regular Season - 25,Sloboda Uzice,2641,Sloven Ruma,22084,2,2,True
+1206352,2025-03-08T16:00:00+00:00,FT,Regular Season - 25,Javor,2653,Macva,2637,2,2,True
+1206350,2025-03-09T13:00:00+00:00,FT,Regular Season - 25,Mladost Novi Sad,14261,Dubočica,12312,2,1,True
+1206358,2025-03-12T13:00:00+00:00,FT,Regular Season - 26,Borac Cacak,2649,Zemun,2642,0,2,True
+1206357,2025-03-12T13:00:00+00:00,FT,Regular Season - 26,Grafičar,4252,FK Vozdovac,2658,1,1,True
+1206361,2025-03-12T13:00:00+00:00,FT,Regular Season - 26,Semendrija 1924,4254,Mladost Novi Sad,14261,0,0,True
+1206356,2025-03-12T13:00:00+00:00,FT,Regular Season - 26,OFK Vršac,12329,Radnički Sr. Mitrovica,12338,0,1,True
+1206363,2025-03-12T13:00:00+00:00,FT,Regular Season - 26,Sloven Ruma,22084,FK Trayal,2651,3,1,True
+1206360,2025-03-12T16:00:00+00:00,FT,Regular Season - 26,Macva,2637,Indjija,2631,0,1,True
+1206362,2025-03-13T13:00:00+00:00,FT,Regular Season - 26,Dubočica,12312,Sloboda Uzice,2641,1,1,True
+1206368,2025-03-16T13:00:00+00:00,FT,Regular Season - 27,Indjija,2631,Radnik Surdulica,2657,0,2,True
+1206369,2025-03-16T13:00:00+00:00,FT,Regular Season - 27,Javor,2653,Borac Cacak,2649,2,1,True
+1206364,2025-03-16T13:00:00+00:00,FT,Regular Season - 27,Sloven Ruma,22084,OFK Vršac,12329,0,0,True
+1206370,2025-03-17T13:00:00+00:00,FT,Regular Season - 27,Zemun,2642,Grafičar,4252,2,0,True
+1206365,2025-03-17T13:00:00+00:00,FT,Regular Season - 27,FK Trayal,2651,Dubočica,12312,1,2,True
+1206371,2025-03-17T13:00:00+00:00,FT,Regular Season - 27,FK Vozdovac,2658,Radnički Sr. Mitrovica,12338,1,1,True
+1206367,2025-03-17T13:00:00+00:00,FT,Regular Season - 27,Mladost Novi Sad,14261,Macva,2637,0,0,True
+1206366,2025-03-17T16:00:00+00:00,FT,Regular Season - 27,Sloboda Uzice,2641,Semendrija 1924,4254,2,1,True
+1206374,2025-03-22T13:00:00+00:00,FT,Regular Season - 28,Grafičar,4252,Javor,2653,1,1,True
+1206375,2025-03-22T14:00:00+00:00,FT,Regular Season - 28,Borac Cacak,2649,Indjija,2631,2,1,True
+1206376,2025-03-22T14:00:00+00:00,FT,Regular Season - 28,Radnik Surdulica,2657,Mladost Novi Sad,14261,3,0,True
+1206379,2025-03-22T14:00:00+00:00,FT,Regular Season - 28,Dubočica,12312,Sloven Ruma,22084,2,3,True
+1206378,2025-03-24T14:00:00+00:00,FT,Regular Season - 28,Semendrija 1924,4254,FK Trayal,2651,0,0,True
+1206372,2025-03-24T14:00:00+00:00,FT,Regular Season - 28,OFK Vršac,12329,FK Vozdovac,2658,1,1,True
+1206373,2025-03-24T14:00:00+00:00,FT,Regular Season - 28,Radnički Sr. Mitrovica,12338,Zemun,2642,0,0,True
+1206377,2025-03-24T17:00:00+00:00,FT,Regular Season - 28,Macva,2637,Sloboda Uzice,2641,1,0,True
+1206359,2025-03-26T14:00:00+00:00,FT,Regular Season - 26,Radnik Surdulica,2657,Javor,2653,2,0,True
+1206380,2025-03-29T14:00:00+00:00,FT,Regular Season - 29,Dubočica,12312,OFK Vršac,12329,4,0,True
+1206384,2025-03-29T14:00:00+00:00,FT,Regular Season - 29,Mladost Novi Sad,14261,Borac Cacak,2649,1,1,True
+1206381,2025-03-29T14:00:00+00:00,FT,Regular Season - 29,Sloven Ruma,22084,Semendrija 1924,4254,3,2,True
+1206385,2025-03-30T14:00:00+00:00,FT,Regular Season - 29,Indjija,2631,Grafičar,4252,2,3,True
+1206387,2025-03-30T14:00:00+00:00,FT,Regular Season - 29,Zemun,2642,FK Vozdovac,2658,1,2,True
+1206382,2025-03-30T14:00:00+00:00,FT,Regular Season - 29,FK Trayal,2651,Macva,2637,0,0,True
+1206383,2025-03-30T16:00:00+00:00,FT,Regular Season - 29,Sloboda Uzice,2641,Radnik Surdulica,2657,0,3,True
+1206386,2025-03-30T16:00:00+00:00,FT,Regular Season - 29,Javor,2653,Radnički Sr. Mitrovica,12338,0,2,True
+1206393,2025-04-05T14:00:00+00:00,FT,Regular Season - 30,Radnik Surdulica,2657,FK Trayal,2651,2,1,True
+1206391,2025-04-05T14:00:00+00:00,FT,Regular Season - 30,Grafičar,4252,Mladost Novi Sad,14261,2,0,True
+1206388,2025-04-05T14:00:00+00:00,FT,Regular Season - 30,OFK Vršac,12329,Zemun,2642,0,1,True
+1206392,2025-04-06T14:00:00+00:00,FT,Regular Season - 30,Borac Cacak,2649,Sloboda Uzice,2641,2,0,True
+1206389,2025-04-06T14:00:00+00:00,FT,Regular Season - 30,FK Vozdovac,2658,Javor,2653,1,0,True
+1206395,2025-04-06T14:00:00+00:00,FT,Regular Season - 30,Semendrija 1924,4254,Dubočica,12312,0,1,True
+1206390,2025-04-06T14:00:00+00:00,FT,Regular Season - 30,Radnički Sr. Mitrovica,12338,Indjija,2631,1,0,True
+1206394,2025-04-06T16:00:00+00:00,FT,Regular Season - 30,Macva,2637,Sloven Ruma,22084,2,1,True
+1368342,2025-04-11T14:00:00+00:00,FT,Championship Round - 1,Grafičar,4252,OFK Vršac,12329,0,0,True
+1368368,2025-04-12T14:00:00+00:00,FT,Relegation Round - 1,Radnički Sr. Mitrovica,12338,Sloven Ruma,22084,1,1,True
+1368339,2025-04-13T14:00:00+00:00,FT,Championship Round - 1,Radnik Surdulica,2657,Javor,2653,2,1,True
+1368341,2025-04-13T14:00:00+00:00,FT,Championship Round - 1,FK Vozdovac,2658,Borac Cacak,2649,2,0,True
+1368370,2025-04-13T14:00:00+00:00,FT,Relegation Round - 1,Semendrija 1924,4254,Indjija,2631,1,1,True
+1368340,2025-04-13T16:00:00+00:00,FT,Championship Round - 1,Macva,2637,Mladost Novi Sad,14261,1,3,True
+1368367,2025-04-14T14:00:00+00:00,FT,Relegation Round - 1,Zemun,2642,FK Trayal,2651,2,5,True
+1368369,2025-04-14T16:00:00+00:00,FT,Relegation Round - 1,Dubočica,12312,Sloboda Uzice,2641,2,0,True
+1368374,2025-04-23T14:00:00+00:00,FT,Relegation Round - 2,Indjija,2631,Dubočica,12312,3,1,True
+1368345,2025-04-23T14:00:00+00:00,FT,Championship Round - 2,Borac Cacak,2649,Grafičar,4252,1,2,True
+1368373,2025-04-23T14:00:00+00:00,FT,Relegation Round - 2,FK Trayal,2651,Radnički Sr. Mitrovica,12338,1,0,True
+1368346,2025-04-23T14:00:00+00:00,FT,Championship Round - 2,OFK Vršac,12329,FK Vozdovac,2658,0,1,True
+1368343,2025-04-23T14:00:00+00:00,FT,Championship Round - 2,Mladost Novi Sad,14261,Radnik Surdulica,2657,2,1,True
+1368372,2025-04-23T14:00:00+00:00,FT,Relegation Round - 2,Sloven Ruma,22084,Semendrija 1924,4254,1,0,True
+1368371,2025-04-23T16:00:00+00:00,FT,Relegation Round - 2,Sloboda Uzice,2641,Zemun,2642,2,0,True
+1368344,2025-04-24T16:00:00+00:00,FT,Championship Round - 2,Javor,2653,Macva,2637,2,1,True
+1368348,2025-04-27T12:00:00+00:00,FT,Championship Round - 3,FK Vozdovac,2658,Grafičar,4252,2,2,True
+1368375,2025-04-27T14:00:00+00:00,FT,Relegation Round - 3,Zemun,2642,Sloven Ruma,22084,0,0,True
+1368350,2025-04-27T14:00:00+00:00,FT,Championship Round - 3,Borac Cacak,2649,OFK Vršac,12329,1,2,True
+1368376,2025-04-27T14:00:00+00:00,FT,Relegation Round - 3,Semendrija 1924,4254,Sloboda Uzice,2641,1,0,True
+1368347,2025-04-28T14:00:00+00:00,FT,Championship Round - 3,Radnik Surdulica,2657,Macva,2637,4,0,True
+1368377,2025-04-28T14:00:00+00:00,FT,Relegation Round - 3,Radnički Sr. Mitrovica,12338,Indjija,2631,3,0,True
+1368349,2025-04-28T16:00:00+00:00,FT,Championship Round - 3,Javor,2653,Mladost Novi Sad,14261,1,0,True
+1368378,2025-04-28T17:00:00+00:00,FT,Relegation Round - 3,Dubočica,12312,FK Trayal,2651,1,2,True
+1368353,2025-05-03T14:00:00+00:00,FT,Championship Round - 4,OFK Vršac,12329,Javor,2653,1,3,True
+1368382,2025-05-03T16:00:00+00:00,FT,Relegation Round - 4,Sloboda Uzice,2641,Sloven Ruma,22084,1,0,True
+1368381,2025-05-04T14:00:00+00:00,FT,Relegation Round - 4,FK Trayal,2651,Indjija,2631,1,1,True
+1368351,2025-05-04T14:00:00+00:00,FT,Championship Round - 4,Grafičar,4252,Radnik Surdulica,2657,3,3,True
+1368352,2025-05-04T16:00:00+00:00,FT,Championship Round - 4,Macva,2637,FK Vozdovac,2658,1,0,True
+1368379,2025-05-05T15:00:00+00:00,FT,Relegation Round - 4,Semendrija 1924,4254,Zemun,2642,4,3,True
+1368380,2025-05-05T15:00:00+00:00,FT,Relegation Round - 4,Radnički Sr. Mitrovica,12338,Dubočica,12312,0,1,True
+1368354,2025-05-05T15:00:00+00:00,FT,Championship Round - 4,Mladost Novi Sad,14261,Borac Cacak,2649,4,3,True
+1368386,2025-05-10T15:00:00+00:00,FT,Relegation Round - 5,Indjija,2631,Sloboda Uzice,2641,0,1,True
+1368357,2025-05-10T17:00:00+00:00,FT,Championship Round - 5,Javor,2653,Grafičar,4252,3,0,True
+1368383,2025-05-11T15:00:00+00:00,FT,Relegation Round - 5,Zemun,2642,Radnički Sr. Mitrovica,12338,3,2,True
+1368385,2025-05-11T15:00:00+00:00,FT,Relegation Round - 5,Sloven Ruma,22084,FK Trayal,2651,1,1,True
+1368358,2025-05-11T17:00:00+00:00,FT,Championship Round - 5,Macva,2637,Borac Cacak,2649,0,1,True
+1368355,2025-05-12T15:00:00+00:00,FT,Championship Round - 5,Radnik Surdulica,2657,FK Vozdovac,2658,2,0,True
+1368384,2025-05-12T15:00:00+00:00,FT,Relegation Round - 5,Dubočica,12312,Semendrija 1924,4254,2,1,True
+1368356,2025-05-12T15:00:00+00:00,FT,Championship Round - 5,Mladost Novi Sad,14261,OFK Vršac,12329,3,1,True
+1368361,2025-05-17T15:00:00+00:00,FT,Championship Round - 6,Borac Cacak,2649,Javor,2653,1,2,True
+1368360,2025-05-17T15:00:00+00:00,FT,Championship Round - 6,FK Vozdovac,2658,Mladost Novi Sad,14261,2,2,True
+1368362,2025-05-17T15:00:00+00:00,FT,Championship Round - 6,Grafičar,4252,Macva,2637,1,1,True
+1368359,2025-05-18T14:00:00+00:00,FT,Championship Round - 6,OFK Vršac,12329,Radnik Surdulica,2657,1,2,True
+1368387,2025-05-19T15:00:00+00:00,FT,Relegation Round - 6,Indjija,2631,Zemun,2642,1,2,True
+1368389,2025-05-19T15:00:00+00:00,FT,Relegation Round - 6,Sloboda Uzice,2641,Radnički Sr. Mitrovica,12338,1,1,True
+1368390,2025-05-19T15:00:00+00:00,FT,Relegation Round - 6,Semendrija 1924,4254,FK Trayal,2651,0,0,True
+1368388,2025-05-19T15:00:00+00:00,FT,Relegation Round - 6,Dubočica,12312,Sloven Ruma,22084,0,1,True
+1368363,2025-05-23T15:00:00+00:00,FT,Championship Round - 7,Radnik Surdulica,2657,Borac Cacak,2649,2,0,True
+1368364,2025-05-23T17:00:00+00:00,FT,Championship Round - 7,Javor,2653,FK Vozdovac,2658,1,1,True
+1368365,2025-05-24T15:00:00+00:00,FT,Championship Round - 7,Macva,2637,OFK Vršac,12329,0,1,True
+1368366,2025-05-24T15:00:00+00:00,FT,Championship Round - 7,Mladost Novi Sad,14261,Grafičar,4252,1,2,True
+1368391,2025-05-25T15:00:00+00:00,FT,Relegation Round - 7,Zemun,2642,Dubočica,12312,1,1,True
+1368394,2025-05-25T15:00:00+00:00,FT,Relegation Round - 7,FK Trayal,2651,Sloboda Uzice,2641,2,0,True
+1368393,2025-05-25T15:00:00+00:00,FT,Relegation Round - 7,Radnički Sr. Mitrovica,12338,Semendrija 1924,4254,0,1,True
+1368392,2025-05-25T15:00:00+00:00,FT,Relegation Round - 7,Sloven Ruma,22084,Indjija,2631,0,1,True

@@ -1,29 +1,29 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1541162,2026-04-18T19:00:00+00:00,FT,Campo Novo,23561,Santa Cruz MT,23566,0,2,True
-1541160,2026-04-18T19:00:00+00:00,FT,Paulistano MT,23564,Uirapuru,26050,0,4,True
-1541161,2026-04-19T22:00:00+00:00,FT,Gremio Sorriso,15616,Sorriso,26049,0,1,True
-1541163,2026-04-20T23:00:00+00:00,FT,Ação,15615,Atlético Matogrossense,23560,2,2,True
-1541559,2026-04-25T22:00:00+00:00,FT,Sorriso,26049,Sinop Fc,1213,1,2,True
-1541562,2026-04-25T22:00:00+00:00,FT,Uirapuru,26050,Cacerense,20716,2,1,True
-1541561,2026-04-26T22:00:00+00:00,FT,Santa Cruz MT,23566,Grêmio Sorriso,15616,0,0,True
-1541560,2026-04-27T19:00:00+00:00,FT,Atlético Matogrossense,23560,Paulistano MT,23564,0,0,True
-1541563,2026-04-30T22:30:00+00:00,FT,Sinop Fc,1213,Grêmio Sorriso,15616,3,0,True
-1541564,2026-05-01T22:00:00+00:00,FT,Sorriso,26049,Campo Novo,23561,9,0,True
-1541566,2026-05-02T21:00:00+00:00,FT,Uirapuru,26050,Ação,15615,2,2,True
-1541565,2026-05-03T19:00:00+00:00,FT,Cacerense,20716,Paulistano MT,23564,0,0,True
-1541568,2026-05-09T19:00:00+00:00,FT,Paulistano MT,23564,Ação,15615,1,2,True
-1541570,2026-05-09T22:30:00+00:00,FT,Sinop Fc,1213,Santa Cruz MT,23566,0,0,True
-1541569,2026-05-09T23:00:00+00:00,FT,Cacerense,20716,Atlético Matogrossense,23560,3,0,True
-1541567,2026-05-10T20:00:00+00:00,FT,Grêmio Sorriso,15616,Campo Novo,23561,4,0,True
-1541571,2026-05-17T19:00:00+00:00,FT,Ação,15615,Cacerense,20716,2,1,True
-1541572,2026-05-17T19:00:00+00:00,FT,Atlético Matogrossense,23560,Uirapuru,26050,1,7,True
-1541573,2026-05-17T19:00:00+00:00,FT,Campo Novo,23561,Sinop Fc,1213,1,3,True
-1541574,2026-05-17T19:00:00+00:00,FT,Santa Cruz MT,23566,Sorriso,26049,1,1,True
-1545597,2026-05-20T19:00:00+00:00,PEN,Ação,15615,Santa Cruz MT,23566,1,1,False
-1545598,2026-05-21T00:00:00+00:00,PEN,Sorriso,26049,Cacerense,20716,2,2,False
-1545799,2026-05-23T22:00:00+00:00,FT,Santa Cruz MT,23566,Sinop Fc,1213,0,1,True
-1545800,2026-05-24T23:00:00+00:00,FT,Cacerense,20716,Uirapuru,26050,1,2,True
-1545802,2026-05-30T22:00:00+00:00,FT,Uirapuru,26050,Cacerense,20716,0,2,True
-1545801,2026-05-31T22:00:00+00:00,FT,Sinop Fc,1213,Santa Cruz MT,23566,0,0,True
-1548294,2026-06-03T23:00:00+00:00,FT,Cacerense,20716,Sinop Fc,1213,2,1,True
-1548295,2026-06-07T22:00:00+00:00,FT,Sinop Fc,1213,Cacerense,20716,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1541162,2026-04-18T19:00:00+00:00,FT,Regular Season - 1,Campo Novo,23561,Santa Cruz MT,23566,0,2,True
+1541160,2026-04-18T19:00:00+00:00,FT,Regular Season - 1,Paulistano MT,23564,Uirapuru,26050,0,4,True
+1541161,2026-04-19T22:00:00+00:00,FT,Regular Season - 1,Gremio Sorriso,15616,Sorriso,26049,0,1,True
+1541163,2026-04-20T23:00:00+00:00,FT,Regular Season - 1,Ação,15615,Atlético Matogrossense,23560,2,2,True
+1541559,2026-04-25T22:00:00+00:00,FT,Regular Season - 2,Sorriso,26049,Sinop Fc,1213,1,2,True
+1541562,2026-04-25T22:00:00+00:00,FT,Regular Season - 2,Uirapuru,26050,Cacerense,20716,2,1,True
+1541561,2026-04-26T22:00:00+00:00,FT,Regular Season - 2,Santa Cruz MT,23566,Grêmio Sorriso,15616,0,0,True
+1541560,2026-04-27T19:00:00+00:00,FT,Regular Season - 2,Atlético Matogrossense,23560,Paulistano MT,23564,0,0,True
+1541563,2026-04-30T22:30:00+00:00,FT,Regular Season - 3,Sinop Fc,1213,Grêmio Sorriso,15616,3,0,True
+1541564,2026-05-01T22:00:00+00:00,FT,Regular Season - 3,Sorriso,26049,Campo Novo,23561,9,0,True
+1541566,2026-05-02T21:00:00+00:00,FT,Regular Season - 3,Uirapuru,26050,Ação,15615,2,2,True
+1541565,2026-05-03T19:00:00+00:00,FT,Regular Season - 3,Cacerense,20716,Paulistano MT,23564,0,0,True
+1541568,2026-05-09T19:00:00+00:00,FT,Regular Season - 4,Paulistano MT,23564,Ação,15615,1,2,True
+1541570,2026-05-09T22:30:00+00:00,FT,Regular Season - 4,Sinop Fc,1213,Santa Cruz MT,23566,0,0,True
+1541569,2026-05-09T23:00:00+00:00,FT,Regular Season - 4,Cacerense,20716,Atlético Matogrossense,23560,3,0,True
+1541567,2026-05-10T20:00:00+00:00,FT,Regular Season - 4,Grêmio Sorriso,15616,Campo Novo,23561,4,0,True
+1541571,2026-05-17T19:00:00+00:00,FT,Regular Season - 5,Ação,15615,Cacerense,20716,2,1,True
+1541572,2026-05-17T19:00:00+00:00,FT,Regular Season - 5,Atlético Matogrossense,23560,Uirapuru,26050,1,7,True
+1541573,2026-05-17T19:00:00+00:00,FT,Regular Season - 5,Campo Novo,23561,Sinop Fc,1213,1,3,True
+1541574,2026-05-17T19:00:00+00:00,FT,Regular Season - 5,Santa Cruz MT,23566,Sorriso,26049,1,1,True
+1545597,2026-05-20T19:00:00+00:00,PEN,Quarter-finals,Ação,15615,Santa Cruz MT,23566,1,1,False
+1545598,2026-05-21T00:00:00+00:00,PEN,Quarter-finals,Sorriso,26049,Cacerense,20716,2,2,False
+1545799,2026-05-23T22:00:00+00:00,FT,Semi-finals,Santa Cruz MT,23566,Sinop Fc,1213,0,1,True
+1545800,2026-05-24T23:00:00+00:00,FT,Semi-finals,Cacerense,20716,Uirapuru,26050,1,2,True
+1545802,2026-05-30T22:00:00+00:00,FT,Semi-finals,Uirapuru,26050,Cacerense,20716,0,2,True
+1545801,2026-05-31T22:00:00+00:00,FT,Semi-finals,Sinop Fc,1213,Santa Cruz MT,23566,0,0,True
+1548294,2026-06-03T23:00:00+00:00,FT,Final,Cacerense,20716,Sinop Fc,1213,2,1,True
+1548295,2026-06-07T22:00:00+00:00,FT,Final,Sinop Fc,1213,Cacerense,20716,2,0,True

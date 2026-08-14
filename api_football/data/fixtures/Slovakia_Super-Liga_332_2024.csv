@@ -1,90 +1,198 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1209812,2025-02-08T14:30:00+00:00,FT,Dunajska Streda,2257,Skalica,10542,3,1,True
-1209813,2025-02-08T14:30:00+00:00,FT,Zemplín Michalovce,3552,Podbrezová,3548,2,2,True
-1209811,2025-02-08T14:30:00+00:00,FT,Dukla Banská Bystrica,10533,Spartak Trnava,1120,1,4,True
-1209814,2025-02-08T17:00:00+00:00,FT,Žilina,3554,FK Košice,10534,0,2,True
-1209815,2025-02-09T14:30:00+00:00,FT,AS Trencin,655,Komárno,10535,1,0,True
-1209810,2025-02-09T14:30:00+00:00,FT,Ružomberok,3549,Slovan Bratislava,656,1,5,True
-1209820,2025-02-15T14:30:00+00:00,FT,Podbrezová,3548,AS Trencin,655,2,1,True
-1209816,2025-02-15T14:30:00+00:00,FT,FK Košice,10534,Dukla Banská Bystrica,10533,4,0,True
-1209819,2025-02-15T15:00:00+00:00,FT,Slovan Bratislava,656,Zemplín Michalovce,3552,1,1,True
-1209818,2025-02-16T14:30:00+00:00,FT,Spartak Trnava,1120,Dunajska Streda,2257,1,1,True
-1209817,2025-02-16T14:30:00+00:00,FT,Skalica,10542,Ružomberok,3549,1,0,True
-1209826,2025-02-22T14:30:00+00:00,FT,AS Trencin,655,Slovan Bratislava,656,1,1,True
-1209823,2025-02-22T14:30:00+00:00,FT,Ružomberok,3549,FK Košice,10534,2,1,True
-1209825,2025-02-22T14:30:00+00:00,FT,Komárno,10535,Skalica,10542,0,0,True
-1209824,2025-02-22T17:00:00+00:00,FT,Žilina,3554,Dunajska Streda,2257,1,1,True
-1209822,2025-02-23T14:30:00+00:00,FT,Spartak Trnava,1120,Podbrezová,3548,1,1,True
-1209827,2025-02-23T14:30:00+00:00,FT,Zemplín Michalovce,3552,Dukla Banská Bystrica,10533,1,0,True
-1209821,2025-02-25T17:00:00+00:00,FT,Komárno,10535,Žilina,3554,1,0,True
-1209833,2025-03-01T14:30:00+00:00,FT,Slovan Bratislava,656,Spartak Trnava,1120,0,1,True
-1209830,2025-03-01T14:30:00+00:00,FT,Dunajska Streda,2257,Ružomberok,3549,3,0,True
-1209832,2025-03-01T14:30:00+00:00,FT,Podbrezová,3548,Komárno,10535,2,2,True
-1209828,2025-03-01T14:30:00+00:00,FT,Dukla Banská Bystrica,10533,Žilina,3554,1,2,True
-1209831,2025-03-01T14:30:00+00:00,FT,FK Košice,10534,Zemplín Michalovce,3552,3,2,True
-1209829,2025-03-01T14:30:00+00:00,FT,Skalica,10542,AS Trencin,655,0,0,True
-1356777,2025-03-08T14:30:00+00:00,FT,Ružomberok,3549,Komárno,10535,0,1,True
-1356746,2025-03-08T14:30:00+00:00,FT,Žilina,3554,Podbrezová,3548,0,0,True
-1356776,2025-03-08T14:30:00+00:00,FT,Dukla Banská Bystrica,10533,Skalica,10542,0,2,True
-1356747,2025-03-08T17:00:00+00:00,FT,Spartak Trnava,1120,Dunajska Streda,2257,1,1,True
-1356778,2025-03-09T14:30:00+00:00,FT,AS Trencin,655,Zemplín Michalovce,3552,3,2,True
-1356748,2025-03-09T14:30:00+00:00,FT,FK Košice,10534,Slovan Bratislava,656,2,3,True
-1356780,2025-03-15T14:30:00+00:00,FT,Zemplín Michalovce,3552,Ružomberok,3549,2,1,True
-1356779,2025-03-15T14:30:00+00:00,FT,Skalica,10542,AS Trencin,655,1,0,True
-1356750,2025-03-15T17:00:00+00:00,FT,Dunajska Streda,2257,Žilina,3554,3,1,True
-1356751,2025-03-16T14:30:00+00:00,FT,Slovan Bratislava,656,Spartak Trnava,1120,1,1,True
-1356749,2025-03-16T14:30:00+00:00,FT,Podbrezová,3548,FK Košice,10534,0,1,True
-1356781,2025-03-16T14:30:00+00:00,FT,Komárno,10535,Dukla Banská Bystrica,10533,2,1,True
-1356752,2025-03-29T14:30:00+00:00,FT,Slovan Bratislava,656,Podbrezová,3548,3,1,True
-1356783,2025-03-29T14:30:00+00:00,FT,Ružomberok,3549,Skalica,10542,3,2,True
-1356782,2025-03-29T14:30:00+00:00,FT,Dukla Banská Bystrica,10533,AS Trencin,655,2,3,True
-1356753,2025-03-29T17:00:00+00:00,FT,FK Košice,10534,Dunajska Streda,2257,2,2,True
-1356754,2025-03-30T13:30:00+00:00,FT,Spartak Trnava,1120,Žilina,3554,2,4,True
-1356784,2025-03-30T13:30:00+00:00,FT,Komárno,10535,Zemplín Michalovce,3552,0,1,True
-1356785,2025-04-05T13:30:00+00:00,FT,AS Trencin,655,Komárno,10535,1,0,True
-1356755,2025-04-05T13:30:00+00:00,FT,Dunajska Streda,2257,Podbrezová,3548,1,1,True
-1356786,2025-04-05T13:30:00+00:00,FT,Skalica,10542,Zemplín Michalovce,3552,1,0,True
-1356756,2025-04-05T16:00:00+00:00,FT,Žilina,3554,Slovan Bratislava,656,0,5,True
-1356787,2025-04-06T13:30:00+00:00,FT,Ružomberok,3549,Dukla Banská Bystrica,10533,1,2,True
-1356757,2025-04-06T13:30:00+00:00,FT,FK Košice,10534,Spartak Trnava,1120,2,1,True
-1356789,2025-04-12T13:30:00+00:00,FT,AS Trencin,655,Ružomberok,3549,2,2,True
-1356760,2025-04-12T13:30:00+00:00,FT,Podbrezová,3548,Spartak Trnava,1120,1,2,True
-1356790,2025-04-12T13:30:00+00:00,FT,Zemplín Michalovce,3552,Dukla Banská Bystrica,10533,3,3,True
-1356758,2025-04-12T16:00:00+00:00,FT,Slovan Bratislava,656,Dunajska Streda,2257,2,2,True
-1356788,2025-04-13T13:30:00+00:00,FT,Komárno,10535,Skalica,10542,1,1,True
-1356763,2025-04-19T16:00:00+00:00,FT,Podbrezová,3548,Žilina,3554,1,1,True
-1356793,2025-04-19T16:00:00+00:00,FT,Zemplín Michalovce,3552,AS Trencin,655,3,2,True
-1356791,2025-04-19T16:00:00+00:00,FT,Skalica,10542,Ružomberok,3549,1,0,True
-1356762,2025-04-19T18:30:00+00:00,FT,Spartak Trnava,1120,Slovan Bratislava,656,2,3,True
-1356761,2025-04-20T16:00:00+00:00,FT,Dunajska Streda,2257,FK Košice,10534,3,2,True
-1356792,2025-04-20T16:00:00+00:00,FT,Dukla Banská Bystrica,10533,Komárno,10535,0,1,True
-1356759,2025-04-23T16:00:00+00:00,FT,Žilina,3554,FK Košice,10534,0,0,True
-1356796,2025-04-25T16:00:00+00:00,FT,AS Trencin,655,Dukla Banská Bystrica,10533,2,2,True
-1356795,2025-04-26T16:00:00+00:00,FT,Ružomberok,3549,Zemplín Michalovce,3552,1,0,True
-1356765,2025-04-26T16:00:00+00:00,FT,FK Košice,10534,Podbrezová,3548,1,1,True
-1356764,2025-04-26T18:30:00+00:00,FT,Dunajska Streda,2257,Slovan Bratislava,656,2,1,True
-1356766,2025-04-27T16:00:00+00:00,FT,Žilina,3554,Spartak Trnava,1120,2,1,True
-1356794,2025-04-27T16:00:00+00:00,FT,Skalica,10542,Komárno,10535,0,1,True
-1356767,2025-05-03T16:00:00+00:00,FT,Podbrezová,3548,Dunajska Streda,2257,2,0,True
-1356797,2025-05-03T16:00:00+00:00,FT,Zemplín Michalovce,3552,Skalica,10542,2,4,True
-1356798,2025-05-03T16:00:00+00:00,FT,Komárno,10535,AS Trencin,655,0,0,True
-1356769,2025-05-03T18:30:00+00:00,FT,Slovan Bratislava,656,Žilina,3554,4,3,True
-1356768,2025-05-04T16:00:00+00:00,FT,Spartak Trnava,1120,FK Košice,10534,0,1,True
-1356799,2025-05-04T16:00:00+00:00,FT,Dukla Banská Bystrica,10533,Ružomberok,3549,0,2,True
-1356772,2025-05-10T16:00:00+00:00,FT,Podbrezová,3548,Slovan Bratislava,656,1,3,True
-1356801,2025-05-10T16:00:00+00:00,FT,Ružomberok,3549,AS Trencin,655,1,0,True
-1356802,2025-05-10T16:00:00+00:00,FT,Skalica,10542,Dukla Banská Bystrica,10533,3,1,True
-1356770,2025-05-10T18:30:00+00:00,FT,FK Košice,10534,Žilina,3554,3,2,True
-1356771,2025-05-11T16:00:00+00:00,FT,Dunajska Streda,2257,Spartak Trnava,1120,1,0,True
-1356800,2025-05-11T16:00:00+00:00,FT,Zemplín Michalovce,3552,Komárno,10535,4,5,True
-1356805,2025-05-17T15:00:00+00:00,FT,AS Trencin,655,Skalica,10542,2,0,True
-1356774,2025-05-17T15:00:00+00:00,FT,Slovan Bratislava,656,FK Košice,10534,1,0,True
-1356773,2025-05-17T15:00:00+00:00,FT,Spartak Trnava,1120,Podbrezová,3548,2,1,True
-1356775,2025-05-17T15:00:00+00:00,FT,Žilina,3554,Dunajska Streda,2257,0,1,True
-1356803,2025-05-17T15:00:00+00:00,FT,Dukla Banská Bystrica,10533,Zemplín Michalovce,3552,2,3,True
-1356804,2025-05-17T15:00:00+00:00,FT,Komárno,10535,Ružomberok,3549,1,2,True
-1375805,2025-05-20T18:00:00+00:00,FT,Dunajska Streda,2257,Zemplín Michalovce,3552,2,1,True
-1375909,2025-05-20T18:00:00+00:00,FT,Zlaté Moravce,3553,AS Trencin,655,1,1,True
-1375705,2025-05-20T18:00:00+00:00,PEN,FK Košice,10534,Podbrezová,3548,2,2,False
-1375908,2025-05-23T16:00:00+00:00,FT,Dunajska Streda,2257,Podbrezová,3548,3,2,True
-1375910,2025-05-24T15:00:00+00:00,FT,AS Trencin,655,Zlaté Moravce,3553,4,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1209704,2024-07-27T16:00:00+00:00,FT,Regular Season - 1,Podbrezová,3548,Žilina,3554,0,0,True
+1209703,2024-07-27T16:00:00+00:00,FT,Regular Season - 1,Skalica,10542,Zemplín Michalovce,3552,0,0,True
+1209705,2024-07-27T18:30:00+00:00,FT,Regular Season - 1,Komárno,10535,Slovan Bratislava,656,1,4,True
+1209707,2024-07-28T16:00:00+00:00,FT,Regular Season - 1,Spartak Trnava,1120,AS Trencin,655,0,0,True
+1209708,2024-07-28T16:00:00+00:00,FT,Regular Season - 1,Ružomberok,3549,Dukla Banská Bystrica,10533,1,1,True
+1209706,2024-07-28T16:00:00+00:00,FT,Regular Season - 1,FK Košice,10534,Dunajska Streda,2257,2,2,True
+1209714,2024-08-03T16:00:00+00:00,FT,Regular Season - 2,AS Trencin,655,FK Košice,10534,2,0,True
+1209709,2024-08-03T16:00:00+00:00,FT,Regular Season - 2,Dukla Banská Bystrica,10533,Skalica,10542,1,1,True
+1209710,2024-08-03T18:30:00+00:00,FT,Regular Season - 2,Slovan Bratislava,656,Podbrezová,3548,1,0,True
+1209712,2024-08-04T16:00:00+00:00,FT,Regular Season - 2,Dunajska Streda,2257,Komárno,10535,2,0,True
+1209713,2024-08-04T16:00:00+00:00,FT,Regular Season - 2,Zemplín Michalovce,3552,Spartak Trnava,1120,0,0,True
+1209716,2024-08-10T16:00:00+00:00,FT,Regular Season - 3,Žilina,3554,Zemplín Michalovce,3552,3,1,True
+1209718,2024-08-10T18:30:00+00:00,FT,Regular Season - 3,FK Košice,10534,Podbrezová,3548,3,0,True
+1209715,2024-08-11T16:00:00+00:00,FT,Regular Season - 3,Ružomberok,3549,AS Trencin,655,1,0,True
+1209719,2024-08-11T16:00:00+00:00,FT,Regular Season - 3,Dukla Banská Bystrica,10533,Dunajska Streda,2257,1,0,True
+1209723,2024-08-17T16:00:00+00:00,FT,Regular Season - 4,Slovan Bratislava,656,FK Košice,10534,2,1,True
+1209721,2024-08-17T16:00:00+00:00,FT,Regular Season - 4,Podbrezová,3548,Skalica,10542,7,1,True
+1209720,2024-08-17T16:00:00+00:00,FT,Regular Season - 4,Zemplín Michalovce,3552,Dunajska Streda,2257,0,3,True
+1209724,2024-08-17T18:30:00+00:00,FT,Regular Season - 4,AS Trencin,655,Dukla Banská Bystrica,10533,2,2,True
+1209725,2024-08-18T16:00:00+00:00,FT,Regular Season - 4,Spartak Trnava,1120,Žilina,3554,0,0,True
+1209726,2024-08-24T16:00:00+00:00,FT,Regular Season - 5,FK Košice,10534,Komárno,10535,0,1,True
+1209727,2024-08-24T16:00:00+00:00,FT,Regular Season - 5,Skalica,10542,Spartak Trnava,1120,1,2,True
+1209730,2024-08-24T18:30:00+00:00,FT,Regular Season - 5,Žilina,3554,AS Trencin,655,4,1,True
+1209731,2024-08-25T16:00:00+00:00,FT,Regular Season - 5,Ružomberok,3549,Zemplín Michalovce,3552,2,2,True
+1209729,2024-08-25T16:00:00+00:00,FT,Regular Season - 5,Dukla Banská Bystrica,10533,Slovan Bratislava,656,0,2,True
+1209735,2024-08-31T16:00:00+00:00,FT,Regular Season - 6,Komárno,10535,Zemplín Michalovce,3552,1,3,True
+1209737,2024-08-31T16:00:00+00:00,FT,Regular Season - 6,Skalica,10542,FK Košice,10534,0,0,True
+1209733,2024-08-31T18:30:00+00:00,FT,Regular Season - 6,Podbrezová,3548,Dukla Banská Bystrica,10533,1,1,True
+1209734,2024-09-01T13:30:00+00:00,FT,Regular Season - 6,Slovan Bratislava,656,Žilina,3554,0,5,True
+1209732,2024-09-01T16:00:00+00:00,FT,Regular Season - 6,Spartak Trnava,1120,Ružomberok,3549,2,2,True
+1209743,2024-09-14T16:00:00+00:00,FT,Regular Season - 7,Zemplín Michalovce,3552,AS Trencin,655,1,1,True
+1209742,2024-09-14T16:00:00+00:00,FT,Regular Season - 7,Žilina,3554,Skalica,10542,3,2,True
+1209741,2024-09-14T16:00:00+00:00,FT,Regular Season - 7,Dukla Banská Bystrica,10533,Komárno,10535,2,3,True
+1209739,2024-09-14T18:30:00+00:00,FT,Regular Season - 7,Dunajska Streda,2257,Slovan Bratislava,656,1,2,True
+1209738,2024-09-15T16:00:00+00:00,FT,Regular Season - 7,Ružomberok,3549,Podbrezová,3548,1,0,True
+1209740,2024-09-15T16:00:00+00:00,FT,Regular Season - 7,FK Košice,10534,Spartak Trnava,1120,1,1,True
+1209736,2024-09-17T16:00:00+00:00,FT,Regular Season - 6,AS Trencin,655,Dunajska Streda,2257,0,3,True
+1209746,2024-09-21T16:00:00+00:00,FT,Regular Season - 8,FK Košice,10534,Žilina,3554,1,2,True
+1209749,2024-09-21T16:00:00+00:00,FT,Regular Season - 8,Komárno,10535,AS Trencin,655,2,1,True
+1209748,2024-09-21T16:00:00+00:00,FT,Regular Season - 8,Skalica,10542,Dunajska Streda,2257,1,3,True
+1209745,2024-09-21T18:30:00+00:00,FT,Regular Season - 8,Slovan Bratislava,656,Ružomberok,3549,2,1,True
+1209744,2024-09-22T13:30:00+00:00,FT,Regular Season - 8,Spartak Trnava,1120,Dukla Banská Bystrica,10533,1,0,True
+1209747,2024-09-22T16:00:00+00:00,FT,Regular Season - 8,Podbrezová,3548,Zemplín Michalovce,3552,4,1,True
+1209722,2024-09-24T16:00:00+00:00,FT,Regular Season - 4,Komárno,10535,Ružomberok,3549,1,2,True
+1209751,2024-09-27T18:00:00+00:00,FT,Regular Season - 9,Zemplín Michalovce,3552,Slovan Bratislava,656,2,4,True
+1209754,2024-09-28T16:00:00+00:00,FT,Regular Season - 9,AS Trencin,655,Podbrezová,3548,1,1,True
+1209753,2024-09-28T16:00:00+00:00,FT,Regular Season - 9,Dukla Banská Bystrica,10533,FK Košice,10534,2,3,True
+1209755,2024-09-28T18:30:00+00:00,FT,Regular Season - 9,Dunajska Streda,2257,Spartak Trnava,1120,0,0,True
+1209752,2024-09-29T16:00:00+00:00,FT,Regular Season - 9,Ružomberok,3549,Skalica,10542,1,2,True
+1209750,2024-09-29T16:00:00+00:00,FT,Regular Season - 9,Žilina,3554,Komárno,10535,2,1,True
+1209761,2024-10-05T16:00:00+00:00,FT,Regular Season - 10,Podbrezová,3548,Spartak Trnava,1120,0,4,True
+1209756,2024-10-05T16:00:00+00:00,FT,Regular Season - 10,FK Košice,10534,Ružomberok,3549,2,1,True
+1209757,2024-10-05T16:00:00+00:00,FT,Regular Season - 10,Skalica,10542,Komárno,10535,3,0,True
+1209759,2024-10-05T18:30:00+00:00,FT,Regular Season - 10,Slovan Bratislava,656,AS Trencin,655,1,1,True
+1209758,2024-10-06T16:00:00+00:00,FT,Regular Season - 10,Dunajska Streda,2257,Žilina,3554,0,3,True
+1209760,2024-10-06T16:00:00+00:00,FT,Regular Season - 10,Dukla Banská Bystrica,10533,Zemplín Michalovce,3552,1,0,True
+1209763,2024-10-19T13:30:00+00:00,FT,Regular Season - 11,AS Trencin,655,Skalica,10542,2,1,True
+1209762,2024-10-19T13:30:00+00:00,FT,Regular Season - 11,Ružomberok,3549,Dunajska Streda,2257,1,1,True
+1209766,2024-10-19T13:30:00+00:00,FT,Regular Season - 11,Zemplín Michalovce,3552,FK Košice,10534,3,2,True
+1209764,2024-10-19T16:00:00+00:00,FT,Regular Season - 11,Spartak Trnava,1120,Slovan Bratislava,656,0,1,True
+1209765,2024-10-20T13:30:00+00:00,FT,Regular Season - 11,Žilina,3554,Dukla Banská Bystrica,10533,2,0,True
+1209767,2024-10-20T13:30:00+00:00,FT,Regular Season - 11,Komárno,10535,Podbrezová,3548,1,2,True
+1209773,2024-10-26T13:30:00+00:00,FT,Regular Season - 12,Žilina,3554,Podbrezová,3548,2,2,True
+1209770,2024-10-26T13:30:00+00:00,FT,Regular Season - 12,Dukla Banská Bystrica,10533,Ružomberok,3549,2,1,True
+1209772,2024-10-26T16:00:00+00:00,FT,Regular Season - 12,Dunajska Streda,2257,FK Košice,10534,1,3,True
+1209771,2024-10-27T13:30:00+00:00,FT,Regular Season - 12,AS Trencin,655,Spartak Trnava,1120,2,3,True
+1209769,2024-10-27T13:30:00+00:00,FT,Regular Season - 12,Zemplín Michalovce,3552,Skalica,10542,2,1,True
+1209728,2024-10-29T17:00:00+00:00,FT,Regular Season - 5,Dunajska Streda,2257,Podbrezová,3548,3,0,True
+1209711,2024-10-29T17:00:00+00:00,FT,Regular Season - 2,Žilina,3554,Ružomberok,3549,3,1,True
+1210377,2024-10-30T15:00:00+00:00,FT,Regular Season - 3,Skalica,10542,Slovan Bratislava,656,2,3,True
+1209717,2024-10-30T17:00:00+00:00,FT,Regular Season - 3,Spartak Trnava,1120,Komárno,10535,3,2,True
+1209778,2024-11-02T14:30:00+00:00,FT,Regular Season - 13,Spartak Trnava,1120,Zemplín Michalovce,3552,3,1,True
+1209774,2024-11-02T14:30:00+00:00,FT,Regular Season - 13,FK Košice,10534,AS Trencin,655,0,0,True
+1209777,2024-11-02T14:30:00+00:00,FT,Regular Season - 13,Komárno,10535,Dunajska Streda,2257,0,1,True
+1209779,2024-11-02T17:00:00+00:00,FT,Regular Season - 13,Podbrezová,3548,Slovan Bratislava,656,1,3,True
+1209775,2024-11-03T14:30:00+00:00,FT,Regular Season - 13,Ružomberok,3549,Žilina,3554,1,0,True
+1209776,2024-11-03T14:30:00+00:00,FT,Regular Season - 13,Skalica,10542,Dukla Banská Bystrica,10533,1,0,True
+1209784,2024-11-09T14:30:00+00:00,FT,Regular Season - 14,AS Trencin,655,Ružomberok,3549,0,0,True
+1209782,2024-11-09T14:30:00+00:00,FT,Regular Season - 14,Slovan Bratislava,656,Skalica,10542,3,1,True
+1209783,2024-11-09T14:30:00+00:00,FT,Regular Season - 14,Zemplín Michalovce,3552,Žilina,3554,1,1,True
+1209785,2024-11-09T17:00:00+00:00,FT,Regular Season - 14,Komárno,10535,Spartak Trnava,1120,1,2,True
+1209781,2024-11-10T14:30:00+00:00,FT,Regular Season - 14,Dunajska Streda,2257,Dukla Banská Bystrica,10533,0,0,True
+1209780,2024-11-10T14:30:00+00:00,FT,Regular Season - 14,Podbrezová,3548,FK Košice,10534,0,0,True
+1209787,2024-11-22T17:00:00+00:00,FT,Regular Season - 15,FK Košice,10534,Slovan Bratislava,656,1,1,True
+1209786,2024-11-23T14:30:00+00:00,FT,Regular Season - 15,Dunajska Streda,2257,Zemplín Michalovce,3552,0,1,True
+1209789,2024-11-23T14:30:00+00:00,FT,Regular Season - 15,Dukla Banská Bystrica,10533,AS Trencin,655,6,1,True
+1209790,2024-11-23T14:30:00+00:00,FT,Regular Season - 15,Skalica,10542,Podbrezová,3548,1,2,True
+1209791,2024-11-23T17:00:00+00:00,FT,Regular Season - 15,Žilina,3554,Spartak Trnava,1120,3,1,True
+1209788,2024-11-24T14:30:00+00:00,FT,Regular Season - 15,Ružomberok,3549,Komárno,10535,1,3,True
+1209793,2024-11-30T14:30:00+00:00,FT,Regular Season - 16,AS Trencin,655,Žilina,3554,2,4,True
+1209795,2024-11-30T14:30:00+00:00,FT,Regular Season - 16,Spartak Trnava,1120,Skalica,10542,2,0,True
+1209792,2024-11-30T14:30:00+00:00,FT,Regular Season - 16,Zemplín Michalovce,3552,Ružomberok,3549,4,2,True
+1209794,2024-11-30T17:00:00+00:00,FT,Regular Season - 16,Podbrezová,3548,Dunajska Streda,2257,0,0,True
+1209797,2024-12-01T14:30:00+00:00,FT,Regular Season - 16,Slovan Bratislava,656,Dukla Banská Bystrica,10533,3,1,True
+1209796,2024-12-01T14:30:00+00:00,FT,Regular Season - 16,Komárno,10535,FK Košice,10534,1,1,True
+1209768,2024-12-04T17:00:00+00:00,FT,Regular Season - 12,Slovan Bratislava,656,Komárno,10535,6,0,True
+1209800,2024-12-07T14:30:00+00:00,FT,Regular Season - 17,Ružomberok,3549,Spartak Trnava,1120,0,2,True
+1209802,2024-12-07T14:30:00+00:00,FT,Regular Season - 17,Zemplín Michalovce,3552,Komárno,10535,0,0,True
+1209801,2024-12-07T14:30:00+00:00,FT,Regular Season - 17,Dukla Banská Bystrica,10533,Podbrezová,3548,0,2,True
+1209798,2024-12-07T17:00:00+00:00,FT,Regular Season - 17,Žilina,3554,Slovan Bratislava,656,2,1,True
+1209803,2024-12-08T14:30:00+00:00,FT,Regular Season - 17,Dunajska Streda,2257,AS Trencin,655,3,3,True
+1209799,2024-12-08T14:30:00+00:00,FT,Regular Season - 17,FK Košice,10534,Skalica,10542,1,1,True
+1209807,2024-12-14T14:30:00+00:00,FT,Regular Season - 18,AS Trencin,655,Zemplín Michalovce,3552,0,0,True
+1209808,2024-12-14T14:30:00+00:00,FT,Regular Season - 18,Spartak Trnava,1120,FK Košice,10534,1,0,True
+1209809,2024-12-14T14:30:00+00:00,FT,Regular Season - 18,Podbrezová,3548,Ružomberok,3549,2,0,True
+1209805,2024-12-14T17:00:00+00:00,FT,Regular Season - 18,Slovan Bratislava,656,Dunajska Streda,2257,2,1,True
+1209806,2024-12-15T14:30:00+00:00,FT,Regular Season - 18,Komárno,10535,Dukla Banská Bystrica,10533,3,0,True
+1209804,2024-12-15T14:30:00+00:00,FT,Regular Season - 18,Skalica,10542,Žilina,3554,0,0,True
+1209812,2025-02-08T14:30:00+00:00,FT,Regular Season - 19,Dunajska Streda,2257,Skalica,10542,3,1,True
+1209813,2025-02-08T14:30:00+00:00,FT,Regular Season - 19,Zemplín Michalovce,3552,Podbrezová,3548,2,2,True
+1209811,2025-02-08T14:30:00+00:00,FT,Regular Season - 19,Dukla Banská Bystrica,10533,Spartak Trnava,1120,1,4,True
+1209814,2025-02-08T17:00:00+00:00,FT,Regular Season - 19,Žilina,3554,FK Košice,10534,0,2,True
+1209815,2025-02-09T14:30:00+00:00,FT,Regular Season - 19,AS Trencin,655,Komárno,10535,1,0,True
+1209810,2025-02-09T14:30:00+00:00,FT,Regular Season - 19,Ružomberok,3549,Slovan Bratislava,656,1,5,True
+1209820,2025-02-15T14:30:00+00:00,FT,Regular Season - 20,Podbrezová,3548,AS Trencin,655,2,1,True
+1209816,2025-02-15T14:30:00+00:00,FT,Regular Season - 20,FK Košice,10534,Dukla Banská Bystrica,10533,4,0,True
+1209819,2025-02-15T15:00:00+00:00,FT,Regular Season - 20,Slovan Bratislava,656,Zemplín Michalovce,3552,1,1,True
+1209818,2025-02-16T14:30:00+00:00,FT,Regular Season - 20,Spartak Trnava,1120,Dunajska Streda,2257,1,1,True
+1209817,2025-02-16T14:30:00+00:00,FT,Regular Season - 20,Skalica,10542,Ružomberok,3549,1,0,True
+1209826,2025-02-22T14:30:00+00:00,FT,Regular Season - 21,AS Trencin,655,Slovan Bratislava,656,1,1,True
+1209823,2025-02-22T14:30:00+00:00,FT,Regular Season - 21,Ružomberok,3549,FK Košice,10534,2,1,True
+1209825,2025-02-22T14:30:00+00:00,FT,Regular Season - 21,Komárno,10535,Skalica,10542,0,0,True
+1209824,2025-02-22T17:00:00+00:00,FT,Regular Season - 21,Žilina,3554,Dunajska Streda,2257,1,1,True
+1209822,2025-02-23T14:30:00+00:00,FT,Regular Season - 21,Spartak Trnava,1120,Podbrezová,3548,1,1,True
+1209827,2025-02-23T14:30:00+00:00,FT,Regular Season - 21,Zemplín Michalovce,3552,Dukla Banská Bystrica,10533,1,0,True
+1209821,2025-02-25T17:00:00+00:00,FT,Regular Season - 20,Komárno,10535,Žilina,3554,1,0,True
+1209833,2025-03-01T14:30:00+00:00,FT,Regular Season - 22,Slovan Bratislava,656,Spartak Trnava,1120,0,1,True
+1209830,2025-03-01T14:30:00+00:00,FT,Regular Season - 22,Dunajska Streda,2257,Ružomberok,3549,3,0,True
+1209832,2025-03-01T14:30:00+00:00,FT,Regular Season - 22,Podbrezová,3548,Komárno,10535,2,2,True
+1209828,2025-03-01T14:30:00+00:00,FT,Regular Season - 22,Dukla Banská Bystrica,10533,Žilina,3554,1,2,True
+1209831,2025-03-01T14:30:00+00:00,FT,Regular Season - 22,FK Košice,10534,Zemplín Michalovce,3552,3,2,True
+1209829,2025-03-01T14:30:00+00:00,FT,Regular Season - 22,Skalica,10542,AS Trencin,655,0,0,True
+1356777,2025-03-08T14:30:00+00:00,FT,Relegation Round - 1,Ružomberok,3549,Komárno,10535,0,1,True
+1356746,2025-03-08T14:30:00+00:00,FT,Championship Round - 1,Žilina,3554,Podbrezová,3548,0,0,True
+1356776,2025-03-08T14:30:00+00:00,FT,Relegation Round - 1,Dukla Banská Bystrica,10533,Skalica,10542,0,2,True
+1356747,2025-03-08T17:00:00+00:00,FT,Championship Round - 1,Spartak Trnava,1120,Dunajska Streda,2257,1,1,True
+1356778,2025-03-09T14:30:00+00:00,FT,Relegation Round - 1,AS Trencin,655,Zemplín Michalovce,3552,3,2,True
+1356748,2025-03-09T14:30:00+00:00,FT,Championship Round - 1,FK Košice,10534,Slovan Bratislava,656,2,3,True
+1356780,2025-03-15T14:30:00+00:00,FT,Relegation Round - 2,Zemplín Michalovce,3552,Ružomberok,3549,2,1,True
+1356779,2025-03-15T14:30:00+00:00,FT,Relegation Round - 2,Skalica,10542,AS Trencin,655,1,0,True
+1356750,2025-03-15T17:00:00+00:00,FT,Championship Round - 2,Dunajska Streda,2257,Žilina,3554,3,1,True
+1356751,2025-03-16T14:30:00+00:00,FT,Championship Round - 2,Slovan Bratislava,656,Spartak Trnava,1120,1,1,True
+1356749,2025-03-16T14:30:00+00:00,FT,Championship Round - 2,Podbrezová,3548,FK Košice,10534,0,1,True
+1356781,2025-03-16T14:30:00+00:00,FT,Relegation Round - 2,Komárno,10535,Dukla Banská Bystrica,10533,2,1,True
+1356752,2025-03-29T14:30:00+00:00,FT,Championship Round - 3,Slovan Bratislava,656,Podbrezová,3548,3,1,True
+1356783,2025-03-29T14:30:00+00:00,FT,Relegation Round - 3,Ružomberok,3549,Skalica,10542,3,2,True
+1356782,2025-03-29T14:30:00+00:00,FT,Relegation Round - 3,Dukla Banská Bystrica,10533,AS Trencin,655,2,3,True
+1356753,2025-03-29T17:00:00+00:00,FT,Championship Round - 3,FK Košice,10534,Dunajska Streda,2257,2,2,True
+1356754,2025-03-30T13:30:00+00:00,FT,Championship Round - 3,Spartak Trnava,1120,Žilina,3554,2,4,True
+1356784,2025-03-30T13:30:00+00:00,FT,Relegation Round - 3,Komárno,10535,Zemplín Michalovce,3552,0,1,True
+1356785,2025-04-05T13:30:00+00:00,FT,Relegation Round - 4,AS Trencin,655,Komárno,10535,1,0,True
+1356755,2025-04-05T13:30:00+00:00,FT,Championship Round - 4,Dunajska Streda,2257,Podbrezová,3548,1,1,True
+1356786,2025-04-05T13:30:00+00:00,FT,Relegation Round - 4,Skalica,10542,Zemplín Michalovce,3552,1,0,True
+1356756,2025-04-05T16:00:00+00:00,FT,Championship Round - 4,Žilina,3554,Slovan Bratislava,656,0,5,True
+1356787,2025-04-06T13:30:00+00:00,FT,Relegation Round - 4,Ružomberok,3549,Dukla Banská Bystrica,10533,1,2,True
+1356757,2025-04-06T13:30:00+00:00,FT,Championship Round - 4,FK Košice,10534,Spartak Trnava,1120,2,1,True
+1356789,2025-04-12T13:30:00+00:00,FT,Relegation Round - 5,AS Trencin,655,Ružomberok,3549,2,2,True
+1356760,2025-04-12T13:30:00+00:00,FT,Championship Round - 5,Podbrezová,3548,Spartak Trnava,1120,1,2,True
+1356790,2025-04-12T13:30:00+00:00,FT,Relegation Round - 5,Zemplín Michalovce,3552,Dukla Banská Bystrica,10533,3,3,True
+1356758,2025-04-12T16:00:00+00:00,FT,Championship Round - 5,Slovan Bratislava,656,Dunajska Streda,2257,2,2,True
+1356788,2025-04-13T13:30:00+00:00,FT,Relegation Round - 5,Komárno,10535,Skalica,10542,1,1,True
+1356763,2025-04-19T16:00:00+00:00,FT,Championship Round - 6,Podbrezová,3548,Žilina,3554,1,1,True
+1356793,2025-04-19T16:00:00+00:00,FT,Relegation Round - 6,Zemplín Michalovce,3552,AS Trencin,655,3,2,True
+1356791,2025-04-19T16:00:00+00:00,FT,Relegation Round - 6,Skalica,10542,Ružomberok,3549,1,0,True
+1356762,2025-04-19T18:30:00+00:00,FT,Championship Round - 6,Spartak Trnava,1120,Slovan Bratislava,656,2,3,True
+1356761,2025-04-20T16:00:00+00:00,FT,Championship Round - 6,Dunajska Streda,2257,FK Košice,10534,3,2,True
+1356792,2025-04-20T16:00:00+00:00,FT,Relegation Round - 6,Dukla Banská Bystrica,10533,Komárno,10535,0,1,True
+1356759,2025-04-23T16:00:00+00:00,FT,Championship Round - 5,Žilina,3554,FK Košice,10534,0,0,True
+1356796,2025-04-25T16:00:00+00:00,FT,Relegation Round - 7,AS Trencin,655,Dukla Banská Bystrica,10533,2,2,True
+1356795,2025-04-26T16:00:00+00:00,FT,Relegation Round - 7,Ružomberok,3549,Zemplín Michalovce,3552,1,0,True
+1356765,2025-04-26T16:00:00+00:00,FT,Championship Round - 7,FK Košice,10534,Podbrezová,3548,1,1,True
+1356764,2025-04-26T18:30:00+00:00,FT,Championship Round - 7,Dunajska Streda,2257,Slovan Bratislava,656,2,1,True
+1356766,2025-04-27T16:00:00+00:00,FT,Championship Round - 7,Žilina,3554,Spartak Trnava,1120,2,1,True
+1356794,2025-04-27T16:00:00+00:00,FT,Relegation Round - 7,Skalica,10542,Komárno,10535,0,1,True
+1356767,2025-05-03T16:00:00+00:00,FT,Championship Round - 8,Podbrezová,3548,Dunajska Streda,2257,2,0,True
+1356797,2025-05-03T16:00:00+00:00,FT,Relegation Round - 8,Zemplín Michalovce,3552,Skalica,10542,2,4,True
+1356798,2025-05-03T16:00:00+00:00,FT,Relegation Round - 8,Komárno,10535,AS Trencin,655,0,0,True
+1356769,2025-05-03T18:30:00+00:00,FT,Championship Round - 8,Slovan Bratislava,656,Žilina,3554,4,3,True
+1356768,2025-05-04T16:00:00+00:00,FT,Championship Round - 8,Spartak Trnava,1120,FK Košice,10534,0,1,True
+1356799,2025-05-04T16:00:00+00:00,FT,Relegation Round - 8,Dukla Banská Bystrica,10533,Ružomberok,3549,0,2,True
+1356772,2025-05-10T16:00:00+00:00,FT,Championship Round - 9,Podbrezová,3548,Slovan Bratislava,656,1,3,True
+1356801,2025-05-10T16:00:00+00:00,FT,Relegation Round - 9,Ružomberok,3549,AS Trencin,655,1,0,True
+1356802,2025-05-10T16:00:00+00:00,FT,Relegation Round - 9,Skalica,10542,Dukla Banská Bystrica,10533,3,1,True
+1356770,2025-05-10T18:30:00+00:00,FT,Championship Round - 9,FK Košice,10534,Žilina,3554,3,2,True
+1356771,2025-05-11T16:00:00+00:00,FT,Championship Round - 9,Dunajska Streda,2257,Spartak Trnava,1120,1,0,True
+1356800,2025-05-11T16:00:00+00:00,FT,Relegation Round - 9,Zemplín Michalovce,3552,Komárno,10535,4,5,True
+1356805,2025-05-17T15:00:00+00:00,FT,Relegation Round - 10,AS Trencin,655,Skalica,10542,2,0,True
+1356774,2025-05-17T15:00:00+00:00,FT,Championship Round - 10,Slovan Bratislava,656,FK Košice,10534,1,0,True
+1356773,2025-05-17T15:00:00+00:00,FT,Championship Round - 10,Spartak Trnava,1120,Podbrezová,3548,2,1,True
+1356775,2025-05-17T15:00:00+00:00,FT,Championship Round - 10,Žilina,3554,Dunajska Streda,2257,0,1,True
+1356803,2025-05-17T15:00:00+00:00,FT,Relegation Round - 10,Dukla Banská Bystrica,10533,Zemplín Michalovce,3552,2,3,True
+1356804,2025-05-17T15:00:00+00:00,FT,Relegation Round - 10,Komárno,10535,Ružomberok,3549,1,2,True
+1375805,2025-05-20T18:00:00+00:00,FT,Conference League Play-offs - Semi-finals,Dunajska Streda,2257,Zemplín Michalovce,3552,2,1,True
+1375909,2025-05-20T18:00:00+00:00,FT,Relegation Round,Zlaté Moravce,3553,AS Trencin,655,1,1,True
+1375705,2025-05-20T18:00:00+00:00,PEN,Conference League Play-offs - Semi-finals,FK Košice,10534,Podbrezová,3548,2,2,False
+1375908,2025-05-23T16:00:00+00:00,FT,Conference League Play-offs - Final,Dunajska Streda,2257,Podbrezová,3548,3,2,True
+1375910,2025-05-24T15:00:00+00:00,FT,Relegation Round,AS Trencin,655,Zlaté Moravce,3553,4,2,True

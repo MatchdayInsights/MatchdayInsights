@@ -23,7 +23,9 @@ import os
 import time
 from datetime import date, datetime
 
-API_KEY = "b3d61bb980d740790b311fc3de4da661"  # <-- paste your real key here
+API_KEY = os.environ.get("API_FOOTBALL_KEY", "")
+if not API_KEY:
+    raise SystemExit("Set the API_FOOTBALL_KEY environment variable before running this script (do not hardcode it here - your previous key was exposed in this file and should be rotated on API-Football's dashboard).")
 BASE = "https://v3.football.api-sports.io"
 HEADERS = {"x-apisports-key": API_KEY}
 
@@ -140,6 +142,7 @@ def pull_fixtures(league_id, season):
             "fixture_id": m["fixture"]["id"],
             "date": fixture_date_str,
             "status": m["fixture"]["status"]["short"],  # e.g. FT, NS (not started), PST
+            "round": m.get("league", {}).get("round", ""),  # e.g. "1st Round", "Preliminary Round"
             "home_team": m["teams"]["home"]["name"],
             "home_team_id": m["teams"]["home"]["id"],
             "away_team": m["teams"]["away"]["name"],
@@ -147,6 +150,7 @@ def pull_fixtures(league_id, season):
             "home_score": m["goals"]["home"],
             "away_score": m["goals"]["away"],
             "played": m["fixture"]["status"]["short"] == "FT",
+            "venue_id": (m["fixture"].get("venue") or {}).get("id"),
         })
 
     if skipped_before_cutoff and skipped_before_cutoff == len(data["response"]):

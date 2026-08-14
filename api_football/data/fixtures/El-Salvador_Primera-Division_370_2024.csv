@@ -1,124 +1,248 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1334537,2025-01-19T01:30:00+00:00,FT,Municipal Limeño,4306,Alianza,4299,1,4,True
-1334538,2025-01-19T21:00:00+00:00,FT,Once Municipal,5632,Fuerte San Francisco,22157,1,2,True
-1334534,2025-01-19T21:00:00+00:00,FT,Dragón,19412,FAS,4302,0,1,True
-1334536,2025-01-19T21:00:00+00:00,FT,Cacahuatique,24530,Águila,4310,0,0,True
-1334535,2025-01-19T21:15:00+00:00,FT,Platense,19763,Firpo,4303,1,2,True
-1334541,2025-01-26T01:00:00+00:00,FT,Alianza,4299,Cacahuatique,24530,1,2,True
-1334543,2025-01-26T01:15:00+00:00,FT,Isidro Metapán,4304,Once Municipal,5632,3,1,True
-1334539,2025-01-26T21:00:00+00:00,FT,Firpo,4303,Dragón,19412,1,0,True
-1334540,2025-01-26T21:00:00+00:00,FT,Águila,4310,Platense,19763,3,1,True
-1334542,2025-01-26T21:30:00+00:00,FT,Fuerte San Francisco,22157,Municipal Limeño,4306,0,0,True
-1334547,2025-01-29T21:00:00+00:00,FT,Cacahuatique,24530,Fuerte San Francisco,22157,1,1,True
-1334545,2025-01-29T21:30:00+00:00,FT,Dragón,19412,Águila,4310,0,2,True
-1334546,2025-01-30T01:00:00+00:00,FT,Platense,19763,Alianza,4299,1,0,True
-1334544,2025-01-30T02:00:00+00:00,FT,FAS,4302,Firpo,4303,0,3,True
-1334548,2025-01-31T01:00:00+00:00,FT,Municipal Limeño,4306,Isidro Metapán,4304,0,0,True
-1334550,2025-02-02T01:00:00+00:00,FT,Alianza,4299,Dragón,19412,2,0,True
-1334552,2025-02-02T01:15:00+00:00,FT,Isidro Metapán,4304,Cacahuatique,24530,0,0,True
-1334549,2025-02-02T21:00:00+00:00,FT,Águila,4310,FAS,4302,3,1,True
-1334553,2025-02-02T21:00:00+00:00,FT,Once Municipal,5632,Municipal Limeño,4306,0,0,True
-1334551,2025-02-02T21:00:00+00:00,FT,Fuerte San Francisco,22157,Platense,19763,0,2,True
-1334558,2025-02-08T21:30:00+00:00,FT,Cacahuatique,24530,Once Municipal,5632,2,2,True
-1334555,2025-02-09T01:00:00+00:00,FT,FAS,4302,Alianza,4299,1,1,True
-1334554,2025-02-09T21:00:00+00:00,FT,Firpo,4303,Águila,4310,2,0,True
-1334557,2025-02-09T21:15:00+00:00,FT,Platense,19763,Isidro Metapán,4304,0,2,True
-1334556,2025-02-09T21:30:00+00:00,FT,Dragón,19412,Fuerte San Francisco,22157,0,1,True
-1334562,2025-02-12T21:00:00+00:00,FT,Once Municipal,5632,Platense,19763,0,0,True
-1334560,2025-02-12T21:00:00+00:00,FT,Fuerte San Francisco,22157,FAS,4302,0,0,True
-1334561,2025-02-13T01:15:00+00:00,FT,Isidro Metapán,4304,Dragón,19412,2,1,True
-1334559,2025-02-13T01:30:00+00:00,FT,Alianza,4299,Firpo,4303,2,1,True
-1334563,2025-02-14T01:00:00+00:00,FT,Municipal Limeño,4306,Cacahuatique,24530,1,2,True
-1334564,2025-02-16T01:00:00+00:00,FT,Águila,4310,Alianza,4299,0,1,True
-1334565,2025-02-16T21:00:00+00:00,FT,Firpo,4303,Fuerte San Francisco,22157,1,0,True
-1334567,2025-02-16T21:00:00+00:00,FT,Dragón,19412,Once Municipal,5632,4,0,True
-1334568,2025-02-16T21:15:00+00:00,FT,Platense,19763,Municipal Limeño,4306,1,1,True
-1334566,2025-02-16T23:00:00+00:00,FT,FAS,4302,Isidro Metapán,4304,0,0,True
-1334572,2025-02-22T23:00:00+00:00,FT,Municipal Limeño,4306,Dragón,19412,2,0,True
-1334570,2025-02-23T01:15:00+00:00,FT,Isidro Metapán,4304,Firpo,4303,0,0,True
-1334573,2025-02-23T21:00:00+00:00,FT,Cacahuatique,24530,Platense,19763,1,1,True
-1334569,2025-02-23T21:30:00+00:00,FT,Fuerte San Francisco,22157,Águila,4310,1,1,True
-1334626,2025-02-23T23:00:00+00:00,FT,FAS,4302,Once Municipal,5632,2,0,True
-1334575,2025-02-26T21:00:00+00:00,FT,Águila,4310,Isidro Metapán,4304,2,0,True
-1334576,2025-02-26T21:30:00+00:00,FT,Firpo,4303,Once Municipal,5632,4,1,True
-1334578,2025-02-26T21:30:00+00:00,FT,Cacahuatique,24530,Dragón,19412,0,2,True
-1334574,2025-02-27T01:00:00+00:00,FT,Alianza,4299,Fuerte San Francisco,22157,2,0,True
-1334577,2025-02-27T02:00:00+00:00,FT,FAS,4302,Municipal Limeño,4306,0,1,True
-1334581,2025-03-02T01:00:00+00:00,FT,Municipal Limeño,4306,Firpo,4303,1,4,True
-1334579,2025-03-02T01:15:00+00:00,FT,Isidro Metapán,4304,Alianza,4299,2,1,True
-1334580,2025-03-02T21:00:00+00:00,FT,Once Municipal,5632,Águila,4310,1,2,True
-1334582,2025-03-02T21:00:00+00:00,FT,Cacahuatique,24530,FAS,4302,1,0,True
-1334583,2025-03-02T21:30:00+00:00,FT,Platense,19763,Dragón,19412,0,1,True
-1334585,2025-03-09T01:00:00+00:00,FT,Alianza,4299,Once Municipal,5632,3,0,True
-1334588,2025-03-09T01:00:00+00:00,FT,FAS,4302,Platense,19763,4,1,True
-1334587,2025-03-09T01:00:00+00:00,FT,Firpo,4303,Cacahuatique,24530,1,1,True
-1334586,2025-03-09T21:00:00+00:00,FT,Águila,4310,Municipal Limeño,4306,0,2,True
-1334584,2025-03-09T21:00:00+00:00,FT,Fuerte San Francisco,22157,Isidro Metapán,4304,0,1,True
-1334591,2025-03-15T21:00:00+00:00,FT,Águila,4310,Cacahuatique,24530,4,2,True
-1334592,2025-03-16T00:00:00+00:00,FT,Alianza,4299,Municipal Limeño,4306,0,0,True
-1334590,2025-03-16T01:00:00+00:00,FT,Firpo,4303,Platense,19763,2,0,True
-1334589,2025-03-16T02:00:00+00:00,FT,FAS,4302,Dragón,19412,1,0,True
-1334593,2025-03-16T21:00:00+00:00,FT,Fuerte San Francisco,22157,Once Municipal,5632,0,2,True
-1334598,2025-03-23T21:00:00+00:00,FT,Once Municipal,5632,Isidro Metapán,4304,0,2,True
-1334594,2025-03-23T21:00:00+00:00,FT,Dragón,19412,Firpo,4303,1,4,True
-1334596,2025-03-23T21:00:00+00:00,FT,Cacahuatique,24530,Alianza,4299,0,4,True
-1334595,2025-03-23T21:30:00+00:00,FT,Platense,19763,Águila,4310,0,1,True
-1334597,2025-03-24T00:00:00+00:00,FT,Municipal Limeño,4306,Fuerte San Francisco,22157,1,2,True
-1334600,2025-03-26T21:00:00+00:00,FT,Águila,4310,Dragón,19412,4,1,True
-1334602,2025-03-26T21:00:00+00:00,FT,Fuerte San Francisco,22157,Cacahuatique,24530,0,1,True
-1334601,2025-03-27T01:00:00+00:00,FT,Alianza,4299,Platense,19763,1,0,True
-1334603,2025-03-27T01:15:00+00:00,FT,Isidro Metapán,4304,Municipal Limeño,4306,0,0,True
-1334599,2025-03-27T01:30:00+00:00,FT,Firpo,4303,FAS,4302,1,2,True
-1334607,2025-03-29T21:30:00+00:00,FT,Cacahuatique,24530,Isidro Metapán,4304,0,0,True
-1334608,2025-03-30T00:00:00+00:00,FT,Municipal Limeño,4306,Once Municipal,5632,3,0,True
-1334605,2025-03-30T21:00:00+00:00,FT,Dragón,19412,Alianza,4299,1,2,True
-1334606,2025-03-30T21:30:00+00:00,FT,Platense,19763,Fuerte San Francisco,22157,2,2,True
-1334604,2025-03-30T23:00:00+00:00,FT,FAS,4302,Águila,4310,1,1,True
-1334610,2025-04-06T01:00:00+00:00,FT,Alianza,4299,FAS,4302,1,0,True
-1334612,2025-04-06T01:15:00+00:00,FT,Isidro Metapán,4304,Platense,19763,2,1,True
-1334609,2025-04-06T21:00:00+00:00,FT,Águila,4310,Firpo,4303,3,1,True
-1334613,2025-04-06T21:00:00+00:00,FT,Once Municipal,5632,Cacahuatique,24530,0,0,True
-1334611,2025-04-06T21:00:00+00:00,FT,Fuerte San Francisco,22157,Dragón,19412,1,1,True
-1334616,2025-04-09T21:30:00+00:00,FT,Dragón,19412,Isidro Metapán,4304,2,3,True
-1334617,2025-04-09T21:30:00+00:00,FT,Platense,19763,Once Municipal,5632,2,0,True
-1334614,2025-04-10T01:30:00+00:00,FT,Firpo,4303,Alianza,4299,0,0,True
-1334615,2025-04-10T02:00:00+00:00,FT,FAS,4302,Fuerte San Francisco,22157,0,3,True
-1334618,2025-04-10T21:30:00+00:00,FT,Cacahuatique,24530,Municipal Limeño,4306,0,2,True
-1334623,2025-04-13T01:00:00+00:00,FT,Municipal Limeño,4306,Platense,19763,3,2,True
-1334621,2025-04-13T01:15:00+00:00,FT,Isidro Metapán,4304,FAS,4302,3,1,True
-1334622,2025-04-13T21:00:00+00:00,FT,Once Municipal,5632,Dragón,19412,0,1,True
-1334620,2025-04-13T21:00:00+00:00,FT,Fuerte San Francisco,22157,Firpo,4303,0,1,True
-1334619,2025-04-13T21:30:00+00:00,FT,Alianza,4299,Águila,4310,0,1,True
-1334624,2025-04-17T21:00:00+00:00,FT,Águila,4310,Fuerte San Francisco,22157,3,0,True
-1334571,2025-04-17T21:30:00+00:00,FT,Once Municipal,5632,FAS,4302,2,2,True
-1334625,2025-04-20T01:00:00+00:00,FT,Firpo,4303,Isidro Metapán,4304,0,0,True
-1334627,2025-04-20T21:00:00+00:00,FT,Dragón,19412,Municipal Limeño,4306,1,1,True
-1334628,2025-04-20T21:30:00+00:00,FT,Platense,19763,Cacahuatique,24530,2,0,True
-1334633,2025-04-23T21:30:00+00:00,FT,Dragón,19412,Cacahuatique,24530,1,2,True
-1334629,2025-04-23T21:30:00+00:00,FT,Fuerte San Francisco,22157,Alianza,4299,1,0,True
-1334632,2025-04-24T01:00:00+00:00,FT,Municipal Limeño,4306,FAS,4302,0,0,True
-1334631,2025-04-24T01:00:00+00:00,FT,Once Municipal,5632,Firpo,4303,1,3,True
-1334630,2025-04-24T01:15:00+00:00,FT,Isidro Metapán,4304,Águila,4310,2,2,True
-1334635,2025-04-26T21:00:00+00:00,FT,Águila,4310,Once Municipal,5632,3,1,True
-1334634,2025-04-27T00:00:00+00:00,FT,Alianza,4299,Isidro Metapán,4304,1,0,True
-1334636,2025-04-27T01:00:00+00:00,FT,Firpo,4303,Municipal Limeño,4306,2,2,True
-1334638,2025-04-27T21:30:00+00:00,FT,Dragón,19412,Platense,19763,0,1,True
-1334637,2025-04-28T00:00:00+00:00,FT,FAS,4302,Cacahuatique,24530,1,2,True
-1334639,2025-05-03T21:30:00+00:00,FT,Isidro Metapán,4304,Fuerte San Francisco,22157,0,1,True
-1334641,2025-05-03T21:30:00+00:00,FT,Municipal Limeño,4306,Águila,4310,0,2,True
-1334640,2025-05-03T21:30:00+00:00,FT,Once Municipal,5632,Alianza,4299,0,2,True
-1334643,2025-05-03T21:30:00+00:00,FT,Platense,19763,FAS,4302,0,0,True
-1334642,2025-05-03T21:30:00+00:00,FT,Cacahuatique,24530,Firpo,4303,1,1,True
-1374422,2025-05-07T21:00:00+00:00,FT,Cacahuatique,24530,Alianza,4299,1,2,True
-1374424,2025-05-08T01:30:00+00:00,FT,Municipal Limeño,4306,Isidro Metapán,4304,2,1,True
-1374426,2025-05-08T02:00:00+00:00,FT,FAS,4302,Águila,4310,1,2,True
-1374428,2025-05-08T21:30:00+00:00,FT,Fuerte San Francisco,22157,Firpo,4303,0,0,True
-1374423,2025-05-10T21:15:00+00:00,FT,Alianza,4299,Cacahuatique,24530,4,0,True
-1374429,2025-05-11T01:00:00+00:00,FT,Firpo,4303,Fuerte San Francisco,22157,1,1,True
-1374425,2025-05-11T02:15:00+00:00,FT,Isidro Metapán,4304,Municipal Limeño,4306,1,2,True
-1374427,2025-05-11T21:15:00+00:00,FT,Águila,4310,FAS,4302,0,1,True
-1375284,2025-05-15T01:30:00+00:00,FT,FAS,4302,Municipal Limeño,4306,1,2,True
-1375286,2025-05-15T21:30:00+00:00,FT,Fuerte San Francisco,22157,Alianza,4299,0,1,True
-1375285,2025-05-18T00:30:00+00:00,FT,Municipal Limeño,4306,FAS,4302,1,0,True
-1375287,2025-05-18T23:00:00+00:00,FT,Alianza,4299,Fuerte San Francisco,22157,2,0,True
-1375879,2025-05-25T00:30:00+00:00,PEN,Municipal Limeño,4306,Alianza,4299,0,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1323384,2024-12-25T00:00:00+00:00,Canc,Apertura - Final,Once Municipal,5632,FAS,4302,,,False
+1253493,2024-07-27T21:30:00+00:00,FT,Apertura - 1,Firpo,4303,Platense,19763,1,0,True
+1253494,2024-07-28T00:00:00+00:00,FT,Apertura - 1,Alianza,4299,Municipal Limeño,4306,1,1,True
+1253492,2024-07-28T21:00:00+00:00,FT,Apertura - 1,Once Municipal,5632,FAS,4302,2,2,True
+1253491,2024-07-28T21:00:00+00:00,FT,Apertura - 1,Dragón,19412,Águila,4310,0,3,True
+1253490,2024-07-28T21:00:00+00:00,FT,Apertura - 1,Fuerte San Francisco,22157,Isidro Metapán,4304,0,3,True
+1253495,2024-07-31T21:30:00+00:00,FT,Apertura - 2,Águila,4310,Fuerte San Francisco,22157,1,0,True
+1253496,2024-08-01T01:30:00+00:00,FT,Apertura - 2,FAS,4302,Dragón,19412,2,0,True
+1253497,2024-08-01T21:30:00+00:00,FT,Apertura - 2,Platense,19763,Once Municipal,5632,1,2,True
+1253499,2024-08-01T21:30:00+00:00,FT,Apertura - 2,Cacahuatique,24530,Alianza,4299,1,3,True
+1253504,2024-08-03T21:30:00+00:00,FT,Apertura - 3,Firpo,4303,Cacahuatique,24530,1,3,True
+1253500,2024-08-04T01:00:00+00:00,FT,Apertura - 3,Isidro Metapán,4304,Águila,4310,0,0,True
+1253503,2024-08-04T21:00:00+00:00,FT,Apertura - 3,Once Municipal,5632,Municipal Limeño,4306,1,2,True
+1253502,2024-08-04T21:00:00+00:00,FT,Apertura - 3,Dragón,19412,Platense,19763,0,0,True
+1253501,2024-08-04T21:00:00+00:00,FT,Apertura - 3,Fuerte San Francisco,22157,FAS,4302,2,2,True
+1253508,2024-08-10T21:30:00+00:00,FT,Apertura - 4,Cacahuatique,24530,Once Municipal,5632,1,0,True
+1253507,2024-08-11T00:05:00+00:00,FT,Apertura - 4,Municipal Limeño,4306,Dragón,19412,0,0,True
+1253505,2024-08-11T01:30:00+00:00,FT,Apertura - 4,FAS,4302,Isidro Metapán,4304,0,3,True
+1253506,2024-08-11T21:15:00+00:00,FT,Apertura - 4,Platense,19763,Fuerte San Francisco,22157,0,2,True
+1253511,2024-08-18T01:00:00+00:00,FT,Apertura - 5,Isidro Metapán,4304,Platense,19763,1,1,True
+1253510,2024-08-18T21:00:00+00:00,FT,Apertura - 5,Águila,4310,FAS,4302,3,1,True
+1253514,2024-08-18T21:00:00+00:00,FT,Apertura - 5,Once Municipal,5632,Alianza,4299,1,1,True
+1253513,2024-08-18T21:00:00+00:00,FT,Apertura - 5,Dragón,19412,Cacahuatique,24530,0,1,True
+1253512,2024-08-18T21:00:00+00:00,FT,Apertura - 5,Fuerte San Francisco,22157,Municipal Limeño,4306,0,1,True
+1253517,2024-08-24T21:00:00+00:00,FT,Apertura - 6,Cacahuatique,24530,Fuerte San Francisco,22157,2,0,True
+1253516,2024-08-25T00:00:00+00:00,FT,Apertura - 6,Municipal Limeño,4306,Isidro Metapán,4304,1,1,True
+1253518,2024-08-25T01:00:00+00:00,FT,Apertura - 6,Alianza,4299,Dragón,19412,3,0,True
+1253519,2024-08-25T21:00:00+00:00,FT,Apertura - 6,Firpo,4303,Once Municipal,5632,3,3,True
+1253515,2024-08-25T21:30:00+00:00,FT,Apertura - 6,Platense,19763,Águila,4310,0,1,True
+1253524,2024-08-28T21:30:00+00:00,FT,Apertura - 7,Dragón,19412,Firpo,4303,2,3,True
+1253522,2024-08-29T01:30:00+00:00,FT,Apertura - 7,Isidro Metapán,4304,Cacahuatique,24530,2,1,True
+1253520,2024-08-29T02:00:00+00:00,FT,Apertura - 7,FAS,4302,Platense,19763,0,0,True
+1253525,2024-08-31T23:00:00+00:00,FT,Apertura - 8,Municipal Limeño,4306,FAS,4302,1,1,True
+1253527,2024-09-01T01:00:00+00:00,FT,Apertura - 8,Alianza,4299,Isidro Metapán,4304,1,2,True
+1253528,2024-09-01T21:00:00+00:00,FT,Apertura - 8,Firpo,4303,Fuerte San Francisco,22157,3,2,True
+1253529,2024-09-01T21:00:00+00:00,FT,Apertura - 8,Once Municipal,5632,Dragón,19412,1,0,True
+1253526,2024-09-01T21:00:00+00:00,FT,Apertura - 8,Cacahuatique,24530,Águila,4310,0,0,True
+1253533,2024-09-08T01:00:00+00:00,FT,Apertura - 9,Isidro Metapán,4304,Firpo,4303,1,2,True
+1253531,2024-09-08T01:30:00+00:00,FT,Apertura - 9,FAS,4302,Cacahuatique,24530,1,0,True
+1253534,2024-09-08T21:00:00+00:00,FT,Apertura - 9,Fuerte San Francisco,22157,Once Municipal,5632,1,0,True
+1253530,2024-09-08T21:30:00+00:00,FT,Apertura - 9,Platense,19763,Municipal Limeño,4306,1,1,True
+1253532,2024-09-12T01:00:00+00:00,FT,Apertura - 9,Águila,4310,Alianza,4299,3,0,True
+1253498,2024-09-13T00:30:00+00:00,FT,Apertura - 2,Municipal Limeño,4306,Firpo,4303,2,3,True
+1253535,2024-09-14T21:00:00+00:00,FT,Apertura - 10,Cacahuatique,24530,Platense,19763,2,1,True
+1253538,2024-09-14T21:30:00+00:00,FT,Apertura - 10,Once Municipal,5632,Isidro Metapán,4304,1,2,True
+1253536,2024-09-15T01:00:00+00:00,FT,Apertura - 10,Alianza,4299,FAS,4302,1,0,True
+1253537,2024-09-15T21:00:00+00:00,FT,Apertura - 10,Firpo,4303,Águila,4310,1,0,True
+1253539,2024-09-15T21:00:00+00:00,FT,Apertura - 10,Dragón,19412,Fuerte San Francisco,22157,1,1,True
+1253521,2024-09-19T01:00:00+00:00,FT,Apertura - 7,Águila,4310,Municipal Limeño,4306,3,1,True
+1253523,2024-09-19T21:00:00+00:00,FT,Apertura - 7,Fuerte San Francisco,22157,Alianza,4299,0,2,True
+1253543,2024-09-21T21:30:00+00:00,FT,Apertura - 11,Águila,4310,Once Municipal,5632,1,2,True
+1253544,2024-09-22T01:00:00+00:00,FT,Apertura - 11,Isidro Metapán,4304,Dragón,19412,4,0,True
+1253542,2024-09-22T01:30:00+00:00,FT,Apertura - 11,FAS,4302,Firpo,4303,4,1,True
+1253541,2024-09-22T21:00:00+00:00,FT,Apertura - 11,Platense,19763,Alianza,4299,0,2,True
+1253509,2024-09-26T01:00:00+00:00,FT,Apertura - 4,Alianza,4299,Firpo,4303,3,0,True
+1253540,2024-09-27T00:00:00+00:00,FT,Apertura - 11,Municipal Limeño,4306,Cacahuatique,24530,1,2,True
+1253545,2024-09-28T01:15:00+00:00,FT,Apertura - 12,Isidro Metapán,4304,Fuerte San Francisco,22157,0,2,True
+1253549,2024-09-30T00:00:00+00:00,FT,Apertura - 12,Municipal Limeño,4306,Alianza,4299,1,0,True
+1253551,2024-10-01T21:30:00+00:00,FT,Apertura - 13,Dragón,19412,FAS,4302,1,0,True
+1253553,2024-10-02T21:00:00+00:00,FT,Apertura - 13,Firpo,4303,Municipal Limeño,4306,2,0,True
+1253552,2024-10-02T21:30:00+00:00,FT,Apertura - 13,Once Municipal,5632,Platense,19763,1,0,True
+1253554,2024-10-04T01:00:00+00:00,FT,Apertura - 13,Alianza,4299,Cacahuatique,24530,0,1,True
+1253559,2024-10-05T21:00:00+00:00,FT,Apertura - 14,Cacahuatique,24530,Firpo,4303,1,0,True
+1253555,2024-10-05T21:30:00+00:00,FT,Apertura - 14,Águila,4310,Isidro Metapán,4304,1,4,True
+1253558,2024-10-06T00:00:00+00:00,FT,Apertura - 14,Municipal Limeño,4306,Once Municipal,5632,0,2,True
+1253556,2024-10-06T01:00:00+00:00,FT,Apertura - 14,FAS,4302,Fuerte San Francisco,22157,4,0,True
+1253557,2024-10-06T21:00:00+00:00,FT,Apertura - 14,Platense,19763,Dragón,19412,0,3,True
+1253560,2024-10-13T01:15:00+00:00,FT,Apertura - 15,Isidro Metapán,4304,FAS,4302,2,1,True
+1253564,2024-10-13T21:00:00+00:00,FT,Apertura - 15,Firpo,4303,Alianza,4299,0,0,True
+1253563,2024-10-13T21:00:00+00:00,FT,Apertura - 15,Once Municipal,5632,Cacahuatique,24530,1,0,True
+1253562,2024-10-13T21:00:00+00:00,FT,Apertura - 15,Dragón,19412,Municipal Limeño,4306,1,1,True
+1253561,2024-10-13T21:00:00+00:00,FT,Apertura - 15,Fuerte San Francisco,22157,Platense,19763,1,1,True
+1253546,2024-10-16T21:00:00+00:00,FT,Apertura - 12,Águila,4310,Dragón,19412,3,0,True
+1253548,2024-10-17T21:15:00+00:00,FT,Apertura - 12,Platense,19763,Firpo,4303,0,2,True
+1253565,2024-10-20T01:00:00+00:00,FT,Apertura - 16,FAS,4302,Águila,4310,3,4,True
+1253567,2024-10-20T01:00:00+00:00,FT,Apertura - 16,Municipal Limeño,4306,Fuerte San Francisco,22157,4,0,True
+1253566,2024-10-20T21:00:00+00:00,FT,Apertura - 16,Platense,19763,Isidro Metapán,4304,2,0,True
+1253568,2024-10-20T21:00:00+00:00,FT,Apertura - 16,Cacahuatique,24530,Dragón,19412,1,0,True
+1253569,2024-10-20T21:15:00+00:00,FT,Apertura - 16,Alianza,4299,Once Municipal,5632,3,0,True
+1253547,2024-10-24T01:30:00+00:00,FT,Apertura - 12,FAS,4302,Once Municipal,5632,1,2,True
+1253570,2024-10-26T21:30:00+00:00,FT,Apertura - 17,Águila,4310,Platense,19763,2,2,True
+1253571,2024-10-27T01:15:00+00:00,FT,Apertura - 17,Isidro Metapán,4304,Municipal Limeño,4306,0,3,True
+1253574,2024-10-27T21:00:00+00:00,FT,Apertura - 17,Once Municipal,5632,Firpo,4303,2,3,True
+1253573,2024-10-27T21:00:00+00:00,FT,Apertura - 17,Dragón,19412,Alianza,4299,1,0,True
+1253572,2024-10-27T21:00:00+00:00,FT,Apertura - 17,Fuerte San Francisco,22157,Cacahuatique,24530,0,1,True
+1253579,2024-10-30T21:00:00+00:00,FT,Apertura - 18,Firpo,4303,Dragón,19412,1,0,True
+1253577,2024-10-30T21:00:00+00:00,FT,Apertura - 18,Cacahuatique,24530,Isidro Metapán,4304,1,2,True
+1253575,2024-10-31T21:15:00+00:00,FT,Apertura - 18,Platense,19763,FAS,4302,0,1,True
+1253578,2024-11-01T00:00:00+00:00,FT,Apertura - 18,Alianza,4299,Fuerte San Francisco,22157,2,0,True
+1253582,2024-11-03T01:15:00+00:00,FT,Apertura - 19,Isidro Metapán,4304,Alianza,4299,0,0,True
+1253581,2024-11-03T21:00:00+00:00,FT,Apertura - 19,Águila,4310,Cacahuatique,24530,3,1,True
+1253584,2024-11-03T21:00:00+00:00,FT,Apertura - 19,Dragón,19412,Once Municipal,5632,0,1,True
+1253583,2024-11-03T21:00:00+00:00,FT,Apertura - 19,Fuerte San Francisco,22157,Firpo,4303,0,2,True
+1253580,2024-11-03T23:00:00+00:00,FT,Apertura - 19,FAS,4302,Municipal Limeño,4306,1,2,True
+1253550,2024-11-07T21:00:00+00:00,FT,Apertura - 13,Fuerte San Francisco,22157,Águila,4310,1,2,True
+1253585,2024-11-10T01:00:00+00:00,FT,Apertura - 20,Municipal Limeño,4306,Platense,19763,2,0,True
+1253588,2024-11-10T21:00:00+00:00,FT,Apertura - 20,Firpo,4303,Isidro Metapán,4304,2,0,True
+1253589,2024-11-10T21:00:00+00:00,FT,Apertura - 20,Once Municipal,5632,Fuerte San Francisco,22157,2,0,True
+1253586,2024-11-10T21:00:00+00:00,FT,Apertura - 20,Cacahuatique,24530,FAS,4302,2,0,True
+1253587,2024-11-10T21:15:00+00:00,FT,Apertura - 20,Alianza,4299,Águila,4310,1,1,True
+1253591,2024-11-17T01:00:00+00:00,FT,Apertura - 21,FAS,4302,Alianza,4299,4,1,True
+1253593,2024-11-17T01:15:00+00:00,FT,Apertura - 21,Isidro Metapán,4304,Once Municipal,5632,2,2,True
+1253594,2024-11-17T21:00:00+00:00,FT,Apertura - 21,Fuerte San Francisco,22157,Dragón,19412,3,1,True
+1253590,2024-11-22T21:00:00+00:00,FT,Apertura - 21,Platense,19763,Cacahuatique,24530,1,2,True
+1253592,2024-11-23T01:00:00+00:00,FT,Apertura - 21,Águila,4310,Firpo,4303,3,1,True
+1253576,2024-11-25T00:00:00+00:00,FT,Apertura - 18,Municipal Limeño,4306,Águila,4310,0,2,True
+1253596,2024-11-30T21:15:00+00:00,FT,Apertura - 22,Alianza,4299,Platense,19763,2,0,True
+1253597,2024-11-30T21:15:00+00:00,FT,Apertura - 22,Firpo,4303,FAS,4302,1,1,True
+1253598,2024-11-30T21:15:00+00:00,FT,Apertura - 22,Once Municipal,5632,Águila,4310,0,0,True
+1253599,2024-11-30T21:15:00+00:00,FT,Apertura - 22,Dragón,19412,Isidro Metapán,4304,0,2,True
+1253595,2024-11-30T21:15:00+00:00,FT,Apertura - 22,Cacahuatique,24530,Municipal Limeño,4306,1,0,True
+1318664,2024-12-05T01:30:00+00:00,FT,Apertura - Quarter-finals,Once Municipal,5632,Firpo,4303,2,1,True
+1318662,2024-12-05T02:00:00+00:00,FT,Apertura - Quarter-finals,FAS,4302,Águila,4310,1,1,True
+1318658,2024-12-06T02:00:00+00:00,FT,Apertura - Quarter-finals,Alianza,4299,Isidro Metapán,4304,1,1,True
+1318660,2024-12-06T02:00:00+00:00,FT,Apertura - Quarter-finals,Municipal Limeño,4306,Cacahuatique,24530,0,1,True
+1318657,2024-12-08T01:15:00+00:00,PEN,Apertura - Quarter-finals,Isidro Metapán,4304,Alianza,4299,0,0,False
+1318663,2024-12-08T21:00:00+00:00,FT,Apertura - Quarter-finals,Firpo,4303,Once Municipal,5632,1,1,True
+1318661,2024-12-08T21:00:00+00:00,FT,Apertura - Quarter-finals,Águila,4310,FAS,4302,0,1,True
+1318659,2024-12-08T21:00:00+00:00,FT,Apertura - Quarter-finals,Cacahuatique,24530,Municipal Limeño,4306,0,1,True
+1320860,2024-12-12T02:00:00+00:00,FT,Apertura - Semi-finals,FAS,4302,Isidro Metapán,4304,2,1,True
+1320859,2024-12-12T21:30:00+00:00,FT,Apertura - Semi-finals,Once Municipal,5632,Cacahuatique,24530,1,1,True
+1320861,2024-12-15T01:15:00+00:00,FT,Apertura - Semi-finals,Isidro Metapán,4304,FAS,4302,0,0,True
+1320858,2024-12-15T20:45:00+00:00,FT,Apertura - Semi-finals,Cacahuatique,24530,Once Municipal,5632,1,1,True
+1323383,2024-12-22T00:30:00+00:00,AET,Apertura - Final,FAS,4302,Once Municipal,5632,1,2,False
+1334537,2025-01-19T01:30:00+00:00,FT,Clausura - 1,Municipal Limeño,4306,Alianza,4299,1,4,True
+1334538,2025-01-19T21:00:00+00:00,FT,Clausura - 1,Once Municipal,5632,Fuerte San Francisco,22157,1,2,True
+1334534,2025-01-19T21:00:00+00:00,FT,Clausura - 1,Dragón,19412,FAS,4302,0,1,True
+1334536,2025-01-19T21:00:00+00:00,FT,Clausura - 1,Cacahuatique,24530,Águila,4310,0,0,True
+1334535,2025-01-19T21:15:00+00:00,FT,Clausura - 1,Platense,19763,Firpo,4303,1,2,True
+1334541,2025-01-26T01:00:00+00:00,FT,Clausura - 2,Alianza,4299,Cacahuatique,24530,1,2,True
+1334543,2025-01-26T01:15:00+00:00,FT,Clausura - 2,Isidro Metapán,4304,Once Municipal,5632,3,1,True
+1334539,2025-01-26T21:00:00+00:00,FT,Clausura - 2,Firpo,4303,Dragón,19412,1,0,True
+1334540,2025-01-26T21:00:00+00:00,FT,Clausura - 2,Águila,4310,Platense,19763,3,1,True
+1334542,2025-01-26T21:30:00+00:00,FT,Clausura - 2,Fuerte San Francisco,22157,Municipal Limeño,4306,0,0,True
+1334547,2025-01-29T21:00:00+00:00,FT,Clausura - 3,Cacahuatique,24530,Fuerte San Francisco,22157,1,1,True
+1334545,2025-01-29T21:30:00+00:00,FT,Clausura - 3,Dragón,19412,Águila,4310,0,2,True
+1334546,2025-01-30T01:00:00+00:00,FT,Clausura - 3,Platense,19763,Alianza,4299,1,0,True
+1334544,2025-01-30T02:00:00+00:00,FT,Clausura - 3,FAS,4302,Firpo,4303,0,3,True
+1334548,2025-01-31T01:00:00+00:00,FT,Clausura - 3,Municipal Limeño,4306,Isidro Metapán,4304,0,0,True
+1334550,2025-02-02T01:00:00+00:00,FT,Clausura - 4,Alianza,4299,Dragón,19412,2,0,True
+1334552,2025-02-02T01:15:00+00:00,FT,Clausura - 4,Isidro Metapán,4304,Cacahuatique,24530,0,0,True
+1334549,2025-02-02T21:00:00+00:00,FT,Clausura - 4,Águila,4310,FAS,4302,3,1,True
+1334553,2025-02-02T21:00:00+00:00,FT,Clausura - 4,Once Municipal,5632,Municipal Limeño,4306,0,0,True
+1334551,2025-02-02T21:00:00+00:00,FT,Clausura - 4,Fuerte San Francisco,22157,Platense,19763,0,2,True
+1334558,2025-02-08T21:30:00+00:00,FT,Clausura - 5,Cacahuatique,24530,Once Municipal,5632,2,2,True
+1334555,2025-02-09T01:00:00+00:00,FT,Clausura - 5,FAS,4302,Alianza,4299,1,1,True
+1334554,2025-02-09T21:00:00+00:00,FT,Clausura - 5,Firpo,4303,Águila,4310,2,0,True
+1334557,2025-02-09T21:15:00+00:00,FT,Clausura - 5,Platense,19763,Isidro Metapán,4304,0,2,True
+1334556,2025-02-09T21:30:00+00:00,FT,Clausura - 5,Dragón,19412,Fuerte San Francisco,22157,0,1,True
+1334562,2025-02-12T21:00:00+00:00,FT,Clausura - 6,Once Municipal,5632,Platense,19763,0,0,True
+1334560,2025-02-12T21:00:00+00:00,FT,Clausura - 6,Fuerte San Francisco,22157,FAS,4302,0,0,True
+1334561,2025-02-13T01:15:00+00:00,FT,Clausura - 6,Isidro Metapán,4304,Dragón,19412,2,1,True
+1334559,2025-02-13T01:30:00+00:00,FT,Clausura - 6,Alianza,4299,Firpo,4303,2,1,True
+1334563,2025-02-14T01:00:00+00:00,FT,Clausura - 6,Municipal Limeño,4306,Cacahuatique,24530,1,2,True
+1334564,2025-02-16T01:00:00+00:00,FT,Clausura - 7,Águila,4310,Alianza,4299,0,1,True
+1334565,2025-02-16T21:00:00+00:00,FT,Clausura - 7,Firpo,4303,Fuerte San Francisco,22157,1,0,True
+1334567,2025-02-16T21:00:00+00:00,FT,Clausura - 7,Dragón,19412,Once Municipal,5632,4,0,True
+1334568,2025-02-16T21:15:00+00:00,FT,Clausura - 7,Platense,19763,Municipal Limeño,4306,1,1,True
+1334566,2025-02-16T23:00:00+00:00,FT,Clausura - 7,FAS,4302,Isidro Metapán,4304,0,0,True
+1334572,2025-02-22T23:00:00+00:00,FT,Clausura - 8,Municipal Limeño,4306,Dragón,19412,2,0,True
+1334570,2025-02-23T01:15:00+00:00,FT,Clausura - 8,Isidro Metapán,4304,Firpo,4303,0,0,True
+1334573,2025-02-23T21:00:00+00:00,FT,Clausura - 8,Cacahuatique,24530,Platense,19763,1,1,True
+1334569,2025-02-23T21:30:00+00:00,FT,Clausura - 8,Fuerte San Francisco,22157,Águila,4310,1,1,True
+1334626,2025-02-23T23:00:00+00:00,FT,Clausura - 8,FAS,4302,Once Municipal,5632,2,0,True
+1334575,2025-02-26T21:00:00+00:00,FT,Clausura - 9,Águila,4310,Isidro Metapán,4304,2,0,True
+1334576,2025-02-26T21:30:00+00:00,FT,Clausura - 9,Firpo,4303,Once Municipal,5632,4,1,True
+1334578,2025-02-26T21:30:00+00:00,FT,Clausura - 9,Cacahuatique,24530,Dragón,19412,0,2,True
+1334574,2025-02-27T01:00:00+00:00,FT,Clausura - 9,Alianza,4299,Fuerte San Francisco,22157,2,0,True
+1334577,2025-02-27T02:00:00+00:00,FT,Clausura - 9,FAS,4302,Municipal Limeño,4306,0,1,True
+1334581,2025-03-02T01:00:00+00:00,FT,Clausura - 10,Municipal Limeño,4306,Firpo,4303,1,4,True
+1334579,2025-03-02T01:15:00+00:00,FT,Clausura - 10,Isidro Metapán,4304,Alianza,4299,2,1,True
+1334580,2025-03-02T21:00:00+00:00,FT,Clausura - 10,Once Municipal,5632,Águila,4310,1,2,True
+1334582,2025-03-02T21:00:00+00:00,FT,Clausura - 10,Cacahuatique,24530,FAS,4302,1,0,True
+1334583,2025-03-02T21:30:00+00:00,FT,Clausura - 10,Platense,19763,Dragón,19412,0,1,True
+1334585,2025-03-09T01:00:00+00:00,FT,Clausura - 11,Alianza,4299,Once Municipal,5632,3,0,True
+1334588,2025-03-09T01:00:00+00:00,FT,Clausura - 11,FAS,4302,Platense,19763,4,1,True
+1334587,2025-03-09T01:00:00+00:00,FT,Clausura - 11,Firpo,4303,Cacahuatique,24530,1,1,True
+1334586,2025-03-09T21:00:00+00:00,FT,Clausura - 11,Águila,4310,Municipal Limeño,4306,0,2,True
+1334584,2025-03-09T21:00:00+00:00,FT,Clausura - 11,Fuerte San Francisco,22157,Isidro Metapán,4304,0,1,True
+1334591,2025-03-15T21:00:00+00:00,FT,Clausura - 12,Águila,4310,Cacahuatique,24530,4,2,True
+1334592,2025-03-16T00:00:00+00:00,FT,Clausura - 12,Alianza,4299,Municipal Limeño,4306,0,0,True
+1334590,2025-03-16T01:00:00+00:00,FT,Clausura - 12,Firpo,4303,Platense,19763,2,0,True
+1334589,2025-03-16T02:00:00+00:00,FT,Clausura - 12,FAS,4302,Dragón,19412,1,0,True
+1334593,2025-03-16T21:00:00+00:00,FT,Clausura - 12,Fuerte San Francisco,22157,Once Municipal,5632,0,2,True
+1334598,2025-03-23T21:00:00+00:00,FT,Clausura - 13,Once Municipal,5632,Isidro Metapán,4304,0,2,True
+1334594,2025-03-23T21:00:00+00:00,FT,Clausura - 13,Dragón,19412,Firpo,4303,1,4,True
+1334596,2025-03-23T21:00:00+00:00,FT,Clausura - 13,Cacahuatique,24530,Alianza,4299,0,4,True
+1334595,2025-03-23T21:30:00+00:00,FT,Clausura - 13,Platense,19763,Águila,4310,0,1,True
+1334597,2025-03-24T00:00:00+00:00,FT,Clausura - 13,Municipal Limeño,4306,Fuerte San Francisco,22157,1,2,True
+1334600,2025-03-26T21:00:00+00:00,FT,Clausura - 14,Águila,4310,Dragón,19412,4,1,True
+1334602,2025-03-26T21:00:00+00:00,FT,Clausura - 14,Fuerte San Francisco,22157,Cacahuatique,24530,0,1,True
+1334601,2025-03-27T01:00:00+00:00,FT,Clausura - 14,Alianza,4299,Platense,19763,1,0,True
+1334603,2025-03-27T01:15:00+00:00,FT,Clausura - 14,Isidro Metapán,4304,Municipal Limeño,4306,0,0,True
+1334599,2025-03-27T01:30:00+00:00,FT,Clausura - 14,Firpo,4303,FAS,4302,1,2,True
+1334607,2025-03-29T21:30:00+00:00,FT,Clausura - 15,Cacahuatique,24530,Isidro Metapán,4304,0,0,True
+1334608,2025-03-30T00:00:00+00:00,FT,Clausura - 15,Municipal Limeño,4306,Once Municipal,5632,3,0,True
+1334605,2025-03-30T21:00:00+00:00,FT,Clausura - 15,Dragón,19412,Alianza,4299,1,2,True
+1334606,2025-03-30T21:30:00+00:00,FT,Clausura - 15,Platense,19763,Fuerte San Francisco,22157,2,2,True
+1334604,2025-03-30T23:00:00+00:00,FT,Clausura - 15,FAS,4302,Águila,4310,1,1,True
+1334610,2025-04-06T01:00:00+00:00,FT,Clausura - 16,Alianza,4299,FAS,4302,1,0,True
+1334612,2025-04-06T01:15:00+00:00,FT,Clausura - 16,Isidro Metapán,4304,Platense,19763,2,1,True
+1334609,2025-04-06T21:00:00+00:00,FT,Clausura - 16,Águila,4310,Firpo,4303,3,1,True
+1334613,2025-04-06T21:00:00+00:00,FT,Clausura - 16,Once Municipal,5632,Cacahuatique,24530,0,0,True
+1334611,2025-04-06T21:00:00+00:00,FT,Clausura - 16,Fuerte San Francisco,22157,Dragón,19412,1,1,True
+1334616,2025-04-09T21:30:00+00:00,FT,Clausura - 17,Dragón,19412,Isidro Metapán,4304,2,3,True
+1334617,2025-04-09T21:30:00+00:00,FT,Clausura - 17,Platense,19763,Once Municipal,5632,2,0,True
+1334614,2025-04-10T01:30:00+00:00,FT,Clausura - 17,Firpo,4303,Alianza,4299,0,0,True
+1334615,2025-04-10T02:00:00+00:00,FT,Clausura - 17,FAS,4302,Fuerte San Francisco,22157,0,3,True
+1334618,2025-04-10T21:30:00+00:00,FT,Clausura - 17,Cacahuatique,24530,Municipal Limeño,4306,0,2,True
+1334623,2025-04-13T01:00:00+00:00,FT,Clausura - 18,Municipal Limeño,4306,Platense,19763,3,2,True
+1334621,2025-04-13T01:15:00+00:00,FT,Clausura - 18,Isidro Metapán,4304,FAS,4302,3,1,True
+1334622,2025-04-13T21:00:00+00:00,FT,Clausura - 18,Once Municipal,5632,Dragón,19412,0,1,True
+1334620,2025-04-13T21:00:00+00:00,FT,Clausura - 18,Fuerte San Francisco,22157,Firpo,4303,0,1,True
+1334619,2025-04-13T21:30:00+00:00,FT,Clausura - 18,Alianza,4299,Águila,4310,0,1,True
+1334624,2025-04-17T21:00:00+00:00,FT,Clausura - 19,Águila,4310,Fuerte San Francisco,22157,3,0,True
+1334571,2025-04-17T21:30:00+00:00,FT,Clausura - 19,Once Municipal,5632,FAS,4302,2,2,True
+1334625,2025-04-20T01:00:00+00:00,FT,Clausura - 19,Firpo,4303,Isidro Metapán,4304,0,0,True
+1334627,2025-04-20T21:00:00+00:00,FT,Clausura - 19,Dragón,19412,Municipal Limeño,4306,1,1,True
+1334628,2025-04-20T21:30:00+00:00,FT,Clausura - 19,Platense,19763,Cacahuatique,24530,2,0,True
+1334633,2025-04-23T21:30:00+00:00,FT,Clausura - 20,Dragón,19412,Cacahuatique,24530,1,2,True
+1334629,2025-04-23T21:30:00+00:00,FT,Clausura - 20,Fuerte San Francisco,22157,Alianza,4299,1,0,True
+1334632,2025-04-24T01:00:00+00:00,FT,Clausura - 20,Municipal Limeño,4306,FAS,4302,0,0,True
+1334631,2025-04-24T01:00:00+00:00,FT,Clausura - 20,Once Municipal,5632,Firpo,4303,1,3,True
+1334630,2025-04-24T01:15:00+00:00,FT,Clausura - 20,Isidro Metapán,4304,Águila,4310,2,2,True
+1334635,2025-04-26T21:00:00+00:00,FT,Clausura - 21,Águila,4310,Once Municipal,5632,3,1,True
+1334634,2025-04-27T00:00:00+00:00,FT,Clausura - 21,Alianza,4299,Isidro Metapán,4304,1,0,True
+1334636,2025-04-27T01:00:00+00:00,FT,Clausura - 21,Firpo,4303,Municipal Limeño,4306,2,2,True
+1334638,2025-04-27T21:30:00+00:00,FT,Clausura - 21,Dragón,19412,Platense,19763,0,1,True
+1334637,2025-04-28T00:00:00+00:00,FT,Clausura - 21,FAS,4302,Cacahuatique,24530,1,2,True
+1334639,2025-05-03T21:30:00+00:00,FT,Clausura - 22,Isidro Metapán,4304,Fuerte San Francisco,22157,0,1,True
+1334641,2025-05-03T21:30:00+00:00,FT,Clausura - 22,Municipal Limeño,4306,Águila,4310,0,2,True
+1334640,2025-05-03T21:30:00+00:00,FT,Clausura - 22,Once Municipal,5632,Alianza,4299,0,2,True
+1334643,2025-05-03T21:30:00+00:00,FT,Clausura - 22,Platense,19763,FAS,4302,0,0,True
+1334642,2025-05-03T21:30:00+00:00,FT,Clausura - 22,Cacahuatique,24530,Firpo,4303,1,1,True
+1374422,2025-05-07T21:00:00+00:00,FT,Clausura - Quarter-finals,Cacahuatique,24530,Alianza,4299,1,2,True
+1374424,2025-05-08T01:30:00+00:00,FT,Clausura - Quarter-finals,Municipal Limeño,4306,Isidro Metapán,4304,2,1,True
+1374426,2025-05-08T02:00:00+00:00,FT,Clausura - Quarter-finals,FAS,4302,Águila,4310,1,2,True
+1374428,2025-05-08T21:30:00+00:00,FT,Clausura - Quarter-finals,Fuerte San Francisco,22157,Firpo,4303,0,0,True
+1374423,2025-05-10T21:15:00+00:00,FT,Clausura - Quarter-finals,Alianza,4299,Cacahuatique,24530,4,0,True
+1374429,2025-05-11T01:00:00+00:00,FT,Clausura - Quarter-finals,Firpo,4303,Fuerte San Francisco,22157,1,1,True
+1374425,2025-05-11T02:15:00+00:00,FT,Clausura - Quarter-finals,Isidro Metapán,4304,Municipal Limeño,4306,1,2,True
+1374427,2025-05-11T21:15:00+00:00,FT,Clausura - Quarter-finals,Águila,4310,FAS,4302,0,1,True
+1375284,2025-05-15T01:30:00+00:00,FT,Clausura - Semi-finals,FAS,4302,Municipal Limeño,4306,1,2,True
+1375286,2025-05-15T21:30:00+00:00,FT,Clausura - Semi-finals,Fuerte San Francisco,22157,Alianza,4299,0,1,True
+1375285,2025-05-18T00:30:00+00:00,FT,Clausura - Semi-finals,Municipal Limeño,4306,FAS,4302,1,0,True
+1375287,2025-05-18T23:00:00+00:00,FT,Clausura - Semi-finals,Alianza,4299,Fuerte San Francisco,22157,2,0,True
+1375879,2025-05-25T00:30:00+00:00,PEN,Clausura - Final,Municipal Limeño,4306,Alianza,4299,0,0,False

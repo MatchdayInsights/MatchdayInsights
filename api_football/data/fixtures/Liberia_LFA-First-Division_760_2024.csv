@@ -1,92 +1,183 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1312618,2025-01-04T16:00:00+00:00,FT,Invincible Eleven,18111,Heaven Eleven,18110,1,2,True
-1312620,2025-01-04T18:30:00+00:00,FT,LPRC Oilers,6425,Freeport,16144,1,1,True
-1312616,2025-01-05T16:00:00+00:00,FT,Mighty Barrolle,16145,Fassell,25192,4,3,True
-1312614,2025-01-05T16:00:00+00:00,FT,Watanga,16151,BEA Mountain,16143,3,2,True
-1312619,2025-01-05T16:00:00+00:00,FT,Paynesville,22358,Discoveries,4048,1,1,True
-1312615,2025-01-05T16:00:00+00:00,FT,Shaita,25193,Black Man Warrior,25191,0,0,True
-1312617,2025-01-05T18:30:00+00:00,FT,LISCR,8062,Global Pharma,22357,2,2,True
-1312621,2025-01-08T13:30:00+00:00,FT,Invincible Eleven,18111,Watanga,16151,0,2,True
-1312626,2025-01-08T16:00:00+00:00,FT,Discoveries,4048,Shaita,25193,4,2,True
-1312622,2025-01-08T16:00:00+00:00,FT,Heaven Eleven,18110,LISCR,8062,3,0,True
-1312627,2025-01-08T16:00:00+00:00,FT,Black Man Warrior,25191,BEA Mountain,16143,3,3,True
-1312625,2025-01-08T16:00:00+00:00,FT,Fassell,25192,Paynesville,22358,0,1,True
-1312624,2025-01-08T18:30:00+00:00,FT,Freeport,16144,Mighty Barrolle,16145,2,2,True
-1312623,2025-01-09T16:00:00+00:00,FT,Global Pharma,22357,LPRC Oilers,6425,3,2,True
-1312639,2025-02-04T16:00:00+00:00,FT,Invincible Eleven,18111,LPRC Oilers,6425,2,1,True
-1312641,2025-02-04T18:30:00+00:00,FT,Fassell,25192,BEA Mountain,16143,3,2,True
-1312636,2025-02-05T16:00:00+00:00,FT,Discoveries,4048,Black Man Warrior,25191,0,2,True
-1312637,2025-02-05T16:00:00+00:00,FT,Heaven Eleven,18110,Mighty Barrolle,16145,3,1,True
-1312640,2025-02-05T16:00:00+00:00,FT,Global Pharma,22357,Paynesville,22358,2,3,True
-1312638,2025-02-05T18:30:00+00:00,FT,LISCR,8062,Watanga,16151,0,1,True
-1312647,2025-02-14T16:00:00+00:00,FT,Paynesville,22358,Heaven Eleven,18110,0,2,True
-1312646,2025-02-14T18:30:00+00:00,FT,Shaita,25193,Global Pharma,22357,1,2,True
-1312644,2025-02-16T13:00:00+00:00,FT,Black Man Warrior,25191,Fassell,25192,1,2,True
-1312645,2025-02-16T15:30:00+00:00,FT,BEA Mountain,16143,Freeport,16144,0,1,True
-1312648,2025-02-16T16:00:00+00:00,FT,Mighty Barrolle,16145,Invincible Eleven,18111,2,1,True
-1312642,2025-02-16T16:00:00+00:00,FT,Watanga,16151,Discoveries,4048,1,1,True
-1312643,2025-02-17T15:00:00+00:00,FT,LPRC Oilers,6425,LISCR,8062,0,0,True
-1312654,2025-02-19T16:00:00+00:00,FT,Heaven Eleven,18110,Shaita,25193,1,2,True
-1312653,2025-02-19T16:00:00+00:00,FT,Invincible Eleven,18111,Paynesville,22358,2,1,True
-1312655,2025-02-19T16:00:00+00:00,FT,Global Pharma,22357,BEA Mountain,16143,3,2,True
-1312650,2025-02-19T16:00:00+00:00,FT,Fassell,25192,Discoveries,4048,1,1,True
-1312652,2025-02-20T13:30:00+00:00,FT,LISCR,8062,Mighty Barrolle,16145,1,2,True
-1312651,2025-02-20T16:00:00+00:00,FT,LPRC Oilers,6425,Watanga,16151,1,0,True
-1312649,2025-02-20T16:00:00+00:00,FT,Freeport,16144,Black Man Warrior,25191,1,1,True
-1312659,2025-02-23T16:00:00+00:00,FT,BEA Mountain,16143,Heaven Eleven,18110,0,2,True
-1312662,2025-02-23T16:00:00+00:00,FT,Mighty Barrolle,16145,LPRC Oilers,6425,0,0,True
-1312656,2025-02-23T16:00:00+00:00,FT,Watanga,16151,Fassell,25192,1,0,True
-1312658,2025-02-23T16:00:00+00:00,FT,Black Man Warrior,25191,Global Pharma,22357,2,1,True
-1312657,2025-02-24T16:00:00+00:00,FT,Discoveries,4048,Freeport,16144,2,0,True
-1312661,2025-02-25T16:00:00+00:00,FT,Paynesville,22358,LISCR,8062,3,1,True
-1312660,2025-02-25T16:00:00+00:00,FT,Shaita,25193,Invincible Eleven,18111,3,0,True
-1312635,2025-02-28T16:00:00+00:00,FT,Freeport,16144,Shaita,25193,2,1,True
-1312668,2025-03-07T16:00:00+00:00,FT,LISCR,8062,Shaita,25193,6,1,True
-1312665,2025-03-07T16:00:00+00:00,FT,Heaven Eleven,18110,Black Man Warrior,25191,4,1,True
-1312663,2025-03-08T16:00:00+00:00,FT,LPRC Oilers,6425,Paynesville,22358,1,1,True
-1312666,2025-03-08T16:00:00+00:00,FT,Freeport,16144,Fassell,25192,1,7,True
-1312667,2025-03-08T16:00:00+00:00,FT,Mighty Barrolle,16145,Watanga,16151,2,2,True
-1312664,2025-03-08T16:00:00+00:00,FT,Invincible Eleven,18111,BEA Mountain,16143,3,3,True
-1312669,2025-03-08T16:00:00+00:00,FT,Global Pharma,22357,Discoveries,4048,2,1,True
-1312673,2025-03-11T11:00:00+00:00,FT,Black Man Warrior,25191,Invincible Eleven,18111,0,0,True
-1312674,2025-03-11T13:30:00+00:00,FT,BEA Mountain,16143,LISCR,8062,3,2,True
-1312676,2025-03-11T13:30:00+00:00,FT,Paynesville,22358,Mighty Barrolle,16145,0,2,True
-1312672,2025-03-11T16:00:00+00:00,FT,Discoveries,4048,Heaven Eleven,18110,1,3,True
-1312670,2025-03-11T16:00:00+00:00,FT,Watanga,16151,Freeport,16144,4,0,True
-1312671,2025-03-11T16:00:00+00:00,FT,Fassell,25192,Global Pharma,22357,3,1,True
-1312675,2025-03-11T16:00:00+00:00,FT,Shaita,25193,LPRC Oilers,6425,0,0,True
-1312679,2025-03-28T16:00:00+00:00,FT,LISCR,8062,Black Man Warrior,25191,2,0,True
-1312681,2025-03-28T16:00:00+00:00,FT,Mighty Barrolle,16145,Shaita,25193,0,5,True
-1312677,2025-03-28T16:00:00+00:00,FT,Invincible Eleven,18111,Discoveries,4048,2,5,True
-1312683,2025-03-28T16:00:00+00:00,FT,Global Pharma,22357,Freeport,16144,2,2,True
-1312682,2025-03-29T16:00:00+00:00,FT,LPRC Oilers,6425,BEA Mountain,16143,1,2,True
-1312680,2025-03-29T16:00:00+00:00,FT,Paynesville,22358,Watanga,16151,0,1,True
-1312678,2025-03-30T16:00:00+00:00,FT,Heaven Eleven,18110,Fassell,25192,0,1,True
-1312630,2025-04-05T16:00:00+00:00,FT,BEA Mountain,16143,Discoveries,4048,2,2,True
-1312629,2025-04-06T16:00:00+00:00,FT,LPRC Oilers,6425,Heaven Eleven,18110,0,1,True
-1312634,2025-04-06T16:00:00+00:00,FT,LISCR,8062,Invincible Eleven,18111,1,1,True
-1312633,2025-04-06T16:00:00+00:00,FT,Mighty Barrolle,16145,Global Pharma,22357,2,3,True
-1312632,2025-04-06T16:00:00+00:00,FT,Paynesville,22358,Freeport,16144,3,2,True
-1312631,2025-04-06T16:00:00+00:00,FT,Shaita,25193,Fassell,25192,0,4,True
-1312628,2025-04-06T18:15:00+00:00,FT,Watanga,16151,Black Man Warrior,25191,3,3,True
-1312686,2025-04-09T16:00:00+00:00,FT,Discoveries,4048,LISCR,8062,0,2,True
-1312684,2025-04-09T16:00:00+00:00,FT,Watanga,16151,Global Pharma,22357,2,0,True
-1312688,2025-04-09T16:00:00+00:00,FT,Black Man Warrior,25191,LPRC Oilers,6425,1,1,True
-1312689,2025-04-10T16:00:00+00:00,FT,BEA Mountain,16143,Mighty Barrolle,16145,1,2,True
-1312687,2025-04-10T16:00:00+00:00,FT,Freeport,16144,Heaven Eleven,18110,3,2,True
-1312685,2025-04-10T16:00:00+00:00,FT,Fassell,25192,Invincible Eleven,18111,4,2,True
-1312690,2025-04-10T16:00:00+00:00,FT,Shaita,25193,Paynesville,22358,7,0,True
-1312697,2025-04-16T16:00:00+00:00,FT,Heaven Eleven,18110,Global Pharma,22357,0,1,True
-1312692,2025-04-16T16:00:00+00:00,FT,Paynesville,22358,BEA Mountain,16143,1,1,True
-1312694,2025-04-16T18:15:00+00:00,FT,LPRC Oilers,6425,Discoveries,4048,5,3,True
-1312693,2025-04-17T16:00:00+00:00,FT,Mighty Barrolle,16145,Black Man Warrior,25191,0,2,True
-1312696,2025-04-17T16:00:00+00:00,FT,Invincible Eleven,18111,Freeport,16144,0,1,True
-1312691,2025-04-17T16:00:00+00:00,FT,Shaita,25193,Watanga,16151,1,1,True
-1312605,2025-04-17T18:15:00+00:00,FT,LISCR,8062,Fassell,25192,0,2,True
-1312699,2025-04-20T13:00:00+00:00,FT,Discoveries,4048,Mighty Barrolle,16145,2,3,True
-1312704,2025-04-20T13:00:00+00:00,FT,BEA Mountain,16143,Shaita,25193,5,2,True
-1312702,2025-04-20T13:00:00+00:00,FT,Freeport,16144,LISCR,8062,3,1,True
-1312703,2025-04-20T15:30:00+00:00,FT,Fassell,25192,LPRC Oilers,6425,0,1,True
-1312698,2025-04-20T16:00:00+00:00,FT,Watanga,16151,Heaven Eleven,18110,0,0,True
-1312700,2025-04-20T16:00:00+00:00,FT,Global Pharma,22357,Invincible Eleven,18111,1,2,True
-1312701,2025-04-20T16:00:00+00:00,FT,Black Man Warrior,25191,Paynesville,22358,4,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1310670,2024-10-16T13:30:00+00:00,FT,Regular Season - 4,Paynesville,22358,Global Pharma,22357,3,0,True
+1310668,2024-10-16T16:00:00+00:00,FT,Regular Season - 4,LPRC Oilers,6425,Invincible Eleven,18111,1,1,True
+1310672,2024-10-16T16:00:00+00:00,FT,Regular Season - 4,BEA Mountain,16143,Fassell,25192,0,3,True
+1310669,2024-10-16T16:00:00+00:00,FT,Regular Season - 4,Mighty Barrolle,16145,Heaven Eleven,18110,0,7,True
+1310667,2024-10-16T16:00:00+00:00,FT,Regular Season - 4,Watanga,16151,LISCR,8062,0,1,True
+1310673,2024-10-16T16:00:00+00:00,FT,Regular Season - 4,Black Man Warrior,25191,Discoveries,4048,2,3,True
+1310671,2024-10-16T16:00:00+00:00,FT,Regular Season - 4,Shaita,25193,Freeport,16144,0,2,True
+1312302,2024-10-19T00:00:00+00:00,FT,Regular Season - 5,LISCR,8062,LPRC Oilers,6425,1,2,True
+1312303,2024-10-20T13:30:00+00:00,FT,Regular Season - 5,Freeport,16144,BEA Mountain,16143,2,3,True
+1312304,2024-10-20T16:00:00+00:00,FT,Regular Season - 5,Discoveries,4048,Watanga,16151,1,0,True
+1312307,2024-10-20T16:00:00+00:00,FT,Regular Season - 5,Heaven Eleven,18110,Paynesville,22358,3,1,True
+1312308,2024-10-20T16:00:00+00:00,FT,Regular Season - 5,Invincible Eleven,18111,Mighty Barrolle,16145,4,1,True
+1312306,2024-10-20T16:00:00+00:00,FT,Regular Season - 5,Global Pharma,22357,Shaita,25193,1,2,True
+1312305,2024-10-20T16:00:00+00:00,FT,Regular Season - 5,Fassell,25192,Black Man Warrior,25191,2,1,True
+1312315,2024-10-24T15:00:00+00:00,FT,Regular Season - 6,Discoveries,4048,Fassell,25192,0,1,True
+1312311,2024-10-24T16:00:00+00:00,FT,Regular Season - 6,Paynesville,22358,Invincible Eleven,18111,2,0,True
+1312313,2024-10-25T16:00:00+00:00,FT,Regular Season - 6,BEA Mountain,16143,Global Pharma,22357,0,1,True
+1312310,2024-10-25T16:00:00+00:00,FT,Regular Season - 6,Mighty Barrolle,16145,LISCR,8062,2,3,True
+1312309,2024-10-25T16:00:00+00:00,FT,Regular Season - 6,Watanga,16151,LPRC Oilers,6425,0,1,True
+1312314,2024-10-25T16:00:00+00:00,FT,Regular Season - 6,Black Man Warrior,25191,Freeport,16144,1,1,True
+1312312,2024-10-25T16:00:00+00:00,FT,Regular Season - 6,Shaita,25193,Heaven Eleven,18110,1,1,True
+1312565,2024-11-02T16:00:00+00:00,FT,Regular Season - 7,LPRC Oilers,6425,Mighty Barrolle,16145,3,1,True
+1312571,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,LISCR,8062,Paynesville,22358,0,3,True
+1312568,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,Freeport,16144,Discoveries,4048,1,2,True
+1312566,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,Heaven Eleven,18110,BEA Mountain,16143,1,2,True
+1312567,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,Invincible Eleven,18111,Shaita,25193,1,1,True
+1312570,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,Global Pharma,22357,Black Man Warrior,25191,1,0,True
+1312569,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,Fassell,25192,Watanga,16151,0,0,True
+1312578,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,Discoveries,4048,Global Pharma,22357,5,0,True
+1312576,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,BEA Mountain,16143,Invincible Eleven,18111,1,0,True
+1312573,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,Watanga,16151,Mighty Barrolle,16145,1,1,True
+1312574,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,Paynesville,22358,LPRC Oilers,6425,0,1,True
+1312577,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,Black Man Warrior,25191,Heaven Eleven,18110,2,2,True
+1312572,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,Fassell,25192,Freeport,16144,5,0,True
+1312575,2024-11-06T16:00:00+00:00,FT,Regular Season - 8,Shaita,25193,LISCR,8062,4,4,True
+1312584,2024-11-19T16:00:00+00:00,FT,Regular Season - 9,Freeport,16144,Watanga,16151,1,2,True
+1312585,2024-11-20T16:00:00+00:00,FT,Regular Season - 9,LPRC Oilers,6425,Shaita,25193,3,1,True
+1312582,2024-11-20T16:00:00+00:00,FT,Regular Season - 9,LISCR,8062,BEA Mountain,16143,2,3,True
+1312583,2024-11-20T16:00:00+00:00,FT,Regular Season - 9,Mighty Barrolle,16145,Paynesville,22358,0,1,True
+1312580,2024-11-20T16:00:00+00:00,FT,Regular Season - 9,Heaven Eleven,18110,Discoveries,4048,1,1,True
+1312579,2024-11-20T16:00:00+00:00,FT,Regular Season - 9,Global Pharma,22357,Fassell,25192,1,1,True
+1312581,2024-11-20T18:00:00+00:00,FT,Regular Season - 9,Invincible Eleven,18111,Black Man Warrior,25191,1,3,True
+1312586,2024-11-23T16:00:00+00:00,FT,Regular Season - 10,Discoveries,4048,Invincible Eleven,18111,2,2,True
+1312592,2024-11-24T16:00:00+00:00,FT,Regular Season - 10,Freeport,16144,Global Pharma,22357,1,0,True
+1312587,2024-11-24T16:00:00+00:00,FT,Regular Season - 10,Watanga,16151,Paynesville,22358,2,3,True
+1312590,2024-11-24T16:00:00+00:00,FT,Regular Season - 10,Black Man Warrior,25191,LISCR,8062,1,2,True
+1312591,2024-11-24T16:00:00+00:00,FT,Regular Season - 10,Fassell,25192,Heaven Eleven,18110,1,0,True
+1312588,2024-11-24T16:00:00+00:00,FT,Regular Season - 10,Shaita,25193,Mighty Barrolle,16145,0,1,True
+1312589,2024-11-24T18:30:00+00:00,FT,Regular Season - 10,BEA Mountain,16143,LPRC Oilers,6425,3,1,True
+1312599,2024-11-27T13:00:00+00:00,FT,Regular Season - 11,Paynesville,22358,Shaita,25193,2,0,True
+1312598,2024-11-27T16:00:00+00:00,FT,Regular Season - 11,Mighty Barrolle,16145,BEA Mountain,16143,2,3,True
+1312594,2024-11-27T16:00:00+00:00,FT,Regular Season - 11,Heaven Eleven,18110,Freeport,16144,3,2,True
+1312596,2024-11-27T16:00:00+00:00,FT,Regular Season - 11,Global Pharma,22357,Watanga,16151,2,3,True
+1312597,2024-11-27T18:30:00+00:00,FT,Regular Season - 11,LISCR,8062,Discoveries,4048,2,1,True
+1312593,2024-11-28T16:00:00+00:00,FT,Regular Season - 11,Invincible Eleven,18111,Fassell,25192,0,2,True
+1312595,2024-11-28T18:30:00+00:00,FT,Regular Season - 11,LPRC Oilers,6425,Black Man Warrior,25191,1,2,True
+1312602,2024-11-30T16:00:00+00:00,FT,Regular Season - 12,Watanga,16151,Shaita,25193,2,2,True
+1312600,2024-11-30T16:00:00+00:00,FT,Regular Season - 12,Global Pharma,22357,Heaven Eleven,18110,0,3,True
+1312603,2024-11-30T18:30:00+00:00,FT,Regular Season - 12,BEA Mountain,16143,Paynesville,22358,1,1,True
+1312695,2024-12-01T16:00:00+00:00,FT,Regular Season - 12,LISCR,8062,Fassell,25192,1,2,True
+1312606,2024-12-01T16:00:00+00:00,FT,Regular Season - 12,Freeport,16144,Invincible Eleven,18111,1,1,True
+1312604,2024-12-01T16:00:00+00:00,FT,Regular Season - 12,Black Man Warrior,25191,Mighty Barrolle,16145,1,1,True
+1312601,2024-12-02T16:00:00+00:00,FT,Regular Season - 12,Discoveries,4048,LPRC Oilers,6425,0,1,True
+1312608,2024-12-04T13:00:00+00:00,FT,Regular Season - 13,Invincible Eleven,18111,Global Pharma,22357,2,0,True
+1312609,2024-12-04T16:00:00+00:00,FT,Regular Season - 13,LISCR,8062,Freeport,16144,2,1,True
+1312607,2024-12-04T16:00:00+00:00,FT,Regular Season - 13,Heaven Eleven,18110,Watanga,16151,0,1,True
+1312611,2024-12-04T16:00:00+00:00,FT,Regular Season - 13,Shaita,25193,BEA Mountain,16143,2,2,True
+1312613,2024-12-05T16:00:00+00:00,FT,Regular Season - 13,LPRC Oilers,6425,Fassell,25192,1,2,True
+1312610,2024-12-05T16:00:00+00:00,FT,Regular Season - 13,Mighty Barrolle,16145,Discoveries,4048,3,6,True
+1312612,2024-12-05T16:00:00+00:00,FT,Regular Season - 13,Paynesville,22358,Black Man Warrior,25191,1,2,True
+1312544,2024-12-08T13:30:00+00:00,FT,Regular Season - 1,Black Man Warrior,25191,Shaita,25193,0,1,True
+1312546,2024-12-08T16:00:00+00:00,FT,Regular Season - 1,Discoveries,4048,Paynesville,22358,1,0,True
+1312548,2024-12-08T16:00:00+00:00,FT,Regular Season - 1,Freeport,16144,LPRC Oilers,6425,1,1,True
+1312550,2024-12-08T16:00:00+00:00,FT,Regular Season - 1,Heaven Eleven,18110,Invincible Eleven,18111,0,0,True
+1312549,2024-12-08T16:00:00+00:00,FT,Regular Season - 1,Global Pharma,22357,LISCR,8062,2,1,True
+1312547,2024-12-08T16:00:00+00:00,FT,Regular Season - 1,Fassell,25192,Mighty Barrolle,16145,6,0,True
+1312545,2024-12-08T18:30:00+00:00,FT,Regular Season - 1,BEA Mountain,16143,Watanga,16151,1,1,True
+1312554,2024-12-11T13:00:00+00:00,FT,Regular Season - 2,LPRC Oilers,6425,Global Pharma,22357,1,2,True
+1312557,2024-12-11T13:00:00+00:00,FT,Regular Season - 2,BEA Mountain,16143,Black Man Warrior,25191,5,0,True
+1312551,2024-12-11T13:00:00+00:00,FT,Regular Season - 2,Shaita,25193,Discoveries,4048,0,2,True
+1312553,2024-12-11T16:00:00+00:00,FT,Regular Season - 2,LISCR,8062,Heaven Eleven,18110,1,1,True
+1312555,2024-12-11T16:00:00+00:00,FT,Regular Season - 2,Mighty Barrolle,16145,Freeport,16144,4,2,True
+1312552,2024-12-11T16:00:00+00:00,FT,Regular Season - 2,Watanga,16151,Invincible Eleven,18111,0,0,True
+1312556,2024-12-11T16:00:00+00:00,FT,Regular Season - 2,Paynesville,22358,Fassell,25192,1,1,True
+1312564,2024-12-14T16:00:00+00:00,FT,Regular Season - 3,Invincible Eleven,18111,LISCR,8062,1,3,True
+1312562,2024-12-14T16:00:00+00:00,FT,Regular Season - 3,Global Pharma,22357,Mighty Barrolle,16145,1,1,True
+1312558,2024-12-14T16:00:00+00:00,FT,Regular Season - 3,Black Man Warrior,25191,Watanga,16151,0,0,True
+1312560,2024-12-14T16:00:00+00:00,FT,Regular Season - 3,Fassell,25192,Shaita,25193,0,1,True
+1312561,2024-12-15T16:00:00+00:00,FT,Regular Season - 3,Freeport,16144,Paynesville,22358,3,1,True
+1312563,2024-12-15T16:00:00+00:00,FT,Regular Season - 3,Heaven Eleven,18110,LPRC Oilers,6425,2,0,True
+1312559,2024-12-15T18:30:00+00:00,FT,Regular Season - 3,Discoveries,4048,BEA Mountain,16143,1,0,True
+1312618,2025-01-04T16:00:00+00:00,FT,Regular Season - 14,Invincible Eleven,18111,Heaven Eleven,18110,1,2,True
+1312620,2025-01-04T18:30:00+00:00,FT,Regular Season - 14,LPRC Oilers,6425,Freeport,16144,1,1,True
+1312616,2025-01-05T16:00:00+00:00,FT,Regular Season - 14,Mighty Barrolle,16145,Fassell,25192,4,3,True
+1312614,2025-01-05T16:00:00+00:00,FT,Regular Season - 14,Watanga,16151,BEA Mountain,16143,3,2,True
+1312619,2025-01-05T16:00:00+00:00,FT,Regular Season - 14,Paynesville,22358,Discoveries,4048,1,1,True
+1312615,2025-01-05T16:00:00+00:00,FT,Regular Season - 14,Shaita,25193,Black Man Warrior,25191,0,0,True
+1312617,2025-01-05T18:30:00+00:00,FT,Regular Season - 14,LISCR,8062,Global Pharma,22357,2,2,True
+1312621,2025-01-08T13:30:00+00:00,FT,Regular Season - 15,Invincible Eleven,18111,Watanga,16151,0,2,True
+1312626,2025-01-08T16:00:00+00:00,FT,Regular Season - 15,Discoveries,4048,Shaita,25193,4,2,True
+1312622,2025-01-08T16:00:00+00:00,FT,Regular Season - 15,Heaven Eleven,18110,LISCR,8062,3,0,True
+1312627,2025-01-08T16:00:00+00:00,FT,Regular Season - 15,Black Man Warrior,25191,BEA Mountain,16143,3,3,True
+1312625,2025-01-08T16:00:00+00:00,FT,Regular Season - 15,Fassell,25192,Paynesville,22358,0,1,True
+1312624,2025-01-08T18:30:00+00:00,FT,Regular Season - 15,Freeport,16144,Mighty Barrolle,16145,2,2,True
+1312623,2025-01-09T16:00:00+00:00,FT,Regular Season - 15,Global Pharma,22357,LPRC Oilers,6425,3,2,True
+1312639,2025-02-04T16:00:00+00:00,FT,Regular Season - 17,Invincible Eleven,18111,LPRC Oilers,6425,2,1,True
+1312641,2025-02-04T18:30:00+00:00,FT,Regular Season - 17,Fassell,25192,BEA Mountain,16143,3,2,True
+1312636,2025-02-05T16:00:00+00:00,FT,Regular Season - 17,Discoveries,4048,Black Man Warrior,25191,0,2,True
+1312637,2025-02-05T16:00:00+00:00,FT,Regular Season - 17,Heaven Eleven,18110,Mighty Barrolle,16145,3,1,True
+1312640,2025-02-05T16:00:00+00:00,FT,Regular Season - 17,Global Pharma,22357,Paynesville,22358,2,3,True
+1312638,2025-02-05T18:30:00+00:00,FT,Regular Season - 17,LISCR,8062,Watanga,16151,0,1,True
+1312647,2025-02-14T16:00:00+00:00,FT,Regular Season - 18,Paynesville,22358,Heaven Eleven,18110,0,2,True
+1312646,2025-02-14T18:30:00+00:00,FT,Regular Season - 18,Shaita,25193,Global Pharma,22357,1,2,True
+1312644,2025-02-16T13:00:00+00:00,FT,Regular Season - 18,Black Man Warrior,25191,Fassell,25192,1,2,True
+1312645,2025-02-16T15:30:00+00:00,FT,Regular Season - 18,BEA Mountain,16143,Freeport,16144,0,1,True
+1312648,2025-02-16T16:00:00+00:00,FT,Regular Season - 18,Mighty Barrolle,16145,Invincible Eleven,18111,2,1,True
+1312642,2025-02-16T16:00:00+00:00,FT,Regular Season - 18,Watanga,16151,Discoveries,4048,1,1,True
+1312643,2025-02-17T15:00:00+00:00,FT,Regular Season - 18,LPRC Oilers,6425,LISCR,8062,0,0,True
+1312654,2025-02-19T16:00:00+00:00,FT,Regular Season - 19,Heaven Eleven,18110,Shaita,25193,1,2,True
+1312653,2025-02-19T16:00:00+00:00,FT,Regular Season - 19,Invincible Eleven,18111,Paynesville,22358,2,1,True
+1312655,2025-02-19T16:00:00+00:00,FT,Regular Season - 19,Global Pharma,22357,BEA Mountain,16143,3,2,True
+1312650,2025-02-19T16:00:00+00:00,FT,Regular Season - 19,Fassell,25192,Discoveries,4048,1,1,True
+1312652,2025-02-20T13:30:00+00:00,FT,Regular Season - 19,LISCR,8062,Mighty Barrolle,16145,1,2,True
+1312651,2025-02-20T16:00:00+00:00,FT,Regular Season - 19,LPRC Oilers,6425,Watanga,16151,1,0,True
+1312649,2025-02-20T16:00:00+00:00,FT,Regular Season - 19,Freeport,16144,Black Man Warrior,25191,1,1,True
+1312659,2025-02-23T16:00:00+00:00,FT,Regular Season - 20,BEA Mountain,16143,Heaven Eleven,18110,0,2,True
+1312662,2025-02-23T16:00:00+00:00,FT,Regular Season - 20,Mighty Barrolle,16145,LPRC Oilers,6425,0,0,True
+1312656,2025-02-23T16:00:00+00:00,FT,Regular Season - 20,Watanga,16151,Fassell,25192,1,0,True
+1312658,2025-02-23T16:00:00+00:00,FT,Regular Season - 20,Black Man Warrior,25191,Global Pharma,22357,2,1,True
+1312657,2025-02-24T16:00:00+00:00,FT,Regular Season - 20,Discoveries,4048,Freeport,16144,2,0,True
+1312661,2025-02-25T16:00:00+00:00,FT,Regular Season - 20,Paynesville,22358,LISCR,8062,3,1,True
+1312660,2025-02-25T16:00:00+00:00,FT,Regular Season - 20,Shaita,25193,Invincible Eleven,18111,3,0,True
+1312635,2025-02-28T16:00:00+00:00,FT,Regular Season - 17,Freeport,16144,Shaita,25193,2,1,True
+1312668,2025-03-07T16:00:00+00:00,FT,Regular Season - 21,LISCR,8062,Shaita,25193,6,1,True
+1312665,2025-03-07T16:00:00+00:00,FT,Regular Season - 21,Heaven Eleven,18110,Black Man Warrior,25191,4,1,True
+1312663,2025-03-08T16:00:00+00:00,FT,Regular Season - 21,LPRC Oilers,6425,Paynesville,22358,1,1,True
+1312666,2025-03-08T16:00:00+00:00,FT,Regular Season - 21,Freeport,16144,Fassell,25192,1,7,True
+1312667,2025-03-08T16:00:00+00:00,FT,Regular Season - 21,Mighty Barrolle,16145,Watanga,16151,2,2,True
+1312664,2025-03-08T16:00:00+00:00,FT,Regular Season - 21,Invincible Eleven,18111,BEA Mountain,16143,3,3,True
+1312669,2025-03-08T16:00:00+00:00,FT,Regular Season - 21,Global Pharma,22357,Discoveries,4048,2,1,True
+1312673,2025-03-11T11:00:00+00:00,FT,Regular Season - 22,Black Man Warrior,25191,Invincible Eleven,18111,0,0,True
+1312674,2025-03-11T13:30:00+00:00,FT,Regular Season - 22,BEA Mountain,16143,LISCR,8062,3,2,True
+1312676,2025-03-11T13:30:00+00:00,FT,Regular Season - 22,Paynesville,22358,Mighty Barrolle,16145,0,2,True
+1312672,2025-03-11T16:00:00+00:00,FT,Regular Season - 22,Discoveries,4048,Heaven Eleven,18110,1,3,True
+1312670,2025-03-11T16:00:00+00:00,FT,Regular Season - 22,Watanga,16151,Freeport,16144,4,0,True
+1312671,2025-03-11T16:00:00+00:00,FT,Regular Season - 22,Fassell,25192,Global Pharma,22357,3,1,True
+1312675,2025-03-11T16:00:00+00:00,FT,Regular Season - 22,Shaita,25193,LPRC Oilers,6425,0,0,True
+1312679,2025-03-28T16:00:00+00:00,FT,Regular Season - 23,LISCR,8062,Black Man Warrior,25191,2,0,True
+1312681,2025-03-28T16:00:00+00:00,FT,Regular Season - 23,Mighty Barrolle,16145,Shaita,25193,0,5,True
+1312677,2025-03-28T16:00:00+00:00,FT,Regular Season - 23,Invincible Eleven,18111,Discoveries,4048,2,5,True
+1312683,2025-03-28T16:00:00+00:00,FT,Regular Season - 23,Global Pharma,22357,Freeport,16144,2,2,True
+1312682,2025-03-29T16:00:00+00:00,FT,Regular Season - 23,LPRC Oilers,6425,BEA Mountain,16143,1,2,True
+1312680,2025-03-29T16:00:00+00:00,FT,Regular Season - 23,Paynesville,22358,Watanga,16151,0,1,True
+1312678,2025-03-30T16:00:00+00:00,FT,Regular Season - 23,Heaven Eleven,18110,Fassell,25192,0,1,True
+1312630,2025-04-05T16:00:00+00:00,FT,Regular Season - 16,BEA Mountain,16143,Discoveries,4048,2,2,True
+1312629,2025-04-06T16:00:00+00:00,FT,Regular Season - 16,LPRC Oilers,6425,Heaven Eleven,18110,0,1,True
+1312634,2025-04-06T16:00:00+00:00,FT,Regular Season - 16,LISCR,8062,Invincible Eleven,18111,1,1,True
+1312633,2025-04-06T16:00:00+00:00,FT,Regular Season - 16,Mighty Barrolle,16145,Global Pharma,22357,2,3,True
+1312632,2025-04-06T16:00:00+00:00,FT,Regular Season - 16,Paynesville,22358,Freeport,16144,3,2,True
+1312631,2025-04-06T16:00:00+00:00,FT,Regular Season - 16,Shaita,25193,Fassell,25192,0,4,True
+1312628,2025-04-06T18:15:00+00:00,FT,Regular Season - 16,Watanga,16151,Black Man Warrior,25191,3,3,True
+1312686,2025-04-09T16:00:00+00:00,FT,Regular Season - 24,Discoveries,4048,LISCR,8062,0,2,True
+1312684,2025-04-09T16:00:00+00:00,FT,Regular Season - 24,Watanga,16151,Global Pharma,22357,2,0,True
+1312688,2025-04-09T16:00:00+00:00,FT,Regular Season - 24,Black Man Warrior,25191,LPRC Oilers,6425,1,1,True
+1312689,2025-04-10T16:00:00+00:00,FT,Regular Season - 24,BEA Mountain,16143,Mighty Barrolle,16145,1,2,True
+1312687,2025-04-10T16:00:00+00:00,FT,Regular Season - 24,Freeport,16144,Heaven Eleven,18110,3,2,True
+1312685,2025-04-10T16:00:00+00:00,FT,Regular Season - 24,Fassell,25192,Invincible Eleven,18111,4,2,True
+1312690,2025-04-10T16:00:00+00:00,FT,Regular Season - 24,Shaita,25193,Paynesville,22358,7,0,True
+1312697,2025-04-16T16:00:00+00:00,FT,Regular Season - 25,Heaven Eleven,18110,Global Pharma,22357,0,1,True
+1312692,2025-04-16T16:00:00+00:00,FT,Regular Season - 25,Paynesville,22358,BEA Mountain,16143,1,1,True
+1312694,2025-04-16T18:15:00+00:00,FT,Regular Season - 25,LPRC Oilers,6425,Discoveries,4048,5,3,True
+1312693,2025-04-17T16:00:00+00:00,FT,Regular Season - 25,Mighty Barrolle,16145,Black Man Warrior,25191,0,2,True
+1312696,2025-04-17T16:00:00+00:00,FT,Regular Season - 25,Invincible Eleven,18111,Freeport,16144,0,1,True
+1312691,2025-04-17T16:00:00+00:00,FT,Regular Season - 25,Shaita,25193,Watanga,16151,1,1,True
+1312605,2025-04-17T18:15:00+00:00,FT,Regular Season - 25,LISCR,8062,Fassell,25192,0,2,True
+1312699,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,Discoveries,4048,Mighty Barrolle,16145,2,3,True
+1312704,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,BEA Mountain,16143,Shaita,25193,5,2,True
+1312702,2025-04-20T13:00:00+00:00,FT,Regular Season - 26,Freeport,16144,LISCR,8062,3,1,True
+1312703,2025-04-20T15:30:00+00:00,FT,Regular Season - 26,Fassell,25192,LPRC Oilers,6425,0,1,True
+1312698,2025-04-20T16:00:00+00:00,FT,Regular Season - 26,Watanga,16151,Heaven Eleven,18110,0,0,True
+1312700,2025-04-20T16:00:00+00:00,FT,Regular Season - 26,Global Pharma,22357,Invincible Eleven,18111,1,2,True
+1312701,2025-04-20T16:00:00+00:00,FT,Regular Season - 26,Black Man Warrior,25191,Paynesville,22358,4,0,True

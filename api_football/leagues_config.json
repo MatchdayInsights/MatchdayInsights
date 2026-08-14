@@ -11,7 +11,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -23,7 +25,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -35,7 +38,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Algeria": [
@@ -45,7 +49,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Coupe Nationale",
@@ -53,14 +59,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Coupe de la Ligue",
       "league_id": 832,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -68,7 +76,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Andorra": [
@@ -83,7 +92,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa Constitució",
@@ -96,7 +107,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -108,7 +120,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Angola": [
@@ -118,14 +131,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Super Cup",
       "league_id": 1192,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Antigua-And-Barbuda": [
@@ -135,7 +151,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Argentina": [
@@ -144,7 +162,8 @@
       "league_id": 1032,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Liga Profesional Argentina",
@@ -152,7 +171,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Primera Nacional",
@@ -160,7 +181,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Copa Argentina",
@@ -168,14 +191,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa de la Superliga",
       "league_id": 483,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Copa",
@@ -183,7 +208,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Copa International",
@@ -191,14 +217,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Trofeo de Campeones de la Superliga",
       "league_id": 517,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Armenia": [
@@ -214,7 +242,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -226,7 +256,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -237,7 +268,8 @@
         2022,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Aruba": [
@@ -247,7 +279,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Australia": [
@@ -257,7 +291,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Australia Cup",
@@ -265,7 +301,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Austria": [
@@ -281,7 +318,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Bundesliga",
@@ -295,7 +334,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -309,7 +350,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Azerbaijan": [
@@ -324,7 +366,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -337,7 +381,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Bahrain": [
@@ -347,14 +392,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Federation Cup",
       "league_id": 485,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "King's Cup",
@@ -362,7 +410,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -370,7 +419,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Bangladesh": [
@@ -380,7 +430,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Federation Cup",
@@ -388,7 +440,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Barbados": [
@@ -398,7 +451,9 @@
       "seasons": [
         2024,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Belarus": [
@@ -413,7 +468,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Coppa",
@@ -427,7 +484,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -439,7 +497,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Belgium": [
@@ -454,7 +513,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Jupiler Pro League",
@@ -466,8 +527,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -480,7 +544,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -492,7 +557,8 @@
         2023,
         2024,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Belize": [
@@ -502,7 +568,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Benin": [
@@ -512,7 +580,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Bermuda": [
@@ -521,7 +591,9 @@
       "league_id": 414,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Bhutan": [
@@ -531,7 +603,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Bolivia": [
@@ -541,14 +615,17 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa de la División Profesional",
       "league_id": 964,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Bosnia": [
@@ -556,24 +633,38 @@
       "name": "Premijer Liga",
       "league_id": 315,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
       "league_id": 314,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 1221,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Botswana": [
@@ -583,7 +674,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Brazil": [
@@ -593,14 +686,8 @@
       "seasons": [
         2025,
         2026
-      ]
-    },
-    {
-      "name": "Alagoano U20",
-      "league_id": 1110,
-      "seasons": [
-        2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Amapaense",
@@ -608,7 +695,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Amazonense",
@@ -616,14 +704,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Amazonense - 2",
       "league_id": 1134,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Baiano - 1",
@@ -631,7 +721,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Baiano - 2",
@@ -639,7 +730,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Brasiliense",
@@ -647,14 +739,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Brasiliense B",
       "league_id": 1141,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Capixaba",
@@ -662,7 +756,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Capixaba B",
@@ -670,7 +765,8 @@
       "seasons": [
         2026,
         2027
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Carioca - 1",
@@ -678,14 +774,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Carioca - 2",
       "league_id": 625,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Carioca A2",
@@ -693,14 +791,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Carioca B2",
       "league_id": 1155,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Carioca C",
@@ -708,7 +808,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Catarinense - 1",
@@ -716,7 +817,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Catarinense - 2",
@@ -724,14 +826,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Catarinense - 3",
       "league_id": 1154,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Cearense - 1",
@@ -739,7 +843,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Cearense - 2",
@@ -747,14 +852,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Cearense - 3",
       "league_id": 1124,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Gaúcho - 1",
@@ -762,21 +869,24 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Gaúcho - 2",
       "league_id": 478,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Gaúcho - 3",
       "league_id": 1150,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Goiano - 1",
@@ -784,7 +894,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Goiano - 2",
@@ -792,14 +903,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Goiano - 3",
       "league_id": 1133,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Maranhense",
@@ -807,7 +920,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Maranhense - 2",
@@ -815,7 +929,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Matogrossense",
@@ -823,7 +938,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Matogrossense 2",
@@ -831,7 +947,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Mineiro - 1",
@@ -839,7 +956,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Mineiro - 2",
@@ -847,14 +965,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Mineiro - 3",
       "league_id": 1142,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paraense",
@@ -862,21 +982,24 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paraense A3",
       "league_id": 1115,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paraense B1",
       "league_id": 1145,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paraibano",
@@ -884,14 +1007,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paraibano 2",
       "league_id": 1037,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paranaense - 1",
@@ -899,7 +1024,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paranaense - 2",
@@ -907,7 +1033,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paranaense - 3",
@@ -915,7 +1042,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paulista - A1",
@@ -923,7 +1051,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paulista - A2",
@@ -931,7 +1060,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paulista - A3",
@@ -939,7 +1069,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paulista - A4",
@@ -947,7 +1078,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Paulista Série B",
@@ -955,7 +1087,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Pernambucano - 1",
@@ -963,21 +1096,24 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Pernambucano - 2",
       "league_id": 1125,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Pernambucano - 3",
       "league_id": 1151,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Piauiense",
@@ -985,14 +1121,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Piauiense - 2",
       "league_id": 1203,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Potiguar",
@@ -1000,14 +1138,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Potiguar - 2",
       "league_id": 1149,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Rondoniense",
@@ -1015,14 +1155,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Rondoniense - 2",
       "league_id": 1204,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Roraimense",
@@ -1030,7 +1172,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Sergipano",
@@ -1038,14 +1181,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Sergipano - 2",
       "league_id": 1135,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Serie A",
@@ -1053,7 +1198,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Serie B",
@@ -1061,7 +1208,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Serie C",
@@ -1069,7 +1218,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Sul-Matogrossense",
@@ -1077,7 +1228,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Tocantinense",
@@ -1085,7 +1237,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Alagoano",
@@ -1093,7 +1246,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Alagoano - 2",
@@ -1101,7 +1255,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Alagoas",
@@ -1109,14 +1264,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Centro-Oeste",
       "league_id": 1225,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Do Brasil",
@@ -1124,7 +1281,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Espírito Santo",
@@ -1132,14 +1290,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Fares Lopes",
       "league_id": 1165,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Gaúcha",
@@ -1147,7 +1307,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Grão Pará",
@@ -1155,14 +1316,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Norte",
       "league_id": 1223,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Paulista",
@@ -1170,7 +1333,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Rio",
@@ -1178,28 +1342,32 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Santa Catarina",
       "league_id": 1036,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Sul-Sudeste",
       "league_id": 1224,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Verde",
       "league_id": 843,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa do Nordeste",
@@ -1207,14 +1375,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Recopa Catarinense",
       "league_id": 1059,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Supercopa do Brasil",
@@ -1222,7 +1392,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Bulgaria": [
@@ -1238,7 +1409,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -1251,7 +1424,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -1263,7 +1437,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Burkina-Faso": [
@@ -1273,7 +1448,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Burundi": [
@@ -1283,7 +1460,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Cambodia": [
@@ -1293,7 +1472,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Hun Sen Cup",
@@ -1301,7 +1482,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Cameroon": [
@@ -1311,14 +1493,17 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Super Cup",
       "league_id": 1166,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Canada": [
@@ -1328,7 +1513,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Canadian Championship",
@@ -1336,7 +1523,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup",
+      "tier": 1
     }
   ],
   "Chile": [
@@ -1346,7 +1535,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa Chile",
@@ -1354,14 +1545,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa De La Liga",
       "league_id": 1220,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -1369,7 +1562,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "China": [
@@ -1379,7 +1573,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FA Cup",
@@ -1387,7 +1583,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -1395,7 +1592,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Chinese-Taipei": [
@@ -1404,7 +1602,9 @@
       "league_id": 589,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Colombia": [
@@ -1414,7 +1614,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Primera B",
@@ -1422,7 +1624,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Copa Colombia",
@@ -1430,7 +1634,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Superliga",
@@ -1438,7 +1643,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Congo": [
@@ -1448,7 +1655,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Congo-DR": [
@@ -1458,7 +1667,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Costa-Rica": [
@@ -1469,7 +1680,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa Costa Rica",
@@ -1477,7 +1690,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Recopa",
@@ -1485,25 +1699,19 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Supercopa",
       "league_id": 864,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
-  "Crimea": [
-    {
-      "name": "Premier League",
-      "league_id": 870,
-      "seasons": [
-        2022
-      ]
-    }
-  ],
+  "Crimea": [],
   "Croatia": [
     {
       "name": "First NL",
@@ -1516,7 +1724,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "HNL",
@@ -1530,7 +1740,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -1543,14 +1755,16 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 1021,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Cuba": [
@@ -1559,7 +1773,9 @@
       "league_id": 907,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Curacao": [
@@ -1568,7 +1784,9 @@
       "league_id": 642,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Cyprus": [
@@ -1583,7 +1801,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -1596,7 +1816,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -1607,7 +1828,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Czech-Republic": [
@@ -1615,35 +1837,56 @@
       "name": "Czech Liga",
       "league_id": 345,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FNL",
       "league_id": 346,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Cup",
       "league_id": 347,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 925,
       "seasons": [
         2015
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Denmark": [
@@ -1659,7 +1902,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Superliga",
@@ -1673,7 +1918,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "DBU Pokalen",
@@ -1687,7 +1934,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Dominican-Republic": [
@@ -1696,14 +1944,17 @@
       "league_id": 759,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa LDF",
       "league_id": 1180,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Ecuador": [
@@ -1713,7 +1964,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Liga Pro Serie B",
@@ -1721,7 +1974,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Copa Ecuador",
@@ -1729,7 +1984,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Supercopa de Ecuador",
@@ -1737,7 +1993,8 @@
       "seasons": [
         2024,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Egypt": [
@@ -1747,7 +2004,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Second League",
@@ -1755,7 +2014,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Cup",
@@ -1763,7 +2024,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
@@ -1771,14 +2033,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 539,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "El-Salvador": [
@@ -1787,7 +2051,8 @@
       "league_id": 1219,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Primera Division",
@@ -1796,7 +2061,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "England": [
@@ -1811,7 +2078,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "League One",
@@ -1824,7 +2093,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "League Two",
@@ -1837,7 +2108,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Premier League",
@@ -1850,7 +2123,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Community Shield",
@@ -1862,7 +2137,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "EFL Trophy",
@@ -1875,7 +2151,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "FA Cup",
@@ -1888,7 +2165,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
@@ -1902,7 +2180,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Estonia": [
@@ -1917,7 +2196,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -1930,7 +2211,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Eswatini": [
@@ -1940,7 +2222,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Ethiopia": [
@@ -1950,14 +2234,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Ethiopia Cup",
       "league_id": 1228,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Faroe-Islands": [
@@ -1965,17 +2252,30 @@
       "name": "Meistaradeildin",
       "league_id": 367,
       "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Løgmanssteypid",
       "league_id": 491,
       "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -1983,7 +2283,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Fiji": [
@@ -1992,7 +2293,9 @@
       "league_id": 376,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Finland": [
@@ -2007,7 +2310,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "League Cup",
@@ -2018,7 +2323,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Suomen Cup",
@@ -2031,7 +2337,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "France": [
@@ -2046,7 +2353,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Ligue 2",
@@ -2059,7 +2368,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "National 1",
@@ -2071,8 +2382,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "National 2 - Group A",
@@ -2085,7 +2399,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "National 2 - Group B",
@@ -2098,7 +2414,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "National 2 - Group C",
@@ -2111,7 +2429,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "National 2 - Group D",
@@ -2122,7 +2442,9 @@
         2021,
         2022,
         2023
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Coupe de France",
@@ -2135,7 +2457,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Trophée des Champions",
@@ -2147,7 +2470,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Gabon": [
@@ -2157,7 +2481,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Gambia": [
@@ -2167,7 +2493,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Georgia": [
@@ -2182,7 +2510,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "David Kipiani Cup",
@@ -2195,7 +2525,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -2208,7 +2539,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Germany": [
@@ -2222,8 +2554,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "3. Liga",
@@ -2235,8 +2570,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Bundesliga",
@@ -2249,7 +2587,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Regionalliga - Bayern",
@@ -2262,7 +2602,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Regionalliga - Nord",
@@ -2276,7 +2618,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Regionalliga - Nordost",
@@ -2290,7 +2634,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Regionalliga - Promotion Play-offs",
@@ -2300,7 +2646,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Regionalliga - Relegation Round",
@@ -2309,7 +2657,9 @@
         2022,
         2023,
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Regionalliga - SudWest",
@@ -2321,8 +2671,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Regionalliga - West",
@@ -2336,7 +2689,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "DFB Pokal",
@@ -2349,7 +2704,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -2361,7 +2717,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Ghana": [
@@ -2371,7 +2728,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -2379,14 +2738,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 1144,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Gibraltar": [
@@ -2400,7 +2761,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Rock Cup",
@@ -2412,7 +2775,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -2421,7 +2785,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Greece": [
@@ -2436,7 +2801,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Super League 2",
@@ -2449,7 +2816,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Cup",
@@ -2462,14 +2831,16 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 1210,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Football League",
@@ -2477,7 +2848,9 @@
       "seasons": [
         2019,
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     }
   ],
   "Grenada": [
@@ -2486,7 +2859,9 @@
       "league_id": 1080,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Guadeloupe": [
@@ -2495,7 +2870,9 @@
       "league_id": 377,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Guatemala": [
@@ -2506,14 +2883,18 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Primera Division",
       "league_id": 338,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Guinea": [
@@ -2523,7 +2904,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Haiti": [
@@ -2532,7 +2915,9 @@
       "league_id": 379,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Honduras": [
@@ -2543,7 +2928,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Hong-Kong": [
@@ -2553,7 +2940,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FA Cup",
@@ -2561,14 +2950,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
       "league_id": 1199,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Senior Shield",
@@ -2576,7 +2967,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Hungary": [
@@ -2592,7 +2984,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Magyar Kupa",
@@ -2605,7 +2999,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Iceland": [
@@ -2620,7 +3015,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -2633,7 +3030,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
@@ -2646,7 +3044,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -2659,7 +3058,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "India": [
@@ -2669,7 +3069,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "AIFF Super Cup",
@@ -2677,14 +3079,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "IFA Shield",
       "league_id": 1201,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Indonesia": [
@@ -2694,14 +3098,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Piala Indonesia",
       "league_id": 718,
       "seasons": [
         2018
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Iran": [
@@ -2711,7 +3118,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Hazfi Cup",
@@ -2719,7 +3128,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -2727,7 +3137,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Iraq": [
@@ -2737,7 +3148,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Ireland": [
@@ -2752,7 +3165,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FAI Cup",
@@ -2765,7 +3180,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "FAI President's Cup",
@@ -2777,14 +3193,16 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
       "league_id": 360,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Israel": [
@@ -2799,7 +3217,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "State Cup",
@@ -2812,7 +3232,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -2825,7 +3246,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Toto Cup Ligat Al",
@@ -2838,7 +3260,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Italy": [
@@ -2853,7 +3276,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Serie B",
@@ -2866,7 +3291,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Serie C - Girone A",
@@ -2879,7 +3306,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Serie C - Girone B",
@@ -2892,7 +3321,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Serie C - Girone C",
@@ -2905,7 +3336,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Serie C - Promotion - Play-offs",
@@ -2915,7 +3348,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Serie C - Relegation - Play-offs",
@@ -2925,7 +3360,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Serie C - Supercoppa Lega Finals",
@@ -2935,7 +3372,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Serie D - Championship Round",
@@ -2945,7 +3384,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone A",
@@ -2957,7 +3398,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone B",
@@ -2969,7 +3412,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone C",
@@ -2981,7 +3426,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone D",
@@ -2993,7 +3440,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone E",
@@ -3005,7 +3454,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone F",
@@ -3017,7 +3468,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone G",
@@ -3029,7 +3482,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone H",
@@ -3041,7 +3496,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Girone I",
@@ -3053,7 +3510,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Promotion - Play-offs",
@@ -3062,7 +3521,9 @@
         2022,
         2023,
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Serie D - Relegation - Play-offs",
@@ -3071,7 +3532,9 @@
         2022,
         2023,
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Coppa Italia",
@@ -3084,7 +3547,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Coppa Italia Serie C",
@@ -3095,7 +3559,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Coppa Italia Serie D",
@@ -3106,7 +3571,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3118,7 +3584,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Ivory-Coast": [
@@ -3128,7 +3595,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Jamaica": [
@@ -3138,7 +3607,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Japan": [
@@ -3148,42 +3619,51 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "J2 League",
       "league_id": 99,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "J2/J3 League",
       "league_id": 1235,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Emperor Cup",
       "league_id": 102,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "J-League Cup",
       "league_id": 101,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 548,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Jordan": [
@@ -3193,7 +3673,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3201,14 +3683,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Shield Cup",
       "league_id": 816,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3216,7 +3700,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Kazakhstan": [
@@ -3231,7 +3716,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3244,7 +3731,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3256,7 +3744,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Kenya": [
@@ -3266,7 +3755,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Shield Cup",
@@ -3274,14 +3765,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 1193,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Kosovo": [
@@ -3296,7 +3789,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3309,7 +3804,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3319,7 +3815,8 @@
         2021,
         2023,
         2024
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Kuwait": [
@@ -3329,7 +3826,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Crown Prince Cup",
@@ -3337,7 +3836,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Emir Cup",
@@ -3345,7 +3845,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3353,7 +3854,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Kyrgyzstan": [
@@ -3363,7 +3865,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Laos": [
@@ -3373,7 +3877,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Latvia": [
@@ -3388,7 +3894,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3401,7 +3909,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3409,7 +3918,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Lebanon": [
@@ -3419,14 +3929,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
       "league_id": 967,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Lesotho": [
@@ -3436,7 +3949,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Liberia": [
@@ -3446,7 +3961,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Libya": [
@@ -3456,7 +3973,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Liechtenstein": [
@@ -3469,8 +3988,10 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "cup"
     }
   ],
   "Lithuania": [
@@ -3485,7 +4006,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3498,7 +4021,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3510,7 +4034,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Luxembourg": [
@@ -3526,7 +4051,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3538,7 +4065,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Macao": [
@@ -3548,7 +4076,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Macedonia": [
@@ -3556,18 +4086,30 @@
       "name": "First League",
       "league_id": 371,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
       "league_id": 756,
       "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Malawi": [
@@ -3577,7 +4119,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Malaysia": [
@@ -3587,14 +4131,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FA Cup",
       "league_id": 500,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Malaysia Cup",
@@ -3602,7 +4149,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Maldives": [
@@ -3611,7 +4159,9 @@
       "league_id": 855,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Mali": [
@@ -3621,7 +4171,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Malta": [
@@ -3636,7 +4188,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FA Trophy",
@@ -3648,7 +4202,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3657,7 +4212,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Mauritania": [
@@ -3667,7 +4223,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Mauritius": [
@@ -3676,7 +4234,9 @@
       "league_id": 763,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Mexico": [
@@ -3687,7 +4247,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Liga de Expansión MX",
@@ -3696,7 +4258,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Campeón de Campeones",
@@ -3704,7 +4268,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Moldova": [
@@ -3719,7 +4284,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cupa",
@@ -3731,7 +4298,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Mongolia": [
@@ -3741,14 +4309,17 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Super Cup",
       "league_id": 1131,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Montenegro": [
@@ -3764,7 +4335,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3776,7 +4349,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Morocco": [
@@ -3786,7 +4360,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Botola Pro",
@@ -3794,7 +4370,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -3802,7 +4380,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Myanmar": [
@@ -3812,7 +4391,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Namibia": [
@@ -3821,7 +4402,9 @@
       "league_id": 409,
       "seasons": [
         2018
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Nepal": [
@@ -3830,7 +4413,9 @@
       "league_id": 590,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Netherlands": [
@@ -3844,21 +4429,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
-    },
-    {
-      "name": "Eredivisie Women",
-      "league_id": 91,
-      "seasons": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "KNVB Beker",
@@ -3871,7 +4446,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -3883,7 +4459,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Eerste Divisie",
@@ -3895,8 +4472,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Tweede Divisie",
@@ -3909,7 +4489,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     }
   ],
   "New-Zealand": [
@@ -3918,7 +4500,9 @@
       "league_id": 280,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Chatham Cup",
@@ -3926,7 +4510,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Nicaragua": [
@@ -3937,7 +4522,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa Nicaragua",
@@ -3945,7 +4532,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Nigeria": [
@@ -3955,14 +4543,17 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Federation Cup",
       "league_id": 1231,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Northern-Ireland": [
@@ -3970,32 +4561,53 @@
       "name": "Premiership",
       "league_id": 408,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Charity Shield",
       "league_id": 1019,
       "seasons": [
+        2023,
+        2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Irish Cup",
       "league_id": 757,
       "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
       "league_id": 559,
       "seasons": [
+        2019,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Norway": [
@@ -4010,7 +4622,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Eliteserien",
@@ -4023,7 +4637,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "NM Cupen",
@@ -4035,14 +4651,16 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 557,
       "seasons": [
         2019
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Oman": [
@@ -4052,14 +4670,17 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FA Cup",
       "league_id": 1197,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Sultan Cup",
@@ -4067,7 +4688,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -4075,7 +4697,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Pakistan": [
@@ -4084,7 +4707,9 @@
       "league_id": 868,
       "seasons": [
         2021
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Palestine": [
@@ -4093,7 +4718,9 @@
       "league_id": 586,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Panama": [
@@ -4103,7 +4730,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Paraguay": [
@@ -4113,7 +4742,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Division Profesional - Apertura",
@@ -4121,7 +4752,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Division Profesional - Clausura",
@@ -4129,14 +4762,17 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa Paraguay",
       "league_id": 501,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Supercopa",
@@ -4144,7 +4780,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Peru": [
@@ -4154,21 +4791,25 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa De La Liga",
       "league_id": 1232,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Perú",
       "league_id": 503,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Philippines": [
@@ -4178,7 +4819,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Poland": [
@@ -4194,7 +4837,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "I Liga",
@@ -4208,7 +4853,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Cup",
@@ -4222,7 +4869,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -4235,7 +4883,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Portugal": [
@@ -4248,7 +4897,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Primeira Liga",
@@ -4260,8 +4911,11 @@
         2022,
         2023,
         2024,
-        2025
-      ]
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Segunda Liga",
@@ -4274,7 +4928,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Super Cup",
@@ -4287,7 +4943,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Taça da Liga",
@@ -4300,7 +4957,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Taça de Portugal",
@@ -4313,7 +4971,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Campeonato de Portugal Prio - Group A",
@@ -4326,7 +4985,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group B",
@@ -4339,7 +5000,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group C",
@@ -4352,7 +5015,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group D",
@@ -4365,7 +5030,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group E",
@@ -4373,7 +5040,9 @@
       "seasons": [
         2020,
         2021
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group F",
@@ -4381,21 +5050,27 @@
       "seasons": [
         2020,
         2021
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group G",
       "league_id": 683,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Group H",
       "league_id": 684,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Campeonato de Portugal Prio - Promotion Round",
@@ -4405,7 +5080,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     }
   ],
   "Qatar": [
@@ -4415,7 +5092,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Emir Cup",
@@ -4423,21 +5102,24 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "QSL Cup",
       "league_id": 677,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Qatar Cup",
       "league_id": 825,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Romania": [
@@ -4453,7 +5135,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cupa României",
@@ -4467,7 +5151,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Supercupa",
@@ -4480,7 +5165,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Russia": [
@@ -4496,7 +5182,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Premier League",
@@ -4510,7 +5198,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -4524,7 +5214,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -4537,7 +5228,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Rwanda": [
@@ -4547,7 +5239,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "San-Marino": [
@@ -4555,24 +5249,41 @@
       "name": "Campionato",
       "league_id": 404,
       "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Coppa Titano",
       "league_id": 729,
       "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 884,
       "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Saudi-Arabia": [
@@ -4582,7 +5293,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Pro League",
@@ -4590,7 +5303,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "King's Cup",
@@ -4598,14 +5313,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 826,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Scotland": [
@@ -4621,7 +5338,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Football League - Championship",
@@ -4630,7 +5349,9 @@
         2022,
         2023,
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Premiership",
@@ -4644,7 +5365,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Challenge Cup",
@@ -4656,7 +5379,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "FA Cup",
@@ -4669,7 +5393,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
@@ -4682,7 +5407,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Senegal": [
@@ -4692,7 +5418,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Serbia": [
@@ -4708,7 +5436,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Super Liga",
@@ -4722,7 +5452,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -4734,7 +5466,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Singapore": [
@@ -4744,7 +5477,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -4752,7 +5487,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Slovakia": [
@@ -4768,7 +5504,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -4780,7 +5518,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Slovenia": [
@@ -4796,7 +5535,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -4809,7 +5550,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Somalia": [
@@ -4818,7 +5560,9 @@
       "league_id": 846,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "South-Africa": [
@@ -4828,7 +5572,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Premier Soccer League",
@@ -4837,14 +5583,17 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "8 Cup",
       "league_id": 509,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Cup",
@@ -4852,14 +5601,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
       "league_id": 508,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "South-Korea": [
@@ -4869,7 +5620,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "K League 2",
@@ -4877,7 +5630,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "FA Cup",
@@ -4885,7 +5640,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Spain": [
@@ -4900,7 +5656,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Primera División RFEF - Group 1",
@@ -4913,7 +5671,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Primera División RFEF - Group 2",
@@ -4926,7 +5686,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Primera División RFEF - Group 3",
@@ -4934,7 +5696,9 @@
       "seasons": [
         2019,
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Primera División RFEF - Group 4",
@@ -4942,14 +5706,18 @@
       "seasons": [
         2019,
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Primera División RFEF - Group 5",
       "league_id": 692,
       "seasons": [
         2020
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Primera División RFEF - Play Offs",
@@ -4959,7 +5727,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 3
     },
     {
       "name": "Segunda División",
@@ -4972,7 +5742,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Segunda División RFEF - Group 1",
@@ -4983,7 +5755,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Segunda División RFEF - Group 2",
@@ -4994,7 +5768,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Segunda División RFEF - Group 3",
@@ -5005,7 +5781,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Segunda División RFEF - Group 4",
@@ -5016,7 +5794,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Segunda División RFEF - Group 5",
@@ -5027,7 +5807,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Segunda División RFEF - Play-offs",
@@ -5037,7 +5819,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 4
     },
     {
       "name": "Copa Federacion",
@@ -5049,7 +5833,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa del Rey",
@@ -5062,7 +5847,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -5075,7 +5861,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Sudan": [
@@ -5085,7 +5872,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Suriname": [
@@ -5095,7 +5884,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Sweden": [
@@ -5110,7 +5901,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Svenska Cupen",
@@ -5124,7 +5917,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Switzerland": [
@@ -5140,7 +5934,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Super League",
@@ -5154,7 +5950,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Schweizer Cup",
@@ -5167,7 +5965,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Syria": [
@@ -5177,7 +5976,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Tajikistan": [
@@ -5187,7 +5988,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Tanzania": [
@@ -5197,7 +6000,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Thailand": [
@@ -5207,7 +6012,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "FA Cup",
@@ -5215,7 +6022,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "League Cup",
@@ -5223,14 +6031,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Thai Champions Cup",
       "league_id": 873,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Togo": [
@@ -5239,7 +6049,9 @@
       "league_id": 1084,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Trinidad-And-Tobago": [
@@ -5249,7 +6061,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Tunisia": [
@@ -5259,14 +6073,18 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Ligue 2",
       "league_id": 828,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Cup",
@@ -5274,14 +6092,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 1194,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Turkey": [
@@ -5296,7 +6116,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Süper Lig",
@@ -5309,7 +6131,9 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Super Cup",
@@ -5321,7 +6145,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Türkiye Kupası",
@@ -5334,7 +6159,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Turkmenistan": [
@@ -5344,7 +6170,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "USA": [
@@ -5354,7 +6182,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "USL Championship",
@@ -5362,7 +6192,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "US Open Cup",
@@ -5370,7 +6202,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Uganda": [
@@ -5380,7 +6213,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Ukraine": [
@@ -5396,7 +6231,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Premier League",
@@ -5410,7 +6247,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -5422,7 +6261,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -5430,7 +6270,8 @@
       "seasons": [
         2020,
         2021
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "United-Arab-Emirates": [
@@ -5440,7 +6281,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Pro League",
@@ -5448,7 +6291,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "League Cup",
@@ -5456,7 +6301,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Presidents Cup",
@@ -5464,14 +6310,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 896,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Uruguay": [
@@ -5481,14 +6329,18 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Primera División - Clausura",
       "league_id": 270,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Segunda División",
@@ -5496,21 +6348,25 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 2
     },
     {
       "name": "Copa De La Liga Auf",
       "league_id": 1212,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Copa Uruguay",
       "league_id": 930,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Copa",
@@ -5518,7 +6374,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Uzbekistan": [
@@ -5528,14 +6385,17 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
       "league_id": 802,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
@@ -5543,7 +6403,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Venezuela": [
@@ -5553,7 +6414,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Copa Venezuela",
@@ -5561,14 +6424,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Supercopa",
       "league_id": 1181,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Vietnam": [
@@ -5578,7 +6443,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "Cup",
@@ -5586,14 +6453,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Super Cup",
       "league_id": 831,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Wales": [
@@ -5609,7 +6478,9 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     },
     {
       "name": "League Cup",
@@ -5621,7 +6492,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     },
     {
       "name": "Welsh Cup",
@@ -5633,7 +6505,8 @@
         2023,
         2024,
         2025
-      ]
+      ],
+      "type": "cup"
     }
   ],
   "Yemen": [
@@ -5642,7 +6515,9 @@
       "league_id": 1079,
       "seasons": [
         2023
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Zambia": [
@@ -5652,7 +6527,9 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "Zimbabwe": [
@@ -5662,7 +6539,9 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "league",
+      "tier": 1
     }
   ],
   "World": [
@@ -5672,7 +6551,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "AFC Champions League Elite",
@@ -5680,7 +6560,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "AFC Champions League Two",
@@ -5688,7 +6569,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "AGCFF Gulf Champions League",
@@ -5696,14 +6578,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "ASEAN Club Championship",
       "league_id": 1129,
       "seasons": [
         2024
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CECAFA Club Cup",
@@ -5711,7 +6595,8 @@
       "seasons": [
         2026,
         2027
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONCACAF Caribbean Club Championship",
@@ -5719,7 +6604,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONCACAF Caribbean Club Shield",
@@ -5727,7 +6613,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONCACAF Central American Cup",
@@ -5735,7 +6622,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONCACAF Champions League",
@@ -5743,7 +6631,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONMEBOL Libertadores",
@@ -5751,7 +6640,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONMEBOL Recopa",
@@ -5759,7 +6649,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CONMEBOL Sudamericana",
@@ -5767,28 +6658,32 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "Campeones Cup",
       "league_id": 885,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "FIFA Club World Cup",
       "league_id": 15,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "FIFA Club World Cup - Play-In",
       "league_id": 1186,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "Leagues Cup",
@@ -5796,7 +6691,8 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "OFC Champions League",
@@ -5804,14 +6700,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "OFC Pro League",
       "league_id": 1214,
       "seasons": [
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "UAE-Qatar - Super Cup",
@@ -5819,14 +6717,16 @@
       "seasons": [
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "UAE-Qatar - Super Shield",
       "league_id": 1089,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "UEFA Champions League",
@@ -5835,7 +6735,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "UEFA Europa Conference League",
@@ -5844,7 +6745,8 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "UEFA Europa League",
@@ -5853,14 +6755,16 @@
         2024,
         2025,
         2026
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "UEFA Super Cup",
       "league_id": 531,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CAF Champions League",
@@ -5868,7 +6772,8 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "CAF Confederation Cup",
@@ -5876,14 +6781,16 @@
       "seasons": [
         2024,
         2025
-      ]
+      ],
+      "type": "continental"
     },
     {
       "name": "FIFA Intercontinental Cup",
       "league_id": 1168,
       "seasons": [
         2025
-      ]
+      ],
+      "type": "continental"
     }
   ]
 }

@@ -1,2 +1,22 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1311771,2025-03-23T02:00:00+00:00,FT,LD Alajuelense,822,Puntarenas FC,2045,1,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1260802,2024-07-28T22:00:00+00:00,PEN,Preliminary Round,AD Sarchí,19737,Águila,4310,2,2,False
+1260803,2024-07-30T01:00:00+00:00,FT,Preliminary Round,Guadalupe FC,821,Aserri FC,2056,3,1,True
+1260800,2024-08-07T02:00:00+00:00,PEN,1st Round,Santos DE Guapiles,824,Limón Black Star,20804,0,0,False
+1269096,2024-08-07T02:00:00+00:00,FT,1st Round,Águila,4310,Municipal Liberia,826,2,3,True
+1260801,2024-08-07T21:00:00+00:00,FT,1st Round,Inter San Carlos,24391,San Carlos,823,1,4,True
+1260796,2024-08-08T00:00:00+00:00,FT,1st Round,Perez Zeledon,819,Quepos Cambute,19738,0,1,True
+1260797,2024-08-08T00:00:00+00:00,PEN,1st Round,Puntarenas FC,2045,ADR Jicaral,2043,0,0,False
+1260798,2024-08-08T01:00:00+00:00,PEN,1st Round,Santa Ana,2057,AD Cofutpa,2055,0,0,False
+1260799,2024-08-08T02:15:00+00:00,FT,1st Round,CS Cartagines,820,Escorpiones Belén,17377,0,1,True
+1271722,2024-08-09T02:00:00+00:00,FT,1st Round,Guadalupe FC,821,Sporting San Jose,2047,2,0,True
+1283504,2024-08-21T02:00:00+00:00,PEN,Round of 16,Santos de Guápiles,824,San Carlos,823,0,0,False
+1283505,2024-08-22T02:00:00+00:00,FT,Round of 16,Puntarenas,2045,Quepos Cambute,19738,3,0,True
+1283506,2024-08-22T02:00:00+00:00,FT,Round of 16,Escorpiones Belén,17377,Santa Ana,2057,3,2,True
+1285284,2024-08-23T02:00:00+00:00,FT,Round of 16,Municipal Liberia,826,Guadalupe FC,821,1,2,True
+1295115,2024-09-04T02:00:00+00:00,FT,Quarter-finals,Guadalupe FC,821,CS Herediano,815,2,0,True
+1294553,2024-09-05T00:00:00+00:00,FT,Quarter-finals,Puntarenas FC,2045,AD Guanacasteca,2044,2,1,True
+1294552,2024-09-05T02:00:00+00:00,FT,Quarter-finals,LD Alajuelense,822,Escorpiones Belén,17377,5,1,True
+1294356,2024-09-05T02:30:00+00:00,PEN,Quarter-finals,Santos DE Guapiles,824,Deportivo Saprissa,816,1,1,False
+1301634,2024-10-10T02:00:00+00:00,PEN,Semi-finals,Santos DE Guapiles,824,LD Alajuelense,822,0,0,False
+1301633,2024-10-11T02:00:00+00:00,FT,Semi-finals,Puntarenas FC,2045,Guadalupe FC,821,1,0,True
+1311771,2025-03-23T02:00:00+00:00,FT,Final,LD Alajuelense,822,Puntarenas FC,2045,1,0,True

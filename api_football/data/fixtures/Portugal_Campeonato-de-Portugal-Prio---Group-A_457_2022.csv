@@ -1,0 +1,183 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+947057,2022-09-18T14:00:00+00:00,FT,Group A - 1,Amarante,4725,AR São Martinho,4720,2,0,True
+947055,2022-09-18T14:00:00+00:00,FT,Group A - 1,Merelinense,4768,Vianense,4809,0,2,True
+947054,2022-09-18T14:00:00+00:00,FT,Group A - 1,Bragança,4827,Brito,15126,1,1,True
+947051,2022-09-18T14:00:00+00:00,FT,Group A - 1,Monção,4849,Pevidem,6362,1,2,True
+947052,2022-09-18T14:00:00+00:00,FT,Group A - 1,Vilar de Perdizes,4896,Tirsense,15128,1,6,True
+947053,2022-09-18T14:00:00+00:00,FT,Group A - 1,Dumiense,20036,Maria da Fonte,4765,2,0,True
+947056,2022-09-18T15:00:00+00:00,FT,Group A - 1,Pedras Salgadas,4780,Vila Meã,15211,1,0,True
+947062,2022-09-24T14:00:00+00:00,FT,Group A - 2,Tirsense,15128,Monção,4849,2,0,True
+947060,2022-09-25T14:00:00+00:00,FT,Group A - 2,AR São Martinho,4720,Pedras Salgadas,4780,1,1,True
+947058,2022-09-25T14:00:00+00:00,FT,Group A - 2,Maria da Fonte,4765,Bragança,4827,0,0,True
+947063,2022-09-25T14:00:00+00:00,FT,Group A - 2,Vianense,4809,Vilar de Perdizes,4896,1,1,True
+947061,2022-09-25T14:00:00+00:00,FT,Group A - 2,Brito,15126,Amarante,4725,1,1,True
+947064,2022-09-25T14:00:00+00:00,FT,Group A - 2,Vila Meã,15211,Merelinense,4768,1,1,True
+947150,2022-09-25T14:00:00+00:00,FT,Group A - 15,Dumiense,20036,Pevidem,6362,0,1,True
+947067,2022-10-09T14:00:00+00:00,FT,Group A - 3,Amarante,4725,Maria da Fonte,4765,1,1,True
+947071,2022-10-09T14:00:00+00:00,FT,Group A - 3,Merelinense,4768,AR São Martinho,4720,1,0,True
+947068,2022-10-09T14:00:00+00:00,FT,Group A - 3,Pedras Salgadas,4780,Brito,15126,2,0,True
+947065,2022-10-09T14:00:00+00:00,FT,Group A - 3,Bragança,4827,Pevidem,6362,0,1,True
+947066,2022-10-09T14:00:00+00:00,FT,Group A - 3,Monção,4849,Dumiense,20036,2,1,True
+947070,2022-10-09T14:00:00+00:00,FT,Group A - 3,Vilar de Perdizes,4896,Vila Meã,15211,1,0,True
+947069,2022-10-09T14:00:00+00:00,FT,Group A - 3,Tirsense,15128,Vianense,4809,1,0,True
+947072,2022-10-22T14:00:00+00:00,FT,Group A - 4,Pevidem,6362,Amarante,4725,0,1,True
+947078,2022-10-23T14:00:00+00:00,FT,Group A - 4,AR São Martinho,4720,Vilar de Perdizes,4896,0,4,True
+947074,2022-10-23T14:00:00+00:00,FT,Group A - 4,Maria da Fonte,4765,Pedras Salgadas,4780,0,0,True
+947077,2022-10-23T14:00:00+00:00,FT,Group A - 4,Vianense,4809,Monção,4849,2,1,True
+947076,2022-10-23T14:00:00+00:00,FT,Group A - 4,Brito,15126,Merelinense,4768,1,1,True
+947075,2022-10-23T14:00:00+00:00,FT,Group A - 4,Vila Meã,15211,Tirsense,15128,0,1,True
+947073,2022-10-23T14:00:00+00:00,FT,Group A - 4,Dumiense,20036,Bragança,4827,3,0,True
+947080,2022-10-30T15:00:00+00:00,FT,Group A - 5,Amarante,4725,Dumiense,20036,4,1,True
+947081,2022-10-30T15:00:00+00:00,FT,Group A - 5,Merelinense,4768,Maria da Fonte,4765,1,1,True
+947079,2022-10-30T15:00:00+00:00,FT,Group A - 5,Pedras Salgadas,4780,Pevidem,6362,1,1,True
+947084,2022-10-30T15:00:00+00:00,FT,Group A - 5,Vianense,4809,Vila Meã,15211,1,1,True
+947082,2022-10-30T15:00:00+00:00,FT,Group A - 5,Monção,4849,Bragança,4827,2,2,True
+947083,2022-10-30T15:00:00+00:00,FT,Group A - 5,Vilar de Perdizes,4896,Brito,15126,2,2,True
+947085,2022-10-30T15:00:00+00:00,FT,Group A - 5,Tirsense,15128,AR São Martinho,4720,0,1,True
+947086,2022-11-05T15:00:00+00:00,FT,Group A - 6,Pevidem,6362,Merelinense,4768,2,2,True
+947092,2022-11-06T15:00:00+00:00,FT,Group A - 6,AR São Martinho,4720,Vianense,4809,1,2,True
+947089,2022-11-06T15:00:00+00:00,FT,Group A - 6,Maria da Fonte,4765,Vilar de Perdizes,4896,1,0,True
+947087,2022-11-06T15:00:00+00:00,FT,Group A - 6,Bragança,4827,Amarante,4725,0,1,True
+947090,2022-11-06T15:00:00+00:00,FT,Group A - 6,Brito,15126,Tirsense,15128,1,0,True
+947091,2022-11-06T15:00:00+00:00,FT,Group A - 6,Vila Meã,15211,Monção,4849,5,1,True
+947088,2022-11-06T15:00:00+00:00,FT,Group A - 6,Dumiense,20036,Pedras Salgadas,4780,4,2,True
+947094,2022-11-13T15:00:00+00:00,FT,Group A - 7,Merelinense,4768,Dumiense,20036,2,1,True
+947093,2022-11-13T15:00:00+00:00,FT,Group A - 7,Pedras Salgadas,4780,Bragança,4827,0,2,True
+947096,2022-11-13T15:00:00+00:00,FT,Group A - 7,Vianense,4809,Brito,15126,1,0,True
+947095,2022-11-13T15:00:00+00:00,FT,Group A - 7,Monção,4849,Amarante,4725,1,1,True
+947097,2022-11-13T15:00:00+00:00,FT,Group A - 7,Vilar de Perdizes,4896,Pevidem,6362,2,2,True
+947099,2022-11-13T15:00:00+00:00,FT,Group A - 7,Tirsense,15128,Maria da Fonte,4765,2,0,True
+947098,2022-11-13T15:00:00+00:00,FT,Group A - 7,Vila Meã,15211,AR São Martinho,4720,2,1,True
+947105,2022-11-20T15:00:00+00:00,FT,Group A - 8,AR São Martinho,4720,Monção,4849,3,1,True
+947103,2022-11-20T15:00:00+00:00,FT,Group A - 8,Amarante,4725,Pedras Salgadas,4780,0,1,True
+947104,2022-11-20T15:00:00+00:00,FT,Group A - 8,Maria da Fonte,4765,Vianense,4809,2,3,True
+947101,2022-11-20T15:00:00+00:00,FT,Group A - 8,Bragança,4827,Merelinense,4768,2,2,True
+947102,2022-11-20T15:00:00+00:00,FT,Group A - 8,Pevidem,6362,Tirsense,15128,1,3,True
+947106,2022-11-20T15:00:00+00:00,FT,Group A - 8,Brito,15126,Vila Meã,15211,0,2,True
+947100,2022-11-20T15:00:00+00:00,FT,Group A - 8,Dumiense,20036,Vilar de Perdizes,4896,0,2,True
+947112,2022-11-27T15:00:00+00:00,FT,Group A - 9,AR São Martinho,4720,Brito,15126,3,1,True
+947109,2022-11-27T15:00:00+00:00,FT,Group A - 9,Merelinense,4768,Amarante,4725,1,1,True
+947111,2022-11-27T15:00:00+00:00,FT,Group A - 9,Vianense,4809,Pevidem,6362,3,1,True
+947108,2022-11-27T15:00:00+00:00,FT,Group A - 9,Monção,4849,Pedras Salgadas,4780,1,0,True
+947107,2022-11-27T15:00:00+00:00,FT,Group A - 9,Vilar de Perdizes,4896,Bragança,4827,1,0,True
+947110,2022-11-27T15:00:00+00:00,FT,Group A - 9,Tirsense,15128,Dumiense,20036,1,2,True
+947113,2022-11-27T15:00:00+00:00,FT,Group A - 9,Vila Meã,15211,Maria da Fonte,4765,4,0,True
+947118,2022-12-03T15:00:00+00:00,FT,Group A - 10,Pevidem,6362,Vila Meã,15211,2,0,True
+947116,2022-12-04T15:00:00+00:00,FT,Group A - 10,Amarante,4725,Vilar de Perdizes,4896,3,2,True
+947120,2022-12-04T15:00:00+00:00,FT,Group A - 10,Maria da Fonte,4765,AR São Martinho,4720,0,3,True
+947115,2022-12-04T15:00:00+00:00,FT,Group A - 10,Pedras Salgadas,4780,Merelinense,4768,3,1,True
+947114,2022-12-04T15:00:00+00:00,FT,Group A - 10,Bragança,4827,Tirsense,15128,2,2,True
+947119,2022-12-04T15:00:00+00:00,FT,Group A - 10,Brito,15126,Monção,4849,2,0,True
+947117,2022-12-04T15:00:00+00:00,FT,Group A - 10,Dumiense,20036,Vianense,4809,0,1,True
+947127,2022-12-11T15:00:00+00:00,FT,Group A - 11,AR São Martinho,4720,Pevidem,6362,0,1,True
+947123,2022-12-11T15:00:00+00:00,FT,Group A - 11,Vianense,4809,Bragança,4827,2,0,True
+947124,2022-12-11T15:00:00+00:00,FT,Group A - 11,Monção,4849,Merelinense,4768,2,2,True
+947122,2022-12-11T15:00:00+00:00,FT,Group A - 11,Vilar de Perdizes,4896,Pedras Salgadas,4780,1,1,True
+947126,2022-12-11T15:00:00+00:00,FT,Group A - 11,Brito,15126,Maria da Fonte,4765,2,0,True
+947121,2022-12-11T15:00:00+00:00,FT,Group A - 11,Tirsense,15128,Amarante,4725,0,1,True
+947125,2022-12-11T15:00:00+00:00,FT,Group A - 11,Vila Meã,15211,Dumiense,20036,0,0,True
+947129,2022-12-17T15:00:00+00:00,FT,Group A - 12,Merelinense,4768,Vilar de Perdizes,4896,1,2,True
+947131,2022-12-17T15:00:00+00:00,FT,Group A - 12,Bragança,4827,Vila Meã,15211,1,2,True
+947134,2022-12-17T15:00:00+00:00,FT,Group A - 12,Pevidem,6362,Brito,15126,0,1,True
+947128,2022-12-18T15:00:00+00:00,FT,Group A - 12,Amarante,4725,Vianense,4809,2,4,True
+947130,2022-12-18T15:00:00+00:00,FT,Group A - 12,Pedras Salgadas,4780,Tirsense,15128,1,2,True
+947133,2022-12-18T15:00:00+00:00,FT,Group A - 12,Monção,4849,Maria da Fonte,4765,0,3,True
+947132,2022-12-18T15:00:00+00:00,FT,Group A - 12,Dumiense,20036,AR São Martinho,4720,2,2,True
+947139,2023-01-08T15:00:00+00:00,FT,Group A - 13,AR São Martinho,4720,Bragança,4827,0,0,True
+947140,2023-01-08T15:00:00+00:00,FT,Group A - 13,Maria da Fonte,4765,Pevidem,6362,3,2,True
+947135,2023-01-08T15:00:00+00:00,FT,Group A - 13,Vianense,4809,Pedras Salgadas,4780,1,0,True
+947138,2023-01-08T15:00:00+00:00,FT,Group A - 13,Vilar de Perdizes,4896,Monção,4849,0,2,True
+947141,2023-01-08T15:00:00+00:00,FT,Group A - 13,Brito,15126,Dumiense,20036,1,0,True
+947137,2023-01-08T15:00:00+00:00,FT,Group A - 13,Tirsense,15128,Merelinense,4768,2,1,True
+947136,2023-01-08T15:00:00+00:00,FT,Group A - 13,Vila Meã,15211,Amarante,4725,0,1,True
+947144,2023-01-15T15:00:00+00:00,FT,Group A - 14,AR São Martinho,4720,Amarante,4725,0,0,True
+947143,2023-01-15T15:00:00+00:00,FT,Group A - 14,Maria da Fonte,4765,Dumiense,20036,2,2,True
+947148,2023-01-15T15:00:00+00:00,FT,Group A - 14,Vianense,4809,Merelinense,4768,2,1,True
+947145,2023-01-15T15:00:00+00:00,FT,Group A - 14,Pevidem,6362,Monção,4849,1,0,True
+947142,2023-01-15T15:00:00+00:00,FT,Group A - 14,Brito,15126,Bragança,4827,1,0,True
+947147,2023-01-15T15:00:00+00:00,FT,Group A - 14,Tirsense,15128,Vilar de Perdizes,4896,0,2,True
+947146,2023-01-15T15:00:00+00:00,FT,Group A - 14,Vila Meã,15211,Pedras Salgadas,4780,3,2,True
+947059,2023-01-21T15:00:00+00:00,FT,Group A - 2,Pevidem,6362,Dumiense,20036,3,1,True
+947149,2023-01-22T15:00:00+00:00,FT,Group A - 15,Amarante,4725,Brito,15126,0,0,True
+947153,2023-01-22T15:00:00+00:00,FT,Group A - 15,Merelinense,4768,Vila Meã,15211,2,1,True
+947152,2023-01-22T15:00:00+00:00,FT,Group A - 15,Pedras Salgadas,4780,AR São Martinho,4720,1,1,True
+947151,2023-01-22T15:00:00+00:00,FT,Group A - 15,Bragança,4827,Maria da Fonte,4765,1,3,True
+947154,2023-01-22T15:00:00+00:00,FT,Group A - 15,Monção,4849,Tirsense,15128,1,4,True
+947155,2023-01-22T15:00:00+00:00,FT,Group A - 15,Vilar de Perdizes,4896,Vianense,4809,3,1,True
+947158,2023-01-28T15:00:00+00:00,FT,Group A - 16,Pevidem,6362,Bragança,4827,0,1,True
+947160,2023-01-29T15:00:00+00:00,FT,Group A - 16,AR São Martinho,4720,Merelinense,4768,0,0,True
+947156,2023-01-29T15:00:00+00:00,FT,Group A - 16,Maria da Fonte,4765,Amarante,4725,2,3,True
+947161,2023-01-29T15:00:00+00:00,FT,Group A - 16,Vianense,4809,Tirsense,15128,0,1,True
+947157,2023-01-29T15:00:00+00:00,FT,Group A - 16,Brito,15126,Pedras Salgadas,4780,0,0,True
+947162,2023-01-29T15:00:00+00:00,FT,Group A - 16,Vila Meã,15211,Vilar de Perdizes,4896,2,2,True
+947159,2023-01-29T15:00:00+00:00,FT,Group A - 16,Dumiense,20036,Monção,4849,2,1,True
+947165,2023-02-05T15:00:00+00:00,FT,Group A - 17,Amarante,4725,Pevidem,6362,3,2,True
+947166,2023-02-05T15:00:00+00:00,FT,Group A - 17,Merelinense,4768,Brito,15126,1,2,True
+947163,2023-02-05T15:00:00+00:00,FT,Group A - 17,Pedras Salgadas,4780,Maria da Fonte,4765,3,1,True
+947164,2023-02-05T15:00:00+00:00,FT,Group A - 17,Bragança,4827,Dumiense,20036,1,0,True
+947168,2023-02-05T15:00:00+00:00,FT,Group A - 17,Monção,4849,Vianense,4809,0,0,True
+947167,2023-02-05T15:00:00+00:00,FT,Group A - 17,Vilar de Perdizes,4896,AR São Martinho,4720,1,1,True
+947169,2023-02-05T15:00:00+00:00,FT,Group A - 17,Tirsense,15128,Vila Meã,15211,1,1,True
+947170,2023-02-11T13:00:00+00:00,FT,Group A - 18,Pevidem,6362,Pedras Salgadas,4780,3,1,True
+947175,2023-02-12T13:00:00+00:00,FT,Group A - 18,Vila Meã,15211,Vianense,4809,0,1,True
+947176,2023-02-12T15:00:00+00:00,FT,Group A - 18,AR São Martinho,4720,Tirsense,15128,1,0,True
+947173,2023-02-12T15:00:00+00:00,FT,Group A - 18,Maria da Fonte,4765,Merelinense,4768,0,2,True
+947171,2023-02-12T15:00:00+00:00,FT,Group A - 18,Bragança,4827,Monção,4849,0,1,True
+947174,2023-02-12T15:00:00+00:00,FT,Group A - 18,Brito,15126,Vilar de Perdizes,4896,0,0,True
+947172,2023-02-12T15:00:00+00:00,FT,Group A - 18,Dumiense,20036,Amarante,4725,1,1,True
+947177,2023-02-19T15:00:00+00:00,FT,Group A - 19,Amarante,4725,Bragança,4827,5,0,True
+947179,2023-02-19T15:00:00+00:00,FT,Group A - 19,Merelinense,4768,Pevidem,6362,0,1,True
+947180,2023-02-19T15:00:00+00:00,FT,Group A - 19,Pedras Salgadas,4780,Dumiense,20036,1,1,True
+947183,2023-02-19T15:00:00+00:00,FT,Group A - 19,Vianense,4809,AR São Martinho,4720,2,1,True
+947182,2023-02-19T15:00:00+00:00,FT,Group A - 19,Monção,4849,Vila Meã,15211,2,4,True
+947178,2023-02-19T15:00:00+00:00,FT,Group A - 19,Vilar de Perdizes,4896,Maria da Fonte,4765,2,0,True
+947181,2023-02-19T15:00:00+00:00,FT,Group A - 19,Tirsense,15128,Brito,15126,0,1,True
+947189,2023-02-26T15:00:00+00:00,FT,Group A - 20,AR São Martinho,4720,Vila Meã,15211,0,1,True
+947185,2023-02-26T15:00:00+00:00,FT,Group A - 20,Amarante,4725,Monção,4849,4,2,True
+947190,2023-02-26T15:00:00+00:00,FT,Group A - 20,Maria da Fonte,4765,Tirsense,15128,2,1,True
+947184,2023-02-26T15:00:00+00:00,FT,Group A - 20,Bragança,4827,Pedras Salgadas,4780,0,1,True
+947188,2023-02-26T15:00:00+00:00,FT,Group A - 20,Pevidem,6362,Vilar de Perdizes,4896,0,0,True
+947187,2023-02-26T15:00:00+00:00,FT,Group A - 20,Brito,15126,Vianense,4809,0,0,True
+947186,2023-02-26T15:00:00+00:00,FT,Group A - 20,Dumiense,20036,Merelinense,4768,1,0,True
+947195,2023-03-04T15:00:00+00:00,FT,Group A - 21,Vianense,4809,Maria da Fonte,4765,1,0,True
+947192,2023-03-05T15:00:00+00:00,FT,Group A - 21,Merelinense,4768,Bragança,4827,3,0,True
+947194,2023-03-05T15:00:00+00:00,FT,Group A - 21,Pedras Salgadas,4780,Amarante,4725,0,0,True
+947196,2023-03-05T15:00:00+00:00,FT,Group A - 21,Monção,4849,AR São Martinho,4720,1,1,True
+947191,2023-03-05T15:00:00+00:00,FT,Group A - 21,Vilar de Perdizes,4896,Dumiense,20036,1,1,True
+947193,2023-03-05T15:00:00+00:00,FT,Group A - 21,Tirsense,15128,Pevidem,6362,1,2,True
+947197,2023-03-05T15:00:00+00:00,FT,Group A - 21,Vila Meã,15211,Brito,15126,2,0,True
+947202,2023-03-11T15:00:00+00:00,FT,Group A - 22,Pevidem,6362,Vianense,4809,4,0,True
+947200,2023-03-12T15:00:00+00:00,FT,Group A - 22,Amarante,4725,Merelinense,4768,2,1,True
+947204,2023-03-12T15:00:00+00:00,FT,Group A - 22,Maria da Fonte,4765,Vila Meã,15211,2,2,True
+947199,2023-03-12T15:00:00+00:00,FT,Group A - 22,Pedras Salgadas,4780,Monção,4849,0,1,True
+947198,2023-03-12T15:00:00+00:00,FT,Group A - 22,Bragança,4827,Vilar de Perdizes,4896,3,0,True
+947203,2023-03-12T15:00:00+00:00,FT,Group A - 22,Brito,15126,AR São Martinho,4720,2,1,True
+947201,2023-03-12T15:00:00+00:00,FT,Group A - 22,Dumiense,20036,Tirsense,15128,2,3,True
+947211,2023-03-19T15:00:00+00:00,FT,Group A - 23,AR São Martinho,4720,Maria da Fonte,4765,0,0,True
+947206,2023-03-19T15:00:00+00:00,FT,Group A - 23,Merelinense,4768,Pedras Salgadas,4780,2,1,True
+947207,2023-03-19T15:00:00+00:00,FT,Group A - 23,Vianense,4809,Dumiense,20036,0,0,True
+947210,2023-03-19T15:00:00+00:00,FT,Group A - 23,Monção,4849,Brito,15126,4,0,True
+947208,2023-03-19T15:00:00+00:00,FT,Group A - 23,Vilar de Perdizes,4896,Amarante,4725,1,1,True
+947205,2023-03-19T15:00:00+00:00,FT,Group A - 23,Tirsense,15128,Bragança,4827,2,0,True
+947209,2023-03-19T15:00:00+00:00,FT,Group A - 23,Vila Meã,15211,Pevidem,6362,2,1,True
+947214,2023-04-02T15:00:00+00:00,FT,Group A - 24,Amarante,4725,Tirsense,15128,1,3,True
+947216,2023-04-02T15:00:00+00:00,FT,Group A - 24,Maria da Fonte,4765,Brito,15126,2,1,True
+947213,2023-04-02T15:00:00+00:00,FT,Group A - 24,Merelinense,4768,Monção,4849,2,1,True
+947212,2023-04-02T15:00:00+00:00,FT,Group A - 24,Pedras Salgadas,4780,Vilar de Perdizes,4896,3,1,True
+947215,2023-04-02T15:00:00+00:00,FT,Group A - 24,Bragança,4827,Vianense,4809,0,3,True
+947217,2023-04-02T15:00:00+00:00,FT,Group A - 24,Pevidem,6362,AR São Martinho,4720,4,1,True
+947218,2023-04-02T15:00:00+00:00,FT,Group A - 24,Dumiense,20036,Vila Meã,15211,3,2,True
+947225,2023-04-08T15:00:00+00:00,FT,Group A - 25,AR São Martinho,4720,Dumiense,20036,1,2,True
+947224,2023-04-08T15:00:00+00:00,FT,Group A - 25,Maria da Fonte,4765,Monção,4849,2,6,True
+947221,2023-04-08T15:00:00+00:00,FT,Group A - 25,Vianense,4809,Amarante,4725,1,2,True
+947220,2023-04-08T15:00:00+00:00,FT,Group A - 25,Vilar de Perdizes,4896,Merelinense,4768,1,1,True
+947222,2023-04-08T15:00:00+00:00,FT,Group A - 25,Brito,15126,Pevidem,6362,0,3,True
+947219,2023-04-08T15:00:00+00:00,FT,Group A - 25,Tirsense,15128,Pedras Salgadas,4780,1,0,True
+947223,2023-04-08T15:00:00+00:00,FT,Group A - 25,Vila Meã,15211,Bragança,4827,2,1,True
+947232,2023-04-16T15:00:00+00:00,FT,Group A - 26,Amarante,4725,Vila Meã,15211,2,0,True
+947226,2023-04-16T15:00:00+00:00,FT,Group A - 26,Merelinense,4768,Tirsense,15128,1,0,True
+947228,2023-04-16T15:00:00+00:00,FT,Group A - 26,Pedras Salgadas,4780,Vianense,4809,1,0,True
+947231,2023-04-16T15:00:00+00:00,FT,Group A - 26,Bragança,4827,AR São Martinho,4720,3,1,True
+947227,2023-04-16T15:00:00+00:00,FT,Group A - 26,Monção,4849,Vilar de Perdizes,4896,0,0,True
+947230,2023-04-16T15:00:00+00:00,FT,Group A - 26,Pevidem,6362,Maria da Fonte,4765,1,0,True
+947229,2023-04-16T15:00:00+00:00,FT,Group A - 26,Dumiense,20036,Brito,15126,2,1,True

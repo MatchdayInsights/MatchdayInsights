@@ -1,8 +1,18 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1316383,2025-02-15T12:00:00+00:00,PEN,Iskra,3738,Buducnost Podgorica,579,0,0,False
-1316381,2025-02-18T14:00:00+00:00,FT,Petrovac,3741,Rudar,2258,2,1,True
-1370671,2025-04-16T13:30:00+00:00,FT,Iskra,3738,Mornar,3740,0,3,True
-1370673,2025-04-16T13:30:00+00:00,FT,Petrovac,3741,Dečić,3745,0,1,True
-1370674,2025-04-30T15:00:00+00:00,FT,Dečić,3745,Petrovac,3741,2,2,True
-1370672,2025-04-30T17:00:00+00:00,FT,Mornar,3740,Iskra,3738,2,2,True
-1373938,2025-05-29T18:30:00+00:00,FT,Mornar,3740,Dečić,3745,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1314546,2024-11-05T12:00:00+00:00,FT,Round of 16,Igalo,3746,Buducnost Podgorica,579,1,2,True
+1314551,2024-11-06T12:00:00+00:00,FT,Round of 16,Rudar,2258,Sutjeska,673,1,0,True
+1314547,2024-11-06T12:00:00+00:00,FT,Round of 16,Arsenal Tivat,3742,Mladost Lješkopolje,3750,1,4,True
+1314550,2024-11-06T12:00:00+00:00,FT,Round of 16,Jezero,3748,Dečić,3745,0,2,True
+1314545,2024-11-06T12:00:00+00:00,FT,Round of 16,Otrant-Olympic,3751,Iskra,3738,0,1,True
+1314552,2024-11-06T13:00:00+00:00,FT,Round of 16,Petrovac,3741,Mladost DG,16749,2,0,True
+1314548,2024-11-06T13:00:00+00:00,FT,Round of 16,Bokelj,3744,Grbalj,3737,3,0,True
+1314549,2024-11-06T13:00:00+00:00,FT,Round of 16,Jedinstvo,3747,Mornar,3740,0,2,True
+1316382,2024-11-27T12:00:00+00:00,FT,Quarter-finals,Mornar,3740,Bokelj,3744,3,0,True
+1316384,2024-11-27T12:00:00+00:00,PEN,Quarter-finals,Mladost Lješkopolje,3750,Dečić,3745,0,0,False
+1316383,2025-02-15T12:00:00+00:00,PEN,Quarter-finals,Iskra,3738,Buducnost Podgorica,579,0,0,False
+1316381,2025-02-18T14:00:00+00:00,FT,Quarter-finals,Petrovac,3741,Rudar,2258,2,1,True
+1370671,2025-04-16T13:30:00+00:00,FT,Semi-finals,Iskra,3738,Mornar,3740,0,3,True
+1370673,2025-04-16T13:30:00+00:00,FT,Semi-finals,Petrovac,3741,Dečić,3745,0,1,True
+1370674,2025-04-30T15:00:00+00:00,FT,Semi-finals,Dečić,3745,Petrovac,3741,2,2,True
+1370672,2025-04-30T17:00:00+00:00,FT,Semi-finals,Mornar,3740,Iskra,3738,2,2,True
+1373938,2025-05-29T18:30:00+00:00,FT,Final,Mornar,3740,Dečić,3745,0,1,True

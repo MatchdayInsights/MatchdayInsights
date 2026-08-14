@@ -1,241 +1,241 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1389592,2025-08-23T17:15:00+00:00,FT,Hapoel Katamon,4486,Ashdod,4507,1,2,True
-1389593,2025-08-23T17:15:00+00:00,FT,Hapoel Tel Aviv,4501,Ironi Kiryat Shmona,4510,2,1,True
-1389594,2025-08-23T17:30:00+00:00,FT,Maccabi Haifa,4195,Maccabi Bnei Raina,6186,4,0,True
-1389591,2025-08-23T17:30:00+00:00,FT,Ironi Tiberias,6181,Hapoel Haifa,2253,1,0,True
-1389590,2025-08-24T17:15:00+00:00,FT,Maccabi Netanya,4505,Hapoel Beer Sheva,563,2,4,True
-1389596,2025-08-25T17:00:00+00:00,FT,Bnei Sakhnin,4481,Beitar Jerusalem,657,1,2,True
-1389600,2025-08-30T17:15:00+00:00,FT,Hapoel Haifa,2253,Hapoel Katamon,4486,2,1,True
-1389597,2025-08-30T17:15:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Petah Tikva,4488,0,0,True
-1389599,2025-08-30T17:15:00+00:00,FT,Maccabi Bnei Raina,6186,Hapoel Tel Aviv,4501,2,2,True
-1389603,2025-08-30T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Ironi Tiberias,6181,7,0,True
-1389598,2025-08-30T17:30:00+00:00,FT,Ashdod,4507,Bnei Sakhnin,4481,1,2,True
-1389602,2025-08-31T17:00:00+00:00,FT,Maccabi Tel Aviv,604,Maccabi Netanya,4505,4,0,True
-1389601,2025-08-31T17:30:00+00:00,FT,Beitar Jerusalem,657,Maccabi Haifa,4195,0,0,True
-1389606,2025-09-13T16:45:00+00:00,FT,Bnei Sakhnin,4481,Hapoel Haifa,2253,0,2,True
-1389607,2025-09-13T16:45:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Netanya,4505,3,1,True
-1389609,2025-09-13T17:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Maccabi Bnei Raina,6186,3,1,True
-1389610,2025-09-13T17:00:00+00:00,FT,Ironi Tiberias,6181,Maccabi Tel Aviv,604,1,4,True
-1389604,2025-09-14T17:15:00+00:00,FT,Hapoel Katamon,4486,Hapoel Beer Sheva,563,1,5,True
-1389608,2025-09-15T17:00:00+00:00,FT,Maccabi Haifa,4195,Ashdod,4507,5,1,True
-1389605,2025-09-15T17:30:00+00:00,FT,Hapoel Tel Aviv,4501,Beitar Jerusalem,657,3,2,True
-1389595,2025-09-16T16:30:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Tel Aviv,604,0,4,True
-1389614,2025-09-20T16:45:00+00:00,FT,Ashdod,4507,Hapoel Tel Aviv,4501,2,6,True
-1389613,2025-09-20T16:45:00+00:00,FT,Maccabi Bnei Raina,6186,Hapoel Petah Tikva,4488,1,6,True
-1389616,2025-09-20T17:00:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Katamon,4486,2,1,True
-1389617,2025-09-20T17:00:00+00:00,FT,Beitar Jerusalem,657,Ironi Kiryat Shmona,4510,2,1,True
-1389615,2025-09-20T17:00:00+00:00,FT,Maccabi Netanya,4505,Ironi Tiberias,6181,5,2,True
-1389612,2025-09-21T17:00:00+00:00,FT,Hapoel Beer Sheva,563,Bnei Sakhnin,4481,3,1,True
-1389611,2025-09-21T17:30:00+00:00,FT,Hapoel Haifa,2253,Maccabi Haifa,4195,1,1,True
-1389622,2025-09-27T16:30:00+00:00,FT,Hapoel Katamon,4486,Maccabi Netanya,4505,1,2,True
-1389621,2025-09-27T16:45:00+00:00,FT,Hapoel Petah Tikva,4488,Ironi Tiberias,6181,0,2,True
-1389618,2025-09-27T16:45:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Haifa,2253,1,0,True
-1389623,2025-09-27T16:45:00+00:00,FT,Ironi Kiryat Shmona,4510,Ashdod,4507,1,2,True
-1389624,2025-09-27T17:00:00+00:00,FT,Maccabi Bnei Raina,6186,Beitar Jerusalem,657,1,3,True
-1389619,2025-09-28T17:15:00+00:00,FT,Bnei Sakhnin,4481,Maccabi Tel Aviv,604,0,0,True
-1389620,2025-09-29T17:30:00+00:00,FT,Maccabi Haifa,4195,Hapoel Beer Sheva,563,0,1,True
-1389627,2025-10-04T16:15:00+00:00,FT,Hapoel Haifa,2253,Ironi Kiryat Shmona,4510,0,0,True
-1389629,2025-10-04T16:15:00+00:00,FT,Ironi Tiberias,6181,Hapoel Katamon,4486,1,0,True
-1389626,2025-10-04T16:30:00+00:00,FT,Ashdod,4507,Maccabi Bnei Raina,6186,2,0,True
-1389630,2025-10-04T17:00:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Tel Aviv,4501,2,1,True
-1389625,2025-10-04T17:00:00+00:00,FT,Beitar Jerusalem,657,Hapoel Petah Tikva,4488,5,2,True
-1389628,2025-10-05T17:00:00+00:00,FT,Maccabi Netanya,4505,Bnei Sakhnin,4481,1,2,True
-1389631,2025-10-05T17:30:00+00:00,FT,Maccabi Tel Aviv,604,Maccabi Haifa,4195,1,1,True
-1389632,2025-10-18T16:15:00+00:00,FT,Bnei Sakhnin,4481,Ironi Tiberias,6181,2,0,True
-1389635,2025-10-18T16:15:00+00:00,FT,Hapoel Petah Tikva,4488,Hapoel Katamon,4486,0,0,True
-1389637,2025-10-18T16:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Beer Sheva,563,1,0,True
-1389633,2025-10-18T16:30:00+00:00,FT,Maccabi Bnei Raina,6186,Hapoel Haifa,2253,1,2,True
-1389638,2025-10-18T17:00:00+00:00,FT,Maccabi Haifa,4195,Maccabi Netanya,4505,2,3,True
-1389636,2025-10-20T17:00:00+00:00,FT,Beitar Jerusalem,657,Ashdod,4507,0,0,True
-1389640,2025-10-25T16:15:00+00:00,FT,Hapoel Haifa,2253,Beitar Jerusalem,657,2,3,True
-1389641,2025-10-25T16:15:00+00:00,FT,Ashdod,4507,Hapoel Petah Tikva,4488,1,1,True
-1389642,2025-10-25T16:30:00+00:00,FT,Hapoel Katamon,4486,Bnei Sakhnin,4481,0,0,True
-1389645,2025-10-25T16:30:00+00:00,FT,Ironi Tiberias,6181,Maccabi Haifa,4195,1,1,True
-1389643,2025-10-25T17:00:00+00:00,FT,Maccabi Netanya,4505,Hapoel Tel Aviv,4501,2,0,True
-1389644,2025-10-26T18:15:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Bnei Raina,6186,1,0,True
-1389639,2025-10-27T18:00:00+00:00,FT,Maccabi Tel Aviv,604,Ironi Kiryat Shmona,4510,3,1,True
-1389652,2025-11-01T13:00:00+00:00,FT,Maccabi Haifa,4195,Hapoel Katamon,4486,2,2,True
-1389651,2025-11-01T15:30:00+00:00,FT,Hapoel Tel Aviv,4501,Ironi Tiberias,6181,2,0,True
-1389646,2025-11-01T16:30:00+00:00,FT,Hapoel Petah Tikva,4488,Bnei Sakhnin,4481,2,2,True
-1389647,2025-11-01T16:30:00+00:00,FT,Ashdod,4507,Hapoel Haifa,2253,4,1,True
-1389649,2025-11-01T17:30:00+00:00,FT,Maccabi Bnei Raina,6186,Maccabi Tel Aviv,604,0,2,True
-1389650,2025-11-02T18:15:00+00:00,FT,Ironi Kiryat Shmona,4510,Maccabi Netanya,4505,1,2,True
-1389648,2025-11-03T18:30:00+00:00,FT,Beitar Jerusalem,657,Hapoel Beer Sheva,563,0,1,True
-1389655,2025-11-08T13:00:00+00:00,FT,Hapoel Katamon,4486,Hapoel Tel Aviv,4501,0,0,True
-1389659,2025-11-08T15:30:00+00:00,FT,Bnei Sakhnin,4481,Maccabi Haifa,4195,3,3,True
-1389658,2025-11-08T16:30:00+00:00,FT,Maccabi Netanya,4505,Maccabi Bnei Raina,6186,2,1,True
-1389653,2025-11-08T16:30:00+00:00,FT,Ironi Tiberias,6181,Ironi Kiryat Shmona,4510,2,3,True
-1389654,2025-11-08T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Ashdod,4507,2,2,True
-1389656,2025-11-09T18:00:00+00:00,FT,Hapoel Haifa,2253,Hapoel Petah Tikva,4488,2,2,True
-1389657,2025-11-09T18:30:00+00:00,FT,Maccabi Tel Aviv,604,Beitar Jerusalem,657,2,6,True
-1389665,2025-11-29T13:00:00+00:00,FT,Hapoel Haifa,2253,Hapoel Beer Sheva,563,3,4,True
-1389662,2025-11-29T15:30:00+00:00,FT,Hapoel Tel Aviv,4501,Bnei Sakhnin,4481,2,0,True
-1389666,2025-11-29T16:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Katamon,4486,1,2,True
-1389664,2025-11-29T16:30:00+00:00,FT,Maccabi Bnei Raina,6186,Ironi Tiberias,6181,1,3,True
-1389661,2025-11-29T17:30:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Haifa,4195,0,0,True
-1389663,2025-11-30T18:00:00+00:00,FT,Ashdod,4507,Maccabi Tel Aviv,604,2,2,True
-1389660,2025-11-30T18:30:00+00:00,FT,Beitar Jerusalem,657,Maccabi Netanya,4505,4,2,True
-1389673,2025-12-02T17:30:00+00:00,FT,Bnei Sakhnin,4481,Ironi Kiryat Shmona,4510,1,1,True
-1389671,2025-12-02T17:45:00+00:00,FT,Hapoel Katamon,4486,Maccabi Bnei Raina,6186,1,2,True
-1389672,2025-12-02T18:00:00+00:00,FT,Hapoel Petah Tikva,4488,Hapoel Beer Sheva,563,1,1,True
-1389667,2025-12-02T18:30:00+00:00,FT,Maccabi Haifa,4195,Hapoel Tel Aviv,4501,2,1,True
-1389669,2025-12-03T17:30:00+00:00,FT,Maccabi Netanya,4505,Ashdod,4507,2,2,True
-1389670,2025-12-03T17:45:00+00:00,FT,Ironi Tiberias,6181,Beitar Jerusalem,657,0,5,True
-1389668,2025-12-03T18:00:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Haifa,2253,2,1,True
-1389675,2025-12-06T13:00:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Petah Tikva,4488,4,0,True
-1389677,2025-12-06T17:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Maccabi Haifa,4195,0,1,True
-1389679,2025-12-07T18:00:00+00:00,FT,Hapoel Haifa,2253,Maccabi Netanya,4505,3,4,True
-1389678,2025-12-07T18:30:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Tel Aviv,604,1,0,True
-1389674,2025-12-08T17:45:00+00:00,FT,Ashdod,4507,Ironi Tiberias,6181,1,1,True
-1389680,2025-12-08T17:45:00+00:00,FT,Maccabi Bnei Raina,6186,Bnei Sakhnin,4481,0,1,True
-1389676,2025-12-08T18:00:00+00:00,FT,Beitar Jerusalem,657,Hapoel Katamon,4486,1,1,True
-1389687,2025-12-13T13:00:00+00:00,FT,Ashdod,4507,Hapoel Katamon,4486,0,2,True
-1389683,2025-12-13T15:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Tel Aviv,4501,2,2,True
-1389682,2025-12-13T16:00:00+00:00,FT,Hapoel Haifa,2253,Ironi Tiberias,6181,2,0,True
-1389681,2025-12-13T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Netanya,4505,2,0,True
-1389684,2025-12-14T18:15:00+00:00,FT,Maccabi Bnei Raina,6186,Maccabi Haifa,4195,0,4,True
-1389685,2025-12-15T18:00:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Petah Tikva,4488,2,2,True
-1389686,2025-12-15T18:30:00+00:00,FT,Beitar Jerusalem,657,Bnei Sakhnin,4481,2,1,True
-1389692,2025-12-20T13:00:00+00:00,FT,Hapoel Tel Aviv,4501,Maccabi Bnei Raina,6186,3,1,True
-1389691,2025-12-20T15:30:00+00:00,FT,Hapoel Katamon,4486,Hapoel Haifa,2253,0,1,True
-1389693,2025-12-20T16:30:00+00:00,FT,Bnei Sakhnin,4481,Ashdod,4507,3,0,True
-1389694,2025-12-20T16:30:00+00:00,FT,Hapoel Petah Tikva,4488,Ironi Kiryat Shmona,4510,4,1,True
-1389688,2025-12-20T17:30:00+00:00,FT,Ironi Tiberias,6181,Hapoel Beer Sheva,563,3,0,True
-1389690,2025-12-21T18:15:00+00:00,FT,Maccabi Netanya,4505,Maccabi Tel Aviv,604,1,1,True
-1389689,2025-12-22T18:30:00+00:00,FT,Maccabi Haifa,4195,Beitar Jerusalem,657,1,2,True
-1389701,2025-12-30T17:00:00+00:00,FT,Maccabi Bnei Raina,6186,Ironi Kiryat Shmona,4510,3,1,True
-1389699,2025-12-30T17:30:00+00:00,FT,Hapoel Haifa,2253,Bnei Sakhnin,4481,0,2,True
-1389696,2025-12-30T18:00:00+00:00,FT,Maccabi Tel Aviv,604,Ironi Tiberias,6181,1,1,True
-1389697,2025-12-31T17:30:00+00:00,FT,Maccabi Netanya,4505,Hapoel Petah Tikva,4488,0,2,True
-1389695,2025-12-31T17:45:00+00:00,FT,Ashdod,4507,Maccabi Haifa,4195,0,4,True
-1389700,2025-12-31T18:00:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Katamon,4486,4,1,True
-1389698,2026-01-01T18:30:00+00:00,FT,Beitar Jerusalem,657,Hapoel Tel Aviv,4501,1,0,True
-1389707,2026-01-03T13:00:00+00:00,FT,Hapoel Katamon,4486,Maccabi Tel Aviv,604,1,3,True
-1389706,2026-01-03T15:30:00+00:00,FT,Bnei Sakhnin,4481,Hapoel Beer Sheva,563,0,5,True
-1389702,2026-01-03T16:30:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Bnei Raina,6186,4,1,True
-1389703,2026-01-03T16:30:00+00:00,FT,Ironi Tiberias,6181,Maccabi Netanya,4505,4,0,True
-1389705,2026-01-04T18:15:00+00:00,FT,Hapoel Tel Aviv,4501,Ashdod,4507,1,0,True
-1389708,2026-01-04T18:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Beitar Jerusalem,657,1,2,True
-1389704,2026-01-05T18:30:00+00:00,FT,Maccabi Haifa,4195,Hapoel Haifa,2253,2,0,True
-1389714,2026-01-09T12:00:00+00:00,FT,Maccabi Netanya,4505,Hapoel Katamon,4486,1,1,True
-1389711,2026-01-10T13:00:00+00:00,FT,Maccabi Tel Aviv,604,Bnei Sakhnin,4481,1,0,True
-1389715,2026-01-10T15:30:00+00:00,FT,Hapoel Haifa,2253,Hapoel Tel Aviv,4501,3,3,True
-1389712,2026-01-10T16:30:00+00:00,FT,Ironi Tiberias,6181,Hapoel Petah Tikva,4488,1,4,True
-1389710,2026-01-10T17:30:00+00:00,FT,Beitar Jerusalem,657,Maccabi Bnei Raina,6186,1,0,True
-1389709,2026-01-10T18:00:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Haifa,4195,0,0,True
-1389713,2026-01-11T17:30:00+00:00,FT,Ashdod,4507,Ironi Kiryat Shmona,4510,2,5,True
-1389718,2026-01-17T13:00:00+00:00,FT,Hapoel Petah Tikva,4488,Beitar Jerusalem,657,1,3,True
-1389719,2026-01-17T15:30:00+00:00,FT,Hapoel Katamon,4486,Ironi Tiberias,6181,2,0,True
-1389716,2026-01-17T16:30:00+00:00,FT,Maccabi Bnei Raina,6186,Ashdod,4507,0,0,True
-1389717,2026-01-17T17:30:00+00:00,FT,Bnei Sakhnin,4481,Maccabi Netanya,4505,2,1,True
-1389720,2026-01-18T18:30:00+00:00,FT,Maccabi Haifa,4195,Maccabi Tel Aviv,604,4,1,True
-1389721,2026-01-19T17:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Haifa,2253,3,1,True
-1389722,2026-01-19T18:00:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Beer Sheva,563,2,1,True
-1389723,2026-01-23T12:00:00+00:00,FT,Hapoel Katamon,4486,Hapoel Petah Tikva,4488,2,1,True
-1389728,2026-01-24T13:00:00+00:00,FT,Maccabi Netanya,4505,Maccabi Haifa,4195,4,1,True
-1389729,2026-01-24T16:30:00+00:00,FT,Hapoel Haifa,2253,Maccabi Bnei Raina,6186,0,1,True
-1389727,2026-01-24T16:30:00+00:00,FT,Ironi Tiberias,6181,Bnei Sakhnin,4481,1,1,True
-1389725,2026-01-24T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Ironi Kiryat Shmona,4510,3,2,True
-1389726,2026-01-25T18:15:00+00:00,FT,Ashdod,4507,Beitar Jerusalem,657,1,1,True
-1389724,2026-01-26T18:30:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Tel Aviv,4501,1,2,True
-1389733,2026-01-31T13:00:00+00:00,FT,Hapoel Tel Aviv,4501,Maccabi Netanya,4505,2,0,True
-1389731,2026-01-31T15:30:00+00:00,FT,Maccabi Bnei Raina,6186,Hapoel Beer Sheva,563,0,2,True
-1389734,2026-01-31T16:30:00+00:00,FT,Bnei Sakhnin,4481,Hapoel Katamon,4486,0,0,True
-1389736,2026-01-31T17:15:00+00:00,FT,Beitar Jerusalem,657,Hapoel Haifa,2253,2,2,True
-1389732,2026-01-31T17:30:00+00:00,FT,Maccabi Haifa,4195,Ironi Tiberias,6181,3,2,True
-1389735,2026-02-01T18:00:00+00:00,FT,Hapoel Petah Tikva,4488,Ashdod,4507,2,0,True
-1389730,2026-02-02T18:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Maccabi Tel Aviv,604,1,4,True
-1389740,2026-02-07T13:00:00+00:00,FT,Ironi Tiberias,6181,Hapoel Tel Aviv,4501,0,2,True
-1389742,2026-02-07T15:30:00+00:00,FT,Hapoel Katamon,4486,Maccabi Haifa,4195,1,1,True
-1389738,2026-02-07T16:30:00+00:00,FT,Hapoel Haifa,2253,Ashdod,4507,0,2,True
-1389741,2026-02-07T16:30:00+00:00,FT,Bnei Sakhnin,4481,Hapoel Petah Tikva,4488,1,2,True
-1389743,2026-02-07T17:30:00+00:00,FT,Maccabi Netanya,4505,Ironi Kiryat Shmona,4510,1,1,True
-1389739,2026-02-09T18:00:00+00:00,FT,Maccabi Tel Aviv,604,Maccabi Bnei Raina,6186,4,0,True
-1389737,2026-02-09T18:30:00+00:00,FT,Hapoel Beer Sheva,563,Beitar Jerusalem,657,2,1,True
-1389748,2026-02-13T12:00:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Katamon,4486,3,1,True
-1389744,2026-02-14T13:00:00+00:00,FT,Hapoel Petah Tikva,4488,Hapoel Haifa,2253,0,1,True
-1389746,2026-02-14T15:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Ironi Tiberias,6181,2,2,True
-1389747,2026-02-14T16:30:00+00:00,FT,Maccabi Bnei Raina,6186,Maccabi Netanya,4505,0,4,True
-1389750,2026-02-14T17:30:00+00:00,FT,Ashdod,4507,Hapoel Beer Sheva,563,1,2,True
-1389749,2026-02-15T18:15:00+00:00,FT,Maccabi Haifa,4195,Bnei Sakhnin,4481,4,0,True
-1389745,2026-02-16T18:30:00+00:00,FT,Beitar Jerusalem,657,Maccabi Tel Aviv,604,0,0,True
-1389754,2026-02-21T13:00:00+00:00,FT,Maccabi Tel Aviv,604,Ashdod,4507,3,2,True
-1389753,2026-02-21T15:30:00+00:00,FT,Maccabi Haifa,4195,Hapoel Petah Tikva,4488,0,1,True
-1389752,2026-02-21T16:30:00+00:00,FT,Hapoel Katamon,4486,Ironi Kiryat Shmona,4510,0,1,True
-1389755,2026-02-21T17:30:00+00:00,FT,Bnei Sakhnin,4481,Hapoel Tel Aviv,4501,0,0,True
-1389751,2026-02-21T17:30:00+00:00,FT,Ironi Tiberias,6181,Maccabi Bnei Raina,6186,2,1,True
-1389756,2026-02-22T18:15:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Haifa,2253,1,1,True
-1389757,2026-02-23T18:30:00+00:00,FT,Maccabi Netanya,4505,Beitar Jerusalem,657,2,8,True
-1389759,2026-04-04T16:45:00+00:00,FT,Maccabi Bnei Raina,6186,Hapoel Katamon,4486,0,0,True
-1389763,2026-04-04T17:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Bnei Sakhnin,4481,2,0,True
-1389762,2026-04-04T17:15:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Petah Tikva,4488,1,1,True
-1389760,2026-04-04T17:30:00+00:00,FT,Beitar Jerusalem,657,Ironi Tiberias,6181,3,2,True
-1389758,2026-04-05T16:00:00+00:00,FT,Ashdod,4507,Maccabi Netanya,4505,2,3,True
-1389761,2026-04-05T17:15:00+00:00,FT,Hapoel Haifa,2253,Maccabi Tel Aviv,604,1,4,True
-1389764,2026-04-06T17:30:00+00:00,FT,Hapoel Tel Aviv,4501,Maccabi Haifa,4195,2,0,True
-1389770,2026-04-11T17:00:00+00:00,FT,Bnei Sakhnin,4481,Maccabi Bnei Raina,6186,2,0,True
-1389766,2026-04-11T17:00:00+00:00,FT,Hapoel Petah Tikva,4488,Hapoel Tel Aviv,4501,0,0,True
-1389768,2026-04-11T17:00:00+00:00,FT,Maccabi Netanya,4505,Hapoel Haifa,2253,0,0,True
-1389765,2026-04-11T17:00:00+00:00,FT,Ironi Tiberias,6181,Ashdod,4507,0,0,True
-1389767,2026-04-12T17:00:00+00:00,FT,Maccabi Haifa,4195,Ironi Kiryat Shmona,4510,4,1,True
-1389769,2026-04-12T17:00:00+00:00,FT,Hapoel Katamon,4486,Beitar Jerusalem,657,0,2,True
-1477328,2026-04-12T17:30:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Beer Sheva,563,1,3,True
-1540674,2026-04-18T16:50:00+00:00,FT,Maccabi Netanya,4505,Ashdod,4507,2,1,True
-1540675,2026-04-18T17:00:00+00:00,FT,Hapoel Haifa,2253,Maccabi Bnei Raina,6186,2,3,True
-1540676,2026-04-18T17:15:00+00:00,FT,Bnei Sakhnin,4481,Ironi Tiberias,6181,0,0,True
-1540702,2026-04-18T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Petah Tikva,4488,3,0,True
-1540677,2026-04-19T16:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Katamon,4486,3,1,True
-1540703,2026-04-19T17:00:00+00:00,FT,Beitar Jerusalem,657,Maccabi Haifa,4195,3,0,True
-1540704,2026-04-19T17:30:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Tel Aviv,4501,1,0,True
-1540705,2026-04-25T17:00:00+00:00,FT,Hapoel Petah Tikva,4488,Hapoel Tel Aviv,4501,0,1,True
-1540681,2026-04-25T17:00:00+00:00,FT,Ashdod,4507,Maccabi Bnei Raina,6186,1,2,True
-1540707,2026-04-25T17:15:00+00:00,FT,Maccabi Haifa,4195,Maccabi Tel Aviv,604,1,3,True
-1540680,2026-04-25T17:15:00+00:00,FT,Maccabi Netanya,4505,Bnei Sakhnin,4481,3,0,True
-1540706,2026-04-25T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Beitar Jerusalem,657,2,2,True
-1540678,2026-04-26T17:00:00+00:00,FT,Hapoel Katamon,4486,Hapoel Haifa,2253,0,0,True
-1540679,2026-04-26T17:00:00+00:00,FT,Ironi Tiberias,6181,Ironi Kiryat Shmona,4510,2,0,True
-1540685,2026-04-28T16:00:00+00:00,FT,Bnei Sakhnin,4481,Ashdod,4507,1,1,True
-1540710,2026-04-28T16:30:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Beer Sheva,563,1,0,True
-1540708,2026-04-28T17:00:00+00:00,FT,Beitar Jerusalem,657,Hapoel Petah Tikva,4488,3,1,True
-1540682,2026-04-29T16:00:00+00:00,FT,Hapoel Haifa,2253,Ironi Tiberias,6181,1,1,True
-1540683,2026-04-29T16:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Maccabi Netanya,4505,1,0,True
-1540684,2026-04-29T16:00:00+00:00,FT,Maccabi Bnei Raina,6186,Hapoel Katamon,4486,0,1,True
-1540709,2026-04-29T16:30:00+00:00,FT,Hapoel Tel Aviv,4501,Maccabi Haifa,4195,4,0,True
-1540712,2026-05-02T17:15:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Haifa,4195,1,2,True
-1540713,2026-05-02T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Tel Aviv,4501,2,0,True
-1540711,2026-05-02T17:30:00+00:00,FT,Beitar Jerusalem,657,Maccabi Tel Aviv,604,4,2,True
-1540694,2026-05-03T16:30:00+00:00,FT,Ironi Kiryat Shmona,4510,Hapoel Haifa,2253,2,0,True
-1540697,2026-05-03T17:00:00+00:00,FT,Ashdod,4507,Ironi Tiberias,6181,0,3,True
-1540696,2026-05-04T17:00:00+00:00,FT,Bnei Sakhnin,4481,Maccabi Bnei Raina,6186,0,2,True
-1540695,2026-05-04T17:00:00+00:00,FT,Maccabi Netanya,4505,Hapoel Katamon,4486,1,0,True
-1540716,2026-05-05T16:30:00+00:00,FT,Maccabi Tel Aviv,604,Hapoel Petah Tikva,4488,4,0,True
-1540714,2026-05-06T16:30:00+00:00,FT,Hapoel Tel Aviv,4501,Beitar Jerusalem,657,0,1,True
-1540715,2026-05-06T17:00:00+00:00,FT,Maccabi Haifa,4195,Hapoel Beer Sheva,563,0,1,True
-1540701,2026-05-09T17:15:00+00:00,FT,Maccabi Bnei Raina,6186,Ironi Kiryat Shmona,4510,1,1,True
-1540719,2026-05-09T17:30:00+00:00,FT,Maccabi Haifa,4195,Beitar Jerusalem,657,3,0,True
-1540717,2026-05-09T17:30:00+00:00,FT,Hapoel Petah Tikva,4488,Hapoel Beer Sheva,563,2,4,True
-1540718,2026-05-09T17:30:00+00:00,FT,Hapoel Tel Aviv,4501,Maccabi Tel Aviv,604,1,1,True
-1540698,2026-05-10T17:00:00+00:00,FT,Hapoel Haifa,2253,Ashdod,4507,1,0,True
-1540699,2026-05-10T17:00:00+00:00,FT,Hapoel Katamon,4486,Bnei Sakhnin,4481,1,0,True
-1540700,2026-05-10T17:00:00+00:00,FT,Ironi Tiberias,6181,Maccabi Netanya,4505,4,3,True
-1540721,2026-05-12T17:00:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Petah Tikva,4488,1,0,True
-1540720,2026-05-12T17:30:00+00:00,FT,Beitar Jerusalem,657,Hapoel Beer Sheva,563,1,1,True
-1540688,2026-05-13T17:00:00+00:00,FT,Bnei Sakhnin,4481,Ironi Kiryat Shmona,4510,0,4,True
-1540687,2026-05-13T17:00:00+00:00,FT,Maccabi Netanya,4505,Hapoel Haifa,2253,1,1,True
-1540689,2026-05-13T17:00:00+00:00,FT,Ashdod,4507,Hapoel Katamon,4486,0,1,True
-1540686,2026-05-13T17:00:00+00:00,FT,Ironi Tiberias,6181,Maccabi Bnei Raina,6186,1,0,True
-1540722,2026-05-13T17:30:00+00:00,FT,Maccabi Tel Aviv,604,Maccabi Haifa,4195,3,0,True
-1540726,2026-05-15T13:00:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Beer Sheva,563,0,2,True
-1540727,2026-05-16T15:00:00+00:00,FT,Maccabi Haifa,4195,Hapoel Petah Tikva,4488,1,1,True
-1540728,2026-05-16T17:30:00+00:00,FT,Maccabi Tel Aviv,604,Beitar Jerusalem,657,1,2,True
-1540690,2026-05-18T17:00:00+00:00,FT,Hapoel Haifa,2253,Bnei Sakhnin,4481,3,0,True
-1540691,2026-05-18T17:00:00+00:00,FT,Hapoel Katamon,4486,Ironi Tiberias,6181,0,2,True
-1540692,2026-05-18T17:00:00+00:00,FT,Ironi Kiryat Shmona,4510,Ashdod,4507,2,3,True
-1540693,2026-05-18T17:00:00+00:00,FT,Maccabi Bnei Raina,6186,Maccabi Netanya,4505,1,4,True
-1540724,2026-05-19T17:30:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Tel Aviv,604,4,2,True
-1540725,2026-05-19T17:30:00+00:00,FT,Maccabi Haifa,4195,Hapoel Tel Aviv,4501,4,1,True
-1540723,2026-05-19T17:30:00+00:00,FT,Hapoel Petah Tikva,4488,Beitar Jerusalem,657,0,0,True
-1540730,2026-05-23T15:00:00+00:00,FT,Hapoel Petah Tikva,4488,Maccabi Tel Aviv,604,2,2,True
-1540731,2026-05-23T18:00:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Haifa,4195,2,5,True
-1540729,2026-05-23T18:00:00+00:00,FT,Beitar Jerusalem,657,Hapoel Tel Aviv,4501,1,1,True
-1389634,2025-10-19T17:30:00+00:00,AWD,Hapoel Tel Aviv,4501,Maccabi Tel Aviv,604,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1389592,2025-08-23T17:15:00+00:00,FT,Regular Season - 1,Hapoel Katamon,4486,Ashdod,4507,1,2,True
+1389593,2025-08-23T17:15:00+00:00,FT,Regular Season - 1,Hapoel Tel Aviv,4501,Ironi Kiryat Shmona,4510,2,1,True
+1389594,2025-08-23T17:30:00+00:00,FT,Regular Season - 1,Maccabi Haifa,4195,Maccabi Bnei Raina,6186,4,0,True
+1389591,2025-08-23T17:30:00+00:00,FT,Regular Season - 1,Ironi Tiberias,6181,Hapoel Haifa,2253,1,0,True
+1389590,2025-08-24T17:15:00+00:00,FT,Regular Season - 1,Maccabi Netanya,4505,Hapoel Beer Sheva,563,2,4,True
+1389596,2025-08-25T17:00:00+00:00,FT,Regular Season - 1,Bnei Sakhnin,4481,Beitar Jerusalem,657,1,2,True
+1389600,2025-08-30T17:15:00+00:00,FT,Regular Season - 2,Hapoel Haifa,2253,Hapoel Katamon,4486,2,1,True
+1389597,2025-08-30T17:15:00+00:00,FT,Regular Season - 2,Ironi Kiryat Shmona,4510,Hapoel Petah Tikva,4488,0,0,True
+1389599,2025-08-30T17:15:00+00:00,FT,Regular Season - 2,Maccabi Bnei Raina,6186,Hapoel Tel Aviv,4501,2,2,True
+1389603,2025-08-30T17:30:00+00:00,FT,Regular Season - 2,Hapoel Beer Sheva,563,Ironi Tiberias,6181,7,0,True
+1389598,2025-08-30T17:30:00+00:00,FT,Regular Season - 2,Ashdod,4507,Bnei Sakhnin,4481,1,2,True
+1389602,2025-08-31T17:00:00+00:00,FT,Regular Season - 2,Maccabi Tel Aviv,604,Maccabi Netanya,4505,4,0,True
+1389601,2025-08-31T17:30:00+00:00,FT,Regular Season - 2,Beitar Jerusalem,657,Maccabi Haifa,4195,0,0,True
+1389606,2025-09-13T16:45:00+00:00,FT,Regular Season - 3,Bnei Sakhnin,4481,Hapoel Haifa,2253,0,2,True
+1389607,2025-09-13T16:45:00+00:00,FT,Regular Season - 3,Hapoel Petah Tikva,4488,Maccabi Netanya,4505,3,1,True
+1389609,2025-09-13T17:00:00+00:00,FT,Regular Season - 3,Ironi Kiryat Shmona,4510,Maccabi Bnei Raina,6186,3,1,True
+1389610,2025-09-13T17:00:00+00:00,FT,Regular Season - 3,Ironi Tiberias,6181,Maccabi Tel Aviv,604,1,4,True
+1389604,2025-09-14T17:15:00+00:00,FT,Regular Season - 3,Hapoel Katamon,4486,Hapoel Beer Sheva,563,1,5,True
+1389608,2025-09-15T17:00:00+00:00,FT,Regular Season - 3,Maccabi Haifa,4195,Ashdod,4507,5,1,True
+1389605,2025-09-15T17:30:00+00:00,FT,Regular Season - 3,Hapoel Tel Aviv,4501,Beitar Jerusalem,657,3,2,True
+1389595,2025-09-16T16:30:00+00:00,FT,Regular Season - 1,Hapoel Petah Tikva,4488,Maccabi Tel Aviv,604,0,4,True
+1389614,2025-09-20T16:45:00+00:00,FT,Regular Season - 4,Ashdod,4507,Hapoel Tel Aviv,4501,2,6,True
+1389613,2025-09-20T16:45:00+00:00,FT,Regular Season - 4,Maccabi Bnei Raina,6186,Hapoel Petah Tikva,4488,1,6,True
+1389616,2025-09-20T17:00:00+00:00,FT,Regular Season - 4,Maccabi Tel Aviv,604,Hapoel Katamon,4486,2,1,True
+1389617,2025-09-20T17:00:00+00:00,FT,Regular Season - 4,Beitar Jerusalem,657,Ironi Kiryat Shmona,4510,2,1,True
+1389615,2025-09-20T17:00:00+00:00,FT,Regular Season - 4,Maccabi Netanya,4505,Ironi Tiberias,6181,5,2,True
+1389612,2025-09-21T17:00:00+00:00,FT,Regular Season - 4,Hapoel Beer Sheva,563,Bnei Sakhnin,4481,3,1,True
+1389611,2025-09-21T17:30:00+00:00,FT,Regular Season - 4,Hapoel Haifa,2253,Maccabi Haifa,4195,1,1,True
+1389622,2025-09-27T16:30:00+00:00,FT,Regular Season - 5,Hapoel Katamon,4486,Maccabi Netanya,4505,1,2,True
+1389621,2025-09-27T16:45:00+00:00,FT,Regular Season - 5,Hapoel Petah Tikva,4488,Ironi Tiberias,6181,0,2,True
+1389618,2025-09-27T16:45:00+00:00,FT,Regular Season - 5,Hapoel Tel Aviv,4501,Hapoel Haifa,2253,1,0,True
+1389623,2025-09-27T16:45:00+00:00,FT,Regular Season - 5,Ironi Kiryat Shmona,4510,Ashdod,4507,1,2,True
+1389624,2025-09-27T17:00:00+00:00,FT,Regular Season - 5,Maccabi Bnei Raina,6186,Beitar Jerusalem,657,1,3,True
+1389619,2025-09-28T17:15:00+00:00,FT,Regular Season - 5,Bnei Sakhnin,4481,Maccabi Tel Aviv,604,0,0,True
+1389620,2025-09-29T17:30:00+00:00,FT,Regular Season - 5,Maccabi Haifa,4195,Hapoel Beer Sheva,563,0,1,True
+1389627,2025-10-04T16:15:00+00:00,FT,Regular Season - 6,Hapoel Haifa,2253,Ironi Kiryat Shmona,4510,0,0,True
+1389629,2025-10-04T16:15:00+00:00,FT,Regular Season - 6,Ironi Tiberias,6181,Hapoel Katamon,4486,1,0,True
+1389626,2025-10-04T16:30:00+00:00,FT,Regular Season - 6,Ashdod,4507,Maccabi Bnei Raina,6186,2,0,True
+1389630,2025-10-04T17:00:00+00:00,FT,Regular Season - 6,Hapoel Beer Sheva,563,Hapoel Tel Aviv,4501,2,1,True
+1389625,2025-10-04T17:00:00+00:00,FT,Regular Season - 6,Beitar Jerusalem,657,Hapoel Petah Tikva,4488,5,2,True
+1389628,2025-10-05T17:00:00+00:00,FT,Regular Season - 6,Maccabi Netanya,4505,Bnei Sakhnin,4481,1,2,True
+1389631,2025-10-05T17:30:00+00:00,FT,Regular Season - 6,Maccabi Tel Aviv,604,Maccabi Haifa,4195,1,1,True
+1389632,2025-10-18T16:15:00+00:00,FT,Regular Season - 7,Bnei Sakhnin,4481,Ironi Tiberias,6181,2,0,True
+1389635,2025-10-18T16:15:00+00:00,FT,Regular Season - 7,Hapoel Petah Tikva,4488,Hapoel Katamon,4486,0,0,True
+1389637,2025-10-18T16:30:00+00:00,FT,Regular Season - 7,Ironi Kiryat Shmona,4510,Hapoel Beer Sheva,563,1,0,True
+1389633,2025-10-18T16:30:00+00:00,FT,Regular Season - 7,Maccabi Bnei Raina,6186,Hapoel Haifa,2253,1,2,True
+1389638,2025-10-18T17:00:00+00:00,FT,Regular Season - 7,Maccabi Haifa,4195,Maccabi Netanya,4505,2,3,True
+1389636,2025-10-20T17:00:00+00:00,FT,Regular Season - 7,Beitar Jerusalem,657,Ashdod,4507,0,0,True
+1389640,2025-10-25T16:15:00+00:00,FT,Regular Season - 8,Hapoel Haifa,2253,Beitar Jerusalem,657,2,3,True
+1389641,2025-10-25T16:15:00+00:00,FT,Regular Season - 8,Ashdod,4507,Hapoel Petah Tikva,4488,1,1,True
+1389642,2025-10-25T16:30:00+00:00,FT,Regular Season - 8,Hapoel Katamon,4486,Bnei Sakhnin,4481,0,0,True
+1389645,2025-10-25T16:30:00+00:00,FT,Regular Season - 8,Ironi Tiberias,6181,Maccabi Haifa,4195,1,1,True
+1389643,2025-10-25T17:00:00+00:00,FT,Regular Season - 8,Maccabi Netanya,4505,Hapoel Tel Aviv,4501,2,0,True
+1389644,2025-10-26T18:15:00+00:00,FT,Regular Season - 8,Hapoel Beer Sheva,563,Maccabi Bnei Raina,6186,1,0,True
+1389639,2025-10-27T18:00:00+00:00,FT,Regular Season - 8,Maccabi Tel Aviv,604,Ironi Kiryat Shmona,4510,3,1,True
+1389652,2025-11-01T13:00:00+00:00,FT,Regular Season - 9,Maccabi Haifa,4195,Hapoel Katamon,4486,2,2,True
+1389651,2025-11-01T15:30:00+00:00,FT,Regular Season - 9,Hapoel Tel Aviv,4501,Ironi Tiberias,6181,2,0,True
+1389646,2025-11-01T16:30:00+00:00,FT,Regular Season - 9,Hapoel Petah Tikva,4488,Bnei Sakhnin,4481,2,2,True
+1389647,2025-11-01T16:30:00+00:00,FT,Regular Season - 9,Ashdod,4507,Hapoel Haifa,2253,4,1,True
+1389649,2025-11-01T17:30:00+00:00,FT,Regular Season - 9,Maccabi Bnei Raina,6186,Maccabi Tel Aviv,604,0,2,True
+1389650,2025-11-02T18:15:00+00:00,FT,Regular Season - 9,Ironi Kiryat Shmona,4510,Maccabi Netanya,4505,1,2,True
+1389648,2025-11-03T18:30:00+00:00,FT,Regular Season - 9,Beitar Jerusalem,657,Hapoel Beer Sheva,563,0,1,True
+1389655,2025-11-08T13:00:00+00:00,FT,Regular Season - 10,Hapoel Katamon,4486,Hapoel Tel Aviv,4501,0,0,True
+1389659,2025-11-08T15:30:00+00:00,FT,Regular Season - 10,Bnei Sakhnin,4481,Maccabi Haifa,4195,3,3,True
+1389658,2025-11-08T16:30:00+00:00,FT,Regular Season - 10,Maccabi Netanya,4505,Maccabi Bnei Raina,6186,2,1,True
+1389653,2025-11-08T16:30:00+00:00,FT,Regular Season - 10,Ironi Tiberias,6181,Ironi Kiryat Shmona,4510,2,3,True
+1389654,2025-11-08T17:30:00+00:00,FT,Regular Season - 10,Hapoel Beer Sheva,563,Ashdod,4507,2,2,True
+1389656,2025-11-09T18:00:00+00:00,FT,Regular Season - 10,Hapoel Haifa,2253,Hapoel Petah Tikva,4488,2,2,True
+1389657,2025-11-09T18:30:00+00:00,FT,Regular Season - 10,Maccabi Tel Aviv,604,Beitar Jerusalem,657,2,6,True
+1389665,2025-11-29T13:00:00+00:00,FT,Regular Season - 11,Hapoel Haifa,2253,Hapoel Beer Sheva,563,3,4,True
+1389662,2025-11-29T15:30:00+00:00,FT,Regular Season - 11,Hapoel Tel Aviv,4501,Bnei Sakhnin,4481,2,0,True
+1389666,2025-11-29T16:30:00+00:00,FT,Regular Season - 11,Ironi Kiryat Shmona,4510,Hapoel Katamon,4486,1,2,True
+1389664,2025-11-29T16:30:00+00:00,FT,Regular Season - 11,Maccabi Bnei Raina,6186,Ironi Tiberias,6181,1,3,True
+1389661,2025-11-29T17:30:00+00:00,FT,Regular Season - 11,Hapoel Petah Tikva,4488,Maccabi Haifa,4195,0,0,True
+1389663,2025-11-30T18:00:00+00:00,FT,Regular Season - 11,Ashdod,4507,Maccabi Tel Aviv,604,2,2,True
+1389660,2025-11-30T18:30:00+00:00,FT,Regular Season - 11,Beitar Jerusalem,657,Maccabi Netanya,4505,4,2,True
+1389673,2025-12-02T17:30:00+00:00,FT,Regular Season - 12,Bnei Sakhnin,4481,Ironi Kiryat Shmona,4510,1,1,True
+1389671,2025-12-02T17:45:00+00:00,FT,Regular Season - 12,Hapoel Katamon,4486,Maccabi Bnei Raina,6186,1,2,True
+1389672,2025-12-02T18:00:00+00:00,FT,Regular Season - 12,Hapoel Petah Tikva,4488,Hapoel Beer Sheva,563,1,1,True
+1389667,2025-12-02T18:30:00+00:00,FT,Regular Season - 12,Maccabi Haifa,4195,Hapoel Tel Aviv,4501,2,1,True
+1389669,2025-12-03T17:30:00+00:00,FT,Regular Season - 12,Maccabi Netanya,4505,Ashdod,4507,2,2,True
+1389670,2025-12-03T17:45:00+00:00,FT,Regular Season - 12,Ironi Tiberias,6181,Beitar Jerusalem,657,0,5,True
+1389668,2025-12-03T18:00:00+00:00,FT,Regular Season - 12,Maccabi Tel Aviv,604,Hapoel Haifa,2253,2,1,True
+1389675,2025-12-06T13:00:00+00:00,FT,Regular Season - 13,Hapoel Tel Aviv,4501,Hapoel Petah Tikva,4488,4,0,True
+1389677,2025-12-06T17:30:00+00:00,FT,Regular Season - 13,Ironi Kiryat Shmona,4510,Maccabi Haifa,4195,0,1,True
+1389679,2025-12-07T18:00:00+00:00,FT,Regular Season - 13,Hapoel Haifa,2253,Maccabi Netanya,4505,3,4,True
+1389678,2025-12-07T18:30:00+00:00,FT,Regular Season - 13,Hapoel Beer Sheva,563,Maccabi Tel Aviv,604,1,0,True
+1389674,2025-12-08T17:45:00+00:00,FT,Regular Season - 13,Ashdod,4507,Ironi Tiberias,6181,1,1,True
+1389680,2025-12-08T17:45:00+00:00,FT,Regular Season - 13,Maccabi Bnei Raina,6186,Bnei Sakhnin,4481,0,1,True
+1389676,2025-12-08T18:00:00+00:00,FT,Regular Season - 13,Beitar Jerusalem,657,Hapoel Katamon,4486,1,1,True
+1389687,2025-12-13T13:00:00+00:00,FT,Regular Season - 14,Ashdod,4507,Hapoel Katamon,4486,0,2,True
+1389683,2025-12-13T15:00:00+00:00,FT,Regular Season - 14,Ironi Kiryat Shmona,4510,Hapoel Tel Aviv,4501,2,2,True
+1389682,2025-12-13T16:00:00+00:00,FT,Regular Season - 14,Hapoel Haifa,2253,Ironi Tiberias,6181,2,0,True
+1389681,2025-12-13T17:30:00+00:00,FT,Regular Season - 14,Hapoel Beer Sheva,563,Maccabi Netanya,4505,2,0,True
+1389684,2025-12-14T18:15:00+00:00,FT,Regular Season - 14,Maccabi Bnei Raina,6186,Maccabi Haifa,4195,0,4,True
+1389685,2025-12-15T18:00:00+00:00,FT,Regular Season - 14,Maccabi Tel Aviv,604,Hapoel Petah Tikva,4488,2,2,True
+1389686,2025-12-15T18:30:00+00:00,FT,Regular Season - 14,Beitar Jerusalem,657,Bnei Sakhnin,4481,2,1,True
+1389692,2025-12-20T13:00:00+00:00,FT,Regular Season - 15,Hapoel Tel Aviv,4501,Maccabi Bnei Raina,6186,3,1,True
+1389691,2025-12-20T15:30:00+00:00,FT,Regular Season - 15,Hapoel Katamon,4486,Hapoel Haifa,2253,0,1,True
+1389693,2025-12-20T16:30:00+00:00,FT,Regular Season - 15,Bnei Sakhnin,4481,Ashdod,4507,3,0,True
+1389694,2025-12-20T16:30:00+00:00,FT,Regular Season - 15,Hapoel Petah Tikva,4488,Ironi Kiryat Shmona,4510,4,1,True
+1389688,2025-12-20T17:30:00+00:00,FT,Regular Season - 15,Ironi Tiberias,6181,Hapoel Beer Sheva,563,3,0,True
+1389690,2025-12-21T18:15:00+00:00,FT,Regular Season - 15,Maccabi Netanya,4505,Maccabi Tel Aviv,604,1,1,True
+1389689,2025-12-22T18:30:00+00:00,FT,Regular Season - 15,Maccabi Haifa,4195,Beitar Jerusalem,657,1,2,True
+1389701,2025-12-30T17:00:00+00:00,FT,Regular Season - 16,Maccabi Bnei Raina,6186,Ironi Kiryat Shmona,4510,3,1,True
+1389699,2025-12-30T17:30:00+00:00,FT,Regular Season - 16,Hapoel Haifa,2253,Bnei Sakhnin,4481,0,2,True
+1389696,2025-12-30T18:00:00+00:00,FT,Regular Season - 16,Maccabi Tel Aviv,604,Ironi Tiberias,6181,1,1,True
+1389697,2025-12-31T17:30:00+00:00,FT,Regular Season - 16,Maccabi Netanya,4505,Hapoel Petah Tikva,4488,0,2,True
+1389695,2025-12-31T17:45:00+00:00,FT,Regular Season - 16,Ashdod,4507,Maccabi Haifa,4195,0,4,True
+1389700,2025-12-31T18:00:00+00:00,FT,Regular Season - 16,Hapoel Beer Sheva,563,Hapoel Katamon,4486,4,1,True
+1389698,2026-01-01T18:30:00+00:00,FT,Regular Season - 16,Beitar Jerusalem,657,Hapoel Tel Aviv,4501,1,0,True
+1389707,2026-01-03T13:00:00+00:00,FT,Regular Season - 17,Hapoel Katamon,4486,Maccabi Tel Aviv,604,1,3,True
+1389706,2026-01-03T15:30:00+00:00,FT,Regular Season - 17,Bnei Sakhnin,4481,Hapoel Beer Sheva,563,0,5,True
+1389702,2026-01-03T16:30:00+00:00,FT,Regular Season - 17,Hapoel Petah Tikva,4488,Maccabi Bnei Raina,6186,4,1,True
+1389703,2026-01-03T16:30:00+00:00,FT,Regular Season - 17,Ironi Tiberias,6181,Maccabi Netanya,4505,4,0,True
+1389705,2026-01-04T18:15:00+00:00,FT,Regular Season - 17,Hapoel Tel Aviv,4501,Ashdod,4507,1,0,True
+1389708,2026-01-04T18:30:00+00:00,FT,Regular Season - 17,Ironi Kiryat Shmona,4510,Beitar Jerusalem,657,1,2,True
+1389704,2026-01-05T18:30:00+00:00,FT,Regular Season - 17,Maccabi Haifa,4195,Hapoel Haifa,2253,2,0,True
+1389714,2026-01-09T12:00:00+00:00,FT,Regular Season - 18,Maccabi Netanya,4505,Hapoel Katamon,4486,1,1,True
+1389711,2026-01-10T13:00:00+00:00,FT,Regular Season - 18,Maccabi Tel Aviv,604,Bnei Sakhnin,4481,1,0,True
+1389715,2026-01-10T15:30:00+00:00,FT,Regular Season - 18,Hapoel Haifa,2253,Hapoel Tel Aviv,4501,3,3,True
+1389712,2026-01-10T16:30:00+00:00,FT,Regular Season - 18,Ironi Tiberias,6181,Hapoel Petah Tikva,4488,1,4,True
+1389710,2026-01-10T17:30:00+00:00,FT,Regular Season - 18,Beitar Jerusalem,657,Maccabi Bnei Raina,6186,1,0,True
+1389709,2026-01-10T18:00:00+00:00,FT,Regular Season - 18,Hapoel Beer Sheva,563,Maccabi Haifa,4195,0,0,True
+1389713,2026-01-11T17:30:00+00:00,FT,Regular Season - 18,Ashdod,4507,Ironi Kiryat Shmona,4510,2,5,True
+1389718,2026-01-17T13:00:00+00:00,FT,Regular Season - 19,Hapoel Petah Tikva,4488,Beitar Jerusalem,657,1,3,True
+1389719,2026-01-17T15:30:00+00:00,FT,Regular Season - 19,Hapoel Katamon,4486,Ironi Tiberias,6181,2,0,True
+1389716,2026-01-17T16:30:00+00:00,FT,Regular Season - 19,Maccabi Bnei Raina,6186,Ashdod,4507,0,0,True
+1389717,2026-01-17T17:30:00+00:00,FT,Regular Season - 19,Bnei Sakhnin,4481,Maccabi Netanya,4505,2,1,True
+1389720,2026-01-18T18:30:00+00:00,FT,Regular Season - 19,Maccabi Haifa,4195,Maccabi Tel Aviv,604,4,1,True
+1389721,2026-01-19T17:30:00+00:00,FT,Regular Season - 19,Ironi Kiryat Shmona,4510,Hapoel Haifa,2253,3,1,True
+1389722,2026-01-19T18:00:00+00:00,FT,Regular Season - 19,Hapoel Tel Aviv,4501,Hapoel Beer Sheva,563,2,1,True
+1389723,2026-01-23T12:00:00+00:00,FT,Regular Season - 20,Hapoel Katamon,4486,Hapoel Petah Tikva,4488,2,1,True
+1389728,2026-01-24T13:00:00+00:00,FT,Regular Season - 20,Maccabi Netanya,4505,Maccabi Haifa,4195,4,1,True
+1389729,2026-01-24T16:30:00+00:00,FT,Regular Season - 20,Hapoel Haifa,2253,Maccabi Bnei Raina,6186,0,1,True
+1389727,2026-01-24T16:30:00+00:00,FT,Regular Season - 20,Ironi Tiberias,6181,Bnei Sakhnin,4481,1,1,True
+1389725,2026-01-24T17:30:00+00:00,FT,Regular Season - 20,Hapoel Beer Sheva,563,Ironi Kiryat Shmona,4510,3,2,True
+1389726,2026-01-25T18:15:00+00:00,FT,Regular Season - 20,Ashdod,4507,Beitar Jerusalem,657,1,1,True
+1389724,2026-01-26T18:30:00+00:00,FT,Regular Season - 20,Maccabi Tel Aviv,604,Hapoel Tel Aviv,4501,1,2,True
+1389733,2026-01-31T13:00:00+00:00,FT,Regular Season - 21,Hapoel Tel Aviv,4501,Maccabi Netanya,4505,2,0,True
+1389731,2026-01-31T15:30:00+00:00,FT,Regular Season - 21,Maccabi Bnei Raina,6186,Hapoel Beer Sheva,563,0,2,True
+1389734,2026-01-31T16:30:00+00:00,FT,Regular Season - 21,Bnei Sakhnin,4481,Hapoel Katamon,4486,0,0,True
+1389736,2026-01-31T17:15:00+00:00,FT,Regular Season - 21,Beitar Jerusalem,657,Hapoel Haifa,2253,2,2,True
+1389732,2026-01-31T17:30:00+00:00,FT,Regular Season - 21,Maccabi Haifa,4195,Ironi Tiberias,6181,3,2,True
+1389735,2026-02-01T18:00:00+00:00,FT,Regular Season - 21,Hapoel Petah Tikva,4488,Ashdod,4507,2,0,True
+1389730,2026-02-02T18:00:00+00:00,FT,Regular Season - 21,Ironi Kiryat Shmona,4510,Maccabi Tel Aviv,604,1,4,True
+1389740,2026-02-07T13:00:00+00:00,FT,Regular Season - 22,Ironi Tiberias,6181,Hapoel Tel Aviv,4501,0,2,True
+1389742,2026-02-07T15:30:00+00:00,FT,Regular Season - 22,Hapoel Katamon,4486,Maccabi Haifa,4195,1,1,True
+1389738,2026-02-07T16:30:00+00:00,FT,Regular Season - 22,Hapoel Haifa,2253,Ashdod,4507,0,2,True
+1389741,2026-02-07T16:30:00+00:00,FT,Regular Season - 22,Bnei Sakhnin,4481,Hapoel Petah Tikva,4488,1,2,True
+1389743,2026-02-07T17:30:00+00:00,FT,Regular Season - 22,Maccabi Netanya,4505,Ironi Kiryat Shmona,4510,1,1,True
+1389739,2026-02-09T18:00:00+00:00,FT,Regular Season - 22,Maccabi Tel Aviv,604,Maccabi Bnei Raina,6186,4,0,True
+1389737,2026-02-09T18:30:00+00:00,FT,Regular Season - 22,Hapoel Beer Sheva,563,Beitar Jerusalem,657,2,1,True
+1389748,2026-02-13T12:00:00+00:00,FT,Regular Season - 23,Hapoel Tel Aviv,4501,Hapoel Katamon,4486,3,1,True
+1389744,2026-02-14T13:00:00+00:00,FT,Regular Season - 23,Hapoel Petah Tikva,4488,Hapoel Haifa,2253,0,1,True
+1389746,2026-02-14T15:30:00+00:00,FT,Regular Season - 23,Ironi Kiryat Shmona,4510,Ironi Tiberias,6181,2,2,True
+1389747,2026-02-14T16:30:00+00:00,FT,Regular Season - 23,Maccabi Bnei Raina,6186,Maccabi Netanya,4505,0,4,True
+1389750,2026-02-14T17:30:00+00:00,FT,Regular Season - 23,Ashdod,4507,Hapoel Beer Sheva,563,1,2,True
+1389749,2026-02-15T18:15:00+00:00,FT,Regular Season - 23,Maccabi Haifa,4195,Bnei Sakhnin,4481,4,0,True
+1389745,2026-02-16T18:30:00+00:00,FT,Regular Season - 23,Beitar Jerusalem,657,Maccabi Tel Aviv,604,0,0,True
+1389754,2026-02-21T13:00:00+00:00,FT,Regular Season - 24,Maccabi Tel Aviv,604,Ashdod,4507,3,2,True
+1389753,2026-02-21T15:30:00+00:00,FT,Regular Season - 24,Maccabi Haifa,4195,Hapoel Petah Tikva,4488,0,1,True
+1389752,2026-02-21T16:30:00+00:00,FT,Regular Season - 24,Hapoel Katamon,4486,Ironi Kiryat Shmona,4510,0,1,True
+1389755,2026-02-21T17:30:00+00:00,FT,Regular Season - 24,Bnei Sakhnin,4481,Hapoel Tel Aviv,4501,0,0,True
+1389751,2026-02-21T17:30:00+00:00,FT,Regular Season - 24,Ironi Tiberias,6181,Maccabi Bnei Raina,6186,2,1,True
+1389756,2026-02-22T18:15:00+00:00,FT,Regular Season - 24,Hapoel Beer Sheva,563,Hapoel Haifa,2253,1,1,True
+1389757,2026-02-23T18:30:00+00:00,FT,Regular Season - 24,Maccabi Netanya,4505,Beitar Jerusalem,657,2,8,True
+1389759,2026-04-04T16:45:00+00:00,FT,Regular Season - 25,Maccabi Bnei Raina,6186,Hapoel Katamon,4486,0,0,True
+1389763,2026-04-04T17:00:00+00:00,FT,Regular Season - 25,Ironi Kiryat Shmona,4510,Bnei Sakhnin,4481,2,0,True
+1389762,2026-04-04T17:15:00+00:00,FT,Regular Season - 25,Hapoel Beer Sheva,563,Hapoel Petah Tikva,4488,1,1,True
+1389760,2026-04-04T17:30:00+00:00,FT,Regular Season - 25,Beitar Jerusalem,657,Ironi Tiberias,6181,3,2,True
+1389758,2026-04-05T16:00:00+00:00,FT,Regular Season - 25,Ashdod,4507,Maccabi Netanya,4505,2,3,True
+1389761,2026-04-05T17:15:00+00:00,FT,Regular Season - 25,Hapoel Haifa,2253,Maccabi Tel Aviv,604,1,4,True
+1389764,2026-04-06T17:30:00+00:00,FT,Regular Season - 25,Hapoel Tel Aviv,4501,Maccabi Haifa,4195,2,0,True
+1389770,2026-04-11T17:00:00+00:00,FT,Regular Season - 26,Bnei Sakhnin,4481,Maccabi Bnei Raina,6186,2,0,True
+1389766,2026-04-11T17:00:00+00:00,FT,Regular Season - 26,Hapoel Petah Tikva,4488,Hapoel Tel Aviv,4501,0,0,True
+1389768,2026-04-11T17:00:00+00:00,FT,Regular Season - 26,Maccabi Netanya,4505,Hapoel Haifa,2253,0,0,True
+1389765,2026-04-11T17:00:00+00:00,FT,Regular Season - 26,Ironi Tiberias,6181,Ashdod,4507,0,0,True
+1389767,2026-04-12T17:00:00+00:00,FT,Regular Season - 26,Maccabi Haifa,4195,Ironi Kiryat Shmona,4510,4,1,True
+1389769,2026-04-12T17:00:00+00:00,FT,Regular Season - 26,Hapoel Katamon,4486,Beitar Jerusalem,657,0,2,True
+1477328,2026-04-12T17:30:00+00:00,FT,Regular Season - 26,Maccabi Tel Aviv,604,Hapoel Beer Sheva,563,1,3,True
+1540674,2026-04-18T16:50:00+00:00,FT,Relegation Group - 27,Maccabi Netanya,4505,Ashdod,4507,2,1,True
+1540675,2026-04-18T17:00:00+00:00,FT,Relegation Group - 27,Hapoel Haifa,2253,Maccabi Bnei Raina,6186,2,3,True
+1540676,2026-04-18T17:15:00+00:00,FT,Relegation Group - 27,Bnei Sakhnin,4481,Ironi Tiberias,6181,0,0,True
+1540702,2026-04-18T17:30:00+00:00,FT,Championship Group - 27,Hapoel Beer Sheva,563,Hapoel Petah Tikva,4488,3,0,True
+1540677,2026-04-19T16:00:00+00:00,FT,Relegation Group - 27,Ironi Kiryat Shmona,4510,Hapoel Katamon,4486,3,1,True
+1540703,2026-04-19T17:00:00+00:00,FT,Championship Group - 27,Beitar Jerusalem,657,Maccabi Haifa,4195,3,0,True
+1540704,2026-04-19T17:30:00+00:00,FT,Championship Group - 27,Maccabi Tel Aviv,604,Hapoel Tel Aviv,4501,1,0,True
+1540705,2026-04-25T17:00:00+00:00,FT,Championship Group - 28,Hapoel Petah Tikva,4488,Hapoel Tel Aviv,4501,0,1,True
+1540681,2026-04-25T17:00:00+00:00,FT,Relegation Group - 28,Ashdod,4507,Maccabi Bnei Raina,6186,1,2,True
+1540707,2026-04-25T17:15:00+00:00,FT,Championship Group - 28,Maccabi Haifa,4195,Maccabi Tel Aviv,604,1,3,True
+1540680,2026-04-25T17:15:00+00:00,FT,Relegation Group - 28,Maccabi Netanya,4505,Bnei Sakhnin,4481,3,0,True
+1540706,2026-04-25T17:30:00+00:00,FT,Championship Group - 28,Hapoel Beer Sheva,563,Beitar Jerusalem,657,2,2,True
+1540678,2026-04-26T17:00:00+00:00,FT,Relegation Group - 28,Hapoel Katamon,4486,Hapoel Haifa,2253,0,0,True
+1540679,2026-04-26T17:00:00+00:00,FT,Relegation Group - 28,Ironi Tiberias,6181,Ironi Kiryat Shmona,4510,2,0,True
+1540685,2026-04-28T16:00:00+00:00,FT,Relegation Group - 29,Bnei Sakhnin,4481,Ashdod,4507,1,1,True
+1540710,2026-04-28T16:30:00+00:00,FT,Championship Group - 29,Maccabi Tel Aviv,604,Hapoel Beer Sheva,563,1,0,True
+1540708,2026-04-28T17:00:00+00:00,FT,Championship Group - 29,Beitar Jerusalem,657,Hapoel Petah Tikva,4488,3,1,True
+1540682,2026-04-29T16:00:00+00:00,FT,Relegation Group - 29,Hapoel Haifa,2253,Ironi Tiberias,6181,1,1,True
+1540683,2026-04-29T16:00:00+00:00,FT,Relegation Group - 29,Ironi Kiryat Shmona,4510,Maccabi Netanya,4505,1,0,True
+1540684,2026-04-29T16:00:00+00:00,FT,Relegation Group - 29,Maccabi Bnei Raina,6186,Hapoel Katamon,4486,0,1,True
+1540709,2026-04-29T16:30:00+00:00,FT,Championship Group - 29,Hapoel Tel Aviv,4501,Maccabi Haifa,4195,4,0,True
+1540712,2026-05-02T17:15:00+00:00,FT,Championship Group - 30,Hapoel Petah Tikva,4488,Maccabi Haifa,4195,1,2,True
+1540713,2026-05-02T17:30:00+00:00,FT,Championship Group - 30,Hapoel Beer Sheva,563,Hapoel Tel Aviv,4501,2,0,True
+1540711,2026-05-02T17:30:00+00:00,FT,Championship Group - 30,Beitar Jerusalem,657,Maccabi Tel Aviv,604,4,2,True
+1540694,2026-05-03T16:30:00+00:00,FT,Relegation Group - 32,Ironi Kiryat Shmona,4510,Hapoel Haifa,2253,2,0,True
+1540697,2026-05-03T17:00:00+00:00,FT,Relegation Group - 32,Ashdod,4507,Ironi Tiberias,6181,0,3,True
+1540696,2026-05-04T17:00:00+00:00,FT,Relegation Group - 32,Bnei Sakhnin,4481,Maccabi Bnei Raina,6186,0,2,True
+1540695,2026-05-04T17:00:00+00:00,FT,Relegation Group - 32,Maccabi Netanya,4505,Hapoel Katamon,4486,1,0,True
+1540716,2026-05-05T16:30:00+00:00,FT,Championship Group - 31,Maccabi Tel Aviv,604,Hapoel Petah Tikva,4488,4,0,True
+1540714,2026-05-06T16:30:00+00:00,FT,Championship Group - 31,Hapoel Tel Aviv,4501,Beitar Jerusalem,657,0,1,True
+1540715,2026-05-06T17:00:00+00:00,FT,Championship Group - 31,Maccabi Haifa,4195,Hapoel Beer Sheva,563,0,1,True
+1540701,2026-05-09T17:15:00+00:00,FT,Relegation Group - 33,Maccabi Bnei Raina,6186,Ironi Kiryat Shmona,4510,1,1,True
+1540719,2026-05-09T17:30:00+00:00,FT,Championship Group - 32,Maccabi Haifa,4195,Beitar Jerusalem,657,3,0,True
+1540717,2026-05-09T17:30:00+00:00,FT,Championship Group - 32,Hapoel Petah Tikva,4488,Hapoel Beer Sheva,563,2,4,True
+1540718,2026-05-09T17:30:00+00:00,FT,Championship Group - 32,Hapoel Tel Aviv,4501,Maccabi Tel Aviv,604,1,1,True
+1540698,2026-05-10T17:00:00+00:00,FT,Relegation Group - 33,Hapoel Haifa,2253,Ashdod,4507,1,0,True
+1540699,2026-05-10T17:00:00+00:00,FT,Relegation Group - 33,Hapoel Katamon,4486,Bnei Sakhnin,4481,1,0,True
+1540700,2026-05-10T17:00:00+00:00,FT,Relegation Group - 33,Ironi Tiberias,6181,Maccabi Netanya,4505,4,3,True
+1540721,2026-05-12T17:00:00+00:00,FT,Championship Group - 33,Hapoel Tel Aviv,4501,Hapoel Petah Tikva,4488,1,0,True
+1540720,2026-05-12T17:30:00+00:00,FT,Championship Group - 33,Beitar Jerusalem,657,Hapoel Beer Sheva,563,1,1,True
+1540688,2026-05-13T17:00:00+00:00,FT,Relegation Group - 30,Bnei Sakhnin,4481,Ironi Kiryat Shmona,4510,0,4,True
+1540687,2026-05-13T17:00:00+00:00,FT,Relegation Group - 30,Maccabi Netanya,4505,Hapoel Haifa,2253,1,1,True
+1540689,2026-05-13T17:00:00+00:00,FT,Relegation Group - 30,Ashdod,4507,Hapoel Katamon,4486,0,1,True
+1540686,2026-05-13T17:00:00+00:00,FT,Relegation Group - 30,Ironi Tiberias,6181,Maccabi Bnei Raina,6186,1,0,True
+1540722,2026-05-13T17:30:00+00:00,FT,Championship Group - 33,Maccabi Tel Aviv,604,Maccabi Haifa,4195,3,0,True
+1540726,2026-05-15T13:00:00+00:00,FT,Championship Group - 35,Hapoel Tel Aviv,4501,Hapoel Beer Sheva,563,0,2,True
+1540727,2026-05-16T15:00:00+00:00,FT,Championship Group - 35,Maccabi Haifa,4195,Hapoel Petah Tikva,4488,1,1,True
+1540728,2026-05-16T17:30:00+00:00,FT,Championship Group - 35,Maccabi Tel Aviv,604,Beitar Jerusalem,657,1,2,True
+1540690,2026-05-18T17:00:00+00:00,FT,Relegation Group - 31,Hapoel Haifa,2253,Bnei Sakhnin,4481,3,0,True
+1540691,2026-05-18T17:00:00+00:00,FT,Relegation Group - 31,Hapoel Katamon,4486,Ironi Tiberias,6181,0,2,True
+1540692,2026-05-18T17:00:00+00:00,FT,Relegation Group - 31,Ironi Kiryat Shmona,4510,Ashdod,4507,2,3,True
+1540693,2026-05-18T17:00:00+00:00,FT,Relegation Group - 31,Maccabi Bnei Raina,6186,Maccabi Netanya,4505,1,4,True
+1540724,2026-05-19T17:30:00+00:00,FT,Championship Group - 34,Hapoel Beer Sheva,563,Maccabi Tel Aviv,604,4,2,True
+1540725,2026-05-19T17:30:00+00:00,FT,Championship Group - 34,Maccabi Haifa,4195,Hapoel Tel Aviv,4501,4,1,True
+1540723,2026-05-19T17:30:00+00:00,FT,Championship Group - 34,Hapoel Petah Tikva,4488,Beitar Jerusalem,657,0,0,True
+1540730,2026-05-23T15:00:00+00:00,FT,Championship Group - 36,Hapoel Petah Tikva,4488,Maccabi Tel Aviv,604,2,2,True
+1540731,2026-05-23T18:00:00+00:00,FT,Championship Group - 36,Hapoel Beer Sheva,563,Maccabi Haifa,4195,2,5,True
+1540729,2026-05-23T18:00:00+00:00,FT,Championship Group - 36,Beitar Jerusalem,657,Hapoel Tel Aviv,4501,1,1,True
+1389634,2025-10-19T17:30:00+00:00,AWD,Regular Season - 7,Hapoel Tel Aviv,4501,Maccabi Tel Aviv,604,,,False

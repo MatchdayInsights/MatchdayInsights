@@ -1,343 +1,343 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1586140,2026-07-23T17:00:00+00:00,FT,Aubstadt,9323,FC Schweinfurt 05,1635,5,1,True
-1586142,2026-07-24T16:00:00+00:00,FT,Eichstätt,4262,Illertissen,9330,0,3,True
-1586141,2026-07-24T16:00:00+00:00,FT,Schwaben Augsburg,12849,Buchbach,9326,1,1,True
-1586144,2026-07-24T16:30:00+00:00,FT,Vilzing,12893,Nürnberg II,9332,3,1,True
-1586143,2026-07-24T16:30:00+00:00,FT,Landsberg,14717,Memmingen,9331,0,1,True
-1586146,2026-07-24T17:00:00+00:00,FT,Bayern München II,4674,Eltersdorf,12762,0,1,True
-1586147,2026-07-24T17:00:00+00:00,FT,Bayreuth,9325,Augsburg II,9324,3,0,True
-1586145,2026-07-24T17:00:00+00:00,FT,Ansbach,14621,Wacker Burghausen,9337,0,4,True
-1586148,2026-07-25T12:00:00+00:00,FT,SpVgg Unterhaching,1314,Greuther Fürth II,9328,1,0,True
-1586149,2026-07-31T16:00:00+00:00,FT,Nürnberg II,9332,SpVgg Unterhaching,1314,1,2,True
-1586154,2026-07-31T16:30:00+00:00,FT,Augsburg II,9324,Landsberg,14717,3,2,True
-1586150,2026-07-31T17:00:00+00:00,FT,Buchbach,9326,Eichstätt,4262,5,1,True
-1586153,2026-07-31T17:00:00+00:00,FT,Illertissen,9330,Schwaben Augsburg,12849,2,0,True
-1586151,2026-07-31T17:00:00+00:00,FT,Wacker Burghausen,9337,Bayern München II,4674,2,0,True
-1586152,2026-07-31T17:00:00+00:00,FT,Eltersdorf,12762,Vilzing,12893,0,1,True
-1586157,2026-08-01T12:00:00+00:00,FT,FC Schweinfurt 05,1635,TSV 1860 München,786,2,2,True
-1586156,2026-08-01T12:00:00+00:00,FT,Memmingen,9331,Ansbach,14621,4,1,True
-1586155,2026-08-01T14:00:00+00:00,FT,Greuther Fürth II,9328,Bayreuth,9325,0,2,True
-1586158,2026-08-07T16:00:00+00:00,NS,Nürnberg II,9332,Buchbach,9326,,,False
-1586159,2026-08-07T16:00:00+00:00,NS,Schwaben Augsburg,12849,Eichstätt,4262,,,False
-1586160,2026-08-07T16:30:00+00:00,NS,Landsberg,14717,Illertissen,9330,,,False
-1586163,2026-08-07T17:00:00+00:00,NS,TSV 1860 München,786,Augsburg II,9324,,,False
-1586161,2026-08-07T17:00:00+00:00,NS,Aubstadt,9323,Wacker Burghausen,9337,,,False
-1586162,2026-08-07T17:00:00+00:00,NS,Bayreuth,9325,Memmingen,9331,,,False
-1586164,2026-08-08T12:00:00+00:00,NS,SpVgg Unterhaching,1314,Eltersdorf,12762,,,False
-1586166,2026-08-08T12:00:00+00:00,NS,Bayern München II,4674,FC Schweinfurt 05,1635,,,False
-1586165,2026-08-08T12:00:00+00:00,NS,Vilzing,12893,Greuther Fürth II,9328,,,False
-1586167,2026-08-14T16:00:00+00:00,NS,Eichstätt,4262,Ansbach,14621,,,False
-1586172,2026-08-14T16:00:00+00:00,NS,Augsburg II,9324,Vilzing,12893,,,False
-1586173,2026-08-14T16:00:00+00:00,NS,Greuther Fürth II,9328,Landsberg,14717,,,False
-1586174,2026-08-14T17:00:00+00:00,NS,FC Schweinfurt 05,1635,Bayreuth,9325,,,False
-1586168,2026-08-14T17:00:00+00:00,NS,Buchbach,9326,Aubstadt,9323,,,False
-1586171,2026-08-14T17:00:00+00:00,NS,Illertissen,9330,SpVgg Unterhaching,1314,,,False
-1586175,2026-08-14T17:00:00+00:00,NS,Memmingen,9331,TSV 1860 München,786,,,False
-1586169,2026-08-14T17:00:00+00:00,NS,Wacker Burghausen,9337,Schwaben Augsburg,12849,,,False
-1586170,2026-08-14T17:00:00+00:00,NS,Eltersdorf,12762,Nürnberg II,9332,,,False
-1586180,2026-08-18T17:00:00+00:00,NS,Aubstadt,9323,TSV 1860 München,786,,,False
-1586177,2026-08-21T16:00:00+00:00,NS,Nürnberg II,9332,Wacker Burghausen,9337,,,False
-1586178,2026-08-21T16:00:00+00:00,NS,Schwaben Augsburg,12849,Augsburg II,9324,,,False
-1586176,2026-08-21T16:00:00+00:00,NS,Landsberg,14717,Eichstätt,4262,,,False
-1586179,2026-08-21T16:30:00+00:00,NS,Ansbach,14621,Buchbach,9326,,,False
-1586181,2026-08-21T17:00:00+00:00,NS,Bayern München II,4674,Memmingen,9331,,,False
-1586182,2026-08-21T17:00:00+00:00,NS,Bayreuth,9325,Illertissen,9330,,,False
-1586183,2026-08-21T17:00:00+00:00,NS,Eltersdorf,12762,Greuther Fürth II,9328,,,False
-1586184,2026-08-22T12:00:00+00:00,NS,Vilzing,12893,FC Schweinfurt 05,1635,,,False
-1586185,2026-08-28T16:00:00+00:00,NS,Ansbach,14621,Schwaben Augsburg,12849,,,False
-1586193,2026-08-28T17:00:00+00:00,NS,FC Schweinfurt 05,1635,Greuther Fürth II,9328,,,False
-1586189,2026-08-29T12:00:00+00:00,NS,Eichstätt,4262,Aubstadt,9323,,,False
-1586186,2026-08-29T12:00:00+00:00,NS,Augsburg II,9324,Eltersdorf,12762,,,False
-1586187,2026-08-29T12:00:00+00:00,NS,Buchbach,9326,Bayreuth,9325,,,False
-1586190,2026-08-29T12:00:00+00:00,NS,Illertissen,9330,Bayern München II,4674,,,False
-1586191,2026-08-29T12:00:00+00:00,NS,Memmingen,9331,SpVgg Unterhaching,1314,,,False
-1586188,2026-08-29T12:00:00+00:00,NS,Wacker Burghausen,9337,Vilzing,12893,,,False
-1586192,2026-08-30T13:00:00+00:00,NS,TSV 1860 München,786,Landsberg,14717,,,False
-1586202,2026-09-04T16:30:00+00:00,NS,Vilzing,12893,TSV 1860 München,786,,,False
-1586195,2026-09-04T17:00:00+00:00,NS,Bayern München II,4674,Eichstätt,4262,,,False
-1586194,2026-09-04T17:00:00+00:00,NS,Aubstadt,9323,Ansbach,14621,,,False
-1586196,2026-09-04T17:00:00+00:00,NS,Bayreuth,9325,Wacker Burghausen,9337,,,False
-1586197,2026-09-04T17:00:00+00:00,NS,Eltersdorf,12762,Illertissen,9330,,,False
-1586201,2026-09-05T12:00:00+00:00,NS,SpVgg Unterhaching,1314,Augsburg II,9324,,,False
-1586199,2026-09-05T12:00:00+00:00,NS,Nürnberg II,9332,FC Schweinfurt 05,1635,,,False
-1586200,2026-09-05T12:00:00+00:00,NS,Schwaben Augsburg,12849,Memmingen,9331,,,False
-1586198,2026-09-05T12:00:00+00:00,NS,Landsberg,14717,Buchbach,9326,,,False
-1586211,2026-09-11T17:00:00+00:00,NS,TSV 1860 München,786,Schwaben Augsburg,12849,,,False
-1586204,2026-09-11T17:00:00+00:00,NS,Aubstadt,9323,SpVgg Unterhaching,1314,,,False
-1586206,2026-09-11T17:00:00+00:00,NS,Buchbach,9326,Bayern München II,4674,,,False
-1586209,2026-09-11T17:00:00+00:00,NS,Illertissen,9330,Nürnberg II,9332,,,False
-1586207,2026-09-11T17:00:00+00:00,NS,Wacker Burghausen,9337,Landsberg,14717,,,False
-1586205,2026-09-12T11:00:00+00:00,NS,Augsburg II,9324,Greuther Fürth II,9328,,,False
-1586208,2026-09-12T12:00:00+00:00,NS,Eichstätt,4262,FC Schweinfurt 05,1635,,,False
-1586210,2026-09-12T12:00:00+00:00,NS,Memmingen,9331,Vilzing,12893,,,False
-1586203,2026-09-12T12:00:00+00:00,NS,Ansbach,14621,Bayreuth,9325,,,False
-1586219,2026-09-15T15:30:00+00:00,NS,SpVgg Unterhaching,1314,Buchbach,9326,,,False
-1586218,2026-09-15T15:30:00+00:00,NS,FC Schweinfurt 05,1635,Illertissen,9330,,,False
-1586212,2026-09-15T15:30:00+00:00,NS,Bayern München II,4674,Augsburg II,9324,,,False
-1586213,2026-09-15T15:30:00+00:00,NS,Bayreuth,9325,Aubstadt,9323,,,False
-1586215,2026-09-15T15:30:00+00:00,NS,Greuther Fürth II,9328,TSV 1860 München,786,,,False
-1586216,2026-09-15T15:30:00+00:00,NS,Memmingen,9331,Wacker Burghausen,9337,,,False
-1586217,2026-09-15T15:30:00+00:00,NS,Nürnberg II,9332,Schwaben Augsburg,12849,,,False
-1586214,2026-09-15T15:30:00+00:00,NS,Eltersdorf,12762,Eichstätt,4262,,,False
-1586220,2026-09-15T15:30:00+00:00,NS,Vilzing,12893,Ansbach,14621,,,False
-1586229,2026-09-18T17:00:00+00:00,NS,Illertissen,9330,Memmingen,9331,,,False
-1586227,2026-09-19T12:00:00+00:00,NS,TSV 1860 München,786,Nürnberg II,9332,,,False
-1586226,2026-09-19T12:00:00+00:00,NS,Eichstätt,4262,Greuther Fürth II,9328,,,False
-1586222,2026-09-19T12:00:00+00:00,NS,Aubstadt,9323,Bayern München II,4674,,,False
-1586223,2026-09-19T12:00:00+00:00,NS,Bayreuth,9325,SpVgg Unterhaching,1314,,,False
-1586224,2026-09-19T12:00:00+00:00,NS,Buchbach,9326,FC Schweinfurt 05,1635,,,False
-1586225,2026-09-19T12:00:00+00:00,NS,Wacker Burghausen,9337,Augsburg II,9324,,,False
-1586228,2026-09-19T12:00:00+00:00,NS,Schwaben Augsburg,12849,Landsberg,14717,,,False
-1586221,2026-09-19T12:00:00+00:00,NS,Ansbach,14621,Eltersdorf,12762,,,False
-1586237,2026-09-26T12:00:00+00:00,NS,SpVgg Unterhaching,1314,Eichstätt,4262,,,False
-1586231,2026-09-26T12:00:00+00:00,NS,Bayern München II,4674,Schwaben Augsburg,12849,,,False
-1586230,2026-09-26T12:00:00+00:00,NS,Augsburg II,9324,Aubstadt,9323,,,False
-1586234,2026-09-26T12:00:00+00:00,NS,Greuther Fürth II,9328,Nürnberg II,9332,,,False
-1586236,2026-09-26T12:00:00+00:00,NS,Memmingen,9331,Buchbach,9326,,,False
-1586232,2026-09-26T12:00:00+00:00,NS,Wacker Burghausen,9337,TSV 1860 München,786,,,False
-1586233,2026-09-26T12:00:00+00:00,NS,Eltersdorf,12762,Bayreuth,9325,,,False
-1586238,2026-09-26T12:00:00+00:00,NS,Vilzing,12893,Illertissen,9330,,,False
-1586235,2026-09-26T12:00:00+00:00,NS,Landsberg,14717,Ansbach,14621,,,False
-1586244,2026-10-03T12:00:00+00:00,NS,TSV 1860 München,786,Ansbach,14621,,,False
-1586247,2026-10-03T12:00:00+00:00,NS,SpVgg Unterhaching,1314,FC Schweinfurt 05,1635,,,False
-1586242,2026-10-03T12:00:00+00:00,NS,Eichstätt,4262,Wacker Burghausen,9337,,,False
-1586239,2026-10-03T12:00:00+00:00,NS,Aubstadt,9323,Memmingen,9331,,,False
-1586240,2026-10-03T12:00:00+00:00,NS,Bayreuth,9325,Landsberg,14717,,,False
-1586241,2026-10-03T12:00:00+00:00,NS,Buchbach,9326,Eltersdorf,12762,,,False
-1586243,2026-10-03T12:00:00+00:00,NS,Greuther Fürth II,9328,Bayern München II,4674,,,False
-1586245,2026-10-03T12:00:00+00:00,NS,Nürnberg II,9332,Augsburg II,9324,,,False
-1586246,2026-10-03T12:00:00+00:00,NS,Schwaben Augsburg,12849,Vilzing,12893,,,False
-1586255,2026-10-10T12:00:00+00:00,NS,FC Schweinfurt 05,1635,Eltersdorf,12762,,,False
-1586249,2026-10-10T12:00:00+00:00,NS,Bayern München II,4674,SpVgg Unterhaching,1314,,,False
-1586251,2026-10-10T12:00:00+00:00,NS,Illertissen,9330,TSV 1860 München,786,,,False
-1586253,2026-10-10T12:00:00+00:00,NS,Memmingen,9331,Eichstätt,4262,,,False
-1586250,2026-10-10T12:00:00+00:00,NS,Wacker Burghausen,9337,Greuther Fürth II,9328,,,False
-1586254,2026-10-10T12:00:00+00:00,NS,Schwaben Augsburg,12849,Bayreuth,9325,,,False
-1586256,2026-10-10T12:00:00+00:00,NS,Vilzing,12893,Buchbach,9326,,,False
-1586248,2026-10-10T12:00:00+00:00,NS,Ansbach,14621,Nürnberg II,9332,,,False
-1586252,2026-10-10T12:00:00+00:00,NS,Landsberg,14717,Aubstadt,9323,,,False
-1586262,2026-10-13T14:30:00+00:00,NS,TSV 1860 München,786,Bayreuth,9325,,,False
-1586265,2026-10-13T14:30:00+00:00,NS,SpVgg Unterhaching,1314,Landsberg,14717,,,False
-1586264,2026-10-13T14:30:00+00:00,NS,FC Schweinfurt 05,1635,Ansbach,14621,,,False
-1586259,2026-10-13T14:30:00+00:00,NS,Eichstätt,4262,Vilzing,12893,,,False
-1586257,2026-10-13T14:30:00+00:00,NS,Aubstadt,9323,Illertissen,9330,,,False
-1586258,2026-10-13T14:30:00+00:00,NS,Buchbach,9326,Augsburg II,9324,,,False
-1586261,2026-10-13T14:30:00+00:00,NS,Greuther Fürth II,9328,Memmingen,9331,,,False
-1586263,2026-10-13T14:30:00+00:00,NS,Nürnberg II,9332,Bayern München II,4674,,,False
-1586260,2026-10-13T14:30:00+00:00,NS,Eltersdorf,12762,Wacker Burghausen,9337,,,False
-1586274,2026-10-16T17:00:00+00:00,NS,Illertissen,9330,Buchbach,9326,,,False
-1586271,2026-10-17T12:00:00+00:00,NS,TSV 1860 München,786,Bayern München II,4674,,,False
-1586267,2026-10-17T12:00:00+00:00,NS,Augsburg II,9324,FC Schweinfurt 05,1635,,,False
-1586268,2026-10-17T12:00:00+00:00,NS,Bayreuth,9325,Eichstätt,4262,,,False
-1586270,2026-10-17T12:00:00+00:00,NS,Memmingen,9331,Nürnberg II,9332,,,False
-1586272,2026-10-17T12:00:00+00:00,NS,Schwaben Augsburg,12849,Aubstadt,9323,,,False
-1586273,2026-10-17T12:00:00+00:00,NS,Vilzing,12893,SpVgg Unterhaching,1314,,,False
-1586266,2026-10-17T12:00:00+00:00,NS,Ansbach,14621,Greuther Fürth II,9328,,,False
-1586269,2026-10-17T12:00:00+00:00,NS,Landsberg,14717,Eltersdorf,12762,,,False
-1586283,2026-10-24T12:00:00+00:00,NS,SpVgg Unterhaching,1314,Ansbach,14621,,,False
-1586282,2026-10-24T12:00:00+00:00,NS,FC Schweinfurt 05,1635,Landsberg,14717,,,False
-1586278,2026-10-24T12:00:00+00:00,NS,Eichstätt,4262,TSV 1860 München,786,,,False
-1586276,2026-10-24T12:00:00+00:00,NS,Bayern München II,4674,Vilzing,12893,,,False
-1586275,2026-10-24T12:00:00+00:00,NS,Augsburg II,9324,Illertissen,9330,,,False
-1586277,2026-10-24T12:00:00+00:00,NS,Buchbach,9326,Wacker Burghausen,9337,,,False
-1586280,2026-10-24T12:00:00+00:00,NS,Greuther Fürth II,9328,Schwaben Augsburg,12849,,,False
-1586281,2026-10-24T12:00:00+00:00,NS,Nürnberg II,9332,Aubstadt,9323,,,False
-1586279,2026-10-24T12:00:00+00:00,NS,Eltersdorf,12762,Memmingen,9331,,,False
-1586291,2026-10-31T13:00:00+00:00,NS,TSV 1860 München,786,Buchbach,9326,,,False
-1586285,2026-10-31T13:00:00+00:00,NS,Aubstadt,9323,Vilzing,12893,,,False
-1586286,2026-10-31T13:00:00+00:00,NS,Bayreuth,9325,Nürnberg II,9332,,,False
-1586288,2026-10-31T13:00:00+00:00,NS,Illertissen,9330,Greuther Fürth II,9328,,,False
-1586290,2026-10-31T13:00:00+00:00,NS,Memmingen,9331,FC Schweinfurt 05,1635,,,False
-1586287,2026-10-31T13:00:00+00:00,NS,Wacker Burghausen,9337,SpVgg Unterhaching,1314,,,False
-1586292,2026-10-31T13:00:00+00:00,NS,Schwaben Augsburg,12849,Eltersdorf,12762,,,False
-1586284,2026-10-31T13:00:00+00:00,NS,Ansbach,14621,Augsburg II,9324,,,False
-1586289,2026-10-31T13:00:00+00:00,NS,Landsberg,14717,Bayern München II,4674,,,False
-1586301,2026-11-06T18:00:00+00:00,NS,Illertissen,9330,Ansbach,14621,,,False
-1586299,2026-11-07T13:00:00+00:00,NS,SpVgg Unterhaching,1314,Schwaben Augsburg,12849,,,False
-1586298,2026-11-07T13:00:00+00:00,NS,FC Schweinfurt 05,1635,Wacker Burghausen,9337,,,False
-1586294,2026-11-07T13:00:00+00:00,NS,Bayern München II,4674,Bayreuth,9325,,,False
-1586293,2026-11-07T13:00:00+00:00,NS,Augsburg II,9324,Memmingen,9331,,,False
-1586296,2026-11-07T13:00:00+00:00,NS,Greuther Fürth II,9328,Aubstadt,9323,,,False
-1586297,2026-11-07T13:00:00+00:00,NS,Nürnberg II,9332,Eichstätt,4262,,,False
-1586295,2026-11-07T13:00:00+00:00,NS,Eltersdorf,12762,TSV 1860 München,786,,,False
-1586300,2026-11-07T13:00:00+00:00,NS,Vilzing,12893,Landsberg,14717,,,False
-1586309,2026-11-14T13:00:00+00:00,NS,TSV 1860 München,786,SpVgg Unterhaching,1314,,,False
-1586307,2026-11-14T13:00:00+00:00,NS,Eichstätt,4262,Augsburg II,9324,,,False
-1586303,2026-11-14T13:00:00+00:00,NS,Aubstadt,9323,Eltersdorf,12762,,,False
-1586304,2026-11-14T13:00:00+00:00,NS,Bayreuth,9325,Vilzing,12893,,,False
-1586305,2026-11-14T13:00:00+00:00,NS,Buchbach,9326,Greuther Fürth II,9328,,,False
-1586306,2026-11-14T13:00:00+00:00,NS,Wacker Burghausen,9337,Illertissen,9330,,,False
-1586310,2026-11-14T13:00:00+00:00,NS,Schwaben Augsburg,12849,FC Schweinfurt 05,1635,,,False
-1586302,2026-11-14T13:00:00+00:00,NS,Ansbach,14621,Bayern München II,4674,,,False
-1586308,2026-11-14T13:00:00+00:00,NS,Landsberg,14717,Nürnberg II,9332,,,False
-1586318,2026-11-21T13:00:00+00:00,NS,FC Schweinfurt 05,1635,Aubstadt,9323,,,False
-1586311,2026-11-21T13:00:00+00:00,NS,Augsburg II,9324,Bayreuth,9325,,,False
-1586312,2026-11-21T13:00:00+00:00,NS,Buchbach,9326,Schwaben Augsburg,12849,,,False
-1586315,2026-11-21T13:00:00+00:00,NS,Greuther Fürth II,9328,SpVgg Unterhaching,1314,,,False
-1586319,2026-11-21T13:00:00+00:00,NS,Illertissen,9330,Eichstätt,4262,,,False
-1586316,2026-11-21T13:00:00+00:00,NS,Memmingen,9331,Landsberg,14717,,,False
-1586317,2026-11-21T13:00:00+00:00,NS,Nürnberg II,9332,Vilzing,12893,,,False
-1586313,2026-11-21T13:00:00+00:00,NS,Wacker Burghausen,9337,Ansbach,14621,,,False
-1586314,2026-11-21T13:00:00+00:00,NS,Eltersdorf,12762,Bayern München II,4674,,,False
-1586326,2026-11-28T13:00:00+00:00,NS,SpVgg Unterhaching,1314,Nürnberg II,9332,,,False
-1586323,2026-11-28T13:00:00+00:00,NS,Eichstätt,4262,Buchbach,9326,,,False
-1586321,2026-11-28T13:00:00+00:00,NS,Bayern München II,4674,Wacker Burghausen,9337,,,False
-1586322,2026-11-28T13:00:00+00:00,NS,Bayreuth,9325,Greuther Fürth II,9328,,,False
-1586325,2026-11-28T13:00:00+00:00,NS,Schwaben Augsburg,12849,Illertissen,9330,,,False
-1586327,2026-11-28T13:00:00+00:00,NS,Vilzing,12893,Eltersdorf,12762,,,False
-1586320,2026-11-28T13:00:00+00:00,NS,Ansbach,14621,Memmingen,9331,,,False
-1586324,2026-11-28T13:00:00+00:00,NS,Landsberg,14717,Augsburg II,9324,,,False
-1586328,2026-11-29T13:00:00+00:00,NS,TSV 1860 München,786,FC Schweinfurt 05,1635,,,False
-1586337,2026-12-05T13:00:00+00:00,NS,FC Schweinfurt 05,1635,Bayern München II,4674,,,False
-1586332,2026-12-05T13:00:00+00:00,NS,Eichstätt,4262,Schwaben Augsburg,12849,,,False
-1586329,2026-12-05T13:00:00+00:00,NS,Augsburg II,9324,TSV 1860 München,786,,,False
-1586330,2026-12-05T13:00:00+00:00,NS,Buchbach,9326,Nürnberg II,9332,,,False
-1586334,2026-12-05T13:00:00+00:00,NS,Greuther Fürth II,9328,Vilzing,12893,,,False
-1586335,2026-12-05T13:00:00+00:00,NS,Illertissen,9330,Landsberg,14717,,,False
-1586336,2026-12-05T13:00:00+00:00,NS,Memmingen,9331,Bayreuth,9325,,,False
-1586331,2026-12-05T13:00:00+00:00,NS,Wacker Burghausen,9337,Aubstadt,9323,,,False
-1586333,2026-12-05T13:00:00+00:00,NS,Eltersdorf,12762,SpVgg Unterhaching,1314,,,False
-1586342,2027-02-20T13:00:00+00:00,NS,TSV 1860 München,786,Memmingen,9331,,,False
-1586345,2027-02-20T13:00:00+00:00,NS,SpVgg Unterhaching,1314,Illertissen,9330,,,False
-1586339,2027-02-20T13:00:00+00:00,NS,Aubstadt,9323,Buchbach,9326,,,False
-1586340,2027-02-20T13:00:00+00:00,NS,Bayreuth,9325,FC Schweinfurt 05,1635,,,False
-1586343,2027-02-20T13:00:00+00:00,NS,Nürnberg II,9332,Eltersdorf,12762,,,False
-1586344,2027-02-20T13:00:00+00:00,NS,Schwaben Augsburg,12849,Wacker Burghausen,9337,,,False
-1586346,2027-02-20T13:00:00+00:00,NS,Vilzing,12893,Augsburg II,9324,,,False
-1586338,2027-02-20T13:00:00+00:00,NS,Ansbach,14621,Eichstätt,4262,,,False
-1586341,2027-02-20T13:00:00+00:00,NS,Landsberg,14717,Greuther Fürth II,9328,,,False
-1586354,2027-02-27T13:00:00+00:00,NS,TSV 1860 München,786,Aubstadt,9323,,,False
-1586355,2027-02-27T13:00:00+00:00,NS,FC Schweinfurt 05,1635,Vilzing,12893,,,False
-1586350,2027-02-27T13:00:00+00:00,NS,Eichstätt,4262,Landsberg,14717,,,False
-1586347,2027-02-27T13:00:00+00:00,NS,Augsburg II,9324,Schwaben Augsburg,12849,,,False
-1586348,2027-02-27T13:00:00+00:00,NS,Buchbach,9326,Ansbach,14621,,,False
-1586351,2027-02-27T13:00:00+00:00,NS,Greuther Fürth II,9328,Eltersdorf,12762,,,False
-1586352,2027-02-27T13:00:00+00:00,NS,Illertissen,9330,Bayreuth,9325,,,False
-1586353,2027-02-27T13:00:00+00:00,NS,Memmingen,9331,Bayern München II,4674,,,False
-1586349,2027-02-27T13:00:00+00:00,NS,Wacker Burghausen,9337,Nürnberg II,9332,,,False
-1586363,2027-03-06T13:00:00+00:00,NS,SpVgg Unterhaching,1314,Memmingen,9331,,,False
-1586357,2027-03-06T13:00:00+00:00,NS,Bayern München II,4674,Illertissen,9330,,,False
-1586356,2027-03-06T13:00:00+00:00,NS,Aubstadt,9323,Eichstätt,4262,,,False
-1586358,2027-03-06T13:00:00+00:00,NS,Bayreuth,9325,Buchbach,9326,,,False
-1586360,2027-03-06T13:00:00+00:00,NS,Greuther Fürth II,9328,FC Schweinfurt 05,1635,,,False
-1586359,2027-03-06T13:00:00+00:00,NS,Eltersdorf,12762,Augsburg II,9324,,,False
-1586362,2027-03-06T13:00:00+00:00,NS,Schwaben Augsburg,12849,Ansbach,14621,,,False
-1586364,2027-03-06T13:00:00+00:00,NS,Vilzing,12893,Wacker Burghausen,9337,,,False
-1586361,2027-03-06T13:00:00+00:00,NS,Landsberg,14717,TSV 1860 München,786,,,False
-1586372,2027-03-13T13:00:00+00:00,NS,TSV 1860 München,786,Vilzing,12893,,,False
-1586373,2027-03-13T13:00:00+00:00,NS,FC Schweinfurt 05,1635,Nürnberg II,9332,,,False
-1586369,2027-03-13T13:00:00+00:00,NS,Eichstätt,4262,Bayern München II,4674,,,False
-1586366,2027-03-13T13:00:00+00:00,NS,Augsburg II,9324,SpVgg Unterhaching,1314,,,False
-1586367,2027-03-13T13:00:00+00:00,NS,Buchbach,9326,Landsberg,14717,,,False
-1586370,2027-03-13T13:00:00+00:00,NS,Illertissen,9330,Eltersdorf,12762,,,False
-1586371,2027-03-13T13:00:00+00:00,NS,Memmingen,9331,Schwaben Augsburg,12849,,,False
-1586368,2027-03-13T13:00:00+00:00,NS,Wacker Burghausen,9337,Bayreuth,9325,,,False
-1586365,2027-03-13T13:00:00+00:00,NS,Ansbach,14621,Aubstadt,9323,,,False
-1586381,2027-03-20T13:00:00+00:00,NS,SpVgg Unterhaching,1314,Aubstadt,9323,,,False
-1586380,2027-03-20T13:00:00+00:00,NS,FC Schweinfurt 05,1635,Eichstätt,4262,,,False
-1586374,2027-03-20T13:00:00+00:00,NS,Bayern München II,4674,Buchbach,9326,,,False
-1586375,2027-03-20T13:00:00+00:00,NS,Bayreuth,9325,Ansbach,14621,,,False
-1586376,2027-03-20T13:00:00+00:00,NS,Greuther Fürth II,9328,Augsburg II,9324,,,False
-1586378,2027-03-20T13:00:00+00:00,NS,Nürnberg II,9332,Illertissen,9330,,,False
-1586379,2027-03-20T13:00:00+00:00,NS,Schwaben Augsburg,12849,TSV 1860 München,786,,,False
-1586382,2027-03-20T13:00:00+00:00,NS,Vilzing,12893,Memmingen,9331,,,False
-1586377,2027-03-20T13:00:00+00:00,NS,Landsberg,14717,Wacker Burghausen,9337,,,False
-1586390,2027-03-25T16:00:00+00:00,NS,TSV 1860 München,786,Greuther Fürth II,9328,,,False
-1586388,2027-03-25T16:00:00+00:00,NS,Eichstätt,4262,Eltersdorf,12762,,,False
-1586384,2027-03-25T16:00:00+00:00,NS,Aubstadt,9323,Bayreuth,9325,,,False
-1586385,2027-03-25T16:00:00+00:00,NS,Augsburg II,9324,Bayern München II,4674,,,False
-1586386,2027-03-25T16:00:00+00:00,NS,Buchbach,9326,SpVgg Unterhaching,1314,,,False
-1586389,2027-03-25T16:00:00+00:00,NS,Illertissen,9330,FC Schweinfurt 05,1635,,,False
-1586387,2027-03-25T16:00:00+00:00,NS,Wacker Burghausen,9337,Memmingen,9331,,,False
-1586391,2027-03-25T16:00:00+00:00,NS,Schwaben Augsburg,12849,Nürnberg II,9332,,,False
-1586383,2027-03-25T16:00:00+00:00,NS,Ansbach,14621,Vilzing,12893,,,False
-1586400,2027-03-29T15:00:00+00:00,NS,SpVgg Unterhaching,1314,Bayreuth,9325,,,False
-1586399,2027-03-29T15:00:00+00:00,NS,FC Schweinfurt 05,1635,Buchbach,9326,,,False
-1586393,2027-03-29T15:00:00+00:00,NS,Bayern München II,4674,Aubstadt,9323,,,False
-1586392,2027-03-29T15:00:00+00:00,NS,Augsburg II,9324,Wacker Burghausen,9337,,,False
-1586395,2027-03-29T15:00:00+00:00,NS,Greuther Fürth II,9328,Eichstätt,4262,,,False
-1586397,2027-03-29T15:00:00+00:00,NS,Memmingen,9331,Illertissen,9330,,,False
-1586398,2027-03-29T15:00:00+00:00,NS,Nürnberg II,9332,TSV 1860 München,786,,,False
-1586394,2027-03-29T15:00:00+00:00,NS,Eltersdorf,12762,Ansbach,14621,,,False
-1586396,2027-03-29T15:00:00+00:00,NS,Landsberg,14717,Schwaben Augsburg,12849,,,False
-1586407,2027-04-03T12:00:00+00:00,NS,TSV 1860 München,786,Wacker Burghausen,9337,,,False
-1586405,2027-04-03T12:00:00+00:00,NS,Eichstätt,4262,SpVgg Unterhaching,1314,,,False
-1586402,2027-04-03T12:00:00+00:00,NS,Aubstadt,9323,Augsburg II,9324,,,False
-1586403,2027-04-03T12:00:00+00:00,NS,Bayreuth,9325,Eltersdorf,12762,,,False
-1586404,2027-04-03T12:00:00+00:00,NS,Buchbach,9326,Memmingen,9331,,,False
-1586406,2027-04-03T12:00:00+00:00,NS,Illertissen,9330,Vilzing,12893,,,False
-1586408,2027-04-03T12:00:00+00:00,NS,Nürnberg II,9332,Greuther Fürth II,9328,,,False
-1586409,2027-04-03T12:00:00+00:00,NS,Schwaben Augsburg,12849,Bayern München II,4674,,,False
-1586401,2027-04-03T12:00:00+00:00,NS,Ansbach,14621,Landsberg,14717,,,False
-1586417,2027-04-10T12:00:00+00:00,NS,FC Schweinfurt 05,1635,SpVgg Unterhaching,1314,,,False
-1586412,2027-04-10T12:00:00+00:00,NS,Bayern München II,4674,Greuther Fürth II,9328,,,False
-1586411,2027-04-10T12:00:00+00:00,NS,Augsburg II,9324,Nürnberg II,9332,,,False
-1586416,2027-04-10T12:00:00+00:00,NS,Memmingen,9331,Aubstadt,9323,,,False
-1586413,2027-04-10T12:00:00+00:00,NS,Wacker Burghausen,9337,Eichstätt,4262,,,False
-1586414,2027-04-10T12:00:00+00:00,NS,Eltersdorf,12762,Buchbach,9326,,,False
-1586418,2027-04-10T12:00:00+00:00,NS,Vilzing,12893,Schwaben Augsburg,12849,,,False
-1586410,2027-04-10T12:00:00+00:00,NS,Ansbach,14621,TSV 1860 München,786,,,False
-1586415,2027-04-10T12:00:00+00:00,NS,Landsberg,14717,Bayreuth,9325,,,False
-1586425,2027-04-13T15:30:00+00:00,NS,TSV 1860 München,786,Illertissen,9330,,,False
-1586427,2027-04-13T15:30:00+00:00,NS,SpVgg Unterhaching,1314,Bayern München II,4674,,,False
-1586422,2027-04-13T15:30:00+00:00,NS,Eichstätt,4262,Memmingen,9331,,,False
-1586419,2027-04-13T15:30:00+00:00,NS,Aubstadt,9323,Landsberg,14717,,,False
-1586420,2027-04-13T15:30:00+00:00,NS,Bayreuth,9325,Schwaben Augsburg,12849,,,False
-1586421,2027-04-13T15:30:00+00:00,NS,Buchbach,9326,Vilzing,12893,,,False
-1586424,2027-04-13T15:30:00+00:00,NS,Greuther Fürth II,9328,Wacker Burghausen,9337,,,False
-1586426,2027-04-13T15:30:00+00:00,NS,Nürnberg II,9332,Ansbach,14621,,,False
-1586423,2027-04-13T15:30:00+00:00,NS,Eltersdorf,12762,FC Schweinfurt 05,1635,,,False
-1586430,2027-04-17T12:00:00+00:00,NS,Bayern München II,4674,Nürnberg II,9332,,,False
-1586429,2027-04-17T12:00:00+00:00,NS,Augsburg II,9324,Buchbach,9326,,,False
-1586431,2027-04-17T12:00:00+00:00,NS,Bayreuth,9325,TSV 1860 München,786,,,False
-1586433,2027-04-17T12:00:00+00:00,NS,Illertissen,9330,Aubstadt,9323,,,False
-1586435,2027-04-17T12:00:00+00:00,NS,Memmingen,9331,Greuther Fürth II,9328,,,False
-1586432,2027-04-17T12:00:00+00:00,NS,Wacker Burghausen,9337,Eltersdorf,12762,,,False
-1586436,2027-04-17T12:00:00+00:00,NS,Vilzing,12893,Eichstätt,4262,,,False
-1586428,2027-04-17T12:00:00+00:00,NS,Ansbach,14621,FC Schweinfurt 05,1635,,,False
-1586434,2027-04-17T12:00:00+00:00,NS,Landsberg,14717,SpVgg Unterhaching,1314,,,False
-1586445,2027-04-24T12:00:00+00:00,NS,SpVgg Unterhaching,1314,Vilzing,12893,,,False
-1586444,2027-04-24T12:00:00+00:00,NS,FC Schweinfurt 05,1635,Augsburg II,9324,,,False
-1586440,2027-04-24T12:00:00+00:00,NS,Eichstätt,4262,Bayreuth,9325,,,False
-1586438,2027-04-24T12:00:00+00:00,NS,Bayern München II,4674,TSV 1860 München,786,,,False
-1586437,2027-04-24T12:00:00+00:00,NS,Aubstadt,9323,Schwaben Augsburg,12849,,,False
-1586439,2027-04-24T12:00:00+00:00,NS,Buchbach,9326,Illertissen,9330,,,False
-1586442,2027-04-24T12:00:00+00:00,NS,Greuther Fürth II,9328,Ansbach,14621,,,False
-1586443,2027-04-24T12:00:00+00:00,NS,Nürnberg II,9332,Memmingen,9331,,,False
-1586441,2027-04-24T12:00:00+00:00,NS,Eltersdorf,12762,Landsberg,14717,,,False
-1586452,2027-05-01T12:00:00+00:00,NS,TSV 1860 München,786,Eichstätt,4262,,,False
-1586447,2027-05-01T12:00:00+00:00,NS,Aubstadt,9323,Nürnberg II,9332,,,False
-1586449,2027-05-01T12:00:00+00:00,NS,Illertissen,9330,Augsburg II,9324,,,False
-1586451,2027-05-01T12:00:00+00:00,NS,Memmingen,9331,Eltersdorf,12762,,,False
-1586448,2027-05-01T12:00:00+00:00,NS,Wacker Burghausen,9337,Buchbach,9326,,,False
-1586453,2027-05-01T12:00:00+00:00,NS,Schwaben Augsburg,12849,Greuther Fürth II,9328,,,False
-1586454,2027-05-01T12:00:00+00:00,NS,Vilzing,12893,Bayern München II,4674,,,False
-1586446,2027-05-01T12:00:00+00:00,NS,Ansbach,14621,SpVgg Unterhaching,1314,,,False
-1586450,2027-05-01T12:00:00+00:00,NS,Landsberg,14717,FC Schweinfurt 05,1635,,,False
-1586462,2027-05-08T12:00:00+00:00,NS,SpVgg Unterhaching,1314,Wacker Burghausen,9337,,,False
-1586461,2027-05-08T12:00:00+00:00,NS,FC Schweinfurt 05,1635,Memmingen,9331,,,False
-1586456,2027-05-08T12:00:00+00:00,NS,Bayern München II,4674,Landsberg,14717,,,False
-1586455,2027-05-08T12:00:00+00:00,NS,Augsburg II,9324,Ansbach,14621,,,False
-1586457,2027-05-08T12:00:00+00:00,NS,Buchbach,9326,TSV 1860 München,786,,,False
-1586459,2027-05-08T12:00:00+00:00,NS,Greuther Fürth II,9328,Illertissen,9330,,,False
-1586460,2027-05-08T12:00:00+00:00,NS,Nürnberg II,9332,Bayreuth,9325,,,False
-1586458,2027-05-08T12:00:00+00:00,NS,Eltersdorf,12762,Schwaben Augsburg,12849,,,False
-1586463,2027-05-08T12:00:00+00:00,NS,Vilzing,12893,Aubstadt,9323,,,False
-1586471,2027-05-15T12:00:00+00:00,NS,TSV 1860 München,786,Eltersdorf,12762,,,False
-1586468,2027-05-15T12:00:00+00:00,NS,Eichstätt,4262,Nürnberg II,9332,,,False
-1586465,2027-05-15T12:00:00+00:00,NS,Aubstadt,9323,Greuther Fürth II,9328,,,False
-1586466,2027-05-15T12:00:00+00:00,NS,Bayreuth,9325,Bayern München II,4674,,,False
-1586470,2027-05-15T12:00:00+00:00,NS,Memmingen,9331,Augsburg II,9324,,,False
-1586467,2027-05-15T12:00:00+00:00,NS,Wacker Burghausen,9337,FC Schweinfurt 05,1635,,,False
-1586472,2027-05-15T12:00:00+00:00,NS,Schwaben Augsburg,12849,SpVgg Unterhaching,1314,,,False
-1586464,2027-05-15T12:00:00+00:00,NS,Ansbach,14621,Illertissen,9330,,,False
-1586469,2027-05-15T12:00:00+00:00,NS,Landsberg,14717,Vilzing,12893,,,False
-1586480,2027-05-22T12:00:00+00:00,NS,SpVgg Unterhaching,1314,TSV 1860 München,786,,,False
-1586479,2027-05-22T12:00:00+00:00,NS,FC Schweinfurt 05,1635,Schwaben Augsburg,12849,,,False
-1586474,2027-05-22T12:00:00+00:00,NS,Bayern München II,4674,Ansbach,14621,,,False
-1586473,2027-05-22T12:00:00+00:00,NS,Augsburg II,9324,Eichstätt,4262,,,False
-1586476,2027-05-22T12:00:00+00:00,NS,Greuther Fürth II,9328,Buchbach,9326,,,False
-1586477,2027-05-22T12:00:00+00:00,NS,Illertissen,9330,Wacker Burghausen,9337,,,False
-1586478,2027-05-22T12:00:00+00:00,NS,Nürnberg II,9332,Landsberg,14717,,,False
-1586475,2027-05-22T12:00:00+00:00,NS,Eltersdorf,12762,Aubstadt,9323,,,False
-1586481,2027-05-22T12:00:00+00:00,NS,Vilzing,12893,Bayreuth,9325,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1586140,2026-07-23T17:00:00+00:00,FT,Bayern - 1,Aubstadt,9323,FC Schweinfurt 05,1635,5,1,True
+1586142,2026-07-24T16:00:00+00:00,FT,Bayern - 1,Eichstätt,4262,Illertissen,9330,0,3,True
+1586141,2026-07-24T16:00:00+00:00,FT,Bayern - 1,Schwaben Augsburg,12849,Buchbach,9326,1,1,True
+1586144,2026-07-24T16:30:00+00:00,FT,Bayern - 1,Vilzing,12893,Nürnberg II,9332,3,1,True
+1586143,2026-07-24T16:30:00+00:00,FT,Bayern - 1,Landsberg,14717,Memmingen,9331,0,1,True
+1586146,2026-07-24T17:00:00+00:00,FT,Bayern - 1,Bayern München II,4674,Eltersdorf,12762,0,1,True
+1586147,2026-07-24T17:00:00+00:00,FT,Bayern - 1,Bayreuth,9325,Augsburg II,9324,3,0,True
+1586145,2026-07-24T17:00:00+00:00,FT,Bayern - 1,Ansbach,14621,Wacker Burghausen,9337,0,4,True
+1586148,2026-07-25T12:00:00+00:00,FT,Bayern - 1,SpVgg Unterhaching,1314,Greuther Fürth II,9328,1,0,True
+1586149,2026-07-31T16:00:00+00:00,FT,Bayern - 2,Nürnberg II,9332,SpVgg Unterhaching,1314,1,2,True
+1586154,2026-07-31T16:30:00+00:00,FT,Bayern - 2,Augsburg II,9324,Landsberg,14717,3,2,True
+1586150,2026-07-31T17:00:00+00:00,FT,Bayern - 2,Buchbach,9326,Eichstätt,4262,5,1,True
+1586153,2026-07-31T17:00:00+00:00,FT,Bayern - 2,Illertissen,9330,Schwaben Augsburg,12849,2,0,True
+1586151,2026-07-31T17:00:00+00:00,FT,Bayern - 2,Wacker Burghausen,9337,Bayern München II,4674,2,0,True
+1586152,2026-07-31T17:00:00+00:00,FT,Bayern - 2,Eltersdorf,12762,Vilzing,12893,0,1,True
+1586157,2026-08-01T12:00:00+00:00,FT,Bayern - 2,FC Schweinfurt 05,1635,TSV 1860 München,786,2,2,True
+1586156,2026-08-01T12:00:00+00:00,FT,Bayern - 2,Memmingen,9331,Ansbach,14621,4,1,True
+1586155,2026-08-01T14:00:00+00:00,FT,Bayern - 2,Greuther Fürth II,9328,Bayreuth,9325,0,2,True
+1586158,2026-08-07T16:00:00+00:00,NS,Bayern - 3,Nürnberg II,9332,Buchbach,9326,,,False
+1586159,2026-08-07T16:00:00+00:00,NS,Bayern - 3,Schwaben Augsburg,12849,Eichstätt,4262,,,False
+1586160,2026-08-07T16:30:00+00:00,NS,Bayern - 3,Landsberg,14717,Illertissen,9330,,,False
+1586163,2026-08-07T17:00:00+00:00,NS,Bayern - 3,TSV 1860 München,786,Augsburg II,9324,,,False
+1586161,2026-08-07T17:00:00+00:00,NS,Bayern - 3,Aubstadt,9323,Wacker Burghausen,9337,,,False
+1586162,2026-08-07T17:00:00+00:00,NS,Bayern - 3,Bayreuth,9325,Memmingen,9331,,,False
+1586164,2026-08-08T12:00:00+00:00,NS,Bayern - 3,SpVgg Unterhaching,1314,Eltersdorf,12762,,,False
+1586166,2026-08-08T12:00:00+00:00,NS,Bayern - 3,Bayern München II,4674,FC Schweinfurt 05,1635,,,False
+1586165,2026-08-08T12:00:00+00:00,NS,Bayern - 3,Vilzing,12893,Greuther Fürth II,9328,,,False
+1586167,2026-08-14T16:00:00+00:00,NS,Bayern - 4,Eichstätt,4262,Ansbach,14621,,,False
+1586172,2026-08-14T16:00:00+00:00,NS,Bayern - 4,Augsburg II,9324,Vilzing,12893,,,False
+1586173,2026-08-14T16:00:00+00:00,NS,Bayern - 4,Greuther Fürth II,9328,Landsberg,14717,,,False
+1586174,2026-08-14T17:00:00+00:00,NS,Bayern - 4,FC Schweinfurt 05,1635,Bayreuth,9325,,,False
+1586168,2026-08-14T17:00:00+00:00,NS,Bayern - 4,Buchbach,9326,Aubstadt,9323,,,False
+1586171,2026-08-14T17:00:00+00:00,NS,Bayern - 4,Illertissen,9330,SpVgg Unterhaching,1314,,,False
+1586175,2026-08-14T17:00:00+00:00,NS,Bayern - 4,Memmingen,9331,TSV 1860 München,786,,,False
+1586169,2026-08-14T17:00:00+00:00,NS,Bayern - 4,Wacker Burghausen,9337,Schwaben Augsburg,12849,,,False
+1586170,2026-08-14T17:00:00+00:00,NS,Bayern - 4,Eltersdorf,12762,Nürnberg II,9332,,,False
+1586180,2026-08-18T17:00:00+00:00,NS,Bayern - 5,Aubstadt,9323,TSV 1860 München,786,,,False
+1586177,2026-08-21T16:00:00+00:00,NS,Bayern - 5,Nürnberg II,9332,Wacker Burghausen,9337,,,False
+1586178,2026-08-21T16:00:00+00:00,NS,Bayern - 5,Schwaben Augsburg,12849,Augsburg II,9324,,,False
+1586176,2026-08-21T16:00:00+00:00,NS,Bayern - 5,Landsberg,14717,Eichstätt,4262,,,False
+1586179,2026-08-21T16:30:00+00:00,NS,Bayern - 5,Ansbach,14621,Buchbach,9326,,,False
+1586181,2026-08-21T17:00:00+00:00,NS,Bayern - 5,Bayern München II,4674,Memmingen,9331,,,False
+1586182,2026-08-21T17:00:00+00:00,NS,Bayern - 5,Bayreuth,9325,Illertissen,9330,,,False
+1586183,2026-08-21T17:00:00+00:00,NS,Bayern - 5,Eltersdorf,12762,Greuther Fürth II,9328,,,False
+1586184,2026-08-22T12:00:00+00:00,NS,Bayern - 5,Vilzing,12893,FC Schweinfurt 05,1635,,,False
+1586185,2026-08-28T16:00:00+00:00,NS,Bayern - 6,Ansbach,14621,Schwaben Augsburg,12849,,,False
+1586193,2026-08-28T17:00:00+00:00,NS,Bayern - 6,FC Schweinfurt 05,1635,Greuther Fürth II,9328,,,False
+1586189,2026-08-29T12:00:00+00:00,NS,Bayern - 6,Eichstätt,4262,Aubstadt,9323,,,False
+1586186,2026-08-29T12:00:00+00:00,NS,Bayern - 6,Augsburg II,9324,Eltersdorf,12762,,,False
+1586187,2026-08-29T12:00:00+00:00,NS,Bayern - 6,Buchbach,9326,Bayreuth,9325,,,False
+1586190,2026-08-29T12:00:00+00:00,NS,Bayern - 6,Illertissen,9330,Bayern München II,4674,,,False
+1586191,2026-08-29T12:00:00+00:00,NS,Bayern - 6,Memmingen,9331,SpVgg Unterhaching,1314,,,False
+1586188,2026-08-29T12:00:00+00:00,NS,Bayern - 6,Wacker Burghausen,9337,Vilzing,12893,,,False
+1586192,2026-08-30T13:00:00+00:00,NS,Bayern - 6,TSV 1860 München,786,Landsberg,14717,,,False
+1586202,2026-09-04T16:30:00+00:00,NS,Bayern - 7,Vilzing,12893,TSV 1860 München,786,,,False
+1586195,2026-09-04T17:00:00+00:00,NS,Bayern - 7,Bayern München II,4674,Eichstätt,4262,,,False
+1586194,2026-09-04T17:00:00+00:00,NS,Bayern - 7,Aubstadt,9323,Ansbach,14621,,,False
+1586196,2026-09-04T17:00:00+00:00,NS,Bayern - 7,Bayreuth,9325,Wacker Burghausen,9337,,,False
+1586197,2026-09-04T17:00:00+00:00,NS,Bayern - 7,Eltersdorf,12762,Illertissen,9330,,,False
+1586201,2026-09-05T12:00:00+00:00,NS,Bayern - 7,SpVgg Unterhaching,1314,Augsburg II,9324,,,False
+1586199,2026-09-05T12:00:00+00:00,NS,Bayern - 7,Nürnberg II,9332,FC Schweinfurt 05,1635,,,False
+1586200,2026-09-05T12:00:00+00:00,NS,Bayern - 7,Schwaben Augsburg,12849,Memmingen,9331,,,False
+1586198,2026-09-05T12:00:00+00:00,NS,Bayern - 7,Landsberg,14717,Buchbach,9326,,,False
+1586211,2026-09-11T17:00:00+00:00,NS,Bayern - 8,TSV 1860 München,786,Schwaben Augsburg,12849,,,False
+1586204,2026-09-11T17:00:00+00:00,NS,Bayern - 8,Aubstadt,9323,SpVgg Unterhaching,1314,,,False
+1586206,2026-09-11T17:00:00+00:00,NS,Bayern - 8,Buchbach,9326,Bayern München II,4674,,,False
+1586209,2026-09-11T17:00:00+00:00,NS,Bayern - 8,Illertissen,9330,Nürnberg II,9332,,,False
+1586207,2026-09-11T17:00:00+00:00,NS,Bayern - 8,Wacker Burghausen,9337,Landsberg,14717,,,False
+1586205,2026-09-12T11:00:00+00:00,NS,Bayern - 8,Augsburg II,9324,Greuther Fürth II,9328,,,False
+1586208,2026-09-12T12:00:00+00:00,NS,Bayern - 8,Eichstätt,4262,FC Schweinfurt 05,1635,,,False
+1586210,2026-09-12T12:00:00+00:00,NS,Bayern - 8,Memmingen,9331,Vilzing,12893,,,False
+1586203,2026-09-12T12:00:00+00:00,NS,Bayern - 8,Ansbach,14621,Bayreuth,9325,,,False
+1586219,2026-09-15T15:30:00+00:00,NS,Bayern - 9,SpVgg Unterhaching,1314,Buchbach,9326,,,False
+1586218,2026-09-15T15:30:00+00:00,NS,Bayern - 9,FC Schweinfurt 05,1635,Illertissen,9330,,,False
+1586212,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Bayern München II,4674,Augsburg II,9324,,,False
+1586213,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Bayreuth,9325,Aubstadt,9323,,,False
+1586215,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Greuther Fürth II,9328,TSV 1860 München,786,,,False
+1586216,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Memmingen,9331,Wacker Burghausen,9337,,,False
+1586217,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Nürnberg II,9332,Schwaben Augsburg,12849,,,False
+1586214,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Eltersdorf,12762,Eichstätt,4262,,,False
+1586220,2026-09-15T15:30:00+00:00,NS,Bayern - 9,Vilzing,12893,Ansbach,14621,,,False
+1586229,2026-09-18T17:00:00+00:00,NS,Bayern - 10,Illertissen,9330,Memmingen,9331,,,False
+1586227,2026-09-19T12:00:00+00:00,NS,Bayern - 10,TSV 1860 München,786,Nürnberg II,9332,,,False
+1586226,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Eichstätt,4262,Greuther Fürth II,9328,,,False
+1586222,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Aubstadt,9323,Bayern München II,4674,,,False
+1586223,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Bayreuth,9325,SpVgg Unterhaching,1314,,,False
+1586224,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Buchbach,9326,FC Schweinfurt 05,1635,,,False
+1586225,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Wacker Burghausen,9337,Augsburg II,9324,,,False
+1586228,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Schwaben Augsburg,12849,Landsberg,14717,,,False
+1586221,2026-09-19T12:00:00+00:00,NS,Bayern - 10,Ansbach,14621,Eltersdorf,12762,,,False
+1586237,2026-09-26T12:00:00+00:00,NS,Bayern - 11,SpVgg Unterhaching,1314,Eichstätt,4262,,,False
+1586231,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Bayern München II,4674,Schwaben Augsburg,12849,,,False
+1586230,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Augsburg II,9324,Aubstadt,9323,,,False
+1586234,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Greuther Fürth II,9328,Nürnberg II,9332,,,False
+1586236,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Memmingen,9331,Buchbach,9326,,,False
+1586232,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Wacker Burghausen,9337,TSV 1860 München,786,,,False
+1586233,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Eltersdorf,12762,Bayreuth,9325,,,False
+1586238,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Vilzing,12893,Illertissen,9330,,,False
+1586235,2026-09-26T12:00:00+00:00,NS,Bayern - 11,Landsberg,14717,Ansbach,14621,,,False
+1586244,2026-10-03T12:00:00+00:00,NS,Bayern - 12,TSV 1860 München,786,Ansbach,14621,,,False
+1586247,2026-10-03T12:00:00+00:00,NS,Bayern - 12,SpVgg Unterhaching,1314,FC Schweinfurt 05,1635,,,False
+1586242,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Eichstätt,4262,Wacker Burghausen,9337,,,False
+1586239,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Aubstadt,9323,Memmingen,9331,,,False
+1586240,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Bayreuth,9325,Landsberg,14717,,,False
+1586241,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Buchbach,9326,Eltersdorf,12762,,,False
+1586243,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Greuther Fürth II,9328,Bayern München II,4674,,,False
+1586245,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Nürnberg II,9332,Augsburg II,9324,,,False
+1586246,2026-10-03T12:00:00+00:00,NS,Bayern - 12,Schwaben Augsburg,12849,Vilzing,12893,,,False
+1586255,2026-10-10T12:00:00+00:00,NS,Bayern - 13,FC Schweinfurt 05,1635,Eltersdorf,12762,,,False
+1586249,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Bayern München II,4674,SpVgg Unterhaching,1314,,,False
+1586251,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Illertissen,9330,TSV 1860 München,786,,,False
+1586253,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Memmingen,9331,Eichstätt,4262,,,False
+1586250,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Wacker Burghausen,9337,Greuther Fürth II,9328,,,False
+1586254,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Schwaben Augsburg,12849,Bayreuth,9325,,,False
+1586256,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Vilzing,12893,Buchbach,9326,,,False
+1586248,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Ansbach,14621,Nürnberg II,9332,,,False
+1586252,2026-10-10T12:00:00+00:00,NS,Bayern - 13,Landsberg,14717,Aubstadt,9323,,,False
+1586262,2026-10-13T14:30:00+00:00,NS,Bayern - 14,TSV 1860 München,786,Bayreuth,9325,,,False
+1586265,2026-10-13T14:30:00+00:00,NS,Bayern - 14,SpVgg Unterhaching,1314,Landsberg,14717,,,False
+1586264,2026-10-13T14:30:00+00:00,NS,Bayern - 14,FC Schweinfurt 05,1635,Ansbach,14621,,,False
+1586259,2026-10-13T14:30:00+00:00,NS,Bayern - 14,Eichstätt,4262,Vilzing,12893,,,False
+1586257,2026-10-13T14:30:00+00:00,NS,Bayern - 14,Aubstadt,9323,Illertissen,9330,,,False
+1586258,2026-10-13T14:30:00+00:00,NS,Bayern - 14,Buchbach,9326,Augsburg II,9324,,,False
+1586261,2026-10-13T14:30:00+00:00,NS,Bayern - 14,Greuther Fürth II,9328,Memmingen,9331,,,False
+1586263,2026-10-13T14:30:00+00:00,NS,Bayern - 14,Nürnberg II,9332,Bayern München II,4674,,,False
+1586260,2026-10-13T14:30:00+00:00,NS,Bayern - 14,Eltersdorf,12762,Wacker Burghausen,9337,,,False
+1586274,2026-10-16T17:00:00+00:00,NS,Bayern - 15,Illertissen,9330,Buchbach,9326,,,False
+1586271,2026-10-17T12:00:00+00:00,NS,Bayern - 15,TSV 1860 München,786,Bayern München II,4674,,,False
+1586267,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Augsburg II,9324,FC Schweinfurt 05,1635,,,False
+1586268,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Bayreuth,9325,Eichstätt,4262,,,False
+1586270,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Memmingen,9331,Nürnberg II,9332,,,False
+1586272,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Schwaben Augsburg,12849,Aubstadt,9323,,,False
+1586273,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Vilzing,12893,SpVgg Unterhaching,1314,,,False
+1586266,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Ansbach,14621,Greuther Fürth II,9328,,,False
+1586269,2026-10-17T12:00:00+00:00,NS,Bayern - 15,Landsberg,14717,Eltersdorf,12762,,,False
+1586283,2026-10-24T12:00:00+00:00,NS,Bayern - 16,SpVgg Unterhaching,1314,Ansbach,14621,,,False
+1586282,2026-10-24T12:00:00+00:00,NS,Bayern - 16,FC Schweinfurt 05,1635,Landsberg,14717,,,False
+1586278,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Eichstätt,4262,TSV 1860 München,786,,,False
+1586276,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Bayern München II,4674,Vilzing,12893,,,False
+1586275,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Augsburg II,9324,Illertissen,9330,,,False
+1586277,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Buchbach,9326,Wacker Burghausen,9337,,,False
+1586280,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Greuther Fürth II,9328,Schwaben Augsburg,12849,,,False
+1586281,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Nürnberg II,9332,Aubstadt,9323,,,False
+1586279,2026-10-24T12:00:00+00:00,NS,Bayern - 16,Eltersdorf,12762,Memmingen,9331,,,False
+1586291,2026-10-31T13:00:00+00:00,NS,Bayern - 17,TSV 1860 München,786,Buchbach,9326,,,False
+1586285,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Aubstadt,9323,Vilzing,12893,,,False
+1586286,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Bayreuth,9325,Nürnberg II,9332,,,False
+1586288,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Illertissen,9330,Greuther Fürth II,9328,,,False
+1586290,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Memmingen,9331,FC Schweinfurt 05,1635,,,False
+1586287,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Wacker Burghausen,9337,SpVgg Unterhaching,1314,,,False
+1586292,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Schwaben Augsburg,12849,Eltersdorf,12762,,,False
+1586284,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Ansbach,14621,Augsburg II,9324,,,False
+1586289,2026-10-31T13:00:00+00:00,NS,Bayern - 17,Landsberg,14717,Bayern München II,4674,,,False
+1586301,2026-11-06T18:00:00+00:00,NS,Bayern - 18,Illertissen,9330,Ansbach,14621,,,False
+1586299,2026-11-07T13:00:00+00:00,NS,Bayern - 18,SpVgg Unterhaching,1314,Schwaben Augsburg,12849,,,False
+1586298,2026-11-07T13:00:00+00:00,NS,Bayern - 18,FC Schweinfurt 05,1635,Wacker Burghausen,9337,,,False
+1586294,2026-11-07T13:00:00+00:00,NS,Bayern - 18,Bayern München II,4674,Bayreuth,9325,,,False
+1586293,2026-11-07T13:00:00+00:00,NS,Bayern - 18,Augsburg II,9324,Memmingen,9331,,,False
+1586296,2026-11-07T13:00:00+00:00,NS,Bayern - 18,Greuther Fürth II,9328,Aubstadt,9323,,,False
+1586297,2026-11-07T13:00:00+00:00,NS,Bayern - 18,Nürnberg II,9332,Eichstätt,4262,,,False
+1586295,2026-11-07T13:00:00+00:00,NS,Bayern - 18,Eltersdorf,12762,TSV 1860 München,786,,,False
+1586300,2026-11-07T13:00:00+00:00,NS,Bayern - 18,Vilzing,12893,Landsberg,14717,,,False
+1586309,2026-11-14T13:00:00+00:00,NS,Bayern - 19,TSV 1860 München,786,SpVgg Unterhaching,1314,,,False
+1586307,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Eichstätt,4262,Augsburg II,9324,,,False
+1586303,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Aubstadt,9323,Eltersdorf,12762,,,False
+1586304,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Bayreuth,9325,Vilzing,12893,,,False
+1586305,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Buchbach,9326,Greuther Fürth II,9328,,,False
+1586306,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Wacker Burghausen,9337,Illertissen,9330,,,False
+1586310,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Schwaben Augsburg,12849,FC Schweinfurt 05,1635,,,False
+1586302,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Ansbach,14621,Bayern München II,4674,,,False
+1586308,2026-11-14T13:00:00+00:00,NS,Bayern - 19,Landsberg,14717,Nürnberg II,9332,,,False
+1586318,2026-11-21T13:00:00+00:00,NS,Bayern - 20,FC Schweinfurt 05,1635,Aubstadt,9323,,,False
+1586311,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Augsburg II,9324,Bayreuth,9325,,,False
+1586312,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Buchbach,9326,Schwaben Augsburg,12849,,,False
+1586315,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Greuther Fürth II,9328,SpVgg Unterhaching,1314,,,False
+1586319,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Illertissen,9330,Eichstätt,4262,,,False
+1586316,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Memmingen,9331,Landsberg,14717,,,False
+1586317,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Nürnberg II,9332,Vilzing,12893,,,False
+1586313,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Wacker Burghausen,9337,Ansbach,14621,,,False
+1586314,2026-11-21T13:00:00+00:00,NS,Bayern - 20,Eltersdorf,12762,Bayern München II,4674,,,False
+1586326,2026-11-28T13:00:00+00:00,NS,Bayern - 21,SpVgg Unterhaching,1314,Nürnberg II,9332,,,False
+1586323,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Eichstätt,4262,Buchbach,9326,,,False
+1586321,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Bayern München II,4674,Wacker Burghausen,9337,,,False
+1586322,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Bayreuth,9325,Greuther Fürth II,9328,,,False
+1586325,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Schwaben Augsburg,12849,Illertissen,9330,,,False
+1586327,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Vilzing,12893,Eltersdorf,12762,,,False
+1586320,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Ansbach,14621,Memmingen,9331,,,False
+1586324,2026-11-28T13:00:00+00:00,NS,Bayern - 21,Landsberg,14717,Augsburg II,9324,,,False
+1586328,2026-11-29T13:00:00+00:00,NS,Bayern - 21,TSV 1860 München,786,FC Schweinfurt 05,1635,,,False
+1586337,2026-12-05T13:00:00+00:00,NS,Bayern - 22,FC Schweinfurt 05,1635,Bayern München II,4674,,,False
+1586332,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Eichstätt,4262,Schwaben Augsburg,12849,,,False
+1586329,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Augsburg II,9324,TSV 1860 München,786,,,False
+1586330,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Buchbach,9326,Nürnberg II,9332,,,False
+1586334,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Greuther Fürth II,9328,Vilzing,12893,,,False
+1586335,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Illertissen,9330,Landsberg,14717,,,False
+1586336,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Memmingen,9331,Bayreuth,9325,,,False
+1586331,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Wacker Burghausen,9337,Aubstadt,9323,,,False
+1586333,2026-12-05T13:00:00+00:00,NS,Bayern - 22,Eltersdorf,12762,SpVgg Unterhaching,1314,,,False
+1586342,2027-02-20T13:00:00+00:00,NS,Bayern - 23,TSV 1860 München,786,Memmingen,9331,,,False
+1586345,2027-02-20T13:00:00+00:00,NS,Bayern - 23,SpVgg Unterhaching,1314,Illertissen,9330,,,False
+1586339,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Aubstadt,9323,Buchbach,9326,,,False
+1586340,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Bayreuth,9325,FC Schweinfurt 05,1635,,,False
+1586343,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Nürnberg II,9332,Eltersdorf,12762,,,False
+1586344,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Schwaben Augsburg,12849,Wacker Burghausen,9337,,,False
+1586346,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Vilzing,12893,Augsburg II,9324,,,False
+1586338,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Ansbach,14621,Eichstätt,4262,,,False
+1586341,2027-02-20T13:00:00+00:00,NS,Bayern - 23,Landsberg,14717,Greuther Fürth II,9328,,,False
+1586354,2027-02-27T13:00:00+00:00,NS,Bayern - 24,TSV 1860 München,786,Aubstadt,9323,,,False
+1586355,2027-02-27T13:00:00+00:00,NS,Bayern - 24,FC Schweinfurt 05,1635,Vilzing,12893,,,False
+1586350,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Eichstätt,4262,Landsberg,14717,,,False
+1586347,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Augsburg II,9324,Schwaben Augsburg,12849,,,False
+1586348,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Buchbach,9326,Ansbach,14621,,,False
+1586351,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Greuther Fürth II,9328,Eltersdorf,12762,,,False
+1586352,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Illertissen,9330,Bayreuth,9325,,,False
+1586353,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Memmingen,9331,Bayern München II,4674,,,False
+1586349,2027-02-27T13:00:00+00:00,NS,Bayern - 24,Wacker Burghausen,9337,Nürnberg II,9332,,,False
+1586363,2027-03-06T13:00:00+00:00,NS,Bayern - 25,SpVgg Unterhaching,1314,Memmingen,9331,,,False
+1586357,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Bayern München II,4674,Illertissen,9330,,,False
+1586356,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Aubstadt,9323,Eichstätt,4262,,,False
+1586358,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Bayreuth,9325,Buchbach,9326,,,False
+1586360,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Greuther Fürth II,9328,FC Schweinfurt 05,1635,,,False
+1586359,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Eltersdorf,12762,Augsburg II,9324,,,False
+1586362,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Schwaben Augsburg,12849,Ansbach,14621,,,False
+1586364,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Vilzing,12893,Wacker Burghausen,9337,,,False
+1586361,2027-03-06T13:00:00+00:00,NS,Bayern - 25,Landsberg,14717,TSV 1860 München,786,,,False
+1586372,2027-03-13T13:00:00+00:00,NS,Bayern - 26,TSV 1860 München,786,Vilzing,12893,,,False
+1586373,2027-03-13T13:00:00+00:00,NS,Bayern - 26,FC Schweinfurt 05,1635,Nürnberg II,9332,,,False
+1586369,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Eichstätt,4262,Bayern München II,4674,,,False
+1586366,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Augsburg II,9324,SpVgg Unterhaching,1314,,,False
+1586367,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Buchbach,9326,Landsberg,14717,,,False
+1586370,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Illertissen,9330,Eltersdorf,12762,,,False
+1586371,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Memmingen,9331,Schwaben Augsburg,12849,,,False
+1586368,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Wacker Burghausen,9337,Bayreuth,9325,,,False
+1586365,2027-03-13T13:00:00+00:00,NS,Bayern - 26,Ansbach,14621,Aubstadt,9323,,,False
+1586381,2027-03-20T13:00:00+00:00,NS,Bayern - 27,SpVgg Unterhaching,1314,Aubstadt,9323,,,False
+1586380,2027-03-20T13:00:00+00:00,NS,Bayern - 27,FC Schweinfurt 05,1635,Eichstätt,4262,,,False
+1586374,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Bayern München II,4674,Buchbach,9326,,,False
+1586375,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Bayreuth,9325,Ansbach,14621,,,False
+1586376,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Greuther Fürth II,9328,Augsburg II,9324,,,False
+1586378,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Nürnberg II,9332,Illertissen,9330,,,False
+1586379,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Schwaben Augsburg,12849,TSV 1860 München,786,,,False
+1586382,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Vilzing,12893,Memmingen,9331,,,False
+1586377,2027-03-20T13:00:00+00:00,NS,Bayern - 27,Landsberg,14717,Wacker Burghausen,9337,,,False
+1586390,2027-03-25T16:00:00+00:00,NS,Bayern - 28,TSV 1860 München,786,Greuther Fürth II,9328,,,False
+1586388,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Eichstätt,4262,Eltersdorf,12762,,,False
+1586384,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Aubstadt,9323,Bayreuth,9325,,,False
+1586385,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Augsburg II,9324,Bayern München II,4674,,,False
+1586386,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Buchbach,9326,SpVgg Unterhaching,1314,,,False
+1586389,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Illertissen,9330,FC Schweinfurt 05,1635,,,False
+1586387,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Wacker Burghausen,9337,Memmingen,9331,,,False
+1586391,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Schwaben Augsburg,12849,Nürnberg II,9332,,,False
+1586383,2027-03-25T16:00:00+00:00,NS,Bayern - 28,Ansbach,14621,Vilzing,12893,,,False
+1586400,2027-03-29T15:00:00+00:00,NS,Bayern - 29,SpVgg Unterhaching,1314,Bayreuth,9325,,,False
+1586399,2027-03-29T15:00:00+00:00,NS,Bayern - 29,FC Schweinfurt 05,1635,Buchbach,9326,,,False
+1586393,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Bayern München II,4674,Aubstadt,9323,,,False
+1586392,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Augsburg II,9324,Wacker Burghausen,9337,,,False
+1586395,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Greuther Fürth II,9328,Eichstätt,4262,,,False
+1586397,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Memmingen,9331,Illertissen,9330,,,False
+1586398,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Nürnberg II,9332,TSV 1860 München,786,,,False
+1586394,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Eltersdorf,12762,Ansbach,14621,,,False
+1586396,2027-03-29T15:00:00+00:00,NS,Bayern - 29,Landsberg,14717,Schwaben Augsburg,12849,,,False
+1586407,2027-04-03T12:00:00+00:00,NS,Bayern - 30,TSV 1860 München,786,Wacker Burghausen,9337,,,False
+1586405,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Eichstätt,4262,SpVgg Unterhaching,1314,,,False
+1586402,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Aubstadt,9323,Augsburg II,9324,,,False
+1586403,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Bayreuth,9325,Eltersdorf,12762,,,False
+1586404,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Buchbach,9326,Memmingen,9331,,,False
+1586406,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Illertissen,9330,Vilzing,12893,,,False
+1586408,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Nürnberg II,9332,Greuther Fürth II,9328,,,False
+1586409,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Schwaben Augsburg,12849,Bayern München II,4674,,,False
+1586401,2027-04-03T12:00:00+00:00,NS,Bayern - 30,Ansbach,14621,Landsberg,14717,,,False
+1586417,2027-04-10T12:00:00+00:00,NS,Bayern - 31,FC Schweinfurt 05,1635,SpVgg Unterhaching,1314,,,False
+1586412,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Bayern München II,4674,Greuther Fürth II,9328,,,False
+1586411,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Augsburg II,9324,Nürnberg II,9332,,,False
+1586416,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Memmingen,9331,Aubstadt,9323,,,False
+1586413,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Wacker Burghausen,9337,Eichstätt,4262,,,False
+1586414,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Eltersdorf,12762,Buchbach,9326,,,False
+1586418,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Vilzing,12893,Schwaben Augsburg,12849,,,False
+1586410,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Ansbach,14621,TSV 1860 München,786,,,False
+1586415,2027-04-10T12:00:00+00:00,NS,Bayern - 31,Landsberg,14717,Bayreuth,9325,,,False
+1586425,2027-04-13T15:30:00+00:00,NS,Bayern - 32,TSV 1860 München,786,Illertissen,9330,,,False
+1586427,2027-04-13T15:30:00+00:00,NS,Bayern - 32,SpVgg Unterhaching,1314,Bayern München II,4674,,,False
+1586422,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Eichstätt,4262,Memmingen,9331,,,False
+1586419,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Aubstadt,9323,Landsberg,14717,,,False
+1586420,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Bayreuth,9325,Schwaben Augsburg,12849,,,False
+1586421,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Buchbach,9326,Vilzing,12893,,,False
+1586424,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Greuther Fürth II,9328,Wacker Burghausen,9337,,,False
+1586426,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Nürnberg II,9332,Ansbach,14621,,,False
+1586423,2027-04-13T15:30:00+00:00,NS,Bayern - 32,Eltersdorf,12762,FC Schweinfurt 05,1635,,,False
+1586430,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Bayern München II,4674,Nürnberg II,9332,,,False
+1586429,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Augsburg II,9324,Buchbach,9326,,,False
+1586431,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Bayreuth,9325,TSV 1860 München,786,,,False
+1586433,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Illertissen,9330,Aubstadt,9323,,,False
+1586435,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Memmingen,9331,Greuther Fürth II,9328,,,False
+1586432,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Wacker Burghausen,9337,Eltersdorf,12762,,,False
+1586436,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Vilzing,12893,Eichstätt,4262,,,False
+1586428,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Ansbach,14621,FC Schweinfurt 05,1635,,,False
+1586434,2027-04-17T12:00:00+00:00,NS,Bayern - 33,Landsberg,14717,SpVgg Unterhaching,1314,,,False
+1586445,2027-04-24T12:00:00+00:00,NS,Bayern - 34,SpVgg Unterhaching,1314,Vilzing,12893,,,False
+1586444,2027-04-24T12:00:00+00:00,NS,Bayern - 34,FC Schweinfurt 05,1635,Augsburg II,9324,,,False
+1586440,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Eichstätt,4262,Bayreuth,9325,,,False
+1586438,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Bayern München II,4674,TSV 1860 München,786,,,False
+1586437,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Aubstadt,9323,Schwaben Augsburg,12849,,,False
+1586439,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Buchbach,9326,Illertissen,9330,,,False
+1586442,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Greuther Fürth II,9328,Ansbach,14621,,,False
+1586443,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Nürnberg II,9332,Memmingen,9331,,,False
+1586441,2027-04-24T12:00:00+00:00,NS,Bayern - 34,Eltersdorf,12762,Landsberg,14717,,,False
+1586452,2027-05-01T12:00:00+00:00,NS,Bayern - 35,TSV 1860 München,786,Eichstätt,4262,,,False
+1586447,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Aubstadt,9323,Nürnberg II,9332,,,False
+1586449,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Illertissen,9330,Augsburg II,9324,,,False
+1586451,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Memmingen,9331,Eltersdorf,12762,,,False
+1586448,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Wacker Burghausen,9337,Buchbach,9326,,,False
+1586453,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Schwaben Augsburg,12849,Greuther Fürth II,9328,,,False
+1586454,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Vilzing,12893,Bayern München II,4674,,,False
+1586446,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Ansbach,14621,SpVgg Unterhaching,1314,,,False
+1586450,2027-05-01T12:00:00+00:00,NS,Bayern - 35,Landsberg,14717,FC Schweinfurt 05,1635,,,False
+1586462,2027-05-08T12:00:00+00:00,NS,Bayern - 36,SpVgg Unterhaching,1314,Wacker Burghausen,9337,,,False
+1586461,2027-05-08T12:00:00+00:00,NS,Bayern - 36,FC Schweinfurt 05,1635,Memmingen,9331,,,False
+1586456,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Bayern München II,4674,Landsberg,14717,,,False
+1586455,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Augsburg II,9324,Ansbach,14621,,,False
+1586457,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Buchbach,9326,TSV 1860 München,786,,,False
+1586459,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Greuther Fürth II,9328,Illertissen,9330,,,False
+1586460,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Nürnberg II,9332,Bayreuth,9325,,,False
+1586458,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Eltersdorf,12762,Schwaben Augsburg,12849,,,False
+1586463,2027-05-08T12:00:00+00:00,NS,Bayern - 36,Vilzing,12893,Aubstadt,9323,,,False
+1586471,2027-05-15T12:00:00+00:00,NS,Bayern - 37,TSV 1860 München,786,Eltersdorf,12762,,,False
+1586468,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Eichstätt,4262,Nürnberg II,9332,,,False
+1586465,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Aubstadt,9323,Greuther Fürth II,9328,,,False
+1586466,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Bayreuth,9325,Bayern München II,4674,,,False
+1586470,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Memmingen,9331,Augsburg II,9324,,,False
+1586467,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Wacker Burghausen,9337,FC Schweinfurt 05,1635,,,False
+1586472,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Schwaben Augsburg,12849,SpVgg Unterhaching,1314,,,False
+1586464,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Ansbach,14621,Illertissen,9330,,,False
+1586469,2027-05-15T12:00:00+00:00,NS,Bayern - 37,Landsberg,14717,Vilzing,12893,,,False
+1586480,2027-05-22T12:00:00+00:00,NS,Bayern - 38,SpVgg Unterhaching,1314,TSV 1860 München,786,,,False
+1586479,2027-05-22T12:00:00+00:00,NS,Bayern - 38,FC Schweinfurt 05,1635,Schwaben Augsburg,12849,,,False
+1586474,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Bayern München II,4674,Ansbach,14621,,,False
+1586473,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Augsburg II,9324,Eichstätt,4262,,,False
+1586476,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Greuther Fürth II,9328,Buchbach,9326,,,False
+1586477,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Illertissen,9330,Wacker Burghausen,9337,,,False
+1586478,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Nürnberg II,9332,Landsberg,14717,,,False
+1586475,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Eltersdorf,12762,Aubstadt,9323,,,False
+1586481,2027-05-22T12:00:00+00:00,NS,Bayern - 38,Vilzing,12893,Bayreuth,9325,,,False

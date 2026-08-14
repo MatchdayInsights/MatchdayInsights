@@ -1,22 +1,22 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1531574,2026-04-11T18:00:00+00:00,FT,Jacyobá,9126,Sete de Setembro,9129,0,1,True
-1531576,2026-04-12T18:00:00+00:00,FT,Miguelense,9128,Aliança AL,15603,2,1,True
-1531575,2026-04-12T18:00:00+00:00,FT,Zumbi,22960,Sao Domingos AL,25008,3,0,True
-1531578,2026-04-18T18:00:00+00:00,FT,Aliança AL,15603,Zumbi,22960,1,1,True
-1531579,2026-04-19T18:00:00+00:00,FT,Sete de Setembro,9129,Miguelense,9128,4,1,True
-1531577,2026-04-19T18:00:00+00:00,FT,Sao Domingos AL,25008,Jacyobá,9126,0,0,True
-1531582,2026-04-22T18:00:00+00:00,FT,Miguelense,9128,Sao Domingos AL,25008,4,0,True
-1531581,2026-04-22T18:00:00+00:00,FT,Aliança AL,15603,Sete de Setembro,9129,1,6,True
-1531580,2026-04-22T18:00:00+00:00,FT,Zumbi,22960,Jacyobá,9126,2,0,True
-1531583,2026-04-25T18:00:00+00:00,FT,Jacyobá,9126,Miguelense,9128,0,1,True
-1531585,2026-04-26T18:00:00+00:00,FT,Zumbi,22960,Sete de Setembro,9129,1,0,True
-1531584,2026-04-26T18:00:00+00:00,FT,Sao Domingos AL,25008,Aliança AL,15603,2,6,True
-1531587,2026-05-02T18:00:00+00:00,FT,Miguelense,9128,Zumbi,22960,0,1,True
-1531588,2026-05-02T18:00:00+00:00,FT,Sete de Setembro,9129,Sao Domingos AL,25008,3,0,True
-1531586,2026-05-02T18:00:00+00:00,FT,Aliança AL,15603,Jacyobá,9126,9,0,True
-1544066,2026-05-10T18:00:00+00:00,FT,Miguelense,9128,Sete de Setembro,9129,0,3,True
-1544065,2026-05-10T18:00:00+00:00,FT,Aliança AL,15603,Zumbi,22960,0,0,True
-1544067,2026-05-17T18:00:00+00:00,FT,Sete de Setembro,9129,Miguelense,9128,2,0,True
-1544068,2026-05-17T18:00:00+00:00,FT,Zumbi,22960,Aliança AL,15603,1,0,True
-1545428,2026-05-24T18:00:00+00:00,FT,Zumbi,22960,Sete de Setembro,9129,0,2,True
-1545429,2026-05-31T17:30:00+00:00,FT,Sete de Setembro,9129,Zumbi,22960,2,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1531574,2026-04-11T18:00:00+00:00,FT,Group Stage - 1,Jacyobá,9126,Sete de Setembro,9129,0,1,True
+1531576,2026-04-12T18:00:00+00:00,FT,Group Stage - 1,Miguelense,9128,Aliança AL,15603,2,1,True
+1531575,2026-04-12T18:00:00+00:00,FT,Group Stage - 1,Zumbi,22960,Sao Domingos AL,25008,3,0,True
+1531578,2026-04-18T18:00:00+00:00,FT,Group Stage - 2,Aliança AL,15603,Zumbi,22960,1,1,True
+1531579,2026-04-19T18:00:00+00:00,FT,Group Stage - 2,Sete de Setembro,9129,Miguelense,9128,4,1,True
+1531577,2026-04-19T18:00:00+00:00,FT,Group Stage - 2,Sao Domingos AL,25008,Jacyobá,9126,0,0,True
+1531582,2026-04-22T18:00:00+00:00,FT,Group Stage - 3,Miguelense,9128,Sao Domingos AL,25008,4,0,True
+1531581,2026-04-22T18:00:00+00:00,FT,Group Stage - 3,Aliança AL,15603,Sete de Setembro,9129,1,6,True
+1531580,2026-04-22T18:00:00+00:00,FT,Group Stage - 3,Zumbi,22960,Jacyobá,9126,2,0,True
+1531583,2026-04-25T18:00:00+00:00,FT,Group Stage - 4,Jacyobá,9126,Miguelense,9128,0,1,True
+1531585,2026-04-26T18:00:00+00:00,FT,Group Stage - 4,Zumbi,22960,Sete de Setembro,9129,1,0,True
+1531584,2026-04-26T18:00:00+00:00,FT,Group Stage - 4,Sao Domingos AL,25008,Aliança AL,15603,2,6,True
+1531587,2026-05-02T18:00:00+00:00,FT,Group Stage - 5,Miguelense,9128,Zumbi,22960,0,1,True
+1531588,2026-05-02T18:00:00+00:00,FT,Group Stage - 5,Sete de Setembro,9129,Sao Domingos AL,25008,3,0,True
+1531586,2026-05-02T18:00:00+00:00,FT,Group Stage - 5,Aliança AL,15603,Jacyobá,9126,9,0,True
+1544066,2026-05-10T18:00:00+00:00,FT,Semi-finals,Miguelense,9128,Sete de Setembro,9129,0,3,True
+1544065,2026-05-10T18:00:00+00:00,FT,Semi-finals,Aliança AL,15603,Zumbi,22960,0,0,True
+1544067,2026-05-17T18:00:00+00:00,FT,Semi-finals,Sete de Setembro,9129,Miguelense,9128,2,0,True
+1544068,2026-05-17T18:00:00+00:00,FT,Semi-finals,Zumbi,22960,Aliança AL,15603,1,0,True
+1545428,2026-05-24T18:00:00+00:00,FT,Final,Zumbi,22960,Sete de Setembro,9129,0,2,True
+1545429,2026-05-31T17:30:00+00:00,FT,Final,Sete de Setembro,9129,Zumbi,22960,2,2,True

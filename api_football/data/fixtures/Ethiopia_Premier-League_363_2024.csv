@@ -1,218 +1,319 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1302258,2025-01-03T12:00:00+00:00,FT,Arba Minch Kenema,4126,Sidama Bunna,4123,0,1,True
-1302259,2025-01-03T15:00:00+00:00,FT,Fasil Ketema,4117,Awassa Kenema,4111,0,0,True
-1302265,2025-01-04T12:00:00+00:00,FT,Bahardar,4112,Dire Dawa Kenema,4115,1,1,True
-1302261,2025-01-04T15:00:00+00:00,FT,Kedus Giorgis,4119,Mebrat Hayl,4127,2,1,True
-1302260,2025-01-05T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Adama Kenema,4110,0,3,True
-1302263,2025-01-05T15:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Mekelle Kenema,4121,0,0,True
-1302266,2025-01-06T12:00:00+00:00,FT,Ethiopian Medhin,20030,Suhul Shire,9986,3,1,True
-1302264,2025-01-06T15:00:00+00:00,FT,Mekelakeya,4120,Hadiya Hosaena,9983,0,1,True
-1302273,2025-01-08T12:00:00+00:00,FT,Awassa Kenema,4111,Bahardar,4112,0,1,True
-1302274,2025-01-08T15:00:00+00:00,FT,Dire Dawa Kenema,4115,Ethiopia Bunna,4116,0,0,True
-1302269,2025-01-09T12:00:00+00:00,FT,Mekelle Kenema,4121,Welwalo Adigrat Uni,4125,1,0,True
-1302268,2025-01-09T15:00:00+00:00,FT,Adama Kenema,4110,Kedus Giorgis,4119,1,2,True
-1302271,2025-01-10T12:00:00+00:00,FT,Suhul Shire,9986,Mekelakeya,4120,1,2,True
-1302270,2025-01-10T15:00:00+00:00,FT,Sidama Bunna,4123,Ethiopia Nigd Bank,4130,1,1,True
-1302272,2025-01-11T12:00:00+00:00,FT,Hadiya Hosaena,9983,Fasil Ketema,4117,1,1,True
-1302275,2025-01-11T15:00:00+00:00,FT,Welayta Dicha,4124,Ethiopian Medhin,20030,1,2,True
-1330224,2025-01-13T12:00:00+00:00,FT,Kedus Giorgis,4119,Suhul Shire,9986,1,0,True
-1330225,2025-01-13T15:00:00+00:00,FT,Arba Minch Kenema,4126,Adama Kenema,4110,2,0,True
-1330226,2025-01-14T12:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Mebrat Hayl,4127,1,0,True
-1330227,2025-01-14T15:00:00+00:00,FT,Mekelakeya,4120,Dire Dawa Kenema,4115,0,0,True
-1330228,2025-01-15T12:00:00+00:00,FT,Sidama Bunna,4123,Mekelle Kenema,4121,0,0,True
-1330229,2025-01-15T15:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Welayta Dicha,4124,0,2,True
-1330230,2025-01-16T12:00:00+00:00,FT,Fasil Ketema,4117,Ethiopia Bunna,4116,0,1,True
-1330231,2025-01-16T15:00:00+00:00,FT,Ethiopian Medhin,20030,Awassa Kenema,4111,2,0,True
-1330232,2025-01-18T12:00:00+00:00,FT,Dire Dawa Kenema,4115,Kedus Giorgis,4119,0,2,True
-1330233,2025-01-18T15:00:00+00:00,FT,Suhul Shire,9986,Arba Minch Kenema,4126,0,1,True
-1330234,2025-01-19T12:00:00+00:00,FT,Welayta Dicha,4124,Sidama Bunna,4123,0,0,True
-1330235,2025-01-19T15:00:00+00:00,FT,Mebrat Hayl,4127,Mekelle Kenema,4121,0,1,True
-1330236,2025-01-20T12:00:00+00:00,FT,Hadiya Hosaena,9983,Ethiopia Nigd Bank,4130,1,0,True
-1330237,2025-01-20T15:00:00+00:00,FT,Bahardar,4112,Ethiopian Medhin,20030,0,1,True
-1330238,2025-01-21T12:00:00+00:00,FT,Awassa Kenema,4111,Welwalo Adigrat Uni,4125,1,1,True
-1330239,2025-01-21T15:00:00+00:00,FT,Fasil Ketema,4117,Mekelakeya,4120,1,1,True
-1330240,2025-01-23T12:00:00+00:00,FT,Arba Minch Kenema,4126,Welayta Dicha,4124,2,1,True
-1330241,2025-01-23T15:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Suhul Shire,9986,1,1,True
-1330242,2025-01-24T12:00:00+00:00,FT,Mekelle Kenema,4121,Adama Kenema,4110,2,0,True
-1330243,2025-01-24T15:00:00+00:00,FT,Ethiopian Medhin,20030,Ethiopia Bunna,4116,1,0,True
-1330244,2025-01-25T12:00:00+00:00,FT,Mekelakeya,4120,Bahardar,4112,1,1,True
-1330245,2025-01-25T15:00:00+00:00,FT,Kedus Giorgis,4119,Awassa Kenema,4111,1,1,True
-1330246,2025-01-26T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Hadiya Hosaena,9983,1,0,True
-1330247,2025-01-26T15:00:00+00:00,FT,Sidama Bunna,4123,Mebrat Hayl,4127,0,2,True
-1330248,2025-01-28T12:00:00+00:00,FT,Mekelle Kenema,4121,Arba Minch Kenema,4126,2,2,True
-1330249,2025-01-28T15:00:00+00:00,FT,Adama Kenema,4110,Ethiopia Nigd Bank,4130,0,2,True
-1330250,2025-01-29T12:00:00+00:00,FT,Welayta Dicha,4124,Kedus Giorgis,4119,0,2,True
-1330251,2025-01-29T15:00:00+00:00,FT,Ethiopia Bunna,4116,Bahardar,4112,3,1,True
-1330252,2025-01-30T12:00:00+00:00,FT,Mebrat Hayl,4127,Welwalo Adigrat Uni,4125,1,1,True
-1330253,2025-01-30T15:00:00+00:00,FT,Awassa Kenema,4111,Mekelakeya,4120,1,0,True
-1330254,2025-01-31T12:00:00+00:00,FT,Hadiya Hosaena,9983,Ethiopian Medhin,20030,0,1,True
-1330255,2025-01-31T15:00:00+00:00,FT,Dire Dawa Kenema,4115,Fasil Ketema,4117,1,2,True
-1330256,2025-02-02T12:00:00+00:00,FT,Kedus Giorgis,4119,Ethiopia Bunna,4116,0,0,True
-1330257,2025-02-02T15:00:00+00:00,FT,Sidama Bunna,4123,Suhul Shire,9986,1,0,True
-1330258,2025-02-03T12:00:00+00:00,FT,Adama Kenema,4110,Mebrat Hayl,4127,0,3,True
-1330259,2025-02-03T15:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Dire Dawa Kenema,4115,1,1,True
-1330260,2025-02-04T12:00:00+00:00,FT,Mekelle Kenema,4121,Welayta Dicha,4124,0,1,True
-1330261,2025-02-04T15:00:00+00:00,FT,Arba Minch Kenema,4126,Hadiya Hosaena,9983,3,3,True
-1330262,2025-02-05T12:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Awassa Kenema,4111,2,0,True
-1330263,2025-02-05T15:00:00+00:00,FT,Ethiopian Medhin,20030,Fasil Ketema,4117,0,1,True
-1330264,2025-02-07T12:00:00+00:00,FT,Adama Kenema,4110,Sidama Bunna,4123,0,0,True
-1330265,2025-02-07T15:00:00+00:00,FT,Suhul Shire,9986,Welwalo Adigrat Uni,4125,1,0,True
-1330266,2025-02-08T12:00:00+00:00,FT,Ethiopia Bunna,4116,Mekelakeya,4120,1,0,True
-1330267,2025-02-08T15:00:00+00:00,FT,Hadiya Hosaena,9983,Kedus Giorgis,4119,1,0,True
-1330268,2025-02-09T12:00:00+00:00,FT,Bahardar,4112,Fasil Ketema,4117,2,1,True
-1330269,2025-02-09T15:00:00+00:00,FT,Welayta Dicha,4124,Ethiopia Nigd Bank,4130,1,1,True
-1330270,2025-02-10T12:00:00+00:00,FT,Mebrat Hayl,4127,Arba Minch Kenema,4126,2,1,True
-1330271,2025-02-10T15:00:00+00:00,FT,Dire Dawa Kenema,4115,Ethiopian Medhin,20030,0,3,True
-1347943,2025-02-27T12:00:00+00:00,FT,Awassa Kenema,4111,Hadiya Hosaena,9983,0,0,True
-1347944,2025-02-27T15:00:00+00:00,FT,Mekelle Kenema,4121,Ethiopia Nigd Bank,4130,0,1,True
-1347947,2025-02-28T06:30:00+00:00,FT,Sidama Bunna,4123,Welwalo Adigrat Uni,4125,1,1,True
-1347945,2025-02-28T12:00:00+00:00,FT,Suhul Shire,9986,Ethiopia Bunna,4116,0,1,True
-1347946,2025-02-28T15:00:00+00:00,FT,Mebrat Hayl,4127,Adama Kenema,4110,0,2,True
-1347948,2025-03-01T12:00:00+00:00,FT,Ethiopian Medhin,20030,Welayta Dicha,4124,0,1,True
-1347949,2025-03-01T15:00:00+00:00,FT,Arba Minch Kenema,4126,Fasil Ketema,4117,1,0,True
-1347950,2025-03-02T12:00:00+00:00,FT,Dire Dawa Kenema,4115,Mekelakeya,4120,0,0,True
-1347951,2025-03-02T15:00:00+00:00,FT,Kedus Giorgis,4119,Bahardar,4112,1,4,True
-1347952,2025-03-04T12:00:00+00:00,FT,Mebrat Hayl,4127,Ethiopia Bunna,4116,0,1,True
-1347953,2025-03-04T15:00:00+00:00,FT,Sidama Bunna,4123,Hadiya Hosaena,9983,1,1,True
-1347956,2025-03-05T06:30:00+00:00,FT,Suhul Shire,9986,Ethiopia Nigd Bank,4130,0,1,True
-1347954,2025-03-05T12:00:00+00:00,FT,Mekelle Kenema,4121,Awassa Kenema,4111,2,5,True
-1347955,2025-03-05T15:00:00+00:00,FT,Adama Kenema,4110,Arba Minch Kenema,4126,1,3,True
-1347957,2025-03-06T12:00:00+00:00,FT,Fasil Ketema,4117,Bahardar,4112,0,0,True
-1347958,2025-03-06T15:00:00+00:00,FT,Kedus Giorgis,4119,Welayta Dicha,4124,0,1,True
-1347959,2025-03-07T12:00:00+00:00,FT,Mekelakeya,4120,Welwalo Adigrat Uni,4125,0,0,True
-1347960,2025-03-07T15:00:00+00:00,FT,Ethiopian Medhin,20030,Dire Dawa Kenema,4115,1,0,True
-1347961,2025-03-09T12:00:00+00:00,FT,Awassa Kenema,4111,Ethiopia Bunna,4116,0,0,True
-1347962,2025-03-09T15:00:00+00:00,FT,Mebrat Hayl,4127,Suhul Shire,9986,1,0,True
-1347963,2025-03-10T12:00:00+00:00,FT,Hadiya Hosaena,9983,Bahardar,4112,0,1,True
-1347964,2025-03-10T15:00:00+00:00,FT,Sidama Bunna,4123,Adama Kenema,4110,0,0,True
-1347965,2025-03-11T12:00:00+00:00,FT,Ethiopian Medhin,20030,Ethiopia Nigd Bank,4130,2,1,True
-1347966,2025-03-11T15:00:00+00:00,FT,Welayta Dicha,4124,Welwalo Adigrat Uni,4125,1,0,True
-1347969,2025-03-12T06:30:00+00:00,FT,Arba Minch Kenema,4126,Mekelle Kenema,4121,0,1,True
-1347967,2025-03-12T12:00:00+00:00,FT,Mekelakeya,4120,Fasil Ketema,4117,2,4,True
-1347968,2025-03-12T15:00:00+00:00,FT,Kedus Giorgis,4119,Dire Dawa Kenema,4115,0,0,True
-1347970,2025-04-02T12:00:00+00:00,FT,Kedus Giorgis,4119,Hadiya Hosaena,9983,0,0,True
-1347971,2025-04-02T15:00:00+00:00,FT,Adama Kenema,4110,Dire Dawa Kenema,4115,1,3,True
-1347974,2025-04-03T06:30:00+00:00,FT,Welwalo Adigrat Uni,4125,Fasil Ketema,4117,1,2,True
-1347972,2025-04-03T12:00:00+00:00,FT,Welayta Dicha,4124,Mekelle Kenema,4121,1,0,True
-1347973,2025-04-03T15:00:00+00:00,FT,Awassa Kenema,4111,Ethiopian Medhin,20030,1,2,True
-1347975,2025-04-04T12:00:00+00:00,FT,Bahardar,4112,Suhul Shire,9986,0,0,True
-1347976,2025-04-04T15:00:00+00:00,FT,Mekelakeya,4120,Ethiopia Bunna,4116,0,1,True
-1347977,2025-04-05T12:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Sidama Bunna,4123,2,1,True
-1347978,2025-04-05T15:00:00+00:00,FT,Arba Minch Kenema,4126,Mebrat Hayl,4127,2,0,True
-1347979,2025-04-07T12:00:00+00:00,FT,Fasil Ketema,4117,Kedus Giorgis,4119,2,1,True
-1347980,2025-04-07T15:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Ethiopian Medhin,20030,1,1,True
-1347983,2025-04-08T06:30:00+00:00,FT,Adama Kenema,4110,Welayta Dicha,4124,0,0,True
-1347981,2025-04-08T12:00:00+00:00,FT,Hadiya Hosaena,9983,Dire Dawa Kenema,4115,1,1,True
-1347982,2025-04-08T15:00:00+00:00,FT,Mekelakeya,4120,Mekelle Kenema,4121,1,0,True
-1347984,2025-04-09T12:00:00+00:00,FT,Mebrat Hayl,4127,Awassa Kenema,4111,1,1,True
-1347985,2025-04-09T15:00:00+00:00,FT,Suhul Shire,9986,Sidama Bunna,4123,0,1,True
-1347986,2025-04-10T12:00:00+00:00,FT,Arba Minch Kenema,4126,Ethiopia Nigd Bank,4130,1,1,True
-1347987,2025-04-10T15:00:00+00:00,FT,Bahardar,4112,Ethiopia Bunna,4116,2,0,True
-1347988,2025-04-13T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Suhul Shire,9986,1,1,True
-1347989,2025-04-13T15:00:00+00:00,FT,Hadiya Hosaena,9983,Mekelle Kenema,4121,0,2,True
-1347992,2025-04-14T06:30:00+00:00,FT,Kedus Giorgis,4119,Ethiopia Nigd Bank,4130,0,1,True
-1347990,2025-04-14T12:00:00+00:00,FT,Sidama Bunna,4123,Bahardar,4112,1,0,True
-1347991,2025-04-14T15:00:00+00:00,FT,Awassa Kenema,4111,Welayta Dicha,4124,1,0,True
-1347993,2025-04-15T12:00:00+00:00,FT,Ethiopia Bunna,4116,Fasil Ketema,4117,1,0,True
-1347994,2025-04-15T15:00:00+00:00,FT,Mekelakeya,4120,Arba Minch Kenema,4126,1,0,True
-1347995,2025-04-16T12:00:00+00:00,FT,Ethiopian Medhin,20030,Adama Kenema,4110,3,1,True
-1347997,2025-04-19T12:00:00+00:00,FT,Welayta Dicha,4124,Hadiya Hosaena,9983,1,3,True
-1347998,2025-04-19T15:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Kedus Giorgis,4119,1,3,True
-1347999,2025-04-20T12:00:00+00:00,FT,Ethiopia Bunna,4116,Sidama Bunna,4123,0,1,True
-1348000,2025-04-20T15:00:00+00:00,FT,Arba Minch Kenema,4126,Suhul Shire,9986,0,0,True
-1348003,2025-04-21T06:30:00+00:00,FT,Adama Kenema,4110,Mekelakeya,4120,0,2,True
-1348001,2025-04-21T12:00:00+00:00,FT,Fasil Ketema,4117,Dire Dawa Kenema,4115,0,1,True
-1348002,2025-04-21T15:00:00+00:00,FT,Bahardar,4112,Mekelle Kenema,4121,4,1,True
-1348004,2025-04-22T12:00:00+00:00,FT,Mebrat Hayl,4127,Ethiopian Medhin,20030,0,2,True
-1348005,2025-04-22T15:00:00+00:00,FT,Awassa Kenema,4111,Ethiopia Nigd Bank,4130,2,1,True
-1347996,2025-04-28T05:30:00+00:00,FT,Dire Dawa Kenema,4115,Mebrat Hayl,4127,0,2,True
-1348006,2025-04-30T12:00:00+00:00,FT,Suhul Shire,9986,Welayta Dicha,4124,1,1,True
-1348007,2025-04-30T15:00:00+00:00,FT,Adama Kenema,4110,Welwalo Adigrat Uni,4125,1,1,True
-1348010,2025-05-01T06:30:00+00:00,FT,Ethiopia Bunna,4116,Dire Dawa Kenema,4115,2,0,True
-1348008,2025-05-01T12:00:00+00:00,FT,Fasil Ketema,4117,Hadiya Hosaena,9983,1,1,True
-1348009,2025-05-01T15:00:00+00:00,FT,Mekelle Kenema,4121,Kedus Giorgis,4119,0,1,True
-1348011,2025-05-02T12:00:00+00:00,FT,Bahardar,4112,Mebrat Hayl,4127,2,0,True
-1348012,2025-05-02T15:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Mekelakeya,4120,0,0,True
-1348013,2025-05-03T12:00:00+00:00,FT,Arba Minch Kenema,4126,Ethiopian Medhin,20030,0,2,True
-1348014,2025-05-03T15:00:00+00:00,FT,Awassa Kenema,4111,Sidama Bunna,4123,1,1,True
-1348015,2025-05-05T12:00:00+00:00,FT,Adama Kenema,4110,Mekelle Kenema,4121,0,0,True
-1348016,2025-05-05T15:00:00+00:00,FT,Ethiopia Bunna,4116,Hadiya Hosaena,9983,1,0,True
-1348019,2025-05-06T06:30:00+00:00,FT,Mebrat Hayl,4127,Kedus Giorgis,4119,0,1,True
-1348017,2025-05-06T12:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Welwalo Adigrat Uni,4125,2,2,True
-1348018,2025-05-06T15:00:00+00:00,FT,Suhul Shire,9986,Fasil Ketema,4117,1,1,True
-1348020,2025-05-07T12:00:00+00:00,FT,Welayta Dicha,4124,Arba Minch Kenema,4126,2,1,True
-1348022,2025-05-08T10:00:00+00:00,FT,Dire Dawa Kenema,4115,Awassa Kenema,4111,0,1,True
-1348023,2025-05-08T13:00:00+00:00,FT,Sidama Bunna,4123,Mekelakeya,4120,2,2,True
-1348021,2025-05-09T13:00:00+00:00,FT,Ethiopian Medhin,20030,Bahardar,4112,1,2,True
-1348024,2025-05-11T12:00:00+00:00,FT,Kedus Giorgis,4119,Adama Kenema,4110,0,1,True
-1348025,2025-05-11T15:00:00+00:00,FT,Ethiopia Bunna,4116,Welayta Dicha,4124,1,0,True
-1348026,2025-05-12T12:00:00+00:00,FT,Arba Minch Kenema,4126,Awassa Kenema,4111,0,1,True
-1348027,2025-05-12T15:00:00+00:00,FT,Mebrat Hayl,4127,Sidama Bunna,4123,1,2,True
-1348030,2025-05-13T06:30:00+00:00,FT,Fasil Ketema,4117,Ethiopian Medhin,20030,0,2,True
-1348028,2025-05-13T12:00:00+00:00,FT,Dire Dawa Kenema,4115,Mekelle Kenema,4121,1,1,True
-1348029,2025-05-13T15:00:00+00:00,FT,Hadiya Hosaena,9983,Welwalo Adigrat Uni,4125,3,2,True
-1348031,2025-05-14T12:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Bahardar,4112,0,0,True
-1348032,2025-05-14T15:00:00+00:00,FT,Mekelakeya,4120,Suhul Shire,9986,1,1,True
-1348033,2025-05-16T12:00:00+00:00,FT,Sidama Bunna,4123,Welayta Dicha,4124,1,0,True
-1348034,2025-05-16T15:00:00+00:00,FT,Awassa Kenema,4111,Kedus Giorgis,4119,2,1,True
-1348035,2025-05-17T12:00:00+00:00,FT,Mekelle Kenema,4121,Ethiopian Medhin,20030,0,1,True
-1348036,2025-05-17T15:00:00+00:00,FT,Dire Dawa Kenema,4115,Arba Minch Kenema,4126,1,0,True
-1348039,2025-05-18T06:30:00+00:00,FT,Welwalo Adigrat Uni,4125,Mebrat Hayl,4127,0,0,True
-1348037,2025-05-18T12:00:00+00:00,FT,Ethiopia Bunna,4116,Adama Kenema,4110,2,0,True
-1348038,2025-05-18T15:00:00+00:00,FT,Fasil Ketema,4117,Ethiopia Nigd Bank,4130,1,1,True
-1348040,2025-05-19T12:00:00+00:00,FT,Bahardar,4112,Mekelakeya,4120,0,0,True
-1348041,2025-05-19T15:00:00+00:00,FT,Hadiya Hosaena,9983,Suhul Shire,9986,1,1,True
-1348042,2025-05-23T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Arba Minch Kenema,4126,1,1,True
-1348043,2025-05-23T15:00:00+00:00,FT,Ethiopia Bunna,4116,Ethiopian Medhin,20030,1,0,True
-1348046,2025-05-24T06:30:00+00:00,FT,Dire Dawa Kenema,4115,Bahardar,4112,2,1,True
-1348044,2025-05-24T12:00:00+00:00,FT,Kedus Giorgis,4119,Sidama Bunna,4123,0,1,True
-1348045,2025-05-24T15:00:00+00:00,FT,Hadiya Hosaena,9983,Mebrat Hayl,4127,1,1,True
-1348047,2025-05-25T12:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Adama Kenema,4110,0,2,True
-1348048,2025-05-25T15:00:00+00:00,FT,Welayta Dicha,4124,Mekelakeya,4120,1,1,True
-1348049,2025-05-26T12:00:00+00:00,FT,Mekelle Kenema,4121,Suhul Shire,9986,2,1,True
-1348050,2025-05-26T15:00:00+00:00,FT,Awassa Kenema,4111,Fasil Ketema,4117,1,1,True
-1348051,2025-05-28T12:00:00+00:00,FT,Ethiopian Medhin,20030,Sidama Bunna,4123,3,0,True
-1348052,2025-05-28T15:00:00+00:00,FT,Bahardar,4112,Arba Minch Kenema,4126,0,2,True
-1348055,2025-05-29T06:30:00+00:00,FT,Adama Kenema,4110,Hadiya Hosaena,9983,1,0,True
-1348053,2025-05-29T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Ethiopia Bunna,4116,0,0,True
-1348054,2025-05-29T15:00:00+00:00,FT,Welayta Dicha,4124,Mebrat Hayl,4127,0,1,True
-1348056,2025-05-30T12:00:00+00:00,FT,Suhul Shire,9986,Kedus Giorgis,4119,0,1,True
-1348057,2025-05-30T15:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Dire Dawa Kenema,4115,1,2,True
-1348058,2025-05-31T12:00:00+00:00,FT,Mekelakeya,4120,Awassa Kenema,4111,1,3,True
-1348059,2025-05-31T15:00:00+00:00,FT,Mekelle Kenema,4121,Fasil Ketema,4117,1,1,True
-1348060,2025-06-02T12:00:00+00:00,FT,Adama Kenema,4110,Bahardar,4112,2,0,True
-1348061,2025-06-02T15:00:00+00:00,FT,Arba Minch Kenema,4126,Ethiopia Bunna,4116,1,0,True
-1348062,2025-06-03T12:00:00+00:00,FT,Dire Dawa Kenema,4115,Welwalo Adigrat Uni,4125,1,3,True
-1348063,2025-06-03T15:00:00+00:00,FT,Ethiopian Medhin,20030,Kedus Giorgis,4119,0,0,True
-1348066,2025-06-04T06:30:00+00:00,FT,Suhul Shire,9986,Awassa Kenema,4111,1,5,True
-1348068,2025-06-04T12:00:00+00:00,FT,Mekelle Kenema,4121,Sidama Bunna,4123,1,0,True
-1348065,2025-06-04T15:00:00+00:00,FT,Fasil Ketema,4117,Welayta Dicha,4124,0,3,True
-1348067,2025-06-05T12:00:00+00:00,FT,Hadiya Hosaena,9983,Mekelakeya,4120,1,1,True
-1348064,2025-06-05T15:00:00+00:00,FT,Mebrat Hayl,4127,Ethiopia Nigd Bank,4130,0,0,True
-1377680,2025-06-08T12:00:00+00:00,FT,Arba Minch Kenema,4126,Kedus Giorgis,4119,0,0,True
-1377681,2025-06-08T15:00:00+00:00,FT,Suhul Shire,9986,Adama Kenema,4110,2,4,True
-1348073,2025-06-09T06:30:00+00:00,FT,Mekelle Kenema,4121,Ethiopia Bunna,4116,1,1,True
-1348071,2025-06-09T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Awassa Kenema,4111,0,1,True
-1348072,2025-06-09T15:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Hadiya Hosaena,9983,0,1,True
-1348074,2025-06-10T12:00:00+00:00,FT,Ethiopian Medhin,20030,Mekelakeya,4120,2,0,True
-1348076,2025-06-10T15:00:00+00:00,FT,Mebrat Hayl,4127,Fasil Ketema,4117,0,1,True
-1348075,2025-06-12T12:00:00+00:00,FT,Sidama Bunna,4123,Dire Dawa Kenema,4115,1,1,True
-1348070,2025-06-12T15:00:00+00:00,FT,Welayta Dicha,4124,Bahardar,4112,0,4,True
-1348082,2025-06-14T12:00:00+00:00,FT,Ethiopia Bunna,4116,Kedus Giorgis,4119,2,0,True
-1348083,2025-06-14T15:00:00+00:00,FT,Ethiopian Medhin,20030,Hadiya Hosaena,9983,3,2,True
-1348086,2025-06-15T12:00:00+00:00,FT,Fasil Ketema,4117,Adama Kenema,4110,2,2,True
-1348085,2025-06-15T12:00:00+00:00,FT,Mekelakeya,4120,Mebrat Hayl,4127,0,1,True
-1348081,2025-06-15T12:00:00+00:00,FT,Welwalo Adigrat Uni,4125,Mekelle Kenema,4121,1,2,True
-1348084,2025-06-15T15:00:00+00:00,FT,Ethiopia Nigd Bank,4130,Welayta Dicha,4124,3,2,True
-1348078,2025-06-16T06:30:00+00:00,FT,Sidama Bunna,4123,Arba Minch Kenema,4126,0,0,True
-1348079,2025-06-16T12:00:00+00:00,FT,Bahardar,4112,Awassa Kenema,4111,0,3,True
-1348080,2025-06-17T12:00:00+00:00,FT,Dire Dawa Kenema,4115,Suhul Shire,9986,4,2,True
-1348088,2025-06-22T12:00:00+00:00,FT,Ethiopia Bunna,4116,Ethiopia Nigd Bank,4130,2,2,True
-1348095,2025-06-22T15:00:00+00:00,FT,Kedus Giorgis,4119,Mekelakeya,4120,1,1,True
-1348087,2025-06-23T12:00:00+00:00,FT,Welayta Dicha,4124,Dire Dawa Kenema,4115,1,0,True
-1348092,2025-06-23T15:00:00+00:00,FT,Hadiya Hosaena,9983,Arba Minch Kenema,4126,0,1,True
-1348091,2025-06-24T12:00:00+00:00,FT,Awassa Kenema,4111,Adama Kenema,4110,2,1,True
-1348093,2025-06-24T15:00:00+00:00,FT,Fasil Ketema,4117,Sidama Bunna,4123,1,1,True
-1348090,2025-06-25T12:00:00+00:00,FT,Bahardar,4112,Welwalo Adigrat Uni,4125,3,0,True
-1348089,2025-06-25T15:00:00+00:00,FT,Mekelle Kenema,4121,Mebrat Hayl,4127,0,1,True
-1348094,2025-06-26T13:00:00+00:00,FT,Suhul Shire,9986,Ethiopian Medhin,20030,0,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1302181,2024-10-01T18:30:00+00:00,CANC,Regular Season - 3,Wolkite Ketema,9987,Adama Kenema,4110,,,False
+1302191,2024-10-21T13:00:00+00:00,CANC,Regular Season - 4,Arba Minch Kenema,4126,Wolkite Ketema,9987,,,False
+1302208,2024-10-30T20:30:00+00:00,CANC,Regular Season - 6,Wolkite Ketema,9987,Kedus Giorgis,4119,,,False
+1302213,2024-11-03T13:00:00+00:00,CANC,Regular Season - 7,Wolkite Ketema,9987,Sidama Bunna,4123,,,False
+1302225,2024-11-24T16:00:00+00:00,CANC,Regular Season - 8,Mekelle Kenema,4121,Wolkite Ketema,9987,,,False
+1302232,2024-11-28T16:00:00+00:00,CANC,Regular Season - 9,Welwalo Adigrat Uni,4125,Wolkite Ketema,9987,,,False
+1302244,2024-12-05T12:00:00+00:00,CANC,Regular Season - 10,Ethiopian Medhin,20030,Wolkite Ketema,9987,,,False
+1302253,2024-12-09T18:30:00+00:00,CANC,Regular Season - 11,Fasil Ketema,4117,Wolkite Ketema,9987,,,False
+1302262,2024-12-15T13:00:00+00:00,CANC,Regular Season - 12,Wolkite Ketema,9987,Welayta Dicha,4124,,,False
+1302267,2024-12-18T13:00:00+00:00,CANC,Regular Season - 13,Mebrat Hayl,4127,Wolkite Ketema,9987,,,False
+1296292,2024-09-20T13:00:00+00:00,FT,Regular Season - 1,Mekelle Kenema,4121,Hadiya Hosaena,9983,0,1,True
+1296295,2024-09-20T16:00:00+00:00,FT,Regular Season - 1,Arba Minch Kenema,4126,Dire Dawa Kenema,4115,1,2,True
+1296300,2024-09-21T13:00:00+00:00,FT,Regular Season - 1,Wolkite Ketema,9987,Mekelakeya,4120,0,3,True
+1296299,2024-09-21T16:00:00+00:00,FT,Regular Season - 1,Welwalo Adigrat Uni,4125,Bahardar,4112,0,1,True
+1296293,2024-09-22T13:00:00+00:00,FT,Regular Season - 1,Mebrat Hayl,4127,Welayta Dicha,4124,2,3,True
+1296297,2024-09-22T16:00:00+00:00,FT,Regular Season - 1,Kedus Giorgis,4119,Fasil Ketema,4117,1,2,True
+1296294,2024-09-23T13:00:00+00:00,FT,Regular Season - 1,Adama Kenema,4110,Suhul Shire,9986,2,3,True
+1296296,2024-09-23T16:00:00+00:00,FT,Regular Season - 1,Sidama Bunna,4123,Awassa Kenema,4111,0,1,True
+1301615,2024-09-25T13:00:00+00:00,FT,Regular Season - 2,Ethiopian Medhin,20030,Arba Minch Kenema,4126,0,0,True
+1301616,2024-09-25T16:00:00+00:00,FT,Regular Season - 2,Wolkite Ketema,9987,Ethiopia Nigd Bank,4130,0,3,True
+1301617,2024-09-26T13:00:00+00:00,FT,Regular Season - 2,Fasil Ketema,4117,Mekelle Kenema,4121,1,1,True
+1301618,2024-09-26T16:00:00+00:00,FT,Regular Season - 2,Ethiopia Bunna,4116,Mebrat Hayl,4127,0,0,True
+1301619,2024-09-27T13:00:00+00:00,FT,Regular Season - 2,Kedus Giorgis,4119,Welwalo Adigrat Uni,4125,2,1,True
+1301620,2024-09-27T16:00:00+00:00,FT,Regular Season - 2,Bahardar,4112,Adama Kenema,4110,0,1,True
+1301621,2024-09-27T18:30:00+00:00,FT,Regular Season - 2,Awassa Kenema,4111,Suhul Shire,9986,1,1,True
+1301622,2024-09-28T13:00:00+00:00,FT,Regular Season - 2,Mekelakeya,4120,Sidama Bunna,4123,1,2,True
+1301623,2024-09-28T16:00:00+00:00,FT,Regular Season - 2,Dire Dawa Kenema,4115,Welayta Dicha,4124,4,1,True
+1302177,2024-09-30T13:00:00+00:00,FT,Regular Season - 3,Kedus Giorgis,4119,Mekelle Kenema,4121,0,1,True
+1302178,2024-09-30T16:00:00+00:00,FT,Regular Season - 3,Ethiopian Medhin,20030,Mebrat Hayl,4127,0,0,True
+1302179,2024-10-01T13:00:00+00:00,FT,Regular Season - 3,Fasil Ketema,4117,Suhul Shire,9986,0,0,True
+1302180,2024-10-01T16:00:00+00:00,FT,Regular Season - 3,Bahardar,4112,Hadiya Hosaena,9983,2,0,True
+1302182,2024-10-02T13:00:00+00:00,FT,Regular Season - 3,Ethiopia Bunna,4116,Awassa Kenema,4111,3,1,True
+1302183,2024-10-02T16:00:00+00:00,FT,Regular Season - 3,Mekelakeya,4120,Welayta Dicha,4124,3,1,True
+1302184,2024-10-03T13:00:00+00:00,FT,Regular Season - 3,Ethiopia Nigd Bank,4130,Arba Minch Kenema,4126,3,1,True
+1302185,2024-10-03T16:00:00+00:00,FT,Regular Season - 3,Welwalo Adigrat Uni,4125,Sidama Bunna,4123,0,1,True
+1302186,2024-10-19T13:00:00+00:00,FT,Regular Season - 4,Hadiya Hosaena,9983,Awassa Kenema,4111,1,2,True
+1302190,2024-10-19T16:00:00+00:00,FT,Regular Season - 4,Mekelle Kenema,4121,Mekelakeya,4120,1,1,True
+1302188,2024-10-20T13:00:00+00:00,FT,Regular Season - 4,Suhul Shire,9986,Dire Dawa Kenema,4115,1,1,True
+1302189,2024-10-20T16:00:00+00:00,FT,Regular Season - 4,Ethiopia Nigd Bank,4130,Kedus Giorgis,4119,2,3,True
+1302194,2024-10-21T13:00:00+00:00,FT,Regular Season - 4,Welayta Dicha,4124,Ethiopia Bunna,4116,2,1,True
+1302192,2024-10-21T16:00:00+00:00,FT,Regular Season - 4,Adama Kenema,4110,Fasil Ketema,4117,1,1,True
+1302193,2024-10-22T13:00:00+00:00,FT,Regular Season - 4,Mebrat Hayl,4127,Bahardar,4112,1,0,True
+1302187,2024-10-22T16:00:00+00:00,FT,Regular Season - 4,Sidama Bunna,4123,Ethiopian Medhin,20030,1,0,True
+1302197,2024-10-24T13:00:00+00:00,FT,Regular Season - 5,Mekelle Kenema,4121,Dire Dawa Kenema,4115,3,2,True
+1302198,2024-10-24T16:00:00+00:00,FT,Regular Season - 5,Ethiopia Nigd Bank,4130,Fasil Ketema,4117,1,1,True
+1302199,2024-10-25T13:00:00+00:00,FT,Regular Season - 5,Welwalo Adigrat Uni,4125,Mekelakeya,4120,0,3,True
+1302200,2024-10-25T16:00:00+00:00,FT,Regular Season - 5,Adama Kenema,4110,Awassa Kenema,4111,2,0,True
+1302201,2024-10-26T13:00:00+00:00,FT,Regular Season - 5,Kedus Giorgis,4119,Ethiopian Medhin,20030,0,0,True
+1302202,2024-10-26T16:00:00+00:00,FT,Regular Season - 5,Sidama Bunna,4123,Ethiopia Bunna,4116,2,0,True
+1302203,2024-10-26T18:00:00+00:00,FT,Regular Season - 5,Arba Minch Kenema,4126,Bahardar,4112,1,0,True
+1302195,2024-10-27T13:00:00+00:00,FT,Regular Season - 5,Mebrat Hayl,4127,Hadiya Hosaena,9983,0,0,True
+1302196,2024-10-27T16:00:00+00:00,FT,Regular Season - 5,Welayta Dicha,4124,Suhul Shire,9986,1,0,True
+1302204,2024-10-29T13:00:00+00:00,FT,Regular Season - 6,Ethiopian Medhin,20030,Welwalo Adigrat Uni,4125,1,0,True
+1302205,2024-10-29T16:00:00+00:00,FT,Regular Season - 6,Fasil Ketema,4117,Arba Minch Kenema,4126,0,1,True
+1302206,2024-10-30T13:00:00+00:00,FT,Regular Season - 6,Bahardar,4112,Sidama Bunna,4123,2,0,True
+1302210,2024-10-30T16:00:00+00:00,FT,Regular Season - 6,Hadiya Hosaena,9983,Welayta Dicha,4124,0,1,True
+1302209,2024-10-31T13:00:00+00:00,FT,Regular Season - 6,Mekelakeya,4120,Ethiopia Nigd Bank,4130,1,0,True
+1302207,2024-10-31T16:00:00+00:00,FT,Regular Season - 6,Ethiopia Bunna,4116,Mekelle Kenema,4121,2,0,True
+1302211,2024-11-01T13:00:00+00:00,FT,Regular Season - 6,Dire Dawa Kenema,4115,Adama Kenema,4110,1,1,True
+1302212,2024-11-01T16:00:00+00:00,FT,Regular Season - 6,Awassa Kenema,4111,Mebrat Hayl,4127,1,2,True
+1302219,2024-11-03T13:00:00+00:00,FT,Regular Season - 7,Bahardar,4112,Welayta Dicha,4124,0,0,True
+1302214,2024-11-03T16:00:00+00:00,FT,Regular Season - 7,Kedus Giorgis,4119,Arba Minch Kenema,4126,1,0,True
+1302215,2024-11-04T13:00:00+00:00,FT,Regular Season - 7,Mekelakeya,4120,Adama Kenema,4110,2,0,True
+1302216,2024-11-04T16:00:00+00:00,FT,Regular Season - 7,Ethiopian Medhin,20030,Mekelle Kenema,4121,4,0,True
+1302217,2024-11-05T13:00:00+00:00,FT,Regular Season - 7,Fasil Ketema,4117,Mebrat Hayl,4127,2,3,True
+1302220,2024-11-05T16:00:00+00:00,FT,Regular Season - 7,Ethiopia Bunna,4116,Suhul Shire,9986,1,1,True
+1302218,2024-11-06T13:00:00+00:00,FT,Regular Season - 7,Dire Dawa Kenema,4115,Hadiya Hosaena,9983,0,1,True
+1302221,2024-11-06T16:00:00+00:00,FT,Regular Season - 7,Welwalo Adigrat Uni,4125,Ethiopia Nigd Bank,4130,1,2,True
+1302223,2024-11-23T13:00:00+00:00,FT,Regular Season - 8,Arba Minch Kenema,4126,Welwalo Adigrat Uni,4125,2,0,True
+1302226,2024-11-23T16:00:00+00:00,FT,Regular Season - 8,Awassa Kenema,4111,Dire Dawa Kenema,4115,0,1,True
+1302224,2024-11-24T13:00:00+00:00,FT,Regular Season - 8,Sidama Bunna,4123,Kedus Giorgis,4119,0,0,True
+1302222,2024-11-24T16:00:00+00:00,FT,Regular Season - 8,Adama Kenema,4110,Ethiopian Medhin,20030,0,2,True
+1302230,2024-11-25T13:00:00+00:00,FT,Regular Season - 8,Hadiya Hosaena,9983,Ethiopia Bunna,4116,1,0,True
+1302227,2024-11-25T16:00:00+00:00,FT,Regular Season - 8,Mebrat Hayl,4127,Mekelakeya,4120,1,1,True
+1302229,2024-11-26T13:00:00+00:00,FT,Regular Season - 8,Welayta Dicha,4124,Fasil Ketema,4117,1,1,True
+1302228,2024-11-26T16:00:00+00:00,FT,Regular Season - 8,Suhul Shire,9986,Bahardar,4112,0,2,True
+1302231,2024-11-28T13:00:00+00:00,FT,Regular Season - 9,Ethiopia Nigd Bank,4130,Ethiopian Medhin,20030,1,1,True
+1302237,2024-11-28T16:00:00+00:00,FT,Regular Season - 9,Mebrat Hayl,4127,Dire Dawa Kenema,4115,0,0,True
+1302235,2024-11-29T13:00:00+00:00,FT,Regular Season - 9,Adama Kenema,4110,Ethiopia Bunna,4116,2,1,True
+1302234,2024-11-29T16:00:00+00:00,FT,Regular Season - 9,Arba Minch Kenema,4126,Mekelakeya,4120,1,3,True
+1302233,2024-11-30T13:00:00+00:00,FT,Regular Season - 9,Sidama Bunna,4123,Fasil Ketema,4117,0,1,True
+1302236,2024-11-30T16:00:00+00:00,FT,Regular Season - 9,Mekelle Kenema,4121,Bahardar,4112,1,1,True
+1302238,2024-12-01T13:00:00+00:00,FT,Regular Season - 9,Welayta Dicha,4124,Awassa Kenema,4111,1,1,True
+1302239,2024-12-01T16:00:00+00:00,FT,Regular Season - 9,Suhul Shire,9986,Hadiya Hosaena,9983,0,1,True
+1302240,2024-12-03T13:00:00+00:00,FT,Regular Season - 10,Dire Dawa Kenema,4115,Sidama Bunna,4123,3,1,True
+1302241,2024-12-03T16:00:00+00:00,FT,Regular Season - 10,Mekelakeya,4120,Kedus Giorgis,4119,4,3,True
+1302242,2024-12-04T13:00:00+00:00,FT,Regular Season - 10,Ethiopia Bunna,4116,Arba Minch Kenema,4126,2,0,True
+1302243,2024-12-04T16:00:00+00:00,FT,Regular Season - 10,Bahardar,4112,Ethiopia Nigd Bank,4130,3,0,True
+1302247,2024-12-05T13:00:00+00:00,FT,Regular Season - 10,Awassa Kenema,4111,Mekelle Kenema,4121,0,0,True
+1302245,2024-12-05T16:00:00+00:00,FT,Regular Season - 10,Fasil Ketema,4117,Welwalo Adigrat Uni,4125,1,0,True
+1302246,2024-12-06T13:00:00+00:00,FT,Regular Season - 10,Suhul Shire,9986,Mebrat Hayl,4127,0,0,True
+1302248,2024-12-06T16:00:00+00:00,FT,Regular Season - 10,Hadiya Hosaena,9983,Adama Kenema,4110,2,0,True
+1302250,2024-12-08T13:00:00+00:00,FT,Regular Season - 11,Dire Dawa Kenema,4115,Ethiopia Nigd Bank,4130,0,0,True
+1302251,2024-12-08T16:00:00+00:00,FT,Regular Season - 11,Awassa Kenema,4111,Arba Minch Kenema,4126,0,1,True
+1302249,2024-12-09T13:00:00+00:00,FT,Regular Season - 11,Bahardar,4112,Kedus Giorgis,4119,0,0,True
+1302252,2024-12-09T16:00:00+00:00,FT,Regular Season - 11,Hadiya Hosaena,9983,Sidama Bunna,4123,3,2,True
+1302254,2024-12-10T13:00:00+00:00,FT,Regular Season - 11,Welayta Dicha,4124,Adama Kenema,4110,2,2,True
+1302255,2024-12-10T16:00:00+00:00,FT,Regular Season - 11,Ethiopia Bunna,4116,Welwalo Adigrat Uni,4125,0,0,True
+1302256,2024-12-11T13:00:00+00:00,FT,Regular Season - 11,Mekelakeya,4120,Ethiopian Medhin,20030,0,0,True
+1302257,2024-12-11T16:00:00+00:00,FT,Regular Season - 11,Suhul Shire,9986,Mekelle Kenema,4121,1,0,True
+1296298,2024-12-15T14:00:00+00:00,FT,Regular Season - 1,Ethiopia Nigd Bank,4130,Ethiopia Bunna,4116,0,1,True
+1302258,2025-01-03T12:00:00+00:00,FT,Regular Season - 12,Arba Minch Kenema,4126,Sidama Bunna,4123,0,1,True
+1302259,2025-01-03T15:00:00+00:00,FT,Regular Season - 12,Fasil Ketema,4117,Awassa Kenema,4111,0,0,True
+1302265,2025-01-04T12:00:00+00:00,FT,Regular Season - 12,Bahardar,4112,Dire Dawa Kenema,4115,1,1,True
+1302261,2025-01-04T15:00:00+00:00,FT,Regular Season - 12,Kedus Giorgis,4119,Mebrat Hayl,4127,2,1,True
+1302260,2025-01-05T12:00:00+00:00,FT,Regular Season - 12,Welwalo Adigrat Uni,4125,Adama Kenema,4110,0,3,True
+1302263,2025-01-05T15:00:00+00:00,FT,Regular Season - 12,Ethiopia Nigd Bank,4130,Mekelle Kenema,4121,0,0,True
+1302266,2025-01-06T12:00:00+00:00,FT,Regular Season - 12,Ethiopian Medhin,20030,Suhul Shire,9986,3,1,True
+1302264,2025-01-06T15:00:00+00:00,FT,Regular Season - 12,Mekelakeya,4120,Hadiya Hosaena,9983,0,1,True
+1302273,2025-01-08T12:00:00+00:00,FT,Regular Season - 13,Awassa Kenema,4111,Bahardar,4112,0,1,True
+1302274,2025-01-08T15:00:00+00:00,FT,Regular Season - 13,Dire Dawa Kenema,4115,Ethiopia Bunna,4116,0,0,True
+1302269,2025-01-09T12:00:00+00:00,FT,Regular Season - 13,Mekelle Kenema,4121,Welwalo Adigrat Uni,4125,1,0,True
+1302268,2025-01-09T15:00:00+00:00,FT,Regular Season - 13,Adama Kenema,4110,Kedus Giorgis,4119,1,2,True
+1302271,2025-01-10T12:00:00+00:00,FT,Regular Season - 13,Suhul Shire,9986,Mekelakeya,4120,1,2,True
+1302270,2025-01-10T15:00:00+00:00,FT,Regular Season - 13,Sidama Bunna,4123,Ethiopia Nigd Bank,4130,1,1,True
+1302272,2025-01-11T12:00:00+00:00,FT,Regular Season - 13,Hadiya Hosaena,9983,Fasil Ketema,4117,1,1,True
+1302275,2025-01-11T15:00:00+00:00,FT,Regular Season - 13,Welayta Dicha,4124,Ethiopian Medhin,20030,1,2,True
+1330224,2025-01-13T12:00:00+00:00,FT,Regular Season - 14,Kedus Giorgis,4119,Suhul Shire,9986,1,0,True
+1330225,2025-01-13T15:00:00+00:00,FT,Regular Season - 14,Arba Minch Kenema,4126,Adama Kenema,4110,2,0,True
+1330226,2025-01-14T12:00:00+00:00,FT,Regular Season - 14,Ethiopia Nigd Bank,4130,Mebrat Hayl,4127,1,0,True
+1330227,2025-01-14T15:00:00+00:00,FT,Regular Season - 14,Mekelakeya,4120,Dire Dawa Kenema,4115,0,0,True
+1330228,2025-01-15T12:00:00+00:00,FT,Regular Season - 14,Sidama Bunna,4123,Mekelle Kenema,4121,0,0,True
+1330229,2025-01-15T15:00:00+00:00,FT,Regular Season - 14,Welwalo Adigrat Uni,4125,Welayta Dicha,4124,0,2,True
+1330230,2025-01-16T12:00:00+00:00,FT,Regular Season - 14,Fasil Ketema,4117,Ethiopia Bunna,4116,0,1,True
+1330231,2025-01-16T15:00:00+00:00,FT,Regular Season - 14,Ethiopian Medhin,20030,Awassa Kenema,4111,2,0,True
+1330232,2025-01-18T12:00:00+00:00,FT,Regular Season - 15,Dire Dawa Kenema,4115,Kedus Giorgis,4119,0,2,True
+1330233,2025-01-18T15:00:00+00:00,FT,Regular Season - 15,Suhul Shire,9986,Arba Minch Kenema,4126,0,1,True
+1330234,2025-01-19T12:00:00+00:00,FT,Regular Season - 15,Welayta Dicha,4124,Sidama Bunna,4123,0,0,True
+1330235,2025-01-19T15:00:00+00:00,FT,Regular Season - 15,Mebrat Hayl,4127,Mekelle Kenema,4121,0,1,True
+1330236,2025-01-20T12:00:00+00:00,FT,Regular Season - 15,Hadiya Hosaena,9983,Ethiopia Nigd Bank,4130,1,0,True
+1330237,2025-01-20T15:00:00+00:00,FT,Regular Season - 15,Bahardar,4112,Ethiopian Medhin,20030,0,1,True
+1330238,2025-01-21T12:00:00+00:00,FT,Regular Season - 15,Awassa Kenema,4111,Welwalo Adigrat Uni,4125,1,1,True
+1330239,2025-01-21T15:00:00+00:00,FT,Regular Season - 15,Fasil Ketema,4117,Mekelakeya,4120,1,1,True
+1330240,2025-01-23T12:00:00+00:00,FT,Regular Season - 16,Arba Minch Kenema,4126,Welayta Dicha,4124,2,1,True
+1330241,2025-01-23T15:00:00+00:00,FT,Regular Season - 16,Ethiopia Nigd Bank,4130,Suhul Shire,9986,1,1,True
+1330242,2025-01-24T12:00:00+00:00,FT,Regular Season - 16,Mekelle Kenema,4121,Adama Kenema,4110,2,0,True
+1330243,2025-01-24T15:00:00+00:00,FT,Regular Season - 16,Ethiopian Medhin,20030,Ethiopia Bunna,4116,1,0,True
+1330244,2025-01-25T12:00:00+00:00,FT,Regular Season - 16,Mekelakeya,4120,Bahardar,4112,1,1,True
+1330245,2025-01-25T15:00:00+00:00,FT,Regular Season - 16,Kedus Giorgis,4119,Awassa Kenema,4111,1,1,True
+1330246,2025-01-26T12:00:00+00:00,FT,Regular Season - 16,Welwalo Adigrat Uni,4125,Hadiya Hosaena,9983,1,0,True
+1330247,2025-01-26T15:00:00+00:00,FT,Regular Season - 16,Sidama Bunna,4123,Mebrat Hayl,4127,0,2,True
+1330248,2025-01-28T12:00:00+00:00,FT,Regular Season - 17,Mekelle Kenema,4121,Arba Minch Kenema,4126,2,2,True
+1330249,2025-01-28T15:00:00+00:00,FT,Regular Season - 17,Adama Kenema,4110,Ethiopia Nigd Bank,4130,0,2,True
+1330250,2025-01-29T12:00:00+00:00,FT,Regular Season - 17,Welayta Dicha,4124,Kedus Giorgis,4119,0,2,True
+1330251,2025-01-29T15:00:00+00:00,FT,Regular Season - 17,Ethiopia Bunna,4116,Bahardar,4112,3,1,True
+1330252,2025-01-30T12:00:00+00:00,FT,Regular Season - 17,Mebrat Hayl,4127,Welwalo Adigrat Uni,4125,1,1,True
+1330253,2025-01-30T15:00:00+00:00,FT,Regular Season - 17,Awassa Kenema,4111,Mekelakeya,4120,1,0,True
+1330254,2025-01-31T12:00:00+00:00,FT,Regular Season - 17,Hadiya Hosaena,9983,Ethiopian Medhin,20030,0,1,True
+1330255,2025-01-31T15:00:00+00:00,FT,Regular Season - 17,Dire Dawa Kenema,4115,Fasil Ketema,4117,1,2,True
+1330256,2025-02-02T12:00:00+00:00,FT,Regular Season - 18,Kedus Giorgis,4119,Ethiopia Bunna,4116,0,0,True
+1330257,2025-02-02T15:00:00+00:00,FT,Regular Season - 18,Sidama Bunna,4123,Suhul Shire,9986,1,0,True
+1330258,2025-02-03T12:00:00+00:00,FT,Regular Season - 18,Adama Kenema,4110,Mebrat Hayl,4127,0,3,True
+1330259,2025-02-03T15:00:00+00:00,FT,Regular Season - 18,Welwalo Adigrat Uni,4125,Dire Dawa Kenema,4115,1,1,True
+1330260,2025-02-04T12:00:00+00:00,FT,Regular Season - 18,Mekelle Kenema,4121,Welayta Dicha,4124,0,1,True
+1330261,2025-02-04T15:00:00+00:00,FT,Regular Season - 18,Arba Minch Kenema,4126,Hadiya Hosaena,9983,3,3,True
+1330262,2025-02-05T12:00:00+00:00,FT,Regular Season - 18,Ethiopia Nigd Bank,4130,Awassa Kenema,4111,2,0,True
+1330263,2025-02-05T15:00:00+00:00,FT,Regular Season - 18,Ethiopian Medhin,20030,Fasil Ketema,4117,0,1,True
+1330264,2025-02-07T12:00:00+00:00,FT,Regular Season - 19,Adama Kenema,4110,Sidama Bunna,4123,0,0,True
+1330265,2025-02-07T15:00:00+00:00,FT,Regular Season - 19,Suhul Shire,9986,Welwalo Adigrat Uni,4125,1,0,True
+1330266,2025-02-08T12:00:00+00:00,FT,Regular Season - 19,Ethiopia Bunna,4116,Mekelakeya,4120,1,0,True
+1330267,2025-02-08T15:00:00+00:00,FT,Regular Season - 19,Hadiya Hosaena,9983,Kedus Giorgis,4119,1,0,True
+1330268,2025-02-09T12:00:00+00:00,FT,Regular Season - 19,Bahardar,4112,Fasil Ketema,4117,2,1,True
+1330269,2025-02-09T15:00:00+00:00,FT,Regular Season - 19,Welayta Dicha,4124,Ethiopia Nigd Bank,4130,1,1,True
+1330270,2025-02-10T12:00:00+00:00,FT,Regular Season - 19,Mebrat Hayl,4127,Arba Minch Kenema,4126,2,1,True
+1330271,2025-02-10T15:00:00+00:00,FT,Regular Season - 19,Dire Dawa Kenema,4115,Ethiopian Medhin,20030,0,3,True
+1347943,2025-02-27T12:00:00+00:00,FT,Regular Season - 20,Awassa Kenema,4111,Hadiya Hosaena,9983,0,0,True
+1347944,2025-02-27T15:00:00+00:00,FT,Regular Season - 20,Mekelle Kenema,4121,Ethiopia Nigd Bank,4130,0,1,True
+1347947,2025-02-28T06:30:00+00:00,FT,Regular Season - 20,Sidama Bunna,4123,Welwalo Adigrat Uni,4125,1,1,True
+1347945,2025-02-28T12:00:00+00:00,FT,Regular Season - 20,Suhul Shire,9986,Ethiopia Bunna,4116,0,1,True
+1347946,2025-02-28T15:00:00+00:00,FT,Regular Season - 20,Mebrat Hayl,4127,Adama Kenema,4110,0,2,True
+1347948,2025-03-01T12:00:00+00:00,FT,Regular Season - 20,Ethiopian Medhin,20030,Welayta Dicha,4124,0,1,True
+1347949,2025-03-01T15:00:00+00:00,FT,Regular Season - 20,Arba Minch Kenema,4126,Fasil Ketema,4117,1,0,True
+1347950,2025-03-02T12:00:00+00:00,FT,Regular Season - 20,Dire Dawa Kenema,4115,Mekelakeya,4120,0,0,True
+1347951,2025-03-02T15:00:00+00:00,FT,Regular Season - 20,Kedus Giorgis,4119,Bahardar,4112,1,4,True
+1347952,2025-03-04T12:00:00+00:00,FT,Regular Season - 21,Mebrat Hayl,4127,Ethiopia Bunna,4116,0,1,True
+1347953,2025-03-04T15:00:00+00:00,FT,Regular Season - 21,Sidama Bunna,4123,Hadiya Hosaena,9983,1,1,True
+1347956,2025-03-05T06:30:00+00:00,FT,Regular Season - 21,Suhul Shire,9986,Ethiopia Nigd Bank,4130,0,1,True
+1347954,2025-03-05T12:00:00+00:00,FT,Regular Season - 21,Mekelle Kenema,4121,Awassa Kenema,4111,2,5,True
+1347955,2025-03-05T15:00:00+00:00,FT,Regular Season - 21,Adama Kenema,4110,Arba Minch Kenema,4126,1,3,True
+1347957,2025-03-06T12:00:00+00:00,FT,Regular Season - 21,Fasil Ketema,4117,Bahardar,4112,0,0,True
+1347958,2025-03-06T15:00:00+00:00,FT,Regular Season - 21,Kedus Giorgis,4119,Welayta Dicha,4124,0,1,True
+1347959,2025-03-07T12:00:00+00:00,FT,Regular Season - 21,Mekelakeya,4120,Welwalo Adigrat Uni,4125,0,0,True
+1347960,2025-03-07T15:00:00+00:00,FT,Regular Season - 21,Ethiopian Medhin,20030,Dire Dawa Kenema,4115,1,0,True
+1347961,2025-03-09T12:00:00+00:00,FT,Regular Season - 22,Awassa Kenema,4111,Ethiopia Bunna,4116,0,0,True
+1347962,2025-03-09T15:00:00+00:00,FT,Regular Season - 22,Mebrat Hayl,4127,Suhul Shire,9986,1,0,True
+1347963,2025-03-10T12:00:00+00:00,FT,Regular Season - 22,Hadiya Hosaena,9983,Bahardar,4112,0,1,True
+1347964,2025-03-10T15:00:00+00:00,FT,Regular Season - 22,Sidama Bunna,4123,Adama Kenema,4110,0,0,True
+1347965,2025-03-11T12:00:00+00:00,FT,Regular Season - 22,Ethiopian Medhin,20030,Ethiopia Nigd Bank,4130,2,1,True
+1347966,2025-03-11T15:00:00+00:00,FT,Regular Season - 22,Welayta Dicha,4124,Welwalo Adigrat Uni,4125,1,0,True
+1347969,2025-03-12T06:30:00+00:00,FT,Regular Season - 22,Arba Minch Kenema,4126,Mekelle Kenema,4121,0,1,True
+1347967,2025-03-12T12:00:00+00:00,FT,Regular Season - 22,Mekelakeya,4120,Fasil Ketema,4117,2,4,True
+1347968,2025-03-12T15:00:00+00:00,FT,Regular Season - 22,Kedus Giorgis,4119,Dire Dawa Kenema,4115,0,0,True
+1347970,2025-04-02T12:00:00+00:00,FT,Regular Season - 23,Kedus Giorgis,4119,Hadiya Hosaena,9983,0,0,True
+1347971,2025-04-02T15:00:00+00:00,FT,Regular Season - 23,Adama Kenema,4110,Dire Dawa Kenema,4115,1,3,True
+1347974,2025-04-03T06:30:00+00:00,FT,Regular Season - 23,Welwalo Adigrat Uni,4125,Fasil Ketema,4117,1,2,True
+1347972,2025-04-03T12:00:00+00:00,FT,Regular Season - 23,Welayta Dicha,4124,Mekelle Kenema,4121,1,0,True
+1347973,2025-04-03T15:00:00+00:00,FT,Regular Season - 23,Awassa Kenema,4111,Ethiopian Medhin,20030,1,2,True
+1347975,2025-04-04T12:00:00+00:00,FT,Regular Season - 23,Bahardar,4112,Suhul Shire,9986,0,0,True
+1347976,2025-04-04T15:00:00+00:00,FT,Regular Season - 23,Mekelakeya,4120,Ethiopia Bunna,4116,0,1,True
+1347977,2025-04-05T12:00:00+00:00,FT,Regular Season - 23,Ethiopia Nigd Bank,4130,Sidama Bunna,4123,2,1,True
+1347978,2025-04-05T15:00:00+00:00,FT,Regular Season - 23,Arba Minch Kenema,4126,Mebrat Hayl,4127,2,0,True
+1347979,2025-04-07T12:00:00+00:00,FT,Regular Season - 24,Fasil Ketema,4117,Kedus Giorgis,4119,2,1,True
+1347980,2025-04-07T15:00:00+00:00,FT,Regular Season - 24,Welwalo Adigrat Uni,4125,Ethiopian Medhin,20030,1,1,True
+1347983,2025-04-08T06:30:00+00:00,FT,Regular Season - 24,Adama Kenema,4110,Welayta Dicha,4124,0,0,True
+1347981,2025-04-08T12:00:00+00:00,FT,Regular Season - 24,Hadiya Hosaena,9983,Dire Dawa Kenema,4115,1,1,True
+1347982,2025-04-08T15:00:00+00:00,FT,Regular Season - 24,Mekelakeya,4120,Mekelle Kenema,4121,1,0,True
+1347984,2025-04-09T12:00:00+00:00,FT,Regular Season - 24,Mebrat Hayl,4127,Awassa Kenema,4111,1,1,True
+1347985,2025-04-09T15:00:00+00:00,FT,Regular Season - 24,Suhul Shire,9986,Sidama Bunna,4123,0,1,True
+1347986,2025-04-10T12:00:00+00:00,FT,Regular Season - 24,Arba Minch Kenema,4126,Ethiopia Nigd Bank,4130,1,1,True
+1347987,2025-04-10T15:00:00+00:00,FT,Regular Season - 24,Bahardar,4112,Ethiopia Bunna,4116,2,0,True
+1347988,2025-04-13T12:00:00+00:00,FT,Regular Season - 25,Welwalo Adigrat Uni,4125,Suhul Shire,9986,1,1,True
+1347989,2025-04-13T15:00:00+00:00,FT,Regular Season - 25,Hadiya Hosaena,9983,Mekelle Kenema,4121,0,2,True
+1347992,2025-04-14T06:30:00+00:00,FT,Regular Season - 25,Kedus Giorgis,4119,Ethiopia Nigd Bank,4130,0,1,True
+1347990,2025-04-14T12:00:00+00:00,FT,Regular Season - 25,Sidama Bunna,4123,Bahardar,4112,1,0,True
+1347991,2025-04-14T15:00:00+00:00,FT,Regular Season - 25,Awassa Kenema,4111,Welayta Dicha,4124,1,0,True
+1347993,2025-04-15T12:00:00+00:00,FT,Regular Season - 25,Ethiopia Bunna,4116,Fasil Ketema,4117,1,0,True
+1347994,2025-04-15T15:00:00+00:00,FT,Regular Season - 25,Mekelakeya,4120,Arba Minch Kenema,4126,1,0,True
+1347995,2025-04-16T12:00:00+00:00,FT,Regular Season - 25,Ethiopian Medhin,20030,Adama Kenema,4110,3,1,True
+1347997,2025-04-19T12:00:00+00:00,FT,Regular Season - 26,Welayta Dicha,4124,Hadiya Hosaena,9983,1,3,True
+1347998,2025-04-19T15:00:00+00:00,FT,Regular Season - 26,Welwalo Adigrat Uni,4125,Kedus Giorgis,4119,1,3,True
+1347999,2025-04-20T12:00:00+00:00,FT,Regular Season - 26,Ethiopia Bunna,4116,Sidama Bunna,4123,0,1,True
+1348000,2025-04-20T15:00:00+00:00,FT,Regular Season - 26,Arba Minch Kenema,4126,Suhul Shire,9986,0,0,True
+1348003,2025-04-21T06:30:00+00:00,FT,Regular Season - 26,Adama Kenema,4110,Mekelakeya,4120,0,2,True
+1348001,2025-04-21T12:00:00+00:00,FT,Regular Season - 26,Fasil Ketema,4117,Dire Dawa Kenema,4115,0,1,True
+1348002,2025-04-21T15:00:00+00:00,FT,Regular Season - 26,Bahardar,4112,Mekelle Kenema,4121,4,1,True
+1348004,2025-04-22T12:00:00+00:00,FT,Regular Season - 26,Mebrat Hayl,4127,Ethiopian Medhin,20030,0,2,True
+1348005,2025-04-22T15:00:00+00:00,FT,Regular Season - 26,Awassa Kenema,4111,Ethiopia Nigd Bank,4130,2,1,True
+1347996,2025-04-28T05:30:00+00:00,FT,Regular Season - 25,Dire Dawa Kenema,4115,Mebrat Hayl,4127,0,2,True
+1348006,2025-04-30T12:00:00+00:00,FT,Regular Season - 27,Suhul Shire,9986,Welayta Dicha,4124,1,1,True
+1348007,2025-04-30T15:00:00+00:00,FT,Regular Season - 27,Adama Kenema,4110,Welwalo Adigrat Uni,4125,1,1,True
+1348010,2025-05-01T06:30:00+00:00,FT,Regular Season - 27,Ethiopia Bunna,4116,Dire Dawa Kenema,4115,2,0,True
+1348008,2025-05-01T12:00:00+00:00,FT,Regular Season - 27,Fasil Ketema,4117,Hadiya Hosaena,9983,1,1,True
+1348009,2025-05-01T15:00:00+00:00,FT,Regular Season - 27,Mekelle Kenema,4121,Kedus Giorgis,4119,0,1,True
+1348011,2025-05-02T12:00:00+00:00,FT,Regular Season - 27,Bahardar,4112,Mebrat Hayl,4127,2,0,True
+1348012,2025-05-02T15:00:00+00:00,FT,Regular Season - 27,Ethiopia Nigd Bank,4130,Mekelakeya,4120,0,0,True
+1348013,2025-05-03T12:00:00+00:00,FT,Regular Season - 27,Arba Minch Kenema,4126,Ethiopian Medhin,20030,0,2,True
+1348014,2025-05-03T15:00:00+00:00,FT,Regular Season - 27,Awassa Kenema,4111,Sidama Bunna,4123,1,1,True
+1348015,2025-05-05T12:00:00+00:00,FT,Regular Season - 28,Adama Kenema,4110,Mekelle Kenema,4121,0,0,True
+1348016,2025-05-05T15:00:00+00:00,FT,Regular Season - 28,Ethiopia Bunna,4116,Hadiya Hosaena,9983,1,0,True
+1348019,2025-05-06T06:30:00+00:00,FT,Regular Season - 28,Mebrat Hayl,4127,Kedus Giorgis,4119,0,1,True
+1348017,2025-05-06T12:00:00+00:00,FT,Regular Season - 28,Ethiopia Nigd Bank,4130,Welwalo Adigrat Uni,4125,2,2,True
+1348018,2025-05-06T15:00:00+00:00,FT,Regular Season - 28,Suhul Shire,9986,Fasil Ketema,4117,1,1,True
+1348020,2025-05-07T12:00:00+00:00,FT,Regular Season - 28,Welayta Dicha,4124,Arba Minch Kenema,4126,2,1,True
+1348022,2025-05-08T10:00:00+00:00,FT,Regular Season - 28,Dire Dawa Kenema,4115,Awassa Kenema,4111,0,1,True
+1348023,2025-05-08T13:00:00+00:00,FT,Regular Season - 28,Sidama Bunna,4123,Mekelakeya,4120,2,2,True
+1348021,2025-05-09T13:00:00+00:00,FT,Regular Season - 28,Ethiopian Medhin,20030,Bahardar,4112,1,2,True
+1348024,2025-05-11T12:00:00+00:00,FT,Regular Season - 29,Kedus Giorgis,4119,Adama Kenema,4110,0,1,True
+1348025,2025-05-11T15:00:00+00:00,FT,Regular Season - 29,Ethiopia Bunna,4116,Welayta Dicha,4124,1,0,True
+1348026,2025-05-12T12:00:00+00:00,FT,Regular Season - 29,Arba Minch Kenema,4126,Awassa Kenema,4111,0,1,True
+1348027,2025-05-12T15:00:00+00:00,FT,Regular Season - 29,Mebrat Hayl,4127,Sidama Bunna,4123,1,2,True
+1348030,2025-05-13T06:30:00+00:00,FT,Regular Season - 29,Fasil Ketema,4117,Ethiopian Medhin,20030,0,2,True
+1348028,2025-05-13T12:00:00+00:00,FT,Regular Season - 29,Dire Dawa Kenema,4115,Mekelle Kenema,4121,1,1,True
+1348029,2025-05-13T15:00:00+00:00,FT,Regular Season - 29,Hadiya Hosaena,9983,Welwalo Adigrat Uni,4125,3,2,True
+1348031,2025-05-14T12:00:00+00:00,FT,Regular Season - 29,Ethiopia Nigd Bank,4130,Bahardar,4112,0,0,True
+1348032,2025-05-14T15:00:00+00:00,FT,Regular Season - 29,Mekelakeya,4120,Suhul Shire,9986,1,1,True
+1348033,2025-05-16T12:00:00+00:00,FT,Regular Season - 30,Sidama Bunna,4123,Welayta Dicha,4124,1,0,True
+1348034,2025-05-16T15:00:00+00:00,FT,Regular Season - 30,Awassa Kenema,4111,Kedus Giorgis,4119,2,1,True
+1348035,2025-05-17T12:00:00+00:00,FT,Regular Season - 30,Mekelle Kenema,4121,Ethiopian Medhin,20030,0,1,True
+1348036,2025-05-17T15:00:00+00:00,FT,Regular Season - 30,Dire Dawa Kenema,4115,Arba Minch Kenema,4126,1,0,True
+1348039,2025-05-18T06:30:00+00:00,FT,Regular Season - 30,Welwalo Adigrat Uni,4125,Mebrat Hayl,4127,0,0,True
+1348037,2025-05-18T12:00:00+00:00,FT,Regular Season - 30,Ethiopia Bunna,4116,Adama Kenema,4110,2,0,True
+1348038,2025-05-18T15:00:00+00:00,FT,Regular Season - 30,Fasil Ketema,4117,Ethiopia Nigd Bank,4130,1,1,True
+1348040,2025-05-19T12:00:00+00:00,FT,Regular Season - 30,Bahardar,4112,Mekelakeya,4120,0,0,True
+1348041,2025-05-19T15:00:00+00:00,FT,Regular Season - 30,Hadiya Hosaena,9983,Suhul Shire,9986,1,1,True
+1348042,2025-05-23T12:00:00+00:00,FT,Regular Season - 31,Welwalo Adigrat Uni,4125,Arba Minch Kenema,4126,1,1,True
+1348043,2025-05-23T15:00:00+00:00,FT,Regular Season - 31,Ethiopia Bunna,4116,Ethiopian Medhin,20030,1,0,True
+1348046,2025-05-24T06:30:00+00:00,FT,Regular Season - 31,Dire Dawa Kenema,4115,Bahardar,4112,2,1,True
+1348044,2025-05-24T12:00:00+00:00,FT,Regular Season - 31,Kedus Giorgis,4119,Sidama Bunna,4123,0,1,True
+1348045,2025-05-24T15:00:00+00:00,FT,Regular Season - 31,Hadiya Hosaena,9983,Mebrat Hayl,4127,1,1,True
+1348047,2025-05-25T12:00:00+00:00,FT,Regular Season - 31,Ethiopia Nigd Bank,4130,Adama Kenema,4110,0,2,True
+1348048,2025-05-25T15:00:00+00:00,FT,Regular Season - 31,Welayta Dicha,4124,Mekelakeya,4120,1,1,True
+1348049,2025-05-26T12:00:00+00:00,FT,Regular Season - 31,Mekelle Kenema,4121,Suhul Shire,9986,2,1,True
+1348050,2025-05-26T15:00:00+00:00,FT,Regular Season - 31,Awassa Kenema,4111,Fasil Ketema,4117,1,1,True
+1348051,2025-05-28T12:00:00+00:00,FT,Regular Season - 32,Ethiopian Medhin,20030,Sidama Bunna,4123,3,0,True
+1348052,2025-05-28T15:00:00+00:00,FT,Regular Season - 32,Bahardar,4112,Arba Minch Kenema,4126,0,2,True
+1348055,2025-05-29T06:30:00+00:00,FT,Regular Season - 32,Adama Kenema,4110,Hadiya Hosaena,9983,1,0,True
+1348053,2025-05-29T12:00:00+00:00,FT,Regular Season - 32,Welwalo Adigrat Uni,4125,Ethiopia Bunna,4116,0,0,True
+1348054,2025-05-29T15:00:00+00:00,FT,Regular Season - 32,Welayta Dicha,4124,Mebrat Hayl,4127,0,1,True
+1348056,2025-05-30T12:00:00+00:00,FT,Regular Season - 32,Suhul Shire,9986,Kedus Giorgis,4119,0,1,True
+1348057,2025-05-30T15:00:00+00:00,FT,Regular Season - 32,Ethiopia Nigd Bank,4130,Dire Dawa Kenema,4115,1,2,True
+1348058,2025-05-31T12:00:00+00:00,FT,Regular Season - 32,Mekelakeya,4120,Awassa Kenema,4111,1,3,True
+1348059,2025-05-31T15:00:00+00:00,FT,Regular Season - 32,Mekelle Kenema,4121,Fasil Ketema,4117,1,1,True
+1348060,2025-06-02T12:00:00+00:00,FT,Regular Season - 33,Adama Kenema,4110,Bahardar,4112,2,0,True
+1348061,2025-06-02T15:00:00+00:00,FT,Regular Season - 33,Arba Minch Kenema,4126,Ethiopia Bunna,4116,1,0,True
+1348062,2025-06-03T12:00:00+00:00,FT,Regular Season - 33,Dire Dawa Kenema,4115,Welwalo Adigrat Uni,4125,1,3,True
+1348063,2025-06-03T15:00:00+00:00,FT,Regular Season - 33,Ethiopian Medhin,20030,Kedus Giorgis,4119,0,0,True
+1348066,2025-06-04T06:30:00+00:00,FT,Regular Season - 33,Suhul Shire,9986,Awassa Kenema,4111,1,5,True
+1348068,2025-06-04T12:00:00+00:00,FT,Regular Season - 33,Mekelle Kenema,4121,Sidama Bunna,4123,1,0,True
+1348065,2025-06-04T15:00:00+00:00,FT,Regular Season - 33,Fasil Ketema,4117,Welayta Dicha,4124,0,3,True
+1348067,2025-06-05T12:00:00+00:00,FT,Regular Season - 33,Hadiya Hosaena,9983,Mekelakeya,4120,1,1,True
+1348064,2025-06-05T15:00:00+00:00,FT,Regular Season - 33,Mebrat Hayl,4127,Ethiopia Nigd Bank,4130,0,0,True
+1377680,2025-06-08T12:00:00+00:00,FT,Regular Season - 34,Arba Minch Kenema,4126,Kedus Giorgis,4119,0,0,True
+1377681,2025-06-08T15:00:00+00:00,FT,Regular Season - 34,Suhul Shire,9986,Adama Kenema,4110,2,4,True
+1348073,2025-06-09T06:30:00+00:00,FT,Regular Season - 34,Mekelle Kenema,4121,Ethiopia Bunna,4116,1,1,True
+1348071,2025-06-09T12:00:00+00:00,FT,Regular Season - 34,Welwalo Adigrat Uni,4125,Awassa Kenema,4111,0,1,True
+1348072,2025-06-09T15:00:00+00:00,FT,Regular Season - 34,Ethiopia Nigd Bank,4130,Hadiya Hosaena,9983,0,1,True
+1348074,2025-06-10T12:00:00+00:00,FT,Regular Season - 34,Ethiopian Medhin,20030,Mekelakeya,4120,2,0,True
+1348076,2025-06-10T15:00:00+00:00,FT,Regular Season - 34,Mebrat Hayl,4127,Fasil Ketema,4117,0,1,True
+1348075,2025-06-12T12:00:00+00:00,FT,Regular Season - 34,Sidama Bunna,4123,Dire Dawa Kenema,4115,1,1,True
+1348070,2025-06-12T15:00:00+00:00,FT,Regular Season - 34,Welayta Dicha,4124,Bahardar,4112,0,4,True
+1348082,2025-06-14T12:00:00+00:00,FT,Regular Season - 35,Ethiopia Bunna,4116,Kedus Giorgis,4119,2,0,True
+1348083,2025-06-14T15:00:00+00:00,FT,Regular Season - 35,Ethiopian Medhin,20030,Hadiya Hosaena,9983,3,2,True
+1348086,2025-06-15T12:00:00+00:00,FT,Regular Season - 35,Fasil Ketema,4117,Adama Kenema,4110,2,2,True
+1348085,2025-06-15T12:00:00+00:00,FT,Regular Season - 35,Mekelakeya,4120,Mebrat Hayl,4127,0,1,True
+1348081,2025-06-15T12:00:00+00:00,FT,Regular Season - 35,Welwalo Adigrat Uni,4125,Mekelle Kenema,4121,1,2,True
+1348084,2025-06-15T15:00:00+00:00,FT,Regular Season - 35,Ethiopia Nigd Bank,4130,Welayta Dicha,4124,3,2,True
+1348078,2025-06-16T06:30:00+00:00,FT,Regular Season - 35,Sidama Bunna,4123,Arba Minch Kenema,4126,0,0,True
+1348079,2025-06-16T12:00:00+00:00,FT,Regular Season - 35,Bahardar,4112,Awassa Kenema,4111,0,3,True
+1348080,2025-06-17T12:00:00+00:00,FT,Regular Season - 35,Dire Dawa Kenema,4115,Suhul Shire,9986,4,2,True
+1348088,2025-06-22T12:00:00+00:00,FT,Regular Season - 36,Ethiopia Bunna,4116,Ethiopia Nigd Bank,4130,2,2,True
+1348095,2025-06-22T15:00:00+00:00,FT,Regular Season - 36,Kedus Giorgis,4119,Mekelakeya,4120,1,1,True
+1348087,2025-06-23T12:00:00+00:00,FT,Regular Season - 36,Welayta Dicha,4124,Dire Dawa Kenema,4115,1,0,True
+1348092,2025-06-23T15:00:00+00:00,FT,Regular Season - 36,Hadiya Hosaena,9983,Arba Minch Kenema,4126,0,1,True
+1348091,2025-06-24T12:00:00+00:00,FT,Regular Season - 36,Awassa Kenema,4111,Adama Kenema,4110,2,1,True
+1348093,2025-06-24T15:00:00+00:00,FT,Regular Season - 36,Fasil Ketema,4117,Sidama Bunna,4123,1,1,True
+1348090,2025-06-25T12:00:00+00:00,FT,Regular Season - 36,Bahardar,4112,Welwalo Adigrat Uni,4125,3,0,True
+1348089,2025-06-25T15:00:00+00:00,FT,Regular Season - 36,Mekelle Kenema,4121,Mebrat Hayl,4127,0,1,True
+1348094,2025-06-26T13:00:00+00:00,FT,Regular Season - 36,Suhul Shire,9986,Ethiopian Medhin,20030,0,3,True

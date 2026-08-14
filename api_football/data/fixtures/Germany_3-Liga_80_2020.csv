@@ -1,0 +1,381 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+593428,2020-09-18T15:45:00+00:00,FT,Regular Season - 1,FC Kaiserslautern,745,Dynamo Dresden,183,0,1,True
+593434,2020-09-19T12:00:00+00:00,FT,Regular Season - 1,FSV Zwickau,1315,SpVgg Unterhaching,1314,2,1,True
+593432,2020-09-19T12:00:00+00:00,FT,Regular Season - 1,SV Meppen,1318,TSV 1860 Munich,786,1,3,True
+593435,2020-09-19T12:00:00+00:00,FT,Regular Season - 1,SV Wehen,1319,Verl,4265,0,0,True
+593431,2020-09-19T12:00:00+00:00,FT,Regular Season - 1,Hansa Rostock,1321,MSV Duisburg,187,3,1,True
+593436,2020-09-19T12:00:00+00:00,FT,Regular Season - 1,VfB Lubeck,1625,FC Saarbrucken,1639,1,1,True
+593429,2020-09-19T12:00:00+00:00,FT,Regular Season - 1,Bayern München II,4674,Türkgücü-Ataspor,9335,2,2,True
+593430,2020-09-20T11:00:00+00:00,FT,Regular Season - 1,FC Ingolstadt 04,184,KFC Uerdingen 05,1322,2,1,True
+593433,2020-09-20T12:00:00+00:00,FT,Regular Season - 1,FC Magdeburg,179,Hallescher FC,1316,0,2,True
+593437,2020-09-21T17:00:00+00:00,FT,Regular Season - 1,Waldhof Mannheim,4268,FC Viktoria Koln,1620,2,2,True
+593440,2020-09-25T17:00:00+00:00,FT,Regular Season - 2,SpVgg Unterhaching,1314,VfB Lubeck,1625,1,0,True
+593439,2020-09-26T12:00:00+00:00,FT,Regular Season - 2,MSV Duisburg,187,FSV Zwickau,1315,1,1,True
+593445,2020-09-26T12:00:00+00:00,FT,Regular Season - 2,TSV 1860 Munich,786,FC Magdeburg,179,1,1,True
+593446,2020-09-26T12:00:00+00:00,FT,Regular Season - 2,Hallescher FC,1316,FC Ingolstadt 04,184,0,2,True
+593441,2020-09-26T12:00:00+00:00,FT,Regular Season - 2,FC Viktoria Koln,1620,SV Wehen,1319,0,2,True
+593442,2020-09-26T12:00:00+00:00,FT,Regular Season - 2,FC Saarbrucken,1639,Hansa Rostock,1321,2,0,True
+593443,2020-09-26T12:00:00+00:00,FT,Regular Season - 2,Verl,4265,Bayern München II,4674,3,0,True
+593438,2020-09-27T11:00:00+00:00,FT,Regular Season - 2,Dynamo Dresden,183,Waldhof Mannheim,4268,1,1,True
+593444,2020-09-27T12:00:00+00:00,FT,Regular Season - 2,Türkgücü-Ataspor,9335,FC Kaiserslautern,745,3,0,True
+593447,2020-09-28T17:00:00+00:00,FT,Regular Season - 2,KFC Uerdingen 05,1322,SV Meppen,1318,0,2,True
+593448,2020-10-02T17:00:00+00:00,FT,Regular Season - 3,Bayern München II,4674,Dynamo Dresden,183,3,0,True
+593452,2020-10-03T12:00:00+00:00,FT,Regular Season - 3,FC Magdeburg,179,FC Viktoria Koln,1620,0,2,True
+593455,2020-10-03T12:00:00+00:00,FT,Regular Season - 3,FC Ingolstadt 04,184,SpVgg Unterhaching,1314,0,1,True
+593453,2020-10-03T12:00:00+00:00,FT,Regular Season - 3,FSV Zwickau,1315,TSV 1860 Munich,786,1,2,True
+593451,2020-10-03T12:00:00+00:00,FT,Regular Season - 3,SV Meppen,1318,Verl,4265,1,2,True
+593457,2020-10-03T12:00:00+00:00,FT,Regular Season - 3,VfB Lubeck,1625,MSV Duisburg,187,1,1,True
+593456,2020-10-03T12:00:00+00:00,FT,Regular Season - 3,Waldhof Mannheim,4268,Türkgücü-Ataspor,9335,4,4,True
+593450,2020-10-04T11:00:00+00:00,FT,Regular Season - 3,Hansa Rostock,1321,KFC Uerdingen 05,1322,0,0,True
+593454,2020-10-04T12:00:00+00:00,FT,Regular Season - 3,FC Saarbrucken,1639,Hallescher FC,1316,4,0,True
+593449,2020-10-05T17:00:00+00:00,FT,Regular Season - 3,SV Wehen,1319,FC Kaiserslautern,745,2,2,True
+593467,2020-10-10T12:00:00+00:00,FT,Regular Season - 4,Dynamo Dresden,183,FC Magdeburg,179,1,0,True
+593458,2020-10-10T12:00:00+00:00,FT,Regular Season - 4,FC Kaiserslautern,745,Waldhof Mannheim,4268,1,1,True
+593460,2020-10-10T12:00:00+00:00,FT,Regular Season - 4,TSV 1860 Munich,786,VfB Lubeck,1625,4,1,True
+593461,2020-10-10T12:00:00+00:00,FT,Regular Season - 4,KFC Uerdingen 05,1322,Bayern München II,4674,1,1,True
+593463,2020-10-10T12:00:00+00:00,FT,Regular Season - 4,Verl,4265,Hansa Rostock,1321,2,3,True
+593464,2020-10-10T12:00:00+00:00,FT,Regular Season - 4,Türkgücü-Ataspor,9335,SV Wehen,1319,0,0,True
+593465,2020-10-11T11:00:00+00:00,FT,Regular Season - 4,SpVgg Unterhaching,1314,SV Meppen,1318,2,1,True
+593466,2020-10-11T12:00:00+00:00,FT,Regular Season - 4,FC Viktoria Koln,1620,FC Ingolstadt 04,184,2,0,True
+593462,2020-10-12T17:00:00+00:00,FT,Regular Season - 4,Hallescher FC,1316,FSV Zwickau,1315,0,2,True
+593468,2020-10-16T17:00:00+00:00,FT,Regular Season - 5,FC Magdeburg,179,Türkgücü-Ataspor,9335,2,0,True
+593470,2020-10-17T12:00:00+00:00,FT,Regular Season - 5,FC Ingolstadt 04,184,Verl,4265,2,1,True
+593476,2020-10-17T12:00:00+00:00,FT,Regular Season - 5,FSV Zwickau,1315,KFC Uerdingen 05,1322,1,2,True
+593475,2020-10-17T12:00:00+00:00,FT,Regular Season - 5,SV Wehen,1319,Waldhof Mannheim,4268,0,1,True
+593472,2020-10-17T12:00:00+00:00,FT,Regular Season - 5,Hansa Rostock,1321,TSV 1860 Munich,786,1,1,True
+593474,2020-10-17T12:00:00+00:00,FT,Regular Season - 5,VfB Lubeck,1625,Dynamo Dresden,183,0,1,True
+593469,2020-10-17T12:00:00+00:00,FT,Regular Season - 5,Bayern München II,4674,FC Kaiserslautern,745,0,0,True
+593477,2020-10-18T11:00:00+00:00,FT,Regular Season - 5,FC Saarbrucken,1639,SpVgg Unterhaching,1314,2,1,True
+593473,2020-10-18T13:00:00+00:00,FT,Regular Season - 5,SV Meppen,1318,FC Viktoria Koln,1620,0,1,True
+593483,2020-10-20T17:00:00+00:00,FT,Regular Season - 6,Dynamo Dresden,183,FSV Zwickau,1315,1,2,True
+593487,2020-10-20T17:00:00+00:00,FT,Regular Season - 6,KFC Uerdingen 05,1322,SV Wehen,1319,0,4,True
+593481,2020-10-20T17:00:00+00:00,FT,Regular Season - 6,Verl,4265,FC Magdeburg,179,3,1,True
+593485,2020-10-20T17:00:00+00:00,FT,Regular Season - 6,Waldhof Mannheim,4268,Hansa Rostock,1321,1,2,True
+593482,2020-10-20T17:00:00+00:00,FT,Regular Season - 6,Türkgücü-Ataspor,9335,VfB Lubeck,1625,4,3,True
+593478,2020-10-21T17:00:00+00:00,FT,Regular Season - 6,FC Kaiserslautern,745,FC Ingolstadt 04,184,1,1,True
+593484,2020-10-21T17:00:00+00:00,FT,Regular Season - 6,TSV 1860 Munich,786,FC Saarbrucken,1639,1,2,True
+593486,2020-10-21T17:00:00+00:00,FT,Regular Season - 6,SpVgg Unterhaching,1314,MSV Duisburg,187,0,1,True
+593480,2020-10-21T17:00:00+00:00,FT,Regular Season - 6,Hallescher FC,1316,SV Meppen,1318,4,1,True
+593479,2020-10-21T17:00:00+00:00,FT,Regular Season - 6,FC Viktoria Koln,1620,Bayern München II,4674,3,2,True
+593496,2020-10-24T12:00:00+00:00,FT,Regular Season - 7,FC Magdeburg,179,SV Wehen,1319,1,2,True
+593490,2020-10-24T12:00:00+00:00,FT,Regular Season - 7,FC Ingolstadt 04,184,Dynamo Dresden,183,1,0,True
+593497,2020-10-24T12:00:00+00:00,FT,Regular Season - 7,MSV Duisburg,187,KFC Uerdingen 05,1322,0,2,True
+593488,2020-10-24T12:00:00+00:00,FT,Regular Season - 7,SV Meppen,1318,FC Kaiserslautern,745,3,2,True
+593491,2020-10-24T12:00:00+00:00,FT,Regular Season - 7,Hansa Rostock,1321,FC Viktoria Koln,1620,5,1,True
+593494,2020-10-24T12:00:00+00:00,FT,Regular Season - 7,VfB Lubeck,1625,Hallescher FC,1316,2,3,True
+593493,2020-10-25T12:00:00+00:00,FT,Regular Season - 7,FC Saarbrucken,1639,Verl,4265,1,2,True
+593489,2020-10-25T13:00:00+00:00,FT,Regular Season - 7,Bayern München II,4674,Waldhof Mannheim,4268,2,0,True
+593495,2020-10-26T18:00:00+00:00,FT,Regular Season - 7,SpVgg Unterhaching,1314,TSV 1860 Munich,786,0,2,True
+593502,2020-10-30T18:00:00+00:00,FT,Regular Season - 8,FC Viktoria Koln,1620,VfB Lubeck,1625,0,2,True
+593500,2020-10-31T13:00:00+00:00,FT,Regular Season - 8,Dynamo Dresden,183,SV Meppen,1318,3,0,True
+593505,2020-10-31T13:00:00+00:00,FT,Regular Season - 8,TSV 1860 Munich,786,MSV Duisburg,187,0,2,True
+593503,2020-10-31T13:00:00+00:00,FT,Regular Season - 8,KFC Uerdingen 05,1322,FC Saarbrucken,1639,1,0,True
+593501,2020-10-31T13:00:00+00:00,FT,Regular Season - 8,Waldhof Mannheim,4268,FC Magdeburg,179,5,2,True
+593499,2020-11-01T12:00:00+00:00,FT,Regular Season - 8,SV Wehen,1319,Bayern München II,4674,2,4,True
+593507,2020-11-01T13:00:00+00:00,FT,Regular Season - 8,Türkgücü-Ataspor,9335,FC Ingolstadt 04,184,1,1,True
+593506,2020-11-02T18:00:00+00:00,FT,Regular Season - 8,FC Kaiserslautern,745,Hansa Rostock,1321,0,0,True
+593459,2020-11-04T18:00:00+00:00,FT,Regular Season - 4,MSV Duisburg,187,FC Saarbrucken,1639,2,3,True
+593492,2020-11-04T18:00:00+00:00,FT,Regular Season - 7,FSV Zwickau,1315,Türkgücü-Ataspor,9335,0,1,True
+593509,2020-11-06T18:00:00+00:00,FT,Regular Season - 9,FC Ingolstadt 04,184,SV Wehen,1319,4,1,True
+593512,2020-11-07T13:00:00+00:00,FT,Regular Season - 9,FC Magdeburg,179,Bayern München II,4674,2,1,True
+593515,2020-11-07T13:00:00+00:00,FT,Regular Season - 9,TSV 1860 Munich,786,Hallescher FC,1316,6,1,True
+593513,2020-11-07T13:00:00+00:00,FT,Regular Season - 9,FSV Zwickau,1315,FC Kaiserslautern,745,1,2,True
+593514,2020-11-07T13:00:00+00:00,FT,Regular Season - 9,FC Saarbrucken,1639,Dynamo Dresden,183,2,1,True
+593517,2020-11-08T13:00:00+00:00,FT,Regular Season - 9,VfB Lubeck,1625,KFC Uerdingen 05,1322,1,0,True
+593508,2020-11-09T18:00:00+00:00,FT,Regular Season - 9,MSV Duisburg,187,FC Viktoria Koln,1620,1,3,True
+593522,2020-11-13T18:00:00+00:00,FT,Regular Season - 10,FC Viktoria Koln,1620,FC Saarbrucken,1639,0,2,True
+593521,2020-11-14T13:00:00+00:00,FT,Regular Season - 10,FC Kaiserslautern,745,FC Magdeburg,179,1,1,True
+593524,2020-11-14T13:00:00+00:00,FT,Regular Season - 10,Hallescher FC,1316,Hansa Rostock,1321,1,1,True
+593519,2020-11-14T13:00:00+00:00,FT,Regular Season - 10,SV Wehen,1319,FSV Zwickau,1315,3,1,True
+593523,2020-11-14T13:00:00+00:00,FT,Regular Season - 10,KFC Uerdingen 05,1322,SpVgg Unterhaching,1314,3,1,True
+593527,2020-11-14T13:00:00+00:00,FT,Regular Season - 10,Waldhof Mannheim,4268,FC Ingolstadt 04,184,4,1,True
+593526,2020-11-14T13:00:00+00:00,FT,Regular Season - 10,Türkgücü-Ataspor,9335,MSV Duisburg,187,2,1,True
+593520,2020-11-15T13:00:00+00:00,FT,Regular Season - 10,Dynamo Dresden,183,TSV 1860 Munich,786,2,1,True
+593525,2020-11-16T18:00:00+00:00,FT,Regular Season - 10,Verl,4265,VfB Lubeck,1625,1,2,True
+593471,2020-11-17T18:00:00+00:00,FT,Regular Season - 5,MSV Duisburg,187,Hallescher FC,1316,0,0,True
+593530,2020-11-20T18:00:00+00:00,FT,Regular Season - 11,MSV Duisburg,187,Verl,4265,0,4,True
+593531,2020-11-21T13:00:00+00:00,FT,Regular Season - 11,TSV 1860 Munich,786,KFC Uerdingen 05,1322,0,0,True
+593537,2020-11-21T13:00:00+00:00,FT,Regular Season - 11,FSV Zwickau,1315,Waldhof Mannheim,4268,0,0,True
+593533,2020-11-21T13:00:00+00:00,FT,Regular Season - 11,Hallescher FC,1316,FC Kaiserslautern,745,1,1,True
+593535,2020-11-21T13:00:00+00:00,FT,Regular Season - 11,Hansa Rostock,1321,Dynamo Dresden,183,1,3,True
+593534,2020-11-21T13:00:00+00:00,FT,Regular Season - 11,FC Saarbrucken,1639,SV Wehen,1319,3,3,True
+593528,2020-11-22T12:00:00+00:00,FT,Regular Season - 11,VfB Lubeck,1625,Bayern München II,4674,3,0,True
+593536,2020-11-22T13:00:00+00:00,FT,Regular Season - 11,SpVgg Unterhaching,1314,FC Viktoria Koln,1620,2,2,True
+593529,2020-11-22T14:00:00+00:00,FT,Regular Season - 11,FC Ingolstadt 04,184,FC Magdeburg,179,1,0,True
+593538,2020-11-24T18:00:00+00:00,FT,Regular Season - 12,SV Wehen,1319,SV Meppen,1318,1,0,True
+593541,2020-11-24T18:00:00+00:00,FT,Regular Season - 12,KFC Uerdingen 05,1322,Hallescher FC,1316,0,1,True
+593544,2020-11-24T18:00:00+00:00,FT,Regular Season - 12,Waldhof Mannheim,4268,MSV Duisburg,187,2,2,True
+593547,2020-11-24T18:00:00+00:00,FT,Regular Season - 12,Türkgücü-Ataspor,9335,FC Saarbrucken,1639,1,1,True
+593542,2020-11-24T18:30:00+00:00,FT,Regular Season - 12,Verl,4265,TSV 1860 Munich,786,1,1,True
+593546,2020-11-25T18:00:00+00:00,FT,Regular Season - 12,FC Magdeburg,179,Hansa Rostock,1321,1,1,True
+593543,2020-11-25T18:00:00+00:00,FT,Regular Season - 12,Dynamo Dresden,183,SpVgg Unterhaching,1314,2,0,True
+593540,2020-11-25T18:00:00+00:00,FT,Regular Season - 12,FC Kaiserslautern,745,VfB Lubeck,1625,1,0,True
+593545,2020-11-25T18:00:00+00:00,FT,Regular Season - 12,FC Viktoria Koln,1620,FSV Zwickau,1315,1,1,True
+593539,2020-11-25T18:00:00+00:00,FT,Regular Season - 12,Bayern München II,4674,FC Ingolstadt 04,184,1,3,True
+593548,2020-11-27T18:00:00+00:00,FT,Regular Season - 13,KFC Uerdingen 05,1322,Verl,4265,1,2,True
+593557,2020-11-28T13:00:00+00:00,FT,Regular Season - 13,TSV 1860 Munich,786,Türkgücü-Ataspor,9335,2,2,True
+593556,2020-11-28T13:00:00+00:00,FT,Regular Season - 13,SpVgg Unterhaching,1314,SV Wehen,1319,2,1,True
+593552,2020-11-28T13:00:00+00:00,FT,Regular Season - 13,FSV Zwickau,1315,FC Magdeburg,179,0,1,True
+593551,2020-11-28T13:00:00+00:00,FT,Regular Season - 13,Hallescher FC,1316,FC Viktoria Koln,1620,2,0,True
+593549,2020-11-28T13:00:00+00:00,FT,Regular Season - 13,Hansa Rostock,1321,Bayern München II,4674,2,0,True
+593555,2020-11-29T12:00:00+00:00,FT,Regular Season - 13,MSV Duisburg,187,Dynamo Dresden,183,0,3,True
+593553,2020-11-29T13:00:00+00:00,FT,Regular Season - 13,FC Saarbrucken,1639,FC Kaiserslautern,745,1,1,True
+593550,2020-11-30T18:00:00+00:00,FT,Regular Season - 13,SV Meppen,1318,FC Ingolstadt 04,184,2,0,True
+593504,2020-12-02T18:00:00+00:00,FT,Regular Season - 8,Hallescher FC,1316,SpVgg Unterhaching,1314,2,0,True
+593510,2020-12-02T18:00:00+00:00,FT,Regular Season - 9,Hansa Rostock,1321,Türkgücü-Ataspor,9335,2,0,True
+593563,2020-12-04T18:00:00+00:00,FT,Regular Season - 14,FC Magdeburg,179,SV Meppen,1318,0,0,True
+593560,2020-12-05T13:00:00+00:00,FT,Regular Season - 14,Dynamo Dresden,183,KFC Uerdingen 05,1322,0,0,True
+593558,2020-12-05T13:00:00+00:00,FT,Regular Season - 14,FC Ingolstadt 04,184,VfB Lubeck,1625,1,1,True
+593566,2020-12-05T13:00:00+00:00,FT,Regular Season - 14,FC Kaiserslautern,745,MSV Duisburg,187,2,2,True
+593562,2020-12-05T13:00:00+00:00,FT,Regular Season - 14,FC Viktoria Koln,1620,TSV 1860 Munich,786,2,1,True
+593561,2020-12-05T13:00:00+00:00,FT,Regular Season - 14,Waldhof Mannheim,4268,FC Saarbrucken,1639,4,1,True
+593559,2020-12-06T12:00:00+00:00,FT,Regular Season - 14,SV Wehen,1319,Hansa Rostock,1321,2,1,True
+593564,2020-12-06T13:00:00+00:00,FT,Regular Season - 14,Verl,4265,Hallescher FC,1316,4,2,True
+593516,2020-12-08T18:00:00+00:00,FT,Regular Season - 9,SV Meppen,1318,Waldhof Mannheim,4268,2,0,True
+593576,2020-12-11T18:00:00+00:00,FT,Regular Season - 15,SpVgg Unterhaching,1314,FC Kaiserslautern,745,2,0,True
+593569,2020-12-12T13:00:00+00:00,FT,Regular Season - 15,MSV Duisburg,187,SV Wehen,1319,4,1,True
+593570,2020-12-12T13:00:00+00:00,FT,Regular Season - 15,TSV 1860 Munich,786,Waldhof Mannheim,4268,5,0,True
+593571,2020-12-12T13:00:00+00:00,FT,Regular Season - 15,Hallescher FC,1316,Dynamo Dresden,183,1,3,True
+593568,2020-12-12T13:00:00+00:00,FT,Regular Season - 15,KFC Uerdingen 05,1322,Türkgücü-Ataspor,9335,1,0,True
+593574,2020-12-12T13:00:00+00:00,FT,Regular Season - 15,VfB Lubeck,1625,FC Magdeburg,179,1,1,True
+593573,2020-12-12T13:00:00+00:00,FT,Regular Season - 15,Verl,4265,FC Viktoria Koln,1620,1,1,True
+593572,2020-12-13T12:00:00+00:00,FT,Regular Season - 15,FC Saarbrucken,1639,Bayern München II,4674,1,2,True
+593575,2020-12-13T13:00:00+00:00,FT,Regular Season - 15,Hansa Rostock,1321,SV Meppen,1318,0,2,True
+593578,2020-12-15T18:00:00+00:00,FT,Regular Season - 16,Dynamo Dresden,183,Verl,4265,4,1,True
+593587,2020-12-15T18:00:00+00:00,FT,Regular Season - 16,FC Kaiserslautern,745,TSV 1860 Munich,786,0,3,True
+593583,2020-12-15T18:00:00+00:00,FT,Regular Season - 16,SV Wehen,1319,VfB Lubeck,1625,4,2,True
+593585,2020-12-15T18:00:00+00:00,FT,Regular Season - 16,Waldhof Mannheim,4268,SpVgg Unterhaching,1314,1,4,True
+593582,2020-12-15T18:00:00+00:00,FT,Regular Season - 16,Türkgücü-Ataspor,9335,Hallescher FC,1316,0,3,True
+593584,2020-12-16T18:00:00+00:00,FT,Regular Season - 16,FC Ingolstadt 04,184,Hansa Rostock,1321,1,0,True
+593586,2020-12-16T18:00:00+00:00,FT,Regular Season - 16,SV Meppen,1318,FSV Zwickau,1315,1,2,True
+593580,2020-12-16T18:00:00+00:00,FT,Regular Season - 16,FC Viktoria Koln,1620,KFC Uerdingen 05,1322,0,2,True
+593579,2020-12-16T18:00:00+00:00,FT,Regular Season - 16,Bayern München II,4674,MSV Duisburg,187,1,1,True
+593596,2020-12-18T18:00:00+00:00,FT,Regular Season - 17,TSV 1860 Munich,786,SV Wehen,1319,2,2,True
+593589,2020-12-19T13:00:00+00:00,FT,Regular Season - 17,SpVgg Unterhaching,1314,Bayern München II,4674,1,1,True
+593597,2020-12-19T13:00:00+00:00,FT,Regular Season - 17,KFC Uerdingen 05,1322,FC Kaiserslautern,745,0,2,True
+593588,2020-12-19T13:00:00+00:00,FT,Regular Season - 17,FC Viktoria Koln,1620,Dynamo Dresden,183,2,4,True
+593594,2020-12-19T13:00:00+00:00,FT,Regular Season - 17,VfB Lubeck,1625,SV Meppen,1318,0,2,True
+593592,2020-12-19T13:00:00+00:00,FT,Regular Season - 17,FC Saarbrucken,1639,FC Ingolstadt 04,184,3,3,True
+593593,2020-12-20T12:00:00+00:00,FT,Regular Season - 17,Verl,4265,Türkgücü-Ataspor,9335,0,1,True
+593591,2020-12-20T13:00:00+00:00,FT,Regular Season - 17,FSV Zwickau,1315,Hansa Rostock,1321,0,2,True
+593532,2020-12-23T16:30:00+00:00,FT,Regular Season - 11,SV Meppen,1318,Türkgücü-Ataspor,9335,1,4,True
+593607,2021-01-08T18:00:00+00:00,FT,Regular Season - 18,Waldhof Mannheim,4268,Verl,4265,2,2,True
+593603,2021-01-09T13:00:00+00:00,FT,Regular Season - 18,FC Magdeburg,179,KFC Uerdingen 05,1322,1,1,True
+593606,2021-01-09T13:00:00+00:00,FT,Regular Season - 18,FC Kaiserslautern,745,FC Viktoria Koln,1620,0,0,True
+593602,2021-01-09T13:00:00+00:00,FT,Regular Season - 18,SV Meppen,1318,FC Saarbrucken,1639,1,0,True
+593599,2021-01-09T13:00:00+00:00,FT,Regular Season - 18,SV Wehen,1319,Hallescher FC,1316,1,1,True
+593605,2021-01-09T13:00:00+00:00,FT,Regular Season - 18,Hansa Rostock,1321,SpVgg Unterhaching,1314,1,0,True
+593600,2021-01-09T13:00:00+00:00,FT,Regular Season - 18,Bayern München II,4674,TSV 1860 Munich,786,0,2,True
+593601,2021-01-10T12:00:00+00:00,FT,Regular Season - 18,FC Ingolstadt 04,184,MSV Duisburg,187,2,1,True
+593604,2021-01-10T13:00:00+00:00,FT,Regular Season - 18,FSV Zwickau,1315,VfB Lubeck,1625,2,1,True
+593598,2021-01-11T18:00:00+00:00,FT,Regular Season - 18,Türkgücü-Ataspor,9335,Dynamo Dresden,183,1,0,True
+593581,2021-01-12T18:00:00+00:00,FT,Regular Season - 16,FC Magdeburg,179,FC Saarbrucken,1639,1,2,True
+593511,2021-01-12T18:00:00+00:00,FT,Regular Season - 9,SpVgg Unterhaching,1314,Verl,4265,3,4,True
+593518,2021-01-12T18:00:00+00:00,FT,Regular Season - 10,Bayern München II,4674,SV Meppen,1318,2,0,True
+593577,2021-01-13T18:00:00+00:00,FT,Regular Season - 15,FSV Zwickau,1315,FC Ingolstadt 04,184,0,2,True
+593554,2021-01-13T18:00:00+00:00,FT,Regular Season - 13,VfB Lubeck,1625,Waldhof Mannheim,4268,0,1,True
+593612,2021-01-15T18:00:00+00:00,FT,Regular Season - 19,FC Viktoria Koln,1620,Türkgücü-Ataspor,9335,0,2,True
+593608,2021-01-16T13:00:00+00:00,FT,Regular Season - 19,SpVgg Unterhaching,1314,FC Magdeburg,179,0,2,True
+593616,2021-01-16T13:00:00+00:00,FT,Regular Season - 19,Hallescher FC,1316,Bayern München II,4674,0,4,True
+593614,2021-01-16T13:00:00+00:00,FT,Regular Season - 19,Verl,4265,FC Kaiserslautern,745,1,1,True
+593615,2021-01-17T12:00:00+00:00,FT,Regular Season - 19,KFC Uerdingen 05,1322,Waldhof Mannheim,4268,1,1,True
+593610,2021-01-17T13:00:00+00:00,FT,Regular Season - 19,MSV Duisburg,187,SV Meppen,1318,1,0,True
+593611,2021-01-18T18:00:00+00:00,FT,Regular Season - 19,TSV 1860 Munich,786,FC Ingolstadt 04,184,1,0,True
+593498,2021-01-19T18:00:00+00:00,FT,Regular Season - 8,Verl,4265,FSV Zwickau,1315,1,1,True
+593567,2021-01-19T18:00:00+00:00,FT,Regular Season - 14,Türkgücü-Ataspor,9335,SpVgg Unterhaching,1314,0,0,True
+593595,2021-01-20T18:00:00+00:00,FT,Regular Season - 17,MSV Duisburg,187,FC Magdeburg,179,1,2,True
+593590,2021-01-20T18:00:00+00:00,FT,Regular Season - 17,Hallescher FC,1316,Waldhof Mannheim,4268,0,0,True
+593624,2021-01-22T18:00:00+00:00,FT,Regular Season - 20,Türkgücü-Ataspor,9335,Bayern München II,4674,0,0,True
+593625,2021-01-23T13:00:00+00:00,FT,Regular Season - 20,Dynamo Dresden,183,FC Kaiserslautern,745,4,3,True
+593618,2021-01-23T13:00:00+00:00,FT,Regular Season - 20,MSV Duisburg,187,Hansa Rostock,1321,1,2,True
+593620,2021-01-23T13:00:00+00:00,FT,Regular Season - 20,SpVgg Unterhaching,1314,FSV Zwickau,1315,1,2,True
+593622,2021-01-23T13:00:00+00:00,FT,Regular Season - 20,Hallescher FC,1316,FC Magdeburg,179,1,0,True
+593626,2021-01-23T13:00:00+00:00,FT,Regular Season - 20,FC Viktoria Koln,1620,Waldhof Mannheim,4268,1,2,True
+593627,2021-01-23T13:00:00+00:00,FT,Regular Season - 20,Verl,4265,SV Wehen,1319,2,2,True
+593619,2021-01-24T12:00:00+00:00,FT,Regular Season - 20,TSV 1860 Munich,786,SV Meppen,1318,1,1,True
+593623,2021-01-24T13:00:00+00:00,FT,Regular Season - 20,FC Saarbrucken,1639,VfB Lubeck,1625,0,0,True
+593637,2021-01-26T18:00:00+00:00,FT,Regular Season - 21,FC Kaiserslautern,745,Türkgücü-Ataspor,9335,0,0,True
+593631,2021-01-26T18:00:00+00:00,FT,Regular Season - 21,FSV Zwickau,1315,MSV Duisburg,187,3,1,True
+593633,2021-01-26T18:00:00+00:00,FT,Regular Season - 21,SV Wehen,1319,FC Viktoria Koln,1620,2,2,True
+593635,2021-01-26T18:00:00+00:00,FT,Regular Season - 21,Waldhof Mannheim,4268,Dynamo Dresden,183,1,0,True
+593630,2021-01-27T18:00:00+00:00,FT,Regular Season - 21,FC Magdeburg,179,TSV 1860 Munich,786,0,3,True
+593628,2021-01-27T18:00:00+00:00,FT,Regular Season - 21,FC Ingolstadt 04,184,Hallescher FC,1316,1,1,True
+593629,2021-01-27T18:00:00+00:00,FT,Regular Season - 21,Hansa Rostock,1321,FC Saarbrucken,1639,4,2,True
+593632,2021-01-27T18:00:00+00:00,FT,Regular Season - 21,VfB Lubeck,1625,SpVgg Unterhaching,1314,1,0,True
+593640,2021-01-30T13:00:00+00:00,FT,Regular Season - 22,FC Kaiserslautern,745,SV Wehen,1319,0,1,True
+593645,2021-01-30T13:00:00+00:00,FT,Regular Season - 22,SpVgg Unterhaching,1314,FC Ingolstadt 04,184,0,1,True
+593643,2021-01-30T13:00:00+00:00,FT,Regular Season - 22,Verl,4265,SV Meppen,1318,3,1,True
+593644,2021-01-30T13:00:00+00:00,FT,Regular Season - 22,Türkgücü-Ataspor,9335,Waldhof Mannheim,4268,0,2,True
+593638,2021-01-31T12:00:00+00:00,FT,Regular Season - 22,MSV Duisburg,187,VfB Lubeck,1625,3,1,True
+593647,2021-01-31T13:00:00+00:00,FT,Regular Season - 22,TSV 1860 Munich,786,FSV Zwickau,1315,0,1,True
+593646,2021-02-01T18:00:00+00:00,FT,Regular Season - 22,Hallescher FC,1316,FC Saarbrucken,1639,1,1,True
+593650,2021-02-05T18:00:00+00:00,FT,Regular Season - 23,Hansa Rostock,1321,Verl,4265,3,2,True
+593657,2021-02-06T13:00:00+00:00,FT,Regular Season - 23,FC Magdeburg,179,Dynamo Dresden,183,0,1,True
+593655,2021-02-06T13:00:00+00:00,FT,Regular Season - 23,FC Ingolstadt 04,184,FC Viktoria Koln,1620,2,1,True
+593656,2021-02-06T13:00:00+00:00,FT,Regular Season - 23,FSV Zwickau,1315,Hallescher FC,1316,2,2,True
+593652,2021-02-06T13:00:00+00:00,FT,Regular Season - 23,SV Meppen,1318,SpVgg Unterhaching,1314,3,2,True
+593651,2021-02-06T13:00:00+00:00,FT,Regular Season - 23,Waldhof Mannheim,4268,FC Kaiserslautern,745,0,2,True
+593648,2021-02-07T12:00:00+00:00,FT,Regular Season - 23,Bayern München II,4674,KFC Uerdingen 05,1322,0,1,True
+593649,2021-02-07T13:00:00+00:00,FT,Regular Season - 23,SV Wehen,1319,Türkgücü-Ataspor,9335,3,1,True
+593565,2021-02-10T18:00:00+00:00,FT,Regular Season - 14,Bayern München II,4674,FSV Zwickau,1315,3,2,True
+593660,2021-02-13T13:00:00+00:00,FT,Regular Season - 24,FC Kaiserslautern,745,Bayern München II,4674,1,1,True
+593665,2021-02-13T13:00:00+00:00,FT,Regular Season - 24,TSV 1860 Munich,786,Hansa Rostock,1321,0,0,True
+593667,2021-02-13T13:00:00+00:00,FT,Regular Season - 24,Waldhof Mannheim,4268,SV Wehen,1319,0,1,True
+593661,2021-02-14T12:00:00+00:00,FT,Regular Season - 24,SpVgg Unterhaching,1314,FC Saarbrucken,1639,0,1,True
+593659,2021-02-14T13:00:00+00:00,FT,Regular Season - 24,Dynamo Dresden,183,VfB Lubeck,1625,3,1,True
+593666,2021-02-15T18:00:00+00:00,FT,Regular Season - 24,Türkgücü-Ataspor,9335,FC Magdeburg,179,2,1,True
+593673,2021-02-19T18:00:00+00:00,FT,Regular Season - 25,SV Meppen,1318,Hallescher FC,1316,2,1,True
+593670,2021-02-20T13:00:00+00:00,FT,Regular Season - 25,FC Ingolstadt 04,184,FC Kaiserslautern,745,1,0,True
+593671,2021-02-20T13:00:00+00:00,FT,Regular Season - 25,MSV Duisburg,187,SpVgg Unterhaching,1314,2,1,True
+593676,2021-02-20T13:00:00+00:00,FT,Regular Season - 25,FSV Zwickau,1315,Dynamo Dresden,183,0,2,True
+593672,2021-02-20T13:00:00+00:00,FT,Regular Season - 25,Hansa Rostock,1321,Waldhof Mannheim,4268,1,0,True
+593668,2021-02-20T13:00:00+00:00,FT,Regular Season - 25,VfB Lubeck,1625,Türkgücü-Ataspor,9335,0,2,True
+593674,2021-02-20T13:00:00+00:00,FT,Regular Season - 25,FC Saarbrucken,1639,TSV 1860 Munich,786,2,1,True
+593677,2021-02-21T12:00:00+00:00,FT,Regular Season - 25,Bayern München II,4674,FC Viktoria Koln,1620,0,1,True
+593675,2021-02-21T13:00:00+00:00,FT,Regular Season - 25,FC Magdeburg,179,Verl,4265,0,4,True
+593669,2021-02-22T18:00:00+00:00,FT,Regular Season - 25,SV Wehen,1319,KFC Uerdingen 05,1322,3,1,True
+593639,2021-02-24T18:00:00+00:00,FT,Regular Season - 22,Dynamo Dresden,183,Bayern München II,4674,1,1,True
+593686,2021-02-26T18:00:00+00:00,FT,Regular Season - 26,TSV 1860 Munich,786,SpVgg Unterhaching,1314,3,1,True
+593679,2021-02-27T13:00:00+00:00,FT,Regular Season - 26,Dynamo Dresden,183,FC Ingolstadt 04,184,4,0,True
+593681,2021-02-27T13:00:00+00:00,FT,Regular Season - 26,FC Kaiserslautern,745,SV Meppen,1318,2,2,True
+593682,2021-02-27T13:00:00+00:00,FT,Regular Season - 26,Hallescher FC,1316,VfB Lubeck,1625,2,1,True
+593685,2021-02-27T13:00:00+00:00,FT,Regular Season - 26,SV Wehen,1319,FC Magdeburg,179,1,0,True
+593678,2021-02-27T13:00:00+00:00,FT,Regular Season - 26,FC Viktoria Koln,1620,Hansa Rostock,1321,1,2,True
+593683,2021-02-27T13:00:00+00:00,FT,Regular Season - 26,Verl,4265,FC Saarbrucken,1639,1,3,True
+593684,2021-02-28T12:00:00+00:00,FT,Regular Season - 26,Türkgücü-Ataspor,9335,FSV Zwickau,1315,1,1,True
+593687,2021-02-28T13:00:00+00:00,FT,Regular Season - 26,KFC Uerdingen 05,1322,MSV Duisburg,187,1,2,True
+593680,2021-03-01T18:00:00+00:00,FT,Regular Season - 26,Waldhof Mannheim,4268,Bayern München II,4674,2,2,True
+593641,2021-03-02T16:00:00+00:00,FT,Regular Season - 22,FC Viktoria Koln,1620,FC Magdeburg,179,2,4,True
+593621,2021-03-03T16:00:00+00:00,FT,Regular Season - 20,KFC Uerdingen 05,1322,FC Ingolstadt 04,184,0,3,True
+593617,2021-03-03T16:00:00+00:00,FT,Regular Season - 19,VfB Lubeck,1625,Hansa Rostock,1321,1,0,True
+593653,2021-03-03T16:00:00+00:00,FT,Regular Season - 23,FC Saarbrucken,1639,MSV Duisburg,187,4,1,True
+593696,2021-03-05T18:00:00+00:00,FT,Regular Season - 27,FSV Zwickau,1315,Verl,4265,3,0,True
+593688,2021-03-06T13:00:00+00:00,FT,Regular Season - 27,FC Magdeburg,179,Waldhof Mannheim,4268,1,1,True
+593695,2021-03-06T13:00:00+00:00,FT,Regular Season - 27,MSV Duisburg,187,TSV 1860 Munich,786,1,0,True
+593691,2021-03-06T13:00:00+00:00,FT,Regular Season - 27,SV Meppen,1318,Dynamo Dresden,183,0,4,True
+593690,2021-03-06T13:00:00+00:00,FT,Regular Season - 27,Hansa Rostock,1321,FC Kaiserslautern,745,2,1,True
+593694,2021-03-06T13:00:00+00:00,FT,Regular Season - 27,VfB Lubeck,1625,FC Viktoria Koln,1620,1,2,True
+593693,2021-03-06T13:00:00+00:00,FT,Regular Season - 27,FC Saarbrucken,1639,KFC Uerdingen 05,1322,2,2,True
+593692,2021-03-07T12:00:00+00:00,FT,Regular Season - 27,SpVgg Unterhaching,1314,Hallescher FC,1316,3,0,True
+593697,2021-03-07T13:00:00+00:00,FT,Regular Season - 27,Bayern München II,4674,SV Wehen,1319,2,0,True
+593689,2021-03-08T18:00:00+00:00,FT,Regular Season - 27,FC Ingolstadt 04,184,Türkgücü-Ataspor,9335,2,1,True
+593642,2021-03-09T18:00:00+00:00,FT,Regular Season - 22,KFC Uerdingen 05,1322,Hansa Rostock,1321,0,1,True
+593662,2021-03-09T18:00:00+00:00,FT,Regular Season - 24,FC Viktoria Koln,1620,SV Meppen,1318,1,0,True
+593613,2021-03-10T18:00:00+00:00,FT,Regular Season - 19,FC Saarbrucken,1639,FSV Zwickau,1315,1,2,True
+593634,2021-03-10T18:00:00+00:00,FT,Regular Season - 21,Bayern München II,4674,Verl,4265,1,2,True
+593698,2021-03-12T18:00:00+00:00,FT,Regular Season - 28,KFC Uerdingen 05,1322,VfB Lubeck,1625,1,1,True
+593705,2021-03-13T13:00:00+00:00,FT,Regular Season - 28,Dynamo Dresden,183,FC Saarbrucken,1639,1,1,True
+593702,2021-03-13T13:00:00+00:00,FT,Regular Season - 28,Hallescher FC,1316,TSV 1860 Munich,786,0,4,True
+593707,2021-03-13T13:00:00+00:00,FT,Regular Season - 28,SV Wehen,1319,FC Ingolstadt 04,184,1,2,True
+593701,2021-03-13T13:00:00+00:00,FT,Regular Season - 28,FC Viktoria Koln,1620,MSV Duisburg,187,3,1,True
+593706,2021-03-13T13:00:00+00:00,FT,Regular Season - 28,Bayern München II,4674,FC Magdeburg,179,0,2,True
+593703,2021-03-14T12:00:00+00:00,FT,Regular Season - 28,Verl,4265,SpVgg Unterhaching,1314,2,1,True
+593699,2021-03-14T13:00:00+00:00,FT,Regular Season - 28,Waldhof Mannheim,4268,SV Meppen,1318,0,1,True
+593704,2021-03-15T18:00:00+00:00,FT,Regular Season - 28,Türkgücü-Ataspor,9335,Hansa Rostock,1321,0,3,True
+593664,2021-03-16T18:00:00+00:00,FT,Regular Season - 24,Hallescher FC,1316,MSV Duisburg,187,1,1,True
+593609,2021-03-17T18:00:00+00:00,FT,Regular Season - 19,Dynamo Dresden,183,SV Wehen,1319,1,0,True
+593636,2021-03-17T18:00:00+00:00,FT,Regular Season - 21,SV Meppen,1318,KFC Uerdingen 05,1322,0,4,True
+593654,2021-03-17T18:00:00+00:00,FT,Regular Season - 23,VfB Lubeck,1625,TSV 1860 Munich,786,0,0,True
+593658,2021-03-17T18:00:00+00:00,FT,Regular Season - 24,Verl,4265,FC Ingolstadt 04,184,1,1,True
+593714,2021-03-19T18:00:00+00:00,FT,Regular Season - 29,FC Saarbrucken,1639,FC Viktoria Koln,1620,2,3,True
+593716,2021-03-20T13:00:00+00:00,FT,Regular Season - 29,FC Magdeburg,179,FC Kaiserslautern,745,1,0,True
+593709,2021-03-20T13:00:00+00:00,FT,Regular Season - 29,FC Ingolstadt 04,184,Waldhof Mannheim,4268,1,0,True
+593715,2021-03-20T13:00:00+00:00,FT,Regular Season - 29,MSV Duisburg,187,Türkgücü-Ataspor,9335,3,2,True
+593712,2021-03-20T13:00:00+00:00,FT,Regular Season - 29,SpVgg Unterhaching,1314,KFC Uerdingen 05,1322,2,3,True
+593710,2021-03-20T13:00:00+00:00,FT,Regular Season - 29,Hansa Rostock,1321,Hallescher FC,1316,1,0,True
+593717,2021-03-20T13:00:00+00:00,FT,Regular Season - 29,VfB Lubeck,1625,Verl,4265,2,2,True
+593708,2021-03-21T12:00:00+00:00,FT,Regular Season - 29,SV Meppen,1318,Bayern München II,4674,2,1,True
+593713,2021-03-21T13:00:00+00:00,FT,Regular Season - 29,FSV Zwickau,1315,SV Wehen,1319,2,1,True
+593711,2021-03-22T18:00:00+00:00,FT,Regular Season - 29,TSV 1860 Munich,786,Dynamo Dresden,183,1,0,True
+593663,2021-03-27T13:00:00+00:00,FT,Regular Season - 24,KFC Uerdingen 05,1322,FSV Zwickau,1315,1,1,True
+593722,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,FC Magdeburg,179,FC Ingolstadt 04,184,2,0,True
+593719,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,FC Kaiserslautern,745,Hallescher FC,1316,3,1,True
+593727,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,SV Wehen,1319,FC Saarbrucken,1639,2,2,True
+593721,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,KFC Uerdingen 05,1322,TSV 1860 Munich,786,1,3,True
+593726,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,Verl,4265,MSV Duisburg,187,1,2,True
+593718,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,Waldhof Mannheim,4268,FSV Zwickau,1315,1,0,True
+593725,2021-04-03T12:00:00+00:00,FT,Regular Season - 30,Bayern München II,4674,VfB Lubeck,1625,2,3,True
+593723,2021-04-04T11:00:00+00:00,FT,Regular Season - 30,Türkgücü-Ataspor,9335,SV Meppen,1318,2,0,True
+593724,2021-04-04T12:00:00+00:00,FT,Regular Season - 30,Dynamo Dresden,183,Hansa Rostock,1321,0,0,True
+593720,2021-04-05T17:00:00+00:00,FT,Regular Season - 30,FC Viktoria Koln,1620,SpVgg Unterhaching,1314,1,1,True
+593700,2021-04-07T15:00:00+00:00,FT,Regular Season - 28,FC Kaiserslautern,745,FSV Zwickau,1315,2,2,True
+593728,2021-04-09T17:00:00+00:00,FT,Regular Season - 31,Hallescher FC,1316,KFC Uerdingen 05,1322,2,1,True
+593737,2021-04-10T12:00:00+00:00,FT,Regular Season - 31,FC Ingolstadt 04,184,Bayern München II,4674,2,2,True
+593729,2021-04-10T12:00:00+00:00,FT,Regular Season - 31,MSV Duisburg,187,Waldhof Mannheim,4268,1,1,True
+593735,2021-04-10T12:00:00+00:00,FT,Regular Season - 31,TSV 1860 Munich,786,Verl,4265,3,2,True
+593730,2021-04-10T12:00:00+00:00,FT,Regular Season - 31,Hansa Rostock,1321,FC Magdeburg,179,0,2,True
+593734,2021-04-10T12:00:00+00:00,FT,Regular Season - 31,VfB Lubeck,1625,FC Kaiserslautern,745,1,1,True
+593736,2021-04-10T12:00:00+00:00,FT,Regular Season - 31,FC Saarbrucken,1639,Türkgücü-Ataspor,9335,2,1,True
+593733,2021-04-11T11:00:00+00:00,FT,Regular Season - 31,FSV Zwickau,1315,FC Viktoria Koln,1620,1,2,True
+593732,2021-04-11T12:00:00+00:00,FT,Regular Season - 31,SpVgg Unterhaching,1314,Dynamo Dresden,183,2,0,True
+593731,2021-04-12T17:00:00+00:00,FT,Regular Season - 31,SV Meppen,1318,SV Wehen,1319,0,3,True
+593741,2021-04-16T17:00:00+00:00,FT,Regular Season - 32,Bayern München II,4674,Hansa Rostock,1321,0,1,True
+593738,2021-04-17T12:00:00+00:00,FT,Regular Season - 32,FC Magdeburg,179,FSV Zwickau,1315,0,0,True
+593747,2021-04-17T12:00:00+00:00,FT,Regular Season - 32,FC Kaiserslautern,745,FC Saarbrucken,1639,2,1,True
+593742,2021-04-17T12:00:00+00:00,FT,Regular Season - 32,FC Viktoria Koln,1620,Hallescher FC,1316,2,0,True
+593743,2021-04-17T12:00:00+00:00,FT,Regular Season - 32,Verl,4265,KFC Uerdingen 05,1322,3,0,True
+593744,2021-04-17T12:00:00+00:00,FT,Regular Season - 32,Türkgücü-Ataspor,9335,TSV 1860 Munich,786,0,2,True
+593745,2021-04-18T11:00:00+00:00,FT,Regular Season - 32,FC Ingolstadt 04,184,SV Meppen,1318,0,0,True
+593746,2021-04-18T12:00:00+00:00,FT,Regular Season - 32,Waldhof Mannheim,4268,VfB Lubeck,1625,3,2,True
+593739,2021-04-18T13:00:00+00:00,FT,Regular Season - 32,SV Wehen,1319,SpVgg Unterhaching,1314,1,0,True
+593753,2021-04-20T17:00:00+00:00,FT,Regular Season - 33,MSV Duisburg,187,FC Kaiserslautern,745,2,2,True
+593749,2021-04-20T17:00:00+00:00,FT,Regular Season - 33,TSV 1860 Munich,786,FC Viktoria Koln,1620,1,1,True
+593752,2021-04-20T17:00:00+00:00,FT,Regular Season - 33,FSV Zwickau,1315,Bayern München II,4674,1,1,True
+593751,2021-04-20T17:00:00+00:00,FT,Regular Season - 33,Hallescher FC,1316,Verl,4265,1,1,True
+593755,2021-04-21T17:00:00+00:00,FT,Regular Season - 33,SpVgg Unterhaching,1314,Türkgücü-Ataspor,9335,0,2,True
+593754,2021-04-21T17:00:00+00:00,FT,Regular Season - 33,SV Meppen,1318,FC Magdeburg,179,1,2,True
+593748,2021-04-21T17:00:00+00:00,FT,Regular Season - 33,Hansa Rostock,1321,SV Wehen,1319,1,1,True
+593757,2021-04-21T17:00:00+00:00,FT,Regular Season - 33,VfB Lubeck,1625,FC Ingolstadt 04,184,1,1,True
+593756,2021-04-21T17:00:00+00:00,FT,Regular Season - 33,FC Saarbrucken,1639,Waldhof Mannheim,4268,5,0,True
+593758,2021-04-23T17:00:00+00:00,FT,Regular Season - 34,FC Viktoria Koln,1620,Verl,4265,2,2,True
+593760,2021-04-24T12:00:00+00:00,FT,Regular Season - 34,Dynamo Dresden,183,Hallescher FC,1316,0,3,True
+593761,2021-04-24T12:00:00+00:00,FT,Regular Season - 34,FC Ingolstadt 04,184,FSV Zwickau,1315,3,2,True
+593763,2021-04-24T12:00:00+00:00,FT,Regular Season - 34,FC Kaiserslautern,745,SpVgg Unterhaching,1314,3,2,True
+593762,2021-04-24T12:00:00+00:00,FT,Regular Season - 34,SV Meppen,1318,Hansa Rostock,1321,2,3,True
+593766,2021-04-24T12:00:00+00:00,FT,Regular Season - 34,Waldhof Mannheim,4268,TSV 1860 Munich,786,0,2,True
+593764,2021-04-24T12:00:00+00:00,FT,Regular Season - 34,Türkgücü-Ataspor,9335,KFC Uerdingen 05,1322,0,2,True
+593767,2021-04-25T11:00:00+00:00,FT,Regular Season - 34,FC Magdeburg,179,VfB Lubeck,1625,1,0,True
+593759,2021-04-25T12:00:00+00:00,FT,Regular Season - 34,SV Wehen,1319,MSV Duisburg,187,0,3,True
+593765,2021-04-26T17:00:00+00:00,FT,Regular Season - 34,Bayern München II,4674,FC Saarbrucken,1639,0,4,True
+593740,2021-04-28T17:00:00+00:00,FT,Regular Season - 32,Dynamo Dresden,183,MSV Duisburg,187,1,0,True
+593750,2021-05-01T12:00:00+00:00,FT,Regular Season - 33,KFC Uerdingen 05,1322,Dynamo Dresden,183,0,2,True
+593769,2021-05-04T17:00:00+00:00,FT,Regular Season - 35,TSV 1860 Munich,786,FC Kaiserslautern,745,3,0,True
+593771,2021-05-04T17:00:00+00:00,FT,Regular Season - 35,Hallescher FC,1316,Türkgücü-Ataspor,9335,4,1,True
+593768,2021-05-04T17:00:00+00:00,FT,Regular Season - 35,Hansa Rostock,1321,FC Ingolstadt 04,184,1,1,True
+593777,2021-05-04T17:00:00+00:00,FT,Regular Season - 35,VfB Lubeck,1625,SV Wehen,1319,0,3,True
+593772,2021-05-04T17:00:00+00:00,FT,Regular Season - 35,Verl,4265,Dynamo Dresden,183,0,0,True
+593773,2021-05-05T17:00:00+00:00,FT,Regular Season - 35,MSV Duisburg,187,Bayern München II,4674,2,2,True
+593774,2021-05-05T17:00:00+00:00,FT,Regular Season - 35,SpVgg Unterhaching,1314,Waldhof Mannheim,4268,0,2,True
+593775,2021-05-05T17:00:00+00:00,FT,Regular Season - 35,FSV Zwickau,1315,SV Meppen,1318,0,0,True
+593770,2021-05-05T17:00:00+00:00,FT,Regular Season - 35,KFC Uerdingen 05,1322,FC Viktoria Koln,1620,1,1,True
+593776,2021-05-05T17:00:00+00:00,FT,Regular Season - 35,FC Saarbrucken,1639,FC Magdeburg,179,0,3,True
+593778,2021-05-07T17:00:00+00:00,FT,Regular Season - 36,Türkgücü-Ataspor,9335,Verl,4265,1,2,True
+593784,2021-05-08T12:00:00+00:00,FT,Regular Season - 36,FC Magdeburg,179,MSV Duisburg,187,3,2,True
+593780,2021-05-08T12:00:00+00:00,FT,Regular Season - 36,Dynamo Dresden,183,FC Viktoria Koln,1620,2,0,True
+593785,2021-05-08T12:00:00+00:00,FT,Regular Season - 36,FC Ingolstadt 04,184,FC Saarbrucken,1639,0,0,True
+593783,2021-05-08T12:00:00+00:00,FT,Regular Season - 36,FC Kaiserslautern,745,KFC Uerdingen 05,1322,4,1,True
+593779,2021-05-08T12:00:00+00:00,FT,Regular Season - 36,SV Wehen,1319,TSV 1860 Munich,786,1,1,True
+593786,2021-05-08T12:00:00+00:00,FT,Regular Season - 36,Hansa Rostock,1321,FSV Zwickau,1315,0,0,True
+593782,2021-05-09T11:00:00+00:00,FT,Regular Season - 36,SV Meppen,1318,VfB Lubeck,1625,0,2,True
+593787,2021-05-09T12:00:00+00:00,FT,Regular Season - 36,Bayern München II,4674,SpVgg Unterhaching,1314,1,2,True
+593781,2021-05-10T17:00:00+00:00,FT,Regular Season - 36,Waldhof Mannheim,4268,Hallescher FC,1316,3,2,True
+593793,2021-05-14T17:00:00+00:00,FT,Regular Season - 37,FC Saarbrucken,1639,SV Meppen,1318,2,0,True
+593789,2021-05-15T12:00:00+00:00,FT,Regular Season - 37,MSV Duisburg,187,FC Ingolstadt 04,184,1,5,True
+593790,2021-05-15T12:00:00+00:00,FT,Regular Season - 37,SpVgg Unterhaching,1314,Hansa Rostock,1321,0,1,True
+593788,2021-05-15T12:00:00+00:00,FT,Regular Season - 37,KFC Uerdingen 05,1322,FC Magdeburg,179,1,0,True
+593791,2021-05-15T12:00:00+00:00,FT,Regular Season - 37,FC Viktoria Koln,1620,FC Kaiserslautern,745,3,3,True
+593797,2021-05-15T12:00:00+00:00,FT,Regular Season - 37,Verl,4265,Waldhof Mannheim,4268,0,1,True
+593792,2021-05-16T11:00:00+00:00,FT,Regular Season - 37,Hallescher FC,1316,SV Wehen,1319,4,0,True
+593795,2021-05-16T12:00:00+00:00,FT,Regular Season - 37,Dynamo Dresden,183,Türkgücü-Ataspor,9335,4,0,True
+593796,2021-05-16T12:00:00+00:00,FT,Regular Season - 37,TSV 1860 Munich,786,Bayern München II,4674,2,2,True
+593794,2021-05-17T17:00:00+00:00,FT,Regular Season - 37,VfB Lubeck,1625,FSV Zwickau,1315,1,2,True
+593805,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,FC Magdeburg,179,SpVgg Unterhaching,1314,1,1,True
+593800,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,FC Ingolstadt 04,184,TSV 1860 Munich,786,3,1,True
+593804,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,FC Kaiserslautern,745,Verl,4265,1,1,True
+593806,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,FSV Zwickau,1315,FC Saarbrucken,1639,2,0,True
+593803,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,SV Meppen,1318,MSV Duisburg,187,2,1,True
+593798,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,SV Wehen,1319,Dynamo Dresden,183,0,1,True
+593801,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,Hansa Rostock,1321,VfB Lubeck,1625,1,1,True
+593802,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,Waldhof Mannheim,4268,KFC Uerdingen 05,1322,1,1,True
+593799,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,Bayern München II,4674,Hallescher FC,1316,0,1,True
+593807,2021-05-22T11:30:00+00:00,FT,Regular Season - 38,Türkgücü-Ataspor,9335,FC Viktoria Koln,1620,1,1,True

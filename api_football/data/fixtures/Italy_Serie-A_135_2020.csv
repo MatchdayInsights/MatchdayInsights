@@ -1,0 +1,381 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+608481,2020-09-19T16:00:00+00:00,FT,Regular Season - 1,Fiorentina,502,Torino,503,1,0,True
+608489,2020-09-19T18:45:00+00:00,FT,Regular Season - 1,Hellas Verona,504,AS Roma,497,3,0,True
+608486,2020-09-20T10:30:00+00:00,FT,Regular Season - 1,Parma,523,Napoli,492,0,2,True
+608482,2020-09-20T13:00:00+00:00,FT,Regular Season - 1,Genoa,495,Crotone,501,4,1,True
+608487,2020-09-20T16:00:00+00:00,FT,Regular Season - 1,Sassuolo,488,Cagliari,490,1,1,True
+608483,2020-09-20T18:45:00+00:00,FT,Regular Season - 1,Juventus,496,Sampdoria,498,3,0,True
+608485,2020-09-21T18:45:00+00:00,FT,Regular Season - 1,AC Milan,489,Bologna,500,2,0,True
+608498,2020-09-26T13:00:00+00:00,FT,Regular Season - 2,Torino,503,Atalanta,499,2,4,True
+608491,2020-09-26T16:00:00+00:00,FT,Regular Season - 2,Cagliari,490,Lazio,487,0,2,True
+608496,2020-09-26T16:00:00+00:00,FT,Regular Season - 2,Sampdoria,498,Benevento,506,2,3,True
+608493,2020-09-26T18:45:00+00:00,FT,Regular Season - 2,Inter,505,Fiorentina,502,4,3,True
+608497,2020-09-27T10:30:00+00:00,FT,Regular Season - 2,Spezia,515,Sassuolo,488,1,4,True
+608499,2020-09-27T13:00:00+00:00,FT,Regular Season - 2,Hellas Verona,504,Udinese,494,1,0,True
+608494,2020-09-27T16:00:00+00:00,FT,Regular Season - 2,Napoli,492,Genoa,495,6,0,True
+608492,2020-09-27T16:00:00+00:00,FT,Regular Season - 2,Crotone,501,AC Milan,489,0,2,True
+608495,2020-09-27T18:45:00+00:00,FT,Regular Season - 2,AS Roma,497,Juventus,496,2,2,True
+608490,2020-09-28T18:45:00+00:00,FT,Regular Season - 2,Bologna,500,Parma,523,4,1,True
+608488,2020-09-30T16:00:00+00:00,FT,Regular Season - 1,Udinese,494,Spezia,515,0,2,True
+608480,2020-09-30T16:00:00+00:00,FT,Regular Season - 1,Benevento,506,Inter,505,2,5,True
+608484,2020-09-30T18:45:00+00:00,FT,Regular Season - 1,Lazio,487,Atalanta,499,1,4,True
+608502,2020-10-02T18:45:00+00:00,FT,Regular Season - 3,Fiorentina,502,Sampdoria,498,1,2,True
+608508,2020-10-03T13:00:00+00:00,FT,Regular Season - 3,Sassuolo,488,Crotone,501,4,1,True
+608509,2020-10-03T18:45:00+00:00,FT,Regular Season - 3,Udinese,494,AS Roma,497,0,1,True
+608500,2020-10-04T10:30:00+00:00,FT,Regular Season - 3,Atalanta,499,Cagliari,490,5,2,True
+608505,2020-10-04T13:00:00+00:00,FT,Regular Season - 3,Lazio,487,Inter,505,1,1,True
+608501,2020-10-04T13:00:00+00:00,FT,Regular Season - 3,Benevento,506,Bologna,500,1,0,True
+608507,2020-10-04T13:00:00+00:00,FT,Regular Season - 3,Parma,523,Hellas Verona,504,1,0,True
+608506,2020-10-04T16:00:00+00:00,FT,Regular Season - 3,AC Milan,489,Spezia,515,3,0,True
+608513,2020-10-17T13:00:00+00:00,FT,Regular Season - 4,Napoli,492,Atalanta,499,4,1,True
+608515,2020-10-17T16:00:00+00:00,FT,Regular Season - 4,Sampdoria,498,Lazio,487,3,0,True
+608512,2020-10-17T16:00:00+00:00,FT,Regular Season - 4,Inter,505,AC Milan,489,1,2,True
+608511,2020-10-17T18:45:00+00:00,FT,Regular Season - 4,Crotone,501,Juventus,496,1,1,True
+608510,2020-10-18T10:30:00+00:00,FT,Regular Season - 4,Bologna,500,Sassuolo,488,3,4,True
+608517,2020-10-18T13:00:00+00:00,FT,Regular Season - 4,Torino,503,Cagliari,490,2,3,True
+608516,2020-10-18T13:00:00+00:00,FT,Regular Season - 4,Spezia,515,Fiorentina,502,2,2,True
+608518,2020-10-18T16:00:00+00:00,FT,Regular Season - 4,Udinese,494,Parma,523,3,2,True
+608514,2020-10-18T18:45:00+00:00,FT,Regular Season - 4,AS Roma,497,Benevento,506,5,2,True
+608519,2020-10-19T18:45:00+00:00,FT,Regular Season - 4,Hellas Verona,504,Genoa,495,0,0,True
+608529,2020-10-23T18:45:00+00:00,FT,Regular Season - 5,Sassuolo,488,Torino,503,3,3,True
+608520,2020-10-24T13:00:00+00:00,FT,Regular Season - 5,Atalanta,499,Sampdoria,498,1,3,True
+608524,2020-10-24T16:00:00+00:00,FT,Regular Season - 5,Genoa,495,Inter,505,0,2,True
+608526,2020-10-24T18:45:00+00:00,FT,Regular Season - 5,Lazio,487,Bologna,500,2,1,True
+608522,2020-10-25T11:30:00+00:00,FT,Regular Season - 5,Cagliari,490,Crotone,501,4,2,True
+608521,2020-10-25T14:00:00+00:00,FT,Regular Season - 5,Benevento,506,Napoli,492,1,2,True
+608528,2020-10-25T14:00:00+00:00,FT,Regular Season - 5,Parma,523,Spezia,515,2,2,True
+608523,2020-10-25T17:00:00+00:00,FT,Regular Season - 5,Fiorentina,502,Udinese,494,3,2,True
+608525,2020-10-25T19:45:00+00:00,FT,Regular Season - 5,Juventus,496,Hellas Verona,504,1,1,True
+608527,2020-10-26T19:45:00+00:00,FT,Regular Season - 5,AC Milan,489,AS Roma,497,3,3,True
+608531,2020-10-31T14:00:00+00:00,FT,Regular Season - 6,Crotone,501,Atalanta,499,1,2,True
+608532,2020-10-31T17:00:00+00:00,FT,Regular Season - 6,Inter,505,Parma,523,2,2,True
+608530,2020-10-31T19:45:00+00:00,FT,Regular Season - 6,Bologna,500,Cagliari,490,3,2,True
+608538,2020-11-01T11:30:00+00:00,FT,Regular Season - 6,Udinese,494,AC Milan,489,1,2,True
+608537,2020-11-01T14:00:00+00:00,FT,Regular Season - 6,Torino,503,Lazio,487,3,4,True
+608536,2020-11-01T14:00:00+00:00,FT,Regular Season - 6,Spezia,515,Juventus,496,1,4,True
+608533,2020-11-01T17:00:00+00:00,FT,Regular Season - 6,Napoli,492,Sassuolo,488,0,2,True
+608534,2020-11-01T17:00:00+00:00,FT,Regular Season - 6,AS Roma,497,Fiorentina,502,2,0,True
+608535,2020-11-01T19:45:00+00:00,FT,Regular Season - 6,Sampdoria,498,Genoa,495,1,1,True
+608539,2020-11-02T19:45:00+00:00,FT,Regular Season - 6,Hellas Verona,504,Benevento,506,3,1,True
+608503,2020-11-04T16:00:00+00:00,FT,Regular Season - 3,Genoa,495,Torino,503,1,2,True
+608603,2020-11-06T19:45:00+00:00,FT,Regular Season - 7,Sassuolo,488,Udinese,494,0,0,True
+608598,2020-11-07T14:00:00+00:00,FT,Regular Season - 7,Cagliari,490,Sampdoria,498,2,0,True
+608596,2020-11-07T17:00:00+00:00,FT,Regular Season - 7,Benevento,506,Spezia,515,0,3,True
+608602,2020-11-07T19:45:00+00:00,FT,Regular Season - 7,Parma,523,Fiorentina,502,0,0,True
+608600,2020-11-08T11:30:00+00:00,FT,Regular Season - 7,Lazio,487,Juventus,496,1,1,True
+608599,2020-11-08T14:00:00+00:00,FT,Regular Season - 7,Genoa,495,AS Roma,497,1,3,True
+608595,2020-11-08T14:00:00+00:00,FT,Regular Season - 7,Atalanta,499,Inter,505,1,1,True
+608604,2020-11-08T14:00:00+00:00,FT,Regular Season - 7,Torino,503,Crotone,501,0,0,True
+608597,2020-11-08T17:00:00+00:00,FT,Regular Season - 7,Bologna,500,Napoli,492,0,1,True
+608601,2020-11-08T19:45:00+00:00,FT,Regular Season - 7,AC Milan,489,Hellas Verona,504,2,2,True
+608605,2020-11-21T14:00:00+00:00,FT,Regular Season - 8,Crotone,501,Lazio,487,0,2,True
+608612,2020-11-21T17:00:00+00:00,FT,Regular Season - 8,Spezia,515,Atalanta,499,0,0,True
+608608,2020-11-21T19:45:00+00:00,FT,Regular Season - 8,Juventus,496,Cagliari,490,2,0,True
+608606,2020-11-22T11:30:00+00:00,FT,Regular Season - 8,Fiorentina,502,Benevento,506,0,1,True
+608610,2020-11-22T14:00:00+00:00,FT,Regular Season - 8,AS Roma,497,Parma,523,3,0,True
+608611,2020-11-22T14:00:00+00:00,FT,Regular Season - 8,Sampdoria,498,Bologna,500,1,2,True
+608614,2020-11-22T14:00:00+00:00,FT,Regular Season - 8,Hellas Verona,504,Sassuolo,488,0,2,True
+608607,2020-11-22T14:00:00+00:00,FT,Regular Season - 8,Inter,505,Torino,503,4,2,True
+608613,2020-11-22T17:00:00+00:00,FT,Regular Season - 8,Udinese,494,Genoa,495,1,0,True
+608609,2020-11-22T19:45:00+00:00,FT,Regular Season - 8,Napoli,492,AC Milan,489,1,3,True
+608623,2020-11-28T14:00:00+00:00,FT,Regular Season - 9,Sassuolo,488,Inter,505,0,3,True
+608616,2020-11-28T17:00:00+00:00,FT,Regular Season - 9,Benevento,506,Juventus,496,1,1,True
+608615,2020-11-28T19:45:00+00:00,FT,Regular Season - 9,Atalanta,499,Hellas Verona,504,0,2,True
+608620,2020-11-29T11:30:00+00:00,FT,Regular Season - 9,Lazio,487,Udinese,494,1,3,True
+608621,2020-11-29T14:00:00+00:00,FT,Regular Season - 9,AC Milan,489,Fiorentina,502,2,0,True
+608617,2020-11-29T14:00:00+00:00,FT,Regular Season - 9,Bologna,500,Crotone,501,1,0,True
+608618,2020-11-29T17:00:00+00:00,FT,Regular Season - 9,Cagliari,490,Spezia,515,2,2,True
+608622,2020-11-29T19:45:00+00:00,FT,Regular Season - 9,Napoli,492,AS Roma,497,4,0,True
+608624,2020-11-30T17:30:00+00:00,FT,Regular Season - 9,Torino,503,Sampdoria,498,2,2,True
+608619,2020-11-30T19:45:00+00:00,FT,Regular Season - 9,Genoa,495,Parma,523,1,2,True
+608632,2020-12-05T14:00:00+00:00,FT,Regular Season - 10,Spezia,515,Lazio,487,1,2,True
+608628,2020-12-05T17:00:00+00:00,FT,Regular Season - 10,Juventus,496,Torino,503,2,1,True
+608627,2020-12-05T19:45:00+00:00,FT,Regular Season - 10,Inter,505,Bologna,500,3,1,True
+608634,2020-12-06T11:30:00+00:00,FT,Regular Season - 10,Hellas Verona,504,Cagliari,490,1,1,True
+608630,2020-12-06T14:00:00+00:00,FT,Regular Season - 10,AS Roma,497,Sassuolo,488,0,0,True
+608629,2020-12-06T14:00:00+00:00,FT,Regular Season - 10,Parma,523,Benevento,506,0,0,True
+608625,2020-12-06T17:00:00+00:00,FT,Regular Season - 10,Crotone,501,Napoli,492,0,4,True
+608631,2020-12-06T19:45:00+00:00,FT,Regular Season - 10,Sampdoria,498,AC Milan,489,1,2,True
+608626,2020-12-07T19:45:00+00:00,FT,Regular Season - 10,Fiorentina,502,Genoa,495,1,1,True
+608643,2020-12-11T19:45:00+00:00,FT,Regular Season - 11,Sassuolo,488,Benevento,506,1,0,True
+608638,2020-12-12T14:00:00+00:00,FT,Regular Season - 11,Crotone,501,Spezia,515,4,1,True
+608644,2020-12-12T17:00:00+00:00,FT,Regular Season - 11,Torino,503,Udinese,494,2,3,True
+608640,2020-12-12T19:45:00+00:00,FT,Regular Season - 11,Lazio,487,Hellas Verona,504,1,2,True
+608637,2020-12-13T11:45:00+00:00,FT,Regular Season - 11,Cagliari,490,Inter,505,1,3,True
+608642,2020-12-13T14:00:00+00:00,FT,Regular Season - 11,Napoli,492,Sampdoria,498,2,1,True
+608635,2020-12-13T14:00:00+00:00,FT,Regular Season - 11,Atalanta,499,Fiorentina,502,3,0,True
+608636,2020-12-13T14:00:00+00:00,FT,Regular Season - 11,Bologna,500,AS Roma,497,1,5,True
+608639,2020-12-13T17:00:00+00:00,FT,Regular Season - 11,Genoa,495,Juventus,496,1,3,True
+608641,2020-12-13T19:45:00+00:00,FT,Regular Season - 11,AC Milan,489,Parma,523,2,2,True
+608653,2020-12-15T17:30:00+00:00,FT,Regular Season - 12,Udinese,494,Crotone,501,0,0,True
+608645,2020-12-15T19:45:00+00:00,FT,Regular Season - 12,Benevento,506,Lazio,487,1,1,True
+608649,2020-12-16T17:30:00+00:00,FT,Regular Season - 12,Juventus,496,Atalanta,499,1,1,True
+608647,2020-12-16T19:45:00+00:00,FT,Regular Season - 12,Genoa,495,AC Milan,489,2,2,True
+608646,2020-12-16T19:45:00+00:00,FT,Regular Season - 12,Fiorentina,502,Sassuolo,488,1,1,True
+608654,2020-12-16T19:45:00+00:00,FT,Regular Season - 12,Hellas Verona,504,Sampdoria,498,1,2,True
+608648,2020-12-16T19:45:00+00:00,FT,Regular Season - 12,Inter,505,Napoli,492,1,0,True
+608652,2020-12-16T19:45:00+00:00,FT,Regular Season - 12,Spezia,515,Bologna,500,2,2,True
+608650,2020-12-16T19:45:00+00:00,FT,Regular Season - 12,Parma,523,Cagliari,490,0,0,True
+608651,2020-12-17T19:45:00+00:00,FT,Regular Season - 12,AS Roma,497,Torino,503,3,1,True
+608658,2020-12-19T14:00:00+00:00,FT,Regular Season - 13,Fiorentina,502,Hellas Verona,504,1,1,True
+608662,2020-12-19T17:00:00+00:00,FT,Regular Season - 13,Sampdoria,498,Crotone,501,3,1,True
+608661,2020-12-19T19:45:00+00:00,FT,Regular Season - 13,Parma,523,Juventus,496,0,4,True
+608664,2020-12-20T11:30:00+00:00,FT,Regular Season - 13,Torino,503,Bologna,500,1,1,True
+608663,2020-12-20T14:00:00+00:00,FT,Regular Season - 13,Sassuolo,488,AC Milan,489,1,2,True
+608657,2020-12-20T14:00:00+00:00,FT,Regular Season - 13,Cagliari,490,Udinese,494,1,1,True
+608659,2020-12-20T14:00:00+00:00,FT,Regular Season - 13,Inter,505,Spezia,515,2,1,True
+608656,2020-12-20T14:00:00+00:00,FT,Regular Season - 13,Benevento,506,Genoa,495,2,0,True
+608655,2020-12-20T17:00:00+00:00,FT,Regular Season - 13,Atalanta,499,AS Roma,497,4,1,True
+608660,2020-12-20T19:45:00+00:00,FT,Regular Season - 13,Lazio,487,Napoli,492,2,0,True
+608666,2020-12-22T17:30:00+00:00,FT,Regular Season - 14,Crotone,501,Parma,523,2,1,True
+608667,2020-12-22T19:45:00+00:00,FT,Regular Season - 14,Juventus,496,Fiorentina,502,0,3,True
+608674,2020-12-23T17:30:00+00:00,FT,Regular Season - 14,Hellas Verona,504,Inter,505,1,2,True
+608668,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,AC Milan,489,Lazio,487,3,2,True
+608669,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,Napoli,492,Torino,503,1,1,True
+608673,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,Udinese,494,Benevento,506,0,2,True
+608670,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,AS Roma,497,Cagliari,490,3,2,True
+608671,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,Sampdoria,498,Sassuolo,488,2,3,True
+608665,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,Bologna,500,Atalanta,499,2,2,True
+608672,2020-12-23T19:45:00+00:00,FT,Regular Season - 14,Spezia,515,Genoa,495,1,2,True
+608680,2021-01-03T11:30:00+00:00,FT,Regular Season - 15,Inter,505,Crotone,501,6,2,True
+608677,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,Cagliari,490,Napoli,492,1,4,True
+608679,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,Genoa,495,Lazio,487,1,1,True
+608683,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,AS Roma,497,Sampdoria,498,1,0,True
+608675,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,Atalanta,499,Sassuolo,488,5,1,True
+608678,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,Fiorentina,502,Bologna,500,0,0,True
+608684,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,Spezia,515,Hellas Verona,504,0,1,True
+608682,2021-01-03T14:00:00+00:00,FT,Regular Season - 15,Parma,523,Torino,503,0,3,True
+608676,2021-01-03T17:00:00+00:00,FT,Regular Season - 15,Benevento,506,AC Milan,489,0,2,True
+608681,2021-01-03T19:45:00+00:00,FT,Regular Season - 15,Juventus,496,Udinese,494,4,1,True
+608687,2021-01-06T11:30:00+00:00,FT,Regular Season - 16,Cagliari,490,Benevento,506,1,2,True
+608689,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Lazio,487,Fiorentina,502,2,1,True
+608693,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Sassuolo,488,Genoa,495,2,1,True
+608692,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Sampdoria,498,Inter,505,2,1,True
+608685,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Atalanta,499,Parma,523,3,0,True
+608686,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Bologna,500,Udinese,494,2,2,True
+608688,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Crotone,501,AS Roma,497,1,3,True
+608694,2021-01-06T14:00:00+00:00,FT,Regular Season - 16,Torino,503,Hellas Verona,504,1,1,True
+608691,2021-01-06T17:00:00+00:00,FT,Regular Season - 16,Napoli,492,Spezia,515,1,2,True
+608690,2021-01-06T19:45:00+00:00,FT,Regular Season - 16,AC Milan,489,Juventus,496,1,3,True
+608695,2021-01-09T14:00:00+00:00,FT,Regular Season - 17,Benevento,506,Atalanta,499,1,4,True
+608697,2021-01-09T17:00:00+00:00,FT,Regular Season - 17,Genoa,495,Bologna,500,2,0,True
+608699,2021-01-09T19:45:00+00:00,FT,Regular Season - 17,AC Milan,489,Torino,503,2,0,True
+608701,2021-01-10T11:30:00+00:00,FT,Regular Season - 17,AS Roma,497,Inter,505,2,2,True
+608703,2021-01-10T14:00:00+00:00,FT,Regular Season - 17,Udinese,494,Napoli,492,1,2,True
+608704,2021-01-10T14:00:00+00:00,FT,Regular Season - 17,Hellas Verona,504,Crotone,501,2,1,True
+608700,2021-01-10T14:00:00+00:00,FT,Regular Season - 17,Parma,523,Lazio,487,0,2,True
+608696,2021-01-10T17:00:00+00:00,FT,Regular Season - 17,Fiorentina,502,Cagliari,490,1,0,True
+608698,2021-01-10T19:45:00+00:00,FT,Regular Season - 17,Juventus,496,Sassuolo,488,3,1,True
+608702,2021-01-11T19:45:00+00:00,FT,Regular Season - 17,Spezia,515,Sampdoria,498,2,1,True
+608710,2021-01-15T19:45:00+00:00,FT,Regular Season - 18,Lazio,487,AS Roma,497,3,0,True
+608706,2021-01-16T14:00:00+00:00,FT,Regular Season - 18,Bologna,500,Hellas Verona,504,1,0,True
+608714,2021-01-16T17:00:00+00:00,FT,Regular Season - 18,Torino,503,Spezia,515,0,0,True
+608712,2021-01-16T19:45:00+00:00,FT,Regular Season - 18,Sampdoria,498,Udinese,494,2,1,True
+608711,2021-01-17T11:30:00+00:00,FT,Regular Season - 18,Napoli,492,Fiorentina,502,6,0,True
+608713,2021-01-17T14:00:00+00:00,FT,Regular Season - 18,Sassuolo,488,Parma,523,1,1,True
+608708,2021-01-17T14:00:00+00:00,FT,Regular Season - 18,Crotone,501,Benevento,506,4,1,True
+608705,2021-01-17T17:00:00+00:00,FT,Regular Season - 18,Atalanta,499,Genoa,495,0,0,True
+608709,2021-01-17T19:45:00+00:00,FT,Regular Season - 18,Inter,505,Juventus,496,2,0,True
+608707,2021-01-18T19:45:00+00:00,FT,Regular Season - 18,Cagliari,490,AC Milan,489,0,2,True
+608633,2021-01-20T14:00:00+00:00,FT,Regular Season - 10,Udinese,494,Atalanta,499,1,1,True
+608715,2021-01-22T19:45:00+00:00,FT,Regular Season - 19,Benevento,506,Torino,503,2,2,True
+608722,2021-01-23T14:00:00+00:00,FT,Regular Season - 19,AS Roma,497,Spezia,515,4,3,True
+608720,2021-01-23T17:00:00+00:00,FT,Regular Season - 19,AC Milan,489,Atalanta,499,0,3,True
+608723,2021-01-23T17:00:00+00:00,FT,Regular Season - 19,Udinese,494,Inter,505,0,0,True
+608716,2021-01-23T19:45:00+00:00,FT,Regular Season - 19,Fiorentina,502,Crotone,501,2,1,True
+608718,2021-01-24T11:30:00+00:00,FT,Regular Season - 19,Juventus,496,Bologna,500,2,0,True
+608717,2021-01-24T14:00:00+00:00,FT,Regular Season - 19,Genoa,495,Cagliari,490,1,0,True
+608724,2021-01-24T14:00:00+00:00,FT,Regular Season - 19,Hellas Verona,504,Napoli,492,3,1,True
+608719,2021-01-24T17:00:00+00:00,FT,Regular Season - 19,Lazio,487,Sassuolo,488,2,1,True
+608721,2021-01-24T19:45:00+00:00,FT,Regular Season - 19,Parma,523,Sampdoria,498,0,2,True
+608726,2021-01-29T19:45:00+00:00,FT,Regular Season - 20,Torino,503,Fiorentina,502,1,1,True
+608730,2021-01-30T14:00:00+00:00,FT,Regular Season - 20,Bologna,500,AC Milan,489,1,2,True
+608728,2021-01-30T17:00:00+00:00,FT,Regular Season - 20,Sampdoria,498,Juventus,496,0,2,True
+608725,2021-01-30T19:45:00+00:00,FT,Regular Season - 20,Inter,505,Benevento,506,4,0,True
+608733,2021-01-31T11:30:00+00:00,FT,Regular Season - 20,Spezia,515,Udinese,494,0,1,True
+608732,2021-01-31T14:00:00+00:00,FT,Regular Season - 20,Cagliari,490,Sassuolo,488,1,1,True
+608729,2021-01-31T14:00:00+00:00,FT,Regular Season - 20,Atalanta,499,Lazio,487,1,3,True
+608727,2021-01-31T14:00:00+00:00,FT,Regular Season - 20,Crotone,501,Genoa,495,0,3,True
+608731,2021-01-31T17:00:00+00:00,FT,Regular Season - 20,Napoli,492,Parma,523,2,0,True
+608734,2021-01-31T19:45:00+00:00,FT,Regular Season - 20,AS Roma,497,Hellas Verona,504,3,1,True
+608738,2021-02-05T19:45:00+00:00,FT,Regular Season - 21,Fiorentina,502,Inter,505,0,2,True
+608742,2021-02-06T14:00:00+00:00,FT,Regular Season - 21,Sassuolo,488,Spezia,515,1,2,True
+608743,2021-02-06T14:00:00+00:00,FT,Regular Season - 21,Atalanta,499,Torino,503,3,3,True
+608740,2021-02-06T17:00:00+00:00,FT,Regular Season - 21,Juventus,496,AS Roma,497,2,0,True
+608739,2021-02-06T19:45:00+00:00,FT,Regular Season - 21,Genoa,495,Napoli,492,2,1,True
+608741,2021-02-07T11:30:00+00:00,FT,Regular Season - 21,Benevento,506,Sampdoria,498,1,1,True
+608737,2021-02-07T14:00:00+00:00,FT,Regular Season - 21,AC Milan,489,Crotone,501,4,0,True
+608744,2021-02-07T14:00:00+00:00,FT,Regular Season - 21,Udinese,494,Hellas Verona,504,2,0,True
+608735,2021-02-07T17:00:00+00:00,FT,Regular Season - 21,Parma,523,Bologna,500,0,3,True
+608736,2021-02-07T19:45:00+00:00,FT,Regular Season - 21,Lazio,487,Cagliari,490,1,0,True
+608746,2021-02-12T19:45:00+00:00,FT,Regular Season - 22,Bologna,500,Benevento,506,1,1,True
+608748,2021-02-13T14:00:00+00:00,FT,Regular Season - 22,Torino,503,Genoa,495,0,0,True
+608749,2021-02-13T17:00:00+00:00,FT,Regular Season - 22,Napoli,492,Juventus,496,1,0,True
+608751,2021-02-13T19:45:00+00:00,FT,Regular Season - 22,Spezia,515,AC Milan,489,2,0,True
+608754,2021-02-14T11:30:00+00:00,FT,Regular Season - 22,AS Roma,497,Udinese,494,3,0,True
+608745,2021-02-14T14:00:00+00:00,FT,Regular Season - 22,Cagliari,490,Atalanta,499,0,1,True
+608747,2021-02-14T14:00:00+00:00,FT,Regular Season - 22,Sampdoria,498,Fiorentina,502,2,1,True
+608753,2021-02-14T17:00:00+00:00,FT,Regular Season - 22,Crotone,501,Sassuolo,488,1,2,True
+608750,2021-02-14T19:45:00+00:00,FT,Regular Season - 22,Inter,505,Lazio,487,3,1,True
+608752,2021-02-15T19:45:00+00:00,FT,Regular Season - 22,Hellas Verona,504,Parma,523,2,1,True
+608761,2021-02-19T17:30:00+00:00,FT,Regular Season - 23,Fiorentina,502,Spezia,515,3,0,True
+608762,2021-02-19T19:45:00+00:00,FT,Regular Season - 23,Cagliari,490,Torino,503,0,1,True
+608760,2021-02-20T14:00:00+00:00,FT,Regular Season - 23,Lazio,487,Sampdoria,498,1,0,True
+608764,2021-02-20T17:00:00+00:00,FT,Regular Season - 23,Genoa,495,Hellas Verona,504,2,2,True
+608755,2021-02-20T19:45:00+00:00,FT,Regular Season - 23,Sassuolo,488,Bologna,500,1,1,True
+608763,2021-02-21T11:30:00+00:00,FT,Regular Season - 23,Parma,523,Udinese,494,2,2,True
+608757,2021-02-21T14:00:00+00:00,FT,Regular Season - 23,AC Milan,489,Inter,505,0,3,True
+608758,2021-02-21T17:00:00+00:00,FT,Regular Season - 23,Atalanta,499,Napoli,492,4,2,True
+608759,2021-02-21T19:45:00+00:00,FT,Regular Season - 23,Benevento,506,AS Roma,497,0,0,True
+608756,2021-02-22T19:45:00+00:00,FT,Regular Season - 23,Juventus,496,Crotone,501,3,0,True
+608773,2021-02-27T14:00:00+00:00,FT,Regular Season - 24,Spezia,515,Parma,523,2,2,True
+608771,2021-02-27T17:00:00+00:00,FT,Regular Season - 24,Bologna,500,Lazio,487,2,0,True
+608770,2021-02-27T19:45:00+00:00,FT,Regular Season - 24,Hellas Verona,504,Juventus,496,1,1,True
+608765,2021-02-28T11:30:00+00:00,FT,Regular Season - 24,Sampdoria,498,Atalanta,499,0,2,True
+608768,2021-02-28T14:00:00+00:00,FT,Regular Season - 24,Udinese,494,Fiorentina,502,1,0,True
+608767,2021-02-28T14:00:00+00:00,FT,Regular Season - 24,Crotone,501,Cagliari,490,0,2,True
+608769,2021-02-28T14:00:00+00:00,FT,Regular Season - 24,Inter,505,Genoa,495,3,0,True
+608766,2021-02-28T17:00:00+00:00,FT,Regular Season - 24,Napoli,492,Benevento,506,2,0,True
+608772,2021-02-28T19:45:00+00:00,FT,Regular Season - 24,AS Roma,497,AC Milan,489,1,2,True
+608781,2021-03-02T19:45:00+00:00,FT,Regular Season - 25,Juventus,496,Spezia,515,3,0,True
+608778,2021-03-03T17:30:00+00:00,FT,Regular Season - 25,Sassuolo,488,Napoli,492,3,3,True
+608783,2021-03-03T19:45:00+00:00,FT,Regular Season - 25,AC Milan,489,Udinese,494,1,1,True
+608775,2021-03-03T19:45:00+00:00,FT,Regular Season - 25,Cagliari,490,Bologna,500,1,0,True
+608780,2021-03-03T19:45:00+00:00,FT,Regular Season - 25,Genoa,495,Sampdoria,498,1,1,True
+608776,2021-03-03T19:45:00+00:00,FT,Regular Season - 25,Atalanta,499,Crotone,501,5,1,True
+608779,2021-03-03T19:45:00+00:00,FT,Regular Season - 25,Fiorentina,502,AS Roma,497,1,2,True
+608784,2021-03-03T19:45:00+00:00,FT,Regular Season - 25,Benevento,506,Hellas Verona,504,0,3,True
+608777,2021-03-04T19:45:00+00:00,FT,Regular Season - 25,Parma,523,Inter,505,1,2,True
+608786,2021-03-06T14:00:00+00:00,FT,Regular Season - 26,Spezia,515,Benevento,506,1,1,True
+608793,2021-03-06T17:00:00+00:00,FT,Regular Season - 26,Udinese,494,Sassuolo,488,2,0,True
+608790,2021-03-06T19:45:00+00:00,FT,Regular Season - 26,Juventus,496,Lazio,487,3,1,True
+608789,2021-03-07T11:30:00+00:00,FT,Regular Season - 26,AS Roma,497,Genoa,495,1,0,True
+608794,2021-03-07T14:00:00+00:00,FT,Regular Season - 26,Crotone,501,Torino,503,4,2,True
+608792,2021-03-07T14:00:00+00:00,FT,Regular Season - 26,Fiorentina,502,Parma,523,3,3,True
+608791,2021-03-07T14:00:00+00:00,FT,Regular Season - 26,Hellas Verona,504,AC Milan,489,0,2,True
+608788,2021-03-07T17:00:00+00:00,FT,Regular Season - 26,Sampdoria,498,Cagliari,490,2,2,True
+608787,2021-03-07T19:45:00+00:00,FT,Regular Season - 26,Napoli,492,Bologna,500,3,1,True
+608785,2021-03-08T19:45:00+00:00,FT,Regular Season - 26,Inter,505,Atalanta,499,1,0,True
+608795,2021-03-12T14:00:00+00:00,FT,Regular Season - 27,Lazio,487,Crotone,501,3,2,True
+608802,2021-03-12T19:45:00+00:00,FT,Regular Season - 27,Atalanta,499,Spezia,515,3,1,True
+608804,2021-03-13T14:00:00+00:00,FT,Regular Season - 27,Sassuolo,488,Hellas Verona,504,3,2,True
+608796,2021-03-13T17:00:00+00:00,FT,Regular Season - 27,Benevento,506,Fiorentina,502,1,4,True
+608803,2021-03-13T19:45:00+00:00,FT,Regular Season - 27,Genoa,495,Udinese,494,1,1,True
+608801,2021-03-14T11:30:00+00:00,FT,Regular Season - 27,Bologna,500,Sampdoria,498,3,1,True
+608797,2021-03-14T14:00:00+00:00,FT,Regular Season - 27,Torino,503,Inter,505,1,2,True
+608800,2021-03-14T14:00:00+00:00,FT,Regular Season - 27,Parma,523,AS Roma,497,2,0,True
+608798,2021-03-14T17:00:00+00:00,FT,Regular Season - 27,Cagliari,490,Juventus,496,1,3,True
+608799,2021-03-14T19:45:00+00:00,FT,Regular Season - 27,AC Milan,489,Napoli,492,0,1,True
+608774,2021-03-17T14:00:00+00:00,FT,Regular Season - 24,Torino,503,Sassuolo,488,3,2,True
+608809,2021-03-19T19:45:00+00:00,FT,Regular Season - 28,Parma,523,Genoa,495,1,2,True
+608807,2021-03-20T14:00:00+00:00,FT,Regular Season - 28,Crotone,501,Bologna,500,2,3,True
+608808,2021-03-20T17:00:00+00:00,FT,Regular Season - 28,Spezia,515,Cagliari,490,2,1,True
+608805,2021-03-21T11:30:00+00:00,FT,Regular Season - 28,Hellas Verona,504,Atalanta,499,0,2,True
+608810,2021-03-21T14:00:00+00:00,FT,Regular Season - 28,Udinese,494,Lazio,487,0,1,True
+608806,2021-03-21T14:00:00+00:00,FT,Regular Season - 28,Juventus,496,Benevento,506,0,1,True
+608814,2021-03-21T14:00:00+00:00,FT,Regular Season - 28,Sampdoria,498,Torino,503,1,0,True
+608811,2021-03-21T17:00:00+00:00,FT,Regular Season - 28,Fiorentina,502,AC Milan,489,2,3,True
+608812,2021-03-21T19:45:00+00:00,FT,Regular Season - 28,AS Roma,497,Napoli,492,0,2,True
+608821,2021-04-03T10:30:00+00:00,FT,Regular Season - 29,AC Milan,489,Sampdoria,498,1,1,True
+608822,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Lazio,487,Spezia,515,2,1,True
+608820,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Sassuolo,488,AS Roma,497,2,2,True
+608824,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Cagliari,490,Hellas Verona,504,0,2,True
+608815,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Napoli,492,Crotone,501,4,3,True
+608816,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Genoa,495,Fiorentina,502,1,1,True
+608823,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Atalanta,499,Udinese,494,3,2,True
+608819,2021-04-03T13:00:00+00:00,FT,Regular Season - 29,Benevento,506,Parma,523,2,2,True
+608818,2021-04-03T16:00:00+00:00,FT,Regular Season - 29,Torino,503,Juventus,496,2,2,True
+608817,2021-04-03T18:45:00+00:00,FT,Regular Season - 29,Bologna,500,Inter,505,0,1,True
+608504,2021-04-07T16:45:00+00:00,FT,Regular Season - 3,Juventus,496,Napoli,492,2,1,True
+608813,2021-04-07T16:45:00+00:00,FT,Regular Season - 28,Inter,505,Sassuolo,488,2,1,True
+608828,2021-04-10T13:00:00+00:00,FT,Regular Season - 30,Spezia,515,Crotone,501,3,2,True
+608831,2021-04-10T16:00:00+00:00,FT,Regular Season - 30,Parma,523,AC Milan,489,1,3,True
+608834,2021-04-10T18:45:00+00:00,FT,Regular Season - 30,Udinese,494,Torino,503,0,1,True
+608827,2021-04-11T10:30:00+00:00,FT,Regular Season - 30,Inter,505,Cagliari,490,1,0,True
+608829,2021-04-11T13:00:00+00:00,FT,Regular Season - 30,Juventus,496,Genoa,495,3,1,True
+608832,2021-04-11T13:00:00+00:00,FT,Regular Season - 30,Sampdoria,498,Napoli,492,0,2,True
+608830,2021-04-11T13:00:00+00:00,FT,Regular Season - 30,Hellas Verona,504,Lazio,487,0,1,True
+608826,2021-04-11T16:00:00+00:00,FT,Regular Season - 30,AS Roma,497,Bologna,500,1,0,True
+608825,2021-04-11T18:45:00+00:00,FT,Regular Season - 30,Fiorentina,502,Atalanta,499,2,3,True
+608833,2021-04-12T18:45:00+00:00,FT,Regular Season - 30,Benevento,506,Sassuolo,488,0,1,True
+608844,2021-04-17T13:00:00+00:00,FT,Regular Season - 31,Sampdoria,498,Hellas Verona,504,3,1,True
+608843,2021-04-17T13:00:00+00:00,FT,Regular Season - 31,Crotone,501,Udinese,494,1,2,True
+608836,2021-04-17T16:00:00+00:00,FT,Regular Season - 31,Sassuolo,488,Fiorentina,502,3,1,True
+608840,2021-04-17T18:45:00+00:00,FT,Regular Season - 31,Cagliari,490,Parma,523,4,3,True
+608837,2021-04-18T10:30:00+00:00,FT,Regular Season - 31,AC Milan,489,Genoa,495,2,1,True
+608835,2021-04-18T13:00:00+00:00,FT,Regular Season - 31,Lazio,487,Benevento,506,5,3,True
+608839,2021-04-18T13:00:00+00:00,FT,Regular Season - 31,Atalanta,499,Juventus,496,1,0,True
+608842,2021-04-18T13:00:00+00:00,FT,Regular Season - 31,Bologna,500,Spezia,515,4,1,True
+608841,2021-04-18T16:00:00+00:00,FT,Regular Season - 31,Torino,503,AS Roma,497,3,1,True
+608838,2021-04-18T18:45:00+00:00,FT,Regular Season - 31,Napoli,492,Inter,505,1,1,True
+608848,2021-04-20T18:45:00+00:00,FT,Regular Season - 32,Hellas Verona,504,Fiorentina,502,1,2,True
+608853,2021-04-21T16:30:00+00:00,FT,Regular Season - 32,AC Milan,489,Sassuolo,488,1,2,True
+608847,2021-04-21T18:45:00+00:00,FT,Regular Season - 32,Udinese,494,Cagliari,490,0,1,True
+608846,2021-04-21T18:45:00+00:00,FT,Regular Season - 32,Genoa,495,Benevento,506,2,2,True
+608851,2021-04-21T18:45:00+00:00,FT,Regular Season - 32,Juventus,496,Parma,523,3,1,True
+608854,2021-04-21T18:45:00+00:00,FT,Regular Season - 32,Bologna,500,Torino,503,1,1,True
+608852,2021-04-21T18:45:00+00:00,FT,Regular Season - 32,Crotone,501,Sampdoria,498,0,1,True
+608849,2021-04-21T18:45:00+00:00,FT,Regular Season - 32,Spezia,515,Inter,505,1,1,True
+608845,2021-04-22T16:30:00+00:00,FT,Regular Season - 32,AS Roma,497,Atalanta,499,1,1,True
+608850,2021-04-22T18:45:00+00:00,FT,Regular Season - 32,Napoli,492,Lazio,487,5,2,True
+608862,2021-04-24T13:00:00+00:00,FT,Regular Season - 33,Genoa,495,Spezia,515,2,0,True
+608856,2021-04-24T16:00:00+00:00,FT,Regular Season - 33,Parma,523,Crotone,501,3,4,True
+608861,2021-04-24T18:45:00+00:00,FT,Regular Season - 33,Sassuolo,488,Sampdoria,498,1,0,True
+608863,2021-04-25T10:30:00+00:00,FT,Regular Season - 33,Benevento,506,Udinese,494,2,4,True
+608857,2021-04-25T13:00:00+00:00,FT,Regular Season - 33,Fiorentina,502,Juventus,496,1,1,True
+608864,2021-04-25T13:00:00+00:00,FT,Regular Season - 33,Inter,505,Hellas Verona,504,1,0,True
+608860,2021-04-25T16:00:00+00:00,FT,Regular Season - 33,Cagliari,490,AS Roma,497,3,2,True
+608855,2021-04-25T18:45:00+00:00,FT,Regular Season - 33,Atalanta,499,Bologna,500,5,0,True
+608859,2021-04-26T16:30:00+00:00,FT,Regular Season - 33,Torino,503,Napoli,492,0,2,True
+608858,2021-04-26T18:45:00+00:00,FT,Regular Season - 33,Lazio,487,AC Milan,489,3,0,True
+608874,2021-05-01T13:00:00+00:00,FT,Regular Season - 34,Hellas Verona,504,Spezia,515,1,1,True
+608870,2021-05-01T16:00:00+00:00,FT,Regular Season - 34,Crotone,501,Inter,505,0,2,True
+608866,2021-05-01T18:45:00+00:00,FT,Regular Season - 34,AC Milan,489,Benevento,506,2,0,True
+608869,2021-05-02T10:30:00+00:00,FT,Regular Season - 34,Lazio,487,Genoa,495,4,3,True
+608865,2021-05-02T13:00:00+00:00,FT,Regular Season - 34,Sassuolo,488,Atalanta,499,1,1,True
+608867,2021-05-02T13:00:00+00:00,FT,Regular Season - 34,Napoli,492,Cagliari,490,1,1,True
+608868,2021-05-02T13:00:00+00:00,FT,Regular Season - 34,Bologna,500,Fiorentina,502,3,3,True
+608871,2021-05-02T16:00:00+00:00,FT,Regular Season - 34,Udinese,494,Juventus,496,1,2,True
+608873,2021-05-02T18:45:00+00:00,FT,Regular Season - 34,Sampdoria,498,AS Roma,497,2,0,True
+608872,2021-05-03T18:45:00+00:00,FT,Regular Season - 34,Torino,503,Parma,523,1,0,True
+608876,2021-05-08T13:00:00+00:00,FT,Regular Season - 35,Udinese,494,Bologna,500,1,1,True
+608881,2021-05-08T13:00:00+00:00,FT,Regular Season - 35,Spezia,515,Napoli,492,1,4,True
+608882,2021-05-08T16:00:00+00:00,FT,Regular Season - 35,Inter,505,Sampdoria,498,5,1,True
+608879,2021-05-08T18:45:00+00:00,FT,Regular Season - 35,Fiorentina,502,Lazio,487,2,0,True
+608883,2021-05-09T10:30:00+00:00,FT,Regular Season - 35,Genoa,495,Sassuolo,488,1,2,True
+608884,2021-05-09T13:00:00+00:00,FT,Regular Season - 35,Hellas Verona,504,Torino,503,1,1,True
+608877,2021-05-09T13:00:00+00:00,FT,Regular Season - 35,Benevento,506,Cagliari,490,1,3,True
+608875,2021-05-09T13:00:00+00:00,FT,Regular Season - 35,Parma,523,Atalanta,499,2,5,True
+608878,2021-05-09T16:00:00+00:00,FT,Regular Season - 35,AS Roma,497,Crotone,501,5,0,True
+608880,2021-05-09T18:45:00+00:00,FT,Regular Season - 35,Juventus,496,AC Milan,489,0,3,True
+608893,2021-05-11T18:45:00+00:00,FT,Regular Season - 36,Napoli,492,Udinese,494,5,1,True
+608886,2021-05-12T16:30:00+00:00,FT,Regular Season - 36,Cagliari,490,Fiorentina,502,0,0,True
+608890,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Lazio,487,Parma,523,1,0,True
+608888,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Sassuolo,488,Juventus,496,1,3,True
+608892,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Sampdoria,498,Spezia,515,2,2,True
+608885,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Atalanta,499,Benevento,506,2,0,True
+608887,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Bologna,500,Genoa,495,0,2,True
+608889,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Torino,503,AC Milan,489,0,7,True
+608891,2021-05-12T18:45:00+00:00,FT,Regular Season - 36,Inter,505,AS Roma,497,3,1,True
+608894,2021-05-13T18:45:00+00:00,FT,Regular Season - 36,Crotone,501,Hellas Verona,504,2,1,True
+608895,2021-05-15T13:00:00+00:00,FT,Regular Season - 37,Genoa,495,Atalanta,499,3,4,True
+608904,2021-05-15T13:00:00+00:00,FT,Regular Season - 37,Spezia,515,Torino,503,4,1,True
+608899,2021-05-15T16:00:00+00:00,FT,Regular Season - 37,Juventus,496,Inter,505,3,2,True
+608900,2021-05-15T18:45:00+00:00,FT,Regular Season - 37,AS Roma,497,Lazio,487,2,0,True
+608901,2021-05-16T10:30:00+00:00,FT,Regular Season - 37,Fiorentina,502,Napoli,492,0,2,True
+608902,2021-05-16T13:00:00+00:00,FT,Regular Season - 37,Udinese,494,Sampdoria,498,0,1,True
+608898,2021-05-16T13:00:00+00:00,FT,Regular Season - 37,Benevento,506,Crotone,501,1,1,True
+608903,2021-05-16T16:00:00+00:00,FT,Regular Season - 37,Parma,523,Sassuolo,488,1,3,True
+608897,2021-05-16T18:45:00+00:00,FT,Regular Season - 37,AC Milan,489,Cagliari,490,0,0,True
+608896,2021-05-17T18:45:00+00:00,FT,Regular Season - 37,Hellas Verona,504,Bologna,500,2,2,True
+608782,2021-05-18T18:30:00+00:00,FT,Regular Season - 25,Lazio,487,Torino,503,0,0,True
+608907,2021-05-22T18:45:00+00:00,FT,Regular Season - 38,Cagliari,490,Genoa,495,0,1,True
+608911,2021-05-22T18:45:00+00:00,FT,Regular Season - 38,Sampdoria,498,Parma,523,3,0,True
+608906,2021-05-22T18:45:00+00:00,FT,Regular Season - 38,Crotone,501,Fiorentina,502,0,0,True
+608913,2021-05-23T13:00:00+00:00,FT,Regular Season - 38,Inter,505,Udinese,494,5,1,True
+608909,2021-05-23T18:45:00+00:00,FT,Regular Season - 38,Sassuolo,488,Lazio,487,2,0,True
+608914,2021-05-23T18:45:00+00:00,FT,Regular Season - 38,Napoli,492,Hellas Verona,504,1,1,True
+608910,2021-05-23T18:45:00+00:00,FT,Regular Season - 38,Atalanta,499,AC Milan,489,0,2,True
+608908,2021-05-23T18:45:00+00:00,FT,Regular Season - 38,Bologna,500,Juventus,496,1,4,True
+608905,2021-05-23T18:45:00+00:00,FT,Regular Season - 38,Torino,503,Benevento,506,1,1,True
+608912,2021-05-23T18:45:00+00:00,FT,Regular Season - 38,Spezia,515,AS Roma,497,2,2,True

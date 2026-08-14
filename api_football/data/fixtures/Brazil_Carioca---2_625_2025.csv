@@ -1,73 +1,73 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1453396,2025-09-06T13:00:00+00:00,FT,Paduano,20007,Nova Cidade,13113,5,2,True
-1453397,2025-09-06T17:45:00+00:00,FT,Duque de Caxias,12278,Petrópolis,23262,1,0,True
-1453401,2025-09-06T17:45:00+00:00,FT,Friburguense,12295,Carapebus,17737,0,1,True
-1453400,2025-09-06T17:45:00+00:00,FT,Bonsucesso,13109,Artsul,13106,0,0,True
-1453399,2025-09-06T17:45:00+00:00,FT,Niteroiense,23637,São Cristóvão RJ,23664,1,0,True
-1453398,2025-09-07T17:45:00+00:00,FT,Campo Grande,13087,Serrano RJ,13117,1,1,True
-1453563,2025-09-13T17:45:00+00:00,FT,Artsul,13106,Campo Grande,13087,1,2,True
-1453565,2025-09-13T17:45:00+00:00,FT,Nova Cidade,13113,Niteroiense,23637,0,0,True
-1453564,2025-09-13T17:45:00+00:00,FT,Serrano RJ,13117,Duque de Caxias,12278,2,1,True
-1453562,2025-09-13T17:45:00+00:00,FT,Carapebus,17737,Paduano,20007,0,0,True
-1453561,2025-09-13T17:45:00+00:00,FT,Petrópolis,23262,Friburguense,12295,1,0,True
-1453566,2025-09-13T17:45:00+00:00,FT,São Cristóvão RJ,23664,Bonsucesso,13109,0,2,True
-1453567,2025-09-20T13:00:00+00:00,FT,Campo Grande,13087,Bonsucesso,13109,1,1,True
-1453569,2025-09-20T17:45:00+00:00,FT,Duque de Caxias,12278,Artsul,13106,1,0,True
-1453572,2025-09-20T17:45:00+00:00,FT,Nova Cidade,13113,São Cristóvão RJ,23664,0,0,True
-1453568,2025-09-20T17:45:00+00:00,FT,Paduano,20007,Petrópolis,23262,0,1,True
-1453571,2025-09-20T17:45:00+00:00,FT,Niteroiense,23637,Carapebus,17737,0,2,True
-1453570,2025-09-21T17:45:00+00:00,FT,Friburguense,12295,Serrano RJ,13117,1,0,True
-1453575,2025-09-27T17:45:00+00:00,FT,Bonsucesso,13109,Duque de Caxias,12278,2,0,True
-1453577,2025-09-27T17:45:00+00:00,FT,Serrano RJ,13117,Paduano,20007,1,2,True
-1453576,2025-09-27T17:45:00+00:00,FT,Carapebus,17737,Nova Cidade,13113,0,2,True
-1453573,2025-09-27T17:45:00+00:00,FT,Petrópolis,23262,Niteroiense,23637,2,3,True
-1453578,2025-09-27T17:45:00+00:00,FT,São Cristóvão RJ,23664,Campo Grande,13087,1,1,True
-1453574,2025-09-28T17:45:00+00:00,FT,Artsul,13106,Friburguense,12295,1,0,True
-1453583,2025-10-04T18:00:00+00:00,FT,Duque de Caxias,12278,Campo Grande,13087,0,0,True
-1453580,2025-10-04T18:00:00+00:00,FT,Friburguense,12295,Bonsucesso,13109,0,1,True
-1453579,2025-10-04T18:00:00+00:00,FT,Nova Cidade,13113,Petrópolis,23262,0,1,True
-1477588,2025-10-04T18:00:00+00:00,FT,Carapebus,17737,São Cristóvão RJ,23664,0,2,True
-1453581,2025-10-04T18:00:00+00:00,FT,Paduano,20007,Artsul,13106,0,2,True
-1453582,2025-10-04T18:00:00+00:00,FT,Niteroiense,23637,Serrano RJ,13117,1,3,True
-1453586,2025-10-10T18:00:00+00:00,FT,Artsul,13106,Niteroiense,23637,2,2,True
-1453587,2025-10-11T18:00:00+00:00,FT,Campo Grande,13087,Friburguense,12295,1,1,True
-1453589,2025-10-11T18:00:00+00:00,FT,Bonsucesso,13109,Paduano,20007,2,1,True
-1453588,2025-10-11T18:00:00+00:00,FT,Serrano RJ,13117,Nova Cidade,13113,0,1,True
-1453585,2025-10-11T18:00:00+00:00,FT,Petrópolis,23262,Carapebus,17737,3,0,True
-1453584,2025-10-11T18:00:00+00:00,FT,São Cristóvão RJ,23664,Duque de Caxias,12278,2,0,True
-1453593,2025-10-18T18:00:00+00:00,FT,Friburguense,12295,Duque de Caxias,12278,0,1,True
-1453590,2025-10-18T18:00:00+00:00,FT,Nova Cidade,13113,Artsul,13106,0,0,True
-1453595,2025-10-18T18:00:00+00:00,FT,Carapebus,17737,Serrano RJ,13117,0,0,True
-1453594,2025-10-18T18:00:00+00:00,FT,Paduano,20007,Campo Grande,13087,0,1,True
-1453592,2025-10-18T18:00:00+00:00,FT,Petrópolis,23262,São Cristóvão RJ,23664,0,1,True
-1453591,2025-10-18T18:00:00+00:00,FT,Niteroiense,23637,Bonsucesso,13109,2,3,True
-1453596,2025-10-24T18:00:00+00:00,FT,Campo Grande,13087,Niteroiense,23637,1,1,True
-1453601,2025-10-25T18:00:00+00:00,FT,Duque de Caxias,12278,Paduano,20007,2,1,True
-1453600,2025-10-25T18:00:00+00:00,FT,Artsul,13106,Carapebus,17737,3,1,True
-1453598,2025-10-25T18:00:00+00:00,FT,Bonsucesso,13109,Nova Cidade,13113,1,0,True
-1453597,2025-10-25T18:00:00+00:00,FT,Serrano RJ,13117,Petrópolis,23262,2,1,True
-1453599,2025-10-25T18:00:00+00:00,FT,São Cristóvão RJ,23664,Friburguense,12295,3,1,True
-1453608,2025-11-01T18:00:00+00:00,FT,Duque de Caxias,12278,Nova Cidade,13113,2,2,True
-1453611,2025-11-01T18:00:00+00:00,FT,Friburguense,12295,Niteroiense,23637,0,1,True
-1453613,2025-11-01T18:00:00+00:00,FT,Campo Grande,13087,Carapebus,17737,0,1,True
-1453612,2025-11-01T18:00:00+00:00,FT,Artsul,13106,Serrano RJ,13117,1,2,True
-1453610,2025-11-01T18:00:00+00:00,FT,Bonsucesso,13109,Petrópolis,23262,1,1,True
-1453609,2025-11-01T18:00:00+00:00,FT,São Cristóvão RJ,23664,Paduano,20007,2,0,True
-1453605,2025-11-05T18:00:00+00:00,FT,Nova Cidade,13113,Campo Grande,13087,1,0,True
-1453607,2025-11-05T18:00:00+00:00,FT,Serrano RJ,13117,São Cristóvão RJ,23664,2,2,True
-1453603,2025-11-05T18:00:00+00:00,FT,Carapebus,17737,Bonsucesso,13109,1,1,True
-1453606,2025-11-05T18:00:00+00:00,FT,Paduano,20007,Friburguense,12295,2,0,True
-1453602,2025-11-05T18:00:00+00:00,FT,Petrópolis,23262,Artsul,13106,1,0,True
-1453604,2025-11-05T18:00:00+00:00,FT,Niteroiense,23637,Duque de Caxias,12278,0,0,True
-1453616,2025-11-08T18:00:00+00:00,FT,Artsul,13106,São Cristóvão RJ,23664,1,1,True
-1453618,2025-11-08T18:00:00+00:00,FT,Nova Cidade,13113,Friburguense,12295,1,0,True
-1453619,2025-11-08T18:00:00+00:00,FT,Serrano RJ,13117,Bonsucesso,13109,1,0,True
-1453614,2025-11-08T18:00:00+00:00,FT,Carapebus,17737,Duque de Caxias,12278,0,2,True
-1453617,2025-11-08T18:00:00+00:00,FT,Petrópolis,23262,Campo Grande,13087,0,1,True
-1453615,2025-11-08T18:00:00+00:00,FT,Niteroiense,23637,Paduano,20007,5,1,True
-1485753,2025-11-15T18:00:00+00:00,FT,Duque de Caxias,12278,Bonsucesso,13109,1,0,True
-1485754,2025-11-15T18:00:00+00:00,FT,Serrano RJ,13117,São Cristóvão RJ,23664,1,0,True
-1485755,2025-11-22T18:00:00+00:00,FT,Bonsucesso,13109,Duque de Caxias,12278,2,0,True
-1485756,2025-11-22T18:00:00+00:00,FT,São Cristóvão RJ,23664,Serrano RJ,13117,0,1,True
-1488142,2025-11-30T18:00:00+00:00,FT,Serrano RJ,13117,Bonsucesso,13109,2,1,True
-1488143,2025-12-06T18:00:00+00:00,FT,Bonsucesso,13109,Serrano RJ,13117,0,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1453396,2025-09-06T13:00:00+00:00,FT,Group Stage - 1,Paduano,20007,Nova Cidade,13113,5,2,True
+1453397,2025-09-06T17:45:00+00:00,FT,Group Stage - 1,Duque de Caxias,12278,Petrópolis,23262,1,0,True
+1453401,2025-09-06T17:45:00+00:00,FT,Group Stage - 1,Friburguense,12295,Carapebus,17737,0,1,True
+1453400,2025-09-06T17:45:00+00:00,FT,Group Stage - 1,Bonsucesso,13109,Artsul,13106,0,0,True
+1453399,2025-09-06T17:45:00+00:00,FT,Group Stage - 1,Niteroiense,23637,São Cristóvão RJ,23664,1,0,True
+1453398,2025-09-07T17:45:00+00:00,FT,Group Stage - 1,Campo Grande,13087,Serrano RJ,13117,1,1,True
+1453563,2025-09-13T17:45:00+00:00,FT,Group Stage - 2,Artsul,13106,Campo Grande,13087,1,2,True
+1453565,2025-09-13T17:45:00+00:00,FT,Group Stage - 2,Nova Cidade,13113,Niteroiense,23637,0,0,True
+1453564,2025-09-13T17:45:00+00:00,FT,Group Stage - 2,Serrano RJ,13117,Duque de Caxias,12278,2,1,True
+1453562,2025-09-13T17:45:00+00:00,FT,Group Stage - 2,Carapebus,17737,Paduano,20007,0,0,True
+1453561,2025-09-13T17:45:00+00:00,FT,Group Stage - 2,Petrópolis,23262,Friburguense,12295,1,0,True
+1453566,2025-09-13T17:45:00+00:00,FT,Group Stage - 2,São Cristóvão RJ,23664,Bonsucesso,13109,0,2,True
+1453567,2025-09-20T13:00:00+00:00,FT,Group Stage - 3,Campo Grande,13087,Bonsucesso,13109,1,1,True
+1453569,2025-09-20T17:45:00+00:00,FT,Group Stage - 3,Duque de Caxias,12278,Artsul,13106,1,0,True
+1453572,2025-09-20T17:45:00+00:00,FT,Group Stage - 3,Nova Cidade,13113,São Cristóvão RJ,23664,0,0,True
+1453568,2025-09-20T17:45:00+00:00,FT,Group Stage - 3,Paduano,20007,Petrópolis,23262,0,1,True
+1453571,2025-09-20T17:45:00+00:00,FT,Group Stage - 3,Niteroiense,23637,Carapebus,17737,0,2,True
+1453570,2025-09-21T17:45:00+00:00,FT,Group Stage - 3,Friburguense,12295,Serrano RJ,13117,1,0,True
+1453575,2025-09-27T17:45:00+00:00,FT,Group Stage - 4,Bonsucesso,13109,Duque de Caxias,12278,2,0,True
+1453577,2025-09-27T17:45:00+00:00,FT,Group Stage - 4,Serrano RJ,13117,Paduano,20007,1,2,True
+1453576,2025-09-27T17:45:00+00:00,FT,Group Stage - 4,Carapebus,17737,Nova Cidade,13113,0,2,True
+1453573,2025-09-27T17:45:00+00:00,FT,Group Stage - 4,Petrópolis,23262,Niteroiense,23637,2,3,True
+1453578,2025-09-27T17:45:00+00:00,FT,Group Stage - 4,São Cristóvão RJ,23664,Campo Grande,13087,1,1,True
+1453574,2025-09-28T17:45:00+00:00,FT,Group Stage - 4,Artsul,13106,Friburguense,12295,1,0,True
+1453583,2025-10-04T18:00:00+00:00,FT,Group Stage - 5,Duque de Caxias,12278,Campo Grande,13087,0,0,True
+1453580,2025-10-04T18:00:00+00:00,FT,Group Stage - 5,Friburguense,12295,Bonsucesso,13109,0,1,True
+1453579,2025-10-04T18:00:00+00:00,FT,Group Stage - 5,Nova Cidade,13113,Petrópolis,23262,0,1,True
+1477588,2025-10-04T18:00:00+00:00,FT,Group Stage - 5,Carapebus,17737,São Cristóvão RJ,23664,0,2,True
+1453581,2025-10-04T18:00:00+00:00,FT,Group Stage - 5,Paduano,20007,Artsul,13106,0,2,True
+1453582,2025-10-04T18:00:00+00:00,FT,Group Stage - 5,Niteroiense,23637,Serrano RJ,13117,1,3,True
+1453586,2025-10-10T18:00:00+00:00,FT,Group Stage - 6,Artsul,13106,Niteroiense,23637,2,2,True
+1453587,2025-10-11T18:00:00+00:00,FT,Group Stage - 6,Campo Grande,13087,Friburguense,12295,1,1,True
+1453589,2025-10-11T18:00:00+00:00,FT,Group Stage - 6,Bonsucesso,13109,Paduano,20007,2,1,True
+1453588,2025-10-11T18:00:00+00:00,FT,Group Stage - 6,Serrano RJ,13117,Nova Cidade,13113,0,1,True
+1453585,2025-10-11T18:00:00+00:00,FT,Group Stage - 6,Petrópolis,23262,Carapebus,17737,3,0,True
+1453584,2025-10-11T18:00:00+00:00,FT,Group Stage - 6,São Cristóvão RJ,23664,Duque de Caxias,12278,2,0,True
+1453593,2025-10-18T18:00:00+00:00,FT,Group Stage - 7,Friburguense,12295,Duque de Caxias,12278,0,1,True
+1453590,2025-10-18T18:00:00+00:00,FT,Group Stage - 7,Nova Cidade,13113,Artsul,13106,0,0,True
+1453595,2025-10-18T18:00:00+00:00,FT,Group Stage - 7,Carapebus,17737,Serrano RJ,13117,0,0,True
+1453594,2025-10-18T18:00:00+00:00,FT,Group Stage - 7,Paduano,20007,Campo Grande,13087,0,1,True
+1453592,2025-10-18T18:00:00+00:00,FT,Group Stage - 7,Petrópolis,23262,São Cristóvão RJ,23664,0,1,True
+1453591,2025-10-18T18:00:00+00:00,FT,Group Stage - 7,Niteroiense,23637,Bonsucesso,13109,2,3,True
+1453596,2025-10-24T18:00:00+00:00,FT,Group Stage - 8,Campo Grande,13087,Niteroiense,23637,1,1,True
+1453601,2025-10-25T18:00:00+00:00,FT,Group Stage - 8,Duque de Caxias,12278,Paduano,20007,2,1,True
+1453600,2025-10-25T18:00:00+00:00,FT,Group Stage - 8,Artsul,13106,Carapebus,17737,3,1,True
+1453598,2025-10-25T18:00:00+00:00,FT,Group Stage - 8,Bonsucesso,13109,Nova Cidade,13113,1,0,True
+1453597,2025-10-25T18:00:00+00:00,FT,Group Stage - 8,Serrano RJ,13117,Petrópolis,23262,2,1,True
+1453599,2025-10-25T18:00:00+00:00,FT,Group Stage - 8,São Cristóvão RJ,23664,Friburguense,12295,3,1,True
+1453608,2025-11-01T18:00:00+00:00,FT,Group Stage - 10,Duque de Caxias,12278,Nova Cidade,13113,2,2,True
+1453611,2025-11-01T18:00:00+00:00,FT,Group Stage - 10,Friburguense,12295,Niteroiense,23637,0,1,True
+1453613,2025-11-01T18:00:00+00:00,FT,Group Stage - 10,Campo Grande,13087,Carapebus,17737,0,1,True
+1453612,2025-11-01T18:00:00+00:00,FT,Group Stage - 10,Artsul,13106,Serrano RJ,13117,1,2,True
+1453610,2025-11-01T18:00:00+00:00,FT,Group Stage - 10,Bonsucesso,13109,Petrópolis,23262,1,1,True
+1453609,2025-11-01T18:00:00+00:00,FT,Group Stage - 10,São Cristóvão RJ,23664,Paduano,20007,2,0,True
+1453605,2025-11-05T18:00:00+00:00,FT,Group Stage - 9,Nova Cidade,13113,Campo Grande,13087,1,0,True
+1453607,2025-11-05T18:00:00+00:00,FT,Group Stage - 9,Serrano RJ,13117,São Cristóvão RJ,23664,2,2,True
+1453603,2025-11-05T18:00:00+00:00,FT,Group Stage - 9,Carapebus,17737,Bonsucesso,13109,1,1,True
+1453606,2025-11-05T18:00:00+00:00,FT,Group Stage - 9,Paduano,20007,Friburguense,12295,2,0,True
+1453602,2025-11-05T18:00:00+00:00,FT,Group Stage - 9,Petrópolis,23262,Artsul,13106,1,0,True
+1453604,2025-11-05T18:00:00+00:00,FT,Group Stage - 9,Niteroiense,23637,Duque de Caxias,12278,0,0,True
+1453616,2025-11-08T18:00:00+00:00,FT,Group Stage - 11,Artsul,13106,São Cristóvão RJ,23664,1,1,True
+1453618,2025-11-08T18:00:00+00:00,FT,Group Stage - 11,Nova Cidade,13113,Friburguense,12295,1,0,True
+1453619,2025-11-08T18:00:00+00:00,FT,Group Stage - 11,Serrano RJ,13117,Bonsucesso,13109,1,0,True
+1453614,2025-11-08T18:00:00+00:00,FT,Group Stage - 11,Carapebus,17737,Duque de Caxias,12278,0,2,True
+1453617,2025-11-08T18:00:00+00:00,FT,Group Stage - 11,Petrópolis,23262,Campo Grande,13087,0,1,True
+1453615,2025-11-08T18:00:00+00:00,FT,Group Stage - 11,Niteroiense,23637,Paduano,20007,5,1,True
+1485753,2025-11-15T18:00:00+00:00,FT,Semi-finals,Duque de Caxias,12278,Bonsucesso,13109,1,0,True
+1485754,2025-11-15T18:00:00+00:00,FT,Semi-finals,Serrano RJ,13117,São Cristóvão RJ,23664,1,0,True
+1485755,2025-11-22T18:00:00+00:00,FT,Semi-finals,Bonsucesso,13109,Duque de Caxias,12278,2,0,True
+1485756,2025-11-22T18:00:00+00:00,FT,Semi-finals,São Cristóvão RJ,23664,Serrano RJ,13117,0,1,True
+1488142,2025-11-30T18:00:00+00:00,FT,Final,Serrano RJ,13117,Bonsucesso,13109,2,1,True
+1488143,2025-12-06T18:00:00+00:00,FT,Final,Bonsucesso,13109,Serrano RJ,13117,0,0,True

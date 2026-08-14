@@ -1,40 +1,40 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1487885,2025-11-21T19:45:00+00:00,FT,Newry City AFC,5346,Drumaness Mills,22532,1,2,True
-1487888,2025-11-22T13:30:00+00:00,FT,Lisburn Distillery,11115,Finaghy,20734,4,2,True
-1487886,2025-11-22T13:30:00+00:00,FT,Ballymacash Rangers,19025,Willowbank,20742,4,0,True
-1487887,2025-11-22T13:30:00+00:00,FT,Comber Rec,20730,Hanover,27224,3,1,True
-1487892,2025-11-22T13:30:00+00:00,AET,Wakehurst,20741,Knockbreda,5344,2,4,False
-1487889,2025-11-22T13:30:00+00:00,PEN,Lisburn Rangers,22537,Dergview,5341,4,4,False
-1487890,2025-11-22T13:30:00+00:00,FT,Newbuildings United,22538,Moyola Park,11117,1,2,True
-1487891,2025-11-22T13:30:00+00:00,FT,Strabane Athletic,22541,Rathfriland,17241,2,1,True
-1490883,2026-01-09T19:45:00+00:00,FT,Coleraine FC,669,Crusaders FC,697,4,0,True
-1490889,2026-01-10T15:00:00+00:00,FT,Linfield,583,Bangor,11112,1,0,True
-1490882,2026-01-10T15:00:00+00:00,FT,Cliftonville FC,2266,Dundela,5342,3,0,True
-1490881,2026-01-10T15:00:00+00:00,FT,Carrick Rangers,5350,Queen's University,5349,5,1,True
-1490885,2026-01-10T15:00:00+00:00,FT,Dungannon Swifts,5351,Ards,5338,3,0,True
-1490878,2026-01-10T15:00:00+00:00,FT,Armagh City,11110,Drumaness Mills,22532,1,4,True
-1490888,2026-01-10T15:00:00+00:00,FT,Limavady United,11114,Lisburn Rangers,22537,4,1,True
-1490891,2026-01-10T15:00:00+00:00,AET,Moyola Park,11117,H&W Welders,5343,2,4,False
-1490884,2026-01-10T15:00:00+00:00,FT,Comber Rec,20730,Ballymacash Rangers,19025,0,3,True
-1490886,2026-01-13T19:45:00+00:00,AET,Glenavon FC,2275,Newington Youth,11118,4,2,False
-1490879,2026-01-13T19:45:00+00:00,FT,Ballinamallard United,5339,Institute,5353,0,3,True
-1490892,2026-01-13T19:45:00+00:00,FT,Portadown,5348,Annagh United,11109,4,2,True
-1490890,2026-01-13T20:00:00+00:00,AET,Warrenpoint Town,5355,Lisburn Distillery,11115,4,3,False
-1490893,2026-01-20T19:45:00+00:00,FT,Glentoran,5352,Strabane Athletic,22541,4,0,True
-1490880,2026-02-03T19:45:00+00:00,FT,Ballymena United,668,Larne,5354,1,2,True
-1490887,2026-02-03T19:45:00+00:00,FT,Loughgall,5345,Knockbreda,5344,2,0,True
-1505710,2026-02-06T19:45:00+00:00,FT,Limavady United,11114,Linfield,583,1,0,True
-1506886,2026-02-07T15:00:00+00:00,FT,Cliftonville FC,2266,Glenavon FC,2275,2,1,True
-1505709,2026-02-07T15:00:00+00:00,FT,H&W Welders,5343,Ballymacash Rangers,19025,3,0,True
-1517988,2026-02-07T15:00:00+00:00,FT,Loughgall,5345,Institute,5353,2,1,True
-1506887,2026-02-07T15:00:00+00:00,FT,Portadown,5348,Dungannon Swifts,5351,1,2,True
-1505708,2026-02-07T15:00:00+00:00,AET,Carrick Rangers,5350,Coleraine FC,669,1,4,False
-1517989,2026-02-07T15:00:00+00:00,FT,Warrenpoint Town,5355,Larne,5354,0,2,True
-1510241,2026-02-17T19:45:00+00:00,FT,Glentoran,5352,Drumaness Mills,22532,5,0,True
-1524406,2026-03-06T19:45:00+00:00,PEN,Glentoran,5352,Larne,5354,1,1,False
-1521023,2026-03-07T15:00:00+00:00,FT,Loughgall,5345,Cliftonville FC,2266,0,3,True
-1521021,2026-03-07T15:00:00+00:00,FT,Dungannon Swifts,5351,H&W Welders,5343,3,0,True
-1521022,2026-03-07T15:00:00+00:00,FT,Limavady United,11114,Coleraine FC,669,0,2,True
-1530896,2026-04-03T18:45:00+00:00,PEN,Cliftonville FC,2266,Dungannon Swifts,5351,0,0,False
-1530897,2026-04-04T14:00:00+00:00,AET,Coleraine FC,669,Larne,5354,2,1,False
-1539696,2026-05-02T13:30:00+00:00,FT,Dungannon Swifts,5351,Coleraine FC,669,2,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1487885,2025-11-21T19:45:00+00:00,FT,Round of 64,Newry City AFC,5346,Drumaness Mills,22532,1,2,True
+1487888,2025-11-22T13:30:00+00:00,FT,Round of 64,Lisburn Distillery,11115,Finaghy,20734,4,2,True
+1487886,2025-11-22T13:30:00+00:00,FT,Round of 64,Ballymacash Rangers,19025,Willowbank,20742,4,0,True
+1487887,2025-11-22T13:30:00+00:00,FT,Round of 64,Comber Rec,20730,Hanover,27224,3,1,True
+1487892,2025-11-22T13:30:00+00:00,AET,Round of 64,Wakehurst,20741,Knockbreda,5344,2,4,False
+1487889,2025-11-22T13:30:00+00:00,PEN,Round of 64,Lisburn Rangers,22537,Dergview,5341,4,4,False
+1487890,2025-11-22T13:30:00+00:00,FT,Round of 64,Newbuildings United,22538,Moyola Park,11117,1,2,True
+1487891,2025-11-22T13:30:00+00:00,FT,Round of 64,Strabane Athletic,22541,Rathfriland,17241,2,1,True
+1490883,2026-01-09T19:45:00+00:00,FT,Round of 32,Coleraine FC,669,Crusaders FC,697,4,0,True
+1490889,2026-01-10T15:00:00+00:00,FT,Round of 32,Linfield,583,Bangor,11112,1,0,True
+1490882,2026-01-10T15:00:00+00:00,FT,Round of 32,Cliftonville FC,2266,Dundela,5342,3,0,True
+1490881,2026-01-10T15:00:00+00:00,FT,Round of 32,Carrick Rangers,5350,Queen's University,5349,5,1,True
+1490885,2026-01-10T15:00:00+00:00,FT,Round of 32,Dungannon Swifts,5351,Ards,5338,3,0,True
+1490878,2026-01-10T15:00:00+00:00,FT,Round of 32,Armagh City,11110,Drumaness Mills,22532,1,4,True
+1490888,2026-01-10T15:00:00+00:00,FT,Round of 32,Limavady United,11114,Lisburn Rangers,22537,4,1,True
+1490891,2026-01-10T15:00:00+00:00,AET,Round of 32,Moyola Park,11117,H&W Welders,5343,2,4,False
+1490884,2026-01-10T15:00:00+00:00,FT,Round of 32,Comber Rec,20730,Ballymacash Rangers,19025,0,3,True
+1490886,2026-01-13T19:45:00+00:00,AET,Round of 32,Glenavon FC,2275,Newington Youth,11118,4,2,False
+1490879,2026-01-13T19:45:00+00:00,FT,Round of 32,Ballinamallard United,5339,Institute,5353,0,3,True
+1490892,2026-01-13T19:45:00+00:00,FT,Round of 32,Portadown,5348,Annagh United,11109,4,2,True
+1490890,2026-01-13T20:00:00+00:00,AET,Round of 32,Warrenpoint Town,5355,Lisburn Distillery,11115,4,3,False
+1490893,2026-01-20T19:45:00+00:00,FT,Round of 32,Glentoran,5352,Strabane Athletic,22541,4,0,True
+1490880,2026-02-03T19:45:00+00:00,FT,Round of 32,Ballymena United,668,Larne,5354,1,2,True
+1490887,2026-02-03T19:45:00+00:00,FT,Round of 32,Loughgall,5345,Knockbreda,5344,2,0,True
+1505710,2026-02-06T19:45:00+00:00,FT,Round of 16,Limavady United,11114,Linfield,583,1,0,True
+1506886,2026-02-07T15:00:00+00:00,FT,Round of 16,Cliftonville FC,2266,Glenavon FC,2275,2,1,True
+1505709,2026-02-07T15:00:00+00:00,FT,Round of 16,H&W Welders,5343,Ballymacash Rangers,19025,3,0,True
+1517988,2026-02-07T15:00:00+00:00,FT,Round of 16,Loughgall,5345,Institute,5353,2,1,True
+1506887,2026-02-07T15:00:00+00:00,FT,Round of 16,Portadown,5348,Dungannon Swifts,5351,1,2,True
+1505708,2026-02-07T15:00:00+00:00,AET,Round of 16,Carrick Rangers,5350,Coleraine FC,669,1,4,False
+1517989,2026-02-07T15:00:00+00:00,FT,Round of 16,Warrenpoint Town,5355,Larne,5354,0,2,True
+1510241,2026-02-17T19:45:00+00:00,FT,Round of 16,Glentoran,5352,Drumaness Mills,22532,5,0,True
+1524406,2026-03-06T19:45:00+00:00,PEN,Quarter-finals,Glentoran,5352,Larne,5354,1,1,False
+1521023,2026-03-07T15:00:00+00:00,FT,Quarter-finals,Loughgall,5345,Cliftonville FC,2266,0,3,True
+1521021,2026-03-07T15:00:00+00:00,FT,Quarter-finals,Dungannon Swifts,5351,H&W Welders,5343,3,0,True
+1521022,2026-03-07T15:00:00+00:00,FT,Quarter-finals,Limavady United,11114,Coleraine FC,669,0,2,True
+1530896,2026-04-03T18:45:00+00:00,PEN,Semi-finals,Cliftonville FC,2266,Dungannon Swifts,5351,0,0,False
+1530897,2026-04-04T14:00:00+00:00,AET,Semi-finals,Coleraine FC,669,Larne,5354,2,1,False
+1539696,2026-05-02T13:30:00+00:00,FT,Final,Dungannon Swifts,5351,Coleraine FC,669,2,3,True

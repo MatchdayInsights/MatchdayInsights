@@ -1,52 +1,52 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1500889,2026-01-17T20:00:00+00:00,FT,Campinense,2209,Atlético Cajazeirense,10670,2,0,True
-1500892,2026-01-17T20:00:00+00:00,FT,Sousa,7864,Confianca PB,22361,3,0,True
-1500888,2026-01-18T12:00:00+00:00,FT,Botafogo PB,1197,EC de Patos,22362,1,1,True
-1500890,2026-01-18T20:00:00+00:00,FT,Nacional de Patos,12908,Pombal EC,22367,3,0,True
-1500891,2026-01-18T21:00:00+00:00,FT,Serra Branca,20710,Treze,7787,0,2,True
-1501219,2026-01-21T18:00:00+00:00,FT,Confianca PB,22361,Botafogo PB,1197,0,1,True
-1501220,2026-01-21T22:30:00+00:00,FT,Atlético Cajazeirense,10670,EC de Patos,22362,1,0,True
-1501221,2026-01-22T00:30:00+00:00,FT,Serra Branca,20710,Sousa,7864,2,1,True
-1501222,2026-01-22T22:30:00+00:00,FT,Campinense,2209,Nacional de Patos,12908,1,2,True
-1501223,2026-01-22T22:30:00+00:00,FT,Pombal EC,22367,Treze,7787,1,2,True
-1501224,2026-01-24T20:00:00+00:00,FT,Botafogo PB,1197,Sousa,7864,1,1,True
-1501225,2026-01-24T20:00:00+00:00,FT,EC de Patos,22362,Serra Branca,20710,0,2,True
-1501226,2026-01-25T20:00:00+00:00,FT,Nacional de Patos,12908,Confianca PB,22361,4,4,True
-1501227,2026-01-25T20:00:00+00:00,FT,Pombal EC,22367,Campinense,2209,2,2,True
-1501228,2026-01-25T21:00:00+00:00,FT,Treze,7787,Atlético Cajazeirense,10670,1,2,True
-1501229,2026-01-28T18:00:00+00:00,FT,Confianca PB,22361,Campinense,2209,2,2,True
-1501231,2026-01-28T22:30:00+00:00,FT,Sousa,7864,Treze,7787,2,1,True
-1501230,2026-01-29T00:00:00+00:00,FT,Botafogo PB,1197,Pombal EC,22367,4,0,True
-1501233,2026-01-29T22:30:00+00:00,FT,Serra Branca,20710,Atlético Cajazeirense,10670,1,0,True
-1501232,2026-01-29T23:00:00+00:00,FT,EC de Patos,22362,Nacional de Patos,12908,0,0,True
-1501237,2026-01-31T19:30:00+00:00,FT,Campinense,2209,Botafogo PB,1197,4,1,True
-1501234,2026-02-01T20:00:00+00:00,FT,Treze,7787,Confianca PB,22361,1,0,True
-1501238,2026-02-01T20:00:00+00:00,FT,Pombal EC,22367,Serra Branca,20710,3,1,True
-1501235,2026-02-01T21:30:00+00:00,FT,Atlético Cajazeirense,10670,Nacional de Patos,12908,1,0,True
-1501236,2026-02-01T22:00:00+00:00,FT,Sousa,7864,EC de Patos,22362,0,1,True
-1512676,2026-02-04T22:30:00+00:00,FT,Serra Branca,20710,Confianca PB,22361,2,0,True
-1512677,2026-02-04T23:00:00+00:00,FT,EC de Patos,22362,Pombal EC,22367,0,1,True
-1512678,2026-02-05T23:00:00+00:00,FT,Nacional de Patos,12908,Botafogo PB,1197,0,0,True
-1512679,2026-02-07T20:00:00+00:00,FT,Sousa,7864,Atlético Cajazeirense,10670,2,1,True
-1512681,2026-02-08T18:00:00+00:00,FT,Confianca PB,22361,EC de Patos,22362,1,2,True
-1512680,2026-02-08T21:00:00+00:00,FT,Treze,7787,Campinense,2209,0,1,True
-1512686,2026-02-09T22:30:00+00:00,FT,Serra Branca,20710,Nacional de Patos,12908,2,2,True
-1512687,2026-02-11T22:30:00+00:00,FT,Atlético Cajazeirense,10670,Botafogo PB,1197,0,2,True
-1512682,2026-02-12T23:00:00+00:00,FT,Nacional de Patos,12908,Sousa,7864,1,1,True
-1512688,2026-02-13T22:30:00+00:00,FT,Treze,7787,EC de Patos,22362,3,1,True
-1512683,2026-02-14T19:30:00+00:00,FT,Campinense,2209,Serra Branca,20710,1,0,True
-1512684,2026-02-14T20:00:00+00:00,FT,Pombal EC,22367,Atlético Cajazeirense,10670,1,1,True
-1512689,2026-02-18T18:00:00+00:00,FT,Confianca PB,22361,Pombal EC,22367,3,2,True
-1512690,2026-02-18T22:30:00+00:00,FT,Campinense,2209,Sousa,7864,1,1,True
-1512685,2026-02-19T00:00:00+00:00,FT,Botafogo PB,1197,Treze,7787,2,0,True
-1512692,2026-02-22T21:00:00+00:00,FT,Botafogo PB,1197,Serra Branca,20710,1,1,True
-1512695,2026-02-22T21:00:00+00:00,FT,Treze,7787,Nacional de Patos,12908,1,2,True
-1512694,2026-02-22T21:00:00+00:00,FT,Sousa,7864,Pombal EC,22367,2,0,True
-1512691,2026-02-22T21:00:00+00:00,FT,Atlético Cajazeirense,10670,Confianca PB,22361,0,2,True
-1512693,2026-02-22T21:00:00+00:00,FT,EC de Patos,22362,Campinense,2209,1,0,True
-1526329,2026-02-28T20:00:00+00:00,FT,Sousa,7864,Campinense,2209,0,1,True
-1526328,2026-03-01T21:00:00+00:00,FT,Serra Branca,20710,Botafogo PB,1197,1,0,True
-1526330,2026-03-07T20:00:00+00:00,FT,Botafogo PB,1197,Serra Branca,20710,3,1,True
-1526331,2026-03-08T21:00:00+00:00,PEN,Campinense,2209,Sousa,7864,0,1,False
-1530927,2026-03-15T20:00:00+00:00,FT,Sousa,7864,Botafogo PB,1197,1,2,True
-1530928,2026-03-21T19:45:00+00:00,FT,Botafogo PB,1197,Sousa,7864,0,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1500889,2026-01-17T20:00:00+00:00,FT,Regular Season - 1,Campinense,2209,Atlético Cajazeirense,10670,2,0,True
+1500892,2026-01-17T20:00:00+00:00,FT,Regular Season - 1,Sousa,7864,Confianca PB,22361,3,0,True
+1500888,2026-01-18T12:00:00+00:00,FT,Regular Season - 1,Botafogo PB,1197,EC de Patos,22362,1,1,True
+1500890,2026-01-18T20:00:00+00:00,FT,Regular Season - 1,Nacional de Patos,12908,Pombal EC,22367,3,0,True
+1500891,2026-01-18T21:00:00+00:00,FT,Regular Season - 1,Serra Branca,20710,Treze,7787,0,2,True
+1501219,2026-01-21T18:00:00+00:00,FT,Regular Season - 2,Confianca PB,22361,Botafogo PB,1197,0,1,True
+1501220,2026-01-21T22:30:00+00:00,FT,Regular Season - 2,Atlético Cajazeirense,10670,EC de Patos,22362,1,0,True
+1501221,2026-01-22T00:30:00+00:00,FT,Regular Season - 2,Serra Branca,20710,Sousa,7864,2,1,True
+1501222,2026-01-22T22:30:00+00:00,FT,Regular Season - 2,Campinense,2209,Nacional de Patos,12908,1,2,True
+1501223,2026-01-22T22:30:00+00:00,FT,Regular Season - 2,Pombal EC,22367,Treze,7787,1,2,True
+1501224,2026-01-24T20:00:00+00:00,FT,Regular Season - 3,Botafogo PB,1197,Sousa,7864,1,1,True
+1501225,2026-01-24T20:00:00+00:00,FT,Regular Season - 3,EC de Patos,22362,Serra Branca,20710,0,2,True
+1501226,2026-01-25T20:00:00+00:00,FT,Regular Season - 3,Nacional de Patos,12908,Confianca PB,22361,4,4,True
+1501227,2026-01-25T20:00:00+00:00,FT,Regular Season - 3,Pombal EC,22367,Campinense,2209,2,2,True
+1501228,2026-01-25T21:00:00+00:00,FT,Regular Season - 3,Treze,7787,Atlético Cajazeirense,10670,1,2,True
+1501229,2026-01-28T18:00:00+00:00,FT,Regular Season - 4,Confianca PB,22361,Campinense,2209,2,2,True
+1501231,2026-01-28T22:30:00+00:00,FT,Regular Season - 4,Sousa,7864,Treze,7787,2,1,True
+1501230,2026-01-29T00:00:00+00:00,FT,Regular Season - 4,Botafogo PB,1197,Pombal EC,22367,4,0,True
+1501233,2026-01-29T22:30:00+00:00,FT,Regular Season - 4,Serra Branca,20710,Atlético Cajazeirense,10670,1,0,True
+1501232,2026-01-29T23:00:00+00:00,FT,Regular Season - 4,EC de Patos,22362,Nacional de Patos,12908,0,0,True
+1501237,2026-01-31T19:30:00+00:00,FT,Regular Season - 5,Campinense,2209,Botafogo PB,1197,4,1,True
+1501234,2026-02-01T20:00:00+00:00,FT,Regular Season - 5,Treze,7787,Confianca PB,22361,1,0,True
+1501238,2026-02-01T20:00:00+00:00,FT,Regular Season - 5,Pombal EC,22367,Serra Branca,20710,3,1,True
+1501235,2026-02-01T21:30:00+00:00,FT,Regular Season - 5,Atlético Cajazeirense,10670,Nacional de Patos,12908,1,0,True
+1501236,2026-02-01T22:00:00+00:00,FT,Regular Season - 5,Sousa,7864,EC de Patos,22362,0,1,True
+1512676,2026-02-04T22:30:00+00:00,FT,Regular Season - 6,Serra Branca,20710,Confianca PB,22361,2,0,True
+1512677,2026-02-04T23:00:00+00:00,FT,Regular Season - 6,EC de Patos,22362,Pombal EC,22367,0,1,True
+1512678,2026-02-05T23:00:00+00:00,FT,Regular Season - 6,Nacional de Patos,12908,Botafogo PB,1197,0,0,True
+1512679,2026-02-07T20:00:00+00:00,FT,Regular Season - 6,Sousa,7864,Atlético Cajazeirense,10670,2,1,True
+1512681,2026-02-08T18:00:00+00:00,FT,Regular Season - 7,Confianca PB,22361,EC de Patos,22362,1,2,True
+1512680,2026-02-08T21:00:00+00:00,FT,Regular Season - 6,Treze,7787,Campinense,2209,0,1,True
+1512686,2026-02-09T22:30:00+00:00,FT,Regular Season - 8,Serra Branca,20710,Nacional de Patos,12908,2,2,True
+1512687,2026-02-11T22:30:00+00:00,FT,Regular Season - 8,Atlético Cajazeirense,10670,Botafogo PB,1197,0,2,True
+1512682,2026-02-12T23:00:00+00:00,FT,Regular Season - 7,Nacional de Patos,12908,Sousa,7864,1,1,True
+1512688,2026-02-13T22:30:00+00:00,FT,Regular Season - 8,Treze,7787,EC de Patos,22362,3,1,True
+1512683,2026-02-14T19:30:00+00:00,FT,Regular Season - 7,Campinense,2209,Serra Branca,20710,1,0,True
+1512684,2026-02-14T20:00:00+00:00,FT,Regular Season - 7,Pombal EC,22367,Atlético Cajazeirense,10670,1,1,True
+1512689,2026-02-18T18:00:00+00:00,FT,Regular Season - 8,Confianca PB,22361,Pombal EC,22367,3,2,True
+1512690,2026-02-18T22:30:00+00:00,FT,Regular Season - 8,Campinense,2209,Sousa,7864,1,1,True
+1512685,2026-02-19T00:00:00+00:00,FT,Regular Season - 7,Botafogo PB,1197,Treze,7787,2,0,True
+1512692,2026-02-22T21:00:00+00:00,FT,Regular Season - 9,Botafogo PB,1197,Serra Branca,20710,1,1,True
+1512695,2026-02-22T21:00:00+00:00,FT,Regular Season - 9,Treze,7787,Nacional de Patos,12908,1,2,True
+1512694,2026-02-22T21:00:00+00:00,FT,Regular Season - 9,Sousa,7864,Pombal EC,22367,2,0,True
+1512691,2026-02-22T21:00:00+00:00,FT,Regular Season - 9,Atlético Cajazeirense,10670,Confianca PB,22361,0,2,True
+1512693,2026-02-22T21:00:00+00:00,FT,Regular Season - 9,EC de Patos,22362,Campinense,2209,1,0,True
+1526329,2026-02-28T20:00:00+00:00,FT,Semi-finals,Sousa,7864,Campinense,2209,0,1,True
+1526328,2026-03-01T21:00:00+00:00,FT,Semi-finals,Serra Branca,20710,Botafogo PB,1197,1,0,True
+1526330,2026-03-07T20:00:00+00:00,FT,Semi-finals,Botafogo PB,1197,Serra Branca,20710,3,1,True
+1526331,2026-03-08T21:00:00+00:00,PEN,Semi-finals,Campinense,2209,Sousa,7864,0,1,False
+1530927,2026-03-15T20:00:00+00:00,FT,Final,Sousa,7864,Botafogo PB,1197,1,2,True
+1530928,2026-03-21T19:45:00+00:00,FT,Final,Botafogo PB,1197,Sousa,7864,0,0,True

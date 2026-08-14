@@ -1,102 +1,198 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1328223,2025-01-04T13:00:00+00:00,FT,Zabbar St. Patrick,4622,Sliema Wanderers,4628,1,0,True
-1328224,2025-01-04T15:15:00+00:00,FT,Melita,4620,Hibernians,3884,2,3,True
-1328226,2025-01-04T18:00:00+00:00,FT,Mosta,4627,Gzira United,2264,1,0,True
-1328221,2025-01-05T12:00:00+00:00,FT,Floriana,4625,Naxxar Lions,4605,4,0,True
-1328225,2025-01-05T14:15:00+00:00,FT,Marsaxlokk,14507,Hamrun Spartans,4626,1,6,True
-1328222,2025-01-06T18:00:00+00:00,FT,Birkirkara,2277,Balzan FC,696,5,2,True
-1328230,2025-01-17T17:00:00+00:00,FT,Balzan FC,696,Mosta,4627,3,2,True
-1328229,2025-01-17T19:15:00+00:00,FT,Sliema Wanderers,4628,Naxxar Lions,4605,4,0,True
-1328228,2025-01-18T13:00:00+00:00,FT,Melita,4620,Floriana,4625,2,0,True
-1328231,2025-01-18T15:15:00+00:00,FT,Birkirkara,2277,Gzira United,2264,2,2,True
-1328227,2025-01-19T13:00:00+00:00,FT,Hibernians,3884,Hamrun Spartans,4626,1,2,True
-1328232,2025-01-19T15:15:00+00:00,FT,Marsaxlokk,14507,Zabbar St. Patrick,4622,3,1,True
-1328234,2025-01-25T13:00:00+00:00,FT,Mosta,4627,Sliema Wanderers,4628,0,1,True
-1328233,2025-01-25T14:00:00+00:00,FT,Floriana,4625,Hamrun Spartans,4626,0,0,True
-1328237,2025-01-25T15:15:00+00:00,FT,Gzira United,2264,Naxxar Lions,4605,1,0,True
-1328238,2025-01-25T18:00:00+00:00,FT,Zabbar St. Patrick,4622,Balzan FC,696,3,0,True
-1328235,2025-01-26T13:00:00+00:00,FT,Hibernians,3884,Marsaxlokk,14507,0,1,True
-1328236,2025-01-26T15:15:00+00:00,FT,Birkirkara,2277,Melita,4620,1,1,True
-1328244,2025-01-31T17:00:00+00:00,FT,Balzan FC,696,Marsaxlokk,14507,0,3,True
-1328240,2025-01-31T19:15:00+00:00,FT,Sliema Wanderers,4628,Hibernians,3884,2,3,True
-1328239,2025-02-01T14:00:00+00:00,FT,Hamrun Spartans,4626,Birkirkara,2277,0,0,True
-1328243,2025-02-01T18:00:00+00:00,FT,Gzira United,2264,Melita,4620,2,2,True
-1328241,2025-02-02T13:00:00+00:00,FT,Floriana,4625,Zabbar St. Patrick,4622,1,0,True
-1328242,2025-02-02T15:15:00+00:00,FT,Mosta,4627,Naxxar Lions,4605,1,0,True
-1328245,2025-02-08T13:00:00+00:00,FT,Birkirkara,2277,Mosta,4627,2,0,True
-1328249,2025-02-08T15:15:00+00:00,FT,Gzira United,2264,Hibernians,3884,1,4,True
-1328248,2025-02-08T18:00:00+00:00,FT,Melita,4620,Sliema Wanderers,4628,2,4,True
-1328246,2025-02-09T13:00:00+00:00,FT,Zabbar St. Patrick,4622,Hamrun Spartans,4626,0,1,True
-1328247,2025-02-09T15:15:00+00:00,FT,Floriana,4625,Marsaxlokk,14507,2,1,True
-1328250,2025-02-10T15:00:00+00:00,FT,Naxxar Lions,4605,Balzan FC,696,0,3,True
-1328255,2025-02-14T19:30:00+00:00,FT,Mosta,4627,Marsaxlokk,14507,2,1,True
-1328252,2025-02-15T13:00:00+00:00,FT,Naxxar Lions,4605,Birkirkara,2277,2,1,True
-1328253,2025-02-15T15:15:00+00:00,FT,Hibernians,3884,Zabbar St. Patrick,4622,0,4,True
-1328254,2025-02-15T18:00:00+00:00,FT,Sliema Wanderers,4628,Gzira United,2264,0,1,True
-1328251,2025-02-16T13:00:00+00:00,FT,Balzan FC,696,Floriana,4625,0,0,True
-1328256,2025-02-16T15:15:00+00:00,FT,Melita,4620,Hamrun Spartans,4626,2,0,True
-1328262,2025-02-21T19:30:00+00:00,FT,Gzira United,2264,Marsaxlokk,14507,0,1,True
-1328257,2025-02-22T12:45:00+00:00,FT,Sliema Wanderers,4628,Floriana,4625,1,2,True
-1328259,2025-02-22T15:00:00+00:00,FT,Hamrun Spartans,4626,Balzan FC,696,1,0,True
-1328258,2025-02-23T12:45:00+00:00,FT,Hibernians,3884,Mosta,4627,2,0,True
-1328260,2025-02-23T15:00:00+00:00,FT,Zabbar St. Patrick,4622,Birkirkara,2277,0,3,True
-1328261,2025-02-23T17:00:00+00:00,FT,Melita,4620,Naxxar Lions,4605,2,5,True
-1328266,2025-03-01T12:45:00+00:00,FT,Sliema Wanderers,4628,Marsaxlokk,14507,0,1,True
-1328264,2025-03-01T15:00:00+00:00,FT,Birkirkara,2277,Hibernians,3884,2,0,True
-1328267,2025-03-01T15:30:00+00:00,FT,Naxxar Lions,4605,Zabbar St. Patrick,4622,1,1,True
-1328268,2025-03-01T18:00:00+00:00,FT,Balzan FC,696,Melita,4620,1,1,True
-1328263,2025-03-02T12:45:00+00:00,FT,Floriana,4625,Mosta,4627,2,2,True
-1328265,2025-03-02T15:00:00+00:00,FT,Hamrun Spartans,4626,Gzira United,2264,0,1,True
-1328270,2025-03-08T12:45:00+00:00,FT,Balzan FC,696,Sliema Wanderers,4628,2,3,True
-1328273,2025-03-08T12:45:00+00:00,FT,Birkirkara,2277,Marsaxlokk,14507,1,1,True
-1328272,2025-03-08T15:00:00+00:00,FT,Gzira United,2264,Floriana,4625,0,3,True
-1328274,2025-03-08T15:00:00+00:00,FT,Melita,4620,Zabbar St. Patrick,4622,1,1,True
-1328271,2025-03-09T12:45:00+00:00,FT,Hibernians,3884,Naxxar Lions,4605,3,2,True
-1328269,2025-03-09T15:00:00+00:00,FT,Hamrun Spartans,4626,Mosta,4627,1,2,True
-1328276,2025-03-12T18:00:00+00:00,FT,Floriana,4625,Birkirkara,2277,0,2,True
-1328279,2025-03-13T17:00:00+00:00,FT,Naxxar Lions,4605,Marsaxlokk,14507,1,0,True
-1328275,2025-03-13T17:30:00+00:00,FT,Hamrun Spartans,4626,Sliema Wanderers,4628,0,1,True
-1328277,2025-03-13T17:30:00+00:00,FT,Mosta,4627,Melita,4620,2,0,True
-1328278,2025-03-13T19:45:00+00:00,FT,Hibernians,3884,Balzan FC,696,0,0,True
-1328280,2025-03-13T19:45:00+00:00,FT,Zabbar St. Patrick,4622,Gzira United,2264,3,0,True
-1328286,2025-03-28T19:00:00+00:00,FT,Gzira United,2264,Balzan FC,696,0,0,True
-1328282,2025-03-29T13:00:00+00:00,FT,Floriana,4625,Hibernians,3884,1,1,True
-1328283,2025-03-29T16:00:00+00:00,FT,Zabbar St. Patrick,4622,Mosta,4627,1,2,True
-1328281,2025-03-30T12:00:00+00:00,FT,Sliema Wanderers,4628,Birkirkara,2277,2,1,True
-1328285,2025-03-30T15:00:00+00:00,FT,Melita,4620,Marsaxlokk,14507,0,5,True
-1328284,2025-03-31T13:00:00+00:00,FT,Hamrun Spartans,4626,Naxxar Lions,4605,4,0,True
-1367463,2025-04-04T16:00:00+00:00,FT,Gzira United,2264,Balzan FC,696,0,0,True
-1367464,2025-04-04T18:15:00+00:00,FT,Mosta,4627,Marsaxlokk,14507,0,4,True
-1367466,2025-04-05T11:45:00+00:00,FT,Zabbar St. Patrick,4622,Naxxar Lions,4605,2,0,True
-1367465,2025-04-05T14:00:00+00:00,FT,Birkirkara,2277,Hamrun Spartans,4626,0,1,True
-1367467,2025-04-06T11:45:00+00:00,FT,Floriana,4625,Sliema Wanderers,4628,0,2,True
-1367468,2025-04-06T14:00:00+00:00,FT,Hibernians,3884,Melita,4620,3,0,True
-1368174,2025-04-11T16:00:00+00:00,FT,Hibernians,3884,Naxxar Lions,4605,0,1,True
-1368175,2025-04-11T18:15:00+00:00,FT,Zabbar St. Patrick,4622,Gzira United,2264,1,2,True
-1368176,2025-04-12T11:45:00+00:00,FT,Floriana,4625,Marsaxlokk,14507,2,1,True
-1368177,2025-04-12T14:00:00+00:00,FT,Mosta,4627,Hamrun Spartans,4626,0,2,True
-1368178,2025-04-13T11:45:00+00:00,FT,Birkirkara,2277,Sliema Wanderers,4628,0,1,True
-1368179,2025-04-13T14:00:00+00:00,FT,Balzan FC,696,Melita,4620,3,1,True
-1368181,2025-04-19T11:45:00+00:00,FT,Birkirkara,2277,Mosta,4627,1,0,True
-1368180,2025-04-19T11:45:00+00:00,FT,Marsaxlokk,14507,Sliema Wanderers,4628,2,1,True
-1368182,2025-04-19T14:00:00+00:00,FT,Hibernians,3884,Gzira United,2264,1,2,True
-1368183,2025-04-19T14:00:00+00:00,FT,Zabbar St. Patrick,4622,Balzan FC,696,2,2,True
-1368185,2025-04-21T17:00:00+00:00,FT,Naxxar Lions,4605,Melita,4620,2,0,True
-1368184,2025-04-21T17:00:00+00:00,FT,Floriana,4625,Hamrun Spartans,4626,0,0,True
-1371495,2025-04-27T12:30:00+00:00,FT,Sliema Wanderers,4628,Hamrun Spartans,4626,1,1,True
-1371494,2025-04-27T13:15:00+00:00,FT,Birkirkara,2277,Marsaxlokk,14507,1,1,True
-1371497,2025-04-27T15:30:00+00:00,FT,Hibernians,3884,Balzan FC,696,1,1,True
-1371496,2025-04-27T15:45:00+00:00,FT,Floriana,4625,Mosta,4627,3,0,True
-1371498,2025-04-28T16:00:00+00:00,FT,Zabbar St. Patrick,4622,Melita,4620,2,0,True
-1371499,2025-04-28T18:15:00+00:00,FT,Gzira United,2264,Naxxar Lions,4605,0,2,True
-1373092,2025-04-30T16:30:00+00:00,FT,Birkirkara,2277,Floriana,4625,1,1,True
-1373093,2025-04-30T16:30:00+00:00,FT,Mosta,4627,Sliema Wanderers,4628,1,4,True
-1373094,2025-04-30T16:30:00+00:00,FT,Marsaxlokk,14507,Hamrun Spartans,4626,0,1,True
-1373375,2025-05-01T11:00:00+00:00,FT,Zabbar St. Patrick,4622,Hibernians,3884,2,2,True
-1373376,2025-05-03T15:00:00+00:00,FT,Balzan FC,696,Naxxar Lions,4605,1,1,True
-1373377,2025-05-03T15:00:00+00:00,FT,Gzira United,2264,Melita,4620,2,2,True
-1373664,2025-05-04T16:00:00+00:00,FT,Sliema Wanderers,4628,Birkirkara,2277,0,1,True
-1373665,2025-05-05T17:15:00+00:00,PEN,Floriana,4625,Hamrun Spartans,4626,0,0,False
-1374743,2025-05-09T16:15:00+00:00,FT,Melita,4620,Naxxar Lions,4605,0,1,True
-1374444,2025-05-09T18:30:00+00:00,FT,Sliema Wanderers,4628,Floriana,4625,0,4,True
-1374445,2025-05-10T16:00:00+00:00,FT,Hamrun Spartans,4626,Birkirkara,2277,1,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1226607,2024-08-16T16:00:00+00:00,FT,Opening - 1,Balzan FC,696,Birkirkara,2277,3,3,True
+1226605,2024-08-16T18:15:00+00:00,FT,Opening - 1,Sliema Wanderers,4628,Mosta,4627,2,0,True
+1226604,2024-08-17T16:00:00+00:00,FT,Opening - 1,Floriana,4625,Melita,4620,3,3,True
+1226608,2024-08-17T18:15:00+00:00,FT,Opening - 1,Naxxar Lions,4605,Hibernians,3884,1,2,True
+1226603,2024-08-18T16:00:00+00:00,FT,Opening - 1,Hamrun Spartans,4626,Zabbar St. Patrick,4622,3,1,True
+1226606,2024-08-18T18:15:00+00:00,FT,Opening - 1,Marsaxlokk,14507,Gzira United,2264,0,1,True
+1226614,2024-08-23T16:00:00+00:00,FT,Opening - 2,Naxxar Lions,4605,Mosta,4627,2,1,True
+1226612,2024-08-23T18:15:00+00:00,FT,Opening - 2,Birkirkara,2277,Zabbar St. Patrick,4622,1,0,True
+1226609,2024-08-24T16:00:00+00:00,FT,Opening - 2,Hamrun Spartans,4626,Floriana,4625,1,1,True
+1226610,2024-08-24T18:15:00+00:00,FT,Opening - 2,Marsaxlokk,14507,Melita,4620,1,2,True
+1226611,2024-08-25T16:00:00+00:00,FT,Opening - 2,Hibernians,3884,Gzira United,2264,2,0,True
+1226613,2024-08-25T18:15:00+00:00,FT,Opening - 2,Sliema Wanderers,4628,Balzan FC,696,2,0,True
+1226617,2024-08-28T16:00:00+00:00,FT,Opening - 3,Zabbar St. Patrick,4622,Floriana,4625,0,3,True
+1226618,2024-08-28T18:30:00+00:00,FT,Opening - 3,Hamrun Spartans,4626,Melita,4620,2,1,True
+1226619,2024-08-29T16:00:00+00:00,FT,Opening - 3,Balzan FC,696,Naxxar Lions,4605,2,0,True
+1226615,2024-08-29T16:00:00+00:00,FT,Opening - 3,Marsaxlokk,14507,Birkirkara,2277,0,2,True
+1226620,2024-08-29T18:15:00+00:00,FT,Opening - 3,Gzira United,2264,Mosta,4627,2,0,True
+1226616,2024-08-29T18:30:00+00:00,FT,Opening - 3,Hibernians,3884,Sliema Wanderers,4628,0,0,True
+1226622,2024-09-14T16:00:00+00:00,FT,Opening - 4,Hibernians,3884,Birkirkara,2277,0,2,True
+1226626,2024-09-14T18:30:00+00:00,FT,Opening - 4,Melita,4620,Gzira United,2264,2,3,True
+1226621,2024-09-15T16:00:00+00:00,FT,Opening - 4,Marsaxlokk,14507,Sliema Wanderers,4628,0,1,True
+1226624,2024-09-15T18:15:00+00:00,FT,Opening - 4,Mosta,4627,Hamrun Spartans,4626,1,0,True
+1226623,2024-09-16T16:00:00+00:00,FT,Opening - 4,Naxxar Lions,4605,Floriana,4625,0,2,True
+1226625,2024-09-16T18:30:00+00:00,FT,Opening - 4,Balzan FC,696,Zabbar St. Patrick,4622,0,2,True
+1226629,2024-09-21T16:00:00+00:00,FT,Opening - 5,Gzira United,2264,Sliema Wanderers,4628,2,2,True
+1226628,2024-09-21T18:30:00+00:00,FT,Opening - 5,Balzan FC,696,Hamrun Spartans,4626,1,1,True
+1226627,2024-09-22T16:00:00+00:00,FT,Opening - 5,Floriana,4625,Hibernians,3884,1,1,True
+1226632,2024-09-22T18:30:00+00:00,FT,Opening - 5,Zabbar St. Patrick,4622,Naxxar Lions,4605,3,3,True
+1226631,2024-09-23T16:00:00+00:00,FT,Opening - 5,Melita,4620,Birkirkara,2277,0,3,True
+1226630,2024-09-23T18:15:00+00:00,FT,Opening - 5,Marsaxlokk,14507,Mosta,4627,2,4,True
+1226633,2024-09-27T16:00:00+00:00,FT,Opening - 6,Floriana,4625,Gzira United,2264,2,1,True
+1226637,2024-09-27T18:30:00+00:00,FT,Opening - 6,Naxxar Lions,4605,Hamrun Spartans,4626,0,6,True
+1226638,2024-09-28T16:00:00+00:00,FT,Opening - 6,Zabbar St. Patrick,4622,Hibernians,3884,1,2,True
+1226634,2024-09-28T18:15:00+00:00,FT,Opening - 6,Marsaxlokk,14507,Balzan FC,696,2,1,True
+1226636,2024-09-29T16:00:00+00:00,FT,Opening - 6,Mosta,4627,Birkirkara,2277,0,1,True
+1226635,2024-09-29T18:30:00+00:00,FT,Opening - 6,Sliema Wanderers,4628,Melita,4620,2,2,True
+1226640,2024-10-02T16:00:00+00:00,FT,Opening - 7,Hamrun Spartans,4626,Hibernians,3884,0,2,True
+1226641,2024-10-02T18:30:00+00:00,FT,Opening - 7,Zabbar St. Patrick,4622,Marsaxlokk,14507,1,3,True
+1226643,2024-10-03T16:00:00+00:00,FT,Opening - 7,Naxxar Lions,4605,Melita,4620,0,0,True
+1226642,2024-10-03T16:00:00+00:00,FT,Opening - 7,Mosta,4627,Floriana,4625,0,2,True
+1226644,2024-10-03T18:15:00+00:00,FT,Opening - 7,Balzan FC,696,Gzira United,2264,2,1,True
+1226639,2024-10-03T18:30:00+00:00,FT,Opening - 7,Birkirkara,2277,Sliema Wanderers,4628,1,0,True
+1226647,2024-10-19T11:30:00+00:00,FT,Opening - 8,Mosta,4627,Hibernians,3884,1,0,True
+1226646,2024-10-19T16:00:00+00:00,FT,Opening - 8,Birkirkara,2277,Hamrun Spartans,4626,3,2,True
+1226648,2024-10-20T13:00:00+00:00,FT,Opening - 8,Sliema Wanderers,4628,Zabbar St. Patrick,4622,2,0,True
+1226649,2024-10-20T15:30:00+00:00,FT,Opening - 8,Naxxar Lions,4605,Gzira United,2264,1,1,True
+1226650,2024-10-20T16:30:00+00:00,FT,Opening - 8,Melita,4620,Balzan FC,696,2,0,True
+1226645,2024-10-21T17:00:00+00:00,FT,Opening - 8,Marsaxlokk,14507,Floriana,4625,1,1,True
+1226654,2024-10-25T16:00:00+00:00,FT,Opening - 9,Hibernians,3884,Melita,4620,2,0,True
+1226651,2024-10-25T18:30:00+00:00,FT,Opening - 9,Sliema Wanderers,4628,Hamrun Spartans,4626,1,0,True
+1226652,2024-10-26T13:00:00+00:00,FT,Opening - 9,Floriana,4625,Balzan FC,696,3,0,True
+1226653,2024-10-26T15:30:00+00:00,FT,Opening - 9,Gzira United,2264,Birkirkara,2277,0,1,True
+1226655,2024-10-27T15:00:00+00:00,FT,Opening - 9,Naxxar Lions,4605,Marsaxlokk,14507,0,0,True
+1226656,2024-10-27T17:30:00+00:00,FT,Opening - 9,Mosta,4627,Zabbar St. Patrick,4622,4,2,True
+1226658,2024-11-01T17:00:00+00:00,FT,Opening - 10,Floriana,4625,Sliema Wanderers,4628,0,0,True
+1226660,2024-11-01T19:30:00+00:00,FT,Opening - 10,Balzan FC,696,Hibernians,3884,0,1,True
+1226657,2024-11-02T14:00:00+00:00,FT,Opening - 10,Hamrun Spartans,4626,Marsaxlokk,14507,2,3,True
+1226662,2024-11-02T16:30:00+00:00,FT,Opening - 10,Gzira United,2264,Zabbar St. Patrick,4622,3,1,True
+1226659,2024-11-02T18:00:00+00:00,FT,Opening - 10,Birkirkara,2277,Naxxar Lions,4605,1,0,True
+1226661,2024-11-02T18:00:00+00:00,FT,Opening - 10,Melita,4620,Mosta,4627,1,2,True
+1226667,2024-11-06T17:00:00+00:00,FT,Opening - 11,Zabbar St. Patrick,4622,Melita,4620,1,3,True
+1226668,2024-11-06T19:30:00+00:00,FT,Opening - 11,Mosta,4627,Balzan FC,696,2,2,True
+1226665,2024-11-07T17:00:00+00:00,FT,Opening - 11,Gzira United,2264,Hamrun Spartans,4626,1,2,True
+1226664,2024-11-07T17:00:00+00:00,FT,Opening - 11,Marsaxlokk,14507,Hibernians,3884,1,1,True
+1226663,2024-11-07T19:30:00+00:00,FT,Opening - 11,Birkirkara,2277,Floriana,4625,1,3,True
+1226666,2024-11-07T19:30:00+00:00,FT,Opening - 11,Naxxar Lions,4605,Sliema Wanderers,4628,0,3,True
+1315330,2024-11-23T12:30:00+00:00,FT,Opening - 2nd Phase - 1,Floriana,4625,Mosta,4627,1,0,True
+1315331,2024-11-23T13:15:00+00:00,FT,Opening - 2nd Phase - 1,Birkirkara,2277,Hamrun Spartans,4626,0,2,True
+1315332,2024-11-23T16:00:00+00:00,FT,Opening - 2nd Phase - 1,Sliema Wanderers,4628,Hibernians,3884,3,1,True
+1315333,2024-11-24T12:30:00+00:00,FT,Opening - 2nd Phase - 1,Gzira United,2264,Zabbar St. Patrick,4622,2,1,True
+1315334,2024-11-24T15:00:00+00:00,FT,Opening - 2nd Phase - 1,Marsaxlokk,14507,Balzan FC,696,2,1,True
+1315335,2024-11-25T18:00:00+00:00,FT,Opening - 2nd Phase - 1,Melita,4620,Naxxar Lions,4605,0,3,True
+1315336,2024-11-29T17:00:00+00:00,FT,Opening - 2nd Phase - 2,Birkirkara,2277,Mosta,4627,2,0,True
+1315337,2024-11-29T19:30:00+00:00,FT,Opening - 2nd Phase - 2,Sliema Wanderers,4628,Hamrun Spartans,4626,1,1,True
+1315338,2024-11-30T13:15:00+00:00,FT,Opening - 2nd Phase - 2,Floriana,4625,Hibernians,3884,2,0,True
+1315339,2024-11-30T16:00:00+00:00,FT,Opening - 2nd Phase - 2,Gzira United,2264,Naxxar Lions,4605,1,1,True
+1315340,2024-12-01T12:30:00+00:00,FT,Opening - 2nd Phase - 2,Melita,4620,Marsaxlokk,14507,1,3,True
+1315341,2024-12-01T15:00:00+00:00,FT,Opening - 2nd Phase - 2,Balzan FC,696,Zabbar St. Patrick,4622,1,2,True
+1315342,2024-12-07T13:15:00+00:00,FT,Opening - 2nd Phase - 3,Birkirkara,2277,Sliema Wanderers,4628,1,1,True
+1315343,2024-12-07T16:00:00+00:00,FT,Opening - 2nd Phase - 3,Hibernians,3884,Mosta,4627,3,2,True
+1315345,2024-12-08T12:30:00+00:00,FT,Opening - 2nd Phase - 3,Gzira United,2264,Marsaxlokk,14507,0,0,True
+1315346,2024-12-08T14:00:00+00:00,FT,Opening - 2nd Phase - 3,Floriana,4625,Hamrun Spartans,4626,1,2,True
+1315347,2024-12-08T15:00:00+00:00,FT,Opening - 2nd Phase - 3,Naxxar Lions,4605,Zabbar St. Patrick,4622,0,3,True
+1315344,2024-12-08T17:30:00+00:00,FT,Opening - 2nd Phase - 3,Melita,4620,Balzan FC,696,1,0,True
+1315348,2024-12-14T13:15:00+00:00,FT,Opening - 2nd Phase - 4,Birkirkara,2277,Hibernians,3884,0,2,True
+1315349,2024-12-14T16:00:00+00:00,FT,Opening - 2nd Phase - 4,Melita,4620,Zabbar St. Patrick,4622,0,1,True
+1315350,2024-12-15T12:30:00+00:00,FT,Opening - 2nd Phase - 4,Marsaxlokk,14507,Naxxar Lions,4605,1,1,True
+1315351,2024-12-15T15:00:00+00:00,FT,Opening - 2nd Phase - 4,Gzira United,2264,Balzan FC,696,2,1,True
+1315353,2024-12-17T17:00:00+00:00,FT,Opening - 2nd Phase - 4,Hamrun Spartans,4626,Mosta,4627,1,2,True
+1315352,2024-12-17T18:00:00+00:00,FT,Opening - 2nd Phase - 4,Floriana,4625,Sliema Wanderers,4628,1,0,True
+1323771,2024-12-21T13:00:00+00:00,FT,Opening - 2nd Phase - 5,Birkirkara,2277,Floriana,4625,0,1,True
+1323773,2024-12-21T15:00:00+00:00,FT,Opening - 2nd Phase - 5,Hibernians,3884,Hamrun Spartans,4626,0,3,True
+1323772,2024-12-21T15:00:00+00:00,FT,Opening - 2nd Phase - 5,Sliema Wanderers,4628,Mosta,4627,3,1,True
+1323776,2024-12-22T16:00:00+00:00,FT,Opening - 2nd Phase - 5,Balzan FC,696,Naxxar Lions,4605,2,1,True
+1323774,2024-12-22T16:00:00+00:00,FT,Opening - 2nd Phase - 5,Gzira United,2264,Melita,4620,0,2,True
+1323775,2024-12-22T16:00:00+00:00,FT,Opening - 2nd Phase - 5,Marsaxlokk,14507,Zabbar St. Patrick,4622,2,2,True
+1328223,2025-01-04T13:00:00+00:00,FT,Closing - 1,Zabbar St. Patrick,4622,Sliema Wanderers,4628,1,0,True
+1328224,2025-01-04T15:15:00+00:00,FT,Closing - 1,Melita,4620,Hibernians,3884,2,3,True
+1328226,2025-01-04T18:00:00+00:00,FT,Closing - 1,Mosta,4627,Gzira United,2264,1,0,True
+1328221,2025-01-05T12:00:00+00:00,FT,Closing - 1,Floriana,4625,Naxxar Lions,4605,4,0,True
+1328225,2025-01-05T14:15:00+00:00,FT,Closing - 1,Marsaxlokk,14507,Hamrun Spartans,4626,1,6,True
+1328222,2025-01-06T18:00:00+00:00,FT,Closing - 1,Birkirkara,2277,Balzan FC,696,5,2,True
+1328230,2025-01-17T17:00:00+00:00,FT,Closing - 2,Balzan FC,696,Mosta,4627,3,2,True
+1328229,2025-01-17T19:15:00+00:00,FT,Closing - 2,Sliema Wanderers,4628,Naxxar Lions,4605,4,0,True
+1328228,2025-01-18T13:00:00+00:00,FT,Closing - 2,Melita,4620,Floriana,4625,2,0,True
+1328231,2025-01-18T15:15:00+00:00,FT,Closing - 2,Birkirkara,2277,Gzira United,2264,2,2,True
+1328227,2025-01-19T13:00:00+00:00,FT,Closing - 2,Hibernians,3884,Hamrun Spartans,4626,1,2,True
+1328232,2025-01-19T15:15:00+00:00,FT,Closing - 2,Marsaxlokk,14507,Zabbar St. Patrick,4622,3,1,True
+1328234,2025-01-25T13:00:00+00:00,FT,Closing - 3,Mosta,4627,Sliema Wanderers,4628,0,1,True
+1328233,2025-01-25T14:00:00+00:00,FT,Closing - 3,Floriana,4625,Hamrun Spartans,4626,0,0,True
+1328237,2025-01-25T15:15:00+00:00,FT,Closing - 3,Gzira United,2264,Naxxar Lions,4605,1,0,True
+1328238,2025-01-25T18:00:00+00:00,FT,Closing - 3,Zabbar St. Patrick,4622,Balzan FC,696,3,0,True
+1328235,2025-01-26T13:00:00+00:00,FT,Closing - 3,Hibernians,3884,Marsaxlokk,14507,0,1,True
+1328236,2025-01-26T15:15:00+00:00,FT,Closing - 3,Birkirkara,2277,Melita,4620,1,1,True
+1328244,2025-01-31T17:00:00+00:00,FT,Closing - 4,Balzan FC,696,Marsaxlokk,14507,0,3,True
+1328240,2025-01-31T19:15:00+00:00,FT,Closing - 4,Sliema Wanderers,4628,Hibernians,3884,2,3,True
+1328239,2025-02-01T14:00:00+00:00,FT,Closing - 4,Hamrun Spartans,4626,Birkirkara,2277,0,0,True
+1328243,2025-02-01T18:00:00+00:00,FT,Closing - 4,Gzira United,2264,Melita,4620,2,2,True
+1328241,2025-02-02T13:00:00+00:00,FT,Closing - 4,Floriana,4625,Zabbar St. Patrick,4622,1,0,True
+1328242,2025-02-02T15:15:00+00:00,FT,Closing - 4,Mosta,4627,Naxxar Lions,4605,1,0,True
+1328245,2025-02-08T13:00:00+00:00,FT,Closing - 5,Birkirkara,2277,Mosta,4627,2,0,True
+1328249,2025-02-08T15:15:00+00:00,FT,Closing - 5,Gzira United,2264,Hibernians,3884,1,4,True
+1328248,2025-02-08T18:00:00+00:00,FT,Closing - 5,Melita,4620,Sliema Wanderers,4628,2,4,True
+1328246,2025-02-09T13:00:00+00:00,FT,Closing - 5,Zabbar St. Patrick,4622,Hamrun Spartans,4626,0,1,True
+1328247,2025-02-09T15:15:00+00:00,FT,Closing - 5,Floriana,4625,Marsaxlokk,14507,2,1,True
+1328250,2025-02-10T15:00:00+00:00,FT,Closing - 5,Naxxar Lions,4605,Balzan FC,696,0,3,True
+1328255,2025-02-14T19:30:00+00:00,FT,Closing - 6,Mosta,4627,Marsaxlokk,14507,2,1,True
+1328252,2025-02-15T13:00:00+00:00,FT,Closing - 6,Naxxar Lions,4605,Birkirkara,2277,2,1,True
+1328253,2025-02-15T15:15:00+00:00,FT,Closing - 6,Hibernians,3884,Zabbar St. Patrick,4622,0,4,True
+1328254,2025-02-15T18:00:00+00:00,FT,Closing - 6,Sliema Wanderers,4628,Gzira United,2264,0,1,True
+1328251,2025-02-16T13:00:00+00:00,FT,Closing - 6,Balzan FC,696,Floriana,4625,0,0,True
+1328256,2025-02-16T15:15:00+00:00,FT,Closing - 6,Melita,4620,Hamrun Spartans,4626,2,0,True
+1328262,2025-02-21T19:30:00+00:00,FT,Closing - 7,Gzira United,2264,Marsaxlokk,14507,0,1,True
+1328257,2025-02-22T12:45:00+00:00,FT,Closing - 7,Sliema Wanderers,4628,Floriana,4625,1,2,True
+1328259,2025-02-22T15:00:00+00:00,FT,Closing - 7,Hamrun Spartans,4626,Balzan FC,696,1,0,True
+1328258,2025-02-23T12:45:00+00:00,FT,Closing - 7,Hibernians,3884,Mosta,4627,2,0,True
+1328260,2025-02-23T15:00:00+00:00,FT,Closing - 7,Zabbar St. Patrick,4622,Birkirkara,2277,0,3,True
+1328261,2025-02-23T17:00:00+00:00,FT,Closing - 7,Melita,4620,Naxxar Lions,4605,2,5,True
+1328266,2025-03-01T12:45:00+00:00,FT,Closing - 8,Sliema Wanderers,4628,Marsaxlokk,14507,0,1,True
+1328264,2025-03-01T15:00:00+00:00,FT,Closing - 8,Birkirkara,2277,Hibernians,3884,2,0,True
+1328267,2025-03-01T15:30:00+00:00,FT,Closing - 8,Naxxar Lions,4605,Zabbar St. Patrick,4622,1,1,True
+1328268,2025-03-01T18:00:00+00:00,FT,Closing - 8,Balzan FC,696,Melita,4620,1,1,True
+1328263,2025-03-02T12:45:00+00:00,FT,Closing - 8,Floriana,4625,Mosta,4627,2,2,True
+1328265,2025-03-02T15:00:00+00:00,FT,Closing - 8,Hamrun Spartans,4626,Gzira United,2264,0,1,True
+1328270,2025-03-08T12:45:00+00:00,FT,Closing - 9,Balzan FC,696,Sliema Wanderers,4628,2,3,True
+1328273,2025-03-08T12:45:00+00:00,FT,Closing - 9,Birkirkara,2277,Marsaxlokk,14507,1,1,True
+1328272,2025-03-08T15:00:00+00:00,FT,Closing - 9,Gzira United,2264,Floriana,4625,0,3,True
+1328274,2025-03-08T15:00:00+00:00,FT,Closing - 9,Melita,4620,Zabbar St. Patrick,4622,1,1,True
+1328271,2025-03-09T12:45:00+00:00,FT,Closing - 9,Hibernians,3884,Naxxar Lions,4605,3,2,True
+1328269,2025-03-09T15:00:00+00:00,FT,Closing - 9,Hamrun Spartans,4626,Mosta,4627,1,2,True
+1328276,2025-03-12T18:00:00+00:00,FT,Closing - 10,Floriana,4625,Birkirkara,2277,0,2,True
+1328279,2025-03-13T17:00:00+00:00,FT,Closing - 10,Naxxar Lions,4605,Marsaxlokk,14507,1,0,True
+1328275,2025-03-13T17:30:00+00:00,FT,Closing - 10,Hamrun Spartans,4626,Sliema Wanderers,4628,0,1,True
+1328277,2025-03-13T17:30:00+00:00,FT,Closing - 10,Mosta,4627,Melita,4620,2,0,True
+1328278,2025-03-13T19:45:00+00:00,FT,Closing - 10,Hibernians,3884,Balzan FC,696,0,0,True
+1328280,2025-03-13T19:45:00+00:00,FT,Closing - 10,Zabbar St. Patrick,4622,Gzira United,2264,3,0,True
+1328286,2025-03-28T19:00:00+00:00,FT,Closing - 11,Gzira United,2264,Balzan FC,696,0,0,True
+1328282,2025-03-29T13:00:00+00:00,FT,Closing - 11,Floriana,4625,Hibernians,3884,1,1,True
+1328283,2025-03-29T16:00:00+00:00,FT,Closing - 11,Zabbar St. Patrick,4622,Mosta,4627,1,2,True
+1328281,2025-03-30T12:00:00+00:00,FT,Closing - 11,Sliema Wanderers,4628,Birkirkara,2277,2,1,True
+1328285,2025-03-30T15:00:00+00:00,FT,Closing - 11,Melita,4620,Marsaxlokk,14507,0,5,True
+1328284,2025-03-31T13:00:00+00:00,FT,Closing - 11,Hamrun Spartans,4626,Naxxar Lions,4605,4,0,True
+1367463,2025-04-04T16:00:00+00:00,FT,Closing - 2nd Phase - 1,Gzira United,2264,Balzan FC,696,0,0,True
+1367464,2025-04-04T18:15:00+00:00,FT,Closing - 2nd Phase - 1,Mosta,4627,Marsaxlokk,14507,0,4,True
+1367466,2025-04-05T11:45:00+00:00,FT,Closing - 2nd Phase - 1,Zabbar St. Patrick,4622,Naxxar Lions,4605,2,0,True
+1367465,2025-04-05T14:00:00+00:00,FT,Closing - 2nd Phase - 1,Birkirkara,2277,Hamrun Spartans,4626,0,1,True
+1367467,2025-04-06T11:45:00+00:00,FT,Closing - 2nd Phase - 1,Floriana,4625,Sliema Wanderers,4628,0,2,True
+1367468,2025-04-06T14:00:00+00:00,FT,Closing - 2nd Phase - 1,Hibernians,3884,Melita,4620,3,0,True
+1368174,2025-04-11T16:00:00+00:00,FT,Closing - 2nd Phase - 2,Hibernians,3884,Naxxar Lions,4605,0,1,True
+1368175,2025-04-11T18:15:00+00:00,FT,Closing - 2nd Phase - 2,Zabbar St. Patrick,4622,Gzira United,2264,1,2,True
+1368176,2025-04-12T11:45:00+00:00,FT,Closing - 2nd Phase - 2,Floriana,4625,Marsaxlokk,14507,2,1,True
+1368177,2025-04-12T14:00:00+00:00,FT,Closing - 2nd Phase - 2,Mosta,4627,Hamrun Spartans,4626,0,2,True
+1368178,2025-04-13T11:45:00+00:00,FT,Closing - 2nd Phase - 2,Birkirkara,2277,Sliema Wanderers,4628,0,1,True
+1368179,2025-04-13T14:00:00+00:00,FT,Closing - 2nd Phase - 2,Balzan FC,696,Melita,4620,3,1,True
+1368181,2025-04-19T11:45:00+00:00,FT,Closing - 2nd Phase - 3,Birkirkara,2277,Mosta,4627,1,0,True
+1368180,2025-04-19T11:45:00+00:00,FT,Closing - 2nd Phase - 3,Marsaxlokk,14507,Sliema Wanderers,4628,2,1,True
+1368182,2025-04-19T14:00:00+00:00,FT,Closing - 2nd Phase - 3,Hibernians,3884,Gzira United,2264,1,2,True
+1368183,2025-04-19T14:00:00+00:00,FT,Closing - 2nd Phase - 3,Zabbar St. Patrick,4622,Balzan FC,696,2,2,True
+1368185,2025-04-21T17:00:00+00:00,FT,Closing - 2nd Phase - 3,Naxxar Lions,4605,Melita,4620,2,0,True
+1368184,2025-04-21T17:00:00+00:00,FT,Closing - 2nd Phase - 3,Floriana,4625,Hamrun Spartans,4626,0,0,True
+1371495,2025-04-27T12:30:00+00:00,FT,Closing - 2nd Phase - 4,Sliema Wanderers,4628,Hamrun Spartans,4626,1,1,True
+1371494,2025-04-27T13:15:00+00:00,FT,Closing - 2nd Phase - 4,Birkirkara,2277,Marsaxlokk,14507,1,1,True
+1371497,2025-04-27T15:30:00+00:00,FT,Closing - 2nd Phase - 4,Hibernians,3884,Balzan FC,696,1,1,True
+1371496,2025-04-27T15:45:00+00:00,FT,Closing - 2nd Phase - 4,Floriana,4625,Mosta,4627,3,0,True
+1371498,2025-04-28T16:00:00+00:00,FT,Closing - 2nd Phase - 4,Zabbar St. Patrick,4622,Melita,4620,2,0,True
+1371499,2025-04-28T18:15:00+00:00,FT,Closing - 2nd Phase - 4,Gzira United,2264,Naxxar Lions,4605,0,2,True
+1373092,2025-04-30T16:30:00+00:00,FT,Closing - 2nd Phase - 5,Birkirkara,2277,Floriana,4625,1,1,True
+1373093,2025-04-30T16:30:00+00:00,FT,Closing - 2nd Phase - 5,Mosta,4627,Sliema Wanderers,4628,1,4,True
+1373094,2025-04-30T16:30:00+00:00,FT,Closing - 2nd Phase - 5,Marsaxlokk,14507,Hamrun Spartans,4626,0,1,True
+1373375,2025-05-01T11:00:00+00:00,FT,Closing - 2nd Phase - 5,Zabbar St. Patrick,4622,Hibernians,3884,2,2,True
+1373376,2025-05-03T15:00:00+00:00,FT,Closing - 2nd Phase - 5,Balzan FC,696,Naxxar Lions,4605,1,1,True
+1373377,2025-05-03T15:00:00+00:00,FT,Closing - 2nd Phase - 5,Gzira United,2264,Melita,4620,2,2,True
+1373664,2025-05-04T16:00:00+00:00,FT,Championship - Semi-finals,Sliema Wanderers,4628,Birkirkara,2277,0,1,True
+1373665,2025-05-05T17:15:00+00:00,PEN,Championship - Semi-finals,Floriana,4625,Hamrun Spartans,4626,0,0,False
+1374743,2025-05-09T16:15:00+00:00,FT,Relegation Play-offs - Finals,Melita,4620,Naxxar Lions,4605,0,1,True
+1374444,2025-05-09T18:30:00+00:00,FT,Conference League Play-offs - Final,Sliema Wanderers,4628,Floriana,4625,0,4,True
+1374445,2025-05-10T16:00:00+00:00,FT,Championship - Final,Hamrun Spartans,4626,Birkirkara,2277,1,0,True

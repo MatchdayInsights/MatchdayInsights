@@ -1,8 +1,70 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1320698,2025-02-25T19:00:00+00:00,FT,Ruch Chorzów,6953,Korona Kielce,346,2,0,True
-1320700,2025-02-26T17:00:00+00:00,AET,Pogon Szczecin,348,Piast Gliwice,349,2,0,False
-1320699,2025-02-26T20:00:00+00:00,FT,Legia Warszawa,339,Jagiellonia,336,3,1,True
-1320701,2025-02-27T17:00:00+00:00,AET,Polonia Warszawa,16239,Puszcza Niepołomice,3490,1,2,False
-1357112,2025-04-01T16:30:00+00:00,FT,Puszcza Niepołomice,3490,Pogon Szczecin,348,0,3,True
-1357113,2025-04-02T16:00:00+00:00,FT,Ruch Chorzów,6953,Legia Warszawa,339,0,5,True
-1367760,2025-05-02T14:00:00+00:00,FT,Pogon Szczecin,348,Legia Warszawa,339,3,4,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1203508,2024-08-06T14:00:00+00:00,AET,Preliminary Round,Hutnik Kraków,6942,Zagłębie Lubin II,6963,4,1,False
+1203501,2024-08-06T15:00:00+00:00,FT,Preliminary Round,Pogoń Siedlce,6947,Lech Poznań II,9133,0,2,True
+1203499,2024-08-06T17:00:00+00:00,FT,Preliminary Round,Podbeskidzie,3489,Stomil Olsztyn,3494,2,0,True
+1203506,2024-08-06T17:20:00+00:00,FT,Preliminary Round,Polonia Bytom,12835,Jastrzębie,3486,2,0,True
+1203504,2024-08-07T15:00:00+00:00,FT,Preliminary Round,Stal Stalowa Wola,6958,Olimpia Elbląg,6945,4,2,True
+1203503,2024-08-07T15:00:00+00:00,FT,Preliminary Round,Kalisz,12801,Olimpia Grudziądz,4247,0,2,True
+1203507,2024-08-07T15:30:00+00:00,FT,Preliminary Round,Radunia Stężyca,12837,ŁKS Łódź II,17397,1,2,True
+1203500,2024-08-07T16:00:00+00:00,FT,Preliminary Round,Zaglebie Sosnowiec,342,Sandecja Nowy Sącz,3492,0,1,True
+1203502,2024-08-07T16:00:00+00:00,FT,Preliminary Round,Kotwica Kołobrzeg,16249,SKRA Częstochowa,6954,2,1,True
+1203505,2024-08-07T17:30:00+00:00,FT,Preliminary Round,Chojniczanka Chojnice,3482,Wisła Puławy,16272,3,2,True
+1294668,2024-09-24T11:00:00+00:00,AET,1st Round,Sandecja Nowy Sącz,3492,Cracovia Krakow,350,3,2,False
+1294651,2024-09-24T12:30:00+00:00,AET,1st Round,Pogoń Grod. Mazowiecki,14750,Lechia Gdansk,343,1,1,False
+1294657,2024-09-24T13:00:00+00:00,FT,1st Round,Podbeskidzie II,24787,Odra Opole,3488,0,5,True
+1294647,2024-09-24T15:00:00+00:00,FT,1st Round,ŁKS Łódź II,17397,Kotwica Kołobrzeg,16249,2,3,True
+1294649,2024-09-24T15:30:00+00:00,FT,1st Round,Elana Toruń,6938,Widzew Łódź,6962,1,3,True
+1294658,2024-09-24T16:00:00+00:00,FT,1st Round,Wisla Plock,341,Warta Poznań,3496,0,1,True
+1294650,2024-09-24T17:22:00+00:00,FT,1st Round,Nieciecza,3487,GKS Katowice,3484,1,2,True
+1294666,2024-09-24T18:30:00+00:00,FT,1st Round,Stal Rzeszów,6957,Pogon Szczecin,348,0,3,True
+1294655,2024-09-25T12:30:00+00:00,AET,1st Round,Hutnik Kraków,6942,Piast Gliwice,349,3,3,False
+1294644,2024-09-25T13:00:00+00:00,FT,1st Round,Podhale Nowy Targ,12834,Ruch Chorzów,6953,0,2,True
+1294663,2024-09-25T13:30:00+00:00,FT,1st Round,Concordia Elbląg,6937,Lechia Zielona Góra,14143,0,2,True
+1294660,2024-09-25T13:30:00+00:00,FT,1st Round,Siarka Tarnobrzeg,6955,Star Starachowice,21660,4,1,True
+1294662,2024-09-25T13:30:00+00:00,AET,1st Round,Avia Świdnik,16264,Polonia Bytom,12835,3,3,False
+1294664,2024-09-25T15:30:00+00:00,AET,1st Round,Korona Kielce,346,Stal Mielec,3493,1,1,False
+1294665,2024-09-25T16:00:00+00:00,FT,1st Round,Chrobry Głogów,3483,Polonia Warszawa,16239,1,2,True
+1294669,2024-09-25T16:00:00+00:00,AET,1st Round,Wigry Suwałki,3497,Świt Skolwin,12902,3,1,False
+1294652,2024-09-25T16:00:00+00:00,FT,1st Round,Olimpia Grudziądz,4247,Tychy 71,3495,4,2,True
+1294643,2024-09-25T16:00:00+00:00,FT,1st Round,Kluczbork,12806,Unia Swarzędz,16257,2,1,True
+1294656,2024-09-25T16:30:00+00:00,PEN,1st Round,Barycz Sułów,24785,Lech Poznań II,9133,0,0,False
+1294659,2024-09-25T17:00:00+00:00,PEN,1st Round,Miedz Legnica,335,Raków Częstochowa,3491,0,0,False
+1294654,2024-09-25T17:00:00+00:00,AET,1st Round,Górnik Łęczna,6941,Puszcza Niepołomice,3490,1,1,False
+1294646,2024-09-25T17:00:00+00:00,AET,1st Round,Stal Stalowa Wola,6958,Arka Gdynia,344,2,2,False
+1294648,2024-09-25T17:30:00+00:00,FT,1st Round,Chojniczanka Chojnice,3482,Znicz Pruszków,6964,3,2,True
+1294661,2024-09-25T18:30:00+00:00,FT,1st Round,Gornik Zabrze,340,Radomiak Radom,4248,0,1,True
+1294645,2024-09-26T10:15:00+00:00,FT,1st Round,Grom Nowy Staw,24786,ŁKS Łódź,3498,0,2,True
+1294642,2024-09-26T12:30:00+00:00,PEN,1st Round,Podbeskidzie,3489,Zaglebie Lubin,345,0,0,False
+1294667,2024-09-26T15:00:00+00:00,FT,1st Round,Resovia Rzeszów,6951,Lech Poznan,347,1,0,True
+1294653,2024-10-02T17:00:00+00:00,AET,1st Round,Unia Skierniewice,6961,Motor Lublin,14562,1,1,False
+1309906,2024-10-12T12:15:00+00:00,FT,Round of 32,Siarka Tarnobrzeg,6955,Wisla Krakow,338,2,3,True
+1309901,2024-10-29T11:00:00+00:00,FT,Round of 32,Avia Świdnik,16264,Ruch Chorzów,6953,1,3,True
+1309909,2024-10-29T14:00:00+00:00,FT,Round of 32,Odra Opole,3488,Pogon Szczecin,348,0,1,True
+1309899,2024-10-29T16:00:00+00:00,FT,Round of 32,Kotwica Kołobrzeg,16249,Puszcza Niepołomice,3490,0,1,True
+1309910,2024-10-29T17:00:00+00:00,FT,Round of 32,Olimpia Grudziądz,4247,Resovia Rzeszów,6951,3,2,True
+1309900,2024-10-29T20:00:00+00:00,FT,Round of 32,Radomiak Radom,4248,Slask Wroclaw,337,0,3,True
+1309903,2024-10-30T12:00:00+00:00,FT,Round of 32,Sandecja Nowy Sącz,3492,Pogoń Grod. Mazowiecki,14750,1,0,True
+1309907,2024-10-30T12:00:00+00:00,FT,Round of 32,Lech Poznań II,9133,Korona Kielce,346,1,3,True
+1309902,2024-10-30T16:30:00+00:00,FT,Round of 32,Chojniczanka Chojnice,3482,Jagiellonia,336,0,3,True
+1309904,2024-10-30T17:00:00+00:00,FT,Round of 32,Wigry Suwałki,3497,Polonia Warszawa,16239,2,3,True
+1309898,2024-10-30T17:00:00+00:00,FT,Round of 32,Kluczbork,12806,ŁKS Łódź,3498,0,1,True
+1310698,2024-10-30T18:00:00+00:00,FT,Round of 32,Unia Skierniewice,6961,GKS Katowice,3484,2,1,True
+1309911,2024-10-30T19:30:00+00:00,AET,Round of 32,Arka Gdynia,344,Piast Gliwice,349,1,3,False
+1309908,2024-10-31T12:00:00+00:00,AET,Round of 32,Lechia Zielona Góra,14143,Widzew Łódź,6962,3,3,False
+1309912,2024-10-31T16:30:00+00:00,FT,Round of 32,Warta Poznań,3496,Zaglebie Lubin,345,0,3,True
+1309905,2024-10-31T19:30:00+00:00,FT,Round of 32,Miedz Legnica,335,Legia Warszawa,339,1,2,True
+1315001,2024-12-03T11:00:00+00:00,FT,Round of 16,Sandecja Nowy Sącz,3492,Puszcza Niepołomice,3490,0,1,True
+1314997,2024-12-03T14:00:00+00:00,AET,Round of 16,Slask Wroclaw,337,Piast Gliwice,349,1,1,False
+1315002,2024-12-03T20:00:00+00:00,AET,Round of 16,Polonia Warszawa,16239,Wisla Krakow,338,3,2,False
+1315003,2024-12-04T14:00:00+00:00,FT,Round of 16,Unia Skierniewice,6961,Ruch Chorzów,6953,0,2,True
+1314996,2024-12-04T17:00:00+00:00,FT,Round of 16,Korona Kielce,346,Widzew Łódź,6962,1,0,True
+1314999,2024-12-04T20:00:00+00:00,FT,Round of 16,Pogon Szczecin,348,Zaglebie Lubin,345,4,3,True
+1314998,2024-12-05T14:00:00+00:00,FT,Round of 16,Olimpia Grudziądz,4247,Jagiellonia,336,1,3,True
+1315000,2024-12-05T17:00:00+00:00,FT,Round of 16,ŁKS Łódź,3498,Legia Warszawa,339,0,3,True
+1320698,2025-02-25T19:00:00+00:00,FT,Quarter-finals,Ruch Chorzów,6953,Korona Kielce,346,2,0,True
+1320700,2025-02-26T17:00:00+00:00,AET,Quarter-finals,Pogon Szczecin,348,Piast Gliwice,349,2,0,False
+1320699,2025-02-26T20:00:00+00:00,FT,Quarter-finals,Legia Warszawa,339,Jagiellonia,336,3,1,True
+1320701,2025-02-27T17:00:00+00:00,AET,Quarter-finals,Polonia Warszawa,16239,Puszcza Niepołomice,3490,1,2,False
+1357112,2025-04-01T16:30:00+00:00,FT,Semi-finals,Puszcza Niepołomice,3490,Pogon Szczecin,348,0,3,True
+1357113,2025-04-02T16:00:00+00:00,FT,Semi-finals,Ruch Chorzów,6953,Legia Warszawa,339,0,5,True
+1367760,2025-05-02T14:00:00+00:00,FT,Final,Pogon Szczecin,348,Legia Warszawa,339,3,4,True

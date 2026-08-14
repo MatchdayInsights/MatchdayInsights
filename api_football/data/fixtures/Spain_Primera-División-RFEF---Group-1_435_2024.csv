@@ -1,201 +1,381 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1263998,2025-01-10T19:30:00+00:00,FT,Arenteiro,9604,FC Andorra,8157,3,0,True
-1263992,2025-01-11T14:30:00+00:00,FT,Ponferradina,4907,Sestao River,9413,1,2,True
-1263991,2025-01-11T14:30:00+00:00,FT,Celta de Vigo II,9571,Real Sociedad II,9585,2,1,True
-1263999,2025-01-11T16:00:00+00:00,FT,Cultural Leonesa,725,Barcelona B,712,1,1,True
-1263995,2025-01-11T16:30:00+00:00,FT,Gimnastic,714,Gimnástica Segoviana,9387,5,0,True
-1263996,2025-01-11T16:30:00+00:00,FT,Ourense CF,9612,Lugo,716,2,1,True
-1263993,2025-01-12T11:00:00+00:00,FT,Athletic Club II,9579,Barakaldo,5251,0,2,True
-1263994,2025-01-12T11:00:00+00:00,FT,Real Unión,9586,Zamora,9418,1,2,True
-1263997,2025-01-12T14:30:00+00:00,FT,Osasuna II,9584,Amorebieta,9380,3,0,True
-1264000,2025-01-12T16:30:00+00:00,FT,Tarazona,9416,Unionistas de Salamanca,5281,1,0,True
-1264008,2025-01-17T19:30:00+00:00,FT,Sestao River,9413,Real Unión,9586,0,1,True
-1264005,2025-01-18T17:00:00+00:00,FT,Gimnástica Segoviana,9387,Arenteiro,9604,1,2,True
-1264010,2025-01-18T17:00:00+00:00,FT,Real Sociedad II,9585,Gimnastic,714,1,1,True
-1264006,2025-01-19T11:00:00+00:00,FT,Unionistas de Salamanca,5281,Celta de Vigo II,9571,2,1,True
-1264003,2025-01-19T11:00:00+00:00,FT,FC Andorra,8157,Athletic Club II,9579,0,2,True
-1264009,2025-01-19T11:00:00+00:00,FT,Zamora,9418,Osasuna II,9584,1,0,True
-1264004,2025-01-19T14:30:00+00:00,FT,Barcelona B,712,Ponferradina,4907,0,3,True
-1264007,2025-01-19T16:00:00+00:00,FT,Lugo,716,Cultural Leonesa,725,1,4,True
-1264001,2025-01-19T16:00:00+00:00,FT,Barakaldo,5251,Ourense CF,9612,1,1,True
-1264002,2025-01-19T18:30:00+00:00,FT,Amorebieta,9380,Tarazona,9416,2,2,True
-1264015,2025-01-24T19:30:00+00:00,FT,Osasuna II,9584,Real Sociedad II,9585,1,1,True
-1264019,2025-01-25T16:00:00+00:00,FT,Ourense CF,9612,Barcelona B,712,1,1,True
-1264013,2025-01-25T17:00:00+00:00,FT,Athletic Club II,9579,Sestao River,9413,2,0,True
-1264014,2025-01-25T19:00:00+00:00,FT,Real Unión,9586,Gimnástica Segoviana,9387,5,0,True
-1264018,2025-01-26T11:00:00+00:00,FT,Ponferradina,4907,FC Andorra,8157,1,0,True
-1264017,2025-01-26T14:30:00+00:00,FT,Gimnastic,714,Amorebieta,9380,1,1,True
-1264016,2025-01-26T14:30:00+00:00,FT,Tarazona,9416,Zamora,9418,1,0,True
-1264012,2025-01-26T16:30:00+00:00,FT,Cultural Leonesa,725,Unionistas de Salamanca,5281,4,3,True
-1264025,2025-01-31T19:30:00+00:00,FT,Gimnástica Segoviana,9387,Tarazona,9416,0,1,True
-1264020,2025-02-01T15:00:00+00:00,FT,Celta de Vigo II,9571,Gimnastic,714,0,1,True
-1264029,2025-02-01T17:00:00+00:00,FT,Real Sociedad II,9585,Barcelona B,712,3,0,True
-1264026,2025-02-01T19:00:00+00:00,FT,Sestao River,9413,Cultural Leonesa,725,1,1,True
-1264028,2025-02-01T19:00:00+00:00,FT,Zamora,9418,Athletic Club II,9579,0,2,True
-1264022,2025-02-02T11:00:00+00:00,FT,Barakaldo,5251,Real Unión,9586,0,2,True
-1264023,2025-02-02T11:00:00+00:00,FT,Amorebieta,9380,Arenteiro,9604,3,0,True
-1264021,2025-02-02T15:30:00+00:00,FT,Lugo,716,Osasuna II,9584,3,1,True
-1264027,2025-02-02T15:30:00+00:00,FT,Unionistas de Salamanca,5281,Ponferradina,4907,1,1,True
-1264024,2025-02-02T16:30:00+00:00,FT,FC Andorra,8157,Ourense CF,9612,0,0,True
-1264036,2025-02-07T19:30:00+00:00,FT,Ponferradina,4907,Barakaldo,5251,0,1,True
-1264033,2025-02-08T16:30:00+00:00,FT,Barcelona B,712,Gimnástica Segoviana,9387,2,2,True
-1264038,2025-02-08T17:00:00+00:00,FT,Tarazona,9416,Real Sociedad II,9585,0,1,True
-1264030,2025-02-08T19:00:00+00:00,FT,Sestao River,9413,Zamora,9418,1,1,True
-1264032,2025-02-09T11:00:00+00:00,FT,FC Andorra,8157,Lugo,716,2,0,True
-1264039,2025-02-09T11:00:00+00:00,FT,Osasuna II,9584,Gimnastic,714,1,1,True
-1264031,2025-02-09T11:00:00+00:00,FT,Real Unión,9586,Unionistas de Salamanca,5281,3,2,True
-1264034,2025-02-09T14:30:00+00:00,FT,Athletic Club II,9579,Arenteiro,9604,1,0,True
-1264037,2025-02-09T16:30:00+00:00,FT,Cultural Leonesa,725,Amorebieta,9380,2,1,True
-1264035,2025-02-09T17:00:00+00:00,FT,Ourense CF,9612,Celta de Vigo II,9571,1,0,True
-1264044,2025-02-14T19:30:00+00:00,FT,Unionistas de Salamanca,5281,Ourense CF,9612,2,1,True
-1264046,2025-02-15T15:00:00+00:00,FT,Gimnastic,714,Athletic Club II,9579,0,2,True
-1264049,2025-02-15T16:00:00+00:00,FT,Zamora,9418,Barcelona B,712,1,0,True
-1264040,2025-02-15T16:00:00+00:00,FT,Arenteiro,9604,Tarazona,9416,2,1,True
-1264045,2025-02-15T17:00:00+00:00,FT,Real Sociedad II,9585,Cultural Leonesa,725,2,2,True
-1264048,2025-02-15T19:00:00+00:00,FT,Barakaldo,5251,FC Andorra,8157,2,3,True
-1264043,2025-02-16T11:00:00+00:00,FT,Amorebieta,9380,Ponferradina,4907,3,1,True
-1264041,2025-02-16T11:00:00+00:00,FT,Celta de Vigo II,9571,Real Unión,9586,2,1,True
-1264042,2025-02-16T15:00:00+00:00,FT,Lugo,716,Sestao River,9413,2,1,True
-1264047,2025-02-16T16:30:00+00:00,FT,Gimnástica Segoviana,9387,Osasuna II,9584,2,4,True
-1264011,2025-02-19T16:00:00+00:00,FT,Arenteiro,9604,Barakaldo,5251,1,1,True
-1264051,2025-02-21T19:30:00+00:00,FT,Athletic Club II,9579,Lugo,716,2,2,True
-1264059,2025-02-22T15:00:00+00:00,FT,Ourense CF,9612,Gimnastic,714,2,1,True
-1264055,2025-02-22T17:00:00+00:00,FT,Cultural Leonesa,725,Celta de Vigo II,9571,2,0,True
-1264056,2025-02-22T17:00:00+00:00,FT,Sestao River,9413,Amorebieta,9380,1,0,True
-1264057,2025-02-22T19:00:00+00:00,FT,Real Unión,9586,Real Sociedad II,9585,0,1,True
-1264054,2025-02-23T11:00:00+00:00,FT,Barcelona B,712,Arenteiro,9604,2,3,True
-1264053,2025-02-23T11:00:00+00:00,FT,FC Andorra,8157,Zamora,9418,2,1,True
-1264058,2025-02-23T14:30:00+00:00,FT,Tarazona,9416,Osasuna II,9584,1,1,True
-1264050,2025-02-23T16:30:00+00:00,FT,Ponferradina,4907,Gimnástica Segoviana,9387,4,0,True
-1264052,2025-02-23T17:30:00+00:00,FT,Barakaldo,5251,Unionistas de Salamanca,5281,3,1,True
-1264060,2025-03-01T15:00:00+00:00,FT,Arenteiro,9604,Sestao River,9413,2,2,True
-1264062,2025-03-01T18:00:00+00:00,FT,Lugo,716,Tarazona,9416,1,2,True
-1264063,2025-03-01T19:00:00+00:00,FT,Amorebieta,9380,Real Unión,9586,1,0,True
-1264065,2025-03-02T11:00:00+00:00,FT,Osasuna II,9584,Cultural Leonesa,725,1,1,True
-1264066,2025-03-02T11:00:00+00:00,FT,Real Sociedad II,9585,Athletic Club II,9579,1,2,True
-1264068,2025-03-02T14:00:00+00:00,FT,Unionistas de Salamanca,5281,FC Andorra,8157,3,1,True
-1264064,2025-03-02T14:30:00+00:00,FT,Gimnástica Segoviana,9387,Ourense CF,9612,0,2,True
-1264061,2025-03-02T17:00:00+00:00,FT,Celta de Vigo II,9571,Ponferradina,4907,1,1,True
-1264067,2025-03-02T18:30:00+00:00,FT,Zamora,9418,Barakaldo,5251,2,1,True
-1264069,2025-03-02T18:45:00+00:00,FT,Gimnastic,714,Barcelona B,712,3,2,True
-1264078,2025-03-07T19:30:00+00:00,FT,Sestao River,9413,Real Sociedad II,9585,0,0,True
-1264077,2025-03-08T15:00:00+00:00,FT,Unionistas de Salamanca,5281,Amorebieta,9380,1,0,True
-1264071,2025-03-08T17:00:00+00:00,FT,Athletic Club II,9579,Gimnástica Segoviana,9387,1,2,True
-1264072,2025-03-09T11:00:00+00:00,FT,Barakaldo,5251,Lugo,716,3,2,True
-1264073,2025-03-09T11:00:00+00:00,FT,FC Andorra,8157,Celta de Vigo II,9571,2,0,True
-1264076,2025-03-09T11:00:00+00:00,FT,Real Unión,9586,Arenteiro,9604,1,0,True
-1264070,2025-03-09T16:30:00+00:00,FT,Cultural Leonesa,725,Zamora,9418,1,1,True
-1264074,2025-03-09T17:00:00+00:00,FT,Barcelona B,712,Osasuna II,9584,0,2,True
-1264075,2025-03-09T18:00:00+00:00,FT,Ponferradina,4907,Ourense CF,9612,2,0,True
-1264079,2025-03-09T18:00:00+00:00,FT,Tarazona,9416,Gimnastic,714,0,0,True
-1264082,2025-03-14T19:30:00+00:00,FT,Celta de Vigo II,9571,Sestao River,9413,1,1,True
-1264088,2025-03-15T15:00:00+00:00,FT,Osasuna II,9584,Athletic Club II,9579,1,1,True
-1264089,2025-03-15T16:00:00+00:00,FT,Gimnastic,714,Barakaldo,5251,1,0,True
-1264081,2025-03-15T16:00:00+00:00,FT,Arenteiro,9604,Ponferradina,4907,0,1,True
-1264086,2025-03-15T17:00:00+00:00,FT,Barcelona B,712,Tarazona,9416,1,1,True
-1264085,2025-03-15T17:00:00+00:00,FT,Real Sociedad II,9585,Zamora,9418,0,1,True
-1264083,2025-03-15T19:30:00+00:00,FT,Lugo,716,Unionistas de Salamanca,5281,2,1,True
-1264084,2025-03-16T11:00:00+00:00,FT,Amorebieta,9380,FC Andorra,8157,1,1,True
-1264080,2025-03-16T11:00:00+00:00,FT,Ourense CF,9612,Real Unión,9586,1,0,True
-1264087,2025-03-16T16:30:00+00:00,FT,Gimnástica Segoviana,9387,Cultural Leonesa,725,1,1,True
-1268364,2025-03-19T18:00:00+00:00,FT,Celta de Vigo II,9571,Lugo,716,1,2,True
-1264092,2025-03-21T19:30:00+00:00,FT,Athletic Club II,9579,Barcelona B,712,2,2,True
-1264095,2025-03-22T15:00:00+00:00,FT,Sestao River,9413,Tarazona,9416,0,2,True
-1264091,2025-03-22T17:00:00+00:00,FT,Cultural Leonesa,725,Real Unión,9586,1,1,True
-1264099,2025-03-22T18:00:00+00:00,FT,Zamora,9418,Gimnastic,714,1,1,True
-1264096,2025-03-23T11:00:00+00:00,FT,FC Andorra,8157,Arenteiro,9604,1,1,True
-1264090,2025-03-23T11:00:00+00:00,FT,Ourense CF,9612,Real Sociedad II,9585,1,0,True
-1264093,2025-03-23T16:00:00+00:00,FT,Barakaldo,5251,Celta de Vigo II,9571,0,1,True
-1264098,2025-03-23T16:30:00+00:00,FT,Ponferradina,4907,Lugo,716,0,1,True
-1264097,2025-03-23T16:30:00+00:00,FT,Unionistas de Salamanca,5281,Gimnástica Segoviana,9387,0,0,True
-1264094,2025-03-23T18:30:00+00:00,FT,Amorebieta,9380,Osasuna II,9584,1,1,True
-1264108,2025-03-28T19:30:00+00:00,FT,Real Unión,9586,FC Andorra,8157,0,0,True
-1264103,2025-03-29T17:00:00+00:00,FT,Barcelona B,712,Cultural Leonesa,725,2,0,True
-1264101,2025-03-29T18:00:00+00:00,FT,Lugo,716,Ourense CF,9612,0,2,True
-1264105,2025-03-29T19:00:00+00:00,FT,Tarazona,9416,Athletic Club II,9579,1,1,True
-1264104,2025-03-30T10:00:00+00:00,FT,Gimnastic,714,Ponferradina,4907,5,1,True
-1264107,2025-03-30T10:00:00+00:00,FT,Gimnástica Segoviana,9387,Amorebieta,9380,1,1,True
-1264102,2025-03-30T13:30:00+00:00,FT,Osasuna II,9584,Sestao River,9413,1,5,True
-1264109,2025-03-30T15:30:00+00:00,FT,Zamora,9418,Unionistas de Salamanca,5281,1,0,True
-1264100,2025-03-30T17:00:00+00:00,FT,Arenteiro,9604,Celta de Vigo II,9571,1,2,True
-1264106,2025-03-30T17:30:00+00:00,FT,Real Sociedad II,9585,Barakaldo,5251,2,2,True
-1264118,2025-04-04T18:30:00+00:00,FT,Celta de Vigo II,9571,Barcelona B,712,3,1,True
-1264115,2025-04-05T16:00:00+00:00,FT,Cultural Leonesa,725,Arenteiro,9604,1,0,True
-1264119,2025-04-05T16:00:00+00:00,FT,Sestao River,9413,Gimnastic,714,3,2,True
-1264116,2025-04-05T17:30:00+00:00,FT,Barakaldo,5251,Athletic Club II,9579,0,0,True
-1264112,2025-04-06T10:00:00+00:00,FT,Ponferradina,4907,Real Unión,9586,3,1,True
-1264114,2025-04-06T10:00:00+00:00,FT,FC Andorra,8157,Tarazona,9416,1,0,True
-1264111,2025-04-06T13:30:00+00:00,FT,Lugo,716,Gimnástica Segoviana,9387,0,1,True
-1264113,2025-04-06T15:30:00+00:00,FT,Amorebieta,9380,Real Sociedad II,9585,0,1,True
-1264110,2025-04-06T16:00:00+00:00,FT,Ourense CF,9612,Zamora,9418,1,0,True
-1264117,2025-04-06T17:30:00+00:00,FT,Unionistas de Salamanca,5281,Osasuna II,9584,1,3,True
-1264125,2025-04-12T14:00:00+00:00,FT,Tarazona,9416,Cultural Leonesa,725,1,0,True
-1264122,2025-04-12T15:00:00+00:00,FT,Gimnastic,714,Unionistas de Salamanca,5281,4,0,True
-1264126,2025-04-12T16:00:00+00:00,FT,Zamora,9418,Ponferradina,4907,1,2,True
-1264128,2025-04-12T16:00:00+00:00,FT,Athletic Club II,9579,Amorebieta,9380,2,1,True
-1264127,2025-04-12T18:00:00+00:00,FT,Osasuna II,9584,Barakaldo,5251,2,1,True
-1264124,2025-04-13T10:00:00+00:00,FT,Real Unión,9586,Lugo,716,3,0,True
-1264129,2025-04-13T13:30:00+00:00,FT,Real Sociedad II,9585,FC Andorra,8157,2,1,True
-1264123,2025-04-13T15:30:00+00:00,FT,Gimnástica Segoviana,9387,Celta de Vigo II,9571,1,3,True
-1264121,2025-04-13T16:00:00+00:00,FT,Barcelona B,712,Sestao River,9413,2,0,True
-1264120,2025-04-13T17:00:00+00:00,FT,Arenteiro,9604,Ourense CF,9612,1,1,True
-1264136,2025-04-18T18:30:00+00:00,FT,Unionistas de Salamanca,5281,Arenteiro,9604,0,0,True
-1264133,2025-04-19T16:00:00+00:00,FT,Barakaldo,5251,Sestao River,9413,2,3,True
-1264131,2025-04-19T17:00:00+00:00,FT,Lugo,716,Real Sociedad II,9585,1,0,True
-1264138,2025-04-20T10:00:00+00:00,FT,Ponferradina,4907,Osasuna II,9584,3,2,True
-1264135,2025-04-20T10:00:00+00:00,FT,FC Andorra,8157,Gimnástica Segoviana,9387,5,1,True
-1264137,2025-04-20T10:00:00+00:00,FT,Ourense CF,9612,Athletic Club II,9579,1,2,True
-1264134,2025-04-20T16:00:00+00:00,FT,Amorebieta,9380,Zamora,9418,0,2,True
-1264132,2025-04-20T17:00:00+00:00,FT,Cultural Leonesa,725,Gimnastic,714,2,1,True
-1264130,2025-04-20T17:00:00+00:00,FT,Celta de Vigo II,9571,Tarazona,9416,1,1,True
-1264139,2025-04-20T18:00:00+00:00,FT,Real Unión,9586,Barcelona B,712,1,3,True
-1264141,2025-04-26T14:00:00+00:00,FT,Athletic Club II,9579,Cultural Leonesa,725,2,0,True
-1264148,2025-04-26T15:00:00+00:00,FT,Barcelona B,712,Amorebieta,9380,0,2,True
-1264149,2025-04-26T16:00:00+00:00,FT,Osasuna II,9584,FC Andorra,8157,0,1,True
-1264140,2025-04-26T17:00:00+00:00,FT,Arenteiro,9604,Lugo,716,2,1,True
-1264142,2025-04-26T18:00:00+00:00,FT,Real Sociedad II,9585,Unionistas de Salamanca,5281,1,0,True
-1264147,2025-04-27T10:00:00+00:00,FT,Gimnástica Segoviana,9387,Barakaldo,5251,1,1,True
-1264144,2025-04-27T10:00:00+00:00,FT,Sestao River,9413,Ourense CF,9612,2,2,True
-1264146,2025-04-27T13:30:00+00:00,FT,Tarazona,9416,Ponferradina,4907,1,0,True
-1264143,2025-04-27T15:00:00+00:00,FT,Gimnastic,714,Real Unión,9586,4,1,True
-1264145,2025-04-27T17:30:00+00:00,FT,Zamora,9418,Celta de Vigo II,9571,1,1,True
-1264158,2025-05-02T18:30:00+00:00,FT,Gimnástica Segoviana,9387,Real Sociedad II,9585,0,0,True
-1264156,2025-05-03T14:00:00+00:00,FT,Ponferradina,4907,Athletic Club II,9579,2,0,True
-1264152,2025-05-03T16:00:00+00:00,FT,Real Unión,9586,Tarazona,9416,1,0,True
-1264150,2025-05-03T16:00:00+00:00,FT,Arenteiro,9604,Zamora,9418,1,1,True
-1264155,2025-05-03T17:00:00+00:00,FT,Ourense CF,9612,Cultural Leonesa,725,1,0,True
-1264157,2025-05-03T18:00:00+00:00,FT,Barakaldo,5251,Amorebieta,9380,2,0,True
-1264159,2025-05-04T10:00:00+00:00,FT,Lugo,716,Barcelona B,712,0,4,True
-1264154,2025-05-04T10:00:00+00:00,FT,Unionistas de Salamanca,5281,Sestao River,9413,0,0,True
-1264153,2025-05-04T13:30:00+00:00,FT,FC Andorra,8157,Gimnastic,714,1,0,True
-1264151,2025-05-04T17:30:00+00:00,FT,Celta de Vigo II,9571,Osasuna II,9584,3,0,True
-1264168,2025-05-10T14:00:00+00:00,FT,Barcelona B,712,FC Andorra,8157,1,3,True
-1264164,2025-05-10T16:00:00+00:00,FT,Gimnastic,714,Lugo,716,2,2,True
-1264162,2025-05-10T16:00:00+00:00,FT,Tarazona,9416,Ourense CF,9612,4,0,True
-1264160,2025-05-10T16:00:00+00:00,FT,Athletic Club II,9579,Unionistas de Salamanca,5281,0,1,True
-1264166,2025-05-10T18:00:00+00:00,FT,Cultural Leonesa,725,Barakaldo,5251,2,1,True
-1264161,2025-05-11T10:00:00+00:00,FT,Amorebieta,9380,Celta de Vigo II,9571,4,3,True
-1264167,2025-05-11T10:00:00+00:00,FT,Zamora,9418,Real Unión,9586,1,0,True
-1264163,2025-05-11T10:00:00+00:00,FT,Osasuna II,9584,Arenteiro,9604,3,0,True
-1264165,2025-05-11T13:30:00+00:00,FT,Real Sociedad II,9585,Ponferradina,4907,3,2,True
-1264169,2025-05-11T17:30:00+00:00,FT,Sestao River,9413,Gimnástica Segoviana,9387,1,2,True
-1264171,2025-05-17T17:00:00+00:00,FT,Lugo,716,Zamora,9418,2,0,True
-1264175,2025-05-17T17:00:00+00:00,FT,Ponferradina,4907,Cultural Leonesa,725,2,1,True
-1264172,2025-05-17T17:00:00+00:00,FT,Barakaldo,5251,Barcelona B,712,1,2,True
-1264174,2025-05-17T17:00:00+00:00,FT,Unionistas de Salamanca,5281,Tarazona,9416,0,0,True
-1264173,2025-05-17T17:00:00+00:00,FT,FC Andorra,8157,Sestao River,9413,1,2,True
-1264179,2025-05-17T17:00:00+00:00,FT,Gimnástica Segoviana,9387,Gimnastic,714,2,2,True
-1264176,2025-05-17T17:00:00+00:00,FT,Celta de Vigo II,9571,Athletic Club II,9579,2,1,True
-1264178,2025-05-17T17:00:00+00:00,FT,Real Unión,9586,Osasuna II,9584,1,1,True
-1264170,2025-05-17T17:00:00+00:00,FT,Arenteiro,9604,Real Sociedad II,9585,1,1,True
-1264177,2025-05-17T17:00:00+00:00,FT,Ourense CF,9612,Amorebieta,9380,0,3,True
-1264183,2025-05-24T17:00:00+00:00,FT,Barcelona B,712,Unionistas de Salamanca,5281,2,1,True
-1264184,2025-05-24T17:00:00+00:00,FT,Gimnastic,714,Arenteiro,9604,2,0,True
-1264188,2025-05-24T17:00:00+00:00,FT,Cultural Leonesa,725,FC Andorra,8157,1,1,True
-1264181,2025-05-24T17:00:00+00:00,FT,Amorebieta,9380,Lugo,716,1,0,True
-1264186,2025-05-24T17:00:00+00:00,FT,Sestao River,9413,Ponferradina,4907,0,2,True
-1264187,2025-05-24T17:00:00+00:00,FT,Tarazona,9416,Barakaldo,5251,1,0,True
-1264189,2025-05-24T17:00:00+00:00,FT,Zamora,9418,Gimnástica Segoviana,9387,1,1,True
-1264180,2025-05-24T17:00:00+00:00,FT,Athletic Club II,9579,Real Unión,9586,4,2,True
-1264182,2025-05-24T17:00:00+00:00,FT,Osasuna II,9584,Ourense CF,9612,1,1,True
-1264185,2025-05-24T20:30:00+00:00,FT,Real Sociedad II,9585,Celta de Vigo II,9571,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1263815,2024-08-24T16:00:00+00:00,FT,Group 1 - 1,Amorebieta,9380,Gimnástica Segoviana,9387,0,1,True
+1263818,2024-08-24T18:00:00+00:00,FT,Group 1 - 1,Gimnastic,714,Ourense CF,9612,1,1,True
+1263814,2024-08-24T18:00:00+00:00,FT,Group 1 - 1,Cultural Leonesa,725,Lugo,716,2,0,True
+1263816,2024-08-24T19:00:00+00:00,FT,Group 1 - 1,Osasuna II,9584,Zamora,9418,1,0,True
+1263822,2024-08-25T16:00:00+00:00,FT,Group 1 - 1,Sestao River,9413,Unionistas de Salamanca,5281,1,1,True
+1263820,2024-08-25T16:00:00+00:00,FT,Group 1 - 1,Celta de Vigo II,9571,Barakaldo,5251,2,2,True
+1263821,2024-08-25T16:00:00+00:00,FT,Group 1 - 1,Athletic Club II,9579,FC Andorra,8157,1,0,True
+1268361,2024-08-25T17:00:00+00:00,FT,Group 1 - 1,Ponferradina,4907,Real Sociedad II,9585,0,1,True
+1263817,2024-08-25T18:00:00+00:00,FT,Group 1 - 1,Barcelona B,712,Real Unión,9586,1,1,True
+1263819,2024-08-25T18:00:00+00:00,FT,Group 1 - 1,Tarazona,9416,Arenteiro,9604,2,1,True
+1263824,2024-08-31T16:00:00+00:00,FT,Group 1 - 2,Barakaldo,5251,Real Sociedad II,9585,0,1,True
+1263823,2024-08-31T16:00:00+00:00,FT,Group 1 - 2,Arenteiro,9604,Cultural Leonesa,725,0,1,True
+1263825,2024-08-31T17:00:00+00:00,FT,Group 1 - 2,FC Andorra,8157,Barcelona B,712,2,1,True
+1263829,2024-08-31T19:00:00+00:00,FT,Group 1 - 2,Unionistas de Salamanca,5281,Athletic Club II,9579,3,2,True
+1263826,2024-09-01T16:00:00+00:00,FT,Group 1 - 2,Gimnastic,714,Sestao River,9413,1,1,True
+1263827,2024-09-01T16:00:00+00:00,FT,Group 1 - 2,Real Unión,9586,Celta de Vigo II,9571,3,2,True
+1263831,2024-09-01T16:00:00+00:00,FT,Group 1 - 2,Ourense CF,9612,Osasuna II,9584,0,1,True
+1263828,2024-09-01T17:00:00+00:00,FT,Group 1 - 2,Gimnástica Segoviana,9387,Ponferradina,4907,2,2,True
+1263830,2024-09-01T18:00:00+00:00,FT,Group 1 - 2,Lugo,716,Amorebieta,9380,0,0,True
+1263832,2024-09-01T18:00:00+00:00,FT,Group 1 - 2,Zamora,9418,Tarazona,9416,0,1,True
+1263833,2024-09-06T19:00:00+00:00,FT,Group 1 - 3,Cultural Leonesa,725,Real Sociedad II,9585,1,1,True
+1263835,2024-09-07T13:30:00+00:00,FT,Group 1 - 3,Athletic Club II,9579,Zamora,9418,3,3,True
+1263838,2024-09-07T15:30:00+00:00,FT,Group 1 - 3,Osasuna II,9584,Real Unión,9586,1,2,True
+1263840,2024-09-07T17:30:00+00:00,FT,Group 1 - 3,Celta de Vigo II,9571,Arenteiro,9604,0,0,True
+1263834,2024-09-07T18:00:00+00:00,FT,Group 1 - 3,Ponferradina,4907,Unionistas de Salamanca,5281,1,0,True
+1263839,2024-09-07T19:30:00+00:00,FT,Group 1 - 3,Barcelona B,712,Ourense CF,9612,3,0,True
+1263836,2024-09-08T10:00:00+00:00,FT,Group 1 - 3,Barakaldo,5251,Gimnástica Segoviana,9387,2,0,True
+1263842,2024-09-08T10:00:00+00:00,FT,Group 1 - 3,Tarazona,9416,FC Andorra,8157,0,1,True
+1263837,2024-09-08T14:00:00+00:00,FT,Group 1 - 3,Amorebieta,9380,Gimnastic,714,0,1,True
+1263841,2024-09-08T17:00:00+00:00,FT,Group 1 - 3,Sestao River,9413,Lugo,716,0,1,True
+1268362,2024-09-14T13:30:00+00:00,FT,Group 1 - 4,Ourense CF,9612,Gimnástica Segoviana,9387,0,0,True
+1263844,2024-09-14T15:30:00+00:00,FT,Group 1 - 4,Real Sociedad II,9585,Sestao River,9413,0,1,True
+1263846,2024-09-14T17:30:00+00:00,FT,Group 1 - 4,Gimnastic,714,Tarazona,9416,1,0,True
+1263849,2024-09-15T10:00:00+00:00,FT,Group 1 - 4,Lugo,716,Barakaldo,5251,0,0,True
+1263851,2024-09-15T10:00:00+00:00,FT,Group 1 - 4,Unionistas de Salamanca,5281,Barcelona B,712,2,1,True
+1263845,2024-09-15T10:00:00+00:00,FT,Group 1 - 4,FC Andorra,8157,Ponferradina,4907,1,1,True
+1263848,2024-09-15T15:30:00+00:00,FT,Group 1 - 4,Zamora,9418,Cultural Leonesa,725,0,1,True
+1263843,2024-09-15T15:30:00+00:00,FT,Group 1 - 4,Arenteiro,9604,Athletic Club II,9579,1,0,True
+1263847,2024-09-15T17:30:00+00:00,FT,Group 1 - 4,Osasuna II,9584,Celta de Vigo II,9571,3,1,True
+1263850,2024-09-15T17:30:00+00:00,FT,Group 1 - 4,Real Unión,9586,Amorebieta,9380,1,1,True
+1263854,2024-09-20T18:30:00+00:00,FT,Group 1 - 5,Barakaldo,5251,Gimnastic,714,2,1,True
+1263861,2024-09-21T15:30:00+00:00,FT,Group 1 - 5,Sestao River,9413,FC Andorra,8157,0,1,True
+1263856,2024-09-21T17:30:00+00:00,FT,Group 1 - 5,Barcelona B,712,Zamora,9418,1,0,True
+1263852,2024-09-21T17:30:00+00:00,FT,Group 1 - 5,Celta de Vigo II,9571,Unionistas de Salamanca,5281,0,0,True
+1263855,2024-09-22T10:00:00+00:00,FT,Group 1 - 5,Amorebieta,9380,Ourense CF,9612,2,0,True
+1263859,2024-09-22T10:00:00+00:00,FT,Group 1 - 5,Gimnástica Segoviana,9387,Athletic Club II,9579,2,1,True
+1263853,2024-09-22T13:30:00+00:00,FT,Group 1 - 5,Cultural Leonesa,725,Osasuna II,9584,1,0,True
+1263858,2024-09-22T15:30:00+00:00,FT,Group 1 - 5,Real Sociedad II,9585,Lugo,716,1,0,True
+1263857,2024-09-22T17:30:00+00:00,FT,Group 1 - 5,Ponferradina,4907,Arenteiro,9604,1,2,True
+1263871,2024-09-27T18:30:00+00:00,FT,Group 1 - 6,Tarazona,9416,Barcelona B,712,0,0,True
+1263864,2024-09-28T13:30:00+00:00,FT,Group 1 - 6,Real Unión,9586,Sestao River,9413,2,1,True
+1263865,2024-09-28T15:30:00+00:00,FT,Group 1 - 6,Osasuna II,9584,Ponferradina,4907,0,3,True
+1263867,2024-09-28T19:30:00+00:00,FT,Group 1 - 6,Unionistas de Salamanca,5281,Cultural Leonesa,725,1,2,True
+1263869,2024-09-29T10:00:00+00:00,FT,Group 1 - 6,Zamora,9418,Amorebieta,9380,5,0,True
+1263863,2024-09-29T10:00:00+00:00,FT,Group 1 - 6,Athletic Club II,9579,Celta de Vigo II,9571,0,1,True
+1263862,2024-09-29T13:30:00+00:00,FT,Group 1 - 6,Arenteiro,9604,Gimnástica Segoviana,9387,2,0,True
+1263866,2024-09-29T15:00:00+00:00,FT,Group 1 - 6,Gimnastic,714,Real Sociedad II,9585,2,1,True
+1263870,2024-09-29T15:30:00+00:00,FT,Group 1 - 6,Lugo,716,FC Andorra,8157,0,0,True
+1263868,2024-09-29T17:30:00+00:00,FT,Group 1 - 6,Ourense CF,9612,Barakaldo,5251,1,3,True
+1263860,2024-10-02T17:30:00+00:00,FT,Group 1 - 5,Tarazona,9416,Real Unión,9586,0,0,True
+1263875,2024-10-04T18:30:00+00:00,FT,Group 1 - 7,Amorebieta,9380,Athletic Club II,9579,0,2,True
+1263878,2024-10-05T13:30:00+00:00,FT,Group 1 - 7,Barakaldo,5251,Arenteiro,9604,2,0,True
+1263879,2024-10-05T15:30:00+00:00,FT,Group 1 - 7,Ponferradina,4907,Celta de Vigo II,9571,2,1,True
+1263874,2024-10-05T17:30:00+00:00,FT,Group 1 - 7,Cultural Leonesa,725,Tarazona,9416,2,1,True
+1263872,2024-10-05T19:30:00+00:00,FT,Group 1 - 7,Ourense CF,9612,Unionistas de Salamanca,5281,2,2,True
+1263876,2024-10-06T10:00:00+00:00,FT,Group 1 - 7,FC Andorra,8157,Real Unión,9586,2,0,True
+1263880,2024-10-06T10:00:00+00:00,FT,Group 1 - 7,Real Sociedad II,9585,Osasuna II,9584,3,1,True
+1263877,2024-10-06T13:30:00+00:00,FT,Group 1 - 7,Gimnástica Segoviana,9387,Zamora,9418,1,1,True
+1263873,2024-10-06T17:30:00+00:00,FT,Group 1 - 7,Lugo,716,Gimnastic,714,2,2,True
+1263881,2024-10-06T17:30:00+00:00,FT,Group 1 - 7,Sestao River,9413,Barcelona B,712,2,2,True
+1263884,2024-10-11T18:30:00+00:00,FT,Group 1 - 8,Athletic Club II,9579,Ponferradina,4907,0,0,True
+1263890,2024-10-12T13:30:00+00:00,FT,Group 1 - 8,Zamora,9418,FC Andorra,8157,2,0,True
+1263883,2024-10-12T16:30:00+00:00,FT,Group 1 - 8,Cultural Leonesa,725,Ourense CF,9612,3,0,True
+1263885,2024-10-12T16:30:00+00:00,FT,Group 1 - 8,Osasuna II,9584,Gimnástica Segoviana,9387,3,2,True
+1268363,2024-10-13T10:00:00+00:00,FT,Group 1 - 8,Unionistas de Salamanca,5281,Lugo,716,1,1,True
+1263887,2024-10-13T13:30:00+00:00,FT,Group 1 - 8,Real Unión,9586,Barakaldo,5251,1,1,True
+1263882,2024-10-13T13:30:00+00:00,FT,Group 1 - 8,Arenteiro,9604,Gimnastic,714,4,0,True
+1263889,2024-10-13T15:30:00+00:00,FT,Group 1 - 8,Tarazona,9416,Sestao River,9413,1,0,True
+1263888,2024-10-13T15:30:00+00:00,FT,Group 1 - 8,Celta de Vigo II,9571,Amorebieta,9380,3,1,True
+1263891,2024-10-18T18:30:00+00:00,FT,Group 1 - 9,Barakaldo,5251,Zamora,9418,0,3,True
+1263894,2024-10-19T13:30:00+00:00,FT,Group 1 - 9,FC Andorra,8157,Cultural Leonesa,725,1,1,True
+1263897,2024-10-19T15:30:00+00:00,FT,Group 1 - 9,Lugo,716,Celta de Vigo II,9571,1,0,True
+1263900,2024-10-19T15:30:00+00:00,FT,Group 1 - 9,Ponferradina,4907,Barcelona B,712,1,1,True
+1263892,2024-10-19T15:30:00+00:00,FT,Group 1 - 9,Amorebieta,9380,Unionistas de Salamanca,5281,3,3,True
+1263893,2024-10-19T19:30:00+00:00,FT,Group 1 - 9,Real Sociedad II,9585,Tarazona,9416,3,2,True
+1263899,2024-10-20T10:00:00+00:00,FT,Group 1 - 9,Gimnástica Segoviana,9387,Real Unión,9586,3,0,True
+1263898,2024-10-20T13:30:00+00:00,FT,Group 1 - 9,Sestao River,9413,Athletic Club II,9579,0,1,True
+1263895,2024-10-20T15:30:00+00:00,FT,Group 1 - 9,Gimnastic,714,Osasuna II,9584,2,0,True
+1263896,2024-10-20T17:30:00+00:00,FT,Group 1 - 9,Ourense CF,9612,Arenteiro,9604,0,1,True
+1263901,2024-10-25T18:30:00+00:00,FT,Group 1 - 10,Arenteiro,9604,Unionistas de Salamanca,5281,0,0,True
+1263910,2024-10-26T13:30:00+00:00,FT,Group 1 - 10,Real Unión,9586,Gimnastic,714,1,0,True
+1263904,2024-10-26T15:30:00+00:00,FT,Group 1 - 10,Athletic Club II,9579,Ourense CF,9612,0,2,True
+1263902,2024-10-26T17:30:00+00:00,FT,Group 1 - 10,Celta de Vigo II,9571,Gimnástica Segoviana,9387,4,1,True
+1263905,2024-10-27T11:00:00+00:00,FT,Group 1 - 10,FC Andorra,8157,Real Sociedad II,9585,1,1,True
+1263906,2024-10-27T11:00:00+00:00,FT,Group 1 - 10,Osasuna II,9584,Lugo,716,0,1,True
+1263908,2024-10-27T14:30:00+00:00,FT,Group 1 - 10,Tarazona,9416,Amorebieta,9380,3,0,True
+1263903,2024-10-27T16:30:00+00:00,FT,Group 1 - 10,Cultural Leonesa,725,Ponferradina,4907,2,0,True
+1263907,2024-10-27T18:30:00+00:00,FT,Group 1 - 10,Barcelona B,712,Barakaldo,5251,2,2,True
+1263909,2024-10-27T18:30:00+00:00,FT,Group 1 - 10,Zamora,9418,Sestao River,9413,1,2,True
+1263920,2024-11-02T14:30:00+00:00,FT,Group 1 - 11,Gimnástica Segoviana,9387,Barcelona B,712,2,2,True
+1263918,2024-11-02T16:30:00+00:00,FT,Group 1 - 11,Sestao River,9413,Osasuna II,9584,1,2,True
+1263914,2024-11-02T16:30:00+00:00,FT,Group 1 - 11,Real Sociedad II,9585,Arenteiro,9604,0,1,True
+1263916,2024-11-02T18:30:00+00:00,FT,Group 1 - 11,Lugo,716,Athletic Club II,9579,1,0,True
+1263917,2024-11-03T11:00:00+00:00,FT,Group 1 - 11,Unionistas de Salamanca,5281,Real Unión,9586,4,1,True
+1263913,2024-11-03T11:00:00+00:00,FT,Group 1 - 11,Amorebieta,9380,Cultural Leonesa,725,1,1,True
+1263919,2024-11-03T14:30:00+00:00,FT,Group 1 - 11,Ourense CF,9612,FC Andorra,8157,0,0,True
+1263911,2024-11-03T16:30:00+00:00,FT,Group 1 - 11,Ponferradina,4907,Zamora,9418,2,2,True
+1263912,2024-11-03T18:30:00+00:00,FT,Group 1 - 11,Barakaldo,5251,Tarazona,9416,3,0,True
+1263886,2024-11-06T17:00:00+00:00,FT,Group 1 - 8,Barcelona B,712,Real Sociedad II,9585,1,1,True
+1263930,2024-11-08T19:30:00+00:00,FT,Group 1 - 12,Tarazona,9416,Gimnástica Segoviana,9387,2,2,True
+1263923,2024-11-09T15:00:00+00:00,FT,Group 1 - 12,Athletic Club II,9579,Gimnastic,714,1,3,True
+1263927,2024-11-09T16:30:00+00:00,FT,Group 1 - 12,Real Unión,9586,Ponferradina,4907,2,2,True
+1263921,2024-11-09T18:30:00+00:00,FT,Group 1 - 12,Celta de Vigo II,9571,Ourense CF,9612,1,0,True
+1263925,2024-11-10T11:00:00+00:00,FT,Group 1 - 12,FC Andorra,8157,Barakaldo,5251,1,0,True
+1263928,2024-11-10T11:00:00+00:00,FT,Group 1 - 12,Arenteiro,9604,Amorebieta,9380,1,1,True
+1263926,2024-11-10T16:00:00+00:00,FT,Group 1 - 12,Barcelona B,712,Lugo,716,1,1,True
+1263929,2024-11-10T16:30:00+00:00,FT,Group 1 - 12,Zamora,9418,Real Sociedad II,9585,1,0,True
+1263924,2024-11-10T16:30:00+00:00,FT,Group 1 - 12,Osasuna II,9584,Unionistas de Salamanca,5281,0,0,True
+1263922,2024-11-10T18:30:00+00:00,FT,Group 1 - 12,Cultural Leonesa,725,Sestao River,9413,1,2,True
+1263933,2024-11-15T19:30:00+00:00,FT,Group 1 - 13,Athletic Club II,9579,Osasuna II,9584,0,1,True
+1263932,2024-11-16T14:45:00+00:00,FT,Group 1 - 13,Celta de Vigo II,9571,Cultural Leonesa,725,1,3,True
+1263936,2024-11-16T16:30:00+00:00,FT,Group 1 - 13,Real Sociedad II,9585,Real Unión,9586,5,0,True
+1263938,2024-11-16T18:30:00+00:00,FT,Group 1 - 13,Unionistas de Salamanca,5281,Zamora,9418,1,1,True
+1263935,2024-11-17T11:00:00+00:00,FT,Group 1 - 13,Amorebieta,9380,Barcelona B,712,2,1,True
+1263937,2024-11-17T11:00:00+00:00,FT,Group 1 - 13,Gimnástica Segoviana,9387,Sestao River,9413,0,0,True
+1263931,2024-11-17T14:30:00+00:00,FT,Group 1 - 13,Ourense CF,9612,Tarazona,9416,3,2,True
+1263940,2024-11-17T16:30:00+00:00,FT,Group 1 - 13,Gimnastic,714,FC Andorra,8157,1,1,True
+1263934,2024-11-17T16:30:00+00:00,FT,Group 1 - 13,Barakaldo,5251,Ponferradina,4907,0,1,True
+1263939,2024-11-17T18:30:00+00:00,FT,Group 1 - 13,Lugo,716,Arenteiro,9604,1,1,True
+1263947,2024-11-22T19:30:00+00:00,FT,Group 1 - 14,Zamora,9418,Lugo,716,2,0,True
+1263942,2024-11-23T14:30:00+00:00,FT,Group 1 - 14,Real Sociedad II,9585,Gimnástica Segoviana,9387,4,1,True
+1263948,2024-11-23T16:30:00+00:00,FT,Group 1 - 14,Cultural Leonesa,725,Athletic Club II,9579,1,3,True
+1263949,2024-11-23T18:30:00+00:00,FT,Group 1 - 14,Sestao River,9413,Barakaldo,5251,0,1,True
+1263941,2024-11-23T18:30:00+00:00,FT,Group 1 - 14,Arenteiro,9604,Osasuna II,9584,1,1,True
+1263946,2024-11-24T11:00:00+00:00,FT,Group 1 - 14,Tarazona,9416,Celta de Vigo II,9571,2,3,True
+1263945,2024-11-24T11:00:00+00:00,FT,Group 1 - 14,Real Unión,9586,Ourense CF,9612,0,1,True
+1263943,2024-11-24T14:30:00+00:00,FT,Group 1 - 14,FC Andorra,8157,Unionistas de Salamanca,5281,1,1,True
+1263944,2024-11-24T18:30:00+00:00,FT,Group 1 - 14,Barcelona B,712,Gimnastic,714,0,2,True
+1263950,2024-11-24T18:30:00+00:00,FT,Group 1 - 14,Ponferradina,4907,Amorebieta,9380,5,2,True
+1263915,2024-11-27T18:30:00+00:00,FT,Group 1 - 11,Gimnastic,714,Celta de Vigo II,9571,2,1,True
+1263959,2024-11-30T14:30:00+00:00,FT,Group 1 - 15,Unionistas de Salamanca,5281,Barakaldo,5251,1,0,True
+1263956,2024-11-30T16:30:00+00:00,FT,Group 1 - 15,Amorebieta,9380,Sestao River,9413,2,0,True
+1263951,2024-11-30T18:30:00+00:00,FT,Group 1 - 15,Ourense CF,9612,Ponferradina,4907,2,1,True
+1263955,2024-11-30T20:30:00+00:00,FT,Group 1 - 15,Athletic Club II,9579,Real Sociedad II,9585,2,1,True
+1263960,2024-12-01T11:00:00+00:00,FT,Group 1 - 15,Gimnástica Segoviana,9387,FC Andorra,8157,3,2,True
+1263957,2024-12-01T11:00:00+00:00,FT,Group 1 - 15,Osasuna II,9584,Tarazona,9416,0,3,True
+1263954,2024-12-01T14:30:00+00:00,FT,Group 1 - 15,Lugo,716,Real Unión,9586,3,1,True
+1263953,2024-12-01T16:30:00+00:00,FT,Group 1 - 15,Celta de Vigo II,9571,Zamora,9418,2,0,True
+1263952,2024-12-01T16:30:00+00:00,FT,Group 1 - 15,Arenteiro,9604,Barcelona B,712,1,2,True
+1263958,2024-12-01T18:30:00+00:00,FT,Group 1 - 15,Gimnastic,714,Cultural Leonesa,725,2,3,True
+1263968,2024-12-06T19:30:00+00:00,FT,Group 1 - 16,Real Sociedad II,9585,Amorebieta,9380,2,0,True
+1263970,2024-12-07T14:30:00+00:00,FT,Group 1 - 16,Gimnástica Segoviana,9387,Unionistas de Salamanca,5281,1,1,True
+1263967,2024-12-07T16:30:00+00:00,FT,Group 1 - 16,Real Unión,9586,Athletic Club II,9579,3,1,True
+1263964,2024-12-07T18:30:00+00:00,FT,Group 1 - 16,Zamora,9418,Ourense CF,9612,1,1,True
+1263963,2024-12-08T11:00:00+00:00,FT,Group 1 - 16,Barcelona B,712,Celta de Vigo II,9571,2,2,True
+1263965,2024-12-08T11:00:00+00:00,FT,Group 1 - 16,Sestao River,9413,Arenteiro,9604,2,1,True
+1263962,2024-12-08T14:30:00+00:00,FT,Group 1 - 16,FC Andorra,8157,Osasuna II,9584,7,2,True
+1263966,2024-12-08T15:30:00+00:00,FT,Group 1 - 16,Tarazona,9416,Lugo,716,0,0,True
+1263969,2024-12-08T18:30:00+00:00,FT,Group 1 - 16,Ponferradina,4907,Gimnastic,714,2,0,True
+1263961,2024-12-08T18:30:00+00:00,FT,Group 1 - 16,Barakaldo,5251,Cultural Leonesa,725,3,0,True
+1263980,2024-12-13T19:30:00+00:00,FT,Group 1 - 17,Osasuna II,9584,Barcelona B,712,1,2,True
+1263975,2024-12-14T14:30:00+00:00,FT,Group 1 - 17,Athletic Club II,9579,Tarazona,9416,1,1,True
+1263973,2024-12-14T16:00:00+00:00,FT,Group 1 - 17,Lugo,716,Ponferradina,4907,0,1,True
+1263977,2024-12-14T16:30:00+00:00,FT,Group 1 - 17,Gimnastic,714,Zamora,9418,1,0,True
+1263972,2024-12-14T16:30:00+00:00,FT,Group 1 - 17,Arenteiro,9604,Real Unión,9586,3,0,True
+1263976,2024-12-14T19:30:00+00:00,FT,Group 1 - 17,Amorebieta,9380,Barakaldo,5251,2,2,True
+1263978,2024-12-15T11:00:00+00:00,FT,Group 1 - 17,Unionistas de Salamanca,5281,Real Sociedad II,9585,1,1,True
+1263979,2024-12-15T14:30:00+00:00,FT,Group 1 - 17,Celta de Vigo II,9571,FC Andorra,8157,3,0,True
+1263971,2024-12-15T14:30:00+00:00,FT,Group 1 - 17,Ourense CF,9612,Sestao River,9413,0,0,True
+1263974,2024-12-15T16:30:00+00:00,FT,Group 1 - 17,Cultural Leonesa,725,Gimnástica Segoviana,9387,2,3,True
+1263981,2024-12-20T19:30:00+00:00,FT,Group 1 - 18,Ponferradina,4907,Tarazona,9416,2,0,True
+1263990,2024-12-21T16:30:00+00:00,FT,Group 1 - 18,Unionistas de Salamanca,5281,Gimnastic,714,1,0,True
+1263982,2024-12-22T11:00:00+00:00,FT,Group 1 - 18,Barakaldo,5251,Osasuna II,9584,2,1,True
+1263986,2024-12-22T11:00:00+00:00,FT,Group 1 - 18,Gimnástica Segoviana,9387,Lugo,716,1,0,True
+1263985,2024-12-22T11:00:00+00:00,FT,Group 1 - 18,Sestao River,9413,Celta de Vigo II,9571,2,0,True
+1263983,2024-12-22T11:00:00+00:00,FT,Group 1 - 18,Real Sociedad II,9585,Ourense CF,9612,2,1,True
+1263989,2024-12-22T14:30:00+00:00,FT,Group 1 - 18,FC Andorra,8157,Amorebieta,9380,2,0,True
+1263988,2024-12-22T15:30:00+00:00,FT,Group 1 - 18,Barcelona B,712,Athletic Club II,9579,2,2,True
+1263984,2024-12-22T18:30:00+00:00,FT,Group 1 - 18,Zamora,9418,Arenteiro,9604,3,0,True
+1263987,2024-12-22T18:30:00+00:00,FT,Group 1 - 18,Real Unión,9586,Cultural Leonesa,725,0,1,True
+1263998,2025-01-10T19:30:00+00:00,FT,Group 1 - 19,Arenteiro,9604,FC Andorra,8157,3,0,True
+1263992,2025-01-11T14:30:00+00:00,FT,Group 1 - 19,Ponferradina,4907,Sestao River,9413,1,2,True
+1263991,2025-01-11T14:30:00+00:00,FT,Group 1 - 19,Celta de Vigo II,9571,Real Sociedad II,9585,2,1,True
+1263999,2025-01-11T16:00:00+00:00,FT,Group 1 - 19,Cultural Leonesa,725,Barcelona B,712,1,1,True
+1263995,2025-01-11T16:30:00+00:00,FT,Group 1 - 19,Gimnastic,714,Gimnástica Segoviana,9387,5,0,True
+1263996,2025-01-11T16:30:00+00:00,FT,Group 1 - 19,Ourense CF,9612,Lugo,716,2,1,True
+1263993,2025-01-12T11:00:00+00:00,FT,Group 1 - 19,Athletic Club II,9579,Barakaldo,5251,0,2,True
+1263994,2025-01-12T11:00:00+00:00,FT,Group 1 - 19,Real Unión,9586,Zamora,9418,1,2,True
+1263997,2025-01-12T14:30:00+00:00,FT,Group 1 - 19,Osasuna II,9584,Amorebieta,9380,3,0,True
+1264000,2025-01-12T16:30:00+00:00,FT,Group 1 - 19,Tarazona,9416,Unionistas de Salamanca,5281,1,0,True
+1264008,2025-01-17T19:30:00+00:00,FT,Group 1 - 20,Sestao River,9413,Real Unión,9586,0,1,True
+1264005,2025-01-18T17:00:00+00:00,FT,Group 1 - 20,Gimnástica Segoviana,9387,Arenteiro,9604,1,2,True
+1264010,2025-01-18T17:00:00+00:00,FT,Group 1 - 20,Real Sociedad II,9585,Gimnastic,714,1,1,True
+1264006,2025-01-19T11:00:00+00:00,FT,Group 1 - 20,Unionistas de Salamanca,5281,Celta de Vigo II,9571,2,1,True
+1264003,2025-01-19T11:00:00+00:00,FT,Group 1 - 20,FC Andorra,8157,Athletic Club II,9579,0,2,True
+1264009,2025-01-19T11:00:00+00:00,FT,Group 1 - 20,Zamora,9418,Osasuna II,9584,1,0,True
+1264004,2025-01-19T14:30:00+00:00,FT,Group 1 - 20,Barcelona B,712,Ponferradina,4907,0,3,True
+1264007,2025-01-19T16:00:00+00:00,FT,Group 1 - 20,Lugo,716,Cultural Leonesa,725,1,4,True
+1264001,2025-01-19T16:00:00+00:00,FT,Group 1 - 20,Barakaldo,5251,Ourense CF,9612,1,1,True
+1264002,2025-01-19T18:30:00+00:00,FT,Group 1 - 20,Amorebieta,9380,Tarazona,9416,2,2,True
+1264015,2025-01-24T19:30:00+00:00,FT,Group 1 - 21,Osasuna II,9584,Real Sociedad II,9585,1,1,True
+1264019,2025-01-25T16:00:00+00:00,FT,Group 1 - 21,Ourense CF,9612,Barcelona B,712,1,1,True
+1264013,2025-01-25T17:00:00+00:00,FT,Group 1 - 21,Athletic Club II,9579,Sestao River,9413,2,0,True
+1264014,2025-01-25T19:00:00+00:00,FT,Group 1 - 21,Real Unión,9586,Gimnástica Segoviana,9387,5,0,True
+1264018,2025-01-26T11:00:00+00:00,FT,Group 1 - 21,Ponferradina,4907,FC Andorra,8157,1,0,True
+1264017,2025-01-26T14:30:00+00:00,FT,Group 1 - 21,Gimnastic,714,Amorebieta,9380,1,1,True
+1264016,2025-01-26T14:30:00+00:00,FT,Group 1 - 21,Tarazona,9416,Zamora,9418,1,0,True
+1264012,2025-01-26T16:30:00+00:00,FT,Group 1 - 21,Cultural Leonesa,725,Unionistas de Salamanca,5281,4,3,True
+1264025,2025-01-31T19:30:00+00:00,FT,Group 1 - 22,Gimnástica Segoviana,9387,Tarazona,9416,0,1,True
+1264020,2025-02-01T15:00:00+00:00,FT,Group 1 - 22,Celta de Vigo II,9571,Gimnastic,714,0,1,True
+1264029,2025-02-01T17:00:00+00:00,FT,Group 1 - 22,Real Sociedad II,9585,Barcelona B,712,3,0,True
+1264026,2025-02-01T19:00:00+00:00,FT,Group 1 - 22,Sestao River,9413,Cultural Leonesa,725,1,1,True
+1264028,2025-02-01T19:00:00+00:00,FT,Group 1 - 22,Zamora,9418,Athletic Club II,9579,0,2,True
+1264022,2025-02-02T11:00:00+00:00,FT,Group 1 - 22,Barakaldo,5251,Real Unión,9586,0,2,True
+1264023,2025-02-02T11:00:00+00:00,FT,Group 1 - 22,Amorebieta,9380,Arenteiro,9604,3,0,True
+1264021,2025-02-02T15:30:00+00:00,FT,Group 1 - 22,Lugo,716,Osasuna II,9584,3,1,True
+1264027,2025-02-02T15:30:00+00:00,FT,Group 1 - 22,Unionistas de Salamanca,5281,Ponferradina,4907,1,1,True
+1264024,2025-02-02T16:30:00+00:00,FT,Group 1 - 22,FC Andorra,8157,Ourense CF,9612,0,0,True
+1264036,2025-02-07T19:30:00+00:00,FT,Group 1 - 23,Ponferradina,4907,Barakaldo,5251,0,1,True
+1264033,2025-02-08T16:30:00+00:00,FT,Group 1 - 23,Barcelona B,712,Gimnástica Segoviana,9387,2,2,True
+1264038,2025-02-08T17:00:00+00:00,FT,Group 1 - 23,Tarazona,9416,Real Sociedad II,9585,0,1,True
+1264030,2025-02-08T19:00:00+00:00,FT,Group 1 - 23,Sestao River,9413,Zamora,9418,1,1,True
+1264032,2025-02-09T11:00:00+00:00,FT,Group 1 - 23,FC Andorra,8157,Lugo,716,2,0,True
+1264039,2025-02-09T11:00:00+00:00,FT,Group 1 - 23,Osasuna II,9584,Gimnastic,714,1,1,True
+1264031,2025-02-09T11:00:00+00:00,FT,Group 1 - 23,Real Unión,9586,Unionistas de Salamanca,5281,3,2,True
+1264034,2025-02-09T14:30:00+00:00,FT,Group 1 - 23,Athletic Club II,9579,Arenteiro,9604,1,0,True
+1264037,2025-02-09T16:30:00+00:00,FT,Group 1 - 23,Cultural Leonesa,725,Amorebieta,9380,2,1,True
+1264035,2025-02-09T17:00:00+00:00,FT,Group 1 - 23,Ourense CF,9612,Celta de Vigo II,9571,1,0,True
+1264044,2025-02-14T19:30:00+00:00,FT,Group 1 - 24,Unionistas de Salamanca,5281,Ourense CF,9612,2,1,True
+1264046,2025-02-15T15:00:00+00:00,FT,Group 1 - 24,Gimnastic,714,Athletic Club II,9579,0,2,True
+1264049,2025-02-15T16:00:00+00:00,FT,Group 1 - 24,Zamora,9418,Barcelona B,712,1,0,True
+1264040,2025-02-15T16:00:00+00:00,FT,Group 1 - 24,Arenteiro,9604,Tarazona,9416,2,1,True
+1264045,2025-02-15T17:00:00+00:00,FT,Group 1 - 24,Real Sociedad II,9585,Cultural Leonesa,725,2,2,True
+1264048,2025-02-15T19:00:00+00:00,FT,Group 1 - 24,Barakaldo,5251,FC Andorra,8157,2,3,True
+1264043,2025-02-16T11:00:00+00:00,FT,Group 1 - 24,Amorebieta,9380,Ponferradina,4907,3,1,True
+1264041,2025-02-16T11:00:00+00:00,FT,Group 1 - 24,Celta de Vigo II,9571,Real Unión,9586,2,1,True
+1264042,2025-02-16T15:00:00+00:00,FT,Group 1 - 24,Lugo,716,Sestao River,9413,2,1,True
+1264047,2025-02-16T16:30:00+00:00,FT,Group 1 - 24,Gimnástica Segoviana,9387,Osasuna II,9584,2,4,True
+1264011,2025-02-19T16:00:00+00:00,FT,Group 1 - 21,Arenteiro,9604,Barakaldo,5251,1,1,True
+1264051,2025-02-21T19:30:00+00:00,FT,Group 1 - 25,Athletic Club II,9579,Lugo,716,2,2,True
+1264059,2025-02-22T15:00:00+00:00,FT,Group 1 - 25,Ourense CF,9612,Gimnastic,714,2,1,True
+1264055,2025-02-22T17:00:00+00:00,FT,Group 1 - 25,Cultural Leonesa,725,Celta de Vigo II,9571,2,0,True
+1264056,2025-02-22T17:00:00+00:00,FT,Group 1 - 25,Sestao River,9413,Amorebieta,9380,1,0,True
+1264057,2025-02-22T19:00:00+00:00,FT,Group 1 - 25,Real Unión,9586,Real Sociedad II,9585,0,1,True
+1264054,2025-02-23T11:00:00+00:00,FT,Group 1 - 25,Barcelona B,712,Arenteiro,9604,2,3,True
+1264053,2025-02-23T11:00:00+00:00,FT,Group 1 - 25,FC Andorra,8157,Zamora,9418,2,1,True
+1264058,2025-02-23T14:30:00+00:00,FT,Group 1 - 25,Tarazona,9416,Osasuna II,9584,1,1,True
+1264050,2025-02-23T16:30:00+00:00,FT,Group 1 - 25,Ponferradina,4907,Gimnástica Segoviana,9387,4,0,True
+1264052,2025-02-23T17:30:00+00:00,FT,Group 1 - 25,Barakaldo,5251,Unionistas de Salamanca,5281,3,1,True
+1264060,2025-03-01T15:00:00+00:00,FT,Group 1 - 26,Arenteiro,9604,Sestao River,9413,2,2,True
+1264062,2025-03-01T18:00:00+00:00,FT,Group 1 - 26,Lugo,716,Tarazona,9416,1,2,True
+1264063,2025-03-01T19:00:00+00:00,FT,Group 1 - 26,Amorebieta,9380,Real Unión,9586,1,0,True
+1264065,2025-03-02T11:00:00+00:00,FT,Group 1 - 26,Osasuna II,9584,Cultural Leonesa,725,1,1,True
+1264066,2025-03-02T11:00:00+00:00,FT,Group 1 - 26,Real Sociedad II,9585,Athletic Club II,9579,1,2,True
+1264068,2025-03-02T14:00:00+00:00,FT,Group 1 - 26,Unionistas de Salamanca,5281,FC Andorra,8157,3,1,True
+1264064,2025-03-02T14:30:00+00:00,FT,Group 1 - 26,Gimnástica Segoviana,9387,Ourense CF,9612,0,2,True
+1264061,2025-03-02T17:00:00+00:00,FT,Group 1 - 26,Celta de Vigo II,9571,Ponferradina,4907,1,1,True
+1264067,2025-03-02T18:30:00+00:00,FT,Group 1 - 26,Zamora,9418,Barakaldo,5251,2,1,True
+1264069,2025-03-02T18:45:00+00:00,FT,Group 1 - 26,Gimnastic,714,Barcelona B,712,3,2,True
+1264078,2025-03-07T19:30:00+00:00,FT,Group 1 - 27,Sestao River,9413,Real Sociedad II,9585,0,0,True
+1264077,2025-03-08T15:00:00+00:00,FT,Group 1 - 27,Unionistas de Salamanca,5281,Amorebieta,9380,1,0,True
+1264071,2025-03-08T17:00:00+00:00,FT,Group 1 - 27,Athletic Club II,9579,Gimnástica Segoviana,9387,1,2,True
+1264072,2025-03-09T11:00:00+00:00,FT,Group 1 - 27,Barakaldo,5251,Lugo,716,3,2,True
+1264073,2025-03-09T11:00:00+00:00,FT,Group 1 - 27,FC Andorra,8157,Celta de Vigo II,9571,2,0,True
+1264076,2025-03-09T11:00:00+00:00,FT,Group 1 - 27,Real Unión,9586,Arenteiro,9604,1,0,True
+1264070,2025-03-09T16:30:00+00:00,FT,Group 1 - 27,Cultural Leonesa,725,Zamora,9418,1,1,True
+1264074,2025-03-09T17:00:00+00:00,FT,Group 1 - 27,Barcelona B,712,Osasuna II,9584,0,2,True
+1264075,2025-03-09T18:00:00+00:00,FT,Group 1 - 27,Ponferradina,4907,Ourense CF,9612,2,0,True
+1264079,2025-03-09T18:00:00+00:00,FT,Group 1 - 27,Tarazona,9416,Gimnastic,714,0,0,True
+1264082,2025-03-14T19:30:00+00:00,FT,Group 1 - 28,Celta de Vigo II,9571,Sestao River,9413,1,1,True
+1264088,2025-03-15T15:00:00+00:00,FT,Group 1 - 28,Osasuna II,9584,Athletic Club II,9579,1,1,True
+1264089,2025-03-15T16:00:00+00:00,FT,Group 1 - 28,Gimnastic,714,Barakaldo,5251,1,0,True
+1264081,2025-03-15T16:00:00+00:00,FT,Group 1 - 28,Arenteiro,9604,Ponferradina,4907,0,1,True
+1264086,2025-03-15T17:00:00+00:00,FT,Group 1 - 28,Barcelona B,712,Tarazona,9416,1,1,True
+1264085,2025-03-15T17:00:00+00:00,FT,Group 1 - 28,Real Sociedad II,9585,Zamora,9418,0,1,True
+1264083,2025-03-15T19:30:00+00:00,FT,Group 1 - 28,Lugo,716,Unionistas de Salamanca,5281,2,1,True
+1264084,2025-03-16T11:00:00+00:00,FT,Group 1 - 28,Amorebieta,9380,FC Andorra,8157,1,1,True
+1264080,2025-03-16T11:00:00+00:00,FT,Group 1 - 28,Ourense CF,9612,Real Unión,9586,1,0,True
+1264087,2025-03-16T16:30:00+00:00,FT,Group 1 - 28,Gimnástica Segoviana,9387,Cultural Leonesa,725,1,1,True
+1268364,2025-03-19T18:00:00+00:00,FT,Group 1 - 21,Celta de Vigo II,9571,Lugo,716,1,2,True
+1264092,2025-03-21T19:30:00+00:00,FT,Group 1 - 29,Athletic Club II,9579,Barcelona B,712,2,2,True
+1264095,2025-03-22T15:00:00+00:00,FT,Group 1 - 29,Sestao River,9413,Tarazona,9416,0,2,True
+1264091,2025-03-22T17:00:00+00:00,FT,Group 1 - 29,Cultural Leonesa,725,Real Unión,9586,1,1,True
+1264099,2025-03-22T18:00:00+00:00,FT,Group 1 - 29,Zamora,9418,Gimnastic,714,1,1,True
+1264096,2025-03-23T11:00:00+00:00,FT,Group 1 - 29,FC Andorra,8157,Arenteiro,9604,1,1,True
+1264090,2025-03-23T11:00:00+00:00,FT,Group 1 - 29,Ourense CF,9612,Real Sociedad II,9585,1,0,True
+1264093,2025-03-23T16:00:00+00:00,FT,Group 1 - 29,Barakaldo,5251,Celta de Vigo II,9571,0,1,True
+1264098,2025-03-23T16:30:00+00:00,FT,Group 1 - 29,Ponferradina,4907,Lugo,716,0,1,True
+1264097,2025-03-23T16:30:00+00:00,FT,Group 1 - 29,Unionistas de Salamanca,5281,Gimnástica Segoviana,9387,0,0,True
+1264094,2025-03-23T18:30:00+00:00,FT,Group 1 - 29,Amorebieta,9380,Osasuna II,9584,1,1,True
+1264108,2025-03-28T19:30:00+00:00,FT,Group 1 - 30,Real Unión,9586,FC Andorra,8157,0,0,True
+1264103,2025-03-29T17:00:00+00:00,FT,Group 1 - 30,Barcelona B,712,Cultural Leonesa,725,2,0,True
+1264101,2025-03-29T18:00:00+00:00,FT,Group 1 - 30,Lugo,716,Ourense CF,9612,0,2,True
+1264105,2025-03-29T19:00:00+00:00,FT,Group 1 - 30,Tarazona,9416,Athletic Club II,9579,1,1,True
+1264104,2025-03-30T10:00:00+00:00,FT,Group 1 - 30,Gimnastic,714,Ponferradina,4907,5,1,True
+1264107,2025-03-30T10:00:00+00:00,FT,Group 1 - 30,Gimnástica Segoviana,9387,Amorebieta,9380,1,1,True
+1264102,2025-03-30T13:30:00+00:00,FT,Group 1 - 30,Osasuna II,9584,Sestao River,9413,1,5,True
+1264109,2025-03-30T15:30:00+00:00,FT,Group 1 - 30,Zamora,9418,Unionistas de Salamanca,5281,1,0,True
+1264100,2025-03-30T17:00:00+00:00,FT,Group 1 - 30,Arenteiro,9604,Celta de Vigo II,9571,1,2,True
+1264106,2025-03-30T17:30:00+00:00,FT,Group 1 - 30,Real Sociedad II,9585,Barakaldo,5251,2,2,True
+1264118,2025-04-04T18:30:00+00:00,FT,Group 1 - 31,Celta de Vigo II,9571,Barcelona B,712,3,1,True
+1264115,2025-04-05T16:00:00+00:00,FT,Group 1 - 31,Cultural Leonesa,725,Arenteiro,9604,1,0,True
+1264119,2025-04-05T16:00:00+00:00,FT,Group 1 - 31,Sestao River,9413,Gimnastic,714,3,2,True
+1264116,2025-04-05T17:30:00+00:00,FT,Group 1 - 31,Barakaldo,5251,Athletic Club II,9579,0,0,True
+1264112,2025-04-06T10:00:00+00:00,FT,Group 1 - 31,Ponferradina,4907,Real Unión,9586,3,1,True
+1264114,2025-04-06T10:00:00+00:00,FT,Group 1 - 31,FC Andorra,8157,Tarazona,9416,1,0,True
+1264111,2025-04-06T13:30:00+00:00,FT,Group 1 - 31,Lugo,716,Gimnástica Segoviana,9387,0,1,True
+1264113,2025-04-06T15:30:00+00:00,FT,Group 1 - 31,Amorebieta,9380,Real Sociedad II,9585,0,1,True
+1264110,2025-04-06T16:00:00+00:00,FT,Group 1 - 31,Ourense CF,9612,Zamora,9418,1,0,True
+1264117,2025-04-06T17:30:00+00:00,FT,Group 1 - 31,Unionistas de Salamanca,5281,Osasuna II,9584,1,3,True
+1264125,2025-04-12T14:00:00+00:00,FT,Group 1 - 32,Tarazona,9416,Cultural Leonesa,725,1,0,True
+1264122,2025-04-12T15:00:00+00:00,FT,Group 1 - 32,Gimnastic,714,Unionistas de Salamanca,5281,4,0,True
+1264126,2025-04-12T16:00:00+00:00,FT,Group 1 - 32,Zamora,9418,Ponferradina,4907,1,2,True
+1264128,2025-04-12T16:00:00+00:00,FT,Group 1 - 32,Athletic Club II,9579,Amorebieta,9380,2,1,True
+1264127,2025-04-12T18:00:00+00:00,FT,Group 1 - 32,Osasuna II,9584,Barakaldo,5251,2,1,True
+1264124,2025-04-13T10:00:00+00:00,FT,Group 1 - 32,Real Unión,9586,Lugo,716,3,0,True
+1264129,2025-04-13T13:30:00+00:00,FT,Group 1 - 32,Real Sociedad II,9585,FC Andorra,8157,2,1,True
+1264123,2025-04-13T15:30:00+00:00,FT,Group 1 - 32,Gimnástica Segoviana,9387,Celta de Vigo II,9571,1,3,True
+1264121,2025-04-13T16:00:00+00:00,FT,Group 1 - 32,Barcelona B,712,Sestao River,9413,2,0,True
+1264120,2025-04-13T17:00:00+00:00,FT,Group 1 - 32,Arenteiro,9604,Ourense CF,9612,1,1,True
+1264136,2025-04-18T18:30:00+00:00,FT,Group 1 - 33,Unionistas de Salamanca,5281,Arenteiro,9604,0,0,True
+1264133,2025-04-19T16:00:00+00:00,FT,Group 1 - 33,Barakaldo,5251,Sestao River,9413,2,3,True
+1264131,2025-04-19T17:00:00+00:00,FT,Group 1 - 33,Lugo,716,Real Sociedad II,9585,1,0,True
+1264138,2025-04-20T10:00:00+00:00,FT,Group 1 - 33,Ponferradina,4907,Osasuna II,9584,3,2,True
+1264135,2025-04-20T10:00:00+00:00,FT,Group 1 - 33,FC Andorra,8157,Gimnástica Segoviana,9387,5,1,True
+1264137,2025-04-20T10:00:00+00:00,FT,Group 1 - 33,Ourense CF,9612,Athletic Club II,9579,1,2,True
+1264134,2025-04-20T16:00:00+00:00,FT,Group 1 - 33,Amorebieta,9380,Zamora,9418,0,2,True
+1264132,2025-04-20T17:00:00+00:00,FT,Group 1 - 33,Cultural Leonesa,725,Gimnastic,714,2,1,True
+1264130,2025-04-20T17:00:00+00:00,FT,Group 1 - 33,Celta de Vigo II,9571,Tarazona,9416,1,1,True
+1264139,2025-04-20T18:00:00+00:00,FT,Group 1 - 33,Real Unión,9586,Barcelona B,712,1,3,True
+1264141,2025-04-26T14:00:00+00:00,FT,Group 1 - 34,Athletic Club II,9579,Cultural Leonesa,725,2,0,True
+1264148,2025-04-26T15:00:00+00:00,FT,Group 1 - 34,Barcelona B,712,Amorebieta,9380,0,2,True
+1264149,2025-04-26T16:00:00+00:00,FT,Group 1 - 34,Osasuna II,9584,FC Andorra,8157,0,1,True
+1264140,2025-04-26T17:00:00+00:00,FT,Group 1 - 34,Arenteiro,9604,Lugo,716,2,1,True
+1264142,2025-04-26T18:00:00+00:00,FT,Group 1 - 34,Real Sociedad II,9585,Unionistas de Salamanca,5281,1,0,True
+1264147,2025-04-27T10:00:00+00:00,FT,Group 1 - 34,Gimnástica Segoviana,9387,Barakaldo,5251,1,1,True
+1264144,2025-04-27T10:00:00+00:00,FT,Group 1 - 34,Sestao River,9413,Ourense CF,9612,2,2,True
+1264146,2025-04-27T13:30:00+00:00,FT,Group 1 - 34,Tarazona,9416,Ponferradina,4907,1,0,True
+1264143,2025-04-27T15:00:00+00:00,FT,Group 1 - 34,Gimnastic,714,Real Unión,9586,4,1,True
+1264145,2025-04-27T17:30:00+00:00,FT,Group 1 - 34,Zamora,9418,Celta de Vigo II,9571,1,1,True
+1264158,2025-05-02T18:30:00+00:00,FT,Group 1 - 35,Gimnástica Segoviana,9387,Real Sociedad II,9585,0,0,True
+1264156,2025-05-03T14:00:00+00:00,FT,Group 1 - 35,Ponferradina,4907,Athletic Club II,9579,2,0,True
+1264152,2025-05-03T16:00:00+00:00,FT,Group 1 - 35,Real Unión,9586,Tarazona,9416,1,0,True
+1264150,2025-05-03T16:00:00+00:00,FT,Group 1 - 35,Arenteiro,9604,Zamora,9418,1,1,True
+1264155,2025-05-03T17:00:00+00:00,FT,Group 1 - 35,Ourense CF,9612,Cultural Leonesa,725,1,0,True
+1264157,2025-05-03T18:00:00+00:00,FT,Group 1 - 35,Barakaldo,5251,Amorebieta,9380,2,0,True
+1264159,2025-05-04T10:00:00+00:00,FT,Group 1 - 35,Lugo,716,Barcelona B,712,0,4,True
+1264154,2025-05-04T10:00:00+00:00,FT,Group 1 - 35,Unionistas de Salamanca,5281,Sestao River,9413,0,0,True
+1264153,2025-05-04T13:30:00+00:00,FT,Group 1 - 35,FC Andorra,8157,Gimnastic,714,1,0,True
+1264151,2025-05-04T17:30:00+00:00,FT,Group 1 - 35,Celta de Vigo II,9571,Osasuna II,9584,3,0,True
+1264168,2025-05-10T14:00:00+00:00,FT,Group 1 - 36,Barcelona B,712,FC Andorra,8157,1,3,True
+1264164,2025-05-10T16:00:00+00:00,FT,Group 1 - 36,Gimnastic,714,Lugo,716,2,2,True
+1264162,2025-05-10T16:00:00+00:00,FT,Group 1 - 36,Tarazona,9416,Ourense CF,9612,4,0,True
+1264160,2025-05-10T16:00:00+00:00,FT,Group 1 - 36,Athletic Club II,9579,Unionistas de Salamanca,5281,0,1,True
+1264166,2025-05-10T18:00:00+00:00,FT,Group 1 - 36,Cultural Leonesa,725,Barakaldo,5251,2,1,True
+1264161,2025-05-11T10:00:00+00:00,FT,Group 1 - 36,Amorebieta,9380,Celta de Vigo II,9571,4,3,True
+1264167,2025-05-11T10:00:00+00:00,FT,Group 1 - 36,Zamora,9418,Real Unión,9586,1,0,True
+1264163,2025-05-11T10:00:00+00:00,FT,Group 1 - 36,Osasuna II,9584,Arenteiro,9604,3,0,True
+1264165,2025-05-11T13:30:00+00:00,FT,Group 1 - 36,Real Sociedad II,9585,Ponferradina,4907,3,2,True
+1264169,2025-05-11T17:30:00+00:00,FT,Group 1 - 36,Sestao River,9413,Gimnástica Segoviana,9387,1,2,True
+1264171,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Lugo,716,Zamora,9418,2,0,True
+1264175,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Ponferradina,4907,Cultural Leonesa,725,2,1,True
+1264172,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Barakaldo,5251,Barcelona B,712,1,2,True
+1264174,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Unionistas de Salamanca,5281,Tarazona,9416,0,0,True
+1264173,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,FC Andorra,8157,Sestao River,9413,1,2,True
+1264179,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Gimnástica Segoviana,9387,Gimnastic,714,2,2,True
+1264176,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Celta de Vigo II,9571,Athletic Club II,9579,2,1,True
+1264178,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Real Unión,9586,Osasuna II,9584,1,1,True
+1264170,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Arenteiro,9604,Real Sociedad II,9585,1,1,True
+1264177,2025-05-17T17:00:00+00:00,FT,Group 1 - 37,Ourense CF,9612,Amorebieta,9380,0,3,True
+1264183,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Barcelona B,712,Unionistas de Salamanca,5281,2,1,True
+1264184,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Gimnastic,714,Arenteiro,9604,2,0,True
+1264188,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Cultural Leonesa,725,FC Andorra,8157,1,1,True
+1264181,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Amorebieta,9380,Lugo,716,1,0,True
+1264186,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Sestao River,9413,Ponferradina,4907,0,2,True
+1264187,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Tarazona,9416,Barakaldo,5251,1,0,True
+1264189,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Zamora,9418,Gimnástica Segoviana,9387,1,1,True
+1264180,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Athletic Club II,9579,Real Unión,9586,4,2,True
+1264182,2025-05-24T17:00:00+00:00,FT,Group 1 - 38,Osasuna II,9584,Ourense CF,9612,1,1,True
+1264185,2025-05-24T20:30:00+00:00,FT,Group 1 - 38,Real Sociedad II,9585,Celta de Vigo II,9571,2,0,True

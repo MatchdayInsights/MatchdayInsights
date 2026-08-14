@@ -1,117 +1,177 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1280729,2025-01-01T04:00:00+00:00,FT,Auckland,24608,Melbourne Victory,944,0,0,True
-1280730,2025-01-01T07:00:00+00:00,FT,Western Sydney Wanderers,939,Macarthur,15550,2,3,True
-1280733,2025-01-03T06:00:00+00:00,FT,Melbourne City,945,Wellington Phoenix,942,2,0,True
-1280734,2025-01-03T08:35:00+00:00,FT,Brisbane Roar,947,Central Coast Mariners,941,1,3,True
-1280735,2025-01-03T10:45:00+00:00,FT,Perth Glory,940,Western United,7573,2,3,True
-1280736,2025-01-04T06:00:00+00:00,FT,Newcastle Jets,946,Sydney,943,2,2,True
-1280737,2025-01-04T08:35:00+00:00,FT,Melbourne Victory,944,Western Sydney Wanderers,939,2,2,True
-1280738,2025-01-06T08:00:00+00:00,FT,Macarthur,15550,Adelaide United,948,1,2,True
-1280762,2025-01-07T07:00:00+00:00,FT,Melbourne City,945,Western United,7573,2,0,True
-1280731,2025-01-07T09:00:00+00:00,FT,Brisbane Roar,947,Newcastle Jets,946,0,1,True
-1280732,2025-01-08T08:00:00+00:00,FT,Sydney,943,Perth Glory,940,3,0,True
-1280739,2025-01-10T08:35:00+00:00,FT,Melbourne Victory,944,Western United,7573,3,4,True
-1280740,2025-01-11T04:00:00+00:00,FT,Wellington Phoenix,942,Adelaide United,948,1,2,True
-1280741,2025-01-11T06:00:00+00:00,FT,Melbourne City,945,Brisbane Roar,947,1,0,True
-1280742,2025-01-11T08:35:00+00:00,FT,Sydney,943,Central Coast Mariners,941,4,1,True
-1280743,2025-01-11T10:45:00+00:00,FT,Perth Glory,940,Auckland,24608,1,0,True
-1280744,2025-01-12T06:00:00+00:00,FT,Newcastle Jets,946,Macarthur,15550,1,3,True
-1280745,2025-01-14T10:45:00+00:00,FT,Perth Glory,940,Western Sydney Wanderers,939,1,2,True
-1280746,2025-01-15T06:00:00+00:00,FT,Wellington Phoenix,942,Sydney,943,0,0,True
-1280753,2025-01-17T06:00:00+00:00,FT,Western United,7573,Newcastle Jets,946,3,1,True
-1280750,2025-01-17T08:35:00+00:00,FT,Western Sydney Wanderers,939,Central Coast Mariners,941,1,3,True
-1280751,2025-01-18T04:00:00+00:00,FT,Auckland,24608,Melbourne City,945,3,0,True
-1280752,2025-01-18T06:00:00+00:00,FT,Sydney,943,Brisbane Roar,947,3,4,True
-1280754,2025-01-18T08:35:00+00:00,FT,Adelaide United,948,Melbourne Victory,944,3,2,True
-1280755,2025-01-20T08:00:00+00:00,FT,Macarthur,15550,Wellington Phoenix,942,1,2,True
-1280747,2025-01-22T08:30:00+00:00,FT,Adelaide United,948,Auckland,24608,2,2,True
-1280756,2025-01-24T08:35:00+00:00,FT,Melbourne Victory,944,Sydney,943,2,0,True
-1280757,2025-01-25T04:00:00+00:00,FT,Wellington Phoenix,942,Central Coast Mariners,941,0,0,True
-1280759,2025-01-25T06:00:00+00:00,FT,Newcastle Jets,946,Perth Glory,940,2,2,True
-1280760,2025-01-25T08:35:00+00:00,FT,Macarthur,15550,Melbourne City,945,1,0,True
-1280761,2025-01-26T06:00:00+00:00,FT,Western Sydney Wanderers,939,Auckland,24608,0,1,True
-1280748,2025-01-29T08:00:00+00:00,FT,Western United,7573,Central Coast Mariners,941,2,2,True
-1280763,2025-01-31T08:35:00+00:00,FT,Brisbane Roar,947,Western Sydney Wanderers,939,0,1,True
-1280764,2025-02-01T04:00:00+00:00,FT,Auckland,24608,Macarthur,15550,2,1,True
-1280765,2025-02-01T06:00:00+00:00,FT,Sydney,943,Adelaide United,948,4,1,True
-1280766,2025-02-01T08:35:00+00:00,FT,Central Coast Mariners,941,Newcastle Jets,946,2,2,True
-1280767,2025-02-01T10:45:00+00:00,FT,Perth Glory,940,Melbourne Victory,944,0,2,True
-1280768,2025-02-06T04:00:00+00:00,FT,Wellington Phoenix,942,Brisbane Roar,947,1,1,True
-1280769,2025-02-07T08:35:00+00:00,FT,Adelaide United,948,Melbourne City,945,1,0,True
-1280770,2025-02-07T10:45:00+00:00,FT,Perth Glory,940,Central Coast Mariners,941,1,1,True
-1280771,2025-02-08T06:00:00+00:00,FT,Newcastle Jets,946,Melbourne Victory,944,3,0,True
-1280772,2025-02-08T08:35:00+00:00,FT,Sydney,943,Western Sydney Wanderers,939,3,3,True
-1280773,2025-02-09T06:00:00+00:00,FT,Macarthur,15550,Western United,7573,2,2,True
-1280774,2025-02-14T08:35:00+00:00,FT,Melbourne Victory,944,Wellington Phoenix,942,1,0,True
-1280775,2025-02-15T06:00:00+00:00,FT,Melbourne City,945,Perth Glory,940,1,0,True
-1280776,2025-02-15T07:00:00+00:00,FT,Western United,7573,Auckland,24608,0,2,True
-1280777,2025-02-15T08:35:00+00:00,FT,Adelaide United,948,Newcastle Jets,946,1,2,True
-1280778,2025-02-16T06:00:00+00:00,FT,Western Sydney Wanderers,939,Macarthur,15550,2,1,True
-1280779,2025-02-21T08:35:00+00:00,FT,Newcastle Jets,946,Brisbane Roar,947,3,1,True
-1280780,2025-02-22T04:00:00+00:00,FT,Auckland,24608,Wellington Phoenix,942,6,1,True
-1280781,2025-02-22T06:00:00+00:00,FT,Central Coast Mariners,941,Western Sydney Wanderers,939,0,4,True
-1280782,2025-02-22T08:35:00+00:00,FT,Melbourne Victory,944,Melbourne City,945,2,2,True
-1280783,2025-02-22T10:45:00+00:00,FT,Perth Glory,940,Sydney,943,0,0,True
-1280784,2025-02-23T06:00:00+00:00,FT,Western United,7573,Adelaide United,948,3,0,True
-1280785,2025-02-28T06:30:00+00:00,FT,Wellington Phoenix,942,Melbourne City,945,0,1,True
-1280786,2025-02-28T08:35:00+00:00,FT,Central Coast Mariners,941,Western United,7573,1,3,True
-1280787,2025-03-01T04:00:00+00:00,FT,Auckland,24608,Adelaide United,948,4,4,True
-1280788,2025-03-01T06:00:00+00:00,FT,Brisbane Roar,947,Melbourne Victory,944,1,1,True
-1280789,2025-03-01T08:35:00+00:00,FT,Macarthur,15550,Sydney,943,0,2,True
-1280790,2025-03-02T06:00:00+00:00,FT,Western Sydney Wanderers,939,Perth Glory,940,4,1,True
-1280791,2025-03-07T08:35:00+00:00,FT,Melbourne City,945,Macarthur,15550,2,0,True
-1280792,2025-03-08T06:00:00+00:00,FT,Adelaide United,948,Brisbane Roar,947,1,1,True
-1280793,2025-03-08T07:00:00+00:00,FT,Western United,7573,Wellington Phoenix,942,4,1,True
-1280794,2025-03-08T08:35:00+00:00,FT,Melbourne Victory,944,Central Coast Mariners,941,3,0,True
-1280795,2025-03-09T06:00:00+00:00,FT,Newcastle Jets,946,Auckland,24608,1,1,True
-1280749,2025-03-12T08:00:00+00:00,FT,Melbourne City,945,Newcastle Jets,946,0,1,True
-1280796,2025-03-14T08:35:00+00:00,FT,Adelaide United,948,Macarthur,15550,4,5,True
-1280798,2025-03-15T08:30:00+00:00,FT,Western Sydney Wanderers,939,Melbourne Victory,944,4,2,True
-1280799,2025-03-15T10:45:00+00:00,FT,Perth Glory,940,Brisbane Roar,947,1,3,True
-1280800,2025-03-16T04:00:00+00:00,FT,Auckland,24608,Central Coast Mariners,941,2,2,True
-1280801,2025-03-16T06:00:00+00:00,FT,Newcastle Jets,946,Western United,7573,2,6,True
-1280797,2025-03-16T08:00:00+00:00,FT,Sydney,943,Wellington Phoenix,942,1,1,True
-1280802,2025-03-28T08:35:00+00:00,FT,Macarthur,15550,Newcastle Jets,946,3,3,True
-1280803,2025-03-29T04:00:00+00:00,FT,Wellington Phoenix,942,Western Sydney Wanderers,939,2,2,True
-1280804,2025-03-29T06:00:00+00:00,FT,Sydney,943,Melbourne City,945,2,3,True
-1280805,2025-03-29T08:35:00+00:00,FT,Melbourne Victory,944,Adelaide United,948,5,3,True
-1280806,2025-03-30T04:00:00+00:00,FT,Central Coast Mariners,941,Perth Glory,940,3,1,True
-1280807,2025-03-30T06:00:00+00:00,FT,Brisbane Roar,947,Auckland,24608,0,2,True
-1280808,2025-04-04T08:35:00+00:00,FT,Brisbane Roar,947,Macarthur,15550,1,5,True
-1280809,2025-04-05T04:00:00+00:00,FT,Auckland,24608,Western Sydney Wanderers,939,1,1,True
-1280810,2025-04-05T06:00:00+00:00,FT,Melbourne City,945,Central Coast Mariners,941,1,0,True
-1280811,2025-04-05T07:00:00+00:00,FT,Western United,7573,Perth Glory,940,3,1,True
-1280812,2025-04-05T08:35:00+00:00,FT,Adelaide United,948,Sydney,943,2,3,True
-1280813,2025-04-06T07:00:00+00:00,FT,Newcastle Jets,946,Wellington Phoenix,942,1,2,True
-1280814,2025-04-11T09:35:00+00:00,FT,Melbourne City,945,Brisbane Roar,947,3,2,True
-1280815,2025-04-12T05:00:00+00:00,FT,Wellington Phoenix,942,Melbourne Victory,944,2,3,True
-1280816,2025-04-12T07:00:00+00:00,FT,Sydney,943,Auckland,24608,2,2,True
-1280817,2025-04-12T09:35:00+00:00,FT,Newcastle Jets,946,Central Coast Mariners,941,6,0,True
-1280818,2025-04-12T11:45:00+00:00,FT,Perth Glory,940,Adelaide United,948,4,1,True
-1280819,2025-04-13T07:00:00+00:00,FT,Western Sydney Wanderers,939,Western United,7573,2,0,True
-1280820,2025-04-17T09:35:00+00:00,FT,Brisbane Roar,947,Western United,7573,2,1,True
-1280821,2025-04-18T09:35:00+00:00,FT,Adelaide United,948,Wellington Phoenix,942,3,2,True
-1280822,2025-04-19T07:00:00+00:00,FT,Melbourne Victory,944,Auckland,24608,0,2,True
-1280823,2025-04-19T09:35:00+00:00,FT,Western Sydney Wanderers,939,Melbourne City,945,2,2,True
-1280824,2025-04-20T05:00:00+00:00,FT,Sydney,943,Newcastle Jets,946,3,2,True
-1280825,2025-04-20T07:00:00+00:00,FT,Central Coast Mariners,941,Macarthur,15550,2,2,True
-1280758,2025-04-22T09:00:00+00:00,FT,Brisbane Roar,947,Adelaide United,948,1,1,True
-1280826,2025-04-25T09:35:00+00:00,FT,Macarthur,15550,Melbourne Victory,944,1,2,True
-1280827,2025-04-26T05:00:00+00:00,FT,Brisbane Roar,947,Wellington Phoenix,942,1,0,True
-1280828,2025-04-26T07:00:00+00:00,FT,Newcastle Jets,946,Western Sydney Wanderers,939,0,1,True
-1280829,2025-04-26T09:35:00+00:00,FT,Melbourne City,945,Adelaide United,948,0,0,True
-1280830,2025-04-27T05:00:00+00:00,FT,Auckland,24608,Perth Glory,940,1,0,True
-1280831,2025-04-27T07:00:00+00:00,FT,Western United,7573,Sydney,943,1,0,True
-1280833,2025-05-02T09:35:00+00:00,FT,Central Coast Mariners,941,Brisbane Roar,947,1,2,True
-1280834,2025-05-03T07:00:00+00:00,FT,Melbourne City,945,Sydney,943,5,1,True
-1280835,2025-05-03T08:00:00+00:00,FT,Western United,7573,Auckland,24608,4,2,True
-1280836,2025-05-03T09:35:00+00:00,FT,Macarthur,15550,Western Sydney Wanderers,939,1,3,True
-1280832,2025-05-04T05:00:00+00:00,FT,Wellington Phoenix,942,Perth Glory,940,0,2,True
-1280837,2025-05-04T07:00:00+00:00,FT,Melbourne Victory,944,Newcastle Jets,946,1,1,True
-1374035,2025-05-09T09:35:00+00:00,FT,Western United,7573,Adelaide United,948,3,2,True
-1374036,2025-05-10T09:35:00+00:00,FT,Western Sydney Wanderers,939,Melbourne Victory,944,1,2,True
-1375034,2025-05-16T09:35:00+00:00,FT,Western United,7573,Melbourne City,945,0,3,True
-1375203,2025-05-17T09:35:00+00:00,FT,Melbourne Victory,944,Auckland,24608,0,1,True
-1375204,2025-05-24T06:00:00+00:00,FT,Auckland,24608,Melbourne Victory,944,0,2,True
-1375035,2025-05-24T09:35:00+00:00,FT,Melbourne City,945,Western United,7573,1,1,True
-1376475,2025-05-31T09:40:00+00:00,FT,Melbourne City,945,Melbourne Victory,944,1,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1280669,2024-10-18T08:35:00+00:00,FT,Regular Season - 1,Central Coast Mariners,941,Melbourne Victory,944,0,0,True
+1280670,2024-10-19T04:00:00+00:00,FT,Regular Season - 1,Auckland,24608,Brisbane Roar,947,2,0,True
+1280671,2024-10-19T06:00:00+00:00,FT,Regular Season - 1,Newcastle Jets,946,Melbourne City,945,0,1,True
+1280672,2024-10-19T08:35:00+00:00,FT,Regular Season - 1,Western Sydney Wanderers,939,Sydney,943,1,2,True
+1280673,2024-10-20T03:00:00+00:00,FT,Regular Season - 1,Wellington Phoenix,942,Western United,7573,1,1,True
+1280674,2024-10-20T05:00:00+00:00,FT,Regular Season - 1,Macarthur,15550,Perth Glory,940,6,1,True
+1280675,2024-10-25T08:35:00+00:00,FT,Regular Season - 2,Macarthur,15550,Newcastle Jets,946,1,2,True
+1280676,2024-10-26T06:00:00+00:00,FT,Regular Season - 2,Adelaide United,948,Central Coast Mariners,941,1,1,True
+1280677,2024-10-26T08:35:00+00:00,FT,Regular Season - 2,Melbourne City,945,Melbourne Victory,944,1,3,True
+1280678,2024-10-26T10:45:00+00:00,FT,Regular Season - 2,Perth Glory,940,Wellington Phoenix,942,0,2,True
+1280679,2024-10-27T03:00:00+00:00,FT,Regular Season - 2,Auckland,24608,Sydney,943,1,0,True
+1280680,2024-10-27T05:00:00+00:00,FT,Regular Season - 2,Western United,7573,Western Sydney Wanderers,939,1,1,True
+1280681,2024-11-01T08:35:00+00:00,FT,Regular Season - 3,Brisbane Roar,947,Sydney,943,2,3,True
+1280682,2024-11-02T04:00:00+00:00,FT,Regular Season - 3,Wellington Phoenix,942,Auckland,24608,0,2,True
+1280683,2024-11-02T06:00:00+00:00,FT,Regular Season - 3,Central Coast Mariners,941,Perth Glory,940,0,0,True
+1280684,2024-11-02T08:35:00+00:00,FT,Regular Season - 3,Western Sydney Wanderers,939,Adelaide United,948,3,4,True
+1280685,2024-11-03T05:00:00+00:00,FT,Regular Season - 3,Melbourne Victory,944,Macarthur,15550,2,1,True
+1280686,2024-11-04T08:00:00+00:00,FT,Regular Season - 3,Western United,7573,Melbourne City,945,0,1,True
+1280687,2024-11-08T08:35:00+00:00,FT,Regular Season - 4,Western Sydney Wanderers,939,Newcastle Jets,946,4,1,True
+1280688,2024-11-09T06:00:00+00:00,FT,Regular Season - 4,Melbourne Victory,944,Brisbane Roar,947,2,0,True
+1280690,2024-11-09T08:35:00+00:00,FT,Regular Season - 4,Adelaide United,948,Western United,7573,2,1,True
+1280691,2024-11-10T05:00:00+00:00,FT,Regular Season - 4,Central Coast Mariners,941,Wellington Phoenix,942,0,3,True
+1280689,2024-11-10T07:00:00+00:00,FT,Regular Season - 4,Sydney,943,Macarthur,15550,1,2,True
+1280692,2024-11-10T09:45:00+00:00,FT,Regular Season - 4,Perth Glory,940,Melbourne City,945,0,5,True
+1280693,2024-11-22T06:30:00+00:00,FT,Regular Season - 5,Perth Glory,940,Western United,7573,1,3,True
+1280694,2024-11-22T09:00:00+00:00,FT,Regular Season - 5,Newcastle Jets,946,Central Coast Mariners,941,1,2,True
+1280695,2024-11-23T06:00:00+00:00,FT,Regular Season - 5,Brisbane Roar,947,Adelaide United,948,2,3,True
+1280696,2024-11-23T08:35:00+00:00,FT,Regular Season - 5,Sydney,943,Western Sydney Wanderers,939,4,2,True
+1280697,2024-11-24T02:30:00+00:00,FT,Regular Season - 5,Wellington Phoenix,942,Melbourne Victory,944,1,0,True
+1280698,2024-11-24T05:00:00+00:00,FT,Regular Season - 5,Macarthur,15550,Auckland,24608,0,1,True
+1280699,2024-11-29T08:35:00+00:00,FT,Regular Season - 6,Adelaide United,948,Perth Glory,940,2,2,True
+1280700,2024-11-30T04:00:00+00:00,FT,Regular Season - 6,Auckland,24608,Newcastle Jets,946,2,0,True
+1280701,2024-11-30T06:00:00+00:00,FT,Regular Season - 6,Melbourne City,945,Western Sydney Wanderers,939,0,2,True
+1280703,2024-11-30T08:35:00+00:00,FT,Regular Season - 6,Macarthur,15550,Brisbane Roar,947,4,4,True
+1280702,2024-12-01T05:00:00+00:00,FT,Regular Season - 6,Western United,7573,Melbourne Victory,944,1,3,True
+1280704,2024-12-06T08:35:00+00:00,FT,Regular Season - 7,Brisbane Roar,947,Melbourne City,945,1,4,True
+1280705,2024-12-07T04:00:00+00:00,FT,Regular Season - 7,Auckland,24608,Wellington Phoenix,942,2,1,True
+1280706,2024-12-07T07:00:00+00:00,FT,Regular Season - 7,Newcastle Jets,946,Adelaide United,948,0,1,True
+1280707,2024-12-07T07:00:00+00:00,FT,Regular Season - 7,Western United,7573,Macarthur,15550,0,0,True
+1280709,2024-12-08T06:00:00+00:00,FT,Regular Season - 7,Melbourne Victory,944,Perth Glory,940,2,0,True
+1280708,2024-12-08T07:00:00+00:00,FT,Regular Season - 7,Central Coast Mariners,941,Sydney,943,2,1,True
+1280710,2024-12-13T08:35:00+00:00,FT,Regular Season - 8,Central Coast Mariners,941,Adelaide United,948,0,4,True
+1280711,2024-12-14T04:00:00+00:00,FT,Regular Season - 8,Wellington Phoenix,942,Macarthur,15550,1,2,True
+1280712,2024-12-14T06:00:00+00:00,FT,Regular Season - 8,Sydney,943,Western United,7573,3,4,True
+1280713,2024-12-14T08:35:00+00:00,FT,Regular Season - 8,Western Sydney Wanderers,939,Brisbane Roar,947,2,2,True
+1280714,2024-12-14T10:45:00+00:00,FT,Regular Season - 8,Perth Glory,940,Newcastle Jets,946,0,4,True
+1280715,2024-12-15T06:00:00+00:00,FT,Regular Season - 8,Melbourne City,945,Auckland,24608,2,2,True
+1280716,2024-12-20T08:35:00+00:00,FT,Regular Season - 9,Adelaide United,948,Sydney,943,3,3,True
+1280717,2024-12-21T04:00:00+00:00,FT,Regular Season - 9,Auckland,24608,Western United,7573,0,4,True
+1280718,2024-12-21T06:00:00+00:00,FT,Regular Season - 9,Brisbane Roar,947,Perth Glory,940,0,1,True
+1280719,2024-12-21T08:35:00+00:00,FT,Regular Season - 9,Melbourne Victory,944,Melbourne City,945,1,1,True
+1280720,2024-12-22T06:00:00+00:00,FT,Regular Season - 9,Western Sydney Wanderers,939,Wellington Phoenix,942,4,1,True
+1280721,2024-12-23T08:00:00+00:00,FT,Regular Season - 9,Macarthur,15550,Central Coast Mariners,941,1,1,True
+1280722,2024-12-27T08:35:00+00:00,FT,Regular Season - 10,Adelaide United,948,Western Sydney Wanderers,939,2,3,True
+1280723,2024-12-27T11:45:00+00:00,FT,Regular Season - 10,Perth Glory,940,Macarthur,15550,0,3,True
+1280724,2024-12-28T04:00:00+00:00,FT,Regular Season - 10,Wellington Phoenix,942,Newcastle Jets,946,2,1,True
+1280725,2024-12-28T06:00:00+00:00,FT,Regular Season - 10,Central Coast Mariners,941,Auckland,24608,1,4,True
+1280726,2024-12-28T08:35:00+00:00,FT,Regular Season - 10,Sydney,943,Melbourne Victory,944,3,0,True
+1280727,2024-12-29T06:00:00+00:00,FT,Regular Season - 10,Western United,7573,Brisbane Roar,947,1,0,True
+1280728,2024-12-31T08:00:00+00:00,FT,Regular Season - 11,Central Coast Mariners,941,Melbourne City,945,1,1,True
+1280729,2025-01-01T04:00:00+00:00,FT,Regular Season - 11,Auckland,24608,Melbourne Victory,944,0,0,True
+1280730,2025-01-01T07:00:00+00:00,FT,Regular Season - 11,Western Sydney Wanderers,939,Macarthur,15550,2,3,True
+1280733,2025-01-03T06:00:00+00:00,FT,Regular Season - 12,Melbourne City,945,Wellington Phoenix,942,2,0,True
+1280734,2025-01-03T08:35:00+00:00,FT,Regular Season - 12,Brisbane Roar,947,Central Coast Mariners,941,1,3,True
+1280735,2025-01-03T10:45:00+00:00,FT,Regular Season - 12,Perth Glory,940,Western United,7573,2,3,True
+1280736,2025-01-04T06:00:00+00:00,FT,Regular Season - 12,Newcastle Jets,946,Sydney,943,2,2,True
+1280737,2025-01-04T08:35:00+00:00,FT,Regular Season - 12,Melbourne Victory,944,Western Sydney Wanderers,939,2,2,True
+1280738,2025-01-06T08:00:00+00:00,FT,Regular Season - 12,Macarthur,15550,Adelaide United,948,1,2,True
+1280762,2025-01-07T07:00:00+00:00,FT,Regular Season - 17,Melbourne City,945,Western United,7573,2,0,True
+1280731,2025-01-07T09:00:00+00:00,FT,Regular Season - 11,Brisbane Roar,947,Newcastle Jets,946,0,1,True
+1280732,2025-01-08T08:00:00+00:00,FT,Regular Season - 11,Sydney,943,Perth Glory,940,3,0,True
+1280739,2025-01-10T08:35:00+00:00,FT,Regular Season - 13,Melbourne Victory,944,Western United,7573,3,4,True
+1280740,2025-01-11T04:00:00+00:00,FT,Regular Season - 13,Wellington Phoenix,942,Adelaide United,948,1,2,True
+1280741,2025-01-11T06:00:00+00:00,FT,Regular Season - 13,Melbourne City,945,Brisbane Roar,947,1,0,True
+1280742,2025-01-11T08:35:00+00:00,FT,Regular Season - 13,Sydney,943,Central Coast Mariners,941,4,1,True
+1280743,2025-01-11T10:45:00+00:00,FT,Regular Season - 13,Perth Glory,940,Auckland,24608,1,0,True
+1280744,2025-01-12T06:00:00+00:00,FT,Regular Season - 13,Newcastle Jets,946,Macarthur,15550,1,3,True
+1280745,2025-01-14T10:45:00+00:00,FT,Regular Season - 14,Perth Glory,940,Western Sydney Wanderers,939,1,2,True
+1280746,2025-01-15T06:00:00+00:00,FT,Regular Season - 14,Wellington Phoenix,942,Sydney,943,0,0,True
+1280753,2025-01-17T06:00:00+00:00,FT,Regular Season - 15,Western United,7573,Newcastle Jets,946,3,1,True
+1280750,2025-01-17T08:35:00+00:00,FT,Regular Season - 15,Western Sydney Wanderers,939,Central Coast Mariners,941,1,3,True
+1280751,2025-01-18T04:00:00+00:00,FT,Regular Season - 15,Auckland,24608,Melbourne City,945,3,0,True
+1280752,2025-01-18T06:00:00+00:00,FT,Regular Season - 15,Sydney,943,Brisbane Roar,947,3,4,True
+1280754,2025-01-18T08:35:00+00:00,FT,Regular Season - 15,Adelaide United,948,Melbourne Victory,944,3,2,True
+1280755,2025-01-20T08:00:00+00:00,FT,Regular Season - 15,Macarthur,15550,Wellington Phoenix,942,1,2,True
+1280747,2025-01-22T08:30:00+00:00,FT,Regular Season - 14,Adelaide United,948,Auckland,24608,2,2,True
+1280756,2025-01-24T08:35:00+00:00,FT,Regular Season - 16,Melbourne Victory,944,Sydney,943,2,0,True
+1280757,2025-01-25T04:00:00+00:00,FT,Regular Season - 16,Wellington Phoenix,942,Central Coast Mariners,941,0,0,True
+1280759,2025-01-25T06:00:00+00:00,FT,Regular Season - 16,Newcastle Jets,946,Perth Glory,940,2,2,True
+1280760,2025-01-25T08:35:00+00:00,FT,Regular Season - 16,Macarthur,15550,Melbourne City,945,1,0,True
+1280761,2025-01-26T06:00:00+00:00,FT,Regular Season - 16,Western Sydney Wanderers,939,Auckland,24608,0,1,True
+1280748,2025-01-29T08:00:00+00:00,FT,Regular Season - 14,Western United,7573,Central Coast Mariners,941,2,2,True
+1280763,2025-01-31T08:35:00+00:00,FT,Regular Season - 17,Brisbane Roar,947,Western Sydney Wanderers,939,0,1,True
+1280764,2025-02-01T04:00:00+00:00,FT,Regular Season - 17,Auckland,24608,Macarthur,15550,2,1,True
+1280765,2025-02-01T06:00:00+00:00,FT,Regular Season - 17,Sydney,943,Adelaide United,948,4,1,True
+1280766,2025-02-01T08:35:00+00:00,FT,Regular Season - 17,Central Coast Mariners,941,Newcastle Jets,946,2,2,True
+1280767,2025-02-01T10:45:00+00:00,FT,Regular Season - 17,Perth Glory,940,Melbourne Victory,944,0,2,True
+1280768,2025-02-06T04:00:00+00:00,FT,Regular Season - 18,Wellington Phoenix,942,Brisbane Roar,947,1,1,True
+1280769,2025-02-07T08:35:00+00:00,FT,Regular Season - 18,Adelaide United,948,Melbourne City,945,1,0,True
+1280770,2025-02-07T10:45:00+00:00,FT,Regular Season - 18,Perth Glory,940,Central Coast Mariners,941,1,1,True
+1280771,2025-02-08T06:00:00+00:00,FT,Regular Season - 18,Newcastle Jets,946,Melbourne Victory,944,3,0,True
+1280772,2025-02-08T08:35:00+00:00,FT,Regular Season - 18,Sydney,943,Western Sydney Wanderers,939,3,3,True
+1280773,2025-02-09T06:00:00+00:00,FT,Regular Season - 18,Macarthur,15550,Western United,7573,2,2,True
+1280774,2025-02-14T08:35:00+00:00,FT,Regular Season - 19,Melbourne Victory,944,Wellington Phoenix,942,1,0,True
+1280775,2025-02-15T06:00:00+00:00,FT,Regular Season - 19,Melbourne City,945,Perth Glory,940,1,0,True
+1280776,2025-02-15T07:00:00+00:00,FT,Regular Season - 19,Western United,7573,Auckland,24608,0,2,True
+1280777,2025-02-15T08:35:00+00:00,FT,Regular Season - 19,Adelaide United,948,Newcastle Jets,946,1,2,True
+1280778,2025-02-16T06:00:00+00:00,FT,Regular Season - 19,Western Sydney Wanderers,939,Macarthur,15550,2,1,True
+1280779,2025-02-21T08:35:00+00:00,FT,Regular Season - 20,Newcastle Jets,946,Brisbane Roar,947,3,1,True
+1280780,2025-02-22T04:00:00+00:00,FT,Regular Season - 20,Auckland,24608,Wellington Phoenix,942,6,1,True
+1280781,2025-02-22T06:00:00+00:00,FT,Regular Season - 20,Central Coast Mariners,941,Western Sydney Wanderers,939,0,4,True
+1280782,2025-02-22T08:35:00+00:00,FT,Regular Season - 20,Melbourne Victory,944,Melbourne City,945,2,2,True
+1280783,2025-02-22T10:45:00+00:00,FT,Regular Season - 20,Perth Glory,940,Sydney,943,0,0,True
+1280784,2025-02-23T06:00:00+00:00,FT,Regular Season - 20,Western United,7573,Adelaide United,948,3,0,True
+1280785,2025-02-28T06:30:00+00:00,FT,Regular Season - 21,Wellington Phoenix,942,Melbourne City,945,0,1,True
+1280786,2025-02-28T08:35:00+00:00,FT,Regular Season - 21,Central Coast Mariners,941,Western United,7573,1,3,True
+1280787,2025-03-01T04:00:00+00:00,FT,Regular Season - 21,Auckland,24608,Adelaide United,948,4,4,True
+1280788,2025-03-01T06:00:00+00:00,FT,Regular Season - 21,Brisbane Roar,947,Melbourne Victory,944,1,1,True
+1280789,2025-03-01T08:35:00+00:00,FT,Regular Season - 21,Macarthur,15550,Sydney,943,0,2,True
+1280790,2025-03-02T06:00:00+00:00,FT,Regular Season - 21,Western Sydney Wanderers,939,Perth Glory,940,4,1,True
+1280791,2025-03-07T08:35:00+00:00,FT,Regular Season - 22,Melbourne City,945,Macarthur,15550,2,0,True
+1280792,2025-03-08T06:00:00+00:00,FT,Regular Season - 22,Adelaide United,948,Brisbane Roar,947,1,1,True
+1280793,2025-03-08T07:00:00+00:00,FT,Regular Season - 22,Western United,7573,Wellington Phoenix,942,4,1,True
+1280794,2025-03-08T08:35:00+00:00,FT,Regular Season - 22,Melbourne Victory,944,Central Coast Mariners,941,3,0,True
+1280795,2025-03-09T06:00:00+00:00,FT,Regular Season - 22,Newcastle Jets,946,Auckland,24608,1,1,True
+1280749,2025-03-12T08:00:00+00:00,FT,Regular Season - 14,Melbourne City,945,Newcastle Jets,946,0,1,True
+1280796,2025-03-14T08:35:00+00:00,FT,Regular Season - 23,Adelaide United,948,Macarthur,15550,4,5,True
+1280798,2025-03-15T08:30:00+00:00,FT,Regular Season - 23,Western Sydney Wanderers,939,Melbourne Victory,944,4,2,True
+1280799,2025-03-15T10:45:00+00:00,FT,Regular Season - 23,Perth Glory,940,Brisbane Roar,947,1,3,True
+1280800,2025-03-16T04:00:00+00:00,FT,Regular Season - 23,Auckland,24608,Central Coast Mariners,941,2,2,True
+1280801,2025-03-16T06:00:00+00:00,FT,Regular Season - 23,Newcastle Jets,946,Western United,7573,2,6,True
+1280797,2025-03-16T08:00:00+00:00,FT,Regular Season - 23,Sydney,943,Wellington Phoenix,942,1,1,True
+1280802,2025-03-28T08:35:00+00:00,FT,Regular Season - 24,Macarthur,15550,Newcastle Jets,946,3,3,True
+1280803,2025-03-29T04:00:00+00:00,FT,Regular Season - 24,Wellington Phoenix,942,Western Sydney Wanderers,939,2,2,True
+1280804,2025-03-29T06:00:00+00:00,FT,Regular Season - 24,Sydney,943,Melbourne City,945,2,3,True
+1280805,2025-03-29T08:35:00+00:00,FT,Regular Season - 24,Melbourne Victory,944,Adelaide United,948,5,3,True
+1280806,2025-03-30T04:00:00+00:00,FT,Regular Season - 24,Central Coast Mariners,941,Perth Glory,940,3,1,True
+1280807,2025-03-30T06:00:00+00:00,FT,Regular Season - 24,Brisbane Roar,947,Auckland,24608,0,2,True
+1280808,2025-04-04T08:35:00+00:00,FT,Regular Season - 25,Brisbane Roar,947,Macarthur,15550,1,5,True
+1280809,2025-04-05T04:00:00+00:00,FT,Regular Season - 25,Auckland,24608,Western Sydney Wanderers,939,1,1,True
+1280810,2025-04-05T06:00:00+00:00,FT,Regular Season - 25,Melbourne City,945,Central Coast Mariners,941,1,0,True
+1280811,2025-04-05T07:00:00+00:00,FT,Regular Season - 25,Western United,7573,Perth Glory,940,3,1,True
+1280812,2025-04-05T08:35:00+00:00,FT,Regular Season - 25,Adelaide United,948,Sydney,943,2,3,True
+1280813,2025-04-06T07:00:00+00:00,FT,Regular Season - 25,Newcastle Jets,946,Wellington Phoenix,942,1,2,True
+1280814,2025-04-11T09:35:00+00:00,FT,Regular Season - 26,Melbourne City,945,Brisbane Roar,947,3,2,True
+1280815,2025-04-12T05:00:00+00:00,FT,Regular Season - 26,Wellington Phoenix,942,Melbourne Victory,944,2,3,True
+1280816,2025-04-12T07:00:00+00:00,FT,Regular Season - 26,Sydney,943,Auckland,24608,2,2,True
+1280817,2025-04-12T09:35:00+00:00,FT,Regular Season - 26,Newcastle Jets,946,Central Coast Mariners,941,6,0,True
+1280818,2025-04-12T11:45:00+00:00,FT,Regular Season - 26,Perth Glory,940,Adelaide United,948,4,1,True
+1280819,2025-04-13T07:00:00+00:00,FT,Regular Season - 26,Western Sydney Wanderers,939,Western United,7573,2,0,True
+1280820,2025-04-17T09:35:00+00:00,FT,Regular Season - 27,Brisbane Roar,947,Western United,7573,2,1,True
+1280821,2025-04-18T09:35:00+00:00,FT,Regular Season - 27,Adelaide United,948,Wellington Phoenix,942,3,2,True
+1280822,2025-04-19T07:00:00+00:00,FT,Regular Season - 27,Melbourne Victory,944,Auckland,24608,0,2,True
+1280823,2025-04-19T09:35:00+00:00,FT,Regular Season - 27,Western Sydney Wanderers,939,Melbourne City,945,2,2,True
+1280824,2025-04-20T05:00:00+00:00,FT,Regular Season - 27,Sydney,943,Newcastle Jets,946,3,2,True
+1280825,2025-04-20T07:00:00+00:00,FT,Regular Season - 27,Central Coast Mariners,941,Macarthur,15550,2,2,True
+1280758,2025-04-22T09:00:00+00:00,FT,Regular Season - 16,Brisbane Roar,947,Adelaide United,948,1,1,True
+1280826,2025-04-25T09:35:00+00:00,FT,Regular Season - 28,Macarthur,15550,Melbourne Victory,944,1,2,True
+1280827,2025-04-26T05:00:00+00:00,FT,Regular Season - 28,Brisbane Roar,947,Wellington Phoenix,942,1,0,True
+1280828,2025-04-26T07:00:00+00:00,FT,Regular Season - 28,Newcastle Jets,946,Western Sydney Wanderers,939,0,1,True
+1280829,2025-04-26T09:35:00+00:00,FT,Regular Season - 28,Melbourne City,945,Adelaide United,948,0,0,True
+1280830,2025-04-27T05:00:00+00:00,FT,Regular Season - 28,Auckland,24608,Perth Glory,940,1,0,True
+1280831,2025-04-27T07:00:00+00:00,FT,Regular Season - 28,Western United,7573,Sydney,943,1,0,True
+1280833,2025-05-02T09:35:00+00:00,FT,Regular Season - 29,Central Coast Mariners,941,Brisbane Roar,947,1,2,True
+1280834,2025-05-03T07:00:00+00:00,FT,Regular Season - 29,Melbourne City,945,Sydney,943,5,1,True
+1280835,2025-05-03T08:00:00+00:00,FT,Regular Season - 29,Western United,7573,Auckland,24608,4,2,True
+1280836,2025-05-03T09:35:00+00:00,FT,Regular Season - 29,Macarthur,15550,Western Sydney Wanderers,939,1,3,True
+1280832,2025-05-04T05:00:00+00:00,FT,Regular Season - 29,Wellington Phoenix,942,Perth Glory,940,0,2,True
+1280837,2025-05-04T07:00:00+00:00,FT,Regular Season - 29,Melbourne Victory,944,Newcastle Jets,946,1,1,True
+1374035,2025-05-09T09:35:00+00:00,FT,Elimination Finals,Western United,7573,Adelaide United,948,3,2,True
+1374036,2025-05-10T09:35:00+00:00,FT,Elimination Finals,Western Sydney Wanderers,939,Melbourne Victory,944,1,2,True
+1375034,2025-05-16T09:35:00+00:00,FT,Semi-finals,Western United,7573,Melbourne City,945,0,3,True
+1375203,2025-05-17T09:35:00+00:00,FT,Semi-finals,Melbourne Victory,944,Auckland,24608,0,1,True
+1375204,2025-05-24T06:00:00+00:00,FT,Semi-finals,Auckland,24608,Melbourne Victory,944,0,2,True
+1375035,2025-05-24T09:35:00+00:00,FT,Semi-finals,Melbourne City,945,Western United,7573,1,1,True
+1376475,2025-05-31T09:40:00+00:00,FT,Grand Final,Melbourne City,945,Melbourne Victory,944,1,0,True

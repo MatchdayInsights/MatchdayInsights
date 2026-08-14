@@ -1,12 +1,12 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1547830,2026-08-05T14:00:00+00:00,FT,Podbeskidzie,3489,Hutnik Kraków,6942,2,0,True
-1547660,2026-08-05T14:00:00+00:00,FT,Znicz Pruszków,6964,ŁKS Łódź II,17397,3,1,True
-1547834,2026-08-05T14:00:00+00:00,FT,Śląsk Wrocław II,12900,Stal Stalowa Wola,6958,3,2,True
-1547831,2026-08-05T14:30:00+00:00,FT,Podhale Nowy Targ,12834,Chojniczanka Chojnice,3482,2,0,True
-1547829,2026-08-05T15:00:00+00:00,AET,Olimpia Grudziądz,4247,Świt Skolwin,12902,5,3,False
-1547836,2026-08-05T15:30:00+00:00,FT,Warta Poznań,3496,Resovia Rzeszów,6951,0,1,True
-1547832,2026-08-05T16:00:00+00:00,FT,Sandecja Nowy Sącz,3492,Rekord Bielsko-Biała,6950,3,0,True
-1547828,2026-08-05T16:00:00+00:00,FT,Górnik Łęczna,6941,Kalisz,12801,2,0,True
-1547835,2026-08-05T17:00:00+00:00,FT,Tychy 71,3495,Zaglebie Sosnowiec,342,1,0,True
-1547833,2026-08-05T17:45:00+00:00,PEN,Unia Skierniewice,6961,Sokół Kleczew,16255,2,2,False
-1547659,2026-08-05T16:00:00+00:00,AWD,Pogoń Siedlce,6947,Jastrzębie,3486,3,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1547830,2026-08-05T14:00:00+00:00,FT,Round of 128,Podbeskidzie,3489,Hutnik Kraków,6942,2,0,True
+1547660,2026-08-05T14:00:00+00:00,FT,Round of 128,Znicz Pruszków,6964,ŁKS Łódź II,17397,3,1,True
+1547834,2026-08-05T14:00:00+00:00,FT,Round of 128,Śląsk Wrocław II,12900,Stal Stalowa Wola,6958,3,2,True
+1547831,2026-08-05T14:30:00+00:00,FT,Round of 128,Podhale Nowy Targ,12834,Chojniczanka Chojnice,3482,2,0,True
+1547829,2026-08-05T15:00:00+00:00,AET,Round of 128,Olimpia Grudziądz,4247,Świt Skolwin,12902,5,3,False
+1547836,2026-08-05T15:30:00+00:00,FT,Round of 128,Warta Poznań,3496,Resovia Rzeszów,6951,0,1,True
+1547832,2026-08-05T16:00:00+00:00,FT,Round of 128,Sandecja Nowy Sącz,3492,Rekord Bielsko-Biała,6950,3,0,True
+1547828,2026-08-05T16:00:00+00:00,FT,Round of 128,Górnik Łęczna,6941,Kalisz,12801,2,0,True
+1547835,2026-08-05T17:00:00+00:00,FT,Round of 128,Tychy 71,3495,Zaglebie Sosnowiec,342,1,0,True
+1547833,2026-08-05T17:45:00+00:00,PEN,Round of 128,Unia Skierniewice,6961,Sokół Kleczew,16255,2,2,False
+1547659,2026-08-05T16:00:00+00:00,AWD,Round of 128,Pogoń Siedlce,6947,Jastrzębie,3486,3,0,False

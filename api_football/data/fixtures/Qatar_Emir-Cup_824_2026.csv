@@ -1,20 +1,20 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1503723,2026-01-10T14:30:00+00:00,FT,Al Kharaitiyat,2894,Al Bidda SC,2925,2,1,True
-1503721,2026-01-10T14:30:00+00:00,PEN,Al-Sailiya,2898,Muaither SC,2902,1,1,False
-1503722,2026-01-10T14:30:00+00:00,FT,Al-Markhiya,2908,Al Mesaimeer,2915,2,1,True
-1503724,2026-01-10T14:30:00+00:00,FT,Al Waab,7577,Lusail City,7527,2,0,True
-1511481,2026-02-12T13:30:00+00:00,FT,Al-Duhail SC,2904,Al Waab,7577,2,0,True
-1511482,2026-02-12T16:15:00+00:00,FT,Al Wakrah,2900,Al-Sailiya,2898,2,0,True
-1511483,2026-02-13T13:30:00+00:00,FT,Al Shamal,2916,Qatar SC,2907,2,1,True
-1511484,2026-02-13T16:15:00+00:00,FT,Al Shahaniya,2893,Al-Arabi SC,2905,0,2,True
-1511485,2026-02-14T13:30:00+00:00,FT,Al-Gharafa,2903,Al Kharaitiyat,2894,2,0,True
-1511487,2026-02-14T16:15:00+00:00,FT,Al Sadd,2895,Al-Markhiya,2908,2,1,True
-1511486,2026-02-14T16:15:00+00:00,FT,Al-Rayyan SC,2897,Al-Khor,2901,2,0,True
-1511488,2026-02-15T16:15:00+00:00,FT,Al Ahli Doha,2896,UMM Salal,2899,2,4,True
-1540915,2026-05-01T14:15:00+00:00,FT,Al-Rayyan SC,2897,Al Wakrah,2900,0,3,True
-1540914,2026-05-01T14:15:00+00:00,FT,Al-Duhail SC,2904,Al-Arabi SC,2905,4,0,True
-1540916,2026-05-01T17:00:00+00:00,FT,Al-Gharafa,2903,UMM Salal,2899,2,1,True
-1540917,2026-05-01T17:00:00+00:00,FT,Al Shamal,2916,Al Sadd,2895,4,6,True
-1543758,2026-05-05T14:15:00+00:00,PEN,Al Wakrah,2900,Al-Gharafa,2903,0,0,False
-1543759,2026-05-05T17:00:00+00:00,FT,Al-Duhail SC,2904,Al Sadd,2895,1,4,True
-1544300,2026-05-09T14:30:00+00:00,FT,Al-Gharafa,2903,Al Sadd,2895,4,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1503723,2026-01-10T14:30:00+00:00,FT,Round of 32,Al Kharaitiyat,2894,Al Bidda SC,2925,2,1,True
+1503721,2026-01-10T14:30:00+00:00,PEN,Round of 32,Al-Sailiya,2898,Muaither SC,2902,1,1,False
+1503722,2026-01-10T14:30:00+00:00,FT,Round of 32,Al-Markhiya,2908,Al Mesaimeer,2915,2,1,True
+1503724,2026-01-10T14:30:00+00:00,FT,Round of 32,Al Waab,7577,Lusail City,7527,2,0,True
+1511481,2026-02-12T13:30:00+00:00,FT,Round of 16,Al-Duhail SC,2904,Al Waab,7577,2,0,True
+1511482,2026-02-12T16:15:00+00:00,FT,Round of 16,Al Wakrah,2900,Al-Sailiya,2898,2,0,True
+1511483,2026-02-13T13:30:00+00:00,FT,Round of 16,Al Shamal,2916,Qatar SC,2907,2,1,True
+1511484,2026-02-13T16:15:00+00:00,FT,Round of 16,Al Shahaniya,2893,Al-Arabi SC,2905,0,2,True
+1511485,2026-02-14T13:30:00+00:00,FT,Round of 16,Al-Gharafa,2903,Al Kharaitiyat,2894,2,0,True
+1511487,2026-02-14T16:15:00+00:00,FT,Round of 16,Al Sadd,2895,Al-Markhiya,2908,2,1,True
+1511486,2026-02-14T16:15:00+00:00,FT,Round of 16,Al-Rayyan SC,2897,Al-Khor,2901,2,0,True
+1511488,2026-02-15T16:15:00+00:00,FT,Round of 16,Al Ahli Doha,2896,UMM Salal,2899,2,4,True
+1540915,2026-05-01T14:15:00+00:00,FT,Quarter-finals,Al-Rayyan SC,2897,Al Wakrah,2900,0,3,True
+1540914,2026-05-01T14:15:00+00:00,FT,Quarter-finals,Al-Duhail SC,2904,Al-Arabi SC,2905,4,0,True
+1540916,2026-05-01T17:00:00+00:00,FT,Quarter-finals,Al-Gharafa,2903,UMM Salal,2899,2,1,True
+1540917,2026-05-01T17:00:00+00:00,FT,Quarter-finals,Al Shamal,2916,Al Sadd,2895,4,6,True
+1543758,2026-05-05T14:15:00+00:00,PEN,Semi-finals,Al Wakrah,2900,Al-Gharafa,2903,0,0,False
+1543759,2026-05-05T17:00:00+00:00,FT,Semi-finals,Al-Duhail SC,2904,Al Sadd,2895,1,4,True
+1544300,2026-05-09T14:30:00+00:00,FT,Final,Al-Gharafa,2903,Al Sadd,2895,4,1,True

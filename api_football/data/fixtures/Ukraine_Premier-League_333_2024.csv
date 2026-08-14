@@ -1,111 +1,248 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1221010,2025-02-21T13:30:00+00:00,FT,Kolos Kovalivka,3627,Chornomorets,3615,1,2,True
-1221008,2025-02-22T11:00:00+00:00,FT,Kryvbas KR,6489,Veres Rivne,6501,0,3,True
-1221003,2025-02-22T13:30:00+00:00,FT,Inhulets,3625,Polessya,6496,0,1,True
-1221006,2025-02-22T16:00:00+00:00,FT,Ruh Lviv,3632,LNZ Cherkasy,17161,0,1,True
-1221009,2025-02-23T11:00:00+00:00,FT,Obolon'-Brovar,3630,Vorskla Poltava,1121,1,0,True
-1221004,2025-02-23T13:30:00+00:00,FT,Oleksandria,3619,Zorya Luhansk,599,2,1,True
-1221007,2025-02-23T16:00:00+00:00,FT,Dynamo Kyiv,572,Karpaty,3617,2,0,True
-1220885,2025-02-24T16:00:00+00:00,FT,Shakhtar Donetsk,550,Livyi Bereh,17162,1,0,True
-1221014,2025-02-28T11:00:00+00:00,FT,Obolon'-Brovar,3630,Polessya,6496,0,0,True
-1221015,2025-02-28T13:30:00+00:00,FT,Vorskla Poltava,1121,Dynamo Kyiv,572,1,1,True
-1221011,2025-02-28T16:00:00+00:00,FT,Karpaty,3617,LNZ Cherkasy,17161,1,0,True
-1221017,2025-03-01T13:30:00+00:00,FT,Chornomorets,3615,Livyi Bereh,17162,0,1,True
-1221013,2025-03-01T16:00:00+00:00,FT,Shakhtar Donetsk,550,Oleksandria,3619,3,0,True
-1221016,2025-03-02T11:00:00+00:00,FT,Inhulets,3625,Kryvbas KR,6489,2,0,True
-1221012,2025-03-02T13:30:00+00:00,FT,Zorya Luhansk,599,Ruh Lviv,3632,2,0,True
-1221018,2025-03-02T16:00:00+00:00,FT,Veres Rivne,6501,Kolos Kovalivka,3627,2,1,True
-1221026,2025-03-06T11:00:00+00:00,FT,Vorskla Poltava,1121,Karpaty,3617,0,0,True
-1221023,2025-03-06T11:00:00+00:00,FT,Polessya,6496,Chornomorets,3615,3,1,True
-1221020,2025-03-06T13:30:00+00:00,FT,LNZ Cherkasy,17161,Dynamo Kyiv,572,1,2,True
-1221021,2025-03-06T16:00:00+00:00,FT,Shakhtar Donetsk,550,Kryvbas KR,6489,1,1,True
-1221024,2025-03-07T11:00:00+00:00,FT,Livyi Bereh,17162,Veres Rivne,6501,2,0,True
-1221025,2025-03-07T13:30:00+00:00,FT,Kolos Kovalivka,3627,Oleksandria,3619,0,1,True
-1221019,2025-03-07T16:00:00+00:00,FT,Zorya Luhansk,599,Obolon'-Brovar,3630,2,1,True
-1221022,2025-03-08T13:30:00+00:00,FT,Inhulets,3625,Ruh Lviv,3632,0,1,True
-1221028,2025-03-11T11:00:00+00:00,FT,Oleksandria,3619,Obolon'-Brovar,3630,4,0,True
-1221030,2025-03-11T13:30:00+00:00,FT,Dynamo Kyiv,572,Zorya Luhansk,599,2,2,True
-1221032,2025-03-11T13:30:00+00:00,FT,Veres Rivne,6501,Polessya,6496,5,1,True
-1221031,2025-03-11T16:00:00+00:00,FT,Karpaty,3617,Shakhtar Donetsk,550,0,0,True
-1221029,2025-03-15T16:00:00+00:00,FT,Ruh Lviv,3632,Vorskla Poltava,1121,0,1,True
-1220914,2025-03-16T11:00:00+00:00,FT,Inhulets,3625,Chornomorets,3615,1,0,True
-1220913,2025-03-16T13:30:00+00:00,FT,LNZ Cherkasy,17161,Kolos Kovalivka,3627,2,0,True
-1220922,2025-03-28T11:00:00+00:00,FT,Inhulets,3625,Veres Rivne,6501,0,0,True
-1221039,2025-03-28T13:30:00+00:00,FT,LNZ Cherkasy,17161,Polessya,6496,0,1,True
-1221036,2025-03-29T11:00:00+00:00,FT,Livyi Bereh,17162,Oleksandria,3619,0,1,True
-1221037,2025-03-29T13:30:00+00:00,FT,Obolon'-Brovar,3630,Shakhtar Donetsk,550,0,2,True
-1221035,2025-03-29T16:00:00+00:00,FT,Ruh Lviv,3632,Dynamo Kyiv,572,0,2,True
-1221040,2025-03-30T10:00:00+00:00,FT,Vorskla Poltava,1121,Kryvbas KR,6489,0,1,True
-1221038,2025-03-30T12:30:00+00:00,FT,Karpaty,3617,Chornomorets,3615,4,0,True
-1221041,2025-03-30T15:00:00+00:00,FT,Zorya Luhansk,599,Kolos Kovalivka,3627,0,3,True
-1221049,2025-04-04T12:30:00+00:00,FT,Inhulets,3625,Obolon'-Brovar,3630,0,1,True
-1221044,2025-04-05T10:45:00+00:00,FT,Vorskla Poltava,1121,Zorya Luhansk,599,1,2,True
-1221050,2025-04-05T12:30:00+00:00,FT,Chornomorets,3615,LNZ Cherkasy,17161,1,0,True
-1221045,2025-04-06T10:00:00+00:00,FT,Oleksandria,3619,Kryvbas KR,6489,1,0,True
-1221043,2025-04-06T12:30:00+00:00,FT,Dynamo Kyiv,572,Livyi Bereh,17162,2,0,True
-1221046,2025-04-06T15:00:00+00:00,FT,Shakhtar Donetsk,550,Veres Rivne,6501,3,0,True
-1221047,2025-04-07T12:30:00+00:00,FT,Kolos Kovalivka,3627,Ruh Lviv,3632,0,1,True
-1221048,2025-04-07T15:00:00+00:00,FT,Polessya,6496,Karpaty,3617,1,1,True
-1221056,2025-04-11T12:30:00+00:00,FT,LNZ Cherkasy,17161,Shakhtar Donetsk,550,1,4,True
-1221054,2025-04-12T11:05:00+00:00,FT,Kryvbas KR,6489,Dynamo Kyiv,572,0,2,True
-1221052,2025-04-12T12:30:00+00:00,FT,Ruh Lviv,3632,Oleksandria,3619,1,1,True
-1221058,2025-04-12T15:00:00+00:00,FT,Obolon'-Brovar,3630,Chornomorets,3615,1,0,True
-1220933,2025-04-13T10:00:00+00:00,FT,Vorskla Poltava,1121,Polessya,6496,0,2,True
-1221055,2025-04-13T12:30:00+00:00,FT,Livyi Bereh,17162,Kolos Kovalivka,3627,0,2,True
-1221057,2025-04-13T15:00:00+00:00,FT,Zorya Luhansk,599,Veres Rivne,6501,1,2,True
-1220937,2025-04-14T12:30:00+00:00,FT,Inhulets,3625,Karpaty,3617,1,2,True
-1220906,2025-04-16T11:45:00+00:00,FT,Kryvbas KR,6489,Shakhtar Donetsk,550,1,2,True
-1220943,2025-04-18T11:05:00+00:00,FT,Vorskla Poltava,1121,Oleksandria,3619,1,3,True
-1221063,2025-04-18T15:00:00+00:00,FT,Dynamo Kyiv,572,Obolon'-Brovar,3630,3,0,True
-1221059,2025-04-19T10:00:00+00:00,FT,Karpaty,3617,Ruh Lviv,3632,3,1,True
-1221065,2025-04-19T13:00:00+00:00,FT,Livyi Bereh,17162,Polessya,6496,1,1,True
-1221061,2025-04-19T15:00:00+00:00,FT,Shakhtar Donetsk,550,Kolos Kovalivka,3627,2,4,True
-1221064,2025-04-20T10:00:00+00:00,FT,Kryvbas KR,6489,Zorya Luhansk,599,3,0,True
-1221066,2025-04-20T12:30:00+00:00,FT,Inhulets,3625,LNZ Cherkasy,17161,0,0,True
-1221060,2025-04-20T15:00:00+00:00,FT,Veres Rivne,6501,Chornomorets,3615,2,1,True
-1220947,2025-04-25T12:30:00+00:00,FT,Inhulets,3625,Oleksandria,3619,0,1,True
-1221071,2025-04-25T15:00:00+00:00,FT,Zorya Luhansk,599,Livyi Bereh,17162,2,1,True
-1221069,2025-04-26T10:00:00+00:00,FT,Chornomorets,3615,Ruh Lviv,3632,1,2,True
-1221070,2025-04-26T12:30:00+00:00,FT,LNZ Cherkasy,17161,Kryvbas KR,6489,0,0,True
-1221067,2025-04-26T15:00:00+00:00,FT,Obolon'-Brovar,3630,Karpaty,3617,2,2,True
-1221074,2025-04-27T10:00:00+00:00,FT,Vorskla Poltava,1121,Veres Rivne,6501,3,0,True
-1221073,2025-04-27T12:30:00+00:00,FT,Kolos Kovalivka,3627,Polessya,6496,1,1,True
-1221068,2025-04-27T15:00:00+00:00,FT,Shakhtar Donetsk,550,Dynamo Kyiv,572,2,2,True
-1220993,2025-04-30T10:00:00+00:00,FT,Inhulets,3625,Zorya Luhansk,599,1,0,True
-1221078,2025-05-02T12:30:00+00:00,FT,Livyi Bereh,17162,Karpaty,3617,2,3,True
-1221076,2025-05-02T15:00:00+00:00,FT,Ruh Lviv,3632,Kryvbas KR,6489,0,0,True
-1221082,2025-05-03T10:00:00+00:00,FT,Chornomorets,3615,Shakhtar Donetsk,550,0,3,True
-1220958,2025-05-03T12:30:00+00:00,FT,Inhulets,3625,Dynamo Kyiv,572,0,4,True
-1221081,2025-05-03T15:00:00+00:00,FT,Veres Rivne,6501,Obolon'-Brovar,3630,0,2,True
-1221079,2025-05-04T11:00:00+00:00,FT,LNZ Cherkasy,17161,Zorya Luhansk,599,1,1,True
-1221075,2025-05-04T12:30:00+00:00,FT,Kolos Kovalivka,3627,Vorskla Poltava,1121,0,0,True
-1221080,2025-05-04T15:00:00+00:00,FT,Polessya,6496,Oleksandria,3619,1,2,True
-1221033,2025-05-07T10:00:00+00:00,FT,Kryvbas KR,6489,Livyi Bereh,17162,4,0,True
-1221088,2025-05-09T12:30:00+00:00,FT,Zorya Luhansk,599,Shakhtar Donetsk,550,0,0,True
-1221083,2025-05-09T15:00:00+00:00,FT,Polessya,6496,Dynamo Kyiv,572,0,0,True
-1221090,2025-05-10T10:00:00+00:00,FT,Vorskla Poltava,1121,Chornomorets,3615,1,2,True
-1221089,2025-05-10T12:30:00+00:00,FT,Obolon'-Brovar,3630,LNZ Cherkasy,17161,0,0,True
-1221085,2025-05-10T15:00:00+00:00,FT,Ruh Lviv,3632,Veres Rivne,6501,2,0,True
-1221086,2025-05-11T11:35:00+00:00,FT,Kryvbas KR,6489,Kolos Kovalivka,3627,0,1,True
-1221084,2025-05-11T15:00:00+00:00,FT,Karpaty,3617,Oleksandria,3619,2,1,True
-1221087,2025-05-12T12:30:00+00:00,FT,Inhulets,3625,Livyi Bereh,17162,2,1,True
-1221091,2025-05-17T10:00:00+00:00,FT,Zorya Luhansk,599,Polessya,6496,0,1,True
-1221097,2025-05-17T10:00:00+00:00,FT,Kolos Kovalivka,3627,Karpaty,3617,2,1,True
-1221096,2025-05-17T10:00:00+00:00,FT,Kryvbas KR,6489,Obolon'-Brovar,3630,1,0,True
-1221095,2025-05-18T12:30:00+00:00,FT,Chornomorets,3615,Dynamo Kyiv,572,1,1,True
-1221092,2025-05-18T12:30:00+00:00,FT,Oleksandria,3619,Veres Rivne,6501,3,1,True
-1220973,2025-05-18T12:30:00+00:00,FT,Inhulets,3625,Shakhtar Donetsk,550,1,4,True
-1221098,2025-05-18T12:30:00+00:00,FT,LNZ Cherkasy,17161,Vorskla Poltava,1121,0,0,True
-1221094,2025-05-18T12:30:00+00:00,FT,Livyi Bereh,17162,Ruh Lviv,3632,1,0,True
-1221100,2025-05-23T12:30:00+00:00,FT,Inhulets,3625,Vorskla Poltava,1121,1,1,True
-1221104,2025-05-23T12:30:00+00:00,FT,Obolon'-Brovar,3630,Livyi Bereh,17162,1,0,True
-1221105,2025-05-24T10:00:00+00:00,FT,Chornomorets,3615,Oleksandria,3619,0,0,True
-1221101,2025-05-24T12:30:00+00:00,FT,Ruh Lviv,3632,Shakhtar Donetsk,550,1,1,True
-1221102,2025-05-24T15:00:00+00:00,FT,Dynamo Kyiv,572,Kolos Kovalivka,3627,1,1,True
-1221099,2025-05-25T12:30:00+00:00,FT,Veres Rivne,6501,LNZ Cherkasy,17161,1,1,True
-1221106,2025-05-25T15:00:00+00:00,FT,Karpaty,3617,Zorya Luhansk,599,1,3,True
-1221103,2025-05-25T15:00:00+00:00,FT,Polessya,6496,Kryvbas KR,6489,1,1,True
-1376885,2025-05-29T12:30:00+00:00,FT,Kudrivka,21953,Vorskla Poltava,1121,1,2,True
-1376887,2025-05-29T15:00:00+00:00,FT,Livyi Bereh,17162,FC Kharkiv,3628,0,1,True
-1376886,2025-06-01T10:00:00+00:00,PEN,Vorskla Poltava,1121,Kudrivka,21953,0,1,False
-1376888,2025-06-01T12:45:00+00:00,FT,FC Kharkiv,3628,Livyi Bereh,17162,1,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1265720,2024-07-26T12:30:00+00:00,PEN,Additional Qualification,Livyi Bereh,17162,FC Kharkiv,3628,1,1,False
+1265721,2024-07-26T15:00:00+00:00,PEN,Additional Qualification,Epitsentr Dunayivtsi,14434,Minai,4658,3,3,False
+1268866,2024-07-30T15:00:00+00:00,FT,Play-offs - Final,Livyi Bereh,17162,Minai,4658,3,0,True
+1220872,2024-08-03T12:30:00+00:00,FT,Regular Season - 1,Veres Rivne,6501,Karpaty,3617,0,0,True
+1220869,2024-08-03T15:00:00+00:00,FT,Regular Season - 1,Kryvbas KR,6489,Chornomorets,3615,1,0,True
+1220987,2024-08-04T10:00:00+00:00,FT,Regular Season - 1,LNZ Cherkasy,17161,Livyi Bereh,17162,1,0,True
+1220868,2024-08-04T12:30:00+00:00,FT,Regular Season - 1,Vorskla Poltava,1121,Shakhtar Donetsk,550,0,5,True
+1220874,2024-08-04T12:30:00+00:00,FT,Regular Season - 1,Obolon'-Brovar,3630,Kolos Kovalivka,3627,2,2,True
+1220871,2024-08-04T15:00:00+00:00,FT,Regular Season - 1,Zorya Luhansk,599,Inhulets,3625,2,1,True
+1220880,2024-08-09T12:30:00+00:00,FT,Regular Season - 2,Livyi Bereh,17162,Vorskla Poltava,1121,0,3,True
+1220998,2024-08-09T15:00:00+00:00,FT,Regular Season - 2,Veres Rivne,6501,Dynamo Kyiv,572,1,2,True
+1220875,2024-08-10T12:30:00+00:00,FT,Regular Season - 2,Chornomorets,3615,Zorya Luhansk,599,0,1,True
+1220882,2024-08-10T15:00:00+00:00,FT,Regular Season - 2,Kolos Kovalivka,3627,Inhulets,3625,0,0,True
+1220876,2024-08-11T10:00:00+00:00,FT,Regular Season - 2,Obolon'-Brovar,3630,Ruh Lviv,3632,0,4,True
+1220879,2024-08-11T12:30:00+00:00,FT,Regular Season - 2,Karpaty,3617,Kryvbas KR,6489,3,0,True
+1220878,2024-08-11T15:00:00+00:00,FT,Regular Season - 2,Shakhtar Donetsk,550,Polessya,6496,0,1,True
+1220881,2024-08-12T12:30:00+00:00,FT,Regular Season - 2,LNZ Cherkasy,17161,Oleksandria,3619,0,2,True
+1220890,2024-08-16T12:30:00+00:00,FT,Regular Season - 3,Chornomorets,3615,Kolos Kovalivka,3627,1,0,True
+1220884,2024-08-16T15:00:00+00:00,FT,Regular Season - 3,Vorskla Poltava,1121,Obolon'-Brovar,3630,2,0,True
+1220887,2024-08-17T10:00:00+00:00,FT,Regular Season - 3,Zorya Luhansk,599,Oleksandria,3619,1,2,True
+1220888,2024-08-17T12:30:00+00:00,FT,Regular Season - 3,Polessya,6496,Inhulets,3625,1,1,True
+1220883,2024-08-17T15:00:00+00:00,FT,Regular Season - 3,Karpaty,3617,Dynamo Kyiv,572,1,3,True
+1220889,2024-08-18T12:30:00+00:00,FT,Regular Season - 3,Veres Rivne,6501,Kryvbas KR,6489,0,2,True
+1220886,2024-08-18T12:30:00+00:00,FT,Regular Season - 3,LNZ Cherkasy,17161,Ruh Lviv,3632,3,1,True
+1221005,2024-08-18T15:00:00+00:00,FT,Regular Season - 3,Livyi Bereh,17162,Shakhtar Donetsk,550,0,1,True
+1220892,2024-08-24T10:00:00+00:00,FT,Regular Season - 4,Oleksandria,3619,Shakhtar Donetsk,550,4,3,True
+1220897,2024-08-25T10:00:00+00:00,FT,Regular Season - 4,Polessya,6496,Obolon'-Brovar,3630,4,0,True
+1220893,2024-08-25T12:30:00+00:00,FT,Regular Season - 4,Ruh Lviv,3632,Zorya Luhansk,599,3,0,True
+1220895,2024-08-25T15:00:00+00:00,FT,Regular Season - 4,Kryvbas KR,6489,Inhulets,3625,1,1,True
+1220896,2024-08-26T12:30:00+00:00,FT,Regular Season - 4,Livyi Bereh,17162,Chornomorets,3615,1,0,True
+1220898,2024-08-26T15:00:00+00:00,FT,Regular Season - 4,Kolos Kovalivka,3627,Veres Rivne,6501,0,1,True
+1220891,2024-08-26T16:00:00+00:00,FT,Regular Season - 4,LNZ Cherkasy,17161,Karpaty,3617,2,1,True
+1220899,2024-08-30T12:30:00+00:00,FT,Regular Season - 5,Obolon'-Brovar,3630,Zorya Luhansk,599,0,2,True
+1220901,2024-08-30T15:00:00+00:00,FT,Regular Season - 5,Ruh Lviv,3632,Inhulets,3625,5,0,True
+1220905,2024-08-31T10:00:00+00:00,FT,Regular Season - 5,Karpaty,3617,Vorskla Poltava,1121,1,1,True
+1220900,2024-08-31T12:30:00+00:00,FT,Regular Season - 5,Oleksandria,3619,Kolos Kovalivka,3627,2,1,True
+1220903,2024-08-31T15:00:00+00:00,FT,Regular Season - 5,Chornomorets,3615,Polessya,6496,1,4,True
+1220904,2024-09-01T10:00:00+00:00,FT,Regular Season - 5,Veres Rivne,6501,Livyi Bereh,17162,1,3,True
+1220902,2024-09-01T12:30:00+00:00,FT,Regular Season - 5,Dynamo Kyiv,572,LNZ Cherkasy,17161,1,0,True
+1220908,2024-09-13T15:00:00+00:00,FT,Regular Season - 6,Obolon'-Brovar,3630,Oleksandria,3619,0,0,True
+1221027,2024-09-14T10:00:00+00:00,FT,Regular Season - 6,Chornomorets,3615,Inhulets,3625,1,0,True
+1220911,2024-09-14T12:30:00+00:00,FT,Regular Season - 6,Zorya Luhansk,599,Dynamo Kyiv,572,0,2,True
+1220909,2024-09-14T15:00:00+00:00,FT,Regular Season - 6,Shakhtar Donetsk,550,Karpaty,3617,5,2,True
+1220910,2024-09-15T10:00:00+00:00,FT,Regular Season - 6,Vorskla Poltava,1121,Ruh Lviv,3632,0,0,True
+1220912,2024-09-15T12:30:00+00:00,FT,Regular Season - 6,Livyi Bereh,17162,Kryvbas KR,6489,0,1,True
+1220907,2024-09-15T15:00:00+00:00,FT,Regular Season - 6,Polessya,6496,Veres Rivne,6501,2,1,True
+1221034,2024-09-16T15:00:00+00:00,FT,Regular Season - 6,Kolos Kovalivka,3627,LNZ Cherkasy,17161,1,1,True
+1220894,2024-09-18T15:00:00+00:00,FT,Regular Season - 4,Dynamo Kyiv,572,Vorskla Poltava,1121,3,1,True
+1220921,2024-09-21T10:00:00+00:00,FT,Regular Season - 7,Chornomorets,3615,Karpaty,3617,0,1,True
+1220916,2024-09-21T12:30:00+00:00,FT,Regular Season - 7,Oleksandria,3619,Livyi Bereh,17162,2,0,True
+1220918,2024-09-21T15:00:00+00:00,FT,Regular Season - 7,Dynamo Kyiv,572,Ruh Lviv,3632,0,0,True
+1221042,2024-09-22T10:00:00+00:00,FT,Regular Season - 7,Veres Rivne,6501,Inhulets,3625,2,2,True
+1220919,2024-09-22T12:30:00+00:00,FT,Regular Season - 7,Kryvbas KR,6489,Vorskla Poltava,1121,1,1,True
+1220920,2024-09-22T15:00:00+00:00,FT,Regular Season - 7,Polessya,6496,LNZ Cherkasy,17161,1,1,True
+1220915,2024-09-23T12:30:00+00:00,FT,Regular Season - 7,Kolos Kovalivka,3627,Zorya Luhansk,599,1,0,True
+1220917,2024-09-23T15:00:00+00:00,FT,Regular Season - 7,Shakhtar Donetsk,550,Obolon'-Brovar,3630,4,0,True
+1220924,2024-09-27T15:00:00+00:00,FT,Regular Season - 8,Veres Rivne,6501,Shakhtar Donetsk,550,1,1,True
+1220929,2024-09-28T10:00:00+00:00,FT,Regular Season - 8,Kryvbas KR,6489,Oleksandria,3619,0,1,True
+1220930,2024-09-28T12:30:00+00:00,FT,Regular Season - 8,LNZ Cherkasy,17161,Chornomorets,3615,1,1,True
+1220926,2024-09-28T15:00:00+00:00,FT,Regular Season - 8,Karpaty,3617,Polessya,6496,1,3,True
+1220923,2024-09-29T10:00:00+00:00,FT,Regular Season - 8,Obolon'-Brovar,3630,Inhulets,3625,2,1,True
+1220925,2024-09-29T12:30:00+00:00,FT,Regular Season - 8,Ruh Lviv,3632,Kolos Kovalivka,3627,0,0,True
+1220927,2024-09-29T15:00:00+00:00,FT,Regular Season - 8,Livyi Bereh,17162,Dynamo Kyiv,572,0,3,True
+1220928,2024-09-30T15:00:00+00:00,FT,Regular Season - 8,Zorya Luhansk,599,Vorskla Poltava,1121,2,0,True
+1220938,2024-10-04T12:30:00+00:00,FT,Regular Season - 9,Chornomorets,3615,Obolon'-Brovar,3630,1,0,True
+1221053,2024-10-04T15:00:00+00:00,FT,Regular Season - 9,Karpaty,3617,Inhulets,3625,0,0,True
+1220935,2024-10-05T10:00:00+00:00,FT,Regular Season - 9,Veres Rivne,6501,Zorya Luhansk,599,2,1,True
+1220936,2024-10-05T12:30:00+00:00,FT,Regular Season - 9,Oleksandria,3619,Ruh Lviv,3632,1,1,True
+1220934,2024-10-05T15:00:00+00:00,FT,Regular Season - 9,Kolos Kovalivka,3627,Livyi Bereh,17162,0,0,True
+1221051,2024-10-06T10:00:00+00:00,FT,Regular Season - 9,Polessya,6496,Vorskla Poltava,1121,2,1,True
+1220932,2024-10-06T12:30:00+00:00,FT,Regular Season - 9,Shakhtar Donetsk,550,LNZ Cherkasy,17161,5,1,True
+1220931,2024-10-06T15:00:00+00:00,FT,Regular Season - 9,Dynamo Kyiv,572,Kryvbas KR,6489,2,1,True
+1220940,2024-10-18T15:00:00+00:00,FT,Regular Season - 10,Kolos Kovalivka,3627,Shakhtar Donetsk,550,0,1,True
+1221062,2024-10-19T10:00:00+00:00,FT,Regular Season - 10,Oleksandria,3619,Vorskla Poltava,1121,1,0,True
+1220942,2024-10-19T12:30:00+00:00,FT,Regular Season - 10,Obolon'-Brovar,3630,Dynamo Kyiv,572,1,5,True
+1220944,2024-10-19T15:00:00+00:00,FT,Regular Season - 10,Polessya,6496,Livyi Bereh,17162,0,0,True
+1220946,2024-10-20T10:00:00+00:00,FT,Regular Season - 10,LNZ Cherkasy,17161,Inhulets,3625,2,0,True
+1220945,2024-10-20T12:30:00+00:00,FT,Regular Season - 10,Chornomorets,3615,Veres Rivne,6501,1,1,True
+1220939,2024-10-20T15:00:00+00:00,FT,Regular Season - 10,Zorya Luhansk,599,Kryvbas KR,6489,0,1,True
+1220941,2024-10-21T15:00:00+00:00,FT,Regular Season - 10,Ruh Lviv,3632,Karpaty,3617,0,1,True
+1220949,2024-10-25T12:30:00+00:00,FT,Regular Season - 11,Ruh Lviv,3632,Chornomorets,3615,1,1,True
+1220950,2024-10-25T15:00:00+00:00,FT,Regular Season - 11,Polessya,6496,Kolos Kovalivka,3627,1,1,True
+1221072,2024-10-26T10:00:00+00:00,FT,Regular Season - 11,Oleksandria,3619,Inhulets,3625,2,1,True
+1220951,2024-10-26T12:30:00+00:00,FT,Regular Season - 11,Kryvbas KR,6489,LNZ Cherkasy,17161,3,1,True
+1220953,2024-10-26T15:00:00+00:00,FT,Regular Season - 11,Karpaty,3617,Obolon'-Brovar,3630,1,0,True
+1220952,2024-10-27T10:00:00+00:00,FT,Regular Season - 11,Livyi Bereh,17162,Zorya Luhansk,599,0,2,True
+1220954,2024-10-27T12:30:00+00:00,FT,Regular Season - 11,Veres Rivne,6501,Vorskla Poltava,1121,2,2,True
+1220948,2024-10-27T15:00:00+00:00,FT,Regular Season - 11,Dynamo Kyiv,572,Shakhtar Donetsk,550,1,1,True
+1220959,2024-11-02T13:30:00+00:00,FT,Regular Season - 12,Karpaty,3617,Livyi Bereh,17162,3,0,True
+1220962,2024-11-02T16:00:00+00:00,FT,Regular Season - 12,Shakhtar Donetsk,550,Chornomorets,3615,2,1,True
+1220956,2024-11-03T11:00:00+00:00,FT,Regular Season - 12,Vorskla Poltava,1121,Kolos Kovalivka,3627,0,1,True
+1220955,2024-11-03T13:30:00+00:00,FT,Regular Season - 12,Oleksandria,3619,Polessya,6496,1,0,True
+1221077,2024-11-03T16:00:00+00:00,FT,Regular Season - 12,Dynamo Kyiv,572,Inhulets,3625,5,2,True
+1220961,2024-11-04T11:00:00+00:00,FT,Regular Season - 12,Obolon'-Brovar,3630,Veres Rivne,6501,0,0,True
+1220957,2024-11-04T13:30:00+00:00,FT,Regular Season - 12,Kryvbas KR,6489,Ruh Lviv,3632,1,1,True
+1220960,2024-11-04T16:00:00+00:00,FT,Regular Season - 12,Zorya Luhansk,599,LNZ Cherkasy,17161,1,2,True
+1220970,2024-11-08T13:30:00+00:00,FT,Regular Season - 13,Chornomorets,3615,Vorskla Poltava,1121,0,1,True
+1220968,2024-11-08T16:00:00+00:00,FT,Regular Season - 13,Livyi Bereh,17162,Inhulets,3625,0,0,True
+1220964,2024-11-09T11:00:00+00:00,FT,Regular Season - 13,LNZ Cherkasy,17161,Obolon'-Brovar,3630,0,1,True
+1220969,2024-11-09T13:30:00+00:00,FT,Regular Season - 13,Oleksandria,3619,Karpaty,3617,3,0,True
+1220965,2024-11-09T16:00:00+00:00,FT,Regular Season - 13,Kolos Kovalivka,3627,Kryvbas KR,6489,1,1,True
+1220963,2024-11-10T11:00:00+00:00,FT,Regular Season - 13,Veres Rivne,6501,Ruh Lviv,3632,2,0,True
+1220967,2024-11-10T13:30:00+00:00,FT,Regular Season - 13,Shakhtar Donetsk,550,Zorya Luhansk,599,3,1,True
+1220966,2024-11-10T16:00:00+00:00,FT,Regular Season - 13,Dynamo Kyiv,572,Polessya,6496,2,1,True
+1220971,2024-11-22T16:00:00+00:00,FT,Regular Season - 14,Karpaty,3617,Kolos Kovalivka,3627,1,0,True
+1220978,2024-11-23T11:00:00+00:00,FT,Regular Season - 14,Vorskla Poltava,1121,LNZ Cherkasy,17161,2,0,True
+1220976,2024-11-23T13:30:00+00:00,FT,Regular Season - 14,Dynamo Kyiv,572,Chornomorets,3615,3,1,True
+1221093,2024-11-23T16:00:00+00:00,FT,Regular Season - 14,Shakhtar Donetsk,550,Inhulets,3625,6,0,True
+1220977,2024-11-24T11:00:00+00:00,FT,Regular Season - 14,Obolon'-Brovar,3630,Kryvbas KR,6489,0,1,True
+1220972,2024-11-24T13:30:00+00:00,FT,Regular Season - 14,Veres Rivne,6501,Oleksandria,3619,1,1,True
+1220974,2024-11-24T16:00:00+00:00,FT,Regular Season - 14,Ruh Lviv,3632,Livyi Bereh,17162,1,0,True
+1220975,2024-11-25T16:00:00+00:00,FT,Regular Season - 14,Polessya,6496,Zorya Luhansk,599,1,1,True
+1220985,2024-11-29T13:30:00+00:00,FT,Regular Season - 15,Vorskla Poltava,1121,Inhulets,3625,0,3,True
+1220986,2024-11-30T11:00:00+00:00,FT,Regular Season - 15,LNZ Cherkasy,17161,Veres Rivne,6501,1,2,True
+1220979,2024-11-30T13:30:00+00:00,FT,Regular Season - 15,Kryvbas KR,6489,Polessya,6496,3,1,True
+1220982,2024-11-30T16:00:00+00:00,FT,Regular Season - 15,Livyi Bereh,17162,Obolon'-Brovar,3630,1,1,True
+1220980,2024-12-01T11:00:00+00:00,FT,Regular Season - 15,Oleksandria,3619,Chornomorets,3615,3,0,True
+1220981,2024-12-01T13:30:00+00:00,FT,Regular Season - 15,Kolos Kovalivka,3627,Dynamo Kyiv,572,1,1,True
+1220983,2024-12-01T16:00:00+00:00,FT,Regular Season - 15,Shakhtar Donetsk,550,Ruh Lviv,3632,1,1,True
+1220984,2024-12-02T16:00:00+00:00,FT,Regular Season - 15,Zorya Luhansk,599,Karpaty,3617,2,1,True
+1220867,2024-12-04T13:30:00+00:00,FT,Regular Season - 1,Oleksandria,3619,Dynamo Kyiv,572,0,0,True
+1220873,2024-12-04T16:00:00+00:00,FT,Regular Season - 1,Ruh Lviv,3632,Polessya,6496,1,1,True
+1220989,2024-12-05T16:00:00+00:00,FT,Regular Season - 16,Shakhtar Donetsk,550,Vorskla Poltava,1121,3,1,True
+1220870,2024-12-07T11:00:00+00:00,FT,Regular Season - 16,Livyi Bereh,17162,LNZ Cherkasy,17161,3,1,True
+1220990,2024-12-07T13:30:00+00:00,FT,Regular Season - 16,Chornomorets,3615,Kryvbas KR,6489,1,3,True
+1220991,2024-12-07T16:00:00+00:00,FT,Regular Season - 16,Karpaty,3617,Veres Rivne,6501,5,0,True
+1220994,2024-12-08T13:30:00+00:00,FT,Regular Season - 16,Kolos Kovalivka,3627,Obolon'-Brovar,3630,0,0,True
+1220988,2024-12-08T16:00:00+00:00,FT,Regular Season - 16,Dynamo Kyiv,572,Oleksandria,3619,3,0,True
+1220992,2024-12-09T16:00:00+00:00,FT,Regular Season - 16,Polessya,6496,Ruh Lviv,3632,0,1,True
+1220995,2024-12-13T13:30:00+00:00,FT,Regular Season - 17,Vorskla Poltava,1121,Livyi Bereh,17162,0,1,True
+1221000,2024-12-14T11:00:00+00:00,FT,Regular Season - 17,Oleksandria,3619,LNZ Cherkasy,17161,1,1,True
+1220999,2024-12-14T13:30:00+00:00,FT,Regular Season - 17,Kryvbas KR,6489,Karpaty,3617,2,0,True
+1221001,2024-12-14T16:00:00+00:00,FT,Regular Season - 17,Zorya Luhansk,599,Chornomorets,3615,2,1,True
+1221002,2024-12-15T11:00:00+00:00,FT,Regular Season - 17,Inhulets,3625,Kolos Kovalivka,3627,0,2,True
+1220997,2024-12-15T13:30:00+00:00,FT,Regular Season - 17,Ruh Lviv,3632,Obolon'-Brovar,3630,1,3,True
+1220996,2024-12-15T16:00:00+00:00,FT,Regular Season - 17,Polessya,6496,Shakhtar Donetsk,550,1,0,True
+1220877,2024-12-16T11:00:00+00:00,FT,Regular Season - 17,Dynamo Kyiv,572,Veres Rivne,6501,1,0,True
+1221010,2025-02-21T13:30:00+00:00,FT,Regular Season - 18,Kolos Kovalivka,3627,Chornomorets,3615,1,2,True
+1221008,2025-02-22T11:00:00+00:00,FT,Regular Season - 18,Kryvbas KR,6489,Veres Rivne,6501,0,3,True
+1221003,2025-02-22T13:30:00+00:00,FT,Regular Season - 18,Inhulets,3625,Polessya,6496,0,1,True
+1221006,2025-02-22T16:00:00+00:00,FT,Regular Season - 18,Ruh Lviv,3632,LNZ Cherkasy,17161,0,1,True
+1221009,2025-02-23T11:00:00+00:00,FT,Regular Season - 18,Obolon'-Brovar,3630,Vorskla Poltava,1121,1,0,True
+1221004,2025-02-23T13:30:00+00:00,FT,Regular Season - 18,Oleksandria,3619,Zorya Luhansk,599,2,1,True
+1221007,2025-02-23T16:00:00+00:00,FT,Regular Season - 18,Dynamo Kyiv,572,Karpaty,3617,2,0,True
+1220885,2025-02-24T16:00:00+00:00,FT,Regular Season - 18,Shakhtar Donetsk,550,Livyi Bereh,17162,1,0,True
+1221014,2025-02-28T11:00:00+00:00,FT,Regular Season - 19,Obolon'-Brovar,3630,Polessya,6496,0,0,True
+1221015,2025-02-28T13:30:00+00:00,FT,Regular Season - 19,Vorskla Poltava,1121,Dynamo Kyiv,572,1,1,True
+1221011,2025-02-28T16:00:00+00:00,FT,Regular Season - 19,Karpaty,3617,LNZ Cherkasy,17161,1,0,True
+1221017,2025-03-01T13:30:00+00:00,FT,Regular Season - 19,Chornomorets,3615,Livyi Bereh,17162,0,1,True
+1221013,2025-03-01T16:00:00+00:00,FT,Regular Season - 19,Shakhtar Donetsk,550,Oleksandria,3619,3,0,True
+1221016,2025-03-02T11:00:00+00:00,FT,Regular Season - 19,Inhulets,3625,Kryvbas KR,6489,2,0,True
+1221012,2025-03-02T13:30:00+00:00,FT,Regular Season - 19,Zorya Luhansk,599,Ruh Lviv,3632,2,0,True
+1221018,2025-03-02T16:00:00+00:00,FT,Regular Season - 19,Veres Rivne,6501,Kolos Kovalivka,3627,2,1,True
+1221026,2025-03-06T11:00:00+00:00,FT,Regular Season - 20,Vorskla Poltava,1121,Karpaty,3617,0,0,True
+1221023,2025-03-06T11:00:00+00:00,FT,Regular Season - 20,Polessya,6496,Chornomorets,3615,3,1,True
+1221020,2025-03-06T13:30:00+00:00,FT,Regular Season - 20,LNZ Cherkasy,17161,Dynamo Kyiv,572,1,2,True
+1221021,2025-03-06T16:00:00+00:00,FT,Regular Season - 20,Shakhtar Donetsk,550,Kryvbas KR,6489,1,1,True
+1221024,2025-03-07T11:00:00+00:00,FT,Regular Season - 20,Livyi Bereh,17162,Veres Rivne,6501,2,0,True
+1221025,2025-03-07T13:30:00+00:00,FT,Regular Season - 20,Kolos Kovalivka,3627,Oleksandria,3619,0,1,True
+1221019,2025-03-07T16:00:00+00:00,FT,Regular Season - 20,Zorya Luhansk,599,Obolon'-Brovar,3630,2,1,True
+1221022,2025-03-08T13:30:00+00:00,FT,Regular Season - 20,Inhulets,3625,Ruh Lviv,3632,0,1,True
+1221028,2025-03-11T11:00:00+00:00,FT,Regular Season - 21,Oleksandria,3619,Obolon'-Brovar,3630,4,0,True
+1221030,2025-03-11T13:30:00+00:00,FT,Regular Season - 21,Dynamo Kyiv,572,Zorya Luhansk,599,2,2,True
+1221032,2025-03-11T13:30:00+00:00,FT,Regular Season - 21,Veres Rivne,6501,Polessya,6496,5,1,True
+1221031,2025-03-11T16:00:00+00:00,FT,Regular Season - 21,Karpaty,3617,Shakhtar Donetsk,550,0,0,True
+1221029,2025-03-15T16:00:00+00:00,FT,Regular Season - 21,Ruh Lviv,3632,Vorskla Poltava,1121,0,1,True
+1220914,2025-03-16T11:00:00+00:00,FT,Regular Season - 21,Inhulets,3625,Chornomorets,3615,1,0,True
+1220913,2025-03-16T13:30:00+00:00,FT,Regular Season - 21,LNZ Cherkasy,17161,Kolos Kovalivka,3627,2,0,True
+1220922,2025-03-28T11:00:00+00:00,FT,Regular Season - 22,Inhulets,3625,Veres Rivne,6501,0,0,True
+1221039,2025-03-28T13:30:00+00:00,FT,Regular Season - 22,LNZ Cherkasy,17161,Polessya,6496,0,1,True
+1221036,2025-03-29T11:00:00+00:00,FT,Regular Season - 22,Livyi Bereh,17162,Oleksandria,3619,0,1,True
+1221037,2025-03-29T13:30:00+00:00,FT,Regular Season - 22,Obolon'-Brovar,3630,Shakhtar Donetsk,550,0,2,True
+1221035,2025-03-29T16:00:00+00:00,FT,Regular Season - 22,Ruh Lviv,3632,Dynamo Kyiv,572,0,2,True
+1221040,2025-03-30T10:00:00+00:00,FT,Regular Season - 22,Vorskla Poltava,1121,Kryvbas KR,6489,0,1,True
+1221038,2025-03-30T12:30:00+00:00,FT,Regular Season - 22,Karpaty,3617,Chornomorets,3615,4,0,True
+1221041,2025-03-30T15:00:00+00:00,FT,Regular Season - 22,Zorya Luhansk,599,Kolos Kovalivka,3627,0,3,True
+1221049,2025-04-04T12:30:00+00:00,FT,Regular Season - 23,Inhulets,3625,Obolon'-Brovar,3630,0,1,True
+1221044,2025-04-05T10:45:00+00:00,FT,Regular Season - 23,Vorskla Poltava,1121,Zorya Luhansk,599,1,2,True
+1221050,2025-04-05T12:30:00+00:00,FT,Regular Season - 23,Chornomorets,3615,LNZ Cherkasy,17161,1,0,True
+1221045,2025-04-06T10:00:00+00:00,FT,Regular Season - 23,Oleksandria,3619,Kryvbas KR,6489,1,0,True
+1221043,2025-04-06T12:30:00+00:00,FT,Regular Season - 23,Dynamo Kyiv,572,Livyi Bereh,17162,2,0,True
+1221046,2025-04-06T15:00:00+00:00,FT,Regular Season - 23,Shakhtar Donetsk,550,Veres Rivne,6501,3,0,True
+1221047,2025-04-07T12:30:00+00:00,FT,Regular Season - 23,Kolos Kovalivka,3627,Ruh Lviv,3632,0,1,True
+1221048,2025-04-07T15:00:00+00:00,FT,Regular Season - 23,Polessya,6496,Karpaty,3617,1,1,True
+1221056,2025-04-11T12:30:00+00:00,FT,Regular Season - 24,LNZ Cherkasy,17161,Shakhtar Donetsk,550,1,4,True
+1221054,2025-04-12T11:05:00+00:00,FT,Regular Season - 24,Kryvbas KR,6489,Dynamo Kyiv,572,0,2,True
+1221052,2025-04-12T12:30:00+00:00,FT,Regular Season - 24,Ruh Lviv,3632,Oleksandria,3619,1,1,True
+1221058,2025-04-12T15:00:00+00:00,FT,Regular Season - 24,Obolon'-Brovar,3630,Chornomorets,3615,1,0,True
+1220933,2025-04-13T10:00:00+00:00,FT,Regular Season - 24,Vorskla Poltava,1121,Polessya,6496,0,2,True
+1221055,2025-04-13T12:30:00+00:00,FT,Regular Season - 24,Livyi Bereh,17162,Kolos Kovalivka,3627,0,2,True
+1221057,2025-04-13T15:00:00+00:00,FT,Regular Season - 24,Zorya Luhansk,599,Veres Rivne,6501,1,2,True
+1220937,2025-04-14T12:30:00+00:00,FT,Regular Season - 24,Inhulets,3625,Karpaty,3617,1,2,True
+1220906,2025-04-16T11:45:00+00:00,FT,Regular Season - 5,Kryvbas KR,6489,Shakhtar Donetsk,550,1,2,True
+1220943,2025-04-18T11:05:00+00:00,FT,Regular Season - 25,Vorskla Poltava,1121,Oleksandria,3619,1,3,True
+1221063,2025-04-18T15:00:00+00:00,FT,Regular Season - 25,Dynamo Kyiv,572,Obolon'-Brovar,3630,3,0,True
+1221059,2025-04-19T10:00:00+00:00,FT,Regular Season - 25,Karpaty,3617,Ruh Lviv,3632,3,1,True
+1221065,2025-04-19T13:00:00+00:00,FT,Regular Season - 25,Livyi Bereh,17162,Polessya,6496,1,1,True
+1221061,2025-04-19T15:00:00+00:00,FT,Regular Season - 25,Shakhtar Donetsk,550,Kolos Kovalivka,3627,2,4,True
+1221064,2025-04-20T10:00:00+00:00,FT,Regular Season - 25,Kryvbas KR,6489,Zorya Luhansk,599,3,0,True
+1221066,2025-04-20T12:30:00+00:00,FT,Regular Season - 25,Inhulets,3625,LNZ Cherkasy,17161,0,0,True
+1221060,2025-04-20T15:00:00+00:00,FT,Regular Season - 25,Veres Rivne,6501,Chornomorets,3615,2,1,True
+1220947,2025-04-25T12:30:00+00:00,FT,Regular Season - 26,Inhulets,3625,Oleksandria,3619,0,1,True
+1221071,2025-04-25T15:00:00+00:00,FT,Regular Season - 26,Zorya Luhansk,599,Livyi Bereh,17162,2,1,True
+1221069,2025-04-26T10:00:00+00:00,FT,Regular Season - 26,Chornomorets,3615,Ruh Lviv,3632,1,2,True
+1221070,2025-04-26T12:30:00+00:00,FT,Regular Season - 26,LNZ Cherkasy,17161,Kryvbas KR,6489,0,0,True
+1221067,2025-04-26T15:00:00+00:00,FT,Regular Season - 26,Obolon'-Brovar,3630,Karpaty,3617,2,2,True
+1221074,2025-04-27T10:00:00+00:00,FT,Regular Season - 26,Vorskla Poltava,1121,Veres Rivne,6501,3,0,True
+1221073,2025-04-27T12:30:00+00:00,FT,Regular Season - 26,Kolos Kovalivka,3627,Polessya,6496,1,1,True
+1221068,2025-04-27T15:00:00+00:00,FT,Regular Season - 26,Shakhtar Donetsk,550,Dynamo Kyiv,572,2,2,True
+1220993,2025-04-30T10:00:00+00:00,FT,Regular Season - 16,Inhulets,3625,Zorya Luhansk,599,1,0,True
+1221078,2025-05-02T12:30:00+00:00,FT,Regular Season - 27,Livyi Bereh,17162,Karpaty,3617,2,3,True
+1221076,2025-05-02T15:00:00+00:00,FT,Regular Season - 27,Ruh Lviv,3632,Kryvbas KR,6489,0,0,True
+1221082,2025-05-03T10:00:00+00:00,FT,Regular Season - 27,Chornomorets,3615,Shakhtar Donetsk,550,0,3,True
+1220958,2025-05-03T12:30:00+00:00,FT,Regular Season - 27,Inhulets,3625,Dynamo Kyiv,572,0,4,True
+1221081,2025-05-03T15:00:00+00:00,FT,Regular Season - 27,Veres Rivne,6501,Obolon'-Brovar,3630,0,2,True
+1221079,2025-05-04T11:00:00+00:00,FT,Regular Season - 27,LNZ Cherkasy,17161,Zorya Luhansk,599,1,1,True
+1221075,2025-05-04T12:30:00+00:00,FT,Regular Season - 27,Kolos Kovalivka,3627,Vorskla Poltava,1121,0,0,True
+1221080,2025-05-04T15:00:00+00:00,FT,Regular Season - 27,Polessya,6496,Oleksandria,3619,1,2,True
+1221033,2025-05-07T10:00:00+00:00,FT,Regular Season - 21,Kryvbas KR,6489,Livyi Bereh,17162,4,0,True
+1221088,2025-05-09T12:30:00+00:00,FT,Regular Season - 28,Zorya Luhansk,599,Shakhtar Donetsk,550,0,0,True
+1221083,2025-05-09T15:00:00+00:00,FT,Regular Season - 28,Polessya,6496,Dynamo Kyiv,572,0,0,True
+1221090,2025-05-10T10:00:00+00:00,FT,Regular Season - 28,Vorskla Poltava,1121,Chornomorets,3615,1,2,True
+1221089,2025-05-10T12:30:00+00:00,FT,Regular Season - 28,Obolon'-Brovar,3630,LNZ Cherkasy,17161,0,0,True
+1221085,2025-05-10T15:00:00+00:00,FT,Regular Season - 28,Ruh Lviv,3632,Veres Rivne,6501,2,0,True
+1221086,2025-05-11T11:35:00+00:00,FT,Regular Season - 28,Kryvbas KR,6489,Kolos Kovalivka,3627,0,1,True
+1221084,2025-05-11T15:00:00+00:00,FT,Regular Season - 28,Karpaty,3617,Oleksandria,3619,2,1,True
+1221087,2025-05-12T12:30:00+00:00,FT,Regular Season - 28,Inhulets,3625,Livyi Bereh,17162,2,1,True
+1221091,2025-05-17T10:00:00+00:00,FT,Regular Season - 29,Zorya Luhansk,599,Polessya,6496,0,1,True
+1221097,2025-05-17T10:00:00+00:00,FT,Regular Season - 29,Kolos Kovalivka,3627,Karpaty,3617,2,1,True
+1221096,2025-05-17T10:00:00+00:00,FT,Regular Season - 29,Kryvbas KR,6489,Obolon'-Brovar,3630,1,0,True
+1221095,2025-05-18T12:30:00+00:00,FT,Regular Season - 29,Chornomorets,3615,Dynamo Kyiv,572,1,1,True
+1221092,2025-05-18T12:30:00+00:00,FT,Regular Season - 29,Oleksandria,3619,Veres Rivne,6501,3,1,True
+1220973,2025-05-18T12:30:00+00:00,FT,Regular Season - 29,Inhulets,3625,Shakhtar Donetsk,550,1,4,True
+1221098,2025-05-18T12:30:00+00:00,FT,Regular Season - 29,LNZ Cherkasy,17161,Vorskla Poltava,1121,0,0,True
+1221094,2025-05-18T12:30:00+00:00,FT,Regular Season - 29,Livyi Bereh,17162,Ruh Lviv,3632,1,0,True
+1221100,2025-05-23T12:30:00+00:00,FT,Regular Season - 30,Inhulets,3625,Vorskla Poltava,1121,1,1,True
+1221104,2025-05-23T12:30:00+00:00,FT,Regular Season - 30,Obolon'-Brovar,3630,Livyi Bereh,17162,1,0,True
+1221105,2025-05-24T10:00:00+00:00,FT,Regular Season - 30,Chornomorets,3615,Oleksandria,3619,0,0,True
+1221101,2025-05-24T12:30:00+00:00,FT,Regular Season - 30,Ruh Lviv,3632,Shakhtar Donetsk,550,1,1,True
+1221102,2025-05-24T15:00:00+00:00,FT,Regular Season - 30,Dynamo Kyiv,572,Kolos Kovalivka,3627,1,1,True
+1221099,2025-05-25T12:30:00+00:00,FT,Regular Season - 30,Veres Rivne,6501,LNZ Cherkasy,17161,1,1,True
+1221106,2025-05-25T15:00:00+00:00,FT,Regular Season - 30,Karpaty,3617,Zorya Luhansk,599,1,3,True
+1221103,2025-05-25T15:00:00+00:00,FT,Regular Season - 30,Polessya,6496,Kryvbas KR,6489,1,1,True
+1376885,2025-05-29T12:30:00+00:00,FT,Relegation Round,Kudrivka,21953,Vorskla Poltava,1121,1,2,True
+1376887,2025-05-29T15:00:00+00:00,FT,Relegation Round,Livyi Bereh,17162,FC Kharkiv,3628,0,1,True
+1376886,2025-06-01T10:00:00+00:00,PEN,Relegation Round,Vorskla Poltava,1121,Kudrivka,21953,0,1,False
+1376888,2025-06-01T12:45:00+00:00,FT,Relegation Round,FC Kharkiv,3628,Livyi Bereh,17162,1,0,True

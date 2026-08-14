@@ -1,34 +1,34 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1542035,2026-04-22T22:00:00+00:00,FT,Porto Vitória,20717,Vitória ES,7837,1,3,True
-1542036,2026-04-23T22:00:00+00:00,FT,Rio Branco ES,10690,Rio Branco-VN,12929,3,0,True
-1542037,2026-04-26T18:00:00+00:00,FT,Vilavelhense,15609,Sport Brasil ES,23568,2,1,True
-1542056,2026-04-28T22:00:00+00:00,FT,Audax São Mateus,27711,Serra Talhada,2225,1,0,True
-1542038,2026-05-02T22:00:00+00:00,FT,Serra Talhada,2225,Sport Brasil ES,23568,1,0,True
-1542039,2026-05-03T19:00:00+00:00,FT,Rio Branco-VN,12929,Vilavelhense,15609,2,0,True
-1542040,2026-05-06T22:00:00+00:00,FT,Porto Vitória,20717,Rio Branco ES,10690,3,0,True
-1542057,2026-05-07T22:00:00+00:00,FT,Vitória ES,7837,Audax São Mateus,27711,3,1,True
-1542041,2026-05-09T21:45:00+00:00,FT,Serra Talhada,2225,Vilavelhense,15609,2,3,True
-1542058,2026-05-10T18:00:00+00:00,FT,Sport Brasil ES,23568,Audax São Mateus,27711,1,0,True
-1542042,2026-05-10T19:00:00+00:00,FT,Rio Branco-VN,12929,Porto Vitória,20717,0,1,True
-1542043,2026-05-13T22:00:00+00:00,FT,Rio Branco ES,10690,Vitória ES,7837,2,2,True
-1542044,2026-05-17T18:00:00+00:00,FT,Vilavelhense,15609,Porto Vitória,20717,1,2,True
-1542059,2026-05-17T18:00:00+00:00,FT,Audax São Mateus,27711,Rio Branco-VN,12929,0,0,True
-1542046,2026-05-20T22:00:00+00:00,FT,Vitória ES,7837,Serra Talhada,2225,3,2,True
-1542045,2026-05-20T22:00:00+00:00,FT,Sport Brasil ES,23568,Rio Branco ES,10690,1,0,True
-1542060,2026-05-22T21:45:00+00:00,FT,Porto Vitória,20717,Audax São Mateus,27711,3,0,True
-1542047,2026-05-24T18:00:00+00:00,FT,Rio Branco-VN,12929,Serra Talhada,2225,1,0,True
-1542049,2026-05-27T18:00:00+00:00,FT,Vitória ES,7837,Sport Brasil ES,23568,5,0,True
-1542048,2026-05-28T21:45:00+00:00,FT,Rio Branco ES,10690,Vilavelhense,15609,1,1,True
-1542050,2026-05-30T21:45:00+00:00,FT,Serra Talhada,2225,Porto Vitória,20717,1,1,True
-1542051,2026-05-31T18:00:00+00:00,FT,Sport Brasil ES,23568,Rio Branco-VN,12929,0,2,True
-1542052,2026-06-03T18:00:00+00:00,FT,Vilavelhense,15609,Vitória ES,7837,1,0,True
-1542061,2026-06-03T18:00:00+00:00,FT,Audax São Mateus,27711,Rio Branco ES,10690,0,4,True
-1542054,2026-06-06T18:00:00+00:00,FT,Vitória ES,7837,Rio Branco-VN,12929,0,1,True
-1542053,2026-06-06T18:00:00+00:00,FT,Rio Branco ES,10690,Serra Talhada,2225,1,0,True
-1542062,2026-06-06T18:00:00+00:00,FT,Vilavelhense,15609,Audax São Mateus,27711,2,0,True
-1542055,2026-06-06T18:00:00+00:00,FT,Porto Vitória,20717,Sport Brasil ES,23568,3,0,True
-1550644,2026-06-14T18:00:00+00:00,FT,Rio Branco-VN,12929,Porto Vitória,20717,1,0,True
-1550645,2026-06-17T21:45:00+00:00,FT,Vilavelhense,15609,Vitória ES,7837,2,2,True
-1550646,2026-06-20T18:00:00+00:00,FT,Porto Vitória,20717,Rio Branco-VN,12929,3,3,True
-1550647,2026-06-23T21:45:00+00:00,PEN,Vitória ES,7837,Vilavelhense,15609,0,0,False
-1561318,2026-07-01T23:00:00+00:00,FT,Vitória ES,7837,Rio Branco-VN,12929,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1542035,2026-04-22T22:00:00+00:00,FT,1st Phase - 1,Porto Vitória,20717,Vitória ES,7837,1,3,True
+1542036,2026-04-23T22:00:00+00:00,FT,1st Phase - 1,Rio Branco ES,10690,Rio Branco-VN,12929,3,0,True
+1542037,2026-04-26T18:00:00+00:00,FT,1st Phase - 1,Vilavelhense,15609,Sport Brasil ES,23568,2,1,True
+1542056,2026-04-28T22:00:00+00:00,FT,1st Phase - 1,Audax São Mateus,27711,Serra Talhada,2225,1,0,True
+1542038,2026-05-02T22:00:00+00:00,FT,1st Phase - 2,Serra Talhada,2225,Sport Brasil ES,23568,1,0,True
+1542039,2026-05-03T19:00:00+00:00,FT,1st Phase - 2,Rio Branco-VN,12929,Vilavelhense,15609,2,0,True
+1542040,2026-05-06T22:00:00+00:00,FT,1st Phase - 2,Porto Vitória,20717,Rio Branco ES,10690,3,0,True
+1542057,2026-05-07T22:00:00+00:00,FT,1st Phase - 2,Vitória ES,7837,Audax São Mateus,27711,3,1,True
+1542041,2026-05-09T21:45:00+00:00,FT,1st Phase - 3,Serra Talhada,2225,Vilavelhense,15609,2,3,True
+1542058,2026-05-10T18:00:00+00:00,FT,1st Phase - 3,Sport Brasil ES,23568,Audax São Mateus,27711,1,0,True
+1542042,2026-05-10T19:00:00+00:00,FT,1st Phase - 3,Rio Branco-VN,12929,Porto Vitória,20717,0,1,True
+1542043,2026-05-13T22:00:00+00:00,FT,1st Phase - 3,Rio Branco ES,10690,Vitória ES,7837,2,2,True
+1542044,2026-05-17T18:00:00+00:00,FT,1st Phase - 4,Vilavelhense,15609,Porto Vitória,20717,1,2,True
+1542059,2026-05-17T18:00:00+00:00,FT,1st Phase - 4,Audax São Mateus,27711,Rio Branco-VN,12929,0,0,True
+1542046,2026-05-20T22:00:00+00:00,FT,1st Phase - 4,Vitória ES,7837,Serra Talhada,2225,3,2,True
+1542045,2026-05-20T22:00:00+00:00,FT,1st Phase - 4,Sport Brasil ES,23568,Rio Branco ES,10690,1,0,True
+1542060,2026-05-22T21:45:00+00:00,FT,1st Phase - 5,Porto Vitória,20717,Audax São Mateus,27711,3,0,True
+1542047,2026-05-24T18:00:00+00:00,FT,1st Phase - 5,Rio Branco-VN,12929,Serra Talhada,2225,1,0,True
+1542049,2026-05-27T18:00:00+00:00,FT,1st Phase - 5,Vitória ES,7837,Sport Brasil ES,23568,5,0,True
+1542048,2026-05-28T21:45:00+00:00,FT,1st Phase - 5,Rio Branco ES,10690,Vilavelhense,15609,1,1,True
+1542050,2026-05-30T21:45:00+00:00,FT,1st Phase - 6,Serra Talhada,2225,Porto Vitória,20717,1,1,True
+1542051,2026-05-31T18:00:00+00:00,FT,1st Phase - 6,Sport Brasil ES,23568,Rio Branco-VN,12929,0,2,True
+1542052,2026-06-03T18:00:00+00:00,FT,1st Phase - 6,Vilavelhense,15609,Vitória ES,7837,1,0,True
+1542061,2026-06-03T18:00:00+00:00,FT,1st Phase - 6,Audax São Mateus,27711,Rio Branco ES,10690,0,4,True
+1542054,2026-06-06T18:00:00+00:00,FT,1st Phase - 7,Vitória ES,7837,Rio Branco-VN,12929,0,1,True
+1542053,2026-06-06T18:00:00+00:00,FT,1st Phase - 7,Rio Branco ES,10690,Serra Talhada,2225,1,0,True
+1542062,2026-06-06T18:00:00+00:00,FT,1st Phase - 7,Vilavelhense,15609,Audax São Mateus,27711,2,0,True
+1542055,2026-06-06T18:00:00+00:00,FT,1st Phase - 7,Porto Vitória,20717,Sport Brasil ES,23568,3,0,True
+1550644,2026-06-14T18:00:00+00:00,FT,Semi-finals,Rio Branco-VN,12929,Porto Vitória,20717,1,0,True
+1550645,2026-06-17T21:45:00+00:00,FT,Semi-finals,Vilavelhense,15609,Vitória ES,7837,2,2,True
+1550646,2026-06-20T18:00:00+00:00,FT,Semi-finals,Porto Vitória,20717,Rio Branco-VN,12929,3,3,True
+1550647,2026-06-23T21:45:00+00:00,PEN,Semi-finals,Vitória ES,7837,Vilavelhense,15609,0,0,False
+1561318,2026-07-01T23:00:00+00:00,FT,Final,Vitória ES,7837,Rio Branco-VN,12929,0,1,True

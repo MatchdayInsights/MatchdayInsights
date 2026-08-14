@@ -1,38 +1,38 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1417062,2025-08-12T17:45:00+00:00,FT,Lisburn Distillery,11115,Banbridge Town,11111,3,2,True
-1417058,2025-08-12T18:45:00+00:00,FT,Ballyclare Comrades,5340,Coagh United,20729,1,2,True
-1417060,2025-08-12T18:45:00+00:00,FT,Newry City AFC,5346,Knockbreda,5344,3,0,True
-1417061,2025-08-12T18:45:00+00:00,FT,Oxford Sunnyside,18291,Ballymacash Rangers,19025,1,5,True
-1417059,2025-08-16T13:00:00+00:00,FT,Dergview,5341,Rathfriland,17241,3,1,True
-1417063,2025-08-16T13:00:00+00:00,FT,Moyola Park,11117,Portstewart,11119,5,3,True
-1457227,2025-09-30T18:45:00+00:00,FT,Linfield,583,Queen's University,5349,2,0,True
-1457240,2025-10-07T18:45:00+00:00,FT,Ballymena United,668,Ballinamallard United,5339,1,0,True
-1457233,2025-10-07T18:45:00+00:00,FT,Crusaders FC,697,Ballymacash Rangers,19025,3,1,True
-1457234,2025-10-07T18:45:00+00:00,FT,Cliftonville FC,2266,Coagh United,20729,4,1,True
-1457237,2025-10-07T18:45:00+00:00,FT,Dergview,5341,Larne,5354,3,7,True
-1457239,2025-10-07T18:45:00+00:00,FT,H&W Welders,5343,Dundela,5342,6,0,True
-1457229,2025-10-07T18:45:00+00:00,AET,Loughgall,5345,Strabane Athletic,22541,2,3,False
-1457236,2025-10-07T18:45:00+00:00,FT,Newry City AFC,5346,Portadown,5348,1,0,True
-1457228,2025-10-07T18:45:00+00:00,FT,Institute,5353,Glentoran,5352,0,1,True
-1463475,2025-10-07T18:45:00+00:00,FT,Warrenpoint Town,5355,Glenavon FC,2275,0,2,True
-1457232,2025-10-07T18:45:00+00:00,FT,Armagh City,11110,Carrick Rangers,5350,3,2,True
-1457230,2025-10-07T18:45:00+00:00,FT,Bangor,11112,Lisburn Distillery,11115,4,1,True
-1457235,2025-10-07T18:45:00+00:00,FT,Dollingstown,11113,Coleraine FC,669,0,8,True
-1457231,2025-10-07T18:45:00+00:00,FT,Moyola Park,11117,Annagh United,11109,3,0,True
-1457238,2025-10-07T18:45:00+00:00,FT,Newington Youth,11118,Limavady United,11114,3,1,True
-1457241,2025-10-08T18:45:00+00:00,PEN,Ards,5338,Dungannon Swifts,5351,0,0,False
-1481560,2025-11-04T19:45:00+00:00,FT,Ballymena United,668,Newington Youth,11118,3,0,True
-1481562,2025-11-04T19:45:00+00:00,FT,Coleraine FC,669,Armagh City,11110,7,1,True
-1481567,2025-11-04T19:45:00+00:00,FT,Newry City AFC,5346,Glenavon FC,2275,1,0,True
-1481563,2025-11-04T19:45:00+00:00,FT,Dungannon Swifts,5351,Moyola Park,11117,0,1,True
-1481564,2025-11-04T19:45:00+00:00,FT,Glentoran,5352,Crusaders FC,697,2,1,True
-1481566,2025-11-04T19:45:00+00:00,FT,Larne,5354,Bangor,11112,2,1,True
-1481561,2025-11-05T19:45:00+00:00,FT,Cliftonville FC,2266,Strabane Athletic,22541,5,2,True
-1481565,2025-11-05T19:45:00+00:00,AET,H&W Welders,5343,Linfield,583,3,6,False
-1485953,2025-12-02T19:45:00+00:00,FT,Ballymena United,668,Larne,5354,2,0,True
-1485956,2025-12-02T19:45:00+00:00,FT,Newry City AFC,5346,Linfield,583,2,3,True
-1485954,2025-12-02T19:45:00+00:00,PEN,Glentoran,5352,Cliftonville FC,2266,0,0,False
-1485955,2025-12-02T19:45:00+00:00,FT,Moyola Park,11117,Coleraine FC,669,0,2,True
-1489051,2026-01-28T19:45:00+00:00,FT,Linfield,583,Ballymena United,668,1,0,True
-1489050,2026-02-03T19:45:00+00:00,AET,Glentoran,5352,Coleraine FC,669,2,1,False
-1518176,2026-03-15T15:00:00+00:00,AET,Glentoran,5352,Linfield,583,0,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1417062,2025-08-12T17:45:00+00:00,FT,Round of 64,Lisburn Distillery,11115,Banbridge Town,11111,3,2,True
+1417058,2025-08-12T18:45:00+00:00,FT,Round of 64,Ballyclare Comrades,5340,Coagh United,20729,1,2,True
+1417060,2025-08-12T18:45:00+00:00,FT,Round of 64,Newry City AFC,5346,Knockbreda,5344,3,0,True
+1417061,2025-08-12T18:45:00+00:00,FT,Round of 64,Oxford Sunnyside,18291,Ballymacash Rangers,19025,1,5,True
+1417059,2025-08-16T13:00:00+00:00,FT,Round of 64,Dergview,5341,Rathfriland,17241,3,1,True
+1417063,2025-08-16T13:00:00+00:00,FT,Round of 64,Moyola Park,11117,Portstewart,11119,5,3,True
+1457227,2025-09-30T18:45:00+00:00,FT,Round of 32,Linfield,583,Queen's University,5349,2,0,True
+1457240,2025-10-07T18:45:00+00:00,FT,Round of 32,Ballymena United,668,Ballinamallard United,5339,1,0,True
+1457233,2025-10-07T18:45:00+00:00,FT,Round of 32,Crusaders FC,697,Ballymacash Rangers,19025,3,1,True
+1457234,2025-10-07T18:45:00+00:00,FT,Round of 32,Cliftonville FC,2266,Coagh United,20729,4,1,True
+1457237,2025-10-07T18:45:00+00:00,FT,Round of 32,Dergview,5341,Larne,5354,3,7,True
+1457239,2025-10-07T18:45:00+00:00,FT,Round of 32,H&W Welders,5343,Dundela,5342,6,0,True
+1457229,2025-10-07T18:45:00+00:00,AET,Round of 32,Loughgall,5345,Strabane Athletic,22541,2,3,False
+1457236,2025-10-07T18:45:00+00:00,FT,Round of 32,Newry City AFC,5346,Portadown,5348,1,0,True
+1457228,2025-10-07T18:45:00+00:00,FT,Round of 32,Institute,5353,Glentoran,5352,0,1,True
+1463475,2025-10-07T18:45:00+00:00,FT,Round of 32,Warrenpoint Town,5355,Glenavon FC,2275,0,2,True
+1457232,2025-10-07T18:45:00+00:00,FT,Round of 32,Armagh City,11110,Carrick Rangers,5350,3,2,True
+1457230,2025-10-07T18:45:00+00:00,FT,Round of 32,Bangor,11112,Lisburn Distillery,11115,4,1,True
+1457235,2025-10-07T18:45:00+00:00,FT,Round of 32,Dollingstown,11113,Coleraine FC,669,0,8,True
+1457231,2025-10-07T18:45:00+00:00,FT,Round of 32,Moyola Park,11117,Annagh United,11109,3,0,True
+1457238,2025-10-07T18:45:00+00:00,FT,Round of 32,Newington Youth,11118,Limavady United,11114,3,1,True
+1457241,2025-10-08T18:45:00+00:00,PEN,Round of 32,Ards,5338,Dungannon Swifts,5351,0,0,False
+1481560,2025-11-04T19:45:00+00:00,FT,Round of 16,Ballymena United,668,Newington Youth,11118,3,0,True
+1481562,2025-11-04T19:45:00+00:00,FT,Round of 16,Coleraine FC,669,Armagh City,11110,7,1,True
+1481567,2025-11-04T19:45:00+00:00,FT,Round of 16,Newry City AFC,5346,Glenavon FC,2275,1,0,True
+1481563,2025-11-04T19:45:00+00:00,FT,Round of 16,Dungannon Swifts,5351,Moyola Park,11117,0,1,True
+1481564,2025-11-04T19:45:00+00:00,FT,Round of 16,Glentoran,5352,Crusaders FC,697,2,1,True
+1481566,2025-11-04T19:45:00+00:00,FT,Round of 16,Larne,5354,Bangor,11112,2,1,True
+1481561,2025-11-05T19:45:00+00:00,FT,Round of 16,Cliftonville FC,2266,Strabane Athletic,22541,5,2,True
+1481565,2025-11-05T19:45:00+00:00,AET,Round of 16,H&W Welders,5343,Linfield,583,3,6,False
+1485953,2025-12-02T19:45:00+00:00,FT,Quarter-finals,Ballymena United,668,Larne,5354,2,0,True
+1485956,2025-12-02T19:45:00+00:00,FT,Quarter-finals,Newry City AFC,5346,Linfield,583,2,3,True
+1485954,2025-12-02T19:45:00+00:00,PEN,Quarter-finals,Glentoran,5352,Cliftonville FC,2266,0,0,False
+1485955,2025-12-02T19:45:00+00:00,FT,Quarter-finals,Moyola Park,11117,Coleraine FC,669,0,2,True
+1489051,2026-01-28T19:45:00+00:00,FT,Semi-finals,Linfield,583,Ballymena United,668,1,0,True
+1489050,2026-02-03T19:45:00+00:00,AET,Semi-finals,Glentoran,5352,Coleraine FC,669,2,1,False
+1518176,2026-03-15T15:00:00+00:00,AET,Final,Glentoran,5352,Linfield,583,0,1,False

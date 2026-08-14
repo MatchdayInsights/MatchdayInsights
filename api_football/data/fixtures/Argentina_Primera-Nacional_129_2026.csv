@@ -1,649 +1,649 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1498590,2026-06-06T19:00:00+00:00,ABD,San Martin S.J.,461,Nueva Chicago,484,1,0,False
-1498304,2026-02-13T20:00:00+00:00,FT,San Miguel,8379,Central Norte,1951,1,0,True
-1498293,2026-02-14T00:00:00+00:00,FT,Atletico DE Rafaela,465,Almagro,482,0,0,True
-1498300,2026-02-14T00:30:00+00:00,FT,Godoy Cruz,439,Ciudad de Bolívar,16612,1,1,True
-1498299,2026-02-14T01:00:00+00:00,FT,Gimnasia Y Tiro,1928,Colegiales,8377,2,1,True
-1498291,2026-02-14T20:00:00+00:00,FT,All Boys,464,Atletico Mitre,466,2,1,True
-1498297,2026-02-14T20:00:00+00:00,FT,Deportivo Moron,469,Defensores De Belgrano,1067,1,1,True
-1498305,2026-02-14T20:00:00+00:00,FT,San Telmo,1932,Ferro Carril Oeste,470,0,2,True
-1498289,2026-02-14T20:00:00+00:00,FT,Acassuso,2425,Chaco For Ever,1946,2,0,True
-1498290,2026-02-14T21:00:00+00:00,FT,Agropecuario,462,Deportivo Maipu,1954,2,1,True
-1498306,2026-02-14T22:00:00+00:00,FT,Tristan Suarez,1965,Temperley,454,0,0,True
-1498296,2026-02-14T23:00:00+00:00,FT,Colon Santa Fe,448,Deportivo Madryn,1929,2,1,True
-1498294,2026-02-15T20:00:00+00:00,FT,Chacarita Juniors,447,San Martin S.J.,461,1,1,True
-1498295,2026-02-15T20:00:00+00:00,FT,Club Atlético Güemes,3969,Nueva Chicago,484,0,1,True
-1498301,2026-02-15T20:30:00+00:00,FT,Los Andes,483,Almirante Brown,8375,0,0,True
-1498303,2026-02-15T22:00:00+00:00,FT,San Martin Tucuman,485,Patronato,444,0,0,True
-1498302,2026-02-15T22:00:00+00:00,FT,Racing Cordoba,1957,CA Estudiantes,1936,1,0,True
-1498298,2026-02-16T20:00:00+00:00,FT,Gimnasia Jujuy,479,Midland,1963,2,1,True
-1498292,2026-02-16T20:00:00+00:00,FT,Atlanta,1948,Quilmes,480,1,0,True
-1498308,2026-02-21T20:00:00+00:00,FT,Almagro,482,San Martin Tucuman,485,0,1,True
-1498320,2026-02-21T20:00:00+00:00,FT,Nueva Chicago,484,Tristan Suarez,1965,0,0,True
-1498307,2026-02-21T20:00:00+00:00,FT,Acassuso,2425,Racing Cordoba,1957,3,0,True
-1498319,2026-02-21T22:00:00+00:00,FT,Ferro Carril Oeste,470,San Miguel,8379,1,1,True
-1498317,2026-02-21T22:00:00+00:00,FT,Deportivo Madryn,1929,Deportivo Moron,469,1,1,True
-1498321,2026-02-21T23:00:00+00:00,FT,Patronato,444,Gimnasia Y Tiro,1928,1,2,True
-1498323,2026-02-21T23:00:00+00:00,FT,San Martin S.J.,461,Club Atlético Güemes,3969,2,1,True
-1498322,2026-02-21T23:00:00+00:00,FT,Quilmes,480,Midland,1963,0,0,True
-1498318,2026-02-21T23:00:00+00:00,FT,Deportivo Maipu,1954,Atletico DE Rafaela,465,2,1,True
-1498313,2026-02-22T00:00:00+00:00,FT,Chaco For Ever,1946,San Telmo,1932,2,2,True
-1498312,2026-02-22T20:00:00+00:00,FT,Chacarita Juniors,447,Gimnasia Jujuy,479,3,1,True
-1498316,2026-02-22T20:00:00+00:00,FT,Defensores De Belgrano,1067,Godoy Cruz,439,1,1,True
-1498309,2026-02-22T20:00:00+00:00,FT,Almirante Brown,8375,All Boys,464,2,1,True
-1498314,2026-02-22T20:00:00+00:00,FT,Ciudad de Bolívar,16612,Los Andes,483,1,1,True
-1498311,2026-02-22T21:00:00+00:00,FT,Central Norte,1951,Colon Santa Fe,448,0,0,True
-1498324,2026-02-22T23:00:00+00:00,FT,Temperley,454,Agropecuario,462,1,0,True
-1498315,2026-02-22T23:00:00+00:00,FT,Colegiales,8377,Atlanta,1948,1,0,True
-1498310,2026-02-23T13:45:00+00:00,FT,Atletico Mitre,466,CA Estudiantes,1936,1,0,True
-1498334,2026-02-28T01:00:00+00:00,FT,Gimnasia Y Tiro,1928,Almagro,482,2,0,True
-1498336,2026-02-28T20:00:00+00:00,FT,Los Andes,483,Defensores De Belgrano,1067,0,1,True
-1498340,2026-02-28T20:00:00+00:00,FT,San Miguel,8379,Chaco For Ever,1946,2,0,True
-1498331,2026-02-28T23:30:00+00:00,FT,Colon Santa Fe,448,Ferro Carril Oeste,470,1,1,True
-1498325,2026-02-28T23:30:00+00:00,FT,Agropecuario,462,Nueva Chicago,484,0,2,True
-1498335,2026-03-01T20:00:00+00:00,FT,Godoy Cruz,439,Deportivo Madryn,1929,0,0,True
-1498326,2026-03-01T20:00:00+00:00,FT,All Boys,464,Ciudad de Bolívar,16612,0,0,True
-1498332,2026-03-01T20:00:00+00:00,FT,Deportivo Moron,469,Central Norte,1951,2,0,True
-1498333,2026-03-01T20:00:00+00:00,FT,Gimnasia Jujuy,479,Quilmes,480,1,0,True
-1498341,2026-03-01T20:00:00+00:00,FT,San Telmo,1932,Acassuso,2425,2,3,True
-1498337,2026-03-01T20:00:00+00:00,FT,Midland,1963,Colegiales,8377,2,0,True
-1498330,2026-03-01T20:00:00+00:00,FT,Club Atlético Güemes,3969,Chacarita Juniors,447,2,1,True
-1498339,2026-03-01T20:30:00+00:00,FT,San Martin Tucuman,485,Deportivo Maipu,1954,2,2,True
-1498338,2026-03-01T21:00:00+00:00,FT,Racing Cordoba,1957,Atletico Mitre,466,0,0,True
-1498328,2026-03-01T23:30:00+00:00,FT,Atletico DE Rafaela,465,Temperley,454,1,0,True
-1498329,2026-03-01T23:30:00+00:00,FT,CA Estudiantes,1936,Almirante Brown,8375,0,1,True
-1498342,2026-03-01T23:30:00+00:00,FT,Tristan Suarez,1965,San Martin S.J.,461,2,1,True
-1498327,2026-03-03T00:00:00+00:00,FT,Atlanta,1948,Patronato,444,0,0,True
-1498364,2026-03-14T00:00:00+00:00,FT,Atletico DE Rafaela,465,San Martin S.J.,461,1,0,True
-1498375,2026-03-14T00:00:00+00:00,FT,Racing Cordoba,1957,Almirante Brown,8375,2,1,True
-1498372,2026-03-14T17:00:00+00:00,FT,Los Andes,483,Central Norte,1951,0,0,True
-1498362,2026-03-14T19:00:00+00:00,FT,All Boys,464,Deportivo Madryn,1929,1,0,True
-1498368,2026-03-14T19:00:00+00:00,FT,Deportivo Moron,469,Chaco For Ever,1946,3,2,True
-1498365,2026-03-14T19:00:00+00:00,FT,CA Estudiantes,1936,Defensores De Belgrano,1067,0,2,True
-1498377,2026-03-14T19:00:00+00:00,FT,San Miguel,8379,San Telmo,1932,1,1,True
-1498371,2026-03-14T21:00:00+00:00,FT,Godoy Cruz,439,Ferro Carril Oeste,470,2,1,True
-1498378,2026-03-14T22:00:00+00:00,FT,Tristan Suarez,1965,Club Atlético Güemes,3969,1,1,True
-1498367,2026-03-14T23:00:00+00:00,FT,Colon Santa Fe,448,Acassuso,2425,1,0,True
-1498374,2026-03-14T23:00:00+00:00,FT,Quilmes,480,Patronato,444,3,0,True
-1498361,2026-03-15T19:00:00+00:00,FT,Agropecuario,462,Chacarita Juniors,447,2,0,True
-1498370,2026-03-15T19:00:00+00:00,FT,Gimnasia Y Tiro,1928,Temperley,454,0,0,True
-1498373,2026-03-15T19:00:00+00:00,FT,Midland,1963,Almagro,482,1,1,True
-1498366,2026-03-15T20:00:00+00:00,FT,Atletico Mitre,466,Ciudad de Bolívar,16612,1,1,True
-1498369,2026-03-15T20:00:00+00:00,FT,Gimnasia Jujuy,479,Colegiales,8377,2,1,True
-1498376,2026-03-15T21:00:00+00:00,FT,San Martin Tucuman,485,Nueva Chicago,484,2,0,True
-1498363,2026-03-17T00:00:00+00:00,FT,Atlanta,1948,Deportivo Maipu,1954,3,1,True
-1498392,2026-03-21T00:30:00+00:00,FT,San Martin S.J.,461,San Martin Tucuman,485,1,1,True
-1498380,2026-03-21T17:00:00+00:00,FT,Almagro,482,Quilmes,480,1,0,True
-1498386,2026-03-21T19:00:00+00:00,FT,Defensores De Belgrano,1067,Atletico Mitre,466,0,0,True
-1498379,2026-03-21T19:00:00+00:00,FT,Acassuso,2425,Deportivo Moron,469,0,3,True
-1498393,2026-03-21T19:00:00+00:00,FT,San Miguel,8379,Racing Cordoba,1957,1,2,True
-1498384,2026-03-21T20:00:00+00:00,FT,Ciudad de Bolívar,16612,Almirante Brown,8375,0,0,True
-1498389,2026-03-21T22:00:00+00:00,FT,Ferro Carril Oeste,470,Los Andes,483,0,2,True
-1498387,2026-03-21T22:00:00+00:00,FT,Deportivo Madryn,1929,CA Estudiantes,1936,3,0,True
-1498396,2026-03-21T22:00:00+00:00,FT,Tristan Suarez,1965,Gimnasia Jujuy,479,3,0,True
-1498383,2026-03-22T00:00:00+00:00,FT,Chaco For Ever,1946,Godoy Cruz,439,1,1,True
-1498391,2026-03-22T19:00:00+00:00,FT,Patronato,444,Colegiales,8377,2,0,True
-1498382,2026-03-22T19:00:00+00:00,FT,Chacarita Juniors,447,Atletico DE Rafaela,465,0,1,True
-1498395,2026-03-22T19:00:00+00:00,FT,Temperley,454,Atlanta,1948,2,1,True
-1498394,2026-03-22T19:00:00+00:00,FT,San Telmo,1932,Colon Santa Fe,448,3,1,True
-1498381,2026-03-22T20:00:00+00:00,FT,Central Norte,1951,All Boys,464,1,0,True
-1498385,2026-03-22T20:00:00+00:00,FT,Club Atlético Güemes,3969,Agropecuario,462,1,1,True
-1498388,2026-03-22T22:00:00+00:00,FT,Deportivo Maipu,1954,Midland,1963,0,1,True
-1498390,2026-03-23T19:00:00+00:00,FT,Nueva Chicago,484,Gimnasia Y Tiro,1928,3,1,True
-1498402,2026-03-27T21:15:00+00:00,FT,Ciudad de Bolívar,16612,Agropecuario,462,0,0,True
-1498413,2026-03-28T01:10:00+00:00,FT,San Martin S.J.,461,Racing Cordoba,1957,0,0,True
-1498401,2026-03-28T01:10:00+00:00,FT,Chaco For Ever,1946,Gimnasia Jujuy,479,1,2,True
-1498399,2026-03-28T16:00:00+00:00,FT,Atlanta,1948,Ferro Carril Oeste,470,0,1,True
-1498397,2026-03-28T18:30:00+00:00,FT,Almagro,482,Deportivo Moron,469,2,0,True
-1498398,2026-03-28T19:00:00+00:00,FT,Almirante Brown,8375,Tristan Suarez,1965,0,1,True
-1498404,2026-03-28T23:00:00+00:00,FT,Colegiales,8377,San Miguel,8379,0,0,True
-1498409,2026-03-29T18:00:00+00:00,FT,Los Andes,483,Temperley,454,0,1,True
-1498411,2026-03-29T18:30:00+00:00,FT,Nueva Chicago,484,All Boys,464,0,0,True
-1498412,2026-03-29T19:00:00+00:00,FT,Patronato,444,Colon Santa Fe,448,0,2,True
-1498400,2026-03-29T19:00:00+00:00,FT,Chacarita Juniors,447,CA Estudiantes,1936,0,3,True
-1498406,2026-03-29T19:00:00+00:00,FT,Deportivo Madryn,1929,San Martin Tucuman,485,1,1,True
-1498414,2026-03-29T19:00:00+00:00,FT,San Telmo,1932,Quilmes,480,0,3,True
-1498407,2026-03-29T20:00:00+00:00,FT,Deportivo Maipu,1954,Godoy Cruz,439,0,1,True
-1498403,2026-03-29T20:00:00+00:00,FT,Club Atlético Güemes,3969,Atletico Mitre,466,2,2,True
-1498408,2026-03-29T20:30:00+00:00,FT,Gimnasia Y Tiro,1928,Central Norte,1951,0,1,True
-1498405,2026-03-30T19:00:00+00:00,FT,Defensores De Belgrano,1067,Atletico DE Rafaela,465,1,1,True
-1498426,2026-04-04T01:00:00+00:00,FT,Gimnasia Y Tiro,1928,San Martin S.J.,461,1,1,True
-1498416,2026-04-04T18:30:00+00:00,FT,All Boys,464,Ferro Carril Oeste,470,0,0,True
-1498415,2026-04-04T19:00:00+00:00,FT,Agropecuario,462,Tristan Suarez,1965,0,2,True
-1498420,2026-04-04T19:00:00+00:00,FT,CA Estudiantes,1936,Central Norte,1951,1,0,True
-1498429,2026-04-04T19:00:00+00:00,FT,Midland,1963,Temperley,454,0,0,True
-1498422,2026-04-04T19:00:00+00:00,FT,Colegiales,8377,Almagro,482,1,0,True
-1498427,2026-04-04T19:30:00+00:00,FT,Godoy Cruz,439,Acassuso,2425,2,0,True
-1498432,2026-04-04T20:30:00+00:00,FT,San Martin Tucuman,485,Chacarita Juniors,447,1,1,True
-1498423,2026-04-04T22:00:00+00:00,FT,Colon Santa Fe,448,San Miguel,8379,3,0,True
-1498428,2026-04-05T18:00:00+00:00,FT,Los Andes,483,Chaco For Ever,1946,2,0,True
-1498424,2026-04-05T18:30:00+00:00,FT,Deportivo Moron,469,San Telmo,1932,1,0,True
-1498417,2026-04-05T18:30:00+00:00,FT,Almirante Brown,8375,Defensores De Belgrano,1067,0,2,True
-1498425,2026-04-05T20:00:00+00:00,FT,Gimnasia Jujuy,479,Patronato,444,2,0,True
-1498430,2026-04-05T20:00:00+00:00,FT,Quilmes,480,Deportivo Maipu,1954,2,1,True
-1498431,2026-04-05T20:00:00+00:00,FT,Racing Cordoba,1957,Ciudad de Bolívar,16612,0,2,True
-1498421,2026-04-05T22:00:00+00:00,FT,Atletico Mitre,466,Deportivo Madryn,1929,1,3,True
-1498419,2026-04-05T23:00:00+00:00,FT,Atletico DE Rafaela,465,Club Atlético Güemes,3969,1,2,True
-1498418,2026-04-08T00:00:00+00:00,FT,Atlanta,1948,Nueva Chicago,484,1,2,True
-1498410,2026-04-08T23:00:00+00:00,FT,Midland,1963,Acassuso,2425,1,0,True
-1498435,2026-04-11T18:30:00+00:00,FT,Almagro,482,Patronato,444,0,1,True
-1498448,2026-04-11T18:30:00+00:00,FT,San Telmo,1932,Godoy Cruz,439,2,0,True
-1498447,2026-04-11T18:30:00+00:00,FT,San Miguel,8379,Deportivo Moron,469,2,1,True
-1498437,2026-04-12T18:00:00+00:00,FT,Chacarita Juniors,447,Gimnasia Y Tiro,1928,2,0,True
-1498449,2026-04-12T18:00:00+00:00,FT,Temperley,454,Quilmes,480,3,3,True
-1498444,2026-04-12T18:00:00+00:00,FT,Ferro Carril Oeste,470,CA Estudiantes,1936,0,1,True
-1498441,2026-04-12T18:00:00+00:00,FT,Defensores De Belgrano,1067,Ciudad de Bolívar,16612,0,0,True
-1498433,2026-04-12T18:00:00+00:00,FT,Acassuso,2425,Los Andes,483,0,1,True
-1498434,2026-04-12T19:00:00+00:00,FT,Agropecuario,462,Gimnasia Jujuy,479,1,2,True
-1498442,2026-04-12T19:00:00+00:00,FT,Deportivo Madryn,1929,Almirante Brown,8375,2,1,True
-1498438,2026-04-12T20:00:00+00:00,FT,Chaco For Ever,1946,All Boys,464,2,0,True
-1498436,2026-04-12T20:00:00+00:00,FT,Central Norte,1951,Atletico Mitre,466,1,1,True
-1498439,2026-04-12T20:00:00+00:00,FT,Club Atlético Güemes,3969,San Martin Tucuman,485,0,2,True
-1498443,2026-04-12T21:30:00+00:00,FT,Deportivo Maipu,1954,Colegiales,8377,3,1,True
-1498440,2026-04-12T22:00:00+00:00,FT,Colon Santa Fe,448,Racing Cordoba,1957,1,0,True
-1498445,2026-04-13T22:00:00+00:00,FT,Nueva Chicago,484,Midland,1963,2,2,True
-1498450,2026-04-13T23:00:00+00:00,FT,Tristan Suarez,1965,Atletico DE Rafaela,465,0,0,True
-1498446,2026-04-14T00:30:00+00:00,FT,San Martin S.J.,461,Atlanta,1948,1,2,True
-1498463,2026-04-18T18:00:00+00:00,FT,Los Andes,483,San Telmo,1932,0,0,True
-1498464,2026-04-18T18:00:00+00:00,FT,Midland,1963,San Martin S.J.,461,0,1,True
-1498451,2026-04-18T18:30:00+00:00,FT,All Boys,464,Acassuso,2425,0,0,True
-1498459,2026-04-18T18:30:00+00:00,FT,Deportivo Moron,469,Colon Santa Fe,448,2,0,True
-1498462,2026-04-18T19:30:00+00:00,FT,Godoy Cruz,439,San Miguel,8379,0,0,True
-1498466,2026-04-18T19:30:00+00:00,FT,Quilmes,480,Nueva Chicago,484,0,0,True
-1498465,2026-04-18T23:00:00+00:00,FT,Patronato,444,Deportivo Maipu,1954,0,0,True
-1498457,2026-04-18T23:00:00+00:00,FT,Ciudad de Bolívar,16612,Deportivo Madryn,1929,1,0,True
-1498458,2026-04-19T17:00:00+00:00,FT,Colegiales,8377,Temperley,454,1,1,True
-1498456,2026-04-19T18:00:00+00:00,FT,Atletico Mitre,466,Ferro Carril Oeste,470,0,1,True
-1498455,2026-04-19T18:00:00+00:00,FT,CA Estudiantes,1936,Chaco For Ever,1946,0,0,True
-1498460,2026-04-19T18:30:00+00:00,FT,Gimnasia Jujuy,479,Almagro,482,6,1,True
-1498452,2026-04-19T18:30:00+00:00,FT,Almirante Brown,8375,Central Norte,1951,1,0,True
-1498468,2026-04-19T22:00:00+00:00,FT,San Martin Tucuman,485,Tristan Suarez,1965,0,0,True
-1498461,2026-04-19T23:00:00+00:00,FT,Gimnasia Y Tiro,1928,Club Atlético Güemes,3969,1,1,True
-1498467,2026-04-19T23:00:00+00:00,FT,Racing Cordoba,1957,Defensores De Belgrano,1067,3,0,True
-1498454,2026-04-20T23:00:00+00:00,FT,Atletico DE Rafaela,465,Agropecuario,462,4,1,True
-1498453,2026-04-21T00:00:00+00:00,FT,Atlanta,1948,Chacarita Juniors,447,1,0,True
-1498485,2026-04-25T18:30:00+00:00,FT,Temperley,454,Patronato,444,0,0,True
-1498484,2026-04-25T18:30:00+00:00,FT,San Telmo,1932,All Boys,464,1,0,True
-1498483,2026-04-25T18:30:00+00:00,FT,San Miguel,8379,Los Andes,483,0,2,True
-1498482,2026-04-25T20:30:00+00:00,FT,San Martin S.J.,461,Quilmes,480,1,0,True
-1498471,2026-04-25T21:00:00+00:00,FT,Atletico DE Rafaela,465,Gimnasia Jujuy,479,0,0,True
-1498479,2026-04-26T18:00:00+00:00,FT,Deportivo Moron,469,Racing Cordoba,1957,2,1,True
-1498481,2026-04-26T18:00:00+00:00,FT,Nueva Chicago,484,Colegiales,8377,0,0,True
-1498486,2026-04-26T18:00:00+00:00,FT,Tristan Suarez,1965,Gimnasia Y Tiro,1928,2,1,True
-1498473,2026-04-26T18:30:00+00:00,FT,Chacarita Juniors,447,Midland,1963,1,0,True
-1498469,2026-04-26T18:30:00+00:00,FT,Acassuso,2425,CA Estudiantes,1936,0,1,True
-1498470,2026-04-26T19:00:00+00:00,FT,Agropecuario,462,San Martin Tucuman,485,2,0,True
-1498477,2026-04-26T19:00:00+00:00,FT,Deportivo Madryn,1929,Defensores De Belgrano,1067,2,1,True
-1498474,2026-04-26T20:00:00+00:00,FT,Chaco For Ever,1946,Atletico Mitre,466,1,1,True
-1498472,2026-04-26T20:00:00+00:00,FT,Central Norte,1951,Ciudad de Bolívar,16612,0,1,True
-1498475,2026-04-26T20:00:00+00:00,FT,Club Atlético Güemes,3969,Atlanta,1948,0,2,True
-1498478,2026-04-26T21:00:00+00:00,FT,Deportivo Maipu,1954,Almagro,482,1,0,True
-1498476,2026-04-26T22:00:00+00:00,FT,Colon Santa Fe,448,Godoy Cruz,439,0,0,True
-1498480,2026-04-28T22:30:00+00:00,FT,Ferro Carril Oeste,470,Almirante Brown,8375,0,1,True
-1498487,2026-04-30T23:30:00+00:00,FT,All Boys,464,San Miguel,8379,1,1,True
-1498499,2026-05-02T18:30:00+00:00,FT,Los Andes,483,Colon Santa Fe,448,1,1,True
-1498495,2026-05-02T18:30:00+00:00,FT,Defensores De Belgrano,1067,Central Norte,1951,1,1,True
-1498491,2026-05-02T18:30:00+00:00,FT,CA Estudiantes,1936,San Telmo,1932,1,1,True
-1498504,2026-05-02T23:00:00+00:00,FT,San Martin Tucuman,485,Atletico DE Rafaela,465,2,1,True
-1498490,2026-05-03T16:00:00+00:00,FT,Atlanta,1948,Tristan Suarez,1965,3,1,True
-1498492,2026-05-03T18:00:00+00:00,FT,Atletico Mitre,466,Acassuso,2425,2,0,True
-1498488,2026-05-03T18:00:00+00:00,FT,Almagro,482,Temperley,454,1,1,True
-1498494,2026-05-03T18:00:00+00:00,FT,Colegiales,8377,San Martin S.J.,461,2,0,True
-1498496,2026-05-03T18:30:00+00:00,FT,Gimnasia Jujuy,479,Deportivo Maipu,1954,1,1,True
-1498489,2026-05-03T18:30:00+00:00,FT,Almirante Brown,8375,Chaco For Ever,1946,1,0,True
-1498501,2026-05-03T19:00:00+00:00,FT,Patronato,444,Nueva Chicago,484,2,1,True
-1498493,2026-05-03T19:00:00+00:00,FT,Ciudad de Bolívar,16612,Ferro Carril Oeste,470,2,4,True
-1498498,2026-05-03T19:30:00+00:00,FT,Godoy Cruz,439,Deportivo Moron,469,2,2,True
-1498500,2026-05-03T19:30:00+00:00,FT,Midland,1963,Club Atlético Güemes,3969,2,1,True
-1498503,2026-05-03T20:00:00+00:00,FT,Racing Cordoba,1957,Deportivo Madryn,1929,2,2,True
-1498502,2026-05-04T23:00:00+00:00,FT,Quilmes,480,Chacarita Juniors,447,0,0,True
-1498497,2026-05-05T00:30:00+00:00,FT,Gimnasia Y Tiro,1928,Agropecuario,462,2,3,True
-1498513,2026-05-09T18:00:00+00:00,FT,Deportivo Moron,469,Los Andes,483,0,0,True
-1498520,2026-05-09T18:00:00+00:00,FT,San Telmo,1932,Atletico Mitre,466,0,0,True
-1498522,2026-05-09T18:00:00+00:00,FT,Tristan Suarez,1965,Midland,1963,1,3,True
-1498521,2026-05-09T18:30:00+00:00,FT,Temperley,454,Deportivo Maipu,1954,0,5,True
-1498519,2026-05-09T18:30:00+00:00,FT,San Miguel,8379,CA Estudiantes,1936,1,1,True
-1498517,2026-05-09T19:30:00+00:00,FT,San Martin S.J.,461,Patronato,444,1,1,True
-1498507,2026-05-09T21:00:00+00:00,FT,Atletico DE Rafaela,465,Gimnasia Y Tiro,1928,1,0,True
-1498509,2026-05-10T18:30:00+00:00,FT,Chacarita Juniors,447,Colegiales,8377,2,0,True
-1498505,2026-05-10T18:30:00+00:00,FT,Acassuso,2425,Almirante Brown,8375,0,0,True
-1498506,2026-05-10T19:00:00+00:00,FT,Agropecuario,462,Atlanta,1948,0,0,True
-1498511,2026-05-10T19:00:00+00:00,FT,Club Atlético Güemes,3969,Quilmes,480,2,1,True
-1498515,2026-05-10T19:30:00+00:00,FT,Godoy Cruz,439,Racing Cordoba,1957,2,1,True
-1498510,2026-05-10T19:30:00+00:00,FT,Chaco For Ever,1946,Ciudad de Bolívar,16612,0,1,True
-1498508,2026-05-10T20:00:00+00:00,FT,Central Norte,1951,Deportivo Madryn,1929,2,3,True
-1498512,2026-05-10T21:00:00+00:00,FT,Colon Santa Fe,448,All Boys,464,3,2,True
-1498514,2026-05-11T22:00:00+00:00,FT,Ferro Carril Oeste,470,Defensores De Belgrano,1067,2,1,True
-1498516,2026-05-11T22:30:00+00:00,FT,Nueva Chicago,484,Almagro,482,1,2,True
-1498518,2026-05-13T00:10:00+00:00,FT,San Martin Tucuman,485,Gimnasia Jujuy,479,2,0,True
-1498540,2026-05-16T00:00:00+00:00,FT,Racing Cordoba,1957,Central Norte,1951,1,2,True
-1498526,2026-05-16T16:00:00+00:00,FT,Atlanta,1948,Atletico DE Rafaela,465,2,0,True
-1498536,2026-05-16T18:00:00+00:00,FT,Los Andes,483,Godoy Cruz,439,1,0,True
-1498527,2026-05-16T18:30:00+00:00,FT,CA Estudiantes,1936,Colon Santa Fe,448,1,1,True
-1498525,2026-05-16T18:30:00+00:00,FT,Almirante Brown,8375,San Telmo,1932,0,0,True
-1498530,2026-05-16T19:00:00+00:00,FT,Colegiales,8377,Club Atlético Güemes,3969,4,1,True
-1498529,2026-05-16T19:00:00+00:00,FT,Ciudad de Bolívar,16612,Acassuso,2425,1,0,True
-1498532,2026-05-17T18:00:00+00:00,FT,Deportivo Madryn,1929,Ferro Carril Oeste,470,0,1,True
-1498534,2026-05-17T18:30:00+00:00,FT,Gimnasia Jujuy,479,Temperley,454,1,0,True
-1498524,2026-05-17T18:30:00+00:00,FT,Almagro,482,San Martin S.J.,461,1,2,True
-1498538,2026-05-17T19:00:00+00:00,FT,Patronato,444,Chacarita Juniors,447,2,0,True
-1498528,2026-05-17T19:00:00+00:00,FT,Atletico Mitre,466,San Miguel,8379,4,0,True
-1498537,2026-05-17T19:30:00+00:00,FT,Midland,1963,Agropecuario,462,2,0,True
-1498539,2026-05-17T20:00:00+00:00,FT,Quilmes,480,Tristan Suarez,1965,0,1,True
-1498535,2026-05-17T20:00:00+00:00,FT,Gimnasia Y Tiro,1928,San Martin Tucuman,485,1,0,True
-1498533,2026-05-17T20:00:00+00:00,FT,Deportivo Maipu,1954,Nueva Chicago,484,1,0,True
-1498531,2026-05-18T18:30:00+00:00,FT,Defensores De Belgrano,1067,Chaco For Ever,1946,0,0,True
-1498523,2026-05-18T23:00:00+00:00,FT,All Boys,464,Deportivo Moron,469,1,0,True
-1498552,2026-05-23T18:00:00+00:00,FT,Los Andes,483,Racing Cordoba,1957,2,0,True
-1498557,2026-05-23T18:00:00+00:00,FT,San Telmo,1932,Ciudad de Bolívar,16612,0,1,True
-1498558,2026-05-23T18:00:00+00:00,FT,Tristan Suarez,1965,Colegiales,8377,0,0,True
-1498556,2026-05-23T18:30:00+00:00,FT,San Miguel,8379,Almirante Brown,8375,1,0,True
-1498553,2026-05-23T19:00:00+00:00,FT,Nueva Chicago,484,Temperley,454,1,1,True
-1498554,2026-05-23T19:30:00+00:00,FT,San Martin S.J.,461,Deportivo Maipu,1954,2,1,True
-1498543,2026-05-23T19:30:00+00:00,FT,Atletico DE Rafaela,465,Midland,1963,1,0,True
-1498541,2026-05-24T17:00:00+00:00,FT,Acassuso,2425,Defensores De Belgrano,1067,1,0,True
-1498548,2026-05-24T18:00:00+00:00,FT,Deportivo Moron,469,CA Estudiantes,1936,2,0,True
-1498544,2026-05-24T18:30:00+00:00,FT,Chacarita Juniors,447,Almagro,482,1,0,True
-1498542,2026-05-24T19:00:00+00:00,FT,Agropecuario,462,Quilmes,480,0,0,True
-1498549,2026-05-24T19:00:00+00:00,FT,Ferro Carril Oeste,470,Central Norte,1951,1,0,True
-1498545,2026-05-24T19:00:00+00:00,FT,Chaco For Ever,1946,Deportivo Madryn,1929,1,2,True
-1498551,2026-05-24T19:30:00+00:00,FT,Godoy Cruz,439,All Boys,464,4,0,True
-1498547,2026-05-24T21:00:00+00:00,FT,Colon Santa Fe,448,Atletico Mitre,466,1,1,True
-1498550,2026-05-24T21:30:00+00:00,FT,Gimnasia Y Tiro,1928,Gimnasia Jujuy,479,1,1,True
-1498546,2026-05-24T21:30:00+00:00,FT,Club Atlético Güemes,3969,Patronato,444,1,0,True
-1498555,2026-05-24T22:00:00+00:00,FT,San Martin Tucuman,485,Atlanta,1948,0,1,True
-1498575,2026-05-30T00:00:00+00:00,FT,Racing Cordoba,1957,Ferro Carril Oeste,470,0,0,True
-1498563,2026-05-30T18:00:00+00:00,FT,CA Estudiantes,1936,Godoy Cruz,439,1,0,True
-1498567,2026-05-30T18:00:00+00:00,FT,Colegiales,8377,Agropecuario,462,0,0,True
-1498559,2026-05-30T18:30:00+00:00,FT,All Boys,464,Los Andes,483,0,0,True
-1498568,2026-05-30T18:30:00+00:00,FT,Defensores De Belgrano,1067,San Telmo,1932,1,0,True
-1498561,2026-05-30T18:30:00+00:00,FT,Almirante Brown,8375,Colon Santa Fe,448,1,1,True
-1498562,2026-05-31T16:30:00+00:00,FT,Atlanta,1948,Gimnasia Y Tiro,1928,1,1,True
-1498569,2026-05-31T18:00:00+00:00,FT,Deportivo Madryn,1929,Acassuso,2425,0,0,True
-1498560,2026-05-31T18:30:00+00:00,FT,Almagro,482,Club Atlético Güemes,3969,2,0,True
-1498573,2026-05-31T19:00:00+00:00,FT,Patronato,444,Tristan Suarez,1965,1,1,True
-1498576,2026-05-31T19:00:00+00:00,FT,Temperley,454,San Martin S.J.,461,2,1,True
-1498564,2026-05-31T19:00:00+00:00,FT,Atletico Mitre,466,Deportivo Moron,469,1,3,True
-1498572,2026-05-31T19:00:00+00:00,FT,Midland,1963,San Martin Tucuman,485,2,0,True
-1498566,2026-05-31T19:00:00+00:00,FT,Ciudad de Bolívar,16612,San Miguel,8379,1,1,True
-1498565,2026-05-31T19:30:00+00:00,FT,Central Norte,1951,Chaco For Ever,1946,1,1,True
-1498574,2026-05-31T20:00:00+00:00,FT,Quilmes,480,Atletico DE Rafaela,465,2,0,True
-1498570,2026-05-31T20:00:00+00:00,FT,Deportivo Maipu,1954,Chacarita Juniors,447,3,2,True
-1498587,2026-06-06T00:30:00+00:00,FT,Gimnasia Y Tiro,1928,Midland,1963,1,0,True
-1498580,2026-06-06T17:00:00+00:00,FT,Atlanta,1948,Gimnasia Jujuy,479,3,0,True
-1498589,2026-06-06T18:00:00+00:00,FT,Los Andes,483,CA Estudiantes,1936,0,0,True
-1498577,2026-06-06T18:30:00+00:00,FT,Acassuso,2425,Central Norte,1951,2,1,True
-1498592,2026-06-06T18:30:00+00:00,FT,San Miguel,8379,Defensores De Belgrano,1067,0,0,True
-1498581,2026-06-06T19:30:00+00:00,FT,Atletico DE Rafaela,465,Colegiales,8377,1,0,True
-1498594,2026-06-06T22:00:00+00:00,FT,Tristan Suarez,1965,Almagro,482,0,0,True
-1498586,2026-06-07T18:00:00+00:00,FT,Deportivo Moron,469,Almirante Brown,8375,1,0,True
-1498593,2026-06-07T18:00:00+00:00,FT,San Telmo,1932,Deportivo Madryn,1929,0,0,True
-1498582,2026-06-07T18:30:00+00:00,FT,Chacarita Juniors,447,Temperley,454,0,1,True
-1498579,2026-06-07T18:30:00+00:00,FT,All Boys,464,Racing Cordoba,1957,1,1,True
-1498578,2026-06-07T19:00:00+00:00,FT,Agropecuario,462,Patronato,444,1,1,True
-1498583,2026-06-07T19:00:00+00:00,FT,Chaco For Ever,1946,Ferro Carril Oeste,470,1,2,True
-1498584,2026-06-07T19:00:00+00:00,FT,Club Atlético Güemes,3969,Deportivo Maipu,1954,1,0,True
-1498588,2026-06-07T19:30:00+00:00,FT,Godoy Cruz,439,Atletico Mitre,466,2,1,True
-1498585,2026-06-07T20:00:00+00:00,FT,Colon Santa Fe,448,Ciudad de Bolívar,16612,0,0,True
-1498591,2026-06-07T20:30:00+00:00,FT,San Martin Tucuman,485,Quilmes,480,0,0,True
-1498607,2026-06-13T17:30:00+00:00,FT,Midland,1963,Atlanta,1948,1,2,True
-1498601,2026-06-13T18:00:00+00:00,FT,Colegiales,8377,San Martin Tucuman,485,2,0,True
-1498595,2026-06-13T18:30:00+00:00,FT,Almagro,482,Agropecuario,462,2,1,True
-1498608,2026-06-13T18:30:00+00:00,FT,Nueva Chicago,484,Chacarita Juniors,447,2,0,True
-1498602,2026-06-13T18:30:00+00:00,FT,Defensores De Belgrano,1067,Colon Santa Fe,448,0,3,True
-1498600,2026-06-13T19:00:00+00:00,FT,Ciudad de Bolívar,16612,Deportivo Moron,469,1,2,True
-1498610,2026-06-13T20:00:00+00:00,FT,Quilmes,480,Gimnasia Y Tiro,1928,1,0,True
-1498606,2026-06-13T23:00:00+00:00,FT,Gimnasia Jujuy,479,San Martin S.J.,461,2,1,True
-1498596,2026-06-14T17:30:00+00:00,FT,Almirante Brown,8375,Godoy Cruz,439,1,0,True
-1498603,2026-06-14T18:00:00+00:00,FT,Deportivo Madryn,1929,San Miguel,8379,2,2,True
-1498597,2026-06-14T18:00:00+00:00,FT,CA Estudiantes,1936,All Boys,464,2,1,True
-1498609,2026-06-14T18:30:00+00:00,FT,Patronato,444,Atletico DE Rafaela,465,0,0,True
-1498605,2026-06-14T18:30:00+00:00,FT,Ferro Carril Oeste,470,Acassuso,2425,2,1,True
-1498612,2026-06-14T19:00:00+00:00,FT,Temperley,454,Club Atlético Güemes,3969,4,1,True
-1498598,2026-06-14T19:00:00+00:00,FT,Atletico Mitre,466,Los Andes,483,0,3,True
-1498611,2026-06-14T19:00:00+00:00,FT,Racing Cordoba,1957,Chaco For Ever,1946,2,0,True
-1498599,2026-06-14T19:30:00+00:00,FT,Central Norte,1951,San Telmo,1932,0,0,True
-1498604,2026-06-14T19:30:00+00:00,FT,Deportivo Maipu,1954,Tristan Suarez,1965,0,1,True
-1498571,2026-06-17T18:00:00+00:00,FT,Gimnasia Jujuy,479,Nueva Chicago,484,4,0,True
-1498344,2026-06-20T18:00:00+00:00,FT,Almagro,482,Atlanta,1948,2,0,True
-1498359,2026-06-20T18:00:00+00:00,FT,San Telmo,1932,Racing Cordoba,1957,2,0,True
-1498351,2026-06-20T18:00:00+00:00,FT,Colegiales,8377,Quilmes,480,3,1,True
-1498349,2026-06-20T18:00:00+00:00,FT,Ciudad de Bolívar,16612,CA Estudiantes,1936,1,2,True
-1498343,2026-06-20T18:30:00+00:00,FT,Acassuso,2425,San Miguel,8379,0,2,True
-1498360,2026-06-20T19:00:00+00:00,FT,Temperley,454,San Martin Tucuman,485,1,1,True
-1498358,2026-06-20T19:00:00+00:00,FT,San Martin S.J.,461,Agropecuario,462,2,0,True
-1498348,2026-06-20T19:00:00+00:00,FT,Chaco For Ever,1946,Colon Santa Fe,448,1,0,True
-1498353,2026-06-21T18:00:00+00:00,FT,Deportivo Madryn,1929,Los Andes,483,2,1,True
-1498357,2026-06-21T18:30:00+00:00,FT,Patronato,444,Midland,1963,1,1,True
-1498347,2026-06-21T18:30:00+00:00,FT,Chacarita Juniors,447,Tristan Suarez,1965,0,0,True
-1498355,2026-06-21T18:30:00+00:00,FT,Ferro Carril Oeste,470,Deportivo Moron,469,1,0,True
-1498352,2026-06-21T18:30:00+00:00,FT,Defensores De Belgrano,1067,All Boys,464,0,1,True
-1498345,2026-06-21T18:30:00+00:00,FT,Almirante Brown,8375,Atletico Mitre,466,3,1,True
-1498346,2026-06-21T19:30:00+00:00,FT,Central Norte,1951,Godoy Cruz,439,1,0,True
-1498354,2026-06-21T19:30:00+00:00,FT,Deportivo Maipu,1954,Gimnasia Y Tiro,1928,0,0,True
-1498350,2026-06-21T20:00:00+00:00,FT,Club Atlético Güemes,3969,Gimnasia Jujuy,479,1,3,True
-1498356,2026-06-23T21:30:00+00:00,FT,Nueva Chicago,484,Atletico DE Rafaela,465,0,0,True
-1498620,2026-07-04T18:00:00+00:00,FT,Colegiales,8377,Gimnasia Y Tiro,1928,1,2,True
-1498630,2026-07-04T18:30:00+00:00,FT,Temperley,454,Tristan Suarez,1965,1,0,True
-1498613,2026-07-04T18:30:00+00:00,FT,Almagro,482,Atletico DE Rafaela,465,1,0,True
-1498626,2026-07-04T18:30:00+00:00,FT,Nueva Chicago,484,Club Atlético Güemes,3969,2,0,True
-1498621,2026-07-04T18:30:00+00:00,FT,Defensores De Belgrano,1067,Deportivo Moron,469,2,1,True
-1498614,2026-07-04T18:30:00+00:00,FT,Almirante Brown,8375,Los Andes,483,1,0,True
-1498619,2026-07-04T19:00:00+00:00,FT,Ciudad de Bolívar,16612,Godoy Cruz,439,3,1,True
-1498628,2026-07-04T21:00:00+00:00,FT,Quilmes,480,Atlanta,1948,2,1,True
-1498622,2026-07-05T18:00:00+00:00,FT,Deportivo Madryn,1929,Colon Santa Fe,448,1,2,True
-1498615,2026-07-05T18:00:00+00:00,FT,CA Estudiantes,1936,Racing Cordoba,1957,1,1,True
-1498627,2026-07-05T18:30:00+00:00,FT,Patronato,444,San Martin Tucuman,485,0,1,True
-1498624,2026-07-05T18:30:00+00:00,FT,Ferro Carril Oeste,470,San Telmo,1932,2,1,True
-1498618,2026-07-05T18:30:00+00:00,FT,Chaco For Ever,1946,Acassuso,2425,1,1,True
-1498629,2026-07-05T19:00:00+00:00,FT,San Martin S.J.,461,Chacarita Juniors,447,0,1,True
-1498616,2026-07-05T19:00:00+00:00,FT,Atletico Mitre,466,All Boys,464,1,1,True
-1498625,2026-07-05T19:00:00+00:00,FT,Midland,1963,Gimnasia Jujuy,479,1,1,True
-1498617,2026-07-05T19:30:00+00:00,FT,Central Norte,1951,San Miguel,8379,1,1,True
-1498623,2026-07-05T19:30:00+00:00,FT,Deportivo Maipu,1954,Agropecuario,462,2,0,True
-1498632,2026-07-11T18:00:00+00:00,FT,All Boys,464,Almirante Brown,8375,1,1,True
-1498634,2026-07-11T18:00:00+00:00,FT,Atletico DE Rafaela,465,Deportivo Maipu,1954,1,3,True
-1498638,2026-07-11T18:00:00+00:00,FT,Deportivo Moron,469,Deportivo Madryn,1929,2,2,True
-1498642,2026-07-11T18:00:00+00:00,FT,Los Andes,483,Ciudad de Bolívar,16612,3,1,True
-1498647,2026-07-11T18:00:00+00:00,FT,San Telmo,1932,Chaco For Ever,1946,1,3,True
-1498635,2026-07-11T18:00:00+00:00,FT,CA Estudiantes,1936,Atletico Mitre,466,3,0,True
-1498648,2026-07-11T18:00:00+00:00,FT,Tristan Suarez,1965,Nueva Chicago,484,1,0,True
-1498646,2026-07-11T18:00:00+00:00,FT,San Miguel,8379,Ferro Carril Oeste,470,0,1,True
-1498639,2026-07-12T18:00:00+00:00,FT,Gimnasia Jujuy,479,Chacarita Juniors,447,1,1,True
-1498637,2026-07-12T18:30:00+00:00,FT,Colon Santa Fe,448,Central Norte,1951,4,0,True
-1498631,2026-07-12T19:00:00+00:00,FT,Agropecuario,462,Temperley,454,0,0,True
-1498644,2026-07-12T19:00:00+00:00,FT,Racing Cordoba,1957,Acassuso,2425,3,2,True
-1498643,2026-07-12T19:00:00+00:00,FT,Midland,1963,Quilmes,480,1,0,True
-1498636,2026-07-12T19:00:00+00:00,FT,Club Atlético Güemes,3969,San Martin S.J.,461,0,2,True
-1498641,2026-07-12T19:30:00+00:00,FT,Godoy Cruz,439,Defensores De Belgrano,1067,1,0,True
-1498640,2026-07-12T20:00:00+00:00,FT,Gimnasia Y Tiro,1928,Patronato,444,1,1,True
-1498645,2026-07-12T21:00:00+00:00,FT,San Martin Tucuman,485,Almagro,482,3,0,True
-1498633,2026-07-14T00:00:00+00:00,FT,Atlanta,1948,Colegiales,8377,1,0,True
-1498660,2026-07-17T18:00:00+00:00,FT,Deportivo Maipu,1954,San Martin Tucuman,485,0,0,True
-1498651,2026-07-17T18:00:00+00:00,FT,Almirante Brown,8375,CA Estudiantes,1936,0,0,True
-1498652,2026-07-17T19:00:00+00:00,FT,Atletico Mitre,466,Racing Cordoba,1957,1,0,True
-1498662,2026-07-17T21:00:00+00:00,FT,Nueva Chicago,484,Agropecuario,462,1,1,True
-1498661,2026-07-17T22:30:00+00:00,FT,Ferro Carril Oeste,470,Colon Santa Fe,448,2,0,True
-1498656,2026-07-17T23:00:00+00:00,FT,Ciudad de Bolívar,16612,All Boys,464,0,0,True
-1498666,2026-07-17T23:30:00+00:00,FT,Temperley,454,Atletico DE Rafaela,465,2,0,True
-1498671,2026-07-25T18:00:00+00:00,FT,CA Estudiantes,1936,Ciudad de Bolívar,16612,1,2,True
-1498684,2026-07-25T18:00:00+00:00,FT,Tristan Suarez,1965,Chacarita Juniors,447,1,0,True
-1498670,2026-07-25T19:00:00+00:00,FT,Atletico DE Rafaela,465,Nueva Chicago,484,1,0,True
-1498682,2026-07-25T22:00:00+00:00,FT,San Martin Tucuman,485,Temperley,454,1,2,True
-1498667,2026-07-26T18:00:00+00:00,FT,Agropecuario,462,San Martin S.J.,461,2,1,True
-1498668,2026-07-26T18:00:00+00:00,FT,All Boys,464,Defensores De Belgrano,1067,0,0,True
-1498678,2026-07-26T18:00:00+00:00,FT,Los Andes,483,Deportivo Madryn,1929,0,0,True
-1498673,2026-07-26T18:30:00+00:00,FT,Colon Santa Fe,448,Chaco For Ever,1946,0,1,True
-1498674,2026-07-26T18:30:00+00:00,FT,Deportivo Moron,469,Ferro Carril Oeste,470,4,0,True
-1498683,2026-07-26T18:30:00+00:00,FT,San Miguel,8379,Acassuso,2425,0,0,True
-1498672,2026-07-26T19:00:00+00:00,FT,Atletico Mitre,466,Almirante Brown,8375,0,0,True
-1498675,2026-07-26T19:00:00+00:00,FT,Gimnasia Jujuy,479,Club Atlético Güemes,3969,2,1,True
-1498681,2026-07-26T19:00:00+00:00,FT,Racing Cordoba,1957,San Telmo,1932,2,1,True
-1498679,2026-07-26T19:00:00+00:00,FT,Midland,1963,Patronato,444,1,0,True
-1498677,2026-07-26T19:30:00+00:00,FT,Godoy Cruz,439,Central Norte,1951,2,1,True
-1498676,2026-07-26T21:00:00+00:00,FT,Gimnasia Y Tiro,1928,Deportivo Maipu,1954,1,0,True
-1498680,2026-07-26T22:00:00+00:00,FT,Quilmes,480,Colegiales,8377,0,1,True
-1498669,2026-07-27T23:00:00+00:00,FT,Atlanta,1948,Almagro,482,1,3,True
-1498698,2026-08-01T17:30:00+00:00,FT,Nueva Chicago,484,San Martin Tucuman,485,2,1,True
-1498697,2026-08-01T18:00:00+00:00,FT,Ferro Carril Oeste,470,Godoy Cruz,439,1,3,True
-1498686,2026-08-01T18:00:00+00:00,FT,Almagro,482,Midland,1963,1,1,True
-1498694,2026-08-01T18:00:00+00:00,FT,Defensores De Belgrano,1067,CA Estudiantes,1936,1,1,True
-1498685,2026-08-01T18:00:00+00:00,FT,Acassuso,2425,Colon Santa Fe,448,1,1,True
-1498693,2026-08-01T18:00:00+00:00,FT,Colegiales,8377,Gimnasia Jujuy,479,2,1,True
-1498699,2026-08-01T18:30:00+00:00,FT,Patronato,444,Quilmes,480,3,3,True
-1498700,2026-08-01T18:30:00+00:00,FT,San Martin S.J.,461,Atletico DE Rafaela,465,1,1,True
-1498689,2026-08-02T18:00:00+00:00,FT,Chacarita Juniors,447,Agropecuario,462,2,1,True
-1498701,2026-08-02T18:00:00+00:00,FT,San Telmo,1932,San Miguel,8379,1,0,True
-1498687,2026-08-02T18:00:00+00:00,FT,Almirante Brown,8375,Racing Cordoba,1957,2,0,True
-1498691,2026-08-02T18:00:00+00:00,FT,Ciudad de Bolívar,16612,Atletico Mitre,466,0,2,True
-1498702,2026-08-02T18:30:00+00:00,FT,Temperley,454,Gimnasia Y Tiro,1928,1,2,True
-1498696,2026-08-02T18:30:00+00:00,FT,Deportivo Maipu,1954,Atlanta,1948,4,2,True
-1498695,2026-08-02T19:00:00+00:00,FT,Deportivo Madryn,1929,All Boys,464,2,0,True
-1498690,2026-08-02T19:00:00+00:00,FT,Chaco For Ever,1946,Deportivo Moron,469,2,0,True
-1498688,2026-08-02T19:30:00+00:00,FT,Central Norte,1951,Los Andes,483,1,0,True
-1498692,2026-08-03T19:00:00+00:00,FT,Club Atlético Güemes,3969,Tristan Suarez,1965,1,3,True
-1498650,2026-08-05T18:00:00+00:00,FT,Almagro,482,Gimnasia Y Tiro,1928,0,2,True
-1498664,2026-08-05T22:00:00+00:00,FT,Quilmes,480,Gimnasia Jujuy,479,2,0,True
-1498654,2026-07-20T18:00:00+00:00,PST,Chacarita Juniors,447,Club Atlético Güemes,3969,,,False
-1498665,2026-07-20T18:00:00+00:00,PST,San Martin S.J.,461,Tristan Suarez,1965,,,False
-1498658,2026-07-20T18:00:00+00:00,PST,Defensores De Belgrano,1067,Los Andes,483,,,False
-1498649,2026-07-20T18:00:00+00:00,PST,Acassuso,2425,San Telmo,1932,,,False
-1498655,2026-07-21T00:00:00+00:00,PST,Chaco For Ever,1946,San Miguel,8379,,,False
-1498717,2026-08-07T23:00:00+00:00,NS,Midland,1963,Deportivo Maipu,1954,,,False
-1498703,2026-08-08T18:00:00+00:00,NS,Agropecuario,462,Club Atlético Güemes,3969,,,False
-1498708,2026-08-08T18:00:00+00:00,NS,CA Estudiantes,1936,Deportivo Madryn,1929,,,False
-1498705,2026-08-08T18:00:00+00:00,NS,Almirante Brown,8375,Ciudad de Bolívar,16612,,,False
-1498707,2026-08-08T19:00:00+00:00,NS,Atletico DE Rafaela,465,Chacarita Juniors,447,,,False
-1498716,2026-08-09T17:30:00+00:00,NS,Los Andes,483,Ferro Carril Oeste,470,,,False
-1498712,2026-08-09T18:00:00+00:00,NS,Deportivo Moron,469,Acassuso,2425,,,False
-1498710,2026-08-09T18:00:00+00:00,NS,Colegiales,8377,Patronato,444,,,False
-1498711,2026-08-09T18:30:00+00:00,NS,Colon Santa Fe,448,San Telmo,1932,,,False
-1498709,2026-08-09T19:00:00+00:00,NS,Atletico Mitre,466,Defensores De Belgrano,1067,,,False
-1498719,2026-08-09T19:00:00+00:00,NS,Racing Cordoba,1957,San Miguel,8379,,,False
-1498715,2026-08-09T19:30:00+00:00,NS,Godoy Cruz,439,Chaco For Ever,1946,,,False
-1498718,2026-08-09T20:00:00+00:00,NS,Quilmes,480,Almagro,482,,,False
-1498714,2026-08-09T20:30:00+00:00,NS,Gimnasia Y Tiro,1928,Nueva Chicago,484,,,False
-1498720,2026-08-09T21:00:00+00:00,NS,San Martin Tucuman,485,San Martin S.J.,461,,,False
-1498713,2026-08-10T18:00:00+00:00,NS,Gimnasia Jujuy,479,Tristan Suarez,1965,,,False
-1498704,2026-08-10T23:00:00+00:00,NS,All Boys,464,Central Norte,1951,,,False
-1498706,2026-08-10T23:00:00+00:00,NS,Atlanta,1948,Temperley,454,,,False
-1498721,2026-08-14T18:00:00+00:00,NS,Acassuso,2425,Midland,1963,,,False
-1498724,2026-08-14T23:30:00+00:00,NS,Atletico DE Rafaela,465,Defensores De Belgrano,1067,,,False
-1498722,2026-08-15T18:00:00+00:00,NS,Agropecuario,462,Ciudad de Bolívar,16612,,,False
-1498729,2026-08-15T18:00:00+00:00,NS,Deportivo Moron,469,Almagro,482,,,False
-1498730,2026-08-15T18:00:00+00:00,NS,Ferro Carril Oeste,470,Atlanta,1948,,,False
-1498725,2026-08-15T18:00:00+00:00,NS,CA Estudiantes,1936,Chacarita Juniors,447,,,False
-1498736,2026-08-15T18:00:00+00:00,NS,San Miguel,8379,Colegiales,8377,,,False
-1498726,2026-08-15T19:00:00+00:00,NS,Atletico Mitre,466,Club Atlético Güemes,3969,,,False
-1498732,2026-08-15T21:00:00+00:00,NS,Godoy Cruz,439,Deportivo Maipu,1954,,,False
-1498733,2026-08-15T22:00:00+00:00,NS,Quilmes,480,San Telmo,1932,,,False
-1498738,2026-08-16T18:00:00+00:00,NS,Tristan Suarez,1965,Almirante Brown,8375,,,False
-1498728,2026-08-16T18:30:00+00:00,NS,Colon Santa Fe,448,Patronato,444,,,False
-1498731,2026-08-16T19:00:00+00:00,NS,Gimnasia Jujuy,479,Chaco For Ever,1946,,,False
-1498727,2026-08-16T20:00:00+00:00,NS,Central Norte,1951,Gimnasia Y Tiro,1928,,,False
-1498734,2026-08-16T20:00:00+00:00,NS,Racing Cordoba,1957,San Martin S.J.,461,,,False
-1498735,2026-08-16T21:00:00+00:00,NS,San Martin Tucuman,485,Deportivo Madryn,1929,,,False
-1498737,2026-08-16T22:00:00+00:00,NS,Temperley,454,Los Andes,483,,,False
-1498723,2026-08-17T18:00:00+00:00,NS,All Boys,464,Nueva Chicago,484,,,False
-1498751,2026-08-22T20:00:00+00:00,NS,Patronato,444,Gimnasia Jujuy,479,,,False
-1498742,2026-08-22T20:00:00+00:00,NS,Chacarita Juniors,447,San Martin Tucuman,485,,,False
-1498755,2026-08-22T20:00:00+00:00,NS,Temperley,454,Midland,1963,,,False
-1498752,2026-08-22T20:00:00+00:00,NS,San Martin S.J.,461,Gimnasia Y Tiro,1928,,,False
-1498749,2026-08-22T20:00:00+00:00,NS,Ferro Carril Oeste,470,All Boys,464,,,False
-1498740,2026-08-22T20:00:00+00:00,NS,Almagro,482,Colegiales,8377,,,False
-1498750,2026-08-22T20:00:00+00:00,NS,Nueva Chicago,484,Atlanta,1948,,,False
-1498746,2026-08-22T20:00:00+00:00,NS,Defensores De Belgrano,1067,Almirante Brown,8375,,,False
-1498747,2026-08-22T20:00:00+00:00,NS,Deportivo Madryn,1929,Atletico Mitre,466,,,False
-1498754,2026-08-22T20:00:00+00:00,NS,San Telmo,1932,Deportivo Moron,469,,,False
-1498743,2026-08-22T20:00:00+00:00,NS,Chaco For Ever,1946,Los Andes,483,,,False
-1498741,2026-08-22T20:00:00+00:00,NS,Central Norte,1951,CA Estudiantes,1936,,,False
-1498748,2026-08-22T20:00:00+00:00,NS,Deportivo Maipu,1954,Quilmes,480,,,False
-1498756,2026-08-22T20:00:00+00:00,NS,Tristan Suarez,1965,Agropecuario,462,,,False
-1498739,2026-08-22T20:00:00+00:00,NS,Acassuso,2425,Godoy Cruz,439,,,False
-1498745,2026-08-22T20:00:00+00:00,NS,Club Atlético Güemes,3969,Atletico DE Rafaela,465,,,False
-1498753,2026-08-22T20:00:00+00:00,NS,San Miguel,8379,Colon Santa Fe,448,,,False
-1498744,2026-08-22T20:00:00+00:00,NS,Ciudad de Bolívar,16612,Racing Cordoba,1957,,,False
-1498659,2026-08-25T22:00:00+00:00,NS,Deportivo Madryn,1929,Godoy Cruz,439,,,False
-1498663,2026-08-26T18:30:00+00:00,NS,Patronato,444,Atlanta,1948,,,False
-1498657,2026-08-26T23:00:00+00:00,NS,Colegiales,8377,Midland,1963,,,False
-1498653,2026-08-27T00:00:00+00:00,NS,Central Norte,1951,Deportivo Moron,469,,,False
-1498768,2026-08-29T20:00:00+00:00,NS,Godoy Cruz,439,San Telmo,1932,,,False
-1498771,2026-08-29T20:00:00+00:00,NS,Patronato,444,Almagro,482,,,False
-1498757,2026-08-29T20:00:00+00:00,NS,All Boys,464,Chaco For Ever,1946,,,False
-1498760,2026-08-29T20:00:00+00:00,NS,Atletico DE Rafaela,465,Tristan Suarez,1965,,,False
-1498762,2026-08-29T20:00:00+00:00,NS,Atletico Mitre,466,Central Norte,1951,,,False
-1498765,2026-08-29T20:00:00+00:00,NS,Deportivo Moron,469,San Miguel,8379,,,False
-1498766,2026-08-29T20:00:00+00:00,NS,Gimnasia Jujuy,479,Agropecuario,462,,,False
-1498772,2026-08-29T20:00:00+00:00,NS,Quilmes,480,Temperley,454,,,False
-1498769,2026-08-29T20:00:00+00:00,NS,Los Andes,483,Acassuso,2425,,,False
-1498774,2026-08-29T20:00:00+00:00,NS,San Martin Tucuman,485,Club Atlético Güemes,3969,,,False
-1498767,2026-08-29T20:00:00+00:00,NS,Gimnasia Y Tiro,1928,Chacarita Juniors,447,,,False
-1498761,2026-08-29T20:00:00+00:00,NS,CA Estudiantes,1936,Ferro Carril Oeste,470,,,False
-1498759,2026-08-29T20:00:00+00:00,NS,Atlanta,1948,San Martin S.J.,461,,,False
-1498773,2026-08-29T20:00:00+00:00,NS,Racing Cordoba,1957,Colon Santa Fe,448,,,False
-1498770,2026-08-29T20:00:00+00:00,NS,Midland,1963,Nueva Chicago,484,,,False
-1498758,2026-08-29T20:00:00+00:00,NS,Almirante Brown,8375,Deportivo Madryn,1929,,,False
-1498764,2026-08-29T20:00:00+00:00,NS,Colegiales,8377,Deportivo Maipu,1954,,,False
-1498763,2026-08-29T20:00:00+00:00,NS,Ciudad de Bolívar,16612,Defensores De Belgrano,1067,,,False
-1498779,2026-09-05T20:00:00+00:00,NS,Chacarita Juniors,447,Atlanta,1948,,,False
-1498782,2026-09-05T20:00:00+00:00,NS,Colon Santa Fe,448,Deportivo Moron,469,,,False
-1498791,2026-09-05T20:00:00+00:00,NS,Temperley,454,Colegiales,8377,,,False
-1498788,2026-09-05T20:00:00+00:00,NS,San Martin S.J.,461,Midland,1963,,,False
-1498776,2026-09-05T20:00:00+00:00,NS,Agropecuario,462,Atletico DE Rafaela,465,,,False
-1498786,2026-09-05T20:00:00+00:00,NS,Ferro Carril Oeste,470,Atletico Mitre,466,,,False
-1498777,2026-09-05T20:00:00+00:00,NS,Almagro,482,Gimnasia Jujuy,479,,,False
-1498787,2026-09-05T20:00:00+00:00,NS,Nueva Chicago,484,Quilmes,480,,,False
-1498783,2026-09-05T20:00:00+00:00,NS,Defensores De Belgrano,1067,Racing Cordoba,1957,,,False
-1498784,2026-09-05T20:00:00+00:00,NS,Deportivo Madryn,1929,Ciudad de Bolívar,16612,,,False
-1498790,2026-09-05T20:00:00+00:00,NS,San Telmo,1932,Los Andes,483,,,False
-1498780,2026-09-05T20:00:00+00:00,NS,Chaco For Ever,1946,CA Estudiantes,1936,,,False
-1498778,2026-09-05T20:00:00+00:00,NS,Central Norte,1951,Almirante Brown,8375,,,False
-1498785,2026-09-05T20:00:00+00:00,NS,Deportivo Maipu,1954,Patronato,444,,,False
-1498792,2026-09-05T20:00:00+00:00,NS,Tristan Suarez,1965,San Martin Tucuman,485,,,False
-1498775,2026-09-05T20:00:00+00:00,NS,Acassuso,2425,All Boys,464,,,False
-1498781,2026-09-05T20:00:00+00:00,NS,Club Atlético Güemes,3969,Gimnasia Y Tiro,1928,,,False
-1498789,2026-09-05T20:00:00+00:00,NS,San Miguel,8379,Godoy Cruz,439,,,False
-1498804,2026-09-12T20:00:00+00:00,NS,Godoy Cruz,439,Colon Santa Fe,448,,,False
-1498807,2026-09-12T20:00:00+00:00,NS,Patronato,444,Temperley,454,,,False
-1498793,2026-09-12T20:00:00+00:00,NS,All Boys,464,San Telmo,1932,,,False
-1498798,2026-09-12T20:00:00+00:00,NS,Atletico Mitre,466,Chaco For Ever,1946,,,False
-1498802,2026-09-12T20:00:00+00:00,NS,Gimnasia Jujuy,479,Atletico DE Rafaela,465,,,False
-1498808,2026-09-12T20:00:00+00:00,NS,Quilmes,480,San Martin S.J.,461,,,False
-1498794,2026-09-12T20:00:00+00:00,NS,Almagro,482,Deportivo Maipu,1954,,,False
-1498805,2026-09-12T20:00:00+00:00,NS,Los Andes,483,San Miguel,8379,,,False
-1498810,2026-09-12T20:00:00+00:00,NS,San Martin Tucuman,485,Agropecuario,462,,,False
-1498801,2026-09-12T20:00:00+00:00,NS,Defensores De Belgrano,1067,Deportivo Madryn,1929,,,False
-1498803,2026-09-12T20:00:00+00:00,NS,Gimnasia Y Tiro,1928,Tristan Suarez,1965,,,False
-1498797,2026-09-12T20:00:00+00:00,NS,CA Estudiantes,1936,Acassuso,2425,,,False
-1498796,2026-09-12T20:00:00+00:00,NS,Atlanta,1948,Club Atlético Güemes,3969,,,False
-1498809,2026-09-12T20:00:00+00:00,NS,Racing Cordoba,1957,Deportivo Moron,469,,,False
-1498806,2026-09-12T20:00:00+00:00,NS,Midland,1963,Chacarita Juniors,447,,,False
-1498795,2026-09-12T20:00:00+00:00,NS,Almirante Brown,8375,Ferro Carril Oeste,470,,,False
-1498800,2026-09-12T20:00:00+00:00,NS,Colegiales,8377,Nueva Chicago,484,,,False
-1498799,2026-09-12T20:00:00+00:00,NS,Ciudad de Bolívar,16612,Central Norte,1951,,,False
-1498815,2026-09-19T20:00:00+00:00,NS,Chacarita Juniors,447,Quilmes,480,,,False
-1498818,2026-09-19T20:00:00+00:00,NS,Colon Santa Fe,448,Los Andes,483,,,False
-1498827,2026-09-19T20:00:00+00:00,NS,Temperley,454,Almagro,482,,,False
-1498824,2026-09-19T20:00:00+00:00,NS,San Martin S.J.,461,Colegiales,8377,,,False
-1498812,2026-09-19T20:00:00+00:00,NS,Agropecuario,462,Gimnasia Y Tiro,1928,,,False
-1498813,2026-09-19T20:00:00+00:00,NS,Atletico DE Rafaela,465,San Martin Tucuman,485,,,False
-1498821,2026-09-19T20:00:00+00:00,NS,Deportivo Moron,469,Godoy Cruz,439,,,False
-1498822,2026-09-19T20:00:00+00:00,NS,Ferro Carril Oeste,470,Ciudad de Bolívar,16612,,,False
-1498823,2026-09-19T20:00:00+00:00,NS,Nueva Chicago,484,Patronato,444,,,False
-1498819,2026-09-19T20:00:00+00:00,NS,Deportivo Madryn,1929,Racing Cordoba,1957,,,False
-1498826,2026-09-19T20:00:00+00:00,NS,San Telmo,1932,CA Estudiantes,1936,,,False
-1498816,2026-09-19T20:00:00+00:00,NS,Chaco For Ever,1946,Almirante Brown,8375,,,False
-1498814,2026-09-19T20:00:00+00:00,NS,Central Norte,1951,Defensores De Belgrano,1067,,,False
-1498820,2026-09-19T20:00:00+00:00,NS,Deportivo Maipu,1954,Gimnasia Jujuy,479,,,False
-1498828,2026-09-19T20:00:00+00:00,NS,Tristan Suarez,1965,Atlanta,1948,,,False
-1498811,2026-09-19T20:00:00+00:00,NS,Acassuso,2425,Atletico Mitre,466,,,False
-1498817,2026-09-19T20:00:00+00:00,NS,Club Atlético Güemes,3969,Midland,1963,,,False
-1498825,2026-09-19T20:00:00+00:00,NS,San Miguel,8379,All Boys,464,,,False
-1498844,2026-09-26T20:00:00+00:00,NS,Patronato,444,San Martin S.J.,461,,,False
-1498829,2026-09-26T20:00:00+00:00,NS,All Boys,464,Colon Santa Fe,448,,,False
-1498834,2026-09-26T20:00:00+00:00,NS,Atletico Mitre,466,San Telmo,1932,,,False
-1498840,2026-09-26T20:00:00+00:00,NS,Gimnasia Jujuy,479,San Martin Tucuman,485,,,False
-1498845,2026-09-26T20:00:00+00:00,NS,Quilmes,480,Club Atlético Güemes,3969,,,False
-1498830,2026-09-26T20:00:00+00:00,NS,Almagro,482,Nueva Chicago,484,,,False
-1498842,2026-09-26T20:00:00+00:00,NS,Los Andes,483,Deportivo Moron,469,,,False
-1498837,2026-09-26T20:00:00+00:00,NS,Defensores De Belgrano,1067,Ferro Carril Oeste,470,,,False
-1498841,2026-09-26T20:00:00+00:00,NS,Gimnasia Y Tiro,1928,Atletico DE Rafaela,465,,,False
-1498838,2026-09-26T20:00:00+00:00,NS,Deportivo Madryn,1929,Central Norte,1951,,,False
-1498833,2026-09-26T20:00:00+00:00,NS,CA Estudiantes,1936,San Miguel,8379,,,False
-1498832,2026-09-26T20:00:00+00:00,NS,Atlanta,1948,Agropecuario,462,,,False
-1498839,2026-09-26T20:00:00+00:00,NS,Deportivo Maipu,1954,Temperley,454,,,False
-1498846,2026-09-26T20:00:00+00:00,NS,Racing Cordoba,1957,Godoy Cruz,439,,,False
-1498843,2026-09-26T20:00:00+00:00,NS,Midland,1963,Tristan Suarez,1965,,,False
-1498831,2026-09-26T20:00:00+00:00,NS,Almirante Brown,8375,Acassuso,2425,,,False
-1498836,2026-09-26T20:00:00+00:00,NS,Colegiales,8377,Chacarita Juniors,447,,,False
-1498835,2026-09-26T20:00:00+00:00,NS,Ciudad de Bolívar,16612,Chaco For Ever,1946,,,False
-1498857,2026-10-03T20:00:00+00:00,NS,Godoy Cruz,439,Los Andes,483,,,False
-1498851,2026-10-03T20:00:00+00:00,NS,Chacarita Juniors,447,Patronato,444,,,False
-1498854,2026-10-03T20:00:00+00:00,NS,Colon Santa Fe,448,CA Estudiantes,1936,,,False
-1498863,2026-10-03T20:00:00+00:00,NS,Temperley,454,Gimnasia Jujuy,479,,,False
-1498859,2026-10-03T20:00:00+00:00,NS,San Martin S.J.,461,Almagro,482,,,False
-1498848,2026-10-03T20:00:00+00:00,NS,Agropecuario,462,Midland,1963,,,False
-1498849,2026-10-03T20:00:00+00:00,NS,Atletico DE Rafaela,465,Atlanta,1948,,,False
-1498855,2026-10-03T20:00:00+00:00,NS,Deportivo Moron,469,All Boys,464,,,False
-1498856,2026-10-03T20:00:00+00:00,NS,Ferro Carril Oeste,470,Deportivo Madryn,1929,,,False
-1498858,2026-10-03T20:00:00+00:00,NS,Nueva Chicago,484,Deportivo Maipu,1954,,,False
-1498860,2026-10-03T20:00:00+00:00,NS,San Martin Tucuman,485,Gimnasia Y Tiro,1928,,,False
-1498862,2026-10-03T20:00:00+00:00,NS,San Telmo,1932,Almirante Brown,8375,,,False
-1498852,2026-10-03T20:00:00+00:00,NS,Chaco For Ever,1946,Defensores De Belgrano,1067,,,False
-1498850,2026-10-03T20:00:00+00:00,NS,Central Norte,1951,Racing Cordoba,1957,,,False
-1498864,2026-10-03T20:00:00+00:00,NS,Tristan Suarez,1965,Quilmes,480,,,False
-1498847,2026-10-03T20:00:00+00:00,NS,Acassuso,2425,Ciudad de Bolívar,16612,,,False
-1498853,2026-10-03T20:00:00+00:00,NS,Club Atlético Güemes,3969,Colegiales,8377,,,False
-1498861,2026-10-03T20:00:00+00:00,NS,San Miguel,8379,Atletico Mitre,466,,,False
-1498879,2026-10-10T20:00:00+00:00,NS,Patronato,444,Club Atlético Güemes,3969,,,False
-1498882,2026-10-10T20:00:00+00:00,NS,Temperley,454,Nueva Chicago,484,,,False
-1498865,2026-10-10T20:00:00+00:00,NS,All Boys,464,Godoy Cruz,439,,,False
-1498870,2026-10-10T20:00:00+00:00,NS,Atletico Mitre,466,Colon Santa Fe,448,,,False
-1498877,2026-10-10T20:00:00+00:00,NS,Gimnasia Jujuy,479,Gimnasia Y Tiro,1928,,,False
-1498880,2026-10-10T20:00:00+00:00,NS,Quilmes,480,Agropecuario,462,,,False
-1498866,2026-10-10T20:00:00+00:00,NS,Almagro,482,Chacarita Juniors,447,,,False
-1498874,2026-10-10T20:00:00+00:00,NS,Defensores De Belgrano,1067,Acassuso,2425,,,False
-1498875,2026-10-10T20:00:00+00:00,NS,Deportivo Madryn,1929,Chaco For Ever,1946,,,False
-1498869,2026-10-10T20:00:00+00:00,NS,CA Estudiantes,1936,Deportivo Moron,469,,,False
-1498868,2026-10-10T20:00:00+00:00,NS,Atlanta,1948,San Martin Tucuman,485,,,False
-1498871,2026-10-10T20:00:00+00:00,NS,Central Norte,1951,Ferro Carril Oeste,470,,,False
-1498876,2026-10-10T20:00:00+00:00,NS,Deportivo Maipu,1954,San Martin S.J.,461,,,False
-1498881,2026-10-10T20:00:00+00:00,NS,Racing Cordoba,1957,Los Andes,483,,,False
-1498878,2026-10-10T20:00:00+00:00,NS,Midland,1963,Atletico DE Rafaela,465,,,False
-1498867,2026-10-10T20:00:00+00:00,NS,Almirante Brown,8375,San Miguel,8379,,,False
-1498873,2026-10-10T20:00:00+00:00,NS,Colegiales,8377,Tristan Suarez,1965,,,False
-1498872,2026-10-10T20:00:00+00:00,NS,Ciudad de Bolívar,16612,San Telmo,1932,,,False
-1498893,2026-10-17T20:00:00+00:00,NS,Godoy Cruz,439,CA Estudiantes,1936,,,False
-1498886,2026-10-17T20:00:00+00:00,NS,Chacarita Juniors,447,Deportivo Maipu,1954,,,False
-1498889,2026-10-17T20:00:00+00:00,NS,Colon Santa Fe,448,Almirante Brown,8375,,,False
-1498896,2026-10-17T20:00:00+00:00,NS,San Martin S.J.,461,Temperley,454,,,False
-1498884,2026-10-17T20:00:00+00:00,NS,Agropecuario,462,Colegiales,8377,,,False
-1498885,2026-10-17T20:00:00+00:00,NS,Atletico DE Rafaela,465,Quilmes,480,,,False
-1498890,2026-10-17T20:00:00+00:00,NS,Deportivo Moron,469,Atletico Mitre,466,,,False
-1498891,2026-10-17T20:00:00+00:00,NS,Ferro Carril Oeste,470,Racing Cordoba,1957,,,False
-1498894,2026-10-17T20:00:00+00:00,NS,Los Andes,483,All Boys,464,,,False
-1498895,2026-10-17T20:00:00+00:00,NS,Nueva Chicago,484,Gimnasia Jujuy,479,,,False
-1498897,2026-10-17T20:00:00+00:00,NS,San Martin Tucuman,485,Midland,1963,,,False
-1498892,2026-10-17T20:00:00+00:00,NS,Gimnasia Y Tiro,1928,Atlanta,1948,,,False
-1498899,2026-10-17T20:00:00+00:00,NS,San Telmo,1932,Defensores De Belgrano,1067,,,False
-1498887,2026-10-17T20:00:00+00:00,NS,Chaco For Ever,1946,Central Norte,1951,,,False
-1498900,2026-10-17T20:00:00+00:00,NS,Tristan Suarez,1965,Patronato,444,,,False
-1498883,2026-10-17T20:00:00+00:00,NS,Acassuso,2425,Deportivo Madryn,1929,,,False
-1498888,2026-10-17T20:00:00+00:00,NS,Club Atlético Güemes,3969,Almagro,482,,,False
-1498898,2026-10-17T20:00:00+00:00,NS,San Miguel,8379,Ciudad de Bolívar,16612,,,False
-1498915,2026-10-24T20:00:00+00:00,NS,Patronato,444,Agropecuario,462,,,False
-1498918,2026-10-24T20:00:00+00:00,NS,Temperley,454,Chacarita Juniors,447,,,False
-1498904,2026-10-24T20:00:00+00:00,NS,Atletico Mitre,466,Godoy Cruz,439,,,False
-1498911,2026-10-24T20:00:00+00:00,NS,Ferro Carril Oeste,470,Chaco For Ever,1946,,,False
-1498912,2026-10-24T20:00:00+00:00,NS,Gimnasia Jujuy,479,Atlanta,1948,,,False
-1498916,2026-10-24T20:00:00+00:00,NS,Quilmes,480,San Martin Tucuman,485,,,False
-1498901,2026-10-24T20:00:00+00:00,NS,Almagro,482,Tristan Suarez,1965,,,False
-1498914,2026-10-24T20:00:00+00:00,NS,Nueva Chicago,484,San Martin S.J.,461,,,False
-1498908,2026-10-24T20:00:00+00:00,NS,Defensores De Belgrano,1067,San Miguel,8379,,,False
-1498909,2026-10-24T20:00:00+00:00,NS,Deportivo Madryn,1929,San Telmo,1932,,,False
-1498903,2026-10-24T20:00:00+00:00,NS,CA Estudiantes,1936,Los Andes,483,,,False
-1498905,2026-10-24T20:00:00+00:00,NS,Central Norte,1951,Acassuso,2425,,,False
-1498910,2026-10-24T20:00:00+00:00,NS,Deportivo Maipu,1954,Club Atlético Güemes,3969,,,False
-1498917,2026-10-24T20:00:00+00:00,NS,Racing Cordoba,1957,All Boys,464,,,False
-1498913,2026-10-24T20:00:00+00:00,NS,Midland,1963,Gimnasia Y Tiro,1928,,,False
-1498902,2026-10-24T20:00:00+00:00,NS,Almirante Brown,8375,Deportivo Moron,469,,,False
-1498907,2026-10-24T20:00:00+00:00,NS,Colegiales,8377,Atletico DE Rafaela,465,,,False
-1498906,2026-10-24T20:00:00+00:00,NS,Ciudad de Bolívar,16612,Colon Santa Fe,448,,,False
-1498930,2026-10-31T20:00:00+00:00,NS,Godoy Cruz,439,Almirante Brown,8375,,,False
-1498924,2026-10-31T20:00:00+00:00,NS,Chacarita Juniors,447,Nueva Chicago,484,,,False
-1498927,2026-10-31T20:00:00+00:00,NS,Colon Santa Fe,448,Defensores De Belgrano,1067,,,False
-1498932,2026-10-31T20:00:00+00:00,NS,San Martin S.J.,461,Gimnasia Jujuy,479,,,False
-1498920,2026-10-31T20:00:00+00:00,NS,Agropecuario,462,Almagro,482,,,False
-1498921,2026-10-31T20:00:00+00:00,NS,All Boys,464,CA Estudiantes,1936,,,False
-1498923,2026-10-31T20:00:00+00:00,NS,Atletico DE Rafaela,465,Patronato,444,,,False
-1498928,2026-10-31T20:00:00+00:00,NS,Deportivo Moron,469,Ciudad de Bolívar,16612,,,False
-1498931,2026-10-31T20:00:00+00:00,NS,Los Andes,483,Atletico Mitre,466,,,False
-1498933,2026-10-31T20:00:00+00:00,NS,San Martin Tucuman,485,Colegiales,8377,,,False
-1498929,2026-10-31T20:00:00+00:00,NS,Gimnasia Y Tiro,1928,Quilmes,480,,,False
-1498935,2026-10-31T20:00:00+00:00,NS,San Telmo,1932,Central Norte,1951,,,False
-1498925,2026-10-31T20:00:00+00:00,NS,Chaco For Ever,1946,Racing Cordoba,1957,,,False
-1498922,2026-10-31T20:00:00+00:00,NS,Atlanta,1948,Midland,1963,,,False
-1498936,2026-10-31T20:00:00+00:00,NS,Tristan Suarez,1965,Deportivo Maipu,1954,,,False
-1498919,2026-10-31T20:00:00+00:00,NS,Acassuso,2425,Ferro Carril Oeste,470,,,False
-1498926,2026-10-31T20:00:00+00:00,NS,Club Atlético Güemes,3969,Temperley,454,,,False
-1498934,2026-10-31T20:00:00+00:00,NS,San Miguel,8379,Deportivo Madryn,1929,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1498590,2026-06-06T19:00:00+00:00,ABD,Regular Season - 17,San Martin S.J.,461,Nueva Chicago,484,1,0,False
+1498304,2026-02-13T20:00:00+00:00,FT,Regular Season - 1,San Miguel,8379,Central Norte,1951,1,0,True
+1498293,2026-02-14T00:00:00+00:00,FT,Regular Season - 1,Atletico DE Rafaela,465,Almagro,482,0,0,True
+1498300,2026-02-14T00:30:00+00:00,FT,Regular Season - 1,Godoy Cruz,439,Ciudad de Bolívar,16612,1,1,True
+1498299,2026-02-14T01:00:00+00:00,FT,Regular Season - 1,Gimnasia Y Tiro,1928,Colegiales,8377,2,1,True
+1498291,2026-02-14T20:00:00+00:00,FT,Regular Season - 1,All Boys,464,Atletico Mitre,466,2,1,True
+1498297,2026-02-14T20:00:00+00:00,FT,Regular Season - 1,Deportivo Moron,469,Defensores De Belgrano,1067,1,1,True
+1498305,2026-02-14T20:00:00+00:00,FT,Regular Season - 1,San Telmo,1932,Ferro Carril Oeste,470,0,2,True
+1498289,2026-02-14T20:00:00+00:00,FT,Regular Season - 1,Acassuso,2425,Chaco For Ever,1946,2,0,True
+1498290,2026-02-14T21:00:00+00:00,FT,Regular Season - 1,Agropecuario,462,Deportivo Maipu,1954,2,1,True
+1498306,2026-02-14T22:00:00+00:00,FT,Regular Season - 1,Tristan Suarez,1965,Temperley,454,0,0,True
+1498296,2026-02-14T23:00:00+00:00,FT,Regular Season - 1,Colon Santa Fe,448,Deportivo Madryn,1929,2,1,True
+1498294,2026-02-15T20:00:00+00:00,FT,Regular Season - 1,Chacarita Juniors,447,San Martin S.J.,461,1,1,True
+1498295,2026-02-15T20:00:00+00:00,FT,Regular Season - 1,Club Atlético Güemes,3969,Nueva Chicago,484,0,1,True
+1498301,2026-02-15T20:30:00+00:00,FT,Regular Season - 1,Los Andes,483,Almirante Brown,8375,0,0,True
+1498303,2026-02-15T22:00:00+00:00,FT,Regular Season - 1,San Martin Tucuman,485,Patronato,444,0,0,True
+1498302,2026-02-15T22:00:00+00:00,FT,Regular Season - 1,Racing Cordoba,1957,CA Estudiantes,1936,1,0,True
+1498298,2026-02-16T20:00:00+00:00,FT,Regular Season - 1,Gimnasia Jujuy,479,Midland,1963,2,1,True
+1498292,2026-02-16T20:00:00+00:00,FT,Regular Season - 1,Atlanta,1948,Quilmes,480,1,0,True
+1498308,2026-02-21T20:00:00+00:00,FT,Regular Season - 2,Almagro,482,San Martin Tucuman,485,0,1,True
+1498320,2026-02-21T20:00:00+00:00,FT,Regular Season - 2,Nueva Chicago,484,Tristan Suarez,1965,0,0,True
+1498307,2026-02-21T20:00:00+00:00,FT,Regular Season - 2,Acassuso,2425,Racing Cordoba,1957,3,0,True
+1498319,2026-02-21T22:00:00+00:00,FT,Regular Season - 2,Ferro Carril Oeste,470,San Miguel,8379,1,1,True
+1498317,2026-02-21T22:00:00+00:00,FT,Regular Season - 2,Deportivo Madryn,1929,Deportivo Moron,469,1,1,True
+1498321,2026-02-21T23:00:00+00:00,FT,Regular Season - 2,Patronato,444,Gimnasia Y Tiro,1928,1,2,True
+1498323,2026-02-21T23:00:00+00:00,FT,Regular Season - 2,San Martin S.J.,461,Club Atlético Güemes,3969,2,1,True
+1498322,2026-02-21T23:00:00+00:00,FT,Regular Season - 2,Quilmes,480,Midland,1963,0,0,True
+1498318,2026-02-21T23:00:00+00:00,FT,Regular Season - 2,Deportivo Maipu,1954,Atletico DE Rafaela,465,2,1,True
+1498313,2026-02-22T00:00:00+00:00,FT,Regular Season - 2,Chaco For Ever,1946,San Telmo,1932,2,2,True
+1498312,2026-02-22T20:00:00+00:00,FT,Regular Season - 2,Chacarita Juniors,447,Gimnasia Jujuy,479,3,1,True
+1498316,2026-02-22T20:00:00+00:00,FT,Regular Season - 2,Defensores De Belgrano,1067,Godoy Cruz,439,1,1,True
+1498309,2026-02-22T20:00:00+00:00,FT,Regular Season - 2,Almirante Brown,8375,All Boys,464,2,1,True
+1498314,2026-02-22T20:00:00+00:00,FT,Regular Season - 2,Ciudad de Bolívar,16612,Los Andes,483,1,1,True
+1498311,2026-02-22T21:00:00+00:00,FT,Regular Season - 2,Central Norte,1951,Colon Santa Fe,448,0,0,True
+1498324,2026-02-22T23:00:00+00:00,FT,Regular Season - 2,Temperley,454,Agropecuario,462,1,0,True
+1498315,2026-02-22T23:00:00+00:00,FT,Regular Season - 2,Colegiales,8377,Atlanta,1948,1,0,True
+1498310,2026-02-23T13:45:00+00:00,FT,Regular Season - 2,Atletico Mitre,466,CA Estudiantes,1936,1,0,True
+1498334,2026-02-28T01:00:00+00:00,FT,Regular Season - 3,Gimnasia Y Tiro,1928,Almagro,482,2,0,True
+1498336,2026-02-28T20:00:00+00:00,FT,Regular Season - 3,Los Andes,483,Defensores De Belgrano,1067,0,1,True
+1498340,2026-02-28T20:00:00+00:00,FT,Regular Season - 3,San Miguel,8379,Chaco For Ever,1946,2,0,True
+1498331,2026-02-28T23:30:00+00:00,FT,Regular Season - 3,Colon Santa Fe,448,Ferro Carril Oeste,470,1,1,True
+1498325,2026-02-28T23:30:00+00:00,FT,Regular Season - 3,Agropecuario,462,Nueva Chicago,484,0,2,True
+1498335,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,Godoy Cruz,439,Deportivo Madryn,1929,0,0,True
+1498326,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,All Boys,464,Ciudad de Bolívar,16612,0,0,True
+1498332,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,Deportivo Moron,469,Central Norte,1951,2,0,True
+1498333,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,Gimnasia Jujuy,479,Quilmes,480,1,0,True
+1498341,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,San Telmo,1932,Acassuso,2425,2,3,True
+1498337,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,Midland,1963,Colegiales,8377,2,0,True
+1498330,2026-03-01T20:00:00+00:00,FT,Regular Season - 3,Club Atlético Güemes,3969,Chacarita Juniors,447,2,1,True
+1498339,2026-03-01T20:30:00+00:00,FT,Regular Season - 3,San Martin Tucuman,485,Deportivo Maipu,1954,2,2,True
+1498338,2026-03-01T21:00:00+00:00,FT,Regular Season - 3,Racing Cordoba,1957,Atletico Mitre,466,0,0,True
+1498328,2026-03-01T23:30:00+00:00,FT,Regular Season - 3,Atletico DE Rafaela,465,Temperley,454,1,0,True
+1498329,2026-03-01T23:30:00+00:00,FT,Regular Season - 3,CA Estudiantes,1936,Almirante Brown,8375,0,1,True
+1498342,2026-03-01T23:30:00+00:00,FT,Regular Season - 3,Tristan Suarez,1965,San Martin S.J.,461,2,1,True
+1498327,2026-03-03T00:00:00+00:00,FT,Regular Season - 3,Atlanta,1948,Patronato,444,0,0,True
+1498364,2026-03-14T00:00:00+00:00,FT,Regular Season - 5,Atletico DE Rafaela,465,San Martin S.J.,461,1,0,True
+1498375,2026-03-14T00:00:00+00:00,FT,Regular Season - 5,Racing Cordoba,1957,Almirante Brown,8375,2,1,True
+1498372,2026-03-14T17:00:00+00:00,FT,Regular Season - 5,Los Andes,483,Central Norte,1951,0,0,True
+1498362,2026-03-14T19:00:00+00:00,FT,Regular Season - 5,All Boys,464,Deportivo Madryn,1929,1,0,True
+1498368,2026-03-14T19:00:00+00:00,FT,Regular Season - 5,Deportivo Moron,469,Chaco For Ever,1946,3,2,True
+1498365,2026-03-14T19:00:00+00:00,FT,Regular Season - 5,CA Estudiantes,1936,Defensores De Belgrano,1067,0,2,True
+1498377,2026-03-14T19:00:00+00:00,FT,Regular Season - 5,San Miguel,8379,San Telmo,1932,1,1,True
+1498371,2026-03-14T21:00:00+00:00,FT,Regular Season - 5,Godoy Cruz,439,Ferro Carril Oeste,470,2,1,True
+1498378,2026-03-14T22:00:00+00:00,FT,Regular Season - 5,Tristan Suarez,1965,Club Atlético Güemes,3969,1,1,True
+1498367,2026-03-14T23:00:00+00:00,FT,Regular Season - 5,Colon Santa Fe,448,Acassuso,2425,1,0,True
+1498374,2026-03-14T23:00:00+00:00,FT,Regular Season - 5,Quilmes,480,Patronato,444,3,0,True
+1498361,2026-03-15T19:00:00+00:00,FT,Regular Season - 5,Agropecuario,462,Chacarita Juniors,447,2,0,True
+1498370,2026-03-15T19:00:00+00:00,FT,Regular Season - 5,Gimnasia Y Tiro,1928,Temperley,454,0,0,True
+1498373,2026-03-15T19:00:00+00:00,FT,Regular Season - 5,Midland,1963,Almagro,482,1,1,True
+1498366,2026-03-15T20:00:00+00:00,FT,Regular Season - 5,Atletico Mitre,466,Ciudad de Bolívar,16612,1,1,True
+1498369,2026-03-15T20:00:00+00:00,FT,Regular Season - 5,Gimnasia Jujuy,479,Colegiales,8377,2,1,True
+1498376,2026-03-15T21:00:00+00:00,FT,Regular Season - 5,San Martin Tucuman,485,Nueva Chicago,484,2,0,True
+1498363,2026-03-17T00:00:00+00:00,FT,Regular Season - 5,Atlanta,1948,Deportivo Maipu,1954,3,1,True
+1498392,2026-03-21T00:30:00+00:00,FT,Regular Season - 6,San Martin S.J.,461,San Martin Tucuman,485,1,1,True
+1498380,2026-03-21T17:00:00+00:00,FT,Regular Season - 6,Almagro,482,Quilmes,480,1,0,True
+1498386,2026-03-21T19:00:00+00:00,FT,Regular Season - 6,Defensores De Belgrano,1067,Atletico Mitre,466,0,0,True
+1498379,2026-03-21T19:00:00+00:00,FT,Regular Season - 6,Acassuso,2425,Deportivo Moron,469,0,3,True
+1498393,2026-03-21T19:00:00+00:00,FT,Regular Season - 6,San Miguel,8379,Racing Cordoba,1957,1,2,True
+1498384,2026-03-21T20:00:00+00:00,FT,Regular Season - 6,Ciudad de Bolívar,16612,Almirante Brown,8375,0,0,True
+1498389,2026-03-21T22:00:00+00:00,FT,Regular Season - 6,Ferro Carril Oeste,470,Los Andes,483,0,2,True
+1498387,2026-03-21T22:00:00+00:00,FT,Regular Season - 6,Deportivo Madryn,1929,CA Estudiantes,1936,3,0,True
+1498396,2026-03-21T22:00:00+00:00,FT,Regular Season - 6,Tristan Suarez,1965,Gimnasia Jujuy,479,3,0,True
+1498383,2026-03-22T00:00:00+00:00,FT,Regular Season - 6,Chaco For Ever,1946,Godoy Cruz,439,1,1,True
+1498391,2026-03-22T19:00:00+00:00,FT,Regular Season - 6,Patronato,444,Colegiales,8377,2,0,True
+1498382,2026-03-22T19:00:00+00:00,FT,Regular Season - 6,Chacarita Juniors,447,Atletico DE Rafaela,465,0,1,True
+1498395,2026-03-22T19:00:00+00:00,FT,Regular Season - 6,Temperley,454,Atlanta,1948,2,1,True
+1498394,2026-03-22T19:00:00+00:00,FT,Regular Season - 6,San Telmo,1932,Colon Santa Fe,448,3,1,True
+1498381,2026-03-22T20:00:00+00:00,FT,Regular Season - 6,Central Norte,1951,All Boys,464,1,0,True
+1498385,2026-03-22T20:00:00+00:00,FT,Regular Season - 6,Club Atlético Güemes,3969,Agropecuario,462,1,1,True
+1498388,2026-03-22T22:00:00+00:00,FT,Regular Season - 6,Deportivo Maipu,1954,Midland,1963,0,1,True
+1498390,2026-03-23T19:00:00+00:00,FT,Regular Season - 6,Nueva Chicago,484,Gimnasia Y Tiro,1928,3,1,True
+1498402,2026-03-27T21:15:00+00:00,FT,Regular Season - 7,Ciudad de Bolívar,16612,Agropecuario,462,0,0,True
+1498413,2026-03-28T01:10:00+00:00,FT,Regular Season - 7,San Martin S.J.,461,Racing Cordoba,1957,0,0,True
+1498401,2026-03-28T01:10:00+00:00,FT,Regular Season - 7,Chaco For Ever,1946,Gimnasia Jujuy,479,1,2,True
+1498399,2026-03-28T16:00:00+00:00,FT,Regular Season - 7,Atlanta,1948,Ferro Carril Oeste,470,0,1,True
+1498397,2026-03-28T18:30:00+00:00,FT,Regular Season - 7,Almagro,482,Deportivo Moron,469,2,0,True
+1498398,2026-03-28T19:00:00+00:00,FT,Regular Season - 7,Almirante Brown,8375,Tristan Suarez,1965,0,1,True
+1498404,2026-03-28T23:00:00+00:00,FT,Regular Season - 7,Colegiales,8377,San Miguel,8379,0,0,True
+1498409,2026-03-29T18:00:00+00:00,FT,Regular Season - 7,Los Andes,483,Temperley,454,0,1,True
+1498411,2026-03-29T18:30:00+00:00,FT,Regular Season - 7,Nueva Chicago,484,All Boys,464,0,0,True
+1498412,2026-03-29T19:00:00+00:00,FT,Regular Season - 7,Patronato,444,Colon Santa Fe,448,0,2,True
+1498400,2026-03-29T19:00:00+00:00,FT,Regular Season - 7,Chacarita Juniors,447,CA Estudiantes,1936,0,3,True
+1498406,2026-03-29T19:00:00+00:00,FT,Regular Season - 7,Deportivo Madryn,1929,San Martin Tucuman,485,1,1,True
+1498414,2026-03-29T19:00:00+00:00,FT,Regular Season - 7,San Telmo,1932,Quilmes,480,0,3,True
+1498407,2026-03-29T20:00:00+00:00,FT,Regular Season - 7,Deportivo Maipu,1954,Godoy Cruz,439,0,1,True
+1498403,2026-03-29T20:00:00+00:00,FT,Regular Season - 7,Club Atlético Güemes,3969,Atletico Mitre,466,2,2,True
+1498408,2026-03-29T20:30:00+00:00,FT,Regular Season - 7,Gimnasia Y Tiro,1928,Central Norte,1951,0,1,True
+1498405,2026-03-30T19:00:00+00:00,FT,Regular Season - 7,Defensores De Belgrano,1067,Atletico DE Rafaela,465,1,1,True
+1498426,2026-04-04T01:00:00+00:00,FT,Regular Season - 8,Gimnasia Y Tiro,1928,San Martin S.J.,461,1,1,True
+1498416,2026-04-04T18:30:00+00:00,FT,Regular Season - 8,All Boys,464,Ferro Carril Oeste,470,0,0,True
+1498415,2026-04-04T19:00:00+00:00,FT,Regular Season - 8,Agropecuario,462,Tristan Suarez,1965,0,2,True
+1498420,2026-04-04T19:00:00+00:00,FT,Regular Season - 8,CA Estudiantes,1936,Central Norte,1951,1,0,True
+1498429,2026-04-04T19:00:00+00:00,FT,Regular Season - 8,Midland,1963,Temperley,454,0,0,True
+1498422,2026-04-04T19:00:00+00:00,FT,Regular Season - 8,Colegiales,8377,Almagro,482,1,0,True
+1498427,2026-04-04T19:30:00+00:00,FT,Regular Season - 8,Godoy Cruz,439,Acassuso,2425,2,0,True
+1498432,2026-04-04T20:30:00+00:00,FT,Regular Season - 8,San Martin Tucuman,485,Chacarita Juniors,447,1,1,True
+1498423,2026-04-04T22:00:00+00:00,FT,Regular Season - 8,Colon Santa Fe,448,San Miguel,8379,3,0,True
+1498428,2026-04-05T18:00:00+00:00,FT,Regular Season - 8,Los Andes,483,Chaco For Ever,1946,2,0,True
+1498424,2026-04-05T18:30:00+00:00,FT,Regular Season - 8,Deportivo Moron,469,San Telmo,1932,1,0,True
+1498417,2026-04-05T18:30:00+00:00,FT,Regular Season - 8,Almirante Brown,8375,Defensores De Belgrano,1067,0,2,True
+1498425,2026-04-05T20:00:00+00:00,FT,Regular Season - 8,Gimnasia Jujuy,479,Patronato,444,2,0,True
+1498430,2026-04-05T20:00:00+00:00,FT,Regular Season - 8,Quilmes,480,Deportivo Maipu,1954,2,1,True
+1498431,2026-04-05T20:00:00+00:00,FT,Regular Season - 8,Racing Cordoba,1957,Ciudad de Bolívar,16612,0,2,True
+1498421,2026-04-05T22:00:00+00:00,FT,Regular Season - 8,Atletico Mitre,466,Deportivo Madryn,1929,1,3,True
+1498419,2026-04-05T23:00:00+00:00,FT,Regular Season - 8,Atletico DE Rafaela,465,Club Atlético Güemes,3969,1,2,True
+1498418,2026-04-08T00:00:00+00:00,FT,Regular Season - 8,Atlanta,1948,Nueva Chicago,484,1,2,True
+1498410,2026-04-08T23:00:00+00:00,FT,Regular Season - 7,Midland,1963,Acassuso,2425,1,0,True
+1498435,2026-04-11T18:30:00+00:00,FT,Regular Season - 9,Almagro,482,Patronato,444,0,1,True
+1498448,2026-04-11T18:30:00+00:00,FT,Regular Season - 9,San Telmo,1932,Godoy Cruz,439,2,0,True
+1498447,2026-04-11T18:30:00+00:00,FT,Regular Season - 9,San Miguel,8379,Deportivo Moron,469,2,1,True
+1498437,2026-04-12T18:00:00+00:00,FT,Regular Season - 9,Chacarita Juniors,447,Gimnasia Y Tiro,1928,2,0,True
+1498449,2026-04-12T18:00:00+00:00,FT,Regular Season - 9,Temperley,454,Quilmes,480,3,3,True
+1498444,2026-04-12T18:00:00+00:00,FT,Regular Season - 9,Ferro Carril Oeste,470,CA Estudiantes,1936,0,1,True
+1498441,2026-04-12T18:00:00+00:00,FT,Regular Season - 9,Defensores De Belgrano,1067,Ciudad de Bolívar,16612,0,0,True
+1498433,2026-04-12T18:00:00+00:00,FT,Regular Season - 9,Acassuso,2425,Los Andes,483,0,1,True
+1498434,2026-04-12T19:00:00+00:00,FT,Regular Season - 9,Agropecuario,462,Gimnasia Jujuy,479,1,2,True
+1498442,2026-04-12T19:00:00+00:00,FT,Regular Season - 9,Deportivo Madryn,1929,Almirante Brown,8375,2,1,True
+1498438,2026-04-12T20:00:00+00:00,FT,Regular Season - 9,Chaco For Ever,1946,All Boys,464,2,0,True
+1498436,2026-04-12T20:00:00+00:00,FT,Regular Season - 9,Central Norte,1951,Atletico Mitre,466,1,1,True
+1498439,2026-04-12T20:00:00+00:00,FT,Regular Season - 9,Club Atlético Güemes,3969,San Martin Tucuman,485,0,2,True
+1498443,2026-04-12T21:30:00+00:00,FT,Regular Season - 9,Deportivo Maipu,1954,Colegiales,8377,3,1,True
+1498440,2026-04-12T22:00:00+00:00,FT,Regular Season - 9,Colon Santa Fe,448,Racing Cordoba,1957,1,0,True
+1498445,2026-04-13T22:00:00+00:00,FT,Regular Season - 9,Nueva Chicago,484,Midland,1963,2,2,True
+1498450,2026-04-13T23:00:00+00:00,FT,Regular Season - 9,Tristan Suarez,1965,Atletico DE Rafaela,465,0,0,True
+1498446,2026-04-14T00:30:00+00:00,FT,Regular Season - 9,San Martin S.J.,461,Atlanta,1948,1,2,True
+1498463,2026-04-18T18:00:00+00:00,FT,Regular Season - 10,Los Andes,483,San Telmo,1932,0,0,True
+1498464,2026-04-18T18:00:00+00:00,FT,Regular Season - 10,Midland,1963,San Martin S.J.,461,0,1,True
+1498451,2026-04-18T18:30:00+00:00,FT,Regular Season - 10,All Boys,464,Acassuso,2425,0,0,True
+1498459,2026-04-18T18:30:00+00:00,FT,Regular Season - 10,Deportivo Moron,469,Colon Santa Fe,448,2,0,True
+1498462,2026-04-18T19:30:00+00:00,FT,Regular Season - 10,Godoy Cruz,439,San Miguel,8379,0,0,True
+1498466,2026-04-18T19:30:00+00:00,FT,Regular Season - 10,Quilmes,480,Nueva Chicago,484,0,0,True
+1498465,2026-04-18T23:00:00+00:00,FT,Regular Season - 10,Patronato,444,Deportivo Maipu,1954,0,0,True
+1498457,2026-04-18T23:00:00+00:00,FT,Regular Season - 10,Ciudad de Bolívar,16612,Deportivo Madryn,1929,1,0,True
+1498458,2026-04-19T17:00:00+00:00,FT,Regular Season - 10,Colegiales,8377,Temperley,454,1,1,True
+1498456,2026-04-19T18:00:00+00:00,FT,Regular Season - 10,Atletico Mitre,466,Ferro Carril Oeste,470,0,1,True
+1498455,2026-04-19T18:00:00+00:00,FT,Regular Season - 10,CA Estudiantes,1936,Chaco For Ever,1946,0,0,True
+1498460,2026-04-19T18:30:00+00:00,FT,Regular Season - 10,Gimnasia Jujuy,479,Almagro,482,6,1,True
+1498452,2026-04-19T18:30:00+00:00,FT,Regular Season - 10,Almirante Brown,8375,Central Norte,1951,1,0,True
+1498468,2026-04-19T22:00:00+00:00,FT,Regular Season - 10,San Martin Tucuman,485,Tristan Suarez,1965,0,0,True
+1498461,2026-04-19T23:00:00+00:00,FT,Regular Season - 10,Gimnasia Y Tiro,1928,Club Atlético Güemes,3969,1,1,True
+1498467,2026-04-19T23:00:00+00:00,FT,Regular Season - 10,Racing Cordoba,1957,Defensores De Belgrano,1067,3,0,True
+1498454,2026-04-20T23:00:00+00:00,FT,Regular Season - 10,Atletico DE Rafaela,465,Agropecuario,462,4,1,True
+1498453,2026-04-21T00:00:00+00:00,FT,Regular Season - 10,Atlanta,1948,Chacarita Juniors,447,1,0,True
+1498485,2026-04-25T18:30:00+00:00,FT,Regular Season - 11,Temperley,454,Patronato,444,0,0,True
+1498484,2026-04-25T18:30:00+00:00,FT,Regular Season - 11,San Telmo,1932,All Boys,464,1,0,True
+1498483,2026-04-25T18:30:00+00:00,FT,Regular Season - 11,San Miguel,8379,Los Andes,483,0,2,True
+1498482,2026-04-25T20:30:00+00:00,FT,Regular Season - 11,San Martin S.J.,461,Quilmes,480,1,0,True
+1498471,2026-04-25T21:00:00+00:00,FT,Regular Season - 11,Atletico DE Rafaela,465,Gimnasia Jujuy,479,0,0,True
+1498479,2026-04-26T18:00:00+00:00,FT,Regular Season - 11,Deportivo Moron,469,Racing Cordoba,1957,2,1,True
+1498481,2026-04-26T18:00:00+00:00,FT,Regular Season - 11,Nueva Chicago,484,Colegiales,8377,0,0,True
+1498486,2026-04-26T18:00:00+00:00,FT,Regular Season - 11,Tristan Suarez,1965,Gimnasia Y Tiro,1928,2,1,True
+1498473,2026-04-26T18:30:00+00:00,FT,Regular Season - 11,Chacarita Juniors,447,Midland,1963,1,0,True
+1498469,2026-04-26T18:30:00+00:00,FT,Regular Season - 11,Acassuso,2425,CA Estudiantes,1936,0,1,True
+1498470,2026-04-26T19:00:00+00:00,FT,Regular Season - 11,Agropecuario,462,San Martin Tucuman,485,2,0,True
+1498477,2026-04-26T19:00:00+00:00,FT,Regular Season - 11,Deportivo Madryn,1929,Defensores De Belgrano,1067,2,1,True
+1498474,2026-04-26T20:00:00+00:00,FT,Regular Season - 11,Chaco For Ever,1946,Atletico Mitre,466,1,1,True
+1498472,2026-04-26T20:00:00+00:00,FT,Regular Season - 11,Central Norte,1951,Ciudad de Bolívar,16612,0,1,True
+1498475,2026-04-26T20:00:00+00:00,FT,Regular Season - 11,Club Atlético Güemes,3969,Atlanta,1948,0,2,True
+1498478,2026-04-26T21:00:00+00:00,FT,Regular Season - 11,Deportivo Maipu,1954,Almagro,482,1,0,True
+1498476,2026-04-26T22:00:00+00:00,FT,Regular Season - 11,Colon Santa Fe,448,Godoy Cruz,439,0,0,True
+1498480,2026-04-28T22:30:00+00:00,FT,Regular Season - 11,Ferro Carril Oeste,470,Almirante Brown,8375,0,1,True
+1498487,2026-04-30T23:30:00+00:00,FT,Regular Season - 12,All Boys,464,San Miguel,8379,1,1,True
+1498499,2026-05-02T18:30:00+00:00,FT,Regular Season - 12,Los Andes,483,Colon Santa Fe,448,1,1,True
+1498495,2026-05-02T18:30:00+00:00,FT,Regular Season - 12,Defensores De Belgrano,1067,Central Norte,1951,1,1,True
+1498491,2026-05-02T18:30:00+00:00,FT,Regular Season - 12,CA Estudiantes,1936,San Telmo,1932,1,1,True
+1498504,2026-05-02T23:00:00+00:00,FT,Regular Season - 12,San Martin Tucuman,485,Atletico DE Rafaela,465,2,1,True
+1498490,2026-05-03T16:00:00+00:00,FT,Regular Season - 12,Atlanta,1948,Tristan Suarez,1965,3,1,True
+1498492,2026-05-03T18:00:00+00:00,FT,Regular Season - 12,Atletico Mitre,466,Acassuso,2425,2,0,True
+1498488,2026-05-03T18:00:00+00:00,FT,Regular Season - 12,Almagro,482,Temperley,454,1,1,True
+1498494,2026-05-03T18:00:00+00:00,FT,Regular Season - 12,Colegiales,8377,San Martin S.J.,461,2,0,True
+1498496,2026-05-03T18:30:00+00:00,FT,Regular Season - 12,Gimnasia Jujuy,479,Deportivo Maipu,1954,1,1,True
+1498489,2026-05-03T18:30:00+00:00,FT,Regular Season - 12,Almirante Brown,8375,Chaco For Ever,1946,1,0,True
+1498501,2026-05-03T19:00:00+00:00,FT,Regular Season - 12,Patronato,444,Nueva Chicago,484,2,1,True
+1498493,2026-05-03T19:00:00+00:00,FT,Regular Season - 12,Ciudad de Bolívar,16612,Ferro Carril Oeste,470,2,4,True
+1498498,2026-05-03T19:30:00+00:00,FT,Regular Season - 12,Godoy Cruz,439,Deportivo Moron,469,2,2,True
+1498500,2026-05-03T19:30:00+00:00,FT,Regular Season - 12,Midland,1963,Club Atlético Güemes,3969,2,1,True
+1498503,2026-05-03T20:00:00+00:00,FT,Regular Season - 12,Racing Cordoba,1957,Deportivo Madryn,1929,2,2,True
+1498502,2026-05-04T23:00:00+00:00,FT,Regular Season - 12,Quilmes,480,Chacarita Juniors,447,0,0,True
+1498497,2026-05-05T00:30:00+00:00,FT,Regular Season - 12,Gimnasia Y Tiro,1928,Agropecuario,462,2,3,True
+1498513,2026-05-09T18:00:00+00:00,FT,Regular Season - 13,Deportivo Moron,469,Los Andes,483,0,0,True
+1498520,2026-05-09T18:00:00+00:00,FT,Regular Season - 13,San Telmo,1932,Atletico Mitre,466,0,0,True
+1498522,2026-05-09T18:00:00+00:00,FT,Regular Season - 13,Tristan Suarez,1965,Midland,1963,1,3,True
+1498521,2026-05-09T18:30:00+00:00,FT,Regular Season - 13,Temperley,454,Deportivo Maipu,1954,0,5,True
+1498519,2026-05-09T18:30:00+00:00,FT,Regular Season - 13,San Miguel,8379,CA Estudiantes,1936,1,1,True
+1498517,2026-05-09T19:30:00+00:00,FT,Regular Season - 13,San Martin S.J.,461,Patronato,444,1,1,True
+1498507,2026-05-09T21:00:00+00:00,FT,Regular Season - 13,Atletico DE Rafaela,465,Gimnasia Y Tiro,1928,1,0,True
+1498509,2026-05-10T18:30:00+00:00,FT,Regular Season - 13,Chacarita Juniors,447,Colegiales,8377,2,0,True
+1498505,2026-05-10T18:30:00+00:00,FT,Regular Season - 13,Acassuso,2425,Almirante Brown,8375,0,0,True
+1498506,2026-05-10T19:00:00+00:00,FT,Regular Season - 13,Agropecuario,462,Atlanta,1948,0,0,True
+1498511,2026-05-10T19:00:00+00:00,FT,Regular Season - 13,Club Atlético Güemes,3969,Quilmes,480,2,1,True
+1498515,2026-05-10T19:30:00+00:00,FT,Regular Season - 13,Godoy Cruz,439,Racing Cordoba,1957,2,1,True
+1498510,2026-05-10T19:30:00+00:00,FT,Regular Season - 13,Chaco For Ever,1946,Ciudad de Bolívar,16612,0,1,True
+1498508,2026-05-10T20:00:00+00:00,FT,Regular Season - 13,Central Norte,1951,Deportivo Madryn,1929,2,3,True
+1498512,2026-05-10T21:00:00+00:00,FT,Regular Season - 13,Colon Santa Fe,448,All Boys,464,3,2,True
+1498514,2026-05-11T22:00:00+00:00,FT,Regular Season - 13,Ferro Carril Oeste,470,Defensores De Belgrano,1067,2,1,True
+1498516,2026-05-11T22:30:00+00:00,FT,Regular Season - 13,Nueva Chicago,484,Almagro,482,1,2,True
+1498518,2026-05-13T00:10:00+00:00,FT,Regular Season - 13,San Martin Tucuman,485,Gimnasia Jujuy,479,2,0,True
+1498540,2026-05-16T00:00:00+00:00,FT,Regular Season - 14,Racing Cordoba,1957,Central Norte,1951,1,2,True
+1498526,2026-05-16T16:00:00+00:00,FT,Regular Season - 14,Atlanta,1948,Atletico DE Rafaela,465,2,0,True
+1498536,2026-05-16T18:00:00+00:00,FT,Regular Season - 14,Los Andes,483,Godoy Cruz,439,1,0,True
+1498527,2026-05-16T18:30:00+00:00,FT,Regular Season - 14,CA Estudiantes,1936,Colon Santa Fe,448,1,1,True
+1498525,2026-05-16T18:30:00+00:00,FT,Regular Season - 14,Almirante Brown,8375,San Telmo,1932,0,0,True
+1498530,2026-05-16T19:00:00+00:00,FT,Regular Season - 14,Colegiales,8377,Club Atlético Güemes,3969,4,1,True
+1498529,2026-05-16T19:00:00+00:00,FT,Regular Season - 14,Ciudad de Bolívar,16612,Acassuso,2425,1,0,True
+1498532,2026-05-17T18:00:00+00:00,FT,Regular Season - 14,Deportivo Madryn,1929,Ferro Carril Oeste,470,0,1,True
+1498534,2026-05-17T18:30:00+00:00,FT,Regular Season - 14,Gimnasia Jujuy,479,Temperley,454,1,0,True
+1498524,2026-05-17T18:30:00+00:00,FT,Regular Season - 14,Almagro,482,San Martin S.J.,461,1,2,True
+1498538,2026-05-17T19:00:00+00:00,FT,Regular Season - 14,Patronato,444,Chacarita Juniors,447,2,0,True
+1498528,2026-05-17T19:00:00+00:00,FT,Regular Season - 14,Atletico Mitre,466,San Miguel,8379,4,0,True
+1498537,2026-05-17T19:30:00+00:00,FT,Regular Season - 14,Midland,1963,Agropecuario,462,2,0,True
+1498539,2026-05-17T20:00:00+00:00,FT,Regular Season - 14,Quilmes,480,Tristan Suarez,1965,0,1,True
+1498535,2026-05-17T20:00:00+00:00,FT,Regular Season - 14,Gimnasia Y Tiro,1928,San Martin Tucuman,485,1,0,True
+1498533,2026-05-17T20:00:00+00:00,FT,Regular Season - 14,Deportivo Maipu,1954,Nueva Chicago,484,1,0,True
+1498531,2026-05-18T18:30:00+00:00,FT,Regular Season - 14,Defensores De Belgrano,1067,Chaco For Ever,1946,0,0,True
+1498523,2026-05-18T23:00:00+00:00,FT,Regular Season - 14,All Boys,464,Deportivo Moron,469,1,0,True
+1498552,2026-05-23T18:00:00+00:00,FT,Regular Season - 15,Los Andes,483,Racing Cordoba,1957,2,0,True
+1498557,2026-05-23T18:00:00+00:00,FT,Regular Season - 15,San Telmo,1932,Ciudad de Bolívar,16612,0,1,True
+1498558,2026-05-23T18:00:00+00:00,FT,Regular Season - 15,Tristan Suarez,1965,Colegiales,8377,0,0,True
+1498556,2026-05-23T18:30:00+00:00,FT,Regular Season - 15,San Miguel,8379,Almirante Brown,8375,1,0,True
+1498553,2026-05-23T19:00:00+00:00,FT,Regular Season - 15,Nueva Chicago,484,Temperley,454,1,1,True
+1498554,2026-05-23T19:30:00+00:00,FT,Regular Season - 15,San Martin S.J.,461,Deportivo Maipu,1954,2,1,True
+1498543,2026-05-23T19:30:00+00:00,FT,Regular Season - 15,Atletico DE Rafaela,465,Midland,1963,1,0,True
+1498541,2026-05-24T17:00:00+00:00,FT,Regular Season - 15,Acassuso,2425,Defensores De Belgrano,1067,1,0,True
+1498548,2026-05-24T18:00:00+00:00,FT,Regular Season - 15,Deportivo Moron,469,CA Estudiantes,1936,2,0,True
+1498544,2026-05-24T18:30:00+00:00,FT,Regular Season - 15,Chacarita Juniors,447,Almagro,482,1,0,True
+1498542,2026-05-24T19:00:00+00:00,FT,Regular Season - 15,Agropecuario,462,Quilmes,480,0,0,True
+1498549,2026-05-24T19:00:00+00:00,FT,Regular Season - 15,Ferro Carril Oeste,470,Central Norte,1951,1,0,True
+1498545,2026-05-24T19:00:00+00:00,FT,Regular Season - 15,Chaco For Ever,1946,Deportivo Madryn,1929,1,2,True
+1498551,2026-05-24T19:30:00+00:00,FT,Regular Season - 15,Godoy Cruz,439,All Boys,464,4,0,True
+1498547,2026-05-24T21:00:00+00:00,FT,Regular Season - 15,Colon Santa Fe,448,Atletico Mitre,466,1,1,True
+1498550,2026-05-24T21:30:00+00:00,FT,Regular Season - 15,Gimnasia Y Tiro,1928,Gimnasia Jujuy,479,1,1,True
+1498546,2026-05-24T21:30:00+00:00,FT,Regular Season - 15,Club Atlético Güemes,3969,Patronato,444,1,0,True
+1498555,2026-05-24T22:00:00+00:00,FT,Regular Season - 15,San Martin Tucuman,485,Atlanta,1948,0,1,True
+1498575,2026-05-30T00:00:00+00:00,FT,Regular Season - 16,Racing Cordoba,1957,Ferro Carril Oeste,470,0,0,True
+1498563,2026-05-30T18:00:00+00:00,FT,Regular Season - 16,CA Estudiantes,1936,Godoy Cruz,439,1,0,True
+1498567,2026-05-30T18:00:00+00:00,FT,Regular Season - 16,Colegiales,8377,Agropecuario,462,0,0,True
+1498559,2026-05-30T18:30:00+00:00,FT,Regular Season - 16,All Boys,464,Los Andes,483,0,0,True
+1498568,2026-05-30T18:30:00+00:00,FT,Regular Season - 16,Defensores De Belgrano,1067,San Telmo,1932,1,0,True
+1498561,2026-05-30T18:30:00+00:00,FT,Regular Season - 16,Almirante Brown,8375,Colon Santa Fe,448,1,1,True
+1498562,2026-05-31T16:30:00+00:00,FT,Regular Season - 16,Atlanta,1948,Gimnasia Y Tiro,1928,1,1,True
+1498569,2026-05-31T18:00:00+00:00,FT,Regular Season - 16,Deportivo Madryn,1929,Acassuso,2425,0,0,True
+1498560,2026-05-31T18:30:00+00:00,FT,Regular Season - 16,Almagro,482,Club Atlético Güemes,3969,2,0,True
+1498573,2026-05-31T19:00:00+00:00,FT,Regular Season - 16,Patronato,444,Tristan Suarez,1965,1,1,True
+1498576,2026-05-31T19:00:00+00:00,FT,Regular Season - 16,Temperley,454,San Martin S.J.,461,2,1,True
+1498564,2026-05-31T19:00:00+00:00,FT,Regular Season - 16,Atletico Mitre,466,Deportivo Moron,469,1,3,True
+1498572,2026-05-31T19:00:00+00:00,FT,Regular Season - 16,Midland,1963,San Martin Tucuman,485,2,0,True
+1498566,2026-05-31T19:00:00+00:00,FT,Regular Season - 16,Ciudad de Bolívar,16612,San Miguel,8379,1,1,True
+1498565,2026-05-31T19:30:00+00:00,FT,Regular Season - 16,Central Norte,1951,Chaco For Ever,1946,1,1,True
+1498574,2026-05-31T20:00:00+00:00,FT,Regular Season - 16,Quilmes,480,Atletico DE Rafaela,465,2,0,True
+1498570,2026-05-31T20:00:00+00:00,FT,Regular Season - 16,Deportivo Maipu,1954,Chacarita Juniors,447,3,2,True
+1498587,2026-06-06T00:30:00+00:00,FT,Regular Season - 17,Gimnasia Y Tiro,1928,Midland,1963,1,0,True
+1498580,2026-06-06T17:00:00+00:00,FT,Regular Season - 17,Atlanta,1948,Gimnasia Jujuy,479,3,0,True
+1498589,2026-06-06T18:00:00+00:00,FT,Regular Season - 17,Los Andes,483,CA Estudiantes,1936,0,0,True
+1498577,2026-06-06T18:30:00+00:00,FT,Regular Season - 17,Acassuso,2425,Central Norte,1951,2,1,True
+1498592,2026-06-06T18:30:00+00:00,FT,Regular Season - 17,San Miguel,8379,Defensores De Belgrano,1067,0,0,True
+1498581,2026-06-06T19:30:00+00:00,FT,Regular Season - 17,Atletico DE Rafaela,465,Colegiales,8377,1,0,True
+1498594,2026-06-06T22:00:00+00:00,FT,Regular Season - 17,Tristan Suarez,1965,Almagro,482,0,0,True
+1498586,2026-06-07T18:00:00+00:00,FT,Regular Season - 17,Deportivo Moron,469,Almirante Brown,8375,1,0,True
+1498593,2026-06-07T18:00:00+00:00,FT,Regular Season - 17,San Telmo,1932,Deportivo Madryn,1929,0,0,True
+1498582,2026-06-07T18:30:00+00:00,FT,Regular Season - 17,Chacarita Juniors,447,Temperley,454,0,1,True
+1498579,2026-06-07T18:30:00+00:00,FT,Regular Season - 17,All Boys,464,Racing Cordoba,1957,1,1,True
+1498578,2026-06-07T19:00:00+00:00,FT,Regular Season - 17,Agropecuario,462,Patronato,444,1,1,True
+1498583,2026-06-07T19:00:00+00:00,FT,Regular Season - 17,Chaco For Ever,1946,Ferro Carril Oeste,470,1,2,True
+1498584,2026-06-07T19:00:00+00:00,FT,Regular Season - 17,Club Atlético Güemes,3969,Deportivo Maipu,1954,1,0,True
+1498588,2026-06-07T19:30:00+00:00,FT,Regular Season - 17,Godoy Cruz,439,Atletico Mitre,466,2,1,True
+1498585,2026-06-07T20:00:00+00:00,FT,Regular Season - 17,Colon Santa Fe,448,Ciudad de Bolívar,16612,0,0,True
+1498591,2026-06-07T20:30:00+00:00,FT,Regular Season - 17,San Martin Tucuman,485,Quilmes,480,0,0,True
+1498607,2026-06-13T17:30:00+00:00,FT,Regular Season - 18,Midland,1963,Atlanta,1948,1,2,True
+1498601,2026-06-13T18:00:00+00:00,FT,Regular Season - 18,Colegiales,8377,San Martin Tucuman,485,2,0,True
+1498595,2026-06-13T18:30:00+00:00,FT,Regular Season - 18,Almagro,482,Agropecuario,462,2,1,True
+1498608,2026-06-13T18:30:00+00:00,FT,Regular Season - 18,Nueva Chicago,484,Chacarita Juniors,447,2,0,True
+1498602,2026-06-13T18:30:00+00:00,FT,Regular Season - 18,Defensores De Belgrano,1067,Colon Santa Fe,448,0,3,True
+1498600,2026-06-13T19:00:00+00:00,FT,Regular Season - 18,Ciudad de Bolívar,16612,Deportivo Moron,469,1,2,True
+1498610,2026-06-13T20:00:00+00:00,FT,Regular Season - 18,Quilmes,480,Gimnasia Y Tiro,1928,1,0,True
+1498606,2026-06-13T23:00:00+00:00,FT,Regular Season - 18,Gimnasia Jujuy,479,San Martin S.J.,461,2,1,True
+1498596,2026-06-14T17:30:00+00:00,FT,Regular Season - 18,Almirante Brown,8375,Godoy Cruz,439,1,0,True
+1498603,2026-06-14T18:00:00+00:00,FT,Regular Season - 18,Deportivo Madryn,1929,San Miguel,8379,2,2,True
+1498597,2026-06-14T18:00:00+00:00,FT,Regular Season - 18,CA Estudiantes,1936,All Boys,464,2,1,True
+1498609,2026-06-14T18:30:00+00:00,FT,Regular Season - 18,Patronato,444,Atletico DE Rafaela,465,0,0,True
+1498605,2026-06-14T18:30:00+00:00,FT,Regular Season - 18,Ferro Carril Oeste,470,Acassuso,2425,2,1,True
+1498612,2026-06-14T19:00:00+00:00,FT,Regular Season - 18,Temperley,454,Club Atlético Güemes,3969,4,1,True
+1498598,2026-06-14T19:00:00+00:00,FT,Regular Season - 18,Atletico Mitre,466,Los Andes,483,0,3,True
+1498611,2026-06-14T19:00:00+00:00,FT,Regular Season - 18,Racing Cordoba,1957,Chaco For Ever,1946,2,0,True
+1498599,2026-06-14T19:30:00+00:00,FT,Regular Season - 18,Central Norte,1951,San Telmo,1932,0,0,True
+1498604,2026-06-14T19:30:00+00:00,FT,Regular Season - 18,Deportivo Maipu,1954,Tristan Suarez,1965,0,1,True
+1498571,2026-06-17T18:00:00+00:00,FT,Regular Season - 16,Gimnasia Jujuy,479,Nueva Chicago,484,4,0,True
+1498344,2026-06-20T18:00:00+00:00,FT,Regular Season - 4,Almagro,482,Atlanta,1948,2,0,True
+1498359,2026-06-20T18:00:00+00:00,FT,Regular Season - 4,San Telmo,1932,Racing Cordoba,1957,2,0,True
+1498351,2026-06-20T18:00:00+00:00,FT,Regular Season - 4,Colegiales,8377,Quilmes,480,3,1,True
+1498349,2026-06-20T18:00:00+00:00,FT,Regular Season - 4,Ciudad de Bolívar,16612,CA Estudiantes,1936,1,2,True
+1498343,2026-06-20T18:30:00+00:00,FT,Regular Season - 4,Acassuso,2425,San Miguel,8379,0,2,True
+1498360,2026-06-20T19:00:00+00:00,FT,Regular Season - 4,Temperley,454,San Martin Tucuman,485,1,1,True
+1498358,2026-06-20T19:00:00+00:00,FT,Regular Season - 4,San Martin S.J.,461,Agropecuario,462,2,0,True
+1498348,2026-06-20T19:00:00+00:00,FT,Regular Season - 4,Chaco For Ever,1946,Colon Santa Fe,448,1,0,True
+1498353,2026-06-21T18:00:00+00:00,FT,Regular Season - 4,Deportivo Madryn,1929,Los Andes,483,2,1,True
+1498357,2026-06-21T18:30:00+00:00,FT,Regular Season - 4,Patronato,444,Midland,1963,1,1,True
+1498347,2026-06-21T18:30:00+00:00,FT,Regular Season - 4,Chacarita Juniors,447,Tristan Suarez,1965,0,0,True
+1498355,2026-06-21T18:30:00+00:00,FT,Regular Season - 4,Ferro Carril Oeste,470,Deportivo Moron,469,1,0,True
+1498352,2026-06-21T18:30:00+00:00,FT,Regular Season - 4,Defensores De Belgrano,1067,All Boys,464,0,1,True
+1498345,2026-06-21T18:30:00+00:00,FT,Regular Season - 4,Almirante Brown,8375,Atletico Mitre,466,3,1,True
+1498346,2026-06-21T19:30:00+00:00,FT,Regular Season - 4,Central Norte,1951,Godoy Cruz,439,1,0,True
+1498354,2026-06-21T19:30:00+00:00,FT,Regular Season - 4,Deportivo Maipu,1954,Gimnasia Y Tiro,1928,0,0,True
+1498350,2026-06-21T20:00:00+00:00,FT,Regular Season - 4,Club Atlético Güemes,3969,Gimnasia Jujuy,479,1,3,True
+1498356,2026-06-23T21:30:00+00:00,FT,Regular Season - 4,Nueva Chicago,484,Atletico DE Rafaela,465,0,0,True
+1498620,2026-07-04T18:00:00+00:00,FT,Regular Season - 19,Colegiales,8377,Gimnasia Y Tiro,1928,1,2,True
+1498630,2026-07-04T18:30:00+00:00,FT,Regular Season - 19,Temperley,454,Tristan Suarez,1965,1,0,True
+1498613,2026-07-04T18:30:00+00:00,FT,Regular Season - 19,Almagro,482,Atletico DE Rafaela,465,1,0,True
+1498626,2026-07-04T18:30:00+00:00,FT,Regular Season - 19,Nueva Chicago,484,Club Atlético Güemes,3969,2,0,True
+1498621,2026-07-04T18:30:00+00:00,FT,Regular Season - 19,Defensores De Belgrano,1067,Deportivo Moron,469,2,1,True
+1498614,2026-07-04T18:30:00+00:00,FT,Regular Season - 19,Almirante Brown,8375,Los Andes,483,1,0,True
+1498619,2026-07-04T19:00:00+00:00,FT,Regular Season - 19,Ciudad de Bolívar,16612,Godoy Cruz,439,3,1,True
+1498628,2026-07-04T21:00:00+00:00,FT,Regular Season - 19,Quilmes,480,Atlanta,1948,2,1,True
+1498622,2026-07-05T18:00:00+00:00,FT,Regular Season - 19,Deportivo Madryn,1929,Colon Santa Fe,448,1,2,True
+1498615,2026-07-05T18:00:00+00:00,FT,Regular Season - 19,CA Estudiantes,1936,Racing Cordoba,1957,1,1,True
+1498627,2026-07-05T18:30:00+00:00,FT,Regular Season - 19,Patronato,444,San Martin Tucuman,485,0,1,True
+1498624,2026-07-05T18:30:00+00:00,FT,Regular Season - 19,Ferro Carril Oeste,470,San Telmo,1932,2,1,True
+1498618,2026-07-05T18:30:00+00:00,FT,Regular Season - 19,Chaco For Ever,1946,Acassuso,2425,1,1,True
+1498629,2026-07-05T19:00:00+00:00,FT,Regular Season - 19,San Martin S.J.,461,Chacarita Juniors,447,0,1,True
+1498616,2026-07-05T19:00:00+00:00,FT,Regular Season - 19,Atletico Mitre,466,All Boys,464,1,1,True
+1498625,2026-07-05T19:00:00+00:00,FT,Regular Season - 19,Midland,1963,Gimnasia Jujuy,479,1,1,True
+1498617,2026-07-05T19:30:00+00:00,FT,Regular Season - 19,Central Norte,1951,San Miguel,8379,1,1,True
+1498623,2026-07-05T19:30:00+00:00,FT,Regular Season - 19,Deportivo Maipu,1954,Agropecuario,462,2,0,True
+1498632,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,All Boys,464,Almirante Brown,8375,1,1,True
+1498634,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,Atletico DE Rafaela,465,Deportivo Maipu,1954,1,3,True
+1498638,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,Deportivo Moron,469,Deportivo Madryn,1929,2,2,True
+1498642,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,Los Andes,483,Ciudad de Bolívar,16612,3,1,True
+1498647,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,San Telmo,1932,Chaco For Ever,1946,1,3,True
+1498635,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,CA Estudiantes,1936,Atletico Mitre,466,3,0,True
+1498648,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,Tristan Suarez,1965,Nueva Chicago,484,1,0,True
+1498646,2026-07-11T18:00:00+00:00,FT,Regular Season - 20,San Miguel,8379,Ferro Carril Oeste,470,0,1,True
+1498639,2026-07-12T18:00:00+00:00,FT,Regular Season - 20,Gimnasia Jujuy,479,Chacarita Juniors,447,1,1,True
+1498637,2026-07-12T18:30:00+00:00,FT,Regular Season - 20,Colon Santa Fe,448,Central Norte,1951,4,0,True
+1498631,2026-07-12T19:00:00+00:00,FT,Regular Season - 20,Agropecuario,462,Temperley,454,0,0,True
+1498644,2026-07-12T19:00:00+00:00,FT,Regular Season - 20,Racing Cordoba,1957,Acassuso,2425,3,2,True
+1498643,2026-07-12T19:00:00+00:00,FT,Regular Season - 20,Midland,1963,Quilmes,480,1,0,True
+1498636,2026-07-12T19:00:00+00:00,FT,Regular Season - 20,Club Atlético Güemes,3969,San Martin S.J.,461,0,2,True
+1498641,2026-07-12T19:30:00+00:00,FT,Regular Season - 20,Godoy Cruz,439,Defensores De Belgrano,1067,1,0,True
+1498640,2026-07-12T20:00:00+00:00,FT,Regular Season - 20,Gimnasia Y Tiro,1928,Patronato,444,1,1,True
+1498645,2026-07-12T21:00:00+00:00,FT,Regular Season - 20,San Martin Tucuman,485,Almagro,482,3,0,True
+1498633,2026-07-14T00:00:00+00:00,FT,Regular Season - 20,Atlanta,1948,Colegiales,8377,1,0,True
+1498660,2026-07-17T18:00:00+00:00,FT,Regular Season - 21,Deportivo Maipu,1954,San Martin Tucuman,485,0,0,True
+1498651,2026-07-17T18:00:00+00:00,FT,Regular Season - 21,Almirante Brown,8375,CA Estudiantes,1936,0,0,True
+1498652,2026-07-17T19:00:00+00:00,FT,Regular Season - 21,Atletico Mitre,466,Racing Cordoba,1957,1,0,True
+1498662,2026-07-17T21:00:00+00:00,FT,Regular Season - 21,Nueva Chicago,484,Agropecuario,462,1,1,True
+1498661,2026-07-17T22:30:00+00:00,FT,Regular Season - 21,Ferro Carril Oeste,470,Colon Santa Fe,448,2,0,True
+1498656,2026-07-17T23:00:00+00:00,FT,Regular Season - 21,Ciudad de Bolívar,16612,All Boys,464,0,0,True
+1498666,2026-07-17T23:30:00+00:00,FT,Regular Season - 21,Temperley,454,Atletico DE Rafaela,465,2,0,True
+1498671,2026-07-25T18:00:00+00:00,FT,Regular Season - 22,CA Estudiantes,1936,Ciudad de Bolívar,16612,1,2,True
+1498684,2026-07-25T18:00:00+00:00,FT,Regular Season - 22,Tristan Suarez,1965,Chacarita Juniors,447,1,0,True
+1498670,2026-07-25T19:00:00+00:00,FT,Regular Season - 22,Atletico DE Rafaela,465,Nueva Chicago,484,1,0,True
+1498682,2026-07-25T22:00:00+00:00,FT,Regular Season - 22,San Martin Tucuman,485,Temperley,454,1,2,True
+1498667,2026-07-26T18:00:00+00:00,FT,Regular Season - 22,Agropecuario,462,San Martin S.J.,461,2,1,True
+1498668,2026-07-26T18:00:00+00:00,FT,Regular Season - 22,All Boys,464,Defensores De Belgrano,1067,0,0,True
+1498678,2026-07-26T18:00:00+00:00,FT,Regular Season - 22,Los Andes,483,Deportivo Madryn,1929,0,0,True
+1498673,2026-07-26T18:30:00+00:00,FT,Regular Season - 22,Colon Santa Fe,448,Chaco For Ever,1946,0,1,True
+1498674,2026-07-26T18:30:00+00:00,FT,Regular Season - 22,Deportivo Moron,469,Ferro Carril Oeste,470,4,0,True
+1498683,2026-07-26T18:30:00+00:00,FT,Regular Season - 22,San Miguel,8379,Acassuso,2425,0,0,True
+1498672,2026-07-26T19:00:00+00:00,FT,Regular Season - 22,Atletico Mitre,466,Almirante Brown,8375,0,0,True
+1498675,2026-07-26T19:00:00+00:00,FT,Regular Season - 22,Gimnasia Jujuy,479,Club Atlético Güemes,3969,2,1,True
+1498681,2026-07-26T19:00:00+00:00,FT,Regular Season - 22,Racing Cordoba,1957,San Telmo,1932,2,1,True
+1498679,2026-07-26T19:00:00+00:00,FT,Regular Season - 22,Midland,1963,Patronato,444,1,0,True
+1498677,2026-07-26T19:30:00+00:00,FT,Regular Season - 22,Godoy Cruz,439,Central Norte,1951,2,1,True
+1498676,2026-07-26T21:00:00+00:00,FT,Regular Season - 22,Gimnasia Y Tiro,1928,Deportivo Maipu,1954,1,0,True
+1498680,2026-07-26T22:00:00+00:00,FT,Regular Season - 22,Quilmes,480,Colegiales,8377,0,1,True
+1498669,2026-07-27T23:00:00+00:00,FT,Regular Season - 22,Atlanta,1948,Almagro,482,1,3,True
+1498698,2026-08-01T17:30:00+00:00,FT,Regular Season - 23,Nueva Chicago,484,San Martin Tucuman,485,2,1,True
+1498697,2026-08-01T18:00:00+00:00,FT,Regular Season - 23,Ferro Carril Oeste,470,Godoy Cruz,439,1,3,True
+1498686,2026-08-01T18:00:00+00:00,FT,Regular Season - 23,Almagro,482,Midland,1963,1,1,True
+1498694,2026-08-01T18:00:00+00:00,FT,Regular Season - 23,Defensores De Belgrano,1067,CA Estudiantes,1936,1,1,True
+1498685,2026-08-01T18:00:00+00:00,FT,Regular Season - 23,Acassuso,2425,Colon Santa Fe,448,1,1,True
+1498693,2026-08-01T18:00:00+00:00,FT,Regular Season - 23,Colegiales,8377,Gimnasia Jujuy,479,2,1,True
+1498699,2026-08-01T18:30:00+00:00,FT,Regular Season - 23,Patronato,444,Quilmes,480,3,3,True
+1498700,2026-08-01T18:30:00+00:00,FT,Regular Season - 23,San Martin S.J.,461,Atletico DE Rafaela,465,1,1,True
+1498689,2026-08-02T18:00:00+00:00,FT,Regular Season - 23,Chacarita Juniors,447,Agropecuario,462,2,1,True
+1498701,2026-08-02T18:00:00+00:00,FT,Regular Season - 23,San Telmo,1932,San Miguel,8379,1,0,True
+1498687,2026-08-02T18:00:00+00:00,FT,Regular Season - 23,Almirante Brown,8375,Racing Cordoba,1957,2,0,True
+1498691,2026-08-02T18:00:00+00:00,FT,Regular Season - 23,Ciudad de Bolívar,16612,Atletico Mitre,466,0,2,True
+1498702,2026-08-02T18:30:00+00:00,FT,Regular Season - 23,Temperley,454,Gimnasia Y Tiro,1928,1,2,True
+1498696,2026-08-02T18:30:00+00:00,FT,Regular Season - 23,Deportivo Maipu,1954,Atlanta,1948,4,2,True
+1498695,2026-08-02T19:00:00+00:00,FT,Regular Season - 23,Deportivo Madryn,1929,All Boys,464,2,0,True
+1498690,2026-08-02T19:00:00+00:00,FT,Regular Season - 23,Chaco For Ever,1946,Deportivo Moron,469,2,0,True
+1498688,2026-08-02T19:30:00+00:00,FT,Regular Season - 23,Central Norte,1951,Los Andes,483,1,0,True
+1498692,2026-08-03T19:00:00+00:00,FT,Regular Season - 23,Club Atlético Güemes,3969,Tristan Suarez,1965,1,3,True
+1498650,2026-08-05T18:00:00+00:00,FT,Regular Season - 21,Almagro,482,Gimnasia Y Tiro,1928,0,2,True
+1498664,2026-08-05T22:00:00+00:00,FT,Regular Season - 21,Quilmes,480,Gimnasia Jujuy,479,2,0,True
+1498654,2026-07-20T18:00:00+00:00,PST,Regular Season - 21,Chacarita Juniors,447,Club Atlético Güemes,3969,,,False
+1498665,2026-07-20T18:00:00+00:00,PST,Regular Season - 21,San Martin S.J.,461,Tristan Suarez,1965,,,False
+1498658,2026-07-20T18:00:00+00:00,PST,Regular Season - 21,Defensores De Belgrano,1067,Los Andes,483,,,False
+1498649,2026-07-20T18:00:00+00:00,PST,Regular Season - 21,Acassuso,2425,San Telmo,1932,,,False
+1498655,2026-07-21T00:00:00+00:00,PST,Regular Season - 21,Chaco For Ever,1946,San Miguel,8379,,,False
+1498717,2026-08-07T23:00:00+00:00,NS,Regular Season - 24,Midland,1963,Deportivo Maipu,1954,,,False
+1498703,2026-08-08T18:00:00+00:00,NS,Regular Season - 24,Agropecuario,462,Club Atlético Güemes,3969,,,False
+1498708,2026-08-08T18:00:00+00:00,NS,Regular Season - 24,CA Estudiantes,1936,Deportivo Madryn,1929,,,False
+1498705,2026-08-08T18:00:00+00:00,NS,Regular Season - 24,Almirante Brown,8375,Ciudad de Bolívar,16612,,,False
+1498707,2026-08-08T19:00:00+00:00,NS,Regular Season - 24,Atletico DE Rafaela,465,Chacarita Juniors,447,,,False
+1498716,2026-08-09T17:30:00+00:00,NS,Regular Season - 24,Los Andes,483,Ferro Carril Oeste,470,,,False
+1498712,2026-08-09T18:00:00+00:00,NS,Regular Season - 24,Deportivo Moron,469,Acassuso,2425,,,False
+1498710,2026-08-09T18:00:00+00:00,NS,Regular Season - 24,Colegiales,8377,Patronato,444,,,False
+1498711,2026-08-09T18:30:00+00:00,NS,Regular Season - 24,Colon Santa Fe,448,San Telmo,1932,,,False
+1498709,2026-08-09T19:00:00+00:00,NS,Regular Season - 24,Atletico Mitre,466,Defensores De Belgrano,1067,,,False
+1498719,2026-08-09T19:00:00+00:00,NS,Regular Season - 24,Racing Cordoba,1957,San Miguel,8379,,,False
+1498715,2026-08-09T19:30:00+00:00,NS,Regular Season - 24,Godoy Cruz,439,Chaco For Ever,1946,,,False
+1498718,2026-08-09T20:00:00+00:00,NS,Regular Season - 24,Quilmes,480,Almagro,482,,,False
+1498714,2026-08-09T20:30:00+00:00,NS,Regular Season - 24,Gimnasia Y Tiro,1928,Nueva Chicago,484,,,False
+1498720,2026-08-09T21:00:00+00:00,NS,Regular Season - 24,San Martin Tucuman,485,San Martin S.J.,461,,,False
+1498713,2026-08-10T18:00:00+00:00,NS,Regular Season - 24,Gimnasia Jujuy,479,Tristan Suarez,1965,,,False
+1498704,2026-08-10T23:00:00+00:00,NS,Regular Season - 24,All Boys,464,Central Norte,1951,,,False
+1498706,2026-08-10T23:00:00+00:00,NS,Regular Season - 24,Atlanta,1948,Temperley,454,,,False
+1498721,2026-08-14T18:00:00+00:00,NS,Regular Season - 25,Acassuso,2425,Midland,1963,,,False
+1498724,2026-08-14T23:30:00+00:00,NS,Regular Season - 25,Atletico DE Rafaela,465,Defensores De Belgrano,1067,,,False
+1498722,2026-08-15T18:00:00+00:00,NS,Regular Season - 25,Agropecuario,462,Ciudad de Bolívar,16612,,,False
+1498729,2026-08-15T18:00:00+00:00,NS,Regular Season - 25,Deportivo Moron,469,Almagro,482,,,False
+1498730,2026-08-15T18:00:00+00:00,NS,Regular Season - 25,Ferro Carril Oeste,470,Atlanta,1948,,,False
+1498725,2026-08-15T18:00:00+00:00,NS,Regular Season - 25,CA Estudiantes,1936,Chacarita Juniors,447,,,False
+1498736,2026-08-15T18:00:00+00:00,NS,Regular Season - 25,San Miguel,8379,Colegiales,8377,,,False
+1498726,2026-08-15T19:00:00+00:00,NS,Regular Season - 25,Atletico Mitre,466,Club Atlético Güemes,3969,,,False
+1498732,2026-08-15T21:00:00+00:00,NS,Regular Season - 25,Godoy Cruz,439,Deportivo Maipu,1954,,,False
+1498733,2026-08-15T22:00:00+00:00,NS,Regular Season - 25,Quilmes,480,San Telmo,1932,,,False
+1498738,2026-08-16T18:00:00+00:00,NS,Regular Season - 25,Tristan Suarez,1965,Almirante Brown,8375,,,False
+1498728,2026-08-16T18:30:00+00:00,NS,Regular Season - 25,Colon Santa Fe,448,Patronato,444,,,False
+1498731,2026-08-16T19:00:00+00:00,NS,Regular Season - 25,Gimnasia Jujuy,479,Chaco For Ever,1946,,,False
+1498727,2026-08-16T20:00:00+00:00,NS,Regular Season - 25,Central Norte,1951,Gimnasia Y Tiro,1928,,,False
+1498734,2026-08-16T20:00:00+00:00,NS,Regular Season - 25,Racing Cordoba,1957,San Martin S.J.,461,,,False
+1498735,2026-08-16T21:00:00+00:00,NS,Regular Season - 25,San Martin Tucuman,485,Deportivo Madryn,1929,,,False
+1498737,2026-08-16T22:00:00+00:00,NS,Regular Season - 25,Temperley,454,Los Andes,483,,,False
+1498723,2026-08-17T18:00:00+00:00,NS,Regular Season - 25,All Boys,464,Nueva Chicago,484,,,False
+1498751,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Patronato,444,Gimnasia Jujuy,479,,,False
+1498742,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Chacarita Juniors,447,San Martin Tucuman,485,,,False
+1498755,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Temperley,454,Midland,1963,,,False
+1498752,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,San Martin S.J.,461,Gimnasia Y Tiro,1928,,,False
+1498749,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Ferro Carril Oeste,470,All Boys,464,,,False
+1498740,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Almagro,482,Colegiales,8377,,,False
+1498750,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Nueva Chicago,484,Atlanta,1948,,,False
+1498746,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Defensores De Belgrano,1067,Almirante Brown,8375,,,False
+1498747,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Deportivo Madryn,1929,Atletico Mitre,466,,,False
+1498754,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,San Telmo,1932,Deportivo Moron,469,,,False
+1498743,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Chaco For Ever,1946,Los Andes,483,,,False
+1498741,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Central Norte,1951,CA Estudiantes,1936,,,False
+1498748,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Deportivo Maipu,1954,Quilmes,480,,,False
+1498756,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Tristan Suarez,1965,Agropecuario,462,,,False
+1498739,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Acassuso,2425,Godoy Cruz,439,,,False
+1498745,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Club Atlético Güemes,3969,Atletico DE Rafaela,465,,,False
+1498753,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,San Miguel,8379,Colon Santa Fe,448,,,False
+1498744,2026-08-22T20:00:00+00:00,NS,Regular Season - 26,Ciudad de Bolívar,16612,Racing Cordoba,1957,,,False
+1498659,2026-08-25T22:00:00+00:00,NS,Regular Season - 21,Deportivo Madryn,1929,Godoy Cruz,439,,,False
+1498663,2026-08-26T18:30:00+00:00,NS,Regular Season - 21,Patronato,444,Atlanta,1948,,,False
+1498657,2026-08-26T23:00:00+00:00,NS,Regular Season - 21,Colegiales,8377,Midland,1963,,,False
+1498653,2026-08-27T00:00:00+00:00,NS,Regular Season - 21,Central Norte,1951,Deportivo Moron,469,,,False
+1498768,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Godoy Cruz,439,San Telmo,1932,,,False
+1498771,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Patronato,444,Almagro,482,,,False
+1498757,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,All Boys,464,Chaco For Ever,1946,,,False
+1498760,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Atletico DE Rafaela,465,Tristan Suarez,1965,,,False
+1498762,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Atletico Mitre,466,Central Norte,1951,,,False
+1498765,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Deportivo Moron,469,San Miguel,8379,,,False
+1498766,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Gimnasia Jujuy,479,Agropecuario,462,,,False
+1498772,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Quilmes,480,Temperley,454,,,False
+1498769,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Los Andes,483,Acassuso,2425,,,False
+1498774,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,San Martin Tucuman,485,Club Atlético Güemes,3969,,,False
+1498767,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Gimnasia Y Tiro,1928,Chacarita Juniors,447,,,False
+1498761,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,CA Estudiantes,1936,Ferro Carril Oeste,470,,,False
+1498759,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Atlanta,1948,San Martin S.J.,461,,,False
+1498773,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Racing Cordoba,1957,Colon Santa Fe,448,,,False
+1498770,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Midland,1963,Nueva Chicago,484,,,False
+1498758,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Almirante Brown,8375,Deportivo Madryn,1929,,,False
+1498764,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Colegiales,8377,Deportivo Maipu,1954,,,False
+1498763,2026-08-29T20:00:00+00:00,NS,Regular Season - 27,Ciudad de Bolívar,16612,Defensores De Belgrano,1067,,,False
+1498779,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Chacarita Juniors,447,Atlanta,1948,,,False
+1498782,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Colon Santa Fe,448,Deportivo Moron,469,,,False
+1498791,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Temperley,454,Colegiales,8377,,,False
+1498788,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,San Martin S.J.,461,Midland,1963,,,False
+1498776,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Agropecuario,462,Atletico DE Rafaela,465,,,False
+1498786,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Ferro Carril Oeste,470,Atletico Mitre,466,,,False
+1498777,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Almagro,482,Gimnasia Jujuy,479,,,False
+1498787,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Nueva Chicago,484,Quilmes,480,,,False
+1498783,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Defensores De Belgrano,1067,Racing Cordoba,1957,,,False
+1498784,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Deportivo Madryn,1929,Ciudad de Bolívar,16612,,,False
+1498790,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,San Telmo,1932,Los Andes,483,,,False
+1498780,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Chaco For Ever,1946,CA Estudiantes,1936,,,False
+1498778,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Central Norte,1951,Almirante Brown,8375,,,False
+1498785,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Deportivo Maipu,1954,Patronato,444,,,False
+1498792,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Tristan Suarez,1965,San Martin Tucuman,485,,,False
+1498775,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Acassuso,2425,All Boys,464,,,False
+1498781,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,Club Atlético Güemes,3969,Gimnasia Y Tiro,1928,,,False
+1498789,2026-09-05T20:00:00+00:00,NS,Regular Season - 28,San Miguel,8379,Godoy Cruz,439,,,False
+1498804,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Godoy Cruz,439,Colon Santa Fe,448,,,False
+1498807,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Patronato,444,Temperley,454,,,False
+1498793,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,All Boys,464,San Telmo,1932,,,False
+1498798,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Atletico Mitre,466,Chaco For Ever,1946,,,False
+1498802,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Gimnasia Jujuy,479,Atletico DE Rafaela,465,,,False
+1498808,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Quilmes,480,San Martin S.J.,461,,,False
+1498794,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Almagro,482,Deportivo Maipu,1954,,,False
+1498805,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Los Andes,483,San Miguel,8379,,,False
+1498810,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,San Martin Tucuman,485,Agropecuario,462,,,False
+1498801,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Defensores De Belgrano,1067,Deportivo Madryn,1929,,,False
+1498803,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Gimnasia Y Tiro,1928,Tristan Suarez,1965,,,False
+1498797,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,CA Estudiantes,1936,Acassuso,2425,,,False
+1498796,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Atlanta,1948,Club Atlético Güemes,3969,,,False
+1498809,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Racing Cordoba,1957,Deportivo Moron,469,,,False
+1498806,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Midland,1963,Chacarita Juniors,447,,,False
+1498795,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Almirante Brown,8375,Ferro Carril Oeste,470,,,False
+1498800,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Colegiales,8377,Nueva Chicago,484,,,False
+1498799,2026-09-12T20:00:00+00:00,NS,Regular Season - 29,Ciudad de Bolívar,16612,Central Norte,1951,,,False
+1498815,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Chacarita Juniors,447,Quilmes,480,,,False
+1498818,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Colon Santa Fe,448,Los Andes,483,,,False
+1498827,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Temperley,454,Almagro,482,,,False
+1498824,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,San Martin S.J.,461,Colegiales,8377,,,False
+1498812,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Agropecuario,462,Gimnasia Y Tiro,1928,,,False
+1498813,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Atletico DE Rafaela,465,San Martin Tucuman,485,,,False
+1498821,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Deportivo Moron,469,Godoy Cruz,439,,,False
+1498822,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Ferro Carril Oeste,470,Ciudad de Bolívar,16612,,,False
+1498823,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Nueva Chicago,484,Patronato,444,,,False
+1498819,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Deportivo Madryn,1929,Racing Cordoba,1957,,,False
+1498826,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,San Telmo,1932,CA Estudiantes,1936,,,False
+1498816,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Chaco For Ever,1946,Almirante Brown,8375,,,False
+1498814,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Central Norte,1951,Defensores De Belgrano,1067,,,False
+1498820,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Deportivo Maipu,1954,Gimnasia Jujuy,479,,,False
+1498828,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Tristan Suarez,1965,Atlanta,1948,,,False
+1498811,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Acassuso,2425,Atletico Mitre,466,,,False
+1498817,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,Club Atlético Güemes,3969,Midland,1963,,,False
+1498825,2026-09-19T20:00:00+00:00,NS,Regular Season - 30,San Miguel,8379,All Boys,464,,,False
+1498844,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Patronato,444,San Martin S.J.,461,,,False
+1498829,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,All Boys,464,Colon Santa Fe,448,,,False
+1498834,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Atletico Mitre,466,San Telmo,1932,,,False
+1498840,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Gimnasia Jujuy,479,San Martin Tucuman,485,,,False
+1498845,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Quilmes,480,Club Atlético Güemes,3969,,,False
+1498830,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Almagro,482,Nueva Chicago,484,,,False
+1498842,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Los Andes,483,Deportivo Moron,469,,,False
+1498837,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Defensores De Belgrano,1067,Ferro Carril Oeste,470,,,False
+1498841,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Gimnasia Y Tiro,1928,Atletico DE Rafaela,465,,,False
+1498838,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Deportivo Madryn,1929,Central Norte,1951,,,False
+1498833,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,CA Estudiantes,1936,San Miguel,8379,,,False
+1498832,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Atlanta,1948,Agropecuario,462,,,False
+1498839,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Deportivo Maipu,1954,Temperley,454,,,False
+1498846,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Racing Cordoba,1957,Godoy Cruz,439,,,False
+1498843,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Midland,1963,Tristan Suarez,1965,,,False
+1498831,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Almirante Brown,8375,Acassuso,2425,,,False
+1498836,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Colegiales,8377,Chacarita Juniors,447,,,False
+1498835,2026-09-26T20:00:00+00:00,NS,Regular Season - 31,Ciudad de Bolívar,16612,Chaco For Ever,1946,,,False
+1498857,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Godoy Cruz,439,Los Andes,483,,,False
+1498851,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Chacarita Juniors,447,Patronato,444,,,False
+1498854,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Colon Santa Fe,448,CA Estudiantes,1936,,,False
+1498863,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Temperley,454,Gimnasia Jujuy,479,,,False
+1498859,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,San Martin S.J.,461,Almagro,482,,,False
+1498848,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Agropecuario,462,Midland,1963,,,False
+1498849,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Atletico DE Rafaela,465,Atlanta,1948,,,False
+1498855,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Deportivo Moron,469,All Boys,464,,,False
+1498856,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Ferro Carril Oeste,470,Deportivo Madryn,1929,,,False
+1498858,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Nueva Chicago,484,Deportivo Maipu,1954,,,False
+1498860,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,San Martin Tucuman,485,Gimnasia Y Tiro,1928,,,False
+1498862,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,San Telmo,1932,Almirante Brown,8375,,,False
+1498852,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Chaco For Ever,1946,Defensores De Belgrano,1067,,,False
+1498850,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Central Norte,1951,Racing Cordoba,1957,,,False
+1498864,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Tristan Suarez,1965,Quilmes,480,,,False
+1498847,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Acassuso,2425,Ciudad de Bolívar,16612,,,False
+1498853,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,Club Atlético Güemes,3969,Colegiales,8377,,,False
+1498861,2026-10-03T20:00:00+00:00,NS,Regular Season - 32,San Miguel,8379,Atletico Mitre,466,,,False
+1498879,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Patronato,444,Club Atlético Güemes,3969,,,False
+1498882,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Temperley,454,Nueva Chicago,484,,,False
+1498865,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,All Boys,464,Godoy Cruz,439,,,False
+1498870,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Atletico Mitre,466,Colon Santa Fe,448,,,False
+1498877,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Gimnasia Jujuy,479,Gimnasia Y Tiro,1928,,,False
+1498880,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Quilmes,480,Agropecuario,462,,,False
+1498866,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Almagro,482,Chacarita Juniors,447,,,False
+1498874,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Defensores De Belgrano,1067,Acassuso,2425,,,False
+1498875,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Deportivo Madryn,1929,Chaco For Ever,1946,,,False
+1498869,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,CA Estudiantes,1936,Deportivo Moron,469,,,False
+1498868,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Atlanta,1948,San Martin Tucuman,485,,,False
+1498871,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Central Norte,1951,Ferro Carril Oeste,470,,,False
+1498876,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Deportivo Maipu,1954,San Martin S.J.,461,,,False
+1498881,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Racing Cordoba,1957,Los Andes,483,,,False
+1498878,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Midland,1963,Atletico DE Rafaela,465,,,False
+1498867,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Almirante Brown,8375,San Miguel,8379,,,False
+1498873,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Colegiales,8377,Tristan Suarez,1965,,,False
+1498872,2026-10-10T20:00:00+00:00,NS,Regular Season - 33,Ciudad de Bolívar,16612,San Telmo,1932,,,False
+1498893,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Godoy Cruz,439,CA Estudiantes,1936,,,False
+1498886,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Chacarita Juniors,447,Deportivo Maipu,1954,,,False
+1498889,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Colon Santa Fe,448,Almirante Brown,8375,,,False
+1498896,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,San Martin S.J.,461,Temperley,454,,,False
+1498884,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Agropecuario,462,Colegiales,8377,,,False
+1498885,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Atletico DE Rafaela,465,Quilmes,480,,,False
+1498890,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Deportivo Moron,469,Atletico Mitre,466,,,False
+1498891,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Ferro Carril Oeste,470,Racing Cordoba,1957,,,False
+1498894,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Los Andes,483,All Boys,464,,,False
+1498895,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Nueva Chicago,484,Gimnasia Jujuy,479,,,False
+1498897,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,San Martin Tucuman,485,Midland,1963,,,False
+1498892,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Gimnasia Y Tiro,1928,Atlanta,1948,,,False
+1498899,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,San Telmo,1932,Defensores De Belgrano,1067,,,False
+1498887,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Chaco For Ever,1946,Central Norte,1951,,,False
+1498900,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Tristan Suarez,1965,Patronato,444,,,False
+1498883,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Acassuso,2425,Deportivo Madryn,1929,,,False
+1498888,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,Club Atlético Güemes,3969,Almagro,482,,,False
+1498898,2026-10-17T20:00:00+00:00,NS,Regular Season - 34,San Miguel,8379,Ciudad de Bolívar,16612,,,False
+1498915,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Patronato,444,Agropecuario,462,,,False
+1498918,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Temperley,454,Chacarita Juniors,447,,,False
+1498904,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Atletico Mitre,466,Godoy Cruz,439,,,False
+1498911,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Ferro Carril Oeste,470,Chaco For Ever,1946,,,False
+1498912,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Gimnasia Jujuy,479,Atlanta,1948,,,False
+1498916,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Quilmes,480,San Martin Tucuman,485,,,False
+1498901,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Almagro,482,Tristan Suarez,1965,,,False
+1498914,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Nueva Chicago,484,San Martin S.J.,461,,,False
+1498908,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Defensores De Belgrano,1067,San Miguel,8379,,,False
+1498909,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Deportivo Madryn,1929,San Telmo,1932,,,False
+1498903,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,CA Estudiantes,1936,Los Andes,483,,,False
+1498905,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Central Norte,1951,Acassuso,2425,,,False
+1498910,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Deportivo Maipu,1954,Club Atlético Güemes,3969,,,False
+1498917,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Racing Cordoba,1957,All Boys,464,,,False
+1498913,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Midland,1963,Gimnasia Y Tiro,1928,,,False
+1498902,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Almirante Brown,8375,Deportivo Moron,469,,,False
+1498907,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Colegiales,8377,Atletico DE Rafaela,465,,,False
+1498906,2026-10-24T20:00:00+00:00,NS,Regular Season - 35,Ciudad de Bolívar,16612,Colon Santa Fe,448,,,False
+1498930,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Godoy Cruz,439,Almirante Brown,8375,,,False
+1498924,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Chacarita Juniors,447,Nueva Chicago,484,,,False
+1498927,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Colon Santa Fe,448,Defensores De Belgrano,1067,,,False
+1498932,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,San Martin S.J.,461,Gimnasia Jujuy,479,,,False
+1498920,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Agropecuario,462,Almagro,482,,,False
+1498921,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,All Boys,464,CA Estudiantes,1936,,,False
+1498923,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Atletico DE Rafaela,465,Patronato,444,,,False
+1498928,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Deportivo Moron,469,Ciudad de Bolívar,16612,,,False
+1498931,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Los Andes,483,Atletico Mitre,466,,,False
+1498933,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,San Martin Tucuman,485,Colegiales,8377,,,False
+1498929,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Gimnasia Y Tiro,1928,Quilmes,480,,,False
+1498935,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,San Telmo,1932,Central Norte,1951,,,False
+1498925,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Chaco For Ever,1946,Racing Cordoba,1957,,,False
+1498922,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Atlanta,1948,Midland,1963,,,False
+1498936,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Tristan Suarez,1965,Deportivo Maipu,1954,,,False
+1498919,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Acassuso,2425,Ferro Carril Oeste,470,,,False
+1498926,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,Club Atlético Güemes,3969,Temperley,454,,,False
+1498934,2026-10-31T20:00:00+00:00,NS,Regular Season - 36,San Miguel,8379,Deportivo Madryn,1929,,,False

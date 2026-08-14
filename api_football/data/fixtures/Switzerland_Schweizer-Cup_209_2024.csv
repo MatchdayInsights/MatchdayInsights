@@ -1,8 +1,64 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1320448,2025-02-25T19:30:00+00:00,AET,Bellinzona,6616,Lausanne,1014,1,1,False
-1320451,2025-02-26T18:30:00+00:00,FT,Étoile Carouge,6654,FC Basel 1893,551,1,3,True
-1320450,2025-02-26T19:30:00+00:00,FT,Biel-Bienne,12700,FC Lugano,606,2,0,True
-1320449,2025-02-27T19:30:00+00:00,FT,FC Zurich,783,BSC Young Boys,565,2,3,True
-1355655,2025-04-26T18:30:00+00:00,AET,Biel-Bienne,12700,BSC Young Boys,565,1,0,False
-1355656,2025-04-27T13:30:00+00:00,AET,FC Basel 1893,551,Lausanne,1014,3,2,False
-1373150,2025-06-01T12:00:00+00:00,FT,Biel-Bienne,12700,FC Basel 1893,551,1,4,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1223566,2024-08-16T18:00:00+00:00,FT,1st Round,SC Kriens,2186,Bellinzona,6616,1,2,True
+1223583,2024-08-16T18:00:00+00:00,AET,1st Round,Lancy,6628,Étoile Carouge,6654,3,3,False
+1223565,2024-08-16T18:00:00+00:00,FT,1st Round,Taverne,6648,FC WIL 1900,2179,1,3,True
+1223585,2024-08-16T18:00:00+00:00,FT,1st Round,Wettswil-Bonstetten,6650,FC Winterthur,2180,1,2,True
+1223570,2024-08-16T18:00:00+00:00,FT,1st Round,Dardania Lausanne,17414,Yverdon Sport,6653,0,3,True
+1223587,2024-08-17T14:00:00+00:00,FT,1st Round,Baden,12699,Rapperswil,2185,1,3,True
+1223569,2024-08-17T14:00:00+00:00,FT,1st Round,Schattdorf,17487,Paradiso,12717,0,1,True
+1223574,2024-08-17T14:00:00+00:00,FT,1st Round,Subingen,19599,FC Basel 1893,551,0,8,True
+1223572,2024-08-17T14:00:00+00:00,FT,1st Round,Ursy,24184,Stade Nyonnais,6646,0,6,True
+1223582,2024-08-17T15:00:00+00:00,FT,1st Round,Echallens,6623,Stade Lausanne-Ouchy,4269,1,6,True
+1223573,2024-08-17T15:00:00+00:00,FT,1st Round,Printse-Nendaz,19603,BSC Young Boys,565,0,10,True
+1223568,2024-08-17T15:00:00+00:00,FT,1st Round,Besa St. Gallen,24179,Chur 97,16372,1,0,True
+1223586,2024-08-17T15:00:00+00:00,FT,1st Round,Suhr,24183,FC Aarau,2177,0,4,True
+1223590,2024-08-17T16:00:00+00:00,AET,1st Round,Monthey,6631,Solothurn,12709,4,3,False
+1223592,2024-08-17T16:00:00+00:00,FT,1st Round,Tuggen,12720,FC Schaffhausen,2182,0,2,True
+1223564,2024-08-17T16:00:00+00:00,FT,1st Round,Mendrisio,16354,FC Luzern,644,1,4,True
+1223589,2024-08-17T16:00:00+00:00,FT,1st Round,Wallbach,24185,Langenthal,12705,0,2,True
+1223588,2024-08-17T17:00:00+00:00,AET,1st Round,Le Locle Sports,16334,Prishtina Bern,17484,1,1,False
+1223563,2024-08-17T17:00:00+00:00,FT,1st Round,Emmen,19615,Altstätten,6613,3,2,True
+1223594,2024-08-17T17:00:00+00:00,FT,1st Round,Aemme,24178,Haute-Ajoie,24181,2,1,True
+1223593,2024-08-17T17:00:00+00:00,FT,1st Round,Zürich City,24186,YF Juventus,6652,0,1,True
+1223577,2024-08-17T17:30:00+00:00,FT,1st Round,Biel-Bienne,12700,Neuchatel Xamax FC,1015,2,1,True
+1223576,2024-08-17T18:00:00+00:00,AET,1st Round,Delémont,12702,FC Sion,630,1,1,False
+1223584,2024-08-18T12:00:00+00:00,FT,1st Round,Genolier-Begnins,16319,Vevey Sports,12697,1,3,True
+1223581,2024-08-18T12:30:00+00:00,FT,1st Round,Signal,6644,Servette FC,2184,1,7,True
+1223571,2024-08-18T12:30:00+00:00,FT,1st Round,Champel,24180,Lausanne,1014,0,7,True
+1223591,2024-08-18T13:00:00+00:00,FT,1st Round,Brühl,10587,FC Lugano,606,1,7,True
+1223567,2024-08-18T13:00:00+00:00,FT,1st Round,Dardania St. Gallen,19613,Gambarogno - Contone,6626,1,2,True
+1223575,2024-08-18T13:00:00+00:00,FT,1st Round,Schwyz,24182,FC Thun,1012,0,6,True
+1223579,2024-08-18T14:00:00+00:00,FT,1st Round,Zug,12710,FC Zurich,783,0,2,True
+1223578,2024-08-18T14:00:00+00:00,FT,1st Round,Regensdorf,19611,Grasshoppers,1013,0,9,True
+1223580,2024-08-18T14:30:00+00:00,FT,1st Round,AC Malcantone,21024,FC ST. Gallen,1011,0,4,True
+1293058,2024-09-13T18:00:00+00:00,FT,2nd Round,FC Thun,1012,Grasshoppers,1013,0,2,True
+1293069,2024-09-13T18:00:00+00:00,FT,2nd Round,Monthey,6631,Étoile Carouge,6654,0,2,True
+1293063,2024-09-13T18:00:00+00:00,FT,2nd Round,YF Juventus,6652,FC Sion,630,0,2,True
+1293067,2024-09-13T18:00:00+00:00,FT,2nd Round,Emmen,19615,Yverdon Sport,6653,1,2,True
+1293070,2024-09-13T18:15:00+00:00,FT,2nd Round,Besa St. Gallen,24179,Biel-Bienne,12700,1,6,True
+1293071,2024-09-14T13:00:00+00:00,FT,2nd Round,Langenthal,12705,Stade Lausanne-Ouchy,4269,1,0,True
+1293064,2024-09-14T14:00:00+00:00,FT,2nd Round,Paradiso,12717,FC ST. Gallen,1011,1,3,True
+1293060,2024-09-14T15:00:00+00:00,FT,2nd Round,Rapperswil,2185,FC Lugano,606,1,3,True
+1293059,2024-09-14T15:00:00+00:00,FT,2nd Round,Aemme,24178,Lausanne,1014,0,4,True
+1293065,2024-09-14T16:00:00+00:00,AET,2nd Round,FC WIL 1900,2179,FC Winterthur,2180,2,2,False
+1293066,2024-09-14T16:00:00+00:00,FT,2nd Round,Vevey Sports,12697,BSC Young Boys,565,2,4,True
+1293068,2024-09-14T16:30:00+00:00,FT,2nd Round,Le Locle Sports,16334,FC Zurich,783,0,3,True
+1293062,2024-09-15T12:30:00+00:00,FT,2nd Round,FC Schaffhausen,2182,Servette FC,2184,2,1,True
+1293061,2024-09-15T14:00:00+00:00,FT,2nd Round,FC Aarau,2177,FC Luzern,644,1,0,True
+1293072,2024-09-15T14:00:00+00:00,FT,2nd Round,Gambarogno - Contone,6626,Bellinzona,6616,1,2,True
+1293057,2024-09-15T14:30:00+00:00,FT,2nd Round,Stade Nyonnais,6646,FC Basel 1893,551,0,1,True
+1305994,2024-12-03T18:00:00+00:00,FT,Round of 16,Langenthal,12705,Biel-Bienne,12700,0,6,True
+1305989,2024-12-03T19:00:00+00:00,FT,Round of 16,Grasshoppers,1013,FC Zurich,783,0,1,True
+1305987,2024-12-04T19:00:00+00:00,FT,Round of 16,FC Schaffhausen,2182,BSC Young Boys,565,0,1,True
+1305991,2024-12-04T19:15:00+00:00,AET,Round of 16,FC Basel 1893,551,FC Sion,630,2,2,False
+1305992,2024-12-04T19:30:00+00:00,FT,Round of 16,Yverdon Sport,6653,FC Lugano,606,0,2,True
+1305990,2024-12-05T19:00:00+00:00,FT,Round of 16,FC Aarau,2177,Étoile Carouge,6654,0,1,True
+1305993,2024-12-05T19:30:00+00:00,FT,Round of 16,FC Winterthur,2180,Lausanne,1014,0,3,True
+1305988,2024-12-05T19:30:00+00:00,FT,Round of 16,Bellinzona,6616,FC ST. Gallen,1011,1,0,True
+1320448,2025-02-25T19:30:00+00:00,AET,Quarter-finals,Bellinzona,6616,Lausanne,1014,1,1,False
+1320451,2025-02-26T18:30:00+00:00,FT,Quarter-finals,Étoile Carouge,6654,FC Basel 1893,551,1,3,True
+1320450,2025-02-26T19:30:00+00:00,FT,Quarter-finals,Biel-Bienne,12700,FC Lugano,606,2,0,True
+1320449,2025-02-27T19:30:00+00:00,FT,Quarter-finals,FC Zurich,783,BSC Young Boys,565,2,3,True
+1355655,2025-04-26T18:30:00+00:00,AET,Semi-finals,Biel-Bienne,12700,BSC Young Boys,565,1,0,False
+1355656,2025-04-27T13:30:00+00:00,AET,Semi-finals,FC Basel 1893,551,Lausanne,1014,3,2,False
+1373150,2025-06-01T12:00:00+00:00,FT,Final,Biel-Bienne,12700,FC Basel 1893,551,1,4,True

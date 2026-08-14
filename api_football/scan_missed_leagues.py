@@ -48,16 +48,15 @@ CONFIG_PATH = os.path.join(SCRIPT_DIR, "leagues_config.json")
 # for the exact spelling and adjust this list.
 UEFA_COUNTRIES = {
     "Albania", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus",
-    "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus",
-    "Czech Republic", "Denmark", "England", "Estonia", "Faroe Islands",
-    "Finland", "France", "Georgia", "Germany", "Gibraltar", "Greece",
-    "Hungary", "Iceland", "Israel", "Italy", "Kazakhstan", "Kosovo",
-    "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta",
-    "Moldova", "Monaco", "Montenegro", "Netherlands", "North Macedonia",
-    "Northern Ireland", "Norway", "Poland", "Portugal", "Republic of Ireland",
-    "Ireland", "Romania", "Russia", "San Marino", "Scotland", "Serbia",
-    "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey",
-    "Ukraine", "Wales",
+    "Belgium", "Bosnia", "Bulgaria", "Croatia", "Cyprus", "Czech-Republic",
+    "Denmark", "England", "Estonia", "Faroe-Islands", "Finland", "France",
+    "Georgia", "Germany", "Gibraltar", "Greece", "Hungary", "Iceland",
+    "Ireland", "Israel", "Italy", "Kazakhstan", "Kosovo", "Latvia",
+    "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Malta",
+    "Moldova", "Montenegro", "Netherlands", "Northern-Ireland", "Norway",
+    "Poland", "Portugal", "Romania", "Russia", "San-Marino", "Scotland",
+    "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland",
+    "Turkey", "Ukraine", "Wales",
 }
 EXCLUDE_KEYWORDS = [
     "women", "u23", "u-23", "u21", "u-21", "u20", "u-20", "u19", "u-19",

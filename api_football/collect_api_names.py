@@ -54,12 +54,30 @@ def league_label_for_file(filename, lookup):
     return lookup.get(league_id, f"Unknown competition (league_id {league_id})")
 
 
-def add_team(teams_by_id, team_id, name, label):
-    """teams_by_id: {team_id: {"name": ..., "leagues": set(...)}}"""
+def add_team(teams_by_id, team_id, name, label, source):
+    """teams_by_id: {team_id: {"names": set(...), "leagues": set(...), "standings_leagues": set(...)}}
+    Tracks EVERY name variant seen for this team_id, AND tracks which
+    league labels came from STANDINGS specifically (source='standings')
+    vs any appearance at all including fixtures (source='fixtures').
+
+    Why this distinction matters: a fixtures file for a league can include
+    cross-tier matches (e.g. a promotion/relegation playoff between a top-
+    flight club and a lower-tier club) tagged under the top-flight
+    league_id. That means a lower-tier club can get incorrectly labeled
+    as e.g. "Albania - Superliga" just for having played ONE playoff match
+    against a Superliga side, even though it was never a genuine member of
+    that table. Standings membership doesn't have this problem — a team
+    only appears in a competition's standings if it was a real participant
+    that season. standings_leagues is the accurate one for "was this team
+    really part of this competition" checks; leagues (the fuller set) is
+    still useful for name-matching/search purposes.
+    """
     if team_id not in teams_by_id:
-        teams_by_id[team_id] = {"name": name, "leagues": set()}
+        teams_by_id[team_id] = {"names": set(), "leagues": set(), "standings_leagues": set()}
     teams_by_id[team_id]["leagues"].add(label)
-    teams_by_id[team_id]["name"] = name
+    teams_by_id[team_id]["names"].add(name)
+    if source == "standings":
+        teams_by_id[team_id]["standings_leagues"].add(label)
 
 
 def collect_from_standings(path, label, teams_by_id, missing_id_warned):
@@ -75,7 +93,7 @@ def collect_from_standings(path, label, teams_by_id, missing_id_warned):
             name = row.get("team", "").strip()
             team_id = row.get("team_id", "").strip()
             if name and team_id:
-                add_team(teams_by_id, team_id, name, label)
+                add_team(teams_by_id, team_id, name, label, source="standings")
 
 
 def collect_from_fixtures(path, label, teams_by_id, missing_id_warned):
@@ -92,7 +110,7 @@ def collect_from_fixtures(path, label, teams_by_id, missing_id_warned):
                 name = row.get(f"{side}_team", "").strip()
                 team_id = row.get(f"{side}_team_id", "").strip()
                 if name and team_id:
-                    add_team(teams_by_id, team_id, name, label)
+                    add_team(teams_by_id, team_id, name, label, source="fixtures")
 
 
 def main():
@@ -113,14 +131,22 @@ def main():
         label = league_label_for_file(path, lookup)
         collect_from_fixtures(path, label, teams_by_id, missing_id_warned)
 
-    # Build name -> [list of distinct teams sharing that name], each with its
-    # own team_id and ONLY its own league labels (no merging across teams).
+    # Build name -> [list of distinct teams sharing that name]. A team that
+    # appeared under MULTIPLE names (see add_team's docstring) gets an entry
+    # under EACH of its names, all pointing to the same team_id/leagues —
+    # so searching by any name variant correctly finds it.
     by_name = {}
+    multi_named_teams = []
     for team_id, info in teams_by_id.items():
-        by_name.setdefault(info["name"], []).append({
-            "team_id": team_id,
-            "leagues": sorted(info["leagues"]),
-        })
+        names = info["names"]
+        if len(names) > 1:
+            multi_named_teams.append((team_id, sorted(names)))
+        for name in names:
+            by_name.setdefault(name, []).append({
+                "team_id": team_id,
+                "leagues": sorted(info["leagues"]),
+                "standings_leagues": sorted(info["standings_leagues"]),
+            })
 
     output = {name: entries for name, entries in sorted(by_name.items())}
 
@@ -130,6 +156,16 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"\nFound {len(teams_by_id)} distinct teams under {len(output)} unique names.")
+
+    if multi_named_teams:
+        print(f"\n{len(multi_named_teams)} team(s) appeared under MORE THAN ONE name across your files "
+              f"(genuine rename, or an inconsistency between standings/fixtures data) — "
+              f"all name variants are searchable and point to the same team:")
+        for team_id, names in multi_named_teams[:15]:
+            print(f"  team_id {team_id}: {' / '.join(names)}")
+        if len(multi_named_teams) > 15:
+            print(f"  ... and {len(multi_named_teams)-15} more")
+
     if ambiguous:
         print(f"\n{len(ambiguous)} name(s) are shared by more than one real team "
               f"(different clubs, same name) — these will show as separate, clearly "

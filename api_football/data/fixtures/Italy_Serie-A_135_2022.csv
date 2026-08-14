@@ -1,0 +1,382 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+881780,2022-08-13T16:30:00+00:00,FT,Regular Season - 1,AC Milan,489,Udinese,494,4,2,True
+881781,2022-08-13T16:30:00+00:00,FT,Regular Season - 1,Sampdoria,498,Atalanta,499,0,2,True
+881782,2022-08-13T18:45:00+00:00,FT,Regular Season - 1,Lecce,867,Inter,505,1,2,True
+881783,2022-08-13T18:45:00+00:00,FT,Regular Season - 1,Monza,1579,Torino,503,1,2,True
+881785,2022-08-14T16:30:00+00:00,FT,Regular Season - 1,Lazio,487,Bologna,500,2,1,True
+881784,2022-08-14T16:30:00+00:00,FT,Regular Season - 1,Fiorentina,502,Cremonese,520,3,2,True
+881786,2022-08-14T18:45:00+00:00,FT,Regular Season - 1,Salernitana,514,AS Roma,497,0,1,True
+881787,2022-08-14T18:45:00+00:00,FT,Regular Season - 1,Spezia,515,Empoli,511,1,0,True
+881788,2022-08-15T16:30:00+00:00,FT,Regular Season - 1,Hellas Verona,504,Napoli,492,2,5,True
+881789,2022-08-15T18:45:00+00:00,FT,Regular Season - 1,Juventus,496,Sassuolo,488,3,0,True
+881791,2022-08-20T16:30:00+00:00,FT,Regular Season - 2,Udinese,494,Salernitana,514,0,0,True
+881790,2022-08-20T16:30:00+00:00,FT,Regular Season - 2,Torino,503,Lazio,487,0,0,True
+881793,2022-08-20T18:45:00+00:00,FT,Regular Season - 2,Sassuolo,488,Lecce,867,1,0,True
+881792,2022-08-20T18:45:00+00:00,FT,Regular Season - 2,Inter,505,Spezia,515,3,0,True
+881795,2022-08-21T16:30:00+00:00,FT,Regular Season - 2,Napoli,492,Monza,1579,4,0,True
+881794,2022-08-21T16:30:00+00:00,FT,Regular Season - 2,Empoli,511,Fiorentina,502,0,0,True
+881796,2022-08-21T18:45:00+00:00,FT,Regular Season - 2,Atalanta,499,AC Milan,489,1,1,True
+881797,2022-08-21T18:45:00+00:00,FT,Regular Season - 2,Bologna,500,Hellas Verona,504,1,1,True
+881798,2022-08-22T16:30:00+00:00,FT,Regular Season - 2,AS Roma,497,Cremonese,520,1,0,True
+881799,2022-08-22T18:45:00+00:00,FT,Regular Season - 2,Sampdoria,498,Juventus,496,0,0,True
+881800,2022-08-26T16:30:00+00:00,FT,Regular Season - 3,Monza,1579,Udinese,494,1,2,True
+881801,2022-08-26T18:45:00+00:00,FT,Regular Season - 3,Lazio,487,Inter,505,3,1,True
+881803,2022-08-27T16:30:00+00:00,FT,Regular Season - 3,Juventus,496,AS Roma,497,1,1,True
+881802,2022-08-27T16:30:00+00:00,FT,Regular Season - 3,Cremonese,520,Torino,503,1,2,True
+881804,2022-08-27T18:45:00+00:00,FT,Regular Season - 3,AC Milan,489,Bologna,500,2,0,True
+881805,2022-08-27T18:45:00+00:00,FT,Regular Season - 3,Spezia,515,Sassuolo,488,2,2,True
+881806,2022-08-28T16:30:00+00:00,FT,Regular Season - 3,Hellas Verona,504,Atalanta,499,0,1,True
+881807,2022-08-28T16:30:00+00:00,FT,Regular Season - 3,Salernitana,514,Sampdoria,498,4,0,True
+881808,2022-08-28T18:45:00+00:00,FT,Regular Season - 3,Fiorentina,502,Napoli,492,0,0,True
+881809,2022-08-28T18:45:00+00:00,FT,Regular Season - 3,Lecce,867,Empoli,511,1,1,True
+881810,2022-08-30T16:30:00+00:00,FT,Regular Season - 4,Sassuolo,488,AC Milan,489,0,0,True
+881812,2022-08-30T18:45:00+00:00,FT,Regular Season - 4,AS Roma,497,Monza,1579,3,0,True
+881811,2022-08-30T18:45:00+00:00,FT,Regular Season - 4,Inter,505,Cremonese,520,3,1,True
+881815,2022-08-31T16:30:00+00:00,FT,Regular Season - 4,Udinese,494,Fiorentina,502,1,0,True
+881814,2022-08-31T16:30:00+00:00,FT,Regular Season - 4,Sampdoria,498,Lazio,487,1,1,True
+881813,2022-08-31T16:30:00+00:00,FT,Regular Season - 4,Empoli,511,Hellas Verona,504,1,1,True
+881817,2022-08-31T18:45:00+00:00,FT,Regular Season - 4,Napoli,492,Lecce,867,1,1,True
+881816,2022-08-31T18:45:00+00:00,FT,Regular Season - 4,Juventus,496,Spezia,515,2,0,True
+881818,2022-09-01T18:45:00+00:00,FT,Regular Season - 4,Atalanta,499,Torino,503,3,1,True
+881819,2022-09-01T18:45:00+00:00,FT,Regular Season - 4,Bologna,500,Salernitana,514,1,1,True
+881820,2022-09-03T13:00:00+00:00,FT,Regular Season - 5,Fiorentina,502,Juventus,496,1,1,True
+881821,2022-09-03T16:00:00+00:00,FT,Regular Season - 5,AC Milan,489,Inter,505,3,2,True
+881822,2022-09-03T18:45:00+00:00,FT,Regular Season - 5,Lazio,487,Napoli,492,1,2,True
+881823,2022-09-04T10:30:00+00:00,FT,Regular Season - 5,Cremonese,520,Sassuolo,488,0,0,True
+881824,2022-09-04T13:00:00+00:00,FT,Regular Season - 5,Spezia,515,Bologna,500,2,2,True
+881825,2022-09-04T16:00:00+00:00,FT,Regular Season - 5,Hellas Verona,504,Sampdoria,498,2,1,True
+881826,2022-09-04T18:45:00+00:00,FT,Regular Season - 5,Udinese,494,AS Roma,497,4,0,True
+881828,2022-09-05T16:30:00+00:00,FT,Regular Season - 5,Salernitana,514,Empoli,511,2,2,True
+881827,2022-09-05T16:30:00+00:00,FT,Regular Season - 5,Monza,1579,Atalanta,499,0,2,True
+881829,2022-09-05T18:45:00+00:00,FT,Regular Season - 5,Torino,503,Lecce,867,1,0,True
+881837,2022-09-10T13:00:00+00:00,FT,Regular Season - 6,Napoli,492,Spezia,515,1,0,True
+881833,2022-09-10T16:00:00+00:00,FT,Regular Season - 6,Inter,505,Torino,503,1,0,True
+881838,2022-09-10T18:45:00+00:00,FT,Regular Season - 6,Sampdoria,498,AC Milan,489,1,2,True
+881830,2022-09-11T10:30:00+00:00,FT,Regular Season - 6,Atalanta,499,Cremonese,520,1,1,True
+881839,2022-09-11T13:00:00+00:00,FT,Regular Season - 6,Sassuolo,488,Udinese,494,1,3,True
+881831,2022-09-11T13:00:00+00:00,FT,Regular Season - 6,Bologna,500,Fiorentina,502,2,1,True
+881836,2022-09-11T13:00:00+00:00,FT,Regular Season - 6,Lecce,867,Monza,1579,1,1,True
+881835,2022-09-11T16:00:00+00:00,FT,Regular Season - 6,Lazio,487,Hellas Verona,504,2,0,True
+881834,2022-09-11T18:45:00+00:00,FT,Regular Season - 6,Juventus,496,Salernitana,514,2,2,True
+881832,2022-09-12T18:45:00+00:00,FT,Regular Season - 6,Empoli,511,AS Roma,497,1,2,True
+881846,2022-09-16T18:45:00+00:00,FT,Regular Season - 7,Salernitana,514,Lecce,867,1,2,True
+881840,2022-09-17T13:00:00+00:00,FT,Regular Season - 7,Bologna,500,Empoli,511,0,1,True
+881847,2022-09-17T16:00:00+00:00,FT,Regular Season - 7,Spezia,515,Sampdoria,498,2,1,True
+881848,2022-09-17T18:45:00+00:00,FT,Regular Season - 7,Torino,503,Sassuolo,488,0,1,True
+881849,2022-09-18T10:30:00+00:00,FT,Regular Season - 7,Udinese,494,Inter,505,3,1,True
+881842,2022-09-18T13:00:00+00:00,FT,Regular Season - 7,Fiorentina,502,Hellas Verona,504,2,0,True
+881841,2022-09-18T13:00:00+00:00,FT,Regular Season - 7,Cremonese,520,Lazio,487,0,4,True
+881844,2022-09-18T13:00:00+00:00,FT,Regular Season - 7,Monza,1579,Juventus,496,1,0,True
+881845,2022-09-18T16:00:00+00:00,FT,Regular Season - 7,AS Roma,497,Atalanta,499,0,1,True
+881843,2022-09-18T18:45:00+00:00,FT,Regular Season - 7,AC Milan,489,Napoli,492,1,2,True
+881857,2022-10-01T13:00:00+00:00,FT,Regular Season - 8,Napoli,492,Torino,503,3,1,True
+881853,2022-10-01T16:00:00+00:00,FT,Regular Season - 8,Inter,505,AS Roma,497,1,2,True
+881851,2022-10-01T18:45:00+00:00,FT,Regular Season - 8,Empoli,511,AC Milan,489,1,3,True
+881855,2022-10-02T10:30:00+00:00,FT,Regular Season - 8,Lazio,487,Spezia,515,4,0,True
+881859,2022-10-02T13:00:00+00:00,FT,Regular Season - 8,Sassuolo,488,Salernitana,514,5,0,True
+881858,2022-10-02T13:00:00+00:00,FT,Regular Season - 8,Sampdoria,498,Monza,1579,0,3,True
+881856,2022-10-02T13:00:00+00:00,FT,Regular Season - 8,Lecce,867,Cremonese,520,1,1,True
+881850,2022-10-02T16:00:00+00:00,FT,Regular Season - 8,Atalanta,499,Fiorentina,502,1,0,True
+881854,2022-10-02T18:45:00+00:00,FT,Regular Season - 8,Juventus,496,Bologna,500,3,0,True
+881852,2022-10-03T18:45:00+00:00,FT,Regular Season - 8,Hellas Verona,504,Udinese,494,1,2,True
+881867,2022-10-08T13:00:00+00:00,FT,Regular Season - 9,Sassuolo,488,Inter,505,1,2,True
+881863,2022-10-08T16:00:00+00:00,FT,Regular Season - 9,AC Milan,489,Juventus,496,2,0,True
+881860,2022-10-08T18:45:00+00:00,FT,Regular Season - 9,Bologna,500,Sampdoria,498,1,1,True
+881868,2022-10-09T10:30:00+00:00,FT,Regular Season - 9,Torino,503,Empoli,511,1,1,True
+881869,2022-10-09T13:00:00+00:00,FT,Regular Season - 9,Udinese,494,Atalanta,499,2,2,True
+881866,2022-10-09T13:00:00+00:00,FT,Regular Season - 9,Salernitana,514,Hellas Verona,504,2,1,True
+881864,2022-10-09T13:00:00+00:00,FT,Regular Season - 9,Monza,1579,Spezia,515,2,0,True
+881861,2022-10-09T16:00:00+00:00,FT,Regular Season - 9,Cremonese,520,Napoli,492,1,4,True
+881865,2022-10-09T18:45:00+00:00,FT,Regular Season - 9,AS Roma,497,Lecce,867,2,1,True
+881862,2022-10-10T18:45:00+00:00,FT,Regular Season - 9,Fiorentina,502,Lazio,487,0,4,True
+881871,2022-10-15T13:00:00+00:00,FT,Regular Season - 10,Empoli,511,Monza,1579,1,0,True
+881879,2022-10-15T16:00:00+00:00,FT,Regular Season - 10,Torino,503,Juventus,496,0,1,True
+881870,2022-10-15T18:45:00+00:00,FT,Regular Season - 10,Atalanta,499,Sassuolo,488,2,1,True
+881873,2022-10-16T10:30:00+00:00,FT,Regular Season - 10,Inter,505,Salernitana,514,2,0,True
+881874,2022-10-16T13:00:00+00:00,FT,Regular Season - 10,Lazio,487,Udinese,494,0,0,True
+881878,2022-10-16T13:00:00+00:00,FT,Regular Season - 10,Spezia,515,Cremonese,520,2,2,True
+881876,2022-10-16T16:00:00+00:00,FT,Regular Season - 10,Napoli,492,Bologna,500,3,2,True
+881872,2022-10-16T18:45:00+00:00,FT,Regular Season - 10,Hellas Verona,504,AC Milan,489,1,2,True
+881877,2022-10-17T16:30:00+00:00,FT,Regular Season - 10,Sampdoria,498,AS Roma,497,0,1,True
+881875,2022-10-17T18:45:00+00:00,FT,Regular Season - 10,Lecce,867,Fiorentina,502,1,1,True
+881884,2022-10-21T18:45:00+00:00,FT,Regular Season - 11,Juventus,496,Empoli,511,4,0,True
+881887,2022-10-22T13:00:00+00:00,FT,Regular Season - 11,Salernitana,514,Spezia,515,1,0,True
+881885,2022-10-22T16:00:00+00:00,FT,Regular Season - 11,AC Milan,489,Monza,1579,4,1,True
+881883,2022-10-22T18:45:00+00:00,FT,Regular Season - 11,Fiorentina,502,Inter,505,3,4,True
+881889,2022-10-23T10:30:00+00:00,FT,Regular Season - 11,Udinese,494,Torino,503,1,2,True
+881881,2022-10-23T13:00:00+00:00,FT,Regular Season - 11,Bologna,500,Lecce,867,2,0,True
+881880,2022-10-23T16:00:00+00:00,FT,Regular Season - 11,Atalanta,499,Lazio,487,0,2,True
+881886,2022-10-23T18:45:00+00:00,FT,Regular Season - 11,AS Roma,497,Napoli,492,0,1,True
+881882,2022-10-24T16:30:00+00:00,FT,Regular Season - 11,Cremonese,520,Sampdoria,498,0,1,True
+881888,2022-10-24T18:45:00+00:00,FT,Regular Season - 11,Sassuolo,488,Hellas Verona,504,2,1,True
+881894,2022-10-29T13:00:00+00:00,FT,Regular Season - 12,Napoli,492,Sassuolo,488,4,0,True
+881898,2022-10-29T16:00:00+00:00,FT,Regular Season - 12,Lecce,867,Juventus,496,0,1,True
+881892,2022-10-29T18:45:00+00:00,FT,Regular Season - 12,Inter,505,Sampdoria,498,3,0,True
+881895,2022-10-30T11:30:00+00:00,FT,Regular Season - 12,Empoli,511,Atalanta,499,0,2,True
+881897,2022-10-30T14:00:00+00:00,FT,Regular Season - 12,Spezia,515,Fiorentina,502,1,2,True
+881890,2022-10-30T14:00:00+00:00,FT,Regular Season - 12,Cremonese,520,Udinese,494,0,0,True
+881893,2022-10-30T17:00:00+00:00,FT,Regular Season - 12,Lazio,487,Salernitana,514,1,3,True
+881899,2022-10-30T19:45:00+00:00,FT,Regular Season - 12,Torino,503,AC Milan,489,2,1,True
+881891,2022-10-31T17:30:00+00:00,FT,Regular Season - 12,Hellas Verona,504,AS Roma,497,1,3,True
+881896,2022-10-31T19:45:00+00:00,FT,Regular Season - 12,Monza,1579,Bologna,500,1,2,True
+881909,2022-11-04T19:45:00+00:00,FT,Regular Season - 13,Udinese,494,Lecce,867,1,1,True
+881902,2022-11-05T14:00:00+00:00,FT,Regular Season - 13,Empoli,511,Sassuolo,488,1,0,True
+881904,2022-11-05T14:00:00+00:00,FT,Regular Season - 13,Salernitana,514,Cremonese,520,2,2,True
+881900,2022-11-05T17:00:00+00:00,FT,Regular Season - 13,Atalanta,499,Napoli,492,1,2,True
+881903,2022-11-05T19:45:00+00:00,FT,Regular Season - 13,AC Milan,489,Spezia,515,2,1,True
+881901,2022-11-06T11:30:00+00:00,FT,Regular Season - 13,Bologna,500,Torino,503,2,1,True
+881905,2022-11-06T14:00:00+00:00,FT,Regular Season - 13,Sampdoria,498,Fiorentina,502,0,2,True
+881906,2022-11-06T14:00:00+00:00,FT,Regular Season - 13,Monza,1579,Hellas Verona,504,2,0,True
+881908,2022-11-06T17:00:00+00:00,FT,Regular Season - 13,AS Roma,497,Lazio,487,0,1,True
+881907,2022-11-06T19:45:00+00:00,FT,Regular Season - 13,Juventus,496,Inter,505,2,0,True
+881916,2022-11-08T17:30:00+00:00,FT,Regular Season - 14,Napoli,492,Empoli,511,2,0,True
+881918,2022-11-08T17:30:00+00:00,FT,Regular Season - 14,Spezia,515,Udinese,494,1,1,True
+881910,2022-11-08T19:45:00+00:00,FT,Regular Season - 14,Cremonese,520,AC Milan,489,0,0,True
+881917,2022-11-09T17:30:00+00:00,FT,Regular Season - 14,Sassuolo,488,AS Roma,497,1,1,True
+881915,2022-11-09T17:30:00+00:00,FT,Regular Season - 14,Lecce,867,Atalanta,499,2,1,True
+881911,2022-11-09T19:45:00+00:00,FT,Regular Season - 14,Fiorentina,502,Salernitana,514,2,1,True
+881919,2022-11-09T19:45:00+00:00,FT,Regular Season - 14,Torino,503,Sampdoria,498,2,0,True
+881913,2022-11-09T19:45:00+00:00,FT,Regular Season - 14,Inter,505,Bologna,500,6,1,True
+881912,2022-11-10T17:30:00+00:00,FT,Regular Season - 14,Hellas Verona,504,Juventus,496,0,1,True
+881914,2022-11-10T19:45:00+00:00,FT,Regular Season - 14,Lazio,487,Monza,1579,1,0,True
+881922,2022-11-11T19:45:00+00:00,FT,Regular Season - 15,Empoli,511,Cremonese,520,2,0,True
+881927,2022-11-12T14:00:00+00:00,FT,Regular Season - 15,Napoli,492,Udinese,494,3,2,True
+881929,2022-11-12T17:00:00+00:00,FT,Regular Season - 15,Sampdoria,498,Lecce,867,0,2,True
+881921,2022-11-12T19:45:00+00:00,FT,Regular Season - 15,Bologna,500,Sassuolo,488,3,0,True
+881920,2022-11-13T11:30:00+00:00,FT,Regular Season - 15,Atalanta,499,Inter,505,2,3,True
+881928,2022-11-13T14:00:00+00:00,FT,Regular Season - 15,AS Roma,497,Torino,503,1,1,True
+881923,2022-11-13T14:00:00+00:00,FT,Regular Season - 15,Hellas Verona,504,Spezia,515,1,2,True
+881926,2022-11-13T14:00:00+00:00,FT,Regular Season - 15,Monza,1579,Salernitana,514,3,0,True
+881925,2022-11-13T17:00:00+00:00,FT,Regular Season - 15,AC Milan,489,Fiorentina,502,2,1,True
+881924,2022-11-13T19:45:00+00:00,FT,Regular Season - 15,Juventus,496,Lazio,487,3,0,True
+881939,2023-01-04T11:30:00+00:00,FT,Regular Season - 16,Sassuolo,488,Sampdoria,498,1,2,True
+881938,2023-01-04T11:30:00+00:00,FT,Regular Season - 16,Salernitana,514,AC Milan,489,1,2,True
+881936,2023-01-04T13:30:00+00:00,FT,Regular Season - 16,Torino,503,Hellas Verona,504,1,1,True
+881933,2023-01-04T13:30:00+00:00,FT,Regular Season - 16,Spezia,515,Atalanta,499,2,2,True
+881934,2023-01-04T15:30:00+00:00,FT,Regular Season - 16,AS Roma,497,Bologna,500,1,0,True
+881937,2023-01-04T15:30:00+00:00,FT,Regular Season - 16,Lecce,867,Lazio,487,2,1,True
+881931,2023-01-04T17:30:00+00:00,FT,Regular Season - 16,Fiorentina,502,Monza,1579,1,1,True
+881930,2023-01-04T17:30:00+00:00,FT,Regular Season - 16,Cremonese,520,Juventus,496,0,1,True
+881935,2023-01-04T19:45:00+00:00,FT,Regular Season - 16,Udinese,494,Empoli,511,1,1,True
+881932,2023-01-04T19:45:00+00:00,FT,Regular Season - 16,Inter,505,Napoli,492,1,0,True
+881941,2023-01-07T14:00:00+00:00,FT,Regular Season - 17,Fiorentina,502,Sassuolo,488,2,1,True
+881943,2023-01-07T17:00:00+00:00,FT,Regular Season - 17,Juventus,496,Udinese,494,1,0,True
+881946,2023-01-07T19:45:00+00:00,FT,Regular Season - 17,Monza,1579,Inter,505,2,2,True
+881947,2023-01-08T11:30:00+00:00,FT,Regular Season - 17,Salernitana,514,Torino,503,1,1,True
+881944,2023-01-08T14:00:00+00:00,FT,Regular Season - 17,Lazio,487,Empoli,511,2,2,True
+881949,2023-01-08T14:00:00+00:00,FT,Regular Season - 17,Spezia,515,Lecce,867,0,0,True
+881948,2023-01-08T17:00:00+00:00,FT,Regular Season - 17,Sampdoria,498,Napoli,492,0,2,True
+881945,2023-01-08T19:45:00+00:00,FT,Regular Season - 17,AC Milan,489,AS Roma,497,2,2,True
+881942,2023-01-09T17:30:00+00:00,FT,Regular Season - 17,Hellas Verona,504,Cremonese,520,2,0,True
+881940,2023-01-09T19:45:00+00:00,FT,Regular Season - 17,Bologna,500,Atalanta,499,1,2,True
+881955,2023-01-13T19:45:00+00:00,FT,Regular Season - 18,Napoli,492,Juventus,496,5,1,True
+881951,2023-01-14T14:00:00+00:00,FT,Regular Season - 18,Cremonese,520,Monza,1579,2,3,True
+881954,2023-01-14T17:00:00+00:00,FT,Regular Season - 18,Lecce,867,AC Milan,489,2,2,True
+881953,2023-01-14T19:45:00+00:00,FT,Regular Season - 18,Inter,505,Hellas Verona,504,1,0,True
+881957,2023-01-15T11:30:00+00:00,FT,Regular Season - 18,Sassuolo,488,Lazio,487,0,2,True
+881959,2023-01-15T14:00:00+00:00,FT,Regular Season - 18,Udinese,494,Bologna,500,1,2,True
+881958,2023-01-15T14:00:00+00:00,FT,Regular Season - 18,Torino,503,Spezia,515,0,1,True
+881950,2023-01-15T17:00:00+00:00,FT,Regular Season - 18,Atalanta,499,Salernitana,514,8,2,True
+881956,2023-01-15T19:45:00+00:00,FT,Regular Season - 18,AS Roma,497,Fiorentina,502,2,0,True
+881952,2023-01-16T19:45:00+00:00,FT,Regular Season - 18,Empoli,511,Sampdoria,498,1,0,True
+881962,2023-01-21T14:00:00+00:00,FT,Regular Season - 19,Hellas Verona,504,Lecce,867,2,0,True
+881967,2023-01-21T17:00:00+00:00,FT,Regular Season - 19,Salernitana,514,Napoli,492,0,2,True
+881961,2023-01-21T19:45:00+00:00,FT,Regular Season - 19,Fiorentina,502,Torino,503,0,1,True
+881968,2023-01-22T11:30:00+00:00,FT,Regular Season - 19,Sampdoria,498,Udinese,494,0,1,True
+881966,2023-01-22T14:00:00+00:00,FT,Regular Season - 19,Monza,1579,Sassuolo,488,1,1,True
+881969,2023-01-22T17:00:00+00:00,FT,Regular Season - 19,Spezia,515,AS Roma,497,0,2,True
+881964,2023-01-22T19:45:00+00:00,FT,Regular Season - 19,Juventus,496,Atalanta,499,3,3,True
+881960,2023-01-23T17:30:00+00:00,FT,Regular Season - 19,Bologna,500,Cremonese,520,1,1,True
+881963,2023-01-23T19:45:00+00:00,FT,Regular Season - 19,Inter,505,Empoli,511,0,1,True
+881965,2023-01-24T19:45:00+00:00,FT,Regular Season - 19,Lazio,487,AC Milan,489,4,0,True
+881971,2023-01-27T17:30:00+00:00,FT,Regular Season - 20,Bologna,500,Spezia,515,2,0,True
+881975,2023-01-27T19:45:00+00:00,FT,Regular Season - 20,Lecce,867,Salernitana,514,1,2,True
+881973,2023-01-28T14:00:00+00:00,FT,Regular Season - 20,Empoli,511,Torino,503,2,2,True
+881972,2023-01-28T17:00:00+00:00,FT,Regular Season - 20,Cremonese,520,Inter,505,1,2,True
+881970,2023-01-28T19:45:00+00:00,FT,Regular Season - 20,Atalanta,499,Sampdoria,498,2,0,True
+881976,2023-01-29T11:30:00+00:00,FT,Regular Season - 20,AC Milan,489,Sassuolo,488,2,5,True
+881974,2023-01-29T14:00:00+00:00,FT,Regular Season - 20,Juventus,496,Monza,1579,0,2,True
+881978,2023-01-29T17:00:00+00:00,FT,Regular Season - 20,Lazio,487,Fiorentina,502,1,1,True
+881977,2023-01-29T19:45:00+00:00,FT,Regular Season - 20,Napoli,492,AS Roma,497,2,1,True
+881979,2023-01-30T19:45:00+00:00,FT,Regular Season - 20,Udinese,494,Hellas Verona,504,1,1,True
+881980,2023-02-04T14:00:00+00:00,FT,Regular Season - 21,Cremonese,520,Lecce,867,0,2,True
+881985,2023-02-04T17:00:00+00:00,FT,Regular Season - 21,AS Roma,497,Empoli,511,2,0,True
+881987,2023-02-04T19:45:00+00:00,FT,Regular Season - 21,Sassuolo,488,Atalanta,499,1,0,True
+881988,2023-02-05T11:30:00+00:00,FT,Regular Season - 21,Spezia,515,Napoli,492,0,3,True
+881989,2023-02-05T14:00:00+00:00,FT,Regular Season - 21,Torino,503,Udinese,494,1,0,True
+881981,2023-02-05T17:00:00+00:00,FT,Regular Season - 21,Fiorentina,502,Bologna,500,1,2,True
+881983,2023-02-05T19:45:00+00:00,FT,Regular Season - 21,Inter,505,AC Milan,489,1,0,True
+881982,2023-02-06T17:30:00+00:00,FT,Regular Season - 21,Hellas Verona,504,Lazio,487,1,1,True
+881984,2023-02-06T19:45:00+00:00,FT,Regular Season - 21,Monza,1579,Sampdoria,498,2,2,True
+881986,2023-02-07T19:45:00+00:00,FT,Regular Season - 21,Salernitana,514,Juventus,496,0,3,True
+881996,2023-02-10T19:45:00+00:00,FT,Regular Season - 22,AC Milan,489,Torino,503,1,0,True
+881991,2023-02-11T14:00:00+00:00,FT,Regular Season - 22,Empoli,511,Spezia,515,2,2,True
+881995,2023-02-11T17:00:00+00:00,FT,Regular Season - 22,Lecce,867,AS Roma,497,1,1,True
+881994,2023-02-11T19:45:00+00:00,FT,Regular Season - 22,Lazio,487,Atalanta,499,0,2,True
+881999,2023-02-12T11:30:00+00:00,FT,Regular Season - 22,Udinese,494,Sassuolo,488,2,2,True
+881990,2023-02-12T14:00:00+00:00,FT,Regular Season - 22,Bologna,500,Monza,1579,0,1,True
+881993,2023-02-12T17:00:00+00:00,FT,Regular Season - 22,Juventus,496,Fiorentina,502,1,0,True
+881997,2023-02-12T19:45:00+00:00,FT,Regular Season - 22,Napoli,492,Cremonese,520,3,0,True
+881992,2023-02-13T17:30:00+00:00,FT,Regular Season - 22,Hellas Verona,504,Salernitana,514,1,0,True
+881998,2023-02-13T19:45:00+00:00,FT,Regular Season - 22,Sampdoria,498,Inter,505,0,0,True
+882007,2023-02-17T19:45:00+00:00,FT,Regular Season - 23,Sassuolo,488,Napoli,492,0,2,True
+882006,2023-02-18T14:00:00+00:00,FT,Regular Season - 23,Sampdoria,498,Bologna,500,1,2,True
+882003,2023-02-18T17:00:00+00:00,FT,Regular Season - 23,Monza,1579,AC Milan,489,0,1,True
+882002,2023-02-18T19:45:00+00:00,FT,Regular Season - 23,Inter,505,Udinese,494,3,1,True
+882000,2023-02-19T11:30:00+00:00,FT,Regular Season - 23,Atalanta,499,Lecce,867,1,2,True
+882001,2023-02-19T14:00:00+00:00,FT,Regular Season - 23,Fiorentina,502,Empoli,511,1,1,True
+882005,2023-02-19T14:00:00+00:00,FT,Regular Season - 23,Salernitana,514,Lazio,487,0,2,True
+882008,2023-02-19T17:00:00+00:00,FT,Regular Season - 23,Spezia,515,Juventus,496,0,2,True
+882004,2023-02-19T19:45:00+00:00,FT,Regular Season - 23,AS Roma,497,Hellas Verona,504,1,0,True
+882009,2023-02-20T19:45:00+00:00,FT,Regular Season - 23,Torino,503,Cremonese,520,2,2,True
+882012,2023-02-25T17:00:00+00:00,FT,Regular Season - 24,Empoli,511,Napoli,492,0,2,True
+882015,2023-02-25T19:45:00+00:00,FT,Regular Season - 24,Lecce,867,Sassuolo,488,0,1,True
+882010,2023-02-26T11:30:00+00:00,FT,Regular Season - 24,Bologna,500,Inter,505,1,0,True
+882018,2023-02-26T14:00:00+00:00,FT,Regular Season - 24,Salernitana,514,Monza,1579,3,0,True
+882019,2023-02-26T17:00:00+00:00,FT,Regular Season - 24,Udinese,494,Spezia,515,2,2,True
+882016,2023-02-26T19:45:00+00:00,FT,Regular Season - 24,AC Milan,489,Atalanta,499,2,0,True
+882017,2023-02-27T17:30:00+00:00,FT,Regular Season - 24,Hellas Verona,504,Fiorentina,502,0,3,True
+882014,2023-02-27T19:45:00+00:00,FT,Regular Season - 24,Lazio,487,Sampdoria,498,1,0,True
+882011,2023-02-28T17:30:00+00:00,FT,Regular Season - 24,Cremonese,520,AS Roma,497,2,1,True
+882013,2023-02-28T19:45:00+00:00,FT,Regular Season - 24,Juventus,496,Torino,503,4,2,True
+882024,2023-03-03T19:45:00+00:00,FT,Regular Season - 25,Napoli,492,Lazio,487,0,1,True
+882023,2023-03-04T14:00:00+00:00,FT,Regular Season - 25,Monza,1579,Empoli,511,2,1,True
+882020,2023-03-04T17:00:00+00:00,FT,Regular Season - 25,Atalanta,499,Udinese,494,0,0,True
+882021,2023-03-04T19:45:00+00:00,FT,Regular Season - 25,Fiorentina,502,AC Milan,489,2,1,True
+882028,2023-03-05T11:30:00+00:00,FT,Regular Season - 25,Spezia,515,Hellas Verona,504,0,0,True
+882026,2023-03-05T14:00:00+00:00,FT,Regular Season - 25,Sampdoria,498,Salernitana,514,0,0,True
+882022,2023-03-05T17:00:00+00:00,FT,Regular Season - 25,Inter,505,Lecce,867,2,0,True
+882025,2023-03-05T19:45:00+00:00,FT,Regular Season - 25,AS Roma,497,Juventus,496,1,0,True
+882027,2023-03-06T17:30:00+00:00,FT,Regular Season - 25,Sassuolo,488,Cremonese,520,3,2,True
+882029,2023-03-06T19:45:00+00:00,FT,Regular Season - 25,Torino,503,Bologna,500,1,0,True
+882039,2023-03-10T19:45:00+00:00,FT,Regular Season - 26,Spezia,515,Inter,505,2,1,True
+882032,2023-03-11T14:00:00+00:00,FT,Regular Season - 26,Empoli,511,Udinese,494,0,1,True
+882038,2023-03-11T17:00:00+00:00,FT,Regular Season - 26,Napoli,492,Atalanta,499,2,0,True
+882030,2023-03-11T19:45:00+00:00,FT,Regular Season - 26,Bologna,500,Lazio,487,0,0,True
+882035,2023-03-12T11:30:00+00:00,FT,Regular Season - 26,Lecce,867,Torino,503,0,2,True
+882033,2023-03-12T14:00:00+00:00,FT,Regular Season - 26,Hellas Verona,504,Monza,1579,1,1,True
+882031,2023-03-12T14:00:00+00:00,FT,Regular Season - 26,Cremonese,520,Fiorentina,502,0,2,True
+882037,2023-03-12T17:00:00+00:00,FT,Regular Season - 26,AS Roma,497,Sassuolo,488,3,4,True
+882034,2023-03-12T19:45:00+00:00,FT,Regular Season - 26,Juventus,496,Sampdoria,498,4,2,True
+882036,2023-03-13T19:45:00+00:00,FT,Regular Season - 26,AC Milan,489,Salernitana,514,1,1,True
+882044,2023-03-17T17:30:00+00:00,FT,Regular Season - 27,Sassuolo,488,Spezia,515,1,0,True
+882040,2023-03-17T19:45:00+00:00,FT,Regular Season - 27,Atalanta,499,Empoli,511,2,1,True
+882046,2023-03-18T14:00:00+00:00,FT,Regular Season - 27,Monza,1579,Cremonese,520,1,1,True
+882045,2023-03-18T17:00:00+00:00,FT,Regular Season - 27,Salernitana,514,Bologna,500,2,2,True
+882048,2023-03-18T19:45:00+00:00,FT,Regular Season - 27,Udinese,494,AC Milan,489,3,1,True
+882047,2023-03-19T11:30:00+00:00,FT,Regular Season - 27,Sampdoria,498,Hellas Verona,504,3,1,True
+882041,2023-03-19T14:00:00+00:00,FT,Regular Season - 27,Fiorentina,502,Lecce,867,1,0,True
+882049,2023-03-19T14:00:00+00:00,FT,Regular Season - 27,Torino,503,Napoli,492,0,4,True
+882043,2023-03-19T17:00:00+00:00,FT,Regular Season - 27,Lazio,487,AS Roma,497,1,0,True
+882042,2023-03-19T19:45:00+00:00,FT,Regular Season - 27,Inter,505,Juventus,496,0,1,True
+882054,2023-04-01T13:00:00+00:00,FT,Regular Season - 28,Cremonese,520,Atalanta,499,1,3,True
+882055,2023-04-01T16:00:00+00:00,FT,Regular Season - 28,Inter,505,Fiorentina,502,0,1,True
+882056,2023-04-01T18:45:00+00:00,FT,Regular Season - 28,Juventus,496,Hellas Verona,504,1,0,True
+882050,2023-04-02T10:30:00+00:00,FT,Regular Season - 28,Bologna,500,Udinese,494,3,0,True
+882059,2023-04-02T13:00:00+00:00,FT,Regular Season - 28,Spezia,515,Salernitana,514,1,1,True
+882057,2023-04-02T13:00:00+00:00,FT,Regular Season - 28,Monza,1579,Lazio,487,0,2,True
+882052,2023-04-02T16:00:00+00:00,FT,Regular Season - 28,AS Roma,497,Sampdoria,498,3,0,True
+882058,2023-04-02T18:45:00+00:00,FT,Regular Season - 28,Napoli,492,AC Milan,489,0,4,True
+882051,2023-04-03T16:30:00+00:00,FT,Regular Season - 28,Empoli,511,Lecce,867,1,0,True
+882053,2023-04-03T18:45:00+00:00,FT,Regular Season - 28,Sassuolo,488,Torino,503,1,1,True
+882066,2023-04-07T15:00:00+00:00,FT,Regular Season - 29,Salernitana,514,Inter,505,1,1,True
+882063,2023-04-07T17:00:00+00:00,FT,Regular Season - 29,Lecce,867,Napoli,492,1,2,True
+882065,2023-04-07T19:00:00+00:00,FT,Regular Season - 29,AC Milan,489,Empoli,511,0,0,True
+882068,2023-04-08T10:30:00+00:00,FT,Regular Season - 29,Udinese,494,Monza,1579,2,2,True
+882061,2023-04-08T12:30:00+00:00,FT,Regular Season - 29,Fiorentina,502,Spezia,515,1,1,True
+882064,2023-04-08T14:30:00+00:00,FT,Regular Season - 29,Sampdoria,498,Cremonese,520,2,3,True
+882060,2023-04-08T14:30:00+00:00,FT,Regular Season - 29,Atalanta,499,Bologna,500,0,2,True
+882069,2023-04-08T16:30:00+00:00,FT,Regular Season - 29,Torino,503,AS Roma,497,0,1,True
+882062,2023-04-08T16:30:00+00:00,FT,Regular Season - 29,Hellas Verona,504,Sassuolo,488,2,1,True
+882067,2023-04-08T18:45:00+00:00,FT,Regular Season - 29,Lazio,487,Juventus,496,2,1,True
+882071,2023-04-14T16:30:00+00:00,FT,Regular Season - 30,Cremonese,520,Empoli,511,1,0,True
+882078,2023-04-14T18:45:00+00:00,FT,Regular Season - 30,Spezia,515,Lazio,487,0,3,True
+882070,2023-04-15T13:00:00+00:00,FT,Regular Season - 30,Bologna,500,AC Milan,489,1,1,True
+882076,2023-04-15T16:00:00+00:00,FT,Regular Season - 30,Napoli,492,Hellas Verona,504,0,0,True
+882072,2023-04-15T18:45:00+00:00,FT,Regular Season - 30,Inter,505,Monza,1579,0,1,True
+882073,2023-04-16T10:30:00+00:00,FT,Regular Season - 30,Lecce,867,Sampdoria,498,1,1,True
+882079,2023-04-16T13:00:00+00:00,FT,Regular Season - 30,Torino,503,Salernitana,514,1,1,True
+882077,2023-04-16T16:00:00+00:00,FT,Regular Season - 30,Sassuolo,488,Juventus,496,1,0,True
+882074,2023-04-16T18:45:00+00:00,FT,Regular Season - 30,AS Roma,497,Udinese,494,3,0,True
+882075,2023-04-17T18:45:00+00:00,FT,Regular Season - 30,Fiorentina,502,Atalanta,499,1,1,True
+882086,2023-04-21T18:45:00+00:00,FT,Regular Season - 31,Hellas Verona,504,Bologna,500,2,1,True
+882084,2023-04-22T13:00:00+00:00,FT,Regular Season - 31,Salernitana,514,Sassuolo,488,3,0,True
+882083,2023-04-22T16:00:00+00:00,FT,Regular Season - 31,Lazio,487,Torino,503,0,1,True
+882085,2023-04-22T18:45:00+00:00,FT,Regular Season - 31,Sampdoria,498,Spezia,515,1,1,True
+882081,2023-04-23T10:30:00+00:00,FT,Regular Season - 31,Empoli,511,Inter,505,0,3,True
+882087,2023-04-23T13:00:00+00:00,FT,Regular Season - 31,Udinese,494,Cremonese,520,3,0,True
+882088,2023-04-23T13:00:00+00:00,FT,Regular Season - 31,Monza,1579,Fiorentina,502,3,2,True
+882089,2023-04-23T16:00:00+00:00,FT,Regular Season - 31,AC Milan,489,Lecce,867,2,0,True
+882082,2023-04-23T18:45:00+00:00,FT,Regular Season - 31,Juventus,496,Napoli,492,0,1,True
+882080,2023-04-24T18:45:00+00:00,FT,Regular Season - 31,Atalanta,499,AS Roma,497,3,1,True
+882094,2023-04-28T16:30:00+00:00,FT,Regular Season - 32,Lecce,867,Udinese,494,1,0,True
+882099,2023-04-28T18:45:00+00:00,FT,Regular Season - 32,Spezia,515,Monza,1579,0,2,True
+882098,2023-04-29T16:00:00+00:00,FT,Regular Season - 32,AS Roma,497,AC Milan,489,1,1,True
+882096,2023-04-29T18:45:00+00:00,FT,Regular Season - 32,Torino,503,Atalanta,499,1,2,True
+882093,2023-04-30T10:30:00+00:00,FT,Regular Season - 32,Inter,505,Lazio,487,3,1,True
+882097,2023-04-30T13:00:00+00:00,FT,Regular Season - 32,Sassuolo,488,Empoli,511,2,1,True
+882095,2023-04-30T13:00:00+00:00,FT,Regular Season - 32,Napoli,492,Salernitana,514,1,1,True
+882091,2023-04-30T13:00:00+00:00,FT,Regular Season - 32,Cremonese,520,Hellas Verona,504,1,1,True
+882092,2023-04-30T16:00:00+00:00,FT,Regular Season - 32,Fiorentina,502,Sampdoria,498,5,0,True
+882090,2023-04-30T18:45:00+00:00,FT,Regular Season - 32,Bologna,500,Juventus,496,1,1,True
+882102,2023-05-03T16:00:00+00:00,FT,Regular Season - 33,Juventus,496,Lecce,867,2,1,True
+882105,2023-05-03T16:00:00+00:00,FT,Regular Season - 33,Sampdoria,498,Torino,503,0,2,True
+882100,2023-05-03T16:00:00+00:00,FT,Regular Season - 33,Atalanta,499,Spezia,515,3,2,True
+882108,2023-05-03T16:00:00+00:00,FT,Regular Season - 33,Salernitana,514,Fiorentina,502,3,3,True
+882103,2023-05-03T19:00:00+00:00,FT,Regular Season - 33,Lazio,487,Sassuolo,488,2,0,True
+882107,2023-05-03T19:00:00+00:00,FT,Regular Season - 33,AC Milan,489,Cremonese,520,1,1,True
+882101,2023-05-03T19:00:00+00:00,FT,Regular Season - 33,Hellas Verona,504,Inter,505,0,6,True
+882104,2023-05-03T19:00:00+00:00,FT,Regular Season - 33,Monza,1579,AS Roma,497,1,1,True
+882109,2023-05-04T18:45:00+00:00,FT,Regular Season - 33,Udinese,494,Napoli,492,1,1,True
+882106,2023-05-04T18:45:00+00:00,FT,Regular Season - 33,Empoli,511,Bologna,500,3,1,True
+882117,2023-05-06T13:00:00+00:00,FT,Regular Season - 34,AC Milan,489,Lazio,487,2,0,True
+882116,2023-05-06T16:00:00+00:00,FT,Regular Season - 34,AS Roma,497,Inter,505,0,2,True
+882111,2023-05-06T18:45:00+00:00,FT,Regular Season - 34,Cremonese,520,Spezia,515,2,0,True
+882110,2023-05-07T10:30:00+00:00,FT,Regular Season - 34,Atalanta,499,Juventus,496,0,2,True
+882118,2023-05-07T13:00:00+00:00,FT,Regular Season - 34,Torino,503,Monza,1579,1,1,True
+882114,2023-05-07T16:00:00+00:00,FT,Regular Season - 34,Napoli,492,Fiorentina,502,1,0,True
+882115,2023-05-07T18:45:00+00:00,FT,Regular Season - 34,Lecce,867,Hellas Verona,504,0,1,True
+882119,2023-05-08T16:30:00+00:00,FT,Regular Season - 34,Udinese,494,Sampdoria,498,2,0,True
+882112,2023-05-08T16:30:00+00:00,FT,Regular Season - 34,Empoli,511,Salernitana,514,2,1,True
+882113,2023-05-08T18:45:00+00:00,FT,Regular Season - 34,Sassuolo,488,Bologna,500,1,1,True
+882124,2023-05-12T18:45:00+00:00,FT,Regular Season - 35,Lazio,487,Lecce,867,2,2,True
+882126,2023-05-13T13:00:00+00:00,FT,Regular Season - 35,Salernitana,514,Atalanta,499,1,0,True
+882129,2023-05-13T16:00:00+00:00,FT,Regular Season - 35,Spezia,515,AC Milan,489,2,0,True
+882123,2023-05-13T18:45:00+00:00,FT,Regular Season - 35,Inter,505,Sassuolo,488,4,2,True
+882122,2023-05-14T10:30:00+00:00,FT,Regular Season - 35,Hellas Verona,504,Torino,503,0,1,True
+882121,2023-05-14T13:00:00+00:00,FT,Regular Season - 35,Fiorentina,502,Udinese,494,2,0,True
+882125,2023-05-14T13:00:00+00:00,FT,Regular Season - 35,Monza,1579,Napoli,492,2,0,True
+882120,2023-05-14T16:00:00+00:00,FT,Regular Season - 35,Bologna,500,AS Roma,497,0,0,True
+882127,2023-05-14T18:45:00+00:00,FT,Regular Season - 35,Juventus,496,Cremonese,520,2,0,True
+882128,2023-05-15T18:45:00+00:00,FT,Regular Season - 35,Sampdoria,498,Empoli,511,1,1,True
+882139,2023-05-19T18:45:00+00:00,FT,Regular Season - 36,Sassuolo,488,Monza,1579,1,2,True
+882135,2023-05-20T13:00:00+00:00,FT,Regular Season - 36,Cremonese,520,Bologna,500,1,5,True
+882130,2023-05-20T16:00:00+00:00,FT,Regular Season - 36,Atalanta,499,Hellas Verona,504,3,1,True
+882133,2023-05-20T18:45:00+00:00,FT,Regular Season - 36,AC Milan,489,Sampdoria,498,5,1,True
+882132,2023-05-21T10:30:00+00:00,FT,Regular Season - 36,Lecce,867,Spezia,515,0,0,True
+882136,2023-05-21T13:00:00+00:00,FT,Regular Season - 36,Torino,503,Fiorentina,502,1,1,True
+882137,2023-05-21T16:00:00+00:00,FT,Regular Season - 36,Napoli,492,Inter,505,3,1,True
+882138,2023-05-21T18:45:00+00:00,FT,Regular Season - 36,Udinese,494,Lazio,487,0,1,True
+882134,2023-05-22T16:30:00+00:00,FT,Regular Season - 36,AS Roma,497,Salernitana,514,2,2,True
+882131,2023-05-22T18:45:00+00:00,FT,Regular Season - 36,Empoli,511,Juventus,496,4,1,True
+882144,2023-05-26T18:45:00+00:00,FT,Regular Season - 37,Sampdoria,498,Sassuolo,488,2,2,True
+882143,2023-05-27T13:00:00+00:00,FT,Regular Season - 37,Salernitana,514,Udinese,494,3,2,True
+882145,2023-05-27T13:00:00+00:00,FT,Regular Season - 37,Spezia,515,Torino,503,0,4,True
+882141,2023-05-27T16:00:00+00:00,FT,Regular Season - 37,Fiorentina,502,AS Roma,497,2,1,True
+882146,2023-05-27T18:45:00+00:00,FT,Regular Season - 37,Inter,505,Atalanta,499,3,2,True
+882148,2023-05-28T10:30:00+00:00,FT,Regular Season - 37,Hellas Verona,504,Empoli,511,1,1,True
+882140,2023-05-28T13:00:00+00:00,FT,Regular Season - 37,Bologna,500,Napoli,492,2,2,True
+882149,2023-05-28T13:00:00+00:00,FT,Regular Season - 37,Monza,1579,Lecce,867,0,1,True
+882147,2023-05-28T16:00:00+00:00,FT,Regular Season - 37,Lazio,487,Cremonese,520,3,2,True
+882142,2023-05-28T18:45:00+00:00,FT,Regular Season - 37,Juventus,496,AC Milan,489,0,1,True
+882156,2023-06-02T18:30:00+00:00,FT,Regular Season - 38,Sassuolo,488,Fiorentina,502,1,3,True
+882158,2023-06-03T16:30:00+00:00,FT,Regular Season - 38,Torino,503,Inter,505,0,1,True
+882152,2023-06-03T19:00:00+00:00,FT,Regular Season - 38,Empoli,511,Lazio,487,0,2,True
+882151,2023-06-03T19:00:00+00:00,FT,Regular Season - 38,Cremonese,520,Salernitana,514,2,0,True
+882153,2023-06-04T16:30:00+00:00,FT,Regular Season - 38,Napoli,492,Sampdoria,498,2,0,True
+882157,2023-06-04T19:00:00+00:00,FT,Regular Season - 38,AC Milan,489,Hellas Verona,504,3,1,True
+882159,2023-06-04T19:00:00+00:00,FT,Regular Season - 38,Udinese,494,Juventus,496,0,1,True
+882154,2023-06-04T19:00:00+00:00,FT,Regular Season - 38,AS Roma,497,Spezia,515,2,1,True
+882150,2023-06-04T19:00:00+00:00,FT,Regular Season - 38,Atalanta,499,Monza,1579,5,2,True
+882155,2023-06-04T19:00:00+00:00,FT,Regular Season - 38,Lecce,867,Bologna,500,2,3,True
+1030674,2023-06-11T18:45:00+00:00,FT,Relegation Decider,Spezia,515,Hellas Verona,504,1,3,True

@@ -1,307 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1563072,2026-07-11T12:00:00+00:00,FT,FC UFA,1078,Leningradets,6811,3,0,True
-1563073,2026-07-11T13:00:00+00:00,FT,Volga Ulyanovsk,6834,Enisey,1089,1,2,True
-1563068,2026-07-11T15:00:00+00:00,FT,FK Neftekhimik,2001,Veles,6833,0,1,True
-1563069,2026-07-12T13:30:00+00:00,FT,Nizhny Novgorod,2011,Rotor Volgograd,2010,4,2,True
-1563070,2026-07-12T14:00:00+00:00,FT,Shinnik Yaroslavl,1998,FC Sochi,2012,2,2,True
-1563071,2026-07-12T16:00:00+00:00,FT,Spartak Kostroma,19449,KAMAZ,6801,3,1,True
-1563074,2026-07-13T14:00:00+00:00,FT,Ural,1084,Torpedo Moskva,3985,0,1,True
-1563067,2026-07-13T14:00:00+00:00,FT,Chelyabinsk,6790,Ska-khabarovsk,1087,3,1,True
-1563066,2026-07-13T16:30:00+00:00,FT,Arsenal Tula,1077,Tekstilshchik,3984,2,1,True
-1577445,2026-07-19T12:00:00+00:00,FT,Ural,1084,Enisey,1089,3,0,True
-1577441,2026-07-19T13:00:00+00:00,FT,KAMAZ,6801,Nizhny Novgorod,2011,1,2,True
-1577442,2026-07-19T14:00:00+00:00,FT,Shinnik Yaroslavl,1998,Leningradets,6811,2,0,True
-1577444,2026-07-19T14:00:00+00:00,FT,Tekstilshchik,3984,FC UFA,1078,2,2,True
-1577446,2026-07-19T14:00:00+00:00,FT,Veles,6833,Chelyabinsk,6790,1,0,True
-1577443,2026-07-19T15:00:00+00:00,FT,FC Sochi,2012,Spartak Kostroma,19449,0,2,True
-1577447,2026-07-19T15:30:00+00:00,FT,Torpedo Moskva,3985,Volga Ulyanovsk,6834,3,1,True
-1577448,2026-07-19T16:00:00+00:00,FT,Arsenal Tula,1077,FK Neftekhimik,2001,0,1,True
-1577449,2026-07-20T16:30:00+00:00,FT,Rotor Volgograd,2010,Ska-khabarovsk,1087,1,0,True
-1577457,2026-07-25T13:00:00+00:00,FT,Volga Ulyanovsk,6834,FK Neftekhimik,2001,2,0,True
-1577450,2026-07-25T14:00:00+00:00,FT,Chelyabinsk,6790,Nizhny Novgorod,2011,1,2,True
-1577454,2026-07-25T16:00:00+00:00,FT,Tekstilshchik,3984,Spartak Kostroma,19449,0,0,True
-1577458,2026-07-26T09:00:00+00:00,FT,Enisey,1089,Veles,6833,4,1,True
-1577452,2026-07-26T13:00:00+00:00,FT,Leningradets,6811,Ural,1084,0,0,True
-1577456,2026-07-26T14:00:00+00:00,FT,FC UFA,1078,Ska-khabarovsk,1087,1,0,True
-1577455,2026-07-26T14:00:00+00:00,FT,Torpedo Moskva,3985,Shinnik Yaroslavl,1998,1,1,True
-1577453,2026-07-26T15:00:00+00:00,FT,FC Sochi,2012,Arsenal Tula,1077,5,0,True
-1577451,2026-07-27T17:00:00+00:00,FT,KAMAZ,6801,Rotor Volgograd,2010,0,2,True
-1577460,2026-08-01T13:00:00+00:00,FT,Leningradets,6811,FC Sochi,2012,2,1,True
-1577461,2026-08-01T15:00:00+00:00,FT,FK Neftekhimik,2001,Tekstilshchik,3984,1,0,True
-1577464,2026-08-01T16:30:00+00:00,FT,Spartak Kostroma,19449,Enisey,1089,2,2,True
-1577463,2026-08-02T08:00:00+00:00,FT,Ska-khabarovsk,1087,Ural,1084,0,3,True
-1577459,2026-08-02T12:00:00+00:00,FT,Arsenal Tula,1077,Torpedo Moskva,3985,1,0,True
-1577466,2026-08-02T13:00:00+00:00,FT,Volga Ulyanovsk,6834,Chelyabinsk,6790,0,2,True
-1577462,2026-08-02T14:00:00+00:00,FT,Nizhny Novgorod,2011,Shinnik Yaroslavl,1998,3,0,True
-1577465,2026-08-03T14:00:00+00:00,FT,FC UFA,1078,KAMAZ,6801,1,1,True
-1577467,2026-08-03T16:30:00+00:00,FT,Veles,6833,Rotor Volgograd,2010,2,1,True
-1577473,2026-08-07T17:00:00+00:00,NS,Torpedo Moskva,3985,FC Sochi,2012,,,False
-1577476,2026-08-08T09:00:00+00:00,NS,Enisey,1089,Tekstilshchik,3984,,,False
-1577474,2026-08-08T14:00:00+00:00,NS,Ural,1084,FC UFA,1078,,,False
-1577471,2026-08-08T14:00:00+00:00,NS,Shinnik Yaroslavl,1998,Arsenal Tula,1077,,,False
-1577469,2026-08-08T14:00:00+00:00,NS,Nizhny Novgorod,2011,FK Neftekhimik,2001,,,False
-1577472,2026-08-09T05:00:00+00:00,NS,Ska-khabarovsk,1087,Spartak Kostroma,19449,,,False
-1577468,2026-08-09T14:00:00+00:00,NS,KAMAZ,6801,Volga Ulyanovsk,6834,,,False
-1577470,2026-08-09T15:30:00+00:00,NS,Rotor Volgograd,2010,Chelyabinsk,6790,,,False
-1577475,2026-08-09T16:00:00+00:00,NS,Veles,6833,Leningradets,6811,,,False
-1577479,2026-08-14T15:00:00+00:00,NS,FK Neftekhimik,2001,Shinnik Yaroslavl,1998,,,False
-1577480,2026-08-14T16:30:00+00:00,NS,Rotor Volgograd,2010,Ural,1084,,,False
-1577481,2026-08-15T05:00:00+00:00,NS,Ska-khabarovsk,1087,Veles,6833,,,False
-1577477,2026-08-15T10:30:00+00:00,NS,Chelyabinsk,6790,Torpedo Moskva,3985,,,False
-1577478,2026-08-15T13:00:00+00:00,NS,Leningradets,6811,Arsenal Tula,1077,,,False
-1577485,2026-08-15T15:00:00+00:00,NS,Enisey,1089,KAMAZ,6801,,,False
-1577483,2026-08-15T15:00:00+00:00,NS,FC Sochi,2012,Volga Ulyanovsk,6834,,,False
-1577484,2026-08-15T15:00:00+00:00,NS,Tekstilshchik,3984,Nizhny Novgorod,2011,,,False
-1577482,2026-08-17T16:30:00+00:00,NS,Spartak Kostroma,19449,FC UFA,1078,,,False
-1577492,2026-08-19T15:00:00+00:00,NS,FC UFA,1078,Torpedo Moskva,3985,,,False
-1577490,2026-08-19T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Ska-khabarovsk,1087,,,False
-1577489,2026-08-19T15:00:00+00:00,NS,FK Neftekhimik,2001,FC Sochi,2012,,,False
-1577487,2026-08-19T15:00:00+00:00,NS,Chelyabinsk,6790,Enisey,1089,,,False
-1577488,2026-08-19T15:00:00+00:00,NS,KAMAZ,6801,Tekstilshchik,3984,,,False
-1577493,2026-08-19T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Leningradets,6811,,,False
-1577491,2026-08-19T15:00:00+00:00,NS,Spartak Kostroma,19449,Ural,1084,,,False
-1577494,2026-08-19T16:30:00+00:00,NS,Veles,6833,Nizhny Novgorod,2011,,,False
-1577486,2026-08-20T15:30:00+00:00,NS,Arsenal Tula,1077,Rotor Volgograd,2010,,,False
-1577499,2026-08-21T16:30:00+00:00,NS,Torpedo Moskva,3985,Spartak Kostroma,19449,,,False
-1577502,2026-08-22T09:30:00+00:00,NS,Ural,1084,Tekstilshchik,3984,,,False
-1577500,2026-08-22T15:00:00+00:00,NS,FC UFA,1078,Enisey,1089,,,False
-1577498,2026-08-22T15:00:00+00:00,NS,Rotor Volgograd,2010,FK Neftekhimik,2001,,,False
-1577497,2026-08-22T15:00:00+00:00,NS,Nizhny Novgorod,2011,Ska-khabarovsk,1087,,,False
-1577496,2026-08-22T15:00:00+00:00,NS,Leningradets,6811,Chelyabinsk,6790,,,False
-1577503,2026-08-22T15:00:00+00:00,NS,Veles,6833,Arsenal Tula,1077,,,False
-1577501,2026-08-22T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Shinnik Yaroslavl,1998,,,False
-1577495,2026-08-24T15:00:00+00:00,NS,KAMAZ,6801,FC Sochi,2012,,,False
-1577504,2026-08-29T15:00:00+00:00,NS,Arsenal Tula,1077,Ural,1084,,,False
-1577508,2026-08-29T15:00:00+00:00,NS,Ska-khabarovsk,1087,Torpedo Moskva,3985,,,False
-1577512,2026-08-29T15:00:00+00:00,NS,Enisey,1089,Shinnik Yaroslavl,1998,,,False
-1577506,2026-08-29T15:00:00+00:00,NS,FK Neftekhimik,2001,FC UFA,1078,,,False
-1577507,2026-08-29T15:00:00+00:00,NS,Nizhny Novgorod,2011,Volga Ulyanovsk,6834,,,False
-1577510,2026-08-29T15:00:00+00:00,NS,FC Sochi,2012,Chelyabinsk,6790,,,False
-1577511,2026-08-29T15:00:00+00:00,NS,Tekstilshchik,3984,Veles,6833,,,False
-1577505,2026-08-29T15:00:00+00:00,NS,Leningradets,6811,KAMAZ,6801,,,False
-1577509,2026-08-29T15:00:00+00:00,NS,Spartak Kostroma,19449,Rotor Volgograd,2010,,,False
-1577518,2026-09-05T15:00:00+00:00,NS,FC UFA,1078,Veles,6833,,,False
-1577520,2026-09-05T15:00:00+00:00,NS,Ural,1084,KAMAZ,6801,,,False
-1577515,2026-09-05T15:00:00+00:00,NS,Ska-khabarovsk,1087,Leningradets,6811,,,False
-1577521,2026-09-05T15:00:00+00:00,NS,Enisey,1089,FK Neftekhimik,2001,,,False
-1577514,2026-09-05T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Rotor Volgograd,2010,,,False
-1577516,2026-09-05T15:00:00+00:00,NS,FC Sochi,2012,Nizhny Novgorod,2011,,,False
-1577517,2026-09-05T15:00:00+00:00,NS,Tekstilshchik,3984,Torpedo Moskva,3985,,,False
-1577513,2026-09-05T15:00:00+00:00,NS,Chelyabinsk,6790,Spartak Kostroma,19449,,,False
-1577519,2026-09-05T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Arsenal Tula,1077,,,False
-1577522,2026-09-12T15:00:00+00:00,NS,Arsenal Tula,1077,Ska-khabarovsk,1087,,,False
-1577528,2026-09-12T15:00:00+00:00,NS,FC UFA,1078,Volga Ulyanovsk,6834,,,False
-1577529,2026-09-12T15:00:00+00:00,NS,Ural,1084,Shinnik Yaroslavl,1998,,,False
-1577525,2026-09-12T15:00:00+00:00,NS,Rotor Volgograd,2010,Enisey,1089,,,False
-1577527,2026-09-12T15:00:00+00:00,NS,Torpedo Moskva,3985,Nizhny Novgorod,2011,,,False
-1577523,2026-09-12T15:00:00+00:00,NS,KAMAZ,6801,Chelyabinsk,6790,,,False
-1577524,2026-09-12T15:00:00+00:00,NS,Leningradets,6811,Tekstilshchik,3984,,,False
-1577530,2026-09-12T15:00:00+00:00,NS,Veles,6833,FC Sochi,2012,,,False
-1577526,2026-09-12T15:00:00+00:00,NS,Spartak Kostroma,19449,FK Neftekhimik,2001,,,False
-1577539,2026-09-17T15:00:00+00:00,NS,Enisey,1089,Arsenal Tula,1077,,,False
-1577534,2026-09-17T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,KAMAZ,6801,,,False
-1577532,2026-09-17T15:00:00+00:00,NS,FK Neftekhimik,2001,Ural,1084,,,False
-1577533,2026-09-17T15:00:00+00:00,NS,Nizhny Novgorod,2011,Leningradets,6811,,,False
-1577535,2026-09-17T15:00:00+00:00,NS,FC Sochi,2012,Ska-khabarovsk,1087,,,False
-1577536,2026-09-17T15:00:00+00:00,NS,Tekstilshchik,3984,Rotor Volgograd,2010,,,False
-1577537,2026-09-17T15:00:00+00:00,NS,Torpedo Moskva,3985,Veles,6833,,,False
-1577531,2026-09-17T15:00:00+00:00,NS,Chelyabinsk,6790,FC UFA,1078,,,False
-1577538,2026-09-17T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Spartak Kostroma,19449,,,False
-1577540,2026-10-10T15:00:00+00:00,NS,Arsenal Tula,1077,Spartak Kostroma,19449,,,False
-1577548,2026-10-10T15:00:00+00:00,NS,Ural,1084,Veles,6833,,,False
-1577546,2026-10-10T15:00:00+00:00,NS,Ska-khabarovsk,1087,KAMAZ,6801,,,False
-1577545,2026-10-10T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Tekstilshchik,3984,,,False
-1577542,2026-10-10T15:00:00+00:00,NS,FK Neftekhimik,2001,Chelyabinsk,6790,,,False
-1577544,2026-10-10T15:00:00+00:00,NS,Rotor Volgograd,2010,Volga Ulyanovsk,6834,,,False
-1577543,2026-10-10T15:00:00+00:00,NS,Nizhny Novgorod,2011,Enisey,1089,,,False
-1577547,2026-10-10T15:00:00+00:00,NS,FC Sochi,2012,FC UFA,1078,,,False
-1577541,2026-10-10T15:00:00+00:00,NS,Leningradets,6811,Torpedo Moskva,3985,,,False
-1577554,2026-10-17T15:00:00+00:00,NS,FC UFA,1078,Arsenal Tula,1077,,,False
-1577555,2026-10-17T15:00:00+00:00,NS,Ural,1084,Nizhny Novgorod,2011,,,False
-1577551,2026-10-17T15:00:00+00:00,NS,Ska-khabarovsk,1087,Volga Ulyanovsk,6834,,,False
-1577557,2026-10-17T15:00:00+00:00,NS,Enisey,1089,Torpedo Moskva,3985,,,False
-1577550,2026-10-17T15:00:00+00:00,NS,Rotor Volgograd,2010,FC Sochi,2012,,,False
-1577553,2026-10-17T15:00:00+00:00,NS,Tekstilshchik,3984,Chelyabinsk,6790,,,False
-1577549,2026-10-17T15:00:00+00:00,NS,KAMAZ,6801,FK Neftekhimik,2001,,,False
-1577556,2026-10-17T15:00:00+00:00,NS,Veles,6833,Shinnik Yaroslavl,1998,,,False
-1577552,2026-10-17T15:00:00+00:00,NS,Spartak Kostroma,19449,Leningradets,6811,,,False
-1577558,2026-10-24T15:00:00+00:00,NS,Arsenal Tula,1077,KAMAZ,6801,,,False
-1577565,2026-10-24T15:00:00+00:00,NS,FC UFA,1078,Nizhny Novgorod,2011,,,False
-1577562,2026-10-24T15:00:00+00:00,NS,Ska-khabarovsk,1087,Enisey,1089,,,False
-1577561,2026-10-24T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Spartak Kostroma,19449,,,False
-1577560,2026-10-24T15:00:00+00:00,NS,FK Neftekhimik,2001,Leningradets,6811,,,False
-1577563,2026-10-24T15:00:00+00:00,NS,Tekstilshchik,3984,FC Sochi,2012,,,False
-1577564,2026-10-24T15:00:00+00:00,NS,Torpedo Moskva,3985,Rotor Volgograd,2010,,,False
-1577559,2026-10-24T15:00:00+00:00,NS,Chelyabinsk,6790,Ural,1084,,,False
-1577566,2026-10-24T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Veles,6833,,,False
-1577570,2026-10-31T16:00:00+00:00,NS,FK Neftekhimik,2001,Ska-khabarovsk,1087,,,False
-1577572,2026-10-31T16:00:00+00:00,NS,Rotor Volgograd,2010,FC UFA,1078,,,False
-1577571,2026-10-31T16:00:00+00:00,NS,Nizhny Novgorod,2011,Arsenal Tula,1077,,,False
-1577573,2026-10-31T16:00:00+00:00,NS,FC Sochi,2012,Ural,1084,,,False
-1577567,2026-10-31T16:00:00+00:00,NS,Chelyabinsk,6790,Shinnik Yaroslavl,1998,,,False
-1577568,2026-10-31T16:00:00+00:00,NS,KAMAZ,6801,Torpedo Moskva,3985,,,False
-1577569,2026-10-31T16:00:00+00:00,NS,Leningradets,6811,Enisey,1089,,,False
-1577575,2026-10-31T16:00:00+00:00,NS,Veles,6833,Spartak Kostroma,19449,,,False
-1577574,2026-10-31T16:00:00+00:00,NS,Volga Ulyanovsk,6834,Tekstilshchik,3984,,,False
-1577576,2026-11-07T16:00:00+00:00,NS,Arsenal Tula,1077,Chelyabinsk,6790,,,False
-1577582,2026-11-07T16:00:00+00:00,NS,Ural,1084,Volga Ulyanovsk,6834,,,False
-1577579,2026-11-07T16:00:00+00:00,NS,Ska-khabarovsk,1087,Tekstilshchik,3984,,,False
-1577584,2026-11-07T16:00:00+00:00,NS,Enisey,1089,FC Sochi,2012,,,False
-1577578,2026-11-07T16:00:00+00:00,NS,Shinnik Yaroslavl,1998,FC UFA,1078,,,False
-1577577,2026-11-07T16:00:00+00:00,NS,Rotor Volgograd,2010,Leningradets,6811,,,False
-1577581,2026-11-07T16:00:00+00:00,NS,Torpedo Moskva,3985,FK Neftekhimik,2001,,,False
-1577583,2026-11-07T16:00:00+00:00,NS,Veles,6833,KAMAZ,6801,,,False
-1577580,2026-11-07T16:00:00+00:00,NS,Spartak Kostroma,19449,Nizhny Novgorod,2011,,,False
-1577592,2026-11-21T16:00:00+00:00,NS,FC UFA,1078,Ural,1084,,,False
-1577589,2026-11-21T16:00:00+00:00,NS,Ska-khabarovsk,1087,Rotor Volgograd,2010,,,False
-1577593,2026-11-21T16:00:00+00:00,NS,Enisey,1089,Volga Ulyanovsk,6834,,,False
-1577588,2026-11-21T16:00:00+00:00,NS,Shinnik Yaroslavl,1998,FK Neftekhimik,2001,,,False
-1577587,2026-11-21T16:00:00+00:00,NS,Nizhny Novgorod,2011,Torpedo Moskva,3985,,,False
-1577590,2026-11-21T16:00:00+00:00,NS,FC Sochi,2012,Veles,6833,,,False
-1577591,2026-11-21T16:00:00+00:00,NS,Tekstilshchik,3984,Arsenal Tula,1077,,,False
-1577585,2026-11-21T16:00:00+00:00,NS,Chelyabinsk,6790,Leningradets,6811,,,False
-1577586,2026-11-21T16:00:00+00:00,NS,KAMAZ,6801,Spartak Kostroma,19449,,,False
-1577600,2026-11-25T16:00:00+00:00,NS,FC UFA,1078,Spartak Kostroma,19449,,,False
-1577602,2026-11-25T16:00:00+00:00,NS,Ural,1084,Arsenal Tula,1077,,,False
-1577597,2026-11-25T16:00:00+00:00,NS,FK Neftekhimik,2001,Rotor Volgograd,2010,,,False
-1577598,2026-11-25T16:00:00+00:00,NS,Nizhny Novgorod,2011,Tekstilshchik,3984,,,False
-1577599,2026-11-25T16:00:00+00:00,NS,FC Sochi,2012,Shinnik Yaroslavl,1998,,,False
-1577594,2026-11-25T16:00:00+00:00,NS,Chelyabinsk,6790,Veles,6833,,,False
-1577595,2026-11-25T16:00:00+00:00,NS,KAMAZ,6801,Enisey,1089,,,False
-1577596,2026-11-25T16:00:00+00:00,NS,Leningradets,6811,Ska-khabarovsk,1087,,,False
-1577601,2026-11-25T16:00:00+00:00,NS,Volga Ulyanovsk,6834,Torpedo Moskva,3985,,,False
-1577603,2026-11-28T16:00:00+00:00,NS,Arsenal Tula,1077,FC Sochi,2012,,,False
-1577607,2026-11-28T16:00:00+00:00,NS,Shinnik Yaroslavl,1998,Ural,1084,,,False
-1577605,2026-11-28T16:00:00+00:00,NS,FK Neftekhimik,2001,Nizhny Novgorod,2011,,,False
-1577606,2026-11-28T16:00:00+00:00,NS,Rotor Volgograd,2010,KAMAZ,6801,,,False
-1577609,2026-11-28T16:00:00+00:00,NS,Tekstilshchik,3984,Enisey,1089,,,False
-1577610,2026-11-28T16:00:00+00:00,NS,Torpedo Moskva,3985,Ska-khabarovsk,1087,,,False
-1577604,2026-11-28T16:00:00+00:00,NS,Leningradets,6811,Volga Ulyanovsk,6834,,,False
-1577611,2026-11-28T16:00:00+00:00,NS,Veles,6833,FC UFA,1078,,,False
-1577608,2026-11-28T16:00:00+00:00,NS,Spartak Kostroma,19449,Chelyabinsk,6790,,,False
-1577612,2026-12-05T16:00:00+00:00,NS,Arsenal Tula,1077,FC UFA,1078,,,False
-1577620,2026-12-05T16:00:00+00:00,NS,Enisey,1089,Ural,1084,,,False
-1577614,2026-12-05T16:00:00+00:00,NS,Rotor Volgograd,2010,Shinnik Yaroslavl,1998,,,False
-1577613,2026-12-05T16:00:00+00:00,NS,Nizhny Novgorod,2011,KAMAZ,6801,,,False
-1577616,2026-12-05T16:00:00+00:00,NS,FC Sochi,2012,Leningradets,6811,,,False
-1577617,2026-12-05T16:00:00+00:00,NS,Tekstilshchik,3984,FK Neftekhimik,2001,,,False
-1577618,2026-12-05T16:00:00+00:00,NS,Torpedo Moskva,3985,Chelyabinsk,6790,,,False
-1577619,2026-12-05T16:00:00+00:00,NS,Veles,6833,Volga Ulyanovsk,6834,,,False
-1577615,2026-12-05T16:00:00+00:00,NS,Spartak Kostroma,19449,Ska-khabarovsk,1087,,,False
-1577629,2027-03-06T16:00:00+00:00,NS,Enisey,1089,Ska-khabarovsk,1087,,,False
-1577623,2027-03-06T16:00:00+00:00,NS,Nizhny Novgorod,2011,Chelyabinsk,6790,,,False
-1577625,2027-03-06T16:00:00+00:00,NS,FC Sochi,2012,Rotor Volgograd,2010,,,False
-1577626,2027-03-06T16:00:00+00:00,NS,Tekstilshchik,3984,Volga Ulyanovsk,6834,,,False
-1577627,2027-03-06T16:00:00+00:00,NS,Torpedo Moskva,3985,Ural,1084,,,False
-1577621,2027-03-06T16:00:00+00:00,NS,KAMAZ,6801,Shinnik Yaroslavl,1998,,,False
-1577622,2027-03-06T16:00:00+00:00,NS,Leningradets,6811,FC UFA,1078,,,False
-1577628,2027-03-06T16:00:00+00:00,NS,Veles,6833,FK Neftekhimik,2001,,,False
-1577624,2027-03-06T16:00:00+00:00,NS,Spartak Kostroma,19449,Arsenal Tula,1077,,,False
-1577638,2027-03-13T16:00:00+00:00,NS,Enisey,1089,Rotor Volgograd,2010,,,False
-1577632,2027-03-13T16:00:00+00:00,NS,Shinnik Yaroslavl,1998,Chelyabinsk,6790,,,False
-1577634,2027-03-13T16:00:00+00:00,NS,Tekstilshchik,3984,Ural,1084,,,False
-1577635,2027-03-13T16:00:00+00:00,NS,Torpedo Moskva,3985,FC UFA,1078,,,False
-1577630,2027-03-13T16:00:00+00:00,NS,KAMAZ,6801,Arsenal Tula,1077,,,False
-1577631,2027-03-13T16:00:00+00:00,NS,Leningradets,6811,FK Neftekhimik,2001,,,False
-1577637,2027-03-13T16:00:00+00:00,NS,Veles,6833,Ska-khabarovsk,1087,,,False
-1577636,2027-03-13T16:00:00+00:00,NS,Volga Ulyanovsk,6834,Nizhny Novgorod,2011,,,False
-1577633,2027-03-13T16:00:00+00:00,NS,Spartak Kostroma,19449,FC Sochi,2012,,,False
-1577639,2027-03-20T16:00:00+00:00,NS,Arsenal Tula,1077,Leningradets,6811,,,False
-1577645,2027-03-20T16:00:00+00:00,NS,FC UFA,1078,Tekstilshchik,3984,,,False
-1577647,2027-03-20T16:00:00+00:00,NS,Ural,1084,Spartak Kostroma,19449,,,False
-1577643,2027-03-20T16:00:00+00:00,NS,Ska-khabarovsk,1087,Shinnik Yaroslavl,1998,,,False
-1577641,2027-03-20T16:00:00+00:00,NS,FK Neftekhimik,2001,Enisey,1089,,,False
-1577642,2027-03-20T16:00:00+00:00,NS,Nizhny Novgorod,2011,Veles,6833,,,False
-1577644,2027-03-20T16:00:00+00:00,NS,FC Sochi,2012,Torpedo Moskva,3985,,,False
-1577640,2027-03-20T16:00:00+00:00,NS,Chelyabinsk,6790,KAMAZ,6801,,,False
-1577646,2027-03-20T16:00:00+00:00,NS,Volga Ulyanovsk,6834,Rotor Volgograd,2010,,,False
-1577648,2027-04-03T15:00:00+00:00,NS,Arsenal Tula,1077,Veles,6833,,,False
-1577655,2027-04-03T15:00:00+00:00,NS,Ural,1084,FC Sochi,2012,,,False
-1577653,2027-04-03T15:00:00+00:00,NS,Ska-khabarovsk,1087,FK Neftekhimik,2001,,,False
-1577656,2027-04-03T15:00:00+00:00,NS,Enisey,1089,FC UFA,1078,,,False
-1577652,2027-04-03T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Volga Ulyanovsk,6834,,,False
-1577651,2027-04-03T15:00:00+00:00,NS,Rotor Volgograd,2010,Spartak Kostroma,19449,,,False
-1577654,2027-04-03T15:00:00+00:00,NS,Torpedo Moskva,3985,KAMAZ,6801,,,False
-1577649,2027-04-03T15:00:00+00:00,NS,Chelyabinsk,6790,Tekstilshchik,3984,,,False
-1577650,2027-04-03T15:00:00+00:00,NS,Leningradets,6811,Nizhny Novgorod,2011,,,False
-1577660,2027-04-10T15:00:00+00:00,NS,Ska-khabarovsk,1087,Nizhny Novgorod,2011,,,False
-1577665,2027-04-10T15:00:00+00:00,NS,Enisey,1089,Chelyabinsk,6790,,,False
-1577658,2027-04-10T15:00:00+00:00,NS,FK Neftekhimik,2001,Arsenal Tula,1077,,,False
-1577659,2027-04-10T15:00:00+00:00,NS,Rotor Volgograd,2010,Torpedo Moskva,3985,,,False
-1577662,2027-04-10T15:00:00+00:00,NS,Tekstilshchik,3984,Leningradets,6811,,,False
-1577657,2027-04-10T15:00:00+00:00,NS,KAMAZ,6801,FC UFA,1078,,,False
-1577664,2027-04-10T15:00:00+00:00,NS,Veles,6833,Ural,1084,,,False
-1577663,2027-04-10T15:00:00+00:00,NS,Volga Ulyanovsk,6834,FC Sochi,2012,,,False
-1577661,2027-04-10T15:00:00+00:00,NS,Spartak Kostroma,19449,Shinnik Yaroslavl,1998,,,False
-1577673,2027-04-14T15:00:00+00:00,NS,FC UFA,1078,Shinnik Yaroslavl,1998,,,False
-1577674,2027-04-14T15:00:00+00:00,NS,Ural,1084,Rotor Volgograd,2010,,,False
-1577669,2027-04-14T15:00:00+00:00,NS,FK Neftekhimik,2001,Volga Ulyanovsk,6834,,,False
-1577670,2027-04-14T15:00:00+00:00,NS,Nizhny Novgorod,2011,Spartak Kostroma,19449,,,False
-1577671,2027-04-14T15:00:00+00:00,NS,FC Sochi,2012,Tekstilshchik,3984,,,False
-1577672,2027-04-14T15:00:00+00:00,NS,Torpedo Moskva,3985,Enisey,1089,,,False
-1577666,2027-04-14T15:00:00+00:00,NS,Chelyabinsk,6790,Arsenal Tula,1077,,,False
-1577667,2027-04-14T15:00:00+00:00,NS,KAMAZ,6801,Ska-khabarovsk,1087,,,False
-1577668,2027-04-14T15:00:00+00:00,NS,Leningradets,6811,Veles,6833,,,False
-1577675,2027-04-17T15:00:00+00:00,NS,Arsenal Tula,1077,Enisey,1089,,,False
-1577681,2027-04-17T15:00:00+00:00,NS,FC UFA,1078,FK Neftekhimik,2001,,,False
-1577683,2027-04-17T15:00:00+00:00,NS,Ural,1084,Leningradets,6811,,,False
-1577678,2027-04-17T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Veles,6833,,,False
-1577677,2027-04-17T15:00:00+00:00,NS,Rotor Volgograd,2010,Nizhny Novgorod,2011,,,False
-1577680,2027-04-17T15:00:00+00:00,NS,Tekstilshchik,3984,Ska-khabarovsk,1087,,,False
-1577676,2027-04-17T15:00:00+00:00,NS,Chelyabinsk,6790,FC Sochi,2012,,,False
-1577682,2027-04-17T15:00:00+00:00,NS,Volga Ulyanovsk,6834,KAMAZ,6801,,,False
-1577679,2027-04-17T15:00:00+00:00,NS,Spartak Kostroma,19449,Torpedo Moskva,3985,,,False
-1577688,2027-04-24T15:00:00+00:00,NS,Ska-khabarovsk,1087,Chelyabinsk,6790,,,False
-1577692,2027-04-24T15:00:00+00:00,NS,Enisey,1089,Leningradets,6811,,,False
-1577687,2027-04-24T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Torpedo Moskva,3985,,,False
-1577684,2027-04-24T15:00:00+00:00,NS,FK Neftekhimik,2001,Spartak Kostroma,19449,,,False
-1577686,2027-04-24T15:00:00+00:00,NS,Rotor Volgograd,2010,Arsenal Tula,1077,,,False
-1577685,2027-04-24T15:00:00+00:00,NS,Nizhny Novgorod,2011,FC UFA,1078,,,False
-1577689,2027-04-24T15:00:00+00:00,NS,FC Sochi,2012,KAMAZ,6801,,,False
-1577691,2027-04-24T15:00:00+00:00,NS,Veles,6833,Tekstilshchik,3984,,,False
-1577690,2027-04-24T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Ural,1084,,,False
-1577693,2027-05-01T15:00:00+00:00,NS,Arsenal Tula,1077,Volga Ulyanovsk,6834,,,False
-1577700,2027-05-01T15:00:00+00:00,NS,FC UFA,1078,Rotor Volgograd,2010,,,False
-1577697,2027-05-01T15:00:00+00:00,NS,Ska-khabarovsk,1087,FC Sochi,2012,,,False
-1577701,2027-05-01T15:00:00+00:00,NS,Enisey,1089,Nizhny Novgorod,2011,,,False
-1577699,2027-05-01T15:00:00+00:00,NS,Torpedo Moskva,3985,Tekstilshchik,3984,,,False
-1577694,2027-05-01T15:00:00+00:00,NS,Chelyabinsk,6790,FK Neftekhimik,2001,,,False
-1577695,2027-05-01T15:00:00+00:00,NS,KAMAZ,6801,Ural,1084,,,False
-1577696,2027-05-01T15:00:00+00:00,NS,Leningradets,6811,Shinnik Yaroslavl,1998,,,False
-1577698,2027-05-01T15:00:00+00:00,NS,Spartak Kostroma,19449,Veles,6833,,,False
-1577702,2027-05-08T15:00:00+00:00,NS,Arsenal Tula,1077,Shinnik Yaroslavl,1998,,,False
-1577709,2027-05-08T15:00:00+00:00,NS,Ural,1084,Ska-khabarovsk,1087,,,False
-1577705,2027-05-08T15:00:00+00:00,NS,FK Neftekhimik,2001,Torpedo Moskva,3985,,,False
-1577706,2027-05-08T15:00:00+00:00,NS,Nizhny Novgorod,2011,FC Sochi,2012,,,False
-1577707,2027-05-08T15:00:00+00:00,NS,Tekstilshchik,3984,KAMAZ,6801,,,False
-1577703,2027-05-08T15:00:00+00:00,NS,Chelyabinsk,6790,Rotor Volgograd,2010,,,False
-1577704,2027-05-08T15:00:00+00:00,NS,Leningradets,6811,Spartak Kostroma,19449,,,False
-1577710,2027-05-08T15:00:00+00:00,NS,Veles,6833,Enisey,1089,,,False
-1577708,2027-05-08T15:00:00+00:00,NS,Volga Ulyanovsk,6834,FC UFA,1078,,,False
-1577718,2027-05-15T15:00:00+00:00,NS,FC UFA,1078,Chelyabinsk,6790,,,False
-1577719,2027-05-15T15:00:00+00:00,NS,Ural,1084,FK Neftekhimik,2001,,,False
-1577714,2027-05-15T15:00:00+00:00,NS,Ska-khabarovsk,1087,Arsenal Tula,1077,,,False
-1577713,2027-05-15T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Nizhny Novgorod,2011,,,False
-1577712,2027-05-15T15:00:00+00:00,NS,Rotor Volgograd,2010,Tekstilshchik,3984,,,False
-1577716,2027-05-15T15:00:00+00:00,NS,FC Sochi,2012,Enisey,1089,,,False
-1577717,2027-05-15T15:00:00+00:00,NS,Torpedo Moskva,3985,Leningradets,6811,,,False
-1577711,2027-05-15T15:00:00+00:00,NS,KAMAZ,6801,Veles,6833,,,False
-1577715,2027-05-15T15:00:00+00:00,NS,Spartak Kostroma,19449,Volga Ulyanovsk,6834,,,False
-1577724,2027-05-22T15:00:00+00:00,NS,Ska-khabarovsk,1087,FC UFA,1078,,,False
-1577728,2027-05-22T15:00:00+00:00,NS,Enisey,1089,Spartak Kostroma,19449,,,False
-1577723,2027-05-22T15:00:00+00:00,NS,Rotor Volgograd,2010,Veles,6833,,,False
-1577722,2027-05-22T15:00:00+00:00,NS,Nizhny Novgorod,2011,Ural,1084,,,False
-1577725,2027-05-22T15:00:00+00:00,NS,FC Sochi,2012,FK Neftekhimik,2001,,,False
-1577726,2027-05-22T15:00:00+00:00,NS,Tekstilshchik,3984,Shinnik Yaroslavl,1998,,,False
-1577727,2027-05-22T15:00:00+00:00,NS,Torpedo Moskva,3985,Arsenal Tula,1077,,,False
-1577720,2027-05-22T15:00:00+00:00,NS,Chelyabinsk,6790,Volga Ulyanovsk,6834,,,False
-1577721,2027-05-22T15:00:00+00:00,NS,KAMAZ,6801,Leningradets,6811,,,False
-1577729,2027-05-29T15:00:00+00:00,NS,Arsenal Tula,1077,Nizhny Novgorod,2011,,,False
-1577734,2027-05-29T15:00:00+00:00,NS,FC UFA,1078,FC Sochi,2012,,,False
-1577736,2027-05-29T15:00:00+00:00,NS,Ural,1084,Chelyabinsk,6790,,,False
-1577732,2027-05-29T15:00:00+00:00,NS,Shinnik Yaroslavl,1998,Enisey,1089,,,False
-1577731,2027-05-29T15:00:00+00:00,NS,FK Neftekhimik,2001,KAMAZ,6801,,,False
-1577730,2027-05-29T15:00:00+00:00,NS,Leningradets,6811,Rotor Volgograd,2010,,,False
-1577737,2027-05-29T15:00:00+00:00,NS,Veles,6833,Torpedo Moskva,3985,,,False
-1577735,2027-05-29T15:00:00+00:00,NS,Volga Ulyanovsk,6834,Ska-khabarovsk,1087,,,False
-1577733,2027-05-29T15:00:00+00:00,NS,Spartak Kostroma,19449,Tekstilshchik,3984,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1563072,2026-07-11T12:00:00+00:00,FT,Regular Season - 1,FC UFA,1078,Leningradets,6811,3,0,True
+1563073,2026-07-11T13:00:00+00:00,FT,Regular Season - 1,Volga Ulyanovsk,6834,Enisey,1089,1,2,True
+1563068,2026-07-11T15:00:00+00:00,FT,Regular Season - 1,FK Neftekhimik,2001,Veles,6833,0,1,True
+1563069,2026-07-12T13:30:00+00:00,FT,Regular Season - 1,Nizhny Novgorod,2011,Rotor Volgograd,2010,4,2,True
+1563070,2026-07-12T14:00:00+00:00,FT,Regular Season - 1,Shinnik Yaroslavl,1998,FC Sochi,2012,2,2,True
+1563071,2026-07-12T16:00:00+00:00,FT,Regular Season - 1,Spartak Kostroma,19449,KAMAZ,6801,3,1,True
+1563074,2026-07-13T14:00:00+00:00,FT,Regular Season - 1,Ural,1084,Torpedo Moskva,3985,0,1,True
+1563067,2026-07-13T14:00:00+00:00,FT,Regular Season - 1,Chelyabinsk,6790,Ska-khabarovsk,1087,3,1,True
+1563066,2026-07-13T16:30:00+00:00,FT,Regular Season - 1,Arsenal Tula,1077,Tekstilshchik,3984,2,1,True
+1577445,2026-07-19T12:00:00+00:00,FT,Regular Season - 2,Ural,1084,Enisey,1089,3,0,True
+1577441,2026-07-19T13:00:00+00:00,FT,Regular Season - 2,KAMAZ,6801,Nizhny Novgorod,2011,1,2,True
+1577442,2026-07-19T14:00:00+00:00,FT,Regular Season - 2,Shinnik Yaroslavl,1998,Leningradets,6811,2,0,True
+1577444,2026-07-19T14:00:00+00:00,FT,Regular Season - 2,Tekstilshchik,3984,FC UFA,1078,2,2,True
+1577446,2026-07-19T14:00:00+00:00,FT,Regular Season - 2,Veles,6833,Chelyabinsk,6790,1,0,True
+1577443,2026-07-19T15:00:00+00:00,FT,Regular Season - 2,FC Sochi,2012,Spartak Kostroma,19449,0,2,True
+1577447,2026-07-19T15:30:00+00:00,FT,Regular Season - 2,Torpedo Moskva,3985,Volga Ulyanovsk,6834,3,1,True
+1577448,2026-07-19T16:00:00+00:00,FT,Regular Season - 2,Arsenal Tula,1077,FK Neftekhimik,2001,0,1,True
+1577449,2026-07-20T16:30:00+00:00,FT,Regular Season - 2,Rotor Volgograd,2010,Ska-khabarovsk,1087,1,0,True
+1577457,2026-07-25T13:00:00+00:00,FT,Regular Season - 3,Volga Ulyanovsk,6834,FK Neftekhimik,2001,2,0,True
+1577450,2026-07-25T14:00:00+00:00,FT,Regular Season - 3,Chelyabinsk,6790,Nizhny Novgorod,2011,1,2,True
+1577454,2026-07-25T16:00:00+00:00,FT,Regular Season - 3,Tekstilshchik,3984,Spartak Kostroma,19449,0,0,True
+1577458,2026-07-26T09:00:00+00:00,FT,Regular Season - 3,Enisey,1089,Veles,6833,4,1,True
+1577452,2026-07-26T13:00:00+00:00,FT,Regular Season - 3,Leningradets,6811,Ural,1084,0,0,True
+1577456,2026-07-26T14:00:00+00:00,FT,Regular Season - 3,FC UFA,1078,Ska-khabarovsk,1087,1,0,True
+1577455,2026-07-26T14:00:00+00:00,FT,Regular Season - 3,Torpedo Moskva,3985,Shinnik Yaroslavl,1998,1,1,True
+1577453,2026-07-26T15:00:00+00:00,FT,Regular Season - 3,FC Sochi,2012,Arsenal Tula,1077,5,0,True
+1577451,2026-07-27T17:00:00+00:00,FT,Regular Season - 3,KAMAZ,6801,Rotor Volgograd,2010,0,2,True
+1577460,2026-08-01T13:00:00+00:00,FT,Regular Season - 4,Leningradets,6811,FC Sochi,2012,2,1,True
+1577461,2026-08-01T15:00:00+00:00,FT,Regular Season - 4,FK Neftekhimik,2001,Tekstilshchik,3984,1,0,True
+1577464,2026-08-01T16:30:00+00:00,FT,Regular Season - 4,Spartak Kostroma,19449,Enisey,1089,2,2,True
+1577463,2026-08-02T08:00:00+00:00,FT,Regular Season - 4,Ska-khabarovsk,1087,Ural,1084,0,3,True
+1577459,2026-08-02T12:00:00+00:00,FT,Regular Season - 4,Arsenal Tula,1077,Torpedo Moskva,3985,1,0,True
+1577466,2026-08-02T13:00:00+00:00,FT,Regular Season - 4,Volga Ulyanovsk,6834,Chelyabinsk,6790,0,2,True
+1577462,2026-08-02T14:00:00+00:00,FT,Regular Season - 4,Nizhny Novgorod,2011,Shinnik Yaroslavl,1998,3,0,True
+1577465,2026-08-03T14:00:00+00:00,FT,Regular Season - 4,FC UFA,1078,KAMAZ,6801,1,1,True
+1577467,2026-08-03T16:30:00+00:00,FT,Regular Season - 4,Veles,6833,Rotor Volgograd,2010,2,1,True
+1577473,2026-08-07T17:00:00+00:00,NS,Regular Season - 5,Torpedo Moskva,3985,FC Sochi,2012,,,False
+1577476,2026-08-08T09:00:00+00:00,NS,Regular Season - 5,Enisey,1089,Tekstilshchik,3984,,,False
+1577474,2026-08-08T14:00:00+00:00,NS,Regular Season - 5,Ural,1084,FC UFA,1078,,,False
+1577471,2026-08-08T14:00:00+00:00,NS,Regular Season - 5,Shinnik Yaroslavl,1998,Arsenal Tula,1077,,,False
+1577469,2026-08-08T14:00:00+00:00,NS,Regular Season - 5,Nizhny Novgorod,2011,FK Neftekhimik,2001,,,False
+1577472,2026-08-09T05:00:00+00:00,NS,Regular Season - 5,Ska-khabarovsk,1087,Spartak Kostroma,19449,,,False
+1577468,2026-08-09T14:00:00+00:00,NS,Regular Season - 5,KAMAZ,6801,Volga Ulyanovsk,6834,,,False
+1577470,2026-08-09T15:30:00+00:00,NS,Regular Season - 5,Rotor Volgograd,2010,Chelyabinsk,6790,,,False
+1577475,2026-08-09T16:00:00+00:00,NS,Regular Season - 5,Veles,6833,Leningradets,6811,,,False
+1577479,2026-08-14T15:00:00+00:00,NS,Regular Season - 6,FK Neftekhimik,2001,Shinnik Yaroslavl,1998,,,False
+1577480,2026-08-14T16:30:00+00:00,NS,Regular Season - 6,Rotor Volgograd,2010,Ural,1084,,,False
+1577481,2026-08-15T05:00:00+00:00,NS,Regular Season - 6,Ska-khabarovsk,1087,Veles,6833,,,False
+1577477,2026-08-15T10:30:00+00:00,NS,Regular Season - 6,Chelyabinsk,6790,Torpedo Moskva,3985,,,False
+1577478,2026-08-15T13:00:00+00:00,NS,Regular Season - 6,Leningradets,6811,Arsenal Tula,1077,,,False
+1577485,2026-08-15T15:00:00+00:00,NS,Regular Season - 6,Enisey,1089,KAMAZ,6801,,,False
+1577483,2026-08-15T15:00:00+00:00,NS,Regular Season - 6,FC Sochi,2012,Volga Ulyanovsk,6834,,,False
+1577484,2026-08-15T15:00:00+00:00,NS,Regular Season - 6,Tekstilshchik,3984,Nizhny Novgorod,2011,,,False
+1577482,2026-08-17T16:30:00+00:00,NS,Regular Season - 6,Spartak Kostroma,19449,FC UFA,1078,,,False
+1577492,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,FC UFA,1078,Torpedo Moskva,3985,,,False
+1577490,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,Shinnik Yaroslavl,1998,Ska-khabarovsk,1087,,,False
+1577489,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,FK Neftekhimik,2001,FC Sochi,2012,,,False
+1577487,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,Chelyabinsk,6790,Enisey,1089,,,False
+1577488,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,KAMAZ,6801,Tekstilshchik,3984,,,False
+1577493,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,Volga Ulyanovsk,6834,Leningradets,6811,,,False
+1577491,2026-08-19T15:00:00+00:00,NS,Regular Season - 7,Spartak Kostroma,19449,Ural,1084,,,False
+1577494,2026-08-19T16:30:00+00:00,NS,Regular Season - 7,Veles,6833,Nizhny Novgorod,2011,,,False
+1577486,2026-08-20T15:30:00+00:00,NS,Regular Season - 7,Arsenal Tula,1077,Rotor Volgograd,2010,,,False
+1577499,2026-08-21T16:30:00+00:00,NS,Regular Season - 8,Torpedo Moskva,3985,Spartak Kostroma,19449,,,False
+1577502,2026-08-22T09:30:00+00:00,NS,Regular Season - 8,Ural,1084,Tekstilshchik,3984,,,False
+1577500,2026-08-22T15:00:00+00:00,NS,Regular Season - 8,FC UFA,1078,Enisey,1089,,,False
+1577498,2026-08-22T15:00:00+00:00,NS,Regular Season - 8,Rotor Volgograd,2010,FK Neftekhimik,2001,,,False
+1577497,2026-08-22T15:00:00+00:00,NS,Regular Season - 8,Nizhny Novgorod,2011,Ska-khabarovsk,1087,,,False
+1577496,2026-08-22T15:00:00+00:00,NS,Regular Season - 8,Leningradets,6811,Chelyabinsk,6790,,,False
+1577503,2026-08-22T15:00:00+00:00,NS,Regular Season - 8,Veles,6833,Arsenal Tula,1077,,,False
+1577501,2026-08-22T15:00:00+00:00,NS,Regular Season - 8,Volga Ulyanovsk,6834,Shinnik Yaroslavl,1998,,,False
+1577495,2026-08-24T15:00:00+00:00,NS,Regular Season - 8,KAMAZ,6801,FC Sochi,2012,,,False
+1577504,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Arsenal Tula,1077,Ural,1084,,,False
+1577508,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Ska-khabarovsk,1087,Torpedo Moskva,3985,,,False
+1577512,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Enisey,1089,Shinnik Yaroslavl,1998,,,False
+1577506,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,FK Neftekhimik,2001,FC UFA,1078,,,False
+1577507,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Nizhny Novgorod,2011,Volga Ulyanovsk,6834,,,False
+1577510,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,FC Sochi,2012,Chelyabinsk,6790,,,False
+1577511,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Tekstilshchik,3984,Veles,6833,,,False
+1577505,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Leningradets,6811,KAMAZ,6801,,,False
+1577509,2026-08-29T15:00:00+00:00,NS,Regular Season - 9,Spartak Kostroma,19449,Rotor Volgograd,2010,,,False
+1577518,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,FC UFA,1078,Veles,6833,,,False
+1577520,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Ural,1084,KAMAZ,6801,,,False
+1577515,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Ska-khabarovsk,1087,Leningradets,6811,,,False
+1577521,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Enisey,1089,FK Neftekhimik,2001,,,False
+1577514,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Shinnik Yaroslavl,1998,Rotor Volgograd,2010,,,False
+1577516,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,FC Sochi,2012,Nizhny Novgorod,2011,,,False
+1577517,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Tekstilshchik,3984,Torpedo Moskva,3985,,,False
+1577513,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Chelyabinsk,6790,Spartak Kostroma,19449,,,False
+1577519,2026-09-05T15:00:00+00:00,NS,Regular Season - 10,Volga Ulyanovsk,6834,Arsenal Tula,1077,,,False
+1577522,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Arsenal Tula,1077,Ska-khabarovsk,1087,,,False
+1577528,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,FC UFA,1078,Volga Ulyanovsk,6834,,,False
+1577529,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Ural,1084,Shinnik Yaroslavl,1998,,,False
+1577525,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Rotor Volgograd,2010,Enisey,1089,,,False
+1577527,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Torpedo Moskva,3985,Nizhny Novgorod,2011,,,False
+1577523,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,KAMAZ,6801,Chelyabinsk,6790,,,False
+1577524,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Leningradets,6811,Tekstilshchik,3984,,,False
+1577530,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Veles,6833,FC Sochi,2012,,,False
+1577526,2026-09-12T15:00:00+00:00,NS,Regular Season - 11,Spartak Kostroma,19449,FK Neftekhimik,2001,,,False
+1577539,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Enisey,1089,Arsenal Tula,1077,,,False
+1577534,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Shinnik Yaroslavl,1998,KAMAZ,6801,,,False
+1577532,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,FK Neftekhimik,2001,Ural,1084,,,False
+1577533,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Nizhny Novgorod,2011,Leningradets,6811,,,False
+1577535,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,FC Sochi,2012,Ska-khabarovsk,1087,,,False
+1577536,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Tekstilshchik,3984,Rotor Volgograd,2010,,,False
+1577537,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Torpedo Moskva,3985,Veles,6833,,,False
+1577531,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Chelyabinsk,6790,FC UFA,1078,,,False
+1577538,2026-09-17T15:00:00+00:00,NS,Regular Season - 12,Volga Ulyanovsk,6834,Spartak Kostroma,19449,,,False
+1577540,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Arsenal Tula,1077,Spartak Kostroma,19449,,,False
+1577548,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Ural,1084,Veles,6833,,,False
+1577546,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Ska-khabarovsk,1087,KAMAZ,6801,,,False
+1577545,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Shinnik Yaroslavl,1998,Tekstilshchik,3984,,,False
+1577542,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,FK Neftekhimik,2001,Chelyabinsk,6790,,,False
+1577544,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Rotor Volgograd,2010,Volga Ulyanovsk,6834,,,False
+1577543,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Nizhny Novgorod,2011,Enisey,1089,,,False
+1577547,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,FC Sochi,2012,FC UFA,1078,,,False
+1577541,2026-10-10T15:00:00+00:00,NS,Regular Season - 13,Leningradets,6811,Torpedo Moskva,3985,,,False
+1577554,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,FC UFA,1078,Arsenal Tula,1077,,,False
+1577555,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Ural,1084,Nizhny Novgorod,2011,,,False
+1577551,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Ska-khabarovsk,1087,Volga Ulyanovsk,6834,,,False
+1577557,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Enisey,1089,Torpedo Moskva,3985,,,False
+1577550,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Rotor Volgograd,2010,FC Sochi,2012,,,False
+1577553,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Tekstilshchik,3984,Chelyabinsk,6790,,,False
+1577549,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,KAMAZ,6801,FK Neftekhimik,2001,,,False
+1577556,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Veles,6833,Shinnik Yaroslavl,1998,,,False
+1577552,2026-10-17T15:00:00+00:00,NS,Regular Season - 14,Spartak Kostroma,19449,Leningradets,6811,,,False
+1577558,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Arsenal Tula,1077,KAMAZ,6801,,,False
+1577565,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,FC UFA,1078,Nizhny Novgorod,2011,,,False
+1577562,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Ska-khabarovsk,1087,Enisey,1089,,,False
+1577561,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Shinnik Yaroslavl,1998,Spartak Kostroma,19449,,,False
+1577560,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,FK Neftekhimik,2001,Leningradets,6811,,,False
+1577563,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Tekstilshchik,3984,FC Sochi,2012,,,False
+1577564,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Torpedo Moskva,3985,Rotor Volgograd,2010,,,False
+1577559,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Chelyabinsk,6790,Ural,1084,,,False
+1577566,2026-10-24T15:00:00+00:00,NS,Regular Season - 15,Volga Ulyanovsk,6834,Veles,6833,,,False
+1577570,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,FK Neftekhimik,2001,Ska-khabarovsk,1087,,,False
+1577572,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,Rotor Volgograd,2010,FC UFA,1078,,,False
+1577571,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,Nizhny Novgorod,2011,Arsenal Tula,1077,,,False
+1577573,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,FC Sochi,2012,Ural,1084,,,False
+1577567,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,Chelyabinsk,6790,Shinnik Yaroslavl,1998,,,False
+1577568,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,KAMAZ,6801,Torpedo Moskva,3985,,,False
+1577569,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,Leningradets,6811,Enisey,1089,,,False
+1577575,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,Veles,6833,Spartak Kostroma,19449,,,False
+1577574,2026-10-31T16:00:00+00:00,NS,Regular Season - 16,Volga Ulyanovsk,6834,Tekstilshchik,3984,,,False
+1577576,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Arsenal Tula,1077,Chelyabinsk,6790,,,False
+1577582,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Ural,1084,Volga Ulyanovsk,6834,,,False
+1577579,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Ska-khabarovsk,1087,Tekstilshchik,3984,,,False
+1577584,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Enisey,1089,FC Sochi,2012,,,False
+1577578,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Shinnik Yaroslavl,1998,FC UFA,1078,,,False
+1577577,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Rotor Volgograd,2010,Leningradets,6811,,,False
+1577581,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Torpedo Moskva,3985,FK Neftekhimik,2001,,,False
+1577583,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Veles,6833,KAMAZ,6801,,,False
+1577580,2026-11-07T16:00:00+00:00,NS,Regular Season - 17,Spartak Kostroma,19449,Nizhny Novgorod,2011,,,False
+1577592,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,FC UFA,1078,Ural,1084,,,False
+1577589,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,Ska-khabarovsk,1087,Rotor Volgograd,2010,,,False
+1577593,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,Enisey,1089,Volga Ulyanovsk,6834,,,False
+1577588,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,Shinnik Yaroslavl,1998,FK Neftekhimik,2001,,,False
+1577587,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,Nizhny Novgorod,2011,Torpedo Moskva,3985,,,False
+1577590,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,FC Sochi,2012,Veles,6833,,,False
+1577591,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,Tekstilshchik,3984,Arsenal Tula,1077,,,False
+1577585,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,Chelyabinsk,6790,Leningradets,6811,,,False
+1577586,2026-11-21T16:00:00+00:00,NS,Regular Season - 18,KAMAZ,6801,Spartak Kostroma,19449,,,False
+1577600,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,FC UFA,1078,Spartak Kostroma,19449,,,False
+1577602,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,Ural,1084,Arsenal Tula,1077,,,False
+1577597,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,FK Neftekhimik,2001,Rotor Volgograd,2010,,,False
+1577598,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,Nizhny Novgorod,2011,Tekstilshchik,3984,,,False
+1577599,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,FC Sochi,2012,Shinnik Yaroslavl,1998,,,False
+1577594,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,Chelyabinsk,6790,Veles,6833,,,False
+1577595,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,KAMAZ,6801,Enisey,1089,,,False
+1577596,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,Leningradets,6811,Ska-khabarovsk,1087,,,False
+1577601,2026-11-25T16:00:00+00:00,NS,Regular Season - 19,Volga Ulyanovsk,6834,Torpedo Moskva,3985,,,False
+1577603,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Arsenal Tula,1077,FC Sochi,2012,,,False
+1577607,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Shinnik Yaroslavl,1998,Ural,1084,,,False
+1577605,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,FK Neftekhimik,2001,Nizhny Novgorod,2011,,,False
+1577606,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Rotor Volgograd,2010,KAMAZ,6801,,,False
+1577609,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Tekstilshchik,3984,Enisey,1089,,,False
+1577610,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Torpedo Moskva,3985,Ska-khabarovsk,1087,,,False
+1577604,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Leningradets,6811,Volga Ulyanovsk,6834,,,False
+1577611,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Veles,6833,FC UFA,1078,,,False
+1577608,2026-11-28T16:00:00+00:00,NS,Regular Season - 20,Spartak Kostroma,19449,Chelyabinsk,6790,,,False
+1577612,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Arsenal Tula,1077,FC UFA,1078,,,False
+1577620,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Enisey,1089,Ural,1084,,,False
+1577614,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Rotor Volgograd,2010,Shinnik Yaroslavl,1998,,,False
+1577613,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Nizhny Novgorod,2011,KAMAZ,6801,,,False
+1577616,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,FC Sochi,2012,Leningradets,6811,,,False
+1577617,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Tekstilshchik,3984,FK Neftekhimik,2001,,,False
+1577618,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Torpedo Moskva,3985,Chelyabinsk,6790,,,False
+1577619,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Veles,6833,Volga Ulyanovsk,6834,,,False
+1577615,2026-12-05T16:00:00+00:00,NS,Regular Season - 21,Spartak Kostroma,19449,Ska-khabarovsk,1087,,,False
+1577629,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Enisey,1089,Ska-khabarovsk,1087,,,False
+1577623,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Nizhny Novgorod,2011,Chelyabinsk,6790,,,False
+1577625,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,FC Sochi,2012,Rotor Volgograd,2010,,,False
+1577626,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Tekstilshchik,3984,Volga Ulyanovsk,6834,,,False
+1577627,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Torpedo Moskva,3985,Ural,1084,,,False
+1577621,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,KAMAZ,6801,Shinnik Yaroslavl,1998,,,False
+1577622,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Leningradets,6811,FC UFA,1078,,,False
+1577628,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Veles,6833,FK Neftekhimik,2001,,,False
+1577624,2027-03-06T16:00:00+00:00,NS,Regular Season - 22,Spartak Kostroma,19449,Arsenal Tula,1077,,,False
+1577638,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Enisey,1089,Rotor Volgograd,2010,,,False
+1577632,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Shinnik Yaroslavl,1998,Chelyabinsk,6790,,,False
+1577634,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Tekstilshchik,3984,Ural,1084,,,False
+1577635,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Torpedo Moskva,3985,FC UFA,1078,,,False
+1577630,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,KAMAZ,6801,Arsenal Tula,1077,,,False
+1577631,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Leningradets,6811,FK Neftekhimik,2001,,,False
+1577637,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Veles,6833,Ska-khabarovsk,1087,,,False
+1577636,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Volga Ulyanovsk,6834,Nizhny Novgorod,2011,,,False
+1577633,2027-03-13T16:00:00+00:00,NS,Regular Season - 23,Spartak Kostroma,19449,FC Sochi,2012,,,False
+1577639,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,Arsenal Tula,1077,Leningradets,6811,,,False
+1577645,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,FC UFA,1078,Tekstilshchik,3984,,,False
+1577647,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,Ural,1084,Spartak Kostroma,19449,,,False
+1577643,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,Ska-khabarovsk,1087,Shinnik Yaroslavl,1998,,,False
+1577641,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,FK Neftekhimik,2001,Enisey,1089,,,False
+1577642,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,Nizhny Novgorod,2011,Veles,6833,,,False
+1577644,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,FC Sochi,2012,Torpedo Moskva,3985,,,False
+1577640,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,Chelyabinsk,6790,KAMAZ,6801,,,False
+1577646,2027-03-20T16:00:00+00:00,NS,Regular Season - 24,Volga Ulyanovsk,6834,Rotor Volgograd,2010,,,False
+1577648,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Arsenal Tula,1077,Veles,6833,,,False
+1577655,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Ural,1084,FC Sochi,2012,,,False
+1577653,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Ska-khabarovsk,1087,FK Neftekhimik,2001,,,False
+1577656,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Enisey,1089,FC UFA,1078,,,False
+1577652,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Shinnik Yaroslavl,1998,Volga Ulyanovsk,6834,,,False
+1577651,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Rotor Volgograd,2010,Spartak Kostroma,19449,,,False
+1577654,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Torpedo Moskva,3985,KAMAZ,6801,,,False
+1577649,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Chelyabinsk,6790,Tekstilshchik,3984,,,False
+1577650,2027-04-03T15:00:00+00:00,NS,Regular Season - 25,Leningradets,6811,Nizhny Novgorod,2011,,,False
+1577660,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Ska-khabarovsk,1087,Nizhny Novgorod,2011,,,False
+1577665,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Enisey,1089,Chelyabinsk,6790,,,False
+1577658,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,FK Neftekhimik,2001,Arsenal Tula,1077,,,False
+1577659,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Rotor Volgograd,2010,Torpedo Moskva,3985,,,False
+1577662,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Tekstilshchik,3984,Leningradets,6811,,,False
+1577657,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,KAMAZ,6801,FC UFA,1078,,,False
+1577664,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Veles,6833,Ural,1084,,,False
+1577663,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Volga Ulyanovsk,6834,FC Sochi,2012,,,False
+1577661,2027-04-10T15:00:00+00:00,NS,Regular Season - 26,Spartak Kostroma,19449,Shinnik Yaroslavl,1998,,,False
+1577673,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,FC UFA,1078,Shinnik Yaroslavl,1998,,,False
+1577674,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,Ural,1084,Rotor Volgograd,2010,,,False
+1577669,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,FK Neftekhimik,2001,Volga Ulyanovsk,6834,,,False
+1577670,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,Nizhny Novgorod,2011,Spartak Kostroma,19449,,,False
+1577671,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,FC Sochi,2012,Tekstilshchik,3984,,,False
+1577672,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,Torpedo Moskva,3985,Enisey,1089,,,False
+1577666,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,Chelyabinsk,6790,Arsenal Tula,1077,,,False
+1577667,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,KAMAZ,6801,Ska-khabarovsk,1087,,,False
+1577668,2027-04-14T15:00:00+00:00,NS,Regular Season - 27,Leningradets,6811,Veles,6833,,,False
+1577675,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Arsenal Tula,1077,Enisey,1089,,,False
+1577681,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,FC UFA,1078,FK Neftekhimik,2001,,,False
+1577683,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Ural,1084,Leningradets,6811,,,False
+1577678,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Shinnik Yaroslavl,1998,Veles,6833,,,False
+1577677,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Rotor Volgograd,2010,Nizhny Novgorod,2011,,,False
+1577680,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Tekstilshchik,3984,Ska-khabarovsk,1087,,,False
+1577676,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Chelyabinsk,6790,FC Sochi,2012,,,False
+1577682,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Volga Ulyanovsk,6834,KAMAZ,6801,,,False
+1577679,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Spartak Kostroma,19449,Torpedo Moskva,3985,,,False
+1577688,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Ska-khabarovsk,1087,Chelyabinsk,6790,,,False
+1577692,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Enisey,1089,Leningradets,6811,,,False
+1577687,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Shinnik Yaroslavl,1998,Torpedo Moskva,3985,,,False
+1577684,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,FK Neftekhimik,2001,Spartak Kostroma,19449,,,False
+1577686,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Rotor Volgograd,2010,Arsenal Tula,1077,,,False
+1577685,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Nizhny Novgorod,2011,FC UFA,1078,,,False
+1577689,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,FC Sochi,2012,KAMAZ,6801,,,False
+1577691,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Veles,6833,Tekstilshchik,3984,,,False
+1577690,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Volga Ulyanovsk,6834,Ural,1084,,,False
+1577693,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Arsenal Tula,1077,Volga Ulyanovsk,6834,,,False
+1577700,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,FC UFA,1078,Rotor Volgograd,2010,,,False
+1577697,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Ska-khabarovsk,1087,FC Sochi,2012,,,False
+1577701,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Enisey,1089,Nizhny Novgorod,2011,,,False
+1577699,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Torpedo Moskva,3985,Tekstilshchik,3984,,,False
+1577694,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Chelyabinsk,6790,FK Neftekhimik,2001,,,False
+1577695,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,KAMAZ,6801,Ural,1084,,,False
+1577696,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Leningradets,6811,Shinnik Yaroslavl,1998,,,False
+1577698,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Spartak Kostroma,19449,Veles,6833,,,False
+1577702,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Arsenal Tula,1077,Shinnik Yaroslavl,1998,,,False
+1577709,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Ural,1084,Ska-khabarovsk,1087,,,False
+1577705,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,FK Neftekhimik,2001,Torpedo Moskva,3985,,,False
+1577706,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Nizhny Novgorod,2011,FC Sochi,2012,,,False
+1577707,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Tekstilshchik,3984,KAMAZ,6801,,,False
+1577703,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Chelyabinsk,6790,Rotor Volgograd,2010,,,False
+1577704,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Leningradets,6811,Spartak Kostroma,19449,,,False
+1577710,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Veles,6833,Enisey,1089,,,False
+1577708,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Volga Ulyanovsk,6834,FC UFA,1078,,,False
+1577718,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,FC UFA,1078,Chelyabinsk,6790,,,False
+1577719,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,Ural,1084,FK Neftekhimik,2001,,,False
+1577714,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,Ska-khabarovsk,1087,Arsenal Tula,1077,,,False
+1577713,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,Shinnik Yaroslavl,1998,Nizhny Novgorod,2011,,,False
+1577712,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,Rotor Volgograd,2010,Tekstilshchik,3984,,,False
+1577716,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,FC Sochi,2012,Enisey,1089,,,False
+1577717,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,Torpedo Moskva,3985,Leningradets,6811,,,False
+1577711,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,KAMAZ,6801,Veles,6833,,,False
+1577715,2027-05-15T15:00:00+00:00,NS,Regular Season - 32,Spartak Kostroma,19449,Volga Ulyanovsk,6834,,,False
+1577724,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Ska-khabarovsk,1087,FC UFA,1078,,,False
+1577728,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Enisey,1089,Spartak Kostroma,19449,,,False
+1577723,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Rotor Volgograd,2010,Veles,6833,,,False
+1577722,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Nizhny Novgorod,2011,Ural,1084,,,False
+1577725,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,FC Sochi,2012,FK Neftekhimik,2001,,,False
+1577726,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Tekstilshchik,3984,Shinnik Yaroslavl,1998,,,False
+1577727,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Torpedo Moskva,3985,Arsenal Tula,1077,,,False
+1577720,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Chelyabinsk,6790,Volga Ulyanovsk,6834,,,False
+1577721,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,KAMAZ,6801,Leningradets,6811,,,False
+1577729,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Arsenal Tula,1077,Nizhny Novgorod,2011,,,False
+1577734,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,FC UFA,1078,FC Sochi,2012,,,False
+1577736,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Ural,1084,Chelyabinsk,6790,,,False
+1577732,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Shinnik Yaroslavl,1998,Enisey,1089,,,False
+1577731,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,FK Neftekhimik,2001,KAMAZ,6801,,,False
+1577730,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Leningradets,6811,Rotor Volgograd,2010,,,False
+1577737,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Veles,6833,Torpedo Moskva,3985,,,False
+1577735,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Volga Ulyanovsk,6834,Ska-khabarovsk,1087,,,False
+1577733,2027-05-29T15:00:00+00:00,NS,Regular Season - 34,Spartak Kostroma,19449,Tekstilshchik,3984,,,False

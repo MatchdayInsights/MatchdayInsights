@@ -1,23 +1,39 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1323915,2025-02-07T12:00:00+00:00,FT,Igman Konjic,3367,Zrinjski,588,0,1,True
-1323913,2025-02-08T12:00:00+00:00,FT,Velež,3381,Radnik Bijeljina,3359,2,1,True
-1323912,2025-02-08T12:00:00+00:00,FT,Kruševo,25289,Zvijezda Gradačac,3382,2,0,True
-1323917,2025-02-08T15:00:00+00:00,FT,Siroki Brijeg,642,GOŠK Gabela,3356,1,0,True
-1323911,2025-02-08T17:30:00+00:00,FT,Zeljeznicar Sarajevo,654,Vareš,25292,6,0,True
-1323916,2025-02-09T12:00:00+00:00,PEN,Famos Vojkovići,19561,Posušje,14146,0,0,False
-1323914,2025-02-09T14:15:00+00:00,FT,FK Sarajevo,679,Sloga Doboj,8504,3,1,True
-1323918,2025-02-09T16:30:00+00:00,FT,Borac Banja Luka,3364,Čelik,3363,3,0,True
-1349500,2025-02-25T12:00:00+00:00,FT,Kruševo,25289,Zeljeznicar Sarajevo,654,1,8,True
-1349632,2025-02-25T19:30:00+00:00,FT,FK Sarajevo,679,Zrinjski,588,1,1,True
-1349634,2025-02-26T12:00:00+00:00,FT,Famos Vojkovići,19561,Borac Banja Luka,3364,1,3,True
-1349498,2025-02-26T19:30:00+00:00,FT,Siroki Brijeg,642,Velež,3381,2,0,True
-1349633,2025-03-11T16:30:00+00:00,FT,Zrinjski,588,FK Sarajevo,679,0,1,True
-1349501,2025-03-12T14:00:00+00:00,FT,Zeljeznicar Sarajevo,654,Kruševo,25289,3,1,True
-1349499,2025-03-12T16:30:00+00:00,FT,Velež,3381,Siroki Brijeg,642,1,2,True
-1349635,2025-03-22T15:00:00+00:00,FT,Borac Banja Luka,3364,Famos Vojkovići,19561,2,0,True
-1362894,2025-04-02T16:00:00+00:00,FT,Siroki Brijeg,642,Zeljeznicar Sarajevo,654,3,0,True
-1366096,2025-04-02T18:30:00+00:00,FT,FK Sarajevo,679,Borac Banja Luka,3364,0,1,True
-1366097,2025-04-15T15:30:00+00:00,FT,Borac Banja Luka,3364,FK Sarajevo,679,0,2,True
-1362895,2025-04-16T15:30:00+00:00,FT,Zeljeznicar Sarajevo,654,Siroki Brijeg,642,1,0,True
-1372001,2025-05-07T16:00:00+00:00,FT,FK Sarajevo,679,Siroki Brijeg,642,4,0,True
-1372000,2025-05-14T19:00:00+00:00,FT,Siroki Brijeg,642,FK Sarajevo,679,1,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1312348,2024-10-29T13:00:00+00:00,FT,Round of 32,Leotar,3370,Zeljeznicar Sarajevo,654,0,3,True
+1312352,2024-10-29T16:00:00+00:00,FT,Round of 32,Čelik,3363,Stupčanica Olovo,17901,2,1,True
+1312341,2024-10-30T13:00:00+00:00,FT,Round of 32,Rudar Prijedor,3377,GOŠK Gabela,3356,1,1,True
+1312351,2024-10-30T13:00:00+00:00,FT,Round of 32,Zvijezda Gradačac,3382,Zvijezda 09,3362,2,1,True
+1312345,2024-10-30T13:00:00+00:00,FT,Round of 32,Bratstvo Gračanica,4278,Radnik Bijeljina,3359,0,5,True
+1312340,2024-10-30T13:00:00+00:00,FT,Round of 32,Svatovac Poljice,4286,Velež,3381,0,2,True
+1312349,2024-10-30T13:00:00+00:00,FT,Round of 32,Sloboda Novi Grad,4296,FK Sarajevo,679,0,2,True
+1312353,2024-10-30T13:00:00+00:00,FT,Round of 32,Famos Vojkovići,19561,Slavija,3378,5,2,True
+1312342,2024-10-30T13:00:00+00:00,FT,Round of 32,Famos-SAŠK,20565,Posušje,14146,0,3,True
+1312347,2024-10-30T13:00:00+00:00,PEN,Round of 32,Gornji Rahić,21738,Sloga Doboj,8504,0,0,False
+1312339,2024-10-30T13:00:00+00:00,FT,Round of 32,Mladost Solina,25290,Igman Konjic,3367,0,2,True
+1312350,2024-10-30T13:00:00+00:00,FT,Round of 32,Vareš,25292,Kozara Gradiška,3369,3,2,True
+1312343,2024-10-30T13:00:00+00:00,FT,Round of 32,Žepce,25293,Zrinjski,588,1,2,True
+1312338,2024-10-30T14:00:00+00:00,FT,Round of 32,Kruševo,25289,Sloboda Tuzla,3360,1,1,True
+1312346,2024-11-06T13:00:00+00:00,FT,Round of 32,Troglav Livno,25291,Siroki Brijeg,642,0,9,True
+1312344,2024-11-16T12:30:00+00:00,FT,Round of 32,Laktaši,19562,Borac Banja Luka,3364,0,2,True
+1323915,2025-02-07T12:00:00+00:00,FT,Round of 16,Igman Konjic,3367,Zrinjski,588,0,1,True
+1323913,2025-02-08T12:00:00+00:00,FT,Round of 16,Velež,3381,Radnik Bijeljina,3359,2,1,True
+1323912,2025-02-08T12:00:00+00:00,FT,Round of 16,Kruševo,25289,Zvijezda Gradačac,3382,2,0,True
+1323917,2025-02-08T15:00:00+00:00,FT,Round of 16,Siroki Brijeg,642,GOŠK Gabela,3356,1,0,True
+1323911,2025-02-08T17:30:00+00:00,FT,Round of 16,Zeljeznicar Sarajevo,654,Vareš,25292,6,0,True
+1323916,2025-02-09T12:00:00+00:00,PEN,Round of 16,Famos Vojkovići,19561,Posušje,14146,0,0,False
+1323914,2025-02-09T14:15:00+00:00,FT,Round of 16,FK Sarajevo,679,Sloga Doboj,8504,3,1,True
+1323918,2025-02-09T16:30:00+00:00,FT,Round of 16,Borac Banja Luka,3364,Čelik,3363,3,0,True
+1349500,2025-02-25T12:00:00+00:00,FT,Quarter-finals,Kruševo,25289,Zeljeznicar Sarajevo,654,1,8,True
+1349632,2025-02-25T19:30:00+00:00,FT,Quarter-finals,FK Sarajevo,679,Zrinjski,588,1,1,True
+1349634,2025-02-26T12:00:00+00:00,FT,Quarter-finals,Famos Vojkovići,19561,Borac Banja Luka,3364,1,3,True
+1349498,2025-02-26T19:30:00+00:00,FT,Quarter-finals,Siroki Brijeg,642,Velež,3381,2,0,True
+1349633,2025-03-11T16:30:00+00:00,FT,Quarter-finals,Zrinjski,588,FK Sarajevo,679,0,1,True
+1349501,2025-03-12T14:00:00+00:00,FT,Quarter-finals,Zeljeznicar Sarajevo,654,Kruševo,25289,3,1,True
+1349499,2025-03-12T16:30:00+00:00,FT,Quarter-finals,Velež,3381,Siroki Brijeg,642,1,2,True
+1349635,2025-03-22T15:00:00+00:00,FT,Quarter-finals,Borac Banja Luka,3364,Famos Vojkovići,19561,2,0,True
+1362894,2025-04-02T16:00:00+00:00,FT,Semi-finals,Siroki Brijeg,642,Zeljeznicar Sarajevo,654,3,0,True
+1366096,2025-04-02T18:30:00+00:00,FT,Semi-finals,FK Sarajevo,679,Borac Banja Luka,3364,0,1,True
+1366097,2025-04-15T15:30:00+00:00,FT,Semi-finals,Borac Banja Luka,3364,FK Sarajevo,679,0,2,True
+1362895,2025-04-16T15:30:00+00:00,FT,Semi-finals,Zeljeznicar Sarajevo,654,Siroki Brijeg,642,1,0,True
+1372001,2025-05-07T16:00:00+00:00,FT,Final,FK Sarajevo,679,Siroki Brijeg,642,4,0,True
+1372000,2025-05-14T19:00:00+00:00,FT,Final,Siroki Brijeg,642,FK Sarajevo,679,1,1,True

@@ -1,16 +1,110 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1327590,2025-01-14T17:45:00+00:00,FT,AZ Alkmaar,201,Ajax,194,2,0,True
-1327587,2025-01-14T19:00:00+00:00,AET,Noordwijk,1247,Barendrecht,1271,1,0,False
-1327591,2025-01-14T20:00:00+00:00,AET,PSV Eindhoven,197,Excelsior,196,5,4,False
-1327588,2025-01-15T17:45:00+00:00,FT,GO Ahead Eagles,410,Twente,415,3,1,True
-1327592,2025-01-15T19:00:00+00:00,FT,Waalwijk,417,Utrecht,207,1,2,True
-1327589,2025-01-15T20:00:00+00:00,FT,Rijnsburgse Boys,1248,Feyenoord,209,1,4,True
-1327593,2025-01-16T17:45:00+00:00,FT,De Graafschap,199,Heracles,206,0,2,True
-1327586,2025-01-16T20:00:00+00:00,AET,Quick Boys,1272,Heerenveen,210,3,2,False
-1338275,2025-02-04T19:00:00+00:00,FT,Heracles,206,Utrecht,207,2,0,True
-1338276,2025-02-05T17:45:00+00:00,FT,PSV Eindhoven,197,Feyenoord,209,2,0,True
-1338278,2025-02-05T20:00:00+00:00,FT,GO Ahead Eagles,410,Noordwijk,1247,3,1,True
-1338277,2025-02-06T19:00:00+00:00,FT,AZ Alkmaar,201,Quick Boys,1272,3,1,True
-1349128,2025-02-26T19:00:00+00:00,FT,PSV Eindhoven,197,GO Ahead Eagles,410,1,2,True
-1349129,2025-02-27T19:00:00+00:00,PEN,Heracles,206,AZ Alkmaar,201,2,2,False
-1355654,2025-04-21T16:00:00+00:00,PEN,AZ Alkmaar,201,GO Ahead Eagles,410,1,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1283605,2024-09-03T18:00:00+00:00,AET,1st Preliminary Round,Dovo,1234,SVV Scheveningen,1250,2,1,False
+1283607,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Kozakken Boys,1242,Vvsb,1251,1,2,True
+1283613,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,DVS 33 Ermelo,1244,OJC Rosmalen,1241,1,2,True
+1283608,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,TEC,1255,URK,1253,4,2,True
+1283621,2024-09-03T18:00:00+00:00,AET,1st Preliminary Round,Hoek,1276,SDC Putten,1262,2,1,False
+1283606,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Achilles Veen,1282,Harkemase Boys,1258,2,1,True
+1283618,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Rijnvogels,1288,Forum Sport,24629,2,0,True
+1283611,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Huizen,1290,Excelsior Maassluis,17129,1,2,True
+1283617,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,GOES,3892,Hercules,1264,2,4,True
+1283615,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,SteDoCo,3905,Ijsselmeervogels,1280,2,3,True
+1283609,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Kloetinge,3930,Quick '20,3899,1,2,True
+1283610,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,ROHDA Raalte,6269,Sportlust '46,3904,0,4,True
+1283616,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Meerssen,14508,SC Genemuiden,1273,0,1,True
+1283620,2024-09-03T18:00:00+00:00,AET,1st Preliminary Round,Smitshoek,21423,FC Lisse,1257,1,1,False
+1283632,2024-09-03T18:00:00+00:00,AET,1st Preliminary Round,HBC,23712,Kolping Boys,24632,3,3,False
+1283619,2024-09-03T18:00:00+00:00,AET,1st Preliminary Round,De Bilt,24627,Eemdijk,1235,2,4,False
+1283614,2024-09-03T18:00:00+00:00,AET,1st Preliminary Round,Elinkwijk,24628,Olde Veste '54,3919,1,1,False
+1283612,2024-09-03T18:00:00+00:00,FT,1st Preliminary Round,Poortugaal,24634,ONS Sneek,1256,3,1,True
+1283622,2024-09-03T18:30:00+00:00,FT,1st Preliminary Round,Sparta Nijkerk,1274,Laar,24633,6,0,True
+1283631,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,Gemert,1230,Excelsior '31,6263,4,0,True
+1283629,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,ASWH,1254,SVBO,24635,3,1,True
+1283630,2024-09-04T18:00:00+00:00,AET,1st Preliminary Round,Capelle,1270,Hsc 21,1281,3,1,False
+1283627,2024-09-04T18:00:00+00:00,PEN,1st Preliminary Round,EVV,1286,Zwaluw VFC,21645,0,0,False
+1283634,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,ADO '20,3886,DAW Schaijk,24626,2,0,True
+1283625,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,FC 's-Gravenzande,3890,RKAVV,21422,0,2,True
+1283633,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,HV & CV Quick,3894,UNA,1284,4,1,True
+1283623,2024-09-04T18:00:00+00:00,AET,1st Preliminary Round,Juliana '31,3929,Geldrop,24630,4,2,False
+1283624,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,DEM,6260,Ajax Amateurs,1266,1,2,True
+1283626,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,Hollandia,14234,UDI '19,3938,0,1,True
+1283628,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,TOGB,19739,Noordwijk,1247,0,4,True
+1283636,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,Heerjansdam,24631,Blauw Geel,1263,1,4,True
+1283635,2024-09-04T18:00:00+00:00,FT,1st Preliminary Round,Winterswijk,24636,Blauw Wit '34,21635,2,0,True
+1301559,2024-09-24T18:00:00+00:00,AET,2nd Preliminary Round,RKAV Volendam,1238,Blauw Geel,1263,2,3,False
+1301564,2024-09-24T18:00:00+00:00,AET,2nd Preliminary Round,OJC Rosmalen,1241,Olde Veste '54,3919,2,1,False
+1301577,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,Noordwijk,1247,Hoek,1276,2,0,True
+1301563,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,Rijnsburgse Boys,1248,Sportlust '46,3904,1,0,True
+1301574,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,Vvsb,1251,Quick '20,3899,1,2,True
+1301573,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,ASWH,1254,HHC,1278,1,0,True
+1301568,2024-09-24T18:00:00+00:00,AET,2nd Preliminary Round,Hercules,1264,Excelsior Maassluis,17129,3,2,False
+1301575,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,SC Genemuiden,1273,ADO '20,3886,1,0,True
+1301562,2024-09-24T18:00:00+00:00,AET,2nd Preliminary Round,Sparta Nijkerk,1274,Achilles Veen,1282,4,2,False
+1301567,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,HV & CV Quick,3894,Capelle,1270,0,3,True
+1301570,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,ACV,3911,Ijsselmeervogels,1280,2,5,True
+1301572,2024-09-24T18:00:00+00:00,FT,2nd Preliminary Round,RKAVV,21422,Dovo,1234,0,1,True
+1301569,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,Gemert,1230,Winterswijk,24636,0,2,True
+1301571,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,AFC Amsterdam,1252,GVVV Veenendaal,1261,3,0,True
+1301565,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,Ajax Amateurs,1266,Kolping Boys,24632,1,2,True
+1301561,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,Barendrecht,1271,TEC,1255,4,0,True
+1301558,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,Juliana '31,3929,FC Lisse,1257,1,2,True
+1301566,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,UDI '19,3938,Eemdijk,1235,1,2,True
+1301576,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,Zwaluw VFC,21645,Rijnvogels,1288,1,4,True
+1301560,2024-09-25T18:00:00+00:00,FT,2nd Preliminary Round,Poortugaal,24634,Koninklijke HFC,1246,1,3,True
+1309739,2024-10-29T17:45:00+00:00,AET,1st Round,NEC Nijmegen,413,PEC Zwolle,193,4,3,False
+1309746,2024-10-29T20:00:00+00:00,FT,1st Round,Excelsior,196,VVV Venlo,204,2,1,True
+1309757,2024-10-29T20:00:00+00:00,FT,1st Round,ADO Den Haag,198,Cambuur,420,1,4,True
+1309743,2024-10-29T20:00:00+00:00,FT,1st Round,De Graafschap,199,FC OSS,423,4,1,True
+1309744,2024-10-29T20:00:00+00:00,FT,1st Round,Noordwijk,1247,Dordrecht,409,2,1,True
+1309742,2024-10-29T20:00:00+00:00,FT,1st Round,Sparta Nijkerk,1274,Capelle,1270,5,1,True
+1309748,2024-10-29T20:00:00+00:00,FT,1st Round,De Treffers,1277,Fortuna Sittard,205,1,4,True
+1309740,2024-10-29T20:00:00+00:00,FT,1st Round,Ijsselmeervogels,1280,Heerenveen,210,2,3,True
+1309736,2024-10-29T20:00:00+00:00,FT,1st Round,Rijnvogels,1288,FC Eindhoven,422,0,7,True
+1309754,2024-10-29T20:00:00+00:00,FT,1st Round,Kolping Boys,24632,Groningen,202,1,5,True
+1309753,2024-10-30T16:30:00+00:00,FT,1st Round,Barendrecht,1271,NAC Breda,203,2,1,True
+1309737,2024-10-30T20:00:00+00:00,FT,1st Round,MVV,412,Den Bosch,421,2,1,True
+1309755,2024-10-30T20:00:00+00:00,FT,1st Round,Waalwijk,417,Vitesse,200,3,1,True
+1309750,2024-10-30T20:00:00+00:00,FT,1st Round,Eemdijk,1235,OJC Rosmalen,1241,2,1,True
+1309734,2024-10-30T20:00:00+00:00,FT,1st Round,Rijnsburgse Boys,1248,Roda,414,3,1,True
+1309756,2024-10-30T20:00:00+00:00,AET,1st Round,AFC Amsterdam,1252,Blauw Geel,1263,3,1,False
+1309735,2024-10-30T20:00:00+00:00,FT,1st Round,Quick Boys,1272,Almere City FC,419,3,0,True
+1309752,2024-10-30T20:00:00+00:00,AET,1st Round,SC Genemuiden,1273,Willem II,195,2,3,False
+1309732,2024-10-30T20:00:00+00:00,FT,1st Round,Winterswijk,24636,Heracles,206,0,1,True
+1309738,2024-10-31T17:45:00+00:00,AET,1st Round,Hercules,1264,Sparta Rotterdam,426,1,6,False
+1309733,2024-10-31T19:00:00+00:00,FT,1st Round,Telstar,427,Helmond Sport,424,3,0,True
+1309745,2024-10-31T19:00:00+00:00,FT,1st Round,Dovo,1234,FC Volendam,416,1,5,True
+1309751,2024-10-31T19:00:00+00:00,FT,1st Round,Koninklijke HFC,1246,Emmen,208,1,0,True
+1309747,2024-10-31T19:00:00+00:00,AET,1st Round,Spakenburg,1249,Katwijk,1237,2,4,False
+1309741,2024-10-31T19:00:00+00:00,FT,1st Round,Quick '20,3899,ASWH,1254,0,2,True
+1309749,2024-10-31T20:00:00+00:00,FT,1st Round,FC Lisse,1257,Utrecht,207,1,2,True
+1314670,2024-12-17T17:45:00+00:00,FT,2nd Round,PSV Eindhoven,197,Koninklijke HFC,1246,8,0,True
+1314665,2024-12-17T19:00:00+00:00,FT,2nd Round,Waalwijk,417,Cambuur,420,4,1,True
+1314663,2024-12-17T19:00:00+00:00,FT,2nd Round,FC Eindhoven,422,Excelsior,196,1,3,True
+1314667,2024-12-17T19:00:00+00:00,FT,2nd Round,Quick Boys,1272,Fortuna Sittard,205,3,1,True
+1314672,2024-12-17T20:00:00+00:00,FT,2nd Round,MVV,412,Feyenoord,209,1,2,True
+1314660,2024-12-18T17:45:00+00:00,FT,2nd Round,Katwijk,1237,Twente,415,2,3,True
+1314668,2024-12-18T19:00:00+00:00,AET,2nd Round,Heracles,206,NEC Nijmegen,413,1,0,False
+1314671,2024-12-18T19:00:00+00:00,PEN,2nd Round,Sparta Rotterdam,426,GO Ahead Eagles,410,1,1,False
+1314673,2024-12-18T19:00:00+00:00,FT,2nd Round,AFC Amsterdam,1252,Utrecht,207,0,8,True
+1314662,2024-12-18T19:00:00+00:00,FT,2nd Round,ASWH,1254,Heerenveen,210,0,1,True
+1314674,2024-12-18T20:00:00+00:00,FT,2nd Round,AZ Alkmaar,201,Groningen,202,3,1,True
+1314659,2024-12-19T17:45:00+00:00,FT,2nd Round,Noordwijk,1247,Willem II,195,2,1,True
+1314666,2024-12-19T19:00:00+00:00,FT,2nd Round,De Graafschap,199,Sparta Nijkerk,1274,4,0,True
+1314664,2024-12-19T19:00:00+00:00,FT,2nd Round,Eemdijk,1235,Barendrecht,1271,1,6,True
+1314669,2024-12-19T19:00:00+00:00,FT,2nd Round,Rijnsburgse Boys,1248,FC Volendam,416,2,0,True
+1314661,2024-12-19T20:00:00+00:00,FT,2nd Round,Ajax,194,Telstar,427,2,0,True
+1327590,2025-01-14T17:45:00+00:00,FT,Round of 16,AZ Alkmaar,201,Ajax,194,2,0,True
+1327587,2025-01-14T19:00:00+00:00,AET,Round of 16,Noordwijk,1247,Barendrecht,1271,1,0,False
+1327591,2025-01-14T20:00:00+00:00,AET,Round of 16,PSV Eindhoven,197,Excelsior,196,5,4,False
+1327588,2025-01-15T17:45:00+00:00,FT,Round of 16,GO Ahead Eagles,410,Twente,415,3,1,True
+1327592,2025-01-15T19:00:00+00:00,FT,Round of 16,Waalwijk,417,Utrecht,207,1,2,True
+1327589,2025-01-15T20:00:00+00:00,FT,Round of 16,Rijnsburgse Boys,1248,Feyenoord,209,1,4,True
+1327593,2025-01-16T17:45:00+00:00,FT,Round of 16,De Graafschap,199,Heracles,206,0,2,True
+1327586,2025-01-16T20:00:00+00:00,AET,Round of 16,Quick Boys,1272,Heerenveen,210,3,2,False
+1338275,2025-02-04T19:00:00+00:00,FT,Quarter-finals,Heracles,206,Utrecht,207,2,0,True
+1338276,2025-02-05T17:45:00+00:00,FT,Quarter-finals,PSV Eindhoven,197,Feyenoord,209,2,0,True
+1338278,2025-02-05T20:00:00+00:00,FT,Quarter-finals,GO Ahead Eagles,410,Noordwijk,1247,3,1,True
+1338277,2025-02-06T19:00:00+00:00,FT,Quarter-finals,AZ Alkmaar,201,Quick Boys,1272,3,1,True
+1349128,2025-02-26T19:00:00+00:00,FT,Semi-finals,PSV Eindhoven,197,GO Ahead Eagles,410,1,2,True
+1349129,2025-02-27T19:00:00+00:00,PEN,Semi-finals,Heracles,206,AZ Alkmaar,201,2,2,False
+1355654,2025-04-21T16:00:00+00:00,PEN,Final,AZ Alkmaar,201,GO Ahead Eagles,410,1,1,False

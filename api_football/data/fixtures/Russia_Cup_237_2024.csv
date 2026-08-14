@@ -1,17 +1,164 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1318612,2025-03-11T16:00:00+00:00,FT,Dinamo Makhachkala,6813,Lokomotiv,597,1,2,True
-1318609,2025-03-11T17:00:00+00:00,FT,FC Krasnodar,621,Akhmat,1085,1,2,True
-1318610,2025-03-12T13:00:00+00:00,FT,Ural,1084,Rubin,1083,1,0,True
-1318611,2025-03-12T13:00:00+00:00,FT,Akron,6786,Spartak Moscow,558,2,3,True
-1318605,2025-03-12T15:15:00+00:00,FT,FC Rostov,779,Zenit,596,0,1,True
-1318607,2025-03-12T17:30:00+00:00,FT,CSKA Moscow,555,Dynamo,1088,2,1,True
-1361292,2025-04-15T15:00:00+00:00,FT,Lokomotiv,597,Akhmat,1085,2,1,True
-1361293,2025-04-15T17:30:00+00:00,FT,Spartak Moscow,558,Ural,1084,3,0,True
-1318606,2025-04-16T15:00:00+00:00,FT,Zenit,596,FC Rostov,779,2,0,True
-1318608,2025-04-16T17:30:00+00:00,FT,Dynamo,1088,CSKA Moscow,555,0,0,True
-1371985,2025-04-29T17:30:00+00:00,FT,Spartak Moscow,558,Dynamo,1088,2,1,True
-1371984,2025-04-30T15:00:00+00:00,FT,Lokomotiv,597,FC Rostov,779,0,2,True
-1371982,2025-04-30T17:30:00+00:00,FT,Zenit,596,CSKA Moscow,555,2,0,True
-1371983,2025-05-14T16:30:00+00:00,PEN,CSKA Moscow,555,Zenit,596,2,0,False
-1373935,2025-05-15T17:00:00+00:00,FT,Spartak Moscow,558,FC Rostov,779,1,2,True
-1375761,2025-06-01T15:00:00+00:00,PEN,FC Rostov,779,CSKA Moscow,555,0,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1245628,2024-07-30T13:00:00+00:00,FT,Regions Path - 1st Round,2Drots,19938,Strogino,6829,1,0,True
+1245621,2024-07-30T14:00:00+00:00,PEN,Regions Path - 1st Round,OES Dimitrovgrad,21871,Lada Tolyatti,6809,3,3,False
+1245632,2024-07-30T15:00:00+00:00,FT,Regions Path - 1st Round,Kuban Kholding,6806,Druzhba,6798,2,1,True
+1245620,2024-07-30T15:00:00+00:00,FT,Regions Path - 1st Round,Ilpar,16872,Uralets Nizhnyi Tagil,21536,0,2,True
+1211516,2024-07-30T15:30:00+00:00,FT,Premier League Path - Group Stage - 1,Lokomotiv,597,FC Rostov,779,1,0,True
+1211520,2024-07-30T15:30:00+00:00,FT,Premier League Path - Group Stage - 1,Rubin,1083,Akron,6786,4,0,True
+1245627,2024-07-30T15:30:00+00:00,FT,Regions Path - 1st Round,Cherepovets,24450,Dinamo Vologda,19447,0,1,True
+1211521,2024-07-30T18:00:00+00:00,FT,Premier League Path - Group Stage - 1,Zenit,596,Fakel,1993,3,0,True
+1245618,2024-07-31T09:30:00+00:00,FT,Regions Path - 1st Round,Anri Vladivostok,24448,Dinamo Vladivostok,16856,1,5,True
+1245619,2024-07-31T12:00:00+00:00,FT,Regions Path - 1st Round,Temp Barnaul,19945,Dinamo Barnaul,6794,2,1,True
+1211517,2024-07-31T13:00:00+00:00,FT,Premier League Path - Group Stage - 1,Khimki,1994,FC Orenburg,1080,1,0,True
+1245631,2024-07-31T13:00:00+00:00,FT,Regions Path - 1st Round,Pobeda,22171,Angust Nazran,23314,1,0,True
+1245626,2024-07-31T14:00:00+00:00,FT,Regions Path - 1st Round,Leningradets,6811,Dinamo St. Petersburg,17725,1,3,True
+1245630,2024-07-31T14:00:00+00:00,FT,Regions Path - 1st Round,Kristall,24451,Zvezda St. Petersburg,6840,4,1,True
+1245633,2024-07-31T15:00:00+00:00,FT,Regions Path - 1st Round,Nart Cherkessk,23315,Biolog,6788,1,2,True
+1245624,2024-07-31T15:00:00+00:00,PEN,Regions Path - 1st Round,Broke Boys,24449,Kvant,6807,1,1,False
+1211514,2024-07-31T15:30:00+00:00,FT,Premier League Path - Group Stage - 1,Spartak Moscow,558,Dynamo,1088,3,0,True
+1245625,2024-07-31T16:00:00+00:00,PEN,Regions Path - 1st Round,Pskov 747,6821,Luki-Energiya,6812,1,1,False
+1211519,2024-07-31T18:00:00+00:00,FT,Premier League Path - Group Stage - 1,FC Krasnodar,621,CSKA Moscow,555,1,0,True
+1211518,2024-07-31T18:00:00+00:00,FT,Premier League Path - Group Stage - 1,Akhmat,1085,Nizhny Novgorod,2011,4,1,True
+1245622,2024-08-01T13:00:00+00:00,PEN,Regions Path - 1st Round,Sokol Kazan,23320,Volna Nizhegorodskaya,14124,1,1,False
+1245623,2024-08-01T14:45:00+00:00,FT,Regions Path - 1st Round,ZOV,24453,Torpedo Vladimir,6830,2,3,True
+1245629,2024-08-01T15:00:00+00:00,FT,Regions Path - 1st Round,Amkal,19939,Kolomna,6804,8,1,True
+1245634,2024-08-01T16:00:00+00:00,FT,Regions Path - 1st Round,Kirovets Voskhozhdenie,21870,Tver,14120,0,2,True
+1211515,2024-08-01T16:30:00+00:00,FT,Premier League Path - Group Stage - 1,Dinamo Makhachkala,6813,Krylia Sovetov,1079,1,0,True
+1211525,2024-08-13T14:30:00+00:00,FT,Premier League Path - Group Stage - 2,FC Orenburg,1080,Lokomotiv,597,2,3,True
+1211524,2024-08-13T17:00:00+00:00,FT,Premier League Path - Group Stage - 2,FC Rostov,779,Khimki,1994,3,1,True
+1211527,2024-08-14T14:15:00+00:00,FT,Premier League Path - Group Stage - 2,CSKA Moscow,555,Nizhny Novgorod,2011,1,1,True
+1211528,2024-08-14T14:15:00+00:00,FT,Premier League Path - Group Stage - 2,Rubin,1083,Zenit,596,0,1,True
+1211523,2024-08-14T16:30:00+00:00,FT,Premier League Path - Group Stage - 2,Krylia Sovetov,1079,Spartak Moscow,558,0,3,True
+1211522,2024-08-14T16:30:00+00:00,FT,Premier League Path - Group Stage - 2,Dynamo,1088,Dinamo Makhachkala,6813,2,1,True
+1211529,2024-08-15T15:00:00+00:00,FT,Premier League Path - Group Stage - 2,Fakel,1993,Akron,6786,1,2,True
+1211526,2024-08-15T17:30:00+00:00,FT,Premier League Path - Group Stage - 2,FC Krasnodar,621,Akhmat,1085,1,0,True
+1273927,2024-08-20T12:00:00+00:00,PEN,Regions Path - 2nd Round,Uralets Nizhnyi Tagil,21536,Amkar,1076,1,1,False
+1275588,2024-08-20T13:00:00+00:00,FT,Regions Path - 2nd Round,Biolog,6788,Mashuk-KMV,6814,0,2,True
+1251014,2024-08-20T13:30:00+00:00,FT,Regions Path - 2nd Round,Spartak Nalchik,2002,Dinamo Stavropol,6796,0,1,True
+1251013,2024-08-20T14:00:00+00:00,FT,Regions Path - 2nd Round,KDV,25867,Forte Taganrog,14116,2,5,True
+1276516,2024-08-20T16:30:00+00:00,FT,Regions Path - 2nd Round,Veles,6833,Amkal,19939,0,2,True
+1251005,2024-08-21T10:00:00+00:00,PEN,Regions Path - 2nd Round,Irtysh Omsk,665,Chelyabinsk,6790,1,1,False
+1273928,2024-08-21T12:00:00+00:00,FT,Regions Path - 2nd Round,Lada Tolyatti,6809,Volga Ulyanovsk,6834,0,2,True
+1275582,2024-08-21T12:00:00+00:00,FT,Regions Path - 2nd Round,Novosibirsk,6819,Temp Barnaul,19945,4,3,True
+1251008,2024-08-21T12:00:00+00:00,FT,Regions Path - 2nd Round,Salyut-Belgorod,6826,FK Spartak Tambov,19451,4,2,True
+1275581,2024-08-21T13:00:00+00:00,FT,Regions Path - 2nd Round,Dinamo Vladivostok,16856,Irkutsk,21539,1,0,True
+1251004,2024-08-21T13:00:00+00:00,FT,Regions Path - 2nd Round,Torpedo Miass,16864,Nosta,6818,1,0,True
+1275585,2024-08-21T13:00:00+00:00,FT,Regions Path - 2nd Round,Dinamo St. Petersburg,17725,Kompozit,21537,1,2,True
+1276514,2024-08-21T13:00:00+00:00,FT,Regions Path - 2nd Round,Dinamo Kirov,21538,Sokol Kazan,23320,3,2,True
+1251012,2024-08-21T13:00:00+00:00,FT,Regions Path - 2nd Round,Astrakhan,21540,Legion Dynamo,6810,2,1,True
+1275586,2024-08-21T14:00:00+00:00,FT,Regions Path - 2nd Round,Leningradets,6811,Kristall,24451,4,0,True
+1273931,2024-08-21T14:00:00+00:00,FT,Regions Path - 2nd Round,Urozhay,6831,Kuban Kholding,6806,0,5,True
+1276517,2024-08-21T14:00:00+00:00,PEN,Regions Path - 2nd Round,Tver,14120,Znamya Truda,6837,1,1,False
+1275587,2024-08-21T15:00:00+00:00,FT,Regions Path - 2nd Round,Volgar Astrakhan,2004,Pobeda,22171,3,1,True
+1251006,2024-08-21T15:00:00+00:00,FT,Regions Path - 2nd Round,Chertanovo Moscow,2014,Saturn Ramenskoye,6827,3,1,True
+1251010,2024-08-21T15:00:00+00:00,FT,Regions Path - 2nd Round,Metallurg Lipetsk,6815,Zenit Penza,16866,1,2,True
+1251009,2024-08-21T15:00:00+00:00,FT,Regions Path - 2nd Round,Ryazan,6823,Dinamo Bryansk,6795,4,0,True
+1251011,2024-08-21T15:00:00+00:00,FT,Regions Path - 2nd Round,Sakhalin,6825,Kosmos Dolgoprudny,19452,0,2,True
+1276515,2024-08-21T15:00:00+00:00,PEN,Regions Path - 2nd Round,Torpedo Vladimir,6830,Murom,6817,2,2,False
+1251007,2024-08-21T15:30:00+00:00,FT,Regions Path - 2nd Round,Avangard Kursk,2009,Orel,23318,0,2,True
+1275584,2024-08-21T15:30:00+00:00,FT,Regions Path - 2nd Round,Luki-Energiya,6812,Kaluga,6802,2,1,True
+1273930,2024-08-21T16:30:00+00:00,FT,Regions Path - 2nd Round,Spartak Kostroma,19449,2Drots,19938,1,0,True
+1273929,2024-08-22T13:30:00+00:00,FT,Regions Path - 2nd Round,Dinamo Vologda,19447,Tekstilshchik,3984,1,3,True
+1275583,2024-08-22T16:30:00+00:00,FT,Regions Path - 2nd Round,Khimik Dzerzhinsk,16858,Broke Boys,24449,1,0,True
+1211534,2024-08-27T14:15:00+00:00,FT,Premier League Path - Group Stage - 2,Akhmat,1085,CSKA Moscow,555,0,2,True
+1211537,2024-08-27T14:15:00+00:00,FT,Premier League Path - Group Stage - 2,Akron,6786,Zenit,596,1,1,True
+1211531,2024-08-27T16:30:00+00:00,FT,Premier League Path - Group Stage - 3,Spartak Moscow,558,Dinamo Makhachkala,6813,0,1,True
+1211536,2024-08-27T16:30:00+00:00,FT,Premier League Path - Group Stage - 3,Fakel,1993,Rubin,1083,0,2,True
+1211532,2024-08-28T12:00:00+00:00,FT,Premier League Path - Group Stage - 3,FC Orenburg,1080,FC Rostov,779,0,1,True
+1211535,2024-08-28T14:15:00+00:00,FT,Premier League Path - Group Stage - 3,Nizhny Novgorod,2011,FC Krasnodar,621,0,1,True
+1211533,2024-08-28T16:30:00+00:00,FT,Premier League Path - Group Stage - 3,Lokomotiv,597,Khimki,1994,4,0,True
+1211530,2024-08-28T16:30:00+00:00,FT,Premier League Path - Group Stage - 3,Dynamo,1088,Krylia Sovetov,1079,5,1,True
+1295047,2024-09-03T14:00:00+00:00,FT,Regions Path - 3rd Round,Amkar,1076,Torpedo Miass,16864,1,0,True
+1295058,2024-09-03T14:00:00+00:00,FT,Regions Path - 3rd Round,Forte Taganrog,14116,Kuban Kholding,6806,0,1,True
+1295054,2024-09-03T16:30:00+00:00,FT,Regions Path - 3rd Round,Tekstilshchik,3984,Spartak Kostroma,19449,1,1,True
+1295046,2024-09-04T09:00:00+00:00,FT,Regions Path - 3rd Round,Dinamo Vladivostok,16856,Novosibirsk,6819,2,0,True
+1295055,2024-09-04T13:00:00+00:00,FT,Regions Path - 3rd Round,Kosmos Dolgoprudny,19452,Amkal,19939,1,2,True
+1295050,2024-09-04T14:00:00+00:00,FT,Regions Path - 3rd Round,Chelyabinsk,6790,Chertanovo Moscow,2014,1,0,True
+1295048,2024-09-04T14:00:00+00:00,FT,Regions Path - 3rd Round,Volga Ulyanovsk,6834,Dinamo Kirov,21538,7,0,True
+1295059,2024-09-04T15:00:00+00:00,FT,Regions Path - 3rd Round,Mashuk-KMV,6814,Dinamo Stavropol,6796,1,0,True
+1295049,2024-09-04T15:00:00+00:00,FT,Regions Path - 3rd Round,Murom,6817,Khimik Dzerzhinsk,16858,2,2,True
+1295056,2024-09-04T15:00:00+00:00,FT,Regions Path - 3rd Round,Znamya Truda,6837,Leningradets,6811,2,0,True
+1295057,2024-09-04T15:00:00+00:00,FT,Regions Path - 3rd Round,Astrakhan,21540,Volgar Astrakhan,2004,1,2,True
+1295051,2024-09-04T15:30:00+00:00,FT,Regions Path - 3rd Round,Orel,23318,Salyut-Belgorod,6826,4,2,True
+1295053,2024-09-05T15:00:00+00:00,FT,Regions Path - 3rd Round,Kompozit,21537,Zenit Penza,16866,3,0,True
+1295052,2024-09-05T15:30:00+00:00,FT,Regions Path - 3rd Round,Luki-Energiya,6812,Ryazan,6823,3,0,True
+1211544,2024-09-17T17:00:00+00:00,FT,Premier League Path - Group Stage - 3,Zenit,596,Rubin,1083,2,0,True
+1211545,2024-09-18T13:15:00+00:00,FT,Premier League Path - Group Stage - 3,Akron,6786,Fakel,1993,2,0,True
+1211542,2024-09-18T16:00:00+00:00,FT,Premier League Path - Group Stage - 3,CSKA Moscow,555,FC Krasnodar,621,2,0,True
+1211540,2024-09-18T16:00:00+00:00,FT,Premier League Path - Group Stage - 3,FC Rostov,779,FC Orenburg,1080,3,1,True
+1211538,2024-09-18T18:15:00+00:00,FT,Premier League Path - Group Stage - 4,Dinamo Makhachkala,6813,Dynamo,1088,2,2,True
+1211541,2024-09-19T15:30:00+00:00,FT,Premier League Path - Group Stage - 4,Khimki,1994,Lokomotiv,597,1,5,True
+1211543,2024-09-19T15:30:00+00:00,FT,Premier League Path - Group Stage - 4,Nizhny Novgorod,2011,Akhmat,1085,1,2,True
+1211539,2024-09-19T17:45:00+00:00,FT,Premier League Path - Group Stage - 4,Spartak Moscow,558,Krylia Sovetov,1079,4,1,True
+1304148,2024-09-24T11:00:00+00:00,FT,Regions Path - 4th Round,Kuban Kholding,6806,FC Sochi,2012,0,5,True
+1304144,2024-09-24T14:00:00+00:00,FT,Regions Path - 4th Round,Amkar,1076,Chernomorets,6791,3,3,True
+1304150,2024-09-24T14:00:00+00:00,FT,Regions Path - 4th Round,Chelyabinsk,6790,Tyumen,2000,0,2,True
+1304143,2024-09-24T16:30:00+00:00,FT,Regions Path - 4th Round,Volga Ulyanovsk,6834,Rotor Volgograd,2010,1,1,True
+1304155,2024-09-25T09:00:00+00:00,PEN,Regions Path - 4th Round,Dinamo Vladivostok,16856,Shinnik Yaroslavl,1998,0,0,False
+1304152,2024-09-25T13:00:00+00:00,FT,Regions Path - 4th Round,Mashuk-KMV,6814,Rodina Moskva,6822,0,3,True
+1304146,2024-09-25T14:00:00+00:00,FT,Regions Path - 4th Round,Ural,1084,Ska-khabarovsk,1087,1,0,True
+1304149,2024-09-25T15:00:00+00:00,FT,Regions Path - 4th Round,Volgar Astrakhan,2004,FC UFA,1078,1,1,True
+1304147,2024-09-25T15:30:00+00:00,FT,Regions Path - 4th Round,Luki-Energiya,6812,Baltika,2006,1,1,True
+1304154,2024-09-25T15:30:00+00:00,FT,Regions Path - 4th Round,Orel,23318,FK Sokol Saratov,1995,2,3,True
+1304153,2024-09-25T16:00:00+00:00,FT,Regions Path - 4th Round,Khimik Dzerzhinsk,16858,Chayka,3983,0,3,True
+1304151,2024-09-25T16:00:00+00:00,PEN,Regions Path - 4th Round,Kompozit,21537,FK Neftekhimik,2001,0,0,False
+1304142,2024-09-25T16:30:00+00:00,FT,Regions Path - 4th Round,KAMAZ,6801,Torpedo Moskva,3985,1,2,True
+1304141,2024-09-26T14:00:00+00:00,FT,Regions Path - 4th Round,Spartak Kostroma,19449,Enisey,1089,1,0,True
+1304140,2024-09-26T15:00:00+00:00,FT,Regions Path - 4th Round,Znamya Truda,6837,Arsenal Tula,1077,1,1,True
+1304145,2024-09-26T16:30:00+00:00,FT,Regions Path - 4th Round,Amkal,19939,Alaniya Vladikavkaz,6787,0,1,True
+1211552,2024-10-01T13:15:00+00:00,FT,Premier League Path - Group Stage - 4,Rubin,1083,Fakel,1993,0,1,True
+1211549,2024-10-01T15:30:00+00:00,FT,Premier League Path - Group Stage - 4,Lokomotiv,597,FC Orenburg,1080,2,1,True
+1211551,2024-10-01T17:45:00+00:00,FT,Premier League Path - Group Stage - 4,Nizhny Novgorod,2011,CSKA Moscow,555,0,2,True
+1211548,2024-10-02T13:15:00+00:00,FT,Premier League Path - Group Stage - 4,Khimki,1994,FC Rostov,779,2,2,True
+1211547,2024-10-02T16:00:00+00:00,FT,Premier League Path - Group Stage - 4,Krylia Sovetov,1079,Dinamo Makhachkala,6813,3,3,True
+1211546,2024-10-02T16:00:00+00:00,FT,Premier League Path - Group Stage - 4,Dynamo,1088,Spartak Moscow,558,2,3,True
+1211553,2024-10-02T18:15:00+00:00,FT,Premier League Path - Group Stage - 5,Zenit,596,Akron,6786,5,1,True
+1211550,2024-10-02T18:15:00+00:00,FT,Premier League Path - Group Stage - 5,Akhmat,1085,FC Krasnodar,621,3,0,True
+1309261,2024-10-15T14:00:00+00:00,FT,Regions Path - 5th Round,Amkar,1076,Kompozit,21537,1,0,True
+1309262,2024-10-15T14:00:00+00:00,FT,Regions Path - 5th Round,FC UFA,1078,Shinnik Yaroslavl,1998,0,1,True
+1309264,2024-10-15T16:30:00+00:00,FT,Regions Path - 5th Round,FK Sokol Saratov,1995,Ural,1084,1,3,True
+1309258,2024-10-16T14:00:00+00:00,PEN,Regions Path - 5th Round,Tyumen,2000,Alaniya Vladikavkaz,6787,0,0,False
+1309260,2024-10-16T14:00:00+00:00,FT,Regions Path - 5th Round,Rodina Moskva,6822,Spartak Kostroma,19449,1,2,True
+1309263,2024-10-16T16:30:00+00:00,FT,Regions Path - 5th Round,FC Sochi,2012,Volga Ulyanovsk,6834,2,0,True
+1309259,2024-10-16T16:30:00+00:00,FT,Regions Path - 5th Round,Torpedo Moskva,3985,Baltika,2006,0,4,True
+1309257,2024-10-17T16:00:00+00:00,FT,Regions Path - 5th Round,Chayka,3983,Znamya Truda,6837,2,0,True
+1211561,2024-10-22T13:15:00+00:00,FT,Premier League Path - Group Stage - 5,Fakel,1993,Zenit,596,0,1,True
+1211555,2024-10-22T15:30:00+00:00,FT,Premier League Path - Group Stage - 5,Dinamo Makhachkala,6813,Spartak Moscow,558,0,1,True
+1211558,2024-10-22T17:45:00+00:00,FT,Premier League Path - Group Stage - 5,CSKA Moscow,555,Akhmat,1085,1,0,True
+1211557,2024-10-23T13:30:00+00:00,FT,Premier League Path - Group Stage - 5,FC Orenburg,1080,Khimki,1994,2,0,True
+1211556,2024-10-23T16:00:00+00:00,FT,Premier League Path - Group Stage - 5,FC Rostov,779,Lokomotiv,597,2,2,True
+1211560,2024-10-23T16:00:00+00:00,FT,Premier League Path - Group Stage - 5,Akron,6786,Rubin,1083,0,1,True
+1211559,2024-10-23T18:15:00+00:00,FT,Premier League Path - Group Stage - 5,FC Krasnodar,621,Nizhny Novgorod,2011,1,2,True
+1211554,2024-10-24T16:00:00+00:00,FT,Premier League Path - Group Stage - 5,Krylia Sovetov,1079,Dynamo,1088,3,6,True
+1312271,2024-10-29T14:30:00+00:00,FT,Regions Path - 6th Round,Tyumen,2000,Amkar,1076,3,0,True
+1312270,2024-10-29T17:00:00+00:00,FT,Regions Path - 6th Round,Baltika,2006,Ural,1084,0,1,True
+1312272,2024-10-30T14:45:00+00:00,PEN,Regions Path - 6th Round,Shinnik Yaroslavl,1998,Chayka,3983,0,0,False
+1312273,2024-10-30T17:00:00+00:00,FT,Regions Path - 6th Round,FC Sochi,2012,Spartak Kostroma,19449,2,2,True
+1312936,2024-11-05T15:30:00+00:00,FT,Premier League Path - Quarter-finals,Spartak Moscow,558,FC Rostov,779,0,1,True
+1313103,2024-11-05T17:45:00+00:00,FT,Premier League Path - Quarter-finals,Dynamo,1088,Lokomotiv,597,1,2,True
+1313101,2024-11-06T15:30:00+00:00,FT,Premier League Path - Quarter-finals,Rubin,1083,CSKA Moscow,555,0,0,True
+1313099,2024-11-06T17:45:00+00:00,FT,Premier League Path - Quarter-finals,Zenit,596,Akhmat,1085,3,0,True
+1314641,2024-11-26T13:00:00+00:00,PEN,Regions Path - Quarter-finals - 1st Round,Tyumen,2000,FC Krasnodar,621,3,3,False
+1314639,2024-11-26T15:15:00+00:00,FT,Regions Path - Quarter-finals - 1st Round,Shinnik Yaroslavl,1998,Akron,6786,0,1,True
+1313102,2024-11-26T17:30:00+00:00,FT,Premier League Path - Quarter-finals,CSKA Moscow,555,Rubin,1083,3,0,True
+1314640,2024-11-27T13:00:00+00:00,PEN,Regions Path - Quarter-finals - 1st Round,Ural,1084,Khimki,1994,1,1,False
+1313100,2024-11-27T15:15:00+00:00,FT,Premier League Path - Quarter-finals,Akhmat,1085,Zenit,596,1,2,True
+1314638,2024-11-27T15:15:00+00:00,PEN,Regions Path - Quarter-finals - 1st Round,FC Sochi,2012,Dinamo Makhachkala,6813,1,1,False
+1312937,2024-11-27T17:30:00+00:00,FT,Premier League Path - Quarter-finals,FC Rostov,779,Spartak Moscow,558,2,1,True
+1313104,2024-11-28T16:30:00+00:00,PEN,Premier League Path - Quarter-finals,Lokomotiv,597,Dynamo,1088,0,1,False
+1318612,2025-03-11T16:00:00+00:00,FT,Regions Path - Quarter-finals - 2nd Round,Dinamo Makhachkala,6813,Lokomotiv,597,1,2,True
+1318609,2025-03-11T17:00:00+00:00,FT,Regions Path - Quarter-finals - 2nd Round,FC Krasnodar,621,Akhmat,1085,1,2,True
+1318610,2025-03-12T13:00:00+00:00,FT,Regions Path - Quarter-finals - 2nd Round,Ural,1084,Rubin,1083,1,0,True
+1318611,2025-03-12T13:00:00+00:00,FT,Regions Path - Quarter-finals - 2nd Round,Akron,6786,Spartak Moscow,558,2,3,True
+1318605,2025-03-12T15:15:00+00:00,FT,Premier League Path - Semi-finals,FC Rostov,779,Zenit,596,0,1,True
+1318607,2025-03-12T17:30:00+00:00,FT,Premier League Path - Semi-finals,CSKA Moscow,555,Dynamo,1088,2,1,True
+1361292,2025-04-15T15:00:00+00:00,FT,Regions Path - Semi-finals - 1st Round,Lokomotiv,597,Akhmat,1085,2,1,True
+1361293,2025-04-15T17:30:00+00:00,FT,Regions Path - Semi-finals - 1st Round,Spartak Moscow,558,Ural,1084,3,0,True
+1318606,2025-04-16T15:00:00+00:00,FT,Premier League Path - Semi-finals,Zenit,596,FC Rostov,779,2,0,True
+1318608,2025-04-16T17:30:00+00:00,FT,Premier League Path - Semi-finals,Dynamo,1088,CSKA Moscow,555,0,0,True
+1371985,2025-04-29T17:30:00+00:00,FT,Regions Path - Semi-finals - 2nd Round,Spartak Moscow,558,Dynamo,1088,2,1,True
+1371984,2025-04-30T15:00:00+00:00,FT,Regions Path - Semi-finals - 2nd Round,Lokomotiv,597,FC Rostov,779,0,2,True
+1371982,2025-04-30T17:30:00+00:00,FT,Premier League Path - Final,Zenit,596,CSKA Moscow,555,2,0,True
+1371983,2025-05-14T16:30:00+00:00,PEN,Premier League Path - Final,CSKA Moscow,555,Zenit,596,2,0,False
+1373935,2025-05-15T17:00:00+00:00,FT,Regions Path - Final,Spartak Moscow,558,FC Rostov,779,1,2,True
+1375761,2025-06-01T15:00:00+00:00,PEN,Final,FC Rostov,779,CSKA Moscow,555,0,0,False

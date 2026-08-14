@@ -1,0 +1,242 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+562712,2020-06-16T16:00:00+00:00,FT,Regular Season - 1,Stabaek,323,Mjondalen,2152,0,0,True
+562713,2020-06-16T16:00:00+00:00,FT,Regular Season - 1,ODD Ballklubb,330,Sandefjord,332,1,2,True
+562714,2020-06-16T16:00:00+00:00,FT,Regular Season - 1,Rosenborg,331,Kristiansund BK,320,0,0,True
+562716,2020-06-16T16:00:00+00:00,FT,Regular Season - 1,Aalesund,757,Molde,329,1,4,True
+562715,2020-06-16T16:00:00+00:00,FT,Regular Season - 1,Viking,759,Bodo/Glimt,327,2,4,True
+562717,2020-06-16T18:30:00+00:00,FT,Regular Season - 1,Sarpsborg 08 FF,333,Valerenga,326,0,1,True
+562718,2020-06-17T16:00:00+00:00,FT,Regular Season - 1,Start,334,Stromsgodset,324,2,2,True
+562719,2020-06-17T18:30:00+00:00,FT,Regular Season - 1,Haugesund,328,Brann,319,1,2,True
+562723,2020-06-20T16:00:00+00:00,FT,Regular Season - 2,Mjondalen,2152,Sarpsborg 08 FF,333,1,0,True
+562721,2020-06-20T18:30:00+00:00,FT,Regular Season - 2,Molde,329,Rosenborg,331,1,0,True
+562720,2020-06-21T16:00:00+00:00,FT,Regular Season - 2,Kristiansund BK,320,Aalesund,757,7,2,True
+562724,2020-06-21T16:00:00+00:00,FT,Regular Season - 2,Stromsgodset,324,ODD Ballklubb,330,1,0,True
+562725,2020-06-21T16:00:00+00:00,FT,Regular Season - 2,Valerenga,326,Stabaek,323,2,2,True
+562722,2020-06-21T16:00:00+00:00,FT,Regular Season - 2,Bodo/Glimt,327,Haugesund,328,6,1,True
+562726,2020-06-21T16:00:00+00:00,FT,Regular Season - 2,Sandefjord,332,Start,334,2,2,True
+562727,2020-06-21T18:30:00+00:00,FT,Regular Season - 2,Brann,319,Viking,759,3,0,True
+562731,2020-06-24T16:00:00+00:00,FT,Regular Season - 3,Stabaek,323,Sandefjord,332,2,0,True
+562728,2020-06-24T16:00:00+00:00,FT,Regular Season - 3,Haugesund,328,Kristiansund BK,320,2,2,True
+562730,2020-06-24T16:00:00+00:00,FT,Regular Season - 3,Start,334,Molde,329,2,3,True
+562729,2020-06-24T16:00:00+00:00,FT,Regular Season - 3,Aalesund,757,Brann,319,2,2,True
+562732,2020-06-24T16:00:00+00:00,FT,Regular Season - 3,Viking,759,Mjondalen,2152,1,1,True
+562733,2020-06-24T18:30:00+00:00,FT,Regular Season - 3,ODD Ballklubb,330,Valerenga,326,4,1,True
+562734,2020-06-25T16:00:00+00:00,FT,Regular Season - 3,Sarpsborg 08 FF,333,Stromsgodset,324,2,3,True
+562735,2020-06-25T18:30:00+00:00,FT,Regular Season - 3,Rosenborg,331,Bodo/Glimt,327,2,3,True
+562736,2020-06-27T16:00:00+00:00,FT,Regular Season - 4,Start,334,ODD Ballklubb,330,0,5,True
+562737,2020-06-27T18:30:00+00:00,FT,Regular Season - 4,Valerenga,326,Viking,759,2,1,True
+562742,2020-06-28T16:00:00+00:00,FT,Regular Season - 4,Stromsgodset,324,Aalesund,757,1,1,True
+562739,2020-06-28T16:00:00+00:00,FT,Regular Season - 4,Bodo/Glimt,327,Sarpsborg 08 FF,333,2,1,True
+562738,2020-06-28T16:00:00+00:00,FT,Regular Season - 4,Molde,329,Stabaek,323,4,1,True
+562741,2020-06-28T16:00:00+00:00,FT,Regular Season - 4,Sandefjord,332,Haugesund,328,0,1,True
+562740,2020-06-28T16:00:00+00:00,FT,Regular Season - 4,Mjondalen,2152,Kristiansund BK,320,1,2,True
+562743,2020-06-28T18:30:00+00:00,FT,Regular Season - 4,Brann,319,Rosenborg,331,1,2,True
+562748,2020-07-01T16:00:00+00:00,FT,Regular Season - 5,Stabaek,323,Stromsgodset,324,2,0,True
+562746,2020-07-01T16:00:00+00:00,FT,Regular Season - 5,Haugesund,328,Start,334,1,0,True
+562744,2020-07-01T16:00:00+00:00,FT,Regular Season - 5,ODD Ballklubb,330,Bodo/Glimt,327,0,4,True
+562747,2020-07-01T16:00:00+00:00,FT,Regular Season - 5,Aalesund,757,Mjondalen,2152,1,3,True
+562745,2020-07-01T16:00:00+00:00,FT,Regular Season - 5,Viking,759,Sandefjord,332,2,0,True
+562749,2020-07-01T18:30:00+00:00,FT,Regular Season - 5,Rosenborg,331,Valerenga,326,1,1,True
+562750,2020-07-02T16:00:00+00:00,FT,Regular Season - 5,Kristiansund BK,320,Molde,329,2,2,True
+562751,2020-07-02T18:30:00+00:00,FT,Regular Season - 5,Sarpsborg 08 FF,333,Brann,319,0,1,True
+562752,2020-07-04T16:00:00+00:00,FT,Regular Season - 6,Start,334,Viking,759,1,1,True
+562753,2020-07-04T18:30:00+00:00,FT,Regular Season - 6,Valerenga,326,Aalesund,757,2,2,True
+562756,2020-07-05T16:00:00+00:00,FT,Regular Season - 6,Stromsgodset,324,Kristiansund BK,320,2,2,True
+562755,2020-07-05T16:00:00+00:00,FT,Regular Season - 6,Bodo/Glimt,327,Brann,319,5,0,True
+562754,2020-07-05T16:00:00+00:00,FT,Regular Season - 6,Molde,329,Mjondalen,2152,2,1,True
+562758,2020-07-05T16:00:00+00:00,FT,Regular Season - 6,ODD Ballklubb,330,Haugesund,328,0,0,True
+562757,2020-07-05T16:00:00+00:00,FT,Regular Season - 6,Sandefjord,332,Sarpsborg 08 FF,333,0,3,True
+562759,2020-07-05T18:30:00+00:00,FT,Regular Season - 6,Stabaek,323,Rosenborg,331,0,3,True
+562760,2020-07-11T16:00:00+00:00,FT,Regular Season - 7,Haugesund,328,Molde,329,0,3,True
+562761,2020-07-11T18:30:00+00:00,FT,Regular Season - 7,Rosenborg,331,Stromsgodset,324,3,0,True
+562763,2020-07-12T16:00:00+00:00,FT,Regular Season - 7,Kristiansund BK,320,Stabaek,323,1,2,True
+562764,2020-07-12T16:00:00+00:00,FT,Regular Season - 7,Sarpsborg 08 FF,333,Start,334,1,0,True
+562765,2020-07-12T16:00:00+00:00,FT,Regular Season - 7,Aalesund,757,Bodo/Glimt,327,1,6,True
+562762,2020-07-12T16:00:00+00:00,FT,Regular Season - 7,Viking,759,ODD Ballklubb,330,1,2,True
+562766,2020-07-12T16:00:00+00:00,FT,Regular Season - 7,Mjondalen,2152,Valerenga,326,0,1,True
+562767,2020-07-12T18:30:00+00:00,FT,Regular Season - 7,Brann,319,Sandefjord,332,3,1,True
+566428,2020-07-15T16:00:00+00:00,FT,Regular Season - 8,Stromsgodset,324,Mjondalen,2152,2,1,True
+566429,2020-07-15T16:00:00+00:00,FT,Regular Season - 8,Valerenga,326,Haugesund,328,1,0,True
+566427,2020-07-15T16:00:00+00:00,FT,Regular Season - 8,Bodo/Glimt,327,Kristiansund BK,320,2,1,True
+566425,2020-07-15T16:00:00+00:00,FT,Regular Season - 8,Molde,329,Viking,759,5,0,True
+566426,2020-07-15T16:00:00+00:00,FT,Regular Season - 8,Sandefjord,332,Aalesund,757,1,0,True
+566430,2020-07-15T18:30:00+00:00,FT,Regular Season - 8,ODD Ballklubb,330,Brann,319,1,0,True
+566431,2020-07-16T16:00:00+00:00,FT,Regular Season - 8,Stabaek,323,Sarpsborg 08 FF,333,1,1,True
+566432,2020-07-16T18:30:00+00:00,FT,Regular Season - 8,Start,334,Rosenborg,331,0,0,True
+566433,2020-07-18T16:00:00+00:00,FT,Regular Season - 9,Mjondalen,2152,Bodo/Glimt,327,2,3,True
+566434,2020-07-18T18:30:00+00:00,FT,Regular Season - 9,Haugesund,328,Viking,759,0,2,True
+566435,2020-07-19T16:00:00+00:00,FT,Regular Season - 9,Kristiansund BK,320,Valerenga,326,0,0,True
+566438,2020-07-19T16:00:00+00:00,FT,Regular Season - 9,Stromsgodset,324,Molde,329,0,4,True
+566436,2020-07-19T16:00:00+00:00,FT,Regular Season - 9,Rosenborg,331,Sandefjord,332,2,1,True
+566437,2020-07-19T16:00:00+00:00,FT,Regular Season - 9,Sarpsborg 08 FF,333,ODD Ballklubb,330,2,0,True
+566439,2020-07-19T16:00:00+00:00,FT,Regular Season - 9,Aalesund,757,Stabaek,323,1,3,True
+566440,2020-07-19T18:30:00+00:00,FT,Regular Season - 9,Brann,319,Start,334,1,1,True
+566441,2020-07-25T16:00:00+00:00,FT,Regular Season - 10,ODD Ballklubb,330,Aalesund,757,3,2,True
+566442,2020-07-25T18:30:00+00:00,FT,Regular Season - 10,Brann,319,Kristiansund BK,320,1,1,True
+566446,2020-07-26T16:00:00+00:00,FT,Regular Season - 10,Valerenga,326,Stromsgodset,324,2,0,True
+566444,2020-07-26T16:00:00+00:00,FT,Regular Season - 10,Bodo/Glimt,327,Molde,329,3,1,True
+566445,2020-07-26T16:00:00+00:00,FT,Regular Season - 10,Sandefjord,332,Mjondalen,2152,1,0,True
+566447,2020-07-26T16:00:00+00:00,FT,Regular Season - 10,Start,334,Stabaek,323,0,0,True
+566443,2020-07-26T16:00:00+00:00,FT,Regular Season - 10,Viking,759,Sarpsborg 08 FF,333,3,0,True
+566448,2020-07-26T18:30:00+00:00,FT,Regular Season - 10,Haugesund,328,Rosenborg,331,1,0,True
+566449,2020-07-29T16:00:00+00:00,FT,Regular Season - 11,Kristiansund BK,320,Sandefjord,332,3,1,True
+566451,2020-07-29T16:00:00+00:00,FT,Regular Season - 11,Stromsgodset,324,Brann,319,3,1,True
+566453,2020-07-29T16:00:00+00:00,FT,Regular Season - 11,Sarpsborg 08 FF,333,Haugesund,328,0,0,True
+566450,2020-07-29T16:00:00+00:00,FT,Regular Season - 11,Aalesund,757,Start,334,3,2,True
+566452,2020-07-29T16:00:00+00:00,FT,Regular Season - 11,Mjondalen,2152,ODD Ballklubb,330,0,2,True
+566454,2020-07-29T18:30:00+00:00,FT,Regular Season - 11,Molde,329,Valerenga,326,4,1,True
+566455,2020-07-30T16:00:00+00:00,FT,Regular Season - 11,Stabaek,323,Bodo/Glimt,327,2,2,True
+566456,2020-07-30T18:30:00+00:00,FT,Regular Season - 11,Rosenborg,331,Viking,759,3,0,True
+566457,2020-08-01T16:00:00+00:00,FT,Regular Season - 12,Sandefjord,332,Molde,329,2,1,True
+566458,2020-08-01T18:30:00+00:00,FT,Regular Season - 12,Brann,319,Valerenga,326,1,2,True
+566460,2020-08-02T16:00:00+00:00,FT,Regular Season - 12,Bodo/Glimt,327,Stromsgodset,324,3,2,True
+566462,2020-08-02T16:00:00+00:00,FT,Regular Season - 12,Haugesund,328,Stabaek,323,3,1,True
+566461,2020-08-02T16:00:00+00:00,FT,Regular Season - 12,Sarpsborg 08 FF,333,Aalesund,757,4,0,True
+566463,2020-08-02T16:00:00+00:00,FT,Regular Season - 12,Start,334,Mjondalen,2152,3,0,True
+566459,2020-08-02T16:00:00+00:00,FT,Regular Season - 12,Viking,759,Kristiansund BK,320,1,2,True
+566464,2020-08-02T18:30:00+00:00,FT,Regular Season - 12,ODD Ballklubb,330,Rosenborg,331,2,1,True
+571402,2020-08-05T17:00:00+00:00,FT,Regular Season - 17,Molde,329,Start,334,5,0,True
+566465,2020-08-08T16:00:00+00:00,FT,Regular Season - 13,Valerenga,326,Bodo/Glimt,327,2,2,True
+566467,2020-08-09T16:00:00+00:00,FT,Regular Season - 13,Kristiansund BK,320,Start,334,3,2,True
+566466,2020-08-09T16:00:00+00:00,FT,Regular Season - 13,Stabaek,323,ODD Ballklubb,330,0,1,True
+566468,2020-08-09T16:00:00+00:00,FT,Regular Season - 13,Stromsgodset,324,Sandefjord,332,3,4,True
+566470,2020-08-09T16:00:00+00:00,FT,Regular Season - 13,Aalesund,757,Viking,759,2,2,True
+566469,2020-08-09T16:00:00+00:00,FT,Regular Season - 13,Mjondalen,2152,Haugesund,328,1,0,True
+566471,2020-08-09T18:30:00+00:00,FT,Regular Season - 13,Rosenborg,331,Sarpsborg 08 FF,333,5,1,True
+566472,2020-08-10T18:30:00+00:00,FT,Regular Season - 13,Molde,329,Brann,319,1,2,True
+566473,2020-08-15T14:00:00+00:00,FT,Regular Season - 14,Sarpsborg 08 FF,333,Molde,329,2,1,True
+566477,2020-08-16T16:00:00+00:00,FT,Regular Season - 14,Brann,319,Mjondalen,2152,0,1,True
+566476,2020-08-16T16:00:00+00:00,FT,Regular Season - 14,Haugesund,328,Stromsgodset,324,2,3,True
+566475,2020-08-16T16:00:00+00:00,FT,Regular Season - 14,ODD Ballklubb,330,Kristiansund BK,320,2,1,True
+566478,2020-08-16T16:00:00+00:00,FT,Regular Season - 14,Sandefjord,332,Bodo/Glimt,327,1,2,True
+566474,2020-08-16T16:00:00+00:00,FT,Regular Season - 14,Viking,759,Stabaek,323,3,3,True
+566479,2020-08-16T18:30:00+00:00,FT,Regular Season - 14,Rosenborg,331,Aalesund,757,3,2,True
+566480,2020-08-17T18:30:00+00:00,FT,Regular Season - 14,Start,334,Valerenga,326,2,1,True
+566481,2020-08-22T13:00:00+00:00,FT,Regular Season - 15,Molde,329,ODD Ballklubb,330,2,0,True
+566482,2020-08-22T16:00:00+00:00,FT,Regular Season - 15,Kristiansund BK,320,Sarpsborg 08 FF,333,4,1,True
+566485,2020-08-22T16:00:00+00:00,FT,Regular Season - 15,Stromsgodset,324,Viking,759,0,2,True
+566484,2020-08-22T16:00:00+00:00,FT,Regular Season - 15,Valerenga,326,Sandefjord,332,2,1,True
+566483,2020-08-22T16:00:00+00:00,FT,Regular Season - 15,Bodo/Glimt,327,Start,334,6,0,True
+566486,2020-08-22T16:00:00+00:00,FT,Regular Season - 15,Aalesund,757,Haugesund,328,1,3,True
+566487,2020-08-22T18:30:00+00:00,FT,Regular Season - 15,Mjondalen,2152,Rosenborg,331,0,2,True
+566488,2020-08-24T18:30:00+00:00,FT,Regular Season - 15,Stabaek,323,Brann,319,0,2,True
+566489,2020-08-29T16:00:00+00:00,FT,Regular Season - 16,Haugesund,328,Valerenga,326,2,1,True
+566490,2020-08-29T18:30:00+00:00,FT,Regular Season - 16,Brann,319,Stromsgodset,324,1,1,True
+566491,2020-08-30T16:00:00+00:00,FT,Regular Season - 16,ODD Ballklubb,330,Mjondalen,2152,6,1,True
+566492,2020-08-30T16:00:00+00:00,FT,Regular Season - 16,Rosenborg,331,Stabaek,323,2,2,True
+566494,2020-08-30T16:00:00+00:00,FT,Regular Season - 16,Sarpsborg 08 FF,333,Bodo/Glimt,327,0,3,True
+566495,2020-08-30T16:00:00+00:00,FT,Regular Season - 16,Start,334,Aalesund,757,1,0,True
+566493,2020-08-30T17:00:00+00:00,FT,Regular Season - 16,Sandefjord,332,Kristiansund BK,320,0,2,True
+566496,2020-08-30T18:30:00+00:00,FT,Regular Season - 16,Viking,759,Molde,329,3,2,True
+588942,2020-09-12T16:00:00+00:00,FT,Regular Season - 17,Kristiansund BK,320,Viking,759,3,5,True
+588943,2020-09-12T18:30:00+00:00,FT,Regular Season - 17,Stabaek,323,Haugesund,328,2,1,True
+588945,2020-09-13T16:00:00+00:00,FT,Regular Season - 17,Stromsgodset,324,Rosenborg,331,3,3,True
+588947,2020-09-13T16:00:00+00:00,FT,Regular Season - 17,Bodo/Glimt,327,ODD Ballklubb,330,6,1,True
+588944,2020-09-13T16:00:00+00:00,FT,Regular Season - 17,Aalesund,757,Sarpsborg 08 FF,333,0,1,True
+588946,2020-09-13T16:00:00+00:00,FT,Regular Season - 17,Mjondalen,2152,Sandefjord,332,0,2,True
+588948,2020-09-13T18:30:00+00:00,FT,Regular Season - 17,Valerenga,326,Brann,319,5,1,True
+588949,2020-09-19T16:00:00+00:00,FT,Regular Season - 18,Valerenga,326,Molde,329,2,1,True
+588950,2020-09-19T18:30:00+00:00,FT,Regular Season - 18,Sarpsborg 08 FF,333,Mjondalen,2152,2,0,True
+588953,2020-09-20T16:00:00+00:00,FT,Regular Season - 18,Brann,319,Bodo/Glimt,327,1,3,True
+588955,2020-09-20T16:00:00+00:00,FT,Regular Season - 18,Rosenborg,331,Haugesund,328,2,1,True
+588952,2020-09-20T16:00:00+00:00,FT,Regular Season - 18,Sandefjord,332,Stromsgodset,324,0,0,True
+588951,2020-09-20T16:00:00+00:00,FT,Regular Season - 18,Start,334,Kristiansund BK,320,1,2,True
+588954,2020-09-20T16:00:00+00:00,FT,Regular Season - 18,Viking,759,Aalesund,757,5,2,True
+588956,2020-09-20T18:30:00+00:00,FT,Regular Season - 18,ODD Ballklubb,330,Stabaek,323,2,0,True
+588957,2020-09-26T16:00:00+00:00,FT,Regular Season - 19,Molde,329,Sandefjord,332,0,1,True
+588958,2020-09-26T18:30:00+00:00,FT,Regular Season - 19,Stromsgodset,324,Sarpsborg 08 FF,333,0,0,True
+588961,2020-09-27T16:00:00+00:00,FT,Regular Season - 19,Kristiansund BK,320,Brann,319,1,1,True
+588963,2020-09-27T16:00:00+00:00,FT,Regular Season - 19,Stabaek,323,Start,334,2,0,True
+588959,2020-09-27T16:00:00+00:00,FT,Regular Season - 19,Haugesund,328,ODD Ballklubb,330,4,4,True
+588962,2020-09-27T16:00:00+00:00,FT,Regular Season - 19,Aalesund,757,Rosenborg,331,1,2,True
+588960,2020-09-27T16:00:00+00:00,FT,Regular Season - 19,Mjondalen,2152,Viking,759,1,2,True
+588964,2020-09-27T18:30:00+00:00,FT,Regular Season - 19,Bodo/Glimt,327,Valerenga,326,2,0,True
+588965,2020-10-03T16:00:00+00:00,FT,Regular Season - 20,Sarpsborg 08 FF,333,Stabaek,323,4,0,True
+588966,2020-10-03T18:30:00+00:00,FT,Regular Season - 20,Valerenga,326,Mjondalen,2152,4,1,True
+588968,2020-10-04T16:00:00+00:00,FT,Regular Season - 20,Brann,319,Molde,329,1,2,True
+588969,2020-10-04T16:00:00+00:00,FT,Regular Season - 20,Bodo/Glimt,327,Sandefjord,332,2,1,True
+588971,2020-10-04T16:00:00+00:00,FT,Regular Season - 20,Start,334,Haugesund,328,5,1,True
+588967,2020-10-04T16:00:00+00:00,FT,Regular Season - 20,Aalesund,757,Kristiansund BK,320,1,2,True
+588970,2020-10-04T16:00:00+00:00,FT,Regular Season - 20,Viking,759,Stromsgodset,324,2,2,True
+588972,2020-10-04T18:30:00+00:00,FT,Regular Season - 20,Rosenborg,331,ODD Ballklubb,330,4,1,True
+628492,2020-10-17T16:00:00+00:00,FT,Regular Season - 21,Mjondalen,2152,Brann,319,2,0,True
+628486,2020-10-17T18:30:00+00:00,FT,Regular Season - 21,Molde,329,Bodo/Glimt,327,4,2,True
+628488,2020-10-18T16:00:00+00:00,FT,Regular Season - 21,Kristiansund BK,320,Rosenborg,331,0,0,True
+628490,2020-10-18T16:00:00+00:00,FT,Regular Season - 21,Stabaek,323,Aalesund,757,4,0,True
+628491,2020-10-18T16:00:00+00:00,FT,Regular Season - 21,Stromsgodset,324,Start,334,1,1,True
+628489,2020-10-18T16:00:00+00:00,FT,Regular Season - 21,Haugesund,328,Sarpsborg 08 FF,333,2,0,True
+628493,2020-10-18T18:30:00+00:00,FT,Regular Season - 21,Sandefjord,332,Valerenga,326,0,3,True
+628501,2020-10-24T16:00:00+00:00,FT,Regular Season - 22,Start,334,Sandefjord,332,0,1,True
+628497,2020-10-24T18:30:00+00:00,FT,Regular Season - 22,Brann,319,Stabaek,323,1,1,True
+628498,2020-10-25T17:00:00+00:00,FT,Regular Season - 22,Valerenga,326,Kristiansund BK,320,1,1,True
+628494,2020-10-25T17:00:00+00:00,FT,Regular Season - 22,Molde,329,Stromsgodset,324,2,1,True
+628499,2020-10-25T17:00:00+00:00,FT,Regular Season - 22,Sarpsborg 08 FF,333,Rosenborg,331,1,2,True
+628500,2020-10-25T17:00:00+00:00,FT,Regular Season - 22,Aalesund,757,ODD Ballklubb,330,0,3,True
+628495,2020-10-25T19:30:00+00:00,FT,Regular Season - 22,Bodo/Glimt,327,Mjondalen,2152,2,0,True
+628496,2020-10-27T18:00:00+00:00,FT,Regular Season - 22,Viking,759,Haugesund,328,0,1,True
+628503,2020-10-31T17:00:00+00:00,FT,Regular Season - 23,ODD Ballklubb,330,Sarpsborg 08 FF,333,1,1,True
+628505,2020-10-31T19:30:00+00:00,FT,Regular Season - 23,Haugesund,328,Aalesund,757,0,1,True
+628508,2020-11-01T14:00:00+00:00,FT,Regular Season - 23,Mjondalen,2152,Molde,329,1,3,True
+628504,2020-11-01T17:00:00+00:00,FT,Regular Season - 23,Kristiansund BK,320,Bodo/Glimt,327,2,3,True
+628506,2020-11-01T17:00:00+00:00,FT,Regular Season - 23,Stabaek,323,Viking,759,1,1,True
+628502,2020-11-01T17:00:00+00:00,FT,Regular Season - 23,Rosenborg,331,Start,334,1,0,True
+628509,2020-11-01T17:00:00+00:00,FT,Regular Season - 23,Sandefjord,332,Brann,319,3,3,True
+628507,2020-11-01T19:30:00+00:00,FT,Regular Season - 23,Stromsgodset,324,Valerenga,326,0,2,True
+628487,2020-11-04T18:00:00+00:00,FT,Regular Season - 21,ODD Ballklubb,330,Viking,759,3,0,True
+628515,2020-11-07T17:00:00+00:00,FT,Regular Season - 24,Mjondalen,2152,Stromsgodset,324,3,0,True
+628513,2020-11-07T19:30:00+00:00,FT,Regular Season - 24,Brann,319,Haugesund,328,1,2,True
+628511,2020-11-08T17:00:00+00:00,FT,Regular Season - 24,Bodo/Glimt,327,Aalesund,757,7,0,True
+628510,2020-11-08T17:00:00+00:00,FT,Regular Season - 24,Molde,329,Kristiansund BK,320,2,2,True
+628516,2020-11-08T17:00:00+00:00,FT,Regular Season - 24,Sandefjord,332,Stabaek,323,0,0,True
+628517,2020-11-08T17:00:00+00:00,FT,Regular Season - 24,Start,334,Sarpsborg 08 FF,333,3,2,True
+628512,2020-11-08T17:00:00+00:00,FT,Regular Season - 24,Viking,759,Rosenborg,331,3,0,True
+628514,2020-11-08T19:30:00+00:00,FT,Regular Season - 24,Valerenga,326,ODD Ballklubb,330,2,0,True
+628522,2020-11-21T15:00:00+00:00,FT,Regular Season - 25,Stabaek,323,Molde,329,0,3,True
+628525,2020-11-21T17:00:00+00:00,FT,Regular Season - 25,Aalesund,757,Valerenga,326,1,1,True
+628520,2020-11-22T17:00:00+00:00,FT,Regular Season - 25,Kristiansund BK,320,Mjondalen,2152,1,0,True
+628521,2020-11-22T17:00:00+00:00,FT,Regular Season - 25,Haugesund,328,Sandefjord,332,3,2,True
+628519,2020-11-22T17:00:00+00:00,FT,Regular Season - 25,ODD Ballklubb,330,Start,334,1,2,True
+628524,2020-11-22T17:00:00+00:00,FT,Regular Season - 25,Sarpsborg 08 FF,333,Viking,759,1,2,True
+628523,2020-11-22T19:00:00+00:00,FT,Regular Season - 25,Stromsgodset,324,Bodo/Glimt,327,1,2,True
+628518,2020-11-24T18:00:00+00:00,FT,Regular Season - 25,Rosenborg,331,Brann,319,2,3,True
+628528,2020-11-28T15:00:00+00:00,FT,Regular Season - 26,Viking,759,Start,334,4,1,True
+628530,2020-11-28T17:00:00+00:00,FT,Regular Season - 26,Brann,319,Aalesund,757,3,1,True
+628529,2020-11-29T17:00:00+00:00,FT,Regular Season - 26,Kristiansund BK,320,Stromsgodset,324,2,1,True
+628527,2020-11-29T17:00:00+00:00,FT,Regular Season - 26,Bodo/Glimt,327,Rosenborg,331,5,1,True
+628526,2020-11-29T17:00:00+00:00,FT,Regular Season - 26,Molde,329,Haugesund,328,3,1,True
+628532,2020-11-29T17:00:00+00:00,FT,Regular Season - 26,Mjondalen,2152,Stabaek,323,0,1,True
+628531,2020-11-29T19:00:00+00:00,FT,Regular Season - 26,Valerenga,326,Sarpsborg 08 FF,333,1,1,True
+628537,2020-12-02T17:00:00+00:00,FT,Regular Season - 27,Haugesund,328,Mjondalen,2152,1,1,True
+628539,2020-12-02T17:00:00+00:00,FT,Regular Season - 27,Sarpsborg 08 FF,333,Kristiansund BK,320,1,1,True
+628541,2020-12-02T17:00:00+00:00,FT,Regular Season - 27,Start,334,Bodo/Glimt,327,1,1,True
+628540,2020-12-02T17:00:00+00:00,FT,Regular Season - 27,Aalesund,757,Sandefjord,332,0,1,True
+628536,2020-12-02T17:00:00+00:00,FT,Regular Season - 27,Viking,759,Brann,319,2,0,True
+628538,2020-12-02T19:00:00+00:00,FT,Regular Season - 27,Stabaek,323,Valerenga,326,1,1,True
+628545,2020-12-06T16:00:00+00:00,FT,Regular Season - 28,Brann,319,Sarpsborg 08 FF,333,1,1,True
+628547,2020-12-06T16:00:00+00:00,FT,Regular Season - 28,Stromsgodset,324,Haugesund,328,2,2,True
+628543,2020-12-06T16:00:00+00:00,FT,Regular Season - 28,Bodo/Glimt,327,Stabaek,323,5,2,True
+628549,2020-12-06T16:00:00+00:00,FT,Regular Season - 28,Sandefjord,332,Viking,759,2,2,True
+628548,2020-12-06T16:00:00+00:00,FT,Regular Season - 28,Mjondalen,2152,Start,334,1,0,True
+628542,2020-12-06T18:00:00+00:00,FT,Regular Season - 28,Molde,329,Aalesund,757,2,1,True
+628546,2020-12-07T17:00:00+00:00,FT,Regular Season - 28,Valerenga,326,Rosenborg,331,1,0,True
+628544,2020-12-09T17:00:00+00:00,FT,Regular Season - 28,Kristiansund BK,320,ODD Ballklubb,330,4,3,True
+628553,2020-12-09T17:00:00+00:00,FT,Regular Season - 29,Haugesund,328,Bodo/Glimt,327,0,4,True
+628555,2020-12-09T17:00:00+00:00,FT,Regular Season - 29,Sarpsborg 08 FF,333,Sandefjord,332,0,0,True
+628556,2020-12-09T17:00:00+00:00,FT,Regular Season - 29,Aalesund,757,Stromsgodset,324,1,4,True
+628557,2020-12-09T19:00:00+00:00,FT,Regular Season - 29,Start,334,Brann,319,1,1,True
+628550,2020-12-10T17:00:00+00:00,FT,Regular Season - 29,Rosenborg,331,Mjondalen,2152,1,0,True
+628552,2020-12-10T17:00:00+00:00,FT,Regular Season - 29,Viking,759,Valerenga,326,2,2,True
+628554,2020-12-13T17:00:00+00:00,FT,Regular Season - 29,Stabaek,323,Kristiansund BK,320,2,2,True
+628534,2020-12-13T17:00:00+00:00,FT,Regular Season - 27,Rosenborg,331,Molde,329,3,1,True
+628533,2020-12-13T17:00:00+00:00,FT,Regular Season - 26,Sandefjord,332,ODD Ballklubb,330,1,1,True
+628551,2020-12-16T17:00:00+00:00,FT,Regular Season - 29,ODD Ballklubb,330,Molde,329,1,4,True
+628558,2020-12-19T14:30:00+00:00,FT,Regular Season - 30,Molde,329,Sarpsborg 08 FF,333,5,0,True
+628559,2020-12-19T17:00:00+00:00,FT,Regular Season - 30,Bodo/Glimt,327,Viking,759,3,0,True
+628535,2020-12-19T17:00:00+00:00,FT,Regular Season - 27,ODD Ballklubb,330,Stromsgodset,324,1,3,True
+628561,2020-12-22T17:00:00+00:00,FT,Regular Season - 30,Brann,319,ODD Ballklubb,330,2,1,True
+628560,2020-12-22T17:00:00+00:00,FT,Regular Season - 30,Kristiansund BK,320,Haugesund,328,1,3,True
+628563,2020-12-22T17:00:00+00:00,FT,Regular Season - 30,Stromsgodset,324,Stabaek,323,0,4,True
+628562,2020-12-22T17:00:00+00:00,FT,Regular Season - 30,Valerenga,326,Start,334,4,0,True
+628565,2020-12-22T17:00:00+00:00,FT,Regular Season - 30,Sandefjord,332,Rosenborg,331,0,0,True
+628564,2020-12-22T17:00:00+00:00,FT,Regular Season - 30,Mjondalen,2152,Aalesund,757,3,0,True
+654341,2020-12-28T16:00:00+00:00,FT,Final,Mjondalen,2152,Sogndal,758,3,2,True

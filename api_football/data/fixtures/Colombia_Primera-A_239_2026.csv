@@ -1,395 +1,395 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1549711,2026-08-06T01:30:00+00:00,1H,Once Caldas,1136,America de Cali,1138,0,0,False
-1498269,2026-01-16T23:20:00+00:00,FT,Deportivo Pereira,1462,Llaneros,1464,0,2,True
-1498266,2026-01-17T01:30:00+00:00,FT,Fortaleza FC,1147,Alianza Valledupar,1141,1,0,True
-1498261,2026-01-17T21:10:00+00:00,FT,America de Cali,1138,Internacional de Bogota,1134,3,0,True
-1498262,2026-01-17T23:20:00+00:00,FT,Atletico Nacional,1137,Chico,1132,4,0,True
-1498263,2026-01-18T01:30:00+00:00,FT,Bucaramanga,1131,Millonarios,1125,2,1,True
-1498265,2026-01-18T19:00:00+00:00,FT,Deportivo Pasto,1126,Independiente Medellin,1128,1,0,True
-1498267,2026-01-18T21:10:00+00:00,FT,Jaguares,1133,Deportivo Cali,1127,1,0,True
-1498268,2026-01-18T23:20:00+00:00,FT,Junior,1135,Deportes Tolima,1142,0,2,True
-1498270,2026-01-19T01:30:00+00:00,FT,Santa Fe,1139,Águilas Doradas,1144,1,1,True
-1498264,2026-01-19T21:00:00+00:00,FT,Cucuta,1470,Once Caldas,1136,1,2,True
-1505937,2026-01-23T23:20:00+00:00,FT,Internacional de Bogota,1134,Cucuta,1470,2,1,True
-1505938,2026-01-24T01:30:00+00:00,FT,Deportes Tolima,1142,Alianza Valledupar,1141,2,0,True
-1505939,2026-01-24T19:00:00+00:00,FT,Deportivo Pereira,1462,Fortaleza FC,1147,0,0,True
-1505940,2026-01-24T21:10:00+00:00,FT,Llaneros,1464,Bucaramanga,1131,1,1,True
-1505941,2026-01-24T23:20:00+00:00,FT,Deportivo Cali,1127,Independiente Medellin,1128,3,1,True
-1505942,2026-01-25T01:30:00+00:00,FT,Chico,1132,America de Cali,1138,0,1,True
-1505943,2026-01-25T21:00:00+00:00,FT,Águilas Doradas,1144,Deportivo Pasto,1126,1,2,True
-1505944,2026-01-25T23:10:00+00:00,FT,Millonarios,1125,Junior,1135,1,2,True
-1505945,2026-01-26T01:20:00+00:00,FT,Once Caldas,1136,Santa Fe,1139,1,1,True
-1505947,2026-01-27T21:00:00+00:00,FT,Cucuta,1470,Bucaramanga,1131,2,2,True
-1505948,2026-01-27T23:20:00+00:00,FT,Fortaleza FC,1147,Llaneros,1464,1,1,True
-1505949,2026-01-28T01:30:00+00:00,FT,Independiente Medellin,1128,Deportes Tolima,1142,2,2,True
-1505950,2026-01-28T21:10:00+00:00,FT,Alianza Valledupar,1141,Chico,1132,1,1,True
-1505951,2026-01-28T23:30:00+00:00,FT,Santa Fe,1139,Deportivo Pereira,1462,2,2,True
-1505952,2026-01-29T01:30:00+00:00,FT,Deportivo Pasto,1126,Millonarios,1125,2,1,True
-1505953,2026-01-29T21:00:00+00:00,FT,Águilas Doradas,1144,Deportivo Cali,1127,2,1,True
-1505954,2026-01-29T23:10:00+00:00,FT,Jaguares,1133,Internacional de Bogota,1134,2,3,True
-1505955,2026-01-30T01:20:00+00:00,FT,America de Cali,1138,Once Caldas,1136,1,1,True
-1505957,2026-01-31T21:00:00+00:00,FT,Cucuta,1470,Fortaleza FC,1147,1,1,True
-1505958,2026-01-31T23:10:00+00:00,FT,Chico,1132,Santa Fe,1139,0,1,True
-1505960,2026-02-01T19:00:00+00:00,FT,Bucaramanga,1131,Alianza Valledupar,1141,5,0,True
-1505961,2026-02-01T21:10:00+00:00,FT,Deportivo Cali,1127,Deportivo Pasto,1126,3,0,True
-1505962,2026-02-01T23:10:00+00:00,FT,Once Caldas,1136,Jaguares,1133,1,1,True
-1505963,2026-02-02T01:30:00+00:00,FT,Llaneros,1464,Águilas Doradas,1144,1,1,True
-1505959,2026-02-02T20:00:00+00:00,FT,Millonarios,1125,Independiente Medellin,1128,0,0,True
-1505964,2026-02-02T23:20:00+00:00,FT,Internacional de Bogota,1134,Deportes Tolima,1142,0,0,True
-1505965,2026-02-03T01:30:00+00:00,FT,Deportivo Pereira,1462,Junior,1135,2,3,True
-1505966,2026-02-05T01:00:00+00:00,FT,Atletico Nacional,1137,America de Cali,1138,2,1,True
-1505967,2026-02-06T23:20:00+00:00,FT,Deportivo Pasto,1126,Bucaramanga,1131,0,0,True
-1505968,2026-02-07T01:30:00+00:00,FT,Independiente Medellin,1128,Internacional de Bogota,1134,1,2,True
-1505969,2026-02-07T19:00:00+00:00,FT,Águilas Doradas,1144,Cucuta,1470,3,2,True
-1505970,2026-02-07T21:10:00+00:00,FT,Deportes Tolima,1142,Llaneros,1464,0,1,True
-1506011,2026-02-07T23:20:00+00:00,FT,Fortaleza FC,1147,Santa Fe,1139,1,1,True
-1505972,2026-02-08T01:30:00+00:00,FT,Junior,1135,Chico,1132,3,0,True
-1505974,2026-02-08T21:10:00+00:00,FT,Alianza Valledupar,1141,Once Caldas,1136,1,1,True
-1505975,2026-02-08T23:20:00+00:00,FT,Deportivo Cali,1127,Millonarios,1125,0,0,True
-1505976,2026-02-09T01:30:00+00:00,FT,Jaguares,1133,Deportivo Pereira,1462,1,0,True
-1505977,2026-02-10T21:00:00+00:00,FT,Cucuta,1470,Independiente Medellin,1128,1,3,True
-1505978,2026-02-10T23:20:00+00:00,FT,Llaneros,1464,Deportivo Pasto,1126,0,1,True
-1505979,2026-02-11T01:30:00+00:00,FT,Bucaramanga,1131,Deportes Tolima,1142,0,0,True
-1505981,2026-02-11T23:30:00+00:00,FT,Millonarios,1125,Águilas Doradas,1144,1,0,True
-1505980,2026-02-12T01:30:00+00:00,FT,Internacional de Bogota,1134,Deportivo Cali,1127,3,2,True
-1505983,2026-02-12T21:10:00+00:00,FT,Chico,1132,Jaguares,1133,5,0,True
-1505984,2026-02-12T23:20:00+00:00,FT,Once Caldas,1136,Junior,1135,2,1,True
-1505985,2026-02-13T01:30:00+00:00,FT,Atletico Nacional,1137,Fortaleza FC,1147,4,1,True
-1505986,2026-02-14T01:00:00+00:00,FT,America de Cali,1138,Santa Fe,1139,1,0,True
-1505987,2026-02-14T21:30:00+00:00,FT,Millonarios,1125,Llaneros,1464,2,1,True
-1505988,2026-02-14T23:30:00+00:00,FT,Independiente Medellin,1128,Deportivo Pereira,1462,1,1,True
-1505989,2026-02-15T01:30:00+00:00,FT,Deportivo Pasto,1126,Internacional de Bogota,1134,1,1,True
-1505991,2026-02-15T21:20:00+00:00,FT,Deportes Tolima,1142,Once Caldas,1136,2,1,True
-1505992,2026-02-15T23:30:00+00:00,FT,Deportivo Cali,1127,Atletico Nacional,1137,1,0,True
-1505993,2026-02-16T01:30:00+00:00,FT,Fortaleza FC,1147,Chico,1132,2,1,True
-1505996,2026-02-17T21:00:00+00:00,FT,Alianza Valledupar,1141,Cucuta,1470,1,1,True
-1505994,2026-02-17T23:00:00+00:00,FT,Jaguares,1133,Santa Fe,1139,3,1,True
-1505995,2026-02-19T00:30:00+00:00,FT,Junior,1135,America de Cali,1138,2,1,True
-1505997,2026-02-20T23:20:00+00:00,FT,Llaneros,1464,Independiente Medellin,1128,2,2,True
-1506005,2026-02-21T01:30:00+00:00,FT,Deportivo Pereira,1462,Deportivo Pasto,1126,2,2,True
-1505999,2026-02-21T19:00:00+00:00,FT,Once Caldas,1136,Fortaleza FC,1147,4,2,True
-1506000,2026-02-21T21:10:00+00:00,FT,Bucaramanga,1131,Deportivo Cali,1127,0,0,True
-1506001,2026-02-21T23:20:00+00:00,FT,Atletico Nacional,1137,Alianza Valledupar,1141,3,0,True
-1506002,2026-02-22T01:30:00+00:00,FT,Internacional de Bogota,1134,Millonarios,1125,3,2,True
-1506003,2026-02-22T21:00:00+00:00,FT,Santa Fe,1139,Junior,1135,2,1,True
-1506004,2026-02-22T23:10:00+00:00,FT,Chico,1132,Águilas Doradas,1144,0,1,True
-1505998,2026-02-23T01:30:00+00:00,FT,America de Cali,1138,Jaguares,1133,3,0,True
-1506006,2026-02-23T21:00:00+00:00,FT,Cucuta,1470,Deportes Tolima,1142,3,2,True
-1505971,2026-02-26T00:00:00+00:00,FT,Santa Fe,1139,Atletico Nacional,1137,1,2,True
-1506007,2026-02-27T00:30:00+00:00,FT,Millonarios,1125,Deportivo Pereira,1462,5,1,True
-1506009,2026-02-28T01:30:00+00:00,FT,Once Caldas,1136,Chico,1132,3,0,True
-1506010,2026-02-28T21:10:00+00:00,FT,Alianza Valledupar,1141,America de Cali,1138,0,3,True
-1506008,2026-02-28T23:20:00+00:00,FT,Jaguares,1133,Junior,1135,0,2,True
-1506012,2026-03-01T01:30:00+00:00,FT,Independiente Medellin,1128,Bucaramanga,1131,1,2,True
-1506013,2026-03-01T19:00:00+00:00,FT,Deportivo Pasto,1126,Cucuta,1470,3,2,True
-1506014,2026-03-01T21:00:00+00:00,FT,Águilas Doradas,1144,Internacional de Bogota,1134,0,0,True
-1506084,2026-03-01T23:10:00+00:00,FT,Deportivo Cali,1127,Fortaleza FC,1147,1,1,True
-1506016,2026-03-02T01:30:00+00:00,FT,Deportes Tolima,1142,Atletico Nacional,1137,1,0,True
-1506022,2026-03-05T01:00:00+00:00,FT,Fortaleza FC,1147,Jaguares,1133,2,1,True
-1506025,2026-03-05T23:10:00+00:00,FT,Llaneros,1464,Internacional de Bogota,1134,1,1,True
-1506024,2026-03-06T01:20:00+00:00,FT,Junior,1135,Alianza Valledupar,1141,1,1,True
-1506019,2026-03-07T01:30:00+00:00,FT,Deportivo Cali,1127,Once Caldas,1136,0,2,True
-1506017,2026-03-07T21:00:00+00:00,FT,Águilas Doradas,1144,Atletico Nacional,1137,1,2,True
-1506078,2026-03-09T21:00:00+00:00,FT,Llaneros,1464,Jaguares,1133,2,0,True
-1506026,2026-03-09T23:20:00+00:00,FT,Millonarios,1125,Cucuta,1470,2,0,True
-1506021,2026-03-10T01:30:00+00:00,FT,Deportivo Pasto,1126,America de Cali,1138,2,0,True
-1506018,2026-03-10T23:20:00+00:00,FT,Bucaramanga,1131,Deportivo Pereira,1462,3,0,True
-1505956,2026-03-11T01:30:00+00:00,FT,Junior,1135,Atletico Nacional,1137,0,4,True
-1506027,2026-03-13T23:20:00+00:00,FT,Once Caldas,1136,Deportivo Pasto,1126,4,2,True
-1506028,2026-03-14T01:30:00+00:00,FT,Atletico Nacional,1137,Llaneros,1464,2,0,True
-1506029,2026-03-14T19:00:00+00:00,FT,Internacional de Bogota,1134,Bucaramanga,1131,0,0,True
-1506030,2026-03-14T21:10:00+00:00,FT,Cucuta,1470,Deportivo Cali,1127,0,2,True
-1506031,2026-03-14T23:20:00+00:00,FT,Chico,1132,Millonarios,1125,2,1,True
-1506032,2026-03-15T01:30:00+00:00,FT,Santa Fe,1139,Alianza Valledupar,1141,1,1,True
-1506033,2026-03-15T20:30:00+00:00,FT,Deportivo Pereira,1462,Águilas Doradas,1144,0,1,True
-1506034,2026-03-15T21:10:00+00:00,FT,America de Cali,1138,Deportes Tolima,1142,1,1,True
-1506035,2026-03-15T23:20:00+00:00,FT,Jaguares,1133,Independiente Medellin,1128,1,2,True
-1506036,2026-03-16T01:30:00+00:00,FT,Junior,1135,Fortaleza FC,1147,2,1,True
-1506037,2026-03-17T21:10:00+00:00,FT,Llaneros,1464,Cucuta,1470,2,2,True
-1506039,2026-03-18T01:30:00+00:00,FT,Millonarios,1125,Atletico Nacional,1137,3,0,True
-1506040,2026-03-18T21:10:00+00:00,FT,Deportivo Pasto,1126,Chico,1132,2,0,True
-1506041,2026-03-18T23:20:00+00:00,FT,Internacional de Bogota,1134,Deportivo Pereira,1462,2,2,True
-1506038,2026-03-19T00:30:00+00:00,FT,Bucaramanga,1131,Once Caldas,1136,1,1,True
-1506042,2026-03-19T01:30:00+00:00,FT,Deportivo Cali,1127,Santa Fe,1139,1,1,True
-1506043,2026-03-19T21:10:00+00:00,FT,Alianza Valledupar,1141,Jaguares,1133,1,0,True
-1506044,2026-03-19T23:20:00+00:00,FT,Deportes Tolima,1142,Fortaleza FC,1147,2,0,True
-1506045,2026-03-20T01:30:00+00:00,FT,Independiente Medellin,1128,Junior,1135,2,0,True
-1506046,2026-03-20T21:00:00+00:00,FT,Águilas Doradas,1144,America de Cali,1138,0,1,True
-1506047,2026-03-21T23:20:00+00:00,FT,Once Caldas,1136,Millonarios,1125,1,4,True
-1506050,2026-03-22T01:30:00+00:00,FT,Atletico Nacional,1137,Internacional de Bogota,1134,3,0,True
-1506048,2026-03-22T21:00:00+00:00,FT,Alianza Valledupar,1141,Deportivo Cali,1127,1,0,True
-1506051,2026-03-23T19:00:00+00:00,FT,Chico,1132,Deportes Tolima,1142,1,1,True
-1506052,2026-03-23T21:10:00+00:00,FT,Santa Fe,1139,Independiente Medellin,1128,2,1,True
-1506053,2026-03-23T23:20:00+00:00,FT,Jaguares,1133,Águilas Doradas,1144,1,1,True
-1506049,2026-03-24T20:30:00+00:00,FT,Deportivo Pereira,1462,Cucuta,1470,2,2,True
-1506054,2026-03-24T23:00:00+00:00,FT,Junior,1135,Bucaramanga,1131,2,0,True
-1506055,2026-03-25T01:00:00+00:00,FT,Fortaleza FC,1147,Deportivo Pasto,1126,1,2,True
-1506056,2026-03-26T01:00:00+00:00,FT,America de Cali,1138,Llaneros,1464,0,0,True
-1506057,2026-03-27T21:00:00+00:00,FT,Águilas Doradas,1144,Alianza Valledupar,1141,1,0,True
-1506058,2026-03-28T01:10:00+00:00,FT,Bucaramanga,1131,Santa Fe,1139,1,2,True
-1506059,2026-03-28T21:00:00+00:00,FT,Cucuta,1470,Chico,1132,1,0,True
-1506060,2026-03-28T23:10:00+00:00,FT,Deportes Tolima,1142,Jaguares,1133,3,1,True
-1506061,2026-03-29T01:20:00+00:00,FT,Deportivo Cali,1127,Deportivo Pereira,1462,1,0,True
-1506062,2026-03-29T21:10:00+00:00,FT,Internacional de Bogota,1134,Junior,1135,0,1,True
-1506063,2026-03-29T23:20:00+00:00,FT,Deportivo Pasto,1126,Atletico Nacional,1137,1,2,True
-1506065,2026-03-30T15:00:00+00:00,FT,Llaneros,1464,Once Caldas,1136,1,1,True
-1506064,2026-03-30T23:10:00+00:00,FT,Independiente Medellin,1128,America de Cali,1138,2,1,True
-1506066,2026-03-31T01:20:00+00:00,FT,Millonarios,1125,Fortaleza FC,1147,2,2,True
-1506067,2026-04-01T01:00:00+00:00,FT,Deportes Tolima,1142,Águilas Doradas,1144,4,1,True
-1506068,2026-04-01T21:10:00+00:00,FT,Alianza Valledupar,1141,Deportivo Pasto,1126,0,0,True
-1506069,2026-04-01T23:30:00+00:00,FT,Santa Fe,1139,Llaneros,1464,0,1,True
-1506070,2026-04-02T01:30:00+00:00,FT,Atletico Nacional,1137,Cucuta,1470,0,0,True
-1506071,2026-04-02T19:00:00+00:00,FT,Chico,1132,Deportivo Pereira,1462,1,0,True
-1506072,2026-04-02T21:10:00+00:00,FT,America de Cali,1138,Bucaramanga,1131,2,0,True
-1506073,2026-04-02T23:20:00+00:00,FT,Jaguares,1133,Millonarios,1125,1,0,True
-1506074,2026-04-03T01:30:00+00:00,FT,Once Caldas,1136,Independiente Medellin,1128,1,1,True
-1506075,2026-04-03T23:20:00+00:00,FT,Fortaleza FC,1147,Internacional de Bogota,1134,1,1,True
-1506076,2026-04-04T01:30:00+00:00,FT,Junior,1135,Deportivo Cali,1127,1,2,True
-1506020,2026-04-05T00:30:00+00:00,FT,Deportes Tolima,1142,Santa Fe,1139,2,2,True
-1506077,2026-04-05T21:00:00+00:00,FT,Cucuta,1470,America de Cali,1138,2,0,True
-1505982,2026-04-06T20:30:00+00:00,FT,Deportivo Pereira,1462,Alianza Valledupar,1141,2,3,True
-1505946,2026-04-07T01:10:00+00:00,FT,Atletico Nacional,1137,Jaguares,1133,2,1,True
-1505990,2026-04-07T21:00:00+00:00,FT,Águilas Doradas,1144,Bucaramanga,1131,2,1,True
-1506079,2026-04-10T20:30:00+00:00,FT,Deportivo Pereira,1462,Once Caldas,1136,0,0,True
-1506080,2026-04-11T01:05:00+00:00,FT,Deportivo Pasto,1126,Deportes Tolima,1142,1,0,True
-1506083,2026-04-11T21:00:00+00:00,FT,Águilas Doradas,1144,Junior,1135,0,3,True
-1506082,2026-04-12T01:20:00+00:00,FT,Independiente Medellin,1128,Atletico Nacional,1137,2,3,True
-1506081,2026-04-12T19:00:00+00:00,FT,Millonarios,1125,Santa Fe,1139,1,1,True
-1506015,2026-04-12T21:10:00+00:00,FT,Deportivo Cali,1127,Llaneros,1464,1,1,True
-1506085,2026-04-12T23:20:00+00:00,FT,Bucaramanga,1131,Chico,1132,5,0,True
-1506086,2026-04-13T01:30:00+00:00,FT,Internacional de Bogota,1134,Alianza Valledupar,1141,2,1,True
-1506088,2026-04-17T21:00:00+00:00,FT,Chico,1132,Deportivo Cali,1127,1,0,True
-1506087,2026-04-17T21:00:00+00:00,FT,Jaguares,1133,Deportivo Pasto,1126,2,3,True
-1506089,2026-04-18T23:10:00+00:00,FT,Deportes Tolima,1142,Deportivo Pereira,1462,2,0,True
-1506090,2026-04-19T01:30:00+00:00,FT,Fortaleza FC,1147,Águilas Doradas,1144,2,0,True
-1506091,2026-04-19T19:00:00+00:00,FT,Santa Fe,1139,Cucuta,1470,5,0,True
-1506094,2026-04-19T21:10:00+00:00,FT,Alianza Valledupar,1141,Independiente Medellin,1128,0,1,True
-1506093,2026-04-19T23:20:00+00:00,FT,Junior,1135,Llaneros,1464,2,0,True
-1506092,2026-04-20T01:30:00+00:00,FT,America de Cali,1138,Millonarios,1125,3,1,True
-1506095,2026-04-20T23:20:00+00:00,FT,Once Caldas,1136,Internacional de Bogota,1134,2,1,True
-1506096,2026-04-21T01:30:00+00:00,FT,Atletico Nacional,1137,Bucaramanga,1131,2,0,True
-1506023,2026-04-22T23:20:00+00:00,FT,Independiente Medellin,1128,Chico,1132,2,0,True
-1505973,2026-04-23T01:30:00+00:00,FT,Fortaleza FC,1147,America de Cali,1138,1,2,True
-1506099,2026-04-23T23:00:00+00:00,FT,Deportivo Pasto,1126,Santa Fe,1139,1,2,True
-1506097,2026-04-24T01:00:00+00:00,FT,Millonarios,1125,Deportes Tolima,1142,2,0,True
-1506098,2026-04-24T21:00:00+00:00,FT,Cucuta,1470,Junior,1135,1,1,True
-1506100,2026-04-25T19:00:00+00:00,FT,Bucaramanga,1131,Jaguares,1133,2,2,True
-1506103,2026-04-25T21:00:00+00:00,FT,Deportivo Pereira,1462,Atletico Nacional,1137,1,0,True
-1506102,2026-04-25T23:10:00+00:00,FT,Deportivo Cali,1127,America de Cali,1138,1,0,True
-1506101,2026-04-26T01:30:00+00:00,FT,Independiente Medellin,1128,Fortaleza FC,1147,1,0,True
-1506104,2026-04-26T21:00:00+00:00,FT,Águilas Doradas,1144,Once Caldas,1136,2,2,True
-1506105,2026-04-26T23:10:00+00:00,FT,Llaneros,1464,Alianza Valledupar,1141,0,0,True
-1506106,2026-04-27T01:20:00+00:00,FT,Internacional de Bogota,1134,Chico,1132,4,0,True
-1506115,2026-05-01T23:00:00+00:00,FT,Once Caldas,1136,Atletico Nacional,1137,1,0,True
-1506109,2026-05-02T19:00:00+00:00,FT,Chico,1132,Llaneros,1464,3,0,True
-1506113,2026-05-02T21:00:00+00:00,FT,Jaguares,1133,Cucuta,1470,2,0,True
-1506112,2026-05-03T20:30:00+00:00,FT,Independiente Medellin,1128,Águilas Doradas,1144,1,2,True
-1506116,2026-05-03T20:30:00+00:00,FT,Santa Fe,1139,Internacional de Bogota,1134,3,1,True
-1506107,2026-05-03T20:30:00+00:00,FT,Alianza Valledupar,1141,Millonarios,1125,2,2,True
-1506110,2026-05-03T20:30:00+00:00,FT,Deportes Tolima,1142,Deportivo Cali,1127,1,1,True
-1506111,2026-05-03T20:30:00+00:00,FT,Fortaleza FC,1147,Bucaramanga,1131,2,1,True
-1506114,2026-05-03T22:45:00+00:00,FT,Junior,1135,Deportivo Pasto,1126,4,3,True
-1506108,2026-05-03T22:45:00+00:00,FT,America de Cali,1138,Deportivo Pereira,1462,1,0,True
-1544223,2026-05-09T21:00:00+00:00,FT,Internacional de Bogota,1134,Atletico Nacional,1137,1,2,True
-1544224,2026-05-09T23:10:00+00:00,FT,Deportes Tolima,1142,Deportivo Pasto,1126,1,0,True
-1544225,2026-05-10T01:20:00+00:00,FT,America de Cali,1138,Santa Fe,1139,1,1,True
-1544226,2026-05-10T23:10:00+00:00,FT,Once Caldas,1136,Junior,1135,0,1,True
-1544227,2026-05-12T23:20:00+00:00,FT,Atletico Nacional,1137,Internacional de Bogota,1134,7,1,True
-1544228,2026-05-13T01:30:00+00:00,FT,Santa Fe,1139,America de Cali,1138,4,0,True
-1544229,2026-05-13T23:00:00+00:00,FT,Deportivo Pasto,1126,Deportes Tolima,1142,0,2,True
-1544230,2026-05-14T01:15:00+00:00,FT,Junior,1135,Once Caldas,1136,2,2,True
-1545166,2026-05-16T23:00:00+00:00,FT,Deportes Tolima,1142,Atletico Nacional,1137,0,1,True
-1545167,2026-05-17T01:30:00+00:00,FT,Santa Fe,1139,Junior,1135,1,1,True
-1545168,2026-05-23T23:00:00+00:00,FT,Atletico Nacional,1137,Deportes Tolima,1142,3,1,True
-1545169,2026-05-24T01:30:00+00:00,PEN,Junior,1135,Santa Fe,1139,0,0,False
-1546412,2026-06-03T00:30:00+00:00,FT,Junior,1135,Atletico Nacional,1137,3,0,True
-1546413,2026-06-08T22:00:00+00:00,FT,Atletico Nacional,1137,Junior,1135,1,0,True
-1549690,2026-07-24T23:10:00+00:00,FT,Llaneros,1464,Deportivo Pereira,1462,1,0,True
-1549686,2026-07-25T01:15:00+00:00,FT,Deportivo Cali,1127,Jaguares,1133,2,0,True
-1549688,2026-07-25T21:05:00+00:00,FT,Independiente Medellin,1128,Deportivo Pasto,1126,3,2,True
-1549691,2026-07-25T23:10:00+00:00,FT,Millonarios,1125,Bucaramanga,1131,0,1,True
-1549687,2026-07-26T01:15:00+00:00,FT,Deportes Tolima,1142,Junior,1135,2,1,True
-1549689,2026-07-26T19:00:00+00:00,FT,Internacional de Bogota,1134,America de Cali,1138,0,2,True
-1549683,2026-07-26T21:05:00+00:00,FT,Águilas Doradas,1144,Santa Fe,1139,2,1,True
-1549684,2026-07-26T23:10:00+00:00,FT,Alianza Valledupar,1141,Fortaleza FC,1147,1,1,True
-1549692,2026-07-27T01:15:00+00:00,FT,Once Caldas,1136,Cucuta,1470,5,1,True
-1549695,2026-07-31T01:00:00+00:00,FT,Bucaramanga,1131,Llaneros,1464,1,1,True
-1549698,2026-08-01T01:00:00+00:00,FT,Fortaleza FC,1147,Deportivo Pereira,1462,0,0,True
-1549697,2026-08-01T19:00:00+00:00,FT,Deportivo Pasto,1126,Águilas Doradas,1144,1,2,True
-1549693,2026-08-01T21:05:00+00:00,FT,Alianza Valledupar,1141,Deportes Tolima,1142,1,2,True
-1549699,2026-08-01T23:10:00+00:00,FT,Independiente Medellin,1128,Deportivo Cali,1127,1,0,True
-1549701,2026-08-02T01:15:00+00:00,FT,Junior,1135,Millonarios,1125,0,1,True
-1549700,2026-08-02T20:45:00+00:00,FT,Jaguares,1133,Atletico Nacional,1137,0,3,True
-1549694,2026-08-02T22:45:00+00:00,FT,America de Cali,1138,Chico,1132,7,0,True
-1549702,2026-08-03T01:00:00+00:00,FT,Santa Fe,1139,Once Caldas,1136,2,2,True
-1549704,2026-08-04T01:00:00+00:00,FT,Bucaramanga,1131,Cucuta,1470,1,1,True
-1549709,2026-08-04T21:10:00+00:00,FT,Llaneros,1464,Fortaleza FC,1147,3,1,True
-1549707,2026-08-04T23:15:00+00:00,FT,Deportes Tolima,1142,Independiente Medellin,1128,2,3,True
-1549710,2026-08-05T01:20:00+00:00,FT,Millonarios,1125,Deportivo Pasto,1126,2,0,True
-1549708,2026-08-05T23:15:00+00:00,FT,Internacional de Bogota,1134,Jaguares,1133,1,0,True
-1549722,2026-08-08T19:00:00+00:00,NS,Santa Fe,1139,Chico,1132,,,False
-1549718,2026-08-08T21:20:00+00:00,NS,Fortaleza FC,1147,Cucuta,1470,,,False
-1549716,2026-08-08T23:25:00+00:00,NS,Deportes Tolima,1142,Internacional de Bogota,1134,,,False
-1549717,2026-08-09T01:30:00+00:00,NS,Deportivo Pasto,1126,Deportivo Cali,1127,,,False
-1549714,2026-08-09T21:05:00+00:00,NS,Alianza Valledupar,1141,Bucaramanga,1131,,,False
-1549720,2026-08-09T23:10:00+00:00,NS,Jaguares,1133,Once Caldas,1136,,,False
-1549715,2026-08-10T01:15:00+00:00,NS,America de Cali,1138,Atletico Nacional,1137,,,False
-1549713,2026-08-10T21:00:00+00:00,NS,Águilas Doradas,1144,Llaneros,1464,,,False
-1549719,2026-08-10T23:00:00+00:00,NS,Independiente Medellin,1128,Millonarios,1125,,,False
-1549721,2026-08-11T01:05:00+00:00,NS,Junior,1135,Deportivo Pereira,1462,,,False
-1549729,2026-08-14T23:00:00+00:00,NS,Llaneros,1464,Deportes Tolima,1142,,,False
-1549727,2026-08-15T23:05:00+00:00,NS,Cucuta,1470,Águilas Doradas,1144,,,False
-1549724,2026-08-16T01:10:00+00:00,NS,Atletico Nacional,1137,Santa Fe,1139,,,False
-1549732,2026-08-16T21:00:00+00:00,NS,Deportivo Pereira,1462,Jaguares,1133,,,False
-1549723,2026-08-16T23:05:00+00:00,NS,America de Cali,1138,Fortaleza FC,1147,,,False
-1549731,2026-08-17T01:15:00+00:00,NS,Once Caldas,1136,Alianza Valledupar,1141,,,False
-1549728,2026-08-17T19:00:00+00:00,NS,Internacional de Bogota,1134,Independiente Medellin,1128,,,False
-1549725,2026-08-17T21:05:00+00:00,NS,Bucaramanga,1131,Deportivo Pasto,1126,,,False
-1549730,2026-08-17T23:10:00+00:00,NS,Millonarios,1125,Deportivo Cali,1127,,,False
-1549726,2026-08-18T01:15:00+00:00,NS,Chico,1132,Junior,1135,,,False
-1549740,2026-08-21T21:00:00+00:00,NS,Jaguares,1133,Chico,1132,,,False
-1549733,2026-08-22T19:00:00+00:00,NS,Águilas Doradas,1144,Millonarios,1125,,,False
-1549736,2026-08-22T21:05:00+00:00,NS,Deportes Tolima,1142,Bucaramanga,1131,,,False
-1549742,2026-08-22T23:10:00+00:00,NS,Santa Fe,1139,America de Cali,1138,,,False
-1549741,2026-08-23T01:15:00+00:00,NS,Junior,1135,Once Caldas,1136,,,False
-1549738,2026-08-23T19:00:00+00:00,NS,Fortaleza FC,1147,Atletico Nacional,1137,,,False
-1549737,2026-08-23T21:05:00+00:00,NS,Deportivo Pasto,1126,Llaneros,1464,,,False
-1549735,2026-08-23T23:10:00+00:00,NS,Deportivo Cali,1127,Internacional de Bogota,1134,,,False
-1549739,2026-08-24T01:15:00+00:00,NS,Independiente Medellin,1128,Cucuta,1470,,,False
-1549734,2026-08-24T23:00:00+00:00,NS,Alianza Valledupar,1141,Deportivo Pereira,1462,,,False
-1549745,2026-08-25T23:00:00+00:00,NS,Bucaramanga,1131,Águilas Doradas,1144,,,False
-1549752,2026-08-26T01:05:00+00:00,NS,Santa Fe,1139,Jaguares,1133,,,False
-1549746,2026-08-26T19:00:00+00:00,NS,Chico,1132,Fortaleza FC,1147,,,False
-1549748,2026-08-26T21:20:00+00:00,NS,Internacional de Bogota,1134,Deportivo Pasto,1126,,,False
-1549743,2026-08-26T23:25:00+00:00,NS,America de Cali,1138,Junior,1135,,,False
-1549744,2026-08-27T01:30:00+00:00,NS,Atletico Nacional,1137,Deportivo Cali,1127,,,False
-1549749,2026-08-27T23:10:00+00:00,NS,Llaneros,1464,Millonarios,1125,,,False
-1549750,2026-08-28T01:15:00+00:00,NS,Once Caldas,1136,Deportes Tolima,1142,,,False
-1549760,2026-08-29T21:45:00+00:00,NS,Jaguares,1133,America de Cali,1138,,,False
-1549761,2026-08-29T23:30:00+00:00,NS,Junior,1135,Santa Fe,1139,,,False
-1549754,2026-08-30T01:30:00+00:00,NS,Alianza Valledupar,1141,Atletico Nacional,1137,,,False
-1549753,2026-08-30T19:00:00+00:00,NS,Águilas Doradas,1144,Chico,1132,,,False
-1549759,2026-08-30T21:10:00+00:00,NS,Independiente Medellin,1128,Llaneros,1464,,,False
-1549762,2026-08-30T23:15:00+00:00,NS,Millonarios,1125,Internacional de Bogota,1134,,,False
-1549756,2026-08-31T01:20:00+00:00,NS,Deportes Tolima,1142,Cucuta,1470,,,False
-1549757,2026-08-31T23:00:00+00:00,NS,Deportivo Pasto,1126,Deportivo Pereira,1462,,,False
-1549755,2026-09-01T01:05:00+00:00,NS,Deportivo Cali,1127,Bucaramanga,1131,,,False
-1549758,2026-09-02T01:00:00+00:00,NS,Fortaleza FC,1147,Once Caldas,1136,,,False
-1549696,2026-09-02T23:20:00+00:00,NS,Cucuta,1470,Internacional de Bogota,1134,,,False
-1549842,2026-09-03T01:25:00+00:00,NS,Santa Fe,1139,Millonarios,1125,,,False
-1549763,2026-09-03T23:00:00+00:00,NS,America de Cali,1138,Alianza Valledupar,1141,,,False
-1549751,2026-09-04T01:00:00+00:00,NS,Deportivo Pereira,1462,Independiente Medellin,1128,,,False
-1549765,2026-09-05T19:00:00+00:00,NS,Bucaramanga,1131,Independiente Medellin,1128,,,False
-1549766,2026-09-05T23:00:00+00:00,NS,Chico,1132,Once Caldas,1136,,,False
-1549769,2026-09-06T01:20:00+00:00,NS,Junior,1135,Jaguares,1133,,,False
-1549768,2026-09-06T19:00:00+00:00,NS,Internacional de Bogota,1134,Águilas Doradas,1144,,,False
-1549767,2026-09-06T21:05:00+00:00,NS,Cucuta,1470,Deportivo Pasto,1126,,,False
-1549771,2026-09-06T23:10:00+00:00,NS,Deportivo Pereira,1462,Millonarios,1125,,,False
-1549772,2026-09-07T01:15:00+00:00,NS,Santa Fe,1139,Fortaleza FC,1147,,,False
-1549770,2026-09-08T01:00:00+00:00,NS,Llaneros,1464,Deportivo Cali,1127,,,False
-1549685,2026-09-10T01:00:00+00:00,NS,Chico,1132,Atletico Nacional,1137,,,False
-1549779,2026-09-11T23:15:00+00:00,NS,Jaguares,1133,Fortaleza FC,1147,,,False
-1549773,2026-09-12T01:20:00+00:00,NS,Alianza Valledupar,1141,Junior,1135,,,False
-1549781,2026-09-12T19:00:00+00:00,NS,Deportivo Pereira,1462,Bucaramanga,1131,,,False
-1549778,2026-09-12T21:05:00+00:00,NS,Internacional de Bogota,1134,Llaneros,1464,,,False
-1549776,2026-09-12T23:10:00+00:00,NS,Chico,1132,Independiente Medellin,1128,,,False
-1549774,2026-09-13T01:15:00+00:00,NS,America de Cali,1138,Deportivo Pasto,1126,,,False
-1549782,2026-09-13T19:00:00+00:00,NS,Santa Fe,1139,Deportes Tolima,1142,,,False
-1549775,2026-09-13T21:05:00+00:00,NS,Atletico Nacional,1137,Águilas Doradas,1144,,,False
-1549780,2026-09-13T23:10:00+00:00,NS,Once Caldas,1136,Deportivo Cali,1127,,,False
-1549777,2026-09-14T01:15:00+00:00,NS,Cucuta,1470,Millonarios,1125,,,False
-1549712,2026-09-15T20:00:00+00:00,NS,Deportivo Pereira,1462,Santa Fe,1139,,,False
-1549783,2026-09-18T21:00:00+00:00,NS,Águilas Doradas,1144,Deportivo Pereira,1462,,,False
-1549790,2026-09-19T01:10:00+00:00,NS,Independiente Medellin,1128,Jaguares,1133,,,False
-1549788,2026-09-19T19:00:00+00:00,NS,Deportivo Pasto,1126,Once Caldas,1136,,,False
-1549784,2026-09-19T21:05:00+00:00,NS,Alianza Valledupar,1141,Santa Fe,1139,,,False
-1549786,2026-09-19T23:10:00+00:00,NS,Deportivo Cali,1127,Cucuta,1470,,,False
-1549792,2026-09-20T01:15:00+00:00,NS,Millonarios,1125,Chico,1132,,,False
-1549789,2026-09-20T19:00:00+00:00,NS,Fortaleza FC,1147,Junior,1135,,,False
-1549785,2026-09-20T21:05:00+00:00,NS,Bucaramanga,1131,Internacional de Bogota,1134,,,False
-1549787,2026-09-20T23:10:00+00:00,NS,Deportes Tolima,1142,America de Cali,1138,,,False
-1549791,2026-09-21T01:15:00+00:00,NS,Llaneros,1464,Atletico Nacional,1137,,,False
-1549802,2026-09-23T01:00:00+00:00,NS,Santa Fe,1139,Deportivo Cali,1127,,,False
-1549793,2026-09-23T23:25:00+00:00,NS,America de Cali,1138,Águilas Doradas,1144,,,False
-1549794,2026-09-24T01:30:00+00:00,NS,Atletico Nacional,1137,Millonarios,1125,,,False
-1549795,2026-09-25T23:10:00+00:00,NS,Chico,1132,Deportivo Pasto,1126,,,False
-1549800,2026-09-26T01:15:00+00:00,NS,Once Caldas,1136,Bucaramanga,1131,,,False
-1549801,2026-09-26T21:10:00+00:00,NS,Deportivo Pereira,1462,Internacional de Bogota,1134,,,False
-1549796,2026-09-26T23:15:00+00:00,NS,Cucuta,1470,Llaneros,1464,,,False
-1549799,2026-09-27T01:20:00+00:00,NS,Junior,1135,Independiente Medellin,1128,,,False
-1549798,2026-09-27T21:00:00+00:00,NS,Jaguares,1133,Alianza Valledupar,1141,,,False
-1549797,2026-09-27T23:05:00+00:00,NS,Fortaleza FC,1147,Deportes Tolima,1142,,,False
-1549706,2026-09-28T01:10:00+00:00,NS,Deportivo Cali,1127,Águilas Doradas,1144,,,False
-1549705,2026-09-29T20:00:00+00:00,NS,Chico,1132,Alianza Valledupar,1141,,,False
-1549703,2026-10-01T01:00:00+00:00,NS,Atletico Nacional,1137,Junior,1135,,,False
-1549803,2026-10-03T19:00:00+00:00,NS,Águilas Doradas,1144,Jaguares,1133,,,False
-1549806,2026-10-03T21:05:00+00:00,NS,Deportivo Cali,1127,Alianza Valledupar,1141,,,False
-1549807,2026-10-03T23:10:00+00:00,NS,Deportes Tolima,1142,Chico,1132,,,False
-1549809,2026-10-04T01:15:00+00:00,NS,Independiente Medellin,1128,Santa Fe,1139,,,False
-1549808,2026-10-04T19:00:00+00:00,NS,Deportivo Pasto,1126,Fortaleza FC,1147,,,False
-1549805,2026-10-04T21:05:00+00:00,NS,Cucuta,1470,Deportivo Pereira,1462,,,False
-1549804,2026-10-04T23:10:00+00:00,NS,Bucaramanga,1131,Junior,1135,,,False
-1549811,2026-10-05T01:15:00+00:00,NS,Llaneros,1464,America de Cali,1138,,,False
-1549764,2026-10-08T01:20:00+00:00,NS,Atletico Nacional,1137,Deportes Tolima,1142,,,False
-1549747,2026-10-08T23:00:00+00:00,NS,Cucuta,1470,Alianza Valledupar,1141,,,False
-1549817,2026-10-09T01:10:00+00:00,NS,Fortaleza FC,1147,Millonarios,1125,,,False
-1549820,2026-10-10T21:05:00+00:00,NS,Once Caldas,1136,Llaneros,1464,,,False
-1549819,2026-10-10T23:10:00+00:00,NS,Junior,1135,Internacional de Bogota,1134,,,False
-1549821,2026-10-11T19:00:00+00:00,NS,Deportivo Pereira,1462,Deportivo Cali,1127,,,False
-1549815,2026-10-11T21:05:00+00:00,NS,Atletico Nacional,1137,Deportivo Pasto,1126,,,False
-1549818,2026-10-11T23:10:00+00:00,NS,Jaguares,1133,Deportes Tolima,1142,,,False
-1549814,2026-10-12T01:15:00+00:00,NS,America de Cali,1138,Independiente Medellin,1128,,,False
-1549813,2026-10-12T23:05:00+00:00,NS,Alianza Valledupar,1141,Águilas Doradas,1144,,,False
-1549816,2026-10-13T01:10:00+00:00,NS,Chico,1132,Cucuta,1470,,,False
-1549812,2026-10-14T01:00:00+00:00,NS,Millonarios,1125,Once Caldas,1136,,,False
-1549822,2026-10-15T00:00:00+00:00,NS,Santa Fe,1139,Bucaramanga,1131,,,False
-1549810,2026-10-17T01:00:00+00:00,NS,Internacional de Bogota,1134,Atletico Nacional,1137,,,False
-1549831,2026-10-17T19:00:00+00:00,NS,Millonarios,1125,Jaguares,1133,,,False
-1549823,2026-10-17T21:05:00+00:00,NS,Águilas Doradas,1144,Deportes Tolima,1142,,,False
-1549824,2026-10-17T23:10:00+00:00,NS,Bucaramanga,1131,America de Cali,1138,,,False
-1549828,2026-10-18T01:15:00+00:00,NS,Independiente Medellin,1128,Once Caldas,1136,,,False
-1549830,2026-10-18T22:45:00+00:00,NS,Llaneros,1464,Santa Fe,1139,,,False
-1549826,2026-10-19T01:00:00+00:00,NS,Deportivo Cali,1127,Junior,1135,,,False
-1549832,2026-10-19T23:00:00+00:00,NS,Deportivo Pereira,1462,Chico,1132,,,False
-1549827,2026-10-20T01:05:00+00:00,NS,Deportivo Pasto,1126,Alianza Valledupar,1141,,,False
-1549829,2026-10-20T23:00:00+00:00,NS,Internacional de Bogota,1134,Fortaleza FC,1147,,,False
-1549825,2026-10-21T01:05:00+00:00,NS,Cucuta,1470,Atletico Nacional,1137,,,False
-1549834,2026-10-24T01:00:00+00:00,NS,America de Cali,1138,Cucuta,1470,,,False
-1549836,2026-10-24T19:00:00+00:00,NS,Chico,1132,Bucaramanga,1131,,,False
-1549833,2026-10-24T21:05:00+00:00,NS,Alianza Valledupar,1141,Internacional de Bogota,1134,,,False
-1549840,2026-10-24T23:10:00+00:00,NS,Junior,1135,Águilas Doradas,1144,,,False
-1549841,2026-10-25T00:15:00+00:00,NS,Once Caldas,1136,Deportivo Pereira,1462,,,False
-1549838,2026-10-25T19:00:00+00:00,NS,Fortaleza FC,1147,Deportivo Cali,1127,,,False
-1549839,2026-10-25T21:05:00+00:00,NS,Jaguares,1133,Llaneros,1464,,,False
-1549835,2026-10-25T23:10:00+00:00,NS,Atletico Nacional,1137,Independiente Medellin,1128,,,False
-1549837,2026-10-26T01:15:00+00:00,NS,Deportes Tolima,1142,Deportivo Pasto,1126,,,False
-1549851,2026-10-27T01:00:00+00:00,NS,Millonarios,1125,America de Cali,1138,,,False
-1549843,2026-10-29T21:00:00+00:00,NS,Águilas Doradas,1144,Fortaleza FC,1147,,,False
-1549852,2026-10-29T23:15:00+00:00,NS,Deportivo Pereira,1462,Deportes Tolima,1142,,,False
-1549849,2026-10-30T01:20:00+00:00,NS,Internacional de Bogota,1134,Once Caldas,1136,,,False
-1549848,2026-10-30T23:15:00+00:00,NS,Independiente Medellin,1128,Alianza Valledupar,1141,,,False
-1549846,2026-10-31T01:20:00+00:00,NS,Deportivo Cali,1127,Chico,1132,,,False
-1549845,2026-10-31T21:00:00+00:00,NS,Cucuta,1470,Santa Fe,1139,,,False
-1549850,2026-10-31T23:05:00+00:00,NS,Llaneros,1464,Junior,1135,,,False
-1549847,2026-11-01T01:10:00+00:00,NS,Deportivo Pasto,1126,Jaguares,1133,,,False
-1549844,2026-11-01T23:10:00+00:00,NS,Bucaramanga,1131,Atletico Nacional,1137,,,False
-1549858,2026-11-02T21:20:00+00:00,NS,Fortaleza FC,1147,Independiente Medellin,1128,,,False
-1549861,2026-11-02T23:25:00+00:00,NS,Once Caldas,1136,Águilas Doradas,1144,,,False
-1549857,2026-11-03T01:30:00+00:00,NS,Deportes Tolima,1142,Millonarios,1125,,,False
-1549853,2026-11-03T21:10:00+00:00,NS,Alianza Valledupar,1141,Llaneros,1464,,,False
-1549862,2026-11-03T23:15:00+00:00,NS,Santa Fe,1139,Deportivo Pasto,1126,,,False
-1549854,2026-11-04T01:20:00+00:00,NS,America de Cali,1138,Deportivo Cali,1127,,,False
-1549856,2026-11-04T19:00:00+00:00,NS,Chico,1132,Internacional de Bogota,1134,,,False
-1549859,2026-11-04T21:20:00+00:00,NS,Jaguares,1133,Bucaramanga,1131,,,False
-1549860,2026-11-04T23:25:00+00:00,NS,Junior,1135,Cucuta,1470,,,False
-1549855,2026-11-05T01:30:00+00:00,NS,Atletico Nacional,1137,Deportivo Pereira,1462,,,False
-1549871,2026-11-08T20:30:00+00:00,NS,Millonarios,1125,Alianza Valledupar,1141,,,False
-1549868,2026-11-08T20:30:00+00:00,NS,Deportivo Pasto,1126,Junior,1135,,,False
-1549867,2026-11-08T20:30:00+00:00,NS,Deportivo Cali,1127,Deportes Tolima,1142,,,False
-1549865,2026-11-08T20:30:00+00:00,NS,Bucaramanga,1131,Fortaleza FC,1147,,,False
-1549869,2026-11-08T20:30:00+00:00,NS,Internacional de Bogota,1134,Santa Fe,1139,,,False
-1549864,2026-11-08T20:30:00+00:00,NS,Atletico Nacional,1137,Once Caldas,1136,,,False
-1549863,2026-11-08T20:30:00+00:00,NS,Águilas Doradas,1144,Independiente Medellin,1128,,,False
-1549872,2026-11-08T20:30:00+00:00,NS,Deportivo Pereira,1462,America de Cali,1138,,,False
-1549870,2026-11-08T20:30:00+00:00,NS,Llaneros,1464,Chico,1132,,,False
-1549866,2026-11-08T20:30:00+00:00,NS,Cucuta,1470,Jaguares,1133,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1549711,2026-08-06T01:30:00+00:00,1H,Clausura - 3,Once Caldas,1136,America de Cali,1138,0,0,False
+1498269,2026-01-16T23:20:00+00:00,FT,Apertura - 1,Deportivo Pereira,1462,Llaneros,1464,0,2,True
+1498266,2026-01-17T01:30:00+00:00,FT,Apertura - 1,Fortaleza FC,1147,Alianza Valledupar,1141,1,0,True
+1498261,2026-01-17T21:10:00+00:00,FT,Apertura - 1,America de Cali,1138,Internacional de Bogota,1134,3,0,True
+1498262,2026-01-17T23:20:00+00:00,FT,Apertura - 1,Atletico Nacional,1137,Chico,1132,4,0,True
+1498263,2026-01-18T01:30:00+00:00,FT,Apertura - 1,Bucaramanga,1131,Millonarios,1125,2,1,True
+1498265,2026-01-18T19:00:00+00:00,FT,Apertura - 1,Deportivo Pasto,1126,Independiente Medellin,1128,1,0,True
+1498267,2026-01-18T21:10:00+00:00,FT,Apertura - 1,Jaguares,1133,Deportivo Cali,1127,1,0,True
+1498268,2026-01-18T23:20:00+00:00,FT,Apertura - 1,Junior,1135,Deportes Tolima,1142,0,2,True
+1498270,2026-01-19T01:30:00+00:00,FT,Apertura - 1,Santa Fe,1139,Águilas Doradas,1144,1,1,True
+1498264,2026-01-19T21:00:00+00:00,FT,Apertura - 1,Cucuta,1470,Once Caldas,1136,1,2,True
+1505937,2026-01-23T23:20:00+00:00,FT,Apertura - 2,Internacional de Bogota,1134,Cucuta,1470,2,1,True
+1505938,2026-01-24T01:30:00+00:00,FT,Apertura - 2,Deportes Tolima,1142,Alianza Valledupar,1141,2,0,True
+1505939,2026-01-24T19:00:00+00:00,FT,Apertura - 2,Deportivo Pereira,1462,Fortaleza FC,1147,0,0,True
+1505940,2026-01-24T21:10:00+00:00,FT,Apertura - 2,Llaneros,1464,Bucaramanga,1131,1,1,True
+1505941,2026-01-24T23:20:00+00:00,FT,Apertura - 2,Deportivo Cali,1127,Independiente Medellin,1128,3,1,True
+1505942,2026-01-25T01:30:00+00:00,FT,Apertura - 2,Chico,1132,America de Cali,1138,0,1,True
+1505943,2026-01-25T21:00:00+00:00,FT,Apertura - 2,Águilas Doradas,1144,Deportivo Pasto,1126,1,2,True
+1505944,2026-01-25T23:10:00+00:00,FT,Apertura - 2,Millonarios,1125,Junior,1135,1,2,True
+1505945,2026-01-26T01:20:00+00:00,FT,Apertura - 2,Once Caldas,1136,Santa Fe,1139,1,1,True
+1505947,2026-01-27T21:00:00+00:00,FT,Apertura - 3,Cucuta,1470,Bucaramanga,1131,2,2,True
+1505948,2026-01-27T23:20:00+00:00,FT,Apertura - 3,Fortaleza FC,1147,Llaneros,1464,1,1,True
+1505949,2026-01-28T01:30:00+00:00,FT,Apertura - 3,Independiente Medellin,1128,Deportes Tolima,1142,2,2,True
+1505950,2026-01-28T21:10:00+00:00,FT,Apertura - 3,Alianza Valledupar,1141,Chico,1132,1,1,True
+1505951,2026-01-28T23:30:00+00:00,FT,Apertura - 3,Santa Fe,1139,Deportivo Pereira,1462,2,2,True
+1505952,2026-01-29T01:30:00+00:00,FT,Apertura - 3,Deportivo Pasto,1126,Millonarios,1125,2,1,True
+1505953,2026-01-29T21:00:00+00:00,FT,Apertura - 3,Águilas Doradas,1144,Deportivo Cali,1127,2,1,True
+1505954,2026-01-29T23:10:00+00:00,FT,Apertura - 3,Jaguares,1133,Internacional de Bogota,1134,2,3,True
+1505955,2026-01-30T01:20:00+00:00,FT,Apertura - 3,America de Cali,1138,Once Caldas,1136,1,1,True
+1505957,2026-01-31T21:00:00+00:00,FT,Apertura - 4,Cucuta,1470,Fortaleza FC,1147,1,1,True
+1505958,2026-01-31T23:10:00+00:00,FT,Apertura - 4,Chico,1132,Santa Fe,1139,0,1,True
+1505960,2026-02-01T19:00:00+00:00,FT,Apertura - 4,Bucaramanga,1131,Alianza Valledupar,1141,5,0,True
+1505961,2026-02-01T21:10:00+00:00,FT,Apertura - 4,Deportivo Cali,1127,Deportivo Pasto,1126,3,0,True
+1505962,2026-02-01T23:10:00+00:00,FT,Apertura - 4,Once Caldas,1136,Jaguares,1133,1,1,True
+1505963,2026-02-02T01:30:00+00:00,FT,Apertura - 4,Llaneros,1464,Águilas Doradas,1144,1,1,True
+1505959,2026-02-02T20:00:00+00:00,FT,Apertura - 4,Millonarios,1125,Independiente Medellin,1128,0,0,True
+1505964,2026-02-02T23:20:00+00:00,FT,Apertura - 4,Internacional de Bogota,1134,Deportes Tolima,1142,0,0,True
+1505965,2026-02-03T01:30:00+00:00,FT,Apertura - 4,Deportivo Pereira,1462,Junior,1135,2,3,True
+1505966,2026-02-05T01:00:00+00:00,FT,Apertura - 4,Atletico Nacional,1137,America de Cali,1138,2,1,True
+1505967,2026-02-06T23:20:00+00:00,FT,Apertura - 5,Deportivo Pasto,1126,Bucaramanga,1131,0,0,True
+1505968,2026-02-07T01:30:00+00:00,FT,Apertura - 5,Independiente Medellin,1128,Internacional de Bogota,1134,1,2,True
+1505969,2026-02-07T19:00:00+00:00,FT,Apertura - 5,Águilas Doradas,1144,Cucuta,1470,3,2,True
+1505970,2026-02-07T21:10:00+00:00,FT,Apertura - 5,Deportes Tolima,1142,Llaneros,1464,0,1,True
+1506011,2026-02-07T23:20:00+00:00,FT,Apertura - 9,Fortaleza FC,1147,Santa Fe,1139,1,1,True
+1505972,2026-02-08T01:30:00+00:00,FT,Apertura - 5,Junior,1135,Chico,1132,3,0,True
+1505974,2026-02-08T21:10:00+00:00,FT,Apertura - 5,Alianza Valledupar,1141,Once Caldas,1136,1,1,True
+1505975,2026-02-08T23:20:00+00:00,FT,Apertura - 5,Deportivo Cali,1127,Millonarios,1125,0,0,True
+1505976,2026-02-09T01:30:00+00:00,FT,Apertura - 5,Jaguares,1133,Deportivo Pereira,1462,1,0,True
+1505977,2026-02-10T21:00:00+00:00,FT,Apertura - 6,Cucuta,1470,Independiente Medellin,1128,1,3,True
+1505978,2026-02-10T23:20:00+00:00,FT,Apertura - 6,Llaneros,1464,Deportivo Pasto,1126,0,1,True
+1505979,2026-02-11T01:30:00+00:00,FT,Apertura - 6,Bucaramanga,1131,Deportes Tolima,1142,0,0,True
+1505981,2026-02-11T23:30:00+00:00,FT,Apertura - 6,Millonarios,1125,Águilas Doradas,1144,1,0,True
+1505980,2026-02-12T01:30:00+00:00,FT,Apertura - 6,Internacional de Bogota,1134,Deportivo Cali,1127,3,2,True
+1505983,2026-02-12T21:10:00+00:00,FT,Apertura - 6,Chico,1132,Jaguares,1133,5,0,True
+1505984,2026-02-12T23:20:00+00:00,FT,Apertura - 6,Once Caldas,1136,Junior,1135,2,1,True
+1505985,2026-02-13T01:30:00+00:00,FT,Apertura - 6,Atletico Nacional,1137,Fortaleza FC,1147,4,1,True
+1505986,2026-02-14T01:00:00+00:00,FT,Apertura - 6,America de Cali,1138,Santa Fe,1139,1,0,True
+1505987,2026-02-14T21:30:00+00:00,FT,Apertura - 7,Millonarios,1125,Llaneros,1464,2,1,True
+1505988,2026-02-14T23:30:00+00:00,FT,Apertura - 7,Independiente Medellin,1128,Deportivo Pereira,1462,1,1,True
+1505989,2026-02-15T01:30:00+00:00,FT,Apertura - 7,Deportivo Pasto,1126,Internacional de Bogota,1134,1,1,True
+1505991,2026-02-15T21:20:00+00:00,FT,Apertura - 7,Deportes Tolima,1142,Once Caldas,1136,2,1,True
+1505992,2026-02-15T23:30:00+00:00,FT,Apertura - 7,Deportivo Cali,1127,Atletico Nacional,1137,1,0,True
+1505993,2026-02-16T01:30:00+00:00,FT,Apertura - 7,Fortaleza FC,1147,Chico,1132,2,1,True
+1505996,2026-02-17T21:00:00+00:00,FT,Apertura - 7,Alianza Valledupar,1141,Cucuta,1470,1,1,True
+1505994,2026-02-17T23:00:00+00:00,FT,Apertura - 7,Jaguares,1133,Santa Fe,1139,3,1,True
+1505995,2026-02-19T00:30:00+00:00,FT,Apertura - 7,Junior,1135,America de Cali,1138,2,1,True
+1505997,2026-02-20T23:20:00+00:00,FT,Apertura - 8,Llaneros,1464,Independiente Medellin,1128,2,2,True
+1506005,2026-02-21T01:30:00+00:00,FT,Apertura - 8,Deportivo Pereira,1462,Deportivo Pasto,1126,2,2,True
+1505999,2026-02-21T19:00:00+00:00,FT,Apertura - 8,Once Caldas,1136,Fortaleza FC,1147,4,2,True
+1506000,2026-02-21T21:10:00+00:00,FT,Apertura - 8,Bucaramanga,1131,Deportivo Cali,1127,0,0,True
+1506001,2026-02-21T23:20:00+00:00,FT,Apertura - 8,Atletico Nacional,1137,Alianza Valledupar,1141,3,0,True
+1506002,2026-02-22T01:30:00+00:00,FT,Apertura - 8,Internacional de Bogota,1134,Millonarios,1125,3,2,True
+1506003,2026-02-22T21:00:00+00:00,FT,Apertura - 8,Santa Fe,1139,Junior,1135,2,1,True
+1506004,2026-02-22T23:10:00+00:00,FT,Apertura - 8,Chico,1132,Águilas Doradas,1144,0,1,True
+1505998,2026-02-23T01:30:00+00:00,FT,Apertura - 8,America de Cali,1138,Jaguares,1133,3,0,True
+1506006,2026-02-23T21:00:00+00:00,FT,Apertura - 8,Cucuta,1470,Deportes Tolima,1142,3,2,True
+1505971,2026-02-26T00:00:00+00:00,FT,Apertura - 5,Santa Fe,1139,Atletico Nacional,1137,1,2,True
+1506007,2026-02-27T00:30:00+00:00,FT,Apertura - 9,Millonarios,1125,Deportivo Pereira,1462,5,1,True
+1506009,2026-02-28T01:30:00+00:00,FT,Apertura - 9,Once Caldas,1136,Chico,1132,3,0,True
+1506010,2026-02-28T21:10:00+00:00,FT,Apertura - 9,Alianza Valledupar,1141,America de Cali,1138,0,3,True
+1506008,2026-02-28T23:20:00+00:00,FT,Apertura - 9,Jaguares,1133,Junior,1135,0,2,True
+1506012,2026-03-01T01:30:00+00:00,FT,Apertura - 9,Independiente Medellin,1128,Bucaramanga,1131,1,2,True
+1506013,2026-03-01T19:00:00+00:00,FT,Apertura - 9,Deportivo Pasto,1126,Cucuta,1470,3,2,True
+1506014,2026-03-01T21:00:00+00:00,FT,Apertura - 9,Águilas Doradas,1144,Internacional de Bogota,1134,0,0,True
+1506084,2026-03-01T23:10:00+00:00,FT,Apertura - 16,Deportivo Cali,1127,Fortaleza FC,1147,1,1,True
+1506016,2026-03-02T01:30:00+00:00,FT,Apertura - 9,Deportes Tolima,1142,Atletico Nacional,1137,1,0,True
+1506022,2026-03-05T01:00:00+00:00,FT,Apertura - 10,Fortaleza FC,1147,Jaguares,1133,2,1,True
+1506025,2026-03-05T23:10:00+00:00,FT,Apertura - 10,Llaneros,1464,Internacional de Bogota,1134,1,1,True
+1506024,2026-03-06T01:20:00+00:00,FT,Apertura - 10,Junior,1135,Alianza Valledupar,1141,1,1,True
+1506019,2026-03-07T01:30:00+00:00,FT,Apertura - 10,Deportivo Cali,1127,Once Caldas,1136,0,2,True
+1506017,2026-03-07T21:00:00+00:00,FT,Apertura - 10,Águilas Doradas,1144,Atletico Nacional,1137,1,2,True
+1506078,2026-03-09T21:00:00+00:00,FT,Apertura - 16,Llaneros,1464,Jaguares,1133,2,0,True
+1506026,2026-03-09T23:20:00+00:00,FT,Apertura - 10,Millonarios,1125,Cucuta,1470,2,0,True
+1506021,2026-03-10T01:30:00+00:00,FT,Apertura - 10,Deportivo Pasto,1126,America de Cali,1138,2,0,True
+1506018,2026-03-10T23:20:00+00:00,FT,Apertura - 10,Bucaramanga,1131,Deportivo Pereira,1462,3,0,True
+1505956,2026-03-11T01:30:00+00:00,FT,Apertura - 3,Junior,1135,Atletico Nacional,1137,0,4,True
+1506027,2026-03-13T23:20:00+00:00,FT,Apertura - 11,Once Caldas,1136,Deportivo Pasto,1126,4,2,True
+1506028,2026-03-14T01:30:00+00:00,FT,Apertura - 11,Atletico Nacional,1137,Llaneros,1464,2,0,True
+1506029,2026-03-14T19:00:00+00:00,FT,Apertura - 11,Internacional de Bogota,1134,Bucaramanga,1131,0,0,True
+1506030,2026-03-14T21:10:00+00:00,FT,Apertura - 11,Cucuta,1470,Deportivo Cali,1127,0,2,True
+1506031,2026-03-14T23:20:00+00:00,FT,Apertura - 11,Chico,1132,Millonarios,1125,2,1,True
+1506032,2026-03-15T01:30:00+00:00,FT,Apertura - 11,Santa Fe,1139,Alianza Valledupar,1141,1,1,True
+1506033,2026-03-15T20:30:00+00:00,FT,Apertura - 11,Deportivo Pereira,1462,Águilas Doradas,1144,0,1,True
+1506034,2026-03-15T21:10:00+00:00,FT,Apertura - 11,America de Cali,1138,Deportes Tolima,1142,1,1,True
+1506035,2026-03-15T23:20:00+00:00,FT,Apertura - 11,Jaguares,1133,Independiente Medellin,1128,1,2,True
+1506036,2026-03-16T01:30:00+00:00,FT,Apertura - 11,Junior,1135,Fortaleza FC,1147,2,1,True
+1506037,2026-03-17T21:10:00+00:00,FT,Apertura - 12,Llaneros,1464,Cucuta,1470,2,2,True
+1506039,2026-03-18T01:30:00+00:00,FT,Apertura - 12,Millonarios,1125,Atletico Nacional,1137,3,0,True
+1506040,2026-03-18T21:10:00+00:00,FT,Apertura - 12,Deportivo Pasto,1126,Chico,1132,2,0,True
+1506041,2026-03-18T23:20:00+00:00,FT,Apertura - 12,Internacional de Bogota,1134,Deportivo Pereira,1462,2,2,True
+1506038,2026-03-19T00:30:00+00:00,FT,Apertura - 12,Bucaramanga,1131,Once Caldas,1136,1,1,True
+1506042,2026-03-19T01:30:00+00:00,FT,Apertura - 12,Deportivo Cali,1127,Santa Fe,1139,1,1,True
+1506043,2026-03-19T21:10:00+00:00,FT,Apertura - 12,Alianza Valledupar,1141,Jaguares,1133,1,0,True
+1506044,2026-03-19T23:20:00+00:00,FT,Apertura - 12,Deportes Tolima,1142,Fortaleza FC,1147,2,0,True
+1506045,2026-03-20T01:30:00+00:00,FT,Apertura - 12,Independiente Medellin,1128,Junior,1135,2,0,True
+1506046,2026-03-20T21:00:00+00:00,FT,Apertura - 12,Águilas Doradas,1144,America de Cali,1138,0,1,True
+1506047,2026-03-21T23:20:00+00:00,FT,Apertura - 13,Once Caldas,1136,Millonarios,1125,1,4,True
+1506050,2026-03-22T01:30:00+00:00,FT,Apertura - 13,Atletico Nacional,1137,Internacional de Bogota,1134,3,0,True
+1506048,2026-03-22T21:00:00+00:00,FT,Apertura - 13,Alianza Valledupar,1141,Deportivo Cali,1127,1,0,True
+1506051,2026-03-23T19:00:00+00:00,FT,Apertura - 13,Chico,1132,Deportes Tolima,1142,1,1,True
+1506052,2026-03-23T21:10:00+00:00,FT,Apertura - 13,Santa Fe,1139,Independiente Medellin,1128,2,1,True
+1506053,2026-03-23T23:20:00+00:00,FT,Apertura - 13,Jaguares,1133,Águilas Doradas,1144,1,1,True
+1506049,2026-03-24T20:30:00+00:00,FT,Apertura - 13,Deportivo Pereira,1462,Cucuta,1470,2,2,True
+1506054,2026-03-24T23:00:00+00:00,FT,Apertura - 13,Junior,1135,Bucaramanga,1131,2,0,True
+1506055,2026-03-25T01:00:00+00:00,FT,Apertura - 13,Fortaleza FC,1147,Deportivo Pasto,1126,1,2,True
+1506056,2026-03-26T01:00:00+00:00,FT,Apertura - 13,America de Cali,1138,Llaneros,1464,0,0,True
+1506057,2026-03-27T21:00:00+00:00,FT,Apertura - 14,Águilas Doradas,1144,Alianza Valledupar,1141,1,0,True
+1506058,2026-03-28T01:10:00+00:00,FT,Apertura - 14,Bucaramanga,1131,Santa Fe,1139,1,2,True
+1506059,2026-03-28T21:00:00+00:00,FT,Apertura - 14,Cucuta,1470,Chico,1132,1,0,True
+1506060,2026-03-28T23:10:00+00:00,FT,Apertura - 14,Deportes Tolima,1142,Jaguares,1133,3,1,True
+1506061,2026-03-29T01:20:00+00:00,FT,Apertura - 14,Deportivo Cali,1127,Deportivo Pereira,1462,1,0,True
+1506062,2026-03-29T21:10:00+00:00,FT,Apertura - 14,Internacional de Bogota,1134,Junior,1135,0,1,True
+1506063,2026-03-29T23:20:00+00:00,FT,Apertura - 14,Deportivo Pasto,1126,Atletico Nacional,1137,1,2,True
+1506065,2026-03-30T15:00:00+00:00,FT,Apertura - 14,Llaneros,1464,Once Caldas,1136,1,1,True
+1506064,2026-03-30T23:10:00+00:00,FT,Apertura - 14,Independiente Medellin,1128,America de Cali,1138,2,1,True
+1506066,2026-03-31T01:20:00+00:00,FT,Apertura - 14,Millonarios,1125,Fortaleza FC,1147,2,2,True
+1506067,2026-04-01T01:00:00+00:00,FT,Apertura - 15,Deportes Tolima,1142,Águilas Doradas,1144,4,1,True
+1506068,2026-04-01T21:10:00+00:00,FT,Apertura - 15,Alianza Valledupar,1141,Deportivo Pasto,1126,0,0,True
+1506069,2026-04-01T23:30:00+00:00,FT,Apertura - 15,Santa Fe,1139,Llaneros,1464,0,1,True
+1506070,2026-04-02T01:30:00+00:00,FT,Apertura - 15,Atletico Nacional,1137,Cucuta,1470,0,0,True
+1506071,2026-04-02T19:00:00+00:00,FT,Apertura - 15,Chico,1132,Deportivo Pereira,1462,1,0,True
+1506072,2026-04-02T21:10:00+00:00,FT,Apertura - 15,America de Cali,1138,Bucaramanga,1131,2,0,True
+1506073,2026-04-02T23:20:00+00:00,FT,Apertura - 15,Jaguares,1133,Millonarios,1125,1,0,True
+1506074,2026-04-03T01:30:00+00:00,FT,Apertura - 15,Once Caldas,1136,Independiente Medellin,1128,1,1,True
+1506075,2026-04-03T23:20:00+00:00,FT,Apertura - 15,Fortaleza FC,1147,Internacional de Bogota,1134,1,1,True
+1506076,2026-04-04T01:30:00+00:00,FT,Apertura - 15,Junior,1135,Deportivo Cali,1127,1,2,True
+1506020,2026-04-05T00:30:00+00:00,FT,Apertura - 10,Deportes Tolima,1142,Santa Fe,1139,2,2,True
+1506077,2026-04-05T21:00:00+00:00,FT,Apertura - 16,Cucuta,1470,America de Cali,1138,2,0,True
+1505982,2026-04-06T20:30:00+00:00,FT,Apertura - 6,Deportivo Pereira,1462,Alianza Valledupar,1141,2,3,True
+1505946,2026-04-07T01:10:00+00:00,FT,Apertura - 2,Atletico Nacional,1137,Jaguares,1133,2,1,True
+1505990,2026-04-07T21:00:00+00:00,FT,Apertura - 7,Águilas Doradas,1144,Bucaramanga,1131,2,1,True
+1506079,2026-04-10T20:30:00+00:00,FT,Apertura - 16,Deportivo Pereira,1462,Once Caldas,1136,0,0,True
+1506080,2026-04-11T01:05:00+00:00,FT,Apertura - 16,Deportivo Pasto,1126,Deportes Tolima,1142,1,0,True
+1506083,2026-04-11T21:00:00+00:00,FT,Apertura - 16,Águilas Doradas,1144,Junior,1135,0,3,True
+1506082,2026-04-12T01:20:00+00:00,FT,Apertura - 16,Independiente Medellin,1128,Atletico Nacional,1137,2,3,True
+1506081,2026-04-12T19:00:00+00:00,FT,Apertura - 16,Millonarios,1125,Santa Fe,1139,1,1,True
+1506015,2026-04-12T21:10:00+00:00,FT,Apertura - 9,Deportivo Cali,1127,Llaneros,1464,1,1,True
+1506085,2026-04-12T23:20:00+00:00,FT,Apertura - 16,Bucaramanga,1131,Chico,1132,5,0,True
+1506086,2026-04-13T01:30:00+00:00,FT,Apertura - 16,Internacional de Bogota,1134,Alianza Valledupar,1141,2,1,True
+1506088,2026-04-17T21:00:00+00:00,FT,Apertura - 17,Chico,1132,Deportivo Cali,1127,1,0,True
+1506087,2026-04-17T21:00:00+00:00,FT,Apertura - 17,Jaguares,1133,Deportivo Pasto,1126,2,3,True
+1506089,2026-04-18T23:10:00+00:00,FT,Apertura - 17,Deportes Tolima,1142,Deportivo Pereira,1462,2,0,True
+1506090,2026-04-19T01:30:00+00:00,FT,Apertura - 17,Fortaleza FC,1147,Águilas Doradas,1144,2,0,True
+1506091,2026-04-19T19:00:00+00:00,FT,Apertura - 17,Santa Fe,1139,Cucuta,1470,5,0,True
+1506094,2026-04-19T21:10:00+00:00,FT,Apertura - 17,Alianza Valledupar,1141,Independiente Medellin,1128,0,1,True
+1506093,2026-04-19T23:20:00+00:00,FT,Apertura - 17,Junior,1135,Llaneros,1464,2,0,True
+1506092,2026-04-20T01:30:00+00:00,FT,Apertura - 17,America de Cali,1138,Millonarios,1125,3,1,True
+1506095,2026-04-20T23:20:00+00:00,FT,Apertura - 17,Once Caldas,1136,Internacional de Bogota,1134,2,1,True
+1506096,2026-04-21T01:30:00+00:00,FT,Apertura - 17,Atletico Nacional,1137,Bucaramanga,1131,2,0,True
+1506023,2026-04-22T23:20:00+00:00,FT,Apertura - 10,Independiente Medellin,1128,Chico,1132,2,0,True
+1505973,2026-04-23T01:30:00+00:00,FT,Apertura - 5,Fortaleza FC,1147,America de Cali,1138,1,2,True
+1506099,2026-04-23T23:00:00+00:00,FT,Apertura - 18,Deportivo Pasto,1126,Santa Fe,1139,1,2,True
+1506097,2026-04-24T01:00:00+00:00,FT,Apertura - 18,Millonarios,1125,Deportes Tolima,1142,2,0,True
+1506098,2026-04-24T21:00:00+00:00,FT,Apertura - 18,Cucuta,1470,Junior,1135,1,1,True
+1506100,2026-04-25T19:00:00+00:00,FT,Apertura - 18,Bucaramanga,1131,Jaguares,1133,2,2,True
+1506103,2026-04-25T21:00:00+00:00,FT,Apertura - 18,Deportivo Pereira,1462,Atletico Nacional,1137,1,0,True
+1506102,2026-04-25T23:10:00+00:00,FT,Apertura - 18,Deportivo Cali,1127,America de Cali,1138,1,0,True
+1506101,2026-04-26T01:30:00+00:00,FT,Apertura - 18,Independiente Medellin,1128,Fortaleza FC,1147,1,0,True
+1506104,2026-04-26T21:00:00+00:00,FT,Apertura - 18,Águilas Doradas,1144,Once Caldas,1136,2,2,True
+1506105,2026-04-26T23:10:00+00:00,FT,Apertura - 18,Llaneros,1464,Alianza Valledupar,1141,0,0,True
+1506106,2026-04-27T01:20:00+00:00,FT,Apertura - 18,Internacional de Bogota,1134,Chico,1132,4,0,True
+1506115,2026-05-01T23:00:00+00:00,FT,Apertura - 19,Once Caldas,1136,Atletico Nacional,1137,1,0,True
+1506109,2026-05-02T19:00:00+00:00,FT,Apertura - 19,Chico,1132,Llaneros,1464,3,0,True
+1506113,2026-05-02T21:00:00+00:00,FT,Apertura - 19,Jaguares,1133,Cucuta,1470,2,0,True
+1506112,2026-05-03T20:30:00+00:00,FT,Apertura - 19,Independiente Medellin,1128,Águilas Doradas,1144,1,2,True
+1506116,2026-05-03T20:30:00+00:00,FT,Apertura - 19,Santa Fe,1139,Internacional de Bogota,1134,3,1,True
+1506107,2026-05-03T20:30:00+00:00,FT,Apertura - 19,Alianza Valledupar,1141,Millonarios,1125,2,2,True
+1506110,2026-05-03T20:30:00+00:00,FT,Apertura - 19,Deportes Tolima,1142,Deportivo Cali,1127,1,1,True
+1506111,2026-05-03T20:30:00+00:00,FT,Apertura - 19,Fortaleza FC,1147,Bucaramanga,1131,2,1,True
+1506114,2026-05-03T22:45:00+00:00,FT,Apertura - 19,Junior,1135,Deportivo Pasto,1126,4,3,True
+1506108,2026-05-03T22:45:00+00:00,FT,Apertura - 19,America de Cali,1138,Deportivo Pereira,1462,1,0,True
+1544223,2026-05-09T21:00:00+00:00,FT,Apertura - Quarter-finals,Internacional de Bogota,1134,Atletico Nacional,1137,1,2,True
+1544224,2026-05-09T23:10:00+00:00,FT,Apertura - Quarter-finals,Deportes Tolima,1142,Deportivo Pasto,1126,1,0,True
+1544225,2026-05-10T01:20:00+00:00,FT,Apertura - Quarter-finals,America de Cali,1138,Santa Fe,1139,1,1,True
+1544226,2026-05-10T23:10:00+00:00,FT,Apertura - Quarter-finals,Once Caldas,1136,Junior,1135,0,1,True
+1544227,2026-05-12T23:20:00+00:00,FT,Apertura - Quarter-finals,Atletico Nacional,1137,Internacional de Bogota,1134,7,1,True
+1544228,2026-05-13T01:30:00+00:00,FT,Apertura - Quarter-finals,Santa Fe,1139,America de Cali,1138,4,0,True
+1544229,2026-05-13T23:00:00+00:00,FT,Apertura - Quarter-finals,Deportivo Pasto,1126,Deportes Tolima,1142,0,2,True
+1544230,2026-05-14T01:15:00+00:00,FT,Apertura - Quarter-finals,Junior,1135,Once Caldas,1136,2,2,True
+1545166,2026-05-16T23:00:00+00:00,FT,Apertura - Semi-finals,Deportes Tolima,1142,Atletico Nacional,1137,0,1,True
+1545167,2026-05-17T01:30:00+00:00,FT,Apertura - Semi-finals,Santa Fe,1139,Junior,1135,1,1,True
+1545168,2026-05-23T23:00:00+00:00,FT,Apertura - Semi-finals,Atletico Nacional,1137,Deportes Tolima,1142,3,1,True
+1545169,2026-05-24T01:30:00+00:00,PEN,Apertura - Semi-finals,Junior,1135,Santa Fe,1139,0,0,False
+1546412,2026-06-03T00:30:00+00:00,FT,Apertura - Final,Junior,1135,Atletico Nacional,1137,3,0,True
+1546413,2026-06-08T22:00:00+00:00,FT,Apertura - Final,Atletico Nacional,1137,Junior,1135,1,0,True
+1549690,2026-07-24T23:10:00+00:00,FT,Clausura - 1,Llaneros,1464,Deportivo Pereira,1462,1,0,True
+1549686,2026-07-25T01:15:00+00:00,FT,Clausura - 1,Deportivo Cali,1127,Jaguares,1133,2,0,True
+1549688,2026-07-25T21:05:00+00:00,FT,Clausura - 1,Independiente Medellin,1128,Deportivo Pasto,1126,3,2,True
+1549691,2026-07-25T23:10:00+00:00,FT,Clausura - 1,Millonarios,1125,Bucaramanga,1131,0,1,True
+1549687,2026-07-26T01:15:00+00:00,FT,Clausura - 1,Deportes Tolima,1142,Junior,1135,2,1,True
+1549689,2026-07-26T19:00:00+00:00,FT,Clausura - 1,Internacional de Bogota,1134,America de Cali,1138,0,2,True
+1549683,2026-07-26T21:05:00+00:00,FT,Clausura - 1,Águilas Doradas,1144,Santa Fe,1139,2,1,True
+1549684,2026-07-26T23:10:00+00:00,FT,Clausura - 1,Alianza Valledupar,1141,Fortaleza FC,1147,1,1,True
+1549692,2026-07-27T01:15:00+00:00,FT,Clausura - 1,Once Caldas,1136,Cucuta,1470,5,1,True
+1549695,2026-07-31T01:00:00+00:00,FT,Clausura - 2,Bucaramanga,1131,Llaneros,1464,1,1,True
+1549698,2026-08-01T01:00:00+00:00,FT,Clausura - 2,Fortaleza FC,1147,Deportivo Pereira,1462,0,0,True
+1549697,2026-08-01T19:00:00+00:00,FT,Clausura - 2,Deportivo Pasto,1126,Águilas Doradas,1144,1,2,True
+1549693,2026-08-01T21:05:00+00:00,FT,Clausura - 2,Alianza Valledupar,1141,Deportes Tolima,1142,1,2,True
+1549699,2026-08-01T23:10:00+00:00,FT,Clausura - 2,Independiente Medellin,1128,Deportivo Cali,1127,1,0,True
+1549701,2026-08-02T01:15:00+00:00,FT,Clausura - 2,Junior,1135,Millonarios,1125,0,1,True
+1549700,2026-08-02T20:45:00+00:00,FT,Clausura - 2,Jaguares,1133,Atletico Nacional,1137,0,3,True
+1549694,2026-08-02T22:45:00+00:00,FT,Clausura - 2,America de Cali,1138,Chico,1132,7,0,True
+1549702,2026-08-03T01:00:00+00:00,FT,Clausura - 2,Santa Fe,1139,Once Caldas,1136,2,2,True
+1549704,2026-08-04T01:00:00+00:00,FT,Clausura - 3,Bucaramanga,1131,Cucuta,1470,1,1,True
+1549709,2026-08-04T21:10:00+00:00,FT,Clausura - 3,Llaneros,1464,Fortaleza FC,1147,3,1,True
+1549707,2026-08-04T23:15:00+00:00,FT,Clausura - 3,Deportes Tolima,1142,Independiente Medellin,1128,2,3,True
+1549710,2026-08-05T01:20:00+00:00,FT,Clausura - 3,Millonarios,1125,Deportivo Pasto,1126,2,0,True
+1549708,2026-08-05T23:15:00+00:00,FT,Clausura - 3,Internacional de Bogota,1134,Jaguares,1133,1,0,True
+1549722,2026-08-08T19:00:00+00:00,NS,Clausura - 4,Santa Fe,1139,Chico,1132,,,False
+1549718,2026-08-08T21:20:00+00:00,NS,Clausura - 4,Fortaleza FC,1147,Cucuta,1470,,,False
+1549716,2026-08-08T23:25:00+00:00,NS,Clausura - 4,Deportes Tolima,1142,Internacional de Bogota,1134,,,False
+1549717,2026-08-09T01:30:00+00:00,NS,Clausura - 4,Deportivo Pasto,1126,Deportivo Cali,1127,,,False
+1549714,2026-08-09T21:05:00+00:00,NS,Clausura - 4,Alianza Valledupar,1141,Bucaramanga,1131,,,False
+1549720,2026-08-09T23:10:00+00:00,NS,Clausura - 4,Jaguares,1133,Once Caldas,1136,,,False
+1549715,2026-08-10T01:15:00+00:00,NS,Clausura - 4,America de Cali,1138,Atletico Nacional,1137,,,False
+1549713,2026-08-10T21:00:00+00:00,NS,Clausura - 4,Águilas Doradas,1144,Llaneros,1464,,,False
+1549719,2026-08-10T23:00:00+00:00,NS,Clausura - 4,Independiente Medellin,1128,Millonarios,1125,,,False
+1549721,2026-08-11T01:05:00+00:00,NS,Clausura - 4,Junior,1135,Deportivo Pereira,1462,,,False
+1549729,2026-08-14T23:00:00+00:00,NS,Clausura - 5,Llaneros,1464,Deportes Tolima,1142,,,False
+1549727,2026-08-15T23:05:00+00:00,NS,Clausura - 5,Cucuta,1470,Águilas Doradas,1144,,,False
+1549724,2026-08-16T01:10:00+00:00,NS,Clausura - 5,Atletico Nacional,1137,Santa Fe,1139,,,False
+1549732,2026-08-16T21:00:00+00:00,NS,Clausura - 5,Deportivo Pereira,1462,Jaguares,1133,,,False
+1549723,2026-08-16T23:05:00+00:00,NS,Clausura - 5,America de Cali,1138,Fortaleza FC,1147,,,False
+1549731,2026-08-17T01:15:00+00:00,NS,Clausura - 5,Once Caldas,1136,Alianza Valledupar,1141,,,False
+1549728,2026-08-17T19:00:00+00:00,NS,Clausura - 5,Internacional de Bogota,1134,Independiente Medellin,1128,,,False
+1549725,2026-08-17T21:05:00+00:00,NS,Clausura - 5,Bucaramanga,1131,Deportivo Pasto,1126,,,False
+1549730,2026-08-17T23:10:00+00:00,NS,Clausura - 5,Millonarios,1125,Deportivo Cali,1127,,,False
+1549726,2026-08-18T01:15:00+00:00,NS,Clausura - 5,Chico,1132,Junior,1135,,,False
+1549740,2026-08-21T21:00:00+00:00,NS,Clausura - 6,Jaguares,1133,Chico,1132,,,False
+1549733,2026-08-22T19:00:00+00:00,NS,Clausura - 6,Águilas Doradas,1144,Millonarios,1125,,,False
+1549736,2026-08-22T21:05:00+00:00,NS,Clausura - 6,Deportes Tolima,1142,Bucaramanga,1131,,,False
+1549742,2026-08-22T23:10:00+00:00,NS,Clausura - 6,Santa Fe,1139,America de Cali,1138,,,False
+1549741,2026-08-23T01:15:00+00:00,NS,Clausura - 6,Junior,1135,Once Caldas,1136,,,False
+1549738,2026-08-23T19:00:00+00:00,NS,Clausura - 6,Fortaleza FC,1147,Atletico Nacional,1137,,,False
+1549737,2026-08-23T21:05:00+00:00,NS,Clausura - 6,Deportivo Pasto,1126,Llaneros,1464,,,False
+1549735,2026-08-23T23:10:00+00:00,NS,Clausura - 6,Deportivo Cali,1127,Internacional de Bogota,1134,,,False
+1549739,2026-08-24T01:15:00+00:00,NS,Clausura - 6,Independiente Medellin,1128,Cucuta,1470,,,False
+1549734,2026-08-24T23:00:00+00:00,NS,Clausura - 6,Alianza Valledupar,1141,Deportivo Pereira,1462,,,False
+1549745,2026-08-25T23:00:00+00:00,NS,Clausura - 7,Bucaramanga,1131,Águilas Doradas,1144,,,False
+1549752,2026-08-26T01:05:00+00:00,NS,Clausura - 7,Santa Fe,1139,Jaguares,1133,,,False
+1549746,2026-08-26T19:00:00+00:00,NS,Clausura - 7,Chico,1132,Fortaleza FC,1147,,,False
+1549748,2026-08-26T21:20:00+00:00,NS,Clausura - 7,Internacional de Bogota,1134,Deportivo Pasto,1126,,,False
+1549743,2026-08-26T23:25:00+00:00,NS,Clausura - 7,America de Cali,1138,Junior,1135,,,False
+1549744,2026-08-27T01:30:00+00:00,NS,Clausura - 7,Atletico Nacional,1137,Deportivo Cali,1127,,,False
+1549749,2026-08-27T23:10:00+00:00,NS,Clausura - 7,Llaneros,1464,Millonarios,1125,,,False
+1549750,2026-08-28T01:15:00+00:00,NS,Clausura - 7,Once Caldas,1136,Deportes Tolima,1142,,,False
+1549760,2026-08-29T21:45:00+00:00,NS,Clausura - 8,Jaguares,1133,America de Cali,1138,,,False
+1549761,2026-08-29T23:30:00+00:00,NS,Clausura - 8,Junior,1135,Santa Fe,1139,,,False
+1549754,2026-08-30T01:30:00+00:00,NS,Clausura - 8,Alianza Valledupar,1141,Atletico Nacional,1137,,,False
+1549753,2026-08-30T19:00:00+00:00,NS,Clausura - 8,Águilas Doradas,1144,Chico,1132,,,False
+1549759,2026-08-30T21:10:00+00:00,NS,Clausura - 8,Independiente Medellin,1128,Llaneros,1464,,,False
+1549762,2026-08-30T23:15:00+00:00,NS,Clausura - 8,Millonarios,1125,Internacional de Bogota,1134,,,False
+1549756,2026-08-31T01:20:00+00:00,NS,Clausura - 8,Deportes Tolima,1142,Cucuta,1470,,,False
+1549757,2026-08-31T23:00:00+00:00,NS,Clausura - 8,Deportivo Pasto,1126,Deportivo Pereira,1462,,,False
+1549755,2026-09-01T01:05:00+00:00,NS,Clausura - 8,Deportivo Cali,1127,Bucaramanga,1131,,,False
+1549758,2026-09-02T01:00:00+00:00,NS,Clausura - 8,Fortaleza FC,1147,Once Caldas,1136,,,False
+1549696,2026-09-02T23:20:00+00:00,NS,Clausura - 2,Cucuta,1470,Internacional de Bogota,1134,,,False
+1549842,2026-09-03T01:25:00+00:00,NS,Clausura - 16,Santa Fe,1139,Millonarios,1125,,,False
+1549763,2026-09-03T23:00:00+00:00,NS,Clausura - 9,America de Cali,1138,Alianza Valledupar,1141,,,False
+1549751,2026-09-04T01:00:00+00:00,NS,Clausura - 7,Deportivo Pereira,1462,Independiente Medellin,1128,,,False
+1549765,2026-09-05T19:00:00+00:00,NS,Clausura - 9,Bucaramanga,1131,Independiente Medellin,1128,,,False
+1549766,2026-09-05T23:00:00+00:00,NS,Clausura - 9,Chico,1132,Once Caldas,1136,,,False
+1549769,2026-09-06T01:20:00+00:00,NS,Clausura - 9,Junior,1135,Jaguares,1133,,,False
+1549768,2026-09-06T19:00:00+00:00,NS,Clausura - 9,Internacional de Bogota,1134,Águilas Doradas,1144,,,False
+1549767,2026-09-06T21:05:00+00:00,NS,Clausura - 9,Cucuta,1470,Deportivo Pasto,1126,,,False
+1549771,2026-09-06T23:10:00+00:00,NS,Clausura - 9,Deportivo Pereira,1462,Millonarios,1125,,,False
+1549772,2026-09-07T01:15:00+00:00,NS,Clausura - 9,Santa Fe,1139,Fortaleza FC,1147,,,False
+1549770,2026-09-08T01:00:00+00:00,NS,Clausura - 9,Llaneros,1464,Deportivo Cali,1127,,,False
+1549685,2026-09-10T01:00:00+00:00,NS,Clausura - 1,Chico,1132,Atletico Nacional,1137,,,False
+1549779,2026-09-11T23:15:00+00:00,NS,Clausura - 10,Jaguares,1133,Fortaleza FC,1147,,,False
+1549773,2026-09-12T01:20:00+00:00,NS,Clausura - 10,Alianza Valledupar,1141,Junior,1135,,,False
+1549781,2026-09-12T19:00:00+00:00,NS,Clausura - 10,Deportivo Pereira,1462,Bucaramanga,1131,,,False
+1549778,2026-09-12T21:05:00+00:00,NS,Clausura - 10,Internacional de Bogota,1134,Llaneros,1464,,,False
+1549776,2026-09-12T23:10:00+00:00,NS,Clausura - 10,Chico,1132,Independiente Medellin,1128,,,False
+1549774,2026-09-13T01:15:00+00:00,NS,Clausura - 10,America de Cali,1138,Deportivo Pasto,1126,,,False
+1549782,2026-09-13T19:00:00+00:00,NS,Clausura - 10,Santa Fe,1139,Deportes Tolima,1142,,,False
+1549775,2026-09-13T21:05:00+00:00,NS,Clausura - 10,Atletico Nacional,1137,Águilas Doradas,1144,,,False
+1549780,2026-09-13T23:10:00+00:00,NS,Clausura - 10,Once Caldas,1136,Deportivo Cali,1127,,,False
+1549777,2026-09-14T01:15:00+00:00,NS,Clausura - 10,Cucuta,1470,Millonarios,1125,,,False
+1549712,2026-09-15T20:00:00+00:00,NS,Clausura - 3,Deportivo Pereira,1462,Santa Fe,1139,,,False
+1549783,2026-09-18T21:00:00+00:00,NS,Clausura - 11,Águilas Doradas,1144,Deportivo Pereira,1462,,,False
+1549790,2026-09-19T01:10:00+00:00,NS,Clausura - 11,Independiente Medellin,1128,Jaguares,1133,,,False
+1549788,2026-09-19T19:00:00+00:00,NS,Clausura - 11,Deportivo Pasto,1126,Once Caldas,1136,,,False
+1549784,2026-09-19T21:05:00+00:00,NS,Clausura - 11,Alianza Valledupar,1141,Santa Fe,1139,,,False
+1549786,2026-09-19T23:10:00+00:00,NS,Clausura - 11,Deportivo Cali,1127,Cucuta,1470,,,False
+1549792,2026-09-20T01:15:00+00:00,NS,Clausura - 11,Millonarios,1125,Chico,1132,,,False
+1549789,2026-09-20T19:00:00+00:00,NS,Clausura - 11,Fortaleza FC,1147,Junior,1135,,,False
+1549785,2026-09-20T21:05:00+00:00,NS,Clausura - 11,Bucaramanga,1131,Internacional de Bogota,1134,,,False
+1549787,2026-09-20T23:10:00+00:00,NS,Clausura - 11,Deportes Tolima,1142,America de Cali,1138,,,False
+1549791,2026-09-21T01:15:00+00:00,NS,Clausura - 11,Llaneros,1464,Atletico Nacional,1137,,,False
+1549802,2026-09-23T01:00:00+00:00,NS,Clausura - 12,Santa Fe,1139,Deportivo Cali,1127,,,False
+1549793,2026-09-23T23:25:00+00:00,NS,Clausura - 12,America de Cali,1138,Águilas Doradas,1144,,,False
+1549794,2026-09-24T01:30:00+00:00,NS,Clausura - 12,Atletico Nacional,1137,Millonarios,1125,,,False
+1549795,2026-09-25T23:10:00+00:00,NS,Clausura - 12,Chico,1132,Deportivo Pasto,1126,,,False
+1549800,2026-09-26T01:15:00+00:00,NS,Clausura - 12,Once Caldas,1136,Bucaramanga,1131,,,False
+1549801,2026-09-26T21:10:00+00:00,NS,Clausura - 12,Deportivo Pereira,1462,Internacional de Bogota,1134,,,False
+1549796,2026-09-26T23:15:00+00:00,NS,Clausura - 12,Cucuta,1470,Llaneros,1464,,,False
+1549799,2026-09-27T01:20:00+00:00,NS,Clausura - 12,Junior,1135,Independiente Medellin,1128,,,False
+1549798,2026-09-27T21:00:00+00:00,NS,Clausura - 12,Jaguares,1133,Alianza Valledupar,1141,,,False
+1549797,2026-09-27T23:05:00+00:00,NS,Clausura - 12,Fortaleza FC,1147,Deportes Tolima,1142,,,False
+1549706,2026-09-28T01:10:00+00:00,NS,Clausura - 3,Deportivo Cali,1127,Águilas Doradas,1144,,,False
+1549705,2026-09-29T20:00:00+00:00,NS,Clausura - 3,Chico,1132,Alianza Valledupar,1141,,,False
+1549703,2026-10-01T01:00:00+00:00,NS,Clausura - 3,Atletico Nacional,1137,Junior,1135,,,False
+1549803,2026-10-03T19:00:00+00:00,NS,Clausura - 13,Águilas Doradas,1144,Jaguares,1133,,,False
+1549806,2026-10-03T21:05:00+00:00,NS,Clausura - 13,Deportivo Cali,1127,Alianza Valledupar,1141,,,False
+1549807,2026-10-03T23:10:00+00:00,NS,Clausura - 13,Deportes Tolima,1142,Chico,1132,,,False
+1549809,2026-10-04T01:15:00+00:00,NS,Clausura - 13,Independiente Medellin,1128,Santa Fe,1139,,,False
+1549808,2026-10-04T19:00:00+00:00,NS,Clausura - 13,Deportivo Pasto,1126,Fortaleza FC,1147,,,False
+1549805,2026-10-04T21:05:00+00:00,NS,Clausura - 13,Cucuta,1470,Deportivo Pereira,1462,,,False
+1549804,2026-10-04T23:10:00+00:00,NS,Clausura - 13,Bucaramanga,1131,Junior,1135,,,False
+1549811,2026-10-05T01:15:00+00:00,NS,Clausura - 13,Llaneros,1464,America de Cali,1138,,,False
+1549764,2026-10-08T01:20:00+00:00,NS,Clausura - 9,Atletico Nacional,1137,Deportes Tolima,1142,,,False
+1549747,2026-10-08T23:00:00+00:00,NS,Clausura - 7,Cucuta,1470,Alianza Valledupar,1141,,,False
+1549817,2026-10-09T01:10:00+00:00,NS,Clausura - 14,Fortaleza FC,1147,Millonarios,1125,,,False
+1549820,2026-10-10T21:05:00+00:00,NS,Clausura - 14,Once Caldas,1136,Llaneros,1464,,,False
+1549819,2026-10-10T23:10:00+00:00,NS,Clausura - 14,Junior,1135,Internacional de Bogota,1134,,,False
+1549821,2026-10-11T19:00:00+00:00,NS,Clausura - 14,Deportivo Pereira,1462,Deportivo Cali,1127,,,False
+1549815,2026-10-11T21:05:00+00:00,NS,Clausura - 14,Atletico Nacional,1137,Deportivo Pasto,1126,,,False
+1549818,2026-10-11T23:10:00+00:00,NS,Clausura - 14,Jaguares,1133,Deportes Tolima,1142,,,False
+1549814,2026-10-12T01:15:00+00:00,NS,Clausura - 14,America de Cali,1138,Independiente Medellin,1128,,,False
+1549813,2026-10-12T23:05:00+00:00,NS,Clausura - 14,Alianza Valledupar,1141,Águilas Doradas,1144,,,False
+1549816,2026-10-13T01:10:00+00:00,NS,Clausura - 14,Chico,1132,Cucuta,1470,,,False
+1549812,2026-10-14T01:00:00+00:00,NS,Clausura - 13,Millonarios,1125,Once Caldas,1136,,,False
+1549822,2026-10-15T00:00:00+00:00,NS,Clausura - 14,Santa Fe,1139,Bucaramanga,1131,,,False
+1549810,2026-10-17T01:00:00+00:00,NS,Clausura - 13,Internacional de Bogota,1134,Atletico Nacional,1137,,,False
+1549831,2026-10-17T19:00:00+00:00,NS,Clausura - 15,Millonarios,1125,Jaguares,1133,,,False
+1549823,2026-10-17T21:05:00+00:00,NS,Clausura - 15,Águilas Doradas,1144,Deportes Tolima,1142,,,False
+1549824,2026-10-17T23:10:00+00:00,NS,Clausura - 15,Bucaramanga,1131,America de Cali,1138,,,False
+1549828,2026-10-18T01:15:00+00:00,NS,Clausura - 15,Independiente Medellin,1128,Once Caldas,1136,,,False
+1549830,2026-10-18T22:45:00+00:00,NS,Clausura - 15,Llaneros,1464,Santa Fe,1139,,,False
+1549826,2026-10-19T01:00:00+00:00,NS,Clausura - 15,Deportivo Cali,1127,Junior,1135,,,False
+1549832,2026-10-19T23:00:00+00:00,NS,Clausura - 15,Deportivo Pereira,1462,Chico,1132,,,False
+1549827,2026-10-20T01:05:00+00:00,NS,Clausura - 15,Deportivo Pasto,1126,Alianza Valledupar,1141,,,False
+1549829,2026-10-20T23:00:00+00:00,NS,Clausura - 15,Internacional de Bogota,1134,Fortaleza FC,1147,,,False
+1549825,2026-10-21T01:05:00+00:00,NS,Clausura - 15,Cucuta,1470,Atletico Nacional,1137,,,False
+1549834,2026-10-24T01:00:00+00:00,NS,Clausura - 16,America de Cali,1138,Cucuta,1470,,,False
+1549836,2026-10-24T19:00:00+00:00,NS,Clausura - 16,Chico,1132,Bucaramanga,1131,,,False
+1549833,2026-10-24T21:05:00+00:00,NS,Clausura - 16,Alianza Valledupar,1141,Internacional de Bogota,1134,,,False
+1549840,2026-10-24T23:10:00+00:00,NS,Clausura - 16,Junior,1135,Águilas Doradas,1144,,,False
+1549841,2026-10-25T00:15:00+00:00,NS,Clausura - 16,Once Caldas,1136,Deportivo Pereira,1462,,,False
+1549838,2026-10-25T19:00:00+00:00,NS,Clausura - 16,Fortaleza FC,1147,Deportivo Cali,1127,,,False
+1549839,2026-10-25T21:05:00+00:00,NS,Clausura - 16,Jaguares,1133,Llaneros,1464,,,False
+1549835,2026-10-25T23:10:00+00:00,NS,Clausura - 16,Atletico Nacional,1137,Independiente Medellin,1128,,,False
+1549837,2026-10-26T01:15:00+00:00,NS,Clausura - 16,Deportes Tolima,1142,Deportivo Pasto,1126,,,False
+1549851,2026-10-27T01:00:00+00:00,NS,Clausura - 17,Millonarios,1125,America de Cali,1138,,,False
+1549843,2026-10-29T21:00:00+00:00,NS,Clausura - 17,Águilas Doradas,1144,Fortaleza FC,1147,,,False
+1549852,2026-10-29T23:15:00+00:00,NS,Clausura - 17,Deportivo Pereira,1462,Deportes Tolima,1142,,,False
+1549849,2026-10-30T01:20:00+00:00,NS,Clausura - 17,Internacional de Bogota,1134,Once Caldas,1136,,,False
+1549848,2026-10-30T23:15:00+00:00,NS,Clausura - 17,Independiente Medellin,1128,Alianza Valledupar,1141,,,False
+1549846,2026-10-31T01:20:00+00:00,NS,Clausura - 17,Deportivo Cali,1127,Chico,1132,,,False
+1549845,2026-10-31T21:00:00+00:00,NS,Clausura - 17,Cucuta,1470,Santa Fe,1139,,,False
+1549850,2026-10-31T23:05:00+00:00,NS,Clausura - 17,Llaneros,1464,Junior,1135,,,False
+1549847,2026-11-01T01:10:00+00:00,NS,Clausura - 17,Deportivo Pasto,1126,Jaguares,1133,,,False
+1549844,2026-11-01T23:10:00+00:00,NS,Clausura - 17,Bucaramanga,1131,Atletico Nacional,1137,,,False
+1549858,2026-11-02T21:20:00+00:00,NS,Clausura - 18,Fortaleza FC,1147,Independiente Medellin,1128,,,False
+1549861,2026-11-02T23:25:00+00:00,NS,Clausura - 18,Once Caldas,1136,Águilas Doradas,1144,,,False
+1549857,2026-11-03T01:30:00+00:00,NS,Clausura - 18,Deportes Tolima,1142,Millonarios,1125,,,False
+1549853,2026-11-03T21:10:00+00:00,NS,Clausura - 18,Alianza Valledupar,1141,Llaneros,1464,,,False
+1549862,2026-11-03T23:15:00+00:00,NS,Clausura - 18,Santa Fe,1139,Deportivo Pasto,1126,,,False
+1549854,2026-11-04T01:20:00+00:00,NS,Clausura - 18,America de Cali,1138,Deportivo Cali,1127,,,False
+1549856,2026-11-04T19:00:00+00:00,NS,Clausura - 18,Chico,1132,Internacional de Bogota,1134,,,False
+1549859,2026-11-04T21:20:00+00:00,NS,Clausura - 18,Jaguares,1133,Bucaramanga,1131,,,False
+1549860,2026-11-04T23:25:00+00:00,NS,Clausura - 18,Junior,1135,Cucuta,1470,,,False
+1549855,2026-11-05T01:30:00+00:00,NS,Clausura - 18,Atletico Nacional,1137,Deportivo Pereira,1462,,,False
+1549871,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Millonarios,1125,Alianza Valledupar,1141,,,False
+1549868,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Deportivo Pasto,1126,Junior,1135,,,False
+1549867,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Deportivo Cali,1127,Deportes Tolima,1142,,,False
+1549865,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Bucaramanga,1131,Fortaleza FC,1147,,,False
+1549869,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Internacional de Bogota,1134,Santa Fe,1139,,,False
+1549864,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Atletico Nacional,1137,Once Caldas,1136,,,False
+1549863,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Águilas Doradas,1144,Independiente Medellin,1128,,,False
+1549872,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Deportivo Pereira,1462,America de Cali,1138,,,False
+1549870,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Llaneros,1464,Chico,1132,,,False
+1549866,2026-11-08T20:30:00+00:00,NS,Clausura - 19,Cucuta,1470,Jaguares,1133,,,False

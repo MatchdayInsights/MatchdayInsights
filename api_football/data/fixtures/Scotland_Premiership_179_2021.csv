@@ -1,0 +1,235 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+709660,2021-07-31T12:30:00+00:00,FT,1st Phase - 1,Rangers,257,Livingston,255,3,0,True
+709661,2021-07-31T14:00:00+00:00,FT,1st Phase - 1,Dundee,253,ST Mirren,251,2,2,True
+709662,2021-07-31T14:00:00+00:00,FT,1st Phase - 1,Ross County,902,ST Johnstone,258,0,0,True
+709663,2021-07-31T19:00:00+00:00,FT,1st Phase - 1,Heart Of Midlothian,254,Celtic,247,2,1,True
+709664,2021-08-01T14:00:00+00:00,FT,1st Phase - 1,Aberdeen,252,Dundee Utd,1386,2,0,True
+709665,2021-08-01T15:30:00+00:00,FT,1st Phase - 1,Motherwell,256,Hibernian,249,2,3,True
+709667,2021-08-07T11:30:00+00:00,FT,1st Phase - 2,Dundee Utd,1386,Rangers,257,1,0,True
+709670,2021-08-07T14:00:00+00:00,FT,1st Phase - 2,ST Mirren,251,Heart Of Midlothian,254,1,2,True
+709666,2021-08-08T14:00:00+00:00,FT,1st Phase - 2,Celtic,247,Dundee,253,6,0,True
+709668,2021-08-08T14:00:00+00:00,FT,1st Phase - 2,Hibernian,249,Ross County,902,3,0,True
+709669,2021-08-08T14:00:00+00:00,FT,1st Phase - 2,Livingston,255,Aberdeen,252,1,2,True
+709671,2021-08-08T14:00:00+00:00,FT,1st Phase - 2,ST Johnstone,258,Motherwell,256,1,1,True
+709672,2021-08-21T14:00:00+00:00,FT,1st Phase - 3,Celtic,247,ST Mirren,251,6,0,True
+709675,2021-08-21T14:00:00+00:00,FT,1st Phase - 3,Livingston,255,Motherwell,256,1,2,True
+709673,2021-08-22T11:00:00+00:00,FT,1st Phase - 3,Dundee,253,Hibernian,249,2,2,True
+709674,2021-08-22T14:00:00+00:00,FT,1st Phase - 3,Heart Of Midlothian,254,Aberdeen,252,1,1,True
+709677,2021-08-22T14:00:00+00:00,FT,1st Phase - 3,ST Johnstone,258,Dundee Utd,1386,0,1,True
+709676,2021-08-22T14:00:00+00:00,FT,1st Phase - 3,Ross County,902,Rangers,257,2,4,True
+709680,2021-08-28T14:00:00+00:00,FT,1st Phase - 4,Hibernian,249,Livingston,255,2,0,True
+709681,2021-08-28T14:00:00+00:00,FT,1st Phase - 4,Motherwell,256,Dundee,253,1,0,True
+709679,2021-08-28T14:00:00+00:00,FT,1st Phase - 4,Dundee Utd,1386,Heart Of Midlothian,254,0,2,True
+709682,2021-08-29T11:00:00+00:00,FT,1st Phase - 4,Rangers,257,Celtic,247,1,0,True
+709683,2021-08-29T14:00:00+00:00,FT,1st Phase - 4,ST Mirren,251,ST Johnstone,258,0,0,True
+709678,2021-08-29T14:00:00+00:00,FT,1st Phase - 4,Aberdeen,252,Ross County,902,1,1,True
+709688,2021-09-11T11:30:00+00:00,FT,1st Phase - 5,ST Johnstone,258,Rangers,257,1,2,True
+709684,2021-09-11T14:00:00+00:00,FT,1st Phase - 5,Celtic,247,Ross County,902,3,0,True
+709689,2021-09-11T14:00:00+00:00,FT,1st Phase - 5,ST Mirren,251,Dundee Utd,1386,0,0,True
+709685,2021-09-11T14:00:00+00:00,FT,1st Phase - 5,Dundee,253,Livingston,255,0,0,True
+709687,2021-09-11T14:00:00+00:00,FT,1st Phase - 5,Motherwell,256,Aberdeen,252,2,0,True
+709686,2021-09-12T11:00:00+00:00,FT,1st Phase - 5,Heart Of Midlothian,254,Hibernian,249,0,0,True
+709692,2021-09-18T14:00:00+00:00,FT,1st Phase - 6,Hibernian,249,ST Mirren,251,2,2,True
+709690,2021-09-18T14:00:00+00:00,FT,1st Phase - 6,Aberdeen,252,ST Johnstone,258,0,1,True
+709695,2021-09-18T14:00:00+00:00,FT,1st Phase - 6,Ross County,902,Heart Of Midlothian,254,2,2,True
+709691,2021-09-19T11:00:00+00:00,FT,1st Phase - 6,Dundee Utd,1386,Dundee,253,1,0,True
+709693,2021-09-19T14:00:00+00:00,FT,1st Phase - 6,Livingston,255,Celtic,247,1,0,True
+709694,2021-09-19T14:00:00+00:00,FT,1st Phase - 6,Rangers,257,Motherwell,256,1,1,True
+709697,2021-09-25T14:00:00+00:00,FT,1st Phase - 7,Dundee,253,Rangers,257,0,1,True
+709698,2021-09-25T14:00:00+00:00,FT,1st Phase - 7,Heart Of Midlothian,254,Livingston,255,3,0,True
+709700,2021-09-25T14:00:00+00:00,FT,1st Phase - 7,Motherwell,256,Ross County,902,2,1,True
+709701,2021-09-26T11:00:00+00:00,FT,1st Phase - 7,ST Mirren,251,Aberdeen,252,3,2,True
+709696,2021-09-26T14:00:00+00:00,FT,1st Phase - 7,Celtic,247,Dundee Utd,1386,1,1,True
+709699,2021-09-26T14:00:00+00:00,FT,1st Phase - 7,Hibernian,249,ST Johnstone,258,1,0,True
+709704,2021-10-02T14:00:00+00:00,FT,1st Phase - 8,Heart Of Midlothian,254,Motherwell,256,2,0,True
+709705,2021-10-02T14:00:00+00:00,FT,1st Phase - 8,Livingston,255,ST Mirren,251,0,1,True
+709707,2021-10-02T14:00:00+00:00,FT,1st Phase - 8,ST Johnstone,258,Dundee,253,3,1,True
+709703,2021-10-02T14:00:00+00:00,FT,1st Phase - 8,Dundee Utd,1386,Ross County,902,1,0,True
+709702,2021-10-03T11:00:00+00:00,FT,1st Phase - 8,Aberdeen,252,Celtic,247,1,2,True
+709706,2021-10-03T14:00:00+00:00,FT,1st Phase - 8,Rangers,257,Hibernian,249,2,1,True
+709709,2021-10-16T14:00:00+00:00,FT,1st Phase - 9,Hibernian,249,Dundee Utd,1386,0,3,True
+709710,2021-10-16T14:00:00+00:00,FT,1st Phase - 9,Motherwell,256,Celtic,247,0,2,True
+709711,2021-10-16T14:00:00+00:00,FT,1st Phase - 9,Rangers,257,Heart Of Midlothian,254,1,1,True
+709713,2021-10-16T14:00:00+00:00,FT,1st Phase - 9,ST Johnstone,258,Livingston,255,0,3,True
+709712,2021-10-16T14:00:00+00:00,FT,1st Phase - 9,Ross County,902,ST Mirren,251,2,3,True
+709708,2021-10-16T17:00:00+00:00,FT,1st Phase - 9,Dundee,253,Aberdeen,252,2,1,True
+709715,2021-10-23T14:00:00+00:00,FT,1st Phase - 10,Celtic,247,ST Johnstone,258,2,0,True
+709714,2021-10-23T14:00:00+00:00,FT,1st Phase - 10,Aberdeen,252,Hibernian,249,1,0,True
+709717,2021-10-23T14:00:00+00:00,FT,1st Phase - 10,Heart Of Midlothian,254,Dundee,253,1,1,True
+709718,2021-10-23T14:00:00+00:00,FT,1st Phase - 10,Ross County,902,Livingston,255,2,3,True
+709716,2021-10-23T14:00:00+00:00,FT,1st Phase - 10,Dundee Utd,1386,Motherwell,256,2,1,True
+709719,2021-10-24T11:00:00+00:00,FT,1st Phase - 10,ST Mirren,251,Rangers,257,1,2,True
+709721,2021-10-27T18:45:00+00:00,FT,1st Phase - 11,Hibernian,249,Celtic,247,1,3,True
+709720,2021-10-27T18:45:00+00:00,FT,1st Phase - 11,Dundee,253,Ross County,902,0,5,True
+709722,2021-10-27T18:45:00+00:00,FT,1st Phase - 11,Livingston,255,Dundee Utd,1386,1,1,True
+709723,2021-10-27T18:45:00+00:00,FT,1st Phase - 11,Motherwell,256,ST Mirren,251,2,2,True
+709724,2021-10-27T18:45:00+00:00,FT,1st Phase - 11,Rangers,257,Aberdeen,252,2,2,True
+709725,2021-10-27T18:45:00+00:00,FT,1st Phase - 11,ST Johnstone,258,Heart Of Midlothian,254,1,1,True
+709727,2021-10-30T14:00:00+00:00,FT,1st Phase - 12,Celtic,247,Livingston,255,0,0,True
+709731,2021-10-30T14:00:00+00:00,FT,1st Phase - 12,ST Mirren,251,Dundee,253,0,1,True
+709726,2021-10-30T14:00:00+00:00,FT,1st Phase - 12,Aberdeen,252,Heart Of Midlothian,254,2,1,True
+709728,2021-10-30T14:00:00+00:00,FT,1st Phase - 12,Dundee Utd,1386,ST Johnstone,258,0,1,True
+709729,2021-10-31T12:00:00+00:00,FT,1st Phase - 12,Motherwell,256,Rangers,257,1,6,True
+709732,2021-11-06T15:00:00+00:00,FT,1st Phase - 13,Aberdeen,252,Motherwell,256,0,2,True
+709734,2021-11-06T15:00:00+00:00,FT,1st Phase - 13,Heart Of Midlothian,254,Dundee Utd,1386,5,2,True
+709737,2021-11-06T15:00:00+00:00,FT,1st Phase - 13,ST Johnstone,258,ST Mirren,251,0,0,True
+709733,2021-11-07T12:00:00+00:00,FT,1st Phase - 13,Dundee,253,Celtic,247,2,4,True
+709736,2021-11-07T15:00:00+00:00,FT,1st Phase - 13,Rangers,257,Ross County,902,4,2,True
+709743,2021-11-20T15:00:00+00:00,FT,1st Phase - 14,ST Mirren,251,Livingston,255,1,1,True
+709740,2021-11-20T15:00:00+00:00,FT,1st Phase - 14,Motherwell,256,Heart Of Midlothian,254,2,0,True
+709738,2021-11-20T15:00:00+00:00,FT,1st Phase - 14,Dundee Utd,1386,Aberdeen,252,1,0,True
+709730,2021-11-24T19:45:00+00:00,FT,1st Phase - 12,Ross County,902,Hibernian,249,1,0,True
+709745,2021-11-27T15:00:00+00:00,FT,1st Phase - 15,Dundee,253,Motherwell,256,3,0,True
+709746,2021-11-27T15:00:00+00:00,FT,1st Phase - 15,Heart Of Midlothian,254,ST Mirren,251,2,0,True
+709749,2021-11-27T15:00:00+00:00,FT,1st Phase - 15,ST Johnstone,258,Hibernian,249,1,2,True
+709748,2021-11-27T15:00:00+00:00,FT,1st Phase - 15,Ross County,902,Dundee Utd,1386,1,1,True
+709747,2021-11-28T12:00:00+00:00,FT,1st Phase - 15,Livingston,255,Rangers,257,1,3,True
+709744,2021-11-28T15:00:00+00:00,FT,1st Phase - 15,Celtic,247,Aberdeen,252,2,1,True
+709754,2021-11-30T19:45:00+00:00,FT,1st Phase - 16,Motherwell,256,Dundee Utd,1386,1,0,True
+709753,2021-12-01T19:45:00+00:00,FT,1st Phase - 16,Hibernian,249,Rangers,257,0,1,True
+709755,2021-12-01T19:45:00+00:00,FT,1st Phase - 16,ST Mirren,251,Ross County,902,0,0,True
+709750,2021-12-01T19:45:00+00:00,FT,1st Phase - 16,Aberdeen,252,Livingston,255,2,0,True
+709752,2021-12-01T19:45:00+00:00,FT,1st Phase - 16,Dundee,253,ST Johnstone,258,1,0,True
+709751,2021-12-02T19:45:00+00:00,FT,1st Phase - 16,Celtic,247,Heart Of Midlothian,254,1,0,True
+709758,2021-12-04T15:00:00+00:00,FT,1st Phase - 17,Hibernian,249,Motherwell,256,1,1,True
+709756,2021-12-04T15:00:00+00:00,FT,1st Phase - 17,Aberdeen,252,ST Mirren,251,4,1,True
+709760,2021-12-04T15:00:00+00:00,FT,1st Phase - 17,Rangers,257,Dundee,253,3,0,True
+709757,2021-12-05T12:00:00+00:00,FT,1st Phase - 17,Dundee Utd,1386,Celtic,247,0,3,True
+709759,2021-12-05T15:00:00+00:00,FT,1st Phase - 17,Livingston,255,Heart Of Midlothian,254,0,1,True
+709735,2021-12-08T19:45:00+00:00,FT,1st Phase - 13,Livingston,255,Hibernian,249,1,0,True
+709767,2021-12-11T15:00:00+00:00,FT,1st Phase - 18,ST Mirren,251,Hibernian,249,1,1,True
+709766,2021-12-11T15:00:00+00:00,FT,1st Phase - 18,ST Johnstone,258,Aberdeen,252,0,1,True
+709765,2021-12-11T15:00:00+00:00,FT,1st Phase - 18,Ross County,902,Dundee,253,3,2,True
+709763,2021-12-11T15:00:00+00:00,FT,1st Phase - 18,Dundee Utd,1386,Livingston,255,0,1,True
+709764,2021-12-12T12:00:00+00:00,FT,1st Phase - 18,Heart Of Midlothian,254,Rangers,257,0,2,True
+709762,2021-12-12T15:00:00+00:00,FT,1st Phase - 18,Celtic,247,Motherwell,256,1,0,True
+709739,2021-12-14T19:45:00+00:00,FT,1st Phase - 14,Hibernian,249,Dundee,253,1,0,True
+709741,2021-12-15T19:45:00+00:00,FT,1st Phase - 14,Rangers,257,ST Johnstone,258,2,0,True
+709742,2021-12-15T19:45:00+00:00,FT,1st Phase - 14,Ross County,902,Celtic,247,1,2,True
+709768,2021-12-18T15:00:00+00:00,FT,1st Phase - 19,Dundee,253,Heart Of Midlothian,254,0,1,True
+709770,2021-12-18T15:00:00+00:00,FT,1st Phase - 19,Livingston,255,Ross County,902,1,1,True
+709771,2021-12-18T15:00:00+00:00,FT,1st Phase - 19,Motherwell,256,ST Johnstone,258,2,0,True
+709772,2021-12-18T15:00:00+00:00,FT,1st Phase - 19,Rangers,257,Dundee Utd,1386,1,0,True
+709769,2021-12-22T19:45:00+00:00,FT,1st Phase - 19,Hibernian,249,Aberdeen,252,1,0,True
+709773,2021-12-22T19:45:00+00:00,FT,1st Phase - 19,ST Mirren,251,Celtic,247,0,0,True
+709761,2021-12-22T19:45:00+00:00,FT,1st Phase - 17,ST Johnstone,258,Ross County,902,1,2,True
+709779,2021-12-26T12:30:00+00:00,FT,1st Phase - 20,ST Johnstone,258,Celtic,247,1,3,True
+709774,2021-12-26T15:00:00+00:00,FT,1st Phase - 20,Aberdeen,252,Dundee,253,2,1,True
+709776,2021-12-26T15:00:00+00:00,FT,1st Phase - 20,Heart Of Midlothian,254,Ross County,902,2,1,True
+709777,2021-12-26T15:00:00+00:00,FT,1st Phase - 20,Motherwell,256,Livingston,255,2,1,True
+709778,2021-12-26T15:00:00+00:00,FT,1st Phase - 20,Rangers,257,ST Mirren,251,2,0,True
+709775,2021-12-26T15:00:00+00:00,FT,1st Phase - 20,Dundee Utd,1386,Hibernian,249,1,3,True
+709781,2022-01-17T19:45:00+00:00,FT,1st Phase - 21,Celtic,247,Hibernian,249,2,0,True
+709780,2022-01-18T19:45:00+00:00,FT,1st Phase - 21,Aberdeen,252,Rangers,257,1,1,True
+709783,2022-01-18T19:45:00+00:00,FT,1st Phase - 21,Heart Of Midlothian,254,ST Johnstone,258,2,0,True
+709784,2022-01-18T19:45:00+00:00,FT,1st Phase - 21,Livingston,255,Dundee,253,2,0,True
+709785,2022-01-18T19:45:00+00:00,FT,1st Phase - 21,Ross County,902,Motherwell,256,3,1,True
+709782,2022-01-18T19:45:00+00:00,FT,1st Phase - 21,Dundee Utd,1386,ST Mirren,251,1,2,True
+709797,2022-01-25T19:45:00+00:00,FT,1st Phase - 23,ST Mirren,251,Aberdeen,252,1,0,True
+709793,2022-01-26T19:45:00+00:00,FT,1st Phase - 23,Heart Of Midlothian,254,Celtic,247,1,2,True
+709794,2022-01-26T19:45:00+00:00,FT,1st Phase - 23,Motherwell,256,Hibernian,249,0,0,True
+709795,2022-01-26T19:45:00+00:00,FT,1st Phase - 23,Rangers,257,Livingston,255,1,0,True
+709796,2022-01-26T19:45:00+00:00,FT,1st Phase - 23,ST Johnstone,258,Dundee,253,0,0,True
+709792,2022-01-26T19:45:00+00:00,FT,1st Phase - 23,Dundee Utd,1386,Ross County,902,2,1,True
+709803,2022-01-29T12:30:00+00:00,FT,1st Phase - 24,Ross County,902,Rangers,257,3,3,True
+709799,2022-01-29T15:00:00+00:00,FT,1st Phase - 24,Celtic,247,Dundee Utd,1386,1,0,True
+709802,2022-01-29T15:00:00+00:00,FT,1st Phase - 24,Hibernian,249,Livingston,255,2,3,True
+709801,2022-01-29T15:00:00+00:00,FT,1st Phase - 24,Heart Of Midlothian,254,Motherwell,256,2,0,True
+709788,2022-02-01T19:45:00+00:00,FT,1st Phase - 22,Hibernian,249,Heart Of Midlothian,254,0,0,True
+709791,2022-02-01T19:45:00+00:00,FT,1st Phase - 22,ST Mirren,251,Motherwell,256,1,1,True
+709787,2022-02-01T19:45:00+00:00,FT,1st Phase - 22,Dundee,253,Dundee Utd,1386,0,0,True
+709789,2022-02-01T19:45:00+00:00,FT,1st Phase - 22,Livingston,255,ST Johnstone,258,1,2,True
+709790,2022-02-01T19:45:00+00:00,FT,1st Phase - 22,Ross County,902,Aberdeen,252,1,1,True
+709786,2022-02-02T19:45:00+00:00,FT,1st Phase - 22,Celtic,247,Rangers,257,3,0,True
+709805,2022-02-05T15:00:00+00:00,FT,1st Phase - 25,Hibernian,249,ST Mirren,251,0,1,True
+709804,2022-02-05T15:00:00+00:00,FT,1st Phase - 25,Dundee,253,Ross County,902,1,2,True
+709806,2022-02-05T15:00:00+00:00,FT,1st Phase - 25,Livingston,255,Aberdeen,252,2,1,True
+709809,2022-02-05T15:00:00+00:00,FT,1st Phase - 25,ST Johnstone,258,Dundee Utd,1386,0,0,True
+709807,2022-02-06T13:30:00+00:00,FT,1st Phase - 25,Motherwell,256,Celtic,247,0,4,True
+709808,2022-02-06T16:00:00+00:00,FT,1st Phase - 25,Rangers,257,Heart Of Midlothian,254,5,0,True
+709815,2022-02-09T19:45:00+00:00,FT,1st Phase - 26,ST Mirren,251,ST Johnstone,258,2,1,True
+709810,2022-02-09T19:45:00+00:00,FT,1st Phase - 26,Aberdeen,252,Celtic,247,2,3,True
+709812,2022-02-09T19:45:00+00:00,FT,1st Phase - 26,Heart Of Midlothian,254,Dundee,253,1,2,True
+709813,2022-02-09T19:45:00+00:00,FT,1st Phase - 26,Rangers,257,Hibernian,249,2,0,True
+709814,2022-02-09T19:45:00+00:00,FT,1st Phase - 26,Ross County,902,Livingston,255,1,1,True
+709811,2022-02-09T19:45:00+00:00,FT,1st Phase - 26,Dundee Utd,1386,Motherwell,256,2,0,True
+709798,2022-02-15T19:45:00+00:00,FT,1st Phase - 24,Aberdeen,252,ST Johnstone,258,1,1,True
+709818,2022-02-19T15:00:00+00:00,FT,1st Phase - 27,Hibernian,249,Ross County,902,2,0,True
+709819,2022-02-19T15:00:00+00:00,FT,1st Phase - 27,Livingston,255,ST Mirren,251,1,1,True
+709820,2022-02-19T15:00:00+00:00,FT,1st Phase - 27,Motherwell,256,Aberdeen,252,1,1,True
+709821,2022-02-19T15:00:00+00:00,FT,1st Phase - 27,ST Johnstone,258,Heart Of Midlothian,254,2,1,True
+709817,2022-02-20T12:00:00+00:00,FT,1st Phase - 27,Dundee Utd,1386,Rangers,257,1,1,True
+709816,2022-02-20T15:00:00+00:00,FT,1st Phase - 27,Celtic,247,Dundee,253,3,2,True
+709827,2022-02-26T15:00:00+00:00,FT,1st Phase - 28,ST Mirren,251,Heart Of Midlothian,254,0,2,True
+709822,2022-02-26T15:00:00+00:00,FT,1st Phase - 28,Aberdeen,252,Dundee Utd,1386,1,1,True
+709823,2022-02-26T15:00:00+00:00,FT,1st Phase - 28,Dundee,253,Livingston,255,0,4,True
+709826,2022-02-26T15:00:00+00:00,FT,1st Phase - 28,Ross County,902,ST Johnstone,258,3,1,True
+709824,2022-02-27T12:00:00+00:00,FT,1st Phase - 28,Hibernian,249,Celtic,247,0,0,True
+709825,2022-02-27T15:00:00+00:00,FT,1st Phase - 28,Rangers,257,Motherwell,256,2,2,True
+709828,2022-03-02T19:45:00+00:00,FT,1st Phase - 29,Celtic,247,ST Mirren,251,2,0,True
+709829,2022-03-02T19:45:00+00:00,FT,1st Phase - 29,Dundee,253,Hibernian,249,0,0,True
+709830,2022-03-02T19:45:00+00:00,FT,1st Phase - 29,Heart Of Midlothian,254,Aberdeen,252,2,0,True
+709831,2022-03-02T19:45:00+00:00,FT,1st Phase - 29,Livingston,255,Dundee Utd,1386,2,1,True
+709832,2022-03-02T19:45:00+00:00,FT,1st Phase - 29,Motherwell,256,Ross County,902,0,1,True
+709833,2022-03-02T19:45:00+00:00,FT,1st Phase - 29,ST Johnstone,258,Rangers,257,0,1,True
+709835,2022-03-05T15:00:00+00:00,FT,1st Phase - 30,Hibernian,249,ST Johnstone,258,0,0,True
+709837,2022-03-05T15:00:00+00:00,FT,1st Phase - 30,Motherwell,256,Dundee,253,1,1,True
+709838,2022-03-05T15:00:00+00:00,FT,1st Phase - 30,Rangers,257,Aberdeen,252,1,0,True
+709839,2022-03-05T15:00:00+00:00,FT,1st Phase - 30,Ross County,902,ST Mirren,251,1,0,True
+709834,2022-03-05T15:00:00+00:00,FT,1st Phase - 30,Dundee Utd,1386,Heart Of Midlothian,254,2,2,True
+709836,2022-03-06T12:00:00+00:00,FT,1st Phase - 30,Livingston,255,Celtic,247,1,3,True
+709800,2022-03-09T19:45:00+00:00,FT,1st Phase - 24,Dundee,253,ST Mirren,251,0,1,True
+709841,2022-03-19T15:00:00+00:00,FT,1st Phase - 31,Celtic,247,Ross County,902,4,0,True
+709845,2022-03-19T15:00:00+00:00,FT,1st Phase - 31,ST Mirren,251,Dundee Utd,1386,1,2,True
+709840,2022-03-19T15:00:00+00:00,FT,1st Phase - 31,Aberdeen,252,Hibernian,249,3,1,True
+709843,2022-03-19T15:00:00+00:00,FT,1st Phase - 31,Heart Of Midlothian,254,Livingston,255,2,0,True
+709844,2022-03-19T15:00:00+00:00,FT,1st Phase - 31,ST Johnstone,258,Motherwell,256,2,1,True
+709842,2022-03-20T12:00:00+00:00,FT,1st Phase - 31,Dundee,253,Rangers,257,1,2,True
+709847,2022-04-02T14:00:00+00:00,FT,1st Phase - 32,Hibernian,249,Dundee Utd,1386,1,1,True
+709846,2022-04-02T14:00:00+00:00,FT,1st Phase - 32,Dundee,253,Aberdeen,252,2,2,True
+709848,2022-04-02T14:00:00+00:00,FT,1st Phase - 32,Motherwell,256,ST Mirren,251,4,2,True
+709851,2022-04-02T14:00:00+00:00,FT,1st Phase - 32,ST Johnstone,258,Livingston,255,1,0,True
+709850,2022-04-02T14:00:00+00:00,FT,1st Phase - 32,Ross County,902,Heart Of Midlothian,254,1,1,True
+709849,2022-04-03T11:00:00+00:00,FT,1st Phase - 32,Rangers,257,Celtic,247,1,2,True
+709853,2022-04-09T14:00:00+00:00,FT,1st Phase - 33,Celtic,247,ST Johnstone,258,7,0,True
+709852,2022-04-09T14:00:00+00:00,FT,1st Phase - 33,Aberdeen,252,Ross County,902,0,1,True
+709855,2022-04-09T14:00:00+00:00,FT,1st Phase - 33,Heart Of Midlothian,254,Hibernian,249,3,1,True
+709856,2022-04-09T14:00:00+00:00,FT,1st Phase - 33,Livingston,255,Motherwell,256,2,2,True
+709854,2022-04-09T14:00:00+00:00,FT,1st Phase - 33,Dundee Utd,1386,Dundee,253,2,2,True
+709857,2022-04-10T11:00:00+00:00,FT,1st Phase - 33,ST Mirren,251,Rangers,257,0,4,True
+857261,2022-04-23T11:00:00+00:00,FT,Championship Round - 1,Motherwell,256,Rangers,257,1,3,True
+857260,2022-04-23T14:00:00+00:00,FT,Championship Round - 1,ST Mirren,251,Hibernian,249,0,1,True
+857258,2022-04-23T14:00:00+00:00,FT,Championship Round - 1,Aberdeen,252,Livingston,255,1,2,True
+857259,2022-04-23T14:00:00+00:00,FT,Championship Round - 1,Dundee,253,ST Johnstone,258,1,1,True
+857262,2022-04-24T13:30:00+00:00,FT,Championship Round - 1,Ross County,902,Celtic,247,0,2,True
+857263,2022-04-24T14:00:00+00:00,FT,Championship Round - 1,Dundee Utd,1386,Heart Of Midlothian,254,2,3,True
+857266,2022-04-30T14:00:00+00:00,FT,Championship Round - 2,Aberdeen,252,Dundee,253,1,0,True
+857265,2022-04-30T14:00:00+00:00,FT,Championship Round - 2,Heart Of Midlothian,254,Ross County,902,0,0,True
+857267,2022-04-30T14:00:00+00:00,FT,Championship Round - 2,Livingston,255,Hibernian,249,1,0,True
+857268,2022-04-30T14:00:00+00:00,FT,Championship Round - 2,ST Johnstone,258,ST Mirren,251,0,1,True
+857264,2022-04-30T14:00:00+00:00,FT,Championship Round - 2,Dundee Utd,1386,Motherwell,256,1,0,True
+857269,2022-05-01T11:00:00+00:00,FT,Championship Round - 2,Celtic,247,Rangers,257,1,1,True
+860847,2022-05-03T18:05:00+00:00,FT,Relegation Round,Partick,901,Inverness CT,903,1,2,True
+860848,2022-05-06T18:45:00+00:00,FT,Relegation Round,Inverness CT,903,Partick,901,1,0,True
+857270,2022-05-07T11:00:00+00:00,FT,Championship Round - 3,Celtic,247,Heart Of Midlothian,254,4,1,True
+857272,2022-05-07T14:00:00+00:00,FT,Championship Round - 3,Hibernian,249,Aberdeen,252,1,1,True
+857274,2022-05-07T14:00:00+00:00,FT,Championship Round - 3,ST Mirren,251,Dundee,253,2,0,True
+857273,2022-05-07T14:00:00+00:00,FT,Championship Round - 3,Livingston,255,ST Johnstone,258,1,1,True
+857271,2022-05-07T14:00:00+00:00,FT,Championship Round - 3,Ross County,902,Motherwell,256,0,1,True
+857275,2022-05-08T14:00:00+00:00,FT,Championship Round - 3,Rangers,257,Dundee Utd,1386,2,0,True
+861284,2022-05-10T18:05:00+00:00,FT,Relegation Round,Inverness CT,903,Arbroath,4249,0,0,True
+857276,2022-05-10T18:45:00+00:00,FT,Championship Round - 4,Dundee,253,Hibernian,249,3,1,True
+857277,2022-05-11T18:30:00+00:00,FT,Championship Round - 4,Dundee Utd,1386,Celtic,247,1,1,True
+857281,2022-05-11T18:45:00+00:00,FT,Championship Round - 4,ST Mirren,251,Livingston,255,0,0,True
+857278,2022-05-11T18:45:00+00:00,FT,Championship Round - 4,Motherwell,256,Heart Of Midlothian,254,2,1,True
+857279,2022-05-11T18:45:00+00:00,FT,Championship Round - 4,Rangers,257,Ross County,902,4,1,True
+857280,2022-05-11T18:45:00+00:00,FT,Championship Round - 4,ST Johnstone,258,Aberdeen,252,1,0,True
+861285,2022-05-13T18:45:00+00:00,PEN,Relegation Round,Arbroath,4249,Inverness CT,903,0,0,False
+857282,2022-05-14T11:15:00+00:00,FT,Championship Round - 5,Celtic,247,Motherwell,256,6,0,True
+857283,2022-05-14T11:15:00+00:00,FT,Championship Round - 5,Heart Of Midlothian,254,Rangers,257,1,3,True
+857284,2022-05-14T11:15:00+00:00,FT,Championship Round - 5,Ross County,902,Dundee Utd,1386,1,2,True
+857286,2022-05-15T11:00:00+00:00,FT,Championship Round - 5,Hibernian,249,ST Johnstone,258,4,0,True
+857285,2022-05-15T11:00:00+00:00,FT,Championship Round - 5,Aberdeen,252,ST Mirren,251,0,0,True
+857287,2022-05-15T11:00:00+00:00,FT,Championship Round - 5,Livingston,255,Dundee,253,2,1,True
+861998,2022-05-20T18:45:00+00:00,FT,Relegation Round,Inverness CT,903,ST Johnstone,258,2,2,True
+861999,2022-05-23T18:45:00+00:00,FT,Relegation Round,ST Johnstone,258,Inverness CT,903,4,0,True

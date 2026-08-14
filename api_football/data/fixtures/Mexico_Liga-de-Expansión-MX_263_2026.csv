@@ -1,121 +1,121 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1581371,2026-07-25T01:00:00+00:00,FT,Mineros de Zacatecas,2299,Correcaminos Uat,2313,3,3,True
-1581370,2026-07-25T01:00:00+00:00,FT,Tepatitlán,14279,Durango,15941,0,1,True
-1581365,2026-07-25T22:00:00+00:00,FT,Tlaxcala,14280,Leones Negros UDG,2307,2,4,True
-1581367,2026-07-25T23:00:00+00:00,FT,Venados FC,2311,Alebrijes de Oaxaca,2300,3,0,True
-1581368,2026-07-26T01:00:00+00:00,FT,Monarcas,2284,CA La Paz,19024,4,2,True
-1581470,2026-07-26T01:00:00+00:00,FT,CDS Tampico Madero,19905,Piratas,27935,0,0,True
-1581366,2026-07-26T23:00:00+00:00,FT,Tapatío,14278,Cruz Azul Hidalgo,15928,0,0,True
-1581374,2026-07-31T01:00:00+00:00,FT,Alebrijes de Oaxaca,2300,Dorados,2297,0,2,True
-1581377,2026-08-01T01:00:00+00:00,FT,Mineros de Zacatecas,2299,Tlaxcala,14280,3,1,True
-1581376,2026-08-01T01:00:00+00:00,FT,Correcaminos Uat,2313,Tepatitlán,14279,3,1,True
-1581378,2026-08-01T03:00:00+00:00,FT,CA La Paz,19024,Durango,15941,0,1,True
-1581372,2026-08-01T21:45:00+00:00,FT,Cruz Azul Hidalgo,15928,Venados FC,2311,1,1,True
-1581373,2026-08-01T23:00:00+00:00,FT,Tapatío,14278,CDS Tampico Madero,19905,1,0,True
-1581375,2026-08-02T01:00:00+00:00,FT,Cancún,14276,Leones Negros UDG,2307,0,2,True
-1581471,2026-08-02T01:00:00+00:00,FT,Piratas,27935,Monarcas,2284,1,0,True
-1581379,2026-08-06T22:00:00+00:00,NS,Tlaxcala,14280,Alebrijes de Oaxaca,2300,,,False
-1581382,2026-08-07T01:00:00+00:00,NS,Dorados,2297,Mineros de Zacatecas,2299,,,False
-1581384,2026-08-07T01:00:00+00:00,NS,Leones Negros UDG,2307,Correcaminos Uat,2313,,,False
-1581385,2026-08-08T01:00:00+00:00,NS,Tepatitlán,14279,CA La Paz,19024,,,False
-1581472,2026-08-08T01:00:00+00:00,NS,Durango,15941,Piratas,27935,,,False
-1581380,2026-08-08T23:00:00+00:00,NS,Venados FC,2311,Tapatío,14278,,,False
-1581381,2026-08-09T01:00:00+00:00,NS,Monarcas,2284,Cancún,14276,,,False
-1581383,2026-08-09T01:00:00+00:00,NS,CDS Tampico Madero,19905,Cruz Azul Hidalgo,15928,,,False
-1581387,2026-08-14T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,Tepatitlán,14279,,,False
-1581391,2026-08-15T01:00:00+00:00,NS,Mineros de Zacatecas,2299,Venados FC,2311,,,False
-1581389,2026-08-15T01:00:00+00:00,NS,Correcaminos Uat,2313,Tapatío,14278,,,False
-1581473,2026-08-15T03:00:00+00:00,NS,CA La Paz,19024,Piratas,27935,,,False
-1581386,2026-08-15T21:45:00+00:00,NS,Cruz Azul Hidalgo,15928,Monarcas,2284,,,False
-1581390,2026-08-16T01:00:00+00:00,NS,Dorados,2297,Tlaxcala,14280,,,False
-1581388,2026-08-16T01:00:00+00:00,NS,Cancún,14276,Durango,15941,,,False
-1581392,2026-08-16T18:00:00+00:00,NS,Leones Negros UDG,2307,CDS Tampico Madero,19905,,,False
-1581394,2026-08-20T23:00:00+00:00,NS,Venados FC,2311,Dorados,2297,,,False
-1581396,2026-08-21T01:00:00+00:00,NS,Monarcas,2284,Correcaminos Uat,2313,,,False
-1581398,2026-08-21T01:00:00+00:00,NS,Tepatitlán,14279,Tlaxcala,14280,,,False
-1581399,2026-08-22T03:00:00+00:00,NS,CA La Paz,19024,Cruz Azul Hidalgo,15928,,,False
-1581395,2026-08-23T01:00:00+00:00,NS,Durango,15941,Leones Negros UDG,2307,,,False
-1581397,2026-08-23T01:00:00+00:00,NS,CDS Tampico Madero,19905,Alebrijes de Oaxaca,2300,,,False
-1581474,2026-08-23T01:00:00+00:00,NS,Piratas,27935,Cancún,14276,,,False
-1581393,2026-08-23T23:00:00+00:00,NS,Tapatío,14278,Mineros de Zacatecas,2299,,,False
-1581402,2026-08-28T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,Tapatío,14278,,,False
-1581403,2026-08-28T01:00:00+00:00,NS,Cancún,14276,CA La Paz,19024,,,False
-1581405,2026-08-29T01:00:00+00:00,NS,Dorados,2297,Monarcas,2284,,,False
-1581404,2026-08-29T01:00:00+00:00,NS,Correcaminos Uat,2313,Durango,15941,,,False
-1581400,2026-08-29T21:45:00+00:00,NS,Cruz Azul Hidalgo,15928,Tepatitlán,14279,,,False
-1581401,2026-08-29T22:00:00+00:00,NS,Tlaxcala,14280,Venados FC,2311,,,False
-1581406,2026-08-30T01:00:00+00:00,NS,Mineros de Zacatecas,2299,CDS Tampico Madero,19905,,,False
-1581475,2026-08-30T18:00:00+00:00,NS,Leones Negros UDG,2307,Piratas,27935,,,False
-1581412,2026-09-04T01:00:00+00:00,NS,Tepatitlán,14279,Dorados,2297,,,False
-1581408,2026-09-05T01:00:00+00:00,NS,Durango,15941,Tlaxcala,14280,,,False
-1581413,2026-09-05T03:00:00+00:00,NS,CA La Paz,19024,Mineros de Zacatecas,2299,,,False
-1581409,2026-09-06T01:00:00+00:00,NS,Monarcas,2284,Alebrijes de Oaxaca,2300,,,False
-1581410,2026-09-06T01:00:00+00:00,NS,Cancún,14276,Cruz Azul Hidalgo,15928,,,False
-1581411,2026-09-06T01:00:00+00:00,NS,CDS Tampico Madero,19905,Venados FC,2311,,,False
-1581476,2026-09-06T01:00:00+00:00,NS,Piratas,27935,Correcaminos Uat,2313,,,False
-1581407,2026-09-06T23:00:00+00:00,NS,Tapatío,14278,Leones Negros UDG,2307,,,False
-1581416,2026-09-11T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,Durango,15941,,,False
-1581477,2026-09-11T21:45:00+00:00,NS,Cruz Azul Hidalgo,15928,Piratas,27935,,,False
-1581417,2026-09-12T01:00:00+00:00,NS,Correcaminos Uat,2313,Cancún,14276,,,False
-1581414,2026-09-12T22:00:00+00:00,NS,Tlaxcala,14280,CDS Tampico Madero,19905,,,False
-1581415,2026-09-12T23:00:00+00:00,NS,Venados FC,2311,Tepatitlán,14279,,,False
-1581418,2026-09-13T01:00:00+00:00,NS,Dorados,2297,Tapatío,14278,,,False
-1581419,2026-09-13T01:00:00+00:00,NS,Mineros de Zacatecas,2299,Monarcas,2284,,,False
-1581420,2026-09-13T18:00:00+00:00,NS,Leones Negros UDG,2307,CA La Paz,19024,,,False
-1581369,2026-09-16T01:00:00+00:00,NS,Dorados,2297,Cancún,14276,,,False
-1581422,2026-09-18T01:00:00+00:00,NS,Durango,15941,Cruz Azul Hidalgo,15928,,,False
-1581426,2026-09-19T01:00:00+00:00,NS,Tepatitlán,14279,Mineros de Zacatecas,2299,,,False
-1581478,2026-09-19T01:00:00+00:00,NS,Piratas,27935,Venados FC,2311,,,False
-1581427,2026-09-19T03:00:00+00:00,NS,CA La Paz,19024,Correcaminos Uat,2313,,,False
-1581421,2026-09-19T23:00:00+00:00,NS,Tapatío,14278,Tlaxcala,14280,,,False
-1581423,2026-09-20T01:00:00+00:00,NS,Monarcas,2284,Leones Negros UDG,2307,,,False
-1581424,2026-09-20T01:00:00+00:00,NS,Cancún,14276,Alebrijes de Oaxaca,2300,,,False
-1581425,2026-09-20T01:00:00+00:00,NS,CDS Tampico Madero,19905,Dorados,2297,,,False
-1581479,2026-09-25T01:00:00+00:00,NS,Mineros de Zacatecas,2299,Piratas,27935,,,False
-1581432,2026-09-25T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,CA La Paz,19024,,,False
-1581433,2026-09-26T01:00:00+00:00,NS,Correcaminos Uat,2313,CDS Tampico Madero,19905,,,False
-1581428,2026-09-26T21:45:00+00:00,NS,Cruz Azul Hidalgo,15928,Leones Negros UDG,2307,,,False
-1581429,2026-09-26T22:00:00+00:00,NS,Tlaxcala,14280,Cancún,14276,,,False
-1581431,2026-09-26T23:00:00+00:00,NS,Venados FC,2311,Monarcas,2284,,,False
-1581434,2026-09-27T01:00:00+00:00,NS,Dorados,2297,Durango,15941,,,False
-1581430,2026-09-27T23:00:00+00:00,NS,Tapatío,14278,Tepatitlán,14279,,,False
-1581439,2026-10-03T01:00:00+00:00,NS,Correcaminos Uat,2313,Cruz Azul Hidalgo,15928,,,False
-1581440,2026-10-03T01:00:00+00:00,NS,Tepatitlán,14279,CDS Tampico Madero,19905,,,False
-1581441,2026-10-03T03:00:00+00:00,NS,CA La Paz,19024,Venados FC,2311,,,False
-1581435,2026-10-03T18:00:00+00:00,NS,Leones Negros UDG,2307,Dorados,2297,,,False
-1581437,2026-10-04T01:00:00+00:00,NS,Monarcas,2284,Tlaxcala,14280,,,False
-1581438,2026-10-04T01:00:00+00:00,NS,Cancún,14276,Tapatío,14278,,,False
-1581436,2026-10-04T01:00:00+00:00,NS,Durango,15941,Mineros de Zacatecas,2299,,,False
-1581480,2026-10-04T01:00:00+00:00,NS,Piratas,27935,Alebrijes de Oaxaca,2300,,,False
-1581444,2026-10-09T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,Correcaminos Uat,2313,,,False
-1581442,2026-10-09T23:00:00+00:00,NS,Tapatío,14278,CA La Paz,19024,,,False
-1581447,2026-10-10T01:00:00+00:00,NS,Tepatitlán,14279,Monarcas,2284,,,False
-1581481,2026-10-10T22:00:00+00:00,NS,Tlaxcala,14280,Piratas,27935,,,False
-1581443,2026-10-10T23:00:00+00:00,NS,Venados FC,2311,Leones Negros UDG,2307,,,False
-1581445,2026-10-11T01:00:00+00:00,NS,Dorados,2297,Cruz Azul Hidalgo,15928,,,False
-1581448,2026-10-11T01:00:00+00:00,NS,Mineros de Zacatecas,2299,Cancún,14276,,,False
-1581446,2026-10-11T01:00:00+00:00,NS,CDS Tampico Madero,19905,Durango,15941,,,False
-1581452,2026-10-17T01:00:00+00:00,NS,Correcaminos Uat,2313,Dorados,2297,,,False
-1581453,2026-10-17T02:45:00+00:00,NS,Leones Negros UDG,2307,Alebrijes de Oaxaca,2300,,,False
-1581455,2026-10-17T03:00:00+00:00,NS,CA La Paz,19024,Tlaxcala,14280,,,False
-1581449,2026-10-17T21:45:00+00:00,NS,Cruz Azul Hidalgo,15928,Mineros de Zacatecas,2299,,,False
-1581450,2026-10-18T01:00:00+00:00,NS,Monarcas,2284,CDS Tampico Madero,19905,,,False
-1581451,2026-10-18T01:00:00+00:00,NS,Cancún,14276,Venados FC,2311,,,False
-1581482,2026-10-18T01:00:00+00:00,NS,Piratas,27935,Tepatitlán,14279,,,False
-1581454,2026-10-18T03:00:00+00:00,NS,Durango,15941,Tapatío,14278,,,False
-1581459,2026-10-23T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,Cruz Azul Hidalgo,15928,,,False
-1581461,2026-10-24T01:00:00+00:00,NS,Tepatitlán,14279,Cancún,14276,,,False
-1581458,2026-10-24T23:00:00+00:00,NS,Venados FC,2311,Durango,15941,,,False
-1581457,2026-10-24T23:00:00+00:00,NS,Tapatío,14278,Monarcas,2284,,,False
-1581483,2026-10-25T00:00:00+00:00,NS,Dorados,2297,Piratas,27935,,,False
-1581462,2026-10-25T02:00:00+00:00,NS,Mineros de Zacatecas,2299,Leones Negros UDG,2307,,,False
-1581460,2026-10-25T02:00:00+00:00,NS,CDS Tampico Madero,19905,CA La Paz,19024,,,False
-1581456,2026-10-25T18:00:00+00:00,NS,Tlaxcala,14280,Correcaminos Uat,2313,,,False
-1581465,2026-10-30T01:00:00+00:00,NS,Alebrijes de Oaxaca,2300,Mineros de Zacatecas,2299,,,False
-1581467,2026-10-31T01:00:00+00:00,NS,Correcaminos Uat,2313,Venados FC,2311,,,False
-1581468,2026-10-31T02:45:00+00:00,NS,Leones Negros UDG,2307,Tepatitlán,14279,,,False
-1581469,2026-10-31T03:00:00+00:00,NS,CA La Paz,19024,Dorados,2297,,,False
-1581463,2026-10-31T21:45:00+00:00,NS,Cruz Azul Hidalgo,15928,Tlaxcala,14280,,,False
-1581466,2026-11-01T01:00:00+00:00,NS,Cancún,14276,CDS Tampico Madero,19905,,,False
-1581464,2026-11-01T01:00:00+00:00,NS,Durango,15941,Monarcas,2284,,,False
-1581484,2026-11-01T01:00:00+00:00,NS,Piratas,27935,Tapatío,14278,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1581371,2026-07-25T01:00:00+00:00,FT,Apertura - 1,Mineros de Zacatecas,2299,Correcaminos Uat,2313,3,3,True
+1581370,2026-07-25T01:00:00+00:00,FT,Apertura - 1,Tepatitlán,14279,Durango,15941,0,1,True
+1581365,2026-07-25T22:00:00+00:00,FT,Apertura - 1,Tlaxcala,14280,Leones Negros UDG,2307,2,4,True
+1581367,2026-07-25T23:00:00+00:00,FT,Apertura - 1,Venados FC,2311,Alebrijes de Oaxaca,2300,3,0,True
+1581368,2026-07-26T01:00:00+00:00,FT,Apertura - 1,Monarcas,2284,CA La Paz,19024,4,2,True
+1581470,2026-07-26T01:00:00+00:00,FT,Apertura - 1,CDS Tampico Madero,19905,Piratas,27935,0,0,True
+1581366,2026-07-26T23:00:00+00:00,FT,Apertura - 1,Tapatío,14278,Cruz Azul Hidalgo,15928,0,0,True
+1581374,2026-07-31T01:00:00+00:00,FT,Apertura - 2,Alebrijes de Oaxaca,2300,Dorados,2297,0,2,True
+1581377,2026-08-01T01:00:00+00:00,FT,Apertura - 2,Mineros de Zacatecas,2299,Tlaxcala,14280,3,1,True
+1581376,2026-08-01T01:00:00+00:00,FT,Apertura - 2,Correcaminos Uat,2313,Tepatitlán,14279,3,1,True
+1581378,2026-08-01T03:00:00+00:00,FT,Apertura - 2,CA La Paz,19024,Durango,15941,0,1,True
+1581372,2026-08-01T21:45:00+00:00,FT,Apertura - 2,Cruz Azul Hidalgo,15928,Venados FC,2311,1,1,True
+1581373,2026-08-01T23:00:00+00:00,FT,Apertura - 2,Tapatío,14278,CDS Tampico Madero,19905,1,0,True
+1581375,2026-08-02T01:00:00+00:00,FT,Apertura - 2,Cancún,14276,Leones Negros UDG,2307,0,2,True
+1581471,2026-08-02T01:00:00+00:00,FT,Apertura - 2,Piratas,27935,Monarcas,2284,1,0,True
+1581379,2026-08-06T22:00:00+00:00,NS,Apertura - 3,Tlaxcala,14280,Alebrijes de Oaxaca,2300,,,False
+1581382,2026-08-07T01:00:00+00:00,NS,Apertura - 3,Dorados,2297,Mineros de Zacatecas,2299,,,False
+1581384,2026-08-07T01:00:00+00:00,NS,Apertura - 3,Leones Negros UDG,2307,Correcaminos Uat,2313,,,False
+1581385,2026-08-08T01:00:00+00:00,NS,Apertura - 3,Tepatitlán,14279,CA La Paz,19024,,,False
+1581472,2026-08-08T01:00:00+00:00,NS,Apertura - 3,Durango,15941,Piratas,27935,,,False
+1581380,2026-08-08T23:00:00+00:00,NS,Apertura - 3,Venados FC,2311,Tapatío,14278,,,False
+1581381,2026-08-09T01:00:00+00:00,NS,Apertura - 3,Monarcas,2284,Cancún,14276,,,False
+1581383,2026-08-09T01:00:00+00:00,NS,Apertura - 3,CDS Tampico Madero,19905,Cruz Azul Hidalgo,15928,,,False
+1581387,2026-08-14T01:00:00+00:00,NS,Apertura - 4,Alebrijes de Oaxaca,2300,Tepatitlán,14279,,,False
+1581391,2026-08-15T01:00:00+00:00,NS,Apertura - 4,Mineros de Zacatecas,2299,Venados FC,2311,,,False
+1581389,2026-08-15T01:00:00+00:00,NS,Apertura - 4,Correcaminos Uat,2313,Tapatío,14278,,,False
+1581473,2026-08-15T03:00:00+00:00,NS,Apertura - 4,CA La Paz,19024,Piratas,27935,,,False
+1581386,2026-08-15T21:45:00+00:00,NS,Apertura - 4,Cruz Azul Hidalgo,15928,Monarcas,2284,,,False
+1581390,2026-08-16T01:00:00+00:00,NS,Apertura - 4,Dorados,2297,Tlaxcala,14280,,,False
+1581388,2026-08-16T01:00:00+00:00,NS,Apertura - 4,Cancún,14276,Durango,15941,,,False
+1581392,2026-08-16T18:00:00+00:00,NS,Apertura - 4,Leones Negros UDG,2307,CDS Tampico Madero,19905,,,False
+1581394,2026-08-20T23:00:00+00:00,NS,Apertura - 5,Venados FC,2311,Dorados,2297,,,False
+1581396,2026-08-21T01:00:00+00:00,NS,Apertura - 5,Monarcas,2284,Correcaminos Uat,2313,,,False
+1581398,2026-08-21T01:00:00+00:00,NS,Apertura - 5,Tepatitlán,14279,Tlaxcala,14280,,,False
+1581399,2026-08-22T03:00:00+00:00,NS,Apertura - 5,CA La Paz,19024,Cruz Azul Hidalgo,15928,,,False
+1581395,2026-08-23T01:00:00+00:00,NS,Apertura - 5,Durango,15941,Leones Negros UDG,2307,,,False
+1581397,2026-08-23T01:00:00+00:00,NS,Apertura - 5,CDS Tampico Madero,19905,Alebrijes de Oaxaca,2300,,,False
+1581474,2026-08-23T01:00:00+00:00,NS,Apertura - 5,Piratas,27935,Cancún,14276,,,False
+1581393,2026-08-23T23:00:00+00:00,NS,Apertura - 5,Tapatío,14278,Mineros de Zacatecas,2299,,,False
+1581402,2026-08-28T01:00:00+00:00,NS,Apertura - 6,Alebrijes de Oaxaca,2300,Tapatío,14278,,,False
+1581403,2026-08-28T01:00:00+00:00,NS,Apertura - 6,Cancún,14276,CA La Paz,19024,,,False
+1581405,2026-08-29T01:00:00+00:00,NS,Apertura - 6,Dorados,2297,Monarcas,2284,,,False
+1581404,2026-08-29T01:00:00+00:00,NS,Apertura - 6,Correcaminos Uat,2313,Durango,15941,,,False
+1581400,2026-08-29T21:45:00+00:00,NS,Apertura - 6,Cruz Azul Hidalgo,15928,Tepatitlán,14279,,,False
+1581401,2026-08-29T22:00:00+00:00,NS,Apertura - 6,Tlaxcala,14280,Venados FC,2311,,,False
+1581406,2026-08-30T01:00:00+00:00,NS,Apertura - 6,Mineros de Zacatecas,2299,CDS Tampico Madero,19905,,,False
+1581475,2026-08-30T18:00:00+00:00,NS,Apertura - 6,Leones Negros UDG,2307,Piratas,27935,,,False
+1581412,2026-09-04T01:00:00+00:00,NS,Apertura - 7,Tepatitlán,14279,Dorados,2297,,,False
+1581408,2026-09-05T01:00:00+00:00,NS,Apertura - 7,Durango,15941,Tlaxcala,14280,,,False
+1581413,2026-09-05T03:00:00+00:00,NS,Apertura - 7,CA La Paz,19024,Mineros de Zacatecas,2299,,,False
+1581409,2026-09-06T01:00:00+00:00,NS,Apertura - 7,Monarcas,2284,Alebrijes de Oaxaca,2300,,,False
+1581410,2026-09-06T01:00:00+00:00,NS,Apertura - 7,Cancún,14276,Cruz Azul Hidalgo,15928,,,False
+1581411,2026-09-06T01:00:00+00:00,NS,Apertura - 7,CDS Tampico Madero,19905,Venados FC,2311,,,False
+1581476,2026-09-06T01:00:00+00:00,NS,Apertura - 7,Piratas,27935,Correcaminos Uat,2313,,,False
+1581407,2026-09-06T23:00:00+00:00,NS,Apertura - 7,Tapatío,14278,Leones Negros UDG,2307,,,False
+1581416,2026-09-11T01:00:00+00:00,NS,Apertura - 8,Alebrijes de Oaxaca,2300,Durango,15941,,,False
+1581477,2026-09-11T21:45:00+00:00,NS,Apertura - 8,Cruz Azul Hidalgo,15928,Piratas,27935,,,False
+1581417,2026-09-12T01:00:00+00:00,NS,Apertura - 8,Correcaminos Uat,2313,Cancún,14276,,,False
+1581414,2026-09-12T22:00:00+00:00,NS,Apertura - 8,Tlaxcala,14280,CDS Tampico Madero,19905,,,False
+1581415,2026-09-12T23:00:00+00:00,NS,Apertura - 8,Venados FC,2311,Tepatitlán,14279,,,False
+1581418,2026-09-13T01:00:00+00:00,NS,Apertura - 8,Dorados,2297,Tapatío,14278,,,False
+1581419,2026-09-13T01:00:00+00:00,NS,Apertura - 8,Mineros de Zacatecas,2299,Monarcas,2284,,,False
+1581420,2026-09-13T18:00:00+00:00,NS,Apertura - 8,Leones Negros UDG,2307,CA La Paz,19024,,,False
+1581369,2026-09-16T01:00:00+00:00,NS,Apertura - 1,Dorados,2297,Cancún,14276,,,False
+1581422,2026-09-18T01:00:00+00:00,NS,Apertura - 9,Durango,15941,Cruz Azul Hidalgo,15928,,,False
+1581426,2026-09-19T01:00:00+00:00,NS,Apertura - 9,Tepatitlán,14279,Mineros de Zacatecas,2299,,,False
+1581478,2026-09-19T01:00:00+00:00,NS,Apertura - 9,Piratas,27935,Venados FC,2311,,,False
+1581427,2026-09-19T03:00:00+00:00,NS,Apertura - 9,CA La Paz,19024,Correcaminos Uat,2313,,,False
+1581421,2026-09-19T23:00:00+00:00,NS,Apertura - 9,Tapatío,14278,Tlaxcala,14280,,,False
+1581423,2026-09-20T01:00:00+00:00,NS,Apertura - 9,Monarcas,2284,Leones Negros UDG,2307,,,False
+1581424,2026-09-20T01:00:00+00:00,NS,Apertura - 9,Cancún,14276,Alebrijes de Oaxaca,2300,,,False
+1581425,2026-09-20T01:00:00+00:00,NS,Apertura - 9,CDS Tampico Madero,19905,Dorados,2297,,,False
+1581479,2026-09-25T01:00:00+00:00,NS,Apertura - 10,Mineros de Zacatecas,2299,Piratas,27935,,,False
+1581432,2026-09-25T01:00:00+00:00,NS,Apertura - 10,Alebrijes de Oaxaca,2300,CA La Paz,19024,,,False
+1581433,2026-09-26T01:00:00+00:00,NS,Apertura - 10,Correcaminos Uat,2313,CDS Tampico Madero,19905,,,False
+1581428,2026-09-26T21:45:00+00:00,NS,Apertura - 10,Cruz Azul Hidalgo,15928,Leones Negros UDG,2307,,,False
+1581429,2026-09-26T22:00:00+00:00,NS,Apertura - 10,Tlaxcala,14280,Cancún,14276,,,False
+1581431,2026-09-26T23:00:00+00:00,NS,Apertura - 10,Venados FC,2311,Monarcas,2284,,,False
+1581434,2026-09-27T01:00:00+00:00,NS,Apertura - 10,Dorados,2297,Durango,15941,,,False
+1581430,2026-09-27T23:00:00+00:00,NS,Apertura - 10,Tapatío,14278,Tepatitlán,14279,,,False
+1581439,2026-10-03T01:00:00+00:00,NS,Apertura - 11,Correcaminos Uat,2313,Cruz Azul Hidalgo,15928,,,False
+1581440,2026-10-03T01:00:00+00:00,NS,Apertura - 11,Tepatitlán,14279,CDS Tampico Madero,19905,,,False
+1581441,2026-10-03T03:00:00+00:00,NS,Apertura - 11,CA La Paz,19024,Venados FC,2311,,,False
+1581435,2026-10-03T18:00:00+00:00,NS,Apertura - 11,Leones Negros UDG,2307,Dorados,2297,,,False
+1581437,2026-10-04T01:00:00+00:00,NS,Apertura - 11,Monarcas,2284,Tlaxcala,14280,,,False
+1581438,2026-10-04T01:00:00+00:00,NS,Apertura - 11,Cancún,14276,Tapatío,14278,,,False
+1581436,2026-10-04T01:00:00+00:00,NS,Apertura - 11,Durango,15941,Mineros de Zacatecas,2299,,,False
+1581480,2026-10-04T01:00:00+00:00,NS,Apertura - 11,Piratas,27935,Alebrijes de Oaxaca,2300,,,False
+1581444,2026-10-09T01:00:00+00:00,NS,Apertura - 12,Alebrijes de Oaxaca,2300,Correcaminos Uat,2313,,,False
+1581442,2026-10-09T23:00:00+00:00,NS,Apertura - 12,Tapatío,14278,CA La Paz,19024,,,False
+1581447,2026-10-10T01:00:00+00:00,NS,Apertura - 12,Tepatitlán,14279,Monarcas,2284,,,False
+1581481,2026-10-10T22:00:00+00:00,NS,Apertura - 12,Tlaxcala,14280,Piratas,27935,,,False
+1581443,2026-10-10T23:00:00+00:00,NS,Apertura - 12,Venados FC,2311,Leones Negros UDG,2307,,,False
+1581445,2026-10-11T01:00:00+00:00,NS,Apertura - 12,Dorados,2297,Cruz Azul Hidalgo,15928,,,False
+1581448,2026-10-11T01:00:00+00:00,NS,Apertura - 12,Mineros de Zacatecas,2299,Cancún,14276,,,False
+1581446,2026-10-11T01:00:00+00:00,NS,Apertura - 12,CDS Tampico Madero,19905,Durango,15941,,,False
+1581452,2026-10-17T01:00:00+00:00,NS,Apertura - 13,Correcaminos Uat,2313,Dorados,2297,,,False
+1581453,2026-10-17T02:45:00+00:00,NS,Apertura - 13,Leones Negros UDG,2307,Alebrijes de Oaxaca,2300,,,False
+1581455,2026-10-17T03:00:00+00:00,NS,Apertura - 13,CA La Paz,19024,Tlaxcala,14280,,,False
+1581449,2026-10-17T21:45:00+00:00,NS,Apertura - 13,Cruz Azul Hidalgo,15928,Mineros de Zacatecas,2299,,,False
+1581450,2026-10-18T01:00:00+00:00,NS,Apertura - 13,Monarcas,2284,CDS Tampico Madero,19905,,,False
+1581451,2026-10-18T01:00:00+00:00,NS,Apertura - 13,Cancún,14276,Venados FC,2311,,,False
+1581482,2026-10-18T01:00:00+00:00,NS,Apertura - 13,Piratas,27935,Tepatitlán,14279,,,False
+1581454,2026-10-18T03:00:00+00:00,NS,Apertura - 13,Durango,15941,Tapatío,14278,,,False
+1581459,2026-10-23T01:00:00+00:00,NS,Apertura - 14,Alebrijes de Oaxaca,2300,Cruz Azul Hidalgo,15928,,,False
+1581461,2026-10-24T01:00:00+00:00,NS,Apertura - 14,Tepatitlán,14279,Cancún,14276,,,False
+1581458,2026-10-24T23:00:00+00:00,NS,Apertura - 14,Venados FC,2311,Durango,15941,,,False
+1581457,2026-10-24T23:00:00+00:00,NS,Apertura - 14,Tapatío,14278,Monarcas,2284,,,False
+1581483,2026-10-25T00:00:00+00:00,NS,Apertura - 14,Dorados,2297,Piratas,27935,,,False
+1581462,2026-10-25T02:00:00+00:00,NS,Apertura - 14,Mineros de Zacatecas,2299,Leones Negros UDG,2307,,,False
+1581460,2026-10-25T02:00:00+00:00,NS,Apertura - 14,CDS Tampico Madero,19905,CA La Paz,19024,,,False
+1581456,2026-10-25T18:00:00+00:00,NS,Apertura - 14,Tlaxcala,14280,Correcaminos Uat,2313,,,False
+1581465,2026-10-30T01:00:00+00:00,NS,Apertura - 15,Alebrijes de Oaxaca,2300,Mineros de Zacatecas,2299,,,False
+1581467,2026-10-31T01:00:00+00:00,NS,Apertura - 15,Correcaminos Uat,2313,Venados FC,2311,,,False
+1581468,2026-10-31T02:45:00+00:00,NS,Apertura - 15,Leones Negros UDG,2307,Tepatitlán,14279,,,False
+1581469,2026-10-31T03:00:00+00:00,NS,Apertura - 15,CA La Paz,19024,Dorados,2297,,,False
+1581463,2026-10-31T21:45:00+00:00,NS,Apertura - 15,Cruz Azul Hidalgo,15928,Tlaxcala,14280,,,False
+1581466,2026-11-01T01:00:00+00:00,NS,Apertura - 15,Cancún,14276,CDS Tampico Madero,19905,,,False
+1581464,2026-11-01T01:00:00+00:00,NS,Apertura - 15,Durango,15941,Monarcas,2284,,,False
+1581484,2026-11-01T01:00:00+00:00,NS,Apertura - 15,Piratas,27935,Tapatío,14278,,,False

@@ -1,32 +1,39 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1325320,2025-01-10T17:15:00+00:00,AET,Zurrieq,16545,Mellieha,18270,1,0,False
-1325322,2025-01-10T18:00:00+00:00,FT,Xaghra United,16543,Victoria Hotspurs,16541,1,5,True
-1325333,2025-01-10T19:45:00+00:00,FT,Sirens,4619,Qrendi,4609,0,2,True
-1325335,2025-01-11T13:00:00+00:00,FT,Birkirkara,2277,Balzan FC,696,2,1,True
-1325321,2025-01-11T13:00:00+00:00,AET,Naxxar Lions,4605,Melita,4620,4,2,False
-1325328,2025-01-11T13:00:00+00:00,FT,Pietà Hotspurs,4607,Marsa,4617,1,5,True
-1325325,2025-01-11T15:30:00+00:00,FT,Hamrun Spartans,4626,Swieqi United,4612,5,0,True
-1325329,2025-01-11T15:30:00+00:00,FT,Sliema Wanderers,4628,Ghajnsielem,16534,8,0,True
-1325332,2025-01-11T15:30:00+00:00,FT,Marsaxlokk,14507,Mosta,4627,0,3,True
-1325324,2025-01-12T10:00:00+00:00,FT,Lija Athletic,4603,Zabbar St. Patrick,4622,0,5,True
-1325330,2025-01-12T13:00:00+00:00,FT,Gudja United,4616,Gzira United,2264,0,5,True
-1325323,2025-01-12T13:00:00+00:00,FT,Floriana,4625,Xewkija Tigers,16544,2,0,True
-1325326,2025-01-12T13:00:00+00:00,FT,Qala Saints,20626,St. Andrews,4610,2,0,True
-1325331,2025-01-12T15:30:00+00:00,FT,Valletta FC,659,Victoria Wanderers,16542,4,0,True
-1325327,2025-01-12T15:30:00+00:00,FT,Hibernians,3884,Zebbug Rangers,4614,3,0,True
-1325334,2025-01-12T18:00:00+00:00,FT,Fgura United,4602,Attard,19912,3,1,True
-1334956,2025-02-04T17:00:00+00:00,FT,Qala Saints,20626,Hibernians,3884,0,3,True
-1334958,2025-02-04T19:00:00+00:00,FT,Fgura United,4602,Birkirkara,2277,0,3,True
-1334957,2025-02-05T17:00:00+00:00,FT,Gzira United,2264,Valletta FC,659,0,1,True
-1334940,2025-02-05T17:15:00+00:00,FT,Marsa,4617,Sliema Wanderers,4628,0,4,True
-1334955,2025-02-05T19:30:00+00:00,FT,Zabbar St. Patrick,4622,Hamrun Spartans,4626,1,2,True
-1334941,2025-02-05T19:45:00+00:00,FT,Mosta,4627,Qrendi,4609,4,0,True
-1334954,2025-02-06T17:00:00+00:00,FT,Victoria Hotspurs,16541,Floriana,4625,1,4,True
-1334939,2025-02-06T19:30:00+00:00,FT,Zurrieq,16545,Naxxar Lions,4605,0,4,True
-1353164,2025-03-05T17:00:00+00:00,FT,Hamrun Spartans,4626,Sliema Wanderers,4628,2,0,True
-1353162,2025-03-05T18:00:00+00:00,AET,Birkirkara,2277,Valletta FC,659,3,1,False
-1353163,2025-03-05T20:00:00+00:00,FT,Floriana,4625,Mosta,4627,2,0,True
-1353165,2025-03-06T18:00:00+00:00,FT,Hibernians,3884,Naxxar Lions,4605,2,0,True
-1358899,2025-05-14T16:00:00+00:00,FT,Birkirkara,2277,Floriana,4625,2,1,True
-1359791,2025-05-14T18:45:00+00:00,FT,Hamrun Spartans,4626,Hibernians,3884,1,2,True
-1375650,2025-05-18T16:30:00+00:00,FT,Birkirkara,2277,Hibernians,3884,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1315993,2024-12-07T13:00:00+00:00,AET,Preliminary Round,Valletta FC,659,Nadur Youngsters,16537,3,1,False
+1315992,2024-12-07T13:00:00+00:00,FT,Preliminary Round,Zebbug Rangers,4614,Oratory Youths,16538,6,1,True
+1315994,2024-12-07T14:00:00+00:00,FT,Preliminary Round,Mgarr United,17710,Victoria Wanderers,16542,2,3,True
+1315995,2024-12-07T15:30:00+00:00,FT,Preliminary Round,Sirens,4619,Santa Lucía,3651,3,1,True
+1316669,2024-12-07T15:30:00+00:00,FT,Preliminary Round,Victoria Hotspurs,16541,Senglea Athletic,4624,3,0,True
+1315996,2024-12-07T16:30:00+00:00,PEN,Preliminary Round,Swieqi United,4612,Mtarfa,19696,0,0,False
+1316670,2024-12-07T17:30:00+00:00,AET,Preliminary Round,Tarxien Rainbows,4629,Mellieha,18270,1,1,False
+1325320,2025-01-10T17:15:00+00:00,AET,Round of 32,Zurrieq,16545,Mellieha,18270,1,0,False
+1325322,2025-01-10T18:00:00+00:00,FT,Round of 32,Xaghra United,16543,Victoria Hotspurs,16541,1,5,True
+1325333,2025-01-10T19:45:00+00:00,FT,Round of 32,Sirens,4619,Qrendi,4609,0,2,True
+1325335,2025-01-11T13:00:00+00:00,FT,Round of 32,Birkirkara,2277,Balzan FC,696,2,1,True
+1325321,2025-01-11T13:00:00+00:00,AET,Round of 32,Naxxar Lions,4605,Melita,4620,4,2,False
+1325328,2025-01-11T13:00:00+00:00,FT,Round of 32,Pietà Hotspurs,4607,Marsa,4617,1,5,True
+1325325,2025-01-11T15:30:00+00:00,FT,Round of 32,Hamrun Spartans,4626,Swieqi United,4612,5,0,True
+1325329,2025-01-11T15:30:00+00:00,FT,Round of 32,Sliema Wanderers,4628,Ghajnsielem,16534,8,0,True
+1325332,2025-01-11T15:30:00+00:00,FT,Round of 32,Marsaxlokk,14507,Mosta,4627,0,3,True
+1325324,2025-01-12T10:00:00+00:00,FT,Round of 32,Lija Athletic,4603,Zabbar St. Patrick,4622,0,5,True
+1325330,2025-01-12T13:00:00+00:00,FT,Round of 32,Gudja United,4616,Gzira United,2264,0,5,True
+1325323,2025-01-12T13:00:00+00:00,FT,Round of 32,Floriana,4625,Xewkija Tigers,16544,2,0,True
+1325326,2025-01-12T13:00:00+00:00,FT,Round of 32,Qala Saints,20626,St. Andrews,4610,2,0,True
+1325331,2025-01-12T15:30:00+00:00,FT,Round of 32,Valletta FC,659,Victoria Wanderers,16542,4,0,True
+1325327,2025-01-12T15:30:00+00:00,FT,Round of 32,Hibernians,3884,Zebbug Rangers,4614,3,0,True
+1325334,2025-01-12T18:00:00+00:00,FT,Round of 32,Fgura United,4602,Attard,19912,3,1,True
+1334956,2025-02-04T17:00:00+00:00,FT,Round of 16,Qala Saints,20626,Hibernians,3884,0,3,True
+1334958,2025-02-04T19:00:00+00:00,FT,Round of 16,Fgura United,4602,Birkirkara,2277,0,3,True
+1334957,2025-02-05T17:00:00+00:00,FT,Round of 16,Gzira United,2264,Valletta FC,659,0,1,True
+1334940,2025-02-05T17:15:00+00:00,FT,Round of 16,Marsa,4617,Sliema Wanderers,4628,0,4,True
+1334955,2025-02-05T19:30:00+00:00,FT,Round of 16,Zabbar St. Patrick,4622,Hamrun Spartans,4626,1,2,True
+1334941,2025-02-05T19:45:00+00:00,FT,Round of 16,Mosta,4627,Qrendi,4609,4,0,True
+1334954,2025-02-06T17:00:00+00:00,FT,Round of 16,Victoria Hotspurs,16541,Floriana,4625,1,4,True
+1334939,2025-02-06T19:30:00+00:00,FT,Round of 16,Zurrieq,16545,Naxxar Lions,4605,0,4,True
+1353164,2025-03-05T17:00:00+00:00,FT,Quarter-finals,Hamrun Spartans,4626,Sliema Wanderers,4628,2,0,True
+1353162,2025-03-05T18:00:00+00:00,AET,Quarter-finals,Birkirkara,2277,Valletta FC,659,3,1,False
+1353163,2025-03-05T20:00:00+00:00,FT,Quarter-finals,Floriana,4625,Mosta,4627,2,0,True
+1353165,2025-03-06T18:00:00+00:00,FT,Quarter-finals,Hibernians,3884,Naxxar Lions,4605,2,0,True
+1358899,2025-05-14T16:00:00+00:00,FT,Semi-finals,Birkirkara,2277,Floriana,4625,2,1,True
+1359791,2025-05-14T18:45:00+00:00,FT,Semi-finals,Hamrun Spartans,4626,Hibernians,3884,1,2,True
+1375650,2025-05-18T16:30:00+00:00,FT,Final,Birkirkara,2277,Hibernians,3884,1,2,True

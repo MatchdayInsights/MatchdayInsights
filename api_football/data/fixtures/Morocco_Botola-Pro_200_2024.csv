@@ -1,117 +1,245 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1328213,2025-01-03T19:00:00+00:00,FT,Chabab Mohammédia,6387,FUS Rabat,977,0,2,True
-1328214,2025-01-04T15:00:00+00:00,FT,Hassania Agadir,973,Riadi Salmi,3456,3,1,True
-1328215,2025-01-04T17:00:00+00:00,FT,Moghreb Tetouan,965,Wydad AC,968,1,2,True
-1328219,2025-01-05T15:00:00+00:00,FT,UTS Rabat,14806,Maghreb Fès,3453,0,3,True
-1328220,2025-01-05T17:00:00+00:00,FT,Difaa EL Jadida,964,CR Khemis Zemamra,3449,0,3,True
-1333272,2025-01-11T15:00:00+00:00,FT,Riadi Salmi,3456,CODM Meknès,22218,1,1,True
-1333273,2025-01-11T17:00:00+00:00,FT,Olympique Safi,975,Chabab Mohammédia,6387,2,1,True
-1333277,2025-01-12T15:00:00+00:00,FT,CR Khemis Zemamra,3449,Hassania Agadir,973,2,0,True
-1333278,2025-01-12T17:00:00+00:00,FT,Maghreb Fès,3453,Moghreb Tetouan,965,2,1,True
-1333279,2025-01-12T19:00:00+00:00,FT,Wydad AC,968,UTS Rabat,14806,2,1,True
-1335027,2025-01-17T19:00:00+00:00,FT,CODM Meknès,22218,Moghreb Tetouan,965,1,0,True
-1335028,2025-01-18T15:00:00+00:00,FT,Ittihad Tanger,974,FUS Rabat,977,1,0,True
-1335029,2025-01-18T17:00:00+00:00,FT,Chabab Mohammédia,6387,CR Khemis Zemamra,3449,0,1,True
-1335030,2025-01-18T19:00:00+00:00,FT,UTS Rabat,14806,Riadi Salmi,3456,3,1,True
-1335031,2025-01-19T14:00:00+00:00,FT,Hassania Agadir,973,Maghreb Fès,3453,2,2,True
-1335032,2025-01-19T18:00:00+00:00,FT,Difaa EL Jadida,964,Wydad AC,968,0,2,True
-1328218,2025-01-23T15:00:00+00:00,FT,CODM Meknès,22218,FAR Rabat,969,2,2,True
-1328216,2025-01-23T17:00:00+00:00,FT,Raja Casablanca,976,Ittihad Tanger,974,1,1,True
-1328217,2025-01-23T19:00:00+00:00,FT,Renaissance Berkane,962,Olympique Safi,975,2,2,True
-1333275,2025-01-26T15:00:00+00:00,FT,Ittihad Tanger,974,Renaissance Berkane,962,1,3,True
-1333276,2025-01-26T17:00:00+00:00,FT,FAR Rabat,969,Difaa EL Jadida,964,1,0,True
-1333274,2025-01-26T19:00:00+00:00,FT,FUS Rabat,977,Raja Casablanca,976,2,1,True
-1335033,2025-01-30T17:00:00+00:00,FT,Raja Casablanca,976,Olympique Safi,975,1,1,True
-1335034,2025-01-30T19:00:00+00:00,FT,Renaissance Berkane,962,FAR Rabat,969,2,0,True
-1347395,2025-02-07T17:00:00+00:00,FT,Moghreb Tetouan,965,UTS Rabat,14806,1,1,True
-1347396,2025-02-07T19:00:00+00:00,FT,Riadi Salmi,3456,Chabab Mohammédia,6387,1,1,True
-1347397,2025-02-08T15:00:00+00:00,FT,Maghreb Fès,3453,CODM Meknès,22218,1,3,True
-1347398,2025-02-08T17:00:00+00:00,FT,FAR Rabat,969,Ittihad Tanger,974,3,2,True
-1347399,2025-02-08T19:00:00+00:00,FT,Olympique Safi,975,Difaa EL Jadida,964,0,0,True
-1347400,2025-02-09T15:00:00+00:00,FT,CR Khemis Zemamra,3449,Raja Casablanca,976,1,2,True
-1347401,2025-02-09T17:00:00+00:00,FT,FUS Rabat,977,Renaissance Berkane,962,0,1,True
-1347402,2025-02-09T19:00:00+00:00,FT,Wydad AC,968,Hassania Agadir,973,2,0,True
-1347403,2025-02-14T17:00:00+00:00,FT,Hassania Agadir,973,Moghreb Tetouan,965,1,1,True
-1347404,2025-02-14T19:00:00+00:00,FT,CODM Meknès,22218,UTS Rabat,14806,0,0,True
-1347405,2025-02-15T15:00:00+00:00,FT,Ittihad Tanger,974,Olympique Safi,975,4,2,True
-1347406,2025-02-15T17:00:00+00:00,FT,FUS Rabat,977,FAR Rabat,969,2,1,True
-1347407,2025-02-15T19:00:00+00:00,FT,Raja Casablanca,976,Riadi Salmi,3456,2,0,True
-1347408,2025-02-16T15:00:00+00:00,FT,Difaa EL Jadida,964,Maghreb Fès,3453,1,1,True
-1347409,2025-02-16T17:00:00+00:00,FT,Chabab Mohammédia,6387,Wydad AC,968,1,5,True
-1347410,2025-02-16T19:00:00+00:00,FT,Renaissance Berkane,962,CR Khemis Zemamra,3449,1,0,True
-1352465,2025-02-21T17:00:00+00:00,FT,Riadi Salmi,3456,Renaissance Berkane,962,0,4,True
-1352466,2025-02-21T19:00:00+00:00,FT,Maghreb Fès,3453,Chabab Mohammédia,6387,1,0,True
-1352467,2025-02-22T15:00:00+00:00,FT,Wydad AC,968,CODM Meknès,22218,0,0,True
-1352468,2025-02-22T17:00:00+00:00,FT,Moghreb Tetouan,965,Difaa EL Jadida,964,1,3,True
-1352469,2025-02-22T19:00:00+00:00,FT,Olympique Safi,975,FUS Rabat,977,0,0,True
-1352470,2025-02-23T16:00:00+00:00,FT,CR Khemis Zemamra,3449,Ittihad Tanger,974,2,0,True
-1352471,2025-02-23T18:00:00+00:00,FT,FAR Rabat,969,Raja Casablanca,976,0,0,True
-1352472,2025-02-23T20:00:00+00:00,FT,UTS Rabat,14806,Hassania Agadir,973,2,1,True
-1352473,2025-02-27T15:00:00+00:00,FT,Ittihad Tanger,974,Riadi Salmi,3456,1,0,True
-1352474,2025-02-27T17:00:00+00:00,FT,Chabab Mohammédia,6387,Moghreb Tetouan,965,0,2,True
-1352475,2025-02-27T19:00:00+00:00,FT,CODM Meknès,22218,Hassania Agadir,973,1,0,True
-1352476,2025-02-27T21:00:00+00:00,FT,Difaa EL Jadida,964,UTS Rabat,14806,1,0,True
-1352478,2025-02-28T17:00:00+00:00,FT,Raja Casablanca,976,Maghreb Fès,3453,0,0,True
-1352477,2025-02-28T17:00:00+00:00,FT,FUS Rabat,977,CR Khemis Zemamra,3449,3,0,True
-1352479,2025-02-28T19:00:00+00:00,FT,Olympique Safi,975,FAR Rabat,969,1,1,True
-1352480,2025-02-28T21:00:00+00:00,FT,Renaissance Berkane,962,Wydad AC,968,0,0,True
-1357069,2025-03-07T22:00:00+00:00,FT,Riadi Salmi,3456,Olympique Safi,975,0,1,True
-1357070,2025-03-07T22:00:00+00:00,FT,UTS Rabat,14806,Chabab Mohammédia,6387,2,1,True
-1357071,2025-03-08T22:00:00+00:00,FT,CR Khemis Zemamra,3449,FAR Rabat,969,1,2,True
-1357072,2025-03-08T22:00:00+00:00,FT,Maghreb Fès,3453,Ittihad Tanger,974,1,1,True
-1357073,2025-03-09T22:00:00+00:00,FT,Moghreb Tetouan,965,Renaissance Berkane,962,0,2,True
-1357074,2025-03-09T22:00:00+00:00,FT,Wydad AC,968,FUS Rabat,977,2,2,True
-1357075,2025-03-10T22:00:00+00:00,FT,Hassania Agadir,973,Difaa EL Jadida,964,1,1,True
-1357076,2025-03-10T22:00:00+00:00,FT,CODM Meknès,22218,Raja Casablanca,976,1,2,True
-1357077,2025-03-14T22:00:00+00:00,FT,FAR Rabat,969,Maghreb Fès,3453,3,1,True
-1357078,2025-03-14T22:00:00+00:00,FT,Olympique Safi,975,CR Khemis Zemamra,3449,2,0,True
-1357079,2025-03-15T22:00:00+00:00,FT,Renaissance Berkane,962,UTS Rabat,14806,1,1,True
-1357081,2025-03-15T22:00:00+00:00,FT,Ittihad Tanger,974,Wydad AC,968,1,1,True
-1357080,2025-03-15T22:00:00+00:00,FT,FUS Rabat,977,Riadi Salmi,3456,4,2,True
-1357084,2025-03-16T22:00:00+00:00,FT,Difaa EL Jadida,964,CODM Meknès,22218,2,1,True
-1357083,2025-03-16T22:00:00+00:00,FT,Raja Casablanca,976,Moghreb Tetouan,965,1,1,True
-1357082,2025-03-16T22:00:00+00:00,FT,Chabab Mohammédia,6387,Hassania Agadir,973,0,4,True
-1369429,2025-04-11T17:00:00+00:00,FT,CODM Meknès,22218,Olympique Safi,975,1,0,True
-1369430,2025-04-11T19:00:00+00:00,FT,Riadi Salmi,3456,CR Khemis Zemamra,3449,0,1,True
-1369431,2025-04-12T15:00:00+00:00,FT,Maghreb Fès,3453,FUS Rabat,977,1,0,True
-1369432,2025-04-12T17:00:00+00:00,FT,Difaa EL Jadida,964,Chabab Mohammédia,6387,1,0,True
-1369433,2025-04-12T19:00:00+00:00,FT,Wydad AC,968,Raja Casablanca,976,1,1,True
-1369434,2025-04-13T15:00:00+00:00,FT,Hassania Agadir,973,Renaissance Berkane,962,2,0,True
-1369435,2025-04-13T17:00:00+00:00,FT,UTS Rabat,14806,FAR Rabat,969,0,1,True
-1369436,2025-04-14T17:00:00+00:00,FT,Moghreb Tetouan,965,Ittihad Tanger,974,2,1,True
-1371850,2025-04-23T19:00:00+00:00,FT,FAR Rabat,969,Riadi Salmi,3456,2,0,True
-1371848,2025-04-23T19:00:00+00:00,FT,Ittihad Tanger,974,UTS Rabat,14806,0,1,True
-1371844,2025-04-23T19:00:00+00:00,FT,Olympique Safi,975,Wydad AC,968,1,1,True
-1371849,2025-04-23T19:00:00+00:00,FT,Raja Casablanca,976,Hassania Agadir,973,1,0,True
-1371847,2025-04-23T19:00:00+00:00,FT,FUS Rabat,977,Moghreb Tetouan,965,2,2,True
-1371846,2025-04-23T19:00:00+00:00,FT,CR Khemis Zemamra,3449,Maghreb Fès,3453,1,1,True
-1371845,2025-04-23T19:00:00+00:00,FT,Chabab Mohammédia,6387,CODM Meknès,22218,1,2,True
-1371843,2025-05-01T19:00:00+00:00,FT,Renaissance Berkane,962,Difaa EL Jadida,964,1,1,True
-1373060,2025-05-03T19:00:00+00:00,FT,Wydad AC,968,FAR Rabat,969,2,1,True
-1373066,2025-05-04T19:00:00+00:00,FT,Difaa EL Jadida,964,FUS Rabat,977,0,5,True
-1373064,2025-05-04T19:00:00+00:00,FT,Moghreb Tetouan,965,CR Khemis Zemamra,3449,3,0,True
-1373063,2025-05-04T19:00:00+00:00,FT,Hassania Agadir,973,Olympique Safi,975,2,3,True
-1373065,2025-05-04T19:00:00+00:00,FT,Maghreb Fès,3453,Riadi Salmi,3456,2,0,True
-1373062,2025-05-04T19:00:00+00:00,FT,Chabab Mohammédia,6387,Ittihad Tanger,974,1,2,True
-1373061,2025-05-04T19:00:00+00:00,FT,UTS Rabat,14806,Raja Casablanca,976,0,0,True
-1373067,2025-05-04T19:00:00+00:00,FT,CODM Meknès,22218,Renaissance Berkane,962,0,4,True
-1374346,2025-05-07T19:00:00+00:00,FT,Renaissance Berkane,962,Chabab Mohammédia,6387,1,0,True
-1374349,2025-05-08T19:00:00+00:00,FT,FAR Rabat,969,Moghreb Tetouan,965,2,1,True
-1374352,2025-05-08T19:00:00+00:00,FT,Ittihad Tanger,974,CODM Meknès,22218,2,0,True
-1374348,2025-05-08T19:00:00+00:00,FT,Olympique Safi,975,Maghreb Fès,3453,2,2,True
-1374353,2025-05-08T19:00:00+00:00,FT,Raja Casablanca,976,Difaa EL Jadida,964,3,2,True
-1374351,2025-05-08T19:00:00+00:00,FT,FUS Rabat,977,Hassania Agadir,973,2,1,True
-1374350,2025-05-08T19:00:00+00:00,FT,CR Khemis Zemamra,3449,UTS Rabat,14806,3,0,True
-1374347,2025-05-08T19:00:00+00:00,FT,Riadi Salmi,3456,Wydad AC,968,0,2,True
-1375016,2025-05-11T19:00:00+00:00,FT,Difaa EL Jadida,964,Ittihad Tanger,974,2,1,True
-1375021,2025-05-11T19:00:00+00:00,FT,Moghreb Tetouan,965,Riadi Salmi,3456,0,3,True
-1375020,2025-05-11T19:00:00+00:00,FT,Wydad AC,968,CR Khemis Zemamra,3449,2,0,True
-1375019,2025-05-11T19:00:00+00:00,FT,Hassania Agadir,973,FAR Rabat,969,0,3,True
-1375015,2025-05-11T19:00:00+00:00,FT,Maghreb Fès,3453,Renaissance Berkane,962,1,3,True
-1375018,2025-05-11T19:00:00+00:00,FT,UTS Rabat,14806,Olympique Safi,975,0,2,True
-1375017,2025-05-11T19:00:00+00:00,FT,CODM Meknès,22218,FUS Rabat,977,0,3,True
-1375022,2025-05-12T19:00:00+00:00,FT,Chabab Mohammédia,6387,Raja Casablanca,976,0,6,True
-1376348,2025-05-24T16:00:00+00:00,FT,Olympique Dcheïra,3454,Riadi Salmi,3456,1,2,True
-1376350,2025-05-25T16:00:00+00:00,FT,Raja Beni Mellal,3455,Hassania Agadir,973,0,0,True
-1376349,2025-05-30T18:00:00+00:00,FT,Riadi Salmi,3456,Olympique Dcheïra,3454,0,3,True
-1376351,2025-05-31T15:00:00+00:00,FT,Hassania Agadir,973,Raja Beni Mellal,3455,1,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1288248,2024-08-30T16:00:00+00:00,FT,Regular Season - 1,Difaa EL Jadida,964,Riadi Salmi,3456,1,1,True
+1288249,2024-08-30T18:00:00+00:00,FT,Regular Season - 1,Chabab Mohammédia,6387,FAR Rabat,969,0,5,True
+1288243,2024-08-30T20:00:00+00:00,FT,Regular Season - 1,Maghreb Fès,3453,Wydad AC,968,1,0,True
+1288245,2024-08-30T20:00:00+00:00,FT,Regular Season - 1,UTS Rabat,14806,FUS Rabat,977,2,2,True
+1288242,2024-08-31T16:00:00+00:00,FT,Regular Season - 1,Raja Casablanca,976,Renaissance Berkane,962,0,1,True
+1288244,2024-08-31T18:00:00+00:00,FT,Regular Season - 1,Moghreb Tetouan,965,Olympique Safi,975,0,0,True
+1288247,2024-08-31T18:00:00+00:00,FT,Regular Season - 1,CODM Meknès,22218,CR Khemis Zemamra,3449,1,1,True
+1288246,2024-08-31T20:00:00+00:00,FT,Regular Season - 1,Hassania Agadir,973,Ittihad Tanger,974,0,1,True
+1303869,2024-09-14T17:00:00+00:00,FT,Regular Season - 2,Wydad AC,968,Moghreb Tetouan,965,1,0,True
+1303870,2024-09-14T19:00:00+00:00,FT,Regular Season - 2,Maghreb Fès,3453,UTS Rabat,14806,1,2,True
+1304073,2024-09-15T15:00:00+00:00,FT,Regular Season - 2,Riadi Salmi,3456,Hassania Agadir,973,0,1,True
+1303871,2024-09-15T17:00:00+00:00,FT,Regular Season - 2,CR Khemis Zemamra,3449,Difaa EL Jadida,964,1,2,True
+1303872,2024-09-15T19:00:00+00:00,FT,Regular Season - 2,FUS Rabat,977,Chabab Mohammédia,6387,4,0,True
+1303876,2024-09-20T17:00:00+00:00,FT,Regular Season - 3,UTS Rabat,14806,Wydad AC,968,1,1,True
+1303877,2024-09-20T19:00:00+00:00,FT,Regular Season - 3,Moghreb Tetouan,965,Maghreb Fès,3453,1,1,True
+1303878,2024-09-21T17:00:00+00:00,FT,Regular Season - 3,Hassania Agadir,973,CR Khemis Zemamra,3449,0,1,True
+1303879,2024-09-22T15:00:00+00:00,FT,Regular Season - 3,CODM Meknès,22218,Riadi Salmi,3456,0,2,True
+1303880,2024-09-22T17:00:00+00:00,FT,Regular Season - 3,Chabab Mohammédia,6387,Olympique Safi,975,1,2,True
+1303873,2024-09-25T15:00:00+00:00,FT,Regular Season - 2,Olympique Safi,975,Renaissance Berkane,962,0,2,True
+1303874,2024-09-25T17:00:00+00:00,FT,Regular Season - 2,Ittihad Tanger,974,Raja Casablanca,976,3,1,True
+1303875,2024-09-25T19:00:00+00:00,FT,Regular Season - 2,FAR Rabat,969,CODM Meknès,22218,4,0,True
+1303884,2024-09-27T17:00:00+00:00,FT,Regular Season - 4,Maghreb Fès,3453,Hassania Agadir,973,1,0,True
+1303885,2024-09-28T15:00:00+00:00,FT,Regular Season - 4,CR Khemis Zemamra,3449,Chabab Mohammédia,6387,3,0,True
+1303886,2024-09-28T17:00:00+00:00,FT,Regular Season - 4,Wydad AC,968,Difaa EL Jadida,964,4,1,True
+1303887,2024-09-28T19:00:00+00:00,FT,Regular Season - 4,Riadi Salmi,3456,UTS Rabat,14806,0,0,True
+1303888,2024-09-29T15:00:00+00:00,FT,Regular Season - 4,Moghreb Tetouan,965,CODM Meknès,22218,1,1,True
+1303890,2024-09-29T17:00:00+00:00,FT,Regular Season - 4,FAR Rabat,969,Renaissance Berkane,962,1,1,True
+1303889,2024-09-29T17:00:00+00:00,FT,Regular Season - 4,FUS Rabat,977,Ittihad Tanger,974,0,0,True
+1303891,2024-09-29T19:00:00+00:00,FT,Regular Season - 4,Olympique Safi,975,Raja Casablanca,976,2,3,True
+1303881,2024-10-02T15:00:00+00:00,FT,Regular Season - 3,Difaa EL Jadida,964,FAR Rabat,969,1,0,True
+1303882,2024-10-02T17:00:00+00:00,FT,Regular Season - 3,Raja Casablanca,976,FUS Rabat,977,1,0,True
+1303883,2024-10-02T19:00:00+00:00,FT,Regular Season - 3,Renaissance Berkane,962,Ittihad Tanger,974,0,0,True
+1303892,2024-10-04T17:00:00+00:00,FT,Regular Season - 5,UTS Rabat,14806,Moghreb Tetouan,965,1,0,True
+1303893,2024-10-04T19:00:00+00:00,FT,Regular Season - 5,Chabab Mohammédia,6387,Riadi Salmi,3456,0,0,True
+1303894,2024-10-05T17:00:00+00:00,FT,Regular Season - 5,CODM Meknès,22218,Maghreb Fès,3453,2,0,True
+1303895,2024-10-05T19:00:00+00:00,FT,Regular Season - 5,Hassania Agadir,973,Wydad AC,968,1,1,True
+1303896,2024-10-06T15:00:00+00:00,FT,Regular Season - 5,Difaa EL Jadida,964,Olympique Safi,975,1,2,True
+1303897,2024-10-06T17:00:00+00:00,FT,Regular Season - 5,Ittihad Tanger,974,FAR Rabat,969,1,1,True
+1303898,2024-10-06T17:00:00+00:00,FT,Regular Season - 5,Raja Casablanca,976,CR Khemis Zemamra,3449,2,0,True
+1303899,2024-10-06T19:00:00+00:00,FT,Regular Season - 5,Renaissance Berkane,962,FUS Rabat,977,0,1,True
+1311651,2024-10-18T17:00:00+00:00,FT,Regular Season - 6,FAR Rabat,969,FUS Rabat,977,1,0,True
+1311652,2024-10-18T17:00:00+00:00,FT,Regular Season - 6,CR Khemis Zemamra,3449,Renaissance Berkane,962,1,3,True
+1311653,2024-10-18T19:00:00+00:00,FT,Regular Season - 6,Riadi Salmi,3456,Raja Casablanca,976,2,1,True
+1311654,2024-10-19T15:00:00+00:00,FT,Regular Season - 6,Maghreb Fès,3453,Difaa EL Jadida,964,1,0,True
+1311655,2024-10-19T15:00:00+00:00,FT,Regular Season - 6,UTS Rabat,14806,CODM Meknès,22218,0,0,True
+1311656,2024-10-19T17:00:00+00:00,FT,Regular Season - 6,Moghreb Tetouan,965,Hassania Agadir,973,0,2,True
+1311657,2024-10-19T19:00:00+00:00,FT,Regular Season - 6,Wydad AC,968,Chabab Mohammédia,6387,3,2,True
+1311658,2024-10-20T19:00:00+00:00,FT,Regular Season - 6,Olympique Safi,975,Ittihad Tanger,974,2,3,True
+1311659,2024-10-22T15:00:00+00:00,FT,Regular Season - 7,Hassania Agadir,973,UTS Rabat,14806,2,1,True
+1311660,2024-10-22T15:00:00+00:00,FT,Regular Season - 7,Chabab Mohammédia,6387,Maghreb Fès,3453,0,1,True
+1311661,2024-10-22T17:00:00+00:00,FT,Regular Season - 7,Difaa EL Jadida,964,Moghreb Tetouan,965,1,0,True
+1311662,2024-10-22T19:00:00+00:00,FT,Regular Season - 7,Raja Casablanca,976,FAR Rabat,969,0,0,True
+1311663,2024-10-23T15:00:00+00:00,FT,Regular Season - 7,FUS Rabat,977,Olympique Safi,975,3,0,True
+1311664,2024-10-23T15:00:00+00:00,FT,Regular Season - 7,CODM Meknès,22218,Wydad AC,968,2,0,True
+1311665,2024-10-23T17:00:00+00:00,FT,Regular Season - 7,Renaissance Berkane,962,Riadi Salmi,3456,1,0,True
+1311666,2024-10-23T19:00:00+00:00,FT,Regular Season - 7,Ittihad Tanger,974,CR Khemis Zemamra,3449,0,1,True
+1311667,2024-10-25T17:00:00+00:00,FT,Regular Season - 8,Maghreb Fès,3453,Raja Casablanca,976,0,0,True
+1311668,2024-10-25T19:00:00+00:00,FT,Regular Season - 8,Moghreb Tetouan,965,Chabab Mohammédia,6387,3,0,True
+1311669,2024-10-26T15:00:00+00:00,FT,Regular Season - 8,UTS Rabat,14806,Difaa EL Jadida,964,2,2,True
+1311670,2024-10-26T17:00:00+00:00,FT,Regular Season - 8,FAR Rabat,969,Olympique Safi,975,1,1,True
+1311671,2024-10-26T17:00:00+00:00,FT,Regular Season - 8,Hassania Agadir,973,CODM Meknès,22218,3,0,True
+1311672,2024-10-26T19:00:00+00:00,FT,Regular Season - 8,Wydad AC,968,Renaissance Berkane,962,0,1,True
+1311673,2024-10-27T15:00:00+00:00,FT,Regular Season - 8,CR Khemis Zemamra,3449,FUS Rabat,977,3,1,True
+1311674,2024-10-27T17:00:00+00:00,FT,Regular Season - 8,Riadi Salmi,3456,Ittihad Tanger,974,2,1,True
+1311675,2024-11-01T15:00:00+00:00,FT,Regular Season - 9,Olympique Safi,975,Riadi Salmi,3456,1,0,True
+1311677,2024-11-02T15:00:00+00:00,FT,Regular Season - 9,Renaissance Berkane,962,Moghreb Tetouan,965,2,1,True
+1311676,2024-11-02T15:00:00+00:00,FT,Regular Season - 9,Raja Casablanca,976,CODM Meknès,22218,0,0,True
+1311678,2024-11-02T17:00:00+00:00,FT,Regular Season - 9,Chabab Mohammédia,6387,UTS Rabat,14806,0,3,True
+1311679,2024-11-02T19:00:00+00:00,FT,Regular Season - 9,Difaa EL Jadida,964,Hassania Agadir,973,2,0,True
+1311680,2024-11-03T15:00:00+00:00,FT,Regular Season - 9,FAR Rabat,969,CR Khemis Zemamra,3449,1,0,True
+1311681,2024-11-03T17:00:00+00:00,FT,Regular Season - 9,FUS Rabat,977,Wydad AC,968,0,1,True
+1311682,2024-11-03T19:00:00+00:00,FT,Regular Season - 9,Ittihad Tanger,974,Maghreb Fès,3453,1,1,True
+1311683,2024-11-08T17:00:00+00:00,FT,Regular Season - 10,Riadi Salmi,3456,FUS Rabat,977,1,1,True
+1311684,2024-11-08T19:00:00+00:00,FT,Regular Season - 10,CODM Meknès,22218,Difaa EL Jadida,964,3,0,True
+1311685,2024-11-09T15:00:00+00:00,FT,Regular Season - 10,CR Khemis Zemamra,3449,Olympique Safi,975,2,1,True
+1311686,2024-11-09T17:00:00+00:00,FT,Regular Season - 10,Maghreb Fès,3453,FAR Rabat,969,1,0,True
+1311687,2024-11-09T19:00:00+00:00,FT,Regular Season - 10,Moghreb Tetouan,965,Raja Casablanca,976,0,0,True
+1311690,2024-11-09T19:00:00+00:00,FT,Regular Season - 10,Wydad AC,968,Ittihad Tanger,974,2,2,True
+1311688,2024-11-10T15:00:00+00:00,FT,Regular Season - 10,Hassania Agadir,973,Chabab Mohammédia,6387,2,1,True
+1311689,2024-11-10T17:00:00+00:00,FT,Regular Season - 10,UTS Rabat,14806,Renaissance Berkane,962,0,1,True
+1316124,2024-11-22T17:00:00+00:00,FT,Regular Season - 11,FAR Rabat,969,UTS Rabat,14806,1,1,True
+1316123,2024-11-22T17:00:00+00:00,FT,Regular Season - 11,Raja Casablanca,976,Wydad AC,968,1,1,True
+1316125,2024-11-22T19:00:00+00:00,FT,Regular Season - 11,Olympique Safi,975,CODM Meknès,22218,3,0,True
+1316126,2024-11-23T15:00:00+00:00,FT,Regular Season - 11,Ittihad Tanger,974,Moghreb Tetouan,965,1,2,True
+1316127,2024-11-23T19:00:00+00:00,FT,Regular Season - 11,Renaissance Berkane,962,Hassania Agadir,973,2,1,True
+1316128,2024-11-24T15:00:00+00:00,FT,Regular Season - 11,CR Khemis Zemamra,3449,Riadi Salmi,3456,0,0,True
+1316129,2024-11-24T17:00:00+00:00,FT,Regular Season - 11,Chabab Mohammédia,6387,Difaa EL Jadida,964,1,4,True
+1316130,2024-11-25T19:00:00+00:00,FT,Regular Season - 11,FUS Rabat,977,Maghreb Fès,3453,1,1,True
+1316131,2024-11-29T17:00:00+00:00,FT,Regular Season - 12,UTS Rabat,14806,Ittihad Tanger,974,3,1,True
+1316132,2024-11-29T19:00:00+00:00,FT,Regular Season - 12,Wydad AC,968,Olympique Safi,975,1,0,True
+1316133,2024-11-30T15:00:00+00:00,FT,Regular Season - 12,Riadi Salmi,3456,FAR Rabat,969,0,3,True
+1316134,2024-11-30T17:00:00+00:00,FT,Regular Season - 12,CODM Meknès,22218,Chabab Mohammédia,6387,1,1,True
+1316135,2024-11-30T19:00:00+00:00,FT,Regular Season - 12,Moghreb Tetouan,965,FUS Rabat,977,0,2,True
+1316136,2024-12-01T15:00:00+00:00,FT,Regular Season - 12,Hassania Agadir,973,Raja Casablanca,976,1,3,True
+1316137,2024-12-01T17:00:00+00:00,FT,Regular Season - 12,Difaa EL Jadida,964,Renaissance Berkane,962,1,1,True
+1316138,2024-12-01T19:00:00+00:00,FT,Regular Season - 12,Maghreb Fès,3453,CR Khemis Zemamra,3449,0,1,True
+1318629,2024-12-06T19:00:00+00:00,FT,Regular Season - 13,FUS Rabat,977,Difaa EL Jadida,964,3,3,True
+1318630,2024-12-07T15:00:00+00:00,FT,Regular Season - 13,Olympique Safi,975,Hassania Agadir,973,0,0,True
+1318633,2024-12-08T14:00:00+00:00,FT,Regular Season - 13,Ittihad Tanger,974,Chabab Mohammédia,6387,1,1,True
+1318631,2024-12-08T15:00:00+00:00,FT,Regular Season - 13,CR Khemis Zemamra,3449,Moghreb Tetouan,965,2,0,True
+1318632,2024-12-08T17:00:00+00:00,FT,Regular Season - 13,Riadi Salmi,3456,Maghreb Fès,3453,0,2,True
+1318637,2024-12-13T19:00:00+00:00,FT,Regular Season - 14,Hassania Agadir,973,FUS Rabat,977,0,1,True
+1318638,2024-12-14T15:00:00+00:00,FT,Regular Season - 14,CODM Meknès,22218,Ittihad Tanger,974,1,0,True
+1318639,2024-12-14T17:00:00+00:00,FT,Regular Season - 14,Wydad AC,968,Riadi Salmi,3456,3,0,True
+1318640,2024-12-14T19:00:00+00:00,FT,Regular Season - 14,UTS Rabat,14806,CR Khemis Zemamra,3449,0,0,True
+1318641,2024-12-15T15:00:00+00:00,FT,Regular Season - 14,Maghreb Fès,3453,Olympique Safi,975,0,1,True
+1318634,2024-12-19T15:00:00+00:00,FT,Regular Season - 13,Renaissance Berkane,962,CODM Meknès,22218,3,0,True
+1318635,2024-12-19T17:00:00+00:00,FT,Regular Season - 13,FAR Rabat,969,Wydad AC,968,2,2,True
+1318636,2024-12-19T19:00:00+00:00,FT,Regular Season - 13,Raja Casablanca,976,UTS Rabat,14806,2,1,True
+1318646,2024-12-21T15:00:00+00:00,FT,Regular Season - 15,Ittihad Tanger,974,Difaa EL Jadida,964,1,1,True
+1318645,2024-12-21T15:00:00+00:00,FT,Regular Season - 15,Riadi Salmi,3456,Moghreb Tetouan,965,2,0,True
+1318647,2024-12-22T15:00:00+00:00,FT,Regular Season - 15,Olympique Safi,975,UTS Rabat,14806,2,1,True
+1318648,2024-12-22T15:00:00+00:00,FT,Regular Season - 15,Raja Casablanca,976,Chabab Mohammédia,6387,3,0,True
+1318649,2024-12-22T17:00:00+00:00,FT,Regular Season - 15,Renaissance Berkane,962,Maghreb Fès,3453,2,0,True
+1318650,2024-12-22T19:00:00+00:00,FT,Regular Season - 15,FAR Rabat,969,Hassania Agadir,973,2,1,True
+1318651,2024-12-23T17:00:00+00:00,FT,Regular Season - 15,CR Khemis Zemamra,3449,Wydad AC,968,0,0,True
+1318652,2024-12-23T19:00:00+00:00,FT,Regular Season - 15,FUS Rabat,977,CODM Meknès,22218,5,1,True
+1318642,2024-12-25T15:00:00+00:00,FT,Regular Season - 14,Chabab Mohammédia,6387,Renaissance Berkane,962,0,2,True
+1318643,2024-12-25T17:00:00+00:00,FT,Regular Season - 14,Moghreb Tetouan,965,FAR Rabat,969,1,2,True
+1318644,2024-12-25T19:00:00+00:00,FT,Regular Season - 14,Difaa EL Jadida,964,Raja Casablanca,976,2,0,True
+1327542,2024-12-28T15:00:00+00:00,FT,Regular Season - 16,Ittihad Tanger,974,Hassania Agadir,973,1,0,True
+1327543,2024-12-28T15:00:00+00:00,FT,Regular Season - 16,CR Khemis Zemamra,3449,CODM Meknès,22218,3,2,True
+1327544,2024-12-28T17:00:00+00:00,FT,Regular Season - 16,FUS Rabat,977,UTS Rabat,14806,2,0,True
+1327545,2024-12-28T19:00:00+00:00,FT,Regular Season - 16,Wydad AC,968,Maghreb Fès,3453,1,4,True
+1327547,2024-12-29T15:00:00+00:00,FT,Regular Season - 16,Olympique Safi,975,Moghreb Tetouan,965,1,0,True
+1327546,2024-12-29T15:00:00+00:00,FT,Regular Season - 16,Riadi Salmi,3456,Difaa EL Jadida,964,2,0,True
+1327548,2024-12-29T17:00:00+00:00,FT,Regular Season - 16,FAR Rabat,969,Chabab Mohammédia,6387,2,0,True
+1327549,2024-12-29T19:00:00+00:00,FT,Regular Season - 16,Renaissance Berkane,962,Raja Casablanca,976,2,0,True
+1328213,2025-01-03T19:00:00+00:00,FT,Regular Season - 17,Chabab Mohammédia,6387,FUS Rabat,977,0,2,True
+1328214,2025-01-04T15:00:00+00:00,FT,Regular Season - 17,Hassania Agadir,973,Riadi Salmi,3456,3,1,True
+1328215,2025-01-04T17:00:00+00:00,FT,Regular Season - 17,Moghreb Tetouan,965,Wydad AC,968,1,2,True
+1328219,2025-01-05T15:00:00+00:00,FT,Regular Season - 17,UTS Rabat,14806,Maghreb Fès,3453,0,3,True
+1328220,2025-01-05T17:00:00+00:00,FT,Regular Season - 17,Difaa EL Jadida,964,CR Khemis Zemamra,3449,0,3,True
+1333272,2025-01-11T15:00:00+00:00,FT,Regular Season - 18,Riadi Salmi,3456,CODM Meknès,22218,1,1,True
+1333273,2025-01-11T17:00:00+00:00,FT,Regular Season - 18,Olympique Safi,975,Chabab Mohammédia,6387,2,1,True
+1333277,2025-01-12T15:00:00+00:00,FT,Regular Season - 18,CR Khemis Zemamra,3449,Hassania Agadir,973,2,0,True
+1333278,2025-01-12T17:00:00+00:00,FT,Regular Season - 18,Maghreb Fès,3453,Moghreb Tetouan,965,2,1,True
+1333279,2025-01-12T19:00:00+00:00,FT,Regular Season - 18,Wydad AC,968,UTS Rabat,14806,2,1,True
+1335027,2025-01-17T19:00:00+00:00,FT,Regular Season - 19,CODM Meknès,22218,Moghreb Tetouan,965,1,0,True
+1335028,2025-01-18T15:00:00+00:00,FT,Regular Season - 19,Ittihad Tanger,974,FUS Rabat,977,1,0,True
+1335029,2025-01-18T17:00:00+00:00,FT,Regular Season - 19,Chabab Mohammédia,6387,CR Khemis Zemamra,3449,0,1,True
+1335030,2025-01-18T19:00:00+00:00,FT,Regular Season - 19,UTS Rabat,14806,Riadi Salmi,3456,3,1,True
+1335031,2025-01-19T14:00:00+00:00,FT,Regular Season - 19,Hassania Agadir,973,Maghreb Fès,3453,2,2,True
+1335032,2025-01-19T18:00:00+00:00,FT,Regular Season - 19,Difaa EL Jadida,964,Wydad AC,968,0,2,True
+1328218,2025-01-23T15:00:00+00:00,FT,Regular Season - 17,CODM Meknès,22218,FAR Rabat,969,2,2,True
+1328216,2025-01-23T17:00:00+00:00,FT,Regular Season - 17,Raja Casablanca,976,Ittihad Tanger,974,1,1,True
+1328217,2025-01-23T19:00:00+00:00,FT,Regular Season - 17,Renaissance Berkane,962,Olympique Safi,975,2,2,True
+1333275,2025-01-26T15:00:00+00:00,FT,Regular Season - 18,Ittihad Tanger,974,Renaissance Berkane,962,1,3,True
+1333276,2025-01-26T17:00:00+00:00,FT,Regular Season - 18,FAR Rabat,969,Difaa EL Jadida,964,1,0,True
+1333274,2025-01-26T19:00:00+00:00,FT,Regular Season - 18,FUS Rabat,977,Raja Casablanca,976,2,1,True
+1335033,2025-01-30T17:00:00+00:00,FT,Regular Season - 19,Raja Casablanca,976,Olympique Safi,975,1,1,True
+1335034,2025-01-30T19:00:00+00:00,FT,Regular Season - 19,Renaissance Berkane,962,FAR Rabat,969,2,0,True
+1347395,2025-02-07T17:00:00+00:00,FT,Regular Season - 20,Moghreb Tetouan,965,UTS Rabat,14806,1,1,True
+1347396,2025-02-07T19:00:00+00:00,FT,Regular Season - 20,Riadi Salmi,3456,Chabab Mohammédia,6387,1,1,True
+1347397,2025-02-08T15:00:00+00:00,FT,Regular Season - 20,Maghreb Fès,3453,CODM Meknès,22218,1,3,True
+1347398,2025-02-08T17:00:00+00:00,FT,Regular Season - 20,FAR Rabat,969,Ittihad Tanger,974,3,2,True
+1347399,2025-02-08T19:00:00+00:00,FT,Regular Season - 20,Olympique Safi,975,Difaa EL Jadida,964,0,0,True
+1347400,2025-02-09T15:00:00+00:00,FT,Regular Season - 20,CR Khemis Zemamra,3449,Raja Casablanca,976,1,2,True
+1347401,2025-02-09T17:00:00+00:00,FT,Regular Season - 20,FUS Rabat,977,Renaissance Berkane,962,0,1,True
+1347402,2025-02-09T19:00:00+00:00,FT,Regular Season - 20,Wydad AC,968,Hassania Agadir,973,2,0,True
+1347403,2025-02-14T17:00:00+00:00,FT,Regular Season - 21,Hassania Agadir,973,Moghreb Tetouan,965,1,1,True
+1347404,2025-02-14T19:00:00+00:00,FT,Regular Season - 21,CODM Meknès,22218,UTS Rabat,14806,0,0,True
+1347405,2025-02-15T15:00:00+00:00,FT,Regular Season - 21,Ittihad Tanger,974,Olympique Safi,975,4,2,True
+1347406,2025-02-15T17:00:00+00:00,FT,Regular Season - 21,FUS Rabat,977,FAR Rabat,969,2,1,True
+1347407,2025-02-15T19:00:00+00:00,FT,Regular Season - 21,Raja Casablanca,976,Riadi Salmi,3456,2,0,True
+1347408,2025-02-16T15:00:00+00:00,FT,Regular Season - 21,Difaa EL Jadida,964,Maghreb Fès,3453,1,1,True
+1347409,2025-02-16T17:00:00+00:00,FT,Regular Season - 21,Chabab Mohammédia,6387,Wydad AC,968,1,5,True
+1347410,2025-02-16T19:00:00+00:00,FT,Regular Season - 21,Renaissance Berkane,962,CR Khemis Zemamra,3449,1,0,True
+1352465,2025-02-21T17:00:00+00:00,FT,Regular Season - 22,Riadi Salmi,3456,Renaissance Berkane,962,0,4,True
+1352466,2025-02-21T19:00:00+00:00,FT,Regular Season - 22,Maghreb Fès,3453,Chabab Mohammédia,6387,1,0,True
+1352467,2025-02-22T15:00:00+00:00,FT,Regular Season - 22,Wydad AC,968,CODM Meknès,22218,0,0,True
+1352468,2025-02-22T17:00:00+00:00,FT,Regular Season - 22,Moghreb Tetouan,965,Difaa EL Jadida,964,1,3,True
+1352469,2025-02-22T19:00:00+00:00,FT,Regular Season - 22,Olympique Safi,975,FUS Rabat,977,0,0,True
+1352470,2025-02-23T16:00:00+00:00,FT,Regular Season - 22,CR Khemis Zemamra,3449,Ittihad Tanger,974,2,0,True
+1352471,2025-02-23T18:00:00+00:00,FT,Regular Season - 22,FAR Rabat,969,Raja Casablanca,976,0,0,True
+1352472,2025-02-23T20:00:00+00:00,FT,Regular Season - 22,UTS Rabat,14806,Hassania Agadir,973,2,1,True
+1352473,2025-02-27T15:00:00+00:00,FT,Regular Season - 23,Ittihad Tanger,974,Riadi Salmi,3456,1,0,True
+1352474,2025-02-27T17:00:00+00:00,FT,Regular Season - 23,Chabab Mohammédia,6387,Moghreb Tetouan,965,0,2,True
+1352475,2025-02-27T19:00:00+00:00,FT,Regular Season - 23,CODM Meknès,22218,Hassania Agadir,973,1,0,True
+1352476,2025-02-27T21:00:00+00:00,FT,Regular Season - 23,Difaa EL Jadida,964,UTS Rabat,14806,1,0,True
+1352478,2025-02-28T17:00:00+00:00,FT,Regular Season - 23,Raja Casablanca,976,Maghreb Fès,3453,0,0,True
+1352477,2025-02-28T17:00:00+00:00,FT,Regular Season - 23,FUS Rabat,977,CR Khemis Zemamra,3449,3,0,True
+1352479,2025-02-28T19:00:00+00:00,FT,Regular Season - 23,Olympique Safi,975,FAR Rabat,969,1,1,True
+1352480,2025-02-28T21:00:00+00:00,FT,Regular Season - 23,Renaissance Berkane,962,Wydad AC,968,0,0,True
+1357069,2025-03-07T22:00:00+00:00,FT,Regular Season - 24,Riadi Salmi,3456,Olympique Safi,975,0,1,True
+1357070,2025-03-07T22:00:00+00:00,FT,Regular Season - 24,UTS Rabat,14806,Chabab Mohammédia,6387,2,1,True
+1357071,2025-03-08T22:00:00+00:00,FT,Regular Season - 24,CR Khemis Zemamra,3449,FAR Rabat,969,1,2,True
+1357072,2025-03-08T22:00:00+00:00,FT,Regular Season - 24,Maghreb Fès,3453,Ittihad Tanger,974,1,1,True
+1357073,2025-03-09T22:00:00+00:00,FT,Regular Season - 24,Moghreb Tetouan,965,Renaissance Berkane,962,0,2,True
+1357074,2025-03-09T22:00:00+00:00,FT,Regular Season - 24,Wydad AC,968,FUS Rabat,977,2,2,True
+1357075,2025-03-10T22:00:00+00:00,FT,Regular Season - 24,Hassania Agadir,973,Difaa EL Jadida,964,1,1,True
+1357076,2025-03-10T22:00:00+00:00,FT,Regular Season - 24,CODM Meknès,22218,Raja Casablanca,976,1,2,True
+1357077,2025-03-14T22:00:00+00:00,FT,Regular Season - 25,FAR Rabat,969,Maghreb Fès,3453,3,1,True
+1357078,2025-03-14T22:00:00+00:00,FT,Regular Season - 25,Olympique Safi,975,CR Khemis Zemamra,3449,2,0,True
+1357079,2025-03-15T22:00:00+00:00,FT,Regular Season - 25,Renaissance Berkane,962,UTS Rabat,14806,1,1,True
+1357081,2025-03-15T22:00:00+00:00,FT,Regular Season - 25,Ittihad Tanger,974,Wydad AC,968,1,1,True
+1357080,2025-03-15T22:00:00+00:00,FT,Regular Season - 25,FUS Rabat,977,Riadi Salmi,3456,4,2,True
+1357084,2025-03-16T22:00:00+00:00,FT,Regular Season - 25,Difaa EL Jadida,964,CODM Meknès,22218,2,1,True
+1357083,2025-03-16T22:00:00+00:00,FT,Regular Season - 25,Raja Casablanca,976,Moghreb Tetouan,965,1,1,True
+1357082,2025-03-16T22:00:00+00:00,FT,Regular Season - 25,Chabab Mohammédia,6387,Hassania Agadir,973,0,4,True
+1369429,2025-04-11T17:00:00+00:00,FT,Regular Season - 26,CODM Meknès,22218,Olympique Safi,975,1,0,True
+1369430,2025-04-11T19:00:00+00:00,FT,Regular Season - 26,Riadi Salmi,3456,CR Khemis Zemamra,3449,0,1,True
+1369431,2025-04-12T15:00:00+00:00,FT,Regular Season - 26,Maghreb Fès,3453,FUS Rabat,977,1,0,True
+1369432,2025-04-12T17:00:00+00:00,FT,Regular Season - 26,Difaa EL Jadida,964,Chabab Mohammédia,6387,1,0,True
+1369433,2025-04-12T19:00:00+00:00,FT,Regular Season - 26,Wydad AC,968,Raja Casablanca,976,1,1,True
+1369434,2025-04-13T15:00:00+00:00,FT,Regular Season - 26,Hassania Agadir,973,Renaissance Berkane,962,2,0,True
+1369435,2025-04-13T17:00:00+00:00,FT,Regular Season - 26,UTS Rabat,14806,FAR Rabat,969,0,1,True
+1369436,2025-04-14T17:00:00+00:00,FT,Regular Season - 26,Moghreb Tetouan,965,Ittihad Tanger,974,2,1,True
+1371850,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,FAR Rabat,969,Riadi Salmi,3456,2,0,True
+1371848,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,Ittihad Tanger,974,UTS Rabat,14806,0,1,True
+1371844,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,Olympique Safi,975,Wydad AC,968,1,1,True
+1371849,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,Raja Casablanca,976,Hassania Agadir,973,1,0,True
+1371847,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,FUS Rabat,977,Moghreb Tetouan,965,2,2,True
+1371846,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,CR Khemis Zemamra,3449,Maghreb Fès,3453,1,1,True
+1371845,2025-04-23T19:00:00+00:00,FT,Regular Season - 27,Chabab Mohammédia,6387,CODM Meknès,22218,1,2,True
+1371843,2025-05-01T19:00:00+00:00,FT,Regular Season - 27,Renaissance Berkane,962,Difaa EL Jadida,964,1,1,True
+1373060,2025-05-03T19:00:00+00:00,FT,Regular Season - 28,Wydad AC,968,FAR Rabat,969,2,1,True
+1373066,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,Difaa EL Jadida,964,FUS Rabat,977,0,5,True
+1373064,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,Moghreb Tetouan,965,CR Khemis Zemamra,3449,3,0,True
+1373063,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,Hassania Agadir,973,Olympique Safi,975,2,3,True
+1373065,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,Maghreb Fès,3453,Riadi Salmi,3456,2,0,True
+1373062,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,Chabab Mohammédia,6387,Ittihad Tanger,974,1,2,True
+1373061,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,UTS Rabat,14806,Raja Casablanca,976,0,0,True
+1373067,2025-05-04T19:00:00+00:00,FT,Regular Season - 28,CODM Meknès,22218,Renaissance Berkane,962,0,4,True
+1374346,2025-05-07T19:00:00+00:00,FT,Regular Season - 29,Renaissance Berkane,962,Chabab Mohammédia,6387,1,0,True
+1374349,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,FAR Rabat,969,Moghreb Tetouan,965,2,1,True
+1374352,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,Ittihad Tanger,974,CODM Meknès,22218,2,0,True
+1374348,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,Olympique Safi,975,Maghreb Fès,3453,2,2,True
+1374353,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,Raja Casablanca,976,Difaa EL Jadida,964,3,2,True
+1374351,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,FUS Rabat,977,Hassania Agadir,973,2,1,True
+1374350,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,CR Khemis Zemamra,3449,UTS Rabat,14806,3,0,True
+1374347,2025-05-08T19:00:00+00:00,FT,Regular Season - 29,Riadi Salmi,3456,Wydad AC,968,0,2,True
+1375016,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,Difaa EL Jadida,964,Ittihad Tanger,974,2,1,True
+1375021,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,Moghreb Tetouan,965,Riadi Salmi,3456,0,3,True
+1375020,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,Wydad AC,968,CR Khemis Zemamra,3449,2,0,True
+1375019,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,Hassania Agadir,973,FAR Rabat,969,0,3,True
+1375015,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,Maghreb Fès,3453,Renaissance Berkane,962,1,3,True
+1375018,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,UTS Rabat,14806,Olympique Safi,975,0,2,True
+1375017,2025-05-11T19:00:00+00:00,FT,Regular Season - 30,CODM Meknès,22218,FUS Rabat,977,0,3,True
+1375022,2025-05-12T19:00:00+00:00,FT,Regular Season - 30,Chabab Mohammédia,6387,Raja Casablanca,976,0,6,True
+1376348,2025-05-24T16:00:00+00:00,FT,Relegation Round,Olympique Dcheïra,3454,Riadi Salmi,3456,1,2,True
+1376350,2025-05-25T16:00:00+00:00,FT,Relegation Round,Raja Beni Mellal,3455,Hassania Agadir,973,0,0,True
+1376349,2025-05-30T18:00:00+00:00,FT,Relegation Round,Riadi Salmi,3456,Olympique Dcheïra,3454,0,3,True
+1376351,2025-05-31T15:00:00+00:00,FT,Relegation Round,Hassania Agadir,973,Raja Beni Mellal,3455,1,0,True

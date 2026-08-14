@@ -1,0 +1,46 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+605724,2020-08-20T13:00:00+00:00,FT,1st Round,Iberia,5640,Bakhmaro,13868,1,4,True
+605727,2020-08-21T12:00:00+00:00,FT,1st Round,Skuri,13857,Dinamo Zugdidi,14858,1,4,True
+605725,2020-08-21T12:00:00+00:00,FT,1st Round,Samegrelo,13863,Kolkheti Khobi,13853,0,3,True
+605726,2020-08-21T12:00:00+00:00,FT,1st Round,Didube 2014,14857,Sioni,3503,0,3,True
+605728,2020-08-21T12:00:00+00:00,FT,1st Round,Varketili,14866,Algeti,13859,2,1,True
+605731,2020-08-22T12:00:00+00:00,FT,1st Round,Borjomi,13848,Gareji,14860,0,0,True
+605729,2020-08-22T12:00:00+00:00,FT,1st Round,Imereti,13852,WIT Georgia II,14867,0,0,True
+605730,2020-08-22T12:00:00+00:00,FT,1st Round,Sulori,13858,Tbilisi City,14865,0,1,True
+605732,2020-08-22T12:00:00+00:00,AET,1st Round,Egrisi,14859,Gori,14861,0,0,False
+605733,2020-08-22T14:00:00+00:00,FT,1st Round,Merani Tbilisi II,14862,Spaeri,14864,1,5,True
+605738,2020-08-23T12:00:00+00:00,FT,1st Round,Guria,3506,Gagra,3505,0,2,True
+605736,2020-08-23T12:00:00+00:00,AET,1st Round,Zestafoni,10700,WIT Georgia,3504,0,0,False
+605735,2020-08-23T12:00:00+00:00,FT,1st Round,Chiatura,13849,Rustavi,3501,1,2,True
+605737,2020-08-23T12:00:00+00:00,FT,1st Round,Odishi 1919,13856,Samgurali,10017,0,1,True
+605734,2020-08-23T12:00:00+00:00,FT,1st Round,Saburtalo II,14863,Shukura,3510,0,0,True
+605740,2020-08-24T12:00:00+00:00,AET,1st Round,Kolkheti Poti,3507,Shevardeni 1906,3509,0,0,False
+605739,2020-08-24T12:00:00+00:00,AET,1st Round,Merani Martvili,10016,Aragvi Dusheti,10015,0,0,False
+605741,2020-08-24T12:00:00+00:00,AET,1st Round,Betlemi,13860,Meshakhte,13847,0,0,False
+605712,2020-08-24T12:00:00+00:00,FT,2nd Round,Bakhmaro,13868,Telavi,3511,0,2,True
+605714,2020-08-27T12:00:00+00:00,FT,2nd Round,Sioni,3503,Merani Tbilisi,3508,1,4,True
+605717,2020-08-27T12:00:00+00:00,FT,2nd Round,Imereti,13852,Dila,3499,1,2,True
+605716,2020-08-27T12:00:00+00:00,FT,2nd Round,Kolkheti Khobi,13853,Torpedo Kutaisi,685,0,2,True
+605713,2020-08-27T12:00:00+00:00,FT,2nd Round,Dinamo Zugdidi,14858,Chikhura Sachkhere,704,2,4,True
+605715,2020-08-27T12:00:00+00:00,FT,2nd Round,Varketili,14866,Samtredia,581,0,2,True
+605718,2020-08-29T12:00:00+00:00,FT,2nd Round,Samgurali,10017,WIT Georgia,3504,3,0,True
+605719,2020-08-29T12:00:00+00:00,FT,2nd Round,Tbilisi City,14865,Shukura,3510,1,0,True
+605720,2020-08-29T15:30:00+00:00,FT,2nd Round,Spaeri,14864,Rustavi,3501,1,0,True
+605723,2020-08-30T12:00:00+00:00,FT,2nd Round,Kolkheti Poti,3507,Gagra,3505,0,4,True
+605722,2020-08-30T12:00:00+00:00,AET,2nd Round,Betlemi,13860,Gori,14861,2,2,False
+605721,2020-08-30T12:00:00+00:00,AET,2nd Round,Gareji,14860,Merani Martvili,10016,1,0,False
+606592,2020-09-17T11:30:00+00:00,FT,8th Finals,Gareji,14860,Samgurali,10017,0,2,True
+606593,2020-09-19T11:30:00+00:00,FT,8th Finals,Gagra,3505,Dinamo Batumi,705,1,0,True
+606594,2020-09-19T15:00:00+00:00,FT,8th Finals,Spaeri,14864,Dila,3499,0,2,True
+606596,2020-09-20T11:30:00+00:00,FT,8th Finals,Betlemi,13860,Torpedo Kutaisi,685,1,4,True
+606597,2020-09-20T11:30:00+00:00,FT,8th Finals,Tbilisi City,14865,Samtredia,581,3,2,True
+606598,2020-09-20T15:00:00+00:00,FT,8th Finals,Telavi,3511,Merani Tbilisi,3508,2,0,True
+606599,2020-09-21T11:30:00+00:00,FT,8th Finals,Chikhura Sachkhere,704,Lokomotivi Tbilisi,3500,2,1,True
+606595,2020-09-21T11:30:00+00:00,FT,8th Finals,Saburtalo,3502,Dinamo Tbilisi,2262,1,0,True
+634344,2020-09-26T11:00:00+00:00,FT,Quarter-finals,Samgurali,10017,Telavi,3511,2,0,True
+634345,2020-09-26T11:00:00+00:00,FT,Quarter-finals,Tbilisi City,14865,Chikhura Sachkhere,704,2,5,True
+634347,2020-09-27T11:00:00+00:00,FT,Quarter-finals,Saburtalo,3502,Torpedo Kutaisi,685,2,0,True
+634346,2020-09-27T11:00:00+00:00,PEN,Quarter-finals,Gagra,3505,Dila,3499,0,0,False
+640020,2020-11-08T09:30:00+00:00,PEN,Semi-finals,Gagra,3505,Saburtalo,3502,0,0,False
+640021,2020-11-08T09:30:00+00:00,FT,Semi-finals,Samgurali,10017,Chikhura Sachkhere,704,2,0,True
+647407,2020-12-04T12:00:00+00:00,PEN,Final,Samgurali,10017,Gagra,3505,0,0,False

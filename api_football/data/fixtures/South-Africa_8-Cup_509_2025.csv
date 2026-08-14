@@ -1,10 +1,10 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1416534,2025-08-02T13:00:00+00:00,FT,Orlando Pirates,2700,Polokwane City,2693,2,0,True
-1416535,2025-08-02T16:00:00+00:00,FT,Sekhukhune United,15537,TS Galaxy,8074,3,2,True
-1416536,2025-08-03T13:00:00+00:00,AET,Stellenbosch,4905,Amazulu,2669,3,2,False
-1416537,2025-08-03T16:00:00+00:00,FT,Mamelodi Sundowns,2699,Richards Bay,10567,4,0,True
-1429997,2025-08-16T13:00:00+00:00,FT,Orlando Pirates,2700,Mamelodi Sundowns,2699,1,1,True
-1429998,2025-08-16T16:00:00+00:00,FT,Stellenbosch,4905,Sekhukhune United,15537,2,0,True
-1437211,2025-08-23T13:00:00+00:00,PEN,Mamelodi Sundowns,2699,Orlando Pirates,2700,1,1,False
-1437212,2025-08-23T16:00:00+00:00,FT,Sekhukhune United,15537,Stellenbosch,4905,1,1,True
-1452020,2025-09-13T16:00:00+00:00,AET,Orlando Pirates,2700,Stellenbosch,4905,3,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1416534,2025-08-02T13:00:00+00:00,FT,Quarter-finals,Orlando Pirates,2700,Polokwane City,2693,2,0,True
+1416535,2025-08-02T16:00:00+00:00,FT,Quarter-finals,Sekhukhune United,15537,TS Galaxy,8074,3,2,True
+1416536,2025-08-03T13:00:00+00:00,AET,Quarter-finals,Stellenbosch,4905,Amazulu,2669,3,2,False
+1416537,2025-08-03T16:00:00+00:00,FT,Quarter-finals,Mamelodi Sundowns,2699,Richards Bay,10567,4,0,True
+1429997,2025-08-16T13:00:00+00:00,FT,Semi-finals,Orlando Pirates,2700,Mamelodi Sundowns,2699,1,1,True
+1429998,2025-08-16T16:00:00+00:00,FT,Semi-finals,Stellenbosch,4905,Sekhukhune United,15537,2,0,True
+1437211,2025-08-23T13:00:00+00:00,PEN,Semi-finals,Mamelodi Sundowns,2699,Orlando Pirates,2700,1,1,False
+1437212,2025-08-23T16:00:00+00:00,FT,Semi-finals,Sekhukhune United,15537,Stellenbosch,4905,1,1,True
+1452020,2025-09-13T16:00:00+00:00,AET,Final,Orlando Pirates,2700,Stellenbosch,4905,3,0,False

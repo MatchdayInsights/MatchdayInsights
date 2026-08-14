@@ -1,56 +1,56 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1557951,2026-06-20T05:00:00+00:00,FT,Cheongju Showking,21104,Yangcheon TNT,27862,3,9,True
-1557953,2026-06-20T05:00:00+00:00,FT,Yangsan United,27861,Anseong,27856,1,2,True
-1557952,2026-06-20T05:00:00+00:00,FT,Seogot,27864,Areum,27857,2,1,True
-1557954,2026-06-20T06:00:00+00:00,FT,Yeonsu Songdo,27855,Ulsan FC,27866,0,4,True
-1557955,2026-07-04T07:00:00+00:00,PEN,Jincheon,27863,Siheung Citizen,7105,1,1,False
-1557956,2026-07-04T09:00:00+00:00,FT,Changwon City,7059,Geumsan Insam,27858,3,0,True
-1557957,2026-07-04T09:00:00+00:00,FT,Pocheon,7099,Daejeon Korail,7068,2,0,True
-1557958,2026-07-04T10:00:00+00:00,FT,Gangneung City,7075,Jecheon Citizen,27860,2,0,True
-1559514,2026-07-04T10:00:00+00:00,AET,Mokpo City,7096,Anseong,27856,3,2,False
-1557961,2026-07-04T10:00:00+00:00,FT,Ulsan Citizen,7108,Chuncheon,7064,2,1,True
-1557960,2026-07-04T10:00:00+00:00,AET,Jinju Citizen,16452,Sejong SA,25720,2,1,False
-1557959,2026-07-04T10:00:00+00:00,AET,Haman,27859,Dangjin Citizen,18653,0,2,False
-1559516,2026-07-04T10:00:00+00:00,AET,Yangcheon TNT,27862,Pyeongchang United,18656,1,2,False
-1559515,2026-07-04T10:00:00+00:00,AET,Ulsan FC,27866,Yangpyeong,7111,1,5,False
-1559517,2026-07-05T09:00:00+00:00,FT,Geoje Citizen,18654,Incheon Seogot,18655,4,0,True
-1557962,2026-07-05T09:00:00+00:00,FT,Namyangju,23089,Jungnang Chorus Mustang,7092,3,1,True
-1557963,2026-07-05T10:00:00+00:00,FT,Busan Transportation,7056,Gijang United,25719,2,1,True
-1557964,2026-07-05T10:00:00+00:00,FT,Gyeongju HNP,7083,Seosan Pioneer,27865,3,0,True
-1557965,2026-07-05T10:00:00+00:00,FT,Pyeongtaek Citizen,7101,Yeoju Sejong,7112,1,3,True
-1581358,2026-07-15T10:00:00+00:00,FT,Daegu FC,2747,Siheung Citizen,7105,0,1,True
-1589346,2026-07-15T10:00:00+00:00,FT,Busan I Park,2752,Geoje Citizen,18654,4,0,True
-1581362,2026-07-15T10:00:00+00:00,FT,Suwon City FC,2756,Pyeongchang United,18656,3,2,True
-1581361,2026-07-15T10:00:00+00:00,AET,Seongnam FC,2757,Pocheon,7099,2,1,False
-1581355,2026-07-15T10:00:00+00:00,FT,Ansan Greeners,2758,Jinju Citizen,16452,0,2,True
-1557966,2026-07-15T10:00:00+00:00,FT,Jeonnam Dragons,2760,Asan Mugunghwa,2753,3,4,True
-1581837,2026-07-15T10:00:00+00:00,AET,Busan Transportation,7056,Suwon Bluewings,2765,2,1,False
-1581356,2026-07-15T10:00:00+00:00,FT,Changwon City,7059,Gimhae City,7076,1,5,True
-1581838,2026-07-15T10:00:00+00:00,FT,Cheongju,7061,Gyeongju HNP,7083,4,0,True
-1581359,2026-07-15T10:00:00+00:00,FT,Hwaseong,7087,Yangpyeong,7111,4,3,True
-1581360,2026-07-15T10:00:00+00:00,FT,Paju Citizen,7098,Gangneung City,7075,3,2,True
-1581363,2026-07-15T10:00:00+00:00,AET,Ulsan Citizen,7108,Seoul E-Land FC,2749,4,2,False
-1581364,2026-07-15T10:00:00+00:00,FT,Yongin City,9171,Dangjin Citizen,18653,0,2,True
-1581839,2026-07-15T10:00:00+00:00,FT,Namyangju,23089,Gimpo Citizen,7078,1,2,True
-1581840,2026-07-15T10:30:00+00:00,AET,Gyeongnam FC,2751,Yeoju Sejong,7112,0,1,False
-1581357,2026-07-15T10:30:00+00:00,FT,Cheonan City,7060,Mokpo City,7096,2,1,True
-1591952,2026-07-29T10:00:00+00:00,FT,Bucheon FC 1995,2745,Paju Citizen,7098,3,0,True
-1591953,2026-07-29T10:00:00+00:00,FT,Busan I Park,2752,FC Seoul,2766,2,0,True
-1591951,2026-07-29T10:00:00+00:00,FT,Asan Mugunghwa,2753,Siheung Citizen,7105,2,1,True
-1591959,2026-07-29T10:00:00+00:00,FT,Gwangju FC,2759,Cheonan City,7060,1,0,True
-1591956,2026-07-29T10:00:00+00:00,FT,Gimcheon Sangmu FC,2768,Suwon City FC,2756,2,1,True
-1591954,2026-07-29T10:00:00+00:00,PEN,Busan Transportation,7056,Jinju Citizen,16452,1,1,False
-1591958,2026-07-29T10:00:00+00:00,FT,Gimpo Citizen,7078,Incheon United,2763,1,0,True
-1591961,2026-07-29T10:00:00+00:00,FT,Ulsan Citizen,7108,Ulsan Hyundai FC,2767,1,0,True
-1591962,2026-07-29T10:00:00+00:00,FT,Yeoju Sejong,7112,Dangjin Citizen,18653,0,1,True
-1591960,2026-07-29T10:30:00+00:00,PEN,Jeju United FC,2761,Hwaseong,7087,3,3,False
-1591955,2026-07-29T10:30:00+00:00,FT,Cheongju,7061,FC Anyang,2748,1,3,True
-1591957,2026-07-29T11:00:00+00:00,FT,Gimhae City,7076,Seongnam FC,2757,0,1,True
-1607207,2026-08-19T10:00:00+00:00,NS,Gangwon FC,2746,Seongnam FC,2757,,,False
-1607203,2026-08-19T10:00:00+00:00,NS,FC Anyang,2748,Jeju United FC,2761,,,False
-1607205,2026-08-19T10:00:00+00:00,NS,Busan I Park,2752,Bucheon FC 1995,2745,,,False
-1607204,2026-08-19T10:00:00+00:00,NS,Asan Mugunghwa,2753,Daejeon Citizen,2750,,,False
-1607209,2026-08-19T10:00:00+00:00,NS,Pohang Steelers,2764,Jinju Citizen,16452,,,False
-1607208,2026-08-19T10:00:00+00:00,NS,Gimpo Citizen,7078,Gimcheon Sangmu FC,2768,,,False
-1607210,2026-08-19T10:00:00+00:00,NS,Ulsan Citizen,7108,Gwangju FC,2759,,,False
-1607206,2026-08-19T10:00:00+00:00,NS,Dangjin Citizen,18653,Jeonbuk Motors,2762,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1557951,2026-06-20T05:00:00+00:00,FT,1/128-finals,Cheongju Showking,21104,Yangcheon TNT,27862,3,9,True
+1557953,2026-06-20T05:00:00+00:00,FT,1/128-finals,Yangsan United,27861,Anseong,27856,1,2,True
+1557952,2026-06-20T05:00:00+00:00,FT,1/128-finals,Seogot,27864,Areum,27857,2,1,True
+1557954,2026-06-20T06:00:00+00:00,FT,1/128-finals,Yeonsu Songdo,27855,Ulsan FC,27866,0,4,True
+1557955,2026-07-04T07:00:00+00:00,PEN,Round of 128,Jincheon,27863,Siheung Citizen,7105,1,1,False
+1557956,2026-07-04T09:00:00+00:00,FT,Round of 128,Changwon City,7059,Geumsan Insam,27858,3,0,True
+1557957,2026-07-04T09:00:00+00:00,FT,Round of 128,Pocheon,7099,Daejeon Korail,7068,2,0,True
+1557958,2026-07-04T10:00:00+00:00,FT,Round of 128,Gangneung City,7075,Jecheon Citizen,27860,2,0,True
+1559514,2026-07-04T10:00:00+00:00,AET,Round of 128,Mokpo City,7096,Anseong,27856,3,2,False
+1557961,2026-07-04T10:00:00+00:00,FT,Round of 128,Ulsan Citizen,7108,Chuncheon,7064,2,1,True
+1557960,2026-07-04T10:00:00+00:00,AET,Round of 128,Jinju Citizen,16452,Sejong SA,25720,2,1,False
+1557959,2026-07-04T10:00:00+00:00,AET,Round of 128,Haman,27859,Dangjin Citizen,18653,0,2,False
+1559516,2026-07-04T10:00:00+00:00,AET,Round of 128,Yangcheon TNT,27862,Pyeongchang United,18656,1,2,False
+1559515,2026-07-04T10:00:00+00:00,AET,Round of 128,Ulsan FC,27866,Yangpyeong,7111,1,5,False
+1559517,2026-07-05T09:00:00+00:00,FT,Round of 128,Geoje Citizen,18654,Incheon Seogot,18655,4,0,True
+1557962,2026-07-05T09:00:00+00:00,FT,Round of 128,Namyangju,23089,Jungnang Chorus Mustang,7092,3,1,True
+1557963,2026-07-05T10:00:00+00:00,FT,Round of 128,Busan Transportation,7056,Gijang United,25719,2,1,True
+1557964,2026-07-05T10:00:00+00:00,FT,Round of 128,Gyeongju HNP,7083,Seosan Pioneer,27865,3,0,True
+1557965,2026-07-05T10:00:00+00:00,FT,Round of 128,Pyeongtaek Citizen,7101,Yeoju Sejong,7112,1,3,True
+1581358,2026-07-15T10:00:00+00:00,FT,Round of 64,Daegu FC,2747,Siheung Citizen,7105,0,1,True
+1589346,2026-07-15T10:00:00+00:00,FT,Round of 64,Busan I Park,2752,Geoje Citizen,18654,4,0,True
+1581362,2026-07-15T10:00:00+00:00,FT,Round of 64,Suwon City FC,2756,Pyeongchang United,18656,3,2,True
+1581361,2026-07-15T10:00:00+00:00,AET,Round of 64,Seongnam FC,2757,Pocheon,7099,2,1,False
+1581355,2026-07-15T10:00:00+00:00,FT,Round of 64,Ansan Greeners,2758,Jinju Citizen,16452,0,2,True
+1557966,2026-07-15T10:00:00+00:00,FT,Round of 64,Jeonnam Dragons,2760,Asan Mugunghwa,2753,3,4,True
+1581837,2026-07-15T10:00:00+00:00,AET,Round of 64,Busan Transportation,7056,Suwon Bluewings,2765,2,1,False
+1581356,2026-07-15T10:00:00+00:00,FT,Round of 64,Changwon City,7059,Gimhae City,7076,1,5,True
+1581838,2026-07-15T10:00:00+00:00,FT,Round of 64,Cheongju,7061,Gyeongju HNP,7083,4,0,True
+1581359,2026-07-15T10:00:00+00:00,FT,Round of 64,Hwaseong,7087,Yangpyeong,7111,4,3,True
+1581360,2026-07-15T10:00:00+00:00,FT,Round of 64,Paju Citizen,7098,Gangneung City,7075,3,2,True
+1581363,2026-07-15T10:00:00+00:00,AET,Round of 64,Ulsan Citizen,7108,Seoul E-Land FC,2749,4,2,False
+1581364,2026-07-15T10:00:00+00:00,FT,Round of 64,Yongin City,9171,Dangjin Citizen,18653,0,2,True
+1581839,2026-07-15T10:00:00+00:00,FT,Round of 64,Namyangju,23089,Gimpo Citizen,7078,1,2,True
+1581840,2026-07-15T10:30:00+00:00,AET,Round of 64,Gyeongnam FC,2751,Yeoju Sejong,7112,0,1,False
+1581357,2026-07-15T10:30:00+00:00,FT,Round of 64,Cheonan City,7060,Mokpo City,7096,2,1,True
+1591952,2026-07-29T10:00:00+00:00,FT,Round of 32,Bucheon FC 1995,2745,Paju Citizen,7098,3,0,True
+1591953,2026-07-29T10:00:00+00:00,FT,Round of 32,Busan I Park,2752,FC Seoul,2766,2,0,True
+1591951,2026-07-29T10:00:00+00:00,FT,Round of 32,Asan Mugunghwa,2753,Siheung Citizen,7105,2,1,True
+1591959,2026-07-29T10:00:00+00:00,FT,Round of 32,Gwangju FC,2759,Cheonan City,7060,1,0,True
+1591956,2026-07-29T10:00:00+00:00,FT,Round of 32,Gimcheon Sangmu FC,2768,Suwon City FC,2756,2,1,True
+1591954,2026-07-29T10:00:00+00:00,PEN,Round of 32,Busan Transportation,7056,Jinju Citizen,16452,1,1,False
+1591958,2026-07-29T10:00:00+00:00,FT,Round of 32,Gimpo Citizen,7078,Incheon United,2763,1,0,True
+1591961,2026-07-29T10:00:00+00:00,FT,Round of 32,Ulsan Citizen,7108,Ulsan Hyundai FC,2767,1,0,True
+1591962,2026-07-29T10:00:00+00:00,FT,Round of 32,Yeoju Sejong,7112,Dangjin Citizen,18653,0,1,True
+1591960,2026-07-29T10:30:00+00:00,PEN,Round of 32,Jeju United FC,2761,Hwaseong,7087,3,3,False
+1591955,2026-07-29T10:30:00+00:00,FT,Round of 32,Cheongju,7061,FC Anyang,2748,1,3,True
+1591957,2026-07-29T11:00:00+00:00,FT,Round of 32,Gimhae City,7076,Seongnam FC,2757,0,1,True
+1607207,2026-08-19T10:00:00+00:00,NS,Round of 16,Gangwon FC,2746,Seongnam FC,2757,,,False
+1607203,2026-08-19T10:00:00+00:00,NS,Round of 16,FC Anyang,2748,Jeju United FC,2761,,,False
+1607205,2026-08-19T10:00:00+00:00,NS,Round of 16,Busan I Park,2752,Bucheon FC 1995,2745,,,False
+1607204,2026-08-19T10:00:00+00:00,NS,Round of 16,Asan Mugunghwa,2753,Daejeon Citizen,2750,,,False
+1607209,2026-08-19T10:00:00+00:00,NS,Round of 16,Pohang Steelers,2764,Jinju Citizen,16452,,,False
+1607208,2026-08-19T10:00:00+00:00,NS,Round of 16,Gimpo Citizen,7078,Gimcheon Sangmu FC,2768,,,False
+1607210,2026-08-19T10:00:00+00:00,NS,Round of 16,Ulsan Citizen,7108,Gwangju FC,2759,,,False
+1607206,2026-08-19T10:00:00+00:00,NS,Round of 16,Dangjin Citizen,18653,Jeonbuk Motors,2762,,,False

@@ -1,0 +1,385 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+568090,2020-08-22T13:00:00+00:00,FT,Regular Season - 1,Toulouse,96,Dunkerque,1304,0,1,True
+568085,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Amiens,87,Nancy,102,1,0,True
+568088,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Guingamp,90,Niort,113,0,1,True
+568086,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Ajaccio,98,Chateauroux,107,0,1,True
+568087,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Clermont Foot,99,Caen,88,0,0,True
+568092,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Valenciennes,105,PAU,1297,3,0,True
+568084,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Auxerre,108,Sochaux,115,0,2,True
+568083,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Chambly Thelle FC,1291,Paris FC,114,0,3,True
+568091,2020-08-22T17:00:00+00:00,FT,Regular Season - 1,Rodez,1301,Grenoble,101,1,0,True
+568089,2020-08-24T18:45:00+00:00,FT,Regular Season - 1,Estac Troyes,110,Le Havre,111,2,0,True
+568096,2020-08-29T13:00:00+00:00,FT,Regular Season - 2,Caen,88,Ajaccio,98,1,0,True
+568098,2020-08-29T13:00:00+00:00,FT,Regular Season - 2,Nancy,102,Guingamp,90,2,2,True
+568093,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Grenoble,101,Toulouse,96,5,3,True
+568095,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Chateauroux,107,Auxerre,108,1,2,True
+568097,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Le Havre,111,Amiens,87,1,0,True
+568101,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Niort,113,Chambly Thelle FC,1291,1,1,True
+568100,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Paris FC,114,Valenciennes,105,1,0,True
+568102,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Sochaux,115,Estac Troyes,110,2,1,True
+568099,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,PAU,1297,Rodez,1301,1,1,True
+568094,2020-08-29T17:00:00+00:00,FT,Regular Season - 2,Dunkerque,1304,Clermont Foot,99,1,1,True
+568107,2020-09-12T13:00:00+00:00,FT,Regular Season - 3,Guingamp,90,Le Havre,111,1,3,True
+568105,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Amiens,87,Paris FC,114,1,2,True
+568112,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Valenciennes,105,Chateauroux,107,1,0,True
+568104,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Auxerre,108,Clermont Foot,99,0,1,True
+568109,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Estac Troyes,110,PAU,1297,2,0,True
+568108,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Niort,113,Nancy,102,1,0,True
+568103,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Chambly Thelle FC,1291,Grenoble,101,1,2,True
+568111,2020-09-12T17:00:00+00:00,FT,Regular Season - 3,Rodez,1301,Caen,88,0,3,True
+568110,2020-09-14T18:45:00+00:00,FT,Regular Season - 3,Toulouse,96,Sochaux,115,0,0,True
+568113,2020-09-19T13:00:00+00:00,FT,Regular Season - 4,Clermont Foot,99,Toulouse,96,1,1,True
+568115,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Caen,88,Chambly Thelle FC,1291,0,0,True
+568117,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Grenoble,101,Ajaccio,98,2,0,True
+568114,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Chateauroux,107,Amiens,87,0,0,True
+568121,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Le Havre,111,Niort,113,0,1,True
+568120,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Paris FC,114,Nancy,102,0,2,True
+568119,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Sochaux,115,Rodez,1301,2,2,True
+568118,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,PAU,1297,Guingamp,90,0,1,True
+568116,2020-09-19T17:00:00+00:00,FT,Regular Season - 4,Dunkerque,1304,Valenciennes,105,1,0,True
+568122,2020-09-21T18:45:00+00:00,FT,Regular Season - 4,Auxerre,108,Estac Troyes,110,2,1,True
+568130,2020-09-26T13:00:00+00:00,FT,Regular Season - 5,Toulouse,96,Auxerre,108,3,1,True
+568125,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Amiens,87,PAU,1297,0,0,True
+568123,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Guingamp,90,Grenoble,101,1,0,True
+568126,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Ajaccio,98,Sochaux,115,1,1,True
+568127,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Nancy,102,Le Havre,111,0,1,True
+568132,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Valenciennes,105,Caen,88,1,0,True
+568128,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Niort,113,Paris FC,114,2,2,True
+568124,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Chambly Thelle FC,1291,Chateauroux,107,2,1,True
+568131,2020-09-26T17:00:00+00:00,FT,Regular Season - 5,Rodez,1301,Dunkerque,1304,2,1,True
+568129,2020-09-28T18:45:00+00:00,FT,Regular Season - 5,Estac Troyes,110,Clermont Foot,99,1,0,True
+568106,2020-09-30T17:00:00+00:00,FT,Regular Season - 3,Ajaccio,98,Dunkerque,1304,1,0,True
+568142,2020-10-03T13:00:00+00:00,FT,Regular Season - 6,Toulouse,96,Estac Troyes,110,0,0,True
+568135,2020-10-03T13:30:00+00:00,FT,Regular Season - 6,Caen,88,Amiens,87,1,0,True
+568133,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Clermont Foot,99,Rodez,1301,3,0,True
+568138,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Grenoble,101,Valenciennes,105,2,0,True
+568134,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Chateauroux,107,Niort,113,2,0,True
+568136,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Auxerre,108,Ajaccio,98,5,1,True
+568141,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Paris FC,114,Le Havre,111,3,0,True
+568139,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Sochaux,115,Chambly Thelle FC,1291,3,2,True
+568140,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,PAU,1297,Nancy,102,1,1,True
+568137,2020-10-03T17:00:00+00:00,FT,Regular Season - 6,Dunkerque,1304,Guingamp,90,1,0,True
+568143,2020-10-16T17:00:00+00:00,FT,Regular Season - 7,Chambly Thelle FC,1291,Clermont Foot,99,0,3,True
+568149,2020-10-17T13:00:00+00:00,FT,Regular Season - 7,Valenciennes,105,Sochaux,115,0,0,True
+568144,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Amiens,87,Grenoble,101,1,0,True
+568145,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Ajaccio,98,Toulouse,96,0,1,True
+568147,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Nancy,102,Dunkerque,1304,2,1,True
+568146,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Le Havre,111,Chateauroux,107,1,1,True
+568151,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Niort,113,Caen,88,3,0,True
+568150,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Paris FC,114,PAU,1297,1,0,True
+568148,2020-10-17T17:00:00+00:00,FT,Regular Season - 7,Rodez,1301,Estac Troyes,110,0,1,True
+568152,2020-10-19T18:45:00+00:00,FT,Regular Season - 7,Guingamp,90,Auxerre,108,2,0,True
+568155,2020-10-24T13:00:00+00:00,FT,Regular Season - 8,Caen,88,Guingamp,90,1,0,True
+568159,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,Toulouse,96,Rodez,1301,3,0,True
+568153,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,Clermont Foot,99,Ajaccio,98,0,2,True
+568154,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,Chateauroux,107,Paris FC,114,1,2,True
+568156,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,Auxerre,108,Chambly Thelle FC,1291,4,0,True
+568162,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,Estac Troyes,110,Valenciennes,105,1,1,True
+568161,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,PAU,1297,Niort,113,4,1,True
+568157,2020-10-24T17:00:00+00:00,FT,Regular Season - 8,Dunkerque,1304,Le Havre,111,0,1,True
+568160,2020-10-26T19:45:00+00:00,FT,Regular Season - 8,Sochaux,115,Amiens,87,0,2,True
+568170,2020-10-31T14:00:00+00:00,FT,Regular Season - 9,Paris FC,114,Caen,88,3,1,True
+568163,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Guingamp,90,Sochaux,115,0,0,True
+568165,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Ajaccio,98,Estac Troyes,110,0,4,True
+568167,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Nancy,102,Chateauroux,107,2,1,True
+568169,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Valenciennes,105,Clermont Foot,99,1,3,True
+568166,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Le Havre,111,PAU,1297,1,0,True
+568164,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Chambly Thelle FC,1291,Dunkerque,1304,0,1,True
+568168,2020-10-31T18:00:00+00:00,FT,Regular Season - 9,Rodez,1301,Auxerre,108,2,2,True
+568172,2020-11-02T19:45:00+00:00,FT,Regular Season - 9,Amiens,87,Toulouse,96,0,1,True
+568173,2020-11-07T14:00:00+00:00,FT,Regular Season - 10,Clermont Foot,99,Guingamp,90,0,0,True
+568178,2020-11-07T14:00:00+00:00,FT,Regular Season - 10,Grenoble,101,Le Havre,111,2,1,True
+568175,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Caen,88,Nancy,102,2,1,True
+568179,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Toulouse,96,Valenciennes,105,4,5,True
+568174,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Chateauroux,107,PAU,1297,0,3,True
+568176,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Auxerre,108,Amiens,87,2,1,True
+568182,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Estac Troyes,110,Chambly Thelle FC,1291,2,2,True
+568180,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Sochaux,115,Niort,113,3,4,True
+568181,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Rodez,1301,Ajaccio,98,0,1,True
+568177,2020-11-07T18:00:00+00:00,FT,Regular Season - 10,Dunkerque,1304,Paris FC,114,0,1,True
+568192,2020-11-21T14:00:00+00:00,FT,Regular Season - 11,Le Havre,111,Caen,88,1,2,True
+568185,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,Amiens,87,Clermont Foot,99,1,1,True
+568189,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,Valenciennes,105,Rodez,1301,1,1,True
+568183,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,Chateauroux,107,Sochaux,115,2,1,True
+568191,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,Niort,113,Dunkerque,1304,1,2,True
+568190,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,Paris FC,114,Auxerre,108,0,3,True
+568184,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,Chambly Thelle FC,1291,Toulouse,96,1,1,True
+568188,2020-11-21T18:00:00+00:00,FT,Regular Season - 11,PAU,1297,Grenoble,101,0,2,True
+568186,2020-11-23T19:45:00+00:00,FT,Regular Season - 11,Guingamp,90,Ajaccio,98,2,2,True
+568158,2020-11-24T18:00:00+00:00,FT,Regular Season - 8,Grenoble,101,Nancy,102,1,0,True
+568199,2020-11-28T14:00:00+00:00,FT,Regular Season - 12,Toulouse,96,Niort,113,2,1,True
+568198,2020-11-28T14:00:00+00:00,FT,Regular Season - 12,Grenoble,101,Paris FC,114,0,0,True
+568194,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Caen,88,Chateauroux,107,1,1,True
+568196,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Ajaccio,98,Chambly Thelle FC,1291,0,0,True
+568193,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Clermont Foot,99,Nancy,102,2,0,True
+568195,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Auxerre,108,Valenciennes,105,1,1,True
+568202,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Estac Troyes,110,Amiens,87,2,1,True
+568200,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Sochaux,115,Le Havre,111,4,0,True
+568201,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Rodez,1301,Guingamp,90,1,1,True
+568197,2020-11-28T18:00:00+00:00,FT,Regular Season - 12,Dunkerque,1304,PAU,1297,2,2,True
+568206,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Amiens,87,Dunkerque,1304,1,0,True
+568203,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Guingamp,90,Estac Troyes,110,1,2,True
+568208,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Nancy,102,Toulouse,96,1,3,True
+568212,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Valenciennes,105,Ajaccio,98,1,1,True
+568204,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Chateauroux,107,Grenoble,101,0,1,True
+568207,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Le Havre,111,Auxerre,108,1,1,True
+568211,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Niort,113,Clermont Foot,99,1,0,True
+568210,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Paris FC,114,Sochaux,115,0,0,True
+568205,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,Chambly Thelle FC,1291,Rodez,1301,1,0,True
+568209,2020-12-01T18:00:00+00:00,FT,Regular Season - 13,PAU,1297,Caen,88,1,0,True
+568219,2020-12-05T14:00:00+00:00,FT,Regular Season - 14,Estac Troyes,110,Paris FC,114,2,1,True
+568214,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Caen,88,Grenoble,101,1,1,True
+568218,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Toulouse,96,Guingamp,90,2,2,True
+568216,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Clermont Foot,99,PAU,1297,3,0,True
+568215,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Auxerre,108,Niort,113,6,0,True
+568220,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Sochaux,115,Nancy,102,1,1,True
+568213,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Chambly Thelle FC,1291,Valenciennes,105,1,2,True
+568221,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Rodez,1301,Amiens,87,1,2,True
+568217,2020-12-05T18:00:00+00:00,FT,Regular Season - 14,Dunkerque,1304,Chateauroux,107,2,0,True
+568222,2020-12-07T19:45:00+00:00,FT,Regular Season - 14,Ajaccio,98,Le Havre,111,1,1,True
+568225,2020-12-12T14:00:00+00:00,FT,Regular Season - 15,Caen,88,Estac Troyes,110,0,0,True
+568226,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Amiens,87,Chambly Thelle FC,1291,1,1,True
+568227,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Guingamp,90,Valenciennes,105,1,1,True
+568223,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Grenoble,101,Dunkerque,1304,4,0,True
+568231,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Nancy,102,Auxerre,108,2,2,True
+568224,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Chateauroux,107,Toulouse,96,0,3,True
+568230,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Niort,113,Ajaccio,98,2,0,True
+568229,2020-12-12T18:00:00+00:00,FT,Regular Season - 15,Paris FC,114,Rodez,1301,1,1,True
+568228,2020-12-14T19:45:00+00:00,FT,Regular Season - 15,Le Havre,111,Clermont Foot,99,0,0,True
+568187,2020-12-15T19:00:00+00:00,FT,Regular Season - 11,Nancy,102,Estac Troyes,110,2,3,True
+568171,2020-12-15T19:00:00+00:00,FT,Regular Season - 9,Niort,113,Grenoble,101,0,0,True
+568232,2020-12-15T19:00:00+00:00,FT,Regular Season - 15,PAU,1297,Sochaux,115,0,0,True
+568236,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Ajaccio,98,Nancy,102,1,0,True
+568242,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Valenciennes,105,Amiens,87,0,2,True
+568235,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Auxerre,108,PAU,1297,2,1,True
+568239,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Estac Troyes,110,Niort,113,1,0,True
+568241,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Sochaux,115,Grenoble,101,1,1,True
+568234,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Chambly Thelle FC,1291,Guingamp,90,3,0,True
+568238,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Rodez,1301,Chateauroux,107,1,1,True
+568237,2020-12-18T19:00:00+00:00,FT,Regular Season - 16,Dunkerque,1304,Caen,88,2,3,True
+568240,2020-12-19T14:00:00+00:00,FT,Regular Season - 16,Toulouse,96,Le Havre,111,4,3,True
+568233,2020-12-19T14:00:00+00:00,FT,Regular Season - 16,Clermont Foot,99,Paris FC,114,3,2,True
+568246,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Amiens,87,Ajaccio,98,0,0,True
+568245,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Caen,88,Sochaux,115,1,4,True
+568247,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Grenoble,101,Estac Troyes,110,2,0,True
+568251,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Nancy,102,Chambly Thelle FC,1291,3,3,True
+568244,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Chateauroux,107,Clermont Foot,99,0,1,True
+568248,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Le Havre,111,Rodez,1301,1,1,True
+568250,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Niort,113,Valenciennes,105,0,3,True
+568249,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Paris FC,114,Guingamp,90,3,2,True
+568252,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,PAU,1297,Toulouse,96,0,3,True
+568243,2020-12-22T19:00:00+00:00,FT,Regular Season - 17,Dunkerque,1304,Auxerre,108,0,1,True
+568257,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Guingamp,90,Amiens,87,2,2,True
+568260,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Toulouse,96,Paris FC,114,1,0,True
+568256,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Ajaccio,98,PAU,1297,4,1,True
+568253,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Clermont Foot,99,Grenoble,101,3,0,True
+568262,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Valenciennes,105,Nancy,102,2,3,True
+568255,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Auxerre,108,Caen,88,1,1,True
+568259,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Estac Troyes,110,Chateauroux,107,2,0,True
+568261,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Sochaux,115,Dunkerque,1304,1,0,True
+568254,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Chambly Thelle FC,1291,Le Havre,111,0,1,True
+568258,2021-01-05T19:00:00+00:00,FT,Regular Season - 18,Rodez,1301,Niort,113,1,1,True
+568267,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Nancy,102,Rodez,1301,2,2,True
+568265,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Chateauroux,107,Guingamp,90,2,3,True
+568266,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Le Havre,111,Valenciennes,105,0,2,True
+568271,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Niort,113,Amiens,87,0,2,True
+568270,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Paris FC,114,Ajaccio,98,1,1,True
+568269,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Sochaux,115,Clermont Foot,99,0,0,True
+568268,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,PAU,1297,Chambly Thelle FC,1291,1,3,True
+568264,2021-01-08T19:00:00+00:00,FT,Regular Season - 19,Dunkerque,1304,Estac Troyes,110,0,0,True
+568263,2021-01-09T14:00:00+00:00,FT,Regular Season - 19,Grenoble,101,Auxerre,108,2,2,True
+568272,2021-01-11T19:45:00+00:00,FT,Regular Season - 19,Caen,88,Toulouse,96,2,2,True
+568280,2021-01-16T14:00:00+00:00,FT,Regular Season - 20,Toulouse,96,Grenoble,101,2,0,True
+568279,2021-01-16T14:00:00+00:00,FT,Regular Season - 20,Estac Troyes,110,Sochaux,115,2,1,True
+568275,2021-01-16T18:00:00+00:00,FT,Regular Season - 20,Amiens,87,Le Havre,111,0,0,True
+568278,2021-01-16T18:00:00+00:00,FT,Regular Season - 20,Guingamp,90,Nancy,102,0,0,True
+568276,2021-01-16T18:00:00+00:00,FT,Regular Season - 20,Ajaccio,98,Caen,88,1,0,True
+568277,2021-01-16T18:00:00+00:00,FT,Regular Season - 20,Clermont Foot,99,Dunkerque,1304,5,0,True
+568274,2021-01-16T18:00:00+00:00,FT,Regular Season - 20,Auxerre,108,Chateauroux,107,4,1,True
+568281,2021-01-16T18:00:00+00:00,FT,Regular Season - 20,Rodez,1301,PAU,1297,1,0,True
+568284,2021-01-23T14:00:00+00:00,FT,Regular Season - 21,Clermont Foot,99,Auxerre,108,1,0,True
+568286,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Caen,88,Rodez,1301,1,2,True
+568287,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Grenoble,101,Chambly Thelle FC,1291,2,0,True
+568291,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Nancy,102,Niort,113,2,2,True
+568285,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Chateauroux,107,Valenciennes,105,3,3,True
+568288,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Le Havre,111,Guingamp,90,1,1,True
+568290,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Paris FC,114,Amiens,87,4,2,True
+568289,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,PAU,1297,Estac Troyes,110,0,1,True
+568283,2021-01-23T18:00:00+00:00,FT,Regular Season - 21,Dunkerque,1304,Ajaccio,98,3,1,True
+568292,2021-01-25T19:45:00+00:00,FT,Regular Season - 21,Sochaux,115,Toulouse,96,0,1,True
+568282,2021-01-26T18:00:00+00:00,FT,Regular Season - 20,Valenciennes,105,Paris FC,114,2,0,True
+568273,2021-01-27T18:00:00+00:00,FT,Regular Season - 20,Chambly Thelle FC,1291,Niort,113,1,1,True
+568300,2021-01-30T14:00:00+00:00,FT,Regular Season - 22,Toulouse,96,Clermont Foot,99,3,2,True
+568299,2021-01-30T14:00:00+00:00,FT,Regular Season - 22,Estac Troyes,110,Auxerre,108,3,1,True
+568295,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Amiens,87,Chateauroux,107,1,0,True
+568293,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Guingamp,90,PAU,1297,2,3,True
+568296,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Ajaccio,98,Grenoble,101,2,1,True
+568297,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Nancy,102,Paris FC,114,1,1,True
+568302,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Valenciennes,105,Dunkerque,1304,1,0,True
+568298,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Niort,113,Le Havre,111,0,0,True
+568294,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Chambly Thelle FC,1291,Caen,88,4,2,True
+568301,2021-01-30T18:00:00+00:00,FT,Regular Season - 22,Rodez,1301,Sochaux,115,1,1,True
+568305,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Caen,88,Valenciennes,105,1,1,True
+568303,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Clermont Foot,99,Estac Troyes,110,2,1,True
+568308,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Grenoble,101,Guingamp,90,2,1,True
+568304,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Chateauroux,107,Chambly Thelle FC,1291,4,0,True
+568306,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Auxerre,108,Toulouse,96,3,1,True
+568311,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Le Havre,111,Nancy,102,1,1,True
+568310,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Paris FC,114,Niort,113,3,3,True
+568312,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Sochaux,115,Ajaccio,98,0,2,True
+568309,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,PAU,1297,Amiens,87,2,0,True
+568307,2021-02-02T19:00:00+00:00,FT,Regular Season - 23,Dunkerque,1304,Rodez,1301,0,0,True
+568315,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Amiens,87,Caen,88,0,0,True
+568313,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Guingamp,90,Dunkerque,1304,0,0,True
+568316,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Ajaccio,98,Auxerre,108,0,0,True
+568318,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Nancy,102,PAU,1297,1,0,True
+568322,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Valenciennes,105,Grenoble,101,0,1,True
+568321,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Niort,113,Chateauroux,107,1,1,True
+568314,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Chambly Thelle FC,1291,Sochaux,115,1,4,True
+568320,2021-02-05T19:00:00+00:00,FT,Regular Season - 24,Rodez,1301,Clermont Foot,99,2,0,True
+568319,2021-02-06T14:00:00+00:00,FT,Regular Season - 24,Estac Troyes,110,Toulouse,96,1,1,True
+568317,2021-02-06T14:00:00+00:00,FT,Regular Season - 24,Le Havre,111,Paris FC,114,1,0,True
+568326,2021-02-13T14:00:00+00:00,FT,Regular Season - 25,Auxerre,108,Guingamp,90,1,1,True
+568325,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,Caen,88,Niort,113,1,0,True
+568323,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,Clermont Foot,99,Chambly Thelle FC,1291,1,0,True
+568328,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,Grenoble,101,Amiens,87,0,0,True
+568324,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,Chateauroux,107,Le Havre,111,0,1,True
+568332,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,Estac Troyes,110,Rodez,1301,2,1,True
+568331,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,PAU,1297,Paris FC,114,1,1,True
+568327,2021-02-13T18:00:00+00:00,FT,Regular Season - 25,Dunkerque,1304,Nancy,102,1,2,True
+568330,2021-02-15T17:45:00+00:00,FT,Regular Season - 25,Sochaux,115,Valenciennes,105,2,0,True
+568329,2021-02-15T19:45:00+00:00,FT,Regular Season - 25,Toulouse,96,Ajaccio,98,3,0,True
+568339,2021-02-20T14:00:00+00:00,FT,Regular Season - 26,Valenciennes,105,Estac Troyes,110,2,2,True
+568334,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Amiens,87,Sochaux,115,0,1,True
+568335,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Ajaccio,98,Clermont Foot,99,0,2,True
+568337,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Nancy,102,Grenoble,101,1,2,True
+568336,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Le Havre,111,Dunkerque,1304,1,1,True
+568341,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Niort,113,PAU,1297,2,1,True
+568340,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Paris FC,114,Chateauroux,107,1,0,True
+568333,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Chambly Thelle FC,1291,Auxerre,108,0,1,True
+568338,2021-02-20T18:00:00+00:00,FT,Regular Season - 26,Rodez,1301,Toulouse,96,1,0,True
+568342,2021-02-22T19:45:00+00:00,FT,Regular Season - 26,Guingamp,90,Caen,88,2,2,True
+568349,2021-02-27T14:00:00+00:00,FT,Regular Season - 27,Toulouse,96,Amiens,87,3,0,True
+568352,2021-02-27T14:00:00+00:00,FT,Regular Season - 27,Estac Troyes,110,Ajaccio,98,1,0,True
+568345,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Caen,88,Paris FC,114,0,2,True
+568343,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Clermont Foot,99,Valenciennes,105,4,0,True
+568348,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Grenoble,101,Niort,113,1,1,True
+568344,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Chateauroux,107,Nancy,102,1,4,True
+568346,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Auxerre,108,Rodez,1301,0,1,True
+568350,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Sochaux,115,Guingamp,90,0,0,True
+568351,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,PAU,1297,Le Havre,111,2,0,True
+568347,2021-02-27T18:00:00+00:00,FT,Regular Season - 27,Dunkerque,1304,Chambly Thelle FC,1291,1,1,True
+568355,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Amiens,87,Auxerre,108,1,1,True
+568353,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Guingamp,90,Clermont Foot,99,0,5,True
+568356,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Ajaccio,98,Rodez,1301,1,0,True
+568358,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Nancy,102,Caen,88,1,0,True
+568362,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Valenciennes,105,Toulouse,96,1,0,True
+568357,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Le Havre,111,Grenoble,101,0,2,True
+568361,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Niort,113,Sochaux,115,1,3,True
+568360,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Paris FC,114,Dunkerque,1304,1,0,True
+568354,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,Chambly Thelle FC,1291,Estac Troyes,110,0,3,True
+568359,2021-03-02T19:00:00+00:00,FT,Regular Season - 28,PAU,1297,Chateauroux,107,1,0,True
+568364,2021-03-13T14:00:00+00:00,FT,Regular Season - 29,Auxerre,108,Paris FC,114,0,0,True
+568368,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Toulouse,96,Chambly Thelle FC,1291,4,0,True
+568365,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Ajaccio,98,Guingamp,90,0,2,True
+568367,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Grenoble,101,PAU,1297,1,1,True
+568369,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Estac Troyes,110,Nancy,102,1,5,True
+568370,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Sochaux,115,Chateauroux,107,0,0,True
+568371,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Rodez,1301,Valenciennes,105,3,0,True
+568366,2021-03-13T19:00:00+00:00,FT,Regular Season - 29,Dunkerque,1304,Niort,113,2,0,True
+568372,2021-03-15T19:45:00+00:00,FT,Regular Season - 29,Caen,88,Le Havre,111,0,2,True
+568375,2021-03-19T18:00:00+00:00,FT,Regular Season - 30,Chambly Thelle FC,1291,Ajaccio,98,2,1,True
+568376,2021-03-20T14:00:00+00:00,FT,Regular Season - 30,Amiens,87,Estac Troyes,110,3,1,True
+568373,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Guingamp,90,Rodez,1301,1,1,True
+568378,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Nancy,102,Clermont Foot,99,1,0,True
+568382,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Valenciennes,105,Auxerre,108,2,2,True
+568374,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Chateauroux,107,Caen,88,2,2,True
+568377,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Le Havre,111,Sochaux,115,0,2,True
+568381,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Niort,113,Toulouse,96,1,0,True
+568380,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,Paris FC,114,Grenoble,101,2,0,True
+568379,2021-03-20T19:00:00+00:00,FT,Regular Season - 30,PAU,1297,Dunkerque,1304,3,1,True
+568389,2021-04-03T13:00:00+00:00,FT,Regular Season - 31,Toulouse,96,Nancy,102,4,1,True
+568384,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Caen,88,PAU,1297,1,1,True
+568386,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Ajaccio,98,Valenciennes,105,3,0,True
+568383,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Clermont Foot,99,Niort,113,0,0,True
+568388,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Grenoble,101,Chateauroux,107,2,2,True
+568392,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Estac Troyes,110,Guingamp,90,1,0,True
+568390,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Sochaux,115,Paris FC,114,1,2,True
+568391,2021-04-03T18:00:00+00:00,FT,Regular Season - 31,Rodez,1301,Chambly Thelle FC,1291,2,2,True
+568385,2021-04-05T18:45:00+00:00,FT,Regular Season - 31,Auxerre,108,Le Havre,111,1,1,True
+568400,2021-04-10T13:00:00+00:00,FT,Regular Season - 32,Paris FC,114,Estac Troyes,110,1,1,True
+568393,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,Grenoble,101,Caen,88,3,1,True
+568397,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,Nancy,102,Sochaux,115,0,0,True
+568399,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,Valenciennes,105,Chambly Thelle FC,1291,2,1,True
+568394,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,Chateauroux,107,Dunkerque,1304,1,2,True
+568396,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,Le Havre,111,Ajaccio,98,1,1,True
+568401,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,Niort,113,Auxerre,108,0,4,True
+568398,2021-04-10T18:00:00+00:00,FT,Regular Season - 32,PAU,1297,Clermont Foot,99,2,1,True
+568395,2021-04-11T17:00:00+00:00,FT,Regular Season - 32,Amiens,87,Rodez,1301,1,0,True
+568402,2021-04-12T18:45:00+00:00,FT,Regular Season - 32,Guingamp,90,Toulouse,96,1,1,True
+568363,2021-04-14T17:00:00+00:00,FT,Regular Season - 29,Clermont Foot,99,Amiens,87,3,0,True
+568403,2021-04-17T13:00:00+00:00,FT,Regular Season - 33,Clermont Foot,99,Le Havre,111,1,1,True
+568409,2021-04-17T13:00:00+00:00,FT,Regular Season - 33,Estac Troyes,110,Caen,88,1,0,True
+568410,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Toulouse,96,Chateauroux,107,1,0,True
+568406,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Ajaccio,98,Niort,113,3,0,True
+568412,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Valenciennes,105,Guingamp,90,0,1,True
+568405,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Auxerre,108,Nancy,102,3,2,True
+568411,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Sochaux,115,PAU,1297,1,1,True
+568404,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Chambly Thelle FC,1291,Amiens,87,2,0,True
+568408,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Rodez,1301,Paris FC,114,2,2,True
+568407,2021-04-17T18:00:00+00:00,FT,Regular Season - 33,Dunkerque,1304,Grenoble,101,1,1,True
+568416,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Amiens,87,Valenciennes,105,3,1,True
+568415,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Caen,88,Dunkerque,1304,1,1,True
+568417,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Guingamp,90,Chambly Thelle FC,1291,1,0,True
+568413,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Grenoble,101,Sochaux,115,2,0,True
+568421,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Nancy,102,Ajaccio,98,2,0,True
+568414,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Chateauroux,107,Rodez,1301,1,1,True
+568420,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Niort,113,Estac Troyes,110,0,3,True
+568419,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,Paris FC,114,Clermont Foot,99,0,1,True
+568422,2021-04-20T18:00:00+00:00,FT,Regular Season - 34,PAU,1297,Auxerre,108,3,0,True
+568429,2021-04-24T13:00:00+00:00,FT,Regular Season - 35,Estac Troyes,110,Grenoble,101,3,1,True
+568427,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Guingamp,90,Paris FC,114,0,0,True
+568426,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Ajaccio,98,Amiens,87,2,2,True
+568432,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Valenciennes,105,Niort,113,1,1,True
+568425,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Auxerre,108,Dunkerque,1304,2,1,True
+568431,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Sochaux,115,Caen,88,1,0,True
+568424,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Chambly Thelle FC,1291,Nancy,102,1,1,True
+568428,2021-04-24T18:00:00+00:00,FT,Regular Season - 35,Rodez,1301,Le Havre,111,1,1,True
+568423,2021-04-26T18:45:00+00:00,FT,Regular Season - 35,Clermont Foot,99,Chateauroux,107,2,1,True
+568387,2021-04-28T17:00:00+00:00,FT,Regular Season - 31,Dunkerque,1304,Amiens,87,1,1,True
+568438,2021-05-01T13:00:00+00:00,FT,Regular Season - 36,Paris FC,114,Toulouse,96,3,1,True
+568442,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Amiens,87,Guingamp,90,0,3,True
+568435,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Caen,88,Auxerre,108,0,0,True
+568441,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Nancy,102,Valenciennes,105,1,3,True
+568434,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Chateauroux,107,Estac Troyes,110,1,2,True
+568437,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Le Havre,111,Chambly Thelle FC,1291,2,4,True
+568440,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Niort,113,Rodez,1301,1,1,True
+568439,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,PAU,1297,Ajaccio,98,0,0,True
+568433,2021-05-01T18:00:00+00:00,FT,Regular Season - 36,Dunkerque,1304,Sochaux,115,1,0,True
+568436,2021-05-03T18:45:00+00:00,FT,Regular Season - 36,Grenoble,101,Clermont Foot,99,1,2,True
+568418,2021-05-04T17:00:00+00:00,FT,Regular Season - 34,Le Havre,111,Toulouse,96,0,1,True
+568445,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Amiens,87,Niort,113,0,0,True
+568448,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Guingamp,90,Chateauroux,107,2,0,True
+568450,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Toulouse,96,Caen,88,3,0,True
+568446,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Ajaccio,98,Paris FC,114,1,1,True
+568447,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Clermont Foot,99,Sochaux,115,3,1,True
+568452,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Valenciennes,105,Le Havre,111,3,5,True
+568444,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Auxerre,108,Grenoble,101,1,1,True
+568449,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Estac Troyes,110,Dunkerque,1304,2,0,True
+568443,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Chambly Thelle FC,1291,PAU,1297,1,0,True
+568451,2021-05-08T18:00:00+00:00,FT,Regular Season - 37,Rodez,1301,Nancy,102,1,1,True
+568430,2021-05-12T17:00:00+00:00,FT,Regular Season - 35,Toulouse,96,PAU,1297,2,2,True
+568456,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Caen,88,Clermont Foot,99,2,1,True
+568453,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Grenoble,101,Rodez,1301,1,0,True
+568458,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Nancy,102,Amiens,87,2,2,True
+568455,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Chateauroux,107,Ajaccio,98,0,0,True
+568457,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Le Havre,111,Estac Troyes,110,3,2,True
+568461,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Niort,113,Guingamp,90,0,2,True
+568460,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Paris FC,114,Chambly Thelle FC,1291,3,0,True
+568462,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Sochaux,115,Auxerre,108,2,3,True
+568459,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,PAU,1297,Valenciennes,105,4,3,True
+568454,2021-05-15T18:00:00+00:00,FT,Regular Season - 38,Dunkerque,1304,Toulouse,96,3,3,True
+704520,2021-05-18T18:45:00+00:00,FT,Promotion Play-offs - 1st Round,Grenoble,101,Paris FC,114,2,0,True
+704929,2021-05-19T17:00:00+00:00,FT,Relegation Round,Villefranche,1302,Niort,113,3,1,True
+704928,2021-05-21T18:45:00+00:00,FT,Promotion Play-offs - 2nd Round,Toulouse,96,Grenoble,101,3,0,True
+704930,2021-05-22T18:45:00+00:00,FT,Relegation Round,Niort,113,Villefranche,1302,2,0,True

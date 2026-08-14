@@ -1,16 +1,16 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1372583,2025-04-20T14:30:00+00:00,CANC,ATK Mohun Bagan,15516,Churchill Brothers,3462,,,False
-1372582,2025-04-20T14:30:00+00:00,FT,Kerala Blasters,3477,East Bengal,3463,2,0,True
-1372584,2025-04-21T11:00:00+00:00,FT,Goa,3475,Gokulam,3464,3,0,True
-1372585,2025-04-21T14:30:00+00:00,FT,Odisha,7177,Minerva Punjab,3466,0,3,True
-1372586,2025-04-23T11:00:00+00:00,PEN,Bengaluru,3472,Inter Kashi,22595,1,1,False
-1372587,2025-04-23T14:30:00+00:00,FT,Mumbai City,3478,Chennaiyin,3473,4,0,True
-1372588,2025-04-24T11:00:00+00:00,FT,NorthEast United,3479,Mohammedan,15585,6,0,True
-1372589,2025-04-24T14:30:00+00:00,FT,Jamshedpur,3476,Hyderabad,7763,2,0,True
-1372590,2025-04-26T11:00:00+00:00,FT,Kerala Blasters,3477,ATK Mohun Bagan,15516,1,2,True
-1372591,2025-04-26T14:30:00+00:00,FT,Goa,3475,Minerva Punjab,3466,2,1,True
-1372920,2025-04-27T11:00:00+00:00,FT,Inter Kashi,22595,Mumbai City,3478,0,1,True
-1372921,2025-04-27T14:30:00+00:00,PEN,NorthEast United,3479,Jamshedpur,3476,0,0,False
-1373090,2025-04-30T11:00:00+00:00,FT,ATK Mohun Bagan,15516,Goa,3475,1,3,True
-1373091,2025-04-30T14:30:00+00:00,FT,Mumbai City,3478,Jamshedpur,3476,0,1,True
-1373629,2025-05-03T14:00:00+00:00,FT,Goa,3475,Jamshedpur,3476,3,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1372583,2025-04-20T14:30:00+00:00,CANC,Round of 16,ATK Mohun Bagan,15516,Churchill Brothers,3462,,,False
+1372582,2025-04-20T14:30:00+00:00,FT,Round of 16,Kerala Blasters,3477,East Bengal,3463,2,0,True
+1372584,2025-04-21T11:00:00+00:00,FT,Round of 16,Goa,3475,Gokulam,3464,3,0,True
+1372585,2025-04-21T14:30:00+00:00,FT,Round of 16,Odisha,7177,Minerva Punjab,3466,0,3,True
+1372586,2025-04-23T11:00:00+00:00,PEN,Round of 16,Bengaluru,3472,Inter Kashi,22595,1,1,False
+1372587,2025-04-23T14:30:00+00:00,FT,Round of 16,Mumbai City,3478,Chennaiyin,3473,4,0,True
+1372588,2025-04-24T11:00:00+00:00,FT,Round of 16,NorthEast United,3479,Mohammedan,15585,6,0,True
+1372589,2025-04-24T14:30:00+00:00,FT,Round of 16,Jamshedpur,3476,Hyderabad,7763,2,0,True
+1372590,2025-04-26T11:00:00+00:00,FT,Quarter-finals,Kerala Blasters,3477,ATK Mohun Bagan,15516,1,2,True
+1372591,2025-04-26T14:30:00+00:00,FT,Quarter-finals,Goa,3475,Minerva Punjab,3466,2,1,True
+1372920,2025-04-27T11:00:00+00:00,FT,Quarter-finals,Inter Kashi,22595,Mumbai City,3478,0,1,True
+1372921,2025-04-27T14:30:00+00:00,PEN,Quarter-finals,NorthEast United,3479,Jamshedpur,3476,0,0,False
+1373090,2025-04-30T11:00:00+00:00,FT,Semi-finals,ATK Mohun Bagan,15516,Goa,3475,1,3,True
+1373091,2025-04-30T14:30:00+00:00,FT,Semi-finals,Mumbai City,3478,Jamshedpur,3476,0,1,True
+1373629,2025-05-03T14:00:00+00:00,FT,Final,Goa,3475,Jamshedpur,3476,3,0,True

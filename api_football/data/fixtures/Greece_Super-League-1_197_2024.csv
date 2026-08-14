@@ -1,125 +1,237 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1250615,2025-01-04T15:00:00+00:00,FT,Kallithea,2095,Lamia,956,2,1,True
-1250619,2025-01-05T13:00:00+00:00,FT,Levadiakos,957,Panserraikos,2099,1,0,True
-1250616,2025-01-05T14:30:00+00:00,FT,Aris Thessalonikis,1123,OFI,1124,0,2,True
-1250618,2025-01-05T15:00:00+00:00,FT,Volos NFC,2110,AEK Athens FC,575,2,4,True
-1250617,2025-01-05T17:30:00+00:00,FT,Atromitos,12260,Asteras Tripolis,955,0,1,True
-1250620,2025-01-05T18:30:00+00:00,FT,Panathinaikos,617,PAOK,619,2,1,True
-1250621,2025-01-06T16:00:00+00:00,FT,Panetolikos,949,Olympiakos Piraeus,553,0,2,True
-1250624,2025-01-11T18:30:00+00:00,FT,Olympiakos Piraeus,553,Aris Thessalonikis,1123,2,1,True
-1250626,2025-01-12T14:30:00+00:00,FT,Panserraikos,2099,Panathinaikos,617,2,2,True
-1250628,2025-01-12T15:00:00+00:00,FT,Lamia,956,Atromitos,12260,0,3,True
-1250627,2025-01-12T17:30:00+00:00,FT,PAOK,619,Volos NFC,2110,1,2,True
-1250622,2025-01-12T18:30:00+00:00,FT,AEK Athens FC,575,Kallithea,2095,2,0,True
-1250623,2025-01-13T16:00:00+00:00,FT,Asteras Tripolis,955,Panetolikos,949,2,0,True
-1250625,2025-01-13T16:00:00+00:00,FT,OFI,1124,Levadiakos,957,0,0,True
-1250629,2025-01-18T15:00:00+00:00,FT,Kallithea,2095,Volos NFC,2110,2,0,True
-1250631,2025-01-19T13:00:00+00:00,FT,Atromitos,12260,Olympiakos Piraeus,553,1,2,True
-1250634,2025-01-19T14:30:00+00:00,FT,Panetolikos,949,OFI,1124,1,0,True
-1250632,2025-01-19T14:30:00+00:00,FT,Levadiakos,957,Asteras Tripolis,955,1,2,True
-1250630,2025-01-19T17:00:00+00:00,FT,Aris Thessalonikis,1123,PAOK,619,0,0,True
-1250633,2025-01-19T18:30:00+00:00,FT,Panathinaikos,617,AEK Athens FC,575,1,0,True
-1250635,2025-01-20T16:00:00+00:00,FT,Panserraikos,2099,Lamia,956,2,0,True
-1250638,2025-01-24T18:00:00+00:00,FT,Volos NFC,2110,Atromitos,12260,0,1,True
-1250637,2025-01-25T15:00:00+00:00,FT,Asteras Tripolis,955,Kallithea,2095,1,0,True
-1250640,2025-01-25T15:00:00+00:00,FT,OFI,1124,Panserraikos,2099,3,2,True
-1250636,2025-01-25T18:00:00+00:00,FT,AEK Athens FC,575,Panetolikos,949,1,0,True
-1250642,2025-01-26T15:00:00+00:00,FT,Lamia,956,Aris Thessalonikis,1123,0,2,True
-1250641,2025-01-26T17:30:00+00:00,FT,PAOK,619,Levadiakos,957,1,0,True
-1250639,2025-01-26T18:30:00+00:00,FT,Olympiakos Piraeus,553,Panathinaikos,617,1,1,True
-1250646,2025-02-01T16:00:00+00:00,FT,Panathinaikos,617,OFI,1124,3,2,True
-1250648,2025-02-01T17:30:00+00:00,FT,Panserraikos,2099,Volos NFC,2110,1,1,True
-1250645,2025-02-02T14:30:00+00:00,FT,Levadiakos,957,Olympiakos Piraeus,553,0,1,True
-1250644,2025-02-02T15:00:00+00:00,FT,Kallithea,2095,Aris Thessalonikis,1123,0,1,True
-1250649,2025-02-02T17:30:00+00:00,FT,PAOK,619,AEK Athens FC,575,1,2,True
-1250647,2025-02-02T18:30:00+00:00,FT,Panetolikos,949,Atromitos,12260,0,1,True
-1250643,2025-02-03T16:00:00+00:00,FT,Asteras Tripolis,955,Lamia,956,1,0,True
-1250653,2025-02-08T15:00:00+00:00,FT,Volos NFC,2110,Panetolikos,949,0,1,True
-1250655,2025-02-08T18:00:00+00:00,FT,OFI,1124,PAOK,619,0,5,True
-1250654,2025-02-09T15:00:00+00:00,FT,Olympiakos Piraeus,553,Asteras Tripolis,955,1,1,True
-1250651,2025-02-09T17:30:00+00:00,FT,Aris Thessalonikis,1123,Panathinaikos,617,2,0,True
-1250650,2025-02-09T18:30:00+00:00,FT,AEK Athens FC,575,Panserraikos,2099,5,0,True
-1250656,2025-02-10T16:00:00+00:00,FT,Lamia,956,Levadiakos,957,0,2,True
-1250652,2025-02-10T16:00:00+00:00,FT,Atromitos,12260,Kallithea,2095,1,2,True
-1250659,2025-02-15T15:00:00+00:00,FT,OFI,1124,Asteras Tripolis,955,2,1,True
-1250657,2025-02-15T18:00:00+00:00,FT,AEK Athens FC,575,Atromitos,12260,2,1,True
-1250658,2025-02-16T13:00:00+00:00,FT,Levadiakos,957,Aris Thessalonikis,1123,4,1,True
-1250660,2025-02-16T15:00:00+00:00,FT,Panathinaikos,617,Volos NFC,2110,2,1,True
-1250662,2025-02-16T15:00:00+00:00,FT,Panserraikos,2099,Olympiakos Piraeus,553,0,4,True
-1250663,2025-02-16T18:00:00+00:00,FT,PAOK,619,Lamia,956,7,0,True
-1250661,2025-02-16T18:30:00+00:00,FT,Panetolikos,949,Kallithea,2095,2,0,True
-1250665,2025-02-22T15:00:00+00:00,FT,Kallithea,2095,OFI,1124,1,3,True
-1250667,2025-02-22T17:30:00+00:00,FT,Atromitos,12260,Panserraikos,2099,1,0,True
-1250668,2025-02-22T18:00:00+00:00,FT,Volos NFC,2110,Levadiakos,957,1,2,True
-1250666,2025-02-23T14:30:00+00:00,FT,Aris Thessalonikis,1123,Panetolikos,949,2,1,True
-1250670,2025-02-23T15:00:00+00:00,FT,Lamia,956,Panathinaikos,617,3,1,True
-1250664,2025-02-23T17:30:00+00:00,FT,Asteras Tripolis,955,AEK Athens FC,575,0,3,True
-1250669,2025-02-23T18:30:00+00:00,FT,Olympiakos Piraeus,553,PAOK,619,2,1,True
-1250676,2025-03-01T15:00:00+00:00,FT,Panserraikos,2099,Kallithea,2095,2,1,True
-1250672,2025-03-01T15:00:00+00:00,FT,Volos NFC,2110,Aris Thessalonikis,1123,1,1,True
-1250675,2025-03-01T18:00:00+00:00,FT,Panathinaikos,617,Panetolikos,949,2,0,True
-1250673,2025-03-02T14:30:00+00:00,FT,Levadiakos,957,Atromitos,12260,1,2,True
-1250674,2025-03-02T15:00:00+00:00,FT,OFI,1124,Lamia,956,3,0,True
-1250677,2025-03-02T17:30:00+00:00,FT,PAOK,619,Asteras Tripolis,955,2,0,True
-1250671,2025-03-02T18:30:00+00:00,FT,AEK Athens FC,575,Olympiakos Piraeus,553,0,1,True
-1250682,2025-03-09T17:00:00+00:00,FT,Olympiakos Piraeus,553,OFI,1124,1,0,True
-1250683,2025-03-09T17:00:00+00:00,FT,Panetolikos,949,Levadiakos,957,0,0,True
-1250678,2025-03-09T17:00:00+00:00,FT,Asteras Tripolis,955,Panserraikos,2099,1,2,True
-1250684,2025-03-09T17:00:00+00:00,FT,Lamia,956,Volos NFC,2110,1,0,True
-1250680,2025-03-09T17:00:00+00:00,FT,Aris Thessalonikis,1123,AEK Athens FC,575,0,0,True
-1250679,2025-03-09T17:00:00+00:00,FT,Kallithea,2095,PAOK,619,2,1,True
-1250681,2025-03-09T17:00:00+00:00,FT,Atromitos,12260,Panathinaikos,617,1,1,True
-1360708,2025-03-29T14:30:00+00:00,FT,OFI,1124,Atromitos,12260,1,2,True
-1360720,2025-03-29T16:30:00+00:00,FT,Kallithea,2095,Volos NFC,2110,1,1,True
-1360709,2025-03-29T17:30:00+00:00,FT,Asteras Tripolis,955,Aris Thessalonikis,1123,0,2,True
-1360721,2025-03-29T18:30:00+00:00,FT,Panetolikos,949,Levadiakos,957,1,2,True
-1360722,2025-03-30T14:00:00+00:00,FT,Panserraikos,2099,Lamia,956,1,1,True
-1360696,2025-03-30T16:00:00+00:00,FT,AEK Athens FC,575,PAOK,619,2,3,True
-1360697,2025-03-30T18:00:00+00:00,FT,Olympiakos Piraeus,553,Panathinaikos,617,4,2,True
-1360723,2025-04-05T14:00:00+00:00,FT,Levadiakos,957,Panserraikos,2099,3,0,True
-1360710,2025-04-05T16:30:00+00:00,FT,Aris Thessalonikis,1123,OFI,1124,2,0,True
-1360724,2025-04-05T17:00:00+00:00,FT,Lamia,956,Kallithea,2095,0,2,True
-1360725,2025-04-06T14:00:00+00:00,FT,Volos NFC,2110,Panetolikos,949,0,0,True
-1360698,2025-04-06T16:30:00+00:00,FT,PAOK,619,Olympiakos Piraeus,553,2,1,True
-1360699,2025-04-06T18:30:00+00:00,FT,Panathinaikos,617,AEK Athens FC,575,3,1,True
-1360711,2025-04-07T15:00:00+00:00,FT,Atromitos,12260,Asteras Tripolis,955,0,1,True
-1360726,2025-04-12T14:00:00+00:00,FT,Panetolikos,949,Lamia,956,1,0,True
-1360727,2025-04-12T16:30:00+00:00,FT,Panserraikos,2099,Kallithea,2095,3,1,True
-1360728,2025-04-12T17:00:00+00:00,FT,Volos NFC,2110,Levadiakos,957,1,0,True
-1360712,2025-04-13T13:30:00+00:00,FT,Asteras Tripolis,955,OFI,1124,2,1,True
-1360700,2025-04-13T16:00:00+00:00,FT,Panathinaikos,617,PAOK,619,3,1,True
-1360713,2025-04-13T16:30:00+00:00,FT,Aris Thessalonikis,1123,Atromitos,12260,1,0,True
-1360701,2025-04-13T18:00:00+00:00,FT,Olympiakos Piraeus,553,AEK Athens FC,575,1,0,True
-1360730,2025-04-23T15:00:00+00:00,FT,Lamia,956,Volos NFC,2110,1,3,True
-1360729,2025-04-23T15:00:00+00:00,FT,Panserraikos,2099,Panetolikos,949,1,1,True
-1360731,2025-04-23T17:30:00+00:00,FT,Kallithea,2095,Levadiakos,957,0,3,True
-1360715,2025-04-26T17:00:00+00:00,FT,OFI,1124,Asteras Tripolis,955,0,2,True
-1360714,2025-04-26T17:00:00+00:00,FT,Atromitos,12260,Aris Thessalonikis,1123,1,1,True
-1360702,2025-04-27T17:00:00+00:00,FT,AEK Athens FC,575,Olympiakos Piraeus,553,0,2,True
-1360703,2025-04-27T17:00:00+00:00,FT,PAOK,619,Panathinaikos,617,2,1,True
-1360733,2025-04-28T15:00:00+00:00,FT,Panetolikos,949,Kallithea,2095,0,1,True
-1360732,2025-04-28T15:00:00+00:00,FT,Levadiakos,957,Lamia,956,0,0,True
-1360734,2025-04-28T17:00:00+00:00,FT,Volos NFC,2110,Panserraikos,2099,3,0,True
-1360716,2025-05-03T17:00:00+00:00,FT,Asteras Tripolis,955,Atromitos,12260,1,4,True
-1360717,2025-05-03T17:00:00+00:00,FT,OFI,1124,Aris Thessalonikis,1123,1,1,True
-1360705,2025-05-04T17:00:00+00:00,FT,Olympiakos Piraeus,553,PAOK,619,4,2,True
-1360704,2025-05-04T17:00:00+00:00,FT,AEK Athens FC,575,Panathinaikos,617,1,2,True
-1360736,2025-05-05T15:00:00+00:00,FT,Kallithea,2095,Panetolikos,949,0,0,True
-1360735,2025-05-05T15:00:00+00:00,FT,Panserraikos,2099,Volos NFC,2110,3,0,True
-1360737,2025-05-05T17:00:00+00:00,FT,Lamia,956,Levadiakos,957,2,3,True
-1360739,2025-05-10T14:00:00+00:00,FT,Lamia,956,Panserraikos,2099,2,1,True
-1360738,2025-05-10T14:00:00+00:00,FT,Levadiakos,957,Kallithea,2095,4,1,True
-1360718,2025-05-10T15:30:00+00:00,FT,Aris Thessalonikis,1123,Asteras Tripolis,955,4,2,True
-1360719,2025-05-10T16:15:00+00:00,FT,Atromitos,12260,OFI,1124,0,0,True
-1360740,2025-05-10T17:00:00+00:00,FT,Panetolikos,949,Volos NFC,2110,0,3,True
-1360707,2025-05-11T17:00:00+00:00,FT,Panathinaikos,617,Olympiakos Piraeus,553,0,1,True
-1360706,2025-05-11T17:00:00+00:00,FT,PAOK,619,AEK Athens FC,575,1,0,True
-1360743,2025-05-14T15:00:00+00:00,FT,Levadiakos,957,Panetolikos,949,1,2,True
-1360741,2025-05-14T17:00:00+00:00,FT,Kallithea,2095,Panserraikos,2099,1,1,True
-1360742,2025-05-14T17:00:00+00:00,FT,Volos NFC,2110,Lamia,956,3,0,True
-1360745,2025-05-18T12:00:00+00:00,FT,Panserraikos,2099,Levadiakos,957,0,1,True
-1360746,2025-05-18T15:00:00+00:00,FT,Lamia,956,Panetolikos,949,1,3,True
-1360744,2025-05-18T17:00:00+00:00,FT,Volos NFC,2110,Kallithea,2095,0,2,True
-1360749,2025-05-22T15:00:00+00:00,FT,Panetolikos,949,Panserraikos,2099,1,0,True
-1360748,2025-05-22T15:00:00+00:00,FT,Levadiakos,957,Volos NFC,2110,3,2,True
-1360747,2025-05-22T17:00:00+00:00,FT,Kallithea,2095,Lamia,956,3,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1250509,2024-08-17T17:00:00+00:00,FT,Regular Season - 1,PAOK,619,Panserraikos,2099,3,2,True
+1250505,2024-08-17T17:00:00+00:00,FT,Regular Season - 1,Volos NFC,2110,Olympiakos Piraeus,553,0,2,True
+1250506,2024-08-18T16:00:00+00:00,FT,Regular Season - 1,Levadiakos,957,Kallithea,2095,0,0,True
+1250507,2024-08-18T17:00:00+00:00,FT,Regular Season - 1,Panathinaikos,617,Asteras Tripolis,955,0,1,True
+1250504,2024-08-18T17:30:00+00:00,FT,Regular Season - 1,Atromitos,12260,Aris Thessalonikis,1123,1,1,True
+1250503,2024-08-18T19:00:00+00:00,FT,Regular Season - 1,AEK Athens FC,575,OFI,1124,3,0,True
+1250508,2024-08-19T18:00:00+00:00,FT,Regular Season - 1,Panetolikos,949,Lamia,956,0,1,True
+1250513,2024-08-24T16:30:00+00:00,FT,Regular Season - 2,OFI,1124,Atromitos,12260,1,1,True
+1250515,2024-08-24T17:00:00+00:00,FT,Regular Season - 2,Panserraikos,2099,Aris Thessalonikis,1123,0,1,True
+1250510,2024-08-24T18:30:00+00:00,FT,Regular Season - 2,AEK Athens FC,575,Lamia,956,1,1,True
+1250511,2024-08-25T16:00:00+00:00,FT,Regular Season - 2,Asteras Tripolis,955,Volos NFC,2110,0,1,True
+1250516,2024-08-25T17:30:00+00:00,FT,Regular Season - 2,PAOK,619,Panetolikos,949,2,0,True
+1250514,2024-08-25T18:00:00+00:00,FT,Regular Season - 2,Panathinaikos,617,Levadiakos,957,1,0,True
+1250512,2024-08-26T17:30:00+00:00,FT,Regular Season - 2,Olympiakos Piraeus,553,Kallithea,2095,2,1,True
+1250523,2024-08-31T16:30:00+00:00,FT,Regular Season - 3,Lamia,956,Olympiakos Piraeus,553,0,3,True
+1250518,2024-08-31T17:00:00+00:00,FT,Regular Season - 3,Aris Thessalonikis,1123,Asteras Tripolis,955,1,1,True
+1250522,2024-08-31T19:00:00+00:00,FT,Regular Season - 3,Panetolikos,949,Panserraikos,2099,3,0,True
+1250521,2024-09-01T16:00:00+00:00,FT,Regular Season - 3,Levadiakos,957,AEK Athens FC,575,0,3,True
+1250520,2024-09-01T16:30:00+00:00,FT,Regular Season - 3,Volos NFC,2110,OFI,1124,1,3,True
+1250519,2024-09-01T17:30:00+00:00,FT,Regular Season - 3,Atromitos,12260,PAOK,619,1,2,True
+1250517,2024-09-01T19:00:00+00:00,FT,Regular Season - 3,Kallithea,2095,Panathinaikos,617,2,2,True
+1250530,2024-09-14T15:00:00+00:00,FT,Regular Season - 4,Lamia,956,Kallithea,2095,0,0,True
+1250525,2024-09-14T17:00:00+00:00,FT,Regular Season - 4,Asteras Tripolis,955,Atromitos,12260,1,2,True
+1250528,2024-09-15T13:30:00+00:00,FT,Regular Season - 4,Panserraikos,2099,Levadiakos,957,2,2,True
+1250526,2024-09-15T15:30:00+00:00,FT,Regular Season - 4,Olympiakos Piraeus,553,Panetolikos,949,0,0,True
+1250529,2024-09-15T17:30:00+00:00,FT,Regular Season - 4,PAOK,619,Panathinaikos,617,0,0,True
+1250527,2024-09-15T17:30:00+00:00,FT,Regular Season - 4,OFI,1124,Aris Thessalonikis,1123,3,2,True
+1250524,2024-09-16T17:00:00+00:00,FT,Regular Season - 4,AEK Athens FC,575,Volos NFC,2110,2,0,True
+1250534,2024-09-21T14:00:00+00:00,FT,Regular Season - 5,Volos NFC,2110,PAOK,619,1,4,True
+1250532,2024-09-21T17:00:00+00:00,FT,Regular Season - 5,Aris Thessalonikis,1123,Olympiakos Piraeus,553,2,1,True
+1250537,2024-09-21T17:30:00+00:00,FT,Regular Season - 5,Panetolikos,949,Asteras Tripolis,955,1,1,True
+1250535,2024-09-22T13:30:00+00:00,FT,Regular Season - 5,Levadiakos,957,OFI,1124,1,1,True
+1250536,2024-09-22T15:00:00+00:00,FT,Regular Season - 5,Panathinaikos,617,Panserraikos,2099,3,1,True
+1250533,2024-09-22T17:30:00+00:00,FT,Regular Season - 5,Atromitos,12260,Lamia,956,4,2,True
+1250531,2024-09-22T18:00:00+00:00,FT,Regular Season - 5,Kallithea,2095,AEK Athens FC,575,0,0,True
+1250540,2024-09-28T14:00:00+00:00,FT,Regular Season - 6,Volos NFC,2110,Kallithea,2095,1,1,True
+1250539,2024-09-28T17:00:00+00:00,FT,Regular Season - 6,Asteras Tripolis,955,Levadiakos,957,1,1,True
+1250542,2024-09-29T14:00:00+00:00,FT,Regular Season - 6,OFI,1124,Panetolikos,949,1,2,True
+1250541,2024-09-29T15:00:00+00:00,FT,Regular Season - 6,Olympiakos Piraeus,553,Atromitos,12260,2,0,True
+1250543,2024-09-29T17:30:00+00:00,FT,Regular Season - 6,PAOK,619,Aris Thessalonikis,1123,0,1,True
+1250538,2024-09-29T18:30:00+00:00,FT,Regular Season - 6,AEK Athens FC,575,Panathinaikos,617,2,0,True
+1250544,2024-09-30T17:00:00+00:00,FT,Regular Season - 6,Lamia,956,Panserraikos,2099,1,2,True
+1250547,2024-10-05T15:30:00+00:00,FT,Regular Season - 7,Atromitos,12260,Volos NFC,2110,1,2,True
+1250550,2024-10-05T16:30:00+00:00,FT,Regular Season - 7,Panetolikos,949,AEK Athens FC,575,1,0,True
+1250546,2024-10-05T17:00:00+00:00,FT,Regular Season - 7,Aris Thessalonikis,1123,Lamia,956,2,0,True
+1250551,2024-10-06T13:00:00+00:00,FT,Regular Season - 7,Panserraikos,2099,OFI,1124,2,3,True
+1250545,2024-10-06T14:00:00+00:00,FT,Regular Season - 7,Kallithea,2095,Asteras Tripolis,955,1,3,True
+1250549,2024-10-06T17:30:00+00:00,FT,Regular Season - 7,Panathinaikos,617,Olympiakos Piraeus,553,0,0,True
+1250548,2024-10-06T17:30:00+00:00,FT,Regular Season - 7,Levadiakos,957,PAOK,619,0,2,True
+1250555,2024-10-19T14:00:00+00:00,FT,Regular Season - 8,Volos NFC,2110,Panserraikos,2099,0,1,True
+1250554,2024-10-19T17:00:00+00:00,FT,Regular Season - 8,Atromitos,12260,Panetolikos,949,0,2,True
+1250558,2024-10-19T17:30:00+00:00,FT,Regular Season - 8,Lamia,956,Asteras Tripolis,955,0,0,True
+1250556,2024-10-20T13:00:00+00:00,FT,Regular Season - 8,Olympiakos Piraeus,553,Levadiakos,957,2,2,True
+1250557,2024-10-20T15:00:00+00:00,FT,Regular Season - 8,OFI,1124,Panathinaikos,617,0,1,True
+1250553,2024-10-20T17:00:00+00:00,FT,Regular Season - 8,Aris Thessalonikis,1123,Kallithea,2095,2,0,True
+1250552,2024-10-20T17:30:00+00:00,FT,Regular Season - 8,AEK Athens FC,575,PAOK,619,1,1,True
+1250563,2024-10-26T14:00:00+00:00,FT,Regular Season - 9,Panetolikos,949,Volos NFC,2110,0,1,True
+1250561,2024-10-26T14:30:00+00:00,FT,Regular Season - 9,Levadiakos,957,Lamia,956,2,2,True
+1250564,2024-10-26T17:00:00+00:00,FT,Regular Season - 9,Panserraikos,2099,AEK Athens FC,575,1,0,True
+1250559,2024-10-27T14:00:00+00:00,FT,Regular Season - 9,Asteras Tripolis,955,Olympiakos Piraeus,553,1,0,True
+1250562,2024-10-27T15:00:00+00:00,FT,Regular Season - 9,Panathinaikos,617,Aris Thessalonikis,1123,1,1,True
+1250565,2024-10-27T19:00:00+00:00,FT,Regular Season - 9,PAOK,619,OFI,1124,1,2,True
+1250560,2024-10-27T19:30:00+00:00,FT,Regular Season - 9,Kallithea,2095,Atromitos,12260,0,3,True
+1250571,2024-11-02T15:00:00+00:00,FT,Regular Season - 10,Olympiakos Piraeus,553,Panserraikos,2099,2,1,True
+1250567,2024-11-02T18:30:00+00:00,FT,Regular Season - 10,Kallithea,2095,Panetolikos,949,1,1,True
+1250568,2024-11-03T14:30:00+00:00,FT,Regular Season - 10,Aris Thessalonikis,1123,Levadiakos,957,3,1,True
+1250570,2024-11-03T15:00:00+00:00,FT,Regular Season - 10,Volos NFC,2110,Panathinaikos,617,0,1,True
+1250572,2024-11-03T18:30:00+00:00,FT,Regular Season - 10,Lamia,956,PAOK,619,1,2,True
+1250569,2024-11-03T18:30:00+00:00,FT,Regular Season - 10,Atromitos,12260,AEK Athens FC,575,0,1,True
+1250566,2024-11-04T15:30:00+00:00,FT,Regular Season - 10,Asteras Tripolis,955,OFI,1124,3,0,True
+1250577,2024-11-09T15:00:00+00:00,FT,Regular Season - 11,Panetolikos,949,Aris Thessalonikis,1123,2,1,True
+1250578,2024-11-09T16:45:00+00:00,FT,Regular Season - 11,Panserraikos,2099,Atromitos,12260,2,3,True
+1250573,2024-11-09T18:00:00+00:00,FT,Regular Season - 11,AEK Athens FC,575,Asteras Tripolis,955,3,0,True
+1250575,2024-11-10T14:00:00+00:00,FT,Regular Season - 11,OFI,1124,Kallithea,2095,2,2,True
+1250574,2024-11-10T14:30:00+00:00,FT,Regular Season - 11,Levadiakos,957,Volos NFC,2110,3,2,True
+1250576,2024-11-10T17:30:00+00:00,FT,Regular Season - 11,Panathinaikos,617,Lamia,956,1,0,True
+1250579,2024-11-10T18:30:00+00:00,FT,Regular Season - 11,PAOK,619,Olympiakos Piraeus,553,2,3,True
+1250581,2024-11-22T17:30:00+00:00,FT,Regular Season - 12,Kallithea,2095,Panserraikos,2099,1,2,True
+1250586,2024-11-23T15:00:00+00:00,FT,Regular Season - 12,Lamia,956,OFI,1124,1,1,True
+1250582,2024-11-23T17:30:00+00:00,FT,Regular Season - 12,Aris Thessalonikis,1123,Volos NFC,2110,0,1,True
+1250585,2024-11-24T15:00:00+00:00,FT,Regular Season - 12,Panetolikos,949,Panathinaikos,617,1,2,True
+1250580,2024-11-24T17:30:00+00:00,FT,Regular Season - 12,Asteras Tripolis,955,PAOK,619,1,2,True
+1250584,2024-11-24T18:30:00+00:00,FT,Regular Season - 12,Olympiakos Piraeus,553,AEK Athens FC,575,4,1,True
+1250583,2024-11-25T16:00:00+00:00,FT,Regular Season - 12,Atromitos,12260,Levadiakos,957,2,1,True
+1250588,2024-11-30T15:00:00+00:00,FT,Regular Season - 13,Volos NFC,2110,Lamia,956,0,0,True
+1250589,2024-11-30T17:30:00+00:00,FT,Regular Season - 13,Levadiakos,957,Panetolikos,949,1,1,True
+1250587,2024-11-30T18:30:00+00:00,FT,Regular Season - 13,AEK Athens FC,575,Aris Thessalonikis,1123,4,0,True
+1250592,2024-12-01T13:30:00+00:00,FT,Regular Season - 13,Panserraikos,2099,Asteras Tripolis,955,2,1,True
+1250590,2024-12-01T15:00:00+00:00,FT,Regular Season - 13,OFI,1124,Olympiakos Piraeus,553,0,2,True
+1250593,2024-12-01T17:00:00+00:00,FT,Regular Season - 13,PAOK,619,Kallithea,2095,2,2,True
+1250591,2024-12-01T18:30:00+00:00,FT,Regular Season - 13,Panathinaikos,617,Atromitos,12260,1,1,True
+1250597,2024-12-07T15:00:00+00:00,FT,Regular Season - 14,Olympiakos Piraeus,553,Volos NFC,2110,3,0,True
+1250596,2024-12-07T17:30:00+00:00,FT,Regular Season - 14,Aris Thessalonikis,1123,Atromitos,12260,2,1,True
+1250599,2024-12-08T13:30:00+00:00,FT,Regular Season - 14,Panserraikos,2099,PAOK,619,1,4,True
+1250598,2024-12-08T15:00:00+00:00,FT,Regular Season - 14,OFI,1124,AEK Athens FC,575,1,2,True
+1250594,2024-12-08T17:00:00+00:00,FT,Regular Season - 14,Asteras Tripolis,955,Panathinaikos,617,0,1,True
+1250600,2024-12-08T18:30:00+00:00,FT,Regular Season - 14,Lamia,956,Panetolikos,949,0,1,True
+1250595,2024-12-09T15:30:00+00:00,FT,Regular Season - 14,Kallithea,2095,Levadiakos,957,2,4,True
+1250607,2024-12-14T15:00:00+00:00,FT,Regular Season - 15,Lamia,956,AEK Athens FC,575,0,1,True
+1250603,2024-12-14T17:30:00+00:00,FT,Regular Season - 15,Atromitos,12260,OFI,1124,0,0,True
+1250604,2024-12-14T18:30:00+00:00,FT,Regular Season - 15,Volos NFC,2110,Asteras Tripolis,955,2,1,True
+1250602,2024-12-15T13:30:00+00:00,FT,Regular Season - 15,Aris Thessalonikis,1123,Panserraikos,2099,1,0,True
+1250605,2024-12-15T16:00:00+00:00,FT,Regular Season - 15,Levadiakos,957,Panathinaikos,617,0,1,True
+1250606,2024-12-15T17:00:00+00:00,FT,Regular Season - 15,Panetolikos,949,PAOK,619,0,1,True
+1250601,2024-12-16T18:30:00+00:00,FT,Regular Season - 15,Kallithea,2095,Olympiakos Piraeus,553,1,1,True
+1250610,2024-12-21T17:00:00+00:00,FT,Regular Season - 16,Olympiakos Piraeus,553,Lamia,956,1,0,True
+1250613,2024-12-22T13:30:00+00:00,FT,Regular Season - 16,Panserraikos,2099,Panetolikos,949,0,0,True
+1250612,2024-12-22T16:00:00+00:00,FT,Regular Season - 16,Panathinaikos,617,Kallithea,2095,1,0,True
+1250614,2024-12-22T17:30:00+00:00,FT,Regular Season - 16,PAOK,619,Atromitos,12260,3,0,True
+1250608,2024-12-22T19:00:00+00:00,FT,Regular Season - 16,AEK Athens FC,575,Levadiakos,957,1,1,True
+1250609,2024-12-23T13:00:00+00:00,FT,Regular Season - 16,Asteras Tripolis,955,Aris Thessalonikis,1123,2,1,True
+1250611,2024-12-23T16:00:00+00:00,FT,Regular Season - 16,OFI,1124,Volos NFC,2110,4,0,True
+1250615,2025-01-04T15:00:00+00:00,FT,Regular Season - 17,Kallithea,2095,Lamia,956,2,1,True
+1250619,2025-01-05T13:00:00+00:00,FT,Regular Season - 17,Levadiakos,957,Panserraikos,2099,1,0,True
+1250616,2025-01-05T14:30:00+00:00,FT,Regular Season - 17,Aris Thessalonikis,1123,OFI,1124,0,2,True
+1250618,2025-01-05T15:00:00+00:00,FT,Regular Season - 17,Volos NFC,2110,AEK Athens FC,575,2,4,True
+1250617,2025-01-05T17:30:00+00:00,FT,Regular Season - 17,Atromitos,12260,Asteras Tripolis,955,0,1,True
+1250620,2025-01-05T18:30:00+00:00,FT,Regular Season - 17,Panathinaikos,617,PAOK,619,2,1,True
+1250621,2025-01-06T16:00:00+00:00,FT,Regular Season - 17,Panetolikos,949,Olympiakos Piraeus,553,0,2,True
+1250624,2025-01-11T18:30:00+00:00,FT,Regular Season - 18,Olympiakos Piraeus,553,Aris Thessalonikis,1123,2,1,True
+1250626,2025-01-12T14:30:00+00:00,FT,Regular Season - 18,Panserraikos,2099,Panathinaikos,617,2,2,True
+1250628,2025-01-12T15:00:00+00:00,FT,Regular Season - 18,Lamia,956,Atromitos,12260,0,3,True
+1250627,2025-01-12T17:30:00+00:00,FT,Regular Season - 18,PAOK,619,Volos NFC,2110,1,2,True
+1250622,2025-01-12T18:30:00+00:00,FT,Regular Season - 18,AEK Athens FC,575,Kallithea,2095,2,0,True
+1250623,2025-01-13T16:00:00+00:00,FT,Regular Season - 18,Asteras Tripolis,955,Panetolikos,949,2,0,True
+1250625,2025-01-13T16:00:00+00:00,FT,Regular Season - 18,OFI,1124,Levadiakos,957,0,0,True
+1250629,2025-01-18T15:00:00+00:00,FT,Regular Season - 19,Kallithea,2095,Volos NFC,2110,2,0,True
+1250631,2025-01-19T13:00:00+00:00,FT,Regular Season - 19,Atromitos,12260,Olympiakos Piraeus,553,1,2,True
+1250634,2025-01-19T14:30:00+00:00,FT,Regular Season - 19,Panetolikos,949,OFI,1124,1,0,True
+1250632,2025-01-19T14:30:00+00:00,FT,Regular Season - 19,Levadiakos,957,Asteras Tripolis,955,1,2,True
+1250630,2025-01-19T17:00:00+00:00,FT,Regular Season - 19,Aris Thessalonikis,1123,PAOK,619,0,0,True
+1250633,2025-01-19T18:30:00+00:00,FT,Regular Season - 19,Panathinaikos,617,AEK Athens FC,575,1,0,True
+1250635,2025-01-20T16:00:00+00:00,FT,Regular Season - 19,Panserraikos,2099,Lamia,956,2,0,True
+1250638,2025-01-24T18:00:00+00:00,FT,Regular Season - 20,Volos NFC,2110,Atromitos,12260,0,1,True
+1250637,2025-01-25T15:00:00+00:00,FT,Regular Season - 20,Asteras Tripolis,955,Kallithea,2095,1,0,True
+1250640,2025-01-25T15:00:00+00:00,FT,Regular Season - 20,OFI,1124,Panserraikos,2099,3,2,True
+1250636,2025-01-25T18:00:00+00:00,FT,Regular Season - 20,AEK Athens FC,575,Panetolikos,949,1,0,True
+1250642,2025-01-26T15:00:00+00:00,FT,Regular Season - 20,Lamia,956,Aris Thessalonikis,1123,0,2,True
+1250641,2025-01-26T17:30:00+00:00,FT,Regular Season - 20,PAOK,619,Levadiakos,957,1,0,True
+1250639,2025-01-26T18:30:00+00:00,FT,Regular Season - 20,Olympiakos Piraeus,553,Panathinaikos,617,1,1,True
+1250646,2025-02-01T16:00:00+00:00,FT,Regular Season - 21,Panathinaikos,617,OFI,1124,3,2,True
+1250648,2025-02-01T17:30:00+00:00,FT,Regular Season - 21,Panserraikos,2099,Volos NFC,2110,1,1,True
+1250645,2025-02-02T14:30:00+00:00,FT,Regular Season - 21,Levadiakos,957,Olympiakos Piraeus,553,0,1,True
+1250644,2025-02-02T15:00:00+00:00,FT,Regular Season - 21,Kallithea,2095,Aris Thessalonikis,1123,0,1,True
+1250649,2025-02-02T17:30:00+00:00,FT,Regular Season - 21,PAOK,619,AEK Athens FC,575,1,2,True
+1250647,2025-02-02T18:30:00+00:00,FT,Regular Season - 21,Panetolikos,949,Atromitos,12260,0,1,True
+1250643,2025-02-03T16:00:00+00:00,FT,Regular Season - 21,Asteras Tripolis,955,Lamia,956,1,0,True
+1250653,2025-02-08T15:00:00+00:00,FT,Regular Season - 22,Volos NFC,2110,Panetolikos,949,0,1,True
+1250655,2025-02-08T18:00:00+00:00,FT,Regular Season - 22,OFI,1124,PAOK,619,0,5,True
+1250654,2025-02-09T15:00:00+00:00,FT,Regular Season - 22,Olympiakos Piraeus,553,Asteras Tripolis,955,1,1,True
+1250651,2025-02-09T17:30:00+00:00,FT,Regular Season - 22,Aris Thessalonikis,1123,Panathinaikos,617,2,0,True
+1250650,2025-02-09T18:30:00+00:00,FT,Regular Season - 22,AEK Athens FC,575,Panserraikos,2099,5,0,True
+1250656,2025-02-10T16:00:00+00:00,FT,Regular Season - 22,Lamia,956,Levadiakos,957,0,2,True
+1250652,2025-02-10T16:00:00+00:00,FT,Regular Season - 22,Atromitos,12260,Kallithea,2095,1,2,True
+1250659,2025-02-15T15:00:00+00:00,FT,Regular Season - 23,OFI,1124,Asteras Tripolis,955,2,1,True
+1250657,2025-02-15T18:00:00+00:00,FT,Regular Season - 23,AEK Athens FC,575,Atromitos,12260,2,1,True
+1250658,2025-02-16T13:00:00+00:00,FT,Regular Season - 23,Levadiakos,957,Aris Thessalonikis,1123,4,1,True
+1250660,2025-02-16T15:00:00+00:00,FT,Regular Season - 23,Panathinaikos,617,Volos NFC,2110,2,1,True
+1250662,2025-02-16T15:00:00+00:00,FT,Regular Season - 23,Panserraikos,2099,Olympiakos Piraeus,553,0,4,True
+1250663,2025-02-16T18:00:00+00:00,FT,Regular Season - 23,PAOK,619,Lamia,956,7,0,True
+1250661,2025-02-16T18:30:00+00:00,FT,Regular Season - 23,Panetolikos,949,Kallithea,2095,2,0,True
+1250665,2025-02-22T15:00:00+00:00,FT,Regular Season - 24,Kallithea,2095,OFI,1124,1,3,True
+1250667,2025-02-22T17:30:00+00:00,FT,Regular Season - 24,Atromitos,12260,Panserraikos,2099,1,0,True
+1250668,2025-02-22T18:00:00+00:00,FT,Regular Season - 24,Volos NFC,2110,Levadiakos,957,1,2,True
+1250666,2025-02-23T14:30:00+00:00,FT,Regular Season - 24,Aris Thessalonikis,1123,Panetolikos,949,2,1,True
+1250670,2025-02-23T15:00:00+00:00,FT,Regular Season - 24,Lamia,956,Panathinaikos,617,3,1,True
+1250664,2025-02-23T17:30:00+00:00,FT,Regular Season - 24,Asteras Tripolis,955,AEK Athens FC,575,0,3,True
+1250669,2025-02-23T18:30:00+00:00,FT,Regular Season - 24,Olympiakos Piraeus,553,PAOK,619,2,1,True
+1250676,2025-03-01T15:00:00+00:00,FT,Regular Season - 25,Panserraikos,2099,Kallithea,2095,2,1,True
+1250672,2025-03-01T15:00:00+00:00,FT,Regular Season - 25,Volos NFC,2110,Aris Thessalonikis,1123,1,1,True
+1250675,2025-03-01T18:00:00+00:00,FT,Regular Season - 25,Panathinaikos,617,Panetolikos,949,2,0,True
+1250673,2025-03-02T14:30:00+00:00,FT,Regular Season - 25,Levadiakos,957,Atromitos,12260,1,2,True
+1250674,2025-03-02T15:00:00+00:00,FT,Regular Season - 25,OFI,1124,Lamia,956,3,0,True
+1250677,2025-03-02T17:30:00+00:00,FT,Regular Season - 25,PAOK,619,Asteras Tripolis,955,2,0,True
+1250671,2025-03-02T18:30:00+00:00,FT,Regular Season - 25,AEK Athens FC,575,Olympiakos Piraeus,553,0,1,True
+1250682,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Olympiakos Piraeus,553,OFI,1124,1,0,True
+1250683,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Panetolikos,949,Levadiakos,957,0,0,True
+1250678,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Asteras Tripolis,955,Panserraikos,2099,1,2,True
+1250684,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Lamia,956,Volos NFC,2110,1,0,True
+1250680,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Aris Thessalonikis,1123,AEK Athens FC,575,0,0,True
+1250679,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Kallithea,2095,PAOK,619,2,1,True
+1250681,2025-03-09T17:00:00+00:00,FT,Regular Season - 26,Atromitos,12260,Panathinaikos,617,1,1,True
+1360708,2025-03-29T14:30:00+00:00,FT,Conference League Play-off Group - 1,OFI,1124,Atromitos,12260,1,2,True
+1360720,2025-03-29T16:30:00+00:00,FT,Relegation Round - 1,Kallithea,2095,Volos NFC,2110,1,1,True
+1360709,2025-03-29T17:30:00+00:00,FT,Conference League Play-off Group - 1,Asteras Tripolis,955,Aris Thessalonikis,1123,0,2,True
+1360721,2025-03-29T18:30:00+00:00,FT,Relegation Round - 1,Panetolikos,949,Levadiakos,957,1,2,True
+1360722,2025-03-30T14:00:00+00:00,FT,Relegation Round - 1,Panserraikos,2099,Lamia,956,1,1,True
+1360696,2025-03-30T16:00:00+00:00,FT,Championship Round - 1,AEK Athens FC,575,PAOK,619,2,3,True
+1360697,2025-03-30T18:00:00+00:00,FT,Championship Round - 1,Olympiakos Piraeus,553,Panathinaikos,617,4,2,True
+1360723,2025-04-05T14:00:00+00:00,FT,Relegation Round - 2,Levadiakos,957,Panserraikos,2099,3,0,True
+1360710,2025-04-05T16:30:00+00:00,FT,Conference League Play-off Group - 2,Aris Thessalonikis,1123,OFI,1124,2,0,True
+1360724,2025-04-05T17:00:00+00:00,FT,Relegation Round - 2,Lamia,956,Kallithea,2095,0,2,True
+1360725,2025-04-06T14:00:00+00:00,FT,Relegation Round - 2,Volos NFC,2110,Panetolikos,949,0,0,True
+1360698,2025-04-06T16:30:00+00:00,FT,Championship Round - 2,PAOK,619,Olympiakos Piraeus,553,2,1,True
+1360699,2025-04-06T18:30:00+00:00,FT,Championship Round - 2,Panathinaikos,617,AEK Athens FC,575,3,1,True
+1360711,2025-04-07T15:00:00+00:00,FT,Conference League Play-off Group - 2,Atromitos,12260,Asteras Tripolis,955,0,1,True
+1360726,2025-04-12T14:00:00+00:00,FT,Relegation Round - 3,Panetolikos,949,Lamia,956,1,0,True
+1360727,2025-04-12T16:30:00+00:00,FT,Relegation Round - 3,Panserraikos,2099,Kallithea,2095,3,1,True
+1360728,2025-04-12T17:00:00+00:00,FT,Relegation Round - 3,Volos NFC,2110,Levadiakos,957,1,0,True
+1360712,2025-04-13T13:30:00+00:00,FT,Conference League Play-off Group - 3,Asteras Tripolis,955,OFI,1124,2,1,True
+1360700,2025-04-13T16:00:00+00:00,FT,Championship Round - 3,Panathinaikos,617,PAOK,619,3,1,True
+1360713,2025-04-13T16:30:00+00:00,FT,Conference League Play-off Group - 3,Aris Thessalonikis,1123,Atromitos,12260,1,0,True
+1360701,2025-04-13T18:00:00+00:00,FT,Championship Round - 3,Olympiakos Piraeus,553,AEK Athens FC,575,1,0,True
+1360730,2025-04-23T15:00:00+00:00,FT,Relegation Round - 4,Lamia,956,Volos NFC,2110,1,3,True
+1360729,2025-04-23T15:00:00+00:00,FT,Relegation Round - 4,Panserraikos,2099,Panetolikos,949,1,1,True
+1360731,2025-04-23T17:30:00+00:00,FT,Relegation Round - 4,Kallithea,2095,Levadiakos,957,0,3,True
+1360715,2025-04-26T17:00:00+00:00,FT,Conference League Play-off Group - 4,OFI,1124,Asteras Tripolis,955,0,2,True
+1360714,2025-04-26T17:00:00+00:00,FT,Conference League Play-off Group - 4,Atromitos,12260,Aris Thessalonikis,1123,1,1,True
+1360702,2025-04-27T17:00:00+00:00,FT,Championship Round - 4,AEK Athens FC,575,Olympiakos Piraeus,553,0,2,True
+1360703,2025-04-27T17:00:00+00:00,FT,Championship Round - 4,PAOK,619,Panathinaikos,617,2,1,True
+1360733,2025-04-28T15:00:00+00:00,FT,Relegation Round - 5,Panetolikos,949,Kallithea,2095,0,1,True
+1360732,2025-04-28T15:00:00+00:00,FT,Relegation Round - 5,Levadiakos,957,Lamia,956,0,0,True
+1360734,2025-04-28T17:00:00+00:00,FT,Relegation Round - 5,Volos NFC,2110,Panserraikos,2099,3,0,True
+1360716,2025-05-03T17:00:00+00:00,FT,Conference League Play-off Group - 5,Asteras Tripolis,955,Atromitos,12260,1,4,True
+1360717,2025-05-03T17:00:00+00:00,FT,Conference League Play-off Group - 5,OFI,1124,Aris Thessalonikis,1123,1,1,True
+1360705,2025-05-04T17:00:00+00:00,FT,Championship Round - 5,Olympiakos Piraeus,553,PAOK,619,4,2,True
+1360704,2025-05-04T17:00:00+00:00,FT,Championship Round - 5,AEK Athens FC,575,Panathinaikos,617,1,2,True
+1360736,2025-05-05T15:00:00+00:00,FT,Relegation Round - 6,Kallithea,2095,Panetolikos,949,0,0,True
+1360735,2025-05-05T15:00:00+00:00,FT,Relegation Round - 6,Panserraikos,2099,Volos NFC,2110,3,0,True
+1360737,2025-05-05T17:00:00+00:00,FT,Relegation Round - 6,Lamia,956,Levadiakos,957,2,3,True
+1360739,2025-05-10T14:00:00+00:00,FT,Relegation Round - 7,Lamia,956,Panserraikos,2099,2,1,True
+1360738,2025-05-10T14:00:00+00:00,FT,Relegation Round - 7,Levadiakos,957,Kallithea,2095,4,1,True
+1360718,2025-05-10T15:30:00+00:00,FT,Conference League Play-off Group - 6,Aris Thessalonikis,1123,Asteras Tripolis,955,4,2,True
+1360719,2025-05-10T16:15:00+00:00,FT,Conference League Play-off Group - 6,Atromitos,12260,OFI,1124,0,0,True
+1360740,2025-05-10T17:00:00+00:00,FT,Relegation Round - 7,Panetolikos,949,Volos NFC,2110,0,3,True
+1360707,2025-05-11T17:00:00+00:00,FT,Championship Round - 6,Panathinaikos,617,Olympiakos Piraeus,553,0,1,True
+1360706,2025-05-11T17:00:00+00:00,FT,Championship Round - 6,PAOK,619,AEK Athens FC,575,1,0,True
+1360743,2025-05-14T15:00:00+00:00,FT,Relegation Round - 8,Levadiakos,957,Panetolikos,949,1,2,True
+1360741,2025-05-14T17:00:00+00:00,FT,Relegation Round - 8,Kallithea,2095,Panserraikos,2099,1,1,True
+1360742,2025-05-14T17:00:00+00:00,FT,Relegation Round - 8,Volos NFC,2110,Lamia,956,3,0,True
+1360745,2025-05-18T12:00:00+00:00,FT,Relegation Round - 9,Panserraikos,2099,Levadiakos,957,0,1,True
+1360746,2025-05-18T15:00:00+00:00,FT,Relegation Round - 9,Lamia,956,Panetolikos,949,1,3,True
+1360744,2025-05-18T17:00:00+00:00,FT,Relegation Round - 9,Volos NFC,2110,Kallithea,2095,0,2,True
+1360749,2025-05-22T15:00:00+00:00,FT,Relegation Round - 10,Panetolikos,949,Panserraikos,2099,1,0,True
+1360748,2025-05-22T15:00:00+00:00,FT,Relegation Round - 10,Levadiakos,957,Volos NFC,2110,3,2,True
+1360747,2025-05-22T17:00:00+00:00,FT,Relegation Round - 10,Kallithea,2095,Lamia,956,3,0,True

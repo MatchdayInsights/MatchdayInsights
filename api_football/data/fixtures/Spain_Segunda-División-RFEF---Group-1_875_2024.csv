@@ -1,154 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1264351,2025-01-12T11:00:00+00:00,FT,Compostela,5256,Numancia,717,2,2,True
-1264348,2025-01-12T11:00:00+00:00,FT,Gimnástica Torrelavega,5264,Langreo,5265,0,1,True
-1264347,2025-01-12T11:00:00+00:00,FT,Laredo,9394,Marino de Luanco,9401,3,1,True
-1264345,2025-01-12T11:30:00+00:00,FT,Llanera,9627,Racing Santander II,9643,4,3,True
-1264344,2025-01-12T15:00:00+00:00,FT,Bergantiños,9383,Guijuelo,9388,2,3,True
-1264343,2025-01-12T15:00:00+00:00,FT,Coruxo,9385,Real Avilés,9632,2,2,True
-1264350,2025-01-12T15:00:00+00:00,FT,Real Valladolid II,9587,Pontevedra,9407,0,0,True
-1264346,2025-01-12T16:00:00+00:00,FT,Salamanca UDS,9588,Escobedo,9386,0,1,True
-1264349,2025-01-12T16:00:00+00:00,FT,Real Ávila,9736,Deportivo La Coruña II,9610,1,0,True
-1264355,2025-01-18T14:30:00+00:00,FT,Racing Santander II,9643,Salamanca UDS,9588,1,2,True
-1264352,2025-01-18T16:00:00+00:00,FT,Numancia,717,Coruxo,9385,1,0,True
-1264356,2025-01-19T11:00:00+00:00,FT,Escobedo,9386,Laredo,9394,0,0,True
-1264359,2025-01-19T11:00:00+00:00,FT,Deportivo La Coruña II,9610,Real Valladolid II,9587,0,0,True
-1264353,2025-01-19T11:00:00+00:00,FT,Real Avilés,9632,Bergantiños,9383,3,0,True
-1264358,2025-01-19T16:00:00+00:00,FT,Langreo,5265,Real Ávila,9736,0,1,True
-1264354,2025-01-19T16:00:00+00:00,FT,Guijuelo,9388,Llanera,9627,0,1,True
-1264357,2025-01-19T16:00:00+00:00,FT,Marino de Luanco,9401,Gimnástica Torrelavega,5264,2,0,True
-1264360,2025-01-19T16:00:00+00:00,FT,Pontevedra,9407,Compostela,5256,4,1,True
-1264364,2025-01-25T17:30:00+00:00,FT,Laredo,9394,Racing Santander II,9643,2,1,True
-1264361,2025-01-25T18:00:00+00:00,FT,Bergantiños,9383,Coruxo,9385,0,1,True
-1264365,2025-01-26T11:00:00+00:00,FT,Gimnástica Torrelavega,5264,Escobedo,9386,0,1,True
-1264367,2025-01-26T11:00:00+00:00,FT,Real Valladolid II,9587,Langreo,5265,0,0,True
-1264362,2025-01-26T11:00:00+00:00,FT,Llanera,9627,Real Avilés,9632,1,1,True
-1264363,2025-01-26T16:00:00+00:00,FT,Salamanca UDS,9588,Guijuelo,9388,1,1,True
-1264366,2025-01-26T16:00:00+00:00,FT,Real Ávila,9736,Marino de Luanco,9401,1,0,True
-1264375,2025-02-01T15:30:00+00:00,FT,Escobedo,9386,Real Ávila,9736,1,0,True
-1264370,2025-02-02T11:00:00+00:00,FT,Numancia,717,Bergantiños,9383,1,0,True
-1264378,2025-02-02T11:00:00+00:00,FT,Deportivo La Coruña II,9610,Pontevedra,9407,3,0,True
-1264374,2025-02-02T11:00:00+00:00,FT,Racing Santander II,9643,Gimnástica Torrelavega,5264,0,1,True
-1264371,2025-02-02T15:30:00+00:00,FT,Coruxo,9385,Llanera,9627,1,0,True
-1264377,2025-02-02T16:00:00+00:00,FT,Langreo,5265,Compostela,5256,2,1,True
-1264373,2025-02-02T16:00:00+00:00,FT,Guijuelo,9388,Laredo,9394,1,1,True
-1264376,2025-02-02T16:00:00+00:00,FT,Marino de Luanco,9401,Real Valladolid II,9587,4,0,True
-1264372,2025-02-02T16:00:00+00:00,FT,Real Avilés,9632,Salamanca UDS,9588,2,1,True
-1264384,2025-02-08T15:00:00+00:00,FT,Real Valladolid II,9587,Escobedo,9386,0,0,True
-1264381,2025-02-09T11:00:00+00:00,FT,Laredo,9394,Real Avilés,9632,2,2,True
-1264387,2025-02-09T11:00:00+00:00,FT,Deportivo La Coruña II,9610,Numancia,717,0,2,True
-1264379,2025-02-09T15:00:00+00:00,FT,Llanera,9627,Bergantiños,9383,1,0,True
-1264385,2025-02-09T16:00:00+00:00,FT,Compostela,5256,Marino de Luanco,9401,4,2,True
-1264382,2025-02-09T16:00:00+00:00,FT,Gimnástica Torrelavega,5264,Guijuelo,9388,0,0,True
-1264386,2025-02-09T16:00:00+00:00,FT,Pontevedra,9407,Langreo,5265,2,1,True
-1264380,2025-02-09T16:00:00+00:00,FT,Salamanca UDS,9588,Coruxo,9385,3,0,True
-1264383,2025-02-09T16:00:00+00:00,FT,Real Ávila,9736,Racing Santander II,9643,4,0,True
-1264396,2025-02-15T17:00:00+00:00,FT,Langreo,5265,Deportivo La Coruña II,9610,0,3,True
-1264389,2025-02-15T18:00:00+00:00,FT,Bergantiños,9383,Salamanca UDS,9588,2,1,True
-1264388,2025-02-16T11:00:00+00:00,FT,Numancia,717,Llanera,9627,3,3,True
-1264394,2025-02-16T11:00:00+00:00,FT,Escobedo,9386,Compostela,5256,0,0,True
-1264391,2025-02-16T11:00:00+00:00,FT,Real Avilés,9632,Gimnástica Torrelavega,5264,2,2,True
-1264393,2025-02-16T11:00:00+00:00,FT,Racing Santander II,9643,Real Valladolid II,9587,2,2,True
-1264390,2025-02-16T16:00:00+00:00,FT,Coruxo,9385,Laredo,9394,1,1,True
-1264392,2025-02-16T16:00:00+00:00,FT,Guijuelo,9388,Real Ávila,9736,1,1,True
-1264395,2025-02-16T16:00:00+00:00,FT,Marino de Luanco,9401,Pontevedra,9407,0,0,True
-1264401,2025-02-22T15:30:00+00:00,FT,Real Valladolid II,9587,Guijuelo,9388,5,1,True
-1264404,2025-02-22T17:00:00+00:00,FT,Deportivo La Coruña II,9610,Marino de Luanco,9401,0,0,True
-1264398,2025-02-22T17:30:00+00:00,FT,Laredo,9394,Bergantiños,9383,0,1,True
-1264402,2025-02-23T16:00:00+00:00,FT,Compostela,5256,Racing Santander II,9643,1,2,True
-1264399,2025-02-23T16:00:00+00:00,FT,Gimnástica Torrelavega,5264,Coruxo,9385,0,0,True
-1264405,2025-02-23T16:00:00+00:00,FT,Langreo,5265,Numancia,717,0,0,True
-1264403,2025-02-23T16:00:00+00:00,FT,Pontevedra,9407,Escobedo,9386,2,0,True
-1264397,2025-02-23T16:00:00+00:00,FT,Salamanca UDS,9588,Llanera,9627,0,3,True
-1264400,2025-02-23T16:00:00+00:00,FT,Real Ávila,9736,Real Avilés,9632,0,0,True
-1264407,2025-03-01T15:00:00+00:00,FT,Llanera,9627,Laredo,9394,2,1,True
-1264408,2025-03-01T16:00:00+00:00,FT,Bergantiños,9383,Gimnástica Torrelavega,5264,2,0,True
-1264406,2025-03-02T11:00:00+00:00,FT,Numancia,717,Salamanca UDS,9588,2,0,True
-1264409,2025-03-02T11:00:00+00:00,FT,Coruxo,9385,Real Ávila,9736,0,1,True
-1264413,2025-03-02T11:00:00+00:00,FT,Escobedo,9386,Deportivo La Coruña II,9610,0,1,True
-1264412,2025-03-02T11:00:00+00:00,FT,Racing Santander II,9643,Pontevedra,9407,2,1,True
-1264411,2025-03-02T16:00:00+00:00,FT,Guijuelo,9388,Compostela,5256,1,0,True
-1264414,2025-03-02T16:00:00+00:00,FT,Marino de Luanco,9401,Langreo,5265,0,1,True
-1264410,2025-03-02T16:00:00+00:00,FT,Real Avilés,9632,Real Valladolid II,9587,2,0,True
-1264415,2025-03-08T16:00:00+00:00,FT,Laredo,9394,Salamanca UDS,9588,0,3,True
-1264418,2025-03-09T11:00:00+00:00,FT,Real Valladolid II,9587,Coruxo,9385,2,0,True
-1264421,2025-03-09T11:00:00+00:00,FT,Deportivo La Coruña II,9610,Racing Santander II,9643,0,1,True
-1264419,2025-03-09T16:00:00+00:00,FT,Compostela,5256,Real Avilés,9632,1,1,True
-1264416,2025-03-09T16:00:00+00:00,FT,Gimnástica Torrelavega,5264,Llanera,9627,0,0,True
-1264422,2025-03-09T16:00:00+00:00,FT,Langreo,5265,Escobedo,9386,1,0,True
-1264423,2025-03-09T16:00:00+00:00,FT,Marino de Luanco,9401,Numancia,717,1,0,True
-1264420,2025-03-09T16:00:00+00:00,FT,Pontevedra,9407,Guijuelo,9388,1,0,True
-1264417,2025-03-09T16:00:00+00:00,FT,Real Ávila,9736,Bergantiños,9383,0,1,True
-1264431,2025-03-15T15:00:00+00:00,FT,Racing Santander II,9643,Langreo,5265,1,0,True
-1264424,2025-03-15T16:00:00+00:00,FT,Numancia,717,Laredo,9394,0,0,True
-1264432,2025-03-15T16:00:00+00:00,FT,Escobedo,9386,Marino de Luanco,9401,0,0,True
-1264427,2025-03-16T11:00:00+00:00,FT,Bergantiños,9383,Real Valladolid II,9587,3,2,True
-1264425,2025-03-16T11:00:00+00:00,FT,Salamanca UDS,9588,Gimnástica Torrelavega,5264,1,1,True
-1264426,2025-03-16T11:00:00+00:00,FT,Llanera,9627,Real Ávila,9736,1,1,True
-1264428,2025-03-16T16:00:00+00:00,FT,Coruxo,9385,Compostela,5256,2,0,True
-1264430,2025-03-16T16:00:00+00:00,FT,Guijuelo,9388,Deportivo La Coruña II,9610,0,1,True
-1264429,2025-03-16T16:00:00+00:00,FT,Real Avilés,9632,Pontevedra,9407,1,0,True
-1264369,2025-03-19T19:30:00+00:00,FT,Pontevedra,9407,Numancia,717,1,0,True
-1264368,2025-03-19T20:00:00+00:00,FT,Compostela,5256,Deportivo La Coruña II,9610,0,3,True
-1264435,2025-03-22T15:30:00+00:00,FT,Real Valladolid II,9587,Llanera,9627,0,1,True
-1264441,2025-03-23T11:00:00+00:00,FT,Escobedo,9386,Numancia,717,2,1,True
-1264438,2025-03-23T11:00:00+00:00,FT,Deportivo La Coruña II,9610,Real Avilés,9632,0,0,True
-1264436,2025-03-23T16:00:00+00:00,FT,Compostela,5256,Bergantiños,9383,0,2,True
-1264433,2025-03-23T16:00:00+00:00,FT,Gimnástica Torrelavega,5264,Laredo,9394,3,0,True
-1264439,2025-03-23T16:00:00+00:00,FT,Langreo,5265,Guijuelo,9388,3,0,True
-1264437,2025-03-23T16:00:00+00:00,FT,Pontevedra,9407,Coruxo,9385,1,0,True
-1264440,2025-03-23T17:00:00+00:00,FT,Marino de Luanco,9401,Racing Santander II,9643,2,1,True
-1264447,2025-03-29T16:00:00+00:00,FT,Coruxo,9385,Deportivo La Coruña II,9610,3,1,True
-1264444,2025-03-29T16:00:00+00:00,FT,Salamanca UDS,9588,Real Valladolid II,9587,1,2,True
-1264445,2025-03-29T16:00:00+00:00,FT,Llanera,9627,Compostela,5256,1,1,True
-1264450,2025-03-30T10:00:00+00:00,FT,Racing Santander II,9643,Escobedo,9386,0,0,True
-1264443,2025-03-30T10:30:00+00:00,FT,Laredo,9394,Real Ávila,9736,0,0,True
-1264442,2025-03-30T15:00:00+00:00,FT,Numancia,717,Gimnástica Torrelavega,5264,3,0,True
-1264446,2025-03-30T15:00:00+00:00,FT,Bergantiños,9383,Pontevedra,9407,1,1,True
-1264449,2025-03-30T15:00:00+00:00,FT,Guijuelo,9388,Marino de Luanco,9401,2,1,True
-1264452,2025-04-05T14:30:00+00:00,FT,Real Valladolid II,9587,Laredo,9394,1,2,True
-1264458,2025-04-05T15:00:00+00:00,FT,Escobedo,9386,Guijuelo,9388,2,0,True
-1264455,2025-04-05T15:00:00+00:00,FT,Deportivo La Coruña II,9610,Bergantiños,9383,2,1,True
-1264459,2025-04-06T10:00:00+00:00,FT,Racing Santander II,9643,Numancia,717,2,1,True
-1264456,2025-04-06T15:00:00+00:00,FT,Langreo,5265,Coruxo,9385,2,2,True
-1264457,2025-04-06T15:00:00+00:00,FT,Marino de Luanco,9401,Real Avilés,9632,0,2,True
-1264454,2025-04-06T15:00:00+00:00,FT,Pontevedra,9407,Llanera,9627,2,0,True
-1264451,2025-04-06T15:00:00+00:00,FT,Real Ávila,9736,Gimnástica Torrelavega,5264,3,2,True
-1264453,2025-04-06T18:00:00+00:00,FT,Compostela,5256,Salamanca UDS,9588,1,0,True
-1264465,2025-04-12T15:00:00+00:00,FT,Bergantiños,9383,Langreo,5265,1,2,True
-1264462,2025-04-12T16:00:00+00:00,FT,Laredo,9394,Compostela,5256,0,3,True
-1264467,2025-04-12T16:00:00+00:00,FT,Real Avilés,9632,Escobedo,9386,4,3,True
-1264464,2025-04-12T16:30:00+00:00,FT,Llanera,9627,Deportivo La Coruña II,9610,2,2,True
-1264461,2025-04-13T15:00:00+00:00,FT,Gimnástica Torrelavega,5264,Real Valladolid II,9587,4,0,True
-1264466,2025-04-13T15:00:00+00:00,FT,Coruxo,9385,Marino de Luanco,9401,1,1,True
-1264468,2025-04-13T15:00:00+00:00,FT,Guijuelo,9388,Racing Santander II,9643,1,4,True
-1264463,2025-04-13T15:00:00+00:00,FT,Salamanca UDS,9588,Pontevedra,9407,1,3,True
-1264460,2025-04-13T16:00:00+00:00,FT,Numancia,717,Real Ávila,9736,2,0,True
-1264448,2025-04-16T17:00:00+00:00,FT,Real Avilés,9632,Langreo,5265,0,0,True
-1264475,2025-04-19T15:00:00+00:00,FT,Escobedo,9386,Coruxo,9385,0,0,True
-1264472,2025-04-19T15:00:00+00:00,FT,Deportivo La Coruña II,9610,Salamanca UDS,9588,0,1,True
-1264476,2025-04-20T10:00:00+00:00,FT,Racing Santander II,9643,Real Avilés,9632,4,1,True
-1264470,2025-04-20T15:00:00+00:00,FT,Compostela,5256,Gimnástica Torrelavega,5264,3,1,True
-1264477,2025-04-20T15:00:00+00:00,FT,Guijuelo,9388,Numancia,717,1,4,True
-1264474,2025-04-20T15:00:00+00:00,FT,Marino de Luanco,9401,Bergantiños,9383,1,1,True
-1264471,2025-04-20T15:00:00+00:00,FT,Pontevedra,9407,Laredo,9394,4,2,True
-1264469,2025-04-20T15:30:00+00:00,FT,Real Valladolid II,9587,Real Ávila,9736,2,1,True
-1264473,2025-04-20T16:00:00+00:00,FT,Langreo,5265,Llanera,9627,1,0,True
-1264434,2025-04-23T15:00:00+00:00,FT,Real Ávila,9736,Salamanca UDS,9588,0,1,True
-1264480,2025-04-27T10:00:00+00:00,FT,Gimnástica Torrelavega,5264,Pontevedra,9407,5,1,True
-1264484,2025-04-27T10:00:00+00:00,FT,Bergantiños,9383,Escobedo,9386,1,4,True
-1264485,2025-04-27T10:00:00+00:00,FT,Coruxo,9385,Racing Santander II,9643,1,0,True
-1264481,2025-04-27T10:00:00+00:00,FT,Laredo,9394,Deportivo La Coruña II,9610,1,5,True
-1264478,2025-04-27T10:00:00+00:00,FT,Real Valladolid II,9587,Numancia,717,1,3,True
-1264482,2025-04-27T10:00:00+00:00,FT,Salamanca UDS,9588,Langreo,5265,3,1,True
-1264483,2025-04-27T10:00:00+00:00,FT,Llanera,9627,Marino de Luanco,9401,3,2,True
-1264486,2025-04-27T10:00:00+00:00,FT,Real Avilés,9632,Guijuelo,9388,3,0,True
-1264479,2025-04-27T10:00:00+00:00,FT,Real Ávila,9736,Compostela,5256,2,1,True
-1264495,2025-05-04T10:00:00+00:00,FT,Numancia,717,Real Avilés,9632,3,0,True
-1264487,2025-05-04T10:00:00+00:00,FT,Compostela,5256,Real Valladolid II,9587,1,1,True
-1264490,2025-05-04T10:00:00+00:00,FT,Langreo,5265,Laredo,9394,1,1,True
-1264492,2025-05-04T10:00:00+00:00,FT,Escobedo,9386,Llanera,9627,4,0,True
-1264494,2025-05-04T10:00:00+00:00,FT,Guijuelo,9388,Coruxo,9385,0,2,True
-1264491,2025-05-04T10:00:00+00:00,FT,Marino de Luanco,9401,Salamanca UDS,9588,3,0,True
-1264488,2025-05-04T10:00:00+00:00,FT,Pontevedra,9407,Real Ávila,9736,3,2,True
-1264489,2025-05-04T10:00:00+00:00,FT,Deportivo La Coruña II,9610,Gimnástica Torrelavega,5264,3,0,True
-1264493,2025-05-04T10:00:00+00:00,FT,Racing Santander II,9643,Bergantiños,9383,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1264193,2024-08-31T15:00:00+00:00,FT,Group 1 - 1,Escobedo,9386,Salamanca UDS,9588,1,1,True
+1264191,2024-08-31T16:00:00+00:00,FT,Group 1 - 1,Guijuelo,9388,Bergantiños,9383,0,0,True
+1264196,2024-08-31T16:00:00+00:00,FT,Group 1 - 1,Deportivo La Coruña II,9610,Real Ávila,9736,0,1,True
+1264192,2024-08-31T16:00:00+00:00,FT,Group 1 - 1,Racing Santander II,9643,Llanera,9627,2,0,True
+1264198,2024-09-01T15:30:00+00:00,FT,Group 1 - 1,Numancia,717,Compostela,5256,2,0,True
+1264195,2024-09-01T16:00:00+00:00,FT,Group 1 - 1,Langreo,5265,Gimnástica Torrelavega,5264,4,2,True
+1264190,2024-09-01T16:00:00+00:00,FT,Group 1 - 1,Real Avilés,9632,Coruxo,9385,2,0,True
+1264194,2024-09-01T17:00:00+00:00,FT,Group 1 - 1,Marino de Luanco,9401,Laredo,9394,2,1,True
+1264197,2024-09-01T17:00:00+00:00,FT,Group 1 - 1,Pontevedra,9407,Real Valladolid II,9587,1,0,True
+1264199,2024-09-07T15:00:00+00:00,FT,Group 1 - 2,Coruxo,9385,Numancia,717,1,2,True
+1264206,2024-09-07T15:30:00+00:00,FT,Group 1 - 2,Real Valladolid II,9587,Deportivo La Coruña II,9610,1,2,True
+1264201,2024-09-08T10:00:00+00:00,FT,Group 1 - 2,Llanera,9627,Guijuelo,9388,1,1,True
+1264207,2024-09-08T15:00:00+00:00,FT,Group 1 - 2,Compostela,5256,Pontevedra,9407,2,2,True
+1264204,2024-09-08T16:00:00+00:00,FT,Group 1 - 2,Gimnástica Torrelavega,5264,Marino de Luanco,9401,0,1,True
+1264200,2024-09-08T16:00:00+00:00,FT,Group 1 - 2,Bergantiños,9383,Real Avilés,9632,4,1,True
+1264203,2024-09-08T16:00:00+00:00,FT,Group 1 - 2,Laredo,9394,Escobedo,9386,1,0,True
+1264205,2024-09-08T16:00:00+00:00,FT,Group 1 - 2,Real Ávila,9736,Langreo,5265,0,0,True
+1264202,2024-09-08T17:00:00+00:00,FT,Group 1 - 2,Salamanca UDS,9588,Racing Santander II,9643,0,3,True
+1264212,2024-09-14T16:00:00+00:00,FT,Group 1 - 3,Escobedo,9386,Gimnástica Torrelavega,5264,1,1,True
+1264210,2024-09-14T16:00:00+00:00,FT,Group 1 - 3,Guijuelo,9388,Salamanca UDS,9588,0,1,True
+1264215,2024-09-14T18:00:00+00:00,FT,Group 1 - 3,Deportivo La Coruña II,9610,Compostela,5256,2,0,True
+1264211,2024-09-15T10:00:00+00:00,FT,Group 1 - 3,Racing Santander II,9643,Laredo,9394,0,0,True
+1264216,2024-09-15T15:00:00+00:00,FT,Group 1 - 3,Numancia,717,Pontevedra,9407,2,0,True
+1264214,2024-09-15T15:00:00+00:00,FT,Group 1 - 3,Langreo,5265,Real Valladolid II,9587,1,1,True
+1264208,2024-09-15T16:00:00+00:00,FT,Group 1 - 3,Coruxo,9385,Bergantiños,9383,2,1,True
+1264213,2024-09-15T16:00:00+00:00,FT,Group 1 - 3,Marino de Luanco,9401,Real Ávila,9736,0,1,True
+1264209,2024-09-15T16:00:00+00:00,FT,Group 1 - 3,Real Avilés,9632,Llanera,9627,1,0,True
+1264217,2024-09-21T15:00:00+00:00,FT,Group 1 - 4,Bergantiños,9383,Numancia,717,1,1,True
+1264223,2024-09-21T15:30:00+00:00,FT,Group 1 - 4,Real Valladolid II,9587,Marino de Luanco,9401,1,1,True
+1264224,2024-09-22T10:00:00+00:00,FT,Group 1 - 4,Compostela,5256,Langreo,5265,0,2,True
+1264221,2024-09-22T10:00:00+00:00,FT,Group 1 - 4,Gimnástica Torrelavega,5264,Racing Santander II,9643,1,1,True
+1264218,2024-09-22T10:00:00+00:00,FT,Group 1 - 4,Llanera,9627,Coruxo,9385,1,2,True
+1264225,2024-09-22T15:00:00+00:00,FT,Group 1 - 4,Pontevedra,9407,Deportivo La Coruña II,9610,2,1,True
+1264219,2024-09-22T15:00:00+00:00,FT,Group 1 - 4,Salamanca UDS,9588,Real Avilés,9632,0,0,True
+1264222,2024-09-22T15:30:00+00:00,FT,Group 1 - 4,Real Ávila,9736,Escobedo,9386,0,1,True
+1264220,2024-09-22T16:00:00+00:00,FT,Group 1 - 4,Laredo,9394,Guijuelo,9388,3,3,True
+1264227,2024-09-28T15:00:00+00:00,FT,Group 1 - 5,Coruxo,9385,Salamanca UDS,9588,2,3,True
+1264231,2024-09-28T15:00:00+00:00,FT,Group 1 - 5,Escobedo,9386,Real Valladolid II,9587,1,4,True
+1264229,2024-09-28T15:00:00+00:00,FT,Group 1 - 5,Guijuelo,9388,Gimnástica Torrelavega,5264,1,0,True
+1264228,2024-09-29T10:00:00+00:00,FT,Group 1 - 5,Real Avilés,9632,Laredo,9394,3,0,True
+1264230,2024-09-29T10:00:00+00:00,FT,Group 1 - 5,Racing Santander II,9643,Real Ávila,9736,0,2,True
+1264234,2024-09-29T15:00:00+00:00,FT,Group 1 - 5,Numancia,717,Deportivo La Coruña II,9610,1,0,True
+1264233,2024-09-29T15:00:00+00:00,FT,Group 1 - 5,Langreo,5265,Pontevedra,9407,0,2,True
+1264226,2024-09-29T15:00:00+00:00,FT,Group 1 - 5,Bergantiños,9383,Llanera,9627,2,2,True
+1264232,2024-09-29T15:00:00+00:00,FT,Group 1 - 5,Marino de Luanco,9401,Compostela,5256,0,2,True
+1264243,2024-10-05T14:00:00+00:00,FT,Group 1 - 6,Deportivo La Coruña II,9610,Langreo,5265,1,1,True
+1264237,2024-10-05T16:00:00+00:00,FT,Group 1 - 6,Laredo,9394,Coruxo,9385,0,2,True
+1264240,2024-10-06T10:00:00+00:00,FT,Group 1 - 6,Real Valladolid II,9587,Racing Santander II,9643,1,1,True
+1264235,2024-10-06T10:00:00+00:00,FT,Group 1 - 6,Llanera,9627,Numancia,717,1,4,True
+1264241,2024-10-06T14:30:00+00:00,FT,Group 1 - 6,Compostela,5256,Escobedo,9386,1,2,True
+1264238,2024-10-06T15:00:00+00:00,FT,Group 1 - 6,Gimnástica Torrelavega,5264,Real Avilés,9632,1,3,True
+1264242,2024-10-06T15:00:00+00:00,FT,Group 1 - 6,Pontevedra,9407,Marino de Luanco,9401,0,1,True
+1264236,2024-10-06T15:00:00+00:00,FT,Group 1 - 6,Salamanca UDS,9588,Bergantiños,9383,1,5,True
+1264239,2024-10-06T15:00:00+00:00,FT,Group 1 - 6,Real Ávila,9736,Guijuelo,9388,1,0,True
+1264246,2024-10-12T15:00:00+00:00,FT,Group 1 - 7,Coruxo,9385,Gimnástica Torrelavega,5264,1,1,True
+1264250,2024-10-12T15:00:00+00:00,FT,Group 1 - 7,Escobedo,9386,Pontevedra,9407,0,2,True
+1264248,2024-10-12T15:00:00+00:00,FT,Group 1 - 7,Guijuelo,9388,Real Valladolid II,9587,1,2,True
+1264247,2024-10-12T16:00:00+00:00,FT,Group 1 - 7,Real Avilés,9632,Real Ávila,9736,2,0,True
+1264244,2024-10-13T10:00:00+00:00,FT,Group 1 - 7,Llanera,9627,Salamanca UDS,9588,0,0,True
+1264249,2024-10-13T10:00:00+00:00,FT,Group 1 - 7,Racing Santander II,9643,Compostela,5256,2,1,True
+1264252,2024-10-13T14:30:00+00:00,FT,Group 1 - 7,Numancia,717,Langreo,5265,1,1,True
+1264251,2024-10-13T15:00:00+00:00,FT,Group 1 - 7,Marino de Luanco,9401,Deportivo La Coruña II,9610,2,0,True
+1264245,2024-10-13T16:00:00+00:00,FT,Group 1 - 7,Bergantiños,9383,Laredo,9394,1,1,True
+1264257,2024-10-19T14:30:00+00:00,FT,Group 1 - 8,Real Valladolid II,9587,Real Avilés,9632,4,0,True
+1264254,2024-10-19T16:00:00+00:00,FT,Group 1 - 8,Laredo,9394,Llanera,9627,0,0,True
+1264258,2024-10-20T10:00:00+00:00,FT,Group 1 - 8,Compostela,5256,Guijuelo,9388,1,0,True
+1264256,2024-10-20T14:30:00+00:00,FT,Group 1 - 8,Real Ávila,9736,Coruxo,9385,3,2,True
+1264255,2024-10-20T15:00:00+00:00,FT,Group 1 - 8,Gimnástica Torrelavega,5264,Bergantiños,9383,1,3,True
+1264261,2024-10-20T15:00:00+00:00,FT,Group 1 - 8,Langreo,5265,Marino de Luanco,9401,2,1,True
+1264259,2024-10-20T15:00:00+00:00,FT,Group 1 - 8,Pontevedra,9407,Racing Santander II,9643,2,1,True
+1264253,2024-10-20T15:00:00+00:00,FT,Group 1 - 8,Salamanca UDS,9588,Numancia,717,1,1,True
+1264260,2024-10-20T15:00:00+00:00,FT,Group 1 - 8,Deportivo La Coruña II,9610,Escobedo,9386,4,0,True
+1264268,2024-10-26T10:00:00+00:00,FT,Group 1 - 9,Racing Santander II,9643,Deportivo La Coruña II,9610,1,2,True
+1264269,2024-10-26T14:30:00+00:00,FT,Group 1 - 9,Escobedo,9386,Langreo,5265,0,2,True
+1264270,2024-10-26T15:00:00+00:00,FT,Group 1 - 9,Numancia,717,Marino de Luanco,9401,1,0,True
+1264264,2024-10-26T15:00:00+00:00,FT,Group 1 - 9,Bergantiños,9383,Real Ávila,9736,2,1,True
+1264267,2024-10-26T15:00:00+00:00,FT,Group 1 - 9,Guijuelo,9388,Pontevedra,9407,0,1,True
+1264262,2024-10-26T15:00:00+00:00,FT,Group 1 - 9,Salamanca UDS,9588,Laredo,9394,5,1,True
+1264263,2024-10-26T15:30:00+00:00,FT,Group 1 - 9,Llanera,9627,Gimnástica Torrelavega,5264,2,1,True
+1264266,2024-10-26T16:00:00+00:00,FT,Group 1 - 9,Real Avilés,9632,Compostela,5256,0,0,True
+1264265,2024-10-27T15:00:00+00:00,FT,Group 1 - 9,Coruxo,9385,Real Valladolid II,9587,0,0,True
+1264272,2024-11-03T11:00:00+00:00,FT,Group 1 - 10,Gimnástica Torrelavega,5264,Salamanca UDS,9588,1,2,True
+1264274,2024-11-03T11:00:00+00:00,FT,Group 1 - 10,Real Valladolid II,9587,Bergantiños,9383,1,0,True
+1264277,2024-11-03T11:00:00+00:00,FT,Group 1 - 10,Deportivo La Coruña II,9610,Guijuelo,9388,1,0,True
+1264275,2024-11-03T16:00:00+00:00,FT,Group 1 - 10,Compostela,5256,Coruxo,9385,1,0,True
+1264278,2024-11-03T16:00:00+00:00,FT,Group 1 - 10,Langreo,5265,Racing Santander II,9643,0,2,True
+1264271,2024-11-03T16:00:00+00:00,FT,Group 1 - 10,Laredo,9394,Numancia,717,1,3,True
+1264279,2024-11-03T16:00:00+00:00,FT,Group 1 - 10,Marino de Luanco,9401,Escobedo,9386,1,1,True
+1264276,2024-11-03T16:00:00+00:00,FT,Group 1 - 10,Pontevedra,9407,Real Avilés,9632,1,1,True
+1264273,2024-11-03T16:00:00+00:00,FT,Group 1 - 10,Real Ávila,9736,Llanera,9627,2,0,True
+1264282,2024-11-09T15:00:00+00:00,FT,Group 1 - 11,Llanera,9627,Real Valladolid II,9587,1,0,True
+1264283,2024-11-09T16:00:00+00:00,FT,Group 1 - 11,Bergantiños,9383,Compostela,5256,0,4,True
+1264286,2024-11-09T16:00:00+00:00,FT,Group 1 - 11,Guijuelo,9388,Langreo,5265,0,0,True
+1264285,2024-11-10T11:00:00+00:00,FT,Group 1 - 11,Real Avilés,9632,Deportivo La Coruña II,9610,0,2,True
+1264287,2024-11-10T11:30:00+00:00,FT,Group 1 - 11,Racing Santander II,9643,Marino de Luanco,9401,4,2,True
+1264288,2024-11-10T16:00:00+00:00,FT,Group 1 - 11,Numancia,717,Escobedo,9386,1,1,True
+1264281,2024-11-10T16:00:00+00:00,FT,Group 1 - 11,Salamanca UDS,9588,Real Ávila,9736,2,1,True
+1264280,2024-11-10T17:00:00+00:00,FT,Group 1 - 11,Laredo,9394,Gimnástica Torrelavega,5264,0,2,True
+1264284,2024-11-10T18:00:00+00:00,FT,Group 1 - 11,Coruxo,9385,Pontevedra,9407,0,1,True
+1264295,2024-11-16T17:00:00+00:00,FT,Group 1 - 12,Langreo,5265,Real Avilés,9632,0,2,True
+1264291,2024-11-16T17:00:00+00:00,FT,Group 1 - 12,Real Valladolid II,9587,Salamanca UDS,9588,0,1,True
+1264293,2024-11-16T19:00:00+00:00,FT,Group 1 - 12,Pontevedra,9407,Bergantiños,9383,1,0,True
+1264289,2024-11-17T11:00:00+00:00,FT,Group 1 - 12,Gimnástica Torrelavega,5264,Numancia,717,1,0,True
+1264297,2024-11-17T11:00:00+00:00,FT,Group 1 - 12,Escobedo,9386,Racing Santander II,9643,0,5,True
+1264294,2024-11-17T15:00:00+00:00,FT,Group 1 - 12,Deportivo La Coruña II,9610,Coruxo,9385,0,1,True
+1264296,2024-11-17T16:00:00+00:00,FT,Group 1 - 12,Marino de Luanco,9401,Guijuelo,9388,1,1,True
+1264290,2024-11-17T16:00:00+00:00,FT,Group 1 - 12,Real Ávila,9736,Laredo,9394,1,0,True
+1264292,2024-11-17T16:30:00+00:00,FT,Group 1 - 12,Compostela,5256,Llanera,9627,1,0,True
+1264305,2024-11-23T16:00:00+00:00,FT,Group 1 - 13,Guijuelo,9388,Escobedo,9386,1,1,True
+1264299,2024-11-23T16:00:00+00:00,FT,Group 1 - 13,Laredo,9394,Real Valladolid II,9587,0,1,True
+1264306,2024-11-24T11:00:00+00:00,FT,Group 1 - 13,Numancia,717,Racing Santander II,9643,1,0,True
+1264298,2024-11-24T11:00:00+00:00,FT,Group 1 - 13,Gimnástica Torrelavega,5264,Real Ávila,9736,0,1,True
+1264303,2024-11-24T11:00:00+00:00,FT,Group 1 - 13,Coruxo,9385,Langreo,5265,3,0,True
+1264301,2024-11-24T11:00:00+00:00,FT,Group 1 - 13,Llanera,9627,Pontevedra,9407,0,0,True
+1264300,2024-11-24T16:00:00+00:00,FT,Group 1 - 13,Salamanca UDS,9588,Compostela,5256,2,2,True
+1264304,2024-11-24T17:00:00+00:00,FT,Group 1 - 13,Real Avilés,9632,Marino de Luanco,9401,1,0,True
+1264311,2024-11-30T15:30:00+00:00,FT,Group 1 - 14,Deportivo La Coruña II,9610,Llanera,9627,2,1,True
+1264309,2024-11-30T16:30:00+00:00,FT,Group 1 - 14,Compostela,5256,Laredo,9394,2,1,True
+1264307,2024-11-30T17:00:00+00:00,FT,Group 1 - 14,Real Ávila,9736,Numancia,717,0,0,True
+1264310,2024-11-30T19:00:00+00:00,FT,Group 1 - 14,Pontevedra,9407,Salamanca UDS,9588,3,1,True
+1264314,2024-12-01T11:00:00+00:00,FT,Group 1 - 14,Escobedo,9386,Real Avilés,9632,1,1,True
+1264308,2024-12-01T11:00:00+00:00,FT,Group 1 - 14,Real Valladolid II,9587,Gimnástica Torrelavega,5264,3,3,True
+1264315,2024-12-01T11:00:00+00:00,FT,Group 1 - 14,Racing Santander II,9643,Guijuelo,9388,2,2,True
+1264312,2024-12-01T16:00:00+00:00,FT,Group 1 - 14,Langreo,5265,Bergantiños,9383,1,4,True
+1264313,2024-12-01T16:00:00+00:00,FT,Group 1 - 14,Marino de Luanco,9401,Coruxo,9385,1,0,True
+1264320,2024-12-07T15:00:00+00:00,FT,Group 1 - 15,Llanera,9627,Langreo,5265,0,1,True
+1264322,2024-12-07T15:30:00+00:00,FT,Group 1 - 15,Coruxo,9385,Escobedo,9386,3,0,True
+1264318,2024-12-07T17:00:00+00:00,FT,Group 1 - 15,Laredo,9394,Pontevedra,9407,0,3,True
+1264323,2024-12-07T17:00:00+00:00,FT,Group 1 - 15,Real Avilés,9632,Racing Santander II,9643,2,2,True
+1264324,2024-12-08T11:00:00+00:00,FT,Group 1 - 15,Numancia,717,Guijuelo,9388,2,2,True
+1264317,2024-12-08T11:00:00+00:00,FT,Group 1 - 15,Gimnástica Torrelavega,5264,Compostela,5256,2,0,True
+1264321,2024-12-08T16:00:00+00:00,FT,Group 1 - 15,Bergantiños,9383,Marino de Luanco,9401,1,2,True
+1264319,2024-12-08T16:00:00+00:00,FT,Group 1 - 15,Salamanca UDS,9588,Deportivo La Coruña II,9610,3,2,True
+1264316,2024-12-08T17:00:00+00:00,FT,Group 1 - 15,Real Ávila,9736,Real Valladolid II,9587,2,3,True
+1264328,2024-12-14T11:00:00+00:00,FT,Group 1 - 16,Deportivo La Coruña II,9610,Laredo,9394,3,0,True
+1264332,2024-12-14T14:30:00+00:00,FT,Group 1 - 16,Racing Santander II,9643,Coruxo,9385,1,1,True
+1264325,2024-12-15T11:00:00+00:00,FT,Group 1 - 16,Numancia,717,Real Valladolid II,9587,3,1,True
+1264331,2024-12-15T11:00:00+00:00,FT,Group 1 - 16,Escobedo,9386,Bergantiños,9383,1,1,True
+1264329,2024-12-15T16:00:00+00:00,FT,Group 1 - 16,Langreo,5265,Salamanca UDS,9588,3,1,True
+1264333,2024-12-15T16:00:00+00:00,FT,Group 1 - 16,Guijuelo,9388,Real Avilés,9632,2,1,True
+1264330,2024-12-15T16:00:00+00:00,FT,Group 1 - 16,Marino de Luanco,9401,Llanera,9627,3,1,True
+1264327,2024-12-15T16:00:00+00:00,FT,Group 1 - 16,Pontevedra,9407,Gimnástica Torrelavega,5264,2,1,True
+1264326,2024-12-15T16:30:00+00:00,FT,Group 1 - 16,Compostela,5256,Real Ávila,9736,0,0,True
+1264302,2024-12-18T19:00:00+00:00,FT,Group 1 - 13,Bergantiños,9383,Deportivo La Coruña II,9610,2,1,True
+1264334,2024-12-21T15:00:00+00:00,FT,Group 1 - 17,Real Valladolid II,9587,Compostela,5256,1,0,True
+1264339,2024-12-21T15:00:00+00:00,FT,Group 1 - 17,Llanera,9627,Escobedo,9386,0,2,True
+1264338,2024-12-21T16:00:00+00:00,FT,Group 1 - 17,Salamanca UDS,9588,Marino de Luanco,9401,0,0,True
+1264335,2024-12-21T16:00:00+00:00,FT,Group 1 - 17,Real Ávila,9736,Pontevedra,9407,1,2,True
+1264337,2024-12-21T17:00:00+00:00,FT,Group 1 - 17,Laredo,9394,Langreo,5265,0,0,True
+1264336,2024-12-22T11:00:00+00:00,FT,Group 1 - 17,Gimnástica Torrelavega,5264,Deportivo La Coruña II,9610,1,1,True
+1264341,2024-12-22T15:30:00+00:00,FT,Group 1 - 17,Coruxo,9385,Guijuelo,9388,0,1,True
+1264340,2024-12-22T16:30:00+00:00,FT,Group 1 - 17,Bergantiños,9383,Racing Santander II,9643,3,3,True
+1264342,2024-12-22T17:00:00+00:00,FT,Group 1 - 17,Real Avilés,9632,Numancia,717,0,2,True
+1264351,2025-01-12T11:00:00+00:00,FT,Group 1 - 18,Compostela,5256,Numancia,717,2,2,True
+1264348,2025-01-12T11:00:00+00:00,FT,Group 1 - 18,Gimnástica Torrelavega,5264,Langreo,5265,0,1,True
+1264347,2025-01-12T11:00:00+00:00,FT,Group 1 - 18,Laredo,9394,Marino de Luanco,9401,3,1,True
+1264345,2025-01-12T11:30:00+00:00,FT,Group 1 - 18,Llanera,9627,Racing Santander II,9643,4,3,True
+1264344,2025-01-12T15:00:00+00:00,FT,Group 1 - 18,Bergantiños,9383,Guijuelo,9388,2,3,True
+1264343,2025-01-12T15:00:00+00:00,FT,Group 1 - 18,Coruxo,9385,Real Avilés,9632,2,2,True
+1264350,2025-01-12T15:00:00+00:00,FT,Group 1 - 18,Real Valladolid II,9587,Pontevedra,9407,0,0,True
+1264346,2025-01-12T16:00:00+00:00,FT,Group 1 - 18,Salamanca UDS,9588,Escobedo,9386,0,1,True
+1264349,2025-01-12T16:00:00+00:00,FT,Group 1 - 18,Real Ávila,9736,Deportivo La Coruña II,9610,1,0,True
+1264355,2025-01-18T14:30:00+00:00,FT,Group 1 - 19,Racing Santander II,9643,Salamanca UDS,9588,1,2,True
+1264352,2025-01-18T16:00:00+00:00,FT,Group 1 - 19,Numancia,717,Coruxo,9385,1,0,True
+1264356,2025-01-19T11:00:00+00:00,FT,Group 1 - 19,Escobedo,9386,Laredo,9394,0,0,True
+1264359,2025-01-19T11:00:00+00:00,FT,Group 1 - 19,Deportivo La Coruña II,9610,Real Valladolid II,9587,0,0,True
+1264353,2025-01-19T11:00:00+00:00,FT,Group 1 - 19,Real Avilés,9632,Bergantiños,9383,3,0,True
+1264358,2025-01-19T16:00:00+00:00,FT,Group 1 - 19,Langreo,5265,Real Ávila,9736,0,1,True
+1264354,2025-01-19T16:00:00+00:00,FT,Group 1 - 19,Guijuelo,9388,Llanera,9627,0,1,True
+1264357,2025-01-19T16:00:00+00:00,FT,Group 1 - 19,Marino de Luanco,9401,Gimnástica Torrelavega,5264,2,0,True
+1264360,2025-01-19T16:00:00+00:00,FT,Group 1 - 19,Pontevedra,9407,Compostela,5256,4,1,True
+1264364,2025-01-25T17:30:00+00:00,FT,Group 1 - 20,Laredo,9394,Racing Santander II,9643,2,1,True
+1264361,2025-01-25T18:00:00+00:00,FT,Group 1 - 20,Bergantiños,9383,Coruxo,9385,0,1,True
+1264365,2025-01-26T11:00:00+00:00,FT,Group 1 - 20,Gimnástica Torrelavega,5264,Escobedo,9386,0,1,True
+1264367,2025-01-26T11:00:00+00:00,FT,Group 1 - 20,Real Valladolid II,9587,Langreo,5265,0,0,True
+1264362,2025-01-26T11:00:00+00:00,FT,Group 1 - 20,Llanera,9627,Real Avilés,9632,1,1,True
+1264363,2025-01-26T16:00:00+00:00,FT,Group 1 - 20,Salamanca UDS,9588,Guijuelo,9388,1,1,True
+1264366,2025-01-26T16:00:00+00:00,FT,Group 1 - 20,Real Ávila,9736,Marino de Luanco,9401,1,0,True
+1264375,2025-02-01T15:30:00+00:00,FT,Group 1 - 21,Escobedo,9386,Real Ávila,9736,1,0,True
+1264370,2025-02-02T11:00:00+00:00,FT,Group 1 - 21,Numancia,717,Bergantiños,9383,1,0,True
+1264378,2025-02-02T11:00:00+00:00,FT,Group 1 - 21,Deportivo La Coruña II,9610,Pontevedra,9407,3,0,True
+1264374,2025-02-02T11:00:00+00:00,FT,Group 1 - 21,Racing Santander II,9643,Gimnástica Torrelavega,5264,0,1,True
+1264371,2025-02-02T15:30:00+00:00,FT,Group 1 - 21,Coruxo,9385,Llanera,9627,1,0,True
+1264377,2025-02-02T16:00:00+00:00,FT,Group 1 - 21,Langreo,5265,Compostela,5256,2,1,True
+1264373,2025-02-02T16:00:00+00:00,FT,Group 1 - 21,Guijuelo,9388,Laredo,9394,1,1,True
+1264376,2025-02-02T16:00:00+00:00,FT,Group 1 - 21,Marino de Luanco,9401,Real Valladolid II,9587,4,0,True
+1264372,2025-02-02T16:00:00+00:00,FT,Group 1 - 21,Real Avilés,9632,Salamanca UDS,9588,2,1,True
+1264384,2025-02-08T15:00:00+00:00,FT,Group 1 - 22,Real Valladolid II,9587,Escobedo,9386,0,0,True
+1264381,2025-02-09T11:00:00+00:00,FT,Group 1 - 22,Laredo,9394,Real Avilés,9632,2,2,True
+1264387,2025-02-09T11:00:00+00:00,FT,Group 1 - 22,Deportivo La Coruña II,9610,Numancia,717,0,2,True
+1264379,2025-02-09T15:00:00+00:00,FT,Group 1 - 22,Llanera,9627,Bergantiños,9383,1,0,True
+1264385,2025-02-09T16:00:00+00:00,FT,Group 1 - 22,Compostela,5256,Marino de Luanco,9401,4,2,True
+1264382,2025-02-09T16:00:00+00:00,FT,Group 1 - 22,Gimnástica Torrelavega,5264,Guijuelo,9388,0,0,True
+1264386,2025-02-09T16:00:00+00:00,FT,Group 1 - 22,Pontevedra,9407,Langreo,5265,2,1,True
+1264380,2025-02-09T16:00:00+00:00,FT,Group 1 - 22,Salamanca UDS,9588,Coruxo,9385,3,0,True
+1264383,2025-02-09T16:00:00+00:00,FT,Group 1 - 22,Real Ávila,9736,Racing Santander II,9643,4,0,True
+1264396,2025-02-15T17:00:00+00:00,FT,Group 1 - 23,Langreo,5265,Deportivo La Coruña II,9610,0,3,True
+1264389,2025-02-15T18:00:00+00:00,FT,Group 1 - 23,Bergantiños,9383,Salamanca UDS,9588,2,1,True
+1264388,2025-02-16T11:00:00+00:00,FT,Group 1 - 23,Numancia,717,Llanera,9627,3,3,True
+1264394,2025-02-16T11:00:00+00:00,FT,Group 1 - 23,Escobedo,9386,Compostela,5256,0,0,True
+1264391,2025-02-16T11:00:00+00:00,FT,Group 1 - 23,Real Avilés,9632,Gimnástica Torrelavega,5264,2,2,True
+1264393,2025-02-16T11:00:00+00:00,FT,Group 1 - 23,Racing Santander II,9643,Real Valladolid II,9587,2,2,True
+1264390,2025-02-16T16:00:00+00:00,FT,Group 1 - 23,Coruxo,9385,Laredo,9394,1,1,True
+1264392,2025-02-16T16:00:00+00:00,FT,Group 1 - 23,Guijuelo,9388,Real Ávila,9736,1,1,True
+1264395,2025-02-16T16:00:00+00:00,FT,Group 1 - 23,Marino de Luanco,9401,Pontevedra,9407,0,0,True
+1264401,2025-02-22T15:30:00+00:00,FT,Group 1 - 24,Real Valladolid II,9587,Guijuelo,9388,5,1,True
+1264404,2025-02-22T17:00:00+00:00,FT,Group 1 - 24,Deportivo La Coruña II,9610,Marino de Luanco,9401,0,0,True
+1264398,2025-02-22T17:30:00+00:00,FT,Group 1 - 24,Laredo,9394,Bergantiños,9383,0,1,True
+1264402,2025-02-23T16:00:00+00:00,FT,Group 1 - 24,Compostela,5256,Racing Santander II,9643,1,2,True
+1264399,2025-02-23T16:00:00+00:00,FT,Group 1 - 24,Gimnástica Torrelavega,5264,Coruxo,9385,0,0,True
+1264405,2025-02-23T16:00:00+00:00,FT,Group 1 - 24,Langreo,5265,Numancia,717,0,0,True
+1264403,2025-02-23T16:00:00+00:00,FT,Group 1 - 24,Pontevedra,9407,Escobedo,9386,2,0,True
+1264397,2025-02-23T16:00:00+00:00,FT,Group 1 - 24,Salamanca UDS,9588,Llanera,9627,0,3,True
+1264400,2025-02-23T16:00:00+00:00,FT,Group 1 - 24,Real Ávila,9736,Real Avilés,9632,0,0,True
+1264407,2025-03-01T15:00:00+00:00,FT,Group 1 - 25,Llanera,9627,Laredo,9394,2,1,True
+1264408,2025-03-01T16:00:00+00:00,FT,Group 1 - 25,Bergantiños,9383,Gimnástica Torrelavega,5264,2,0,True
+1264406,2025-03-02T11:00:00+00:00,FT,Group 1 - 25,Numancia,717,Salamanca UDS,9588,2,0,True
+1264409,2025-03-02T11:00:00+00:00,FT,Group 1 - 25,Coruxo,9385,Real Ávila,9736,0,1,True
+1264413,2025-03-02T11:00:00+00:00,FT,Group 1 - 25,Escobedo,9386,Deportivo La Coruña II,9610,0,1,True
+1264412,2025-03-02T11:00:00+00:00,FT,Group 1 - 25,Racing Santander II,9643,Pontevedra,9407,2,1,True
+1264411,2025-03-02T16:00:00+00:00,FT,Group 1 - 25,Guijuelo,9388,Compostela,5256,1,0,True
+1264414,2025-03-02T16:00:00+00:00,FT,Group 1 - 25,Marino de Luanco,9401,Langreo,5265,0,1,True
+1264410,2025-03-02T16:00:00+00:00,FT,Group 1 - 25,Real Avilés,9632,Real Valladolid II,9587,2,0,True
+1264415,2025-03-08T16:00:00+00:00,FT,Group 1 - 26,Laredo,9394,Salamanca UDS,9588,0,3,True
+1264418,2025-03-09T11:00:00+00:00,FT,Group 1 - 26,Real Valladolid II,9587,Coruxo,9385,2,0,True
+1264421,2025-03-09T11:00:00+00:00,FT,Group 1 - 26,Deportivo La Coruña II,9610,Racing Santander II,9643,0,1,True
+1264419,2025-03-09T16:00:00+00:00,FT,Group 1 - 26,Compostela,5256,Real Avilés,9632,1,1,True
+1264416,2025-03-09T16:00:00+00:00,FT,Group 1 - 26,Gimnástica Torrelavega,5264,Llanera,9627,0,0,True
+1264422,2025-03-09T16:00:00+00:00,FT,Group 1 - 26,Langreo,5265,Escobedo,9386,1,0,True
+1264423,2025-03-09T16:00:00+00:00,FT,Group 1 - 26,Marino de Luanco,9401,Numancia,717,1,0,True
+1264420,2025-03-09T16:00:00+00:00,FT,Group 1 - 26,Pontevedra,9407,Guijuelo,9388,1,0,True
+1264417,2025-03-09T16:00:00+00:00,FT,Group 1 - 26,Real Ávila,9736,Bergantiños,9383,0,1,True
+1264431,2025-03-15T15:00:00+00:00,FT,Group 1 - 27,Racing Santander II,9643,Langreo,5265,1,0,True
+1264424,2025-03-15T16:00:00+00:00,FT,Group 1 - 27,Numancia,717,Laredo,9394,0,0,True
+1264432,2025-03-15T16:00:00+00:00,FT,Group 1 - 27,Escobedo,9386,Marino de Luanco,9401,0,0,True
+1264427,2025-03-16T11:00:00+00:00,FT,Group 1 - 27,Bergantiños,9383,Real Valladolid II,9587,3,2,True
+1264425,2025-03-16T11:00:00+00:00,FT,Group 1 - 27,Salamanca UDS,9588,Gimnástica Torrelavega,5264,1,1,True
+1264426,2025-03-16T11:00:00+00:00,FT,Group 1 - 27,Llanera,9627,Real Ávila,9736,1,1,True
+1264428,2025-03-16T16:00:00+00:00,FT,Group 1 - 27,Coruxo,9385,Compostela,5256,2,0,True
+1264430,2025-03-16T16:00:00+00:00,FT,Group 1 - 27,Guijuelo,9388,Deportivo La Coruña II,9610,0,1,True
+1264429,2025-03-16T16:00:00+00:00,FT,Group 1 - 27,Real Avilés,9632,Pontevedra,9407,1,0,True
+1264369,2025-03-19T19:30:00+00:00,FT,Group 1 - 20,Pontevedra,9407,Numancia,717,1,0,True
+1264368,2025-03-19T20:00:00+00:00,FT,Group 1 - 20,Compostela,5256,Deportivo La Coruña II,9610,0,3,True
+1264435,2025-03-22T15:30:00+00:00,FT,Group 1 - 28,Real Valladolid II,9587,Llanera,9627,0,1,True
+1264441,2025-03-23T11:00:00+00:00,FT,Group 1 - 28,Escobedo,9386,Numancia,717,2,1,True
+1264438,2025-03-23T11:00:00+00:00,FT,Group 1 - 28,Deportivo La Coruña II,9610,Real Avilés,9632,0,0,True
+1264436,2025-03-23T16:00:00+00:00,FT,Group 1 - 28,Compostela,5256,Bergantiños,9383,0,2,True
+1264433,2025-03-23T16:00:00+00:00,FT,Group 1 - 28,Gimnástica Torrelavega,5264,Laredo,9394,3,0,True
+1264439,2025-03-23T16:00:00+00:00,FT,Group 1 - 28,Langreo,5265,Guijuelo,9388,3,0,True
+1264437,2025-03-23T16:00:00+00:00,FT,Group 1 - 28,Pontevedra,9407,Coruxo,9385,1,0,True
+1264440,2025-03-23T17:00:00+00:00,FT,Group 1 - 28,Marino de Luanco,9401,Racing Santander II,9643,2,1,True
+1264447,2025-03-29T16:00:00+00:00,FT,Group 1 - 29,Coruxo,9385,Deportivo La Coruña II,9610,3,1,True
+1264444,2025-03-29T16:00:00+00:00,FT,Group 1 - 29,Salamanca UDS,9588,Real Valladolid II,9587,1,2,True
+1264445,2025-03-29T16:00:00+00:00,FT,Group 1 - 29,Llanera,9627,Compostela,5256,1,1,True
+1264450,2025-03-30T10:00:00+00:00,FT,Group 1 - 29,Racing Santander II,9643,Escobedo,9386,0,0,True
+1264443,2025-03-30T10:30:00+00:00,FT,Group 1 - 29,Laredo,9394,Real Ávila,9736,0,0,True
+1264442,2025-03-30T15:00:00+00:00,FT,Group 1 - 29,Numancia,717,Gimnástica Torrelavega,5264,3,0,True
+1264446,2025-03-30T15:00:00+00:00,FT,Group 1 - 29,Bergantiños,9383,Pontevedra,9407,1,1,True
+1264449,2025-03-30T15:00:00+00:00,FT,Group 1 - 29,Guijuelo,9388,Marino de Luanco,9401,2,1,True
+1264452,2025-04-05T14:30:00+00:00,FT,Group 1 - 30,Real Valladolid II,9587,Laredo,9394,1,2,True
+1264458,2025-04-05T15:00:00+00:00,FT,Group 1 - 30,Escobedo,9386,Guijuelo,9388,2,0,True
+1264455,2025-04-05T15:00:00+00:00,FT,Group 1 - 30,Deportivo La Coruña II,9610,Bergantiños,9383,2,1,True
+1264459,2025-04-06T10:00:00+00:00,FT,Group 1 - 30,Racing Santander II,9643,Numancia,717,2,1,True
+1264456,2025-04-06T15:00:00+00:00,FT,Group 1 - 30,Langreo,5265,Coruxo,9385,2,2,True
+1264457,2025-04-06T15:00:00+00:00,FT,Group 1 - 30,Marino de Luanco,9401,Real Avilés,9632,0,2,True
+1264454,2025-04-06T15:00:00+00:00,FT,Group 1 - 30,Pontevedra,9407,Llanera,9627,2,0,True
+1264451,2025-04-06T15:00:00+00:00,FT,Group 1 - 30,Real Ávila,9736,Gimnástica Torrelavega,5264,3,2,True
+1264453,2025-04-06T18:00:00+00:00,FT,Group 1 - 30,Compostela,5256,Salamanca UDS,9588,1,0,True
+1264465,2025-04-12T15:00:00+00:00,FT,Group 1 - 31,Bergantiños,9383,Langreo,5265,1,2,True
+1264462,2025-04-12T16:00:00+00:00,FT,Group 1 - 31,Laredo,9394,Compostela,5256,0,3,True
+1264467,2025-04-12T16:00:00+00:00,FT,Group 1 - 31,Real Avilés,9632,Escobedo,9386,4,3,True
+1264464,2025-04-12T16:30:00+00:00,FT,Group 1 - 31,Llanera,9627,Deportivo La Coruña II,9610,2,2,True
+1264461,2025-04-13T15:00:00+00:00,FT,Group 1 - 31,Gimnástica Torrelavega,5264,Real Valladolid II,9587,4,0,True
+1264466,2025-04-13T15:00:00+00:00,FT,Group 1 - 31,Coruxo,9385,Marino de Luanco,9401,1,1,True
+1264468,2025-04-13T15:00:00+00:00,FT,Group 1 - 31,Guijuelo,9388,Racing Santander II,9643,1,4,True
+1264463,2025-04-13T15:00:00+00:00,FT,Group 1 - 31,Salamanca UDS,9588,Pontevedra,9407,1,3,True
+1264460,2025-04-13T16:00:00+00:00,FT,Group 1 - 31,Numancia,717,Real Ávila,9736,2,0,True
+1264448,2025-04-16T17:00:00+00:00,FT,Group 1 - 29,Real Avilés,9632,Langreo,5265,0,0,True
+1264475,2025-04-19T15:00:00+00:00,FT,Group 1 - 32,Escobedo,9386,Coruxo,9385,0,0,True
+1264472,2025-04-19T15:00:00+00:00,FT,Group 1 - 32,Deportivo La Coruña II,9610,Salamanca UDS,9588,0,1,True
+1264476,2025-04-20T10:00:00+00:00,FT,Group 1 - 32,Racing Santander II,9643,Real Avilés,9632,4,1,True
+1264470,2025-04-20T15:00:00+00:00,FT,Group 1 - 32,Compostela,5256,Gimnástica Torrelavega,5264,3,1,True
+1264477,2025-04-20T15:00:00+00:00,FT,Group 1 - 32,Guijuelo,9388,Numancia,717,1,4,True
+1264474,2025-04-20T15:00:00+00:00,FT,Group 1 - 32,Marino de Luanco,9401,Bergantiños,9383,1,1,True
+1264471,2025-04-20T15:00:00+00:00,FT,Group 1 - 32,Pontevedra,9407,Laredo,9394,4,2,True
+1264469,2025-04-20T15:30:00+00:00,FT,Group 1 - 32,Real Valladolid II,9587,Real Ávila,9736,2,1,True
+1264473,2025-04-20T16:00:00+00:00,FT,Group 1 - 32,Langreo,5265,Llanera,9627,1,0,True
+1264434,2025-04-23T15:00:00+00:00,FT,Group 1 - 28,Real Ávila,9736,Salamanca UDS,9588,0,1,True
+1264480,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Gimnástica Torrelavega,5264,Pontevedra,9407,5,1,True
+1264484,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Bergantiños,9383,Escobedo,9386,1,4,True
+1264485,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Coruxo,9385,Racing Santander II,9643,1,0,True
+1264481,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Laredo,9394,Deportivo La Coruña II,9610,1,5,True
+1264478,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Real Valladolid II,9587,Numancia,717,1,3,True
+1264482,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Salamanca UDS,9588,Langreo,5265,3,1,True
+1264483,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Llanera,9627,Marino de Luanco,9401,3,2,True
+1264486,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Real Avilés,9632,Guijuelo,9388,3,0,True
+1264479,2025-04-27T10:00:00+00:00,FT,Group 1 - 33,Real Ávila,9736,Compostela,5256,2,1,True
+1264495,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Numancia,717,Real Avilés,9632,3,0,True
+1264487,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Compostela,5256,Real Valladolid II,9587,1,1,True
+1264490,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Langreo,5265,Laredo,9394,1,1,True
+1264492,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Escobedo,9386,Llanera,9627,4,0,True
+1264494,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Guijuelo,9388,Coruxo,9385,0,2,True
+1264491,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Marino de Luanco,9401,Salamanca UDS,9588,3,0,True
+1264488,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Pontevedra,9407,Real Ávila,9736,3,2,True
+1264489,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Deportivo La Coruña II,9610,Gimnástica Torrelavega,5264,3,0,True
+1264493,2025-05-04T10:00:00+00:00,FT,Group 1 - 34,Racing Santander II,9643,Bergantiños,9383,1,2,True

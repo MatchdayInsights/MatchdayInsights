@@ -1,0 +1,463 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+572708,2020-08-01T11:00:00+00:00,FT,Regular Season - 1,Nizhny Novgorod,2011,TOM Tomsk,1081,1,0,True
+572707,2020-08-01T12:00:00+00:00,FT,Regular Season - 1,Chertanovo Moscow,2014,Spartak Moscow 2,2003,1,2,True
+572709,2020-08-01T13:00:00+00:00,FT,Regular Season - 1,Irtysh Omsk,665,Enisey,1089,1,2,True
+572705,2020-08-01T14:00:00+00:00,FT,Regular Season - 1,Tekstilshchik,3984,Veles,6833,0,0,True
+572702,2020-08-01T14:00:00+00:00,FT,Regular Season - 1,Dinamo Bryansk,6795,Orenburg,1080,0,1,True
+572706,2020-08-01T15:00:00+00:00,FT,Regular Season - 1,Fakel Voronezh,1993,Akron,6786,1,0,True
+572703,2020-08-01T15:00:00+00:00,FT,Regular Season - 1,FK Neftekhimik,2001,Chayka,3983,1,1,True
+572710,2020-08-01T15:00:00+00:00,FT,Regular Season - 1,Volgar Astrakhan,2004,Krasnodar 2,2015,3,0,True
+572704,2020-08-01T16:00:00+00:00,FT,Regular Season - 1,Alaniya II,10136,Ska-khabarovsk,1087,2,4,True
+572712,2020-08-02T13:30:00+00:00,FT,Regular Season - 1,Shinnik Yaroslavl,1998,Torpedo Moskva,3985,1,0,True
+572711,2020-08-02T15:00:00+00:00,FT,Regular Season - 1,Krylya Sovetov,1079,Baltika,2006,0,0,True
+572720,2020-08-08T09:00:00+00:00,FT,Regular Season - 2,Enisey,1089,Dinamo Bryansk,6795,1,0,True
+572723,2020-08-08T12:00:00+00:00,FT,Regular Season - 2,Spartak Moscow 2,2003,Torpedo Moskva,3985,1,1,True
+572714,2020-08-08T12:00:00+00:00,FT,Regular Season - 2,Akron,6786,Shinnik Yaroslavl,1998,2,1,True
+572721,2020-08-08T13:00:00+00:00,FT,Regular Season - 2,Orenburg,1080,FK Neftekhimik,2001,1,0,True
+572719,2020-08-08T13:00:00+00:00,FT,Regular Season - 2,Nizhny Novgorod,2011,Irtysh Omsk,665,2,0,True
+572716,2020-08-08T13:30:00+00:00,FT,Regular Season - 2,Chertanovo Moscow,2014,TOM Tomsk,1081,2,0,True
+572715,2020-08-08T14:00:00+00:00,FT,Regular Season - 2,Tekstilshchik,3984,Ska-khabarovsk,1087,1,0,True
+572718,2020-08-08T14:00:00+00:00,FT,Regular Season - 2,Veles,6833,Krylya Sovetov,1079,3,1,True
+572713,2020-08-08T15:00:00+00:00,FT,Regular Season - 2,Krasnodar 2,2015,Fakel Voronezh,1993,3,1,True
+572722,2020-08-08T16:00:00+00:00,FT,Regular Season - 2,Chayka,3983,Alaniya II,10136,0,3,True
+572717,2020-08-08T17:00:00+00:00,FT,Regular Season - 2,Baltika,2006,Volgar Astrakhan,2004,2,0,True
+572726,2020-08-12T11:30:00+00:00,FT,Regular Season - 3,TOM Tomsk,1081,Spartak Moscow 2,2003,1,2,True
+572727,2020-08-12T13:30:00+00:00,FT,Regular Season - 3,Irtysh Omsk,665,Chertanovo Moscow,2014,1,2,True
+572952,2020-08-12T14:00:00+00:00,FT,Regular Season - 3,Orenburg,1080,Alaniya II,10136,2,0,True
+572733,2020-08-12T15:00:00+00:00,FT,Regular Season - 3,Krylya Sovetov,1079,Ska-khabarovsk,1087,2,0,True
+572724,2020-08-12T15:00:00+00:00,FT,Regular Season - 3,FK Neftekhimik,2001,Enisey,1089,2,0,True
+572732,2020-08-12T15:00:00+00:00,FT,Regular Season - 3,Volgar Astrakhan,2004,Veles,6833,1,2,True
+572729,2020-08-12T15:00:00+00:00,FT,Regular Season - 3,Tekstilshchik,3984,Chayka,3983,1,1,True
+572725,2020-08-12T15:00:00+00:00,FT,Regular Season - 3,Dinamo Bryansk,6795,Nizhny Novgorod,2011,1,0,True
+572730,2020-08-12T15:30:00+00:00,FT,Regular Season - 3,Shinnik Yaroslavl,1998,Krasnodar 2,2015,0,0,True
+572731,2020-08-12T16:00:00+00:00,FT,Regular Season - 3,Fakel Voronezh,1993,Baltika,2006,0,1,True
+572734,2020-08-12T16:30:00+00:00,FT,Regular Season - 3,Torpedo Moskva,3985,Akron,6786,1,1,True
+572740,2020-08-16T07:00:00+00:00,FT,Regular Season - 4,Ska-khabarovsk,1087,Volgar Astrakhan,2004,1,0,True
+572737,2020-08-16T10:00:00+00:00,FT,Regular Season - 4,TOM Tomsk,1081,Irtysh Omsk,665,1,1,True
+572742,2020-08-16T10:00:00+00:00,FT,Regular Season - 4,Enisey,1089,Alaniya II,10136,3,2,True
+572738,2020-08-16T12:00:00+00:00,FT,Regular Season - 4,Chertanovo Moscow,2014,Dinamo Bryansk,6795,0,1,True
+572743,2020-08-16T13:00:00+00:00,FT,Regular Season - 4,Orenburg,1080,Tekstilshchik,3984,1,1,True
+572745,2020-08-16T13:00:00+00:00,FT,Regular Season - 4,Spartak Moscow 2,2003,Akron,6786,1,0,True
+572741,2020-08-16T14:00:00+00:00,FT,Regular Season - 4,Nizhny Novgorod,2011,FK Neftekhimik,2001,0,1,True
+572739,2020-08-16T14:00:00+00:00,FT,Regular Season - 4,Veles,6833,Fakel Voronezh,1993,1,1,True
+572736,2020-08-16T15:00:00+00:00,FT,Regular Season - 4,Krasnodar 2,2015,Torpedo Moskva,3985,0,3,True
+572744,2020-08-16T16:00:00+00:00,FT,Regular Season - 4,Chayka,3983,Krylya Sovetov,1079,0,3,True
+572735,2020-08-16T17:00:00+00:00,FT,Regular Season - 4,Baltika,2006,Shinnik Yaroslavl,1998,2,0,True
+572752,2020-08-22T05:00:00+00:00,FT,Regular Season - 5,Ska-khabarovsk,1087,Fakel Voronezh,1993,1,0,True
+572748,2020-08-22T10:00:00+00:00,FT,Regular Season - 5,TOM Tomsk,1081,Dinamo Bryansk,6795,0,2,True
+572753,2020-08-22T12:00:00+00:00,FT,Regular Season - 5,Akron,6786,Krasnodar 2,2015,1,0,True
+572751,2020-08-22T13:00:00+00:00,FT,Regular Season - 5,Krylya Sovetov,1079,Orenburg,1080,0,1,True
+572747,2020-08-22T14:00:00+00:00,FT,Regular Season - 5,Irtysh Omsk,665,Spartak Moscow 2,2003,0,5,True
+572755,2020-08-22T14:00:00+00:00,FT,Regular Season - 5,Shinnik Yaroslavl,1998,Veles,6833,1,2,True
+572972,2020-08-22T14:00:00+00:00,FT,Regular Season - 5,Nizhny Novgorod,2011,Alaniya II,10136,1,1,True
+572750,2020-08-22T14:00:00+00:00,FT,Regular Season - 5,Tekstilshchik,3984,Enisey,1089,2,2,True
+572749,2020-08-22T15:00:00+00:00,FT,Regular Season - 5,FK Neftekhimik,2001,Chertanovo Moscow,2014,3,0,True
+572754,2020-08-22T15:00:00+00:00,FT,Regular Season - 5,Torpedo Moskva,3985,Baltika,2006,1,1,True
+572756,2020-08-22T16:00:00+00:00,FT,Regular Season - 5,Chayka,3983,Volgar Astrakhan,2004,2,1,True
+572757,2020-08-27T12:00:00+00:00,FT,Regular Season - 6,Spartak Moscow 2,2003,Krasnodar 2,2015,1,2,True
+572763,2020-08-30T05:00:00+00:00,FT,Regular Season - 6,Ska-khabarovsk,1087,Shinnik Yaroslavl,1998,2,1,True
+572760,2020-08-30T10:00:00+00:00,FT,Regular Season - 6,TOM Tomsk,1081,FK Neftekhimik,2001,0,0,True
+572765,2020-08-30T10:00:00+00:00,FT,Regular Season - 6,Enisey,1089,Krylya Sovetov,1079,3,1,True
+572761,2020-08-30T12:00:00+00:00,FT,Regular Season - 6,Chertanovo Moscow,2014,Alaniya II,10136,0,3,True
+572766,2020-08-30T13:00:00+00:00,FT,Regular Season - 6,Orenburg,1080,Volgar Astrakhan,2004,2,1,True
+572764,2020-08-30T14:00:00+00:00,FT,Regular Season - 6,Nizhny Novgorod,2011,Tekstilshchik,3984,2,1,True
+572759,2020-08-30T14:00:00+00:00,FT,Regular Season - 6,Dinamo Bryansk,6795,Irtysh Omsk,665,1,0,True
+572762,2020-08-30T14:00:00+00:00,FT,Regular Season - 6,Veles,6833,Torpedo Moskva,3985,0,5,True
+572758,2020-08-30T17:00:00+00:00,FT,Regular Season - 6,Baltika,2006,Akron,6786,1,0,True
+572767,2020-08-31T15:00:00+00:00,FT,Regular Season - 6,Chayka,3983,Fakel Voronezh,1993,2,1,True
+572775,2020-09-05T05:00:00+00:00,FT,Regular Season - 7,Ska-khabarovsk,1087,Torpedo Moskva,3985,2,4,True
+572769,2020-09-05T10:00:00+00:00,FT,Regular Season - 7,TOM Tomsk,1081,Alaniya II,10136,0,1,True
+572776,2020-09-05T11:00:00+00:00,FT,Regular Season - 7,Shinnik Yaroslavl,1998,Chayka,3983,0,0,True
+572768,2020-09-05T12:00:00+00:00,FT,Regular Season - 7,Chertanovo Moscow,2014,Tekstilshchik,3984,0,1,True
+572774,2020-09-05T12:00:00+00:00,FT,Regular Season - 7,Akron,6786,Veles,6833,0,1,True
+572772,2020-09-05T13:00:00+00:00,FT,Regular Season - 7,Krylya Sovetov,1079,Nizhny Novgorod,2011,3,0,True
+572777,2020-09-05T14:00:00+00:00,FT,Regular Season - 7,Fakel Voronezh,1993,Orenburg,1080,0,2,True
+572771,2020-09-05T14:00:00+00:00,FT,Regular Season - 7,Dinamo Bryansk,6795,Spartak Moscow 2,2003,0,3,True
+572773,2020-09-05T14:30:00+00:00,FT,Regular Season - 7,Volgar Astrakhan,2004,Enisey,1089,1,1,True
+572770,2020-09-05T15:00:00+00:00,FT,Regular Season - 7,FK Neftekhimik,2001,Irtysh Omsk,665,1,0,True
+572778,2020-09-05T15:00:00+00:00,FT,Regular Season - 7,Krasnodar 2,2015,Baltika,2006,3,1,True
+572784,2020-09-09T09:00:00+00:00,FT,Regular Season - 8,Ska-khabarovsk,1087,Akron,6786,2,0,True
+572780,2020-09-09T09:30:00+00:00,FT,Regular Season - 8,Irtysh Omsk,665,Alaniya II,10136,0,2,True
+572781,2020-09-09T11:30:00+00:00,FT,Regular Season - 8,TOM Tomsk,1081,Tekstilshchik,3984,0,2,True
+572789,2020-09-09T13:00:00+00:00,FT,Regular Season - 8,Spartak Moscow 2,2003,Baltika,2006,0,2,True
+572787,2020-09-09T14:00:00+00:00,FT,Regular Season - 8,Orenburg,1080,Shinnik Yaroslavl,1998,3,0,True
+572788,2020-09-09T15:00:00+00:00,FT,Regular Season - 8,Chayka,3983,Torpedo Moskva,3985,1,2,True
+572779,2020-09-09T15:00:00+00:00,FT,Regular Season - 8,Dinamo Bryansk,6795,FK Neftekhimik,2001,0,3,True
+573004,2020-09-09T16:00:00+00:00,FT,Regular Season - 8,Fakel Voronezh,1993,Enisey,1089,1,0,True
+572785,2020-09-09T16:00:00+00:00,FT,Regular Season - 8,Nizhny Novgorod,2011,Volgar Astrakhan,2004,1,0,True
+572782,2020-09-09T16:00:00+00:00,FT,Regular Season - 8,Chertanovo Moscow,2014,Krylya Sovetov,1079,0,1,True
+572783,2020-09-09T16:00:00+00:00,FT,Regular Season - 8,Veles,6833,Krasnodar 2,2015,2,2,True
+572792,2020-09-13T00:00:00+00:00,FT,Regular Season - 9,Alaniya II,10136,Dinamo Bryansk,6795,3,0,True
+572799,2020-09-13T11:00:00+00:00,FT,Regular Season - 9,Shinnik Yaroslavl,1998,Enisey,1089,3,0,True
+572790,2020-09-13T12:00:00+00:00,FT,Regular Season - 9,Krylya Sovetov,1079,TOM Tomsk,1081,2,0,True
+572797,2020-09-13T12:00:00+00:00,FT,Regular Season - 9,Akron,6786,Chayka,3983,0,2,True
+572800,2020-09-13T13:00:00+00:00,FT,Regular Season - 9,Krasnodar 2,2015,Ska-khabarovsk,1087,4,2,True
+572795,2020-09-13T14:00:00+00:00,FT,Regular Season - 9,Fakel Voronezh,1993,Nizhny Novgorod,2011,0,1,True
+572794,2020-09-13T14:00:00+00:00,FT,Regular Season - 9,Volgar Astrakhan,2004,Chertanovo Moscow,2014,1,0,True
+572791,2020-09-13T14:00:00+00:00,FT,Regular Season - 9,Tekstilshchik,3984,Irtysh Omsk,665,2,1,True
+572793,2020-09-13T15:00:00+00:00,FT,Regular Season - 9,FK Neftekhimik,2001,Spartak Moscow 2,2003,0,1,True
+572798,2020-09-13T15:00:00+00:00,FT,Regular Season - 9,Torpedo Moskva,3985,Orenburg,1080,1,2,True
+572796,2020-09-13T17:00:00+00:00,FT,Regular Season - 9,Baltika,2006,Veles,6833,1,2,True
+572808,2020-09-19T00:00:00+00:00,FT,Regular Season - 10,Enisey,1089,Torpedo Moskva,3985,0,3,True
+572806,2020-09-19T05:00:00+00:00,FT,Regular Season - 10,Ska-khabarovsk,1087,Baltika,2006,0,0,True
+572803,2020-09-19T10:00:00+00:00,FT,Regular Season - 10,TOM Tomsk,1081,Volgar Astrakhan,2004,1,3,True
+572811,2020-09-19T12:00:00+00:00,FT,Regular Season - 10,Spartak Moscow 2,2003,Veles,6833,2,1,True
+572804,2020-09-19T12:00:00+00:00,FT,Regular Season - 10,Chertanovo Moscow,2014,Fakel Voronezh,1993,0,3,True
+572809,2020-09-19T13:00:00+00:00,FT,Regular Season - 10,Orenburg,1080,Akron,6786,0,0,True
+572807,2020-09-19T13:00:00+00:00,FT,Regular Season - 10,Nizhny Novgorod,2011,Shinnik Yaroslavl,1998,3,0,True
+572801,2020-09-19T14:00:00+00:00,FT,Regular Season - 10,Dinamo Bryansk,6795,Tekstilshchik,3984,1,0,True
+572802,2020-09-19T14:30:00+00:00,FT,Regular Season - 10,Irtysh Omsk,665,Krylya Sovetov,1079,0,4,True
+572805,2020-09-19T15:00:00+00:00,FT,Regular Season - 10,FK Neftekhimik,2001,Alaniya II,10136,0,0,True
+572810,2020-09-19T15:00:00+00:00,FT,Regular Season - 10,Chayka,3983,Krasnodar 2,2015,2,1,True
+572820,2020-09-23T00:00:00+00:00,FT,Regular Season - 11,Akron,6786,Enisey,1089,3,0,True
+572819,2020-09-23T12:30:00+00:00,FT,Regular Season - 11,Krasnodar 2,2015,Orenburg,1080,1,1,True
+572812,2020-09-23T14:30:00+00:00,FT,Regular Season - 11,Volgar Astrakhan,2004,Irtysh Omsk,665,1,1,True
+572813,2020-09-23T15:00:00+00:00,FT,Regular Season - 11,Krylya Sovetov,1079,Dinamo Bryansk,6795,7,0,True
+572814,2020-09-23T15:00:00+00:00,FT,Regular Season - 11,FK Neftekhimik,2001,Tekstilshchik,3984,4,0,True
+572817,2020-09-23T15:30:00+00:00,FT,Regular Season - 11,Shinnik Yaroslavl,1998,Chertanovo Moscow,2014,1,1,True
+572816,2020-09-23T16:00:00+00:00,FT,Regular Season - 11,Fakel Voronezh,1993,TOM Tomsk,1081,0,0,True
+572822,2020-09-23T16:00:00+00:00,FT,Regular Season - 11,Veles,6833,Ska-khabarovsk,1087,1,0,True
+572815,2020-09-23T16:00:00+00:00,FT,Regular Season - 11,Alaniya II,10136,Spartak Moscow 2,2003,2,1,True
+572821,2020-09-23T16:30:00+00:00,FT,Regular Season - 11,Torpedo Moskva,3985,Nizhny Novgorod,2011,0,2,True
+572818,2020-09-23T17:00:00+00:00,FT,Regular Season - 11,Baltika,2006,Chayka,3983,0,1,True
+572825,2020-09-27T10:00:00+00:00,FT,Regular Season - 12,TOM Tomsk,1081,Shinnik Yaroslavl,1998,3,0,True
+572830,2020-09-27T10:00:00+00:00,FT,Regular Season - 12,Enisey,1089,Krasnodar 2,2015,0,1,True
+572824,2020-09-27T11:00:00+00:00,FT,Regular Season - 12,Irtysh Omsk,665,Fakel Voronezh,1993,1,0,True
+572833,2020-09-27T11:00:00+00:00,FT,Regular Season - 12,Spartak Moscow 2,2003,Ska-khabarovsk,1087,1,0,True
+572826,2020-09-27T12:00:00+00:00,FT,Regular Season - 12,Chertanovo Moscow,2014,Torpedo Moskva,3985,0,0,True
+572831,2020-09-27T13:00:00+00:00,FT,Regular Season - 12,Orenburg,1080,Baltika,2006,2,2,True
+572829,2020-09-27T13:00:00+00:00,FT,Regular Season - 12,Nizhny Novgorod,2011,Akron,6786,3,0,True
+572823,2020-09-27T14:00:00+00:00,FT,Regular Season - 12,Dinamo Bryansk,6795,Volgar Astrakhan,2004,0,1,True
+572828,2020-09-27T14:00:00+00:00,FT,Regular Season - 12,Alaniya II,10136,Tekstilshchik,3984,3,1,True
+572827,2020-09-27T15:00:00+00:00,FT,Regular Season - 12,FK Neftekhimik,2001,Krylya Sovetov,1079,1,1,True
+572832,2020-09-27T15:00:00+00:00,FT,Regular Season - 12,Chayka,3983,Veles,6833,0,2,True
+572844,2020-10-04T07:00:00+00:00,FT,Regular Season - 13,Ska-khabarovsk,1087,Chayka,3983,0,0,True
+572843,2020-10-04T11:00:00+00:00,FT,Regular Season - 13,Akron,6786,Chertanovo Moscow,2014,1,0,True
+572840,2020-10-04T11:00:00+00:00,FT,Regular Season - 13,Veles,6833,Orenburg,1080,1,1,True
+572836,2020-10-04T12:00:00+00:00,FT,Regular Season - 13,Krylya Sovetov,1079,Alaniya II,10136,2,0,True
+572838,2020-10-04T12:00:00+00:00,FT,Regular Season - 13,Shinnik Yaroslavl,1998,Irtysh Omsk,665,0,3,True
+572837,2020-10-04T12:00:00+00:00,FT,Regular Season - 13,Tekstilshchik,3984,Spartak Moscow 2,2003,0,2,True
+572835,2020-10-04T13:00:00+00:00,FT,Regular Season - 13,Volgar Astrakhan,2004,FK Neftekhimik,2001,3,1,True
+572834,2020-10-04T14:00:00+00:00,FT,Regular Season - 13,Fakel Voronezh,1993,Dinamo Bryansk,6795,0,0,True
+572842,2020-10-04T14:00:00+00:00,FT,Regular Season - 13,Krasnodar 2,2015,Nizhny Novgorod,2011,2,3,True
+572839,2020-10-04T14:00:00+00:00,FT,Regular Season - 13,Torpedo Moskva,3985,TOM Tomsk,1081,1,0,True
+572841,2020-10-04T16:00:00+00:00,FT,Regular Season - 13,Baltika,2006,Enisey,1089,1,0,True
+572854,2020-10-09T11:00:00+00:00,FT,Regular Season - 14,Tekstilshchik,3984,Krylya Sovetov,1079,0,3,True
+572847,2020-10-09T11:30:00+00:00,FT,Regular Season - 14,TOM Tomsk,1081,Akron,6786,2,1,True
+572852,2020-10-09T12:00:00+00:00,FT,Regular Season - 14,Enisey,1089,Veles,6833,2,0,True
+572846,2020-10-09T13:00:00+00:00,FT,Regular Season - 14,Irtysh Omsk,665,Torpedo Moskva,3985,0,2,True
+572853,2020-10-09T13:00:00+00:00,FT,Regular Season - 14,Orenburg,1080,Ska-khabarovsk,1087,2,2,True
+572855,2020-10-09T13:00:00+00:00,FT,Regular Season - 14,Spartak Moscow 2,2003,Chayka,3983,1,2,True
+572850,2020-10-09T14:00:00+00:00,FT,Regular Season - 14,Alaniya II,10136,Volgar Astrakhan,2004,2,0,True
+572849,2020-10-09T15:00:00+00:00,FT,Regular Season - 14,FK Neftekhimik,2001,Fakel Voronezh,1993,3,1,True
+572848,2020-10-09T15:00:00+00:00,FT,Regular Season - 14,Chertanovo Moscow,2014,Krasnodar 2,2015,1,0,True
+572845,2020-10-09T15:00:00+00:00,FT,Regular Season - 14,Dinamo Bryansk,6795,Shinnik Yaroslavl,1998,2,0,True
+572851,2020-10-09T15:30:00+00:00,FT,Regular Season - 14,Nizhny Novgorod,2011,Baltika,2006,2,1,True
+572862,2020-10-13T08:30:00+00:00,FT,Regular Season - 15,Ska-khabarovsk,1087,Enisey,1089,0,1,True
+572865,2020-10-13T11:30:00+00:00,FT,Regular Season - 15,Krasnodar 2,2015,TOM Tomsk,1081,2,0,True
+573077,2020-10-13T13:00:00+00:00,FT,Regular Season - 15,Irtysh Omsk,665,Akron,6786,1,0,True
+572858,2020-10-13T14:30:00+00:00,FT,Regular Season - 15,Volgar Astrakhan,2004,Tekstilshchik,3984,0,0,True
+572859,2020-10-13T15:00:00+00:00,FT,Regular Season - 15,Krylya Sovetov,1079,Spartak Moscow 2,2003,2,1,True
+572866,2020-10-13T15:00:00+00:00,FT,Regular Season - 15,Chayka,3983,Orenburg,1080,0,1,True
+572856,2020-10-13T15:30:00+00:00,FT,Regular Season - 15,Shinnik Yaroslavl,1998,FK Neftekhimik,2001,1,2,True
+572857,2020-10-13T16:00:00+00:00,FT,Regular Season - 15,Fakel Voronezh,1993,Alaniya II,10136,0,0,True
+572863,2020-10-13T16:00:00+00:00,FT,Regular Season - 15,Veles,6833,Nizhny Novgorod,2011,1,3,True
+572860,2020-10-13T16:30:00+00:00,FT,Regular Season - 15,Torpedo Moskva,3985,Dinamo Bryansk,6795,3,0,True
+572864,2020-10-13T17:30:00+00:00,FT,Regular Season - 15,Baltika,2006,Chertanovo Moscow,2014,1,2,True
+572869,2020-10-17T09:00:00+00:00,FT,Regular Season - 16,TOM Tomsk,1081,Baltika,2006,0,1,True
+572874,2020-10-17T10:00:00+00:00,FT,Regular Season - 16,Enisey,1089,Chayka,3983,3,2,True
+572870,2020-10-17T10:00:00+00:00,FT,Regular Season - 16,Veles,6833,Chertanovo Moscow,2014,3,0,True
+572868,2020-10-17T11:00:00+00:00,FT,Regular Season - 16,Irtysh Omsk,665,Krasnodar 2,2015,0,0,True
+572877,2020-10-17T11:00:00+00:00,FT,Regular Season - 16,Spartak Moscow 2,2003,Orenburg,1080,0,3,True
+572875,2020-10-17T12:00:00+00:00,FT,Regular Season - 16,Krylya Sovetov,1079,Volgar Astrakhan,2004,3,0,True
+572873,2020-10-17T13:00:00+00:00,FT,Regular Season - 16,Nizhny Novgorod,2011,Ska-khabarovsk,1087,1,0,True
+572871,2020-10-17T14:00:00+00:00,FT,Regular Season - 16,Torpedo Moskva,3985,FK Neftekhimik,2001,4,0,True
+572867,2020-10-17T14:00:00+00:00,FT,Regular Season - 16,Dinamo Bryansk,6795,Akron,6786,2,0,True
+572872,2020-10-17T14:00:00+00:00,FT,Regular Season - 16,Alaniya II,10136,Shinnik Yaroslavl,1998,4,4,True
+572876,2020-10-17T16:00:00+00:00,FT,Regular Season - 16,Tekstilshchik,3984,Fakel Voronezh,1993,0,0,True
+572885,2020-10-24T05:00:00+00:00,FT,Regular Season - 17,Ska-khabarovsk,1087,Chertanovo Moscow,2014,2,0,True
+572883,2020-10-24T10:00:00+00:00,FT,Regular Season - 17,Krasnodar 2,2015,Dinamo Bryansk,6795,0,0,True
+572888,2020-10-24T11:00:00+00:00,FT,Regular Season - 17,Orenburg,1080,Enisey,1089,1,3,True
+572879,2020-10-24T11:00:00+00:00,FT,Regular Season - 17,Shinnik Yaroslavl,1998,Tekstilshchik,3984,0,3,True
+572882,2020-10-24T12:00:00+00:00,FT,Regular Season - 17,Akron,6786,FK Neftekhimik,2001,3,4,True
+572881,2020-10-24T13:00:00+00:00,FT,Regular Season - 17,Volgar Astrakhan,2004,Spartak Moscow 2,2003,2,0,True
+572880,2020-10-24T14:00:00+00:00,FT,Regular Season - 17,Fakel Voronezh,1993,Krylya Sovetov,1079,1,1,True
+572884,2020-10-24T14:00:00+00:00,FT,Regular Season - 17,Chayka,3983,Nizhny Novgorod,2011,1,1,True
+572878,2020-10-24T14:00:00+00:00,FT,Regular Season - 17,Torpedo Moskva,3985,Alaniya II,10136,2,0,True
+572886,2020-10-24T14:00:00+00:00,FT,Regular Season - 17,Veles,6833,TOM Tomsk,1081,0,0,True
+572887,2020-10-24T16:00:00+00:00,FT,Regular Season - 17,Baltika,2006,Irtysh Omsk,665,3,2,True
+572891,2020-10-28T11:30:00+00:00,FT,Regular Season - 18,TOM Tomsk,1081,Ska-khabarovsk,1087,1,2,True
+572899,2020-10-28T12:00:00+00:00,FT,Regular Season - 18,Spartak Moscow 2,2003,Enisey,1089,1,1,True
+572895,2020-10-28T13:00:00+00:00,FT,Regular Season - 18,Nizhny Novgorod,2011,Orenburg,1080,0,0,True
+572898,2020-10-28T13:00:00+00:00,FT,Regular Season - 18,Tekstilshchik,3984,Torpedo Moskva,3985,1,3,True
+572894,2020-10-28T14:00:00+00:00,FT,Regular Season - 18,Alaniya II,10136,Akron,6786,5,1,True
+572890,2020-10-28T14:30:00+00:00,FT,Regular Season - 18,Irtysh Omsk,665,Veles,6833,1,2,True
+572896,2020-10-28T14:30:00+00:00,FT,Regular Season - 18,Volgar Astrakhan,2004,Fakel Voronezh,1993,2,1,True
+572897,2020-10-28T15:00:00+00:00,FT,Regular Season - 18,Krylya Sovetov,1079,Shinnik Yaroslavl,1998,4,1,True
+572893,2020-10-28T15:00:00+00:00,FT,Regular Season - 18,FK Neftekhimik,2001,Krasnodar 2,2015,5,0,True
+572892,2020-10-28T15:00:00+00:00,FT,Regular Season - 18,Chertanovo Moscow,2014,Chayka,3983,1,2,True
+572889,2020-10-28T15:00:00+00:00,FT,Regular Season - 18,Dinamo Bryansk,6795,Baltika,2006,1,3,True
+572908,2020-11-01T05:00:00+00:00,FT,Regular Season - 19,Ska-khabarovsk,1087,Irtysh Omsk,665,1,1,True
+572910,2020-11-01T10:00:00+00:00,FT,Regular Season - 19,Enisey,1089,Nizhny Novgorod,2011,0,1,True
+572904,2020-11-01T10:00:00+00:00,FT,Regular Season - 19,Krasnodar 2,2015,Alaniya II,10136,0,4,True
+572906,2020-11-01T11:00:00+00:00,FT,Regular Season - 19,Orenburg,1080,Chertanovo Moscow,2014,3,1,True
+572902,2020-11-01T11:00:00+00:00,FT,Regular Season - 19,Shinnik Yaroslavl,1998,Volgar Astrakhan,2004,2,1,True
+572900,2020-11-01T11:00:00+00:00,FT,Regular Season - 19,Akron,6786,Tekstilshchik,3984,3,1,True
+572909,2020-11-01T11:00:00+00:00,FT,Regular Season - 19,Veles,6833,Dinamo Bryansk,6795,2,1,True
+572903,2020-11-01T14:00:00+00:00,FT,Regular Season - 19,Fakel Voronezh,1993,Spartak Moscow 2,2003,1,1,True
+572907,2020-11-01T14:00:00+00:00,FT,Regular Season - 19,Chayka,3983,TOM Tomsk,1081,1,1,True
+572901,2020-11-01T14:00:00+00:00,FT,Regular Season - 19,Torpedo Moskva,3985,Krylya Sovetov,1079,3,1,True
+572905,2020-11-01T15:00:00+00:00,FT,Regular Season - 19,Baltika,2006,FK Neftekhimik,2001,0,1,True
+572913,2020-11-07T08:00:00+00:00,FT,Regular Season - 20,TOM Tomsk,1081,Orenburg,1080,0,1,True
+572912,2020-11-07T11:00:00+00:00,FT,Regular Season - 20,Irtysh Omsk,665,Chayka,3983,2,2,True
+572921,2020-11-07T11:00:00+00:00,FT,Regular Season - 20,Spartak Moscow 2,2003,Nizhny Novgorod,2011,0,4,True
+573136,2020-11-07T11:00:00+00:00,FT,Regular Season - 20,Veles,6833,FK Neftekhimik,2001,3,1,True
+572919,2020-11-07T12:00:00+00:00,FT,Regular Season - 20,Krylya Sovetov,1079,Akron,6786,3,0,True
+572918,2020-11-07T12:00:00+00:00,FT,Regular Season - 20,Volgar Astrakhan,2004,Torpedo Moskva,3985,3,2,True
+572914,2020-11-07T12:00:00+00:00,FT,Regular Season - 20,Chertanovo Moscow,2014,Enisey,1089,1,2,True
+572911,2020-11-07T13:00:00+00:00,FT,Regular Season - 20,Dinamo Bryansk,6795,Ska-khabarovsk,1087,2,5,True
+572916,2020-11-07T13:00:00+00:00,FT,Regular Season - 20,Alaniya II,10136,Baltika,2006,5,0,True
+572917,2020-11-07T14:00:00+00:00,FT,Regular Season - 20,Fakel Voronezh,1993,Shinnik Yaroslavl,1998,2,0,True
+572920,2020-11-07T14:00:00+00:00,FT,Regular Season - 20,Tekstilshchik,3984,Krasnodar 2,2015,0,0,True
+572931,2020-11-11T08:30:00+00:00,FT,Regular Season - 21,Ska-khabarovsk,1087,FK Neftekhimik,2001,3,2,True
+572922,2020-11-11T10:00:00+00:00,FT,Regular Season - 21,Krasnodar 2,2015,Krylya Sovetov,1079,1,1,True
+572927,2020-11-11T11:00:00+00:00,FT,Regular Season - 21,Veles,6833,Alaniya II,10136,1,1,True
+572928,2020-11-11T12:00:00+00:00,FT,Regular Season - 21,Enisey,1089,TOM Tomsk,1081,0,1,True
+572926,2020-11-11T12:00:00+00:00,FT,Regular Season - 21,Tekstilshchik,3984,Baltika,2006,1,0,True
+572923,2020-11-11T12:00:00+00:00,FT,Regular Season - 21,Akron,6786,Volgar Astrakhan,2004,0,3,True
+572929,2020-11-11T13:00:00+00:00,FT,Regular Season - 21,Orenburg,1080,Irtysh Omsk,665,0,0,True
+572932,2020-11-11T13:00:00+00:00,FT,Regular Season - 21,Nizhny Novgorod,2011,Chertanovo Moscow,2014,3,2,True
+572930,2020-11-11T14:00:00+00:00,FT,Regular Season - 21,Chayka,3983,Dinamo Bryansk,6795,1,0,True
+572925,2020-11-11T15:30:00+00:00,FT,Regular Season - 21,Shinnik Yaroslavl,1998,Spartak Moscow 2,2003,1,2,True
+572924,2020-11-11T16:00:00+00:00,FT,Regular Season - 21,Torpedo Moskva,3985,Fakel Voronezh,1993,4,1,True
+572938,2020-11-15T05:00:00+00:00,FT,Regular Season - 22,Ska-khabarovsk,1087,Tekstilshchik,3984,1,0,True
+572936,2020-11-15T08:00:00+00:00,FT,Regular Season - 22,TOM Tomsk,1081,Chertanovo Moscow,2014,1,2,True
+572935,2020-11-15T11:00:00+00:00,FT,Regular Season - 22,Irtysh Omsk,665,Nizhny Novgorod,2011,0,1,True
+572942,2020-11-15T11:00:00+00:00,FT,Regular Season - 22,Krylya Sovetov,1079,Veles,6833,2,1,True
+572939,2020-11-15T11:00:00+00:00,FT,Regular Season - 22,Shinnik Yaroslavl,1998,Akron,6786,1,3,True
+572933,2020-11-15T12:00:00+00:00,FT,Regular Season - 22,FK Neftekhimik,2001,Orenburg,1080,1,2,True
+572941,2020-11-15T12:00:00+00:00,FT,Regular Season - 22,Volgar Astrakhan,2004,Baltika,2006,0,0,True
+572937,2020-11-15T12:00:00+00:00,FT,Regular Season - 22,Alaniya II,10136,Chayka,3983,1,1,True
+572934,2020-11-15T13:00:00+00:00,FT,Regular Season - 22,Dinamo Bryansk,6795,Enisey,1089,0,0,True
+572940,2020-11-15T14:00:00+00:00,FT,Regular Season - 22,Fakel Voronezh,1993,Krasnodar 2,2015,6,2,True
+572943,2020-11-15T14:00:00+00:00,FT,Regular Season - 22,Torpedo Moskva,3985,Spartak Moscow 2,2003,1,0,True
+572945,2020-11-20T11:00:00+00:00,FT,Regular Season - 23,Krasnodar 2,2015,Shinnik Yaroslavl,1998,1,2,True
+572949,2020-11-21T05:00:00+00:00,FT,Regular Season - 23,Ska-khabarovsk,1087,Krylya Sovetov,1079,0,1,True
+572951,2020-11-21T10:00:00+00:00,FT,Regular Season - 23,Enisey,1089,FK Neftekhimik,2001,1,0,True
+572954,2020-11-21T11:00:00+00:00,FT,Regular Season - 23,Spartak Moscow 2,2003,TOM Tomsk,1081,1,2,True
+572946,2020-11-21T11:00:00+00:00,FT,Regular Season - 23,Akron,6786,Torpedo Moskva,3985,0,1,True
+572948,2020-11-21T11:00:00+00:00,FT,Regular Season - 23,Veles,6833,Volgar Astrakhan,2004,1,0,True
+572953,2020-11-21T12:00:00+00:00,FT,Regular Season - 23,Chayka,3983,Tekstilshchik,3984,1,3,True
+572728,2020-11-21T12:00:00+00:00,FT,Regular Season - 23,Alaniya II,10136,Orenburg,1080,2,1,True
+572950,2020-11-21T13:00:00+00:00,FT,Regular Season - 23,Nizhny Novgorod,2011,Dinamo Bryansk,6795,3,0,True
+572947,2020-11-21T14:00:00+00:00,FT,Regular Season - 23,Chertanovo Moscow,2014,Irtysh Omsk,665,0,1,True
+572944,2020-11-21T15:00:00+00:00,FT,Regular Season - 23,Baltika,2006,Fakel Voronezh,1993,0,0,True
+572956,2020-11-25T11:00:00+00:00,FT,Regular Season - 24,FK Neftekhimik,2001,Nizhny Novgorod,2011,0,1,True
+572959,2020-11-25T12:00:00+00:00,FT,Regular Season - 24,Tekstilshchik,3984,Orenburg,1080,0,2,True
+572955,2020-11-25T12:00:00+00:00,FT,Regular Season - 24,Alaniya II,10136,Enisey,1089,3,0,True
+572958,2020-11-25T13:00:00+00:00,FT,Regular Season - 24,Irtysh Omsk,665,Tom Tomsk,1081,1,0,True
+572963,2020-11-25T13:00:00+00:00,FT,Regular Season - 24,Fakel Voronezh,1993,Veles,6833,0,0,True
+572965,2020-11-25T13:00:00+00:00,FT,Regular Season - 24,Akron,6786,Spartak Moscow 2,2003,0,0,True
+572957,2020-11-25T13:00:00+00:00,FT,Regular Season - 24,Dinamo Bryansk,6795,Chertanovo Moscow,2014,1,2,True
+572964,2020-11-25T14:30:00+00:00,FT,Regular Season - 24,Volgar Astrakhan,2004,Ska-khabarovsk,1087,0,1,True
+572960,2020-11-25T15:00:00+00:00,FT,Regular Season - 24,Krylya Sovetov,1079,Chayka,3983,2,1,True
+572962,2020-11-25T15:30:00+00:00,FT,Regular Season - 24,Shinnik Yaroslavl,1998,Baltika,2006,1,3,True
+572961,2020-11-25T16:00:00+00:00,FT,Regular Season - 24,Torpedo Moskva,3985,Krasnodar 2,2015,4,2,True
+572973,2020-11-29T10:00:00+00:00,FT,Regular Season - 25,Enisey,1089,Tekstilshchik,3984,1,0,True
+572974,2020-11-29T11:00:00+00:00,FT,Regular Season - 25,Orenburg,1080,Krylya Sovetov,1079,2,1,True
+572976,2020-11-29T11:00:00+00:00,FT,Regular Season - 25,Spartak Moscow 2,2003,Irtysh Omsk,665,1,2,True
+572966,2020-11-29T11:00:00+00:00,FT,Regular Season - 25,Krasnodar 2,2015,Akron,6786,1,1,True
+572970,2020-11-29T11:00:00+00:00,FT,Regular Season - 25,Veles,6833,Shinnik Yaroslavl,1998,4,2,True
+572975,2020-11-29T12:00:00+00:00,FT,Regular Season - 25,Volgar Astrakhan,2004,Chayka,3983,2,1,True
+572969,2020-11-29T12:00:00+00:00,FT,Regular Season - 25,Chertanovo Moscow,2014,FK Neftekhimik,2001,1,0,True
+572746,2020-11-29T12:00:00+00:00,FT,Regular Season - 25,Alaniya II,10136,Nizhny Novgorod,2011,0,0,True
+572971,2020-11-29T13:00:00+00:00,FT,Regular Season - 25,Fakel Voronezh,1993,Ska-khabarovsk,1087,3,0,True
+572968,2020-11-29T13:00:00+00:00,FT,Regular Season - 25,Dinamo Bryansk,6795,TOM Tomsk,1081,1,0,True
+572967,2020-11-29T15:00:00+00:00,FT,Regular Season - 25,Baltika,2006,Torpedo Moskva,3985,0,0,True
+572987,2020-12-05T10:00:00+00:00,FT,Regular Season - 26,Krasnodar 2,2015,Spartak Moscow 2,2003,7,0,True
+572979,2020-12-05T10:30:00+00:00,FT,Regular Season - 26,FK Neftekhimik,2001,TOM Tomsk,1081,2,0,True
+572980,2020-12-05T11:00:00+00:00,FT,Regular Season - 26,Irtysh Omsk,665,Dinamo Bryansk,6795,1,0,True
+572981,2020-12-05T11:00:00+00:00,FT,Regular Season - 26,Krylya Sovetov,1079,Enisey,1089,4,0,True
+572985,2020-12-05T11:00:00+00:00,FT,Regular Season - 26,Shinnik Yaroslavl,1998,Ska-khabarovsk,1087,2,3,True
+572982,2020-12-05T11:00:00+00:00,FT,Regular Season - 26,Volgar Astrakhan,2004,Orenburg,1080,2,2,True
+572977,2020-12-05T12:00:00+00:00,FT,Regular Season - 26,Tekstilshchik,3984,Nizhny Novgorod,2011,1,0,True
+572983,2020-12-05T12:00:00+00:00,FT,Regular Season - 26,Akron,6786,Baltika,2006,0,2,True
+572978,2020-12-05T12:00:00+00:00,FT,Regular Season - 26,Alaniya II,10136,Chertanovo Moscow,2014,3,1,True
+572986,2020-12-05T13:00:00+00:00,FT,Regular Season - 26,Fakel Voronezh,1993,Chayka,3983,1,1,True
+572984,2020-12-05T13:00:00+00:00,FT,Regular Season - 26,Torpedo Moskva,3985,Veles,6833,0,1,True
+572996,2021-02-27T10:00:00+00:00,FT,Regular Season - 27,Orenburg,1080,Fakel Voronezh,1993,1,2,True
+572995,2021-02-27T10:00:00+00:00,FT,Regular Season - 27,Enisey,1089,Volgar Astrakhan,2004,1,4,True
+572989,2021-02-27T11:00:00+00:00,FT,Regular Season - 27,Irtysh Omsk,665,FK Neftekhimik,2001,1,2,True
+572998,2021-02-27T11:00:00+00:00,FT,Regular Season - 27,Spartak Moscow 2,2003,Dinamo Bryansk,6795,0,0,True
+572994,2021-02-27T11:00:00+00:00,FT,Regular Season - 27,Nizhny Novgorod,2011,Krylya Sovetov,1079,0,1,True
+572992,2021-02-27T11:00:00+00:00,FT,Regular Season - 27,Veles,6833,Akron,6786,1,1,True
+572990,2021-02-27T11:00:00+00:00,FT,Regular Season - 27,Alaniya II,10136,TOM Tomsk,1081,2,3,True
+572997,2021-02-27T12:00:00+00:00,FT,Regular Season - 27,Chayka,3983,Shinnik Yaroslavl,1998,5,1,True
+572991,2021-02-27T12:00:00+00:00,FT,Regular Season - 27,Tekstilshchik,3984,Chertanovo Moscow,2014,1,0,True
+572993,2021-02-27T13:00:00+00:00,FT,Regular Season - 27,Torpedo Moskva,3985,Ska-khabarovsk,1087,0,0,True
+572988,2021-02-27T15:00:00+00:00,FT,Regular Season - 27,Baltika,2006,Krasnodar 2,2015,2,0,True
+573006,2021-03-06T09:00:00+00:00,FT,Regular Season - 28,Akron,6786,Ska-khabarovsk,1087,1,1,True
+572786,2021-03-06T10:00:00+00:00,FT,Regular Season - 28,Enisey,1089,Fakel Voronezh,1993,1,3,True
+572999,2021-03-06T11:00:00+00:00,FT,Regular Season - 28,Krylya Sovetov,1079,Chertanovo Moscow,2014,5,0,True
+573008,2021-03-06T11:00:00+00:00,FT,Regular Season - 28,Shinnik Yaroslavl,1998,Orenburg,1080,1,4,True
+573003,2021-03-06T11:00:00+00:00,FT,Regular Season - 28,Volgar Astrakhan,2004,Nizhny Novgorod,2011,1,1,True
+573005,2021-03-06T11:00:00+00:00,FT,Regular Season - 28,Krasnodar 2,2015,Veles,6833,2,1,True
+573001,2021-03-06T11:00:00+00:00,FT,Regular Season - 28,Alaniya II,10136,Irtysh Omsk,665,1,0,True
+573000,2021-03-06T12:00:00+00:00,FT,Regular Season - 28,Tekstilshchik,3984,TOM Tomsk,1081,1,1,True
+573002,2021-03-06T13:00:00+00:00,FT,Regular Season - 28,FK Neftekhimik,2001,Dinamo Bryansk,6795,5,1,True
+573007,2021-03-06T13:00:00+00:00,FT,Regular Season - 28,Torpedo Moskva,3985,Chayka,3983,1,2,True
+573009,2021-03-06T15:00:00+00:00,FT,Regular Season - 28,Baltika,2006,Spartak Moscow 2,2003,1,0,True
+573015,2021-03-10T08:30:00+00:00,FT,Regular Season - 29,Ska-khabarovsk,1087,Krasnodar 2,2015,0,0,True
+573020,2021-03-10T11:00:00+00:00,FT,Regular Season - 29,Spartak Moscow 2,2003,FK Neftekhimik,2001,0,1,True
+573016,2021-03-10T11:00:00+00:00,FT,Regular Season - 29,Nizhny Novgorod,2011,Fakel Voronezh,1993,1,2,True
+573014,2021-03-10T11:00:00+00:00,FT,Regular Season - 29,Veles,6833,Baltika,2006,0,1,True
+573012,2021-03-10T11:30:00+00:00,FT,Regular Season - 29,TOM Tomsk,1081,Krylya Sovetov,1079,1,3,True
+573017,2021-03-10T12:00:00+00:00,FT,Regular Season - 29,Enisey,1089,Shinnik Yaroslavl,1998,6,0,True
+573011,2021-03-10T13:00:00+00:00,FT,Regular Season - 29,Irtysh Omsk,665,Tekstilshchik,3984,0,1,True
+573018,2021-03-10T13:00:00+00:00,FT,Regular Season - 29,Orenburg,1080,Torpedo Moskva,3985,3,0,True
+573019,2021-03-10T14:00:00+00:00,FT,Regular Season - 29,Chayka,3983,Akron,6786,0,1,True
+573010,2021-03-10T14:15:00+00:00,FT,Regular Season - 29,Dinamo Bryansk,6795,Alaniya II,10136,0,2,True
+573013,2021-03-10T15:00:00+00:00,FT,Regular Season - 29,Chertanovo Moscow,2014,Volgar Astrakhan,2004,1,1,True
+573022,2021-03-14T11:00:00+00:00,FT,Regular Season - 30,Krylya Sovetov,1079,Irtysh Omsk,665,3,1,True
+573026,2021-03-14T11:00:00+00:00,FT,Regular Season - 30,Shinnik Yaroslavl,1998,Nizhny Novgorod,2011,1,3,True
+573021,2021-03-14T11:00:00+00:00,FT,Regular Season - 30,Volgar Astrakhan,2004,TOM Tomsk,1081,2,1,True
+573028,2021-03-14T11:00:00+00:00,FT,Regular Season - 30,Krasnodar 2,2015,Chayka,3983,1,1,True
+573030,2021-03-14T11:00:00+00:00,FT,Regular Season - 30,Torpedo Moskva,3985,Enisey,1089,0,1,True
+573031,2021-03-14T11:00:00+00:00,FT,Regular Season - 30,Veles,6833,Spartak Moscow 2,2003,5,0,True
+573025,2021-03-14T12:00:00+00:00,FT,Regular Season - 30,Fakel Voronezh,1993,Chertanovo Moscow,2014,4,1,True
+573023,2021-03-14T12:00:00+00:00,FT,Regular Season - 30,Tekstilshchik,3984,Dinamo Bryansk,6795,1,0,True
+573029,2021-03-14T12:00:00+00:00,FT,Regular Season - 30,Akron,6786,Orenburg,1080,1,1,True
+573024,2021-03-14T12:00:00+00:00,FT,Regular Season - 30,Alaniya II,10136,FK Neftekhimik,2001,1,1,True
+573027,2021-03-14T15:00:00+00:00,FT,Regular Season - 30,Baltika,2006,Ska-khabarovsk,1087,1,0,True
+573037,2021-03-20T05:00:00+00:00,FT,Regular Season - 31,Ska-khabarovsk,1087,Veles,6833,1,1,True
+573034,2021-03-20T08:00:00+00:00,FT,Regular Season - 31,TOM Tomsk,1081,Fakel Voronezh,1993,0,3,True
+573040,2021-03-20T10:00:00+00:00,FT,Regular Season - 31,Orenburg,1080,Krasnodar 2,2015,1,0,True
+573039,2021-03-20T10:00:00+00:00,FT,Regular Season - 31,Enisey,1089,Akron,6786,0,1,True
+573033,2021-03-20T11:00:00+00:00,FT,Regular Season - 31,Irtysh Omsk,665,Volgar Astrakhan,2004,1,0,True
+573042,2021-03-20T11:00:00+00:00,FT,Regular Season - 31,Spartak Moscow 2,2003,Alaniya II,10136,3,3,True
+573035,2021-03-20T12:00:00+00:00,FT,Regular Season - 31,Chertanovo Moscow,2014,Shinnik Yaroslavl,1998,2,2,True
+573036,2021-03-20T12:00:00+00:00,FT,Regular Season - 31,Tekstilshchik,3984,FK Neftekhimik,2001,0,1,True
+573032,2021-03-20T12:00:00+00:00,FT,Regular Season - 31,Dinamo Bryansk,6795,Krylya Sovetov,1079,0,2,True
+573038,2021-03-20T13:00:00+00:00,FT,Regular Season - 31,Nizhny Novgorod,2011,Torpedo Moskva,3985,4,1,True
+573041,2021-03-20T13:00:00+00:00,FT,Regular Season - 31,Chayka,3983,Baltika,2006,0,1,True
+573053,2021-03-24T09:00:00+00:00,FT,Regular Season - 32,Ska-khabarovsk,1087,Spartak Moscow 2,2003,3,0,True
+573045,2021-03-24T12:00:00+00:00,FT,Regular Season - 32,Krylya Sovetov,1079,FK Neftekhimik,2001,2,0,True
+573043,2021-03-24T12:00:00+00:00,FT,Regular Season - 32,Fakel Voronezh,1993,Irtysh Omsk,665,3,1,True
+573047,2021-03-24T12:00:00+00:00,FT,Regular Season - 32,Shinnik Yaroslavl,1998,TOM Tomsk,1081,2,3,True
+573051,2021-03-24T12:00:00+00:00,FT,Regular Season - 32,Krasnodar 2,2015,Enisey,1089,0,2,True
+573052,2021-03-24T12:00:00+00:00,FT,Regular Season - 32,Akron,6786,Nizhny Novgorod,2011,0,0,True
+573046,2021-03-24T14:00:00+00:00,FT,Regular Season - 32,Tekstilshchik,3984,Alaniya II,10136,0,2,True
+573044,2021-03-24T14:30:00+00:00,FT,Regular Season - 32,Volgar Astrakhan,2004,Dinamo Bryansk,6795,2,1,True
+573049,2021-03-24T15:30:00+00:00,FT,Regular Season - 32,Veles,6833,Chayka,3983,0,1,True
+573048,2021-03-24T16:00:00+00:00,FT,Regular Season - 32,Torpedo Moskva,3985,Chertanovo Moscow,2014,3,0,True
+573050,2021-03-24T17:30:00+00:00,FT,Regular Season - 32,Baltika,2006,Orenburg,1080,1,2,True
+573056,2021-03-28T08:00:00+00:00,FT,Regular Season - 33,TOM Tomsk,1081,Torpedo Moskva,3985,1,0,True
+573062,2021-03-28T10:00:00+00:00,FT,Regular Season - 33,Orenburg,1080,Veles,6833,3,0,True
+573061,2021-03-28T10:00:00+00:00,FT,Regular Season - 33,Enisey,1089,Baltika,2006,1,2,True
+573055,2021-03-28T11:00:00+00:00,FT,Regular Season - 33,Irtysh Omsk,665,Shinnik Yaroslavl,1998,0,0,True
+573064,2021-03-28T11:00:00+00:00,FT,Regular Season - 33,Spartak Moscow 2,2003,Tekstilshchik,3984,1,1,True
+573057,2021-03-28T12:00:00+00:00,FT,Regular Season - 33,Chertanovo Moscow,2014,Akron,6786,0,1,True
+573063,2021-03-28T12:00:00+00:00,FT,Regular Season - 33,Chayka,3983,Ska-khabarovsk,1087,2,1,True
+573054,2021-03-28T12:00:00+00:00,FT,Regular Season - 33,Dinamo Bryansk,6795,Fakel Voronezh,1993,0,2,True
+573058,2021-03-28T13:00:00+00:00,FT,Regular Season - 33,FK Neftekhimik,2001,Volgar Astrakhan,2004,1,1,True
+573060,2021-03-28T13:00:00+00:00,FT,Regular Season - 33,Nizhny Novgorod,2011,Krasnodar 2,2015,3,0,True
+573059,2021-03-28T13:00:00+00:00,FT,Regular Season - 33,Alaniya II,10136,Krylya Sovetov,1079,0,1,True
+573074,2021-04-02T11:00:00+00:00,FT,Regular Season - 34,Krasnodar 2,2015,Chertanovo Moscow,2014,1,0,True
+573071,2021-04-03T05:00:00+00:00,FT,Regular Season - 34,Ska-khabarovsk,1087,Orenburg,1080,1,0,True
+573068,2021-04-03T11:00:00+00:00,FT,Regular Season - 34,Krylya Sovetov,1079,Tekstilshchik,3984,4,0,True
+573070,2021-04-03T11:00:00+00:00,FT,Regular Season - 34,Akron,6786,TOM Tomsk,1081,0,0,True
+573072,2021-04-03T11:00:00+00:00,FT,Regular Season - 34,Veles,6833,Enisey,1089,1,1,True
+573065,2021-04-03T12:00:00+00:00,FT,Regular Season - 34,Shinnik Yaroslavl,1998,Dinamo Bryansk,6795,0,1,True
+573066,2021-04-03T13:00:00+00:00,FT,Regular Season - 34,Fakel Voronezh,1993,FK Neftekhimik,2001,1,1,True
+573067,2021-04-03T13:00:00+00:00,FT,Regular Season - 34,Volgar Astrakhan,2004,Alaniya II,10136,1,0,True
+573075,2021-04-03T13:00:00+00:00,FT,Regular Season - 34,Chayka,3983,Spartak Moscow 2,2003,0,2,True
+573069,2021-04-03T13:00:00+00:00,FT,Regular Season - 34,Torpedo Moskva,3985,Irtysh Omsk,665,1,0,True
+573073,2021-04-03T16:00:00+00:00,FT,Regular Season - 34,Baltika,2006,Nizhny Novgorod,2011,1,2,True
+573078,2021-04-07T11:30:00+00:00,FT,Regular Season - 35,TOM Tomsk,1081,Krasnodar 2,2015,1,1,True
+573083,2021-04-07T11:30:00+00:00,FT,Regular Season - 35,Enisey,1089,Ska-khabarovsk,1087,2,0,True
+572861,2021-04-07T12:00:00+00:00,FT,Regular Season - 35,Akron,6786,Irtysh Omsk,665,1,1,True
+573084,2021-04-07T13:00:00+00:00,FT,Regular Season - 35,Orenburg,1080,Chayka,3983,3,0,True
+573081,2021-04-07T13:00:00+00:00,FT,Regular Season - 35,Alaniya II,10136,Fakel Voronezh,1993,2,0,True
+573080,2021-04-07T15:00:00+00:00,FT,Regular Season - 35,FK Neftekhimik,2001,Shinnik Yaroslavl,1998,1,1,True
+573085,2021-04-07T15:00:00+00:00,FT,Regular Season - 35,Tekstilshchik,3984,Volgar Astrakhan,2004,1,1,True
+573076,2021-04-07T15:00:00+00:00,FT,Regular Season - 35,Dinamo Bryansk,6795,Torpedo Moskva,3985,0,1,True
+573082,2021-04-07T16:00:00+00:00,FT,Regular Season - 35,Nizhny Novgorod,2011,Veles,6833,1,0,True
+573079,2021-04-07T16:00:00+00:00,FT,Regular Season - 35,Chertanovo Moscow,2014,Baltika,2006,1,2,True
+573094,2021-04-11T05:00:00+00:00,FT,Regular Season - 36,Ska-khabarovsk,1087,Nizhny Novgorod,2011,0,1,True
+573097,2021-04-11T10:00:00+00:00,FT,Regular Season - 36,Orenburg,1080,Spartak Moscow 2,2003,5,2,True
+573089,2021-04-11T12:00:00+00:00,FT,Regular Season - 36,Fakel Voronezh,1993,Tekstilshchik,3984,1,0,True
+573088,2021-04-11T12:00:00+00:00,FT,Regular Season - 36,Shinnik Yaroslavl,1998,Alaniya II,10136,0,1,True
+573095,2021-04-11T12:00:00+00:00,FT,Regular Season - 36,Chertanovo Moscow,2014,Veles,6833,2,4,True
+573091,2021-04-11T12:00:00+00:00,FT,Regular Season - 36,Akron,6786,Dinamo Bryansk,6795,1,1,True
+573087,2021-04-11T13:00:00+00:00,FT,Regular Season - 36,FK Neftekhimik,2001,Torpedo Moskva,3985,2,2,True
+573092,2021-04-11T13:00:00+00:00,FT,Regular Season - 36,Krasnodar 2,2015,Irtysh Omsk,665,2,0,True
+573093,2021-04-11T13:00:00+00:00,FT,Regular Season - 36,Chayka,3983,Enisey,1089,0,1,True
+573096,2021-04-11T16:00:00+00:00,FT,Regular Season - 36,Baltika,2006,TOM Tomsk,1081,0,1,True
+573090,2021-04-12T14:30:00+00:00,FT,Regular Season - 36,Volgar Astrakhan,2004,Krylya Sovetov,1079,0,1,True
+573100,2021-04-17T09:00:00+00:00,FT,Regular Season - 37,TOM Tomsk,1081,Veles,6833,0,0,True
+573105,2021-04-17T10:00:00+00:00,FT,Regular Season - 37,Enisey,1089,Orenburg,1080,1,2,True
+573099,2021-04-17T11:00:00+00:00,FT,Regular Season - 37,Irtysh Omsk,665,Baltika,2006,0,1,True
+573106,2021-04-17T11:00:00+00:00,FT,Regular Season - 37,Krylya Sovetov,1079,Fakel Voronezh,1993,5,1,True
+573108,2021-04-17T11:00:00+00:00,FT,Regular Season - 37,Spartak Moscow 2,2003,Volgar Astrakhan,2004,2,0,True
+573101,2021-04-17T12:00:00+00:00,FT,Regular Season - 37,Chertanovo Moscow,2014,Ska-khabarovsk,1087,0,4,True
+573107,2021-04-17T12:00:00+00:00,FT,Regular Season - 37,Tekstilshchik,3984,Shinnik Yaroslavl,1998,0,0,True
+573102,2021-04-17T13:00:00+00:00,FT,Regular Season - 37,FK Neftekhimik,2001,Akron,6786,3,2,True
+573104,2021-04-17T13:00:00+00:00,FT,Regular Season - 37,Nizhny Novgorod,2011,Chayka,3983,2,0,True
+573098,2021-04-17T13:00:00+00:00,FT,Regular Season - 37,Dinamo Bryansk,6795,Krasnodar 2,2015,2,1,True
+573103,2021-04-17T14:00:00+00:00,FT,Regular Season - 37,Alaniya II,10136,Torpedo Moskva,3985,1,1,True
+573117,2021-04-24T05:00:00+00:00,FT,Regular Season - 38,Ska-khabarovsk,1087,TOM Tomsk,1081,1,1,True
+573115,2021-04-24T10:00:00+00:00,FT,Regular Season - 38,Orenburg,1080,Nizhny Novgorod,2011,2,1,True
+573119,2021-04-24T10:00:00+00:00,FT,Regular Season - 38,Enisey,1089,Spartak Moscow 2,2003,4,2,True
+573111,2021-04-24T11:00:00+00:00,FT,Regular Season - 38,Shinnik Yaroslavl,1998,Krylya Sovetov,1079,2,2,True
+573118,2021-04-24T11:00:00+00:00,FT,Regular Season - 38,Veles,6833,Irtysh Omsk,665,2,1,True
+573109,2021-04-24T12:00:00+00:00,FT,Regular Season - 38,Akron,6786,Alaniya II,10136,1,2,True
+573112,2021-04-24T13:00:00+00:00,FT,Regular Season - 38,Fakel Voronezh,1993,Volgar Astrakhan,2004,1,1,True
+573113,2021-04-24T13:00:00+00:00,FT,Regular Season - 38,Krasnodar 2,2015,FK Neftekhimik,2001,1,1,True
+573116,2021-04-24T13:00:00+00:00,FT,Regular Season - 38,Chayka,3983,Chertanovo Moscow,2014,1,1,True
+573110,2021-04-24T13:00:00+00:00,FT,Regular Season - 38,Torpedo Moskva,3985,Tekstilshchik,3984,2,1,True
+573114,2021-04-24T16:00:00+00:00,FT,Regular Season - 38,Baltika,2006,Dinamo Bryansk,6795,2,0,True
+573130,2021-04-28T11:00:00+00:00,FT,Regular Season - 39,Spartak Moscow 2,2003,Fakel Voronezh,1993,3,5,True
+573122,2021-04-28T11:30:00+00:00,FT,Regular Season - 39,TOM Tomsk,1081,Chayka,3983,3,0,True
+573121,2021-04-28T13:00:00+00:00,FT,Regular Season - 39,Irtysh Omsk,665,Ska-Khabarovsk,1087,1,2,True
+573125,2021-04-28T14:00:00+00:00,FT,Regular Season - 39,Alaniya II,10136,Krasnodar 2,2015,3,1,True
+573127,2021-04-28T14:30:00+00:00,FT,Regular Season - 39,Volgar Astrakhan,2004,Shinnik Yaroslavl,1998,1,1,True
+573128,2021-04-28T15:00:00+00:00,FT,Regular Season - 39,Krylya Sovetov,1079,Torpedo Moskva,3985,5,1,True
+573124,2021-04-28T15:00:00+00:00,FT,Regular Season - 39,FK Neftekhimik,2001,Baltika,2006,2,1,True
+573129,2021-04-28T15:00:00+00:00,FT,Regular Season - 39,Tekstilshchik,3984,Akron,6786,0,2,True
+573120,2021-04-28T15:00:00+00:00,FT,Regular Season - 39,Dinamo Bryansk,6795,Veles,6833,1,0,True
+573126,2021-04-28T16:00:00+00:00,FT,Regular Season - 39,Nizhny Novgorod,2011,Enisey,1089,1,2,True
+573123,2021-04-28T16:00:00+00:00,FT,Regular Season - 39,Chertanovo Moscow,2014,Orenburg,1080,2,3,True
+573140,2021-05-02T05:00:00+00:00,FT,Regular Season - 40,Ska-khabarovsk,1087,Dinamo Bryansk,6795,1,0,True
+573138,2021-05-02T10:00:00+00:00,FT,Regular Season - 40,Orenburg,1080,TOM Tomsk,1081,2,0,True
+573137,2021-05-02T10:00:00+00:00,FT,Regular Season - 40,Enisey,1089,Chertanovo Moscow,2014,1,1,True
+573132,2021-05-02T10:00:00+00:00,FT,Regular Season - 40,Akron,6786,Krylya Sovetov,1079,1,2,True
+573134,2021-05-02T11:00:00+00:00,FT,Regular Season - 40,Shinnik Yaroslavl,1998,Fakel Voronezh,1993,0,2,True
+572915,2021-05-02T13:00:00+00:00,FT,Regular Season - 40,FK Neftekhimik,2001,Veles,6833,2,0,True
+573141,2021-05-02T13:00:00+00:00,FT,Regular Season - 40,Nizhny Novgorod,2011,Spartak Moscow 2,2003,4,0,True
+573131,2021-05-02T13:00:00+00:00,FT,Regular Season - 40,Krasnodar 2,2015,Tekstilshchik,3984,0,1,True
+573139,2021-05-02T13:00:00+00:00,FT,Regular Season - 40,Chayka,3983,Irtysh Omsk,665,2,1,True
+573133,2021-05-02T13:00:00+00:00,FT,Regular Season - 40,Torpedo Moskva,3985,Volgar Astrakhan,2004,1,0,True
+573135,2021-05-02T17:00:00+00:00,FT,Regular Season - 40,Baltika,2006,Alaniya II,10136,2,0,True
+573086,2021-05-05T09:00:00+00:00,FT,Regular Season - 35,Spartak Moscow 2,2003,Krylya Sovetov,1079,0,2,True
+573144,2021-05-08T10:00:00+00:00,FT,Regular Season - 41,TOM Tomsk,1081,Enisey,1089,1,0,True
+573143,2021-05-08T11:00:00+00:00,FT,Regular Season - 41,Irtysh Omsk,665,Orenburg,1080,0,4,True
+573150,2021-05-08T11:00:00+00:00,FT,Regular Season - 41,Krylya Sovetov,1079,Krasnodar 2,2015,6,0,True
+573152,2021-05-08T11:00:00+00:00,FT,Regular Season - 41,Spartak Moscow 2,2003,Shinnik Yaroslavl,1998,4,2,True
+573148,2021-05-08T12:00:00+00:00,FT,Regular Season - 41,Fakel Voronezh,1993,Torpedo Moskva,3985,0,0,True
+573145,2021-05-08T12:00:00+00:00,FT,Regular Season - 41,Chertanovo Moscow,2014,Nizhny Novgorod,2011,1,3,True
+573146,2021-05-08T13:00:00+00:00,FT,Regular Season - 41,FK Neftekhimik,2001,Ska-khabarovsk,1087,3,2,True
+573149,2021-05-08T13:00:00+00:00,FT,Regular Season - 41,Volgar Astrakhan,2004,Akron,6786,1,1,True
+573142,2021-05-08T13:00:00+00:00,FT,Regular Season - 41,Dinamo Bryansk,6795,Chayka,3983,0,1,True
+573147,2021-05-08T14:00:00+00:00,FT,Regular Season - 41,Alaniya II,10136,Veles,6833,0,0,True
+573151,2021-05-08T17:00:00+00:00,FT,Regular Season - 41,Baltika,2006,Tekstilshchik,3984,3,1,True
+573161,2021-05-15T10:00:00+00:00,FT,Regular Season - 42,Orenburg,1080,Dinamo Bryansk,6795,3,2,True
+573158,2021-05-15T10:00:00+00:00,FT,Regular Season - 42,Ska-khabarovsk,1087,Alaniya II,10136,1,2,True
+573160,2021-05-15T10:00:00+00:00,FT,Regular Season - 42,Enisey,1089,Irtysh Omsk,665,2,1,True
+573153,2021-05-15T10:00:00+00:00,FT,Regular Season - 42,Baltika,2006,Krylya Sovetov,1079,0,1,True
+573156,2021-05-15T10:00:00+00:00,FT,Regular Season - 42,Torpedo Moskva,3985,Shinnik Yaroslavl,1998,0,1,True
+573163,2021-05-15T11:00:00+00:00,FT,Regular Season - 42,Spartak Moscow 2,2003,Chertanovo Moscow,2014,4,3,True
+573157,2021-05-15T11:00:00+00:00,FT,Regular Season - 42,Veles,6833,Tekstilshchik,3984,2,1,True
+573159,2021-05-15T13:00:00+00:00,FT,Regular Season - 42,TOM Tomsk,1081,Nizhny Novgorod,2011,1,1,True
+573154,2021-05-15T13:00:00+00:00,FT,Regular Season - 42,Krasnodar 2,2015,Volgar Astrakhan,2004,1,0,True
+573162,2021-05-15T13:00:00+00:00,FT,Regular Season - 42,Chayka,3983,FK Neftekhimik,2001,1,0,True
+573155,2021-05-15T13:00:00+00:00,FT,Regular Season - 42,Akron,6786,Fakel Voronezh,1993,0,2,True

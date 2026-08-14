@@ -1,12 +1,37 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1316775,2025-03-12T15:00:00+00:00,FT,TSC Backa Topola,2646,FK Spartak Zdrepceva KRV,2251,2,1,True
-1316774,2025-03-12T15:00:00+00:00,FT,Radnik Surdulica,2657,FK Partizan,573,0,3,True
-1316772,2025-03-12T17:30:00+00:00,FT,Cukaricki,2656,Radnicki NIS,2254,0,2,True
-1316773,2025-03-26T16:00:00+00:00,FT,FK Crvena Zvezda,598,OFK Beograd,2633,5,3,True
-1366862,2025-04-02T14:00:00+00:00,FT,Radnicki NIS,2254,Vojvodina,702,0,1,True
-1366864,2025-04-02T14:30:00+00:00,FT,Napredak,2655,IMT Novi Beograd,12316,2,1,True
-1366863,2025-04-02T15:30:00+00:00,PEN,FK Partizan,573,TSC Backa Topola,2646,0,0,False
-1366861,2025-04-02T17:00:00+00:00,FT,FK Crvena Zvezda,598,Novi Pazar,2643,2,1,True
-1371739,2025-05-07T16:30:00+00:00,FT,Vojvodina,702,TSC Backa Topola,2646,2,0,True
-1371738,2025-05-07T17:00:00+00:00,FT,FK Crvena Zvezda,598,Napredak,2655,4,2,True
-1374898,2025-05-21T16:00:00+00:00,FT,Vojvodina,702,FK Crvena Zvezda,598,0,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1300827,2024-09-11T14:00:00+00:00,FT,Preliminary Round,Zemun,2642,Kolubara,2636,3,1,True
+1300828,2024-09-11T14:00:00+00:00,FT,Preliminary Round,Mladost Novi Sad,14261,Radnički Novi Beograd,12335,1,0,True
+1300826,2024-09-11T14:00:00+00:00,FT,Preliminary Round,FAP,19845,Metalac GM,2647,2,1,True
+1300825,2024-09-11T14:00:00+00:00,FT,Preliminary Round,Hajduk Divoš,24623,RFK Novi Sad,20391,2,3,True
+1300824,2024-09-11T14:00:00+00:00,PEN,Preliminary Round,Pusta Reka,24959,Trepča,12353,1,1,False
+1312229,2024-10-30T12:00:00+00:00,FT,Round of 32,Indjija,2631,Radnicki 1923,2644,0,1,True
+1312226,2024-10-30T12:00:00+00:00,FT,Round of 32,Zemun,2642,Javor,2653,1,2,True
+1312225,2024-10-30T12:00:00+00:00,FT,Round of 32,Grafičar,4252,Železničar Pančevo,12360,2,1,True
+1312230,2024-10-30T12:00:00+00:00,FT,Round of 32,Semendrija 1924,4254,Novi Pazar,2643,1,3,True
+1312216,2024-10-30T12:00:00+00:00,FT,Round of 32,Dubočica,12312,Mladost Lucani,699,0,2,True
+1312217,2024-10-30T12:00:00+00:00,FT,Round of 32,OFK Vršac,12329,TSC Backa Topola,2646,1,1,True
+1312223,2024-10-30T12:00:00+00:00,FT,Round of 32,Radnički Sr. Mitrovica,12338,Vojvodina,702,0,1,True
+1312220,2024-10-30T12:00:00+00:00,FT,Round of 32,Trepča,12353,Radnicki NIS,2254,0,6,True
+1312228,2024-10-30T12:00:00+00:00,FT,Round of 32,FAP,19845,Radnik Surdulica,2657,2,3,True
+1312219,2024-10-30T12:00:00+00:00,FT,Round of 32,RFK Novi Sad,20391,FK Spartak Zdrepceva KRV,2251,1,2,True
+1312221,2024-10-30T14:00:00+00:00,FT,Round of 32,OFK Beograd,2633,FK Vozdovac,2658,2,2,True
+1312224,2024-10-30T15:00:00+00:00,FT,Round of 32,Jedinstvo Ub,12319,Cukaricki,2656,0,1,True
+1312227,2024-10-30T16:00:00+00:00,FT,Round of 32,Sloboda Uzice,2641,Napredak,2655,2,2,True
+1312222,2024-10-30T16:00:00+00:00,FT,Round of 32,Tekstilac Odžaci,17438,FK Crvena Zvezda,598,0,7,True
+1312218,2024-10-30T17:00:00+00:00,FT,Round of 32,Macva,2637,IMT Novi Beograd,12316,0,1,True
+1312215,2024-10-30T18:00:00+00:00,FT,Round of 32,Mladost Novi Sad,14261,FK Partizan,573,0,3,True
+1316778,2024-12-04T13:00:00+00:00,FT,Round of 16,Mladost Lucani,699,IMT Novi Beograd,12316,1,2,True
+1316779,2024-12-04T13:00:00+00:00,FT,Round of 16,Novi Pazar,2643,Radnicki 1923,2644,2,0,True
+1316776,2024-12-04T15:00:00+00:00,FT,Round of 16,Vojvodina,702,Grafičar,4252,3,1,True
+1316777,2024-12-04T15:00:00+00:00,PEN,Round of 16,Napredak,2655,Javor,2653,0,0,False
+1316775,2025-03-12T15:00:00+00:00,FT,Round of 16,TSC Backa Topola,2646,FK Spartak Zdrepceva KRV,2251,2,1,True
+1316774,2025-03-12T15:00:00+00:00,FT,Round of 16,Radnik Surdulica,2657,FK Partizan,573,0,3,True
+1316772,2025-03-12T17:30:00+00:00,FT,Round of 16,Cukaricki,2656,Radnicki NIS,2254,0,2,True
+1316773,2025-03-26T16:00:00+00:00,FT,Round of 16,FK Crvena Zvezda,598,OFK Beograd,2633,5,3,True
+1366862,2025-04-02T14:00:00+00:00,FT,Quarter-finals,Radnicki NIS,2254,Vojvodina,702,0,1,True
+1366864,2025-04-02T14:30:00+00:00,FT,Quarter-finals,Napredak,2655,IMT Novi Beograd,12316,2,1,True
+1366863,2025-04-02T15:30:00+00:00,PEN,Quarter-finals,FK Partizan,573,TSC Backa Topola,2646,0,0,False
+1366861,2025-04-02T17:00:00+00:00,FT,Quarter-finals,FK Crvena Zvezda,598,Novi Pazar,2643,2,1,True
+1371739,2025-05-07T16:30:00+00:00,FT,Semi-finals,Vojvodina,702,TSC Backa Topola,2646,2,0,True
+1371738,2025-05-07T17:00:00+00:00,FT,Semi-finals,FK Crvena Zvezda,598,Napredak,2655,4,2,True
+1374898,2025-05-21T16:00:00+00:00,FT,Final,Vojvodina,702,FK Crvena Zvezda,598,0,3,True

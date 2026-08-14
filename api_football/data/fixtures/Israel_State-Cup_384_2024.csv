@@ -1,17 +1,128 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1338603,2025-02-26T18:30:00+00:00,CANC,Bnei Sakhnin,4481,Beitar Jerusalem,657,,,False
-1311965,2025-01-05T18:45:00+00:00,FT,Hapoel Hod HaSharon,6154,Hapoel Mahane Yehuda,6163,5,1,True
-1331637,2025-01-14T17:00:00+00:00,FT,Hapoel Acre,4482,Beitar Jerusalem,657,0,1,True
-1331639,2025-01-14T17:30:00+00:00,AET,Maccabi Petah Tikva,4495,Bnei Sakhnin,4481,1,1,False
-1331839,2025-01-14T18:15:00+00:00,FT,Maccabi Haifa,4195,Maccabi Netanya,4505,1,0,True
-1331638,2025-01-15T17:00:00+00:00,FT,Nordia Jerusalem,6201,Ashdod,4507,1,4,True
-1331636,2025-01-15T18:00:00+00:00,FT,Hapoel Beer Sheva,563,Hapoel Hadera,4500,6,0,True
-1331641,2025-01-15T18:30:00+00:00,FT,Maccabi Tel Aviv,604,Maccabi Bnei Raina,6186,1,2,True
-1331635,2025-01-16T17:00:00+00:00,FT,Hapoel Haifa,2253,Hapoel Tel Aviv,4501,1,2,True
-1331640,2025-01-16T17:30:00+00:00,FT,Hapoel Ramat Gan,4489,Hapoel Ramat HaSharon,4490,7,0,True
-1338604,2025-02-25T18:00:00+00:00,FT,Ashdod,4507,Maccabi Bnei Raina,6186,1,3,True
-1338601,2025-02-25T18:30:00+00:00,FT,Hapoel Ramat Gan,4489,Hapoel Tel Aviv,4501,0,2,True
-1338602,2025-02-27T18:30:00+00:00,FT,Hapoel Beer Sheva,563,Maccabi Haifa,4195,2,0,True
-1367880,2025-04-10T17:30:00+00:00,FT,Maccabi Bnei Raina,6186,Beitar Jerusalem,657,1,5,True
-1361486,2025-04-22T17:30:00+00:00,FT,Hapoel Tel Aviv,4501,Hapoel Beer Sheva,563,1,5,True
-1373031,2025-05-29T17:30:00+00:00,FT,Beitar Jerusalem,657,Hapoel Beer Sheva,563,0,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1294762,2024-09-05T16:10:00+00:00,CANC,1st Round (Liga Bet),Bnei Eilat,6137,Maccabi Kiryat Gat,6194,,,False
+1294761,2024-09-06T08:30:00+00:00,CANC,1st Round (Liga Bet),Hapoel Yeruham,6170,Hapoel Gedera,6152,,,False
+1294760,2024-09-06T08:30:00+00:00,CANC,1st Round (Liga Bet),Maccabi Be'er Sheva,20107,Hapoel Segev Shalom,22335,,,False
+1294753,2024-09-07T18:15:00+00:00,CANC,1st Round (Liga Bet),Maccabi Ahi Iksal,6333,Beitar Haifa,20098,,,False
+1294757,2024-09-09T00:00:00+00:00,CANC,1st Round (Liga Bet),Sektzia Nes Tziona,4499,Hapoel Hod HaSharon,6154,,,False
+1304138,2024-10-09T12:00:00+00:00,CANC,2nd Round (Liga Bet),Hapoel Tirat HaCarmel,6169,FC Tirat HaCarmel,22331,,,False
+1304131,2024-10-15T12:00:00+00:00,CANC,2nd Round (Liga Bet),Maccabi Bnei Abu Snan,17999,Bnei HaGolan VeHaGalil,6138,,,False
+1314118,2024-11-02T11:00:00+00:00,CANC,3rd Round (Liga Bet),Maccabi Maghar,24790,Bnei HaGolan VeHaGalil,6138,,,False
+1314707,2024-11-08T13:00:00+00:00,CANC,3rd Round (Liga Bet),Hapoel Sandala Gilboa,20104,Ihud Bnei Baka,6172,,,False
+1338603,2025-02-26T18:30:00+00:00,CANC,Quarter-finals,Bnei Sakhnin,4481,Beitar Jerusalem,657,,,False
+1294770,2024-08-29T15:30:00+00:00,FT,5th Round (Liga Alef),Maccabi Yavne,6200,Maccabi Ashdod,6184,3,0,True
+1294768,2024-08-29T17:00:00+00:00,FT,5th Round (Liga Alef),Nordia Jerusalem,6201,Shimshon Kafr Qasim,6207,2,0,True
+1294769,2024-08-29T17:45:00+00:00,FT,5th Round (Liga Alef),Hapoel Lod,6162,Maccabi Shaarayim,4506,1,0,True
+1294767,2024-08-29T18:30:00+00:00,FT,5th Round (Liga Alef),Tzeirey Tira,7609,Holon Yermiyahu,6171,0,1,True
+1294771,2024-08-30T09:00:00+00:00,FT,5th Round (Liga Alef),Shimshon Tel Aviv,6208,Ironi Modi'in,6179,0,1,True
+1294765,2024-08-30T09:00:00+00:00,FT,5th Round (Liga Alef),FC Jerusalem,17996,Hapoel Marmorek,4498,0,1,True
+1294766,2024-08-30T11:00:00+00:00,FT,5th Round (Liga Alef),Agudat Sport Ashdod,6129,Hapoel Herzliya,6153,1,0,True
+1294772,2024-08-30T11:00:00+00:00,AET,5th Round (Liga Alef),Maccabi Kiryat Malachi,6195,Dimona,6142,1,3,False
+1294780,2024-08-30T11:30:00+00:00,FT,5th Round (Liga Alef),Hapoel Bnei Zalafa,6151,Kiryat Yam SC,20105,1,5,True
+1294774,2024-08-30T11:30:00+00:00,FT,5th Round (Liga Alef),Ironi Baka El Garbiya,6175,Ihud Bnei Shfaram,19833,5,1,True
+1294773,2024-08-30T11:30:00+00:00,PEN,5th Round (Liga Alef),Hapoel Ironi Arraba,22334,Hapoel Migdal HaEmek,6164,0,0,False
+1294779,2024-08-30T11:45:00+00:00,FT,5th Round (Liga Alef),Tzeirei Kafr Kanna,6336,Ironi Nesher,4502,0,4,True
+1294778,2024-08-30T12:00:00+00:00,FT,5th Round (Liga Alef),Tzeirei Umm al-Fahm,20706,Tira,6210,2,1,True
+1294775,2024-08-30T12:15:00+00:00,FT,5th Round (Liga Alef),Hapoel Beit Shean,6330,Hapoel Kfar Kana,6159,1,0,True
+1294776,2024-08-31T13:30:00+00:00,FT,5th Round (Liga Alef),Maccabi Nujeidat Ahmed,6198,Hapoel Bnei Musmus,6149,0,1,True
+1294777,2024-09-02T16:00:00+00:00,FT,5th Round (Liga Alef),Maccabi Ahi Nazareth,4494,Hapoel Bu'eine,15269,6,0,True
+1294743,2024-09-02T18:00:00+00:00,FT,1st Round (Liga Bet),Shikun HaMizrah,6205,Beitar Yavne,6328,2,1,True
+1294742,2024-09-03T16:30:00+00:00,AET,1st Round (Liga Bet),Ironi Beit Shemesh,22856,Sderot,22338,1,1,False
+1294755,2024-09-05T16:30:00+00:00,FT,1st Round (Liga Bet),Ironi Beit Dagan,6176,Hakoah Ramat Gan,6144,2,0,True
+1294763,2024-09-05T17:00:00+00:00,FT,1st Round (Liga Bet),Beitar Ironi Kiryat Gat,6132,Hapoel Bnei Ashdod,20099,1,0,True
+1294744,2024-09-05T17:00:00+00:00,AET,1st Round (Liga Bet),Hapoel Ironi Karmiel,20101,Tzeirey Tamra,20110,2,2,False
+1294783,2024-09-05T18:30:00+00:00,AET,1st Round (Liga Bet),Hapoel Bik'at HaYarden,6147,Maccabi Giv'at Shmuel,24789,3,3,False
+1294759,2024-09-06T07:30:00+00:00,FT,1st Round (Liga Bet),Beitar Petah Tikva,6135,Bnei Jaffa Ortodoxim,6139,3,1,True
+1294752,2024-09-06T07:45:00+00:00,FT,1st Round (Liga Bet),Maccabi Achva Fureidis,20106,Hapoel Sandala Gilboa,20104,0,2,True
+1294756,2024-09-06T08:00:00+00:00,FT,1st Round (Liga Bet),Hapoel Kiryat Ono,6161,Hapoel Kafr Qasim Shouaa,6156,5,0,True
+1294751,2024-09-06T08:00:00+00:00,FT,1st Round (Liga Bet),Hapoel Yafia,22336,FC Tirat HaCarmel,22331,0,7,True
+1294754,2024-09-06T09:00:00+00:00,FT,1st Round (Liga Bet),Beitar Ramat Gan,6136,Beitar Kfar Saba,6133,0,2,True
+1294781,2024-09-06T10:00:00+00:00,FT,1st Round (Liga Bet),Maccabi Maghar,24790,Ahi Akko,7390,4,0,True
+1294764,2024-09-06T10:30:00+00:00,AET,1st Round (Liga Bet),Maccabi Ironi Netivot,6189,Ramla,7607,1,2,False
+1294758,2024-09-06T11:00:00+00:00,FT,1st Round (Liga Bet),Beitar Tel Aviv Ramla,4480,Hapoel Mahane Yehuda,6163,2,4,True
+1294750,2024-09-06T11:30:00+00:00,FT,1st Round (Liga Bet),Hapoel Bnei Ar'ara 'Ara,6148,Hapoel Tirat HaCarmel,6169,0,1,True
+1294748,2024-09-06T11:30:00+00:00,FT,1st Round (Liga Bet),Tzofi Haifa,20707,Bnei Qalansawe,22413,10,1,True
+1294784,2024-09-06T11:30:00+00:00,FT,1st Round (Liga Bet),Kfar Saba 1928,24788,Maccabi Ironi Amishav PT,6188,4,0,True
+1294745,2024-09-06T12:00:00+00:00,FT,1st Round (Liga Bet),Hapoel Kaukab,6157,Bnei HaGolan VeHaGalil,6138,0,3,True
+1294749,2024-09-06T12:20:00+00:00,FT,1st Round (Liga Bet),Hapoel Ramot Menashe,6166,Maccabi Neve Sha'anan,6197,1,3,True
+1294746,2024-09-06T13:00:00+00:00,AET,1st Round (Liga Bet),Hapoel Bnei Bi'ina,22333,Maccabi Bnei Abu Snan,17999,1,4,False
+1294747,2024-09-06T13:30:00+00:00,FT,1st Round (Liga Bet),Maccabi B. Jadeidi-Makr,20290,Maccabi Ihud Bnei Avtin,22862,2,1,True
+1294782,2024-09-07T16:30:00+00:00,FT,1st Round (Liga Bet),Ihud Bnei Baka,6172,Tzeirey Haifa,24791,3,2,True
+1304129,2024-09-23T16:00:00+00:00,FT,2nd Round (Liga Bet),Hapoel Segev Shalom,22335,Ramla,7607,3,2,True
+1304130,2024-09-24T12:30:00+00:00,AET,2nd Round (Liga Bet),Hapoel Hod HaSharon,6154,Beitar Kfar Saba,6133,6,3,False
+1304137,2024-09-24T12:30:00+00:00,FT,2nd Round (Liga Bet),Hapoel Kiryat Ono,6161,Beitar Petah Tikva,6135,1,0,True
+1304133,2024-09-24T16:00:00+00:00,FT,2nd Round (Liga Bet),Bnei Eilat,6137,Ironi Beit Shemesh,22856,0,1,True
+1304135,2024-09-24T17:00:00+00:00,AET,2nd Round (Liga Bet),Hapoel Mahane Yehuda,6163,Maccabi Giv'at Shmuel,24789,3,1,False
+1304132,2024-09-24T17:00:00+00:00,FT,2nd Round (Liga Bet),Ironi Beit Dagan,6176,Kfar Saba 1928,24788,2,1,True
+1304134,2024-09-24T17:10:00+00:00,FT,2nd Round (Liga Bet),Shikun HaMizrah,6205,Beitar Ironi Kiryat Gat,6132,3,0,True
+1309245,2024-09-30T16:00:00+00:00,AET,3rd Round (Liga Bet),Hapoel Hod HaSharon,6154,Ironi Beit Dagan,6176,2,1,False
+1309247,2024-09-30T17:00:00+00:00,AET,3rd Round (Liga Bet),Ironi Beit Shemesh,22856,Shikun HaMizrah,6205,4,1,False
+1309246,2024-10-08T12:30:00+00:00,FT,3rd Round (Liga Bet),Hapoel Kiryat Ono,6161,Hapoel Mahane Yehuda,6163,1,2,True
+1309248,2024-10-09T17:00:00+00:00,FT,3rd Round (Liga Bet),Hapoel Yeruham,6170,Hapoel Segev Shalom,22335,0,5,True
+1304136,2024-10-31T19:30:00+00:00,FT,2nd Round (Liga Bet),Hapoel Ironi Karmiel,20101,Maccabi B. Jadeidi-Makr,20290,3,1,True
+1305627,2024-11-01T11:00:00+00:00,FT,2nd Round (Liga Bet),Beitar Haifa,20098,Maccabi Neve Sha'anan,6197,1,5,True
+1304139,2024-11-02T16:00:00+00:00,FT,2nd Round (Liga Bet),Tzofi Haifa,20707,Ihud Bnei Baka,6172,1,5,True
+1314177,2024-11-05T12:00:00+00:00,FT,6th Round,Hapoel Beit Shean,6330,Hapoel Segev Shalom,22335,3,0,True
+1314899,2024-11-05T19:00:00+00:00,FT,3rd Round (Liga Bet),FC Tirat HaCarmel,22331,Maccabi Neve Sha'anan,6197,1,2,True
+1314178,2024-11-08T10:30:00+00:00,FT,6th Round,Hapoel Migdal HaEmek,6164,Kiryat Yam SC,20105,0,2,True
+1314167,2024-11-08T11:00:00+00:00,FT,6th Round,Or Akiva,25323,Ironi Nesher,4502,1,3,True
+1314171,2024-11-09T14:00:00+00:00,FT,6th Round,Maccabi Ahi Nazareth,4494,Hapoel Daliyat Al Karmel,25320,2,3,True
+1314174,2024-11-11T17:45:00+00:00,FT,6th Round,Holon Yermiyahu,6171,Hapoel Bnei Musmus,6149,2,0,True
+1314175,2024-11-11T18:30:00+00:00,FT,6th Round,Agudat Sport Ashdod,6129,Hapoel Mahane Yehuda,6163,1,0,True
+1314173,2024-11-12T17:20:00+00:00,FT,6th Round,Ironi Beit Shemesh,22856,Hapoel Lod,6162,1,2,True
+1314170,2024-11-12T19:15:00+00:00,FT,6th Round,Hapoel Ironi Karmiel,20101,Hapoel Marmorek,4498,3,2,True
+1314179,2024-11-13T17:00:00+00:00,FT,6th Round,Dimona,6142,Bnei Tira,25319,0,4,True
+1314176,2024-11-14T12:00:00+00:00,FT,6th Round,Bnei HaGolan VeHaGalil,6138,Ironi Ashkelon,25321,0,2,True
+1314172,2024-11-14T18:30:00+00:00,FT,6th Round,Nordia Jerusalem,6201,Maccabi Yehud-Monosson,25322,8,0,True
+1315185,2024-11-15T11:30:00+00:00,FT,6th Round,Maccabi Neve Sha'anan,6197,Dizengoff Tel Aviv,25363,1,0,True
+1314168,2024-11-16T17:30:00+00:00,FT,6th Round,Hapoel Azor,6146,Ironi Baka El Garbiya,6175,1,3,True
+1315355,2024-11-16T18:00:00+00:00,FT,6th Round,Ihud Bnei Baka,6172,Tzeirei Umm al-Fahm,20706,0,2,True
+1314166,2024-11-18T17:15:00+00:00,AET,6th Round,Hapoel Hod HaSharon,6154,Maccabi Yavne,6200,2,1,False
+1314169,2024-11-19T14:00:00+00:00,PEN,6th Round,Ironi Modi'in,6179,Maccabi K. Ata Bialik,20291,0,0,False
+1315354,2024-11-21T19:30:00+00:00,FT,4th Round (Liga Bet),Maccabi Neve Sha'anan,6197,Ihud Bnei Baka,6172,7,1,True
+1314706,2024-11-25T17:00:00+00:00,FT,4th Round (Liga Bet),Hapoel Ironi Karmiel,20101,Bnei HaGolan VeHaGalil,6138,4,0,True
+1316042,2024-11-28T12:00:00+00:00,FT,7th Round,Tzeirei Umm al-Fahm,20706,Ironi Nesher,4502,1,0,True
+1316000,2024-11-28T17:00:00+00:00,FT,7th Round,Maccabi Neve Sha'anan,6197,Hapoel Beit Shean,6330,1,3,True
+1315607,2024-11-28T17:10:00+00:00,FT,7th Round,Holon Yermiyahu,6171,Kiryat Yam SC,20105,0,2,True
+1315727,2024-11-28T17:30:00+00:00,FT,7th Round,Ironi Ashkelon,25321,Agudat Sport Ashdod,6129,1,0,True
+1316043,2024-11-29T12:00:00+00:00,FT,7th Round,Hapoel Ramat HaSharon,4490,Ironi Baka El Garbiya,6175,6,2,True
+1315609,2024-11-29T12:00:00+00:00,FT,7th Round,Hapoel Umm al-Fahm,4492,Hapoel Kfar Saba,4497,2,1,True
+1315608,2024-11-29T12:00:00+00:00,FT,7th Round,Kafr Qasim,4493,Hapoel Ra'anana,4509,1,3,True
+1315693,2024-11-29T12:00:00+00:00,FT,7th Round,Dimona,6142,Hapoel Daliyat Al Karmel,25320,7,0,True
+1315610,2024-11-29T12:15:00+00:00,FT,7th Round,Maccabi Kabilio Jaffa,6192,Hapoel Tel Aviv,4501,1,2,True
+1316371,2024-12-01T17:00:00+00:00,FT,7th Round,Hapoel Afula,4483,Hapoel Ironi Karmiel,20101,6,0,True
+1315728,2024-12-01T17:10:00+00:00,FT,7th Round,Hapoel Nazareth Illit,4487,Nordia Jerusalem,6201,2,3,True
+1316374,2024-12-01T17:20:00+00:00,FT,7th Round,Maccabi Herzliya,4503,Hapoel Lod,6162,2,0,True
+1316372,2024-12-01T17:30:00+00:00,FT,7th Round,Hapoel Rishon LeZion,4491,Ironi Modi'in,6179,0,1,True
+1316373,2024-12-01T17:45:00+00:00,FT,7th Round,Hapoel Petah Tikva,4488,Hapoel Hod HaSharon,6154,5,0,True
+1311964,2024-12-09T17:00:00+00:00,FT,4th Round (Liga Bet),Ironi Beit Shemesh,22856,Hapoel Segev Shalom,22335,6,1,True
+1318830,2024-12-26T17:30:00+00:00,AET,8th Round,Bnei Sakhnin,4481,Ironi Modi'in,6179,3,3,False
+1318824,2024-12-26T17:30:00+00:00,FT,8th Round,Dimona,6142,Hapoel Beer Sheva,563,0,4,True
+1318834,2024-12-26T17:45:00+00:00,FT,8th Round,Hapoel Ra'anana,4509,Nordia Jerusalem,6201,2,4,True
+1318829,2024-12-26T18:00:00+00:00,FT,8th Round,Maccabi Bnei Raina,6186,Hapoel Kfar Shalem,6160,3,0,True
+1318825,2024-12-27T12:00:00+00:00,AET,8th Round,Hapoel Haifa,2253,Hapoel Petah Tikva,4488,1,1,False
+1318827,2024-12-27T12:00:00+00:00,AET,8th Round,Hapoel Afula,4483,Ashdod,4507,3,4,False
+1318836,2024-12-27T12:00:00+00:00,AET,8th Round,Hapoel Ramat Gan,4489,Bnei Yehuda,4508,2,2,False
+1318835,2024-12-27T12:00:00+00:00,FT,8th Round,Hapoel Ramat HaSharon,4490,Maccabi Herzliya,4503,1,0,True
+1318831,2024-12-27T12:00:00+00:00,FT,8th Round,Hapoel Beit Shean,6330,Hapoel Hadera,4500,1,2,True
+1318833,2024-12-27T12:00:00+00:00,FT,8th Round,Tzeirei Umm al-Fahm,20706,Hapoel Acre,4482,0,2,True
+1318828,2024-12-28T15:00:00+00:00,FT,8th Round,Maccabi Petah Tikva,4495,Ironi Kiryat Shmona,4510,2,0,True
+1318832,2024-12-28T17:00:00+00:00,FT,8th Round,Ironi Tiberias,6181,Hapoel Tel Aviv,4501,0,2,True
+1318821,2024-12-28T18:00:00+00:00,FT,8th Round,Maccabi Tel Aviv,604,Hapoel Katamon,4486,3,0,True
+1318826,2024-12-29T17:00:00+00:00,FT,8th Round,Hapoel Umm al-Fahm,4492,Maccabi Netanya,4505,0,2,True
+1318823,2024-12-29T18:15:00+00:00,AET,8th Round,Kiryat Yam SC,20105,Beitar Jerusalem,657,2,2,False
+1318822,2024-12-30T17:30:00+00:00,FT,8th Round,Maccabi Haifa,4195,Ironi Ashkelon,25321,6,0,True
+1311965,2025-01-05T18:45:00+00:00,FT,4th Round (Liga Bet),Hapoel Hod HaSharon,6154,Hapoel Mahane Yehuda,6163,5,1,True
+1331637,2025-01-14T17:00:00+00:00,FT,Round of 16,Hapoel Acre,4482,Beitar Jerusalem,657,0,1,True
+1331639,2025-01-14T17:30:00+00:00,AET,Round of 16,Maccabi Petah Tikva,4495,Bnei Sakhnin,4481,1,1,False
+1331839,2025-01-14T18:15:00+00:00,FT,Round of 16,Maccabi Haifa,4195,Maccabi Netanya,4505,1,0,True
+1331638,2025-01-15T17:00:00+00:00,FT,Round of 16,Nordia Jerusalem,6201,Ashdod,4507,1,4,True
+1331636,2025-01-15T18:00:00+00:00,FT,Round of 16,Hapoel Beer Sheva,563,Hapoel Hadera,4500,6,0,True
+1331641,2025-01-15T18:30:00+00:00,FT,Round of 16,Maccabi Tel Aviv,604,Maccabi Bnei Raina,6186,1,2,True
+1331635,2025-01-16T17:00:00+00:00,FT,Round of 16,Hapoel Haifa,2253,Hapoel Tel Aviv,4501,1,2,True
+1331640,2025-01-16T17:30:00+00:00,FT,Round of 16,Hapoel Ramat Gan,4489,Hapoel Ramat HaSharon,4490,7,0,True
+1338604,2025-02-25T18:00:00+00:00,FT,Quarter-finals,Ashdod,4507,Maccabi Bnei Raina,6186,1,3,True
+1338601,2025-02-25T18:30:00+00:00,FT,Quarter-finals,Hapoel Ramat Gan,4489,Hapoel Tel Aviv,4501,0,2,True
+1338602,2025-02-27T18:30:00+00:00,FT,Quarter-finals,Hapoel Beer Sheva,563,Maccabi Haifa,4195,2,0,True
+1367880,2025-04-10T17:30:00+00:00,FT,Semi-finals,Maccabi Bnei Raina,6186,Beitar Jerusalem,657,1,5,True
+1361486,2025-04-22T17:30:00+00:00,FT,Semi-finals,Hapoel Tel Aviv,4501,Hapoel Beer Sheva,563,1,5,True
+1373031,2025-05-29T17:30:00+00:00,FT,Final,Beitar Jerusalem,657,Hapoel Beer Sheva,563,0,2,True

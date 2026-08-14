@@ -1,199 +1,199 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1556628,2026-07-31T19:00:00+00:00,FT,Dundee Utd,1386,Rangers,257,1,1,True
-1556629,2026-08-01T14:00:00+00:00,FT,Falkirk,1389,ST Mirren,251,0,2,True
-1556630,2026-08-01T16:30:00+00:00,FT,Aberdeen,252,Heart Of Midlothian,254,2,1,True
-1556631,2026-08-02T13:00:00+00:00,FT,ST Johnstone,258,Kilmarnock,250,4,3,True
-1556632,2026-08-02T15:30:00+00:00,FT,Hibernian,249,Motherwell,256,1,2,True
-1556633,2026-08-03T18:30:00+00:00,FT,Celtic,247,Dundee,253,1,0,True
-1556637,2026-08-08T14:00:00+00:00,NS,ST Mirren,251,ST Johnstone,258,,,False
-1556634,2026-08-08T14:00:00+00:00,NS,Dundee,253,Aberdeen,252,,,False
-1556638,2026-08-09T12:30:00+00:00,NS,Kilmarnock,250,Celtic,247,,,False
-1556635,2026-08-09T14:00:00+00:00,NS,Heart Of Midlothian,254,Dundee Utd,1386,,,False
-1556636,2026-08-09T14:00:00+00:00,NS,Motherwell,256,Falkirk,1389,,,False
-1556639,2026-08-09T15:00:00+00:00,NS,Rangers,257,Hibernian,249,,,False
-1556642,2026-08-22T14:00:00+00:00,NS,Hibernian,249,Kilmarnock,250,,,False
-1556643,2026-08-22T14:00:00+00:00,NS,Motherwell,256,Aberdeen,252,,,False
-1556644,2026-08-22T14:00:00+00:00,NS,Rangers,257,ST Mirren,251,,,False
-1556645,2026-08-22T14:00:00+00:00,NS,ST Johnstone,258,Celtic,247,,,False
-1556641,2026-08-22T14:00:00+00:00,NS,Falkirk,1389,Heart Of Midlothian,254,,,False
-1556640,2026-08-22T16:45:00+00:00,NS,Dundee Utd,1386,Dundee,253,,,False
-1556647,2026-08-29T14:00:00+00:00,NS,Celtic,247,Falkirk,1389,,,False
-1556650,2026-08-29T14:00:00+00:00,NS,Kilmarnock,250,Dundee Utd,1386,,,False
-1556651,2026-08-29T14:00:00+00:00,NS,ST Mirren,251,Motherwell,256,,,False
-1556648,2026-08-29T14:00:00+00:00,NS,Dundee,253,Hibernian,249,,,False
-1556649,2026-08-29T14:00:00+00:00,NS,Heart Of Midlothian,254,ST Johnstone,258,,,False
-1556646,2026-08-30T11:00:00+00:00,NS,Aberdeen,252,Rangers,257,,,False
-1556652,2026-09-02T18:45:00+00:00,NS,Celtic,247,Aberdeen,252,,,False
-1556656,2026-09-02T18:45:00+00:00,NS,Kilmarnock,250,ST Mirren,251,,,False
-1556653,2026-09-02T18:45:00+00:00,NS,Dundee,253,ST Johnstone,258,,,False
-1556657,2026-09-02T18:45:00+00:00,NS,Motherwell,256,Dundee Utd,1386,,,False
-1556654,2026-09-02T19:00:00+00:00,NS,Falkirk,1389,Rangers,257,,,False
-1556655,2026-09-03T18:45:00+00:00,NS,Hibernian,249,Heart Of Midlothian,254,,,False
-1556658,2026-09-05T14:00:00+00:00,NS,Aberdeen,252,Kilmarnock,250,,,False
-1556661,2026-09-05T14:00:00+00:00,NS,Rangers,257,Motherwell,256,,,False
-1556659,2026-09-05T14:00:00+00:00,NS,Dundee Utd,1386,Falkirk,1389,,,False
-1556663,2026-09-05T19:00:00+00:00,NS,ST Mirren,251,Celtic,247,,,False
-1556660,2026-09-06T14:00:00+00:00,NS,Heart Of Midlothian,254,Dundee,253,,,False
-1556662,2026-09-06T14:00:00+00:00,NS,ST Johnstone,258,Hibernian,249,,,False
-1556665,2026-09-19T14:00:00+00:00,NS,Hibernian,249,Aberdeen,252,,,False
-1556666,2026-09-19T14:00:00+00:00,NS,Kilmarnock,250,Heart Of Midlothian,254,,,False
-1556668,2026-09-19T14:00:00+00:00,NS,ST Mirren,251,Dundee Utd,1386,,,False
-1556664,2026-09-19T14:00:00+00:00,NS,Dundee,253,Motherwell,256,,,False
-1556667,2026-09-19T14:00:00+00:00,NS,ST Johnstone,258,Falkirk,1389,,,False
-1556669,2026-09-20T11:00:00+00:00,NS,Celtic,247,Rangers,257,,,False
-1556670,2026-10-10T14:00:00+00:00,NS,Aberdeen,252,ST Johnstone,258,,,False
-1556673,2026-10-10T14:00:00+00:00,NS,Heart Of Midlothian,254,ST Mirren,251,,,False
-1556674,2026-10-10T14:00:00+00:00,NS,Motherwell,256,Celtic,247,,,False
-1556675,2026-10-10T14:00:00+00:00,NS,Rangers,257,Kilmarnock,250,,,False
-1556671,2026-10-10T14:00:00+00:00,NS,Dundee Utd,1386,Hibernian,249,,,False
-1556672,2026-10-10T14:00:00+00:00,NS,Falkirk,1389,Dundee,253,,,False
-1556677,2026-10-17T14:00:00+00:00,NS,Celtic,247,Heart Of Midlothian,254,,,False
-1556679,2026-10-17T14:00:00+00:00,NS,Hibernian,249,Falkirk,1389,,,False
-1556680,2026-10-17T14:00:00+00:00,NS,Kilmarnock,250,Motherwell,256,,,False
-1556676,2026-10-17T14:00:00+00:00,NS,Aberdeen,252,ST Mirren,251,,,False
-1556678,2026-10-17T14:00:00+00:00,NS,Dundee,253,Rangers,257,,,False
-1556681,2026-10-17T14:00:00+00:00,NS,ST Johnstone,258,Dundee Utd,1386,,,False
-1556684,2026-10-24T14:00:00+00:00,NS,Hibernian,249,Celtic,247,,,False
-1556687,2026-10-24T14:00:00+00:00,NS,ST Mirren,251,Dundee,253,,,False
-1556685,2026-10-24T14:00:00+00:00,NS,Motherwell,256,Heart Of Midlothian,254,,,False
-1556686,2026-10-24T14:00:00+00:00,NS,Rangers,257,ST Johnstone,258,,,False
-1556682,2026-10-24T14:00:00+00:00,NS,Dundee Utd,1386,Aberdeen,252,,,False
-1556683,2026-10-24T14:00:00+00:00,NS,Falkirk,1389,Kilmarnock,250,,,False
-1556689,2026-10-28T19:45:00+00:00,NS,Celtic,247,Dundee Utd,1386,,,False
-1556693,2026-10-28T19:45:00+00:00,NS,ST Mirren,251,Hibernian,249,,,False
-1556688,2026-10-28T19:45:00+00:00,NS,Aberdeen,252,Falkirk,1389,,,False
-1556690,2026-10-28T19:45:00+00:00,NS,Dundee,253,Kilmarnock,250,,,False
-1556691,2026-10-28T19:45:00+00:00,NS,Heart Of Midlothian,254,Rangers,257,,,False
-1556692,2026-10-28T19:45:00+00:00,NS,ST Johnstone,258,Motherwell,256,,,False
-1556696,2026-10-31T15:00:00+00:00,NS,Hibernian,249,Dundee,253,,,False
-1556697,2026-10-31T15:00:00+00:00,NS,Kilmarnock,250,ST Johnstone,258,,,False
-1556698,2026-10-31T15:00:00+00:00,NS,Motherwell,256,ST Mirren,251,,,False
-1556699,2026-10-31T15:00:00+00:00,NS,Rangers,257,Aberdeen,252,,,False
-1556694,2026-10-31T15:00:00+00:00,NS,Dundee Utd,1386,Heart Of Midlothian,254,,,False
-1556695,2026-10-31T15:00:00+00:00,NS,Falkirk,1389,Celtic,247,,,False
-1556701,2026-11-07T15:00:00+00:00,NS,Celtic,247,Kilmarnock,250,,,False
-1556704,2026-11-07T15:00:00+00:00,NS,ST Mirren,251,Rangers,257,,,False
-1556700,2026-11-07T15:00:00+00:00,NS,Aberdeen,252,Hibernian,249,,,False
-1556703,2026-11-07T15:00:00+00:00,NS,ST Johnstone,258,Dundee,253,,,False
-1556702,2026-11-07T15:00:00+00:00,NS,Dundee Utd,1386,Motherwell,256,,,False
-1556705,2026-11-08T15:00:00+00:00,NS,Heart Of Midlothian,254,Falkirk,1389,,,False
-1556706,2026-11-21T15:00:00+00:00,NS,Celtic,247,ST Mirren,251,,,False
-1556709,2026-11-21T15:00:00+00:00,NS,Hibernian,249,Dundee Utd,1386,,,False
-1556710,2026-11-21T15:00:00+00:00,NS,Kilmarnock,250,Aberdeen,252,,,False
-1556707,2026-11-21T15:00:00+00:00,NS,Dundee,253,Heart Of Midlothian,254,,,False
-1556711,2026-11-21T15:00:00+00:00,NS,Motherwell,256,Rangers,257,,,False
-1556708,2026-11-21T15:00:00+00:00,NS,Falkirk,1389,ST Johnstone,258,,,False
-1556717,2026-11-28T15:00:00+00:00,NS,ST Mirren,251,Kilmarnock,250,,,False
-1556712,2026-11-28T15:00:00+00:00,NS,Aberdeen,252,Dundee,253,,,False
-1556714,2026-11-28T15:00:00+00:00,NS,Heart Of Midlothian,254,Celtic,247,,,False
-1556715,2026-11-28T15:00:00+00:00,NS,Motherwell,256,Hibernian,249,,,False
-1556716,2026-11-28T15:00:00+00:00,NS,Rangers,257,Falkirk,1389,,,False
-1556713,2026-11-28T15:00:00+00:00,NS,Dundee Utd,1386,ST Johnstone,258,,,False
-1556721,2026-12-02T19:45:00+00:00,NS,Kilmarnock,250,Hibernian,249,,,False
-1556718,2026-12-02T19:45:00+00:00,NS,Dundee,253,Celtic,247,,,False
-1556720,2026-12-02T19:45:00+00:00,NS,Heart Of Midlothian,254,Aberdeen,252,,,False
-1556722,2026-12-02T19:45:00+00:00,NS,Rangers,257,Dundee Utd,1386,,,False
-1556723,2026-12-02T19:45:00+00:00,NS,ST Johnstone,258,ST Mirren,251,,,False
-1556719,2026-12-02T19:45:00+00:00,NS,Falkirk,1389,Motherwell,256,,,False
-1556725,2026-12-05T15:00:00+00:00,NS,Celtic,247,ST Johnstone,258,,,False
-1556727,2026-12-05T15:00:00+00:00,NS,Hibernian,249,Rangers,257,,,False
-1556729,2026-12-05T15:00:00+00:00,NS,ST Mirren,251,Heart Of Midlothian,254,,,False
-1556724,2026-12-05T15:00:00+00:00,NS,Aberdeen,252,Dundee Utd,1386,,,False
-1556726,2026-12-05T15:00:00+00:00,NS,Dundee,253,Falkirk,1389,,,False
-1556728,2026-12-05T15:00:00+00:00,NS,Motherwell,256,Kilmarnock,250,,,False
-1556730,2026-12-12T15:00:00+00:00,NS,Celtic,247,Hibernian,249,,,False
-1556734,2026-12-12T15:00:00+00:00,NS,Kilmarnock,250,Dundee,253,,,False
-1556733,2026-12-12T15:00:00+00:00,NS,Heart Of Midlothian,254,Motherwell,256,,,False
-1556735,2026-12-12T15:00:00+00:00,NS,ST Johnstone,258,Rangers,257,,,False
-1556731,2026-12-12T15:00:00+00:00,NS,Dundee Utd,1386,ST Mirren,251,,,False
-1556732,2026-12-12T15:00:00+00:00,NS,Falkirk,1389,Aberdeen,252,,,False
-1556738,2026-12-19T15:00:00+00:00,NS,Hibernian,249,ST Johnstone,258,,,False
-1556741,2026-12-19T15:00:00+00:00,NS,ST Mirren,251,Falkirk,1389,,,False
-1556736,2026-12-19T15:00:00+00:00,NS,Aberdeen,252,Celtic,247,,,False
-1556739,2026-12-19T15:00:00+00:00,NS,Motherwell,256,Dundee,253,,,False
-1556740,2026-12-19T15:00:00+00:00,NS,Rangers,257,Heart Of Midlothian,254,,,False
-1556737,2026-12-19T15:00:00+00:00,NS,Dundee Utd,1386,Kilmarnock,250,,,False
-1556742,2026-12-26T15:00:00+00:00,NS,Celtic,247,Motherwell,256,,,False
-1556746,2026-12-26T15:00:00+00:00,NS,Kilmarnock,250,Rangers,257,,,False
-1556743,2026-12-26T15:00:00+00:00,NS,Dundee,253,ST Mirren,251,,,False
-1556745,2026-12-26T15:00:00+00:00,NS,Heart Of Midlothian,254,Hibernian,249,,,False
-1556747,2026-12-26T15:00:00+00:00,NS,ST Johnstone,258,Aberdeen,252,,,False
-1556744,2026-12-26T15:00:00+00:00,NS,Falkirk,1389,Dundee Utd,1386,,,False
-1556750,2026-12-30T19:45:00+00:00,NS,Hibernian,249,ST Mirren,251,,,False
-1556751,2026-12-30T19:45:00+00:00,NS,Kilmarnock,250,Falkirk,1389,,,False
-1556748,2026-12-30T19:45:00+00:00,NS,Aberdeen,252,Motherwell,256,,,False
-1556752,2026-12-30T19:45:00+00:00,NS,Rangers,257,Dundee,253,,,False
-1556753,2026-12-30T19:45:00+00:00,NS,ST Johnstone,258,Heart Of Midlothian,254,,,False
-1556749,2026-12-30T19:45:00+00:00,NS,Dundee Utd,1386,Celtic,247,,,False
-1556759,2027-01-02T15:00:00+00:00,NS,ST Mirren,251,Aberdeen,252,,,False
-1556754,2027-01-02T15:00:00+00:00,NS,Dundee,253,Dundee Utd,1386,,,False
-1556756,2027-01-02T15:00:00+00:00,NS,Heart Of Midlothian,254,Kilmarnock,250,,,False
-1556757,2027-01-02T15:00:00+00:00,NS,Motherwell,256,ST Johnstone,258,,,False
-1556758,2027-01-02T15:00:00+00:00,NS,Rangers,257,Celtic,247,,,False
-1556755,2027-01-02T15:00:00+00:00,NS,Falkirk,1389,Hibernian,249,,,False
-1556761,2027-01-09T15:00:00+00:00,NS,Celtic,247,Dundee,253,,,False
-1556763,2027-01-09T15:00:00+00:00,NS,Hibernian,249,Motherwell,256,,,False
-1556764,2027-01-09T15:00:00+00:00,NS,Kilmarnock,250,ST Mirren,251,,,False
-1556760,2027-01-09T15:00:00+00:00,NS,Aberdeen,252,Heart Of Midlothian,254,,,False
-1556765,2027-01-09T15:00:00+00:00,NS,ST Johnstone,258,Falkirk,1389,,,False
-1556762,2027-01-09T15:00:00+00:00,NS,Dundee Utd,1386,Rangers,257,,,False
-1556768,2027-01-23T15:00:00+00:00,NS,Hibernian,249,Kilmarnock,250,,,False
-1556771,2027-01-23T15:00:00+00:00,NS,ST Mirren,251,Celtic,247,,,False
-1556766,2027-01-23T15:00:00+00:00,NS,Dundee,253,Aberdeen,252,,,False
-1556769,2027-01-23T15:00:00+00:00,NS,Motherwell,256,Dundee Utd,1386,,,False
-1556770,2027-01-23T15:00:00+00:00,NS,Rangers,257,ST Johnstone,258,,,False
-1556767,2027-01-23T15:00:00+00:00,NS,Falkirk,1389,Heart Of Midlothian,254,,,False
-1556773,2027-01-30T15:00:00+00:00,NS,Celtic,247,Falkirk,1389,,,False
-1556776,2027-01-30T15:00:00+00:00,NS,Kilmarnock,250,Motherwell,256,,,False
-1556772,2027-01-30T15:00:00+00:00,NS,Aberdeen,252,Rangers,257,,,False
-1556774,2027-01-30T15:00:00+00:00,NS,Dundee,253,Hibernian,249,,,False
-1556775,2027-01-30T15:00:00+00:00,NS,Heart Of Midlothian,254,ST Mirren,251,,,False
-1556777,2027-01-30T15:00:00+00:00,NS,ST Johnstone,258,Dundee Utd,1386,,,False
-1556783,2027-02-03T19:45:00+00:00,NS,ST Mirren,251,ST Johnstone,258,,,False
-1556778,2027-02-03T19:45:00+00:00,NS,Aberdeen,252,Falkirk,1389,,,False
-1556780,2027-02-03T19:45:00+00:00,NS,Heart Of Midlothian,254,Dundee,253,,,False
-1556781,2027-02-03T19:45:00+00:00,NS,Motherwell,256,Celtic,247,,,False
-1556782,2027-02-03T19:45:00+00:00,NS,Rangers,257,Kilmarnock,250,,,False
-1556779,2027-02-03T19:45:00+00:00,NS,Dundee Utd,1386,Hibernian,249,,,False
-1556784,2027-02-13T15:00:00+00:00,NS,Celtic,247,Heart Of Midlothian,254,,,False
-1556787,2027-02-13T15:00:00+00:00,NS,Hibernian,249,Aberdeen,252,,,False
-1556788,2027-02-13T15:00:00+00:00,NS,Kilmarnock,250,Dundee Utd,1386,,,False
-1556789,2027-02-13T15:00:00+00:00,NS,ST Mirren,251,Motherwell,256,,,False
-1556785,2027-02-13T15:00:00+00:00,NS,Dundee,253,ST Johnstone,258,,,False
-1556786,2027-02-13T15:00:00+00:00,NS,Falkirk,1389,Rangers,257,,,False
-1556792,2027-02-20T15:00:00+00:00,NS,Hibernian,249,Celtic,247,,,False
-1556793,2027-02-20T15:00:00+00:00,NS,Motherwell,256,Heart Of Midlothian,254,,,False
-1556794,2027-02-20T15:00:00+00:00,NS,Rangers,257,ST Mirren,251,,,False
-1556795,2027-02-20T15:00:00+00:00,NS,ST Johnstone,258,Kilmarnock,250,,,False
-1556790,2027-02-20T15:00:00+00:00,NS,Dundee Utd,1386,Aberdeen,252,,,False
-1556791,2027-02-20T15:00:00+00:00,NS,Falkirk,1389,Dundee,253,,,False
-1556797,2027-02-27T15:00:00+00:00,NS,Celtic,247,Rangers,257,,,False
-1556801,2027-02-27T15:00:00+00:00,NS,ST Mirren,251,Hibernian,249,,,False
-1556796,2027-02-27T15:00:00+00:00,NS,Aberdeen,252,ST Johnstone,258,,,False
-1556798,2027-02-27T15:00:00+00:00,NS,Dundee,253,Kilmarnock,250,,,False
-1556799,2027-02-27T15:00:00+00:00,NS,Heart Of Midlothian,254,Dundee Utd,1386,,,False
-1556800,2027-02-27T15:00:00+00:00,NS,Motherwell,256,Falkirk,1389,,,False
-1556804,2027-03-13T15:00:00+00:00,NS,Hibernian,249,Falkirk,1389,,,False
-1556805,2027-03-13T15:00:00+00:00,NS,Kilmarnock,250,Heart Of Midlothian,254,,,False
-1556802,2027-03-13T15:00:00+00:00,NS,Aberdeen,252,ST Mirren,251,,,False
-1556806,2027-03-13T15:00:00+00:00,NS,Rangers,257,Motherwell,256,,,False
-1556807,2027-03-13T15:00:00+00:00,NS,ST Johnstone,258,Celtic,247,,,False
-1556803,2027-03-13T15:00:00+00:00,NS,Dundee Utd,1386,Dundee,253,,,False
-1556808,2027-03-20T15:00:00+00:00,NS,Celtic,247,Aberdeen,252,,,False
-1556813,2027-03-20T15:00:00+00:00,NS,ST Mirren,251,Dundee Utd,1386,,,False
-1556809,2027-03-20T15:00:00+00:00,NS,Dundee,253,Motherwell,256,,,False
-1556811,2027-03-20T15:00:00+00:00,NS,Heart Of Midlothian,254,Rangers,257,,,False
-1556812,2027-03-20T15:00:00+00:00,NS,ST Johnstone,258,Hibernian,249,,,False
-1556810,2027-03-20T15:00:00+00:00,NS,Falkirk,1389,Kilmarnock,250,,,False
-1556816,2027-04-03T14:00:00+00:00,NS,Kilmarnock,250,Celtic,247,,,False
-1556819,2027-04-03T14:00:00+00:00,NS,ST Mirren,251,Dundee,253,,,False
-1556815,2027-04-03T14:00:00+00:00,NS,Heart Of Midlothian,254,ST Johnstone,258,,,False
-1556817,2027-04-03T14:00:00+00:00,NS,Motherwell,256,Aberdeen,252,,,False
-1556818,2027-04-03T14:00:00+00:00,NS,Rangers,257,Hibernian,249,,,False
-1556814,2027-04-03T14:00:00+00:00,NS,Dundee Utd,1386,Falkirk,1389,,,False
-1556821,2027-04-10T14:00:00+00:00,NS,Celtic,247,Dundee Utd,1386,,,False
-1556824,2027-04-10T14:00:00+00:00,NS,Hibernian,249,Heart Of Midlothian,254,,,False
-1556820,2027-04-10T14:00:00+00:00,NS,Aberdeen,252,Kilmarnock,250,,,False
-1556822,2027-04-10T14:00:00+00:00,NS,Dundee,253,Rangers,257,,,False
-1556825,2027-04-10T14:00:00+00:00,NS,ST Johnstone,258,Motherwell,256,,,False
-1556823,2027-04-10T14:00:00+00:00,NS,Falkirk,1389,ST Mirren,251,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1556628,2026-07-31T19:00:00+00:00,FT,Regular Season - 1,Dundee Utd,1386,Rangers,257,1,1,True
+1556629,2026-08-01T14:00:00+00:00,FT,Regular Season - 1,Falkirk,1389,ST Mirren,251,0,2,True
+1556630,2026-08-01T16:30:00+00:00,FT,Regular Season - 1,Aberdeen,252,Heart Of Midlothian,254,2,1,True
+1556631,2026-08-02T13:00:00+00:00,FT,Regular Season - 1,ST Johnstone,258,Kilmarnock,250,4,3,True
+1556632,2026-08-02T15:30:00+00:00,FT,Regular Season - 1,Hibernian,249,Motherwell,256,1,2,True
+1556633,2026-08-03T18:30:00+00:00,FT,Regular Season - 1,Celtic,247,Dundee,253,1,0,True
+1556637,2026-08-08T14:00:00+00:00,NS,Regular Season - 2,ST Mirren,251,ST Johnstone,258,,,False
+1556634,2026-08-08T14:00:00+00:00,NS,Regular Season - 2,Dundee,253,Aberdeen,252,,,False
+1556638,2026-08-09T12:30:00+00:00,NS,Regular Season - 2,Kilmarnock,250,Celtic,247,,,False
+1556635,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,Heart Of Midlothian,254,Dundee Utd,1386,,,False
+1556636,2026-08-09T14:00:00+00:00,NS,Regular Season - 2,Motherwell,256,Falkirk,1389,,,False
+1556639,2026-08-09T15:00:00+00:00,NS,Regular Season - 2,Rangers,257,Hibernian,249,,,False
+1556642,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Hibernian,249,Kilmarnock,250,,,False
+1556643,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Motherwell,256,Aberdeen,252,,,False
+1556644,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Rangers,257,ST Mirren,251,,,False
+1556645,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,ST Johnstone,258,Celtic,247,,,False
+1556641,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Falkirk,1389,Heart Of Midlothian,254,,,False
+1556640,2026-08-22T16:45:00+00:00,NS,Regular Season - 3,Dundee Utd,1386,Dundee,253,,,False
+1556647,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Celtic,247,Falkirk,1389,,,False
+1556650,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Kilmarnock,250,Dundee Utd,1386,,,False
+1556651,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,ST Mirren,251,Motherwell,256,,,False
+1556648,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Dundee,253,Hibernian,249,,,False
+1556649,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Heart Of Midlothian,254,ST Johnstone,258,,,False
+1556646,2026-08-30T11:00:00+00:00,NS,Regular Season - 4,Aberdeen,252,Rangers,257,,,False
+1556652,2026-09-02T18:45:00+00:00,NS,Regular Season - 5,Celtic,247,Aberdeen,252,,,False
+1556656,2026-09-02T18:45:00+00:00,NS,Regular Season - 5,Kilmarnock,250,ST Mirren,251,,,False
+1556653,2026-09-02T18:45:00+00:00,NS,Regular Season - 5,Dundee,253,ST Johnstone,258,,,False
+1556657,2026-09-02T18:45:00+00:00,NS,Regular Season - 5,Motherwell,256,Dundee Utd,1386,,,False
+1556654,2026-09-02T19:00:00+00:00,NS,Regular Season - 5,Falkirk,1389,Rangers,257,,,False
+1556655,2026-09-03T18:45:00+00:00,NS,Regular Season - 5,Hibernian,249,Heart Of Midlothian,254,,,False
+1556658,2026-09-05T14:00:00+00:00,NS,Regular Season - 6,Aberdeen,252,Kilmarnock,250,,,False
+1556661,2026-09-05T14:00:00+00:00,NS,Regular Season - 6,Rangers,257,Motherwell,256,,,False
+1556659,2026-09-05T14:00:00+00:00,NS,Regular Season - 6,Dundee Utd,1386,Falkirk,1389,,,False
+1556663,2026-09-05T19:00:00+00:00,NS,Regular Season - 6,ST Mirren,251,Celtic,247,,,False
+1556660,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,Heart Of Midlothian,254,Dundee,253,,,False
+1556662,2026-09-06T14:00:00+00:00,NS,Regular Season - 6,ST Johnstone,258,Hibernian,249,,,False
+1556665,2026-09-19T14:00:00+00:00,NS,Regular Season - 7,Hibernian,249,Aberdeen,252,,,False
+1556666,2026-09-19T14:00:00+00:00,NS,Regular Season - 7,Kilmarnock,250,Heart Of Midlothian,254,,,False
+1556668,2026-09-19T14:00:00+00:00,NS,Regular Season - 7,ST Mirren,251,Dundee Utd,1386,,,False
+1556664,2026-09-19T14:00:00+00:00,NS,Regular Season - 7,Dundee,253,Motherwell,256,,,False
+1556667,2026-09-19T14:00:00+00:00,NS,Regular Season - 7,ST Johnstone,258,Falkirk,1389,,,False
+1556669,2026-09-20T11:00:00+00:00,NS,Regular Season - 7,Celtic,247,Rangers,257,,,False
+1556670,2026-10-10T14:00:00+00:00,NS,Regular Season - 8,Aberdeen,252,ST Johnstone,258,,,False
+1556673,2026-10-10T14:00:00+00:00,NS,Regular Season - 8,Heart Of Midlothian,254,ST Mirren,251,,,False
+1556674,2026-10-10T14:00:00+00:00,NS,Regular Season - 8,Motherwell,256,Celtic,247,,,False
+1556675,2026-10-10T14:00:00+00:00,NS,Regular Season - 8,Rangers,257,Kilmarnock,250,,,False
+1556671,2026-10-10T14:00:00+00:00,NS,Regular Season - 8,Dundee Utd,1386,Hibernian,249,,,False
+1556672,2026-10-10T14:00:00+00:00,NS,Regular Season - 8,Falkirk,1389,Dundee,253,,,False
+1556677,2026-10-17T14:00:00+00:00,NS,Regular Season - 9,Celtic,247,Heart Of Midlothian,254,,,False
+1556679,2026-10-17T14:00:00+00:00,NS,Regular Season - 9,Hibernian,249,Falkirk,1389,,,False
+1556680,2026-10-17T14:00:00+00:00,NS,Regular Season - 9,Kilmarnock,250,Motherwell,256,,,False
+1556676,2026-10-17T14:00:00+00:00,NS,Regular Season - 9,Aberdeen,252,ST Mirren,251,,,False
+1556678,2026-10-17T14:00:00+00:00,NS,Regular Season - 9,Dundee,253,Rangers,257,,,False
+1556681,2026-10-17T14:00:00+00:00,NS,Regular Season - 9,ST Johnstone,258,Dundee Utd,1386,,,False
+1556684,2026-10-24T14:00:00+00:00,NS,Regular Season - 10,Hibernian,249,Celtic,247,,,False
+1556687,2026-10-24T14:00:00+00:00,NS,Regular Season - 10,ST Mirren,251,Dundee,253,,,False
+1556685,2026-10-24T14:00:00+00:00,NS,Regular Season - 10,Motherwell,256,Heart Of Midlothian,254,,,False
+1556686,2026-10-24T14:00:00+00:00,NS,Regular Season - 10,Rangers,257,ST Johnstone,258,,,False
+1556682,2026-10-24T14:00:00+00:00,NS,Regular Season - 10,Dundee Utd,1386,Aberdeen,252,,,False
+1556683,2026-10-24T14:00:00+00:00,NS,Regular Season - 10,Falkirk,1389,Kilmarnock,250,,,False
+1556689,2026-10-28T19:45:00+00:00,NS,Regular Season - 11,Celtic,247,Dundee Utd,1386,,,False
+1556693,2026-10-28T19:45:00+00:00,NS,Regular Season - 11,ST Mirren,251,Hibernian,249,,,False
+1556688,2026-10-28T19:45:00+00:00,NS,Regular Season - 11,Aberdeen,252,Falkirk,1389,,,False
+1556690,2026-10-28T19:45:00+00:00,NS,Regular Season - 11,Dundee,253,Kilmarnock,250,,,False
+1556691,2026-10-28T19:45:00+00:00,NS,Regular Season - 11,Heart Of Midlothian,254,Rangers,257,,,False
+1556692,2026-10-28T19:45:00+00:00,NS,Regular Season - 11,ST Johnstone,258,Motherwell,256,,,False
+1556696,2026-10-31T15:00:00+00:00,NS,Regular Season - 12,Hibernian,249,Dundee,253,,,False
+1556697,2026-10-31T15:00:00+00:00,NS,Regular Season - 12,Kilmarnock,250,ST Johnstone,258,,,False
+1556698,2026-10-31T15:00:00+00:00,NS,Regular Season - 12,Motherwell,256,ST Mirren,251,,,False
+1556699,2026-10-31T15:00:00+00:00,NS,Regular Season - 12,Rangers,257,Aberdeen,252,,,False
+1556694,2026-10-31T15:00:00+00:00,NS,Regular Season - 12,Dundee Utd,1386,Heart Of Midlothian,254,,,False
+1556695,2026-10-31T15:00:00+00:00,NS,Regular Season - 12,Falkirk,1389,Celtic,247,,,False
+1556701,2026-11-07T15:00:00+00:00,NS,Regular Season - 13,Celtic,247,Kilmarnock,250,,,False
+1556704,2026-11-07T15:00:00+00:00,NS,Regular Season - 13,ST Mirren,251,Rangers,257,,,False
+1556700,2026-11-07T15:00:00+00:00,NS,Regular Season - 13,Aberdeen,252,Hibernian,249,,,False
+1556703,2026-11-07T15:00:00+00:00,NS,Regular Season - 13,ST Johnstone,258,Dundee,253,,,False
+1556702,2026-11-07T15:00:00+00:00,NS,Regular Season - 13,Dundee Utd,1386,Motherwell,256,,,False
+1556705,2026-11-08T15:00:00+00:00,NS,Regular Season - 13,Heart Of Midlothian,254,Falkirk,1389,,,False
+1556706,2026-11-21T15:00:00+00:00,NS,Regular Season - 14,Celtic,247,ST Mirren,251,,,False
+1556709,2026-11-21T15:00:00+00:00,NS,Regular Season - 14,Hibernian,249,Dundee Utd,1386,,,False
+1556710,2026-11-21T15:00:00+00:00,NS,Regular Season - 14,Kilmarnock,250,Aberdeen,252,,,False
+1556707,2026-11-21T15:00:00+00:00,NS,Regular Season - 14,Dundee,253,Heart Of Midlothian,254,,,False
+1556711,2026-11-21T15:00:00+00:00,NS,Regular Season - 14,Motherwell,256,Rangers,257,,,False
+1556708,2026-11-21T15:00:00+00:00,NS,Regular Season - 14,Falkirk,1389,ST Johnstone,258,,,False
+1556717,2026-11-28T15:00:00+00:00,NS,Regular Season - 15,ST Mirren,251,Kilmarnock,250,,,False
+1556712,2026-11-28T15:00:00+00:00,NS,Regular Season - 15,Aberdeen,252,Dundee,253,,,False
+1556714,2026-11-28T15:00:00+00:00,NS,Regular Season - 15,Heart Of Midlothian,254,Celtic,247,,,False
+1556715,2026-11-28T15:00:00+00:00,NS,Regular Season - 15,Motherwell,256,Hibernian,249,,,False
+1556716,2026-11-28T15:00:00+00:00,NS,Regular Season - 15,Rangers,257,Falkirk,1389,,,False
+1556713,2026-11-28T15:00:00+00:00,NS,Regular Season - 15,Dundee Utd,1386,ST Johnstone,258,,,False
+1556721,2026-12-02T19:45:00+00:00,NS,Regular Season - 16,Kilmarnock,250,Hibernian,249,,,False
+1556718,2026-12-02T19:45:00+00:00,NS,Regular Season - 16,Dundee,253,Celtic,247,,,False
+1556720,2026-12-02T19:45:00+00:00,NS,Regular Season - 16,Heart Of Midlothian,254,Aberdeen,252,,,False
+1556722,2026-12-02T19:45:00+00:00,NS,Regular Season - 16,Rangers,257,Dundee Utd,1386,,,False
+1556723,2026-12-02T19:45:00+00:00,NS,Regular Season - 16,ST Johnstone,258,ST Mirren,251,,,False
+1556719,2026-12-02T19:45:00+00:00,NS,Regular Season - 16,Falkirk,1389,Motherwell,256,,,False
+1556725,2026-12-05T15:00:00+00:00,NS,Regular Season - 17,Celtic,247,ST Johnstone,258,,,False
+1556727,2026-12-05T15:00:00+00:00,NS,Regular Season - 17,Hibernian,249,Rangers,257,,,False
+1556729,2026-12-05T15:00:00+00:00,NS,Regular Season - 17,ST Mirren,251,Heart Of Midlothian,254,,,False
+1556724,2026-12-05T15:00:00+00:00,NS,Regular Season - 17,Aberdeen,252,Dundee Utd,1386,,,False
+1556726,2026-12-05T15:00:00+00:00,NS,Regular Season - 17,Dundee,253,Falkirk,1389,,,False
+1556728,2026-12-05T15:00:00+00:00,NS,Regular Season - 17,Motherwell,256,Kilmarnock,250,,,False
+1556730,2026-12-12T15:00:00+00:00,NS,Regular Season - 18,Celtic,247,Hibernian,249,,,False
+1556734,2026-12-12T15:00:00+00:00,NS,Regular Season - 18,Kilmarnock,250,Dundee,253,,,False
+1556733,2026-12-12T15:00:00+00:00,NS,Regular Season - 18,Heart Of Midlothian,254,Motherwell,256,,,False
+1556735,2026-12-12T15:00:00+00:00,NS,Regular Season - 18,ST Johnstone,258,Rangers,257,,,False
+1556731,2026-12-12T15:00:00+00:00,NS,Regular Season - 18,Dundee Utd,1386,ST Mirren,251,,,False
+1556732,2026-12-12T15:00:00+00:00,NS,Regular Season - 18,Falkirk,1389,Aberdeen,252,,,False
+1556738,2026-12-19T15:00:00+00:00,NS,Regular Season - 19,Hibernian,249,ST Johnstone,258,,,False
+1556741,2026-12-19T15:00:00+00:00,NS,Regular Season - 19,ST Mirren,251,Falkirk,1389,,,False
+1556736,2026-12-19T15:00:00+00:00,NS,Regular Season - 19,Aberdeen,252,Celtic,247,,,False
+1556739,2026-12-19T15:00:00+00:00,NS,Regular Season - 19,Motherwell,256,Dundee,253,,,False
+1556740,2026-12-19T15:00:00+00:00,NS,Regular Season - 19,Rangers,257,Heart Of Midlothian,254,,,False
+1556737,2026-12-19T15:00:00+00:00,NS,Regular Season - 19,Dundee Utd,1386,Kilmarnock,250,,,False
+1556742,2026-12-26T15:00:00+00:00,NS,Regular Season - 20,Celtic,247,Motherwell,256,,,False
+1556746,2026-12-26T15:00:00+00:00,NS,Regular Season - 20,Kilmarnock,250,Rangers,257,,,False
+1556743,2026-12-26T15:00:00+00:00,NS,Regular Season - 20,Dundee,253,ST Mirren,251,,,False
+1556745,2026-12-26T15:00:00+00:00,NS,Regular Season - 20,Heart Of Midlothian,254,Hibernian,249,,,False
+1556747,2026-12-26T15:00:00+00:00,NS,Regular Season - 20,ST Johnstone,258,Aberdeen,252,,,False
+1556744,2026-12-26T15:00:00+00:00,NS,Regular Season - 20,Falkirk,1389,Dundee Utd,1386,,,False
+1556750,2026-12-30T19:45:00+00:00,NS,Regular Season - 21,Hibernian,249,ST Mirren,251,,,False
+1556751,2026-12-30T19:45:00+00:00,NS,Regular Season - 21,Kilmarnock,250,Falkirk,1389,,,False
+1556748,2026-12-30T19:45:00+00:00,NS,Regular Season - 21,Aberdeen,252,Motherwell,256,,,False
+1556752,2026-12-30T19:45:00+00:00,NS,Regular Season - 21,Rangers,257,Dundee,253,,,False
+1556753,2026-12-30T19:45:00+00:00,NS,Regular Season - 21,ST Johnstone,258,Heart Of Midlothian,254,,,False
+1556749,2026-12-30T19:45:00+00:00,NS,Regular Season - 21,Dundee Utd,1386,Celtic,247,,,False
+1556759,2027-01-02T15:00:00+00:00,NS,Regular Season - 22,ST Mirren,251,Aberdeen,252,,,False
+1556754,2027-01-02T15:00:00+00:00,NS,Regular Season - 22,Dundee,253,Dundee Utd,1386,,,False
+1556756,2027-01-02T15:00:00+00:00,NS,Regular Season - 22,Heart Of Midlothian,254,Kilmarnock,250,,,False
+1556757,2027-01-02T15:00:00+00:00,NS,Regular Season - 22,Motherwell,256,ST Johnstone,258,,,False
+1556758,2027-01-02T15:00:00+00:00,NS,Regular Season - 22,Rangers,257,Celtic,247,,,False
+1556755,2027-01-02T15:00:00+00:00,NS,Regular Season - 22,Falkirk,1389,Hibernian,249,,,False
+1556761,2027-01-09T15:00:00+00:00,NS,Regular Season - 23,Celtic,247,Dundee,253,,,False
+1556763,2027-01-09T15:00:00+00:00,NS,Regular Season - 23,Hibernian,249,Motherwell,256,,,False
+1556764,2027-01-09T15:00:00+00:00,NS,Regular Season - 23,Kilmarnock,250,ST Mirren,251,,,False
+1556760,2027-01-09T15:00:00+00:00,NS,Regular Season - 23,Aberdeen,252,Heart Of Midlothian,254,,,False
+1556765,2027-01-09T15:00:00+00:00,NS,Regular Season - 23,ST Johnstone,258,Falkirk,1389,,,False
+1556762,2027-01-09T15:00:00+00:00,NS,Regular Season - 23,Dundee Utd,1386,Rangers,257,,,False
+1556768,2027-01-23T15:00:00+00:00,NS,Regular Season - 24,Hibernian,249,Kilmarnock,250,,,False
+1556771,2027-01-23T15:00:00+00:00,NS,Regular Season - 24,ST Mirren,251,Celtic,247,,,False
+1556766,2027-01-23T15:00:00+00:00,NS,Regular Season - 24,Dundee,253,Aberdeen,252,,,False
+1556769,2027-01-23T15:00:00+00:00,NS,Regular Season - 24,Motherwell,256,Dundee Utd,1386,,,False
+1556770,2027-01-23T15:00:00+00:00,NS,Regular Season - 24,Rangers,257,ST Johnstone,258,,,False
+1556767,2027-01-23T15:00:00+00:00,NS,Regular Season - 24,Falkirk,1389,Heart Of Midlothian,254,,,False
+1556773,2027-01-30T15:00:00+00:00,NS,Regular Season - 25,Celtic,247,Falkirk,1389,,,False
+1556776,2027-01-30T15:00:00+00:00,NS,Regular Season - 25,Kilmarnock,250,Motherwell,256,,,False
+1556772,2027-01-30T15:00:00+00:00,NS,Regular Season - 25,Aberdeen,252,Rangers,257,,,False
+1556774,2027-01-30T15:00:00+00:00,NS,Regular Season - 25,Dundee,253,Hibernian,249,,,False
+1556775,2027-01-30T15:00:00+00:00,NS,Regular Season - 25,Heart Of Midlothian,254,ST Mirren,251,,,False
+1556777,2027-01-30T15:00:00+00:00,NS,Regular Season - 25,ST Johnstone,258,Dundee Utd,1386,,,False
+1556783,2027-02-03T19:45:00+00:00,NS,Regular Season - 26,ST Mirren,251,ST Johnstone,258,,,False
+1556778,2027-02-03T19:45:00+00:00,NS,Regular Season - 26,Aberdeen,252,Falkirk,1389,,,False
+1556780,2027-02-03T19:45:00+00:00,NS,Regular Season - 26,Heart Of Midlothian,254,Dundee,253,,,False
+1556781,2027-02-03T19:45:00+00:00,NS,Regular Season - 26,Motherwell,256,Celtic,247,,,False
+1556782,2027-02-03T19:45:00+00:00,NS,Regular Season - 26,Rangers,257,Kilmarnock,250,,,False
+1556779,2027-02-03T19:45:00+00:00,NS,Regular Season - 26,Dundee Utd,1386,Hibernian,249,,,False
+1556784,2027-02-13T15:00:00+00:00,NS,Regular Season - 27,Celtic,247,Heart Of Midlothian,254,,,False
+1556787,2027-02-13T15:00:00+00:00,NS,Regular Season - 27,Hibernian,249,Aberdeen,252,,,False
+1556788,2027-02-13T15:00:00+00:00,NS,Regular Season - 27,Kilmarnock,250,Dundee Utd,1386,,,False
+1556789,2027-02-13T15:00:00+00:00,NS,Regular Season - 27,ST Mirren,251,Motherwell,256,,,False
+1556785,2027-02-13T15:00:00+00:00,NS,Regular Season - 27,Dundee,253,ST Johnstone,258,,,False
+1556786,2027-02-13T15:00:00+00:00,NS,Regular Season - 27,Falkirk,1389,Rangers,257,,,False
+1556792,2027-02-20T15:00:00+00:00,NS,Regular Season - 28,Hibernian,249,Celtic,247,,,False
+1556793,2027-02-20T15:00:00+00:00,NS,Regular Season - 28,Motherwell,256,Heart Of Midlothian,254,,,False
+1556794,2027-02-20T15:00:00+00:00,NS,Regular Season - 28,Rangers,257,ST Mirren,251,,,False
+1556795,2027-02-20T15:00:00+00:00,NS,Regular Season - 28,ST Johnstone,258,Kilmarnock,250,,,False
+1556790,2027-02-20T15:00:00+00:00,NS,Regular Season - 28,Dundee Utd,1386,Aberdeen,252,,,False
+1556791,2027-02-20T15:00:00+00:00,NS,Regular Season - 28,Falkirk,1389,Dundee,253,,,False
+1556797,2027-02-27T15:00:00+00:00,NS,Regular Season - 29,Celtic,247,Rangers,257,,,False
+1556801,2027-02-27T15:00:00+00:00,NS,Regular Season - 29,ST Mirren,251,Hibernian,249,,,False
+1556796,2027-02-27T15:00:00+00:00,NS,Regular Season - 29,Aberdeen,252,ST Johnstone,258,,,False
+1556798,2027-02-27T15:00:00+00:00,NS,Regular Season - 29,Dundee,253,Kilmarnock,250,,,False
+1556799,2027-02-27T15:00:00+00:00,NS,Regular Season - 29,Heart Of Midlothian,254,Dundee Utd,1386,,,False
+1556800,2027-02-27T15:00:00+00:00,NS,Regular Season - 29,Motherwell,256,Falkirk,1389,,,False
+1556804,2027-03-13T15:00:00+00:00,NS,Regular Season - 30,Hibernian,249,Falkirk,1389,,,False
+1556805,2027-03-13T15:00:00+00:00,NS,Regular Season - 30,Kilmarnock,250,Heart Of Midlothian,254,,,False
+1556802,2027-03-13T15:00:00+00:00,NS,Regular Season - 30,Aberdeen,252,ST Mirren,251,,,False
+1556806,2027-03-13T15:00:00+00:00,NS,Regular Season - 30,Rangers,257,Motherwell,256,,,False
+1556807,2027-03-13T15:00:00+00:00,NS,Regular Season - 30,ST Johnstone,258,Celtic,247,,,False
+1556803,2027-03-13T15:00:00+00:00,NS,Regular Season - 30,Dundee Utd,1386,Dundee,253,,,False
+1556808,2027-03-20T15:00:00+00:00,NS,Regular Season - 31,Celtic,247,Aberdeen,252,,,False
+1556813,2027-03-20T15:00:00+00:00,NS,Regular Season - 31,ST Mirren,251,Dundee Utd,1386,,,False
+1556809,2027-03-20T15:00:00+00:00,NS,Regular Season - 31,Dundee,253,Motherwell,256,,,False
+1556811,2027-03-20T15:00:00+00:00,NS,Regular Season - 31,Heart Of Midlothian,254,Rangers,257,,,False
+1556812,2027-03-20T15:00:00+00:00,NS,Regular Season - 31,ST Johnstone,258,Hibernian,249,,,False
+1556810,2027-03-20T15:00:00+00:00,NS,Regular Season - 31,Falkirk,1389,Kilmarnock,250,,,False
+1556816,2027-04-03T14:00:00+00:00,NS,Regular Season - 32,Kilmarnock,250,Celtic,247,,,False
+1556819,2027-04-03T14:00:00+00:00,NS,Regular Season - 32,ST Mirren,251,Dundee,253,,,False
+1556815,2027-04-03T14:00:00+00:00,NS,Regular Season - 32,Heart Of Midlothian,254,ST Johnstone,258,,,False
+1556817,2027-04-03T14:00:00+00:00,NS,Regular Season - 32,Motherwell,256,Aberdeen,252,,,False
+1556818,2027-04-03T14:00:00+00:00,NS,Regular Season - 32,Rangers,257,Hibernian,249,,,False
+1556814,2027-04-03T14:00:00+00:00,NS,Regular Season - 32,Dundee Utd,1386,Falkirk,1389,,,False
+1556821,2027-04-10T14:00:00+00:00,NS,Regular Season - 33,Celtic,247,Dundee Utd,1386,,,False
+1556824,2027-04-10T14:00:00+00:00,NS,Regular Season - 33,Hibernian,249,Heart Of Midlothian,254,,,False
+1556820,2027-04-10T14:00:00+00:00,NS,Regular Season - 33,Aberdeen,252,Kilmarnock,250,,,False
+1556822,2027-04-10T14:00:00+00:00,NS,Regular Season - 33,Dundee,253,Rangers,257,,,False
+1556825,2027-04-10T14:00:00+00:00,NS,Regular Season - 33,ST Johnstone,258,Motherwell,256,,,False
+1556823,2027-04-10T14:00:00+00:00,NS,Regular Season - 33,Falkirk,1389,ST Mirren,251,,,False

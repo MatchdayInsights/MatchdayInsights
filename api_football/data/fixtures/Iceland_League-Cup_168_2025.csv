@@ -1,64 +1,64 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1320783,2025-02-15T15:00:00+00:00,CANC,IR Reykjavik,2122,Vikingur Reykjavik,278,,,False
-1320797,2025-02-23T15:00:00+00:00,CANC,Vikingur Reykjavik,278,Thor Akureyri,2116,,,False
-1320798,2025-02-28T18:30:00+00:00,CANC,FH hafnarfjordur,270,Vikingur Reykjavik,278,,,False
-1320814,2025-03-06T19:00:00+00:00,CANC,Vikingur Reykjavik,278,Afturelding,3514,,,False
-1320820,2025-02-01T15:00:00+00:00,FT,KA Akureyri,272,Völsungur,4166,1,1,True
-1320762,2025-02-03T20:00:00+00:00,FT,KR Reykjavik,271,Keflavik,269,2,0,True
-1320812,2025-02-04T19:00:00+00:00,FT,Breidablik,276,Fram Reykjavik,2117,1,3,True
-1320764,2025-02-06T19:00:00+00:00,FT,Vikingur Reykjavik,278,HK Kopavogur,2113,2,0,True
-1320766,2025-02-06T19:00:00+00:00,FT,Selfoss,2115,Leiknir R.,2114,5,5,True
-1320763,2025-02-07T18:30:00+00:00,FT,FH hafnarfjordur,270,IR Reykjavik,2122,0,1,True
-1320765,2025-02-08T12:00:00+00:00,FT,Valur Reykjavik,274,Fjolnir,273,4,0,True
-1320771,2025-02-08T13:00:00+00:00,FT,Breidablik,276,Fylkir,267,1,1,True
-1320767,2025-02-08T14:00:00+00:00,FT,Stjarnan,275,IBV Vestmannaeyjar,268,3,2,True
-1320769,2025-02-08T14:00:00+00:00,FT,IA Akranes,827,Vestri,4165,2,2,True
-1320768,2025-02-08T14:00:00+00:00,FT,Throttur Reykjavik,829,Grindavik,277,3,2,True
-1320770,2025-02-08T15:00:00+00:00,FT,Fram Reykjavik,2117,Völsungur,4166,3,1,True
-1320773,2025-02-08T15:00:00+00:00,FT,Afturelding,3514,Thor Akureyri,2116,4,0,True
-1320772,2025-02-09T15:00:00+00:00,FT,Njardvik,2123,KA Akureyri,272,0,1,True
-1320777,2025-02-11T19:00:00+00:00,FT,Selfoss,2115,Stjarnan,275,0,6,True
-1320774,2025-02-14T18:30:00+00:00,FT,FH hafnarfjordur,270,Afturelding,3514,3,6,True
-1320776,2025-02-14T19:00:00+00:00,FT,Fylkir,267,Fram Reykjavik,2117,1,0,True
-1320775,2025-02-14T19:00:00+00:00,FT,Throttur Reykjavik,829,Fjolnir,273,3,1,True
-1320779,2025-02-15T12:00:00+00:00,FT,IA Akranes,827,Valur Reykjavik,274,1,1,True
-1320782,2025-02-15T13:00:00+00:00,FT,KA Akureyri,272,Breidablik,276,0,5,True
-1320778,2025-02-15T14:00:00+00:00,FT,Keflavik,269,IBV Vestmannaeyjar,268,1,0,True
-1320780,2025-02-15T14:00:00+00:00,FT,Grindavik,277,Vestri,4165,4,3,True
-1320784,2025-02-15T15:00:00+00:00,FT,Thor Akureyri,2116,HK Kopavogur,2113,4,1,True
-1320785,2025-02-19T19:00:00+00:00,FT,Leiknir R.,2114,KR Reykjavik,271,1,6,True
-1320786,2025-02-20T19:00:00+00:00,FT,Throttur Reykjavik,829,Valur Reykjavik,274,1,3,True
-1320787,2025-02-20T20:00:00+00:00,FT,IA Akranes,827,Grindavik,277,3,0,True
-1320788,2025-02-21T19:00:00+00:00,FT,HK Kopavogur,2113,FH hafnarfjordur,270,0,3,True
-1320790,2025-02-21T20:00:00+00:00,FT,IR Reykjavik,2122,Afturelding,3514,3,1,True
-1320794,2025-02-22T15:00:00+00:00,FT,Fylkir,267,KA Akureyri,272,1,1,True
-1320791,2025-02-22T15:00:00+00:00,FT,Fjolnir,273,Vestri,4165,1,3,True
-1320793,2025-02-22T15:00:00+00:00,FT,Fram Reykjavik,2117,Njardvik,2123,1,2,True
-1320792,2025-02-22T16:00:00+00:00,FT,Breidablik,276,Völsungur,4166,6,0,True
-1320795,2025-02-23T13:00:00+00:00,FT,KR Reykjavik,271,Selfoss,2115,4,1,True
-1320796,2025-02-23T14:00:00+00:00,FT,Leiknir R.,2114,IBV Vestmannaeyjar,268,2,3,True
-1320810,2025-02-24T19:00:00+00:00,FT,Valur Reykjavik,274,Grindavik,277,6,0,True
-1320789,2025-02-25T19:10:00+00:00,FT,Stjarnan,275,Keflavik,269,1,4,True
-1320811,2025-02-26T20:00:00+00:00,FT,Fjolnir,273,IA Akranes,827,3,4,True
-1320805,2025-02-27T16:15:00+00:00,FT,KA Akureyri,272,Fram Reykjavik,2117,2,5,True
-1320799,2025-02-27T19:00:00+00:00,FT,Njardvik,2123,Breidablik,276,2,3,True
-1320802,2025-02-28T19:00:00+00:00,FT,Keflavik,269,Selfoss,2115,3,0,True
-1320801,2025-03-01T12:00:00+00:00,FT,Leiknir R.,2114,Stjarnan,275,1,1,True
-1320806,2025-03-01T13:00:00+00:00,FT,Völsungur,4166,Fylkir,267,0,6,True
-1320804,2025-03-01T15:00:00+00:00,FT,Vestri,4165,Valur Reykjavik,274,1,2,True
-1320809,2025-03-01T17:30:00+00:00,FT,Thor Akureyri,2116,IR Reykjavik,2122,1,0,True
-1320808,2025-03-02T16:00:00+00:00,FT,Throttur Reykjavik,829,IA Akranes,827,3,4,True
-1320803,2025-03-05T13:30:00+00:00,FT,KR Reykjavik,271,IBV Vestmannaeyjar,268,6,3,True
-1320815,2025-03-05T19:00:00+00:00,FT,Fylkir,267,Njardvik,2123,3,0,True
-1320807,2025-03-05T20:00:00+00:00,FT,Fjolnir,273,Grindavik,277,2,3,True
-1320813,2025-03-06T19:00:00+00:00,FT,HK Kopavogur,2113,IR Reykjavik,2122,1,1,True
-1320817,2025-03-07T19:00:00+00:00,FT,Keflavik,269,Leiknir R.,2114,5,4,True
-1320818,2025-03-08T14:00:00+00:00,FT,Selfoss,2115,IBV Vestmannaeyjar,268,1,1,True
-1320781,2025-03-08T16:00:00+00:00,FT,Völsungur,4166,Njardvik,2123,1,1,True
-1320816,2025-03-09T14:00:00+00:00,FT,Stjarnan,275,KR Reykjavik,271,1,3,True
-1320800,2025-03-09T17:00:00+00:00,FT,Afturelding,3514,HK Kopavogur,2113,1,2,True
-1320821,2025-03-11T19:00:00+00:00,FT,Thor Akureyri,2116,FH hafnarfjordur,270,2,2,True
-1360065,2025-03-14T19:00:00+00:00,FT,Fylkir,267,KR Reykjavik,271,2,1,True
-1361376,2025-03-18T19:15:00+00:00,PEN,Valur Reykjavik,274,IR Reykjavik,2122,2,2,False
-1364214,2025-03-22T14:00:00+00:00,FT,Fylkir,267,Valur Reykjavik,274,2,3,True
-1320819,2025-03-25T13:00:00+00:00,FT,Throttur Reykjavik,829,Vestri,4165,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1320783,2025-02-15T15:00:00+00:00,CANC,Group Stage - 2,IR Reykjavik,2122,Vikingur Reykjavik,278,,,False
+1320797,2025-02-23T15:00:00+00:00,CANC,Group Stage - 3,Vikingur Reykjavik,278,Thor Akureyri,2116,,,False
+1320798,2025-02-28T18:30:00+00:00,CANC,Group Stage - 4,FH hafnarfjordur,270,Vikingur Reykjavik,278,,,False
+1320814,2025-03-06T19:00:00+00:00,CANC,Group Stage - 5,Vikingur Reykjavik,278,Afturelding,3514,,,False
+1320820,2025-02-01T15:00:00+00:00,FT,Group Stage - 5,KA Akureyri,272,Völsungur,4166,1,1,True
+1320762,2025-02-03T20:00:00+00:00,FT,Group Stage - 1,KR Reykjavik,271,Keflavik,269,2,0,True
+1320812,2025-02-04T19:00:00+00:00,FT,Group Stage - 5,Breidablik,276,Fram Reykjavik,2117,1,3,True
+1320764,2025-02-06T19:00:00+00:00,FT,Group Stage - 1,Vikingur Reykjavik,278,HK Kopavogur,2113,2,0,True
+1320766,2025-02-06T19:00:00+00:00,FT,Group Stage - 1,Selfoss,2115,Leiknir R.,2114,5,5,True
+1320763,2025-02-07T18:30:00+00:00,FT,Group Stage - 1,FH hafnarfjordur,270,IR Reykjavik,2122,0,1,True
+1320765,2025-02-08T12:00:00+00:00,FT,Group Stage - 1,Valur Reykjavik,274,Fjolnir,273,4,0,True
+1320771,2025-02-08T13:00:00+00:00,FT,Group Stage - 1,Breidablik,276,Fylkir,267,1,1,True
+1320767,2025-02-08T14:00:00+00:00,FT,Group Stage - 1,Stjarnan,275,IBV Vestmannaeyjar,268,3,2,True
+1320769,2025-02-08T14:00:00+00:00,FT,Group Stage - 1,IA Akranes,827,Vestri,4165,2,2,True
+1320768,2025-02-08T14:00:00+00:00,FT,Group Stage - 1,Throttur Reykjavik,829,Grindavik,277,3,2,True
+1320770,2025-02-08T15:00:00+00:00,FT,Group Stage - 1,Fram Reykjavik,2117,Völsungur,4166,3,1,True
+1320773,2025-02-08T15:00:00+00:00,FT,Group Stage - 1,Afturelding,3514,Thor Akureyri,2116,4,0,True
+1320772,2025-02-09T15:00:00+00:00,FT,Group Stage - 1,Njardvik,2123,KA Akureyri,272,0,1,True
+1320777,2025-02-11T19:00:00+00:00,FT,Group Stage - 2,Selfoss,2115,Stjarnan,275,0,6,True
+1320774,2025-02-14T18:30:00+00:00,FT,Group Stage - 2,FH hafnarfjordur,270,Afturelding,3514,3,6,True
+1320776,2025-02-14T19:00:00+00:00,FT,Group Stage - 2,Fylkir,267,Fram Reykjavik,2117,1,0,True
+1320775,2025-02-14T19:00:00+00:00,FT,Group Stage - 2,Throttur Reykjavik,829,Fjolnir,273,3,1,True
+1320779,2025-02-15T12:00:00+00:00,FT,Group Stage - 2,IA Akranes,827,Valur Reykjavik,274,1,1,True
+1320782,2025-02-15T13:00:00+00:00,FT,Group Stage - 2,KA Akureyri,272,Breidablik,276,0,5,True
+1320778,2025-02-15T14:00:00+00:00,FT,Group Stage - 2,Keflavik,269,IBV Vestmannaeyjar,268,1,0,True
+1320780,2025-02-15T14:00:00+00:00,FT,Group Stage - 2,Grindavik,277,Vestri,4165,4,3,True
+1320784,2025-02-15T15:00:00+00:00,FT,Group Stage - 2,Thor Akureyri,2116,HK Kopavogur,2113,4,1,True
+1320785,2025-02-19T19:00:00+00:00,FT,Group Stage - 2,Leiknir R.,2114,KR Reykjavik,271,1,6,True
+1320786,2025-02-20T19:00:00+00:00,FT,Group Stage - 3,Throttur Reykjavik,829,Valur Reykjavik,274,1,3,True
+1320787,2025-02-20T20:00:00+00:00,FT,Group Stage - 3,IA Akranes,827,Grindavik,277,3,0,True
+1320788,2025-02-21T19:00:00+00:00,FT,Group Stage - 3,HK Kopavogur,2113,FH hafnarfjordur,270,0,3,True
+1320790,2025-02-21T20:00:00+00:00,FT,Group Stage - 3,IR Reykjavik,2122,Afturelding,3514,3,1,True
+1320794,2025-02-22T15:00:00+00:00,FT,Group Stage - 3,Fylkir,267,KA Akureyri,272,1,1,True
+1320791,2025-02-22T15:00:00+00:00,FT,Group Stage - 3,Fjolnir,273,Vestri,4165,1,3,True
+1320793,2025-02-22T15:00:00+00:00,FT,Group Stage - 3,Fram Reykjavik,2117,Njardvik,2123,1,2,True
+1320792,2025-02-22T16:00:00+00:00,FT,Group Stage - 3,Breidablik,276,Völsungur,4166,6,0,True
+1320795,2025-02-23T13:00:00+00:00,FT,Group Stage - 3,KR Reykjavik,271,Selfoss,2115,4,1,True
+1320796,2025-02-23T14:00:00+00:00,FT,Group Stage - 3,Leiknir R.,2114,IBV Vestmannaeyjar,268,2,3,True
+1320810,2025-02-24T19:00:00+00:00,FT,Group Stage - 5,Valur Reykjavik,274,Grindavik,277,6,0,True
+1320789,2025-02-25T19:10:00+00:00,FT,Group Stage - 3,Stjarnan,275,Keflavik,269,1,4,True
+1320811,2025-02-26T20:00:00+00:00,FT,Group Stage - 5,Fjolnir,273,IA Akranes,827,3,4,True
+1320805,2025-02-27T16:15:00+00:00,FT,Group Stage - 4,KA Akureyri,272,Fram Reykjavik,2117,2,5,True
+1320799,2025-02-27T19:00:00+00:00,FT,Group Stage - 4,Njardvik,2123,Breidablik,276,2,3,True
+1320802,2025-02-28T19:00:00+00:00,FT,Group Stage - 4,Keflavik,269,Selfoss,2115,3,0,True
+1320801,2025-03-01T12:00:00+00:00,FT,Group Stage - 4,Leiknir R.,2114,Stjarnan,275,1,1,True
+1320806,2025-03-01T13:00:00+00:00,FT,Group Stage - 4,Völsungur,4166,Fylkir,267,0,6,True
+1320804,2025-03-01T15:00:00+00:00,FT,Group Stage - 4,Vestri,4165,Valur Reykjavik,274,1,2,True
+1320809,2025-03-01T17:30:00+00:00,FT,Group Stage - 4,Thor Akureyri,2116,IR Reykjavik,2122,1,0,True
+1320808,2025-03-02T16:00:00+00:00,FT,Group Stage - 4,Throttur Reykjavik,829,IA Akranes,827,3,4,True
+1320803,2025-03-05T13:30:00+00:00,FT,Group Stage - 4,KR Reykjavik,271,IBV Vestmannaeyjar,268,6,3,True
+1320815,2025-03-05T19:00:00+00:00,FT,Group Stage - 5,Fylkir,267,Njardvik,2123,3,0,True
+1320807,2025-03-05T20:00:00+00:00,FT,Group Stage - 4,Fjolnir,273,Grindavik,277,2,3,True
+1320813,2025-03-06T19:00:00+00:00,FT,Group Stage - 5,HK Kopavogur,2113,IR Reykjavik,2122,1,1,True
+1320817,2025-03-07T19:00:00+00:00,FT,Group Stage - 5,Keflavik,269,Leiknir R.,2114,5,4,True
+1320818,2025-03-08T14:00:00+00:00,FT,Group Stage - 5,Selfoss,2115,IBV Vestmannaeyjar,268,1,1,True
+1320781,2025-03-08T16:00:00+00:00,FT,Group Stage - 2,Völsungur,4166,Njardvik,2123,1,1,True
+1320816,2025-03-09T14:00:00+00:00,FT,Group Stage - 5,Stjarnan,275,KR Reykjavik,271,1,3,True
+1320800,2025-03-09T17:00:00+00:00,FT,Group Stage - 4,Afturelding,3514,HK Kopavogur,2113,1,2,True
+1320821,2025-03-11T19:00:00+00:00,FT,Group Stage - 5,Thor Akureyri,2116,FH hafnarfjordur,270,2,2,True
+1360065,2025-03-14T19:00:00+00:00,FT,Semi-finals,Fylkir,267,KR Reykjavik,271,2,1,True
+1361376,2025-03-18T19:15:00+00:00,PEN,Semi-finals,Valur Reykjavik,274,IR Reykjavik,2122,2,2,False
+1364214,2025-03-22T14:00:00+00:00,FT,Final,Fylkir,267,Valur Reykjavik,274,2,3,True
+1320819,2025-03-25T13:00:00+00:00,FT,Group Stage - 5,Throttur Reykjavik,829,Vestri,4165,0,1,True

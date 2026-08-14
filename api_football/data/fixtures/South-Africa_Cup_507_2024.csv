@@ -1,32 +1,40 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1337280,2025-01-27T17:00:00+00:00,CANC,Royal AM,10566,Milford FC,22234,,,False
-1337271,2025-01-24T17:00:00+00:00,FT,Pretoria Callies,15539,Marumo Gallants,2682,0,1,True
-1337272,2025-01-25T13:00:00+00:00,FT,Golden Arrows,2690,Chippa United,2698,1,2,True
-1337273,2025-01-25T13:00:00+00:00,FT,Umvoti,10579,Baroka FC,2688,0,3,True
-1337274,2025-01-25T13:00:00+00:00,FT,Venda FC,17357,Ajax Cape Town,2683,1,3,True
-1337275,2025-01-25T13:00:00+00:00,FT,Lerumo Lions,25526,Durban City,24757,0,2,True
-1337276,2025-01-25T16:00:00+00:00,FT,Mamelodi Sundowns,2699,Sibanye,25528,5,2,True
-1337278,2025-01-26T13:00:00+00:00,FT,Polokwane City,2693,The Bees,25529,1,0,True
-1337277,2025-01-26T13:00:00+00:00,FT,Richards Bay,10567,Orlando Pirates,2700,1,3,True
-1338914,2025-01-26T13:00:00+00:00,FT,Mpheni,25530,Hungry Lions,10561,3,1,True
-1337279,2025-01-26T16:00:00+00:00,FT,Kaizer Chiefs,2691,Free Agents,25525,4,0,True
-1337281,2025-01-27T17:00:00+00:00,FT,Sekhukhune United,15537,Cape Town City,2697,2,0,True
-1337282,2025-01-28T17:00:00+00:00,FT,Amazulu,2669,Mighty Eagles,25527,5,1,True
-1337283,2025-01-28T17:00:00+00:00,FT,Stellenbosch,4905,Kruger United,24759,2,1,True
-1337284,2025-01-28T17:00:00+00:00,FT,Magesi,19999,Supersport United,2694,0,2,True
-1377738,2025-01-29T17:00:00+00:00,FT,TS Galaxy,8074,Vasco da Gama,26098,7,0,True
-1347568,2025-02-12T17:00:00+00:00,AET,Supersport United,2694,Ajax Cape Town,2683,2,1,False
-1347569,2025-02-13T17:00:00+00:00,FT,Stellenbosch,4905,Polokwane City,2693,2,0,True
-1347570,2025-02-14T17:00:00+00:00,AET,Durban City,24757,TS Galaxy,8074,2,1,False
-1347573,2025-02-15T13:00:00+00:00,FT,Marumo Gallants,2682,Amazulu,2669,1,0,True
-1347571,2025-02-15T13:00:00+00:00,FT,Orlando Pirates,2700,Baroka FC,2688,3,1,True
-1347574,2025-02-15T16:00:00+00:00,FT,Kaizer Chiefs,2691,Chippa United,2698,3,0,True
-1347575,2025-02-16T13:00:00+00:00,FT,Mamelodi Sundowns,2699,Mpheni,25530,2,0,True
-1355134,2025-03-02T13:00:00+00:00,FT,Milford FC,22234,Sekhukhune United,15537,1,2,True
-1355583,2025-03-08T13:00:00+00:00,PEN,Supersport United,2694,Orlando Pirates,2700,2,2,False
-1355584,2025-03-08T16:00:00+00:00,FT,Stellenbosch,4905,Kaizer Chiefs,2691,1,3,True
-1355585,2025-03-09T13:00:00+00:00,PEN,Durban City,24757,Marumo Gallants,2682,0,0,False
-1357057,2025-03-28T17:00:00+00:00,AET,Mamelodi Sundowns,2699,Sekhukhune United,15537,1,0,False
-1368154,2025-04-13T13:00:00+00:00,FT,Orlando Pirates,2700,Marumo Gallants,2682,1,0,True
-1368155,2025-04-13T16:00:00+00:00,FT,Mamelodi Sundowns,2699,Kaizer Chiefs,2691,1,2,True
-1371438,2025-05-10T13:30:00+00:00,FT,Kaizer Chiefs,2691,Orlando Pirates,2700,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1337280,2025-01-27T17:00:00+00:00,CANC,Round of 32,Royal AM,10566,Milford FC,22234,,,False
+1317946,2024-12-03T13:30:00+00:00,FT,Preliminary Round,JDR Stars,10562,Venda FC,17357,1,4,True
+1317947,2024-12-03T13:30:00+00:00,FT,Preliminary Round,Orbit College,10582,Kruger United,24759,0,1,True
+1317945,2024-12-03T13:30:00+00:00,FT,Preliminary Round,Casric Stars,19997,Baroka FC,2688,0,2,True
+1317948,2024-12-03T13:30:00+00:00,FT,Preliminary Round,Upington City,22235,Milford FC,22234,0,2,True
+1317949,2024-12-04T13:30:00+00:00,PEN,Preliminary Round,Black Leopards,2661,Ajax Cape Town,2683,0,0,False
+1317952,2024-12-04T13:30:00+00:00,FT,Preliminary Round,University of Pretoria,10569,Hungry Lions,10561,0,1,True
+1317950,2024-12-04T13:30:00+00:00,FT,Preliminary Round,Durban City,24757,Highbury,24758,1,0,True
+1317951,2024-12-04T13:30:00+00:00,FT,Preliminary Round,Leruma United,24760,Pretoria Callies,15539,0,1,True
+1337271,2025-01-24T17:00:00+00:00,FT,Round of 32,Pretoria Callies,15539,Marumo Gallants,2682,0,1,True
+1337272,2025-01-25T13:00:00+00:00,FT,Round of 32,Golden Arrows,2690,Chippa United,2698,1,2,True
+1337273,2025-01-25T13:00:00+00:00,FT,Round of 32,Umvoti,10579,Baroka FC,2688,0,3,True
+1337274,2025-01-25T13:00:00+00:00,FT,Round of 32,Venda FC,17357,Ajax Cape Town,2683,1,3,True
+1337275,2025-01-25T13:00:00+00:00,FT,Round of 32,Lerumo Lions,25526,Durban City,24757,0,2,True
+1337276,2025-01-25T16:00:00+00:00,FT,Round of 32,Mamelodi Sundowns,2699,Sibanye,25528,5,2,True
+1337278,2025-01-26T13:00:00+00:00,FT,Round of 32,Polokwane City,2693,The Bees,25529,1,0,True
+1337277,2025-01-26T13:00:00+00:00,FT,Round of 32,Richards Bay,10567,Orlando Pirates,2700,1,3,True
+1338914,2025-01-26T13:00:00+00:00,FT,Round of 32,Mpheni,25530,Hungry Lions,10561,3,1,True
+1337279,2025-01-26T16:00:00+00:00,FT,Round of 32,Kaizer Chiefs,2691,Free Agents,25525,4,0,True
+1337281,2025-01-27T17:00:00+00:00,FT,Round of 32,Sekhukhune United,15537,Cape Town City,2697,2,0,True
+1337282,2025-01-28T17:00:00+00:00,FT,Round of 32,Amazulu,2669,Mighty Eagles,25527,5,1,True
+1337283,2025-01-28T17:00:00+00:00,FT,Round of 32,Stellenbosch,4905,Kruger United,24759,2,1,True
+1337284,2025-01-28T17:00:00+00:00,FT,Round of 32,Magesi,19999,Supersport United,2694,0,2,True
+1377738,2025-01-29T17:00:00+00:00,FT,Round of 32,TS Galaxy,8074,Vasco da Gama,26098,7,0,True
+1347568,2025-02-12T17:00:00+00:00,AET,Round of 16,Supersport United,2694,Ajax Cape Town,2683,2,1,False
+1347569,2025-02-13T17:00:00+00:00,FT,Round of 16,Stellenbosch,4905,Polokwane City,2693,2,0,True
+1347570,2025-02-14T17:00:00+00:00,AET,Round of 16,Durban City,24757,TS Galaxy,8074,2,1,False
+1347573,2025-02-15T13:00:00+00:00,FT,Round of 16,Marumo Gallants,2682,Amazulu,2669,1,0,True
+1347571,2025-02-15T13:00:00+00:00,FT,Round of 16,Orlando Pirates,2700,Baroka FC,2688,3,1,True
+1347574,2025-02-15T16:00:00+00:00,FT,Round of 16,Kaizer Chiefs,2691,Chippa United,2698,3,0,True
+1347575,2025-02-16T13:00:00+00:00,FT,Round of 16,Mamelodi Sundowns,2699,Mpheni,25530,2,0,True
+1355134,2025-03-02T13:00:00+00:00,FT,Round of 16,Milford FC,22234,Sekhukhune United,15537,1,2,True
+1355583,2025-03-08T13:00:00+00:00,PEN,Quarter-finals,Supersport United,2694,Orlando Pirates,2700,2,2,False
+1355584,2025-03-08T16:00:00+00:00,FT,Quarter-finals,Stellenbosch,4905,Kaizer Chiefs,2691,1,3,True
+1355585,2025-03-09T13:00:00+00:00,PEN,Quarter-finals,Durban City,24757,Marumo Gallants,2682,0,0,False
+1357057,2025-03-28T17:00:00+00:00,AET,Quarter-finals,Mamelodi Sundowns,2699,Sekhukhune United,15537,1,0,False
+1368154,2025-04-13T13:00:00+00:00,FT,Semi-finals,Orlando Pirates,2700,Marumo Gallants,2682,1,0,True
+1368155,2025-04-13T16:00:00+00:00,FT,Semi-finals,Mamelodi Sundowns,2699,Kaizer Chiefs,2691,1,2,True
+1371438,2025-05-10T13:30:00+00:00,FT,Final,Kaizer Chiefs,2691,Orlando Pirates,2700,2,1,True

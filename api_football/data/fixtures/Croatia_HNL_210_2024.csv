@@ -1,91 +1,181 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1202737,2025-01-24T17:00:00+00:00,FT,NK Osijek,616,Sibenik,1475,2,2,True
-1202739,2025-01-25T14:00:00+00:00,FT,HNK Gorica,1068,NK Varazdin,1483,1,1,True
-1202738,2025-01-25T16:30:00+00:00,FT,Dinamo Zagreb,620,Istra 1961,1016,3,1,True
-1202740,2025-01-26T14:00:00+00:00,FT,HNK Rijeka,561,NK Lokomotiva Zagreb,1017,4,1,True
-1202741,2025-01-26T16:30:00+00:00,FT,HNK Hajduk Split,608,NK Slaven Belupo,1018,0,0,True
-1202745,2025-01-31T16:00:00+00:00,FT,Istra 1961,1016,HNK Gorica,1068,0,0,True
-1202742,2025-02-01T14:00:00+00:00,FT,Sibenik,1475,NK Slaven Belupo,1018,1,1,True
-1202744,2025-02-01T16:30:00+00:00,FT,NK Varazdin,1483,HNK Rijeka,561,1,0,True
-1202743,2025-02-02T11:50:00+00:00,FT,NK Lokomotiva Zagreb,1017,HNK Hajduk Split,608,3,2,True
-1202746,2025-02-02T14:00:00+00:00,FT,NK Osijek,616,Dinamo Zagreb,620,2,1,True
-1202747,2025-02-07T17:00:00+00:00,FT,Dinamo Zagreb,620,Sibenik,1475,3,0,True
-1202748,2025-02-08T14:00:00+00:00,FT,HNK Gorica,1068,NK Osijek,616,1,0,True
-1202750,2025-02-08T16:30:00+00:00,FT,HNK Hajduk Split,608,NK Varazdin,1483,1,0,True
-1202749,2025-02-09T14:00:00+00:00,FT,HNK Rijeka,561,Istra 1961,1016,0,1,True
-1202751,2025-02-09T16:45:00+00:00,FT,NK Slaven Belupo,1018,NK Lokomotiva Zagreb,1017,2,1,True
-1202752,2025-02-14T17:00:00+00:00,FT,Sibenik,1475,NK Lokomotiva Zagreb,1017,1,2,True
-1202754,2025-02-15T14:00:00+00:00,FT,Istra 1961,1016,HNK Hajduk Split,608,1,1,True
-1202756,2025-02-15T16:30:00+00:00,FT,Dinamo Zagreb,620,HNK Gorica,1068,3,1,True
-1202753,2025-02-16T14:00:00+00:00,FT,NK Varazdin,1483,NK Slaven Belupo,1018,0,1,True
-1202755,2025-02-16T16:45:00+00:00,FT,NK Osijek,616,HNK Rijeka,561,0,2,True
-1202761,2025-02-21T17:00:00+00:00,FT,NK Lokomotiva Zagreb,1017,NK Varazdin,1483,1,0,True
-1202759,2025-02-22T14:00:00+00:00,FT,HNK Hajduk Split,608,NK Osijek,616,4,0,True
-1202758,2025-02-22T16:45:00+00:00,FT,HNK Rijeka,561,Dinamo Zagreb,620,4,0,True
-1202757,2025-02-23T14:00:00+00:00,FT,HNK Gorica,1068,Sibenik,1475,1,0,True
-1202760,2025-02-23T16:30:00+00:00,FT,NK Slaven Belupo,1018,Istra 1961,1016,0,0,True
-1202763,2025-02-28T17:00:00+00:00,FT,Istra 1961,1016,NK Lokomotiva Zagreb,1017,3,2,True
-1202766,2025-03-01T14:00:00+00:00,FT,HNK Gorica,1068,HNK Rijeka,561,0,0,True
-1202764,2025-03-01T16:30:00+00:00,FT,NK Osijek,616,NK Slaven Belupo,1018,1,2,True
-1202765,2025-03-02T14:00:00+00:00,FT,Dinamo Zagreb,620,HNK Hajduk Split,608,2,2,True
-1202762,2025-03-02T16:45:00+00:00,FT,Sibenik,1475,NK Varazdin,1483,0,2,True
-1202767,2025-03-07T17:00:00+00:00,FT,HNK Rijeka,561,Sibenik,1475,1,1,True
-1202771,2025-03-08T14:00:00+00:00,FT,NK Varazdin,1483,Istra 1961,1016,0,0,True
-1202770,2025-03-08T16:30:00+00:00,FT,NK Lokomotiva Zagreb,1017,NK Osijek,616,3,0,True
-1202768,2025-03-09T14:00:00+00:00,FT,HNK Hajduk Split,608,HNK Gorica,1068,2,1,True
-1202769,2025-03-09T16:30:00+00:00,FT,NK Slaven Belupo,1018,Dinamo Zagreb,620,0,1,True
-1202775,2025-03-14T17:00:00+00:00,FT,HNK Gorica,1068,NK Slaven Belupo,1018,0,3,True
-1202772,2025-03-15T14:00:00+00:00,FT,Sibenik,1475,Istra 1961,1016,1,0,True
-1202774,2025-03-15T16:30:00+00:00,FT,Dinamo Zagreb,620,NK Lokomotiva Zagreb,1017,3,0,True
-1202773,2025-03-16T14:00:00+00:00,FT,NK Osijek,616,NK Varazdin,1483,0,0,True
-1202776,2025-03-16T16:45:00+00:00,FT,HNK Rijeka,561,HNK Hajduk Split,608,3,0,True
-1202779,2025-03-28T17:00:00+00:00,FT,NK Lokomotiva Zagreb,1017,HNK Gorica,1068,1,1,True
-1202781,2025-03-29T15:00:00+00:00,FT,Istra 1961,1016,NK Osijek,616,2,1,True
-1202778,2025-03-29T17:45:00+00:00,FT,NK Slaven Belupo,1018,HNK Rijeka,561,2,1,True
-1202777,2025-03-30T14:00:00+00:00,FT,HNK Hajduk Split,608,Sibenik,1475,1,0,True
-1202780,2025-03-30T16:45:00+00:00,FT,NK Varazdin,1483,Dinamo Zagreb,620,1,1,True
-1202784,2025-04-04T16:00:00+00:00,FT,NK Varazdin,1483,HNK Gorica,1068,0,0,True
-1202786,2025-04-05T14:00:00+00:00,FT,NK Slaven Belupo,1018,HNK Hajduk Split,608,0,1,True
-1202783,2025-04-05T16:45:00+00:00,FT,Istra 1961,1016,Dinamo Zagreb,620,3,0,True
-1202785,2025-04-06T14:00:00+00:00,FT,NK Lokomotiva Zagreb,1017,HNK Rijeka,561,0,1,True
-1202782,2025-04-06T16:45:00+00:00,FT,Sibenik,1475,NK Osijek,616,4,1,True
-1202787,2025-04-11T16:00:00+00:00,FT,NK Slaven Belupo,1018,Sibenik,1475,2,0,True
-1202790,2025-04-12T14:00:00+00:00,FT,HNK Gorica,1068,Istra 1961,1016,3,2,True
-1202791,2025-04-12T16:45:00+00:00,FT,Dinamo Zagreb,620,NK Osijek,616,2,0,True
-1202789,2025-04-13T14:00:00+00:00,FT,HNK Rijeka,561,NK Varazdin,1483,1,0,True
-1202788,2025-04-13T16:45:00+00:00,FT,HNK Hajduk Split,608,NK Lokomotiva Zagreb,1017,1,1,True
-1202792,2025-04-17T16:00:00+00:00,FT,Sibenik,1475,Dinamo Zagreb,620,0,4,True
-1202796,2025-04-18T14:00:00+00:00,FT,NK Lokomotiva Zagreb,1017,NK Slaven Belupo,1018,0,2,True
-1202795,2025-04-18T16:45:00+00:00,FT,NK Varazdin,1483,HNK Hajduk Split,608,1,1,True
-1202793,2025-04-19T14:00:00+00:00,FT,NK Osijek,616,HNK Gorica,1068,0,1,True
-1202794,2025-04-19T16:45:00+00:00,FT,Istra 1961,1016,HNK Rijeka,561,2,0,True
-1202798,2025-04-22T15:00:00+00:00,FT,NK Slaven Belupo,1018,NK Varazdin,1483,0,1,True
-1202797,2025-04-22T17:15:00+00:00,FT,NK Lokomotiva Zagreb,1017,Sibenik,1475,1,2,True
-1202801,2025-04-23T13:00:00+00:00,FT,HNK Gorica,1068,Dinamo Zagreb,620,1,0,True
-1202799,2025-04-23T15:30:00+00:00,FT,HNK Hajduk Split,608,Istra 1961,1016,0,1,True
-1202800,2025-04-23T18:00:00+00:00,FT,HNK Rijeka,561,NK Osijek,616,0,2,True
-1202806,2025-04-26T16:00:00+00:00,FT,NK Varazdin,1483,NK Lokomotiva Zagreb,1017,2,1,True
-1202804,2025-04-27T14:00:00+00:00,FT,NK Osijek,616,HNK Hajduk Split,608,2,0,True
-1202803,2025-04-27T16:45:00+00:00,FT,Dinamo Zagreb,620,HNK Rijeka,561,1,0,True
-1202805,2025-04-28T15:00:00+00:00,FT,Istra 1961,1016,NK Slaven Belupo,1018,1,1,True
-1202802,2025-04-28T17:15:00+00:00,FT,Sibenik,1475,HNK Gorica,1068,0,0,True
-1202807,2025-05-02T16:00:00+00:00,FT,NK Varazdin,1483,Sibenik,1475,1,1,True
-1202810,2025-05-03T14:00:00+00:00,FT,HNK Hajduk Split,608,Dinamo Zagreb,620,1,3,True
-1202808,2025-05-03T16:45:00+00:00,FT,NK Lokomotiva Zagreb,1017,Istra 1961,1016,0,0,True
-1202809,2025-05-04T14:00:00+00:00,FT,NK Slaven Belupo,1018,NK Osijek,616,1,4,True
-1202811,2025-05-04T16:15:00+00:00,FT,HNK Rijeka,561,HNK Gorica,1068,2,1,True
-1202815,2025-05-09T16:00:00+00:00,FT,NK Osijek,616,NK Lokomotiva Zagreb,1017,1,1,True
-1202812,2025-05-10T15:00:00+00:00,FT,Sibenik,1475,HNK Rijeka,561,0,1,True
-1202814,2025-05-10T17:45:00+00:00,FT,Dinamo Zagreb,620,NK Slaven Belupo,1018,5,0,True
-1202813,2025-05-11T14:00:00+00:00,FT,HNK Gorica,1068,HNK Hajduk Split,608,1,1,True
-1202816,2025-05-11T16:15:00+00:00,FT,Istra 1961,1016,NK Varazdin,1483,0,0,True
-1202817,2025-05-16T16:00:00+00:00,FT,Istra 1961,1016,Sibenik,1475,3,0,True
-1202818,2025-05-17T15:00:00+00:00,FT,NK Varazdin,1483,NK Osijek,616,2,1,True
-1202819,2025-05-17T17:15:00+00:00,FT,NK Lokomotiva Zagreb,1017,Dinamo Zagreb,620,1,1,True
-1202820,2025-05-18T14:00:00+00:00,FT,NK Slaven Belupo,1018,HNK Gorica,1068,4,0,True
-1202821,2025-05-18T16:45:00+00:00,FT,HNK Hajduk Split,608,HNK Rijeka,561,2,1,True
-1202824,2025-05-24T17:15:00+00:00,FT,HNK Gorica,1068,NK Lokomotiva Zagreb,1017,0,3,True
-1202823,2025-05-25T15:00:00+00:00,FT,HNK Rijeka,561,NK Slaven Belupo,1018,2,0,True
-1202826,2025-05-25T15:00:00+00:00,FT,NK Osijek,616,Istra 1961,1016,1,1,True
-1202825,2025-05-25T15:00:00+00:00,FT,Dinamo Zagreb,620,NK Varazdin,1483,1,0,True
-1202822,2025-05-25T15:00:00+00:00,FT,Sibenik,1475,HNK Hajduk Split,608,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1202648,2024-08-02T19:00:00+00:00,FT,Regular Season - 1,Dinamo Zagreb,620,Istra 1961,1016,5,0,True
+1202649,2024-08-03T19:00:00+00:00,FT,Regular Season - 1,HNK Gorica,1068,NK Varazdin,1483,0,0,True
+1202650,2024-08-04T16:50:00+00:00,FT,Regular Season - 1,HNK Rijeka,561,NK Lokomotiva Zagreb,1017,4,0,True
+1202651,2024-08-04T19:00:00+00:00,FT,Regular Season - 1,HNK Hajduk Split,608,NK Slaven Belupo,1018,2,1,True
+1202647,2024-08-04T19:00:00+00:00,FT,Regular Season - 1,NK Osijek,616,Sibenik,1475,1,2,True
+1202652,2024-08-09T16:30:00+00:00,FT,Regular Season - 2,Sibenik,1475,NK Slaven Belupo,1018,2,0,True
+1202655,2024-08-10T19:00:00+00:00,FT,Regular Season - 2,Istra 1961,1016,HNK Gorica,1068,2,1,True
+1202653,2024-08-11T16:30:00+00:00,FT,Regular Season - 2,NK Lokomotiva Zagreb,1017,HNK Hajduk Split,608,1,1,True
+1202656,2024-08-11T19:00:00+00:00,FT,Regular Season - 2,NK Osijek,616,Dinamo Zagreb,620,1,2,True
+1202654,2024-08-11T19:00:00+00:00,FT,Regular Season - 2,NK Varazdin,1483,HNK Rijeka,561,0,0,True
+1202657,2024-08-16T19:00:00+00:00,FT,Regular Season - 3,Dinamo Zagreb,620,Sibenik,1475,3,0,True
+1202661,2024-08-17T19:00:00+00:00,FT,Regular Season - 3,NK Slaven Belupo,1018,NK Lokomotiva Zagreb,1017,2,2,True
+1202660,2024-08-18T16:50:00+00:00,FT,Regular Season - 3,HNK Hajduk Split,608,NK Varazdin,1483,2,1,True
+1202659,2024-08-18T19:00:00+00:00,FT,Regular Season - 3,HNK Rijeka,561,Istra 1961,1016,4,0,True
+1202658,2024-08-18T19:00:00+00:00,FT,Regular Season - 3,HNK Gorica,1068,NK Osijek,616,2,2,True
+1202707,2024-08-23T18:00:00+00:00,FT,Regular Season - 4,NK Lokomotiva Zagreb,1017,Sibenik,1475,0,1,True
+1202663,2024-08-24T16:15:00+00:00,FT,Regular Season - 4,NK Varazdin,1483,NK Slaven Belupo,1018,2,0,True
+1202666,2024-08-24T18:30:00+00:00,FT,Regular Season - 4,Dinamo Zagreb,620,HNK Gorica,1068,2,1,True
+1202664,2024-08-25T16:15:00+00:00,FT,Regular Season - 4,Istra 1961,1016,HNK Hajduk Split,608,1,1,True
+1202665,2024-08-25T18:45:00+00:00,FT,Regular Season - 4,NK Osijek,616,HNK Rijeka,561,0,2,True
+1202667,2024-08-30T18:00:00+00:00,FT,Regular Season - 5,HNK Gorica,1068,Sibenik,1475,2,1,True
+1202670,2024-08-31T16:15:00+00:00,FT,Regular Season - 5,NK Slaven Belupo,1018,Istra 1961,1016,0,1,True
+1202669,2024-08-31T18:45:00+00:00,FT,Regular Season - 5,HNK Hajduk Split,608,NK Osijek,616,1,0,True
+1202671,2024-09-01T16:15:00+00:00,FT,Regular Season - 5,NK Lokomotiva Zagreb,1017,NK Varazdin,1483,0,1,True
+1202668,2024-09-01T18:45:00+00:00,FT,Regular Season - 5,HNK Rijeka,561,Dinamo Zagreb,620,1,1,True
+1202675,2024-09-13T18:00:00+00:00,FT,Regular Season - 6,Dinamo Zagreb,620,HNK Hajduk Split,608,0,1,True
+1202673,2024-09-14T15:30:00+00:00,FT,Regular Season - 6,Istra 1961,1016,NK Lokomotiva Zagreb,1017,0,2,True
+1202676,2024-09-14T18:00:00+00:00,FT,Regular Season - 6,HNK Gorica,1068,HNK Rijeka,561,0,1,True
+1202674,2024-09-15T15:30:00+00:00,FT,Regular Season - 6,NK Osijek,616,NK Slaven Belupo,1018,1,0,True
+1202672,2024-09-15T18:00:00+00:00,FT,Regular Season - 6,Sibenik,1475,NK Varazdin,1483,0,0,True
+1202681,2024-09-20T16:00:00+00:00,FT,Regular Season - 7,NK Varazdin,1483,Istra 1961,1016,1,0,True
+1202679,2024-09-21T15:30:00+00:00,FT,Regular Season - 7,NK Slaven Belupo,1018,Dinamo Zagreb,620,4,1,True
+1202678,2024-09-21T18:00:00+00:00,FT,Regular Season - 7,HNK Hajduk Split,608,HNK Gorica,1068,4,1,True
+1202680,2024-09-22T15:30:00+00:00,FT,Regular Season - 7,NK Lokomotiva Zagreb,1017,NK Osijek,616,0,1,True
+1202677,2024-09-22T18:00:00+00:00,FT,Regular Season - 7,HNK Rijeka,561,Sibenik,1475,3,0,True
+1202682,2024-09-27T16:00:00+00:00,FT,Regular Season - 8,Sibenik,1475,Istra 1961,1016,0,0,True
+1202684,2024-09-28T18:00:00+00:00,FT,Regular Season - 8,Dinamo Zagreb,620,NK Lokomotiva Zagreb,1017,5,1,True
+1202683,2024-09-29T15:30:00+00:00,FT,Regular Season - 8,NK Osijek,616,NK Varazdin,1483,2,1,True
+1202686,2024-09-29T18:00:00+00:00,FT,Regular Season - 8,HNK Rijeka,561,HNK Hajduk Split,608,0,0,True
+1202685,2024-09-30T14:00:00+00:00,FT,Regular Season - 8,HNK Gorica,1068,NK Slaven Belupo,1018,2,1,True
+1202691,2024-10-04T16:00:00+00:00,FT,Regular Season - 9,Istra 1961,1016,NK Osijek,616,2,1,True
+1202689,2024-10-05T14:00:00+00:00,FT,Regular Season - 9,NK Lokomotiva Zagreb,1017,HNK Gorica,1068,2,0,True
+1202688,2024-10-05T16:30:00+00:00,FT,Regular Season - 9,NK Slaven Belupo,1018,HNK Rijeka,561,0,0,True
+1202690,2024-10-06T14:00:00+00:00,FT,Regular Season - 9,NK Varazdin,1483,Dinamo Zagreb,620,0,1,True
+1202687,2024-10-06T16:30:00+00:00,FT,Regular Season - 9,HNK Hajduk Split,608,Sibenik,1475,4,0,True
+1202695,2024-10-18T16:00:00+00:00,FT,Regular Season - 10,NK Lokomotiva Zagreb,1017,HNK Rijeka,561,2,2,True
+1202692,2024-10-19T14:00:00+00:00,FT,Regular Season - 10,Sibenik,1475,NK Osijek,616,1,3,True
+1202693,2024-10-19T16:30:00+00:00,FT,Regular Season - 10,Istra 1961,1016,Dinamo Zagreb,620,2,2,True
+1202696,2024-10-20T14:00:00+00:00,FT,Regular Season - 10,NK Slaven Belupo,1018,HNK Hajduk Split,608,0,2,True
+1202694,2024-10-20T16:30:00+00:00,FT,Regular Season - 10,NK Varazdin,1483,HNK Gorica,1068,2,1,True
+1202697,2024-10-25T16:00:00+00:00,FT,Regular Season - 11,NK Slaven Belupo,1018,Sibenik,1475,2,2,True
+1202698,2024-10-26T14:00:00+00:00,FT,Regular Season - 11,HNK Hajduk Split,608,NK Lokomotiva Zagreb,1017,2,1,True
+1202699,2024-10-26T16:30:00+00:00,FT,Regular Season - 11,HNK Rijeka,561,NK Varazdin,1483,1,1,True
+1202701,2024-10-27T14:00:00+00:00,FT,Regular Season - 11,Dinamo Zagreb,620,NK Osijek,616,2,4,True
+1202700,2024-10-27T16:30:00+00:00,FT,Regular Season - 11,HNK Gorica,1068,Istra 1961,1016,1,0,True
+1202702,2024-11-01T17:00:00+00:00,FT,Regular Season - 12,Sibenik,1475,Dinamo Zagreb,620,0,4,True
+1202706,2024-11-02T14:00:00+00:00,FT,Regular Season - 12,NK Lokomotiva Zagreb,1017,NK Slaven Belupo,1018,0,1,True
+1202703,2024-11-02T16:30:00+00:00,FT,Regular Season - 12,NK Osijek,616,HNK Gorica,1068,2,0,True
+1202704,2024-11-03T14:00:00+00:00,FT,Regular Season - 12,Istra 1961,1016,HNK Rijeka,561,0,1,True
+1202705,2024-11-03T16:30:00+00:00,FT,Regular Season - 12,NK Varazdin,1483,HNK Hajduk Split,608,1,0,True
+1202662,2024-11-08T17:00:00+00:00,FT,Regular Season - 13,Sibenik,1475,NK Lokomotiva Zagreb,1017,0,3,True
+1202711,2024-11-09T14:00:00+00:00,FT,Regular Season - 13,HNK Gorica,1068,Dinamo Zagreb,620,2,2,True
+1202709,2024-11-09T16:30:00+00:00,FT,Regular Season - 13,HNK Hajduk Split,608,Istra 1961,1016,1,1,True
+1202708,2024-11-10T14:00:00+00:00,FT,Regular Season - 13,NK Slaven Belupo,1018,NK Varazdin,1483,1,1,True
+1202710,2024-11-10T16:45:00+00:00,FT,Regular Season - 13,HNK Rijeka,561,NK Osijek,616,1,1,True
+1202715,2024-11-22T17:00:00+00:00,FT,Regular Season - 14,Istra 1961,1016,NK Slaven Belupo,1018,2,3,True
+1202716,2024-11-23T14:00:00+00:00,FT,Regular Season - 14,NK Varazdin,1483,NK Lokomotiva Zagreb,1017,1,1,True
+1202713,2024-11-23T16:45:00+00:00,FT,Regular Season - 14,Dinamo Zagreb,620,HNK Rijeka,561,0,0,True
+1202714,2024-11-24T14:00:00+00:00,FT,Regular Season - 14,NK Osijek,616,HNK Hajduk Split,608,2,2,True
+1202712,2024-11-24T16:45:00+00:00,FT,Regular Season - 14,Sibenik,1475,HNK Gorica,1068,1,0,True
+1202717,2024-11-29T17:00:00+00:00,FT,Regular Season - 15,NK Varazdin,1483,Sibenik,1475,2,1,True
+1202719,2024-11-30T14:00:00+00:00,FT,Regular Season - 15,NK Slaven Belupo,1018,NK Osijek,616,3,2,True
+1202721,2024-11-30T16:30:00+00:00,FT,Regular Season - 15,HNK Rijeka,561,HNK Gorica,1068,1,0,True
+1202718,2024-12-01T14:00:00+00:00,FT,Regular Season - 15,NK Lokomotiva Zagreb,1017,Istra 1961,1016,1,2,True
+1202720,2024-12-01T16:45:00+00:00,FT,Regular Season - 15,HNK Hajduk Split,608,Dinamo Zagreb,620,1,0,True
+1202724,2024-12-06T17:00:00+00:00,FT,Regular Season - 16,Dinamo Zagreb,620,NK Slaven Belupo,1018,1,1,True
+1202726,2024-12-07T14:00:00+00:00,FT,Regular Season - 16,Istra 1961,1016,NK Varazdin,1483,0,0,True
+1202723,2024-12-07T16:30:00+00:00,FT,Regular Season - 16,HNK Gorica,1068,HNK Hajduk Split,608,1,0,True
+1202722,2024-12-08T14:00:00+00:00,FT,Regular Season - 16,Sibenik,1475,HNK Rijeka,561,0,1,True
+1202725,2024-12-08T16:30:00+00:00,FT,Regular Season - 16,NK Osijek,616,NK Lokomotiva Zagreb,1017,3,0,True
+1202730,2024-12-13T17:00:00+00:00,FT,Regular Season - 17,NK Slaven Belupo,1018,HNK Gorica,1068,2,1,True
+1202729,2024-12-14T14:00:00+00:00,FT,Regular Season - 17,NK Lokomotiva Zagreb,1017,Dinamo Zagreb,620,3,1,True
+1202727,2024-12-14T16:30:00+00:00,FT,Regular Season - 17,Istra 1961,1016,Sibenik,1475,3,3,True
+1202728,2024-12-15T14:00:00+00:00,FT,Regular Season - 17,NK Varazdin,1483,NK Osijek,616,0,0,True
+1202731,2024-12-15T16:45:00+00:00,FT,Regular Season - 17,HNK Hajduk Split,608,HNK Rijeka,561,2,2,True
+1202736,2024-12-20T17:00:00+00:00,FT,Regular Season - 18,NK Osijek,616,Istra 1961,1016,2,2,True
+1202734,2024-12-21T14:00:00+00:00,FT,Regular Season - 18,HNK Gorica,1068,NK Lokomotiva Zagreb,1017,1,4,True
+1202735,2024-12-22T12:00:00+00:00,FT,Regular Season - 18,Dinamo Zagreb,620,NK Varazdin,1483,3,2,True
+1202733,2024-12-22T14:00:00+00:00,FT,Regular Season - 18,HNK Rijeka,561,NK Slaven Belupo,1018,2,0,True
+1202732,2024-12-22T16:30:00+00:00,FT,Regular Season - 18,Sibenik,1475,HNK Hajduk Split,608,1,2,True
+1202737,2025-01-24T17:00:00+00:00,FT,Regular Season - 19,NK Osijek,616,Sibenik,1475,2,2,True
+1202739,2025-01-25T14:00:00+00:00,FT,Regular Season - 19,HNK Gorica,1068,NK Varazdin,1483,1,1,True
+1202738,2025-01-25T16:30:00+00:00,FT,Regular Season - 19,Dinamo Zagreb,620,Istra 1961,1016,3,1,True
+1202740,2025-01-26T14:00:00+00:00,FT,Regular Season - 19,HNK Rijeka,561,NK Lokomotiva Zagreb,1017,4,1,True
+1202741,2025-01-26T16:30:00+00:00,FT,Regular Season - 19,HNK Hajduk Split,608,NK Slaven Belupo,1018,0,0,True
+1202745,2025-01-31T16:00:00+00:00,FT,Regular Season - 20,Istra 1961,1016,HNK Gorica,1068,0,0,True
+1202742,2025-02-01T14:00:00+00:00,FT,Regular Season - 20,Sibenik,1475,NK Slaven Belupo,1018,1,1,True
+1202744,2025-02-01T16:30:00+00:00,FT,Regular Season - 20,NK Varazdin,1483,HNK Rijeka,561,1,0,True
+1202743,2025-02-02T11:50:00+00:00,FT,Regular Season - 20,NK Lokomotiva Zagreb,1017,HNK Hajduk Split,608,3,2,True
+1202746,2025-02-02T14:00:00+00:00,FT,Regular Season - 20,NK Osijek,616,Dinamo Zagreb,620,2,1,True
+1202747,2025-02-07T17:00:00+00:00,FT,Regular Season - 21,Dinamo Zagreb,620,Sibenik,1475,3,0,True
+1202748,2025-02-08T14:00:00+00:00,FT,Regular Season - 21,HNK Gorica,1068,NK Osijek,616,1,0,True
+1202750,2025-02-08T16:30:00+00:00,FT,Regular Season - 21,HNK Hajduk Split,608,NK Varazdin,1483,1,0,True
+1202749,2025-02-09T14:00:00+00:00,FT,Regular Season - 21,HNK Rijeka,561,Istra 1961,1016,0,1,True
+1202751,2025-02-09T16:45:00+00:00,FT,Regular Season - 21,NK Slaven Belupo,1018,NK Lokomotiva Zagreb,1017,2,1,True
+1202752,2025-02-14T17:00:00+00:00,FT,Regular Season - 22,Sibenik,1475,NK Lokomotiva Zagreb,1017,1,2,True
+1202754,2025-02-15T14:00:00+00:00,FT,Regular Season - 22,Istra 1961,1016,HNK Hajduk Split,608,1,1,True
+1202756,2025-02-15T16:30:00+00:00,FT,Regular Season - 22,Dinamo Zagreb,620,HNK Gorica,1068,3,1,True
+1202753,2025-02-16T14:00:00+00:00,FT,Regular Season - 22,NK Varazdin,1483,NK Slaven Belupo,1018,0,1,True
+1202755,2025-02-16T16:45:00+00:00,FT,Regular Season - 22,NK Osijek,616,HNK Rijeka,561,0,2,True
+1202761,2025-02-21T17:00:00+00:00,FT,Regular Season - 23,NK Lokomotiva Zagreb,1017,NK Varazdin,1483,1,0,True
+1202759,2025-02-22T14:00:00+00:00,FT,Regular Season - 23,HNK Hajduk Split,608,NK Osijek,616,4,0,True
+1202758,2025-02-22T16:45:00+00:00,FT,Regular Season - 23,HNK Rijeka,561,Dinamo Zagreb,620,4,0,True
+1202757,2025-02-23T14:00:00+00:00,FT,Regular Season - 23,HNK Gorica,1068,Sibenik,1475,1,0,True
+1202760,2025-02-23T16:30:00+00:00,FT,Regular Season - 23,NK Slaven Belupo,1018,Istra 1961,1016,0,0,True
+1202763,2025-02-28T17:00:00+00:00,FT,Regular Season - 24,Istra 1961,1016,NK Lokomotiva Zagreb,1017,3,2,True
+1202766,2025-03-01T14:00:00+00:00,FT,Regular Season - 24,HNK Gorica,1068,HNK Rijeka,561,0,0,True
+1202764,2025-03-01T16:30:00+00:00,FT,Regular Season - 24,NK Osijek,616,NK Slaven Belupo,1018,1,2,True
+1202765,2025-03-02T14:00:00+00:00,FT,Regular Season - 24,Dinamo Zagreb,620,HNK Hajduk Split,608,2,2,True
+1202762,2025-03-02T16:45:00+00:00,FT,Regular Season - 24,Sibenik,1475,NK Varazdin,1483,0,2,True
+1202767,2025-03-07T17:00:00+00:00,FT,Regular Season - 25,HNK Rijeka,561,Sibenik,1475,1,1,True
+1202771,2025-03-08T14:00:00+00:00,FT,Regular Season - 25,NK Varazdin,1483,Istra 1961,1016,0,0,True
+1202770,2025-03-08T16:30:00+00:00,FT,Regular Season - 25,NK Lokomotiva Zagreb,1017,NK Osijek,616,3,0,True
+1202768,2025-03-09T14:00:00+00:00,FT,Regular Season - 25,HNK Hajduk Split,608,HNK Gorica,1068,2,1,True
+1202769,2025-03-09T16:30:00+00:00,FT,Regular Season - 25,NK Slaven Belupo,1018,Dinamo Zagreb,620,0,1,True
+1202775,2025-03-14T17:00:00+00:00,FT,Regular Season - 26,HNK Gorica,1068,NK Slaven Belupo,1018,0,3,True
+1202772,2025-03-15T14:00:00+00:00,FT,Regular Season - 26,Sibenik,1475,Istra 1961,1016,1,0,True
+1202774,2025-03-15T16:30:00+00:00,FT,Regular Season - 26,Dinamo Zagreb,620,NK Lokomotiva Zagreb,1017,3,0,True
+1202773,2025-03-16T14:00:00+00:00,FT,Regular Season - 26,NK Osijek,616,NK Varazdin,1483,0,0,True
+1202776,2025-03-16T16:45:00+00:00,FT,Regular Season - 26,HNK Rijeka,561,HNK Hajduk Split,608,3,0,True
+1202779,2025-03-28T17:00:00+00:00,FT,Regular Season - 27,NK Lokomotiva Zagreb,1017,HNK Gorica,1068,1,1,True
+1202781,2025-03-29T15:00:00+00:00,FT,Regular Season - 27,Istra 1961,1016,NK Osijek,616,2,1,True
+1202778,2025-03-29T17:45:00+00:00,FT,Regular Season - 27,NK Slaven Belupo,1018,HNK Rijeka,561,2,1,True
+1202777,2025-03-30T14:00:00+00:00,FT,Regular Season - 27,HNK Hajduk Split,608,Sibenik,1475,1,0,True
+1202780,2025-03-30T16:45:00+00:00,FT,Regular Season - 27,NK Varazdin,1483,Dinamo Zagreb,620,1,1,True
+1202784,2025-04-04T16:00:00+00:00,FT,Regular Season - 28,NK Varazdin,1483,HNK Gorica,1068,0,0,True
+1202786,2025-04-05T14:00:00+00:00,FT,Regular Season - 28,NK Slaven Belupo,1018,HNK Hajduk Split,608,0,1,True
+1202783,2025-04-05T16:45:00+00:00,FT,Regular Season - 28,Istra 1961,1016,Dinamo Zagreb,620,3,0,True
+1202785,2025-04-06T14:00:00+00:00,FT,Regular Season - 28,NK Lokomotiva Zagreb,1017,HNK Rijeka,561,0,1,True
+1202782,2025-04-06T16:45:00+00:00,FT,Regular Season - 28,Sibenik,1475,NK Osijek,616,4,1,True
+1202787,2025-04-11T16:00:00+00:00,FT,Regular Season - 29,NK Slaven Belupo,1018,Sibenik,1475,2,0,True
+1202790,2025-04-12T14:00:00+00:00,FT,Regular Season - 29,HNK Gorica,1068,Istra 1961,1016,3,2,True
+1202791,2025-04-12T16:45:00+00:00,FT,Regular Season - 29,Dinamo Zagreb,620,NK Osijek,616,2,0,True
+1202789,2025-04-13T14:00:00+00:00,FT,Regular Season - 29,HNK Rijeka,561,NK Varazdin,1483,1,0,True
+1202788,2025-04-13T16:45:00+00:00,FT,Regular Season - 29,HNK Hajduk Split,608,NK Lokomotiva Zagreb,1017,1,1,True
+1202792,2025-04-17T16:00:00+00:00,FT,Regular Season - 30,Sibenik,1475,Dinamo Zagreb,620,0,4,True
+1202796,2025-04-18T14:00:00+00:00,FT,Regular Season - 30,NK Lokomotiva Zagreb,1017,NK Slaven Belupo,1018,0,2,True
+1202795,2025-04-18T16:45:00+00:00,FT,Regular Season - 30,NK Varazdin,1483,HNK Hajduk Split,608,1,1,True
+1202793,2025-04-19T14:00:00+00:00,FT,Regular Season - 30,NK Osijek,616,HNK Gorica,1068,0,1,True
+1202794,2025-04-19T16:45:00+00:00,FT,Regular Season - 30,Istra 1961,1016,HNK Rijeka,561,2,0,True
+1202798,2025-04-22T15:00:00+00:00,FT,Regular Season - 31,NK Slaven Belupo,1018,NK Varazdin,1483,0,1,True
+1202797,2025-04-22T17:15:00+00:00,FT,Regular Season - 31,NK Lokomotiva Zagreb,1017,Sibenik,1475,1,2,True
+1202801,2025-04-23T13:00:00+00:00,FT,Regular Season - 31,HNK Gorica,1068,Dinamo Zagreb,620,1,0,True
+1202799,2025-04-23T15:30:00+00:00,FT,Regular Season - 31,HNK Hajduk Split,608,Istra 1961,1016,0,1,True
+1202800,2025-04-23T18:00:00+00:00,FT,Regular Season - 31,HNK Rijeka,561,NK Osijek,616,0,2,True
+1202806,2025-04-26T16:00:00+00:00,FT,Regular Season - 32,NK Varazdin,1483,NK Lokomotiva Zagreb,1017,2,1,True
+1202804,2025-04-27T14:00:00+00:00,FT,Regular Season - 32,NK Osijek,616,HNK Hajduk Split,608,2,0,True
+1202803,2025-04-27T16:45:00+00:00,FT,Regular Season - 32,Dinamo Zagreb,620,HNK Rijeka,561,1,0,True
+1202805,2025-04-28T15:00:00+00:00,FT,Regular Season - 32,Istra 1961,1016,NK Slaven Belupo,1018,1,1,True
+1202802,2025-04-28T17:15:00+00:00,FT,Regular Season - 32,Sibenik,1475,HNK Gorica,1068,0,0,True
+1202807,2025-05-02T16:00:00+00:00,FT,Regular Season - 33,NK Varazdin,1483,Sibenik,1475,1,1,True
+1202810,2025-05-03T14:00:00+00:00,FT,Regular Season - 33,HNK Hajduk Split,608,Dinamo Zagreb,620,1,3,True
+1202808,2025-05-03T16:45:00+00:00,FT,Regular Season - 33,NK Lokomotiva Zagreb,1017,Istra 1961,1016,0,0,True
+1202809,2025-05-04T14:00:00+00:00,FT,Regular Season - 33,NK Slaven Belupo,1018,NK Osijek,616,1,4,True
+1202811,2025-05-04T16:15:00+00:00,FT,Regular Season - 33,HNK Rijeka,561,HNK Gorica,1068,2,1,True
+1202815,2025-05-09T16:00:00+00:00,FT,Regular Season - 34,NK Osijek,616,NK Lokomotiva Zagreb,1017,1,1,True
+1202812,2025-05-10T15:00:00+00:00,FT,Regular Season - 34,Sibenik,1475,HNK Rijeka,561,0,1,True
+1202814,2025-05-10T17:45:00+00:00,FT,Regular Season - 34,Dinamo Zagreb,620,NK Slaven Belupo,1018,5,0,True
+1202813,2025-05-11T14:00:00+00:00,FT,Regular Season - 34,HNK Gorica,1068,HNK Hajduk Split,608,1,1,True
+1202816,2025-05-11T16:15:00+00:00,FT,Regular Season - 34,Istra 1961,1016,NK Varazdin,1483,0,0,True
+1202817,2025-05-16T16:00:00+00:00,FT,Regular Season - 35,Istra 1961,1016,Sibenik,1475,3,0,True
+1202818,2025-05-17T15:00:00+00:00,FT,Regular Season - 35,NK Varazdin,1483,NK Osijek,616,2,1,True
+1202819,2025-05-17T17:15:00+00:00,FT,Regular Season - 35,NK Lokomotiva Zagreb,1017,Dinamo Zagreb,620,1,1,True
+1202820,2025-05-18T14:00:00+00:00,FT,Regular Season - 35,NK Slaven Belupo,1018,HNK Gorica,1068,4,0,True
+1202821,2025-05-18T16:45:00+00:00,FT,Regular Season - 35,HNK Hajduk Split,608,HNK Rijeka,561,2,1,True
+1202824,2025-05-24T17:15:00+00:00,FT,Regular Season - 36,HNK Gorica,1068,NK Lokomotiva Zagreb,1017,0,3,True
+1202823,2025-05-25T15:00:00+00:00,FT,Regular Season - 36,HNK Rijeka,561,NK Slaven Belupo,1018,2,0,True
+1202826,2025-05-25T15:00:00+00:00,FT,Regular Season - 36,NK Osijek,616,Istra 1961,1016,1,1,True
+1202825,2025-05-25T15:00:00+00:00,FT,Regular Season - 36,Dinamo Zagreb,620,NK Varazdin,1483,1,0,True
+1202822,2025-05-25T15:00:00+00:00,FT,Regular Season - 36,Sibenik,1475,HNK Hajduk Split,608,0,1,True

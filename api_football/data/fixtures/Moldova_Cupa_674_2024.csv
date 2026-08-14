@@ -1,22 +1,47 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1314696,2025-03-01T11:00:00+00:00,FT,Zimbru,4633,EFA Visoca,17624,5,3,True
-1314689,2025-03-01T11:00:00+00:00,FT,Floreşti,5376,FCM Ungheni,14894,1,5,True
-1314693,2025-03-01T11:00:00+00:00,FT,CSF Bălți,14008,Sireți,5379,5,2,True
-1314695,2025-03-01T13:00:00+00:00,PEN,Milsami Orhei,691,Iskra,5372,0,0,False
-1314690,2025-03-02T11:00:00+00:00,FT,Petrocub,2271,Olimp Comrat,14010,14,1,True
-1314694,2025-03-02T11:00:00+00:00,PEN,Dacia-Buiucani,5375,Saxan,4637,0,0,False
-1314691,2025-03-02T13:00:00+00:00,FT,Sheriff Tiraspol,568,Barsa Ungheni,22183,9,0,True
-1314692,2025-03-02T13:00:00+00:00,PEN,Spartanii Selemet,5380,Victoria Bardar,5384,0,0,False
-1357120,2025-04-02T13:00:00+00:00,FT,Zimbru,4633,Saxan,4637,3,0,True
-1357118,2025-04-02T15:00:00+00:00,FT,Sheriff Tiraspol,568,CSF Bălți,14008,4,1,True
-1357114,2025-04-03T13:00:00+00:00,FT,Spartanii Selemet,5380,FCM Ungheni,14894,3,3,True
-1357116,2025-04-03T15:00:00+00:00,FT,Petrocub,2271,Milsami Orhei,691,2,1,True
-1357115,2025-04-15T12:00:00+00:00,FT,FCM Ungheni,14894,Spartanii Selemet,5380,0,1,True
-1357121,2025-04-15T15:00:00+00:00,FT,Saxan,4637,Zimbru,4633,1,2,True
-1357117,2025-04-16T12:00:00+00:00,AET,Milsami Orhei,691,Petrocub,2271,1,0,False
-1357119,2025-04-16T15:00:00+00:00,FT,CSF Bălți,14008,Sheriff Tiraspol,568,0,1,True
-1371989,2025-04-30T16:00:00+00:00,FT,Milsami Orhei,691,Spartanii Selemet,5380,5,0,True
-1371987,2025-04-30T16:00:00+00:00,FT,Zimbru,4633,Sheriff Tiraspol,568,1,2,True
-1371986,2025-05-14T16:00:00+00:00,FT,Sheriff Tiraspol,568,Zimbru,4633,1,0,True
-1371988,2025-05-14T16:00:00+00:00,FT,Spartanii Selemet,5380,Milsami Orhei,691,3,3,True
-1375670,2025-05-24T16:00:00+00:00,FT,Milsami Orhei,691,Sheriff Tiraspol,568,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1300807,2024-09-04T14:00:00+00:00,FT,Preliminary Round,Oguzsport,24956,Maiak Chirsova,14895,4,1,True
+1306774,2024-09-24T12:00:00+00:00,FT,1st Round,Zaria Balti,647,Oguzsport,24956,3,1,True
+1306764,2024-09-24T12:00:00+00:00,FT,1st Round,Grănicerul,5377,FCM Ungheni,14894,1,4,True
+1306779,2024-09-24T12:00:00+00:00,AET,1st Round,Real Succes,5378,Vulturii Cutezători,20089,2,2,False
+1306771,2024-09-24T12:00:00+00:00,FT,1st Round,Codru Călărași II,14891,Iskra,5372,2,5,True
+1306773,2024-09-24T12:00:00+00:00,AET,1st Round,Edineţ,14893,Steaua Nordului,25029,3,4,False
+1306768,2024-09-24T12:00:00+00:00,FT,1st Round,Socol Copceac,14900,FC Stăuceni,17625,1,6,True
+1306769,2024-09-24T12:00:00+00:00,FT,1st Round,CS Atletic,17622,Olimp Comrat,14010,1,4,True
+1306766,2024-09-24T12:00:00+00:00,FT,1st Round,Congaz,17623,Speranis Nisporeni,21306,0,3,True
+1306778,2024-09-24T12:00:00+00:00,FT,1st Round,EFA Visoca,17624,Speranța Drochia,5381,4,2,True
+1306777,2024-09-24T12:00:00+00:00,FT,1st Round,La Familia,20088,Saxan,4637,0,7,True
+1306775,2024-09-24T12:00:00+00:00,FT,1st Round,Țarigrad,20090,Sireți,5379,0,2,True
+1306776,2024-09-24T12:00:00+00:00,FT,1st Round,Constructorul Leova,22185,Gagauziya-Oguzsport,17626,0,1,True
+1306767,2024-09-24T12:00:00+00:00,FT,1st Round,Atletico Bălți,25026,Victoria Bardar,5384,2,8,True
+1306770,2024-09-24T12:00:00+00:00,FT,1st Round,Lia Sadaclia,25027,Ocniţa,17627,0,3,True
+1306765,2024-09-24T12:00:00+00:00,FT,1st Round,Nisporeni 2023,25028,Făleşti,14009,1,4,True
+1306772,2024-09-25T12:00:00+00:00,FT,1st Round,Barsa Ungheni,22183,FC Chișinău,22186,2,0,True
+1308591,2024-10-21T11:00:00+00:00,FT,2nd Round,Olimp Comrat,14010,FC Stăuceni,17625,3,1,True
+1308768,2024-10-21T11:00:00+00:00,FT,2nd Round,Speranis Nisporeni,21306,Victoria Bardar,5384,0,4,True
+1308593,2024-10-22T11:00:00+00:00,FT,2nd Round,Zaria Balti,647,Sireți,5379,1,2,True
+1308595,2024-10-22T11:00:00+00:00,FT,2nd Round,Real Succes,5378,EFA Visoca,17624,0,7,True
+1308590,2024-10-22T11:00:00+00:00,AET,2nd Round,Făleşti,14009,FCM Ungheni,14894,5,6,False
+1308594,2024-10-22T11:00:00+00:00,FT,2nd Round,Gagauziya-Oguzsport,17626,Saxan,4637,0,3,True
+1308592,2024-10-22T11:00:00+00:00,FT,2nd Round,Ocniţa,17627,Iskra,5372,0,5,True
+1308769,2024-10-22T11:00:00+00:00,PEN,2nd Round,Barsa Ungheni,22183,Steaua Nordului,25029,0,0,False
+1314696,2025-03-01T11:00:00+00:00,FT,Round of 16,Zimbru,4633,EFA Visoca,17624,5,3,True
+1314689,2025-03-01T11:00:00+00:00,FT,Round of 16,Floreşti,5376,FCM Ungheni,14894,1,5,True
+1314693,2025-03-01T11:00:00+00:00,FT,Round of 16,CSF Bălți,14008,Sireți,5379,5,2,True
+1314695,2025-03-01T13:00:00+00:00,PEN,Round of 16,Milsami Orhei,691,Iskra,5372,0,0,False
+1314690,2025-03-02T11:00:00+00:00,FT,Round of 16,Petrocub,2271,Olimp Comrat,14010,14,1,True
+1314694,2025-03-02T11:00:00+00:00,PEN,Round of 16,Dacia-Buiucani,5375,Saxan,4637,0,0,False
+1314691,2025-03-02T13:00:00+00:00,FT,Round of 16,Sheriff Tiraspol,568,Barsa Ungheni,22183,9,0,True
+1314692,2025-03-02T13:00:00+00:00,PEN,Round of 16,Spartanii Selemet,5380,Victoria Bardar,5384,0,0,False
+1357120,2025-04-02T13:00:00+00:00,FT,Quarter-finals,Zimbru,4633,Saxan,4637,3,0,True
+1357118,2025-04-02T15:00:00+00:00,FT,Quarter-finals,Sheriff Tiraspol,568,CSF Bălți,14008,4,1,True
+1357114,2025-04-03T13:00:00+00:00,FT,Quarter-finals,Spartanii Selemet,5380,FCM Ungheni,14894,3,3,True
+1357116,2025-04-03T15:00:00+00:00,FT,Quarter-finals,Petrocub,2271,Milsami Orhei,691,2,1,True
+1357115,2025-04-15T12:00:00+00:00,FT,Quarter-finals,FCM Ungheni,14894,Spartanii Selemet,5380,0,1,True
+1357121,2025-04-15T15:00:00+00:00,FT,Quarter-finals,Saxan,4637,Zimbru,4633,1,2,True
+1357117,2025-04-16T12:00:00+00:00,AET,Quarter-finals,Milsami Orhei,691,Petrocub,2271,1,0,False
+1357119,2025-04-16T15:00:00+00:00,FT,Quarter-finals,CSF Bălți,14008,Sheriff Tiraspol,568,0,1,True
+1371989,2025-04-30T16:00:00+00:00,FT,Semi-finals,Milsami Orhei,691,Spartanii Selemet,5380,5,0,True
+1371987,2025-04-30T16:00:00+00:00,FT,Semi-finals,Zimbru,4633,Sheriff Tiraspol,568,1,2,True
+1371986,2025-05-14T16:00:00+00:00,FT,Semi-finals,Sheriff Tiraspol,568,Zimbru,4633,1,0,True
+1371988,2025-05-14T16:00:00+00:00,FT,Semi-finals,Spartanii Selemet,5380,Milsami Orhei,691,3,3,True
+1375670,2025-05-24T16:00:00+00:00,FT,Final,Milsami Orhei,691,Sheriff Tiraspol,568,1,2,True

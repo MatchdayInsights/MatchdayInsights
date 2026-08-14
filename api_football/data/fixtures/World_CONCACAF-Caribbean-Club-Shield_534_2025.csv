@@ -1,29 +1,29 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1420229,2025-07-26T18:00:00+00:00,FT,St. Pauls United,16592,Guyana Defence Force,24053,0,2,True
-1420219,2025-07-26T20:00:00+00:00,FT,Britannia,8234,Paradise,23373,1,1,True
-1445414,2025-07-26T21:00:00+00:00,FT,Real Rincon,10971,La Clery FL,26422,1,1,True
-1445415,2025-07-26T21:00:00+00:00,FT,Academia Quintana,26420,Rovers SC,26423,5,0,True
-1420220,2025-07-26T23:00:00+00:00,FT,Moca,16617,Etoile Matoury,3048,1,0,True
-1445416,2025-07-26T23:00:00+00:00,FT,AS Capoise,26419,Academy Eagles,26227,0,3,True
-1445417,2025-07-27T18:00:00+00:00,FT,Transvaal,12219,Wolues FC,26424,3,0,True
-1420221,2025-07-27T20:00:00+00:00,FT,All Saints United,22791,Eagles,9422,3,1,True
-1445418,2025-07-27T21:00:00+00:00,FT,Club Franciscain,3258,Doc's United FC,26421,6,1,True
-1420222,2025-07-27T21:00:00+00:00,FT,Scholars International,10973,Ath­let­ic Club,12560,1,2,True
-1420223,2025-07-27T23:00:00+00:00,FT,Arnett Gardens,3436,Dublanc,24052,4,0,True
-1420234,2025-07-27T23:00:00+00:00,FT,Police,12559,Weymouth Wales,8410,1,3,True
-1445420,2025-07-28T18:00:00+00:00,FT,Academy Eagles,26227,Rovers SC,26423,5,0,True
-1445421,2025-07-28T18:00:00+00:00,FT,AS Capoise,26419,La Clery FL,26422,0,3,True
-1445419,2025-07-28T18:00:00+00:00,FT,Academia Quintana,26420,Real Rincon,10971,3,0,True
-1420224,2025-07-28T20:00:00+00:00,FT,Etoile Matoury,3048,Paradise,23373,2,4,True
-1420230,2025-07-28T20:00:00+00:00,FT,Britannia,8234,St. Pauls United,16592,2,0,True
-1420225,2025-07-28T20:00:00+00:00,FT,Moca,16617,Guyana Defence Force,24053,1,0,True
-1420231,2025-07-29T18:00:00+00:00,FT,Club Franciscain,3258,Scholars International,10973,1,0,True
-1420226,2025-07-29T18:00:00+00:00,FT,Arnett Gardens,3436,Ath­let­ic Club,12560,1,4,True
-1445422,2025-07-29T18:00:00+00:00,FT,Dublanc,24052,Doc's United FC,26421,2,1,True
-1445423,2025-07-29T20:00:00+00:00,FT,Weymouth Wales,8410,Wolues FC,26424,8,0,True
-1420227,2025-07-29T20:00:00+00:00,FT,Transvaal,12219,All Saints United,22791,0,0,True
-1420228,2025-07-29T20:00:00+00:00,FT,Police,12559,Eagles,9422,6,1,True
-1420233,2025-08-01T21:00:00+00:00,PEN,Academy Eagles,26227,Moca,16617,0,0,False
-1420232,2025-08-01T23:45:00+00:00,FT,Weymouth Wales,8410,Club Franciscain,3258,2,1,True
-1445424,2025-08-03T21:00:00+00:00,FT,Academy Eagles,26227,Club Franciscain,3258,0,2,True
-1445425,2025-08-03T23:45:00+00:00,FT,Moca,16617,Weymouth Wales,8410,3,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1420229,2025-07-26T18:00:00+00:00,FT,Group Stage - 1,St. Pauls United,16592,Guyana Defence Force,24053,0,2,True
+1420219,2025-07-26T20:00:00+00:00,FT,Group Stage - 1,Britannia,8234,Paradise,23373,1,1,True
+1445414,2025-07-26T21:00:00+00:00,FT,Group Stage - 1,Real Rincon,10971,La Clery FL,26422,1,1,True
+1445415,2025-07-26T21:00:00+00:00,FT,Group Stage - 1,Academia Quintana,26420,Rovers SC,26423,5,0,True
+1420220,2025-07-26T23:00:00+00:00,FT,Group Stage - 1,Moca,16617,Etoile Matoury,3048,1,0,True
+1445416,2025-07-26T23:00:00+00:00,FT,Group Stage - 1,AS Capoise,26419,Academy Eagles,26227,0,3,True
+1445417,2025-07-27T18:00:00+00:00,FT,Group Stage - 1,Transvaal,12219,Wolues FC,26424,3,0,True
+1420221,2025-07-27T20:00:00+00:00,FT,Group Stage - 1,All Saints United,22791,Eagles,9422,3,1,True
+1445418,2025-07-27T21:00:00+00:00,FT,Group Stage - 1,Club Franciscain,3258,Doc's United FC,26421,6,1,True
+1420222,2025-07-27T21:00:00+00:00,FT,Group Stage - 1,Scholars International,10973,Ath­let­ic Club,12560,1,2,True
+1420223,2025-07-27T23:00:00+00:00,FT,Group Stage - 1,Arnett Gardens,3436,Dublanc,24052,4,0,True
+1420234,2025-07-27T23:00:00+00:00,FT,Group Stage - 1,Police,12559,Weymouth Wales,8410,1,3,True
+1445420,2025-07-28T18:00:00+00:00,FT,Group Stage - 2,Academy Eagles,26227,Rovers SC,26423,5,0,True
+1445421,2025-07-28T18:00:00+00:00,FT,Group Stage - 2,AS Capoise,26419,La Clery FL,26422,0,3,True
+1445419,2025-07-28T18:00:00+00:00,FT,Group Stage - 2,Academia Quintana,26420,Real Rincon,10971,3,0,True
+1420224,2025-07-28T20:00:00+00:00,FT,Group Stage - 2,Etoile Matoury,3048,Paradise,23373,2,4,True
+1420230,2025-07-28T20:00:00+00:00,FT,Group Stage - 2,Britannia,8234,St. Pauls United,16592,2,0,True
+1420225,2025-07-28T20:00:00+00:00,FT,Group Stage - 2,Moca,16617,Guyana Defence Force,24053,1,0,True
+1420231,2025-07-29T18:00:00+00:00,FT,Group Stage - 2,Club Franciscain,3258,Scholars International,10973,1,0,True
+1420226,2025-07-29T18:00:00+00:00,FT,Group Stage - 2,Arnett Gardens,3436,Ath­let­ic Club,12560,1,4,True
+1445422,2025-07-29T18:00:00+00:00,FT,Group Stage - 2,Dublanc,24052,Doc's United FC,26421,2,1,True
+1445423,2025-07-29T20:00:00+00:00,FT,Group Stage - 2,Weymouth Wales,8410,Wolues FC,26424,8,0,True
+1420227,2025-07-29T20:00:00+00:00,FT,Group Stage - 2,Transvaal,12219,All Saints United,22791,0,0,True
+1420228,2025-07-29T20:00:00+00:00,FT,Group Stage - 2,Police,12559,Eagles,9422,6,1,True
+1420233,2025-08-01T21:00:00+00:00,PEN,Semi-finals,Academy Eagles,26227,Moca,16617,0,0,False
+1420232,2025-08-01T23:45:00+00:00,FT,Semi-finals,Weymouth Wales,8410,Club Franciscain,3258,2,1,True
+1445424,2025-08-03T21:00:00+00:00,FT,Match for 3rd place,Academy Eagles,26227,Club Franciscain,3258,0,2,True
+1445425,2025-08-03T23:45:00+00:00,FT,Final,Moca,16617,Weymouth Wales,8410,3,2,True

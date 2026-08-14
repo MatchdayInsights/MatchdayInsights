@@ -1,49 +1,133 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1212000,2025-01-10T09:00:00+00:00,FT,Rakhine United,12527,Myawady,19048,2,1,True
-1212001,2025-01-10T09:30:00+00:00,FT,Dagon Port,24090,Dagon,12532,0,3,True
-1212003,2025-01-11T09:30:00+00:00,FT,Sagaing United,12528,Yangon United,8013,2,2,True
-1212002,2025-01-12T09:00:00+00:00,FT,Shan United,8015,Thitsar Arman,24091,3,1,True
-1212005,2025-01-12T09:30:00+00:00,FT,Yadanarbon,8017,Hantharwady United,12525,1,2,True
-1212004,2025-01-13T09:30:00+00:00,FT,Ayeyawady United,12523,I.S.P.E,12526,0,2,True
-1212006,2025-01-17T09:30:00+00:00,FT,Dagon Port,24090,Sagaing United,12528,3,2,True
-1212007,2025-01-18T09:00:00+00:00,FT,Yangon United,8013,Shan United,8015,0,1,True
-1212008,2025-01-18T09:30:00+00:00,FT,Rakhine United,12527,Yadanarbon,8017,2,4,True
-1212010,2025-01-19T09:30:00+00:00,FT,I.S.P.E,12526,Myawady,19048,0,0,True
-1212009,2025-01-20T09:00:00+00:00,FT,Ayeyawady United,12523,Thitsar Arman,24091,0,1,True
-1212011,2025-01-21T09:00:00+00:00,FT,Dagon,12532,Hantharwady United,12525,1,1,True
-1212023,2025-01-24T09:00:00+00:00,FT,Sagaing United,12528,I.S.P.E,12526,2,1,True
-1212021,2025-01-24T09:30:00+00:00,FT,Yadanarbon,8017,Ayeyawady United,12523,3,1,True
-1212018,2025-01-25T09:30:00+00:00,FT,Rakhine United,12527,Yangon United,8013,0,5,True
-1212020,2025-01-26T09:30:00+00:00,FT,Myawady,19048,Shan United,8015,1,5,True
-1212022,2025-01-27T09:30:00+00:00,FT,Thitsar Arman,24091,Dagon,12532,1,2,True
-1212019,2025-01-28T09:30:00+00:00,FT,Dagon Port,24090,Hantharwady United,12525,1,2,True
-1212012,2025-01-30T09:30:00+00:00,FT,Rakhine United,12527,I.S.P.E,12526,0,0,True
-1212013,2025-01-31T09:30:00+00:00,FT,Myawady,19048,Yangon United,8013,1,4,True
-1212015,2025-02-01T09:30:00+00:00,FT,Dagon,12532,Shan United,8015,0,0,True
-1212014,2025-02-02T09:30:00+00:00,FT,Dagon Port,24090,Ayeyawady United,12523,2,4,True
-1212016,2025-02-03T09:00:00+00:00,FT,Thitsar Arman,24091,Hantharwady United,12525,1,0,True
-1212017,2025-02-03T09:30:00+00:00,FT,Sagaing United,12528,Yadanarbon,8017,2,0,True
-1212036,2025-02-07T09:30:00+00:00,FT,Myawady,19048,Dagon Port,24090,4,1,True
-1212038,2025-02-08T09:00:00+00:00,FT,Yangon United,8013,Yadanarbon,8017,1,1,True
-1212039,2025-02-08T09:30:00+00:00,FT,Hantharwady United,12525,Ayeyawady United,12523,0,2,True
-1212041,2025-02-09T09:30:00+00:00,FT,Thitsar Arman,24091,Rakhine United,12527,1,3,True
-1212037,2025-02-10T09:30:00+00:00,FT,Dagon,12532,Sagaing United,12528,0,1,True
-1212040,2025-02-11T09:30:00+00:00,FT,I.S.P.E,12526,Shan United,8015,0,5,True
-1212029,2025-02-14T09:30:00+00:00,FT,Dagon Port,24090,Thitsar Arman,24091,1,2,True
-1212025,2025-02-15T09:30:00+00:00,FT,Sagaing United,12528,Myawady,19048,4,1,True
-1212027,2025-02-16T09:30:00+00:00,FT,I.S.P.E,12526,Hantharwady United,12525,0,0,True
-1212028,2025-02-17T09:00:00+00:00,FT,Shan United,8015,Rakhine United,12527,3,0,True
-1212026,2025-02-17T09:30:00+00:00,FT,Ayeyawady United,12523,Yangon United,8013,0,4,True
-1212024,2025-02-18T09:30:00+00:00,FT,Yadanarbon,8017,Dagon,12532,4,2,True
-1212035,2025-02-20T09:30:00+00:00,FT,I.S.P.E,12526,Thitsar Arman,24091,0,5,True
-1212032,2025-02-21T09:30:00+00:00,FT,Hantharwady United,12525,Myawady,19048,2,1,True
-1212030,2025-02-22T09:00:00+00:00,FT,Shan United,8015,Sagaing United,12528,3,0,True
-1212031,2025-02-22T09:30:00+00:00,FT,Yadanarbon,8017,Dagon Port,24090,3,3,True
-1212033,2025-02-23T09:30:00+00:00,FT,Dagon,12532,Yangon United,8013,0,3,True
-1212034,2025-02-24T09:30:00+00:00,FT,Ayeyawady United,12523,Rakhine United,12527,1,2,True
-1212046,2025-02-27T09:00:00+00:00,FT,Yangon United,8013,I.S.P.E,12526,2,1,True
-1212043,2025-02-27T09:30:00+00:00,FT,Myawady,19048,Yadanarbon,8017,2,2,True
-1212044,2025-02-28T09:00:00+00:00,FT,Thitsar Arman,24091,Sagaing United,12528,3,3,True
-1212047,2025-02-28T09:30:00+00:00,FT,Dagon,12532,Ayeyawady United,12523,2,1,True
-1212045,2025-03-01T09:00:00+00:00,FT,Shan United,8015,Hantharwady United,12525,4,0,True
-1212042,2025-03-01T09:00:00+00:00,FT,Rakhine United,12527,Dagon Port,24090,1,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1211916,2024-07-06T09:00:00+00:00,FT,Regular Season - 1,Yangon United,8013,Rakhine United,12527,2,0,True
+1211917,2024-07-06T09:30:00+00:00,FT,Regular Season - 1,Dagon,12532,Thitsar Arman,24091,3,1,True
+1211919,2024-07-07T09:00:00+00:00,FT,Regular Season - 1,Shan United,8015,Myawady,19048,1,0,True
+1211918,2024-07-07T09:00:00+00:00,FT,Regular Season - 1,Ayeyawady United,12523,Yadanarbon,8017,1,1,True
+1211920,2024-07-07T09:30:00+00:00,FT,Regular Season - 1,Hantharwady United,12525,Dagon Port,24090,4,3,True
+1211921,2024-07-08T09:00:00+00:00,FT,Regular Season - 1,I.S.P.E,12526,Sagaing United,12528,0,1,True
+1211922,2024-07-11T09:00:00+00:00,FT,Regular Season - 2,Shan United,8015,Dagon,12532,2,1,True
+1211923,2024-07-12T09:00:00+00:00,FT,Regular Season - 2,Yadanarbon,8017,Sagaing United,12528,3,2,True
+1211924,2024-07-13T09:00:00+00:00,FT,Regular Season - 2,Yangon United,8013,Myawady,19048,5,0,True
+1211925,2024-07-13T09:30:00+00:00,FT,Regular Season - 2,I.S.P.E,12526,Rakhine United,12527,5,1,True
+1211926,2024-07-14T09:00:00+00:00,FT,Regular Season - 2,Ayeyawady United,12523,Dagon Port,24090,1,2,True
+1211927,2024-07-14T09:30:00+00:00,FT,Regular Season - 2,Hantharwady United,12525,Thitsar Arman,24091,1,0,True
+1211928,2024-07-19T09:30:00+00:00,FT,Regular Season - 3,Dagon,12532,I.S.P.E,12526,2,1,True
+1211929,2024-07-20T09:00:00+00:00,FT,Regular Season - 3,Thitsar Arman,24091,Yadanarbon,8017,1,2,True
+1211930,2024-07-20T09:30:00+00:00,FT,Regular Season - 3,Rakhine United,12527,Sagaing United,12528,1,4,True
+1211932,2024-07-21T09:00:00+00:00,FT,Regular Season - 3,Yangon United,8013,Hantharwady United,12525,1,1,True
+1211931,2024-07-21T09:00:00+00:00,FT,Regular Season - 3,Ayeyawady United,12523,Myawady,19048,0,1,True
+1211933,2024-07-21T09:30:00+00:00,FT,Regular Season - 3,Dagon Port,24090,Shan United,8015,2,4,True
+1211934,2024-07-26T09:00:00+00:00,FT,Regular Season - 4,Dagon,12532,Dagon Port,24090,4,2,True
+1211935,2024-07-26T09:30:00+00:00,FT,Regular Season - 4,Hantharwady United,12525,Yadanarbon,8017,1,0,True
+1211936,2024-07-27T09:00:00+00:00,FT,Regular Season - 4,Yangon United,8013,Sagaing United,12528,1,0,True
+1211937,2024-07-27T09:30:00+00:00,FT,Regular Season - 4,I.S.P.E,12526,Ayeyawady United,12523,1,0,True
+1211938,2024-07-28T09:30:00+00:00,FT,Regular Season - 4,Thitsar Arman,24091,Shan United,8015,1,4,True
+1211939,2024-07-29T09:30:00+00:00,FT,Regular Season - 4,Myawady,19048,Rakhine United,12527,0,0,True
+1211940,2024-08-02T09:00:00+00:00,FT,Regular Season - 5,I.S.P.E,12526,Myawady,19048,2,0,True
+1211941,2024-08-02T09:30:00+00:00,FT,Regular Season - 5,Hantharwady United,12525,Dagon,12532,1,0,True
+1211942,2024-08-03T09:30:00+00:00,FT,Regular Season - 5,Yadanarbon,8017,Rakhine United,12527,3,2,True
+1211943,2024-08-04T09:00:00+00:00,FT,Regular Season - 5,Shan United,8015,Yangon United,8013,2,2,True
+1211944,2024-08-04T09:30:00+00:00,FT,Regular Season - 5,Sagaing United,12528,Dagon Port,24090,3,3,True
+1211945,2024-08-05T09:00:00+00:00,FT,Regular Season - 5,Thitsar Arman,24091,Ayeyawady United,12523,0,1,True
+1211946,2024-08-09T09:30:00+00:00,FT,Regular Season - 6,Dagon Port,24090,Myawady,19048,2,1,True
+1211947,2024-08-10T09:00:00+00:00,FT,Regular Season - 6,Shan United,8015,I.S.P.E,12526,3,0,True
+1211948,2024-08-10T09:00:00+00:00,FT,Regular Season - 6,Ayeyawady United,12523,Hantharwady United,12525,0,1,True
+1211949,2024-08-10T09:30:00+00:00,FT,Regular Season - 6,Rakhine United,12527,Thitsar Arman,24091,0,6,True
+1211950,2024-08-11T09:30:00+00:00,FT,Regular Season - 6,Yadanarbon,8017,Yangon United,8013,2,5,True
+1211951,2024-08-12T09:00:00+00:00,FT,Regular Season - 6,Sagaing United,12528,Dagon,12532,0,3,True
+1211952,2024-08-16T09:00:00+00:00,FT,Regular Season - 7,Hantharwady United,12525,Shan United,8015,0,2,True
+1211953,2024-08-16T09:30:00+00:00,FT,Regular Season - 7,Dagon Port,24090,Rakhine United,12527,4,3,True
+1211954,2024-08-17T09:30:00+00:00,FT,Regular Season - 7,I.S.P.E,12526,Yangon United,8013,1,3,True
+1211955,2024-08-18T09:00:00+00:00,FT,Regular Season - 7,Ayeyawady United,12523,Dagon,12532,0,1,True
+1211956,2024-08-18T09:30:00+00:00,FT,Regular Season - 7,Yadanarbon,8017,Myawady,19048,3,0,True
+1211957,2024-08-19T09:00:00+00:00,FT,Regular Season - 7,Sagaing United,12528,Thitsar Arman,24091,4,1,True
+1211958,2024-08-23T09:00:00+00:00,FT,Regular Season - 8,Thitsar Arman,24091,Dagon Port,24090,3,3,True
+1211959,2024-08-23T09:30:00+00:00,FT,Regular Season - 8,Myawady,19048,Sagaing United,12528,0,1,True
+1211960,2024-08-24T09:30:00+00:00,FT,Regular Season - 8,Dagon,12532,Yadanarbon,8017,1,1,True
+1211961,2024-08-25T09:00:00+00:00,FT,Regular Season - 8,Yangon United,8013,Ayeyawady United,12523,4,1,True
+1211962,2024-08-25T09:30:00+00:00,FT,Regular Season - 8,Hantharwady United,12525,I.S.P.E,12526,3,1,True
+1211963,2024-08-26T09:00:00+00:00,FT,Regular Season - 8,Rakhine United,12527,Shan United,8015,1,4,True
+1211965,2024-09-07T09:30:00+00:00,FT,Regular Season - 9,Sagaing United,12528,Hantharwady United,12525,2,3,True
+1211966,2024-09-08T09:00:00+00:00,FT,Regular Season - 9,Ayeyawady United,12523,Shan United,8015,1,2,True
+1211968,2024-09-08T09:30:00+00:00,FT,Regular Season - 9,Dagon Port,24090,Yangon United,8013,1,6,True
+1211969,2024-09-09T09:00:00+00:00,FT,Regular Season - 9,Rakhine United,12527,Dagon,12532,1,5,True
+1211967,2024-09-09T09:30:00+00:00,FT,Regular Season - 9,Thitsar Arman,24091,Myawady,19048,3,2,True
+1211970,2024-09-13T09:00:00+00:00,FT,Regular Season - 10,Dagon Port,24090,Yadanarbon,8017,1,2,True
+1211971,2024-09-13T09:30:00+00:00,FT,Regular Season - 10,Sagaing United,12528,Shan United,8015,1,5,True
+1211972,2024-09-14T09:00:00+00:00,FT,Regular Season - 10,Yangon United,8013,Dagon,12532,0,0,True
+1211973,2024-09-14T09:30:00+00:00,FT,Regular Season - 10,Thitsar Arman,24091,I.S.P.E,12526,1,4,True
+1211974,2024-09-15T09:30:00+00:00,FT,Regular Season - 10,Rakhine United,12527,Ayeyawady United,12523,1,1,True
+1211975,2024-09-16T09:00:00+00:00,FT,Regular Season - 10,Myawady,19048,Hantharwady United,12525,0,1,True
+1211976,2024-09-20T09:00:00+00:00,FT,Regular Season - 11,Sagaing United,12528,Ayeyawady United,12523,2,0,True
+1211981,2024-09-20T09:30:00+00:00,FT,Regular Season - 11,Yadanarbon,8017,Shan United,8015,1,5,True
+1211978,2024-09-21T09:30:00+00:00,FT,Regular Season - 11,Myawady,19048,Dagon,12532,0,2,True
+1211979,2024-09-22T09:30:00+00:00,FT,Regular Season - 11,Dagon Port,24090,I.S.P.E,12526,0,0,True
+1211980,2024-09-23T09:00:00+00:00,FT,Regular Season - 11,Rakhine United,12527,Hantharwady United,12525,0,4,True
+1211977,2024-09-23T09:30:00+00:00,FT,Regular Season - 11,Thitsar Arman,24091,Yangon United,8013,1,2,True
+1211964,2024-09-26T09:30:00+00:00,FT,Regular Season - 9,Yadanarbon,8017,I.S.P.E,12526,1,1,True
+1211982,2024-10-19T09:00:00+00:00,FT,Regular Season - 12,Yangon United,8013,Dagon Port,24090,5,1,True
+1211983,2024-10-19T09:00:00+00:00,FT,Regular Season - 12,Shan United,8015,Ayeyawady United,12523,2,0,True
+1211984,2024-10-19T09:30:00+00:00,FT,Regular Season - 12,Hantharwady United,12525,Sagaing United,12528,3,2,True
+1211985,2024-10-20T09:30:00+00:00,FT,Regular Season - 12,Myawady,19048,Thitsar Arman,24091,3,4,True
+1211986,2024-10-21T09:00:00+00:00,FT,Regular Season - 12,I.S.P.E,12526,Yadanarbon,8017,2,0,True
+1211987,2024-10-21T09:30:00+00:00,FT,Regular Season - 12,Dagon,12532,Rakhine United,12527,1,0,True
+1211989,2024-11-03T09:30:00+00:00,FT,Regular Season - 13,Hantharwady United,12525,Yangon United,8013,2,2,True
+1211988,2024-11-04T09:00:00+00:00,FT,Regular Season - 13,Myawady,19048,Ayeyawady United,12523,1,3,True
+1211991,2024-11-04T09:30:00+00:00,FT,Regular Season - 13,I.S.P.E,12526,Dagon,12532,2,1,True
+1211992,2024-11-05T09:30:00+00:00,FT,Regular Season - 13,Sagaing United,12528,Rakhine United,12527,5,1,True
+1211993,2024-11-06T09:30:00+00:00,FT,Regular Season - 13,Yadanarbon,8017,Thitsar Arman,24091,0,0,True
+1211990,2024-11-07T09:00:00+00:00,FT,Regular Season - 13,Shan United,8015,Dagon Port,24090,3,0,True
+1211994,2024-11-22T09:30:00+00:00,FT,Regular Season - 14,Hantharwady United,12525,Rakhine United,12527,2,2,True
+1211997,2024-11-23T09:00:00+00:00,FT,Regular Season - 14,Ayeyawady United,12523,Sagaing United,12528,3,1,True
+1211996,2024-11-23T09:30:00+00:00,FT,Regular Season - 14,I.S.P.E,12526,Dagon Port,24090,7,1,True
+1211998,2024-11-24T08:30:00+00:00,FT,Regular Season - 14,Shan United,8015,Yadanarbon,8017,2,0,True
+1211995,2024-11-24T09:00:00+00:00,FT,Regular Season - 14,Yangon United,8013,Thitsar Arman,24091,3,2,True
+1211999,2024-11-24T09:30:00+00:00,FT,Regular Season - 14,Dagon,12532,Myawady,19048,2,0,True
+1212000,2025-01-10T09:00:00+00:00,FT,Regular Season - 15,Rakhine United,12527,Myawady,19048,2,1,True
+1212001,2025-01-10T09:30:00+00:00,FT,Regular Season - 15,Dagon Port,24090,Dagon,12532,0,3,True
+1212003,2025-01-11T09:30:00+00:00,FT,Regular Season - 15,Sagaing United,12528,Yangon United,8013,2,2,True
+1212002,2025-01-12T09:00:00+00:00,FT,Regular Season - 15,Shan United,8015,Thitsar Arman,24091,3,1,True
+1212005,2025-01-12T09:30:00+00:00,FT,Regular Season - 15,Yadanarbon,8017,Hantharwady United,12525,1,2,True
+1212004,2025-01-13T09:30:00+00:00,FT,Regular Season - 15,Ayeyawady United,12523,I.S.P.E,12526,0,2,True
+1212006,2025-01-17T09:30:00+00:00,FT,Regular Season - 16,Dagon Port,24090,Sagaing United,12528,3,2,True
+1212007,2025-01-18T09:00:00+00:00,FT,Regular Season - 16,Yangon United,8013,Shan United,8015,0,1,True
+1212008,2025-01-18T09:30:00+00:00,FT,Regular Season - 16,Rakhine United,12527,Yadanarbon,8017,2,4,True
+1212010,2025-01-19T09:30:00+00:00,FT,Regular Season - 16,I.S.P.E,12526,Myawady,19048,0,0,True
+1212009,2025-01-20T09:00:00+00:00,FT,Regular Season - 16,Ayeyawady United,12523,Thitsar Arman,24091,0,1,True
+1212011,2025-01-21T09:00:00+00:00,FT,Regular Season - 16,Dagon,12532,Hantharwady United,12525,1,1,True
+1212023,2025-01-24T09:00:00+00:00,FT,Regular Season - 17,Sagaing United,12528,I.S.P.E,12526,2,1,True
+1212021,2025-01-24T09:30:00+00:00,FT,Regular Season - 17,Yadanarbon,8017,Ayeyawady United,12523,3,1,True
+1212018,2025-01-25T09:30:00+00:00,FT,Regular Season - 17,Rakhine United,12527,Yangon United,8013,0,5,True
+1212020,2025-01-26T09:30:00+00:00,FT,Regular Season - 17,Myawady,19048,Shan United,8015,1,5,True
+1212022,2025-01-27T09:30:00+00:00,FT,Regular Season - 17,Thitsar Arman,24091,Dagon,12532,1,2,True
+1212019,2025-01-28T09:30:00+00:00,FT,Regular Season - 17,Dagon Port,24090,Hantharwady United,12525,1,2,True
+1212012,2025-01-30T09:30:00+00:00,FT,Regular Season - 18,Rakhine United,12527,I.S.P.E,12526,0,0,True
+1212013,2025-01-31T09:30:00+00:00,FT,Regular Season - 18,Myawady,19048,Yangon United,8013,1,4,True
+1212015,2025-02-01T09:30:00+00:00,FT,Regular Season - 18,Dagon,12532,Shan United,8015,0,0,True
+1212014,2025-02-02T09:30:00+00:00,FT,Regular Season - 18,Dagon Port,24090,Ayeyawady United,12523,2,4,True
+1212016,2025-02-03T09:00:00+00:00,FT,Regular Season - 18,Thitsar Arman,24091,Hantharwady United,12525,1,0,True
+1212017,2025-02-03T09:30:00+00:00,FT,Regular Season - 18,Sagaing United,12528,Yadanarbon,8017,2,0,True
+1212036,2025-02-07T09:30:00+00:00,FT,Regular Season - 19,Myawady,19048,Dagon Port,24090,4,1,True
+1212038,2025-02-08T09:00:00+00:00,FT,Regular Season - 19,Yangon United,8013,Yadanarbon,8017,1,1,True
+1212039,2025-02-08T09:30:00+00:00,FT,Regular Season - 19,Hantharwady United,12525,Ayeyawady United,12523,0,2,True
+1212041,2025-02-09T09:30:00+00:00,FT,Regular Season - 19,Thitsar Arman,24091,Rakhine United,12527,1,3,True
+1212037,2025-02-10T09:30:00+00:00,FT,Regular Season - 19,Dagon,12532,Sagaing United,12528,0,1,True
+1212040,2025-02-11T09:30:00+00:00,FT,Regular Season - 19,I.S.P.E,12526,Shan United,8015,0,5,True
+1212029,2025-02-14T09:30:00+00:00,FT,Regular Season - 20,Dagon Port,24090,Thitsar Arman,24091,1,2,True
+1212025,2025-02-15T09:30:00+00:00,FT,Regular Season - 20,Sagaing United,12528,Myawady,19048,4,1,True
+1212027,2025-02-16T09:30:00+00:00,FT,Regular Season - 20,I.S.P.E,12526,Hantharwady United,12525,0,0,True
+1212028,2025-02-17T09:00:00+00:00,FT,Regular Season - 20,Shan United,8015,Rakhine United,12527,3,0,True
+1212026,2025-02-17T09:30:00+00:00,FT,Regular Season - 20,Ayeyawady United,12523,Yangon United,8013,0,4,True
+1212024,2025-02-18T09:30:00+00:00,FT,Regular Season - 20,Yadanarbon,8017,Dagon,12532,4,2,True
+1212035,2025-02-20T09:30:00+00:00,FT,Regular Season - 21,I.S.P.E,12526,Thitsar Arman,24091,0,5,True
+1212032,2025-02-21T09:30:00+00:00,FT,Regular Season - 21,Hantharwady United,12525,Myawady,19048,2,1,True
+1212030,2025-02-22T09:00:00+00:00,FT,Regular Season - 21,Shan United,8015,Sagaing United,12528,3,0,True
+1212031,2025-02-22T09:30:00+00:00,FT,Regular Season - 21,Yadanarbon,8017,Dagon Port,24090,3,3,True
+1212033,2025-02-23T09:30:00+00:00,FT,Regular Season - 21,Dagon,12532,Yangon United,8013,0,3,True
+1212034,2025-02-24T09:30:00+00:00,FT,Regular Season - 21,Ayeyawady United,12523,Rakhine United,12527,1,2,True
+1212046,2025-02-27T09:00:00+00:00,FT,Regular Season - 22,Yangon United,8013,I.S.P.E,12526,2,1,True
+1212043,2025-02-27T09:30:00+00:00,FT,Regular Season - 22,Myawady,19048,Yadanarbon,8017,2,2,True
+1212044,2025-02-28T09:00:00+00:00,FT,Regular Season - 22,Thitsar Arman,24091,Sagaing United,12528,3,3,True
+1212047,2025-02-28T09:30:00+00:00,FT,Regular Season - 22,Dagon,12532,Ayeyawady United,12523,2,1,True
+1212045,2025-03-01T09:00:00+00:00,FT,Regular Season - 22,Shan United,8015,Hantharwady United,12525,4,0,True
+1212042,2025-03-01T09:00:00+00:00,FT,Regular Season - 22,Rakhine United,12527,Dagon Port,24090,1,1,True

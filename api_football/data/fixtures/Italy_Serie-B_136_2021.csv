@@ -1,0 +1,391 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+747062,2021-08-20T18:30:00+00:00,FT,Regular Season - 1,Frosinone,512,Parma,523,2,2,True
+747064,2021-08-21T16:00:00+00:00,FT,Regular Season - 1,Pordenone,862,Perugia,524,0,1,True
+747059,2021-08-21T18:30:00+00:00,FT,Regular Season - 1,Cittadella,510,Vicenza Virtus,1584,1,0,True
+747066,2021-08-22T16:00:00+00:00,FT,Regular Season - 1,Ternana,516,Brescia,518,0,2,True
+747065,2021-08-22T16:00:00+00:00,FT,Regular Season - 1,Reggina,1692,Monza,1579,0,0,True
+747061,2021-08-22T18:30:00+00:00,FT,Regular Season - 1,Crotone,501,como,895,2,2,True
+747058,2021-08-22T18:30:00+00:00,FT,Regular Season - 1,Benevento,506,Alessandria,878,4,3,True
+768954,2021-08-22T18:30:00+00:00,FT,Regular Season - 1,Ascoli,507,Nuova Cosenza,10137,1,0,True
+747060,2021-08-22T18:30:00+00:00,FT,Regular Season - 1,Cremonese,520,Lecce,867,3,0,True
+747063,2021-08-22T18:30:00+00:00,FT,Regular Season - 1,Pisa,801,Spal,493,1,0,True
+747073,2021-08-27T16:00:00+00:00,FT,Regular Season - 2,Pisa,801,Alessandria,878,2,0,True
+768955,2021-08-27T18:30:00+00:00,FT,Regular Season - 2,Brescia,518,Nuova Cosenza,10137,5,1,True
+747068,2021-08-28T16:00:00+00:00,FT,Regular Season - 2,Vicenza Virtus,1584,Frosinone,512,0,2,True
+747072,2021-08-28T18:30:00+00:00,FT,Regular Season - 2,Perugia,524,Ascoli,507,2,3,True
+747067,2021-08-29T16:00:00+00:00,FT,Regular Season - 2,Cittadella,510,Crotone,501,4,2,True
+747075,2021-08-29T18:30:00+00:00,FT,Regular Season - 2,Spal,493,Pordenone,862,5,0,True
+747071,2021-08-29T18:30:00+00:00,FT,Regular Season - 2,Parma,523,Benevento,506,1,0,True
+747069,2021-08-29T18:30:00+00:00,FT,Regular Season - 2,Lecce,867,como,895,1,1,True
+747070,2021-08-29T18:30:00+00:00,FT,Regular Season - 2,Monza,1579,Cremonese,520,1,0,True
+747074,2021-08-29T18:30:00+00:00,FT,Regular Season - 2,Reggina,1692,Ternana,516,3,2,True
+747077,2021-09-10T18:30:00+00:00,FT,Regular Season - 3,Benevento,506,Lecce,867,0,0,True
+747083,2021-09-11T12:00:00+00:00,FT,Regular Season - 3,Spal,493,Monza,1579,1,1,True
+747081,2021-09-11T12:00:00+00:00,FT,Regular Season - 3,Frosinone,512,Perugia,524,0,0,True
+747076,2021-09-11T12:00:00+00:00,FT,Regular Season - 3,Alessandria,878,Brescia,518,1,3,True
+747078,2021-09-11T12:00:00+00:00,FT,Regular Season - 3,como,895,Ascoli,507,0,1,True
+747084,2021-09-11T14:15:00+00:00,FT,Regular Season - 3,Ternana,516,Pisa,801,1,4,True
+747080,2021-09-11T16:30:00+00:00,FT,Regular Season - 3,Crotone,501,Reggina,1692,1,1,True
+768956,2021-09-12T12:00:00+00:00,FT,Regular Season - 3,Nuova Cosenza,10137,Vicenza Virtus,1584,2,1,True
+747079,2021-09-12T14:15:00+00:00,FT,Regular Season - 3,Cremonese,520,Cittadella,510,2,0,True
+747082,2021-09-12T18:30:00+00:00,FT,Regular Season - 3,Pordenone,862,Parma,523,0,4,True
+747088,2021-09-17T16:00:00+00:00,FT,Regular Season - 4,como,895,Frosinone,512,0,2,True
+747086,2021-09-17T18:30:00+00:00,FT,Regular Season - 4,Brescia,518,Crotone,501,2,2,True
+747085,2021-09-18T12:00:00+00:00,FT,Regular Season - 4,Ascoli,507,Benevento,506,0,2,True
+768957,2021-09-18T12:00:00+00:00,FT,Regular Season - 4,Perugia,524,Nuova Cosenza,10137,1,1,True
+747090,2021-09-18T12:00:00+00:00,FT,Regular Season - 4,Lecce,867,Alessandria,878,3,2,True
+747091,2021-09-18T12:00:00+00:00,FT,Regular Season - 4,Monza,1579,Ternana,516,1,1,True
+747093,2021-09-18T12:00:00+00:00,FT,Regular Season - 4,Reggina,1692,Spal,493,2,1,True
+747089,2021-09-18T14:15:00+00:00,FT,Regular Season - 4,Vicenza Virtus,1584,Pisa,801,1,3,True
+747087,2021-09-18T16:30:00+00:00,FT,Regular Season - 4,Cittadella,510,Pordenone,862,1,0,True
+747092,2021-09-19T18:30:00+00:00,FT,Regular Season - 4,Parma,523,Cremonese,520,1,2,True
+747098,2021-09-20T18:30:00+00:00,FT,Regular Season - 5,Frosinone,512,Brescia,518,2,2,True
+747095,2021-09-21T16:00:00+00:00,FT,Regular Season - 5,Benevento,506,Cittadella,510,4,1,True
+747094,2021-09-21T16:00:00+00:00,FT,Regular Season - 5,Alessandria,878,Ascoli,507,1,3,True
+747101,2021-09-21T18:30:00+00:00,FT,Regular Season - 5,Spal,493,Vicenza Virtus,1584,3,2,True
+747097,2021-09-21T18:30:00+00:00,FT,Regular Season - 5,Crotone,501,Lecce,867,0,3,True
+747099,2021-09-21T18:30:00+00:00,FT,Regular Season - 5,Pisa,801,Monza,1579,2,1,True
+747100,2021-09-21T18:30:00+00:00,FT,Regular Season - 5,Pordenone,862,Reggina,1692,1,1,True
+768958,2021-09-21T18:30:00+00:00,FT,Regular Season - 5,Nuova Cosenza,10137,como,895,2,0,True
+747102,2021-09-22T16:00:00+00:00,FT,Regular Season - 5,Ternana,516,Parma,523,3,1,True
+747096,2021-09-22T18:30:00+00:00,FT,Regular Season - 5,Cremonese,520,Perugia,524,0,3,True
+747103,2021-09-25T12:00:00+00:00,FT,Regular Season - 6,Ascoli,507,Brescia,518,2,3,True
+747104,2021-09-25T12:00:00+00:00,FT,Regular Season - 6,Cittadella,510,Lecce,867,1,2,True
+747105,2021-09-25T12:00:00+00:00,FT,Regular Season - 6,como,895,Benevento,506,1,1,True
+747107,2021-09-25T12:00:00+00:00,FT,Regular Season - 6,Monza,1579,Pordenone,862,3,1,True
+747110,2021-09-25T14:15:00+00:00,FT,Regular Season - 6,Reggina,1692,Frosinone,512,0,0,True
+768959,2021-09-25T16:30:00+00:00,FT,Regular Season - 6,Nuova Cosenza,10137,Crotone,501,1,0,True
+747109,2021-09-26T12:00:00+00:00,FT,Regular Season - 6,Perugia,524,Alessandria,878,1,1,True
+747108,2021-09-26T14:15:00+00:00,FT,Regular Season - 6,Parma,523,Pisa,801,1,1,True
+747111,2021-09-26T18:30:00+00:00,FT,Regular Season - 6,Ternana,516,Spal,493,1,0,True
+747106,2021-09-26T18:30:00+00:00,FT,Regular Season - 6,Vicenza Virtus,1584,Cremonese,520,0,1,True
+747117,2021-10-01T18:30:00+00:00,FT,Regular Season - 7,Lecce,867,Monza,1579,3,0,True
+747115,2021-10-02T12:00:00+00:00,FT,Regular Season - 7,Crotone,501,Ascoli,507,2,2,True
+747116,2021-10-02T12:00:00+00:00,FT,Regular Season - 7,Frosinone,512,Cittadella,510,0,1,True
+747114,2021-10-02T12:00:00+00:00,FT,Regular Season - 7,Cremonese,520,Ternana,516,2,0,True
+768960,2021-10-02T12:00:00+00:00,FT,Regular Season - 7,Alessandria,878,Nuova Cosenza,10137,1,0,True
+747118,2021-10-02T14:15:00+00:00,FT,Regular Season - 7,Pisa,801,Reggina,1692,2,0,True
+747120,2021-10-02T16:30:00+00:00,FT,Regular Season - 7,Spal,493,Parma,523,2,2,True
+747113,2021-10-03T12:00:00+00:00,FT,Regular Season - 7,Brescia,518,como,895,2,4,True
+747119,2021-10-03T14:15:00+00:00,FT,Regular Season - 7,Pordenone,862,Vicenza Virtus,1584,2,4,True
+747112,2021-10-03T18:30:00+00:00,FT,Regular Season - 7,Benevento,506,Perugia,524,0,0,True
+747125,2021-10-16T12:00:00+00:00,FT,Regular Season - 8,Crotone,501,Pisa,801,2,1,True
+747121,2021-10-16T12:00:00+00:00,FT,Regular Season - 8,Ascoli,507,Lecce,867,1,1,True
+747129,2021-10-16T12:00:00+00:00,FT,Regular Season - 8,Pordenone,862,Ternana,516,1,3,True
+747126,2021-10-16T12:00:00+00:00,FT,Regular Season - 8,Vicenza Virtus,1584,Reggina,1692,0,1,True
+747128,2021-10-16T14:15:00+00:00,FT,Regular Season - 8,Perugia,524,Brescia,518,1,0,True
+768961,2021-10-16T14:15:00+00:00,FT,Regular Season - 8,Nuova Cosenza,10137,Frosinone,512,1,1,True
+747123,2021-10-16T16:30:00+00:00,FT,Regular Season - 8,como,895,Alessandria,878,2,0,True
+747124,2021-10-17T12:00:00+00:00,FT,Regular Season - 8,Cremonese,520,Benevento,506,1,1,True
+747127,2021-10-17T14:15:00+00:00,FT,Regular Season - 8,Parma,523,Monza,1579,0,0,True
+747122,2021-10-17T18:30:00+00:00,FT,Regular Season - 8,Cittadella,510,Spal,493,0,0,True
+747130,2021-10-22T18:30:00+00:00,FT,Regular Season - 9,Alessandria,878,Crotone,501,1,0,True
+768962,2021-10-23T12:00:00+00:00,FT,Regular Season - 9,Benevento,506,Nuova Cosenza,10137,3,0,True
+747138,2021-10-23T12:00:00+00:00,FT,Regular Season - 9,Ternana,516,Vicenza Virtus,1584,5,0,True
+747133,2021-10-23T12:00:00+00:00,FT,Regular Season - 9,Lecce,867,Perugia,524,0,0,True
+747134,2021-10-23T12:00:00+00:00,FT,Regular Season - 9,Monza,1579,Cittadella,510,1,0,True
+747132,2021-10-23T14:15:00+00:00,FT,Regular Season - 9,Frosinone,512,Ascoli,507,2,1,True
+747131,2021-10-23T16:30:00+00:00,FT,Regular Season - 9,Brescia,518,Cremonese,520,1,0,True
+747135,2021-10-24T12:00:00+00:00,FT,Regular Season - 9,Pisa,801,Pordenone,862,1,1,True
+747136,2021-10-24T14:15:00+00:00,FT,Regular Season - 9,Reggina,1692,Parma,523,2,1,True
+747137,2021-10-24T18:30:00+00:00,FT,Regular Season - 9,Spal,493,como,895,1,1,True
+768963,2021-10-27T16:00:00+00:00,FT,Regular Season - 10,Nuova Cosenza,10137,Ternana,516,3,1,True
+747146,2021-10-27T18:30:00+00:00,FT,Regular Season - 10,Vicenza Virtus,1584,Monza,1579,1,1,True
+747140,2021-10-28T16:00:00+00:00,FT,Regular Season - 10,Ascoli,507,Spal,493,0,1,True
+747141,2021-10-28T16:00:00+00:00,FT,Regular Season - 10,Brescia,518,Lecce,867,1,1,True
+747139,2021-10-28T16:00:00+00:00,FT,Regular Season - 10,Alessandria,878,Frosinone,512,1,1,True
+747145,2021-10-28T18:30:00+00:00,FT,Regular Season - 10,Crotone,501,Benevento,506,0,2,True
+747142,2021-10-28T18:30:00+00:00,FT,Regular Season - 10,Cittadella,510,Parma,523,1,2,True
+747144,2021-10-28T18:30:00+00:00,FT,Regular Season - 10,Cremonese,520,Pisa,801,1,1,True
+747147,2021-10-28T18:30:00+00:00,FT,Regular Season - 10,Perugia,524,Reggina,1692,0,2,True
+747143,2021-10-28T18:30:00+00:00,FT,Regular Season - 10,como,895,Pordenone,862,1,0,True
+747148,2021-11-01T11:30:00+00:00,FT,Regular Season - 11,Benevento,506,Brescia,518,0,1,True
+747155,2021-11-01T14:00:00+00:00,FT,Regular Season - 11,Spal,493,Perugia,524,1,2,True
+747149,2021-11-01T14:00:00+00:00,FT,Regular Season - 11,Frosinone,512,Crotone,501,2,1,True
+747156,2021-11-01T14:00:00+00:00,FT,Regular Season - 11,Ternana,516,como,895,1,2,True
+768964,2021-11-01T14:00:00+00:00,FT,Regular Season - 11,Lecce,867,Nuova Cosenza,10137,3,1,True
+747150,2021-11-01T14:00:00+00:00,FT,Regular Season - 11,Monza,1579,Alessandria,878,1,0,True
+747154,2021-11-01T14:00:00+00:00,FT,Regular Season - 11,Reggina,1692,Cittadella,510,0,1,True
+747151,2021-11-01T17:00:00+00:00,FT,Regular Season - 11,Parma,523,Vicenza Virtus,1584,1,0,True
+747152,2021-11-01T17:00:00+00:00,FT,Regular Season - 11,Pisa,801,Ascoli,507,1,1,True
+747153,2021-11-01T17:00:00+00:00,FT,Regular Season - 11,Pordenone,862,Cremonese,520,2,2,True
+768965,2021-11-05T19:30:00+00:00,FT,Regular Season - 12,Nuova Cosenza,10137,Reggina,1692,0,1,True
+747158,2021-11-06T13:00:00+00:00,FT,Regular Season - 12,Ascoli,507,Vicenza Virtus,1584,2,1,True
+747163,2021-11-06T13:00:00+00:00,FT,Regular Season - 12,Cremonese,520,Spal,493,1,1,True
+747157,2021-11-06T13:00:00+00:00,FT,Regular Season - 12,Alessandria,878,Ternana,516,0,2,True
+747162,2021-11-06T13:00:00+00:00,FT,Regular Season - 12,como,895,Perugia,524,4,1,True
+747160,2021-11-06T15:15:00+00:00,FT,Regular Season - 12,Brescia,518,Pordenone,862,1,0,True
+747159,2021-11-06T17:30:00+00:00,FT,Regular Season - 12,Benevento,506,Frosinone,512,1,4,True
+747165,2021-11-07T13:00:00+00:00,FT,Regular Season - 12,Lecce,867,Parma,523,4,0,True
+747164,2021-11-07T15:15:00+00:00,FT,Regular Season - 12,Crotone,501,Monza,1579,1,1,True
+747161,2021-11-07T19:30:00+00:00,FT,Regular Season - 12,Cittadella,510,Pisa,801,2,0,True
+747173,2021-11-20T13:00:00+00:00,FT,Regular Season - 13,Spal,493,Alessandria,878,2,3,True
+747166,2021-11-20T13:00:00+00:00,FT,Regular Season - 13,Frosinone,512,Lecce,867,0,0,True
+747174,2021-11-20T13:00:00+00:00,FT,Regular Season - 13,Ternana,516,Cittadella,510,1,1,True
+747171,2021-11-20T13:00:00+00:00,FT,Regular Season - 13,Pordenone,862,Ascoli,507,0,1,True
+747169,2021-11-20T15:15:00+00:00,FT,Regular Season - 13,Perugia,524,Crotone,501,2,0,True
+747167,2021-11-20T17:30:00+00:00,FT,Regular Season - 13,Vicenza Virtus,1584,Brescia,518,2,3,True
+768966,2021-11-21T13:00:00+00:00,FT,Regular Season - 13,Parma,523,Nuova Cosenza,10137,1,1,True
+747172,2021-11-21T13:00:00+00:00,FT,Regular Season - 13,Reggina,1692,Cremonese,520,1,2,True
+747168,2021-11-21T15:15:00+00:00,FT,Regular Season - 13,Monza,1579,como,895,3,2,True
+747170,2021-11-21T19:30:00+00:00,FT,Regular Season - 13,Pisa,801,Benevento,506,1,0,True
+747180,2021-11-26T17:00:00+00:00,FT,Regular Season - 14,Crotone,501,Vicenza Virtus,1584,0,1,True
+747182,2021-11-26T19:30:00+00:00,FT,Regular Season - 14,Lecce,867,Ternana,516,3,3,True
+747177,2021-11-27T13:00:00+00:00,FT,Regular Season - 14,Benevento,506,Reggina,1692,4,0,True
+747176,2021-11-27T13:00:00+00:00,FT,Regular Season - 14,Ascoli,507,Monza,1579,1,1,True
+747181,2021-11-27T13:00:00+00:00,FT,Regular Season - 14,Frosinone,512,Pordenone,862,2,2,True
+747175,2021-11-27T13:00:00+00:00,FT,Regular Season - 14,Alessandria,878,Cremonese,520,1,0,True
+768967,2021-11-27T13:00:00+00:00,FT,Regular Season - 14,Nuova Cosenza,10137,Spal,493,0,1,True
+747178,2021-11-27T15:15:00+00:00,FT,Regular Season - 14,Brescia,518,Pisa,801,0,1,True
+747183,2021-11-27T17:30:00+00:00,FT,Regular Season - 14,Perugia,524,Cittadella,510,1,1,True
+747179,2021-11-28T19:30:00+00:00,FT,Regular Season - 14,como,895,Parma,523,1,1,True
+747192,2021-11-29T19:30:00+00:00,FT,Regular Season - 15,Ternana,516,Crotone,501,1,0,True
+747185,2021-11-30T17:00:00+00:00,FT,Regular Season - 15,Cremonese,520,Frosinone,512,1,1,True
+747188,2021-11-30T17:00:00+00:00,FT,Regular Season - 15,Pisa,801,Perugia,524,1,1,True
+747191,2021-11-30T19:30:00+00:00,FT,Regular Season - 15,Spal,493,Lecce,867,1,3,True
+747189,2021-11-30T19:30:00+00:00,FT,Regular Season - 15,Pordenone,862,Alessandria,878,2,0,True
+768968,2021-11-30T19:30:00+00:00,FT,Regular Season - 15,Monza,1579,Nuova Cosenza,10137,4,1,True
+747186,2021-11-30T19:30:00+00:00,FT,Regular Season - 15,Vicenza Virtus,1584,Benevento,506,2,3,True
+747190,2021-11-30T19:30:00+00:00,FT,Regular Season - 15,Reggina,1692,Ascoli,507,1,2,True
+747187,2021-12-01T17:00:00+00:00,FT,Regular Season - 15,Parma,523,Brescia,518,0,1,True
+747184,2021-12-01T19:30:00+00:00,FT,Regular Season - 15,Cittadella,510,como,895,2,2,True
+747201,2021-12-03T19:30:00+00:00,FT,Regular Season - 16,Perugia,524,Vicenza Virtus,1584,1,0,True
+747198,2021-12-04T13:00:00+00:00,FT,Regular Season - 16,Crotone,501,Spal,493,1,2,True
+747195,2021-12-04T13:00:00+00:00,FT,Regular Season - 16,Benevento,506,Pordenone,862,2,1,True
+747199,2021-12-04T13:00:00+00:00,FT,Regular Season - 16,Frosinone,512,Ternana,516,1,1,True
+768969,2021-12-04T13:00:00+00:00,FT,Regular Season - 16,Nuova Cosenza,10137,Cremonese,520,0,2,True
+747200,2021-12-04T15:15:00+00:00,FT,Regular Season - 16,Lecce,867,Reggina,1692,2,0,True
+747194,2021-12-05T13:00:00+00:00,FT,Regular Season - 16,Ascoli,507,Parma,523,0,0,True
+747197,2021-12-05T13:00:00+00:00,FT,Regular Season - 16,como,895,Pisa,801,0,1,True
+747196,2021-12-05T15:15:00+00:00,FT,Regular Season - 16,Brescia,518,Monza,1579,0,2,True
+747193,2021-12-05T19:30:00+00:00,FT,Regular Season - 16,Alessandria,878,Cittadella,510,0,1,True
+747203,2021-12-10T17:00:00+00:00,FT,Regular Season - 17,Cremonese,520,Crotone,501,3,2,True
+747210,2021-12-10T19:30:00+00:00,FT,Regular Season - 17,Ternana,516,Benevento,506,0,2,True
+747209,2021-12-11T13:00:00+00:00,FT,Regular Season - 17,Spal,493,Brescia,518,0,2,True
+747202,2021-12-11T13:00:00+00:00,FT,Regular Season - 17,Cittadella,510,Ascoli,507,2,0,True
+768970,2021-12-11T13:00:00+00:00,FT,Regular Season - 17,Pordenone,862,Nuova Cosenza,10137,1,1,True
+747205,2021-12-11T13:00:00+00:00,FT,Regular Season - 17,Monza,1579,Frosinone,512,3,2,True
+747207,2021-12-11T15:15:00+00:00,FT,Regular Season - 17,Pisa,801,Lecce,867,1,0,True
+747206,2021-12-12T13:00:00+00:00,FT,Regular Season - 17,Parma,523,Perugia,524,1,1,True
+747204,2021-12-12T15:15:00+00:00,FT,Regular Season - 17,Vicenza Virtus,1584,como,895,0,1,True
+747208,2021-12-12T19:30:00+00:00,FT,Regular Season - 17,Reggina,1692,Alessandria,878,0,4,True
+747216,2021-12-18T13:00:00+00:00,FT,Regular Season - 18,Crotone,501,Pordenone,862,4,1,True
+747212,2021-12-18T13:00:00+00:00,FT,Regular Season - 18,Ascoli,507,Cremonese,520,1,4,True
+747215,2021-12-18T13:00:00+00:00,FT,Regular Season - 18,como,895,Reggina,1692,1,1,True
+768971,2021-12-18T13:00:00+00:00,FT,Regular Season - 18,Nuova Cosenza,10137,Pisa,801,0,2,True
+747217,2021-12-18T15:15:00+00:00,FT,Regular Season - 18,Frosinone,512,Spal,493,4,0,True
+747214,2021-12-19T13:00:00+00:00,FT,Regular Season - 18,Brescia,518,Cittadella,510,1,1,True
+747211,2021-12-19T13:00:00+00:00,FT,Regular Season - 18,Alessandria,878,Parma,523,0,2,True
+747219,2021-12-19T15:15:00+00:00,FT,Regular Season - 18,Perugia,524,Ternana,516,1,1,True
+747213,2022-01-13T19:30:00+00:00,FT,Regular Season - 18,Benevento,506,Monza,1579,3,1,True
+747228,2022-01-14T19:30:00+00:00,FT,Regular Season - 19,Ternana,516,Ascoli,507,2,4,True
+747220,2022-01-15T13:00:00+00:00,FT,Regular Season - 19,Cremonese,520,como,895,2,0,True
+747226,2022-01-15T13:00:00+00:00,FT,Regular Season - 19,Reggina,1692,Brescia,518,0,2,True
+747224,2022-01-15T15:15:00+00:00,FT,Regular Season - 19,Pisa,801,Frosinone,512,1,3,True
+747227,2022-01-16T15:15:00+00:00,FT,Regular Season - 19,Spal,493,Benevento,506,1,1,True
+747225,2022-01-16T15:15:00+00:00,FT,Regular Season - 19,Pordenone,862,Lecce,867,0,1,True
+747222,2022-01-16T15:15:00+00:00,FT,Regular Season - 19,Monza,1579,Perugia,524,2,2,True
+747233,2022-01-21T19:30:00+00:00,FT,Regular Season - 20,Parma,523,Frosinone,512,0,1,True
+747234,2022-01-22T13:00:00+00:00,FT,Regular Season - 20,Spal,493,Pisa,801,0,0,True
+747237,2022-01-22T13:00:00+00:00,FT,Regular Season - 20,Brescia,518,Ternana,516,1,1,True
+747229,2022-01-22T13:00:00+00:00,FT,Regular Season - 20,Alessandria,878,Benevento,506,2,0,True
+747232,2022-01-22T13:00:00+00:00,FT,Regular Season - 20,como,895,Crotone,501,1,1,True
+747236,2022-01-22T13:00:00+00:00,FT,Regular Season - 20,Monza,1579,Reggina,1692,1,0,True
+768973,2022-01-22T13:00:00+00:00,FT,Regular Season - 20,Nuova Cosenza,10137,Ascoli,507,1,3,True
+747235,2022-01-22T15:15:00+00:00,FT,Regular Season - 20,Perugia,524,Pordenone,862,0,1,True
+747230,2022-01-23T15:15:00+00:00,FT,Regular Season - 20,Vicenza Virtus,1584,Cittadella,510,3,3,True
+747231,2022-01-23T17:30:00+00:00,FT,Regular Season - 20,Lecce,867,Cremonese,520,2,1,True
+747218,2022-01-26T19:00:00+00:00,FT,Regular Season - 18,Lecce,867,Vicenza Virtus,1584,2,1,True
+768972,2022-01-30T13:30:00+00:00,FT,Regular Season - 19,Cittadella,510,Nuova Cosenza,10137,1,1,True
+747223,2022-01-30T13:30:00+00:00,FT,Regular Season - 19,Parma,523,Crotone,501,1,1,True
+747221,2022-01-30T13:30:00+00:00,FT,Regular Season - 19,Vicenza Virtus,1584,Alessandria,878,2,1,True
+747238,2022-02-05T13:00:00+00:00,FT,Regular Season - 21,Crotone,501,Cittadella,510,0,0,True
+747242,2022-02-05T13:00:00+00:00,FT,Regular Season - 21,Benevento,506,Parma,523,0,0,True
+747245,2022-02-05T13:00:00+00:00,FT,Regular Season - 21,Ternana,516,Reggina,1692,2,0,True
+747244,2022-02-05T13:00:00+00:00,FT,Regular Season - 21,Alessandria,878,Pisa,801,1,1,True
+747240,2022-02-05T13:00:00+00:00,FT,Regular Season - 21,como,895,Lecce,867,1,1,True
+768974,2022-02-05T13:00:00+00:00,FT,Regular Season - 21,Nuova Cosenza,10137,Brescia,518,0,0,True
+747239,2022-02-05T15:15:00+00:00,FT,Regular Season - 21,Frosinone,512,Vicenza Virtus,1584,2,0,True
+747243,2022-02-05T17:30:00+00:00,FT,Regular Season - 21,Ascoli,507,Perugia,524,0,1,True
+747241,2022-02-06T15:15:00+00:00,FT,Regular Season - 21,Cremonese,520,Monza,1579,3,2,True
+747246,2022-02-06T15:15:00+00:00,FT,Regular Season - 21,Pordenone,862,Spal,493,1,1,True
+747250,2022-02-12T13:00:00+00:00,FT,Regular Season - 22,Cittadella,510,Cremonese,520,0,2,True
+747253,2022-02-12T13:00:00+00:00,FT,Regular Season - 22,Parma,523,Pordenone,862,4,1,True
+747255,2022-02-12T13:00:00+00:00,FT,Regular Season - 22,Pisa,801,Ternana,516,0,0,True
+747254,2022-02-12T13:00:00+00:00,FT,Regular Season - 22,Monza,1579,Spal,493,4,0,True
+768975,2022-02-12T13:00:00+00:00,FT,Regular Season - 22,Vicenza Virtus,1584,Nuova Cosenza,10137,0,0,True
+747252,2022-02-12T15:15:00+00:00,FT,Regular Season - 22,Perugia,524,Frosinone,512,3,0,True
+747251,2022-02-12T15:15:00+00:00,FT,Regular Season - 22,Reggina,1692,Crotone,501,1,0,True
+747249,2022-02-13T14:30:00+00:00,FT,Regular Season - 22,Ascoli,507,como,895,1,1,True
+747247,2022-02-13T14:30:00+00:00,FT,Regular Season - 22,Brescia,518,Alessandria,878,1,1,True
+747248,2022-02-13T14:30:00+00:00,FT,Regular Season - 22,Lecce,867,Benevento,506,1,1,True
+747264,2022-02-15T17:30:00+00:00,FT,Regular Season - 23,Spal,493,Reggina,1692,1,3,True
+747262,2022-02-15T17:30:00+00:00,FT,Regular Season - 23,Ternana,516,Monza,1579,0,1,True
+747263,2022-02-15T17:30:00+00:00,FT,Regular Season - 23,Cremonese,520,Parma,523,3,1,True
+747260,2022-02-15T17:30:00+00:00,FT,Regular Season - 23,Pisa,801,Vicenza Virtus,1584,2,2,True
+747258,2022-02-15T17:30:00+00:00,FT,Regular Season - 23,Pordenone,862,Cittadella,510,0,1,True
+768976,2022-02-15T17:30:00+00:00,FT,Regular Season - 23,Nuova Cosenza,10137,Perugia,524,1,2,True
+747257,2022-02-16T17:30:00+00:00,FT,Regular Season - 23,Crotone,501,Brescia,518,0,1,True
+747256,2022-02-16T17:30:00+00:00,FT,Regular Season - 23,Benevento,506,Ascoli,507,0,2,True
+747259,2022-02-16T17:30:00+00:00,FT,Regular Season - 23,Frosinone,512,como,895,1,2,True
+747261,2022-02-16T17:30:00+00:00,FT,Regular Season - 23,Alessandria,878,Lecce,867,1,1,True
+747265,2022-02-19T13:00:00+00:00,FT,Regular Season - 24,Ascoli,507,Alessandria,878,3,0,True
+747273,2022-02-19T13:00:00+00:00,FT,Regular Season - 24,Parma,523,Ternana,516,2,3,True
+747270,2022-02-19T13:00:00+00:00,FT,Regular Season - 24,Monza,1579,Pisa,801,1,2,True
+747272,2022-02-19T13:00:00+00:00,FT,Regular Season - 24,Vicenza Virtus,1584,Spal,493,1,1,True
+747271,2022-02-19T13:00:00+00:00,FT,Regular Season - 24,Reggina,1692,Pordenone,862,2,0,True
+747267,2022-02-19T15:15:00+00:00,FT,Regular Season - 24,Perugia,524,Cremonese,520,0,0,True
+747266,2022-02-20T14:30:00+00:00,FT,Regular Season - 24,Cittadella,510,Benevento,506,0,1,True
+747269,2022-02-20T14:30:00+00:00,FT,Regular Season - 24,Brescia,518,Frosinone,512,2,2,True
+747268,2022-02-20T14:30:00+00:00,FT,Regular Season - 24,Lecce,867,Crotone,501,3,0,True
+768977,2022-02-20T14:30:00+00:00,FT,Regular Season - 24,como,895,Nuova Cosenza,10137,2,1,True
+747282,2022-02-22T17:30:00+00:00,FT,Regular Season - 25,Spal,493,Ternana,516,5,1,True
+747277,2022-02-22T17:30:00+00:00,FT,Regular Season - 25,Cremonese,520,Vicenza Virtus,1584,0,0,True
+747279,2022-02-22T17:30:00+00:00,FT,Regular Season - 25,Pisa,801,Parma,523,0,0,True
+747278,2022-02-22T17:30:00+00:00,FT,Regular Season - 25,Pordenone,862,Monza,1579,1,4,True
+747280,2022-02-22T17:30:00+00:00,FT,Regular Season - 25,Alessandria,878,Perugia,524,1,2,True
+768978,2022-02-23T17:30:00+00:00,FT,Regular Season - 25,Crotone,501,Nuova Cosenza,10137,3,3,True
+747276,2022-02-23T17:30:00+00:00,FT,Regular Season - 25,Benevento,506,como,895,5,0,True
+747281,2022-02-23T17:30:00+00:00,FT,Regular Season - 25,Frosinone,512,Reggina,1692,3,0,True
+747274,2022-02-23T17:30:00+00:00,FT,Regular Season - 25,Brescia,518,Ascoli,507,2,0,True
+747275,2022-02-23T17:30:00+00:00,FT,Regular Season - 25,Lecce,867,Cittadella,510,1,2,True
+747285,2022-02-26T13:05:00+00:00,FT,Regular Season - 26,Ternana,516,Cremonese,520,1,2,True
+747291,2022-02-26T13:05:00+00:00,FT,Regular Season - 26,Parma,523,Spal,493,4,0,True
+747284,2022-02-26T13:05:00+00:00,FT,Regular Season - 26,como,895,Brescia,518,1,1,True
+747290,2022-02-26T13:05:00+00:00,FT,Regular Season - 26,Vicenza Virtus,1584,Pordenone,862,1,0,True
+768979,2022-02-26T13:05:00+00:00,FT,Regular Season - 26,Nuova Cosenza,10137,Alessandria,878,2,1,True
+747283,2022-02-26T15:20:00+00:00,FT,Regular Season - 26,Perugia,524,Benevento,506,0,1,True
+747286,2022-02-27T14:35:00+00:00,FT,Regular Season - 26,Ascoli,507,Crotone,501,2,1,True
+747287,2022-02-27T14:35:00+00:00,FT,Regular Season - 26,Cittadella,510,Frosinone,512,3,0,True
+747288,2022-02-27T14:35:00+00:00,FT,Regular Season - 26,Monza,1579,Lecce,867,0,1,True
+747289,2022-02-27T14:35:00+00:00,FT,Regular Season - 26,Reggina,1692,Pisa,801,1,0,True
+747295,2022-03-01T17:30:00+00:00,FT,Regular Season - 27,Benevento,506,Cremonese,520,1,1,True
+747300,2022-03-01T17:30:00+00:00,FT,Regular Season - 27,Ternana,516,Pordenone,862,1,0,True
+747299,2022-03-01T17:30:00+00:00,FT,Regular Season - 27,Brescia,518,Perugia,524,2,1,True
+747294,2022-03-01T19:30:00+00:00,FT,Regular Season - 27,Alessandria,878,como,895,1,1,True
+747293,2022-03-02T17:30:00+00:00,FT,Regular Season - 27,Spal,493,Cittadella,510,0,0,True
+768980,2022-03-02T17:30:00+00:00,FT,Regular Season - 27,Frosinone,512,Nuova Cosenza,10137,1,0,True
+747296,2022-03-02T17:30:00+00:00,FT,Regular Season - 27,Pisa,801,Crotone,501,3,2,True
+747292,2022-03-02T17:30:00+00:00,FT,Regular Season - 27,Lecce,867,Ascoli,507,3,1,True
+747298,2022-03-02T17:30:00+00:00,FT,Regular Season - 27,Monza,1579,Parma,523,1,1,True
+747297,2022-03-02T17:30:00+00:00,FT,Regular Season - 27,Reggina,1692,Vicenza Virtus,1584,3,1,True
+747305,2022-03-05T13:00:00+00:00,FT,Regular Season - 28,Cittadella,510,Monza,1579,1,2,True
+747307,2022-03-05T13:00:00+00:00,FT,Regular Season - 28,Parma,523,Reggina,1692,1,1,True
+747306,2022-03-05T13:00:00+00:00,FT,Regular Season - 28,Pordenone,862,Pisa,801,0,1,True
+747308,2022-03-05T13:00:00+00:00,FT,Regular Season - 28,como,895,Spal,493,0,2,True
+747302,2022-03-05T15:15:00+00:00,FT,Regular Season - 28,Cremonese,520,Brescia,518,2,1,True
+747301,2022-03-06T14:30:00+00:00,FT,Regular Season - 28,Crotone,501,Alessandria,878,0,0,True
+747303,2022-03-06T14:30:00+00:00,FT,Regular Season - 28,Ascoli,507,Frosinone,512,1,1,True
+747304,2022-03-06T14:30:00+00:00,FT,Regular Season - 28,Perugia,524,Lecce,867,1,1,True
+747309,2022-03-06T14:30:00+00:00,FT,Regular Season - 28,Vicenza Virtus,1584,Ternana,516,3,1,True
+747313,2022-03-11T19:30:00+00:00,FT,Regular Season - 29,Parma,523,Cittadella,510,1,1,True
+768982,2022-03-12T13:00:00+00:00,FT,Regular Season - 29,Ternana,516,Nuova Cosenza,10137,2,0,True
+747312,2022-03-12T13:00:00+00:00,FT,Regular Season - 29,Lecce,867,Brescia,518,1,1,True
+747318,2022-03-12T13:00:00+00:00,FT,Regular Season - 29,Reggina,1692,Perugia,524,0,1,True
+747311,2022-03-12T15:15:00+00:00,FT,Regular Season - 29,Spal,493,Ascoli,507,1,2,True
+747316,2022-03-12T15:15:00+00:00,FT,Regular Season - 29,Benevento,506,Crotone,501,3,1,True
+747310,2022-03-12T15:15:00+00:00,FT,Regular Season - 29,Frosinone,512,Alessandria,878,3,0,True
+747314,2022-03-12T15:15:00+00:00,FT,Regular Season - 29,Pordenone,862,como,895,1,1,True
+747317,2022-03-12T15:15:00+00:00,FT,Regular Season - 29,Monza,1579,Vicenza Virtus,1584,4,0,True
+747315,2022-03-13T14:30:00+00:00,FT,Regular Season - 29,Pisa,801,Cremonese,520,3,0,True
+747320,2022-03-15T17:30:00+00:00,FT,Regular Season - 30,Crotone,501,Frosinone,512,2,0,True
+747325,2022-03-15T17:30:00+00:00,FT,Regular Season - 30,Cittadella,510,Reggina,1692,0,0,True
+747319,2022-03-15T17:30:00+00:00,FT,Regular Season - 30,Brescia,518,Benevento,506,2,2,True
+747327,2022-03-15T17:30:00+00:00,FT,Regular Season - 30,como,895,Ternana,516,1,1,True
+747322,2022-03-15T17:30:00+00:00,FT,Regular Season - 30,Vicenza Virtus,1584,Parma,523,0,1,True
+768983,2022-03-15T17:30:00+00:00,FT,Regular Season - 30,Nuova Cosenza,10137,Lecce,867,2,2,True
+747321,2022-03-15T19:30:00+00:00,FT,Regular Season - 30,Alessandria,878,Monza,1579,0,3,True
+747323,2022-03-16T17:30:00+00:00,FT,Regular Season - 30,Ascoli,507,Pisa,801,2,0,True
+747324,2022-03-16T17:30:00+00:00,FT,Regular Season - 30,Cremonese,520,Pordenone,862,2,1,True
+747326,2022-03-16T17:30:00+00:00,FT,Regular Season - 30,Perugia,524,Spal,493,1,1,True
+747328,2022-03-19T13:00:00+00:00,FT,Regular Season - 31,Ternana,516,Alessandria,878,3,0,True
+747336,2022-03-19T13:00:00+00:00,FT,Regular Season - 31,Parma,523,Lecce,867,0,0,True
+747335,2022-03-19T13:00:00+00:00,FT,Regular Season - 31,Monza,1579,Crotone,501,1,0,True
+768984,2022-03-19T13:00:00+00:00,FT,Regular Season - 31,Reggina,1692,Nuova Cosenza,10137,1,0,True
+747330,2022-03-19T15:15:00+00:00,FT,Regular Season - 31,Frosinone,512,Benevento,506,2,0,True
+747333,2022-03-20T13:00:00+00:00,FT,Regular Season - 31,Perugia,524,como,895,0,1,True
+747332,2022-03-20T13:00:00+00:00,FT,Regular Season - 31,Pisa,801,Cittadella,510,1,0,True
+747329,2022-03-20T13:00:00+00:00,FT,Regular Season - 31,Vicenza Virtus,1584,Ascoli,507,2,0,True
+747334,2022-03-20T15:15:00+00:00,FT,Regular Season - 31,Spal,493,Cremonese,520,0,2,True
+747331,2022-03-20T15:15:00+00:00,FT,Regular Season - 31,Pordenone,862,Brescia,518,1,1,True
+747342,2022-04-02T12:00:00+00:00,FT,Regular Season - 32,Ascoli,507,Pordenone,862,1,0,True
+747345,2022-04-02T12:00:00+00:00,FT,Regular Season - 32,Cittadella,510,Ternana,516,1,2,True
+747343,2022-04-02T12:00:00+00:00,FT,Regular Season - 32,Cremonese,520,Reggina,1692,1,1,True
+747337,2022-04-02T12:00:00+00:00,FT,Regular Season - 32,Lecce,867,Frosinone,512,1,0,True
+747344,2022-04-02T12:00:00+00:00,FT,Regular Season - 32,Alessandria,878,Spal,493,2,2,True
+768985,2022-04-02T12:00:00+00:00,FT,Regular Season - 32,Nuova Cosenza,10137,Parma,523,1,3,True
+747341,2022-04-02T14:15:00+00:00,FT,Regular Season - 32,Benevento,506,Pisa,801,5,1,True
+747340,2022-04-03T13:30:00+00:00,FT,Regular Season - 32,Crotone,501,Perugia,524,1,1,True
+747338,2022-04-03T13:30:00+00:00,FT,Regular Season - 32,Brescia,518,Vicenza Virtus,1584,2,0,True
+747339,2022-04-03T13:30:00+00:00,FT,Regular Season - 32,como,895,Monza,1579,2,0,True
+768986,2022-04-05T17:00:00+00:00,FT,Regular Season - 33,Spal,493,Nuova Cosenza,10137,2,2,True
+747353,2022-04-05T17:00:00+00:00,FT,Regular Season - 33,Ternana,516,Lecce,867,1,4,True
+747346,2022-04-05T17:00:00+00:00,FT,Regular Season - 33,Cremonese,520,Alessandria,878,2,1,True
+747352,2022-04-05T17:00:00+00:00,FT,Regular Season - 33,Pordenone,862,Frosinone,512,2,0,True
+747348,2022-04-05T17:00:00+00:00,FT,Regular Season - 33,Reggina,1692,Benevento,506,0,3,True
+747350,2022-04-06T12:00:00+00:00,FT,Regular Season - 33,Parma,523,como,895,4,3,True
+747354,2022-04-06T17:00:00+00:00,FT,Regular Season - 33,Cittadella,510,Perugia,524,0,0,True
+747349,2022-04-06T17:00:00+00:00,FT,Regular Season - 33,Pisa,801,Brescia,518,0,0,True
+747347,2022-04-06T17:00:00+00:00,FT,Regular Season - 33,Monza,1579,Ascoli,507,2,0,True
+747351,2022-04-06T17:00:00+00:00,FT,Regular Season - 33,Vicenza Virtus,1584,Crotone,501,1,1,True
+747362,2022-04-09T12:00:00+00:00,FT,Regular Season - 34,Lecce,867,Spal,493,1,0,True
+747360,2022-04-09T12:00:00+00:00,FT,Regular Season - 34,Alessandria,878,Pordenone,862,2,0,True
+747355,2022-04-09T12:00:00+00:00,FT,Regular Season - 34,como,895,Cittadella,510,1,2,True
+747356,2022-04-09T14:15:00+00:00,FT,Regular Season - 34,Frosinone,512,Cremonese,520,2,1,True
+747357,2022-04-10T12:30:00+00:00,FT,Regular Season - 34,Benevento,506,Vicenza Virtus,1584,1,0,True
+747363,2022-04-10T13:30:00+00:00,FT,Regular Season - 34,Crotone,501,Ternana,516,1,2,True
+747361,2022-04-10T13:30:00+00:00,FT,Regular Season - 34,Ascoli,507,Reggina,1692,2,0,True
+768987,2022-04-10T13:30:00+00:00,FT,Regular Season - 34,Nuova Cosenza,10137,Monza,1579,0,2,True
+747359,2022-04-10T16:00:00+00:00,FT,Regular Season - 34,Perugia,524,Pisa,801,1,1,True
+747358,2022-04-11T18:30:00+00:00,FT,Regular Season - 34,Brescia,518,Parma,523,1,0,True
+768981,2022-04-14T18:00:00+00:00,FT,Regular Season - 28,Nuova Cosenza,10137,Benevento,506,1,0,True
+747369,2022-04-18T10:30:00+00:00,FT,Regular Season - 35,Spal,493,Crotone,501,1,1,True
+768988,2022-04-18T13:00:00+00:00,FT,Regular Season - 35,Cremonese,520,Nuova Cosenza,10137,3,1,True
+747366,2022-04-18T13:00:00+00:00,FT,Regular Season - 35,Pordenone,862,Benevento,506,1,4,True
+747372,2022-04-18T13:00:00+00:00,FT,Regular Season - 35,Vicenza Virtus,1584,Perugia,524,1,2,True
+747371,2022-04-18T13:00:00+00:00,FT,Regular Season - 35,Reggina,1692,Lecce,867,1,0,True
+747364,2022-04-18T16:00:00+00:00,FT,Regular Season - 35,Cittadella,510,Alessandria,878,1,2,True
+747370,2022-04-18T16:00:00+00:00,FT,Regular Season - 35,Ternana,516,Frosinone,512,4,4,True
+747365,2022-04-18T16:00:00+00:00,FT,Regular Season - 35,Parma,523,Ascoli,507,0,1,True
+747368,2022-04-18T16:00:00+00:00,FT,Regular Season - 35,Pisa,801,como,895,3,1,True
+747367,2022-04-18T18:30:00+00:00,FT,Regular Season - 35,Monza,1579,Brescia,518,1,1,True
+747373,2022-04-25T10:30:00+00:00,FT,Regular Season - 36,Ascoli,507,Cittadella,510,0,0,True
+747374,2022-04-25T13:00:00+00:00,FT,Regular Season - 36,Crotone,501,Cremonese,520,3,1,True
+747376,2022-04-25T13:00:00+00:00,FT,Regular Season - 36,Frosinone,512,Monza,1579,4,1,True
+747378,2022-04-25T13:00:00+00:00,FT,Regular Season - 36,Lecce,867,Pisa,801,2,0,True
+747379,2022-04-25T13:00:00+00:00,FT,Regular Season - 36,Alessandria,878,Reggina,1692,0,0,True
+768989,2022-04-25T13:00:00+00:00,FT,Regular Season - 36,Nuova Cosenza,10137,Pordenone,862,3,1,True
+747381,2022-04-25T16:00:00+00:00,FT,Regular Season - 36,Benevento,506,Ternana,516,1,2,True
+747380,2022-04-25T16:00:00+00:00,FT,Regular Season - 36,Brescia,518,Spal,493,1,1,True
+747375,2022-04-25T16:00:00+00:00,FT,Regular Season - 36,como,895,Vicenza Virtus,1584,0,2,True
+747377,2022-04-25T18:30:00+00:00,FT,Regular Season - 36,Perugia,524,Parma,523,2,1,True
+747388,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Spal,493,Frosinone,512,3,0,True
+747385,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Cittadella,510,Brescia,518,1,0,True
+747390,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Ternana,516,Perugia,524,1,0,True
+747383,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Cremonese,520,Ascoli,507,0,1,True
+747382,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Parma,523,Alessandria,878,2,2,True
+768990,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Pisa,801,Nuova Cosenza,10137,1,1,True
+747387,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Pordenone,862,Crotone,501,3,3,True
+747384,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Monza,1579,Benevento,506,3,0,True
+747389,2022-04-30T12:00:00+00:00,FT,Regular Season - 37,Vicenza Virtus,1584,Lecce,867,2,1,True
+747386,2022-04-30T14:15:00+00:00,FT,Regular Season - 37,Reggina,1692,como,895,1,4,True
+747394,2022-05-06T16:15:00+00:00,FT,Regular Season - 38,Crotone,501,Parma,523,0,1,True
+747398,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Benevento,506,Spal,493,1,2,True
+747399,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Ascoli,507,Ternana,516,4,1,True
+747395,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Frosinone,512,Pisa,801,1,2,True
+747397,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Brescia,518,Reggina,1692,3,0,True
+747393,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Perugia,524,Monza,1579,1,0,True
+747396,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Lecce,867,Pordenone,862,1,0,True
+747392,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Alessandria,878,Vicenza Virtus,1584,0,1,True
+747391,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,como,895,Cremonese,520,1,2,True
+768991,2022-05-06T18:30:00+00:00,FT,Regular Season - 38,Nuova Cosenza,10137,Cittadella,510,1,0,True
+861278,2022-05-12T18:30:00+00:00,FT,Relegation Play-offs - Final,Vicenza Virtus,1584,Nuova Cosenza,10137,1,0,True
+861280,2022-05-13T18:30:00+00:00,FT,Promotion Play-offs - Qualifying Round,Ascoli,507,Benevento,506,0,1,True
+861281,2022-05-14T16:00:00+00:00,AET,Promotion Play-offs - Qualifying Round,Brescia,518,Perugia,524,3,2,False
+862024,2022-05-17T18:30:00+00:00,FT,Promotion Play-offs - Semi-finals,Benevento,506,Pisa,801,1,0,True
+862026,2022-05-18T18:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Brescia,518,Monza,1579,1,2,True
+861279,2022-05-20T18:30:00+00:00,FT,Relegation Play-offs - Final,Nuova Cosenza,10137,Vicenza Virtus,1584,2,0,True
+862025,2022-05-21T16:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Pisa,801,Benevento,506,1,0,True
+862027,2022-05-22T19:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Monza,1579,Brescia,518,2,1,True
+862893,2022-05-26T18:30:00+00:00,FT,Promotion Play-offs - Final,Monza,1579,Pisa,801,2,1,True
+862894,2022-05-29T18:30:00+00:00,AET,Promotion Play-offs - Final,Pisa,801,Monza,1579,3,4,False

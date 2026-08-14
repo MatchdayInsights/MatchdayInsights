@@ -1,116 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1243737,2025-05-17T12:00:00+00:00,CANC,Türkgücü-Ataspor,9335,Viktoria Aschaffenburg,9336,,,False
-1243548,2025-02-22T13:00:00+00:00,FT,Bayern München II,4674,FC Schweinfurt 05,1635,1,2,True
-1243617,2025-02-22T13:00:00+00:00,FT,Illertissen,9330,Hankofen-Hailing,12780,3,1,True
-1243626,2025-02-23T13:00:00+00:00,FT,Aubstadt,9323,Schwaben Augsburg,12849,2,3,True
-1243634,2025-02-28T18:00:00+00:00,FT,Bayreuth,9325,Viktoria Aschaffenburg,9336,3,0,True
-1243633,2025-03-01T13:00:00+00:00,FT,Bayern München II,4674,Würzburger Kickers,784,0,2,True
-1243639,2025-03-01T13:00:00+00:00,FT,Greuther Fürth II,9328,FC Schweinfurt 05,1635,1,1,True
-1243640,2025-03-01T13:00:00+00:00,FT,Illertissen,9330,Eintracht Bamberg,12757,1,0,True
-1243641,2025-03-01T13:00:00+00:00,FT,Türkgücü-Ataspor,9335,Buchbach,9326,1,4,True
-1243636,2025-03-01T13:00:00+00:00,FT,Wacker Burghausen,9337,Aubstadt,9323,0,0,True
-1243635,2025-03-01T13:00:00+00:00,FT,Schwaben Augsburg,12849,Hankofen-Hailing,12780,1,1,True
-1243637,2025-03-01T13:00:00+00:00,FT,Ansbach,14621,Augsburg II,9324,2,1,True
-1243638,2025-03-02T13:00:00+00:00,FT,Nürnberg II,9332,Vilzing,12893,1,1,True
-1243647,2025-03-07T18:00:00+00:00,FT,FC Schweinfurt 05,1635,Illertissen,9330,1,0,True
-1243645,2025-03-07T18:00:00+00:00,FT,Buchbach,9326,Schwaben Augsburg,12849,1,1,True
-1243648,2025-03-08T13:00:00+00:00,FT,Würzburger Kickers,784,Viktoria Aschaffenburg,9336,0,0,True
-1243650,2025-03-08T13:00:00+00:00,FT,Aubstadt,9323,Ansbach,14621,2,3,True
-1243642,2025-03-08T13:00:00+00:00,FT,Augsburg II,9324,Nürnberg II,9332,5,4,True
-1243646,2025-03-08T13:00:00+00:00,FT,Eintracht Bamberg,12757,Türkgücü-Ataspor,9335,0,2,True
-1243644,2025-03-08T13:00:00+00:00,FT,Hankofen-Hailing,12780,Wacker Burghausen,9337,3,5,True
-1243649,2025-03-08T13:00:00+00:00,FT,Vilzing,12893,Bayern München II,4674,3,0,True
-1243643,2025-03-09T13:00:00+00:00,FT,Greuther Fürth II,9328,Bayreuth,9325,3,1,True
-1243651,2025-03-14T18:00:00+00:00,FT,Bayern München II,4674,Augsburg II,9324,2,4,True
-1243652,2025-03-14T18:00:00+00:00,FT,Bayreuth,9325,Würzburger Kickers,784,1,1,True
-1243659,2025-03-14T18:00:00+00:00,FT,Wacker Burghausen,9337,Buchbach,9326,2,2,True
-1243656,2025-03-15T13:00:00+00:00,FT,Illertissen,9330,Greuther Fürth II,9328,0,0,True
-1243654,2025-03-15T13:00:00+00:00,FT,Nürnberg II,9332,Aubstadt,9323,1,0,True
-1243657,2025-03-15T13:00:00+00:00,FT,Türkgücü-Ataspor,9335,FC Schweinfurt 05,1635,0,2,True
-1243658,2025-03-15T13:00:00+00:00,FT,Schwaben Augsburg,12849,Eintracht Bamberg,12757,2,0,True
-1243653,2025-03-15T13:00:00+00:00,FT,Ansbach,14621,Hankofen-Hailing,12780,4,0,True
-1243655,2025-03-19T18:00:00+00:00,FT,Viktoria Aschaffenburg,9336,Vilzing,12893,0,2,True
-1243660,2025-03-21T18:00:00+00:00,FT,Augsburg II,9324,Viktoria Aschaffenburg,9336,2,1,True
-1243661,2025-03-21T18:00:00+00:00,FT,Buchbach,9326,Ansbach,14621,1,1,True
-1243664,2025-03-22T13:00:00+00:00,FT,FC Schweinfurt 05,1635,Schwaben Augsburg,12849,0,2,True
-1243665,2025-03-22T13:00:00+00:00,FT,Greuther Fürth II,9328,Türkgücü-Ataspor,9335,3,2,True
-1243668,2025-03-22T13:00:00+00:00,FT,Hankofen-Hailing,12780,Nürnberg II,9332,1,2,True
-1243666,2025-03-22T13:00:00+00:00,FT,Vilzing,12893,Würzburger Kickers,784,1,1,True
-1243669,2025-03-28T18:00:00+00:00,FT,Bayern München II,4674,Hankofen-Hailing,12780,1,1,True
-1243675,2025-03-28T18:00:00+00:00,FT,Wacker Burghausen,9337,FC Schweinfurt 05,1635,2,5,True
-1243672,2025-03-29T13:00:00+00:00,FT,Würzburger Kickers,784,Augsburg II,9324,0,3,True
-1243670,2025-03-29T13:00:00+00:00,FT,Bayreuth,9325,Vilzing,12893,2,4,True
-1243677,2025-03-29T13:00:00+00:00,FT,Nürnberg II,9332,Buchbach,9326,1,2,True
-1243673,2025-03-29T13:00:00+00:00,FT,Türkgücü-Ataspor,9335,Illertissen,9330,2,2,True
-1243671,2025-03-29T13:00:00+00:00,FT,Viktoria Aschaffenburg,9336,Aubstadt,9323,1,1,True
-1243674,2025-03-29T13:00:00+00:00,FT,Schwaben Augsburg,12849,Greuther Fürth II,9328,2,3,True
-1243676,2025-03-29T13:00:00+00:00,FT,Ansbach,14621,Eintracht Bamberg,12757,1,1,True
-1243627,2025-04-01T15:45:00+00:00,FT,Hankofen-Hailing,12780,Türkgücü-Ataspor,9335,0,2,True
-1243680,2025-04-04T17:00:00+00:00,FT,Buchbach,9326,Bayern München II,4674,2,1,True
-1243678,2025-04-04T17:00:00+00:00,FT,Illertissen,9330,Schwaben Augsburg,12849,1,1,True
-1243686,2025-04-05T12:00:00+00:00,FT,FC Schweinfurt 05,1635,Ansbach,14621,1,2,True
-1243683,2025-04-05T12:00:00+00:00,FT,Aubstadt,9323,Würzburger Kickers,784,0,1,True
-1243679,2025-04-05T12:00:00+00:00,FT,Augsburg II,9324,Vilzing,12893,0,2,True
-1243682,2025-04-05T12:00:00+00:00,FT,Greuther Fürth II,9328,Wacker Burghausen,9337,3,1,True
-1243681,2025-04-05T12:00:00+00:00,FT,Türkgücü-Ataspor,9335,Bayreuth,9325,1,4,True
-1243685,2025-04-05T12:00:00+00:00,FT,Eintracht Bamberg,12757,Nürnberg II,9332,4,4,True
-1243684,2025-04-05T12:00:00+00:00,FT,Hankofen-Hailing,12780,Viktoria Aschaffenburg,9336,0,3,True
-1243546,2025-04-08T16:00:00+00:00,FT,Vilzing,12893,Hankofen-Hailing,12780,3,1,True
-1243620,2025-04-08T16:00:00+00:00,FT,Ansbach,14621,Würzburger Kickers,784,1,2,True
-1243687,2025-04-11T16:30:00+00:00,FT,Bayreuth,9325,Augsburg II,9324,2,2,True
-1243689,2025-04-11T17:00:00+00:00,FT,Bayern München II,4674,Eintracht Bamberg,12757,6,0,True
-1243692,2025-04-11T17:00:00+00:00,FT,Wacker Burghausen,9337,Illertissen,9330,1,1,True
-1243688,2025-04-11T17:00:00+00:00,FT,Schwaben Augsburg,12849,Türkgücü-Ataspor,9335,1,1,True
-1243690,2025-04-12T12:00:00+00:00,FT,Würzburger Kickers,784,Hankofen-Hailing,12780,5,1,True
-1243694,2025-04-12T12:00:00+00:00,FT,Nürnberg II,9332,FC Schweinfurt 05,1635,2,3,True
-1243695,2025-04-12T12:00:00+00:00,FT,Viktoria Aschaffenburg,9336,Buchbach,9326,0,0,True
-1243691,2025-04-12T12:00:00+00:00,FT,Vilzing,12893,Aubstadt,9323,0,1,True
-1243693,2025-04-12T12:00:00+00:00,FT,Ansbach,14621,Greuther Fürth II,9328,0,0,True
-1243632,2025-04-15T16:00:00+00:00,FT,Vilzing,12893,Ansbach,14621,1,0,True
-1243662,2025-04-15T16:30:00+00:00,FT,Illertissen,9330,Bayreuth,9325,3,3,True
-1243702,2025-04-17T17:00:00+00:00,FT,FC Schweinfurt 05,1635,Bayern München II,4674,1,2,True
-1243698,2025-04-19T12:00:00+00:00,FT,Aubstadt,9323,Augsburg II,9324,0,5,True
-1243703,2025-04-19T12:00:00+00:00,FT,Greuther Fürth II,9328,Nürnberg II,9332,1,1,True
-1243704,2025-04-19T12:00:00+00:00,FT,Illertissen,9330,Ansbach,14621,0,0,True
-1243697,2025-04-19T12:00:00+00:00,FT,Türkgücü-Ataspor,9335,Wacker Burghausen,9337,0,2,True
-1243701,2025-04-19T12:00:00+00:00,FT,Eintracht Bamberg,12757,Viktoria Aschaffenburg,9336,1,1,True
-1243699,2025-04-19T12:00:00+00:00,FT,Hankofen-Hailing,12780,Vilzing,12893,2,3,True
-1243696,2025-04-19T12:00:00+00:00,FT,Schwaben Augsburg,12849,Bayreuth,9325,1,1,True
-1243700,2025-04-20T14:00:00+00:00,FT,Buchbach,9326,Würzburger Kickers,784,1,0,True
-1243663,2025-04-22T15:00:00+00:00,FT,Eintracht Bamberg,12757,Wacker Burghausen,9337,0,4,True
-1243667,2025-04-23T16:15:00+00:00,FT,Aubstadt,9323,Bayern München II,4674,2,1,True
-1243705,2025-04-25T16:30:00+00:00,FT,Würzburger Kickers,784,Eintracht Bamberg,12757,1,1,True
-1243706,2025-04-25T17:00:00+00:00,FT,Augsburg II,9324,Hankofen-Hailing,12780,1,1,True
-1243710,2025-04-25T17:00:00+00:00,FT,Viktoria Aschaffenburg,9336,FC Schweinfurt 05,1635,2,2,True
-1243707,2025-04-26T12:00:00+00:00,FT,Bayreuth,9325,Aubstadt,9323,3,0,True
-1243558,2025-04-26T12:00:00+00:00,FT,Greuther Fürth II,9328,Bayern München II,4674,5,1,True
-1243712,2025-04-26T12:00:00+00:00,FT,Nürnberg II,9332,Illertissen,9330,2,0,True
-1243708,2025-04-26T12:00:00+00:00,FT,Wacker Burghausen,9337,Schwaben Augsburg,12849,1,0,True
-1243713,2025-04-26T12:00:00+00:00,FT,Vilzing,12893,Buchbach,9326,3,1,True
-1243711,2025-04-26T12:00:00+00:00,FT,Ansbach,14621,Türkgücü-Ataspor,9335,1,1,True
-1243714,2025-05-02T16:30:00+00:00,FT,Hankofen-Hailing,12780,Aubstadt,9323,1,0,True
-1243718,2025-05-02T17:00:00+00:00,FT,FC Schweinfurt 05,1635,Würzburger Kickers,784,2,1,True
-1243716,2025-05-02T17:00:00+00:00,FT,Buchbach,9326,Augsburg II,9324,5,2,True
-1243715,2025-05-02T17:00:00+00:00,FT,Wacker Burghausen,9337,Bayreuth,9325,3,1,True
-1243719,2025-05-03T12:00:00+00:00,FT,Greuther Fürth II,9328,Viktoria Aschaffenburg,9336,3,1,True
-1243720,2025-05-03T12:00:00+00:00,FT,Illertissen,9330,Bayern München II,4674,2,2,True
-1243721,2025-05-03T12:00:00+00:00,FT,Türkgücü-Ataspor,9335,Nürnberg II,9332,0,1,True
-1243717,2025-05-03T12:00:00+00:00,FT,Eintracht Bamberg,12757,Vilzing,12893,1,2,True
-1243722,2025-05-03T12:00:00+00:00,FT,Schwaben Augsburg,12849,Ansbach,14621,2,3,True
-1243730,2025-05-09T16:30:00+00:00,FT,Vilzing,12893,FC Schweinfurt 05,1635,3,1,True
-1243724,2025-05-09T17:00:00+00:00,FT,Bayern München II,4674,Türkgücü-Ataspor,9335,5,0,True
-1243726,2025-05-09T17:00:00+00:00,FT,Augsburg II,9324,Eintracht Bamberg,12757,0,1,True
-1243725,2025-05-09T17:00:00+00:00,FT,Viktoria Aschaffenburg,9336,Illertissen,9330,1,0,True
-1243729,2025-05-10T12:00:00+00:00,FT,Würzburger Kickers,784,Greuther Fürth II,9328,1,1,True
-1243731,2025-05-10T12:00:00+00:00,FT,Aubstadt,9323,Buchbach,9326,1,1,True
-1243728,2025-05-10T12:00:00+00:00,FT,Nürnberg II,9332,Schwaben Augsburg,12849,2,1,True
-1243723,2025-05-10T12:00:00+00:00,FT,Hankofen-Hailing,12780,Bayreuth,9325,1,0,True
-1243727,2025-05-10T14:00:00+00:00,FT,Ansbach,14621,Wacker Burghausen,9337,0,3,True
-1243734,2025-05-16T17:00:00+00:00,FT,FC Schweinfurt 05,1635,Augsburg II,9324,2,0,True
-1243740,2025-05-17T12:00:00+00:00,FT,Bayreuth,9325,Ansbach,14621,1,3,True
-1243732,2025-05-17T12:00:00+00:00,FT,Buchbach,9326,Hankofen-Hailing,12780,5,1,True
-1243735,2025-05-17T12:00:00+00:00,FT,Greuther Fürth II,9328,Vilzing,12893,2,0,True
-1243736,2025-05-17T12:00:00+00:00,FT,Illertissen,9330,Würzburger Kickers,784,0,1,True
-1243739,2025-05-17T12:00:00+00:00,FT,Wacker Burghausen,9337,Nürnberg II,9332,3,3,True
-1243733,2025-05-17T12:00:00+00:00,FT,Eintracht Bamberg,12757,Aubstadt,9323,0,3,True
-1243738,2025-05-17T12:00:00+00:00,FT,Schwaben Augsburg,12849,Bayern München II,4674,1,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1243737,2025-05-17T12:00:00+00:00,CANC,Bayern - 34,Türkgücü-Ataspor,9335,Viktoria Aschaffenburg,9336,,,False
+1243435,2024-07-18T17:00:00+00:00,FT,Bayern - 1,Wacker Burghausen,9337,Bayern München II,4674,0,1,True
+1243436,2024-07-19T16:30:00+00:00,FT,Bayern - 1,Ansbach,14621,Nürnberg II,9332,1,4,True
+1243438,2024-07-19T17:00:00+00:00,FT,Bayern - 1,FC Schweinfurt 05,1635,Aubstadt,9323,2,0,True
+1243437,2024-07-19T17:00:00+00:00,FT,Bayern - 1,Schwaben Augsburg,12849,Viktoria Aschaffenburg,9336,2,1,True
+1243439,2024-07-20T12:00:00+00:00,FT,Bayern - 1,Bayreuth,9325,Buchbach,9326,2,0,True
+1243442,2024-07-20T12:00:00+00:00,FT,Bayern - 1,Greuther Fürth II,9328,Augsburg II,9324,2,6,True
+1243441,2024-07-20T12:00:00+00:00,FT,Bayern - 1,Illertissen,9330,Vilzing,12893,5,0,True
+1243440,2024-07-20T12:00:00+00:00,FT,Bayern - 1,Türkgücü-Ataspor,9335,Würzburger Kickers,784,2,2,True
+1243443,2024-07-20T12:00:00+00:00,FT,Bayern - 1,Eintracht Bamberg,12757,Hankofen-Hailing,12780,2,0,True
+1243444,2024-07-25T16:30:00+00:00,FT,Bayern - 2,Nürnberg II,9332,Bayreuth,9325,1,3,True
+1243447,2024-07-26T16:30:00+00:00,FT,Bayern - 2,Aubstadt,9323,Greuther Fürth II,9328,1,3,True
+1243445,2024-07-26T16:30:00+00:00,FT,Bayern - 2,Hankofen-Hailing,12780,FC Schweinfurt 05,1635,1,3,True
+1243446,2024-07-26T17:00:00+00:00,FT,Bayern - 2,Würzburger Kickers,784,Schwaben Augsburg,12849,3,1,True
+1243450,2024-07-26T17:00:00+00:00,FT,Bayern - 2,Bayern München II,4674,Ansbach,14621,2,2,True
+1243448,2024-07-26T17:00:00+00:00,FT,Bayern - 2,Augsburg II,9324,Illertissen,9330,0,0,True
+1243451,2024-07-26T17:00:00+00:00,FT,Bayern - 2,Buchbach,9326,Eintracht Bamberg,12757,2,1,True
+1243449,2024-07-26T17:00:00+00:00,FT,Bayern - 2,Viktoria Aschaffenburg,9336,Wacker Burghausen,9337,0,4,True
+1243452,2024-07-27T12:00:00+00:00,FT,Bayern - 2,Vilzing,12893,Türkgücü-Ataspor,9335,3,1,True
+1243453,2024-08-02T16:30:00+00:00,FT,Bayern - 3,Nürnberg II,9332,Bayern München II,4674,1,2,True
+1243454,2024-08-02T16:30:00+00:00,FT,Bayern - 3,Ansbach,14621,Viktoria Aschaffenburg,9336,4,1,True
+1243458,2024-08-02T17:00:00+00:00,FT,Bayern - 3,FC Schweinfurt 05,1635,Buchbach,9326,3,1,True
+1243455,2024-08-02T17:00:00+00:00,FT,Bayern - 3,Bayreuth,9325,Eintracht Bamberg,12757,1,0,True
+1243457,2024-08-02T17:00:00+00:00,FT,Bayern - 3,Illertissen,9330,Aubstadt,9323,3,1,True
+1243456,2024-08-02T17:00:00+00:00,FT,Bayern - 3,Wacker Burghausen,9337,Würzburger Kickers,784,2,0,True
+1243461,2024-08-03T12:00:00+00:00,FT,Bayern - 3,Greuther Fürth II,9328,Hankofen-Hailing,12780,3,0,True
+1243460,2024-08-03T12:00:00+00:00,FT,Bayern - 3,Türkgücü-Ataspor,9335,Augsburg II,9324,1,2,True
+1243459,2024-08-03T12:00:00+00:00,FT,Bayern - 3,Schwaben Augsburg,12849,Vilzing,12893,3,2,True
+1243463,2024-08-09T16:30:00+00:00,FT,Bayern - 4,Aubstadt,9323,Türkgücü-Ataspor,9335,2,1,True
+1243468,2024-08-09T16:30:00+00:00,FT,Bayern - 4,Vilzing,12893,Wacker Burghausen,9337,0,3,True
+1243462,2024-08-09T17:00:00+00:00,FT,Bayern - 4,Würzburger Kickers,784,Ansbach,14621,5,0,True
+1243465,2024-08-09T17:00:00+00:00,FT,Bayern - 4,Bayern München II,4674,Bayreuth,9325,4,2,True
+1243464,2024-08-09T17:00:00+00:00,FT,Bayern - 4,Augsburg II,9324,Schwaben Augsburg,12849,2,5,True
+1243466,2024-08-09T17:00:00+00:00,FT,Bayern - 4,Buchbach,9326,Greuther Fürth II,9328,1,4,True
+1243469,2024-08-10T12:00:00+00:00,FT,Bayern - 4,Viktoria Aschaffenburg,9336,Nürnberg II,9332,3,1,True
+1243470,2024-08-10T12:00:00+00:00,FT,Bayern - 4,Eintracht Bamberg,12757,FC Schweinfurt 05,1635,2,1,True
+1243467,2024-08-10T12:00:00+00:00,FT,Bayern - 4,Hankofen-Hailing,12780,Illertissen,9330,0,1,True
+1243471,2024-08-16T16:15:00+00:00,FT,Bayern - 5,Ansbach,14621,Vilzing,12893,1,1,True
+1243475,2024-08-16T17:00:00+00:00,FT,Bayern - 5,Bayern München II,4674,Viktoria Aschaffenburg,9336,4,1,True
+1243472,2024-08-16T17:00:00+00:00,FT,Bayern - 5,Bayreuth,9325,FC Schweinfurt 05,1635,0,1,True
+1243474,2024-08-16T17:00:00+00:00,FT,Bayern - 5,Illertissen,9330,Buchbach,9326,2,0,True
+1243473,2024-08-16T17:00:00+00:00,FT,Bayern - 5,Wacker Burghausen,9337,Augsburg II,9324,2,1,True
+1243478,2024-08-17T12:00:00+00:00,FT,Bayern - 5,Greuther Fürth II,9328,Eintracht Bamberg,12757,2,2,True
+1243477,2024-08-17T12:00:00+00:00,FT,Bayern - 5,Türkgücü-Ataspor,9335,Hankofen-Hailing,12780,2,2,True
+1243476,2024-08-17T12:00:00+00:00,FT,Bayern - 5,Schwaben Augsburg,12849,Aubstadt,9323,0,2,True
+1243480,2024-08-23T16:15:00+00:00,FT,Bayern - 6,Aubstadt,9323,Wacker Burghausen,9337,0,1,True
+1243485,2024-08-23T16:15:00+00:00,FT,Bayern - 6,Vilzing,12893,Nürnberg II,9332,3,1,True
+1243481,2024-08-23T17:00:00+00:00,FT,Bayern - 6,Augsburg II,9324,Ansbach,14621,7,1,True
+1243483,2024-08-23T17:00:00+00:00,FT,Bayern - 6,Buchbach,9326,Türkgücü-Ataspor,9335,2,0,True
+1243482,2024-08-23T17:00:00+00:00,FT,Bayern - 6,Viktoria Aschaffenburg,9336,Bayreuth,9325,1,0,True
+1243486,2024-08-24T12:00:00+00:00,FT,Bayern - 6,Würzburger Kickers,784,Bayern München II,4674,1,4,True
+1243487,2024-08-24T12:00:00+00:00,FT,Bayern - 6,FC Schweinfurt 05,1635,Greuther Fürth II,9328,2,1,True
+1243488,2024-08-24T12:00:00+00:00,FT,Bayern - 6,Eintracht Bamberg,12757,Illertissen,9330,0,2,True
+1243484,2024-08-24T12:00:00+00:00,FT,Bayern - 6,Hankofen-Hailing,12780,Schwaben Augsburg,12849,4,2,True
+1243493,2024-08-30T17:00:00+00:00,FT,Bayern - 7,Bayern München II,4674,Vilzing,12893,1,1,True
+1243489,2024-08-30T17:00:00+00:00,FT,Bayern - 7,Bayreuth,9325,Greuther Fürth II,9328,1,0,True
+1243491,2024-08-30T17:00:00+00:00,FT,Bayern - 7,Illertissen,9330,FC Schweinfurt 05,1635,1,3,True
+1243492,2024-08-30T17:00:00+00:00,FT,Bayern - 7,Viktoria Aschaffenburg,9336,Würzburger Kickers,784,0,2,True
+1243490,2024-08-30T17:00:00+00:00,FT,Bayern - 7,Wacker Burghausen,9337,Hankofen-Hailing,12780,4,1,True
+1243495,2024-08-31T12:00:00+00:00,FT,Bayern - 7,Türkgücü-Ataspor,9335,Eintracht Bamberg,12757,1,2,True
+1243494,2024-08-31T12:00:00+00:00,FT,Bayern - 7,Schwaben Augsburg,12849,Buchbach,9326,0,2,True
+1243497,2024-08-31T12:00:00+00:00,FT,Bayern - 7,Ansbach,14621,Aubstadt,9323,1,1,True
+1243496,2024-09-01T15:00:00+00:00,FT,Bayern - 7,Nürnberg II,9332,Augsburg II,9324,3,1,True
+1243501,2024-09-06T15:45:00+00:00,FT,Bayern - 8,Aubstadt,9323,Nürnberg II,9332,1,1,True
+1243499,2024-09-06T17:00:00+00:00,FT,Bayern - 8,FC Schweinfurt 05,1635,Türkgücü-Ataspor,9335,2,0,True
+1243503,2024-09-07T12:00:00+00:00,FT,Bayern - 8,Würzburger Kickers,784,Bayreuth,9325,0,4,True
+1243506,2024-09-07T12:00:00+00:00,FT,Bayern - 8,Buchbach,9326,Wacker Burghausen,9337,1,1,True
+1243504,2024-09-07T12:00:00+00:00,FT,Bayern - 8,Greuther Fürth II,9328,Illertissen,9330,0,3,True
+1243505,2024-09-07T12:00:00+00:00,FT,Bayern - 8,Eintracht Bamberg,12757,Schwaben Augsburg,12849,0,2,True
+1243500,2024-09-07T12:00:00+00:00,FT,Bayern - 8,Hankofen-Hailing,12780,Ansbach,14621,2,1,True
+1243502,2024-09-07T12:00:00+00:00,FT,Bayern - 8,Vilzing,12893,Viktoria Aschaffenburg,9336,0,0,True
+1243507,2024-09-13T16:30:00+00:00,FT,Bayern - 9,Würzburger Kickers,784,Vilzing,12893,4,0,True
+1243510,2024-09-13T17:00:00+00:00,FT,Bayern - 9,Bayern München II,4674,Aubstadt,9323,2,2,True
+1243509,2024-09-13T17:00:00+00:00,FT,Bayern - 9,Viktoria Aschaffenburg,9336,Augsburg II,9324,0,0,True
+1243508,2024-09-14T12:00:00+00:00,FT,Bayern - 9,Bayreuth,9325,Illertissen,9330,1,0,True
+1243514,2024-09-14T12:00:00+00:00,FT,Bayern - 9,Nürnberg II,9332,Hankofen-Hailing,12780,2,2,True
+1243512,2024-09-14T12:00:00+00:00,FT,Bayern - 9,Schwaben Augsburg,12849,FC Schweinfurt 05,1635,4,3,True
+1243515,2024-09-14T12:00:00+00:00,FT,Bayern - 9,Ansbach,14621,Buchbach,9326,2,2,True
+1243631,2024-09-17T17:00:00+00:00,FT,Bayern - 5,Würzburger Kickers,784,Nürnberg II,9332,2,2,True
+1243516,2024-09-20T15:00:00+00:00,FT,Bayern - 10,Hankofen-Hailing,12780,Bayern München II,4674,2,0,True
+1243519,2024-09-20T17:00:00+00:00,FT,Bayern - 10,FC Schweinfurt 05,1635,Wacker Burghausen,9337,3,2,True
+1243518,2024-09-20T17:00:00+00:00,FT,Bayern - 10,Illertissen,9330,Türkgücü-Ataspor,9335,2,1,True
+1243520,2024-09-21T12:00:00+00:00,FT,Bayern - 10,Aubstadt,9323,Viktoria Aschaffenburg,9336,1,1,True
+1243517,2024-09-21T12:00:00+00:00,FT,Bayern - 10,Augsburg II,9324,Würzburger Kickers,784,1,3,True
+1243524,2024-09-21T12:00:00+00:00,FT,Bayern - 10,Buchbach,9326,Nürnberg II,9332,0,0,True
+1243522,2024-09-21T12:00:00+00:00,FT,Bayern - 10,Greuther Fürth II,9328,Schwaben Augsburg,12849,1,0,True
+1243523,2024-09-21T12:00:00+00:00,FT,Bayern - 10,Eintracht Bamberg,12757,Ansbach,14621,1,3,True
+1243521,2024-09-21T12:00:00+00:00,FT,Bayern - 10,Vilzing,12893,Bayreuth,9325,2,2,True
+1243529,2024-09-27T17:00:00+00:00,FT,Bayern - 11,Bayern München II,4674,Buchbach,9326,2,3,True
+1243525,2024-09-27T17:00:00+00:00,FT,Bayern - 11,Bayreuth,9325,Türkgücü-Ataspor,9335,4,0,True
+1243528,2024-09-27T17:00:00+00:00,FT,Bayern - 11,Viktoria Aschaffenburg,9336,Hankofen-Hailing,12780,2,1,True
+1243526,2024-09-27T17:00:00+00:00,FT,Bayern - 11,Wacker Burghausen,9337,Greuther Fürth II,9328,2,4,True
+1243527,2024-09-27T17:00:00+00:00,FT,Bayern - 11,Schwaben Augsburg,12849,Illertissen,9330,0,1,True
+1243531,2024-09-28T12:00:00+00:00,FT,Bayern - 11,Würzburger Kickers,784,Aubstadt,9323,1,1,True
+1243532,2024-09-28T12:00:00+00:00,FT,Bayern - 11,Nürnberg II,9332,Eintracht Bamberg,12757,4,0,True
+1243530,2024-09-28T12:00:00+00:00,FT,Bayern - 11,Vilzing,12893,Augsburg II,9324,0,3,True
+1243533,2024-09-28T12:00:00+00:00,FT,Bayern - 11,Ansbach,14621,FC Schweinfurt 05,1635,0,2,True
+1243542,2024-10-02T17:00:00+00:00,FT,Bayern - 12,FC Schweinfurt 05,1635,Nürnberg II,9332,4,1,True
+1243534,2024-10-02T17:00:00+00:00,FT,Bayern - 12,Illertissen,9330,Wacker Burghausen,9337,1,2,True
+1243536,2024-10-03T12:00:00+00:00,FT,Bayern - 12,Aubstadt,9323,Vilzing,12893,4,2,True
+1243537,2024-10-03T12:00:00+00:00,FT,Bayern - 12,Augsburg II,9324,Bayreuth,9325,1,1,True
+1243541,2024-10-03T12:00:00+00:00,FT,Bayern - 12,Buchbach,9326,Viktoria Aschaffenburg,9336,3,0,True
+1243538,2024-10-03T12:00:00+00:00,FT,Bayern - 12,Türkgücü-Ataspor,9335,Schwaben Augsburg,12849,1,3,True
+1243535,2024-10-03T12:00:00+00:00,FT,Bayern - 12,Hankofen-Hailing,12780,Würzburger Kickers,784,1,1,True
+1243540,2024-10-03T17:00:00+00:00,FT,Bayern - 12,Eintracht Bamberg,12757,Bayern München II,4674,0,2,True
+1243547,2024-10-06T12:00:00+00:00,FT,Bayern - 13,Würzburger Kickers,784,Buchbach,9326,3,0,True
+1243545,2024-10-06T12:00:00+00:00,FT,Bayern - 13,Augsburg II,9324,Aubstadt,9323,0,3,True
+1243543,2024-10-06T12:00:00+00:00,FT,Bayern - 13,Bayreuth,9325,Schwaben Augsburg,12849,3,2,True
+1243549,2024-10-06T12:00:00+00:00,FT,Bayern - 13,Nürnberg II,9332,Greuther Fürth II,9328,0,2,True
+1243544,2024-10-06T12:00:00+00:00,FT,Bayern - 13,Wacker Burghausen,9337,Türkgücü-Ataspor,9335,1,0,True
+1243550,2024-10-06T12:00:00+00:00,FT,Bayern - 13,Ansbach,14621,Illertissen,9330,1,0,True
+1243559,2024-10-11T17:00:00+00:00,FT,Bayern - 14,FC Schweinfurt 05,1635,Viktoria Aschaffenburg,9336,1,1,True
+1243552,2024-10-11T17:00:00+00:00,FT,Bayern - 14,Buchbach,9326,Vilzing,12893,1,1,True
+1243554,2024-10-12T12:00:00+00:00,FT,Bayern - 14,Aubstadt,9323,Bayreuth,9325,0,0,True
+1243557,2024-10-12T12:00:00+00:00,FT,Bayern - 14,Illertissen,9330,Nürnberg II,9332,0,2,True
+1243556,2024-10-12T12:00:00+00:00,FT,Bayern - 14,Türkgücü-Ataspor,9335,Ansbach,14621,2,2,True
+1243560,2024-10-12T12:00:00+00:00,FT,Bayern - 14,Eintracht Bamberg,12757,Würzburger Kickers,784,0,4,True
+1243553,2024-10-12T12:00:00+00:00,FT,Bayern - 14,Hankofen-Hailing,12780,Augsburg II,9324,1,1,True
+1243555,2024-10-12T12:00:00+00:00,FT,Bayern - 14,Schwaben Augsburg,12849,Wacker Burghausen,9337,3,2,True
+1243511,2024-10-15T17:00:00+00:00,FT,Bayern - 9,Wacker Burghausen,9337,Eintracht Bamberg,12757,0,1,True
+1243561,2024-10-18T17:00:00+00:00,FT,Bayern - 15,Würzburger Kickers,784,FC Schweinfurt 05,1635,1,0,True
+1243565,2024-10-18T17:00:00+00:00,FT,Bayern - 15,Bayern München II,4674,Illertissen,9330,3,2,True
+1243563,2024-10-18T17:00:00+00:00,FT,Bayern - 15,Augsburg II,9324,Buchbach,9326,4,3,True
+1243562,2024-10-18T17:00:00+00:00,FT,Bayern - 15,Bayreuth,9325,Wacker Burghausen,9337,1,0,True
+1243564,2024-10-18T17:00:00+00:00,FT,Bayern - 15,Viktoria Aschaffenburg,9336,Greuther Fürth II,9328,3,3,True
+1243566,2024-10-19T12:00:00+00:00,FT,Bayern - 15,Aubstadt,9323,Hankofen-Hailing,12780,0,1,True
+1243568,2024-10-19T12:00:00+00:00,FT,Bayern - 15,Nürnberg II,9332,Türkgücü-Ataspor,9335,1,3,True
+1243567,2024-10-19T12:00:00+00:00,FT,Bayern - 15,Vilzing,12893,Eintracht Bamberg,12757,3,0,True
+1243569,2024-10-19T12:00:00+00:00,FT,Bayern - 15,Ansbach,14621,Schwaben Augsburg,12849,2,1,True
+1243570,2024-10-22T16:30:00+00:00,FT,Bayern - 16,Greuther Fürth II,9328,Würzburger Kickers,784,1,1,True
+1243571,2024-10-22T16:30:00+00:00,FT,Bayern - 16,Eintracht Bamberg,12757,Augsburg II,9324,3,3,True
+1243577,2024-10-22T17:00:00+00:00,FT,Bayern - 16,FC Schweinfurt 05,1635,Vilzing,12893,3,2,True
+1243572,2024-10-22T17:00:00+00:00,FT,Bayern - 16,Bayreuth,9325,Hankofen-Hailing,12780,1,0,True
+1243578,2024-10-22T17:00:00+00:00,FT,Bayern - 16,Buchbach,9326,Aubstadt,9323,3,2,True
+1243576,2024-10-22T17:00:00+00:00,FT,Bayern - 16,Illertissen,9330,Viktoria Aschaffenburg,9336,1,0,True
+1243575,2024-10-22T17:00:00+00:00,FT,Bayern - 16,Türkgücü-Ataspor,9335,Bayern München II,4674,1,1,True
+1243573,2024-10-22T17:00:00+00:00,FT,Bayern - 16,Wacker Burghausen,9337,Ansbach,14621,0,0,True
+1243574,2024-10-22T17:00:00+00:00,FT,Bayern - 16,Schwaben Augsburg,12849,Nürnberg II,9332,0,3,True
+1243580,2024-10-25T17:00:00+00:00,FT,Bayern - 17,Bayern München II,4674,Schwaben Augsburg,12849,3,0,True
+1243579,2024-10-25T17:00:00+00:00,FT,Bayern - 17,Augsburg II,9324,FC Schweinfurt 05,1635,2,6,True
+1243584,2024-10-26T12:00:00+00:00,FT,Bayern - 17,Würzburger Kickers,784,Illertissen,9330,0,3,True
+1243582,2024-10-26T12:00:00+00:00,FT,Bayern - 17,Aubstadt,9323,Eintracht Bamberg,12757,5,2,True
+1243586,2024-10-26T12:00:00+00:00,FT,Bayern - 17,Nürnberg II,9332,Wacker Burghausen,9337,3,1,True
+1243585,2024-10-26T12:00:00+00:00,FT,Bayern - 17,Viktoria Aschaffenburg,9336,Türkgücü-Ataspor,9335,1,0,True
+1243583,2024-10-26T12:00:00+00:00,FT,Bayern - 17,Vilzing,12893,Greuther Fürth II,9328,0,2,True
+1243587,2024-10-26T12:00:00+00:00,FT,Bayern - 17,Ansbach,14621,Bayreuth,9325,0,1,True
+1243581,2024-10-26T13:30:00+00:00,FT,Bayern - 17,Hankofen-Hailing,12780,Buchbach,9326,1,1,True
+1243709,2024-10-29T17:30:00+00:00,FT,Bayern - 14,Bayern München II,4674,Greuther Fürth II,9328,4,0,True
+1243589,2024-11-02T12:00:00+00:00,FT,Bayern - 18,Bayern München II,4674,Wacker Burghausen,9337,5,2,True
+1243591,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Würzburger Kickers,784,Türkgücü-Ataspor,9335,3,0,True
+1243594,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Aubstadt,9323,FC Schweinfurt 05,1635,1,0,True
+1243593,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Augsburg II,9324,Greuther Fürth II,9328,1,1,True
+1243588,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Buchbach,9326,Bayreuth,9325,4,1,True
+1243596,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Nürnberg II,9332,Ansbach,14621,1,1,True
+1243590,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Viktoria Aschaffenburg,9336,Schwaben Augsburg,12849,1,0,True
+1243595,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Hankofen-Hailing,12780,Eintracht Bamberg,12757,1,0,True
+1243592,2024-11-02T13:00:00+00:00,FT,Bayern - 18,Vilzing,12893,Illertissen,9330,0,1,True
+1243551,2024-11-05T18:00:00+00:00,FT,Bayern - 13,Viktoria Aschaffenburg,9336,Eintracht Bamberg,12757,0,0,True
+1243600,2024-11-08T17:00:00+00:00,FT,Bayern - 19,Illertissen,9330,Augsburg II,9324,0,0,True
+1243597,2024-11-08T18:00:00+00:00,FT,Bayern - 19,Bayreuth,9325,Nürnberg II,9332,1,1,True
+1243598,2024-11-09T13:00:00+00:00,FT,Bayern - 19,FC Schweinfurt 05,1635,Hankofen-Hailing,12780,5,0,True
+1243599,2024-11-09T13:00:00+00:00,FT,Bayern - 19,Greuther Fürth II,9328,Aubstadt,9323,1,1,True
+1243601,2024-11-09T13:00:00+00:00,FT,Bayern - 19,Türkgücü-Ataspor,9335,Vilzing,12893,0,2,True
+1243603,2024-11-09T13:00:00+00:00,FT,Bayern - 19,Wacker Burghausen,9337,Viktoria Aschaffenburg,9336,0,0,True
+1243605,2024-11-09T13:00:00+00:00,FT,Bayern - 19,Eintracht Bamberg,12757,Buchbach,9326,0,4,True
+1243602,2024-11-09T13:00:00+00:00,FT,Bayern - 19,Schwaben Augsburg,12849,Würzburger Kickers,784,1,1,True
+1243604,2024-11-09T13:00:00+00:00,FT,Bayern - 19,Ansbach,14621,Bayern München II,4674,1,0,True
+1243539,2024-11-13T17:30:00+00:00,FT,Bayern - 12,Greuther Fürth II,9328,Ansbach,14621,1,1,True
+1243606,2024-11-15T18:00:00+00:00,FT,Bayern - 20,Würzburger Kickers,784,Wacker Burghausen,9337,2,0,True
+1243608,2024-11-15T18:00:00+00:00,FT,Bayern - 20,Bayern München II,4674,Nürnberg II,9332,4,0,True
+1243607,2024-11-15T18:00:00+00:00,FT,Bayern - 20,Augsburg II,9324,Türkgücü-Ataspor,9335,0,1,True
+1243612,2024-11-16T13:00:00+00:00,FT,Bayern - 20,Aubstadt,9323,Illertissen,9330,1,3,True
+1243614,2024-11-16T13:00:00+00:00,FT,Bayern - 20,Buchbach,9326,FC Schweinfurt 05,1635,1,1,True
+1243609,2024-11-16T13:00:00+00:00,FT,Bayern - 20,Viktoria Aschaffenburg,9336,Ansbach,14621,4,1,True
+1243610,2024-11-16T13:00:00+00:00,FT,Bayern - 20,Eintracht Bamberg,12757,Bayreuth,9325,0,3,True
+1243613,2024-11-16T13:00:00+00:00,FT,Bayern - 20,Hankofen-Hailing,12780,Greuther Fürth II,9328,0,3,True
+1243611,2024-11-16T13:00:00+00:00,FT,Bayern - 20,Vilzing,12893,Schwaben Augsburg,12849,0,4,True
+1243616,2024-11-22T18:00:00+00:00,FT,Bayern - 21,Bayreuth,9325,Bayern München II,4674,1,1,True
+1243622,2024-11-23T13:00:00+00:00,FT,Bayern - 21,FC Schweinfurt 05,1635,Eintracht Bamberg,12757,2,0,True
+1243621,2024-11-23T13:00:00+00:00,FT,Bayern - 21,Nürnberg II,9332,Viktoria Aschaffenburg,9336,3,3,True
+1243618,2024-11-23T13:00:00+00:00,FT,Bayern - 21,Türkgücü-Ataspor,9335,Aubstadt,9323,1,3,True
+1243619,2024-11-23T13:00:00+00:00,FT,Bayern - 21,Wacker Burghausen,9337,Vilzing,12893,1,3,True
+1243615,2024-11-23T13:00:00+00:00,FT,Bayern - 21,Schwaben Augsburg,12849,Augsburg II,9324,0,3,True
+1243623,2024-11-24T13:00:00+00:00,FT,Bayern - 21,Greuther Fürth II,9328,Buchbach,9326,1,3,True
+1243624,2024-11-29T18:00:00+00:00,FT,Bayern - 22,FC Schweinfurt 05,1635,Bayreuth,9325,0,0,True
+1243625,2024-11-29T18:00:00+00:00,FT,Bayern - 22,Augsburg II,9324,Wacker Burghausen,9337,2,3,True
+1243628,2024-11-30T13:00:00+00:00,FT,Bayern - 22,Buchbach,9326,Illertissen,9330,3,0,True
+1243479,2024-11-30T13:00:00+00:00,FT,Bayern - 22,Nürnberg II,9332,Würzburger Kickers,784,3,3,True
+1243630,2024-11-30T13:00:00+00:00,FT,Bayern - 22,Viktoria Aschaffenburg,9336,Bayern München II,4674,0,2,True
+1243629,2024-11-30T13:00:00+00:00,FT,Bayern - 22,Eintracht Bamberg,12757,Greuther Fürth II,9328,1,0,True
+1243498,2024-12-06T18:00:00+00:00,FT,Bayern - 8,Augsburg II,9324,Bayern München II,4674,1,3,True
+1243513,2024-12-07T13:00:00+00:00,FT,Bayern - 9,Türkgücü-Ataspor,9335,Greuther Fürth II,9328,1,0,True
+1243548,2025-02-22T13:00:00+00:00,FT,Bayern - 13,Bayern München II,4674,FC Schweinfurt 05,1635,1,2,True
+1243617,2025-02-22T13:00:00+00:00,FT,Bayern - 21,Illertissen,9330,Hankofen-Hailing,12780,3,1,True
+1243626,2025-02-23T13:00:00+00:00,FT,Bayern - 22,Aubstadt,9323,Schwaben Augsburg,12849,2,3,True
+1243634,2025-02-28T18:00:00+00:00,FT,Bayern - 23,Bayreuth,9325,Viktoria Aschaffenburg,9336,3,0,True
+1243633,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Bayern München II,4674,Würzburger Kickers,784,0,2,True
+1243639,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Greuther Fürth II,9328,FC Schweinfurt 05,1635,1,1,True
+1243640,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Illertissen,9330,Eintracht Bamberg,12757,1,0,True
+1243641,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Türkgücü-Ataspor,9335,Buchbach,9326,1,4,True
+1243636,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Wacker Burghausen,9337,Aubstadt,9323,0,0,True
+1243635,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Schwaben Augsburg,12849,Hankofen-Hailing,12780,1,1,True
+1243637,2025-03-01T13:00:00+00:00,FT,Bayern - 23,Ansbach,14621,Augsburg II,9324,2,1,True
+1243638,2025-03-02T13:00:00+00:00,FT,Bayern - 23,Nürnberg II,9332,Vilzing,12893,1,1,True
+1243647,2025-03-07T18:00:00+00:00,FT,Bayern - 24,FC Schweinfurt 05,1635,Illertissen,9330,1,0,True
+1243645,2025-03-07T18:00:00+00:00,FT,Bayern - 24,Buchbach,9326,Schwaben Augsburg,12849,1,1,True
+1243648,2025-03-08T13:00:00+00:00,FT,Bayern - 24,Würzburger Kickers,784,Viktoria Aschaffenburg,9336,0,0,True
+1243650,2025-03-08T13:00:00+00:00,FT,Bayern - 24,Aubstadt,9323,Ansbach,14621,2,3,True
+1243642,2025-03-08T13:00:00+00:00,FT,Bayern - 24,Augsburg II,9324,Nürnberg II,9332,5,4,True
+1243646,2025-03-08T13:00:00+00:00,FT,Bayern - 24,Eintracht Bamberg,12757,Türkgücü-Ataspor,9335,0,2,True
+1243644,2025-03-08T13:00:00+00:00,FT,Bayern - 24,Hankofen-Hailing,12780,Wacker Burghausen,9337,3,5,True
+1243649,2025-03-08T13:00:00+00:00,FT,Bayern - 24,Vilzing,12893,Bayern München II,4674,3,0,True
+1243643,2025-03-09T13:00:00+00:00,FT,Bayern - 24,Greuther Fürth II,9328,Bayreuth,9325,3,1,True
+1243651,2025-03-14T18:00:00+00:00,FT,Bayern - 25,Bayern München II,4674,Augsburg II,9324,2,4,True
+1243652,2025-03-14T18:00:00+00:00,FT,Bayern - 25,Bayreuth,9325,Würzburger Kickers,784,1,1,True
+1243659,2025-03-14T18:00:00+00:00,FT,Bayern - 25,Wacker Burghausen,9337,Buchbach,9326,2,2,True
+1243656,2025-03-15T13:00:00+00:00,FT,Bayern - 25,Illertissen,9330,Greuther Fürth II,9328,0,0,True
+1243654,2025-03-15T13:00:00+00:00,FT,Bayern - 25,Nürnberg II,9332,Aubstadt,9323,1,0,True
+1243657,2025-03-15T13:00:00+00:00,FT,Bayern - 25,Türkgücü-Ataspor,9335,FC Schweinfurt 05,1635,0,2,True
+1243658,2025-03-15T13:00:00+00:00,FT,Bayern - 25,Schwaben Augsburg,12849,Eintracht Bamberg,12757,2,0,True
+1243653,2025-03-15T13:00:00+00:00,FT,Bayern - 25,Ansbach,14621,Hankofen-Hailing,12780,4,0,True
+1243655,2025-03-19T18:00:00+00:00,FT,Bayern - 25,Viktoria Aschaffenburg,9336,Vilzing,12893,0,2,True
+1243660,2025-03-21T18:00:00+00:00,FT,Bayern - 26,Augsburg II,9324,Viktoria Aschaffenburg,9336,2,1,True
+1243661,2025-03-21T18:00:00+00:00,FT,Bayern - 26,Buchbach,9326,Ansbach,14621,1,1,True
+1243664,2025-03-22T13:00:00+00:00,FT,Bayern - 26,FC Schweinfurt 05,1635,Schwaben Augsburg,12849,0,2,True
+1243665,2025-03-22T13:00:00+00:00,FT,Bayern - 26,Greuther Fürth II,9328,Türkgücü-Ataspor,9335,3,2,True
+1243668,2025-03-22T13:00:00+00:00,FT,Bayern - 26,Hankofen-Hailing,12780,Nürnberg II,9332,1,2,True
+1243666,2025-03-22T13:00:00+00:00,FT,Bayern - 26,Vilzing,12893,Würzburger Kickers,784,1,1,True
+1243669,2025-03-28T18:00:00+00:00,FT,Bayern - 27,Bayern München II,4674,Hankofen-Hailing,12780,1,1,True
+1243675,2025-03-28T18:00:00+00:00,FT,Bayern - 27,Wacker Burghausen,9337,FC Schweinfurt 05,1635,2,5,True
+1243672,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Würzburger Kickers,784,Augsburg II,9324,0,3,True
+1243670,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Bayreuth,9325,Vilzing,12893,2,4,True
+1243677,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Nürnberg II,9332,Buchbach,9326,1,2,True
+1243673,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Türkgücü-Ataspor,9335,Illertissen,9330,2,2,True
+1243671,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Viktoria Aschaffenburg,9336,Aubstadt,9323,1,1,True
+1243674,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Schwaben Augsburg,12849,Greuther Fürth II,9328,2,3,True
+1243676,2025-03-29T13:00:00+00:00,FT,Bayern - 27,Ansbach,14621,Eintracht Bamberg,12757,1,1,True
+1243627,2025-04-01T15:45:00+00:00,FT,Bayern - 22,Hankofen-Hailing,12780,Türkgücü-Ataspor,9335,0,2,True
+1243680,2025-04-04T17:00:00+00:00,FT,Bayern - 28,Buchbach,9326,Bayern München II,4674,2,1,True
+1243678,2025-04-04T17:00:00+00:00,FT,Bayern - 28,Illertissen,9330,Schwaben Augsburg,12849,1,1,True
+1243686,2025-04-05T12:00:00+00:00,FT,Bayern - 28,FC Schweinfurt 05,1635,Ansbach,14621,1,2,True
+1243683,2025-04-05T12:00:00+00:00,FT,Bayern - 28,Aubstadt,9323,Würzburger Kickers,784,0,1,True
+1243679,2025-04-05T12:00:00+00:00,FT,Bayern - 28,Augsburg II,9324,Vilzing,12893,0,2,True
+1243682,2025-04-05T12:00:00+00:00,FT,Bayern - 28,Greuther Fürth II,9328,Wacker Burghausen,9337,3,1,True
+1243681,2025-04-05T12:00:00+00:00,FT,Bayern - 28,Türkgücü-Ataspor,9335,Bayreuth,9325,1,4,True
+1243685,2025-04-05T12:00:00+00:00,FT,Bayern - 28,Eintracht Bamberg,12757,Nürnberg II,9332,4,4,True
+1243684,2025-04-05T12:00:00+00:00,FT,Bayern - 28,Hankofen-Hailing,12780,Viktoria Aschaffenburg,9336,0,3,True
+1243546,2025-04-08T16:00:00+00:00,FT,Bayern - 13,Vilzing,12893,Hankofen-Hailing,12780,3,1,True
+1243620,2025-04-08T16:00:00+00:00,FT,Bayern - 21,Ansbach,14621,Würzburger Kickers,784,1,2,True
+1243687,2025-04-11T16:30:00+00:00,FT,Bayern - 29,Bayreuth,9325,Augsburg II,9324,2,2,True
+1243689,2025-04-11T17:00:00+00:00,FT,Bayern - 29,Bayern München II,4674,Eintracht Bamberg,12757,6,0,True
+1243692,2025-04-11T17:00:00+00:00,FT,Bayern - 29,Wacker Burghausen,9337,Illertissen,9330,1,1,True
+1243688,2025-04-11T17:00:00+00:00,FT,Bayern - 29,Schwaben Augsburg,12849,Türkgücü-Ataspor,9335,1,1,True
+1243690,2025-04-12T12:00:00+00:00,FT,Bayern - 29,Würzburger Kickers,784,Hankofen-Hailing,12780,5,1,True
+1243694,2025-04-12T12:00:00+00:00,FT,Bayern - 29,Nürnberg II,9332,FC Schweinfurt 05,1635,2,3,True
+1243695,2025-04-12T12:00:00+00:00,FT,Bayern - 29,Viktoria Aschaffenburg,9336,Buchbach,9326,0,0,True
+1243691,2025-04-12T12:00:00+00:00,FT,Bayern - 29,Vilzing,12893,Aubstadt,9323,0,1,True
+1243693,2025-04-12T12:00:00+00:00,FT,Bayern - 29,Ansbach,14621,Greuther Fürth II,9328,0,0,True
+1243632,2025-04-15T16:00:00+00:00,FT,Bayern - 22,Vilzing,12893,Ansbach,14621,1,0,True
+1243662,2025-04-15T16:30:00+00:00,FT,Bayern - 26,Illertissen,9330,Bayreuth,9325,3,3,True
+1243702,2025-04-17T17:00:00+00:00,FT,Bayern - 30,FC Schweinfurt 05,1635,Bayern München II,4674,1,2,True
+1243698,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Aubstadt,9323,Augsburg II,9324,0,5,True
+1243703,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Greuther Fürth II,9328,Nürnberg II,9332,1,1,True
+1243704,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Illertissen,9330,Ansbach,14621,0,0,True
+1243697,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Türkgücü-Ataspor,9335,Wacker Burghausen,9337,0,2,True
+1243701,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Eintracht Bamberg,12757,Viktoria Aschaffenburg,9336,1,1,True
+1243699,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Hankofen-Hailing,12780,Vilzing,12893,2,3,True
+1243696,2025-04-19T12:00:00+00:00,FT,Bayern - 30,Schwaben Augsburg,12849,Bayreuth,9325,1,1,True
+1243700,2025-04-20T14:00:00+00:00,FT,Bayern - 30,Buchbach,9326,Würzburger Kickers,784,1,0,True
+1243663,2025-04-22T15:00:00+00:00,FT,Bayern - 26,Eintracht Bamberg,12757,Wacker Burghausen,9337,0,4,True
+1243667,2025-04-23T16:15:00+00:00,FT,Bayern - 26,Aubstadt,9323,Bayern München II,4674,2,1,True
+1243705,2025-04-25T16:30:00+00:00,FT,Bayern - 31,Würzburger Kickers,784,Eintracht Bamberg,12757,1,1,True
+1243706,2025-04-25T17:00:00+00:00,FT,Bayern - 31,Augsburg II,9324,Hankofen-Hailing,12780,1,1,True
+1243710,2025-04-25T17:00:00+00:00,FT,Bayern - 31,Viktoria Aschaffenburg,9336,FC Schweinfurt 05,1635,2,2,True
+1243707,2025-04-26T12:00:00+00:00,FT,Bayern - 31,Bayreuth,9325,Aubstadt,9323,3,0,True
+1243558,2025-04-26T12:00:00+00:00,FT,Bayern - 31,Greuther Fürth II,9328,Bayern München II,4674,5,1,True
+1243712,2025-04-26T12:00:00+00:00,FT,Bayern - 31,Nürnberg II,9332,Illertissen,9330,2,0,True
+1243708,2025-04-26T12:00:00+00:00,FT,Bayern - 31,Wacker Burghausen,9337,Schwaben Augsburg,12849,1,0,True
+1243713,2025-04-26T12:00:00+00:00,FT,Bayern - 31,Vilzing,12893,Buchbach,9326,3,1,True
+1243711,2025-04-26T12:00:00+00:00,FT,Bayern - 31,Ansbach,14621,Türkgücü-Ataspor,9335,1,1,True
+1243714,2025-05-02T16:30:00+00:00,FT,Bayern - 32,Hankofen-Hailing,12780,Aubstadt,9323,1,0,True
+1243718,2025-05-02T17:00:00+00:00,FT,Bayern - 32,FC Schweinfurt 05,1635,Würzburger Kickers,784,2,1,True
+1243716,2025-05-02T17:00:00+00:00,FT,Bayern - 32,Buchbach,9326,Augsburg II,9324,5,2,True
+1243715,2025-05-02T17:00:00+00:00,FT,Bayern - 32,Wacker Burghausen,9337,Bayreuth,9325,3,1,True
+1243719,2025-05-03T12:00:00+00:00,FT,Bayern - 32,Greuther Fürth II,9328,Viktoria Aschaffenburg,9336,3,1,True
+1243720,2025-05-03T12:00:00+00:00,FT,Bayern - 32,Illertissen,9330,Bayern München II,4674,2,2,True
+1243721,2025-05-03T12:00:00+00:00,FT,Bayern - 32,Türkgücü-Ataspor,9335,Nürnberg II,9332,0,1,True
+1243717,2025-05-03T12:00:00+00:00,FT,Bayern - 32,Eintracht Bamberg,12757,Vilzing,12893,1,2,True
+1243722,2025-05-03T12:00:00+00:00,FT,Bayern - 32,Schwaben Augsburg,12849,Ansbach,14621,2,3,True
+1243730,2025-05-09T16:30:00+00:00,FT,Bayern - 33,Vilzing,12893,FC Schweinfurt 05,1635,3,1,True
+1243724,2025-05-09T17:00:00+00:00,FT,Bayern - 33,Bayern München II,4674,Türkgücü-Ataspor,9335,5,0,True
+1243726,2025-05-09T17:00:00+00:00,FT,Bayern - 33,Augsburg II,9324,Eintracht Bamberg,12757,0,1,True
+1243725,2025-05-09T17:00:00+00:00,FT,Bayern - 33,Viktoria Aschaffenburg,9336,Illertissen,9330,1,0,True
+1243729,2025-05-10T12:00:00+00:00,FT,Bayern - 33,Würzburger Kickers,784,Greuther Fürth II,9328,1,1,True
+1243731,2025-05-10T12:00:00+00:00,FT,Bayern - 33,Aubstadt,9323,Buchbach,9326,1,1,True
+1243728,2025-05-10T12:00:00+00:00,FT,Bayern - 33,Nürnberg II,9332,Schwaben Augsburg,12849,2,1,True
+1243723,2025-05-10T12:00:00+00:00,FT,Bayern - 33,Hankofen-Hailing,12780,Bayreuth,9325,1,0,True
+1243727,2025-05-10T14:00:00+00:00,FT,Bayern - 33,Ansbach,14621,Wacker Burghausen,9337,0,3,True
+1243734,2025-05-16T17:00:00+00:00,FT,Bayern - 34,FC Schweinfurt 05,1635,Augsburg II,9324,2,0,True
+1243740,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Bayreuth,9325,Ansbach,14621,1,3,True
+1243732,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Buchbach,9326,Hankofen-Hailing,12780,5,1,True
+1243735,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Greuther Fürth II,9328,Vilzing,12893,2,0,True
+1243736,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Illertissen,9330,Würzburger Kickers,784,0,1,True
+1243739,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Wacker Burghausen,9337,Nürnberg II,9332,3,3,True
+1243733,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Eintracht Bamberg,12757,Aubstadt,9323,0,3,True
+1243738,2025-05-17T12:00:00+00:00,FT,Bayern - 34,Schwaben Augsburg,12849,Bayern München II,4674,1,1,True

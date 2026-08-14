@@ -1,16 +1,101 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1318885,2025-03-12T19:00:00+00:00,AET,Jeunesse Canach,2029,Wiltz,11906,1,2,False
-1318886,2025-03-12T19:00:00+00:00,FT,Racing FC Union Luxembourg,2030,Victoria Rosport,2038,3,1,True
-1318889,2025-03-12T19:00:00+00:00,FT,AS Jeunesse Esch,2034,Progres Niederkorn,658,0,3,True
-1318892,2025-03-12T19:00:00+00:00,FT,UN Kaerjeng 97,2035,FC Differdange 03,684,0,4,True
-1318891,2025-03-12T19:00:00+00:00,FT,US Hostert,2040,UNA Strassen,2036,1,2,True
-1318887,2025-03-12T19:00:00+00:00,FT,Bastendorf,15849,F91 Dudelange,578,1,4,True
-1318888,2025-03-12T19:00:00+00:00,FT,Minerva Lintgen,15884,The Belval Belvaux,15911,2,1,True
-1318890,2025-03-12T19:00:00+00:00,FT,Yellow Boys Weiler,15916,Union Titus Petange,2032,2,7,True
-1365150,2025-04-23T18:00:00+00:00,FT,F91 Dudelange,578,UNA Strassen,2036,4,2,True
-1365152,2025-04-23T18:00:00+00:00,FT,Union Titus Petange,2032,FC Differdange 03,684,0,2,True
-1365149,2025-04-23T18:00:00+00:00,FT,Wiltz,11906,Progres Niederkorn,658,3,2,True
-1365151,2025-04-23T18:00:00+00:00,FT,Minerva Lintgen,15884,Racing FC Union Luxembourg,2030,0,4,True
-1372947,2025-05-14T18:00:00+00:00,FT,FC Differdange 03,684,Wiltz,11906,3,0,True
-1372948,2025-05-14T18:00:00+00:00,FT,Racing FC Union Luxembourg,2030,F91 Dudelange,578,2,3,True
-1375671,2025-05-28T17:30:00+00:00,AET,FC Differdange 03,684,F91 Dudelange,578,2,2,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1287049,2024-09-04T18:00:00+00:00,FT,Preliminary Round,Bourscheid,15855,Luna Obercorn,15880,5,2,True
+1287052,2024-09-04T18:00:00+00:00,FT,Preliminary Round,Les Ardoisiers Perlé,15878,Clemency,15859,2,4,True
+1287048,2024-09-04T18:00:00+00:00,FT,Preliminary Round,Olympia Christnach,15892,Kopstal 33,15876,2,1,True
+1287050,2024-09-04T18:00:00+00:00,FT,Preliminary Round,Reisdorf,15898,AS Luxembourg,24713,0,1,True
+1287051,2024-09-04T18:00:00+00:00,FT,Preliminary Round,Sporting Bertrange,15907,Les Aiglons Dalheim,15877,3,1,True
+1287031,2024-09-04T18:00:00+00:00,FT,1st Round,Union Mertert,15914,SC Ell,15901,4,1,True
+1287045,2024-09-06T18:00:00+00:00,FT,1st Round,Folschette,15865,Munsbach,15888,2,1,True
+1287040,2024-09-07T14:00:00+00:00,FT,1st Round,Biekerech,17687,Bastendorf,15849,1,13,True
+1301150,2024-09-07T15:00:00+00:00,FT,1st Round,Olympia Christnach,15892,Yellow Boys Weiler,15916,1,5,True
+1287033,2024-09-07T16:00:00+00:00,FT,1st Round,US Esch,2041,Daring Echternach,15861,1,4,True
+1287035,2024-09-07T16:00:00+00:00,FT,1st Round,Grevenmacher,11905,Blô-Weiss Medernach,15853,1,2,True
+1287042,2024-09-07T16:00:00+00:00,FT,1st Round,Boevange / Attert,15854,Minerva Lintgen,15884,1,2,True
+1301148,2024-09-07T16:00:00+00:00,FT,1st Round,Bourscheid,15855,Jeunesse Schieren,15870,0,7,True
+1287041,2024-09-07T16:00:00+00:00,AET,1st Round,Brouch,15856,Blo-Wäiss Izeg,15852,3,5,False
+1287027,2024-09-07T16:00:00+00:00,FT,1st Round,Claravallis Clervaux,15858,Red Boys Aspelt,15897,0,2,True
+1301149,2024-09-07T16:00:00+00:00,FT,1st Round,Clemency,15859,Green Boys,15866,3,1,True
+1287047,2024-09-07T16:00:00+00:00,FT,1st Round,Jeunesse Useldange,15871,Berdorf Consdorf,15851,3,1,True
+1287022,2024-09-07T16:00:00+00:00,FT,1st Round,Kehlen,15872,The Belval Belvaux,15911,1,5,True
+1287046,2024-09-07T16:00:00+00:00,AET,1st Round,Kischpelt Wilwerwiltz,15873,Red Black Egalité,15896,3,5,False
+1287025,2024-09-07T16:00:00+00:00,FT,1st Round,Koerich,15875,Young Boys,15917,3,4,True
+1287030,2024-09-07T16:00:00+00:00,FT,1st Round,Minière Lasauvage,15885,Stengefort,15909,0,1,True
+1287024,2024-09-07T16:00:00+00:00,FT,1st Round,Moutfort / Medingen,15887,Jeunesse Gilsdorf,15868,4,0,True
+1287034,2024-09-07T16:00:00+00:00,FT,1st Round,Noertzange,15889,Sporting Mertzig,15908,1,4,True
+1287044,2024-09-07T16:00:00+00:00,FT,1st Round,Obercorn,15891,Norden,15890,1,0,True
+1287023,2024-09-07T16:00:00+00:00,FT,1st Round,Pratzerthal-Redange,15893,Union Kayl-Tétange,11908,4,5,True
+1287037,2024-09-07T16:00:00+00:00,FT,1st Round,Racing Troisvierges,15894,Lorentzweiler,15879,2,4,True
+1301151,2024-09-07T16:00:00+00:00,FT,1st Round,Rambrouch,15895,AS Luxembourg,24713,1,2,True
+1287026,2024-09-07T16:00:00+00:00,FT,1st Round,Rupensia Lusitanos,15899,Hosingen,15867,5,3,True
+1287036,2024-09-07T16:00:00+00:00,FT,1st Round,Sanem,15903,URB,15913,1,2,True
+1287021,2024-09-07T16:00:00+00:00,FT,1st Round,Schouweiler,15906,Ehlerange,15862,3,5,True
+1287038,2024-09-07T16:00:00+00:00,FT,1st Round,Tricolore Gasperich,15912,Colmarberg,15860,2,4,True
+1287029,2024-09-07T16:00:00+00:00,AET,1st Round,Wincrange,15915,Alliance Aischdall,15846,3,4,False
+1287028,2024-09-07T16:00:00+00:00,FT,1st Round,Excelsior Grevels,17688,Schengen,15904,1,8,True
+1287032,2024-09-07T16:00:00+00:00,FT,1st Round,Heiderscheid / Eschdorf,17689,Orania Vianden,17691,0,3,True
+1301152,2024-09-07T16:00:00+00:00,FT,1st Round,Jeunesse Biwer,17690,Sporting Bertrange,15907,2,3,True
+1287043,2024-09-07T16:00:00+00:00,FT,1st Round,Red Star Merl-Belair,20004,Syra Mensdorf,15910,0,2,True
+1287039,2024-09-07T17:15:00+00:00,FT,1st Round,Jeunesse Junglinster,15869,Erpeldange,15863,3,1,True
+1306988,2024-10-04T18:00:00+00:00,FT,2nd Round,Folschette,15865,US Rumelange,2033,0,6,True
+1306965,2024-10-05T15:00:00+00:00,FT,2nd Round,Alliance Aischdall,15846,Alisontia Steinsel,15845,2,3,True
+1306978,2024-10-05T15:00:00+00:00,FT,2nd Round,Bastendorf,15849,RM Hamm Benfica,2031,3,2,True
+1306970,2024-10-05T15:00:00+00:00,FT,2nd Round,Blô-Weiss Medernach,15853,UNA Strassen,2036,0,4,True
+1306984,2024-10-05T16:00:00+00:00,FT,2nd Round,Stengefort,15909,Swift Hesperange,11907,0,3,True
+1306981,2024-10-05T16:00:00+00:00,FT,2nd Round,Orania Vianden,17691,Berdenia Berbourg,15850,4,3,True
+1306962,2024-10-05T16:30:00+00:00,FT,2nd Round,Ehlerange,15862,Fola Esch,626,1,3,True
+1306973,2024-10-06T14:00:00+00:00,FT,2nd Round,Union Kayl-Tétange,11908,Avenir Beggen,15848,2,0,True
+1306987,2024-10-06T14:00:00+00:00,FT,2nd Round,Blo-Wäiss Izeg,15852,Wiltz,11906,0,4,True
+1306991,2024-10-06T14:00:00+00:00,FT,2nd Round,Clemency,15859,US Mondorf-les-bains,2037,0,4,True
+1306961,2024-10-06T14:00:00+00:00,FT,2nd Round,Colmarberg,15860,FC Differdange 03,684,0,14,True
+1306972,2024-10-06T14:00:00+00:00,AET,2nd Round,Daring Echternach,15861,Etzella Ettelbruck,2042,2,2,False
+1306974,2024-10-06T14:00:00+00:00,AET,2nd Round,Jeunesse Junglinster,15869,Feulen,15864,2,1,False
+1306964,2024-10-06T14:00:00+00:00,FT,2nd Round,Jeunesse Schieren,15870,Rodange 91,2039,1,3,True
+1306977,2024-10-06T14:00:00+00:00,FT,2nd Round,Jeunesse Useldange,15871,Marisca Mersch,15883,1,3,True
+1306992,2024-10-06T14:00:00+00:00,FT,2nd Round,Lorentzweiler,15879,Victoria Rosport,2038,0,2,True
+1306985,2024-10-06T14:00:00+00:00,FT,2nd Round,Minerva Lintgen,15884,Atert Bissen,15847,1,0,True
+1306975,2024-10-06T14:00:00+00:00,FT,2nd Round,Moutfort / Medingen,15887,Bettembourg,10881,1,4,True
+1306986,2024-10-06T14:00:00+00:00,FT,2nd Round,Obercorn,15891,Racing FC Union Luxembourg,2030,0,1,True
+1306969,2024-10-06T14:00:00+00:00,FT,2nd Round,Red Black Egalité,15896,UN Kaerjeng 97,2035,1,2,True
+1306983,2024-10-06T14:00:00+00:00,FT,2nd Round,Red Boys Aspelt,15897,Progres Niederkorn,658,0,8,True
+1306963,2024-10-06T14:00:00+00:00,FT,2nd Round,Rupensia Lusitanos,15899,Mondercange,15886,1,6,True
+1306982,2024-10-06T14:00:00+00:00,FT,2nd Round,Schengen,15904,US Hostert,2040,1,5,True
+1306968,2024-10-06T14:00:00+00:00,FT,2nd Round,Sporting Bertrange,15907,AS Jeunesse Esch,2034,1,7,True
+1306976,2024-10-06T14:00:00+00:00,FT,2nd Round,Sporting Mertzig,15908,Union Titus Petange,2032,2,4,True
+1306966,2024-10-06T14:00:00+00:00,FT,2nd Round,Syra Mensdorf,15910,F91 Dudelange,578,2,5,True
+1306979,2024-10-06T14:00:00+00:00,FT,2nd Round,The Belval Belvaux,15911,Sandweiler,15902,5,0,True
+1306980,2024-10-06T14:00:00+00:00,FT,2nd Round,URB,15913,Koeppchen,15874,3,2,True
+1306967,2024-10-06T14:00:00+00:00,FT,2nd Round,Union Mertert,15914,Schifflange,15905,0,3,True
+1306990,2024-10-06T14:00:00+00:00,FT,2nd Round,Yellow Boys Weiler,15916,Mamer,15882,3,1,True
+1306971,2024-10-06T14:00:00+00:00,FT,2nd Round,Young Boys,15917,Résidence Walferdange,15900,1,2,True
+1306989,2024-10-06T14:00:00+00:00,FT,2nd Round,AS Luxembourg,24713,Jeunesse Canach,2029,1,2,True
+1311759,2024-11-09T17:00:00+00:00,FT,Round of 32,Racing FC Union Luxembourg,2030,Swift Hesperange,11907,2,0,True
+1311769,2024-11-09T17:00:00+00:00,FT,Round of 32,Jeunesse Junglinster,15869,US Hostert,2040,2,4,True
+1311764,2024-11-10T15:00:00+00:00,FT,Round of 32,Jeunesse Canach,2029,Rodange 91,2039,2,0,True
+1311758,2024-11-10T15:00:00+00:00,FT,Round of 32,US Rumelange,2033,Progres Niederkorn,658,1,3,True
+1311755,2024-11-10T15:00:00+00:00,AET,Round of 32,UN Kaerjeng 97,2035,Marisca Mersch,15883,1,1,False
+1311768,2024-11-10T15:00:00+00:00,FT,Round of 32,Victoria Rosport,2038,Bettembourg,10881,2,0,True
+1311770,2024-11-10T15:00:00+00:00,FT,Round of 32,Union Kayl-Tétange,11908,UNA Strassen,2036,0,8,True
+1311756,2024-11-10T15:00:00+00:00,FT,Round of 32,Alisontia Steinsel,15845,FC Differdange 03,684,0,1,True
+1311760,2024-11-10T15:00:00+00:00,AET,Round of 32,Bastendorf,15849,Orania Vianden,17691,3,1,False
+1311763,2024-11-10T15:00:00+00:00,AET,Round of 32,Minerva Lintgen,15884,Daring Echternach,15861,1,1,False
+1311766,2024-11-10T15:00:00+00:00,FT,Round of 32,Mondercange,15886,Wiltz,11906,1,6,True
+1311767,2024-11-10T15:00:00+00:00,FT,Round of 32,Résidence Walferdange,15900,AS Jeunesse Esch,2034,0,1,True
+1311762,2024-11-10T15:00:00+00:00,FT,Round of 32,URB,15913,F91 Dudelange,578,2,3,True
+1311761,2024-11-10T15:00:00+00:00,FT,Round of 32,Yellow Boys Weiler,15916,Schifflange,15905,1,0,True
+1311765,2024-11-20T19:00:00+00:00,FT,Round of 32,Fola Esch,626,Union Titus Petange,2032,1,3,True
+1311757,2024-11-27T19:00:00+00:00,FT,Round of 32,The Belval Belvaux,15911,US Mondorf-les-bains,2037,1,0,True
+1318885,2025-03-12T19:00:00+00:00,AET,Round of 16,Jeunesse Canach,2029,Wiltz,11906,1,2,False
+1318886,2025-03-12T19:00:00+00:00,FT,Round of 16,Racing FC Union Luxembourg,2030,Victoria Rosport,2038,3,1,True
+1318889,2025-03-12T19:00:00+00:00,FT,Round of 16,AS Jeunesse Esch,2034,Progres Niederkorn,658,0,3,True
+1318892,2025-03-12T19:00:00+00:00,FT,Round of 16,UN Kaerjeng 97,2035,FC Differdange 03,684,0,4,True
+1318891,2025-03-12T19:00:00+00:00,FT,Round of 16,US Hostert,2040,UNA Strassen,2036,1,2,True
+1318887,2025-03-12T19:00:00+00:00,FT,Round of 16,Bastendorf,15849,F91 Dudelange,578,1,4,True
+1318888,2025-03-12T19:00:00+00:00,FT,Round of 16,Minerva Lintgen,15884,The Belval Belvaux,15911,2,1,True
+1318890,2025-03-12T19:00:00+00:00,FT,Round of 16,Yellow Boys Weiler,15916,Union Titus Petange,2032,2,7,True
+1365150,2025-04-23T18:00:00+00:00,FT,Quarter-finals,F91 Dudelange,578,UNA Strassen,2036,4,2,True
+1365152,2025-04-23T18:00:00+00:00,FT,Quarter-finals,Union Titus Petange,2032,FC Differdange 03,684,0,2,True
+1365149,2025-04-23T18:00:00+00:00,FT,Quarter-finals,Wiltz,11906,Progres Niederkorn,658,3,2,True
+1365151,2025-04-23T18:00:00+00:00,FT,Quarter-finals,Minerva Lintgen,15884,Racing FC Union Luxembourg,2030,0,4,True
+1372947,2025-05-14T18:00:00+00:00,FT,Semi-finals,FC Differdange 03,684,Wiltz,11906,3,0,True
+1372948,2025-05-14T18:00:00+00:00,FT,Semi-finals,Racing FC Union Luxembourg,2030,F91 Dudelange,578,2,3,True
+1375671,2025-05-28T17:30:00+00:00,AET,Final,FC Differdange 03,684,F91 Dudelange,578,2,2,False

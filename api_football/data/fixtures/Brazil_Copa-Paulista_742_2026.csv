@@ -1,49 +1,49 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1546073,2026-07-17T22:30:00+00:00,FT,Marília,10035,Grêmio Prudente,20713,1,0,True
-1546075,2026-07-18T18:00:00+00:00,FT,Paulista,10038,Primavera SP,10039,1,0,True
-1546071,2026-07-18T19:00:00+00:00,FT,Comercial,10031,Noroeste,10037,2,0,True
-1546070,2026-07-18T22:00:00+00:00,FT,Bandeirante SP,15621,Linense,7846,0,0,True
-1546072,2026-07-19T13:00:00+00:00,FT,EC São Bernardo,10033,Santo André,10003,3,1,True
-1546074,2026-07-19T14:00:00+00:00,FT,Oeste,143,Juventus,10019,0,1,True
-1546069,2026-07-20T18:00:00+00:00,FT,São Caetano,7786,São José EC,15622,1,2,True
-1546076,2026-07-22T22:00:00+00:00,FT,União São João,22852,XV de Piracicaba,7870,0,0,True
-1546080,2026-07-25T18:00:00+00:00,FT,Noroeste,10037,União São João,22852,2,2,True
-1546081,2026-07-25T21:00:00+00:00,FT,XV de Piracicaba,7870,Comercial,10031,0,2,True
-1546082,2026-07-25T22:00:00+00:00,FT,Primavera SP,10039,Oeste,143,2,0,True
-1546084,2026-07-25T22:00:00+00:00,FT,São José EC,15622,EC São Bernardo,10033,2,1,True
-1546079,2026-07-26T13:00:00+00:00,FT,Linense,7846,Marília,10035,3,1,True
-1546083,2026-07-26T13:00:00+00:00,FT,Santo André,10003,São Caetano,7786,0,0,True
-1546077,2026-07-26T13:00:00+00:00,FT,Juventus,10019,Paulista,10038,3,1,True
-1546078,2026-07-27T22:30:00+00:00,FT,Grêmio Prudente,20713,Bandeirante SP,15621,1,0,True
-1546088,2026-07-31T23:00:00+00:00,FT,Comercial,10031,União São João,22852,0,1,True
-1546086,2026-08-01T18:00:00+00:00,FT,São Caetano,7786,EC São Bernardo,10033,1,4,True
-1546090,2026-08-01T18:00:00+00:00,FT,Paulista,10038,Oeste,143,0,2,True
-1546091,2026-08-01T21:00:00+00:00,FT,XV de Piracicaba,7870,Noroeste,10037,1,1,True
-1546087,2026-08-01T22:00:00+00:00,FT,Bandeirante SP,15621,Marília,10035,3,1,True
-1546092,2026-08-02T13:00:00+00:00,FT,Santo André,10003,São José EC,15622,1,0,True
-1546085,2026-08-02T19:00:00+00:00,FT,Juventus,10019,Primavera SP,10039,0,1,True
-1546089,2026-08-03T22:30:00+00:00,FT,Grêmio Prudente,20713,Linense,7846,0,0,True
-1546098,2026-08-08T20:00:00+00:00,NS,Primavera SP,10039,Juventus,10019,,,False
-1546100,2026-08-08T20:00:00+00:00,NS,União São João,22852,Comercial,10031,,,False
-1546099,2026-08-08T22:00:00+00:00,NS,São José EC,15622,Santo André,10003,,,False
-1546094,2026-08-09T13:00:00+00:00,NS,Linense,7846,Grêmio Prudente,20713,,,False
-1546096,2026-08-09T13:00:00+00:00,NS,Noroeste,10037,XV de Piracicaba,7870,,,False
-1546097,2026-08-09T14:00:00+00:00,NS,Oeste,143,Paulista,10038,,,False
-1546093,2026-08-09T14:00:00+00:00,NS,EC São Bernardo,10033,São Caetano,7786,,,False
-1546095,2026-08-10T22:30:00+00:00,NS,Marília,10035,Bandeirante SP,15621,,,False
-1546102,2026-08-14T23:00:00+00:00,NS,Bandeirante SP,15621,Grêmio Prudente,20713,,,False
-1546107,2026-08-15T18:00:00+00:00,NS,Paulista,10038,Juventus,10019,,,False
-1546105,2026-08-15T22:30:00+00:00,NS,Marília,10035,Linense,7846,,,False
-1546104,2026-08-16T13:00:00+00:00,NS,EC São Bernardo,10033,São José EC,15622,,,False
-1546106,2026-08-16T14:00:00+00:00,NS,Oeste,143,Primavera SP,10039,,,False
-1546101,2026-08-17T18:00:00+00:00,NS,São Caetano,7786,Santo André,10003,,,False
-1546108,2026-08-19T22:00:00+00:00,NS,União São João,22852,Noroeste,10037,,,False
-1546103,2026-08-19T23:00:00+00:00,NS,Comercial,10031,XV de Piracicaba,7870,,,False
-1546111,2026-08-22T18:00:00+00:00,NS,Linense,7846,Bandeirante SP,15621,,,False
-1546113,2026-08-22T18:00:00+00:00,NS,XV de Piracicaba,7870,União São João,22852,,,False
-1546115,2026-08-22T18:00:00+00:00,NS,Santo André,10003,EC São Bernardo,10033,,,False
-1546110,2026-08-22T18:00:00+00:00,NS,Juventus,10019,Oeste,143,,,False
-1546112,2026-08-22T18:00:00+00:00,NS,Noroeste,10037,Comercial,10031,,,False
-1546114,2026-08-22T18:00:00+00:00,NS,Primavera SP,10039,Paulista,10038,,,False
-1546116,2026-08-22T18:00:00+00:00,NS,São José EC,15622,São Caetano,7786,,,False
-1546109,2026-08-22T18:00:00+00:00,NS,Grêmio Prudente,20713,Marília,10035,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1546073,2026-07-17T22:30:00+00:00,FT,Group Stage - 1,Marília,10035,Grêmio Prudente,20713,1,0,True
+1546075,2026-07-18T18:00:00+00:00,FT,Group Stage - 1,Paulista,10038,Primavera SP,10039,1,0,True
+1546071,2026-07-18T19:00:00+00:00,FT,Group Stage - 1,Comercial,10031,Noroeste,10037,2,0,True
+1546070,2026-07-18T22:00:00+00:00,FT,Group Stage - 1,Bandeirante SP,15621,Linense,7846,0,0,True
+1546072,2026-07-19T13:00:00+00:00,FT,Group Stage - 1,EC São Bernardo,10033,Santo André,10003,3,1,True
+1546074,2026-07-19T14:00:00+00:00,FT,Group Stage - 1,Oeste,143,Juventus,10019,0,1,True
+1546069,2026-07-20T18:00:00+00:00,FT,Group Stage - 1,São Caetano,7786,São José EC,15622,1,2,True
+1546076,2026-07-22T22:00:00+00:00,FT,Group Stage - 1,União São João,22852,XV de Piracicaba,7870,0,0,True
+1546080,2026-07-25T18:00:00+00:00,FT,Group Stage - 2,Noroeste,10037,União São João,22852,2,2,True
+1546081,2026-07-25T21:00:00+00:00,FT,Group Stage - 2,XV de Piracicaba,7870,Comercial,10031,0,2,True
+1546082,2026-07-25T22:00:00+00:00,FT,Group Stage - 2,Primavera SP,10039,Oeste,143,2,0,True
+1546084,2026-07-25T22:00:00+00:00,FT,Group Stage - 2,São José EC,15622,EC São Bernardo,10033,2,1,True
+1546079,2026-07-26T13:00:00+00:00,FT,Group Stage - 2,Linense,7846,Marília,10035,3,1,True
+1546083,2026-07-26T13:00:00+00:00,FT,Group Stage - 2,Santo André,10003,São Caetano,7786,0,0,True
+1546077,2026-07-26T13:00:00+00:00,FT,Group Stage - 2,Juventus,10019,Paulista,10038,3,1,True
+1546078,2026-07-27T22:30:00+00:00,FT,Group Stage - 2,Grêmio Prudente,20713,Bandeirante SP,15621,1,0,True
+1546088,2026-07-31T23:00:00+00:00,FT,Group Stage - 3,Comercial,10031,União São João,22852,0,1,True
+1546086,2026-08-01T18:00:00+00:00,FT,Group Stage - 3,São Caetano,7786,EC São Bernardo,10033,1,4,True
+1546090,2026-08-01T18:00:00+00:00,FT,Group Stage - 3,Paulista,10038,Oeste,143,0,2,True
+1546091,2026-08-01T21:00:00+00:00,FT,Group Stage - 3,XV de Piracicaba,7870,Noroeste,10037,1,1,True
+1546087,2026-08-01T22:00:00+00:00,FT,Group Stage - 3,Bandeirante SP,15621,Marília,10035,3,1,True
+1546092,2026-08-02T13:00:00+00:00,FT,Group Stage - 3,Santo André,10003,São José EC,15622,1,0,True
+1546085,2026-08-02T19:00:00+00:00,FT,Group Stage - 3,Juventus,10019,Primavera SP,10039,0,1,True
+1546089,2026-08-03T22:30:00+00:00,FT,Group Stage - 3,Grêmio Prudente,20713,Linense,7846,0,0,True
+1546098,2026-08-08T20:00:00+00:00,NS,Group Stage - 4,Primavera SP,10039,Juventus,10019,,,False
+1546100,2026-08-08T20:00:00+00:00,NS,Group Stage - 4,União São João,22852,Comercial,10031,,,False
+1546099,2026-08-08T22:00:00+00:00,NS,Group Stage - 4,São José EC,15622,Santo André,10003,,,False
+1546094,2026-08-09T13:00:00+00:00,NS,Group Stage - 4,Linense,7846,Grêmio Prudente,20713,,,False
+1546096,2026-08-09T13:00:00+00:00,NS,Group Stage - 4,Noroeste,10037,XV de Piracicaba,7870,,,False
+1546097,2026-08-09T14:00:00+00:00,NS,Group Stage - 4,Oeste,143,Paulista,10038,,,False
+1546093,2026-08-09T14:00:00+00:00,NS,Group Stage - 4,EC São Bernardo,10033,São Caetano,7786,,,False
+1546095,2026-08-10T22:30:00+00:00,NS,Group Stage - 4,Marília,10035,Bandeirante SP,15621,,,False
+1546102,2026-08-14T23:00:00+00:00,NS,Group Stage - 5,Bandeirante SP,15621,Grêmio Prudente,20713,,,False
+1546107,2026-08-15T18:00:00+00:00,NS,Group Stage - 5,Paulista,10038,Juventus,10019,,,False
+1546105,2026-08-15T22:30:00+00:00,NS,Group Stage - 5,Marília,10035,Linense,7846,,,False
+1546104,2026-08-16T13:00:00+00:00,NS,Group Stage - 5,EC São Bernardo,10033,São José EC,15622,,,False
+1546106,2026-08-16T14:00:00+00:00,NS,Group Stage - 5,Oeste,143,Primavera SP,10039,,,False
+1546101,2026-08-17T18:00:00+00:00,NS,Group Stage - 5,São Caetano,7786,Santo André,10003,,,False
+1546108,2026-08-19T22:00:00+00:00,NS,Group Stage - 5,União São João,22852,Noroeste,10037,,,False
+1546103,2026-08-19T23:00:00+00:00,NS,Group Stage - 5,Comercial,10031,XV de Piracicaba,7870,,,False
+1546111,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,Linense,7846,Bandeirante SP,15621,,,False
+1546113,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,XV de Piracicaba,7870,União São João,22852,,,False
+1546115,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,Santo André,10003,EC São Bernardo,10033,,,False
+1546110,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,Juventus,10019,Oeste,143,,,False
+1546112,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,Noroeste,10037,Comercial,10031,,,False
+1546114,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,Primavera SP,10039,Paulista,10038,,,False
+1546116,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,São José EC,15622,São Caetano,7786,,,False
+1546109,2026-08-22T18:00:00+00:00,NS,Group Stage - 6,Grêmio Prudente,20713,Marília,10035,,,False

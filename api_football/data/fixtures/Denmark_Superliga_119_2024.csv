@@ -1,92 +1,194 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1205526,2025-02-14T18:00:00+00:00,FT,Brondby,407,Viborg,2070,4,1,True
-1205527,2025-02-16T13:00:00+00:00,FT,Silkeborg,2073,Vejle,395,0,1,True
-1205529,2025-02-16T15:00:00+00:00,FT,Sonderjyske,396,Aarhus,406,1,4,True
-1205531,2025-02-16T17:00:00+00:00,FT,FC Midtjylland,397,Lyngby,625,1,0,True
-1205530,2025-02-17T18:00:00+00:00,FT,Randers FC,401,FC Copenhagen,400,1,2,True
-1205534,2025-02-21T18:00:00+00:00,FT,Lyngby,625,Randers FC,401,0,0,True
-1205533,2025-02-23T13:00:00+00:00,FT,FC Nordsjaelland,398,Sonderjyske,396,3,2,True
-1205537,2025-02-23T13:00:00+00:00,FT,Aarhus,406,Aalborg,402,4,0,True
-1205535,2025-02-23T15:00:00+00:00,FT,Vejle,395,Brondby,407,2,2,True
-1205532,2025-02-23T17:00:00+00:00,FT,FC Copenhagen,400,FC Midtjylland,397,1,0,True
-1205536,2025-02-24T18:00:00+00:00,FT,Viborg,2070,Silkeborg,2073,1,4,True
-1205528,2025-02-26T13:00:00+00:00,FT,Aalborg,402,FC Nordsjaelland,398,1,2,True
-1205541,2025-02-28T18:00:00+00:00,FT,Randers FC,401,Aarhus,406,1,1,True
-1205542,2025-03-02T13:00:00+00:00,FT,Sonderjyske,396,Silkeborg,2073,1,3,True
-1205543,2025-03-02T13:00:00+00:00,FT,Viborg,2070,Vejle,395,3,1,True
-1205539,2025-03-02T15:00:00+00:00,FT,FC Midtjylland,397,FC Nordsjaelland,398,2,1,True
-1205540,2025-03-02T17:00:00+00:00,FT,Aalborg,402,FC Copenhagen,400,0,0,True
-1205538,2025-03-03T18:00:00+00:00,FT,Brondby,407,Lyngby,625,1,1,True
-1205546,2025-03-07T18:00:00+00:00,FT,FC Nordsjaelland,398,Vejle,395,3,1,True
-1205547,2025-03-09T13:00:00+00:00,FT,Aalborg,402,FC Midtjylland,397,1,4,True
-1205549,2025-03-09T13:00:00+00:00,FT,Silkeborg,2073,Lyngby,625,0,1,True
-1205544,2025-03-09T15:00:00+00:00,FT,Aarhus,406,Viborg,2070,1,1,True
-1205545,2025-03-09T17:00:00+00:00,FT,FC Copenhagen,400,Sonderjyske,396,1,1,True
-1205548,2025-03-10T18:00:00+00:00,FT,Randers FC,401,Brondby,407,4,2,True
-1205553,2025-03-16T16:00:00+00:00,FT,Vejle,395,Aarhus,406,3,2,True
-1205555,2025-03-16T16:00:00+00:00,FT,Sonderjyske,396,Aalborg,402,0,3,True
-1205551,2025-03-16T16:00:00+00:00,FT,FC Midtjylland,397,Randers FC,401,4,2,True
-1205550,2025-03-16T16:00:00+00:00,FT,Brondby,407,Silkeborg,2073,2,2,True
-1205552,2025-03-16T16:00:00+00:00,FT,Lyngby,625,FC Nordsjaelland,398,1,0,True
-1205554,2025-03-16T16:00:00+00:00,FT,Viborg,2070,FC Copenhagen,400,3,2,True
-1362792,2025-03-28T18:00:00+00:00,FT,Aalborg,402,Viborg,2070,0,4,True
-1362793,2025-03-30T12:00:00+00:00,FT,Sonderjyske,396,Silkeborg,2073,2,1,True
-1362794,2025-03-30T12:00:00+00:00,FT,Lyngby,625,Vejle,395,1,2,True
-1362762,2025-03-30T14:00:00+00:00,FT,Aarhus,406,FC Nordsjaelland,398,2,0,True
-1362763,2025-03-30T16:00:00+00:00,FT,FC Midtjylland,397,Brondby,407,0,2,True
-1362764,2025-03-31T17:00:00+00:00,FT,FC Copenhagen,400,Randers FC,401,1,0,True
-1362765,2025-04-04T17:00:00+00:00,FT,Randers FC,401,FC Midtjylland,397,2,1,True
-1362795,2025-04-06T12:00:00+00:00,FT,Viborg,2070,Sonderjyske,396,2,1,True
-1362796,2025-04-06T12:00:00+00:00,FT,Silkeborg,2073,Lyngby,625,2,1,True
-1362797,2025-04-06T14:00:00+00:00,FT,Vejle,395,Aalborg,402,1,1,True
-1362766,2025-04-06T16:00:00+00:00,FT,FC Nordsjaelland,398,FC Copenhagen,400,0,1,True
-1362767,2025-04-07T17:00:00+00:00,FT,Brondby,407,Aarhus,406,2,1,True
-1362798,2025-04-11T17:00:00+00:00,FT,Aalborg,402,Lyngby,625,2,2,True
-1362768,2025-04-13T12:00:00+00:00,FT,FC Copenhagen,400,Brondby,407,1,2,True
-1362799,2025-04-13T12:00:00+00:00,FT,Viborg,2070,Silkeborg,2073,2,1,True
-1362769,2025-04-13T14:00:00+00:00,FT,Aarhus,406,FC Midtjylland,397,1,1,True
-1362770,2025-04-13T16:00:00+00:00,FT,FC Nordsjaelland,398,Randers FC,401,5,2,True
-1362800,2025-04-14T17:00:00+00:00,FT,Sonderjyske,396,Vejle,395,1,0,True
-1362801,2025-04-16T17:00:00+00:00,FT,Silkeborg,2073,Aalborg,402,4,0,True
-1362803,2025-04-17T12:00:00+00:00,FT,Vejle,395,Viborg,2070,3,3,True
-1362802,2025-04-17T12:00:00+00:00,FT,Lyngby,625,Sonderjyske,396,0,2,True
-1362771,2025-04-17T14:00:00+00:00,FT,Randers FC,401,Aarhus,406,3,1,True
-1362772,2025-04-17T16:00:00+00:00,FT,FC Midtjylland,397,FC Copenhagen,400,4,2,True
-1362773,2025-04-18T17:00:00+00:00,FT,Brondby,407,FC Nordsjaelland,398,0,0,True
-1362804,2025-04-20T15:00:00+00:00,FT,Aalborg,402,Sonderjyske,396,2,3,True
-1362805,2025-04-21T12:00:00+00:00,FT,Vejle,395,Silkeborg,2073,0,4,True
-1362806,2025-04-21T12:00:00+00:00,FT,Viborg,2070,Lyngby,625,1,1,True
-1362774,2025-04-21T14:00:00+00:00,FT,Brondby,407,Randers FC,401,4,3,True
-1362775,2025-04-21T16:00:00+00:00,FT,FC Copenhagen,400,Aarhus,406,3,1,True
-1362776,2025-04-22T17:00:00+00:00,FT,FC Nordsjaelland,398,FC Midtjylland,397,3,2,True
-1362777,2025-04-25T17:00:00+00:00,FT,Randers FC,401,Brondby,407,0,0,True
-1362807,2025-04-27T12:00:00+00:00,FT,Sonderjyske,396,Viborg,2070,2,2,True
-1362808,2025-04-27T12:00:00+00:00,FT,Lyngby,625,Silkeborg,2073,2,0,True
-1362778,2025-04-27T14:00:00+00:00,FT,Aarhus,406,FC Copenhagen,400,1,3,True
-1362779,2025-04-27T16:00:00+00:00,FT,FC Midtjylland,397,FC Nordsjaelland,398,5,0,True
-1362809,2025-04-28T17:00:00+00:00,FT,Aalborg,402,Vejle,395,0,1,True
-1362780,2025-05-02T17:00:00+00:00,FT,Randers FC,401,FC Nordsjaelland,398,3,2,True
-1362811,2025-05-04T12:00:00+00:00,FT,Lyngby,625,Viborg,2070,0,0,True
-1362810,2025-05-04T12:00:00+00:00,FT,Silkeborg,2073,Vejle,395,1,1,True
-1362781,2025-05-04T14:00:00+00:00,FT,Brondby,407,FC Copenhagen,400,0,3,True
-1362782,2025-05-04T16:00:00+00:00,FT,FC Midtjylland,397,Aarhus,406,3,1,True
-1362812,2025-05-05T17:00:00+00:00,FT,Sonderjyske,396,Aalborg,402,2,2,True
-1362783,2025-05-11T12:00:00+00:00,FT,FC Nordsjaelland,398,Brondby,407,2,2,True
-1362813,2025-05-11T12:00:00+00:00,FT,Silkeborg,2073,Sonderjyske,396,1,0,True
-1362784,2025-05-11T14:00:00+00:00,FT,Aarhus,406,Randers FC,401,1,3,True
-1362814,2025-05-11T16:00:00+00:00,FT,Viborg,2070,Aalborg,402,3,1,True
-1362785,2025-05-11T18:00:00+00:00,FT,FC Copenhagen,400,FC Midtjylland,397,1,1,True
-1362815,2025-05-12T17:00:00+00:00,FT,Vejle,395,Lyngby,625,2,0,True
-1362786,2025-05-16T17:00:00+00:00,FT,FC Nordsjaelland,398,Aarhus,406,2,0,True
-1362816,2025-05-18T12:00:00+00:00,FT,Aalborg,402,Silkeborg,2073,2,3,True
-1362817,2025-05-18T12:00:00+00:00,FT,Viborg,2070,Vejle,395,0,1,True
-1362818,2025-05-18T14:00:00+00:00,FT,Sonderjyske,396,Lyngby,625,5,1,True
-1362787,2025-05-18T16:00:00+00:00,FT,Randers FC,401,FC Copenhagen,400,0,4,True
-1362788,2025-05-19T17:00:00+00:00,FT,Brondby,407,FC Midtjylland,397,1,2,True
-1362821,2025-05-24T13:00:00+00:00,FT,Vejle,395,Sonderjyske,396,2,3,True
-1362820,2025-05-24T13:00:00+00:00,FT,Lyngby,625,Aalborg,402,3,1,True
-1362819,2025-05-24T13:00:00+00:00,FT,Silkeborg,2073,Viborg,2070,1,2,True
-1362789,2025-05-25T15:00:00+00:00,FT,FC Midtjylland,397,Randers FC,401,3,2,True
-1362790,2025-05-25T15:00:00+00:00,FT,FC Copenhagen,400,FC Nordsjaelland,398,3,0,True
-1362791,2025-05-25T15:00:00+00:00,FT,Aarhus,406,Brondby,407,2,3,True
-1376896,2025-06-01T16:30:00+00:00,FT,Randers FC,401,Silkeborg,2073,1,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1205424,2024-07-19T16:00:00+00:00,FT,Regular Season - 1,Aarhus,406,FC Midtjylland,397,1,1,True
+1205425,2024-07-19T18:00:00+00:00,FT,Regular Season - 1,FC Nordsjaelland,398,Aalborg,402,3,0,True
+1205426,2024-07-21T12:00:00+00:00,FT,Regular Season - 1,Silkeborg,2073,Sonderjyske,396,1,0,True
+1205427,2024-07-21T14:00:00+00:00,FT,Regular Season - 1,Vejle,395,Randers FC,401,2,3,True
+1205428,2024-07-21T16:00:00+00:00,FT,Regular Season - 1,Viborg,2070,Brondby,407,3,3,True
+1205429,2024-07-22T17:00:00+00:00,FT,Regular Season - 1,Lyngby,625,FC Copenhagen,400,0,2,True
+1205430,2024-07-26T17:00:00+00:00,FT,Regular Season - 2,Sonderjyske,396,Lyngby,625,1,1,True
+1205431,2024-07-27T14:00:00+00:00,FT,Regular Season - 2,FC Nordsjaelland,398,FC Midtjylland,397,2,2,True
+1205432,2024-07-28T12:00:00+00:00,FT,Regular Season - 2,Randers FC,401,Viborg,2070,3,1,True
+1205433,2024-07-28T14:00:00+00:00,FT,Regular Season - 2,Aalborg,402,Silkeborg,2073,2,1,True
+1205434,2024-07-28T16:00:00+00:00,FT,Regular Season - 2,FC Copenhagen,400,Aarhus,406,3,2,True
+1205435,2024-07-29T17:00:00+00:00,FT,Regular Season - 2,Brondby,407,Vejle,395,2,1,True
+1205437,2024-08-02T17:00:00+00:00,FT,Regular Season - 3,Aarhus,406,Sonderjyske,396,4,0,True
+1205436,2024-08-03T14:00:00+00:00,FT,Regular Season - 3,FC Midtjylland,397,Aalborg,402,2,0,True
+1205438,2024-08-04T12:00:00+00:00,FT,Regular Season - 3,Silkeborg,2073,Viborg,2070,3,2,True
+1205439,2024-08-04T14:00:00+00:00,FT,Regular Season - 3,FC Copenhagen,400,Randers FC,401,1,1,True
+1205440,2024-08-04T16:00:00+00:00,FT,Regular Season - 3,Lyngby,625,Brondby,407,0,2,True
+1205441,2024-08-05T17:00:00+00:00,FT,Regular Season - 3,Vejle,395,FC Nordsjaelland,398,0,1,True
+1205442,2024-08-09T17:00:00+00:00,FT,Regular Season - 4,FC Midtjylland,397,Vejle,395,2,0,True
+1205444,2024-08-11T12:00:00+00:00,FT,Regular Season - 4,FC Nordsjaelland,398,Lyngby,625,1,1,True
+1205443,2024-08-11T12:00:00+00:00,FT,Regular Season - 4,Randers FC,401,Silkeborg,2073,0,2,True
+1205445,2024-08-11T14:00:00+00:00,FT,Regular Season - 4,Brondby,407,Aarhus,406,0,1,True
+1205446,2024-08-11T16:00:00+00:00,FT,Regular Season - 4,Sonderjyske,396,FC Copenhagen,400,0,2,True
+1205447,2024-08-12T17:00:00+00:00,FT,Regular Season - 4,Viborg,2070,Aalborg,402,2,3,True
+1205448,2024-08-16T17:00:00+00:00,FT,Regular Season - 5,Lyngby,625,FC Midtjylland,397,1,2,True
+1205449,2024-08-18T12:00:00+00:00,FT,Regular Season - 5,Randers FC,401,Sonderjyske,396,1,2,True
+1205450,2024-08-18T12:00:00+00:00,FT,Regular Season - 5,Silkeborg,2073,FC Nordsjaelland,398,4,1,True
+1205451,2024-08-18T14:00:00+00:00,FT,Regular Season - 5,FC Copenhagen,400,Viborg,2070,1,1,True
+1205452,2024-08-18T16:00:00+00:00,FT,Regular Season - 5,Aalborg,402,Brondby,407,0,4,True
+1205453,2024-08-19T17:00:00+00:00,FT,Regular Season - 5,Aarhus,406,Vejle,395,5,1,True
+1205455,2024-08-23T17:00:00+00:00,FT,Regular Season - 6,Aalborg,402,Aarhus,406,0,4,True
+1205454,2024-08-24T14:00:00+00:00,FT,Regular Season - 6,FC Midtjylland,397,Sonderjyske,396,3,2,True
+1205456,2024-08-25T12:00:00+00:00,FT,Regular Season - 6,Vejle,395,Silkeborg,2073,1,3,True
+1205457,2024-08-25T14:00:00+00:00,FT,Regular Season - 6,FC Nordsjaelland,398,FC Copenhagen,400,3,2,True
+1205458,2024-08-25T16:00:00+00:00,FT,Regular Season - 6,Brondby,407,Randers FC,401,2,2,True
+1205459,2024-08-26T17:00:00+00:00,FT,Regular Season - 6,Viborg,2070,Lyngby,625,1,0,True
+1205460,2024-08-30T17:00:00+00:00,FT,Regular Season - 7,Lyngby,625,Vejle,395,1,0,True
+1205461,2024-08-31T14:00:00+00:00,FT,Regular Season - 7,Aarhus,406,FC Nordsjaelland,398,4,2,True
+1205462,2024-09-01T12:00:00+00:00,FT,Regular Season - 7,Sonderjyske,396,Viborg,2070,2,2,True
+1205463,2024-09-01T12:00:00+00:00,FT,Regular Season - 7,FC Copenhagen,400,Brondby,407,3,1,True
+1205464,2024-09-01T14:00:00+00:00,FT,Regular Season - 7,Silkeborg,2073,FC Midtjylland,397,1,3,True
+1205465,2024-09-01T16:00:00+00:00,FT,Regular Season - 7,Randers FC,401,Aalborg,402,1,0,True
+1205470,2024-09-13T17:00:00+00:00,FT,Regular Season - 8,Aalborg,402,Lyngby,625,2,1,True
+1205471,2024-09-14T16:00:00+00:00,FT,Regular Season - 8,FC Midtjylland,397,FC Copenhagen,400,2,1,True
+1205466,2024-09-15T12:00:00+00:00,FT,Regular Season - 8,Aarhus,406,Silkeborg,2073,1,1,True
+1205469,2024-09-15T14:00:00+00:00,FT,Regular Season - 8,Vejle,395,Viborg,2070,0,5,True
+1205467,2024-09-15T16:00:00+00:00,FT,Regular Season - 8,Brondby,407,Sonderjyske,396,2,0,True
+1205468,2024-09-16T17:00:00+00:00,FT,Regular Season - 8,FC Nordsjaelland,398,Randers FC,401,1,1,True
+1205476,2024-09-20T17:00:00+00:00,FT,Regular Season - 9,Viborg,2070,FC Nordsjaelland,398,3,2,True
+1205472,2024-09-22T12:00:00+00:00,FT,Regular Season - 9,Sonderjyske,396,Vejle,395,2,1,True
+1205475,2024-09-22T12:00:00+00:00,FT,Regular Season - 9,Randers FC,401,FC Midtjylland,397,2,2,True
+1205473,2024-09-22T14:00:00+00:00,FT,Regular Season - 9,Lyngby,625,Aarhus,406,0,0,True
+1205474,2024-09-22T16:00:00+00:00,FT,Regular Season - 9,Silkeborg,2073,Brondby,407,3,3,True
+1205477,2024-09-23T17:00:00+00:00,FT,Regular Season - 9,FC Copenhagen,400,Aalborg,402,2,0,True
+1205478,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Aarhus,406,Randers FC,401,2,2,True
+1205479,2024-09-29T12:00:00+00:00,FT,Regular Season - 10,FC Midtjylland,397,Viborg,2070,3,1,True
+1205481,2024-09-29T12:00:00+00:00,FT,Regular Season - 10,Aalborg,402,Sonderjyske,396,3,0,True
+1205480,2024-09-29T14:00:00+00:00,FT,Regular Season - 10,Lyngby,625,Silkeborg,2073,2,2,True
+1205483,2024-09-29T16:00:00+00:00,FT,Regular Season - 10,Vejle,395,FC Copenhagen,400,1,2,True
+1205482,2024-09-30T17:00:00+00:00,FT,Regular Season - 10,FC Nordsjaelland,398,Brondby,407,4,1,True
+1205489,2024-10-04T17:00:00+00:00,FT,Regular Season - 11,Vejle,395,Aalborg,402,2,2,True
+1205487,2024-10-06T12:00:00+00:00,FT,Regular Season - 11,Sonderjyske,396,FC Nordsjaelland,398,1,4,True
+1205488,2024-10-06T12:00:00+00:00,FT,Regular Season - 11,Randers FC,401,Lyngby,625,1,1,True
+1205485,2024-10-06T14:00:00+00:00,FT,Regular Season - 11,Viborg,2070,Aarhus,406,1,1,True
+1205484,2024-10-06T16:00:00+00:00,FT,Regular Season - 11,Brondby,407,FC Midtjylland,397,2,0,True
+1205486,2024-10-06T18:00:00+00:00,FT,Regular Season - 11,Silkeborg,2073,FC Copenhagen,400,2,2,True
+1205491,2024-10-18T17:00:00+00:00,FT,Regular Season - 12,FC Copenhagen,400,Vejle,395,3,1,True
+1205494,2024-10-20T12:00:00+00:00,FT,Regular Season - 12,Aalborg,402,Randers FC,401,0,2,True
+1205493,2024-10-20T12:00:00+00:00,FT,Regular Season - 12,Lyngby,625,Viborg,2070,0,0,True
+1205492,2024-10-20T14:00:00+00:00,FT,Regular Season - 12,FC Nordsjaelland,398,Silkeborg,2073,1,1,True
+1205495,2024-10-20T16:00:00+00:00,FT,Regular Season - 12,Sonderjyske,396,FC Midtjylland,397,3,2,True
+1205490,2024-10-21T17:00:00+00:00,FT,Regular Season - 12,Aarhus,406,Brondby,407,1,0,True
+1205501,2024-10-25T17:00:00+00:00,FT,Regular Season - 13,Silkeborg,2073,Aalborg,402,1,1,True
+1205496,2024-10-27T10:00:00+00:00,FT,Regular Season - 13,Brondby,407,FC Copenhagen,400,0,0,True
+1205499,2024-10-27T12:00:00+00:00,FT,Regular Season - 13,Vejle,395,Lyngby,625,2,0,True
+1205500,2024-10-27T14:00:00+00:00,FT,Regular Season - 13,Viborg,2070,Sonderjyske,396,4,2,True
+1205497,2024-10-27T16:00:00+00:00,FT,Regular Season - 13,FC Midtjylland,397,Aarhus,406,2,0,True
+1205498,2024-10-28T18:00:00+00:00,FT,Regular Season - 13,Randers FC,401,FC Nordsjaelland,398,4,0,True
+1205507,2024-11-02T16:00:00+00:00,FT,Regular Season - 14,Sonderjyske,396,Randers FC,401,1,4,True
+1205506,2024-11-03T13:00:00+00:00,FT,Regular Season - 14,FC Midtjylland,397,Brondby,407,1,5,True
+1205504,2024-11-03T13:00:00+00:00,FT,Regular Season - 14,FC Nordsjaelland,398,Viborg,2070,2,1,True
+1205502,2024-11-03T15:00:00+00:00,FT,Regular Season - 14,Aarhus,406,Lyngby,625,2,1,True
+1205505,2024-11-03T17:00:00+00:00,FT,Regular Season - 14,Aalborg,402,Vejle,395,3,3,True
+1205503,2024-11-04T18:00:00+00:00,FT,Regular Season - 14,FC Copenhagen,400,Silkeborg,2073,2,2,True
+1205512,2024-11-08T18:00:00+00:00,FT,Regular Season - 15,Vejle,395,Sonderjyske,396,1,1,True
+1205513,2024-11-10T13:00:00+00:00,FT,Regular Season - 15,Lyngby,625,Aalborg,402,2,2,True
+1205511,2024-11-10T13:00:00+00:00,FT,Regular Season - 15,Silkeborg,2073,Randers FC,401,1,0,True
+1205510,2024-11-10T15:00:00+00:00,FT,Regular Season - 15,Viborg,2070,FC Midtjylland,397,1,0,True
+1205508,2024-11-10T17:00:00+00:00,FT,Regular Season - 15,Aarhus,406,FC Copenhagen,400,1,1,True
+1205509,2024-11-10T19:00:00+00:00,FT,Regular Season - 15,Brondby,407,FC Nordsjaelland,398,1,1,True
+1205518,2024-11-22T18:00:00+00:00,FT,Regular Season - 16,FC Nordsjaelland,398,Aarhus,406,1,0,True
+1205516,2024-11-24T13:00:00+00:00,FT,Regular Season - 16,Randers FC,401,Vejle,395,2,0,True
+1205517,2024-11-24T13:00:00+00:00,FT,Regular Season - 16,Aalborg,402,Viborg,2070,0,0,True
+1205519,2024-11-24T15:00:00+00:00,FT,Regular Season - 16,Sonderjyske,396,Brondby,407,2,2,True
+1205514,2024-11-24T17:00:00+00:00,FT,Regular Season - 16,FC Copenhagen,400,Lyngby,625,2,1,True
+1205515,2024-11-25T18:00:00+00:00,FT,Regular Season - 16,FC Midtjylland,397,Silkeborg,2073,1,0,True
+1205525,2024-11-29T18:00:00+00:00,FT,Regular Season - 17,Brondby,407,Aalborg,402,1,0,True
+1205521,2024-12-01T13:00:00+00:00,FT,Regular Season - 17,Lyngby,625,Sonderjyske,396,0,2,True
+1205524,2024-12-01T13:00:00+00:00,FT,Regular Season - 17,Viborg,2070,Randers FC,401,1,2,True
+1205523,2024-12-01T15:00:00+00:00,FT,Regular Season - 17,Vejle,395,FC Midtjylland,397,0,3,True
+1205522,2024-12-01T17:00:00+00:00,FT,Regular Season - 17,Silkeborg,2073,Aarhus,406,1,1,True
+1205520,2024-12-02T18:00:00+00:00,FT,Regular Season - 17,FC Copenhagen,400,FC Nordsjaelland,398,3,1,True
+1205526,2025-02-14T18:00:00+00:00,FT,Regular Season - 18,Brondby,407,Viborg,2070,4,1,True
+1205527,2025-02-16T13:00:00+00:00,FT,Regular Season - 18,Silkeborg,2073,Vejle,395,0,1,True
+1205529,2025-02-16T15:00:00+00:00,FT,Regular Season - 18,Sonderjyske,396,Aarhus,406,1,4,True
+1205531,2025-02-16T17:00:00+00:00,FT,Regular Season - 18,FC Midtjylland,397,Lyngby,625,1,0,True
+1205530,2025-02-17T18:00:00+00:00,FT,Regular Season - 18,Randers FC,401,FC Copenhagen,400,1,2,True
+1205534,2025-02-21T18:00:00+00:00,FT,Regular Season - 19,Lyngby,625,Randers FC,401,0,0,True
+1205533,2025-02-23T13:00:00+00:00,FT,Regular Season - 19,FC Nordsjaelland,398,Sonderjyske,396,3,2,True
+1205537,2025-02-23T13:00:00+00:00,FT,Regular Season - 19,Aarhus,406,Aalborg,402,4,0,True
+1205535,2025-02-23T15:00:00+00:00,FT,Regular Season - 19,Vejle,395,Brondby,407,2,2,True
+1205532,2025-02-23T17:00:00+00:00,FT,Regular Season - 19,FC Copenhagen,400,FC Midtjylland,397,1,0,True
+1205536,2025-02-24T18:00:00+00:00,FT,Regular Season - 19,Viborg,2070,Silkeborg,2073,1,4,True
+1205528,2025-02-26T13:00:00+00:00,FT,Regular Season - 18,Aalborg,402,FC Nordsjaelland,398,1,2,True
+1205541,2025-02-28T18:00:00+00:00,FT,Regular Season - 20,Randers FC,401,Aarhus,406,1,1,True
+1205542,2025-03-02T13:00:00+00:00,FT,Regular Season - 20,Sonderjyske,396,Silkeborg,2073,1,3,True
+1205543,2025-03-02T13:00:00+00:00,FT,Regular Season - 20,Viborg,2070,Vejle,395,3,1,True
+1205539,2025-03-02T15:00:00+00:00,FT,Regular Season - 20,FC Midtjylland,397,FC Nordsjaelland,398,2,1,True
+1205540,2025-03-02T17:00:00+00:00,FT,Regular Season - 20,Aalborg,402,FC Copenhagen,400,0,0,True
+1205538,2025-03-03T18:00:00+00:00,FT,Regular Season - 20,Brondby,407,Lyngby,625,1,1,True
+1205546,2025-03-07T18:00:00+00:00,FT,Regular Season - 21,FC Nordsjaelland,398,Vejle,395,3,1,True
+1205547,2025-03-09T13:00:00+00:00,FT,Regular Season - 21,Aalborg,402,FC Midtjylland,397,1,4,True
+1205549,2025-03-09T13:00:00+00:00,FT,Regular Season - 21,Silkeborg,2073,Lyngby,625,0,1,True
+1205544,2025-03-09T15:00:00+00:00,FT,Regular Season - 21,Aarhus,406,Viborg,2070,1,1,True
+1205545,2025-03-09T17:00:00+00:00,FT,Regular Season - 21,FC Copenhagen,400,Sonderjyske,396,1,1,True
+1205548,2025-03-10T18:00:00+00:00,FT,Regular Season - 21,Randers FC,401,Brondby,407,4,2,True
+1205553,2025-03-16T16:00:00+00:00,FT,Regular Season - 22,Vejle,395,Aarhus,406,3,2,True
+1205555,2025-03-16T16:00:00+00:00,FT,Regular Season - 22,Sonderjyske,396,Aalborg,402,0,3,True
+1205551,2025-03-16T16:00:00+00:00,FT,Regular Season - 22,FC Midtjylland,397,Randers FC,401,4,2,True
+1205550,2025-03-16T16:00:00+00:00,FT,Regular Season - 22,Brondby,407,Silkeborg,2073,2,2,True
+1205552,2025-03-16T16:00:00+00:00,FT,Regular Season - 22,Lyngby,625,FC Nordsjaelland,398,1,0,True
+1205554,2025-03-16T16:00:00+00:00,FT,Regular Season - 22,Viborg,2070,FC Copenhagen,400,3,2,True
+1362792,2025-03-28T18:00:00+00:00,FT,Relegation Round - 1,Aalborg,402,Viborg,2070,0,4,True
+1362793,2025-03-30T12:00:00+00:00,FT,Relegation Round - 1,Sonderjyske,396,Silkeborg,2073,2,1,True
+1362794,2025-03-30T12:00:00+00:00,FT,Relegation Round - 1,Lyngby,625,Vejle,395,1,2,True
+1362762,2025-03-30T14:00:00+00:00,FT,Championship Round - 1,Aarhus,406,FC Nordsjaelland,398,2,0,True
+1362763,2025-03-30T16:00:00+00:00,FT,Championship Round - 1,FC Midtjylland,397,Brondby,407,0,2,True
+1362764,2025-03-31T17:00:00+00:00,FT,Championship Round - 1,FC Copenhagen,400,Randers FC,401,1,0,True
+1362765,2025-04-04T17:00:00+00:00,FT,Championship Round - 2,Randers FC,401,FC Midtjylland,397,2,1,True
+1362795,2025-04-06T12:00:00+00:00,FT,Relegation Round - 2,Viborg,2070,Sonderjyske,396,2,1,True
+1362796,2025-04-06T12:00:00+00:00,FT,Relegation Round - 2,Silkeborg,2073,Lyngby,625,2,1,True
+1362797,2025-04-06T14:00:00+00:00,FT,Relegation Round - 2,Vejle,395,Aalborg,402,1,1,True
+1362766,2025-04-06T16:00:00+00:00,FT,Championship Round - 2,FC Nordsjaelland,398,FC Copenhagen,400,0,1,True
+1362767,2025-04-07T17:00:00+00:00,FT,Championship Round - 2,Brondby,407,Aarhus,406,2,1,True
+1362798,2025-04-11T17:00:00+00:00,FT,Relegation Round - 3,Aalborg,402,Lyngby,625,2,2,True
+1362768,2025-04-13T12:00:00+00:00,FT,Championship Round - 3,FC Copenhagen,400,Brondby,407,1,2,True
+1362799,2025-04-13T12:00:00+00:00,FT,Relegation Round - 3,Viborg,2070,Silkeborg,2073,2,1,True
+1362769,2025-04-13T14:00:00+00:00,FT,Championship Round - 3,Aarhus,406,FC Midtjylland,397,1,1,True
+1362770,2025-04-13T16:00:00+00:00,FT,Championship Round - 3,FC Nordsjaelland,398,Randers FC,401,5,2,True
+1362800,2025-04-14T17:00:00+00:00,FT,Relegation Round - 3,Sonderjyske,396,Vejle,395,1,0,True
+1362801,2025-04-16T17:00:00+00:00,FT,Relegation Round - 4,Silkeborg,2073,Aalborg,402,4,0,True
+1362803,2025-04-17T12:00:00+00:00,FT,Relegation Round - 4,Vejle,395,Viborg,2070,3,3,True
+1362802,2025-04-17T12:00:00+00:00,FT,Relegation Round - 4,Lyngby,625,Sonderjyske,396,0,2,True
+1362771,2025-04-17T14:00:00+00:00,FT,Championship Round - 4,Randers FC,401,Aarhus,406,3,1,True
+1362772,2025-04-17T16:00:00+00:00,FT,Championship Round - 4,FC Midtjylland,397,FC Copenhagen,400,4,2,True
+1362773,2025-04-18T17:00:00+00:00,FT,Championship Round - 4,Brondby,407,FC Nordsjaelland,398,0,0,True
+1362804,2025-04-20T15:00:00+00:00,FT,Relegation Round - 5,Aalborg,402,Sonderjyske,396,2,3,True
+1362805,2025-04-21T12:00:00+00:00,FT,Relegation Round - 5,Vejle,395,Silkeborg,2073,0,4,True
+1362806,2025-04-21T12:00:00+00:00,FT,Relegation Round - 5,Viborg,2070,Lyngby,625,1,1,True
+1362774,2025-04-21T14:00:00+00:00,FT,Championship Round - 5,Brondby,407,Randers FC,401,4,3,True
+1362775,2025-04-21T16:00:00+00:00,FT,Championship Round - 5,FC Copenhagen,400,Aarhus,406,3,1,True
+1362776,2025-04-22T17:00:00+00:00,FT,Championship Round - 5,FC Nordsjaelland,398,FC Midtjylland,397,3,2,True
+1362777,2025-04-25T17:00:00+00:00,FT,Championship Round - 6,Randers FC,401,Brondby,407,0,0,True
+1362807,2025-04-27T12:00:00+00:00,FT,Relegation Round - 6,Sonderjyske,396,Viborg,2070,2,2,True
+1362808,2025-04-27T12:00:00+00:00,FT,Relegation Round - 6,Lyngby,625,Silkeborg,2073,2,0,True
+1362778,2025-04-27T14:00:00+00:00,FT,Championship Round - 6,Aarhus,406,FC Copenhagen,400,1,3,True
+1362779,2025-04-27T16:00:00+00:00,FT,Championship Round - 6,FC Midtjylland,397,FC Nordsjaelland,398,5,0,True
+1362809,2025-04-28T17:00:00+00:00,FT,Relegation Round - 6,Aalborg,402,Vejle,395,0,1,True
+1362780,2025-05-02T17:00:00+00:00,FT,Championship Round - 7,Randers FC,401,FC Nordsjaelland,398,3,2,True
+1362811,2025-05-04T12:00:00+00:00,FT,Relegation Round - 7,Lyngby,625,Viborg,2070,0,0,True
+1362810,2025-05-04T12:00:00+00:00,FT,Relegation Round - 7,Silkeborg,2073,Vejle,395,1,1,True
+1362781,2025-05-04T14:00:00+00:00,FT,Championship Round - 7,Brondby,407,FC Copenhagen,400,0,3,True
+1362782,2025-05-04T16:00:00+00:00,FT,Championship Round - 7,FC Midtjylland,397,Aarhus,406,3,1,True
+1362812,2025-05-05T17:00:00+00:00,FT,Relegation Round - 7,Sonderjyske,396,Aalborg,402,2,2,True
+1362783,2025-05-11T12:00:00+00:00,FT,Championship Round - 8,FC Nordsjaelland,398,Brondby,407,2,2,True
+1362813,2025-05-11T12:00:00+00:00,FT,Relegation Round - 8,Silkeborg,2073,Sonderjyske,396,1,0,True
+1362784,2025-05-11T14:00:00+00:00,FT,Championship Round - 8,Aarhus,406,Randers FC,401,1,3,True
+1362814,2025-05-11T16:00:00+00:00,FT,Relegation Round - 8,Viborg,2070,Aalborg,402,3,1,True
+1362785,2025-05-11T18:00:00+00:00,FT,Championship Round - 8,FC Copenhagen,400,FC Midtjylland,397,1,1,True
+1362815,2025-05-12T17:00:00+00:00,FT,Relegation Round - 8,Vejle,395,Lyngby,625,2,0,True
+1362786,2025-05-16T17:00:00+00:00,FT,Championship Round - 9,FC Nordsjaelland,398,Aarhus,406,2,0,True
+1362816,2025-05-18T12:00:00+00:00,FT,Relegation Round - 9,Aalborg,402,Silkeborg,2073,2,3,True
+1362817,2025-05-18T12:00:00+00:00,FT,Relegation Round - 9,Viborg,2070,Vejle,395,0,1,True
+1362818,2025-05-18T14:00:00+00:00,FT,Relegation Round - 9,Sonderjyske,396,Lyngby,625,5,1,True
+1362787,2025-05-18T16:00:00+00:00,FT,Championship Round - 9,Randers FC,401,FC Copenhagen,400,0,4,True
+1362788,2025-05-19T17:00:00+00:00,FT,Championship Round - 9,Brondby,407,FC Midtjylland,397,1,2,True
+1362821,2025-05-24T13:00:00+00:00,FT,Relegation Round - 10,Vejle,395,Sonderjyske,396,2,3,True
+1362820,2025-05-24T13:00:00+00:00,FT,Relegation Round - 10,Lyngby,625,Aalborg,402,3,1,True
+1362819,2025-05-24T13:00:00+00:00,FT,Relegation Round - 10,Silkeborg,2073,Viborg,2070,1,2,True
+1362789,2025-05-25T15:00:00+00:00,FT,Championship Round - 10,FC Midtjylland,397,Randers FC,401,3,2,True
+1362790,2025-05-25T15:00:00+00:00,FT,Championship Round - 10,FC Copenhagen,400,FC Nordsjaelland,398,3,0,True
+1362791,2025-05-25T15:00:00+00:00,FT,Championship Round - 10,Aarhus,406,Brondby,407,2,3,True
+1376896,2025-06-01T16:30:00+00:00,FT,Conference League Play-offs - Final,Randers FC,401,Silkeborg,2073,1,3,True

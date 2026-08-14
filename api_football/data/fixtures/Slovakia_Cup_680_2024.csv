@@ -1,11 +1,262 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1314057,2025-02-04T17:00:00+00:00,FT,Slovan Bratislava,656,AS Trencin,655,3,1,True
-1320038,2025-03-11T15:00:00+00:00,FT,Zlaté Moravce,3553,Ružomberok,3549,1,2,True
-1320040,2025-03-11T17:00:00+00:00,FT,Žilina,3554,Spartak Trnava,1120,0,2,True
-1320039,2025-03-12T14:30:00+00:00,FT,Dukla Banská Bystrica,10533,Tatran Prešov,10550,1,0,True
-1347617,2025-03-12T17:00:00+00:00,FT,FK Košice,10534,Slovan Bratislava,656,0,1,True
-1362898,2025-04-01T16:00:00+00:00,FT,Ružomberok,3549,Dukla Banská Bystrica,10533,2,1,True
-1362900,2025-04-02T16:00:00+00:00,FT,Slovan Bratislava,656,Spartak Trnava,1120,2,1,True
-1362901,2025-04-15T16:00:00+00:00,AET,Spartak Trnava,1120,Slovan Bratislava,656,2,1,False
-1362899,2025-04-16T16:00:00+00:00,FT,Dukla Banská Bystrica,10533,Ružomberok,3549,0,2,True
-1371995,2025-05-01T13:00:00+00:00,FT,Ružomberok,3549,Spartak Trnava,1120,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1239416,2024-08-07T15:00:00+00:00,CANC,1st Round,Poltár,15027,Fiľakovo,14081,,,False
+1239425,2024-07-21T15:00:00+00:00,FT,Preliminary Round,Nemšová,21760,Jednota Sokol,14985,5,0,True
+1239424,2024-07-21T15:00:00+00:00,FT,Preliminary Round,AC Nitra,24394,Kolinany,24403,2,1,True
+1239426,2024-07-21T15:00:00+00:00,FT,Preliminary Round,Cifer,24395,Tatran Jablonica,21936,2,0,True
+1239423,2024-07-21T15:00:00+00:00,FT,Preliminary Round,Družstevník Rišňovce,24396,Veľké Zálužie,15074,1,2,True
+1239421,2024-07-21T15:00:00+00:00,FT,Preliminary Round,Horná Súča,24398,Družstevník Opatová,21742,1,3,True
+1239427,2024-07-21T15:00:00+00:00,PEN,Preliminary Round,Stefanov,24416,Holíč,14976,0,0,False
+1239420,2024-07-21T15:00:00+00:00,FT,Preliminary Round,Svaty Peter,24417,Družstevník Bešeňov,14958,1,4,True
+1239422,2024-07-21T15:00:00+00:00,FT,Preliminary Round,Šúrovce,24422,Slovan Hlohovec,15040,0,4,True
+1239348,2024-07-26T16:00:00+00:00,PEN,1st Round,NMŠK 1922 Bratislava,15012,Dunajská Lužná,14040,1,1,False
+1260785,2024-07-26T16:00:00+00:00,PEN,1st Round,Cifer,24395,Slovan Hlohovec,15040,0,0,False
+1239428,2024-07-27T13:00:00+00:00,FT,Preliminary Round,Bernolákovo,14038,Nová Dedinka,16893,0,2,True
+1239338,2024-07-27T14:30:00+00:00,PEN,1st Round,Nové Mesto nad Váhom,10553,Tatran Krásno,14091,2,2,False
+1239341,2024-07-27T15:00:00+00:00,FT,1st Round,Kostolné Kračany,14994,Galanta,14054,2,1,True
+1239339,2024-07-27T15:00:00+00:00,FT,1st Round,Lokomotíva Bánov,15004,Tvrdošovce,21937,1,0,True
+1239435,2024-07-27T15:00:00+00:00,PEN,Preliminary Round,Strečno,15058,Vrútky,15083,2,2,False
+1239340,2024-07-27T15:00:00+00:00,FT,1st Round,Trebatice,15069,Častkovce,14066,2,3,True
+1239342,2024-07-27T15:00:00+00:00,FT,1st Round,Šoporňa,15094,Slovan Duslo Šaľa,14063,2,3,True
+1239436,2024-07-27T15:00:00+00:00,PEN,Preliminary Round,TJ Družstevník Bitarová,16911,Teplička nad Váhom,16915,0,0,False
+1239409,2024-07-27T15:00:00+00:00,FT,1st Round,Spartak Radôstka,19396,Kysucké Nové Mesto,14999,2,5,True
+1239434,2024-07-27T15:00:00+00:00,FT,Preliminary Round,Vinohrad Čebovce,19402,Strojár Krupina,15059,3,1,True
+1239357,2024-07-27T15:00:00+00:00,PEN,1st Round,Dolné Krškany,21854,Nitra,3547,0,0,False
+1239440,2024-07-27T15:00:00+00:00,FT,Preliminary Round,Družstevník Čečejovce,24397,Perín,19379,2,3,True
+1239433,2024-07-27T15:00:00+00:00,FT,Preliminary Round,Kamenná Poruba,24401,Rosina,16900,1,5,True
+1239432,2024-07-27T15:00:00+00:00,FT,Preliminary Round,Kysučan Korňa,24404,Čierne,15089,1,3,True
+1239430,2024-07-27T15:00:00+00:00,FT,Preliminary Round,Partizán Ľubeľa,24408,Mikuláš-Palúdzka,21758,2,0,True
+1239431,2024-07-27T15:00:00+00:00,PEN,Preliminary Round,Sedem Námestovo,24411,Olympia Bobrov,16896,1,1,False
+1239343,2024-07-27T15:30:00+00:00,FT,1st Round,Limbach,15002,Domino,14957,1,5,True
+1239344,2024-07-27T15:30:00+00:00,FT,1st Round,Vrakuňa,15081,Tomášov,14052,0,4,True
+1239345,2024-07-27T15:30:00+00:00,FT,1st Round,Jarovce Bratislava,16883,Rusovce,14049,1,5,True
+1239418,2024-07-27T15:30:00+00:00,FT,1st Round,OFK Slovenská Ľupča,16894,Hamsik Academy,19460,0,5,True
+1239346,2024-07-27T15:30:00+00:00,PEN,1st Round,FC Topoľčany,19366,Tovarníky,15068,0,0,False
+1239347,2024-07-27T15:30:00+00:00,FT,1st Round,Priechod,19384,Badín,16878,0,3,True
+1239437,2024-07-27T15:30:00+00:00,PEN,Preliminary Round,Šenkvice,19407,Pezinok,14045,1,1,False
+1239438,2024-07-27T15:30:00+00:00,FT,Preliminary Round,Kaplna,24402,Kráľová pri Senci,16885,0,1,True
+1239405,2024-07-28T14:30:00+00:00,FT,1st Round,Spartak V. nad Kysucou,15057,MFK Bytča,15006,3,5,True
+1260786,2024-07-28T15:00:00+00:00,FT,1st Round,Družstevník Bešeňov,14958,Nové Zámky,14061,0,4,True
+1239351,2024-07-28T15:00:00+00:00,PEN,1st Round,Družstevník Rybky,14963,Slovan Dubovce,21765,2,2,False
+1239442,2024-07-28T15:00:00+00:00,FT,Preliminary Round,Fintice,14969,Sokol Chminianska,16907,2,3,True
+1239361,2024-07-28T15:00:00+00:00,FT,1st Round,Horná Krupá,14978,Boleráz,14948,0,5,True
+1239368,2024-07-28T15:00:00+00:00,FT,1st Round,Kanianka,14987,Baník Lehota p.Vtáčnikom,14942,2,4,True
+1239363,2024-07-28T15:00:00+00:00,FT,1st Round,Kmeťovo,14991,Šurany,15096,0,3,True
+1239362,2024-07-28T15:00:00+00:00,FT,1st Round,Komjatice,14993,Branč,19363,1,5,True
+1239355,2024-07-28T15:00:00+00:00,FT,1st Round,Melčice-Lieskové,15008,Trenčianske Stankovce,14799,0,7,True
+1239366,2024-07-28T15:00:00+00:00,PEN,1st Round,Nevidzany,15014,Slovan Levice,17256,2,2,False
+1239404,2024-07-28T15:00:00+00:00,PEN,1st Round,Pokrok Stará Bystrica,15026,Slovan Vavrečka,15045,1,1,False
+1239352,2024-07-28T15:00:00+00:00,FT,1st Round,Považan Pruské,15028,Spartak Kvašov,15054,2,3,True
+1239367,2024-07-28T15:00:00+00:00,FT,1st Round,Veľká Lomnica,15071,Harichovce,14974,2,4,True
+1239369,2024-07-28T15:00:00+00:00,FT,1st Round,Veľké Lovce,15072,Sereď,3551,0,6,True
+1239408,2024-07-28T15:00:00+00:00,FT,1st Round,Višňové,15079,Čadca,14092,0,2,True
+1239349,2024-07-28T15:00:00+00:00,FT,1st Round,Vrbové,15082,Blava 1928,14947,0,2,True
+1239370,2024-07-28T15:00:00+00:00,FT,1st Round,Báb,16880,Beluša,14053,0,3,True
+1239358,2024-07-28T15:00:00+00:00,FT,1st Round,Tatran Uhrovec,16913,Baník Prievidza,14943,0,2,True
+1239350,2024-07-28T15:00:00+00:00,FT,1st Round,Kopčany,19370,Sokol Borský Mikuláš,21767,3,2,True
+1239365,2024-07-28T15:00:00+00:00,PEN,1st Round,Salka,19386,Štúrovo,19409,0,0,False
+1239360,2024-07-28T15:00:00+00:00,FT,1st Round,Družstevník Topoľníky,21744,Gabčíkovo,21926,1,2,True
+1239371,2024-07-28T15:00:00+00:00,FT,1st Round,Horné Saliby,21748,Družstevník Trstice,14964,2,1,True
+1239439,2024-07-28T15:00:00+00:00,FT,Preliminary Round,Mokrance,21759,Slovan Poproč,15042,1,3,True
+1239354,2024-07-28T15:00:00+00:00,FT,1st Round,Slovan Šaštín-Stráže,21766,Nafta Gbely,15013,0,6,True
+1239353,2024-07-28T15:00:00+00:00,FT,1st Round,Spartak Lysá pod Makytou,21769,Lednické Rovne,14057,0,1,True
+1239356,2024-07-28T15:00:00+00:00,PEN,1st Round,Košeca,21928,Dubnica,10532,0,0,False
+1239364,2024-07-28T15:00:00+00:00,PEN,1st Round,Sokol Starý Tekov,21932,Želiezovce,21938,2,2,False
+1260787,2024-07-28T15:00:00+00:00,FT,1st Round,AC Nitra,24394,Veľké Zálužie,15074,6,0,True
+1239429,2024-07-28T15:00:00+00:00,FT,Preliminary Round,Jasenie,24399,Brezno,14949,3,2,True
+1239441,2024-07-28T15:00:00+00:00,PEN,Preliminary Round,Kľušov,24405,Busov Gaboltov,14951,2,2,False
+1239359,2024-07-28T15:00:00+00:00,PEN,1st Round,Nový Život,24407,Čierny Brod,24421,1,1,False
+1239444,2024-07-28T15:00:00+00:00,PEN,Preliminary Round,Prakovce,24410,Jamník,21750,1,1,False
+1239443,2024-07-28T15:00:00+00:00,FT,Preliminary Round,Tatran Huncovce,24419,Vikartovce,15077,2,1,True
+1239445,2024-07-28T15:30:00+00:00,FT,Preliminary Round,Báhoň,14039,Svätý Jur,15063,3,0,True
+1239372,2024-07-28T15:30:00+00:00,FT,1st Round,Lozorno,16889,Lokomotíva DNV,14042,2,0,True
+1239446,2024-07-28T15:30:00+00:00,FT,Preliminary Round,MFK Záhorská Bystrica,21756,Láb,15005,0,3,True
+1239447,2024-07-30T15:30:00+00:00,PEN,Preliminary Round,Igram,19369,Slovan Most,14051,2,2,False
+1239412,2024-08-06T15:00:00+00:00,PEN,1st Round,Pribiš,21762,Dolný Kubín,14956,0,0,False
+1269126,2024-08-07T15:00:00+00:00,FT,1st Round,Báhoň,14039,Pezinok,14045,1,3,True
+1239373,2024-08-07T15:00:00+00:00,FT,1st Round,Rohožník,14047,Malacky,14043,0,1,True
+1239402,2024-08-07T15:00:00+00:00,FT,1st Round,Liptovský Hrádok,14086,Liptovská Štiavnica,14085,2,6,True
+1239399,2024-08-07T15:00:00+00:00,FT,1st Round,Buzitka,14952,Baník Veľký Krtíš,14944,1,4,True
+1239375,2024-08-07T15:00:00+00:00,FT,1st Round,Dunajec Stará Ves,14966,Kežmarok,14989,0,3,True
+1239390,2024-08-07T15:00:00+00:00,FT,1st Round,Dynamo Diviaky,14968,Sokol Medzibrod,15050,2,0,True
+1239377,2024-08-07T15:00:00+00:00,FT,1st Round,Jasenov,14983,Spartak Medzilaborce,15056,4,2,True
+1239417,2024-08-07T15:00:00+00:00,PEN,1st Round,Jesenské,14986,Rimavská Sobota,10557,3,3,False
+1269113,2024-08-07T15:00:00+00:00,FT,1st Round,Láb,15005,Inter Bratislava,10547,1,6,True
+1239396,2024-08-07T15:00:00+00:00,FT,1st Round,Olováry,15017,Príbelce,15030,1,2,True
+1239400,2024-08-07T15:00:00+00:00,FT,1st Round,Oravan,15018,Sokol Zubrohlava,16910,1,2,True
+1269115,2024-08-07T15:00:00+00:00,FT,1st Round,Slovan Poproč,15042,Snina,14075,0,1,True
+1269128,2024-08-07T15:00:00+00:00,FT,1st Round,Strečno,15058,Partizán Ľubeľa,24408,2,3,True
+1239401,2024-08-07T15:00:00+00:00,PEN,1st Round,Tatran Chlebnice,15064,Tvrdošín,15070,1,1,False
+1269122,2024-08-07T15:00:00+00:00,PEN,1st Round,Čierne,15089,Poprad,10539,3,3,False
+1239389,2024-08-07T15:00:00+00:00,FT,1st Round,Šalková,15091,Druzstevnik Latky,21740,4,3,True
+1239392,2024-08-07T15:00:00+00:00,PEN,1st Round,Šašová,15092,Detva,14954,2,2,False
+1239380,2024-08-07T15:00:00+00:00,FT,1st Round,Široké,15093,Sokol Brezovica,24414,0,5,True
+1239381,2024-08-07T15:00:00+00:00,FT,1st Round,Ťahanovce,15098,Spartak Medzev,15055,0,9,True
+1239386,2024-08-07T15:00:00+00:00,FT,1st Round,Ferenc Borša,16881,Sobrance Sobranecko,17774,1,4,True
+1239415,2024-08-07T15:00:00+00:00,FT,1st Round,Iskra Hnúšťa,16882,Novohrad Lučenec,14087,0,2,True
+1239398,2024-08-07T15:00:00+00:00,FT,1st Round,Ladomerská Vieska,16886,Kováčová,14084,2,1,True
+1239388,2024-08-07T15:00:00+00:00,FT,1st Round,Maratón Seňa,16890,Lokomotíva Košice,10549,1,3,True
+1269125,2024-08-07T15:00:00+00:00,PEN,1st Round,Olympia Bobrov,16896,Spišské Podhradie,14076,2,2,False
+1269124,2024-08-07T15:00:00+00:00,FT,1st Round,Rosina,16900,Spišská Nová Ves,10555,1,2,True
+1269116,2024-08-07T15:00:00+00:00,FT,1st Round,Sokol Chminianska,16907,MSK Tesla Stropkov,14069,2,4,True
+1269123,2024-08-07T15:00:00+00:00,PEN,1st Round,Teplička nad Váhom,16915,Námestovo,14088,1,1,False
+1239393,2024-08-07T15:00:00+00:00,PEN,1st Round,Bacúch,19362,Revúca,21930,1,1,False
+1273689,2024-08-07T15:00:00+00:00,FT,1st Round,Igram,19369,Rača,14046,1,5,True
+1269114,2024-08-07T15:00:00+00:00,FT,1st Round,Perín,19379,Slávia TU Košice,14074,0,10,True
+1239406,2024-08-07T15:00:00+00:00,FT,1st Round,Slovan Bystrička,19387,Nededza,24406,4,1,True
+1239403,2024-08-07T15:00:00+00:00,FT,1st Round,Sokol Liesek,19394,Oravské Veselé,14089,0,6,True
+1239394,2024-08-07T15:00:00+00:00,FT,1st Round,Vinica,19401,Hliník nad Hronom,19368,0,3,True
+1269120,2024-08-07T15:00:00+00:00,FT,1st Round,Vinohrad Čebovce,19402,Baník Kalinovo,14080,0,3,True
+1239374,2024-08-07T15:00:00+00:00,FT,1st Round,Družstevník Odorín,21741,Kamenica,21751,0,2,True
+1239378,2024-08-07T15:00:00+00:00,FT,1st Round,Družstevník Čirč,21745,Gerlachov,14972,2,5,True
+1239407,2024-08-07T15:00:00+00:00,FT,1st Round,Horny Hricov,21747,Javorník Makov,14984,3,2,True
+1239413,2024-08-07T15:00:00+00:00,FT,1st Round,Iskra Nováky,21749,Fomat Martin,14082,0,3,True
+1269119,2024-08-07T15:00:00+00:00,PEN,1st Round,Jamník,21750,Vranov nad Topľou,14079,2,2,False
+1260789,2024-08-07T15:00:00+00:00,FT,1st Round,Nemšová,21760,Družstevník Opatová,21742,0,2,True
+1239379,2024-08-07T15:00:00+00:00,PEN,1st Round,Sokol Brezovička,21768,Gelnica,14971,1,1,False
+1239387,2024-08-07T15:00:00+00:00,FT,1st Round,Zalužice,21773,Nacina Ves,19373,0,2,True
+1239382,2024-08-07T15:00:00+00:00,FT,1st Round,Družstevník Malá Ida,21924,Kechnec,14988,5,1,True
+1268546,2024-08-07T15:00:00+00:00,FT,2nd Round,Cifer,24395,Častkovce,14066,0,4,True
+1269121,2024-08-07T15:00:00+00:00,FT,1st Round,Jasenie,24399,Podkonice,15025,1,3,True
+1239395,2024-08-07T15:00:00+00:00,FT,1st Round,Jelšava,24400,Partizán Osrblie,19377,1,4,True
+1269117,2024-08-07T15:00:00+00:00,FT,1st Round,Kľušov,24405,Partizán Bardejov,10537,1,4,True
+1239411,2024-08-07T15:00:00+00:00,FT,1st Round,Podlužany,24409,Veľké Ludince,14064,0,7,True
+1239384,2024-08-07T15:00:00+00:00,FT,1st Round,Slovan Kendice,24412,Dvorníky-Včeláre,14967,3,0,True
+1239391,2024-08-07T15:00:00+00:00,FT,1st Round,Slovan Žabokreky,24413,Bešeňová,14946,0,2,True
+1239410,2024-08-07T15:00:00+00:00,FT,1st Round,Starý Smokovec,24415,Slavoj Spišská Belá,15038,3,0,True
+1260788,2024-08-07T15:00:00+00:00,FT,1st Round,Stefanov,24416,Spartak Myjava,12859,1,5,True
+1239414,2024-08-07T15:00:00+00:00,FT,1st Round,Tatran Cementáreň Ladce,24418,Jednota Bánová,14083,0,3,True
+1269118,2024-08-07T15:00:00+00:00,FT,1st Round,Tatran Huncovce,24419,Lipany,10548,0,7,True
+1239376,2024-08-07T15:00:00+00:00,FT,1st Round,Vechec,24420,Tatran Bystré,16912,2,1,True
+1239419,2024-08-07T15:30:00+00:00,FT,1st Round,Fatran Varín,21746,Belá,14945,1,4,True
+1239397,2024-08-08T15:00:00+00:00,FT,1st Round,Lovca,21754,Banská Štiavnica,14940,6,2,True
+1239385,2024-08-14T15:00:00+00:00,FT,1st Round,Krásnohorské Podhradie,14998,Rožňava,16901,0,4,True
+1269127,2024-08-14T15:00:00+00:00,FT,1st Round,Kráľová pri Senci,16885,Nová Dedinka,16893,1,2,True
+1239383,2024-08-15T15:00:00+00:00,FT,1st Round,Bidovce,21739,Geča,21927,0,3,True
+1283570,2024-08-21T15:00:00+00:00,FT,2nd Round,Baník Veľký Krtíš,14944,Pohronie,4134,0,6,True
+1269104,2024-08-21T15:00:00+00:00,FT,2nd Round,Horné Saliby,21748,Šamorín,10545,0,7,True
+1269109,2024-08-21T15:00:00+00:00,FT,2nd Round,Nový Život,24407,Kostolné Kračany,14994,0,2,True
+1269102,2024-08-27T15:00:00+00:00,FT,2nd Round,Lednické Rovne,14057,Púchov,10540,1,4,True
+1283581,2024-08-27T15:00:00+00:00,FT,2nd Round,Bešeňová,14946,Hamsik Academy,19460,0,2,True
+1283583,2024-08-27T15:00:00+00:00,FT,2nd Round,Badín,16878,Novohrad Lučenec,14087,1,0,True
+1283592,2024-08-28T15:00:00+00:00,FT,2nd Round,Pezinok,14045,Malacky,14043,0,4,True
+1268544,2024-08-28T15:00:00+00:00,FT,2nd Round,Rusovce,14049,Petržalka,10538,2,4,True
+1283580,2024-08-28T15:00:00+00:00,PEN,2nd Round,Tomášov,14052,Inter Bratislava,10547,0,0,False
+1283779,2024-08-28T15:00:00+00:00,FT,2nd Round,Liptovská Štiavnica,14085,Spišská Nová Ves,10555,0,3,True
+1282265,2024-08-28T15:00:00+00:00,FT,2nd Round,Čadca,14092,Dolný Kubín,14956,0,3,True
+1269107,2024-08-28T15:00:00+00:00,FT,2nd Round,Trenčianske Stankovce,14799,Nové Mesto nad Váhom,10553,2,2,True
+1269110,2024-08-28T15:00:00+00:00,FT,2nd Round,Baník Prievidza,14943,Baník Lehota p.Vtáčnikom,14942,1,4,True
+1283577,2024-08-28T15:00:00+00:00,FT,2nd Round,Belá,14945,Liptovský Mikuláš,10536,2,3,True
+1269106,2024-08-28T15:00:00+00:00,FT,2nd Round,Boleráz,14948,Slovan Duslo Šaľa,14063,1,2,True
+1283590,2024-08-28T15:00:00+00:00,FT,2nd Round,Harichovce,14974,Lipany,10548,0,2,True
+1283775,2024-08-28T15:00:00+00:00,FT,2nd Round,Jasenov,14983,Gerlachov,14972,3,1,True
+1283572,2024-08-28T15:00:00+00:00,FT,2nd Round,Kežmarok,14989,Zemplín Michalovce,3552,1,3,True
+1268545,2024-08-28T15:00:00+00:00,FT,2nd Round,Kysucké Nové Mesto,14999,Považská Bystrica,14062,0,2,True
+1269105,2024-08-28T15:00:00+00:00,FT,2nd Round,Lokomotíva Bánov,15004,Nové Zámky,14061,0,6,True
+1283589,2024-08-28T15:00:00+00:00,FT,2nd Round,MFK Bytča,15006,Poprad,10539,1,0,True
+1268547,2024-08-28T15:00:00+00:00,FT,2nd Round,NMŠK 1922 Bratislava,15012,Domino,14957,4,1,True
+1269101,2024-08-28T15:00:00+00:00,FT,2nd Round,Nafta Gbely,15013,Zlaté Moravce,3553,0,5,True
+1269111,2024-08-28T15:00:00+00:00,FT,2nd Round,Nevidzany,15014,Gabčíkovo,21926,1,4,True
+1283585,2024-08-28T15:00:00+00:00,FT,2nd Round,Spartak Kvašov,15054,Jednota Bánová,14083,3,3,True
+1283773,2024-08-28T15:00:00+00:00,FT,2nd Round,Spartak Medzev,15055,Snina,14075,0,2,True
+1283568,2024-08-28T15:00:00+00:00,FT,2nd Round,Tatran Chlebnice,15064,Podbrezová,3548,0,8,True
+1283593,2024-08-28T15:00:00+00:00,FT,2nd Round,Šalková,15091,Podkonice,15025,0,7,True
+1283569,2024-08-28T15:00:00+00:00,FT,2nd Round,Šašová,15092,Dukla Banská Bystrica,10533,0,7,True
+1288305,2024-08-28T15:00:00+00:00,FT,2nd Round,Nová Dedinka,16893,Skalica,10542,1,6,True
+1283780,2024-08-28T15:00:00+00:00,FT,2nd Round,Olympia Bobrov,16896,Sokol Zubrohlava,16910,1,1,True
+1288306,2024-08-28T15:00:00+00:00,FT,2nd Round,Rožňava,16901,Lokomotíva Košice,10549,0,2,True
+1283591,2024-08-28T15:00:00+00:00,FT,2nd Round,Bacúch,19362,Fiľakovo,14081,2,7,True
+1283582,2024-08-28T15:00:00+00:00,FT,2nd Round,FC Topoľčany,19366,Fomat Martin,14082,0,3,True
+1283574,2024-08-28T15:00:00+00:00,FT,2nd Round,Hliník nad Hronom,19368,Komárno,10535,0,5,True
+1283594,2024-08-28T15:00:00+00:00,FT,2nd Round,Partizán Osrblie,19377,Rimavská Sobota,10557,4,2,True
+1269099,2024-08-28T15:00:00+00:00,FT,2nd Round,Salka,19386,Dunajska Streda,2257,0,9,True
+1283778,2024-08-28T15:00:00+00:00,FT,2nd Round,Slovan Bystrička,19387,Námestovo,14088,0,3,True
+1283587,2024-08-28T15:00:00+00:00,FT,2nd Round,Družstevník Opatová,21742,Sereď,3551,0,2,True
+1283573,2024-08-28T15:00:00+00:00,FT,2nd Round,Horny Hricov,21747,Žilina,3554,0,7,True
+1269103,2024-08-28T15:00:00+00:00,FT,2nd Round,Slovan Dubovce,21765,Malženice,14058,1,3,True
+1269108,2024-08-28T15:00:00+00:00,FT,2nd Round,Dolné Krškany,21854,Beluša,14053,0,2,True
+1288307,2024-08-28T15:00:00+00:00,FT,2nd Round,Geča,21927,Slávia TU Košice,14074,1,6,True
+1269100,2024-08-28T15:00:00+00:00,FT,2nd Round,Košeca,21928,AS Trencin,655,0,9,True
+1283586,2024-08-28T15:00:00+00:00,FT,2nd Round,Želiezovce,21938,Veľké Ludince,14064,0,2,True
+1283578,2024-08-28T15:00:00+00:00,FT,2nd Round,Partizán Ľubeľa,24408,Lokomotíva Zvolen,10552,1,0,True
+1283571,2024-08-28T15:00:00+00:00,FT,2nd Round,Sokol Brezovica,24414,FK Košice,10534,0,4,True
+1283579,2024-08-28T15:00:00+00:00,FT,2nd Round,Starý Smokovec,24415,Stará Ľubovňa,19398,0,4,True
+1283776,2024-08-28T15:00:00+00:00,FT,2nd Round,Vechec,24420,Partizán Bardejov,10537,0,4,True
+1283774,2024-09-03T14:30:00+00:00,FT,2nd Round,Gelnica,14971,MSK Tesla Stropkov,14069,2,4,True
+1283772,2024-09-03T14:30:00+00:00,FT,2nd Round,Nacina Ves,19373,Sobrance Sobranecko,17774,3,1,True
+1283575,2024-09-03T14:30:00+00:00,FT,2nd Round,Slovan Kendice,24412,Tatran Prešov,10550,1,2,True
+1269112,2024-09-04T14:30:00+00:00,FT,2nd Round,Šurany,15096,Branč,19363,6,0,True
+1283781,2024-09-04T14:30:00+00:00,FT,2nd Round,Ladomerská Vieska,16886,Baník Kalinovo,14080,1,6,True
+1283777,2024-09-04T14:30:00+00:00,FT,2nd Round,Kamenica,21751,Vranov nad Topľou,14079,0,8,True
+1283782,2024-09-04T14:30:00+00:00,FT,2nd Round,Lovca,21754,Príbelce,15030,1,4,True
+1283584,2024-09-04T15:00:00+00:00,FT,2nd Round,Kopčany,19370,Spartak Myjava,12859,0,9,True
+1283576,2024-09-05T14:30:00+00:00,FT,2nd Round,Družstevník Malá Ida,21924,Humenné,14068,0,7,True
+1298682,2024-09-10T14:00:00+00:00,FT,3rd Round,Olympia Bobrov,16896,Podbrezová,3548,0,9,True
+1283771,2024-09-10T14:30:00+00:00,FT,2nd Round,Pokrok Stará Bystrica,15026,Oravské Veselé,14089,2,5,True
+1269097,2024-09-10T16:00:00+00:00,FT,2nd Round,AC Nitra,24394,Slovan Bratislava,656,0,5,True
+1269098,2024-09-11T14:30:00+00:00,FT,2nd Round,Blava 1928,14947,Spartak Trnava,1120,0,2,True
+1283588,2024-09-11T14:30:00+00:00,FT,2nd Round,Lozorno,16889,Rača,14046,1,3,True
+1283770,2024-09-18T14:00:00+00:00,FT,2nd Round,Dynamo Diviaky,14968,Ružomberok,3549,0,9,True
+1304445,2024-09-24T13:30:00+00:00,FT,3rd Round,Beluša,14053,Slovan Bratislava,656,1,6,True
+1300794,2024-09-24T13:30:00+00:00,FT,3rd Round,Slávia TU Košice,14074,Tatran Prešov,10550,0,3,True
+1298683,2024-09-24T13:30:00+00:00,FT,3rd Round,Námestovo,14088,Žilina,3554,0,5,True
+1304446,2024-09-24T13:30:00+00:00,FT,3rd Round,Oravské Veselé,14089,Spišská Nová Ves,10555,0,1,True
+1298678,2024-09-25T13:30:00+00:00,FT,3rd Round,Nové Mesto nad Váhom,10553,AS Trencin,655,0,2,True
+1298675,2024-09-25T13:30:00+00:00,FT,3rd Round,Malacky,14043,Skalica,10542,2,2,True
+1298680,2024-09-25T13:30:00+00:00,FT,3rd Round,Veľké Ludince,14064,Dunajska Streda,2257,0,3,True
+1300793,2024-09-25T13:30:00+00:00,FT,3rd Round,MSK Tesla Stropkov,14069,FK Košice,10534,1,4,True
+1301624,2024-09-25T13:30:00+00:00,FT,3rd Round,Snina,14075,Humenné,14068,1,1,True
+1301289,2024-09-25T13:30:00+00:00,FT,3rd Round,Vranov nad Topľou,14079,Stará Ľubovňa,19398,1,4,True
+1298679,2024-09-25T13:30:00+00:00,FT,3rd Round,Baník Lehota p.Vtáčnikom,14942,Fomat Martin,14082,6,0,True
+1298684,2024-09-25T13:30:00+00:00,FT,3rd Round,Dolný Kubín,14956,Považská Bystrica,14062,1,1,True
+1298681,2024-09-25T13:30:00+00:00,FT,3rd Round,Jasenov,14983,Partizán Bardejov,10537,1,1,True
+1298671,2024-09-25T13:30:00+00:00,FT,3rd Round,Kostolné Kračany,14994,Gabčíkovo,21926,1,0,True
+1298685,2024-09-25T13:30:00+00:00,FT,3rd Round,MFK Bytča,15006,Liptovský Mikuláš,10536,2,1,True
+1304901,2024-09-25T13:30:00+00:00,FT,3rd Round,NMŠK 1922 Bratislava,15012,Rača,14046,2,5,True
+1298673,2024-09-25T13:30:00+00:00,FT,3rd Round,Spartak Kvašov,15054,Púchov,10540,0,3,True
+1300795,2024-09-25T13:30:00+00:00,FT,3rd Round,Nacina Ves,19373,Lokomotíva Košice,10549,1,5,True
+1301288,2024-09-25T13:30:00+00:00,FT,3rd Round,Partizán Osrblie,19377,Príbelce,15030,5,3,True
+1298674,2024-09-25T13:30:00+00:00,FT,3rd Round,Partizán Ľubeľa,24408,Hamsik Academy,19460,0,5,True
+1298676,2024-09-25T14:00:00+00:00,FT,3rd Round,Tomášov,14052,Petržalka,10538,0,6,True
+1301287,2024-09-25T14:00:00+00:00,FT,3rd Round,Šurany,15096,Slovan Duslo Šaľa,14063,0,1,True
+1298672,2024-09-25T14:00:00+00:00,FT,3rd Round,Badín,16878,Dukla Banská Bystrica,10533,1,3,True
+1301286,2024-09-25T16:00:00+00:00,FT,3rd Round,Spartak Myjava,12859,Malženice,14058,5,3,True
+1298670,2024-10-02T13:30:00+00:00,FT,3rd Round,Nové Zámky,14061,Šamorín,10545,1,1,True
+1304900,2024-10-02T13:30:00+00:00,FT,3rd Round,Častkovce,14066,Spartak Trnava,1120,1,7,True
+1301285,2024-10-08T13:00:00+00:00,FT,3rd Round,Baník Kalinovo,14080,Pohronie,4134,2,0,True
+1310600,2024-10-08T13:30:00+00:00,FT,4th Round,Rača,14046,Partizán Bardejov,10537,4,0,True
+1298677,2024-10-09T13:00:00+00:00,FT,3rd Round,Sereď,3551,Zlaté Moravce,3553,0,3,True
+1298686,2024-10-09T13:00:00+00:00,FT,3rd Round,Lipany,10548,Zemplín Michalovce,3552,0,2,True
+1298669,2024-10-09T13:00:00+00:00,FT,3rd Round,Fiľakovo,14081,Komárno,10535,1,3,True
+1307084,2024-10-09T13:00:00+00:00,FT,3rd Round,Podkonice,15025,Ružomberok,3549,2,3,True
+1310603,2024-10-16T13:00:00+00:00,FT,4th Round,Petržalka,10538,FK Košice,10534,0,3,True
+1310604,2024-10-16T13:00:00+00:00,FT,4th Round,Púchov,10540,Podbrezová,3548,0,2,True
+1311335,2024-10-16T13:00:00+00:00,FT,4th Round,Šamorín,10545,Zemplín Michalovce,3552,1,2,True
+1310605,2024-10-16T13:00:00+00:00,FT,4th Round,Snina,14075,Dolný Kubín,14956,1,1,True
+1311156,2024-10-16T13:00:00+00:00,FT,4th Round,Baník Kalinovo,14080,Dukla Banská Bystrica,10533,1,2,True
+1310601,2024-10-16T13:00:00+00:00,FT,4th Round,Baník Lehota p.Vtáčnikom,14942,AS Trencin,655,1,2,True
+1310609,2024-10-16T13:00:00+00:00,FT,4th Round,MFK Bytča,15006,Spartak Trnava,1120,1,4,True
+1310602,2024-10-16T13:00:00+00:00,FT,4th Round,Partizán Osrblie,19377,Žilina,3554,0,8,True
+1311334,2024-10-16T13:00:00+00:00,FT,4th Round,Hamsik Academy,19460,Komárno,10535,0,4,True
+1310606,2024-10-16T15:00:00+00:00,FT,4th Round,Spartak Myjava,12859,Lokomotíva Košice,10549,3,1,True
+1310608,2024-10-22T12:30:00+00:00,FT,4th Round,Tatran Prešov,10550,Skalica,10542,3,2,True
+1311332,2024-10-22T14:00:00+00:00,PEN,4th Round,Zlaté Moravce,3553,Stará Ľubovňa,19398,0,0,False
+1311333,2024-10-23T12:00:00+00:00,FT,4th Round,Kostolné Kračany,14994,Ružomberok,3549,0,3,True
+1310610,2024-10-23T13:00:00+00:00,FT,4th Round,Slovan Duslo Šaľa,14063,Dunajska Streda,2257,1,2,True
+1310607,2024-10-26T11:30:00+00:00,FT,4th Round,Spišská Nová Ves,10555,Slovan Bratislava,656,0,2,True
+1312939,2024-11-05T15:00:00+00:00,FT,Round of 16,Zlaté Moravce,3553,Dolný Kubín,14956,6,1,True
+1312940,2024-11-06T12:00:00+00:00,FT,Round of 16,Tatran Prešov,10550,Rača,14046,2,1,True
+1312938,2024-11-06T15:30:00+00:00,FT,Round of 16,Zemplín Michalovce,3552,Žilina,3554,1,1,True
+1312941,2024-11-06T16:00:00+00:00,FT,Round of 16,Spartak Myjava,12859,FK Košice,10534,1,3,True
+1313129,2024-11-06T17:00:00+00:00,FT,Round of 16,Dunajska Streda,2257,Dukla Banská Bystrica,10533,0,2,True
+1313130,2024-11-13T15:00:00+00:00,FT,Round of 16,Ružomberok,3549,Komárno,10535,2,0,True
+1312942,2024-11-14T17:00:00+00:00,FT,Round of 16,Spartak Trnava,1120,Podbrezová,3548,1,1,True
+1314057,2025-02-04T17:00:00+00:00,FT,Round of 16,Slovan Bratislava,656,AS Trencin,655,3,1,True
+1320038,2025-03-11T15:00:00+00:00,FT,Quarter-finals,Zlaté Moravce,3553,Ružomberok,3549,1,2,True
+1320040,2025-03-11T17:00:00+00:00,FT,Quarter-finals,Žilina,3554,Spartak Trnava,1120,0,2,True
+1320039,2025-03-12T14:30:00+00:00,FT,Quarter-finals,Dukla Banská Bystrica,10533,Tatran Prešov,10550,1,0,True
+1347617,2025-03-12T17:00:00+00:00,FT,Quarter-finals,FK Košice,10534,Slovan Bratislava,656,0,1,True
+1362898,2025-04-01T16:00:00+00:00,FT,Semi-finals,Ružomberok,3549,Dukla Banská Bystrica,10533,2,1,True
+1362900,2025-04-02T16:00:00+00:00,FT,Semi-finals,Slovan Bratislava,656,Spartak Trnava,1120,2,1,True
+1362901,2025-04-15T16:00:00+00:00,AET,Semi-finals,Spartak Trnava,1120,Slovan Bratislava,656,2,1,False
+1362899,2025-04-16T16:00:00+00:00,FT,Semi-finals,Dukla Banská Bystrica,10533,Ružomberok,3549,0,2,True
+1371995,2025-05-01T13:00:00+00:00,FT,Final,Ružomberok,3549,Spartak Trnava,1120,0,1,True

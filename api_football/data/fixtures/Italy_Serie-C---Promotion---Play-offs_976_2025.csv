@@ -1,40 +1,40 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1543601,2026-05-03T15:30:00+00:00,FT,Cittadella,510,Arzignano Valchiampo,6378,2,2,True
-1543602,2026-05-03T18:00:00+00:00,FT,Crotone,501,Audace Cerignola,9539,1,1,True
-1543604,2026-05-03T18:00:00+00:00,FT,Casertana,885,Atalanta II,22104,1,0,True
-1543608,2026-05-03T18:00:00+00:00,FT,Lumezzane,1689,Alcione,17824,0,0,True
-1543603,2026-05-03T18:00:00+00:00,FT,Pianese,6381,Ternana,516,1,1,True
-1543607,2026-05-03T18:00:00+00:00,FT,Pineto,9514,Gubbio,866,2,1,True
-1543605,2026-05-03T18:00:00+00:00,FT,SS Monopoli,10138,Casarano,9542,0,2,True
-1543606,2026-05-03T18:00:00+00:00,FT,Trento,17147,Giana Erminio,865,1,2,True
-1543609,2026-05-03T18:45:00+00:00,FT,Juventus U23,1715,Vis Pesaro,1708,2,2,True
-1544077,2026-05-06T18:00:00+00:00,FT,Cittadella,510,Lumezzane,1689,1,0,True
-1544075,2026-05-06T18:00:00+00:00,FT,Casertana,885,Crotone,501,1,1,True
-1544074,2026-05-06T18:00:00+00:00,FT,Juventus U23,1715,Pianese,6381,0,2,True
-1544079,2026-05-06T18:00:00+00:00,FT,Campobasso FC,9510,Pineto,9514,1,1,True
-1544076,2026-05-06T18:00:00+00:00,FT,Cosenza,10137,Casarano,9542,1,5,True
-1544078,2026-05-06T18:45:00+00:00,FT,Lecco,6379,Giana Erminio,865,2,1,True
-1544552,2026-05-10T18:00:00+00:00,FT,Pianese,6381,Lecco,6379,1,1,True
-1544550,2026-05-10T18:00:00+00:00,FT,Campobasso FC,9510,Potenza,1710,0,3,True
-1544551,2026-05-10T18:00:00+00:00,FT,Casarano,9542,Renate,875,0,2,True
-1544553,2026-05-10T18:45:00+00:00,FT,Cittadella,510,Ravenna,1705,2,2,True
-1544554,2026-05-10T19:00:00+00:00,FT,Casertana,885,Salernitana,514,2,3,True
-1544557,2026-05-13T18:00:00+00:00,FT,Renate,875,Casarano,9542,0,3,True
-1544556,2026-05-13T18:00:00+00:00,FT,Ravenna,1705,Cittadella,510,1,1,True
-1544555,2026-05-13T18:00:00+00:00,FT,Lecco,6379,Pianese,6381,1,1,True
-1544558,2026-05-13T18:45:00+00:00,FT,Salernitana,514,Casertana,885,1,1,True
-1544559,2026-05-13T19:00:00+00:00,FT,Potenza,1710,Campobasso FC,9510,3,1,True
-1545151,2026-05-17T18:00:00+00:00,FT,Salernitana,514,Ravenna,1705,2,0,True
-1545150,2026-05-17T18:00:00+00:00,FT,Potenza,1710,Ascoli,507,0,0,True
-1545149,2026-05-17T18:00:00+00:00,FT,Casarano,9542,Union Brescia,26356,0,3,True
-1545152,2026-05-17T18:45:00+00:00,FT,Lecco,6379,Catania,1580,0,0,True
-1545153,2026-05-20T18:00:00+00:00,FT,Ascoli,507,Potenza,1710,1,0,True
-1545154,2026-05-20T18:00:00+00:00,FT,Union Brescia,26356,Casarano,9542,0,0,True
-1545155,2026-05-20T18:30:00+00:00,FT,Catania,1580,Lecco,6379,3,3,True
-1545156,2026-05-20T18:45:00+00:00,FT,Ravenna,1705,Salernitana,514,0,2,True
-1545773,2026-05-24T18:00:00+00:00,FT,Ascoli,507,Catania,1580,4,0,True
-1545774,2026-05-24T19:00:00+00:00,FT,Salernitana,514,Union Brescia,26356,1,1,True
-1545775,2026-05-27T18:00:00+00:00,FT,Union Brescia,26356,Salernitana,514,2,0,True
-1545776,2026-05-27T19:00:00+00:00,FT,Catania,1580,Ascoli,507,2,1,True
-1547199,2026-06-03T17:00:00+00:00,FT,Union Brescia,26356,Ascoli,507,1,1,True
-1547200,2026-06-07T16:00:00+00:00,FT,Ascoli,507,Union Brescia,26356,3,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1543601,2026-05-03T15:30:00+00:00,FT,Promotion Play-offs - 1st Round,Cittadella,510,Arzignano Valchiampo,6378,2,2,True
+1543602,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Crotone,501,Audace Cerignola,9539,1,1,True
+1543604,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Casertana,885,Atalanta II,22104,1,0,True
+1543608,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Lumezzane,1689,Alcione,17824,0,0,True
+1543603,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Pianese,6381,Ternana,516,1,1,True
+1543607,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Pineto,9514,Gubbio,866,2,1,True
+1543605,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,SS Monopoli,10138,Casarano,9542,0,2,True
+1543606,2026-05-03T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Trento,17147,Giana Erminio,865,1,2,True
+1543609,2026-05-03T18:45:00+00:00,FT,Promotion Play-offs - 1st Round,Juventus U23,1715,Vis Pesaro,1708,2,2,True
+1544077,2026-05-06T18:00:00+00:00,FT,Promotion Play-offs - 2nd Round,Cittadella,510,Lumezzane,1689,1,0,True
+1544075,2026-05-06T18:00:00+00:00,FT,Promotion Play-offs - 2nd Round,Casertana,885,Crotone,501,1,1,True
+1544074,2026-05-06T18:00:00+00:00,FT,Promotion Play-offs - 2nd Round,Juventus U23,1715,Pianese,6381,0,2,True
+1544079,2026-05-06T18:00:00+00:00,FT,Promotion Play-offs - 2nd Round,Campobasso FC,9510,Pineto,9514,1,1,True
+1544076,2026-05-06T18:00:00+00:00,FT,Promotion Play-offs - 2nd Round,Cosenza,10137,Casarano,9542,1,5,True
+1544078,2026-05-06T18:45:00+00:00,FT,Promotion Play-offs - 2nd Round,Lecco,6379,Giana Erminio,865,2,1,True
+1544552,2026-05-10T18:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Pianese,6381,Lecco,6379,1,1,True
+1544550,2026-05-10T18:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Campobasso FC,9510,Potenza,1710,0,3,True
+1544551,2026-05-10T18:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Casarano,9542,Renate,875,0,2,True
+1544553,2026-05-10T18:45:00+00:00,FT,Promotion Play-offs - 3rd Round,Cittadella,510,Ravenna,1705,2,2,True
+1544554,2026-05-10T19:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Casertana,885,Salernitana,514,2,3,True
+1544557,2026-05-13T18:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Renate,875,Casarano,9542,0,3,True
+1544556,2026-05-13T18:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Ravenna,1705,Cittadella,510,1,1,True
+1544555,2026-05-13T18:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Lecco,6379,Pianese,6381,1,1,True
+1544558,2026-05-13T18:45:00+00:00,FT,Promotion Play-offs - 3rd Round,Salernitana,514,Casertana,885,1,1,True
+1544559,2026-05-13T19:00:00+00:00,FT,Promotion Play-offs - 3rd Round,Potenza,1710,Campobasso FC,9510,3,1,True
+1545151,2026-05-17T18:00:00+00:00,FT,Quarter-finals,Salernitana,514,Ravenna,1705,2,0,True
+1545150,2026-05-17T18:00:00+00:00,FT,Quarter-finals,Potenza,1710,Ascoli,507,0,0,True
+1545149,2026-05-17T18:00:00+00:00,FT,Quarter-finals,Casarano,9542,Union Brescia,26356,0,3,True
+1545152,2026-05-17T18:45:00+00:00,FT,Quarter-finals,Lecco,6379,Catania,1580,0,0,True
+1545153,2026-05-20T18:00:00+00:00,FT,Quarter-finals,Ascoli,507,Potenza,1710,1,0,True
+1545154,2026-05-20T18:00:00+00:00,FT,Quarter-finals,Union Brescia,26356,Casarano,9542,0,0,True
+1545155,2026-05-20T18:30:00+00:00,FT,Quarter-finals,Catania,1580,Lecco,6379,3,3,True
+1545156,2026-05-20T18:45:00+00:00,FT,Quarter-finals,Ravenna,1705,Salernitana,514,0,2,True
+1545773,2026-05-24T18:00:00+00:00,FT,Semi-finals,Ascoli,507,Catania,1580,4,0,True
+1545774,2026-05-24T19:00:00+00:00,FT,Semi-finals,Salernitana,514,Union Brescia,26356,1,1,True
+1545775,2026-05-27T18:00:00+00:00,FT,Semi-finals,Union Brescia,26356,Salernitana,514,2,0,True
+1545776,2026-05-27T19:00:00+00:00,FT,Semi-finals,Catania,1580,Ascoli,507,2,1,True
+1547199,2026-06-03T17:00:00+00:00,FT,Final,Union Brescia,26356,Ascoli,507,1,1,True
+1547200,2026-06-07T16:00:00+00:00,FT,Final,Ascoli,507,Union Brescia,26356,3,0,True

@@ -1,154 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1291275,2025-01-05T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Paganese,890,1,1,True
-1291272,2025-01-05T13:30:00+00:00,FT,Cassino,9525,Trastevere,874,3,0,True
-1291278,2025-01-05T13:30:00+00:00,FT,Latte Dolce,9528,Sarrabus Ogliastra,19984,2,0,True
-1291274,2025-01-05T13:30:00+00:00,FT,Gelbison,9544,Terracina Calcio,24702,2,0,True
-1291273,2025-01-05T13:30:00+00:00,FT,Puteolana,17542,Real Monterotondo,17846,2,0,True
-1291271,2025-01-05T13:30:00+00:00,FT,Atletico Uri,17842,Savoia,9564,1,0,True
-1291270,2025-01-05T13:30:00+00:00,FT,Anzio,22300,Atletico Lodigiani,24762,2,2,True
-1291277,2025-01-05T13:30:00+00:00,FT,Sarnese,24700,Albalonga,17844,4,3,True
-1291276,2025-01-05T14:00:00+00:00,FT,Ilvamaddalena,19973,Olbia,1697,4,2,True
-1291287,2025-01-12T13:30:00+00:00,FT,Trastevere,874,Guidonia Montecelio 1937,882,1,1,True
-1291283,2025-01-12T13:30:00+00:00,FT,Paganese,890,Anzio,22300,0,0,True
-1291282,2025-01-12T13:30:00+00:00,FT,Olbia,1697,Latte Dolce,9528,3,2,True
-1291285,2025-01-12T13:30:00+00:00,FT,Savoia,9564,Gelbison,9544,0,1,True
-1291281,2025-01-12T13:30:00+00:00,FT,Albalonga,17844,Puteolana,17542,2,1,True
-1291284,2025-01-12T13:30:00+00:00,FT,Real Monterotondo,17846,Cassino,9525,0,0,True
-1291280,2025-01-12T13:30:00+00:00,FT,Sarrabus Ogliastra,19984,Atletico Uri,17842,2,2,True
-1291286,2025-01-12T13:30:00+00:00,FT,Terracina Calcio,24702,Sarnese,24700,0,2,True
-1291279,2025-01-12T13:30:00+00:00,FT,Atletico Lodigiani,24762,Ilvamaddalena,19973,1,1,True
-1291295,2025-01-18T13:30:00+00:00,FT,Real Monterotondo,17846,Paganese,890,2,1,True
-1291293,2025-01-19T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Olbia,1697,1,0,True
-1291290,2025-01-19T13:30:00+00:00,FT,Cassino,9525,Atletico Lodigiani,24762,2,1,True
-1291296,2025-01-19T13:30:00+00:00,FT,Latte Dolce,9528,Terracina Calcio,24702,4,2,True
-1291292,2025-01-19T13:30:00+00:00,FT,Gelbison,9544,Sarnese,24700,3,2,True
-1291291,2025-01-19T13:30:00+00:00,FT,Puteolana,17542,Trastevere,874,1,0,True
-1291289,2025-01-19T13:30:00+00:00,FT,Atletico Uri,17842,Albalonga,17844,3,1,True
-1291294,2025-01-19T13:30:00+00:00,FT,Ilvamaddalena,19973,Savoia,9564,0,1,True
-1291288,2025-01-19T13:30:00+00:00,FT,Anzio,22300,Sarrabus Ogliastra,19984,1,1,True
-1291303,2025-01-26T13:00:00+00:00,FT,Savoia,9564,Latte Dolce,9528,3,0,True
-1291305,2025-01-26T13:30:00+00:00,FT,Trastevere,874,Real Monterotondo,17846,1,0,True
-1291300,2025-01-26T13:30:00+00:00,FT,Olbia,1697,Anzio,22300,3,2,True
-1291299,2025-01-26T13:30:00+00:00,FT,Albalonga,17844,Gelbison,9544,3,1,True
-1291298,2025-01-26T13:30:00+00:00,FT,Sarrabus Ogliastra,19984,Ilvamaddalena,19973,1,0,True
-1291302,2025-01-26T13:30:00+00:00,FT,Sarnese,24700,Puteolana,17542,0,3,True
-1291304,2025-01-26T13:30:00+00:00,FT,Terracina Calcio,24702,Atletico Uri,17842,0,0,True
-1291297,2025-01-26T13:30:00+00:00,FT,Atletico Lodigiani,24762,Guidonia Montecelio 1937,882,1,2,True
-1291301,2025-01-26T14:30:00+00:00,FT,Paganese,890,Cassino,9525,0,0,True
-1291311,2025-02-02T13:00:00+00:00,FT,Ilvamaddalena,19973,Albalonga,17844,0,1,True
-1291314,2025-02-02T13:30:00+00:00,FT,Trastevere,874,Atletico Lodigiani,24762,2,1,True
-1291310,2025-02-02T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Savoia,9564,6,1,True
-1291308,2025-02-02T13:30:00+00:00,FT,Cassino,9525,Sarrabus Ogliastra,19984,3,0,True
-1291313,2025-02-02T13:30:00+00:00,FT,Latte Dolce,9528,Sarnese,24700,0,1,True
-1291307,2025-02-02T13:30:00+00:00,FT,Atletico Uri,17842,Gelbison,9544,3,3,True
-1291312,2025-02-02T13:30:00+00:00,FT,Real Monterotondo,17846,Olbia,1697,0,0,True
-1291306,2025-02-02T13:30:00+00:00,FT,Anzio,22300,Terracina Calcio,24702,0,2,True
-1291309,2025-02-02T14:00:00+00:00,FT,Puteolana,17542,Paganese,890,1,1,True
-1291319,2025-02-08T13:00:00+00:00,FT,Olbia,1697,Cassino,9525,0,0,True
-1291317,2025-02-08T13:30:00+00:00,FT,Albalonga,17844,Latte Dolce,9528,4,0,True
-1291321,2025-02-09T13:00:00+00:00,FT,Sarnese,24700,Atletico Uri,17842,4,2,True
-1291320,2025-02-09T13:30:00+00:00,FT,Paganese,890,Trastevere,874,2,1,True
-1291318,2025-02-09T13:30:00+00:00,FT,Gelbison,9544,Puteolana,17542,1,0,True
-1291322,2025-02-09T13:30:00+00:00,FT,Savoia,9564,Anzio,22300,4,1,True
-1291316,2025-02-09T13:30:00+00:00,FT,Sarrabus Ogliastra,19984,Guidonia Montecelio 1937,882,3,0,True
-1291323,2025-02-09T13:30:00+00:00,FT,Terracina Calcio,24702,Ilvamaddalena,19973,0,2,True
-1291315,2025-02-09T13:30:00+00:00,FT,Atletico Lodigiani,24762,Real Monterotondo,17846,1,1,True
-1291330,2025-02-15T13:30:00+00:00,FT,Real Monterotondo,17846,Savoia,9564,2,2,True
-1291329,2025-02-16T13:00:00+00:00,FT,Paganese,890,Olbia,1697,1,0,True
-1291332,2025-02-16T13:30:00+00:00,FT,Trastevere,874,Sarrabus Ogliastra,19984,3,1,True
-1291327,2025-02-16T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Albalonga,17844,1,0,True
-1291325,2025-02-16T13:30:00+00:00,FT,Cassino,9525,Terracina Calcio,24702,2,0,True
-1291331,2025-02-16T13:30:00+00:00,FT,Latte Dolce,9528,Atletico Uri,17842,1,2,True
-1291328,2025-02-16T13:30:00+00:00,FT,Ilvamaddalena,19973,Gelbison,9544,1,1,True
-1291324,2025-02-16T13:30:00+00:00,FT,Anzio,22300,Sarnese,24700,2,6,True
-1291326,2025-02-16T14:00:00+00:00,FT,Puteolana,17542,Atletico Lodigiani,24762,1,0,True
-1291337,2025-02-22T13:30:00+00:00,FT,Gelbison,9544,Latte Dolce,9528,3,1,True
-1291335,2025-02-23T13:00:00+00:00,FT,Sarrabus Ogliastra,19984,Real Monterotondo,17846,2,1,True
-1291339,2025-02-23T13:00:00+00:00,FT,Sarnese,24700,Ilvamaddalena,19973,2,1,True
-1291338,2025-02-23T13:30:00+00:00,FT,Olbia,1697,Trastevere,874,3,0,True
-1291334,2025-02-23T13:30:00+00:00,FT,Atletico Uri,17842,Puteolana,17542,3,0,True
-1291336,2025-02-23T13:30:00+00:00,FT,Albalonga,17844,Anzio,22300,1,0,True
-1291341,2025-02-23T13:30:00+00:00,FT,Terracina Calcio,24702,Guidonia Montecelio 1937,882,1,5,True
-1291333,2025-02-23T13:30:00+00:00,FT,Atletico Lodigiani,24762,Paganese,890,3,1,True
-1291340,2025-02-23T14:00:00+00:00,FT,Savoia,9564,Cassino,9525,1,0,True
-1291345,2025-03-01T13:45:00+00:00,FT,Puteolana,17542,Olbia,1697,1,3,True
-1291350,2025-03-02T13:30:00+00:00,FT,Trastevere,874,Terracina Calcio,24702,4,0,True
-1291346,2025-03-02T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Gelbison,9544,1,0,True
-1291349,2025-03-02T13:30:00+00:00,FT,Real Monterotondo,17846,Albalonga,17844,0,2,True
-1291342,2025-03-02T13:30:00+00:00,FT,Anzio,22300,Atletico Uri,17842,0,0,True
-1291343,2025-03-02T13:30:00+00:00,FT,Atletico Lodigiani,24762,Sarrabus Ogliastra,19984,3,1,True
-1291348,2025-03-02T14:00:00+00:00,FT,Paganese,890,Savoia,9564,0,2,True
-1291344,2025-03-02T14:00:00+00:00,FT,Cassino,9525,Sarnese,24700,1,1,True
-1291347,2025-03-02T14:00:00+00:00,FT,Ilvamaddalena,19973,Latte Dolce,9528,2,0,True
-1291355,2025-03-09T13:30:00+00:00,FT,Olbia,1697,Atletico Lodigiani,24762,1,0,True
-1291357,2025-03-09T13:30:00+00:00,FT,Latte Dolce,9528,Puteolana,17542,1,0,True
-1291354,2025-03-09T13:30:00+00:00,FT,Gelbison,9544,Anzio,22300,1,0,True
-1291351,2025-03-09T13:30:00+00:00,FT,Atletico Uri,17842,Ilvamaddalena,19973,0,1,True
-1291353,2025-03-09T13:30:00+00:00,FT,Albalonga,17844,Cassino,9525,3,2,True
-1291352,2025-03-09T13:30:00+00:00,FT,Sarrabus Ogliastra,19984,Paganese,890,0,3,True
-1291356,2025-03-09T13:30:00+00:00,FT,Sarnese,24700,Guidonia Montecelio 1937,882,1,1,True
-1291359,2025-03-09T13:30:00+00:00,FT,Terracina Calcio,24702,Real Monterotondo,17846,1,2,True
-1291358,2025-03-09T14:00:00+00:00,FT,Savoia,9564,Trastevere,874,3,0,True
-1291368,2025-03-23T13:30:00+00:00,FT,Trastevere,874,Sarnese,24700,0,1,True
-1291364,2025-03-23T13:30:00+00:00,FT,Guidonia Montecelio 1937,882,Latte Dolce,9528,4,2,True
-1291366,2025-03-23T13:30:00+00:00,FT,Paganese,890,Albalonga,17844,4,0,True
-1291365,2025-03-23T13:30:00+00:00,FT,Olbia,1697,Savoia,9564,0,1,True
-1291362,2025-03-23T13:30:00+00:00,FT,Cassino,9525,Atletico Uri,17842,1,0,True
-1291363,2025-03-23T13:30:00+00:00,FT,Puteolana,17542,Sarrabus Ogliastra,19984,3,3,True
-1291367,2025-03-23T13:30:00+00:00,FT,Real Monterotondo,17846,Gelbison,9544,0,3,True
-1291360,2025-03-23T13:30:00+00:00,FT,Anzio,22300,Ilvamaddalena,19973,1,6,True
-1291361,2025-03-23T13:30:00+00:00,FT,Atletico Lodigiani,24762,Terracina Calcio,24702,3,3,True
-1291373,2025-03-30T12:15:00+00:00,FT,Ilvamaddalena,19973,Puteolana,17542,2,0,True
-1291375,2025-03-30T13:00:00+00:00,FT,Latte Dolce,9528,Anzio,22300,1,1,True
-1291372,2025-03-30T13:00:00+00:00,FT,Gelbison,9544,Cassino,9525,2,1,True
-1291369,2025-03-30T13:00:00+00:00,FT,Atletico Uri,17842,Guidonia Montecelio 1937,882,1,2,True
-1291371,2025-03-30T13:00:00+00:00,FT,Albalonga,17844,Trastevere,874,1,0,True
-1291370,2025-03-30T13:00:00+00:00,FT,Sarrabus Ogliastra,19984,Olbia,1697,1,1,True
-1291377,2025-03-30T13:00:00+00:00,FT,Terracina Calcio,24702,Paganese,890,0,1,True
-1291376,2025-03-30T13:30:00+00:00,FT,Savoia,9564,Atletico Lodigiani,24762,3,1,True
-1291374,2025-03-30T13:30:00+00:00,FT,Sarnese,24700,Real Monterotondo,17846,2,0,True
-1291385,2025-04-05T13:00:00+00:00,FT,Real Monterotondo,17846,Latte Dolce,9528,1,0,True
-1291380,2025-04-06T12:30:00+00:00,FT,Cassino,9525,Ilvamaddalena,19973,1,0,True
-1291386,2025-04-06T13:00:00+00:00,FT,Trastevere,874,Atletico Uri,17842,3,1,True
-1291382,2025-04-06T13:00:00+00:00,FT,Guidonia Montecelio 1937,882,Anzio,22300,3,1,True
-1291383,2025-04-06T13:00:00+00:00,FT,Olbia,1697,Albalonga,17844,3,1,True
-1291379,2025-04-06T13:00:00+00:00,FT,Sarrabus Ogliastra,19984,Terracina Calcio,24702,3,2,True
-1291378,2025-04-06T13:00:00+00:00,FT,Atletico Lodigiani,24762,Sarnese,24700,1,1,True
-1291381,2025-04-06T13:30:00+00:00,FT,Puteolana,17542,Savoia,9564,0,0,True
-1291384,2025-04-06T15:00:00+00:00,FT,Paganese,890,Gelbison,9544,1,1,True
-1291391,2025-04-13T12:15:00+00:00,FT,Ilvamaddalena,19973,Guidonia Montecelio 1937,882,0,3,True
-1291394,2025-04-13T12:30:00+00:00,FT,Savoia,9564,Sarrabus Ogliastra,19984,1,1,True
-1291393,2025-04-13T13:00:00+00:00,FT,Latte Dolce,9528,Cassino,9525,3,1,True
-1291390,2025-04-13T13:00:00+00:00,FT,Gelbison,9544,Trastevere,874,3,3,True
-1291388,2025-04-13T13:00:00+00:00,FT,Atletico Uri,17842,Real Monterotondo,17846,1,2,True
-1291389,2025-04-13T13:00:00+00:00,FT,Albalonga,17844,Atletico Lodigiani,24762,0,0,True
-1291387,2025-04-13T13:00:00+00:00,FT,Anzio,22300,Puteolana,17542,2,2,True
-1291392,2025-04-13T13:00:00+00:00,FT,Sarnese,24700,Paganese,890,1,0,True
-1291395,2025-04-13T13:00:00+00:00,FT,Terracina Calcio,24702,Olbia,1697,0,0,True
-1291401,2025-04-17T12:30:00+00:00,FT,Paganese,890,Atletico Uri,17842,1,0,True
-1291397,2025-04-17T12:30:00+00:00,FT,Sarrabus Ogliastra,19984,Albalonga,17844,2,0,True
-1291404,2025-04-17T13:00:00+00:00,FT,Trastevere,874,Latte Dolce,9528,2,2,True
-1291400,2025-04-17T13:00:00+00:00,FT,Olbia,1697,Sarnese,24700,2,3,True
-1291398,2025-04-17T13:00:00+00:00,FT,Cassino,9525,Anzio,22300,0,1,True
-1291403,2025-04-17T13:00:00+00:00,FT,Savoia,9564,Terracina Calcio,24702,2,0,True
-1291399,2025-04-17T13:00:00+00:00,FT,Puteolana,17542,Guidonia Montecelio 1937,882,0,4,True
-1291402,2025-04-17T13:00:00+00:00,FT,Real Monterotondo,17846,Ilvamaddalena,19973,1,1,True
-1291396,2025-04-17T13:00:00+00:00,FT,Atletico Lodigiani,24762,Gelbison,9544,2,1,True
-1291411,2025-04-27T12:30:00+00:00,FT,Ilvamaddalena,19973,Paganese,890,2,0,True
-1291410,2025-04-27T13:00:00+00:00,FT,Guidonia Montecelio 1937,882,Real Monterotondo,17846,1,0,True
-1291413,2025-04-27T13:00:00+00:00,FT,Latte Dolce,9528,Atletico Lodigiani,24762,2,1,True
-1291409,2025-04-27T13:00:00+00:00,FT,Gelbison,9544,Sarrabus Ogliastra,19984,1,0,True
-1291408,2025-04-27T13:00:00+00:00,FT,Puteolana,17542,Cassino,9525,1,1,True
-1291406,2025-04-27T13:00:00+00:00,FT,Atletico Uri,17842,Olbia,1697,1,2,True
-1291407,2025-04-27T13:00:00+00:00,FT,Albalonga,17844,Terracina Calcio,24702,4,0,True
-1291405,2025-04-27T13:00:00+00:00,FT,Anzio,22300,Trastevere,874,1,1,True
-1291412,2025-04-27T13:00:00+00:00,FT,Sarnese,24700,Savoia,9564,1,3,True
-1291421,2025-05-03T13:00:00+00:00,FT,Terracina Calcio,24702,Puteolana,17542,1,3,True
-1291422,2025-05-04T13:00:00+00:00,FT,Trastevere,874,Ilvamaddalena,19973,4,1,True
-1291418,2025-05-04T13:00:00+00:00,FT,Paganese,890,Latte Dolce,9528,1,1,True
-1291417,2025-05-04T13:00:00+00:00,FT,Olbia,1697,Gelbison,9544,3,3,True
-1291416,2025-05-04T13:00:00+00:00,FT,Cassino,9525,Guidonia Montecelio 1937,882,0,0,True
-1291420,2025-05-04T13:00:00+00:00,FT,Savoia,9564,Albalonga,17844,1,1,True
-1291419,2025-05-04T13:00:00+00:00,FT,Real Monterotondo,17846,Anzio,22300,1,2,True
-1291415,2025-05-04T13:00:00+00:00,FT,Sarrabus Ogliastra,19984,Sarnese,24700,1,2,True
-1291414,2025-05-04T13:00:00+00:00,FT,Atletico Lodigiani,24762,Atletico Uri,17842,3,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1291123,2024-09-08T12:30:00+00:00,FT,Group G - 1,Savoia,9564,Atletico Uri,17842,2,0,True
+1291125,2024-09-08T13:00:00+00:00,FT,Group G - 1,Trastevere,874,Cassino,9525,3,0,True
+1291121,2024-09-08T13:00:00+00:00,FT,Group G - 1,Paganese,890,Guidonia Montecelio 1937,882,0,0,True
+1291120,2024-09-08T13:00:00+00:00,FT,Group G - 1,Olbia,1697,Ilvamaddalena,19973,0,3,True
+1291119,2024-09-08T13:00:00+00:00,FT,Group G - 1,Albalonga,17844,Sarnese,24700,0,1,True
+1291122,2024-09-08T13:00:00+00:00,FT,Group G - 1,Real Monterotondo,17846,Puteolana,17542,0,0,True
+1291124,2024-09-08T13:00:00+00:00,FT,Group G - 1,Terracina Calcio,24702,Gelbison,9544,1,1,True
+1291117,2024-09-08T13:00:00+00:00,FT,Group G - 1,Atletico Lodigiani,24762,Anzio,22300,1,2,True
+1291118,2024-09-08T15:30:00+00:00,FT,Group G - 1,Sarrabus Ogliastra,19984,Latte Dolce,9528,2,2,True
+1291132,2024-09-15T12:30:00+00:00,FT,Group G - 2,Ilvamaddalena,19973,Atletico Lodigiani,24762,0,1,True
+1291131,2024-09-15T13:00:00+00:00,FT,Group G - 2,Guidonia Montecelio 1937,882,Trastevere,874,2,0,True
+1291128,2024-09-15T13:00:00+00:00,FT,Group G - 2,Cassino,9525,Real Monterotondo,17846,3,0,True
+1291134,2024-09-15T13:00:00+00:00,FT,Group G - 2,Latte Dolce,9528,Olbia,1697,2,2,True
+1291130,2024-09-15T13:00:00+00:00,FT,Group G - 2,Gelbison,9544,Savoia,9564,1,0,True
+1291129,2024-09-15T13:00:00+00:00,FT,Group G - 2,Puteolana,17542,Albalonga,17844,3,2,True
+1291127,2024-09-15T13:00:00+00:00,FT,Group G - 2,Atletico Uri,17842,Sarrabus Ogliastra,19984,0,0,True
+1291126,2024-09-15T13:00:00+00:00,FT,Group G - 2,Anzio,22300,Paganese,890,1,3,True
+1291133,2024-09-15T13:00:00+00:00,FT,Group G - 2,Sarnese,24700,Terracina Calcio,24702,1,1,True
+1291141,2024-09-22T12:30:00+00:00,FT,Group G - 3,Savoia,9564,Ilvamaddalena,19973,2,1,True
+1291143,2024-09-22T13:00:00+00:00,FT,Group G - 3,Trastevere,874,Puteolana,17542,1,2,True
+1291139,2024-09-22T13:00:00+00:00,FT,Group G - 3,Paganese,890,Real Monterotondo,17846,1,0,True
+1291138,2024-09-22T13:00:00+00:00,FT,Group G - 3,Olbia,1697,Guidonia Montecelio 1937,882,0,1,True
+1291137,2024-09-22T13:00:00+00:00,FT,Group G - 3,Albalonga,17844,Atletico Uri,17842,2,1,True
+1291136,2024-09-22T13:00:00+00:00,FT,Group G - 3,Sarrabus Ogliastra,19984,Anzio,22300,1,2,True
+1291140,2024-09-22T13:00:00+00:00,FT,Group G - 3,Sarnese,24700,Gelbison,9544,0,1,True
+1291142,2024-09-22T13:00:00+00:00,FT,Group G - 3,Terracina Calcio,24702,Latte Dolce,9528,3,1,True
+1291135,2024-09-22T13:00:00+00:00,FT,Group G - 3,Atletico Lodigiani,24762,Cassino,9525,0,2,True
+1291145,2024-09-28T12:30:00+00:00,FT,Group G - 4,Atletico Uri,17842,Terracina Calcio,24702,1,1,True
+1291149,2024-09-29T13:00:00+00:00,FT,Group G - 4,Guidonia Montecelio 1937,882,Atletico Lodigiani,24762,3,0,True
+1291146,2024-09-29T13:00:00+00:00,FT,Group G - 4,Cassino,9525,Paganese,890,1,0,True
+1291152,2024-09-29T13:00:00+00:00,FT,Group G - 4,Latte Dolce,9528,Savoia,9564,1,1,True
+1291148,2024-09-29T13:00:00+00:00,FT,Group G - 4,Gelbison,9544,Albalonga,17844,1,2,True
+1291147,2024-09-29T13:00:00+00:00,FT,Group G - 4,Puteolana,17542,Sarnese,24700,0,0,True
+1291151,2024-09-29T13:00:00+00:00,FT,Group G - 4,Real Monterotondo,17846,Trastevere,874,1,2,True
+1291150,2024-09-29T13:00:00+00:00,FT,Group G - 4,Ilvamaddalena,19973,Sarrabus Ogliastra,19984,2,0,True
+1291144,2024-09-29T13:00:00+00:00,FT,Group G - 4,Anzio,22300,Olbia,1697,2,1,True
+1291156,2024-10-06T12:30:00+00:00,FT,Group G - 5,Gelbison,9544,Atletico Uri,17842,4,1,True
+1291159,2024-10-06T12:30:00+00:00,FT,Group G - 5,Sarnese,24700,Latte Dolce,9528,1,1,True
+1291158,2024-10-06T13:00:00+00:00,FT,Group G - 5,Paganese,890,Puteolana,17542,0,0,True
+1291157,2024-10-06T13:00:00+00:00,FT,Group G - 5,Olbia,1697,Real Monterotondo,17846,0,1,True
+1291160,2024-10-06T13:00:00+00:00,FT,Group G - 5,Savoia,9564,Guidonia Montecelio 1937,882,1,0,True
+1291155,2024-10-06T13:00:00+00:00,FT,Group G - 5,Albalonga,17844,Ilvamaddalena,19973,1,0,True
+1291154,2024-10-06T13:00:00+00:00,FT,Group G - 5,Sarrabus Ogliastra,19984,Cassino,9525,0,1,True
+1291161,2024-10-06T13:00:00+00:00,FT,Group G - 5,Terracina Calcio,24702,Anzio,22300,0,2,True
+1291153,2024-10-06T13:00:00+00:00,FT,Group G - 5,Atletico Lodigiani,24762,Trastevere,874,1,1,True
+1291166,2024-10-13T12:30:00+00:00,FT,Group G - 6,Guidonia Montecelio 1937,882,Sarrabus Ogliastra,19984,3,1,True
+1291163,2024-10-13T12:30:00+00:00,FT,Group G - 6,Atletico Uri,17842,Sarnese,24700,2,0,True
+1291167,2024-10-13T12:30:00+00:00,FT,Group G - 6,Ilvamaddalena,19973,Terracina Calcio,24702,0,1,True
+1291170,2024-10-13T13:00:00+00:00,FT,Group G - 6,Trastevere,874,Paganese,890,2,3,True
+1291164,2024-10-13T13:00:00+00:00,FT,Group G - 6,Cassino,9525,Olbia,1697,2,2,True
+1291169,2024-10-13T13:00:00+00:00,FT,Group G - 6,Latte Dolce,9528,Albalonga,17844,2,2,True
+1291165,2024-10-13T13:00:00+00:00,FT,Group G - 6,Puteolana,17542,Gelbison,9544,1,1,True
+1291168,2024-10-13T13:00:00+00:00,FT,Group G - 6,Real Monterotondo,17846,Atletico Lodigiani,24762,0,0,True
+1291162,2024-10-13T13:00:00+00:00,FT,Group G - 6,Anzio,22300,Savoia,9564,1,0,True
+1291176,2024-10-19T12:00:00+00:00,FT,Group G - 7,Olbia,1697,Paganese,890,0,2,True
+1291175,2024-10-19T12:00:00+00:00,FT,Group G - 7,Gelbison,9544,Ilvamaddalena,19973,2,2,True
+1291178,2024-10-19T13:00:00+00:00,FT,Group G - 7,Savoia,9564,Real Monterotondo,17846,2,1,True
+1291174,2024-10-19T13:00:00+00:00,FT,Group G - 7,Albalonga,17844,Guidonia Montecelio 1937,882,0,0,True
+1291177,2024-10-19T13:00:00+00:00,FT,Group G - 7,Sarnese,24700,Anzio,22300,1,0,True
+1291171,2024-10-19T13:00:00+00:00,FT,Group G - 7,Atletico Lodigiani,24762,Puteolana,17542,2,2,True
+1291172,2024-10-19T13:30:00+00:00,FT,Group G - 7,Atletico Uri,17842,Latte Dolce,9528,1,2,True
+1291173,2024-10-20T12:30:00+00:00,FT,Group G - 7,Sarrabus Ogliastra,19984,Trastevere,874,0,2,True
+1291179,2024-10-20T13:00:00+00:00,FT,Group G - 7,Terracina Calcio,24702,Cassino,9525,1,1,True
+1291187,2024-10-23T09:00:00+00:00,FT,Group G - 8,Latte Dolce,9528,Gelbison,9544,1,0,True
+1291182,2024-10-23T12:00:00+00:00,FT,Group G - 8,Puteolana,17542,Atletico Uri,17842,3,1,True
+1291184,2024-10-23T12:00:00+00:00,FT,Group G - 8,Ilvamaddalena,19973,Sarnese,24700,1,2,True
+1291186,2024-10-23T12:30:00+00:00,FT,Group G - 8,Real Monterotondo,17846,Sarrabus Ogliastra,19984,4,2,True
+1291188,2024-10-23T13:00:00+00:00,FT,Group G - 8,Trastevere,874,Olbia,1697,0,0,True
+1291183,2024-10-23T13:00:00+00:00,FT,Group G - 8,Guidonia Montecelio 1937,882,Terracina Calcio,24702,4,0,True
+1291185,2024-10-23T13:00:00+00:00,FT,Group G - 8,Paganese,890,Atletico Lodigiani,24762,2,0,True
+1291181,2024-10-23T13:00:00+00:00,FT,Group G - 8,Cassino,9525,Savoia,9564,3,1,True
+1291180,2024-10-23T13:00:00+00:00,FT,Group G - 8,Anzio,22300,Albalonga,17844,0,4,True
+1291193,2024-10-27T13:30:00+00:00,FT,Group G - 9,Olbia,1697,Puteolana,17542,1,3,True
+1291195,2024-10-27T13:30:00+00:00,FT,Group G - 9,Latte Dolce,9528,Ilvamaddalena,19973,2,0,True
+1291192,2024-10-27T13:30:00+00:00,FT,Group G - 9,Gelbison,9544,Guidonia Montecelio 1937,882,0,1,True
+1291189,2024-10-27T13:30:00+00:00,FT,Group G - 9,Atletico Uri,17842,Anzio,22300,1,1,True
+1291191,2024-10-27T13:30:00+00:00,FT,Group G - 9,Albalonga,17844,Real Monterotondo,17846,0,1,True
+1291190,2024-10-27T13:30:00+00:00,FT,Group G - 9,Sarrabus Ogliastra,19984,Atletico Lodigiani,24762,0,2,True
+1291194,2024-10-27T13:30:00+00:00,FT,Group G - 9,Sarnese,24700,Cassino,9525,0,0,True
+1291197,2024-10-27T13:30:00+00:00,FT,Group G - 9,Terracina Calcio,24702,Trastevere,874,1,2,True
+1291196,2024-10-27T14:00:00+00:00,FT,Group G - 9,Savoia,9564,Paganese,890,2,0,True
+1291204,2024-11-01T13:30:00+00:00,FT,Group G - 10,Paganese,890,Sarrabus Ogliastra,19984,4,1,True
+1291201,2024-11-02T13:30:00+00:00,FT,Group G - 10,Puteolana,17542,Latte Dolce,9528,3,2,True
+1291206,2024-11-03T13:30:00+00:00,FT,Group G - 10,Trastevere,874,Savoia,9564,3,1,True
+1291202,2024-11-03T13:30:00+00:00,FT,Group G - 10,Guidonia Montecelio 1937,882,Sarnese,24700,1,1,True
+1291200,2024-11-03T13:30:00+00:00,FT,Group G - 10,Cassino,9525,Albalonga,17844,1,1,True
+1291205,2024-11-03T13:30:00+00:00,FT,Group G - 10,Real Monterotondo,17846,Terracina Calcio,24702,4,0,True
+1291203,2024-11-03T13:30:00+00:00,FT,Group G - 10,Ilvamaddalena,19973,Atletico Uri,17842,0,1,True
+1291199,2024-11-03T13:30:00+00:00,FT,Group G - 10,Atletico Lodigiani,24762,Olbia,1697,2,1,True
+1291198,2024-11-03T14:00:00+00:00,FT,Group G - 10,Anzio,22300,Gelbison,9544,1,2,True
+1291207,2024-11-10T13:00:00+00:00,FT,Group G - 11,Atletico Uri,17842,Cassino,9525,1,1,True
+1291211,2024-11-10T13:00:00+00:00,FT,Group G - 11,Ilvamaddalena,19973,Anzio,22300,1,1,True
+1291208,2024-11-10T13:00:00+00:00,FT,Group G - 11,Sarrabus Ogliastra,19984,Puteolana,17542,0,3,True
+1291213,2024-11-10T13:30:00+00:00,FT,Group G - 11,Latte Dolce,9528,Guidonia Montecelio 1937,882,2,1,True
+1291210,2024-11-10T13:30:00+00:00,FT,Group G - 11,Gelbison,9544,Real Monterotondo,17846,2,1,True
+1291214,2024-11-10T13:30:00+00:00,FT,Group G - 11,Savoia,9564,Olbia,1697,1,3,True
+1291209,2024-11-10T13:30:00+00:00,FT,Group G - 11,Albalonga,17844,Paganese,890,1,3,True
+1291212,2024-11-10T13:30:00+00:00,FT,Group G - 11,Sarnese,24700,Trastevere,874,4,2,True
+1291215,2024-11-10T13:30:00+00:00,FT,Group G - 11,Terracina Calcio,24702,Atletico Lodigiani,24762,1,1,True
+1291219,2024-11-17T13:00:00+00:00,FT,Group G - 12,Puteolana,17542,Ilvamaddalena,19973,4,1,True
+1291224,2024-11-17T13:30:00+00:00,FT,Group G - 12,Trastevere,874,Albalonga,17844,3,2,True
+1291220,2024-11-17T13:30:00+00:00,FT,Group G - 12,Guidonia Montecelio 1937,882,Atletico Uri,17842,1,1,True
+1291222,2024-11-17T13:30:00+00:00,FT,Group G - 12,Paganese,890,Terracina Calcio,24702,0,0,True
+1291221,2024-11-17T13:30:00+00:00,FT,Group G - 12,Olbia,1697,Sarrabus Ogliastra,19984,1,1,True
+1291218,2024-11-17T13:30:00+00:00,FT,Group G - 12,Cassino,9525,Gelbison,9544,0,0,True
+1291223,2024-11-17T13:30:00+00:00,FT,Group G - 12,Real Monterotondo,17846,Sarnese,24700,0,1,True
+1291216,2024-11-17T13:30:00+00:00,FT,Group G - 12,Anzio,22300,Latte Dolce,9528,2,1,True
+1291217,2024-11-17T13:30:00+00:00,FT,Group G - 12,Atletico Lodigiani,24762,Savoia,9564,0,0,True
+1291229,2024-11-23T13:00:00+00:00,FT,Group G - 13,Ilvamaddalena,19973,Cassino,9525,1,1,True
+1291231,2024-11-24T13:30:00+00:00,FT,Group G - 13,Latte Dolce,9528,Real Monterotondo,17846,0,1,True
+1291228,2024-11-24T13:30:00+00:00,FT,Group G - 13,Gelbison,9544,Paganese,890,1,1,True
+1291232,2024-11-24T13:30:00+00:00,FT,Group G - 13,Savoia,9564,Puteolana,17542,1,1,True
+1291226,2024-11-24T13:30:00+00:00,FT,Group G - 13,Atletico Uri,17842,Trastevere,874,1,1,True
+1291227,2024-11-24T13:30:00+00:00,FT,Group G - 13,Albalonga,17844,Olbia,1697,1,2,True
+1291225,2024-11-24T13:30:00+00:00,FT,Group G - 13,Anzio,22300,Guidonia Montecelio 1937,882,2,0,True
+1291230,2024-11-24T13:30:00+00:00,FT,Group G - 13,Sarnese,24700,Atletico Lodigiani,24762,4,0,True
+1291233,2024-11-24T13:30:00+00:00,FT,Group G - 13,Terracina Calcio,24702,Sarrabus Ogliastra,19984,0,1,True
+1291241,2024-11-30T13:30:00+00:00,FT,Group G - 14,Real Monterotondo,17846,Atletico Uri,17842,5,0,True
+1291242,2024-12-01T13:30:00+00:00,FT,Group G - 14,Trastevere,874,Gelbison,9544,1,2,True
+1291238,2024-12-01T13:30:00+00:00,FT,Group G - 14,Guidonia Montecelio 1937,882,Ilvamaddalena,19973,1,1,True
+1291240,2024-12-01T13:30:00+00:00,FT,Group G - 14,Paganese,890,Sarnese,24700,1,0,True
+1291239,2024-12-01T13:30:00+00:00,FT,Group G - 14,Olbia,1697,Terracina Calcio,24702,2,1,True
+1291236,2024-12-01T13:30:00+00:00,FT,Group G - 14,Cassino,9525,Latte Dolce,9528,2,1,True
+1291235,2024-12-01T13:30:00+00:00,FT,Group G - 14,Sarrabus Ogliastra,19984,Savoia,9564,0,0,True
+1291234,2024-12-01T13:30:00+00:00,FT,Group G - 14,Atletico Lodigiani,24762,Albalonga,17844,0,1,True
+1291237,2024-12-01T14:00:00+00:00,FT,Group G - 14,Puteolana,17542,Anzio,22300,2,0,True
+1291248,2024-12-07T13:00:00+00:00,FT,Group G - 15,Ilvamaddalena,19973,Real Monterotondo,17846,0,0,True
+1291249,2024-12-07T13:00:00+00:00,FT,Group G - 15,Sarnese,24700,Olbia,1697,4,1,True
+1291247,2024-12-08T13:30:00+00:00,FT,Group G - 15,Guidonia Montecelio 1937,882,Puteolana,17542,3,1,True
+1291250,2024-12-08T13:30:00+00:00,FT,Group G - 15,Latte Dolce,9528,Trastevere,874,5,1,True
+1291246,2024-12-08T13:30:00+00:00,FT,Group G - 15,Gelbison,9544,Atletico Lodigiani,24762,4,0,True
+1291244,2024-12-08T13:30:00+00:00,FT,Group G - 15,Atletico Uri,17842,Paganese,890,0,0,True
+1291245,2024-12-08T13:30:00+00:00,FT,Group G - 15,Albalonga,17844,Sarrabus Ogliastra,19984,0,1,True
+1291243,2024-12-08T13:30:00+00:00,FT,Group G - 15,Anzio,22300,Cassino,9525,1,2,True
+1291251,2024-12-08T13:30:00+00:00,FT,Group G - 15,Terracina Calcio,24702,Savoia,9564,2,1,True
+1291252,2024-12-14T13:30:00+00:00,FT,Group G - 16,Atletico Lodigiani,24762,Latte Dolce,9528,3,1,True
+1291256,2024-12-15T13:00:00+00:00,FT,Group G - 16,Paganese,890,Ilvamaddalena,19973,2,0,True
+1291260,2024-12-15T13:30:00+00:00,FT,Group G - 16,Trastevere,874,Anzio,22300,1,2,True
+1291255,2024-12-15T13:30:00+00:00,FT,Group G - 16,Olbia,1697,Atletico Uri,17842,2,0,True
+1291254,2024-12-15T13:30:00+00:00,FT,Group G - 16,Cassino,9525,Puteolana,17542,1,0,True
+1291258,2024-12-15T13:30:00+00:00,FT,Group G - 16,Savoia,9564,Sarnese,24700,1,0,True
+1291257,2024-12-15T13:30:00+00:00,FT,Group G - 16,Real Monterotondo,17846,Guidonia Montecelio 1937,882,1,2,True
+1291253,2024-12-15T13:30:00+00:00,FT,Group G - 16,Sarrabus Ogliastra,19984,Gelbison,9544,1,2,True
+1291259,2024-12-15T13:30:00+00:00,FT,Group G - 16,Terracina Calcio,24702,Albalonga,17844,0,1,True
+1291267,2024-12-21T13:00:00+00:00,FT,Group G - 17,Ilvamaddalena,19973,Trastevere,874,2,1,True
+1291269,2024-12-21T13:30:00+00:00,FT,Group G - 17,Latte Dolce,9528,Paganese,890,4,1,True
+1291262,2024-12-21T13:30:00+00:00,FT,Group G - 17,Atletico Uri,17842,Atletico Lodigiani,24762,0,2,True
+1291265,2024-12-22T13:00:00+00:00,FT,Group G - 17,Gelbison,9544,Olbia,1697,3,2,True
+1291268,2024-12-22T13:00:00+00:00,FT,Group G - 17,Sarnese,24700,Sarrabus Ogliastra,19984,0,2,True
+1291266,2024-12-22T13:30:00+00:00,FT,Group G - 17,Guidonia Montecelio 1937,882,Cassino,9525,0,1,True
+1291264,2024-12-22T13:30:00+00:00,FT,Group G - 17,Puteolana,17542,Terracina Calcio,24702,1,2,True
+1291263,2024-12-22T13:30:00+00:00,FT,Group G - 17,Albalonga,17844,Savoia,9564,1,1,True
+1291261,2024-12-22T13:30:00+00:00,FT,Group G - 17,Anzio,22300,Real Monterotondo,17846,2,1,True
+1291275,2025-01-05T13:30:00+00:00,FT,Group G - 18,Guidonia Montecelio 1937,882,Paganese,890,1,1,True
+1291272,2025-01-05T13:30:00+00:00,FT,Group G - 18,Cassino,9525,Trastevere,874,3,0,True
+1291278,2025-01-05T13:30:00+00:00,FT,Group G - 18,Latte Dolce,9528,Sarrabus Ogliastra,19984,2,0,True
+1291274,2025-01-05T13:30:00+00:00,FT,Group G - 18,Gelbison,9544,Terracina Calcio,24702,2,0,True
+1291273,2025-01-05T13:30:00+00:00,FT,Group G - 18,Puteolana,17542,Real Monterotondo,17846,2,0,True
+1291271,2025-01-05T13:30:00+00:00,FT,Group G - 18,Atletico Uri,17842,Savoia,9564,1,0,True
+1291270,2025-01-05T13:30:00+00:00,FT,Group G - 18,Anzio,22300,Atletico Lodigiani,24762,2,2,True
+1291277,2025-01-05T13:30:00+00:00,FT,Group G - 18,Sarnese,24700,Albalonga,17844,4,3,True
+1291276,2025-01-05T14:00:00+00:00,FT,Group G - 18,Ilvamaddalena,19973,Olbia,1697,4,2,True
+1291287,2025-01-12T13:30:00+00:00,FT,Group G - 19,Trastevere,874,Guidonia Montecelio 1937,882,1,1,True
+1291283,2025-01-12T13:30:00+00:00,FT,Group G - 19,Paganese,890,Anzio,22300,0,0,True
+1291282,2025-01-12T13:30:00+00:00,FT,Group G - 19,Olbia,1697,Latte Dolce,9528,3,2,True
+1291285,2025-01-12T13:30:00+00:00,FT,Group G - 19,Savoia,9564,Gelbison,9544,0,1,True
+1291281,2025-01-12T13:30:00+00:00,FT,Group G - 19,Albalonga,17844,Puteolana,17542,2,1,True
+1291284,2025-01-12T13:30:00+00:00,FT,Group G - 19,Real Monterotondo,17846,Cassino,9525,0,0,True
+1291280,2025-01-12T13:30:00+00:00,FT,Group G - 19,Sarrabus Ogliastra,19984,Atletico Uri,17842,2,2,True
+1291286,2025-01-12T13:30:00+00:00,FT,Group G - 19,Terracina Calcio,24702,Sarnese,24700,0,2,True
+1291279,2025-01-12T13:30:00+00:00,FT,Group G - 19,Atletico Lodigiani,24762,Ilvamaddalena,19973,1,1,True
+1291295,2025-01-18T13:30:00+00:00,FT,Group G - 20,Real Monterotondo,17846,Paganese,890,2,1,True
+1291293,2025-01-19T13:30:00+00:00,FT,Group G - 20,Guidonia Montecelio 1937,882,Olbia,1697,1,0,True
+1291290,2025-01-19T13:30:00+00:00,FT,Group G - 20,Cassino,9525,Atletico Lodigiani,24762,2,1,True
+1291296,2025-01-19T13:30:00+00:00,FT,Group G - 20,Latte Dolce,9528,Terracina Calcio,24702,4,2,True
+1291292,2025-01-19T13:30:00+00:00,FT,Group G - 20,Gelbison,9544,Sarnese,24700,3,2,True
+1291291,2025-01-19T13:30:00+00:00,FT,Group G - 20,Puteolana,17542,Trastevere,874,1,0,True
+1291289,2025-01-19T13:30:00+00:00,FT,Group G - 20,Atletico Uri,17842,Albalonga,17844,3,1,True
+1291294,2025-01-19T13:30:00+00:00,FT,Group G - 20,Ilvamaddalena,19973,Savoia,9564,0,1,True
+1291288,2025-01-19T13:30:00+00:00,FT,Group G - 20,Anzio,22300,Sarrabus Ogliastra,19984,1,1,True
+1291303,2025-01-26T13:00:00+00:00,FT,Group G - 21,Savoia,9564,Latte Dolce,9528,3,0,True
+1291305,2025-01-26T13:30:00+00:00,FT,Group G - 21,Trastevere,874,Real Monterotondo,17846,1,0,True
+1291300,2025-01-26T13:30:00+00:00,FT,Group G - 21,Olbia,1697,Anzio,22300,3,2,True
+1291299,2025-01-26T13:30:00+00:00,FT,Group G - 21,Albalonga,17844,Gelbison,9544,3,1,True
+1291298,2025-01-26T13:30:00+00:00,FT,Group G - 21,Sarrabus Ogliastra,19984,Ilvamaddalena,19973,1,0,True
+1291302,2025-01-26T13:30:00+00:00,FT,Group G - 21,Sarnese,24700,Puteolana,17542,0,3,True
+1291304,2025-01-26T13:30:00+00:00,FT,Group G - 21,Terracina Calcio,24702,Atletico Uri,17842,0,0,True
+1291297,2025-01-26T13:30:00+00:00,FT,Group G - 21,Atletico Lodigiani,24762,Guidonia Montecelio 1937,882,1,2,True
+1291301,2025-01-26T14:30:00+00:00,FT,Group G - 21,Paganese,890,Cassino,9525,0,0,True
+1291311,2025-02-02T13:00:00+00:00,FT,Group G - 22,Ilvamaddalena,19973,Albalonga,17844,0,1,True
+1291314,2025-02-02T13:30:00+00:00,FT,Group G - 22,Trastevere,874,Atletico Lodigiani,24762,2,1,True
+1291310,2025-02-02T13:30:00+00:00,FT,Group G - 22,Guidonia Montecelio 1937,882,Savoia,9564,6,1,True
+1291308,2025-02-02T13:30:00+00:00,FT,Group G - 22,Cassino,9525,Sarrabus Ogliastra,19984,3,0,True
+1291313,2025-02-02T13:30:00+00:00,FT,Group G - 22,Latte Dolce,9528,Sarnese,24700,0,1,True
+1291307,2025-02-02T13:30:00+00:00,FT,Group G - 22,Atletico Uri,17842,Gelbison,9544,3,3,True
+1291312,2025-02-02T13:30:00+00:00,FT,Group G - 22,Real Monterotondo,17846,Olbia,1697,0,0,True
+1291306,2025-02-02T13:30:00+00:00,FT,Group G - 22,Anzio,22300,Terracina Calcio,24702,0,2,True
+1291309,2025-02-02T14:00:00+00:00,FT,Group G - 22,Puteolana,17542,Paganese,890,1,1,True
+1291319,2025-02-08T13:00:00+00:00,FT,Group G - 23,Olbia,1697,Cassino,9525,0,0,True
+1291317,2025-02-08T13:30:00+00:00,FT,Group G - 23,Albalonga,17844,Latte Dolce,9528,4,0,True
+1291321,2025-02-09T13:00:00+00:00,FT,Group G - 23,Sarnese,24700,Atletico Uri,17842,4,2,True
+1291320,2025-02-09T13:30:00+00:00,FT,Group G - 23,Paganese,890,Trastevere,874,2,1,True
+1291318,2025-02-09T13:30:00+00:00,FT,Group G - 23,Gelbison,9544,Puteolana,17542,1,0,True
+1291322,2025-02-09T13:30:00+00:00,FT,Group G - 23,Savoia,9564,Anzio,22300,4,1,True
+1291316,2025-02-09T13:30:00+00:00,FT,Group G - 23,Sarrabus Ogliastra,19984,Guidonia Montecelio 1937,882,3,0,True
+1291323,2025-02-09T13:30:00+00:00,FT,Group G - 23,Terracina Calcio,24702,Ilvamaddalena,19973,0,2,True
+1291315,2025-02-09T13:30:00+00:00,FT,Group G - 23,Atletico Lodigiani,24762,Real Monterotondo,17846,1,1,True
+1291330,2025-02-15T13:30:00+00:00,FT,Group G - 24,Real Monterotondo,17846,Savoia,9564,2,2,True
+1291329,2025-02-16T13:00:00+00:00,FT,Group G - 24,Paganese,890,Olbia,1697,1,0,True
+1291332,2025-02-16T13:30:00+00:00,FT,Group G - 24,Trastevere,874,Sarrabus Ogliastra,19984,3,1,True
+1291327,2025-02-16T13:30:00+00:00,FT,Group G - 24,Guidonia Montecelio 1937,882,Albalonga,17844,1,0,True
+1291325,2025-02-16T13:30:00+00:00,FT,Group G - 24,Cassino,9525,Terracina Calcio,24702,2,0,True
+1291331,2025-02-16T13:30:00+00:00,FT,Group G - 24,Latte Dolce,9528,Atletico Uri,17842,1,2,True
+1291328,2025-02-16T13:30:00+00:00,FT,Group G - 24,Ilvamaddalena,19973,Gelbison,9544,1,1,True
+1291324,2025-02-16T13:30:00+00:00,FT,Group G - 24,Anzio,22300,Sarnese,24700,2,6,True
+1291326,2025-02-16T14:00:00+00:00,FT,Group G - 24,Puteolana,17542,Atletico Lodigiani,24762,1,0,True
+1291337,2025-02-22T13:30:00+00:00,FT,Group G - 25,Gelbison,9544,Latte Dolce,9528,3,1,True
+1291335,2025-02-23T13:00:00+00:00,FT,Group G - 25,Sarrabus Ogliastra,19984,Real Monterotondo,17846,2,1,True
+1291339,2025-02-23T13:00:00+00:00,FT,Group G - 25,Sarnese,24700,Ilvamaddalena,19973,2,1,True
+1291338,2025-02-23T13:30:00+00:00,FT,Group G - 25,Olbia,1697,Trastevere,874,3,0,True
+1291334,2025-02-23T13:30:00+00:00,FT,Group G - 25,Atletico Uri,17842,Puteolana,17542,3,0,True
+1291336,2025-02-23T13:30:00+00:00,FT,Group G - 25,Albalonga,17844,Anzio,22300,1,0,True
+1291341,2025-02-23T13:30:00+00:00,FT,Group G - 25,Terracina Calcio,24702,Guidonia Montecelio 1937,882,1,5,True
+1291333,2025-02-23T13:30:00+00:00,FT,Group G - 25,Atletico Lodigiani,24762,Paganese,890,3,1,True
+1291340,2025-02-23T14:00:00+00:00,FT,Group G - 25,Savoia,9564,Cassino,9525,1,0,True
+1291345,2025-03-01T13:45:00+00:00,FT,Group G - 26,Puteolana,17542,Olbia,1697,1,3,True
+1291350,2025-03-02T13:30:00+00:00,FT,Group G - 26,Trastevere,874,Terracina Calcio,24702,4,0,True
+1291346,2025-03-02T13:30:00+00:00,FT,Group G - 26,Guidonia Montecelio 1937,882,Gelbison,9544,1,0,True
+1291349,2025-03-02T13:30:00+00:00,FT,Group G - 26,Real Monterotondo,17846,Albalonga,17844,0,2,True
+1291342,2025-03-02T13:30:00+00:00,FT,Group G - 26,Anzio,22300,Atletico Uri,17842,0,0,True
+1291343,2025-03-02T13:30:00+00:00,FT,Group G - 26,Atletico Lodigiani,24762,Sarrabus Ogliastra,19984,3,1,True
+1291348,2025-03-02T14:00:00+00:00,FT,Group G - 26,Paganese,890,Savoia,9564,0,2,True
+1291344,2025-03-02T14:00:00+00:00,FT,Group G - 26,Cassino,9525,Sarnese,24700,1,1,True
+1291347,2025-03-02T14:00:00+00:00,FT,Group G - 26,Ilvamaddalena,19973,Latte Dolce,9528,2,0,True
+1291355,2025-03-09T13:30:00+00:00,FT,Group G - 27,Olbia,1697,Atletico Lodigiani,24762,1,0,True
+1291357,2025-03-09T13:30:00+00:00,FT,Group G - 27,Latte Dolce,9528,Puteolana,17542,1,0,True
+1291354,2025-03-09T13:30:00+00:00,FT,Group G - 27,Gelbison,9544,Anzio,22300,1,0,True
+1291351,2025-03-09T13:30:00+00:00,FT,Group G - 27,Atletico Uri,17842,Ilvamaddalena,19973,0,1,True
+1291353,2025-03-09T13:30:00+00:00,FT,Group G - 27,Albalonga,17844,Cassino,9525,3,2,True
+1291352,2025-03-09T13:30:00+00:00,FT,Group G - 27,Sarrabus Ogliastra,19984,Paganese,890,0,3,True
+1291356,2025-03-09T13:30:00+00:00,FT,Group G - 27,Sarnese,24700,Guidonia Montecelio 1937,882,1,1,True
+1291359,2025-03-09T13:30:00+00:00,FT,Group G - 27,Terracina Calcio,24702,Real Monterotondo,17846,1,2,True
+1291358,2025-03-09T14:00:00+00:00,FT,Group G - 27,Savoia,9564,Trastevere,874,3,0,True
+1291368,2025-03-23T13:30:00+00:00,FT,Group G - 28,Trastevere,874,Sarnese,24700,0,1,True
+1291364,2025-03-23T13:30:00+00:00,FT,Group G - 28,Guidonia Montecelio 1937,882,Latte Dolce,9528,4,2,True
+1291366,2025-03-23T13:30:00+00:00,FT,Group G - 28,Paganese,890,Albalonga,17844,4,0,True
+1291365,2025-03-23T13:30:00+00:00,FT,Group G - 28,Olbia,1697,Savoia,9564,0,1,True
+1291362,2025-03-23T13:30:00+00:00,FT,Group G - 28,Cassino,9525,Atletico Uri,17842,1,0,True
+1291363,2025-03-23T13:30:00+00:00,FT,Group G - 28,Puteolana,17542,Sarrabus Ogliastra,19984,3,3,True
+1291367,2025-03-23T13:30:00+00:00,FT,Group G - 28,Real Monterotondo,17846,Gelbison,9544,0,3,True
+1291360,2025-03-23T13:30:00+00:00,FT,Group G - 28,Anzio,22300,Ilvamaddalena,19973,1,6,True
+1291361,2025-03-23T13:30:00+00:00,FT,Group G - 28,Atletico Lodigiani,24762,Terracina Calcio,24702,3,3,True
+1291373,2025-03-30T12:15:00+00:00,FT,Group G - 29,Ilvamaddalena,19973,Puteolana,17542,2,0,True
+1291375,2025-03-30T13:00:00+00:00,FT,Group G - 29,Latte Dolce,9528,Anzio,22300,1,1,True
+1291372,2025-03-30T13:00:00+00:00,FT,Group G - 29,Gelbison,9544,Cassino,9525,2,1,True
+1291369,2025-03-30T13:00:00+00:00,FT,Group G - 29,Atletico Uri,17842,Guidonia Montecelio 1937,882,1,2,True
+1291371,2025-03-30T13:00:00+00:00,FT,Group G - 29,Albalonga,17844,Trastevere,874,1,0,True
+1291370,2025-03-30T13:00:00+00:00,FT,Group G - 29,Sarrabus Ogliastra,19984,Olbia,1697,1,1,True
+1291377,2025-03-30T13:00:00+00:00,FT,Group G - 29,Terracina Calcio,24702,Paganese,890,0,1,True
+1291376,2025-03-30T13:30:00+00:00,FT,Group G - 29,Savoia,9564,Atletico Lodigiani,24762,3,1,True
+1291374,2025-03-30T13:30:00+00:00,FT,Group G - 29,Sarnese,24700,Real Monterotondo,17846,2,0,True
+1291385,2025-04-05T13:00:00+00:00,FT,Group G - 30,Real Monterotondo,17846,Latte Dolce,9528,1,0,True
+1291380,2025-04-06T12:30:00+00:00,FT,Group G - 30,Cassino,9525,Ilvamaddalena,19973,1,0,True
+1291386,2025-04-06T13:00:00+00:00,FT,Group G - 30,Trastevere,874,Atletico Uri,17842,3,1,True
+1291382,2025-04-06T13:00:00+00:00,FT,Group G - 30,Guidonia Montecelio 1937,882,Anzio,22300,3,1,True
+1291383,2025-04-06T13:00:00+00:00,FT,Group G - 30,Olbia,1697,Albalonga,17844,3,1,True
+1291379,2025-04-06T13:00:00+00:00,FT,Group G - 30,Sarrabus Ogliastra,19984,Terracina Calcio,24702,3,2,True
+1291378,2025-04-06T13:00:00+00:00,FT,Group G - 30,Atletico Lodigiani,24762,Sarnese,24700,1,1,True
+1291381,2025-04-06T13:30:00+00:00,FT,Group G - 30,Puteolana,17542,Savoia,9564,0,0,True
+1291384,2025-04-06T15:00:00+00:00,FT,Group G - 30,Paganese,890,Gelbison,9544,1,1,True
+1291391,2025-04-13T12:15:00+00:00,FT,Group G - 31,Ilvamaddalena,19973,Guidonia Montecelio 1937,882,0,3,True
+1291394,2025-04-13T12:30:00+00:00,FT,Group G - 31,Savoia,9564,Sarrabus Ogliastra,19984,1,1,True
+1291393,2025-04-13T13:00:00+00:00,FT,Group G - 31,Latte Dolce,9528,Cassino,9525,3,1,True
+1291390,2025-04-13T13:00:00+00:00,FT,Group G - 31,Gelbison,9544,Trastevere,874,3,3,True
+1291388,2025-04-13T13:00:00+00:00,FT,Group G - 31,Atletico Uri,17842,Real Monterotondo,17846,1,2,True
+1291389,2025-04-13T13:00:00+00:00,FT,Group G - 31,Albalonga,17844,Atletico Lodigiani,24762,0,0,True
+1291387,2025-04-13T13:00:00+00:00,FT,Group G - 31,Anzio,22300,Puteolana,17542,2,2,True
+1291392,2025-04-13T13:00:00+00:00,FT,Group G - 31,Sarnese,24700,Paganese,890,1,0,True
+1291395,2025-04-13T13:00:00+00:00,FT,Group G - 31,Terracina Calcio,24702,Olbia,1697,0,0,True
+1291401,2025-04-17T12:30:00+00:00,FT,Group G - 32,Paganese,890,Atletico Uri,17842,1,0,True
+1291397,2025-04-17T12:30:00+00:00,FT,Group G - 32,Sarrabus Ogliastra,19984,Albalonga,17844,2,0,True
+1291404,2025-04-17T13:00:00+00:00,FT,Group G - 32,Trastevere,874,Latte Dolce,9528,2,2,True
+1291400,2025-04-17T13:00:00+00:00,FT,Group G - 32,Olbia,1697,Sarnese,24700,2,3,True
+1291398,2025-04-17T13:00:00+00:00,FT,Group G - 32,Cassino,9525,Anzio,22300,0,1,True
+1291403,2025-04-17T13:00:00+00:00,FT,Group G - 32,Savoia,9564,Terracina Calcio,24702,2,0,True
+1291399,2025-04-17T13:00:00+00:00,FT,Group G - 32,Puteolana,17542,Guidonia Montecelio 1937,882,0,4,True
+1291402,2025-04-17T13:00:00+00:00,FT,Group G - 32,Real Monterotondo,17846,Ilvamaddalena,19973,1,1,True
+1291396,2025-04-17T13:00:00+00:00,FT,Group G - 32,Atletico Lodigiani,24762,Gelbison,9544,2,1,True
+1291411,2025-04-27T12:30:00+00:00,FT,Group G - 33,Ilvamaddalena,19973,Paganese,890,2,0,True
+1291410,2025-04-27T13:00:00+00:00,FT,Group G - 33,Guidonia Montecelio 1937,882,Real Monterotondo,17846,1,0,True
+1291413,2025-04-27T13:00:00+00:00,FT,Group G - 33,Latte Dolce,9528,Atletico Lodigiani,24762,2,1,True
+1291409,2025-04-27T13:00:00+00:00,FT,Group G - 33,Gelbison,9544,Sarrabus Ogliastra,19984,1,0,True
+1291408,2025-04-27T13:00:00+00:00,FT,Group G - 33,Puteolana,17542,Cassino,9525,1,1,True
+1291406,2025-04-27T13:00:00+00:00,FT,Group G - 33,Atletico Uri,17842,Olbia,1697,1,2,True
+1291407,2025-04-27T13:00:00+00:00,FT,Group G - 33,Albalonga,17844,Terracina Calcio,24702,4,0,True
+1291405,2025-04-27T13:00:00+00:00,FT,Group G - 33,Anzio,22300,Trastevere,874,1,1,True
+1291412,2025-04-27T13:00:00+00:00,FT,Group G - 33,Sarnese,24700,Savoia,9564,1,3,True
+1291421,2025-05-03T13:00:00+00:00,FT,Group G - 34,Terracina Calcio,24702,Puteolana,17542,1,3,True
+1291422,2025-05-04T13:00:00+00:00,FT,Group G - 34,Trastevere,874,Ilvamaddalena,19973,4,1,True
+1291418,2025-05-04T13:00:00+00:00,FT,Group G - 34,Paganese,890,Latte Dolce,9528,1,1,True
+1291417,2025-05-04T13:00:00+00:00,FT,Group G - 34,Olbia,1697,Gelbison,9544,3,3,True
+1291416,2025-05-04T13:00:00+00:00,FT,Group G - 34,Cassino,9525,Guidonia Montecelio 1937,882,0,0,True
+1291420,2025-05-04T13:00:00+00:00,FT,Group G - 34,Savoia,9564,Albalonga,17844,1,1,True
+1291419,2025-05-04T13:00:00+00:00,FT,Group G - 34,Real Monterotondo,17846,Anzio,22300,1,2,True
+1291415,2025-05-04T13:00:00+00:00,FT,Group G - 34,Sarrabus Ogliastra,19984,Sarnese,24700,1,2,True
+1291414,2025-05-04T13:00:00+00:00,FT,Group G - 34,Atletico Lodigiani,24762,Atletico Uri,17842,3,1,True

@@ -1,144 +1,296 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1214473,2025-02-07T15:30:00+00:00,FT,Arda Kardzhali,1430,Spartak Varna,4660,2,2,True
-1214468,2025-02-08T10:30:00+00:00,FT,Septemvri Sofia,856,Botev Vratsa,859,2,2,True
-1214469,2025-02-08T13:00:00+00:00,FT,Cherno More Varna,851,Lokomotiv Plovdiv,858,1,2,True
-1214474,2025-02-08T15:30:00+00:00,FT,Slavia Sofia,854,CSKA Sofia,853,1,0,True
-1214467,2025-02-09T10:00:00+00:00,FT,CSKA 1948,1426,Lokomotiv Sofia,1416,1,4,True
-1214472,2025-02-09T12:30:00+00:00,FT,Botev Plovdiv,634,Hebar 1918,4659,1,1,True
-1214471,2025-02-09T15:15:00+00:00,FT,Levski Sofia,646,Ludogorets,566,2,1,True
-1214470,2025-02-10T15:30:00+00:00,FT,Beroe,857,Levski Krumovgrad,17306,0,0,True
-1214482,2025-02-14T15:30:00+00:00,FT,Botev Vratsa,859,Lokomotiv Sofia,1416,0,3,True
-1214480,2025-02-15T10:30:00+00:00,FT,Levski Krumovgrad,17306,Cherno More Varna,851,1,1,True
-1214477,2025-02-15T13:00:00+00:00,FT,Spartak Varna,4660,Botev Plovdiv,634,1,0,True
-1214478,2025-02-15T15:30:00+00:00,FT,Hebar 1918,4659,Levski Sofia,646,1,4,True
-1214481,2025-02-16T10:30:00+00:00,FT,Lokomotiv Plovdiv,858,Septemvri Sofia,856,0,1,True
-1214479,2025-02-16T13:00:00+00:00,FT,Ludogorets,566,Beroe,857,2,1,True
-1214476,2025-02-16T15:30:00+00:00,FT,CSKA Sofia,853,Arda Kardzhali,1430,2,0,True
-1214475,2025-02-17T15:30:00+00:00,FT,Slavia Sofia,854,CSKA 1948,1426,1,1,True
-1214483,2025-02-21T10:45:00+00:00,FT,CSKA 1948,1426,Botev Vratsa,859,1,0,True
-1214487,2025-02-21T13:15:00+00:00,FT,Beroe,857,Hebar 1918,4659,2,1,True
-1214488,2025-02-21T15:45:00+00:00,FT,Levski Sofia,646,Spartak Varna,4660,2,0,True
-1214490,2025-02-22T10:30:00+00:00,FT,Arda Kardzhali,1430,Slavia Sofia,854,1,1,True
-1214489,2025-02-22T13:00:00+00:00,FT,Botev Plovdiv,634,CSKA Sofia,853,0,3,True
-1214486,2025-02-22T15:30:00+00:00,FT,Cherno More Varna,851,Ludogorets,566,1,1,True
-1214484,2025-02-23T15:00:00+00:00,FT,Lokomotiv Sofia,1416,Lokomotiv Plovdiv,858,0,1,True
-1214485,2025-02-24T15:30:00+00:00,FT,Septemvri Sofia,856,Levski Krumovgrad,17306,1,0,True
-1214497,2025-03-01T10:00:00+00:00,FT,Levski Krumovgrad,17306,Lokomotiv Sofia,1416,0,2,True
-1214498,2025-03-01T12:30:00+00:00,FT,Lokomotiv Plovdiv,858,Botev Vratsa,859,1,0,True
-1214494,2025-03-01T14:45:00+00:00,FT,Spartak Varna,4660,Beroe,857,0,3,True
-1214493,2025-03-02T12:00:00+00:00,FT,CSKA Sofia,853,Levski Sofia,646,2,2,True
-1214495,2025-03-02T15:15:00+00:00,FT,Hebar 1918,4659,Cherno More Varna,851,0,1,True
-1214491,2025-03-03T10:30:00+00:00,FT,Arda Kardzhali,1430,CSKA 1948,1426,1,0,True
-1214492,2025-03-03T13:00:00+00:00,FT,Slavia Sofia,854,Botev Plovdiv,634,3,2,True
-1214496,2025-03-03T15:30:00+00:00,FT,Ludogorets,566,Septemvri Sofia,856,0,0,True
-1214500,2025-03-07T15:30:00+00:00,FT,Botev Vratsa,859,Levski Krumovgrad,17306,0,0,True
-1214499,2025-03-08T10:30:00+00:00,FT,CSKA 1948,1426,Lokomotiv Plovdiv,858,2,1,True
-1214504,2025-03-08T13:00:00+00:00,FT,Beroe,857,CSKA Sofia,853,0,2,True
-1214503,2025-03-08T15:30:00+00:00,FT,Cherno More Varna,851,Spartak Varna,4660,1,1,True
-1214506,2025-03-09T10:00:00+00:00,FT,Botev Plovdiv,634,Arda Kardzhali,1430,1,1,True
-1214505,2025-03-09T12:30:00+00:00,FT,Levski Sofia,646,Slavia Sofia,854,3,3,True
-1214501,2025-03-09T15:00:00+00:00,FT,Lokomotiv Sofia,1416,Ludogorets,566,1,2,True
-1214502,2025-03-10T15:30:00+00:00,FT,Septemvri Sofia,856,Hebar 1918,4659,6,1,True
-1214509,2025-03-14T13:15:00+00:00,FT,Slavia Sofia,854,Beroe,857,2,1,True
-1214514,2025-03-14T15:45:00+00:00,FT,Levski Krumovgrad,17306,Lokomotiv Plovdiv,858,0,0,True
-1214512,2025-03-15T10:30:00+00:00,FT,Hebar 1918,4659,Lokomotiv Sofia,1416,2,1,True
-1214513,2025-03-15T13:00:00+00:00,FT,Ludogorets,566,Botev Vratsa,859,3,0,True
-1214510,2025-03-15T15:30:00+00:00,FT,CSKA Sofia,853,Cherno More Varna,851,1,1,True
-1214511,2025-03-16T10:00:00+00:00,FT,Spartak Varna,4660,Septemvri Sofia,856,4,2,True
-1214507,2025-03-16T12:30:00+00:00,FT,Botev Plovdiv,634,CSKA 1948,1426,0,5,True
-1214508,2025-03-16T15:00:00+00:00,FT,Arda Kardzhali,1430,Levski Sofia,646,1,1,True
-1214518,2025-03-28T14:15:00+00:00,FT,Lokomotiv Sofia,1416,Spartak Varna,4660,2,1,True
-1214517,2025-03-28T16:45:00+00:00,FT,Botev Vratsa,859,Hebar 1918,4659,1,0,True
-1214515,2025-03-29T10:15:00+00:00,FT,CSKA 1948,1426,Levski Krumovgrad,17306,4,1,True
-1214520,2025-03-29T12:45:00+00:00,FT,Cherno More Varna,851,Slavia Sofia,854,1,1,True
-1214519,2025-03-29T15:15:00+00:00,FT,Septemvri Sofia,856,CSKA Sofia,853,0,1,True
-1214521,2025-03-30T10:30:00+00:00,FT,Beroe,857,Arda Kardzhali,1430,1,4,True
-1214516,2025-03-30T13:00:00+00:00,FT,Lokomotiv Plovdiv,858,Ludogorets,566,1,0,True
-1214522,2025-03-30T15:30:00+00:00,FT,Levski Sofia,646,Botev Plovdiv,634,1,1,True
-1214528,2025-04-01T13:15:00+00:00,FT,Spartak Varna,4660,Botev Vratsa,859,1,0,True
-1214526,2025-04-01T15:45:00+00:00,FT,Slavia Sofia,854,Septemvri Sofia,856,2,3,True
-1214525,2025-04-02T11:15:00+00:00,FT,Arda Kardzhali,1430,Cherno More Varna,851,4,0,True
-1214524,2025-04-02T13:45:00+00:00,FT,Botev Plovdiv,634,Beroe,857,0,0,True
-1214527,2025-04-02T16:15:00+00:00,FT,CSKA Sofia,853,Lokomotiv Sofia,1416,1,0,True
-1214529,2025-04-03T11:30:00+00:00,FT,Hebar 1918,4659,Lokomotiv Plovdiv,858,0,0,True
-1214530,2025-04-03T14:00:00+00:00,FT,Ludogorets,566,Levski Krumovgrad,17306,3,0,True
-1214523,2025-04-03T16:30:00+00:00,FT,Levski Sofia,646,CSKA 1948,1426,2,0,True
-1214537,2025-04-05T15:30:00+00:00,FT,Cherno More Varna,851,Botev Plovdiv,634,1,1,True
-1214534,2025-04-05T16:00:00+00:00,FT,Botev Vratsa,859,CSKA Sofia,853,1,1,True
-1214532,2025-04-06T09:15:00+00:00,FT,Levski Krumovgrad,17306,Hebar 1918,4659,1,0,True
-1214535,2025-04-06T11:45:00+00:00,FT,Lokomotiv Sofia,1416,Slavia Sofia,854,3,2,True
-1214538,2025-04-06T14:15:00+00:00,FT,Beroe,857,Levski Sofia,646,0,1,True
-1214536,2025-04-07T12:00:00+00:00,FT,Septemvri Sofia,856,Arda Kardzhali,1430,0,4,True
-1214533,2025-04-07T14:30:00+00:00,FT,Lokomotiv Plovdiv,858,Spartak Varna,4660,1,2,True
-1214531,2025-04-07T17:00:00+00:00,FT,CSKA 1948,1426,Ludogorets,566,1,3,True
-1214545,2025-04-11T13:30:00+00:00,FT,Spartak Varna,4660,Levski Krumovgrad,17306,1,0,True
-1214539,2025-04-11T16:00:00+00:00,FT,Beroe,857,CSKA 1948,1426,2,0,True
-1214541,2025-04-12T11:00:00+00:00,FT,Botev Plovdiv,634,Septemvri Sofia,856,3,0,True
-1214544,2025-04-12T13:30:00+00:00,FT,CSKA Sofia,853,Lokomotiv Plovdiv,858,2,0,True
-1214542,2025-04-13T12:00:00+00:00,FT,Arda Kardzhali,1430,Lokomotiv Sofia,1416,5,0,True
-1214540,2025-04-13T14:30:00+00:00,FT,Levski Sofia,646,Cherno More Varna,851,1,2,True
-1214543,2025-04-14T14:30:00+00:00,FT,Slavia Sofia,854,Botev Vratsa,859,4,2,True
-1214546,2025-04-14T17:00:00+00:00,FT,Hebar 1918,4659,Ludogorets,566,0,2,True
-1214552,2025-04-18T11:00:00+00:00,FT,Lokomotiv Sofia,1416,Botev Plovdiv,634,1,1,True
-1214554,2025-04-18T13:30:00+00:00,FT,Cherno More Varna,851,Beroe,857,1,1,True
-1214549,2025-04-18T16:00:00+00:00,FT,Levski Krumovgrad,17306,CSKA Sofia,853,1,0,True
-1214551,2025-04-19T11:00:00+00:00,FT,Botev Vratsa,859,Arda Kardzhali,1430,3,1,True
-1214550,2025-04-19T13:30:00+00:00,FT,Lokomotiv Plovdiv,858,Slavia Sofia,854,0,1,True
-1214548,2025-04-19T16:00:00+00:00,FT,Ludogorets,566,Spartak Varna,4660,2,1,True
-1214553,2025-04-21T13:30:00+00:00,FT,Septemvri Sofia,856,Levski Sofia,646,0,1,True
-1214547,2025-04-21T16:00:00+00:00,FT,CSKA 1948,1426,Hebar 1918,4659,1,3,True
-1372620,2025-04-25T14:30:00+00:00,FT,Slavia Sofia,854,Hebar 1918,4659,3,2,True
-1372621,2025-04-25T17:00:00+00:00,FT,Lokomotiv Sofia,1416,Levski Krumovgrad,17306,3,0,True
-1372608,2025-04-26T14:30:00+00:00,FT,Spartak Varna,4660,CSKA Sofia,853,0,1,True
-1372329,2025-04-26T17:00:00+00:00,FT,Levski Sofia,646,Arda Kardzhali,1430,1,1,True
-1372609,2025-04-27T12:15:00+00:00,FT,Botev Plovdiv,634,Beroe,857,1,1,True
-1372330,2025-04-27T17:30:00+00:00,FT,Ludogorets,566,Cherno More Varna,851,2,0,True
-1372622,2025-04-28T14:30:00+00:00,FT,Septemvri Sofia,856,Lokomotiv Plovdiv,858,2,0,True
-1372623,2025-04-28T17:00:00+00:00,FT,CSKA 1948,1426,Botev Vratsa,859,0,1,True
-1372624,2025-05-01T16:30:00+00:00,FT,Hebar 1918,4659,Levski Krumovgrad,17306,1,3,True
-1372626,2025-05-02T12:00:00+00:00,FT,Botev Vratsa,859,Septemvri Sofia,856,3,2,True
-1372627,2025-05-02T14:30:00+00:00,FT,Slavia Sofia,854,CSKA 1948,1426,0,1,True
-1372625,2025-05-02T17:00:00+00:00,FT,Lokomotiv Plovdiv,858,Lokomotiv Sofia,1416,1,1,True
-1372610,2025-05-03T14:00:00+00:00,FT,Beroe,857,CSKA Sofia,853,0,3,True
-1372332,2025-05-03T16:30:00+00:00,FT,Ludogorets,566,Levski Sofia,646,1,1,True
-1372331,2025-05-04T12:30:00+00:00,FT,Cherno More Varna,851,Arda Kardzhali,1430,1,1,True
-1372611,2025-05-04T15:00:00+00:00,FT,Botev Plovdiv,634,Spartak Varna,4660,3,2,True
-1372631,2025-05-06T14:00:00+00:00,FT,Levski Krumovgrad,17306,Lokomotiv Plovdiv,858,0,4,True
-1372629,2025-05-06T16:30:00+00:00,FT,Septemvri Sofia,856,Slavia Sofia,854,3,1,True
-1372628,2025-05-07T14:00:00+00:00,FT,CSKA 1948,1426,Hebar 1918,4659,0,0,True
-1372630,2025-05-07T16:30:00+00:00,FT,Lokomotiv Sofia,1416,Botev Vratsa,859,3,0,True
-1372334,2025-05-09T14:45:00+00:00,FT,Arda Kardzhali,1430,Ludogorets,566,1,1,True
-1372613,2025-05-09T17:15:00+00:00,FT,CSKA Sofia,853,Botev Plovdiv,634,3,0,True
-1372634,2025-05-10T12:00:00+00:00,FT,Slavia Sofia,854,Lokomotiv Sofia,1416,0,0,True
-1372612,2025-05-10T14:30:00+00:00,FT,Spartak Varna,4660,Beroe,857,1,2,True
-1372333,2025-05-10T17:00:00+00:00,FT,Levski Sofia,646,Cherno More Varna,851,2,0,True
-1372632,2025-05-11T12:30:00+00:00,FT,Hebar 1918,4659,Lokomotiv Plovdiv,858,1,2,True
-1372633,2025-05-11T15:00:00+00:00,FT,Botev Vratsa,859,Levski Krumovgrad,17306,1,0,True
-1372635,2025-05-11T17:30:00+00:00,FT,CSKA 1948,1426,Septemvri Sofia,856,2,0,True
-1372335,2025-05-13T14:45:00+00:00,FT,Cherno More Varna,851,Ludogorets,566,2,0,True
-1372615,2025-05-13T17:15:00+00:00,FT,CSKA Sofia,853,Spartak Varna,4660,5,0,True
-1372637,2025-05-14T12:15:00+00:00,FT,Lokomotiv Sofia,1416,CSKA 1948,1426,2,1,True
-1372614,2025-05-14T14:45:00+00:00,FT,Beroe,857,Botev Plovdiv,634,0,6,True
-1372336,2025-05-14T17:15:00+00:00,FT,Arda Kardzhali,1430,Levski Sofia,646,0,3,True
-1372638,2025-05-15T12:15:00+00:00,FT,Levski Krumovgrad,17306,Slavia Sofia,854,0,1,True
-1372639,2025-05-15T14:45:00+00:00,FT,Lokomotiv Plovdiv,858,Botev Vratsa,859,1,3,True
-1372636,2025-05-15T17:15:00+00:00,FT,Septemvri Sofia,856,Hebar 1918,4659,1,0,True
-1372616,2025-05-17T14:30:00+00:00,FT,CSKA Sofia,853,Beroe,857,2,1,True
-1372338,2025-05-17T17:00:00+00:00,FT,Levski Sofia,646,Ludogorets,566,2,2,True
-1372617,2025-05-18T14:00:00+00:00,FT,Spartak Varna,4660,Botev Plovdiv,634,2,1,True
-1372337,2025-05-18T16:30:00+00:00,FT,Arda Kardzhali,1430,Cherno More Varna,851,0,0,True
-1372642,2025-05-19T14:45:00+00:00,FT,CSKA 1948,1426,Levski Krumovgrad,17306,2,0,True
-1372641,2025-05-19T17:15:00+00:00,FT,Slavia Sofia,854,Lokomotiv Plovdiv,858,1,2,True
-1372640,2025-05-20T14:45:00+00:00,FT,Hebar 1918,4659,Botev Vratsa,859,1,0,True
-1372643,2025-05-20T17:15:00+00:00,FT,Septemvri Sofia,856,Lokomotiv Sofia,1416,0,2,True
-1372646,2025-05-25T17:45:00+00:00,FT,Lokomotiv Plovdiv,858,CSKA 1948,1426,0,1,True
-1372647,2025-05-25T17:45:00+00:00,FT,Botev Vratsa,859,Slavia Sofia,854,2,1,True
-1372644,2025-05-25T17:45:00+00:00,FT,Lokomotiv Sofia,1416,Hebar 1918,4659,3,0,True
-1372645,2025-05-25T17:45:00+00:00,FT,Levski Krumovgrad,17306,Septemvri Sofia,856,1,2,True
-1372340,2025-05-26T14:45:00+00:00,FT,Ludogorets,566,Arda Kardzhali,1430,2,2,True
-1372339,2025-05-26T14:45:00+00:00,FT,Cherno More Varna,851,Levski Sofia,646,0,0,True
-1372619,2025-05-26T17:45:00+00:00,FT,Botev Plovdiv,634,CSKA Sofia,853,0,4,True
-1372618,2025-05-26T17:45:00+00:00,FT,Beroe,857,Spartak Varna,4660,3,1,True
-1376889,2025-05-29T16:00:00+00:00,FT,Botev Vratsa,859,Pirin Blagoevgrad,1428,1,0,True
-1376890,2025-05-30T16:00:00+00:00,FT,Lokomotiv Plovdiv,858,Marek,8543,3,0,True
-1376709,2025-05-31T15:30:00+00:00,AET,Arda Kardzhali,1430,CSKA Sofia,853,1,1,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1214315,2024-07-19T15:45:00+00:00,FT,Regular Season - 1,Cherno More Varna,851,CSKA 1948,1426,0,0,True
+1214320,2024-07-19T18:15:00+00:00,FT,Regular Season - 1,Levski Krumovgrad,17306,Slavia Sofia,854,1,0,True
+1214319,2024-07-20T16:00:00+00:00,FT,Regular Season - 1,Lokomotiv Plovdiv,858,Arda Kardzhali,1430,1,0,True
+1214317,2024-07-20T18:15:00+00:00,FT,Regular Season - 1,Lokomotiv Sofia,1416,Levski Sofia,646,1,6,True
+1214318,2024-07-21T16:00:00+00:00,FT,Regular Season - 1,Botev Vratsa,859,Botev Plovdiv,634,1,3,True
+1214321,2024-07-21T18:15:00+00:00,FT,Regular Season - 1,Ludogorets,566,CSKA Sofia,853,1,0,True
+1214322,2024-07-22T16:00:00+00:00,FT,Regular Season - 1,Hebar 1918,4659,Spartak Varna,4660,0,2,True
+1214316,2024-07-22T18:15:00+00:00,FT,Regular Season - 1,Septemvri Sofia,856,Beroe,857,0,1,True
+1214326,2024-07-26T16:00:00+00:00,FT,Regular Season - 2,Arda Kardzhali,1430,Levski Krumovgrad,17306,1,0,True
+1214328,2024-07-26T18:15:00+00:00,FT,Regular Season - 2,Levski Sofia,646,Botev Vratsa,859,4,0,True
+1214324,2024-07-27T16:00:00+00:00,FT,Regular Season - 2,CSKA Sofia,853,Hebar 1918,4659,3,1,True
+1214323,2024-07-28T16:00:00+00:00,FT,Regular Season - 2,CSKA 1948,1426,Spartak Varna,4660,2,2,True
+1214327,2024-07-28T18:15:00+00:00,FT,Regular Season - 2,Botev Plovdiv,634,Lokomotiv Plovdiv,858,2,2,True
+1214329,2024-07-29T16:00:00+00:00,FT,Regular Season - 2,Beroe,857,Lokomotiv Sofia,1416,0,0,True
+1214330,2024-07-29T18:15:00+00:00,FT,Regular Season - 2,Cherno More Varna,851,Septemvri Sofia,856,2,0,True
+1214337,2024-08-02T16:00:00+00:00,FT,Regular Season - 3,Hebar 1918,4659,Slavia Sofia,854,1,1,True
+1214334,2024-08-02T18:15:00+00:00,FT,Regular Season - 3,Lokomotiv Plovdiv,858,Levski Sofia,646,0,2,True
+1214338,2024-08-03T16:00:00+00:00,FT,Regular Season - 3,Spartak Varna,4660,CSKA Sofia,853,3,0,True
+1214336,2024-08-03T18:15:00+00:00,FT,Regular Season - 3,Ludogorets,566,Arda Kardzhali,1430,5,1,True
+1214332,2024-08-04T16:00:00+00:00,FT,Regular Season - 3,Lokomotiv Sofia,1416,Cherno More Varna,851,2,1,True
+1214335,2024-08-04T18:15:00+00:00,FT,Regular Season - 3,Levski Krumovgrad,17306,Botev Plovdiv,634,0,1,True
+1214333,2024-08-05T18:15:00+00:00,FT,Regular Season - 3,Botev Vratsa,859,Beroe,857,1,2,True
+1214340,2024-08-09T16:00:00+00:00,FT,Regular Season - 4,Slavia Sofia,854,Spartak Varna,4660,3,1,True
+1214341,2024-08-09T18:15:00+00:00,FT,Regular Season - 4,Arda Kardzhali,1430,Hebar 1918,4659,2,1,True
+1214344,2024-08-10T16:00:00+00:00,FT,Regular Season - 4,Beroe,857,Lokomotiv Plovdiv,858,0,2,True
+1214343,2024-08-10T18:15:00+00:00,FT,Regular Season - 4,Levski Sofia,646,Levski Krumovgrad,17306,3,0,True
+1214346,2024-08-12T16:00:00+00:00,FT,Regular Season - 4,Septemvri Sofia,856,Lokomotiv Sofia,1416,0,1,True
+1214345,2024-08-12T18:15:00+00:00,FT,Regular Season - 4,Cherno More Varna,851,Botev Vratsa,859,2,1,True
+1214353,2024-08-16T16:00:00+00:00,FT,Regular Season - 5,Spartak Varna,4660,Arda Kardzhali,1430,1,0,True
+1214350,2024-08-16T18:15:00+00:00,FT,Regular Season - 5,Levski Krumovgrad,17306,Beroe,857,0,1,True
+1214354,2024-08-17T16:00:00+00:00,FT,Regular Season - 5,CSKA Sofia,853,Slavia Sofia,854,0,1,True
+1214351,2024-08-17T18:15:00+00:00,FT,Regular Season - 5,Ludogorets,566,Levski Sofia,646,1,0,True
+1214347,2024-08-18T16:00:00+00:00,FT,Regular Season - 5,Lokomotiv Sofia,1416,CSKA 1948,1426,0,0,True
+1214352,2024-08-18T18:15:00+00:00,FT,Regular Season - 5,Hebar 1918,4659,Botev Plovdiv,634,0,1,True
+1214348,2024-08-19T16:00:00+00:00,FT,Regular Season - 5,Botev Vratsa,859,Septemvri Sofia,856,2,0,True
+1214349,2024-08-19T18:15:00+00:00,FT,Regular Season - 5,Lokomotiv Plovdiv,858,Cherno More Varna,851,1,2,True
+1214362,2024-08-23T16:00:00+00:00,FT,Regular Season - 6,Lokomotiv Sofia,1416,Botev Vratsa,859,0,1,True
+1214358,2024-08-23T18:15:00+00:00,FT,Regular Season - 6,Levski Sofia,646,Hebar 1918,4659,1,0,True
+1214356,2024-08-24T16:00:00+00:00,FT,Regular Season - 6,Arda Kardzhali,1430,CSKA Sofia,853,2,1,True
+1214357,2024-08-24T18:15:00+00:00,FT,Regular Season - 6,Botev Plovdiv,634,Spartak Varna,4660,0,1,True
+1214355,2024-08-25T16:00:00+00:00,FT,Regular Season - 6,CSKA 1948,1426,Slavia Sofia,854,2,0,True
+1214359,2024-08-25T18:15:00+00:00,FT,Regular Season - 6,Beroe,857,Ludogorets,566,0,1,True
+1214361,2024-08-26T16:00:00+00:00,FT,Regular Season - 6,Septemvri Sofia,856,Lokomotiv Plovdiv,858,2,3,True
+1214360,2024-08-26T18:15:00+00:00,FT,Regular Season - 6,Cherno More Varna,851,Levski Krumovgrad,17306,3,0,True
+1214370,2024-08-30T14:00:00+00:00,FT,Regular Season - 7,Slavia Sofia,854,Arda Kardzhali,1430,1,1,True
+1214363,2024-08-30T16:15:00+00:00,FT,Regular Season - 7,Botev Vratsa,859,CSKA 1948,1426,0,3,True
+1214369,2024-08-30T18:30:00+00:00,FT,Regular Season - 7,CSKA Sofia,853,Botev Plovdiv,634,0,1,True
+1214368,2024-08-31T16:00:00+00:00,FT,Regular Season - 7,Spartak Varna,4660,Levski Sofia,646,0,0,True
+1214365,2024-08-31T18:15:00+00:00,FT,Regular Season - 7,Levski Krumovgrad,17306,Septemvri Sofia,856,2,0,True
+1214364,2024-09-01T14:00:00+00:00,FT,Regular Season - 7,Lokomotiv Plovdiv,858,Lokomotiv Sofia,1416,1,1,True
+1214367,2024-09-01T16:15:00+00:00,FT,Regular Season - 7,Hebar 1918,4659,Beroe,857,3,1,True
+1214366,2024-09-01T18:30:00+00:00,FT,Regular Season - 7,Ludogorets,566,Cherno More Varna,851,0,0,True
+1214409,2024-09-13T14:00:00+00:00,FT,Regular Season - 12,Lokomotiv Plovdiv,858,Hebar 1918,4659,3,3,True
+1214408,2024-09-13T16:30:00+00:00,FT,Regular Season - 12,Botev Vratsa,859,Spartak Varna,4660,1,1,True
+1214406,2024-09-14T14:30:00+00:00,FT,Regular Season - 12,Septemvri Sofia,856,Slavia Sofia,854,3,2,True
+1214404,2024-09-14T17:00:00+00:00,FT,Regular Season - 12,Beroe,857,Botev Plovdiv,634,0,1,True
+1214405,2024-09-15T14:00:00+00:00,FT,Regular Season - 12,Cherno More Varna,851,Arda Kardzhali,1430,1,1,True
+1214403,2024-09-15T16:15:00+00:00,FT,Regular Season - 12,CSKA 1948,1426,Levski Sofia,646,2,4,True
+1214410,2024-09-15T18:30:00+00:00,FT,Regular Season - 12,Levski Krumovgrad,17306,Ludogorets,566,0,3,True
+1214407,2024-09-16T16:45:00+00:00,FT,Regular Season - 12,Lokomotiv Sofia,1416,CSKA Sofia,853,0,3,True
+1214325,2024-09-18T14:30:00+00:00,FT,Regular Season - 2,Slavia Sofia,854,Ludogorets,566,0,1,True
+1214379,2024-09-19T14:00:00+00:00,FT,Regular Season - 9,Lokomotiv Plovdiv,858,CSKA 1948,1426,0,2,True
+1214382,2024-09-20T14:00:00+00:00,FT,Regular Season - 9,Hebar 1918,4659,Septemvri Sofia,856,1,2,True
+1214384,2024-09-21T14:30:00+00:00,FT,Regular Season - 9,CSKA Sofia,853,Beroe,857,1,0,True
+1214381,2024-09-21T17:00:00+00:00,FT,Regular Season - 9,Ludogorets,566,Lokomotiv Sofia,1416,2,0,True
+1214385,2024-09-22T14:30:00+00:00,FT,Regular Season - 9,Slavia Sofia,854,Levski Sofia,646,0,1,True
+1214383,2024-09-22T17:00:00+00:00,FT,Regular Season - 9,Spartak Varna,4660,Cherno More Varna,851,0,2,True
+1214380,2024-09-23T14:30:00+00:00,FT,Regular Season - 9,Levski Krumovgrad,17306,Botev Vratsa,859,3,0,True
+1214386,2024-09-23T17:00:00+00:00,FT,Regular Season - 9,Arda Kardzhali,1430,Botev Plovdiv,634,1,0,True
+1214331,2024-09-25T14:30:00+00:00,FT,Regular Season - 3,Septemvri Sofia,856,CSKA 1948,1426,1,1,True
+1214392,2024-09-27T14:30:00+00:00,FT,Regular Season - 10,Lokomotiv Sofia,1416,Hebar 1918,4659,0,0,True
+1214389,2024-09-27T17:00:00+00:00,FT,Regular Season - 10,Beroe,857,Slavia Sofia,854,1,0,True
+1214394,2024-09-28T14:00:00+00:00,FT,Regular Season - 10,Lokomotiv Plovdiv,858,Levski Krumovgrad,17306,0,2,True
+1214390,2024-09-28T17:00:00+00:00,FT,Regular Season - 10,Cherno More Varna,851,CSKA Sofia,853,0,0,True
+1214387,2024-09-29T13:15:00+00:00,FT,Regular Season - 10,CSKA 1948,1426,Botev Plovdiv,634,0,1,True
+1214388,2024-09-29T15:45:00+00:00,FT,Regular Season - 10,Levski Sofia,646,Arda Kardzhali,1430,2,1,True
+1214393,2024-09-29T18:15:00+00:00,FT,Regular Season - 10,Botev Vratsa,859,Ludogorets,566,0,2,True
+1214391,2024-09-30T17:00:00+00:00,FT,Regular Season - 10,Septemvri Sofia,856,Spartak Varna,4660,0,1,True
+1214395,2024-10-04T12:00:00+00:00,FT,Regular Season - 11,Levski Krumovgrad,17306,CSKA 1948,1426,1,1,True
+1214401,2024-10-04T14:30:00+00:00,FT,Regular Season - 11,Arda Kardzhali,1430,Beroe,857,1,1,True
+1214400,2024-10-04T17:00:00+00:00,FT,Regular Season - 11,Slavia Sofia,854,Cherno More Varna,851,1,0,True
+1214399,2024-10-05T14:30:00+00:00,FT,Regular Season - 11,CSKA Sofia,853,Septemvri Sofia,856,0,1,True
+1214402,2024-10-05T17:00:00+00:00,FT,Regular Season - 11,Botev Plovdiv,634,Levski Sofia,646,1,0,True
+1214397,2024-10-06T12:00:00+00:00,FT,Regular Season - 11,Hebar 1918,4659,Botev Vratsa,859,1,1,True
+1214398,2024-10-06T14:30:00+00:00,FT,Regular Season - 11,Spartak Varna,4660,Lokomotiv Sofia,1416,3,2,True
+1214396,2024-10-06T17:00:00+00:00,FT,Regular Season - 11,Ludogorets,566,Lokomotiv Plovdiv,858,1,0,True
+1214374,2024-10-18T14:00:00+00:00,FT,Regular Season - 8,Beroe,857,Spartak Varna,4660,3,0,True
+1214378,2024-10-18T16:30:00+00:00,FT,Regular Season - 8,Botev Vratsa,859,Lokomotiv Plovdiv,858,0,0,True
+1214377,2024-10-19T09:45:00+00:00,FT,Regular Season - 8,Lokomotiv Sofia,1416,Levski Krumovgrad,17306,0,0,True
+1214373,2024-10-19T12:45:00+00:00,FT,Regular Season - 8,Levski Sofia,646,CSKA Sofia,853,1,0,True
+1214372,2024-10-19T15:45:00+00:00,FT,Regular Season - 8,Botev Plovdiv,634,Slavia Sofia,854,1,0,True
+1214375,2024-10-20T13:45:00+00:00,FT,Regular Season - 8,Cherno More Varna,851,Hebar 1918,4659,1,0,True
+1214376,2024-10-20T16:15:00+00:00,FT,Regular Season - 8,Septemvri Sofia,856,Ludogorets,566,0,2,True
+1214371,2024-10-21T15:00:00+00:00,FT,Regular Season - 8,CSKA 1948,1426,Arda Kardzhali,1430,1,2,True
+1214413,2024-10-23T14:30:00+00:00,FT,Regular Season - 13,Spartak Varna,4660,Lokomotiv Plovdiv,858,1,0,True
+1214415,2024-10-24T12:00:00+00:00,FT,Regular Season - 13,Slavia Sofia,854,Lokomotiv Sofia,1416,3,2,True
+1214414,2024-10-24T14:30:00+00:00,FT,Regular Season - 13,CSKA Sofia,853,Botev Vratsa,859,2,0,True
+1214416,2024-10-25T11:00:00+00:00,FT,Regular Season - 13,Arda Kardzhali,1430,Septemvri Sofia,856,2,1,True
+1214417,2024-10-25T13:30:00+00:00,FT,Regular Season - 13,Botev Plovdiv,634,Cherno More Varna,851,1,0,True
+1214418,2024-10-25T16:00:00+00:00,FT,Regular Season - 13,Levski Sofia,646,Beroe,857,0,2,True
+1214412,2024-10-26T11:00:00+00:00,FT,Regular Season - 13,Hebar 1918,4659,Levski Krumovgrad,17306,0,0,True
+1214411,2024-10-28T16:00:00+00:00,FT,Regular Season - 13,Ludogorets,566,CSKA 1948,1426,3,0,True
+1214423,2024-11-01T15:30:00+00:00,FT,Regular Season - 14,Botev Vratsa,859,Slavia Sofia,854,3,2,True
+1214422,2024-11-02T10:00:00+00:00,FT,Regular Season - 14,Lokomotiv Sofia,1416,Arda Kardzhali,1430,0,2,True
+1214424,2024-11-02T12:30:00+00:00,FT,Regular Season - 14,Lokomotiv Plovdiv,858,CSKA Sofia,853,2,2,True
+1214425,2024-11-02T15:00:00+00:00,FT,Regular Season - 14,Levski Krumovgrad,17306,Spartak Varna,4660,0,1,True
+1214419,2024-11-03T10:30:00+00:00,FT,Regular Season - 14,CSKA 1948,1426,Beroe,857,1,1,True
+1214426,2024-11-03T13:00:00+00:00,FT,Regular Season - 14,Ludogorets,566,Hebar 1918,4659,3,0,True
+1214420,2024-11-03T15:30:00+00:00,FT,Regular Season - 14,Cherno More Varna,851,Levski Sofia,646,2,1,True
+1214421,2024-11-04T15:30:00+00:00,FT,Regular Season - 14,Septemvri Sofia,856,Botev Plovdiv,634,1,0,True
+1214339,2024-11-07T15:30:00+00:00,FT,Regular Season - 4,CSKA 1948,1426,CSKA Sofia,853,1,3,True
+1214431,2024-11-08T13:00:00+00:00,FT,Regular Season - 15,Arda Kardzhali,1430,Botev Vratsa,859,2,0,True
+1214432,2024-11-08T15:30:00+00:00,FT,Regular Season - 15,Botev Plovdiv,634,Lokomotiv Sofia,1416,2,0,True
+1214430,2024-11-09T10:30:00+00:00,FT,Regular Season - 15,Slavia Sofia,854,Lokomotiv Plovdiv,858,2,1,True
+1214434,2024-11-09T13:00:00+00:00,FT,Regular Season - 15,Beroe,857,Cherno More Varna,851,0,1,True
+1214433,2024-11-09T15:30:00+00:00,FT,Regular Season - 15,Levski Sofia,646,Septemvri Sofia,856,2,3,True
+1214427,2024-11-10T10:30:00+00:00,FT,Regular Season - 15,Hebar 1918,4659,CSKA 1948,1426,1,1,True
+1214429,2024-11-10T13:00:00+00:00,FT,Regular Season - 15,CSKA Sofia,853,Levski Krumovgrad,17306,2,2,True
+1214428,2024-11-10T15:30:00+00:00,FT,Regular Season - 15,Spartak Varna,4660,Ludogorets,566,1,3,True
+1214442,2024-11-22T15:00:00+00:00,FT,Regular Season - 16,Spartak Varna,4660,Hebar 1918,4659,4,0,True
+1214439,2024-11-23T10:30:00+00:00,FT,Regular Season - 16,Arda Kardzhali,1430,Lokomotiv Plovdiv,858,4,2,True
+1214438,2024-11-23T13:00:00+00:00,FT,Regular Season - 16,Botev Plovdiv,634,Botev Vratsa,859,3,1,True
+1214437,2024-11-23T15:30:00+00:00,FT,Regular Season - 16,Levski Sofia,646,Lokomotiv Sofia,1416,2,0,True
+1214436,2024-11-24T10:15:00+00:00,FT,Regular Season - 16,Beroe,857,Septemvri Sofia,856,2,0,True
+1214435,2024-11-24T12:30:00+00:00,FT,Regular Season - 16,CSKA 1948,1426,Cherno More Varna,851,0,4,True
+1214441,2024-11-24T15:00:00+00:00,FT,Regular Season - 16,CSKA Sofia,853,Ludogorets,566,2,2,True
+1214440,2024-11-25T15:30:00+00:00,FT,Regular Season - 16,Slavia Sofia,854,Levski Krumovgrad,17306,0,1,True
+1214443,2024-11-29T12:30:00+00:00,FT,Regular Season - 17,Spartak Varna,4660,CSKA 1948,1426,1,1,True
+1214450,2024-11-29T15:00:00+00:00,FT,Regular Season - 17,Septemvri Sofia,856,Cherno More Varna,851,1,2,True
+1214449,2024-11-30T10:30:00+00:00,FT,Regular Season - 17,Lokomotiv Sofia,1416,Beroe,857,2,1,True
+1214448,2024-11-30T13:00:00+00:00,FT,Regular Season - 17,Botev Vratsa,859,Levski Sofia,646,0,2,True
+1214444,2024-11-30T15:30:00+00:00,FT,Regular Season - 17,Hebar 1918,4659,CSKA Sofia,853,0,1,True
+1214447,2024-12-01T10:30:00+00:00,FT,Regular Season - 17,Lokomotiv Plovdiv,858,Botev Plovdiv,634,0,1,True
+1214446,2024-12-01T13:00:00+00:00,FT,Regular Season - 17,Levski Krumovgrad,17306,Arda Kardzhali,1430,0,0,True
+1214445,2024-12-01T15:30:00+00:00,FT,Regular Season - 17,Ludogorets,566,Slavia Sofia,854,2,0,True
+1214451,2024-12-03T10:30:00+00:00,FT,Regular Season - 18,CSKA 1948,1426,Septemvri Sofia,856,2,0,True
+1214452,2024-12-03T13:00:00+00:00,FT,Regular Season - 18,Cherno More Varna,851,Lokomotiv Sofia,1416,4,0,True
+1214458,2024-12-03T15:30:00+00:00,FT,Regular Season - 18,CSKA Sofia,853,Spartak Varna,4660,3,1,True
+1214453,2024-12-04T10:30:00+00:00,FT,Regular Season - 18,Beroe,857,Botev Vratsa,859,5,1,True
+1214456,2024-12-04T13:00:00+00:00,FT,Regular Season - 18,Arda Kardzhali,1430,Ludogorets,566,0,4,True
+1214454,2024-12-04T15:30:00+00:00,FT,Regular Season - 18,Levski Sofia,646,Lokomotiv Plovdiv,858,2,1,True
+1214457,2024-12-05T13:00:00+00:00,FT,Regular Season - 18,Slavia Sofia,854,Hebar 1918,4659,3,2,True
+1214455,2024-12-05T15:30:00+00:00,FT,Regular Season - 18,Botev Plovdiv,634,Levski Krumovgrad,17306,1,0,True
+1214464,2024-12-07T10:30:00+00:00,FT,Regular Season - 19,Lokomotiv Plovdiv,858,Beroe,857,1,2,True
+1214465,2024-12-07T13:00:00+00:00,FT,Regular Season - 19,Botev Vratsa,859,Cherno More Varna,851,2,3,True
+1214459,2024-12-07T15:30:00+00:00,FT,Regular Season - 19,CSKA Sofia,853,CSKA 1948,1426,2,2,True
+1214466,2024-12-08T10:00:00+00:00,FT,Regular Season - 19,Lokomotiv Sofia,1416,Septemvri Sofia,856,1,2,True
+1214463,2024-12-08T12:30:00+00:00,FT,Regular Season - 19,Levski Krumovgrad,17306,Levski Sofia,646,0,2,True
+1214462,2024-12-08T15:00:00+00:00,FT,Regular Season - 19,Ludogorets,566,Botev Plovdiv,634,3,0,True
+1214461,2024-12-09T12:45:00+00:00,FT,Regular Season - 19,Hebar 1918,4659,Arda Kardzhali,1430,0,2,True
+1214460,2024-12-09T15:00:00+00:00,FT,Regular Season - 19,Spartak Varna,4660,Slavia Sofia,854,1,3,True
+1214342,2024-12-19T15:00:00+00:00,FT,Regular Season - 4,Botev Plovdiv,634,Ludogorets,566,2,4,True
+1214473,2025-02-07T15:30:00+00:00,FT,Regular Season - 20,Arda Kardzhali,1430,Spartak Varna,4660,2,2,True
+1214468,2025-02-08T10:30:00+00:00,FT,Regular Season - 20,Septemvri Sofia,856,Botev Vratsa,859,2,2,True
+1214469,2025-02-08T13:00:00+00:00,FT,Regular Season - 20,Cherno More Varna,851,Lokomotiv Plovdiv,858,1,2,True
+1214474,2025-02-08T15:30:00+00:00,FT,Regular Season - 20,Slavia Sofia,854,CSKA Sofia,853,1,0,True
+1214467,2025-02-09T10:00:00+00:00,FT,Regular Season - 20,CSKA 1948,1426,Lokomotiv Sofia,1416,1,4,True
+1214472,2025-02-09T12:30:00+00:00,FT,Regular Season - 20,Botev Plovdiv,634,Hebar 1918,4659,1,1,True
+1214471,2025-02-09T15:15:00+00:00,FT,Regular Season - 20,Levski Sofia,646,Ludogorets,566,2,1,True
+1214470,2025-02-10T15:30:00+00:00,FT,Regular Season - 20,Beroe,857,Levski Krumovgrad,17306,0,0,True
+1214482,2025-02-14T15:30:00+00:00,FT,Regular Season - 21,Botev Vratsa,859,Lokomotiv Sofia,1416,0,3,True
+1214480,2025-02-15T10:30:00+00:00,FT,Regular Season - 21,Levski Krumovgrad,17306,Cherno More Varna,851,1,1,True
+1214477,2025-02-15T13:00:00+00:00,FT,Regular Season - 21,Spartak Varna,4660,Botev Plovdiv,634,1,0,True
+1214478,2025-02-15T15:30:00+00:00,FT,Regular Season - 21,Hebar 1918,4659,Levski Sofia,646,1,4,True
+1214481,2025-02-16T10:30:00+00:00,FT,Regular Season - 21,Lokomotiv Plovdiv,858,Septemvri Sofia,856,0,1,True
+1214479,2025-02-16T13:00:00+00:00,FT,Regular Season - 21,Ludogorets,566,Beroe,857,2,1,True
+1214476,2025-02-16T15:30:00+00:00,FT,Regular Season - 21,CSKA Sofia,853,Arda Kardzhali,1430,2,0,True
+1214475,2025-02-17T15:30:00+00:00,FT,Regular Season - 21,Slavia Sofia,854,CSKA 1948,1426,1,1,True
+1214483,2025-02-21T10:45:00+00:00,FT,Regular Season - 22,CSKA 1948,1426,Botev Vratsa,859,1,0,True
+1214487,2025-02-21T13:15:00+00:00,FT,Regular Season - 22,Beroe,857,Hebar 1918,4659,2,1,True
+1214488,2025-02-21T15:45:00+00:00,FT,Regular Season - 22,Levski Sofia,646,Spartak Varna,4660,2,0,True
+1214490,2025-02-22T10:30:00+00:00,FT,Regular Season - 22,Arda Kardzhali,1430,Slavia Sofia,854,1,1,True
+1214489,2025-02-22T13:00:00+00:00,FT,Regular Season - 22,Botev Plovdiv,634,CSKA Sofia,853,0,3,True
+1214486,2025-02-22T15:30:00+00:00,FT,Regular Season - 22,Cherno More Varna,851,Ludogorets,566,1,1,True
+1214484,2025-02-23T15:00:00+00:00,FT,Regular Season - 22,Lokomotiv Sofia,1416,Lokomotiv Plovdiv,858,0,1,True
+1214485,2025-02-24T15:30:00+00:00,FT,Regular Season - 22,Septemvri Sofia,856,Levski Krumovgrad,17306,1,0,True
+1214497,2025-03-01T10:00:00+00:00,FT,Regular Season - 23,Levski Krumovgrad,17306,Lokomotiv Sofia,1416,0,2,True
+1214498,2025-03-01T12:30:00+00:00,FT,Regular Season - 23,Lokomotiv Plovdiv,858,Botev Vratsa,859,1,0,True
+1214494,2025-03-01T14:45:00+00:00,FT,Regular Season - 23,Spartak Varna,4660,Beroe,857,0,3,True
+1214493,2025-03-02T12:00:00+00:00,FT,Regular Season - 23,CSKA Sofia,853,Levski Sofia,646,2,2,True
+1214495,2025-03-02T15:15:00+00:00,FT,Regular Season - 23,Hebar 1918,4659,Cherno More Varna,851,0,1,True
+1214491,2025-03-03T10:30:00+00:00,FT,Regular Season - 23,Arda Kardzhali,1430,CSKA 1948,1426,1,0,True
+1214492,2025-03-03T13:00:00+00:00,FT,Regular Season - 23,Slavia Sofia,854,Botev Plovdiv,634,3,2,True
+1214496,2025-03-03T15:30:00+00:00,FT,Regular Season - 23,Ludogorets,566,Septemvri Sofia,856,0,0,True
+1214500,2025-03-07T15:30:00+00:00,FT,Regular Season - 24,Botev Vratsa,859,Levski Krumovgrad,17306,0,0,True
+1214499,2025-03-08T10:30:00+00:00,FT,Regular Season - 24,CSKA 1948,1426,Lokomotiv Plovdiv,858,2,1,True
+1214504,2025-03-08T13:00:00+00:00,FT,Regular Season - 24,Beroe,857,CSKA Sofia,853,0,2,True
+1214503,2025-03-08T15:30:00+00:00,FT,Regular Season - 24,Cherno More Varna,851,Spartak Varna,4660,1,1,True
+1214506,2025-03-09T10:00:00+00:00,FT,Regular Season - 24,Botev Plovdiv,634,Arda Kardzhali,1430,1,1,True
+1214505,2025-03-09T12:30:00+00:00,FT,Regular Season - 24,Levski Sofia,646,Slavia Sofia,854,3,3,True
+1214501,2025-03-09T15:00:00+00:00,FT,Regular Season - 24,Lokomotiv Sofia,1416,Ludogorets,566,1,2,True
+1214502,2025-03-10T15:30:00+00:00,FT,Regular Season - 24,Septemvri Sofia,856,Hebar 1918,4659,6,1,True
+1214509,2025-03-14T13:15:00+00:00,FT,Regular Season - 25,Slavia Sofia,854,Beroe,857,2,1,True
+1214514,2025-03-14T15:45:00+00:00,FT,Regular Season - 25,Levski Krumovgrad,17306,Lokomotiv Plovdiv,858,0,0,True
+1214512,2025-03-15T10:30:00+00:00,FT,Regular Season - 25,Hebar 1918,4659,Lokomotiv Sofia,1416,2,1,True
+1214513,2025-03-15T13:00:00+00:00,FT,Regular Season - 25,Ludogorets,566,Botev Vratsa,859,3,0,True
+1214510,2025-03-15T15:30:00+00:00,FT,Regular Season - 25,CSKA Sofia,853,Cherno More Varna,851,1,1,True
+1214511,2025-03-16T10:00:00+00:00,FT,Regular Season - 25,Spartak Varna,4660,Septemvri Sofia,856,4,2,True
+1214507,2025-03-16T12:30:00+00:00,FT,Regular Season - 25,Botev Plovdiv,634,CSKA 1948,1426,0,5,True
+1214508,2025-03-16T15:00:00+00:00,FT,Regular Season - 25,Arda Kardzhali,1430,Levski Sofia,646,1,1,True
+1214518,2025-03-28T14:15:00+00:00,FT,Regular Season - 26,Lokomotiv Sofia,1416,Spartak Varna,4660,2,1,True
+1214517,2025-03-28T16:45:00+00:00,FT,Regular Season - 26,Botev Vratsa,859,Hebar 1918,4659,1,0,True
+1214515,2025-03-29T10:15:00+00:00,FT,Regular Season - 26,CSKA 1948,1426,Levski Krumovgrad,17306,4,1,True
+1214520,2025-03-29T12:45:00+00:00,FT,Regular Season - 26,Cherno More Varna,851,Slavia Sofia,854,1,1,True
+1214519,2025-03-29T15:15:00+00:00,FT,Regular Season - 26,Septemvri Sofia,856,CSKA Sofia,853,0,1,True
+1214521,2025-03-30T10:30:00+00:00,FT,Regular Season - 26,Beroe,857,Arda Kardzhali,1430,1,4,True
+1214516,2025-03-30T13:00:00+00:00,FT,Regular Season - 26,Lokomotiv Plovdiv,858,Ludogorets,566,1,0,True
+1214522,2025-03-30T15:30:00+00:00,FT,Regular Season - 26,Levski Sofia,646,Botev Plovdiv,634,1,1,True
+1214528,2025-04-01T13:15:00+00:00,FT,Regular Season - 27,Spartak Varna,4660,Botev Vratsa,859,1,0,True
+1214526,2025-04-01T15:45:00+00:00,FT,Regular Season - 27,Slavia Sofia,854,Septemvri Sofia,856,2,3,True
+1214525,2025-04-02T11:15:00+00:00,FT,Regular Season - 27,Arda Kardzhali,1430,Cherno More Varna,851,4,0,True
+1214524,2025-04-02T13:45:00+00:00,FT,Regular Season - 27,Botev Plovdiv,634,Beroe,857,0,0,True
+1214527,2025-04-02T16:15:00+00:00,FT,Regular Season - 27,CSKA Sofia,853,Lokomotiv Sofia,1416,1,0,True
+1214529,2025-04-03T11:30:00+00:00,FT,Regular Season - 27,Hebar 1918,4659,Lokomotiv Plovdiv,858,0,0,True
+1214530,2025-04-03T14:00:00+00:00,FT,Regular Season - 27,Ludogorets,566,Levski Krumovgrad,17306,3,0,True
+1214523,2025-04-03T16:30:00+00:00,FT,Regular Season - 27,Levski Sofia,646,CSKA 1948,1426,2,0,True
+1214537,2025-04-05T15:30:00+00:00,FT,Regular Season - 28,Cherno More Varna,851,Botev Plovdiv,634,1,1,True
+1214534,2025-04-05T16:00:00+00:00,FT,Regular Season - 28,Botev Vratsa,859,CSKA Sofia,853,1,1,True
+1214532,2025-04-06T09:15:00+00:00,FT,Regular Season - 28,Levski Krumovgrad,17306,Hebar 1918,4659,1,0,True
+1214535,2025-04-06T11:45:00+00:00,FT,Regular Season - 28,Lokomotiv Sofia,1416,Slavia Sofia,854,3,2,True
+1214538,2025-04-06T14:15:00+00:00,FT,Regular Season - 28,Beroe,857,Levski Sofia,646,0,1,True
+1214536,2025-04-07T12:00:00+00:00,FT,Regular Season - 28,Septemvri Sofia,856,Arda Kardzhali,1430,0,4,True
+1214533,2025-04-07T14:30:00+00:00,FT,Regular Season - 28,Lokomotiv Plovdiv,858,Spartak Varna,4660,1,2,True
+1214531,2025-04-07T17:00:00+00:00,FT,Regular Season - 28,CSKA 1948,1426,Ludogorets,566,1,3,True
+1214545,2025-04-11T13:30:00+00:00,FT,Regular Season - 29,Spartak Varna,4660,Levski Krumovgrad,17306,1,0,True
+1214539,2025-04-11T16:00:00+00:00,FT,Regular Season - 29,Beroe,857,CSKA 1948,1426,2,0,True
+1214541,2025-04-12T11:00:00+00:00,FT,Regular Season - 29,Botev Plovdiv,634,Septemvri Sofia,856,3,0,True
+1214544,2025-04-12T13:30:00+00:00,FT,Regular Season - 29,CSKA Sofia,853,Lokomotiv Plovdiv,858,2,0,True
+1214542,2025-04-13T12:00:00+00:00,FT,Regular Season - 29,Arda Kardzhali,1430,Lokomotiv Sofia,1416,5,0,True
+1214540,2025-04-13T14:30:00+00:00,FT,Regular Season - 29,Levski Sofia,646,Cherno More Varna,851,1,2,True
+1214543,2025-04-14T14:30:00+00:00,FT,Regular Season - 29,Slavia Sofia,854,Botev Vratsa,859,4,2,True
+1214546,2025-04-14T17:00:00+00:00,FT,Regular Season - 29,Hebar 1918,4659,Ludogorets,566,0,2,True
+1214552,2025-04-18T11:00:00+00:00,FT,Regular Season - 30,Lokomotiv Sofia,1416,Botev Plovdiv,634,1,1,True
+1214554,2025-04-18T13:30:00+00:00,FT,Regular Season - 30,Cherno More Varna,851,Beroe,857,1,1,True
+1214549,2025-04-18T16:00:00+00:00,FT,Regular Season - 30,Levski Krumovgrad,17306,CSKA Sofia,853,1,0,True
+1214551,2025-04-19T11:00:00+00:00,FT,Regular Season - 30,Botev Vratsa,859,Arda Kardzhali,1430,3,1,True
+1214550,2025-04-19T13:30:00+00:00,FT,Regular Season - 30,Lokomotiv Plovdiv,858,Slavia Sofia,854,0,1,True
+1214548,2025-04-19T16:00:00+00:00,FT,Regular Season - 30,Ludogorets,566,Spartak Varna,4660,2,1,True
+1214553,2025-04-21T13:30:00+00:00,FT,Regular Season - 30,Septemvri Sofia,856,Levski Sofia,646,0,1,True
+1214547,2025-04-21T16:00:00+00:00,FT,Regular Season - 30,CSKA 1948,1426,Hebar 1918,4659,1,3,True
+1372620,2025-04-25T14:30:00+00:00,FT,Relegation Round - 1,Slavia Sofia,854,Hebar 1918,4659,3,2,True
+1372621,2025-04-25T17:00:00+00:00,FT,Relegation Round - 1,Lokomotiv Sofia,1416,Levski Krumovgrad,17306,3,0,True
+1372608,2025-04-26T14:30:00+00:00,FT,Conference League Play-off Group - 1,Spartak Varna,4660,CSKA Sofia,853,0,1,True
+1372329,2025-04-26T17:00:00+00:00,FT,Championship Round - 1,Levski Sofia,646,Arda Kardzhali,1430,1,1,True
+1372609,2025-04-27T12:15:00+00:00,FT,Conference League Play-off Group - 1,Botev Plovdiv,634,Beroe,857,1,1,True
+1372330,2025-04-27T17:30:00+00:00,FT,Championship Round - 1,Ludogorets,566,Cherno More Varna,851,2,0,True
+1372622,2025-04-28T14:30:00+00:00,FT,Relegation Round - 1,Septemvri Sofia,856,Lokomotiv Plovdiv,858,2,0,True
+1372623,2025-04-28T17:00:00+00:00,FT,Relegation Round - 1,CSKA 1948,1426,Botev Vratsa,859,0,1,True
+1372624,2025-05-01T16:30:00+00:00,FT,Relegation Round - 2,Hebar 1918,4659,Levski Krumovgrad,17306,1,3,True
+1372626,2025-05-02T12:00:00+00:00,FT,Relegation Round - 2,Botev Vratsa,859,Septemvri Sofia,856,3,2,True
+1372627,2025-05-02T14:30:00+00:00,FT,Relegation Round - 2,Slavia Sofia,854,CSKA 1948,1426,0,1,True
+1372625,2025-05-02T17:00:00+00:00,FT,Relegation Round - 2,Lokomotiv Plovdiv,858,Lokomotiv Sofia,1416,1,1,True
+1372610,2025-05-03T14:00:00+00:00,FT,Conference League Play-off Group - 2,Beroe,857,CSKA Sofia,853,0,3,True
+1372332,2025-05-03T16:30:00+00:00,FT,Championship Round - 2,Ludogorets,566,Levski Sofia,646,1,1,True
+1372331,2025-05-04T12:30:00+00:00,FT,Championship Round - 2,Cherno More Varna,851,Arda Kardzhali,1430,1,1,True
+1372611,2025-05-04T15:00:00+00:00,FT,Conference League Play-off Group - 2,Botev Plovdiv,634,Spartak Varna,4660,3,2,True
+1372631,2025-05-06T14:00:00+00:00,FT,Relegation Round - 3,Levski Krumovgrad,17306,Lokomotiv Plovdiv,858,0,4,True
+1372629,2025-05-06T16:30:00+00:00,FT,Relegation Round - 3,Septemvri Sofia,856,Slavia Sofia,854,3,1,True
+1372628,2025-05-07T14:00:00+00:00,FT,Relegation Round - 3,CSKA 1948,1426,Hebar 1918,4659,0,0,True
+1372630,2025-05-07T16:30:00+00:00,FT,Relegation Round - 3,Lokomotiv Sofia,1416,Botev Vratsa,859,3,0,True
+1372334,2025-05-09T14:45:00+00:00,FT,Championship Round - 3,Arda Kardzhali,1430,Ludogorets,566,1,1,True
+1372613,2025-05-09T17:15:00+00:00,FT,Conference League Play-off Group - 3,CSKA Sofia,853,Botev Plovdiv,634,3,0,True
+1372634,2025-05-10T12:00:00+00:00,FT,Relegation Round - 4,Slavia Sofia,854,Lokomotiv Sofia,1416,0,0,True
+1372612,2025-05-10T14:30:00+00:00,FT,Conference League Play-off Group - 3,Spartak Varna,4660,Beroe,857,1,2,True
+1372333,2025-05-10T17:00:00+00:00,FT,Championship Round - 3,Levski Sofia,646,Cherno More Varna,851,2,0,True
+1372632,2025-05-11T12:30:00+00:00,FT,Relegation Round - 4,Hebar 1918,4659,Lokomotiv Plovdiv,858,1,2,True
+1372633,2025-05-11T15:00:00+00:00,FT,Relegation Round - 4,Botev Vratsa,859,Levski Krumovgrad,17306,1,0,True
+1372635,2025-05-11T17:30:00+00:00,FT,Relegation Round - 4,CSKA 1948,1426,Septemvri Sofia,856,2,0,True
+1372335,2025-05-13T14:45:00+00:00,FT,Championship Round - 4,Cherno More Varna,851,Ludogorets,566,2,0,True
+1372615,2025-05-13T17:15:00+00:00,FT,Conference League Play-off Group - 4,CSKA Sofia,853,Spartak Varna,4660,5,0,True
+1372637,2025-05-14T12:15:00+00:00,FT,Relegation Round - 5,Lokomotiv Sofia,1416,CSKA 1948,1426,2,1,True
+1372614,2025-05-14T14:45:00+00:00,FT,Conference League Play-off Group - 4,Beroe,857,Botev Plovdiv,634,0,6,True
+1372336,2025-05-14T17:15:00+00:00,FT,Championship Round - 4,Arda Kardzhali,1430,Levski Sofia,646,0,3,True
+1372638,2025-05-15T12:15:00+00:00,FT,Relegation Round - 5,Levski Krumovgrad,17306,Slavia Sofia,854,0,1,True
+1372639,2025-05-15T14:45:00+00:00,FT,Relegation Round - 5,Lokomotiv Plovdiv,858,Botev Vratsa,859,1,3,True
+1372636,2025-05-15T17:15:00+00:00,FT,Relegation Round - 5,Septemvri Sofia,856,Hebar 1918,4659,1,0,True
+1372616,2025-05-17T14:30:00+00:00,FT,Conference League Play-off Group - 5,CSKA Sofia,853,Beroe,857,2,1,True
+1372338,2025-05-17T17:00:00+00:00,FT,Championship Round - 5,Levski Sofia,646,Ludogorets,566,2,2,True
+1372617,2025-05-18T14:00:00+00:00,FT,Conference League Play-off Group - 5,Spartak Varna,4660,Botev Plovdiv,634,2,1,True
+1372337,2025-05-18T16:30:00+00:00,FT,Championship Round - 5,Arda Kardzhali,1430,Cherno More Varna,851,0,0,True
+1372642,2025-05-19T14:45:00+00:00,FT,Relegation Round - 6,CSKA 1948,1426,Levski Krumovgrad,17306,2,0,True
+1372641,2025-05-19T17:15:00+00:00,FT,Relegation Round - 6,Slavia Sofia,854,Lokomotiv Plovdiv,858,1,2,True
+1372640,2025-05-20T14:45:00+00:00,FT,Relegation Round - 6,Hebar 1918,4659,Botev Vratsa,859,1,0,True
+1372643,2025-05-20T17:15:00+00:00,FT,Relegation Round - 6,Septemvri Sofia,856,Lokomotiv Sofia,1416,0,2,True
+1372646,2025-05-25T17:45:00+00:00,FT,Relegation Round - 7,Lokomotiv Plovdiv,858,CSKA 1948,1426,0,1,True
+1372647,2025-05-25T17:45:00+00:00,FT,Relegation Round - 7,Botev Vratsa,859,Slavia Sofia,854,2,1,True
+1372644,2025-05-25T17:45:00+00:00,FT,Relegation Round - 7,Lokomotiv Sofia,1416,Hebar 1918,4659,3,0,True
+1372645,2025-05-25T17:45:00+00:00,FT,Relegation Round - 7,Levski Krumovgrad,17306,Septemvri Sofia,856,1,2,True
+1372340,2025-05-26T14:45:00+00:00,FT,Championship Round - 6,Ludogorets,566,Arda Kardzhali,1430,2,2,True
+1372339,2025-05-26T14:45:00+00:00,FT,Championship Round - 6,Cherno More Varna,851,Levski Sofia,646,0,0,True
+1372619,2025-05-26T17:45:00+00:00,FT,Conference League Play-off Group - 6,Botev Plovdiv,634,CSKA Sofia,853,0,4,True
+1372618,2025-05-26T17:45:00+00:00,FT,Conference League Play-off Group - 6,Beroe,857,Spartak Varna,4660,3,1,True
+1376889,2025-05-29T16:00:00+00:00,FT,Finals,Botev Vratsa,859,Pirin Blagoevgrad,1428,1,0,True
+1376890,2025-05-30T16:00:00+00:00,FT,Finals,Lokomotiv Plovdiv,858,Marek,8543,3,0,True
+1376709,2025-05-31T15:30:00+00:00,AET,Conference League Play-offs - Final,Arda Kardzhali,1430,CSKA Sofia,853,1,1,False

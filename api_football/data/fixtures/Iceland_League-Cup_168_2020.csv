@@ -1,0 +1,61 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+312836,2020-03-13T00:00:00+00:00,CANC,Group 1 - 5,Fylkir,267,Keflavik,269,,,False
+312842,2020-03-13T00:00:00+00:00,CANC,Group 1 - 5,Valur Reykjavik,274,Vikingur Olafsiik,828,,,False
+312840,2020-03-13T00:00:00+00:00,CANC,Group 1 - 5,Vikingur Reykjavik,278,Fram Reykjavik,2117,,,False
+312839,2020-03-13T00:00:00+00:00,CANC,Group 1 - 5,Throttur Reykjavik,829,Grindavik,277,,,False
+312838,2020-03-13T00:00:00+00:00,CANC,Group 1 - 5,Grotta,2121,HK Kopavogur,2113,,,False
+312843,2020-03-14T00:00:00+00:00,CANC,Group 1 - 5,Fjolnir,273,IBV Vestmannaeyjar,268,,,False
+312841,2020-03-14T00:00:00+00:00,CANC,Group 1 - 5,Stjarnan,275,Vestri,4165,,,False
+312846,2020-03-15T00:00:00+00:00,CANC,Group 1 - 5,Breidablik,276,KR Reykjavik,271,,,False
+312844,2020-03-15T00:00:00+00:00,CANC,Group 1 - 5,Leiknir R.,2114,Leiknir F.,2120,,,False
+312845,2020-03-15T00:00:00+00:00,CANC,Group 1 - 5,Thor Akureyri,2116,FH hafnarfjordur,270,,,False
+312819,2020-03-17T00:00:00+00:00,CANC,Group 1 - 3,Magni,2124,Fram Reykjavik,2117,,,False
+312787,2020-02-07T18:30:00+00:00,FT,Group 1 - 1,Breidablik,276,Leiknir R.,2114,3,1,True
+312789,2020-02-07T19:00:00+00:00,FT,Group 1 - 1,HK Kopavogur,2113,FH hafnarfjordur,270,1,0,True
+312788,2020-02-08T18:15:00+00:00,FT,Group 1 - 1,Thor Akureyri,2116,Grotta,2121,1,2,True
+312790,2020-02-12T20:00:00+00:00,FT,Group 1 - 1,IA Akranes,827,KR Reykjavik,271,2,4,True
+312792,2020-02-14T19:00:00+00:00,FT,Group 1 - 1,FH hafnarfjordur,270,Throttur Reykjavik,829,3,1,True
+312791,2020-02-14T19:00:00+00:00,FT,Group 1 - 1,Fjolnir,273,Stjarnan,275,0,2,True
+312799,2020-02-15T11:30:00+00:00,FT,Group 1 - 2,HK Kopavogur,2113,Grindavik,277,1,2,True
+312793,2020-02-15T13:00:00+00:00,FT,Group 1 - 1,Leiknir F.,2120,Afturelding,3514,2,2,True
+312794,2020-02-15T15:00:00+00:00,FT,Group 1 - 1,KA Akureyri,272,Fylkir,267,1,1,True
+312798,2020-02-15T17:15:00+00:00,FT,Group 1 - 1,Fram Reykjavik,2117,Keflavik,269,1,2,True
+312796,2020-02-16T11:00:00+00:00,FT,Group 1 - 1,Valur Reykjavik,274,Vestri,4165,5,0,True
+312797,2020-02-16T14:00:00+00:00,FT,Group 1 - 1,IBV Vestmannaeyjar,268,Vikingur Olafsiik,828,5,0,True
+312795,2020-02-16T15:00:00+00:00,FT,Group 1 - 1,Magni,2124,Vikingur Reykjavik,278,0,5,True
+312800,2020-02-19T19:00:00+00:00,FT,Group 1 - 2,FH hafnarfjordur,270,Grotta,2121,1,1,True
+312801,2020-02-21T19:00:00+00:00,FT,Group 1 - 2,Afturelding,3514,Breidablik,276,1,3,True
+312811,2020-02-22T11:30:00+00:00,FT,Group 1 - 3,HK Kopavogur,2113,Throttur Reykjavik,829,2,0,True
+312809,2020-02-22T12:00:00+00:00,FT,Group 1 - 2,Valur Reykjavik,274,Fjolnir,273,2,3,True
+312804,2020-02-22T12:00:00+00:00,FT,Group 1 - 2,Stjarnan,275,IBV Vestmannaeyjar,268,1,2,True
+312802,2020-02-22T15:15:00+00:00,FT,Group 1 - 2,Fram Reykjavik,2117,KA Akureyri,272,1,3,True
+312803,2020-02-23T12:00:00+00:00,FT,Group 1 - 2,IA Akranes,827,Leiknir F.,2120,3,0,True
+312806,2020-02-23T13:00:00+00:00,FT,Group 1 - 2,Keflavik,269,Vikingur Reykjavik,278,0,2,True
+312805,2020-02-23T14:00:00+00:00,FT,Group 1 - 2,Vestri,4165,Vikingur Olafsiik,828,3,0,True
+312808,2020-02-23T15:15:00+00:00,FT,Group 1 - 2,Fylkir,267,Magni,2124,8,1,True
+312807,2020-02-23T16:00:00+00:00,FT,Group 1 - 2,Grindavik,277,Thor Akureyri,2116,0,5,True
+312812,2020-02-28T19:00:00+00:00,FT,Group 1 - 3,Fylkir,267,Vikingur Reykjavik,278,0,2,True
+312810,2020-02-28T19:00:00+00:00,FT,Group 1 - 2,Leiknir R.,2114,Afturelding,3514,2,1,True
+312813,2020-02-28T19:15:00+00:00,FT,Group 1 - 3,Breidablik,276,IA Akranes,827,7,1,True
+312817,2020-02-29T11:00:00+00:00,FT,Group 1 - 3,Grotta,2121,Grindavik,277,2,2,True
+312829,2020-02-29T12:00:00+00:00,FT,Group 1 - 4,Vikingur Olafsiik,828,Fjolnir,273,1,5,True
+312833,2020-02-29T14:00:00+00:00,FT,Group 1 - 4,Valur Reykjavik,274,IBV Vestmannaeyjar,268,4,1,True
+312818,2020-02-29T15:00:00+00:00,FT,Group 1 - 3,KA Akureyri,272,Keflavik,269,1,2,True
+312815,2020-03-01T13:00:00+00:00,FT,Group 1 - 3,Leiknir F.,2120,KR Reykjavik,271,2,7,True
+312820,2020-03-01T15:00:00+00:00,FT,Group 1 - 3,Thor Akureyri,2116,Throttur Reykjavik,829,1,3,True
+312823,2020-03-04T19:00:00+00:00,FT,Group 1 - 4,Stjarnan,275,Valur Reykjavik,274,2,2,True
+312824,2020-03-05T19:00:00+00:00,FT,Group 1 - 4,Fram Reykjavik,2117,Fylkir,267,1,2,True
+312822,2020-03-05T20:00:00+00:00,FT,Group 1 - 3,IA Akranes,827,Leiknir R.,2114,4,1,True
+312826,2020-03-06T19:00:00+00:00,FT,Group 1 - 4,FH hafnarfjordur,270,Grindavik,277,2,1,True
+312814,2020-03-06T19:00:00+00:00,FT,Group 1 - 3,Fjolnir,273,Vestri,4165,0,1,True
+312827,2020-03-06T19:00:00+00:00,FT,Group 1 - 4,Throttur Reykjavik,829,Grotta,2121,2,1,True
+312825,2020-03-06T19:00:00+00:00,FT,Group 1 - 4,Afturelding,3514,KR Reykjavik,271,1,3,True
+312816,2020-03-07T12:00:00+00:00,FT,Group 1 - 3,Stjarnan,275,Vikingur Olafsiik,828,7,1,True
+312830,2020-03-07T15:00:00+00:00,FT,Group 1 - 4,HK Kopavogur,2113,Thor Akureyri,2116,1,0,True
+312831,2020-03-07T16:00:00+00:00,FT,Group 1 - 4,Vikingur Reykjavik,278,KA Akureyri,272,6,0,True
+312828,2020-03-08T13:00:00+00:00,FT,Group 1 - 4,Leiknir F.,2120,Breidablik,276,1,4,True
+312821,2020-03-08T14:00:00+00:00,FT,Group 1 - 3,IBV Vestmannaeyjar,268,Vestri,4165,3,2,True
+312832,2020-03-08T16:00:00+00:00,FT,Group 1 - 4,Keflavik,269,Magni,2124,5,0,True
+312834,2020-03-10T19:00:00+00:00,FT,Group 1 - 4,KR Reykjavik,271,Leiknir R.,2114,4,3,True
+312837,2020-03-11T20:00:00+00:00,FT,Group 1 - 5,Afturelding,3514,IA Akranes,827,1,2,True
+312835,2020-03-12T20:00:00+00:00,FT,Group 1 - 5,KA Akureyri,272,Magni,2124,2,0,True

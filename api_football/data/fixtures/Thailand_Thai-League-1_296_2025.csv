@@ -1,241 +1,241 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1404262,2025-08-15T12:00:00+00:00,FT,Ratchaburi,2776,Kanchanaburi,18051,1,1,True
-1404263,2025-08-16T11:00:00+00:00,FT,Prachuap,2791,BG Pathum United,2769,2,2,True
-1404264,2025-08-16T11:30:00+00:00,FT,Nakhon Ratchasima FC,2773,Chonburi FC,2772,0,0,True
-1404265,2025-08-16T12:00:00+00:00,FT,Lamphun Warrior,6572,Buriram United,2780,2,3,True
-1404266,2025-08-16T12:30:00+00:00,FT,Muangthong United,2786,Sukhothai FC,2783,1,0,True
-1404267,2025-08-17T11:00:00+00:00,FT,Uthai Thani,10088,Chiangrai United,2771,1,1,True
-1404268,2025-08-17T11:30:00+00:00,FT,Port FC,2789,Ayutthaya FC,2803,3,1,True
-1404269,2025-08-17T12:00:00+00:00,FT,Bangkok United,2770,Rayong FC,2797,3,2,True
-1404270,2025-08-22T12:00:00+00:00,FT,Rayong FC,2797,Nakhon Ratchasima FC,2773,1,2,True
-1404271,2025-08-23T11:00:00+00:00,FT,Chiangrai United,2771,Prachuap,2791,2,1,True
-1404272,2025-08-23T11:30:00+00:00,FT,Ayutthaya FC,2803,Muangthong United,2786,2,2,True
-1404276,2025-08-23T12:00:00+00:00,FT,Chonburi FC,2772,Ratchaburi,2776,0,1,True
-1404274,2025-08-23T12:30:00+00:00,FT,BG Pathum United,2769,Lamphun Warrior,6572,2,1,True
-1404275,2025-08-24T11:00:00+00:00,FT,Kanchanaburi,18051,Bangkok United,2770,3,3,True
-1442427,2025-08-24T11:30:00+00:00,FT,Sukhothai FC,2783,Port FC,2789,1,0,True
-1404273,2025-08-24T12:00:00+00:00,FT,Buriram United,2780,Uthai Thani,10088,5,1,True
-1404277,2025-08-29T12:00:00+00:00,FT,Uthai Thani,10088,Ayutthaya FC,2803,1,4,True
-1404278,2025-08-30T11:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Ratchaburi,2776,0,2,True
-1404279,2025-08-30T11:30:00+00:00,FT,Lamphun Warrior,6572,Chonburi FC,2772,2,2,True
-1404280,2025-08-30T12:00:00+00:00,FT,Bangkok United,2770,BG Pathum United,2769,2,1,True
-1442428,2025-08-30T12:30:00+00:00,FT,Port FC,2789,Rayong FC,2797,1,1,True
-1404281,2025-08-31T11:00:00+00:00,FT,Chiangrai United,2771,Buriram United,2780,1,2,True
-1404282,2025-08-31T11:30:00+00:00,FT,Prachuap,2791,Sukhothai FC,2783,0,0,True
-1404283,2025-08-31T12:00:00+00:00,FT,Muangthong United,2786,Kanchanaburi,18051,2,0,True
-1446589,2025-09-12T12:00:00+00:00,FT,Buriram United,2780,Prachuap,2791,2,0,True
-1446588,2025-09-12T12:00:00+00:00,FT,Uthai Thani,10088,BG Pathum United,2769,0,1,True
-1446590,2025-09-13T11:00:00+00:00,FT,Chonburi FC,2772,Bangkok United,2770,0,1,True
-1446591,2025-09-13T11:30:00+00:00,FT,Sukhothai FC,2783,Lamphun Warrior,6572,1,2,True
-1446592,2025-09-13T12:00:00+00:00,FT,Ratchaburi,2776,Port FC,2789,1,0,True
-1446593,2025-09-14T11:00:00+00:00,FT,Rayong FC,2797,Muangthong United,2786,2,0,True
-1446594,2025-09-14T11:30:00+00:00,FT,Ayutthaya FC,2803,Chiangrai United,2771,1,1,True
-1446595,2025-09-14T12:00:00+00:00,FT,Kanchanaburi,18051,Nakhon Ratchasima FC,2773,0,0,True
-1446596,2025-09-19T12:00:00+00:00,FT,Port FC,2789,Chonburi FC,2772,3,0,True
-1446597,2025-09-20T11:00:00+00:00,FT,Lamphun Warrior,6572,Nakhon Ratchasima FC,2773,2,2,True
-1446598,2025-09-20T11:30:00+00:00,FT,Uthai Thani,10088,Sukhothai FC,2783,1,1,True
-1446599,2025-09-20T12:00:00+00:00,FT,Prachuap,2791,Kanchanaburi,18051,2,0,True
-1446600,2025-09-21T11:00:00+00:00,FT,Chiangrai United,2771,BG Pathum United,2769,1,0,True
-1446602,2025-09-21T11:30:00+00:00,FT,Muangthong United,2786,Ratchaburi,2776,1,3,True
-1446601,2025-09-21T11:30:00+00:00,FT,Rayong FC,2797,Ayutthaya FC,2803,2,2,True
-1446603,2025-09-21T12:00:00+00:00,FT,Bangkok United,2770,Buriram United,2780,1,2,True
-1446604,2025-09-26T12:00:00+00:00,FT,Sukhothai FC,2783,Chiangrai United,2771,1,1,True
-1446605,2025-09-27T10:00:00+00:00,FT,Ayutthaya FC,2803,Buriram United,2780,1,4,True
-1446606,2025-09-27T11:30:00+00:00,FT,Rayong FC,2797,Uthai Thani,10088,2,1,True
-1446607,2025-09-27T12:00:00+00:00,FT,Chonburi FC,2772,Prachuap,2791,1,1,True
-1446608,2025-09-27T12:30:00+00:00,FT,Kanchanaburi,18051,Lamphun Warrior,6572,4,0,True
-1446609,2025-09-28T11:00:00+00:00,FT,Ratchaburi,2776,Bangkok United,2770,0,1,True
-1446610,2025-09-28T11:30:00+00:00,FT,Nakhon Ratchasima FC,2773,Muangthong United,2786,1,1,True
-1446611,2025-09-28T12:00:00+00:00,FT,BG Pathum United,2769,Port FC,2789,2,0,True
-1446612,2025-10-03T12:00:00+00:00,FT,Lamphun Warrior,6572,Muangthong United,2786,2,2,True
-1446613,2025-10-04T11:00:00+00:00,FT,Chiangrai United,2771,Rayong FC,2797,0,1,True
-1446614,2025-10-04T11:30:00+00:00,FT,Uthai Thani,10088,Chonburi FC,2772,1,1,True
-1446615,2025-10-04T12:00:00+00:00,FT,Port FC,2789,Kanchanaburi,18051,8,0,True
-1446616,2025-10-04T12:30:00+00:00,FT,Ayutthaya FC,2803,Sukhothai FC,2783,1,1,True
-1446617,2025-10-05T11:00:00+00:00,FT,Bangkok United,2770,Nakhon Ratchasima FC,2773,3,1,True
-1446618,2025-10-05T11:30:00+00:00,FT,Prachuap,2791,Ratchaburi,2776,1,0,True
-1446619,2025-10-05T12:00:00+00:00,FT,Buriram United,2780,BG Pathum United,2769,2,2,True
-1446620,2025-10-18T11:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Port FC,2789,0,2,True
-1446621,2025-10-18T11:30:00+00:00,FT,Ratchaburi,2776,Lamphun Warrior,6572,5,0,True
-1446622,2025-10-18T12:00:00+00:00,FT,Muangthong United,2786,Bangkok United,2770,0,0,True
-1446623,2025-10-18T12:30:00+00:00,FT,BG Pathum United,2769,Ayutthaya FC,2803,1,0,True
-1446624,2025-10-19T11:00:00+00:00,FT,Rayong FC,2797,Prachuap,2791,1,1,True
-1446625,2025-10-19T11:30:00+00:00,FT,Chonburi FC,2772,Chiangrai United,2771,1,1,True
-1446626,2025-10-19T12:00:00+00:00,FT,Kanchanaburi,18051,Uthai Thani,10088,1,1,True
-1446627,2025-10-24T12:00:00+00:00,FT,Port FC,2789,Muangthong United,2786,1,0,True
-1446628,2025-10-25T11:00:00+00:00,FT,Ayutthaya FC,2803,Chonburi FC,2772,1,2,True
-1446629,2025-10-25T11:30:00+00:00,FT,Chiangrai United,2771,Kanchanaburi,18051,2,0,True
-1446630,2025-10-25T12:00:00+00:00,FT,Prachuap,2791,Nakhon Ratchasima FC,2773,2,0,True
-1446631,2025-10-26T11:00:00+00:00,FT,Buriram United,2780,Rayong FC,2797,2,1,True
-1446633,2025-10-26T11:30:00+00:00,FT,Bangkok United,2770,Lamphun Warrior,6572,4,3,True
-1446632,2025-10-26T11:30:00+00:00,FT,Sukhothai FC,2783,BG Pathum United,2769,3,1,True
-1446634,2025-10-26T12:00:00+00:00,FT,Uthai Thani,10088,Ratchaburi,2776,2,3,True
-1446636,2025-11-01T11:30:00+00:00,FT,Kanchanaburi,18051,Ayutthaya FC,2803,1,2,True
-1446637,2025-11-01T12:00:00+00:00,FT,Buriram United,2780,Nakhon Ratchasima FC,2773,2,1,True
-1446638,2025-11-01T12:30:00+00:00,FT,Rayong FC,2797,Sukhothai FC,2783,2,0,True
-1446639,2025-11-02T11:00:00+00:00,FT,Muangthong United,2786,Prachuap,2791,1,4,True
-1446641,2025-11-02T11:30:00+00:00,FT,Bangkok United,2770,Uthai Thani,10088,1,2,True
-1446640,2025-11-02T11:30:00+00:00,FT,Lamphun Warrior,6572,Port FC,2789,0,2,True
-1446642,2025-11-02T12:00:00+00:00,FT,Chonburi FC,2772,BG Pathum United,2769,1,2,True
-1446643,2025-11-07T12:00:00+00:00,FT,Prachuap,2791,Lamphun Warrior,6572,1,1,True
-1446644,2025-11-08T11:00:00+00:00,FT,Sukhothai FC,2783,Kanchanaburi,18051,1,1,True
-1446645,2025-11-08T11:30:00+00:00,FT,Chiangrai United,2771,Nakhon Ratchasima FC,2773,2,0,True
-1446646,2025-11-08T12:00:00+00:00,FT,Uthai Thani,10088,Muangthong United,2786,3,1,True
-1446647,2025-11-09T11:00:00+00:00,FT,BG Pathum United,2769,Rayong FC,2797,1,1,True
-1446648,2025-11-09T11:30:00+00:00,FT,Chonburi FC,2772,Buriram United,2780,4,2,True
-1446649,2025-11-09T11:30:00+00:00,FT,Ayutthaya FC,2803,Ratchaburi,2776,1,3,True
-1446650,2025-11-09T12:00:00+00:00,FT,Port FC,2789,Bangkok United,2770,0,0,True
-1446651,2025-11-22T11:00:00+00:00,FT,Port FC,2789,Chiangrai United,2771,1,1,True
-1446652,2025-11-22T11:30:00+00:00,FT,Bangkok United,2770,Prachuap,2791,4,1,True
-1446653,2025-11-22T12:00:00+00:00,FT,Muangthong United,2786,Buriram United,2780,0,5,True
-1446654,2025-11-22T12:30:00+00:00,FT,Ratchaburi,2776,BG Pathum United,2769,0,0,True
-1446655,2025-11-23T11:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Ayutthaya FC,2803,0,1,True
-1446656,2025-11-23T11:30:00+00:00,FT,Sukhothai FC,2783,Chonburi FC,2772,2,1,True
-1446657,2025-11-23T11:30:00+00:00,FT,Kanchanaburi,18051,Rayong FC,2797,1,1,True
-1446658,2025-11-23T12:00:00+00:00,FT,Lamphun Warrior,6572,Uthai Thani,10088,2,2,True
-1446659,2025-11-28T12:00:00+00:00,FT,Prachuap,2791,Port FC,2789,0,1,True
-1446660,2025-11-29T11:00:00+00:00,FT,Uthai Thani,10088,Nakhon Ratchasima FC,2773,7,0,True
-1446661,2025-11-29T11:30:00+00:00,FT,Ayutthaya FC,2803,Lamphun Warrior,6572,1,1,True
-1446662,2025-11-29T12:00:00+00:00,FT,Rayong FC,2797,Chonburi FC,2772,1,0,True
-1446663,2025-11-29T12:30:00+00:00,FT,Chiangrai United,2771,Muangthong United,2786,0,2,True
-1446664,2025-11-30T11:00:00+00:00,FT,Sukhothai FC,2783,Bangkok United,2770,0,0,True
-1446666,2025-11-30T12:00:00+00:00,FT,Buriram United,2780,Ratchaburi,2776,2,0,True
-1446667,2025-12-05T12:00:00+00:00,FT,Ratchaburi,2776,Sukhothai FC,2783,1,0,True
-1446668,2025-12-06T11:00:00+00:00,FT,Lamphun Warrior,6572,Rayong FC,2797,2,2,True
-1446669,2025-12-06T11:30:00+00:00,FT,Buriram United,2780,Kanchanaburi,18051,3,1,True
-1446670,2025-12-06T12:00:00+00:00,FT,Muangthong United,2786,Chonburi FC,2772,2,3,True
-1446671,2025-12-06T12:30:00+00:00,FT,Prachuap,2791,Ayutthaya FC,2803,4,4,True
-1446672,2025-12-07T11:00:00+00:00,FT,Bangkok United,2770,Chiangrai United,2771,1,1,True
-1446673,2025-12-07T11:30:00+00:00,FT,Nakhon Ratchasima FC,2773,BG Pathum United,2769,0,1,True
-1446674,2025-12-07T12:00:00+00:00,FT,Port FC,2789,Uthai Thani,10088,3,1,True
-1446675,2025-12-12T12:00:00+00:00,FT,Chonburi FC,2772,Kanchanaburi,18051,1,1,True
-1446676,2025-12-13T11:00:00+00:00,FT,Sukhothai FC,2783,Nakhon Ratchasima FC,2773,2,1,True
-1446679,2025-12-13T11:30:00+00:00,FT,Uthai Thani,10088,Prachuap,2791,4,0,True
-1446681,2025-12-13T12:00:00+00:00,FT,Chiangrai United,2771,Lamphun Warrior,6572,1,1,True
-1446677,2025-12-14T11:00:00+00:00,FT,Ayutthaya FC,2803,Bangkok United,2770,3,1,True
-1446678,2025-12-14T11:30:00+00:00,FT,Buriram United,2780,Port FC,2789,1,0,True
-1446680,2025-12-14T12:00:00+00:00,FT,BG Pathum United,2769,Muangthong United,2786,3,0,True
-1446682,2025-12-16T12:00:00+00:00,FT,Rayong FC,2797,Ratchaburi,2776,2,4,True
-1446635,2025-12-24T11:00:00+00:00,FT,Ratchaburi,2776,Chiangrai United,2771,1,2,True
-1477597,2025-12-24T11:00:00+00:00,FT,Sukhothai FC,2783,Buriram United,2780,0,1,True
-1446665,2025-12-24T12:00:00+00:00,FT,BG Pathum United,2769,Kanchanaburi,18051,2,1,True
-1491208,2026-01-04T11:00:00+00:00,FT,Prachuap,2791,Buriram United,2780,1,1,True
-1491192,2026-01-09T12:00:00+00:00,FT,Uthai Thani,10088,Buriram United,2780,0,1,True
-1491193,2026-01-10T11:00:00+00:00,FT,Lamphun Warrior,6572,BG Pathum United,2769,1,1,True
-1491194,2026-01-10T11:30:00+00:00,FT,Port FC,2789,Sukhothai FC,2783,5,0,True
-1491195,2026-01-10T12:00:00+00:00,FT,Bangkok United,2770,Kanchanaburi,18051,1,1,True
-1491196,2026-01-10T12:30:00+00:00,FT,Prachuap,2791,Chiangrai United,2771,3,2,True
-1491197,2026-01-11T11:00:00+00:00,FT,Muangthong United,2786,Ayutthaya FC,2803,0,1,True
-1491199,2026-01-11T12:00:00+00:00,FT,Ratchaburi,2776,Chonburi FC,2772,1,0,True
-1491200,2026-01-17T11:00:00+00:00,FT,Ayutthaya FC,2803,Uthai Thani,10088,0,1,True
-1491201,2026-01-17T11:30:00+00:00,FT,Chonburi FC,2772,Lamphun Warrior,6572,1,0,True
-1491202,2026-01-17T12:00:00+00:00,FT,Sukhothai FC,2783,Prachuap,2791,0,0,True
-1491203,2026-01-17T12:30:00+00:00,FT,Kanchanaburi,18051,Muangthong United,2786,3,0,True
-1491204,2026-01-18T11:00:00+00:00,FT,Buriram United,2780,Chiangrai United,2771,8,1,True
-1491205,2026-01-18T11:30:00+00:00,FT,Ratchaburi,2776,Nakhon Ratchasima FC,2773,1,0,True
-1491206,2026-01-18T11:30:00+00:00,FT,Rayong FC,2797,Port FC,2789,5,2,True
-1491207,2026-01-18T12:00:00+00:00,FT,BG Pathum United,2769,Bangkok United,2770,0,1,True
-1491211,2026-01-24T11:30:00+00:00,FT,Bangkok United,2770,Chonburi FC,2772,1,0,True
-1491212,2026-01-24T12:00:00+00:00,FT,Chiangrai United,2771,Ayutthaya FC,2803,0,0,True
-1491215,2026-01-24T12:30:00+00:00,FT,Port FC,2789,Ratchaburi,2776,2,1,True
-1491210,2026-01-25T11:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Kanchanaburi,18051,3,0,True
-1491213,2026-01-25T11:00:00+00:00,FT,Lamphun Warrior,6572,Sukhothai FC,2783,3,0,True
-1491214,2026-01-25T11:30:00+00:00,FT,BG Pathum United,2769,Uthai Thani,10088,4,0,True
-1491209,2026-01-25T12:00:00+00:00,FT,Muangthong United,2786,Rayong FC,2797,1,3,True
-1491216,2026-01-31T11:00:00+00:00,FT,BG Pathum United,2769,Chiangrai United,2771,2,2,True
-1491217,2026-01-31T11:30:00+00:00,FT,Kanchanaburi,18051,Prachuap,2791,0,0,True
-1491218,2026-01-31T12:00:00+00:00,FT,Chonburi FC,2772,Port FC,2789,3,2,True
-1491219,2026-01-31T12:30:00+00:00,FT,Ayutthaya FC,2803,Rayong FC,2797,1,0,True
-1491220,2026-02-01T11:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Lamphun Warrior,6572,0,1,True
-1491221,2026-02-01T11:30:00+00:00,FT,Ratchaburi,2776,Muangthong United,2786,3,2,True
-1491222,2026-02-01T11:30:00+00:00,FT,Sukhothai FC,2783,Uthai Thani,10088,1,1,True
-1491223,2026-02-01T12:00:00+00:00,FT,Buriram United,2780,Bangkok United,2770,0,2,True
-1491230,2026-02-09T11:30:00+00:00,FT,Lamphun Warrior,6572,Kanchanaburi,18051,1,1,True
-1491232,2026-02-13T12:00:00+00:00,FT,Chonburi FC,2772,Uthai Thani,10088,1,1,True
-1491237,2026-02-14T11:00:00+00:00,FT,Ratchaburi,2776,Prachuap,2791,1,1,True
-1491233,2026-02-14T11:00:00+00:00,FT,Kanchanaburi,18051,Port FC,2789,1,4,True
-1491234,2026-02-14T11:30:00+00:00,FT,Sukhothai FC,2783,Ayutthaya FC,2803,1,1,True
-1491235,2026-02-14T12:00:00+00:00,FT,BG Pathum United,2769,Buriram United,2780,1,3,True
-1491236,2026-02-15T11:00:00+00:00,FT,Muangthong United,2786,Lamphun Warrior,6572,1,1,True
-1491239,2026-02-15T12:00:00+00:00,FT,Rayong FC,2797,Chiangrai United,2771,1,1,True
-1491240,2026-02-20T12:00:00+00:00,FT,Prachuap,2791,Rayong FC,2797,2,0,True
-1491241,2026-02-21T11:00:00+00:00,FT,Chiangrai United,2771,Chonburi FC,2772,1,3,True
-1491242,2026-02-21T11:30:00+00:00,FT,Buriram United,2780,Sukhothai FC,2783,6,0,True
-1491243,2026-02-21T12:00:00+00:00,FT,Uthai Thani,10088,Kanchanaburi,18051,2,1,True
-1491244,2026-02-21T12:30:00+00:00,FT,Port FC,2789,Nakhon Ratchasima FC,2773,2,0,True
-1491246,2026-02-22T11:00:00+00:00,FT,Ayutthaya FC,2803,BG Pathum United,2769,0,2,True
-1491247,2026-02-22T12:00:00+00:00,FT,Bangkok United,2770,Muangthong United,2786,2,0,True
-1491198,2026-02-25T11:30:00+00:00,FT,Nakhon Ratchasima FC,2773,Rayong FC,2797,2,1,True
-1491248,2026-02-28T11:00:00+00:00,FT,Chonburi FC,2772,Ayutthaya FC,2803,0,1,True
-1491249,2026-02-28T11:30:00+00:00,FT,Lamphun Warrior,6572,Bangkok United,2770,1,1,True
-1491251,2026-02-28T12:00:00+00:00,FT,Ratchaburi,2776,Uthai Thani,10088,3,1,True
-1491252,2026-03-01T11:00:00+00:00,FT,Kanchanaburi,18051,Chiangrai United,2771,0,4,True
-1491254,2026-03-01T11:30:00+00:00,FT,BG Pathum United,2769,Sukhothai FC,2783,2,1,True
-1491253,2026-03-01T11:30:00+00:00,FT,Nakhon Ratchasima FC,2773,Prachuap,2791,1,2,True
-1491255,2026-03-01T12:00:00+00:00,FT,Muangthong United,2786,Port FC,2789,0,0,True
-1491256,2026-03-06T12:00:00+00:00,FT,Port FC,2789,Lamphun Warrior,6572,3,0,True
-1491257,2026-03-07T11:00:00+00:00,FT,Sukhothai FC,2783,Rayong FC,2797,2,1,True
-1491258,2026-03-07T11:30:00+00:00,FT,Ayutthaya FC,2803,Kanchanaburi,18051,0,2,True
-1491259,2026-03-07T12:00:00+00:00,FT,Prachuap,2791,Muangthong United,2786,2,1,True
-1491260,2026-03-07T12:30:00+00:00,FT,Nakhon Ratchasima FC,2773,Buriram United,2780,0,3,True
-1491263,2026-03-08T12:00:00+00:00,FT,BG Pathum United,2769,Chonburi FC,2772,2,3,True
-1491264,2026-03-13T12:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Chiangrai United,2771,1,1,True
-1491265,2026-03-14T11:00:00+00:00,FT,Buriram United,2780,Chonburi FC,2772,5,0,True
-1491266,2026-03-14T11:30:00+00:00,FT,Muangthong United,2786,Uthai Thani,10088,1,0,True
-1491267,2026-03-14T12:00:00+00:00,FT,Rayong FC,2797,BG Pathum United,2769,1,1,True
-1491268,2026-03-14T12:30:00+00:00,FT,Lamphun Warrior,6572,Prachuap,2791,1,1,True
-1491269,2026-03-15T11:00:00+00:00,FT,Bangkok United,2770,Port FC,2789,1,1,True
-1491270,2026-03-15T11:30:00+00:00,FT,Kanchanaburi,18051,Sukhothai FC,2783,1,0,True
-1491271,2026-03-15T12:00:00+00:00,FT,Ratchaburi,2776,Ayutthaya FC,2803,1,2,True
-1491272,2026-03-21T11:00:00+00:00,FT,Ayutthaya FC,2803,Nakhon Ratchasima FC,2773,0,1,True
-1491273,2026-03-21T11:30:00+00:00,FT,Chonburi FC,2772,Sukhothai FC,2783,2,0,True
-1491274,2026-03-21T12:00:00+00:00,FT,Uthai Thani,10088,Lamphun Warrior,6572,0,0,True
-1491275,2026-03-21T12:30:00+00:00,FT,Rayong FC,2797,Kanchanaburi,18051,2,1,True
-1491276,2026-03-22T11:00:00+00:00,FT,Chiangrai United,2771,Port FC,2789,1,2,True
-1491277,2026-03-22T11:30:00+00:00,FT,BG Pathum United,2769,Ratchaburi,2776,2,2,True
-1491278,2026-03-22T11:30:00+00:00,FT,Prachuap,2791,Bangkok United,2770,0,0,True
-1491279,2026-03-22T12:00:00+00:00,FT,Buriram United,2780,Muangthong United,2786,2,1,True
-1491280,2026-04-03T11:00:00+00:00,FT,Bangkok United,2770,Sukhothai FC,2783,2,0,True
-1491281,2026-04-04T11:00:00+00:00,FT,Kanchanaburi,18051,BG Pathum United,2769,0,2,True
-1491282,2026-04-04T12:00:00+00:00,FT,Ratchaburi,2776,Buriram United,2780,2,2,True
-1491283,2026-04-04T12:30:00+00:00,FT,Port FC,2789,Prachuap,2791,3,0,True
-1491284,2026-04-05T11:00:00+00:00,FT,Muangthong United,2786,Chiangrai United,2771,2,1,True
-1491285,2026-04-05T11:30:00+00:00,FT,Chonburi FC,2772,Rayong FC,2797,4,1,True
-1491286,2026-04-05T11:30:00+00:00,FT,Lamphun Warrior,6572,Ayutthaya FC,2803,2,0,True
-1491287,2026-04-05T12:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Uthai Thani,10088,0,0,True
-1491245,2026-04-11T11:00:00+00:00,FT,Lamphun Warrior,6572,Ratchaburi,2776,1,2,True
-1491238,2026-04-11T11:30:00+00:00,FT,Nakhon Ratchasima FC,2773,Bangkok United,2770,1,0,True
-1491228,2026-04-11T12:30:00+00:00,FT,Chiangrai United,2771,Sukhothai FC,2783,1,1,True
-1491224,2026-04-12T12:00:00+00:00,FT,Buriram United,2780,Ayutthaya FC,2803,2,0,True
-1491229,2026-04-18T11:00:00+00:00,FT,Bangkok United,2770,Ratchaburi,2776,1,4,True
-1491225,2026-04-18T11:00:00+00:00,FT,Prachuap,2791,Chonburi FC,2772,2,0,True
-1491226,2026-04-18T11:30:00+00:00,FT,Muangthong United,2786,Nakhon Ratchasima FC,2773,2,1,True
-1491227,2026-04-18T12:00:00+00:00,FT,Uthai Thani,10088,Rayong FC,2797,4,1,True
-1491231,2026-04-19T12:00:00+00:00,FT,Port FC,2789,BG Pathum United,2769,0,0,True
-1491288,2026-04-24T12:00:00+00:00,FT,Sukhothai FC,2783,Ratchaburi,2776,1,2,True
-1491289,2026-04-25T11:00:00+00:00,FT,Chiangrai United,2771,Bangkok United,2770,2,0,True
-1491290,2026-04-25T11:30:00+00:00,FT,BG Pathum United,2769,Nakhon Ratchasima FC,2773,1,0,True
-1491291,2026-04-25T12:00:00+00:00,FT,Uthai Thani,10088,Port FC,2789,0,1,True
-1491292,2026-04-26T11:00:00+00:00,FT,Rayong FC,2797,Lamphun Warrior,6572,1,1,True
-1491293,2026-04-26T11:30:00+00:00,FT,Chonburi FC,2772,Muangthong United,2786,0,0,True
-1491294,2026-04-26T11:30:00+00:00,FT,Kanchanaburi,18051,Buriram United,2780,1,3,True
-1491295,2026-04-26T12:00:00+00:00,FT,Ayutthaya FC,2803,Prachuap,2791,1,3,True
-1491261,2026-04-29T11:00:00+00:00,FT,Chiangrai United,2771,Ratchaburi,2776,1,0,True
-1491262,2026-04-29T11:30:00+00:00,FT,Uthai Thani,10088,Bangkok United,2770,1,1,True
-1491250,2026-04-29T12:00:00+00:00,FT,Rayong FC,2797,Buriram United,2780,3,0,True
-1491296,2026-05-01T12:00:00+00:00,FT,Muangthong United,2786,BG Pathum United,2769,1,1,True
-1491298,2026-05-02T11:00:00+00:00,FT,Nakhon Ratchasima FC,2773,Sukhothai FC,2783,1,0,True
-1491299,2026-05-02T11:30:00+00:00,FT,Bangkok United,2770,Ayutthaya FC,2803,4,1,True
-1491300,2026-05-02T12:00:00+00:00,FT,Kanchanaburi,18051,Chonburi FC,2772,2,2,True
-1491297,2026-05-02T12:30:00+00:00,FT,Port FC,2789,Buriram United,2780,3,1,True
-1491301,2026-05-03T11:00:00+00:00,FT,Prachuap,2791,Uthai Thani,10088,2,0,True
-1491302,2026-05-03T11:30:00+00:00,FT,Ratchaburi,2776,Rayong FC,2797,6,1,True
-1491303,2026-05-03T12:00:00+00:00,FT,Lamphun Warrior,6572,Chiangrai United,2771,0,0,True
-1491309,2026-05-10T11:00:00+00:00,FT,BG Pathum United,2769,Prachuap,2791,3,0,True
-1491306,2026-05-10T11:00:00+00:00,FT,Chiangrai United,2771,Uthai Thani,10088,1,0,True
-1491307,2026-05-10T11:00:00+00:00,FT,Chonburi FC,2772,Nakhon Ratchasima FC,2773,2,1,True
-1491305,2026-05-10T11:00:00+00:00,FT,Buriram United,2780,Lamphun Warrior,6572,1,1,True
-1491311,2026-05-10T11:00:00+00:00,FT,Sukhothai FC,2783,Muangthong United,2786,3,0,True
-1491310,2026-05-10T11:00:00+00:00,FT,Rayong FC,2797,Bangkok United,2770,1,1,True
-1491304,2026-05-10T11:00:00+00:00,FT,Ayutthaya FC,2803,Port FC,2789,1,4,True
-1491308,2026-05-10T11:00:00+00:00,FT,Kanchanaburi,18051,Ratchaburi,2776,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1404262,2025-08-15T12:00:00+00:00,FT,Regular Season - 1,Ratchaburi,2776,Kanchanaburi,18051,1,1,True
+1404263,2025-08-16T11:00:00+00:00,FT,Regular Season - 1,Prachuap,2791,BG Pathum United,2769,2,2,True
+1404264,2025-08-16T11:30:00+00:00,FT,Regular Season - 1,Nakhon Ratchasima FC,2773,Chonburi FC,2772,0,0,True
+1404265,2025-08-16T12:00:00+00:00,FT,Regular Season - 1,Lamphun Warrior,6572,Buriram United,2780,2,3,True
+1404266,2025-08-16T12:30:00+00:00,FT,Regular Season - 1,Muangthong United,2786,Sukhothai FC,2783,1,0,True
+1404267,2025-08-17T11:00:00+00:00,FT,Regular Season - 1,Uthai Thani,10088,Chiangrai United,2771,1,1,True
+1404268,2025-08-17T11:30:00+00:00,FT,Regular Season - 1,Port FC,2789,Ayutthaya FC,2803,3,1,True
+1404269,2025-08-17T12:00:00+00:00,FT,Regular Season - 1,Bangkok United,2770,Rayong FC,2797,3,2,True
+1404270,2025-08-22T12:00:00+00:00,FT,Regular Season - 2,Rayong FC,2797,Nakhon Ratchasima FC,2773,1,2,True
+1404271,2025-08-23T11:00:00+00:00,FT,Regular Season - 2,Chiangrai United,2771,Prachuap,2791,2,1,True
+1404272,2025-08-23T11:30:00+00:00,FT,Regular Season - 2,Ayutthaya FC,2803,Muangthong United,2786,2,2,True
+1404276,2025-08-23T12:00:00+00:00,FT,Regular Season - 2,Chonburi FC,2772,Ratchaburi,2776,0,1,True
+1404274,2025-08-23T12:30:00+00:00,FT,Regular Season - 2,BG Pathum United,2769,Lamphun Warrior,6572,2,1,True
+1404275,2025-08-24T11:00:00+00:00,FT,Regular Season - 2,Kanchanaburi,18051,Bangkok United,2770,3,3,True
+1442427,2025-08-24T11:30:00+00:00,FT,Regular Season - 2,Sukhothai FC,2783,Port FC,2789,1,0,True
+1404273,2025-08-24T12:00:00+00:00,FT,Regular Season - 2,Buriram United,2780,Uthai Thani,10088,5,1,True
+1404277,2025-08-29T12:00:00+00:00,FT,Regular Season - 3,Uthai Thani,10088,Ayutthaya FC,2803,1,4,True
+1404278,2025-08-30T11:00:00+00:00,FT,Regular Season - 3,Nakhon Ratchasima FC,2773,Ratchaburi,2776,0,2,True
+1404279,2025-08-30T11:30:00+00:00,FT,Regular Season - 3,Lamphun Warrior,6572,Chonburi FC,2772,2,2,True
+1404280,2025-08-30T12:00:00+00:00,FT,Regular Season - 3,Bangkok United,2770,BG Pathum United,2769,2,1,True
+1442428,2025-08-30T12:30:00+00:00,FT,Regular Season - 3,Port FC,2789,Rayong FC,2797,1,1,True
+1404281,2025-08-31T11:00:00+00:00,FT,Regular Season - 3,Chiangrai United,2771,Buriram United,2780,1,2,True
+1404282,2025-08-31T11:30:00+00:00,FT,Regular Season - 3,Prachuap,2791,Sukhothai FC,2783,0,0,True
+1404283,2025-08-31T12:00:00+00:00,FT,Regular Season - 3,Muangthong United,2786,Kanchanaburi,18051,2,0,True
+1446589,2025-09-12T12:00:00+00:00,FT,Regular Season - 4,Buriram United,2780,Prachuap,2791,2,0,True
+1446588,2025-09-12T12:00:00+00:00,FT,Regular Season - 4,Uthai Thani,10088,BG Pathum United,2769,0,1,True
+1446590,2025-09-13T11:00:00+00:00,FT,Regular Season - 4,Chonburi FC,2772,Bangkok United,2770,0,1,True
+1446591,2025-09-13T11:30:00+00:00,FT,Regular Season - 4,Sukhothai FC,2783,Lamphun Warrior,6572,1,2,True
+1446592,2025-09-13T12:00:00+00:00,FT,Regular Season - 4,Ratchaburi,2776,Port FC,2789,1,0,True
+1446593,2025-09-14T11:00:00+00:00,FT,Regular Season - 4,Rayong FC,2797,Muangthong United,2786,2,0,True
+1446594,2025-09-14T11:30:00+00:00,FT,Regular Season - 4,Ayutthaya FC,2803,Chiangrai United,2771,1,1,True
+1446595,2025-09-14T12:00:00+00:00,FT,Regular Season - 4,Kanchanaburi,18051,Nakhon Ratchasima FC,2773,0,0,True
+1446596,2025-09-19T12:00:00+00:00,FT,Regular Season - 5,Port FC,2789,Chonburi FC,2772,3,0,True
+1446597,2025-09-20T11:00:00+00:00,FT,Regular Season - 5,Lamphun Warrior,6572,Nakhon Ratchasima FC,2773,2,2,True
+1446598,2025-09-20T11:30:00+00:00,FT,Regular Season - 5,Uthai Thani,10088,Sukhothai FC,2783,1,1,True
+1446599,2025-09-20T12:00:00+00:00,FT,Regular Season - 5,Prachuap,2791,Kanchanaburi,18051,2,0,True
+1446600,2025-09-21T11:00:00+00:00,FT,Regular Season - 5,Chiangrai United,2771,BG Pathum United,2769,1,0,True
+1446602,2025-09-21T11:30:00+00:00,FT,Regular Season - 5,Muangthong United,2786,Ratchaburi,2776,1,3,True
+1446601,2025-09-21T11:30:00+00:00,FT,Regular Season - 5,Rayong FC,2797,Ayutthaya FC,2803,2,2,True
+1446603,2025-09-21T12:00:00+00:00,FT,Regular Season - 5,Bangkok United,2770,Buriram United,2780,1,2,True
+1446604,2025-09-26T12:00:00+00:00,FT,Regular Season - 6,Sukhothai FC,2783,Chiangrai United,2771,1,1,True
+1446605,2025-09-27T10:00:00+00:00,FT,Regular Season - 6,Ayutthaya FC,2803,Buriram United,2780,1,4,True
+1446606,2025-09-27T11:30:00+00:00,FT,Regular Season - 6,Rayong FC,2797,Uthai Thani,10088,2,1,True
+1446607,2025-09-27T12:00:00+00:00,FT,Regular Season - 6,Chonburi FC,2772,Prachuap,2791,1,1,True
+1446608,2025-09-27T12:30:00+00:00,FT,Regular Season - 6,Kanchanaburi,18051,Lamphun Warrior,6572,4,0,True
+1446609,2025-09-28T11:00:00+00:00,FT,Regular Season - 6,Ratchaburi,2776,Bangkok United,2770,0,1,True
+1446610,2025-09-28T11:30:00+00:00,FT,Regular Season - 6,Nakhon Ratchasima FC,2773,Muangthong United,2786,1,1,True
+1446611,2025-09-28T12:00:00+00:00,FT,Regular Season - 6,BG Pathum United,2769,Port FC,2789,2,0,True
+1446612,2025-10-03T12:00:00+00:00,FT,Regular Season - 7,Lamphun Warrior,6572,Muangthong United,2786,2,2,True
+1446613,2025-10-04T11:00:00+00:00,FT,Regular Season - 7,Chiangrai United,2771,Rayong FC,2797,0,1,True
+1446614,2025-10-04T11:30:00+00:00,FT,Regular Season - 7,Uthai Thani,10088,Chonburi FC,2772,1,1,True
+1446615,2025-10-04T12:00:00+00:00,FT,Regular Season - 7,Port FC,2789,Kanchanaburi,18051,8,0,True
+1446616,2025-10-04T12:30:00+00:00,FT,Regular Season - 7,Ayutthaya FC,2803,Sukhothai FC,2783,1,1,True
+1446617,2025-10-05T11:00:00+00:00,FT,Regular Season - 7,Bangkok United,2770,Nakhon Ratchasima FC,2773,3,1,True
+1446618,2025-10-05T11:30:00+00:00,FT,Regular Season - 7,Prachuap,2791,Ratchaburi,2776,1,0,True
+1446619,2025-10-05T12:00:00+00:00,FT,Regular Season - 7,Buriram United,2780,BG Pathum United,2769,2,2,True
+1446620,2025-10-18T11:00:00+00:00,FT,Regular Season - 8,Nakhon Ratchasima FC,2773,Port FC,2789,0,2,True
+1446621,2025-10-18T11:30:00+00:00,FT,Regular Season - 8,Ratchaburi,2776,Lamphun Warrior,6572,5,0,True
+1446622,2025-10-18T12:00:00+00:00,FT,Regular Season - 8,Muangthong United,2786,Bangkok United,2770,0,0,True
+1446623,2025-10-18T12:30:00+00:00,FT,Regular Season - 8,BG Pathum United,2769,Ayutthaya FC,2803,1,0,True
+1446624,2025-10-19T11:00:00+00:00,FT,Regular Season - 8,Rayong FC,2797,Prachuap,2791,1,1,True
+1446625,2025-10-19T11:30:00+00:00,FT,Regular Season - 8,Chonburi FC,2772,Chiangrai United,2771,1,1,True
+1446626,2025-10-19T12:00:00+00:00,FT,Regular Season - 8,Kanchanaburi,18051,Uthai Thani,10088,1,1,True
+1446627,2025-10-24T12:00:00+00:00,FT,Regular Season - 9,Port FC,2789,Muangthong United,2786,1,0,True
+1446628,2025-10-25T11:00:00+00:00,FT,Regular Season - 9,Ayutthaya FC,2803,Chonburi FC,2772,1,2,True
+1446629,2025-10-25T11:30:00+00:00,FT,Regular Season - 9,Chiangrai United,2771,Kanchanaburi,18051,2,0,True
+1446630,2025-10-25T12:00:00+00:00,FT,Regular Season - 9,Prachuap,2791,Nakhon Ratchasima FC,2773,2,0,True
+1446631,2025-10-26T11:00:00+00:00,FT,Regular Season - 9,Buriram United,2780,Rayong FC,2797,2,1,True
+1446633,2025-10-26T11:30:00+00:00,FT,Regular Season - 9,Bangkok United,2770,Lamphun Warrior,6572,4,3,True
+1446632,2025-10-26T11:30:00+00:00,FT,Regular Season - 9,Sukhothai FC,2783,BG Pathum United,2769,3,1,True
+1446634,2025-10-26T12:00:00+00:00,FT,Regular Season - 9,Uthai Thani,10088,Ratchaburi,2776,2,3,True
+1446636,2025-11-01T11:30:00+00:00,FT,Regular Season - 10,Kanchanaburi,18051,Ayutthaya FC,2803,1,2,True
+1446637,2025-11-01T12:00:00+00:00,FT,Regular Season - 10,Buriram United,2780,Nakhon Ratchasima FC,2773,2,1,True
+1446638,2025-11-01T12:30:00+00:00,FT,Regular Season - 10,Rayong FC,2797,Sukhothai FC,2783,2,0,True
+1446639,2025-11-02T11:00:00+00:00,FT,Regular Season - 10,Muangthong United,2786,Prachuap,2791,1,4,True
+1446641,2025-11-02T11:30:00+00:00,FT,Regular Season - 10,Bangkok United,2770,Uthai Thani,10088,1,2,True
+1446640,2025-11-02T11:30:00+00:00,FT,Regular Season - 10,Lamphun Warrior,6572,Port FC,2789,0,2,True
+1446642,2025-11-02T12:00:00+00:00,FT,Regular Season - 10,Chonburi FC,2772,BG Pathum United,2769,1,2,True
+1446643,2025-11-07T12:00:00+00:00,FT,Regular Season - 11,Prachuap,2791,Lamphun Warrior,6572,1,1,True
+1446644,2025-11-08T11:00:00+00:00,FT,Regular Season - 11,Sukhothai FC,2783,Kanchanaburi,18051,1,1,True
+1446645,2025-11-08T11:30:00+00:00,FT,Regular Season - 11,Chiangrai United,2771,Nakhon Ratchasima FC,2773,2,0,True
+1446646,2025-11-08T12:00:00+00:00,FT,Regular Season - 11,Uthai Thani,10088,Muangthong United,2786,3,1,True
+1446647,2025-11-09T11:00:00+00:00,FT,Regular Season - 11,BG Pathum United,2769,Rayong FC,2797,1,1,True
+1446648,2025-11-09T11:30:00+00:00,FT,Regular Season - 11,Chonburi FC,2772,Buriram United,2780,4,2,True
+1446649,2025-11-09T11:30:00+00:00,FT,Regular Season - 11,Ayutthaya FC,2803,Ratchaburi,2776,1,3,True
+1446650,2025-11-09T12:00:00+00:00,FT,Regular Season - 11,Port FC,2789,Bangkok United,2770,0,0,True
+1446651,2025-11-22T11:00:00+00:00,FT,Regular Season - 12,Port FC,2789,Chiangrai United,2771,1,1,True
+1446652,2025-11-22T11:30:00+00:00,FT,Regular Season - 12,Bangkok United,2770,Prachuap,2791,4,1,True
+1446653,2025-11-22T12:00:00+00:00,FT,Regular Season - 12,Muangthong United,2786,Buriram United,2780,0,5,True
+1446654,2025-11-22T12:30:00+00:00,FT,Regular Season - 12,Ratchaburi,2776,BG Pathum United,2769,0,0,True
+1446655,2025-11-23T11:00:00+00:00,FT,Regular Season - 12,Nakhon Ratchasima FC,2773,Ayutthaya FC,2803,0,1,True
+1446656,2025-11-23T11:30:00+00:00,FT,Regular Season - 12,Sukhothai FC,2783,Chonburi FC,2772,2,1,True
+1446657,2025-11-23T11:30:00+00:00,FT,Regular Season - 12,Kanchanaburi,18051,Rayong FC,2797,1,1,True
+1446658,2025-11-23T12:00:00+00:00,FT,Regular Season - 12,Lamphun Warrior,6572,Uthai Thani,10088,2,2,True
+1446659,2025-11-28T12:00:00+00:00,FT,Regular Season - 13,Prachuap,2791,Port FC,2789,0,1,True
+1446660,2025-11-29T11:00:00+00:00,FT,Regular Season - 13,Uthai Thani,10088,Nakhon Ratchasima FC,2773,7,0,True
+1446661,2025-11-29T11:30:00+00:00,FT,Regular Season - 13,Ayutthaya FC,2803,Lamphun Warrior,6572,1,1,True
+1446662,2025-11-29T12:00:00+00:00,FT,Regular Season - 13,Rayong FC,2797,Chonburi FC,2772,1,0,True
+1446663,2025-11-29T12:30:00+00:00,FT,Regular Season - 13,Chiangrai United,2771,Muangthong United,2786,0,2,True
+1446664,2025-11-30T11:00:00+00:00,FT,Regular Season - 13,Sukhothai FC,2783,Bangkok United,2770,0,0,True
+1446666,2025-11-30T12:00:00+00:00,FT,Regular Season - 13,Buriram United,2780,Ratchaburi,2776,2,0,True
+1446667,2025-12-05T12:00:00+00:00,FT,Regular Season - 14,Ratchaburi,2776,Sukhothai FC,2783,1,0,True
+1446668,2025-12-06T11:00:00+00:00,FT,Regular Season - 14,Lamphun Warrior,6572,Rayong FC,2797,2,2,True
+1446669,2025-12-06T11:30:00+00:00,FT,Regular Season - 14,Buriram United,2780,Kanchanaburi,18051,3,1,True
+1446670,2025-12-06T12:00:00+00:00,FT,Regular Season - 14,Muangthong United,2786,Chonburi FC,2772,2,3,True
+1446671,2025-12-06T12:30:00+00:00,FT,Regular Season - 14,Prachuap,2791,Ayutthaya FC,2803,4,4,True
+1446672,2025-12-07T11:00:00+00:00,FT,Regular Season - 14,Bangkok United,2770,Chiangrai United,2771,1,1,True
+1446673,2025-12-07T11:30:00+00:00,FT,Regular Season - 14,Nakhon Ratchasima FC,2773,BG Pathum United,2769,0,1,True
+1446674,2025-12-07T12:00:00+00:00,FT,Regular Season - 14,Port FC,2789,Uthai Thani,10088,3,1,True
+1446675,2025-12-12T12:00:00+00:00,FT,Regular Season - 15,Chonburi FC,2772,Kanchanaburi,18051,1,1,True
+1446676,2025-12-13T11:00:00+00:00,FT,Regular Season - 15,Sukhothai FC,2783,Nakhon Ratchasima FC,2773,2,1,True
+1446679,2025-12-13T11:30:00+00:00,FT,Regular Season - 15,Uthai Thani,10088,Prachuap,2791,4,0,True
+1446681,2025-12-13T12:00:00+00:00,FT,Regular Season - 15,Chiangrai United,2771,Lamphun Warrior,6572,1,1,True
+1446677,2025-12-14T11:00:00+00:00,FT,Regular Season - 15,Ayutthaya FC,2803,Bangkok United,2770,3,1,True
+1446678,2025-12-14T11:30:00+00:00,FT,Regular Season - 15,Buriram United,2780,Port FC,2789,1,0,True
+1446680,2025-12-14T12:00:00+00:00,FT,Regular Season - 15,BG Pathum United,2769,Muangthong United,2786,3,0,True
+1446682,2025-12-16T12:00:00+00:00,FT,Regular Season - 15,Rayong FC,2797,Ratchaburi,2776,2,4,True
+1446635,2025-12-24T11:00:00+00:00,FT,Regular Season - 10,Ratchaburi,2776,Chiangrai United,2771,1,2,True
+1477597,2025-12-24T11:00:00+00:00,FT,Regular Season - 8,Sukhothai FC,2783,Buriram United,2780,0,1,True
+1446665,2025-12-24T12:00:00+00:00,FT,Regular Season - 13,BG Pathum United,2769,Kanchanaburi,18051,2,1,True
+1491208,2026-01-04T11:00:00+00:00,FT,Regular Season - 18,Prachuap,2791,Buriram United,2780,1,1,True
+1491192,2026-01-09T12:00:00+00:00,FT,Regular Season - 16,Uthai Thani,10088,Buriram United,2780,0,1,True
+1491193,2026-01-10T11:00:00+00:00,FT,Regular Season - 16,Lamphun Warrior,6572,BG Pathum United,2769,1,1,True
+1491194,2026-01-10T11:30:00+00:00,FT,Regular Season - 16,Port FC,2789,Sukhothai FC,2783,5,0,True
+1491195,2026-01-10T12:00:00+00:00,FT,Regular Season - 16,Bangkok United,2770,Kanchanaburi,18051,1,1,True
+1491196,2026-01-10T12:30:00+00:00,FT,Regular Season - 16,Prachuap,2791,Chiangrai United,2771,3,2,True
+1491197,2026-01-11T11:00:00+00:00,FT,Regular Season - 16,Muangthong United,2786,Ayutthaya FC,2803,0,1,True
+1491199,2026-01-11T12:00:00+00:00,FT,Regular Season - 16,Ratchaburi,2776,Chonburi FC,2772,1,0,True
+1491200,2026-01-17T11:00:00+00:00,FT,Regular Season - 17,Ayutthaya FC,2803,Uthai Thani,10088,0,1,True
+1491201,2026-01-17T11:30:00+00:00,FT,Regular Season - 17,Chonburi FC,2772,Lamphun Warrior,6572,1,0,True
+1491202,2026-01-17T12:00:00+00:00,FT,Regular Season - 17,Sukhothai FC,2783,Prachuap,2791,0,0,True
+1491203,2026-01-17T12:30:00+00:00,FT,Regular Season - 17,Kanchanaburi,18051,Muangthong United,2786,3,0,True
+1491204,2026-01-18T11:00:00+00:00,FT,Regular Season - 17,Buriram United,2780,Chiangrai United,2771,8,1,True
+1491205,2026-01-18T11:30:00+00:00,FT,Regular Season - 17,Ratchaburi,2776,Nakhon Ratchasima FC,2773,1,0,True
+1491206,2026-01-18T11:30:00+00:00,FT,Regular Season - 17,Rayong FC,2797,Port FC,2789,5,2,True
+1491207,2026-01-18T12:00:00+00:00,FT,Regular Season - 17,BG Pathum United,2769,Bangkok United,2770,0,1,True
+1491211,2026-01-24T11:30:00+00:00,FT,Regular Season - 18,Bangkok United,2770,Chonburi FC,2772,1,0,True
+1491212,2026-01-24T12:00:00+00:00,FT,Regular Season - 18,Chiangrai United,2771,Ayutthaya FC,2803,0,0,True
+1491215,2026-01-24T12:30:00+00:00,FT,Regular Season - 18,Port FC,2789,Ratchaburi,2776,2,1,True
+1491210,2026-01-25T11:00:00+00:00,FT,Regular Season - 18,Nakhon Ratchasima FC,2773,Kanchanaburi,18051,3,0,True
+1491213,2026-01-25T11:00:00+00:00,FT,Regular Season - 18,Lamphun Warrior,6572,Sukhothai FC,2783,3,0,True
+1491214,2026-01-25T11:30:00+00:00,FT,Regular Season - 18,BG Pathum United,2769,Uthai Thani,10088,4,0,True
+1491209,2026-01-25T12:00:00+00:00,FT,Regular Season - 18,Muangthong United,2786,Rayong FC,2797,1,3,True
+1491216,2026-01-31T11:00:00+00:00,FT,Regular Season - 19,BG Pathum United,2769,Chiangrai United,2771,2,2,True
+1491217,2026-01-31T11:30:00+00:00,FT,Regular Season - 19,Kanchanaburi,18051,Prachuap,2791,0,0,True
+1491218,2026-01-31T12:00:00+00:00,FT,Regular Season - 19,Chonburi FC,2772,Port FC,2789,3,2,True
+1491219,2026-01-31T12:30:00+00:00,FT,Regular Season - 19,Ayutthaya FC,2803,Rayong FC,2797,1,0,True
+1491220,2026-02-01T11:00:00+00:00,FT,Regular Season - 19,Nakhon Ratchasima FC,2773,Lamphun Warrior,6572,0,1,True
+1491221,2026-02-01T11:30:00+00:00,FT,Regular Season - 19,Ratchaburi,2776,Muangthong United,2786,3,2,True
+1491222,2026-02-01T11:30:00+00:00,FT,Regular Season - 19,Sukhothai FC,2783,Uthai Thani,10088,1,1,True
+1491223,2026-02-01T12:00:00+00:00,FT,Regular Season - 19,Buriram United,2780,Bangkok United,2770,0,2,True
+1491230,2026-02-09T11:30:00+00:00,FT,Regular Season - 20,Lamphun Warrior,6572,Kanchanaburi,18051,1,1,True
+1491232,2026-02-13T12:00:00+00:00,FT,Regular Season - 21,Chonburi FC,2772,Uthai Thani,10088,1,1,True
+1491237,2026-02-14T11:00:00+00:00,FT,Regular Season - 21,Ratchaburi,2776,Prachuap,2791,1,1,True
+1491233,2026-02-14T11:00:00+00:00,FT,Regular Season - 21,Kanchanaburi,18051,Port FC,2789,1,4,True
+1491234,2026-02-14T11:30:00+00:00,FT,Regular Season - 21,Sukhothai FC,2783,Ayutthaya FC,2803,1,1,True
+1491235,2026-02-14T12:00:00+00:00,FT,Regular Season - 21,BG Pathum United,2769,Buriram United,2780,1,3,True
+1491236,2026-02-15T11:00:00+00:00,FT,Regular Season - 21,Muangthong United,2786,Lamphun Warrior,6572,1,1,True
+1491239,2026-02-15T12:00:00+00:00,FT,Regular Season - 21,Rayong FC,2797,Chiangrai United,2771,1,1,True
+1491240,2026-02-20T12:00:00+00:00,FT,Regular Season - 22,Prachuap,2791,Rayong FC,2797,2,0,True
+1491241,2026-02-21T11:00:00+00:00,FT,Regular Season - 22,Chiangrai United,2771,Chonburi FC,2772,1,3,True
+1491242,2026-02-21T11:30:00+00:00,FT,Regular Season - 22,Buriram United,2780,Sukhothai FC,2783,6,0,True
+1491243,2026-02-21T12:00:00+00:00,FT,Regular Season - 22,Uthai Thani,10088,Kanchanaburi,18051,2,1,True
+1491244,2026-02-21T12:30:00+00:00,FT,Regular Season - 22,Port FC,2789,Nakhon Ratchasima FC,2773,2,0,True
+1491246,2026-02-22T11:00:00+00:00,FT,Regular Season - 22,Ayutthaya FC,2803,BG Pathum United,2769,0,2,True
+1491247,2026-02-22T12:00:00+00:00,FT,Regular Season - 22,Bangkok United,2770,Muangthong United,2786,2,0,True
+1491198,2026-02-25T11:30:00+00:00,FT,Regular Season - 16,Nakhon Ratchasima FC,2773,Rayong FC,2797,2,1,True
+1491248,2026-02-28T11:00:00+00:00,FT,Regular Season - 23,Chonburi FC,2772,Ayutthaya FC,2803,0,1,True
+1491249,2026-02-28T11:30:00+00:00,FT,Regular Season - 23,Lamphun Warrior,6572,Bangkok United,2770,1,1,True
+1491251,2026-02-28T12:00:00+00:00,FT,Regular Season - 23,Ratchaburi,2776,Uthai Thani,10088,3,1,True
+1491252,2026-03-01T11:00:00+00:00,FT,Regular Season - 23,Kanchanaburi,18051,Chiangrai United,2771,0,4,True
+1491254,2026-03-01T11:30:00+00:00,FT,Regular Season - 23,BG Pathum United,2769,Sukhothai FC,2783,2,1,True
+1491253,2026-03-01T11:30:00+00:00,FT,Regular Season - 23,Nakhon Ratchasima FC,2773,Prachuap,2791,1,2,True
+1491255,2026-03-01T12:00:00+00:00,FT,Regular Season - 23,Muangthong United,2786,Port FC,2789,0,0,True
+1491256,2026-03-06T12:00:00+00:00,FT,Regular Season - 24,Port FC,2789,Lamphun Warrior,6572,3,0,True
+1491257,2026-03-07T11:00:00+00:00,FT,Regular Season - 24,Sukhothai FC,2783,Rayong FC,2797,2,1,True
+1491258,2026-03-07T11:30:00+00:00,FT,Regular Season - 24,Ayutthaya FC,2803,Kanchanaburi,18051,0,2,True
+1491259,2026-03-07T12:00:00+00:00,FT,Regular Season - 24,Prachuap,2791,Muangthong United,2786,2,1,True
+1491260,2026-03-07T12:30:00+00:00,FT,Regular Season - 24,Nakhon Ratchasima FC,2773,Buriram United,2780,0,3,True
+1491263,2026-03-08T12:00:00+00:00,FT,Regular Season - 24,BG Pathum United,2769,Chonburi FC,2772,2,3,True
+1491264,2026-03-13T12:00:00+00:00,FT,Regular Season - 25,Nakhon Ratchasima FC,2773,Chiangrai United,2771,1,1,True
+1491265,2026-03-14T11:00:00+00:00,FT,Regular Season - 25,Buriram United,2780,Chonburi FC,2772,5,0,True
+1491266,2026-03-14T11:30:00+00:00,FT,Regular Season - 25,Muangthong United,2786,Uthai Thani,10088,1,0,True
+1491267,2026-03-14T12:00:00+00:00,FT,Regular Season - 25,Rayong FC,2797,BG Pathum United,2769,1,1,True
+1491268,2026-03-14T12:30:00+00:00,FT,Regular Season - 25,Lamphun Warrior,6572,Prachuap,2791,1,1,True
+1491269,2026-03-15T11:00:00+00:00,FT,Regular Season - 25,Bangkok United,2770,Port FC,2789,1,1,True
+1491270,2026-03-15T11:30:00+00:00,FT,Regular Season - 25,Kanchanaburi,18051,Sukhothai FC,2783,1,0,True
+1491271,2026-03-15T12:00:00+00:00,FT,Regular Season - 25,Ratchaburi,2776,Ayutthaya FC,2803,1,2,True
+1491272,2026-03-21T11:00:00+00:00,FT,Regular Season - 26,Ayutthaya FC,2803,Nakhon Ratchasima FC,2773,0,1,True
+1491273,2026-03-21T11:30:00+00:00,FT,Regular Season - 26,Chonburi FC,2772,Sukhothai FC,2783,2,0,True
+1491274,2026-03-21T12:00:00+00:00,FT,Regular Season - 26,Uthai Thani,10088,Lamphun Warrior,6572,0,0,True
+1491275,2026-03-21T12:30:00+00:00,FT,Regular Season - 26,Rayong FC,2797,Kanchanaburi,18051,2,1,True
+1491276,2026-03-22T11:00:00+00:00,FT,Regular Season - 26,Chiangrai United,2771,Port FC,2789,1,2,True
+1491277,2026-03-22T11:30:00+00:00,FT,Regular Season - 26,BG Pathum United,2769,Ratchaburi,2776,2,2,True
+1491278,2026-03-22T11:30:00+00:00,FT,Regular Season - 26,Prachuap,2791,Bangkok United,2770,0,0,True
+1491279,2026-03-22T12:00:00+00:00,FT,Regular Season - 26,Buriram United,2780,Muangthong United,2786,2,1,True
+1491280,2026-04-03T11:00:00+00:00,FT,Regular Season - 27,Bangkok United,2770,Sukhothai FC,2783,2,0,True
+1491281,2026-04-04T11:00:00+00:00,FT,Regular Season - 27,Kanchanaburi,18051,BG Pathum United,2769,0,2,True
+1491282,2026-04-04T12:00:00+00:00,FT,Regular Season - 27,Ratchaburi,2776,Buriram United,2780,2,2,True
+1491283,2026-04-04T12:30:00+00:00,FT,Regular Season - 27,Port FC,2789,Prachuap,2791,3,0,True
+1491284,2026-04-05T11:00:00+00:00,FT,Regular Season - 27,Muangthong United,2786,Chiangrai United,2771,2,1,True
+1491285,2026-04-05T11:30:00+00:00,FT,Regular Season - 27,Chonburi FC,2772,Rayong FC,2797,4,1,True
+1491286,2026-04-05T11:30:00+00:00,FT,Regular Season - 27,Lamphun Warrior,6572,Ayutthaya FC,2803,2,0,True
+1491287,2026-04-05T12:00:00+00:00,FT,Regular Season - 27,Nakhon Ratchasima FC,2773,Uthai Thani,10088,0,0,True
+1491245,2026-04-11T11:00:00+00:00,FT,Regular Season - 22,Lamphun Warrior,6572,Ratchaburi,2776,1,2,True
+1491238,2026-04-11T11:30:00+00:00,FT,Regular Season - 21,Nakhon Ratchasima FC,2773,Bangkok United,2770,1,0,True
+1491228,2026-04-11T12:30:00+00:00,FT,Regular Season - 20,Chiangrai United,2771,Sukhothai FC,2783,1,1,True
+1491224,2026-04-12T12:00:00+00:00,FT,Regular Season - 20,Buriram United,2780,Ayutthaya FC,2803,2,0,True
+1491229,2026-04-18T11:00:00+00:00,FT,Regular Season - 20,Bangkok United,2770,Ratchaburi,2776,1,4,True
+1491225,2026-04-18T11:00:00+00:00,FT,Regular Season - 20,Prachuap,2791,Chonburi FC,2772,2,0,True
+1491226,2026-04-18T11:30:00+00:00,FT,Regular Season - 20,Muangthong United,2786,Nakhon Ratchasima FC,2773,2,1,True
+1491227,2026-04-18T12:00:00+00:00,FT,Regular Season - 20,Uthai Thani,10088,Rayong FC,2797,4,1,True
+1491231,2026-04-19T12:00:00+00:00,FT,Regular Season - 20,Port FC,2789,BG Pathum United,2769,0,0,True
+1491288,2026-04-24T12:00:00+00:00,FT,Regular Season - 28,Sukhothai FC,2783,Ratchaburi,2776,1,2,True
+1491289,2026-04-25T11:00:00+00:00,FT,Regular Season - 28,Chiangrai United,2771,Bangkok United,2770,2,0,True
+1491290,2026-04-25T11:30:00+00:00,FT,Regular Season - 28,BG Pathum United,2769,Nakhon Ratchasima FC,2773,1,0,True
+1491291,2026-04-25T12:00:00+00:00,FT,Regular Season - 28,Uthai Thani,10088,Port FC,2789,0,1,True
+1491292,2026-04-26T11:00:00+00:00,FT,Regular Season - 28,Rayong FC,2797,Lamphun Warrior,6572,1,1,True
+1491293,2026-04-26T11:30:00+00:00,FT,Regular Season - 28,Chonburi FC,2772,Muangthong United,2786,0,0,True
+1491294,2026-04-26T11:30:00+00:00,FT,Regular Season - 28,Kanchanaburi,18051,Buriram United,2780,1,3,True
+1491295,2026-04-26T12:00:00+00:00,FT,Regular Season - 28,Ayutthaya FC,2803,Prachuap,2791,1,3,True
+1491261,2026-04-29T11:00:00+00:00,FT,Regular Season - 24,Chiangrai United,2771,Ratchaburi,2776,1,0,True
+1491262,2026-04-29T11:30:00+00:00,FT,Regular Season - 24,Uthai Thani,10088,Bangkok United,2770,1,1,True
+1491250,2026-04-29T12:00:00+00:00,FT,Regular Season - 23,Rayong FC,2797,Buriram United,2780,3,0,True
+1491296,2026-05-01T12:00:00+00:00,FT,Regular Season - 29,Muangthong United,2786,BG Pathum United,2769,1,1,True
+1491298,2026-05-02T11:00:00+00:00,FT,Regular Season - 29,Nakhon Ratchasima FC,2773,Sukhothai FC,2783,1,0,True
+1491299,2026-05-02T11:30:00+00:00,FT,Regular Season - 29,Bangkok United,2770,Ayutthaya FC,2803,4,1,True
+1491300,2026-05-02T12:00:00+00:00,FT,Regular Season - 29,Kanchanaburi,18051,Chonburi FC,2772,2,2,True
+1491297,2026-05-02T12:30:00+00:00,FT,Regular Season - 29,Port FC,2789,Buriram United,2780,3,1,True
+1491301,2026-05-03T11:00:00+00:00,FT,Regular Season - 29,Prachuap,2791,Uthai Thani,10088,2,0,True
+1491302,2026-05-03T11:30:00+00:00,FT,Regular Season - 29,Ratchaburi,2776,Rayong FC,2797,6,1,True
+1491303,2026-05-03T12:00:00+00:00,FT,Regular Season - 29,Lamphun Warrior,6572,Chiangrai United,2771,0,0,True
+1491309,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,BG Pathum United,2769,Prachuap,2791,3,0,True
+1491306,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Chiangrai United,2771,Uthai Thani,10088,1,0,True
+1491307,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Chonburi FC,2772,Nakhon Ratchasima FC,2773,2,1,True
+1491305,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Buriram United,2780,Lamphun Warrior,6572,1,1,True
+1491311,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Sukhothai FC,2783,Muangthong United,2786,3,0,True
+1491310,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Rayong FC,2797,Bangkok United,2770,1,1,True
+1491304,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Ayutthaya FC,2803,Port FC,2789,1,4,True
+1491308,2026-05-10T11:00:00+00:00,FT,Regular Season - 30,Kanchanaburi,18051,Ratchaburi,2776,0,1,True

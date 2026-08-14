@@ -1,179 +1,284 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1304715,2025-01-05T18:00:00+00:00,FT,Molynes United,6407,Harbour View,3439,3,1,True
-1304717,2025-01-05T20:00:00+00:00,FT,Humble Lions,3440,Vere United,6408,0,1,True
-1304712,2025-01-05T20:00:00+00:00,FT,Racing United,25020,Arnett Gardens,3436,0,2,True
-1304714,2025-01-05T20:15:00+00:00,FT,Mount Pleasant Academy,3442,Dunbeholden,3438,4,0,True
-1304713,2025-01-05T22:30:00+00:00,FT,Montego Bay United,3441,Chapelton,20597,2,1,True
-1304718,2025-01-06T22:00:00+00:00,FT,Tivoli Gardens,3445,Portmore United,3443,1,1,True
-1304716,2025-01-07T00:45:00+00:00,FT,Cavalier,3437,Waterhouse,3447,2,2,True
-1304722,2025-01-12T20:00:00+00:00,FT,Dunbeholden,3438,Cavalier,3437,0,2,True
-1304723,2025-01-12T20:00:00+00:00,FT,Harbour View,3439,Humble Lions,3440,1,1,True
-1304725,2025-01-12T20:00:00+00:00,FT,Vere United,6408,Portmore United,3443,0,2,True
-1304721,2025-01-12T20:00:00+00:00,FT,Chapelton,20597,Molynes United,6407,0,0,True
-1304724,2025-01-12T22:30:00+00:00,FT,Waterhouse,3447,Tivoli Gardens,3445,0,1,True
-1304720,2025-01-13T22:00:00+00:00,FT,Racing United,25020,Mount Pleasant Academy,3442,2,3,True
-1304719,2025-01-14T00:45:00+00:00,FT,Arnett Gardens,3436,Montego Bay United,3441,1,0,True
-1304729,2025-01-19T20:00:00+00:00,FT,Humble Lions,3440,Chapelton,20597,1,0,True
-1304726,2025-01-19T20:00:00+00:00,FT,Mount Pleasant Academy,3442,Arnett Gardens,3436,2,0,True
-1304731,2025-01-19T20:00:00+00:00,FT,Portmore United,3443,Harbour View,3439,4,0,True
-1304730,2025-01-19T20:00:00+00:00,FT,Tivoli Gardens,3445,Dunbeholden,3438,2,0,True
-1304732,2025-01-19T20:00:00+00:00,FT,Vere United,6408,Waterhouse,3447,0,3,True
-1304727,2025-01-20T22:00:00+00:00,FT,Molynes United,6407,Montego Bay United,3441,0,2,True
-1304728,2025-01-21T00:45:00+00:00,FT,Cavalier,3437,Racing United,25020,1,1,True
-1304738,2025-01-22T20:00:00+00:00,FT,Dunbeholden,3438,Vere United,6408,1,1,True
-1304739,2025-01-22T20:00:00+00:00,FT,Harbour View,3439,Waterhouse,3447,0,1,True
-1304737,2025-01-22T20:00:00+00:00,FT,Chapelton,20597,Portmore United,3443,0,3,True
-1304734,2025-01-23T20:00:00+00:00,FT,Mount Pleasant Academy,3442,Cavalier,3437,3,0,True
-1304736,2025-01-23T20:00:00+00:00,FT,Racing United,25020,Tivoli Gardens,3445,2,0,True
-1304733,2025-01-23T23:30:00+00:00,FT,Arnett Gardens,3436,Molynes United,6407,0,0,True
-1304735,2025-01-23T23:30:00+00:00,FT,Montego Bay United,3441,Humble Lions,3440,3,1,True
-1304746,2025-01-26T20:00:00+00:00,FT,Harbour View,3439,Dunbeholden,3438,4,1,True
-1304743,2025-01-26T20:00:00+00:00,FT,Portmore United,3443,Montego Bay United,3441,0,0,True
-1304744,2025-01-26T20:00:00+00:00,FT,Vere United,6408,Racing United,25020,0,3,True
-1304742,2025-01-26T22:00:00+00:00,FT,Tivoli Gardens,3445,Mount Pleasant Academy,3442,0,1,True
-1304745,2025-01-26T22:30:00+00:00,FT,Waterhouse,3447,Chapelton,20597,0,3,True
-1304740,2025-01-27T00:30:00+00:00,FT,Cavalier,3437,Arnett Gardens,3436,2,2,True
-1304741,2025-01-28T00:45:00+00:00,FT,Humble Lions,3440,Molynes United,6407,1,2,True
-1304753,2025-01-29T21:30:00+00:00,FT,Chapelton,20597,Dunbeholden,3438,1,3,True
-1304751,2025-01-30T00:00:00+00:00,FT,Montego Bay United,3441,Waterhouse,3447,3,1,True
-1304752,2025-01-30T00:30:00+00:00,FT,Racing United,25020,Harbour View,3439,1,0,True
-1304750,2025-01-30T20:00:00+00:00,FT,Mount Pleasant Academy,3442,Vere United,6408,4,1,True
-1304749,2025-01-30T20:00:00+00:00,FT,Molynes United,6407,Portmore United,3443,0,0,True
-1304748,2025-01-30T21:30:00+00:00,FT,Cavalier,3437,Tivoli Gardens,3445,0,0,True
-1304747,2025-01-31T00:00:00+00:00,FT,Arnett Gardens,3436,Humble Lions,3440,5,1,True
-1304759,2025-02-02T20:00:00+00:00,FT,Dunbeholden,3438,Montego Bay United,3441,2,0,True
-1304758,2025-02-02T20:00:00+00:00,FT,Harbour View,3439,Mount Pleasant Academy,3442,2,1,True
-1304755,2025-02-02T20:00:00+00:00,FT,Portmore United,3443,Humble Lions,3440,2,1,True
-1304760,2025-02-02T20:00:00+00:00,FT,Chapelton,20597,Racing United,25020,1,2,True
-1304757,2025-02-02T22:30:00+00:00,FT,Waterhouse,3447,Molynes United,6407,1,1,True
-1304756,2025-02-03T22:00:00+00:00,FT,Vere United,6408,Cavalier,3437,1,2,True
-1304754,2025-02-04T00:45:00+00:00,FT,Tivoli Gardens,3445,Arnett Gardens,3436,3,5,True
-1304779,2025-02-12T20:00:00+00:00,FT,Humble Lions,3440,Racing United,25020,1,1,True
-1304777,2025-02-12T20:00:00+00:00,FT,Portmore United,3443,Dunbeholden,3438,0,0,True
-1304778,2025-02-12T20:00:00+00:00,FT,Tivoli Gardens,3445,Chapelton,20597,1,1,True
-1304781,2025-02-13T20:00:00+00:00,FT,Molynes United,6407,Mount Pleasant Academy,3442,2,6,True
-1304776,2025-02-13T20:00:00+00:00,FT,Vere United,6408,Harbour View,3439,1,1,True
-1304780,2025-02-13T21:30:00+00:00,FT,Cavalier,3437,Montego Bay United,3441,1,1,True
-1304775,2025-02-14T00:00:00+00:00,FT,Arnett Gardens,3436,Waterhouse,3447,3,2,True
-1304788,2025-02-16T18:00:00+00:00,FT,Molynes United,6407,Cavalier,3437,0,3,True
-1304783,2025-02-16T20:00:00+00:00,FT,Dunbeholden,3438,Waterhouse,3447,1,0,True
-1304784,2025-02-16T20:00:00+00:00,FT,Chapelton,20597,Vere United,6408,1,1,True
-1304785,2025-02-16T20:00:00+00:00,FT,Racing United,25020,Portmore United,3443,1,1,True
-1304782,2025-02-16T20:15:00+00:00,FT,Harbour View,3439,Arnett Gardens,3436,0,1,True
-1304787,2025-02-17T22:00:00+00:00,FT,Mount Pleasant Academy,3442,Humble Lions,3440,5,0,True
-1304786,2025-02-18T00:45:00+00:00,FT,Montego Bay United,3441,Tivoli Gardens,3445,3,1,True
-1304765,2025-02-19T20:00:00+00:00,FT,Molynes United,6407,Dunbeholden,3438,0,1,True
-1304763,2025-02-20T20:00:00+00:00,FT,Humble Lions,3440,Waterhouse,3447,2,1,True
-1304766,2025-02-20T20:00:00+00:00,FT,Mount Pleasant Academy,3442,Chapelton,20597,1,0,True
-1304762,2025-02-20T20:00:00+00:00,FT,Tivoli Gardens,3445,Vere United,6408,2,1,True
-1304764,2025-02-20T21:30:00+00:00,FT,Cavalier,3437,Harbour View,3439,0,1,True
-1304767,2025-02-20T23:00:00+00:00,FT,Montego Bay United,3441,Racing United,25020,0,0,True
-1304761,2025-02-21T00:00:00+00:00,FT,Arnett Gardens,3436,Portmore United,3443,0,0,True
-1304771,2025-02-23T20:00:00+00:00,FT,Dunbeholden,3438,Humble Lions,3440,3,2,True
-1304770,2025-02-23T20:00:00+00:00,FT,Harbour View,3439,Tivoli Gardens,3445,2,2,True
-1304772,2025-02-23T20:00:00+00:00,FT,Chapelton,20597,Cavalier,3437,1,2,True
-1304773,2025-02-23T20:00:00+00:00,FT,Racing United,25020,Molynes United,6407,3,2,True
-1304769,2025-02-23T22:30:00+00:00,FT,Waterhouse,3447,Portmore United,3443,1,0,True
-1304768,2025-02-24T22:00:00+00:00,FT,Vere United,6408,Arnett Gardens,3436,0,2,True
-1304774,2025-02-25T00:45:00+00:00,FT,Montego Bay United,3441,Mount Pleasant Academy,3442,1,1,True
-1304802,2025-03-05T20:30:00+00:00,FT,Humble Lions,3440,Tivoli Gardens,3445,3,2,True
-1304799,2025-03-05T20:30:00+00:00,FT,Mount Pleasant Academy,3442,Waterhouse,3447,1,0,True
-1304800,2025-03-05T20:30:00+00:00,FT,Molynes United,6407,Vere United,6408,3,2,True
-1304797,2025-03-06T21:30:00+00:00,FT,Racing United,25020,Dunbeholden,3438,1,0,True
-1304798,2025-03-06T23:00:00+00:00,FT,Montego Bay United,3441,Harbour View,3439,1,0,True
-1304796,2025-03-07T00:00:00+00:00,FT,Chapelton,20597,Arnett Gardens,3436,0,5,True
-1304805,2025-03-09T20:30:00+00:00,FT,Dunbeholden,3438,Mount Pleasant Academy,3442,0,3,True
-1304806,2025-03-09T20:30:00+00:00,FT,Harbour View,3439,Molynes United,6407,0,0,True
-1304809,2025-03-09T20:30:00+00:00,FT,Portmore United,3443,Tivoli Gardens,3445,1,1,True
-1304808,2025-03-09T20:30:00+00:00,FT,Vere United,6408,Humble Lions,3440,2,0,True
-1304807,2025-03-09T23:00:00+00:00,FT,Waterhouse,3447,Cavalier,3437,1,1,True
-1304804,2025-03-10T22:00:00+00:00,FT,Chapelton,20597,Montego Bay United,3441,0,1,True
-1304803,2025-03-11T00:45:00+00:00,FT,Arnett Gardens,3436,Racing United,25020,2,2,True
-1304793,2025-03-12T20:30:00+00:00,FT,Portmore United,3443,Mount Pleasant Academy,3442,1,0,True
-1304794,2025-03-12T20:30:00+00:00,FT,Tivoli Gardens,3445,Molynes United,6407,3,0,True
-1304791,2025-03-12T20:30:00+00:00,FT,Waterhouse,3447,Racing United,25020,0,3,True
-1304789,2025-03-13T20:30:00+00:00,FT,Arnett Gardens,3436,Dunbeholden,3438,4,1,True
-1304790,2025-03-13T20:30:00+00:00,FT,Harbour View,3439,Chapelton,20597,3,0,True
-1304792,2025-03-13T20:30:00+00:00,FT,Vere United,6408,Montego Bay United,3441,1,2,True
-1304812,2025-03-16T20:00:00+00:00,FT,Molynes United,6407,Chapelton,20597,1,1,True
-1304814,2025-03-16T20:30:00+00:00,FT,Humble Lions,3440,Harbour View,3439,1,0,True
-1304816,2025-03-16T20:30:00+00:00,FT,Portmore United,3443,Vere United,6408,1,0,True
-1304815,2025-03-16T20:30:00+00:00,FT,Tivoli Gardens,3445,Waterhouse,3447,3,2,True
-1304813,2025-03-16T22:30:00+00:00,FT,Cavalier,3437,Dunbeholden,3438,1,0,True
-1304810,2025-03-18T00:45:00+00:00,FT,Montego Bay United,3441,Arnett Gardens,3436,2,2,True
-1304822,2025-03-19T20:30:00+00:00,FT,Harbour View,3439,Portmore United,3443,0,2,True
-1304821,2025-03-19T21:30:00+00:00,FT,Dunbeholden,3438,Tivoli Gardens,3445,2,4,True
-1304823,2025-03-19T23:00:00+00:00,FT,Waterhouse,3447,Vere United,6408,2,1,True
-1304820,2025-03-20T20:30:00+00:00,FT,Chapelton,20597,Humble Lions,3440,2,1,True
-1304818,2025-03-20T23:00:00+00:00,FT,Montego Bay United,3441,Molynes United,6407,5,0,True
-1304826,2025-03-23T20:30:00+00:00,FT,Humble Lions,3440,Montego Bay United,3441,0,0,True
-1304828,2025-03-23T20:30:00+00:00,FT,Portmore United,3443,Chapelton,20597,0,1,True
-1304827,2025-03-23T20:30:00+00:00,FT,Tivoli Gardens,3445,Racing United,25020,1,0,True
-1304829,2025-03-23T20:30:00+00:00,FT,Vere United,6408,Dunbeholden,3438,0,0,True
-1304824,2025-03-23T22:00:00+00:00,FT,Molynes United,6407,Arnett Gardens,3436,0,4,True
-1304830,2025-03-25T00:45:00+00:00,FT,Waterhouse,3447,Harbour View,3439,3,0,True
-1304795,2025-03-27T20:30:00+00:00,FT,Humble Lions,3440,Cavalier,3437,3,1,True
-1304832,2025-03-30T20:00:00+00:00,FT,Molynes United,6407,Humble Lions,3440,1,1,True
-1304837,2025-03-30T20:30:00+00:00,FT,Dunbeholden,3438,Harbour View,3439,0,1,True
-1304833,2025-03-30T20:30:00+00:00,FT,Mount Pleasant Academy,3442,Tivoli Gardens,3445,0,0,True
-1304835,2025-03-30T20:30:00+00:00,FT,Racing United,25020,Vere United,6408,2,0,True
-1304834,2025-03-30T23:00:00+00:00,FT,Montego Bay United,3441,Portmore United,3443,0,0,True
-1304836,2025-03-31T22:00:00+00:00,FT,Chapelton,20597,Waterhouse,3447,1,1,True
-1304831,2025-04-01T00:45:00+00:00,FT,Arnett Gardens,3436,Cavalier,3437,2,2,True
-1304843,2025-04-02T20:30:00+00:00,FT,Harbour View,3439,Racing United,25020,0,0,True
-1304840,2025-04-02T20:30:00+00:00,FT,Portmore United,3443,Molynes United,6407,1,0,True
-1304841,2025-04-02T20:30:00+00:00,FT,Vere United,6408,Mount Pleasant Academy,3442,0,3,True
-1304844,2025-04-03T20:30:00+00:00,FT,Dunbeholden,3438,Chapelton,20597,0,1,True
-1304838,2025-04-03T20:30:00+00:00,FT,Humble Lions,3440,Arnett Gardens,3436,3,1,True
-1304839,2025-04-03T20:30:00+00:00,FT,Tivoli Gardens,3445,Cavalier,3437,1,1,True
-1304842,2025-04-03T23:00:00+00:00,FT,Waterhouse,3447,Montego Bay United,3441,1,1,True
-1304848,2025-04-06T20:00:00+00:00,FT,Molynes United,6407,Waterhouse,3447,0,1,True
-1304846,2025-04-06T20:30:00+00:00,FT,Humble Lions,3440,Portmore United,3443,0,1,True
-1304849,2025-04-06T20:30:00+00:00,FT,Mount Pleasant Academy,3442,Harbour View,3439,3,0,True
-1304847,2025-04-06T22:30:00+00:00,FT,Cavalier,3437,Vere United,6408,3,1,True
-1304850,2025-04-06T23:00:00+00:00,FT,Montego Bay United,3441,Dunbeholden,3438,4,0,True
-1304851,2025-04-07T22:00:00+00:00,FT,Racing United,25020,Chapelton,20597,3,0,True
-1304845,2025-04-08T00:45:00+00:00,FT,Arnett Gardens,3436,Tivoli Gardens,3445,0,0,True
-1304801,2025-04-09T21:00:00+00:00,FT,Cavalier,3437,Portmore United,3443,1,0,True
-1304811,2025-04-10T20:30:00+00:00,FT,Mount Pleasant Academy,3442,Racing United,25020,1,0,True
-1304856,2025-04-13T20:30:00+00:00,FT,Dunbeholden,3438,Molynes United,6407,0,2,True
-1304855,2025-04-13T20:30:00+00:00,FT,Harbour View,3439,Cavalier,3437,2,2,True
-1304852,2025-04-13T20:30:00+00:00,FT,Portmore United,3443,Arnett Gardens,3436,2,1,True
-1304853,2025-04-13T20:30:00+00:00,FT,Vere United,6408,Tivoli Gardens,3445,1,2,True
-1304854,2025-04-13T23:00:00+00:00,FT,Waterhouse,3447,Humble Lions,3440,1,0,True
-1304857,2025-04-14T22:00:00+00:00,FT,Chapelton,20597,Mount Pleasant Academy,3442,0,2,True
-1304858,2025-04-15T00:45:00+00:00,FT,Racing United,25020,Montego Bay United,3441,0,3,True
-1304819,2025-04-17T22:00:00+00:00,FT,Racing United,25020,Cavalier,3437,0,3,True
-1304817,2025-04-18T00:30:00+00:00,FT,Arnett Gardens,3436,Mount Pleasant Academy,3442,0,2,True
-1304862,2025-04-20T20:30:00+00:00,FT,Humble Lions,3440,Dunbeholden,3438,1,1,True
-1304865,2025-04-20T20:30:00+00:00,FT,Mount Pleasant Academy,3442,Montego Bay United,3441,2,0,True
-1304860,2025-04-20T20:30:00+00:00,FT,Portmore United,3443,Waterhouse,3447,0,2,True
-1304861,2025-04-20T20:30:00+00:00,FT,Tivoli Gardens,3445,Harbour View,3439,2,1,True
-1304864,2025-04-20T20:30:00+00:00,FT,Molynes United,6407,Racing United,25020,3,1,True
-1304863,2025-04-21T22:00:00+00:00,FT,Cavalier,3437,Chapelton,20597,2,0,True
-1304859,2025-04-22T00:45:00+00:00,FT,Arnett Gardens,3436,Vere United,6408,3,1,True
-1304825,2025-04-24T21:00:00+00:00,FT,Cavalier,3437,Mount Pleasant Academy,3442,2,1,True
-1304868,2025-04-27T20:30:00+00:00,FT,Dunbeholden,3438,Portmore United,3443,1,0,True
-1304867,2025-04-27T20:30:00+00:00,FT,Harbour View,3439,Vere United,6408,5,0,True
-1304871,2025-04-27T20:30:00+00:00,FT,Montego Bay United,3441,Cavalier,3437,1,0,True
-1304872,2025-04-27T20:30:00+00:00,FT,Mount Pleasant Academy,3442,Molynes United,6407,3,0,True
-1304866,2025-04-27T20:30:00+00:00,FT,Waterhouse,3447,Arnett Gardens,3436,0,2,True
-1304869,2025-04-27T20:30:00+00:00,FT,Chapelton,20597,Tivoli Gardens,3445,2,2,True
-1304870,2025-04-27T20:30:00+00:00,FT,Racing United,25020,Humble Lions,3440,2,1,True
-1304873,2025-05-04T20:30:00+00:00,FT,Arnett Gardens,3436,Harbour View,3439,5,1,True
-1304879,2025-05-04T20:30:00+00:00,FT,Cavalier,3437,Molynes United,6407,4,3,True
-1304878,2025-05-04T20:30:00+00:00,FT,Humble Lions,3440,Mount Pleasant Academy,3442,0,4,True
-1304876,2025-05-04T20:30:00+00:00,FT,Portmore United,3443,Racing United,25020,2,0,True
-1304877,2025-05-04T20:30:00+00:00,FT,Tivoli Gardens,3445,Montego Bay United,3441,2,1,True
-1304874,2025-05-04T20:30:00+00:00,FT,Waterhouse,3447,Dunbeholden,3438,2,0,True
-1304875,2025-05-04T20:30:00+00:00,FT,Vere United,6408,Chapelton,20597,1,3,True
-1374436,2025-05-09T23:00:00+00:00,FT,Tivoli Gardens,3445,Montego Bay United,3441,1,2,True
-1374438,2025-05-10T01:00:00+00:00,FT,Portmore United,3443,Cavalier,3437,1,1,True
-1374439,2025-05-12T23:00:00+00:00,AET,Cavalier,3437,Portmore United,3443,1,0,False
-1374437,2025-05-13T02:00:00+00:00,FT,Montego Bay United,3441,Tivoli Gardens,3445,1,1,True
-1375290,2025-05-15T23:00:00+00:00,FT,Cavalier,3437,Arnett Gardens,3436,1,1,True
-1375289,2025-05-16T01:30:00+00:00,FT,Montego Bay United,3441,Mount Pleasant Academy,3442,0,1,True
-1375288,2025-05-18T22:00:00+00:00,FT,Mount Pleasant Academy,3442,Montego Bay United,3441,1,1,True
-1375291,2025-05-19T01:00:00+00:00,FT,Arnett Gardens,3436,Cavalier,3437,0,1,True
-1375878,2025-05-23T21:00:00+00:00,FT,Arnett Gardens,3436,Montego Bay United,3441,4,2,True
-1375877,2025-05-24T00:00:00+00:00,PEN,Cavalier,3437,Mount Pleasant Academy,3442,0,0,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1304607,2024-09-15T20:00:00+00:00,FT,Regular Season - 1,Vere United,6408,Montego Bay United,3441,1,4,True
+1304608,2024-09-15T21:00:00+00:00,FT,Regular Season - 1,Portmore United,3443,Mount Pleasant Academy,3442,0,2,True
+1304610,2024-09-16T00:30:00+00:00,FT,Regular Season - 1,Arnett Gardens,3436,Dunbeholden,3438,3,0,True
+1304611,2024-09-16T22:00:00+00:00,FT,Regular Season - 1,Harbour View,3439,Chapelton,20597,1,1,True
+1304612,2024-09-17T00:30:00+00:00,FT,Regular Season - 1,Waterhouse,3447,Racing United,25020,1,0,True
+1304617,2024-09-22T20:00:00+00:00,FT,Regular Season - 2,Molynes United,6407,Vere United,6408,1,3,True
+1304619,2024-09-22T20:30:00+00:00,FT,Regular Season - 2,Humble Lions,3440,Tivoli Gardens,3445,0,0,True
+1304615,2024-09-22T20:30:00+00:00,FT,Regular Season - 2,Racing United,25020,Dunbeholden,3438,1,0,True
+1304618,2024-09-22T22:30:00+00:00,FT,Regular Season - 2,Cavalier,3437,Portmore United,3443,1,2,True
+1304620,2024-09-24T00:00:00+00:00,FT,Regular Season - 2,Montego Bay United,3441,Harbour View,3439,1,2,True
+1304613,2024-09-25T20:00:00+00:00,FT,Regular Season - 1,Humble Lions,3440,Cavalier,3437,1,1,True
+1304623,2024-09-29T20:00:00+00:00,FT,Regular Season - 3,Harbour View,3439,Molynes United,6407,2,1,True
+1304625,2024-09-29T20:00:00+00:00,FT,Regular Season - 3,Vere United,6408,Humble Lions,3440,1,1,True
+1304624,2024-09-29T22:00:00+00:00,FT,Regular Season - 3,Waterhouse,3447,Cavalier,3437,0,2,True
+1304621,2024-09-30T00:30:00+00:00,FT,Regular Season - 3,Arnett Gardens,3436,Racing United,25020,1,1,True
+1304626,2024-09-30T22:00:00+00:00,FT,Regular Season - 3,Chapelton,20597,Montego Bay United,3441,0,1,True
+1304627,2024-10-01T00:30:00+00:00,FT,Regular Season - 3,Portmore United,3443,Tivoli Gardens,3445,2,1,True
+1304630,2024-10-06T20:00:00+00:00,FT,Regular Season - 4,Humble Lions,3440,Harbour View,3439,1,1,True
+1304632,2024-10-06T20:00:00+00:00,FT,Regular Season - 4,Portmore United,3443,Vere United,6408,2,0,True
+1304628,2024-10-06T20:00:00+00:00,FT,Regular Season - 4,Molynes United,6407,Chapelton,20597,4,0,True
+1304631,2024-10-06T22:30:00+00:00,FT,Regular Season - 4,Tivoli Gardens,3445,Waterhouse,3447,0,1,True
+1304629,2024-10-07T20:00:00+00:00,FT,Regular Season - 4,Cavalier,3437,Dunbeholden,3438,4,1,True
+1304633,2024-10-07T22:00:00+00:00,FT,Regular Season - 4,Mount Pleasant Academy,3442,Racing United,25020,4,0,True
+1304634,2024-10-08T00:30:00+00:00,FT,Regular Season - 4,Montego Bay United,3441,Arnett Gardens,3436,1,0,True
+1304640,2024-10-16T20:00:00+00:00,FT,Regular Season - 5,Harbour View,3439,Portmore United,3443,1,2,True
+1304638,2024-10-16T22:00:00+00:00,FT,Regular Season - 5,Chapelton,20597,Humble Lions,3440,2,0,True
+1304641,2024-10-16T23:00:00+00:00,FT,Regular Season - 5,Waterhouse,3447,Vere United,6408,2,1,True
+1304636,2024-10-17T00:00:00+00:00,FT,Regular Season - 5,Montego Bay United,3441,Molynes United,6407,4,0,True
+1304635,2024-10-17T00:30:00+00:00,FT,Regular Season - 5,Arnett Gardens,3436,Mount Pleasant Academy,3442,1,1,True
+1304644,2024-10-20T20:00:00+00:00,FT,Regular Season - 6,Humble Lions,3440,Montego Bay United,3441,0,0,True
+1304645,2024-10-20T20:00:00+00:00,FT,Regular Season - 6,Portmore United,3443,Chapelton,20597,2,0,True
+1304646,2024-10-20T20:00:00+00:00,FT,Regular Season - 6,Vere United,6408,Dunbeholden,3438,3,0,True
+1304642,2024-10-20T21:00:00+00:00,FT,Regular Season - 6,Molynes United,6407,Arnett Gardens,3436,0,3,True
+1304643,2024-10-20T23:30:00+00:00,FT,Regular Season - 6,Cavalier,3437,Mount Pleasant Academy,3442,2,2,True
+1304647,2024-10-21T22:00:00+00:00,FT,Regular Season - 6,Tivoli Gardens,3445,Racing United,25020,1,0,True
+1304648,2024-10-22T00:30:00+00:00,FT,Regular Season - 6,Waterhouse,3447,Harbour View,3439,1,0,True
+1304609,2024-10-24T20:00:00+00:00,FT,Regular Season - 1,Tivoli Gardens,3445,Molynes United,6407,0,0,True
+1304616,2024-10-24T20:30:00+00:00,FT,Regular Season - 2,Mount Pleasant Academy,3442,Waterhouse,3447,0,0,True
+1304649,2024-10-27T18:00:00+00:00,FT,Regular Season - 7,Molynes United,6407,Humble Lions,3440,0,1,True
+1304653,2024-10-27T20:00:00+00:00,FT,Regular Season - 7,Dunbeholden,3438,Harbour View,3439,1,0,True
+1304650,2024-10-27T20:15:00+00:00,FT,Regular Season - 7,Mount Pleasant Academy,3442,Tivoli Gardens,3445,1,0,True
+1304651,2024-10-27T22:30:00+00:00,FT,Regular Season - 7,Montego Bay United,3441,Portmore United,3443,0,0,True
+1304654,2024-10-28T22:00:00+00:00,FT,Regular Season - 7,Chapelton,20597,Waterhouse,3447,1,1,True
+1304652,2024-10-29T00:30:00+00:00,FT,Regular Season - 7,Racing United,25020,Vere United,6408,1,1,True
+1304622,2024-10-30T20:00:00+00:00,FT,Regular Season - 3,Dunbeholden,3438,Mount Pleasant Academy,3442,3,2,True
+1304614,2024-10-31T23:00:00+00:00,FT,Regular Season - 2,Chapelton,20597,Arnett Gardens,3436,1,1,True
+1304660,2024-11-03T20:00:00+00:00,FT,Regular Season - 8,Dunbeholden,3438,Chapelton,20597,2,0,True
+1304659,2024-11-03T20:00:00+00:00,FT,Regular Season - 8,Harbour View,3439,Racing United,25020,3,1,True
+1304656,2024-11-03T20:00:00+00:00,FT,Regular Season - 8,Humble Lions,3440,Arnett Gardens,3436,1,2,True
+1304658,2024-11-03T20:00:00+00:00,FT,Regular Season - 8,Portmore United,3443,Molynes United,6407,4,0,True
+1304657,2024-11-03T22:30:00+00:00,FT,Regular Season - 8,Tivoli Gardens,3445,Cavalier,3437,1,1,True
+1304663,2024-11-10T20:00:00+00:00,FT,Regular Season - 9,Humble Lions,3440,Portmore United,3443,0,1,True
+1304665,2024-11-10T20:00:00+00:00,FT,Regular Season - 9,Mount Pleasant Academy,3442,Harbour View,3439,3,1,True
+1304667,2024-11-10T20:00:00+00:00,FT,Regular Season - 9,Racing United,25020,Chapelton,20597,1,0,True
+1304664,2024-11-10T22:30:00+00:00,FT,Regular Season - 9,Cavalier,3437,Vere United,6408,2,1,True
+1304666,2024-11-10T22:30:00+00:00,FT,Regular Season - 9,Montego Bay United,3441,Dunbeholden,3438,2,1,True
+1304668,2024-11-11T22:00:00+00:00,FT,Regular Season - 9,Molynes United,6407,Waterhouse,3447,1,3,True
+1304669,2024-11-12T00:30:00+00:00,FT,Regular Season - 9,Arnett Gardens,3436,Tivoli Gardens,3445,2,1,True
+1304674,2024-11-17T18:00:00+00:00,FT,Regular Season - 10,Racing United,25020,Montego Bay United,3441,0,4,True
+1304673,2024-11-17T20:00:00+00:00,FT,Regular Season - 10,Harbour View,3439,Cavalier,3437,0,0,True
+1304671,2024-11-17T20:00:00+00:00,FT,Regular Season - 10,Vere United,6408,Tivoli Gardens,3445,2,2,True
+1304670,2024-11-17T20:15:00+00:00,FT,Regular Season - 10,Portmore United,3443,Arnett Gardens,3436,0,1,True
+1304672,2024-11-17T23:00:00+00:00,FT,Regular Season - 10,Waterhouse,3447,Humble Lions,3440,2,0,True
+1304676,2024-11-18T22:00:00+00:00,FT,Regular Season - 10,Dunbeholden,3438,Molynes United,6407,0,2,True
+1304675,2024-11-19T00:30:00+00:00,FT,Regular Season - 10,Chapelton,20597,Mount Pleasant Academy,3442,1,1,True
+1304637,2024-11-20T20:00:00+00:00,FT,Regular Season - 5,Racing United,25020,Cavalier,3437,1,0,True
+1304639,2024-11-21T20:00:00+00:00,FT,Regular Season - 5,Dunbeholden,3438,Tivoli Gardens,3445,2,1,True
+1304680,2024-11-24T20:00:00+00:00,FT,Regular Season - 11,Humble Lions,3440,Dunbeholden,3438,0,0,True
+1304681,2024-11-24T20:00:00+00:00,FT,Regular Season - 11,Mount Pleasant Academy,3442,Montego Bay United,3441,3,0,True
+1304678,2024-11-24T20:00:00+00:00,FT,Regular Season - 11,Portmore United,3443,Waterhouse,3447,0,0,True
+1304679,2024-11-24T20:00:00+00:00,FT,Regular Season - 11,Tivoli Gardens,3445,Harbour View,3439,6,0,True
+1304682,2024-11-25T22:00:00+00:00,FT,Regular Season - 11,Molynes United,6407,Racing United,25020,2,1,True
+1304677,2024-11-26T00:30:00+00:00,FT,Regular Season - 11,Arnett Gardens,3436,Vere United,6408,2,0,True
+1304661,2024-11-28T22:00:00+00:00,FT,Regular Season - 8,Vere United,6408,Mount Pleasant Academy,3442,0,6,True
+1304662,2024-11-29T00:30:00+00:00,FT,Regular Season - 8,Waterhouse,3447,Montego Bay United,3441,1,1,True
+1304686,2024-12-01T20:00:00+00:00,FT,Regular Season - 12,Dunbeholden,3438,Portmore United,3443,3,3,True
+1304689,2024-12-01T20:00:00+00:00,FT,Regular Season - 12,Mount Pleasant Academy,3442,Molynes United,6407,4,0,True
+1304688,2024-12-01T20:00:00+00:00,FT,Regular Season - 12,Chapelton,20597,Tivoli Gardens,3445,2,3,True
+1304687,2024-12-01T20:00:00+00:00,FT,Regular Season - 12,Racing United,25020,Humble Lions,3440,1,1,True
+1304685,2024-12-02T22:00:00+00:00,FT,Regular Season - 12,Harbour View,3439,Vere United,6408,0,0,True
+1304684,2024-12-03T00:45:00+00:00,FT,Regular Season - 12,Waterhouse,3447,Arnett Gardens,3436,0,1,True
+1304693,2024-12-08T20:00:00+00:00,FT,Regular Season - 13,Portmore United,3443,Racing United,25020,1,1,True
+1304691,2024-12-08T20:00:00+00:00,FT,Regular Season - 13,Waterhouse,3447,Dunbeholden,3438,3,2,True
+1304692,2024-12-08T20:00:00+00:00,FT,Regular Season - 13,Vere United,6408,Chapelton,20597,2,1,True
+1304695,2024-12-08T21:00:00+00:00,FT,Regular Season - 13,Cavalier,3437,Molynes United,6407,5,0,True
+1304694,2024-12-08T22:30:00+00:00,FT,Regular Season - 13,Tivoli Gardens,3445,Montego Bay United,3441,2,4,True
+1304696,2024-12-09T22:00:00+00:00,FT,Regular Season - 13,Humble Lions,3440,Mount Pleasant Academy,3442,1,4,True
+1304697,2024-12-10T00:45:00+00:00,FT,Regular Season - 13,Arnett Gardens,3436,Harbour View,3439,2,1,True
+1304655,2024-12-13T00:00:00+00:00,FT,Regular Season - 7,Arnett Gardens,3436,Cavalier,3437,1,2,True
+1304683,2024-12-15T21:00:00+00:00,FT,Regular Season - 11,Cavalier,3437,Chapelton,20597,1,3,True
+1304690,2024-12-19T00:30:00+00:00,FT,Regular Season - 12,Montego Bay United,3441,Cavalier,3437,1,1,True
+1304698,2024-12-22T20:00:00+00:00,FT,Regular Season - 14,Dunbeholden,3438,Arnett Gardens,3436,0,1,True
+1304702,2024-12-22T20:00:00+00:00,FT,Regular Season - 14,Mount Pleasant Academy,3442,Portmore United,3443,1,0,True
+1304703,2024-12-22T20:00:00+00:00,FT,Regular Season - 14,Molynes United,6407,Tivoli Gardens,3445,0,2,True
+1304699,2024-12-22T20:00:00+00:00,FT,Regular Season - 14,Chapelton,20597,Harbour View,3439,1,0,True
+1304700,2024-12-22T20:00:00+00:00,FT,Regular Season - 14,Racing United,25020,Waterhouse,3447,1,1,True
+1304704,2024-12-22T22:30:00+00:00,FT,Regular Season - 14,Cavalier,3437,Humble Lions,3440,3,1,True
+1304701,2024-12-24T00:45:00+00:00,FT,Regular Season - 14,Montego Bay United,3441,Vere United,6408,2,0,True
+1304706,2024-12-29T20:00:00+00:00,FT,Regular Season - 15,Dunbeholden,3438,Racing United,25020,2,2,True
+1304707,2024-12-29T20:00:00+00:00,FT,Regular Season - 15,Harbour View,3439,Montego Bay United,3441,0,1,True
+1304710,2024-12-29T20:00:00+00:00,FT,Regular Season - 15,Portmore United,3443,Cavalier,3437,1,1,True
+1304711,2024-12-29T20:00:00+00:00,FT,Regular Season - 15,Tivoli Gardens,3445,Humble Lions,3440,5,1,True
+1304709,2024-12-29T20:00:00+00:00,FT,Regular Season - 15,Vere United,6408,Molynes United,6407,0,5,True
+1304708,2024-12-29T23:00:00+00:00,FT,Regular Season - 15,Waterhouse,3447,Mount Pleasant Academy,3442,0,3,True
+1304705,2024-12-30T00:00:00+00:00,FT,Regular Season - 15,Arnett Gardens,3436,Chapelton,20597,1,1,True
+1304715,2025-01-05T18:00:00+00:00,FT,Regular Season - 16,Molynes United,6407,Harbour View,3439,3,1,True
+1304717,2025-01-05T20:00:00+00:00,FT,Regular Season - 16,Humble Lions,3440,Vere United,6408,0,1,True
+1304712,2025-01-05T20:00:00+00:00,FT,Regular Season - 16,Racing United,25020,Arnett Gardens,3436,0,2,True
+1304714,2025-01-05T20:15:00+00:00,FT,Regular Season - 16,Mount Pleasant Academy,3442,Dunbeholden,3438,4,0,True
+1304713,2025-01-05T22:30:00+00:00,FT,Regular Season - 16,Montego Bay United,3441,Chapelton,20597,2,1,True
+1304718,2025-01-06T22:00:00+00:00,FT,Regular Season - 16,Tivoli Gardens,3445,Portmore United,3443,1,1,True
+1304716,2025-01-07T00:45:00+00:00,FT,Regular Season - 16,Cavalier,3437,Waterhouse,3447,2,2,True
+1304722,2025-01-12T20:00:00+00:00,FT,Regular Season - 17,Dunbeholden,3438,Cavalier,3437,0,2,True
+1304723,2025-01-12T20:00:00+00:00,FT,Regular Season - 17,Harbour View,3439,Humble Lions,3440,1,1,True
+1304725,2025-01-12T20:00:00+00:00,FT,Regular Season - 17,Vere United,6408,Portmore United,3443,0,2,True
+1304721,2025-01-12T20:00:00+00:00,FT,Regular Season - 17,Chapelton,20597,Molynes United,6407,0,0,True
+1304724,2025-01-12T22:30:00+00:00,FT,Regular Season - 17,Waterhouse,3447,Tivoli Gardens,3445,0,1,True
+1304720,2025-01-13T22:00:00+00:00,FT,Regular Season - 17,Racing United,25020,Mount Pleasant Academy,3442,2,3,True
+1304719,2025-01-14T00:45:00+00:00,FT,Regular Season - 17,Arnett Gardens,3436,Montego Bay United,3441,1,0,True
+1304729,2025-01-19T20:00:00+00:00,FT,Regular Season - 18,Humble Lions,3440,Chapelton,20597,1,0,True
+1304726,2025-01-19T20:00:00+00:00,FT,Regular Season - 18,Mount Pleasant Academy,3442,Arnett Gardens,3436,2,0,True
+1304731,2025-01-19T20:00:00+00:00,FT,Regular Season - 18,Portmore United,3443,Harbour View,3439,4,0,True
+1304730,2025-01-19T20:00:00+00:00,FT,Regular Season - 18,Tivoli Gardens,3445,Dunbeholden,3438,2,0,True
+1304732,2025-01-19T20:00:00+00:00,FT,Regular Season - 18,Vere United,6408,Waterhouse,3447,0,3,True
+1304727,2025-01-20T22:00:00+00:00,FT,Regular Season - 18,Molynes United,6407,Montego Bay United,3441,0,2,True
+1304728,2025-01-21T00:45:00+00:00,FT,Regular Season - 18,Cavalier,3437,Racing United,25020,1,1,True
+1304738,2025-01-22T20:00:00+00:00,FT,Regular Season - 19,Dunbeholden,3438,Vere United,6408,1,1,True
+1304739,2025-01-22T20:00:00+00:00,FT,Regular Season - 19,Harbour View,3439,Waterhouse,3447,0,1,True
+1304737,2025-01-22T20:00:00+00:00,FT,Regular Season - 19,Chapelton,20597,Portmore United,3443,0,3,True
+1304734,2025-01-23T20:00:00+00:00,FT,Regular Season - 19,Mount Pleasant Academy,3442,Cavalier,3437,3,0,True
+1304736,2025-01-23T20:00:00+00:00,FT,Regular Season - 19,Racing United,25020,Tivoli Gardens,3445,2,0,True
+1304733,2025-01-23T23:30:00+00:00,FT,Regular Season - 19,Arnett Gardens,3436,Molynes United,6407,0,0,True
+1304735,2025-01-23T23:30:00+00:00,FT,Regular Season - 19,Montego Bay United,3441,Humble Lions,3440,3,1,True
+1304746,2025-01-26T20:00:00+00:00,FT,Regular Season - 20,Harbour View,3439,Dunbeholden,3438,4,1,True
+1304743,2025-01-26T20:00:00+00:00,FT,Regular Season - 20,Portmore United,3443,Montego Bay United,3441,0,0,True
+1304744,2025-01-26T20:00:00+00:00,FT,Regular Season - 20,Vere United,6408,Racing United,25020,0,3,True
+1304742,2025-01-26T22:00:00+00:00,FT,Regular Season - 20,Tivoli Gardens,3445,Mount Pleasant Academy,3442,0,1,True
+1304745,2025-01-26T22:30:00+00:00,FT,Regular Season - 20,Waterhouse,3447,Chapelton,20597,0,3,True
+1304740,2025-01-27T00:30:00+00:00,FT,Regular Season - 20,Cavalier,3437,Arnett Gardens,3436,2,2,True
+1304741,2025-01-28T00:45:00+00:00,FT,Regular Season - 20,Humble Lions,3440,Molynes United,6407,1,2,True
+1304753,2025-01-29T21:30:00+00:00,FT,Regular Season - 21,Chapelton,20597,Dunbeholden,3438,1,3,True
+1304751,2025-01-30T00:00:00+00:00,FT,Regular Season - 21,Montego Bay United,3441,Waterhouse,3447,3,1,True
+1304752,2025-01-30T00:30:00+00:00,FT,Regular Season - 21,Racing United,25020,Harbour View,3439,1,0,True
+1304750,2025-01-30T20:00:00+00:00,FT,Regular Season - 21,Mount Pleasant Academy,3442,Vere United,6408,4,1,True
+1304749,2025-01-30T20:00:00+00:00,FT,Regular Season - 21,Molynes United,6407,Portmore United,3443,0,0,True
+1304748,2025-01-30T21:30:00+00:00,FT,Regular Season - 21,Cavalier,3437,Tivoli Gardens,3445,0,0,True
+1304747,2025-01-31T00:00:00+00:00,FT,Regular Season - 21,Arnett Gardens,3436,Humble Lions,3440,5,1,True
+1304759,2025-02-02T20:00:00+00:00,FT,Regular Season - 22,Dunbeholden,3438,Montego Bay United,3441,2,0,True
+1304758,2025-02-02T20:00:00+00:00,FT,Regular Season - 22,Harbour View,3439,Mount Pleasant Academy,3442,2,1,True
+1304755,2025-02-02T20:00:00+00:00,FT,Regular Season - 22,Portmore United,3443,Humble Lions,3440,2,1,True
+1304760,2025-02-02T20:00:00+00:00,FT,Regular Season - 22,Chapelton,20597,Racing United,25020,1,2,True
+1304757,2025-02-02T22:30:00+00:00,FT,Regular Season - 22,Waterhouse,3447,Molynes United,6407,1,1,True
+1304756,2025-02-03T22:00:00+00:00,FT,Regular Season - 22,Vere United,6408,Cavalier,3437,1,2,True
+1304754,2025-02-04T00:45:00+00:00,FT,Regular Season - 22,Tivoli Gardens,3445,Arnett Gardens,3436,3,5,True
+1304779,2025-02-12T20:00:00+00:00,FT,Regular Season - 25,Humble Lions,3440,Racing United,25020,1,1,True
+1304777,2025-02-12T20:00:00+00:00,FT,Regular Season - 25,Portmore United,3443,Dunbeholden,3438,0,0,True
+1304778,2025-02-12T20:00:00+00:00,FT,Regular Season - 25,Tivoli Gardens,3445,Chapelton,20597,1,1,True
+1304781,2025-02-13T20:00:00+00:00,FT,Regular Season - 25,Molynes United,6407,Mount Pleasant Academy,3442,2,6,True
+1304776,2025-02-13T20:00:00+00:00,FT,Regular Season - 25,Vere United,6408,Harbour View,3439,1,1,True
+1304780,2025-02-13T21:30:00+00:00,FT,Regular Season - 25,Cavalier,3437,Montego Bay United,3441,1,1,True
+1304775,2025-02-14T00:00:00+00:00,FT,Regular Season - 25,Arnett Gardens,3436,Waterhouse,3447,3,2,True
+1304788,2025-02-16T18:00:00+00:00,FT,Regular Season - 26,Molynes United,6407,Cavalier,3437,0,3,True
+1304783,2025-02-16T20:00:00+00:00,FT,Regular Season - 26,Dunbeholden,3438,Waterhouse,3447,1,0,True
+1304784,2025-02-16T20:00:00+00:00,FT,Regular Season - 26,Chapelton,20597,Vere United,6408,1,1,True
+1304785,2025-02-16T20:00:00+00:00,FT,Regular Season - 26,Racing United,25020,Portmore United,3443,1,1,True
+1304782,2025-02-16T20:15:00+00:00,FT,Regular Season - 26,Harbour View,3439,Arnett Gardens,3436,0,1,True
+1304787,2025-02-17T22:00:00+00:00,FT,Regular Season - 26,Mount Pleasant Academy,3442,Humble Lions,3440,5,0,True
+1304786,2025-02-18T00:45:00+00:00,FT,Regular Season - 26,Montego Bay United,3441,Tivoli Gardens,3445,3,1,True
+1304765,2025-02-19T20:00:00+00:00,FT,Regular Season - 23,Molynes United,6407,Dunbeholden,3438,0,1,True
+1304763,2025-02-20T20:00:00+00:00,FT,Regular Season - 23,Humble Lions,3440,Waterhouse,3447,2,1,True
+1304766,2025-02-20T20:00:00+00:00,FT,Regular Season - 23,Mount Pleasant Academy,3442,Chapelton,20597,1,0,True
+1304762,2025-02-20T20:00:00+00:00,FT,Regular Season - 23,Tivoli Gardens,3445,Vere United,6408,2,1,True
+1304764,2025-02-20T21:30:00+00:00,FT,Regular Season - 23,Cavalier,3437,Harbour View,3439,0,1,True
+1304767,2025-02-20T23:00:00+00:00,FT,Regular Season - 23,Montego Bay United,3441,Racing United,25020,0,0,True
+1304761,2025-02-21T00:00:00+00:00,FT,Regular Season - 23,Arnett Gardens,3436,Portmore United,3443,0,0,True
+1304771,2025-02-23T20:00:00+00:00,FT,Regular Season - 24,Dunbeholden,3438,Humble Lions,3440,3,2,True
+1304770,2025-02-23T20:00:00+00:00,FT,Regular Season - 24,Harbour View,3439,Tivoli Gardens,3445,2,2,True
+1304772,2025-02-23T20:00:00+00:00,FT,Regular Season - 24,Chapelton,20597,Cavalier,3437,1,2,True
+1304773,2025-02-23T20:00:00+00:00,FT,Regular Season - 24,Racing United,25020,Molynes United,6407,3,2,True
+1304769,2025-02-23T22:30:00+00:00,FT,Regular Season - 24,Waterhouse,3447,Portmore United,3443,1,0,True
+1304768,2025-02-24T22:00:00+00:00,FT,Regular Season - 24,Vere United,6408,Arnett Gardens,3436,0,2,True
+1304774,2025-02-25T00:45:00+00:00,FT,Regular Season - 24,Montego Bay United,3441,Mount Pleasant Academy,3442,1,1,True
+1304802,2025-03-05T20:30:00+00:00,FT,Regular Season - 28,Humble Lions,3440,Tivoli Gardens,3445,3,2,True
+1304799,2025-03-05T20:30:00+00:00,FT,Regular Season - 28,Mount Pleasant Academy,3442,Waterhouse,3447,1,0,True
+1304800,2025-03-05T20:30:00+00:00,FT,Regular Season - 28,Molynes United,6407,Vere United,6408,3,2,True
+1304797,2025-03-06T21:30:00+00:00,FT,Regular Season - 28,Racing United,25020,Dunbeholden,3438,1,0,True
+1304798,2025-03-06T23:00:00+00:00,FT,Regular Season - 28,Montego Bay United,3441,Harbour View,3439,1,0,True
+1304796,2025-03-07T00:00:00+00:00,FT,Regular Season - 28,Chapelton,20597,Arnett Gardens,3436,0,5,True
+1304805,2025-03-09T20:30:00+00:00,FT,Regular Season - 29,Dunbeholden,3438,Mount Pleasant Academy,3442,0,3,True
+1304806,2025-03-09T20:30:00+00:00,FT,Regular Season - 29,Harbour View,3439,Molynes United,6407,0,0,True
+1304809,2025-03-09T20:30:00+00:00,FT,Regular Season - 29,Portmore United,3443,Tivoli Gardens,3445,1,1,True
+1304808,2025-03-09T20:30:00+00:00,FT,Regular Season - 29,Vere United,6408,Humble Lions,3440,2,0,True
+1304807,2025-03-09T23:00:00+00:00,FT,Regular Season - 29,Waterhouse,3447,Cavalier,3437,1,1,True
+1304804,2025-03-10T22:00:00+00:00,FT,Regular Season - 29,Chapelton,20597,Montego Bay United,3441,0,1,True
+1304803,2025-03-11T00:45:00+00:00,FT,Regular Season - 29,Arnett Gardens,3436,Racing United,25020,2,2,True
+1304793,2025-03-12T20:30:00+00:00,FT,Regular Season - 27,Portmore United,3443,Mount Pleasant Academy,3442,1,0,True
+1304794,2025-03-12T20:30:00+00:00,FT,Regular Season - 27,Tivoli Gardens,3445,Molynes United,6407,3,0,True
+1304791,2025-03-12T20:30:00+00:00,FT,Regular Season - 27,Waterhouse,3447,Racing United,25020,0,3,True
+1304789,2025-03-13T20:30:00+00:00,FT,Regular Season - 27,Arnett Gardens,3436,Dunbeholden,3438,4,1,True
+1304790,2025-03-13T20:30:00+00:00,FT,Regular Season - 27,Harbour View,3439,Chapelton,20597,3,0,True
+1304792,2025-03-13T20:30:00+00:00,FT,Regular Season - 27,Vere United,6408,Montego Bay United,3441,1,2,True
+1304812,2025-03-16T20:00:00+00:00,FT,Regular Season - 30,Molynes United,6407,Chapelton,20597,1,1,True
+1304814,2025-03-16T20:30:00+00:00,FT,Regular Season - 30,Humble Lions,3440,Harbour View,3439,1,0,True
+1304816,2025-03-16T20:30:00+00:00,FT,Regular Season - 30,Portmore United,3443,Vere United,6408,1,0,True
+1304815,2025-03-16T20:30:00+00:00,FT,Regular Season - 30,Tivoli Gardens,3445,Waterhouse,3447,3,2,True
+1304813,2025-03-16T22:30:00+00:00,FT,Regular Season - 30,Cavalier,3437,Dunbeholden,3438,1,0,True
+1304810,2025-03-18T00:45:00+00:00,FT,Regular Season - 30,Montego Bay United,3441,Arnett Gardens,3436,2,2,True
+1304822,2025-03-19T20:30:00+00:00,FT,Regular Season - 31,Harbour View,3439,Portmore United,3443,0,2,True
+1304821,2025-03-19T21:30:00+00:00,FT,Regular Season - 31,Dunbeholden,3438,Tivoli Gardens,3445,2,4,True
+1304823,2025-03-19T23:00:00+00:00,FT,Regular Season - 31,Waterhouse,3447,Vere United,6408,2,1,True
+1304820,2025-03-20T20:30:00+00:00,FT,Regular Season - 31,Chapelton,20597,Humble Lions,3440,2,1,True
+1304818,2025-03-20T23:00:00+00:00,FT,Regular Season - 31,Montego Bay United,3441,Molynes United,6407,5,0,True
+1304826,2025-03-23T20:30:00+00:00,FT,Regular Season - 32,Humble Lions,3440,Montego Bay United,3441,0,0,True
+1304828,2025-03-23T20:30:00+00:00,FT,Regular Season - 32,Portmore United,3443,Chapelton,20597,0,1,True
+1304827,2025-03-23T20:30:00+00:00,FT,Regular Season - 32,Tivoli Gardens,3445,Racing United,25020,1,0,True
+1304829,2025-03-23T20:30:00+00:00,FT,Regular Season - 32,Vere United,6408,Dunbeholden,3438,0,0,True
+1304824,2025-03-23T22:00:00+00:00,FT,Regular Season - 32,Molynes United,6407,Arnett Gardens,3436,0,4,True
+1304830,2025-03-25T00:45:00+00:00,FT,Regular Season - 32,Waterhouse,3447,Harbour View,3439,3,0,True
+1304795,2025-03-27T20:30:00+00:00,FT,Regular Season - 27,Humble Lions,3440,Cavalier,3437,3,1,True
+1304832,2025-03-30T20:00:00+00:00,FT,Regular Season - 33,Molynes United,6407,Humble Lions,3440,1,1,True
+1304837,2025-03-30T20:30:00+00:00,FT,Regular Season - 33,Dunbeholden,3438,Harbour View,3439,0,1,True
+1304833,2025-03-30T20:30:00+00:00,FT,Regular Season - 33,Mount Pleasant Academy,3442,Tivoli Gardens,3445,0,0,True
+1304835,2025-03-30T20:30:00+00:00,FT,Regular Season - 33,Racing United,25020,Vere United,6408,2,0,True
+1304834,2025-03-30T23:00:00+00:00,FT,Regular Season - 33,Montego Bay United,3441,Portmore United,3443,0,0,True
+1304836,2025-03-31T22:00:00+00:00,FT,Regular Season - 33,Chapelton,20597,Waterhouse,3447,1,1,True
+1304831,2025-04-01T00:45:00+00:00,FT,Regular Season - 33,Arnett Gardens,3436,Cavalier,3437,2,2,True
+1304843,2025-04-02T20:30:00+00:00,FT,Regular Season - 34,Harbour View,3439,Racing United,25020,0,0,True
+1304840,2025-04-02T20:30:00+00:00,FT,Regular Season - 34,Portmore United,3443,Molynes United,6407,1,0,True
+1304841,2025-04-02T20:30:00+00:00,FT,Regular Season - 34,Vere United,6408,Mount Pleasant Academy,3442,0,3,True
+1304844,2025-04-03T20:30:00+00:00,FT,Regular Season - 34,Dunbeholden,3438,Chapelton,20597,0,1,True
+1304838,2025-04-03T20:30:00+00:00,FT,Regular Season - 34,Humble Lions,3440,Arnett Gardens,3436,3,1,True
+1304839,2025-04-03T20:30:00+00:00,FT,Regular Season - 34,Tivoli Gardens,3445,Cavalier,3437,1,1,True
+1304842,2025-04-03T23:00:00+00:00,FT,Regular Season - 34,Waterhouse,3447,Montego Bay United,3441,1,1,True
+1304848,2025-04-06T20:00:00+00:00,FT,Regular Season - 35,Molynes United,6407,Waterhouse,3447,0,1,True
+1304846,2025-04-06T20:30:00+00:00,FT,Regular Season - 35,Humble Lions,3440,Portmore United,3443,0,1,True
+1304849,2025-04-06T20:30:00+00:00,FT,Regular Season - 35,Mount Pleasant Academy,3442,Harbour View,3439,3,0,True
+1304847,2025-04-06T22:30:00+00:00,FT,Regular Season - 35,Cavalier,3437,Vere United,6408,3,1,True
+1304850,2025-04-06T23:00:00+00:00,FT,Regular Season - 35,Montego Bay United,3441,Dunbeholden,3438,4,0,True
+1304851,2025-04-07T22:00:00+00:00,FT,Regular Season - 35,Racing United,25020,Chapelton,20597,3,0,True
+1304845,2025-04-08T00:45:00+00:00,FT,Regular Season - 35,Arnett Gardens,3436,Tivoli Gardens,3445,0,0,True
+1304801,2025-04-09T21:00:00+00:00,FT,Regular Season - 28,Cavalier,3437,Portmore United,3443,1,0,True
+1304811,2025-04-10T20:30:00+00:00,FT,Regular Season - 30,Mount Pleasant Academy,3442,Racing United,25020,1,0,True
+1304856,2025-04-13T20:30:00+00:00,FT,Regular Season - 36,Dunbeholden,3438,Molynes United,6407,0,2,True
+1304855,2025-04-13T20:30:00+00:00,FT,Regular Season - 36,Harbour View,3439,Cavalier,3437,2,2,True
+1304852,2025-04-13T20:30:00+00:00,FT,Regular Season - 36,Portmore United,3443,Arnett Gardens,3436,2,1,True
+1304853,2025-04-13T20:30:00+00:00,FT,Regular Season - 36,Vere United,6408,Tivoli Gardens,3445,1,2,True
+1304854,2025-04-13T23:00:00+00:00,FT,Regular Season - 36,Waterhouse,3447,Humble Lions,3440,1,0,True
+1304857,2025-04-14T22:00:00+00:00,FT,Regular Season - 36,Chapelton,20597,Mount Pleasant Academy,3442,0,2,True
+1304858,2025-04-15T00:45:00+00:00,FT,Regular Season - 36,Racing United,25020,Montego Bay United,3441,0,3,True
+1304819,2025-04-17T22:00:00+00:00,FT,Regular Season - 31,Racing United,25020,Cavalier,3437,0,3,True
+1304817,2025-04-18T00:30:00+00:00,FT,Regular Season - 31,Arnett Gardens,3436,Mount Pleasant Academy,3442,0,2,True
+1304862,2025-04-20T20:30:00+00:00,FT,Regular Season - 37,Humble Lions,3440,Dunbeholden,3438,1,1,True
+1304865,2025-04-20T20:30:00+00:00,FT,Regular Season - 37,Mount Pleasant Academy,3442,Montego Bay United,3441,2,0,True
+1304860,2025-04-20T20:30:00+00:00,FT,Regular Season - 37,Portmore United,3443,Waterhouse,3447,0,2,True
+1304861,2025-04-20T20:30:00+00:00,FT,Regular Season - 37,Tivoli Gardens,3445,Harbour View,3439,2,1,True
+1304864,2025-04-20T20:30:00+00:00,FT,Regular Season - 37,Molynes United,6407,Racing United,25020,3,1,True
+1304863,2025-04-21T22:00:00+00:00,FT,Regular Season - 37,Cavalier,3437,Chapelton,20597,2,0,True
+1304859,2025-04-22T00:45:00+00:00,FT,Regular Season - 37,Arnett Gardens,3436,Vere United,6408,3,1,True
+1304825,2025-04-24T21:00:00+00:00,FT,Regular Season - 32,Cavalier,3437,Mount Pleasant Academy,3442,2,1,True
+1304868,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Dunbeholden,3438,Portmore United,3443,1,0,True
+1304867,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Harbour View,3439,Vere United,6408,5,0,True
+1304871,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Montego Bay United,3441,Cavalier,3437,1,0,True
+1304872,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Mount Pleasant Academy,3442,Molynes United,6407,3,0,True
+1304866,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Waterhouse,3447,Arnett Gardens,3436,0,2,True
+1304869,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Chapelton,20597,Tivoli Gardens,3445,2,2,True
+1304870,2025-04-27T20:30:00+00:00,FT,Regular Season - 38,Racing United,25020,Humble Lions,3440,2,1,True
+1304873,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Arnett Gardens,3436,Harbour View,3439,5,1,True
+1304879,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Cavalier,3437,Molynes United,6407,4,3,True
+1304878,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Humble Lions,3440,Mount Pleasant Academy,3442,0,4,True
+1304876,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Portmore United,3443,Racing United,25020,2,0,True
+1304877,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Tivoli Gardens,3445,Montego Bay United,3441,2,1,True
+1304874,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Waterhouse,3447,Dunbeholden,3438,2,0,True
+1304875,2025-05-04T20:30:00+00:00,FT,Regular Season - 39,Vere United,6408,Chapelton,20597,1,3,True
+1374436,2025-05-09T23:00:00+00:00,FT,Play-offs,Tivoli Gardens,3445,Montego Bay United,3441,1,2,True
+1374438,2025-05-10T01:00:00+00:00,FT,Play-offs,Portmore United,3443,Cavalier,3437,1,1,True
+1374439,2025-05-12T23:00:00+00:00,AET,Play-offs,Cavalier,3437,Portmore United,3443,1,0,False
+1374437,2025-05-13T02:00:00+00:00,FT,Play-offs,Montego Bay United,3441,Tivoli Gardens,3445,1,1,True
+1375290,2025-05-15T23:00:00+00:00,FT,Semi-finals,Cavalier,3437,Arnett Gardens,3436,1,1,True
+1375289,2025-05-16T01:30:00+00:00,FT,Semi-finals,Montego Bay United,3441,Mount Pleasant Academy,3442,0,1,True
+1375288,2025-05-18T22:00:00+00:00,FT,Semi-finals,Mount Pleasant Academy,3442,Montego Bay United,3441,1,1,True
+1375291,2025-05-19T01:00:00+00:00,FT,Semi-finals,Arnett Gardens,3436,Cavalier,3437,0,1,True
+1375878,2025-05-23T21:00:00+00:00,FT,3rd Place Final,Arnett Gardens,3436,Montego Bay United,3441,4,2,True
+1375877,2025-05-24T00:00:00+00:00,PEN,Final,Cavalier,3437,Mount Pleasant Academy,3442,0,0,False

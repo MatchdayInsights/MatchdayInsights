@@ -1,31 +1,31 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1355110,2025-01-15T00:00:00+00:00,FT,Kompong Cham,5390,Boeung Ket,5387,1,8,True
-1355114,2025-01-15T00:00:00+00:00,FT,Kep,25740,Svay Rieng,5396,0,9,True
-1355112,2025-01-15T00:00:00+00:00,FT,Lion King,25741,Visakha,5397,0,3,True
-1355116,2025-01-16T00:00:00+00:00,FT,Chheu Tom Pursat,25739,Phnom Penh Crown,5394,0,2,True
-1355118,2025-01-22T00:00:00+00:00,FT,Kirivong Sok Sen Chey,5389,Life Sihanoukville,24520,2,0,True
-1355120,2025-01-22T00:00:00+00:00,FT,National Police,5392,NagaWorld,5566,0,1,True
-1355122,2025-01-23T00:00:00+00:00,FT,Angkor Tiger,5385,National Defense,5391,0,3,True
-1355111,2025-01-29T00:00:00+00:00,FT,Boeung Ket,5387,Kompong Cham,5390,8,0,True
-1355123,2025-02-05T00:00:00+00:00,FT,National Defense,5391,Angkor Tiger,5385,3,3,True
-1355117,2025-02-05T00:00:00+00:00,FT,Phnom Penh Crown,5394,Chheu Tom Pursat,25739,7,0,True
-1355113,2025-02-06T00:00:00+00:00,FT,Visakha,5397,Lion King,25741,5,0,True
-1355121,2025-02-12T00:00:00+00:00,FT,NagaWorld,5566,National Police,5392,2,2,True
-1355124,2025-02-12T00:00:00+00:00,FT,Thbong Khmum,25742,Dangkor Senchey,21735,0,3,True
-1355115,2025-02-19T00:00:00+00:00,FT,Svay Rieng,5396,Kep,25740,11,0,True
-1355125,2025-02-19T00:00:00+00:00,FT,Dangkor Senchey,21735,Thbong Khmum,25742,3,2,True
-1355119,2025-02-19T00:00:00+00:00,FT,Life Sihanoukville,24520,Kirivong Sok Sen Chey,5389,2,3,True
-1355102,2025-02-26T08:30:00+00:00,FT,Kirivong Sok Sen Chey,5389,Svay Rieng,5396,0,2,True
-1355104,2025-02-26T11:00:00+00:00,FT,National Defense,5391,Visakha,5397,2,2,True
-1355106,2025-02-26T11:00:00+00:00,FT,Dangkor Senchey,21735,Boeung Ket,5387,0,2,True
-1355108,2025-02-27T11:00:00+00:00,FT,NagaWorld,5566,Phnom Penh Crown,5394,0,4,True
-1355109,2025-03-14T11:00:00+00:00,FT,Phnom Penh Crown,5394,NagaWorld,5566,0,1,True
-1355103,2025-04-02T11:00:00+00:00,FT,Svay Rieng,5396,Kirivong Sok Sen Chey,5389,3,2,True
-1355105,2025-04-02T11:00:00+00:00,FT,Visakha,5397,National Defense,5391,4,0,True
-1355107,2025-04-03T11:00:00+00:00,FT,Boeung Ket,5387,Dangkor Senchey,21735,1,0,True
-1372155,2025-04-23T12:00:00+00:00,FT,Boeung Ket,5387,Svay Rieng,5396,0,1,True
-1372157,2025-04-30T11:00:00+00:00,FT,Phnom Penh Crown,5394,Visakha,5397,2,2,True
-1372158,2025-05-07T11:00:00+00:00,FT,Visakha,5397,Phnom Penh Crown,5394,0,1,True
-1372156,2025-05-14T11:00:00+00:00,FT,Svay Rieng,5396,Boeung Ket,5387,1,1,True
-1376086,2025-05-25T09:00:00+00:00,FT,Boeung Ket,5387,Visakha,5397,3,0,True
-1376087,2025-05-25T12:00:00+00:00,FT,Svay Rieng,5396,Phnom Penh Crown,5394,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1355110,2025-01-15T00:00:00+00:00,FT,Round of 16,Kompong Cham,5390,Boeung Ket,5387,1,8,True
+1355114,2025-01-15T00:00:00+00:00,FT,Round of 16,Kep,25740,Svay Rieng,5396,0,9,True
+1355112,2025-01-15T00:00:00+00:00,FT,Round of 16,Lion King,25741,Visakha,5397,0,3,True
+1355116,2025-01-16T00:00:00+00:00,FT,Round of 16,Chheu Tom Pursat,25739,Phnom Penh Crown,5394,0,2,True
+1355118,2025-01-22T00:00:00+00:00,FT,Round of 16,Kirivong Sok Sen Chey,5389,Life Sihanoukville,24520,2,0,True
+1355120,2025-01-22T00:00:00+00:00,FT,Round of 16,National Police,5392,NagaWorld,5566,0,1,True
+1355122,2025-01-23T00:00:00+00:00,FT,Round of 16,Angkor Tiger,5385,National Defense,5391,0,3,True
+1355111,2025-01-29T00:00:00+00:00,FT,Round of 16,Boeung Ket,5387,Kompong Cham,5390,8,0,True
+1355123,2025-02-05T00:00:00+00:00,FT,Round of 16,National Defense,5391,Angkor Tiger,5385,3,3,True
+1355117,2025-02-05T00:00:00+00:00,FT,Round of 16,Phnom Penh Crown,5394,Chheu Tom Pursat,25739,7,0,True
+1355113,2025-02-06T00:00:00+00:00,FT,Round of 16,Visakha,5397,Lion King,25741,5,0,True
+1355121,2025-02-12T00:00:00+00:00,FT,Round of 16,NagaWorld,5566,National Police,5392,2,2,True
+1355124,2025-02-12T00:00:00+00:00,FT,Round of 16,Thbong Khmum,25742,Dangkor Senchey,21735,0,3,True
+1355115,2025-02-19T00:00:00+00:00,FT,Round of 16,Svay Rieng,5396,Kep,25740,11,0,True
+1355125,2025-02-19T00:00:00+00:00,FT,Round of 16,Dangkor Senchey,21735,Thbong Khmum,25742,3,2,True
+1355119,2025-02-19T00:00:00+00:00,FT,Round of 16,Life Sihanoukville,24520,Kirivong Sok Sen Chey,5389,2,3,True
+1355102,2025-02-26T08:30:00+00:00,FT,Quarter-finals,Kirivong Sok Sen Chey,5389,Svay Rieng,5396,0,2,True
+1355104,2025-02-26T11:00:00+00:00,FT,Quarter-finals,National Defense,5391,Visakha,5397,2,2,True
+1355106,2025-02-26T11:00:00+00:00,FT,Quarter-finals,Dangkor Senchey,21735,Boeung Ket,5387,0,2,True
+1355108,2025-02-27T11:00:00+00:00,FT,Quarter-finals,NagaWorld,5566,Phnom Penh Crown,5394,0,4,True
+1355109,2025-03-14T11:00:00+00:00,FT,Quarter-finals,Phnom Penh Crown,5394,NagaWorld,5566,0,1,True
+1355103,2025-04-02T11:00:00+00:00,FT,Quarter-finals,Svay Rieng,5396,Kirivong Sok Sen Chey,5389,3,2,True
+1355105,2025-04-02T11:00:00+00:00,FT,Quarter-finals,Visakha,5397,National Defense,5391,4,0,True
+1355107,2025-04-03T11:00:00+00:00,FT,Quarter-finals,Boeung Ket,5387,Dangkor Senchey,21735,1,0,True
+1372155,2025-04-23T12:00:00+00:00,FT,Semi-finals,Boeung Ket,5387,Svay Rieng,5396,0,1,True
+1372157,2025-04-30T11:00:00+00:00,FT,Semi-finals,Phnom Penh Crown,5394,Visakha,5397,2,2,True
+1372158,2025-05-07T11:00:00+00:00,FT,Semi-finals,Visakha,5397,Phnom Penh Crown,5394,0,1,True
+1372156,2025-05-14T11:00:00+00:00,FT,Semi-finals,Svay Rieng,5396,Boeung Ket,5387,1,1,True
+1376086,2025-05-25T09:00:00+00:00,FT,3rd Place Final,Boeung Ket,5387,Visakha,5397,3,0,True
+1376087,2025-05-25T12:00:00+00:00,FT,Final,Svay Rieng,5396,Phnom Penh Crown,5394,1,2,True

@@ -1,63 +1,63 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1351423,2025-07-29T23:00:00+00:00,PEN,CF Montreal,1614,Leon,2289,1,1,False
-1351425,2025-07-29T23:00:00+00:00,PEN,Toluca,2281,Columbus Crew,1613,2,2,False
-1351424,2025-07-30T00:00:00+00:00,FT,New York City FC,1604,Puebla,2291,0,3,True
-1351426,2025-07-30T01:00:00+00:00,FT,Tigres UANL,2279,Houston Dynamo,1600,4,1,True
-1351427,2025-07-30T02:30:00+00:00,PEN,Los Angeles FC,1616,Mazatlán,14002,1,1,False
-1351428,2025-07-30T03:00:00+00:00,FT,CF Pachuca,2292,San Diego,25484,3,2,True
-1351430,2025-07-30T23:30:00+00:00,FT,Necaxa,2288,Atlanta United FC,1608,3,1,True
-1351429,2025-07-30T23:30:00+00:00,FT,Inter Miami,9568,Atlas,2283,2,1,True
-1351431,2025-07-31T00:00:00+00:00,PEN,U.N.A.M. - Pumas,2286,Orlando City SC,1598,1,1,False
-1351432,2025-07-31T00:30:00+00:00,FT,Minnesota United FC,1612,Club Queretaro,2290,4,1,True
-1351433,2025-07-31T01:30:00+00:00,PEN,Club America,2287,Real Salt Lake,1606,2,2,False
-1351434,2025-07-31T02:30:00+00:00,FT,Portland Timbers,1617,Atletico San Luis,2314,4,0,True
-1351437,2025-07-31T23:00:00+00:00,FT,Monterrey,2282,FC Cincinnati,2242,2,3,True
-1351436,2025-07-31T23:30:00+00:00,FT,Guadalajara Chivas,2278,New York Red Bulls,1602,0,1,True
-1351435,2025-07-31T23:30:00+00:00,FT,Charlotte,18310,FC Juarez,2298,1,4,True
-1351438,2025-08-01T01:30:00+00:00,FT,Colorado Rapids,1610,Santos Laguna,2285,2,1,True
-1351439,2025-08-01T02:30:00+00:00,FT,Cruz Azul,2295,Seattle Sounders,1595,0,7,True
-1351440,2025-08-01T03:00:00+00:00,FT,Los Angeles Galaxy,1605,Club Tijuana,2280,5,2,True
-1351441,2025-08-01T22:00:00+00:00,FT,New York City FC,1604,Leon,2289,2,0,True
-1351442,2025-08-01T23:00:00+00:00,FT,Columbus Crew,1613,Puebla,2291,3,1,True
-1351443,2025-08-02T00:30:00+00:00,FT,Houston Dynamo,1600,Mazatlán,14002,0,2,True
-1351444,2025-08-02T01:00:00+00:00,FT,Toluca,2281,CF Montreal,1614,2,1,True
-1351445,2025-08-02T02:30:00+00:00,PEN,Los Angeles FC,1616,CF Pachuca,2292,1,1,False
-1351446,2025-08-02T03:00:00+00:00,FT,Tigres UANL,2279,San Diego,25484,2,1,True
-1351447,2025-08-02T22:00:00+00:00,FT,Orlando City SC,1598,Atlas,2283,3,1,True
-1351448,2025-08-02T23:00:00+00:00,PEN,Inter Miami,9568,Necaxa,2288,2,2,False
-1351449,2025-08-03T01:00:00+00:00,FT,U.N.A.M. - Pumas,2286,Atlanta United FC,1608,3,2,True
-1351450,2025-08-03T01:00:00+00:00,PEN,Club America,2287,Minnesota United FC,1612,3,3,False
-1351451,2025-08-03T01:30:00+00:00,PEN,Real Salt Lake,1606,Atletico San Luis,2314,2,2,False
-1351452,2025-08-03T03:00:00+00:00,FT,Portland Timbers,1617,Club Queretaro,2290,1,0,True
-1351455,2025-08-03T21:30:00+00:00,PEN,FC Cincinnati,2242,FC Juarez,2298,2,2,False
-1351454,2025-08-03T23:50:00+00:00,PEN,Guadalajara Chivas,2278,Charlotte,18310,2,2,False
-1351453,2025-08-04T00:30:00+00:00,PEN,Monterrey,2282,New York Red Bulls,1602,1,1,False
-1351456,2025-08-04T01:30:00+00:00,FT,Colorado Rapids,1610,Club Tijuana,2280,1,2,True
-1351458,2025-08-04T02:30:00+00:00,FT,Seattle Sounders,1595,Santos Laguna,2285,2,1,True
-1351457,2025-08-04T02:30:00+00:00,PEN,Los Angeles Galaxy,1605,Cruz Azul,2295,1,1,False
-1351459,2025-08-05T23:30:00+00:00,FT,Columbus Crew,1613,Leon,2289,1,0,True
-1351462,2025-08-05T23:30:00+00:00,FT,Toluca,2281,New York City FC,1604,2,1,True
-1351461,2025-08-06T00:00:00+00:00,FT,CF Montreal,1614,Puebla,2291,1,2,True
-1351460,2025-08-06T00:30:00+00:00,FT,Houston Dynamo,1600,CF Pachuca,2292,1,2,True
-1351463,2025-08-06T02:00:00+00:00,FT,Mazatlán,14002,San Diego,25484,0,2,True
-1351464,2025-08-06T02:30:00+00:00,FT,Tigres UANL,2279,Los Angeles FC,1616,1,2,True
-1351467,2025-08-06T23:00:00+00:00,FT,Orlando City SC,1598,Necaxa,2288,5,1,True
-1351465,2025-08-06T23:30:00+00:00,FT,Atlanta United FC,1608,Atlas,2283,4,1,True
-1351466,2025-08-06T23:30:00+00:00,FT,Inter Miami,9568,U.N.A.M. - Pumas,2286,3,1,True
-1351468,2025-08-07T00:30:00+00:00,FT,Minnesota United FC,1612,Atletico San Luis,2314,0,2,True
-1351470,2025-08-07T01:30:00+00:00,FT,Real Salt Lake,1606,Club Queretaro,2290,1,0,True
-1351469,2025-08-07T01:30:00+00:00,PEN,Club America,2287,Portland Timbers,1617,1,1,False
-1351471,2025-08-07T03:00:00+00:00,FT,Seattle Sounders,1595,Club Tijuana,2280,2,1,True
-1351472,2025-08-07T23:00:00+00:00,FT,FC Cincinnati,2242,Guadalajara Chivas,2278,1,2,True
-1351474,2025-08-07T23:30:00+00:00,PEN,New York Red Bulls,1602,FC Juarez,2298,1,1,False
-1351473,2025-08-07T23:30:00+00:00,FT,Monterrey,2282,Charlotte,18310,0,2,True
-1351475,2025-08-08T00:30:00+00:00,PEN,Cruz Azul,2295,Colorado Rapids,1610,2,2,False
-1351476,2025-08-08T03:35:00+00:00,FT,Los Angeles Galaxy,1605,Santos Laguna,2285,4,0,True
-1430905,2025-08-21T00:00:00+00:00,FT,Inter Miami,9568,Tigres UANL,2279,2,1,True
-1430906,2025-08-21T00:50:00+00:00,PEN,Toluca,2281,Orlando City SC,1598,0,0,False
-1430907,2025-08-21T03:00:00+00:00,PEN,Seattle Sounders,1595,Puebla,2291,0,0,False
-1430908,2025-08-21T03:45:00+00:00,FT,Los Angeles Galaxy,1605,CF Pachuca,2292,2,1,True
-1447008,2025-08-28T00:30:00+00:00,FT,Inter Miami,9568,Orlando City SC,1598,3,1,True
-1447009,2025-08-28T02:45:00+00:00,FT,Los Angeles Galaxy,1605,Seattle Sounders,1595,0,2,True
-1449980,2025-08-31T21:00:00+00:00,FT,Los Angeles Galaxy,1605,Orlando City SC,1598,2,1,True
-1449981,2025-09-01T00:00:00+00:00,FT,Seattle Sounders,1595,Inter Miami,9568,3,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1351423,2025-07-29T23:00:00+00:00,PEN,Group Stage - 1,CF Montreal,1614,Leon,2289,1,1,False
+1351425,2025-07-29T23:00:00+00:00,PEN,Group Stage - 1,Toluca,2281,Columbus Crew,1613,2,2,False
+1351424,2025-07-30T00:00:00+00:00,FT,Group Stage - 1,New York City FC,1604,Puebla,2291,0,3,True
+1351426,2025-07-30T01:00:00+00:00,FT,Group Stage - 1,Tigres UANL,2279,Houston Dynamo,1600,4,1,True
+1351427,2025-07-30T02:30:00+00:00,PEN,Group Stage - 1,Los Angeles FC,1616,Mazatlán,14002,1,1,False
+1351428,2025-07-30T03:00:00+00:00,FT,Group Stage - 1,CF Pachuca,2292,San Diego,25484,3,2,True
+1351430,2025-07-30T23:30:00+00:00,FT,Group Stage - 1,Necaxa,2288,Atlanta United FC,1608,3,1,True
+1351429,2025-07-30T23:30:00+00:00,FT,Group Stage - 1,Inter Miami,9568,Atlas,2283,2,1,True
+1351431,2025-07-31T00:00:00+00:00,PEN,Group Stage - 1,U.N.A.M. - Pumas,2286,Orlando City SC,1598,1,1,False
+1351432,2025-07-31T00:30:00+00:00,FT,Group Stage - 1,Minnesota United FC,1612,Club Queretaro,2290,4,1,True
+1351433,2025-07-31T01:30:00+00:00,PEN,Group Stage - 1,Club America,2287,Real Salt Lake,1606,2,2,False
+1351434,2025-07-31T02:30:00+00:00,FT,Group Stage - 1,Portland Timbers,1617,Atletico San Luis,2314,4,0,True
+1351437,2025-07-31T23:00:00+00:00,FT,Group Stage - 1,Monterrey,2282,FC Cincinnati,2242,2,3,True
+1351436,2025-07-31T23:30:00+00:00,FT,Group Stage - 1,Guadalajara Chivas,2278,New York Red Bulls,1602,0,1,True
+1351435,2025-07-31T23:30:00+00:00,FT,Group Stage - 1,Charlotte,18310,FC Juarez,2298,1,4,True
+1351438,2025-08-01T01:30:00+00:00,FT,Group Stage - 1,Colorado Rapids,1610,Santos Laguna,2285,2,1,True
+1351439,2025-08-01T02:30:00+00:00,FT,Group Stage - 1,Cruz Azul,2295,Seattle Sounders,1595,0,7,True
+1351440,2025-08-01T03:00:00+00:00,FT,Group Stage - 1,Los Angeles Galaxy,1605,Club Tijuana,2280,5,2,True
+1351441,2025-08-01T22:00:00+00:00,FT,Group Stage - 2,New York City FC,1604,Leon,2289,2,0,True
+1351442,2025-08-01T23:00:00+00:00,FT,Group Stage - 2,Columbus Crew,1613,Puebla,2291,3,1,True
+1351443,2025-08-02T00:30:00+00:00,FT,Group Stage - 2,Houston Dynamo,1600,Mazatlán,14002,0,2,True
+1351444,2025-08-02T01:00:00+00:00,FT,Group Stage - 2,Toluca,2281,CF Montreal,1614,2,1,True
+1351445,2025-08-02T02:30:00+00:00,PEN,Group Stage - 2,Los Angeles FC,1616,CF Pachuca,2292,1,1,False
+1351446,2025-08-02T03:00:00+00:00,FT,Group Stage - 2,Tigres UANL,2279,San Diego,25484,2,1,True
+1351447,2025-08-02T22:00:00+00:00,FT,Group Stage - 2,Orlando City SC,1598,Atlas,2283,3,1,True
+1351448,2025-08-02T23:00:00+00:00,PEN,Group Stage - 2,Inter Miami,9568,Necaxa,2288,2,2,False
+1351449,2025-08-03T01:00:00+00:00,FT,Group Stage - 2,U.N.A.M. - Pumas,2286,Atlanta United FC,1608,3,2,True
+1351450,2025-08-03T01:00:00+00:00,PEN,Group Stage - 2,Club America,2287,Minnesota United FC,1612,3,3,False
+1351451,2025-08-03T01:30:00+00:00,PEN,Group Stage - 2,Real Salt Lake,1606,Atletico San Luis,2314,2,2,False
+1351452,2025-08-03T03:00:00+00:00,FT,Group Stage - 2,Portland Timbers,1617,Club Queretaro,2290,1,0,True
+1351455,2025-08-03T21:30:00+00:00,PEN,Group Stage - 2,FC Cincinnati,2242,FC Juarez,2298,2,2,False
+1351454,2025-08-03T23:50:00+00:00,PEN,Group Stage - 2,Guadalajara Chivas,2278,Charlotte,18310,2,2,False
+1351453,2025-08-04T00:30:00+00:00,PEN,Group Stage - 2,Monterrey,2282,New York Red Bulls,1602,1,1,False
+1351456,2025-08-04T01:30:00+00:00,FT,Group Stage - 2,Colorado Rapids,1610,Club Tijuana,2280,1,2,True
+1351458,2025-08-04T02:30:00+00:00,FT,Group Stage - 2,Seattle Sounders,1595,Santos Laguna,2285,2,1,True
+1351457,2025-08-04T02:30:00+00:00,PEN,Group Stage - 2,Los Angeles Galaxy,1605,Cruz Azul,2295,1,1,False
+1351459,2025-08-05T23:30:00+00:00,FT,Group Stage - 3,Columbus Crew,1613,Leon,2289,1,0,True
+1351462,2025-08-05T23:30:00+00:00,FT,Group Stage - 3,Toluca,2281,New York City FC,1604,2,1,True
+1351461,2025-08-06T00:00:00+00:00,FT,Group Stage - 3,CF Montreal,1614,Puebla,2291,1,2,True
+1351460,2025-08-06T00:30:00+00:00,FT,Group Stage - 3,Houston Dynamo,1600,CF Pachuca,2292,1,2,True
+1351463,2025-08-06T02:00:00+00:00,FT,Group Stage - 3,Mazatlán,14002,San Diego,25484,0,2,True
+1351464,2025-08-06T02:30:00+00:00,FT,Group Stage - 3,Tigres UANL,2279,Los Angeles FC,1616,1,2,True
+1351467,2025-08-06T23:00:00+00:00,FT,Group Stage - 3,Orlando City SC,1598,Necaxa,2288,5,1,True
+1351465,2025-08-06T23:30:00+00:00,FT,Group Stage - 3,Atlanta United FC,1608,Atlas,2283,4,1,True
+1351466,2025-08-06T23:30:00+00:00,FT,Group Stage - 3,Inter Miami,9568,U.N.A.M. - Pumas,2286,3,1,True
+1351468,2025-08-07T00:30:00+00:00,FT,Group Stage - 3,Minnesota United FC,1612,Atletico San Luis,2314,0,2,True
+1351470,2025-08-07T01:30:00+00:00,FT,Group Stage - 3,Real Salt Lake,1606,Club Queretaro,2290,1,0,True
+1351469,2025-08-07T01:30:00+00:00,PEN,Group Stage - 3,Club America,2287,Portland Timbers,1617,1,1,False
+1351471,2025-08-07T03:00:00+00:00,FT,Group Stage - 3,Seattle Sounders,1595,Club Tijuana,2280,2,1,True
+1351472,2025-08-07T23:00:00+00:00,FT,Group Stage - 3,FC Cincinnati,2242,Guadalajara Chivas,2278,1,2,True
+1351474,2025-08-07T23:30:00+00:00,PEN,Group Stage - 3,New York Red Bulls,1602,FC Juarez,2298,1,1,False
+1351473,2025-08-07T23:30:00+00:00,FT,Group Stage - 3,Monterrey,2282,Charlotte,18310,0,2,True
+1351475,2025-08-08T00:30:00+00:00,PEN,Group Stage - 3,Cruz Azul,2295,Colorado Rapids,1610,2,2,False
+1351476,2025-08-08T03:35:00+00:00,FT,Group Stage - 3,Los Angeles Galaxy,1605,Santos Laguna,2285,4,0,True
+1430905,2025-08-21T00:00:00+00:00,FT,Quarter-finals,Inter Miami,9568,Tigres UANL,2279,2,1,True
+1430906,2025-08-21T00:50:00+00:00,PEN,Quarter-finals,Toluca,2281,Orlando City SC,1598,0,0,False
+1430907,2025-08-21T03:00:00+00:00,PEN,Quarter-finals,Seattle Sounders,1595,Puebla,2291,0,0,False
+1430908,2025-08-21T03:45:00+00:00,FT,Quarter-finals,Los Angeles Galaxy,1605,CF Pachuca,2292,2,1,True
+1447008,2025-08-28T00:30:00+00:00,FT,Semi-finals,Inter Miami,9568,Orlando City SC,1598,3,1,True
+1447009,2025-08-28T02:45:00+00:00,FT,Semi-finals,Los Angeles Galaxy,1605,Seattle Sounders,1595,0,2,True
+1449980,2025-08-31T21:00:00+00:00,FT,Third place,Los Angeles Galaxy,1605,Orlando City SC,1598,2,1,True
+1449981,2025-09-01T00:00:00+00:00,FT,Final,Seattle Sounders,1595,Inter Miami,9568,3,0,True

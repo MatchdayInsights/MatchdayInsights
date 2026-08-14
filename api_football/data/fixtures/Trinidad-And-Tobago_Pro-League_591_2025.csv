@@ -1,109 +1,133 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1359721,2025-04-11T22:00:00+00:00,CANC,Central,8005,Ath­let­ic Club,12560,,,False
-1318919,2025-01-03T21:00:00+00:00,FT,Point Fortin,12566,Cunupia,12562,4,1,True
-1318918,2025-01-03T21:00:00+00:00,FT,Phoenix,25276,Central,8005,2,6,True
-1318920,2025-01-03T22:00:00+00:00,FT,Police,12559,La Horquetta Rangers,12564,1,2,True
-1318921,2025-01-03T23:00:00+00:00,FT,Club Sando,12561,Morvant Caledonia United,12565,2,2,True
-1318922,2025-01-03T23:00:00+00:00,FT,San Juan Jabloteh,12567,Prison Service,20974,2,2,True
-1318917,2025-01-04T00:00:00+00:00,FT,Defence Force,12563,Ath­let­ic Club,12560,6,3,True
-1318923,2025-01-10T22:00:00+00:00,FT,Morvant Caledonia United,12565,Defence Force,12563,2,6,True
-1318924,2025-01-11T00:00:00+00:00,FT,Central,8005,Club Sando,12561,2,1,True
-1318928,2025-01-11T21:00:00+00:00,FT,Phoenix,25276,San Juan Jabloteh,12567,1,3,True
-1318926,2025-01-11T23:00:00+00:00,FT,Cunupia,12562,Police,12559,0,6,True
-1318927,2025-01-12T21:00:00+00:00,FT,Prison Service,20974,La Horquetta Rangers,12564,0,0,True
-1318925,2025-01-12T23:00:00+00:00,FT,Ath­let­ic Club,12560,Point Fortin,12566,4,1,True
-1318934,2025-01-17T22:00:00+00:00,FT,Police,12559,Ath­let­ic Club,12560,0,2,True
-1318929,2025-01-18T00:00:00+00:00,FT,Central,8005,Defence Force,12563,0,3,True
-1318931,2025-01-18T21:00:00+00:00,FT,Prison Service,20974,Cunupia,12562,2,4,True
-1318930,2025-01-18T23:00:00+00:00,FT,La Horquetta Rangers,12564,San Juan Jabloteh,12567,3,4,True
-1318933,2025-01-19T20:00:00+00:00,FT,Club Sando,12561,Phoenix,25276,2,0,True
-1318932,2025-01-19T22:00:00+00:00,FT,Morvant Caledonia United,12565,Point Fortin,12566,1,0,True
-1318935,2025-01-24T21:00:00+00:00,FT,Phoenix,25276,La Horquetta Rangers,12564,1,1,True
-1318937,2025-01-24T23:00:00+00:00,FT,Central,8005,Point Fortin,12566,4,0,True
-1318936,2025-01-25T21:00:00+00:00,FT,San Juan Jabloteh,12567,Cunupia,12562,5,0,True
-1318938,2025-01-25T23:00:00+00:00,FT,Club Sando,12561,Defence Force,12563,1,5,True
-1318939,2025-01-26T21:00:00+00:00,FT,Ath­let­ic Club,12560,Prison Service,20974,3,0,True
-1318940,2025-01-26T23:00:00+00:00,FT,Morvant Caledonia United,12565,Police,12559,1,4,True
-1318942,2025-01-31T00:00:00+00:00,FT,La Horquetta Rangers,12564,Cunupia,12562,5,1,True
-1318944,2025-01-31T23:00:00+00:00,FT,Police,12559,Central,8005,7,5,True
-1318941,2025-02-01T21:00:00+00:00,FT,Point Fortin,12566,Club Sando,12561,1,2,True
-1318943,2025-02-01T23:00:00+00:00,FT,Prison Service,20974,Morvant Caledonia United,12565,1,2,True
-1318946,2025-02-02T21:00:00+00:00,FT,Defence Force,12563,Phoenix,25276,1,0,True
-1318945,2025-02-02T23:00:00+00:00,FT,San Juan Jabloteh,12567,Ath­let­ic Club,12560,0,0,True
-1318949,2025-02-08T22:00:00+00:00,FT,Ath­let­ic Club,12560,La Horquetta Rangers,12564,1,1,True
-1318950,2025-02-09T00:00:00+00:00,FT,Prison Service,20974,Central,8005,2,3,True
-1318947,2025-02-09T21:00:00+00:00,FT,Morvant Caledonia United,12565,San Juan Jabloteh,12567,1,2,True
-1318951,2025-02-09T21:00:00+00:00,FT,Phoenix,25276,Cunupia,12562,0,0,True
-1318952,2025-02-09T23:00:00+00:00,FT,Club Sando,12561,Police,12559,0,1,True
-1318948,2025-02-09T23:00:00+00:00,FT,Defence Force,12563,Point Fortin,12566,5,1,True
-1318953,2025-02-14T21:00:00+00:00,FT,Club Sando,12561,San Juan Jabloteh,12567,0,1,True
-1318954,2025-02-14T23:00:00+00:00,FT,La Horquetta Rangers,12564,Central,8005,2,3,True
-1318955,2025-02-15T21:00:00+00:00,FT,Ath­let­ic Club,12560,Phoenix,25276,3,3,True
-1318956,2025-02-15T23:00:00+00:00,FT,Morvant Caledonia United,12565,Cunupia,12562,4,2,True
-1318957,2025-02-16T21:00:00+00:00,FT,Defence Force,12563,Prison Service,20974,1,0,True
-1318958,2025-02-16T23:00:00+00:00,FT,Point Fortin,12566,Police,12559,1,4,True
-1359704,2025-03-14T22:00:00+00:00,FT,Morvant Caledonia United,12565,La Horquetta Rangers,12564,2,3,True
-1359703,2025-03-15T00:00:00+00:00,FT,Defence Force,12563,Police,12559,2,1,True
-1359705,2025-03-15T21:00:00+00:00,FT,Club Sando,12561,Prison Service,20974,3,0,True
-1359706,2025-03-15T23:00:00+00:00,FT,Central,8005,San Juan Jabloteh,12567,2,4,True
-1359707,2025-03-16T21:00:00+00:00,FT,Phoenix,25276,Point Fortin,12566,4,1,True
-1359708,2025-03-16T23:00:00+00:00,FT,Ath­let­ic Club,12560,Cunupia,12562,5,0,True
-1359710,2025-03-28T22:00:00+00:00,FT,Club Sando,12561,La Horquetta Rangers,12564,1,0,True
-1359709,2025-03-29T00:00:00+00:00,FT,Defence Force,12563,San Juan Jabloteh,12567,3,1,True
-1359711,2025-03-29T21:00:00+00:00,FT,Point Fortin,12566,Prison Service,20974,0,3,True
-1359712,2025-03-29T23:00:00+00:00,FT,Cunupia,12562,Central,8005,0,2,True
-1359713,2025-03-30T21:00:00+00:00,FT,Phoenix,25276,Police,12559,1,1,True
-1359714,2025-03-30T23:00:00+00:00,FT,Morvant Caledonia United,12565,Ath­let­ic Club,12560,1,1,True
-1359715,2025-04-04T22:00:00+00:00,FT,Club Sando,12561,Ath­let­ic Club,12560,0,0,True
-1359717,2025-04-05T00:00:00+00:00,FT,Point Fortin,12566,La Horquetta Rangers,12564,1,1,True
-1359716,2025-04-05T21:00:00+00:00,FT,Central,8005,Morvant Caledonia United,12565,2,2,True
-1359718,2025-04-05T23:00:00+00:00,FT,Cunupia,12562,Defence Force,12563,0,10,True
-1359719,2025-04-06T21:00:00+00:00,FT,Phoenix,25276,Prison Service,20974,0,3,True
-1359720,2025-04-06T23:00:00+00:00,FT,Police,12559,San Juan Jabloteh,12567,1,4,True
-1359722,2025-04-12T00:00:00+00:00,FT,Defence Force,12563,La Horquetta Rangers,12564,2,2,True
-1359723,2025-04-12T21:00:00+00:00,FT,Phoenix,25276,Morvant Caledonia United,12565,1,2,True
-1359724,2025-04-12T23:00:00+00:00,FT,Police,12559,Prison Service,20974,3,0,True
-1359725,2025-04-13T21:00:00+00:00,FT,Cunupia,12562,Club Sando,12561,0,2,True
-1359726,2025-04-13T23:00:00+00:00,FT,Point Fortin,12566,San Juan Jabloteh,12567,0,2,True
-1359731,2025-04-17T21:00:00+00:00,FT,Cunupia,12562,Point Fortin,12566,2,1,True
-1359729,2025-04-17T21:00:00+00:00,FT,Phoenix,25276,Central,8005,0,3,True
-1359728,2025-04-17T22:00:00+00:00,FT,La Horquetta Rangers,12564,Police,12559,2,4,True
-1359730,2025-04-17T23:00:00+00:00,FT,Morvant Caledonia United,12565,Club Sando,12561,0,5,True
-1359732,2025-04-17T23:00:00+00:00,FT,San Juan Jabloteh,12567,Prison Service,20974,2,2,True
-1359727,2025-04-18T00:00:00+00:00,FT,Defence Force,12563,Ath­let­ic Club,12560,1,1,True
-1359734,2025-04-25T22:00:00+00:00,FT,Club Sando,12561,Central,8005,0,1,True
-1359733,2025-04-26T00:00:00+00:00,FT,Defence Force,12563,Morvant Caledonia United,12565,5,1,True
-1359736,2025-04-26T21:00:00+00:00,FT,Police,12559,Cunupia,12562,4,4,True
-1359738,2025-04-26T23:00:00+00:00,FT,Prison Service,20974,La Horquetta Rangers,12564,2,2,True
-1359737,2025-04-27T20:00:00+00:00,FT,San Juan Jabloteh,12567,Phoenix,25276,0,1,True
-1359735,2025-04-27T22:00:00+00:00,FT,Point Fortin,12566,Ath­let­ic Club,12560,1,2,True
-1359739,2025-05-02T22:00:00+00:00,FT,Cunupia,12562,Prison Service,20974,1,0,True
-1359740,2025-05-03T00:00:00+00:00,FT,La Horquetta Rangers,12564,San Juan Jabloteh,12567,0,0,True
-1359741,2025-05-03T21:00:00+00:00,FT,Phoenix,25276,Club Sando,12561,1,2,True
-1359742,2025-05-03T23:00:00+00:00,FT,Ath­let­ic Club,12560,Police,12559,2,4,True
-1359743,2025-05-04T21:00:00+00:00,FT,Morvant Caledonia United,12565,Point Fortin,12566,1,0,True
-1359744,2025-05-04T23:00:00+00:00,FT,Central,8005,Defence Force,12563,0,1,True
-1359745,2025-05-09T22:00:00+00:00,FT,Police,12559,Morvant Caledonia United,12565,3,2,True
-1359746,2025-05-10T00:00:00+00:00,FT,San Juan Jabloteh,12567,Cunupia,12562,3,0,True
-1359747,2025-05-10T21:00:00+00:00,FT,Point Fortin,12566,Central,8005,0,6,True
-1359750,2025-05-10T23:00:00+00:00,FT,Defence Force,12563,Club Sando,12561,3,0,True
-1359749,2025-05-11T21:00:00+00:00,FT,La Horquetta Rangers,12564,Phoenix,25276,0,0,True
-1359748,2025-05-11T23:00:00+00:00,FT,Prison Service,20974,Ath­let­ic Club,12560,0,4,True
-1359751,2025-05-16T22:00:00+00:00,FT,Club Sando,12561,Point Fortin,12566,6,0,True
-1359754,2025-05-17T00:00:00+00:00,FT,Central,8005,Police,12559,0,1,True
-1359753,2025-05-17T21:00:00+00:00,FT,Morvant Caledonia United,12565,Prison Service,20974,2,1,True
-1359752,2025-05-17T23:00:00+00:00,FT,Cunupia,12562,La Horquetta Rangers,12564,0,2,True
-1359756,2025-05-18T21:00:00+00:00,FT,Phoenix,25276,Defence Force,12563,0,4,True
-1359755,2025-05-18T23:00:00+00:00,FT,Ath­let­ic Club,12560,San Juan Jabloteh,12567,3,0,True
-1359760,2025-05-23T22:00:00+00:00,FT,Prison Service,20974,Central,8005,0,4,True
-1359759,2025-05-24T00:00:00+00:00,FT,La Horquetta Rangers,12564,Ath­let­ic Club,12560,2,2,True
-1359757,2025-05-24T21:00:00+00:00,FT,San Juan Jabloteh,12567,Morvant Caledonia United,12565,3,2,True
-1359762,2025-05-24T23:00:00+00:00,FT,Club Sando,12561,Police,12559,0,1,True
-1359761,2025-05-25T21:00:00+00:00,FT,Cunupia,12562,Phoenix,25276,1,1,True
-1359758,2025-05-25T23:00:00+00:00,FT,Point Fortin,12566,Defence Force,12563,1,3,True
-1359765,2025-05-31T21:00:00+00:00,FT,Ath­let­ic Club,12560,Phoenix,25276,5,0,True
-1359763,2025-05-31T21:00:00+00:00,FT,San Juan Jabloteh,12567,Club Sando,12561,2,3,True
-1359768,2025-05-31T23:00:00+00:00,FT,Police,12559,Point Fortin,12566,3,1,True
-1359764,2025-05-31T23:00:00+00:00,FT,La Horquetta Rangers,12564,Central,8005,3,7,True
-1359766,2025-06-01T21:00:00+00:00,FT,Cunupia,12562,Morvant Caledonia United,12565,0,1,True
-1359767,2025-06-01T23:00:00+00:00,FT,Prison Service,20974,Defence Force,12563,1,4,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1359721,2025-04-11T22:00:00+00:00,CANC,Regular Season - 15,Central,8005,Ath­let­ic Club,12560,,,False
+1318893,2024-12-06T22:00:00+00:00,FT,Regular Season - 1,Police,12559,Defence Force,12563,1,2,True
+1318894,2024-12-07T00:00:00+00:00,FT,Regular Season - 1,La Horquetta Rangers,12564,Morvant Caledonia United,12565,2,3,True
+1318896,2024-12-08T21:00:00+00:00,FT,Regular Season - 1,Point Fortin,12566,Phoenix,25276,1,2,True
+1318895,2024-12-08T21:00:00+00:00,FT,Regular Season - 1,Prison Service,20974,Club Sando,12561,1,1,True
+1318898,2024-12-08T23:00:00+00:00,FT,Regular Season - 1,Cunupia,12562,Ath­let­ic Club,12560,1,4,True
+1318897,2024-12-08T23:00:00+00:00,FT,Regular Season - 1,San Juan Jabloteh,12567,Central,8005,1,3,True
+1318899,2024-12-13T22:00:00+00:00,FT,Regular Season - 2,San Juan Jabloteh,12567,Defence Force,12563,1,2,True
+1318900,2024-12-14T00:00:00+00:00,FT,Regular Season - 2,La Horquetta Rangers,12564,Club Sando,12561,1,1,True
+1318901,2024-12-14T21:00:00+00:00,FT,Regular Season - 2,Prison Service,20974,Point Fortin,12566,2,0,True
+1318902,2024-12-14T23:00:00+00:00,FT,Regular Season - 2,Cunupia,12562,Central,8005,0,2,True
+1318903,2024-12-15T21:00:00+00:00,FT,Regular Season - 2,Phoenix,25276,Police,12559,2,4,True
+1318904,2024-12-15T23:00:00+00:00,FT,Regular Season - 2,Ath­let­ic Club,12560,Morvant Caledonia United,12565,0,1,True
+1318905,2024-12-20T22:00:00+00:00,FT,Regular Season - 3,Ath­let­ic Club,12560,Club Sando,12561,1,0,True
+1318907,2024-12-21T00:00:00+00:00,FT,Regular Season - 3,La Horquetta Rangers,12564,Point Fortin,12566,0,1,True
+1318906,2024-12-21T21:00:00+00:00,FT,Regular Season - 3,Morvant Caledonia United,12565,Central,8005,0,2,True
+1318908,2024-12-21T23:00:00+00:00,FT,Regular Season - 3,Cunupia,12562,Defence Force,12563,0,6,True
+1318910,2024-12-22T21:00:00+00:00,FT,Regular Season - 3,Phoenix,25276,Prison Service,20974,2,1,True
+1318909,2024-12-22T23:00:00+00:00,FT,Regular Season - 3,San Juan Jabloteh,12567,Police,12559,3,3,True
+1318911,2024-12-26T21:00:00+00:00,FT,Regular Season - 4,Ath­let­ic Club,12560,Central,8005,2,1,True
+1318912,2024-12-26T21:00:00+00:00,FT,Regular Season - 4,Morvant Caledonia United,12565,Phoenix,25276,2,1,True
+1318915,2024-12-26T22:00:00+00:00,FT,Regular Season - 4,Club Sando,12561,Cunupia,12562,7,1,True
+1318914,2024-12-26T23:00:00+00:00,FT,Regular Season - 4,Police,12559,Prison Service,20974,5,1,True
+1318913,2024-12-26T23:00:00+00:00,FT,Regular Season - 4,La Horquetta Rangers,12564,Defence Force,12563,2,6,True
+1318916,2024-12-27T00:00:00+00:00,FT,Regular Season - 4,Point Fortin,12566,San Juan Jabloteh,12567,1,3,True
+1318919,2025-01-03T21:00:00+00:00,FT,Regular Season - 5,Point Fortin,12566,Cunupia,12562,4,1,True
+1318918,2025-01-03T21:00:00+00:00,FT,Regular Season - 5,Phoenix,25276,Central,8005,2,6,True
+1318920,2025-01-03T22:00:00+00:00,FT,Regular Season - 5,Police,12559,La Horquetta Rangers,12564,1,2,True
+1318921,2025-01-03T23:00:00+00:00,FT,Regular Season - 5,Club Sando,12561,Morvant Caledonia United,12565,2,2,True
+1318922,2025-01-03T23:00:00+00:00,FT,Regular Season - 5,San Juan Jabloteh,12567,Prison Service,20974,2,2,True
+1318917,2025-01-04T00:00:00+00:00,FT,Regular Season - 5,Defence Force,12563,Ath­let­ic Club,12560,6,3,True
+1318923,2025-01-10T22:00:00+00:00,FT,Regular Season - 6,Morvant Caledonia United,12565,Defence Force,12563,2,6,True
+1318924,2025-01-11T00:00:00+00:00,FT,Regular Season - 6,Central,8005,Club Sando,12561,2,1,True
+1318928,2025-01-11T21:00:00+00:00,FT,Regular Season - 6,Phoenix,25276,San Juan Jabloteh,12567,1,3,True
+1318926,2025-01-11T23:00:00+00:00,FT,Regular Season - 6,Cunupia,12562,Police,12559,0,6,True
+1318927,2025-01-12T21:00:00+00:00,FT,Regular Season - 6,Prison Service,20974,La Horquetta Rangers,12564,0,0,True
+1318925,2025-01-12T23:00:00+00:00,FT,Regular Season - 6,Ath­let­ic Club,12560,Point Fortin,12566,4,1,True
+1318934,2025-01-17T22:00:00+00:00,FT,Regular Season - 7,Police,12559,Ath­let­ic Club,12560,0,2,True
+1318929,2025-01-18T00:00:00+00:00,FT,Regular Season - 7,Central,8005,Defence Force,12563,0,3,True
+1318931,2025-01-18T21:00:00+00:00,FT,Regular Season - 7,Prison Service,20974,Cunupia,12562,2,4,True
+1318930,2025-01-18T23:00:00+00:00,FT,Regular Season - 7,La Horquetta Rangers,12564,San Juan Jabloteh,12567,3,4,True
+1318933,2025-01-19T20:00:00+00:00,FT,Regular Season - 7,Club Sando,12561,Phoenix,25276,2,0,True
+1318932,2025-01-19T22:00:00+00:00,FT,Regular Season - 7,Morvant Caledonia United,12565,Point Fortin,12566,1,0,True
+1318935,2025-01-24T21:00:00+00:00,FT,Regular Season - 8,Phoenix,25276,La Horquetta Rangers,12564,1,1,True
+1318937,2025-01-24T23:00:00+00:00,FT,Regular Season - 8,Central,8005,Point Fortin,12566,4,0,True
+1318936,2025-01-25T21:00:00+00:00,FT,Regular Season - 8,San Juan Jabloteh,12567,Cunupia,12562,5,0,True
+1318938,2025-01-25T23:00:00+00:00,FT,Regular Season - 8,Club Sando,12561,Defence Force,12563,1,5,True
+1318939,2025-01-26T21:00:00+00:00,FT,Regular Season - 8,Ath­let­ic Club,12560,Prison Service,20974,3,0,True
+1318940,2025-01-26T23:00:00+00:00,FT,Regular Season - 8,Morvant Caledonia United,12565,Police,12559,1,4,True
+1318942,2025-01-31T00:00:00+00:00,FT,Regular Season - 9,La Horquetta Rangers,12564,Cunupia,12562,5,1,True
+1318944,2025-01-31T23:00:00+00:00,FT,Regular Season - 9,Police,12559,Central,8005,7,5,True
+1318941,2025-02-01T21:00:00+00:00,FT,Regular Season - 9,Point Fortin,12566,Club Sando,12561,1,2,True
+1318943,2025-02-01T23:00:00+00:00,FT,Regular Season - 9,Prison Service,20974,Morvant Caledonia United,12565,1,2,True
+1318946,2025-02-02T21:00:00+00:00,FT,Regular Season - 9,Defence Force,12563,Phoenix,25276,1,0,True
+1318945,2025-02-02T23:00:00+00:00,FT,Regular Season - 9,San Juan Jabloteh,12567,Ath­let­ic Club,12560,0,0,True
+1318949,2025-02-08T22:00:00+00:00,FT,Regular Season - 10,Ath­let­ic Club,12560,La Horquetta Rangers,12564,1,1,True
+1318950,2025-02-09T00:00:00+00:00,FT,Regular Season - 10,Prison Service,20974,Central,8005,2,3,True
+1318947,2025-02-09T21:00:00+00:00,FT,Regular Season - 10,Morvant Caledonia United,12565,San Juan Jabloteh,12567,1,2,True
+1318951,2025-02-09T21:00:00+00:00,FT,Regular Season - 10,Phoenix,25276,Cunupia,12562,0,0,True
+1318952,2025-02-09T23:00:00+00:00,FT,Regular Season - 10,Club Sando,12561,Police,12559,0,1,True
+1318948,2025-02-09T23:00:00+00:00,FT,Regular Season - 10,Defence Force,12563,Point Fortin,12566,5,1,True
+1318953,2025-02-14T21:00:00+00:00,FT,Regular Season - 11,Club Sando,12561,San Juan Jabloteh,12567,0,1,True
+1318954,2025-02-14T23:00:00+00:00,FT,Regular Season - 11,La Horquetta Rangers,12564,Central,8005,2,3,True
+1318955,2025-02-15T21:00:00+00:00,FT,Regular Season - 11,Ath­let­ic Club,12560,Phoenix,25276,3,3,True
+1318956,2025-02-15T23:00:00+00:00,FT,Regular Season - 11,Morvant Caledonia United,12565,Cunupia,12562,4,2,True
+1318957,2025-02-16T21:00:00+00:00,FT,Regular Season - 11,Defence Force,12563,Prison Service,20974,1,0,True
+1318958,2025-02-16T23:00:00+00:00,FT,Regular Season - 11,Point Fortin,12566,Police,12559,1,4,True
+1359704,2025-03-14T22:00:00+00:00,FT,Regular Season - 12,Morvant Caledonia United,12565,La Horquetta Rangers,12564,2,3,True
+1359703,2025-03-15T00:00:00+00:00,FT,Regular Season - 12,Defence Force,12563,Police,12559,2,1,True
+1359705,2025-03-15T21:00:00+00:00,FT,Regular Season - 12,Club Sando,12561,Prison Service,20974,3,0,True
+1359706,2025-03-15T23:00:00+00:00,FT,Regular Season - 12,Central,8005,San Juan Jabloteh,12567,2,4,True
+1359707,2025-03-16T21:00:00+00:00,FT,Regular Season - 12,Phoenix,25276,Point Fortin,12566,4,1,True
+1359708,2025-03-16T23:00:00+00:00,FT,Regular Season - 12,Ath­let­ic Club,12560,Cunupia,12562,5,0,True
+1359710,2025-03-28T22:00:00+00:00,FT,Regular Season - 13,Club Sando,12561,La Horquetta Rangers,12564,1,0,True
+1359709,2025-03-29T00:00:00+00:00,FT,Regular Season - 13,Defence Force,12563,San Juan Jabloteh,12567,3,1,True
+1359711,2025-03-29T21:00:00+00:00,FT,Regular Season - 13,Point Fortin,12566,Prison Service,20974,0,3,True
+1359712,2025-03-29T23:00:00+00:00,FT,Regular Season - 13,Cunupia,12562,Central,8005,0,2,True
+1359713,2025-03-30T21:00:00+00:00,FT,Regular Season - 13,Phoenix,25276,Police,12559,1,1,True
+1359714,2025-03-30T23:00:00+00:00,FT,Regular Season - 13,Morvant Caledonia United,12565,Ath­let­ic Club,12560,1,1,True
+1359715,2025-04-04T22:00:00+00:00,FT,Regular Season - 14,Club Sando,12561,Ath­let­ic Club,12560,0,0,True
+1359717,2025-04-05T00:00:00+00:00,FT,Regular Season - 14,Point Fortin,12566,La Horquetta Rangers,12564,1,1,True
+1359716,2025-04-05T21:00:00+00:00,FT,Regular Season - 14,Central,8005,Morvant Caledonia United,12565,2,2,True
+1359718,2025-04-05T23:00:00+00:00,FT,Regular Season - 14,Cunupia,12562,Defence Force,12563,0,10,True
+1359719,2025-04-06T21:00:00+00:00,FT,Regular Season - 14,Phoenix,25276,Prison Service,20974,0,3,True
+1359720,2025-04-06T23:00:00+00:00,FT,Regular Season - 14,Police,12559,San Juan Jabloteh,12567,1,4,True
+1359722,2025-04-12T00:00:00+00:00,FT,Regular Season - 15,Defence Force,12563,La Horquetta Rangers,12564,2,2,True
+1359723,2025-04-12T21:00:00+00:00,FT,Regular Season - 15,Phoenix,25276,Morvant Caledonia United,12565,1,2,True
+1359724,2025-04-12T23:00:00+00:00,FT,Regular Season - 15,Police,12559,Prison Service,20974,3,0,True
+1359725,2025-04-13T21:00:00+00:00,FT,Regular Season - 15,Cunupia,12562,Club Sando,12561,0,2,True
+1359726,2025-04-13T23:00:00+00:00,FT,Regular Season - 15,Point Fortin,12566,San Juan Jabloteh,12567,0,2,True
+1359731,2025-04-17T21:00:00+00:00,FT,Regular Season - 16,Cunupia,12562,Point Fortin,12566,2,1,True
+1359729,2025-04-17T21:00:00+00:00,FT,Regular Season - 16,Phoenix,25276,Central,8005,0,3,True
+1359728,2025-04-17T22:00:00+00:00,FT,Regular Season - 16,La Horquetta Rangers,12564,Police,12559,2,4,True
+1359730,2025-04-17T23:00:00+00:00,FT,Regular Season - 16,Morvant Caledonia United,12565,Club Sando,12561,0,5,True
+1359732,2025-04-17T23:00:00+00:00,FT,Regular Season - 16,San Juan Jabloteh,12567,Prison Service,20974,2,2,True
+1359727,2025-04-18T00:00:00+00:00,FT,Regular Season - 16,Defence Force,12563,Ath­let­ic Club,12560,1,1,True
+1359734,2025-04-25T22:00:00+00:00,FT,Regular Season - 17,Club Sando,12561,Central,8005,0,1,True
+1359733,2025-04-26T00:00:00+00:00,FT,Regular Season - 17,Defence Force,12563,Morvant Caledonia United,12565,5,1,True
+1359736,2025-04-26T21:00:00+00:00,FT,Regular Season - 17,Police,12559,Cunupia,12562,4,4,True
+1359738,2025-04-26T23:00:00+00:00,FT,Regular Season - 17,Prison Service,20974,La Horquetta Rangers,12564,2,2,True
+1359737,2025-04-27T20:00:00+00:00,FT,Regular Season - 17,San Juan Jabloteh,12567,Phoenix,25276,0,1,True
+1359735,2025-04-27T22:00:00+00:00,FT,Regular Season - 17,Point Fortin,12566,Ath­let­ic Club,12560,1,2,True
+1359739,2025-05-02T22:00:00+00:00,FT,Regular Season - 18,Cunupia,12562,Prison Service,20974,1,0,True
+1359740,2025-05-03T00:00:00+00:00,FT,Regular Season - 18,La Horquetta Rangers,12564,San Juan Jabloteh,12567,0,0,True
+1359741,2025-05-03T21:00:00+00:00,FT,Regular Season - 18,Phoenix,25276,Club Sando,12561,1,2,True
+1359742,2025-05-03T23:00:00+00:00,FT,Regular Season - 18,Ath­let­ic Club,12560,Police,12559,2,4,True
+1359743,2025-05-04T21:00:00+00:00,FT,Regular Season - 18,Morvant Caledonia United,12565,Point Fortin,12566,1,0,True
+1359744,2025-05-04T23:00:00+00:00,FT,Regular Season - 18,Central,8005,Defence Force,12563,0,1,True
+1359745,2025-05-09T22:00:00+00:00,FT,Regular Season - 19,Police,12559,Morvant Caledonia United,12565,3,2,True
+1359746,2025-05-10T00:00:00+00:00,FT,Regular Season - 19,San Juan Jabloteh,12567,Cunupia,12562,3,0,True
+1359747,2025-05-10T21:00:00+00:00,FT,Regular Season - 19,Point Fortin,12566,Central,8005,0,6,True
+1359750,2025-05-10T23:00:00+00:00,FT,Regular Season - 19,Defence Force,12563,Club Sando,12561,3,0,True
+1359749,2025-05-11T21:00:00+00:00,FT,Regular Season - 19,La Horquetta Rangers,12564,Phoenix,25276,0,0,True
+1359748,2025-05-11T23:00:00+00:00,FT,Regular Season - 19,Prison Service,20974,Ath­let­ic Club,12560,0,4,True
+1359751,2025-05-16T22:00:00+00:00,FT,Regular Season - 20,Club Sando,12561,Point Fortin,12566,6,0,True
+1359754,2025-05-17T00:00:00+00:00,FT,Regular Season - 20,Central,8005,Police,12559,0,1,True
+1359753,2025-05-17T21:00:00+00:00,FT,Regular Season - 20,Morvant Caledonia United,12565,Prison Service,20974,2,1,True
+1359752,2025-05-17T23:00:00+00:00,FT,Regular Season - 20,Cunupia,12562,La Horquetta Rangers,12564,0,2,True
+1359756,2025-05-18T21:00:00+00:00,FT,Regular Season - 20,Phoenix,25276,Defence Force,12563,0,4,True
+1359755,2025-05-18T23:00:00+00:00,FT,Regular Season - 20,Ath­let­ic Club,12560,San Juan Jabloteh,12567,3,0,True
+1359760,2025-05-23T22:00:00+00:00,FT,Regular Season - 21,Prison Service,20974,Central,8005,0,4,True
+1359759,2025-05-24T00:00:00+00:00,FT,Regular Season - 21,La Horquetta Rangers,12564,Ath­let­ic Club,12560,2,2,True
+1359757,2025-05-24T21:00:00+00:00,FT,Regular Season - 21,San Juan Jabloteh,12567,Morvant Caledonia United,12565,3,2,True
+1359762,2025-05-24T23:00:00+00:00,FT,Regular Season - 21,Club Sando,12561,Police,12559,0,1,True
+1359761,2025-05-25T21:00:00+00:00,FT,Regular Season - 21,Cunupia,12562,Phoenix,25276,1,1,True
+1359758,2025-05-25T23:00:00+00:00,FT,Regular Season - 21,Point Fortin,12566,Defence Force,12563,1,3,True
+1359765,2025-05-31T21:00:00+00:00,FT,Regular Season - 22,Ath­let­ic Club,12560,Phoenix,25276,5,0,True
+1359763,2025-05-31T21:00:00+00:00,FT,Regular Season - 22,San Juan Jabloteh,12567,Club Sando,12561,2,3,True
+1359768,2025-05-31T23:00:00+00:00,FT,Regular Season - 22,Police,12559,Point Fortin,12566,3,1,True
+1359764,2025-05-31T23:00:00+00:00,FT,Regular Season - 22,La Horquetta Rangers,12564,Central,8005,3,7,True
+1359766,2025-06-01T21:00:00+00:00,FT,Regular Season - 22,Cunupia,12562,Morvant Caledonia United,12565,0,1,True
+1359767,2025-06-01T23:00:00+00:00,FT,Regular Season - 22,Prison Service,20974,Defence Force,12563,1,4,True

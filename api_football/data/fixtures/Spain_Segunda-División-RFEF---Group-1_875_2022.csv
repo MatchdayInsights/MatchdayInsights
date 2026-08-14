@@ -1,0 +1,307 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+935203,2022-09-03T14:30:00+00:00,FT,Group 1 - 1,Real Oviedo II,9576,Compostela,5256,2,1,True
+935196,2022-09-03T15:00:00+00:00,FT,Group 1 - 1,Coruxo,9385,Arenteiro,9604,0,0,True
+935202,2022-09-03T16:30:00+00:00,FT,Group 1 - 1,Burgos Promesas,9727,Marino de Luanco,9401,0,0,True
+935197,2022-09-03T17:00:00+00:00,FT,Group 1 - 1,CD Lugo B,9614,Real Avilés,9632,0,0,True
+935201,2022-09-04T15:00:00+00:00,FT,Group 1 - 1,Ourense CF,9612,Racing Santander II,9643,1,2,True
+935200,2022-09-04T15:30:00+00:00,FT,Group 1 - 1,Langreo,5265,Laredo,9394,1,2,True
+935195,2022-09-04T16:00:00+00:00,FT,Group 1 - 1,Bergantiños,9383,Gimnástica Torrelavega,5264,1,2,True
+935198,2022-09-04T16:00:00+00:00,FT,Group 1 - 1,Guijuelo,9388,Cristo Atlético,9728,1,0,True
+935208,2022-09-10T16:30:00+00:00,FT,Group 1 - 2,Real Valladolid II,9587,Guijuelo,9388,0,1,True
+935207,2022-09-10T17:00:00+00:00,FT,Group 1 - 2,Cristo Atlético,9728,CD Lugo B,9614,0,0,True
+935210,2022-09-11T10:00:00+00:00,FT,Group 1 - 2,Racing Santander II,9643,Langreo,5265,1,0,True
+935205,2022-09-11T15:00:00+00:00,FT,Group 1 - 2,Arenteiro,9604,Bergantiños,9383,1,1,True
+935209,2022-09-11T15:30:00+00:00,FT,Group 1 - 2,Laredo,9394,Zamora,9418,1,0,True
+935212,2022-09-11T16:00:00+00:00,FT,Group 1 - 2,Compostela,5256,Burgos Promesas,9727,2,1,True
+935204,2022-09-11T16:00:00+00:00,FT,Group 1 - 2,Gimnástica Torrelavega,5264,Real Oviedo II,9576,2,1,True
+935211,2022-09-11T16:00:00+00:00,FT,Group 1 - 2,Marino de Luanco,9401,Ourense CF,9612,1,0,True
+935206,2022-09-11T16:00:00+00:00,FT,Group 1 - 2,Real Avilés,9632,Coruxo,9385,0,1,True
+935221,2022-09-18T10:00:00+00:00,FT,Group 1 - 3,Real Oviedo II,9576,Burgos Promesas,9727,4,0,True
+935219,2022-09-18T15:00:00+00:00,FT,Group 1 - 3,Langreo,5265,Marino de Luanco,9401,1,3,True
+935214,2022-09-18T15:00:00+00:00,FT,Group 1 - 3,Bergantiños,9383,Real Avilés,9632,3,1,True
+935215,2022-09-18T15:00:00+00:00,FT,Group 1 - 3,Coruxo,9385,Cristo Atlético,9728,0,0,True
+935220,2022-09-18T15:00:00+00:00,FT,Group 1 - 3,Ourense CF,9612,Compostela,5256,1,1,True
+935216,2022-09-18T15:00:00+00:00,FT,Group 1 - 3,CD Lugo B,9614,Real Valladolid II,9587,2,3,True
+935218,2022-09-18T15:30:00+00:00,FT,Group 1 - 3,Zamora,9418,Racing Santander II,9643,3,1,True
+935213,2022-09-18T16:00:00+00:00,FT,Group 1 - 3,Gimnástica Torrelavega,5264,Arenteiro,9604,1,2,True
+935217,2022-09-18T16:00:00+00:00,FT,Group 1 - 3,Guijuelo,9388,Laredo,9394,1,0,True
+935199,2022-09-21T18:00:00+00:00,FT,Group 1 - 1,Zamora,9418,Real Valladolid II,9587,0,4,True
+935225,2022-09-24T14:30:00+00:00,FT,Group 1 - 4,Real Valladolid II,9587,Coruxo,9385,1,0,True
+935227,2022-09-24T15:00:00+00:00,FT,Group 1 - 4,Racing Santander II,9643,Guijuelo,9388,0,0,True
+935223,2022-09-24T15:30:00+00:00,FT,Group 1 - 4,Real Avilés,9632,Gimnástica Torrelavega,5264,3,0,True
+935222,2022-09-24T16:00:00+00:00,FT,Group 1 - 4,Arenteiro,9604,Real Oviedo II,9576,1,0,True
+935226,2022-09-25T10:30:00+00:00,FT,Group 1 - 4,Laredo,9394,CD Lugo B,9614,3,1,True
+935228,2022-09-25T15:00:00+00:00,FT,Group 1 - 4,Marino de Luanco,9401,Zamora,9418,1,0,True
+935224,2022-09-25T15:00:00+00:00,FT,Group 1 - 4,Cristo Atlético,9728,Bergantiños,9383,2,1,True
+935229,2022-09-25T16:00:00+00:00,FT,Group 1 - 4,Compostela,5256,Langreo,5265,0,1,True
+935230,2022-09-25T16:30:00+00:00,FT,Group 1 - 4,Burgos Promesas,9727,Ourense CF,9612,1,1,True
+935235,2022-10-01T14:30:00+00:00,FT,Group 1 - 5,Real Oviedo II,9576,Ourense CF,9612,0,2,True
+935236,2022-10-02T10:00:00+00:00,FT,Group 1 - 5,Arenteiro,9604,Real Avilés,9632,1,1,True
+935231,2022-10-02T10:00:00+00:00,FT,Group 1 - 5,CD Lugo B,9614,Racing Santander II,9643,2,3,True
+935237,2022-10-02T15:00:00+00:00,FT,Group 1 - 5,Gimnástica Torrelavega,5264,Cristo Atlético,9728,0,0,True
+935234,2022-10-02T15:00:00+00:00,FT,Group 1 - 5,Langreo,5265,Burgos Promesas,9727,2,0,True
+935238,2022-10-02T15:00:00+00:00,FT,Group 1 - 5,Bergantiños,9383,Real Valladolid II,9587,0,1,True
+935239,2022-10-02T15:00:00+00:00,FT,Group 1 - 5,Coruxo,9385,Laredo,9394,1,0,True
+935232,2022-10-02T15:00:00+00:00,FT,Group 1 - 5,Guijuelo,9388,Marino de Luanco,9401,1,0,True
+935233,2022-10-02T15:30:00+00:00,FT,Group 1 - 5,Zamora,9418,Compostela,5256,0,3,True
+935242,2022-10-08T15:00:00+00:00,FT,Group 1 - 6,Real Valladolid II,9587,Gimnástica Torrelavega,5264,3,2,True
+935248,2022-10-08T15:00:00+00:00,FT,Group 1 - 6,Ourense CF,9612,Langreo,5265,1,0,True
+935240,2022-10-09T10:00:00+00:00,FT,Group 1 - 6,Real Avilés,9632,Real Oviedo II,9576,4,2,True
+935244,2022-10-09T10:30:00+00:00,FT,Group 1 - 6,Racing Santander II,9643,Coruxo,9385,0,2,True
+935246,2022-10-09T15:00:00+00:00,FT,Group 1 - 6,Compostela,5256,Guijuelo,9388,0,0,True
+935243,2022-10-09T15:00:00+00:00,FT,Group 1 - 6,Laredo,9394,Bergantiños,9383,2,2,True
+935245,2022-10-09T15:00:00+00:00,FT,Group 1 - 6,Marino de Luanco,9401,CD Lugo B,9614,0,0,True
+935241,2022-10-09T15:00:00+00:00,FT,Group 1 - 6,Cristo Atlético,9728,Arenteiro,9604,0,1,True
+935247,2022-10-09T15:30:00+00:00,FT,Group 1 - 6,Burgos Promesas,9727,Zamora,9418,0,1,True
+935252,2022-10-15T15:00:00+00:00,FT,Group 1 - 7,Bergantiños,9383,Racing Santander II,9643,0,1,True
+935253,2022-10-15T15:00:00+00:00,FT,Group 1 - 7,Coruxo,9385,Marino de Luanco,9401,2,2,True
+935255,2022-10-15T15:00:00+00:00,FT,Group 1 - 7,Guijuelo,9388,Burgos Promesas,9727,3,0,True
+935251,2022-10-16T10:00:00+00:00,FT,Group 1 - 7,Gimnástica Torrelavega,5264,Laredo,9394,1,0,True
+935254,2022-10-16T10:00:00+00:00,FT,Group 1 - 7,CD Lugo B,9614,Compostela,5256,2,1,True
+935257,2022-10-16T14:15:00+00:00,FT,Group 1 - 7,Real Oviedo II,9576,Langreo,5265,1,1,True
+935250,2022-10-16T14:45:00+00:00,FT,Group 1 - 7,Arenteiro,9604,Real Valladolid II,9587,1,0,True
+935249,2022-10-16T15:00:00+00:00,FT,Group 1 - 7,Real Avilés,9632,Cristo Atlético,9728,0,0,True
+935256,2022-10-16T17:00:00+00:00,FT,Group 1 - 7,Zamora,9418,Ourense CF,9612,2,3,True
+935264,2022-10-22T14:00:00+00:00,FT,Group 1 - 8,Burgos Promesas,9727,CD Lugo B,9614,2,1,True
+935260,2022-10-22T15:30:00+00:00,FT,Group 1 - 8,Laredo,9394,Arenteiro,9604,0,1,True
+935261,2022-10-23T09:00:00+00:00,FT,Group 1 - 8,Racing Santander II,9643,Gimnástica Torrelavega,5264,0,1,True
+935263,2022-10-23T10:00:00+00:00,FT,Group 1 - 8,Compostela,5256,Coruxo,9385,1,1,True
+935259,2022-10-23T10:00:00+00:00,FT,Group 1 - 8,Real Valladolid II,9587,Real Avilés,9632,0,3,True
+935266,2022-10-23T15:00:00+00:00,FT,Group 1 - 8,Langreo,5265,Zamora,9418,0,0,True
+935262,2022-10-23T15:00:00+00:00,FT,Group 1 - 8,Marino de Luanco,9401,Bergantiños,9383,2,3,True
+935265,2022-10-23T15:00:00+00:00,FT,Group 1 - 8,Ourense CF,9612,Guijuelo,9388,1,0,True
+935258,2022-10-23T15:00:00+00:00,FT,Group 1 - 8,Cristo Atlético,9728,Real Oviedo II,9576,2,0,True
+935273,2022-10-29T14:45:00+00:00,FT,Group 1 - 9,CD Lugo B,9614,Ourense CF,9612,1,1,True
+935267,2022-10-29T15:00:00+00:00,FT,Group 1 - 9,Cristo Atlético,9728,Real Valladolid II,9587,1,0,True
+935272,2022-10-30T11:00:00+00:00,FT,Group 1 - 9,Coruxo,9385,Burgos Promesas,9727,1,2,True
+935268,2022-10-30T11:00:00+00:00,FT,Group 1 - 9,Real Avilés,9632,Laredo,9394,2,1,True
+935275,2022-10-30T15:00:00+00:00,FT,Group 1 - 9,Real Oviedo II,9576,Zamora,9418,0,1,True
+935270,2022-10-30T16:00:00+00:00,FT,Group 1 - 9,Gimnástica Torrelavega,5264,Marino de Luanco,9401,0,1,True
+935274,2022-10-30T16:00:00+00:00,FT,Group 1 - 9,Guijuelo,9388,Langreo,5265,2,0,True
+935269,2022-10-30T16:00:00+00:00,FT,Group 1 - 9,Arenteiro,9604,Racing Santander II,9643,3,1,True
+935271,2022-10-30T18:00:00+00:00,FT,Group 1 - 9,Bergantiños,9383,Compostela,5256,1,2,True
+935280,2022-11-05T16:00:00+00:00,FT,Group 1 - 10,Compostela,5256,Gimnástica Torrelavega,5264,1,0,True
+935277,2022-11-05T16:30:00+00:00,FT,Group 1 - 10,Laredo,9394,Cristo Atlético,9728,0,1,True
+935283,2022-11-05T17:00:00+00:00,FT,Group 1 - 10,Langreo,5265,CD Lugo B,9614,1,2,True
+935276,2022-11-06T11:00:00+00:00,FT,Group 1 - 10,Real Valladolid II,9587,Real Oviedo II,9576,1,0,True
+935278,2022-11-06T11:00:00+00:00,FT,Group 1 - 10,Racing Santander II,9643,Real Avilés,9632,1,0,True
+935281,2022-11-06T15:30:00+00:00,FT,Group 1 - 10,Burgos Promesas,9727,Bergantiños,9383,0,4,True
+935279,2022-11-06T16:00:00+00:00,FT,Group 1 - 10,Marino de Luanco,9401,Arenteiro,9604,0,1,True
+935284,2022-11-06T16:30:00+00:00,FT,Group 1 - 10,Zamora,9418,Guijuelo,9388,3,0,True
+935282,2022-11-06T18:00:00+00:00,FT,Group 1 - 10,Ourense CF,9612,Coruxo,9385,0,2,True
+935290,2022-11-19T15:45:00+00:00,FT,Group 1 - 11,Bergantiños,9383,Ourense CF,9612,1,0,True
+935285,2022-11-19T16:00:00+00:00,FT,Group 1 - 11,Real Valladolid II,9587,Laredo,9394,0,1,True
+935292,2022-11-19T16:00:00+00:00,FT,Group 1 - 11,CD Lugo B,9614,Zamora,9418,0,2,True
+935293,2022-11-20T11:00:00+00:00,FT,Group 1 - 11,Real Oviedo II,9576,Guijuelo,9388,2,1,True
+935288,2022-11-20T15:45:00+00:00,FT,Group 1 - 11,Arenteiro,9604,Compostela,5256,0,1,True
+935289,2022-11-20T16:00:00+00:00,FT,Group 1 - 11,Gimnástica Torrelavega,5264,Burgos Promesas,9727,1,0,True
+935291,2022-11-20T16:00:00+00:00,FT,Group 1 - 11,Coruxo,9385,Langreo,5265,0,1,True
+935286,2022-11-20T16:00:00+00:00,FT,Group 1 - 11,Cristo Atlético,9728,Racing Santander II,9643,0,2,True
+935287,2022-11-20T16:30:00+00:00,FT,Group 1 - 11,Real Avilés,9632,Marino de Luanco,9401,1,0,True
+935298,2022-11-26T15:30:00+00:00,FT,Group 1 - 12,Burgos Promesas,9727,Arenteiro,9604,1,2,True
+935302,2022-11-26T16:00:00+00:00,FT,Group 1 - 12,Guijuelo,9388,CD Lugo B,9614,1,0,True
+935294,2022-11-26T17:00:00+00:00,FT,Group 1 - 12,Laredo,9394,Real Oviedo II,9576,1,0,True
+935299,2022-11-26T18:00:00+00:00,FT,Group 1 - 12,Ourense CF,9612,Gimnástica Torrelavega,5264,1,2,True
+935295,2022-11-27T11:00:00+00:00,FT,Group 1 - 12,Racing Santander II,9643,Real Valladolid II,9587,1,2,True
+935297,2022-11-27T16:00:00+00:00,FT,Group 1 - 12,Compostela,5256,Real Avilés,9632,4,0,True
+935300,2022-11-27T16:00:00+00:00,FT,Group 1 - 12,Langreo,5265,Bergantiños,9383,1,1,True
+935296,2022-11-27T16:00:00+00:00,FT,Group 1 - 12,Marino de Luanco,9401,Cristo Atlético,9728,0,0,True
+935301,2022-11-27T16:00:00+00:00,FT,Group 1 - 12,Zamora,9418,Coruxo,9385,1,0,True
+935311,2022-12-03T15:00:00+00:00,FT,Group 1 - 13,Real Oviedo II,9576,CD Lugo B,9614,2,0,True
+935304,2022-12-03T15:30:00+00:00,FT,Group 1 - 13,Real Valladolid II,9587,Marino de Luanco,9401,4,1,True
+935303,2022-12-03T17:00:00+00:00,FT,Group 1 - 13,Laredo,9394,Racing Santander II,9643,0,2,True
+935309,2022-12-04T11:00:00+00:00,FT,Group 1 - 13,Bergantiños,9383,Zamora,9418,1,3,True
+935307,2022-12-04T11:00:00+00:00,FT,Group 1 - 13,Arenteiro,9604,Ourense CF,9612,1,0,True
+935306,2022-12-04T11:00:00+00:00,FT,Group 1 - 13,Real Avilés,9632,Burgos Promesas,9727,3,0,True
+935308,2022-12-04T16:00:00+00:00,FT,Group 1 - 13,Gimnástica Torrelavega,5264,Langreo,5265,2,1,True
+935310,2022-12-04T16:00:00+00:00,FT,Group 1 - 13,Coruxo,9385,Guijuelo,9388,0,1,True
+935305,2022-12-04T16:00:00+00:00,FT,Group 1 - 13,Cristo Atlético,9728,Compostela,5256,0,2,True
+935315,2022-12-10T15:30:00+00:00,FT,Group 1 - 14,Burgos Promesas,9727,Cristo Atlético,9728,0,2,True
+935319,2022-12-10T16:00:00+00:00,FT,Group 1 - 14,Guijuelo,9388,Bergantiños,9383,3,1,True
+935317,2022-12-11T11:00:00+00:00,FT,Group 1 - 14,Langreo,5265,Arenteiro,9604,0,0,True
+935320,2022-12-11T11:00:00+00:00,FT,Group 1 - 14,CD Lugo B,9614,Coruxo,9385,0,3,True
+935312,2022-12-11T11:00:00+00:00,FT,Group 1 - 14,Racing Santander II,9643,Real Oviedo II,9576,1,2,True
+935314,2022-12-11T15:45:00+00:00,FT,Group 1 - 14,Compostela,5256,Real Valladolid II,9587,2,0,True
+935316,2022-12-11T16:00:00+00:00,FT,Group 1 - 14,Ourense CF,9612,Real Avilés,9632,2,0,True
+935318,2022-12-11T16:30:00+00:00,FT,Group 1 - 14,Zamora,9418,Gimnástica Torrelavega,5264,1,1,True
+935313,2022-12-11T17:15:00+00:00,FT,Group 1 - 14,Marino de Luanco,9401,Laredo,9394,1,0,True
+935321,2022-12-17T11:30:00+00:00,FT,Group 1 - 15,Racing Santander II,9643,Marino de Luanco,9401,0,2,True
+935323,2022-12-17T15:30:00+00:00,FT,Group 1 - 15,Real Valladolid II,9587,Burgos Promesas,9727,2,0,True
+935326,2022-12-17T15:45:00+00:00,FT,Group 1 - 15,Arenteiro,9604,Zamora,9418,1,1,True
+935327,2022-12-17T16:00:00+00:00,FT,Group 1 - 15,Gimnástica Torrelavega,5264,Guijuelo,9388,2,2,True
+935324,2022-12-17T16:00:00+00:00,FT,Group 1 - 15,Cristo Atlético,9728,Ourense CF,9612,0,0,True
+935322,2022-12-18T11:00:00+00:00,FT,Group 1 - 15,Laredo,9394,Compostela,5256,0,0,True
+935329,2022-12-18T11:00:00+00:00,FT,Group 1 - 15,Real Oviedo II,9576,Coruxo,9385,2,3,True
+935325,2022-12-18T11:00:00+00:00,FT,Group 1 - 15,Real Avilés,9632,Langreo,5265,2,0,True
+935328,2022-12-18T18:00:00+00:00,FT,Group 1 - 15,Bergantiños,9383,CD Lugo B,9614,0,0,True
+935331,2023-01-07T16:00:00+00:00,FT,Group 1 - 16,Compostela,5256,Racing Santander II,9643,1,0,True
+935333,2023-01-08T11:00:00+00:00,FT,Group 1 - 16,Ourense CF,9612,Real Valladolid II,9587,1,0,True
+935337,2023-01-08T12:00:00+00:00,FT,Group 1 - 16,CD Lugo B,9614,Gimnástica Torrelavega,5264,2,0,True
+935330,2023-01-08T14:45:00+00:00,FT,Group 1 - 16,Real Oviedo II,9576,Marino de Luanco,9401,3,1,True
+935332,2023-01-08T15:30:00+00:00,FT,Group 1 - 16,Burgos Promesas,9727,Laredo,9394,0,1,True
+935338,2023-01-08T15:45:00+00:00,FT,Group 1 - 16,Coruxo,9385,Bergantiños,9383,3,0,True
+935334,2023-01-08T16:00:00+00:00,FT,Group 1 - 16,Langreo,5265,Cristo Atlético,9728,2,0,True
+935335,2023-01-08T16:30:00+00:00,FT,Group 1 - 16,Zamora,9418,Real Avilés,9632,1,1,True
+935342,2023-01-14T16:15:00+00:00,FT,Group 1 - 17,Real Valladolid II,9587,Langreo,5265,2,1,True
+935345,2023-01-15T11:00:00+00:00,FT,Group 1 - 17,Arenteiro,9604,CD Lugo B,9614,1,0,True
+935344,2023-01-15T11:00:00+00:00,FT,Group 1 - 17,Real Avilés,9632,Guijuelo,9388,0,2,True
+935341,2023-01-15T11:30:00+00:00,FT,Group 1 - 17,Laredo,9394,Ourense CF,9612,0,2,True
+935340,2023-01-15T11:30:00+00:00,FT,Group 1 - 17,Racing Santander II,9643,Burgos Promesas,9727,1,1,True
+935346,2023-01-15T16:00:00+00:00,FT,Group 1 - 17,Gimnástica Torrelavega,5264,Coruxo,9385,0,0,True
+935347,2023-01-15T16:00:00+00:00,FT,Group 1 - 17,Bergantiños,9383,Real Oviedo II,9576,0,2,True
+935339,2023-01-15T16:00:00+00:00,FT,Group 1 - 17,Marino de Luanco,9401,Compostela,5256,1,1,True
+935343,2023-01-15T16:00:00+00:00,FT,Group 1 - 17,Cristo Atlético,9728,Zamora,9418,1,0,True
+935353,2023-01-21T17:00:00+00:00,FT,Group 1 - 18,Laredo,9394,Langreo,5265,1,2,True
+935352,2023-01-22T11:00:00+00:00,FT,Group 1 - 18,Real Valladolid II,9587,Zamora,9418,1,2,True
+935349,2023-01-22T11:00:00+00:00,FT,Group 1 - 18,Arenteiro,9604,Coruxo,9385,2,1,True
+935350,2023-01-22T11:00:00+00:00,FT,Group 1 - 18,Real Avilés,9632,CD Lugo B,9614,1,0,True
+935354,2023-01-22T11:30:00+00:00,FT,Group 1 - 18,Racing Santander II,9643,Ourense CF,9612,1,2,True
+935356,2023-01-22T16:00:00+00:00,FT,Group 1 - 18,Compostela,5256,Real Oviedo II,9576,0,0,True
+935348,2023-01-22T16:00:00+00:00,FT,Group 1 - 18,Gimnástica Torrelavega,5264,Bergantiños,9383,1,0,True
+935355,2023-01-22T16:00:00+00:00,FT,Group 1 - 18,Marino de Luanco,9401,Burgos Promesas,9727,1,0,True
+935351,2023-01-22T16:00:00+00:00,FT,Group 1 - 18,Cristo Atlético,9728,Guijuelo,9388,3,0,True
+935336,2023-01-25T16:00:00+00:00,FT,Group 1 - 16,Guijuelo,9388,Arenteiro,9604,0,0,True
+935364,2023-01-28T15:30:00+00:00,FT,Group 1 - 19,Burgos Promesas,9727,Compostela,5256,1,0,True
+935359,2023-01-28T15:45:00+00:00,FT,Group 1 - 19,CD Lugo B,9614,Cristo Atlético,9728,1,1,True
+935363,2023-01-28T16:30:00+00:00,FT,Group 1 - 19,Ourense CF,9612,Marino de Luanco,9401,0,1,True
+935365,2023-01-29T11:00:00+00:00,FT,Group 1 - 19,Real Oviedo II,9576,Gimnástica Torrelavega,5264,2,0,True
+935358,2023-01-29T11:15:00+00:00,FT,Group 1 - 19,Coruxo,9385,Real Avilés,9632,0,2,True
+935362,2023-01-29T16:00:00+00:00,FT,Group 1 - 19,Langreo,5265,Racing Santander II,9643,0,0,True
+935360,2023-01-29T16:00:00+00:00,FT,Group 1 - 19,Guijuelo,9388,Real Valladolid II,9587,1,2,True
+935361,2023-01-29T16:30:00+00:00,FT,Group 1 - 19,Zamora,9418,Laredo,9394,1,0,True
+935357,2023-01-29T18:00:00+00:00,FT,Group 1 - 19,Bergantiños,9383,Arenteiro,9604,2,3,True
+935374,2023-02-04T15:30:00+00:00,FT,Group 1 - 20,Burgos Promesas,9727,Real Oviedo II,9576,1,2,True
+935369,2023-02-04T16:00:00+00:00,FT,Group 1 - 20,Real Valladolid II,9587,CD Lugo B,9614,5,4,True
+935366,2023-02-05T11:00:00+00:00,FT,Group 1 - 20,Arenteiro,9604,Gimnástica Torrelavega,5264,0,0,True
+935367,2023-02-05T11:00:00+00:00,FT,Group 1 - 20,Real Avilés,9632,Bergantiños,9383,1,0,True
+935371,2023-02-05T15:15:00+00:00,FT,Group 1 - 20,Racing Santander II,9643,Zamora,9418,1,1,True
+935372,2023-02-05T16:00:00+00:00,FT,Group 1 - 20,Marino de Luanco,9401,Langreo,5265,2,0,True
+935368,2023-02-05T16:00:00+00:00,FT,Group 1 - 20,Cristo Atlético,9728,Coruxo,9385,1,1,True
+935370,2023-02-05T17:00:00+00:00,FT,Group 1 - 20,Laredo,9394,Guijuelo,9388,0,0,True
+935373,2023-02-05T18:00:00+00:00,FT,Group 1 - 20,Compostela,5256,Ourense CF,9612,2,1,True
+935375,2023-02-11T15:00:00+00:00,FT,Group 1 - 21,Real Oviedo II,9576,Arenteiro,9604,0,1,True
+935377,2023-02-11T16:00:00+00:00,FT,Group 1 - 21,Bergantiños,9383,Cristo Atlético,9728,0,1,True
+935380,2023-02-11T16:00:00+00:00,FT,Group 1 - 21,Guijuelo,9388,Racing Santander II,9643,0,0,True
+935382,2023-02-11T17:00:00+00:00,FT,Group 1 - 21,Langreo,5265,Compostela,5256,0,3,True
+935379,2023-02-12T11:00:00+00:00,FT,Group 1 - 21,CD Lugo B,9614,Laredo,9394,0,0,True
+935378,2023-02-12T11:15:00+00:00,FT,Group 1 - 21,Coruxo,9385,Real Valladolid II,9587,2,2,True
+935376,2023-02-12T16:00:00+00:00,FT,Group 1 - 21,Gimnástica Torrelavega,5264,Real Avilés,9632,1,1,True
+935381,2023-02-12T16:30:00+00:00,FT,Group 1 - 21,Zamora,9418,Marino de Luanco,9401,3,2,True
+935383,2023-02-12T18:00:00+00:00,FT,Group 1 - 21,Ourense CF,9612,Burgos Promesas,9727,4,3,True
+935391,2023-02-18T15:30:00+00:00,FT,Group 1 - 22,Burgos Promesas,9727,Langreo,5265,0,2,True
+935390,2023-02-18T16:00:00+00:00,FT,Group 1 - 22,Compostela,5256,Zamora,9418,1,1,True
+935385,2023-02-18T16:00:00+00:00,FT,Group 1 - 22,Cristo Atlético,9728,Gimnástica Torrelavega,5264,1,1,True
+935386,2023-02-19T11:00:00+00:00,FT,Group 1 - 22,Real Valladolid II,9587,Bergantiños,9383,2,0,True
+935392,2023-02-19T11:00:00+00:00,FT,Group 1 - 22,Ourense CF,9612,Real Oviedo II,9576,1,2,True
+935388,2023-02-19T11:30:00+00:00,FT,Group 1 - 22,Racing Santander II,9643,CD Lugo B,9614,2,0,True
+935389,2023-02-19T16:00:00+00:00,FT,Group 1 - 22,Marino de Luanco,9401,Guijuelo,9388,1,1,True
+935387,2023-02-19T17:00:00+00:00,FT,Group 1 - 22,Laredo,9394,Coruxo,9385,0,0,True
+935384,2023-02-19T17:30:00+00:00,FT,Group 1 - 22,Real Avilés,9632,Arenteiro,9604,1,1,True
+935397,2023-02-25T16:00:00+00:00,FT,Group 1 - 23,Coruxo,9385,Racing Santander II,9643,1,2,True
+935394,2023-02-25T18:00:00+00:00,FT,Group 1 - 23,Arenteiro,9604,Cristo Atlético,9728,1,0,True
+935395,2023-02-26T11:00:00+00:00,FT,Group 1 - 23,Gimnástica Torrelavega,5264,Real Valladolid II,9587,0,0,True
+935393,2023-02-26T11:00:00+00:00,FT,Group 1 - 23,Real Oviedo II,9576,Real Avilés,9632,1,0,True
+935398,2023-02-26T11:30:00+00:00,FT,Group 1 - 23,CD Lugo B,9614,Marino de Luanco,9401,1,2,True
+935401,2023-02-26T16:00:00+00:00,FT,Group 1 - 23,Langreo,5265,Ourense CF,9612,3,1,True
+935396,2023-02-26T16:00:00+00:00,FT,Group 1 - 23,Bergantiños,9383,Laredo,9394,0,1,True
+935399,2023-02-26T16:00:00+00:00,FT,Group 1 - 23,Guijuelo,9388,Compostela,5256,2,3,True
+935400,2023-02-26T16:30:00+00:00,FT,Group 1 - 23,Zamora,9418,Burgos Promesas,9727,2,2,True
+935402,2023-03-04T16:00:00+00:00,FT,Group 1 - 24,Cristo Atlético,9728,Real Avilés,9632,1,3,True
+935410,2023-03-04T17:00:00+00:00,FT,Group 1 - 24,Langreo,5265,Real Oviedo II,9576,3,0,True
+935404,2023-03-04T17:00:00+00:00,FT,Group 1 - 24,Laredo,9394,Gimnástica Torrelavega,5264,1,0,True
+935407,2023-03-05T11:00:00+00:00,FT,Group 1 - 24,Compostela,5256,CD Lugo B,9614,0,0,True
+935405,2023-03-05T11:00:00+00:00,FT,Group 1 - 24,Racing Santander II,9643,Bergantiños,9383,3,1,True
+935403,2023-03-05T15:30:00+00:00,FT,Group 1 - 24,Real Valladolid II,9587,Arenteiro,9604,0,2,True
+935406,2023-03-05T16:00:00+00:00,FT,Group 1 - 24,Marino de Luanco,9401,Coruxo,9385,1,0,True
+935409,2023-03-05T16:00:00+00:00,FT,Group 1 - 24,Ourense CF,9612,Zamora,9418,0,1,True
+935408,2023-03-05T16:00:00+00:00,FT,Group 1 - 24,Burgos Promesas,9727,Guijuelo,9388,0,0,True
+935411,2023-03-11T15:00:00+00:00,FT,Group 1 - 25,Real Oviedo II,9576,Cristo Atlético,9728,1,0,True
+935415,2023-03-11T16:00:00+00:00,FT,Group 1 - 25,Bergantiños,9383,Marino de Luanco,9401,1,1,True
+935419,2023-03-11T17:30:00+00:00,FT,Group 1 - 25,Zamora,9418,Langreo,5265,2,0,True
+935412,2023-03-11T17:30:00+00:00,FT,Group 1 - 25,Real Avilés,9632,Real Valladolid II,9587,2,0,True
+935416,2023-03-12T11:00:00+00:00,FT,Group 1 - 25,Coruxo,9385,Compostela,5256,1,0,True
+935413,2023-03-12T11:00:00+00:00,FT,Group 1 - 25,Arenteiro,9604,Laredo,9394,1,0,True
+935414,2023-03-12T16:00:00+00:00,FT,Group 1 - 25,Gimnástica Torrelavega,5264,Racing Santander II,9643,2,0,True
+935418,2023-03-12T16:00:00+00:00,FT,Group 1 - 25,Guijuelo,9388,Ourense CF,9612,2,0,True
+935417,2023-03-12T16:00:00+00:00,FT,Group 1 - 25,CD Lugo B,9614,Burgos Promesas,9727,0,1,True
+935426,2023-03-18T15:45:00+00:00,FT,Group 1 - 26,Ourense CF,9612,CD Lugo B,9614,1,1,True
+935425,2023-03-18T16:00:00+00:00,FT,Group 1 - 26,Burgos Promesas,9727,Coruxo,9385,1,2,True
+935421,2023-03-18T17:00:00+00:00,FT,Group 1 - 26,Laredo,9394,Real Avilés,9632,0,2,True
+935422,2023-03-19T10:30:00+00:00,FT,Group 1 - 26,Racing Santander II,9643,Arenteiro,9604,2,2,True
+935420,2023-03-19T11:00:00+00:00,FT,Group 1 - 26,Real Valladolid II,9587,Cristo Atlético,9728,3,3,True
+935427,2023-03-19T16:00:00+00:00,FT,Group 1 - 26,Langreo,5265,Guijuelo,9388,0,2,True
+935423,2023-03-19T16:00:00+00:00,FT,Group 1 - 26,Marino de Luanco,9401,Gimnástica Torrelavega,5264,0,2,True
+935428,2023-03-19T16:30:00+00:00,FT,Group 1 - 26,Zamora,9418,Real Oviedo II,9576,0,2,True
+935424,2023-03-19T18:00:00+00:00,FT,Group 1 - 26,Compostela,5256,Bergantiños,9383,0,0,True
+935429,2023-03-25T15:00:00+00:00,FT,Group 1 - 27,Real Oviedo II,9576,Real Valladolid II,9587,2,3,True
+935434,2023-03-25T16:00:00+00:00,FT,Group 1 - 27,Bergantiños,9383,Burgos Promesas,9727,0,2,True
+935437,2023-03-25T16:00:00+00:00,FT,Group 1 - 27,Guijuelo,9388,Zamora,9418,1,0,True
+935430,2023-03-25T16:00:00+00:00,FT,Group 1 - 27,Cristo Atlético,9728,Laredo,9394,1,0,True
+935431,2023-03-25T17:00:00+00:00,FT,Group 1 - 27,Real Avilés,9632,Racing Santander II,9643,1,2,True
+935435,2023-03-26T14:45:00+00:00,FT,Group 1 - 27,Coruxo,9385,Ourense CF,9612,1,1,True
+935433,2023-03-26T15:00:00+00:00,FT,Group 1 - 27,Gimnástica Torrelavega,5264,Compostela,5256,1,1,True
+935432,2023-03-26T15:00:00+00:00,FT,Group 1 - 27,Arenteiro,9604,Marino de Luanco,9401,1,0,True
+935436,2023-03-26T15:00:00+00:00,FT,Group 1 - 27,CD Lugo B,9614,Langreo,5265,0,1,True
+935446,2023-04-01T15:00:00+00:00,FT,Group 1 - 28,Guijuelo,9388,Real Oviedo II,9576,2,2,True
+935444,2023-04-01T16:00:00+00:00,FT,Group 1 - 28,Langreo,5265,Coruxo,9385,0,0,True
+935445,2023-04-02T10:00:00+00:00,FT,Group 1 - 28,Zamora,9418,CD Lugo B,9614,1,2,True
+935443,2023-04-02T10:00:00+00:00,FT,Group 1 - 28,Ourense CF,9612,Bergantiños,9383,1,0,True
+935439,2023-04-02T10:00:00+00:00,FT,Group 1 - 28,Racing Santander II,9643,Cristo Atlético,9728,4,1,True
+935441,2023-04-02T14:45:00+00:00,FT,Group 1 - 28,Compostela,5256,Arenteiro,9604,1,3,True
+935440,2023-04-02T15:00:00+00:00,FT,Group 1 - 28,Marino de Luanco,9401,Real Avilés,9632,0,2,True
+935442,2023-04-02T15:00:00+00:00,FT,Group 1 - 28,Burgos Promesas,9727,Gimnástica Torrelavega,5264,1,1,True
+935438,2023-04-02T16:00:00+00:00,FT,Group 1 - 28,Laredo,9394,Real Valladolid II,9587,0,0,True
+935447,2023-04-08T14:00:00+00:00,FT,Group 1 - 29,Real Oviedo II,9576,Laredo,9394,1,0,True
+935448,2023-04-08T14:30:00+00:00,FT,Group 1 - 29,Real Valladolid II,9587,Racing Santander II,9643,1,0,True
+935451,2023-04-08T14:45:00+00:00,FT,Group 1 - 29,Arenteiro,9604,Burgos Promesas,9727,2,1,True
+935452,2023-04-09T15:00:00+00:00,FT,Group 1 - 29,Gimnástica Torrelavega,5264,Ourense CF,9612,1,0,True
+935453,2023-04-09T15:00:00+00:00,FT,Group 1 - 29,Bergantiños,9383,Langreo,5265,4,4,True
+935455,2023-04-09T15:00:00+00:00,FT,Group 1 - 29,CD Lugo B,9614,Guijuelo,9388,0,0,True
+935454,2023-04-09T16:00:00+00:00,FT,Group 1 - 29,Coruxo,9385,Zamora,9418,1,1,True
+935449,2023-04-09T16:00:00+00:00,FT,Group 1 - 29,Cristo Atlético,9728,Marino de Luanco,9401,0,1,True
+935450,2023-04-09T17:00:00+00:00,FT,Group 1 - 29,Real Avilés,9632,Compostela,5256,2,0,True
+935461,2023-04-15T16:00:00+00:00,FT,Group 1 - 30,Langreo,5265,Gimnástica Torrelavega,5264,3,1,True
+935458,2023-04-16T10:00:00+00:00,FT,Group 1 - 30,Compostela,5256,Cristo Atlético,9728,3,0,True
+935464,2023-04-16T10:00:00+00:00,FT,Group 1 - 30,CD Lugo B,9614,Real Oviedo II,9576,4,0,True
+935456,2023-04-16T10:00:00+00:00,FT,Group 1 - 30,Racing Santander II,9643,Laredo,9394,0,1,True
+935460,2023-04-16T14:45:00+00:00,FT,Group 1 - 30,Ourense CF,9612,Arenteiro,9604,1,1,True
+935463,2023-04-16T15:00:00+00:00,FT,Group 1 - 30,Guijuelo,9388,Coruxo,9385,2,1,True
+935459,2023-04-16T15:00:00+00:00,FT,Group 1 - 30,Burgos Promesas,9727,Real Avilés,9632,0,2,True
+935457,2023-04-16T16:00:00+00:00,FT,Group 1 - 30,Marino de Luanco,9401,Real Valladolid II,9587,0,0,True
+935462,2023-04-16T16:30:00+00:00,FT,Group 1 - 30,Zamora,9418,Bergantiños,9383,1,0,True
+935465,2023-04-22T14:00:00+00:00,FT,Group 1 - 31,Real Oviedo II,9576,Racing Santander II,9643,3,2,True
+935472,2023-04-22T15:30:00+00:00,FT,Group 1 - 31,Bergantiños,9383,Guijuelo,9388,1,1,True
+935466,2023-04-22T16:00:00+00:00,FT,Group 1 - 31,Laredo,9394,Marino de Luanco,9401,2,2,True
+935469,2023-04-22T16:00:00+00:00,FT,Group 1 - 31,Real Avilés,9632,Ourense CF,9612,0,3,True
+935467,2023-04-23T10:00:00+00:00,FT,Group 1 - 31,Real Valladolid II,9587,Compostela,5256,2,2,True
+935473,2023-04-23T14:45:00+00:00,FT,Group 1 - 31,Coruxo,9385,CD Lugo B,9614,3,1,True
+935470,2023-04-23T14:45:00+00:00,FT,Group 1 - 31,Arenteiro,9604,Langreo,5265,0,1,True
+935471,2023-04-23T15:00:00+00:00,FT,Group 1 - 31,Gimnástica Torrelavega,5264,Zamora,9418,0,0,True
+935468,2023-04-23T16:30:00+00:00,FT,Group 1 - 31,Cristo Atlético,9728,Burgos Promesas,9727,2,1,True
+935480,2023-04-29T15:00:00+00:00,FT,Group 1 - 32,Guijuelo,9388,Gimnástica Torrelavega,5264,0,1,True
+935481,2023-04-29T15:00:00+00:00,FT,Group 1 - 32,CD Lugo B,9614,Bergantiños,9383,2,2,True
+935478,2023-04-29T16:00:00+00:00,FT,Group 1 - 32,Langreo,5265,Real Avilés,9632,1,1,True
+935476,2023-04-29T16:00:00+00:00,FT,Group 1 - 32,Burgos Promesas,9727,Real Valladolid II,9587,1,2,True
+935477,2023-04-29T17:00:00+00:00,FT,Group 1 - 32,Ourense CF,9612,Cristo Atlético,9728,0,0,True
+935475,2023-04-30T10:00:00+00:00,FT,Group 1 - 32,Compostela,5256,Laredo,9394,1,0,True
+935482,2023-04-30T16:00:00+00:00,FT,Group 1 - 32,Coruxo,9385,Real Oviedo II,9576,1,0,True
+935474,2023-04-30T16:00:00+00:00,FT,Group 1 - 32,Marino de Luanco,9401,Racing Santander II,9643,1,3,True
+935479,2023-04-30T16:00:00+00:00,FT,Group 1 - 32,Zamora,9418,Arenteiro,9604,1,0,True
+935485,2023-05-06T16:00:00+00:00,FT,Group 1 - 33,Laredo,9394,Burgos Promesas,9727,1,3,True
+935490,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Gimnástica Torrelavega,5264,CD Lugo B,9614,2,1,True
+935491,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Bergantiños,9383,Coruxo,9385,1,1,True
+935483,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Marino de Luanco,9401,Real Oviedo II,9576,1,0,True
+935486,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Real Valladolid II,9587,Ourense CF,9612,2,2,True
+935489,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Arenteiro,9604,Guijuelo,9388,5,1,True
+935488,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Real Avilés,9632,Zamora,9418,2,1,True
+935484,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Racing Santander II,9643,Compostela,5256,2,1,True
+935487,2023-05-07T10:00:00+00:00,FT,Group 1 - 33,Cristo Atlético,9728,Langreo,5265,1,2,True
+935498,2023-05-13T15:00:00+00:00,FT,Group 1 - 34,CD Lugo B,9614,Arenteiro,9604,0,2,True
+935492,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Compostela,5256,Marino de Luanco,9401,1,1,True
+935495,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Langreo,5265,Real Valladolid II,9587,1,1,True
+935499,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Coruxo,9385,Gimnástica Torrelavega,5264,1,1,True
+935497,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Guijuelo,9388,Real Avilés,9632,1,1,True
+935496,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Zamora,9418,Cristo Atlético,9728,1,0,True
+935500,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Real Oviedo II,9576,Bergantiños,9383,3,1,True
+935494,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Ourense CF,9612,Laredo,9394,1,1,True
+935493,2023-05-14T10:00:00+00:00,FT,Group 1 - 34,Burgos Promesas,9727,Racing Santander II,9643,3,0,True

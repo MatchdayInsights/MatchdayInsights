@@ -1,15 +1,15 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1377163,2025-05-28T18:00:00+00:00,FT,Cultural Leonesa,725,AD Ceuta FC,10139,2,2,True
-1376630,2025-05-31T16:30:00+00:00,FT,Gimnastic,714,Real Murcia,5275,1,1,True
-1377164,2025-05-31T18:00:00+00:00,FT,AD Ceuta FC,10139,Cultural Leonesa,725,4,3,True
-1376632,2025-05-31T18:30:00+00:00,FT,Antequera,9742,Ponferradina,4907,1,0,True
-1376634,2025-06-01T15:00:00+00:00,FT,FC Andorra,8157,Ibiza,9390,2,0,True
-1376636,2025-06-01T18:00:00+00:00,FT,Mérida AD,10140,Real Sociedad II,9585,0,1,True
-1376633,2025-06-07T18:30:00+00:00,AET,Ponferradina,4907,Antequera,9742,2,1,False
-1376631,2025-06-07T18:30:00+00:00,FT,Real Murcia,5275,Gimnastic,714,0,1,True
-1376637,2025-06-08T15:00:00+00:00,AET,Real Sociedad II,9585,Mérida AD,10140,0,1,False
-1376635,2025-06-08T17:00:00+00:00,FT,Ibiza,9390,FC Andorra,8157,0,1,True
-1378738,2025-06-14T18:30:00+00:00,FT,Gimnastic,714,Real Sociedad II,9585,1,3,True
-1378825,2025-06-15T15:00:00+00:00,FT,FC Andorra,8157,Ponferradina,4907,1,1,True
-1378900,2025-06-21T18:30:00+00:00,FT,Ponferradina,4907,FC Andorra,8157,0,1,True
-1378901,2025-06-22T18:00:00+00:00,AET,Real Sociedad II,9585,Gimnastic,714,1,2,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1377163,2025-05-28T18:00:00+00:00,FT,Championship - Final,Cultural Leonesa,725,AD Ceuta FC,10139,2,2,True
+1376630,2025-05-31T16:30:00+00:00,FT,Promotion Play-offs - 1st Round,Gimnastic,714,Real Murcia,5275,1,1,True
+1377164,2025-05-31T18:00:00+00:00,FT,Championship - Final,AD Ceuta FC,10139,Cultural Leonesa,725,4,3,True
+1376632,2025-05-31T18:30:00+00:00,FT,Promotion Play-offs - 1st Round,Antequera,9742,Ponferradina,4907,1,0,True
+1376634,2025-06-01T15:00:00+00:00,FT,Promotion Play-offs - 1st Round,FC Andorra,8157,Ibiza,9390,2,0,True
+1376636,2025-06-01T18:00:00+00:00,FT,Promotion Play-offs - 1st Round,Mérida AD,10140,Real Sociedad II,9585,0,1,True
+1376633,2025-06-07T18:30:00+00:00,AET,Promotion Play-offs - 1st Round,Ponferradina,4907,Antequera,9742,2,1,False
+1376631,2025-06-07T18:30:00+00:00,FT,Promotion Play-offs - 1st Round,Real Murcia,5275,Gimnastic,714,0,1,True
+1376637,2025-06-08T15:00:00+00:00,AET,Promotion Play-offs - 1st Round,Real Sociedad II,9585,Mérida AD,10140,0,1,False
+1376635,2025-06-08T17:00:00+00:00,FT,Promotion Play-offs - 1st Round,Ibiza,9390,FC Andorra,8157,0,1,True
+1378738,2025-06-14T18:30:00+00:00,FT,Promotion Play Offs,Gimnastic,714,Real Sociedad II,9585,1,3,True
+1378825,2025-06-15T15:00:00+00:00,FT,Promotion Play Offs,FC Andorra,8157,Ponferradina,4907,1,1,True
+1378900,2025-06-21T18:30:00+00:00,FT,Promotion Play-offs - Final,Ponferradina,4907,FC Andorra,8157,0,1,True
+1378901,2025-06-22T18:00:00+00:00,AET,Promotion Play-offs - Final,Real Sociedad II,9585,Gimnastic,714,1,2,False

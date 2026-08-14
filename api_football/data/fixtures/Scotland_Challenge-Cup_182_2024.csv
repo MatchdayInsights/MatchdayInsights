@@ -1,4 +1,52 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1319497,2025-01-28T19:45:00+00:00,AET,Queen's Park,6778,East Kilbride,6765,6,2,False
-1315611,2025-02-05T19:35:00+00:00,FT,Dunfermline,1388,Livingston,255,0,2,True
-1350317,2025-03-30T15:10:00+00:00,FT,Queen's Park,6778,Livingston,255,0,5,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1232662,2024-07-30T18:30:00+00:00,PEN,1st Round,Fraserburgh,6769,Hearts U21,6771,1,1,False
+1232671,2024-07-30T18:45:00+00:00,FT,1st Round,Cowdenbeath,4667,Kilmarnock II,19158,4,2,True
+1232664,2024-07-30T18:45:00+00:00,FT,1st Round,Banks O' Dee,6729,Aberdeen U21,6755,1,0,True
+1232667,2024-07-30T18:45:00+00:00,FT,1st Round,Berwick Rangers,6759,St. Mirren U21,6783,2,3,True
+1232669,2024-07-30T18:45:00+00:00,FT,1st Round,East Kilbride,6765,Celtic II,16845,3,0,True
+1232670,2024-07-30T18:45:00+00:00,PEN,1st Round,Hibernian U21,6772,Albion Rovers,6756,3,3,False
+1232668,2024-07-30T18:45:00+00:00,PEN,1st Round,Motherwell U21,6776,East Stirlingshire,7439,0,0,False
+1232672,2024-07-30T18:45:00+00:00,FT,1st Round,Rangers U21,6779,Bo'ness United,15597,3,1,True
+1232665,2024-07-30T18:45:00+00:00,FT,1st Round,Dundee II,16851,Formartine United,6768,2,0,True
+1232666,2024-07-30T19:00:00+00:00,FT,1st Round,Buckie Thistle,7432,Dundee United II,16852,1,3,True
+1232663,2024-07-31T18:45:00+00:00,FT,1st Round,St. Johnstone U21,6782,Brechin,1390,2,1,True
+1273898,2024-08-13T17:30:00+00:00,PEN,2nd Round,Dundee United II,16852,Dundee II,16851,0,0,False
+1273902,2024-08-13T18:45:00+00:00,FT,2nd Round,Dumbarton,1382,Berwick Rangers,6759,4,0,True
+1273900,2024-08-13T18:45:00+00:00,FT,2nd Round,Albion Rovers,6756,Cowdenbeath,4667,3,4,True
+1274847,2024-08-13T18:45:00+00:00,FT,2nd Round,East Fife,6764,St. Johnstone U21,6782,2,1,True
+1273899,2024-08-13T18:45:00+00:00,FT,2nd Round,Elgin City,6767,Banks O' Dee,6729,2,1,True
+1232661,2024-08-13T18:45:00+00:00,FT,2nd Round,Stranraer,6785,Bonnyrigg Rose Athletic,7431,2,1,True
+1273897,2024-08-13T19:00:00+00:00,FT,2nd Round,Fraserburgh,6769,Forfar Athletic,4250,2,1,True
+1273903,2024-08-14T18:45:00+00:00,FT,2nd Round,Clyde,6762,Rangers U21,6779,2,3,True
+1273901,2024-08-14T18:45:00+00:00,PEN,2nd Round,East Stirlingshire,7439,East Kilbride,6765,2,2,False
+1293419,2024-09-03T18:45:00+00:00,FT,3rd Round,Hamilton Academical,248,Dundee United II,16852,4,0,True
+1293421,2024-09-07T14:00:00+00:00,FT,3rd Round,Partick,901,Alloa Athletic,1391,1,3,True
+1293416,2024-09-07T14:00:00+00:00,FT,3rd Round,Inverness CT,903,Stirling Albion,4669,3,0,True
+1293427,2024-09-07T14:00:00+00:00,FT,3rd Round,Queen of the South,1384,Airdrie United,4668,0,3,True
+1293423,2024-09-07T14:00:00+00:00,FT,3rd Round,Arbroath,4249,Montrose,4251,3,0,True
+1293424,2024-09-07T14:00:00+00:00,FT,3rd Round,Cowdenbeath,4667,Morton,1383,0,1,True
+1293414,2024-09-07T14:00:00+00:00,FT,3rd Round,East Fife,6764,Dunfermline,1388,0,2,True
+1293417,2024-09-07T14:00:00+00:00,FT,3rd Round,East Kilbride,6765,Cove Rangers,6763,3,2,True
+1293420,2024-09-07T14:00:00+00:00,FT,3rd Round,Kelty Hearts,6773,Elgin City,6767,3,1,True
+1293418,2024-09-07T14:00:00+00:00,FT,3rd Round,Peterhead,6777,Dumbarton,1382,1,0,True
+1293422,2024-09-07T14:00:00+00:00,FT,3rd Round,Spartans,6781,Livingston,255,0,2,True
+1293426,2024-09-07T14:00:00+00:00,PEN,3rd Round,Stenhousemuir,6784,Falkirk,1389,1,1,False
+1293413,2024-09-07T14:00:00+00:00,FT,3rd Round,Stranraer,6785,Annan Athletic,6757,1,5,True
+1293415,2024-09-08T12:00:00+00:00,FT,3rd Round,Ayr Utd,1387,Raith Rovers,1385,3,2,True
+1293428,2024-09-08T14:00:00+00:00,FT,3rd Round,Queen's Park,6778,Edinburgh City,6766,1,0,True
+1293425,2024-09-17T18:45:00+00:00,FT,3rd Round,Rangers U21,6779,Fraserburgh,6769,5,0,True
+1304463,2024-10-11T18:40:00+00:00,FT,4th Round,Hamilton Academical,248,Morton,1383,0,1,True
+1304468,2024-10-11T18:45:00+00:00,FT,4th Round,Alloa Athletic,1391,Arbroath,4249,1,0,True
+1304467,2024-10-11T18:45:00+00:00,FT,4th Round,Annan Athletic,6757,Queen's Park,6778,1,4,True
+1304465,2024-10-12T12:00:00+00:00,FT,4th Round,Dunfermline,1388,Kelty Hearts,6773,2,1,True
+1304466,2024-10-12T12:30:00+00:00,PEN,4th Round,Airdrie United,4668,East Kilbride,6765,1,1,False
+1304469,2024-10-12T13:00:00+00:00,PEN,4th Round,Livingston,255,Inverness CT,903,2,2,False
+1304464,2024-10-12T13:00:00+00:00,FT,4th Round,Ayr Utd,1387,Peterhead,6777,2,1,True
+1307034,2024-10-22T18:45:00+00:00,FT,4th Round,Rangers U21,6779,Stenhousemuir,6784,4,1,True
+1312115,2024-11-12T19:40:00+00:00,FT,Quarter-finals,East Kilbride,6765,Ayr Utd,1387,3,2,True
+1312114,2024-11-12T19:45:00+00:00,FT,Quarter-finals,Livingston,255,Morton,1383,2,1,True
+1312116,2024-11-12T19:45:00+00:00,FT,Quarter-finals,Dunfermline,1388,Alloa Athletic,1391,1,0,True
+1312951,2024-12-03T19:45:00+00:00,FT,Quarter-finals,Queen's Park,6778,Rangers U21,6779,3,1,True
+1319497,2025-01-28T19:45:00+00:00,AET,Semi-finals,Queen's Park,6778,East Kilbride,6765,6,2,False
+1315611,2025-02-05T19:35:00+00:00,FT,Semi-finals,Dunfermline,1388,Livingston,255,0,2,True
+1350317,2025-03-30T15:10:00+00:00,FT,Final,Queen's Park,6778,Livingston,255,0,5,True

@@ -1,90 +1,185 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1335586,2025-02-22T13:00:00+00:00,FT,Jedinstvo,3747,Bokelj,3744,0,1,True
-1335585,2025-02-22T13:00:00+00:00,FT,Jezero,3748,Mornar,3740,1,2,True
-1335587,2025-02-22T14:00:00+00:00,FT,Dečić,3745,Arsenal Tivat,3742,0,0,True
-1335584,2025-02-22T16:00:00+00:00,FT,Petrovac,3741,Otrant-Olympic,3751,2,1,True
-1335588,2025-02-22T17:00:00+00:00,FT,Buducnost Podgorica,579,Sutjeska,673,2,0,True
-1335589,2025-02-26T12:00:00+00:00,FT,Sutjeska,673,Petrovac,3741,0,3,True
-1335592,2025-02-26T13:00:00+00:00,FT,Mornar,3740,Jedinstvo,3747,1,1,True
-1335590,2025-02-26T13:00:00+00:00,FT,Arsenal Tivat,3742,Buducnost Podgorica,579,1,5,True
-1335593,2025-02-26T16:00:00+00:00,FT,Otrant-Olympic,3751,Jezero,3748,1,0,True
-1335598,2025-03-02T12:00:00+00:00,FT,Sutjeska,673,Arsenal Tivat,3742,2,0,True
-1335594,2025-03-02T13:00:00+00:00,FT,Petrovac,3741,Jezero,3748,2,1,True
-1335595,2025-03-02T13:00:00+00:00,FT,Jedinstvo,3747,Otrant-Olympic,3751,2,0,True
-1335596,2025-03-02T14:00:00+00:00,FT,Dečić,3745,Mornar,3740,2,0,True
-1335597,2025-03-02T17:00:00+00:00,FT,Buducnost Podgorica,579,Bokelj,3744,3,1,True
-1335599,2025-03-08T13:00:00+00:00,FT,Arsenal Tivat,3742,Petrovac,3741,1,2,True
-1335603,2025-03-08T13:00:00+00:00,FT,Jezero,3748,Jedinstvo,3747,3,2,True
-1335600,2025-03-08T14:00:00+00:00,FT,Bokelj,3744,Sutjeska,673,1,2,True
-1335602,2025-03-08T15:00:00+00:00,FT,Otrant-Olympic,3751,Dečić,3745,2,0,True
-1335601,2025-03-08T17:00:00+00:00,FT,Mornar,3740,Buducnost Podgorica,579,1,2,True
-1335607,2025-03-12T13:00:00+00:00,FT,Sutjeska,673,Mornar,3740,1,1,True
-1335608,2025-03-12T13:00:00+00:00,FT,Arsenal Tivat,3742,Bokelj,3744,1,0,True
-1335604,2025-03-12T14:00:00+00:00,FT,Petrovac,3741,Jedinstvo,3747,0,0,True
-1335605,2025-03-12T14:00:00+00:00,FT,Dečić,3745,Jezero,3748,1,2,True
-1335606,2025-03-12T17:00:00+00:00,FT,Buducnost Podgorica,579,Otrant-Olympic,3751,5,1,True
-1335613,2025-03-16T12:00:00+00:00,FT,Jedinstvo,3747,Dečić,3745,1,1,True
-1335612,2025-03-16T12:00:00+00:00,FT,Jezero,3748,Buducnost Podgorica,579,3,3,True
-1335610,2025-03-16T14:00:00+00:00,FT,Mornar,3740,Arsenal Tivat,3742,1,0,True
-1335611,2025-03-16T14:00:00+00:00,FT,Otrant-Olympic,3751,Sutjeska,673,0,2,True
-1335609,2025-03-16T14:30:00+00:00,FT,Bokelj,3744,Petrovac,3741,0,4,True
-1335591,2025-03-24T13:00:00+00:00,FT,Bokelj,3744,Dečić,3745,0,1,True
-1335618,2025-03-29T12:00:00+00:00,FT,Bokelj,3744,Mornar,3740,0,2,True
-1335616,2025-03-29T14:00:00+00:00,FT,Sutjeska,673,Jezero,3748,2,1,True
-1335617,2025-03-29T14:00:00+00:00,FT,Arsenal Tivat,3742,Otrant-Olympic,3751,2,1,True
-1335614,2025-03-29T15:30:00+00:00,FT,Petrovac,3741,Dečić,3745,0,0,True
-1335615,2025-03-29T17:00:00+00:00,FT,Buducnost Podgorica,579,Jedinstvo,3747,5,2,True
-1335619,2025-04-02T13:00:00+00:00,FT,Mornar,3740,Petrovac,3741,1,1,True
-1335622,2025-04-02T13:00:00+00:00,FT,Jedinstvo,3747,Sutjeska,673,2,1,True
-1335621,2025-04-02T13:00:00+00:00,FT,Jezero,3748,Arsenal Tivat,3742,2,0,True
-1335620,2025-04-02T13:00:00+00:00,FT,Otrant-Olympic,3751,Bokelj,3744,0,1,True
-1335623,2025-04-02T16:30:00+00:00,FT,Dečić,3745,Buducnost Podgorica,579,1,1,True
-1335625,2025-04-06T13:00:00+00:00,FT,Dečić,3745,Sutjeska,673,0,1,True
-1335626,2025-04-06T13:00:00+00:00,FT,Jedinstvo,3747,Arsenal Tivat,3742,0,1,True
-1335628,2025-04-06T13:00:00+00:00,FT,Otrant-Olympic,3751,Mornar,3740,6,2,True
-1335624,2025-04-06T17:00:00+00:00,FT,Petrovac,3741,Buducnost Podgorica,579,3,3,True
-1335633,2025-04-11T18:00:00+00:00,FT,Sutjeska,673,Buducnost Podgorica,579,1,3,True
-1335632,2025-04-12T12:00:00+00:00,FT,Arsenal Tivat,3742,Dečić,3745,1,0,True
-1335630,2025-04-12T13:00:00+00:00,FT,Mornar,3740,Jezero,3748,0,1,True
-1335631,2025-04-12T13:00:00+00:00,FT,Bokelj,3744,Jedinstvo,3747,1,1,True
-1335629,2025-04-12T16:00:00+00:00,FT,Otrant-Olympic,3751,Petrovac,3741,2,1,True
-1335634,2025-04-20T13:00:00+00:00,FT,Petrovac,3741,Sutjeska,673,1,0,True
-1335637,2025-04-20T14:00:00+00:00,FT,Jedinstvo,3747,Mornar,3740,3,0,True
-1335638,2025-04-20T14:00:00+00:00,FT,Jezero,3748,Otrant-Olympic,3751,2,2,True
-1335636,2025-04-20T16:00:00+00:00,FT,Dečić,3745,Bokelj,3744,1,0,True
-1335635,2025-04-20T17:00:00+00:00,FT,Buducnost Podgorica,579,Arsenal Tivat,3742,5,0,True
-1335643,2025-04-26T12:00:00+00:00,FT,Arsenal Tivat,3742,Sutjeska,673,1,1,True
-1335641,2025-04-26T15:00:00+00:00,FT,Mornar,3740,Dečić,3745,0,2,True
-1335639,2025-04-26T15:00:00+00:00,FT,Jezero,3748,Petrovac,3741,1,1,True
-1335640,2025-04-26T15:00:00+00:00,FT,Otrant-Olympic,3751,Jedinstvo,3747,2,2,True
-1335642,2025-04-26T17:00:00+00:00,FT,Bokelj,3744,Buducnost Podgorica,579,0,4,True
-1335627,2025-04-30T12:00:00+00:00,FT,Jezero,3748,Bokelj,3744,0,2,True
-1335646,2025-05-04T18:00:00+00:00,FT,Buducnost Podgorica,579,Mornar,3740,3,0,True
-1335645,2025-05-04T18:00:00+00:00,FT,Sutjeska,673,Bokelj,3744,1,0,True
-1335644,2025-05-04T18:00:00+00:00,FT,Petrovac,3741,Arsenal Tivat,3742,2,0,True
-1335647,2025-05-04T18:00:00+00:00,FT,Dečić,3745,Otrant-Olympic,3751,2,2,True
-1335648,2025-05-04T18:00:00+00:00,FT,Jedinstvo,3747,Jezero,3748,1,0,True
-1335652,2025-05-10T15:30:00+00:00,FT,Mornar,3740,Sutjeska,673,0,2,True
-1335653,2025-05-10T15:30:00+00:00,FT,Bokelj,3744,Arsenal Tivat,3742,1,1,True
-1335649,2025-05-10T15:30:00+00:00,FT,Jedinstvo,3747,Petrovac,3741,2,1,True
-1335650,2025-05-10T15:30:00+00:00,FT,Jezero,3748,Dečić,3745,1,1,True
-1335651,2025-05-10T15:30:00+00:00,FT,Otrant-Olympic,3751,Buducnost Podgorica,579,0,1,True
-1335657,2025-05-14T15:30:00+00:00,FT,Buducnost Podgorica,579,Jezero,3748,2,3,True
-1335656,2025-05-14T15:30:00+00:00,FT,Sutjeska,673,Otrant-Olympic,3751,2,0,True
-1335654,2025-05-14T15:30:00+00:00,FT,Petrovac,3741,Bokelj,3744,0,1,True
-1335655,2025-05-14T15:30:00+00:00,FT,Arsenal Tivat,3742,Mornar,3740,1,1,True
-1335658,2025-05-14T15:30:00+00:00,FT,Dečić,3745,Jedinstvo,3747,2,2,True
-1335663,2025-05-18T15:30:00+00:00,FT,Mornar,3740,Bokelj,3744,4,1,True
-1335659,2025-05-18T15:30:00+00:00,FT,Dečić,3745,Petrovac,3741,1,1,True
-1335660,2025-05-18T15:30:00+00:00,FT,Jedinstvo,3747,Buducnost Podgorica,579,1,3,True
-1335661,2025-05-18T15:30:00+00:00,FT,Jezero,3748,Sutjeska,673,2,0,True
-1335662,2025-05-18T15:30:00+00:00,FT,Otrant-Olympic,3751,Arsenal Tivat,3742,4,1,True
-1335668,2025-05-24T15:30:00+00:00,FT,Buducnost Podgorica,579,Dečić,3745,0,0,True
-1335667,2025-05-24T15:30:00+00:00,FT,Sutjeska,673,Jedinstvo,3747,3,3,True
-1335664,2025-05-24T15:30:00+00:00,FT,Petrovac,3741,Mornar,3740,0,2,True
-1335666,2025-05-24T15:30:00+00:00,FT,Arsenal Tivat,3742,Jezero,3748,0,0,True
-1335665,2025-05-24T15:30:00+00:00,FT,Bokelj,3744,Otrant-Olympic,3751,1,5,True
-1376971,2025-05-30T16:00:00+00:00,FT,Lovćen,3739,Arsenal Tivat,3742,0,0,True
-1376973,2025-05-30T18:00:00+00:00,FT,Jezero,3748,Rudar,2258,1,0,True
-1376972,2025-06-04T16:00:00+00:00,FT,Arsenal Tivat,3742,Lovćen,3739,4,0,True
-1376974,2025-06-04T17:00:00+00:00,FT,Rudar,2258,Jezero,3748,0,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1220782,2024-08-04T18:30:00+00:00,FT,Regular Season - 1,Mornar,3740,Otrant-Olympic,3751,0,1,True
+1220780,2024-08-04T18:30:00+00:00,FT,Regular Season - 1,Arsenal Tivat,3742,Jedinstvo,3747,2,1,True
+1220781,2024-08-04T18:30:00+00:00,FT,Regular Season - 1,Bokelj,3744,Jezero,3748,2,0,True
+1220779,2024-08-04T19:00:00+00:00,FT,Regular Season - 1,Sutjeska,673,Dečić,3745,1,1,True
+1220778,2024-08-06T18:00:00+00:00,FT,Regular Season - 1,Buducnost Podgorica,579,Petrovac,3741,2,1,True
+1220786,2024-08-11T18:00:00+00:00,FT,Regular Season - 2,Buducnost Podgorica,579,Sutjeska,673,1,1,True
+1220785,2024-08-11T18:00:00+00:00,FT,Regular Season - 2,Jedinstvo,3747,Bokelj,3744,0,1,True
+1220783,2024-08-11T18:45:00+00:00,FT,Regular Season - 2,Petrovac,3741,Otrant-Olympic,3751,3,2,True
+1220788,2024-08-17T15:15:00+00:00,FT,Regular Season - 3,Arsenal Tivat,3742,Buducnost Podgorica,579,0,2,True
+1220787,2024-08-17T18:00:00+00:00,FT,Regular Season - 3,Sutjeska,673,Petrovac,3741,0,2,True
+1220789,2024-08-17T18:00:00+00:00,FT,Regular Season - 3,Mornar,3740,Jedinstvo,3747,1,2,True
+1220790,2024-08-17T18:00:00+00:00,FT,Regular Season - 3,Otrant-Olympic,3751,Jezero,3748,3,1,True
+1223498,2024-08-18T18:00:00+00:00,FT,Regular Season - 3,Bokelj,3744,Dečić,3745,0,1,True
+1220794,2024-08-21T18:00:00+00:00,FT,Regular Season - 4,Sutjeska,673,Arsenal Tivat,3742,1,2,True
+1220791,2024-08-21T18:00:00+00:00,FT,Regular Season - 4,Petrovac,3741,Jezero,3748,1,1,True
+1223499,2024-08-21T18:00:00+00:00,FT,Regular Season - 4,Dečić,3745,Mornar,3740,1,0,True
+1220792,2024-08-21T18:00:00+00:00,FT,Regular Season - 4,Jedinstvo,3747,Otrant-Olympic,3751,1,0,True
+1220793,2024-08-21T18:45:00+00:00,FT,Regular Season - 4,Buducnost Podgorica,579,Bokelj,3744,4,0,True
+1220795,2024-08-25T15:00:00+00:00,FT,Regular Season - 5,Arsenal Tivat,3742,Petrovac,3741,1,1,True
+1220797,2024-08-25T18:00:00+00:00,FT,Regular Season - 5,Mornar,3740,Buducnost Podgorica,579,0,2,True
+1220796,2024-08-25T18:00:00+00:00,FT,Regular Season - 5,Bokelj,3744,Sutjeska,673,0,3,True
+1220799,2024-08-25T18:00:00+00:00,FT,Regular Season - 5,Jezero,3748,Jedinstvo,3747,1,0,True
+1220798,2024-08-25T18:45:00+00:00,FT,Regular Season - 5,Otrant-Olympic,3751,Dečić,3745,2,2,True
+1220804,2024-08-31T14:45:00+00:00,FT,Regular Season - 6,Arsenal Tivat,3742,Bokelj,3744,1,1,True
+1220800,2024-08-31T17:00:00+00:00,FT,Regular Season - 6,Petrovac,3741,Jedinstvo,3747,3,1,True
+1220802,2024-08-31T18:00:00+00:00,FT,Regular Season - 6,Buducnost Podgorica,579,Otrant-Olympic,3751,1,1,True
+1220801,2024-08-31T18:00:00+00:00,FT,Regular Season - 6,Dečić,3745,Jezero,3748,1,0,True
+1220803,2024-08-31T18:45:00+00:00,FT,Regular Season - 6,Sutjeska,673,Mornar,3740,1,1,True
+1220805,2024-09-14T16:00:00+00:00,FT,Regular Season - 7,Bokelj,3744,Petrovac,3741,0,1,True
+1220809,2024-09-14T16:00:00+00:00,FT,Regular Season - 7,Jedinstvo,3747,Dečić,3745,1,1,True
+1220806,2024-09-14T17:00:00+00:00,FT,Regular Season - 7,Mornar,3740,Arsenal Tivat,3742,4,0,True
+1220807,2024-09-14T17:00:00+00:00,FT,Regular Season - 7,Otrant-Olympic,3751,Sutjeska,673,1,3,True
+1220808,2024-09-15T18:00:00+00:00,FT,Regular Season - 7,Jezero,3748,Buducnost Podgorica,579,0,2,True
+1223497,2024-09-18T16:00:00+00:00,FT,Regular Season - 2,Dečić,3745,Arsenal Tivat,3742,1,3,True
+1220784,2024-09-18T16:00:00+00:00,FT,Regular Season - 2,Jezero,3748,Mornar,3740,2,2,True
+1220813,2024-09-22T13:30:00+00:00,FT,Regular Season - 8,Arsenal Tivat,3742,Otrant-Olympic,3751,0,0,True
+1220812,2024-09-22T15:00:00+00:00,FT,Regular Season - 8,Sutjeska,673,Jezero,3748,2,1,True
+1220811,2024-09-22T16:00:00+00:00,FT,Regular Season - 8,Buducnost Podgorica,579,Jedinstvo,3747,4,0,True
+1220814,2024-09-22T16:00:00+00:00,FT,Regular Season - 8,Bokelj,3744,Mornar,3740,2,0,True
+1220810,2024-09-22T18:00:00+00:00,FT,Regular Season - 8,Petrovac,3741,Dečić,3745,0,1,True
+1223500,2024-09-27T17:00:00+00:00,FT,Regular Season - 9,Dečić,3745,Buducnost Podgorica,579,0,2,True
+1220818,2024-09-28T14:00:00+00:00,FT,Regular Season - 9,Jedinstvo,3747,Sutjeska,673,2,0,True
+1220817,2024-09-28T14:00:00+00:00,FT,Regular Season - 9,Jezero,3748,Arsenal Tivat,3742,0,0,True
+1220816,2024-09-28T14:00:00+00:00,FT,Regular Season - 9,Otrant-Olympic,3751,Bokelj,3744,1,2,True
+1220815,2024-09-29T18:00:00+00:00,FT,Regular Season - 9,Mornar,3740,Petrovac,3741,0,2,True
+1220821,2024-10-02T14:00:00+00:00,FT,Regular Season - 10,Jedinstvo,3747,Arsenal Tivat,3742,3,2,True
+1220822,2024-10-02T14:00:00+00:00,FT,Regular Season - 10,Jezero,3748,Bokelj,3744,0,0,True
+1220823,2024-10-02T14:00:00+00:00,FT,Regular Season - 10,Otrant-Olympic,3751,Mornar,3740,1,2,True
+1220820,2024-10-02T16:00:00+00:00,FT,Regular Season - 10,Dečić,3745,Sutjeska,673,0,0,True
+1220827,2024-10-06T13:00:00+00:00,FT,Regular Season - 11,Arsenal Tivat,3742,Dečić,3745,0,0,True
+1220826,2024-10-06T14:00:00+00:00,FT,Regular Season - 11,Bokelj,3744,Jedinstvo,3747,1,2,True
+1220825,2024-10-06T16:00:00+00:00,FT,Regular Season - 11,Mornar,3740,Jezero,3748,2,0,True
+1220824,2024-10-06T16:00:00+00:00,FT,Regular Season - 11,Otrant-Olympic,3751,Petrovac,3741,0,1,True
+1220828,2024-10-06T17:00:00+00:00,FT,Regular Season - 11,Sutjeska,673,Buducnost Podgorica,579,0,1,True
+1220832,2024-10-19T12:30:00+00:00,FT,Regular Season - 12,Jedinstvo,3747,Mornar,3740,1,2,True
+1220829,2024-10-19T14:00:00+00:00,FT,Regular Season - 12,Petrovac,3741,Sutjeska,673,1,0,True
+1220833,2024-10-19T15:00:00+00:00,FT,Regular Season - 12,Jezero,3748,Otrant-Olympic,3751,1,0,True
+1220831,2024-10-19T16:00:00+00:00,FT,Regular Season - 12,Dečić,3745,Bokelj,3744,1,2,True
+1220830,2024-10-19T18:00:00+00:00,FT,Regular Season - 12,Buducnost Podgorica,579,Arsenal Tivat,3742,2,1,True
+1220838,2024-10-23T12:00:00+00:00,FT,Regular Season - 13,Arsenal Tivat,3742,Sutjeska,673,0,1,True
+1220836,2024-10-23T14:00:00+00:00,FT,Regular Season - 13,Mornar,3740,Dečić,3745,1,1,True
+1220834,2024-10-23T14:00:00+00:00,FT,Regular Season - 13,Jezero,3748,Petrovac,3741,0,1,True
+1220835,2024-10-23T14:00:00+00:00,FT,Regular Season - 13,Otrant-Olympic,3751,Jedinstvo,3747,2,1,True
+1220837,2024-10-23T16:00:00+00:00,FT,Regular Season - 13,Bokelj,3744,Buducnost Podgorica,579,2,1,True
+1220843,2024-10-27T13:00:00+00:00,FT,Regular Season - 14,Jedinstvo,3747,Jezero,3748,1,1,True
+1220840,2024-10-27T15:00:00+00:00,FT,Regular Season - 14,Sutjeska,673,Bokelj,3744,0,2,True
+1220839,2024-10-27T16:00:00+00:00,FT,Regular Season - 14,Petrovac,3741,Arsenal Tivat,3742,0,0,True
+1220842,2024-10-27T17:00:00+00:00,FT,Regular Season - 14,Dečić,3745,Otrant-Olympic,3751,0,0,True
+1220841,2024-10-27T19:00:00+00:00,FT,Regular Season - 14,Buducnost Podgorica,579,Mornar,3740,0,1,True
+1220844,2024-11-02T13:00:00+00:00,FT,Regular Season - 15,Jedinstvo,3747,Petrovac,3741,3,2,True
+1220846,2024-11-02T13:00:00+00:00,FT,Regular Season - 15,Otrant-Olympic,3751,Buducnost Podgorica,579,0,3,True
+1220848,2024-11-02T14:00:00+00:00,FT,Regular Season - 15,Bokelj,3744,Arsenal Tivat,3742,1,2,True
+1220845,2024-11-02T14:00:00+00:00,FT,Regular Season - 15,Jezero,3748,Dečić,3745,1,1,True
+1220847,2024-11-02T15:00:00+00:00,FT,Regular Season - 15,Mornar,3740,Sutjeska,673,2,1,True
+1220852,2024-11-09T13:00:00+00:00,FT,Regular Season - 16,Buducnost Podgorica,579,Jezero,3748,1,1,True
+1220850,2024-11-10T12:30:00+00:00,FT,Regular Season - 16,Arsenal Tivat,3742,Mornar,3740,4,0,True
+1223501,2024-11-10T13:30:00+00:00,FT,Regular Season - 16,Dečić,3745,Jedinstvo,3747,4,0,True
+1220851,2024-11-10T14:00:00+00:00,FT,Regular Season - 16,Sutjeska,673,Otrant-Olympic,3751,0,0,True
+1220849,2024-11-10T14:00:00+00:00,FT,Regular Season - 16,Petrovac,3741,Bokelj,3744,1,0,True
+1220857,2024-11-23T13:00:00+00:00,FT,Regular Season - 17,Mornar,3740,Bokelj,3744,1,1,True
+1220853,2024-11-23T13:00:00+00:00,FT,Regular Season - 17,Dečić,3745,Petrovac,3741,1,0,True
+1220854,2024-11-23T13:00:00+00:00,FT,Regular Season - 17,Jedinstvo,3747,Buducnost Podgorica,579,0,2,True
+1220856,2024-11-24T12:00:00+00:00,FT,Regular Season - 17,Otrant-Olympic,3751,Arsenal Tivat,3742,0,2,True
+1220855,2024-11-25T13:00:00+00:00,FT,Regular Season - 17,Jezero,3748,Sutjeska,673,0,1,True
+1220819,2024-11-27T15:00:00+00:00,FT,Regular Season - 10,Petrovac,3741,Buducnost Podgorica,579,1,4,True
+1220861,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,Sutjeska,673,Jedinstvo,3747,3,0,True
+1220858,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,Petrovac,3741,Mornar,3740,4,2,True
+1220860,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,Arsenal Tivat,3742,Jezero,3748,0,1,True
+1220859,2024-12-01T12:00:00+00:00,FT,Regular Season - 18,Bokelj,3744,Otrant-Olympic,3751,1,0,True
+1223502,2024-12-01T13:00:00+00:00,FT,Regular Season - 18,Buducnost Podgorica,579,Dečić,3745,3,1,True
+1220863,2024-12-07T12:00:00+00:00,FT,Regular Season - 19,Sutjeska,673,Dečić,3745,1,1,True
+1220864,2024-12-07T12:00:00+00:00,FT,Regular Season - 19,Arsenal Tivat,3742,Jedinstvo,3747,1,1,True
+1220865,2024-12-07T12:00:00+00:00,FT,Regular Season - 19,Bokelj,3744,Jezero,3748,2,1,True
+1220862,2024-12-07T13:00:00+00:00,FT,Regular Season - 19,Buducnost Podgorica,579,Petrovac,3741,3,1,True
+1220866,2024-12-07T13:00:00+00:00,FT,Regular Season - 19,Mornar,3740,Otrant-Olympic,3751,1,0,True
+1335586,2025-02-22T13:00:00+00:00,FT,Regular Season - 20,Jedinstvo,3747,Bokelj,3744,0,1,True
+1335585,2025-02-22T13:00:00+00:00,FT,Regular Season - 20,Jezero,3748,Mornar,3740,1,2,True
+1335587,2025-02-22T14:00:00+00:00,FT,Regular Season - 20,Dečić,3745,Arsenal Tivat,3742,0,0,True
+1335584,2025-02-22T16:00:00+00:00,FT,Regular Season - 20,Petrovac,3741,Otrant-Olympic,3751,2,1,True
+1335588,2025-02-22T17:00:00+00:00,FT,Regular Season - 20,Buducnost Podgorica,579,Sutjeska,673,2,0,True
+1335589,2025-02-26T12:00:00+00:00,FT,Regular Season - 21,Sutjeska,673,Petrovac,3741,0,3,True
+1335592,2025-02-26T13:00:00+00:00,FT,Regular Season - 21,Mornar,3740,Jedinstvo,3747,1,1,True
+1335590,2025-02-26T13:00:00+00:00,FT,Regular Season - 21,Arsenal Tivat,3742,Buducnost Podgorica,579,1,5,True
+1335593,2025-02-26T16:00:00+00:00,FT,Regular Season - 21,Otrant-Olympic,3751,Jezero,3748,1,0,True
+1335598,2025-03-02T12:00:00+00:00,FT,Regular Season - 22,Sutjeska,673,Arsenal Tivat,3742,2,0,True
+1335594,2025-03-02T13:00:00+00:00,FT,Regular Season - 22,Petrovac,3741,Jezero,3748,2,1,True
+1335595,2025-03-02T13:00:00+00:00,FT,Regular Season - 22,Jedinstvo,3747,Otrant-Olympic,3751,2,0,True
+1335596,2025-03-02T14:00:00+00:00,FT,Regular Season - 22,Dečić,3745,Mornar,3740,2,0,True
+1335597,2025-03-02T17:00:00+00:00,FT,Regular Season - 22,Buducnost Podgorica,579,Bokelj,3744,3,1,True
+1335599,2025-03-08T13:00:00+00:00,FT,Regular Season - 23,Arsenal Tivat,3742,Petrovac,3741,1,2,True
+1335603,2025-03-08T13:00:00+00:00,FT,Regular Season - 23,Jezero,3748,Jedinstvo,3747,3,2,True
+1335600,2025-03-08T14:00:00+00:00,FT,Regular Season - 23,Bokelj,3744,Sutjeska,673,1,2,True
+1335602,2025-03-08T15:00:00+00:00,FT,Regular Season - 23,Otrant-Olympic,3751,Dečić,3745,2,0,True
+1335601,2025-03-08T17:00:00+00:00,FT,Regular Season - 23,Mornar,3740,Buducnost Podgorica,579,1,2,True
+1335607,2025-03-12T13:00:00+00:00,FT,Regular Season - 24,Sutjeska,673,Mornar,3740,1,1,True
+1335608,2025-03-12T13:00:00+00:00,FT,Regular Season - 24,Arsenal Tivat,3742,Bokelj,3744,1,0,True
+1335604,2025-03-12T14:00:00+00:00,FT,Regular Season - 24,Petrovac,3741,Jedinstvo,3747,0,0,True
+1335605,2025-03-12T14:00:00+00:00,FT,Regular Season - 24,Dečić,3745,Jezero,3748,1,2,True
+1335606,2025-03-12T17:00:00+00:00,FT,Regular Season - 24,Buducnost Podgorica,579,Otrant-Olympic,3751,5,1,True
+1335613,2025-03-16T12:00:00+00:00,FT,Regular Season - 25,Jedinstvo,3747,Dečić,3745,1,1,True
+1335612,2025-03-16T12:00:00+00:00,FT,Regular Season - 25,Jezero,3748,Buducnost Podgorica,579,3,3,True
+1335610,2025-03-16T14:00:00+00:00,FT,Regular Season - 25,Mornar,3740,Arsenal Tivat,3742,1,0,True
+1335611,2025-03-16T14:00:00+00:00,FT,Regular Season - 25,Otrant-Olympic,3751,Sutjeska,673,0,2,True
+1335609,2025-03-16T14:30:00+00:00,FT,Regular Season - 25,Bokelj,3744,Petrovac,3741,0,4,True
+1335591,2025-03-24T13:00:00+00:00,FT,Regular Season - 21,Bokelj,3744,Dečić,3745,0,1,True
+1335618,2025-03-29T12:00:00+00:00,FT,Regular Season - 26,Bokelj,3744,Mornar,3740,0,2,True
+1335616,2025-03-29T14:00:00+00:00,FT,Regular Season - 26,Sutjeska,673,Jezero,3748,2,1,True
+1335617,2025-03-29T14:00:00+00:00,FT,Regular Season - 26,Arsenal Tivat,3742,Otrant-Olympic,3751,2,1,True
+1335614,2025-03-29T15:30:00+00:00,FT,Regular Season - 26,Petrovac,3741,Dečić,3745,0,0,True
+1335615,2025-03-29T17:00:00+00:00,FT,Regular Season - 26,Buducnost Podgorica,579,Jedinstvo,3747,5,2,True
+1335619,2025-04-02T13:00:00+00:00,FT,Regular Season - 27,Mornar,3740,Petrovac,3741,1,1,True
+1335622,2025-04-02T13:00:00+00:00,FT,Regular Season - 27,Jedinstvo,3747,Sutjeska,673,2,1,True
+1335621,2025-04-02T13:00:00+00:00,FT,Regular Season - 27,Jezero,3748,Arsenal Tivat,3742,2,0,True
+1335620,2025-04-02T13:00:00+00:00,FT,Regular Season - 27,Otrant-Olympic,3751,Bokelj,3744,0,1,True
+1335623,2025-04-02T16:30:00+00:00,FT,Regular Season - 27,Dečić,3745,Buducnost Podgorica,579,1,1,True
+1335625,2025-04-06T13:00:00+00:00,FT,Regular Season - 28,Dečić,3745,Sutjeska,673,0,1,True
+1335626,2025-04-06T13:00:00+00:00,FT,Regular Season - 28,Jedinstvo,3747,Arsenal Tivat,3742,0,1,True
+1335628,2025-04-06T13:00:00+00:00,FT,Regular Season - 28,Otrant-Olympic,3751,Mornar,3740,6,2,True
+1335624,2025-04-06T17:00:00+00:00,FT,Regular Season - 28,Petrovac,3741,Buducnost Podgorica,579,3,3,True
+1335633,2025-04-11T18:00:00+00:00,FT,Regular Season - 29,Sutjeska,673,Buducnost Podgorica,579,1,3,True
+1335632,2025-04-12T12:00:00+00:00,FT,Regular Season - 29,Arsenal Tivat,3742,Dečić,3745,1,0,True
+1335630,2025-04-12T13:00:00+00:00,FT,Regular Season - 29,Mornar,3740,Jezero,3748,0,1,True
+1335631,2025-04-12T13:00:00+00:00,FT,Regular Season - 29,Bokelj,3744,Jedinstvo,3747,1,1,True
+1335629,2025-04-12T16:00:00+00:00,FT,Regular Season - 29,Otrant-Olympic,3751,Petrovac,3741,2,1,True
+1335634,2025-04-20T13:00:00+00:00,FT,Regular Season - 30,Petrovac,3741,Sutjeska,673,1,0,True
+1335637,2025-04-20T14:00:00+00:00,FT,Regular Season - 30,Jedinstvo,3747,Mornar,3740,3,0,True
+1335638,2025-04-20T14:00:00+00:00,FT,Regular Season - 30,Jezero,3748,Otrant-Olympic,3751,2,2,True
+1335636,2025-04-20T16:00:00+00:00,FT,Regular Season - 30,Dečić,3745,Bokelj,3744,1,0,True
+1335635,2025-04-20T17:00:00+00:00,FT,Regular Season - 30,Buducnost Podgorica,579,Arsenal Tivat,3742,5,0,True
+1335643,2025-04-26T12:00:00+00:00,FT,Regular Season - 31,Arsenal Tivat,3742,Sutjeska,673,1,1,True
+1335641,2025-04-26T15:00:00+00:00,FT,Regular Season - 31,Mornar,3740,Dečić,3745,0,2,True
+1335639,2025-04-26T15:00:00+00:00,FT,Regular Season - 31,Jezero,3748,Petrovac,3741,1,1,True
+1335640,2025-04-26T15:00:00+00:00,FT,Regular Season - 31,Otrant-Olympic,3751,Jedinstvo,3747,2,2,True
+1335642,2025-04-26T17:00:00+00:00,FT,Regular Season - 31,Bokelj,3744,Buducnost Podgorica,579,0,4,True
+1335627,2025-04-30T12:00:00+00:00,FT,Regular Season - 28,Jezero,3748,Bokelj,3744,0,2,True
+1335646,2025-05-04T18:00:00+00:00,FT,Regular Season - 32,Buducnost Podgorica,579,Mornar,3740,3,0,True
+1335645,2025-05-04T18:00:00+00:00,FT,Regular Season - 32,Sutjeska,673,Bokelj,3744,1,0,True
+1335644,2025-05-04T18:00:00+00:00,FT,Regular Season - 32,Petrovac,3741,Arsenal Tivat,3742,2,0,True
+1335647,2025-05-04T18:00:00+00:00,FT,Regular Season - 32,Dečić,3745,Otrant-Olympic,3751,2,2,True
+1335648,2025-05-04T18:00:00+00:00,FT,Regular Season - 32,Jedinstvo,3747,Jezero,3748,1,0,True
+1335652,2025-05-10T15:30:00+00:00,FT,Regular Season - 33,Mornar,3740,Sutjeska,673,0,2,True
+1335653,2025-05-10T15:30:00+00:00,FT,Regular Season - 33,Bokelj,3744,Arsenal Tivat,3742,1,1,True
+1335649,2025-05-10T15:30:00+00:00,FT,Regular Season - 33,Jedinstvo,3747,Petrovac,3741,2,1,True
+1335650,2025-05-10T15:30:00+00:00,FT,Regular Season - 33,Jezero,3748,Dečić,3745,1,1,True
+1335651,2025-05-10T15:30:00+00:00,FT,Regular Season - 33,Otrant-Olympic,3751,Buducnost Podgorica,579,0,1,True
+1335657,2025-05-14T15:30:00+00:00,FT,Regular Season - 34,Buducnost Podgorica,579,Jezero,3748,2,3,True
+1335656,2025-05-14T15:30:00+00:00,FT,Regular Season - 34,Sutjeska,673,Otrant-Olympic,3751,2,0,True
+1335654,2025-05-14T15:30:00+00:00,FT,Regular Season - 34,Petrovac,3741,Bokelj,3744,0,1,True
+1335655,2025-05-14T15:30:00+00:00,FT,Regular Season - 34,Arsenal Tivat,3742,Mornar,3740,1,1,True
+1335658,2025-05-14T15:30:00+00:00,FT,Regular Season - 34,Dečić,3745,Jedinstvo,3747,2,2,True
+1335663,2025-05-18T15:30:00+00:00,FT,Regular Season - 35,Mornar,3740,Bokelj,3744,4,1,True
+1335659,2025-05-18T15:30:00+00:00,FT,Regular Season - 35,Dečić,3745,Petrovac,3741,1,1,True
+1335660,2025-05-18T15:30:00+00:00,FT,Regular Season - 35,Jedinstvo,3747,Buducnost Podgorica,579,1,3,True
+1335661,2025-05-18T15:30:00+00:00,FT,Regular Season - 35,Jezero,3748,Sutjeska,673,2,0,True
+1335662,2025-05-18T15:30:00+00:00,FT,Regular Season - 35,Otrant-Olympic,3751,Arsenal Tivat,3742,4,1,True
+1335668,2025-05-24T15:30:00+00:00,FT,Regular Season - 36,Buducnost Podgorica,579,Dečić,3745,0,0,True
+1335667,2025-05-24T15:30:00+00:00,FT,Regular Season - 36,Sutjeska,673,Jedinstvo,3747,3,3,True
+1335664,2025-05-24T15:30:00+00:00,FT,Regular Season - 36,Petrovac,3741,Mornar,3740,0,2,True
+1335666,2025-05-24T15:30:00+00:00,FT,Regular Season - 36,Arsenal Tivat,3742,Jezero,3748,0,0,True
+1335665,2025-05-24T15:30:00+00:00,FT,Regular Season - 36,Bokelj,3744,Otrant-Olympic,3751,1,5,True
+1376971,2025-05-30T16:00:00+00:00,FT,Relegation Round,Lovćen,3739,Arsenal Tivat,3742,0,0,True
+1376973,2025-05-30T18:00:00+00:00,FT,Relegation Round,Jezero,3748,Rudar,2258,1,0,True
+1376972,2025-06-04T16:00:00+00:00,FT,Relegation Round,Arsenal Tivat,3742,Lovćen,3739,4,0,True
+1376974,2025-06-04T17:00:00+00:00,FT,Relegation Round,Rudar,2258,Jezero,3748,0,1,True

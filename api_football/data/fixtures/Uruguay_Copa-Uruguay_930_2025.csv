@@ -1,32 +1,32 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1423461,2025-08-05T22:00:00+00:00,PEN,Rincón,15527,Cerro Largo,2369,1,1,False
-1423462,2025-08-05T23:30:00+00:00,FT,Atlético Arsenal,24669,Oriental,2376,0,1,True
-1423740,2025-08-06T23:30:00+00:00,PEN,Porongos,19346,Deportivo Maldonado,2370,2,2,False
-1423741,2025-08-06T23:30:00+00:00,FT,Paysandu,19410,Albion FC,2378,0,2,True
-1423739,2025-08-06T23:30:00+00:00,FT,Libertad San Carlos,22224,Defensor Sporting,2350,0,3,True
-1423742,2025-08-06T23:30:00+00:00,FT,Nacional CNF,22226,Central Espanol,2368,1,3,True
-1424326,2025-08-06T23:30:00+00:00,FT,Atlético Florida,24670,Atenas,2364,3,1,True
-1423743,2025-08-07T18:00:00+00:00,FT,Durazno,19333,Liverpool Montevideo,2358,1,3,True
-1423949,2025-08-07T23:30:00+00:00,PEN,Wanderers Durazno,22229,Plaza Colonia,2355,2,2,False
-1427367,2025-08-26T23:30:00+00:00,FT,Sportivo Huracan,2377,Club Nacional,2356,1,2,True
-1447016,2025-08-26T23:30:00+00:00,FT,Universitario de Salto,19354,Wanderers,2360,2,0,True
-1447017,2025-08-27T17:00:00+00:00,FT,Bella Vista,2996,Juventud,2353,1,0,True
-1447020,2025-08-27T23:30:00+00:00,PEN,San Carlos,823,Tacuarembo,2374,1,1,False
-1447018,2025-08-27T23:30:00+00:00,FT,Paso de la Arena,19344,Boston River,2361,0,3,True
-1447019,2025-08-27T23:30:00+00:00,FT,Río Negro,19349,Penarol,2348,0,3,True
-1476673,2025-08-28T23:30:00+00:00,PEN,Atenas Tala,26699,Racing Montevideo,2359,0,0,False
-1466338,2025-09-09T18:00:00+00:00,FT,Bella Vista,2996,Central Espanol,2368,1,2,True
-1466339,2025-09-10T17:00:00+00:00,FT,Oriental,2376,Defensor Sporting,2350,0,2,True
-1466340,2025-09-10T18:30:00+00:00,PEN,Racing Montevideo,2359,Boston River,2361,0,0,False
-1466341,2025-09-10T22:00:00+00:00,FT,Cerro Largo,2369,Tacuarembo,2374,0,1,True
-1466342,2025-09-10T23:30:00+00:00,FT,Penarol,2348,Liverpool Montevideo,2358,2,1,True
-1466343,2025-09-10T23:30:00+00:00,FT,Albion FC,2378,Porongos,19346,4,0,True
-1466344,2025-09-11T23:30:00+00:00,FT,Club Nacional,2356,Plaza Colonia,2355,1,2,True
-1466345,2025-09-11T23:30:00+00:00,FT,Universitario de Salto,19354,Atlético Florida,24670,7,0,True
-1474914,2025-09-24T23:30:00+00:00,FT,Tacuarembo,2374,Penarol,2348,1,2,True
-1474915,2025-09-25T18:30:00+00:00,FT,Racing Montevideo,2359,Universitario de Salto,19354,4,1,True
-1474916,2025-10-01T23:30:00+00:00,FT,Plaza Colonia,2355,Albion FC,2378,1,0,True
-1474917,2025-10-02T23:30:00+00:00,FT,Defensor Sporting,2350,Central Espanol,2368,2,0,True
-1480014,2025-10-16T00:00:00+00:00,FT,Defensor Sporting,2350,Penarol,2348,0,2,True
-1480015,2025-10-17T00:00:00+00:00,PEN,Racing Montevideo,2359,Plaza Colonia,2355,1,1,False
-1482101,2025-10-29T23:30:00+00:00,FT,Penarol,2348,Plaza Colonia,2355,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1423461,2025-08-05T22:00:00+00:00,PEN,Round of 32,Rincón,15527,Cerro Largo,2369,1,1,False
+1423462,2025-08-05T23:30:00+00:00,FT,Round of 32,Atlético Arsenal,24669,Oriental,2376,0,1,True
+1423740,2025-08-06T23:30:00+00:00,PEN,Round of 32,Porongos,19346,Deportivo Maldonado,2370,2,2,False
+1423741,2025-08-06T23:30:00+00:00,FT,Round of 32,Paysandu,19410,Albion FC,2378,0,2,True
+1423739,2025-08-06T23:30:00+00:00,FT,Round of 32,Libertad San Carlos,22224,Defensor Sporting,2350,0,3,True
+1423742,2025-08-06T23:30:00+00:00,FT,Round of 32,Nacional CNF,22226,Central Espanol,2368,1,3,True
+1424326,2025-08-06T23:30:00+00:00,FT,Round of 32,Atlético Florida,24670,Atenas,2364,3,1,True
+1423743,2025-08-07T18:00:00+00:00,FT,Round of 32,Durazno,19333,Liverpool Montevideo,2358,1,3,True
+1423949,2025-08-07T23:30:00+00:00,PEN,Round of 32,Wanderers Durazno,22229,Plaza Colonia,2355,2,2,False
+1427367,2025-08-26T23:30:00+00:00,FT,Round of 32,Sportivo Huracan,2377,Club Nacional,2356,1,2,True
+1447016,2025-08-26T23:30:00+00:00,FT,Round of 32,Universitario de Salto,19354,Wanderers,2360,2,0,True
+1447017,2025-08-27T17:00:00+00:00,FT,Round of 32,Bella Vista,2996,Juventud,2353,1,0,True
+1447020,2025-08-27T23:30:00+00:00,PEN,Round of 32,San Carlos,823,Tacuarembo,2374,1,1,False
+1447018,2025-08-27T23:30:00+00:00,FT,Round of 32,Paso de la Arena,19344,Boston River,2361,0,3,True
+1447019,2025-08-27T23:30:00+00:00,FT,Round of 32,Río Negro,19349,Penarol,2348,0,3,True
+1476673,2025-08-28T23:30:00+00:00,PEN,Round of 32,Atenas Tala,26699,Racing Montevideo,2359,0,0,False
+1466338,2025-09-09T18:00:00+00:00,FT,Round of 16,Bella Vista,2996,Central Espanol,2368,1,2,True
+1466339,2025-09-10T17:00:00+00:00,FT,Round of 16,Oriental,2376,Defensor Sporting,2350,0,2,True
+1466340,2025-09-10T18:30:00+00:00,PEN,Round of 16,Racing Montevideo,2359,Boston River,2361,0,0,False
+1466341,2025-09-10T22:00:00+00:00,FT,Round of 16,Cerro Largo,2369,Tacuarembo,2374,0,1,True
+1466342,2025-09-10T23:30:00+00:00,FT,Round of 16,Penarol,2348,Liverpool Montevideo,2358,2,1,True
+1466343,2025-09-10T23:30:00+00:00,FT,Round of 16,Albion FC,2378,Porongos,19346,4,0,True
+1466344,2025-09-11T23:30:00+00:00,FT,Round of 16,Club Nacional,2356,Plaza Colonia,2355,1,2,True
+1466345,2025-09-11T23:30:00+00:00,FT,Round of 16,Universitario de Salto,19354,Atlético Florida,24670,7,0,True
+1474914,2025-09-24T23:30:00+00:00,FT,Quarter-finals,Tacuarembo,2374,Penarol,2348,1,2,True
+1474915,2025-09-25T18:30:00+00:00,FT,Quarter-finals,Racing Montevideo,2359,Universitario de Salto,19354,4,1,True
+1474916,2025-10-01T23:30:00+00:00,FT,Quarter-finals,Plaza Colonia,2355,Albion FC,2378,1,0,True
+1474917,2025-10-02T23:30:00+00:00,FT,Quarter-finals,Defensor Sporting,2350,Central Espanol,2368,2,0,True
+1480014,2025-10-16T00:00:00+00:00,FT,Semi-Finals,Defensor Sporting,2350,Penarol,2348,0,2,True
+1480015,2025-10-17T00:00:00+00:00,PEN,Semi-Finals,Racing Montevideo,2359,Plaza Colonia,2355,1,1,False
+1482101,2025-10-29T23:30:00+00:00,FT,Final,Penarol,2348,Plaza Colonia,2355,2,0,True

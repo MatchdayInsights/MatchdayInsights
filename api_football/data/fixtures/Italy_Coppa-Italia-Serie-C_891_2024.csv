@@ -1,7 +1,63 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1327678,2025-01-22T17:30:00+00:00,FT,Giana Erminio,865,Caldiero Terme,9465,1,1,True
-1327680,2025-01-22T19:30:00+00:00,FT,Trapani 1905,17862,Rimini,1709,0,0,True
-1327681,2025-02-11T19:30:00+00:00,FT,Rimini,1709,Trapani 1905,17862,3,0,True
-1327679,2025-02-12T19:30:00+00:00,FT,Caldiero Terme,9465,Giana Erminio,865,2,3,True
-1350697,2025-03-25T19:30:00+00:00,FT,Giana Erminio,865,Rimini,1709,0,1,True
-1350698,2025-04-08T18:30:00+00:00,FT,Rimini,1709,Giana Erminio,865,0,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1227620,2024-08-09T18:30:00+00:00,AET,1st Round,Virtus Verona,1707,Caldiero Terme,9465,2,2,False
+1227617,2024-08-10T16:00:00+00:00,AET,1st Round,Renate,875,Novara,513,2,2,False
+1227618,2024-08-10T16:00:00+00:00,FT,1st Round,Triestina,877,Trento,17147,0,1,True
+1227616,2024-08-10T16:00:00+00:00,FT,1st Round,Albinoleffe,879,Sestri Levante,17815,3,2,True
+1227621,2024-08-10T16:00:00+00:00,FT,1st Round,Pontedera,1591,Pianese,6381,1,0,True
+1227619,2024-08-10T16:00:00+00:00,FT,1st Round,Atalanta II,22104,Spal,493,2,1,True
+1227627,2024-08-10T19:00:00+00:00,FT,1st Round,Crotone,501,Messina,898,1,0,True
+1227624,2024-08-10T19:00:00+00:00,AET,1st Round,Ternana,516,Casertana,885,1,2,False
+1227625,2024-08-10T19:00:00+00:00,FT,1st Round,Foggia,521,SS Monopoli,10138,1,2,True
+1227622,2024-08-10T19:00:00+00:00,FT,1st Round,Rimini,1709,Arzignano Valchiampo,6378,1,0,True
+1227628,2024-08-10T19:00:00+00:00,FT,1st Round,Potenza,1710,Audace Cerignola,9539,1,0,True
+1227626,2024-08-10T19:00:00+00:00,FT,1st Round,Cavese,1712,Trapani 1905,17862,0,1,True
+1227643,2024-08-10T19:00:00+00:00,FT,1st Round,Lecco,6379,Milan II,24205,0,3,True
+1227623,2024-08-10T19:00:00+00:00,AET,1st Round,Giugliano,9556,Campobasso FC,9510,4,1,False
+1227631,2024-08-11T16:00:00+00:00,AET,1st Round,PRO Vercelli,526,Lucchese,889,1,0,False
+1227629,2024-08-11T16:00:00+00:00,FT,1st Round,Giana Erminio,865,Juventus U23,1715,2,1,True
+1227634,2024-08-11T16:00:00+00:00,FT,1st Round,Feralpisalo,884,Athletic Carpi,17825,1,0,True
+1227632,2024-08-11T16:00:00+00:00,FT,1st Round,Lumezzane,1689,Clodiense,9469,1,0,True
+1227630,2024-08-11T16:00:00+00:00,FT,1st Round,Pro Patria,1706,Pergolettese,6380,1,0,True
+1227633,2024-08-11T16:00:00+00:00,FT,1st Round,Legnago Salus,9472,Vicenza Virtus,1584,1,2,True
+1227642,2024-08-11T18:00:00+00:00,FT,1st Round,Benevento,506,Taranto,1696,6,0,True
+1227637,2024-08-11T18:00:00+00:00,FT,1st Round,Latina,804,Perugia,524,1,4,True
+1227636,2024-08-11T19:00:00+00:00,FT,1st Round,Ascoli,507,Gubbio,866,2,1,True
+1227638,2024-08-11T19:00:00+00:00,FT,1st Round,Pescara,525,Pineto,9514,0,2,True
+1227635,2024-08-11T19:00:00+00:00,FT,1st Round,Virtus Entella,527,Alcione,17824,2,0,True
+1227640,2024-08-11T19:00:00+00:00,FT,1st Round,AZ Picerno,1587,Sorrento,9537,2,0,True
+1227639,2024-08-11T19:00:00+00:00,FT,1st Round,Vis Pesaro,1708,Arezzo,876,1,3,True
+1227641,2024-08-11T19:00:00+00:00,AET,1st Round,Turris,5608,Team Altamura,9549,1,3,False
+1285934,2024-08-17T19:00:00+00:00,FT,2nd Round,Novara,513,Milan II,24205,1,2,True
+1285936,2024-08-17T19:00:00+00:00,AET,2nd Round,Avellino,528,Pontedera,1591,1,1,False
+1285937,2024-08-17T19:00:00+00:00,AET,2nd Round,Casertana,885,Giugliano,9556,1,1,False
+1285939,2024-08-17T19:00:00+00:00,FT,2nd Round,Lumezzane,1689,Rimini,1709,0,1,True
+1285938,2024-08-17T19:00:00+00:00,FT,2nd Round,Caldiero Terme,9465,Trento,17147,2,0,True
+1285935,2024-08-17T19:00:00+00:00,FT,2nd Round,Torres,9534,Albinoleffe,879,3,1,True
+1285940,2024-08-17T19:00:00+00:00,FT,2nd Round,Trapani 1905,17862,SS Monopoli,10138,2,0,True
+1286184,2024-08-18T16:00:00+00:00,AET,2nd Round,AZ Picerno,1587,Team Altamura,9549,1,3,False
+1285944,2024-08-18T18:00:00+00:00,FT,2nd Round,Pineto,9514,Perugia,524,0,2,True
+1285947,2024-08-18T19:00:00+00:00,FT,2nd Round,Benevento,506,Potenza,1710,1,2,True
+1285942,2024-08-18T19:00:00+00:00,FT,2nd Round,Giana Erminio,865,Virtus Entella,527,1,0,True
+1285945,2024-08-18T19:00:00+00:00,AET,2nd Round,Padova,870,Feralpisalo,884,3,2,False
+1285943,2024-08-18T19:00:00+00:00,FT,2nd Round,Arezzo,876,Ascoli,507,2,1,True
+1285948,2024-08-18T19:00:00+00:00,AET,2nd Round,Catania,1580,Crotone,501,1,1,False
+1285941,2024-08-18T19:00:00+00:00,PEN,2nd Round,Pro Patria,1706,PRO Vercelli,526,0,0,False
+1285946,2024-08-18T19:00:00+00:00,FT,2nd Round,Atalanta II,22104,Vicenza Virtus,1584,1,2,True
+1293131,2024-11-26T13:30:00+00:00,AET,Round of 16,Potenza,1710,Team Altamura,9549,1,1,False
+1289421,2024-11-26T17:30:00+00:00,FT,Round of 16,Giugliano,9556,Avellino,528,2,4,True
+1293127,2024-11-26T19:30:00+00:00,FT,Round of 16,Catania,1580,Trapani 1905,17862,0,5,True
+1293128,2024-11-27T17:00:00+00:00,FT,Round of 16,Giana Erminio,865,PRO Vercelli,526,3,0,True
+1293126,2024-11-27T17:00:00+00:00,FT,Round of 16,Padova,870,Caldiero Terme,9465,1,2,True
+1289420,2024-11-27T17:00:00+00:00,FT,Round of 16,Torres,9534,Milan II,24205,0,1,True
+1293130,2024-11-27T19:30:00+00:00,FT,Round of 16,Perugia,524,Arezzo,876,1,2,True
+1293129,2024-11-27T19:30:00+00:00,AET,Round of 16,Vicenza Virtus,1584,Rimini,1709,1,2,False
+1317942,2024-12-18T17:00:00+00:00,FT,Quarter-finals,Milan II,24205,Caldiero Terme,9465,0,2,True
+1317941,2024-12-18T17:30:00+00:00,FT,Quarter-finals,Giana Erminio,865,Avellino,528,3,0,True
+1317943,2024-12-18T19:30:00+00:00,FT,Quarter-finals,Arezzo,876,Trapani 1905,17862,0,1,True
+1317944,2024-12-18T19:30:00+00:00,FT,Quarter-finals,Team Altamura,9549,Rimini,1709,1,2,True
+1327678,2025-01-22T17:30:00+00:00,FT,Semi-finals,Giana Erminio,865,Caldiero Terme,9465,1,1,True
+1327680,2025-01-22T19:30:00+00:00,FT,Semi-finals,Trapani 1905,17862,Rimini,1709,0,0,True
+1327681,2025-02-11T19:30:00+00:00,FT,Semi-finals,Rimini,1709,Trapani 1905,17862,3,0,True
+1327679,2025-02-12T19:30:00+00:00,FT,Semi-finals,Caldiero Terme,9465,Giana Erminio,865,2,3,True
+1350697,2025-03-25T19:30:00+00:00,FT,Final,Giana Erminio,865,Rimini,1709,0,1,True
+1350698,2025-04-08T18:30:00+00:00,FT,Final,Rimini,1709,Giana Erminio,865,0,0,True

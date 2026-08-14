@@ -1,145 +1,307 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1203113,2025-01-31T17:00:00+00:00,FT,GKS Katowice,3484,Stal Mielec,3493,1,0,True
-1203116,2025-01-31T19:30:00+00:00,FT,Lech Poznan,347,Widzew Łódź,6962,4,1,True
-1203118,2025-02-01T13:45:00+00:00,FT,Motor Lublin,14562,Lechia Gdansk,343,1,1,True
-1203112,2025-02-01T16:30:00+00:00,FT,Cracovia Krakow,350,Raków Częstochowa,3491,0,0,True
-1203119,2025-02-01T19:15:00+00:00,FT,Pogon Szczecin,348,Zaglebie Lubin,345,1,0,True
-1203114,2025-02-02T11:15:00+00:00,FT,Gornik Zabrze,340,Puszcza Niepołomice,3490,1,1,True
-1203115,2025-02-02T13:45:00+00:00,FT,Jagiellonia,336,Radomiak Radom,4248,5,0,True
-1203117,2025-02-02T16:30:00+00:00,FT,Legia Warszawa,339,Korona Kielce,346,1,1,True
-1203120,2025-02-03T18:00:00+00:00,FT,Slask Wroclaw,337,Piast Gliwice,349,1,3,True
-1203128,2025-02-07T17:00:00+00:00,FT,Stal Mielec,3493,Jagiellonia,336,2,1,True
-1203124,2025-02-07T19:30:00+00:00,FT,Pogon Szczecin,348,Gornik Zabrze,340,3,0,True
-1203126,2025-02-08T13:45:00+00:00,FT,Radomiak Radom,4248,Slask Wroclaw,337,1,1,True
-1203127,2025-02-08T16:30:00+00:00,FT,Raków Częstochowa,3491,GKS Katowice,3484,1,2,True
-1203123,2025-02-08T19:15:00+00:00,FT,Piast Gliwice,349,Legia Warszawa,339,1,0,True
-1203121,2025-02-09T11:15:00+00:00,FT,Korona Kielce,346,Motor Lublin,14562,1,0,True
-1203129,2025-02-09T13:45:00+00:00,FT,Widzew Łódź,6962,Cracovia Krakow,350,1,1,True
-1203122,2025-02-09T16:30:00+00:00,FT,Lechia Gdansk,343,Lech Poznan,347,1,0,True
-1203125,2025-02-10T18:00:00+00:00,FT,Puszcza Niepołomice,3490,Zaglebie Lubin,345,1,2,True
-1203130,2025-02-14T17:00:00+00:00,FT,Cracovia Krakow,350,Korona Kielce,346,1,1,True
-1203135,2025-02-14T19:30:00+00:00,FT,Lech Poznan,347,Raków Częstochowa,3491,0,1,True
-1203138,2025-02-15T13:45:00+00:00,FT,Slask Wroclaw,337,Widzew Łódź,6962,3,0,True
-1203132,2025-02-15T16:30:00+00:00,FT,Gornik Zabrze,340,Radomiak Radom,4248,3,2,True
-1203136,2025-02-15T19:15:00+00:00,FT,Legia Warszawa,339,Puszcza Niepołomice,3490,2,0,True
-1203137,2025-02-16T11:15:00+00:00,FT,Stal Mielec,3493,Pogon Szczecin,348,1,2,True
-1203131,2025-02-16T13:45:00+00:00,FT,GKS Katowice,3484,Piast Gliwice,349,0,0,True
-1203133,2025-02-16T16:30:00+00:00,FT,Jagiellonia,336,Motor Lublin,14562,3,0,True
-1203134,2025-02-17T18:00:00+00:00,FT,Zaglebie Lubin,345,Lechia Gdansk,343,1,3,True
-1203144,2025-02-21T17:00:00+00:00,FT,Piast Gliwice,349,Stal Mielec,3493,2,2,True
-1203146,2025-02-21T19:30:00+00:00,FT,Raków Częstochowa,3491,Gornik Zabrze,340,1,0,True
-1203140,2025-02-22T13:45:00+00:00,FT,Korona Kielce,346,Slask Wroclaw,337,2,0,True
-1203147,2025-02-22T16:30:00+00:00,FT,Widzew Łódź,6962,Pogon Szczecin,348,0,4,True
-1203145,2025-02-22T19:15:00+00:00,FT,Radomiak Radom,4248,Legia Warszawa,339,3,1,True
-1203142,2025-02-23T11:15:00+00:00,FT,Lechia Gdansk,343,Puszcza Niepołomice,3490,0,2,True
-1203139,2025-02-23T13:45:00+00:00,FT,Cracovia Krakow,350,Jagiellonia,336,2,2,True
-1203141,2025-02-23T16:30:00+00:00,FT,Lech Poznan,347,Zaglebie Lubin,345,3,1,True
-1203143,2025-02-24T18:00:00+00:00,FT,Motor Lublin,14562,GKS Katowice,3484,3,2,True
-1203154,2025-02-28T17:00:00+00:00,FT,Radomiak Radom,4248,Widzew Łódź,6962,1,1,True
-1203148,2025-02-28T19:30:00+00:00,FT,Gornik Zabrze,340,Cracovia Krakow,350,0,1,True
-1203156,2025-03-01T13:45:00+00:00,FT,Stal Mielec,3493,Korona Kielce,346,0,1,True
-1203152,2025-03-01T16:30:00+00:00,FT,Pogon Szczecin,348,Lech Poznan,347,0,3,True
-1203150,2025-03-01T19:15:00+00:00,FT,Zaglebie Lubin,345,Piast Gliwice,349,0,1,True
-1203153,2025-03-02T11:15:00+00:00,FT,Puszcza Niepołomice,3490,Motor Lublin,14562,0,1,True
-1203151,2025-03-02T13:45:00+00:00,FT,Legia Warszawa,339,Slask Wroclaw,337,3,1,True
-1203149,2025-03-02T16:30:00+00:00,FT,Jagiellonia,336,GKS Katowice,3484,1,0,True
-1203155,2025-03-03T18:00:00+00:00,FT,Raków Częstochowa,3491,Lechia Gdansk,343,3,1,True
-1203159,2025-03-07T17:00:00+00:00,FT,Korona Kielce,346,Puszcza Niepołomice,3490,2,1,True
-1203165,2025-03-07T19:30:00+00:00,FT,Slask Wroclaw,337,Pogon Szczecin,348,1,1,True
-1203157,2025-03-08T13:45:00+00:00,FT,Cracovia Krakow,350,Radomiak Radom,4248,1,2,True
-1203163,2025-03-08T16:30:00+00:00,FT,Piast Gliwice,349,Raków Częstochowa,3491,0,3,True
-1203160,2025-03-08T19:15:00+00:00,FT,Lech Poznan,347,Stal Mielec,3493,3,1,True
-1203158,2025-03-09T11:15:00+00:00,FT,GKS Katowice,3484,Zaglebie Lubin,345,1,0,True
-1203161,2025-03-09T13:45:00+00:00,FT,Lechia Gdansk,343,Gornik Zabrze,340,1,2,True
-1203164,2025-03-09T16:30:00+00:00,FT,Widzew Łódź,6962,Jagiellonia,336,0,1,True
-1203162,2025-03-10T18:00:00+00:00,FT,Motor Lublin,14562,Legia Warszawa,339,3,3,True
-1203171,2025-03-14T17:00:00+00:00,FT,Radomiak Radom,4248,Lechia Gdansk,343,2,1,True
-1203169,2025-03-14T19:30:00+00:00,FT,Pogon Szczecin,348,Cracovia Krakow,350,5,2,True
-1203173,2025-03-15T13:45:00+00:00,FT,Stal Mielec,3493,Slask Wroclaw,337,1,4,True
-1203166,2025-03-15T16:30:00+00:00,FT,Gornik Zabrze,340,Motor Lublin,14562,4,0,True
-1203174,2025-03-15T19:15:00+00:00,FT,Widzew Łódź,6962,GKS Katowice,3484,1,0,True
-1203170,2025-03-16T11:15:00+00:00,FT,Puszcza Niepołomice,3490,Piast Gliwice,349,2,1,True
-1203168,2025-03-16T13:45:00+00:00,FT,Zaglebie Lubin,345,Korona Kielce,346,1,1,True
-1203172,2025-03-16T16:30:00+00:00,FT,Raków Częstochowa,3491,Legia Warszawa,339,3,2,True
-1203167,2025-03-16T19:15:00+00:00,FT,Jagiellonia,336,Lech Poznan,347,2,1,True
-1203182,2025-03-28T17:00:00+00:00,FT,Piast Gliwice,349,Widzew Łódź,6962,0,2,True
-1203180,2025-03-28T19:30:00+00:00,FT,Legia Warszawa,339,Pogon Szczecin,348,0,0,True
-1203175,2025-03-29T13:45:00+00:00,FT,Cracovia Krakow,350,Puszcza Niepołomice,3490,3,1,True
-1203179,2025-03-29T16:30:00+00:00,FT,Lechia Gdansk,343,Jagiellonia,336,1,0,True
-1203183,2025-03-29T19:15:00+00:00,FT,Slask Wroclaw,337,Lech Poznan,347,3,1,True
-1203178,2025-03-30T10:15:00+00:00,FT,Korona Kielce,346,Radomiak Radom,4248,1,3,True
-1203181,2025-03-30T12:45:00+00:00,FT,Motor Lublin,14562,Stal Mielec,3493,4,1,True
-1203176,2025-03-30T15:30:00+00:00,FT,GKS Katowice,3484,Gornik Zabrze,340,2,1,True
-1203177,2025-03-31T17:00:00+00:00,FT,Zaglebie Lubin,345,Raków Częstochowa,3491,0,2,True
-1203190,2025-04-04T16:00:00+00:00,FT,Stal Mielec,3493,Cracovia Krakow,350,1,1,True
-1203191,2025-04-04T18:30:00+00:00,FT,Widzew Łódź,6962,Lechia Gdansk,343,2,0,True
-1203189,2025-04-05T12:45:00+00:00,FT,Radomiak Radom,4248,Zaglebie Lubin,345,0,1,True
-1203192,2025-04-05T15:30:00+00:00,FT,Slask Wroclaw,337,Motor Lublin,14562,1,1,True
-1203186,2025-04-05T18:15:00+00:00,FT,Lech Poznan,347,Korona Kielce,346,2,0,True
-1203185,2025-04-06T10:15:00+00:00,FT,Jagiellonia,336,Piast Gliwice,349,1,1,True
-1203184,2025-04-06T12:45:00+00:00,FT,Gornik Zabrze,340,Legia Warszawa,339,1,2,True
-1203187,2025-04-06T15:30:00+00:00,FT,Pogon Szczecin,348,GKS Katowice,3484,4,0,True
-1203188,2025-04-07T17:00:00+00:00,FT,Puszcza Niepołomice,3490,Raków Częstochowa,3491,1,1,True
-1203195,2025-04-11T16:00:00+00:00,FT,Zaglebie Lubin,345,Gornik Zabrze,340,2,1,True
-1203196,2025-04-11T18:30:00+00:00,FT,Korona Kielce,346,Widzew Łódź,6962,2,1,True
-1203194,2025-04-12T12:45:00+00:00,FT,GKS Katowice,3484,Puszcza Niepołomice,3490,3,1,True
-1203193,2025-04-12T15:30:00+00:00,FT,Cracovia Krakow,350,Slask Wroclaw,337,2,4,True
-1203201,2025-04-12T18:15:00+00:00,FT,Raków Częstochowa,3491,Radomiak Radom,4248,2,1,True
-1203200,2025-04-13T12:45:00+00:00,FT,Piast Gliwice,349,Pogon Szczecin,348,2,1,True
-1203199,2025-04-13T15:30:00+00:00,FT,Motor Lublin,14562,Lech Poznan,347,1,2,True
-1203198,2025-04-13T18:15:00+00:00,FT,Legia Warszawa,339,Jagiellonia,336,0,1,True
-1203197,2025-04-14T17:00:00+00:00,FT,Lechia Gdansk,343,Stal Mielec,3493,3,2,True
-1203205,2025-04-19T10:15:00+00:00,FT,Piast Gliwice,349,Korona Kielce,346,1,1,True
-1203210,2025-04-19T12:45:00+00:00,FT,Slask Wroclaw,337,GKS Katowice,3484,0,2,True
-1203209,2025-04-19T15:30:00+00:00,FT,Widzew Łódź,6962,Motor Lublin,14562,1,2,True
-1203206,2025-04-19T18:15:00+00:00,FT,Pogon Szczecin,348,Raków Częstochowa,3491,1,0,True
-1203207,2025-04-21T10:15:00+00:00,FT,Puszcza Niepołomice,3490,Radomiak Radom,4248,2,2,True
-1203202,2025-04-21T12:45:00+00:00,FT,Jagiellonia,336,Zaglebie Lubin,345,1,3,True
-1203204,2025-04-21T15:30:00+00:00,FT,Legia Warszawa,339,Lechia Gdansk,343,2,1,True
-1203203,2025-04-21T18:15:00+00:00,FT,Lech Poznan,347,Cracovia Krakow,350,2,1,True
-1203208,2025-04-22T17:00:00+00:00,FT,Stal Mielec,3493,Gornik Zabrze,340,0,0,True
-1203217,2025-04-25T16:00:00+00:00,FT,Puszcza Niepołomice,3490,Pogon Szczecin,348,4,5,True
-1203219,2025-04-25T18:30:00+00:00,FT,Raków Częstochowa,3491,Slask Wroclaw,337,3,0,True
-1203215,2025-04-26T12:45:00+00:00,FT,Lechia Gdansk,343,Piast Gliwice,349,3,1,True
-1203216,2025-04-26T15:30:00+00:00,FT,Motor Lublin,14562,Cracovia Krakow,350,0,1,True
-1203211,2025-04-26T18:15:00+00:00,FT,GKS Katowice,3484,Legia Warszawa,339,1,3,True
-1203214,2025-04-27T10:15:00+00:00,FT,Korona Kielce,346,Jagiellonia,336,3,1,True
-1203212,2025-04-27T12:45:00+00:00,FT,Gornik Zabrze,340,Widzew Łódź,6962,0,0,True
-1203218,2025-04-27T15:30:00+00:00,FT,Radomiak Radom,4248,Lech Poznan,347,2,2,True
-1203213,2025-04-28T17:00:00+00:00,FT,Zaglebie Lubin,345,Stal Mielec,3493,2,2,True
-1203226,2025-05-03T12:45:00+00:00,FT,Stal Mielec,3493,Raków Częstochowa,3491,0,2,True
-1203228,2025-05-03T15:30:00+00:00,FT,Slask Wroclaw,337,Zaglebie Lubin,345,3,1,True
-1203223,2025-05-03T18:15:00+00:00,FT,Lech Poznan,347,Puszcza Niepołomice,3490,8,1,True
-1203224,2025-05-04T10:15:00+00:00,FT,Piast Gliwice,349,Radomiak Radom,4248,0,0,True
-1203220,2025-05-04T12:45:00+00:00,FT,Cracovia Krakow,350,Lechia Gdansk,343,0,2,True
-1203221,2025-05-04T15:30:00+00:00,FT,Jagiellonia,336,Gornik Zabrze,340,1,1,True
-1203222,2025-05-05T17:00:00+00:00,FT,Korona Kielce,346,GKS Katowice,3484,2,1,True
-1203234,2025-05-09T16:00:00+00:00,FT,Motor Lublin,14562,Piast Gliwice,349,1,4,True
-1203230,2025-05-09T18:30:00+00:00,FT,Gornik Zabrze,340,Slask Wroclaw,337,2,0,True
-1203236,2025-05-10T12:45:00+00:00,FT,Radomiak Radom,4248,Pogon Szczecin,348,2,0,True
-1203231,2025-05-10T15:30:00+00:00,FT,Zaglebie Lubin,345,Widzew Łódź,6962,2,1,True
-1203237,2025-05-10T18:15:00+00:00,FT,Raków Częstochowa,3491,Jagiellonia,336,1,2,True
-1203232,2025-05-11T10:15:00+00:00,FT,Lechia Gdansk,343,Korona Kielce,346,3,2,True
-1203229,2025-05-11T12:45:00+00:00,FT,GKS Katowice,3484,Cracovia Krakow,350,2,1,True
-1203233,2025-05-11T15:30:00+00:00,FT,Legia Warszawa,339,Lech Poznan,347,0,1,True
-1203235,2025-05-12T17:00:00+00:00,FT,Puszcza Niepołomice,3490,Stal Mielec,3493,2,3,True
-1203225,2025-05-14T18:30:00+00:00,FT,Pogon Szczecin,348,Motor Lublin,14562,3,0,True
-1203227,2025-05-15T18:30:00+00:00,FT,Widzew Łódź,6962,Legia Warszawa,339,0,2,True
-1203244,2025-05-16T16:00:00+00:00,FT,Stal Mielec,3493,Radomiak Radom,4248,2,2,True
-1203246,2025-05-16T18:30:00+00:00,FT,Slask Wroclaw,337,Jagiellonia,336,1,1,True
-1203243,2025-05-17T12:45:00+00:00,FT,Pogon Szczecin,348,Lechia Gdansk,343,3,3,True
-1203242,2025-05-17T15:30:00+00:00,FT,Piast Gliwice,349,Gornik Zabrze,340,2,0,True
-1203240,2025-05-17T18:15:00+00:00,FT,Korona Kielce,346,Raków Częstochowa,3491,1,1,True
-1203241,2025-05-18T10:15:00+00:00,FT,Motor Lublin,14562,Zaglebie Lubin,345,1,0,True
-1203238,2025-05-18T12:45:00+00:00,FT,Cracovia Krakow,350,Legia Warszawa,339,3,1,True
-1203239,2025-05-18T15:30:00+00:00,FT,GKS Katowice,3484,Lech Poznan,347,2,2,True
-1203245,2025-05-19T17:00:00+00:00,FT,Widzew Łódź,6962,Puszcza Niepołomice,3490,2,0,True
-1203248,2025-05-24T15:30:00+00:00,FT,Jagiellonia,336,Pogon Szczecin,348,1,1,True
-1203252,2025-05-24T15:30:00+00:00,FT,Legia Warszawa,339,Stal Mielec,3493,2,2,True
-1203247,2025-05-24T15:30:00+00:00,FT,Gornik Zabrze,340,Korona Kielce,346,1,1,True
-1203251,2025-05-24T15:30:00+00:00,FT,Lechia Gdansk,343,GKS Katowice,3484,2,3,True
-1203249,2025-05-24T15:30:00+00:00,FT,Zaglebie Lubin,345,Cracovia Krakow,350,1,2,True
-1203250,2025-05-24T15:30:00+00:00,FT,Lech Poznan,347,Piast Gliwice,349,1,0,True
-1203253,2025-05-24T15:30:00+00:00,FT,Puszcza Niepołomice,3490,Slask Wroclaw,337,1,1,True
-1203255,2025-05-24T15:30:00+00:00,FT,Raków Częstochowa,3491,Widzew Łódź,6962,2,1,True
-1203254,2025-05-24T15:30:00+00:00,FT,Radomiak Radom,4248,Motor Lublin,14562,2,3,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1202952,2024-07-19T16:00:00+00:00,FT,Regular Season - 1,Jagiellonia,336,Puszcza Niepołomice,3490,2,0,True
+1202958,2024-07-19T18:30:00+00:00,FT,Regular Season - 1,Slask Wroclaw,337,Lechia Gdansk,343,1,1,True
+1202951,2024-07-20T12:45:00+00:00,FT,Regular Season - 1,GKS Katowice,3484,Radomiak Radom,4248,1,2,True
+1202956,2024-07-20T15:30:00+00:00,FT,Regular Season - 1,Pogon Szczecin,348,Korona Kielce,346,3,0,True
+1202954,2024-07-20T18:15:00+00:00,FT,Regular Season - 1,Legia Warszawa,339,Zaglebie Lubin,345,2,0,True
+1202950,2024-07-21T12:45:00+00:00,FT,Regular Season - 1,Cracovia Krakow,350,Piast Gliwice,349,1,1,True
+1202953,2024-07-21T15:30:00+00:00,FT,Regular Season - 1,Lech Poznan,347,Gornik Zabrze,340,2,0,True
+1202955,2024-07-21T18:15:00+00:00,FT,Regular Season - 1,Motor Lublin,14562,Raków Częstochowa,3491,0,2,True
+1202957,2024-07-22T17:00:00+00:00,FT,Regular Season - 1,Stal Mielec,3493,Widzew Łódź,6962,1,1,True
+1202963,2024-07-26T16:00:00+00:00,FT,Regular Season - 2,Puszcza Niepołomice,3490,Gornik Zabrze,340,2,2,True
+1202961,2024-07-26T18:30:00+00:00,FT,Regular Season - 2,Lechia Gdansk,343,Motor Lublin,14562,0,2,True
+1202966,2024-07-27T12:45:00+00:00,FT,Regular Season - 2,Stal Mielec,3493,GKS Katowice,3484,0,1,True
+1202964,2024-07-27T15:30:00+00:00,FT,Regular Season - 2,Radomiak Radom,4248,Jagiellonia,336,2,3,True
+1202967,2024-07-27T18:15:00+00:00,FT,Regular Season - 2,Widzew Łódź,6962,Lech Poznan,347,2,1,True
+1202959,2024-07-28T12:45:00+00:00,FT,Regular Season - 2,Zaglebie Lubin,345,Pogon Szczecin,348,2,2,True
+1202962,2024-07-28T15:30:00+00:00,FT,Regular Season - 2,Piast Gliwice,349,Slask Wroclaw,337,2,0,True
+1202960,2024-07-28T18:15:00+00:00,FT,Regular Season - 2,Korona Kielce,346,Legia Warszawa,339,0,1,True
+1202965,2024-07-29T17:00:00+00:00,FT,Regular Season - 2,Raków Częstochowa,3491,Cracovia Krakow,350,0,1,True
+1202972,2024-08-02T16:00:00+00:00,FT,Regular Season - 3,Zaglebie Lubin,345,Puszcza Niepołomice,3490,1,0,True
+1202970,2024-08-02T18:30:00+00:00,FT,Regular Season - 3,Gornik Zabrze,340,Pogon Szczecin,348,1,0,True
+1202969,2024-08-03T12:45:00+00:00,FT,Regular Season - 3,GKS Katowice,3484,Raków Częstochowa,3491,0,1,True
+1202971,2024-08-03T15:30:00+00:00,FT,Regular Season - 3,Jagiellonia,336,Stal Mielec,3493,2,0,True
+1202973,2024-08-03T18:15:00+00:00,FT,Regular Season - 3,Lech Poznan,347,Lechia Gdansk,343,3,1,True
+1202975,2024-08-04T12:45:00+00:00,FT,Regular Season - 3,Motor Lublin,14562,Korona Kielce,346,1,1,True
+1202974,2024-08-04T18:15:00+00:00,FT,Regular Season - 3,Legia Warszawa,339,Piast Gliwice,349,1,2,True
+1202968,2024-08-05T17:00:00+00:00,FT,Regular Season - 3,Cracovia Krakow,350,Widzew Łódź,6962,1,3,True
+1202983,2024-08-09T16:00:00+00:00,FT,Regular Season - 4,Radomiak Radom,4248,Gornik Zabrze,340,1,2,True
+1202984,2024-08-09T18:30:00+00:00,FT,Regular Season - 4,Raków Częstochowa,3491,Lech Poznan,347,0,0,True
+1202977,2024-08-10T15:30:00+00:00,FT,Regular Season - 4,Korona Kielce,346,Cracovia Krakow,350,0,2,True
+1202981,2024-08-10T18:15:00+00:00,FT,Regular Season - 4,Pogon Szczecin,348,Stal Mielec,3493,1,0,True
+1202978,2024-08-11T12:45:00+00:00,FT,Regular Season - 4,Lechia Gdansk,343,Zaglebie Lubin,345,1,1,True
+1202982,2024-08-11T15:30:00+00:00,FT,Regular Season - 4,Puszcza Niepołomice,3490,Legia Warszawa,339,2,2,True
+1202985,2024-08-11T18:15:00+00:00,FT,Regular Season - 4,Widzew Łódź,6962,Slask Wroclaw,337,0,0,True
+1202980,2024-08-12T17:00:00+00:00,FT,Regular Season - 4,Piast Gliwice,349,GKS Katowice,3484,2,2,True
+1202992,2024-08-16T16:00:00+00:00,FT,Regular Season - 5,Puszcza Niepołomice,3490,Lechia Gdansk,343,4,1,True
+1202986,2024-08-16T18:30:00+00:00,FT,Regular Season - 5,GKS Katowice,3484,Motor Lublin,14562,0,0,True
+1202988,2024-08-17T12:45:00+00:00,FT,Regular Season - 5,Jagiellonia,336,Cracovia Krakow,350,2,4,True
+1202989,2024-08-17T15:30:00+00:00,FT,Regular Season - 5,Zaglebie Lubin,345,Lech Poznan,347,0,1,True
+1202991,2024-08-17T18:15:00+00:00,FT,Regular Season - 5,Pogon Szczecin,348,Widzew Łódź,6962,2,0,True
+1202994,2024-08-18T12:45:00+00:00,FT,Regular Season - 5,Slask Wroclaw,337,Korona Kielce,346,1,1,True
+1202990,2024-08-18T15:30:00+00:00,FT,Regular Season - 5,Legia Warszawa,339,Radomiak Radom,4248,4,1,True
+1202987,2024-08-18T18:15:00+00:00,FT,Regular Season - 5,Gornik Zabrze,340,Raków Częstochowa,3491,0,0,True
+1202993,2024-08-19T17:00:00+00:00,FT,Regular Season - 5,Stal Mielec,3493,Piast Gliwice,349,2,0,True
+1203002,2024-08-23T16:00:00+00:00,FT,Regular Season - 6,Widzew Łódź,6962,Radomiak Radom,4248,3,2,True
+1202999,2024-08-23T18:30:00+00:00,FT,Regular Season - 6,Lechia Gdansk,343,Raków Częstochowa,3491,1,2,True
+1203000,2024-08-24T12:45:00+00:00,FT,Regular Season - 6,Motor Lublin,14562,Puszcza Niepołomice,3490,0,0,True
+1202995,2024-08-24T15:30:00+00:00,FT,Regular Season - 6,Cracovia Krakow,350,Gornik Zabrze,340,3,2,True
+1203001,2024-08-24T18:15:00+00:00,FT,Regular Season - 6,Piast Gliwice,349,Zaglebie Lubin,345,1,0,True
+1202996,2024-08-25T12:45:00+00:00,FT,Regular Season - 6,GKS Katowice,3484,Jagiellonia,336,3,1,True
+1202998,2024-08-25T15:30:00+00:00,FT,Regular Season - 6,Lech Poznan,347,Pogon Szczecin,348,2,0,True
+1203003,2024-08-25T18:15:00+00:00,FT,Regular Season - 6,Slask Wroclaw,337,Legia Warszawa,339,1,1,True
+1202997,2024-08-26T17:00:00+00:00,FT,Regular Season - 6,Korona Kielce,346,Stal Mielec,3493,2,1,True
+1203011,2024-08-30T16:00:00+00:00,FT,Regular Season - 7,Raków Częstochowa,3491,Piast Gliwice,349,0,1,True
+1203012,2024-08-30T18:30:00+00:00,FT,Regular Season - 7,Stal Mielec,3493,Lech Poznan,347,0,2,True
+1203009,2024-08-31T12:45:00+00:00,FT,Regular Season - 7,Puszcza Niepołomice,3490,Korona Kielce,346,0,0,True
+1203006,2024-08-31T15:30:00+00:00,FT,Regular Season - 7,Zaglebie Lubin,345,GKS Katowice,3484,1,0,True
+1203010,2024-08-31T18:15:00+00:00,FT,Regular Season - 7,Radomiak Radom,4248,Cracovia Krakow,350,2,1,True
+1203004,2024-09-01T10:15:00+00:00,FT,Regular Season - 7,Gornik Zabrze,340,Lechia Gdansk,343,2,3,True
+1203007,2024-09-01T12:45:00+00:00,FT,Regular Season - 7,Legia Warszawa,339,Motor Lublin,14562,5,2,True
+1203008,2024-09-01T15:30:00+00:00,FT,Regular Season - 7,Pogon Szczecin,348,Slask Wroclaw,337,5,3,True
+1203005,2024-09-01T18:15:00+00:00,FT,Regular Season - 7,Jagiellonia,336,Widzew Łódź,6962,1,0,True
+1203019,2024-09-13T16:00:00+00:00,FT,Regular Season - 8,Motor Lublin,14562,Gornik Zabrze,340,1,0,True
+1203014,2024-09-13T18:30:00+00:00,FT,Regular Season - 8,GKS Katowice,3484,Widzew Łódź,6962,2,2,True
+1203017,2024-09-14T12:45:00+00:00,FT,Regular Season - 8,Lechia Gdansk,343,Radomiak Radom,4248,1,0,True
+1203013,2024-09-14T15:30:00+00:00,FT,Regular Season - 8,Cracovia Krakow,350,Pogon Szczecin,348,2,1,True
+1203016,2024-09-14T18:15:00+00:00,FT,Regular Season - 8,Lech Poznan,347,Jagiellonia,336,5,0,True
+1203020,2024-09-15T10:15:00+00:00,FT,Regular Season - 8,Piast Gliwice,349,Puszcza Niepołomice,3490,1,1,True
+1203015,2024-09-15T12:45:00+00:00,FT,Regular Season - 8,Korona Kielce,346,Zaglebie Lubin,345,2,0,True
+1203018,2024-09-15T15:30:00+00:00,FT,Regular Season - 8,Legia Warszawa,339,Raków Częstochowa,3491,0,1,True
+1203027,2024-09-20T16:00:00+00:00,FT,Regular Season - 9,Radomiak Radom,4248,Korona Kielce,346,4,0,True
+1203025,2024-09-20T18:30:00+00:00,FT,Regular Season - 9,Pogon Szczecin,348,Legia Warszawa,339,1,0,True
+1203026,2024-09-21T10:15:00+00:00,FT,Regular Season - 9,Puszcza Niepołomice,3490,Cracovia Krakow,350,1,2,True
+1203023,2024-09-21T12:45:00+00:00,FT,Regular Season - 9,Jagiellonia,336,Lechia Gdansk,343,3,2,True
+1203030,2024-09-21T15:30:00+00:00,FT,Regular Season - 9,Widzew Łódź,6962,Piast Gliwice,349,1,0,True
+1203022,2024-09-21T18:15:00+00:00,FT,Regular Season - 9,Gornik Zabrze,340,GKS Katowice,3484,3,0,True
+1203029,2024-09-22T10:15:00+00:00,FT,Regular Season - 9,Stal Mielec,3493,Motor Lublin,14562,1,0,True
+1203028,2024-09-22T12:45:00+00:00,FT,Regular Season - 9,Raków Częstochowa,3491,Zaglebie Lubin,345,5,1,True
+1203024,2024-09-22T15:30:00+00:00,FT,Regular Season - 9,Lech Poznan,347,Slask Wroclaw,337,1,0,True
+1202979,2024-09-25T17:00:00+00:00,FT,Regular Season - 4,Motor Lublin,14562,Jagiellonia,336,0,2,True
+1203032,2024-09-27T16:00:00+00:00,FT,Regular Season - 10,GKS Katowice,3484,Pogon Szczecin,348,3,1,True
+1203035,2024-09-27T18:30:00+00:00,FT,Regular Season - 10,Lechia Gdansk,343,Widzew Łódź,6962,1,1,True
+1203039,2024-09-28T12:45:00+00:00,FT,Regular Season - 10,Raków Częstochowa,3491,Puszcza Niepołomice,3490,2,0,True
+1203037,2024-09-28T15:30:00+00:00,FT,Regular Season - 10,Motor Lublin,14562,Slask Wroclaw,337,2,1,True
+1203036,2024-09-28T18:15:00+00:00,FT,Regular Season - 10,Legia Warszawa,339,Gornik Zabrze,340,1,1,True
+1203033,2024-09-29T10:15:00+00:00,FT,Regular Season - 10,Zaglebie Lubin,345,Radomiak Radom,4248,1,0,True
+1203034,2024-09-29T12:45:00+00:00,FT,Regular Season - 10,Korona Kielce,346,Lech Poznan,347,2,3,True
+1203038,2024-09-29T15:30:00+00:00,FT,Regular Season - 10,Piast Gliwice,349,Jagiellonia,336,0,1,True
+1203031,2024-09-30T17:00:00+00:00,FT,Regular Season - 10,Cracovia Krakow,350,Stal Mielec,3493,1,1,True
+1203044,2024-10-04T16:00:00+00:00,FT,Regular Season - 11,Puszcza Niepołomice,3490,GKS Katowice,3484,0,6,True
+1203047,2024-10-04T18:30:00+00:00,FT,Regular Season - 11,Widzew Łódź,6962,Korona Kielce,346,0,1,True
+1203046,2024-10-05T10:15:00+00:00,FT,Regular Season - 11,Stal Mielec,3493,Lechia Gdansk,343,2,1,True
+1203045,2024-10-05T12:45:00+00:00,FT,Regular Season - 11,Radomiak Radom,4248,Raków Częstochowa,3491,0,2,True
+1203040,2024-10-05T15:30:00+00:00,FT,Regular Season - 11,Gornik Zabrze,340,Zaglebie Lubin,345,0,1,True
+1203042,2024-10-05T18:15:00+00:00,FT,Regular Season - 11,Lech Poznan,347,Motor Lublin,14562,1,2,True
+1203048,2024-10-06T12:45:00+00:00,FT,Regular Season - 11,Slask Wroclaw,337,Cracovia Krakow,350,2,4,True
+1203043,2024-10-06T15:30:00+00:00,FT,Regular Season - 11,Pogon Szczecin,348,Piast Gliwice,349,1,0,True
+1203041,2024-10-06T18:15:00+00:00,FT,Regular Season - 11,Jagiellonia,336,Legia Warszawa,339,1,1,True
+1203053,2024-10-18T16:00:00+00:00,FT,Regular Season - 12,Korona Kielce,346,Piast Gliwice,349,0,2,True
+1203054,2024-10-18T18:30:00+00:00,FT,Regular Season - 12,Lechia Gdansk,343,Legia Warszawa,339,0,2,True
+1203055,2024-10-19T12:45:00+00:00,FT,Regular Season - 12,Motor Lublin,14562,Widzew Łódź,6962,3,4,True
+1203052,2024-10-19T15:30:00+00:00,FT,Regular Season - 12,Zaglebie Lubin,345,Jagiellonia,336,1,3,True
+1203049,2024-10-19T18:15:00+00:00,FT,Regular Season - 12,Cracovia Krakow,350,Lech Poznan,347,0,2,True
+1203050,2024-10-20T10:15:00+00:00,FT,Regular Season - 12,GKS Katowice,3484,Slask Wroclaw,337,0,0,True
+1203051,2024-10-20T12:45:00+00:00,FT,Regular Season - 12,Gornik Zabrze,340,Stal Mielec,3493,3,1,True
+1203057,2024-10-20T15:30:00+00:00,FT,Regular Season - 12,Raków Częstochowa,3491,Pogon Szczecin,348,1,0,True
+1203056,2024-10-21T17:00:00+00:00,FT,Regular Season - 12,Radomiak Radom,4248,Puszcza Niepołomice,3490,2,0,True
+1203021,2024-10-23T16:30:00+00:00,FT,Regular Season - 8,Slask Wroclaw,337,Stal Mielec,3493,2,1,True
+1203062,2024-10-25T16:00:00+00:00,FT,Regular Season - 13,Piast Gliwice,349,Lechia Gdansk,343,3,3,True
+1203063,2024-10-25T18:30:00+00:00,FT,Regular Season - 13,Pogon Szczecin,348,Puszcza Niepołomice,3490,2,1,True
+1203058,2024-10-26T12:45:00+00:00,FT,Regular Season - 13,Cracovia Krakow,350,Motor Lublin,14562,6,2,True
+1203066,2024-10-26T15:30:00+00:00,FT,Regular Season - 13,Slask Wroclaw,337,Raków Częstochowa,3491,0,0,True
+1203060,2024-10-26T18:15:00+00:00,FT,Regular Season - 13,Lech Poznan,347,Radomiak Radom,4248,2,1,True
+1203064,2024-10-27T11:15:00+00:00,FT,Regular Season - 13,Stal Mielec,3493,Zaglebie Lubin,345,2,2,True
+1203059,2024-10-27T13:45:00+00:00,FT,Regular Season - 13,Jagiellonia,336,Korona Kielce,346,3,1,True
+1203065,2024-10-27T16:30:00+00:00,FT,Regular Season - 13,Widzew Łódź,6962,Gornik Zabrze,340,0,2,True
+1203061,2024-10-27T19:15:00+00:00,FT,Regular Season - 13,Legia Warszawa,339,GKS Katowice,3484,4,1,True
+1203075,2024-11-02T13:45:00+00:00,FT,Regular Season - 14,Raków Częstochowa,3491,Stal Mielec,3493,1,0,True
+1203072,2024-11-02T16:30:00+00:00,FT,Regular Season - 14,Motor Lublin,14562,Pogon Szczecin,348,4,2,True
+1203073,2024-11-02T19:15:00+00:00,FT,Regular Season - 14,Puszcza Niepołomice,3490,Lech Poznan,347,2,0,True
+1203074,2024-11-03T11:15:00+00:00,FT,Regular Season - 14,Radomiak Radom,4248,Piast Gliwice,349,1,1,True
+1203068,2024-11-03T13:45:00+00:00,FT,Regular Season - 14,Gornik Zabrze,340,Jagiellonia,336,0,2,True
+1203070,2024-11-03T16:30:00+00:00,FT,Regular Season - 14,Lechia Gdansk,343,Cracovia Krakow,350,1,2,True
+1203071,2024-11-03T19:15:00+00:00,FT,Regular Season - 14,Legia Warszawa,339,Widzew Łódź,6962,2,1,True
+1203067,2024-11-04T17:00:00+00:00,FT,Regular Season - 14,GKS Katowice,3484,Korona Kielce,346,1,2,True
+1203069,2024-11-04T19:30:00+00:00,FT,Regular Season - 14,Zaglebie Lubin,345,Slask Wroclaw,337,3,0,True
+1203080,2024-11-08T17:00:00+00:00,FT,Regular Season - 15,Piast Gliwice,349,Motor Lublin,14562,2,3,True
+1203081,2024-11-08T19:30:00+00:00,FT,Regular Season - 15,Pogon Szczecin,348,Radomiak Radom,4248,0,1,True
+1203078,2024-11-09T11:15:00+00:00,FT,Regular Season - 15,Korona Kielce,346,Lechia Gdansk,343,0,0,True
+1203076,2024-11-09T13:45:00+00:00,FT,Regular Season - 15,Cracovia Krakow,350,GKS Katowice,3484,3,4,True
+1203083,2024-11-09T16:30:00+00:00,FT,Regular Season - 15,Widzew Łódź,6962,Zaglebie Lubin,345,2,0,True
+1203084,2024-11-09T19:15:00+00:00,FT,Regular Season - 15,Slask Wroclaw,337,Gornik Zabrze,340,0,1,True
+1203082,2024-11-10T11:15:00+00:00,FT,Regular Season - 15,Stal Mielec,3493,Puszcza Niepołomice,3490,2,0,True
+1203077,2024-11-10T13:45:00+00:00,FT,Regular Season - 15,Jagiellonia,336,Raków Częstochowa,3491,2,2,True
+1203079,2024-11-10T16:30:00+00:00,FT,Regular Season - 15,Lech Poznan,347,Legia Warszawa,339,5,2,True
+1203087,2024-11-22T17:00:00+00:00,FT,Regular Season - 16,Zaglebie Lubin,345,Motor Lublin,14562,1,2,True
+1203086,2024-11-22T19:30:00+00:00,FT,Regular Season - 16,Jagiellonia,336,Slask Wroclaw,337,2,2,True
+1203089,2024-11-23T13:45:00+00:00,FT,Regular Season - 16,Lechia Gdansk,343,Pogon Szczecin,348,0,3,True
+1203088,2024-11-23T16:30:00+00:00,FT,Regular Season - 16,Lech Poznan,347,GKS Katowice,3484,2,0,True
+1203090,2024-11-23T19:15:00+00:00,FT,Regular Season - 16,Legia Warszawa,339,Cracovia Krakow,350,3,2,True
+1203092,2024-11-24T11:15:00+00:00,FT,Regular Season - 16,Radomiak Radom,4248,Stal Mielec,3493,1,2,True
+1203093,2024-11-24T13:45:00+00:00,FT,Regular Season - 16,Raków Częstochowa,3491,Korona Kielce,346,1,1,True
+1203085,2024-11-24T16:30:00+00:00,FT,Regular Season - 16,Gornik Zabrze,340,Piast Gliwice,349,1,0,True
+1203091,2024-11-25T18:00:00+00:00,FT,Regular Season - 16,Puszcza Niepołomice,3490,Widzew Łódź,6962,2,0,True
+1203094,2024-11-29T17:00:00+00:00,FT,Regular Season - 17,Cracovia Krakow,350,Zaglebie Lubin,345,1,1,True
+1203098,2024-11-29T19:30:00+00:00,FT,Regular Season - 17,Piast Gliwice,349,Lech Poznan,347,0,0,True
+1203102,2024-11-30T13:45:00+00:00,FT,Regular Season - 17,Slask Wroclaw,337,Puszcza Niepołomice,3490,0,1,True
+1203095,2024-11-30T16:30:00+00:00,FT,Regular Season - 17,GKS Katowice,3484,Lechia Gdansk,343,2,0,True
+1203101,2024-11-30T19:15:00+00:00,FT,Regular Season - 17,Widzew Łódź,6962,Raków Częstochowa,3491,2,3,True
+1203096,2024-12-01T11:15:00+00:00,FT,Regular Season - 17,Korona Kielce,346,Gornik Zabrze,340,2,4,True
+1203099,2024-12-01T13:45:00+00:00,FT,Regular Season - 17,Pogon Szczecin,348,Jagiellonia,336,1,1,True
+1203100,2024-12-01T16:30:00+00:00,FT,Regular Season - 17,Stal Mielec,3493,Legia Warszawa,339,2,2,True
+1203097,2024-12-02T18:00:00+00:00,FT,Regular Season - 17,Motor Lublin,14562,Radomiak Radom,4248,1,0,True
+1203109,2024-12-06T17:00:00+00:00,FT,Regular Season - 18,Radomiak Radom,4248,GKS Katowice,3484,1,1,True
+1203103,2024-12-06T19:30:00+00:00,FT,Regular Season - 18,Gornik Zabrze,340,Lech Poznan,347,2,1,True
+1203106,2024-12-07T13:45:00+00:00,FT,Regular Season - 18,Lechia Gdansk,343,Slask Wroclaw,337,1,0,True
+1203111,2024-12-07T16:30:00+00:00,FT,Regular Season - 18,Widzew Łódź,6962,Stal Mielec,3493,2,1,True
+1203110,2024-12-07T19:15:00+00:00,FT,Regular Season - 18,Raków Częstochowa,3491,Motor Lublin,14562,2,2,True
+1203107,2024-12-08T11:15:00+00:00,FT,Regular Season - 18,Piast Gliwice,349,Cracovia Krakow,350,0,0,True
+1203108,2024-12-08T13:45:00+00:00,FT,Regular Season - 18,Puszcza Niepołomice,3490,Jagiellonia,336,1,1,True
+1203104,2024-12-08T16:30:00+00:00,FT,Regular Season - 18,Zaglebie Lubin,345,Legia Warszawa,339,0,3,True
+1203105,2024-12-09T18:00:00+00:00,FT,Regular Season - 18,Korona Kielce,346,Pogon Szczecin,348,0,0,True
+1202976,2024-12-14T16:30:00+00:00,FT,Regular Season - 3,Slask Wroclaw,337,Radomiak Radom,4248,1,2,True
+1203113,2025-01-31T17:00:00+00:00,FT,Regular Season - 19,GKS Katowice,3484,Stal Mielec,3493,1,0,True
+1203116,2025-01-31T19:30:00+00:00,FT,Regular Season - 19,Lech Poznan,347,Widzew Łódź,6962,4,1,True
+1203118,2025-02-01T13:45:00+00:00,FT,Regular Season - 19,Motor Lublin,14562,Lechia Gdansk,343,1,1,True
+1203112,2025-02-01T16:30:00+00:00,FT,Regular Season - 19,Cracovia Krakow,350,Raków Częstochowa,3491,0,0,True
+1203119,2025-02-01T19:15:00+00:00,FT,Regular Season - 19,Pogon Szczecin,348,Zaglebie Lubin,345,1,0,True
+1203114,2025-02-02T11:15:00+00:00,FT,Regular Season - 19,Gornik Zabrze,340,Puszcza Niepołomice,3490,1,1,True
+1203115,2025-02-02T13:45:00+00:00,FT,Regular Season - 19,Jagiellonia,336,Radomiak Radom,4248,5,0,True
+1203117,2025-02-02T16:30:00+00:00,FT,Regular Season - 19,Legia Warszawa,339,Korona Kielce,346,1,1,True
+1203120,2025-02-03T18:00:00+00:00,FT,Regular Season - 19,Slask Wroclaw,337,Piast Gliwice,349,1,3,True
+1203128,2025-02-07T17:00:00+00:00,FT,Regular Season - 20,Stal Mielec,3493,Jagiellonia,336,2,1,True
+1203124,2025-02-07T19:30:00+00:00,FT,Regular Season - 20,Pogon Szczecin,348,Gornik Zabrze,340,3,0,True
+1203126,2025-02-08T13:45:00+00:00,FT,Regular Season - 20,Radomiak Radom,4248,Slask Wroclaw,337,1,1,True
+1203127,2025-02-08T16:30:00+00:00,FT,Regular Season - 20,Raków Częstochowa,3491,GKS Katowice,3484,1,2,True
+1203123,2025-02-08T19:15:00+00:00,FT,Regular Season - 20,Piast Gliwice,349,Legia Warszawa,339,1,0,True
+1203121,2025-02-09T11:15:00+00:00,FT,Regular Season - 20,Korona Kielce,346,Motor Lublin,14562,1,0,True
+1203129,2025-02-09T13:45:00+00:00,FT,Regular Season - 20,Widzew Łódź,6962,Cracovia Krakow,350,1,1,True
+1203122,2025-02-09T16:30:00+00:00,FT,Regular Season - 20,Lechia Gdansk,343,Lech Poznan,347,1,0,True
+1203125,2025-02-10T18:00:00+00:00,FT,Regular Season - 20,Puszcza Niepołomice,3490,Zaglebie Lubin,345,1,2,True
+1203130,2025-02-14T17:00:00+00:00,FT,Regular Season - 21,Cracovia Krakow,350,Korona Kielce,346,1,1,True
+1203135,2025-02-14T19:30:00+00:00,FT,Regular Season - 21,Lech Poznan,347,Raków Częstochowa,3491,0,1,True
+1203138,2025-02-15T13:45:00+00:00,FT,Regular Season - 21,Slask Wroclaw,337,Widzew Łódź,6962,3,0,True
+1203132,2025-02-15T16:30:00+00:00,FT,Regular Season - 21,Gornik Zabrze,340,Radomiak Radom,4248,3,2,True
+1203136,2025-02-15T19:15:00+00:00,FT,Regular Season - 21,Legia Warszawa,339,Puszcza Niepołomice,3490,2,0,True
+1203137,2025-02-16T11:15:00+00:00,FT,Regular Season - 21,Stal Mielec,3493,Pogon Szczecin,348,1,2,True
+1203131,2025-02-16T13:45:00+00:00,FT,Regular Season - 21,GKS Katowice,3484,Piast Gliwice,349,0,0,True
+1203133,2025-02-16T16:30:00+00:00,FT,Regular Season - 21,Jagiellonia,336,Motor Lublin,14562,3,0,True
+1203134,2025-02-17T18:00:00+00:00,FT,Regular Season - 21,Zaglebie Lubin,345,Lechia Gdansk,343,1,3,True
+1203144,2025-02-21T17:00:00+00:00,FT,Regular Season - 22,Piast Gliwice,349,Stal Mielec,3493,2,2,True
+1203146,2025-02-21T19:30:00+00:00,FT,Regular Season - 22,Raków Częstochowa,3491,Gornik Zabrze,340,1,0,True
+1203140,2025-02-22T13:45:00+00:00,FT,Regular Season - 22,Korona Kielce,346,Slask Wroclaw,337,2,0,True
+1203147,2025-02-22T16:30:00+00:00,FT,Regular Season - 22,Widzew Łódź,6962,Pogon Szczecin,348,0,4,True
+1203145,2025-02-22T19:15:00+00:00,FT,Regular Season - 22,Radomiak Radom,4248,Legia Warszawa,339,3,1,True
+1203142,2025-02-23T11:15:00+00:00,FT,Regular Season - 22,Lechia Gdansk,343,Puszcza Niepołomice,3490,0,2,True
+1203139,2025-02-23T13:45:00+00:00,FT,Regular Season - 22,Cracovia Krakow,350,Jagiellonia,336,2,2,True
+1203141,2025-02-23T16:30:00+00:00,FT,Regular Season - 22,Lech Poznan,347,Zaglebie Lubin,345,3,1,True
+1203143,2025-02-24T18:00:00+00:00,FT,Regular Season - 22,Motor Lublin,14562,GKS Katowice,3484,3,2,True
+1203154,2025-02-28T17:00:00+00:00,FT,Regular Season - 23,Radomiak Radom,4248,Widzew Łódź,6962,1,1,True
+1203148,2025-02-28T19:30:00+00:00,FT,Regular Season - 23,Gornik Zabrze,340,Cracovia Krakow,350,0,1,True
+1203156,2025-03-01T13:45:00+00:00,FT,Regular Season - 23,Stal Mielec,3493,Korona Kielce,346,0,1,True
+1203152,2025-03-01T16:30:00+00:00,FT,Regular Season - 23,Pogon Szczecin,348,Lech Poznan,347,0,3,True
+1203150,2025-03-01T19:15:00+00:00,FT,Regular Season - 23,Zaglebie Lubin,345,Piast Gliwice,349,0,1,True
+1203153,2025-03-02T11:15:00+00:00,FT,Regular Season - 23,Puszcza Niepołomice,3490,Motor Lublin,14562,0,1,True
+1203151,2025-03-02T13:45:00+00:00,FT,Regular Season - 23,Legia Warszawa,339,Slask Wroclaw,337,3,1,True
+1203149,2025-03-02T16:30:00+00:00,FT,Regular Season - 23,Jagiellonia,336,GKS Katowice,3484,1,0,True
+1203155,2025-03-03T18:00:00+00:00,FT,Regular Season - 23,Raków Częstochowa,3491,Lechia Gdansk,343,3,1,True
+1203159,2025-03-07T17:00:00+00:00,FT,Regular Season - 24,Korona Kielce,346,Puszcza Niepołomice,3490,2,1,True
+1203165,2025-03-07T19:30:00+00:00,FT,Regular Season - 24,Slask Wroclaw,337,Pogon Szczecin,348,1,1,True
+1203157,2025-03-08T13:45:00+00:00,FT,Regular Season - 24,Cracovia Krakow,350,Radomiak Radom,4248,1,2,True
+1203163,2025-03-08T16:30:00+00:00,FT,Regular Season - 24,Piast Gliwice,349,Raków Częstochowa,3491,0,3,True
+1203160,2025-03-08T19:15:00+00:00,FT,Regular Season - 24,Lech Poznan,347,Stal Mielec,3493,3,1,True
+1203158,2025-03-09T11:15:00+00:00,FT,Regular Season - 24,GKS Katowice,3484,Zaglebie Lubin,345,1,0,True
+1203161,2025-03-09T13:45:00+00:00,FT,Regular Season - 24,Lechia Gdansk,343,Gornik Zabrze,340,1,2,True
+1203164,2025-03-09T16:30:00+00:00,FT,Regular Season - 24,Widzew Łódź,6962,Jagiellonia,336,0,1,True
+1203162,2025-03-10T18:00:00+00:00,FT,Regular Season - 24,Motor Lublin,14562,Legia Warszawa,339,3,3,True
+1203171,2025-03-14T17:00:00+00:00,FT,Regular Season - 25,Radomiak Radom,4248,Lechia Gdansk,343,2,1,True
+1203169,2025-03-14T19:30:00+00:00,FT,Regular Season - 25,Pogon Szczecin,348,Cracovia Krakow,350,5,2,True
+1203173,2025-03-15T13:45:00+00:00,FT,Regular Season - 25,Stal Mielec,3493,Slask Wroclaw,337,1,4,True
+1203166,2025-03-15T16:30:00+00:00,FT,Regular Season - 25,Gornik Zabrze,340,Motor Lublin,14562,4,0,True
+1203174,2025-03-15T19:15:00+00:00,FT,Regular Season - 25,Widzew Łódź,6962,GKS Katowice,3484,1,0,True
+1203170,2025-03-16T11:15:00+00:00,FT,Regular Season - 25,Puszcza Niepołomice,3490,Piast Gliwice,349,2,1,True
+1203168,2025-03-16T13:45:00+00:00,FT,Regular Season - 25,Zaglebie Lubin,345,Korona Kielce,346,1,1,True
+1203172,2025-03-16T16:30:00+00:00,FT,Regular Season - 25,Raków Częstochowa,3491,Legia Warszawa,339,3,2,True
+1203167,2025-03-16T19:15:00+00:00,FT,Regular Season - 25,Jagiellonia,336,Lech Poznan,347,2,1,True
+1203182,2025-03-28T17:00:00+00:00,FT,Regular Season - 26,Piast Gliwice,349,Widzew Łódź,6962,0,2,True
+1203180,2025-03-28T19:30:00+00:00,FT,Regular Season - 26,Legia Warszawa,339,Pogon Szczecin,348,0,0,True
+1203175,2025-03-29T13:45:00+00:00,FT,Regular Season - 26,Cracovia Krakow,350,Puszcza Niepołomice,3490,3,1,True
+1203179,2025-03-29T16:30:00+00:00,FT,Regular Season - 26,Lechia Gdansk,343,Jagiellonia,336,1,0,True
+1203183,2025-03-29T19:15:00+00:00,FT,Regular Season - 26,Slask Wroclaw,337,Lech Poznan,347,3,1,True
+1203178,2025-03-30T10:15:00+00:00,FT,Regular Season - 26,Korona Kielce,346,Radomiak Radom,4248,1,3,True
+1203181,2025-03-30T12:45:00+00:00,FT,Regular Season - 26,Motor Lublin,14562,Stal Mielec,3493,4,1,True
+1203176,2025-03-30T15:30:00+00:00,FT,Regular Season - 26,GKS Katowice,3484,Gornik Zabrze,340,2,1,True
+1203177,2025-03-31T17:00:00+00:00,FT,Regular Season - 26,Zaglebie Lubin,345,Raków Częstochowa,3491,0,2,True
+1203190,2025-04-04T16:00:00+00:00,FT,Regular Season - 27,Stal Mielec,3493,Cracovia Krakow,350,1,1,True
+1203191,2025-04-04T18:30:00+00:00,FT,Regular Season - 27,Widzew Łódź,6962,Lechia Gdansk,343,2,0,True
+1203189,2025-04-05T12:45:00+00:00,FT,Regular Season - 27,Radomiak Radom,4248,Zaglebie Lubin,345,0,1,True
+1203192,2025-04-05T15:30:00+00:00,FT,Regular Season - 27,Slask Wroclaw,337,Motor Lublin,14562,1,1,True
+1203186,2025-04-05T18:15:00+00:00,FT,Regular Season - 27,Lech Poznan,347,Korona Kielce,346,2,0,True
+1203185,2025-04-06T10:15:00+00:00,FT,Regular Season - 27,Jagiellonia,336,Piast Gliwice,349,1,1,True
+1203184,2025-04-06T12:45:00+00:00,FT,Regular Season - 27,Gornik Zabrze,340,Legia Warszawa,339,1,2,True
+1203187,2025-04-06T15:30:00+00:00,FT,Regular Season - 27,Pogon Szczecin,348,GKS Katowice,3484,4,0,True
+1203188,2025-04-07T17:00:00+00:00,FT,Regular Season - 27,Puszcza Niepołomice,3490,Raków Częstochowa,3491,1,1,True
+1203195,2025-04-11T16:00:00+00:00,FT,Regular Season - 28,Zaglebie Lubin,345,Gornik Zabrze,340,2,1,True
+1203196,2025-04-11T18:30:00+00:00,FT,Regular Season - 28,Korona Kielce,346,Widzew Łódź,6962,2,1,True
+1203194,2025-04-12T12:45:00+00:00,FT,Regular Season - 28,GKS Katowice,3484,Puszcza Niepołomice,3490,3,1,True
+1203193,2025-04-12T15:30:00+00:00,FT,Regular Season - 28,Cracovia Krakow,350,Slask Wroclaw,337,2,4,True
+1203201,2025-04-12T18:15:00+00:00,FT,Regular Season - 28,Raków Częstochowa,3491,Radomiak Radom,4248,2,1,True
+1203200,2025-04-13T12:45:00+00:00,FT,Regular Season - 28,Piast Gliwice,349,Pogon Szczecin,348,2,1,True
+1203199,2025-04-13T15:30:00+00:00,FT,Regular Season - 28,Motor Lublin,14562,Lech Poznan,347,1,2,True
+1203198,2025-04-13T18:15:00+00:00,FT,Regular Season - 28,Legia Warszawa,339,Jagiellonia,336,0,1,True
+1203197,2025-04-14T17:00:00+00:00,FT,Regular Season - 28,Lechia Gdansk,343,Stal Mielec,3493,3,2,True
+1203205,2025-04-19T10:15:00+00:00,FT,Regular Season - 29,Piast Gliwice,349,Korona Kielce,346,1,1,True
+1203210,2025-04-19T12:45:00+00:00,FT,Regular Season - 29,Slask Wroclaw,337,GKS Katowice,3484,0,2,True
+1203209,2025-04-19T15:30:00+00:00,FT,Regular Season - 29,Widzew Łódź,6962,Motor Lublin,14562,1,2,True
+1203206,2025-04-19T18:15:00+00:00,FT,Regular Season - 29,Pogon Szczecin,348,Raków Częstochowa,3491,1,0,True
+1203207,2025-04-21T10:15:00+00:00,FT,Regular Season - 29,Puszcza Niepołomice,3490,Radomiak Radom,4248,2,2,True
+1203202,2025-04-21T12:45:00+00:00,FT,Regular Season - 29,Jagiellonia,336,Zaglebie Lubin,345,1,3,True
+1203204,2025-04-21T15:30:00+00:00,FT,Regular Season - 29,Legia Warszawa,339,Lechia Gdansk,343,2,1,True
+1203203,2025-04-21T18:15:00+00:00,FT,Regular Season - 29,Lech Poznan,347,Cracovia Krakow,350,2,1,True
+1203208,2025-04-22T17:00:00+00:00,FT,Regular Season - 29,Stal Mielec,3493,Gornik Zabrze,340,0,0,True
+1203217,2025-04-25T16:00:00+00:00,FT,Regular Season - 30,Puszcza Niepołomice,3490,Pogon Szczecin,348,4,5,True
+1203219,2025-04-25T18:30:00+00:00,FT,Regular Season - 30,Raków Częstochowa,3491,Slask Wroclaw,337,3,0,True
+1203215,2025-04-26T12:45:00+00:00,FT,Regular Season - 30,Lechia Gdansk,343,Piast Gliwice,349,3,1,True
+1203216,2025-04-26T15:30:00+00:00,FT,Regular Season - 30,Motor Lublin,14562,Cracovia Krakow,350,0,1,True
+1203211,2025-04-26T18:15:00+00:00,FT,Regular Season - 30,GKS Katowice,3484,Legia Warszawa,339,1,3,True
+1203214,2025-04-27T10:15:00+00:00,FT,Regular Season - 30,Korona Kielce,346,Jagiellonia,336,3,1,True
+1203212,2025-04-27T12:45:00+00:00,FT,Regular Season - 30,Gornik Zabrze,340,Widzew Łódź,6962,0,0,True
+1203218,2025-04-27T15:30:00+00:00,FT,Regular Season - 30,Radomiak Radom,4248,Lech Poznan,347,2,2,True
+1203213,2025-04-28T17:00:00+00:00,FT,Regular Season - 30,Zaglebie Lubin,345,Stal Mielec,3493,2,2,True
+1203226,2025-05-03T12:45:00+00:00,FT,Regular Season - 31,Stal Mielec,3493,Raków Częstochowa,3491,0,2,True
+1203228,2025-05-03T15:30:00+00:00,FT,Regular Season - 31,Slask Wroclaw,337,Zaglebie Lubin,345,3,1,True
+1203223,2025-05-03T18:15:00+00:00,FT,Regular Season - 31,Lech Poznan,347,Puszcza Niepołomice,3490,8,1,True
+1203224,2025-05-04T10:15:00+00:00,FT,Regular Season - 31,Piast Gliwice,349,Radomiak Radom,4248,0,0,True
+1203220,2025-05-04T12:45:00+00:00,FT,Regular Season - 31,Cracovia Krakow,350,Lechia Gdansk,343,0,2,True
+1203221,2025-05-04T15:30:00+00:00,FT,Regular Season - 31,Jagiellonia,336,Gornik Zabrze,340,1,1,True
+1203222,2025-05-05T17:00:00+00:00,FT,Regular Season - 31,Korona Kielce,346,GKS Katowice,3484,2,1,True
+1203234,2025-05-09T16:00:00+00:00,FT,Regular Season - 32,Motor Lublin,14562,Piast Gliwice,349,1,4,True
+1203230,2025-05-09T18:30:00+00:00,FT,Regular Season - 32,Gornik Zabrze,340,Slask Wroclaw,337,2,0,True
+1203236,2025-05-10T12:45:00+00:00,FT,Regular Season - 32,Radomiak Radom,4248,Pogon Szczecin,348,2,0,True
+1203231,2025-05-10T15:30:00+00:00,FT,Regular Season - 32,Zaglebie Lubin,345,Widzew Łódź,6962,2,1,True
+1203237,2025-05-10T18:15:00+00:00,FT,Regular Season - 32,Raków Częstochowa,3491,Jagiellonia,336,1,2,True
+1203232,2025-05-11T10:15:00+00:00,FT,Regular Season - 32,Lechia Gdansk,343,Korona Kielce,346,3,2,True
+1203229,2025-05-11T12:45:00+00:00,FT,Regular Season - 32,GKS Katowice,3484,Cracovia Krakow,350,2,1,True
+1203233,2025-05-11T15:30:00+00:00,FT,Regular Season - 32,Legia Warszawa,339,Lech Poznan,347,0,1,True
+1203235,2025-05-12T17:00:00+00:00,FT,Regular Season - 32,Puszcza Niepołomice,3490,Stal Mielec,3493,2,3,True
+1203225,2025-05-14T18:30:00+00:00,FT,Regular Season - 31,Pogon Szczecin,348,Motor Lublin,14562,3,0,True
+1203227,2025-05-15T18:30:00+00:00,FT,Regular Season - 31,Widzew Łódź,6962,Legia Warszawa,339,0,2,True
+1203244,2025-05-16T16:00:00+00:00,FT,Regular Season - 33,Stal Mielec,3493,Radomiak Radom,4248,2,2,True
+1203246,2025-05-16T18:30:00+00:00,FT,Regular Season - 33,Slask Wroclaw,337,Jagiellonia,336,1,1,True
+1203243,2025-05-17T12:45:00+00:00,FT,Regular Season - 33,Pogon Szczecin,348,Lechia Gdansk,343,3,3,True
+1203242,2025-05-17T15:30:00+00:00,FT,Regular Season - 33,Piast Gliwice,349,Gornik Zabrze,340,2,0,True
+1203240,2025-05-17T18:15:00+00:00,FT,Regular Season - 33,Korona Kielce,346,Raków Częstochowa,3491,1,1,True
+1203241,2025-05-18T10:15:00+00:00,FT,Regular Season - 33,Motor Lublin,14562,Zaglebie Lubin,345,1,0,True
+1203238,2025-05-18T12:45:00+00:00,FT,Regular Season - 33,Cracovia Krakow,350,Legia Warszawa,339,3,1,True
+1203239,2025-05-18T15:30:00+00:00,FT,Regular Season - 33,GKS Katowice,3484,Lech Poznan,347,2,2,True
+1203245,2025-05-19T17:00:00+00:00,FT,Regular Season - 33,Widzew Łódź,6962,Puszcza Niepołomice,3490,2,0,True
+1203248,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Jagiellonia,336,Pogon Szczecin,348,1,1,True
+1203252,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Legia Warszawa,339,Stal Mielec,3493,2,2,True
+1203247,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Gornik Zabrze,340,Korona Kielce,346,1,1,True
+1203251,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Lechia Gdansk,343,GKS Katowice,3484,2,3,True
+1203249,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Zaglebie Lubin,345,Cracovia Krakow,350,1,2,True
+1203250,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Lech Poznan,347,Piast Gliwice,349,1,0,True
+1203253,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Puszcza Niepołomice,3490,Slask Wroclaw,337,1,1,True
+1203255,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Raków Częstochowa,3491,Widzew Łódź,6962,2,1,True
+1203254,2025-05-24T15:30:00+00:00,FT,Regular Season - 34,Radomiak Radom,4248,Motor Lublin,14562,2,3,True

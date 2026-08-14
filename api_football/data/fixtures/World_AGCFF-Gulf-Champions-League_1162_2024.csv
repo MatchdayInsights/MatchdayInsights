@@ -1,15 +1,31 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1312994,2025-02-04T14:15:00+00:00,FT,Dhofar,5330,Al Nasr,10155,1,2,True
-1312995,2025-02-04T17:15:00+00:00,FT,Al Ahli San'a,23352,Duhok,20463,0,3,True
-1312996,2025-02-05T15:15:00+00:00,FT,Al Qadsia,3537,Al-Arabi SC,2905,3,0,True
-1312997,2025-02-05T17:15:00+00:00,FT,Al Riffa,5482,Al-Ettifaq,2934,2,1,True
-1312999,2025-02-18T17:00:00+00:00,FT,Al-Arabi SC,2905,Al Riffa,5482,1,1,True
-1312998,2025-02-18T17:00:00+00:00,FT,Al-Ettifaq,2934,Al Qadsia,3537,1,1,True
-1313000,2025-02-19T16:00:00+00:00,FT,Al Nasr,10155,Al Ahli San'a,23352,0,0,True
-1313001,2025-02-19T16:00:00+00:00,FT,Duhok,20463,Dhofar,5330,1,1,True
-1352826,2025-03-04T18:00:00+00:00,FT,Al Nasr,10155,Al Qadsia,3537,0,1,True
-1349130,2025-03-05T20:00:00+00:00,FT,Al-Ettifaq,2934,Duhok,20463,0,1,True
-1352827,2025-03-11T19:00:00+00:00,AET,Al Qadsia,3537,Al Nasr,10155,1,2,False
-1349131,2025-03-12T18:00:00+00:00,FT,Duhok,20463,Al-Ettifaq,2934,1,0,True
-1361267,2025-04-08T16:45:00+00:00,FT,Al Qadsia,3537,Duhok,20463,0,0,True
-1361268,2025-04-15T16:00:00+00:00,FT,Duhok,20463,Al Qadsia,3537,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1312978,2024-10-22T00:00:00+00:00,FT,Group Stage - 1,Al Nasr,10155,Dhofar,5330,5,2,True
+1312979,2024-10-22T00:00:00+00:00,FT,Group Stage - 1,Duhok,20463,Al Ahli San'a,23352,2,0,True
+1312980,2024-10-23T15:15:00+00:00,FT,Group Stage - 1,Al-Arabi SC,2905,Al Qadsia,3537,1,1,True
+1312981,2024-10-23T17:15:00+00:00,FT,Group Stage - 1,Al-Ettifaq,2934,Al Riffa,5482,3,1,True
+1312982,2024-11-05T14:45:00+00:00,FT,Group Stage - 2,Al Qadsia,3537,Al-Ettifaq,2934,0,1,True
+1312983,2024-11-05T17:00:00+00:00,FT,Group Stage - 2,Al Riffa,5482,Al-Arabi SC,2905,2,0,True
+1312984,2024-11-06T14:00:00+00:00,FT,Group Stage - 2,Dhofar,5330,Duhok,20463,1,1,True
+1312985,2024-11-06T17:00:00+00:00,FT,Group Stage - 2,Al Ahli San'a,23352,Al Nasr,10155,1,3,True
+1312986,2024-11-26T17:00:00+00:00,FT,Group Stage - 3,Duhok,20463,Al Nasr,10155,2,2,True
+1312987,2024-11-27T14:00:00+00:00,FT,Group Stage - 3,Dhofar,5330,Al Ahli San'a,23352,0,2,True
+1312988,2024-11-27T15:00:00+00:00,FT,Group Stage - 3,Al Riffa,5482,Al Qadsia,3537,2,2,True
+1312989,2024-11-27T17:00:00+00:00,FT,Group Stage - 3,Al-Arabi SC,2905,Al-Ettifaq,2934,1,2,True
+1312990,2024-12-03T14:00:00+00:00,FT,Group Stage - 4,Al Nasr,10155,Duhok,20463,2,1,True
+1312991,2024-12-03T17:00:00+00:00,FT,Group Stage - 4,Al Ahli San'a,23352,Dhofar,5330,1,2,True
+1312992,2024-12-04T14:35:00+00:00,FT,Group Stage - 4,Al Qadsia,3537,Al Riffa,5482,1,0,True
+1312993,2024-12-04T17:00:00+00:00,FT,Group Stage - 4,Al-Ettifaq,2934,Al-Arabi SC,2905,5,0,True
+1312994,2025-02-04T14:15:00+00:00,FT,Group Stage - 5,Dhofar,5330,Al Nasr,10155,1,2,True
+1312995,2025-02-04T17:15:00+00:00,FT,Group Stage - 5,Al Ahli San'a,23352,Duhok,20463,0,3,True
+1312996,2025-02-05T15:15:00+00:00,FT,Group Stage - 5,Al Qadsia,3537,Al-Arabi SC,2905,3,0,True
+1312997,2025-02-05T17:15:00+00:00,FT,Group Stage - 5,Al Riffa,5482,Al-Ettifaq,2934,2,1,True
+1312999,2025-02-18T17:00:00+00:00,FT,Group Stage - 6,Al-Arabi SC,2905,Al Riffa,5482,1,1,True
+1312998,2025-02-18T17:00:00+00:00,FT,Group Stage - 6,Al-Ettifaq,2934,Al Qadsia,3537,1,1,True
+1313000,2025-02-19T16:00:00+00:00,FT,Group Stage - 6,Al Nasr,10155,Al Ahli San'a,23352,0,0,True
+1313001,2025-02-19T16:00:00+00:00,FT,Group Stage - 6,Duhok,20463,Dhofar,5330,1,1,True
+1352826,2025-03-04T18:00:00+00:00,FT,Semi-finals,Al Nasr,10155,Al Qadsia,3537,0,1,True
+1349130,2025-03-05T20:00:00+00:00,FT,Semi-finals,Al-Ettifaq,2934,Duhok,20463,0,1,True
+1352827,2025-03-11T19:00:00+00:00,AET,Semi-finals,Al Qadsia,3537,Al Nasr,10155,1,2,False
+1349131,2025-03-12T18:00:00+00:00,FT,Semi-finals,Duhok,20463,Al-Ettifaq,2934,1,0,True
+1361267,2025-04-08T16:45:00+00:00,FT,Final,Al Qadsia,3537,Duhok,20463,0,0,True
+1361268,2025-04-15T16:00:00+00:00,FT,Final,Duhok,20463,Al Qadsia,3537,2,1,True

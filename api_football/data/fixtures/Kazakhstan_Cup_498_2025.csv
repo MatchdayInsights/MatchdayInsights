@@ -1,32 +1,32 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1361320,2025-03-15T06:00:00+00:00,PEN,Taraz,4559,Talas Karatau,25826,0,0,False
-1361313,2025-03-15T06:00:00+00:00,PEN,Khan Tengri,18805,Arys,10414,1,1,False
-1361315,2025-03-15T10:00:00+00:00,PEN,Altay,4544,Zhetisay,21012,0,0,False
-1361314,2025-03-15T10:00:00+00:00,FT,Ekibastuz,4551,Maqtaaral,4555,3,2,True
-1361317,2025-03-16T06:00:00+00:00,PEN,Kaspiy,4552,Akademiya Ontustik,4545,2,2,False
-1361316,2025-03-16T06:00:00+00:00,FT,Jas Qyran,16608,AKAS,21009,0,1,True
-1361319,2025-03-16T10:00:00+00:00,PEN,Irtysh,4565,Shakhter Karagandy,4566,1,1,False
-1361318,2025-03-16T10:00:00+00:00,FT,Yassy Turkistan,16610,SD Family,16609,0,5,True
-1361550,2025-03-18T06:00:00+00:00,FT,Talas Karatau,25826,Khan Tengri,18805,0,2,True
-1361609,2025-03-18T10:00:00+00:00,FT,Altay,4544,Ekibastuz,4551,0,1,True
-1361654,2025-03-19T06:00:00+00:00,PEN,Kaspiy,4552,AKAS,21009,0,0,False
-1361655,2025-03-19T10:00:00+00:00,FT,Irtysh,4565,SD Family,16609,2,1,True
-1362755,2025-03-22T07:00:00+00:00,PEN,Khan Tengri,18805,Ekibastuz,4551,1,1,False
-1364555,2025-03-23T07:00:00+00:00,FT,Kaspiy,4552,Irtysh,4565,3,0,True
-1361307,2025-04-12T10:00:00+00:00,FT,Ulytau,21010,Yelimay Semey,21011,0,3,True
-1361308,2025-04-12T11:00:00+00:00,FT,Kyzyl-Zhar,4554,Kaisar,4562,1,0,True
-1366111,2025-04-12T12:00:00+00:00,FT,Kairat Almaty,664,Kaspiy,4552,3,0,True
-1361309,2025-04-12T14:00:00+00:00,FT,Turan Turkistan,21502,Atyrau,4564,2,0,True
-1361310,2025-04-13T10:00:00+00:00,PEN,Okzhetpes,4558,FC Astana,562,1,1,False
-1365144,2025-04-13T10:00:00+00:00,FT,Khan Tengri,18805,Ordabasy,692,0,2,True
-1361311,2025-04-13T12:00:00+00:00,FT,Zhenys,16611,Aktobe,4563,1,0,True
-1361312,2025-04-13T14:00:00+00:00,AET,FK Tobol Kostanay,2259,Zhetysu,4560,1,0,False
-1371501,2025-05-14T13:00:00+00:00,FT,Ordabasy,692,Kairat Almaty,664,1,0,True
-1371428,2025-05-14T13:00:00+00:00,PEN,Kyzyl-Zhar,4554,Yelimay Semey,21011,0,0,False
-1371503,2025-05-14T15:00:00+00:00,PEN,Zhenys,16611,FC Astana,562,1,1,False
-1371502,2025-05-14T15:00:00+00:00,FT,Turan Turkistan,21502,FK Tobol Kostanay,2259,0,2,True
-1375684,2025-06-25T13:00:00+00:00,FT,Kyzyl-Zhar,4554,Ordabasy,692,0,0,True
-1375686,2025-06-25T15:00:00+00:00,FT,FK Tobol Kostanay,2259,Zhenys,16611,2,1,True
-1375685,2025-08-28T14:00:00+00:00,AET,Ordabasy,692,Kyzyl-Zhar,4554,1,0,False
-1387684,2025-08-29T14:00:00+00:00,FT,Zhenys,16611,FK Tobol Kostanay,2259,1,1,True
-1451303,2025-10-04T14:00:00+00:00,FT,Ordabasy,692,FK Tobol Kostanay,2259,0,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1361320,2025-03-15T06:00:00+00:00,PEN,1st Preliminary Round,Taraz,4559,Talas Karatau,25826,0,0,False
+1361313,2025-03-15T06:00:00+00:00,PEN,1st Preliminary Round,Khan Tengri,18805,Arys,10414,1,1,False
+1361315,2025-03-15T10:00:00+00:00,PEN,1st Preliminary Round,Altay,4544,Zhetisay,21012,0,0,False
+1361314,2025-03-15T10:00:00+00:00,FT,1st Preliminary Round,Ekibastuz,4551,Maqtaaral,4555,3,2,True
+1361317,2025-03-16T06:00:00+00:00,PEN,1st Preliminary Round,Kaspiy,4552,Akademiya Ontustik,4545,2,2,False
+1361316,2025-03-16T06:00:00+00:00,FT,1st Preliminary Round,Jas Qyran,16608,AKAS,21009,0,1,True
+1361319,2025-03-16T10:00:00+00:00,PEN,1st Preliminary Round,Irtysh,4565,Shakhter Karagandy,4566,1,1,False
+1361318,2025-03-16T10:00:00+00:00,FT,1st Preliminary Round,Yassy Turkistan,16610,SD Family,16609,0,5,True
+1361550,2025-03-18T06:00:00+00:00,FT,2nd Preliminary Round,Talas Karatau,25826,Khan Tengri,18805,0,2,True
+1361609,2025-03-18T10:00:00+00:00,FT,2nd Preliminary Round,Altay,4544,Ekibastuz,4551,0,1,True
+1361654,2025-03-19T06:00:00+00:00,PEN,2nd Preliminary Round,Kaspiy,4552,AKAS,21009,0,0,False
+1361655,2025-03-19T10:00:00+00:00,FT,2nd Preliminary Round,Irtysh,4565,SD Family,16609,2,1,True
+1362755,2025-03-22T07:00:00+00:00,PEN,Preliminary Round - Semi-finals,Khan Tengri,18805,Ekibastuz,4551,1,1,False
+1364555,2025-03-23T07:00:00+00:00,FT,Preliminary Round - Semi-finals,Kaspiy,4552,Irtysh,4565,3,0,True
+1361307,2025-04-12T10:00:00+00:00,FT,Round of 16,Ulytau,21010,Yelimay Semey,21011,0,3,True
+1361308,2025-04-12T11:00:00+00:00,FT,Round of 16,Kyzyl-Zhar,4554,Kaisar,4562,1,0,True
+1366111,2025-04-12T12:00:00+00:00,FT,Round of 16,Kairat Almaty,664,Kaspiy,4552,3,0,True
+1361309,2025-04-12T14:00:00+00:00,FT,Round of 16,Turan Turkistan,21502,Atyrau,4564,2,0,True
+1361310,2025-04-13T10:00:00+00:00,PEN,Round of 16,Okzhetpes,4558,FC Astana,562,1,1,False
+1365144,2025-04-13T10:00:00+00:00,FT,Round of 16,Khan Tengri,18805,Ordabasy,692,0,2,True
+1361311,2025-04-13T12:00:00+00:00,FT,Round of 16,Zhenys,16611,Aktobe,4563,1,0,True
+1361312,2025-04-13T14:00:00+00:00,AET,Round of 16,FK Tobol Kostanay,2259,Zhetysu,4560,1,0,False
+1371501,2025-05-14T13:00:00+00:00,FT,Quarter-finals,Ordabasy,692,Kairat Almaty,664,1,0,True
+1371428,2025-05-14T13:00:00+00:00,PEN,Quarter-finals,Kyzyl-Zhar,4554,Yelimay Semey,21011,0,0,False
+1371503,2025-05-14T15:00:00+00:00,PEN,Quarter-finals,Zhenys,16611,FC Astana,562,1,1,False
+1371502,2025-05-14T15:00:00+00:00,FT,Quarter-finals,Turan Turkistan,21502,FK Tobol Kostanay,2259,0,2,True
+1375684,2025-06-25T13:00:00+00:00,FT,Semi-finals,Kyzyl-Zhar,4554,Ordabasy,692,0,0,True
+1375686,2025-06-25T15:00:00+00:00,FT,Semi-finals,FK Tobol Kostanay,2259,Zhenys,16611,2,1,True
+1375685,2025-08-28T14:00:00+00:00,AET,Semi-finals,Ordabasy,692,Kyzyl-Zhar,4554,1,0,False
+1387684,2025-08-29T14:00:00+00:00,FT,Semi-finals,Zhenys,16611,FK Tobol Kostanay,2259,1,1,True
+1451303,2025-10-04T14:00:00+00:00,FT,Final,Ordabasy,692,FK Tobol Kostanay,2259,0,2,True

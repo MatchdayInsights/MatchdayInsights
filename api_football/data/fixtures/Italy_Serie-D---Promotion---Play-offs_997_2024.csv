@@ -1,28 +1,28 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1374833,2025-05-11T14:00:00+00:00,FT,Teramo,1683,Chieti,9509,4,1,True
-1374837,2025-05-11T14:00:00+00:00,FT,Reggina,1692,Vibonese,1681,2,0,True
-1374831,2025-05-11T14:00:00+00:00,FT,Seravezza,9441,Ghivizzano Borgo Mozzano,9435,1,0,True
-1374827,2025-05-11T14:00:00+00:00,FT,Vado,9442,Gozzano,1714,4,1,True
-1374834,2025-05-11T14:00:00+00:00,FT,Gelbison,9544,Savoia,9564,3,1,True
-1374836,2025-05-11T14:00:00+00:00,FT,Nocerina,9548,Città di Fasano,5604,4,2,True
-1374829,2025-05-11T14:00:00+00:00,FT,Desenzano Calvina,17816,USD Casatese,17563,2,0,True
-1374832,2025-05-11T14:00:00+00:00,FT,L'Aquila,22312,Fossombrone,22308,0,1,True
-1374828,2025-05-11T14:00:00+00:00,FT,Pro Palazzolo,22329,Folgore Caratese,9450,2,0,True
-1374830,2025-05-11T14:00:00+00:00,FT,Fulgens Foligno,24692,Orvietana Calcio,19977,1,2,True
-1374835,2025-05-11T14:00:00+00:00,FT,Sarnese,24700,Cassino,9525,0,1,True
-1374838,2025-05-11T14:00:00+00:00,FT,Scafatese,24701,Sambiase,24699,2,0,True
-1374826,2025-05-11T14:00:00+00:00,FT,NovaRomentin,24761,Lavagnese,9436,2,0,True
-1374839,2025-05-11T15:30:00+00:00,AET,Martina Franca,19975,Fidelis Andria,1695,2,2,False
-1375644,2025-05-18T14:00:00+00:00,AET,Teramo,1683,Fossombrone,22308,1,1,False
-1375646,2025-05-18T14:00:00+00:00,AET,Reggina,1692,Scafatese,24701,1,0,False
-1375643,2025-05-18T14:00:00+00:00,FT,Seravezza,9441,Orvietana Calcio,19977,4,1,True
-1374890,2025-05-18T14:00:00+00:00,FT,Villa Valle,9460,Adriese,5603,0,2,True
-1375639,2025-05-18T14:00:00+00:00,FT,Lentigione,9487,Tau Altopascio,19986,1,2,True
-1375645,2025-05-18T14:00:00+00:00,AET,Gelbison,9544,Cassino,9525,1,1,False
-1375647,2025-05-18T14:00:00+00:00,FT,Nocerina,9548,Martina Franca,19975,2,1,True
-1374889,2025-05-18T14:00:00+00:00,AET,Treviso,22319,Mestre,1704,1,1,False
-1375642,2025-05-18T14:00:00+00:00,FT,Pro Palazzolo,22329,Desenzano Calvina,17816,2,1,True
-1375641,2025-05-18T14:00:00+00:00,FT,NovaRomentin,24761,Vado,9442,2,0,True
-1375640,2025-05-18T17:30:00+00:00,AET,Ravenna,1705,Pistoiese,1589,2,0,False
-1376163,2025-05-25T14:00:00+00:00,FT,Treviso,22319,Adriese,5603,1,3,True
-1376164,2025-05-25T18:00:00+00:00,FT,Ravenna,1705,Tau Altopascio,19986,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1374833,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Teramo,1683,Chieti,9509,4,1,True
+1374837,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Reggina,1692,Vibonese,1681,2,0,True
+1374831,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Seravezza,9441,Ghivizzano Borgo Mozzano,9435,1,0,True
+1374827,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Vado,9442,Gozzano,1714,4,1,True
+1374834,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Gelbison,9544,Savoia,9564,3,1,True
+1374836,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Nocerina,9548,Città di Fasano,5604,4,2,True
+1374829,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Desenzano Calvina,17816,USD Casatese,17563,2,0,True
+1374832,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,L'Aquila,22312,Fossombrone,22308,0,1,True
+1374828,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Pro Palazzolo,22329,Folgore Caratese,9450,2,0,True
+1374830,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Fulgens Foligno,24692,Orvietana Calcio,19977,1,2,True
+1374835,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Sarnese,24700,Cassino,9525,0,1,True
+1374838,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Scafatese,24701,Sambiase,24699,2,0,True
+1374826,2025-05-11T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,NovaRomentin,24761,Lavagnese,9436,2,0,True
+1374839,2025-05-11T15:30:00+00:00,AET,Promotion Play-offs - Semi-finals,Martina Franca,19975,Fidelis Andria,1695,2,2,False
+1375644,2025-05-18T14:00:00+00:00,AET,Promotion Play-offs - Finals,Teramo,1683,Fossombrone,22308,1,1,False
+1375646,2025-05-18T14:00:00+00:00,AET,Promotion Play-offs - Finals,Reggina,1692,Scafatese,24701,1,0,False
+1375643,2025-05-18T14:00:00+00:00,FT,Promotion Play-offs - Finals,Seravezza,9441,Orvietana Calcio,19977,4,1,True
+1374890,2025-05-18T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Villa Valle,9460,Adriese,5603,0,2,True
+1375639,2025-05-18T14:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Lentigione,9487,Tau Altopascio,19986,1,2,True
+1375645,2025-05-18T14:00:00+00:00,AET,Promotion Play-offs - Finals,Gelbison,9544,Cassino,9525,1,1,False
+1375647,2025-05-18T14:00:00+00:00,FT,Promotion Play-offs - Finals,Nocerina,9548,Martina Franca,19975,2,1,True
+1374889,2025-05-18T14:00:00+00:00,AET,Promotion Play-offs - Semi-finals,Treviso,22319,Mestre,1704,1,1,False
+1375642,2025-05-18T14:00:00+00:00,FT,Promotion Play-offs - Finals,Pro Palazzolo,22329,Desenzano Calvina,17816,2,1,True
+1375641,2025-05-18T14:00:00+00:00,FT,Promotion Play-offs - Finals,NovaRomentin,24761,Vado,9442,2,0,True
+1375640,2025-05-18T17:30:00+00:00,AET,Promotion Play-offs - Semi-finals,Ravenna,1705,Pistoiese,1589,2,0,False
+1376163,2025-05-25T14:00:00+00:00,FT,Promotion Play-offs - Finals,Treviso,22319,Adriese,5603,1,3,True
+1376164,2025-05-25T18:00:00+00:00,FT,Promotion Play-offs - Finals,Ravenna,1705,Tau Altopascio,19986,2,1,True

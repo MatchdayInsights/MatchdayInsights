@@ -1,10 +1,10 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1480126,2025-09-06T08:00:00+00:00,FT,Wofoo Tai Po,4457,Eastern,4451,3,1,True
-1480127,2025-10-04T07:00:00+00:00,FT,Southern District,4456,Eastern District,4467,1,4,True
-1480128,2025-10-11T07:00:00+00:00,FT,Kitchee,4453,BC Rangers,26471,3,0,True
-1480129,2025-11-15T07:00:00+00:00,FT,Hong Kong FC,4462,Wofoo Tai Po,4457,0,3,True
-1480130,2025-11-16T07:00:00+00:00,AET,North District,6401,Warriors,4207,1,2,False
-1480370,2025-10-12T07:00:00+00:00,FT,Kowloon City,20392,Eastern District,4467,2,1,True
-1481578,2026-03-18T12:00:00+00:00,FT,Kitchee,4453,Kowloon City,20392,1,0,True
-1486712,2026-03-11T12:00:00+00:00,FT,Warriors,4207,Wofoo Tai Po,4457,1,0,True
-1534928,2026-04-07T07:00:00+00:00,FT,Kitchee,4453,Warriors,4207,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1480126,2025-09-06T08:00:00+00:00,FT,Round of 16,Wofoo Tai Po,4457,Eastern,4451,3,1,True
+1480127,2025-10-04T07:00:00+00:00,FT,Round of 16,Southern District,4456,Eastern District,4467,1,4,True
+1480128,2025-10-11T07:00:00+00:00,FT,Quarter-finals,Kitchee,4453,BC Rangers,26471,3,0,True
+1480129,2025-11-15T07:00:00+00:00,FT,Quarter-finals,Hong Kong FC,4462,Wofoo Tai Po,4457,0,3,True
+1480130,2025-11-16T07:00:00+00:00,AET,Quarter-finals,North District,6401,Warriors,4207,1,2,False
+1480370,2025-10-12T07:00:00+00:00,FT,Quarter-finals,Kowloon City,20392,Eastern District,4467,2,1,True
+1481578,2026-03-18T12:00:00+00:00,FT,Semi-finals,Kitchee,4453,Kowloon City,20392,1,0,True
+1486712,2026-03-11T12:00:00+00:00,FT,Semi-finals,Warriors,4207,Wofoo Tai Po,4457,1,0,True
+1534928,2026-04-07T07:00:00+00:00,FT,Final,Kitchee,4453,Warriors,4207,1,2,True

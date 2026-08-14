@@ -1,12 +1,12 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1515230,2026-01-31T15:30:00+00:00,FT,Lynx,16134,Europa,10125,1,0,True
-1515231,2026-01-31T18:30:00+00:00,FT,Manchester 62,16136,Lions Gibraltar,16133,0,4,True
-1515232,2026-02-01T15:30:00+00:00,FT,St Joseph S Fc,698,Lincoln Red Imps FC,667,0,1,True
-1515233,2026-02-01T18:30:00+00:00,PEN,Hound Dogs,16790,Magpies,16135,0,0,False
-1518677,2026-02-14T15:30:00+00:00,FT,College 1975,16130,Glacis United,16132,0,2,True
-1518678,2026-02-14T18:30:00+00:00,FT,Lions Gibraltar,16133,Europa Point,16131,4,0,True
-1518679,2026-02-15T15:30:00+00:00,FT,Mons Calpe,16137,Lynx,16134,1,0,True
-1518680,2026-02-15T18:30:00+00:00,FT,Hound Dogs,16790,Lincoln Red Imps FC,667,0,2,True
-1523406,2026-02-28T15:30:00+00:00,FT,Glacis United,16132,Mons Calpe,16137,0,2,True
-1523407,2026-03-01T18:30:00+00:00,FT,Lincoln Red Imps FC,667,Lions Gibraltar,16133,2,1,True
-1528820,2026-03-14T19:30:00+00:00,FT,Mons Calpe,16137,Lincoln Red Imps FC,667,0,5,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1515230,2026-01-31T15:30:00+00:00,FT,Round of 16,Lynx,16134,Europa,10125,1,0,True
+1515231,2026-01-31T18:30:00+00:00,FT,Round of 16,Manchester 62,16136,Lions Gibraltar,16133,0,4,True
+1515232,2026-02-01T15:30:00+00:00,FT,Round of 16,St Joseph S Fc,698,Lincoln Red Imps FC,667,0,1,True
+1515233,2026-02-01T18:30:00+00:00,PEN,Round of 16,Hound Dogs,16790,Magpies,16135,0,0,False
+1518677,2026-02-14T15:30:00+00:00,FT,Quarter-finals,College 1975,16130,Glacis United,16132,0,2,True
+1518678,2026-02-14T18:30:00+00:00,FT,Quarter-finals,Lions Gibraltar,16133,Europa Point,16131,4,0,True
+1518679,2026-02-15T15:30:00+00:00,FT,Quarter-finals,Mons Calpe,16137,Lynx,16134,1,0,True
+1518680,2026-02-15T18:30:00+00:00,FT,Quarter-finals,Hound Dogs,16790,Lincoln Red Imps FC,667,0,2,True
+1523406,2026-02-28T15:30:00+00:00,FT,Semi-finals,Glacis United,16132,Mons Calpe,16137,0,2,True
+1523407,2026-03-01T18:30:00+00:00,FT,Semi-finals,Lincoln Red Imps FC,667,Lions Gibraltar,16133,2,1,True
+1528820,2026-03-14T19:30:00+00:00,FT,Final,Mons Calpe,16137,Lincoln Red Imps FC,667,0,5,True

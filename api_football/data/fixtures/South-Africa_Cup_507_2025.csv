@@ -1,40 +1,40 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1488776,2025-12-02T13:30:00+00:00,FT,Black Leopards,2661,Casric Stars,19997,0,1,True
-1488777,2025-12-02T13:30:00+00:00,FT,Kruger United,24759,Highbury,24758,0,3,True
-1488779,2025-12-03T13:30:00+00:00,FT,Cape Town City,2697,Upington City,22235,0,1,True
-1488780,2025-12-03T13:30:00+00:00,FT,Hungry Lions,10561,Venda FC,17357,2,1,True
-1488782,2025-12-03T13:30:00+00:00,FT,Milford FC,22234,Baroka FC,2688,2,0,True
-1488781,2025-12-03T13:30:00+00:00,FT,Lerumo Lions,25526,Midlands Wanderers,26397,1,0,True
-1488783,2025-12-03T13:30:00+00:00,FT,The Bees,25529,Gomora United FC,26396,0,1,True
-1488778,2025-12-10T13:30:00+00:00,FT,Leicesterfield,26434,University of Pretoria,10569,1,2,True
-1514989,2026-02-04T17:00:00+00:00,FT,Mamelodi Sundowns,2699,Gomora United FC,26396,2,1,True
-1514990,2026-02-04T17:30:00+00:00,FT,Stellenbosch,4905,Kaizer Chiefs,2691,2,1,True
-1514991,2026-02-06T17:00:00+00:00,PEN,Durban City,24757,Chippa United,2698,0,0,False
-1514992,2026-02-06T17:00:00+00:00,FT,Vasco da Gama,26098,Luthuli Brigades,27436,4,1,True
-1514996,2026-02-07T13:00:00+00:00,FT,TTM,17620,Orlando Pirates,2700,1,4,True
-1514997,2026-02-07T13:00:00+00:00,PEN,Upington City,22235,Magesi,19999,0,0,False
-1514995,2026-02-07T13:00:00+00:00,FT,Highbury,24758,Sekhukhune United,15537,0,1,True
-1514993,2026-02-07T13:00:00+00:00,FT,Army Rocket,27433,Casric Stars,19997,0,3,True
-1514994,2026-02-07T13:00:00+00:00,AET,Cardinals,27434,Jacksa Spears,27435,2,4,False
-1514998,2026-02-08T11:00:00+00:00,FT,Golden Arrows,2690,Orbit College,10582,3,0,True
-1515001,2026-02-08T13:00:00+00:00,AET,TS Galaxy,8074,Marumo Gallants,2682,1,0,False
-1514999,2026-02-08T13:00:00+00:00,PEN,Hungry Lions,10561,University of Pretoria,10569,0,0,False
-1515000,2026-02-08T13:00:00+00:00,FT,Mkhambathi,20842,Lerumo Lions,25526,2,1,True
-1515002,2026-02-08T16:00:00+00:00,PEN,Siwelele,26299,Richards Bay,10567,1,1,False
-1515003,2026-02-10T17:00:00+00:00,AET,Polokwane City,2693,Amazulu,2669,1,2,False
-1515004,2026-02-10T17:00:00+00:00,PEN,SSU M-17,27437,Milford FC,22234,1,1,False
-1523303,2026-02-20T17:00:00+00:00,FT,Richards Bay,10567,Amazulu,2669,0,1,True
-1523304,2026-02-21T13:00:00+00:00,FT,TS Galaxy,8074,Mamelodi Sundowns,2699,2,0,True
-1523305,2026-02-21T13:00:00+00:00,PEN,Upington City,22235,Durban City,24757,0,0,False
-1523306,2026-02-21T16:00:00+00:00,FT,Golden Arrows,2690,Stellenbosch,4905,1,0,True
-1523307,2026-02-21T16:00:00+00:00,PEN,Orlando Pirates,2700,Casric Stars,19997,0,0,False
-1523310,2026-02-22T13:00:00+00:00,FT,University of Pretoria,10569,Sekhukhune United,15537,0,1,True
-1523309,2026-02-22T13:00:00+00:00,FT,Milford FC,22234,Mkhambathi,20842,3,0,True
-1523308,2026-02-22T13:00:00+00:00,FT,Jacksa Spears,27435,Vasco da Gama,26098,1,0,True
-1528132,2026-03-07T13:00:00+00:00,AET,Amazulu,2669,Casric Stars,19997,1,2,False
-1528133,2026-03-07T16:00:00+00:00,PEN,Sekhukhune United,15537,Milford FC,22234,1,1,False
-1528134,2026-03-08T13:00:00+00:00,FT,TS Galaxy,8074,Jacksa Spears,27435,2,0,True
-1528135,2026-03-08T16:00:00+00:00,PEN,Golden Arrows,2690,Durban City,24757,1,1,False
-1535134,2026-04-04T13:00:00+00:00,FT,Durban City,24757,Casric Stars,19997,1,0,True
-1535135,2026-04-05T13:00:00+00:00,PEN,TS Galaxy,8074,Milford FC,22234,1,1,False
-1540153,2026-05-02T16:00:00+00:00,FT,Durban City,24757,TS Galaxy,8074,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1488776,2025-12-02T13:30:00+00:00,FT,Round of 64,Black Leopards,2661,Casric Stars,19997,0,1,True
+1488777,2025-12-02T13:30:00+00:00,FT,Round of 64,Kruger United,24759,Highbury,24758,0,3,True
+1488779,2025-12-03T13:30:00+00:00,FT,Round of 64,Cape Town City,2697,Upington City,22235,0,1,True
+1488780,2025-12-03T13:30:00+00:00,FT,Round of 64,Hungry Lions,10561,Venda FC,17357,2,1,True
+1488782,2025-12-03T13:30:00+00:00,FT,Round of 64,Milford FC,22234,Baroka FC,2688,2,0,True
+1488781,2025-12-03T13:30:00+00:00,FT,Round of 64,Lerumo Lions,25526,Midlands Wanderers,26397,1,0,True
+1488783,2025-12-03T13:30:00+00:00,FT,Round of 64,The Bees,25529,Gomora United FC,26396,0,1,True
+1488778,2025-12-10T13:30:00+00:00,FT,Round of 64,Leicesterfield,26434,University of Pretoria,10569,1,2,True
+1514989,2026-02-04T17:00:00+00:00,FT,Round of 32,Mamelodi Sundowns,2699,Gomora United FC,26396,2,1,True
+1514990,2026-02-04T17:30:00+00:00,FT,Round of 32,Stellenbosch,4905,Kaizer Chiefs,2691,2,1,True
+1514991,2026-02-06T17:00:00+00:00,PEN,Round of 32,Durban City,24757,Chippa United,2698,0,0,False
+1514992,2026-02-06T17:00:00+00:00,FT,Round of 32,Vasco da Gama,26098,Luthuli Brigades,27436,4,1,True
+1514996,2026-02-07T13:00:00+00:00,FT,Round of 32,TTM,17620,Orlando Pirates,2700,1,4,True
+1514997,2026-02-07T13:00:00+00:00,PEN,Round of 32,Upington City,22235,Magesi,19999,0,0,False
+1514995,2026-02-07T13:00:00+00:00,FT,Round of 32,Highbury,24758,Sekhukhune United,15537,0,1,True
+1514993,2026-02-07T13:00:00+00:00,FT,Round of 32,Army Rocket,27433,Casric Stars,19997,0,3,True
+1514994,2026-02-07T13:00:00+00:00,AET,Round of 32,Cardinals,27434,Jacksa Spears,27435,2,4,False
+1514998,2026-02-08T11:00:00+00:00,FT,Round of 32,Golden Arrows,2690,Orbit College,10582,3,0,True
+1515001,2026-02-08T13:00:00+00:00,AET,Round of 32,TS Galaxy,8074,Marumo Gallants,2682,1,0,False
+1514999,2026-02-08T13:00:00+00:00,PEN,Round of 32,Hungry Lions,10561,University of Pretoria,10569,0,0,False
+1515000,2026-02-08T13:00:00+00:00,FT,Round of 32,Mkhambathi,20842,Lerumo Lions,25526,2,1,True
+1515002,2026-02-08T16:00:00+00:00,PEN,Round of 32,Siwelele,26299,Richards Bay,10567,1,1,False
+1515003,2026-02-10T17:00:00+00:00,AET,Round of 32,Polokwane City,2693,Amazulu,2669,1,2,False
+1515004,2026-02-10T17:00:00+00:00,PEN,Round of 32,SSU M-17,27437,Milford FC,22234,1,1,False
+1523303,2026-02-20T17:00:00+00:00,FT,Round of 16,Richards Bay,10567,Amazulu,2669,0,1,True
+1523304,2026-02-21T13:00:00+00:00,FT,Round of 16,TS Galaxy,8074,Mamelodi Sundowns,2699,2,0,True
+1523305,2026-02-21T13:00:00+00:00,PEN,Round of 16,Upington City,22235,Durban City,24757,0,0,False
+1523306,2026-02-21T16:00:00+00:00,FT,Round of 16,Golden Arrows,2690,Stellenbosch,4905,1,0,True
+1523307,2026-02-21T16:00:00+00:00,PEN,Round of 16,Orlando Pirates,2700,Casric Stars,19997,0,0,False
+1523310,2026-02-22T13:00:00+00:00,FT,Round of 16,University of Pretoria,10569,Sekhukhune United,15537,0,1,True
+1523309,2026-02-22T13:00:00+00:00,FT,Round of 16,Milford FC,22234,Mkhambathi,20842,3,0,True
+1523308,2026-02-22T13:00:00+00:00,FT,Round of 16,Jacksa Spears,27435,Vasco da Gama,26098,1,0,True
+1528132,2026-03-07T13:00:00+00:00,AET,Quarter-finals,Amazulu,2669,Casric Stars,19997,1,2,False
+1528133,2026-03-07T16:00:00+00:00,PEN,Quarter-finals,Sekhukhune United,15537,Milford FC,22234,1,1,False
+1528134,2026-03-08T13:00:00+00:00,FT,Quarter-finals,TS Galaxy,8074,Jacksa Spears,27435,2,0,True
+1528135,2026-03-08T16:00:00+00:00,PEN,Quarter-finals,Golden Arrows,2690,Durban City,24757,1,1,False
+1535134,2026-04-04T13:00:00+00:00,FT,Semi-finals,Durban City,24757,Casric Stars,19997,1,0,True
+1535135,2026-04-05T13:00:00+00:00,PEN,Semi-finals,TS Galaxy,8074,Milford FC,22234,1,1,False
+1540153,2026-05-02T16:00:00+00:00,FT,Final,Durban City,24757,TS Galaxy,8074,2,1,True

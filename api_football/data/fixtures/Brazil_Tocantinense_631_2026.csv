@@ -1,35 +1,35 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1501065,2026-01-17T19:00:00+00:00,FT,Gurupi,1208,Palmas,2218,1,0,True
-1501064,2026-01-17T19:00:00+00:00,FT,Capital,13134,Araguaína,12290,1,1,True
-1501066,2026-01-17T19:00:00+00:00,FT,União Carmolandense,18362,Tocantinópolis,7878,0,0,True
-1501063,2026-01-18T19:00:00+00:00,FT,Bela Vista TO,18361,Guarai SC,27284,1,1,True
-1501069,2026-01-24T19:00:00+00:00,FT,Palmas,2218,União Carmolandense,18362,0,2,True
-1501070,2026-01-24T19:00:00+00:00,FT,Tocantinópolis,7878,Bela Vista TO,18361,2,0,True
-1501068,2026-01-24T19:00:00+00:00,FT,Guarai SC,27284,Capital,13134,1,3,True
-1501067,2026-01-24T21:00:00+00:00,FT,Araguaína,12290,Gurupi,1208,2,0,True
-1501073,2026-01-31T19:00:00+00:00,FT,Gurupi,1208,União Carmolandense,18362,2,1,True
-1501074,2026-01-31T19:00:00+00:00,FT,Tocantinópolis,7878,Guarai SC,27284,2,0,True
-1501071,2026-01-31T21:00:00+00:00,FT,Araguaína,12290,Palmas,2218,0,1,True
-1501072,2026-02-01T19:00:00+00:00,FT,Bela Vista TO,18361,Capital,13134,1,0,True
-1501077,2026-02-07T19:00:00+00:00,FT,Tocantinópolis,7878,Araguaína,12290,1,0,True
-1501075,2026-02-07T19:00:00+00:00,FT,Capital,13134,Gurupi,1208,1,1,True
-1501078,2026-02-07T19:00:00+00:00,FT,União Carmolandense,18362,Bela Vista TO,18361,3,0,True
-1501076,2026-02-07T19:00:00+00:00,FT,Guarai SC,27284,Palmas,2218,0,0,True
-1501081,2026-02-14T19:00:00+00:00,FT,Gurupi,1208,Bela Vista TO,18361,5,0,True
-1501080,2026-02-14T19:00:00+00:00,FT,Capital,13134,União Carmolandense,18362,3,2,True
-1501079,2026-02-14T21:00:00+00:00,FT,Araguaína,12290,Guarai SC,27284,3,1,True
-1501082,2026-02-15T19:00:00+00:00,FT,Palmas,2218,Tocantinópolis,7878,0,1,True
-1501085,2026-02-21T19:00:00+00:00,FT,Gurupi,1208,Tocantinópolis,7878,0,2,True
-1501084,2026-02-21T21:00:00+00:00,FT,Capital,13134,Palmas,2218,1,1,True
-1501083,2026-02-22T19:00:00+00:00,FT,Bela Vista TO,18361,Araguaína,12290,1,1,True
-1501086,2026-02-22T19:00:00+00:00,FT,União Carmolandense,18362,Guarai SC,27284,2,0,True
-1501089,2026-03-07T19:00:00+00:00,FT,Palmas,2218,Bela Vista TO,18361,2,5,True
-1501090,2026-03-07T19:00:00+00:00,FT,Tocantinópolis,7878,Capital,13134,2,1,True
-1501087,2026-03-07T19:00:00+00:00,FT,Araguaína,12290,União Carmolandense,18362,0,2,True
-1501088,2026-03-07T19:00:00+00:00,FT,Guarai SC,27284,Gurupi,1208,0,1,True
-1530924,2026-03-14T19:00:00+00:00,FT,Gurupi,1208,União Carmolandense,18362,1,2,True
-1530923,2026-03-14T21:00:00+00:00,FT,Capital,13134,Tocantinópolis,7878,1,2,True
-1530925,2026-03-21T19:00:00+00:00,FT,Tocantinópolis,7878,Capital,13134,2,2,True
-1530926,2026-03-21T19:00:00+00:00,PEN,União Carmolandense,18362,Gurupi,1208,0,1,False
-1536935,2026-04-02T23:00:00+00:00,FT,União Carmolandense,18362,Tocantinópolis,7878,1,1,True
-1536934,2026-04-05T18:45:00+00:00,FT,Tocantinópolis,7878,União Carmolandense,18362,2,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1501065,2026-01-17T19:00:00+00:00,FT,Regular Season - 1,Gurupi,1208,Palmas,2218,1,0,True
+1501064,2026-01-17T19:00:00+00:00,FT,Regular Season - 1,Capital,13134,Araguaína,12290,1,1,True
+1501066,2026-01-17T19:00:00+00:00,FT,Regular Season - 1,União Carmolandense,18362,Tocantinópolis,7878,0,0,True
+1501063,2026-01-18T19:00:00+00:00,FT,Regular Season - 1,Bela Vista TO,18361,Guarai SC,27284,1,1,True
+1501069,2026-01-24T19:00:00+00:00,FT,Regular Season - 2,Palmas,2218,União Carmolandense,18362,0,2,True
+1501070,2026-01-24T19:00:00+00:00,FT,Regular Season - 2,Tocantinópolis,7878,Bela Vista TO,18361,2,0,True
+1501068,2026-01-24T19:00:00+00:00,FT,Regular Season - 2,Guarai SC,27284,Capital,13134,1,3,True
+1501067,2026-01-24T21:00:00+00:00,FT,Regular Season - 2,Araguaína,12290,Gurupi,1208,2,0,True
+1501073,2026-01-31T19:00:00+00:00,FT,Regular Season - 3,Gurupi,1208,União Carmolandense,18362,2,1,True
+1501074,2026-01-31T19:00:00+00:00,FT,Regular Season - 3,Tocantinópolis,7878,Guarai SC,27284,2,0,True
+1501071,2026-01-31T21:00:00+00:00,FT,Regular Season - 3,Araguaína,12290,Palmas,2218,0,1,True
+1501072,2026-02-01T19:00:00+00:00,FT,Regular Season - 3,Bela Vista TO,18361,Capital,13134,1,0,True
+1501077,2026-02-07T19:00:00+00:00,FT,Regular Season - 4,Tocantinópolis,7878,Araguaína,12290,1,0,True
+1501075,2026-02-07T19:00:00+00:00,FT,Regular Season - 4,Capital,13134,Gurupi,1208,1,1,True
+1501078,2026-02-07T19:00:00+00:00,FT,Regular Season - 4,União Carmolandense,18362,Bela Vista TO,18361,3,0,True
+1501076,2026-02-07T19:00:00+00:00,FT,Regular Season - 4,Guarai SC,27284,Palmas,2218,0,0,True
+1501081,2026-02-14T19:00:00+00:00,FT,Regular Season - 5,Gurupi,1208,Bela Vista TO,18361,5,0,True
+1501080,2026-02-14T19:00:00+00:00,FT,Regular Season - 5,Capital,13134,União Carmolandense,18362,3,2,True
+1501079,2026-02-14T21:00:00+00:00,FT,Regular Season - 5,Araguaína,12290,Guarai SC,27284,3,1,True
+1501082,2026-02-15T19:00:00+00:00,FT,Regular Season - 5,Palmas,2218,Tocantinópolis,7878,0,1,True
+1501085,2026-02-21T19:00:00+00:00,FT,Regular Season - 6,Gurupi,1208,Tocantinópolis,7878,0,2,True
+1501084,2026-02-21T21:00:00+00:00,FT,Regular Season - 6,Capital,13134,Palmas,2218,1,1,True
+1501083,2026-02-22T19:00:00+00:00,FT,Regular Season - 6,Bela Vista TO,18361,Araguaína,12290,1,1,True
+1501086,2026-02-22T19:00:00+00:00,FT,Regular Season - 6,União Carmolandense,18362,Guarai SC,27284,2,0,True
+1501089,2026-03-07T19:00:00+00:00,FT,Regular Season - 7,Palmas,2218,Bela Vista TO,18361,2,5,True
+1501090,2026-03-07T19:00:00+00:00,FT,Regular Season - 7,Tocantinópolis,7878,Capital,13134,2,1,True
+1501087,2026-03-07T19:00:00+00:00,FT,Regular Season - 7,Araguaína,12290,União Carmolandense,18362,0,2,True
+1501088,2026-03-07T19:00:00+00:00,FT,Regular Season - 7,Guarai SC,27284,Gurupi,1208,0,1,True
+1530924,2026-03-14T19:00:00+00:00,FT,Semi-finals,Gurupi,1208,União Carmolandense,18362,1,2,True
+1530923,2026-03-14T21:00:00+00:00,FT,Semi-finals,Capital,13134,Tocantinópolis,7878,1,2,True
+1530925,2026-03-21T19:00:00+00:00,FT,Semi-finals,Tocantinópolis,7878,Capital,13134,2,2,True
+1530926,2026-03-21T19:00:00+00:00,PEN,Semi-finals,União Carmolandense,18362,Gurupi,1208,0,1,False
+1536935,2026-04-02T23:00:00+00:00,FT,Final,União Carmolandense,18362,Tocantinópolis,7878,1,1,True
+1536934,2026-04-05T18:45:00+00:00,FT,Play Offs,Tocantinópolis,7878,União Carmolandense,18362,2,1,True

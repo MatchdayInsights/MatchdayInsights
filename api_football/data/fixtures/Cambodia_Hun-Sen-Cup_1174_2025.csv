@@ -1,14 +1,14 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1526354,2026-02-25T08:30:00+00:00,FT,Kirivong Sok Sen Chey,5389,Svay Rieng,5396,2,1,True
-1526355,2026-02-25T11:00:00+00:00,FT,Dangkor Senchey,21735,Phnom Penh Crown,5394,2,2,True
-1526357,2026-03-04T11:00:00+00:00,FT,National Defense,5391,Boeung Ket,5387,0,2,True
-1526356,2026-03-04T11:00:00+00:00,FT,NagaWorld,5566,Visakha,5397,2,2,True
-1526359,2026-03-11T11:00:00+00:00,FT,Boeung Ket,5387,National Defense,5391,2,0,True
-1526358,2026-03-11T11:00:00+00:00,FT,Visakha,5397,NagaWorld,5566,4,0,True
-1526361,2026-03-18T11:00:00+00:00,FT,Phnom Penh Crown,5394,Dangkor Senchey,21735,0,2,True
-1526360,2026-03-18T11:00:00+00:00,FT,Svay Rieng,5396,Kirivong Sok Sen Chey,5389,4,1,True
-1535363,2026-04-22T11:00:00+00:00,FT,Visakha,5397,Dangkor Senchey,21735,3,0,True
-1535362,2026-04-29T11:00:00+00:00,FT,Boeung Ket,5387,Svay Rieng,5396,1,1,True
-1535364,2026-04-29T11:00:00+00:00,FT,Dangkor Senchey,21735,Visakha,5397,1,4,True
-1535365,2026-05-20T11:00:00+00:00,AET,Svay Rieng,5396,Boeung Ket,5387,3,2,False
-1545772,2026-05-24T12:00:00+00:00,PEN,Svay Rieng,5396,Visakha,5397,4,4,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1526354,2026-02-25T08:30:00+00:00,FT,Quarter-finals,Kirivong Sok Sen Chey,5389,Svay Rieng,5396,2,1,True
+1526355,2026-02-25T11:00:00+00:00,FT,Quarter-finals,Dangkor Senchey,21735,Phnom Penh Crown,5394,2,2,True
+1526357,2026-03-04T11:00:00+00:00,FT,Quarter-finals,National Defense,5391,Boeung Ket,5387,0,2,True
+1526356,2026-03-04T11:00:00+00:00,FT,Quarter-finals,NagaWorld,5566,Visakha,5397,2,2,True
+1526359,2026-03-11T11:00:00+00:00,FT,Quarter-finals,Boeung Ket,5387,National Defense,5391,2,0,True
+1526358,2026-03-11T11:00:00+00:00,FT,Quarter-finals,Visakha,5397,NagaWorld,5566,4,0,True
+1526361,2026-03-18T11:00:00+00:00,FT,Quarter-finals,Phnom Penh Crown,5394,Dangkor Senchey,21735,0,2,True
+1526360,2026-03-18T11:00:00+00:00,FT,Quarter-finals,Svay Rieng,5396,Kirivong Sok Sen Chey,5389,4,1,True
+1535363,2026-04-22T11:00:00+00:00,FT,Semi-finals,Visakha,5397,Dangkor Senchey,21735,3,0,True
+1535362,2026-04-29T11:00:00+00:00,FT,Semi-finals,Boeung Ket,5387,Svay Rieng,5396,1,1,True
+1535364,2026-04-29T11:00:00+00:00,FT,Semi-finals,Dangkor Senchey,21735,Visakha,5397,1,4,True
+1535365,2026-05-20T11:00:00+00:00,AET,Semi-finals,Svay Rieng,5396,Boeung Ket,5387,3,2,False
+1545772,2026-05-24T12:00:00+00:00,PEN,Final,Svay Rieng,5396,Visakha,5397,4,4,False

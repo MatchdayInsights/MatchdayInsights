@@ -1,136 +1,241 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1255629,2025-01-04T15:00:00+00:00,FT,Biesheim,3025,Beauvais,3153,2,0,True
-1255626,2025-01-04T17:00:00+00:00,FT,Creteil,1307,Bobigny,3027,1,3,True
-1255591,2025-01-04T17:00:00+00:00,FT,Furiani-Agliani,3181,Haguenau,3058,1,1,True
-1255656,2025-01-11T17:00:00+00:00,FT,Creteil,1307,Furiani-Agliani,3181,1,1,True
-1255659,2025-01-11T17:00:00+00:00,FT,Beauvais,3153,Haguenau,3058,2,0,True
-1255660,2025-01-11T17:00:00+00:00,FT,Fleury 91,3179,Bobigny,3027,0,2,True
-1255658,2025-01-11T17:00:00+00:00,FT,Balagne,9931,Epinal,1309,1,0,True
-1255657,2025-01-11T17:00:00+00:00,FT,Thionville Lusitanos,22039,Aubervilliers,3148,3,1,True
-1255664,2025-01-17T19:00:00+00:00,FT,Chambly Thelle FC,1291,Thionville Lusitanos,22039,2,1,True
-1255669,2025-01-18T15:00:00+00:00,FT,Biesheim,3025,Bobigny,3027,4,0,True
-1255668,2025-01-18T15:00:00+00:00,FT,Haguenau,3058,Feignies-Aulnoye,3176,4,2,True
-1255666,2025-01-18T15:00:00+00:00,FT,Aubervilliers,3148,Beauvais,3153,0,1,True
-1255665,2025-01-18T17:00:00+00:00,FT,Furiani-Agliani,3181,Balagne,9931,2,2,True
-1255662,2025-01-18T19:00:00+00:00,FT,Chantilly,3162,Villers Houlgate CF,3135,2,1,True
-1255673,2025-01-24T19:00:00+00:00,FT,Beauvais,3153,Furiani-Agliani,3181,2,0,True
-1255675,2025-01-25T15:00:00+00:00,FT,Thionville Lusitanos,22039,Wasquehal,3140,4,2,True
-1255676,2025-01-25T17:00:00+00:00,FT,Creteil,1307,Chantilly,3162,2,1,True
-1255670,2025-01-25T17:00:00+00:00,FT,Bobigny,3027,Haguenau,3058,3,2,True
-1255671,2025-01-25T17:00:00+00:00,FT,Feignies-Aulnoye,3176,Epinal,1309,2,2,True
-1255672,2025-01-25T17:00:00+00:00,FT,Fleury 91,3179,Aubervilliers,3148,3,0,True
-1255674,2025-01-25T17:00:00+00:00,FT,Balagne,9931,Chambly Thelle FC,1291,2,1,True
-1255649,2025-01-31T18:00:00+00:00,FT,Epinal,1309,Thionville Lusitanos,22039,2,2,True
-1255654,2025-02-01T13:30:00+00:00,FT,Chantilly,3162,Wasquehal,3140,1,3,True
-1255648,2025-02-01T15:00:00+00:00,FT,Haguenau,3058,Balagne,9931,2,1,True
-1255647,2025-02-01T17:00:00+00:00,FT,Bobigny,3027,Beauvais,3153,0,1,True
-1255655,2025-02-01T17:30:00+00:00,FT,Villers Houlgate CF,3135,Chambly Thelle FC,1291,2,3,True
-1255681,2025-02-07T19:00:00+00:00,FT,Chambly Thelle FC,1291,Beauvais,3153,1,1,True
-1255679,2025-02-08T13:30:00+00:00,FT,Chantilly,3162,Thionville Lusitanos,22039,0,2,True
-1255684,2025-02-08T15:00:00+00:00,FT,Epinal,1309,Bobigny,3027,0,1,True
-1255685,2025-02-08T15:00:00+00:00,FT,Biesheim,3025,Haguenau,3058,1,0,True
-1255683,2025-02-08T17:00:00+00:00,FT,Aubervilliers,3148,Feignies-Aulnoye,3176,2,0,True
-1255682,2025-02-08T17:00:00+00:00,FT,Furiani-Agliani,3181,Fleury 91,3179,1,3,True
-1255678,2025-02-08T17:30:00+00:00,FT,Villers Houlgate CF,3135,Creteil,1307,1,0,True
-1255680,2025-02-09T12:00:00+00:00,FT,Wasquehal,3140,Balagne,9931,4,0,True
-1255689,2025-02-14T18:30:00+00:00,FT,Fleury 91,3179,Chambly Thelle FC,1291,0,0,True
-1255692,2025-02-15T15:00:00+00:00,FT,Thionville Lusitanos,22039,Villers Houlgate CF,3135,4,0,True
-1255693,2025-02-15T17:00:00+00:00,FT,Creteil,1307,Biesheim,3025,0,1,True
-1255687,2025-02-15T17:00:00+00:00,FT,Bobigny,3027,Aubervilliers,3148,1,1,True
-1255690,2025-02-15T17:00:00+00:00,FT,Beauvais,3153,Wasquehal,3140,1,3,True
-1255688,2025-02-15T17:00:00+00:00,FT,Feignies-Aulnoye,3176,Furiani-Agliani,3181,1,0,True
-1255691,2025-02-15T18:00:00+00:00,FT,Balagne,9931,Chantilly,3162,2,2,True
-1255696,2025-02-22T13:30:00+00:00,FT,Chantilly,3162,Beauvais,3153,1,0,True
-1255699,2025-02-22T14:00:00+00:00,FT,Furiani-Agliani,3181,Bobigny,3027,1,0,True
-1255698,2025-02-22T17:00:00+00:00,FT,Chambly Thelle FC,1291,Feignies-Aulnoye,3176,1,0,True
-1255694,2025-02-22T17:00:00+00:00,FT,Creteil,1307,Thionville Lusitanos,22039,1,2,True
-1255701,2025-02-22T17:00:00+00:00,FT,Biesheim,3025,Epinal,1309,1,2,True
-1255697,2025-02-22T17:00:00+00:00,FT,Wasquehal,3140,Fleury 91,3179,0,1,True
-1255700,2025-02-22T17:00:00+00:00,FT,Aubervilliers,3148,Haguenau,3058,2,3,True
-1255695,2025-02-22T18:00:00+00:00,FT,Villers Houlgate CF,3135,Balagne,9931,1,0,True
-1255686,2025-03-01T15:00:00+00:00,FT,Haguenau,3058,Epinal,1309,2,0,True
-1255677,2025-03-01T17:00:00+00:00,FT,Villers Houlgate CF,3135,Biesheim,3025,1,1,True
-1255663,2025-03-01T17:00:00+00:00,FT,Wasquehal,3140,Creteil,1307,0,4,True
-1255646,2025-03-01T17:00:00+00:00,FT,Feignies-Aulnoye,3176,Fleury 91,3179,1,0,True
-1255706,2025-03-07T19:00:00+00:00,FT,Fleury 91,3179,Chantilly,3162,0,0,True
-1255703,2025-03-08T15:00:00+00:00,FT,Haguenau,3058,Furiani-Agliani,3181,1,0,True
-1255702,2025-03-08T16:00:00+00:00,FT,Epinal,1309,Aubervilliers,3148,1,1,True
-1255707,2025-03-08T17:00:00+00:00,FT,Beauvais,3153,Villers Houlgate CF,3135,4,0,True
-1255705,2025-03-08T17:00:00+00:00,FT,Feignies-Aulnoye,3176,Wasquehal,3140,1,0,True
-1255709,2025-03-08T17:00:00+00:00,FT,Thionville Lusitanos,22039,Biesheim,3025,2,1,True
-1255708,2025-03-08T18:00:00+00:00,FT,Balagne,9931,Creteil,1307,0,0,True
-1255704,2025-03-08T19:00:00+00:00,FT,Bobigny,3027,Chambly Thelle FC,1291,0,2,True
-1255716,2025-03-15T15:00:00+00:00,FT,Furiani-Agliani,3181,Epinal,1309,2,2,True
-1255710,2025-03-15T15:00:00+00:00,FT,Thionville Lusitanos,22039,Balagne,9931,1,0,True
-1255717,2025-03-15T15:30:00+00:00,FT,Biesheim,3025,Aubervilliers,3148,3,0,True
-1255715,2025-03-15T17:00:00+00:00,FT,Chambly Thelle FC,1291,Haguenau,3058,3,0,True
-1255711,2025-03-15T17:00:00+00:00,FT,Creteil,1307,Beauvais,3153,0,0,True
-1255712,2025-03-15T17:30:00+00:00,FT,Villers Houlgate CF,3135,Fleury 91,3179,1,2,True
-1255713,2025-03-15T18:30:00+00:00,FT,Chantilly,3162,Feignies-Aulnoye,3176,2,0,True
-1255714,2025-03-15T19:00:00+00:00,FT,Wasquehal,3140,Bobigny,3027,2,0,True
-1255719,2025-03-21T18:00:00+00:00,FT,Epinal,1309,Chambly Thelle FC,1291,2,0,True
-1255720,2025-03-22T15:00:00+00:00,FT,Haguenau,3058,Wasquehal,3140,0,1,True
-1255718,2025-03-22T17:00:00+00:00,FT,Aubervilliers,3148,Furiani-Agliani,3181,2,2,True
-1255722,2025-03-22T17:00:00+00:00,FT,Feignies-Aulnoye,3176,Villers Houlgate CF,3135,4,0,True
-1255723,2025-03-22T17:00:00+00:00,FT,Fleury 91,3179,Creteil,1307,1,0,True
-1255725,2025-03-22T18:00:00+00:00,FT,Balagne,9931,Biesheim,3025,0,0,True
-1255721,2025-03-22T19:00:00+00:00,FT,Bobigny,3027,Chantilly,3162,1,0,True
-1255724,2025-03-22T19:00:00+00:00,FT,Beauvais,3153,Thionville Lusitanos,22039,2,2,True
-1255667,2025-03-26T17:30:00+00:00,FT,Epinal,1309,Fleury 91,3179,1,2,True
-1255661,2025-03-29T17:00:00+00:00,FT,Feignies-Aulnoye,3176,Biesheim,3025,0,0,True
-1255733,2025-04-05T14:00:00+00:00,FT,Biesheim,3025,Furiani-Agliani,3181,0,1,True
-1255731,2025-04-05T14:00:00+00:00,FT,Wasquehal,3140,Epinal,1309,1,0,True
-1255726,2025-04-05T14:00:00+00:00,FT,Balagne,9931,Beauvais,3153,3,2,True
-1255730,2025-04-05T15:00:00+00:00,FT,Chantilly,3162,Haguenau,3058,2,0,True
-1255732,2025-04-05T16:00:00+00:00,FT,Chambly Thelle FC,1291,Aubervilliers,3148,1,1,True
-1255728,2025-04-05T16:00:00+00:00,FT,Creteil,1307,Feignies-Aulnoye,3176,1,0,True
-1255727,2025-04-05T16:00:00+00:00,FT,Thionville Lusitanos,22039,Fleury 91,3179,0,3,True
-1255729,2025-04-05T16:30:00+00:00,FT,Villers Houlgate CF,3135,Bobigny,3027,1,1,True
-1255740,2025-04-11T18:00:00+00:00,FT,Fleury 91,3179,Balagne,9931,1,1,True
-1255734,2025-04-12T13:00:00+00:00,FT,Furiani-Agliani,3181,Chambly Thelle FC,1291,2,0,True
-1255735,2025-04-12T14:00:00+00:00,FT,Aubervilliers,3148,Wasquehal,3140,3,1,True
-1255736,2025-04-12T16:00:00+00:00,FT,Epinal,1309,Chantilly,3162,2,3,True
-1255738,2025-04-12T16:00:00+00:00,FT,Bobigny,3027,Creteil,1307,1,2,True
-1255737,2025-04-12T16:00:00+00:00,FT,Haguenau,3058,Villers Houlgate CF,3135,0,1,True
-1255741,2025-04-12T16:00:00+00:00,FT,Beauvais,3153,Biesheim,3025,0,0,True
-1255739,2025-04-12T16:00:00+00:00,FT,Feignies-Aulnoye,3176,Thionville Lusitanos,22039,1,2,True
-1255742,2025-04-18T18:00:00+00:00,FT,Beauvais,3153,Fleury 91,3179,0,1,True
-1255743,2025-04-19T13:30:00+00:00,FT,Balagne,9931,Feignies-Aulnoye,3176,3,3,True
-1255745,2025-04-19T16:00:00+00:00,FT,Creteil,1307,Haguenau,3058,1,0,True
-1255749,2025-04-19T16:00:00+00:00,FT,Biesheim,3025,Chambly Thelle FC,1291,0,1,True
-1255746,2025-04-19T16:00:00+00:00,FT,Villers Houlgate CF,3135,Epinal,1309,0,2,True
-1255748,2025-04-19T16:00:00+00:00,FT,Wasquehal,3140,Furiani-Agliani,3181,0,1,True
-1255747,2025-04-19T16:00:00+00:00,FT,Chantilly,3162,Aubervilliers,3148,1,1,True
-1255744,2025-04-19T16:00:00+00:00,FT,Thionville Lusitanos,22039,Bobigny,3027,1,2,True
-1255752,2025-04-26T14:00:00+00:00,FT,Aubervilliers,3148,Villers Houlgate CF,3135,6,1,True
-1255750,2025-04-26T16:00:00+00:00,FT,Chambly Thelle FC,1291,Wasquehal,3140,3,0,True
-1255753,2025-04-26T16:00:00+00:00,FT,Epinal,1309,Creteil,1307,1,1,True
-1255755,2025-04-26T16:00:00+00:00,FT,Bobigny,3027,Balagne,9931,2,1,True
-1255754,2025-04-26T16:00:00+00:00,FT,Haguenau,3058,Thionville Lusitanos,22039,4,1,True
-1255756,2025-04-26T16:00:00+00:00,FT,Feignies-Aulnoye,3176,Beauvais,3153,0,1,True
-1255757,2025-04-26T16:00:00+00:00,FT,Fleury 91,3179,Biesheim,3025,5,2,True
-1255751,2025-04-26T16:00:00+00:00,FT,Furiani-Agliani,3181,Chantilly,3162,2,0,True
-1255765,2025-05-03T15:00:00+00:00,FT,Biesheim,3025,Wasquehal,3140,1,2,True
-1255762,2025-05-03T16:00:00+00:00,FT,Creteil,1307,Aubervilliers,3148,1,4,True
-1255759,2025-05-03T16:00:00+00:00,FT,Beauvais,3153,Bobigny,3027,3,2,True
-1255764,2025-05-03T16:00:00+00:00,FT,Chantilly,3162,Chambly Thelle FC,1291,1,3,True
-1255758,2025-05-03T16:00:00+00:00,FT,Fleury 91,3179,Feignies-Aulnoye,3176,1,2,True
-1255761,2025-05-03T16:00:00+00:00,FT,Thionville Lusitanos,22039,Epinal,1309,0,1,True
-1255763,2025-05-03T16:30:00+00:00,FT,Villers Houlgate CF,3135,Furiani-Agliani,3181,2,2,True
-1255760,2025-05-03T16:30:00+00:00,FT,Balagne,9931,Haguenau,3058,3,0,True
-1255767,2025-05-10T16:00:00+00:00,FT,Chambly Thelle FC,1291,Villers Houlgate CF,3135,6,1,True
-1255770,2025-05-10T16:00:00+00:00,FT,Epinal,1309,Balagne,9931,1,1,True
-1255773,2025-05-10T16:00:00+00:00,FT,Biesheim,3025,Feignies-Aulnoye,3176,1,2,True
-1255772,2025-05-10T16:00:00+00:00,FT,Bobigny,3027,Fleury 91,3179,3,2,True
-1255771,2025-05-10T16:00:00+00:00,FT,Haguenau,3058,Beauvais,3153,2,1,True
-1255766,2025-05-10T16:00:00+00:00,FT,Wasquehal,3140,Chantilly,3162,2,2,True
-1255769,2025-05-10T16:00:00+00:00,FT,Aubervilliers,3148,Thionville Lusitanos,22039,2,3,True
-1255768,2025-05-10T16:00:00+00:00,FT,Furiani-Agliani,3181,Creteil,1307,0,0,True
-1255778,2025-05-16T18:30:00+00:00,FT,Thionville Lusitanos,22039,Furiani-Agliani,3181,1,3,True
-1255779,2025-05-17T16:00:00+00:00,FT,Creteil,1307,Chambly Thelle FC,1291,2,2,True
-1255780,2025-05-17T16:00:00+00:00,FT,Villers Houlgate CF,3135,Wasquehal,3140,2,0,True
-1255776,2025-05-17T16:00:00+00:00,FT,Beauvais,3153,Epinal,1309,3,2,True
-1255781,2025-05-17T16:00:00+00:00,FT,Chantilly,3162,Biesheim,3025,3,3,True
-1255774,2025-05-17T16:00:00+00:00,FT,Feignies-Aulnoye,3176,Bobigny,3027,3,1,True
-1255775,2025-05-17T16:00:00+00:00,FT,Fleury 91,3179,Haguenau,3058,1,3,True
-1255777,2025-05-17T16:00:00+00:00,FT,Balagne,9931,Aubervilliers,3148,8,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1255549,2024-08-16T15:00:00+00:00,FT,Group C - 1,Biesheim,3025,Chantilly,3162,0,1,True
+1255544,2024-08-16T17:00:00+00:00,FT,Group C - 1,Epinal,1309,Beauvais,3153,3,2,True
+1255547,2024-08-17T16:00:00+00:00,FT,Group C - 1,Chambly Thelle FC,1291,Creteil,1307,0,0,True
+1255542,2024-08-17T16:00:00+00:00,FT,Group C - 1,Bobigny,3027,Feignies-Aulnoye,3176,1,0,True
+1255543,2024-08-17T16:00:00+00:00,FT,Group C - 1,Haguenau,3058,Fleury 91,3179,1,2,True
+1255548,2024-08-17T16:00:00+00:00,FT,Group C - 1,Wasquehal,3140,Villers Houlgate CF,3135,0,2,True
+1255545,2024-08-17T16:00:00+00:00,FT,Group C - 1,Aubervilliers,3148,Balagne,9931,2,3,True
+1255546,2024-08-17T17:00:00+00:00,FT,Group C - 1,Furiani-Agliani,3181,Thionville Lusitanos,22039,2,0,True
+1255554,2024-08-23T17:30:00+00:00,FT,Group C - 2,Fleury 91,3179,Epinal,1309,2,0,True
+1255557,2024-08-24T15:30:00+00:00,FT,Group C - 2,Villers Houlgate CF,3135,Chantilly,3162,0,1,True
+1255550,2024-08-24T16:00:00+00:00,FT,Group C - 2,Creteil,1307,Wasquehal,3140,2,0,True
+1255556,2024-08-24T16:00:00+00:00,FT,Group C - 2,Bobigny,3027,Biesheim,3025,2,0,True
+1255553,2024-08-24T16:00:00+00:00,FT,Group C - 2,Beauvais,3153,Aubervilliers,3148,1,0,True
+1255555,2024-08-24T16:00:00+00:00,FT,Group C - 2,Feignies-Aulnoye,3176,Haguenau,3058,1,1,True
+1255552,2024-08-24T16:00:00+00:00,FT,Group C - 2,Balagne,9931,Furiani-Agliani,3181,4,0,True
+1255551,2024-08-24T16:00:00+00:00,FT,Group C - 2,Thionville Lusitanos,22039,Chambly Thelle FC,1291,1,1,True
+1255559,2024-08-30T17:00:00+00:00,FT,Group C - 3,Epinal,1309,Feignies-Aulnoye,3176,1,0,True
+1255561,2024-08-30T17:00:00+00:00,FT,Group C - 3,Furiani-Agliani,3181,Beauvais,3153,2,0,True
+1255558,2024-08-31T15:00:00+00:00,FT,Group C - 3,Haguenau,3058,Bobigny,3027,0,2,True
+1255565,2024-08-31T15:00:00+00:00,FT,Group C - 3,Chantilly,3162,Creteil,1307,0,3,True
+1255564,2024-08-31T16:00:00+00:00,FT,Group C - 3,Biesheim,3025,Villers Houlgate CF,3135,2,1,True
+1255563,2024-08-31T16:00:00+00:00,FT,Group C - 3,Wasquehal,3140,Thionville Lusitanos,22039,1,1,True
+1255560,2024-08-31T16:00:00+00:00,FT,Group C - 3,Aubervilliers,3148,Fleury 91,3179,0,0,True
+1255569,2024-09-06T17:00:00+00:00,FT,Group C - 4,Beauvais,3153,Chambly Thelle FC,1291,0,0,True
+1255570,2024-09-06T17:00:00+00:00,FT,Group C - 4,Fleury 91,3179,Furiani-Agliani,3181,1,1,True
+1255566,2024-09-07T16:00:00+00:00,FT,Group C - 4,Creteil,1307,Villers Houlgate CF,3135,3,0,True
+1255573,2024-09-07T16:00:00+00:00,FT,Group C - 4,Haguenau,3058,Biesheim,3025,0,1,True
+1255571,2024-09-07T16:00:00+00:00,FT,Group C - 4,Feignies-Aulnoye,3176,Aubervilliers,3148,2,1,True
+1255568,2024-09-07T16:00:00+00:00,FT,Group C - 4,Balagne,9931,Wasquehal,3140,2,0,True
+1255567,2024-09-07T16:00:00+00:00,FT,Group C - 4,Thionville Lusitanos,22039,Chantilly,3162,2,2,True
+1255572,2024-09-07T16:30:00+00:00,FT,Group C - 4,Bobigny,3027,Epinal,1309,2,1,True
+1255577,2024-09-13T18:00:00+00:00,FT,Group C - 5,Chambly Thelle FC,1291,Fleury 91,3179,1,3,True
+1255576,2024-09-14T14:00:00+00:00,FT,Group C - 5,Furiani-Agliani,3181,Feignies-Aulnoye,3176,1,0,True
+1255580,2024-09-14T15:30:00+00:00,FT,Group C - 5,Villers Houlgate CF,3135,Thionville Lusitanos,22039,1,1,True
+1255574,2024-09-14T16:00:00+00:00,FT,Group C - 5,Epinal,1309,Haguenau,3058,1,1,True
+1255581,2024-09-14T16:00:00+00:00,FT,Group C - 5,Biesheim,3025,Creteil,1307,0,1,True
+1255578,2024-09-14T16:00:00+00:00,FT,Group C - 5,Wasquehal,3140,Beauvais,3153,1,0,True
+1255575,2024-09-14T16:00:00+00:00,FT,Group C - 5,Aubervilliers,3148,Bobigny,3027,0,0,True
+1255579,2024-09-15T14:30:00+00:00,FT,Group C - 5,Chantilly,3162,Balagne,9931,4,1,True
+1255582,2024-09-21T15:00:00+00:00,FT,Group C - 6,Thionville Lusitanos,22039,Creteil,1307,3,0,True
+1255589,2024-09-21T16:00:00+00:00,FT,Group C - 6,Epinal,1309,Biesheim,3025,2,4,True
+1255588,2024-09-21T16:00:00+00:00,FT,Group C - 6,Haguenau,3058,Aubervilliers,3148,1,1,True
+1255584,2024-09-21T16:00:00+00:00,FT,Group C - 6,Beauvais,3153,Chantilly,3162,1,1,True
+1255586,2024-09-21T16:00:00+00:00,FT,Group C - 6,Feignies-Aulnoye,3176,Chambly Thelle FC,1291,2,2,True
+1255585,2024-09-21T16:00:00+00:00,FT,Group C - 6,Fleury 91,3179,Wasquehal,3140,3,1,True
+1255583,2024-09-21T16:00:00+00:00,FT,Group C - 6,Balagne,9931,Villers Houlgate CF,3135,5,2,True
+1255587,2024-09-21T18:00:00+00:00,FT,Group C - 6,Bobigny,3027,Furiani-Agliani,3181,1,1,True
+1255592,2024-10-04T18:00:00+00:00,FT,Group C - 7,Chambly Thelle FC,1291,Bobigny,3027,3,2,True
+1255597,2024-10-05T14:30:00+00:00,FT,Group C - 7,Biesheim,3025,Thionville Lusitanos,22039,0,0,True
+1255593,2024-10-05T16:00:00+00:00,FT,Group C - 7,Wasquehal,3140,Feignies-Aulnoye,3176,0,3,True
+1255595,2024-10-05T16:30:00+00:00,FT,Group C - 7,Villers Houlgate CF,3135,Beauvais,3153,1,1,True
+1255590,2024-10-05T16:30:00+00:00,FT,Group C - 7,Aubervilliers,3148,Epinal,1309,1,2,True
+1255594,2024-10-05T18:00:00+00:00,FT,Group C - 7,Chantilly,3162,Fleury 91,3179,0,0,True
+1255599,2024-10-18T18:00:00+00:00,FT,Group C - 8,Beauvais,3153,Creteil,1307,1,0,True
+1255603,2024-10-19T15:00:00+00:00,FT,Group C - 8,Haguenau,3058,Chambly Thelle FC,1291,2,4,True
+1255604,2024-10-19T16:00:00+00:00,FT,Group C - 8,Epinal,1309,Furiani-Agliani,3181,1,1,True
+1255602,2024-10-19T16:00:00+00:00,FT,Group C - 8,Bobigny,3027,Wasquehal,3140,2,1,True
+1255605,2024-10-19T16:00:00+00:00,FT,Group C - 8,Aubervilliers,3148,Biesheim,3025,3,4,True
+1255601,2024-10-19T16:00:00+00:00,FT,Group C - 8,Feignies-Aulnoye,3176,Chantilly,3162,7,0,True
+1255600,2024-10-19T16:00:00+00:00,FT,Group C - 8,Fleury 91,3179,Villers Houlgate CF,3135,4,0,True
+1255598,2024-10-19T16:00:00+00:00,FT,Group C - 8,Balagne,9931,Thionville Lusitanos,22039,2,0,True
+1255562,2024-10-25T18:00:00+00:00,FT,Group C - 3,Chambly Thelle FC,1291,Balagne,9931,0,1,True
+1255607,2024-11-01T18:00:00+00:00,FT,Group C - 9,Chambly Thelle FC,1291,Epinal,1309,1,1,True
+1255609,2024-11-02T14:00:00+00:00,FT,Group C - 9,Chantilly,3162,Bobigny,3027,1,1,True
+1255613,2024-11-02T15:00:00+00:00,FT,Group C - 9,Biesheim,3025,Balagne,9931,3,3,True
+1255611,2024-11-02T17:00:00+00:00,FT,Group C - 9,Creteil,1307,Fleury 91,3179,1,3,True
+1255608,2024-11-02T17:00:00+00:00,FT,Group C - 9,Wasquehal,3140,Haguenau,3058,0,1,True
+1255606,2024-11-02T17:00:00+00:00,FT,Group C - 9,Furiani-Agliani,3181,Aubervilliers,3148,3,2,True
+1255612,2024-11-02T17:00:00+00:00,FT,Group C - 9,Thionville Lusitanos,22039,Beauvais,3153,1,0,True
+1255610,2024-11-02T17:30:00+00:00,FT,Group C - 9,Villers Houlgate CF,3135,Feignies-Aulnoye,3176,0,0,True
+1255619,2024-11-08T17:00:00+00:00,FT,Group C - 10,Epinal,1309,Wasquehal,3140,5,0,True
+1255615,2024-11-08T17:30:00+00:00,FT,Group C - 10,Fleury 91,3179,Thionville Lusitanos,22039,2,1,True
+1255614,2024-11-08T19:00:00+00:00,FT,Group C - 10,Beauvais,3153,Balagne,9931,1,1,True
+1255618,2024-11-09T16:00:00+00:00,FT,Group C - 10,Haguenau,3058,Chantilly,3162,2,1,True
+1255617,2024-11-09T17:00:00+00:00,FT,Group C - 10,Bobigny,3027,Villers Houlgate CF,3135,3,0,True
+1255620,2024-11-09T17:00:00+00:00,FT,Group C - 10,Aubervilliers,3148,Chambly Thelle FC,1291,1,1,True
+1255616,2024-11-09T17:00:00+00:00,FT,Group C - 10,Feignies-Aulnoye,3176,Creteil,1307,1,0,True
+1255621,2024-11-09T18:30:00+00:00,FT,Group C - 10,Furiani-Agliani,3181,Biesheim,3025,2,2,True
+1255596,2024-11-16T18:00:00+00:00,FT,Group C - 7,Creteil,1307,Balagne,9931,4,1,True
+1255623,2024-11-23T17:00:00+00:00,FT,Group C - 11,Wasquehal,3140,Aubervilliers,3148,1,0,True
+1255628,2024-11-23T17:00:00+00:00,FT,Group C - 11,Balagne,9931,Fleury 91,3179,0,0,True
+1255627,2024-11-23T17:00:00+00:00,FT,Group C - 11,Thionville Lusitanos,22039,Feignies-Aulnoye,3176,3,1,True
+1255625,2024-11-23T17:30:00+00:00,FT,Group C - 11,Villers Houlgate CF,3135,Haguenau,3058,2,2,True
+1255624,2024-11-23T19:00:00+00:00,FT,Group C - 11,Chantilly,3162,Epinal,1309,1,1,True
+1255622,2024-11-29T18:00:00+00:00,FT,Group C - 11,Chambly Thelle FC,1291,Furiani-Agliani,3181,2,0,True
+1255630,2024-12-06T19:00:00+00:00,FT,Group C - 12,Fleury 91,3179,Beauvais,3153,1,0,True
+1255635,2024-12-07T15:00:00+00:00,FT,Group C - 12,Aubervilliers,3148,Chantilly,3162,1,1,True
+1255637,2024-12-07T17:00:00+00:00,FT,Group C - 12,Chambly Thelle FC,1291,Biesheim,3025,2,2,True
+1255634,2024-12-07T17:00:00+00:00,FT,Group C - 12,Epinal,1309,Villers Houlgate CF,3135,1,0,True
+1255633,2024-12-07T17:00:00+00:00,FT,Group C - 12,Haguenau,3058,Creteil,1307,2,2,True
+1255631,2024-12-07T17:00:00+00:00,FT,Group C - 12,Feignies-Aulnoye,3176,Balagne,9931,2,2,True
+1255636,2024-12-07T17:00:00+00:00,FT,Group C - 12,Furiani-Agliani,3181,Wasquehal,3140,0,0,True
+1255632,2024-12-08T13:30:00+00:00,FT,Group C - 12,Bobigny,3027,Thionville Lusitanos,22039,1,0,True
+1255641,2024-12-14T17:00:00+00:00,FT,Group C - 13,Creteil,1307,Epinal,1309,2,0,True
+1255645,2024-12-14T17:00:00+00:00,FT,Group C - 13,Biesheim,3025,Fleury 91,3179,1,1,True
+1255638,2024-12-14T17:00:00+00:00,FT,Group C - 13,Wasquehal,3140,Chambly Thelle FC,1291,0,0,True
+1255644,2024-12-14T17:00:00+00:00,FT,Group C - 13,Beauvais,3153,Feignies-Aulnoye,3176,2,1,True
+1255642,2024-12-14T17:00:00+00:00,FT,Group C - 13,Thionville Lusitanos,22039,Haguenau,3058,1,1,True
+1255640,2024-12-14T17:30:00+00:00,FT,Group C - 13,Villers Houlgate CF,3135,Aubervilliers,3148,1,1,True
+1255643,2024-12-14T18:00:00+00:00,FT,Group C - 13,Balagne,9931,Bobigny,3027,1,2,True
+1255639,2024-12-15T13:30:00+00:00,FT,Group C - 13,Chantilly,3162,Furiani-Agliani,3181,1,1,True
+1255651,2024-12-20T18:30:00+00:00,FT,Group C - 14,Furiani-Agliani,3181,Villers Houlgate CF,3135,3,0,True
+1255652,2024-12-20T19:00:00+00:00,FT,Group C - 14,Chambly Thelle FC,1291,Chantilly,3162,2,1,True
+1255650,2024-12-21T15:00:00+00:00,FT,Group C - 14,Aubervilliers,3148,Creteil,1307,0,0,True
+1255653,2024-12-21T17:00:00+00:00,FT,Group C - 14,Wasquehal,3140,Biesheim,3025,0,2,True
+1255629,2025-01-04T15:00:00+00:00,FT,Group C - 11,Biesheim,3025,Beauvais,3153,2,0,True
+1255626,2025-01-04T17:00:00+00:00,FT,Group C - 11,Creteil,1307,Bobigny,3027,1,3,True
+1255591,2025-01-04T17:00:00+00:00,FT,Group C - 7,Furiani-Agliani,3181,Haguenau,3058,1,1,True
+1255656,2025-01-11T17:00:00+00:00,FT,Group C - 15,Creteil,1307,Furiani-Agliani,3181,1,1,True
+1255659,2025-01-11T17:00:00+00:00,FT,Group C - 15,Beauvais,3153,Haguenau,3058,2,0,True
+1255660,2025-01-11T17:00:00+00:00,FT,Group C - 15,Fleury 91,3179,Bobigny,3027,0,2,True
+1255658,2025-01-11T17:00:00+00:00,FT,Group C - 15,Balagne,9931,Epinal,1309,1,0,True
+1255657,2025-01-11T17:00:00+00:00,FT,Group C - 15,Thionville Lusitanos,22039,Aubervilliers,3148,3,1,True
+1255664,2025-01-17T19:00:00+00:00,FT,Group C - 16,Chambly Thelle FC,1291,Thionville Lusitanos,22039,2,1,True
+1255669,2025-01-18T15:00:00+00:00,FT,Group C - 16,Biesheim,3025,Bobigny,3027,4,0,True
+1255668,2025-01-18T15:00:00+00:00,FT,Group C - 16,Haguenau,3058,Feignies-Aulnoye,3176,4,2,True
+1255666,2025-01-18T15:00:00+00:00,FT,Group C - 16,Aubervilliers,3148,Beauvais,3153,0,1,True
+1255665,2025-01-18T17:00:00+00:00,FT,Group C - 16,Furiani-Agliani,3181,Balagne,9931,2,2,True
+1255662,2025-01-18T19:00:00+00:00,FT,Group C - 16,Chantilly,3162,Villers Houlgate CF,3135,2,1,True
+1255673,2025-01-24T19:00:00+00:00,FT,Group C - 17,Beauvais,3153,Furiani-Agliani,3181,2,0,True
+1255675,2025-01-25T15:00:00+00:00,FT,Group C - 17,Thionville Lusitanos,22039,Wasquehal,3140,4,2,True
+1255676,2025-01-25T17:00:00+00:00,FT,Group C - 17,Creteil,1307,Chantilly,3162,2,1,True
+1255670,2025-01-25T17:00:00+00:00,FT,Group C - 17,Bobigny,3027,Haguenau,3058,3,2,True
+1255671,2025-01-25T17:00:00+00:00,FT,Group C - 17,Feignies-Aulnoye,3176,Epinal,1309,2,2,True
+1255672,2025-01-25T17:00:00+00:00,FT,Group C - 17,Fleury 91,3179,Aubervilliers,3148,3,0,True
+1255674,2025-01-25T17:00:00+00:00,FT,Group C - 17,Balagne,9931,Chambly Thelle FC,1291,2,1,True
+1255649,2025-01-31T18:00:00+00:00,FT,Group C - 14,Epinal,1309,Thionville Lusitanos,22039,2,2,True
+1255654,2025-02-01T13:30:00+00:00,FT,Group C - 15,Chantilly,3162,Wasquehal,3140,1,3,True
+1255648,2025-02-01T15:00:00+00:00,FT,Group C - 14,Haguenau,3058,Balagne,9931,2,1,True
+1255647,2025-02-01T17:00:00+00:00,FT,Group C - 14,Bobigny,3027,Beauvais,3153,0,1,True
+1255655,2025-02-01T17:30:00+00:00,FT,Group C - 15,Villers Houlgate CF,3135,Chambly Thelle FC,1291,2,3,True
+1255681,2025-02-07T19:00:00+00:00,FT,Group C - 18,Chambly Thelle FC,1291,Beauvais,3153,1,1,True
+1255679,2025-02-08T13:30:00+00:00,FT,Group C - 18,Chantilly,3162,Thionville Lusitanos,22039,0,2,True
+1255684,2025-02-08T15:00:00+00:00,FT,Group C - 18,Epinal,1309,Bobigny,3027,0,1,True
+1255685,2025-02-08T15:00:00+00:00,FT,Group C - 18,Biesheim,3025,Haguenau,3058,1,0,True
+1255683,2025-02-08T17:00:00+00:00,FT,Group C - 18,Aubervilliers,3148,Feignies-Aulnoye,3176,2,0,True
+1255682,2025-02-08T17:00:00+00:00,FT,Group C - 18,Furiani-Agliani,3181,Fleury 91,3179,1,3,True
+1255678,2025-02-08T17:30:00+00:00,FT,Group C - 18,Villers Houlgate CF,3135,Creteil,1307,1,0,True
+1255680,2025-02-09T12:00:00+00:00,FT,Group C - 18,Wasquehal,3140,Balagne,9931,4,0,True
+1255689,2025-02-14T18:30:00+00:00,FT,Group C - 19,Fleury 91,3179,Chambly Thelle FC,1291,0,0,True
+1255692,2025-02-15T15:00:00+00:00,FT,Group C - 19,Thionville Lusitanos,22039,Villers Houlgate CF,3135,4,0,True
+1255693,2025-02-15T17:00:00+00:00,FT,Group C - 19,Creteil,1307,Biesheim,3025,0,1,True
+1255687,2025-02-15T17:00:00+00:00,FT,Group C - 19,Bobigny,3027,Aubervilliers,3148,1,1,True
+1255690,2025-02-15T17:00:00+00:00,FT,Group C - 19,Beauvais,3153,Wasquehal,3140,1,3,True
+1255688,2025-02-15T17:00:00+00:00,FT,Group C - 19,Feignies-Aulnoye,3176,Furiani-Agliani,3181,1,0,True
+1255691,2025-02-15T18:00:00+00:00,FT,Group C - 19,Balagne,9931,Chantilly,3162,2,2,True
+1255696,2025-02-22T13:30:00+00:00,FT,Group C - 20,Chantilly,3162,Beauvais,3153,1,0,True
+1255699,2025-02-22T14:00:00+00:00,FT,Group C - 20,Furiani-Agliani,3181,Bobigny,3027,1,0,True
+1255698,2025-02-22T17:00:00+00:00,FT,Group C - 20,Chambly Thelle FC,1291,Feignies-Aulnoye,3176,1,0,True
+1255694,2025-02-22T17:00:00+00:00,FT,Group C - 20,Creteil,1307,Thionville Lusitanos,22039,1,2,True
+1255701,2025-02-22T17:00:00+00:00,FT,Group C - 20,Biesheim,3025,Epinal,1309,1,2,True
+1255697,2025-02-22T17:00:00+00:00,FT,Group C - 20,Wasquehal,3140,Fleury 91,3179,0,1,True
+1255700,2025-02-22T17:00:00+00:00,FT,Group C - 20,Aubervilliers,3148,Haguenau,3058,2,3,True
+1255695,2025-02-22T18:00:00+00:00,FT,Group C - 20,Villers Houlgate CF,3135,Balagne,9931,1,0,True
+1255686,2025-03-01T15:00:00+00:00,FT,Group C - 19,Haguenau,3058,Epinal,1309,2,0,True
+1255677,2025-03-01T17:00:00+00:00,FT,Group C - 17,Villers Houlgate CF,3135,Biesheim,3025,1,1,True
+1255663,2025-03-01T17:00:00+00:00,FT,Group C - 16,Wasquehal,3140,Creteil,1307,0,4,True
+1255646,2025-03-01T17:00:00+00:00,FT,Group C - 14,Feignies-Aulnoye,3176,Fleury 91,3179,1,0,True
+1255706,2025-03-07T19:00:00+00:00,FT,Group C - 21,Fleury 91,3179,Chantilly,3162,0,0,True
+1255703,2025-03-08T15:00:00+00:00,FT,Group C - 21,Haguenau,3058,Furiani-Agliani,3181,1,0,True
+1255702,2025-03-08T16:00:00+00:00,FT,Group C - 21,Epinal,1309,Aubervilliers,3148,1,1,True
+1255707,2025-03-08T17:00:00+00:00,FT,Group C - 21,Beauvais,3153,Villers Houlgate CF,3135,4,0,True
+1255705,2025-03-08T17:00:00+00:00,FT,Group C - 21,Feignies-Aulnoye,3176,Wasquehal,3140,1,0,True
+1255709,2025-03-08T17:00:00+00:00,FT,Group C - 21,Thionville Lusitanos,22039,Biesheim,3025,2,1,True
+1255708,2025-03-08T18:00:00+00:00,FT,Group C - 21,Balagne,9931,Creteil,1307,0,0,True
+1255704,2025-03-08T19:00:00+00:00,FT,Group C - 21,Bobigny,3027,Chambly Thelle FC,1291,0,2,True
+1255716,2025-03-15T15:00:00+00:00,FT,Group C - 22,Furiani-Agliani,3181,Epinal,1309,2,2,True
+1255710,2025-03-15T15:00:00+00:00,FT,Group C - 22,Thionville Lusitanos,22039,Balagne,9931,1,0,True
+1255717,2025-03-15T15:30:00+00:00,FT,Group C - 22,Biesheim,3025,Aubervilliers,3148,3,0,True
+1255715,2025-03-15T17:00:00+00:00,FT,Group C - 22,Chambly Thelle FC,1291,Haguenau,3058,3,0,True
+1255711,2025-03-15T17:00:00+00:00,FT,Group C - 22,Creteil,1307,Beauvais,3153,0,0,True
+1255712,2025-03-15T17:30:00+00:00,FT,Group C - 22,Villers Houlgate CF,3135,Fleury 91,3179,1,2,True
+1255713,2025-03-15T18:30:00+00:00,FT,Group C - 22,Chantilly,3162,Feignies-Aulnoye,3176,2,0,True
+1255714,2025-03-15T19:00:00+00:00,FT,Group C - 22,Wasquehal,3140,Bobigny,3027,2,0,True
+1255719,2025-03-21T18:00:00+00:00,FT,Group C - 23,Epinal,1309,Chambly Thelle FC,1291,2,0,True
+1255720,2025-03-22T15:00:00+00:00,FT,Group C - 23,Haguenau,3058,Wasquehal,3140,0,1,True
+1255718,2025-03-22T17:00:00+00:00,FT,Group C - 23,Aubervilliers,3148,Furiani-Agliani,3181,2,2,True
+1255722,2025-03-22T17:00:00+00:00,FT,Group C - 23,Feignies-Aulnoye,3176,Villers Houlgate CF,3135,4,0,True
+1255723,2025-03-22T17:00:00+00:00,FT,Group C - 23,Fleury 91,3179,Creteil,1307,1,0,True
+1255725,2025-03-22T18:00:00+00:00,FT,Group C - 23,Balagne,9931,Biesheim,3025,0,0,True
+1255721,2025-03-22T19:00:00+00:00,FT,Group C - 23,Bobigny,3027,Chantilly,3162,1,0,True
+1255724,2025-03-22T19:00:00+00:00,FT,Group C - 23,Beauvais,3153,Thionville Lusitanos,22039,2,2,True
+1255667,2025-03-26T17:30:00+00:00,FT,Group C - 16,Epinal,1309,Fleury 91,3179,1,2,True
+1255661,2025-03-29T17:00:00+00:00,FT,Group C - 15,Feignies-Aulnoye,3176,Biesheim,3025,0,0,True
+1255733,2025-04-05T14:00:00+00:00,FT,Group C - 24,Biesheim,3025,Furiani-Agliani,3181,0,1,True
+1255731,2025-04-05T14:00:00+00:00,FT,Group C - 24,Wasquehal,3140,Epinal,1309,1,0,True
+1255726,2025-04-05T14:00:00+00:00,FT,Group C - 24,Balagne,9931,Beauvais,3153,3,2,True
+1255730,2025-04-05T15:00:00+00:00,FT,Group C - 24,Chantilly,3162,Haguenau,3058,2,0,True
+1255732,2025-04-05T16:00:00+00:00,FT,Group C - 24,Chambly Thelle FC,1291,Aubervilliers,3148,1,1,True
+1255728,2025-04-05T16:00:00+00:00,FT,Group C - 24,Creteil,1307,Feignies-Aulnoye,3176,1,0,True
+1255727,2025-04-05T16:00:00+00:00,FT,Group C - 24,Thionville Lusitanos,22039,Fleury 91,3179,0,3,True
+1255729,2025-04-05T16:30:00+00:00,FT,Group C - 24,Villers Houlgate CF,3135,Bobigny,3027,1,1,True
+1255740,2025-04-11T18:00:00+00:00,FT,Group C - 25,Fleury 91,3179,Balagne,9931,1,1,True
+1255734,2025-04-12T13:00:00+00:00,FT,Group C - 25,Furiani-Agliani,3181,Chambly Thelle FC,1291,2,0,True
+1255735,2025-04-12T14:00:00+00:00,FT,Group C - 25,Aubervilliers,3148,Wasquehal,3140,3,1,True
+1255736,2025-04-12T16:00:00+00:00,FT,Group C - 25,Epinal,1309,Chantilly,3162,2,3,True
+1255738,2025-04-12T16:00:00+00:00,FT,Group C - 25,Bobigny,3027,Creteil,1307,1,2,True
+1255737,2025-04-12T16:00:00+00:00,FT,Group C - 25,Haguenau,3058,Villers Houlgate CF,3135,0,1,True
+1255741,2025-04-12T16:00:00+00:00,FT,Group C - 25,Beauvais,3153,Biesheim,3025,0,0,True
+1255739,2025-04-12T16:00:00+00:00,FT,Group C - 25,Feignies-Aulnoye,3176,Thionville Lusitanos,22039,1,2,True
+1255742,2025-04-18T18:00:00+00:00,FT,Group C - 26,Beauvais,3153,Fleury 91,3179,0,1,True
+1255743,2025-04-19T13:30:00+00:00,FT,Group C - 26,Balagne,9931,Feignies-Aulnoye,3176,3,3,True
+1255745,2025-04-19T16:00:00+00:00,FT,Group C - 26,Creteil,1307,Haguenau,3058,1,0,True
+1255749,2025-04-19T16:00:00+00:00,FT,Group C - 26,Biesheim,3025,Chambly Thelle FC,1291,0,1,True
+1255746,2025-04-19T16:00:00+00:00,FT,Group C - 26,Villers Houlgate CF,3135,Epinal,1309,0,2,True
+1255748,2025-04-19T16:00:00+00:00,FT,Group C - 26,Wasquehal,3140,Furiani-Agliani,3181,0,1,True
+1255747,2025-04-19T16:00:00+00:00,FT,Group C - 26,Chantilly,3162,Aubervilliers,3148,1,1,True
+1255744,2025-04-19T16:00:00+00:00,FT,Group C - 26,Thionville Lusitanos,22039,Bobigny,3027,1,2,True
+1255752,2025-04-26T14:00:00+00:00,FT,Group C - 27,Aubervilliers,3148,Villers Houlgate CF,3135,6,1,True
+1255750,2025-04-26T16:00:00+00:00,FT,Group C - 27,Chambly Thelle FC,1291,Wasquehal,3140,3,0,True
+1255753,2025-04-26T16:00:00+00:00,FT,Group C - 27,Epinal,1309,Creteil,1307,1,1,True
+1255755,2025-04-26T16:00:00+00:00,FT,Group C - 27,Bobigny,3027,Balagne,9931,2,1,True
+1255754,2025-04-26T16:00:00+00:00,FT,Group C - 27,Haguenau,3058,Thionville Lusitanos,22039,4,1,True
+1255756,2025-04-26T16:00:00+00:00,FT,Group C - 27,Feignies-Aulnoye,3176,Beauvais,3153,0,1,True
+1255757,2025-04-26T16:00:00+00:00,FT,Group C - 27,Fleury 91,3179,Biesheim,3025,5,2,True
+1255751,2025-04-26T16:00:00+00:00,FT,Group C - 27,Furiani-Agliani,3181,Chantilly,3162,2,0,True
+1255765,2025-05-03T15:00:00+00:00,FT,Group C - 28,Biesheim,3025,Wasquehal,3140,1,2,True
+1255762,2025-05-03T16:00:00+00:00,FT,Group C - 28,Creteil,1307,Aubervilliers,3148,1,4,True
+1255759,2025-05-03T16:00:00+00:00,FT,Group C - 28,Beauvais,3153,Bobigny,3027,3,2,True
+1255764,2025-05-03T16:00:00+00:00,FT,Group C - 28,Chantilly,3162,Chambly Thelle FC,1291,1,3,True
+1255758,2025-05-03T16:00:00+00:00,FT,Group C - 28,Fleury 91,3179,Feignies-Aulnoye,3176,1,2,True
+1255761,2025-05-03T16:00:00+00:00,FT,Group C - 28,Thionville Lusitanos,22039,Epinal,1309,0,1,True
+1255763,2025-05-03T16:30:00+00:00,FT,Group C - 28,Villers Houlgate CF,3135,Furiani-Agliani,3181,2,2,True
+1255760,2025-05-03T16:30:00+00:00,FT,Group C - 28,Balagne,9931,Haguenau,3058,3,0,True
+1255767,2025-05-10T16:00:00+00:00,FT,Group C - 29,Chambly Thelle FC,1291,Villers Houlgate CF,3135,6,1,True
+1255770,2025-05-10T16:00:00+00:00,FT,Group C - 29,Epinal,1309,Balagne,9931,1,1,True
+1255773,2025-05-10T16:00:00+00:00,FT,Group C - 29,Biesheim,3025,Feignies-Aulnoye,3176,1,2,True
+1255772,2025-05-10T16:00:00+00:00,FT,Group C - 29,Bobigny,3027,Fleury 91,3179,3,2,True
+1255771,2025-05-10T16:00:00+00:00,FT,Group C - 29,Haguenau,3058,Beauvais,3153,2,1,True
+1255766,2025-05-10T16:00:00+00:00,FT,Group C - 29,Wasquehal,3140,Chantilly,3162,2,2,True
+1255769,2025-05-10T16:00:00+00:00,FT,Group C - 29,Aubervilliers,3148,Thionville Lusitanos,22039,2,3,True
+1255768,2025-05-10T16:00:00+00:00,FT,Group C - 29,Furiani-Agliani,3181,Creteil,1307,0,0,True
+1255778,2025-05-16T18:30:00+00:00,FT,Group C - 30,Thionville Lusitanos,22039,Furiani-Agliani,3181,1,3,True
+1255779,2025-05-17T16:00:00+00:00,FT,Group C - 30,Creteil,1307,Chambly Thelle FC,1291,2,2,True
+1255780,2025-05-17T16:00:00+00:00,FT,Group C - 30,Villers Houlgate CF,3135,Wasquehal,3140,2,0,True
+1255776,2025-05-17T16:00:00+00:00,FT,Group C - 30,Beauvais,3153,Epinal,1309,3,2,True
+1255781,2025-05-17T16:00:00+00:00,FT,Group C - 30,Chantilly,3162,Biesheim,3025,3,3,True
+1255774,2025-05-17T16:00:00+00:00,FT,Group C - 30,Feignies-Aulnoye,3176,Bobigny,3027,3,1,True
+1255775,2025-05-17T16:00:00+00:00,FT,Group C - 30,Fleury 91,3179,Haguenau,3058,1,3,True
+1255777,2025-05-17T16:00:00+00:00,FT,Group C - 30,Balagne,9931,Aubervilliers,3148,8,2,True

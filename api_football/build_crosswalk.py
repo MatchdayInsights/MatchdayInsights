@@ -100,12 +100,25 @@ def print_options(options):
         league_str = ", ".join(leagues[:2])
         if len(leagues) > 2:
             league_str += f" (+{len(leagues)-2} more)"
-        print(f"  [{j}] {opt['name']}  {score_str}— {league_str}")
+        print(f"  [{j}] {opt['name']}  (team_id {opt['team_id']})  {score_str}— {league_str}")
 
 
 def search_names(keyword, names):
     keyword = keyword.lower()
     return [n for n in names if keyword in n.lower()]
+
+
+def find_by_team_id(query_id, api_data):
+    """Search ALL entries (not just current_options) for a team whose ID
+    matches exactly. Lets you jump straight to a team you looked up
+    separately (e.g. via a direct API /teams call), even if it never
+    showed up in the fuzzy-matched candidate list at all."""
+    query_id = str(query_id).strip()
+    for name, entries in api_data.items():
+        for entry in entries:
+            if str(entry["team_id"]) == query_id:
+                return {"name": name, "team_id": entry["team_id"], "leagues": entry["leagues"], "score": None}
+    return None
 
 
 def resolve_value(name, team_id, api_data):
@@ -186,13 +199,16 @@ def main():
 
             resolved = False
             active_filter = None
+            pending_identities = []  # for clubs linking MULTIPLE API-Football identities (e.g. rebrand after bankruptcy)
 
             while not resolved:
                 filter_note = f"  [filtered to: {active_filter}]" if active_filter else ""
+                pending_note = f"  [{len(pending_identities)} identity(ies) queued — 'f' to finish]" if pending_identities else ""
                 choice = input(
                     f"  Pick a number, type a name manually, '/keyword' to search, "
-                    f"'@country' to filter by country, 'k' to keep as unmatched, "
-                    f"or Enter to skip for now{filter_note}: "
+                    f"'@country' to filter by country, '+N' to link another identity "
+                    f"(club renamed/refounded), 'k' to keep as unmatched, "
+                    f"or Enter to skip for now{filter_note}{pending_note}: "
                 ).strip()
 
                 if not choice:
@@ -204,6 +220,52 @@ def main():
                     kept_unmatched_this_session.append(old_name)
                     resolved_this_session += 1
                     resolved = True
+
+                elif choice.lower() == "f":
+                    if not pending_identities:
+                        print("    Nothing queued yet — use '+N' to add an identity first, or pick a number normally.")
+                    else:
+                        crosswalk[old_name] = pending_identities if len(pending_identities) > 1 else pending_identities[0]
+                        resolved_this_session += 1
+                        resolved = True
+
+                elif choice.startswith("+"):
+                    sub = choice[1:].strip()
+                    if sub.isdigit() and 1 <= int(sub) <= len(current_options):
+                        picked = current_options[int(sub) - 1]
+                        pending_identities.append({"name": picked["name"], "team_id": picked["team_id"]})
+                        print(f"    Added '{picked['name']}' ({len(pending_identities)} queued). "
+                              f"Keep searching/picking for the next identity, or type 'f' to finish.")
+                    elif sub.isdigit():
+                        # Not a valid position number -- try it as a team_id directly
+                        found = find_by_team_id(sub, api_data)
+                        if found:
+                            pending_identities.append({"name": found["name"], "team_id": found["team_id"]})
+                            print(f"    Added '{found['name']}' (team_id {found['team_id']}) — "
+                                  f"({len(pending_identities)} queued). Type 'f' to finish, or keep adding.")
+                        else:
+                            print(f"    '{sub}' isn't a valid option number or a known team_id.")
+                    elif sub:
+                        exact = api_names_lower.get(sub.lower())
+                        if exact:
+                            entries = api_data.get(exact, [])
+                            if len(entries) == 1:
+                                pending_identities.append({"name": exact, "team_id": entries[0]["team_id"]})
+                                print(f"    Added '{exact}' ({len(pending_identities)} queued). Type 'f' to finish, or keep adding.")
+                            else:
+                                print(f"    '{exact}' matches {len(entries)} different real teams — pick one specifically:")
+                                sub_options = expand_to_options([exact], api_data)
+                                print_options(sub_options)
+                                sub_choice = input("    Pick a number to add, or Enter to cancel: ").strip()
+                                if sub_choice.isdigit() and 1 <= int(sub_choice) <= len(sub_options):
+                                    sp = sub_options[int(sub_choice) - 1]
+                                    pending_identities.append({"name": sp["name"], "team_id": sp["team_id"]})
+                                    print(f"    Added '{sp['name']}' ({len(pending_identities)} queued).")
+                        else:
+                            print(f"    '{sub}' doesn't exactly match any name in api_football_names.json — "
+                                  f"search first with '/{sub}' to find the right spelling, then '+N' from the results.")
+                    else:
+                        print("    Usage: '+N' (add option N to the linked identities) or '+Exact Name'.")
 
                 elif choice.startswith("@"):
                     country_kw = choice[1:].strip()
@@ -264,16 +326,41 @@ def main():
 
                 elif choice.isdigit() and 1 <= int(choice) <= len(current_options):
                     picked = current_options[int(choice) - 1]
-                    crosswalk[old_name] = resolve_value(picked["name"], picked["team_id"], api_data)
+                    if pending_identities:
+                        pending_identities.append({"name": picked["name"], "team_id": picked["team_id"]})
+                        crosswalk[old_name] = pending_identities if len(pending_identities) > 1 else pending_identities[0]
+                    else:
+                        crosswalk[old_name] = resolve_value(picked["name"], picked["team_id"], api_data)
                     resolved_this_session += 1
                     resolved = True
+
+                elif choice.isdigit():
+                    # Not a valid position number for the current list — try it
+                    # as a team_id directly (e.g. one you looked up via curl).
+                    found = find_by_team_id(choice, api_data)
+                    if found:
+                        print(f"    Found by ID: '{found['name']}' (team_id {found['team_id']}) — {', '.join(found['leagues'][:2])}")
+                        if pending_identities:
+                            pending_identities.append({"name": found["name"], "team_id": found["team_id"]})
+                            crosswalk[old_name] = pending_identities if len(pending_identities) > 1 else pending_identities[0]
+                        else:
+                            crosswalk[old_name] = resolve_value(found["name"], found["team_id"], api_data)
+                        resolved_this_session += 1
+                        resolved = True
+                    else:
+                        print(f"    '{choice}' isn't a valid option number (1-{len(current_options)}) "
+                              f"or a known team_id.")
 
                 else:
                     exact = api_names_lower.get(choice.lower())
                     if exact:
                         entries = api_data.get(exact, [])
                         if len(entries) == 1:
-                            crosswalk[old_name] = exact
+                            if pending_identities:
+                                pending_identities.append({"name": exact, "team_id": entries[0]["team_id"]})
+                                crosswalk[old_name] = pending_identities if len(pending_identities) > 1 else pending_identities[0]
+                            else:
+                                crosswalk[old_name] = exact
                             resolved_this_session += 1
                             resolved = True
                         else:
@@ -284,7 +371,11 @@ def main():
                             sub_choice = input("    Pick a number, or Enter to cancel: ").strip()
                             if sub_choice.isdigit() and 1 <= int(sub_choice) <= len(sub_options):
                                 picked = sub_options[int(sub_choice) - 1]
-                                crosswalk[old_name] = resolve_value(picked["name"], picked["team_id"], api_data)
+                                if pending_identities:
+                                    pending_identities.append({"name": picked["name"], "team_id": picked["team_id"]})
+                                    crosswalk[old_name] = pending_identities if len(pending_identities) > 1 else pending_identities[0]
+                                else:
+                                    crosswalk[old_name] = resolve_value(picked["name"], picked["team_id"], api_data)
                                 resolved_this_session += 1
                                 resolved = True
                             # else loop back, re-prompt for this same club
@@ -294,7 +385,11 @@ def main():
                             f"Use it anyway? (y/n): "
                         ).strip().lower()
                         if confirm == "y":
-                            crosswalk[old_name] = choice
+                            if pending_identities:
+                                pending_identities.append({"name": choice, "team_id": None})
+                                crosswalk[old_name] = pending_identities if len(pending_identities) > 1 else pending_identities[0]
+                            else:
+                                crosswalk[old_name] = choice
                             resolved_this_session += 1
                             resolved = True
 

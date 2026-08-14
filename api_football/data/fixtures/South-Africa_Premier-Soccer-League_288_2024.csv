@@ -1,161 +1,247 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1302380,2025-01-11T15:45:00+00:00,CANC,Chippa United,2698,Royal AM,10566,,,False
-1302384,2025-01-23T17:30:00+00:00,CANC,Royal AM,10566,Orlando Pirates,2700,,,False
-1302395,2025-02-01T13:30:00+00:00,CANC,Marumo Gallants,2682,Royal AM,10566,,,False
-1302403,2025-02-04T17:30:00+00:00,CANC,Royal AM,10566,Stellenbosch,4905,,,False
-1302413,2025-02-09T13:30:00+00:00,CANC,Golden Arrows,2690,Royal AM,10566,,,False
-1302419,2025-02-18T17:30:00+00:00,CANC,Richards Bay,10567,Royal AM,10566,,,False
-1302424,2025-02-21T17:30:00+00:00,CANC,Royal AM,10566,Kaizer Chiefs,2691,,,False
-1302438,2025-03-02T13:30:00+00:00,CANC,Sekhukhune United,15537,Royal AM,10566,,,False
-1302445,2025-03-05T17:30:00+00:00,CANC,Polokwane City,2693,Royal AM,10566,,,False
-1302450,2025-03-11T17:30:00+00:00,CANC,Royal AM,10566,Chippa United,2698,,,False
-1302457,2025-03-14T17:30:00+00:00,CANC,Royal AM,10566,Supersport United,2694,,,False
-1302465,2025-03-29T13:30:00+00:00,CANC,Orlando Pirates,2700,Royal AM,10566,,,False
-1302477,2025-04-05T18:00:00+00:00,CANC,Royal AM,10566,Magesi,19999,,,False
-1302481,2025-04-18T17:30:00+00:00,CANC,Royal AM,10566,Mamelodi Sundowns,2699,,,False
-1302489,2025-04-26T13:00:00+00:00,CANC,Cape Town City,2697,Royal AM,10566,,,False
-1302497,2025-05-02T17:30:00+00:00,CANC,Royal AM,10566,Marumo Gallants,2682,,,False
-1302508,2025-05-17T13:00:00+00:00,CANC,Royal AM,10566,Amazulu,2669,,,False
-1302519,2025-05-24T13:00:00+00:00,CANC,TS Galaxy,8074,Royal AM,10566,,,False
-1302368,2025-01-04T13:30:00+00:00,FT,Amazulu,2669,Golden Arrows,2690,0,0,True
-1302369,2025-01-04T13:30:00+00:00,FT,TS Galaxy,8074,Magesi,19999,0,0,True
-1302371,2025-01-04T18:00:00+00:00,FT,Marumo Gallants,2682,Richards Bay,10567,0,0,True
-1302372,2025-01-05T13:30:00+00:00,FT,Polokwane City,2693,Sekhukhune United,15537,1,1,True
-1302373,2025-01-05T15:45:00+00:00,FT,Cape Town City,2697,Kaizer Chiefs,2691,1,0,True
-1302375,2025-01-08T17:30:00+00:00,FT,Amazulu,2669,Sekhukhune United,15537,0,2,True
-1302293,2025-01-08T17:30:00+00:00,FT,Kaizer Chiefs,2691,Stellenbosch,4905,2,1,True
-1302288,2025-01-08T17:30:00+00:00,FT,Cape Town City,2697,Orlando Pirates,2700,1,0,True
-1302379,2025-01-11T13:30:00+00:00,FT,Marumo Gallants,2682,Cape Town City,2697,1,0,True
-1302377,2025-01-11T13:30:00+00:00,FT,Magesi,19999,Amazulu,2669,0,1,True
-1302382,2025-01-12T13:30:00+00:00,FT,Kaizer Chiefs,2691,Golden Arrows,2690,0,1,True
-1302415,2025-01-12T15:45:00+00:00,FT,Supersport United,2694,Sekhukhune United,15537,0,3,True
-1302385,2025-01-17T17:30:00+00:00,FT,Supersport United,2694,Polokwane City,2693,0,1,True
-1302386,2025-01-17T17:30:00+00:00,FT,Cape Town City,2697,Richards Bay,10567,2,1,True
-1302387,2025-01-18T13:30:00+00:00,FT,Golden Arrows,2690,TS Galaxy,8074,1,1,True
-1302389,2025-01-18T18:00:00+00:00,FT,Chippa United,2698,Marumo Gallants,2682,2,2,True
-1302390,2025-01-19T13:30:00+00:00,FT,Kaizer Chiefs,2691,Sekhukhune United,15537,1,0,True
-1302388,2025-01-22T17:30:00+00:00,FT,Magesi,19999,Mamelodi Sundowns,2699,1,2,True
-1302391,2025-01-23T17:30:00+00:00,FT,Amazulu,2669,Stellenbosch,4905,0,5,True
-1302392,2025-01-31T17:30:00+00:00,FT,Richards Bay,10567,Magesi,19999,0,0,True
-1302394,2025-02-01T13:30:00+00:00,FT,Orlando Pirates,2700,Kaizer Chiefs,2691,1,0,True
-1302393,2025-02-01T13:30:00+00:00,FT,Stellenbosch,4905,Sekhukhune United,15537,1,1,True
-1302396,2025-02-01T15:30:00+00:00,FT,Polokwane City,2693,Chippa United,2698,1,0,True
-1302397,2025-02-01T18:00:00+00:00,FT,Amazulu,2669,Supersport United,2694,2,1,True
-1302398,2025-02-02T13:30:00+00:00,FT,TS Galaxy,8074,Cape Town City,2697,2,0,True
-1302399,2025-02-02T15:45:00+00:00,FT,Mamelodi Sundowns,2699,Golden Arrows,2690,4,0,True
-1302400,2025-02-04T17:30:00+00:00,FT,Kaizer Chiefs,2691,Amazulu,2669,2,2,True
-1302402,2025-02-04T17:30:00+00:00,FT,Richards Bay,10567,Marumo Gallants,2682,2,1,True
-1302406,2025-02-05T17:30:00+00:00,FT,Supersport United,2694,Mamelodi Sundowns,2699,0,3,True
-1302404,2025-02-05T17:30:00+00:00,FT,Cape Town City,2697,Golden Arrows,2690,1,1,True
-1302407,2025-02-05T17:30:00+00:00,FT,TS Galaxy,8074,Polokwane City,2693,0,0,True
-1302405,2025-02-05T17:30:00+00:00,FT,Sekhukhune United,15537,Orlando Pirates,2700,1,2,True
-1302401,2025-02-05T17:30:00+00:00,FT,Magesi,19999,Chippa United,2698,1,4,True
-1302408,2025-02-07T17:30:00+00:00,FT,Amazulu,2669,Marumo Gallants,2682,2,0,True
-1302409,2025-02-07T17:30:00+00:00,FT,Stellenbosch,4905,Kaizer Chiefs,2691,0,1,True
-1302378,2025-02-08T13:30:00+00:00,FT,Mamelodi Sundowns,2699,Orlando Pirates,2700,4,1,True
-1302410,2025-02-08T13:30:00+00:00,FT,Magesi,19999,Cape Town City,2697,2,0,True
-1302308,2025-02-08T18:00:00+00:00,FT,TS Galaxy,8074,Chippa United,2698,1,0,True
-1302376,2025-02-08T18:00:00+00:00,FT,Richards Bay,10567,Polokwane City,2693,2,0,True
-1302383,2025-02-09T13:30:00+00:00,FT,Sekhukhune United,15537,Supersport United,2694,1,1,True
-1302374,2025-02-11T17:30:00+00:00,FT,TS Galaxy,8074,Mamelodi Sundowns,2699,1,0,True
-1302417,2025-02-18T17:30:00+00:00,FT,Kaizer Chiefs,2691,Supersport United,2694,1,4,True
-1302418,2025-02-18T17:30:00+00:00,FT,Polokwane City,2693,Magesi,19999,0,1,True
-1302416,2025-02-18T17:30:00+00:00,FT,Cape Town City,2697,Chippa United,2698,0,2,True
-1302420,2025-02-18T17:30:00+00:00,FT,TS Galaxy,8074,Stellenbosch,4905,2,3,True
-1302423,2025-02-19T17:30:00+00:00,FT,Marumo Gallants,2682,Mamelodi Sundowns,2699,1,3,True
-1302422,2025-02-19T17:30:00+00:00,FT,Sekhukhune United,15537,Amazulu,2669,4,2,True
-1302425,2025-02-21T17:30:00+00:00,FT,Stellenbosch,4905,Richards Bay,10567,1,1,True
-1302426,2025-02-22T13:30:00+00:00,FT,Chippa United,2698,Sekhukhune United,15537,0,1,True
-1302427,2025-02-22T13:30:00+00:00,FT,Orlando Pirates,2700,Cape Town City,2697,2,1,True
-1302428,2025-02-22T15:45:00+00:00,FT,Mamelodi Sundowns,2699,TS Galaxy,8074,4,1,True
-1302429,2025-02-22T18:00:00+00:00,FT,Amazulu,2669,Magesi,19999,3,0,True
-1302430,2025-02-23T13:30:00+00:00,FT,Marumo Gallants,2682,Polokwane City,2693,0,0,True
-1302467,2025-02-25T17:30:00+00:00,FT,Stellenbosch,4905,Magesi,19999,2,1,True
-1302466,2025-02-26T17:30:00+00:00,FT,Sekhukhune United,15537,Mamelodi Sundowns,2699,2,4,True
-1302433,2025-02-28T17:30:00+00:00,FT,Stellenbosch,4905,Polokwane City,2693,1,1,True
-1302435,2025-03-01T13:30:00+00:00,FT,Mamelodi Sundowns,2699,Kaizer Chiefs,2691,1,0,True
-1302434,2025-03-01T13:30:00+00:00,FT,Magesi,19999,Supersport United,2694,1,0,True
-1302436,2025-03-01T15:30:00+00:00,FT,TS Galaxy,8074,Golden Arrows,2690,2,0,True
-1302336,2025-03-01T15:45:00+00:00,FT,Marumo Gallants,2682,Orlando Pirates,2700,2,0,True
-1302437,2025-03-01T18:00:00+00:00,FT,Richards Bay,10567,Chippa United,2698,0,0,True
-1302439,2025-03-02T13:30:00+00:00,FT,Amazulu,2669,Cape Town City,2697,2,0,True
-1302441,2025-03-04T17:30:00+00:00,FT,Marumo Gallants,2682,Stellenbosch,4905,0,1,True
-1302440,2025-03-04T17:30:00+00:00,FT,Kaizer Chiefs,2691,Magesi,19999,1,0,True
-1302442,2025-03-05T17:30:00+00:00,FT,Golden Arrows,2690,Mamelodi Sundowns,2699,1,1,True
-1302447,2025-03-05T17:30:00+00:00,FT,Supersport United,2694,Amazulu,2669,0,0,True
-1302443,2025-03-05T17:30:00+00:00,FT,Cape Town City,2697,TS Galaxy,8074,1,1,True
-1302444,2025-03-05T17:30:00+00:00,FT,Chippa United,2698,Orlando Pirates,2700,0,1,True
-1302446,2025-03-05T17:30:00+00:00,FT,Richards Bay,10567,Sekhukhune United,15537,2,1,True
-1302448,2025-03-11T17:30:00+00:00,FT,Mamelodi Sundowns,2699,Amazulu,2669,2,0,True
-1302451,2025-03-11T17:30:00+00:00,FT,Stellenbosch,4905,Orlando Pirates,2700,0,0,True
-1302452,2025-03-11T17:30:00+00:00,FT,TS Galaxy,8074,Supersport United,2694,3,1,True
-1302449,2025-03-11T17:30:00+00:00,FT,Magesi,19999,Richards Bay,10567,1,0,True
-1302455,2025-03-12T17:30:00+00:00,FT,Marumo Gallants,2682,Sekhukhune United,15537,1,2,True
-1302453,2025-03-12T17:30:00+00:00,FT,Kaizer Chiefs,2691,Cape Town City,2697,0,0,True
-1302454,2025-03-12T17:30:00+00:00,FT,Polokwane City,2693,Golden Arrows,2690,0,1,True
-1302456,2025-03-14T17:30:00+00:00,FT,Amazulu,2669,TS Galaxy,8074,1,2,True
-1302458,2025-03-15T13:30:00+00:00,FT,Cape Town City,2697,Marumo Gallants,2682,0,1,True
-1302460,2025-03-15T13:30:00+00:00,FT,Magesi,19999,Golden Arrows,2690,1,0,True
-1302461,2025-03-15T18:00:00+00:00,FT,Chippa United,2698,Polokwane City,2693,2,0,True
-1302459,2025-03-16T13:30:00+00:00,FT,Orlando Pirates,2700,Mamelodi Sundowns,2699,2,1,True
-1302462,2025-03-16T13:30:00+00:00,FT,Richards Bay,10567,Kaizer Chiefs,2691,2,0,True
-1302463,2025-03-16T15:45:00+00:00,FT,Sekhukhune United,15537,Stellenbosch,4905,1,2,True
-1302469,2025-03-29T13:30:00+00:00,FT,Golden Arrows,2690,Kaizer Chiefs,2691,2,1,True
-1302464,2025-03-29T13:30:00+00:00,FT,Chippa United,2698,Amazulu,2669,2,1,True
-1302341,2025-03-29T15:45:00+00:00,FT,Magesi,19999,Stellenbosch,4905,1,0,True
-1302468,2025-03-30T13:30:00+00:00,FT,Polokwane City,2693,Richards Bay,10567,3,1,True
-1302471,2025-03-30T15:30:00+00:00,FT,TS Galaxy,8074,Marumo Gallants,2682,1,2,True
-1302470,2025-03-30T15:45:00+00:00,FT,Supersport United,2694,Cape Town City,2697,0,0,True
-1302472,2025-04-04T17:30:00+00:00,FT,Amazulu,2669,Richards Bay,10567,1,0,True
-1302475,2025-04-05T13:00:00+00:00,FT,Marumo Gallants,2682,Supersport United,2694,1,1,True
-1302474,2025-04-05T13:00:00+00:00,FT,Golden Arrows,2690,Chippa United,2698,0,0,True
-1302478,2025-04-05T13:00:00+00:00,FT,Polokwane City,2693,Orlando Pirates,2700,0,1,True
-1302473,2025-04-05T17:00:00+00:00,FT,Kaizer Chiefs,2691,TS Galaxy,8074,1,1,True
-1302479,2025-04-06T15:30:00+00:00,FT,Cape Town City,2697,Sekhukhune United,15537,1,2,True
-1302485,2025-04-15T17:30:00+00:00,FT,Stellenbosch,4905,Amazulu,2669,1,0,True
-1302480,2025-04-18T17:30:00+00:00,FT,Richards Bay,10567,Cape Town City,2697,1,0,True
-1302483,2025-04-19T13:00:00+00:00,FT,Marumo Gallants,2682,Golden Arrows,2690,1,1,True
-1302482,2025-04-19T15:30:00+00:00,FT,Chippa United,2698,Kaizer Chiefs,2691,0,0,True
-1302484,2025-04-19T15:30:00+00:00,FT,Sekhukhune United,15537,Polokwane City,2693,2,0,True
-1302486,2025-04-20T13:00:00+00:00,FT,Magesi,19999,TS Galaxy,8074,2,1,True
-1302494,2025-04-26T13:00:00+00:00,FT,Golden Arrows,2690,Amazulu,2669,0,1,True
-1302490,2025-04-26T13:00:00+00:00,FT,Kaizer Chiefs,2691,Marumo Gallants,2682,1,2,True
-1302491,2025-04-26T13:00:00+00:00,FT,Polokwane City,2693,Supersport United,2694,1,1,True
-1302495,2025-04-27T13:00:00+00:00,FT,TS Galaxy,8074,Sekhukhune United,15537,1,1,True
-1302492,2025-04-30T17:30:00+00:00,FT,Mamelodi Sundowns,2699,Richards Bay,10567,3,0,True
-1302351,2025-04-30T17:30:00+00:00,FT,Orlando Pirates,2700,Sekhukhune United,15537,0,1,True
-1302367,2025-04-30T17:30:00+00:00,FT,Stellenbosch,4905,Chippa United,2698,1,0,True
-1302496,2025-05-02T17:30:00+00:00,FT,Amazulu,2669,Polokwane City,2693,1,1,True
-1302501,2025-05-03T13:00:00+00:00,FT,Golden Arrows,2690,Stellenbosch,4905,0,3,True
-1302498,2025-05-03T13:30:00+00:00,FT,Kaizer Chiefs,2691,Orlando Pirates,2700,1,2,True
-1302500,2025-05-03T15:30:00+00:00,FT,Magesi,19999,Sekhukhune United,15537,1,1,True
-1302499,2025-05-03T15:45:00+00:00,FT,Supersport United,2694,Chippa United,2698,2,0,True
-1302503,2025-05-03T18:00:00+00:00,FT,Cape Town City,2697,Mamelodi Sundowns,2699,0,2,True
-1302502,2025-05-04T13:00:00+00:00,FT,TS Galaxy,8074,Richards Bay,10567,0,1,True
-1302421,2025-05-06T17:30:00+00:00,FT,Golden Arrows,2690,Orlando Pirates,2700,1,2,True
-1302348,2025-05-07T17:30:00+00:00,FT,Mamelodi Sundowns,2699,Chippa United,2698,3,0,True
-1302476,2025-05-11T13:00:00+00:00,FT,Mamelodi Sundowns,2699,Stellenbosch,4905,3,0,True
-1302342,2025-05-13T17:30:00+00:00,FT,Orlando Pirates,2700,Golden Arrows,2690,3,0,True
-1302514,2025-05-14T17:30:00+00:00,FT,Chippa United,2698,Mamelodi Sundowns,2699,0,3,True
-1302511,2025-05-17T13:00:00+00:00,FT,Marumo Gallants,2682,Chippa United,2698,1,1,True
-1302506,2025-05-17T13:00:00+00:00,FT,Polokwane City,2693,Cape Town City,2697,0,2,True
-1302505,2025-05-17T13:00:00+00:00,FT,Orlando Pirates,2700,TS Galaxy,8074,1,1,True
-1302510,2025-05-17T13:00:00+00:00,FT,Stellenbosch,4905,Supersport United,2694,2,1,True
-1302507,2025-05-17T13:00:00+00:00,FT,Richards Bay,10567,Golden Arrows,2690,0,0,True
-1302509,2025-05-17T13:00:00+00:00,FT,Sekhukhune United,15537,Kaizer Chiefs,2691,1,1,True
-1302504,2025-05-18T15:30:00+00:00,FT,Mamelodi Sundowns,2699,Magesi,19999,2,0,True
-1302487,2025-05-20T17:30:00+00:00,FT,Supersport United,2694,Orlando Pirates,2700,0,1,True
-1302512,2025-05-24T13:00:00+00:00,FT,Amazulu,2669,Orlando Pirates,2700,1,1,True
-1302515,2025-05-24T13:00:00+00:00,FT,Golden Arrows,2690,Sekhukhune United,15537,3,2,True
-1302516,2025-05-24T13:00:00+00:00,FT,Kaizer Chiefs,2691,Polokwane City,2693,0,0,True
-1302518,2025-05-24T13:00:00+00:00,FT,Supersport United,2694,Richards Bay,10567,0,2,True
-1302513,2025-05-24T13:00:00+00:00,FT,Cape Town City,2697,Stellenbosch,4905,0,0,True
-1302517,2025-05-24T13:00:00+00:00,FT,Magesi,19999,Marumo Gallants,2682,1,1,True
-1302488,2025-05-28T17:30:00+00:00,FT,Orlando Pirates,2700,Magesi,19999,1,1,True
-1302431,2025-05-29T10:00:00+00:00,FT,Supersport United,2694,Golden Arrows,2690,1,1,True
-1378790,2025-06-11T13:00:00+00:00,FT,Orbit College,10582,Casric Stars,19997,0,0,True
-1378791,2025-06-14T13:00:00+00:00,FT,Cape Town City,2697,Orbit College,10582,0,0,True
-1378792,2025-06-18T13:00:00+00:00,FT,Casric Stars,19997,Cape Town City,2697,1,1,True
-1378793,2025-06-21T13:00:00+00:00,FT,Casric Stars,19997,Orbit College,10582,0,1,True
-1380383,2025-06-25T13:00:00+00:00,FT,Orbit College,10582,Cape Town City,2697,1,0,True
-1378794,2025-06-30T13:00:00+00:00,FT,Cape Town City,2697,Casric Stars,19997,1,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1302343,2024-12-10T17:30:00+00:00,CANC,Regular Season - 7,Stellenbosch,4905,Royal AM,10566,,,False
+1302380,2025-01-11T15:45:00+00:00,CANC,Regular Season - 10,Chippa United,2698,Royal AM,10566,,,False
+1302384,2025-01-23T17:30:00+00:00,CANC,Regular Season - 11,Royal AM,10566,Orlando Pirates,2700,,,False
+1302395,2025-02-01T13:30:00+00:00,CANC,Regular Season - 11,Marumo Gallants,2682,Royal AM,10566,,,False
+1302403,2025-02-04T17:30:00+00:00,CANC,Regular Season - 12,Royal AM,10566,Stellenbosch,4905,,,False
+1302413,2025-02-09T13:30:00+00:00,CANC,Regular Season - 13,Golden Arrows,2690,Royal AM,10566,,,False
+1302419,2025-02-18T17:30:00+00:00,CANC,Regular Season - 14,Richards Bay,10567,Royal AM,10566,,,False
+1302424,2025-02-21T17:30:00+00:00,CANC,Regular Season - 15,Royal AM,10566,Kaizer Chiefs,2691,,,False
+1302438,2025-03-02T13:30:00+00:00,CANC,Regular Season - 16,Sekhukhune United,15537,Royal AM,10566,,,False
+1302445,2025-03-05T17:30:00+00:00,CANC,Regular Season - 17,Polokwane City,2693,Royal AM,10566,,,False
+1302450,2025-03-11T17:30:00+00:00,CANC,Regular Season - 17,Royal AM,10566,Chippa United,2698,,,False
+1302457,2025-03-14T17:30:00+00:00,CANC,Regular Season - 18,Royal AM,10566,Supersport United,2694,,,False
+1302465,2025-03-29T13:30:00+00:00,CANC,Regular Season - 15,Orlando Pirates,2700,Royal AM,10566,,,False
+1302477,2025-04-05T18:00:00+00:00,CANC,Regular Season - 20,Royal AM,10566,Magesi,19999,,,False
+1302481,2025-04-18T17:30:00+00:00,CANC,Regular Season - 20,Royal AM,10566,Mamelodi Sundowns,2699,,,False
+1302489,2025-04-26T13:00:00+00:00,CANC,Regular Season - 21,Cape Town City,2697,Royal AM,10566,,,False
+1302497,2025-05-02T17:30:00+00:00,CANC,Regular Season - 21,Royal AM,10566,Marumo Gallants,2682,,,False
+1302508,2025-05-17T13:00:00+00:00,CANC,Regular Season - 23,Royal AM,10566,Amazulu,2669,,,False
+1302519,2025-05-24T13:00:00+00:00,CANC,Regular Season - 24,TS Galaxy,8074,Royal AM,10566,,,False
+1302280,2024-09-14T13:00:00+00:00,FT,Regular Season - 1,Royal AM,10566,Cape Town City,2697,1,1,True
+1302281,2024-09-14T15:30:00+00:00,FT,Regular Season - 1,Marumo Gallants,2682,Kaizer Chiefs,2691,1,2,True
+1302282,2024-09-14T18:00:00+00:00,FT,Regular Season - 1,Polokwane City,2693,Amazulu,2669,2,1,True
+1302283,2024-09-15T13:00:00+00:00,FT,Regular Season - 1,Richards Bay,10567,TS Galaxy,8074,1,0,True
+1302284,2024-09-17T17:30:00+00:00,FT,Regular Season - 1,Mamelodi Sundowns,2699,Supersport United,2694,2,0,True
+1302285,2024-09-18T17:30:00+00:00,FT,Regular Season - 1,Orlando Pirates,2700,Chippa United,2698,2,1,True
+1302287,2024-09-18T17:30:00+00:00,FT,Regular Season - 1,Stellenbosch,4905,Golden Arrows,2690,0,2,True
+1302286,2024-09-18T17:30:00+00:00,FT,Regular Season - 1,Sekhukhune United,15537,Magesi,19999,1,0,True
+1302289,2024-09-21T13:00:00+00:00,FT,Regular Season - 1,Golden Arrows,2690,Marumo Gallants,2682,2,0,True
+1302290,2024-09-21T13:00:00+00:00,FT,Regular Season - 1,Magesi,19999,Polokwane City,2693,0,2,True
+1302291,2024-09-21T15:30:00+00:00,FT,Regular Season - 2,Supersport United,2694,Royal AM,10566,0,0,True
+1302292,2024-09-21T18:00:00+00:00,FT,Regular Season - 2,Chippa United,2698,Richards Bay,10567,1,0,True
+1302294,2024-09-24T13:00:00+00:00,FT,Regular Season - 2,Orlando Pirates,2700,Polokwane City,2693,3,0,True
+1302295,2024-09-24T15:30:00+00:00,FT,Regular Season - 2,Mamelodi Sundowns,2699,Marumo Gallants,2682,4,1,True
+1302296,2024-09-24T17:30:00+00:00,FT,Regular Season - 2,Royal AM,10566,Richards Bay,10567,0,0,True
+1302299,2024-09-25T17:30:00+00:00,FT,Regular Season - 2,Amazulu,2669,Kaizer Chiefs,2691,1,3,True
+1302298,2024-09-25T17:30:00+00:00,FT,Regular Season - 2,Supersport United,2694,TS Galaxy,8074,1,0,True
+1302301,2024-09-25T17:30:00+00:00,FT,Regular Season - 2,Stellenbosch,4905,Cape Town City,2697,3,0,True
+1302300,2024-09-25T17:30:00+00:00,FT,Regular Season - 2,Sekhukhune United,15537,Chippa United,2698,1,1,True
+1302297,2024-09-26T17:30:00+00:00,FT,Regular Season - 2,Golden Arrows,2690,Magesi,19999,0,1,True
+1302302,2024-09-28T13:00:00+00:00,FT,Regular Season - 3,Kaizer Chiefs,2691,Mamelodi Sundowns,2699,1,2,True
+1302303,2024-09-28T13:00:00+00:00,FT,Regular Season - 3,Sekhukhune United,15537,Golden Arrows,2690,2,0,True
+1302304,2024-09-28T15:30:00+00:00,FT,Regular Season - 3,Magesi,19999,Royal AM,10566,0,0,True
+1302306,2024-09-28T18:00:00+00:00,FT,Regular Season - 3,Marumo Gallants,2682,Amazulu,2669,1,0,True
+1302305,2024-09-28T18:00:00+00:00,FT,Regular Season - 3,Cape Town City,2697,Supersport United,2694,1,0,True
+1302412,2024-09-29T13:00:00+00:00,FT,Regular Season - 3,Chippa United,2698,TS Galaxy,8074,2,1,True
+1302307,2024-09-29T13:00:00+00:00,FT,Regular Season - 3,Richards Bay,10567,Orlando Pirates,2700,0,1,True
+1302309,2024-09-29T15:30:00+00:00,FT,Regular Season - 3,Polokwane City,2693,Stellenbosch,4905,1,1,True
+1302366,2024-10-22T17:30:00+00:00,FT,Regular Season - 3,Orlando Pirates,2700,Supersport United,2694,2,0,True
+1302493,2024-10-23T17:30:00+00:00,FT,Regular Season - 3,Chippa United,2698,Stellenbosch,4905,0,2,True
+1302370,2024-10-23T17:30:00+00:00,FT,Regular Season - 4,Mamelodi Sundowns,2699,Royal AM,10566,2,1,True
+1302310,2024-10-25T17:30:00+00:00,FT,Regular Season - 4,Orlando Pirates,2700,Amazulu,2669,2,1,True
+1302312,2024-10-26T13:00:00+00:00,FT,Regular Season - 4,Marumo Gallants,2682,TS Galaxy,8074,1,1,True
+1302315,2024-10-26T13:00:00+00:00,FT,Regular Season - 4,Royal AM,10566,Sekhukhune United,15537,2,0,True
+1302311,2024-10-26T13:00:00+00:00,FT,Regular Season - 4,Richards Bay,10567,Stellenbosch,4905,0,0,True
+1302313,2024-10-26T15:30:00+00:00,FT,Regular Season - 4,Supersport United,2694,Kaizer Chiefs,2691,1,0,True
+1302314,2024-10-26T18:00:00+00:00,FT,Regular Season - 4,Chippa United,2698,Golden Arrows,2690,2,0,True
+1302316,2024-10-27T13:00:00+00:00,FT,Regular Season - 4,Polokwane City,2693,Mamelodi Sundowns,2699,1,0,True
+1302317,2024-10-27T13:00:00+00:00,FT,Regular Season - 4,Cape Town City,2697,Magesi,19999,0,0,True
+1302318,2024-10-29T17:30:00+00:00,FT,Regular Season - 5,Amazulu,2669,Chippa United,2698,2,0,True
+1302320,2024-10-29T17:30:00+00:00,FT,Regular Season - 4,TS Galaxy,8074,Orlando Pirates,2700,0,2,True
+1302319,2024-10-29T17:30:00+00:00,FT,Regular Season - 5,Sekhukhune United,15537,Richards Bay,10567,2,0,True
+1302321,2024-10-30T17:30:00+00:00,FT,Regular Season - 5,Golden Arrows,2690,Supersport United,2694,0,0,True
+1302323,2024-10-30T17:30:00+00:00,FT,Regular Season - 5,Mamelodi Sundowns,2699,Cape Town City,2697,3,0,True
+1302324,2024-10-30T17:30:00+00:00,FT,Regular Season - 5,Royal AM,10566,Polokwane City,2693,0,1,True
+1302322,2024-10-30T17:30:00+00:00,FT,Regular Season - 5,Magesi,19999,Kaizer Chiefs,2691,2,2,True
+1302325,2024-10-31T17:30:00+00:00,FT,Regular Season - 5,Stellenbosch,4905,Marumo Gallants,2682,1,0,True
+1302414,2024-11-05T17:30:00+00:00,FT,Regular Season - 5,Orlando Pirates,2700,Richards Bay,10567,1,0,True
+1302411,2024-11-06T17:30:00+00:00,FT,Regular Season - 5,Mamelodi Sundowns,2699,Polokwane City,2693,2,0,True
+1302381,2024-11-06T17:30:00+00:00,FT,Regular Season - 5,Stellenbosch,4905,TS Galaxy,8074,1,1,True
+1302334,2024-11-26T17:30:00+00:00,FT,Regular Season - 6,Chippa United,2698,Supersport United,2694,0,0,True
+1302337,2024-11-26T17:30:00+00:00,FT,Regular Season - 6,Royal AM,10566,Golden Arrows,2690,2,3,True
+1302335,2024-11-26T17:30:00+00:00,FT,Regular Season - 6,Sekhukhune United,15537,TS Galaxy,8074,1,3,True
+1302340,2024-11-27T17:30:00+00:00,FT,Regular Season - 6,Kaizer Chiefs,2691,Richards Bay,10567,2,1,True
+1302339,2024-11-27T17:30:00+00:00,FT,Regular Season - 6,Cape Town City,2697,Polokwane City,2693,1,0,True
+1302333,2024-11-29T17:30:00+00:00,FT,Regular Season - 6,Supersport United,2694,Marumo Gallants,2682,0,1,True
+1302326,2024-11-30T13:30:00+00:00,FT,Regular Season - 6,Richards Bay,10567,Amazulu,2669,1,3,True
+1302328,2024-11-30T15:45:00+00:00,FT,Regular Season - 6,Kaizer Chiefs,2691,Royal AM,10566,2,2,True
+1302331,2024-11-30T18:00:00+00:00,FT,Regular Season - 6,Chippa United,2698,Magesi,19999,2,0,True
+1302329,2024-11-30T18:00:00+00:00,FT,Regular Season - 6,Mamelodi Sundowns,2699,Sekhukhune United,15537,3,0,True
+1302327,2024-12-01T13:30:00+00:00,FT,Regular Season - 7,Golden Arrows,2690,Cape Town City,2697,3,2,True
+1302332,2024-12-01T13:30:00+00:00,FT,Regular Season - 7,Orlando Pirates,2700,Stellenbosch,4905,0,1,True
+1302330,2024-12-01T15:45:00+00:00,FT,Regular Season - 7,Polokwane City,2693,TS Galaxy,8074,1,1,True
+1302344,2024-12-06T17:30:00+00:00,FT,Regular Season - 7,Richards Bay,10567,Supersport United,2694,0,1,True
+1302347,2024-12-07T13:30:00+00:00,FT,Regular Season - 7,TS Galaxy,8074,Amazulu,2669,1,0,True
+1302345,2024-12-07T15:45:00+00:00,FT,Regular Season - 7,Marumo Gallants,2682,Magesi,19999,3,1,True
+1302346,2024-12-07T18:00:00+00:00,FT,Regular Season - 7,Sekhukhune United,15537,Cape Town City,2697,1,0,True
+1302349,2024-12-08T13:30:00+00:00,FT,Regular Season - 7,Polokwane City,2693,Kaizer Chiefs,2691,2,0,True
+1302350,2024-12-13T17:30:00+00:00,FT,Regular Season - 7,Amazulu,2669,Royal AM,10566,2,1,True
+1302352,2024-12-14T13:30:00+00:00,FT,Regular Season - 8,Golden Arrows,2690,Richards Bay,10567,0,1,True
+1302353,2024-12-14T15:45:00+00:00,FT,Regular Season - 8,Chippa United,2698,Cape Town City,2697,0,1,True
+1302354,2024-12-14T18:00:00+00:00,FT,Regular Season - 8,Supersport United,2694,Magesi,19999,1,0,True
+1302356,2024-12-15T13:30:00+00:00,FT,Regular Season - 8,Polokwane City,2693,Marumo Gallants,2682,1,0,True
+1302357,2024-12-16T13:30:00+00:00,FT,Regular Season - 8,TS Galaxy,8074,Kaizer Chiefs,2691,1,1,True
+1302355,2024-12-18T17:30:00+00:00,FT,Regular Season - 8,Stellenbosch,4905,Mamelodi Sundowns,2699,0,1,True
+1302338,2024-12-24T13:00:00+00:00,FT,Regular Season - 8,Amazulu,2669,Mamelodi Sundowns,2699,0,1,True
+1302432,2024-12-24T13:00:00+00:00,FT,Regular Season - 8,Orlando Pirates,2700,Marumo Gallants,2682,8,1,True
+1302359,2024-12-28T13:30:00+00:00,FT,Regular Season - 8,Golden Arrows,2690,Polokwane City,2693,0,0,True
+1302358,2024-12-28T13:30:00+00:00,FT,Regular Season - 8,Richards Bay,10567,Mamelodi Sundowns,2699,0,2,True
+1302360,2024-12-28T15:45:00+00:00,FT,Regular Season - 9,Sekhukhune United,15537,Marumo Gallants,2682,1,0,True
+1302361,2024-12-28T18:00:00+00:00,FT,Regular Season - 9,Supersport United,2694,Stellenbosch,4905,1,1,True
+1302364,2024-12-29T13:30:00+00:00,FT,Regular Season - 9,Cape Town City,2697,Amazulu,2669,0,1,True
+1302362,2024-12-29T13:30:00+00:00,FT,Regular Season - 9,Royal AM,10566,TS Galaxy,8074,1,3,True
+1302363,2024-12-29T13:30:00+00:00,FT,Regular Season - 9,Magesi,19999,Orlando Pirates,2700,0,1,True
+1302365,2024-12-29T15:45:00+00:00,FT,Regular Season - 9,Kaizer Chiefs,2691,Chippa United,2698,1,0,True
+1302368,2025-01-04T13:30:00+00:00,FT,Regular Season - 9,Amazulu,2669,Golden Arrows,2690,0,0,True
+1302369,2025-01-04T13:30:00+00:00,FT,Regular Season - 9,TS Galaxy,8074,Magesi,19999,0,0,True
+1302371,2025-01-04T18:00:00+00:00,FT,Regular Season - 9,Marumo Gallants,2682,Richards Bay,10567,0,0,True
+1302372,2025-01-05T13:30:00+00:00,FT,Regular Season - 9,Polokwane City,2693,Sekhukhune United,15537,1,1,True
+1302373,2025-01-05T15:45:00+00:00,FT,Regular Season - 10,Cape Town City,2697,Kaizer Chiefs,2691,1,0,True
+1302375,2025-01-08T17:30:00+00:00,FT,Regular Season - 10,Amazulu,2669,Sekhukhune United,15537,0,2,True
+1302293,2025-01-08T17:30:00+00:00,FT,Regular Season - 10,Kaizer Chiefs,2691,Stellenbosch,4905,2,1,True
+1302288,2025-01-08T17:30:00+00:00,FT,Regular Season - 10,Cape Town City,2697,Orlando Pirates,2700,1,0,True
+1302379,2025-01-11T13:30:00+00:00,FT,Regular Season - 10,Marumo Gallants,2682,Cape Town City,2697,1,0,True
+1302377,2025-01-11T13:30:00+00:00,FT,Regular Season - 10,Magesi,19999,Amazulu,2669,0,1,True
+1302382,2025-01-12T13:30:00+00:00,FT,Regular Season - 10,Kaizer Chiefs,2691,Golden Arrows,2690,0,1,True
+1302415,2025-01-12T15:45:00+00:00,FT,Regular Season - 10,Supersport United,2694,Sekhukhune United,15537,0,3,True
+1302385,2025-01-17T17:30:00+00:00,FT,Regular Season - 11,Supersport United,2694,Polokwane City,2693,0,1,True
+1302386,2025-01-17T17:30:00+00:00,FT,Regular Season - 10,Cape Town City,2697,Richards Bay,10567,2,1,True
+1302387,2025-01-18T13:30:00+00:00,FT,Regular Season - 11,Golden Arrows,2690,TS Galaxy,8074,1,1,True
+1302389,2025-01-18T18:00:00+00:00,FT,Regular Season - 11,Chippa United,2698,Marumo Gallants,2682,2,2,True
+1302390,2025-01-19T13:30:00+00:00,FT,Regular Season - 11,Kaizer Chiefs,2691,Sekhukhune United,15537,1,0,True
+1302388,2025-01-22T17:30:00+00:00,FT,Regular Season - 11,Magesi,19999,Mamelodi Sundowns,2699,1,2,True
+1302391,2025-01-23T17:30:00+00:00,FT,Regular Season - 11,Amazulu,2669,Stellenbosch,4905,0,5,True
+1302392,2025-01-31T17:30:00+00:00,FT,Regular Season - 11,Richards Bay,10567,Magesi,19999,0,0,True
+1302394,2025-02-01T13:30:00+00:00,FT,Regular Season - 11,Orlando Pirates,2700,Kaizer Chiefs,2691,1,0,True
+1302393,2025-02-01T13:30:00+00:00,FT,Regular Season - 12,Stellenbosch,4905,Sekhukhune United,15537,1,1,True
+1302396,2025-02-01T15:30:00+00:00,FT,Regular Season - 12,Polokwane City,2693,Chippa United,2698,1,0,True
+1302397,2025-02-01T18:00:00+00:00,FT,Regular Season - 12,Amazulu,2669,Supersport United,2694,2,1,True
+1302398,2025-02-02T13:30:00+00:00,FT,Regular Season - 12,TS Galaxy,8074,Cape Town City,2697,2,0,True
+1302399,2025-02-02T15:45:00+00:00,FT,Regular Season - 12,Mamelodi Sundowns,2699,Golden Arrows,2690,4,0,True
+1302400,2025-02-04T17:30:00+00:00,FT,Regular Season - 12,Kaizer Chiefs,2691,Amazulu,2669,2,2,True
+1302402,2025-02-04T17:30:00+00:00,FT,Regular Season - 12,Richards Bay,10567,Marumo Gallants,2682,2,1,True
+1302406,2025-02-05T17:30:00+00:00,FT,Regular Season - 13,Supersport United,2694,Mamelodi Sundowns,2699,0,3,True
+1302404,2025-02-05T17:30:00+00:00,FT,Regular Season - 13,Cape Town City,2697,Golden Arrows,2690,1,1,True
+1302407,2025-02-05T17:30:00+00:00,FT,Regular Season - 12,TS Galaxy,8074,Polokwane City,2693,0,0,True
+1302405,2025-02-05T17:30:00+00:00,FT,Regular Season - 13,Sekhukhune United,15537,Orlando Pirates,2700,1,2,True
+1302401,2025-02-05T17:30:00+00:00,FT,Regular Season - 12,Magesi,19999,Chippa United,2698,1,4,True
+1302408,2025-02-07T17:30:00+00:00,FT,Regular Season - 13,Amazulu,2669,Marumo Gallants,2682,2,0,True
+1302409,2025-02-07T17:30:00+00:00,FT,Regular Season - 13,Stellenbosch,4905,Kaizer Chiefs,2691,0,1,True
+1302378,2025-02-08T13:30:00+00:00,FT,Regular Season - 13,Mamelodi Sundowns,2699,Orlando Pirates,2700,4,1,True
+1302410,2025-02-08T13:30:00+00:00,FT,Regular Season - 13,Magesi,19999,Cape Town City,2697,2,0,True
+1302308,2025-02-08T18:00:00+00:00,FT,Regular Season - 13,TS Galaxy,8074,Chippa United,2698,1,0,True
+1302376,2025-02-08T18:00:00+00:00,FT,Regular Season - 13,Richards Bay,10567,Polokwane City,2693,2,0,True
+1302383,2025-02-09T13:30:00+00:00,FT,Regular Season - 14,Sekhukhune United,15537,Supersport United,2694,1,1,True
+1302374,2025-02-11T17:30:00+00:00,FT,Regular Season - 14,TS Galaxy,8074,Mamelodi Sundowns,2699,1,0,True
+1302417,2025-02-18T17:30:00+00:00,FT,Regular Season - 14,Kaizer Chiefs,2691,Supersport United,2694,1,4,True
+1302418,2025-02-18T17:30:00+00:00,FT,Regular Season - 14,Polokwane City,2693,Magesi,19999,0,1,True
+1302416,2025-02-18T17:30:00+00:00,FT,Regular Season - 14,Cape Town City,2697,Chippa United,2698,0,2,True
+1302420,2025-02-18T17:30:00+00:00,FT,Regular Season - 14,TS Galaxy,8074,Stellenbosch,4905,2,3,True
+1302423,2025-02-19T17:30:00+00:00,FT,Regular Season - 14,Marumo Gallants,2682,Mamelodi Sundowns,2699,1,3,True
+1302422,2025-02-19T17:30:00+00:00,FT,Regular Season - 14,Sekhukhune United,15537,Amazulu,2669,4,2,True
+1302425,2025-02-21T17:30:00+00:00,FT,Regular Season - 14,Stellenbosch,4905,Richards Bay,10567,1,1,True
+1302426,2025-02-22T13:30:00+00:00,FT,Regular Season - 15,Chippa United,2698,Sekhukhune United,15537,0,1,True
+1302427,2025-02-22T13:30:00+00:00,FT,Regular Season - 15,Orlando Pirates,2700,Cape Town City,2697,2,1,True
+1302428,2025-02-22T15:45:00+00:00,FT,Regular Season - 15,Mamelodi Sundowns,2699,TS Galaxy,8074,4,1,True
+1302429,2025-02-22T18:00:00+00:00,FT,Regular Season - 15,Amazulu,2669,Magesi,19999,3,0,True
+1302430,2025-02-23T13:30:00+00:00,FT,Regular Season - 15,Marumo Gallants,2682,Polokwane City,2693,0,0,True
+1302467,2025-02-25T17:30:00+00:00,FT,Regular Season - 15,Stellenbosch,4905,Magesi,19999,2,1,True
+1302466,2025-02-26T17:30:00+00:00,FT,Regular Season - 15,Sekhukhune United,15537,Mamelodi Sundowns,2699,2,4,True
+1302433,2025-02-28T17:30:00+00:00,FT,Regular Season - 15,Stellenbosch,4905,Polokwane City,2693,1,1,True
+1302435,2025-03-01T13:30:00+00:00,FT,Regular Season - 16,Mamelodi Sundowns,2699,Kaizer Chiefs,2691,1,0,True
+1302434,2025-03-01T13:30:00+00:00,FT,Regular Season - 16,Magesi,19999,Supersport United,2694,1,0,True
+1302436,2025-03-01T15:30:00+00:00,FT,Regular Season - 16,TS Galaxy,8074,Golden Arrows,2690,2,0,True
+1302336,2025-03-01T15:45:00+00:00,FT,Regular Season - 16,Marumo Gallants,2682,Orlando Pirates,2700,2,0,True
+1302437,2025-03-01T18:00:00+00:00,FT,Regular Season - 16,Richards Bay,10567,Chippa United,2698,0,0,True
+1302439,2025-03-02T13:30:00+00:00,FT,Regular Season - 16,Amazulu,2669,Cape Town City,2697,2,0,True
+1302441,2025-03-04T17:30:00+00:00,FT,Regular Season - 16,Marumo Gallants,2682,Stellenbosch,4905,0,1,True
+1302440,2025-03-04T17:30:00+00:00,FT,Regular Season - 16,Kaizer Chiefs,2691,Magesi,19999,1,0,True
+1302442,2025-03-05T17:30:00+00:00,FT,Regular Season - 17,Golden Arrows,2690,Mamelodi Sundowns,2699,1,1,True
+1302447,2025-03-05T17:30:00+00:00,FT,Regular Season - 16,Supersport United,2694,Amazulu,2669,0,0,True
+1302443,2025-03-05T17:30:00+00:00,FT,Regular Season - 17,Cape Town City,2697,TS Galaxy,8074,1,1,True
+1302444,2025-03-05T17:30:00+00:00,FT,Regular Season - 17,Chippa United,2698,Orlando Pirates,2700,0,1,True
+1302446,2025-03-05T17:30:00+00:00,FT,Regular Season - 17,Richards Bay,10567,Sekhukhune United,15537,2,1,True
+1302448,2025-03-11T17:30:00+00:00,FT,Regular Season - 17,Mamelodi Sundowns,2699,Amazulu,2669,2,0,True
+1302451,2025-03-11T17:30:00+00:00,FT,Regular Season - 17,Stellenbosch,4905,Orlando Pirates,2700,0,0,True
+1302452,2025-03-11T17:30:00+00:00,FT,Regular Season - 17,TS Galaxy,8074,Supersport United,2694,3,1,True
+1302449,2025-03-11T17:30:00+00:00,FT,Regular Season - 17,Magesi,19999,Richards Bay,10567,1,0,True
+1302455,2025-03-12T17:30:00+00:00,FT,Regular Season - 18,Marumo Gallants,2682,Sekhukhune United,15537,1,2,True
+1302453,2025-03-12T17:30:00+00:00,FT,Regular Season - 18,Kaizer Chiefs,2691,Cape Town City,2697,0,0,True
+1302454,2025-03-12T17:30:00+00:00,FT,Regular Season - 18,Polokwane City,2693,Golden Arrows,2690,0,1,True
+1302456,2025-03-14T17:30:00+00:00,FT,Regular Season - 18,Amazulu,2669,TS Galaxy,8074,1,2,True
+1302458,2025-03-15T13:30:00+00:00,FT,Regular Season - 18,Cape Town City,2697,Marumo Gallants,2682,0,1,True
+1302460,2025-03-15T13:30:00+00:00,FT,Regular Season - 18,Magesi,19999,Golden Arrows,2690,1,0,True
+1302461,2025-03-15T18:00:00+00:00,FT,Regular Season - 18,Chippa United,2698,Polokwane City,2693,2,0,True
+1302459,2025-03-16T13:30:00+00:00,FT,Regular Season - 18,Orlando Pirates,2700,Mamelodi Sundowns,2699,2,1,True
+1302462,2025-03-16T13:30:00+00:00,FT,Regular Season - 18,Richards Bay,10567,Kaizer Chiefs,2691,2,0,True
+1302463,2025-03-16T15:45:00+00:00,FT,Regular Season - 19,Sekhukhune United,15537,Stellenbosch,4905,1,2,True
+1302469,2025-03-29T13:30:00+00:00,FT,Regular Season - 19,Golden Arrows,2690,Kaizer Chiefs,2691,2,1,True
+1302464,2025-03-29T13:30:00+00:00,FT,Regular Season - 19,Chippa United,2698,Amazulu,2669,2,1,True
+1302341,2025-03-29T15:45:00+00:00,FT,Regular Season - 19,Magesi,19999,Stellenbosch,4905,1,0,True
+1302468,2025-03-30T13:30:00+00:00,FT,Regular Season - 19,Polokwane City,2693,Richards Bay,10567,3,1,True
+1302471,2025-03-30T15:30:00+00:00,FT,Regular Season - 19,TS Galaxy,8074,Marumo Gallants,2682,1,2,True
+1302470,2025-03-30T15:45:00+00:00,FT,Regular Season - 19,Supersport United,2694,Cape Town City,2697,0,0,True
+1302472,2025-04-04T17:30:00+00:00,FT,Regular Season - 19,Amazulu,2669,Richards Bay,10567,1,0,True
+1302475,2025-04-05T13:00:00+00:00,FT,Regular Season - 19,Marumo Gallants,2682,Supersport United,2694,1,1,True
+1302474,2025-04-05T13:00:00+00:00,FT,Regular Season - 20,Golden Arrows,2690,Chippa United,2698,0,0,True
+1302478,2025-04-05T13:00:00+00:00,FT,Regular Season - 19,Polokwane City,2693,Orlando Pirates,2700,0,1,True
+1302473,2025-04-05T17:00:00+00:00,FT,Regular Season - 20,Kaizer Chiefs,2691,TS Galaxy,8074,1,1,True
+1302479,2025-04-06T15:30:00+00:00,FT,Regular Season - 20,Cape Town City,2697,Sekhukhune United,15537,1,2,True
+1302485,2025-04-15T17:30:00+00:00,FT,Regular Season - 20,Stellenbosch,4905,Amazulu,2669,1,0,True
+1302480,2025-04-18T17:30:00+00:00,FT,Regular Season - 20,Richards Bay,10567,Cape Town City,2697,1,0,True
+1302483,2025-04-19T13:00:00+00:00,FT,Regular Season - 20,Marumo Gallants,2682,Golden Arrows,2690,1,1,True
+1302482,2025-04-19T15:30:00+00:00,FT,Regular Season - 20,Chippa United,2698,Kaizer Chiefs,2691,0,0,True
+1302484,2025-04-19T15:30:00+00:00,FT,Regular Season - 20,Sekhukhune United,15537,Polokwane City,2693,2,0,True
+1302486,2025-04-20T13:00:00+00:00,FT,Regular Season - 21,Magesi,19999,TS Galaxy,8074,2,1,True
+1302494,2025-04-26T13:00:00+00:00,FT,Regular Season - 21,Golden Arrows,2690,Amazulu,2669,0,1,True
+1302490,2025-04-26T13:00:00+00:00,FT,Regular Season - 21,Kaizer Chiefs,2691,Marumo Gallants,2682,1,2,True
+1302491,2025-04-26T13:00:00+00:00,FT,Regular Season - 21,Polokwane City,2693,Supersport United,2694,1,1,True
+1302495,2025-04-27T13:00:00+00:00,FT,Regular Season - 21,TS Galaxy,8074,Sekhukhune United,15537,1,1,True
+1302492,2025-04-30T17:30:00+00:00,FT,Regular Season - 21,Mamelodi Sundowns,2699,Richards Bay,10567,3,0,True
+1302351,2025-04-30T17:30:00+00:00,FT,Regular Season - 21,Orlando Pirates,2700,Sekhukhune United,15537,0,1,True
+1302367,2025-04-30T17:30:00+00:00,FT,Regular Season - 21,Stellenbosch,4905,Chippa United,2698,1,0,True
+1302496,2025-05-02T17:30:00+00:00,FT,Regular Season - 22,Amazulu,2669,Polokwane City,2693,1,1,True
+1302501,2025-05-03T13:00:00+00:00,FT,Regular Season - 22,Golden Arrows,2690,Stellenbosch,4905,0,3,True
+1302498,2025-05-03T13:30:00+00:00,FT,Regular Season - 22,Kaizer Chiefs,2691,Orlando Pirates,2700,1,2,True
+1302500,2025-05-03T15:30:00+00:00,FT,Regular Season - 22,Magesi,19999,Sekhukhune United,15537,1,1,True
+1302499,2025-05-03T15:45:00+00:00,FT,Regular Season - 22,Supersport United,2694,Chippa United,2698,2,0,True
+1302503,2025-05-03T18:00:00+00:00,FT,Regular Season - 22,Cape Town City,2697,Mamelodi Sundowns,2699,0,2,True
+1302502,2025-05-04T13:00:00+00:00,FT,Regular Season - 22,TS Galaxy,8074,Richards Bay,10567,0,1,True
+1302421,2025-05-06T17:30:00+00:00,FT,Regular Season - 22,Golden Arrows,2690,Orlando Pirates,2700,1,2,True
+1302348,2025-05-07T17:30:00+00:00,FT,Regular Season - 22,Mamelodi Sundowns,2699,Chippa United,2698,3,0,True
+1302476,2025-05-11T13:00:00+00:00,FT,Regular Season - 22,Mamelodi Sundowns,2699,Stellenbosch,4905,3,0,True
+1302342,2025-05-13T17:30:00+00:00,FT,Regular Season - 23,Orlando Pirates,2700,Golden Arrows,2690,3,0,True
+1302514,2025-05-14T17:30:00+00:00,FT,Regular Season - 23,Chippa United,2698,Mamelodi Sundowns,2699,0,3,True
+1302511,2025-05-17T13:00:00+00:00,FT,Regular Season - 23,Marumo Gallants,2682,Chippa United,2698,1,1,True
+1302506,2025-05-17T13:00:00+00:00,FT,Regular Season - 23,Polokwane City,2693,Cape Town City,2697,0,2,True
+1302505,2025-05-17T13:00:00+00:00,FT,Regular Season - 23,Orlando Pirates,2700,TS Galaxy,8074,1,1,True
+1302510,2025-05-17T13:00:00+00:00,FT,Regular Season - 23,Stellenbosch,4905,Supersport United,2694,2,1,True
+1302507,2025-05-17T13:00:00+00:00,FT,Regular Season - 23,Richards Bay,10567,Golden Arrows,2690,0,0,True
+1302509,2025-05-17T13:00:00+00:00,FT,Regular Season - 23,Sekhukhune United,15537,Kaizer Chiefs,2691,1,1,True
+1302504,2025-05-18T15:30:00+00:00,FT,Regular Season - 23,Mamelodi Sundowns,2699,Magesi,19999,2,0,True
+1302487,2025-05-20T17:30:00+00:00,FT,Regular Season - 24,Supersport United,2694,Orlando Pirates,2700,0,1,True
+1302512,2025-05-24T13:00:00+00:00,FT,Regular Season - 24,Amazulu,2669,Orlando Pirates,2700,1,1,True
+1302515,2025-05-24T13:00:00+00:00,FT,Regular Season - 24,Golden Arrows,2690,Sekhukhune United,15537,3,2,True
+1302516,2025-05-24T13:00:00+00:00,FT,Regular Season - 24,Kaizer Chiefs,2691,Polokwane City,2693,0,0,True
+1302518,2025-05-24T13:00:00+00:00,FT,Regular Season - 24,Supersport United,2694,Richards Bay,10567,0,2,True
+1302513,2025-05-24T13:00:00+00:00,FT,Regular Season - 24,Cape Town City,2697,Stellenbosch,4905,0,0,True
+1302517,2025-05-24T13:00:00+00:00,FT,Regular Season - 24,Magesi,19999,Marumo Gallants,2682,1,1,True
+1302488,2025-05-28T17:30:00+00:00,FT,Regular Season - 24,Orlando Pirates,2700,Magesi,19999,1,1,True
+1302431,2025-05-29T10:00:00+00:00,FT,Regular Season - 24,Supersport United,2694,Golden Arrows,2690,1,1,True
+1378790,2025-06-11T13:00:00+00:00,FT,Finals - 1,Orbit College,10582,Casric Stars,19997,0,0,True
+1378791,2025-06-14T13:00:00+00:00,FT,Finals - 3,Cape Town City,2697,Orbit College,10582,0,0,True
+1378792,2025-06-18T13:00:00+00:00,FT,Finals - 5,Casric Stars,19997,Cape Town City,2697,1,1,True
+1378793,2025-06-21T13:00:00+00:00,FT,Finals - 7,Casric Stars,19997,Orbit College,10582,0,1,True
+1380383,2025-06-25T13:00:00+00:00,FT,Finals - 9,Orbit College,10582,Cape Town City,2697,1,0,True
+1378794,2025-06-30T13:00:00+00:00,FT,Finals - 11,Cape Town City,2697,Casric Stars,19997,1,1,True

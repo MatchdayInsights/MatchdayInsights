@@ -1,245 +1,245 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1452883,2025-09-27T15:00:00+00:00,FT,Chabab Atl. Khenifra,970,Wydad Fès,3459,1,1,True
-1452881,2025-09-27T15:00:00+00:00,FT,Chabab Mohammédia,6387,Amal Tiznit,18753,3,1,True
-1452885,2025-09-27T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Moghreb Tetouan,965,2,0,True
-1452882,2025-09-27T17:00:00+00:00,FT,Riadi Salmi,3456,Stade Marocain,15549,1,2,True
-1452884,2025-09-28T15:00:00+00:00,FT,El Massira,3451,USM Oujda,17716,1,0,True
-1452886,2025-09-28T15:00:00+00:00,FT,Widad Témara,3458,Chabab Ben Guerir,3450,1,1,True
-1452879,2025-09-28T17:00:00+00:00,FT,KAC Kenitra,979,Raja Beni Mellal,3455,3,1,True
-1452880,2025-09-28T17:00:00+00:00,FT,Mouloudia Oujda,1075,Racing de Casablanca,966,1,1,True
-1477559,2025-10-04T15:00:00+00:00,FT,Racing de Casablanca,966,Riadi Salmi,3456,2,3,True
-1477558,2025-10-04T15:00:00+00:00,FT,Chabab Ben Guerir,3450,KAC Kenitra,979,1,0,True
-1477561,2025-10-04T15:00:00+00:00,FT,Wydad Fès,3459,Widad Témara,3458,2,3,True
-1477560,2025-10-04T15:00:00+00:00,FT,Stade Marocain,15549,Chabab Atl. Khenifra,970,0,0,True
-1477564,2025-10-05T15:00:00+00:00,FT,USM Oujda,17716,Chabab Mohammédia,6387,1,1,True
-1477562,2025-10-05T15:00:00+00:00,FT,Amal Tiznit,18753,Raja Beni Mellal,3455,2,0,True
-1477563,2025-10-05T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Mouloudia Oujda,1075,0,1,True
-1477565,2025-10-05T17:00:00+00:00,FT,Moghreb Tetouan,965,El Massira,3451,1,1,True
-1481211,2025-10-11T15:00:00+00:00,FT,Chabab Atl. Khenifra,970,Racing de Casablanca,966,1,0,True
-1481213,2025-10-11T15:00:00+00:00,FT,Riadi Salmi,3456,Wydad Fès,3459,1,0,True
-1481214,2025-10-11T15:00:00+00:00,FT,Widad Témara,3458,Moghreb Tetouan,965,1,3,True
-1481212,2025-10-11T15:00:00+00:00,FT,Chabab Mohammédia,6387,Chabab Ben Guerir,3450,1,0,True
-1481215,2025-10-12T15:00:00+00:00,FT,El Massira,3451,Union Sportive Boujaad,26496,0,0,True
-1481216,2025-10-12T15:00:00+00:00,FT,Raja Beni Mellal,3455,USM Oujda,17716,0,0,True
-1481217,2025-10-12T17:00:00+00:00,FT,KAC Kenitra,979,Amal Tiznit,18753,2,1,True
-1481218,2025-10-12T17:00:00+00:00,FT,Mouloudia Oujda,1075,Stade Marocain,15549,3,0,True
-1481219,2025-10-18T15:00:00+00:00,FT,El Massira,3451,Chabab Atl. Khenifra,970,3,0,True
-1481221,2025-10-18T15:00:00+00:00,FT,USM Oujda,17716,KAC Kenitra,979,1,1,True
-1481220,2025-10-18T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Riadi Salmi,3456,1,0,True
-1481222,2025-10-18T17:00:00+00:00,FT,Moghreb Tetouan,965,Mouloudia Oujda,1075,1,0,True
-1481224,2025-10-19T15:00:00+00:00,FT,Racing de Casablanca,966,Widad Témara,3458,1,1,True
-1481223,2025-10-19T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Raja Beni Mellal,3455,1,1,True
-1481226,2025-10-19T15:00:00+00:00,FT,Wydad Fès,3459,Chabab Mohammédia,6387,0,1,True
-1481225,2025-10-19T15:00:00+00:00,FT,Stade Marocain,15549,Amal Tiznit,18753,0,1,True
-1482688,2025-10-25T15:00:00+00:00,FT,Raja Beni Mellal,3455,Stade Marocain,15549,0,0,True
-1482687,2025-10-25T15:00:00+00:00,FT,Riadi Salmi,3456,Moghreb Tetouan,965,0,0,True
-1482686,2025-10-25T15:00:00+00:00,FT,Amal Tiznit,18753,USM Oujda,17716,2,0,True
-1482689,2025-10-25T17:00:00+00:00,FT,Mouloudia Oujda,1075,El Massira,3451,1,0,True
-1482691,2025-10-26T15:00:00+00:00,FT,Widad Témara,3458,Union Sportive Boujaad,26496,1,0,True
-1482690,2025-10-26T15:00:00+00:00,FT,Chabab Mohammédia,6387,Racing de Casablanca,966,1,0,True
-1482692,2025-10-26T17:00:00+00:00,FT,Chabab Atl. Khenifra,970,Chabab Ben Guerir,3450,2,0,True
-1482693,2025-10-26T17:00:00+00:00,FT,KAC Kenitra,979,Wydad Fès,3459,0,2,True
-1482694,2025-11-01T15:00:00+00:00,FT,Chabab Ben Guerir,3450,USM Oujda,17716,2,1,True
-1482696,2025-11-01T15:00:00+00:00,FT,Wydad Fès,3459,Amal Tiznit,18753,2,2,True
-1482695,2025-11-01T15:00:00+00:00,FT,Stade Marocain,15549,KAC Kenitra,979,1,1,True
-1482697,2025-11-01T17:00:00+00:00,FT,Mouloudia Oujda,1075,Riadi Salmi,3456,1,1,True
-1482699,2025-11-02T15:00:00+00:00,FT,Racing de Casablanca,966,Raja Beni Mellal,3455,1,0,True
-1482698,2025-11-02T15:00:00+00:00,FT,El Massira,3451,Widad Témara,3458,0,0,True
-1482700,2025-11-02T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Chabab Atl. Khenifra,970,0,0,True
-1482701,2025-11-02T17:00:00+00:00,FT,Moghreb Tetouan,965,Chabab Mohammédia,6387,1,0,True
-1485520,2025-11-08T14:00:00+00:00,FT,Riadi Salmi,3456,El Massira,3451,0,0,True
-1485521,2025-11-08T14:00:00+00:00,FT,Widad Témara,3458,Mouloudia Oujda,1075,2,1,True
-1485522,2025-11-08T17:00:00+00:00,FT,KAC Kenitra,979,Racing de Casablanca,966,3,1,True
-1485524,2025-11-09T14:00:00+00:00,FT,Raja Beni Mellal,3455,Wydad Fès,3459,1,2,True
-1485519,2025-11-09T14:00:00+00:00,FT,Chabab Mohammédia,6387,Union Sportive Boujaad,26496,1,1,True
-1485525,2025-11-09T14:00:00+00:00,FT,USM Oujda,17716,Stade Marocain,15549,0,1,True
-1485523,2025-11-09T14:00:00+00:00,FT,Amal Tiznit,18753,Chabab Ben Guerir,3450,3,1,True
-1485526,2025-11-09T17:00:00+00:00,FT,Chabab Atl. Khenifra,970,Moghreb Tetouan,965,0,1,True
-1485527,2025-11-15T14:00:00+00:00,FT,Racing de Casablanca,966,Amal Tiznit,18753,2,2,True
-1485529,2025-11-15T14:00:00+00:00,FT,Wydad Fès,3459,USM Oujda,17716,2,0,True
-1485528,2025-11-15T14:00:00+00:00,FT,Union Sportive Boujaad,26496,KAC Kenitra,979,1,1,True
-1485530,2025-11-15T17:00:00+00:00,FT,Moghreb Tetouan,965,Raja Beni Mellal,3455,2,0,True
-1485531,2025-11-16T14:00:00+00:00,FT,El Massira,3451,Chabab Mohammédia,6387,1,0,True
-1485532,2025-11-16T14:00:00+00:00,FT,Riadi Salmi,3456,Widad Témara,3458,1,2,True
-1485533,2025-11-16T14:00:00+00:00,FT,Stade Marocain,15549,Chabab Ben Guerir,3450,2,0,True
-1485534,2025-11-16T17:00:00+00:00,FT,Mouloudia Oujda,1075,Chabab Atl. Khenifra,970,1,0,True
-1487219,2025-11-22T14:00:00+00:00,FT,Chabab Atl. Khenifra,970,Riadi Salmi,3456,1,1,True
-1487217,2025-11-22T14:00:00+00:00,FT,Chabab Ben Guerir,3450,Wydad Fès,3459,1,0,True
-1487218,2025-11-22T14:00:00+00:00,FT,Raja Beni Mellal,3455,Union Sportive Boujaad,26496,0,0,True
-1487216,2025-11-22T14:00:00+00:00,FT,Amal Tiznit,18753,Widad Témara,3458,0,0,True
-1487220,2025-11-23T14:00:00+00:00,FT,Chabab Mohammédia,6387,Mouloudia Oujda,1075,2,4,True
-1487221,2025-11-23T14:00:00+00:00,FT,Stade Marocain,15549,Racing de Casablanca,966,1,1,True
-1487222,2025-11-23T14:00:00+00:00,FT,USM Oujda,17716,Moghreb Tetouan,965,3,0,True
-1487223,2025-11-23T17:00:00+00:00,FT,KAC Kenitra,979,El Massira,3451,1,0,True
-1487224,2025-11-29T14:00:00+00:00,FT,El Massira,3451,Chabab Ben Guerir,3450,2,0,True
-1487225,2025-11-29T14:00:00+00:00,FT,Riadi Salmi,3456,Chabab Mohammédia,6387,1,1,True
-1487226,2025-11-29T14:00:00+00:00,FT,Widad Témara,3458,Chabab Atl. Khenifra,970,0,0,True
-1487227,2025-11-29T17:00:00+00:00,FT,Mouloudia Oujda,1075,Raja Beni Mellal,3455,1,1,True
-1487228,2025-11-30T14:00:00+00:00,FT,Racing de Casablanca,966,USM Oujda,17716,0,3,True
-1487230,2025-11-30T14:00:00+00:00,FT,Wydad Fès,3459,Stade Marocain,15549,0,0,True
-1487229,2025-11-30T14:00:00+00:00,FT,Union Sportive Boujaad,26496,Amal Tiznit,18753,1,1,True
-1487231,2025-11-30T17:00:00+00:00,FT,Moghreb Tetouan,965,KAC Kenitra,979,1,1,True
-1489028,2025-12-06T14:00:00+00:00,FT,Raja Beni Mellal,3455,Riadi Salmi,3456,1,2,True
-1489027,2025-12-06T14:00:00+00:00,FT,Chabab Mohammédia,6387,Chabab Atl. Khenifra,970,0,3,True
-1489029,2025-12-06T14:00:00+00:00,FT,USM Oujda,17716,Mouloudia Oujda,1075,0,3,True
-1489026,2025-12-06T14:00:00+00:00,FT,Amal Tiznit,18753,El Massira,3451,1,0,True
-1489030,2025-12-07T14:00:00+00:00,FT,Chabab Ben Guerir,3450,Racing de Casablanca,966,1,0,True
-1489032,2025-12-07T14:00:00+00:00,FT,Wydad Fès,3459,Moghreb Tetouan,965,0,1,True
-1489031,2025-12-07T14:00:00+00:00,FT,Stade Marocain,15549,Union Sportive Boujaad,26496,0,0,True
-1489033,2025-12-07T17:00:00+00:00,FT,KAC Kenitra,979,Widad Témara,3458,1,2,True
-1489034,2026-01-24T14:00:00+00:00,FT,Chabab Atl. Khenifra,970,Raja Beni Mellal,3455,0,0,True
-1489037,2026-01-24T14:00:00+00:00,FT,El Massira,3451,Stade Marocain,15549,1,0,True
-1489036,2026-01-24T14:00:00+00:00,FT,Widad Témara,3458,Chabab Mohammédia,6387,2,1,True
-1489039,2026-01-24T17:00:00+00:00,FT,Moghreb Tetouan,965,Chabab Ben Guerir,3450,2,1,True
-1489035,2026-01-25T14:00:00+00:00,FT,Racing de Casablanca,966,Wydad Fès,3459,0,0,True
-1489040,2026-01-25T14:00:00+00:00,FT,Mouloudia Oujda,1075,KAC Kenitra,979,1,1,True
-1489041,2026-01-25T14:00:00+00:00,FT,Riadi Salmi,3456,Amal Tiznit,18753,1,1,True
-1489038,2026-01-25T14:00:00+00:00,FT,Union Sportive Boujaad,26496,USM Oujda,17716,2,2,True
-1511471,2026-01-31T14:00:00+00:00,FT,KAC Kenitra,979,Chabab Atl. Khenifra,970,1,1,True
-1511472,2026-01-31T14:00:00+00:00,FT,Raja Beni Mellal,3455,Widad Témara,3458,1,1,True
-1511473,2026-01-31T14:00:00+00:00,FT,USM Oujda,17716,Riadi Salmi,3456,3,2,True
-1511470,2026-01-31T14:00:00+00:00,FT,Amal Tiznit,18753,Moghreb Tetouan,965,0,0,True
-1511475,2026-02-01T14:00:00+00:00,FT,Racing de Casablanca,966,El Massira,3451,1,2,True
-1511474,2026-02-01T14:00:00+00:00,FT,Chabab Ben Guerir,3450,Mouloudia Oujda,1075,1,1,True
-1511477,2026-02-01T14:00:00+00:00,FT,Wydad Fès,3459,Union Sportive Boujaad,26496,1,0,True
-1511476,2026-02-01T14:00:00+00:00,FT,Stade Marocain,15549,Chabab Mohammédia,6387,3,0,True
-1516892,2026-02-07T14:00:00+00:00,FT,Chabab Atl. Khenifra,970,USM Oujda,17716,1,2,True
-1516895,2026-02-07T14:00:00+00:00,FT,Mouloudia Oujda,1075,Amal Tiznit,18753,1,1,True
-1516894,2026-02-07T14:00:00+00:00,FT,Riadi Salmi,3456,KAC Kenitra,979,2,2,True
-1516899,2026-02-07T14:00:00+00:00,FT,Widad Témara,3458,Stade Marocain,15549,1,1,True
-1516896,2026-02-07T14:00:00+00:00,FT,Union Sportive Boujaad,26496,Chabab Ben Guerir,3450,2,1,True
-1516898,2026-02-08T14:00:00+00:00,FT,Moghreb Tetouan,965,Racing de Casablanca,966,0,0,True
-1516893,2026-02-08T14:00:00+00:00,FT,El Massira,3451,Wydad Fès,3459,3,2,True
-1516897,2026-02-08T14:00:00+00:00,FT,Chabab Mohammédia,6387,Raja Beni Mellal,3455,1,0,True
-1516901,2026-02-14T14:00:00+00:00,FT,KAC Kenitra,979,Chabab Mohammédia,6387,0,1,True
-1516902,2026-02-14T14:00:00+00:00,FT,Raja Beni Mellal,3455,El Massira,3451,1,0,True
-1516903,2026-02-14T14:00:00+00:00,FT,USM Oujda,17716,Widad Témara,3458,0,0,True
-1516900,2026-02-14T14:00:00+00:00,FT,Amal Tiznit,18753,Chabab Atl. Khenifra,970,0,0,True
-1516905,2026-02-15T15:00:00+00:00,FT,Racing de Casablanca,966,Union Sportive Boujaad,26496,0,2,True
-1516904,2026-02-15T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Riadi Salmi,3456,1,3,True
-1516907,2026-02-15T15:00:00+00:00,FT,Wydad Fès,3459,Mouloudia Oujda,1075,2,2,True
-1516906,2026-02-15T15:00:00+00:00,FT,Stade Marocain,15549,Moghreb Tetouan,965,2,2,True
-1524323,2026-02-21T15:00:00+00:00,FT,Racing de Casablanca,966,Mouloudia Oujda,1075,3,0,True
-1524325,2026-02-21T15:00:00+00:00,FT,USM Oujda,17716,El Massira,3451,1,1,True
-1524326,2026-02-21T22:00:00+00:00,FT,Moghreb Tetouan,965,Union Sportive Boujaad,26496,1,0,True
-1524324,2026-02-21T22:00:00+00:00,FT,Raja Beni Mellal,3455,KAC Kenitra,979,1,0,True
-1524328,2026-02-22T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Widad Témara,3458,1,2,True
-1524329,2026-02-22T15:00:00+00:00,FT,Stade Marocain,15549,Riadi Salmi,3456,1,2,True
-1524327,2026-02-22T15:00:00+00:00,FT,Amal Tiznit,18753,Chabab Mohammédia,6387,1,1,True
-1524330,2026-02-22T22:00:00+00:00,FT,Wydad Fès,3459,Chabab Atl. Khenifra,970,1,0,True
-1524334,2026-02-28T22:00:00+00:00,FT,Mouloudia Oujda,1075,Union Sportive Boujaad,26496,0,3,True
-1524332,2026-02-28T22:00:00+00:00,FT,Raja Beni Mellal,3455,Amal Tiznit,18753,1,1,True
-1524333,2026-02-28T22:00:00+00:00,FT,Widad Témara,3458,Wydad Fès,3459,0,1,True
-1524336,2026-03-01T15:00:00+00:00,FT,KAC Kenitra,979,Chabab Ben Guerir,3450,1,1,True
-1524337,2026-03-01T22:00:00+00:00,FT,Chabab Atl. Khenifra,970,Stade Marocain,15549,1,0,True
-1524335,2026-03-01T22:00:00+00:00,FT,Riadi Salmi,3456,Racing de Casablanca,966,0,0,True
-1524338,2026-03-01T22:00:00+00:00,FT,Chabab Mohammédia,6387,USM Oujda,17716,1,0,True
-1524331,2026-03-03T15:00:00+00:00,FT,El Massira,3451,Moghreb Tetouan,965,0,0,True
-1530055,2026-03-07T15:00:00+00:00,FT,Racing de Casablanca,966,Chabab Atl. Khenifra,970,0,1,True
-1530054,2026-03-07T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Chabab Mohammédia,6387,0,0,True
-1530056,2026-03-07T15:00:00+00:00,FT,Stade Marocain,15549,Mouloudia Oujda,1075,1,3,True
-1530057,2026-03-07T22:00:00+00:00,FT,Wydad Fès,3459,Riadi Salmi,3456,1,2,True
-1530059,2026-03-08T15:00:00+00:00,FT,USM Oujda,17716,Raja Beni Mellal,3455,3,0,True
-1530058,2026-03-08T15:00:00+00:00,FT,Amal Tiznit,18753,KAC Kenitra,979,2,1,True
-1530060,2026-03-08T22:00:00+00:00,FT,Moghreb Tetouan,965,Widad Témara,3458,1,1,True
-1530061,2026-03-08T22:00:00+00:00,FT,Union Sportive Boujaad,26496,El Massira,3451,0,0,True
-1530062,2026-03-14T15:00:00+00:00,FT,KAC Kenitra,979,USM Oujda,17716,0,0,True
-1530063,2026-03-14T22:00:00+00:00,FT,Chabab Atl. Khenifra,970,El Massira,3451,1,0,True
-1530065,2026-03-14T22:00:00+00:00,FT,Riadi Salmi,3456,Union Sportive Boujaad,26496,1,0,True
-1530064,2026-03-14T22:00:00+00:00,FT,Chabab Mohammédia,6387,Wydad Fès,3459,0,3,True
-1530066,2026-03-15T15:00:00+00:00,FT,Amal Tiznit,18753,Stade Marocain,15549,2,0,True
-1530067,2026-03-15T22:00:00+00:00,FT,Mouloudia Oujda,1075,Moghreb Tetouan,965,1,3,True
-1530068,2026-03-15T22:00:00+00:00,FT,Raja Beni Mellal,3455,Chabab Ben Guerir,3450,0,0,True
-1530069,2026-03-15T22:00:00+00:00,FT,Widad Témara,3458,Racing de Casablanca,966,1,0,True
-1537560,2026-03-28T14:00:00+00:00,FT,Chabab Ben Guerir,3450,Chabab Atl. Khenifra,970,4,0,True
-1537561,2026-03-28T14:00:00+00:00,FT,Stade Marocain,15549,Raja Beni Mellal,3455,1,0,True
-1537562,2026-03-28T14:00:00+00:00,FT,Union Sportive Boujaad,26496,Widad Témara,3458,2,2,True
-1537563,2026-03-28T17:00:00+00:00,FT,Moghreb Tetouan,965,Riadi Salmi,3456,0,1,True
-1537565,2026-03-29T14:00:00+00:00,FT,Racing de Casablanca,966,Chabab Mohammédia,6387,2,0,True
-1537564,2026-03-29T14:00:00+00:00,FT,El Massira,3451,Mouloudia Oujda,1075,1,1,True
-1537566,2026-03-29T14:00:00+00:00,FT,USM Oujda,17716,Amal Tiznit,18753,0,0,True
-1537567,2026-03-29T17:00:00+00:00,FT,Wydad Fès,3459,KAC Kenitra,979,2,0,True
-1537569,2026-04-04T14:00:00+00:00,FT,KAC Kenitra,979,Stade Marocain,15549,1,0,True
-1537568,2026-04-04T14:00:00+00:00,FT,Chabab Mohammédia,6387,Moghreb Tetouan,965,1,0,True
-1537570,2026-04-04T17:00:00+00:00,FT,Chabab Atl. Khenifra,970,Union Sportive Boujaad,26496,2,0,True
-1537571,2026-04-04T17:00:00+00:00,FT,Riadi Salmi,3456,Mouloudia Oujda,1075,1,1,True
-1537574,2026-04-05T14:00:00+00:00,FT,Widad Témara,3458,El Massira,3451,1,0,True
-1537573,2026-04-05T14:00:00+00:00,FT,USM Oujda,17716,Chabab Ben Guerir,3450,1,1,True
-1537572,2026-04-05T14:00:00+00:00,FT,Amal Tiznit,18753,Wydad Fès,3459,2,0,True
-1537575,2026-04-05T17:00:00+00:00,FT,Raja Beni Mellal,3455,Racing de Casablanca,966,1,0,True
-1542511,2026-04-25T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Amal Tiznit,18753,1,0,True
-1542513,2026-04-25T15:00:00+00:00,FT,Wydad Fès,3459,Raja Beni Mellal,3455,1,1,True
-1542512,2026-04-25T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Chabab Mohammédia,6387,0,0,True
-1542514,2026-04-25T17:00:00+00:00,FT,Mouloudia Oujda,1075,Widad Témara,3458,0,1,True
-1542516,2026-04-26T15:00:00+00:00,FT,Racing de Casablanca,966,KAC Kenitra,979,0,2,True
-1542515,2026-04-26T15:00:00+00:00,FT,El Massira,3451,Riadi Salmi,3456,3,0,True
-1542517,2026-04-26T15:00:00+00:00,FT,Stade Marocain,15549,USM Oujda,17716,1,0,True
-1542518,2026-04-26T17:00:00+00:00,FT,Moghreb Tetouan,965,Chabab Atl. Khenifra,970,2,1,True
-1543306,2026-05-02T15:00:00+00:00,FT,Raja Beni Mellal,3455,Moghreb Tetouan,965,2,0,True
-1543305,2026-05-02T15:00:00+00:00,FT,Chabab Mohammédia,6387,El Massira,3451,1,3,True
-1543307,2026-05-02T15:00:00+00:00,FT,USM Oujda,17716,Wydad Fès,3459,1,0,True
-1543308,2026-05-02T17:00:00+00:00,FT,Chabab Atl. Khenifra,970,Mouloudia Oujda,1075,4,0,True
-1543311,2026-05-03T15:00:00+00:00,FT,KAC Kenitra,979,Union Sportive Boujaad,26496,2,1,True
-1543310,2026-05-03T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Stade Marocain,15549,1,0,True
-1543312,2026-05-03T15:00:00+00:00,FT,Widad Témara,3458,Riadi Salmi,3456,3,2,True
-1543309,2026-05-03T15:00:00+00:00,FT,Amal Tiznit,18753,Racing de Casablanca,966,2,2,True
-1544322,2026-05-09T15:00:00+00:00,FT,El Massira,3451,KAC Kenitra,979,1,1,True
-1544323,2026-05-09T15:00:00+00:00,FT,Riadi Salmi,3456,Chabab Atl. Khenifra,970,0,1,True
-1544324,2026-05-09T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Raja Beni Mellal,3455,2,1,True
-1544325,2026-05-09T17:00:00+00:00,FT,Wydad Fès,3459,Chabab Ben Guerir,3450,1,1,True
-1544326,2026-05-10T15:00:00+00:00,FT,Racing de Casablanca,966,Stade Marocain,15549,0,1,True
-1544327,2026-05-10T15:00:00+00:00,FT,Widad Témara,3458,Amal Tiznit,18753,1,1,True
-1544328,2026-05-10T17:00:00+00:00,FT,Moghreb Tetouan,965,USM Oujda,17716,2,0,True
-1544329,2026-05-10T17:00:00+00:00,FT,Mouloudia Oujda,1075,Chabab Mohammédia,6387,0,0,True
-1545709,2026-05-23T15:00:00+00:00,FT,KAC Kenitra,979,Moghreb Tetouan,965,2,2,True
-1545707,2026-05-23T15:00:00+00:00,FT,Chabab Ben Guerir,3450,El Massira,3451,0,0,True
-1545710,2026-05-23T15:00:00+00:00,FT,Raja Beni Mellal,3455,Mouloudia Oujda,1075,3,2,True
-1545708,2026-05-23T15:00:00+00:00,FT,Chabab Mohammédia,6387,Riadi Salmi,3456,2,2,True
-1545712,2026-05-24T15:00:00+00:00,FT,Stade Marocain,15549,Wydad Fès,3459,2,0,True
-1545713,2026-05-24T15:00:00+00:00,FT,USM Oujda,17716,Racing de Casablanca,966,3,1,True
-1545711,2026-05-24T15:00:00+00:00,FT,Amal Tiznit,18753,Union Sportive Boujaad,26496,0,0,True
-1545714,2026-05-24T17:00:00+00:00,FT,Chabab Atl. Khenifra,970,Widad Témara,3458,1,1,True
-1548311,2026-06-06T16:00:00+00:00,FT,Riadi Salmi,3456,Raja Beni Mellal,3455,1,1,True
-1548312,2026-06-06T16:00:00+00:00,FT,Union Sportive Boujaad,26496,Stade Marocain,15549,0,1,True
-1548313,2026-06-06T18:00:00+00:00,FT,Moghreb Tetouan,965,Wydad Fès,3459,1,1,True
-1548314,2026-06-06T18:00:00+00:00,FT,Mouloudia Oujda,1075,USM Oujda,17716,2,1,True
-1548316,2026-06-07T16:00:00+00:00,FT,Racing de Casablanca,966,Chabab Ben Guerir,3450,0,1,True
-1548315,2026-06-07T16:00:00+00:00,FT,El Massira,3451,Amal Tiznit,18753,1,1,True
-1548317,2026-06-07T16:00:00+00:00,FT,Widad Témara,3458,KAC Kenitra,979,1,1,True
-1548318,2026-06-07T17:00:00+00:00,FT,Chabab Atl. Khenifra,970,Chabab Mohammédia,6387,1,0,True
-1548319,2026-06-13T16:00:00+00:00,FT,Chabab Ben Guerir,3450,Moghreb Tetouan,965,0,0,True
-1548321,2026-06-13T16:00:00+00:00,FT,Raja Beni Mellal,3455,Chabab Atl. Khenifra,970,0,0,True
-1548322,2026-06-13T16:00:00+00:00,FT,USM Oujda,17716,Union Sportive Boujaad,26496,1,0,True
-1548323,2026-06-13T18:00:00+00:00,FT,Wydad Fès,3459,Racing de Casablanca,966,2,2,True
-1548325,2026-06-14T16:00:00+00:00,FT,KAC Kenitra,979,Mouloudia Oujda,1075,1,0,True
-1548320,2026-06-14T16:00:00+00:00,FT,Chabab Mohammédia,6387,Widad Témara,3458,1,1,True
-1548326,2026-06-14T16:00:00+00:00,FT,Stade Marocain,15549,El Massira,3451,1,0,True
-1548324,2026-06-14T16:00:00+00:00,FT,Amal Tiznit,18753,Riadi Salmi,3456,2,1,True
-1556565,2026-06-20T15:00:00+00:00,FT,Moghreb Tetouan,965,Amal Tiznit,18753,3,1,True
-1556561,2026-06-20T15:00:00+00:00,FT,Chabab Atl. Khenifra,970,KAC Kenitra,979,2,1,True
-1556566,2026-06-20T15:00:00+00:00,FT,Mouloudia Oujda,1075,Chabab Ben Guerir,3450,1,1,True
-1556563,2026-06-20T15:00:00+00:00,FT,El Massira,3451,Racing de Casablanca,966,2,1,True
-1556564,2026-06-20T15:00:00+00:00,FT,Riadi Salmi,3456,USM Oujda,17716,2,0,True
-1556568,2026-06-20T15:00:00+00:00,FT,Widad Témara,3458,Raja Beni Mellal,3455,2,1,True
-1556562,2026-06-20T15:00:00+00:00,FT,Chabab Mohammédia,6387,Stade Marocain,15549,0,1,True
-1556567,2026-06-20T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Wydad Fès,3459,1,1,True
-1556572,2026-06-27T15:00:00+00:00,FT,Racing de Casablanca,966,Moghreb Tetouan,965,0,2,True
-1556571,2026-06-27T15:00:00+00:00,FT,KAC Kenitra,979,Riadi Salmi,3456,1,2,True
-1556570,2026-06-27T15:00:00+00:00,FT,Chabab Ben Guerir,3450,Union Sportive Boujaad,26496,0,0,True
-1556573,2026-06-27T15:00:00+00:00,FT,Raja Beni Mellal,3455,Chabab Mohammédia,6387,2,0,True
-1556576,2026-06-27T15:00:00+00:00,FT,Wydad Fès,3459,El Massira,3451,3,0,True
-1556574,2026-06-27T15:00:00+00:00,FT,Stade Marocain,15549,Widad Témara,3458,0,1,True
-1556575,2026-06-27T15:00:00+00:00,FT,USM Oujda,17716,Chabab Atl. Khenifra,970,1,1,True
-1556569,2026-06-27T15:00:00+00:00,FT,Amal Tiznit,18753,Mouloudia Oujda,1075,1,1,True
-1576128,2026-07-05T15:00:00+00:00,FT,Moghreb Tetouan,965,Stade Marocain,15549,1,0,True
-1576124,2026-07-05T15:00:00+00:00,FT,Chabab Atl. Khenifra,970,Amal Tiznit,18753,0,1,True
-1576129,2026-07-05T15:00:00+00:00,FT,Mouloudia Oujda,1075,Wydad Fès,3459,1,1,True
-1576126,2026-07-05T15:00:00+00:00,FT,El Massira,3451,Raja Beni Mellal,3455,3,1,True
-1576127,2026-07-05T15:00:00+00:00,FT,Riadi Salmi,3456,Chabab Ben Guerir,3450,1,1,True
-1576131,2026-07-05T15:00:00+00:00,FT,Widad Témara,3458,USM Oujda,17716,0,1,True
-1576125,2026-07-05T15:00:00+00:00,FT,Chabab Mohammédia,6387,KAC Kenitra,979,4,3,True
-1576130,2026-07-05T15:00:00+00:00,FT,Union Sportive Boujaad,26496,Racing de Casablanca,966,4,0,True
-1589966,2026-07-18T18:00:00+00:00,FT,Rapide Oued ZEM,967,Union Sportive Boujaad,26496,0,1,True
-1589965,2026-07-18T18:00:00+00:00,FT,AS Mansouria,18752,KAC Kenitra,979,0,0,True
-1589967,2026-07-22T18:00:00+00:00,FT,KAC Kenitra,979,AS Mansouria,18752,2,0,True
-1589968,2026-07-22T18:00:00+00:00,FT,Union Sportive Boujaad,26496,Rapide Oued ZEM,967,4,1,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1452883,2025-09-27T15:00:00+00:00,FT,Regular Season - 1,Chabab Atl. Khenifra,970,Wydad Fès,3459,1,1,True
+1452881,2025-09-27T15:00:00+00:00,FT,Regular Season - 1,Chabab Mohammédia,6387,Amal Tiznit,18753,3,1,True
+1452885,2025-09-27T15:00:00+00:00,FT,Regular Season - 1,Union Sportive Boujaad,26496,Moghreb Tetouan,965,2,0,True
+1452882,2025-09-27T17:00:00+00:00,FT,Regular Season - 1,Riadi Salmi,3456,Stade Marocain,15549,1,2,True
+1452884,2025-09-28T15:00:00+00:00,FT,Regular Season - 1,El Massira,3451,USM Oujda,17716,1,0,True
+1452886,2025-09-28T15:00:00+00:00,FT,Regular Season - 1,Widad Témara,3458,Chabab Ben Guerir,3450,1,1,True
+1452879,2025-09-28T17:00:00+00:00,FT,Regular Season - 1,KAC Kenitra,979,Raja Beni Mellal,3455,3,1,True
+1452880,2025-09-28T17:00:00+00:00,FT,Regular Season - 1,Mouloudia Oujda,1075,Racing de Casablanca,966,1,1,True
+1477559,2025-10-04T15:00:00+00:00,FT,Regular Season - 2,Racing de Casablanca,966,Riadi Salmi,3456,2,3,True
+1477558,2025-10-04T15:00:00+00:00,FT,Regular Season - 2,Chabab Ben Guerir,3450,KAC Kenitra,979,1,0,True
+1477561,2025-10-04T15:00:00+00:00,FT,Regular Season - 2,Wydad Fès,3459,Widad Témara,3458,2,3,True
+1477560,2025-10-04T15:00:00+00:00,FT,Regular Season - 2,Stade Marocain,15549,Chabab Atl. Khenifra,970,0,0,True
+1477564,2025-10-05T15:00:00+00:00,FT,Regular Season - 2,USM Oujda,17716,Chabab Mohammédia,6387,1,1,True
+1477562,2025-10-05T15:00:00+00:00,FT,Regular Season - 2,Amal Tiznit,18753,Raja Beni Mellal,3455,2,0,True
+1477563,2025-10-05T15:00:00+00:00,FT,Regular Season - 2,Union Sportive Boujaad,26496,Mouloudia Oujda,1075,0,1,True
+1477565,2025-10-05T17:00:00+00:00,FT,Regular Season - 2,Moghreb Tetouan,965,El Massira,3451,1,1,True
+1481211,2025-10-11T15:00:00+00:00,FT,Regular Season - 3,Chabab Atl. Khenifra,970,Racing de Casablanca,966,1,0,True
+1481213,2025-10-11T15:00:00+00:00,FT,Regular Season - 3,Riadi Salmi,3456,Wydad Fès,3459,1,0,True
+1481214,2025-10-11T15:00:00+00:00,FT,Regular Season - 3,Widad Témara,3458,Moghreb Tetouan,965,1,3,True
+1481212,2025-10-11T15:00:00+00:00,FT,Regular Season - 3,Chabab Mohammédia,6387,Chabab Ben Guerir,3450,1,0,True
+1481215,2025-10-12T15:00:00+00:00,FT,Regular Season - 3,El Massira,3451,Union Sportive Boujaad,26496,0,0,True
+1481216,2025-10-12T15:00:00+00:00,FT,Regular Season - 3,Raja Beni Mellal,3455,USM Oujda,17716,0,0,True
+1481217,2025-10-12T17:00:00+00:00,FT,Regular Season - 3,KAC Kenitra,979,Amal Tiznit,18753,2,1,True
+1481218,2025-10-12T17:00:00+00:00,FT,Regular Season - 3,Mouloudia Oujda,1075,Stade Marocain,15549,3,0,True
+1481219,2025-10-18T15:00:00+00:00,FT,Regular Season - 4,El Massira,3451,Chabab Atl. Khenifra,970,3,0,True
+1481221,2025-10-18T15:00:00+00:00,FT,Regular Season - 4,USM Oujda,17716,KAC Kenitra,979,1,1,True
+1481220,2025-10-18T15:00:00+00:00,FT,Regular Season - 4,Union Sportive Boujaad,26496,Riadi Salmi,3456,1,0,True
+1481222,2025-10-18T17:00:00+00:00,FT,Regular Season - 4,Moghreb Tetouan,965,Mouloudia Oujda,1075,1,0,True
+1481224,2025-10-19T15:00:00+00:00,FT,Regular Season - 4,Racing de Casablanca,966,Widad Témara,3458,1,1,True
+1481223,2025-10-19T15:00:00+00:00,FT,Regular Season - 4,Chabab Ben Guerir,3450,Raja Beni Mellal,3455,1,1,True
+1481226,2025-10-19T15:00:00+00:00,FT,Regular Season - 4,Wydad Fès,3459,Chabab Mohammédia,6387,0,1,True
+1481225,2025-10-19T15:00:00+00:00,FT,Regular Season - 4,Stade Marocain,15549,Amal Tiznit,18753,0,1,True
+1482688,2025-10-25T15:00:00+00:00,FT,Regular Season - 5,Raja Beni Mellal,3455,Stade Marocain,15549,0,0,True
+1482687,2025-10-25T15:00:00+00:00,FT,Regular Season - 5,Riadi Salmi,3456,Moghreb Tetouan,965,0,0,True
+1482686,2025-10-25T15:00:00+00:00,FT,Regular Season - 5,Amal Tiznit,18753,USM Oujda,17716,2,0,True
+1482689,2025-10-25T17:00:00+00:00,FT,Regular Season - 5,Mouloudia Oujda,1075,El Massira,3451,1,0,True
+1482691,2025-10-26T15:00:00+00:00,FT,Regular Season - 5,Widad Témara,3458,Union Sportive Boujaad,26496,1,0,True
+1482690,2025-10-26T15:00:00+00:00,FT,Regular Season - 5,Chabab Mohammédia,6387,Racing de Casablanca,966,1,0,True
+1482692,2025-10-26T17:00:00+00:00,FT,Regular Season - 5,Chabab Atl. Khenifra,970,Chabab Ben Guerir,3450,2,0,True
+1482693,2025-10-26T17:00:00+00:00,FT,Regular Season - 5,KAC Kenitra,979,Wydad Fès,3459,0,2,True
+1482694,2025-11-01T15:00:00+00:00,FT,Regular Season - 6,Chabab Ben Guerir,3450,USM Oujda,17716,2,1,True
+1482696,2025-11-01T15:00:00+00:00,FT,Regular Season - 6,Wydad Fès,3459,Amal Tiznit,18753,2,2,True
+1482695,2025-11-01T15:00:00+00:00,FT,Regular Season - 6,Stade Marocain,15549,KAC Kenitra,979,1,1,True
+1482697,2025-11-01T17:00:00+00:00,FT,Regular Season - 6,Mouloudia Oujda,1075,Riadi Salmi,3456,1,1,True
+1482699,2025-11-02T15:00:00+00:00,FT,Regular Season - 6,Racing de Casablanca,966,Raja Beni Mellal,3455,1,0,True
+1482698,2025-11-02T15:00:00+00:00,FT,Regular Season - 6,El Massira,3451,Widad Témara,3458,0,0,True
+1482700,2025-11-02T15:00:00+00:00,FT,Regular Season - 6,Union Sportive Boujaad,26496,Chabab Atl. Khenifra,970,0,0,True
+1482701,2025-11-02T17:00:00+00:00,FT,Regular Season - 6,Moghreb Tetouan,965,Chabab Mohammédia,6387,1,0,True
+1485520,2025-11-08T14:00:00+00:00,FT,Regular Season - 7,Riadi Salmi,3456,El Massira,3451,0,0,True
+1485521,2025-11-08T14:00:00+00:00,FT,Regular Season - 7,Widad Témara,3458,Mouloudia Oujda,1075,2,1,True
+1485522,2025-11-08T17:00:00+00:00,FT,Regular Season - 7,KAC Kenitra,979,Racing de Casablanca,966,3,1,True
+1485524,2025-11-09T14:00:00+00:00,FT,Regular Season - 7,Raja Beni Mellal,3455,Wydad Fès,3459,1,2,True
+1485519,2025-11-09T14:00:00+00:00,FT,Regular Season - 7,Chabab Mohammédia,6387,Union Sportive Boujaad,26496,1,1,True
+1485525,2025-11-09T14:00:00+00:00,FT,Regular Season - 7,USM Oujda,17716,Stade Marocain,15549,0,1,True
+1485523,2025-11-09T14:00:00+00:00,FT,Regular Season - 7,Amal Tiznit,18753,Chabab Ben Guerir,3450,3,1,True
+1485526,2025-11-09T17:00:00+00:00,FT,Regular Season - 7,Chabab Atl. Khenifra,970,Moghreb Tetouan,965,0,1,True
+1485527,2025-11-15T14:00:00+00:00,FT,Regular Season - 8,Racing de Casablanca,966,Amal Tiznit,18753,2,2,True
+1485529,2025-11-15T14:00:00+00:00,FT,Regular Season - 8,Wydad Fès,3459,USM Oujda,17716,2,0,True
+1485528,2025-11-15T14:00:00+00:00,FT,Regular Season - 8,Union Sportive Boujaad,26496,KAC Kenitra,979,1,1,True
+1485530,2025-11-15T17:00:00+00:00,FT,Regular Season - 8,Moghreb Tetouan,965,Raja Beni Mellal,3455,2,0,True
+1485531,2025-11-16T14:00:00+00:00,FT,Regular Season - 8,El Massira,3451,Chabab Mohammédia,6387,1,0,True
+1485532,2025-11-16T14:00:00+00:00,FT,Regular Season - 8,Riadi Salmi,3456,Widad Témara,3458,1,2,True
+1485533,2025-11-16T14:00:00+00:00,FT,Regular Season - 8,Stade Marocain,15549,Chabab Ben Guerir,3450,2,0,True
+1485534,2025-11-16T17:00:00+00:00,FT,Regular Season - 8,Mouloudia Oujda,1075,Chabab Atl. Khenifra,970,1,0,True
+1487219,2025-11-22T14:00:00+00:00,FT,Regular Season - 9,Chabab Atl. Khenifra,970,Riadi Salmi,3456,1,1,True
+1487217,2025-11-22T14:00:00+00:00,FT,Regular Season - 9,Chabab Ben Guerir,3450,Wydad Fès,3459,1,0,True
+1487218,2025-11-22T14:00:00+00:00,FT,Regular Season - 9,Raja Beni Mellal,3455,Union Sportive Boujaad,26496,0,0,True
+1487216,2025-11-22T14:00:00+00:00,FT,Regular Season - 9,Amal Tiznit,18753,Widad Témara,3458,0,0,True
+1487220,2025-11-23T14:00:00+00:00,FT,Regular Season - 9,Chabab Mohammédia,6387,Mouloudia Oujda,1075,2,4,True
+1487221,2025-11-23T14:00:00+00:00,FT,Regular Season - 9,Stade Marocain,15549,Racing de Casablanca,966,1,1,True
+1487222,2025-11-23T14:00:00+00:00,FT,Regular Season - 9,USM Oujda,17716,Moghreb Tetouan,965,3,0,True
+1487223,2025-11-23T17:00:00+00:00,FT,Regular Season - 9,KAC Kenitra,979,El Massira,3451,1,0,True
+1487224,2025-11-29T14:00:00+00:00,FT,Regular Season - 10,El Massira,3451,Chabab Ben Guerir,3450,2,0,True
+1487225,2025-11-29T14:00:00+00:00,FT,Regular Season - 10,Riadi Salmi,3456,Chabab Mohammédia,6387,1,1,True
+1487226,2025-11-29T14:00:00+00:00,FT,Regular Season - 10,Widad Témara,3458,Chabab Atl. Khenifra,970,0,0,True
+1487227,2025-11-29T17:00:00+00:00,FT,Regular Season - 10,Mouloudia Oujda,1075,Raja Beni Mellal,3455,1,1,True
+1487228,2025-11-30T14:00:00+00:00,FT,Regular Season - 10,Racing de Casablanca,966,USM Oujda,17716,0,3,True
+1487230,2025-11-30T14:00:00+00:00,FT,Regular Season - 10,Wydad Fès,3459,Stade Marocain,15549,0,0,True
+1487229,2025-11-30T14:00:00+00:00,FT,Regular Season - 10,Union Sportive Boujaad,26496,Amal Tiznit,18753,1,1,True
+1487231,2025-11-30T17:00:00+00:00,FT,Regular Season - 10,Moghreb Tetouan,965,KAC Kenitra,979,1,1,True
+1489028,2025-12-06T14:00:00+00:00,FT,Regular Season - 11,Raja Beni Mellal,3455,Riadi Salmi,3456,1,2,True
+1489027,2025-12-06T14:00:00+00:00,FT,Regular Season - 11,Chabab Mohammédia,6387,Chabab Atl. Khenifra,970,0,3,True
+1489029,2025-12-06T14:00:00+00:00,FT,Regular Season - 11,USM Oujda,17716,Mouloudia Oujda,1075,0,3,True
+1489026,2025-12-06T14:00:00+00:00,FT,Regular Season - 11,Amal Tiznit,18753,El Massira,3451,1,0,True
+1489030,2025-12-07T14:00:00+00:00,FT,Regular Season - 11,Chabab Ben Guerir,3450,Racing de Casablanca,966,1,0,True
+1489032,2025-12-07T14:00:00+00:00,FT,Regular Season - 11,Wydad Fès,3459,Moghreb Tetouan,965,0,1,True
+1489031,2025-12-07T14:00:00+00:00,FT,Regular Season - 11,Stade Marocain,15549,Union Sportive Boujaad,26496,0,0,True
+1489033,2025-12-07T17:00:00+00:00,FT,Regular Season - 11,KAC Kenitra,979,Widad Témara,3458,1,2,True
+1489034,2026-01-24T14:00:00+00:00,FT,Regular Season - 12,Chabab Atl. Khenifra,970,Raja Beni Mellal,3455,0,0,True
+1489037,2026-01-24T14:00:00+00:00,FT,Regular Season - 12,El Massira,3451,Stade Marocain,15549,1,0,True
+1489036,2026-01-24T14:00:00+00:00,FT,Regular Season - 12,Widad Témara,3458,Chabab Mohammédia,6387,2,1,True
+1489039,2026-01-24T17:00:00+00:00,FT,Regular Season - 12,Moghreb Tetouan,965,Chabab Ben Guerir,3450,2,1,True
+1489035,2026-01-25T14:00:00+00:00,FT,Regular Season - 12,Racing de Casablanca,966,Wydad Fès,3459,0,0,True
+1489040,2026-01-25T14:00:00+00:00,FT,Regular Season - 12,Mouloudia Oujda,1075,KAC Kenitra,979,1,1,True
+1489041,2026-01-25T14:00:00+00:00,FT,Regular Season - 12,Riadi Salmi,3456,Amal Tiznit,18753,1,1,True
+1489038,2026-01-25T14:00:00+00:00,FT,Regular Season - 12,Union Sportive Boujaad,26496,USM Oujda,17716,2,2,True
+1511471,2026-01-31T14:00:00+00:00,FT,Regular Season - 13,KAC Kenitra,979,Chabab Atl. Khenifra,970,1,1,True
+1511472,2026-01-31T14:00:00+00:00,FT,Regular Season - 13,Raja Beni Mellal,3455,Widad Témara,3458,1,1,True
+1511473,2026-01-31T14:00:00+00:00,FT,Regular Season - 13,USM Oujda,17716,Riadi Salmi,3456,3,2,True
+1511470,2026-01-31T14:00:00+00:00,FT,Regular Season - 13,Amal Tiznit,18753,Moghreb Tetouan,965,0,0,True
+1511475,2026-02-01T14:00:00+00:00,FT,Regular Season - 13,Racing de Casablanca,966,El Massira,3451,1,2,True
+1511474,2026-02-01T14:00:00+00:00,FT,Regular Season - 13,Chabab Ben Guerir,3450,Mouloudia Oujda,1075,1,1,True
+1511477,2026-02-01T14:00:00+00:00,FT,Regular Season - 13,Wydad Fès,3459,Union Sportive Boujaad,26496,1,0,True
+1511476,2026-02-01T14:00:00+00:00,FT,Regular Season - 13,Stade Marocain,15549,Chabab Mohammédia,6387,3,0,True
+1516892,2026-02-07T14:00:00+00:00,FT,Regular Season - 14,Chabab Atl. Khenifra,970,USM Oujda,17716,1,2,True
+1516895,2026-02-07T14:00:00+00:00,FT,Regular Season - 14,Mouloudia Oujda,1075,Amal Tiznit,18753,1,1,True
+1516894,2026-02-07T14:00:00+00:00,FT,Regular Season - 14,Riadi Salmi,3456,KAC Kenitra,979,2,2,True
+1516899,2026-02-07T14:00:00+00:00,FT,Regular Season - 14,Widad Témara,3458,Stade Marocain,15549,1,1,True
+1516896,2026-02-07T14:00:00+00:00,FT,Regular Season - 14,Union Sportive Boujaad,26496,Chabab Ben Guerir,3450,2,1,True
+1516898,2026-02-08T14:00:00+00:00,FT,Regular Season - 14,Moghreb Tetouan,965,Racing de Casablanca,966,0,0,True
+1516893,2026-02-08T14:00:00+00:00,FT,Regular Season - 14,El Massira,3451,Wydad Fès,3459,3,2,True
+1516897,2026-02-08T14:00:00+00:00,FT,Regular Season - 14,Chabab Mohammédia,6387,Raja Beni Mellal,3455,1,0,True
+1516901,2026-02-14T14:00:00+00:00,FT,Regular Season - 15,KAC Kenitra,979,Chabab Mohammédia,6387,0,1,True
+1516902,2026-02-14T14:00:00+00:00,FT,Regular Season - 15,Raja Beni Mellal,3455,El Massira,3451,1,0,True
+1516903,2026-02-14T14:00:00+00:00,FT,Regular Season - 15,USM Oujda,17716,Widad Témara,3458,0,0,True
+1516900,2026-02-14T14:00:00+00:00,FT,Regular Season - 15,Amal Tiznit,18753,Chabab Atl. Khenifra,970,0,0,True
+1516905,2026-02-15T15:00:00+00:00,FT,Regular Season - 15,Racing de Casablanca,966,Union Sportive Boujaad,26496,0,2,True
+1516904,2026-02-15T15:00:00+00:00,FT,Regular Season - 15,Chabab Ben Guerir,3450,Riadi Salmi,3456,1,3,True
+1516907,2026-02-15T15:00:00+00:00,FT,Regular Season - 15,Wydad Fès,3459,Mouloudia Oujda,1075,2,2,True
+1516906,2026-02-15T15:00:00+00:00,FT,Regular Season - 15,Stade Marocain,15549,Moghreb Tetouan,965,2,2,True
+1524323,2026-02-21T15:00:00+00:00,FT,Regular Season - 16,Racing de Casablanca,966,Mouloudia Oujda,1075,3,0,True
+1524325,2026-02-21T15:00:00+00:00,FT,Regular Season - 16,USM Oujda,17716,El Massira,3451,1,1,True
+1524326,2026-02-21T22:00:00+00:00,FT,Regular Season - 16,Moghreb Tetouan,965,Union Sportive Boujaad,26496,1,0,True
+1524324,2026-02-21T22:00:00+00:00,FT,Regular Season - 16,Raja Beni Mellal,3455,KAC Kenitra,979,1,0,True
+1524328,2026-02-22T15:00:00+00:00,FT,Regular Season - 16,Chabab Ben Guerir,3450,Widad Témara,3458,1,2,True
+1524329,2026-02-22T15:00:00+00:00,FT,Regular Season - 16,Stade Marocain,15549,Riadi Salmi,3456,1,2,True
+1524327,2026-02-22T15:00:00+00:00,FT,Regular Season - 16,Amal Tiznit,18753,Chabab Mohammédia,6387,1,1,True
+1524330,2026-02-22T22:00:00+00:00,FT,Regular Season - 16,Wydad Fès,3459,Chabab Atl. Khenifra,970,1,0,True
+1524334,2026-02-28T22:00:00+00:00,FT,Regular Season - 17,Mouloudia Oujda,1075,Union Sportive Boujaad,26496,0,3,True
+1524332,2026-02-28T22:00:00+00:00,FT,Regular Season - 17,Raja Beni Mellal,3455,Amal Tiznit,18753,1,1,True
+1524333,2026-02-28T22:00:00+00:00,FT,Regular Season - 17,Widad Témara,3458,Wydad Fès,3459,0,1,True
+1524336,2026-03-01T15:00:00+00:00,FT,Regular Season - 17,KAC Kenitra,979,Chabab Ben Guerir,3450,1,1,True
+1524337,2026-03-01T22:00:00+00:00,FT,Regular Season - 17,Chabab Atl. Khenifra,970,Stade Marocain,15549,1,0,True
+1524335,2026-03-01T22:00:00+00:00,FT,Regular Season - 17,Riadi Salmi,3456,Racing de Casablanca,966,0,0,True
+1524338,2026-03-01T22:00:00+00:00,FT,Regular Season - 17,Chabab Mohammédia,6387,USM Oujda,17716,1,0,True
+1524331,2026-03-03T15:00:00+00:00,FT,Regular Season - 17,El Massira,3451,Moghreb Tetouan,965,0,0,True
+1530055,2026-03-07T15:00:00+00:00,FT,Regular Season - 18,Racing de Casablanca,966,Chabab Atl. Khenifra,970,0,1,True
+1530054,2026-03-07T15:00:00+00:00,FT,Regular Season - 18,Chabab Ben Guerir,3450,Chabab Mohammédia,6387,0,0,True
+1530056,2026-03-07T15:00:00+00:00,FT,Regular Season - 18,Stade Marocain,15549,Mouloudia Oujda,1075,1,3,True
+1530057,2026-03-07T22:00:00+00:00,FT,Regular Season - 18,Wydad Fès,3459,Riadi Salmi,3456,1,2,True
+1530059,2026-03-08T15:00:00+00:00,FT,Regular Season - 18,USM Oujda,17716,Raja Beni Mellal,3455,3,0,True
+1530058,2026-03-08T15:00:00+00:00,FT,Regular Season - 18,Amal Tiznit,18753,KAC Kenitra,979,2,1,True
+1530060,2026-03-08T22:00:00+00:00,FT,Regular Season - 18,Moghreb Tetouan,965,Widad Témara,3458,1,1,True
+1530061,2026-03-08T22:00:00+00:00,FT,Regular Season - 18,Union Sportive Boujaad,26496,El Massira,3451,0,0,True
+1530062,2026-03-14T15:00:00+00:00,FT,Regular Season - 19,KAC Kenitra,979,USM Oujda,17716,0,0,True
+1530063,2026-03-14T22:00:00+00:00,FT,Regular Season - 19,Chabab Atl. Khenifra,970,El Massira,3451,1,0,True
+1530065,2026-03-14T22:00:00+00:00,FT,Regular Season - 19,Riadi Salmi,3456,Union Sportive Boujaad,26496,1,0,True
+1530064,2026-03-14T22:00:00+00:00,FT,Regular Season - 19,Chabab Mohammédia,6387,Wydad Fès,3459,0,3,True
+1530066,2026-03-15T15:00:00+00:00,FT,Regular Season - 19,Amal Tiznit,18753,Stade Marocain,15549,2,0,True
+1530067,2026-03-15T22:00:00+00:00,FT,Regular Season - 19,Mouloudia Oujda,1075,Moghreb Tetouan,965,1,3,True
+1530068,2026-03-15T22:00:00+00:00,FT,Regular Season - 19,Raja Beni Mellal,3455,Chabab Ben Guerir,3450,0,0,True
+1530069,2026-03-15T22:00:00+00:00,FT,Regular Season - 19,Widad Témara,3458,Racing de Casablanca,966,1,0,True
+1537560,2026-03-28T14:00:00+00:00,FT,Regular Season - 20,Chabab Ben Guerir,3450,Chabab Atl. Khenifra,970,4,0,True
+1537561,2026-03-28T14:00:00+00:00,FT,Regular Season - 20,Stade Marocain,15549,Raja Beni Mellal,3455,1,0,True
+1537562,2026-03-28T14:00:00+00:00,FT,Regular Season - 20,Union Sportive Boujaad,26496,Widad Témara,3458,2,2,True
+1537563,2026-03-28T17:00:00+00:00,FT,Regular Season - 20,Moghreb Tetouan,965,Riadi Salmi,3456,0,1,True
+1537565,2026-03-29T14:00:00+00:00,FT,Regular Season - 20,Racing de Casablanca,966,Chabab Mohammédia,6387,2,0,True
+1537564,2026-03-29T14:00:00+00:00,FT,Regular Season - 20,El Massira,3451,Mouloudia Oujda,1075,1,1,True
+1537566,2026-03-29T14:00:00+00:00,FT,Regular Season - 20,USM Oujda,17716,Amal Tiznit,18753,0,0,True
+1537567,2026-03-29T17:00:00+00:00,FT,Regular Season - 20,Wydad Fès,3459,KAC Kenitra,979,2,0,True
+1537569,2026-04-04T14:00:00+00:00,FT,Regular Season - 21,KAC Kenitra,979,Stade Marocain,15549,1,0,True
+1537568,2026-04-04T14:00:00+00:00,FT,Regular Season - 21,Chabab Mohammédia,6387,Moghreb Tetouan,965,1,0,True
+1537570,2026-04-04T17:00:00+00:00,FT,Regular Season - 21,Chabab Atl. Khenifra,970,Union Sportive Boujaad,26496,2,0,True
+1537571,2026-04-04T17:00:00+00:00,FT,Regular Season - 21,Riadi Salmi,3456,Mouloudia Oujda,1075,1,1,True
+1537574,2026-04-05T14:00:00+00:00,FT,Regular Season - 21,Widad Témara,3458,El Massira,3451,1,0,True
+1537573,2026-04-05T14:00:00+00:00,FT,Regular Season - 21,USM Oujda,17716,Chabab Ben Guerir,3450,1,1,True
+1537572,2026-04-05T14:00:00+00:00,FT,Regular Season - 21,Amal Tiznit,18753,Wydad Fès,3459,2,0,True
+1537575,2026-04-05T17:00:00+00:00,FT,Regular Season - 21,Raja Beni Mellal,3455,Racing de Casablanca,966,1,0,True
+1542511,2026-04-25T15:00:00+00:00,FT,Regular Season - 22,Chabab Ben Guerir,3450,Amal Tiznit,18753,1,0,True
+1542513,2026-04-25T15:00:00+00:00,FT,Regular Season - 22,Wydad Fès,3459,Raja Beni Mellal,3455,1,1,True
+1542512,2026-04-25T15:00:00+00:00,FT,Regular Season - 22,Union Sportive Boujaad,26496,Chabab Mohammédia,6387,0,0,True
+1542514,2026-04-25T17:00:00+00:00,FT,Regular Season - 22,Mouloudia Oujda,1075,Widad Témara,3458,0,1,True
+1542516,2026-04-26T15:00:00+00:00,FT,Regular Season - 22,Racing de Casablanca,966,KAC Kenitra,979,0,2,True
+1542515,2026-04-26T15:00:00+00:00,FT,Regular Season - 22,El Massira,3451,Riadi Salmi,3456,3,0,True
+1542517,2026-04-26T15:00:00+00:00,FT,Regular Season - 22,Stade Marocain,15549,USM Oujda,17716,1,0,True
+1542518,2026-04-26T17:00:00+00:00,FT,Regular Season - 22,Moghreb Tetouan,965,Chabab Atl. Khenifra,970,2,1,True
+1543306,2026-05-02T15:00:00+00:00,FT,Regular Season - 23,Raja Beni Mellal,3455,Moghreb Tetouan,965,2,0,True
+1543305,2026-05-02T15:00:00+00:00,FT,Regular Season - 23,Chabab Mohammédia,6387,El Massira,3451,1,3,True
+1543307,2026-05-02T15:00:00+00:00,FT,Regular Season - 23,USM Oujda,17716,Wydad Fès,3459,1,0,True
+1543308,2026-05-02T17:00:00+00:00,FT,Regular Season - 23,Chabab Atl. Khenifra,970,Mouloudia Oujda,1075,4,0,True
+1543311,2026-05-03T15:00:00+00:00,FT,Regular Season - 23,KAC Kenitra,979,Union Sportive Boujaad,26496,2,1,True
+1543310,2026-05-03T15:00:00+00:00,FT,Regular Season - 23,Chabab Ben Guerir,3450,Stade Marocain,15549,1,0,True
+1543312,2026-05-03T15:00:00+00:00,FT,Regular Season - 23,Widad Témara,3458,Riadi Salmi,3456,3,2,True
+1543309,2026-05-03T15:00:00+00:00,FT,Regular Season - 23,Amal Tiznit,18753,Racing de Casablanca,966,2,2,True
+1544322,2026-05-09T15:00:00+00:00,FT,Regular Season - 24,El Massira,3451,KAC Kenitra,979,1,1,True
+1544323,2026-05-09T15:00:00+00:00,FT,Regular Season - 24,Riadi Salmi,3456,Chabab Atl. Khenifra,970,0,1,True
+1544324,2026-05-09T15:00:00+00:00,FT,Regular Season - 24,Union Sportive Boujaad,26496,Raja Beni Mellal,3455,2,1,True
+1544325,2026-05-09T17:00:00+00:00,FT,Regular Season - 24,Wydad Fès,3459,Chabab Ben Guerir,3450,1,1,True
+1544326,2026-05-10T15:00:00+00:00,FT,Regular Season - 24,Racing de Casablanca,966,Stade Marocain,15549,0,1,True
+1544327,2026-05-10T15:00:00+00:00,FT,Regular Season - 24,Widad Témara,3458,Amal Tiznit,18753,1,1,True
+1544328,2026-05-10T17:00:00+00:00,FT,Regular Season - 24,Moghreb Tetouan,965,USM Oujda,17716,2,0,True
+1544329,2026-05-10T17:00:00+00:00,FT,Regular Season - 24,Mouloudia Oujda,1075,Chabab Mohammédia,6387,0,0,True
+1545709,2026-05-23T15:00:00+00:00,FT,Regular Season - 25,KAC Kenitra,979,Moghreb Tetouan,965,2,2,True
+1545707,2026-05-23T15:00:00+00:00,FT,Regular Season - 25,Chabab Ben Guerir,3450,El Massira,3451,0,0,True
+1545710,2026-05-23T15:00:00+00:00,FT,Regular Season - 25,Raja Beni Mellal,3455,Mouloudia Oujda,1075,3,2,True
+1545708,2026-05-23T15:00:00+00:00,FT,Regular Season - 25,Chabab Mohammédia,6387,Riadi Salmi,3456,2,2,True
+1545712,2026-05-24T15:00:00+00:00,FT,Regular Season - 25,Stade Marocain,15549,Wydad Fès,3459,2,0,True
+1545713,2026-05-24T15:00:00+00:00,FT,Regular Season - 25,USM Oujda,17716,Racing de Casablanca,966,3,1,True
+1545711,2026-05-24T15:00:00+00:00,FT,Regular Season - 25,Amal Tiznit,18753,Union Sportive Boujaad,26496,0,0,True
+1545714,2026-05-24T17:00:00+00:00,FT,Regular Season - 25,Chabab Atl. Khenifra,970,Widad Témara,3458,1,1,True
+1548311,2026-06-06T16:00:00+00:00,FT,Regular Season - 26,Riadi Salmi,3456,Raja Beni Mellal,3455,1,1,True
+1548312,2026-06-06T16:00:00+00:00,FT,Regular Season - 26,Union Sportive Boujaad,26496,Stade Marocain,15549,0,1,True
+1548313,2026-06-06T18:00:00+00:00,FT,Regular Season - 26,Moghreb Tetouan,965,Wydad Fès,3459,1,1,True
+1548314,2026-06-06T18:00:00+00:00,FT,Regular Season - 26,Mouloudia Oujda,1075,USM Oujda,17716,2,1,True
+1548316,2026-06-07T16:00:00+00:00,FT,Regular Season - 26,Racing de Casablanca,966,Chabab Ben Guerir,3450,0,1,True
+1548315,2026-06-07T16:00:00+00:00,FT,Regular Season - 26,El Massira,3451,Amal Tiznit,18753,1,1,True
+1548317,2026-06-07T16:00:00+00:00,FT,Regular Season - 26,Widad Témara,3458,KAC Kenitra,979,1,1,True
+1548318,2026-06-07T17:00:00+00:00,FT,Regular Season - 26,Chabab Atl. Khenifra,970,Chabab Mohammédia,6387,1,0,True
+1548319,2026-06-13T16:00:00+00:00,FT,Regular Season - 27,Chabab Ben Guerir,3450,Moghreb Tetouan,965,0,0,True
+1548321,2026-06-13T16:00:00+00:00,FT,Regular Season - 27,Raja Beni Mellal,3455,Chabab Atl. Khenifra,970,0,0,True
+1548322,2026-06-13T16:00:00+00:00,FT,Regular Season - 27,USM Oujda,17716,Union Sportive Boujaad,26496,1,0,True
+1548323,2026-06-13T18:00:00+00:00,FT,Regular Season - 27,Wydad Fès,3459,Racing de Casablanca,966,2,2,True
+1548325,2026-06-14T16:00:00+00:00,FT,Regular Season - 27,KAC Kenitra,979,Mouloudia Oujda,1075,1,0,True
+1548320,2026-06-14T16:00:00+00:00,FT,Regular Season - 27,Chabab Mohammédia,6387,Widad Témara,3458,1,1,True
+1548326,2026-06-14T16:00:00+00:00,FT,Regular Season - 27,Stade Marocain,15549,El Massira,3451,1,0,True
+1548324,2026-06-14T16:00:00+00:00,FT,Regular Season - 27,Amal Tiznit,18753,Riadi Salmi,3456,2,1,True
+1556565,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Moghreb Tetouan,965,Amal Tiznit,18753,3,1,True
+1556561,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Chabab Atl. Khenifra,970,KAC Kenitra,979,2,1,True
+1556566,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Mouloudia Oujda,1075,Chabab Ben Guerir,3450,1,1,True
+1556563,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,El Massira,3451,Racing de Casablanca,966,2,1,True
+1556564,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Riadi Salmi,3456,USM Oujda,17716,2,0,True
+1556568,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Widad Témara,3458,Raja Beni Mellal,3455,2,1,True
+1556562,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Chabab Mohammédia,6387,Stade Marocain,15549,0,1,True
+1556567,2026-06-20T15:00:00+00:00,FT,Regular Season - 28,Union Sportive Boujaad,26496,Wydad Fès,3459,1,1,True
+1556572,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,Racing de Casablanca,966,Moghreb Tetouan,965,0,2,True
+1556571,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,KAC Kenitra,979,Riadi Salmi,3456,1,2,True
+1556570,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,Chabab Ben Guerir,3450,Union Sportive Boujaad,26496,0,0,True
+1556573,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,Raja Beni Mellal,3455,Chabab Mohammédia,6387,2,0,True
+1556576,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,Wydad Fès,3459,El Massira,3451,3,0,True
+1556574,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,Stade Marocain,15549,Widad Témara,3458,0,1,True
+1556575,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,USM Oujda,17716,Chabab Atl. Khenifra,970,1,1,True
+1556569,2026-06-27T15:00:00+00:00,FT,Regular Season - 29,Amal Tiznit,18753,Mouloudia Oujda,1075,1,1,True
+1576128,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Moghreb Tetouan,965,Stade Marocain,15549,1,0,True
+1576124,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Chabab Atl. Khenifra,970,Amal Tiznit,18753,0,1,True
+1576129,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Mouloudia Oujda,1075,Wydad Fès,3459,1,1,True
+1576126,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,El Massira,3451,Raja Beni Mellal,3455,3,1,True
+1576127,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Riadi Salmi,3456,Chabab Ben Guerir,3450,1,1,True
+1576131,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Widad Témara,3458,USM Oujda,17716,0,1,True
+1576125,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Chabab Mohammédia,6387,KAC Kenitra,979,4,3,True
+1576130,2026-07-05T15:00:00+00:00,FT,Regular Season - 30,Union Sportive Boujaad,26496,Racing de Casablanca,966,4,0,True
+1589966,2026-07-18T18:00:00+00:00,FT,Final,Rapide Oued ZEM,967,Union Sportive Boujaad,26496,0,1,True
+1589965,2026-07-18T18:00:00+00:00,FT,Final,AS Mansouria,18752,KAC Kenitra,979,0,0,True
+1589967,2026-07-22T18:00:00+00:00,FT,Final,KAC Kenitra,979,AS Mansouria,18752,2,0,True
+1589968,2026-07-22T18:00:00+00:00,FT,Final,Union Sportive Boujaad,26496,Rapide Oued ZEM,967,4,1,True

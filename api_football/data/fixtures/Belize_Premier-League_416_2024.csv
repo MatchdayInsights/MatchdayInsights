@@ -1,37 +1,73 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1337212,2025-01-19T01:30:00+00:00,FT,Verdes,5475,Progresso,19762,4,1,True
-1337213,2025-01-19T01:30:00+00:00,FT,San Pedro Pirates,5478,Wagiya,5476,4,1,True
-1334644,2025-01-19T22:00:00+00:00,FT,Port Layola,19741,Bandits,5470,6,2,True
-1339884,2025-01-26T01:30:00+00:00,FT,Verdes,5475,San Pedro Pirates,5478,2,1,True
-1339886,2025-01-26T22:00:00+00:00,FT,Wagiya,5476,Port Layola,19741,1,3,True
-1339885,2025-01-26T22:00:00+00:00,FT,Progresso,19762,Bandits,5470,5,0,True
-1345186,2025-02-02T01:30:00+00:00,FT,Bandits,5470,San Pedro Pirates,5478,1,2,True
-1345188,2025-02-02T22:00:00+00:00,FT,Wagiya,5476,Verdes,5475,0,2,True
-1347928,2025-02-09T01:30:00+00:00,FT,Bandits,5470,Wagiya,5476,0,0,True
-1347930,2025-02-09T01:30:00+00:00,FT,Verdes,5475,Port Layola,19741,0,0,True
-1347929,2025-02-09T01:30:00+00:00,FT,San Pedro Pirates,5478,Progresso,19762,1,2,True
-1350673,2025-02-16T01:30:00+00:00,FT,Verdes,5475,Bandits,5470,1,3,True
-1350675,2025-02-16T22:00:00+00:00,FT,Port Layola,19741,San Pedro Pirates,5478,3,1,True
-1350674,2025-02-16T22:00:00+00:00,FT,Progresso,19762,Wagiya,5476,5,0,True
-1353154,2025-02-23T01:30:00+00:00,FT,Bandits,5470,Port Layola,19741,0,1,True
-1352864,2025-02-23T22:00:00+00:00,FT,Wagiya,5476,San Pedro Pirates,5478,3,3,True
-1352763,2025-02-23T22:00:00+00:00,FT,Progresso,19762,Verdes,5475,0,0,True
-1345187,2025-02-27T01:30:00+00:00,FT,Port Layola,19741,Progresso,19762,4,1,True
-1355161,2025-03-02T01:30:00+00:00,FT,Bandits,5470,Progresso,19762,0,2,True
-1354983,2025-03-02T01:30:00+00:00,FT,San Pedro Pirates,5478,Verdes,5475,2,2,True
-1355604,2025-03-02T22:00:00+00:00,FT,Port Layola,19741,Wagiya,5476,3,0,True
-1359810,2025-03-09T01:30:00+00:00,FT,Verdes,5475,Wagiya,5476,4,0,True
-1358846,2025-03-09T01:30:00+00:00,FT,San Pedro Pirates,5478,Bandits,5470,0,2,True
-1359811,2025-03-09T22:00:00+00:00,FT,Progresso,19762,Port Layola,19741,1,3,True
-1361338,2025-03-15T22:00:00+00:00,FT,Wagiya,5476,Bandits,5470,2,3,True
-1361339,2025-03-16T22:00:00+00:00,FT,Port Layola,19741,Verdes,5475,0,0,True
-1361549,2025-03-16T22:00:00+00:00,FT,Progresso,19762,San Pedro Pirates,5478,1,1,True
-1366858,2025-03-30T01:30:00+00:00,FT,Bandits,5470,Verdes,5475,1,6,True
-1366857,2025-03-30T01:30:00+00:00,FT,San Pedro Pirates,5478,Port Layola,19741,0,0,True
-1366859,2025-03-30T22:00:00+00:00,FT,Wagiya,5476,Progresso,19762,0,3,True
-1368157,2025-04-06T01:30:00+00:00,FT,San Pedro Pirates,5478,Port Layola,19741,1,1,True
-1368158,2025-04-06T22:00:00+00:00,FT,Progresso,19762,Verdes,5475,0,1,True
-1368298,2025-04-13T01:30:00+00:00,FT,Verdes,5475,Progresso,19762,4,0,True
-1368297,2025-04-13T22:00:00+00:00,FT,Port Layola,19741,San Pedro Pirates,5478,2,4,True
-1371561,2025-04-20T01:30:00+00:00,FT,San Pedro Pirates,5478,Verdes,5475,0,2,True
-1371562,2025-04-27T01:30:00+00:00,FT,Verdes,5475,San Pedro Pirates,5478,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1279534,2024-08-04T01:30:00+00:00,FT,Opening - 1,Progresso,19762,Bandits,5470,3,0,True
+1279535,2024-08-04T22:00:00+00:00,FT,Opening - 1,Verdes,5475,Wagiya,5476,7,0,True
+1279536,2024-08-04T22:00:00+00:00,FT,Opening - 1,Port Layola,19741,San Pedro Pirates,5478,0,0,True
+1285256,2024-08-11T01:30:00+00:00,FT,Opening - 2,Progresso,19762,Verdes,5475,1,0,True
+1285257,2024-08-11T22:00:00+00:00,FT,Opening - 2,Bandits,5470,San Pedro Pirates,5478,0,4,True
+1287827,2024-08-18T01:00:00+00:00,FT,Opening - 3,San Pedro Pirates,5478,Verdes,5475,0,3,True
+1287828,2024-08-18T22:00:00+00:00,FT,Opening - 3,Wagiya,5476,Progresso,19762,1,2,True
+1287829,2024-08-18T22:00:00+00:00,FT,Opening - 3,Port Layola,19741,Bandits,5470,2,0,True
+1295041,2024-08-25T01:30:00+00:00,FT,Opening - 4,Port Layola,19741,Progresso,19762,1,0,True
+1295042,2024-08-25T22:00:00+00:00,FT,Opening - 4,Verdes,5475,Bandits,5470,3,0,True
+1295043,2024-08-26T00:00:00+00:00,FT,Opening - 4,San Pedro Pirates,5478,Wagiya,5476,2,2,True
+1285258,2024-08-28T22:00:00+00:00,FT,Opening - 2,Port Layola,19741,Wagiya,5476,3,2,True
+1298558,2024-09-01T01:30:00+00:00,FT,Opening - 5,Bandits,5470,Wagiya,5476,2,1,True
+1298559,2024-09-01T01:30:00+00:00,FT,Opening - 5,Progresso,19762,San Pedro Pirates,5478,0,0,True
+1298560,2024-09-02T00:00:00+00:00,FT,Opening - 5,Port Layola,19741,Verdes,5475,3,2,True
+1304880,2024-09-15T01:00:00+00:00,FT,Opening - 6,San Pedro Pirates,5478,Port Layola,19741,1,0,True
+1305916,2024-09-15T01:30:00+00:00,FT,Opening - 6,Bandits,5470,Progresso,19762,1,1,True
+1304383,2024-09-15T22:00:00+00:00,FT,Opening - 6,Wagiya,5476,Verdes,5475,0,3,True
+1306731,2024-09-21T01:30:00+00:00,FT,Opening - 7,San Pedro Pirates,5478,Bandits,5470,1,0,True
+1306732,2024-09-21T02:00:00+00:00,FT,Opening - 7,Verdes,5475,Progresso,19762,3,0,True
+1306733,2024-09-22T22:00:00+00:00,FT,Opening - 7,Wagiya,5476,Port Layola,19741,0,4,True
+1308657,2024-09-27T02:00:00+00:00,FT,Opening - 8,Port Layola,19741,Bandits,5470,6,0,True
+1308658,2024-09-29T01:30:00+00:00,FT,Opening - 8,Progresso,19762,Wagiya,5476,3,0,True
+1308659,2024-09-29T22:00:00+00:00,FT,Opening - 8,Verdes,5475,San Pedro Pirates,5478,2,0,True
+1310597,2024-10-06T01:30:00+00:00,FT,Opening - 9,Bandits,5470,Verdes,5475,1,2,True
+1310598,2024-10-06T22:00:00+00:00,FT,Opening - 9,Wagiya,5476,San Pedro Pirates,5478,3,5,True
+1310422,2024-10-06T22:00:00+00:00,FT,Opening - 9,Port Layola,19741,Progresso,19762,4,0,True
+1312095,2024-11-03T01:00:00+00:00,FT,Opening - 10,Verdes,5475,Port Layola,19741,1,0,True
+1312094,2024-11-03T01:00:00+00:00,FT,Opening - 10,San Pedro Pirates,5478,Progresso,19762,2,2,True
+1312096,2024-11-08T02:00:00+00:00,FT,Opening - 10,Wagiya,5476,Bandits,5470,3,1,True
+1315176,2024-11-10T01:30:00+00:00,FT,Opening - Semi-finals,San Pedro Pirates,5478,Verdes,5475,1,1,True
+1315177,2024-11-10T01:30:00+00:00,FT,Opening - Semi-finals,Progresso,19762,Port Layola,19741,2,4,True
+1315439,2024-11-24T01:30:00+00:00,FT,Opening - Semi-finals,Verdes,5475,San Pedro Pirates,5478,2,3,True
+1315440,2024-11-24T22:00:00+00:00,FT,Opening - Semi-finals,Port Layola,19741,Progresso,19762,2,1,True
+1317465,2024-12-01T01:30:00+00:00,FT,Opening - Finals,San Pedro Pirates,5478,Port Layola,19741,0,3,True
+1317466,2024-12-08T22:00:00+00:00,FT,Opening - Finals,Port Layola,19741,San Pedro Pirates,5478,1,2,True
+1337212,2025-01-19T01:30:00+00:00,FT,Closing - 1,Verdes,5475,Progresso,19762,4,1,True
+1337213,2025-01-19T01:30:00+00:00,FT,Closing - 1,San Pedro Pirates,5478,Wagiya,5476,4,1,True
+1334644,2025-01-19T22:00:00+00:00,FT,Closing - 1,Port Layola,19741,Bandits,5470,6,2,True
+1339884,2025-01-26T01:30:00+00:00,FT,Closing - 2,Verdes,5475,San Pedro Pirates,5478,2,1,True
+1339886,2025-01-26T22:00:00+00:00,FT,Closing - 2,Wagiya,5476,Port Layola,19741,1,3,True
+1339885,2025-01-26T22:00:00+00:00,FT,Closing - 2,Progresso,19762,Bandits,5470,5,0,True
+1345186,2025-02-02T01:30:00+00:00,FT,Closing - 3,Bandits,5470,San Pedro Pirates,5478,1,2,True
+1345188,2025-02-02T22:00:00+00:00,FT,Closing - 3,Wagiya,5476,Verdes,5475,0,2,True
+1347928,2025-02-09T01:30:00+00:00,FT,Closing - 4,Bandits,5470,Wagiya,5476,0,0,True
+1347930,2025-02-09T01:30:00+00:00,FT,Closing - 4,Verdes,5475,Port Layola,19741,0,0,True
+1347929,2025-02-09T01:30:00+00:00,FT,Closing - 4,San Pedro Pirates,5478,Progresso,19762,1,2,True
+1350673,2025-02-16T01:30:00+00:00,FT,Closing - 5,Verdes,5475,Bandits,5470,1,3,True
+1350675,2025-02-16T22:00:00+00:00,FT,Closing - 5,Port Layola,19741,San Pedro Pirates,5478,3,1,True
+1350674,2025-02-16T22:00:00+00:00,FT,Closing - 5,Progresso,19762,Wagiya,5476,5,0,True
+1353154,2025-02-23T01:30:00+00:00,FT,Closing - 6,Bandits,5470,Port Layola,19741,0,1,True
+1352864,2025-02-23T22:00:00+00:00,FT,Closing - 6,Wagiya,5476,San Pedro Pirates,5478,3,3,True
+1352763,2025-02-23T22:00:00+00:00,FT,Closing - 6,Progresso,19762,Verdes,5475,0,0,True
+1345187,2025-02-27T01:30:00+00:00,FT,Closing - 3,Port Layola,19741,Progresso,19762,4,1,True
+1355161,2025-03-02T01:30:00+00:00,FT,Closing - 7,Bandits,5470,Progresso,19762,0,2,True
+1354983,2025-03-02T01:30:00+00:00,FT,Closing - 7,San Pedro Pirates,5478,Verdes,5475,2,2,True
+1355604,2025-03-02T22:00:00+00:00,FT,Closing - 7,Port Layola,19741,Wagiya,5476,3,0,True
+1359810,2025-03-09T01:30:00+00:00,FT,Closing - 8,Verdes,5475,Wagiya,5476,4,0,True
+1358846,2025-03-09T01:30:00+00:00,FT,Closing - 8,San Pedro Pirates,5478,Bandits,5470,0,2,True
+1359811,2025-03-09T22:00:00+00:00,FT,Closing - 8,Progresso,19762,Port Layola,19741,1,3,True
+1361338,2025-03-15T22:00:00+00:00,FT,Closing - 9,Wagiya,5476,Bandits,5470,2,3,True
+1361339,2025-03-16T22:00:00+00:00,FT,Closing - 9,Port Layola,19741,Verdes,5475,0,0,True
+1361549,2025-03-16T22:00:00+00:00,FT,Closing - 9,Progresso,19762,San Pedro Pirates,5478,1,1,True
+1366858,2025-03-30T01:30:00+00:00,FT,Closing - 10,Bandits,5470,Verdes,5475,1,6,True
+1366857,2025-03-30T01:30:00+00:00,FT,Closing - 10,San Pedro Pirates,5478,Port Layola,19741,0,0,True
+1366859,2025-03-30T22:00:00+00:00,FT,Closing - 10,Wagiya,5476,Progresso,19762,0,3,True
+1368157,2025-04-06T01:30:00+00:00,FT,Closing - Semi-finals,San Pedro Pirates,5478,Port Layola,19741,1,1,True
+1368158,2025-04-06T22:00:00+00:00,FT,Closing - Semi-finals,Progresso,19762,Verdes,5475,0,1,True
+1368298,2025-04-13T01:30:00+00:00,FT,Closing - Semi-finals,Verdes,5475,Progresso,19762,4,0,True
+1368297,2025-04-13T22:00:00+00:00,FT,Closing - Semi-finals,Port Layola,19741,San Pedro Pirates,5478,2,4,True
+1371561,2025-04-20T01:30:00+00:00,FT,Closing - Finals,San Pedro Pirates,5478,Verdes,5475,0,2,True
+1371562,2025-04-27T01:30:00+00:00,FT,Closing - Finals,Verdes,5475,San Pedro Pirates,5478,2,0,True

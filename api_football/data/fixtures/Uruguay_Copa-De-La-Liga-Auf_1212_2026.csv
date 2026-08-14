@@ -1,16 +1,16 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1505331,2026-01-11T22:00:00+00:00,FT,Juventud,2353,Wanderers,2360,3,0,True
-1505332,2026-01-12T00:30:00+00:00,PEN,Defensor Sporting,2350,Progreso,2363,0,0,False
-1505333,2026-01-12T22:00:00+00:00,FT,Boston River,2361,Danubio,2352,1,0,True
-1505334,2026-01-13T00:30:00+00:00,PEN,Penarol,2348,Central Espanol,2368,0,0,False
-1505335,2026-01-13T22:00:00+00:00,FT,Liverpool Montevideo,2358,Albion FC,2378,0,2,True
-1505336,2026-01-14T00:30:00+00:00,PEN,Club Nacional,2356,Deportivo Maldonado,2370,0,0,False
-1505337,2026-01-14T22:00:00+00:00,FT,Atletico Torque,2365,Cerro Largo,2369,2,3,True
-1505338,2026-01-15T00:30:00+00:00,FT,Racing Montevideo,2359,Cerro,2362,2,1,True
-1505934,2026-01-19T00:30:00+00:00,FT,Juventud,2353,Progreso,2363,0,1,True
-1506741,2026-01-18T22:00:00+00:00,PEN,Boston River,2361,Albion FC,2378,1,1,False
-1508101,2026-01-17T23:00:00+00:00,PEN,Club Nacional,2356,Cerro Largo,2369,1,1,False
-1508102,2026-01-20T00:30:00+00:00,FT,Penarol,2348,Racing Montevideo,2359,1,0,True
-1509671,2026-01-22T23:30:00+00:00,PEN,Club Nacional,2356,Progreso,2363,1,1,False
-1509767,2026-01-23T23:30:00+00:00,PEN,Penarol,2348,Boston River,2361,2,2,False
-1513679,2026-01-29T23:00:00+00:00,FT,Boston River,2361,Progreso,2363,1,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1505331,2026-01-11T22:00:00+00:00,FT,Round of 16,Juventud,2353,Wanderers,2360,3,0,True
+1505332,2026-01-12T00:30:00+00:00,PEN,Round of 16,Defensor Sporting,2350,Progreso,2363,0,0,False
+1505333,2026-01-12T22:00:00+00:00,FT,Round of 16,Boston River,2361,Danubio,2352,1,0,True
+1505334,2026-01-13T00:30:00+00:00,PEN,Round of 16,Penarol,2348,Central Espanol,2368,0,0,False
+1505335,2026-01-13T22:00:00+00:00,FT,Round of 16,Liverpool Montevideo,2358,Albion FC,2378,0,2,True
+1505336,2026-01-14T00:30:00+00:00,PEN,Round of 16,Club Nacional,2356,Deportivo Maldonado,2370,0,0,False
+1505337,2026-01-14T22:00:00+00:00,FT,Round of 16,Atletico Torque,2365,Cerro Largo,2369,2,3,True
+1505338,2026-01-15T00:30:00+00:00,FT,Round of 16,Racing Montevideo,2359,Cerro,2362,2,1,True
+1505934,2026-01-19T00:30:00+00:00,FT,Quarter-finals,Juventud,2353,Progreso,2363,0,1,True
+1506741,2026-01-18T22:00:00+00:00,PEN,Quarter-finals,Boston River,2361,Albion FC,2378,1,1,False
+1508101,2026-01-17T23:00:00+00:00,PEN,Quarter-finals,Club Nacional,2356,Cerro Largo,2369,1,1,False
+1508102,2026-01-20T00:30:00+00:00,FT,Quarter-finals,Penarol,2348,Racing Montevideo,2359,1,0,True
+1509671,2026-01-22T23:30:00+00:00,PEN,Semi-finals,Club Nacional,2356,Progreso,2363,1,1,False
+1509767,2026-01-23T23:30:00+00:00,PEN,Semi-finals,Penarol,2348,Boston River,2361,2,2,False
+1513679,2026-01-29T23:00:00+00:00,FT,Final,Boston River,2361,Progreso,2363,1,2,True

@@ -1,156 +1,309 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1226318,2025-01-17T17:30:00+00:00,FT,Fortuna Düsseldorf,158,SV Darmstadt 98,181,2,2,True
-1226326,2025-01-17T17:30:00+00:00,FT,SSV Jahn Regensburg,177,Hannover 96,166,0,1,True
-1226324,2025-01-18T12:00:00+00:00,FT,Eintracht Braunschweig,744,FC Schalke 04,174,0,0,True
-1226323,2025-01-18T12:00:00+00:00,FT,1. FC Kaiserslautern,745,SSV Ulm 1846,1652,2,1,True
-1226325,2025-01-18T12:00:00+00:00,FT,Preußen Münster,1313,SpVgg Greuther Fürth,178,2,1,True
-1226319,2025-01-18T19:30:00+00:00,FT,Hamburger SV,175,1. FC Köln,192,1,0,True
-1226322,2025-01-19T12:30:00+00:00,FT,1. FC Nürnberg,171,Karlsruher SC,785,2,1,True
-1226320,2025-01-19T12:30:00+00:00,FT,SC Paderborn 07,185,Hertha BSC,159,1,2,True
-1226321,2025-01-19T12:30:00+00:00,FT,SV Elversberg,1660,1. FC Magdeburg,179,2,5,True
-1226331,2025-01-24T17:30:00+00:00,FT,SpVgg Greuther Fürth,178,1. FC Kaiserslautern,745,2,4,True
-1226334,2025-01-24T17:30:00+00:00,FT,1. FC Magdeburg,179,Eintracht Braunschweig,744,1,1,True
-1226333,2025-01-25T12:00:00+00:00,FT,FC Schalke 04,174,1. FC Nürnberg,171,3,1,True
-1226327,2025-01-25T12:00:00+00:00,FT,1. FC Köln,192,SV Elversberg,1660,1,0,True
-1226329,2025-01-25T12:00:00+00:00,FT,Karlsruher SC,785,Fortuna Düsseldorf,158,2,3,True
-1226332,2025-01-25T19:30:00+00:00,FT,Hertha BSC,159,Hamburger SV,175,2,3,True
-1226330,2025-01-26T12:30:00+00:00,FT,Hannover 96,166,Preußen Münster,1313,2,2,True
-1226328,2025-01-26T12:30:00+00:00,FT,SV Darmstadt 98,181,SC Paderborn 07,185,0,1,True
-1226335,2025-01-26T12:30:00+00:00,FT,SSV Ulm 1846,1652,SSV Jahn Regensburg,177,5,1,True
-1226341,2025-01-31T17:30:00+00:00,FT,1. FC Nürnberg,171,SV Darmstadt 98,181,1,0,True
-1226340,2025-01-31T17:30:00+00:00,FT,SV Elversberg,1660,Karlsruher SC,785,2,2,True
-1226336,2025-02-01T12:00:00+00:00,FT,Fortuna Düsseldorf,158,SSV Ulm 1846,1652,3,2,True
-1226344,2025-02-01T12:00:00+00:00,FT,SSV Jahn Regensburg,177,Hertha BSC,159,2,0,True
-1226343,2025-02-01T12:00:00+00:00,FT,Eintracht Braunschweig,744,1. FC Köln,192,1,2,True
-1226339,2025-02-01T19:30:00+00:00,FT,FC Schalke 04,174,1. FC Magdeburg,179,2,5,True
-1226337,2025-02-02T12:30:00+00:00,FT,Hamburger SV,175,Hannover 96,166,2,2,True
-1226338,2025-02-02T12:30:00+00:00,FT,SC Paderborn 07,185,SpVgg Greuther Fürth,178,1,2,True
-1226342,2025-02-02T12:30:00+00:00,FT,1. FC Kaiserslautern,745,Preußen Münster,1313,2,1,True
-1226349,2025-02-07T17:30:00+00:00,FT,SpVgg Greuther Fürth,178,SSV Jahn Regensburg,177,2,1,True
-1226353,2025-02-07T17:30:00+00:00,FT,Preußen Münster,1313,Hamburger SV,175,1,2,True
-1226351,2025-02-08T12:00:00+00:00,FT,1. FC Magdeburg,179,1. FC Nürnberg,171,3,4,True
-1226346,2025-02-08T12:00:00+00:00,FT,SV Darmstadt 98,181,SV Elversberg,1660,0,3,True
-1226352,2025-02-08T12:00:00+00:00,FT,SSV Ulm 1846,1652,SC Paderborn 07,185,0,2,True
-1226350,2025-02-08T19:30:00+00:00,FT,Hertha BSC,159,1. FC Kaiserslautern,745,0,1,True
-1226348,2025-02-09T12:30:00+00:00,FT,Hannover 96,166,Fortuna Düsseldorf,158,1,1,True
-1226345,2025-02-09T12:30:00+00:00,FT,1. FC Köln,192,FC Schalke 04,174,1,0,True
-1226347,2025-02-09T12:30:00+00:00,FT,Karlsruher SC,785,Eintracht Braunschweig,744,0,2,True
-1226360,2025-02-14T17:30:00+00:00,FT,1. FC Magdeburg,179,1. FC Köln,192,3,0,True
-1226355,2025-02-14T17:30:00+00:00,FT,SC Paderborn 07,185,Preußen Münster,1313,2,0,True
-1226361,2025-02-15T12:00:00+00:00,FT,Eintracht Braunschweig,744,SV Darmstadt 98,181,1,0,True
-1226359,2025-02-15T12:00:00+00:00,FT,1. FC Kaiserslautern,745,Hannover 96,166,0,0,True
-1226357,2025-02-15T12:00:00+00:00,FT,SV Elversberg,1660,SpVgg Greuther Fürth,178,2,0,True
-1226354,2025-02-15T19:30:00+00:00,FT,Fortuna Düsseldorf,158,Hertha BSC,159,2,1,True
-1226358,2025-02-16T12:30:00+00:00,FT,1. FC Nürnberg,171,SSV Ulm 1846,1652,2,0,True
-1226356,2025-02-16T12:30:00+00:00,FT,FC Schalke 04,174,Karlsruher SC,785,2,1,True
-1226362,2025-02-16T12:30:00+00:00,FT,SSV Jahn Regensburg,177,Hamburger SV,175,1,1,True
-1226369,2025-02-21T17:30:00+00:00,FT,Hertha BSC,159,1. FC Nürnberg,171,0,0,True
-1226365,2025-02-21T17:30:00+00:00,FT,Hamburger SV,175,1. FC Kaiserslautern,745,3,0,True
-1226366,2025-02-22T12:00:00+00:00,FT,Karlsruher SC,785,1. FC Magdeburg,179,3,1,True
-1226371,2025-02-22T12:00:00+00:00,FT,Preußen Münster,1313,SSV Jahn Regensburg,177,2,0,True
-1226370,2025-02-22T12:00:00+00:00,FT,SSV Ulm 1846,1652,SV Elversberg,1660,0,0,True
-1226367,2025-02-22T19:30:00+00:00,FT,Hannover 96,166,SC Paderborn 07,185,1,1,True
-1226368,2025-02-23T12:30:00+00:00,FT,SpVgg Greuther Fürth,178,Eintracht Braunschweig,744,3,0,True
-1226364,2025-02-23T12:30:00+00:00,FT,SV Darmstadt 98,181,FC Schalke 04,174,2,0,True
-1226363,2025-02-23T12:30:00+00:00,FT,1. FC Köln,192,Fortuna Düsseldorf,158,1,1,True
-1226372,2025-02-28T17:30:00+00:00,FT,Fortuna Düsseldorf,158,SpVgg Greuther Fürth,178,1,2,True
-1226375,2025-02-28T17:30:00+00:00,FT,FC Schalke 04,174,Preußen Münster,1313,1,0,True
-1226377,2025-03-01T12:00:00+00:00,FT,1. FC Nürnberg,171,Hannover 96,166,1,2,True
-1226380,2025-03-01T12:00:00+00:00,FT,Eintracht Braunschweig,744,SSV Ulm 1846,1652,1,1,True
-1226378,2025-03-01T12:00:00+00:00,FT,1. FC Kaiserslautern,745,SSV Jahn Regensburg,177,3,0,True
-1226373,2025-03-01T19:30:00+00:00,FT,Karlsruher SC,785,1. FC Köln,192,1,0,True
-1226379,2025-03-02T12:30:00+00:00,FT,1. FC Magdeburg,179,SV Darmstadt 98,181,4,1,True
-1226374,2025-03-02T12:30:00+00:00,FT,SC Paderborn 07,185,Hamburger SV,175,2,0,True
-1226376,2025-03-02T12:30:00+00:00,FT,SV Elversberg,1660,Hertha BSC,159,4,0,True
-1226381,2025-03-07T17:30:00+00:00,FT,SV Darmstadt 98,181,Karlsruher SC,785,3,0,True
-1226386,2025-03-07T17:30:00+00:00,FT,1. FC Kaiserslautern,745,SV Elversberg,1660,1,1,True
-1226385,2025-03-08T12:00:00+00:00,FT,Hertha BSC,159,FC Schalke 04,174,1,2,True
-1226384,2025-03-08T12:00:00+00:00,FT,SpVgg Greuther Fürth,178,1. FC Magdeburg,179,1,1,True
-1226387,2025-03-08T12:00:00+00:00,FT,SSV Ulm 1846,1652,1. FC Köln,192,0,1,True
-1226382,2025-03-08T19:30:00+00:00,FT,Hamburger SV,175,Fortuna Düsseldorf,158,4,1,True
-1226383,2025-03-09T12:30:00+00:00,FT,Hannover 96,166,Eintracht Braunschweig,744,1,1,True
-1226389,2025-03-09T12:30:00+00:00,FT,SSV Jahn Regensburg,177,SC Paderborn 07,185,0,0,True
-1226388,2025-03-09T12:30:00+00:00,FT,Preußen Münster,1313,1. FC Nürnberg,171,0,1,True
-1226394,2025-03-14T17:30:00+00:00,FT,FC Schalke 04,174,Hannover 96,166,1,2,True
-1226397,2025-03-14T17:30:00+00:00,FT,1. FC Magdeburg,179,Hamburger SV,175,0,3,True
-1226391,2025-03-15T12:00:00+00:00,FT,Fortuna Düsseldorf,158,SSV Jahn Regensburg,177,1,0,True
-1226393,2025-03-15T12:00:00+00:00,FT,SC Paderborn 07,185,1. FC Kaiserslautern,745,5,3,True
-1226395,2025-03-15T12:00:00+00:00,FT,SV Elversberg,1660,Preußen Münster,1313,0,1,True
-1226390,2025-03-15T19:30:00+00:00,FT,1. FC Köln,192,SV Darmstadt 98,181,2,1,True
-1226396,2025-03-16T12:30:00+00:00,FT,1. FC Nürnberg,171,SpVgg Greuther Fürth,178,3,0,True
-1226398,2025-03-16T12:30:00+00:00,FT,Eintracht Braunschweig,744,Hertha BSC,159,1,5,True
-1226392,2025-03-16T12:30:00+00:00,FT,Karlsruher SC,785,SSV Ulm 1846,1652,0,0,True
-1226399,2025-03-28T17:30:00+00:00,FT,Hamburger SV,175,SV Elversberg,1660,0,0,True
-1226405,2025-03-28T17:30:00+00:00,FT,SSV Ulm 1846,1652,SV Darmstadt 98,181,2,1,True
-1226403,2025-03-29T12:00:00+00:00,FT,Hertha BSC,159,Karlsruher SC,785,3,1,True
-1226400,2025-03-29T12:00:00+00:00,FT,Hannover 96,166,1. FC Magdeburg,179,0,0,True
-1226401,2025-03-29T12:00:00+00:00,FT,SC Paderborn 07,185,1. FC Köln,192,1,2,True
-1226404,2025-03-29T19:30:00+00:00,FT,1. FC Kaiserslautern,745,Fortuna Düsseldorf,158,3,1,True
-1226407,2025-03-30T11:30:00+00:00,FT,SSV Jahn Regensburg,177,1. FC Nürnberg,171,2,1,True
-1226402,2025-03-30T11:30:00+00:00,FT,SpVgg Greuther Fürth,178,FC Schalke 04,174,3,3,True
-1226406,2025-03-30T11:30:00+00:00,FT,Preußen Münster,1313,Eintracht Braunschweig,744,1,1,True
-1226416,2025-04-04T16:30:00+00:00,FT,Eintracht Braunschweig,744,SC Paderborn 07,185,3,2,True
-1226411,2025-04-04T16:30:00+00:00,FT,Karlsruher SC,785,Hannover 96,166,1,0,True
-1226410,2025-04-05T11:00:00+00:00,FT,Fortuna Düsseldorf,158,Preußen Münster,1313,1,0,True
-1226414,2025-04-05T11:00:00+00:00,FT,1. FC Nürnberg,171,Hamburger SV,175,0,3,True
-1226409,2025-04-05T11:00:00+00:00,FT,SV Darmstadt 98,181,SpVgg Greuther Fürth,178,1,0,True
-1226408,2025-04-05T18:30:00+00:00,FT,1. FC Köln,192,Hertha BSC,159,0,1,True
-1226412,2025-04-06T11:30:00+00:00,FT,FC Schalke 04,174,SSV Ulm 1846,1652,2,1,True
-1226415,2025-04-06T11:30:00+00:00,FT,1. FC Magdeburg,179,1. FC Kaiserslautern,745,2,0,True
-1226413,2025-04-06T11:30:00+00:00,FT,SV Elversberg,1660,SSV Jahn Regensburg,177,6,0,True
-1226417,2025-04-11T16:30:00+00:00,FT,Hamburger SV,175,Eintracht Braunschweig,744,2,4,True
-1226420,2025-04-11T16:30:00+00:00,FT,SpVgg Greuther Fürth,178,1. FC Köln,192,1,1,True
-1226421,2025-04-12T11:00:00+00:00,FT,Hertha BSC,159,SV Darmstadt 98,181,1,1,True
-1226418,2025-04-12T11:00:00+00:00,FT,Hannover 96,166,SV Elversberg,1660,1,3,True
-1226423,2025-04-12T11:00:00+00:00,FT,SSV Ulm 1846,1652,1. FC Magdeburg,179,1,0,True
-1226422,2025-04-12T18:30:00+00:00,FT,1. FC Kaiserslautern,745,1. FC Nürnberg,171,1,2,True
-1226425,2025-04-13T11:30:00+00:00,FT,SSV Jahn Regensburg,177,FC Schalke 04,174,2,0,True
-1226419,2025-04-13T11:30:00+00:00,FT,SC Paderborn 07,185,Fortuna Düsseldorf,158,1,2,True
-1226424,2025-04-13T11:30:00+00:00,FT,Preußen Münster,1313,Karlsruher SC,785,1,1,True
-1226431,2025-04-19T11:00:00+00:00,FT,1. FC Nürnberg,171,SC Paderborn 07,185,2,3,True
-1226433,2025-04-19T11:00:00+00:00,FT,Eintracht Braunschweig,744,1. FC Kaiserslautern,745,2,0,True
-1226430,2025-04-19T11:00:00+00:00,FT,SV Elversberg,1660,Fortuna Düsseldorf,158,1,1,True
-1226429,2025-04-19T18:30:00+00:00,FT,FC Schalke 04,174,Hamburger SV,175,2,2,True
-1226432,2025-04-20T11:30:00+00:00,FT,1. FC Magdeburg,179,SSV Jahn Regensburg,177,3,0,True
-1226427,2025-04-20T11:30:00+00:00,FT,SV Darmstadt 98,181,Hannover 96,166,3,1,True
-1226426,2025-04-20T11:30:00+00:00,FT,1. FC Köln,192,Preußen Münster,1313,3,1,True
-1226428,2025-04-20T11:30:00+00:00,FT,Karlsruher SC,785,SpVgg Greuther Fürth,178,1,0,True
-1226434,2025-04-20T11:30:00+00:00,FT,SSV Ulm 1846,1652,Hertha BSC,159,2,3,True
-1226440,2025-04-25T16:30:00+00:00,FT,Hertha BSC,159,1. FC Magdeburg,179,1,1,True
-1226439,2025-04-25T16:30:00+00:00,FT,SpVgg Greuther Fürth,178,SSV Ulm 1846,1652,0,1,True
-1226443,2025-04-26T11:00:00+00:00,FT,SSV Jahn Regensburg,177,Eintracht Braunschweig,744,1,1,True
-1226438,2025-04-26T11:00:00+00:00,FT,SC Paderborn 07,185,SV Elversberg,1660,1,1,True
-1226442,2025-04-26T11:00:00+00:00,FT,Preußen Münster,1313,SV Darmstadt 98,181,1,1,True
-1226435,2025-04-26T18:30:00+00:00,FT,Fortuna Düsseldorf,158,1. FC Nürnberg,171,3,3,True
-1226437,2025-04-27T11:30:00+00:00,FT,Hannover 96,166,1. FC Köln,192,1,0,True
-1226436,2025-04-27T11:30:00+00:00,FT,Hamburger SV,175,Karlsruher SC,785,1,2,True
-1226441,2025-04-27T11:30:00+00:00,FT,1. FC Kaiserslautern,745,FC Schalke 04,174,2,1,True
-1226448,2025-05-02T16:30:00+00:00,FT,FC Schalke 04,174,SC Paderborn 07,185,0,2,True
-1226450,2025-05-02T16:30:00+00:00,FT,1. FC Magdeburg,179,Preußen Münster,1313,0,5,True
-1226445,2025-05-03T11:00:00+00:00,FT,SV Darmstadt 98,181,Hamburger SV,175,0,4,True
-1226451,2025-05-03T11:00:00+00:00,FT,Eintracht Braunschweig,744,Fortuna Düsseldorf,158,2,2,True
-1226452,2025-05-03T11:00:00+00:00,FT,SSV Ulm 1846,1652,Hannover 96,166,1,2,True
-1226444,2025-05-03T18:30:00+00:00,FT,1. FC Köln,192,SSV Jahn Regensburg,177,1,1,True
-1226447,2025-05-04T11:30:00+00:00,FT,Hertha BSC,159,SpVgg Greuther Fürth,178,1,0,True
-1226449,2025-05-04T11:30:00+00:00,FT,1. FC Nürnberg,171,SV Elversberg,1660,1,3,True
-1226446,2025-05-04T11:30:00+00:00,FT,Karlsruher SC,785,1. FC Kaiserslautern,745,2,2,True
-1226458,2025-05-09T16:30:00+00:00,FT,1. FC Nürnberg,171,1. FC Köln,192,1,2,True
-1226460,2025-05-09T16:30:00+00:00,FT,Preußen Münster,1313,Hertha BSC,159,2,0,True
-1226453,2025-05-10T11:00:00+00:00,FT,Fortuna Düsseldorf,158,FC Schalke 04,174,2,0,True
-1226456,2025-05-10T11:00:00+00:00,FT,SC Paderborn 07,185,1. FC Magdeburg,179,2,1,True
-1226457,2025-05-10T11:00:00+00:00,FT,SV Elversberg,1660,Eintracht Braunschweig,744,3,0,True
-1226454,2025-05-10T18:30:00+00:00,FT,Hamburger SV,175,SSV Ulm 1846,1652,6,1,True
-1226455,2025-05-11T11:30:00+00:00,FT,Hannover 96,166,SpVgg Greuther Fürth,178,1,1,True
-1226461,2025-05-11T11:30:00+00:00,FT,SSV Jahn Regensburg,177,Karlsruher SC,785,2,2,True
-1226459,2025-05-11T11:30:00+00:00,FT,1. FC Kaiserslautern,745,SV Darmstadt 98,181,2,1,True
-1226466,2025-05-18T13:30:00+00:00,FT,Hertha BSC,159,Hannover 96,166,1,1,True
-1226467,2025-05-18T13:30:00+00:00,FT,FC Schalke 04,174,SV Elversberg,1660,1,2,True
-1226465,2025-05-18T13:30:00+00:00,FT,SpVgg Greuther Fürth,178,Hamburger SV,175,3,2,True
-1226468,2025-05-18T13:30:00+00:00,FT,1. FC Magdeburg,179,Fortuna Düsseldorf,158,4,2,True
-1226463,2025-05-18T13:30:00+00:00,FT,SV Darmstadt 98,181,SSV Jahn Regensburg,177,3,1,True
-1226462,2025-05-18T13:30:00+00:00,FT,1. FC Köln,192,1. FC Kaiserslautern,745,4,0,True
-1226469,2025-05-18T13:30:00+00:00,FT,Eintracht Braunschweig,744,1. FC Nürnberg,171,1,4,True
-1226464,2025-05-18T13:30:00+00:00,FT,Karlsruher SC,785,SC Paderborn 07,185,3,0,True
-1226470,2025-05-18T13:30:00+00:00,FT,SSV Ulm 1846,1652,Preußen Münster,1313,2,2,True
-1375875,2025-05-23T18:30:00+00:00,FT,FC Saarbrücken,1639,Eintracht Braunschweig,744,0,2,True
-1375876,2025-05-27T18:30:00+00:00,AET,Eintracht Braunschweig,744,FC Saarbrücken,1639,2,2,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1226165,2024-08-02T18:30:00+00:00,FT,Regular Season - 1,1. FC Köln,192,Hamburger SV,175,1,2,True
+1226170,2024-08-03T11:00:00+00:00,FT,Regular Season - 1,Hertha BSC,159,SC Paderborn 07,185,1,2,True
+1226168,2024-08-03T11:00:00+00:00,FT,Regular Season - 1,Hannover 96,166,SSV Jahn Regensburg,177,2,0,True
+1226172,2024-08-03T11:00:00+00:00,FT,Regular Season - 1,1. FC Magdeburg,179,SV Elversberg,1660,0,0,True
+1226167,2024-08-03T11:00:00+00:00,FT,Regular Season - 1,Karlsruher SC,785,1. FC Nürnberg,171,3,2,True
+1226171,2024-08-03T18:30:00+00:00,FT,Regular Season - 1,FC Schalke 04,174,Eintracht Braunschweig,744,5,1,True
+1226169,2024-08-04T11:30:00+00:00,FT,Regular Season - 1,SpVgg Greuther Fürth,178,Preußen Münster,1313,3,1,True
+1226166,2024-08-04T11:30:00+00:00,FT,Regular Season - 1,SV Darmstadt 98,181,Fortuna Düsseldorf,158,0,2,True
+1226173,2024-08-04T11:30:00+00:00,FT,Regular Season - 1,SSV Ulm 1846,1652,1. FC Kaiserslautern,745,1,2,True
+1226182,2024-08-09T16:30:00+00:00,FT,Regular Season - 2,SSV Jahn Regensburg,177,SSV Ulm 1846,1652,1,0,True
+1226179,2024-08-09T16:30:00+00:00,FT,Regular Season - 2,1. FC Kaiserslautern,745,SpVgg Greuther Fürth,178,2,2,True
+1226174,2024-08-10T11:00:00+00:00,FT,Regular Season - 2,Fortuna Düsseldorf,158,Karlsruher SC,785,0,0,True
+1226178,2024-08-10T11:00:00+00:00,FT,Regular Season - 2,1. FC Nürnberg,171,FC Schalke 04,174,3,1,True
+1226177,2024-08-10T11:00:00+00:00,FT,Regular Season - 2,SV Elversberg,1660,1. FC Köln,192,2,2,True
+1226175,2024-08-10T18:30:00+00:00,FT,Regular Season - 2,Hamburger SV,175,Hertha BSC,159,1,1,True
+1226176,2024-08-11T11:30:00+00:00,FT,Regular Season - 2,SC Paderborn 07,185,SV Darmstadt 98,181,3,1,True
+1226180,2024-08-11T11:30:00+00:00,FT,Regular Season - 2,Eintracht Braunschweig,744,1. FC Magdeburg,179,1,3,True
+1226181,2024-08-11T11:30:00+00:00,FT,Regular Season - 2,Preußen Münster,1313,Hannover 96,166,0,0,True
+1226186,2024-08-23T16:30:00+00:00,FT,Regular Season - 3,Hannover 96,166,Hamburger SV,175,1,0,True
+1226185,2024-08-23T16:30:00+00:00,FT,Regular Season - 3,Karlsruher SC,785,SV Elversberg,1660,3,2,True
+1226188,2024-08-24T11:00:00+00:00,FT,Regular Season - 3,Hertha BSC,159,SSV Jahn Regensburg,177,2,0,True
+1226187,2024-08-24T11:00:00+00:00,FT,Regular Season - 3,SpVgg Greuther Fürth,178,SC Paderborn 07,185,1,1,True
+1226191,2024-08-24T11:00:00+00:00,FT,Regular Season - 3,Preußen Münster,1313,1. FC Kaiserslautern,745,0,1,True
+1226183,2024-08-24T18:30:00+00:00,FT,Regular Season - 3,1. FC Köln,192,Eintracht Braunschweig,744,5,0,True
+1226189,2024-08-25T11:30:00+00:00,FT,Regular Season - 3,1. FC Magdeburg,179,FC Schalke 04,174,2,2,True
+1226184,2024-08-25T11:30:00+00:00,FT,Regular Season - 3,SV Darmstadt 98,181,1. FC Nürnberg,171,1,1,True
+1226190,2024-08-25T11:30:00+00:00,FT,Regular Season - 3,SSV Ulm 1846,1652,Fortuna Düsseldorf,158,1,2,True
+1226192,2024-08-30T16:30:00+00:00,FT,Regular Season - 4,Fortuna Düsseldorf,158,Hannover 96,166,1,0,True
+1226200,2024-08-30T16:30:00+00:00,FT,Regular Season - 4,SSV Jahn Regensburg,177,SpVgg Greuther Fürth,178,0,4,True
+1226197,2024-08-31T11:00:00+00:00,FT,Regular Season - 4,1. FC Nürnberg,171,1. FC Magdeburg,179,0,4,True
+1226193,2024-08-31T11:00:00+00:00,FT,Regular Season - 4,Hamburger SV,175,Preußen Münster,1313,4,1,True
+1226196,2024-08-31T11:00:00+00:00,FT,Regular Season - 4,SV Elversberg,1660,SV Darmstadt 98,181,4,0,True
+1226198,2024-08-31T18:30:00+00:00,FT,Regular Season - 4,1. FC Kaiserslautern,745,Hertha BSC,159,3,4,True
+1226195,2024-09-01T11:30:00+00:00,FT,Regular Season - 4,FC Schalke 04,174,1. FC Köln,192,1,3,True
+1226194,2024-09-01T11:30:00+00:00,FT,Regular Season - 4,SC Paderborn 07,185,SSV Ulm 1846,1652,0,0,True
+1226199,2024-09-01T11:30:00+00:00,FT,Regular Season - 4,Eintracht Braunschweig,744,Karlsruher SC,785,1,2,True
+1226204,2024-09-13T16:30:00+00:00,FT,Regular Season - 5,Karlsruher SC,785,FC Schalke 04,174,2,0,True
+1226209,2024-09-13T16:30:00+00:00,FT,Regular Season - 5,Preußen Münster,1313,SC Paderborn 07,185,3,3,True
+1226205,2024-09-14T11:00:00+00:00,FT,Regular Season - 5,Hannover 96,166,1. FC Kaiserslautern,745,3,1,True
+1226202,2024-09-14T11:00:00+00:00,FT,Regular Season - 5,SV Darmstadt 98,181,Eintracht Braunschweig,744,1,1,True
+1226208,2024-09-14T11:00:00+00:00,FT,Regular Season - 5,SSV Ulm 1846,1652,1. FC Nürnberg,171,1,2,True
+1226201,2024-09-14T18:30:00+00:00,FT,Regular Season - 5,1. FC Köln,192,1. FC Magdeburg,179,1,2,True
+1226207,2024-09-15T11:30:00+00:00,FT,Regular Season - 5,Hertha BSC,159,Fortuna Düsseldorf,158,0,2,True
+1226203,2024-09-15T11:30:00+00:00,FT,Regular Season - 5,Hamburger SV,175,SSV Jahn Regensburg,177,5,0,True
+1226206,2024-09-15T11:30:00+00:00,FT,Regular Season - 5,SpVgg Greuther Fürth,178,SV Elversberg,1660,0,0,True
+1226212,2024-09-20T16:30:00+00:00,FT,Regular Season - 6,FC Schalke 04,174,SV Darmstadt 98,181,3,5,True
+1226211,2024-09-20T16:30:00+00:00,FT,Regular Season - 6,SC Paderborn 07,185,Hannover 96,166,2,1,True
+1226210,2024-09-21T11:00:00+00:00,FT,Regular Season - 6,Fortuna Düsseldorf,158,1. FC Köln,192,2,2,True
+1226214,2024-09-21T11:00:00+00:00,FT,Regular Season - 6,1. FC Nürnberg,171,Hertha BSC,159,0,2,True
+1226217,2024-09-21T11:00:00+00:00,FT,Regular Season - 6,Eintracht Braunschweig,744,SpVgg Greuther Fürth,178,2,0,True
+1226215,2024-09-21T18:30:00+00:00,FT,Regular Season - 6,1. FC Kaiserslautern,745,Hamburger SV,175,2,2,True
+1226218,2024-09-22T11:30:00+00:00,FT,Regular Season - 6,SSV Jahn Regensburg,177,Preußen Münster,1313,0,3,True
+1226216,2024-09-22T11:30:00+00:00,FT,Regular Season - 6,1. FC Magdeburg,179,Karlsruher SC,785,2,2,True
+1226213,2024-09-22T11:30:00+00:00,FT,Regular Season - 6,SV Elversberg,1660,SSV Ulm 1846,1652,1,3,True
+1226223,2024-09-27T16:30:00+00:00,FT,Regular Season - 7,SpVgg Greuther Fürth,178,Fortuna Düsseldorf,158,1,2,True
+1226225,2024-09-27T16:30:00+00:00,FT,Regular Season - 7,SSV Ulm 1846,1652,Eintracht Braunschweig,744,3,1,True
+1226221,2024-09-28T11:00:00+00:00,FT,Regular Season - 7,Hamburger SV,175,SC Paderborn 07,185,2,2,True
+1226227,2024-09-28T11:00:00+00:00,FT,Regular Season - 7,SSV Jahn Regensburg,177,1. FC Kaiserslautern,745,0,0,True
+1226220,2024-09-28T11:00:00+00:00,FT,Regular Season - 7,SV Darmstadt 98,181,1. FC Magdeburg,179,1,2,True
+1226226,2024-09-28T18:30:00+00:00,FT,Regular Season - 7,Preußen Münster,1313,FC Schalke 04,174,1,2,True
+1226224,2024-09-29T11:30:00+00:00,FT,Regular Season - 7,Hertha BSC,159,SV Elversberg,1660,1,4,True
+1226222,2024-09-29T11:30:00+00:00,FT,Regular Season - 7,Hannover 96,166,1. FC Nürnberg,171,2,0,True
+1226219,2024-09-29T11:30:00+00:00,FT,Regular Season - 7,1. FC Köln,192,Karlsruher SC,785,4,4,True
+1226231,2024-10-04T16:30:00+00:00,FT,Regular Season - 8,SC Paderborn 07,185,SSV Jahn Regensburg,177,3,0,True
+1226230,2024-10-04T16:30:00+00:00,FT,Regular Season - 8,Karlsruher SC,785,SV Darmstadt 98,181,3,3,True
+1226234,2024-10-05T11:00:00+00:00,FT,Regular Season - 8,1. FC Nürnberg,171,Preußen Münster,1313,3,2,True
+1226228,2024-10-05T11:00:00+00:00,FT,Regular Season - 8,1. FC Köln,192,SSV Ulm 1846,1652,2,0,True
+1226233,2024-10-05T11:00:00+00:00,FT,Regular Season - 8,SV Elversberg,1660,1. FC Kaiserslautern,745,1,0,True
+1226232,2024-10-05T18:30:00+00:00,FT,Regular Season - 8,FC Schalke 04,174,Hertha BSC,159,2,2,True
+1226229,2024-10-06T11:30:00+00:00,FT,Regular Season - 8,Fortuna Düsseldorf,158,Hamburger SV,175,0,3,True
+1226235,2024-10-06T11:30:00+00:00,FT,Regular Season - 8,1. FC Magdeburg,179,SpVgg Greuther Fürth,178,2,2,True
+1226236,2024-10-06T11:30:00+00:00,FT,Regular Season - 8,Eintracht Braunschweig,744,Hannover 96,166,2,0,True
+1226241,2024-10-18T16:30:00+00:00,FT,Regular Season - 9,Hertha BSC,159,Eintracht Braunschweig,744,3,1,True
+1226237,2024-10-18T16:30:00+00:00,FT,Regular Season - 9,SV Darmstadt 98,181,1. FC Köln,192,5,1,True
+1226239,2024-10-19T11:00:00+00:00,FT,Regular Season - 9,Hannover 96,166,FC Schalke 04,174,1,0,True
+1226245,2024-10-19T11:00:00+00:00,FT,Regular Season - 9,SSV Jahn Regensburg,177,Fortuna Düsseldorf,158,0,3,True
+1226244,2024-10-19T11:00:00+00:00,FT,Regular Season - 9,Preußen Münster,1313,SV Elversberg,1660,1,1,True
+1226242,2024-10-19T18:30:00+00:00,FT,Regular Season - 9,1. FC Kaiserslautern,745,SC Paderborn 07,185,3,0,True
+1226238,2024-10-20T11:30:00+00:00,FT,Regular Season - 9,Hamburger SV,175,1. FC Magdeburg,179,3,1,True
+1226240,2024-10-20T11:30:00+00:00,FT,Regular Season - 9,SpVgg Greuther Fürth,178,1. FC Nürnberg,171,0,4,True
+1226243,2024-10-20T11:30:00+00:00,FT,Regular Season - 9,SSV Ulm 1846,1652,Karlsruher SC,785,0,1,True
+1226252,2024-10-25T16:30:00+00:00,FT,Regular Season - 10,1. FC Nürnberg,171,SSV Jahn Regensburg,177,8,3,True
+1226246,2024-10-25T16:30:00+00:00,FT,Regular Season - 10,1. FC Köln,192,SC Paderborn 07,185,1,2,True
+1226250,2024-10-26T11:00:00+00:00,FT,Regular Season - 10,FC Schalke 04,174,SpVgg Greuther Fürth,178,3,4,True
+1226249,2024-10-26T11:00:00+00:00,FT,Regular Season - 10,Karlsruher SC,785,Hertha BSC,159,1,3,True
+1226251,2024-10-26T11:00:00+00:00,FT,Regular Season - 10,SV Elversberg,1660,Hamburger SV,175,4,2,True
+1226248,2024-10-26T18:30:00+00:00,FT,Regular Season - 10,Fortuna Düsseldorf,158,1. FC Kaiserslautern,745,3,4,True
+1226253,2024-10-27T12:30:00+00:00,FT,Regular Season - 10,1. FC Magdeburg,179,Hannover 96,166,0,3,True
+1226247,2024-10-27T12:30:00+00:00,FT,Regular Season - 10,SV Darmstadt 98,181,SSV Ulm 1846,1652,1,1,True
+1226254,2024-10-27T12:30:00+00:00,FT,Regular Season - 10,Eintracht Braunschweig,744,Preußen Münster,1313,1,1,True
+1226262,2024-11-01T17:30:00+00:00,FT,Regular Season - 11,Preußen Münster,1313,Fortuna Düsseldorf,158,1,0,True
+1226261,2024-11-01T17:30:00+00:00,FT,Regular Season - 11,SSV Ulm 1846,1652,FC Schalke 04,174,0,0,True
+1226256,2024-11-02T12:00:00+00:00,FT,Regular Season - 11,Hannover 96,166,Karlsruher SC,785,2,1,True
+1226263,2024-11-02T12:00:00+00:00,FT,Regular Season - 11,SSV Jahn Regensburg,177,SV Elversberg,1660,1,0,True
+1226258,2024-11-02T12:00:00+00:00,FT,Regular Season - 11,SpVgg Greuther Fürth,178,SV Darmstadt 98,181,1,5,True
+1226259,2024-11-02T19:30:00+00:00,FT,Regular Season - 11,Hertha BSC,159,1. FC Köln,192,0,1,True
+1226255,2024-11-03T12:30:00+00:00,FT,Regular Season - 11,Hamburger SV,175,1. FC Nürnberg,171,1,1,True
+1226257,2024-11-03T12:30:00+00:00,FT,Regular Season - 11,SC Paderborn 07,185,Eintracht Braunschweig,744,0,0,True
+1226260,2024-11-03T12:30:00+00:00,FT,Regular Season - 11,1. FC Kaiserslautern,745,1. FC Magdeburg,179,2,2,True
+1226270,2024-11-08T17:30:00+00:00,FT,Regular Season - 12,1. FC Nürnberg,171,1. FC Kaiserslautern,745,0,0,True
+1226272,2024-11-08T17:30:00+00:00,FT,Regular Season - 12,Eintracht Braunschweig,744,Hamburger SV,175,3,1,True
+1226271,2024-11-09T12:00:00+00:00,FT,Regular Season - 12,1. FC Magdeburg,179,SSV Ulm 1846,1652,0,0,True
+1226265,2024-11-09T12:00:00+00:00,FT,Regular Season - 12,SV Darmstadt 98,181,Hertha BSC,159,3,1,True
+1226264,2024-11-09T12:00:00+00:00,FT,Regular Season - 12,1. FC Köln,192,SpVgg Greuther Fürth,178,1,0,True
+1226266,2024-11-09T19:30:00+00:00,FT,Regular Season - 12,Fortuna Düsseldorf,158,SC Paderborn 07,185,1,1,True
+1226268,2024-11-10T12:30:00+00:00,FT,Regular Season - 12,FC Schalke 04,174,SSV Jahn Regensburg,177,2,0,True
+1226267,2024-11-10T12:30:00+00:00,FT,Regular Season - 12,Karlsruher SC,785,Preußen Münster,1313,1,1,True
+1226269,2024-11-10T12:30:00+00:00,FT,Regular Season - 12,SV Elversberg,1660,Hannover 96,166,3,1,True
+1226276,2024-11-22T17:30:00+00:00,FT,Regular Season - 13,SC Paderborn 07,185,1. FC Nürnberg,171,3,2,True
+1226280,2024-11-22T17:30:00+00:00,FT,Regular Season - 13,Preußen Münster,1313,1. FC Köln,192,0,1,True
+1226273,2024-11-23T12:00:00+00:00,FT,Regular Season - 13,Fortuna Düsseldorf,158,SV Elversberg,1660,0,2,True
+1226278,2024-11-23T12:00:00+00:00,FT,Regular Season - 13,Hertha BSC,159,SSV Ulm 1846,1652,2,2,True
+1226275,2024-11-23T12:00:00+00:00,FT,Regular Season - 13,Hannover 96,166,SV Darmstadt 98,181,1,2,True
+1226277,2024-11-23T12:00:00+00:00,FT,Regular Season - 13,SpVgg Greuther Fürth,178,Karlsruher SC,785,2,3,True
+1226274,2024-11-23T19:30:00+00:00,FT,Regular Season - 13,Hamburger SV,175,FC Schalke 04,174,2,2,True
+1226281,2024-11-24T12:30:00+00:00,FT,Regular Season - 13,SSV Jahn Regensburg,177,1. FC Magdeburg,179,0,1,True
+1226279,2024-11-24T12:30:00+00:00,FT,Regular Season - 13,1. FC Kaiserslautern,745,Eintracht Braunschweig,744,3,2,True
+1226285,2024-11-29T17:30:00+00:00,FT,Regular Season - 14,FC Schalke 04,174,1. FC Kaiserslautern,745,0,3,True
+1226288,2024-11-29T17:30:00+00:00,FT,Regular Season - 14,1. FC Magdeburg,179,Hertha BSC,159,1,3,True
+1226282,2024-11-30T12:00:00+00:00,FT,Regular Season - 14,1. FC Köln,192,Hannover 96,166,2,2,True
+1226289,2024-11-30T12:00:00+00:00,FT,Regular Season - 14,Eintracht Braunschweig,744,SSV Jahn Regensburg,177,0,0,True
+1226286,2024-11-30T12:00:00+00:00,FT,Regular Season - 14,SV Elversberg,1660,SC Paderborn 07,185,1,3,True
+1226283,2024-11-30T19:30:00+00:00,FT,Regular Season - 14,SV Darmstadt 98,181,Preußen Münster,1313,0,0,True
+1226287,2024-12-01T12:30:00+00:00,FT,Regular Season - 14,1. FC Nürnberg,171,Fortuna Düsseldorf,158,2,2,True
+1226284,2024-12-01T12:30:00+00:00,FT,Regular Season - 14,Karlsruher SC,785,Hamburger SV,175,1,3,True
+1226290,2024-12-01T12:30:00+00:00,FT,Regular Season - 14,SSV Ulm 1846,1652,SpVgg Greuther Fürth,178,1,1,True
+1226294,2024-12-06T17:30:00+00:00,FT,Regular Season - 15,SC Paderborn 07,185,FC Schalke 04,174,2,4,True
+1226296,2024-12-06T17:30:00+00:00,FT,Regular Season - 15,SV Elversberg,1660,1. FC Nürnberg,171,2,1,True
+1226293,2024-12-07T12:00:00+00:00,FT,Regular Season - 15,Hannover 96,166,SSV Ulm 1846,1652,3,2,True
+1226295,2024-12-07T12:00:00+00:00,FT,Regular Season - 15,SpVgg Greuther Fürth,178,Hertha BSC,159,2,1,True
+1226297,2024-12-07T12:00:00+00:00,FT,Regular Season - 15,1. FC Kaiserslautern,745,Karlsruher SC,785,3,1,True
+1226298,2024-12-07T19:30:00+00:00,FT,Regular Season - 15,Preußen Münster,1313,1. FC Magdeburg,179,1,2,True
+1226291,2024-12-08T12:30:00+00:00,FT,Regular Season - 15,Fortuna Düsseldorf,158,Eintracht Braunschweig,744,5,0,True
+1226292,2024-12-08T12:30:00+00:00,FT,Regular Season - 15,Hamburger SV,175,SV Darmstadt 98,181,2,2,True
+1226299,2024-12-08T12:30:00+00:00,FT,Regular Season - 15,SSV Jahn Regensburg,177,1. FC Köln,192,0,1,True
+1226304,2024-12-13T17:30:00+00:00,FT,Regular Season - 16,Hertha BSC,159,Preußen Münster,1313,1,2,True
+1226302,2024-12-13T17:30:00+00:00,FT,Regular Season - 16,Karlsruher SC,785,SSV Jahn Regensburg,177,4,2,True
+1226305,2024-12-14T12:00:00+00:00,FT,Regular Season - 16,FC Schalke 04,174,Fortuna Düsseldorf,158,1,1,True
+1226306,2024-12-14T12:00:00+00:00,FT,Regular Season - 16,1. FC Magdeburg,179,SC Paderborn 07,185,1,1,True
+1226308,2024-12-14T12:00:00+00:00,FT,Regular Season - 16,SSV Ulm 1846,1652,Hamburger SV,175,1,1,True
+1226301,2024-12-14T19:30:00+00:00,FT,Regular Season - 16,SV Darmstadt 98,181,1. FC Kaiserslautern,745,5,1,True
+1226303,2024-12-15T12:30:00+00:00,FT,Regular Season - 16,SpVgg Greuther Fürth,178,Hannover 96,166,1,0,True
+1226300,2024-12-15T12:30:00+00:00,FT,Regular Season - 16,1. FC Köln,192,1. FC Nürnberg,171,3,1,True
+1226307,2024-12-15T12:30:00+00:00,FT,Regular Season - 16,Eintracht Braunschweig,744,SV Elversberg,1660,0,3,True
+1226309,2024-12-20T17:30:00+00:00,FT,Regular Season - 17,Fortuna Düsseldorf,158,1. FC Magdeburg,179,2,5,True
+1226313,2024-12-20T17:30:00+00:00,FT,Regular Season - 17,SV Elversberg,1660,FC Schalke 04,174,1,4,True
+1226310,2024-12-21T12:00:00+00:00,FT,Regular Season - 17,Hamburger SV,175,SpVgg Greuther Fürth,178,5,0,True
+1226312,2024-12-21T12:00:00+00:00,FT,Regular Season - 17,SC Paderborn 07,185,Karlsruher SC,785,1,2,True
+1226316,2024-12-21T12:00:00+00:00,FT,Regular Season - 17,Preußen Münster,1313,SSV Ulm 1846,1652,0,0,True
+1226314,2024-12-21T19:30:00+00:00,FT,Regular Season - 17,1. FC Nürnberg,171,Eintracht Braunschweig,744,1,0,True
+1226311,2024-12-22T12:30:00+00:00,FT,Regular Season - 17,Hannover 96,166,Hertha BSC,159,0,0,True
+1226317,2024-12-22T12:30:00+00:00,FT,Regular Season - 17,SSV Jahn Regensburg,177,SV Darmstadt 98,181,2,1,True
+1226315,2024-12-22T12:30:00+00:00,FT,Regular Season - 17,1. FC Kaiserslautern,745,1. FC Köln,192,0,1,True
+1226318,2025-01-17T17:30:00+00:00,FT,Regular Season - 18,Fortuna Düsseldorf,158,SV Darmstadt 98,181,2,2,True
+1226326,2025-01-17T17:30:00+00:00,FT,Regular Season - 18,SSV Jahn Regensburg,177,Hannover 96,166,0,1,True
+1226324,2025-01-18T12:00:00+00:00,FT,Regular Season - 18,Eintracht Braunschweig,744,FC Schalke 04,174,0,0,True
+1226323,2025-01-18T12:00:00+00:00,FT,Regular Season - 18,1. FC Kaiserslautern,745,SSV Ulm 1846,1652,2,1,True
+1226325,2025-01-18T12:00:00+00:00,FT,Regular Season - 18,Preußen Münster,1313,SpVgg Greuther Fürth,178,2,1,True
+1226319,2025-01-18T19:30:00+00:00,FT,Regular Season - 18,Hamburger SV,175,1. FC Köln,192,1,0,True
+1226322,2025-01-19T12:30:00+00:00,FT,Regular Season - 18,1. FC Nürnberg,171,Karlsruher SC,785,2,1,True
+1226320,2025-01-19T12:30:00+00:00,FT,Regular Season - 18,SC Paderborn 07,185,Hertha BSC,159,1,2,True
+1226321,2025-01-19T12:30:00+00:00,FT,Regular Season - 18,SV Elversberg,1660,1. FC Magdeburg,179,2,5,True
+1226331,2025-01-24T17:30:00+00:00,FT,Regular Season - 19,SpVgg Greuther Fürth,178,1. FC Kaiserslautern,745,2,4,True
+1226334,2025-01-24T17:30:00+00:00,FT,Regular Season - 19,1. FC Magdeburg,179,Eintracht Braunschweig,744,1,1,True
+1226333,2025-01-25T12:00:00+00:00,FT,Regular Season - 19,FC Schalke 04,174,1. FC Nürnberg,171,3,1,True
+1226327,2025-01-25T12:00:00+00:00,FT,Regular Season - 19,1. FC Köln,192,SV Elversberg,1660,1,0,True
+1226329,2025-01-25T12:00:00+00:00,FT,Regular Season - 19,Karlsruher SC,785,Fortuna Düsseldorf,158,2,3,True
+1226332,2025-01-25T19:30:00+00:00,FT,Regular Season - 19,Hertha BSC,159,Hamburger SV,175,2,3,True
+1226330,2025-01-26T12:30:00+00:00,FT,Regular Season - 19,Hannover 96,166,Preußen Münster,1313,2,2,True
+1226328,2025-01-26T12:30:00+00:00,FT,Regular Season - 19,SV Darmstadt 98,181,SC Paderborn 07,185,0,1,True
+1226335,2025-01-26T12:30:00+00:00,FT,Regular Season - 19,SSV Ulm 1846,1652,SSV Jahn Regensburg,177,5,1,True
+1226341,2025-01-31T17:30:00+00:00,FT,Regular Season - 20,1. FC Nürnberg,171,SV Darmstadt 98,181,1,0,True
+1226340,2025-01-31T17:30:00+00:00,FT,Regular Season - 20,SV Elversberg,1660,Karlsruher SC,785,2,2,True
+1226336,2025-02-01T12:00:00+00:00,FT,Regular Season - 20,Fortuna Düsseldorf,158,SSV Ulm 1846,1652,3,2,True
+1226344,2025-02-01T12:00:00+00:00,FT,Regular Season - 20,SSV Jahn Regensburg,177,Hertha BSC,159,2,0,True
+1226343,2025-02-01T12:00:00+00:00,FT,Regular Season - 20,Eintracht Braunschweig,744,1. FC Köln,192,1,2,True
+1226339,2025-02-01T19:30:00+00:00,FT,Regular Season - 20,FC Schalke 04,174,1. FC Magdeburg,179,2,5,True
+1226337,2025-02-02T12:30:00+00:00,FT,Regular Season - 20,Hamburger SV,175,Hannover 96,166,2,2,True
+1226338,2025-02-02T12:30:00+00:00,FT,Regular Season - 20,SC Paderborn 07,185,SpVgg Greuther Fürth,178,1,2,True
+1226342,2025-02-02T12:30:00+00:00,FT,Regular Season - 20,1. FC Kaiserslautern,745,Preußen Münster,1313,2,1,True
+1226349,2025-02-07T17:30:00+00:00,FT,Regular Season - 21,SpVgg Greuther Fürth,178,SSV Jahn Regensburg,177,2,1,True
+1226353,2025-02-07T17:30:00+00:00,FT,Regular Season - 21,Preußen Münster,1313,Hamburger SV,175,1,2,True
+1226351,2025-02-08T12:00:00+00:00,FT,Regular Season - 21,1. FC Magdeburg,179,1. FC Nürnberg,171,3,4,True
+1226346,2025-02-08T12:00:00+00:00,FT,Regular Season - 21,SV Darmstadt 98,181,SV Elversberg,1660,0,3,True
+1226352,2025-02-08T12:00:00+00:00,FT,Regular Season - 21,SSV Ulm 1846,1652,SC Paderborn 07,185,0,2,True
+1226350,2025-02-08T19:30:00+00:00,FT,Regular Season - 21,Hertha BSC,159,1. FC Kaiserslautern,745,0,1,True
+1226348,2025-02-09T12:30:00+00:00,FT,Regular Season - 21,Hannover 96,166,Fortuna Düsseldorf,158,1,1,True
+1226345,2025-02-09T12:30:00+00:00,FT,Regular Season - 21,1. FC Köln,192,FC Schalke 04,174,1,0,True
+1226347,2025-02-09T12:30:00+00:00,FT,Regular Season - 21,Karlsruher SC,785,Eintracht Braunschweig,744,0,2,True
+1226360,2025-02-14T17:30:00+00:00,FT,Regular Season - 22,1. FC Magdeburg,179,1. FC Köln,192,3,0,True
+1226355,2025-02-14T17:30:00+00:00,FT,Regular Season - 22,SC Paderborn 07,185,Preußen Münster,1313,2,0,True
+1226361,2025-02-15T12:00:00+00:00,FT,Regular Season - 22,Eintracht Braunschweig,744,SV Darmstadt 98,181,1,0,True
+1226359,2025-02-15T12:00:00+00:00,FT,Regular Season - 22,1. FC Kaiserslautern,745,Hannover 96,166,0,0,True
+1226357,2025-02-15T12:00:00+00:00,FT,Regular Season - 22,SV Elversberg,1660,SpVgg Greuther Fürth,178,2,0,True
+1226354,2025-02-15T19:30:00+00:00,FT,Regular Season - 22,Fortuna Düsseldorf,158,Hertha BSC,159,2,1,True
+1226358,2025-02-16T12:30:00+00:00,FT,Regular Season - 22,1. FC Nürnberg,171,SSV Ulm 1846,1652,2,0,True
+1226356,2025-02-16T12:30:00+00:00,FT,Regular Season - 22,FC Schalke 04,174,Karlsruher SC,785,2,1,True
+1226362,2025-02-16T12:30:00+00:00,FT,Regular Season - 22,SSV Jahn Regensburg,177,Hamburger SV,175,1,1,True
+1226369,2025-02-21T17:30:00+00:00,FT,Regular Season - 23,Hertha BSC,159,1. FC Nürnberg,171,0,0,True
+1226365,2025-02-21T17:30:00+00:00,FT,Regular Season - 23,Hamburger SV,175,1. FC Kaiserslautern,745,3,0,True
+1226366,2025-02-22T12:00:00+00:00,FT,Regular Season - 23,Karlsruher SC,785,1. FC Magdeburg,179,3,1,True
+1226371,2025-02-22T12:00:00+00:00,FT,Regular Season - 23,Preußen Münster,1313,SSV Jahn Regensburg,177,2,0,True
+1226370,2025-02-22T12:00:00+00:00,FT,Regular Season - 23,SSV Ulm 1846,1652,SV Elversberg,1660,0,0,True
+1226367,2025-02-22T19:30:00+00:00,FT,Regular Season - 23,Hannover 96,166,SC Paderborn 07,185,1,1,True
+1226368,2025-02-23T12:30:00+00:00,FT,Regular Season - 23,SpVgg Greuther Fürth,178,Eintracht Braunschweig,744,3,0,True
+1226364,2025-02-23T12:30:00+00:00,FT,Regular Season - 23,SV Darmstadt 98,181,FC Schalke 04,174,2,0,True
+1226363,2025-02-23T12:30:00+00:00,FT,Regular Season - 23,1. FC Köln,192,Fortuna Düsseldorf,158,1,1,True
+1226372,2025-02-28T17:30:00+00:00,FT,Regular Season - 24,Fortuna Düsseldorf,158,SpVgg Greuther Fürth,178,1,2,True
+1226375,2025-02-28T17:30:00+00:00,FT,Regular Season - 24,FC Schalke 04,174,Preußen Münster,1313,1,0,True
+1226377,2025-03-01T12:00:00+00:00,FT,Regular Season - 24,1. FC Nürnberg,171,Hannover 96,166,1,2,True
+1226380,2025-03-01T12:00:00+00:00,FT,Regular Season - 24,Eintracht Braunschweig,744,SSV Ulm 1846,1652,1,1,True
+1226378,2025-03-01T12:00:00+00:00,FT,Regular Season - 24,1. FC Kaiserslautern,745,SSV Jahn Regensburg,177,3,0,True
+1226373,2025-03-01T19:30:00+00:00,FT,Regular Season - 24,Karlsruher SC,785,1. FC Köln,192,1,0,True
+1226379,2025-03-02T12:30:00+00:00,FT,Regular Season - 24,1. FC Magdeburg,179,SV Darmstadt 98,181,4,1,True
+1226374,2025-03-02T12:30:00+00:00,FT,Regular Season - 24,SC Paderborn 07,185,Hamburger SV,175,2,0,True
+1226376,2025-03-02T12:30:00+00:00,FT,Regular Season - 24,SV Elversberg,1660,Hertha BSC,159,4,0,True
+1226381,2025-03-07T17:30:00+00:00,FT,Regular Season - 25,SV Darmstadt 98,181,Karlsruher SC,785,3,0,True
+1226386,2025-03-07T17:30:00+00:00,FT,Regular Season - 25,1. FC Kaiserslautern,745,SV Elversberg,1660,1,1,True
+1226385,2025-03-08T12:00:00+00:00,FT,Regular Season - 25,Hertha BSC,159,FC Schalke 04,174,1,2,True
+1226384,2025-03-08T12:00:00+00:00,FT,Regular Season - 25,SpVgg Greuther Fürth,178,1. FC Magdeburg,179,1,1,True
+1226387,2025-03-08T12:00:00+00:00,FT,Regular Season - 25,SSV Ulm 1846,1652,1. FC Köln,192,0,1,True
+1226382,2025-03-08T19:30:00+00:00,FT,Regular Season - 25,Hamburger SV,175,Fortuna Düsseldorf,158,4,1,True
+1226383,2025-03-09T12:30:00+00:00,FT,Regular Season - 25,Hannover 96,166,Eintracht Braunschweig,744,1,1,True
+1226389,2025-03-09T12:30:00+00:00,FT,Regular Season - 25,SSV Jahn Regensburg,177,SC Paderborn 07,185,0,0,True
+1226388,2025-03-09T12:30:00+00:00,FT,Regular Season - 25,Preußen Münster,1313,1. FC Nürnberg,171,0,1,True
+1226394,2025-03-14T17:30:00+00:00,FT,Regular Season - 26,FC Schalke 04,174,Hannover 96,166,1,2,True
+1226397,2025-03-14T17:30:00+00:00,FT,Regular Season - 26,1. FC Magdeburg,179,Hamburger SV,175,0,3,True
+1226391,2025-03-15T12:00:00+00:00,FT,Regular Season - 26,Fortuna Düsseldorf,158,SSV Jahn Regensburg,177,1,0,True
+1226393,2025-03-15T12:00:00+00:00,FT,Regular Season - 26,SC Paderborn 07,185,1. FC Kaiserslautern,745,5,3,True
+1226395,2025-03-15T12:00:00+00:00,FT,Regular Season - 26,SV Elversberg,1660,Preußen Münster,1313,0,1,True
+1226390,2025-03-15T19:30:00+00:00,FT,Regular Season - 26,1. FC Köln,192,SV Darmstadt 98,181,2,1,True
+1226396,2025-03-16T12:30:00+00:00,FT,Regular Season - 26,1. FC Nürnberg,171,SpVgg Greuther Fürth,178,3,0,True
+1226398,2025-03-16T12:30:00+00:00,FT,Regular Season - 26,Eintracht Braunschweig,744,Hertha BSC,159,1,5,True
+1226392,2025-03-16T12:30:00+00:00,FT,Regular Season - 26,Karlsruher SC,785,SSV Ulm 1846,1652,0,0,True
+1226399,2025-03-28T17:30:00+00:00,FT,Regular Season - 27,Hamburger SV,175,SV Elversberg,1660,0,0,True
+1226405,2025-03-28T17:30:00+00:00,FT,Regular Season - 27,SSV Ulm 1846,1652,SV Darmstadt 98,181,2,1,True
+1226403,2025-03-29T12:00:00+00:00,FT,Regular Season - 27,Hertha BSC,159,Karlsruher SC,785,3,1,True
+1226400,2025-03-29T12:00:00+00:00,FT,Regular Season - 27,Hannover 96,166,1. FC Magdeburg,179,0,0,True
+1226401,2025-03-29T12:00:00+00:00,FT,Regular Season - 27,SC Paderborn 07,185,1. FC Köln,192,1,2,True
+1226404,2025-03-29T19:30:00+00:00,FT,Regular Season - 27,1. FC Kaiserslautern,745,Fortuna Düsseldorf,158,3,1,True
+1226407,2025-03-30T11:30:00+00:00,FT,Regular Season - 27,SSV Jahn Regensburg,177,1. FC Nürnberg,171,2,1,True
+1226402,2025-03-30T11:30:00+00:00,FT,Regular Season - 27,SpVgg Greuther Fürth,178,FC Schalke 04,174,3,3,True
+1226406,2025-03-30T11:30:00+00:00,FT,Regular Season - 27,Preußen Münster,1313,Eintracht Braunschweig,744,1,1,True
+1226416,2025-04-04T16:30:00+00:00,FT,Regular Season - 28,Eintracht Braunschweig,744,SC Paderborn 07,185,3,2,True
+1226411,2025-04-04T16:30:00+00:00,FT,Regular Season - 28,Karlsruher SC,785,Hannover 96,166,1,0,True
+1226410,2025-04-05T11:00:00+00:00,FT,Regular Season - 28,Fortuna Düsseldorf,158,Preußen Münster,1313,1,0,True
+1226414,2025-04-05T11:00:00+00:00,FT,Regular Season - 28,1. FC Nürnberg,171,Hamburger SV,175,0,3,True
+1226409,2025-04-05T11:00:00+00:00,FT,Regular Season - 28,SV Darmstadt 98,181,SpVgg Greuther Fürth,178,1,0,True
+1226408,2025-04-05T18:30:00+00:00,FT,Regular Season - 28,1. FC Köln,192,Hertha BSC,159,0,1,True
+1226412,2025-04-06T11:30:00+00:00,FT,Regular Season - 28,FC Schalke 04,174,SSV Ulm 1846,1652,2,1,True
+1226415,2025-04-06T11:30:00+00:00,FT,Regular Season - 28,1. FC Magdeburg,179,1. FC Kaiserslautern,745,2,0,True
+1226413,2025-04-06T11:30:00+00:00,FT,Regular Season - 28,SV Elversberg,1660,SSV Jahn Regensburg,177,6,0,True
+1226417,2025-04-11T16:30:00+00:00,FT,Regular Season - 29,Hamburger SV,175,Eintracht Braunschweig,744,2,4,True
+1226420,2025-04-11T16:30:00+00:00,FT,Regular Season - 29,SpVgg Greuther Fürth,178,1. FC Köln,192,1,1,True
+1226421,2025-04-12T11:00:00+00:00,FT,Regular Season - 29,Hertha BSC,159,SV Darmstadt 98,181,1,1,True
+1226418,2025-04-12T11:00:00+00:00,FT,Regular Season - 29,Hannover 96,166,SV Elversberg,1660,1,3,True
+1226423,2025-04-12T11:00:00+00:00,FT,Regular Season - 29,SSV Ulm 1846,1652,1. FC Magdeburg,179,1,0,True
+1226422,2025-04-12T18:30:00+00:00,FT,Regular Season - 29,1. FC Kaiserslautern,745,1. FC Nürnberg,171,1,2,True
+1226425,2025-04-13T11:30:00+00:00,FT,Regular Season - 29,SSV Jahn Regensburg,177,FC Schalke 04,174,2,0,True
+1226419,2025-04-13T11:30:00+00:00,FT,Regular Season - 29,SC Paderborn 07,185,Fortuna Düsseldorf,158,1,2,True
+1226424,2025-04-13T11:30:00+00:00,FT,Regular Season - 29,Preußen Münster,1313,Karlsruher SC,785,1,1,True
+1226431,2025-04-19T11:00:00+00:00,FT,Regular Season - 30,1. FC Nürnberg,171,SC Paderborn 07,185,2,3,True
+1226433,2025-04-19T11:00:00+00:00,FT,Regular Season - 30,Eintracht Braunschweig,744,1. FC Kaiserslautern,745,2,0,True
+1226430,2025-04-19T11:00:00+00:00,FT,Regular Season - 30,SV Elversberg,1660,Fortuna Düsseldorf,158,1,1,True
+1226429,2025-04-19T18:30:00+00:00,FT,Regular Season - 30,FC Schalke 04,174,Hamburger SV,175,2,2,True
+1226432,2025-04-20T11:30:00+00:00,FT,Regular Season - 30,1. FC Magdeburg,179,SSV Jahn Regensburg,177,3,0,True
+1226427,2025-04-20T11:30:00+00:00,FT,Regular Season - 30,SV Darmstadt 98,181,Hannover 96,166,3,1,True
+1226426,2025-04-20T11:30:00+00:00,FT,Regular Season - 30,1. FC Köln,192,Preußen Münster,1313,3,1,True
+1226428,2025-04-20T11:30:00+00:00,FT,Regular Season - 30,Karlsruher SC,785,SpVgg Greuther Fürth,178,1,0,True
+1226434,2025-04-20T11:30:00+00:00,FT,Regular Season - 30,SSV Ulm 1846,1652,Hertha BSC,159,2,3,True
+1226440,2025-04-25T16:30:00+00:00,FT,Regular Season - 31,Hertha BSC,159,1. FC Magdeburg,179,1,1,True
+1226439,2025-04-25T16:30:00+00:00,FT,Regular Season - 31,SpVgg Greuther Fürth,178,SSV Ulm 1846,1652,0,1,True
+1226443,2025-04-26T11:00:00+00:00,FT,Regular Season - 31,SSV Jahn Regensburg,177,Eintracht Braunschweig,744,1,1,True
+1226438,2025-04-26T11:00:00+00:00,FT,Regular Season - 31,SC Paderborn 07,185,SV Elversberg,1660,1,1,True
+1226442,2025-04-26T11:00:00+00:00,FT,Regular Season - 31,Preußen Münster,1313,SV Darmstadt 98,181,1,1,True
+1226435,2025-04-26T18:30:00+00:00,FT,Regular Season - 31,Fortuna Düsseldorf,158,1. FC Nürnberg,171,3,3,True
+1226437,2025-04-27T11:30:00+00:00,FT,Regular Season - 31,Hannover 96,166,1. FC Köln,192,1,0,True
+1226436,2025-04-27T11:30:00+00:00,FT,Regular Season - 31,Hamburger SV,175,Karlsruher SC,785,1,2,True
+1226441,2025-04-27T11:30:00+00:00,FT,Regular Season - 31,1. FC Kaiserslautern,745,FC Schalke 04,174,2,1,True
+1226448,2025-05-02T16:30:00+00:00,FT,Regular Season - 32,FC Schalke 04,174,SC Paderborn 07,185,0,2,True
+1226450,2025-05-02T16:30:00+00:00,FT,Regular Season - 32,1. FC Magdeburg,179,Preußen Münster,1313,0,5,True
+1226445,2025-05-03T11:00:00+00:00,FT,Regular Season - 32,SV Darmstadt 98,181,Hamburger SV,175,0,4,True
+1226451,2025-05-03T11:00:00+00:00,FT,Regular Season - 32,Eintracht Braunschweig,744,Fortuna Düsseldorf,158,2,2,True
+1226452,2025-05-03T11:00:00+00:00,FT,Regular Season - 32,SSV Ulm 1846,1652,Hannover 96,166,1,2,True
+1226444,2025-05-03T18:30:00+00:00,FT,Regular Season - 32,1. FC Köln,192,SSV Jahn Regensburg,177,1,1,True
+1226447,2025-05-04T11:30:00+00:00,FT,Regular Season - 32,Hertha BSC,159,SpVgg Greuther Fürth,178,1,0,True
+1226449,2025-05-04T11:30:00+00:00,FT,Regular Season - 32,1. FC Nürnberg,171,SV Elversberg,1660,1,3,True
+1226446,2025-05-04T11:30:00+00:00,FT,Regular Season - 32,Karlsruher SC,785,1. FC Kaiserslautern,745,2,2,True
+1226458,2025-05-09T16:30:00+00:00,FT,Regular Season - 33,1. FC Nürnberg,171,1. FC Köln,192,1,2,True
+1226460,2025-05-09T16:30:00+00:00,FT,Regular Season - 33,Preußen Münster,1313,Hertha BSC,159,2,0,True
+1226453,2025-05-10T11:00:00+00:00,FT,Regular Season - 33,Fortuna Düsseldorf,158,FC Schalke 04,174,2,0,True
+1226456,2025-05-10T11:00:00+00:00,FT,Regular Season - 33,SC Paderborn 07,185,1. FC Magdeburg,179,2,1,True
+1226457,2025-05-10T11:00:00+00:00,FT,Regular Season - 33,SV Elversberg,1660,Eintracht Braunschweig,744,3,0,True
+1226454,2025-05-10T18:30:00+00:00,FT,Regular Season - 33,Hamburger SV,175,SSV Ulm 1846,1652,6,1,True
+1226455,2025-05-11T11:30:00+00:00,FT,Regular Season - 33,Hannover 96,166,SpVgg Greuther Fürth,178,1,1,True
+1226461,2025-05-11T11:30:00+00:00,FT,Regular Season - 33,SSV Jahn Regensburg,177,Karlsruher SC,785,2,2,True
+1226459,2025-05-11T11:30:00+00:00,FT,Regular Season - 33,1. FC Kaiserslautern,745,SV Darmstadt 98,181,2,1,True
+1226466,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,Hertha BSC,159,Hannover 96,166,1,1,True
+1226467,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,FC Schalke 04,174,SV Elversberg,1660,1,2,True
+1226465,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,SpVgg Greuther Fürth,178,Hamburger SV,175,3,2,True
+1226468,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,1. FC Magdeburg,179,Fortuna Düsseldorf,158,4,2,True
+1226463,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,SV Darmstadt 98,181,SSV Jahn Regensburg,177,3,1,True
+1226462,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,1. FC Köln,192,1. FC Kaiserslautern,745,4,0,True
+1226469,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,Eintracht Braunschweig,744,1. FC Nürnberg,171,1,4,True
+1226464,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,Karlsruher SC,785,SC Paderborn 07,185,3,0,True
+1226470,2025-05-18T13:30:00+00:00,FT,Regular Season - 34,SSV Ulm 1846,1652,Preußen Münster,1313,2,2,True
+1375875,2025-05-23T18:30:00+00:00,FT,Relegation Round,FC Saarbrücken,1639,Eintracht Braunschweig,744,0,2,True
+1375876,2025-05-27T18:30:00+00:00,AET,Relegation Round,Eintracht Braunschweig,744,FC Saarbrücken,1639,2,2,False

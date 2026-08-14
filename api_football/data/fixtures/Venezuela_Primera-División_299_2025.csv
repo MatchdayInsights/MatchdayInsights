@@ -1,235 +1,235 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1480977,2025-11-11T22:30:00+00:00,CANC,Zamora FC,2806,Puerto Cabello,2827,,,False
-1336436,2025-01-24T22:00:00+00:00,FT,Metropolitanos FC,2825,Puerto Cabello,2827,2,1,True
-1336435,2025-01-25T00:30:00+00:00,FT,Monagas SC,2811,Deportivo La Guaira,2813,1,1,True
-1336438,2025-01-25T21:00:00+00:00,FT,Estudiantes de Merida FC,2818,Carabobo FC,2810,0,2,True
-1336437,2025-01-25T21:00:00+00:00,FT,UCV,2840,Anzoátegui FC,18806,1,1,True
-1336439,2025-01-26T19:30:00+00:00,FT,Rayo Zuliano,16847,Caracas FC,2808,1,1,True
-1336440,2025-01-26T21:45:00+00:00,FT,Deportivo Tachira FC,2807,Zamora FC,2806,0,0,True
-1336441,2025-01-27T00:00:00+00:00,FT,Portuguesa FC,2814,Yaracuyanos FC,2829,1,0,True
-1336447,2025-01-31T00:30:00+00:00,FT,Monagas SC,2811,Deportivo Tachira FC,2807,1,4,True
-1336442,2025-01-31T23:00:00+00:00,FT,Anzoátegui FC,18806,Rayo Zuliano,16847,3,1,True
-1336443,2025-02-01T19:00:00+00:00,FT,Yaracuyanos FC,2829,Puerto Cabello,2827,0,3,True
-1336444,2025-02-02T21:00:00+00:00,FT,Zamora FC,2806,Estudiantes de Merida FC,2818,2,1,True
-1336445,2025-02-02T22:00:00+00:00,FT,Deportivo La Guaira,2813,UCV,2840,2,2,True
-1336448,2025-02-02T23:30:00+00:00,FT,Carabobo FC,2810,Portuguesa FC,2814,0,0,True
-1336446,2025-02-03T23:00:00+00:00,FT,Caracas FC,2808,Metropolitanos FC,2825,1,0,True
-1336453,2025-02-06T23:30:00+00:00,FT,Estudiantes de Merida FC,2818,Monagas SC,2811,2,0,True
-1336455,2025-02-07T23:00:00+00:00,FT,Portuguesa FC,2814,Zamora FC,2806,2,1,True
-1336450,2025-02-08T19:30:00+00:00,FT,Rayo Zuliano,16847,Deportivo La Guaira,2813,1,1,True
-1336454,2025-02-08T21:45:00+00:00,FT,Deportivo Tachira FC,2807,UCV,2840,1,0,True
-1336451,2025-02-09T00:00:00+00:00,FT,Puerto Cabello,2827,Carabobo FC,2810,1,3,True
-1336449,2025-02-09T19:00:00+00:00,FT,Yaracuyanos FC,2829,Metropolitanos FC,2825,0,0,True
-1336452,2025-02-09T22:00:00+00:00,FT,Caracas FC,2808,Anzoátegui FC,18806,1,0,True
-1336457,2025-02-14T23:00:00+00:00,FT,UCV,2840,Estudiantes de Merida FC,2818,2,1,True
-1336461,2025-02-15T19:30:00+00:00,FT,Rayo Zuliano,16847,Deportivo Tachira FC,2807,1,0,True
-1336458,2025-02-15T21:45:00+00:00,FT,Carabobo FC,2810,Yaracuyanos FC,2829,2,2,True
-1336456,2025-02-16T00:00:00+00:00,FT,Deportivo La Guaira,2813,Caracas FC,2808,1,0,True
-1336460,2025-02-16T21:00:00+00:00,FT,Monagas SC,2811,Portuguesa FC,2814,0,2,True
-1336459,2025-02-16T23:30:00+00:00,FT,Zamora FC,2806,Puerto Cabello,2827,0,2,True
-1336462,2025-02-17T23:00:00+00:00,FT,Anzoátegui FC,18806,Metropolitanos FC,2825,3,1,True
-1336463,2025-02-21T21:30:00+00:00,FT,Estudiantes de Merida FC,2818,Rayo Zuliano,16847,1,0,True
-1336469,2025-02-22T19:00:00+00:00,FT,Yaracuyanos FC,2829,Zamora FC,2806,2,2,True
-1336467,2025-02-22T21:45:00+00:00,FT,Anzoátegui FC,18806,Deportivo La Guaira,2813,0,1,True
-1336464,2025-02-23T00:00:00+00:00,FT,Portuguesa FC,2814,UCV,2840,0,1,True
-1336465,2025-02-23T21:00:00+00:00,FT,Deportivo Tachira FC,2807,Caracas FC,2808,1,0,True
-1336468,2025-02-23T22:45:00+00:00,FT,Metropolitanos FC,2825,Carabobo FC,2810,3,0,True
-1336466,2025-02-23T23:30:00+00:00,FT,Puerto Cabello,2827,Monagas SC,2811,1,0,True
-1336474,2025-02-28T19:30:00+00:00,FT,Rayo Zuliano,16847,Portuguesa FC,2814,1,0,True
-1336476,2025-03-01T20:00:00+00:00,FT,Deportivo La Guaira,2813,Metropolitanos FC,2825,4,1,True
-1336470,2025-03-01T22:15:00+00:00,FT,Caracas FC,2808,Estudiantes de Merida FC,2818,0,0,True
-1336472,2025-03-01T22:15:00+00:00,FT,Anzoátegui FC,18806,Deportivo Tachira FC,2807,0,0,True
-1336475,2025-03-02T00:30:00+00:00,FT,UCV,2840,Puerto Cabello,2827,1,0,True
-1336473,2025-03-02T21:30:00+00:00,FT,Zamora FC,2806,Carabobo FC,2810,0,1,True
-1336471,2025-03-03T00:00:00+00:00,FT,Monagas SC,2811,Yaracuyanos FC,2829,2,1,True
-1336481,2025-03-07T22:30:00+00:00,FT,Estudiantes de Merida FC,2818,Anzoátegui FC,18806,3,4,True
-1336482,2025-03-08T19:00:00+00:00,FT,Yaracuyanos FC,2829,UCV,2840,0,2,True
-1336479,2025-03-08T21:30:00+00:00,FT,Carabobo FC,2810,Monagas SC,2811,1,0,True
-1336477,2025-03-09T21:00:00+00:00,FT,Deportivo Tachira FC,2807,Deportivo La Guaira,2813,2,1,True
-1336478,2025-03-09T22:00:00+00:00,FT,Portuguesa FC,2814,Caracas FC,2808,0,2,True
-1336480,2025-03-09T23:00:00+00:00,FT,Metropolitanos FC,2825,Zamora FC,2806,0,0,True
-1336483,2025-03-10T00:30:00+00:00,FT,Puerto Cabello,2827,Rayo Zuliano,16847,1,0,True
-1336490,2025-03-14T22:00:00+00:00,FT,Monagas SC,2811,Zamora FC,2806,2,1,True
-1336485,2025-03-15T00:30:00+00:00,FT,Caracas FC,2808,Puerto Cabello,2827,0,0,True
-1336487,2025-03-15T19:30:00+00:00,FT,Rayo Zuliano,16847,Yaracuyanos FC,2829,2,0,True
-1336484,2025-03-15T21:45:00+00:00,FT,Anzoátegui FC,18806,Portuguesa FC,2814,0,0,True
-1336486,2025-03-16T00:00:00+00:00,FT,UCV,2840,Carabobo FC,2810,1,1,True
-1336488,2025-03-16T21:00:00+00:00,FT,Deportivo Tachira FC,2807,Metropolitanos FC,2825,1,1,True
-1336489,2025-03-16T23:30:00+00:00,FT,Deportivo La Guaira,2813,Estudiantes de Merida FC,2818,2,1,True
-1336493,2025-03-27T19:00:00+00:00,FT,Yaracuyanos FC,2829,Caracas FC,2808,3,3,True
-1336495,2025-03-28T21:30:00+00:00,FT,Estudiantes de Merida FC,2818,Deportivo Tachira FC,2807,2,3,True
-1336496,2025-03-29T00:00:00+00:00,FT,Carabobo FC,2810,Rayo Zuliano,16847,1,0,True
-1336492,2025-03-29T21:30:00+00:00,FT,Zamora FC,2806,UCV,2840,0,1,True
-1336497,2025-03-30T00:00:00+00:00,FT,Puerto Cabello,2827,Anzoátegui FC,18806,0,0,True
-1336494,2025-03-30T21:30:00+00:00,FT,Metropolitanos FC,2825,Monagas SC,2811,2,2,True
-1336491,2025-03-31T00:00:00+00:00,FT,Portuguesa FC,2814,Deportivo La Guaira,2813,1,3,True
-1336502,2025-04-04T21:30:00+00:00,FT,UCV,2840,Monagas SC,2811,0,0,True
-1336500,2025-04-05T00:00:00+00:00,FT,Anzoátegui FC,18806,Yaracuyanos FC,2829,1,1,True
-1336504,2025-04-05T19:00:00+00:00,FT,Caracas FC,2808,Carabobo FC,2810,0,1,True
-1336499,2025-04-05T19:30:00+00:00,FT,Rayo Zuliano,16847,Zamora FC,2806,2,0,True
-1336501,2025-04-05T21:45:00+00:00,FT,Estudiantes de Merida FC,2818,Metropolitanos FC,2825,1,2,True
-1336503,2025-04-05T23:00:00+00:00,FT,Deportivo La Guaira,2813,Puerto Cabello,2827,0,0,True
-1336498,2025-04-06T21:30:00+00:00,FT,Deportivo Tachira FC,2807,Portuguesa FC,2814,1,1,True
-1336510,2025-04-10T22:00:00+00:00,FT,Monagas SC,2811,Rayo Zuliano,16847,3,2,True
-1336508,2025-04-11T23:00:00+00:00,FT,Portuguesa FC,2814,Estudiantes de Merida FC,2818,4,2,True
-1336505,2025-04-12T19:00:00+00:00,FT,Yaracuyanos FC,2829,Deportivo La Guaira,2813,1,2,True
-1336506,2025-04-12T22:00:00+00:00,FT,Metropolitanos FC,2825,UCV,2840,0,1,True
-1336507,2025-04-13T21:00:00+00:00,FT,Carabobo FC,2810,Anzoátegui FC,18806,1,0,True
-1336511,2025-04-13T22:00:00+00:00,FT,Zamora FC,2806,Caracas FC,2808,3,0,True
-1336509,2025-04-14T00:00:00+00:00,FT,Puerto Cabello,2827,Deportivo Tachira FC,2807,3,2,True
-1336516,2025-04-17T22:00:00+00:00,FT,Deportivo La Guaira,2813,Carabobo FC,2810,0,0,True
-1336515,2025-04-18T20:00:00+00:00,FT,Caracas FC,2808,Monagas SC,2811,1,4,True
-1336512,2025-04-18T22:00:00+00:00,FT,Estudiantes de Merida FC,2818,Puerto Cabello,2827,1,0,True
-1336518,2025-04-19T21:30:00+00:00,FT,Deportivo Tachira FC,2807,Yaracuyanos FC,2829,4,0,True
-1336514,2025-04-20T00:00:00+00:00,FT,Anzoátegui FC,18806,Zamora FC,2806,2,0,True
-1336513,2025-04-20T19:30:00+00:00,FT,Rayo Zuliano,16847,UCV,2840,0,2,True
-1336517,2025-04-20T22:30:00+00:00,FT,Portuguesa FC,2814,Metropolitanos FC,2825,2,1,True
-1336521,2025-04-25T21:30:00+00:00,FT,Zamora FC,2806,Deportivo La Guaira,2813,1,2,True
-1336523,2025-04-26T19:00:00+00:00,FT,Yaracuyanos FC,2829,Estudiantes de Merida FC,2818,2,0,True
-1336522,2025-04-26T21:30:00+00:00,FT,Monagas SC,2811,Anzoátegui FC,18806,2,3,True
-1336520,2025-04-26T21:30:00+00:00,FT,Metropolitanos FC,2825,Rayo Zuliano,16847,4,2,True
-1336519,2025-04-27T21:30:00+00:00,FT,Carabobo FC,2810,Deportivo Tachira FC,2807,0,0,True
-1336524,2025-04-27T21:30:00+00:00,FT,UCV,2840,Caracas FC,2808,1,3,True
-1336525,2025-04-28T00:00:00+00:00,FT,Puerto Cabello,2827,Portuguesa FC,2814,2,1,True
-1373416,2025-05-02T22:00:00+00:00,FT,Metropolitanos FC,2825,Carabobo FC,2810,1,3,True
-1373417,2025-05-03T00:30:00+00:00,FT,Puerto Cabello,2827,Deportivo Tachira FC,2807,1,2,True
-1373419,2025-05-04T00:00:00+00:00,FT,Anzoátegui FC,18806,UCV,2840,4,4,True
-1373418,2025-05-04T01:00:00+00:00,FT,Portuguesa FC,2814,Deportivo La Guaira,2813,1,2,True
-1373420,2025-05-10T21:00:00+00:00,FT,Carabobo FC,2810,Puerto Cabello,2827,0,0,True
-1373421,2025-05-10T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Metropolitanos FC,2825,1,0,True
-1373422,2025-05-11T20:00:00+00:00,FT,UCV,2840,Portuguesa FC,2814,2,2,True
-1373423,2025-05-12T00:00:00+00:00,FT,Deportivo La Guaira,2813,Anzoátegui FC,18806,3,1,True
-1373424,2025-05-16T22:00:00+00:00,FT,UCV,2840,Deportivo La Guaira,2813,3,2,True
-1373425,2025-05-17T00:30:00+00:00,FT,Portuguesa FC,2814,Anzoátegui FC,18806,0,0,True
-1373426,2025-05-17T21:00:00+00:00,FT,Deportivo Tachira FC,2807,Carabobo FC,2810,1,0,True
-1373427,2025-05-17T23:30:00+00:00,FT,Metropolitanos FC,2825,Puerto Cabello,2827,1,1,True
-1373428,2025-05-21T22:00:00+00:00,FT,Deportivo La Guaira,2813,UCV,2840,0,1,True
-1373429,2025-05-22T00:30:00+00:00,FT,Anzoátegui FC,18806,Portuguesa FC,2814,1,1,True
-1373430,2025-05-22T22:00:00+00:00,FT,Carabobo FC,2810,Deportivo Tachira FC,2807,2,4,True
-1373431,2025-05-23T00:30:00+00:00,FT,Puerto Cabello,2827,Metropolitanos FC,2825,1,1,True
-1376477,2025-05-31T21:00:00+00:00,FT,Metropolitanos FC,2825,Deportivo Tachira FC,2807,2,1,True
-1376478,2025-05-31T23:30:00+00:00,FT,Portuguesa FC,2814,UCV,2840,1,3,True
-1376479,2025-05-31T23:30:00+00:00,FT,Anzoátegui FC,18806,Deportivo La Guaira,2813,0,2,True
-1376480,2025-06-01T22:00:00+00:00,FT,Puerto Cabello,2827,Carabobo FC,2810,1,3,True
-1376481,2025-06-07T19:00:00+00:00,FT,Deportivo Tachira FC,2807,Puerto Cabello,2827,2,0,True
-1376482,2025-06-07T21:30:00+00:00,FT,Carabobo FC,2810,Metropolitanos FC,2825,2,2,True
-1376483,2025-06-08T21:00:00+00:00,FT,UCV,2840,Anzoátegui FC,18806,2,2,True
-1376484,2025-06-09T00:30:00+00:00,FT,Deportivo La Guaira,2813,Portuguesa FC,2814,1,1,True
-1378638,2025-06-14T21:30:00+00:00,FT,UCV,2840,Deportivo Tachira FC,2807,1,0,True
-1391364,2025-07-04T21:00:00+00:00,FT,Puerto Cabello,2827,Metropolitanos FC,2825,2,2,True
-1391365,2025-07-05T19:30:00+00:00,FT,Yaracuyanos FC,2829,Portuguesa FC,2814,1,2,True
-1391366,2025-07-05T22:00:00+00:00,FT,Carabobo FC,2810,Estudiantes de Merida FC,2818,2,1,True
-1391367,2025-07-06T21:00:00+00:00,FT,Caracas FC,2808,Rayo Zuliano,16847,2,1,True
-1391368,2025-07-06T22:00:00+00:00,FT,Anzoátegui FC,18806,UCV,2840,0,2,True
-1391369,2025-07-06T23:30:00+00:00,FT,Zamora FC,2806,Deportivo Tachira FC,2807,1,1,True
-1392227,2025-07-07T23:00:00+00:00,FT,Deportivo La Guaira,2813,Monagas SC,2811,2,0,True
-1399985,2025-07-11T21:00:00+00:00,FT,UCV,2840,Deportivo La Guaira,2813,1,2,True
-1399359,2025-07-11T23:30:00+00:00,FT,Portuguesa FC,2814,Carabobo FC,2810,0,0,True
-1399360,2025-07-12T19:30:00+00:00,FT,Rayo Zuliano,16847,Anzoátegui FC,18806,2,0,True
-1399361,2025-07-12T22:00:00+00:00,FT,Estudiantes de Merida FC,2818,Zamora FC,2806,2,1,True
-1399362,2025-07-13T00:30:00+00:00,FT,Puerto Cabello,2827,Yaracuyanos FC,2829,1,0,True
-1399363,2025-07-13T21:00:00+00:00,FT,Metropolitanos FC,2825,Caracas FC,2808,2,3,True
-1399364,2025-07-13T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Monagas SC,2811,2,1,True
-1403897,2025-07-18T21:30:00+00:00,FT,Deportivo La Guaira,2813,Rayo Zuliano,16847,4,0,True
-1403898,2025-07-19T00:00:00+00:00,FT,Anzoátegui FC,18806,Caracas FC,2808,0,1,True
-1403899,2025-07-19T21:00:00+00:00,FT,UCV,2840,Deportivo Tachira FC,2807,1,2,True
-1403900,2025-07-19T22:00:00+00:00,FT,Carabobo FC,2810,Puerto Cabello,2827,2,0,True
-1403901,2025-07-19T23:00:00+00:00,FT,Monagas SC,2811,Estudiantes de Merida FC,2818,1,0,True
-1403902,2025-07-20T21:00:00+00:00,FT,Metropolitanos FC,2825,Yaracuyanos FC,2829,2,1,True
-1403903,2025-07-20T23:30:00+00:00,FT,Zamora FC,2806,Portuguesa FC,2814,1,0,True
-1403906,2025-07-23T22:30:00+00:00,FT,Estudiantes de Merida FC,2818,UCV,2840,0,0,True
-1403910,2025-07-23T23:00:00+00:00,FT,Deportivo Tachira FC,2807,Rayo Zuliano,16847,2,0,True
-1403904,2025-07-23T23:30:00+00:00,FT,Caracas FC,2808,Deportivo La Guaira,2813,0,3,True
-1403908,2025-07-24T21:00:00+00:00,FT,Yaracuyanos FC,2829,Carabobo FC,2810,1,2,True
-1403909,2025-07-24T22:00:00+00:00,FT,Metropolitanos FC,2825,Anzoátegui FC,18806,1,2,True
-1403907,2025-07-25T00:30:00+00:00,FT,Portuguesa FC,2814,Monagas SC,2811,0,1,True
-1403905,2025-07-25T23:30:00+00:00,FT,Puerto Cabello,2827,Zamora FC,2806,3,0,True
-1403913,2025-08-01T21:00:00+00:00,FT,Zamora FC,2806,Yaracuyanos FC,2829,1,0,True
-1413141,2025-08-01T23:30:00+00:00,FT,Deportivo La Guaira,2813,Anzoátegui FC,18806,1,2,True
-1403912,2025-08-02T19:30:00+00:00,FT,Rayo Zuliano,16847,Estudiantes de Merida FC,2818,2,1,True
-1403915,2025-08-02T21:00:00+00:00,FT,Caracas FC,2808,Deportivo Tachira FC,2807,1,1,True
-1403911,2025-08-02T23:30:00+00:00,FT,Carabobo FC,2810,Metropolitanos FC,2825,0,0,True
-1403916,2025-08-03T21:00:00+00:00,FT,Monagas SC,2811,Puerto Cabello,2827,1,1,True
-1403914,2025-08-03T23:30:00+00:00,FT,UCV,2840,Portuguesa FC,2814,2,0,True
-1403917,2025-08-09T21:00:00+00:00,FT,Carabobo FC,2810,Zamora FC,2806,1,0,True
-1403921,2025-08-09T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Anzoátegui FC,18806,1,0,True
-1403920,2025-08-10T21:00:00+00:00,FT,Metropolitanos FC,2825,Deportivo La Guaira,2813,1,3,True
-1403919,2025-08-10T22:00:00+00:00,FT,Estudiantes de Merida FC,2818,Caracas FC,2808,1,0,True
-1403922,2025-08-11T00:30:00+00:00,FT,Puerto Cabello,2827,UCV,2840,2,2,True
-1403918,2025-08-11T21:00:00+00:00,FT,Yaracuyanos FC,2829,Monagas SC,2811,1,1,True
-1423661,2025-08-11T23:30:00+00:00,FT,Portuguesa FC,2814,Rayo Zuliano,16847,1,2,True
-1403928,2025-08-15T22:00:00+00:00,FT,UCV,2840,Yaracuyanos FC,2829,1,0,True
-1403924,2025-08-16T00:30:00+00:00,FT,Anzoátegui FC,18806,Estudiantes de Merida FC,2818,0,1,True
-1431024,2025-08-16T21:00:00+00:00,FT,Caracas FC,2808,Portuguesa FC,2814,2,0,True
-1403923,2025-08-16T22:00:00+00:00,FT,Zamora FC,2806,Metropolitanos FC,2825,1,0,True
-1403927,2025-08-16T23:30:00+00:00,FT,Monagas SC,2811,Carabobo FC,2810,2,0,True
-1403925,2025-08-17T19:30:00+00:00,FT,Rayo Zuliano,16847,Puerto Cabello,2827,0,0,True
-1403926,2025-08-17T22:00:00+00:00,FT,Deportivo La Guaira,2813,Deportivo Tachira FC,2807,3,1,True
-1435544,2025-08-22T21:00:00+00:00,FT,Yaracuyanos FC,2829,Rayo Zuliano,16847,1,0,True
-1403930,2025-08-22T23:30:00+00:00,FT,Portuguesa FC,2814,Anzoátegui FC,18806,3,1,True
-1403929,2025-08-23T21:00:00+00:00,FT,Zamora FC,2806,Monagas SC,2811,2,3,True
-1403932,2025-08-23T23:30:00+00:00,FT,Carabobo FC,2810,UCV,2840,4,1,True
-1403931,2025-08-24T21:00:00+00:00,FT,Metropolitanos FC,2825,Deportivo Tachira FC,2807,2,3,True
-1403933,2025-08-24T22:00:00+00:00,FT,Estudiantes de Merida FC,2818,Deportivo La Guaira,2813,1,2,True
-1403934,2025-08-25T00:30:00+00:00,FT,Puerto Cabello,2827,Caracas FC,2808,0,0,True
-1403936,2025-08-30T19:30:00+00:00,FT,Rayo Zuliano,16847,Carabobo FC,2810,0,2,True
-1403940,2025-08-30T22:00:00+00:00,FT,Monagas SC,2811,Metropolitanos FC,2825,2,0,True
-1403939,2025-08-31T00:30:00+00:00,FT,Deportivo La Guaira,2813,Portuguesa FC,2814,3,1,True
-1403935,2025-08-31T21:00:00+00:00,FT,UCV,2840,Zamora FC,2806,0,1,True
-1403941,2025-08-31T22:00:00+00:00,FT,Anzoátegui FC,18806,Puerto Cabello,2827,1,0,True
-1403937,2025-08-31T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Estudiantes de Merida FC,2818,4,0,True
-1403938,2025-09-01T22:00:00+00:00,FT,Caracas FC,2808,Yaracuyanos FC,2829,3,1,True
-1403946,2025-09-12T21:00:00+00:00,FT,Yaracuyanos FC,2829,Anzoátegui FC,18806,2,1,True
-1403942,2025-09-12T23:30:00+00:00,FT,Metropolitanos FC,2825,Estudiantes de Merida FC,2818,1,0,True
-1403948,2025-09-13T22:00:00+00:00,FT,Zamora FC,2806,Rayo Zuliano,16847,1,0,True
-1403943,2025-09-13T23:30:00+00:00,FT,Puerto Cabello,2827,Deportivo La Guaira,2813,1,0,True
-1403945,2025-09-14T21:00:00+00:00,FT,Portuguesa FC,2814,Deportivo Tachira FC,2807,2,0,True
-1403947,2025-09-14T22:00:00+00:00,FT,Carabobo FC,2810,Caracas FC,2808,1,0,True
-1403944,2025-09-14T23:30:00+00:00,FT,Monagas SC,2811,UCV,2840,2,0,True
-1403949,2025-09-20T00:30:00+00:00,FT,Anzoátegui FC,18806,Carabobo FC,2810,0,0,True
-1403951,2025-09-20T19:30:00+00:00,FT,Rayo Zuliano,16847,Monagas SC,2811,3,1,True
-1403950,2025-09-20T22:00:00+00:00,FT,Estudiantes de Merida FC,2818,Portuguesa FC,2814,2,0,True
-1403955,2025-09-20T23:30:00+00:00,FT,Caracas FC,2808,Zamora FC,2806,2,0,True
-1403952,2025-09-21T21:00:00+00:00,FT,Deportivo La Guaira,2813,Yaracuyanos FC,2829,4,0,True
-1403953,2025-09-21T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Puerto Cabello,2827,0,0,True
-1403954,2025-09-22T23:00:00+00:00,FT,UCV,2840,Metropolitanos FC,2825,1,4,True
-1403956,2025-09-27T21:00:00+00:00,FT,Zamora FC,2806,Anzoátegui FC,18806,2,1,True
-1403959,2025-09-27T21:00:00+00:00,FT,Puerto Cabello,2827,Estudiantes de Merida FC,2818,1,2,True
-1403958,2025-09-27T21:00:00+00:00,FT,UCV,2840,Rayo Zuliano,16847,3,0,True
-1403961,2025-09-28T00:30:00+00:00,FT,Metropolitanos FC,2825,Portuguesa FC,2814,5,1,True
-1403957,2025-09-28T21:00:00+00:00,FT,Carabobo FC,2810,Deportivo La Guaira,2813,0,0,True
-1403962,2025-09-28T21:00:00+00:00,FT,Monagas SC,2811,Caracas FC,2808,2,2,True
-1403960,2025-09-28T21:00:00+00:00,FT,Yaracuyanos FC,2829,Deportivo Tachira FC,2807,1,3,True
-1403966,2025-10-04T23:00:00+00:00,FT,Deportivo Tachira FC,2807,Carabobo FC,2810,3,0,True
-1403965,2025-10-04T23:00:00+00:00,FT,Deportivo La Guaira,2813,Zamora FC,2806,2,0,True
-1403969,2025-10-05T19:30:00+00:00,FT,Caracas FC,2808,UCV,2840,1,5,True
-1403963,2025-10-05T19:30:00+00:00,FT,Portuguesa FC,2814,Puerto Cabello,2827,0,1,True
-1403968,2025-10-05T19:30:00+00:00,FT,Estudiantes de Merida FC,2818,Yaracuyanos FC,2829,0,2,True
-1403964,2025-10-05T19:30:00+00:00,FT,Rayo Zuliano,16847,Metropolitanos FC,2825,0,1,True
-1403967,2025-10-05T19:30:00+00:00,FT,Anzoátegui FC,18806,Monagas SC,2811,2,2,True
-1480965,2025-10-17T21:30:00+00:00,FT,Puerto Cabello,2827,Deportivo La Guaira,2813,3,1,True
-1480966,2025-10-17T23:30:00+00:00,FT,Zamora FC,2806,Monagas SC,2811,2,0,True
-1480967,2025-10-18T20:00:00+00:00,FT,Metropolitanos FC,2825,Deportivo Tachira FC,2807,1,1,True
-1480968,2025-10-19T00:30:00+00:00,FT,Caracas FC,2808,Carabobo FC,2810,0,0,True
-1480969,2025-10-21T21:30:00+00:00,FT,Monagas SC,2811,Puerto Cabello,2827,1,2,True
-1480970,2025-10-21T23:30:00+00:00,FT,Deportivo La Guaira,2813,Zamora FC,2806,1,1,True
-1480971,2025-10-22T21:30:00+00:00,FT,Carabobo FC,2810,Metropolitanos FC,2825,1,0,True
-1480972,2025-10-22T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Caracas FC,2808,2,3,True
-1480973,2025-10-25T21:30:00+00:00,FT,Monagas SC,2811,Deportivo La Guaira,2813,0,1,True
-1480974,2025-10-25T23:30:00+00:00,FT,Puerto Cabello,2827,Zamora FC,2806,3,0,True
-1480975,2025-10-26T21:30:00+00:00,FT,Carabobo FC,2810,Deportivo Tachira FC,2807,1,1,True
-1480976,2025-10-26T23:30:00+00:00,FT,Metropolitanos FC,2825,Caracas FC,2808,2,3,True
-1480978,2025-10-31T23:30:00+00:00,FT,Deportivo La Guaira,2813,Monagas SC,2811,2,1,True
-1480980,2025-11-01T21:30:00+00:00,FT,Caracas FC,2808,Metropolitanos FC,2825,1,1,True
-1480979,2025-11-01T23:30:00+00:00,FT,Deportivo Tachira FC,2807,Carabobo FC,2810,1,2,True
-1480982,2025-11-04T23:30:00+00:00,FT,Zamora FC,2806,Deportivo La Guaira,2813,2,0,True
-1480981,2025-11-04T23:30:00+00:00,FT,Puerto Cabello,2827,Monagas SC,2811,3,2,True
-1480983,2025-11-05T23:30:00+00:00,FT,Caracas FC,2808,Deportivo Tachira FC,2807,0,0,True
-1480984,2025-11-05T23:30:00+00:00,FT,Metropolitanos FC,2825,Carabobo FC,2810,0,4,True
-1480986,2025-11-08T23:30:00+00:00,FT,Monagas SC,2811,Zamora FC,2806,1,0,True
-1480985,2025-11-08T23:30:00+00:00,FT,Deportivo La Guaira,2813,Puerto Cabello,2827,0,0,True
-1480988,2025-11-09T21:30:00+00:00,FT,Deportivo Tachira FC,2807,Metropolitanos FC,2825,2,0,True
-1480987,2025-11-09T23:00:00+00:00,FT,Carabobo FC,2810,Caracas FC,2808,2,0,True
-1486346,2025-11-23T22:00:00+00:00,FT,Carabobo FC,2810,Puerto Cabello,2827,1,0,True
-1488209,2025-11-30T22:00:00+00:00,FT,UCV,2840,Carabobo FC,2810,1,1,True
-1488208,2025-12-06T22:00:00+00:00,FT,Carabobo FC,2810,UCV,2840,0,2,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1480977,2025-11-11T22:30:00+00:00,CANC,Clausura - Quadrangular - 4,Zamora FC,2806,Puerto Cabello,2827,,,False
+1336436,2025-01-24T22:00:00+00:00,FT,Apertura - 1,Metropolitanos FC,2825,Puerto Cabello,2827,2,1,True
+1336435,2025-01-25T00:30:00+00:00,FT,Apertura - 1,Monagas SC,2811,Deportivo La Guaira,2813,1,1,True
+1336438,2025-01-25T21:00:00+00:00,FT,Apertura - 1,Estudiantes de Merida FC,2818,Carabobo FC,2810,0,2,True
+1336437,2025-01-25T21:00:00+00:00,FT,Apertura - 1,UCV,2840,Anzoátegui FC,18806,1,1,True
+1336439,2025-01-26T19:30:00+00:00,FT,Apertura - 1,Rayo Zuliano,16847,Caracas FC,2808,1,1,True
+1336440,2025-01-26T21:45:00+00:00,FT,Apertura - 1,Deportivo Tachira FC,2807,Zamora FC,2806,0,0,True
+1336441,2025-01-27T00:00:00+00:00,FT,Apertura - 1,Portuguesa FC,2814,Yaracuyanos FC,2829,1,0,True
+1336447,2025-01-31T00:30:00+00:00,FT,Apertura - 2,Monagas SC,2811,Deportivo Tachira FC,2807,1,4,True
+1336442,2025-01-31T23:00:00+00:00,FT,Apertura - 2,Anzoátegui FC,18806,Rayo Zuliano,16847,3,1,True
+1336443,2025-02-01T19:00:00+00:00,FT,Apertura - 2,Yaracuyanos FC,2829,Puerto Cabello,2827,0,3,True
+1336444,2025-02-02T21:00:00+00:00,FT,Apertura - 2,Zamora FC,2806,Estudiantes de Merida FC,2818,2,1,True
+1336445,2025-02-02T22:00:00+00:00,FT,Apertura - 2,Deportivo La Guaira,2813,UCV,2840,2,2,True
+1336448,2025-02-02T23:30:00+00:00,FT,Apertura - 2,Carabobo FC,2810,Portuguesa FC,2814,0,0,True
+1336446,2025-02-03T23:00:00+00:00,FT,Apertura - 2,Caracas FC,2808,Metropolitanos FC,2825,1,0,True
+1336453,2025-02-06T23:30:00+00:00,FT,Apertura - 3,Estudiantes de Merida FC,2818,Monagas SC,2811,2,0,True
+1336455,2025-02-07T23:00:00+00:00,FT,Apertura - 3,Portuguesa FC,2814,Zamora FC,2806,2,1,True
+1336450,2025-02-08T19:30:00+00:00,FT,Apertura - 3,Rayo Zuliano,16847,Deportivo La Guaira,2813,1,1,True
+1336454,2025-02-08T21:45:00+00:00,FT,Apertura - 3,Deportivo Tachira FC,2807,UCV,2840,1,0,True
+1336451,2025-02-09T00:00:00+00:00,FT,Apertura - 3,Puerto Cabello,2827,Carabobo FC,2810,1,3,True
+1336449,2025-02-09T19:00:00+00:00,FT,Apertura - 3,Yaracuyanos FC,2829,Metropolitanos FC,2825,0,0,True
+1336452,2025-02-09T22:00:00+00:00,FT,Apertura - 3,Caracas FC,2808,Anzoátegui FC,18806,1,0,True
+1336457,2025-02-14T23:00:00+00:00,FT,Apertura - 4,UCV,2840,Estudiantes de Merida FC,2818,2,1,True
+1336461,2025-02-15T19:30:00+00:00,FT,Apertura - 4,Rayo Zuliano,16847,Deportivo Tachira FC,2807,1,0,True
+1336458,2025-02-15T21:45:00+00:00,FT,Apertura - 4,Carabobo FC,2810,Yaracuyanos FC,2829,2,2,True
+1336456,2025-02-16T00:00:00+00:00,FT,Apertura - 4,Deportivo La Guaira,2813,Caracas FC,2808,1,0,True
+1336460,2025-02-16T21:00:00+00:00,FT,Apertura - 4,Monagas SC,2811,Portuguesa FC,2814,0,2,True
+1336459,2025-02-16T23:30:00+00:00,FT,Apertura - 4,Zamora FC,2806,Puerto Cabello,2827,0,2,True
+1336462,2025-02-17T23:00:00+00:00,FT,Apertura - 4,Anzoátegui FC,18806,Metropolitanos FC,2825,3,1,True
+1336463,2025-02-21T21:30:00+00:00,FT,Apertura - 5,Estudiantes de Merida FC,2818,Rayo Zuliano,16847,1,0,True
+1336469,2025-02-22T19:00:00+00:00,FT,Apertura - 5,Yaracuyanos FC,2829,Zamora FC,2806,2,2,True
+1336467,2025-02-22T21:45:00+00:00,FT,Apertura - 5,Anzoátegui FC,18806,Deportivo La Guaira,2813,0,1,True
+1336464,2025-02-23T00:00:00+00:00,FT,Apertura - 5,Portuguesa FC,2814,UCV,2840,0,1,True
+1336465,2025-02-23T21:00:00+00:00,FT,Apertura - 5,Deportivo Tachira FC,2807,Caracas FC,2808,1,0,True
+1336468,2025-02-23T22:45:00+00:00,FT,Apertura - 5,Metropolitanos FC,2825,Carabobo FC,2810,3,0,True
+1336466,2025-02-23T23:30:00+00:00,FT,Apertura - 5,Puerto Cabello,2827,Monagas SC,2811,1,0,True
+1336474,2025-02-28T19:30:00+00:00,FT,Apertura - 6,Rayo Zuliano,16847,Portuguesa FC,2814,1,0,True
+1336476,2025-03-01T20:00:00+00:00,FT,Apertura - 6,Deportivo La Guaira,2813,Metropolitanos FC,2825,4,1,True
+1336470,2025-03-01T22:15:00+00:00,FT,Apertura - 6,Caracas FC,2808,Estudiantes de Merida FC,2818,0,0,True
+1336472,2025-03-01T22:15:00+00:00,FT,Apertura - 6,Anzoátegui FC,18806,Deportivo Tachira FC,2807,0,0,True
+1336475,2025-03-02T00:30:00+00:00,FT,Apertura - 6,UCV,2840,Puerto Cabello,2827,1,0,True
+1336473,2025-03-02T21:30:00+00:00,FT,Apertura - 6,Zamora FC,2806,Carabobo FC,2810,0,1,True
+1336471,2025-03-03T00:00:00+00:00,FT,Apertura - 6,Monagas SC,2811,Yaracuyanos FC,2829,2,1,True
+1336481,2025-03-07T22:30:00+00:00,FT,Apertura - 7,Estudiantes de Merida FC,2818,Anzoátegui FC,18806,3,4,True
+1336482,2025-03-08T19:00:00+00:00,FT,Apertura - 7,Yaracuyanos FC,2829,UCV,2840,0,2,True
+1336479,2025-03-08T21:30:00+00:00,FT,Apertura - 7,Carabobo FC,2810,Monagas SC,2811,1,0,True
+1336477,2025-03-09T21:00:00+00:00,FT,Apertura - 7,Deportivo Tachira FC,2807,Deportivo La Guaira,2813,2,1,True
+1336478,2025-03-09T22:00:00+00:00,FT,Apertura - 7,Portuguesa FC,2814,Caracas FC,2808,0,2,True
+1336480,2025-03-09T23:00:00+00:00,FT,Apertura - 7,Metropolitanos FC,2825,Zamora FC,2806,0,0,True
+1336483,2025-03-10T00:30:00+00:00,FT,Apertura - 7,Puerto Cabello,2827,Rayo Zuliano,16847,1,0,True
+1336490,2025-03-14T22:00:00+00:00,FT,Apertura - 8,Monagas SC,2811,Zamora FC,2806,2,1,True
+1336485,2025-03-15T00:30:00+00:00,FT,Apertura - 8,Caracas FC,2808,Puerto Cabello,2827,0,0,True
+1336487,2025-03-15T19:30:00+00:00,FT,Apertura - 8,Rayo Zuliano,16847,Yaracuyanos FC,2829,2,0,True
+1336484,2025-03-15T21:45:00+00:00,FT,Apertura - 8,Anzoátegui FC,18806,Portuguesa FC,2814,0,0,True
+1336486,2025-03-16T00:00:00+00:00,FT,Apertura - 8,UCV,2840,Carabobo FC,2810,1,1,True
+1336488,2025-03-16T21:00:00+00:00,FT,Apertura - 8,Deportivo Tachira FC,2807,Metropolitanos FC,2825,1,1,True
+1336489,2025-03-16T23:30:00+00:00,FT,Apertura - 8,Deportivo La Guaira,2813,Estudiantes de Merida FC,2818,2,1,True
+1336493,2025-03-27T19:00:00+00:00,FT,Apertura - 9,Yaracuyanos FC,2829,Caracas FC,2808,3,3,True
+1336495,2025-03-28T21:30:00+00:00,FT,Apertura - 9,Estudiantes de Merida FC,2818,Deportivo Tachira FC,2807,2,3,True
+1336496,2025-03-29T00:00:00+00:00,FT,Apertura - 9,Carabobo FC,2810,Rayo Zuliano,16847,1,0,True
+1336492,2025-03-29T21:30:00+00:00,FT,Apertura - 9,Zamora FC,2806,UCV,2840,0,1,True
+1336497,2025-03-30T00:00:00+00:00,FT,Apertura - 9,Puerto Cabello,2827,Anzoátegui FC,18806,0,0,True
+1336494,2025-03-30T21:30:00+00:00,FT,Apertura - 9,Metropolitanos FC,2825,Monagas SC,2811,2,2,True
+1336491,2025-03-31T00:00:00+00:00,FT,Apertura - 9,Portuguesa FC,2814,Deportivo La Guaira,2813,1,3,True
+1336502,2025-04-04T21:30:00+00:00,FT,Apertura - 10,UCV,2840,Monagas SC,2811,0,0,True
+1336500,2025-04-05T00:00:00+00:00,FT,Apertura - 10,Anzoátegui FC,18806,Yaracuyanos FC,2829,1,1,True
+1336504,2025-04-05T19:00:00+00:00,FT,Apertura - 10,Caracas FC,2808,Carabobo FC,2810,0,1,True
+1336499,2025-04-05T19:30:00+00:00,FT,Apertura - 10,Rayo Zuliano,16847,Zamora FC,2806,2,0,True
+1336501,2025-04-05T21:45:00+00:00,FT,Apertura - 10,Estudiantes de Merida FC,2818,Metropolitanos FC,2825,1,2,True
+1336503,2025-04-05T23:00:00+00:00,FT,Apertura - 10,Deportivo La Guaira,2813,Puerto Cabello,2827,0,0,True
+1336498,2025-04-06T21:30:00+00:00,FT,Apertura - 10,Deportivo Tachira FC,2807,Portuguesa FC,2814,1,1,True
+1336510,2025-04-10T22:00:00+00:00,FT,Apertura - 11,Monagas SC,2811,Rayo Zuliano,16847,3,2,True
+1336508,2025-04-11T23:00:00+00:00,FT,Apertura - 11,Portuguesa FC,2814,Estudiantes de Merida FC,2818,4,2,True
+1336505,2025-04-12T19:00:00+00:00,FT,Apertura - 11,Yaracuyanos FC,2829,Deportivo La Guaira,2813,1,2,True
+1336506,2025-04-12T22:00:00+00:00,FT,Apertura - 11,Metropolitanos FC,2825,UCV,2840,0,1,True
+1336507,2025-04-13T21:00:00+00:00,FT,Apertura - 11,Carabobo FC,2810,Anzoátegui FC,18806,1,0,True
+1336511,2025-04-13T22:00:00+00:00,FT,Apertura - 11,Zamora FC,2806,Caracas FC,2808,3,0,True
+1336509,2025-04-14T00:00:00+00:00,FT,Apertura - 11,Puerto Cabello,2827,Deportivo Tachira FC,2807,3,2,True
+1336516,2025-04-17T22:00:00+00:00,FT,Apertura - 12,Deportivo La Guaira,2813,Carabobo FC,2810,0,0,True
+1336515,2025-04-18T20:00:00+00:00,FT,Apertura - 12,Caracas FC,2808,Monagas SC,2811,1,4,True
+1336512,2025-04-18T22:00:00+00:00,FT,Apertura - 12,Estudiantes de Merida FC,2818,Puerto Cabello,2827,1,0,True
+1336518,2025-04-19T21:30:00+00:00,FT,Apertura - 12,Deportivo Tachira FC,2807,Yaracuyanos FC,2829,4,0,True
+1336514,2025-04-20T00:00:00+00:00,FT,Apertura - 12,Anzoátegui FC,18806,Zamora FC,2806,2,0,True
+1336513,2025-04-20T19:30:00+00:00,FT,Apertura - 12,Rayo Zuliano,16847,UCV,2840,0,2,True
+1336517,2025-04-20T22:30:00+00:00,FT,Apertura - 12,Portuguesa FC,2814,Metropolitanos FC,2825,2,1,True
+1336521,2025-04-25T21:30:00+00:00,FT,Apertura - 13,Zamora FC,2806,Deportivo La Guaira,2813,1,2,True
+1336523,2025-04-26T19:00:00+00:00,FT,Apertura - 13,Yaracuyanos FC,2829,Estudiantes de Merida FC,2818,2,0,True
+1336522,2025-04-26T21:30:00+00:00,FT,Apertura - 13,Monagas SC,2811,Anzoátegui FC,18806,2,3,True
+1336520,2025-04-26T21:30:00+00:00,FT,Apertura - 13,Metropolitanos FC,2825,Rayo Zuliano,16847,4,2,True
+1336519,2025-04-27T21:30:00+00:00,FT,Apertura - 13,Carabobo FC,2810,Deportivo Tachira FC,2807,0,0,True
+1336524,2025-04-27T21:30:00+00:00,FT,Apertura - 13,UCV,2840,Caracas FC,2808,1,3,True
+1336525,2025-04-28T00:00:00+00:00,FT,Apertura - 13,Puerto Cabello,2827,Portuguesa FC,2814,2,1,True
+1373416,2025-05-02T22:00:00+00:00,FT,Apertura - Quadrangular - 1,Metropolitanos FC,2825,Carabobo FC,2810,1,3,True
+1373417,2025-05-03T00:30:00+00:00,FT,Apertura - Quadrangular - 1,Puerto Cabello,2827,Deportivo Tachira FC,2807,1,2,True
+1373419,2025-05-04T00:00:00+00:00,FT,Apertura - Quadrangular - 1,Anzoátegui FC,18806,UCV,2840,4,4,True
+1373418,2025-05-04T01:00:00+00:00,FT,Apertura - Quadrangular - 1,Portuguesa FC,2814,Deportivo La Guaira,2813,1,2,True
+1373420,2025-05-10T21:00:00+00:00,FT,Apertura - Quadrangular - 2,Carabobo FC,2810,Puerto Cabello,2827,0,0,True
+1373421,2025-05-10T23:30:00+00:00,FT,Apertura - Quadrangular - 2,Deportivo Tachira FC,2807,Metropolitanos FC,2825,1,0,True
+1373422,2025-05-11T20:00:00+00:00,FT,Apertura - Quadrangular - 2,UCV,2840,Portuguesa FC,2814,2,2,True
+1373423,2025-05-12T00:00:00+00:00,FT,Apertura - Quadrangular - 2,Deportivo La Guaira,2813,Anzoátegui FC,18806,3,1,True
+1373424,2025-05-16T22:00:00+00:00,FT,Apertura - Quadrangular - 3,UCV,2840,Deportivo La Guaira,2813,3,2,True
+1373425,2025-05-17T00:30:00+00:00,FT,Apertura - Quadrangular - 3,Portuguesa FC,2814,Anzoátegui FC,18806,0,0,True
+1373426,2025-05-17T21:00:00+00:00,FT,Apertura - Quadrangular - 3,Deportivo Tachira FC,2807,Carabobo FC,2810,1,0,True
+1373427,2025-05-17T23:30:00+00:00,FT,Apertura - Quadrangular - 3,Metropolitanos FC,2825,Puerto Cabello,2827,1,1,True
+1373428,2025-05-21T22:00:00+00:00,FT,Apertura - Quadrangular - 4,Deportivo La Guaira,2813,UCV,2840,0,1,True
+1373429,2025-05-22T00:30:00+00:00,FT,Apertura - Quadrangular - 4,Anzoátegui FC,18806,Portuguesa FC,2814,1,1,True
+1373430,2025-05-22T22:00:00+00:00,FT,Apertura - Quadrangular - 4,Carabobo FC,2810,Deportivo Tachira FC,2807,2,4,True
+1373431,2025-05-23T00:30:00+00:00,FT,Apertura - Quadrangular - 4,Puerto Cabello,2827,Metropolitanos FC,2825,1,1,True
+1376477,2025-05-31T21:00:00+00:00,FT,Apertura - Quadrangular - 5,Metropolitanos FC,2825,Deportivo Tachira FC,2807,2,1,True
+1376478,2025-05-31T23:30:00+00:00,FT,Apertura - Quadrangular - 5,Portuguesa FC,2814,UCV,2840,1,3,True
+1376479,2025-05-31T23:30:00+00:00,FT,Apertura - Quadrangular - 5,Anzoátegui FC,18806,Deportivo La Guaira,2813,0,2,True
+1376480,2025-06-01T22:00:00+00:00,FT,Apertura - Quadrangular - 5,Puerto Cabello,2827,Carabobo FC,2810,1,3,True
+1376481,2025-06-07T19:00:00+00:00,FT,Apertura - Quadrangular - 6,Deportivo Tachira FC,2807,Puerto Cabello,2827,2,0,True
+1376482,2025-06-07T21:30:00+00:00,FT,Apertura - Quadrangular - 6,Carabobo FC,2810,Metropolitanos FC,2825,2,2,True
+1376483,2025-06-08T21:00:00+00:00,FT,Apertura - Quadrangular - 6,UCV,2840,Anzoátegui FC,18806,2,2,True
+1376484,2025-06-09T00:30:00+00:00,FT,Apertura - Quadrangular - 6,Deportivo La Guaira,2813,Portuguesa FC,2814,1,1,True
+1378638,2025-06-14T21:30:00+00:00,FT,Final,UCV,2840,Deportivo Tachira FC,2807,1,0,True
+1391364,2025-07-04T21:00:00+00:00,FT,Clausura - 1,Puerto Cabello,2827,Metropolitanos FC,2825,2,2,True
+1391365,2025-07-05T19:30:00+00:00,FT,Clausura - 1,Yaracuyanos FC,2829,Portuguesa FC,2814,1,2,True
+1391366,2025-07-05T22:00:00+00:00,FT,Clausura - 1,Carabobo FC,2810,Estudiantes de Merida FC,2818,2,1,True
+1391367,2025-07-06T21:00:00+00:00,FT,Clausura - 1,Caracas FC,2808,Rayo Zuliano,16847,2,1,True
+1391368,2025-07-06T22:00:00+00:00,FT,Clausura - 1,Anzoátegui FC,18806,UCV,2840,0,2,True
+1391369,2025-07-06T23:30:00+00:00,FT,Clausura - 1,Zamora FC,2806,Deportivo Tachira FC,2807,1,1,True
+1392227,2025-07-07T23:00:00+00:00,FT,Clausura - 1,Deportivo La Guaira,2813,Monagas SC,2811,2,0,True
+1399985,2025-07-11T21:00:00+00:00,FT,Clausura - 2,UCV,2840,Deportivo La Guaira,2813,1,2,True
+1399359,2025-07-11T23:30:00+00:00,FT,Clausura - 2,Portuguesa FC,2814,Carabobo FC,2810,0,0,True
+1399360,2025-07-12T19:30:00+00:00,FT,Clausura - 2,Rayo Zuliano,16847,Anzoátegui FC,18806,2,0,True
+1399361,2025-07-12T22:00:00+00:00,FT,Clausura - 2,Estudiantes de Merida FC,2818,Zamora FC,2806,2,1,True
+1399362,2025-07-13T00:30:00+00:00,FT,Clausura - 2,Puerto Cabello,2827,Yaracuyanos FC,2829,1,0,True
+1399363,2025-07-13T21:00:00+00:00,FT,Clausura - 2,Metropolitanos FC,2825,Caracas FC,2808,2,3,True
+1399364,2025-07-13T23:30:00+00:00,FT,Clausura - 2,Deportivo Tachira FC,2807,Monagas SC,2811,2,1,True
+1403897,2025-07-18T21:30:00+00:00,FT,Clausura - 3,Deportivo La Guaira,2813,Rayo Zuliano,16847,4,0,True
+1403898,2025-07-19T00:00:00+00:00,FT,Clausura - 3,Anzoátegui FC,18806,Caracas FC,2808,0,1,True
+1403899,2025-07-19T21:00:00+00:00,FT,Clausura - 3,UCV,2840,Deportivo Tachira FC,2807,1,2,True
+1403900,2025-07-19T22:00:00+00:00,FT,Clausura - 3,Carabobo FC,2810,Puerto Cabello,2827,2,0,True
+1403901,2025-07-19T23:00:00+00:00,FT,Clausura - 3,Monagas SC,2811,Estudiantes de Merida FC,2818,1,0,True
+1403902,2025-07-20T21:00:00+00:00,FT,Clausura - 3,Metropolitanos FC,2825,Yaracuyanos FC,2829,2,1,True
+1403903,2025-07-20T23:30:00+00:00,FT,Clausura - 3,Zamora FC,2806,Portuguesa FC,2814,1,0,True
+1403906,2025-07-23T22:30:00+00:00,FT,Clausura - 4,Estudiantes de Merida FC,2818,UCV,2840,0,0,True
+1403910,2025-07-23T23:00:00+00:00,FT,Clausura - 4,Deportivo Tachira FC,2807,Rayo Zuliano,16847,2,0,True
+1403904,2025-07-23T23:30:00+00:00,FT,Clausura - 4,Caracas FC,2808,Deportivo La Guaira,2813,0,3,True
+1403908,2025-07-24T21:00:00+00:00,FT,Clausura - 4,Yaracuyanos FC,2829,Carabobo FC,2810,1,2,True
+1403909,2025-07-24T22:00:00+00:00,FT,Clausura - 4,Metropolitanos FC,2825,Anzoátegui FC,18806,1,2,True
+1403907,2025-07-25T00:30:00+00:00,FT,Clausura - 4,Portuguesa FC,2814,Monagas SC,2811,0,1,True
+1403905,2025-07-25T23:30:00+00:00,FT,Clausura - 4,Puerto Cabello,2827,Zamora FC,2806,3,0,True
+1403913,2025-08-01T21:00:00+00:00,FT,Clausura - 5,Zamora FC,2806,Yaracuyanos FC,2829,1,0,True
+1413141,2025-08-01T23:30:00+00:00,FT,Clausura - 5,Deportivo La Guaira,2813,Anzoátegui FC,18806,1,2,True
+1403912,2025-08-02T19:30:00+00:00,FT,Clausura - 5,Rayo Zuliano,16847,Estudiantes de Merida FC,2818,2,1,True
+1403915,2025-08-02T21:00:00+00:00,FT,Clausura - 5,Caracas FC,2808,Deportivo Tachira FC,2807,1,1,True
+1403911,2025-08-02T23:30:00+00:00,FT,Clausura - 5,Carabobo FC,2810,Metropolitanos FC,2825,0,0,True
+1403916,2025-08-03T21:00:00+00:00,FT,Clausura - 5,Monagas SC,2811,Puerto Cabello,2827,1,1,True
+1403914,2025-08-03T23:30:00+00:00,FT,Clausura - 5,UCV,2840,Portuguesa FC,2814,2,0,True
+1403917,2025-08-09T21:00:00+00:00,FT,Clausura - 6,Carabobo FC,2810,Zamora FC,2806,1,0,True
+1403921,2025-08-09T23:30:00+00:00,FT,Clausura - 6,Deportivo Tachira FC,2807,Anzoátegui FC,18806,1,0,True
+1403920,2025-08-10T21:00:00+00:00,FT,Clausura - 6,Metropolitanos FC,2825,Deportivo La Guaira,2813,1,3,True
+1403919,2025-08-10T22:00:00+00:00,FT,Clausura - 6,Estudiantes de Merida FC,2818,Caracas FC,2808,1,0,True
+1403922,2025-08-11T00:30:00+00:00,FT,Clausura - 6,Puerto Cabello,2827,UCV,2840,2,2,True
+1403918,2025-08-11T21:00:00+00:00,FT,Clausura - 6,Yaracuyanos FC,2829,Monagas SC,2811,1,1,True
+1423661,2025-08-11T23:30:00+00:00,FT,Clausura - 6,Portuguesa FC,2814,Rayo Zuliano,16847,1,2,True
+1403928,2025-08-15T22:00:00+00:00,FT,Clausura - 7,UCV,2840,Yaracuyanos FC,2829,1,0,True
+1403924,2025-08-16T00:30:00+00:00,FT,Clausura - 7,Anzoátegui FC,18806,Estudiantes de Merida FC,2818,0,1,True
+1431024,2025-08-16T21:00:00+00:00,FT,Clausura - 7,Caracas FC,2808,Portuguesa FC,2814,2,0,True
+1403923,2025-08-16T22:00:00+00:00,FT,Clausura - 7,Zamora FC,2806,Metropolitanos FC,2825,1,0,True
+1403927,2025-08-16T23:30:00+00:00,FT,Clausura - 7,Monagas SC,2811,Carabobo FC,2810,2,0,True
+1403925,2025-08-17T19:30:00+00:00,FT,Clausura - 7,Rayo Zuliano,16847,Puerto Cabello,2827,0,0,True
+1403926,2025-08-17T22:00:00+00:00,FT,Clausura - 7,Deportivo La Guaira,2813,Deportivo Tachira FC,2807,3,1,True
+1435544,2025-08-22T21:00:00+00:00,FT,Clausura - 8,Yaracuyanos FC,2829,Rayo Zuliano,16847,1,0,True
+1403930,2025-08-22T23:30:00+00:00,FT,Clausura - 8,Portuguesa FC,2814,Anzoátegui FC,18806,3,1,True
+1403929,2025-08-23T21:00:00+00:00,FT,Clausura - 8,Zamora FC,2806,Monagas SC,2811,2,3,True
+1403932,2025-08-23T23:30:00+00:00,FT,Clausura - 8,Carabobo FC,2810,UCV,2840,4,1,True
+1403931,2025-08-24T21:00:00+00:00,FT,Clausura - 8,Metropolitanos FC,2825,Deportivo Tachira FC,2807,2,3,True
+1403933,2025-08-24T22:00:00+00:00,FT,Clausura - 8,Estudiantes de Merida FC,2818,Deportivo La Guaira,2813,1,2,True
+1403934,2025-08-25T00:30:00+00:00,FT,Clausura - 8,Puerto Cabello,2827,Caracas FC,2808,0,0,True
+1403936,2025-08-30T19:30:00+00:00,FT,Clausura - 9,Rayo Zuliano,16847,Carabobo FC,2810,0,2,True
+1403940,2025-08-30T22:00:00+00:00,FT,Clausura - 9,Monagas SC,2811,Metropolitanos FC,2825,2,0,True
+1403939,2025-08-31T00:30:00+00:00,FT,Clausura - 9,Deportivo La Guaira,2813,Portuguesa FC,2814,3,1,True
+1403935,2025-08-31T21:00:00+00:00,FT,Clausura - 9,UCV,2840,Zamora FC,2806,0,1,True
+1403941,2025-08-31T22:00:00+00:00,FT,Clausura - 9,Anzoátegui FC,18806,Puerto Cabello,2827,1,0,True
+1403937,2025-08-31T23:30:00+00:00,FT,Clausura - 9,Deportivo Tachira FC,2807,Estudiantes de Merida FC,2818,4,0,True
+1403938,2025-09-01T22:00:00+00:00,FT,Clausura - 9,Caracas FC,2808,Yaracuyanos FC,2829,3,1,True
+1403946,2025-09-12T21:00:00+00:00,FT,Clausura - 10,Yaracuyanos FC,2829,Anzoátegui FC,18806,2,1,True
+1403942,2025-09-12T23:30:00+00:00,FT,Clausura - 10,Metropolitanos FC,2825,Estudiantes de Merida FC,2818,1,0,True
+1403948,2025-09-13T22:00:00+00:00,FT,Clausura - 10,Zamora FC,2806,Rayo Zuliano,16847,1,0,True
+1403943,2025-09-13T23:30:00+00:00,FT,Clausura - 10,Puerto Cabello,2827,Deportivo La Guaira,2813,1,0,True
+1403945,2025-09-14T21:00:00+00:00,FT,Clausura - 10,Portuguesa FC,2814,Deportivo Tachira FC,2807,2,0,True
+1403947,2025-09-14T22:00:00+00:00,FT,Clausura - 10,Carabobo FC,2810,Caracas FC,2808,1,0,True
+1403944,2025-09-14T23:30:00+00:00,FT,Clausura - 10,Monagas SC,2811,UCV,2840,2,0,True
+1403949,2025-09-20T00:30:00+00:00,FT,Clausura - 11,Anzoátegui FC,18806,Carabobo FC,2810,0,0,True
+1403951,2025-09-20T19:30:00+00:00,FT,Clausura - 11,Rayo Zuliano,16847,Monagas SC,2811,3,1,True
+1403950,2025-09-20T22:00:00+00:00,FT,Clausura - 11,Estudiantes de Merida FC,2818,Portuguesa FC,2814,2,0,True
+1403955,2025-09-20T23:30:00+00:00,FT,Clausura - 11,Caracas FC,2808,Zamora FC,2806,2,0,True
+1403952,2025-09-21T21:00:00+00:00,FT,Clausura - 11,Deportivo La Guaira,2813,Yaracuyanos FC,2829,4,0,True
+1403953,2025-09-21T23:30:00+00:00,FT,Clausura - 11,Deportivo Tachira FC,2807,Puerto Cabello,2827,0,0,True
+1403954,2025-09-22T23:00:00+00:00,FT,Clausura - 11,UCV,2840,Metropolitanos FC,2825,1,4,True
+1403956,2025-09-27T21:00:00+00:00,FT,Clausura - 12,Zamora FC,2806,Anzoátegui FC,18806,2,1,True
+1403959,2025-09-27T21:00:00+00:00,FT,Clausura - 12,Puerto Cabello,2827,Estudiantes de Merida FC,2818,1,2,True
+1403958,2025-09-27T21:00:00+00:00,FT,Clausura - 12,UCV,2840,Rayo Zuliano,16847,3,0,True
+1403961,2025-09-28T00:30:00+00:00,FT,Clausura - 12,Metropolitanos FC,2825,Portuguesa FC,2814,5,1,True
+1403957,2025-09-28T21:00:00+00:00,FT,Clausura - 12,Carabobo FC,2810,Deportivo La Guaira,2813,0,0,True
+1403962,2025-09-28T21:00:00+00:00,FT,Clausura - 12,Monagas SC,2811,Caracas FC,2808,2,2,True
+1403960,2025-09-28T21:00:00+00:00,FT,Clausura - 12,Yaracuyanos FC,2829,Deportivo Tachira FC,2807,1,3,True
+1403966,2025-10-04T23:00:00+00:00,FT,Clausura - 13,Deportivo Tachira FC,2807,Carabobo FC,2810,3,0,True
+1403965,2025-10-04T23:00:00+00:00,FT,Clausura - 13,Deportivo La Guaira,2813,Zamora FC,2806,2,0,True
+1403969,2025-10-05T19:30:00+00:00,FT,Clausura - 13,Caracas FC,2808,UCV,2840,1,5,True
+1403963,2025-10-05T19:30:00+00:00,FT,Clausura - 13,Portuguesa FC,2814,Puerto Cabello,2827,0,1,True
+1403968,2025-10-05T19:30:00+00:00,FT,Clausura - 13,Estudiantes de Merida FC,2818,Yaracuyanos FC,2829,0,2,True
+1403964,2025-10-05T19:30:00+00:00,FT,Clausura - 13,Rayo Zuliano,16847,Metropolitanos FC,2825,0,1,True
+1403967,2025-10-05T19:30:00+00:00,FT,Clausura - 13,Anzoátegui FC,18806,Monagas SC,2811,2,2,True
+1480965,2025-10-17T21:30:00+00:00,FT,Clausura - Quadrangular - 1,Puerto Cabello,2827,Deportivo La Guaira,2813,3,1,True
+1480966,2025-10-17T23:30:00+00:00,FT,Clausura - Quadrangular - 1,Zamora FC,2806,Monagas SC,2811,2,0,True
+1480967,2025-10-18T20:00:00+00:00,FT,Clausura - Quadrangular - 1,Metropolitanos FC,2825,Deportivo Tachira FC,2807,1,1,True
+1480968,2025-10-19T00:30:00+00:00,FT,Clausura - Quadrangular - 1,Caracas FC,2808,Carabobo FC,2810,0,0,True
+1480969,2025-10-21T21:30:00+00:00,FT,Clausura - Quadrangular - 2,Monagas SC,2811,Puerto Cabello,2827,1,2,True
+1480970,2025-10-21T23:30:00+00:00,FT,Clausura - Quadrangular - 2,Deportivo La Guaira,2813,Zamora FC,2806,1,1,True
+1480971,2025-10-22T21:30:00+00:00,FT,Clausura - Quadrangular - 2,Carabobo FC,2810,Metropolitanos FC,2825,1,0,True
+1480972,2025-10-22T23:30:00+00:00,FT,Clausura - Quadrangular - 2,Deportivo Tachira FC,2807,Caracas FC,2808,2,3,True
+1480973,2025-10-25T21:30:00+00:00,FT,Clausura - Quadrangular - 3,Monagas SC,2811,Deportivo La Guaira,2813,0,1,True
+1480974,2025-10-25T23:30:00+00:00,FT,Clausura - Quadrangular - 3,Puerto Cabello,2827,Zamora FC,2806,3,0,True
+1480975,2025-10-26T21:30:00+00:00,FT,Clausura - Quadrangular - 3,Carabobo FC,2810,Deportivo Tachira FC,2807,1,1,True
+1480976,2025-10-26T23:30:00+00:00,FT,Clausura - Quadrangular - 3,Metropolitanos FC,2825,Caracas FC,2808,2,3,True
+1480978,2025-10-31T23:30:00+00:00,FT,Clausura - Quadrangular - 4,Deportivo La Guaira,2813,Monagas SC,2811,2,1,True
+1480980,2025-11-01T21:30:00+00:00,FT,Clausura - Quadrangular - 4,Caracas FC,2808,Metropolitanos FC,2825,1,1,True
+1480979,2025-11-01T23:30:00+00:00,FT,Clausura - Quadrangular - 4,Deportivo Tachira FC,2807,Carabobo FC,2810,1,2,True
+1480982,2025-11-04T23:30:00+00:00,FT,Clausura - Quadrangular - 5,Zamora FC,2806,Deportivo La Guaira,2813,2,0,True
+1480981,2025-11-04T23:30:00+00:00,FT,Clausura - Quadrangular - 5,Puerto Cabello,2827,Monagas SC,2811,3,2,True
+1480983,2025-11-05T23:30:00+00:00,FT,Clausura - Quadrangular - 5,Caracas FC,2808,Deportivo Tachira FC,2807,0,0,True
+1480984,2025-11-05T23:30:00+00:00,FT,Clausura - Quadrangular - 5,Metropolitanos FC,2825,Carabobo FC,2810,0,4,True
+1480986,2025-11-08T23:30:00+00:00,FT,Clausura - Quadrangular - 6,Monagas SC,2811,Zamora FC,2806,1,0,True
+1480985,2025-11-08T23:30:00+00:00,FT,Clausura - Quadrangular - 6,Deportivo La Guaira,2813,Puerto Cabello,2827,0,0,True
+1480988,2025-11-09T21:30:00+00:00,FT,Clausura - Quadrangular - 6,Deportivo Tachira FC,2807,Metropolitanos FC,2825,2,0,True
+1480987,2025-11-09T23:00:00+00:00,FT,Clausura - Quadrangular - 6,Carabobo FC,2810,Caracas FC,2808,2,0,True
+1486346,2025-11-23T22:00:00+00:00,FT,Final,Carabobo FC,2810,Puerto Cabello,2827,1,0,True
+1488209,2025-11-30T22:00:00+00:00,FT,Final,UCV,2840,Carabobo FC,2810,1,1,True
+1488208,2025-12-06T22:00:00+00:00,FT,Final,Carabobo FC,2810,UCV,2840,0,2,True

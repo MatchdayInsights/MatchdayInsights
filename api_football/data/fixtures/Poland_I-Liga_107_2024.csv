@@ -1,139 +1,310 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1206976,2025-02-14T17:00:00+00:00,FT,Odra Opole,3488,Nieciecza,3487,2,2,True
-1206982,2025-02-14T19:45:00+00:00,FT,Arka Gdynia,344,Polonia Warszawa,16239,0,0,True
-1206979,2025-02-15T13:30:00+00:00,FT,Kotwica Kołobrzeg,16249,Stal Stalowa Wola,6958,1,1,True
-1206983,2025-02-15T16:00:00+00:00,FT,Wisla Krakow,338,Znicz Pruszków,6964,0,1,True
-1206980,2025-02-15T18:30:00+00:00,FT,Miedz Legnica,335,Stal Rzeszów,6957,3,3,True
-1206978,2025-02-16T11:00:00+00:00,FT,Warta Poznań,3496,Tychy 71,3495,1,3,True
-1206981,2025-02-16T13:30:00+00:00,FT,Górnik Łęczna,6941,ŁKS Łódź,3498,2,2,True
-1206977,2025-02-16T16:00:00+00:00,FT,Chrobry Głogów,3483,Wisla Plock,341,0,0,True
-1206975,2025-02-17T18:00:00+00:00,FT,Pogoń Siedlce,6947,Ruch Chorzów,6953,1,1,True
-1206986,2025-02-21T17:00:00+00:00,FT,Polonia Warszawa,16239,Górnik Łęczna,6941,2,1,True
-1206988,2025-02-21T19:30:00+00:00,FT,Stal Rzeszów,6957,Kotwica Kołobrzeg,16249,1,0,True
-1206984,2025-02-22T13:30:00+00:00,FT,Ruch Chorzów,6953,Wisla Krakow,338,0,5,True
-1206992,2025-02-22T16:00:00+00:00,FT,Nieciecza,3487,Pogoń Siedlce,6947,1,1,True
-1206985,2025-02-22T18:30:00+00:00,FT,Znicz Pruszków,6964,Arka Gdynia,344,0,1,True
-1206990,2025-02-23T11:00:00+00:00,FT,Tychy 71,3495,Chrobry Głogów,3483,3,1,True
-1206987,2025-02-23T13:30:00+00:00,FT,ŁKS Łódź,3498,Miedz Legnica,335,0,1,True
-1206991,2025-02-23T16:00:00+00:00,FT,Wisla Plock,341,Odra Opole,3488,2,1,True
-1206989,2025-02-24T18:00:00+00:00,FT,Stal Stalowa Wola,6958,Warta Poznań,3496,0,0,True
-1206994,2025-02-28T17:00:00+00:00,FT,Pogoń Siedlce,6947,Wisla Plock,341,1,3,True
-1207001,2025-02-28T19:30:00+00:00,FT,Arka Gdynia,344,Wisla Krakow,338,2,2,True
-1206997,2025-03-01T13:30:00+00:00,FT,Warta Poznań,3496,Stal Rzeszów,6957,0,1,True
-1206995,2025-03-01T16:00:00+00:00,FT,Odra Opole,3488,Tychy 71,3495,1,5,True
-1207000,2025-03-01T18:30:00+00:00,FT,Górnik Łęczna,6941,Znicz Pruszków,6964,1,2,True
-1206996,2025-03-02T11:00:00+00:00,FT,Chrobry Głogów,3483,Stal Stalowa Wola,6958,2,0,True
-1206999,2025-03-02T13:30:00+00:00,FT,Miedz Legnica,335,Polonia Warszawa,16239,2,3,True
-1206998,2025-03-02T16:00:00+00:00,FT,Kotwica Kołobrzeg,16249,ŁKS Łódź,3498,0,0,True
-1206993,2025-03-03T18:00:00+00:00,FT,Ruch Chorzów,6953,Nieciecza,3487,2,2,True
-1207006,2025-03-07T17:00:00+00:00,FT,ŁKS Łódź,3498,Warta Poznań,3496,3,1,True
-1207009,2025-03-07T19:30:00+00:00,FT,Tychy 71,3495,Pogoń Siedlce,6947,2,0,True
-1207004,2025-03-08T13:30:00+00:00,FT,Znicz Pruszków,6964,Miedz Legnica,335,2,1,True
-1207008,2025-03-08T16:30:00+00:00,FT,Stal Stalowa Wola,6958,Odra Opole,3488,0,0,True
-1207002,2025-03-08T18:30:00+00:00,FT,Ruch Chorzów,6953,Arka Gdynia,344,0,1,True
-1207005,2025-03-09T11:00:00+00:00,FT,Polonia Warszawa,16239,Kotwica Kołobrzeg,16249,2,2,True
-1207003,2025-03-09T13:30:00+00:00,FT,Wisla Krakow,338,Górnik Łęczna,6941,1,0,True
-1207007,2025-03-09T16:00:00+00:00,FT,Stal Rzeszów,6957,Chrobry Głogów,3483,0,0,True
-1207010,2025-03-10T18:00:00+00:00,FT,Wisla Plock,341,Nieciecza,3487,3,0,True
-1207018,2025-03-14T17:00:00+00:00,FT,Miedz Legnica,335,Wisla Krakow,338,2,1,True
-1207015,2025-03-14T19:30:00+00:00,FT,Chrobry Głogów,3483,ŁKS Łódź,3498,1,2,True
-1207012,2025-03-15T13:30:00+00:00,FT,Nieciecza,3487,Tychy 71,3495,2,1,True
-1207011,2025-03-15T16:00:00+00:00,FT,Ruch Chorzów,6953,Wisla Plock,341,0,0,True
-1207016,2025-03-15T18:30:00+00:00,FT,Warta Poznań,3496,Polonia Warszawa,16239,1,2,True
-1207013,2025-03-16T11:00:00+00:00,FT,Pogoń Siedlce,6947,Stal Stalowa Wola,6958,0,0,True
-1207019,2025-03-16T13:30:00+00:00,FT,Górnik Łęczna,6941,Arka Gdynia,344,0,1,True
-1207017,2025-03-16T16:00:00+00:00,FT,Kotwica Kołobrzeg,16249,Znicz Pruszków,6964,0,0,True
-1207023,2025-03-28T17:00:00+00:00,FT,Znicz Pruszków,6964,Warta Poznań,3496,0,0,True
-1207022,2025-03-28T19:30:00+00:00,FT,Wisla Krakow,338,Kotwica Kołobrzeg,16249,2,1,True
-1207020,2025-03-29T14:00:00+00:00,FT,Górnik Łęczna,6941,Ruch Chorzów,6953,2,0,True
-1207024,2025-03-29T16:30:00+00:00,FT,Polonia Warszawa,16239,Chrobry Głogów,3483,4,2,True
-1207025,2025-03-29T18:30:00+00:00,FT,ŁKS Łódź,3498,Odra Opole,3488,1,2,True
-1207027,2025-03-30T10:00:00+00:00,FT,Stal Stalowa Wola,6958,Nieciecza,3487,3,3,True
-1207021,2025-03-30T12:30:00+00:00,FT,Arka Gdynia,344,Miedz Legnica,335,2,0,True
-1207026,2025-03-30T15:00:00+00:00,FT,Stal Rzeszów,6957,Pogoń Siedlce,6947,2,4,True
-1207028,2025-03-31T17:00:00+00:00,FT,Tychy 71,3495,Wisla Plock,341,2,1,True
-1207037,2025-04-04T16:00:00+00:00,FT,Miedz Legnica,335,Górnik Łęczna,6941,0,2,True
-1207034,2025-04-04T16:00:00+00:00,FT,Chrobry Głogów,3483,Znicz Pruszków,6964,3,2,True
-1207036,2025-04-04T18:30:00+00:00,FT,Kotwica Kołobrzeg,16249,Arka Gdynia,344,0,1,True
-1207030,2025-04-05T12:30:00+00:00,FT,Wisla Plock,341,Stal Stalowa Wola,6958,2,1,True
-1207033,2025-04-05T15:30:00+00:00,FT,Odra Opole,3488,Polonia Warszawa,16239,0,1,True
-1207035,2025-04-05T17:30:00+00:00,FT,Warta Poznań,3496,Wisla Krakow,338,0,1,True
-1207031,2025-04-06T10:00:00+00:00,FT,Nieciecza,3487,Stal Rzeszów,6957,3,1,True
-1207029,2025-04-06T12:30:00+00:00,FT,Ruch Chorzów,6953,Tychy 71,3495,0,1,True
-1207032,2025-04-06T15:00:00+00:00,FT,Pogoń Siedlce,6947,ŁKS Łódź,3498,1,1,True
-1207042,2025-04-08T16:00:00+00:00,FT,Znicz Pruszków,6964,Odra Opole,3488,2,1,True
-1207039,2025-04-08T17:30:00+00:00,FT,Górnik Łęczna,6941,Kotwica Kołobrzeg,16249,3,0,True
-1207040,2025-04-08T18:30:00+00:00,FT,Arka Gdynia,344,Warta Poznań,3496,3,0,True
-1207041,2025-04-09T16:00:00+00:00,FT,Wisla Krakow,338,Chrobry Głogów,3483,2,1,True
-1207046,2025-04-09T18:30:00+00:00,FT,Stal Stalowa Wola,6958,Tychy 71,3495,0,1,True
-1207043,2025-04-09T18:30:00+00:00,FT,Polonia Warszawa,16239,Pogoń Siedlce,6947,2,1,True
-1207044,2025-04-10T16:00:00+00:00,FT,ŁKS Łódź,3498,Nieciecza,3487,1,2,True
-1207045,2025-04-10T16:00:00+00:00,FT,Stal Rzeszów,6957,Wisla Plock,341,0,1,True
-1206885,2025-04-10T18:45:00+00:00,FT,Ruch Chorzów,6953,Miedz Legnica,335,1,2,True
-1207054,2025-04-11T18:30:00+00:00,FT,Warta Poznań,3496,Górnik Łęczna,6941,0,2,True
-1207051,2025-04-12T15:30:00+00:00,FT,Pogoń Siedlce,6947,Znicz Pruszków,6964,2,1,True
-1207053,2025-04-12T17:30:00+00:00,FT,Chrobry Głogów,3483,Arka Gdynia,344,2,2,True
-1207049,2025-04-13T10:00:00+00:00,FT,Wisla Plock,341,ŁKS Łódź,3498,3,0,True
-1207052,2025-04-13T12:30:00+00:00,FT,Odra Opole,3488,Wisla Krakow,338,1,2,True
-1207047,2025-04-13T15:00:00+00:00,FT,Ruch Chorzów,6953,Stal Stalowa Wola,6958,1,3,True
-1207055,2025-04-13T17:00:00+00:00,FT,Kotwica Kołobrzeg,16249,Miedz Legnica,335,0,0,True
-1207050,2025-04-14T17:00:00+00:00,FT,Nieciecza,3487,Polonia Warszawa,16239,0,3,True
-1207048,2025-04-14T17:00:00+00:00,FT,Tychy 71,3495,Stal Rzeszów,6957,1,0,True
-1207064,2025-04-19T11:00:00+00:00,FT,Stal Rzeszów,6957,Stal Stalowa Wola,6958,2,2,True
-1207059,2025-04-19T13:00:00+00:00,FT,Arka Gdynia,344,Odra Opole,3488,1,0,True
-1207060,2025-04-19T15:15:00+00:00,FT,Wisla Krakow,338,Pogoń Siedlce,6947,1,0,True
-1207062,2025-04-19T17:30:00+00:00,FT,Polonia Warszawa,16239,Wisla Plock,341,0,0,True
-1207058,2025-04-21T10:00:00+00:00,FT,Górnik Łęczna,6941,Chrobry Głogów,3483,1,0,True
-1207061,2025-04-21T12:30:00+00:00,FT,Znicz Pruszków,6964,Nieciecza,3487,0,1,True
-1207063,2025-04-21T15:00:00+00:00,FT,ŁKS Łódź,3498,Tychy 71,3495,1,3,True
-1207057,2025-04-21T17:30:00+00:00,FT,Miedz Legnica,335,Warta Poznań,3496,3,2,True
-1207056,2025-04-22T17:00:00+00:00,FT,Kotwica Kołobrzeg,16249,Ruch Chorzów,6953,3,4,True
-1207014,2025-04-23T16:00:00+00:00,FT,Odra Opole,3488,Stal Rzeszów,6957,3,0,True
-1207066,2025-04-25T16:00:00+00:00,FT,Stal Stalowa Wola,6958,ŁKS Łódź,3498,0,1,True
-1207069,2025-04-25T18:30:00+00:00,FT,Nieciecza,3487,Wisla Krakow,338,2,2,True
-1207073,2025-04-26T13:00:00+00:00,FT,Warta Poznań,3496,Kotwica Kołobrzeg,16249,0,1,True
-1207067,2025-04-26T15:30:00+00:00,FT,Tychy 71,3495,Polonia Warszawa,16239,1,1,True
-1207070,2025-04-26T17:30:00+00:00,FT,Pogoń Siedlce,6947,Arka Gdynia,344,1,1,True
-1207071,2025-04-27T10:00:00+00:00,FT,Odra Opole,3488,Górnik Łęczna,6941,0,0,True
-1207065,2025-04-27T12:30:00+00:00,FT,Ruch Chorzów,6953,Stal Rzeszów,6957,3,0,True
-1207072,2025-04-27T15:00:00+00:00,FT,Chrobry Głogów,3483,Miedz Legnica,335,1,1,True
-1207068,2025-04-28T17:00:00+00:00,FT,Wisla Plock,341,Znicz Pruszków,6964,2,3,True
-1207077,2025-05-02T17:00:00+00:00,FT,Górnik Łęczna,6941,Pogoń Siedlce,6947,1,3,True
-1207079,2025-05-02T18:30:00+00:00,FT,Wisla Krakow,338,Wisla Plock,341,1,3,True
-1207074,2025-05-03T13:15:00+00:00,FT,Warta Poznań,3496,Ruch Chorzów,6953,0,2,True
-1207081,2025-05-03T15:30:00+00:00,FT,Polonia Warszawa,16239,Stal Stalowa Wola,6958,2,3,True
-1207080,2025-05-03T17:30:00+00:00,FT,Znicz Pruszków,6964,Tychy 71,3495,2,2,True
-1207076,2025-05-04T10:00:00+00:00,FT,Miedz Legnica,335,Odra Opole,3488,2,1,True
-1207078,2025-05-04T12:30:00+00:00,FT,Arka Gdynia,344,Nieciecza,3487,2,1,True
-1207082,2025-05-04T15:00:00+00:00,FT,ŁKS Łódź,3498,Stal Rzeszów,6957,5,0,True
-1207075,2025-05-05T17:00:00+00:00,FT,Kotwica Kołobrzeg,16249,Chrobry Głogów,3483,2,1,True
-1207085,2025-05-09T16:00:00+00:00,FT,Stal Stalowa Wola,6958,Znicz Pruszków,6964,0,5,True
-1207086,2025-05-09T18:30:00+00:00,FT,Tychy 71,3495,Wisla Krakow,338,0,2,True
-1207084,2025-05-10T12:30:00+00:00,FT,Stal Rzeszów,6957,Polonia Warszawa,16239,1,2,True
-1207089,2025-05-10T15:30:00+00:00,FT,Pogoń Siedlce,6947,Miedz Legnica,335,3,0,True
-1207083,2025-05-10T17:30:00+00:00,FT,Ruch Chorzów,6953,ŁKS Łódź,3498,1,3,True
-1207091,2025-05-11T10:00:00+00:00,FT,Chrobry Głogów,3483,Warta Poznań,3496,2,1,True
-1207088,2025-05-11T12:30:00+00:00,FT,Nieciecza,3487,Górnik Łęczna,6941,3,1,True
-1207090,2025-05-11T15:00:00+00:00,FT,Odra Opole,3488,Kotwica Kołobrzeg,16249,4,2,True
-1207087,2025-05-12T17:00:00+00:00,FT,Wisla Plock,341,Arka Gdynia,344,1,0,True
-1207098,2025-05-16T18:30:00+00:00,FT,Wisla Krakow,338,Stal Stalowa Wola,6958,5,0,True
-1207094,2025-05-17T12:30:00+00:00,FT,Kotwica Kołobrzeg,16249,Pogoń Siedlce,6947,1,1,True
-1207100,2025-05-17T15:30:00+00:00,FT,Polonia Warszawa,16239,ŁKS Łódź,3498,0,1,True
-1207096,2025-05-17T17:30:00+00:00,FT,Górnik Łęczna,6941,Wisla Plock,341,2,2,True
-1207093,2025-05-18T10:00:00+00:00,FT,Warta Poznań,3496,Odra Opole,3488,1,0,True
-1207097,2025-05-18T12:30:00+00:00,FT,Arka Gdynia,344,Tychy 71,3495,2,2,True
-1207099,2025-05-18T15:00:00+00:00,FT,Znicz Pruszków,6964,Stal Rzeszów,6957,2,0,True
-1207095,2025-05-19T17:00:00+00:00,FT,Miedz Legnica,335,Nieciecza,3487,1,4,True
-1207092,2025-05-19T17:00:00+00:00,FT,Chrobry Głogów,3483,Ruch Chorzów,6953,2,2,True
-1207106,2025-05-25T15:30:00+00:00,FT,Wisla Plock,341,Miedz Legnica,335,2,1,True
-1207107,2025-05-25T15:30:00+00:00,FT,Nieciecza,3487,Kotwica Kołobrzeg,16249,2,1,True
-1207109,2025-05-25T15:30:00+00:00,FT,Odra Opole,3488,Chrobry Głogów,3483,0,2,True
-1207105,2025-05-25T15:30:00+00:00,FT,Tychy 71,3495,Górnik Łęczna,6941,3,1,True
-1207102,2025-05-25T15:30:00+00:00,FT,ŁKS Łódź,3498,Znicz Pruszków,6964,2,3,True
-1207108,2025-05-25T15:30:00+00:00,FT,Pogoń Siedlce,6947,Warta Poznań,3496,2,1,True
-1207101,2025-05-25T15:30:00+00:00,FT,Ruch Chorzów,6953,Polonia Warszawa,16239,1,1,True
-1207103,2025-05-25T15:30:00+00:00,FT,Stal Rzeszów,6957,Wisla Krakow,338,0,3,True
-1207104,2025-05-25T15:30:00+00:00,FT,Stal Stalowa Wola,6958,Arka Gdynia,344,0,3,True
-1376533,2025-05-29T16:00:00+00:00,FT,Wisla Plock,341,Polonia Warszawa,16239,2,1,True
-1376534,2025-05-29T19:00:00+00:00,FT,Wisla Krakow,338,Miedz Legnica,335,0,1,True
-1377019,2025-06-01T14:30:00+00:00,FT,Wisla Plock,341,Miedz Legnica,335,2,0,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1206812,2024-07-19T16:00:00+00:00,FT,Regular Season - 1,Polonia Warszawa,16239,Znicz Pruszków,6964,0,1,True
+1206804,2024-07-19T18:30:00+00:00,FT,Regular Season - 1,Odra Opole,3488,Ruch Chorzów,6953,0,2,True
+1206806,2024-07-20T12:30:00+00:00,FT,Regular Season - 1,Nieciecza,3487,Warta Poznań,3496,3,0,True
+1206805,2024-07-20T15:00:00+00:00,FT,Regular Season - 1,Pogoń Siedlce,6947,Chrobry Głogów,3483,1,2,True
+1206809,2024-07-20T17:35:00+00:00,FT,Regular Season - 1,Stal Stalowa Wola,6958,Górnik Łęczna,6941,0,1,True
+1206807,2024-07-21T10:00:00+00:00,FT,Regular Season - 1,Wisla Plock,341,Kotwica Kołobrzeg,16249,1,1,True
+1206808,2024-07-21T12:30:00+00:00,FT,Regular Season - 1,Tychy 71,3495,Miedz Legnica,335,2,2,True
+1206810,2024-07-22T17:00:00+00:00,FT,Regular Season - 1,Stal Rzeszów,6957,Arka Gdynia,344,1,0,True
+1206817,2024-07-26T16:00:00+00:00,FT,Regular Season - 2,Miedz Legnica,335,Stal Stalowa Wola,6958,4,2,True
+1206818,2024-07-26T18:00:00+00:00,FT,Regular Season - 2,Kotwica Kołobrzeg,16249,Tychy 71,3495,0,0,True
+1206820,2024-07-27T12:30:00+00:00,FT,Regular Season - 2,Chrobry Głogów,3483,Nieciecza,3487,0,4,True
+1206816,2024-07-27T15:00:00+00:00,FT,Regular Season - 2,Górnik Łęczna,6941,Stal Rzeszów,6957,2,1,True
+1206819,2024-07-27T17:35:00+00:00,FT,Regular Season - 2,Warta Poznań,3496,Wisla Plock,341,1,2,True
+1206821,2024-07-28T10:00:00+00:00,FT,Regular Season - 2,Odra Opole,3488,Pogoń Siedlce,6947,4,1,True
+1206814,2024-07-28T12:30:00+00:00,FT,Regular Season - 2,Wisla Krakow,338,Polonia Warszawa,16239,0,0,True
+1206813,2024-07-28T15:00:00+00:00,FT,Regular Season - 2,Ruch Chorzów,6953,Znicz Pruszków,6964,0,0,True
+1206815,2024-07-29T18:30:00+00:00,FT,Regular Season - 2,Arka Gdynia,344,ŁKS Łódź,3498,2,1,True
+1206825,2024-08-02T16:00:00+00:00,FT,Regular Season - 3,Tychy 71,3495,Warta Poznań,3496,1,1,True
+1206822,2024-08-02T18:00:00+00:00,FT,Regular Season - 3,Ruch Chorzów,6953,Pogoń Siedlce,6947,1,1,True
+1206826,2024-08-03T12:30:00+00:00,FT,Regular Season - 3,Stal Stalowa Wola,6958,Kotwica Kołobrzeg,16249,0,2,True
+1206824,2024-08-03T15:00:00+00:00,FT,Regular Season - 3,Wisla Plock,341,Chrobry Głogów,3483,2,1,True
+1206829,2024-08-03T17:35:00+00:00,FT,Regular Season - 3,Polonia Warszawa,16239,Arka Gdynia,344,0,3,True
+1206827,2024-08-04T10:00:00+00:00,FT,Regular Season - 3,Stal Rzeszów,6957,Miedz Legnica,335,1,0,True
+1206830,2024-08-04T12:30:00+00:00,FT,Regular Season - 3,Znicz Pruszków,6964,Wisla Krakow,338,2,1,True
+1206823,2024-08-04T15:00:00+00:00,FT,Regular Season - 3,Nieciecza,3487,Odra Opole,3488,3,0,True
+1206828,2024-08-05T18:30:00+00:00,FT,Regular Season - 3,ŁKS Łódź,3498,Górnik Łęczna,6941,1,1,True
+1206837,2024-08-09T16:00:00+00:00,FT,Regular Season - 4,Chrobry Głogów,3483,Tychy 71,3495,0,0,True
+1206832,2024-08-09T18:30:00+00:00,FT,Regular Season - 4,Arka Gdynia,344,Znicz Pruszków,6964,1,1,True
+1206833,2024-08-10T12:30:00+00:00,FT,Regular Season - 4,Górnik Łęczna,6941,Polonia Warszawa,16239,3,1,True
+1206836,2024-08-10T15:00:00+00:00,FT,Regular Season - 4,Warta Poznań,3496,Stal Stalowa Wola,6958,1,0,True
+1206834,2024-08-10T17:35:00+00:00,FT,Regular Season - 4,Miedz Legnica,335,ŁKS Łódź,3498,1,0,True
+1206839,2024-08-11T10:00:00+00:00,FT,Regular Season - 4,Pogoń Siedlce,6947,Nieciecza,3487,1,2,True
+1206838,2024-08-11T12:30:00+00:00,FT,Regular Season - 4,Odra Opole,3488,Wisla Plock,341,1,2,True
+1206835,2024-08-11T15:00:00+00:00,FT,Regular Season - 4,Kotwica Kołobrzeg,16249,Stal Rzeszów,6957,1,3,True
+1206831,2024-08-12T17:00:00+00:00,FT,Regular Season - 4,Wisla Krakow,338,Ruch Chorzów,6953,3,1,True
+1206843,2024-08-16T16:00:00+00:00,FT,Regular Season - 5,Stal Stalowa Wola,6958,Chrobry Głogów,3483,1,1,True
+1206845,2024-08-16T18:30:00+00:00,FT,Regular Season - 5,ŁKS Łódź,3498,Kotwica Kołobrzeg,16249,0,2,True
+1206846,2024-08-17T12:30:00+00:00,FT,Regular Season - 5,Polonia Warszawa,16239,Miedz Legnica,335,0,1,True
+1206844,2024-08-17T15:30:00+00:00,FT,Regular Season - 5,Stal Rzeszów,6957,Warta Poznań,3496,4,0,True
+1206842,2024-08-17T17:35:00+00:00,FT,Regular Season - 5,Tychy 71,3495,Odra Opole,3488,0,0,True
+1206847,2024-08-18T10:00:00+00:00,FT,Regular Season - 5,Znicz Pruszków,6964,Górnik Łęczna,6941,2,3,True
+1206840,2024-08-18T12:30:00+00:00,FT,Regular Season - 5,Nieciecza,3487,Ruch Chorzów,6953,1,1,True
+1206841,2024-08-18T15:00:00+00:00,FT,Regular Season - 5,Wisla Plock,341,Pogoń Siedlce,6947,1,0,True
+1206848,2024-08-19T17:00:00+00:00,FT,Regular Season - 5,Wisla Krakow,338,Arka Gdynia,344,2,2,True
+1206852,2024-08-20T16:00:00+00:00,FT,Regular Season - 6,Kotwica Kołobrzeg,16249,Polonia Warszawa,16239,1,0,True
+1206854,2024-08-20T18:30:00+00:00,FT,Regular Season - 6,Chrobry Głogów,3483,Stal Rzeszów,6957,1,3,True
+1206853,2024-08-20T18:30:00+00:00,FT,Regular Season - 6,Warta Poznań,3496,ŁKS Łódź,3498,2,4,True
+1206857,2024-08-21T16:00:00+00:00,FT,Regular Season - 6,Nieciecza,3487,Wisla Plock,341,4,2,True
+1206855,2024-08-21T18:30:00+00:00,FT,Regular Season - 6,Odra Opole,3488,Stal Stalowa Wola,6958,2,1,True
+1206856,2024-08-21T18:30:00+00:00,FT,Regular Season - 6,Pogoń Siedlce,6947,Tychy 71,3495,0,1,True
+1206851,2024-08-22T15:30:00+00:00,FT,Regular Season - 6,Miedz Legnica,335,Znicz Pruszków,6964,4,0,True
+1206849,2024-08-22T17:00:00+00:00,FT,Regular Season - 6,Arka Gdynia,344,Ruch Chorzów,6953,1,1,True
+1206863,2024-08-23T18:30:00+00:00,FT,Regular Season - 7,Polonia Warszawa,16239,Warta Poznań,3496,2,0,True
+1206860,2024-08-24T12:30:00+00:00,FT,Regular Season - 7,Stal Stalowa Wola,6958,Pogoń Siedlce,6947,1,3,True
+1206861,2024-08-24T15:00:00+00:00,FT,Regular Season - 7,Stal Rzeszów,6957,Odra Opole,3488,2,2,True
+1206859,2024-08-24T17:35:00+00:00,FT,Regular Season - 7,Tychy 71,3495,Nieciecza,3487,0,2,True
+1206864,2024-08-25T10:00:00+00:00,FT,Regular Season - 7,Znicz Pruszków,6964,Kotwica Kołobrzeg,16249,4,0,True
+1206862,2024-08-25T12:30:00+00:00,FT,Regular Season - 7,ŁKS Łódź,3498,Chrobry Głogów,3483,3,0,True
+1206866,2024-08-25T15:00:00+00:00,FT,Regular Season - 7,Arka Gdynia,344,Górnik Łęczna,6941,1,2,True
+1206858,2024-08-26T17:00:00+00:00,FT,Regular Season - 7,Wisla Plock,341,Ruch Chorzów,6953,3,2,True
+1206872,2024-08-30T16:00:00+00:00,FT,Regular Season - 8,Odra Opole,3488,ŁKS Łódź,3498,0,1,True
+1206868,2024-08-30T18:30:00+00:00,FT,Regular Season - 8,Miedz Legnica,335,Arka Gdynia,344,1,2,True
+1206871,2024-08-30T18:30:00+00:00,FT,Regular Season - 8,Chrobry Głogów,3483,Polonia Warszawa,16239,1,2,True
+1206870,2024-08-31T12:30:00+00:00,FT,Regular Season - 8,Warta Poznań,3496,Znicz Pruszków,6964,1,1,True
+1206875,2024-08-31T15:00:00+00:00,FT,Regular Season - 8,Wisla Plock,341,Tychy 71,3495,0,0,True
+1206867,2024-08-31T17:35:00+00:00,FT,Regular Season - 8,Ruch Chorzów,6953,Górnik Łęczna,6941,3,2,True
+1206874,2024-09-01T10:00:00+00:00,FT,Regular Season - 8,Nieciecza,3487,Stal Stalowa Wola,6958,3,0,True
+1206869,2024-09-01T12:30:00+00:00,FT,Regular Season - 8,Kotwica Kołobrzeg,16249,Wisla Krakow,338,1,1,True
+1206873,2024-09-01T15:00:00+00:00,FT,Regular Season - 8,Pogoń Siedlce,6947,Stal Rzeszów,6957,1,1,True
+1206879,2024-09-13T16:00:00+00:00,FT,Regular Season - 9,ŁKS Łódź,3498,Pogoń Siedlce,6947,2,0,True
+1206882,2024-09-13T18:30:00+00:00,FT,Regular Season - 9,Wisla Krakow,338,Warta Poznań,3496,0,1,True
+1206877,2024-09-14T12:30:00+00:00,FT,Regular Season - 9,Stal Stalowa Wola,6958,Wisla Plock,341,1,3,True
+1206880,2024-09-14T15:00:00+00:00,FT,Regular Season - 9,Polonia Warszawa,16239,Odra Opole,3488,3,0,True
+1206878,2024-09-14T17:35:00+00:00,FT,Regular Season - 9,Stal Rzeszów,6957,Nieciecza,3487,1,2,True
+1206883,2024-09-15T12:30:00+00:00,FT,Regular Season - 9,Arka Gdynia,344,Kotwica Kołobrzeg,16249,5,0,True
+1206884,2024-09-15T15:00:00+00:00,FT,Regular Season - 9,Górnik Łęczna,6941,Miedz Legnica,335,1,2,True
+1206876,2024-09-16T17:00:00+00:00,FT,Regular Season - 9,Tychy 71,3495,Ruch Chorzów,6953,0,1,True
+1206881,2024-09-16T17:00:00+00:00,FT,Regular Season - 9,Znicz Pruszków,6964,Chrobry Głogów,3483,2,3,True
+1206811,2024-09-17T17:30:00+00:00,FT,Regular Season - 1,ŁKS Łódź,3498,Wisla Krakow,338,3,1,True
+1206892,2024-09-20T18:30:00+00:00,FT,Regular Season - 10,Wisla Plock,341,Stal Rzeszów,6957,1,1,True
+1206887,2024-09-21T12:30:00+00:00,FT,Regular Season - 10,Warta Poznań,3496,Arka Gdynia,344,0,1,True
+1206891,2024-09-21T15:30:00+00:00,FT,Regular Season - 10,Nieciecza,3487,ŁKS Łódź,3498,2,2,True
+1206886,2024-09-21T17:35:00+00:00,FT,Regular Season - 10,Kotwica Kołobrzeg,16249,Górnik Łęczna,6941,1,1,True
+1207038,2024-09-22T10:30:00+00:00,FT,Regular Season - 10,Miedz Legnica,335,Ruch Chorzów,6953,3,0,True
+1206893,2024-09-22T15:00:00+00:00,FT,Regular Season - 10,Tychy 71,3495,Stal Stalowa Wola,6958,0,0,True
+1206890,2024-09-22T18:00:00+00:00,FT,Regular Season - 10,Pogoń Siedlce,6947,Polonia Warszawa,16239,2,4,True
+1206899,2024-09-27T18:30:00+00:00,FT,Regular Season - 11,Wisla Krakow,338,Odra Opole,3488,5,0,True
+1206898,2024-09-28T15:30:00+00:00,FT,Regular Season - 11,Znicz Pruszków,6964,Pogoń Siedlce,6947,1,0,True
+1206901,2024-09-28T17:35:00+00:00,FT,Regular Season - 11,Górnik Łęczna,6941,Warta Poznań,3496,1,1,True
+1206900,2024-09-29T10:00:00+00:00,FT,Regular Season - 11,Arka Gdynia,344,Chrobry Głogów,3483,2,0,True
+1206897,2024-09-29T12:30:00+00:00,FT,Regular Season - 11,Polonia Warszawa,16239,Nieciecza,3487,0,1,True
+1206902,2024-09-29T15:00:00+00:00,FT,Regular Season - 11,Miedz Legnica,335,Kotwica Kołobrzeg,16249,1,1,True
+1206894,2024-09-29T17:30:00+00:00,FT,Regular Season - 11,Stal Stalowa Wola,6958,Ruch Chorzów,6953,2,0,True
+1206895,2024-09-30T16:00:00+00:00,FT,Regular Season - 11,Stal Rzeszów,6957,Tychy 71,3495,5,1,True
+1206896,2024-09-30T17:00:00+00:00,FT,Regular Season - 11,ŁKS Łódź,3498,Wisla Plock,341,0,1,True
+1206889,2024-10-02T16:00:00+00:00,FT,Regular Season - 10,Odra Opole,3488,Znicz Pruszków,6964,1,1,True
+1206904,2024-10-04T16:00:00+00:00,FT,Regular Season - 12,Warta Poznań,3496,Miedz Legnica,335,1,4,True
+1206903,2024-10-04T18:30:00+00:00,FT,Regular Season - 12,Ruch Chorzów,6953,Kotwica Kołobrzeg,16249,1,0,True
+1206911,2024-10-05T12:30:00+00:00,FT,Regular Season - 12,Stal Stalowa Wola,6958,Stal Rzeszów,6957,2,2,True
+1206909,2024-10-05T15:30:00+00:00,FT,Regular Season - 12,Wisla Plock,341,Polonia Warszawa,16239,4,1,True
+1206907,2024-10-05T17:35:00+00:00,FT,Regular Season - 12,Pogoń Siedlce,6947,Wisla Krakow,338,1,3,True
+1206905,2024-10-06T10:00:00+00:00,FT,Regular Season - 12,Chrobry Głogów,3483,Górnik Łęczna,6941,1,1,True
+1206906,2024-10-06T12:30:00+00:00,FT,Regular Season - 12,Odra Opole,3488,Arka Gdynia,344,0,6,True
+1206910,2024-10-06T15:00:00+00:00,FT,Regular Season - 12,Tychy 71,3495,ŁKS Łódź,3498,0,3,True
+1206908,2024-10-06T17:00:00+00:00,FT,Regular Season - 12,Nieciecza,3487,Znicz Pruszków,6964,1,2,True
+1206918,2024-10-18T16:00:00+00:00,FT,Regular Season - 13,Górnik Łęczna,6941,Odra Opole,3488,2,2,True
+1206916,2024-10-18T18:30:00+00:00,FT,Regular Season - 13,Wisla Krakow,338,Nieciecza,3487,2,0,True
+1206920,2024-10-19T12:30:00+00:00,FT,Regular Season - 13,Kotwica Kołobrzeg,16249,Warta Poznań,3496,0,1,True
+1206919,2024-10-19T15:30:00+00:00,FT,Regular Season - 13,Miedz Legnica,335,Chrobry Głogów,3483,1,0,True
+1206915,2024-10-19T17:35:00+00:00,FT,Regular Season - 13,Znicz Pruszków,6964,Wisla Plock,341,2,2,True
+1206914,2024-10-20T10:00:00+00:00,FT,Regular Season - 13,Polonia Warszawa,16239,Tychy 71,3495,2,1,True
+1206917,2024-10-20T12:30:00+00:00,FT,Regular Season - 13,Arka Gdynia,344,Pogoń Siedlce,6947,2,1,True
+1206913,2024-10-20T15:00:00+00:00,FT,Regular Season - 13,ŁKS Łódź,3498,Stal Stalowa Wola,6958,0,0,True
+1206912,2024-10-21T17:00:00+00:00,FT,Regular Season - 13,Stal Rzeszów,6957,Ruch Chorzów,6953,0,2,True
+1206850,2024-10-22T16:00:00+00:00,FT,Regular Season - 6,Górnik Łęczna,6941,Wisla Krakow,338,1,0,True
+1206922,2024-10-25T16:00:00+00:00,FT,Regular Season - 14,Chrobry Głogów,3483,Kotwica Kołobrzeg,16249,3,2,True
+1206921,2024-10-25T18:30:00+00:00,FT,Regular Season - 14,Ruch Chorzów,6953,Warta Poznań,3496,2,1,True
+1206923,2024-10-26T12:30:00+00:00,FT,Regular Season - 14,Odra Opole,3488,Miedz Legnica,335,0,2,True
+1206929,2024-10-26T15:30:00+00:00,FT,Regular Season - 14,Stal Rzeszów,6957,ŁKS Łódź,3498,2,4,True
+1206925,2024-10-26T17:35:00+00:00,FT,Regular Season - 14,Nieciecza,3487,Arka Gdynia,344,2,1,True
+1206924,2024-10-26T18:00:00+00:00,FT,Regular Season - 14,Pogoń Siedlce,6947,Górnik Łęczna,6941,1,1,True
+1206926,2024-10-27T13:30:00+00:00,FT,Regular Season - 14,Wisla Plock,341,Wisla Krakow,338,1,3,True
+1206928,2024-10-27T16:00:00+00:00,FT,Regular Season - 14,Stal Stalowa Wola,6958,Polonia Warszawa,16239,1,1,True
+1206927,2024-10-28T18:00:00+00:00,FT,Regular Season - 14,Tychy 71,3495,Znicz Pruszków,6964,1,1,True
+1206932,2024-11-02T11:00:00+00:00,FT,Regular Season - 15,Znicz Pruszków,6964,Stal Stalowa Wola,6958,0,1,True
+1206937,2024-11-02T13:30:00+00:00,FT,Regular Season - 15,Kotwica Kołobrzeg,16249,Odra Opole,3488,0,1,True
+1206935,2024-11-02T16:00:00+00:00,FT,Regular Season - 15,Górnik Łęczna,6941,Nieciecza,3487,0,2,True
+1206934,2024-11-02T18:35:00+00:00,FT,Regular Season - 15,Arka Gdynia,344,Wisla Plock,341,2,0,True
+1206936,2024-11-03T11:00:00+00:00,FT,Regular Season - 15,Miedz Legnica,335,Pogoń Siedlce,6947,4,1,True
+1206930,2024-11-03T13:30:00+00:00,FT,Regular Season - 15,ŁKS Łódź,3498,Ruch Chorzów,6953,0,1,True
+1206938,2024-11-03T16:00:00+00:00,FT,Regular Season - 15,Warta Poznań,3496,Chrobry Głogów,3483,1,0,True
+1206931,2024-11-04T16:00:00+00:00,FT,Regular Season - 15,Polonia Warszawa,16239,Stal Rzeszów,6957,1,0,True
+1206933,2024-11-04T18:00:00+00:00,FT,Regular Season - 15,Wisla Krakow,338,Tychy 71,3495,0,0,True
+1206939,2024-11-07T18:00:00+00:00,FT,Regular Season - 16,Ruch Chorzów,6953,Chrobry Głogów,3483,5,0,True
+1206941,2024-11-08T17:00:00+00:00,FT,Regular Season - 16,Pogoń Siedlce,6947,Kotwica Kołobrzeg,16249,2,1,True
+1206947,2024-11-08T19:30:00+00:00,FT,Regular Season - 16,ŁKS Łódź,3498,Polonia Warszawa,16239,0,0,True
+1206944,2024-11-09T13:30:00+00:00,FT,Regular Season - 16,Tychy 71,3495,Arka Gdynia,344,1,1,True
+1206940,2024-11-09T16:30:00+00:00,FT,Regular Season - 16,Odra Opole,3488,Warta Poznań,3496,0,0,True
+1206942,2024-11-09T18:35:00+00:00,FT,Regular Season - 16,Nieciecza,3487,Miedz Legnica,335,1,1,True
+1206945,2024-11-10T11:45:00+00:00,FT,Regular Season - 16,Stal Stalowa Wola,6958,Wisla Krakow,338,1,5,True
+1206943,2024-11-10T13:30:00+00:00,FT,Regular Season - 16,Wisla Plock,341,Górnik Łęczna,6941,2,2,True
+1206946,2024-11-10T16:00:00+00:00,FT,Regular Season - 16,Stal Rzeszów,6957,Znicz Pruszków,6964,2,1,True
+1206888,2024-11-16T16:30:00+00:00,FT,Regular Season - 10,Chrobry Głogów,3483,Wisla Krakow,338,0,3,True
+1206954,2024-11-22T17:00:00+00:00,FT,Regular Season - 17,Kotwica Kołobrzeg,16249,Nieciecza,3487,0,5,True
+1206950,2024-11-22T19:30:00+00:00,FT,Regular Season - 17,Wisla Krakow,338,Stal Rzeszów,6957,1,1,True
+1206956,2024-11-23T13:30:00+00:00,FT,Regular Season - 17,Chrobry Głogów,3483,Odra Opole,3488,1,1,True
+1206952,2024-11-23T16:30:00+00:00,FT,Regular Season - 17,Górnik Łęczna,6941,Tychy 71,3495,2,2,True
+1206949,2024-11-23T18:35:00+00:00,FT,Regular Season - 17,Znicz Pruszków,6964,ŁKS Łódź,3498,2,2,True
+1206955,2024-11-24T11:00:00+00:00,FT,Regular Season - 17,Warta Poznań,3496,Pogoń Siedlce,6947,2,1,True
+1206948,2024-11-24T13:30:00+00:00,FT,Regular Season - 17,Polonia Warszawa,16239,Ruch Chorzów,6953,1,0,True
+1206951,2024-11-24T16:00:00+00:00,FT,Regular Season - 17,Arka Gdynia,344,Stal Stalowa Wola,6958,5,1,True
+1206953,2024-11-25T18:00:00+00:00,FT,Regular Season - 17,Miedz Legnica,335,Wisla Plock,341,2,2,True
+1206965,2024-11-29T17:00:00+00:00,FT,Regular Season - 18,Znicz Pruszków,6964,Polonia Warszawa,16239,2,1,True
+1206957,2024-11-29T19:30:00+00:00,FT,Regular Season - 18,Ruch Chorzów,6953,Odra Opole,3488,6,0,True
+1206961,2024-11-30T13:30:00+00:00,FT,Regular Season - 18,Miedz Legnica,335,Tychy 71,3495,1,3,True
+1206960,2024-11-30T16:30:00+00:00,FT,Regular Season - 18,Kotwica Kołobrzeg,16249,Wisla Plock,341,2,0,True
+1206964,2024-11-30T18:35:00+00:00,FT,Regular Season - 18,Wisla Krakow,338,ŁKS Łódź,3498,2,1,True
+1206958,2024-12-01T11:00:00+00:00,FT,Regular Season - 18,Chrobry Głogów,3483,Pogoń Siedlce,6947,1,0,True
+1206959,2024-12-01T13:30:00+00:00,FT,Regular Season - 18,Warta Poznań,3496,Nieciecza,3487,0,1,True
+1206962,2024-12-01T16:00:00+00:00,FT,Regular Season - 18,Górnik Łęczna,6941,Stal Stalowa Wola,6958,2,0,True
+1206963,2024-12-02T18:00:00+00:00,FT,Regular Season - 18,Arka Gdynia,344,Stal Rzeszów,6957,2,1,True
+1206970,2024-12-06T17:00:00+00:00,FT,Regular Season - 19,Stal Stalowa Wola,6958,Miedz Legnica,335,0,2,True
+1206967,2024-12-06T19:30:00+00:00,FT,Regular Season - 19,Polonia Warszawa,16239,Wisla Krakow,338,2,0,True
+1206971,2024-12-07T13:30:00+00:00,FT,Regular Season - 19,Tychy 71,3495,Kotwica Kołobrzeg,16249,4,0,True
+1206973,2024-12-07T16:30:00+00:00,FT,Regular Season - 19,Nieciecza,3487,Chrobry Głogów,3483,3,2,True
+1206969,2024-12-07T18:35:00+00:00,FT,Regular Season - 19,Stal Rzeszów,6957,Górnik Łęczna,6941,0,3,True
+1206974,2024-12-08T11:00:00+00:00,FT,Regular Season - 19,Pogoń Siedlce,6947,Odra Opole,3488,0,1,True
+1206966,2024-12-08T13:30:00+00:00,FT,Regular Season - 19,Znicz Pruszków,6964,Ruch Chorzów,6953,2,3,True
+1206972,2024-12-08T16:00:00+00:00,FT,Regular Season - 19,Wisla Plock,341,Warta Poznań,3496,4,0,True
+1206968,2024-12-09T18:00:00+00:00,FT,Regular Season - 19,ŁKS Łódź,3498,Arka Gdynia,344,0,2,True
+1206865,2024-12-12T20:00:00+00:00,FT,Regular Season - 7,Wisla Krakow,338,Miedz Legnica,335,1,1,True
+1206976,2025-02-14T17:00:00+00:00,FT,Regular Season - 20,Odra Opole,3488,Nieciecza,3487,2,2,True
+1206982,2025-02-14T19:45:00+00:00,FT,Regular Season - 20,Arka Gdynia,344,Polonia Warszawa,16239,0,0,True
+1206979,2025-02-15T13:30:00+00:00,FT,Regular Season - 20,Kotwica Kołobrzeg,16249,Stal Stalowa Wola,6958,1,1,True
+1206983,2025-02-15T16:00:00+00:00,FT,Regular Season - 20,Wisla Krakow,338,Znicz Pruszków,6964,0,1,True
+1206980,2025-02-15T18:30:00+00:00,FT,Regular Season - 20,Miedz Legnica,335,Stal Rzeszów,6957,3,3,True
+1206978,2025-02-16T11:00:00+00:00,FT,Regular Season - 20,Warta Poznań,3496,Tychy 71,3495,1,3,True
+1206981,2025-02-16T13:30:00+00:00,FT,Regular Season - 20,Górnik Łęczna,6941,ŁKS Łódź,3498,2,2,True
+1206977,2025-02-16T16:00:00+00:00,FT,Regular Season - 20,Chrobry Głogów,3483,Wisla Plock,341,0,0,True
+1206975,2025-02-17T18:00:00+00:00,FT,Regular Season - 20,Pogoń Siedlce,6947,Ruch Chorzów,6953,1,1,True
+1206986,2025-02-21T17:00:00+00:00,FT,Regular Season - 21,Polonia Warszawa,16239,Górnik Łęczna,6941,2,1,True
+1206988,2025-02-21T19:30:00+00:00,FT,Regular Season - 21,Stal Rzeszów,6957,Kotwica Kołobrzeg,16249,1,0,True
+1206984,2025-02-22T13:30:00+00:00,FT,Regular Season - 21,Ruch Chorzów,6953,Wisla Krakow,338,0,5,True
+1206992,2025-02-22T16:00:00+00:00,FT,Regular Season - 21,Nieciecza,3487,Pogoń Siedlce,6947,1,1,True
+1206985,2025-02-22T18:30:00+00:00,FT,Regular Season - 21,Znicz Pruszków,6964,Arka Gdynia,344,0,1,True
+1206990,2025-02-23T11:00:00+00:00,FT,Regular Season - 21,Tychy 71,3495,Chrobry Głogów,3483,3,1,True
+1206987,2025-02-23T13:30:00+00:00,FT,Regular Season - 21,ŁKS Łódź,3498,Miedz Legnica,335,0,1,True
+1206991,2025-02-23T16:00:00+00:00,FT,Regular Season - 21,Wisla Plock,341,Odra Opole,3488,2,1,True
+1206989,2025-02-24T18:00:00+00:00,FT,Regular Season - 21,Stal Stalowa Wola,6958,Warta Poznań,3496,0,0,True
+1206994,2025-02-28T17:00:00+00:00,FT,Regular Season - 22,Pogoń Siedlce,6947,Wisla Plock,341,1,3,True
+1207001,2025-02-28T19:30:00+00:00,FT,Regular Season - 22,Arka Gdynia,344,Wisla Krakow,338,2,2,True
+1206997,2025-03-01T13:30:00+00:00,FT,Regular Season - 22,Warta Poznań,3496,Stal Rzeszów,6957,0,1,True
+1206995,2025-03-01T16:00:00+00:00,FT,Regular Season - 22,Odra Opole,3488,Tychy 71,3495,1,5,True
+1207000,2025-03-01T18:30:00+00:00,FT,Regular Season - 22,Górnik Łęczna,6941,Znicz Pruszków,6964,1,2,True
+1206996,2025-03-02T11:00:00+00:00,FT,Regular Season - 22,Chrobry Głogów,3483,Stal Stalowa Wola,6958,2,0,True
+1206999,2025-03-02T13:30:00+00:00,FT,Regular Season - 22,Miedz Legnica,335,Polonia Warszawa,16239,2,3,True
+1206998,2025-03-02T16:00:00+00:00,FT,Regular Season - 22,Kotwica Kołobrzeg,16249,ŁKS Łódź,3498,0,0,True
+1206993,2025-03-03T18:00:00+00:00,FT,Regular Season - 22,Ruch Chorzów,6953,Nieciecza,3487,2,2,True
+1207006,2025-03-07T17:00:00+00:00,FT,Regular Season - 23,ŁKS Łódź,3498,Warta Poznań,3496,3,1,True
+1207009,2025-03-07T19:30:00+00:00,FT,Regular Season - 23,Tychy 71,3495,Pogoń Siedlce,6947,2,0,True
+1207004,2025-03-08T13:30:00+00:00,FT,Regular Season - 23,Znicz Pruszków,6964,Miedz Legnica,335,2,1,True
+1207008,2025-03-08T16:30:00+00:00,FT,Regular Season - 23,Stal Stalowa Wola,6958,Odra Opole,3488,0,0,True
+1207002,2025-03-08T18:30:00+00:00,FT,Regular Season - 23,Ruch Chorzów,6953,Arka Gdynia,344,0,1,True
+1207005,2025-03-09T11:00:00+00:00,FT,Regular Season - 23,Polonia Warszawa,16239,Kotwica Kołobrzeg,16249,2,2,True
+1207003,2025-03-09T13:30:00+00:00,FT,Regular Season - 23,Wisla Krakow,338,Górnik Łęczna,6941,1,0,True
+1207007,2025-03-09T16:00:00+00:00,FT,Regular Season - 23,Stal Rzeszów,6957,Chrobry Głogów,3483,0,0,True
+1207010,2025-03-10T18:00:00+00:00,FT,Regular Season - 23,Wisla Plock,341,Nieciecza,3487,3,0,True
+1207018,2025-03-14T17:00:00+00:00,FT,Regular Season - 24,Miedz Legnica,335,Wisla Krakow,338,2,1,True
+1207015,2025-03-14T19:30:00+00:00,FT,Regular Season - 24,Chrobry Głogów,3483,ŁKS Łódź,3498,1,2,True
+1207012,2025-03-15T13:30:00+00:00,FT,Regular Season - 24,Nieciecza,3487,Tychy 71,3495,2,1,True
+1207011,2025-03-15T16:00:00+00:00,FT,Regular Season - 24,Ruch Chorzów,6953,Wisla Plock,341,0,0,True
+1207016,2025-03-15T18:30:00+00:00,FT,Regular Season - 24,Warta Poznań,3496,Polonia Warszawa,16239,1,2,True
+1207013,2025-03-16T11:00:00+00:00,FT,Regular Season - 24,Pogoń Siedlce,6947,Stal Stalowa Wola,6958,0,0,True
+1207019,2025-03-16T13:30:00+00:00,FT,Regular Season - 24,Górnik Łęczna,6941,Arka Gdynia,344,0,1,True
+1207017,2025-03-16T16:00:00+00:00,FT,Regular Season - 24,Kotwica Kołobrzeg,16249,Znicz Pruszków,6964,0,0,True
+1207023,2025-03-28T17:00:00+00:00,FT,Regular Season - 25,Znicz Pruszków,6964,Warta Poznań,3496,0,0,True
+1207022,2025-03-28T19:30:00+00:00,FT,Regular Season - 25,Wisla Krakow,338,Kotwica Kołobrzeg,16249,2,1,True
+1207020,2025-03-29T14:00:00+00:00,FT,Regular Season - 25,Górnik Łęczna,6941,Ruch Chorzów,6953,2,0,True
+1207024,2025-03-29T16:30:00+00:00,FT,Regular Season - 25,Polonia Warszawa,16239,Chrobry Głogów,3483,4,2,True
+1207025,2025-03-29T18:30:00+00:00,FT,Regular Season - 25,ŁKS Łódź,3498,Odra Opole,3488,1,2,True
+1207027,2025-03-30T10:00:00+00:00,FT,Regular Season - 25,Stal Stalowa Wola,6958,Nieciecza,3487,3,3,True
+1207021,2025-03-30T12:30:00+00:00,FT,Regular Season - 25,Arka Gdynia,344,Miedz Legnica,335,2,0,True
+1207026,2025-03-30T15:00:00+00:00,FT,Regular Season - 25,Stal Rzeszów,6957,Pogoń Siedlce,6947,2,4,True
+1207028,2025-03-31T17:00:00+00:00,FT,Regular Season - 25,Tychy 71,3495,Wisla Plock,341,2,1,True
+1207037,2025-04-04T16:00:00+00:00,FT,Regular Season - 26,Miedz Legnica,335,Górnik Łęczna,6941,0,2,True
+1207034,2025-04-04T16:00:00+00:00,FT,Regular Season - 26,Chrobry Głogów,3483,Znicz Pruszków,6964,3,2,True
+1207036,2025-04-04T18:30:00+00:00,FT,Regular Season - 26,Kotwica Kołobrzeg,16249,Arka Gdynia,344,0,1,True
+1207030,2025-04-05T12:30:00+00:00,FT,Regular Season - 26,Wisla Plock,341,Stal Stalowa Wola,6958,2,1,True
+1207033,2025-04-05T15:30:00+00:00,FT,Regular Season - 26,Odra Opole,3488,Polonia Warszawa,16239,0,1,True
+1207035,2025-04-05T17:30:00+00:00,FT,Regular Season - 26,Warta Poznań,3496,Wisla Krakow,338,0,1,True
+1207031,2025-04-06T10:00:00+00:00,FT,Regular Season - 26,Nieciecza,3487,Stal Rzeszów,6957,3,1,True
+1207029,2025-04-06T12:30:00+00:00,FT,Regular Season - 26,Ruch Chorzów,6953,Tychy 71,3495,0,1,True
+1207032,2025-04-06T15:00:00+00:00,FT,Regular Season - 26,Pogoń Siedlce,6947,ŁKS Łódź,3498,1,1,True
+1207042,2025-04-08T16:00:00+00:00,FT,Regular Season - 27,Znicz Pruszków,6964,Odra Opole,3488,2,1,True
+1207039,2025-04-08T17:30:00+00:00,FT,Regular Season - 27,Górnik Łęczna,6941,Kotwica Kołobrzeg,16249,3,0,True
+1207040,2025-04-08T18:30:00+00:00,FT,Regular Season - 27,Arka Gdynia,344,Warta Poznań,3496,3,0,True
+1207041,2025-04-09T16:00:00+00:00,FT,Regular Season - 27,Wisla Krakow,338,Chrobry Głogów,3483,2,1,True
+1207046,2025-04-09T18:30:00+00:00,FT,Regular Season - 27,Stal Stalowa Wola,6958,Tychy 71,3495,0,1,True
+1207043,2025-04-09T18:30:00+00:00,FT,Regular Season - 27,Polonia Warszawa,16239,Pogoń Siedlce,6947,2,1,True
+1207044,2025-04-10T16:00:00+00:00,FT,Regular Season - 27,ŁKS Łódź,3498,Nieciecza,3487,1,2,True
+1207045,2025-04-10T16:00:00+00:00,FT,Regular Season - 27,Stal Rzeszów,6957,Wisla Plock,341,0,1,True
+1206885,2025-04-10T18:45:00+00:00,FT,Regular Season - 27,Ruch Chorzów,6953,Miedz Legnica,335,1,2,True
+1207054,2025-04-11T18:30:00+00:00,FT,Regular Season - 28,Warta Poznań,3496,Górnik Łęczna,6941,0,2,True
+1207051,2025-04-12T15:30:00+00:00,FT,Regular Season - 28,Pogoń Siedlce,6947,Znicz Pruszków,6964,2,1,True
+1207053,2025-04-12T17:30:00+00:00,FT,Regular Season - 28,Chrobry Głogów,3483,Arka Gdynia,344,2,2,True
+1207049,2025-04-13T10:00:00+00:00,FT,Regular Season - 28,Wisla Plock,341,ŁKS Łódź,3498,3,0,True
+1207052,2025-04-13T12:30:00+00:00,FT,Regular Season - 28,Odra Opole,3488,Wisla Krakow,338,1,2,True
+1207047,2025-04-13T15:00:00+00:00,FT,Regular Season - 28,Ruch Chorzów,6953,Stal Stalowa Wola,6958,1,3,True
+1207055,2025-04-13T17:00:00+00:00,FT,Regular Season - 28,Kotwica Kołobrzeg,16249,Miedz Legnica,335,0,0,True
+1207050,2025-04-14T17:00:00+00:00,FT,Regular Season - 28,Nieciecza,3487,Polonia Warszawa,16239,0,3,True
+1207048,2025-04-14T17:00:00+00:00,FT,Regular Season - 28,Tychy 71,3495,Stal Rzeszów,6957,1,0,True
+1207064,2025-04-19T11:00:00+00:00,FT,Regular Season - 29,Stal Rzeszów,6957,Stal Stalowa Wola,6958,2,2,True
+1207059,2025-04-19T13:00:00+00:00,FT,Regular Season - 29,Arka Gdynia,344,Odra Opole,3488,1,0,True
+1207060,2025-04-19T15:15:00+00:00,FT,Regular Season - 29,Wisla Krakow,338,Pogoń Siedlce,6947,1,0,True
+1207062,2025-04-19T17:30:00+00:00,FT,Regular Season - 29,Polonia Warszawa,16239,Wisla Plock,341,0,0,True
+1207058,2025-04-21T10:00:00+00:00,FT,Regular Season - 29,Górnik Łęczna,6941,Chrobry Głogów,3483,1,0,True
+1207061,2025-04-21T12:30:00+00:00,FT,Regular Season - 29,Znicz Pruszków,6964,Nieciecza,3487,0,1,True
+1207063,2025-04-21T15:00:00+00:00,FT,Regular Season - 29,ŁKS Łódź,3498,Tychy 71,3495,1,3,True
+1207057,2025-04-21T17:30:00+00:00,FT,Regular Season - 29,Miedz Legnica,335,Warta Poznań,3496,3,2,True
+1207056,2025-04-22T17:00:00+00:00,FT,Regular Season - 29,Kotwica Kołobrzeg,16249,Ruch Chorzów,6953,3,4,True
+1207014,2025-04-23T16:00:00+00:00,FT,Regular Season - 24,Odra Opole,3488,Stal Rzeszów,6957,3,0,True
+1207066,2025-04-25T16:00:00+00:00,FT,Regular Season - 30,Stal Stalowa Wola,6958,ŁKS Łódź,3498,0,1,True
+1207069,2025-04-25T18:30:00+00:00,FT,Regular Season - 30,Nieciecza,3487,Wisla Krakow,338,2,2,True
+1207073,2025-04-26T13:00:00+00:00,FT,Regular Season - 30,Warta Poznań,3496,Kotwica Kołobrzeg,16249,0,1,True
+1207067,2025-04-26T15:30:00+00:00,FT,Regular Season - 30,Tychy 71,3495,Polonia Warszawa,16239,1,1,True
+1207070,2025-04-26T17:30:00+00:00,FT,Regular Season - 30,Pogoń Siedlce,6947,Arka Gdynia,344,1,1,True
+1207071,2025-04-27T10:00:00+00:00,FT,Regular Season - 30,Odra Opole,3488,Górnik Łęczna,6941,0,0,True
+1207065,2025-04-27T12:30:00+00:00,FT,Regular Season - 30,Ruch Chorzów,6953,Stal Rzeszów,6957,3,0,True
+1207072,2025-04-27T15:00:00+00:00,FT,Regular Season - 30,Chrobry Głogów,3483,Miedz Legnica,335,1,1,True
+1207068,2025-04-28T17:00:00+00:00,FT,Regular Season - 30,Wisla Plock,341,Znicz Pruszków,6964,2,3,True
+1207077,2025-05-02T17:00:00+00:00,FT,Regular Season - 31,Górnik Łęczna,6941,Pogoń Siedlce,6947,1,3,True
+1207079,2025-05-02T18:30:00+00:00,FT,Regular Season - 31,Wisla Krakow,338,Wisla Plock,341,1,3,True
+1207074,2025-05-03T13:15:00+00:00,FT,Regular Season - 31,Warta Poznań,3496,Ruch Chorzów,6953,0,2,True
+1207081,2025-05-03T15:30:00+00:00,FT,Regular Season - 31,Polonia Warszawa,16239,Stal Stalowa Wola,6958,2,3,True
+1207080,2025-05-03T17:30:00+00:00,FT,Regular Season - 31,Znicz Pruszków,6964,Tychy 71,3495,2,2,True
+1207076,2025-05-04T10:00:00+00:00,FT,Regular Season - 31,Miedz Legnica,335,Odra Opole,3488,2,1,True
+1207078,2025-05-04T12:30:00+00:00,FT,Regular Season - 31,Arka Gdynia,344,Nieciecza,3487,2,1,True
+1207082,2025-05-04T15:00:00+00:00,FT,Regular Season - 31,ŁKS Łódź,3498,Stal Rzeszów,6957,5,0,True
+1207075,2025-05-05T17:00:00+00:00,FT,Regular Season - 31,Kotwica Kołobrzeg,16249,Chrobry Głogów,3483,2,1,True
+1207085,2025-05-09T16:00:00+00:00,FT,Regular Season - 32,Stal Stalowa Wola,6958,Znicz Pruszków,6964,0,5,True
+1207086,2025-05-09T18:30:00+00:00,FT,Regular Season - 32,Tychy 71,3495,Wisla Krakow,338,0,2,True
+1207084,2025-05-10T12:30:00+00:00,FT,Regular Season - 32,Stal Rzeszów,6957,Polonia Warszawa,16239,1,2,True
+1207089,2025-05-10T15:30:00+00:00,FT,Regular Season - 32,Pogoń Siedlce,6947,Miedz Legnica,335,3,0,True
+1207083,2025-05-10T17:30:00+00:00,FT,Regular Season - 32,Ruch Chorzów,6953,ŁKS Łódź,3498,1,3,True
+1207091,2025-05-11T10:00:00+00:00,FT,Regular Season - 32,Chrobry Głogów,3483,Warta Poznań,3496,2,1,True
+1207088,2025-05-11T12:30:00+00:00,FT,Regular Season - 32,Nieciecza,3487,Górnik Łęczna,6941,3,1,True
+1207090,2025-05-11T15:00:00+00:00,FT,Regular Season - 32,Odra Opole,3488,Kotwica Kołobrzeg,16249,4,2,True
+1207087,2025-05-12T17:00:00+00:00,FT,Regular Season - 32,Wisla Plock,341,Arka Gdynia,344,1,0,True
+1207098,2025-05-16T18:30:00+00:00,FT,Regular Season - 33,Wisla Krakow,338,Stal Stalowa Wola,6958,5,0,True
+1207094,2025-05-17T12:30:00+00:00,FT,Regular Season - 33,Kotwica Kołobrzeg,16249,Pogoń Siedlce,6947,1,1,True
+1207100,2025-05-17T15:30:00+00:00,FT,Regular Season - 33,Polonia Warszawa,16239,ŁKS Łódź,3498,0,1,True
+1207096,2025-05-17T17:30:00+00:00,FT,Regular Season - 33,Górnik Łęczna,6941,Wisla Plock,341,2,2,True
+1207093,2025-05-18T10:00:00+00:00,FT,Regular Season - 33,Warta Poznań,3496,Odra Opole,3488,1,0,True
+1207097,2025-05-18T12:30:00+00:00,FT,Regular Season - 33,Arka Gdynia,344,Tychy 71,3495,2,2,True
+1207099,2025-05-18T15:00:00+00:00,FT,Regular Season - 33,Znicz Pruszków,6964,Stal Rzeszów,6957,2,0,True
+1207095,2025-05-19T17:00:00+00:00,FT,Regular Season - 33,Miedz Legnica,335,Nieciecza,3487,1,4,True
+1207092,2025-05-19T17:00:00+00:00,FT,Regular Season - 33,Chrobry Głogów,3483,Ruch Chorzów,6953,2,2,True
+1207106,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Wisla Plock,341,Miedz Legnica,335,2,1,True
+1207107,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Nieciecza,3487,Kotwica Kołobrzeg,16249,2,1,True
+1207109,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Odra Opole,3488,Chrobry Głogów,3483,0,2,True
+1207105,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Tychy 71,3495,Górnik Łęczna,6941,3,1,True
+1207102,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,ŁKS Łódź,3498,Znicz Pruszków,6964,2,3,True
+1207108,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Pogoń Siedlce,6947,Warta Poznań,3496,2,1,True
+1207101,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Ruch Chorzów,6953,Polonia Warszawa,16239,1,1,True
+1207103,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Stal Rzeszów,6957,Wisla Krakow,338,0,3,True
+1207104,2025-05-25T15:30:00+00:00,FT,Regular Season - 34,Stal Stalowa Wola,6958,Arka Gdynia,344,0,3,True
+1376533,2025-05-29T16:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Wisla Plock,341,Polonia Warszawa,16239,2,1,True
+1376534,2025-05-29T19:00:00+00:00,FT,Promotion Play-offs - Semi-finals,Wisla Krakow,338,Miedz Legnica,335,0,1,True
+1377019,2025-06-01T14:30:00+00:00,FT,Promotion Play-offs - Final,Wisla Plock,341,Miedz Legnica,335,2,0,True

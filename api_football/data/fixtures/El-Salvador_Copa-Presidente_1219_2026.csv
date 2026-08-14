@@ -1,61 +1,61 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1521435,2026-02-10T21:00:00+00:00,FT,Once Municipal,5632,Inter,26154,1,4,True
-1521436,2026-02-10T21:00:00+00:00,FT,Izalco,27505,Fuerte Aguilares,27504,2,0,True
-1521437,2026-02-10T21:00:00+00:00,AWD,Cabanas,27502,Firpo,4303,3,0,False
-1521438,2026-02-10T23:00:00+00:00,FT,Hércules,4666,FAS,4302,1,1,True
-1521439,2026-02-11T21:00:00+00:00,FT,Cruzeiro,135,Municipal Limeño,4306,1,1,True
-1521440,2026-02-11T21:00:00+00:00,FT,Dragón,19412,Águila,4310,1,4,True
-1521441,2026-02-11T21:00:00+00:00,FT,Tenancingo,27508,Platense,19763,1,3,True
-1521442,2026-02-11T23:00:00+00:00,FT,El Roble,27503,Cacahuatique,24530,1,4,True
-1521443,2026-02-12T21:00:00+00:00,AWD,Batanecos,27501,Zacatecoluca,26155,3,0,False
-1521444,2026-02-12T21:00:00+00:00,AWD,Racing de Gualuca,27506,Fuerte San Francisco,22157,0,3,False
-1521445,2026-02-12T21:00:00+00:00,FT,Vendaval,27509,Alianza,4299,2,2,True
-1521446,2026-02-12T23:00:00+00:00,FT,Talleres Jr,27507,Isidro Metapán,4304,0,2,True
-1521447,2026-02-24T21:00:00+00:00,FT,Batanecos,27501,Alianza,4299,0,1,True
-1521448,2026-02-24T21:00:00+00:00,FT,Izalco,27505,FAS,4302,2,3,True
-1521449,2026-02-24T21:00:00+00:00,FT,Once Municipal,5632,Talleres Jr,27507,0,2,True
-1521450,2026-02-24T23:00:00+00:00,FT,El Roble,27503,Cabanas,27502,3,0,True
-1521451,2026-02-25T21:00:00+00:00,FT,Cacahuatique,24530,Firpo,4303,0,1,True
-1521452,2026-02-25T21:00:00+00:00,FT,Cruzeiro,135,Platense,19763,0,0,True
-1521453,2026-02-25T21:00:00+00:00,FT,Vendaval,27509,Zacatecoluca,26155,0,1,True
-1521454,2026-02-26T01:00:00+00:00,FT,Tenancingo,27508,Municipal Limeño,4306,1,1,True
-1521455,2026-02-26T21:00:00+00:00,FT,Fuerte Aguilares,27504,Hércules,4666,1,3,True
-1521456,2026-02-26T21:00:00+00:00,FT,Fuerte San Francisco,22157,Águila,4310,0,1,True
-1521457,2026-02-26T21:00:00+00:00,FT,Racing de Gualuca,27506,Dragón,19412,0,1,True
-1521458,2026-02-27T01:00:00+00:00,FT,Inter,26154,Isidro Metapán,4304,1,1,True
-1521459,2026-03-10T21:00:00+00:00,FT,Once Municipal,5632,Isidro Metapán,4304,0,1,True
-1521460,2026-03-10T21:00:00+00:00,FT,Tenancingo,27508,Cruzeiro,135,0,0,True
-1521461,2026-03-11T01:00:00+00:00,FT,El Roble,27503,Firpo,4303,1,1,True
-1521462,2026-03-10T21:00:00+00:00,FT,Fuerte Aguilares,27504,FAS,4302,0,2,True
-1521463,2026-03-11T21:00:00+00:00,FT,Cabanas,27502,Cacahuatique,24530,0,0,True
-1521464,2026-03-11T21:00:00+00:00,FT,Dragón,19412,Fuerte San Francisco,22157,2,2,True
-1521465,2026-03-12T21:00:00+00:00,FT,Izalco,27505,Hércules,4666,2,2,True
-1521466,2026-03-11T21:00:00+00:00,FT,Platense,19763,Municipal Limeño,4306,1,2,True
-1521467,2026-03-12T01:00:00+00:00,FT,Talleres Jr,27507,Inter,26154,1,3,True
-1521468,2026-03-12T21:00:00+00:00,FT,Racing de Gualuca,27506,Águila,4310,0,2,True
-1521469,2026-03-12T21:00:00+00:00,FT,Vendaval,27509,Batanecos,27501,0,1,True
-1521470,2026-03-12T23:00:00+00:00,FT,Zacatecoluca,26155,Alianza,4299,3,3,True
-1534578,2026-04-07T21:00:00+00:00,FT,Dragón,19412,FAS,4302,1,5,True
-1534579,2026-04-10T01:00:00+00:00,FT,El Roble,27503,Municipal Limeño,4306,0,0,True
-1534580,2026-04-09T21:00:00+00:00,FT,Platense,19763,Fuerte San Francisco,22157,1,1,True
-1534581,2026-04-09T01:00:00+00:00,FT,Hércules,4666,Cacahuatique,24530,0,2,True
-1534582,2026-04-08T21:00:00+00:00,FT,Izalco,27505,Águila,4310,2,4,True
-1534583,2026-04-08T21:00:00+00:00,FT,Batanecos,27501,Firpo,4303,0,2,True
-1534584,2026-04-08T01:00:00+00:00,FT,Alianza,4299,Isidro Metapán,4304,3,1,True
-1534585,2026-04-07T23:00:00+00:00,FT,Zacatecoluca,26155,Inter,26154,0,4,True
-1534586,2026-04-22T21:00:00+00:00,FT,Águila,4310,Izalco,27505,4,1,True
-1534587,2026-04-21T23:00:00+00:00,FT,Isidro Metapán,4304,Alianza,4299,1,1,True
-1534588,2026-04-23T01:00:00+00:00,FT,Firpo,4303,Batanecos,27501,3,0,True
-1534589,2026-04-23T21:00:00+00:00,PEN,Cacahuatique,24530,Hércules,4666,0,2,False
-1534590,2026-04-22T01:00:00+00:00,FT,FAS,4302,Dragón,19412,4,1,True
-1534591,2026-04-22T23:00:00+00:00,FT,Inter,26154,Zacatecoluca,26155,2,1,True
-1534592,2026-04-24T01:00:00+00:00,FT,Municipal Limeño,4306,El Roble,27503,2,1,True
-1534593,2026-04-21T21:00:00+00:00,FT,Fuerte San Francisco,22157,Platense,19763,1,0,True
-1542417,2026-09-02T20:00:00+00:00,NS,FAS,4302,Fuerte San Francisco,22157,,,False
-1542418,2026-09-16T20:00:00+00:00,NS,FAS,4302,Fuerte San Francisco,22157,,,False
-1542541,2026-09-02T20:00:00+00:00,NS,Firpo,4303,Alianza,4299,,,False
-1542542,2026-09-16T20:00:00+00:00,NS,Firpo,4303,Alianza,4299,,,False
-1542693,2026-09-02T20:00:00+00:00,NS,Cacahuatique,24530,Inter,26154,,,False
-1542694,2026-09-02T20:00:00+00:00,NS,Municipal Limeño,4306,Águila,4310,,,False
-1542695,2026-09-16T20:00:00+00:00,NS,Cacahuatique,24530,Inter,26154,,,False
-1542696,2026-09-16T20:00:00+00:00,NS,Municipal Limeño,4306,Águila,4310,,,False
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1521435,2026-02-10T21:00:00+00:00,FT,Regular Season - 1,Once Municipal,5632,Inter,26154,1,4,True
+1521436,2026-02-10T21:00:00+00:00,FT,Regular Season - 1,Izalco,27505,Fuerte Aguilares,27504,2,0,True
+1521437,2026-02-10T21:00:00+00:00,AWD,Regular Season - 1,Cabanas,27502,Firpo,4303,3,0,False
+1521438,2026-02-10T23:00:00+00:00,FT,Regular Season - 1,Hércules,4666,FAS,4302,1,1,True
+1521439,2026-02-11T21:00:00+00:00,FT,Regular Season - 1,Cruzeiro,135,Municipal Limeño,4306,1,1,True
+1521440,2026-02-11T21:00:00+00:00,FT,Regular Season - 1,Dragón,19412,Águila,4310,1,4,True
+1521441,2026-02-11T21:00:00+00:00,FT,Regular Season - 1,Tenancingo,27508,Platense,19763,1,3,True
+1521442,2026-02-11T23:00:00+00:00,FT,Regular Season - 1,El Roble,27503,Cacahuatique,24530,1,4,True
+1521443,2026-02-12T21:00:00+00:00,AWD,Regular Season - 1,Batanecos,27501,Zacatecoluca,26155,3,0,False
+1521444,2026-02-12T21:00:00+00:00,AWD,Regular Season - 1,Racing de Gualuca,27506,Fuerte San Francisco,22157,0,3,False
+1521445,2026-02-12T21:00:00+00:00,FT,Regular Season - 1,Vendaval,27509,Alianza,4299,2,2,True
+1521446,2026-02-12T23:00:00+00:00,FT,Regular Season - 1,Talleres Jr,27507,Isidro Metapán,4304,0,2,True
+1521447,2026-02-24T21:00:00+00:00,FT,Regular Season - 2,Batanecos,27501,Alianza,4299,0,1,True
+1521448,2026-02-24T21:00:00+00:00,FT,Regular Season - 2,Izalco,27505,FAS,4302,2,3,True
+1521449,2026-02-24T21:00:00+00:00,FT,Regular Season - 2,Once Municipal,5632,Talleres Jr,27507,0,2,True
+1521450,2026-02-24T23:00:00+00:00,FT,Regular Season - 2,El Roble,27503,Cabanas,27502,3,0,True
+1521451,2026-02-25T21:00:00+00:00,FT,Regular Season - 2,Cacahuatique,24530,Firpo,4303,0,1,True
+1521452,2026-02-25T21:00:00+00:00,FT,Regular Season - 2,Cruzeiro,135,Platense,19763,0,0,True
+1521453,2026-02-25T21:00:00+00:00,FT,Regular Season - 2,Vendaval,27509,Zacatecoluca,26155,0,1,True
+1521454,2026-02-26T01:00:00+00:00,FT,Regular Season - 2,Tenancingo,27508,Municipal Limeño,4306,1,1,True
+1521455,2026-02-26T21:00:00+00:00,FT,Regular Season - 2,Fuerte Aguilares,27504,Hércules,4666,1,3,True
+1521456,2026-02-26T21:00:00+00:00,FT,Regular Season - 2,Fuerte San Francisco,22157,Águila,4310,0,1,True
+1521457,2026-02-26T21:00:00+00:00,FT,Regular Season - 2,Racing de Gualuca,27506,Dragón,19412,0,1,True
+1521458,2026-02-27T01:00:00+00:00,FT,Regular Season - 2,Inter,26154,Isidro Metapán,4304,1,1,True
+1521459,2026-03-10T21:00:00+00:00,FT,Regular Season - 3,Once Municipal,5632,Isidro Metapán,4304,0,1,True
+1521460,2026-03-10T21:00:00+00:00,FT,Regular Season - 3,Tenancingo,27508,Cruzeiro,135,0,0,True
+1521461,2026-03-11T01:00:00+00:00,FT,Regular Season - 3,El Roble,27503,Firpo,4303,1,1,True
+1521462,2026-03-10T21:00:00+00:00,FT,Regular Season - 3,Fuerte Aguilares,27504,FAS,4302,0,2,True
+1521463,2026-03-11T21:00:00+00:00,FT,Regular Season - 3,Cabanas,27502,Cacahuatique,24530,0,0,True
+1521464,2026-03-11T21:00:00+00:00,FT,Regular Season - 3,Dragón,19412,Fuerte San Francisco,22157,2,2,True
+1521465,2026-03-12T21:00:00+00:00,FT,Regular Season - 3,Izalco,27505,Hércules,4666,2,2,True
+1521466,2026-03-11T21:00:00+00:00,FT,Regular Season - 3,Platense,19763,Municipal Limeño,4306,1,2,True
+1521467,2026-03-12T01:00:00+00:00,FT,Regular Season - 3,Talleres Jr,27507,Inter,26154,1,3,True
+1521468,2026-03-12T21:00:00+00:00,FT,Regular Season - 3,Racing de Gualuca,27506,Águila,4310,0,2,True
+1521469,2026-03-12T21:00:00+00:00,FT,Regular Season - 3,Vendaval,27509,Batanecos,27501,0,1,True
+1521470,2026-03-12T23:00:00+00:00,FT,Regular Season - 3,Zacatecoluca,26155,Alianza,4299,3,3,True
+1534578,2026-04-07T21:00:00+00:00,FT,Round of 16,Dragón,19412,FAS,4302,1,5,True
+1534579,2026-04-10T01:00:00+00:00,FT,Round of 16,El Roble,27503,Municipal Limeño,4306,0,0,True
+1534580,2026-04-09T21:00:00+00:00,FT,Round of 16,Platense,19763,Fuerte San Francisco,22157,1,1,True
+1534581,2026-04-09T01:00:00+00:00,FT,Round of 16,Hércules,4666,Cacahuatique,24530,0,2,True
+1534582,2026-04-08T21:00:00+00:00,FT,Round of 16,Izalco,27505,Águila,4310,2,4,True
+1534583,2026-04-08T21:00:00+00:00,FT,Round of 16,Batanecos,27501,Firpo,4303,0,2,True
+1534584,2026-04-08T01:00:00+00:00,FT,Round of 16,Alianza,4299,Isidro Metapán,4304,3,1,True
+1534585,2026-04-07T23:00:00+00:00,FT,Round of 16,Zacatecoluca,26155,Inter,26154,0,4,True
+1534586,2026-04-22T21:00:00+00:00,FT,Round of 16,Águila,4310,Izalco,27505,4,1,True
+1534587,2026-04-21T23:00:00+00:00,FT,Round of 16,Isidro Metapán,4304,Alianza,4299,1,1,True
+1534588,2026-04-23T01:00:00+00:00,FT,Round of 16,Firpo,4303,Batanecos,27501,3,0,True
+1534589,2026-04-23T21:00:00+00:00,PEN,Round of 16,Cacahuatique,24530,Hércules,4666,0,2,False
+1534590,2026-04-22T01:00:00+00:00,FT,Round of 16,FAS,4302,Dragón,19412,4,1,True
+1534591,2026-04-22T23:00:00+00:00,FT,Round of 16,Inter,26154,Zacatecoluca,26155,2,1,True
+1534592,2026-04-24T01:00:00+00:00,FT,Round of 16,Municipal Limeño,4306,El Roble,27503,2,1,True
+1534593,2026-04-21T21:00:00+00:00,FT,Round of 16,Fuerte San Francisco,22157,Platense,19763,1,0,True
+1542417,2026-09-02T20:00:00+00:00,NS,Quarter-finals,FAS,4302,Fuerte San Francisco,22157,,,False
+1542418,2026-09-16T20:00:00+00:00,NS,Quarter-finals,FAS,4302,Fuerte San Francisco,22157,,,False
+1542541,2026-09-02T20:00:00+00:00,NS,Quarter-finals,Firpo,4303,Alianza,4299,,,False
+1542542,2026-09-16T20:00:00+00:00,NS,Quarter-finals,Firpo,4303,Alianza,4299,,,False
+1542693,2026-09-02T20:00:00+00:00,NS,Quarter-finals,Cacahuatique,24530,Inter,26154,,,False
+1542694,2026-09-02T20:00:00+00:00,NS,Quarter-finals,Municipal Limeño,4306,Águila,4310,,,False
+1542695,2026-09-16T20:00:00+00:00,NS,Quarter-finals,Cacahuatique,24530,Inter,26154,,,False
+1542696,2026-09-16T20:00:00+00:00,NS,Quarter-finals,Municipal Limeño,4306,Águila,4310,,,False

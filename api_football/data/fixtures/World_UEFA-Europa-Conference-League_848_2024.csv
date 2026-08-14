@@ -1,46 +1,410 @@
-﻿fixture_id,date,status,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
-1325908,2025-02-13T17:45:00+00:00,FT,Vikingur Reykjavik,278,Panathinaikos,617,2,1,True
-1325910,2025-02-13T17:45:00+00:00,FT,Molde,329,Shamrock Rovers,652,0,1,True
-1325906,2025-02-13T17:45:00+00:00,FT,TSC Backa Topola,2646,Jagiellonia,336,1,3,True
-1325900,2025-02-13T17:45:00+00:00,FT,Celje,4360,Apoel Nicosia,2247,2,2,True
-1325902,2025-02-13T20:00:00+00:00,FT,FC Copenhagen,400,1. FC Heidenheim,180,1,2,True
-1325898,2025-02-13T20:00:00+00:00,FT,Gent,631,Real Betis,543,0,3,True
-1325912,2025-02-13T20:00:00+00:00,FT,Borac Banja Luka,3364,Olimpija Ljubljana,677,1,0,True
-1325904,2025-02-13T20:00:00+00:00,FT,Omonia Nicosia,3402,Pafos,3403,1,1,True
-1325903,2025-02-20T17:45:00+00:00,AET,1. FC Heidenheim,180,FC Copenhagen,400,1,3,False
-1325899,2025-02-20T17:45:00+00:00,FT,Real Betis,543,Gent,631,0,1,True
-1325913,2025-02-20T17:45:00+00:00,FT,Olimpija Ljubljana,677,Borac Banja Luka,3364,0,0,True
-1325905,2025-02-20T17:45:00+00:00,FT,Pafos,3403,Omonia Nicosia,3402,2,1,True
-1325907,2025-02-20T20:00:00+00:00,FT,Jagiellonia,336,TSC Backa Topola,2646,3,1,True
-1325909,2025-02-20T20:00:00+00:00,FT,Panathinaikos,617,Vikingur Reykjavik,278,2,0,True
-1325911,2025-02-20T20:00:00+00:00,PEN,Shamrock Rovers,652,Molde,329,0,1,False
-1325901,2025-02-20T20:00:00+00:00,FT,Apoel Nicosia,2247,Celje,4360,0,2,True
-1353206,2025-03-06T17:45:00+00:00,FT,Molde,329,Legia Warszawa,339,3,2,True
-1353208,2025-03-06T17:45:00+00:00,FT,FC Copenhagen,400,Chelsea,49,1,2,True
-1353202,2025-03-06T17:45:00+00:00,FT,Real Betis,543,Guimaraes,224,2,2,True
-1353204,2025-03-06T17:45:00+00:00,FT,Panathinaikos,617,Fiorentina,502,3,2,True
-1353210,2025-03-06T20:00:00+00:00,FT,Jagiellonia,336,Cercle Brugge,741,3,0,True
-1353214,2025-03-06T20:00:00+00:00,FT,Borac Banja Luka,3364,Rapid Vienna,781,1,1,True
-1353216,2025-03-06T20:00:00+00:00,FT,Pafos,3403,Djurgardens IF,364,1,0,True
-1353212,2025-03-06T20:00:00+00:00,FT,Celje,4360,FC Lugano,606,1,0,True
-1353217,2025-03-13T17:45:00+00:00,FT,Djurgardens IF,364,Pafos,3403,3,0,True
-1353213,2025-03-13T17:45:00+00:00,PEN,FC Lugano,606,Celje,4360,5,4,False
-1353211,2025-03-13T17:45:00+00:00,FT,Cercle Brugge,741,Jagiellonia,336,2,0,True
-1353215,2025-03-13T17:45:00+00:00,AET,Rapid Vienna,781,Borac Banja Luka,3364,2,1,False
-1353209,2025-03-13T20:00:00+00:00,FT,Chelsea,49,FC Copenhagen,400,1,0,True
-1353203,2025-03-13T20:00:00+00:00,FT,Guimaraes,224,Real Betis,543,0,4,True
-1353207,2025-03-13T20:00:00+00:00,AET,Legia Warszawa,339,Molde,329,2,0,False
-1353205,2025-03-13T20:00:00+00:00,FT,Fiorentina,502,Panathinaikos,617,3,1,True
-1361288,2025-04-10T16:45:00+00:00,FT,Legia Warszawa,339,Chelsea,49,0,3,True
-1361290,2025-04-10T19:00:00+00:00,FT,Djurgardens IF,364,Rapid Vienna,781,0,1,True
-1361284,2025-04-10T19:00:00+00:00,FT,Real Betis,543,Jagiellonia,336,2,0,True
-1361286,2025-04-10T19:00:00+00:00,FT,Celje,4360,Fiorentina,502,1,2,True
-1361285,2025-04-17T16:45:00+00:00,FT,Jagiellonia,336,Real Betis,543,1,1,True
-1361287,2025-04-17T16:45:00+00:00,FT,Fiorentina,502,Celje,4360,2,2,True
-1361289,2025-04-17T19:00:00+00:00,FT,Chelsea,49,Legia Warszawa,339,1,2,True
-1361291,2025-04-17T19:00:00+00:00,AET,Rapid Vienna,781,Djurgardens IF,364,1,4,False
-1371998,2025-05-01T19:00:00+00:00,FT,Djurgardens IF,364,Chelsea,49,1,4,True
-1371996,2025-05-01T19:00:00+00:00,FT,Real Betis,543,Fiorentina,502,2,1,True
-1371999,2025-05-08T19:00:00+00:00,FT,Chelsea,49,Djurgardens IF,364,1,0,True
-1371997,2025-05-08T19:00:00+00:00,AET,Fiorentina,502,Real Betis,543,2,2,False
-1374899,2025-05-28T19:00:00+00:00,FT,Real Betis,543,Chelsea,49,1,4,True
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played
+1208446,2024-07-10T18:00:00+00:00,FT,1st Qualifying Round,Velež,3381,Inter Club d'Escaldes,3342,1,1,True
+1208468,2024-07-10T19:00:00+00:00,FT,1st Qualifying Round,Auda,4135,B36 Torshavn,678,2,0,True
+1208443,2024-07-11T15:00:00+00:00,FT,1st Qualifying Round,FK Liepaja,661,Vikingur Gota,580,1,1,True
+1208452,2024-07-11T15:00:00+00:00,FT,1st Qualifying Round,Šiauliai,3870,FC Levadia Tallinn,2273,0,2,True
+1208438,2024-07-11T15:00:00+00:00,FT,1st Qualifying Round,Aktobe,4563,FK Sarajevo,679,0,1,True
+1208462,2024-07-11T15:00:00+00:00,FT,1st Qualifying Round,Malisheva,15576,Buducnost Podgorica,579,1,0,True
+1208474,2024-07-11T16:00:00+00:00,FT,1st Qualifying Round,FC Noah,3684,Shkendija,609,2,0,True
+1208440,2024-07-11T16:00:00+00:00,FT,1st Qualifying Round,Bravo,4359,GAP Connah S Quay FC,357,0,1,True
+1208460,2024-07-11T16:00:00+00:00,FT,1st Qualifying Round,Magpies,16135,Derry City,670,2,0,True
+1208464,2024-07-11T16:30:00+00:00,FT,1st Qualifying Round,Atlètic Club d'Escaldes,3345,F91 Dudelange,578,0,1,True
+1208456,2024-07-11T16:30:00+00:00,FT,1st Qualifying Round,Tallinna Kalev,3529,FC Urartu,2276,1,2,True
+1208450,2024-07-11T17:00:00+00:00,FT,1st Qualifying Round,Torpedo Zhodino,385,Milsami Orhei,691,2,4,True
+1208480,2024-07-11T17:00:00+00:00,FT,1st Qualifying Round,VPS,650,FK Zalgiris Vilnius,586,1,2,True
+1208470,2024-07-11T17:00:00+00:00,FT,1st Qualifying Round,Torpedo Kutaisi,685,Tirana,694,1,1,True
+1208444,2024-07-11T17:00:00+00:00,FT,1st Qualifying Round,UNA Strassen,2036,KuPS,1165,0,0,True
+1208448,2024-07-11T17:00:00+00:00,FT,1st Qualifying Round,Floriana,4625,Tre Penne,700,3,1,True
+1208434,2024-07-11T17:30:00+00:00,FT,1st Qualifying Round,Caernarfon Town,356,Crusaders FC,697,2,0,True
+1208432,2024-07-11T18:00:00+00:00,FT,1st Qualifying Round,Bala Town,352,Paide,3528,1,2,True
+1208467,2024-07-11T18:00:00+00:00,FT,1st Qualifying Round,Partizani,708,Marsaxlokk,14507,1,1,True
+1208476,2024-07-11T18:30:00+00:00,FT,1st Qualifying Round,Tikveš,4348,Breidablik,276,3,2,True
+1208455,2024-07-11T18:45:00+00:00,FT,1st Qualifying Round,La Fiorita,2249,FC Isloch Minsk R.,391,0,1,True
+1208478,2024-07-11T18:45:00+00:00,FT,1st Qualifying Round,Mornar,3740,Dinamo Tbilisi,2262,2,1,True
+1208472,2024-07-11T18:45:00+00:00,FT,1st Qualifying Round,Shelbourne,3854,St Joseph S Fc,698,2,1,True
+1208458,2024-07-11T19:00:00+00:00,FT,1st Qualifying Round,Valur Reykjavik,274,Vllaznia Shkodër,3339,2,2,True
+1208436,2024-07-11T19:00:00+00:00,FT,1st Qualifying Round,Stjarnan,275,Linfield,583,2,0,True
+1208469,2024-07-17T17:00:00+00:00,FT,1st Qualifying Round,B36 Torshavn,678,Auda,4135,0,1,True
+1208435,2024-07-17T18:45:00+00:00,PEN,1st Qualifying Round,Crusaders FC,697,Caernarfon Town,356,3,1,False
+1208445,2024-07-18T15:00:00+00:00,FT,1st Qualifying Round,KuPS,1165,UNA Strassen,2036,5,0,True
+1208457,2024-07-18T15:00:00+00:00,FT,1st Qualifying Round,FC Urartu,2276,Tallinna Kalev,3529,2,0,True
+1208481,2024-07-18T16:00:00+00:00,FT,1st Qualifying Round,FK Zalgiris Vilnius,586,VPS,650,1,0,True
+1208451,2024-07-18T16:00:00+00:00,FT,1st Qualifying Round,Milsami Orhei,691,Torpedo Zhodino,385,0,0,True
+1208473,2024-07-18T16:00:00+00:00,FT,1st Qualifying Round,St Joseph S Fc,698,Shelbourne,3854,1,1,True
+1208453,2024-07-18T16:00:00+00:00,FT,1st Qualifying Round,FC Levadia Tallinn,2273,Šiauliai,3870,0,0,True
+1208447,2024-07-18T16:00:00+00:00,FT,1st Qualifying Round,Inter Club d'Escaldes,3342,Velež,3381,5,1,True
+1208433,2024-07-18T16:30:00+00:00,AET,1st Qualifying Round,Paide,3528,Bala Town,352,1,1,False
+1208465,2024-07-18T17:00:00+00:00,FT,1st Qualifying Round,F91 Dudelange,578,Atlètic Club d'Escaldes,3345,2,0,True
+1208479,2024-07-18T17:00:00+00:00,FT,1st Qualifying Round,Dinamo Tbilisi,2262,Mornar,3740,1,1,True
+1208466,2024-07-18T17:00:00+00:00,FT,1st Qualifying Round,Marsaxlokk,14507,Partizani,708,1,2,True
+1208441,2024-07-18T17:30:00+00:00,FT,1st Qualifying Round,GAP Connah S Quay FC,357,Bravo,4359,0,2,True
+1208454,2024-07-18T17:30:00+00:00,PEN,1st Qualifying Round,FC Isloch Minsk R.,391,La Fiorita,2249,0,1,False
+1208442,2024-07-18T18:00:00+00:00,FT,1st Qualifying Round,Vikingur Gota,580,FK Liepaja,661,2,0,True
+1208475,2024-07-18T18:00:00+00:00,FT,1st Qualifying Round,Shkendija,609,FC Noah,3684,1,2,True
+1208471,2024-07-18T18:00:00+00:00,FT,1st Qualifying Round,Tirana,694,Torpedo Kutaisi,685,0,1,True
+1208459,2024-07-18T18:30:00+00:00,FT,1st Qualifying Round,Vllaznia Shkodër,3339,Valur Reykjavik,274,0,4,True
+1208437,2024-07-18T18:45:00+00:00,FT,1st Qualifying Round,Linfield,583,Stjarnan,275,3,2,True
+1208461,2024-07-18T18:45:00+00:00,AET,1st Qualifying Round,Derry City,670,Magpies,16135,2,1,False
+1208449,2024-07-18T18:45:00+00:00,FT,1st Qualifying Round,Tre Penne,700,Floriana,4625,1,1,True
+1208463,2024-07-18T19:00:00+00:00,FT,1st Qualifying Round,Buducnost Podgorica,579,Malisheva,15576,3,0,True
+1208439,2024-07-18T19:00:00+00:00,PEN,1st Qualifying Round,FK Sarajevo,679,Aktobe,4563,2,3,False
+1208477,2024-07-18T19:15:00+00:00,FT,1st Qualifying Round,Breidablik,276,Tikveš,4348,3,1,True
+1251920,2024-07-23T16:00:00+00:00,FT,2nd Qualifying Round,Ballkani,12733,Hamrun Spartans,4626,0,0,True
+1251922,2024-07-23T17:00:00+00:00,FT,2nd Qualifying Round,FC Differdange 03,684,Ordabasy,692,1,0,True
+1251924,2024-07-23T19:00:00+00:00,FT,2nd Qualifying Round,Virtus,5308,Flora Tallinn,687,0,0,True
+1251926,2024-07-24T15:00:00+00:00,FT,2nd Qualifying Round,Struga,4346,Pyunik Yerevan,709,2,1,True
+1209267,2024-07-24T16:00:00+00:00,FT,2nd Qualifying Round,Riga,10124,Slask Wroclaw,337,1,0,True
+1251928,2024-07-24T17:00:00+00:00,FT,2nd Qualifying Round,Dinamo Batumi,705,Dečić,3745,0,2,True
+1250954,2024-07-24T18:00:00+00:00,FT,2nd Qualifying Round,AEK Athens FC,575,Inter Club d'Escaldes,3342,4,3,True
+1250496,2024-07-24T18:45:00+00:00,FT,2nd Qualifying Round,Cliftonville FC,2266,Auda,4135,1,2,True
+1250984,2024-07-25T15:00:00+00:00,FT,2nd Qualifying Round,KuPS,1165,Tromso,325,0,1,True
+1251932,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,FK Zalgiris Vilnius,586,Pafos,3403,2,1,True
+1209269,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,Mlada Boleslav,640,TransINVEST Vilnius,18878,2,0,True
+1250982,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,Milsami Orhei,691,FC Astana,562,1,1,True
+1209255,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,Ilves,1163,Austria Vienna,601,2,1,True
+1250980,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,Saburtalo,3502,Partizani,708,2,0,True
+1250976,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,FC Noah,3684,Sliema Wanderers,4628,7,0,True
+1209253,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,Sumqayıt,5503,Fehérvár FC,610,1,2,True
+1250969,2024-07-25T16:00:00+00:00,FT,2nd Qualifying Round,Magpies,16135,FC Copenhagen,400,0,3,True
+1209249,2024-07-25T16:30:00+00:00,FT,2nd Qualifying Round,GO Ahead Eagles,410,Brann,319,0,0,True
+1251930,2024-07-25T16:30:00+00:00,FT,2nd Qualifying Round,Zira,648,Dunajska Streda,2257,4,0,True
+1250960,2024-07-25T16:30:00+00:00,FT,2nd Qualifying Round,Omonia Nicosia,3402,Torpedo Kutaisi,685,3,1,True
+1209273,2024-07-25T16:45:00+00:00,FT,2nd Qualifying Round,Zimbru,4633,Ararat-Armenia,3683,0,3,True
+1209261,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Djurgardens IF,364,Progres Niederkorn,658,3,0,True
+1251934,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Brondby,407,Llapi,14395,6,0,True
+1209263,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Hapoel Beer Sheva,563,Cherno More Varna,851,0,0,True
+1250956,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,F91 Dudelange,578,BK Hacken,367,2,6,True
+1209251,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Olimpija Ljubljana,677,Polessya,6496,2,0,True
+1250992,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,FC Zurich,783,Shelbourne,3854,3,0,True
+1209259,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Dnipro-1,3623,Puskas Academy,2391,0,3,True
+1250990,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Baník Ostrava,3713,FC Urartu,2276,5,1,True
+1250988,2024-07-25T17:00:00+00:00,FT,2nd Qualifying Round,Floriana,4625,Guimaraes,224,0,1,True
+1209247,2024-07-25T17:15:00+00:00,FT,2nd Qualifying Round,Maccabi Haifa,4195,Sabah FA,13976,0,3,True
+1250966,2024-07-25T17:30:00+00:00,FT,2nd Qualifying Round,CSKA 1948,1426,Buducnost Podgorica,579,1,0,True
+1209271,2024-07-25T17:30:00+00:00,FT,2nd Qualifying Round,CFR 1907 Cluj,2246,Neman,387,0,0,True
+1250970,2024-07-25T17:45:00+00:00,FT,2nd Qualifying Round,Başakşehir,564,La Fiorita,2249,6,1,True
+1250964,2024-07-25T18:00:00+00:00,FT,2nd Qualifying Round,NK Osijek,616,FC Levadia Tallinn,2273,5,1,True
+1250972,2024-07-25T18:00:00+00:00,FT,2nd Qualifying Round,Gent,631,Vikingur Gota,580,4,1,True
+1251938,2024-07-25T18:00:00+00:00,FT,2nd Qualifying Round,FC ST. Gallen,1011,FK Tobol Kostanay,2259,4,1,True
+1251936,2024-07-25T18:00:00+00:00,FT,2nd Qualifying Round,Paks,2390,AEK Larnaca,614,3,0,True
+1250978,2024-07-25T18:00:00+00:00,FT,2nd Qualifying Round,Radnicki 1923,2644,Mornar,3740,1,0,True
+1251942,2024-07-25T18:15:00+00:00,FT,2nd Qualifying Round,Maribor,552,Universitatea Craiova,632,2,0,True
+1250986,2024-07-25T18:45:00+00:00,FT,2nd Qualifying Round,Valur Reykjavik,274,ST Mirren,251,0,0,True
+1251944,2024-07-25T18:45:00+00:00,FT,2nd Qualifying Round,Vikingur Reykjavik,278,Egnatia Rrogozhinë,3327,0,1,True
+1250493,2024-07-25T18:45:00+00:00,FT,2nd Qualifying Round,Legia Warszawa,339,Caernarfon Town,356,6,0,True
+1209257,2024-07-25T18:45:00+00:00,FT,2nd Qualifying Round,St Patrick's Athl.,3843,FC Vaduz,660,3,1,True
+1251940,2024-07-25T19:00:00+00:00,FT,2nd Qualifying Round,Stjarnan,275,Paide,3528,2,1,True
+1250974,2024-07-25T19:00:00+00:00,FT,2nd Qualifying Round,Zrinjski,588,Bravo,4359,0,1,True
+1209265,2024-07-25T19:00:00+00:00,FT,2nd Qualifying Round,HNK Hajduk Split,608,HB Torshavn,4133,2,0,True
+1250958,2024-07-25T19:00:00+00:00,FT,2nd Qualifying Round,FK Sarajevo,679,Spartak Trnava,1120,0,0,True
+1250962,2024-07-25T19:15:00+00:00,FT,2nd Qualifying Round,Breidablik,276,Drita,14281,1,2,True
+1250963,2024-07-30T15:00:00+00:00,FT,2nd Qualifying Round,Drita,14281,Breidablik,276,1,0,True
+1251925,2024-07-30T16:00:00+00:00,AET,2nd Qualifying Round,Flora Tallinn,687,Virtus,5308,5,2,False
+1251927,2024-07-30T16:00:00+00:00,FT,2nd Qualifying Round,Pyunik Yerevan,709,Struga,4346,3,1,True
+1251921,2024-07-30T18:00:00+00:00,FT,2nd Qualifying Round,Hamrun Spartans,4626,Ballkani,12733,0,2,True
+1251929,2024-07-30T19:00:00+00:00,FT,2nd Qualifying Round,Dečić,3745,Dinamo Batumi,705,0,0,True
+1250495,2024-07-31T15:00:00+00:00,FT,2nd Qualifying Round,Auda,4135,Cliftonville FC,2266,2,0,True
+1250957,2024-07-31T17:00:00+00:00,FT,2nd Qualifying Round,BK Hacken,367,F91 Dudelange,578,6,1,True
+1209254,2024-07-31T17:00:00+00:00,FT,2nd Qualifying Round,Fehérvár FC,610,Sumqayıt,5503,0,0,True
+1209256,2024-07-31T18:30:00+00:00,PEN,2nd Qualifying Round,Austria Vienna,601,Ilves,1163,4,3,False
+1250959,2024-07-31T18:30:00+00:00,FT,2nd Qualifying Round,Spartak Trnava,1120,FK Sarajevo,679,3,0,True
+1250979,2024-07-31T18:45:00+00:00,PEN,2nd Qualifying Round,Mornar,3740,Radnicki 1923,2644,2,1,False
+1250983,2024-08-01T14:00:00+00:00,FT,2nd Qualifying Round,FC Astana,562,Milsami Orhei,691,1,0,True
+1251923,2024-08-01T15:00:00+00:00,PEN,2nd Qualifying Round,Ordabasy,692,FC Differdange 03,684,4,3,False
+1250991,2024-08-01T15:00:00+00:00,FT,2nd Qualifying Round,FC Urartu,2276,Baník Ostrava,3713,0,2,True
+1209274,2024-08-01T15:00:00+00:00,FT,2nd Qualifying Round,Ararat-Armenia,3683,Zimbru,4633,3,1,True
+1250975,2024-08-01T15:00:00+00:00,FT,2nd Qualifying Round,Bravo,4359,Zrinjski,588,1,3,True
+1251935,2024-08-01T15:00:00+00:00,FT,2nd Qualifying Round,Llapi,14395,Brondby,407,2,2,True
+1251937,2024-08-01T16:00:00+00:00,FT,2nd Qualifying Round,AEK Larnaca,614,Paks,2390,0,2,True
+1251939,2024-08-01T16:00:00+00:00,FT,2nd Qualifying Round,FK Tobol Kostanay,2259,FC ST. Gallen,1011,0,1,True
+1250965,2024-08-01T16:00:00+00:00,FT,2nd Qualifying Round,FC Levadia Tallinn,2273,NK Osijek,616,0,1,True
+1251933,2024-08-01T16:00:00+00:00,AET,2nd Qualifying Round,Pafos,3403,FK Zalgiris Vilnius,586,3,0,False
+1209252,2024-08-01T16:00:00+00:00,FT,2nd Qualifying Round,Polessya,6496,Olimpija Ljubljana,677,1,2,True
+1209248,2024-08-01T16:00:00+00:00,PEN,2nd Qualifying Round,Sabah FA,13976,Maccabi Haifa,4195,3,6,False
+1209270,2024-08-01T16:00:00+00:00,FT,2nd Qualifying Round,TransINVEST Vilnius,18878,Mlada Boleslav,640,0,1,True
+1250955,2024-08-01T16:30:00+00:00,FT,2nd Qualifying Round,Inter Club d'Escaldes,3342,AEK Athens FC,575,0,4,True
+1251941,2024-08-01T16:30:00+00:00,FT,2nd Qualifying Round,Paide,3528,Stjarnan,275,4,0,True
+1209250,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Brann,319,GO Ahead Eagles,410,2,1,True
+1250985,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Tromso,325,KuPS,1165,1,0,True
+1250494,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Caernarfon Town,356,Legia Warszawa,339,0,5,True
+1250968,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,FC Copenhagen,400,Magpies,16135,5,1,True
+1251943,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Universitatea Craiova,632,Maribor,552,3,2,True
+1209262,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Progres Niederkorn,658,Djurgardens IF,364,1,0,True
+1250961,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Torpedo Kutaisi,685,Omonia Nicosia,3402,1,2,True
+1250977,2024-08-01T17:00:00+00:00,FT,2nd Qualifying Round,Sliema Wanderers,4628,FC Noah,3684,0,0,True
+1209258,2024-08-01T17:30:00+00:00,FT,2nd Qualifying Round,FC Vaduz,660,St Patrick's Athl.,3843,2,2,True
+1209264,2024-08-01T17:30:00+00:00,FT,2nd Qualifying Round,Cherno More Varna,851,Hapoel Beer Sheva,563,1,2,True
+1209272,2024-08-01T18:00:00+00:00,FT,2nd Qualifying Round,Neman,387,CFR 1907 Cluj,2246,0,5,True
+1250973,2024-08-01T18:00:00+00:00,FT,2nd Qualifying Round,Vikingur Gota,580,Gent,631,0,3,True
+1250981,2024-08-01T18:00:00+00:00,FT,2nd Qualifying Round,Partizani,708,Saburtalo,3502,0,0,True
+1251945,2024-08-01T18:00:00+00:00,FT,2nd Qualifying Round,Egnatia Rrogozhinë,3327,Vikingur Reykjavik,278,0,2,True
+1209268,2024-08-01T18:30:00+00:00,FT,2nd Qualifying Round,Slask Wroclaw,337,Riga,10124,3,1,True
+1251931,2024-08-01T18:30:00+00:00,FT,2nd Qualifying Round,Dunajska Streda,2257,Zira,648,1,2,True
+1250987,2024-08-01T18:45:00+00:00,FT,2nd Qualifying Round,ST Mirren,251,Valur Reykjavik,274,4,1,True
+1250971,2024-08-01T18:45:00+00:00,FT,2nd Qualifying Round,La Fiorita,2249,Başakşehir,564,0,4,True
+1250993,2024-08-01T18:45:00+00:00,FT,2nd Qualifying Round,Shelbourne,3854,FC Zurich,783,0,0,True
+1250967,2024-08-01T19:00:00+00:00,AET,2nd Qualifying Round,Buducnost Podgorica,579,CSKA 1948,1426,1,1,False
+1209260,2024-08-01T19:00:00+00:00,FT,2nd Qualifying Round,Puskas Academy,2391,Dnipro-1,3623,3,0,True
+1209266,2024-08-01T19:00:00+00:00,FT,2nd Qualifying Round,HB Torshavn,4133,HNK Hajduk Split,608,0,0,True
+1250989,2024-08-01T19:15:00+00:00,FT,2nd Qualifying Round,Guimaraes,224,Floriana,4625,4,0,True
+1274823,2024-08-06T16:00:00+00:00,FT,3rd Qualifying Round,FC Noah,3684,AEK Athens FC,575,3,1,True
+1274803,2024-08-07T17:00:00+00:00,FT,3rd Qualifying Round,BK Hacken,367,Paide,3528,6,1,True
+1274793,2024-08-07T17:00:00+00:00,FT,3rd Qualifying Round,FC Copenhagen,400,Baník Ostrava,3713,1,0,True
+1274801,2024-08-07T17:00:00+00:00,FT,3rd Qualifying Round,Paks,2390,Mornar,3740,3,0,True
+1274835,2024-08-07T18:30:00+00:00,FT,3rd Qualifying Round,FC ST. Gallen,1011,Slask Wroclaw,337,2,0,True
+1274845,2024-08-08T15:00:00+00:00,FT,3rd Qualifying Round,Ordabasy,692,Pyunik Yerevan,709,0,1,True
+1274797,2024-08-08T15:00:00+00:00,FT,3rd Qualifying Round,Ararat-Armenia,3683,Puskas Academy,2391,0,1,True
+1273690,2024-08-08T15:00:00+00:00,FT,3rd Qualifying Round,Auda,4135,Drita,14281,1,0,True
+1274795,2024-08-08T16:00:00+00:00,FT,3rd Qualifying Round,Mlada Boleslav,640,Hapoel Beer Sheva,563,1,1,True
+1271725,2024-08-08T16:00:00+00:00,FT,3rd Qualifying Round,HJK Helsinki,649,Dečić,3745,1,0,True
+1274817,2024-08-08T16:00:00+00:00,FT,3rd Qualifying Round,Ilves,1163,Djurgardens IF,364,1,1,True
+1274825,2024-08-08T16:00:00+00:00,FT,3rd Qualifying Round,Saburtalo,3502,Başakşehir,564,0,1,True
+1274831,2024-08-08T16:30:00+00:00,FT,3rd Qualifying Round,Silkeborg,2073,Gent,631,2,2,True
+1274821,2024-08-08T16:30:00+00:00,FT,3rd Qualifying Round,Ružomberok,3549,HNK Hajduk Split,608,0,0,True
+1274827,2024-08-08T17:00:00+00:00,FT,3rd Qualifying Round,Brondby,407,Legia Warszawa,339,2,3,True
+1274841,2024-08-08T17:00:00+00:00,FT,3rd Qualifying Round,Olimpija Ljubljana,677,Sheriff Tiraspol,568,3,0,True
+1274799,2024-08-08T17:00:00+00:00,FT,3rd Qualifying Round,FC Zurich,783,Guimaraes,224,0,3,True
+1274839,2024-08-08T17:00:00+00:00,FT,3rd Qualifying Round,Omonia Nicosia,3402,Fehérvár FC,610,1,0,True
+1274815,2024-08-08T17:30:00+00:00,FT,3rd Qualifying Round,CSKA 1948,1426,Pafos,3403,2,1,True
+1274807,2024-08-08T18:00:00+00:00,FT,3rd Qualifying Round,Kilmarnock,250,Tromso,325,2,2,True
+1274833,2024-08-08T18:00:00+00:00,FT,3rd Qualifying Round,NK Osijek,616,Zira,648,1,1,True
+1274837,2024-08-08T18:00:00+00:00,FT,3rd Qualifying Round,Botev Plovdiv,634,Zrinjski,588,2,1,True
+1274829,2024-08-08T18:00:00+00:00,FT,3rd Qualifying Round,Maccabi Petah Tikva,4495,CFR 1907 Cluj,2246,0,1,True
+1271723,2024-08-08T18:00:00+00:00,FT,3rd Qualifying Round,Ballkani,12733,Larne,5354,0,1,True
+1274819,2024-08-08T18:00:00+00:00,FT,3rd Qualifying Round,Corvinul Hunedoara,20034,FC Astana,562,1,2,True
+1274843,2024-08-08T18:15:00+00:00,FT,3rd Qualifying Round,Vikingur Reykjavik,278,Flora Tallinn,687,1,1,True
+1274805,2024-08-08T18:15:00+00:00,FT,3rd Qualifying Round,Maribor,552,Vojvodina,702,2,1,True
+1274809,2024-08-08T18:30:00+00:00,FT,3rd Qualifying Round,Spartak Trnava,1120,Wisla Krakow,338,3,1,True
+1274813,2024-08-08T18:45:00+00:00,FT,3rd Qualifying Round,ST Mirren,251,Brann,319,1,1,True
+1274811,2024-08-08T18:45:00+00:00,FT,3rd Qualifying Round,St Patrick's Athl.,3843,Sabah FA,13976,1,0,True
+1274804,2024-08-13T16:30:00+00:00,FT,3rd Qualifying Round,Paide,3528,BK Hacken,367,1,1,True
+1274802,2024-08-13T18:45:00+00:00,FT,3rd Qualifying Round,Mornar,3740,Paks,2390,2,2,True
+1274820,2024-08-14T14:00:00+00:00,FT,3rd Qualifying Round,FC Astana,562,Corvinul Hunedoara,20034,6,1,True
+1274840,2024-08-14T16:00:00+00:00,FT,3rd Qualifying Round,Fehérvár FC,610,Omonia Nicosia,3402,0,2,True
+1274828,2024-08-15T16:00:00+00:00,FT,3rd Qualifying Round,Legia Warszawa,339,Brondby,407,1,1,True
+1274844,2024-08-15T16:00:00+00:00,FT,3rd Qualifying Round,Flora Tallinn,687,Vikingur Reykjavik,278,1,2,True
+1274846,2024-08-15T16:00:00+00:00,FT,3rd Qualifying Round,Pyunik Yerevan,709,Ordabasy,692,1,0,True
+1274812,2024-08-15T16:00:00+00:00,FT,3rd Qualifying Round,Sabah FA,13976,St Patrick's Athl.,3843,0,1,True
+1274834,2024-08-15T16:30:00+00:00,PEN,3rd Qualifying Round,Zira,648,NK Osijek,616,2,2,False
+1274814,2024-08-15T17:00:00+00:00,FT,3rd Qualifying Round,Brann,319,ST Mirren,251,3,1,True
+1274808,2024-08-15T17:00:00+00:00,FT,3rd Qualifying Round,Tromso,325,Kilmarnock,250,0,1,True
+1274818,2024-08-15T17:00:00+00:00,FT,3rd Qualifying Round,Djurgardens IF,364,Ilves,1163,3,1,True
+1274796,2024-08-15T17:00:00+00:00,FT,3rd Qualifying Round,Hapoel Beer Sheva,563,Mlada Boleslav,640,2,4,True
+1274842,2024-08-15T17:00:00+00:00,FT,3rd Qualifying Round,Sheriff Tiraspol,568,Olimpija Ljubljana,677,0,1,True
+1274830,2024-08-15T17:00:00+00:00,FT,3rd Qualifying Round,CFR 1907 Cluj,2246,Maccabi Petah Tikva,4495,1,0,True
+1274816,2024-08-15T17:00:00+00:00,AET,3rd Qualifying Round,Pafos,3403,CSKA 1948,1426,4,0,False
+1274794,2024-08-15T17:00:00+00:00,PEN,3rd Qualifying Round,Baník Ostrava,3713,FC Copenhagen,400,1,0,False
+1274824,2024-08-15T17:30:00+00:00,FT,3rd Qualifying Round,AEK Athens FC,575,FC Noah,3684,1,0,True
+1274826,2024-08-15T17:45:00+00:00,FT,3rd Qualifying Round,Başakşehir,564,Saburtalo,3502,2,0,True
+1274838,2024-08-15T18:00:00+00:00,FT,3rd Qualifying Round,Zrinjski,588,Botev Plovdiv,634,2,0,True
+1274806,2024-08-15T18:00:00+00:00,PEN,3rd Qualifying Round,Vojvodina,702,Maribor,552,1,0,False
+1273691,2024-08-15T18:00:00+00:00,AET,3rd Qualifying Round,Drita,14281,Auda,4135,3,1,False
+1274836,2024-08-15T18:30:00+00:00,FT,3rd Qualifying Round,Slask Wroclaw,337,FC ST. Gallen,1011,3,2,True
+1274810,2024-08-15T18:30:00+00:00,PEN,3rd Qualifying Round,Wisla Krakow,338,Spartak Trnava,1120,3,1,False
+1274832,2024-08-15T18:30:00+00:00,AET,3rd Qualifying Round,Gent,631,Silkeborg,2073,3,2,False
+1274822,2024-08-15T19:00:00+00:00,FT,3rd Qualifying Round,HNK Hajduk Split,608,Ružomberok,3549,0,1,True
+1274798,2024-08-15T19:00:00+00:00,FT,3rd Qualifying Round,Puskas Academy,2391,Ararat-Armenia,3683,3,3,True
+1271726,2024-08-15T19:00:00+00:00,PEN,3rd Qualifying Round,Dečić,3745,HJK Helsinki,649,2,1,False
+1271724,2024-08-15T19:00:00+00:00,PEN,3rd Qualifying Round,Larne,5354,Ballkani,12733,0,1,False
+1274800,2024-08-15T19:15:00+00:00,FT,3rd Qualifying Round,Guimaraes,224,FC Zurich,783,2,0,True
+1287592,2024-08-20T16:00:00+00:00,FT,Play-offs,FC Noah,3684,Ružomberok,3549,3,0,True
+1287560,2024-08-21T16:45:00+00:00,FT,Play-offs,Guimaraes,224,Zrinjski,588,3,0,True
+1287572,2024-08-22T16:00:00+00:00,FT,Play-offs,Legia Warszawa,339,Drita,14281,2,0,True
+1287574,2024-08-22T16:00:00+00:00,FT,Play-offs,Mlada Boleslav,640,Paks,2390,2,2,True
+1287598,2024-08-22T16:00:00+00:00,FT,Play-offs,Pyunik Yerevan,709,Celje,4360,1,0,True
+1287594,2024-08-22T16:30:00+00:00,FT,Play-offs,Panevėžys,3874,The New Saints,354,0,3,True
+1287566,2024-08-22T17:00:00+00:00,FT,Play-offs,Brann,319,FC Astana,562,2,0,True
+1287562,2024-08-22T17:00:00+00:00,FT,Play-offs,Djurgardens IF,364,Maribor,552,1,0,True
+1286260,2024-08-22T17:00:00+00:00,FT,Play-offs,BK Hacken,367,1. FC Heidenheim,180,1,2,True
+1287580,2024-08-22T17:00:00+00:00,FT,Play-offs,FC Copenhagen,400,Kilmarnock,250,2,0,True
+1287558,2024-08-22T17:00:00+00:00,FT,Play-offs,Omonia Nicosia,3402,Zira,648,6,0,True
+1287586,2024-08-22T17:30:00+00:00,FT,Play-offs,CFR 1907 Cluj,2246,Pafos,3403,1,0,True
+1287596,2024-08-22T18:00:00+00:00,FT,Play-offs,Vikingur Reykjavik,278,UE Santa Coloma,703,5,0,True
+1287582,2024-08-22T18:00:00+00:00,FT,Play-offs,Fiorentina,502,Puskas Academy,2391,3,3,True
+1287576,2024-08-22T18:00:00+00:00,FT,Play-offs,HNK Rijeka,561,Olimpija Ljubljana,677,1,1,True
+1287590,2024-08-22T18:00:00+00:00,FT,Play-offs,Kryvbas KR,6489,Real Betis,543,0,2,True
+1287588,2024-08-22T18:15:00+00:00,FT,Play-offs,FK Partizan,573,Gent,631,0,1,True
+1287568,2024-08-22T18:30:00+00:00,FT,Play-offs,Wisla Krakow,338,Cercle Brugge,741,1,6,True
+1287602,2024-08-22T18:45:00+00:00,FT,Play-offs,KI Klaksvik,701,HJK Helsinki,649,2,2,True
+1287578,2024-08-22T18:45:00+00:00,FT,Play-offs,St Patrick's Athl.,3843,Başakşehir,564,0,0,True
+1287584,2024-08-22T19:00:00+00:00,FT,Play-offs,Chelsea,49,Servette FC,2184,2,0,True
+1287570,2024-08-22T19:00:00+00:00,FT,Play-offs,Lens,116,Panathinaikos,617,2,1,True
+1287600,2024-08-22T19:00:00+00:00,FT,Play-offs,Lincoln Red Imps FC,667,Larne,5354,2,1,True
+1287564,2024-08-22T19:00:00+00:00,FT,Play-offs,FC ST. Gallen,1011,Trabzonspor,998,0,0,True
+1287579,2024-08-28T16:00:00+00:00,FT,Play-offs,Başakşehir,564,St Patrick's Athl.,3843,2,0,True
+1287589,2024-08-28T16:00:00+00:00,FT,Play-offs,Gent,631,FK Partizan,573,1,0,True
+1287567,2024-08-29T14:00:00+00:00,FT,Play-offs,FC Astana,562,Brann,319,3,0,True
+1287559,2024-08-29T16:00:00+00:00,FT,Play-offs,Zira,648,Omonia Nicosia,3402,1,0,True
+1287603,2024-08-29T16:00:00+00:00,FT,Play-offs,HJK Helsinki,649,KI Klaksvik,701,2,1,True
+1287593,2024-08-29T16:30:00+00:00,FT,Play-offs,Ružomberok,3549,FC Noah,3684,3,1,True
+1287577,2024-08-29T17:00:00+00:00,FT,Play-offs,Olimpija Ljubljana,677,HNK Rijeka,561,5,0,True
+1287565,2024-08-29T17:00:00+00:00,PEN,Play-offs,Trabzonspor,998,FC ST. Gallen,1011,1,1,False
+1287575,2024-08-29T17:00:00+00:00,FT,Play-offs,Paks,2390,Mlada Boleslav,640,0,3,True
+1287587,2024-08-29T17:00:00+00:00,FT,Play-offs,Pafos,3403,CFR 1907 Cluj,2246,3,0,True
+1287595,2024-08-29T17:30:00+00:00,FT,Play-offs,The New Saints,354,Panevėžys,3874,0,0,True
+1287581,2024-08-29T18:00:00+00:00,FT,Play-offs,Kilmarnock,250,FC Copenhagen,400,1,1,True
+1287561,2024-08-29T18:00:00+00:00,FT,Play-offs,Zrinjski,588,Guimaraes,224,0,4,True
+1287571,2024-08-29T18:00:00+00:00,FT,Play-offs,Panathinaikos,617,Lens,116,2,0,True
+1287597,2024-08-29T18:00:00+00:00,FT,Play-offs,UE Santa Coloma,703,Vikingur Reykjavik,278,0,0,True
+1287569,2024-08-29T18:00:00+00:00,FT,Play-offs,Cercle Brugge,741,Wisla Krakow,338,1,4,True
+1287573,2024-08-29T18:00:00+00:00,FT,Play-offs,Drita,14281,Legia Warszawa,339,0,1,True
+1287563,2024-08-29T18:15:00+00:00,FT,Play-offs,Maribor,552,Djurgardens IF,364,0,1,True
+1287599,2024-08-29T18:15:00+00:00,FT,Play-offs,Celje,4360,Pyunik Yerevan,709,4,1,True
+1286261,2024-08-29T18:30:00+00:00,FT,Play-offs,1. FC Heidenheim,180,BK Hacken,367,3,2,True
+1287585,2024-08-29T18:30:00+00:00,FT,Play-offs,Servette FC,2184,Chelsea,49,2,1,True
+1287591,2024-08-29T19:00:00+00:00,FT,Play-offs,Real Betis,543,Kryvbas KR,6489,3,0,True
+1287583,2024-08-29T19:00:00+00:00,PEN,Play-offs,Puskas Academy,2391,Fiorentina,502,1,1,False
+1287601,2024-08-29T19:00:00+00:00,FT,Play-offs,Larne,5354,Lincoln Red Imps FC,667,3,1,True
+1299294,2024-10-02T14:30:00+00:00,FT,League Stage - 1,Guimaraes,224,Celje,4360,3,1,True
+1299293,2024-10-02T14:30:00+00:00,FT,League Stage - 1,Başakşehir,564,Rapid Vienna,781,1,2,True
+1299295,2024-10-03T16:45:00+00:00,FT,League Stage - 1,1. FC Heidenheim,180,Olimpija Ljubljana,677,2,1,True
+1299301,2024-10-03T16:45:00+00:00,FT,League Stage - 1,Molde,329,Larne,5354,3,0,True
+1299300,2024-10-03T16:45:00+00:00,FT,League Stage - 1,Legia Warszawa,339,Real Betis,543,1,0,True
+1299298,2024-10-03T16:45:00+00:00,FT,League Stage - 1,Dinamo Minsk,394,Heart Of Midlothian,254,1,2,True
+1299297,2024-10-03T16:45:00+00:00,FT,League Stage - 1,FC Astana,562,TSC Backa Topola,2646,1,0,True
+1299296,2024-10-03T16:45:00+00:00,FT,League Stage - 1,Cercle Brugge,741,FC ST. Gallen,1011,6,2,True
+1299302,2024-10-03T16:45:00+00:00,FT,League Stage - 1,Omonia Nicosia,3402,Vikingur Reykjavik,278,4,0,True
+1299299,2024-10-03T16:45:00+00:00,FT,League Stage - 1,FC Noah,3684,Mlada Boleslav,640,2,0,True
+1299304,2024-10-03T19:00:00+00:00,FT,League Stage - 1,Chelsea,49,Gent,631,4,2,True
+1299305,2024-10-03T19:00:00+00:00,FT,League Stage - 1,FC Copenhagen,400,Jagiellonia,336,1,2,True
+1299303,2024-10-03T19:00:00+00:00,FT,League Stage - 1,Fiorentina,502,The New Saints,354,2,0,True
+1299306,2024-10-03T19:00:00+00:00,FT,League Stage - 1,FC Lugano,606,HJK Helsinki,649,3,0,True
+1299310,2024-10-03T19:00:00+00:00,FT,League Stage - 1,Shamrock Rovers,652,Apoel Nicosia,2247,1,1,True
+1299309,2024-10-03T19:00:00+00:00,FT,League Stage - 1,Lask Linz,1026,Djurgardens IF,364,2,2,True
+1299307,2024-10-03T19:00:00+00:00,FT,League Stage - 1,Petrocub,2271,Pafos,3403,1,4,True
+1299308,2024-10-03T19:00:00+00:00,FT,League Stage - 1,Borac Banja Luka,3364,Panathinaikos,617,1,1,True
+1299328,2024-10-24T14:30:00+00:00,FT,League Stage - 2,Vikingur Reykjavik,278,Cercle Brugge,741,3,1,True
+1299314,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Heart Of Midlothian,254,Omonia Nicosia,3402,2,0,True
+1299315,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Jagiellonia,336,Petrocub,2271,2,0,True
+1299312,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Djurgardens IF,364,Guimaraes,224,1,2,True
+1299319,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Panathinaikos,617,Chelsea,49,1,4,True
+1299316,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Gent,631,Molde,329,2,1,True
+1299320,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Rapid Vienna,781,FC Noah,3684,1,0,True
+1299313,2024-10-24T16:45:00+00:00,FT,League Stage - 2,FC ST. Gallen,1011,Fiorentina,502,2,4,True
+1299311,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Apoel Nicosia,2247,Borac Banja Luka,3364,0,1,True
+1299318,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Celje,4360,Başakşehir,564,5,1,True
+1299317,2024-10-24T16:45:00+00:00,FT,League Stage - 2,Larne,5354,Shamrock Rovers,652,1,4,True
+1299327,2024-10-24T19:00:00+00:00,FT,League Stage - 2,The New Saints,354,FC Astana,562,2,0,True
+1299326,2024-10-24T19:00:00+00:00,FT,League Stage - 2,Real Betis,543,FC Copenhagen,400,1,1,True
+1299321,2024-10-24T19:00:00+00:00,FT,League Stage - 2,Mlada Boleslav,640,FC Lugano,606,0,1,True
+1299323,2024-10-24T19:00:00+00:00,FT,League Stage - 2,HJK Helsinki,649,Dinamo Minsk,394,1,0,True
+1299324,2024-10-24T19:00:00+00:00,FT,League Stage - 2,Olimpija Ljubljana,677,Lask Linz,1026,2,0,True
+1299322,2024-10-24T19:00:00+00:00,FT,League Stage - 2,TSC Backa Topola,2646,Legia Warszawa,339,0,3,True
+1299325,2024-10-24T19:00:00+00:00,FT,League Stage - 2,Pafos,3403,1. FC Heidenheim,180,0,1,True
+1299336,2024-11-07T14:30:00+00:00,FT,League Stage - 3,Vikingur Reykjavik,278,Borac Banja Luka,3364,2,0,True
+1299333,2024-11-07T17:45:00+00:00,FT,League Stage - 3,Legia Warszawa,339,Dinamo Minsk,394,4,0,True
+1299332,2024-11-07T17:45:00+00:00,FT,League Stage - 3,Gent,631,Omonia Nicosia,3402,1,0,True
+1299331,2024-11-07T17:45:00+00:00,FT,League Stage - 3,HJK Helsinki,649,Olimpija Ljubljana,677,0,2,True
+1299335,2024-11-07T17:45:00+00:00,FT,League Stage - 3,Shamrock Rovers,652,The New Saints,354,2,1,True
+1299329,2024-11-07T17:45:00+00:00,FT,League Stage - 3,Petrocub,2271,Rapid Vienna,781,0,3,True
+1299330,2024-11-07T17:45:00+00:00,FT,League Stage - 3,TSC Backa Topola,2646,FC Lugano,606,4,1,True
+1299334,2024-11-07T17:45:00+00:00,FT,League Stage - 3,Pafos,3403,FC Astana,562,1,0,True
+1299338,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Chelsea,49,FC Noah,3684,8,0,True
+1299346,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Guimaraes,224,Mlada Boleslav,640,2,1,True
+1299341,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Heart Of Midlothian,254,1. FC Heidenheim,180,0,2,True
+1299342,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Jagiellonia,336,Molde,329,3,0,True
+1299339,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Djurgardens IF,364,Panathinaikos,617,2,1,True
+1299340,2024-11-07T20:00:00+00:00,FT,League Stage - 3,FC Copenhagen,400,Başakşehir,564,2,2,True
+1299345,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Real Betis,543,Celje,4360,2,1,True
+1299344,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Lask Linz,1026,Cercle Brugge,741,0,0,True
+1299337,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Apoel Nicosia,2247,Fiorentina,502,2,1,True
+1299343,2024-11-07T20:00:00+00:00,FT,League Stage - 3,Larne,5354,FC ST. Gallen,1011,1,2,True
+1299347,2024-11-27T15:30:00+00:00,FT,League Stage - 4,Başakşehir,564,Petrocub,2271,1,1,True
+1299348,2024-11-28T15:30:00+00:00,FT,League Stage - 4,FC Astana,562,Guimaraes,224,1,1,True
+1299349,2024-11-28T17:45:00+00:00,FT,League Stage - 4,1. FC Heidenheim,180,Chelsea,49,0,2,True
+1299355,2024-11-28T17:45:00+00:00,FT,League Stage - 4,Molde,329,Apoel Nicosia,2247,0,1,True
+1299358,2024-11-28T17:45:00+00:00,FT,League Stage - 4,The New Saints,354,Djurgardens IF,364,0,1,True
+1299351,2024-11-28T17:45:00+00:00,FT,League Stage - 4,Dinamo Minsk,394,FC Copenhagen,400,1,2,True
+1299357,2024-11-28T17:45:00+00:00,FT,League Stage - 4,Panathinaikos,617,HJK Helsinki,649,1,0,True
+1299350,2024-11-28T17:45:00+00:00,FT,League Stage - 4,Cercle Brugge,741,Heart Of Midlothian,254,2,0,True
+1299353,2024-11-28T17:45:00+00:00,FT,League Stage - 4,FC ST. Gallen,1011,TSC Backa Topola,2646,2,2,True
+1299354,2024-11-28T17:45:00+00:00,FT,League Stage - 4,Borac Banja Luka,3364,Lask Linz,1026,2,1,True
+1299352,2024-11-28T17:45:00+00:00,FT,League Stage - 4,FC Noah,3684,Vikingur Reykjavik,278,0,0,True
+1299356,2024-11-28T17:45:00+00:00,FT,League Stage - 4,Celje,4360,Jagiellonia,336,3,3,True
+1299359,2024-11-28T20:00:00+00:00,FT,League Stage - 4,Fiorentina,502,Pafos,3403,3,2,True
+1299360,2024-11-28T20:00:00+00:00,FT,League Stage - 4,FC Lugano,606,Gent,631,2,0,True
+1299361,2024-11-28T20:00:00+00:00,FT,League Stage - 4,Mlada Boleslav,640,Real Betis,543,2,1,True
+1299362,2024-11-28T20:00:00+00:00,FT,League Stage - 4,Olimpija Ljubljana,677,Larne,5354,1,0,True
+1299364,2024-11-28T20:00:00+00:00,FT,League Stage - 4,Rapid Vienna,781,Shamrock Rovers,652,1,1,True
+1299363,2024-11-28T20:00:00+00:00,FT,League Stage - 4,Omonia Nicosia,3402,Legia Warszawa,339,0,3,True
+1299382,2024-12-12T13:00:00+00:00,FT,League Stage - 5,Vikingur Reykjavik,278,Djurgardens IF,364,1,2,True
+1299365,2024-12-12T15:30:00+00:00,FT,League Stage - 5,FC Astana,562,Chelsea,49,1,3,True
+1299373,2024-12-12T17:45:00+00:00,FT,League Stage - 5,Legia Warszawa,339,FC Lugano,606,1,2,True
+1299368,2024-12-12T17:45:00+00:00,FT,League Stage - 5,Dinamo Minsk,394,Larne,5354,2,0,True
+1299367,2024-12-12T17:45:00+00:00,FT,League Stage - 5,FC Copenhagen,400,Heart Of Midlothian,254,2,0,True
+1299366,2024-12-12T17:45:00+00:00,FT,League Stage - 5,Fiorentina,502,Lask Linz,1026,7,0,True
+1299372,2024-12-12T17:45:00+00:00,FT,League Stage - 5,Başakşehir,564,1. FC Heidenheim,180,3,1,True
+1299371,2024-12-12T17:45:00+00:00,FT,League Stage - 5,HJK Helsinki,649,Molde,329,2,2,True
+1299374,2024-12-12T17:45:00+00:00,FT,League Stage - 5,Olimpija Ljubljana,677,Cercle Brugge,741,1,4,True
+1299370,2024-12-12T17:45:00+00:00,FT,League Stage - 5,Petrocub,2271,Real Betis,543,0,1,True
+1299369,2024-12-12T17:45:00+00:00,FT,League Stage - 5,FC Noah,3684,Apoel Nicosia,2247,1,3,True
+1299381,2024-12-12T20:00:00+00:00,FT,League Stage - 5,The New Saints,354,Panathinaikos,617,0,2,True
+1299377,2024-12-12T20:00:00+00:00,FT,League Stage - 5,Gent,631,TSC Backa Topola,2646,3,0,True
+1299376,2024-12-12T20:00:00+00:00,FT,League Stage - 5,Mlada Boleslav,640,Jagiellonia,336,1,0,True
+1299380,2024-12-12T20:00:00+00:00,FT,League Stage - 5,Shamrock Rovers,652,Borac Banja Luka,3364,3,0,True
+1299375,2024-12-12T20:00:00+00:00,FT,League Stage - 5,FC ST. Gallen,1011,Guimaraes,224,1,4,True
+1299378,2024-12-12T20:00:00+00:00,FT,League Stage - 5,Omonia Nicosia,3402,Rapid Vienna,781,3,1,True
+1299379,2024-12-12T20:00:00+00:00,FT,League Stage - 5,Pafos,3403,Celje,4360,2,0,True
+1299386,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Chelsea,49,Shamrock Rovers,652,5,1,True
+1299383,2024-12-19T20:00:00+00:00,FT,League Stage - 6,1. FC Heidenheim,180,FC ST. Gallen,1011,1,1,True
+1299400,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Guimaraes,224,Fiorentina,502,1,1,True
+1299391,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Heart Of Midlothian,254,Petrocub,2271,2,2,True
+1299395,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Molde,329,Mlada Boleslav,640,4,3,True
+1299392,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Jagiellonia,336,Olimpija Ljubljana,677,0,0,True
+1299387,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Djurgardens IF,364,Legia Warszawa,339,3,1,True
+1299398,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Real Betis,543,HJK Helsinki,649,1,0,True
+1299388,2024-12-19T20:00:00+00:00,FT,League Stage - 6,FC Lugano,606,Pafos,3403,2,2,True
+1299397,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Panathinaikos,617,Dinamo Minsk,394,4,0,True
+1299385,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Cercle Brugge,741,Başakşehir,564,1,1,True
+1299399,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Rapid Vienna,781,FC Copenhagen,400,3,0,True
+1299394,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Lask Linz,1026,Vikingur Reykjavik,278,1,1,True
+1299384,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Apoel Nicosia,2247,FC Astana,562,1,1,True
+1299390,2024-12-19T20:00:00+00:00,FT,League Stage - 6,TSC Backa Topola,2646,FC Noah,3684,4,3,True
+1299389,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Borac Banja Luka,3364,Omonia Nicosia,3402,0,0,True
+1299396,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Celje,4360,The New Saints,354,3,2,True
+1299393,2024-12-19T20:00:00+00:00,FT,League Stage - 6,Larne,5354,Gent,631,1,0,True
+1325908,2025-02-13T17:45:00+00:00,FT,Knockout Round Play-offs,Vikingur Reykjavik,278,Panathinaikos,617,2,1,True
+1325910,2025-02-13T17:45:00+00:00,FT,Knockout Round Play-offs,Molde,329,Shamrock Rovers,652,0,1,True
+1325906,2025-02-13T17:45:00+00:00,FT,Knockout Round Play-offs,TSC Backa Topola,2646,Jagiellonia,336,1,3,True
+1325900,2025-02-13T17:45:00+00:00,FT,Knockout Round Play-offs,Celje,4360,Apoel Nicosia,2247,2,2,True
+1325902,2025-02-13T20:00:00+00:00,FT,Knockout Round Play-offs,FC Copenhagen,400,1. FC Heidenheim,180,1,2,True
+1325898,2025-02-13T20:00:00+00:00,FT,Knockout Round Play-offs,Gent,631,Real Betis,543,0,3,True
+1325912,2025-02-13T20:00:00+00:00,FT,Knockout Round Play-offs,Borac Banja Luka,3364,Olimpija Ljubljana,677,1,0,True
+1325904,2025-02-13T20:00:00+00:00,FT,Knockout Round Play-offs,Omonia Nicosia,3402,Pafos,3403,1,1,True
+1325903,2025-02-20T17:45:00+00:00,AET,Knockout Round Play-offs,1. FC Heidenheim,180,FC Copenhagen,400,1,3,False
+1325899,2025-02-20T17:45:00+00:00,FT,Knockout Round Play-offs,Real Betis,543,Gent,631,0,1,True
+1325913,2025-02-20T17:45:00+00:00,FT,Knockout Round Play-offs,Olimpija Ljubljana,677,Borac Banja Luka,3364,0,0,True
+1325905,2025-02-20T17:45:00+00:00,FT,Knockout Round Play-offs,Pafos,3403,Omonia Nicosia,3402,2,1,True
+1325907,2025-02-20T20:00:00+00:00,FT,Knockout Round Play-offs,Jagiellonia,336,TSC Backa Topola,2646,3,1,True
+1325909,2025-02-20T20:00:00+00:00,FT,Knockout Round Play-offs,Panathinaikos,617,Vikingur Reykjavik,278,2,0,True
+1325911,2025-02-20T20:00:00+00:00,PEN,Knockout Round Play-offs,Shamrock Rovers,652,Molde,329,0,1,False
+1325901,2025-02-20T20:00:00+00:00,FT,Knockout Round Play-offs,Apoel Nicosia,2247,Celje,4360,0,2,True
+1353206,2025-03-06T17:45:00+00:00,FT,Round of 16,Molde,329,Legia Warszawa,339,3,2,True
+1353208,2025-03-06T17:45:00+00:00,FT,Round of 16,FC Copenhagen,400,Chelsea,49,1,2,True
+1353202,2025-03-06T17:45:00+00:00,FT,Round of 16,Real Betis,543,Guimaraes,224,2,2,True
+1353204,2025-03-06T17:45:00+00:00,FT,Round of 16,Panathinaikos,617,Fiorentina,502,3,2,True
+1353210,2025-03-06T20:00:00+00:00,FT,Round of 16,Jagiellonia,336,Cercle Brugge,741,3,0,True
+1353214,2025-03-06T20:00:00+00:00,FT,Round of 16,Borac Banja Luka,3364,Rapid Vienna,781,1,1,True
+1353216,2025-03-06T20:00:00+00:00,FT,Round of 16,Pafos,3403,Djurgardens IF,364,1,0,True
+1353212,2025-03-06T20:00:00+00:00,FT,Round of 16,Celje,4360,FC Lugano,606,1,0,True
+1353217,2025-03-13T17:45:00+00:00,FT,Round of 16,Djurgardens IF,364,Pafos,3403,3,0,True
+1353213,2025-03-13T17:45:00+00:00,PEN,Round of 16,FC Lugano,606,Celje,4360,5,4,False
+1353211,2025-03-13T17:45:00+00:00,FT,Round of 16,Cercle Brugge,741,Jagiellonia,336,2,0,True
+1353215,2025-03-13T17:45:00+00:00,AET,Round of 16,Rapid Vienna,781,Borac Banja Luka,3364,2,1,False
+1353209,2025-03-13T20:00:00+00:00,FT,Round of 16,Chelsea,49,FC Copenhagen,400,1,0,True
+1353203,2025-03-13T20:00:00+00:00,FT,Round of 16,Guimaraes,224,Real Betis,543,0,4,True
+1353207,2025-03-13T20:00:00+00:00,AET,Round of 16,Legia Warszawa,339,Molde,329,2,0,False
+1353205,2025-03-13T20:00:00+00:00,FT,Round of 16,Fiorentina,502,Panathinaikos,617,3,1,True
+1361288,2025-04-10T16:45:00+00:00,FT,Quarter-finals,Legia Warszawa,339,Chelsea,49,0,3,True
+1361290,2025-04-10T19:00:00+00:00,FT,Quarter-finals,Djurgardens IF,364,Rapid Vienna,781,0,1,True
+1361284,2025-04-10T19:00:00+00:00,FT,Quarter-finals,Real Betis,543,Jagiellonia,336,2,0,True
+1361286,2025-04-10T19:00:00+00:00,FT,Quarter-finals,Celje,4360,Fiorentina,502,1,2,True
+1361285,2025-04-17T16:45:00+00:00,FT,Quarter-finals,Jagiellonia,336,Real Betis,543,1,1,True
+1361287,2025-04-17T16:45:00+00:00,FT,Quarter-finals,Fiorentina,502,Celje,4360,2,2,True
+1361289,2025-04-17T19:00:00+00:00,FT,Quarter-finals,Chelsea,49,Legia Warszawa,339,1,2,True
+1361291,2025-04-17T19:00:00+00:00,AET,Quarter-finals,Rapid Vienna,781,Djurgardens IF,364,1,4,False
+1371998,2025-05-01T19:00:00+00:00,FT,Semi-finals,Djurgardens IF,364,Chelsea,49,1,4,True
+1371996,2025-05-01T19:00:00+00:00,FT,Semi-finals,Real Betis,543,Fiorentina,502,2,1,True
+1371999,2025-05-08T19:00:00+00:00,FT,Semi-finals,Chelsea,49,Djurgardens IF,364,1,0,True
+1371997,2025-05-08T19:00:00+00:00,AET,Semi-finals,Fiorentina,502,Real Betis,543,2,2,False
+1374899,2025-05-28T19:00:00+00:00,FT,Final,Real Betis,543,Chelsea,49,1,4,True
