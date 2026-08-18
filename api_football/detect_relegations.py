@@ -1,40 +1,44 @@
 """
 detect_relegations.py
 
-Pulls final-season standings for a set of leagues, parses each team's
-`description` field to determine relegation status, and computes a
-weighted relegated_count per league-season for use in the Starting
-Position formula.
+Pulls standings for EVERY tracked league-type competition, across every
+season it was genuinely included per season_inclusion.json (not just the
+latest season) - the full-history extension of the original single-season
+version, needed for the Standard-case Starting Position formula to work
+correctly for any mid-history promotion, not just the most recent one.
+
+Parses each team's `description` field to determine relegation status and
+computes a weighted relegated_count per (code, season).
 
 WORKFLOW:
-  Run this once a year (or whenever you're doing your annual review of
-  leagues in the ranking). It pulls the just-completed season's final
-  standings for every league in your config, classifies each team,
-  and writes two outputs:
-
-    1. relegation_counts.json  - the clean, ready-to-use results
-    2. relegation_review.txt   - anything it couldn't confidently
-                                  classify, for you to check by hand
+  Run this whenever you want to (re)build the full historical relegation
+  dataset, or just the newest season after your annual review. It:
+    1. Counts every (league, season) pull needed and shows you the cost
+       BEFORE spending anything - confirm to proceed.
+    2. Caches every raw API response to disk, so re-running costs nothing
+       for anything already pulled.
+    3. Writes two outputs:
+         relegation_counts.json  - {code: {season: {...}}} - ready to use
+         relegation_review.txt   - anything it couldn't confidently
+                                    classify, for you to check by hand
 
   Nothing here silently guesses. If a description doesn't match a known
   pattern (default OR country override), it goes to the review file
-  instead of being counted - better to flag it than get a wrong number
-  baked into a Starting Position that every club in that league inherits.
+  instead of being counted.
 
   As you resolve review-flagged items, add a rule to COUNTRY_OVERRIDES
   (see Germany example below) so the same wording is handled
-  automatically next time. The system gets more hands-off over time for
-  countries you've already seen; brand-new countries or reworded
-  formats will still need a first-pass human check.
+  automatically next time, for every season, not just the one you're
+  looking at right now.
 
 Usage:
     python detect_relegations.py
 
 Requires:
-    API_FOOTBALL_KEY environment variable, or edit API_KEY below.
-    LEAGUES config below - replace with your real league IDs/seasons,
-    ideally pulled programmatically from your existing league config
-    file rather than hardcoded here long-term.
+    API_FOOTBALL_KEY environment variable.
+    leagues_config.json, country_code_mapping.json, and (optionally, but
+    strongly recommended to avoid wasted pulls) season_inclusion.json all
+    present in this folder.
 """
 
 import os
@@ -43,22 +47,19 @@ import json
 import time
 import requests
 
-API_KEY = os.environ.get("API_FOOTBALL_KEY", "PASTE_YOUR_KEY_HERE")
+API_KEY = os.environ.get("API_FOOTBALL_KEY", "")
+if not API_KEY:
+    raise SystemExit("Set the API_FOOTBALL_KEY environment variable before running this script.")
+
 BASE_URL = "https://v3.football.api-sports.io"
 HEADERS = {"x-apisports-key": API_KEY}
 
-# ---------------------------------------------------------------------------
-# CONFIG: which league/season combos to process.
-# Replace this with a load from your real league config (build_config.py /
-# fetch_leagues.py output) once you're ready to wire this into the pipeline.
-# code = your internal league code (ENG_2 style), used in the output file.
-# ---------------------------------------------------------------------------
-LEAGUES = [
-    {"code": "ENG_2", "league_id": 40, "season": 2023},
-    {"code": "GER_2", "league_id": 79, "season": 2023},
-    {"code": "ITA_2", "league_id": 136, "season": 2023},
-    {"code": "ALB", "league_id": 236, "season": 2023},  # verify real ID
-]
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LEAGUES_CONFIG_PATH = os.path.join(SCRIPT_DIR, "leagues_config.json")
+COUNTRY_CODE_MAPPING_PATH = os.path.join(SCRIPT_DIR, "country_code_mapping.json")
+SEASON_INCLUSION_PATH = os.path.join(SCRIPT_DIR, "season_inclusion.json")
+CACHE_DIR = os.path.join(SCRIPT_DIR, "cache")
+os.makedirs(CACHE_DIR, exist_ok=True)
 
 # ---------------------------------------------------------------------------
 # DEFAULT CLASSIFICATION RULES
@@ -120,17 +121,19 @@ def classify_description(desc, country_code):
         if re.search(pat, desc_l):
             return "confirmed"
 
-    # Contains "relegat" in some form but didn't match a known pattern -
-    # don't guess, flag it.
     if "releg" in desc_l:
         return "unrecognized"
 
-    # Doesn't mention relegation at all (e.g. a promotion description) -
-    # not relevant to this calculation.
     return "none"
 
 
 def fetch_standings(league_id, season):
+    cache_key = f"standings_desc_league{league_id}_season{season}"
+    cache_path = os.path.join(CACHE_DIR, cache_key + ".json")
+    if os.path.exists(cache_path):
+        with open(cache_path, encoding="utf-8") as f:
+            return json.load(f)
+
     resp = requests.get(
         f"{BASE_URL}/standings",
         headers=HEADERS,
@@ -138,27 +141,106 @@ def fetch_standings(league_id, season):
         timeout=30,
     )
     resp.raise_for_status()
-    return resp.json()
+    data = resp.json()
+
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(data, f)
+    time.sleep(0.3)
+    return data
+
+
+def build_pull_list():
+    """
+    Returns a list of {code, league_id, season, country_code} for every
+    type=="league" competition, for every season it was genuinely
+    included per season_inclusion.json. Falls back to every season in
+    the competition's own "seasons" list (with a warning) if
+    season_inclusion.json isn't available.
+    """
+    with open(LEAGUES_CONFIG_PATH, encoding="utf-8") as f:
+        leagues_config = json.load(f)
+    with open(COUNTRY_CODE_MAPPING_PATH, encoding="utf-8") as f:
+        country_code_mapping = json.load(f)
+
+    season_inclusion = None
+    if os.path.exists(SEASON_INCLUSION_PATH):
+        with open(SEASON_INCLUSION_PATH, encoding="utf-8") as f:
+            season_inclusion = json.load(f)
+    else:
+        print("WARNING: season_inclusion.json not found - will pull EVERY season in each "
+              "competition's 'seasons' list, including seasons where the tier may not have "
+              "actually been tracked. Strongly recommend running extract_season_inclusion.py first.")
+
+    pull_list = []
+    for country, comps in leagues_config.items():
+        code_base = country_code_mapping.get(country)
+        if code_base is None:
+            continue  # no code mapping (e.g. deliberately excluded country) - skip
+
+        for comp in comps:
+            if comp.get("type") != "league":
+                continue  # relegation only applies to real league divisions
+
+            tier = comp.get("tier", 1)
+            code = code_base if tier == 1 else f"{code_base}_{tier}"
+
+            for season in comp.get("seasons", []):
+                season_str = str(season)
+                if season_inclusion is not None:
+                    if code not in season_inclusion.get(season_str, []):
+                        continue  # this tier wasn't actually tracked this season - skip
+                pull_list.append({
+                    "code": code, "league_id": comp["league_id"],
+                    "season": season, "country_code": code_base,
+                })
+
+    return pull_list
 
 
 def main():
+    pull_list = build_pull_list()
+
+    # Filter out anything already cached, to give an accurate "what will
+    # this ACTUALLY cost" number rather than counting free re-pulls.
+    to_fetch = []
+    already_cached = 0
+    for entry in pull_list:
+        cache_path = os.path.join(
+            CACHE_DIR, f"standings_desc_league{entry['league_id']}_season{entry['season']}.json"
+        )
+        if os.path.exists(cache_path):
+            already_cached += 1
+        else:
+            to_fetch.append(entry)
+
+    print(f"{len(pull_list)} total (league, season) combos to process.")
+    print(f"  {already_cached} already cached (free)")
+    print(f"  {len(to_fetch)} will require a new API request")
+
+    if to_fetch:
+        confirm = input(f"Proceed with {len(to_fetch)} new API requests? [y/n]: ").strip().lower()
+        if confirm not in ("y", "yes"):
+            print("Stopped before spending any new requests.")
+            return
+
     results = {}
     review_lines = []
 
-    for entry in LEAGUES:
+    for i, entry in enumerate(pull_list, 1):
         code = entry["code"]
-        country_code = code.split("_")[0]  # ENG_2 -> ENG
-        print(f"Processing {code} (league_id={entry['league_id']}, season={entry['season']})...")
+        season = entry["season"]
+        country_code = entry["country_code"]
+        print(f"[{i}/{len(pull_list)}] {code} season {season} (league_id={entry['league_id']})")
 
         try:
-            data = fetch_standings(entry["league_id"], entry["season"])
+            data = fetch_standings(entry["league_id"], season)
         except Exception as e:
-            review_lines.append(f"{code}: FETCH ERROR - {e}")
+            review_lines.append(f"{code} / {season}: FETCH ERROR - {e}")
             continue
 
         response = data.get("response", [])
         if not response:
-            review_lines.append(f"{code}: NO STANDINGS DATA RETURNED - check league/season ID")
+            review_lines.append(f"{code} / {season}: NO STANDINGS DATA RETURNED")
             continue
 
         standings_groups = response[0]["league"]["standings"]
@@ -183,29 +265,26 @@ def main():
                     playoff_teams.append(team)
                 elif classification == "unrecognized":
                     review_lines.append(
-                        f"{code}: UNRECOGNIZED - {team!r} description={desc!r} "
-                        f"(contains 'releg' but matched no known pattern)"
+                        f"{code} / {season}: UNRECOGNIZED - {team!r} description={desc!r}"
                     )
 
-        results[code] = {
-            "season": entry["season"],
+        results.setdefault(code, {})[str(season)] = {
             "total_clubs": total_clubs,
             "relegated_count": weighted_total,
             "confirmed_relegated": confirmed_teams,
             "playoff_relegated": playoff_teams,
         }
 
-        print(f"  -> relegated_count = {weighted_total} "
+        print(f"    -> relegated_count = {weighted_total} "
               f"(confirmed: {len(confirmed_teams)}, playoff: {len(playoff_teams)})")
 
-        time.sleep(1)  # be polite to the rate limit
-
-    with open("relegation_counts.json", "w") as f:
-        json.dump(results, f, indent=2)
-    print("\nWrote relegation_counts.json")
+    with open(os.path.join(SCRIPT_DIR, "relegation_counts.json"), "w") as f:
+        json.dump(results, f, indent=2, sort_keys=True)
+    print(f"\nWrote relegation_counts.json - {len(results)} leagues, "
+          f"{sum(len(v) for v in results.values())} league-seasons total")
 
     if review_lines:
-        with open("relegation_review.txt", "w") as f:
+        with open(os.path.join(SCRIPT_DIR, "relegation_review.txt"), "w") as f:
             f.write("\n".join(review_lines))
         print(f"Wrote relegation_review.txt ({len(review_lines)} items need manual review)")
     else:

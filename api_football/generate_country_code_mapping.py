@@ -69,7 +69,7 @@ KNOWN_EXCEPTIONS = {
     "Tajikistan": "TAJ", "Turkmenistan": "TKM", "Kyrgyzstan": "KGZ", "Bahrain": "BHR",
     "Cambodia": "CAM", "Macao": "MAC",
     # Africa
-    "Ivory-Coast": "CIV", "Congo-DR": "DRC", "Congo": "CGO", "South-Africa": "RSA",
+    "Ivory-Coast": "CIV", "Congo-DR": "COD", "Congo": "CGO", "South-Africa": "RSA",
     "Burkina-Faso": "BFA", "Burundi": "BDI", "Cameroon": "CMR", "Cape-Verde": "CPV",
     "Central-African-Republic": "CTA", "Guinea-Bissau": "GNB", "Malawi": "MWI",
     "Mauritania": "MTN", "Mauritius": "MRI", "Sao-Tome-e-Principe": "STP",

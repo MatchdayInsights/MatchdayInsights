@@ -1,0 +1,40 @@
+﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1286899,2024-08-13T12:15:00+00:00,FT,Preliminary Round,Church Boys,20879,Paro,9426,1,2,True,3896
+1286900,2024-08-13T14:00:00+00:00,FT,Preliminary Round,Abdish-Ata,12234,Attack Energy,24710,2,0,True,
+1295070,2024-10-26T11:00:00+00:00,FT,Group Stage - 1,East Bengal,3463,Paro,9426,2,2,True,21632
+1295074,2024-10-26T13:00:00+00:00,FT,Group Stage - 1,Al Ahli,5580,Hilal Al-Quds,8029,0,0,True,4025
+1295072,2024-10-26T14:30:00+00:00,FT,Group Stage - 1,Al Arabi,3532,Abdish-Ata,12234,0,1,True,
+1295071,2024-10-26T15:00:00+00:00,FT,Group Stage - 1,Al Nejmeh,4570,Bashundhara Kings,5012,1,0,True,21632
+1295075,2024-10-26T16:00:00+00:00,FT,Group Stage - 1,Foutoua,9114,Al Seeb,7504,0,5,True,4025
+1295073,2024-10-26T18:30:00+00:00,FT,Group Stage - 1,Arkadag,21232,Maziya,8044,2,1,True,
+1295077,2024-10-27T06:00:00+00:00,FT,Group Stage - 1,Falcons,16186,Persepam Madura Utd,2444,0,0,True,
+1295076,2024-10-27T08:30:00+00:00,FT,Group Stage - 1,Young Elephant,14098,Shan United,8015,0,2,True,19697
+1295078,2024-10-29T11:00:00+00:00,FT,Group Stage - 2,Paro,9426,Al Nejmeh,4570,1,2,True,21632
+1295082,2024-10-29T13:00:00+00:00,FT,Group Stage - 2,Hilal Al-Quds,8029,Foutoua,9114,0,0,True,4025
+1295080,2024-10-29T14:30:00+00:00,FT,Group Stage - 2,Abdish-Ata,12234,Arkadag,21232,0,2,True,
+1295079,2024-10-29T15:00:00+00:00,FT,Group Stage - 2,Bashundhara Kings,5012,East Bengal,3463,0,4,True,21632
+1295083,2024-10-29T16:00:00+00:00,FT,Group Stage - 2,Al Seeb,7504,Al Ahli,5580,1,0,True,4025
+1295081,2024-10-29T18:30:00+00:00,FT,Group Stage - 2,Maziya,8044,Al Arabi,3532,0,2,True,
+1295085,2024-10-30T07:00:00+00:00,FT,Group Stage - 2,Svay Rieng,5396,Falcons,16186,2,1,True,
+1295084,2024-10-30T09:30:00+00:00,FT,Group Stage - 2,Tainan City,12543,Young Elephant,14098,3,2,True,19697
+1295086,2024-11-01T10:00:00+00:00,FT,Group Stage - 3,East Bengal,3463,Al Nejmeh,4570,3,2,True,21632
+1295090,2024-11-01T13:00:00+00:00,FT,Group Stage - 3,Al Ahli,5580,Foutoua,9114,1,1,True,4025
+1295088,2024-11-01T14:30:00+00:00,FT,Group Stage - 3,Al Arabi,3532,Arkadag,21232,3,2,True,
+1295087,2024-11-01T15:00:00+00:00,FT,Group Stage - 3,Bashundhara Kings,5012,Paro,9426,1,2,True,21632
+1295091,2024-11-01T16:00:00+00:00,FT,Group Stage - 3,Al Seeb,7504,Hilal Al-Quds,8029,3,0,True,4025
+1295089,2024-11-01T18:30:00+00:00,FT,Group Stage - 3,Maziya,8044,Abdish-Ata,12234,0,3,True,
+1295093,2024-11-02T07:00:00+00:00,FT,Group Stage - 3,Persepam Madura Utd,2444,Svay Rieng,5396,2,1,True,
+1295092,2024-11-02T09:30:00+00:00,FT,Group Stage - 3,Shan United,8015,Tainan City,12543,2,2,True,19697
+1315160,2025-03-05T13:30:00+00:00,FT,Quarter-finals,East Bengal,3463,Arkadag,21232,0,1,True,20465
+1315158,2025-03-05T18:30:00+00:00,FT,Quarter-finals,Al Arabi,3532,Al Seeb,7504,1,0,True,
+1315164,2025-03-06T11:00:00+00:00,FT,Quarter-finals,Tainan City,12543,Persepam Madura Utd,2444,0,0,True,
+1315162,2025-03-06T12:00:00+00:00,FT,Quarter-finals,Svay Rieng,5396,Shan United,8015,6,2,True,
+1315161,2025-03-12T10:30:00+00:00,FT,Quarter-finals,Arkadag,21232,East Bengal,3463,2,1,True,
+1315159,2025-03-12T18:00:00+00:00,AET,Quarter-finals,Al Seeb,7504,Al Arabi,3532,2,2,False,4025
+1315163,2025-03-13T10:30:00+00:00,FT,Quarter-finals,Shan United,8015,Svay Rieng,5396,2,1,True,19697
+1315165,2025-03-13T13:30:00+00:00,FT,Quarter-finals,Persepam Madura Utd,2444,Tainan City,12543,3,0,True,20296
+1361271,2025-04-09T16:00:00+00:00,FT,Semi-finals,Al Arabi,3532,Arkadag,21232,2,0,True,
+1361273,2025-04-10T12:00:00+00:00,FT,Semi-finals,Svay Rieng,5396,Persepam Madura Utd,2444,3,0,True,
+1361272,2025-04-16T10:30:00+00:00,FT,Semi-finals,Arkadag,21232,Al Arabi,3532,3,0,True,
+1361274,2025-04-17T08:30:00+00:00,FT,Semi-finals,Persepam Madura Utd,2444,Svay Rieng,5396,3,3,True,20296
+1372075,2025-05-10T12:00:00+00:00,AET,Final,Svay Rieng,5396,Arkadag,21232,1,2,False,

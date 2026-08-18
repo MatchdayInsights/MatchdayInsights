@@ -34,6 +34,79 @@ HISTORY_START = date(2020, 1, 1)  # widened from 2025-01-01 to catch clubs that 
 # whatever seasons are actually listed per competition in leagues_config.json — CONMEBOL's season
 # list stays narrow (2024/2025) regardless, so there's nothing extra for this to filter out there.
 
+# UEFA's official start is season 2020 (matching each country's own real
+# 2020-21 season start, whenever that falls within calendar 2020 - March
+# for winter-schedule countries like Norway, July/August for standard
+# European-calendar countries - API-Football's own "season" parameter
+# already returns exactly that country's real season boundaries, so a
+# flat season-label threshold handles this correctly with no per-country
+# date logic needed). Every other confederation's official start is
+# season 2025 - excluding any earlier season data that might be sitting
+# in leagues_config.json's "seasons" list (pulled broadly "regardless if
+# it falls out of the ratings", per earlier decision) from ever being
+# pulled or written out at all, not just date-filtered within a season.
+UEFA_SEASON_THRESHOLD = 2020
+OTHER_SEASON_THRESHOLD = 2025
+
+UEFA_COUNTRIES = {
+    "England", "Scotland", "Wales", "Northern-Ireland", "Ireland", "Spain",
+    "Germany", "Italy", "France", "Portugal", "Netherlands", "Belgium",
+    "Greece", "Norway", "Turkey", "Denmark", "Czech-Republic", "Poland",
+    "Croatia", "Switzerland", "Cyprus", "Serbia", "Sweden", "Kazakhstan",
+    "Austria", "Russia", "Ukraine", "Andorra", "Albania", "Armenia",
+    "Azerbaijan", "Belarus", "Bosnia", "Bulgaria", "Estonia",
+    "Faroe-Islands", "Finland", "Georgia", "Gibraltar", "Hungary",
+    "Iceland", "Israel", "Kosovo", "Latvia", "Liechtenstein", "Lithuania",
+    "Luxembourg", "Macedonia", "Malta", "Moldova", "Montenegro",
+    "Romania", "San-Marino", "Slovakia", "Slovenia",
+}
+
+
+SEASON_THRESHOLD_OVERRIDES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "season_threshold_overrides.json")
+
+
+def load_season_threshold_overrides():
+    """
+    {country_name: override_threshold_season} - for countries whose
+    real season-labeling convention on API-Football doesn't match the
+    standard start-year assumption (e.g. Cameroon's "2025"-labeled season
+    actually being the real Dec2024-started season under an end-year
+    convention). Confirmed case-by-case via real football knowledge, not
+    detectable automatically - see conversation history for how each
+    entry here was determined.
+    """
+    if os.path.exists(SEASON_THRESHOLD_OVERRIDES_PATH):
+        with open(SEASON_THRESHOLD_OVERRIDES_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+SEASON_THRESHOLD_OVERRIDES = load_season_threshold_overrides()
+
+
+def season_meets_threshold(country, competition_name, season):
+    """
+    True if this (country, competition, season) combo is at/after its
+    confederation's official start season. For "World"-classified
+    continental/global competitions (no single owning country), the
+    threshold is determined by checking for "UEFA" in the competition
+    name specifically, since a World-classified competition could belong
+    to any confederation.
+
+    Checks SEASON_THRESHOLD_OVERRIDES first - a country there uses its
+    override value instead of the standard UEFA/non-UEFA default.
+    """
+    if country in SEASON_THRESHOLD_OVERRIDES:
+        return season >= SEASON_THRESHOLD_OVERRIDES[country]
+
+    if country == "World":
+        is_uefa = "UEFA" in competition_name
+    else:
+        is_uefa = country in UEFA_COUNTRIES
+
+    threshold = UEFA_SEASON_THRESHOLD if is_uefa else OTHER_SEASON_THRESHOLD
+    return season >= threshold
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CACHE_DIR = os.path.join(SCRIPT_DIR, "cache")
 OUT_DIR = os.path.join(SCRIPT_DIR, "data")
@@ -162,6 +235,21 @@ def pull_fixtures(league_id, season):
     return flat
 
 
+def safe_filename_part(text):
+    """
+    Replaces spaces with hyphens, then strips every character that's
+    actually illegal in a Windows (or Unix) filename - the "/" in
+    "Japan — J2/J3 League" is exactly the kind of thing that silently
+    gets interpreted as a path separator and crashes the whole run, since
+    it only surfaces once you happen to pull a competition with that
+    character in its name.
+    """
+    text = text.replace(" ", "-")
+    for bad_char in '/\\:*?"<>|':
+        text = text.replace(bad_char, "-")
+    return text
+
+
 def main():
     config_path = os.path.join(SCRIPT_DIR, "leagues_config.json")
     if not os.path.exists(config_path):
@@ -174,6 +262,7 @@ def main():
     import csv
 
     failures = []
+    skipped_pre_threshold = 0
 
     for country, comps in leagues.items():
         for comp in comps:
@@ -186,12 +275,17 @@ def main():
             seasons_list = comp.get("seasons") or [comp["season"]]
 
             for season in seasons_list:
+                if not season_meets_threshold(country, name, season):
+                    skipped_pre_threshold += 1
+                    continue
+
                 print(f"{country} — {name} (league {league_id}, season {season})")
 
                 try:
                     standings = pull_standings(league_id, season)
                     if standings:
-                        path = os.path.join(OUT_DIR, "standings", f"{league_id}_{season}.csv")
+                        safe_name = safe_filename_part(name)
+                        path = os.path.join(OUT_DIR, "standings", f"{country}_{safe_name}_{league_id}_{season}.csv")
                         with open(path, "w", newline="", encoding="utf-8-sig") as f:
                             writer = csv.DictWriter(f, fieldnames=standings[0].keys())
                             writer.writeheader()
@@ -204,7 +298,8 @@ def main():
                 try:
                     fixtures = pull_fixtures(league_id, season)
                     if fixtures:
-                        path = os.path.join(OUT_DIR, "fixtures", f"{league_id}_{season}.csv")
+                        safe_name = safe_filename_part(name)
+                        path = os.path.join(OUT_DIR, "fixtures", f"{country}_{safe_name}_{league_id}_{season}.csv")
                         with open(path, "w", newline="", encoding="utf-8-sig") as f:
                             writer = csv.DictWriter(f, fieldnames=fixtures[0].keys())
                             writer.writeheader()
@@ -218,6 +313,9 @@ def main():
                     failures.append(f"{country} / {name} (league {league_id}, season {season}) — fixtures — {e}")
 
     print("\nDone. See data/standings/ and data/fixtures/")
+    print(f"Skipped {skipped_pre_threshold} pre-threshold season(s) entirely "
+          f"(before UEFA's season {UEFA_SEASON_THRESHOLD} or other confederations' season {OTHER_SEASON_THRESHOLD}) "
+          f"- no API requests spent on these.")
 
     if failures:
         print(f"\n{len(failures)} failure(s) — see pull_errors.log:")

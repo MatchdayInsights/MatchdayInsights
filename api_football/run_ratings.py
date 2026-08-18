@@ -53,6 +53,8 @@ COUNTRY_CODE_MAPPING_PATH = os.path.join(SCRIPT_DIR, "country_code_mapping.json"
 LEAGUE_STARTS_PATH = os.path.join(SCRIPT_DIR, "League_Starts_updated.xlsx")
 TEAM_ID_SPLITS_PATH = os.path.join(SCRIPT_DIR, "team_id_splits.json")
 TEAM_ID_SPLIT_RESOLUTIONS_PATH = os.path.join(SCRIPT_DIR, "team_id_split_resolutions.json")
+SEASON_INCLUSION_PATH = os.path.join(SCRIPT_DIR, "season_inclusion.json")
+RELEGATION_PERCENTAGES_PATH = os.path.join(SCRIPT_DIR, "relegation_percentages.json")
 
 # Countries deliberately excluded from the rating engine entirely (raises
 # rather than assigning any rating) - NOT the same as a country that simply
@@ -215,6 +217,8 @@ def get_starting_position(
     untracked_club_tiers: Optional[dict] = None,
     season_snapshots: Optional[dict] = None,
     current_league_id: Optional[str] = None,
+    season_inclusion: Optional[dict] = None,
+    relegation_percentages: Optional[dict] = None,
 ) -> tuple[float, str]:
     """
     Determines a club's Starting Position the moment it's first seen in
@@ -262,8 +266,21 @@ def get_starting_position(
       3. Country has no domestic league data at all -> UNRANKED_COUNTRY_DEFAULT,
          season-locked like any other untracked club.
       4. Tier known for this specific season AND a direct League_Starts
-         entry exists for country_code[_tier] -> use it directly (the
-         normal, expected case for every genuinely tracked division).
+         entry exists for country_code[_tier]:
+           4a. If a real season_snapshots.json entry exists for this
+               tier's PRECEDING season -> this is a genuine mid-history
+               promotion into an already-tracked tier. Uses the dynamic
+               Standard-case formula (preceding season's real min/max
+               from the snapshot, blended with relegation_percentages.json's
+               real percentage for that season) - NOT the static bootstrap
+               value, which would otherwise give every promoted club the
+               same original-bootstrap rating forever regardless of how
+               the tier has actually evolved. Raises if the percentage
+               data is missing for that season, rather than silently
+               falling back to the stale bootstrap value.
+           4b. If no preceding-season snapshot exists -> this genuinely
+               is the tier's first-ever tracked season, so the static
+               League_Starts bootstrap value is correct as-is.
       5. Tier known but deeper than what's directly in League_Starts
          (shouldn't normally happen post-cleanup, but handled rather than
          crashing) -> chain the untracked-placeholder ratios from the
@@ -310,17 +327,88 @@ def get_starting_position(
             source = f"league_override:{current_league_id}:{source}"
         return rating, source
 
+    # Even if the raw fixture data says this club plays in a real
+    # type=="league" competition (tier is not None), that only tells us
+    # match data EXISTS for this season - not that this tier was actually
+    # a genuinely tracked division that specific season. Historical data
+    # was pulled broadly (2020+ for Europe, 2025+ elsewhere) regardless of
+    # whether a given tier's inclusion status held for the whole window -
+    # a country's division count shifts year to year. season_inclusion.json
+    # (from Leagues_Included_in_Ranking.xlsx) is the real source of truth;
+    # if this specific (code, tier, season) isn't in it, treat the tier as
+    # unknown for Starting Position purposes, same as any other untracked
+    # club, even though we technically know it from the fixture data.
+    if tier is not None and season_inclusion is not None:
+        key_to_check = code if tier == 1 else f"{code}_{tier}"
+        included_this_season = season_inclusion.get(season, [])
+        if key_to_check not in included_this_season:
+            tier = None
+
     if tier is not None:
         key = code if tier == 1 else f"{code}_{tier}"
         if key in league_starts:
+            # A tier existing in the static League_Starts file is only
+            # correct as-is for that tier's TRUE FIRST tracked season -
+            # using it for every subsequent season's promotions would give
+            # every newly-promoted club the exact same original bootstrap
+            # rating forever, ignoring how the tier has actually evolved.
+            # Check whether a real preceding-season snapshot exists for
+            # this tier - if so, this is a genuine mid-history promotion
+            # and should use the dynamic Standard-case formula instead.
+            preceding_season = None
+            try:
+                preceding_season = str(int(season) - 1)
+            except ValueError:
+                pass
+
+            snap = None
+            if preceding_season is not None and season_snapshots is not None:
+                snap = season_snapshots.get(f"{country}|{tier}|{preceding_season}")
+
+            if snap is not None and snap.get("min") is not None and snap.get("max") is not None:
+                # Confirmed genuine mid-history promotion - this tier was
+                # already tracked last season, so we have real min/max to
+                # work from. Now we specifically need this season's
+                # relegation percentage - if that's missing, this is a
+                # real data gap (not something to guess at silently with
+                # the stale bootstrap value), so it raises rather than
+                # falling back.
+                pct = None
+                if relegation_percentages is not None:
+                    pct = relegation_percentages.get(key, {}).get(preceding_season)
+
+                if pct is None:
+                    raise ValueError(
+                        f"team_id={team_id} ({country}, {key}): promoted into an already-"
+                        f"tracked tier for season {season}, but no relegation_percentages.json "
+                        f"entry exists for {key} season {preceding_season} - cannot compute "
+                        f"a correct Standard-case Starting Position without it. Add this "
+                        f"season's relegation data rather than let this silently use the "
+                        f"stale original bootstrap value."
+                    )
+
+                rating = snap["min"] + (snap["max"] - snap["min"]) * pct
+                return rating, f"standard_promotion:{key}:season{preceding_season}:pct{pct:.4f}"
+
+            # No preceding-season snapshot exists - this genuinely is the
+            # tier's first-ever tracked season, so the static bootstrap
+            # value from League_Starts is correct as-is.
             return league_starts[key], f"direct:{key}"
 
     # Find the deepest tier for this country that DOES have a direct
-    # League_Starts entry, to chain the placeholder ratios from.
+    # League_Starts entry AND was actually included that season (if
+    # season_inclusion data is available) - a tier existing in the static
+    # League_Starts file doesn't mean it was genuinely tracked every
+    # season; scanning past a season-excluded tier here would anchor an
+    # untracked club's placeholder off a value that wasn't real for that
+    # season, undermining the whole point of the season-gating check above.
+    included_this_season = season_inclusion.get(season, []) if season_inclusion is not None else None
     deepest_tier = 1
     deepest_value = league_starts.get(code)
     t = 2
     while f"{code}_{t}" in league_starts:
+        if included_this_season is not None and f"{code}_{t}" not in included_this_season:
+            break
         deepest_tier = t
         deepest_value = league_starts[f"{code}_{t}"]
         t += 1
@@ -788,6 +876,28 @@ def main():
               "'one level below deepest tracked tier' fallback (run pull_untracked_standings.py "
               "+ apply_untracked_leagues.py to build this database for more precise placeholders)")
 
+    if os.path.exists(SEASON_INCLUSION_PATH):
+        with open(SEASON_INCLUSION_PATH, encoding="utf-8") as f:
+            season_inclusion = json.load(f)
+        print(f"  Loaded season_inclusion.json - {len(season_inclusion)} seasons of real tracked-division data "
+              f"(from Leagues_Included_in_Ranking.xlsx)")
+    else:
+        season_inclusion = None
+        print("  season_inclusion.json not found - falling back to treating ANY season with pulled "
+              "fixture data for a tier as genuinely tracked, which may not reflect actual "
+              "year-to-year division-count changes. Run extract_season_inclusion.py to build this.")
+
+    if os.path.exists(RELEGATION_PERCENTAGES_PATH):
+        with open(RELEGATION_PERCENTAGES_PATH, encoding="utf-8") as f:
+            relegation_percentages = json.load(f)
+        print(f"  Loaded relegation_percentages.json - {len(relegation_percentages)} tiers with real "
+              f"relegation data, needed for any mid-history promotion into an already-tracked tier")
+    else:
+        relegation_percentages = None
+        print("  relegation_percentages.json not found - any mid-history promotion into an already-"
+              "tracked tier will FAIL rather than silently use a stale bootstrap value. Run "
+              "convert_relegation_percentages.py to build this.")
+
     finals_config = _load_json(FINALS_CONFIG_PATH)
     venue_overrides = _load_json(VENUE_OVERRIDES_PATH)
 
@@ -862,7 +972,7 @@ def main():
                 rating, source = get_starting_position(
                     team_id, season, team_country_lookup, team_tier_by_season,
                     country_code_mapping, league_starts, untracked_club_tiers,
-                    season_snapshots, row["league_id"],
+                    season_snapshots, row["league_id"], season_inclusion, relegation_percentages,
                 )
                 club_states[team_id] = ClubState(rating=rating, last_match_date=None)
                 seed_sources[team_id] = source
@@ -870,7 +980,7 @@ def main():
                 # tracked - a real league, ratings should evolve via match
                 # results normally, not stay season-locked like an
                 # untracked-placeholder club.
-                club_is_tracked[team_id] = source.startswith("direct") or source.startswith("league_override")
+                club_is_tracked[team_id] = source.startswith("direct") or source.startswith("league_override") or source.startswith("standard_promotion")
                 club_seeded_season[team_id] = season
             except ValueError as e:
                 seeding_failures += 1
@@ -945,11 +1055,11 @@ def main():
                 fresh_rating, fresh_source = get_starting_position(
                     team_id, season, team_country_lookup, team_tier_by_season,
                     country_code_mapping, league_starts, untracked_club_tiers,
-                    season_snapshots, row["league_id"],
+                    season_snapshots, row["league_id"], season_inclusion, relegation_percentages,
                 )
                 reset_lookup[label] = fresh_rating
                 seed_sources[team_id] = fresh_source + ":inactivity_reset"
-                club_is_tracked[team_id] = fresh_source.startswith("direct") or fresh_source.startswith("league_override")
+                club_is_tracked[team_id] = fresh_source.startswith("direct") or fresh_source.startswith("league_override") or fresh_source.startswith("standard_promotion")
                 club_seeded_season[team_id] = season
 
         process_match(
