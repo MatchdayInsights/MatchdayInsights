@@ -55,17 +55,17 @@ OUTPUT_PATH = os.path.join(SCRIPT_DIR, "season_inclusion.json")
 from openpyxl.utils import column_index_from_string
 
 CONFEDERATION_BLOCKS = {
-    "UEFA":     {"cols": ("B", "I"), "rows": (4, 83),
-                 "season_labels": ["2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]},
-    "AFC":      {"cols": ("L", "N"), "rows": (4, 83),
-                 "season_labels": ["2024", "2025", "2026"]},
-    "CAF":      {"cols": ("Q", "S"), "rows": (4, 83),
-                 "season_labels": ["2024", "2025", "2026"]},
-    "CONCACAF": {"cols": ("V", "X"), "rows": (4, 83),
-                 "season_labels": ["2024", "2025", "2026"]},
-    "CONMEBOL": {"cols": ("AA", "AB"), "rows": (4, 83),
+    "UEFA":     {"cols": ("B", "H"), "rows": (4, 83),
+                 "season_labels": ["2020", "2021", "2022", "2023", "2024", "2025", "2026"]},
+    "AFC":      {"cols": ("K", "L"), "rows": (4, 83),
                  "season_labels": ["2025", "2026"]},
-    "OFC":      {"cols": ("AE", "AF"), "rows": (4, 83),
+    "CAF":      {"cols": ("O", "P"), "rows": (4, 83),
+                 "season_labels": ["2025", "2026"]},
+    "CONCACAF": {"cols": ("S", "T"), "rows": (4, 83),
+                 "season_labels": ["2025", "2026"]},
+    "CONMEBOL": {"cols": ("W", "X"), "rows": (4, 83),
+                 "season_labels": ["2025", "2026"]},
+    "OFC":      {"cols": ("AA", "AB"), "rows": (4, 83),
                  "season_labels": ["2025", "2026"]},
 }
 

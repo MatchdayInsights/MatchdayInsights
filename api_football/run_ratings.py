@@ -352,9 +352,16 @@ def get_starting_position(
             # using it for every subsequent season's promotions would give
             # every newly-promoted club the exact same original bootstrap
             # rating forever, ignoring how the tier has actually evolved.
-            # Check whether a real preceding-season snapshot exists for
-            # this tier - if so, this is a genuine mid-history promotion
-            # and should use the dynamic Standard-case formula instead.
+            # Check whether a real preceding-season snapshot exists AND
+            # that preceding season was actually season_inclusion-confirmed
+            # as a genuinely tracked division - a snapshot can exist purely
+            # from burn-in match processing even for a season that wasn't
+            # officially tracked (e.g. a country's true 2020-21 season
+            # start date meant a tier's matches got processed starting
+            # mid-way through what would otherwise look like "season 2020",
+            # but that tier wasn't actually counted as tracked until the
+            # season after) - snapshot existence alone isn't proof of a
+            # genuine prior tracked season.
             preceding_season = None
             try:
                 preceding_season = str(int(season) - 1)
@@ -362,10 +369,14 @@ def get_starting_position(
                 pass
 
             snap = None
+            preceding_season_was_tracked = True  # assume tracked if no season_inclusion data available
             if preceding_season is not None and season_snapshots is not None:
                 snap = season_snapshots.get(f"{country}|{tier}|{preceding_season}")
+            if preceding_season is not None and season_inclusion is not None:
+                preceding_season_was_tracked = key in season_inclusion.get(preceding_season, [])
 
-            if snap is not None and snap.get("min") is not None and snap.get("max") is not None:
+            if snap is not None and snap.get("min") is not None and snap.get("max") is not None \
+                    and preceding_season_was_tracked:
                 # Confirmed genuine mid-history promotion - this tier was
                 # already tracked last season, so we have real min/max to
                 # work from. Now we specifically need this season's
@@ -390,9 +401,12 @@ def get_starting_position(
                 rating = snap["min"] + (snap["max"] - snap["min"]) * pct
                 return rating, f"standard_promotion:{key}:season{preceding_season}:pct{pct:.4f}"
 
-            # No preceding-season snapshot exists - this genuinely is the
-            # tier's first-ever tracked season, so the static bootstrap
-            # value from League_Starts is correct as-is.
+            # No genuine preceding tracked season - either no snapshot
+            # exists at all, or one exists purely from burn-in processing
+            # of a season that wasn't actually counted as tracked. Either
+            # way this is effectively the tier's first REAL tracked
+            # season, so the static bootstrap value from League_Starts is
+            # correct as-is.
             return league_starts[key], f"direct:{key}"
 
     # Find the deepest tier for this country that DOES have a direct
@@ -1050,17 +1064,48 @@ def main():
         # compute this itself. Only builds entries for the side(s) that
         # actually need it.
         reset_lookup = {}
+        reset_failed = False
         for label, team_id in (("a", home_id), ("b", away_id)):
             if needs_starting_position_reset(club_states[team_id].last_match_date, match_date):
-                fresh_rating, fresh_source = get_starting_position(
-                    team_id, season, team_country_lookup, team_tier_by_season,
-                    country_code_mapping, league_starts, untracked_club_tiers,
-                    season_snapshots, row["league_id"], season_inclusion, relegation_percentages,
-                )
-                reset_lookup[label] = fresh_rating
-                seed_sources[team_id] = fresh_source + ":inactivity_reset"
-                club_is_tracked[team_id] = fresh_source.startswith("direct") or fresh_source.startswith("league_override") or fresh_source.startswith("standard_promotion")
-                club_seeded_season[team_id] = season
+                try:
+                    fresh_rating, fresh_source = get_starting_position(
+                        team_id, season, team_country_lookup, team_tier_by_season,
+                        country_code_mapping, league_starts, untracked_club_tiers,
+                        season_snapshots, row["league_id"], season_inclusion, relegation_percentages,
+                    )
+                    reset_lookup[label] = fresh_rating
+                    seed_sources[team_id] = fresh_source + ":inactivity_reset"
+                    club_is_tracked[team_id] = fresh_source.startswith("direct") or fresh_source.startswith("league_override") or fresh_source.startswith("standard_promotion")
+                    club_seeded_season[team_id] = season
+                except ValueError as e:
+                    seeding_failures += 1
+                    team_name = row.get("home_team") if team_id == home_id else row.get("away_team")
+                    seeding_failure_details.append({
+                        "team_id": team_id,
+                        "team_name": team_name,
+                        "league_id": row["league_id"],
+                        "competition_name": league_entry.get("name") if league_entry else None,
+                        "country_context": league_entry.get("country") if league_entry else None,
+                        "date": row["date"],
+                        "error": str(e),
+                        "context": "inactivity_reset",
+                    })
+                    print(f"  SEEDING FAILED (inactivity reset): {team_name!r} (team_id={team_id}, "
+                          f"playing in {league_entry.get('name') if league_entry else row['league_id']}): {e}")
+                    reset_failed = True
+
+        if reset_failed:
+            skipped_missing_data += 1
+            skipped_match_details.append({
+                "reason": "inactivity_reset_failed",
+                "fixture_id": row.get("fixture_id"),
+                "league_id": row["league_id"],
+                "competition_name": league_entry.get("name") if league_entry else None,
+                "country_context": league_entry.get("country") if league_entry else None,
+                "date": row["date"],
+                "home_team": row.get("home_team"), "away_team": row.get("away_team"),
+            })
+            continue
 
         process_match(
             club_a=club_states[home_id],
