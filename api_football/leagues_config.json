@@ -76,7 +76,7 @@
   ],
   "Andorra": [
     {
-      "name": "1a Divisió",
+      "name": "1a Divisi\u00f3",
       "league_id": 312,
       "seasons": [
         2020,
@@ -90,7 +90,7 @@
       "tier": 1
     },
     {
-      "name": "Copa Constitució",
+      "name": "Copa Constituci\u00f3",
       "league_id": 655,
       "seasons": [
         2020,
@@ -569,7 +569,7 @@
   ],
   "Bolivia": [
     {
-      "name": "Primera División",
+      "name": "Primera Divisi\u00f3n",
       "league_id": 344,
       "seasons": [
         2025,
@@ -579,7 +579,7 @@
       "tier": 1
     },
     {
-      "name": "Copa de la División Profesional",
+      "name": "Copa de la Divisi\u00f3n Profesional",
       "league_id": 964,
       "seasons": [
         2025
@@ -820,7 +820,7 @@
       "type": "cup"
     },
     {
-      "name": "Gaúcho - 1",
+      "name": "Ga\u00facho - 1",
       "league_id": 477,
       "seasons": [
         2025,
@@ -829,7 +829,7 @@
       "type": "cup"
     },
     {
-      "name": "Gaúcho - 2",
+      "name": "Ga\u00facho - 2",
       "league_id": 478,
       "seasons": [
         2025
@@ -837,7 +837,7 @@
       "type": "cup"
     },
     {
-      "name": "Gaúcho - 3",
+      "name": "Ga\u00facho - 3",
       "league_id": 1150,
       "seasons": [
         2025
@@ -1038,7 +1038,7 @@
       "type": "cup"
     },
     {
-      "name": "Paulista Série B",
+      "name": "Paulista S\u00e9rie B",
       "league_id": 1098,
       "seasons": [
         2025,
@@ -1239,7 +1239,7 @@
       "type": "cup"
     },
     {
-      "name": "Copa Espírito Santo",
+      "name": "Copa Esp\u00edrito Santo",
       "league_id": 1097,
       "seasons": [
         2025,
@@ -1256,7 +1256,7 @@
       "type": "cup"
     },
     {
-      "name": "Copa Gaúcha",
+      "name": "Copa Ga\u00facha",
       "league_id": 1158,
       "seasons": [
         2025,
@@ -1265,7 +1265,7 @@
       "type": "cup"
     },
     {
-      "name": "Copa Grão Pará",
+      "name": "Copa Gr\u00e3o Par\u00e1",
       "league_id": 1184,
       "seasons": [
         2025,
@@ -1478,7 +1478,7 @@
   ],
   "Chile": [
     {
-      "name": "Primera División",
+      "name": "Primera Divisi\u00f3n",
       "league_id": 265,
       "seasons": [
         2025,
@@ -1620,7 +1620,7 @@
   ],
   "Costa-Rica": [
     {
-      "name": "Primera División",
+      "name": "Primera Divisi\u00f3n",
       "league_id": 162,
       "seasons": [
         2025,
@@ -1721,7 +1721,7 @@
   ],
   "Curacao": [
     {
-      "name": "Curaçao Sekshon Pagá",
+      "name": "Cura\u00e7ao Sekshon Pag\u00e1",
       "league_id": 642,
       "seasons": [],
       "type": "league",
@@ -2177,7 +2177,7 @@
       "tier": 1
     },
     {
-      "name": "Løgmanssteypid",
+      "name": "L\u00f8gmanssteypid",
       "league_id": 491,
       "seasons": [
         2020,
@@ -2366,7 +2366,7 @@
       "type": "cup"
     },
     {
-      "name": "Trophée des Champions",
+      "name": "Troph\u00e9e des Champions",
       "league_id": 526,
       "seasons": [
         2020,
@@ -2794,7 +2794,7 @@
   ],
   "Haiti": [
     {
-      "name": "Ligue Haïtienne",
+      "name": "Ligue Ha\u00eftienne",
       "league_id": 379,
       "seasons": [
         2025
@@ -2883,7 +2883,7 @@
   ],
   "Iceland": [
     {
-      "name": "Úrvalsdeild",
+      "name": "\u00darvalsdeild",
       "league_id": 164,
       "seasons": [
         2020,
@@ -3908,7 +3908,7 @@
   ],
   "Macao": [
     {
-      "name": "Primeira Divisão",
+      "name": "Primeira Divis\u00e3o",
       "league_id": 969,
       "seasons": [
         2025,
@@ -3998,7 +3998,7 @@
   ],
   "Mali": [
     {
-      "name": "Première Division",
+      "name": "Premi\u00e8re Division",
       "league_id": 598,
       "seasons": [
         2025
@@ -4078,7 +4078,7 @@
       "tier": 1
     },
     {
-      "name": "Liga de Expansión MX",
+      "name": "Liga de Expansi\u00f3n MX",
       "league_id": 263,
       "seasons": [
         2025,
@@ -4088,7 +4088,7 @@
       "tier": 2
     },
     {
-      "name": "Campeón de Campeones",
+      "name": "Campe\u00f3n de Campeones",
       "league_id": 857,
       "seasons": [
         2025,
@@ -4309,7 +4309,79 @@
       "league_id": 280,
       "seasons": [],
       "type": "league",
+      "tier": 1,
+      "_note": "Discontinued after 2020 - replaced by National League in 2021. Kept for historical pre-2021 seasons only."
+    },
+    {
+      "name": "National League - Central",
+      "league_id": 954,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "type": "league",
       "tier": 1
+    },
+    {
+      "name": "National League - Northern",
+      "league_id": 956,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1
+    },
+    {
+      "name": "National League - Southern",
+      "league_id": 957,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1
+    },
+    {
+      "name": "National League - Championship",
+      "league_id": 955,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "type": "league",
+      "tier": 1,
+      "_note": "National playoff phase combining the three regional group winners/qualifiers."
+    },
+    {
+      "name": "National League Final",
+      "league_id": 1056,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "type": "cup",
+      "_note": "Single-match decider following the Championship playoff phase."
     },
     {
       "name": "Chatham Cup",
@@ -4519,7 +4591,7 @@
   ],
   "Panama": [
     {
-      "name": "Liga Panameña de Fútbol",
+      "name": "Liga Paname\u00f1a de F\u00fatbol",
       "league_id": 304,
       "seasons": [
         2025,
@@ -4579,7 +4651,7 @@
   ],
   "Peru": [
     {
-      "name": "Primera División",
+      "name": "Primera Divisi\u00f3n",
       "league_id": 281,
       "seasons": [
         2025,
@@ -4597,7 +4669,7 @@
       "type": "cup"
     },
     {
-      "name": "Copa Perú",
+      "name": "Copa Per\u00fa",
       "league_id": 503,
       "seasons": [
         2025
@@ -4734,7 +4806,7 @@
       "type": "cup"
     },
     {
-      "name": "Taça da Liga",
+      "name": "Ta\u00e7a da Liga",
       "league_id": 97,
       "seasons": [
         2020,
@@ -4747,7 +4819,7 @@
       "type": "cup"
     },
     {
-      "name": "Taça de Portugal",
+      "name": "Ta\u00e7a de Portugal",
       "league_id": 96,
       "seasons": [
         2020,
@@ -4917,7 +4989,7 @@
       "tier": 1
     },
     {
-      "name": "Cupa României",
+      "name": "Cupa Rom\u00e2niei",
       "league_id": 285,
       "seasons": [
         2020,
@@ -5412,7 +5484,7 @@
       "tier": 1
     },
     {
-      "name": "Primera División RFEF - Group 1",
+      "name": "Primera Divisi\u00f3n RFEF - Group 1",
       "league_id": 435,
       "seasons": [
         2020,
@@ -5426,7 +5498,7 @@
       "tier": 3
     },
     {
-      "name": "Primera División RFEF - Group 2",
+      "name": "Primera Divisi\u00f3n RFEF - Group 2",
       "league_id": 436,
       "seasons": [
         2020,
@@ -5440,7 +5512,7 @@
       "tier": 3
     },
     {
-      "name": "Primera División RFEF - Group 3",
+      "name": "Primera Divisi\u00f3n RFEF - Group 3",
       "league_id": 437,
       "seasons": [
         2020
@@ -5449,7 +5521,7 @@
       "tier": 3
     },
     {
-      "name": "Primera División RFEF - Group 4",
+      "name": "Primera Divisi\u00f3n RFEF - Group 4",
       "league_id": 438,
       "seasons": [
         2020
@@ -5458,7 +5530,7 @@
       "tier": 3
     },
     {
-      "name": "Primera División RFEF - Group 5",
+      "name": "Primera Divisi\u00f3n RFEF - Group 5",
       "league_id": 692,
       "seasons": [
         2020
@@ -5467,7 +5539,7 @@
       "tier": 3
     },
     {
-      "name": "Primera División RFEF - Play Offs",
+      "name": "Primera Divisi\u00f3n RFEF - Play Offs",
       "league_id": 1006,
       "seasons": [
         2022,
@@ -5479,7 +5551,7 @@
       "tier": 3
     },
     {
-      "name": "Segunda División",
+      "name": "Segunda Divisi\u00f3n",
       "league_id": 141,
       "seasons": [
         2020,
@@ -5493,7 +5565,7 @@
       "tier": 2
     },
     {
-      "name": "Segunda División RFEF - Group 1",
+      "name": "Segunda Divisi\u00f3n RFEF - Group 1",
       "league_id": 875,
       "seasons": [
         2021,
@@ -5506,7 +5578,7 @@
       "tier": 4
     },
     {
-      "name": "Segunda División RFEF - Group 2",
+      "name": "Segunda Divisi\u00f3n RFEF - Group 2",
       "league_id": 876,
       "seasons": [
         2021,
@@ -5519,7 +5591,7 @@
       "tier": 4
     },
     {
-      "name": "Segunda División RFEF - Group 3",
+      "name": "Segunda Divisi\u00f3n RFEF - Group 3",
       "league_id": 877,
       "seasons": [
         2021,
@@ -5532,7 +5604,7 @@
       "tier": 4
     },
     {
-      "name": "Segunda División RFEF - Group 4",
+      "name": "Segunda Divisi\u00f3n RFEF - Group 4",
       "league_id": 878,
       "seasons": [
         2021,
@@ -5545,7 +5617,7 @@
       "tier": 4
     },
     {
-      "name": "Segunda División RFEF - Group 5",
+      "name": "Segunda Divisi\u00f3n RFEF - Group 5",
       "league_id": 879,
       "seasons": [
         2021,
@@ -5558,7 +5630,7 @@
       "tier": 4
     },
     {
-      "name": "Segunda División RFEF - Play-offs",
+      "name": "Segunda Divisi\u00f3n RFEF - Play-offs",
       "league_id": 1000,
       "seasons": [
         2022,
@@ -5847,7 +5919,7 @@
       "tier": 2
     },
     {
-      "name": "Süper Lig",
+      "name": "S\u00fcper Lig",
       "league_id": 203,
       "seasons": [
         2020,
@@ -5874,7 +5946,7 @@
       "type": "cup"
     },
     {
-      "name": "Türkiye Kupası",
+      "name": "T\u00fcrkiye Kupas\u0131",
       "league_id": 206,
       "seasons": [
         2020,
@@ -5889,7 +5961,7 @@
   ],
   "Turkmenistan": [
     {
-      "name": "Ýokary Liga",
+      "name": "\u00ddokary Liga",
       "league_id": 636,
       "seasons": [
         2025,
@@ -6040,7 +6112,7 @@
   ],
   "Uruguay": [
     {
-      "name": "Primera División - Apertura",
+      "name": "Primera Divisi\u00f3n - Apertura",
       "league_id": 268,
       "seasons": [
         2025,
@@ -6050,7 +6122,7 @@
       "tier": 1
     },
     {
-      "name": "Primera División - Clausura",
+      "name": "Primera Divisi\u00f3n - Clausura",
       "league_id": 270,
       "seasons": [
         2025
@@ -6059,7 +6131,7 @@
       "tier": 1
     },
     {
-      "name": "Segunda División",
+      "name": "Segunda Divisi\u00f3n",
       "league_id": 269,
       "seasons": [
         2025,
@@ -6124,7 +6196,7 @@
   ],
   "Venezuela": [
     {
-      "name": "Primera División",
+      "name": "Primera Divisi\u00f3n",
       "league_id": 299,
       "seasons": [
         2025,

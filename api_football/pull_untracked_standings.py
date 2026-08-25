@@ -9,11 +9,13 @@ of pulling full team rosters.
 
 This is the raw material for building a "clubs outside the ranking"
 database: once you know which club names sit in which untracked
-leagues, you fill in a tier-depth CSV (how many levels below the
-country's deepest TRACKED tier that league sits), and that becomes a
-lookup run_ratings.py can use instead of falling back to the generic
-"one level below deepest tracked tier" placeholder assumption for every
-untracked club uniformly.
+leagues, you fill in a tier CSV (that league's actual tier number in
+the country's overall pyramid, e.g. 4 for a country's 4th division -
+not a depth relative to whatever's currently directly tracked, which
+would go stale if the directly-tracked depth ever changes), and that
+becomes a lookup run_ratings.py can use instead of falling back to the
+generic "one level below deepest tracked tier" placeholder assumption
+for every untracked club uniformly.
 
 COST WARNING: this is one request per untracked league (standings),
 plus one request per country (to enumerate its leagues) - potentially
@@ -45,7 +47,38 @@ CACHE_DIR = os.path.join(SCRIPT_DIR, "cache")
 OUT_PATH = os.path.join(SCRIPT_DIR, "untracked_leagues_standings.csv")
 os.makedirs(CACHE_DIR, exist_ok=True)
 
-CURRENT_SEASON = 2025  # adjust if you want a different season's standings
+CURRENT_SEASON = 2026  # adjust if you want a different season's standings
+
+# Keyword-based pre-flagging for leagues that are very likely NOT
+# senior men's competitions (women's, youth/age-grade, reserve teams).
+# This pre-fills "EXCLUDE" in the output CSV as a starting suggestion,
+# not a final decision - review every pre-filled row, since keyword
+# matching has false positives (e.g. a league literally named after a
+# person or place that happens to contain "U19"-like substrings) and
+# false negatives (a women's/youth league that doesn't happen to use
+# any of these words). Change any row's value freely before running
+# apply_untracked_leagues.py.
+EXCLUDE_KEYWORDS = [
+    # English
+    "women", "woman", "ladies", "youth", "junior", "juniors", "reserve", "reserves",
+    # Spanish / Portuguese
+    "femenino", "femenina", "feminino", "feminina", "juvenil",
+    # French
+    "feminin", "féminine", "femmes",
+    # German
+    "frauen", "jugend",
+    # Italian
+    "femminile", "giovanile",
+    # Dutch
+    "vrouwen",
+    # Age-grade brackets (language-independent)
+    "u23", "u21", "u20", "u19", "u18", "u17", "u16", "u15", "u14",
+]
+
+
+def looks_excludable(league_name: str) -> bool:
+    lowered = league_name.lower()
+    return any(kw in lowered for kw in EXCLUDE_KEYWORDS)
 
 
 def api_get(endpoint, params):
@@ -124,12 +157,19 @@ def main():
     for i, (country, league_id, league_name) in enumerate(untracked_leagues, 1):
         print(f"  [{i}/{len(untracked_leagues)}] {country} / {league_name}")
         data = api_get("standings", {"league": league_id, "season": CURRENT_SEASON})
+        pre_fill = "EXCLUDE" if looks_excludable(league_name) else ""
         if data.get("errors") or not data.get("response"):
+            # No standings data means zero clubs from this league end up in
+            # untracked_clubs.json - so no tier value here could ever
+            # produce output either way. Auto-fill "N/A" so this row never
+            # needs to be looked at, instead of leaving it blank (which
+            # apply_untracked_leagues.py would otherwise flag as an error
+            # requiring an explicit decision).
             league_rows.append({
                 "country": country, "league_id": league_id, "league_name": league_name,
                 "sample_clubs": "(no standings data - league may not have started, "
                                  "wrong season, or is a cup format without a table)",
-                "tier_depth_below_deepest_tracked": "",
+                "tier": "N/A",
             })
             continue
         try:
@@ -150,15 +190,20 @@ def main():
         league_rows.append({
             "country": country, "league_id": league_id, "league_name": league_name,
             "sample_clubs": sample_names,
-            "tier_depth_below_deepest_tracked": "",  # <- fill in: how many levels
-                                                       #    below this country's
-                                                       #    deepest TRACKED tier
+            "tier": pre_fill,  # <- pre-filled "EXCLUDE" if the league
+                                #    name looks like women's/youth/reserve -
+                                #    review and correct as needed.
+                                #    Otherwise fill in the club's actual
+                                #    tier number in this country's overall
+                                #    pyramid (e.g. 4 for a country's 4th
+                                #    division) - NOT a depth relative to
+                                #    what's currently directly tracked.
         })
 
     league_csv_path = os.path.join(SCRIPT_DIR, "untracked_leagues.csv")
     with open(league_csv_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=["country", "league_id", "league_name",
-                                                 "sample_clubs", "tier_depth_below_deepest_tracked"])
+                                                 "sample_clubs", "tier"])
         writer.writeheader()
         writer.writerows(league_rows)
 
@@ -166,9 +211,15 @@ def main():
     with open(clubs_json_path, "w", encoding="utf-8") as f:
         json.dump(club_rows, f, indent=2)
 
+    pre_excluded = sum(1 for r in league_rows if r["tier"] == "EXCLUDE")
     print(f"\nWrote {len(league_rows)} leagues to {league_csv_path} - "
-          f"fill in 'tier_depth_below_deepest_tracked' for each (1 = one level below your "
-          f"deepest tracked tier for that country, 2 = two levels below, etc.)")
+          f"fill in 'tier' for each with the league's ACTUAL tier number in that "
+          f"country's pyramid (e.g. 4 for a country's 4th division - not a depth "
+          f"relative to what's currently directly tracked), or 'EXCLUDE' "
+          f"for leagues that shouldn't feed into ratings at all.")
+    print(f"  {pre_excluded} of these were pre-filled with 'EXCLUDE' based on the league name "
+          f"looking like women's/youth/reserve football - review these (and every other row) "
+          f"before running apply_untracked_leagues.py, since keyword matching isn't perfect.")
     print(f"Wrote {len(club_rows)} individual clubs to {clubs_json_path} - "
           f"this one's fully automatic, nothing to fill in.")
     print("Once untracked_leagues.csv is filled in, run apply_untracked_leagues.py.")

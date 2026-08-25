@@ -1,0 +1,7 @@
+{
+  "_comment": "Manual overrides for knockout ties whose winner can't be determined from fixtures data alone (penalty shootouts have no recorded score). Key format: '{league_id}_{season}_{round}_{team_id_a}_{team_id_b}' with team_ids sorted numerically ascending. Add entries here as you discover them; bracket.py checks this before giving up on an unresolved tie.",
+  "2_2025_Final_42_85": {
+    "winner_id": "85",
+    "note": "PSG beat Arsenal on penalties, 2025-26 UEFA Champions League Final. Added manually 2026-08-24 - api-football fixtures data has no penalty shootout score."
+  }
+}

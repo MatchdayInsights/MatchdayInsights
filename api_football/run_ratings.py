@@ -45,6 +45,8 @@ from elo_engine import (
     untracked_placeholder_rating,
 )
 from match_context_builder import build_match_context, _load_json, FINALS_CONFIG_PATH, VENUE_OVERRIDES_PATH
+from history_snapshots import generate_snapshot_dates, SnapshotRecorder, SNAPSHOT_START_DATE
+from match_log import MatchLogRecorder, MAX_LOG_LENGTH
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 FIXTURES_DIR = os.path.join(SCRIPT_DIR, "data", "fixtures")
@@ -248,10 +250,13 @@ def get_starting_position(
         exists yet (the true first season, or when season_snapshots
         isn't provided at all).
 
-    untracked_club_tiers: optional {team_id: {"tier_depth_below_deepest_tracked": N, ...}}
+    untracked_club_tiers: optional {team_id: {"tier": N, ...}}
         from untracked_club_tiers.json (see pull_untracked_standings.py /
-        apply_untracked_leagues.py). When a club is found here, its
-        precise tier depth is used instead of the generic "always one
+        apply_untracked_leagues.py). N is the club's ACTUAL tier number
+        in its country's pyramid (e.g. 4 for a country's 4th division) -
+        not a depth relative to whatever's currently directly tracked,
+        which would go stale if that changes. When a club is found here,
+        its precise tier is used instead of the generic "always one
         level below deepest tracked" assumption - the difference between
         correctly distinguishing a Czech 3rd-tier club from a 4th-tier
         one, versus treating every untracked club identically.
@@ -286,7 +291,7 @@ def get_starting_position(
          crashing) -> chain the untracked-placeholder ratios from the
          deepest available tier for that country.
       6. Tier NOT known, but club found in untracked_club_tiers -> chain
-         the placeholder ratios using its PRECISE known depth.
+         the untracked-placeholder ratios using its PRECISE actual tier.
       7. Tier NOT known at all and not in untracked_club_tiers either
          (genuinely unidentified club, OR a league-override club) ->
          untracked-placeholder chain assuming just one level below
@@ -448,10 +453,9 @@ def get_starting_position(
     if tier is None and untracked_club_tiers is not None and override is None:
         known = untracked_club_tiers.get(team_id)
         if known is not None:
-            precise_depth = known["tier_depth_below_deepest_tracked"]
-            target_tier = deepest_tier + precise_depth
+            target_tier = known["tier"]
             placeholder = untracked_placeholder_rating(deepest_value, deepest_tier, target_tier)
-            return placeholder, f"placeholder:{code}_t{target_tier}:known_depth:{value_source}"
+            return placeholder, f"placeholder:{code}_t{target_tier}:known_tier:{value_source}"
 
     target_tier = tier if (tier is not None and tier > deepest_tier) else deepest_tier + 1
     placeholder = untracked_placeholder_rating(deepest_value, deepest_tier, target_tier)
@@ -504,10 +508,15 @@ def build_team_country_lookup(fixtures: list[dict], league_lookup: dict, overrid
     """
     A club's country is resolved with TYPE=='league' appearances taking
     priority over TYPE=='cup' appearances, not treated as equally
-    authoritative. This matters because a meaningful number of real
-    clubs genuinely play across two countries' domestic competitions at
-    once - several Welsh clubs (Cardiff, Swansea, Wrexham) compete in the
-    ENGLISH league pyramid while also entering the Welsh Cup; Toronto FC/
+    authoritative. Within each type, the MOST RECENT chronological
+    occurrence wins (fixtures are pre-sorted before this runs) - so a
+    club that changed countries at some point (rare, but real: ID reuse,
+    or a genuine cross-border move) resolves to wherever it's playing
+    now, not wherever it started. This matters because a meaningful
+    number of real clubs genuinely play across two countries' domestic
+    competitions at once - several Welsh clubs (Cardiff, Swansea,
+    Wrexham) compete in the ENGLISH league pyramid while also entering
+    the Welsh Cup; Toronto FC/
     CF Montreal/Vancouver Whitecaps play MLS (USA) while also entering
     the Canadian Championship; French overseas-department clubs
     (Guadeloupe, Martinique) enter the mainland Coupe de France on top of
@@ -580,7 +589,7 @@ def build_team_country_lookup(fixtures: list[dict], league_lookup: dict, overrid
     if cup_only_conflicts:
         print(f"  NOTE: {len(cup_only_conflicts)} team_id(s) with no league appearance at all "
               f"showed up under more than one country via cup competitions - resolved to "
-              f"whichever was seen first, worth a spot-check if any of these look important:")
+              f"whichever was seen most recently, worth a spot-check if any of these look important:")
         for team_id, c1, c2 in cup_only_conflicts:
             print(f"    {team_names.get(team_id)!r} (team_id={team_id}): seen under both {c1!r} and {c2!r}")
 
@@ -920,6 +929,12 @@ def main():
     season_snapshots = {}  # (country, tier, season) -> snapshot dict, keyed
                             # as a string "country|tier|season" for JSON output
 
+    print("Computing public chart-history snapshot dates (Mon/Thu cadence)...")
+    history_dates = generate_snapshot_dates(SNAPSHOT_START_DATE, datetime.now().date())
+    history_recorder = SnapshotRecorder(history_dates)
+    match_log_recorder = MatchLogRecorder()
+    last_processed_match_date = None  # tracked for the final catch-up snapshot
+
     club_states: dict[str, ClubState] = {}
     seed_sources: dict[str, str] = {}  # for the end-of-run audit summary
     club_is_tracked: dict[str, bool] = {}  # True = real tracked-tier club,
@@ -931,6 +946,24 @@ def main():
                                               # for - used to detect when an
                                               # untracked club needs a fresh
                                               # placeholder recalculation.
+    club_current_name: dict[str, str] = {}  # most recently seen display
+                                             # name per team_id - updated on
+                                             # EVERY match appearance, not
+                                             # just at seed time, so it
+                                             # reflects renames/rebrands.
+    club_current_meta: dict[str, dict] = {}  # team_id -> {"country":...,
+                                              # "league_code":..., "season":...}
+                                              # - the club's CURRENT tier
+                                              # identity, refreshed alongside
+                                              # club_is_tracked whenever a
+                                              # club is (re)seeded. Powers
+                                              # rankings.json's country/
+                                              # league_code fields - a club's
+                                              # tier can change via
+                                              # promotion/relegation, so this
+                                              # always reflects the latest
+                                              # resolved value, not a static
+                                              # one-time lookup.
 
     processed = 0
     skipped_missing_data = 0
@@ -942,10 +975,49 @@ def main():
                                  # skipped_matches_report.json at the end,
                                  # not just counted
 
+    def _current_club_meta(team_id: str, season: str) -> dict:
+        """Country + league_code (e.g. "ENG_2") + season, exactly matching
+        the code/key resolution logic used throughout get_starting_position -
+        computed independently here since get_starting_position only
+        returns (rating, source), not the resolved identity itself."""
+        country = get_team_country(team_id, team_country_lookup)
+        base_code = country_code_mapping.get(country)
+        tier = team_tier_by_season.get((team_id, season))
+        league_code = base_code if (tier is None or tier == 1) else f"{base_code}_{tier}"
+        return {"country": base_code, "league_code": league_code, "season": season}
+
     for i, row in enumerate(fixtures):
         home_id = row["home_team_id"]
         away_id = row["away_team_id"]
         season = row["season"]
+        match_date = fixture_sort_key(row).date()
+
+        # Capture any public chart-history snapshot dates that have now
+        # fully passed, using club state exactly as it stands before this
+        # fixture is applied - BEFORE either side gets seeded/reseeded
+        # below. Getting this ordering right matters: if a brand-new
+        # club's seeding happened first, the very first snapshot this
+        # match's date newly makes eligible would already see that club
+        # in club_states and incorrectly backfill it into every
+        # historical catch-up snapshot back to SNAPSHOT_START_DATE with
+        # its flat initial rating, even though its real first match is
+        # potentially years later.
+        history_recorder.maybe_snapshot(match_date, club_states, club_is_tracked)
+        last_processed_match_date = match_date
+
+        # Track the most recently seen name and current tier identity for
+        # both sides, on EVERY match appearance - not just at seed time.
+        # A directly-tracked club never goes through the reseed branch
+        # below (its rating evolves via real match results instead), so
+        # capturing this only at initial seed would go stale the moment
+        # that club is later promoted or relegated. Name and tier identity
+        # should always reflect the club's most recent real appearance.
+        if row.get("home_team"):
+            club_current_name[home_id] = row["home_team"]
+        if row.get("away_team"):
+            club_current_name[away_id] = row["away_team"]
+        club_current_meta[home_id] = _current_club_meta(home_id, season)
+        club_current_meta[away_id] = _current_club_meta(away_id, season)
 
         league_entry = league_lookup.get(int(row["league_id"]))
         if league_entry is None:
@@ -968,19 +1040,36 @@ def main():
 
         for team_id in (home_id, away_id):
             needs_seed = team_id not in club_states
-            needs_reseed = (
-                not needs_seed
-                and not club_is_tracked.get(team_id, True)
-                and club_seeded_season.get(team_id) != season
-            )
-            # A club not yet seen gets seeded normally. An UNTRACKED club
-            # already seen, but whose stored rating is from an earlier
-            # season, gets its placeholder recalculated fresh for the new
-            # season (using whatever the tier-above's CURRENT snapshot is
-            # now) rather than carrying over a stale value or letting match
-            # results have moved it - untracked ratings are season
-            # constants, not running totals.
-            if not (needs_seed or needs_reseed):
+            was_tracked = club_is_tracked.get(team_id, True)
+            season_changed = not needs_seed and club_seeded_season.get(team_id) != season
+
+            # An UNTRACKED club whose season has changed gets its
+            # placeholder recalculated fresh (using whatever the
+            # tier-above's CURRENT snapshot is now) rather than carrying
+            # over a stale value - untracked ratings are season
+            # constants, not running totals. If it turns out to now be
+            # PROMOTED into a genuinely tracked tier, this same
+            # recalculation correctly starts it fresh as a brand-new
+            # tracked club (get_starting_position's normal Starting
+            # Position, not whatever placeholder value it carried while
+            # untracked) - Greg's stated design: a promoted club is
+            # "treated as if brand new for the ranking."
+            needs_reseed = season_changed and not was_tracked
+
+            # A club that IS currently tracked, but whose season has
+            # changed, needs a check too - a normal relegation (finish
+            # one season, start the next a few weeks later) never
+            # triggers the 365-day inactivity-gap reset below, so
+            # without this check a relegated club would silently keep
+            # evolving via real match results in a tier that's no
+            # longer supposed to be tracked at all. This only actually
+            # RESETS the rating if the check confirms tracked status
+            # genuinely dropped this season - if it's still tracked
+            # (e.g. just a normal continuing top-tier club), the
+            # existing evolved rating is left untouched below.
+            needs_tracked_status_check = season_changed and was_tracked
+
+            if not (needs_seed or needs_reseed or needs_tracked_status_check):
                 continue
             try:
                 rating, source = get_starting_position(
@@ -988,13 +1077,34 @@ def main():
                     country_code_mapping, league_starts, untracked_club_tiers,
                     season_snapshots, row["league_id"], season_inclusion, relegation_percentages,
                 )
+                still_tracked = source.startswith("direct") or source.startswith("league_override") or source.startswith("standard_promotion")
+
+                if needs_tracked_status_check and still_tracked:
+                    # Still genuinely tracked this season (the normal,
+                    # common case - most tracked clubs stay tracked
+                    # season to season) - just refresh the season
+                    # marker so this check doesn't keep re-firing every
+                    # match this season. Rating keeps evolving from its
+                    # current real value, untouched.
+                    club_seeded_season[team_id] = season
+                    continue
+
+                # Every remaining case gets a freshly-computed rating:
+                # a brand-new club, an untracked club's season refresh
+                # (possibly now promoted into a tracked tier), or a
+                # previously-tracked club that just fell OUT of tracked
+                # status this season (relegated below what's directly
+                # tracked, or its league dropped from season_inclusion) -
+                # treated exactly like any other untracked-placeholder
+                # club from this point on, per Greg's stated design,
+                # not left silently evolving from its old tracked value.
                 club_states[team_id] = ClubState(rating=rating, last_match_date=None)
                 seed_sources[team_id] = source
                 # league_override clubs (e.g. OFC Pro League) are genuinely
                 # tracked - a real league, ratings should evolve via match
                 # results normally, not stay season-locked like an
                 # untracked-placeholder club.
-                club_is_tracked[team_id] = source.startswith("direct") or source.startswith("league_override") or source.startswith("standard_promotion")
+                club_is_tracked[team_id] = still_tracked
                 club_seeded_season[team_id] = season
             except ValueError as e:
                 seeding_failures += 1
@@ -1056,8 +1166,6 @@ def main():
         else:
             result_a = 0.5
 
-        match_date = fixture_sort_key(row).date()
-
         # 365-day inactivity reset: if either club's last recorded match
         # was more than a year before this one, process_match needs a
         # freshly-computed Starting Position ready to hand it - it won't
@@ -1107,6 +1215,9 @@ def main():
             })
             continue
 
+        rating_a_before = club_states[home_id].rating
+        rating_b_before = club_states[away_id].rating
+
         process_match(
             club_a=club_states[home_id],
             club_b=club_states[away_id],
@@ -1120,6 +1231,33 @@ def main():
         )
         processed += 1
 
+        # Log this match into each side's own rolling result history -
+        # independently gated per side on exactly the same
+        # club_is_tracked condition already used above for update_a/
+        # update_b, so a tracked club's match against an untracked
+        # opponent still correctly logs from the TRACKED side's own
+        # perspective (its own rating did move), while the untracked
+        # side (whose rating never moves mid-season) doesn't get a
+        # meaningless log entry of its own.
+        if club_is_tracked.get(home_id, True):
+            match_log_recorder.record_match(
+                home_id, row.get("away_team"), away_id, match_date,
+                gf=home_score, ga=away_score,
+                elo_change=club_states[home_id].rating - rating_a_before,
+                season=season,
+                league_id=row["league_id"],
+                competition_type=competition_type,
+            )
+        if club_is_tracked.get(away_id, True):
+            match_log_recorder.record_match(
+                away_id, row.get("home_team"), home_id, match_date,
+                gf=away_score, ga=home_score,
+                elo_change=club_states[away_id].rating - rating_b_before,
+                season=season,
+                league_id=row["league_id"],
+                competition_type=competition_type,
+            )
+
         # Season-boundary snapshot check: has this exact match's index just
         # completed one or more (league_id, season) groups?
         for league_id_key, season_key in season_end_triggers.get(i, []):
@@ -1130,6 +1268,35 @@ def main():
     with open(os.path.join(SCRIPT_DIR, "season_snapshots.json"), "w") as f:
         json.dump(season_snapshots, f, indent=2)
     print(f"\nWrote season_snapshots.json - {len(season_snapshots)} tier-seasons captured")
+
+    if last_processed_match_date is not None:
+        history_recorder.finalize(club_states, club_is_tracked, last_processed_match_date)
+        history_output_dir = os.path.join(SCRIPT_DIR, "history")
+        num_history_files = history_recorder.write_all(history_output_dir)
+        print(f"Wrote {num_history_files} per-club chart-history files to "
+              f"{history_output_dir}/ (public rankings/chart data, "
+              f"Mon/Thu cadence from {SNAPSHOT_START_DATE.isoformat()})")
+
+        club_metadata = {}
+        for team_id in history_recorder.histories:
+            club_metadata[team_id] = {
+                "name": club_current_name.get(team_id, f"(unknown, team_id={team_id})"),
+                "country": club_current_meta.get(team_id, {}).get("country"),
+                "league_code": club_current_meta.get(team_id, {}).get("league_code"),
+                "season": club_current_meta.get(team_id, {}).get("season"),
+            }
+        with open(os.path.join(SCRIPT_DIR, "club_metadata.json"), "w", encoding="utf-8") as f:
+            json.dump(club_metadata, f, indent=2, sort_keys=True)
+        print(f"Wrote club_metadata.json - name/country/league_code/season for "
+              f"{len(club_metadata)} clubs (the rankings.json generator's other input, "
+              f"alongside history/)")
+
+        match_log_output_dir = os.path.join(SCRIPT_DIR, "match_log")
+        num_match_log_files = match_log_recorder.write_all(match_log_output_dir)
+        print(f"Wrote {num_match_log_files} per-club match-log files to "
+              f"{match_log_output_dir}/ (last up to {MAX_LOG_LENGTH} matches per club - "
+              f"powers Tier B rankings.json fields: last_result/opponent/score, "
+              f"calendar-year record, form5/form10)")
 
     print(f"\nProcessed {processed} matches.")
     print(f"Seeded {len(club_states)} clubs with a Starting Position.")

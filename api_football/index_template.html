@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matchday Insights | Global Club Rankings</title>
+<meta name="description" content="The most comprehensive global club football rankings. Thousands of clubs ranked by Elo rating, updated every Monday and Thursday.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+<link rel="stylesheet" href="club-page.css">
+<style>
+.hero{padding:40px 20px 28px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(10,20,13,0.6) 0%,transparent 50%)}
+.hero::after{content:'MDI';position:absolute;right:-10px;top:-15px;font-size:160px;font-weight:900;color:rgba(61,186,94,0.04);pointer-events:none;letter-spacing:-6px;line-height:1;font-family:'Barlow Condensed',sans-serif}
+.hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
+.hero-title{font-size:clamp(40px,5vw,64px);font-weight:900;line-height:0.92;text-transform:uppercase;margin-bottom:14px;color:var(--text)}
+.hero-title em{font-style:normal;color:var(--green)}
+.hero-desc{font-size:15px;color:var(--text2);max-width:500px;line-height:1.55;margin-bottom:22px;font-weight:400}
+.hero-stats{display:flex;gap:28px;flex-wrap:wrap}
+.hstat{display:flex;flex-direction:column;gap:2px}
+.hstat-val{font-size:28px;font-weight:900;color:var(--text);line-height:1}
+.hstat-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase}
+.header-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+.update-chip{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--green);background:rgba(61,186,94,0.08);border:1px solid var(--green-dim);padding:4px 10px;border-radius:4px;white-space:nowrap}
+.ig-link{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);text-decoration:none;border:1px solid var(--border2);padding:4px 10px;border-radius:4px;transition:all 0.2s;white-space:nowrap}
+.ig-link:hover{border-color:var(--green-dim);color:var(--green);text-decoration:none}
+@media(max-width:640px){.ig-link{display:none}}
+
+.controls{padding:12px 20px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--surface);position:sticky;top:58px;z-index:99}
+.search-wrap{position:relative;flex:1;min-width:160px;max-width:280px}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;pointer-events:none}
+.search-input{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px 8px 30px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none;transition:border-color 0.2s}
+.search-input::placeholder{color:var(--muted)}
+.search-input:focus{border-color:var(--green-dim)}
+.filter-select{background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 28px 8px 10px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none;cursor:pointer;appearance:none;color-scheme:dark;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23565e78'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center;transition:border-color 0.2s}
+.filter-select option{background-color:var(--surface2);color:var(--text)}
+.filter-select:focus{border-color:var(--green-dim)}
+.results-info{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);margin-left:auto;white-space:nowrap}
+.results-info strong{color:var(--green)}
+
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:560px}
+thead tr{border-bottom:1px solid var(--border2)}
+th{font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:500;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;padding:9px 14px;text-align:left;cursor:pointer;user-select:none;transition:color 0.15s;white-space:nowrap}
+th:hover{color:var(--text2)} th.sorted{color:var(--green)} th.ar{text-align:right}
+.sort-icon{margin-left:3px;opacity:0.4} th.sorted .sort-icon{opacity:1}
+tbody tr{border-bottom:1px solid rgba(24,28,36,0.7);transition:background 0.1s;cursor:pointer}
+tbody tr:hover{background:rgba(61,186,94,0.04)}
+tbody tr.top3{background:rgba(61,186,94,0.06)} tbody tr.top10{background:rgba(61,186,94,0.02)}
+tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
+td{padding:10px 14px;vertical-align:middle}
+.td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
+.top3 .td-rank{color:var(--green);font-size:12px}
+.td-move{width:56px}
+.move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
+.move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
+.td-club{min-width:0;max-width:220px}
+.club-cell{display:flex;align-items:center;gap:8px}
+.country-badge{display:inline-flex;align-items:center;gap:4px;font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;color:var(--text2);flex-shrink:0}
+.country-badge .fi{border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,0.1)}
+.club-name-text{font-size:14px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
+.top3 .club-name-text{color:#eef2ee}
+.club-code{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text2);white-space:nowrap;margin-top:2px}
+.td-result{width:110px}
+.result-cell{display:flex;align-items:center;gap:6px}
+.result-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;width:16px;height:16px;border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.result-badge.W{background:rgba(61,186,94,0.15);color:var(--green)}
+.result-badge.D{background:rgba(100,120,180,0.15);color:#7890d0}
+.result-badge.L{background:rgba(232,68,102,0.15);color:var(--red)}
+.result-badge.x{background:transparent;color:var(--muted)}
+.result-detail{display:flex;flex-direction:column;min-width:0}
+.result-opp{font-size:11px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70px;font-weight:600;text-transform:uppercase;line-height:1.2}
+.result-score{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
+.td-elo{text-align:right;width:100px}
+.elo-cell{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.elo-number{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:var(--text)}
+.top3 .elo-number{color:var(--green)}
+.elo-bar{width:56px;height:2px;background:var(--border2);border-radius:1px;overflow:hidden}
+.elo-bar-fill{height:100%;border-radius:1px;background:var(--muted)}
+.top3 .elo-bar-fill{background:var(--green)} .top10 .elo-bar-fill{background:var(--green-dim)}
+.td-change{text-align:right;width:80px}
+.change-pill{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:600;padding:2px 7px;border-radius:4px;display:inline-block}
+.change-pill.up{background:rgba(61,186,94,0.1);color:var(--green)}
+.change-pill.dn{background:rgba(232,68,102,0.1);color:var(--red)}
+.change-pill.nc{background:rgba(52,58,80,0.2);color:var(--muted)}
+
+.empty-state{display:none;padding:60px 20px;text-align:center;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:12px}
+.empty-state.show{display:block}
+
+.pagination{display:flex;align-items:center;justify-content:center;gap:6px;padding:20px 20px;border-top:1px solid var(--border);flex-wrap:wrap}
+.page-btn{background:var(--surface2);border:1px solid var(--border2);color:var(--text2);font-family:'JetBrains Mono',monospace;font-size:11px;padding:6px 12px;border-radius:6px;cursor:pointer;transition:all 0.15s}
+.page-btn:hover:not(:disabled){border-color:var(--green-dim);color:var(--text)}
+.page-btn.active{background:var(--green);border-color:var(--green);color:#050a07;font-weight:700}
+.page-btn:disabled{opacity:0.3;cursor:not-allowed}
+.page-ellipsis{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:0 2px}
+
+@media(max-width:640px){.hero{padding:28px 16px 20px}.controls{padding:10px 16px}}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-logo">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </div>
+  <div class="header-right">
+    <span class="update-chip" id="update-chip">&#x2B21; Updated &mdash;</span>
+    <a href="https://x.com/MDInsights_FC" class="ig-link" target="_blank">@MDInsights_FC</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-eyebrow" id="hero-eyebrow">&#x2B21; Global Club Football &middot; &mdash; Clubs</div>
+  <h1 class="hero-title">Global<br><em>Club</em><br>Rankings</h1>
+  <p class="hero-desc">The most comprehensive Global club ranking on the internet. Every result across every tracked league updates the model. Updated every Monday and Thursday.</p>
+  <div class="hero-stats">
+    <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
+    <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
+    <div class="hstat"><div class="hstat-val">2&times;</div><div class="hstat-label">Weekly Updates</div></div>
+    <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">&#128269;</span>
+    <input type="text" id="search" class="search-input" placeholder="Search clubs...">
+  </div>
+  <select id="filter-confederation" class="filter-select">
+    <option value="">All Confederations</option>
+    <option value="UEFA">UEFA</option>
+    <option value="CONMEBOL">CONMEBOL</option>
+    <option value="CONCACAF">CONCACAF</option>
+    <option value="CAF">CAF</option>
+    <option value="AFC">AFC</option>
+    <option value="OFC">OFC</option>
+  </select>
+  <select id="filter-country" class="filter-select">
+    <option value="">All Countries</option>
+  </select>
+  <select id="filter-range" class="filter-select">
+    <option value="">All Ranks</option>
+    <option value="top10">Top 10</option>
+    <option value="top25">Top 25</option>
+    <option value="top50">Top 50</option>
+    <option value="top100">Top 100</option>
+  </select>
+  <div class="results-info" id="results-info"></div>
+</div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th data-col="rank">Rank <span class="sort-icon">&#8595;</span></th>
+        <th data-col="rank_change">Move</th>
+        <th data-col="club">Club</th>
+        <th>Last Result</th>
+        <th class="ar" data-col="elo">Elo</th>
+        <th class="ar" data-col="elo_change">Change</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+  <div class="empty-state" id="empty-state">No clubs match your filters.</div>
+</div>
+
+<div class="pagination" id="pagination"></div>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Matchday Insights</p>
+</footer>
+
+<script>
+const PAGE_SIZE = 50;
+const LATEST_UPDATE_DATE = '__LATEST_UPDATE_DATE__';
+let CLUBS = [];
+let filtered = [];
+let currentPage = 1;
+let sortCol = 'rank';
+let sortDir = 1;
+let eloMin = 0, eloMax = 1;
+
+
+const moveBadge=c=>c>0?`<span class="move-badge up">&#x25B2;${c}</span>`:c<0?`<span class="move-badge dn">&#x25BC;${Math.abs(c)}</span>`:`<span class="move-badge nc">&mdash;</span>`;
+const resultBadge=r=>r?`<span class="result-badge ${r}">${r}</span>`:`<span class="result-badge x">&mdash;</span>`;
+const changePill=v=>v===null||v===undefined?`<span class="change-pill nc">N/R</span>`:`<span class="change-pill ${v>0?'up':v<0?'dn':'nc'}">${v>0?'+':''}${v===0?'&mdash;':v.toFixed(1)}</span>`;
+
+async function init() {
+  const res = await fetch('rankings_table.json');
+  CLUBS = await res.json();
+  filtered = [...CLUBS];
+
+  const elos = CLUBS.map(c => c.elo);
+  eloMin = Math.min(...elos); eloMax = Math.max(...elos);
+
+  document.getElementById('stat-clubs').textContent = CLUBS.length.toLocaleString();
+  const leagueCount = new Set(CLUBS.map(c => c.league_code).filter(Boolean)).size;
+  document.getElementById('stat-leagues').textContent = leagueCount.toLocaleString() + '+';
+  document.getElementById('hero-eyebrow').innerHTML = '&#x2B21; Global Club Football &middot; ' + CLUBS.length.toLocaleString() + ' Clubs';
+  document.getElementById('update-chip').innerHTML = '&#x2B21; Updated ' + LATEST_UPDATE_DATE;
+
+  populateCountryDropdown();
+  renderTable();
+  wireControls();
+}
+
+function populateCountryDropdown(){
+  const seen = new Map();
+  CLUBS.forEach(c => { if(c.country && !seen.has(c.country)) seen.set(c.country, c.country_name || c.country); });
+  const entries = [...seen.entries()].sort((a,b) => a[1].localeCompare(b[1]));
+  const sel = document.getElementById('filter-country');
+  entries.forEach(([code, name]) => {
+    const opt = document.createElement('option');
+    opt.value = code; opt.textContent = name;
+    sel.appendChild(opt);
+  });
+}
+
+function renderTable(){
+  const tbody=document.getElementById('table-body');
+  const start=(currentPage-1)*PAGE_SIZE, page=filtered.slice(start,start+PAGE_SIZE);
+  document.getElementById('empty-state').classList.toggle('show',filtered.length===0);
+
+  tbody.innerHTML=page.map(c=>{
+    const rc=c.rank<=3?'top3':c.rank<=10?'top10':'';
+    const sc=c.last_score?`<div class="result-score">${c.last_score}</div>`:'';
+    const opp=c.last_opponent?c.last_opponent:'&mdash;';
+    const eloPct = eloMax>eloMin ? Math.round(100*(c.elo-eloMin)/(eloMax-eloMin)) : 0;
+    return `<tr class="${rc}" onclick="window.location='clubs/${c.slug}.html'"><td class="td-rank">${c.rank}</td><td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell"><span class="country-badge">${c.flag?`<span class="fi fi-${c.flag}"></span>`:''}</span><div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code||''}</div></div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell"><span class="elo-number">${c.elo.toFixed(1)}</span><div class="elo-bar"><div class="elo-bar-fill" style="width:${eloPct}%"></div></div></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
+  }).join('');
+
+  const s=filtered.length===0?0:start+1, e=Math.min(currentPage*PAGE_SIZE,filtered.length);
+  document.getElementById('results-info').innerHTML=`Showing <strong>${s}&ndash;${e}</strong> of <strong>${filtered.length.toLocaleString()}</strong>`;
+  renderPagination();
+}
+
+function renderPagination(){
+  const total=Math.ceil(filtered.length/PAGE_SIZE), pag=document.getElementById('pagination');
+  if(total<=1){pag.innerHTML='';return;}
+  let html=`<button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?'disabled':''}>&#x2190; Prev</button>`;
+  const pages=[];
+  if(total<=7){for(let i=1;i<=total;i++)pages.push(i);}
+  else{pages.push(1);if(currentPage>3)pages.push('...');for(let i=Math.max(2,currentPage-1);i<=Math.min(total-1,currentPage+1);i++)pages.push(i);if(currentPage<total-2)pages.push('...');pages.push(total);}
+  pages.forEach(p=>{if(p==='...')html+=`<span class="page-ellipsis">&hellip;</span>`;else html+=`<button class="page-btn ${p===currentPage?'active':''}" onclick="goPage(${p})">${p}</button>`;});
+  html+=`<button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===total?'disabled':''}>Next &#x2192;</button>`;
+  pag.innerHTML=html;
+}
+
+function goPage(n){
+  const total=Math.ceil(filtered.length/PAGE_SIZE);
+  if(n<1||n>total)return;
+  currentPage=n;renderTable();
+  window.scrollTo({top:document.querySelector('.controls').offsetTop-60,behavior:'smooth'});
+}
+
+function applyFilters(){
+  const q=document.getElementById('search').value.toLowerCase().trim();
+  const confederation=document.getElementById('filter-confederation').value;
+  const country=document.getElementById('filter-country').value;
+  const range=document.getElementById('filter-range').value;
+  filtered=CLUBS.filter(c=>{
+    if(q && !c.club.toLowerCase().includes(q) && !(c.league_code||'').toLowerCase().includes(q))return false;
+    if(country && c.country!==country)return false;
+    if(confederation && c.confederation!==confederation)return false;
+    if(range==='top10'&&c.rank>10)return false;
+    if(range==='top25'&&c.rank>25)return false;
+    if(range==='top50'&&c.rank>50)return false;
+    if(range==='top100'&&c.rank>100)return false;
+    return true;
+  });
+  currentPage=1;renderTable();
+}
+
+function wireControls(){
+  document.querySelectorAll('th[data-col]').forEach(th=>{
+    th.addEventListener('click',()=>{
+      const col=th.dataset.col;
+      if(sortCol===col)sortDir*=-1;else{sortCol=col;sortDir=col==='rank'?1:-1;}
+      document.querySelectorAll('th').forEach(t=>t.classList.remove('sorted'));
+      th.classList.add('sorted');
+      filtered.sort((a,b)=>{
+        const av=a[col],bv=b[col];
+        if(av===null||av===undefined)return 1;
+        if(bv===null||bv===undefined)return -1;
+        if(typeof av==='string')return av.localeCompare(bv)*sortDir;
+        return(av-bv)*sortDir;
+      });
+      currentPage=1;renderTable();
+    });
+  });
+  ['search','filter-confederation','filter-country','filter-range'].forEach(id=>
+    document.getElementById(id).addEventListener(id==='search'?'input':'change',applyFilters)
+  );
+}
+
+init();
+</script>
+
+</body>
+</html>
