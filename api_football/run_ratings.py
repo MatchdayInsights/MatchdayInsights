@@ -1093,6 +1093,18 @@ def main():
                                               # for - used to detect when an
                                               # untracked club needs a fresh
                                               # placeholder recalculation.
+    tracked_status_lost_events = []  # collected during the run, filtered
+                                      # and printed only at the very end -
+                                      # see the filtering logic after the
+                                      # main loop for why (most of these
+                                      # turn out to be real, correct
+                                      # relegations that get promoted back
+                                      # later in the same run - e.g. Brann
+                                      # in 2022 - printing every one of
+                                      # those immediately is noise, not
+                                      # signal; only a club that's STILL
+                                      # untracked once the whole run
+                                      # finishes is worth surfacing).
     club_current_name: dict[str, str] = {}  # most recently seen display
                                              # name per team_id - updated on
                                              # EVERY match appearance, not
@@ -1293,19 +1305,17 @@ def main():
                 # club from this point on, per Greg's stated design,
                 # not left silently evolving from its old tracked value.
                 if needs_tracked_status_check and not still_tracked:
-                    # A previously-tracked club just lost tracked status -
-                    # this is the single most consequential, least visible
-                    # thing this loop can do (it silently stops the club's
-                    # public chart history from that point on with no
-                    # other warning anywhere). Printed explicitly so a
-                    # case like this is immediately diagnosable in the
-                    # console instead of requiring after-the-fact detective
-                    # work through history files days or weeks later.
-                    print(f"  TRACKED STATUS LOST: {row.get('home_team') if team_id == home_id else row.get('away_team')!r} "
-                          f"(team_id={team_id}) - was tracked entering season {season}, "
-                          f"resolved via {source!r} instead of direct/league_override/"
-                          f"standard_promotion. Triggered by league_id={row['league_id']} "
-                          f"({league_entry.get('name') if league_entry else '?'}), date={row['date']}.")
+                    # Collected, not printed here - see the filtering pass
+                    # after the main loop for why.
+                    tracked_status_lost_events.append({
+                        "team_id": team_id,
+                        "name": row.get("home_team") if team_id == home_id else row.get("away_team"),
+                        "season": season,
+                        "source": source,
+                        "league_id": row["league_id"],
+                        "league_name": league_entry.get("name") if league_entry else "?",
+                        "date": row["date"],
+                    })
                 club_states[team_id] = ClubState(rating=rating, last_match_date=None)
                 seed_sources[team_id] = source
                 # league_override clubs (e.g. OFC Pro League) are genuinely
@@ -1497,6 +1507,29 @@ def main():
     with open(os.path.join(SCRIPT_DIR, "season_snapshots.json"), "w") as f:
         json.dump(season_snapshots, f, indent=2)
     print(f"\nWrote season_snapshots.json - {len(season_snapshots)} tier-seasons captured")
+
+    # Filter tracked_status_lost_events down to only clubs that are STILL
+    # untracked as of the end of the run - see Brann, 2022: they lost
+    # tracked status mid-run when relegated, then correctly regained it
+    # the following season once the same run processed their promotion
+    # back. Printing every such event as it happened would mean drowning
+    # a handful of genuinely-still-stuck clubs in years of accurate,
+    # already-resolved history. club_is_tracked now holds each club's
+    # FINAL status for this run, which is exactly the check needed.
+    still_lost = [e for e in tracked_status_lost_events if not club_is_tracked.get(e["team_id"], False)]
+    if still_lost:
+        print(f"\n{len(still_lost)} club(s) lost tracked status at some point and are STILL "
+              f"untracked as of this run's latest date - each of these is either a genuine "
+              f"current relegation (expected) or worth a spot-check like the Brann case:")
+        for e in still_lost:
+            print(f"  {e['name']!r} (team_id={e['team_id']}) - lost entering season "
+                  f"{e['season']}, resolved via {e['source']!r} instead of direct/"
+                  f"league_override/standard_promotion. Triggered by league_id="
+                  f"{e['league_id']} ({e['league_name']}), date={e['date']}.")
+    if len(tracked_status_lost_events) > len(still_lost):
+        print(f"\n({len(tracked_status_lost_events) - len(still_lost)} other tracked-status-loss "
+              f"event(s) this run self-resolved later - e.g. a real relegation followed by "
+              f"a real promotion back, like Brann in 2022-23 - and are not shown.)")
 
     if last_processed_match_date is not None:
         history_recorder.finalize(club_states, club_is_tracked, last_processed_match_date)
