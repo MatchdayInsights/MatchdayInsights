@@ -1,6 +1,9 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1607187,2026-08-19T00:00:00+00:00,CANC,Round of 16,Llaneros,1464,Quindio,1461,,,False,374
+1607640,2026-08-19T23:00:00+00:00,CANC,Round of 16,Internacional de Bogota,1134,Real Cundinamarca,22099,,,False,
+1607186,2026-08-21T01:00:00+00:00,CANC,Round of 16,Independiente Medellin,1128,Deportivo Pasto,1126,,,False,
 1544251,2026-05-07T00:00:00+00:00,FT,Group Stage - 1,Patriotas,1140,Chico,1132,0,0,True,
-1544252,2026-05-07T21:00:00+00:00,FT,Group Stage - 1,Jaguares,1133,Real Soacha,22099,1,2,True,
+1544252,2026-05-07T21:00:00+00:00,FT,Group Stage - 1,Jaguares,1133,Real Cundinamarca,22099,1,2,True,
 1544253,2026-05-07T22:00:00+00:00,FT,Group Stage - 1,Llaneros,1464,Depor FC,1468,3,0,True,
 1544254,2026-05-07T23:00:00+00:00,FT,Group Stage - 1,Ind. Yumbo,27411,Deportivo Pereira,1462,1,1,True,
 1544255,2026-05-08T01:00:00+00:00,FT,Group Stage - 1,Bucaramanga,1131,Real Santander,1463,5,0,True,
@@ -14,14 +17,14 @@
 1544260,2026-05-12T01:00:00+00:00,FT,Group Stage - 2,Millonarios,1125,Llaneros,1464,1,0,True,
 1544264,2026-05-12T19:00:00+00:00,FT,Group Stage - 2,Leones FC,1143,Orsomarso,1469,2,0,True,
 1544266,2026-05-12T20:00:00+00:00,FT,Group Stage - 2,Real Santander,1463,Popayan,1460,0,3,True,
-1544265,2026-05-13T19:00:00+00:00,FT,Group Stage - 2,Real Soacha,22099,Ind. Yumbo,27411,2,0,True,
+1544265,2026-05-13T19:00:00+00:00,FT,Group Stage - 2,Real Cundinamarca,22099,Ind. Yumbo,27411,2,0,True,
 1544270,2026-05-15T21:00:00+00:00,FT,Group Stage - 3,Popayan,1460,Deportivo Cali,1127,1,5,True,
 1544268,2026-05-15T23:00:00+00:00,FT,Group Stage - 3,Patriotas,1140,Millonarios,1125,2,3,True,
 1544273,2026-05-16T01:00:00+00:00,FT,Group Stage - 3,Orsomarso,1469,Independiente Medellin,1128,1,1,True,367
 1544267,2026-05-16T20:30:00+00:00,FT,Group Stage - 3,Chico,1132,Depor FC,1468,4,0,True,
 1544269,2026-05-16T20:30:00+00:00,FT,Group Stage - 3,Alianza Valledupar,1141,Real Santander,1463,3,0,True,388
 1544271,2026-05-16T20:30:00+00:00,FT,Group Stage - 3,Cucuta,1470,Leones FC,1143,0,0,True,
-1544274,2026-05-17T20:30:00+00:00,FT,Group Stage - 3,Deportivo Pereira,1462,Real Soacha,22099,1,0,True,
+1544274,2026-05-17T20:30:00+00:00,FT,Group Stage - 3,Deportivo Pereira,1462,Real Cundinamarca,22099,1,0,True,
 1544272,2026-05-18T00:30:00+00:00,FT,Group Stage - 3,Ind. Yumbo,27411,Águilas Doradas,1144,1,4,True,
 1544278,2026-05-20T20:00:00+00:00,FT,Group Stage - 4,Fortaleza FC,1147,Orsomarso,1469,1,1,True,
 1544281,2026-05-20T22:00:00+00:00,FT,Group Stage - 4,Llaneros,1464,Patriotas,1140,3,1,True,
@@ -33,7 +36,7 @@
 1544284,2026-05-24T20:30:00+00:00,FT,Group Stage - 5,Alianza Valledupar,1141,Bucaramanga,1131,2,1,True,388
 1544290,2026-05-24T20:30:00+00:00,FT,Group Stage - 5,Real Santander,1463,Deportivo Cali,1127,1,2,True,
 1544288,2026-05-26T20:30:00+00:00,FT,Group Stage - 5,Deportivo Pereira,1462,Jaguares,1133,1,0,True,
-1544289,2026-05-26T20:30:00+00:00,FT,Group Stage - 5,Real Soacha,22099,Águilas Doradas,1144,2,2,True,
+1544289,2026-05-26T20:30:00+00:00,FT,Group Stage - 5,Real Cundinamarca,22099,Águilas Doradas,1144,2,2,True,
 1544285,2026-05-27T21:00:00+00:00,FT,Group Stage - 5,Chico,1132,Llaneros,1464,0,1,True,
 1544286,2026-05-29T21:00:00+00:00,FT,Group Stage - 5,Cucuta,1470,Fortaleza FC,1147,0,0,True,
 1544287,2026-05-29T23:00:00+00:00,FT,Group Stage - 5,Leones FC,1143,Independiente Medellin,1128,1,1,True,
@@ -46,26 +49,22 @@
 1545510,2026-07-22T00:00:00+00:00,FT,Play-offs,Once Caldas,1136,Envigado,1129,3,0,True,384
 1545504,2026-07-22T00:30:00+00:00,FT,Play-offs,America de Cali,1138,Real Cartagena,1459,2,1,True,
 1545509,2026-07-23T00:30:00+00:00,FT,Play-offs,Junior,1135,Barranquilla,1466,2,2,True,
-1545517,2026-07-28T23:15:00+00:00,PEN,Play-offs,Quindio,1461,Deportes Tolima,1142,2,1,False,374
+1545517,2026-07-28T23:15:00+00:00,PEN,Play-offs,Quindio,1461,Deportes Tolima,1142,2,1,True,374
 1545513,2026-07-29T00:00:00+00:00,FT,Play-offs,Bogota FC,1458,Deportivo Pasto,1126,0,3,True,
 1545518,2026-07-29T01:30:00+00:00,FT,Play-offs,Tigres FC,1145,Atletico Nacional,1137,0,2,True,
 1545516,2026-07-29T22:00:00+00:00,FT,Play-offs,Internacional Palmira,23326,Internacional de Bogota,1134,1,2,True,
-1545512,2026-07-29T22:30:00+00:00,PEN,Play-offs,Barranquilla,1466,Junior,1135,3,3,False,
+1545512,2026-07-29T22:30:00+00:00,PEN,Play-offs,Barranquilla,1466,Junior,1135,3,3,True,
 1545514,2026-07-30T01:00:00+00:00,FT,Play-offs,Real Cartagena,1459,America de Cali,1138,1,1,True,
 1545515,2026-07-30T20:30:00+00:00,FT,Play-offs,Envigado,1129,Once Caldas,1136,0,3,True,379
 1545511,2026-08-06T00:00:00+00:00,FT,Play-offs,Santa Fe,1139,Union Magdalena,1465,2,0,True,
-1607185,2026-08-13T01:00:00+00:00,NS,Round of 16,Deportivo Cali,1127,Atletico Nacional,1137,,,False,376
-1607640,2026-08-13T21:00:00+00:00,NS,Round of 16,Internacional de Bogota,1134,Real Soacha,22099,,,False,
-1611287,2026-08-14T00:00:00+00:00,NS,Round of 16,Alianza Valledupar,1141,Once Caldas,1136,,,False,388
-1607186,2026-08-14T01:00:00+00:00,NS,Round of 16,Independiente Medellin,1128,Deportivo Pasto,1126,,,False,
-1607639,2026-08-15T01:10:00+00:00,NS,Round of 16,Millonarios,1125,Barranquilla,1466,,,False,
-1607187,2026-08-19T00:00:00+00:00,NS,Round of 16,Llaneros,1464,Quindio,1461,,,False,374
-1611288,2026-08-20T00:30:00+00:00,NS,Round of 16,Once Caldas,1136,Alianza Valledupar,1141,,,False,384
-1607188,2026-08-20T23:00:00+00:00,NS,Round of 16,Atletico Nacional,1137,Deportivo Cali,1127,,,False,376
-1607643,2026-08-20T23:00:00+00:00,NS,Round of 16,Real Soacha,22099,Internacional de Bogota,1134,,,False,
-1607189,2026-08-21T01:00:00+00:00,NS,Round of 16,Deportivo Pasto,1126,Independiente Medellin,1128,,,False,
+1607185,2026-08-13T01:00:00+00:00,PST,Round of 16,Deportivo Cali,1127,Atletico Nacional,1137,,,False,376
+1611287,2026-08-14T00:00:00+00:00,PST,Round of 16,Alianza Valledupar,1141,Once Caldas,1136,,,False,388
+1607639,2026-08-15T01:10:00+00:00,PST,Round of 16,Millonarios,1125,Barranquilla,1466,,,False,
+1611288,2026-08-20T00:30:00+00:00,PST,Round of 16,Once Caldas,1136,Alianza Valledupar,1141,,,False,384
+1607188,2026-08-20T23:00:00+00:00,PST,Round of 16,Atletico Nacional,1137,Deportivo Cali,1127,,,False,376
+1607643,2026-08-20T23:00:00+00:00,PST,Round of 16,Real Cundinamarca,22099,Internacional de Bogota,1134,,,False,
+1607641,2026-08-30T22:45:00+00:00,NS,Round of 16,Barranquilla,1466,Millonarios,1125,,,False,
 1607190,2026-09-02T22:30:00+00:00,NS,Round of 16,Quindio,1461,Llaneros,1464,,,False,374
 1607638,2026-09-09T23:00:00+00:00,NS,Round of 16,Deportivo Pereira,1462,America de Cali,1138,,,False,
 1545519,2026-09-10T20:00:00+00:00,NS,Play-offs,Union Magdalena,1465,Santa Fe,1139,,,False,387
 1607642,2026-09-16T01:00:00+00:00,NS,Round of 16,America de Cali,1138,Deportivo Pereira,1462,,,False,
-1607641,2026-09-30T22:45:00+00:00,NS,Round of 16,Barranquilla,1466,Millonarios,1125,,,False,

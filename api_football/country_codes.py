@@ -51,6 +51,7 @@ COUNTRY_INFO = {
     "MNE": ("me", "Montenegro"), "MTN": ("mr", "Mauritania"), "MWI": ("mw", "Malawi"),
     "MYA": ("mm", "Myanmar"), "NCA": ("ni", "Nicaragua"), "NED": ("nl", "Netherlands"),
     "NGA": ("ng", "Nigeria"), "NIR": ("gb-nir", "Northern Ireland"), "NOR": ("no", "Norway"),
+    "NZL": ("nz", "New Zealand"),
     "OMA": ("om", "Oman"), "PAN": ("pa", "Panama"), "PAR": ("py", "Paraguay"),
     "PER": ("pe", "Peru"), "PHI": ("ph", "Philippines"), "PNG": ("pg", "Papua New Guinea"),
     "POL": ("pl", "Poland"), "POR": ("pt", "Portugal"), "QAT": ("qa", "Qatar"),

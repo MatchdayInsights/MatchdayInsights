@@ -106,11 +106,23 @@ def build_team_tier_by_season(fixtures: list[dict], league_lookup: dict) -> dict
     a club's TIER changes across seasons (promotion/relegation) even
     though its COUNTRY never does - unlike build_team_country_lookup,
     this can't safely be a single global team_id -> value lookup.
+
+    Checks season_type_overrides (season-aware), not just the entry's
+    flat default type - a fixture belonging to a league_id whose type is
+    overridden to "cup" for this specific season (e.g. Japan's J1 League,
+    league_id 98, in 2026 - the one-off bridging tournament, filed under
+    the same ID as the normal league) must NOT count as tier-confirming
+    league data here, or a club could get its tier "confirmed" via a
+    competition that isn't really that season's tracked league at all.
     """
     lookup = {}
     for row in fixtures:
         entry = league_lookup.get(int(row["league_id"]))
-        if entry is None or entry["type"] != "league":
+        if entry is None:
+            continue
+        overrides = entry.get("season_type_overrides") or {}
+        effective_type = overrides.get(str(row["season"]), entry["type"])
+        if effective_type != "league":
             continue
         for team_id in (row["home_team_id"], row["away_team_id"]):
             lookup[(team_id, row["season"])] = entry["tier"]
@@ -142,8 +154,21 @@ def build_season_end_trigger_points(fixtures: list[dict], league_lookup: dict) -
     """
     last_index = {}  # (league_id, season) -> highest index seen so far
     for i, row in enumerate(fixtures):
+        # MUST stay played-only here, unlike most other consumers of the
+        # now-unfiltered fixtures list - fixtures now includes scheduled/
+        # not-yet-played rows, and using one of those would trigger "end
+        # of season" off the SCHEDULED final matchday (which could be
+        # months away, or postponed) instead of the actual last completed
+        # match, corrupting every Standard-case Starting Position
+        # calculation that depends on this season's real min/max.
+        if row["played"] != "True":
+            continue
         entry = league_lookup.get(int(row["league_id"]))
-        if entry is None or entry["type"] != "league":
+        if entry is None:
+            continue
+        overrides = entry.get("season_type_overrides") or {}
+        effective_type = overrides.get(str(row["season"]), entry["type"])
+        if effective_type != "league":
             continue
         key = (row["league_id"], row["season"])
         last_index[key] = i
@@ -472,11 +497,19 @@ def get_starting_position(
 
 def build_league_lookup(leagues_config: dict) -> dict:
     """
-    league_id -> {country, type, name, tier}. Requires leagues_config.json
-    to already have "type" (and "tier" for type=="league") merged in via
-    apply_competition_classification.py - raises a clear error per-league
-    if that hasn't been done yet, rather than silently treating an
-    unclassified competition as some default type.
+    league_id -> {country, type, name, tier, season_type_overrides, season_aliases}.
+    Requires leagues_config.json to already have "type" (and "tier" for
+    type=="league") merged in via apply_competition_classification.py -
+    raises a clear error per-league if that hasn't been done yet, rather
+    than silently treating an unclassified competition as some default
+    type.
+
+    season_type_overrides (optional per entry): {"<season>": "<type>"} -
+    for the rare case where a single league_id represents a genuinely
+    different kind of competition in one specific season (see
+    get_competition_info's docstring for the concrete Japan example).
+    Absent for the vast majority of competitions, which use the same
+    type every season.
     """
     lookup = {}
     for country, comps in leagues_config.items():
@@ -491,17 +524,32 @@ def build_league_lookup(leagues_config: dict) -> dict:
                 "type": comp["type"],
                 "name": comp["name"],
                 "tier": comp.get("tier"),
+                "season_type_overrides": comp.get("season_type_overrides") or {},
+                "season_aliases": comp.get("season_aliases") or {},
             }
     return lookup
 
 
-def get_competition_info(league_id: str, league_lookup: dict) -> tuple[str, str]:
-    """Returns (competition_type, competition_name) for a league_id, via
-    the classified leagues_config.json data."""
+def get_competition_info(league_id: str, season: str, league_lookup: dict) -> tuple[str, str]:
+    """
+    Returns (competition_type, competition_name) for a league_id, via the
+    classified leagues_config.json data - season-aware, because a single
+    league_id can represent genuinely different things in different
+    seasons. Example: Japan's J1 League (league_id 98) is a normal
+    type=="league" competition in 2025 and 2027, but API-Football filed
+    the one-off 2026 bridging tournament (the "100 Year Vision League" -
+    East/West groups, no promotion or relegation) under that SAME
+    league_id rather than giving it its own. A competition entry's
+    optional "season_type_overrides": {"2026": "cup"} in
+    leagues_config.json handles exactly this - checked here before
+    falling back to the entry's normal type.
+    """
     entry = league_lookup.get(int(league_id))
     if entry is None:
         raise KeyError(f"league_id {league_id} not found in leagues_config.json")
-    return entry["type"], entry["name"]
+    overrides = entry.get("season_type_overrides") or {}
+    comp_type = overrides.get(str(season), entry["type"])
+    return comp_type, entry["name"]
 
 
 def build_team_country_lookup(fixtures: list[dict], league_lookup: dict, overrides: Optional[dict] = None) -> dict:
@@ -554,8 +602,18 @@ def build_team_country_lookup(fixtures: list[dict], league_lookup: dict, overrid
         if entry is None or entry["country"] == "World":
             continue  # continental/global or unclassified - skip
 
-        target = league_country if entry["type"] == "league" else cup_country
-        conflicts = league_conflicts if entry["type"] == "league" else cup_conflicts
+        # NOTE: named comp_season_overrides, NOT "overrides" - this
+        # function's own "overrides" parameter (team_country_overrides.json)
+        # must never be shadowed by this per-entry lookup. An earlier
+        # version of this loop reused the name "overrides" here and
+        # silently clobbered the real manual-overrides parameter by the
+        # time it was applied below, breaking every club that used to
+        # resolve correctly via team_country_overrides.json.
+        comp_season_overrides = entry.get("season_type_overrides") or {}
+        effective_type = comp_season_overrides.get(str(row["season"]), entry["type"])
+
+        target = league_country if effective_type == "league" else cup_country
+        conflicts = league_conflicts if effective_type == "league" else cup_conflicts
 
         for team_id, name in ((row["home_team_id"], row.get("home_team")),
                                (row["away_team_id"], row.get("away_team"))):
@@ -632,13 +690,31 @@ def get_venue_id(fixture_row: dict) -> str | None:
 
 def load_all_fixtures() -> list[dict]:
     """
-    Reads every fixture CSV in data/fixtures/, keeps only played matches
-    (status == 'FT'), and returns them as a flat list of dicts ready for
-    chronological sorting. league_id AND season are recovered from the
-    filename, NOT from the match date - a season spanning two calendar
-    years (e.g. Aug 2025-May 2026) would otherwise get misclassified for
-    its January-onward matches if we derived season from date[:4] instead
-    of the actual season file it came from.
+    Reads every fixture CSV in data/fixtures/ and returns ALL rows -
+    played AND scheduled/not-yet-played - as a flat list of dicts ready
+    for chronological sorting. league_id AND season are recovered from
+    the filename, NOT from the match date - a season spanning two
+    calendar years (e.g. Aug 2025-May 2026) would otherwise get
+    misclassified for its January-onward matches if we derived season
+    from date[:4] instead of the actual season file it came from.
+
+    Includes not-yet-played rows DELIBERATELY (changed 2026-08-25,
+    Greg's fix) - build_team_tier_by_season() needs to know which
+    league a club is rostered in for the new season the moment that
+    league's fixture list is pulled, not only once its first match has
+    actually been played. Before this change, a club whose season
+    happened to open with a CUP tie (very common - domestic Super Cups
+    and first cup rounds are routinely played before the league season
+    starts) would show tier=None until their first LEAGUE match, and in
+    the meantime get misclassified as having fallen out of tracked
+    status entirely (see the season_changed gating fix a few lines below
+    in main() - this fixes the same underlying problem from the other
+    end: even with that gate, a club whose league hasn't started yet
+    still couldn't be CONFIRMED tracked without this).
+
+    Callers that need actual match RESULTS (not just roster/tier
+    membership) must explicitly filter on row["played"] == "True"
+    themselves - this function no longer does that filtering centrally.
 
     Filenames are of the form {Country}_{CompetitionName}_{league_id}_{season}.csv
     (e.g. "Albania_Cup_707_2020.csv") - league_id and season are always
@@ -665,8 +741,12 @@ def load_all_fixtures() -> list[dict]:
         with open(path, encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row["played"] != "True":
-                    continue
+                # Keep EVERY row here, played or not - see the docstring
+                # above for why. row["played"] stays as the raw "True"/
+                # "False" string from the CSV; callers that need actual
+                # match RESULTS (not just roster/tier membership) must
+                # explicitly filter on it themselves - load_all_fixtures()
+                # no longer does that filtering centrally.
                 row["league_id"] = league_id
                 row["season"] = season
                 all_fixtures.append(row)
@@ -857,16 +937,83 @@ def fixture_sort_key(row: dict):
 # Main processing loop
 # ---------------------------------------------------------------------------
 
+def apply_season_aliases(fixtures: list[dict], league_lookup: dict) -> int:
+    """
+    Rewrites row["season"] in place for any fixture whose league_id has a
+    "season_aliases" entry matching that row's season - e.g. Japan's J1
+    League (league_id 98): API-Football tagged the one-off 2026 bridging
+    tournament "2026" and the new autumn-spring season that actually
+    followed it "2027", but Greg's call is that these are genuinely ONE
+    continuous season split across two API-Football season labels, not
+    two separate season transitions - so "2027" gets aliased to "2026"
+    here, uniformly, before anything downstream (tier lookup, country
+    lookup, season_changed, match_log tagging, rankings.json's "league"
+    field) ever sees the raw label.
+
+    Applied once, as early as possible (right after league_lookup is
+    built, before fixtures.sort()) specifically so every consumer needs
+    zero additional season-aware logic of its own - unlike
+    season_type_overrides, which had to be threaded through every single
+    place that checks competition type individually.
+    """
+    remapped = 0
+    for row in fixtures:
+        entry = league_lookup.get(int(row["league_id"]))
+        if entry is None:
+            continue
+        aliases = entry.get("season_aliases") or {}
+        alias = aliases.get(str(row["season"]))
+        if alias is not None and alias != row["season"]:
+            row["season"] = alias
+            remapped += 1
+    return remapped
+
+
 def main():
     print("Loading fixtures...")
     fixtures = load_all_fixtures()
-    print(f"  {len(fixtures)} played matches found across all pulled leagues/seasons")
+    played_count = sum(1 for row in fixtures if row["played"] == "True")
+    print(f"  {len(fixtures)} total fixtures found ({played_count} played, "
+          f"{len(fixtures) - played_count} scheduled/not yet played) across "
+          f"all pulled leagues/seasons")
 
     fixtures.sort(key=fixture_sort_key)
 
     with open(LEAGUES_CONFIG_PATH, encoding="utf-8") as f:
         leagues_config = json.load(f)
     league_lookup = build_league_lookup(leagues_config)
+
+    remapped_seasons = apply_season_aliases(fixtures, league_lookup)
+    if remapped_seasons:
+        print(f"Applied season_aliases to {remapped_seasons} fixture-side occurrences.")
+
+    # Cross-check: every competition/season leagues_config.json says should
+    # be tracked, against what fixture data was ACTUALLY loaded above. A
+    # competition can be perfectly configured (correct league_id, type,
+    # tier, season_inclusion.json entry) and still produce zero clubs with
+    # no error anywhere, simply because its fixtures CSV was never pulled
+    # or wasn't in data/fixtures/ yet when this ran - that gap is otherwise
+    # invisible until someone notices a whole country missing from the
+    # rankings output. Flagging it here, at the top of the run, makes it
+    # immediately visible instead.
+    seasons_with_data = set()
+    for row in fixtures:
+        seasons_with_data.add((row["league_id"], row["season"]))
+    missing_data = []
+    for country, comps in leagues_config.items():
+        for comp in comps:
+            for season in comp.get("seasons", []):
+                key = (str(comp["league_id"]), str(season))
+                if key not in seasons_with_data:
+                    missing_data.append((country, comp["name"], comp["league_id"], season))
+    if missing_data:
+        print(f"\nWARNING: {len(missing_data)} configured competition/season(s) have NO "
+              f"fixture data loaded - the CSV either doesn't exist in data/fixtures/ yet "
+              f"or wasn't found. These will silently produce zero clubs with no other "
+              f"warning unless you check for this:")
+        for country, name, league_id, season in missing_data:
+            print(f"  {country} / {name} (id={league_id}) - season {season}")
+        print()
 
     splits_config = _load_json(TEAM_ID_SPLITS_PATH)  # {} if file doesn't exist yet
     if splits_config:
@@ -987,6 +1134,15 @@ def main():
         return {"country": base_code, "league_code": league_code, "season": season}
 
     for i, row in enumerate(fixtures):
+        # fixtures now includes scheduled/not-yet-played rows too (see
+        # load_all_fixtures() docstring) - the tier/country lookups built
+        # above deliberately use those, but actual rating processing
+        # obviously can't do anything with a match that has no result yet.
+        # Skipped here, not at load time, precisely so this loop is the
+        # ONLY place that requires a real played match.
+        if row["played"] != "True":
+            continue
+
         home_id = row["home_team_id"]
         away_id = row["away_team_id"]
         season = row["season"]
@@ -1041,7 +1197,45 @@ def main():
         for team_id in (home_id, away_id):
             needs_seed = team_id not in club_states
             was_tracked = club_is_tracked.get(team_id, True)
-            season_changed = not needs_seed and club_seeded_season.get(team_id) != season
+
+            # Season-transition re-check (tracked-status reconfirmation /
+            # reseed) is deliberately gated to LEAGUE-type matches only.
+            # A club's tier - and therefore whether it's still genuinely
+            # tracked - can only be confirmed from domestic league fixture
+            # data (team_tier_by_season is built purely from league
+            # appearances). Cup or continental competitions (a domestic
+            # Super Cup, the first round of a domestic cup) routinely get
+            # played - and pulled - before that season's LEAGUE fixtures
+            # exist yet. Letting one of those matches trigger the
+            # season-transition check would resolve tier=None (not because
+            # the club actually dropped tiers, but because league data for
+            # the new season simply hasn't arrived), which falls straight
+            # through to the untracked-placeholder path and misclassifies
+            # a still-elite, still-tracked club as having fallen out of
+            # tracked status - exactly what happened to Bayern Munich and
+            # Borussia Dortmund after the 2026 German Super Cup was
+            # processed weeks before Bundesliga's 2026-27 fixtures existed.
+            # Deferring this check to the club's first LEAGUE match of the
+            # new season is a strictly safer failure mode: at worst it
+            # delays detecting a genuine relegation by a few weeks until
+            # the new league season actually starts, rather than falsely
+            # un-tracking a club that never changed tier at all.
+            #
+            # Uses the SEASON-AWARE type (season_type_overrides), not the
+            # entry's flat default - a league_id whose type varies by
+            # season (e.g. Japan's J1 League, league_id 98: type="league"
+            # in 2025/2027, but API-Football filed the one-off 2026
+            # bridging tournament under this same ID as a "cup" override)
+            # must resolve consistently here and in get_competition_info,
+            # or a club could get its tier reconfirmed via a competition
+            # this file elsewhere treats as not-a-real-league-season.
+            match_overrides = league_entry.get("season_type_overrides") or {}
+            effective_type = match_overrides.get(str(season), league_entry["type"])
+            season_changed = (
+                not needs_seed
+                and club_seeded_season.get(team_id) != season
+                and effective_type == "league"
+            )
 
             # An UNTRACKED club whose season has changed gets its
             # placeholder recalculated fresh (using whatever the
@@ -1098,6 +1292,20 @@ def main():
                 # treated exactly like any other untracked-placeholder
                 # club from this point on, per Greg's stated design,
                 # not left silently evolving from its old tracked value.
+                if needs_tracked_status_check and not still_tracked:
+                    # A previously-tracked club just lost tracked status -
+                    # this is the single most consequential, least visible
+                    # thing this loop can do (it silently stops the club's
+                    # public chart history from that point on with no
+                    # other warning anywhere). Printed explicitly so a
+                    # case like this is immediately diagnosable in the
+                    # console instead of requiring after-the-fact detective
+                    # work through history files days or weeks later.
+                    print(f"  TRACKED STATUS LOST: {row.get('home_team') if team_id == home_id else row.get('away_team')!r} "
+                          f"(team_id={team_id}) - was tracked entering season {season}, "
+                          f"resolved via {source!r} instead of direct/league_override/"
+                          f"standard_promotion. Triggered by league_id={row['league_id']} "
+                          f"({league_entry.get('name') if league_entry else '?'}), date={row['date']}.")
                 club_states[team_id] = ClubState(rating=rating, last_match_date=None)
                 seed_sources[team_id] = source
                 # league_override clubs (e.g. OFC Pro League) are genuinely
@@ -1134,7 +1342,7 @@ def main():
             })
             continue
 
-        competition_type, competition_name = get_competition_info(row["league_id"], league_lookup)
+        competition_type, competition_name = get_competition_info(row["league_id"], row["season"], league_lookup)
 
         venue_id = get_venue_id(row)
         if venue_id is None:
@@ -1155,8 +1363,29 @@ def main():
         }
         ctx = build_match_context(raw_match, finals_config, venue_overrides)
 
-        home_score = int(row["home_score"])
-        away_score = int(row["away_score"])
+        # A match can be marked played (status FT/AET/PEN) but still have
+        # an empty score field - a genuine API-Football data-quality gap
+        # (or, historically, a pull-script bug that wrote played=True
+        # without confirming goals were actually non-null - fixed at the
+        # pull-script source, but already-pulled CSVs from before that fix
+        # may still have rows like this). Skip just this one match with a
+        # clear report entry rather than crash the entire multi-hour run
+        # over a single bad row.
+        try:
+            home_score = int(row["home_score"])
+            away_score = int(row["away_score"])
+        except ValueError:
+            skipped_match_details.append({
+                "reason": "invalid_score",
+                "fixture_id": row.get("fixture_id"),
+                "league_id": row["league_id"],
+                "competition_name": competition_name,
+                "country_context": league_entry.get("country") if league_entry else None,
+                "date": row["date"],
+                "home_team": row.get("home_team"), "away_team": row.get("away_team"),
+                "home_score_raw": row.get("home_score"), "away_score_raw": row.get("away_score"),
+            })
+            continue
         goal_margin = abs(home_score - away_score)
 
         if home_score > away_score:

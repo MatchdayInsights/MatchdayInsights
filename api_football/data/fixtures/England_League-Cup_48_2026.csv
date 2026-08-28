@@ -1,38 +1,75 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1554097,2026-08-01T14:00:00+00:00,PEN,Preliminary Round,Tranmere,1381,Rochdale,1339,2,2,False,
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1554097,2026-08-01T14:00:00+00:00,PEN,Preliminary Round,Tranmere,1381,Rochdale,1339,2,2,True,
 1554098,2026-08-03T18:30:00+00:00,FT,Preliminary Round,York,1828,Crawley Town,1362,0,2,True,
-1567390,2026-08-06T18:45:00+00:00,NS,Round of 128,Bristol City,56,Walsall,1342,,,False,20106
-1567419,2026-08-07T18:45:00+00:00,NS,Round of 128,Wolves,39,Port Vale,1351,,,False,
-1567420,2026-08-07T18:45:00+00:00,NS,Round of 128,Wycombe,1358,Stevenage,1368,,,False,
-1567407,2026-08-07T19:00:00+00:00,NS,Round of 128,Middlesbrough,70,Wrexham,1837,,,False,558
-1567395,2026-08-08T12:00:00+00:00,NS,Round of 128,Cambridge United,1370,Barnet,1369,,,False,
-1567411,2026-08-08T13:00:00+00:00,NS,Round of 128,QPR,72,Millwall,58,,,False,
-1610960,2026-08-08T14:00:00+00:00,NS,Round of 128,Watford,38,Crawley Town,1362,,,False,596
-1567396,2026-08-08T14:00:00+00:00,NS,Round of 128,Cardiff,43,Swindon Town,1353,,,False,
-1567393,2026-08-08T14:00:00+00:00,NS,Round of 128,Burnley,44,Notts County,1376,,,False,512
-1567404,2026-08-08T14:00:00+00:00,NS,Round of 128,Leicester,46,Northampton,1337,,,False,
-1567418,2026-08-08T14:00:00+00:00,NS,Round of 128,West Ham,48,Portsmouth,1355,,,False,598
-1567410,2026-08-08T14:00:00+00:00,NS,Round of 128,Preston,59,Huddersfield,37,,,False,574
-1567400,2026-08-08T14:00:00+00:00,NS,Round of 128,Derby,69,Lincoln,1379,,,False,
-1567408,2026-08-08T14:00:00+00:00,NS,Round of 128,Norwich,71,Milton Keynes Dons,1348,,,False,
-1567414,2026-08-08T14:00:00+00:00,NS,Round of 128,Sheffield Wednesday,74,Bolton,68,,,False,582
-1567416,2026-08-08T14:00:00+00:00,NS,Round of 128,Stoke City,75,Oldham,1349,,,False,
-1567417,2026-08-08T14:00:00+00:00,NS,Round of 128,Swansea,76,Birmingham,54,,,False,
-1567389,2026-08-08T14:00:00+00:00,NS,Round of 128,Barnsley,747,Wigan,61,,,False,
-1567394,2026-08-08T14:00:00+00:00,NS,Round of 128,Burton Albion,748,Blackburn,67,,,False,
-1567388,2026-08-08T14:00:00+00:00,NS,Round of 128,AFC Wimbledon,1333,Newport County,1367,,,False,12456
-1567391,2026-08-08T14:00:00+00:00,NS,Round of 128,Bristol Rovers,1334,Peterborough,1350,,,False,
-1567401,2026-08-08T14:00:00+00:00,NS,Round of 128,Fleetwood Town,1336,Chesterfield,1345,,,False,
-1610582,2026-08-08T14:00:00+00:00,NS,Round of 128,Bradford,1343,Rochdale,1339,,,False,
-1567402,2026-08-08T14:00:00+00:00,NS,Round of 128,Gillingham,1347,Luton,1359,,,False,
-1567399,2026-08-08T14:00:00+00:00,NS,Round of 128,Crewe,1363,Accrington ST,1360,,,False,
-1567403,2026-08-08T14:00:00+00:00,NS,Round of 128,Grimsby,1365,Blackpool,1356,,,False,
-1567405,2026-08-08T14:00:00+00:00,NS,Round of 128,Leyton Orient,1373,Oxford United,1338,,,False,18618
-1567392,2026-08-08T14:00:00+00:00,NS,Round of 128,Bromley,1832,Reading,53,,,False,511
-1567413,2026-08-08T14:00:00+00:00,NS,Round of 128,Salford City,1844,Shrewsbury,1352,,,False,
-1567415,2026-08-08T14:00:00+00:00,NS,Round of 128,Stockport County,4686,Doncaster,1354,,,False,
-1567412,2026-08-08T16:30:00+00:00,NS,Round of 128,Rotherham,73,West Brom,60,,,False,
-1567398,2026-08-08T16:30:00+00:00,NS,Round of 128,Colchester,1361,Southampton,41,,,False,
-1567397,2026-08-08T16:30:00+00:00,NS,Round of 128,Cheltenham,1372,Charlton,1335,,,False,
-1567406,2026-08-09T15:00:00+00:00,NS,Round of 128,Mansfield Town,1374,Sheffield Utd,62,,,False,
-1567409,2026-08-10T19:00:00+00:00,NS,Round of 128,Plymouth,1357,Exeter City,1364,,,False,571
+1567390,2026-08-06T18:45:00+00:00,FT,Round of 128,Bristol City,56,Walsall,1342,0,1,True,20106
+1567419,2026-08-07T18:45:00+00:00,FT,Round of 128,Wolves,39,Port Vale,1351,3,0,True,
+1567420,2026-08-07T18:45:00+00:00,FT,Round of 128,Wycombe,1358,Stevenage,1368,1,2,True,
+1567407,2026-08-07T19:00:00+00:00,FT,Round of 128,Middlesbrough,70,Wrexham,1837,1,0,True,558
+1567395,2026-08-08T12:00:00+00:00,FT,Round of 128,Cambridge United,1370,Barnet,1369,2,1,True,
+1567411,2026-08-08T13:00:00+00:00,PEN,Round of 128,QPR,72,Millwall,58,1,1,True,
+1610960,2026-08-08T14:00:00+00:00,FT,Round of 128,Watford,38,Crawley Town,1362,1,0,True,596
+1567396,2026-08-08T14:00:00+00:00,FT,Round of 128,Cardiff,43,Swindon Town,1353,3,2,True,
+1567393,2026-08-08T14:00:00+00:00,PEN,Round of 128,Burnley,44,Notts County,1376,1,1,True,512
+1567404,2026-08-08T14:00:00+00:00,FT,Round of 128,Leicester,46,Northampton,1337,1,0,True,
+1567418,2026-08-08T14:00:00+00:00,FT,Round of 128,West Ham,48,Portsmouth,1355,3,1,True,598
+1567410,2026-08-08T14:00:00+00:00,PEN,Round of 128,Preston,59,Huddersfield,37,1,1,True,574
+1567400,2026-08-08T14:00:00+00:00,FT,Round of 128,Derby,69,Lincoln,1379,1,2,True,527
+1567408,2026-08-08T14:00:00+00:00,FT,Round of 128,Norwich,71,Milton Keynes Dons,1348,4,1,True,
+1567414,2026-08-08T14:00:00+00:00,FT,Round of 128,Sheffield Wednesday,74,Bolton,68,1,0,True,582
+1567416,2026-08-08T14:00:00+00:00,FT,Round of 128,Stoke City,75,Oldham,1349,2,0,True,
+1567417,2026-08-08T14:00:00+00:00,FT,Round of 128,Swansea,76,Birmingham,54,0,1,True,
+1567389,2026-08-08T14:00:00+00:00,PEN,Round of 128,Barnsley,747,Wigan,61,1,1,True,
+1567394,2026-08-08T14:00:00+00:00,FT,Round of 128,Burton Albion,748,Blackburn,67,1,2,True,
+1567388,2026-08-08T14:00:00+00:00,PEN,Round of 128,AFC Wimbledon,1333,Newport County,1367,1,1,True,12456
+1567391,2026-08-08T14:00:00+00:00,FT,Round of 128,Bristol Rovers,1334,Peterborough,1350,0,1,True,
+1567401,2026-08-08T14:00:00+00:00,FT,Round of 128,Fleetwood Town,1336,Chesterfield,1345,1,0,True,
+1610582,2026-08-08T14:00:00+00:00,FT,Round of 128,Bradford,1343,Rochdale,1339,2,0,True,
+1567402,2026-08-08T14:00:00+00:00,FT,Round of 128,Gillingham,1347,Luton,1359,0,3,True,
+1567399,2026-08-08T14:00:00+00:00,FT,Round of 128,Crewe,1363,Accrington ST,1360,2,1,True,
+1567403,2026-08-08T14:00:00+00:00,FT,Round of 128,Grimsby,1365,Blackpool,1356,1,3,True,
+1567405,2026-08-08T14:00:00+00:00,FT,Round of 128,Leyton Orient,1373,Oxford United,1338,2,0,True,18618
+1567392,2026-08-08T14:00:00+00:00,PEN,Round of 128,Bromley,1832,Reading,53,1,1,True,511
+1567413,2026-08-08T14:00:00+00:00,PEN,Round of 128,Salford City,1844,Shrewsbury,1352,1,1,True,
+1567415,2026-08-08T14:00:00+00:00,PEN,Round of 128,Stockport County,4686,Doncaster,1354,1,1,True,
+1567412,2026-08-08T16:30:00+00:00,FT,Round of 128,Rotherham,73,West Brom,60,1,4,True,
+1567398,2026-08-08T16:30:00+00:00,FT,Round of 128,Colchester,1361,Southampton,41,0,2,True,
+1567397,2026-08-08T16:30:00+00:00,FT,Round of 128,Cheltenham,1372,Charlton,1335,1,3,True,
+1567406,2026-08-09T15:00:00+00:00,FT,Round of 128,Mansfield Town,1374,Sheffield Utd,62,0,3,True,
+1567409,2026-08-10T19:00:00+00:00,FT,Round of 128,Plymouth,1357,Exeter City,1364,2,0,True,571
+1623086,2026-08-25T18:00:00+00:00,FT,Round of 64,Cardiff,43,Norwich,71,1,2,True,
+1623087,2026-08-25T18:30:00+00:00,FT,Round of 64,Doncaster,1354,Middlesbrough,70,1,3,True,
+1623099,2026-08-25T18:45:00+00:00,FT,Round of 64,Watford,38,Peterborough,1350,1,5,True,596
+1623090,2026-08-25T18:45:00+00:00,FT,Round of 64,Southampton,41,West Ham,48,1,4,True,
+1623088,2026-08-25T18:45:00+00:00,FT,Round of 64,Ipswich,57,Leicester,46,3,1,True,
+1623093,2026-08-25T18:45:00+00:00,FT,Round of 64,Blackburn,67,Sheffield Utd,62,1,2,True,
+1623096,2026-08-25T18:45:00+00:00,FT,Round of 64,Sheffield Wednesday,74,Wolves,39,0,2,True,582
+1623097,2026-08-25T18:45:00+00:00,PEN,Round of 64,Stoke City,75,Hull City,64,1,1,True,
+1623081,2026-08-25T18:45:00+00:00,FT,Round of 64,Barnsley,747,Crewe,1363,3,2,True,
+1623094,2026-08-25T18:45:00+00:00,FT,Round of 64,Fleetwood Town,1336,Shrewsbury,1352,4,0,True,
+1623098,2026-08-25T18:45:00+00:00,PEN,Round of 64,Walsall,1342,Leyton Orient,1373,0,0,True,
+1623083,2026-08-25T18:45:00+00:00,FT,Round of 64,Blackpool,1356,Lincoln,1379,1,4,True,
+1623095,2026-08-25T18:45:00+00:00,FT,Round of 64,Plymouth,1357,Coventry,1346,2,4,True,571
+1623091,2026-08-25T18:45:00+00:00,FT,Round of 64,Stevenage,1368,Reading,53,0,3,True,
+1623085,2026-08-25T18:45:00+00:00,FT,Round of 64,Cambridge United,1370,Millwall,58,0,1,True,
+1623082,2026-08-25T19:00:00+00:00,FT,Round of 64,Birmingham,54,Brentford,55,1,6,True,22764
+1623100,2026-08-25T19:00:00+00:00,FT,Round of 64,Nottingham Forest,65,Leeds,63,0,2,True,
+1623089,2026-08-26T18:45:00+00:00,FT,Round of 64,Newcastle,34,West Brom,60,3,2,True,562
+1623092,2026-08-26T18:45:00+00:00,FT,Round of 64,Tottenham,47,Charlton,1335,5,1,True,593
+1623084,2026-08-26T18:45:00+00:00,PEN,Round of 64,Bradford,1343,Burnley,44,0,0,True,
+1623101,2026-08-26T19:00:00+00:00,FT,Round of 64,Preston,59,Everton,45,0,4,True,574
+1623102,2026-08-27T18:30:00+00:00,FT,Round of 64,Chelsea,49,Luton,1359,2,0,True,519
+1623103,2026-08-27T19:00:00+00:00,FT,Round of 64,Fulham,36,AFC Wimbledon,1333,3,0,True,535
+1635565,2026-09-08T14:00:00+00:00,NS,Round of 32,Manchester United,33,Brighton,51,,,False,556
+1635556,2026-09-08T14:00:00+00:00,NS,Round of 32,Bournemouth,35,Lincoln,1379,,,False,
+1635563,2026-09-08T14:00:00+00:00,NS,Round of 32,Liverpool,40,Tottenham,47,,,False,550
+1635559,2026-09-08T14:00:00+00:00,NS,Round of 32,Everton,45,Wolves,39,,,False,
+1635564,2026-09-08T14:00:00+00:00,NS,Round of 32,Manchester City,50,Norwich,71,,,False,555
+1635558,2026-09-08T14:00:00+00:00,NS,Round of 32,Crystal Palace,52,Middlesbrough,70,,,False,525
+1635568,2026-09-08T14:00:00+00:00,NS,Round of 32,Reading,53,Brentford,55,,,False,
+1635561,2026-09-08T14:00:00+00:00,NS,Round of 32,Ipswich,57,Arsenal,42,,,False,
+1635566,2026-09-08T14:00:00+00:00,NS,Round of 32,Millwall,58,Newcastle,34,,,False,559
+1635569,2026-09-08T14:00:00+00:00,NS,Round of 32,Sunderland,746,Hull City,64,,,False,589
+1635560,2026-09-08T14:00:00+00:00,NS,Round of 32,Fleetwood Town,1336,Sheffield Utd,62,,,False,
+1635557,2026-09-08T14:00:00+00:00,NS,Round of 32,Coventry,1346,Aston Villa,66,,,False,
+1635567,2026-09-08T14:00:00+00:00,NS,Round of 32,Peterborough,1350,Barnsley,747,,,False,570
+1635562,2026-09-08T14:00:00+00:00,NS,Round of 32,Leyton Orient,1373,Bradford,1343,,,False,18618

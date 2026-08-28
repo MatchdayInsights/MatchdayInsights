@@ -1,0 +1,36 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1581815,2026-08-14T14:10:00+00:00,FT,Regular Season - 1,Al Nasr,10155,Al-Ittihad Kalba,2876,2,2,True,7142
+1581816,2026-08-14T16:45:00+00:00,FT,Regular Season - 1,Al Wahda FC,2875,Ajman,2879,2,3,True,2927
+1581814,2026-08-15T14:10:00+00:00,FT,Regular Season - 1,Al-Dhafra,2873,Sharjah FC,2874,1,3,True,
+1581817,2026-08-15T16:45:00+00:00,FT,Regular Season - 1,Al-Wasl FC,2872,Dubai United,22321,5,1,True,1605
+1581820,2026-08-15T16:45:00+00:00,FT,Regular Season - 1,Khorfakkan,4912,Shabab Al Ahli Dubai,2870,1,5,True,3711
+1581819,2026-08-16T14:10:00+00:00,FT,Regular Season - 1,Hatta SC,2869,Al-Jazira,2871,0,2,True,
+1581818,2026-08-16T16:45:00+00:00,FT,Regular Season - 1,Baniyas SC,2877,Al Ain,2865,2,4,True,1606
+1599431,2026-08-21T14:00:00+00:00,FT,Regular Season - 2,Al-Ittihad Kalba,2876,Al-Wasl FC,2872,0,3,True,1603
+1599432,2026-08-21T16:35:00+00:00,FT,Regular Season - 2,Al Nasr,10155,Al Wahda FC,2875,1,0,True,7142
+1599434,2026-08-22T14:00:00+00:00,FT,Regular Season - 2,Shabab Al Ahli Dubai,2870,Al-Dhafra,2873,2,0,True,
+1599433,2026-08-22T14:00:00+00:00,FT,Regular Season - 2,Ajman,2879,Hatta SC,2869,4,3,True,1599
+1599435,2026-08-22T16:35:00+00:00,FT,Regular Season - 2,Al Ain,2865,Khorfakkan,4912,2,0,True,
+1599436,2026-08-23T14:00:00+00:00,FT,Regular Season - 2,Baniyas SC,2877,Dubai United,22321,2,3,True,1606
+1599437,2026-08-23T16:35:00+00:00,FT,Regular Season - 2,Sharjah FC,2874,Al-Jazira,2871,0,2,True,1608
+1599438,2026-08-28T13:55:00+00:00,NS,Regular Season - 3,Dubai United,22321,Al-Ittihad Kalba,2876,,,False,
+1599439,2026-08-28T16:30:00+00:00,NS,Regular Season - 3,Al-Wasl FC,2872,Shabab Al Ahli Dubai,2870,,,False,1605
+1599440,2026-08-29T13:55:00+00:00,NS,Regular Season - 3,Al-Jazira,2871,Ajman,2879,,,False,1604
+1599441,2026-08-29T13:55:00+00:00,NS,Regular Season - 3,Khorfakkan,4912,Al-Dhafra,2873,,,False,3711
+1599442,2026-08-29T16:30:00+00:00,NS,Regular Season - 3,Al Ain,2865,Al Nasr,10155,,,False,
+1599443,2026-08-30T13:55:00+00:00,NS,Regular Season - 3,Hatta SC,2869,Sharjah FC,2874,,,False,
+1599444,2026-08-30T16:30:00+00:00,NS,Regular Season - 3,Al Wahda FC,2875,Baniyas SC,2877,,,False,2927
+1599445,2026-09-04T13:45:00+00:00,NS,Regular Season - 4,Al-Ittihad Kalba,2876,Al Ain,2865,,,False,1603
+1599446,2026-09-04T16:15:00+00:00,NS,Regular Season - 4,Al-Wasl FC,2872,Khorfakkan,4912,,,False,1605
+1599447,2026-09-05T13:45:00+00:00,NS,Regular Season - 4,Sharjah FC,2874,Dubai United,22321,,,False,1608
+1599448,2026-09-05T13:45:00+00:00,NS,Regular Season - 4,Baniyas SC,2877,Hatta SC,2869,,,False,1606
+1599449,2026-09-05T16:15:00+00:00,NS,Regular Season - 4,Shabab Al Ahli Dubai,2870,Al-Jazira,2871,,,False,
+1599450,2026-09-06T13:45:00+00:00,NS,Regular Season - 4,Al Nasr,10155,Ajman,2879,,,False,7142
+1599451,2026-09-06T16:15:00+00:00,NS,Regular Season - 4,Al-Dhafra,2873,Al Wahda FC,2875,,,False,
+1634286,2026-09-10T13:40:00+00:00,NS,Regular Season - 5,Al-Jazira,2871,Al Nasr,10155,,,False,1604
+1634287,2026-09-10T13:40:00+00:00,NS,Regular Season - 5,Dubai United,22321,Shabab Al Ahli Dubai,2870,,,False,
+1634288,2026-09-10T16:15:00+00:00,NS,Regular Season - 5,Al Ain,2865,Al-Wasl FC,2872,,,False,
+1634289,2026-09-11T13:40:00+00:00,NS,Regular Season - 5,Hatta SC,2869,Al-Dhafra,2873,,,False,
+1634290,2026-09-11T13:40:00+00:00,NS,Regular Season - 5,Khorfakkan,4912,Baniyas SC,2877,,,False,3711
+1634292,2026-09-11T16:15:00+00:00,NS,Regular Season - 5,Al Wahda FC,2875,Sharjah FC,2874,,,False,2927
+1634291,2026-09-11T16:15:00+00:00,NS,Regular Season - 5,Ajman,2879,Al-Ittihad Kalba,2876,,,False,1599

@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1555347,2026-07-25T16:00:00+00:00,FT,Regular Season - 1,Lausanne,1014,Grasshoppers,1013,1,1,True,11917
 1555348,2026-07-25T16:00:00+00:00,FT,Regular Season - 1,Servette FC,2184,FC Basel 1893,551,0,1,True,
 1555349,2026-07-25T18:30:00+00:00,FT,Regular Season - 1,FC Luzern,644,FC Thun,1012,1,3,True,1537
@@ -11,18 +11,16 @@
 1555356,2026-08-02T12:00:00+00:00,FT,Regular Season - 2,FC Vaduz,660,FC ST. Gallen,1011,2,3,True,
 1555358,2026-08-02T14:30:00+00:00,FT,Regular Season - 2,FC Sion,630,FC Luzern,644,3,0,True,1542
 1555357,2026-08-02T14:30:00+00:00,FT,Regular Season - 2,Grasshoppers,1013,FC Lugano,606,1,4,True,
-1555360,2026-08-08T16:00:00+00:00,NS,Regular Season - 3,Lausanne,1014,BSC Young Boys,565,,,False,11917
-1555361,2026-08-08T18:30:00+00:00,NS,Regular Season - 3,Servette FC,2184,Grasshoppers,1013,,,False,
-1555362,2026-08-09T12:00:00+00:00,NS,Regular Season - 3,FC Lugano,606,FC Zurich,783,,,False,
-1555359,2026-08-09T14:30:00+00:00,NS,Regular Season - 3,FC Basel 1893,551,FC Thun,1012,,,False,1530
-1555363,2026-08-09T14:30:00+00:00,NS,Regular Season - 3,FC Sion,630,FC Vaduz,660,,,False,1542
-1555364,2026-08-09T14:30:00+00:00,NS,Regular Season - 3,FC ST. Gallen,1011,FC Luzern,644,,,False,1543
-1555365,2026-08-22T16:00:00+00:00,NS,Regular Season - 4,FC Luzern,644,Lausanne,1014,,,False,1537
-1555366,2026-08-22T18:30:00+00:00,NS,Regular Season - 4,FC Zurich,783,FC Basel 1893,551,,,False,
-1555367,2026-08-23T12:00:00+00:00,NS,Regular Season - 4,BSC Young Boys,565,FC Vaduz,660,,,False,10500
-1555369,2026-08-23T14:30:00+00:00,NS,Regular Season - 4,FC Lugano,606,FC ST. Gallen,1011,,,False,
-1555368,2026-08-23T14:30:00+00:00,NS,Regular Season - 4,Grasshoppers,1013,FC Sion,630,,,False,
-1555370,2026-08-23T15:00:00+00:00,NS,Regular Season - 4,FC Thun,1012,Servette FC,2184,,,False,1544
+1555360,2026-08-08T16:00:00+00:00,FT,Regular Season - 3,Lausanne,1014,BSC Young Boys,565,2,2,True,11917
+1555361,2026-08-08T18:30:00+00:00,FT,Regular Season - 3,Servette FC,2184,Grasshoppers,1013,2,1,True,
+1555362,2026-08-09T12:00:00+00:00,FT,Regular Season - 3,FC Lugano,606,FC Zurich,783,5,0,True,
+1555359,2026-08-09T14:30:00+00:00,FT,Regular Season - 3,FC Basel 1893,551,FC Thun,1012,4,2,True,1530
+1555363,2026-08-09T14:30:00+00:00,FT,Regular Season - 3,FC Sion,630,FC Vaduz,660,3,2,True,1542
+1555364,2026-08-09T14:30:00+00:00,FT,Regular Season - 3,FC ST. Gallen,1011,FC Luzern,644,2,2,True,1543
+1555365,2026-08-22T16:00:00+00:00,FT,Regular Season - 4,FC Luzern,644,Lausanne,1014,1,0,True,1537
+1555366,2026-08-22T18:30:00+00:00,FT,Regular Season - 4,FC Zurich,783,FC Basel 1893,551,1,2,True,
+1555367,2026-08-23T12:00:00+00:00,FT,Regular Season - 4,BSC Young Boys,565,FC Vaduz,660,4,2,True,10500
+1555370,2026-08-23T15:00:00+00:00,PST,Regular Season - 4,FC Thun,1012,Servette FC,2184,,,False,1544
 1555371,2026-08-29T16:00:00+00:00,NS,Regular Season - 5,Lausanne,1014,FC Zurich,783,,,False,11917
 1555372,2026-08-29T16:00:00+00:00,NS,Regular Season - 5,Servette FC,2184,FC Luzern,644,,,False,
 1555373,2026-08-29T18:30:00+00:00,NS,Regular Season - 5,BSC Young Boys,565,FC Basel 1893,551,,,False,10500
@@ -47,6 +45,8 @@
 1555392,2026-09-13T12:00:00+00:00,NS,Regular Season - 8,FC Zurich,783,FC Vaduz,660,,,False,
 1555394,2026-09-13T14:30:00+00:00,NS,Regular Season - 8,FC Luzern,644,FC Basel 1893,551,,,False,1537
 1555393,2026-09-13T14:30:00+00:00,NS,Regular Season - 8,Lausanne,1014,Servette FC,2184,,,False,11917
+1555368,2026-09-15T17:00:00+00:00,NS,Regular Season - 4,Grasshoppers,1013,FC Sion,630,,,False,
+1555369,2026-09-16T17:00:00+00:00,NS,Regular Season - 4,FC Lugano,606,FC ST. Gallen,1011,,,False,
 1555396,2026-09-19T16:00:00+00:00,NS,Regular Season - 9,BSC Young Boys,565,Servette FC,2184,,,False,10500
 1555395,2026-09-19T16:00:00+00:00,NS,Regular Season - 9,FC Luzern,644,Grasshoppers,1013,,,False,1537
 1555397,2026-09-19T18:30:00+00:00,NS,Regular Season - 9,FC Sion,630,FC Zurich,783,,,False,1542

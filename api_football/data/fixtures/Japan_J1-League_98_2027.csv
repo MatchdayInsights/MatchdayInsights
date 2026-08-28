@@ -1,0 +1,381 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1553999,2026-08-07T10:25:00+00:00,FT,Regular Season - 1,Yokohama F. Marinos,296,Kashima,290,3,4,True,951
+1554000,2026-08-08T10:00:00+00:00,FT,Regular Season - 1,Avispa Fukuoka,316,Vissel Kobe,289,0,1,True,20417
+1554001,2026-08-08T10:00:00+00:00,FT,Regular Season - 1,Cerezo Osaka,291,Fagiano Okayama,310,2,1,True,11583
+1554002,2026-08-08T10:00:00+00:00,FT,Regular Season - 1,FC Tokyo,292,Machida Zelvia,303,1,5,True,
+1554003,2026-08-07T10:30:00+00:00,FT,Regular Season - 1,Gamba Osaka,293,Urawa,287,4,3,True,18623
+1554004,2026-08-08T10:00:00+00:00,FT,Regular Season - 1,Kashiwa Reysol,281,Mito Hollyhock,305,2,1,True,965
+1554005,2026-08-08T10:00:00+00:00,FT,Regular Season - 1,Nagoya Grampus,288,Shimizu S-pulse,283,0,1,True,972
+1554006,2026-08-08T10:15:00+00:00,FT,Regular Season - 1,Sanfrecce Hiroshima,282,JEF United Chiba,301,3,0,True,20557
+1554007,2026-08-09T09:00:00+00:00,FT,Regular Season - 1,Tokyo Verdy,306,Kawasaki Frontale,294,1,1,True,
+1554008,2026-08-09T10:00:00+00:00,FT,Regular Season - 1,V-varen Nagasaki,285,Kyoto Sanga,302,2,1,True,
+1554009,2026-08-15T10:00:00+00:00,FT,Regular Season - 2,JEF United Chiba,301,Machida Zelvia,303,0,4,True,962
+1554010,2026-08-15T09:00:00+00:00,FT,Regular Season - 2,Kashima,290,Nagoya Grampus,288,2,1,True,964
+1554011,2026-08-15T10:00:00+00:00,FT,Regular Season - 2,Kawasaki Frontale,294,Kyoto Sanga,302,2,2,True,
+1554012,2026-08-15T09:00:00+00:00,FT,Regular Season - 2,Mito Hollyhock,305,Gamba Osaka,293,1,1,True,
+1554013,2026-08-15T09:55:00+00:00,FT,Regular Season - 2,Fagiano Okayama,310,V-varen Nagasaki,285,1,0,True,957
+1554014,2026-08-15T09:30:00+00:00,FT,Regular Season - 2,Shimizu S-pulse,283,Yokohama F. Marinos,296,0,1,True,976
+1554015,2026-08-15T10:00:00+00:00,FT,Regular Season - 2,Urawa,287,Sanfrecce Hiroshima,282,1,4,True,980
+1554016,2026-08-15T10:00:00+00:00,FT,Regular Season - 2,Vissel Kobe,289,FC Tokyo,292,2,2,True,984
+1554017,2026-08-22T10:00:00+00:00,FT,Regular Season - 3,Kyoto Sanga,302,Mito Hollyhock,305,1,3,True,967
+1554018,2026-08-23T10:30:00+00:00,FT,Regular Season - 3,Machida Zelvia,303,Urawa,287,3,1,True,951
+1556021,2026-08-14T10:00:00+00:00,FT,Regular Season - 2,Tokyo Verdy,306,Kashiwa Reysol,281,1,3,True,951
+1556022,2026-08-15T10:00:00+00:00,FT,Regular Season - 2,Avispa Fukuoka,316,Cerezo Osaka,291,3,0,True,20417
+1556023,2026-08-21T10:30:00+00:00,FT,Regular Season - 3,FC Tokyo,292,JEF United Chiba,301,2,0,True,951
+1556024,2026-08-21T10:00:00+00:00,FT,Regular Season - 3,Kashiwa Reysol,281,V-varen Nagasaki,285,4,2,True,965
+1556025,2026-08-22T10:00:00+00:00,FT,Regular Season - 3,Cerezo Osaka,291,Shimizu S-pulse,283,1,0,True,11583
+1556026,2026-08-22T09:00:00+00:00,FT,Regular Season - 3,Kashima,290,Avispa Fukuoka,316,3,2,True,964
+1556027,2026-08-22T10:00:00+00:00,FT,Regular Season - 3,Nagoya Grampus,288,Gamba Osaka,293,3,1,True,972
+1556028,2026-08-22T09:30:00+00:00,FT,Regular Season - 3,Fagiano Okayama,310,Tokyo Verdy,306,0,0,True,957
+1556029,2026-08-22T10:15:00+00:00,FT,Regular Season - 3,Sanfrecce Hiroshima,282,Kawasaki Frontale,294,1,1,True,20557
+1556030,2026-08-22T10:30:00+00:00,FT,Regular Season - 3,Yokohama F. Marinos,296,Vissel Kobe,289,1,0,True,985
+1556031,2026-08-29T09:00:00+00:00,NS,Regular Season - 4,Gamba Osaka,293,Sanfrecce Hiroshima,282,,,False,18623
+1556032,2026-08-29T10:00:00+00:00,NS,Regular Season - 4,Kawasaki Frontale,294,JEF United Chiba,301,,,False,
+1556033,2026-08-29T10:00:00+00:00,NS,Regular Season - 4,Kyoto Sanga,302,Avispa Fukuoka,316,,,False,967
+1556034,2026-08-29T09:00:00+00:00,NS,Regular Season - 4,Mito Hollyhock,305,Machida Zelvia,303,,,False,
+1556035,2026-08-29T10:00:00+00:00,NS,Regular Season - 4,Nagoya Grampus,288,Fagiano Okayama,310,,,False,
+1556036,2026-08-29T09:30:00+00:00,NS,Regular Season - 4,Shimizu S-pulse,283,Kashiwa Reysol,281,,,False,976
+1556037,2026-08-29T10:00:00+00:00,NS,Regular Season - 4,Urawa,287,Yokohama F. Marinos,296,,,False,
+1556038,2026-08-29T10:00:00+00:00,NS,Regular Season - 4,Tokyo Verdy,306,Kashima,290,,,False,
+1556039,2026-08-29T10:00:00+00:00,NS,Regular Season - 4,Vissel Kobe,289,Cerezo Osaka,291,,,False,
+1556040,2026-08-29T09:30:00+00:00,NS,Regular Season - 4,V-varen Nagasaki,285,FC Tokyo,292,,,False,
+1556041,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Avispa Fukuoka,316,Urawa,287,,,False,20417
+1556042,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Cerezo Osaka,291,Kashiwa Reysol,281,,,False,11583
+1556043,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,JEF United Chiba,301,Fagiano Okayama,310,,,False,962
+1556044,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Machida Zelvia,303,Kawasaki Frontale,294,,,False,
+1556045,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Mito Hollyhock,305,Kashima,290,,,False,
+1556046,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Sanfrecce Hiroshima,282,Nagoya Grampus,288,,,False,20557
+1556047,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Shimizu S-pulse,283,FC Tokyo,292,,,False,976
+1556048,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Tokyo Verdy,306,Vissel Kobe,289,,,False,
+1556049,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,V-varen Nagasaki,285,Gamba Osaka,293,,,False,
+1556050,2026-09-02T10:00:00+00:00,NS,Regular Season - 5,Yokohama F. Marinos,296,Kyoto Sanga,302,,,False,985
+1556051,2026-09-05T10:00:00+00:00,NS,Regular Season - 6,Avispa Fukuoka,316,Mito Hollyhock,305,,,False,20417
+1556052,2026-09-06T10:00:00+00:00,NS,Regular Season - 6,Cerezo Osaka,291,Tokyo Verdy,306,,,False,11583
+1556053,2026-09-06T09:00:00+00:00,NS,Regular Season - 6,JEF United Chiba,301,Gamba Osaka,293,,,False,962
+1556054,2026-09-06T10:30:00+00:00,NS,Regular Season - 6,FC Tokyo,292,Kyoto Sanga,302,,,False,
+1556055,2026-09-06T09:00:00+00:00,NS,Regular Season - 6,Kashima,290,Urawa,287,,,False,
+1556056,2026-09-06T10:00:00+00:00,NS,Regular Season - 6,Kashiwa Reysol,281,Yokohama F. Marinos,296,,,False,965
+1556057,2026-09-06T09:00:00+00:00,NS,Regular Season - 6,Nagoya Grampus,288,Machida Zelvia,303,,,False,
+1556058,2026-09-06T09:00:00+00:00,NS,Regular Season - 6,Fagiano Okayama,310,Sanfrecce Hiroshima,282,,,False,957
+1556059,2026-09-06T10:00:00+00:00,NS,Regular Season - 6,Vissel Kobe,289,V-varen Nagasaki,285,,,False,
+1556060,2026-09-06T10:00:00+00:00,NS,Regular Season - 6,Kawasaki Frontale,294,Shimizu S-pulse,283,,,False,
+1556061,2026-09-12T10:00:00+00:00,NS,Regular Season - 7,Gamba Osaka,293,FC Tokyo,292,,,False,18623
+1556062,2026-09-12T10:00:00+00:00,NS,Regular Season - 7,Kyoto Sanga,302,Kashiwa Reysol,281,,,False,967
+1556063,2026-09-12T10:00:00+00:00,NS,Regular Season - 7,Machida Zelvia,303,Yokohama F. Marinos,296,,,False,
+1556064,2026-09-12T09:00:00+00:00,NS,Regular Season - 7,Mito Hollyhock,305,Kawasaki Frontale,294,,,False,
+1556065,2026-09-12T10:00:00+00:00,NS,Regular Season - 7,Sanfrecce Hiroshima,282,Cerezo Osaka,291,,,False,20557
+1556066,2026-09-12T09:30:00+00:00,NS,Regular Season - 7,Shimizu S-pulse,283,Avispa Fukuoka,316,,,False,976
+1556067,2026-09-13T09:30:00+00:00,NS,Regular Season - 7,Urawa,287,Fagiano Okayama,310,,,False,
+1556068,2026-09-13T09:00:00+00:00,NS,Regular Season - 7,Tokyo Verdy,306,JEF United Chiba,301,,,False,
+1556069,2026-09-12T10:00:00+00:00,NS,Regular Season - 7,Vissel Kobe,289,Kashima,290,,,False,
+1556070,2026-09-12T10:00:00+00:00,NS,Regular Season - 7,V-varen Nagasaki,285,Nagoya Grampus,288,,,False,
+1556071,2026-09-19T09:00:00+00:00,NS,Regular Season - 8,Avispa Fukuoka,316,Sanfrecce Hiroshima,282,,,False,20417
+1556072,2026-09-19T10:00:00+00:00,NS,Regular Season - 8,FC Tokyo,292,Nagoya Grampus,288,,,False,
+1556073,2026-09-20T08:00:00+00:00,NS,Regular Season - 8,Gamba Osaka,293,Vissel Kobe,289,,,False,18623
+1556074,2026-09-19T10:00:00+00:00,NS,Regular Season - 8,Kawasaki Frontale,294,Kashima,290,,,False,
+1556075,2026-09-20T08:00:00+00:00,NS,Regular Season - 8,Machida Zelvia,303,Kashiwa Reysol,281,,,False,
+1556076,2026-09-19T10:00:00+00:00,NS,Regular Season - 8,Fagiano Okayama,310,Kyoto Sanga,302,,,False,957
+1556077,2026-09-19T09:30:00+00:00,NS,Regular Season - 8,Shimizu S-pulse,283,JEF United Chiba,301,,,False,976
+1556078,2026-09-19T09:30:00+00:00,NS,Regular Season - 8,Urawa,287,Tokyo Verdy,306,,,False,
+1556079,2026-09-19T09:30:00+00:00,NS,Regular Season - 8,V-varen Nagasaki,285,Cerezo Osaka,291,,,False,
+1556080,2026-09-19T10:30:00+00:00,NS,Regular Season - 8,Yokohama F. Marinos,296,Mito Hollyhock,305,,,False,985
+1556081,2026-10-10T06:00:00+00:00,NS,Regular Season - 9,Avispa Fukuoka,316,Fagiano Okayama,310,,,False,20417
+1556082,2026-10-10T05:00:00+00:00,NS,Regular Season - 9,Cerezo Osaka,291,Yokohama F. Marinos,296,,,False,11583
+1556083,2026-10-11T05:00:00+00:00,NS,Regular Season - 9,JEF United Chiba,301,V-varen Nagasaki,285,,,False,962
+1556084,2026-10-10T06:00:00+00:00,NS,Regular Season - 9,FC Tokyo,292,Urawa,287,,,False,
+1556085,2026-10-10T10:00:00+00:00,NS,Regular Season - 9,Kashima,290,Gamba Osaka,293,,,False,
+1556086,2026-10-09T10:00:00+00:00,NS,Regular Season - 9,Kashiwa Reysol,281,Vissel Kobe,289,,,False,965
+1556087,2026-10-11T07:00:00+00:00,NS,Regular Season - 9,Kawasaki Frontale,294,Nagoya Grampus,288,,,False,
+1556088,2026-10-10T10:00:00+00:00,NS,Regular Season - 9,Kyoto Sanga,302,Machida Zelvia,303,,,False,967
+1556089,2026-10-11T06:00:00+00:00,NS,Regular Season - 9,Mito Hollyhock,305,Shimizu S-pulse,283,,,False,
+1556090,2026-10-11T06:00:00+00:00,NS,Regular Season - 9,Tokyo Verdy,306,Sanfrecce Hiroshima,282,,,False,
+1556091,2026-10-17T06:00:00+00:00,NS,Regular Season - 10,Cerezo Osaka,291,Kawasaki Frontale,294,,,False,11583
+1556092,2026-10-17T05:00:00+00:00,NS,Regular Season - 10,JEF United Chiba,301,Yokohama F. Marinos,296,,,False,962
+1556093,2026-10-17T06:00:00+00:00,NS,Regular Season - 10,Kashima,290,V-varen Nagasaki,285,,,False,
+1556094,2026-10-17T10:00:00+00:00,NS,Regular Season - 10,Kashiwa Reysol,281,Nagoya Grampus,288,,,False,965
+1556095,2026-10-17T05:00:00+00:00,NS,Regular Season - 10,Machida Zelvia,303,Avispa Fukuoka,316,,,False,
+1556096,2026-10-17T07:00:00+00:00,NS,Regular Season - 10,Mito Hollyhock,305,Urawa,287,,,False,
+1556097,2026-10-17T10:00:00+00:00,NS,Regular Season - 10,Fagiano Okayama,310,Vissel Kobe,289,,,False,957
+1556098,2026-10-17T05:00:00+00:00,NS,Regular Season - 10,Sanfrecce Hiroshima,282,Kyoto Sanga,302,,,False,20557
+1556099,2026-10-17T10:00:00+00:00,NS,Regular Season - 10,Shimizu S-pulse,283,Gamba Osaka,293,,,False,976
+1556100,2026-10-17T05:00:00+00:00,NS,Regular Season - 10,Tokyo Verdy,306,FC Tokyo,292,,,False,
+1556101,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Avispa Fukuoka,316,Gamba Osaka,293,,,False,20417
+1556102,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,FC Tokyo,292,Kashiwa Reysol,281,,,False,
+1556103,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Kawasaki Frontale,294,Vissel Kobe,289,,,False,
+1556104,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Kyoto Sanga,302,Kashima,290,,,False,967
+1556105,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Nagoya Grampus,288,Cerezo Osaka,291,,,False,
+1556106,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Fagiano Okayama,310,Mito Hollyhock,305,,,False,957
+1556107,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Shimizu S-pulse,283,Machida Zelvia,303,,,False,976
+1556108,2026-10-21T10:30:00+00:00,NS,Regular Season - 11,Urawa,287,JEF United Chiba,301,,,False,
+1556109,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,V-varen Nagasaki,285,Sanfrecce Hiroshima,282,,,False,
+1556110,2026-10-21T10:00:00+00:00,NS,Regular Season - 11,Yokohama F. Marinos,296,Tokyo Verdy,306,,,False,985
+1556111,2026-10-25T06:00:00+00:00,NS,Regular Season - 12,Cerezo Osaka,291,JEF United Chiba,301,,,False,11583
+1556112,2026-10-25T07:00:00+00:00,NS,Regular Season - 12,FC Tokyo,292,Mito Hollyhock,305,,,False,
+1556113,2026-10-24T07:00:00+00:00,NS,Regular Season - 12,Gamba Osaka,293,Kyoto Sanga,302,,,False,18623
+1556114,2026-10-24T06:00:00+00:00,NS,Regular Season - 12,Kashima,290,Kashiwa Reysol,281,,,False,
+1556115,2026-10-25T07:00:00+00:00,NS,Regular Season - 12,Kawasaki Frontale,294,Fagiano Okayama,310,,,False,
+1556116,2026-10-25T05:00:00+00:00,NS,Regular Season - 12,Nagoya Grampus,288,Yokohama F. Marinos,296,,,False,
+1556117,2026-10-24T05:00:00+00:00,NS,Regular Season - 12,Sanfrecce Hiroshima,282,Shimizu S-pulse,283,,,False,20557
+1556118,2026-10-25T06:00:00+00:00,NS,Regular Season - 12,Urawa,287,V-varen Nagasaki,285,,,False,
+1556119,2026-10-24T06:00:00+00:00,NS,Regular Season - 12,Tokyo Verdy,306,Avispa Fukuoka,316,,,False,
+1556120,2026-10-24T10:00:00+00:00,NS,Regular Season - 12,Vissel Kobe,289,Machida Zelvia,303,,,False,
+1556121,2026-11-01T05:00:00+00:00,NS,Regular Season - 13,JEF United Chiba,301,Avispa Fukuoka,316,,,False,962
+1556122,2026-10-31T06:00:00+00:00,NS,Regular Season - 13,Kashima,290,Cerezo Osaka,291,,,False,
+1556123,2026-10-31T11:00:00+00:00,NS,Regular Season - 13,Kashiwa Reysol,281,Urawa,287,,,False,965
+1556124,2026-10-31T11:00:00+00:00,NS,Regular Season - 13,Kyoto Sanga,302,Shimizu S-pulse,283,,,False,967
+1556125,2026-10-31T05:00:00+00:00,NS,Regular Season - 13,Machida Zelvia,303,Gamba Osaka,293,,,False,
+1556126,2026-10-31T05:00:00+00:00,NS,Regular Season - 13,Mito Hollyhock,305,Sanfrecce Hiroshima,282,,,False,
+1556127,2026-10-31T05:00:00+00:00,NS,Regular Season - 13,Fagiano Okayama,310,FC Tokyo,292,,,False,957
+1556128,2026-10-31T11:00:00+00:00,NS,Regular Season - 13,Vissel Kobe,289,Nagoya Grampus,288,,,False,
+1556129,2026-11-01T05:00:00+00:00,NS,Regular Season - 13,V-varen Nagasaki,285,Tokyo Verdy,306,,,False,
+1556130,2026-11-01T04:00:00+00:00,NS,Regular Season - 13,Yokohama F. Marinos,296,Kawasaki Frontale,294,,,False,985
+1556131,2026-11-07T06:00:00+00:00,NS,Regular Season - 14,Avispa Fukuoka,316,V-varen Nagasaki,285,,,False,20417
+1556132,2026-11-08T08:00:00+00:00,NS,Regular Season - 14,JEF United Chiba,301,Mito Hollyhock,305,,,False,962
+1556133,2026-11-07T06:00:00+00:00,NS,Regular Season - 14,FC Tokyo,292,Kashima,290,,,False,
+1556134,2026-11-08T06:00:00+00:00,NS,Regular Season - 14,Gamba Osaka,293,Cerezo Osaka,291,,,False,18623
+1556135,2026-11-07T11:00:00+00:00,NS,Regular Season - 14,Kashiwa Reysol,281,Kawasaki Frontale,294,,,False,965
+1556136,2026-11-08T05:00:00+00:00,NS,Regular Season - 14,Machida Zelvia,303,Sanfrecce Hiroshima,282,,,False,
+1556137,2026-11-07T05:00:00+00:00,NS,Regular Season - 14,Nagoya Grampus,288,Kyoto Sanga,302,,,False,
+1556138,2026-11-07T04:00:00+00:00,NS,Regular Season - 14,Shimizu S-pulse,283,Tokyo Verdy,306,,,False,976
+1556139,2026-11-07T05:00:00+00:00,NS,Regular Season - 14,Yokohama F. Marinos,296,Fagiano Okayama,310,,,False,985
+1556140,2026-11-08T05:00:00+00:00,NS,Regular Season - 14,Vissel Kobe,289,Urawa,287,,,False,
+1556141,2026-11-21T06:00:00+00:00,NS,Regular Season - 15,Cerezo Osaka,291,FC Tokyo,292,,,False,11583
+1556142,2026-11-21T07:00:00+00:00,NS,Regular Season - 15,Gamba Osaka,293,Fagiano Okayama,310,,,False,18623
+1556143,2026-11-21T11:00:00+00:00,NS,Regular Season - 15,Kashima,290,Shimizu S-pulse,283,,,False,
+1556144,2026-11-20T10:00:00+00:00,NS,Regular Season - 15,Kashiwa Reysol,281,JEF United Chiba,301,,,False,965
+1556145,2026-11-21T06:00:00+00:00,NS,Regular Season - 15,Kawasaki Frontale,294,Avispa Fukuoka,316,,,False,
+1556146,2026-11-21T11:00:00+00:00,NS,Regular Season - 15,Kyoto Sanga,302,Urawa,287,,,False,967
+1556147,2026-11-21T05:00:00+00:00,NS,Regular Season - 15,Machida Zelvia,303,V-varen Nagasaki,285,,,False,
+1556148,2026-11-21T05:00:00+00:00,NS,Regular Season - 15,Sanfrecce Hiroshima,282,Yokohama F. Marinos,296,,,False,20557
+1556149,2026-11-21T05:00:00+00:00,NS,Regular Season - 15,Tokyo Verdy,306,Nagoya Grampus,288,,,False,
+1556150,2026-11-21T11:00:00+00:00,NS,Regular Season - 15,Vissel Kobe,289,Mito Hollyhock,305,,,False,
+1556151,2026-11-25T10:00:00+00:00,NS,Regular Season - 16,Avispa Fukuoka,316,Yokohama F. Marinos,296,,,False,20417
+1556152,2026-11-25T10:00:00+00:00,NS,Regular Season - 16,JEF United Chiba,301,Nagoya Grampus,288,,,False,962
+1556153,2026-11-25T10:00:00+00:00,NS,Regular Season - 16,FC Tokyo,292,Sanfrecce Hiroshima,282,,,False,
+1556154,2026-11-25T10:00:00+00:00,NS,Regular Season - 16,Mito Hollyhock,305,Tokyo Verdy,306,,,False,
+1556155,2026-11-25T10:00:00+00:00,NS,Regular Season - 16,Fagiano Okayama,310,Shimizu S-pulse,283,,,False,957
+1556156,2026-11-25T10:30:00+00:00,NS,Regular Season - 16,Urawa,287,Cerezo Osaka,291,,,False,
+1556157,2026-11-25T10:00:00+00:00,NS,Regular Season - 16,V-varen Nagasaki,285,Kawasaki Frontale,294,,,False,
+1556158,2026-12-16T10:00:00+00:00,NS,Regular Season - 16,Gamba Osaka,293,Kashiwa Reysol,281,,,False,18623
+1556159,2026-12-16T10:00:00+00:00,NS,Regular Season - 16,Kashima,290,Machida Zelvia,303,,,False,
+1556160,2026-12-16T11:00:00+00:00,NS,Regular Season - 16,Kyoto Sanga,302,Vissel Kobe,289,,,False,967
+1556161,2026-11-28T06:00:00+00:00,NS,Regular Season - 17,Kashima,290,Fagiano Okayama,310,,,False,
+1556162,2026-11-28T11:00:00+00:00,NS,Regular Season - 17,Kashiwa Reysol,281,Sanfrecce Hiroshima,282,,,False,965
+1556163,2026-11-28T06:00:00+00:00,NS,Regular Season - 17,Kawasaki Frontale,294,Gamba Osaka,293,,,False,
+1556164,2026-11-28T11:00:00+00:00,NS,Regular Season - 17,Kyoto Sanga,302,Cerezo Osaka,291,,,False,967
+1556165,2026-11-28T05:00:00+00:00,NS,Regular Season - 17,Machida Zelvia,303,Tokyo Verdy,306,,,False,
+1556166,2026-11-29T05:00:00+00:00,NS,Regular Season - 17,Mito Hollyhock,305,V-varen Nagasaki,285,,,False,
+1556167,2026-11-29T06:00:00+00:00,NS,Regular Season - 17,Nagoya Grampus,288,Avispa Fukuoka,316,,,False,
+1556168,2026-11-28T05:00:00+00:00,NS,Regular Season - 17,Shimizu S-pulse,283,Urawa,287,,,False,976
+1556169,2026-11-28T11:00:00+00:00,NS,Regular Season - 17,Vissel Kobe,289,JEF United Chiba,301,,,False,
+1556170,2026-11-29T05:00:00+00:00,NS,Regular Season - 17,Yokohama F. Marinos,296,FC Tokyo,292,,,False,985
+1556171,2026-12-04T09:30:00+00:00,NS,Regular Season - 18,FC Tokyo,292,Kawasaki Frontale,294,,,False,
+1556172,2026-12-05T06:00:00+00:00,NS,Regular Season - 18,Cerezo Osaka,291,Mito Hollyhock,305,,,False,11583
+1556173,2026-12-05T04:00:00+00:00,NS,Regular Season - 18,JEF United Chiba,301,Kashima,290,,,False,962
+1556174,2026-12-06T06:00:00+00:00,NS,Regular Season - 18,Gamba Osaka,293,Yokohama F. Marinos,296,,,False,18623
+1556175,2026-12-05T11:00:00+00:00,NS,Regular Season - 18,Kashiwa Reysol,281,Avispa Fukuoka,316,,,False,965
+1556176,2026-12-06T05:00:00+00:00,NS,Regular Season - 18,Machida Zelvia,303,Fagiano Okayama,310,,,False,
+1556177,2026-12-06T05:00:00+00:00,NS,Regular Season - 18,Sanfrecce Hiroshima,282,Vissel Kobe,289,,,False,20557
+1556178,2026-12-05T05:00:00+00:00,NS,Regular Season - 18,Urawa,287,Nagoya Grampus,288,,,False,
+1556179,2026-12-05T05:00:00+00:00,NS,Regular Season - 18,Tokyo Verdy,306,Kyoto Sanga,302,,,False,
+1556180,2026-12-05T06:00:00+00:00,NS,Regular Season - 18,V-varen Nagasaki,285,Shimizu S-pulse,283,,,False,
+1556181,2026-12-13T06:00:00+00:00,NS,Regular Season - 19,Avispa Fukuoka,316,FC Tokyo,292,,,False,20417
+1556182,2026-12-12T05:00:00+00:00,NS,Regular Season - 19,Cerezo Osaka,291,Machida Zelvia,303,,,False,11583
+1556183,2026-12-12T07:00:00+00:00,NS,Regular Season - 19,Gamba Osaka,293,Tokyo Verdy,306,,,False,18623
+1556184,2026-12-13T05:00:00+00:00,NS,Regular Season - 19,Kyoto Sanga,302,JEF United Chiba,301,,,False,967
+1556185,2026-12-13T06:00:00+00:00,NS,Regular Season - 19,Nagoya Grampus,288,Mito Hollyhock,305,,,False,
+1556186,2026-12-13T05:00:00+00:00,NS,Regular Season - 19,Fagiano Okayama,310,Kashiwa Reysol,281,,,False,957
+1556187,2026-12-13T05:00:00+00:00,NS,Regular Season - 19,Sanfrecce Hiroshima,282,Kashima,290,,,False,20557
+1556188,2026-12-12T05:00:00+00:00,NS,Regular Season - 19,Shimizu S-pulse,283,Vissel Kobe,289,,,False,976
+1556189,2026-12-13T06:00:00+00:00,NS,Regular Season - 19,Urawa,287,Kawasaki Frontale,294,,,False,
+1556190,2026-12-13T04:00:00+00:00,NS,Regular Season - 19,Yokohama F. Marinos,296,V-varen Nagasaki,285,,,False,985
+1556191,2026-12-19T05:30:00+00:00,NS,Regular Season - 20,Avispa Fukuoka,316,Shimizu S-pulse,283,,,False,20417
+1556192,2026-12-19T04:00:00+00:00,NS,Regular Season - 20,JEF United Chiba,301,Cerezo Osaka,291,,,False,962
+1556193,2026-12-19T07:00:00+00:00,NS,Regular Season - 20,Gamba Osaka,293,Machida Zelvia,303,,,False,18623
+1556194,2026-12-19T06:00:00+00:00,NS,Regular Season - 20,Kashima,290,Tokyo Verdy,306,,,False,
+1556195,2026-12-19T07:00:00+00:00,NS,Regular Season - 20,Kawasaki Frontale,294,Kashiwa Reysol,281,,,False,
+1556196,2026-12-19T11:00:00+00:00,NS,Regular Season - 20,Kyoto Sanga,302,Fagiano Okayama,310,,,False,967
+1556197,2026-12-19T05:00:00+00:00,NS,Regular Season - 20,Mito Hollyhock,305,FC Tokyo,292,,,False,
+1556198,2026-12-19T05:00:00+00:00,NS,Regular Season - 20,Nagoya Grampus,288,Sanfrecce Hiroshima,282,,,False,
+1556199,2026-12-19T06:00:00+00:00,NS,Regular Season - 20,Vissel Kobe,289,Yokohama F. Marinos,296,,,False,
+1556200,2026-12-19T05:30:00+00:00,NS,Regular Season - 20,V-varen Nagasaki,285,Urawa,287,,,False,
+1556201,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Cerezo Osaka,291,Gamba Osaka,293,,,False,11583
+1556202,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Kashima,290,Mito Hollyhock,305,,,False,
+1556203,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Kashiwa Reysol,281,Shimizu S-pulse,283,,,False,965
+1556204,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Kyoto Sanga,302,Yokohama F. Marinos,296,,,False,967
+1556205,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Machida Zelvia,303,JEF United Chiba,301,,,False,
+1556206,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Nagoya Grampus,288,FC Tokyo,292,,,False,
+1556207,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Sanfrecce Hiroshima,282,Fagiano Okayama,310,,,False,20557
+1556208,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,Vissel Kobe,289,Kawasaki Frontale,294,,,False,
+1556209,2027-02-13T11:00:00+00:00,NS,Regular Season - 21,V-varen Nagasaki,285,Avispa Fukuoka,316,,,False,
+1556210,2027-02-14T11:00:00+00:00,NS,Regular Season - 21,Tokyo Verdy,306,Urawa,287,,,False,
+1556211,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Avispa Fukuoka,316,Nagoya Grampus,288,,,False,20417
+1556212,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Cerezo Osaka,291,Vissel Kobe,289,,,False,11583
+1556213,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,JEF United Chiba,301,Kawasaki Frontale,294,,,False,962
+1556214,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,FC Tokyo,292,V-varen Nagasaki,285,,,False,
+1556215,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Mito Hollyhock,305,Kashiwa Reysol,281,,,False,
+1556216,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Fagiano Okayama,310,Gamba Osaka,293,,,False,957
+1556217,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Sanfrecce Hiroshima,282,Tokyo Verdy,306,,,False,20557
+1556218,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Shimizu S-pulse,283,Kyoto Sanga,302,,,False,976
+1556219,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Urawa,287,Kashima,290,,,False,
+1556220,2027-02-20T11:00:00+00:00,NS,Regular Season - 22,Yokohama F. Marinos,296,Machida Zelvia,303,,,False,985
+1556221,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,JEF United Chiba,301,FC Tokyo,292,,,False,962
+1556222,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Gamba Osaka,293,Avispa Fukuoka,316,,,False,18623
+1556223,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Kawasaki Frontale,294,Machida Zelvia,303,,,False,
+1556224,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Kyoto Sanga,302,Tokyo Verdy,306,,,False,967
+1556225,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Mito Hollyhock,305,Vissel Kobe,289,,,False,
+1556226,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Nagoya Grampus,288,Urawa,287,,,False,
+1556227,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Fagiano Okayama,310,Kashima,290,,,False,957
+1556228,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Shimizu S-pulse,283,Sanfrecce Hiroshima,282,,,False,976
+1556229,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,V-varen Nagasaki,285,Kashiwa Reysol,281,,,False,
+1556230,2027-02-27T11:00:00+00:00,NS,Regular Season - 23,Yokohama F. Marinos,296,Cerezo Osaka,291,,,False,985
+1556231,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Avispa Fukuoka,316,Kashiwa Reysol,281,,,False,20417
+1556232,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Cerezo Osaka,291,Sanfrecce Hiroshima,282,,,False,11583
+1556233,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Gamba Osaka,293,Nagoya Grampus,288,,,False,18623
+1556234,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Kashima,290,JEF United Chiba,301,,,False,
+1556235,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Kawasaki Frontale,294,Urawa,287,,,False,
+1556236,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Kyoto Sanga,302,FC Tokyo,292,,,False,967
+1556237,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Machida Zelvia,303,Shimizu S-pulse,283,,,False,
+1556238,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Tokyo Verdy,306,Yokohama F. Marinos,296,,,False,
+1556239,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,Vissel Kobe,289,Fagiano Okayama,310,,,False,
+1556240,2027-03-06T11:00:00+00:00,NS,Regular Season - 24,V-varen Nagasaki,285,Mito Hollyhock,305,,,False,
+1556241,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,JEF United Chiba,301,Tokyo Verdy,306,,,False,962
+1556242,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Kashiwa Reysol,281,Kyoto Sanga,302,,,False,965
+1556243,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Machida Zelvia,303,Kashima,290,,,False,
+1556244,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Mito Hollyhock,305,Cerezo Osaka,291,,,False,
+1556245,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Nagoya Grampus,288,V-varen Nagasaki,285,,,False,
+1556246,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Fagiano Okayama,310,Yokohama F. Marinos,296,,,False,957
+1556247,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Sanfrecce Hiroshima,282,Avispa Fukuoka,316,,,False,20557
+1556248,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Shimizu S-pulse,283,Kawasaki Frontale,294,,,False,976
+1556249,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Urawa,287,FC Tokyo,292,,,False,
+1556250,2027-03-10T11:00:00+00:00,NS,Regular Season - 25,Vissel Kobe,289,Gamba Osaka,293,,,False,
+1556251,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,FC Tokyo,292,Cerezo Osaka,291,,,False,
+1556252,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Gamba Osaka,293,V-varen Nagasaki,285,,,False,18623
+1556253,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Kashima,290,Sanfrecce Hiroshima,282,,,False,
+1556254,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Kashiwa Reysol,281,Fagiano Okayama,310,,,False,965
+1556255,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Kyoto Sanga,302,Kawasaki Frontale,294,,,False,967
+1556256,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Machida Zelvia,303,Nagoya Grampus,288,,,False,
+1556257,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Tokyo Verdy,306,Mito Hollyhock,305,,,False,
+1556258,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Vissel Kobe,289,Shimizu S-pulse,283,,,False,
+1556259,2027-03-13T11:00:00+00:00,NS,Regular Season - 26,Yokohama F. Marinos,296,Avispa Fukuoka,316,,,False,985
+1556260,2027-03-14T11:00:00+00:00,NS,Regular Season - 26,JEF United Chiba,301,Urawa,287,,,False,962
+1556261,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Avispa Fukuoka,316,JEF United Chiba,301,,,False,20417
+1556262,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Cerezo Osaka,291,Kyoto Sanga,302,,,False,11583
+1556263,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Kashiwa Reysol,281,Tokyo Verdy,306,,,False,965
+1556264,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Kawasaki Frontale,294,FC Tokyo,292,,,False,
+1556265,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Machida Zelvia,303,Mito Hollyhock,305,,,False,
+1556266,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Nagoya Grampus,288,Vissel Kobe,289,,,False,
+1556267,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Sanfrecce Hiroshima,282,Gamba Osaka,293,,,False,20557
+1556268,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,V-varen Nagasaki,285,Fagiano Okayama,310,,,False,
+1556269,2027-03-20T11:00:00+00:00,NS,Regular Season - 27,Yokohama F. Marinos,296,Urawa,287,,,False,985
+1556270,2027-03-21T11:00:00+00:00,NS,Regular Season - 27,Shimizu S-pulse,283,Kashima,290,,,False,976
+1556271,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,FC Tokyo,292,Avispa Fukuoka,316,,,False,
+1556272,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Gamba Osaka,293,Kawasaki Frontale,294,,,False,18623
+1556273,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Kashima,290,Yokohama F. Marinos,296,,,False,
+1556274,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Kashiwa Reysol,281,Cerezo Osaka,291,,,False,965
+1556275,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Kyoto Sanga,302,V-varen Nagasaki,285,,,False,967
+1556276,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Mito Hollyhock,305,JEF United Chiba,301,,,False,
+1556277,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Fagiano Okayama,310,Nagoya Grampus,288,,,False,957
+1556278,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Urawa,287,Shimizu S-pulse,283,,,False,
+1556279,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Tokyo Verdy,306,Machida Zelvia,303,,,False,
+1556280,2027-04-03T10:00:00+00:00,NS,Regular Season - 28,Vissel Kobe,289,Sanfrecce Hiroshima,282,,,False,
+1556281,2027-04-09T10:00:00+00:00,NS,Regular Season - 29,Cerezo Osaka,291,Avispa Fukuoka,316,,,False,11583
+1556282,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,JEF United Chiba,301,Kyoto Sanga,302,,,False,962
+1556283,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,FC Tokyo,292,Fagiano Okayama,310,,,False,
+1556284,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Kawasaki Frontale,294,V-varen Nagasaki,285,,,False,
+1556285,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Machida Zelvia,303,Vissel Kobe,289,,,False,
+1556286,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Nagoya Grampus,288,Kashima,290,,,False,
+1556287,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Shimizu S-pulse,283,Mito Hollyhock,305,,,False,976
+1556288,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Urawa,287,Kashiwa Reysol,281,,,False,
+1556289,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Tokyo Verdy,306,Gamba Osaka,293,,,False,
+1556290,2027-04-10T10:00:00+00:00,NS,Regular Season - 29,Yokohama F. Marinos,296,Sanfrecce Hiroshima,282,,,False,985
+1556291,2027-04-16T10:00:00+00:00,NS,Regular Season - 30,Sanfrecce Hiroshima,282,FC Tokyo,292,,,False,20557
+1556292,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Avispa Fukuoka,316,Machida Zelvia,303,,,False,20417
+1556293,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Cerezo Osaka,291,Kashima,290,,,False,11583
+1556294,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Gamba Osaka,293,JEF United Chiba,301,,,False,18623
+1556295,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Kawasaki Frontale,294,Tokyo Verdy,306,,,False,
+1556296,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Mito Hollyhock,305,Kyoto Sanga,302,,,False,
+1556297,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Fagiano Okayama,310,Urawa,287,,,False,957
+1556298,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Shimizu S-pulse,283,Nagoya Grampus,288,,,False,976
+1556299,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,V-varen Nagasaki,285,Vissel Kobe,289,,,False,
+1556300,2027-04-17T10:00:00+00:00,NS,Regular Season - 30,Yokohama F. Marinos,296,Kashiwa Reysol,281,,,False,985
+1556301,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,FC Tokyo,292,Yokohama F. Marinos,296,,,False,
+1556302,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Kashima,290,Kyoto Sanga,302,,,False,
+1556303,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Kashiwa Reysol,281,Gamba Osaka,293,,,False,965
+1556304,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Nagoya Grampus,288,Kawasaki Frontale,294,,,False,
+1556305,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Fagiano Okayama,310,Cerezo Osaka,291,,,False,957
+1556306,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Sanfrecce Hiroshima,282,Machida Zelvia,303,,,False,20557
+1556307,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Urawa,287,Mito Hollyhock,305,,,False,
+1556308,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Tokyo Verdy,306,Shimizu S-pulse,283,,,False,
+1556309,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,Vissel Kobe,289,Avispa Fukuoka,316,,,False,
+1556310,2027-04-24T10:00:00+00:00,NS,Regular Season - 31,V-varen Nagasaki,285,JEF United Chiba,301,,,False,
+1556311,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Avispa Fukuoka,316,Tokyo Verdy,306,,,False,20417
+1556312,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Cerezo Osaka,291,V-varen Nagasaki,285,,,False,11583
+1556313,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,JEF United Chiba,301,Sanfrecce Hiroshima,282,,,False,962
+1556314,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Kashima,290,Vissel Kobe,289,,,False,
+1556315,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Kashiwa Reysol,281,FC Tokyo,292,,,False,965
+1556316,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Kawasaki Frontale,294,Mito Hollyhock,305,,,False,
+1556317,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Kyoto Sanga,302,Gamba Osaka,293,,,False,967
+1556318,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Shimizu S-pulse,283,Fagiano Okayama,310,,,False,976
+1556319,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Urawa,287,Machida Zelvia,303,,,False,
+1556320,2027-04-29T10:00:00+00:00,NS,Regular Season - 32,Yokohama F. Marinos,296,Nagoya Grampus,288,,,False,985
+1556321,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,FC Tokyo,292,Shimizu S-pulse,283,,,False,
+1556322,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Gamba Osaka,293,Kashima,290,,,False,18623
+1556323,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Machida Zelvia,303,Kyoto Sanga,302,,,False,
+1556324,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Mito Hollyhock,305,Avispa Fukuoka,316,,,False,
+1556325,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Nagoya Grampus,288,JEF United Chiba,301,,,False,
+1556326,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Fagiano Okayama,310,Kawasaki Frontale,294,,,False,957
+1556327,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Sanfrecce Hiroshima,282,Urawa,287,,,False,20557
+1556328,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Tokyo Verdy,306,Cerezo Osaka,291,,,False,
+1556329,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,Vissel Kobe,289,Kashiwa Reysol,281,,,False,
+1556330,2027-05-03T10:00:00+00:00,NS,Regular Season - 33,V-varen Nagasaki,285,Yokohama F. Marinos,296,,,False,
+1556331,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Avispa Fukuoka,316,Kyoto Sanga,302,,,False,20417
+1556332,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Cerezo Osaka,291,Nagoya Grampus,288,,,False,11583
+1556333,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,JEF United Chiba,301,Shimizu S-pulse,283,,,False,962
+1556334,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,FC Tokyo,292,Tokyo Verdy,306,,,False,
+1556335,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Kashima,290,Kawasaki Frontale,294,,,False,
+1556336,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Kashiwa Reysol,281,Machida Zelvia,303,,,False,965
+1556337,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Mito Hollyhock,305,Fagiano Okayama,310,,,False,
+1556338,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Sanfrecce Hiroshima,282,V-varen Nagasaki,285,,,False,20557
+1556339,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Urawa,287,Vissel Kobe,289,,,False,
+1556340,2027-05-09T10:00:00+00:00,NS,Regular Season - 34,Yokohama F. Marinos,296,Gamba Osaka,293,,,False,985
+1556341,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Gamba Osaka,293,Mito Hollyhock,305,,,False,18623
+1556342,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Kawasaki Frontale,294,Yokohama F. Marinos,296,,,False,
+1556343,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Kyoto Sanga,302,Sanfrecce Hiroshima,282,,,False,967
+1556344,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Machida Zelvia,303,FC Tokyo,292,,,False,
+1556345,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Nagoya Grampus,288,Kashiwa Reysol,281,,,False,
+1556346,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Fagiano Okayama,310,JEF United Chiba,301,,,False,957
+1556347,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Shimizu S-pulse,283,Cerezo Osaka,291,,,False,976
+1556348,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Urawa,287,Avispa Fukuoka,316,,,False,
+1556349,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,Vissel Kobe,289,Tokyo Verdy,306,,,False,
+1556350,2027-05-15T10:00:00+00:00,NS,Regular Season - 35,V-varen Nagasaki,285,Kashima,290,,,False,
+1556351,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Avispa Fukuoka,316,Kashima,290,,,False,20417
+1556352,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,JEF United Chiba,301,Vissel Kobe,289,,,False,962
+1556353,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,FC Tokyo,292,Gamba Osaka,293,,,False,
+1556354,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Kawasaki Frontale,294,Cerezo Osaka,291,,,False,
+1556355,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Mito Hollyhock,305,Nagoya Grampus,288,,,False,
+1556356,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Fagiano Okayama,310,Machida Zelvia,303,,,False,957
+1556357,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Sanfrecce Hiroshima,282,Kashiwa Reysol,281,,,False,20557
+1556358,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Urawa,287,Kyoto Sanga,302,,,False,
+1556359,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Tokyo Verdy,306,V-varen Nagasaki,285,,,False,
+1556360,2027-05-22T10:00:00+00:00,NS,Regular Season - 36,Yokohama F. Marinos,296,Shimizu S-pulse,283,,,False,985
+1556361,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Avispa Fukuoka,316,Kawasaki Frontale,294,,,False,20417
+1556362,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Cerezo Osaka,291,Urawa,287,,,False,11583
+1556363,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,FC Tokyo,292,Vissel Kobe,289,,,False,
+1556364,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Gamba Osaka,293,Shimizu S-pulse,283,,,False,18623
+1556365,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Kashiwa Reysol,281,Kashima,290,,,False,965
+1556366,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Kyoto Sanga,302,Nagoya Grampus,288,,,False,967
+1556367,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Sanfrecce Hiroshima,282,Mito Hollyhock,305,,,False,20557
+1556368,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Tokyo Verdy,306,Fagiano Okayama,310,,,False,
+1556369,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,V-varen Nagasaki,285,Machida Zelvia,303,,,False,
+1556370,2027-05-29T10:00:00+00:00,NS,Regular Season - 37,Yokohama F. Marinos,296,JEF United Chiba,301,,,False,985
+1556371,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,JEF United Chiba,301,Kashiwa Reysol,281,,,False,962
+1556372,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Kashima,290,FC Tokyo,292,,,False,
+1556373,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Kawasaki Frontale,294,Sanfrecce Hiroshima,282,,,False,
+1556374,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Machida Zelvia,303,Cerezo Osaka,291,,,False,
+1556375,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Mito Hollyhock,305,Yokohama F. Marinos,296,,,False,
+1556376,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Nagoya Grampus,288,Tokyo Verdy,306,,,False,
+1556377,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Fagiano Okayama,310,Avispa Fukuoka,316,,,False,957
+1556378,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Shimizu S-pulse,283,V-varen Nagasaki,285,,,False,976
+1556379,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Urawa,287,Gamba Osaka,293,,,False,
+1556380,2027-06-06T10:00:00+00:00,NS,Regular Season - 38,Vissel Kobe,289,Kyoto Sanga,302,,,False,

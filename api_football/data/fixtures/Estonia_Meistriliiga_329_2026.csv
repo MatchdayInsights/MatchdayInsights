@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1513494,2026-03-07T10:30:00+00:00,FT,Regular Season - 1,Flora Tallinn,687,Nõmme United,10059,3,0,True,605
 1513495,2026-03-07T12:30:00+00:00,FT,Regular Season - 1,Vaprus,3525,Paide,3528,3,2,True,7100
 1513496,2026-03-07T15:00:00+00:00,FT,Regular Season - 1,Trans Narva,2274,Laagri,18657,1,2,True,
@@ -102,28 +102,29 @@
 1513596,2026-08-02T14:00:00+00:00,FT,Regular Season - 21,Paide,3528,Kuressaare,3526,1,0,True,2336
 1513597,2026-08-02T16:00:00+00:00,FT,Regular Season - 21,Flora Tallinn,687,Laagri,18657,1,0,True,605
 1513598,2026-08-02T16:00:00+00:00,FT,Regular Season - 21,Vaprus,3525,FC Levadia Tallinn,2273,1,1,True,7100
-1513599,2026-08-07T16:00:00+00:00,NS,Regular Season - 22,Kuressaare,3526,Laagri,18657,,,False,2334
-1513601,2026-08-08T16:00:00+00:00,NS,Regular Season - 22,Trans Narva,2274,Kalju Nomme,662,,,False,
-1513603,2026-08-09T16:00:00+00:00,NS,Regular Season - 22,FC Levadia Tallinn,2273,Nõmme United,10059,,,False,605
-1513604,2026-08-14T16:00:00+00:00,NS,Regular Season - 23,Nõmme United,10059,Tammeka,3530,,,False,
-1513605,2026-08-16T14:00:00+00:00,NS,Regular Season - 23,Kalju Nomme,662,Vaprus,3525,,,False,
-1513606,2026-08-16T14:00:00+00:00,NS,Regular Season - 23,Trans Narva,2274,Paide,3528,,,False,
-1513607,2026-08-16T16:00:00+00:00,NS,Regular Season - 23,Flora Tallinn,687,Kuressaare,3526,,,False,605
-1513608,2026-08-16T16:00:00+00:00,NS,Regular Season - 23,Laagri,18657,FC Levadia Tallinn,2273,,,False,
-1513609,2026-08-21T16:00:00+00:00,NS,Regular Season - 24,FC Levadia Tallinn,2273,Trans Narva,2274,,,False,605
-1513611,2026-08-22T14:00:00+00:00,NS,Regular Season - 24,Tammeka,3530,Kuressaare,3526,,,False,
-1513610,2026-08-22T16:00:00+00:00,NS,Regular Season - 24,Laagri,18657,Kalju Nomme,662,,,False,
-1513612,2026-08-23T14:00:00+00:00,NS,Regular Season - 24,Paide,3528,Nõmme United,10059,,,False,2336
-1513613,2026-08-23T16:00:00+00:00,NS,Regular Season - 24,Vaprus,3525,Flora Tallinn,687,,,False,7100
-1513554,2026-08-26T16:00:00+00:00,NS,Regular Season - 13,Tammeka,3530,Flora Tallinn,687,,,False,605
+1513599,2026-08-07T16:00:00+00:00,FT,Regular Season - 22,Kuressaare,3526,Laagri,18657,3,2,True,2334
+1513601,2026-08-08T16:00:00+00:00,FT,Regular Season - 22,Trans Narva,2274,Kalju Nomme,662,0,2,True,
+1513603,2026-08-09T16:00:00+00:00,FT,Regular Season - 22,FC Levadia Tallinn,2273,Nõmme United,10059,5,0,True,605
+1513604,2026-08-14T16:00:00+00:00,FT,Regular Season - 23,Nõmme United,10059,Tammeka,3530,0,1,True,
+1513605,2026-08-16T14:00:00+00:00,FT,Regular Season - 23,Kalju Nomme,662,Vaprus,3525,3,1,True,
+1513606,2026-08-16T14:00:00+00:00,FT,Regular Season - 23,Trans Narva,2274,Paide,3528,1,1,True,
+1513607,2026-08-16T16:00:00+00:00,FT,Regular Season - 23,Flora Tallinn,687,Kuressaare,3526,2,3,True,605
+1513608,2026-08-16T16:00:00+00:00,FT,Regular Season - 23,Laagri,18657,FC Levadia Tallinn,2273,1,2,True,
+1513609,2026-08-21T16:00:00+00:00,FT,Regular Season - 24,FC Levadia Tallinn,2273,Trans Narva,2274,4,0,True,605
+1513611,2026-08-22T14:00:00+00:00,FT,Regular Season - 24,Tammeka,3530,Kuressaare,3526,1,0,True,
+1513610,2026-08-22T16:00:00+00:00,FT,Regular Season - 24,Laagri,18657,Kalju Nomme,662,1,0,True,
+1513612,2026-08-23T14:00:00+00:00,FT,Regular Season - 24,Paide,3528,Nõmme United,10059,4,1,True,2336
+1513613,2026-08-23T16:00:00+00:00,FT,Regular Season - 24,Vaprus,3525,Flora Tallinn,687,1,2,True,7100
+1513554,2026-08-26T16:00:00+00:00,FT,Regular Season - 13,Tammeka,3530,Flora Tallinn,687,3,1,True,605
 1513615,2026-08-29T11:30:00+00:00,NS,Regular Season - 25,Nõmme United,10059,Laagri,18657,,,False,
 1513616,2026-08-29T14:00:00+00:00,NS,Regular Season - 25,Kuressaare,3526,Vaprus,3525,,,False,2334
 1513617,2026-08-30T11:30:00+00:00,NS,Regular Season - 25,Kalju Nomme,662,FC Levadia Tallinn,2273,,,False,
 1513618,2026-08-30T14:00:00+00:00,NS,Regular Season - 25,Flora Tallinn,687,Paide,3528,,,False,605
 1513614,2026-08-30T16:00:00+00:00,NS,Regular Season - 25,Trans Narva,2274,Tammeka,3530,,,False,
-1513619,2026-09-04T16:00:00+00:00,NS,Regular Season - 26,Flora Tallinn,687,Kalju Nomme,662,,,False,605
+1513602,2026-09-02T16:00:00+00:00,NS,Regular Season - 22,Flora Tallinn,687,Tammeka,3530,,,False,605
 1513620,2026-09-05T11:30:00+00:00,NS,Regular Season - 26,Kuressaare,3526,Trans Narva,2274,,,False,2334
 1513621,2026-09-05T14:00:00+00:00,NS,Regular Season - 26,Vaprus,3525,Nõmme United,10059,,,False,7100
+1513619,2026-09-05T16:00:00+00:00,NS,Regular Season - 26,Flora Tallinn,687,Kalju Nomme,662,,,False,605
 1513622,2026-09-06T11:30:00+00:00,NS,Regular Season - 26,Paide,3528,FC Levadia Tallinn,2273,,,False,2336
 1513623,2026-09-06T14:00:00+00:00,NS,Regular Season - 26,Laagri,18657,Tammeka,3530,,,False,
 1513624,2026-09-08T15:00:00+00:00,NS,Regular Season - 27,Kalju Nomme,662,Nõmme United,10059,,,False,
@@ -136,13 +137,13 @@
 1513631,2026-09-12T14:00:00+00:00,NS,Regular Season - 28,Nõmme United,10059,Flora Tallinn,687,,,False,
 1513632,2026-09-13T11:30:00+00:00,NS,Regular Season - 28,Paide,3528,Laagri,18657,,,False,2336
 1513633,2026-09-13T14:00:00+00:00,NS,Regular Season - 28,Kuressaare,3526,Tammeka,3530,,,False,2334
-1513602,2026-09-16T16:00:00+00:00,NS,Regular Season - 22,Flora Tallinn,687,Tammeka,3530,,,False,605
+1513592,2026-09-16T16:00:00+00:00,NS,Regular Season - 20,FC Levadia Tallinn,2273,Tammeka,3530,,,False,605
 1513600,2026-09-16T16:00:00+00:00,NS,Regular Season - 22,Paide,3528,Vaprus,3525,,,False,2336
 1513634,2026-09-18T16:00:00+00:00,NS,Regular Season - 29,Laagri,18657,Kuressaare,3526,,,False,
-1513635,2026-09-19T11:30:00+00:00,NS,Regular Season - 29,Flora Tallinn,687,Vaprus,3525,,,False,605
 1513636,2026-09-19T14:00:00+00:00,NS,Regular Season - 29,Nõmme United,10059,Paide,3528,,,False,
 1513637,2026-09-20T11:30:00+00:00,NS,Regular Season - 29,Tammeka,3530,Kalju Nomme,662,,,False,
 1513638,2026-09-20T14:00:00+00:00,NS,Regular Season - 29,Trans Narva,2274,FC Levadia Tallinn,2273,,,False,
+1513635,2026-09-20T16:00:00+00:00,NS,Regular Season - 29,Flora Tallinn,687,Vaprus,3525,,,False,605
 1513639,2026-10-10T11:30:00+00:00,NS,Regular Season - 30,Kalju Nomme,662,Laagri,18657,,,False,
 1513640,2026-10-10T11:30:00+00:00,NS,Regular Season - 30,Vaprus,3525,Trans Narva,2274,,,False,7100
 1513641,2026-10-10T14:00:00+00:00,NS,Regular Season - 30,Tammeka,3530,Nõmme United,10059,,,False,
@@ -152,13 +153,12 @@
 1513644,2026-10-13T15:00:00+00:00,NS,Regular Season - 31,Laagri,18657,Nõmme United,10059,,,False,
 1513646,2026-10-14T15:00:00+00:00,NS,Regular Season - 31,Trans Narva,2274,Kuressaare,3526,,,False,
 1513647,2026-10-14T15:00:00+00:00,NS,Regular Season - 31,Paide,3528,Tammeka,3530,,,False,2336
-1513648,2026-10-14T16:00:00+00:00,NS,Regular Season - 31,Flora Tallinn,687,FC Levadia Tallinn,2273,,,False,605
-1513649,2026-10-17T11:30:00+00:00,NS,Regular Season - 32,Kuressaare,3526,FC Levadia Tallinn,2273,,,False,2334
+1513648,2026-10-15T16:00:00+00:00,NS,Regular Season - 31,Flora Tallinn,687,FC Levadia Tallinn,2273,,,False,605
 1513650,2026-10-17T11:30:00+00:00,NS,Regular Season - 32,Nõmme United,10059,Kalju Nomme,662,,,False,
-1513651,2026-10-17T14:00:00+00:00,NS,Regular Season - 32,Flora Tallinn,687,Tammeka,3530,,,False,605
+1513649,2026-10-18T11:30:00+00:00,NS,Regular Season - 32,Kuressaare,3526,FC Levadia Tallinn,2273,,,False,2334
 1513652,2026-10-18T11:30:00+00:00,NS,Regular Season - 32,Laagri,18657,Vaprus,3525,,,False,
 1513653,2026-10-18T14:00:00+00:00,NS,Regular Season - 32,Paide,3528,Trans Narva,2274,,,False,2336
-1513592,2026-10-21T16:00:00+00:00,NS,Regular Season - 20,FC Levadia Tallinn,2273,Tammeka,3530,,,False,605
+1513651,2026-10-18T16:00:00+00:00,NS,Regular Season - 32,Flora Tallinn,687,Tammeka,3530,,,False,605
 1513655,2026-10-24T11:30:00+00:00,NS,Regular Season - 33,Tammeka,3530,Trans Narva,2274,,,False,
 1513654,2026-10-24T11:30:00+00:00,NS,Regular Season - 33,Nõmme United,10059,Vaprus,3525,,,False,
 1513656,2026-10-24T14:00:00+00:00,NS,Regular Season - 33,FC Levadia Tallinn,2273,Laagri,18657,,,False,605

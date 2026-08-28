@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1495775,2026-04-05T14:00:00+00:00,FT,Regular Season - 1,Stromsgodset,324,Stabaek,323,2,1,True,1199
 1495780,2026-04-06T12:30:00+00:00,FT,Regular Season - 1,ODD Ballklubb,330,Sogndal,758,4,0,True,1187
 1495776,2026-04-06T12:30:00+00:00,FT,Regular Season - 1,Asane,2148,Moss,7012,2,3,True,12683
@@ -127,30 +127,30 @@
 1495899,2026-08-02T15:00:00+00:00,FT,Regular Season - 16,Lyn,7006,Sogndal,758,3,2,True,
 1495902,2026-08-02T15:15:00+00:00,FT,Regular Season - 16,Raufoss,2153,Stabaek,323,0,2,True,1189
 1495901,2026-08-03T17:00:00+00:00,FT,Regular Season - 16,Ranheim,322,Haugesund,328,3,4,True,
-1495908,2026-08-08T14:00:00+00:00,NS,Regular Season - 17,Stabaek,323,Lyn,7006,,,False,
-1495910,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Stromsgodset,324,Egersund,6976,,,False,1199
-1495904,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Haugesund,328,Raufoss,2153,,,False,
-1495907,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Sogndal,758,Bryne,2142,,,False,1195
-1495906,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Sandnes ULF,2146,hodd,2150,,,False,
-1495909,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Strommen,2147,Ranheim,322,,,False,
-1495903,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Asane,2148,Kongsvinger,2144,,,False,12683
-1495905,2026-08-10T17:00:00+00:00,NS,Regular Season - 17,Moss,7012,ODD Ballklubb,330,,,False,
-1495916,2026-08-15T14:00:00+00:00,NS,Regular Season - 18,Ranheim,322,Stromsgodset,324,,,False,
-1495911,2026-08-15T14:00:00+00:00,NS,Regular Season - 18,Bryne,2142,Moss,7012,,,False,2793
-1495915,2026-08-15T14:00:00+00:00,NS,Regular Season - 18,Lyn,7006,ODD Ballklubb,330,,,False,
-1495918,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Sogndal,758,Sandnes ULF,2146,,,False,1195
-1495914,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Kongsvinger,2144,Haugesund,328,,,False,1180
-1495913,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,hodd,2150,Strommen,2147,,,False,
-1495917,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Raufoss,2153,Asane,2148,,,False,1189
-1495912,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Egersund,6976,Stabaek,323,,,False,
-1495923,2026-08-22T14:00:00+00:00,NS,Regular Season - 19,Sandnes ULF,2146,Bryne,2142,,,False,
-1495925,2026-08-26T16:00:00+00:00,NS,Regular Season - 19,Strommen,2147,Raufoss,2153,,,False,
-1495924,2026-08-26T17:00:00+00:00,NS,Regular Season - 19,Stabaek,323,Ranheim,322,,,False,
-1495926,2026-08-26T17:00:00+00:00,NS,Regular Season - 19,Stromsgodset,324,hodd,2150,,,False,1199
-1495920,2026-08-26T17:00:00+00:00,NS,Regular Season - 19,Haugesund,328,Egersund,6976,,,False,
-1495922,2026-08-26T17:00:00+00:00,NS,Regular Season - 19,ODD Ballklubb,330,Kongsvinger,2144,,,False,1187
-1495919,2026-08-26T17:00:00+00:00,NS,Regular Season - 19,Asane,2148,Lyn,7006,,,False,12683
-1495921,2026-08-26T17:00:00+00:00,NS,Regular Season - 19,Moss,7012,Sogndal,758,,,False,
+1495908,2026-08-08T14:00:00+00:00,FT,Regular Season - 17,Stabaek,323,Lyn,7006,4,3,True,
+1495910,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Stromsgodset,324,Egersund,6976,0,2,True,1199
+1495904,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Haugesund,328,Raufoss,2153,7,2,True,
+1495907,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Sogndal,758,Bryne,2142,0,2,True,1195
+1495906,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Sandnes ULF,2146,hodd,2150,3,4,True,
+1495909,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Strommen,2147,Ranheim,322,1,4,True,
+1495903,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Asane,2148,Kongsvinger,2144,1,2,True,12683
+1495905,2026-08-10T17:00:00+00:00,FT,Regular Season - 17,Moss,7012,ODD Ballklubb,330,3,3,True,
+1495916,2026-08-15T14:00:00+00:00,FT,Regular Season - 18,Ranheim,322,Stromsgodset,324,1,3,True,
+1495911,2026-08-15T14:00:00+00:00,FT,Regular Season - 18,Bryne,2142,Moss,7012,2,1,True,2793
+1495915,2026-08-15T14:00:00+00:00,FT,Regular Season - 18,Lyn,7006,ODD Ballklubb,330,5,1,True,
+1495918,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Sogndal,758,Sandnes ULF,2146,2,0,True,1195
+1495914,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Kongsvinger,2144,Haugesund,328,3,2,True,1180
+1495913,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,hodd,2150,Strommen,2147,4,3,True,
+1495917,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Raufoss,2153,Asane,2148,1,2,True,1189
+1495912,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Egersund,6976,Stabaek,323,0,4,True,
+1495923,2026-08-22T14:00:00+00:00,FT,Regular Season - 19,Sandnes ULF,2146,Bryne,2142,0,1,True,
+1495925,2026-08-26T16:00:00+00:00,FT,Regular Season - 19,Strommen,2147,Raufoss,2153,3,1,True,
+1495924,2026-08-26T17:00:00+00:00,FT,Regular Season - 19,Stabaek,323,Ranheim,322,4,2,True,
+1495926,2026-08-26T17:00:00+00:00,FT,Regular Season - 19,Stromsgodset,324,hodd,2150,3,1,True,1199
+1495920,2026-08-26T17:00:00+00:00,FT,Regular Season - 19,Haugesund,328,Egersund,6976,3,0,True,
+1495922,2026-08-26T17:00:00+00:00,FT,Regular Season - 19,ODD Ballklubb,330,Kongsvinger,2144,0,1,True,1187
+1495919,2026-08-26T17:00:00+00:00,FT,Regular Season - 19,Asane,2148,Lyn,7006,1,2,True,12683
+1495921,2026-08-26T17:00:00+00:00,FT,Regular Season - 19,Moss,7012,Sogndal,758,2,2,True,
 1495927,2026-08-29T12:00:00+00:00,NS,Regular Season - 20,Bryne,2142,Haugesund,328,,,False,2793
 1495932,2026-08-30T15:00:00+00:00,NS,Regular Season - 20,Ranheim,322,ODD Ballklubb,330,,,False,
 1495934,2026-08-30T15:00:00+00:00,NS,Regular Season - 20,Sogndal,758,Stromsgodset,324,,,False,1195
@@ -184,10 +184,10 @@
 1495956,2026-09-20T15:00:00+00:00,NS,Regular Season - 23,Raufoss,2153,Stromsgodset,324,,,False,1189
 1495954,2026-09-20T15:00:00+00:00,NS,Regular Season - 23,Lyn,7006,Ranheim,322,,,False,
 1495963,2026-10-02T17:00:00+00:00,NS,Regular Season - 24,Ranheim,322,Egersund,6976,,,False,
+1495965,2026-10-03T12:30:00+00:00,NS,Regular Season - 24,Strommen,2147,Sandnes ULF,2146,,,False,
 1495966,2026-10-03T14:00:00+00:00,NS,Regular Season - 24,Stromsgodset,324,Asane,2148,,,False,1199
 1495960,2026-10-03T14:00:00+00:00,NS,Regular Season - 24,Haugesund,328,Stabaek,323,,,False,
 1495964,2026-10-03T14:00:00+00:00,NS,Regular Season - 24,Sogndal,758,Raufoss,2153,,,False,1195
-1495965,2026-10-03T14:00:00+00:00,NS,Regular Season - 24,Strommen,2147,Sandnes ULF,2146,,,False,
 1495961,2026-10-03T14:00:00+00:00,NS,Regular Season - 24,hodd,2150,ODD Ballklubb,330,,,False,
 1495959,2026-10-04T12:30:00+00:00,NS,Regular Season - 24,Bryne,2142,Lyn,7006,,,False,2793
 1495962,2026-10-05T17:00:00+00:00,NS,Regular Season - 24,Moss,7012,Kongsvinger,2144,,,False,
@@ -199,43 +199,43 @@
 1495972,2026-10-11T15:00:00+00:00,NS,Regular Season - 25,Raufoss,2153,Moss,7012,,,False,1189
 1495968,2026-10-11T15:00:00+00:00,NS,Regular Season - 25,Egersund,6976,hodd,2150,,,False,
 1495970,2026-10-11T15:00:00+00:00,NS,Regular Season - 25,Lyn,7006,Stromsgodset,324,,,False,
+1495981,2026-10-14T13:00:00+00:00,NS,Regular Season - 26,Strommen,2147,Asane,2148,,,False,
 1495980,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Stabaek,323,Sandnes ULF,2146,,,False,
 1495982,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Stromsgodset,324,Kongsvinger,2144,,,False,1199
 1495976,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Haugesund,328,Lyn,7006,,,False,
 1495979,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Sogndal,758,ODD Ballklubb,330,,,False,1195
 1495975,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Bryne,2142,Raufoss,2153,,,False,2793
-1495981,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Strommen,2147,Asane,2148,,,False,
 1495977,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,hodd,2150,Ranheim,322,,,False,
 1495978,2026-10-14T17:00:00+00:00,NS,Regular Season - 26,Moss,7012,Egersund,6976,,,False,
+1495990,2026-10-18T12:30:00+00:00,NS,Regular Season - 27,Stromsgodset,324,Haugesund,328,,,False,1199
+1495984,2026-10-18T12:30:00+00:00,NS,Regular Season - 27,Egersund,6976,Sogndal,758,,,False,
 1495989,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,Ranheim,322,Bryne,2142,,,False,
-1495990,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,Stromsgodset,324,Haugesund,328,,,False,1199
 1495988,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,ODD Ballklubb,330,Strommen,2147,,,False,1187
 1495986,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,Kongsvinger,2144,Sandnes ULF,2146,,,False,1180
 1495983,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,Asane,2148,Stabaek,323,,,False,12683
 1495985,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,hodd,2150,Raufoss,2153,,,False,
-1495984,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,Egersund,6976,Sogndal,758,,,False,
 1495987,2026-10-18T15:00:00+00:00,NS,Regular Season - 27,Lyn,7006,Moss,7012,,,False,
+1495994,2026-10-24T12:00:00+00:00,NS,Regular Season - 28,Raufoss,2153,Ranheim,322,,,False,1189
+1495998,2026-10-25T12:00:00+00:00,NS,Regular Season - 28,Strommen,2147,Stromsgodset,324,,,False,
+1495992,2026-10-25T13:30:00+00:00,NS,Regular Season - 28,Haugesund,328,hodd,2150,,,False,
+1495995,2026-10-25T13:30:00+00:00,NS,Regular Season - 28,Sandnes ULF,2146,Lyn,7006,,,False,
 1495997,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Stabaek,323,ODD Ballklubb,330,,,False,
-1495992,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Haugesund,328,hodd,2150,,,False,
 1495996,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Sogndal,758,Kongsvinger,2144,,,False,1195
 1495991,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Bryne,2142,Egersund,6976,,,False,2793
-1495995,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Sandnes ULF,2146,Lyn,7006,,,False,
-1495998,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Strommen,2147,Stromsgodset,324,,,False,
-1495994,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Raufoss,2153,Ranheim,322,,,False,1189
 1495993,2026-10-25T16:00:00+00:00,NS,Regular Season - 28,Moss,7012,Asane,2148,,,False,
 1496005,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,Ranheim,322,Sogndal,758,,,False,
 1496006,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,Stromsgodset,324,Moss,7012,,,False,1199
 1496004,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,ODD Ballklubb,330,Sandnes ULF,2146,,,False,1187
-1496002,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,Kongsvinger,2144,Stabaek,323,,,False,1180
 1495999,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,Asane,2148,Haugesund,328,,,False,12683
 1496001,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,hodd,2150,Bryne,2142,,,False,
 1496000,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,Egersund,6976,Strommen,2147,,,False,
 1496003,2026-11-01T16:00:00+00:00,NS,Regular Season - 29,Lyn,7006,Raufoss,2153,,,False,
-1496013,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Stabaek,323,Stromsgodset,324,,,False,
-1496008,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Haugesund,328,ODD Ballklubb,330,,,False,
-1496012,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Sogndal,758,hodd,2150,,,False,1195
-1496007,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Bryne,2142,Kongsvinger,2144,,,False,2793
-1496011,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Sandnes ULF,2146,Asane,2148,,,False,
-1496014,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Strommen,2147,Lyn,7006,,,False,
-1496010,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Raufoss,2153,Egersund,6976,,,False,1189
-1496009,2026-11-08T16:00:00+00:00,NS,Regular Season - 30,Moss,7012,Ranheim,322,,,False,
+1496002,2026-11-02T18:00:00+00:00,NS,Regular Season - 29,Kongsvinger,2144,Stabaek,323,,,False,1180
+1496013,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Stabaek,323,Stromsgodset,324,,,False,
+1496008,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Haugesund,328,ODD Ballklubb,330,,,False,
+1496012,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Sogndal,758,hodd,2150,,,False,1195
+1496007,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Bryne,2142,Kongsvinger,2144,,,False,2793
+1496011,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Sandnes ULF,2146,Asane,2148,,,False,
+1496014,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Strommen,2147,Lyn,7006,,,False,
+1496010,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Raufoss,2153,Egersund,6976,,,False,1189
+1496009,2026-11-08T12:00:00+00:00,NS,Regular Season - 30,Moss,7012,Ranheim,322,,,False,

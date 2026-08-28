@@ -1,0 +1,307 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1552733,2026-08-21T18:45:00+00:00,FT,Regular Season - 1,Marseille,81,Strasbourg,95,4,0,True,
+1552732,2026-08-22T15:15:00+00:00,FT,Regular Season - 1,Lens,116,Auxerre,108,5,2,True,654
+1552734,2026-08-22T18:45:00+00:00,FT,Regular Season - 1,Nice,84,Lorient,97,0,0,True,663
+1552736,2026-08-22T18:45:00+00:00,FT,Regular Season - 1,Toulouse,96,Lyon,80,0,2,True,682
+1552737,2026-08-22T18:45:00+00:00,FT,Regular Season - 1,Estac Troyes,110,Paris FC,114,0,0,True,684
+1552731,2026-08-22T18:45:00+00:00,FT,Regular Season - 1,Le Mans,1298,Stade Brestois 29,106,2,2,True,19206
+1552729,2026-08-23T13:00:00+00:00,FT,Regular Season - 1,Angers,77,Lille,79,0,2,True,634
+1552730,2026-08-23T15:15:00+00:00,FT,Regular Season - 1,Le Havre,111,Monaco,91,0,1,True,652
+1552735,2026-08-23T18:45:00+00:00,FT,Regular Season - 1,Rennes,94,Paris Saint Germain,85,2,2,True,671
+1552746,2026-08-28T18:45:00+00:00,NS,Regular Season - 2,Lille,79,Paris Saint Germain,85,,,False,
+1552745,2026-08-29T15:15:00+00:00,NS,Regular Season - 2,Strasbourg,95,Lens,116,,,False,681
+1552741,2026-08-29T18:45:00+00:00,NS,Regular Season - 2,Lyon,80,Le Havre,111,,,False,
+1552740,2026-08-29T18:45:00+00:00,NS,Regular Season - 2,Lorient,97,Estac Troyes,110,,,False,
+1552739,2026-08-29T18:45:00+00:00,NS,Regular Season - 2,Stade Brestois 29,106,Toulouse,96,,,False,
+1552738,2026-08-29T18:45:00+00:00,NS,Regular Season - 2,Auxerre,108,Angers,77,,,False,
+1552743,2026-08-30T13:00:00+00:00,NS,Regular Season - 2,Paris FC,114,Nice,84,,,False,18861
+1552744,2026-08-30T15:15:00+00:00,NS,Regular Season - 2,Rennes,94,Le Mans,1298,,,False,680
+1552742,2026-08-30T18:45:00+00:00,NS,Regular Season - 2,Monaco,91,Marseille,81,,,False,20470
+1552754,2026-09-03T18:45:00+00:00,NS,Regular Season - 3,Toulouse,96,Lille,79,,,False,682
+1552750,2026-09-04T17:00:00+00:00,NS,Regular Season - 3,Lyon,80,Auxerre,108,,,False,
+1552753,2026-09-04T19:05:00+00:00,NS,Regular Season - 3,Paris Saint Germain,85,Monaco,91,,,False,671
+1552749,2026-09-05T15:15:00+00:00,NS,Regular Season - 3,Lens,116,Lorient,97,,,False,654
+1552752,2026-09-05T18:45:00+00:00,NS,Regular Season - 3,Nice,84,Le Mans,1298,,,False,663
+1552748,2026-09-05T18:45:00+00:00,NS,Regular Season - 3,Le Havre,111,Stade Brestois 29,106,,,False,
+1552755,2026-09-06T13:00:00+00:00,NS,Regular Season - 3,Estac Troyes,110,Strasbourg,95,,,False,
+1552747,2026-09-06T15:15:00+00:00,NS,Regular Season - 3,Angers,77,Rennes,94,,,False,634
+1552751,2026-09-06T18:45:00+00:00,NS,Regular Season - 3,Marseille,81,Paris FC,114,,,False,
+1552763,2026-09-11T18:45:00+00:00,NS,Regular Season - 4,Rennes,94,Marseille,81,,,False,680
+1552764,2026-09-12T15:15:00+00:00,NS,Regular Season - 4,Strasbourg,95,Monaco,91,,,False,681
+1552761,2026-09-12T18:45:00+00:00,NS,Regular Season - 4,Lorient,97,Toulouse,96,,,False,
+1552756,2026-09-12T18:45:00+00:00,NS,Regular Season - 4,Auxerre,108,Nice,84,,,False,
+1552758,2026-09-12T18:45:00+00:00,NS,Regular Season - 4,Le Havre,111,Angers,77,,,False,
+1552762,2026-09-12T18:45:00+00:00,NS,Regular Season - 4,Paris FC,114,Lyon,80,,,False,18861
+1552760,2026-09-13T13:00:00+00:00,NS,Regular Season - 4,Lille,79,Estac Troyes,110,,,False,
+1552759,2026-09-13T15:15:00+00:00,NS,Regular Season - 4,Le Mans,1298,Lens,116,,,False,19206
+1552757,2026-09-13T18:45:00+00:00,NS,Regular Season - 4,Stade Brestois 29,106,Paris Saint Germain,85,,,False,
+1552765,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Angers,77,Estac Troyes,110,,,False,634
+1552768,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Lyon,80,Rennes,94,,,False,
+1552770,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Nice,84,Lille,79,,,False,663
+1552769,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Monaco,91,Lens,116,,,False,20470
+1552772,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Toulouse,96,Le Havre,111,,,False,682
+1552766,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Auxerre,108,Stade Brestois 29,106,,,False,
+1552771,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Paris FC,114,Strasbourg,95,,,False,18861
+1552767,2026-09-19T15:00:00+00:00,NS,Regular Season - 5,Le Mans,1298,Lorient,97,,,False,19206
+1552773,2026-09-20T18:45:00+00:00,NS,Regular Season - 5,Marseille,81,Paris Saint Germain,85,,,False,
+1552776,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Lille,79,Le Havre,111,,,False,
+1552779,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Nice,84,Strasbourg,95,,,False,663
+1552780,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Paris Saint Germain,85,Le Mans,1298,,,False,671
+1552778,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Monaco,91,Toulouse,96,,,False,20470
+1552781,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Rennes,94,Auxerre,108,,,False,680
+1552777,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Lorient,97,Paris FC,114,,,False,
+1552774,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Stade Brestois 29,106,Angers,77,,,False,
+1552782,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Estac Troyes,110,Marseille,81,,,False,
+1552775,2026-10-10T15:00:00+00:00,NS,Regular Season - 6,Lens,116,Lyon,80,,,False,654
+1552783,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Angers,77,Marseille,81,,,False,634
+1552786,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Lille,79,Stade Brestois 29,106,,,False,
+1552788,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Lyon,80,Nice,84,,,False,
+1552790,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Strasbourg,95,Paris Saint Germain,85,,,False,681
+1552787,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Lorient,97,Monaco,91,,,False,
+1552791,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Estac Troyes,110,Lens,116,,,False,
+1552784,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Le Havre,111,Auxerre,108,,,False,
+1552789,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Paris FC,114,Rennes,94,,,False,18861
+1552785,2026-10-17T15:00:00+00:00,NS,Regular Season - 7,Le Mans,1298,Toulouse,96,,,False,19206
+1552792,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Angers,77,Lorient,97,,,False,634
+1552796,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Marseille,81,Le Havre,111,,,False,
+1552797,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Monaco,91,Lille,79,,,False,20470
+1552798,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Rennes,94,Strasbourg,95,,,False,680
+1552799,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Toulouse,96,Estac Troyes,110,,,False,682
+1552794,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Stade Brestois 29,106,Nice,84,,,False,
+1552793,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Auxerre,108,Le Mans,1298,,,False,
+1552795,2026-10-24T15:00:00+00:00,NS,Regular Season - 8,Lens,116,Paris FC,114,,,False,654
+1552800,2026-10-25T19:45:00+00:00,NS,Regular Season - 8,Paris Saint Germain,85,Lyon,80,,,False,671
+1552802,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Lille,79,Lens,116,,,False,
+1552804,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Lyon,80,Angers,77,,,False,
+1552805,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Marseille,81,Toulouse,96,,,False,
+1552806,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Nice,84,Rennes,94,,,False,663
+1552808,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Strasbourg,95,Auxerre,108,,,False,681
+1552803,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Lorient,97,Stade Brestois 29,106,,,False,
+1552809,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Estac Troyes,110,Le Mans,1298,,,False,
+1552801,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Le Havre,111,Paris Saint Germain,85,,,False,
+1552807,2026-10-31T16:00:00+00:00,NS,Regular Season - 9,Paris FC,114,Monaco,91,,,False,18861
+1552810,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Angers,77,Nice,84,,,False,634
+1552815,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Paris Saint Germain,85,Estac Troyes,110,,,False,671
+1552816,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Rennes,94,Lille,79,,,False,680
+1552817,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Toulouse,96,Strasbourg,95,,,False,682
+1552812,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Stade Brestois 29,106,Lyon,80,,,False,
+1552811,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Auxerre,108,Paris FC,114,,,False,
+1552813,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Le Havre,111,Lorient,97,,,False,
+1552814,2026-11-07T16:00:00+00:00,NS,Regular Season - 10,Le Mans,1298,Monaco,91,,,False,19206
+1552818,2026-11-07T19:45:00+00:00,NS,Regular Season - 10,Lens,116,Marseille,81,,,False,654
+1552820,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Lille,79,Lyon,80,,,False,
+1552822,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Marseille,81,Le Mans,1298,,,False,
+1552824,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Nice,84,Paris Saint Germain,85,,,False,663
+1552823,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Monaco,91,Auxerre,108,,,False,20470
+1552826,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Strasbourg,95,Stade Brestois 29,106,,,False,681
+1552821,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Lorient,97,Rennes,94,,,False,
+1552827,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Estac Troyes,110,Le Havre,111,,,False,
+1552825,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Paris FC,114,Angers,77,,,False,18861
+1552819,2026-11-21T16:00:00+00:00,NS,Regular Season - 11,Lens,116,Toulouse,96,,,False,654
+1552828,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Angers,77,Lens,116,,,False,634
+1552833,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Lyon,80,Monaco,91,,,False,
+1552834,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Nice,84,Estac Troyes,110,,,False,663
+1552835,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Paris Saint Germain,85,Lorient,97,,,False,671
+1552836,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Toulouse,96,Rennes,94,,,False,682
+1552830,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Stade Brestois 29,106,Paris FC,114,,,False,
+1552829,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Auxerre,108,Marseille,81,,,False,
+1552831,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Le Havre,111,Strasbourg,95,,,False,
+1552832,2026-11-28T16:00:00+00:00,NS,Regular Season - 12,Le Mans,1298,Lille,79,,,False,19206
+1552838,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Lille,79,Auxerre,108,,,False,
+1552839,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Marseille,81,Nice,84,,,False,
+1552840,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Monaco,91,Angers,77,,,False,20470
+1552842,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Rennes,94,Stade Brestois 29,106,,,False,680
+1552843,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Strasbourg,95,Lorient,97,,,False,681
+1552844,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Toulouse,96,Paris Saint Germain,85,,,False,682
+1552845,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Estac Troyes,110,Lyon,80,,,False,
+1552841,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Paris FC,114,Le Mans,1298,,,False,18861
+1552837,2026-12-05T16:00:00+00:00,NS,Regular Season - 13,Lens,116,Le Havre,111,,,False,654
+1552846,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Angers,77,Strasbourg,95,,,False,634
+1552851,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Nice,84,Lens,116,,,False,663
+1552852,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Paris Saint Germain,85,Paris FC,114,,,False,671
+1552853,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Rennes,94,Monaco,91,,,False,680
+1552850,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Lorient,97,Lille,79,,,False,
+1552848,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Stade Brestois 29,106,Estac Troyes,110,,,False,
+1552847,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Auxerre,108,Toulouse,96,,,False,
+1552849,2026-12-12T16:00:00+00:00,NS,Regular Season - 14,Le Havre,111,Le Mans,1298,,,False,
+1552854,2026-12-13T19:45:00+00:00,NS,Regular Season - 14,Lyon,80,Marseille,81,,,False,
+1552857,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Lille,79,Strasbourg,95,,,False,
+1552859,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Monaco,91,Nice,84,,,False,20470
+1552861,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Toulouse,96,Angers,77,,,False,682
+1552858,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Lorient,97,Auxerre,108,,,False,
+1552855,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Stade Brestois 29,106,Marseille,81,,,False,
+1552862,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Estac Troyes,110,Rennes,94,,,False,
+1552860,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Paris FC,114,Le Havre,111,,,False,18861
+1552856,2027-01-02T16:00:00+00:00,NS,Regular Season - 15,Le Mans,1298,Lyon,80,,,False,19206
+1552863,2027-01-03T19:45:00+00:00,NS,Regular Season - 15,Lens,116,Paris Saint Germain,85,,,False,654
+1552864,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Angers,77,Paris Saint Germain,85,,,False,634
+1552866,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Lyon,80,Lorient,97,,,False,
+1552867,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Marseille,81,Lille,79,,,False,
+1552869,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Nice,84,Le Havre,111,,,False,663
+1552868,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Monaco,91,Stade Brestois 29,106,,,False,20470
+1552871,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Rennes,94,Lens,116,,,False,680
+1552872,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Strasbourg,95,Le Mans,1298,,,False,681
+1552865,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Auxerre,108,Estac Troyes,110,,,False,
+1552870,2027-01-16T16:00:00+00:00,NS,Regular Season - 16,Paris FC,114,Toulouse,96,,,False,18861
+1552876,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Lille,79,Paris FC,114,,,False,
+1552878,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Paris Saint Germain,85,Auxerre,108,,,False,671
+1552879,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Strasbourg,95,Lyon,80,,,False,681
+1552880,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Toulouse,96,Nice,84,,,False,682
+1552877,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Lorient,97,Marseille,81,,,False,
+1552881,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Estac Troyes,110,Monaco,91,,,False,
+1552873,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Le Havre,111,Rennes,94,,,False,
+1552875,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Lens,116,Stade Brestois 29,106,,,False,654
+1552874,2027-01-23T16:00:00+00:00,NS,Regular Season - 17,Le Mans,1298,Angers,77,,,False,19206
+1552882,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Angers,77,Le Havre,111,,,False,634
+1552885,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Lyon,80,Lille,79,,,False,
+1552886,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Marseille,81,Estac Troyes,110,,,False,
+1552887,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Monaco,91,Paris Saint Germain,85,,,False,20470
+1552889,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Rennes,94,Lorient,97,,,False,680
+1552890,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Toulouse,96,Lens,116,,,False,682
+1552883,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Stade Brestois 29,106,Strasbourg,95,,,False,
+1552888,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Paris FC,114,Auxerre,108,,,False,18861
+1552884,2027-01-30T16:00:00+00:00,NS,Regular Season - 18,Le Mans,1298,Nice,84,,,False,19206
+1552895,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Nice,84,Stade Brestois 29,106,,,False,663
+1552896,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Rennes,94,Lyon,80,,,False,680
+1552897,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Strasbourg,95,Paris FC,114,,,False,681
+1552894,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Lorient,97,Le Mans,1298,,,False,
+1552891,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Auxerre,108,Monaco,91,,,False,
+1552898,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Estac Troyes,110,Lille,79,,,False,
+1552892,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Le Havre,111,Toulouse,96,,,False,
+1552893,2027-02-06T16:00:00+00:00,NS,Regular Season - 19,Lens,116,Angers,77,,,False,654
+1552899,2027-02-07T19:45:00+00:00,NS,Regular Season - 19,Paris Saint Germain,85,Marseille,81,,,False,671
+1552903,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Lille,79,Nice,84,,,False,
+1552905,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Lyon,80,Lens,116,,,False,
+1552906,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Marseille,81,Angers,77,,,False,
+1552908,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Toulouse,96,Monaco,91,,,False,682
+1552904,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Lorient,97,Le Havre,111,,,False,
+1552901,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Stade Brestois 29,106,Rennes,94,,,False,
+1552900,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Auxerre,108,Strasbourg,95,,,False,
+1552907,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Paris FC,114,Estac Troyes,110,,,False,18861
+1552902,2027-02-13T16:00:00+00:00,NS,Regular Season - 20,Le Mans,1298,Paris Saint Germain,85,,,False,19206
+1552909,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Angers,77,Paris FC,114,,,False,634
+1552912,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Lille,79,Lorient,97,,,False,
+1552914,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Nice,84,Auxerre,108,,,False,663
+1552915,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Paris Saint Germain,85,Stade Brestois 29,106,,,False,671
+1552913,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Monaco,91,Le Mans,1298,,,False,20470
+1552916,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Rennes,94,Toulouse,96,,,False,680
+1552917,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Strasbourg,95,Marseille,81,,,False,681
+1552910,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Le Havre,111,Lyon,80,,,False,
+1552911,2027-02-20T16:00:00+00:00,NS,Regular Season - 21,Lens,116,Estac Troyes,110,,,False,654
+1552922,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Lyon,80,Toulouse,96,,,False,
+1552923,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Marseille,81,Rennes,94,,,False,
+1552924,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Strasbourg,95,Le Havre,111,,,False,681
+1552921,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Lorient,97,Angers,77,,,False,
+1552919,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Stade Brestois 29,106,Monaco,91,,,False,
+1552918,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Auxerre,108,Lille,79,,,False,
+1552925,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Estac Troyes,110,Nice,84,,,False,
+1552920,2027-02-27T16:00:00+00:00,NS,Regular Season - 22,Le Mans,1298,Paris FC,114,,,False,19206
+1552926,2027-02-28T19:45:00+00:00,NS,Regular Season - 22,Paris Saint Germain,85,Lens,116,,,False,671
+1552927,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Angers,77,Auxerre,108,,,False,634
+1552930,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Lille,79,Marseille,81,,,False,
+1552931,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Monaco,91,Lyon,80,,,False,20470
+1552933,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Rennes,94,Paris Saint Germain,85,,,False,680
+1552934,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Toulouse,96,Le Mans,1298,,,False,682
+1552935,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Estac Troyes,110,Lorient,97,,,False,
+1552928,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Le Havre,111,Nice,84,,,False,
+1552932,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Paris FC,114,Stade Brestois 29,106,,,False,18861
+1552929,2027-03-06T16:00:00+00:00,NS,Regular Season - 23,Lens,116,Strasbourg,95,,,False,654
+1552940,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Lyon,80,Estac Troyes,110,,,False,
+1552941,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Marseille,81,Monaco,91,,,False,
+1552942,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Nice,84,Toulouse,96,,,False,663
+1552944,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Strasbourg,95,Angers,77,,,False,681
+1552937,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Stade Brestois 29,106,Lille,79,,,False,
+1552936,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Auxerre,108,Paris Saint Germain,85,,,False,
+1552938,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Le Havre,111,Lens,116,,,False,
+1552943,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Paris FC,114,Lorient,97,,,False,18861
+1552939,2027-03-13T16:00:00+00:00,NS,Regular Season - 24,Le Mans,1298,Rennes,94,,,False,19206
+1552945,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Angers,77,Le Mans,1298,,,False,634
+1552949,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Paris Saint Germain,85,Strasbourg,95,,,False,671
+1552948,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Monaco,91,Le Havre,111,,,False,20470
+1552950,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Rennes,94,Paris FC,114,,,False,680
+1552951,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Toulouse,96,Stade Brestois 29,106,,,False,682
+1552947,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Lorient,97,Nice,84,,,False,
+1552952,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Estac Troyes,110,Auxerre,108,,,False,
+1552946,2027-03-20T16:00:00+00:00,NS,Regular Season - 25,Lens,116,Lille,79,,,False,654
+1552953,2027-03-21T19:45:00+00:00,NS,Regular Season - 25,Marseille,81,Lyon,80,,,False,
+1552954,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Angers,77,Monaco,91,,,False,634
+1552959,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Lille,79,Rennes,94,,,False,
+1552960,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Nice,84,Lyon,80,,,False,663
+1552962,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Strasbourg,95,Toulouse,96,,,False,681
+1552956,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Stade Brestois 29,106,Lorient,97,,,False,
+1552955,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Auxerre,108,Lens,116,,,False,
+1552957,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Le Havre,111,Estac Troyes,110,,,False,
+1552961,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Paris FC,114,Paris Saint Germain,85,,,False,18861
+1552958,2027-04-03T15:00:00+00:00,NS,Regular Season - 26,Le Mans,1298,Marseille,81,,,False,19206
+1552964,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Lille,79,Toulouse,96,,,False,
+1552966,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Lyon,80,Strasbourg,95,,,False,
+1552967,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Marseille,81,Stade Brestois 29,106,,,False,
+1552969,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Nice,84,Paris FC,114,,,False,663
+1552970,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Paris Saint Germain,85,Le Havre,111,,,False,671
+1552968,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Monaco,91,Rennes,94,,,False,20470
+1552965,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Lorient,97,Lens,116,,,False,
+1552971,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Estac Troyes,110,Angers,77,,,False,
+1552963,2027-04-10T15:00:00+00:00,NS,Regular Season - 27,Le Mans,1298,Auxerre,108,,,False,19206
+1552972,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Angers,77,Lyon,80,,,False,634
+1552978,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Paris Saint Germain,85,Lille,79,,,False,671
+1552977,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Monaco,91,Strasbourg,95,,,False,20470
+1552979,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Rennes,94,Estac Troyes,110,,,False,680
+1552980,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Toulouse,96,Paris FC,114,,,False,682
+1552974,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Stade Brestois 29,106,Le Mans,1298,,,False,
+1552973,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Auxerre,108,Lorient,97,,,False,
+1552975,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Le Havre,111,Marseille,81,,,False,
+1552976,2027-04-17T15:00:00+00:00,NS,Regular Season - 28,Lens,116,Nice,84,,,False,654
+1552982,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Lille,79,Monaco,91,,,False,
+1552984,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Lyon,80,Stade Brestois 29,106,,,False,
+1552985,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Marseille,81,Auxerre,108,,,False,
+1552986,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Nice,84,Angers,77,,,False,663
+1552988,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Strasbourg,95,Rennes,94,,,False,681
+1552983,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Lorient,97,Paris Saint Germain,85,,,False,
+1552989,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Estac Troyes,110,Toulouse,96,,,False,
+1552987,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Paris FC,114,Lens,116,,,False,18861
+1552981,2027-04-24T15:00:00+00:00,NS,Regular Season - 29,Le Mans,1298,Le Havre,111,,,False,19206
+1552994,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Paris Saint Germain,85,Angers,77,,,False,671
+1552993,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Monaco,91,Lorient,97,,,False,20470
+1552995,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Rennes,94,Nice,84,,,False,680
+1552996,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Strasbourg,95,Lille,79,,,False,681
+1552997,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Toulouse,96,Marseille,81,,,False,682
+1552990,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Auxerre,108,Lyon,80,,,False,
+1552998,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Estac Troyes,110,Stade Brestois 29,106,,,False,
+1552991,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Le Havre,111,Paris FC,114,,,False,
+1552992,2027-05-01T15:00:00+00:00,NS,Regular Season - 30,Lens,116,Le Mans,1298,,,False,654
+1552999,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Angers,77,Toulouse,96,,,False,634
+1553004,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Nice,84,Marseille,81,,,False,663
+1553006,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Rennes,94,Le Havre,111,,,False,680
+1553003,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Lorient,97,Strasbourg,95,,,False,
+1553000,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Stade Brestois 29,106,Auxerre,108,,,False,
+1553005,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Paris FC,114,Lille,79,,,False,18861
+1553002,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Lens,116,Monaco,91,,,False,654
+1553001,2027-05-08T15:00:00+00:00,NS,Regular Season - 31,Le Mans,1298,Estac Troyes,110,,,False,19206
+1553007,2027-05-09T18:45:00+00:00,NS,Regular Season - 31,Lyon,80,Paris Saint Germain,85,,,False,
+1553010,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Lille,79,Angers,77,,,False,
+1553011,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Lyon,80,Le Mans,1298,,,False,
+1553012,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Marseille,81,Lens,116,,,False,
+1553014,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Paris Saint Germain,85,Nice,84,,,False,671
+1553013,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Monaco,91,Paris FC,114,,,False,20470
+1553015,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Strasbourg,95,Estac Troyes,110,,,False,681
+1553016,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Toulouse,96,Lorient,97,,,False,682
+1553009,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Stade Brestois 29,106,Le Havre,111,,,False,
+1553008,2027-05-16T15:00:00+00:00,NS,Regular Season - 32,Auxerre,108,Rennes,94,,,False,
+1553017,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Angers,77,Stade Brestois 29,106,,,False,634
+1553022,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Nice,84,Monaco,91,,,False,663
+1553024,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Toulouse,96,Auxerre,108,,,False,682
+1553021,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Lorient,97,Lyon,80,,,False,
+1553025,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Estac Troyes,110,Paris Saint Germain,85,,,False,
+1553018,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Le Havre,111,Lille,79,,,False,
+1553023,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Paris FC,114,Marseille,81,,,False,18861
+1553020,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Lens,116,Rennes,94,,,False,654
+1553019,2027-05-22T15:00:00+00:00,NS,Regular Season - 33,Le Mans,1298,Strasbourg,95,,,False,19206
+1553028,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Lille,79,Le Mans,1298,,,False,
+1553029,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Lyon,80,Paris FC,114,,,False,
+1553030,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Marseille,81,Lorient,97,,,False,
+1553032,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Paris Saint Germain,85,Toulouse,96,,,False,671
+1553031,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Monaco,91,Estac Troyes,110,,,False,20470
+1553033,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Rennes,94,Angers,77,,,False,680
+1553034,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Strasbourg,95,Nice,84,,,False,681
+1553027,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Stade Brestois 29,106,Lens,116,,,False,
+1553026,2027-05-29T19:00:00+00:00,NS,Regular Season - 34,Auxerre,108,Le Havre,111,,,False,

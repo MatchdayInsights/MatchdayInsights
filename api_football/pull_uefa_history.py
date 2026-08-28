@@ -26,6 +26,7 @@ for 429 responses.
 """
 
 import csv
+import json
 import os
 import time
 import requests
@@ -41,7 +42,10 @@ else:
     HEADERS = {"x-apisports-key": API_KEY}
 
 OUTPUT_DIR = "./data/fixtures"  # <-- point this at your real fixtures folder
-SLEEP_SECONDS = 6.5  # ~9 requests/minute, safely under a 10/min cap
+SLEEP_SECONDS = 0.25  # API-Football Pro plan: 300 req/min (5/sec) -
+                       # 0.25s keeps us at 4/sec, a safety margin under
+                       # the real limit rather than the free-tier-level
+                       # pace this used to run at.
 
 # (competition_name_for_filename, league_id)
 UEFA_COMPETITIONS = [
@@ -71,7 +75,12 @@ def fetch_fixtures(league_id: int, season: int) -> list[dict]:
         print(f"  HTTP {resp.status_code}: {resp.text[:300]}")
         resp.raise_for_status()
 
-    data = resp.json()
+    # Force UTF-8 decoding of the raw response bytes directly, instead of
+    # resp.json() (which relies on requests guessing the encoding from
+    # response headers - if the server does not send an explicit
+    # charset=utf-8 in its Content-Type, that guess can be wrong, silently
+    # mangling accented characters like Bayern MÃ¼nchen instead of München).
+    data = json.loads(resp.content.decode("utf-8"))
     errors = data.get("errors")
     if errors:
         print(f"  API error for league={league_id} season={season}: {errors}")
@@ -89,7 +98,18 @@ def fixture_to_row(fx: dict) -> dict:
     league = fx["league"]
 
     status_short = fixture["status"]["short"]  # e.g. FT, AET, PEN, NS, PST
-    played = status_short in ("FT", "AET", "PEN")
+    # Require BOTH goal fields to be genuinely present, not just a
+    # played-looking status - API-Football occasionally returns FT/AET/PEN
+    # with a null goal (a real data-quality gap on their end), and writing
+    # played=True with an empty score field crashes run_ratings.py's
+    # int(row["home_score"]) with no useful error. Treating that case as
+    # NOT played is the safe choice: run_ratings.py only wants matches it
+    # can actually score.
+    played = (
+        status_short in ("FT", "AET", "PEN")
+        and goals["home"] is not None
+        and goals["away"] is not None
+    )
 
     return {
         "fixture_id": fixture["id"],

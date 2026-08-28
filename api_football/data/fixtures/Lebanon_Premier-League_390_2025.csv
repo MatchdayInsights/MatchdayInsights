@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1444673,2025-09-19T12:30:00+00:00,FT,Regular Season - 1,Shabab Al Sahel,4576,Al Mabarrah,11880,0,0,True,3454
 1459149,2025-09-19T12:30:00+00:00,FT,Regular Season - 1,Bourj,7516,Jwaaya FC,26399,0,3,True,3455
 1444670,2025-09-20T12:30:00+00:00,FT,Regular Season - 1,Reyady Abaseya,22812,Al Ahed,4567,0,3,True,22479
@@ -98,7 +98,7 @@
 1544678,2026-05-16T13:00:00+00:00,FT,Championship Group - 2,Al Ansar,4569,Safa,4573,4,1,True,
 1544681,2026-05-18T12:00:00+00:00,FT,Championship Group - 3,Al Ahed,4567,Safa,4573,1,2,True,
 1544680,2026-05-18T19:00:00+00:00,FT,Championship Group - 3,Jwaaya FC,26399,Al Hikma,11879,1,0,True,
-1545527,2026-05-21T18:00:00+00:00,PEN,Final,Al Ansar,4569,Al Nejmeh,4570,2,2,False,
+1545527,2026-05-21T18:00:00+00:00,PEN,Final,Al Ansar,4569,Al Nejmeh,4570,2,2,True,
 1508052,2026-06-11T12:30:00+00:00,FT,Regular Season - 17,Racing,4572,Al Mabarrah,11880,0,1,True,
 1508049,2026-06-12T13:00:00+00:00,FT,Regular Season - 17,Shabab Al Sahel,4576,Safa,4573,0,1,True,
 1508051,2026-06-12T13:00:00+00:00,FT,Regular Season - 17,Reyady Abaseya,22812,Al Hikma,11879,0,1,True,
@@ -133,15 +133,15 @@
 1583715,2026-07-13T13:00:00+00:00,FT,Relegation Quarterfinals - 1,Reyady Abaseya,22812,Racing,4572,4,0,True,
 1585107,2026-07-16T14:30:00+00:00,FT,Championship Round - 2,Al Ahed,4567,Al Nejmeh,4570,0,2,True,3454
 1585108,2026-07-16T18:30:00+00:00,FT,Championship Round - 2,Al Ansar,4569,Jwaaya FC,26399,2,0,True,
-1592147,2026-07-17T14:00:00+00:00,FT,Relegation Quarterfinals - 1,Tadamon Sour,4577,Reyady Abaseya,22812,0,0,True,0
+1592147,2026-07-17T14:00:00+00:00,FT,Relegation Quarterfinals - 1,Tadamon Sour,4577,Reyady Abaseya,22812,0,0,True,
 1593669,2026-07-20T14:30:00+00:00,FT,Championship Round - 3,Jwaaya FC,26399,Al Ahed,4567,2,0,True,
 1593670,2026-07-20T18:30:00+00:00,FT,Championship Round - 3,Al Ansar,4569,Al Nejmeh,4570,1,1,True,
-1592148,2026-07-21T13:00:00+00:00,FT,Relegation Quarterfinals - 1,Tadamon Sour,4577,Racing,4572,1,0,True,0
-1601069,2026-07-24T18:30:00+00:00,FT,Championship Round - 4,Al Ahed,4567,Al Ansar,4569,1,1,True,0
-1601068,2026-07-24T18:30:00+00:00,FT,Championship Round - 4,Al Nejmeh,4570,Jwaaya FC,26399,2,1,True,0
-1592149,2026-07-25T13:00:00+00:00,FT,Relegation Quarterfinals - 1,Racing,4572,Reyady Abaseya,22812,1,2,True,0
+1592148,2026-07-21T13:00:00+00:00,FT,Relegation Quarterfinals - 1,Tadamon Sour,4577,Racing,4572,1,0,True,
+1601069,2026-07-24T18:30:00+00:00,FT,Championship Round - 4,Al Ahed,4567,Al Ansar,4569,1,1,True,
+1601068,2026-07-24T18:30:00+00:00,FT,Championship Round - 4,Al Nejmeh,4570,Jwaaya FC,26399,2,1,True,
+1592149,2026-07-25T13:00:00+00:00,FT,Relegation Quarterfinals - 1,Racing,4572,Reyady Abaseya,22812,1,2,True,
 1601383,2026-07-28T18:30:00+00:00,FT,Championship Round - 5,Al Nejmeh,4570,Al Ahed,4567,2,1,True,
 1601384,2026-07-28T18:30:00+00:00,FT,Championship Round - 5,Jwaaya FC,26399,Al Ansar,4569,1,2,True,
-1592150,2026-07-29T13:40:00+00:00,FT,Relegation Quarterfinals - 1,Reyady Abaseya,22812,Tadamon Sour,4577,2,1,True,0
+1592150,2026-07-29T13:40:00+00:00,FT,Relegation Quarterfinals - 1,Reyady Abaseya,22812,Tadamon Sour,4577,2,1,True,
 1601385,2026-08-01T14:30:00+00:00,FT,Championship Round - 6,Al Ahed,4567,Jwaaya FC,26399,2,2,True,
 1601386,2026-08-02T17:45:00+00:00,FT,Championship Round - 6,Al Nejmeh,4570,Al Ansar,4569,1,2,True,

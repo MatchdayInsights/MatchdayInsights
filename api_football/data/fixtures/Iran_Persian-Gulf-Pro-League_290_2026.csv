@@ -1,0 +1,64 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1618211,2026-08-14T14:30:00+00:00,FT,Regular Season - 1,Tractor Sazi,2737,Paykan,2741,2,0,True,860
+1618213,2026-08-14T16:00:00+00:00,FT,Regular Season - 1,Kheybar Khorramabad,2716,Fajr Sepasi,2713,1,1,True,2755
+1618212,2026-08-14T16:00:00+00:00,FT,Regular Season - 1,Esteghlal FC,2733,Mes Shahr-e Babak,10388,4,0,True,22428
+1618215,2026-08-14T16:30:00+00:00,FT,Regular Season - 1,Esteghlal Khuzestan,2739,Aluminium Arak,2703,0,2,True,
+1618214,2026-08-14T16:30:00+00:00,FT,Regular Season - 1,Chadormalu SC,20299,Sepahan FC,2744,0,2,True,
+1618216,2026-08-14T16:45:00+00:00,FT,Regular Season - 1,Gol Gohar,2714,Nassaji Mazandaran,2719,1,0,True,11524
+1618218,2026-08-15T16:00:00+00:00,FT,Regular Season - 1,ZOB Ahan,2738,Foolad FC,2734,0,0,True,
+1618217,2026-08-15T16:00:00+00:00,FT,Regular Season - 1,Shams Azar Qazvin,18159,Persepolis FC,2742,0,2,True,
+1618219,2026-08-15T16:30:00+00:00,FT,Regular Season - 1,Sanat Naft,2743,Malavan,2717,1,1,True,856
+1618220,2026-08-18T15:45:00+00:00,FT,Regular Season - 2,Nassaji Mazandaran,2719,Esteghlal FC,2733,0,1,True,
+1618221,2026-08-18T15:45:00+00:00,FT,Regular Season - 2,Paykan,2741,Gol Gohar,2714,0,0,True,
+1618222,2026-08-18T16:00:00+00:00,FT,Regular Season - 2,Aluminium Arak,2703,Chadormalu SC,20299,0,0,True,
+1618223,2026-08-18T16:30:00+00:00,FT,Regular Season - 2,Sepahan FC,2744,Tractor Sazi,2737,0,2,True,857
+1618224,2026-08-19T16:00:00+00:00,FT,Regular Season - 2,Fajr Sepasi,2713,Sanat Naft,2743,0,0,True,
+1618225,2026-08-19T16:00:00+00:00,FT,Regular Season - 2,Malavan,2717,ZOB Ahan,2738,2,1,True,
+1618227,2026-08-19T16:00:00+00:00,FT,Regular Season - 2,Persepolis FC,2742,Esteghlal Khuzestan,2739,4,1,True,22428
+1618226,2026-08-19T16:00:00+00:00,FT,Regular Season - 2,Mes Shahr-e Babak,10388,Kheybar Khorramabad,2716,1,1,True,
+1618228,2026-08-19T17:00:00+00:00,FT,Regular Season - 2,Foolad FC,2734,Shams Azar Qazvin,18159,1,1,True,
+1618229,2026-08-23T16:00:00+00:00,FT,Regular Season - 3,Esteghlal FC,2733,Sepahan FC,2744,2,0,True,22428
+1618231,2026-08-23T16:00:00+00:00,FT,Regular Season - 3,Esteghlal Khuzestan,2739,Nassaji Mazandaran,2719,1,1,True,
+1618230,2026-08-23T16:00:00+00:00,FT,Regular Season - 3,Shams Azar Qazvin,18159,Aluminium Arak,2703,1,2,True,
+1618232,2026-08-24T15:00:00+00:00,FT,Regular Season - 3,Tractor Sazi,2737,Persepolis FC,2742,1,0,True,860
+1618233,2026-08-24T16:00:00+00:00,FT,Regular Season - 3,Kheybar Khorramabad,2716,Paykan,2741,2,3,True,2755
+1618234,2026-08-24T16:00:00+00:00,FT,Regular Season - 3,Malavan,2717,Fajr Sepasi,2713,0,1,True,
+1618235,2026-08-24T16:00:00+00:00,FT,Regular Season - 3,ZOB Ahan,2738,Mes Shahr-e Babak,10388,1,1,True,
+1618236,2026-08-24T16:30:00+00:00,FT,Regular Season - 3,Gol Gohar,2714,Chadormalu SC,20299,3,0,True,11524
+1618237,2026-08-24T17:00:00+00:00,FT,Regular Season - 3,Sanat Naft,2743,Foolad FC,2734,0,3,True,856
+1631562,2026-08-28T15:30:00+00:00,NS,Regular Season - 4,Paykan,2741,Esteghlal Khuzestan,2739,,,False,
+1631561,2026-08-28T15:30:00+00:00,NS,Regular Season - 4,Chadormalu SC,20299,Tractor Sazi,2737,,,False,
+1631563,2026-08-28T15:45:00+00:00,NS,Regular Season - 4,Aluminium Arak,2703,Kheybar Khorramabad,2716,,,False,
+1631564,2026-08-28T15:45:00+00:00,NS,Regular Season - 4,Nassaji Mazandaran,2719,Shams Azar Qazvin,18159,,,False,
+1631565,2026-08-28T16:00:00+00:00,NS,Regular Season - 4,Sepahan FC,2744,Gol Gohar,2714,,,False,857
+1631566,2026-08-28T17:30:00+00:00,NS,Regular Season - 4,Foolad FC,2734,Esteghlal FC,2733,,,False,
+1631567,2026-08-29T15:30:00+00:00,NS,Regular Season - 4,Fajr Sepasi,2713,ZOB Ahan,2738,,,False,
+1631568,2026-08-29T15:30:00+00:00,NS,Regular Season - 4,Mes Shahr-e Babak,10388,Sanat Naft,2743,,,False,
+1631569,2026-08-29T15:45:00+00:00,NS,Regular Season - 4,Persepolis FC,2742,Malavan,2717,,,False,22428
+1631571,2026-09-01T15:30:00+00:00,NS,Regular Season - 5,Gol Gohar,2714,Aluminium Arak,2703,,,False,11524
+1631570,2026-09-01T15:30:00+00:00,NS,Regular Season - 5,Esteghlal Khuzestan,2739,Chadormalu SC,20299,,,False,
+1631572,2026-09-01T15:45:00+00:00,NS,Regular Season - 5,Shams Azar Qazvin,18159,Tractor Sazi,2737,,,False,
+1631573,2026-09-02T14:30:00+00:00,NS,Regular Season - 5,Kheybar Khorramabad,2716,Foolad FC,2734,,,False,2755
+1631574,2026-09-02T14:30:00+00:00,NS,Regular Season - 5,Malavan,2717,Nassaji Mazandaran,2719,,,False,
+1631575,2026-09-02T14:30:00+00:00,NS,Regular Season - 5,ZOB Ahan,2738,Paykan,2741,,,False,
+1631576,2026-09-02T16:00:00+00:00,NS,Regular Season - 5,Esteghlal FC,2733,Persepolis FC,2742,,,False,22428
+1631577,2026-09-02T17:30:00+00:00,NS,Regular Season - 5,Sanat Naft,2743,Sepahan FC,2744,,,False,856
+1631578,2026-09-03T15:30:00+00:00,NS,Regular Season - 5,Fajr Sepasi,2713,Mes Shahr-e Babak,10388,,,False,
+1631579,2026-09-05T14:45:00+00:00,NS,Regular Season - 6,Tractor Sazi,2737,Gol Gohar,2714,,,False,860
+1631580,2026-09-06T15:15:00+00:00,NS,Regular Season - 6,Paykan,2741,Sanat Naft,2743,,,False,
+1631581,2026-09-06T15:30:00+00:00,NS,Regular Season - 6,Aluminium Arak,2703,Esteghlal FC,2733,,,False,
+1631583,2026-09-06T15:30:00+00:00,NS,Regular Season - 6,Sepahan FC,2744,Esteghlal Khuzestan,2739,,,False,857
+1631582,2026-09-06T15:30:00+00:00,NS,Regular Season - 6,Chadormalu SC,20299,Shams Azar Qazvin,18159,,,False,
+1631584,2026-09-07T15:30:00+00:00,NS,Regular Season - 6,Nassaji Mazandaran,2719,Kheybar Khorramabad,2716,,,False,
+1631585,2026-09-07T15:30:00+00:00,NS,Regular Season - 6,Persepolis FC,2742,ZOB Ahan,2738,,,False,22428
+1631586,2026-09-08T15:15:00+00:00,NS,Regular Season - 6,Mes Shahr-e Babak,10388,Malavan,2717,,,False,
+1631587,2026-09-08T17:00:00+00:00,NS,Regular Season - 6,Foolad FC,2734,Fajr Sepasi,2713,,,False,
+1631588,2026-09-10T15:30:00+00:00,NS,Regular Season - 7,Esteghlal FC,2733,Paykan,2741,,,False,22428
+1631589,2026-09-10T15:30:00+00:00,NS,Regular Season - 7,Esteghlal Khuzestan,2739,Tractor Sazi,2737,,,False,
+1631590,2026-09-10T15:30:00+00:00,NS,Regular Season - 7,Shams Azar Qazvin,18159,Gol Gohar,2714,,,False,
+1631591,2026-09-12T15:30:00+00:00,NS,Regular Season - 7,ZOB Ahan,2738,Sepahan FC,2744,,,False,
+1631592,2026-09-12T16:30:00+00:00,NS,Regular Season - 7,Sanat Naft,2743,Chadormalu SC,20299,,,False,856
+1631593,2026-09-13T15:30:00+00:00,NS,Regular Season - 7,Kheybar Khorramabad,2716,Persepolis FC,2742,,,False,2755
+1631594,2026-09-13T15:30:00+00:00,NS,Regular Season - 7,Malavan,2717,Foolad FC,2734,,,False,
+1631595,2026-09-13T15:30:00+00:00,NS,Regular Season - 7,Mes Shahr-e Babak,10388,Nassaji Mazandaran,2719,,,False,
+1631596,2026-09-13T16:00:00+00:00,NS,Regular Season - 7,Fajr Sepasi,2713,Aluminium Arak,2703,,,False,

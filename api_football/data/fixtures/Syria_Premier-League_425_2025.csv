@@ -1,12 +1,12 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1494057,2025-12-18T11:00:00+00:00,FT,Regular Season - 1,Al Ittihad,8019,Khan Shaykhun SC,27267,2,1,True,1549
 1494058,2025-12-18T11:00:00+00:00,FT,Regular Season - 1,Shorta,9123,Hottin,9115,3,3,True,5725
 1494091,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Al Karama,9111,Al Wahda,8035,0,2,True,6308
-1494092,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Al Taliya,9113,Foutoua,9114,3,0,True,0
-1494093,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Al Shouleh,24992,Jabala,9116,0,2,True,0
-1494095,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Omaya SC,27270,Horriya,15301,0,0,True,0
-1494094,2025-12-20T11:00:00+00:00,FT,Regular Season - 1,Tishreen,9117,Jaish,8040,4,0,True,0
-1494096,2025-12-20T11:00:00+00:00,FT,Regular Season - 1,Damascus Al-Ahli,27269,Wathba,9118,0,1,True,0
+1494092,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Al Taliya,9113,Foutoua,9114,3,0,True,
+1494093,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Al Shouleh,24992,Jabala,9116,0,2,True,
+1494095,2025-12-19T11:30:00+00:00,FT,Regular Season - 1,Omaya SC,27270,Horriya,15301,0,0,True,
+1494094,2025-12-20T11:00:00+00:00,FT,Regular Season - 1,Tishreen,9117,Jaish,8040,4,0,True,
+1494096,2025-12-20T11:00:00+00:00,FT,Regular Season - 1,Damascus Al-Ahli,27269,Wathba,9118,0,1,True,
 1497491,2025-12-25T11:00:00+00:00,FT,Regular Season - 2,Jabala,9116,Shorta,9123,1,2,True,
 1497492,2025-12-25T11:00:00+00:00,FT,Regular Season - 2,Khan Shaykhun SC,27267,Damascus Al-Ahli,27269,2,1,True,
 1497493,2025-12-26T11:30:00+00:00,FT,Regular Season - 2,Al Wahda,8035,Omaya SC,27270,0,0,True,
@@ -74,12 +74,12 @@
 1525639,2026-02-24T18:30:00+00:00,FT,Regular Season - 10,Khan Shaykhun SC,27267,Horriya,15301,1,2,True,
 1525641,2026-02-25T12:00:00+00:00,FT,Regular Season - 10,Wathba,9118,Al Wahda,8035,0,1,True,
 1528250,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Jaish,8040,Khan Shaykhun SC,27267,3,1,True,
-1528249,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Jabala,9116,Damascus Al-Ahli,27269,1,0,True,0
-1528247,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Horriya,15301,Al Ittihad,8019,1,5,True,0
-1528251,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Al Shouleh,24992,Shorta,9123,1,1,True,0
-1528248,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Omaya SC,27270,Tishreen,9117,0,0,True,0
-1528252,2026-02-28T12:00:00+00:00,FT,Regular Season - 11,Al Wahda,8035,Al Taliya,9113,2,1,True,0
-1528253,2026-02-28T19:00:00+00:00,FT,Regular Season - 11,Hottin,9115,Wathba,9118,0,0,True,0
+1528249,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Jabala,9116,Damascus Al-Ahli,27269,1,0,True,
+1528247,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Horriya,15301,Al Ittihad,8019,1,5,True,
+1528251,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Al Shouleh,24992,Shorta,9123,1,1,True,
+1528248,2026-02-27T12:00:00+00:00,FT,Regular Season - 11,Omaya SC,27270,Tishreen,9117,0,0,True,
+1528252,2026-02-28T12:00:00+00:00,FT,Regular Season - 11,Al Wahda,8035,Al Taliya,9113,2,1,True,
+1528253,2026-02-28T19:00:00+00:00,FT,Regular Season - 11,Hottin,9115,Wathba,9118,0,0,True,
 1528254,2026-03-01T12:00:00+00:00,FT,Regular Season - 11,Al Karama,9111,Foutoua,9114,1,0,True,6308
 1529005,2026-03-05T12:00:00+00:00,FT,Regular Season - 12,Damascus Al-Ahli,27269,Horriya,15301,2,1,True,
 1529006,2026-03-05T19:00:00+00:00,FT,Regular Season - 12,Khan Shaykhun SC,27267,Hottin,9115,0,1,True,
@@ -135,28 +135,28 @@
 1542226,2026-04-24T13:00:00+00:00,FT,Regular Season - 17,Al Taliya,9113,Jaish,8040,0,0,True,
 1542225,2026-04-24T13:00:00+00:00,FT,Regular Season - 17,Al Shouleh,24992,Horriya,15301,1,0,True,
 1542227,2026-04-24T13:00:00+00:00,FT,Regular Season - 17,Omaya SC,27270,Al Wahda,8035,1,3,True,
-1543657,2026-04-27T13:00:00+00:00,FT,Regular Season - 18,Hottin,9115,Omaya SC,27270,0,0,True,0
-1543656,2026-04-27T13:00:00+00:00,FT,Regular Season - 18,Khan Shaykhun SC,27267,Tishreen,9117,0,0,True,0
+1543657,2026-04-27T13:00:00+00:00,FT,Regular Season - 18,Hottin,9115,Omaya SC,27270,0,0,True,
+1543656,2026-04-27T13:00:00+00:00,FT,Regular Season - 18,Khan Shaykhun SC,27267,Tishreen,9117,0,0,True,
 1543036,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Jaish,8040,Al Shouleh,24992,0,0,True,
-1543034,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Foutoua,9114,Shorta,9123,0,1,True,0
-1543032,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Jabala,9116,Al Wahda,8035,2,1,True,0
-1543035,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Wathba,9118,Al Taliya,9113,1,0,True,0
-1543033,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Horriya,15301,Al Karama,9111,2,1,True,0
-1543031,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Damascus Al-Ahli,27269,Al Ittihad,8019,1,1,True,0
+1543034,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Foutoua,9114,Shorta,9123,0,1,True,
+1543032,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Jabala,9116,Al Wahda,8035,2,1,True,
+1543035,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Wathba,9118,Al Taliya,9113,1,0,True,
+1543033,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Horriya,15301,Al Karama,9111,2,1,True,
+1543031,2026-04-28T13:00:00+00:00,FT,Regular Season - 18,Damascus Al-Ahli,27269,Al Ittihad,8019,1,1,True,
 1543658,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Al Ittihad,8019,Wathba,9118,0,1,True,1549
 1543660,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Al Karama,9111,Damascus Al-Ahli,27269,2,0,True,6308
-1543664,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Al Taliya,9113,Khan Shaykhun SC,27267,1,0,True,0
-1543659,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Tishreen,9117,Foutoua,9114,2,0,True,0
+1543664,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Al Taliya,9113,Khan Shaykhun SC,27267,1,0,True,
+1543659,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Tishreen,9117,Foutoua,9114,2,0,True,
 1543662,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Shorta,9123,Jaish,8040,1,1,True,5725
-1543663,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Omaya SC,27270,Jabala,9116,2,0,True,0
-1543665,2026-05-02T13:00:00+00:00,FT,Regular Season - 19,Al Wahda,8035,Horriya,15301,0,2,True,0
+1543663,2026-05-01T13:00:00+00:00,FT,Regular Season - 19,Omaya SC,27270,Jabala,9116,2,0,True,
+1543665,2026-05-02T13:00:00+00:00,FT,Regular Season - 19,Al Wahda,8035,Horriya,15301,0,2,True,
 1544165,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Al Ittihad,8019,Al Taliya,9113,3,0,True,1549
-1544169,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Foutoua,9114,Omaya SC,27270,1,1,True,0
-1544166,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Jabala,9116,Al Karama,9111,1,0,True,0
-1544168,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Wathba,9118,Shorta,9123,5,1,True,0
-1544167,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Damascus Al-Ahli,27269,Tishreen,9117,2,0,True,0
+1544169,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Foutoua,9114,Omaya SC,27270,1,1,True,
+1544166,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Jabala,9116,Al Karama,9111,1,0,True,
+1544168,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Wathba,9118,Shorta,9123,5,1,True,
+1544167,2026-05-05T13:00:00+00:00,FT,Regular Season - 20,Damascus Al-Ahli,27269,Tishreen,9117,2,0,True,
 1544170,2026-05-06T13:00:00+00:00,FT,Regular Season - 20,Jaish,8040,Al Wahda,8035,0,1,True,
-1544171,2026-05-06T13:00:00+00:00,FT,Regular Season - 20,Hottin,9115,Horriya,15301,0,2,True,0
+1544171,2026-05-06T13:00:00+00:00,FT,Regular Season - 20,Hottin,9115,Horriya,15301,0,2,True,
 1544250,2026-05-06T13:00:00+00:00,FT,Regular Season - 20,Khan Shaykhun SC,27267,Al Shouleh,24992,2,1,True,
 1544517,2026-05-08T13:00:00+00:00,FT,Regular Season - 21,Al Karama,9111,Al Ittihad,8019,2,4,True,6308
 1544518,2026-05-08T13:00:00+00:00,FT,Regular Season - 21,Al Taliya,9113,Damascus Al-Ahli,27269,1,1,True,
@@ -239,4 +239,4 @@
 1550079,2026-07-04T14:00:00+00:00,FT,Regular Season - 30,Al Karama,9111,Omaya SC,27270,2,1,True,6308
 1550080,2026-07-04T14:00:00+00:00,FT,Regular Season - 30,Shorta,9123,Horriya,15301,0,1,True,5725
 1550083,2026-07-04T14:00:00+00:00,FT,Regular Season - 30,Damascus Al-Ahli,27269,Foutoua,9114,3,2,True,
-1543661,2026-05-01T13:00:00+00:00,PST,Regular Season - 19,Al Shouleh,24992,Hottin,9115,,,False,0
+1543661,2026-05-01T13:00:00+00:00,PST,Regular Season - 19,Al Shouleh,24992,Hottin,9115,,,False,

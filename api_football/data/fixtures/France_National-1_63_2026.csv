@@ -1,32 +1,32 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1574681,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Caen,88,Valenciennes,105,,,False,
-1574680,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Bourg-en-bresse 01,430,Villefranche,1302,,,False,640
-1574682,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Concarneau,1300,Orleans,103,,,False,
-1574679,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Bastia,1305,Le Puy Foot,3069,,,False,
-1574683,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Fleury 91,3179,Amiens,87,,,False,22042
-1574686,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Rouen,3221,Cannes,9932,,,False,
-1574685,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Gobelins,9238,Quevilly,431,,,False,22711
-1574684,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,La Roche VF,9915,Versailles,3131,,,False,
-1574678,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Aubagne,9930,Thionville Lusitanos,22039,,,False,6999
-1574687,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Amiens,87,La Roche VF,9915,,,False,
-1574690,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Orleans,103,Rouen,3221,,,False,
-1574693,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Valenciennes,105,Bourg-en-bresse 01,430,,,False,686
-1574691,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Quevilly,431,Concarneau,1300,,,False,
-1574695,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Villefranche,1302,Gobelins,9238,,,False,
-1574694,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Versailles,3131,Le Puy Foot,3069,,,False,
-1574688,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Aubagne,9930,Bastia,1305,,,False,6999
-1574689,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Cannes,9932,Fleury 91,3179,,,False,7001
-1574692,2026-08-14T17:00:00+00:00,NS,Regular Season - 2,Thionville Lusitanos,22039,Caen,88,,,False,
-1574698,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Caen,88,Aubagne,9930,,,False,
-1574697,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Bourg-en-bresse 01,430,Thionville Lusitanos,22039,,,False,640
-1574699,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Concarneau,1300,Villefranche,1302,,,False,
-1574696,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Bastia,1305,Versailles,3131,,,False,
-1574702,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Le Puy Foot,3069,Amiens,87,,,False,2025
-1574700,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Fleury 91,3179,Orleans,103,,,False,22042
-1574704,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Rouen,3221,Quevilly,431,,,False,
-1574703,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,Gobelins,9238,Valenciennes,105,,,False,22711
-1574701,2026-08-20T18:45:00+00:00,NS,Regular Season - 3,La Roche VF,9915,Cannes,9932,,,False,
-1574707,2026-08-27T18:45:00+00:00,NS,Regular Season - 4,Caen,88,Bastia,1305,,,False,
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1574681,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Caen,88,Valenciennes,105,4,0,True,
+1574680,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Bourg-en-bresse 01,430,Villefranche,1302,3,2,True,640
+1574682,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Concarneau,1300,Orleans,103,0,2,True,
+1574679,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Bastia,1305,Le Puy Foot,3069,0,2,True,
+1574683,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Fleury 91,3179,Amiens,87,0,0,True,22042
+1574686,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Rouen,3221,Cannes,9932,0,0,True,
+1574685,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Gobelins,9238,Quevilly,431,1,0,True,22711
+1574684,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,La Roche VF,9915,Versailles,3131,3,2,True,
+1574678,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Aubagne,9930,Thionville Lusitanos,22039,0,3,True,6999
+1574687,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Amiens,87,La Roche VF,9915,0,1,True,
+1574690,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Orleans,103,Rouen,3221,1,2,True,
+1574693,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Valenciennes,105,Bourg-en-bresse 01,430,2,0,True,686
+1574691,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Quevilly,431,Concarneau,1300,1,1,True,
+1574695,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Villefranche,1302,Gobelins,9238,2,0,True,
+1574694,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Versailles,3131,Le Puy Foot,3069,1,0,True,
+1574688,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Aubagne,9930,Bastia,1305,0,1,True,6999
+1574689,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Cannes,9932,Fleury 91,3179,1,1,True,7001
+1574692,2026-08-14T17:00:00+00:00,FT,Regular Season - 2,Thionville Lusitanos,22039,Caen,88,4,3,True,
+1574698,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Caen,88,Aubagne,9930,1,0,True,
+1574697,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Bourg-en-bresse 01,430,Thionville Lusitanos,22039,0,2,True,640
+1574699,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Concarneau,1300,Villefranche,1302,2,0,True,
+1574696,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Bastia,1305,Versailles,3131,2,3,True,
+1574702,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Le Puy Foot,3069,Amiens,87,1,0,True,2025
+1574700,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Fleury 91,3179,Orleans,103,0,2,True,22042
+1574704,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Rouen,3221,Quevilly,431,3,0,True,
+1574703,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,Gobelins,9238,Valenciennes,105,2,1,True,22711
+1574701,2026-08-20T18:45:00+00:00,FT,Regular Season - 3,La Roche VF,9915,Cannes,9932,1,1,True,
+1574707,2026-08-27T18:45:00+00:00,FT,Regular Season - 4,Caen,88,Bastia,1305,0,1,True,
 1574705,2026-08-29T12:45:00+00:00,NS,Regular Season - 4,Amiens,87,Versailles,3131,,,False,
 1574709,2026-08-29T12:45:00+00:00,NS,Regular Season - 4,Orleans,103,La Roche VF,9915,,,False,
 1574712,2026-08-29T12:45:00+00:00,NS,Regular Season - 4,Valenciennes,105,Concarneau,1300,,,False,686
@@ -63,14 +63,14 @@
 1574738,2026-09-19T12:45:00+00:00,NS,Regular Season - 7,Gobelins,9238,Bourg-en-bresse 01,430,,,False,22711
 1574736,2026-09-19T12:45:00+00:00,NS,Regular Season - 7,La Roche VF,9915,Valenciennes,105,,,False,
 1574743,2026-09-24T18:45:00+00:00,NS,Regular Season - 8,Caen,88,Rouen,3221,,,False,
-1574744,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Orleans,103,Cannes,9932,,,False,
-1574748,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Valenciennes,105,Le Puy Foot,3069,,,False,686
-1574742,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Bourg-en-bresse 01,430,Concarneau,1300,,,False,640
-1574746,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Quevilly,431,Amiens,87,,,False,
-1574749,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Villefranche,1302,Versailles,3131,,,False,
-1574745,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Gobelins,9238,Bastia,1305,,,False,22711
-1574741,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Aubagne,9930,Fleury 91,3179,,,False,6999
-1574747,2026-09-26T12:45:00+00:00,NS,Regular Season - 8,Thionville Lusitanos,22039,La Roche VF,9915,,,False,
+1574744,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Orleans,103,Cannes,9932,,,False,
+1574748,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Valenciennes,105,Le Puy Foot,3069,,,False,686
+1574742,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Bourg-en-bresse 01,430,Concarneau,1300,,,False,640
+1574746,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Quevilly,431,Amiens,87,,,False,
+1574749,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Villefranche,1302,Versailles,3131,,,False,
+1574745,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Gobelins,9238,Bastia,1305,,,False,22711
+1574741,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Aubagne,9930,Fleury 91,3179,,,False,6999
+1574747,2026-09-26T18:45:00+00:00,NS,Regular Season - 8,Thionville Lusitanos,22039,La Roche VF,9915,,,False,
 1574750,2026-10-03T12:45:00+00:00,NS,Regular Season - 9,Amiens,87,Villefranche,1302,,,False,
 1574753,2026-10-03T12:45:00+00:00,NS,Regular Season - 9,Concarneau,1300,Gobelins,9238,,,False,
 1574751,2026-10-03T12:45:00+00:00,NS,Regular Season - 9,Bastia,1305,Orleans,103,,,False,

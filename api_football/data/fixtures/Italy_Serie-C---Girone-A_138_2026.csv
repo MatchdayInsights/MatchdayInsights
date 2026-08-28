@@ -1,0 +1,381 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1608231,2026-08-21T19:00:00+00:00,FT,Girone A - 1,Alcione,17824,Renate,875,3,1,True,6550
+1608232,2026-08-21T19:00:00+00:00,FT,Girone A - 1,Union Brescia,26356,Athletic Carpi,17825,3,1,True,882
+1608233,2026-08-22T16:00:00+00:00,FT,Girone A - 1,Cittadella,510,Pergolettese,6380,2,0,True,891
+1608236,2026-08-22T16:00:00+00:00,FT,Girone A - 1,Juventus U23,1715,Novara,513,1,0,True,874
+1608238,2026-08-22T16:00:00+00:00,FT,Girone A - 1,Ospitaletto,24696,Lumezzane,1689,2,0,True,
+1608235,2026-08-22T19:00:00+00:00,FT,Girone A - 1,Giana Erminio,865,Albinoleffe,879,1,2,True,
+1608237,2026-08-22T19:00:00+00:00,FT,Girone A - 1,Lecco,6379,Arzignano Valchiampo,6378,0,0,True,4705
+1608239,2026-08-23T16:00:00+00:00,FT,Girone A - 1,PRO Vercelli,526,Desenzano Calvina,17816,1,1,True,930
+1608240,2026-08-23T19:00:00+00:00,FT,Girone A - 1,Trento,17147,Treviso,22319,2,1,True,12059
+1608234,2026-08-24T19:00:00+00:00,FT,Girone A - 1,Folgore Caratese,9450,Dolomiti Bellunesi,17820,1,2,True,
+1608242,2026-08-30T16:00:00+00:00,NS,Girone A - 2,Arzignano Valchiampo,6378,PRO Vercelli,526,,,False,
+1608245,2026-08-30T16:00:00+00:00,NS,Girone A - 2,Dolomiti Bellunesi,17820,Alcione,17824,,,False,
+1608243,2026-08-30T16:00:00+00:00,NS,Girone A - 2,Athletic Carpi,17825,Juventus U23,1715,,,False,884
+1608246,2026-08-30T19:00:00+00:00,NS,Girone A - 2,Lumezzane,1689,Giana Erminio,865,,,False,
+1608248,2026-08-30T19:00:00+00:00,NS,Girone A - 2,Pergolettese,6380,Union Brescia,26356,,,False,
+1608247,2026-08-31T18:30:00+00:00,NS,Girone A - 2,Novara,513,Folgore Caratese,9450,,,False,
+1608249,2026-08-31T19:00:00+00:00,NS,Girone A - 2,Renate,875,Cittadella,510,,,False,
+1608241,2026-08-31T19:00:00+00:00,NS,Girone A - 2,Albinoleffe,879,Ospitaletto,24696,,,False,
+1608244,2026-08-31T19:00:00+00:00,NS,Girone A - 2,Desenzano Calvina,17816,Trento,17147,,,False,
+1608250,2026-08-31T19:00:00+00:00,NS,Girone A - 2,Treviso,22319,Lecco,6379,,,False,
+1608255,2026-09-06T13:00:00+00:00,NS,Girone A - 3,Giana Erminio,865,Dolomiti Bellunesi,17820,,,False,
+1608251,2026-09-06T13:00:00+00:00,NS,Girone A - 3,Albinoleffe,879,Athletic Carpi,17825,,,False,
+1608256,2026-09-06T16:00:00+00:00,NS,Girone A - 3,Juventus U23,1715,Pergolettese,6380,,,False,874
+1608254,2026-09-06T19:00:00+00:00,NS,Girone A - 3,Cittadella,510,Lumezzane,1689,,,False,891
+1608257,2026-09-06T19:00:00+00:00,NS,Girone A - 3,Ospitaletto,24696,Arzignano Valchiampo,6378,,,False,
+1608253,2026-09-06T19:00:00+00:00,NS,Girone A - 3,Union Brescia,26356,Desenzano Calvina,17816,,,False,882
+1608258,2026-09-07T19:00:00+00:00,NS,Girone A - 3,PRO Vercelli,526,Folgore Caratese,9450,,,False,930
+1608259,2026-09-07T19:00:00+00:00,NS,Girone A - 3,Renate,875,Novara,513,,,False,
+1608260,2026-09-07T19:00:00+00:00,NS,Girone A - 3,Trento,17147,Lecco,6379,,,False,12059
+1608252,2026-09-07T19:00:00+00:00,NS,Girone A - 3,Alcione,17824,Treviso,22319,,,False,6550
+1608265,2026-09-13T13:00:00+00:00,NS,Girone A - 4,Lecco,6379,Giana Erminio,865,,,False,4705
+1608263,2026-09-13T13:00:00+00:00,NS,Girone A - 4,Dolomiti Bellunesi,17820,Albinoleffe,879,,,False,
+1608262,2026-09-13T13:00:00+00:00,NS,Girone A - 4,Athletic Carpi,17825,Cittadella,510,,,False,884
+1608270,2026-09-13T13:00:00+00:00,NS,Girone A - 4,Treviso,22319,PRO Vercelli,526,,,False,
+1608266,2026-09-13T16:00:00+00:00,NS,Girone A - 4,Lumezzane,1689,Renate,875,,,False,
+1608264,2026-09-13T16:00:00+00:00,NS,Girone A - 4,Folgore Caratese,9450,Alcione,17824,,,False,
+1608268,2026-09-13T16:00:00+00:00,NS,Girone A - 4,Ospitaletto,24696,Juventus U23,1715,,,False,
+1608267,2026-09-13T19:00:00+00:00,NS,Girone A - 4,Novara,513,Pergolettese,6380,,,False,
+1608261,2026-09-13T19:00:00+00:00,NS,Girone A - 4,Arzignano Valchiampo,6378,Desenzano Calvina,17816,,,False,
+1608269,2026-09-13T19:00:00+00:00,NS,Girone A - 4,Trento,17147,Union Brescia,26356,,,False,12059
+1608274,2026-09-17T16:30:00+00:00,NS,Girone A - 5,Cittadella,510,Juventus U23,1715,,,False,891
+1608279,2026-09-17T16:30:00+00:00,NS,Girone A - 5,PRO Vercelli,526,Alcione,17824,,,False,930
+1608271,2026-09-17T16:30:00+00:00,NS,Girone A - 5,Albinoleffe,879,Arzignano Valchiampo,6378,,,False,
+1608277,2026-09-17T16:30:00+00:00,NS,Girone A - 5,Lumezzane,1689,Novara,513,,,False,
+1608278,2026-09-17T16:30:00+00:00,NS,Girone A - 5,Pergolettese,6380,Folgore Caratese,9450,,,False,
+1608275,2026-09-17T16:30:00+00:00,NS,Girone A - 5,Desenzano Calvina,17816,Lecco,6379,,,False,
+1608276,2026-09-17T19:00:00+00:00,NS,Girone A - 5,Giana Erminio,865,Trento,17147,,,False,
+1608280,2026-09-17T19:00:00+00:00,NS,Girone A - 5,Renate,875,Dolomiti Bellunesi,17820,,,False,
+1608273,2026-09-17T19:00:00+00:00,NS,Girone A - 5,Athletic Carpi,17825,Ospitaletto,24696,,,False,884
+1608272,2026-09-17T19:00:00+00:00,NS,Girone A - 5,Union Brescia,26356,Treviso,22319,,,False,882
+1608285,2026-09-20T10:30:00+00:00,NS,Girone A - 6,Juventus U23,1715,Albinoleffe,879,,,False,874
+1608287,2026-09-20T12:30:00+00:00,NS,Girone A - 6,Novara,513,Athletic Carpi,17825,,,False,
+1608288,2026-09-20T12:30:00+00:00,NS,Girone A - 6,Ospitaletto,24696,Cittadella,510,,,False,
+1608282,2026-09-20T15:30:00+00:00,NS,Girone A - 6,Arzignano Valchiampo,6378,Renate,875,,,False,
+1608286,2026-09-20T18:30:00+00:00,NS,Girone A - 6,Lecco,6379,Pergolettese,6380,,,False,4705
+1608284,2026-09-20T18:30:00+00:00,NS,Girone A - 6,Folgore Caratese,9450,Giana Erminio,865,,,False,
+1608281,2026-09-20T18:30:00+00:00,NS,Girone A - 6,Alcione,17824,Union Brescia,26356,,,False,6550
+1608289,2026-09-21T18:30:00+00:00,NS,Girone A - 6,Trento,17147,PRO Vercelli,526,,,False,12059
+1608283,2026-09-21T18:30:00+00:00,NS,Girone A - 6,Dolomiti Bellunesi,17820,Lumezzane,1689,,,False,
+1608290,2026-09-21T18:30:00+00:00,NS,Girone A - 6,Treviso,22319,Desenzano Calvina,17816,,,False,
+1608296,2026-09-26T12:30:00+00:00,NS,Girone A - 7,Giana Erminio,865,PRO Vercelli,526,,,False,
+1608297,2026-09-26T12:30:00+00:00,NS,Girone A - 7,Lumezzane,1689,Folgore Caratese,9450,,,False,
+1608299,2026-09-26T12:30:00+00:00,NS,Girone A - 7,Pergolettese,6380,Trento,17147,,,False,
+1608298,2026-09-26T15:30:00+00:00,NS,Girone A - 7,Novara,513,Ospitaletto,24696,,,False,
+1608295,2026-09-26T15:30:00+00:00,NS,Girone A - 7,Desenzano Calvina,17816,Juventus U23,1715,,,False,
+1608294,2026-09-26T18:30:00+00:00,NS,Girone A - 7,Cittadella,510,Lecco,6379,,,False,891
+1608292,2026-09-27T12:30:00+00:00,NS,Girone A - 7,Union Brescia,26356,Dolomiti Bellunesi,17820,,,False,882
+1608300,2026-09-27T15:30:00+00:00,NS,Girone A - 7,Renate,875,Treviso,22319,,,False,
+1608293,2026-09-27T15:30:00+00:00,NS,Girone A - 7,Athletic Carpi,17825,Arzignano Valchiampo,6378,,,False,884
+1608291,2026-09-27T18:30:00+00:00,NS,Girone A - 7,Albinoleffe,879,Alcione,17824,,,False,
+1608303,2026-10-03T12:30:00+00:00,NS,Girone A - 8,Cittadella,510,Albinoleffe,879,,,False,891
+1608302,2026-10-03T15:30:00+00:00,NS,Girone A - 8,Arzignano Valchiampo,6378,Pergolettese,6380,,,False,
+1608309,2026-10-03T18:30:00+00:00,NS,Girone A - 8,PRO Vercelli,526,Athletic Carpi,17825,,,False,930
+1608305,2026-10-03T18:30:00+00:00,NS,Girone A - 8,Folgore Caratese,9450,Desenzano Calvina,17816,,,False,
+1608308,2026-10-03T18:30:00+00:00,NS,Girone A - 8,Ospitaletto,24696,Renate,875,,,False,
+1608307,2026-10-04T10:30:00+00:00,NS,Girone A - 8,Lecco,6379,Union Brescia,26356,,,False,4705
+1608310,2026-10-04T10:30:00+00:00,NS,Girone A - 8,Treviso,22319,Giana Erminio,865,,,False,
+1608306,2026-10-04T15:30:00+00:00,NS,Girone A - 8,Juventus U23,1715,Lumezzane,1689,,,False,874
+1608304,2026-10-04T15:30:00+00:00,NS,Girone A - 8,Dolomiti Bellunesi,17820,Novara,513,,,False,
+1608301,2026-10-04T18:30:00+00:00,NS,Girone A - 8,Alcione,17824,Trento,17147,,,False,6550
+1608316,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Novara,513,Cittadella,510,,,False,
+1608318,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Renate,875,Giana Erminio,865,,,False,
+1608315,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Lumezzane,1689,Albinoleffe,879,,,False,
+1608311,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Arzignano Valchiampo,6378,Juventus U23,1715,,,False,
+1608314,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Lecco,6379,Alcione,17824,,,False,4705
+1608317,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Pergolettese,6380,Athletic Carpi,17825,,,False,
+1608319,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Trento,17147,Folgore Caratese,9450,,,False,12059
+1608313,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Desenzano Calvina,17816,Dolomiti Bellunesi,17820,,,False,
+1608320,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Treviso,22319,Ospitaletto,24696,,,False,
+1608312,2026-10-11T16:00:00+00:00,NS,Girone A - 9,Union Brescia,26356,PRO Vercelli,526,,,False,882
+1608324,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Cittadella,510,Arzignano Valchiampo,6378,,,False,891
+1608330,2026-10-18T16:00:00+00:00,NS,Girone A - 10,PRO Vercelli,526,Lecco,6379,,,False,930
+1608327,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Giana Erminio,865,Union Brescia,26356,,,False,
+1608321,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Albinoleffe,879,Novara,513,,,False,
+1608328,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Juventus U23,1715,Renate,875,,,False,874
+1608326,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Folgore Caratese,9450,Treviso,22319,,,False,
+1608325,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Dolomiti Bellunesi,17820,Trento,17147,,,False,
+1608322,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Alcione,17824,Desenzano Calvina,17816,,,False,6550
+1608323,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Athletic Carpi,17825,Lumezzane,1689,,,False,884
+1608329,2026-10-18T16:00:00+00:00,NS,Girone A - 10,Ospitaletto,24696,Pergolettese,6380,,,False,
+1608337,2026-10-25T17:00:00+00:00,NS,Girone A - 11,PRO Vercelli,526,Ospitaletto,24696,,,False,930
+1608338,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Renate,875,Albinoleffe,879,,,False,
+1608332,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Arzignano Valchiampo,6378,Novara,513,,,False,
+1608335,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Lecco,6379,Folgore Caratese,9450,,,False,4705
+1608336,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Pergolettese,6380,Lumezzane,1689,,,False,
+1608339,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Trento,17147,Juventus U23,1715,,,False,12059
+1608334,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Desenzano Calvina,17816,Giana Erminio,865,,,False,
+1608331,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Alcione,17824,Athletic Carpi,17825,,,False,6550
+1608340,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Treviso,22319,Dolomiti Bellunesi,17820,,,False,
+1608333,2026-10-25T17:00:00+00:00,NS,Girone A - 11,Union Brescia,26356,Cittadella,510,,,False,882
+1608343,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Cittadella,510,Treviso,22319,,,False,891
+1608349,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Novara,513,Desenzano Calvina,17816,,,False,
+1608346,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Giana Erminio,865,Alcione,17824,,,False,
+1608341,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Albinoleffe,879,Pergolettese,6380,,,False,
+1608348,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Lumezzane,1689,Arzignano Valchiampo,6378,,,False,
+1608347,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Juventus U23,1715,PRO Vercelli,526,,,False,874
+1608345,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Folgore Caratese,9450,Union Brescia,26356,,,False,
+1608344,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Dolomiti Bellunesi,17820,Lecco,6379,,,False,
+1608342,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Athletic Carpi,17825,Renate,875,,,False,884
+1608350,2026-11-01T17:00:00+00:00,NS,Girone A - 12,Ospitaletto,24696,Trento,17147,,,False,
+1608358,2026-11-08T17:00:00+00:00,NS,Girone A - 13,PRO Vercelli,526,Dolomiti Bellunesi,17820,,,False,930
+1608355,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Giana Erminio,865,Cittadella,510,,,False,
+1608356,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Lecco,6379,Juventus U23,1715,,,False,4705
+1608357,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Pergolettese,6380,Renate,875,,,False,
+1608354,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Folgore Caratese,9450,Athletic Carpi,17825,,,False,
+1608359,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Trento,17147,Albinoleffe,879,,,False,12059
+1608353,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Desenzano Calvina,17816,Ospitaletto,24696,,,False,
+1608351,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Alcione,17824,Lumezzane,1689,,,False,6550
+1608360,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Treviso,22319,Novara,513,,,False,
+1608352,2026-11-08T17:00:00+00:00,NS,Girone A - 13,Union Brescia,26356,Arzignano Valchiampo,6378,,,False,882
+1608364,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Cittadella,510,Folgore Caratese,9450,,,False,891
+1608367,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Novara,513,Lecco,6379,,,False,
+1608370,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Renate,875,Desenzano Calvina,17816,,,False,
+1608361,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Albinoleffe,879,Union Brescia,26356,,,False,
+1608366,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Lumezzane,1689,Trento,17147,,,False,
+1608365,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Juventus U23,1715,Treviso,22319,,,False,874
+1608362,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Arzignano Valchiampo,6378,Alcione,17824,,,False,
+1608369,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Pergolettese,6380,PRO Vercelli,526,,,False,
+1608363,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Athletic Carpi,17825,Giana Erminio,865,,,False,884
+1608368,2026-11-15T17:00:00+00:00,NS,Girone A - 14,Ospitaletto,24696,Dolomiti Bellunesi,17820,,,False,
+1608378,2026-11-22T17:00:00+00:00,NS,Girone A - 15,PRO Vercelli,526,Novara,513,,,False,930
+1608376,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Giana Erminio,865,Juventus U23,1715,,,False,
+1608377,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Lecco,6379,Lumezzane,1689,,,False,4705
+1608375,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Folgore Caratese,9450,Arzignano Valchiampo,6378,,,False,
+1608379,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Trento,17147,Cittadella,510,,,False,12059
+1608373,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Desenzano Calvina,17816,Albinoleffe,879,,,False,
+1608374,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Dolomiti Bellunesi,17820,Athletic Carpi,17825,,,False,
+1608371,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Alcione,17824,Ospitaletto,24696,,,False,6550
+1608380,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Treviso,22319,Pergolettese,6380,,,False,
+1608372,2026-11-22T17:00:00+00:00,NS,Girone A - 15,Union Brescia,26356,Renate,875,,,False,882
+1608384,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Cittadella,510,PRO Vercelli,526,,,False,891
+1608387,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Novara,513,Alcione,17824,,,False,
+1608390,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Renate,875,Folgore Caratese,9450,,,False,
+1608381,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Albinoleffe,879,Treviso,22319,,,False,
+1608386,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Lumezzane,1689,Desenzano Calvina,17816,,,False,
+1608385,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Juventus U23,1715,Dolomiti Bellunesi,17820,,,False,874
+1608382,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Arzignano Valchiampo,6378,Trento,17147,,,False,
+1608389,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Pergolettese,6380,Giana Erminio,865,,,False,
+1608383,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Athletic Carpi,17825,Lecco,6379,,,False,884
+1608388,2026-11-29T17:00:00+00:00,NS,Girone A - 16,Ospitaletto,24696,Union Brescia,26356,,,False,
+1608398,2026-12-06T17:00:00+00:00,NS,Girone A - 17,PRO Vercelli,526,Lumezzane,1689,,,False,930
+1608396,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Giana Erminio,865,Novara,513,,,False,
+1608397,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Lecco,6379,Ospitaletto,24696,,,False,4705
+1608395,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Folgore Caratese,9450,Albinoleffe,879,,,False,
+1608399,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Trento,17147,Renate,875,,,False,12059
+1608393,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Desenzano Calvina,17816,Athletic Carpi,17825,,,False,
+1608394,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Dolomiti Bellunesi,17820,Cittadella,510,,,False,
+1608391,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Alcione,17824,Pergolettese,6380,,,False,6550
+1608400,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Treviso,22319,Arzignano Valchiampo,6378,,,False,
+1608392,2026-12-06T17:00:00+00:00,NS,Girone A - 17,Union Brescia,26356,Juventus U23,1715,,,False,882
+1608404,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Cittadella,510,Alcione,17824,,,False,891
+1608407,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Novara,513,Union Brescia,26356,,,False,
+1608410,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Renate,875,PRO Vercelli,526,,,False,
+1608401,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Albinoleffe,879,Lecco,6379,,,False,
+1608406,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Lumezzane,1689,Treviso,22319,,,False,
+1608405,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Juventus U23,1715,Folgore Caratese,9450,,,False,874
+1608402,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Arzignano Valchiampo,6378,Dolomiti Bellunesi,17820,,,False,
+1608409,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Pergolettese,6380,Desenzano Calvina,17816,,,False,
+1608403,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Athletic Carpi,17825,Trento,17147,,,False,884
+1608408,2026-12-13T17:00:00+00:00,NS,Girone A - 18,Ospitaletto,24696,Giana Erminio,865,,,False,
+1608418,2026-12-20T17:00:00+00:00,NS,Girone A - 19,PRO Vercelli,526,Albinoleffe,879,,,False,930
+1608416,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Giana Erminio,865,Arzignano Valchiampo,6378,,,False,
+1608417,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Lecco,6379,Renate,875,,,False,4705
+1608415,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Folgore Caratese,9450,Ospitaletto,24696,,,False,
+1608419,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Trento,17147,Novara,513,,,False,12059
+1608413,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Desenzano Calvina,17816,Cittadella,510,,,False,
+1608414,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Dolomiti Bellunesi,17820,Pergolettese,6380,,,False,
+1608411,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Alcione,17824,Juventus U23,1715,,,False,6550
+1608420,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Treviso,22319,Athletic Carpi,17825,,,False,
+1608412,2026-12-20T17:00:00+00:00,NS,Girone A - 19,Union Brescia,26356,Lumezzane,1689,,,False,882
+1608427,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Novara,513,Juventus U23,1715,,,False,
+1608429,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Renate,875,Alcione,17824,,,False,
+1608421,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Albinoleffe,879,Giana Erminio,865,,,False,
+1608426,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Lumezzane,1689,Ospitaletto,24696,,,False,
+1608422,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Arzignano Valchiampo,6378,Lecco,6379,,,False,
+1608428,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Pergolettese,6380,Cittadella,510,,,False,
+1608424,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Desenzano Calvina,17816,PRO Vercelli,526,,,False,
+1608425,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Dolomiti Bellunesi,17820,Folgore Caratese,9450,,,False,
+1608423,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Athletic Carpi,17825,Union Brescia,26356,,,False,884
+1608430,2027-01-03T17:00:00+00:00,NS,Girone A - 20,Treviso,22319,Trento,17147,,,False,
+1608433,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Cittadella,510,Renate,875,,,False,891
+1608439,2027-01-10T17:00:00+00:00,NS,Girone A - 21,PRO Vercelli,526,Arzignano Valchiampo,6378,,,False,930
+1608435,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Giana Erminio,865,Lumezzane,1689,,,False,
+1608436,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Juventus U23,1715,Athletic Carpi,17825,,,False,874
+1608437,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Lecco,6379,Treviso,22319,,,False,4705
+1608434,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Folgore Caratese,9450,Novara,513,,,False,
+1608440,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Trento,17147,Desenzano Calvina,17816,,,False,12059
+1608431,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Alcione,17824,Dolomiti Bellunesi,17820,,,False,6550
+1608438,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Ospitaletto,24696,Albinoleffe,879,,,False,
+1608432,2027-01-10T17:00:00+00:00,NS,Girone A - 21,Union Brescia,26356,Pergolettese,6380,,,False,882
+1608448,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Novara,513,Renate,875,,,False,
+1608447,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Lumezzane,1689,Cittadella,510,,,False,
+1608441,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Arzignano Valchiampo,6378,Ospitaletto,24696,,,False,
+1608446,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Lecco,6379,Trento,17147,,,False,4705
+1608449,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Pergolettese,6380,Juventus U23,1715,,,False,
+1608445,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Folgore Caratese,9450,PRO Vercelli,526,,,False,
+1608443,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Desenzano Calvina,17816,Union Brescia,26356,,,False,
+1608444,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Dolomiti Bellunesi,17820,Giana Erminio,865,,,False,
+1608442,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Athletic Carpi,17825,Albinoleffe,879,,,False,884
+1608450,2027-01-17T17:00:00+00:00,NS,Girone A - 22,Treviso,22319,Alcione,17824,,,False,
+1608454,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Cittadella,510,Athletic Carpi,17825,,,False,891
+1608459,2027-01-24T17:00:00+00:00,NS,Girone A - 23,PRO Vercelli,526,Treviso,22319,,,False,930
+1608456,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Giana Erminio,865,Lecco,6379,,,False,
+1608460,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Renate,875,Lumezzane,1689,,,False,
+1608451,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Albinoleffe,879,Dolomiti Bellunesi,17820,,,False,
+1608457,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Juventus U23,1715,Ospitaletto,24696,,,False,874
+1608458,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Pergolettese,6380,Novara,513,,,False,
+1608455,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Desenzano Calvina,17816,Arzignano Valchiampo,6378,,,False,
+1608452,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Alcione,17824,Folgore Caratese,9450,,,False,6550
+1608453,2027-01-24T17:00:00+00:00,NS,Girone A - 23,Union Brescia,26356,Trento,17147,,,False,882
+1608467,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Novara,513,Lumezzane,1689,,,False,
+1608465,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Juventus U23,1715,Cittadella,510,,,False,874
+1608462,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Arzignano Valchiampo,6378,Albinoleffe,879,,,False,
+1608466,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Lecco,6379,Desenzano Calvina,17816,,,False,4705
+1608464,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Folgore Caratese,9450,Pergolettese,6380,,,False,
+1608469,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Trento,17147,Giana Erminio,865,,,False,12059
+1608463,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Dolomiti Bellunesi,17820,Renate,875,,,False,
+1608461,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Alcione,17824,PRO Vercelli,526,,,False,6550
+1608470,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Treviso,22319,Union Brescia,26356,,,False,
+1608468,2027-01-31T17:00:00+00:00,NS,Girone A - 24,Ospitaletto,24696,Athletic Carpi,17825,,,False,
+1608474,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Cittadella,510,Ospitaletto,24696,,,False,891
+1608479,2027-02-07T17:00:00+00:00,NS,Girone A - 25,PRO Vercelli,526,Trento,17147,,,False,930
+1608476,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Giana Erminio,865,Folgore Caratese,9450,,,False,
+1608480,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Renate,875,Arzignano Valchiampo,6378,,,False,
+1608471,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Albinoleffe,879,Juventus U23,1715,,,False,
+1608477,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Lumezzane,1689,Dolomiti Bellunesi,17820,,,False,
+1608478,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Pergolettese,6380,Lecco,6379,,,False,
+1608475,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Desenzano Calvina,17816,Treviso,22319,,,False,
+1608473,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Athletic Carpi,17825,Novara,513,,,False,884
+1608472,2027-02-07T17:00:00+00:00,NS,Girone A - 25,Union Brescia,26356,Alcione,17824,,,False,882
+1608490,2027-02-10T19:45:00+00:00,NS,Girone A - 26,PRO Vercelli,526,Giana Erminio,865,,,False,930
+1608488,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Juventus U23,1715,Desenzano Calvina,17816,,,False,874
+1608487,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Arzignano Valchiampo,6378,Athletic Carpi,17825,,,False,
+1608489,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Lecco,6379,Cittadella,510,,,False,4705
+1608482,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Folgore Caratese,9450,Lumezzane,1689,,,False,
+1608484,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Trento,17147,Pergolettese,6380,,,False,12059
+1608481,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Dolomiti Bellunesi,17820,Union Brescia,26356,,,False,
+1608486,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Alcione,17824,Albinoleffe,879,,,False,6550
+1608485,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Treviso,22319,Renate,875,,,False,
+1608483,2027-02-10T19:45:00+00:00,NS,Girone A - 26,Ospitaletto,24696,Novara,513,,,False,
+1608497,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Novara,513,Dolomiti Bellunesi,17820,,,False,
+1608495,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Giana Erminio,865,Treviso,22319,,,False,
+1608499,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Renate,875,Ospitaletto,24696,,,False,
+1608491,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Albinoleffe,879,Cittadella,510,,,False,
+1608496,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Lumezzane,1689,Juventus U23,1715,,,False,
+1608498,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Pergolettese,6380,Arzignano Valchiampo,6378,,,False,
+1608500,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Trento,17147,Alcione,17824,,,False,12059
+1608494,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Desenzano Calvina,17816,Folgore Caratese,9450,,,False,
+1608493,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Athletic Carpi,17825,PRO Vercelli,526,,,False,884
+1608492,2027-02-14T17:00:00+00:00,NS,Girone A - 27,Union Brescia,26356,Lecco,6379,,,False,882
+1608504,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Cittadella,510,Novara,513,,,False,891
+1608510,2027-02-21T17:00:00+00:00,NS,Girone A - 28,PRO Vercelli,526,Union Brescia,26356,,,False,930
+1608507,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Giana Erminio,865,Renate,875,,,False,
+1608501,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Albinoleffe,879,Lumezzane,1689,,,False,
+1608508,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Juventus U23,1715,Arzignano Valchiampo,6378,,,False,874
+1608506,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Folgore Caratese,9450,Trento,17147,,,False,
+1608505,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Dolomiti Bellunesi,17820,Desenzano Calvina,17816,,,False,
+1608502,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Alcione,17824,Lecco,6379,,,False,6550
+1608503,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Athletic Carpi,17825,Pergolettese,6380,,,False,884
+1608509,2027-02-21T17:00:00+00:00,NS,Girone A - 28,Ospitaletto,24696,Treviso,22319,,,False,
+1608516,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Novara,513,Albinoleffe,879,,,False,
+1608518,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Renate,875,Juventus U23,1715,,,False,
+1608515,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Lumezzane,1689,Athletic Carpi,17825,,,False,
+1608511,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Arzignano Valchiampo,6378,Cittadella,510,,,False,
+1608514,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Lecco,6379,PRO Vercelli,526,,,False,4705
+1608517,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Pergolettese,6380,Ospitaletto,24696,,,False,
+1608519,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Trento,17147,Dolomiti Bellunesi,17820,,,False,12059
+1608513,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Desenzano Calvina,17816,Alcione,17824,,,False,
+1608520,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Treviso,22319,Folgore Caratese,9450,,,False,
+1608512,2027-02-28T17:00:00+00:00,NS,Girone A - 29,Union Brescia,26356,Giana Erminio,865,,,False,882
+1608523,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Cittadella,510,Union Brescia,26356,,,False,891
+1608529,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Novara,513,Arzignano Valchiampo,6378,,,False,
+1608526,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Giana Erminio,865,Desenzano Calvina,17816,,,False,
+1608521,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Albinoleffe,879,Renate,875,,,False,
+1608528,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Lumezzane,1689,Pergolettese,6380,,,False,
+1608527,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Juventus U23,1715,Trento,17147,,,False,874
+1608525,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Folgore Caratese,9450,Lecco,6379,,,False,
+1608524,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Dolomiti Bellunesi,17820,Treviso,22319,,,False,
+1608522,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Athletic Carpi,17825,Alcione,17824,,,False,884
+1608530,2027-03-03T19:45:00+00:00,NS,Girone A - 30,Ospitaletto,24696,PRO Vercelli,526,,,False,
+1608537,2027-03-07T17:00:00+00:00,NS,Girone A - 31,PRO Vercelli,526,Juventus U23,1715,,,False,930
+1608538,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Renate,875,Athletic Carpi,17825,,,False,
+1608532,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Arzignano Valchiampo,6378,Lumezzane,1689,,,False,
+1608535,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Lecco,6379,Dolomiti Bellunesi,17820,,,False,4705
+1608536,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Pergolettese,6380,Albinoleffe,879,,,False,
+1608539,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Trento,17147,Ospitaletto,24696,,,False,12059
+1608534,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Desenzano Calvina,17816,Novara,513,,,False,
+1608531,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Alcione,17824,Giana Erminio,865,,,False,6550
+1608540,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Treviso,22319,Cittadella,510,,,False,
+1608533,2027-03-07T17:00:00+00:00,NS,Girone A - 31,Union Brescia,26356,Folgore Caratese,9450,,,False,882
+1608544,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Cittadella,510,Giana Erminio,865,,,False,891
+1608548,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Novara,513,Treviso,22319,,,False,
+1608550,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Renate,875,Pergolettese,6380,,,False,
+1608541,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Albinoleffe,879,Trento,17147,,,False,
+1608547,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Lumezzane,1689,Alcione,17824,,,False,
+1608546,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Juventus U23,1715,Lecco,6379,,,False,874
+1608542,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Arzignano Valchiampo,6378,Union Brescia,26356,,,False,
+1608545,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Dolomiti Bellunesi,17820,PRO Vercelli,526,,,False,
+1608543,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Athletic Carpi,17825,Folgore Caratese,9450,,,False,884
+1608549,2027-03-14T17:00:00+00:00,NS,Girone A - 32,Ospitaletto,24696,Desenzano Calvina,17816,,,False,
+1608558,2027-03-21T17:00:00+00:00,NS,Girone A - 33,PRO Vercelli,526,Pergolettese,6380,,,False,930
+1608556,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Giana Erminio,865,Athletic Carpi,17825,,,False,
+1608557,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Lecco,6379,Novara,513,,,False,4705
+1608555,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Folgore Caratese,9450,Cittadella,510,,,False,
+1608559,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Trento,17147,Lumezzane,1689,,,False,12059
+1608553,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Desenzano Calvina,17816,Renate,875,,,False,
+1608554,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Dolomiti Bellunesi,17820,Ospitaletto,24696,,,False,
+1608551,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Alcione,17824,Arzignano Valchiampo,6378,,,False,6550
+1608560,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Treviso,22319,Juventus U23,1715,,,False,
+1608552,2027-03-21T17:00:00+00:00,NS,Girone A - 33,Union Brescia,26356,Albinoleffe,879,,,False,882
+1608564,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Cittadella,510,Trento,17147,,,False,891
+1608567,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Novara,513,PRO Vercelli,526,,,False,
+1608570,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Renate,875,Union Brescia,26356,,,False,
+1608561,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Albinoleffe,879,Desenzano Calvina,17816,,,False,
+1608566,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Lumezzane,1689,Lecco,6379,,,False,
+1608565,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Juventus U23,1715,Giana Erminio,865,,,False,874
+1608562,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Arzignano Valchiampo,6378,Folgore Caratese,9450,,,False,
+1608569,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Pergolettese,6380,Treviso,22319,,,False,
+1608563,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Athletic Carpi,17825,Dolomiti Bellunesi,17820,,,False,884
+1608568,2027-03-27T17:00:00+00:00,NS,Girone A - 34,Ospitaletto,24696,Alcione,17824,,,False,
+1608578,2027-04-04T16:00:00+00:00,NS,Girone A - 35,PRO Vercelli,526,Cittadella,510,,,False,930
+1608576,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Giana Erminio,865,Pergolettese,6380,,,False,
+1608577,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Lecco,6379,Athletic Carpi,17825,,,False,4705
+1608575,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Folgore Caratese,9450,Renate,875,,,False,
+1608579,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Trento,17147,Arzignano Valchiampo,6378,,,False,12059
+1608573,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Desenzano Calvina,17816,Lumezzane,1689,,,False,
+1608574,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Dolomiti Bellunesi,17820,Juventus U23,1715,,,False,
+1608571,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Alcione,17824,Novara,513,,,False,6550
+1608580,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Treviso,22319,Albinoleffe,879,,,False,
+1608572,2027-04-04T16:00:00+00:00,NS,Girone A - 35,Union Brescia,26356,Ospitaletto,24696,,,False,882
+1608584,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Cittadella,510,Dolomiti Bellunesi,17820,,,False,891
+1608587,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Novara,513,Giana Erminio,865,,,False,
+1608590,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Renate,875,Trento,17147,,,False,
+1608581,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Albinoleffe,879,Folgore Caratese,9450,,,False,
+1608586,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Lumezzane,1689,PRO Vercelli,526,,,False,
+1608585,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Juventus U23,1715,Union Brescia,26356,,,False,874
+1608582,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Arzignano Valchiampo,6378,Treviso,22319,,,False,
+1608589,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Pergolettese,6380,Alcione,17824,,,False,
+1608583,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Athletic Carpi,17825,Desenzano Calvina,17816,,,False,884
+1608588,2027-04-11T16:00:00+00:00,NS,Girone A - 36,Ospitaletto,24696,Lecco,6379,,,False,
+1608598,2027-04-18T16:00:00+00:00,NS,Girone A - 37,PRO Vercelli,526,Renate,875,,,False,930
+1608596,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Giana Erminio,865,Ospitaletto,24696,,,False,
+1608597,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Lecco,6379,Albinoleffe,879,,,False,4705
+1608595,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Folgore Caratese,9450,Juventus U23,1715,,,False,
+1608599,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Trento,17147,Athletic Carpi,17825,,,False,12059
+1608593,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Desenzano Calvina,17816,Pergolettese,6380,,,False,
+1608594,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Dolomiti Bellunesi,17820,Arzignano Valchiampo,6378,,,False,
+1608591,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Alcione,17824,Cittadella,510,,,False,6550
+1608600,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Treviso,22319,Lumezzane,1689,,,False,
+1608592,2027-04-18T16:00:00+00:00,NS,Girone A - 37,Union Brescia,26356,Novara,513,,,False,882
+1608604,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Cittadella,510,Desenzano Calvina,17816,,,False,891
+1608607,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Novara,513,Trento,17147,,,False,
+1608610,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Renate,875,Lecco,6379,,,False,
+1608601,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Albinoleffe,879,PRO Vercelli,526,,,False,
+1608606,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Lumezzane,1689,Union Brescia,26356,,,False,
+1608605,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Juventus U23,1715,Alcione,17824,,,False,874
+1608602,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Arzignano Valchiampo,6378,Giana Erminio,865,,,False,
+1608609,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Pergolettese,6380,Dolomiti Bellunesi,17820,,,False,
+1608603,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Athletic Carpi,17825,Treviso,22319,,,False,884
+1608608,2027-04-25T16:00:00+00:00,NS,Girone A - 38,Ospitaletto,24696,Folgore Caratese,9450,,,False,

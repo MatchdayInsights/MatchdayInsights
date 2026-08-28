@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1600297,2026-08-01T13:00:00+00:00,FT,Regular Season - 1,Golden Arrows,2690,Chippa United,2698,0,0,True,1450
 1600298,2026-08-01T13:00:00+00:00,FT,Regular Season - 1,Orlando Pirates,2700,Milford FC,22234,2,0,True,
 1600299,2026-08-01T13:00:00+00:00,FT,Regular Season - 1,Stellenbosch,4905,Amazulu,2669,0,1,True,12714
@@ -6,36 +6,37 @@
 1600302,2026-08-01T18:00:00+00:00,FT,Regular Season - 1,Kruger United,24759,Kaizer Chiefs,2691,1,3,True,
 1600303,2026-08-02T13:00:00+00:00,FT,Regular Season - 1,Richards Bay,10567,Polokwane City,2693,1,2,True,
 1600304,2026-08-02T15:30:00+00:00,FT,Regular Season - 1,Siwelele,26299,TS Galaxy,8074,2,2,True,
-1600306,2026-08-11T17:30:00+00:00,NS,Regular Season - 2,Marumo Gallants,2682,Kruger United,24759,,,False,1447
-1600307,2026-08-11T17:30:00+00:00,NS,Regular Season - 2,Polokwane City,2693,Stellenbosch,4905,,,False,
-1600305,2026-08-11T17:30:00+00:00,NS,Regular Season - 2,Chippa United,2698,Richards Bay,10567,,,False,
-1600308,2026-08-11T17:30:00+00:00,NS,Regular Season - 2,TS Galaxy,8074,Mamelodi Sundowns,2699,,,False,
-1600309,2026-08-12T17:30:00+00:00,NS,Regular Season - 2,Amazulu,2669,Orlando Pirates,2700,,,False,7259
-1600311,2026-08-12T17:30:00+00:00,NS,Regular Season - 2,Kaizer Chiefs,2691,Sekhukhune United,15537,,,False,22436
-1600312,2026-08-12T17:30:00+00:00,NS,Regular Season - 2,Milford FC,22234,Siwelele,26299,,,False,
-1600310,2026-08-12T17:30:00+00:00,NS,Regular Season - 2,Durban City,24757,Golden Arrows,2690,,,False,
-1600313,2026-08-14T17:30:00+00:00,NS,Regular Season - 3,Stellenbosch,4905,Marumo Gallants,2682,,,False,12714
-1600314,2026-08-15T13:00:00+00:00,NS,Regular Season - 3,Amazulu,2669,Siwelele,26299,,,False,7259
-1600315,2026-08-15T13:00:00+00:00,NS,Regular Season - 3,Kaizer Chiefs,2691,Mamelodi Sundowns,2699,,,False,22436
-1600316,2026-08-15T15:30:00+00:00,NS,Regular Season - 3,Sekhukhune United,15537,Polokwane City,2693,,,False,
-1600318,2026-08-15T18:00:00+00:00,NS,Regular Season - 3,Milford FC,22234,Kruger United,24759,,,False,
-1600317,2026-08-15T18:00:00+00:00,NS,Regular Season - 3,Durban City,24757,Richards Bay,10567,,,False,
-1600319,2026-08-16T13:00:00+00:00,NS,Regular Season - 3,Chippa United,2698,Orlando Pirates,2700,,,False,
-1600320,2026-08-16T15:30:00+00:00,NS,Regular Season - 3,TS Galaxy,8074,Golden Arrows,2690,,,False,
-1600300,2026-08-19T17:30:00+00:00,NS,Regular Season - 1,Mamelodi Sundowns,2699,Marumo Gallants,2682,,,False,
-1600322,2026-08-25T17:30:00+00:00,NS,Regular Season - 4,Marumo Gallants,2682,TS Galaxy,8074,,,False,1447
-1600323,2026-08-25T17:30:00+00:00,NS,Regular Season - 4,Orlando Pirates,2700,Sekhukhune United,15537,,,False,
-1600321,2026-08-25T17:30:00+00:00,NS,Regular Season - 4,Kruger United,24759,Durban City,24757,,,False,
-1600324,2026-08-25T17:30:00+00:00,NS,Regular Season - 4,Siwelele,26299,Chippa United,2698,,,False,
-1600325,2026-08-26T17:30:00+00:00,NS,Regular Season - 4,Golden Arrows,2690,Stellenbosch,4905,,,False,1450
-1600327,2026-08-26T17:30:00+00:00,NS,Regular Season - 4,Polokwane City,2693,Milford FC,22234,,,False,
-1600326,2026-08-26T17:30:00+00:00,NS,Regular Season - 4,Mamelodi Sundowns,2699,Amazulu,2669,,,False,
-1600328,2026-08-26T17:30:00+00:00,NS,Regular Season - 4,Richards Bay,10567,Kaizer Chiefs,2691,,,False,
+1600306,2026-08-11T17:30:00+00:00,FT,Regular Season - 2,Marumo Gallants,2682,Kruger United,24759,0,0,True,1447
+1600307,2026-08-11T17:30:00+00:00,FT,Regular Season - 2,Polokwane City,2693,Stellenbosch,4905,3,3,True,
+1600305,2026-08-11T17:30:00+00:00,FT,Regular Season - 2,Chippa United,2698,Richards Bay,10567,1,1,True,
+1600308,2026-08-11T17:30:00+00:00,FT,Regular Season - 2,TS Galaxy,8074,Mamelodi Sundowns,2699,2,3,True,12715
+1600309,2026-08-12T17:30:00+00:00,FT,Regular Season - 2,Amazulu,2669,Orlando Pirates,2700,1,1,True,7259
+1600311,2026-08-12T17:30:00+00:00,FT,Regular Season - 2,Kaizer Chiefs,2691,Sekhukhune United,15537,2,0,True,22436
+1600312,2026-08-12T17:30:00+00:00,FT,Regular Season - 2,Milford FC,22234,Siwelele,26299,1,0,True,
+1600310,2026-08-12T17:30:00+00:00,FT,Regular Season - 2,Durban City,24757,Golden Arrows,2690,0,0,True,
+1600313,2026-08-14T17:30:00+00:00,FT,Regular Season - 3,Stellenbosch,4905,Marumo Gallants,2682,3,1,True,12714
+1600314,2026-08-15T13:00:00+00:00,FT,Regular Season - 3,Amazulu,2669,Siwelele,26299,2,0,True,7259
+1600315,2026-08-15T13:00:00+00:00,FT,Regular Season - 3,Kaizer Chiefs,2691,Mamelodi Sundowns,2699,1,1,True,22436
+1600316,2026-08-15T15:30:00+00:00,FT,Regular Season - 3,Sekhukhune United,15537,Polokwane City,2693,2,0,True,
+1600318,2026-08-15T18:00:00+00:00,FT,Regular Season - 3,Milford FC,22234,Kruger United,24759,2,1,True,1450
+1600317,2026-08-15T18:00:00+00:00,FT,Regular Season - 3,Durban City,24757,Richards Bay,10567,1,1,True,
+1600319,2026-08-16T13:00:00+00:00,FT,Regular Season - 3,Chippa United,2698,Orlando Pirates,2700,0,3,True,
+1600320,2026-08-16T15:30:00+00:00,FT,Regular Season - 3,TS Galaxy,8074,Golden Arrows,2690,0,0,True,12715
+1600300,2026-08-19T17:30:00+00:00,FT,Regular Season - 1,Mamelodi Sundowns,2699,Marumo Gallants,2682,2,0,True,
+1600322,2026-08-25T17:30:00+00:00,FT,Regular Season - 4,Marumo Gallants,2682,TS Galaxy,8074,2,3,True,1447
+1600323,2026-08-25T17:30:00+00:00,FT,Regular Season - 4,Orlando Pirates,2700,Sekhukhune United,15537,2,0,True,
+1600321,2026-08-25T17:30:00+00:00,FT,Regular Season - 4,Kruger United,24759,Durban City,24757,0,2,True,
+1600324,2026-08-25T17:30:00+00:00,FT,Regular Season - 4,Siwelele,26299,Chippa United,2698,1,1,True,
+1600325,2026-08-26T17:30:00+00:00,FT,Regular Season - 4,Golden Arrows,2690,Stellenbosch,4905,1,0,True,1450
+1600327,2026-08-26T17:30:00+00:00,FT,Regular Season - 4,Polokwane City,2693,Milford FC,22234,0,0,True,
+1600326,2026-08-26T17:30:00+00:00,FT,Regular Season - 4,Mamelodi Sundowns,2699,Amazulu,2669,5,2,True,
+1600328,2026-08-26T17:30:00+00:00,FT,Regular Season - 4,Richards Bay,10567,Kaizer Chiefs,2691,2,2,True,
 1600329,2026-09-01T17:30:00+00:00,NS,Regular Season - 5,Durban City,24757,Stellenbosch,4905,,,False,
+1600333,2026-09-01T17:30:00+00:00,NS,Regular Season - 5,Kruger United,24759,Orlando Pirates,2700,,,False,
+1600372,2026-09-02T17:30:00+00:00,NS,Regular Season - 10,Mamelodi Sundowns,2699,Milford FC,22234,,,False,
 1600330,2026-09-04T17:30:00+00:00,NS,Regular Season - 5,Marumo Gallants,2682,Polokwane City,2693,,,False,1447
 1600331,2026-09-04T17:30:00+00:00,NS,Regular Season - 5,Richards Bay,10567,Amazulu,2669,,,False,
 1600332,2026-09-05T13:00:00+00:00,NS,Regular Season - 5,Chippa United,2698,Milford FC,22234,,,False,
-1600333,2026-09-05T13:00:00+00:00,NS,Regular Season - 5,Kruger United,24759,Orlando Pirates,2700,,,False,
 1600334,2026-09-05T15:30:00+00:00,NS,Regular Season - 5,Sekhukhune United,15537,TS Galaxy,8074,,,False,
 1600335,2026-09-05T18:00:00+00:00,NS,Regular Season - 5,Kaizer Chiefs,2691,Siwelele,26299,,,False,22436
 1600336,2026-09-06T13:00:00+00:00,NS,Regular Season - 5,Golden Arrows,2690,Mamelodi Sundowns,2699,,,False,1450
@@ -75,7 +76,6 @@
 1600371,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,Kaizer Chiefs,2691,Amazulu,2669,,,False,22436
 1600373,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,Polokwane City,2693,Kruger United,24759,,,False,
 1600369,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,Chippa United,2698,Sekhukhune United,15537,,,False,
-1600372,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,Mamelodi Sundowns,2699,Milford FC,22234,,,False,
 1600376,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,TS Galaxy,8074,Durban City,24757,,,False,
 1600374,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,Richards Bay,10567,Stellenbosch,4905,,,False,
 1600375,2026-11-04T17:30:00+00:00,NS,Regular Season - 10,Siwelele,26299,Orlando Pirates,2700,,,False,

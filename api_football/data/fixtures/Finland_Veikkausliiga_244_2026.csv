@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1495643,2026-04-04T10:00:00+00:00,FT,Regular Season - 1,Inter Turku,1164,VPS,650,0,0,True,
 1495644,2026-04-04T12:00:00+00:00,FT,Regular Season - 1,HJK Helsinki,649,SJK,689,3,0,True,615
 1495647,2026-04-04T14:00:00+00:00,FT,Regular Season - 1,Mariehamn,587,Turku PS,1168,1,1,True,
@@ -107,24 +107,24 @@
 1495746,2026-08-02T12:00:00+00:00,FT,Regular Season - 18,VPS,650,Inter Turku,1164,0,1,True,19205
 1495747,2026-08-02T14:00:00+00:00,FT,Regular Season - 18,AC Oulu,2077,Ilves,1163,1,0,True,627
 1495750,2026-08-03T16:00:00+00:00,FT,Regular Season - 18,SJK,689,HJK Helsinki,649,3,0,True,629
-1495751,2026-08-07T16:00:00+00:00,NS,Regular Season - 19,SJK,689,Gnistan,2082,,,False,629
-1495756,2026-08-08T16:00:00+00:00,NS,Regular Season - 19,FF Jaro,2075,VPS,650,,,False,
-1495755,2026-08-09T12:00:00+00:00,NS,Regular Season - 19,KuPS,1165,Turku PS,1168,,,False,12286
-1495754,2026-08-09T14:00:00+00:00,NS,Regular Season - 19,Inter Turku,1164,Lahti,1166,,,False,
-1495753,2026-08-09T15:00:00+00:00,NS,Regular Season - 19,Ilves,1163,Mariehamn,587,,,False,
-1495752,2026-08-09T16:00:00+00:00,NS,Regular Season - 19,AC Oulu,2077,HJK Helsinki,649,,,False,627
-1495757,2026-08-14T15:00:00+00:00,NS,Regular Season - 20,VPS,650,Turku PS,1168,,,False,19205
-1495760,2026-08-15T16:00:00+00:00,NS,Regular Season - 20,Mariehamn,587,SJK,689,,,False,
-1495761,2026-08-16T13:00:00+00:00,NS,Regular Season - 20,HJK Helsinki,649,FF Jaro,2075,,,False,615
-1495758,2026-08-16T14:00:00+00:00,NS,Regular Season - 20,Lahti,1166,KuPS,1165,,,False,623
-1495759,2026-08-16T14:00:00+00:00,NS,Regular Season - 20,AC Oulu,2077,Inter Turku,1164,,,False,627
-1495762,2026-08-17T15:00:00+00:00,NS,Regular Season - 20,Gnistan,2082,Ilves,1163,,,False,2698
-1495763,2026-08-21T16:00:00+00:00,NS,Regular Season - 21,SJK,689,Lahti,1166,,,False,629
-1495764,2026-08-22T11:00:00+00:00,NS,Regular Season - 21,Turku PS,1168,Inter Turku,1164,,,False,
-1495765,2026-08-22T14:00:00+00:00,NS,Regular Season - 21,Ilves,1163,VPS,650,,,False,
-1495766,2026-08-22T14:00:00+00:00,NS,Regular Season - 21,FF Jaro,2075,AC Oulu,2077,,,False,
-1495768,2026-08-23T12:00:00+00:00,NS,Regular Season - 21,HJK Helsinki,649,Gnistan,2082,,,False,615
-1495767,2026-08-23T12:00:00+00:00,NS,Regular Season - 21,KuPS,1165,Mariehamn,587,,,False,12286
+1495751,2026-08-07T16:00:00+00:00,FT,Regular Season - 19,SJK,689,Gnistan,2082,2,2,True,629
+1495756,2026-08-08T16:00:00+00:00,FT,Regular Season - 19,FF Jaro,2075,VPS,650,1,3,True,
+1495755,2026-08-09T12:00:00+00:00,FT,Regular Season - 19,KuPS,1165,Turku PS,1168,1,1,True,12286
+1495754,2026-08-09T14:00:00+00:00,FT,Regular Season - 19,Inter Turku,1164,Lahti,1166,0,0,True,
+1495753,2026-08-09T15:00:00+00:00,FT,Regular Season - 19,Ilves,1163,Mariehamn,587,2,0,True,
+1495752,2026-08-09T16:00:00+00:00,FT,Regular Season - 19,AC Oulu,2077,HJK Helsinki,649,0,1,True,627
+1495757,2026-08-14T15:00:00+00:00,FT,Regular Season - 20,VPS,650,Turku PS,1168,1,3,True,19205
+1495760,2026-08-15T16:00:00+00:00,FT,Regular Season - 20,Mariehamn,587,SJK,689,2,0,True,
+1495761,2026-08-16T13:00:00+00:00,FT,Regular Season - 20,HJK Helsinki,649,FF Jaro,2075,3,0,True,615
+1495758,2026-08-16T14:00:00+00:00,FT,Regular Season - 20,Lahti,1166,KuPS,1165,1,2,True,623
+1495759,2026-08-16T14:00:00+00:00,FT,Regular Season - 20,AC Oulu,2077,Inter Turku,1164,2,3,True,627
+1495762,2026-08-17T15:00:00+00:00,FT,Regular Season - 20,Gnistan,2082,Ilves,1163,3,2,True,2698
+1495763,2026-08-21T16:00:00+00:00,FT,Regular Season - 21,SJK,689,Lahti,1166,1,2,True,629
+1495765,2026-08-22T14:00:00+00:00,FT,Regular Season - 21,Ilves,1163,VPS,650,0,1,True,
+1495766,2026-08-22T14:00:00+00:00,FT,Regular Season - 21,FF Jaro,2075,AC Oulu,2077,0,1,True,
+1495768,2026-08-23T12:00:00+00:00,FT,Regular Season - 21,HJK Helsinki,649,Gnistan,2082,2,3,True,615
+1495767,2026-08-23T12:00:00+00:00,FT,Regular Season - 21,KuPS,1165,Mariehamn,587,2,4,True,12286
+1495764,2026-08-23T15:00:00+00:00,FT,Regular Season - 21,Turku PS,1168,Inter Turku,1164,0,0,True,
 1495773,2026-08-31T16:00:00+00:00,NS,Regular Season - 22,Mariehamn,587,FF Jaro,2075,,,False,
 1495774,2026-08-31T16:00:00+00:00,NS,Regular Season - 22,VPS,650,Lahti,1166,,,False,19205
 1495771,2026-08-31T16:00:00+00:00,NS,Regular Season - 22,Ilves,1163,HJK Helsinki,649,,,False,

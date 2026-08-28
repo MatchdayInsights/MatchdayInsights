@@ -1,0 +1,463 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1569881,2026-08-14T18:30:00+00:00,FT,Regular Season - 1,Real Sociedad II,9585,Castellón,5254,0,1,True,
+1569872,2026-08-15T15:00:00+00:00,FT,Regular Season - 1,FC Andorra,8157,AD Ceuta FC,10139,5,1,True,
+1569880,2026-08-15T17:00:00+00:00,FT,Regular Season - 1,Oviedo,718,Granada CF,715,0,0,True,1490
+1569874,2026-08-15T17:00:00+00:00,FT,Regular Season - 1,Cadiz,724,Celta de Vigo II,9571,0,0,True,
+1569879,2026-08-15T19:30:00+00:00,FT,Regular Season - 1,Mallorca,798,Valladolid,720,2,0,True,19940
+1569875,2026-08-16T15:00:00+00:00,FT,Regular Season - 1,Eibar,545,Tenerife,719,1,3,True,1472
+1569877,2026-08-16T17:00:00+00:00,FT,Regular Season - 1,Girona,547,Leganes,537,1,1,True,
+1569873,2026-08-16T17:00:00+00:00,FT,Regular Season - 1,Burgos,9580,Cordoba,713,3,2,True,
+1569878,2026-08-16T19:30:00+00:00,FT,Regular Season - 1,Las Palmas,534,Albacete,722,2,1,True,
+1569876,2026-08-17T17:00:00+00:00,FT,Regular Season - 1,Sporting Gijon,731,Sabadell,9593,0,0,True,
+1569871,2026-08-17T19:30:00+00:00,FT,Regular Season - 1,Almeria,723,Eldense,9692,3,0,True,
+1569886,2026-08-21T19:00:00+00:00,FT,Regular Season - 2,Cordoba,713,Girona,547,2,1,True,1469
+1569891,2026-08-22T15:00:00+00:00,FT,Regular Season - 2,Oviedo,718,Leganes,537,0,1,True,1490
+1569882,2026-08-22T17:00:00+00:00,FT,Regular Season - 2,Albacete,722,Real Sociedad II,9585,1,2,True,1458
+1569885,2026-08-22T17:00:00+00:00,FT,Regular Season - 2,AD Ceuta FC,10139,Las Palmas,534,0,2,True,3969
+1569888,2026-08-22T19:30:00+00:00,FT,Regular Season - 2,Eldense,9692,Cadiz,724,2,2,True,
+1569887,2026-08-23T15:00:00+00:00,FT,Regular Season - 2,Eibar,545,Valladolid,720,1,0,True,1472
+1569889,2026-08-23T17:00:00+00:00,FT,Regular Season - 2,Sporting Gijon,731,Burgos,9580,1,0,True,
+1569883,2026-08-23T17:00:00+00:00,FT,Regular Season - 2,Castellón,5254,Sabadell,9593,0,0,True,
+1569892,2026-08-23T19:30:00+00:00,FT,Regular Season - 2,Tenerife,719,Almeria,723,1,0,True,
+1569884,2026-08-24T17:00:00+00:00,FT,Regular Season - 2,Celta de Vigo II,9571,FC Andorra,8157,4,2,True,22784
+1569890,2026-08-24T19:30:00+00:00,FT,Regular Season - 2,Granada CF,715,Mallorca,798,2,0,True,1479
+1569903,2026-08-28T19:00:00+00:00,NS,Regular Season - 3,Tenerife,719,Sporting Gijon,731,,,False,
+1569902,2026-08-29T15:00:00+00:00,NS,Regular Season - 3,Sabadell,9593,Almeria,723,,,False,6686
+1569900,2026-08-29T17:00:00+00:00,NS,Regular Season - 3,Leganes,537,Eldense,9692,,,False,1464
+1569893,2026-08-29T17:00:00+00:00,NS,Regular Season - 3,Albacete,722,Oviedo,718,,,False,1458
+1569899,2026-08-29T19:30:00+00:00,NS,Regular Season - 3,Girona,547,Las Palmas,534,,,False,
+1569894,2026-08-30T15:00:00+00:00,NS,Regular Season - 3,FC Andorra,8157,Eibar,545,,,False,
+1569896,2026-08-30T17:00:00+00:00,NS,Regular Season - 3,Cadiz,724,Valladolid,720,,,False,
+1569901,2026-08-30T17:00:00+00:00,NS,Regular Season - 3,Mallorca,798,AD Ceuta FC,10139,,,False,19940
+1569898,2026-08-30T19:30:00+00:00,NS,Regular Season - 3,Cordoba,713,Granada CF,715,,,False,
+1569895,2026-08-31T17:00:00+00:00,NS,Regular Season - 3,Burgos,9580,Real Sociedad II,9585,,,False,
+1569897,2026-08-31T19:30:00+00:00,NS,Regular Season - 3,Celta de Vigo II,9571,Castellón,5254,,,False,
+1569910,2026-09-04T18:30:00+00:00,NS,Regular Season - 4,Las Palmas,534,Leganes,537,,,False,
+1569912,2026-09-05T12:00:00+00:00,NS,Regular Season - 4,Real Sociedad II,9585,Tenerife,719,,,False,
+1569909,2026-09-05T14:15:00+00:00,NS,Regular Season - 4,Sporting Gijon,731,Girona,547,,,False,
+1569914,2026-09-05T16:30:00+00:00,NS,Regular Season - 4,Valladolid,720,FC Andorra,8157,,,False,
+1569906,2026-09-05T16:30:00+00:00,NS,Regular Season - 4,AD Ceuta FC,10139,Celta de Vigo II,9571,,,False,3969
+1569908,2026-09-05T19:00:00+00:00,NS,Regular Season - 4,Eldense,9692,Mallorca,798,,,False,
+1569907,2026-09-06T12:00:00+00:00,NS,Regular Season - 4,Eibar,545,Granada CF,715,,,False,1472
+1569911,2026-09-06T14:15:00+00:00,NS,Regular Season - 4,Oviedo,718,Burgos,9580,,,False,1490
+1569905,2026-09-06T16:30:00+00:00,NS,Regular Season - 4,Castellón,5254,Albacete,722,,,False,
+1569904,2026-09-06T19:00:00+00:00,NS,Regular Season - 4,Almeria,723,Cadiz,724,,,False,
+1569913,2026-09-07T18:30:00+00:00,NS,Regular Season - 4,Sabadell,9593,Cordoba,713,,,False,6686
+1569921,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Girona,547,Castellón,5254,,,False,
+1569919,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Cordoba,713,Almeria,723,,,False,
+1569922,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Granada CF,715,Albacete,722,,,False,
+1569924,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Tenerife,719,Leganes,537,,,False,
+1569925,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Valladolid,720,Oviedo,718,,,False,
+1569917,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Cadiz,724,Las Palmas,534,,,False,
+1569920,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Sporting Gijon,731,Eldense,9692,,,False,
+1569923,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Mallorca,798,Sabadell,9593,,,False,19940
+1569915,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,FC Andorra,8157,Real Sociedad II,9585,,,False,
+1569918,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Celta de Vigo II,9571,Eibar,545,,,False,
+1569916,2026-09-13T15:00:00+00:00,NS,Regular Season - 5,Burgos,9580,AD Ceuta FC,10139,,,False,
+1569933,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Las Palmas,534,Burgos,9580,,,False,
+1569934,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Leganes,537,Granada CF,715,,,False,1464
+1569926,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Albacete,722,Cordoba,713,,,False,1458
+1569927,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Almeria,723,Celta de Vigo II,9571,,,False,
+1569929,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Cadiz,724,Girona,547,,,False,
+1569930,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Castellón,5254,Tenerife,719,,,False,
+1569928,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,FC Andorra,8157,Sporting Gijon,731,,,False,
+1569935,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Real Sociedad II,9585,Mallorca,798,,,False,
+1569936,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Sabadell,9593,Oviedo,718,,,False,6686
+1569932,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,Eldense,9692,Eibar,545,,,False,
+1569931,2026-09-20T15:00:00+00:00,NS,Regular Season - 6,AD Ceuta FC,10139,Valladolid,720,,,False,3969
+1569943,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Leganes,537,Castellón,5254,,,False,1464
+1569940,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Eibar,545,Las Palmas,534,,,False,1472
+1569941,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Girona,547,Albacete,722,,,False,
+1569942,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Granada CF,715,FC Andorra,8157,,,False,
+1569945,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Oviedo,718,Sporting Gijon,731,,,False,1490
+1569946,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Tenerife,719,Cadiz,724,,,False,
+1569947,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Valladolid,720,Cordoba,713,,,False,
+1569944,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Mallorca,798,Almeria,723,,,False,19940
+1569938,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Celta de Vigo II,9571,Sabadell,9593,,,False,
+1569937,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,Burgos,9580,Eldense,9692,,,False,
+1569939,2026-09-27T15:00:00+00:00,NS,Regular Season - 7,AD Ceuta FC,10139,Real Sociedad II,9585,,,False,3969
+1569956,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Las Palmas,534,Valladolid,720,,,False,
+1569955,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Girona,547,Mallorca,798,,,False,
+1569952,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Cordoba,713,Tenerife,719,,,False,
+1569948,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Albacete,722,Eibar,545,,,False,1458
+1569949,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Almeria,723,Burgos,9580,,,False,
+1569950,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Cadiz,724,Leganes,537,,,False,
+1569954,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Sporting Gijon,731,Celta de Vigo II,9571,,,False,
+1569951,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Castellón,5254,AD Ceuta FC,10139,,,False,
+1569957,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Real Sociedad II,9585,Granada CF,715,,,False,
+1569958,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Sabadell,9593,FC Andorra,8157,,,False,6686
+1569953,2026-10-04T15:00:00+00:00,NS,Regular Season - 8,Eldense,9692,Oviedo,718,,,False,
+1569967,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Oviedo,718,Eibar,545,,,False,1490
+1569968,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Tenerife,719,Girona,547,,,False,
+1569969,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Valladolid,720,Albacete,722,,,False,
+1569959,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Almeria,723,Leganes,537,,,False,
+1569962,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Cadiz,724,Sporting Gijon,731,,,False,
+1569966,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Mallorca,798,Las Palmas,534,,,False,19940
+1569960,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,FC Andorra,8157,Castellón,5254,,,False,
+1569963,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Celta de Vigo II,9571,Real Sociedad II,9585,,,False,
+1569961,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Burgos,9580,Granada CF,715,,,False,
+1569965,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,Eldense,9692,Cordoba,713,,,False,
+1569964,2026-10-11T15:00:00+00:00,NS,Regular Season - 9,AD Ceuta FC,10139,Sabadell,9593,,,False,3969
+1569977,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Las Palmas,534,Castellón,5254,,,False,
+1569978,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Leganes,537,Cordoba,713,,,False,1464
+1569973,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Eibar,545,Mallorca,798,,,False,1472
+1569975,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Girona,547,FC Andorra,8157,,,False,
+1569976,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Granada CF,715,Cadiz,724,,,False,
+1569980,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Valladolid,720,Eldense,9692,,,False,
+1569974,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Sporting Gijon,731,Albacete,722,,,False,
+1569971,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Celta de Vigo II,9571,Tenerife,719,,,False,
+1569970,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Burgos,9580,Sabadell,9593,,,False,
+1569979,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,Real Sociedad II,9585,Almeria,723,,,False,
+1569972,2026-10-18T15:00:00+00:00,NS,Regular Season - 10,AD Ceuta FC,10139,Oviedo,718,,,False,3969
+1569989,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Las Palmas,534,Real Sociedad II,9585,,,False,
+1569990,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Leganes,537,Mallorca,798,,,False,1464
+1569987,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Girona,547,Celta de Vigo II,9571,,,False,
+1569986,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Cordoba,713,Eibar,545,,,False,
+1569988,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Granada CF,715,Valladolid,720,,,False,
+1569981,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Albacete,722,Eldense,9692,,,False,1458
+1569982,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Almeria,723,Oviedo,718,,,False,
+1569984,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Cadiz,724,AD Ceuta FC,10139,,,False,
+1569985,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Castellón,5254,Sporting Gijon,731,,,False,
+1569983,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,FC Andorra,8157,Burgos,9580,,,False,
+1569991,2026-10-25T16:00:00+00:00,NS,Regular Season - 11,Sabadell,9593,Tenerife,719,,,False,6686
+1569996,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Eibar,545,Almeria,723,,,False,1472
+1569999,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Oviedo,718,Las Palmas,534,,,False,1490
+1570001,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Tenerife,719,FC Andorra,8157,,,False,
+1570002,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Valladolid,720,Leganes,537,,,False,
+1569992,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Albacete,722,Sabadell,9593,,,False,1458
+1569998,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Mallorca,798,Cadiz,724,,,False,19940
+1569994,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Celta de Vigo II,9571,Cordoba,713,,,False,
+1569993,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Burgos,9580,Castellón,5254,,,False,
+1570000,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Real Sociedad II,9585,Girona,547,,,False,
+1569997,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,Eldense,9692,Granada CF,715,,,False,
+1569995,2026-11-01T16:00:00+00:00,NS,Regular Season - 12,AD Ceuta FC,10139,Sporting Gijon,731,,,False,3969
+1570011,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Las Palmas,534,Eldense,9692,,,False,
+1570012,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Leganes,537,Albacete,722,,,False,1464
+1570009,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Girona,547,Almeria,723,,,False,
+1570007,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Cordoba,713,AD Ceuta FC,10139,,,False,
+1570010,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Granada CF,715,Tenerife,719,,,False,
+1570005,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Cadiz,724,Oviedo,718,,,False,
+1570008,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Sporting Gijon,731,Valladolid,720,,,False,
+1570006,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Castellón,5254,Eibar,545,,,False,
+1570003,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,FC Andorra,8157,Mallorca,798,,,False,
+1570004,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Burgos,9580,Celta de Vigo II,9571,,,False,
+1570013,2026-11-08T16:00:00+00:00,NS,Regular Season - 13,Sabadell,9593,Real Sociedad II,9585,,,False,6686
+1570019,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Leganes,537,Burgos,9580,,,False,1464
+1570016,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Eibar,545,Cadiz,724,,,False,1472
+1570018,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Granada CF,715,Las Palmas,534,,,False,
+1570021,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Oviedo,718,Girona,547,,,False,1490
+1570023,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Tenerife,719,AD Ceuta FC,10139,,,False,
+1570024,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Valladolid,720,Castellón,5254,,,False,
+1570014,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Albacete,722,Celta de Vigo II,9571,,,False,1458
+1570015,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Almeria,723,FC Andorra,8157,,,False,
+1570020,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Mallorca,798,Cordoba,713,,,False,19940
+1570022,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Real Sociedad II,9585,Sporting Gijon,731,,,False,
+1570017,2026-11-15T16:00:00+00:00,NS,Regular Season - 14,Eldense,9692,Sabadell,9593,,,False,
+1570032,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Girona,547,Eibar,545,,,False,
+1570030,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Cordoba,713,Oviedo,718,,,False,
+1570035,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Tenerife,719,Mallorca,798,,,False,
+1570031,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Sporting Gijon,731,Las Palmas,534,,,False,
+1570027,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Castellón,5254,Eldense,9692,,,False,
+1570025,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,FC Andorra,8157,Leganes,537,,,False,
+1570028,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Celta de Vigo II,9571,Valladolid,720,,,False,
+1570026,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Burgos,9580,Albacete,722,,,False,
+1570033,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Real Sociedad II,9585,Cadiz,724,,,False,
+1570034,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,Sabadell,9593,Granada CF,715,,,False,6686
+1570029,2026-11-22T16:00:00+00:00,NS,Regular Season - 15,AD Ceuta FC,10139,Almeria,723,,,False,3969
+1570042,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Las Palmas,534,FC Andorra,8157,,,False,
+1570043,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Leganes,537,Sabadell,9593,,,False,1464
+1570039,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Eibar,545,Burgos,9580,,,False,1472
+1570041,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Granada CF,715,AD Ceuta FC,10139,,,False,
+1570045,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Oviedo,718,Celta de Vigo II,9571,,,False,1490
+1570046,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Valladolid,720,Real Sociedad II,9585,,,False,
+1570036,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Albacete,722,Tenerife,719,,,False,1458
+1570037,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Almeria,723,Sporting Gijon,731,,,False,
+1570038,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Cadiz,724,Cordoba,713,,,False,
+1570044,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Mallorca,798,Castellón,5254,,,False,19940
+1570040,2026-11-29T16:00:00+00:00,NS,Regular Season - 16,Eldense,9692,Girona,547,,,False,
+1570054,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Girona,547,Valladolid,720,,,False,
+1570052,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Cordoba,713,Las Palmas,534,,,False,
+1570057,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Tenerife,719,Eldense,9692,,,False,
+1570053,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Sporting Gijon,731,Granada CF,715,,,False,
+1570049,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Castellón,5254,Almeria,723,,,False,
+1570047,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,FC Andorra,8157,Oviedo,718,,,False,
+1570050,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Celta de Vigo II,9571,Mallorca,798,,,False,
+1570048,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Burgos,9580,Cadiz,724,,,False,
+1570055,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Real Sociedad II,9585,Leganes,537,,,False,
+1570056,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,Sabadell,9593,Eibar,545,,,False,6686
+1570051,2026-12-06T16:00:00+00:00,NS,Regular Season - 17,AD Ceuta FC,10139,Albacete,722,,,False,3969
+1570064,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Las Palmas,534,Celta de Vigo II,9571,,,False,
+1570065,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Leganes,537,AD Ceuta FC,10139,,,False,1464
+1570061,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Eibar,545,Sporting Gijon,731,,,False,1472
+1570060,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Cordoba,713,Castellón,5254,,,False,
+1570063,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Granada CF,715,Girona,547,,,False,
+1570067,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Oviedo,718,Real Sociedad II,9585,,,False,1490
+1570068,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Valladolid,720,Tenerife,719,,,False,
+1570058,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Almeria,723,Albacete,722,,,False,
+1570059,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Cadiz,724,Sabadell,9593,,,False,
+1570066,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Mallorca,798,Burgos,9580,,,False,19940
+1570062,2026-12-13T16:00:00+00:00,NS,Regular Season - 18,Eldense,9692,FC Andorra,8157,,,False,
+1570079,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Tenerife,719,Oviedo,718,,,False,
+1570069,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Albacete,722,Mallorca,798,,,False,1458
+1570070,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Almeria,723,Valladolid,720,,,False,
+1570076,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Sporting Gijon,731,Leganes,537,,,False,
+1570073,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Castellón,5254,Granada CF,715,,,False,
+1570071,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,FC Andorra,8157,Cadiz,724,,,False,
+1570074,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Celta de Vigo II,9571,Eldense,9692,,,False,
+1570072,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Burgos,9580,Girona,547,,,False,
+1570077,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Real Sociedad II,9585,Cordoba,713,,,False,
+1570078,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,Sabadell,9593,Las Palmas,534,,,False,6686
+1570075,2026-12-20T16:00:00+00:00,NS,Regular Season - 19,AD Ceuta FC,10139,Eibar,545,,,False,3969
+1570086,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Las Palmas,534,Tenerife,719,,,False,
+1570087,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Leganes,537,Celta de Vigo II,9571,,,False,1464
+1570082,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Eibar,545,Real Sociedad II,9585,,,False,1472
+1570084,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Girona,547,Sabadell,9593,,,False,
+1570081,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Cordoba,713,FC Andorra,8157,,,False,
+1570085,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Granada CF,715,Almeria,723,,,False,
+1570089,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Oviedo,718,Castellón,5254,,,False,1490
+1570090,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Valladolid,720,Burgos,9580,,,False,
+1570080,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Cadiz,724,Albacete,722,,,False,
+1570088,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Mallorca,798,Sporting Gijon,731,,,False,19940
+1570083,2027-01-03T16:00:00+00:00,NS,Regular Season - 20,Eldense,9692,AD Ceuta FC,10139,,,False,
+1570097,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Leganes,537,Eibar,545,,,False,1464
+1570101,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Tenerife,719,Burgos,9580,,,False,
+1570091,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Albacete,722,FC Andorra,8157,,,False,1458
+1570092,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Almeria,723,Las Palmas,534,,,False,
+1570096,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Sporting Gijon,731,Cordoba,713,,,False,
+1570098,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Mallorca,798,Oviedo,718,,,False,19940
+1570093,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Castellón,5254,Cadiz,724,,,False,
+1570094,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Celta de Vigo II,9571,Granada CF,715,,,False,
+1570099,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Real Sociedad II,9585,Eldense,9692,,,False,
+1570100,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,Sabadell,9593,Valladolid,720,,,False,6686
+1570095,2027-01-10T16:00:00+00:00,NS,Regular Season - 21,AD Ceuta FC,10139,Girona,547,,,False,3969
+1570110,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Las Palmas,534,Girona,547,,,False,
+1570107,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Eibar,545,Celta de Vigo II,9571,,,False,1472
+1570106,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Cordoba,713,Sabadell,9593,,,False,
+1570109,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Granada CF,715,Real Sociedad II,9585,,,False,
+1570111,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Oviedo,718,Almeria,723,,,False,1490
+1570112,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Valladolid,720,AD Ceuta FC,10139,,,False,
+1570104,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Cadiz,724,Mallorca,798,,,False,
+1570105,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Castellón,5254,Leganes,537,,,False,
+1570102,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,FC Andorra,8157,Tenerife,719,,,False,
+1570103,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Burgos,9580,Sporting Gijon,731,,,False,
+1570108,2027-01-17T16:00:00+00:00,NS,Regular Season - 22,Eldense,9692,Albacete,722,,,False,
+1570119,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Leganes,537,Valladolid,720,,,False,1464
+1570118,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Girona,547,Oviedo,718,,,False,
+1570123,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Tenerife,719,Eibar,545,,,False,
+1570113,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Albacete,722,Granada CF,715,,,False,1458
+1570114,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Almeria,723,Cordoba,713,,,False,
+1570115,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Cadiz,724,Eldense,9692,,,False,
+1570117,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Sporting Gijon,731,Castellón,5254,,,False,
+1570120,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Mallorca,798,FC Andorra,8157,,,False,19940
+1570116,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Celta de Vigo II,9571,Burgos,9580,,,False,
+1570121,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Real Sociedad II,9585,Las Palmas,534,,,False,
+1570122,2027-01-24T16:00:00+00:00,NS,Regular Season - 23,Sabadell,9593,AD Ceuta FC,10139,,,False,6686
+1570132,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Las Palmas,534,Sporting Gijon,731,,,False,
+1570128,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Eibar,545,Albacete,722,,,False,1472
+1570130,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Girona,547,Real Sociedad II,9585,,,False,
+1570127,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Cordoba,713,Mallorca,798,,,False,
+1570131,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Granada CF,715,Sabadell,9593,,,False,
+1570133,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Oviedo,718,Cadiz,724,,,False,1490
+1570134,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Valladolid,720,Celta de Vigo II,9571,,,False,
+1570124,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,FC Andorra,8157,Almeria,723,,,False,
+1570125,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Burgos,9580,Leganes,537,,,False,
+1570129,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,Eldense,9692,Castellón,5254,,,False,
+1570126,2027-01-31T16:00:00+00:00,NS,Regular Season - 24,AD Ceuta FC,10139,Tenerife,719,,,False,3969
+1570141,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Leganes,537,Oviedo,718,,,False,1464
+1570139,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Cordoba,713,Cadiz,724,,,False,
+1570145,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Tenerife,719,Granada CF,715,,,False,
+1570135,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Albacete,722,Valladolid,720,,,False,1458
+1570136,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Almeria,723,Eibar,545,,,False,
+1570140,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Sporting Gijon,731,AD Ceuta FC,10139,,,False,
+1570142,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Mallorca,798,Eldense,9692,,,False,19940
+1570137,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Castellón,5254,Las Palmas,534,,,False,
+1570138,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Celta de Vigo II,9571,Girona,547,,,False,
+1570143,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Real Sociedad II,9585,FC Andorra,8157,,,False,
+1570144,2027-02-07T16:00:00+00:00,NS,Regular Season - 25,Sabadell,9593,Burgos,9580,,,False,6686
+1570154,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Las Palmas,534,Eibar,545,,,False,
+1570152,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Girona,547,Cordoba,713,,,False,
+1570153,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Granada CF,715,Leganes,537,,,False,
+1570155,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Oviedo,718,Sabadell,9593,,,False,1490
+1570156,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Valladolid,720,Sporting Gijon,731,,,False,
+1570146,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Albacete,722,Castellón,5254,,,False,1458
+1570149,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Cadiz,724,Real Sociedad II,9585,,,False,
+1570147,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,FC Andorra,8157,Celta de Vigo II,9571,,,False,
+1570148,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Burgos,9580,Almeria,723,,,False,
+1570151,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,Eldense,9692,Tenerife,719,,,False,
+1570150,2027-02-14T16:00:00+00:00,NS,Regular Season - 26,AD Ceuta FC,10139,Mallorca,798,,,False,3969
+1570163,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Leganes,537,Cadiz,724,,,False,1464
+1570161,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Eibar,545,Oviedo,718,,,False,1472
+1570160,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Cordoba,713,Burgos,9580,,,False,
+1570167,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Tenerife,719,Albacete,722,,,False,
+1570157,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Almeria,723,AD Ceuta FC,10139,,,False,
+1570162,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Sporting Gijon,731,FC Andorra,8157,,,False,
+1570164,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Mallorca,798,Granada CF,715,,,False,19940
+1570158,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Castellón,5254,Girona,547,,,False,
+1570159,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Celta de Vigo II,9571,Las Palmas,534,,,False,
+1570165,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Real Sociedad II,9585,Valladolid,720,,,False,
+1570166,2027-02-21T16:00:00+00:00,NS,Regular Season - 27,Sabadell,9593,Eldense,9692,,,False,6686
+1570175,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Las Palmas,534,Sabadell,9593,,,False,
+1570173,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Girona,547,Sporting Gijon,731,,,False,
+1570174,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Granada CF,715,Cordoba,713,,,False,
+1570177,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Oviedo,718,Tenerife,719,,,False,1490
+1570178,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Valladolid,720,Eibar,545,,,False,
+1570168,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Albacete,722,Burgos,9580,,,False,1458
+1570169,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Cadiz,724,Almeria,723,,,False,
+1570176,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Mallorca,798,Real Sociedad II,9585,,,False,19940
+1570170,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Castellón,5254,FC Andorra,8157,,,False,
+1570172,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,Eldense,9692,Celta de Vigo II,9571,,,False,
+1570171,2027-02-28T16:00:00+00:00,NS,Regular Season - 28,AD Ceuta FC,10139,Leganes,537,,,False,3969
+1570186,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Las Palmas,534,Granada CF,715,,,False,
+1570187,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Leganes,537,Tenerife,719,,,False,1464
+1570184,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Eibar,545,Eldense,9692,,,False,1472
+1570183,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Cordoba,713,Valladolid,720,,,False,
+1570179,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Almeria,723,Castellón,5254,,,False,
+1570185,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Sporting Gijon,731,Cadiz,724,,,False,
+1570180,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,FC Andorra,8157,Girona,547,,,False,
+1570182,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Celta de Vigo II,9571,Oviedo,718,,,False,
+1570181,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Burgos,9580,Mallorca,798,,,False,
+1570188,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Real Sociedad II,9585,AD Ceuta FC,10139,,,False,
+1570189,2027-03-07T16:00:00+00:00,NS,Regular Season - 29,Sabadell,9593,Albacete,722,,,False,6686
+1570195,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Girona,547,Burgos,9580,,,False,
+1570197,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Oviedo,718,Cordoba,713,,,False,1490
+1570199,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Tenerife,719,Sabadell,9593,,,False,
+1570200,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Valladolid,720,Almeria,723,,,False,
+1570190,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Albacete,722,Las Palmas,534,,,False,1458
+1570191,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Cadiz,724,Granada CF,715,,,False,
+1570196,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Mallorca,798,Leganes,537,,,False,19940
+1570192,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Castellón,5254,Celta de Vigo II,9571,,,False,
+1570198,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Real Sociedad II,9585,Eibar,545,,,False,
+1570194,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,Eldense,9692,Sporting Gijon,731,,,False,
+1570193,2027-03-14T16:00:00+00:00,NS,Regular Season - 30,AD Ceuta FC,10139,FC Andorra,8157,,,False,3969
+1570208,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Las Palmas,534,Oviedo,718,,,False,
+1570209,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Leganes,537,Girona,547,,,False,1464
+1570205,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Eibar,545,AD Ceuta FC,10139,,,False,1472
+1570204,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Cordoba,713,Eldense,9692,,,False,
+1570207,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Granada CF,715,Castellón,5254,,,False,
+1570211,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Valladolid,720,Cadiz,724,,,False,
+1570201,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Almeria,723,Real Sociedad II,9585,,,False,
+1570206,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Sporting Gijon,731,Mallorca,798,,,False,
+1570202,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,FC Andorra,8157,Albacete,722,,,False,
+1570203,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Burgos,9580,Tenerife,719,,,False,
+1570210,2027-03-21T16:00:00+00:00,NS,Regular Season - 31,Sabadell,9593,Celta de Vigo II,9571,,,False,6686
+1570216,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Eibar,545,FC Andorra,8157,,,False,1472
+1570218,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Girona,547,Cadiz,724,,,False,
+1570219,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Oviedo,718,Valladolid,720,,,False,1490
+1570222,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Tenerife,719,Las Palmas,534,,,False,
+1570212,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Albacete,722,Almeria,723,,,False,1458
+1570213,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Castellón,5254,Cordoba,713,,,False,
+1570214,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Celta de Vigo II,9571,Sporting Gijon,731,,,False,
+1570220,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Real Sociedad II,9585,Burgos,9580,,,False,
+1570221,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Sabadell,9593,Mallorca,798,,,False,6686
+1570217,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,Eldense,9692,Leganes,537,,,False,
+1570215,2027-03-28T15:00:00+00:00,NS,Regular Season - 32,AD Ceuta FC,10139,Granada CF,715,,,False,3969
+1570229,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Las Palmas,534,AD Ceuta FC,10139,,,False,
+1570230,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Leganes,537,Almeria,723,,,False,1464
+1570226,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Cordoba,713,Celta de Vigo II,9571,,,False,
+1570228,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Granada CF,715,Eibar,545,,,False,
+1570233,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Valladolid,720,Sabadell,9593,,,False,
+1570225,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Cadiz,724,Castellón,5254,,,False,
+1570227,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Sporting Gijon,731,Tenerife,719,,,False,
+1570231,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Mallorca,798,Girona,547,,,False,19940
+1570223,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,FC Andorra,8157,Eldense,9692,,,False,
+1570224,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Burgos,9580,Oviedo,718,,,False,
+1570232,2027-04-04T15:00:00+00:00,NS,Regular Season - 33,Real Sociedad II,9585,Albacete,722,,,False,
+1570242,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Las Palmas,534,Mallorca,798,,,False,
+1570239,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Eibar,545,Cordoba,713,,,False,1472
+1570241,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Girona,547,Granada CF,715,,,False,
+1570243,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Oviedo,718,Eldense,9692,,,False,1490
+1570234,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Albacete,722,AD Ceuta FC,10139,,,False,1458
+1570235,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Almeria,723,Tenerife,719,,,False,
+1570240,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Sporting Gijon,731,Real Sociedad II,9585,,,False,
+1570237,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Castellón,5254,Burgos,9580,,,False,
+1570236,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,FC Andorra,8157,Valladolid,720,,,False,
+1570238,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Celta de Vigo II,9571,Cadiz,724,,,False,
+1570244,2027-04-11T15:00:00+00:00,NS,Regular Season - 34,Sabadell,9593,Leganes,537,,,False,6686
+1570251,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Leganes,537,Las Palmas,534,,,False,1464
+1570248,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Cordoba,713,Albacete,722,,,False,
+1570250,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Granada CF,715,Oviedo,718,,,False,
+1570254,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Tenerife,719,Real Sociedad II,9585,,,False,
+1570255,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Valladolid,720,Girona,547,,,False,
+1570245,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Cadiz,724,FC Andorra,8157,,,False,
+1570252,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Mallorca,798,Eibar,545,,,False,19940
+1570246,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Celta de Vigo II,9571,Almeria,723,,,False,
+1570253,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Sabadell,9593,Sporting Gijon,731,,,False,6686
+1570249,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,Eldense,9692,Burgos,9580,,,False,
+1570247,2027-04-18T15:00:00+00:00,NS,Regular Season - 35,AD Ceuta FC,10139,Castellón,5254,,,False,3969
+1570265,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Las Palmas,534,Cadiz,724,,,False,
+1570262,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Eibar,545,Sabadell,9593,,,False,1472
+1570264,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Girona,547,Tenerife,719,,,False,
+1570256,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Albacete,722,Leganes,537,,,False,1458
+1570257,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Almeria,723,Granada CF,715,,,False,
+1570263,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Sporting Gijon,731,Oviedo,718,,,False,
+1570260,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Castellón,5254,Mallorca,798,,,False,
+1570258,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,FC Andorra,8157,Cordoba,713,,,False,
+1570259,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Burgos,9580,Valladolid,720,,,False,
+1570266,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,Real Sociedad II,9585,Celta de Vigo II,9571,,,False,
+1570261,2027-04-25T15:00:00+00:00,NS,Regular Season - 36,AD Ceuta FC,10139,Eldense,9692,,,False,3969
+1570273,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Leganes,537,Sporting Gijon,731,,,False,1464
+1570270,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Cordoba,713,Real Sociedad II,9585,,,False,
+1570272,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Granada CF,715,Burgos,9580,,,False,
+1570274,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Oviedo,718,Albacete,722,,,False,1490
+1570276,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Tenerife,719,Castellón,5254,,,False,
+1570277,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Valladolid,720,Mallorca,798,,,False,
+1570268,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Cadiz,724,Eibar,545,,,False,
+1570267,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,FC Andorra,8157,Las Palmas,534,,,False,
+1570269,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Celta de Vigo II,9571,AD Ceuta FC,10139,,,False,
+1570275,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Sabadell,9593,Girona,547,,,False,6686
+1570271,2027-05-02T15:00:00+00:00,NS,Regular Season - 37,Eldense,9692,Almeria,723,,,False,
+1570283,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Eibar,545,Leganes,537,,,False,1472
+1570285,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Granada CF,715,Sporting Gijon,731,,,False,
+1570288,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Tenerife,719,Cordoba,713,,,False,
+1570278,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Albacete,722,Girona,547,,,False,1458
+1570279,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Almeria,723,Sabadell,9593,,,False,
+1570286,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Mallorca,798,Celta de Vigo II,9571,,,False,19940
+1570281,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Castellón,5254,Valladolid,720,,,False,
+1570280,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Burgos,9580,FC Andorra,8157,,,False,
+1570287,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Real Sociedad II,9585,Oviedo,718,,,False,
+1570284,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,Eldense,9692,Las Palmas,534,,,False,
+1570282,2027-05-09T15:00:00+00:00,NS,Regular Season - 38,AD Ceuta FC,10139,Cadiz,724,,,False,3969
+1570296,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Las Palmas,534,Almeria,723,,,False,
+1570295,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Girona,547,Eldense,9692,,,False,
+1570293,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Cordoba,713,Leganes,537,,,False,
+1570298,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Oviedo,718,AD Ceuta FC,10139,,,False,1490
+1570299,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Valladolid,720,Granada CF,715,,,False,
+1570290,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Cadiz,724,Burgos,9580,,,False,
+1570294,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Sporting Gijon,731,Eibar,545,,,False,
+1570297,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Mallorca,798,Tenerife,719,,,False,19940
+1570291,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Castellón,5254,Real Sociedad II,9585,,,False,
+1570289,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,FC Andorra,8157,Sabadell,9593,,,False,
+1570292,2027-05-16T15:00:00+00:00,NS,Regular Season - 39,Celta de Vigo II,9571,Albacete,722,,,False,
+1570307,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Leganes,537,FC Andorra,8157,,,False,1464
+1570304,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Eibar,545,Castellón,5254,,,False,1472
+1570306,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Granada CF,715,Celta de Vigo II,9571,,,False,
+1570308,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Oviedo,718,Mallorca,798,,,False,1490
+1570310,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Tenerife,719,Valladolid,720,,,False,
+1570300,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Albacete,722,Sporting Gijon,731,,,False,1458
+1570301,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Almeria,723,Girona,547,,,False,
+1570302,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Burgos,9580,Las Palmas,534,,,False,
+1570309,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Sabadell,9593,Cadiz,724,,,False,6686
+1570305,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,Eldense,9692,Real Sociedad II,9585,,,False,
+1570303,2027-05-23T15:00:00+00:00,NS,Regular Season - 40,AD Ceuta FC,10139,Cordoba,713,,,False,3969
+1570319,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Las Palmas,534,Cordoba,713,,,False,
+1570318,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Girona,547,AD Ceuta FC,10139,,,False,
+1570313,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Cadiz,724,Tenerife,719,,,False,
+1570317,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Sporting Gijon,731,Almeria,723,,,False,
+1570320,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Mallorca,798,Albacete,722,,,False,19940
+1570314,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Castellón,5254,Oviedo,718,,,False,
+1570311,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,FC Andorra,8157,Granada CF,715,,,False,
+1570315,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Celta de Vigo II,9571,Leganes,537,,,False,
+1570312,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Burgos,9580,Eibar,545,,,False,
+1570321,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Real Sociedad II,9585,Sabadell,9593,,,False,
+1570316,2027-05-30T15:00:00+00:00,NS,Regular Season - 41,Eldense,9692,Valladolid,720,,,False,
+1570328,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Leganes,537,Real Sociedad II,9585,,,False,1464
+1570326,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Eibar,545,Girona,547,,,False,1472
+1570325,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Cordoba,713,Sporting Gijon,731,,,False,
+1570327,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Granada CF,715,Eldense,9692,,,False,
+1570329,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Oviedo,718,FC Andorra,8157,,,False,1490
+1570331,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Tenerife,719,Celta de Vigo II,9571,,,False,
+1570332,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Valladolid,720,Las Palmas,534,,,False,
+1570322,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Albacete,722,Cadiz,724,,,False,1458
+1570323,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Almeria,723,Mallorca,798,,,False,
+1570330,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,Sabadell,9593,Castellón,5254,,,False,6686
+1570324,2027-06-06T15:00:00+00:00,NS,Regular Season - 42,AD Ceuta FC,10139,Burgos,9580,,,False,3969

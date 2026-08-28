@@ -1,0 +1,381 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1608993,2026-08-21T19:00:00+00:00,FT,Girone C - 1,Bari,508,Cavese,1712,3,0,True,
+1608999,2026-08-21T19:00:00+00:00,FT,Girone C - 1,Potenza,1710,Casarano,9542,4,1,True,1832
+1608997,2026-08-21T19:00:00+00:00,FT,Girone C - 1,Giugliano,9556,Scafatese,24701,3,3,True,
+1608994,2026-08-22T19:00:00+00:00,FT,Girone C - 1,Casertana,885,Barletta,19968,3,3,True,
+1608992,2026-08-22T19:00:00+00:00,FT,Girone C - 1,Audace Cerignola,9539,Cosenza,10137,3,1,True,
+1608995,2026-08-23T16:00:00+00:00,FT,Girone C - 1,Catania,1580,Inter U23,26355,1,2,True,887
+1608998,2026-08-23T16:00:00+00:00,FT,Girone C - 1,AZ Picerno,1587,Savoia,9564,3,2,True,19789
+1608996,2026-08-24T19:00:00+00:00,FT,Girone C - 1,Crotone,501,Foggia,521,0,1,True,895
+1609000,2026-08-24T19:00:00+00:00,FT,Girone C - 1,Salernitana,514,Sorrento,9537,1,2,True,933
+1608991,2026-08-24T19:00:00+00:00,FT,Girone C - 1,Team Altamura,9549,SS Monopoli,10138,1,0,True,
+1609003,2026-08-28T19:00:00+00:00,NS,Girone C - 2,Cavese,1712,Audace Cerignola,9539,,,False,
+1609002,2026-08-28T19:00:00+00:00,NS,Girone C - 2,Casarano,9542,Giugliano,9556,,,False,6640
+1609001,2026-08-28T19:00:00+00:00,NS,Girone C - 2,Barletta,19968,Bari,508,,,False,
+1609009,2026-08-28T19:00:00+00:00,NS,Girone C - 2,Scafatese,24701,AZ Picerno,1587,,,False,
+1609005,2026-08-29T16:00:00+00:00,NS,Girone C - 2,Foggia,521,Salernitana,514,,,False,
+1609010,2026-08-29T16:00:00+00:00,NS,Girone C - 2,Sorrento,9537,Crotone,501,,,False,1832
+1609008,2026-08-29T16:00:00+00:00,NS,Girone C - 2,Savoia,9564,Casertana,885,,,False,
+1609004,2026-08-29T19:00:00+00:00,NS,Girone C - 2,Cosenza,10137,Potenza,1710,,,False,893
+1609007,2026-08-29T19:00:00+00:00,NS,Girone C - 2,SS Monopoli,10138,Catania,1580,,,False,914
+1609006,2026-08-29T19:00:00+00:00,NS,Girone C - 2,Inter U23,26355,Team Altamura,9549,,,False,
+1609015,2026-09-05T16:00:00+00:00,NS,Girone C - 3,Crotone,501,Barletta,19968,,,False,895
+1609012,2026-09-05T19:00:00+00:00,NS,Girone C - 3,Bari,508,Casarano,9542,,,False,
+1609019,2026-09-05T19:00:00+00:00,NS,Girone C - 3,Potenza,1710,SS Monopoli,10138,,,False,1832
+1609017,2026-09-05T19:00:00+00:00,NS,Girone C - 3,Giugliano,9556,Sorrento,9537,,,False,
+1609020,2026-09-06T13:00:00+00:00,NS,Girone C - 3,Salernitana,514,Cavese,1712,,,False,933
+1609011,2026-09-06T16:00:00+00:00,NS,Girone C - 3,Team Altamura,9549,Savoia,9564,,,False,
+1609016,2026-09-06T19:00:00+00:00,NS,Girone C - 3,Foggia,521,Audace Cerignola,9539,,,False,
+1609013,2026-09-06T19:00:00+00:00,NS,Girone C - 3,Casertana,885,Scafatese,24701,,,False,
+1609014,2026-09-07T18:30:00+00:00,NS,Girone C - 3,Catania,1580,Cosenza,10137,,,False,887
+1609018,2026-09-07T19:00:00+00:00,NS,Girone C - 3,AZ Picerno,1587,Inter U23,26355,,,False,19789
+1609028,2026-09-11T19:00:00+00:00,NS,Girone C - 4,Salernitana,514,Potenza,1710,,,False,933
+1609022,2026-09-11T19:00:00+00:00,NS,Girone C - 4,Audace Cerignola,9539,Giugliano,9556,,,False,
+1609023,2026-09-11T19:00:00+00:00,NS,Girone C - 4,Casarano,9542,Barletta,19968,,,False,6640
+1609021,2026-09-11T19:00:00+00:00,NS,Girone C - 4,Team Altamura,9549,Bari,508,,,False,
+1609029,2026-09-12T13:00:00+00:00,NS,Girone C - 4,Savoia,9564,Crotone,501,,,False,
+1609025,2026-09-12T13:00:00+00:00,NS,Girone C - 4,Cosenza,10137,Cavese,1712,,,False,893
+1609026,2026-09-12T13:00:00+00:00,NS,Girone C - 4,Inter U23,26355,Casertana,885,,,False,
+1609024,2026-09-12T16:00:00+00:00,NS,Girone C - 4,Catania,1580,Scafatese,24701,,,False,887
+1609030,2026-09-12T16:00:00+00:00,NS,Girone C - 4,Sorrento,9537,AZ Picerno,1587,,,False,1832
+1609027,2026-09-12T16:00:00+00:00,NS,Girone C - 4,SS Monopoli,10138,Foggia,521,,,False,914
+1609036,2026-09-15T16:30:00+00:00,NS,Girone C - 5,Crotone,501,Inter U23,26355,,,False,895
+1609034,2026-09-15T16:30:00+00:00,NS,Girone C - 5,Casertana,885,Team Altamura,9549,,,False,
+1609039,2026-09-15T16:30:00+00:00,NS,Girone C - 5,AZ Picerno,1587,Catania,1580,,,False,19789
+1609038,2026-09-15T16:30:00+00:00,NS,Girone C - 5,Giugliano,9556,Cosenza,10137,,,False,
+1609031,2026-09-15T19:00:00+00:00,NS,Girone C - 5,Bari,508,Potenza,1710,,,False,
+1609037,2026-09-15T19:00:00+00:00,NS,Girone C - 5,Foggia,521,Savoia,9564,,,False,
+1609035,2026-09-15T19:00:00+00:00,NS,Girone C - 5,Cavese,1712,Sorrento,9537,,,False,
+1609033,2026-09-15T19:00:00+00:00,NS,Girone C - 5,Casarano,9542,Audace Cerignola,9539,,,False,6640
+1609032,2026-09-15T19:00:00+00:00,NS,Girone C - 5,Barletta,19968,Salernitana,514,,,False,
+1609040,2026-09-15T19:00:00+00:00,NS,Girone C - 5,Scafatese,24701,SS Monopoli,10138,,,False,
+1609050,2026-09-19T12:30:00+00:00,NS,Girone C - 6,Sorrento,9537,Bari,508,,,False,1832
+1609044,2026-09-19T12:30:00+00:00,NS,Girone C - 6,Cosenza,10137,Scafatese,24701,,,False,893
+1609042,2026-09-19T15:30:00+00:00,NS,Girone C - 6,Audace Cerignola,9539,Casertana,885,,,False,
+1609049,2026-09-19T15:30:00+00:00,NS,Girone C - 6,Savoia,9564,Casarano,9542,,,False,
+1609048,2026-09-19T18:30:00+00:00,NS,Girone C - 6,Salernitana,514,Giugliano,9556,,,False,933
+1609043,2026-09-19T18:30:00+00:00,NS,Girone C - 6,Catania,1580,Barletta,19968,,,False,887
+1609041,2026-09-19T18:30:00+00:00,NS,Girone C - 6,Team Altamura,9549,AZ Picerno,1587,,,False,
+1609046,2026-09-20T12:30:00+00:00,NS,Girone C - 6,SS Monopoli,10138,Crotone,501,,,False,914
+1609045,2026-09-20T13:00:00+00:00,NS,Girone C - 6,Inter U23,26355,Foggia,521,,,False,
+1609047,2026-09-20T15:30:00+00:00,NS,Girone C - 6,Potenza,1710,Cavese,1712,,,False,1832
+1609056,2026-09-26T12:30:00+00:00,NS,Girone C - 7,Crotone,501,Salernitana,514,,,False,895
+1609051,2026-09-26T15:30:00+00:00,NS,Girone C - 7,Bari,508,Cosenza,10137,,,False,
+1609059,2026-09-26T15:30:00+00:00,NS,Girone C - 7,AZ Picerno,1587,Audace Cerignola,9539,,,False,19789
+1609055,2026-09-26T18:30:00+00:00,NS,Girone C - 7,Cavese,1712,Savoia,9564,,,False,
+1609054,2026-09-27T10:30:00+00:00,NS,Girone C - 7,Casertana,885,Catania,1580,,,False,
+1609052,2026-09-27T10:30:00+00:00,NS,Girone C - 7,Barletta,19968,Potenza,1710,,,False,
+1609058,2026-09-27T12:30:00+00:00,NS,Girone C - 7,Giugliano,9556,Inter U23,26355,,,False,
+1609060,2026-09-27T15:30:00+00:00,NS,Girone C - 7,Scafatese,24701,Team Altamura,9549,,,False,
+1609057,2026-09-27T18:30:00+00:00,NS,Girone C - 7,Foggia,521,Sorrento,9537,,,False,
+1609053,2026-09-27T18:30:00+00:00,NS,Girone C - 7,Casarano,9542,SS Monopoli,10138,,,False,6640
+1609063,2026-10-03T12:30:00+00:00,NS,Girone C - 8,Cavese,1712,Casertana,885,,,False,
+1609070,2026-10-03T12:30:00+00:00,NS,Girone C - 8,Sorrento,9537,Casarano,9542,,,False,1832
+1609065,2026-10-03T15:30:00+00:00,NS,Girone C - 8,Giugliano,9556,Barletta,19968,,,False,
+1609066,2026-10-03T15:30:00+00:00,NS,Girone C - 8,Inter U23,26355,Scafatese,24701,,,False,
+1609062,2026-10-03T18:30:00+00:00,NS,Girone C - 8,Catania,1580,Crotone,501,,,False,887
+1609064,2026-10-04T12:30:00+00:00,NS,Girone C - 8,Cosenza,10137,Foggia,521,,,False,893
+1609067,2026-10-04T15:30:00+00:00,NS,Girone C - 8,SS Monopoli,10138,Savoia,9564,,,False,914
+1609069,2026-10-04T18:30:00+00:00,NS,Girone C - 8,Salernitana,514,Bari,508,,,False,933
+1609068,2026-10-04T18:30:00+00:00,NS,Girone C - 8,Potenza,1710,AZ Picerno,1587,,,False,1832
+1609061,2026-10-04T18:30:00+00:00,NS,Girone C - 8,Audace Cerignola,9539,Team Altamura,9549,,,False,
+1609076,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Crotone,501,Audace Cerignola,9539,,,False,895
+1609072,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Bari,508,Giugliano,9556,,,False,
+1609077,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Foggia,521,Potenza,1710,,,False,
+1609075,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Casertana,885,SS Monopoli,10138,,,False,
+1609078,2026-10-11T16:00:00+00:00,NS,Girone C - 9,AZ Picerno,1587,Cosenza,10137,,,False,19789
+1609074,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Casarano,9542,Salernitana,514,,,False,6640
+1609071,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Team Altamura,9549,Catania,1580,,,False,
+1609079,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Savoia,9564,Inter U23,26355,,,False,
+1609073,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Barletta,19968,Cavese,1712,,,False,
+1609080,2026-10-11T16:00:00+00:00,NS,Girone C - 9,Scafatese,24701,Sorrento,9537,,,False,
+1609082,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Bari,508,Crotone,501,,,False,
+1609089,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Salernitana,514,Scafatese,24701,,,False,933
+1609088,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Potenza,1710,Catania,1580,,,False,1832
+1609084,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Cavese,1712,Casarano,9542,,,False,
+1609090,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Sorrento,9537,Casertana,885,,,False,1832
+1609081,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Audace Cerignola,9539,Savoia,9564,,,False,
+1609086,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Giugliano,9556,Foggia,521,,,False,
+1609085,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Cosenza,10137,Team Altamura,9549,,,False,893
+1609083,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Barletta,19968,AZ Picerno,1587,,,False,
+1609087,2026-10-18T16:00:00+00:00,NS,Girone C - 10,Inter U23,26355,SS Monopoli,10138,,,False,
+1609094,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Crotone,501,Casarano,9542,,,False,895
+1609095,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Foggia,521,Cavese,1712,,,False,
+1609092,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Casertana,885,Bari,508,,,False,
+1609093,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Catania,1580,Giugliano,9556,,,False,887
+1609098,2026-10-25T17:00:00+00:00,NS,Girone C - 11,AZ Picerno,1587,Salernitana,514,,,False,19789
+1609091,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Team Altamura,9549,Potenza,1710,,,False,
+1609099,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Savoia,9564,Cosenza,10137,,,False,
+1609097,2026-10-25T17:00:00+00:00,NS,Girone C - 11,SS Monopoli,10138,Audace Cerignola,9539,,,False,914
+1609100,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Scafatese,24701,Barletta,19968,,,False,
+1609096,2026-10-25T17:00:00+00:00,NS,Girone C - 11,Inter U23,26355,Sorrento,9537,,,False,
+1609102,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Bari,508,Scafatese,24701,,,False,
+1609109,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Salernitana,514,Savoia,9564,,,False,933
+1609108,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Potenza,1710,Crotone,501,,,False,1832
+1609105,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Cavese,1712,AZ Picerno,1587,,,False,
+1609110,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Sorrento,9537,Team Altamura,9549,,,False,1832
+1609101,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Audace Cerignola,9539,Catania,1580,,,False,
+1609104,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Casarano,9542,Foggia,521,,,False,6640
+1609107,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Giugliano,9556,Casertana,885,,,False,
+1609106,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Cosenza,10137,Inter U23,26355,,,False,893
+1609103,2026-11-01T17:00:00+00:00,NS,Girone C - 12,Barletta,19968,SS Monopoli,10138,,,False,
+1609114,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Crotone,501,Giugliano,9556,,,False,895
+1609115,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Foggia,521,Barletta,19968,,,False,
+1609112,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Casertana,885,Casarano,9542,,,False,
+1609113,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Catania,1580,Sorrento,9537,,,False,887
+1609118,2026-11-08T17:00:00+00:00,NS,Girone C - 13,AZ Picerno,1587,Bari,508,,,False,19789
+1609111,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Team Altamura,9549,Cavese,1712,,,False,
+1609119,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Savoia,9564,Potenza,1710,,,False,
+1609117,2026-11-08T17:00:00+00:00,NS,Girone C - 13,SS Monopoli,10138,Cosenza,10137,,,False,914
+1609120,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Scafatese,24701,Audace Cerignola,9539,,,False,
+1609116,2026-11-08T17:00:00+00:00,NS,Girone C - 13,Inter U23,26355,Salernitana,514,,,False,
+1609122,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Bari,508,Foggia,521,,,False,
+1609129,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Salernitana,514,Catania,1580,,,False,933
+1609128,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Potenza,1710,Scafatese,24701,,,False,1832
+1609125,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Cavese,1712,Crotone,501,,,False,
+1609130,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Sorrento,9537,SS Monopoli,10138,,,False,1832
+1609121,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Audace Cerignola,9539,Inter U23,26355,,,False,
+1609124,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Casarano,9542,AZ Picerno,1587,,,False,6640
+1609127,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Giugliano,9556,Savoia,9564,,,False,
+1609126,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Cosenza,10137,Casertana,885,,,False,893
+1609123,2026-11-15T17:00:00+00:00,NS,Girone C - 14,Barletta,19968,Team Altamura,9549,,,False,
+1609135,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Crotone,501,Cosenza,10137,,,False,895
+1609133,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Casertana,885,Salernitana,514,,,False,
+1609134,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Catania,1580,Bari,508,,,False,887
+1609138,2026-11-22T17:00:00+00:00,NS,Girone C - 15,AZ Picerno,1587,Giugliano,9556,,,False,19789
+1609132,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Audace Cerignola,9539,Barletta,19968,,,False,
+1609131,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Team Altamura,9549,Casarano,9542,,,False,
+1609139,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Savoia,9564,Sorrento,9537,,,False,
+1609137,2026-11-22T17:00:00+00:00,NS,Girone C - 15,SS Monopoli,10138,Cavese,1712,,,False,914
+1609140,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Scafatese,24701,Foggia,521,,,False,
+1609136,2026-11-22T17:00:00+00:00,NS,Girone C - 15,Inter U23,26355,Potenza,1710,,,False,
+1609145,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Crotone,501,AZ Picerno,1587,,,False,895
+1609141,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Bari,508,Savoia,9564,,,False,
+1609149,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Salernitana,514,SS Monopoli,10138,,,False,933
+1609146,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Foggia,521,Casertana,885,,,False,
+1609148,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Potenza,1710,Audace Cerignola,9539,,,False,1832
+1609144,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Cavese,1712,Scafatese,24701,,,False,
+1609150,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Sorrento,9537,Cosenza,10137,,,False,1832
+1609143,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Casarano,9542,Catania,1580,,,False,6640
+1609147,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Giugliano,9556,Team Altamura,9549,,,False,
+1609142,2026-11-29T17:00:00+00:00,NS,Girone C - 16,Barletta,19968,Inter U23,26355,,,False,
+1609153,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Casertana,885,Potenza,1710,,,False,
+1609154,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Catania,1580,Cavese,1712,,,False,887
+1609158,2026-12-06T17:00:00+00:00,NS,Girone C - 17,AZ Picerno,1587,Foggia,521,,,False,19789
+1609152,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Audace Cerignola,9539,Sorrento,9537,,,False,
+1609151,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Team Altamura,9549,Crotone,501,,,False,
+1609159,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Savoia,9564,Barletta,19968,,,False,
+1609155,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Cosenza,10137,Salernitana,514,,,False,893
+1609157,2026-12-06T17:00:00+00:00,NS,Girone C - 17,SS Monopoli,10138,Giugliano,9556,,,False,914
+1609160,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Scafatese,24701,Casarano,9542,,,False,
+1609156,2026-12-06T17:00:00+00:00,NS,Girone C - 17,Inter U23,26355,Bari,508,,,False,
+1609165,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Crotone,501,Scafatese,24701,,,False,895
+1609161,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Bari,508,SS Monopoli,10138,,,False,
+1609169,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Salernitana,514,Audace Cerignola,9539,,,False,933
+1609166,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Foggia,521,Team Altamura,9549,,,False,
+1609167,2026-12-13T17:00:00+00:00,NS,Girone C - 18,AZ Picerno,1587,Casertana,885,,,False,19789
+1609168,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Potenza,1710,Giugliano,9556,,,False,1832
+1609164,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Cavese,1712,Inter U23,26355,,,False,
+1609163,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Casarano,9542,Cosenza,10137,,,False,6640
+1609170,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Savoia,9564,Catania,1580,,,False,
+1609162,2026-12-13T17:00:00+00:00,NS,Girone C - 18,Barletta,19968,Sorrento,9537,,,False,
+1609173,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Casertana,885,Crotone,501,,,False,
+1609174,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Catania,1580,Foggia,521,,,False,887
+1609180,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Sorrento,9537,Potenza,1710,,,False,1832
+1609172,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Audace Cerignola,9539,Bari,508,,,False,
+1609171,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Team Altamura,9549,Salernitana,514,,,False,
+1609176,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Giugliano,9556,Cavese,1712,,,False,
+1609175,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Cosenza,10137,Barletta,19968,,,False,893
+1609178,2026-12-20T17:00:00+00:00,NS,Girone C - 19,SS Monopoli,10138,AZ Picerno,1587,,,False,914
+1609179,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Scafatese,24701,Savoia,9564,,,False,
+1609177,2026-12-20T17:00:00+00:00,NS,Girone C - 19,Inter U23,26355,Casarano,9542,,,False,
+1609185,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Foggia,521,Crotone,501,,,False,
+1609183,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Cavese,1712,Bari,508,,,False,
+1609190,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Sorrento,9537,Salernitana,514,,,False,1832
+1609182,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Casarano,9542,Potenza,1710,,,False,6640
+1609188,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Savoia,9564,AZ Picerno,1587,,,False,
+1609184,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Cosenza,10137,Audace Cerignola,9539,,,False,893
+1609187,2027-01-03T17:00:00+00:00,NS,Girone C - 20,SS Monopoli,10138,Team Altamura,9549,,,False,914
+1609181,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Barletta,19968,Casertana,885,,,False,
+1609189,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Scafatese,24701,Giugliano,9556,,,False,
+1609186,2027-01-03T17:00:00+00:00,NS,Girone C - 20,Inter U23,26355,Catania,1580,,,False,
+1609196,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Crotone,501,Sorrento,9537,,,False,895
+1609193,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Bari,508,Barletta,19968,,,False,
+1609200,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Salernitana,514,Foggia,521,,,False,933
+1609194,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Casertana,885,Savoia,9564,,,False,
+1609195,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Catania,1580,SS Monopoli,10138,,,False,887
+1609198,2027-01-10T17:00:00+00:00,NS,Girone C - 21,AZ Picerno,1587,Scafatese,24701,,,False,19789
+1609199,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Potenza,1710,Cosenza,10137,,,False,1832
+1609192,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Audace Cerignola,9539,Cavese,1712,,,False,
+1609191,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Team Altamura,9549,Inter U23,26355,,,False,
+1609197,2027-01-10T17:00:00+00:00,NS,Girone C - 21,Giugliano,9556,Casarano,9542,,,False,
+1609204,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Cavese,1712,Salernitana,514,,,False,
+1609210,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Sorrento,9537,Giugliano,9556,,,False,1832
+1609201,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Audace Cerignola,9539,Foggia,521,,,False,
+1609203,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Casarano,9542,Bari,508,,,False,6640
+1609208,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Savoia,9564,Team Altamura,9549,,,False,
+1609205,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Cosenza,10137,Catania,1580,,,False,893
+1609207,2027-01-17T17:00:00+00:00,NS,Girone C - 22,SS Monopoli,10138,Potenza,1710,,,False,914
+1609202,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Barletta,19968,Crotone,501,,,False,
+1609209,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Scafatese,24701,Casertana,885,,,False,
+1609206,2027-01-17T17:00:00+00:00,NS,Girone C - 22,Inter U23,26355,AZ Picerno,1587,,,False,
+1609215,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Crotone,501,Savoia,9564,,,False,895
+1609211,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Bari,508,Team Altamura,9549,,,False,
+1609216,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Foggia,521,SS Monopoli,10138,,,False,
+1609213,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Casertana,885,Inter U23,26355,,,False,
+1609218,2027-01-24T17:00:00+00:00,NS,Girone C - 23,AZ Picerno,1587,Sorrento,9537,,,False,19789
+1609219,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Potenza,1710,Salernitana,514,,,False,1832
+1609214,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Cavese,1712,Cosenza,10137,,,False,
+1609217,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Giugliano,9556,Audace Cerignola,9539,,,False,
+1609212,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Barletta,19968,Casarano,9542,,,False,
+1609220,2027-01-24T17:00:00+00:00,NS,Girone C - 23,Scafatese,24701,Catania,1580,,,False,
+1609228,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Salernitana,514,Barletta,19968,,,False,933
+1609223,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Catania,1580,AZ Picerno,1587,,,False,887
+1609227,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Potenza,1710,Bari,508,,,False,1832
+1609230,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Sorrento,9537,Cavese,1712,,,False,1832
+1609222,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Audace Cerignola,9539,Casarano,9542,,,False,
+1609221,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Team Altamura,9549,Casertana,885,,,False,
+1609229,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Savoia,9564,Foggia,521,,,False,
+1609224,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Cosenza,10137,Giugliano,9556,,,False,893
+1609226,2027-01-31T17:00:00+00:00,NS,Girone C - 24,SS Monopoli,10138,Scafatese,24701,,,False,914
+1609225,2027-01-31T17:00:00+00:00,NS,Girone C - 24,Inter U23,26355,Crotone,501,,,False,
+1609236,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Crotone,501,SS Monopoli,10138,,,False,895
+1609231,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Bari,508,Sorrento,9537,,,False,
+1609237,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Foggia,521,Inter U23,26355,,,False,
+1609234,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Casertana,885,Audace Cerignola,9539,,,False,
+1609239,2027-02-07T17:00:00+00:00,NS,Girone C - 25,AZ Picerno,1587,Team Altamura,9549,,,False,19789
+1609235,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Cavese,1712,Potenza,1710,,,False,
+1609233,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Casarano,9542,Savoia,9564,,,False,6640
+1609238,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Giugliano,9556,Salernitana,514,,,False,
+1609232,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Barletta,19968,Catania,1580,,,False,
+1609240,2027-02-07T17:00:00+00:00,NS,Girone C - 25,Scafatese,24701,Cosenza,10137,,,False,
+1609248,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Salernitana,514,Crotone,501,,,False,933
+1609243,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Catania,1580,Casertana,885,,,False,887
+1609247,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Potenza,1710,Barletta,19968,,,False,1832
+1609250,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Sorrento,9537,Foggia,521,,,False,1832
+1609242,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Audace Cerignola,9539,AZ Picerno,1587,,,False,
+1609241,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Team Altamura,9549,Scafatese,24701,,,False,
+1609249,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Savoia,9564,Cavese,1712,,,False,
+1609244,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Cosenza,10137,Bari,508,,,False,893
+1609246,2027-02-10T19:45:00+00:00,NS,Girone C - 26,SS Monopoli,10138,Casarano,9542,,,False,914
+1609245,2027-02-10T19:45:00+00:00,NS,Girone C - 26,Inter U23,26355,Giugliano,9556,,,False,
+1609256,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Crotone,501,Catania,1580,,,False,895
+1609252,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Bari,508,Salernitana,514,,,False,
+1609257,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Foggia,521,Cosenza,10137,,,False,
+1609255,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Casertana,885,Cavese,1712,,,False,
+1609258,2027-02-14T17:00:00+00:00,NS,Girone C - 27,AZ Picerno,1587,Potenza,1710,,,False,19789
+1609254,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Casarano,9542,Sorrento,9537,,,False,6640
+1609251,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Team Altamura,9549,Audace Cerignola,9539,,,False,
+1609259,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Savoia,9564,SS Monopoli,10138,,,False,
+1609253,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Barletta,19968,Giugliano,9556,,,False,
+1609260,2027-02-14T17:00:00+00:00,NS,Girone C - 27,Scafatese,24701,Inter U23,26355,,,False,
+1609269,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Salernitana,514,Casarano,9542,,,False,933
+1609262,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Catania,1580,Team Altamura,9549,,,False,887
+1609268,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Potenza,1710,Foggia,521,,,False,1832
+1609263,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Cavese,1712,Barletta,19968,,,False,
+1609270,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Sorrento,9537,Scafatese,24701,,,False,1832
+1609261,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Audace Cerignola,9539,Crotone,501,,,False,
+1609265,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Giugliano,9556,Bari,508,,,False,
+1609264,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Cosenza,10137,AZ Picerno,1587,,,False,893
+1609267,2027-02-21T17:00:00+00:00,NS,Girone C - 28,SS Monopoli,10138,Casertana,885,,,False,914
+1609266,2027-02-21T17:00:00+00:00,NS,Girone C - 28,Inter U23,26355,Savoia,9564,,,False,
+1609275,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Crotone,501,Bari,508,,,False,895
+1609276,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Foggia,521,Giugliano,9556,,,False,
+1609273,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Casertana,885,Sorrento,9537,,,False,
+1609274,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Catania,1580,Potenza,1710,,,False,887
+1609278,2027-02-28T17:00:00+00:00,NS,Girone C - 29,AZ Picerno,1587,Barletta,19968,,,False,19789
+1609272,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Casarano,9542,Cavese,1712,,,False,6640
+1609271,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Team Altamura,9549,Cosenza,10137,,,False,
+1609279,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Savoia,9564,Audace Cerignola,9539,,,False,
+1609277,2027-02-28T17:00:00+00:00,NS,Girone C - 29,SS Monopoli,10138,Inter U23,26355,,,False,914
+1609280,2027-02-28T17:00:00+00:00,NS,Girone C - 29,Scafatese,24701,Salernitana,514,,,False,
+1609282,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Bari,508,Casertana,885,,,False,
+1609289,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Salernitana,514,AZ Picerno,1587,,,False,933
+1609288,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Potenza,1710,Team Altamura,9549,,,False,1832
+1609285,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Cavese,1712,Foggia,521,,,False,
+1609290,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Sorrento,9537,Inter U23,26355,,,False,1832
+1609281,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Audace Cerignola,9539,SS Monopoli,10138,,,False,
+1609284,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Casarano,9542,Crotone,501,,,False,6640
+1609287,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Giugliano,9556,Catania,1580,,,False,
+1609286,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Cosenza,10137,Savoia,9564,,,False,893
+1609283,2027-03-03T19:45:00+00:00,NS,Girone C - 30,Barletta,19968,Scafatese,24701,,,False,
+1609294,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Crotone,501,Potenza,1710,,,False,895
+1609295,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Foggia,521,Casarano,9542,,,False,
+1609292,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Casertana,885,Giugliano,9556,,,False,
+1609293,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Catania,1580,Audace Cerignola,9539,,,False,887
+1609298,2027-03-07T17:00:00+00:00,NS,Girone C - 31,AZ Picerno,1587,Cavese,1712,,,False,19789
+1609291,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Team Altamura,9549,Sorrento,9537,,,False,
+1609299,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Savoia,9564,Salernitana,514,,,False,
+1609297,2027-03-07T17:00:00+00:00,NS,Girone C - 31,SS Monopoli,10138,Barletta,19968,,,False,914
+1609300,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Scafatese,24701,Bari,508,,,False,
+1609296,2027-03-07T17:00:00+00:00,NS,Girone C - 31,Inter U23,26355,Cosenza,10137,,,False,
+1609302,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Bari,508,AZ Picerno,1587,,,False,
+1609309,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Salernitana,514,Inter U23,26355,,,False,933
+1609308,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Potenza,1710,Savoia,9564,,,False,1832
+1609305,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Cavese,1712,Team Altamura,9549,,,False,
+1609310,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Sorrento,9537,Catania,1580,,,False,1832
+1609301,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Audace Cerignola,9539,Scafatese,24701,,,False,
+1609304,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Casarano,9542,Casertana,885,,,False,6640
+1609307,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Giugliano,9556,Crotone,501,,,False,
+1609306,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Cosenza,10137,SS Monopoli,10138,,,False,893
+1609303,2027-03-14T17:00:00+00:00,NS,Girone C - 32,Barletta,19968,Foggia,521,,,False,
+1609314,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Crotone,501,Cavese,1712,,,False,895
+1609315,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Foggia,521,Bari,508,,,False,
+1609312,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Casertana,885,Cosenza,10137,,,False,
+1609313,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Catania,1580,Salernitana,514,,,False,887
+1609318,2027-03-21T17:00:00+00:00,NS,Girone C - 33,AZ Picerno,1587,Casarano,9542,,,False,19789
+1609311,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Team Altamura,9549,Barletta,19968,,,False,
+1609319,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Savoia,9564,Giugliano,9556,,,False,
+1609317,2027-03-21T17:00:00+00:00,NS,Girone C - 33,SS Monopoli,10138,Sorrento,9537,,,False,914
+1609320,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Scafatese,24701,Potenza,1710,,,False,
+1609316,2027-03-21T17:00:00+00:00,NS,Girone C - 33,Inter U23,26355,Audace Cerignola,9539,,,False,
+1609321,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Bari,508,Catania,1580,,,False,
+1609329,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Salernitana,514,Casertana,885,,,False,933
+1609326,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Foggia,521,Scafatese,24701,,,False,
+1609328,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Potenza,1710,Inter U23,26355,,,False,1832
+1609324,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Cavese,1712,SS Monopoli,10138,,,False,
+1609330,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Sorrento,9537,Savoia,9564,,,False,1832
+1609323,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Casarano,9542,Team Altamura,9549,,,False,6640
+1609327,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Giugliano,9556,AZ Picerno,1587,,,False,
+1609325,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Cosenza,10137,Crotone,501,,,False,893
+1609322,2027-03-27T17:00:00+00:00,NS,Girone C - 34,Barletta,19968,Audace Cerignola,9539,,,False,
+1609333,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Casertana,885,Foggia,521,,,False,
+1609334,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Catania,1580,Casarano,9542,,,False,887
+1609338,2027-04-04T16:00:00+00:00,NS,Girone C - 35,AZ Picerno,1587,Crotone,501,,,False,19789
+1609332,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Audace Cerignola,9539,Potenza,1710,,,False,
+1609331,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Team Altamura,9549,Giugliano,9556,,,False,
+1609339,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Savoia,9564,Bari,508,,,False,
+1609335,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Cosenza,10137,Sorrento,9537,,,False,893
+1609337,2027-04-04T16:00:00+00:00,NS,Girone C - 35,SS Monopoli,10138,Salernitana,514,,,False,914
+1609340,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Scafatese,24701,Cavese,1712,,,False,
+1609336,2027-04-04T16:00:00+00:00,NS,Girone C - 35,Inter U23,26355,Barletta,19968,,,False,
+1609345,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Crotone,501,Team Altamura,9549,,,False,895
+1609341,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Bari,508,Inter U23,26355,,,False,
+1609349,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Salernitana,514,Cosenza,10137,,,False,933
+1609346,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Foggia,521,AZ Picerno,1587,,,False,
+1609348,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Potenza,1710,Casertana,885,,,False,1832
+1609344,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Cavese,1712,Catania,1580,,,False,
+1609350,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Sorrento,9537,Audace Cerignola,9539,,,False,1832
+1609343,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Casarano,9542,Scafatese,24701,,,False,6640
+1609347,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Giugliano,9556,SS Monopoli,10138,,,False,
+1609342,2027-04-11T16:00:00+00:00,NS,Girone C - 36,Barletta,19968,Savoia,9564,,,False,
+1609353,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Casertana,885,AZ Picerno,1587,,,False,
+1609354,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Catania,1580,Savoia,9564,,,False,887
+1609360,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Sorrento,9537,Barletta,19968,,,False,1832
+1609352,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Audace Cerignola,9539,Salernitana,514,,,False,
+1609351,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Team Altamura,9549,Foggia,521,,,False,
+1609356,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Giugliano,9556,Potenza,1710,,,False,
+1609355,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Cosenza,10137,Casarano,9542,,,False,893
+1609358,2027-04-18T16:00:00+00:00,NS,Girone C - 37,SS Monopoli,10138,Bari,508,,,False,914
+1609359,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Scafatese,24701,Crotone,501,,,False,
+1609357,2027-04-18T16:00:00+00:00,NS,Girone C - 37,Inter U23,26355,Cavese,1712,,,False,
+1609365,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Crotone,501,Casertana,885,,,False,895
+1609361,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Bari,508,Audace Cerignola,9539,,,False,
+1609369,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Salernitana,514,Team Altamura,9549,,,False,933
+1609366,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Foggia,521,Catania,1580,,,False,
+1609367,2027-04-25T16:00:00+00:00,NS,Girone C - 38,AZ Picerno,1587,SS Monopoli,10138,,,False,19789
+1609368,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Potenza,1710,Sorrento,9537,,,False,1832
+1609364,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Cavese,1712,Giugliano,9556,,,False,
+1609363,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Casarano,9542,Inter U23,26355,,,False,6640
+1609370,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Savoia,9564,Scafatese,24701,,,False,
+1609362,2027-04-25T16:00:00+00:00,NS,Girone C - 38,Barletta,19968,Cosenza,10137,,,False,

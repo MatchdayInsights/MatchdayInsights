@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1560204,2026-07-24T18:00:00+00:00,FT,Regular Season - 1,Nyiregyhaza,2403,Ujpest,2255,2,1,True,
 1560202,2026-07-25T17:30:00+00:00,FT,Regular Season - 1,Kisvarda FC,2394,Budapest Honved,576,1,1,True,
 1560206,2026-07-26T13:45:00+00:00,FT,Regular Season - 1,Vasas,675,Gyori ETO FC,2402,2,2,True,817
@@ -11,36 +11,35 @@
 1560207,2026-08-02T15:30:00+00:00,FT,Regular Season - 2,Ferencvarosi TC,651,Vasas,675,0,0,True,799
 1560208,2026-08-02T15:30:00+00:00,FT,Regular Season - 2,Gyori ETO FC,2402,Nyiregyhaza,2403,4,0,True,
 1560212,2026-08-03T15:30:00+00:00,FT,Regular Season - 2,Zalaegerszegi TE,2414,Paks,2390,5,2,True,
-1560214,2026-08-08T15:00:00+00:00,PST,Regular Season - 3,Gyori ETO FC,2402,Ferencvarosi TC,651,,,False,
-1560216,2026-08-07T15:30:00+00:00,NS,Regular Season - 3,MTK Budapest,2396,Puskas Academy,2391,,,False,
-1560218,2026-08-08T13:30:00+00:00,NS,Regular Season - 3,Vasas,675,Zalaegerszegi TE,2414,,,False,817
-1560215,2026-08-08T15:30:00+00:00,NS,Regular Season - 3,Kisvarda FC,2394,Ujpest,2255,,,False,
-1560217,2026-08-09T13:30:00+00:00,NS,Regular Season - 3,Paks,2390,Budapest Honved,576,,,False,
-1560213,2026-08-09T15:30:00+00:00,NS,Regular Season - 3,Debreceni VSC,2392,Nyiregyhaza,2403,,,False,795
-1560220,2026-08-15T15:00:00+00:00,NS,Regular Season - 4,Budapest Honved,576,Vasas,675,,,False,11902
-1560223,2026-08-15T15:00:00+00:00,NS,Regular Season - 4,Ujpest,2255,MTK Budapest,2396,,,False,814
-1560222,2026-08-15T15:00:00+00:00,NS,Regular Season - 4,Puskas Academy,2391,Paks,2390,,,False,
-1560219,2026-08-15T15:00:00+00:00,NS,Regular Season - 4,Debreceni VSC,2392,Gyori ETO FC,2402,,,False,795
-1560221,2026-08-15T15:00:00+00:00,NS,Regular Season - 4,Nyiregyhaza,2403,Kisvarda FC,2394,,,False,
-1560224,2026-08-15T15:00:00+00:00,NS,Regular Season - 4,Zalaegerszegi TE,2414,Ferencvarosi TC,651,,,False,
-1560225,2026-08-22T15:00:00+00:00,NS,Regular Season - 5,Ferencvarosi TC,651,Budapest Honved,576,,,False,799
-1560230,2026-08-22T15:00:00+00:00,NS,Regular Season - 5,Vasas,675,Puskas Academy,2391,,,False,817
-1560229,2026-08-22T15:00:00+00:00,NS,Regular Season - 5,Paks,2390,Ujpest,2255,,,False,
-1560227,2026-08-22T15:00:00+00:00,NS,Regular Season - 5,Kisvarda FC,2394,Debreceni VSC,2392,,,False,
-1560228,2026-08-22T15:00:00+00:00,NS,Regular Season - 5,MTK Budapest,2396,Nyiregyhaza,2403,,,False,
-1560226,2026-08-22T15:00:00+00:00,NS,Regular Season - 5,Gyori ETO FC,2402,Zalaegerszegi TE,2414,,,False,
+1560216,2026-08-07T15:30:00+00:00,FT,Regular Season - 3,MTK Budapest,2396,Puskas Academy,2391,2,3,True,
+1560218,2026-08-08T13:30:00+00:00,FT,Regular Season - 3,Vasas,675,Zalaegerszegi TE,2414,5,0,True,817
+1560215,2026-08-08T15:30:00+00:00,FT,Regular Season - 3,Kisvarda FC,2394,Ujpest,2255,2,4,True,
+1560217,2026-08-09T13:30:00+00:00,FT,Regular Season - 3,Paks,2390,Budapest Honved,576,2,2,True,
+1560213,2026-08-09T15:30:00+00:00,FT,Regular Season - 3,Debreceni VSC,2392,Nyiregyhaza,2403,1,0,True,795
+1560220,2026-08-14T15:30:00+00:00,FT,Regular Season - 4,Budapest Honved,576,Vasas,675,1,2,True,11902
+1560223,2026-08-15T14:30:00+00:00,FT,Regular Season - 4,Ujpest,2255,MTK Budapest,2396,1,1,True,814
+1560221,2026-08-15T15:30:00+00:00,FT,Regular Season - 4,Nyiregyhaza,2403,Kisvarda FC,2394,2,1,True,
+1560219,2026-08-16T14:30:00+00:00,FT,Regular Season - 4,Debreceni VSC,2392,Gyori ETO FC,2402,1,1,True,795
+1560222,2026-08-16T15:30:00+00:00,FT,Regular Season - 4,Puskas Academy,2391,Paks,2390,3,2,True,
+1560224,2026-08-17T15:30:00+00:00,FT,Regular Season - 4,Zalaegerszegi TE,2414,Ferencvarosi TC,651,0,1,True,818
+1560229,2026-08-21T15:30:00+00:00,FT,Regular Season - 5,Paks,2390,Ujpest,2255,2,0,True,
+1560230,2026-08-22T13:30:00+00:00,FT,Regular Season - 5,Vasas,675,Puskas Academy,2391,0,1,True,817
+1560228,2026-08-22T15:30:00+00:00,FT,Regular Season - 5,MTK Budapest,2396,Nyiregyhaza,2403,2,1,True,
+1560227,2026-08-23T15:30:00+00:00,FT,Regular Season - 5,Kisvarda FC,2394,Debreceni VSC,2392,0,0,True,
+1560226,2026-08-23T15:30:00+00:00,FT,Regular Season - 5,Gyori ETO FC,2402,Zalaegerszegi TE,2414,3,0,True,
+1560231,2026-08-28T18:00:00+00:00,NS,Regular Season - 6,Debreceni VSC,2392,MTK Budapest,2396,,,False,795
+1560234,2026-08-29T12:45:00+00:00,NS,Regular Season - 6,Nyiregyhaza,2403,Paks,2390,,,False,
 1560232,2026-08-29T15:00:00+00:00,NS,Regular Season - 6,Budapest Honved,576,Zalaegerszegi TE,2414,,,False,11902
-1560236,2026-08-29T15:00:00+00:00,NS,Regular Season - 6,Ujpest,2255,Vasas,675,,,False,814
-1560235,2026-08-29T15:00:00+00:00,NS,Regular Season - 6,Puskas Academy,2391,Ferencvarosi TC,651,,,False,
-1560231,2026-08-29T15:00:00+00:00,NS,Regular Season - 6,Debreceni VSC,2392,MTK Budapest,2396,,,False,795
-1560233,2026-08-29T15:00:00+00:00,NS,Regular Season - 6,Kisvarda FC,2394,Gyori ETO FC,2402,,,False,
-1560234,2026-08-29T15:00:00+00:00,NS,Regular Season - 6,Nyiregyhaza,2403,Paks,2390,,,False,
-1560237,2026-09-05T15:00:00+00:00,NS,Regular Season - 7,Ferencvarosi TC,651,Ujpest,2255,,,False,799
-1560241,2026-09-05T15:00:00+00:00,NS,Regular Season - 7,Vasas,675,Nyiregyhaza,2403,,,False,817
-1560240,2026-09-05T15:00:00+00:00,NS,Regular Season - 7,Paks,2390,Debreceni VSC,2392,,,False,
-1560239,2026-09-05T15:00:00+00:00,NS,Regular Season - 7,MTK Budapest,2396,Kisvarda FC,2394,,,False,
-1560238,2026-09-05T15:00:00+00:00,NS,Regular Season - 7,Gyori ETO FC,2402,Budapest Honved,576,,,False,
-1560242,2026-09-05T15:00:00+00:00,NS,Regular Season - 7,Zalaegerszegi TE,2414,Puskas Academy,2391,,,False,
+1560236,2026-08-29T17:30:00+00:00,NS,Regular Season - 6,Ujpest,2255,Vasas,675,,,False,814
+1560233,2026-08-30T14:30:00+00:00,NS,Regular Season - 6,Kisvarda FC,2394,Gyori ETO FC,2402,,,False,
+1560235,2026-08-30T17:00:00+00:00,NS,Regular Season - 6,Puskas Academy,2391,Ferencvarosi TC,651,,,False,
+1560214,2026-09-03T17:30:00+00:00,NS,Regular Season - 3,Gyori ETO FC,2402,Ferencvarosi TC,651,,,False,
+1560241,2026-09-04T16:30:00+00:00,NS,Regular Season - 7,Vasas,675,Nyiregyhaza,2403,,,False,817
+1560239,2026-09-05T15:30:00+00:00,NS,Regular Season - 7,MTK Budapest,2396,Kisvarda FC,2394,,,False,
+1560240,2026-09-05T18:00:00+00:00,NS,Regular Season - 7,Paks,2390,Debreceni VSC,2392,,,False,
+1560242,2026-09-06T13:30:00+00:00,NS,Regular Season - 7,Zalaegerszegi TE,2414,Puskas Academy,2391,,,False,
+1560237,2026-09-06T15:45:00+00:00,NS,Regular Season - 7,Ferencvarosi TC,651,Ujpest,2255,,,False,799
+1560238,2026-09-06T18:00:00+00:00,NS,Regular Season - 7,Gyori ETO FC,2402,Budapest Honved,576,,,False,
 1560248,2026-09-19T15:00:00+00:00,NS,Regular Season - 8,Ujpest,2255,Zalaegerszegi TE,2414,,,False,814
 1560247,2026-09-19T15:00:00+00:00,NS,Regular Season - 8,Puskas Academy,2391,Budapest Honved,576,,,False,
 1560243,2026-09-19T15:00:00+00:00,NS,Regular Season - 8,Debreceni VSC,2392,Vasas,675,,,False,795
@@ -89,6 +88,7 @@
 1560287,2026-11-28T16:00:00+00:00,NS,Regular Season - 15,Kisvarda FC,2394,Nyiregyhaza,2403,,,False,
 1560288,2026-11-28T16:00:00+00:00,NS,Regular Season - 15,MTK Budapest,2396,Ujpest,2255,,,False,
 1560286,2026-11-28T16:00:00+00:00,NS,Regular Season - 15,Gyori ETO FC,2402,Debreceni VSC,2392,,,False,
+1560225,2026-12-02T18:00:00+00:00,NS,Regular Season - 5,Ferencvarosi TC,651,Budapest Honved,576,,,False,799
 1560292,2026-12-05T16:00:00+00:00,NS,Regular Season - 16,Budapest Honved,576,Ferencvarosi TC,651,,,False,11902
 1560295,2026-12-05T16:00:00+00:00,NS,Regular Season - 16,Ujpest,2255,Paks,2390,,,False,814
 1560294,2026-12-05T16:00:00+00:00,NS,Regular Season - 16,Puskas Academy,2391,Vasas,675,,,False,

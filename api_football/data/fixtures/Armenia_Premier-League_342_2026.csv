@@ -1,52 +1,52 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1581490,2026-07-31T12:00:00+00:00,FT,Regular Season - 1,Van,6286,Sardarapat,26198,1,4,True,4655
 1581486,2026-08-01T14:00:00+00:00,FT,Regular Season - 1,BKMA,6279,Shirak,3686,0,0,True,
 1581487,2026-08-01T16:00:00+00:00,FT,Regular Season - 1,Gandzasar,688,Ararat-Armenia,3683,3,4,True,
 1581488,2026-08-02T15:00:00+00:00,FT,Regular Season - 1,FC Noah,3684,Syunik,20087,3,0,True,
 1581489,2026-08-02T17:00:00+00:00,FT,Regular Season - 1,FC Urartu,2276,Pyunik Yerevan,709,2,2,True,119
 1581485,2026-08-03T16:00:00+00:00,FT,Regular Season - 1,Alashkert,582,Ararat,3682,3,0,True,
-1581493,2026-08-07T15:00:00+00:00,NS,Regular Season - 2,Ararat,3682,Sardarapat,26198,,,False,
-1581492,2026-08-07T15:00:00+00:00,NS,Regular Season - 2,Ararat-Armenia,3683,FC Urartu,2276,,,False,
-1581496,2026-08-08T15:00:00+00:00,NS,Regular Season - 2,Gandzasar,688,Syunik,20087,,,False,
-1581494,2026-08-09T13:00:00+00:00,NS,Regular Season - 2,Pyunik Yerevan,709,Van,6286,,,False,21934
-1581495,2026-08-09T15:00:00+00:00,NS,Regular Season - 2,Shirak,3686,FC Noah,3684,,,False,2479
-1581491,2026-08-10T12:00:00+00:00,NS,Regular Season - 2,Alashkert,582,BKMA,6279,,,False,
-1581501,2026-08-13T15:00:00+00:00,NS,Regular Season - 3,FC Urartu,2276,Syunik,20087,,,False,119
-1581498,2026-08-14T16:00:00+00:00,NS,Regular Season - 3,Gandzasar,688,Shirak,3686,,,False,
-1581502,2026-08-15T12:00:00+00:00,NS,Regular Season - 3,Van,6286,Ararat-Armenia,3683,,,False,4655
-1581497,2026-08-15T15:30:00+00:00,NS,Regular Season - 3,BKMA,6279,Ararat,3682,,,False,
-1581500,2026-08-16T12:00:00+00:00,NS,Regular Season - 3,Sardarapat,26198,Pyunik Yerevan,709,,,False,
-1581499,2026-08-17T16:00:00+00:00,NS,Regular Season - 3,FC Noah,3684,Alashkert,582,,,False,
-1581503,2026-08-21T15:00:00+00:00,NS,Regular Season - 4,Alashkert,582,Gandzasar,688,,,False,
-1581505,2026-08-21T15:00:00+00:00,NS,Regular Season - 4,Ararat,3682,Pyunik Yerevan,709,,,False,
-1581504,2026-08-21T15:00:00+00:00,NS,Regular Season - 4,Ararat-Armenia,3683,Sardarapat,26198,,,False,
-1581507,2026-08-21T15:00:00+00:00,NS,Regular Season - 4,Shirak,3686,FC Urartu,2276,,,False,2479
-1581506,2026-08-21T15:00:00+00:00,NS,Regular Season - 4,BKMA,6279,FC Noah,3684,,,False,
-1581508,2026-08-21T15:00:00+00:00,NS,Regular Season - 4,Syunik,20087,Van,6286,,,False,
-1581509,2026-08-28T15:00:00+00:00,NS,Regular Season - 5,Gandzasar,688,BKMA,6279,,,False,
-1581511,2026-08-28T15:00:00+00:00,NS,Regular Season - 5,Pyunik Yerevan,709,Ararat-Armenia,3683,,,False,21934
-1581513,2026-08-28T15:00:00+00:00,NS,Regular Season - 5,FC Urartu,2276,Alashkert,582,,,False,119
-1581510,2026-08-28T15:00:00+00:00,NS,Regular Season - 5,FC Noah,3684,Ararat,3682,,,False,
-1581514,2026-08-28T15:00:00+00:00,NS,Regular Season - 5,Van,6286,Shirak,3686,,,False,4655
-1581512,2026-08-28T15:00:00+00:00,NS,Regular Season - 5,Sardarapat,26198,Syunik,20087,,,False,
-1581515,2026-09-04T15:00:00+00:00,NS,Regular Season - 6,Alashkert,582,Van,6286,,,False,
-1581516,2026-09-04T15:00:00+00:00,NS,Regular Season - 6,Ararat,3682,Ararat-Armenia,3683,,,False,
+1581493,2026-08-07T15:00:00+00:00,FT,Regular Season - 2,Ararat,3682,Sardarapat,26198,1,2,True,
+1581492,2026-08-07T15:00:00+00:00,FT,Regular Season - 2,Ararat-Armenia,3683,FC Urartu,2276,2,1,True,
+1581496,2026-08-08T15:00:00+00:00,FT,Regular Season - 2,Gandzasar,688,Syunik,20087,3,1,True,21934
+1581494,2026-08-09T13:00:00+00:00,FT,Regular Season - 2,Pyunik Yerevan,709,Van,6286,3,0,True,21934
+1581495,2026-08-09T15:00:00+00:00,FT,Regular Season - 2,Shirak,3686,FC Noah,3684,3,4,True,2479
+1581491,2026-08-10T16:00:00+00:00,FT,Regular Season - 2,Alashkert,582,BKMA,6279,3,0,True,
+1581501,2026-08-13T15:00:00+00:00,FT,Regular Season - 3,FC Urartu,2276,Syunik,20087,3,0,True,119
+1581498,2026-08-14T16:00:00+00:00,FT,Regular Season - 3,Gandzasar,688,Shirak,3686,0,1,True,
+1581502,2026-08-15T12:00:00+00:00,FT,Regular Season - 3,Ararat-Armenia,3683,Van,6286,2,0,True,4655
+1581497,2026-08-15T15:30:00+00:00,FT,Regular Season - 3,BKMA,6279,Ararat,3682,1,2,True,
+1581499,2026-08-17T16:00:00+00:00,FT,Regular Season - 3,FC Noah,3684,Alashkert,582,1,0,True,
+1581508,2026-08-20T12:00:00+00:00,FT,Regular Season - 4,Van,6286,Syunik,20087,1,1,True,4655
+1581505,2026-08-21T15:00:00+00:00,FT,Regular Season - 4,Ararat,3682,Pyunik Yerevan,709,0,2,True,
+1581503,2026-08-21T17:00:00+00:00,FT,Regular Season - 4,Alashkert,582,Gandzasar,688,3,0,True,
+1581507,2026-08-22T14:00:00+00:00,FT,Regular Season - 4,Shirak,3686,FC Urartu,2276,0,1,True,2479
+1581506,2026-08-23T14:00:00+00:00,FT,Regular Season - 4,BKMA,6279,FC Noah,3684,0,1,True,
+1581504,2026-08-23T17:00:00+00:00,FT,Regular Season - 4,Ararat-Armenia,3683,Sardarapat,26198,1,1,True,
+1581500,2026-08-16T14:30:00+00:00,PST,Regular Season - 3,Pyunik Yerevan,709,Sardarapat,26198,,,False,21934
+1581513,2026-08-28T16:00:00+00:00,NS,Regular Season - 5,FC Urartu,2276,Alashkert,582,,,False,119
+1581514,2026-08-29T12:00:00+00:00,NS,Regular Season - 5,Van,6286,Shirak,3686,,,False,4655
+1581509,2026-08-30T13:00:00+00:00,NS,Regular Season - 5,Gandzasar,688,BKMA,6279,,,False,
+1581510,2026-08-30T16:00:00+00:00,NS,Regular Season - 5,FC Noah,3684,Ararat,3682,,,False,
+1581512,2026-08-31T12:00:00+00:00,NS,Regular Season - 5,Sardarapat,26198,Syunik,20087,,,False,
+1581511,2026-08-31T16:00:00+00:00,NS,Regular Season - 5,Pyunik Yerevan,709,Ararat-Armenia,3683,,,False,21934
+1581515,2026-09-03T12:00:00+00:00,NS,Regular Season - 6,Alashkert,582,Van,6286,,,False,
+1581520,2026-09-04T12:00:00+00:00,NS,Regular Season - 6,Syunik,20087,Pyunik Yerevan,709,,,False,
 1581518,2026-09-04T15:00:00+00:00,NS,Regular Season - 6,FC Noah,3684,Gandzasar,688,,,False,
-1581519,2026-09-04T15:00:00+00:00,NS,Regular Season - 6,Shirak,3686,Sardarapat,26198,,,False,2479
-1581517,2026-09-04T15:00:00+00:00,NS,Regular Season - 6,BKMA,6279,FC Urartu,2276,,,False,
-1581520,2026-09-04T15:00:00+00:00,NS,Regular Season - 6,Syunik,20087,Pyunik Yerevan,709,,,False,
-1581522,2026-09-11T15:00:00+00:00,NS,Regular Season - 7,Gandzasar,688,Ararat,3682,,,False,
-1581523,2026-09-11T15:00:00+00:00,NS,Regular Season - 7,Pyunik Yerevan,709,Shirak,3686,,,False,21934
-1581525,2026-09-11T15:00:00+00:00,NS,Regular Season - 7,FC Urartu,2276,FC Noah,3684,,,False,119
+1581516,2026-09-05T15:00:00+00:00,NS,Regular Season - 6,Ararat,3682,Ararat-Armenia,3683,,,False,
+1581517,2026-09-06T13:00:00+00:00,NS,Regular Season - 6,BKMA,6279,FC Urartu,2276,,,False,
+1581519,2026-09-06T15:00:00+00:00,NS,Regular Season - 6,Shirak,3686,Sardarapat,26198,,,False,2479
+1581526,2026-09-11T12:00:00+00:00,NS,Regular Season - 7,Van,6286,BKMA,6279,,,False,4655
 1581521,2026-09-11T15:00:00+00:00,NS,Regular Season - 7,Ararat-Armenia,3683,Syunik,20087,,,False,
-1581526,2026-09-11T15:00:00+00:00,NS,Regular Season - 7,Van,6286,BKMA,6279,,,False,4655
-1581524,2026-09-11T15:00:00+00:00,NS,Regular Season - 7,Sardarapat,26198,Alashkert,582,,,False,
-1581527,2026-09-18T15:00:00+00:00,NS,Regular Season - 8,Alashkert,582,Pyunik Yerevan,709,,,False,
-1581530,2026-09-18T15:00:00+00:00,NS,Regular Season - 8,Gandzasar,688,FC Urartu,2276,,,False,
-1581528,2026-09-18T15:00:00+00:00,NS,Regular Season - 8,Ararat,3682,Syunik,20087,,,False,
-1581531,2026-09-18T15:00:00+00:00,NS,Regular Season - 8,FC Noah,3684,Van,6286,,,False,
-1581532,2026-09-18T15:00:00+00:00,NS,Regular Season - 8,Shirak,3686,Ararat-Armenia,3683,,,False,2479
-1581529,2026-09-18T15:00:00+00:00,NS,Regular Season - 8,BKMA,6279,Sardarapat,26198,,,False,
+1581522,2026-09-12T14:00:00+00:00,NS,Regular Season - 7,Gandzasar,688,Ararat,3682,,,False,
+1581525,2026-09-12T16:00:00+00:00,NS,Regular Season - 7,FC Urartu,2276,FC Noah,3684,,,False,119
+1581524,2026-09-13T12:00:00+00:00,NS,Regular Season - 7,Sardarapat,26198,Alashkert,582,,,False,
+1581523,2026-09-13T15:00:00+00:00,NS,Regular Season - 7,Pyunik Yerevan,709,Shirak,3686,,,False,21934
+1581530,2026-09-18T14:00:00+00:00,NS,Regular Season - 8,Gandzasar,688,FC Urartu,2276,,,False,
+1581531,2026-09-18T16:00:00+00:00,NS,Regular Season - 8,FC Noah,3684,Van,6286,,,False,
+1581527,2026-09-19T12:00:00+00:00,NS,Regular Season - 8,Alashkert,582,Pyunik Yerevan,709,,,False,
+1581529,2026-09-19T15:00:00+00:00,NS,Regular Season - 8,BKMA,6279,Sardarapat,26198,,,False,
+1581532,2026-09-20T14:00:00+00:00,NS,Regular Season - 8,Shirak,3686,Ararat-Armenia,3683,,,False,2479
+1581528,2026-09-20T16:00:00+00:00,NS,Regular Season - 8,Ararat,3682,Syunik,20087,,,False,
 1581534,2026-10-10T15:00:00+00:00,NS,Regular Season - 9,Pyunik Yerevan,709,BKMA,6279,,,False,21934
 1581537,2026-10-10T15:00:00+00:00,NS,Regular Season - 9,FC Urartu,2276,Ararat,3682,,,False,119
 1581533,2026-10-10T15:00:00+00:00,NS,Regular Season - 9,Ararat-Armenia,3683,Alashkert,582,,,False,

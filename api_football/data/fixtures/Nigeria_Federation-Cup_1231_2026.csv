@@ -1,16 +1,16 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1550778,2026-06-01T09:00:00+00:00,PEN,Round of 32,Flight FC Gboko,27834,Mighty Jets,13886,1,1,False,
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1550778,2026-06-01T09:00:00+00:00,PEN,Round of 32,Flight FC Gboko,27834,Mighty Jets,13886,1,1,True,
 1550779,2026-06-01T12:00:00+00:00,FT,Round of 32,Wikki Tourist,5194,Bayelsa United,17445,3,1,True,
 1550780,2026-06-01T12:00:00+00:00,FT,Round of 32,Sunshine Stars U19,27840,Warinje,27838,2,1,True,3927
-1550781,2026-06-01T12:00:00+00:00,PEN,Round of 32,Ingas,27835,Basira,27829,1,1,False,
-1550782,2026-06-01T12:00:00+00:00,PEN,Round of 32,De Sapele Lion,27832,Adamawa United,7789,0,0,False,
-1550783,2026-06-01T15:00:00+00:00,PEN,Round of 32,Shooting Stars,5504,Kada Warriors,27836,1,1,False,
+1550781,2026-06-01T12:00:00+00:00,PEN,Round of 32,Ingas,27835,Basira,27829,1,1,True,
+1550782,2026-06-01T12:00:00+00:00,PEN,Round of 32,De Sapele Lion,27832,Adamawa United,7789,0,0,True,
+1550783,2026-06-01T15:00:00+00:00,PEN,Round of 32,Shooting Stars,5504,Kada Warriors,27836,1,1,True,
 1550784,2026-06-01T15:00:00+00:00,FT,Round of 32,Rivers United,5192,Enugu Rangers,5176,3,2,True,3926
 1550785,2026-06-01T15:00:00+00:00,FT,Round of 32,Kwara United,5185,Sokoto,27839,0,1,True,
 1550786,2026-06-01T15:00:00+00:00,FT,Round of 32,Kogi,27837,Plateau United,5190,0,1,True,
 1550787,2026-06-01T15:00:00+00:00,FT,Round of 32,Ikorodu City,24512,Jigawa Golden Stars,7791,2,0,True,
 1550788,2026-06-01T15:00:00+00:00,FT,Round of 32,Enyimba,5177,Gombe United,5179,1,0,True,3913
-1550789,2026-06-01T15:00:00+00:00,PEN,Round of 32,El Kanemi Warriors,5175,Akwa United,5172,1,1,False,3911
+1550789,2026-06-01T15:00:00+00:00,PEN,Round of 32,El Kanemi Warriors,5175,Akwa United,5172,1,1,True,3911
 1550790,2026-06-01T15:00:00+00:00,AWD,Round of 32,Ejigbo City,27833,Nasarawa United,5188,0,3,False,
 1550791,2026-06-01T15:00:00+00:00,FT,Round of 32,Bida Lions,27830,Warri Wolves,5508,2,0,True,
 1550792,2026-06-01T15:00:00+00:00,FT,Round of 32,Bendel Insurance,5173,Crown FC,27831,3,1,True,
@@ -19,14 +19,14 @@
 1550795,2026-06-06T12:00:00+00:00,FT,Round of 16,Plateau United,5190,Basira,27829,2,1,True,
 1550796,2026-06-06T12:00:00+00:00,FT,Round of 16,Bida Lions,27830,Flight FC Gboko,27834,0,1,True,
 1550797,2026-06-06T15:00:00+00:00,FT,Round of 16,Sunshine Stars U19,27840,Barau FC,26400,1,2,True,3927
-1550798,2026-06-06T15:00:00+00:00,PEN,Round of 16,Rivers United,5192,Nasarawa United,5188,2,2,False,3926
+1550798,2026-06-06T15:00:00+00:00,PEN,Round of 16,Rivers United,5192,Nasarawa United,5188,2,2,True,3926
 1550799,2026-06-06T15:00:00+00:00,FT,Round of 16,Kada Warriors,27836,Wikki Tourist,5194,1,3,True,
-1550800,2026-06-06T15:00:00+00:00,PEN,Round of 16,Ikorodu City,24512,Enyimba,5177,1,1,False,
-1550801,2026-06-06T15:00:00+00:00,PEN,Round of 16,Bendel Insurance,5173,El Kanemi Warriors,5175,3,3,False,
-1550848,2026-06-11T15:00:00+00:00,PEN,Quarter-finals,Ikorodu City,24512,Barau FC,26400,2,2,False,
+1550800,2026-06-06T15:00:00+00:00,PEN,Round of 16,Ikorodu City,24512,Enyimba,5177,1,1,True,
+1550801,2026-06-06T15:00:00+00:00,PEN,Round of 16,Bendel Insurance,5173,El Kanemi Warriors,5175,3,3,True,
+1550848,2026-06-11T15:00:00+00:00,PEN,Quarter-finals,Ikorodu City,24512,Barau FC,26400,2,2,True,
 1550849,2026-06-11T15:00:00+00:00,FT,Quarter-finals,Nasarawa United,5188,Plateau United,5190,2,1,True,3922
 1550850,2026-06-11T15:00:00+00:00,FT,Quarter-finals,Sokoto,27839,El Kanemi Warriors,5175,0,1,True,
-1550851,2026-06-11T15:00:00+00:00,PEN,Quarter-finals,Wikki Tourist,5194,Flight FC Gboko,27834,1,1,False,
+1550851,2026-06-11T15:00:00+00:00,PEN,Quarter-finals,Wikki Tourist,5194,Flight FC Gboko,27834,1,1,True,
 1554359,2026-06-17T15:00:00+00:00,FT,Semi-finals,El Kanemi Warriors,5175,Wikki Tourist,5194,3,1,True,3911
-1554360,2026-06-17T15:00:00+00:00,PEN,Semi-finals,Nasarawa United,5188,Ikorodu City,24512,1,1,False,3922
+1554360,2026-06-17T15:00:00+00:00,PEN,Semi-finals,Nasarawa United,5188,Ikorodu City,24512,1,1,True,3922
 1556551,2026-07-11T15:00:00+00:00,FT,Final,El Kanemi Warriors,5175,Ikorodu City,24512,1,0,True,

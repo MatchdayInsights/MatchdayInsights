@@ -1,0 +1,29 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1564793,2026-08-08T18:00:00+00:00,PEN,Round of 128,Vicenza Virtus,1584,Catania,1580,1,1,True,2767
+1564791,2026-08-08T18:30:00+00:00,FT,Round of 128,Ascoli,507,Potenza,1710,3,1,True,876
+1564790,2026-08-09T17:45:00+00:00,FT,Round of 128,Arezzo,876,Union Brescia,26356,2,0,True,
+1564792,2026-08-09T19:00:00+00:00,FT,Round of 128,Benevento,506,Ravenna,1705,5,3,True,880
+1619314,2026-08-14T16:00:00+00:00,FT,Round of 64,Parma,523,Catania,1580,2,0,True,921
+1619650,2026-08-14T16:30:00+00:00,FT,Round of 64,Cagliari,490,Arezzo,876,1,0,True,12275
+1564794,2026-08-14T18:45:00+00:00,FT,Round of 64,Monza,1579,Avellino,528,3,0,True,
+1619651,2026-08-14T19:15:00+00:00,FT,Round of 64,Fiorentina,502,Benevento,506,4,1,True,880
+1564795,2026-08-15T16:00:00+00:00,PEN,Round of 64,Catanzaro,1687,Sudtirol,1578,2,2,True,888
+1564796,2026-08-15T16:30:00+00:00,FT,Round of 64,Udinese,494,Padova,870,1,0,True,
+1564797,2026-08-15T18:45:00+00:00,FT,Round of 64,Venezia,517,Modena,899,3,2,True,
+1564798,2026-08-15T19:15:00+00:00,FT,Round of 64,Torino,503,Carrarese,1581,1,0,True,
+1564799,2026-08-16T16:00:00+00:00,FT,Round of 64,Frosinone,512,Juve Stabia,863,4,1,True,904
+1619315,2026-08-16T16:30:00+00:00,FT,Round of 64,Genoa,495,Ascoli,507,4,1,True,
+1564800,2026-08-16T18:45:00+00:00,PEN,Round of 64,Hellas Verona,504,Virtus Entella,527,2,2,True,
+1564801,2026-08-16T19:15:00+00:00,FT,Round of 64,Lazio,487,Mantova,1693,0,2,True,
+1564802,2026-08-17T16:00:00+00:00,PEN,Round of 64,Pisa,801,Empoli,511,1,1,True,925
+1564803,2026-08-17T16:30:00+00:00,FT,Round of 64,Sassuolo,488,Cesena,509,3,0,True,
+1564804,2026-08-17T18:45:00+00:00,FT,Round of 64,Cremonese,520,Sampdoria,498,2,0,True,894
+1564805,2026-08-17T19:15:00+00:00,FT,Round of 64,Palermo,522,Lecce,867,2,0,True,920
+1629056,2026-09-01T16:00:00+00:00,NS,Round of 32,Parma,523,Cremonese,520,,,False,894
+1628894,2026-09-01T19:00:00+00:00,NS,Round of 32,Torino,503,Monza,1579,,,False,
+1629059,2026-09-02T13:00:00+00:00,NS,Round of 32,Sassuolo,488,Frosinone,512,,,False,
+1628895,2026-09-02T16:00:00+00:00,NS,Round of 32,Udinese,494,Venezia,517,,,False,
+1629057,2026-09-03T16:00:00+00:00,NS,Round of 32,Palermo,522,Mantova,1693,,,False,4185
+1628956,2026-09-03T19:00:00+00:00,NS,Round of 32,Cagliari,490,Hellas Verona,504,,,False,12275
+1628957,2026-09-15T16:00:00+00:00,NS,Round of 32,Genoa,495,Sudtirol,1578,,,False,
+1629058,2026-09-15T19:00:00+00:00,NS,Round of 32,Fiorentina,502,Pisa,801,,,False,925

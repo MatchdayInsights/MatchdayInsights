@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1553035,2026-06-11T20:00:00+00:00,FT,Group Stage - 1,Deportiva Agropecuaria,22469,Comerciantes Unidos,2558,2,0,True,20641
 1553036,2026-06-12T18:00:00+00:00,FT,Group Stage - 1,Minas,26867,ADT,10492,0,0,True,1239
 1553037,2026-06-12T20:15:00+00:00,FT,Group Stage - 1,Bentín Tacna Heroica,22462,FBC Melgar,2554,3,2,True,19177
@@ -44,12 +44,12 @@
 1568101,2026-07-10T20:30:00+00:00,FT,Round of 16,Alianza Atletico,2560,Molinos El Pirata,2556,3,2,True,1920
 1568102,2026-07-12T20:30:00+00:00,FT,Round of 16,UTC Cajamarca,2539,Deportiva Agropecuaria,22469,4,1,True,1243
 1568103,2026-07-10T18:00:00+00:00,FT,Round of 16,Cienciano,2562,ADT,10492,2,3,True,1233
-1568104,2026-07-09T20:00:00+00:00,PEN,Round of 16,Atletico Grau,2564,Carlos A. Mannucci,2551,1,1,False,
-1568105,2026-07-12T18:00:00+00:00,PEN,Round of 16,UCV Moquegua,22489,Deportivo Garcilaso,20960,0,0,False,22264
+1568104,2026-07-09T20:00:00+00:00,PEN,Round of 16,Atletico Grau,2564,Carlos A. Mannucci,2551,1,1,True,
+1568105,2026-07-12T18:00:00+00:00,PEN,Round of 16,UCV Moquegua,22489,Deportivo Garcilaso,20960,0,0,True,22264
 1568106,2026-07-11T01:00:00+00:00,FT,Round of 16,Sport Boys,2544,Comerciantes,10494,1,0,True,
 1568107,2026-07-11T18:00:00+00:00,FT,Round of 16,Sport Huancayo,2555,Club Deportivo Los Chankas,2572,3,1,True,1239
-1568108,2026-07-11T20:30:00+00:00,PEN,Round of 16,Sporting Cristal,2546,Bentín Tacna Heroica,22462,1,1,False,1240
-1589393,2026-08-26T20:00:00+00:00,NS,Quarter-finals,ADT,10492,UCV Moquegua,22489,,,False,
-1589394,2026-08-26T20:00:00+00:00,NS,Quarter-finals,Alianza Atletico,2560,UTC Cajamarca,2539,,,False,1920
-1589395,2026-08-26T20:00:00+00:00,NS,Quarter-finals,Atletico Grau,2564,Sport Boys,2544,,,False,
-1589396,2026-08-26T20:00:00+00:00,NS,Quarter-finals,Sporting Cristal,2546,Sport Huancayo,2555,,,False,1240
+1568108,2026-07-11T20:30:00+00:00,PEN,Round of 16,Sporting Cristal,2546,Bentín Tacna Heroica,22462,1,1,True,1240
+1589393,2026-08-27T20:00:00+00:00,FT,Quarter-finals,ADT,10492,UCV Moquegua,22489,2,0,True,
+1589394,2026-08-25T20:00:00+00:00,PEN,Quarter-finals,Alianza Atletico,2560,UTC Cajamarca,2539,1,1,True,1920
+1589395,2026-08-26T20:00:00+00:00,PEN,Quarter-finals,Atletico Grau,2564,Sport Boys,2544,2,2,True,
+1589396,2026-08-26T20:00:00+00:00,FT,Quarter-finals,Sporting Cristal,2546,Sport Huancayo,2555,4,1,True,1240

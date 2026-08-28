@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1510243,2026-02-28T05:00:00+00:00,FT,Regular Season - 1,Gimhae City,7076,Ansan Greeners,2758,1,4,True,
 1510244,2026-02-28T07:30:00+00:00,FT,Regular Season - 1,Suwon Bluewings,2765,Seoul E-Land FC,2749,2,1,True,1018
 1510246,2026-03-01T05:00:00+00:00,FT,Regular Season - 1,Daegu FC,2747,Hwaseong,7087,1,0,True,
@@ -159,30 +159,30 @@
 1510399,2026-08-02T10:30:00+00:00,FT,Regular Season - 20,Ansan Greeners,2758,Gimhae City,7076,2,2,True,1901
 1510402,2026-08-02T10:30:00+00:00,FT,Regular Season - 20,Jeonnam Dragons,2760,Paju Citizen,7098,1,2,True,
 1510401,2026-08-02T10:30:00+00:00,FT,Regular Season - 20,Gimpo Citizen,7078,Gyeongnam FC,2751,1,1,True,
-1510405,2026-08-07T11:00:00+00:00,NS,Regular Season - 21,Gyeongnam FC,2751,Daegu FC,2747,,,False,1012
-1510403,2026-08-07T11:00:00+00:00,NS,Regular Season - 21,Asan Mugunghwa,2753,Ansan Greeners,2758,,,False,2841
-1510407,2026-08-07T11:00:00+00:00,NS,Regular Season - 21,Suwon Bluewings,2765,Gimhae City,7076,,,False,1018
-1510404,2026-08-07T11:00:00+00:00,NS,Regular Season - 21,Gimpo Citizen,7078,Cheongju,7061,,,False,
-1510406,2026-08-07T11:00:00+00:00,NS,Regular Season - 21,Hwaseong,7087,Seoul E-Land FC,2749,,,False,5171
-1510408,2026-08-07T11:00:00+00:00,NS,Regular Season - 21,Yongin City,9171,Busan I Park,2752,,,False,22429
-1510410,2026-08-08T11:00:00+00:00,NS,Regular Season - 21,Seongnam FC,2757,Cheonan City,7060,,,False,1017
-1510409,2026-08-08T11:00:00+00:00,NS,Regular Season - 21,Paju Citizen,7098,Suwon City FC,2756,,,False,
-1510411,2026-08-15T10:30:00+00:00,NS,Regular Season - 22,Busan I Park,2752,Hwaseong,7087,,,False,
-1510414,2026-08-15T10:30:00+00:00,NS,Regular Season - 22,Suwon Bluewings,2765,Suwon City FC,2756,,,False,1018
-1510412,2026-08-15T10:30:00+00:00,NS,Regular Season - 22,Cheongju,7061,Jeonnam Dragons,2760,,,False,
-1510413,2026-08-15T10:30:00+00:00,NS,Regular Season - 22,Gimhae City,7076,Gyeongnam FC,2751,,,False,
-1510415,2026-08-16T10:30:00+00:00,NS,Regular Season - 22,Daegu FC,2747,Asan Mugunghwa,2753,,,False,
-1510418,2026-08-16T10:30:00+00:00,NS,Regular Season - 22,Seoul E-Land FC,2749,Ansan Greeners,2758,,,False,19536
-1510416,2026-08-16T10:30:00+00:00,NS,Regular Season - 22,Gimpo Citizen,7078,Cheonan City,7060,,,False,
-1510417,2026-08-16T10:30:00+00:00,NS,Regular Season - 22,Paju Citizen,7098,Seongnam FC,2757,,,False,
-1510421,2026-08-22T10:30:00+00:00,NS,Regular Season - 23,Daegu FC,2747,Busan I Park,2752,,,False,
-1510422,2026-08-22T10:30:00+00:00,NS,Regular Season - 23,Suwon City FC,2756,Gimhae City,7076,,,False,1019
-1510419,2026-08-22T10:30:00+00:00,NS,Regular Season - 23,Ansan Greeners,2758,Seongnam FC,2757,,,False,1901
-1510420,2026-08-22T10:30:00+00:00,NS,Regular Season - 23,Cheonan City,7060,Suwon Bluewings,2765,,,False,
-1510426,2026-08-23T10:30:00+00:00,NS,Regular Season - 23,Seoul E-Land FC,2749,Paju Citizen,7098,,,False,19536
-1510423,2026-08-23T10:30:00+00:00,NS,Regular Season - 23,Asan Mugunghwa,2753,Yongin City,9171,,,False,2841
-1510425,2026-08-23T10:30:00+00:00,NS,Regular Season - 23,Jeonnam Dragons,2760,Hwaseong,7087,,,False,
-1510424,2026-08-23T10:30:00+00:00,NS,Regular Season - 23,Cheongju,7061,Gyeongnam FC,2751,,,False,
+1510405,2026-08-07T11:00:00+00:00,FT,Regular Season - 21,Gyeongnam FC,2751,Daegu FC,2747,0,1,True,1012
+1510403,2026-08-07T11:00:00+00:00,FT,Regular Season - 21,Asan Mugunghwa,2753,Ansan Greeners,2758,1,1,True,2841
+1510407,2026-08-07T11:00:00+00:00,FT,Regular Season - 21,Suwon Bluewings,2765,Gimhae City,7076,1,0,True,1018
+1510404,2026-08-07T11:00:00+00:00,FT,Regular Season - 21,Gimpo Citizen,7078,Cheongju,7061,3,0,True,
+1510406,2026-08-07T11:00:00+00:00,FT,Regular Season - 21,Hwaseong,7087,Seoul E-Land FC,2749,0,0,True,5171
+1510408,2026-08-07T11:00:00+00:00,FT,Regular Season - 21,Yongin City,9171,Busan I Park,2752,2,0,True,22429
+1510410,2026-08-08T11:00:00+00:00,FT,Regular Season - 21,Seongnam FC,2757,Cheonan City,7060,3,2,True,1017
+1510409,2026-08-08T11:00:00+00:00,FT,Regular Season - 21,Paju Citizen,7098,Suwon City FC,2756,0,1,True,
+1510411,2026-08-15T10:30:00+00:00,FT,Regular Season - 22,Busan I Park,2752,Hwaseong,7087,0,0,True,
+1510414,2026-08-15T10:30:00+00:00,FT,Regular Season - 22,Suwon Bluewings,2765,Suwon City FC,2756,2,2,True,1018
+1510412,2026-08-15T10:30:00+00:00,FT,Regular Season - 22,Cheongju,7061,Jeonnam Dragons,2760,2,1,True,
+1510413,2026-08-15T10:30:00+00:00,FT,Regular Season - 22,Gimhae City,7076,Gyeongnam FC,2751,1,1,True,
+1510415,2026-08-16T10:30:00+00:00,FT,Regular Season - 22,Daegu FC,2747,Asan Mugunghwa,2753,2,0,True,
+1510418,2026-08-16T10:30:00+00:00,FT,Regular Season - 22,Seoul E-Land FC,2749,Ansan Greeners,2758,3,1,True,19536
+1510416,2026-08-16T10:30:00+00:00,FT,Regular Season - 22,Gimpo Citizen,7078,Cheonan City,7060,1,1,True,
+1510417,2026-08-16T10:30:00+00:00,FT,Regular Season - 22,Paju Citizen,7098,Seongnam FC,2757,2,1,True,
+1510421,2026-08-22T10:30:00+00:00,FT,Regular Season - 23,Daegu FC,2747,Busan I Park,2752,1,1,True,
+1510422,2026-08-22T10:30:00+00:00,FT,Regular Season - 23,Suwon City FC,2756,Gimhae City,7076,2,0,True,1019
+1510419,2026-08-22T10:30:00+00:00,FT,Regular Season - 23,Ansan Greeners,2758,Seongnam FC,2757,1,2,True,1901
+1510420,2026-08-22T10:30:00+00:00,FT,Regular Season - 23,Cheonan City,7060,Suwon Bluewings,2765,0,1,True,
+1510426,2026-08-23T10:30:00+00:00,FT,Regular Season - 23,Seoul E-Land FC,2749,Paju Citizen,7098,1,1,True,19536
+1510423,2026-08-23T10:30:00+00:00,FT,Regular Season - 23,Asan Mugunghwa,2753,Yongin City,9171,2,1,True,2841
+1510425,2026-08-23T10:30:00+00:00,FT,Regular Season - 23,Jeonnam Dragons,2760,Hwaseong,7087,1,0,True,
+1510424,2026-08-23T10:30:00+00:00,FT,Regular Season - 23,Cheongju,7061,Gyeongnam FC,2751,1,1,True,
 1510427,2026-08-28T10:30:00+00:00,NS,Regular Season - 24,Ansan Greeners,2758,Daegu FC,2747,,,False,1901
 1510428,2026-08-28T10:30:00+00:00,NS,Regular Season - 24,Jeonnam Dragons,2760,Cheonan City,7060,,,False,
 1510430,2026-08-29T10:30:00+00:00,NS,Regular Season - 24,Gyeongnam FC,2751,Paju Citizen,7098,,,False,
@@ -263,11 +263,11 @@
 1510504,2026-11-22T05:00:00+00:00,NS,Regular Season - 33,Jeonnam Dragons,2760,Ansan Greeners,2758,,,False,
 1510506,2026-11-22T07:30:00+00:00,NS,Regular Season - 33,Seoul E-Land FC,2749,Asan Mugunghwa,2753,,,False,19536
 1510505,2026-11-22T07:30:00+00:00,NS,Regular Season - 33,Paju Citizen,7098,Cheonan City,7060,,,False,
-1510511,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Gyeongnam FC,2751,Seoul E-Land FC,2749,,,False,
-1510507,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Asan Mugunghwa,2753,Busan I Park,2752,,,False,2841
-1510513,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Suwon City FC,2756,Cheongju,7061,,,False,1019
-1510512,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Jeonnam Dragons,2760,Suwon Bluewings,2765,,,False,
-1510508,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Cheonan City,7060,Daegu FC,2747,,,False,
-1510509,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Gimhae City,7076,Seongnam FC,2757,,,False,
-1510510,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Gimpo Citizen,7078,Hwaseong,7087,,,False,
-1510514,2026-11-29T05:00:00+00:00,NS,Regular Season - 34,Yongin City,9171,Paju Citizen,7098,,,False,22429
+1510511,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Gyeongnam FC,2751,Seoul E-Land FC,2749,,,False,
+1510507,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Asan Mugunghwa,2753,Busan I Park,2752,,,False,2841
+1510513,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Suwon City FC,2756,Cheongju,7061,,,False,1019
+1510512,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Jeonnam Dragons,2760,Suwon Bluewings,2765,,,False,
+1510508,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Cheonan City,7060,Daegu FC,2747,,,False,
+1510509,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Gimhae City,7076,Seongnam FC,2757,,,False,
+1510510,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Gimpo Citizen,7078,Hwaseong,7087,,,False,
+1510514,2026-11-28T15:00:00+00:00,NS,Regular Season - 34,Yongin City,9171,Paju Citizen,7098,,,False,22429

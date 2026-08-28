@@ -1,0 +1,191 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1612199,2026-08-21T14:00:00+00:00,FT,Regular Season - 1,Wadi Degla,1046,Masr,7520,0,0,True,485
+1612201,2026-08-21T17:00:00+00:00,FT,Regular Season - 1,Zamalek SC,1040,Al Ittihad,1572,0,0,True,477
+1612200,2026-08-21T17:00:00+00:00,FT,Regular Season - 1,Abu Qair Semad,15731,National Bank of Egypt,15570,1,0,True,483
+1612203,2026-08-22T14:00:00+00:00,FT,Regular Season - 1,El Geish,1039,El Mokawloon,1575,1,0,True,
+1612202,2026-08-22T14:00:00+00:00,FT,Regular Season - 1,Asyut Petrol,18021,Petrojet,1041,1,1,True,
+1612204,2026-08-22T17:00:00+00:00,FT,Regular Season - 1,AL Masry,1031,Smouha SC,1044,1,0,True,
+1612205,2026-08-22T17:00:00+00:00,FT,Regular Season - 1,Ghazl El Mehalla,13819,Pyramids FC,1036,0,3,True,
+1612206,2026-08-23T14:00:00+00:00,FT,Regular Season - 1,El Gouna FC,1574,Future FC,16431,1,1,True,482
+1612207,2026-08-23T17:00:00+00:00,FT,Regular Season - 1,Al Ahly,1577,Enppi,1037,3,2,True,477
+1612208,2026-08-23T17:00:00+00:00,FT,Regular Season - 1,Ceramica Cleopatra,14651,Olympic El Qanah,13822,1,2,True,
+1612209,2026-08-26T14:00:00+00:00,FT,Regular Season - 2,Smouha SC,1044,Asyut Petrol,18021,0,0,True,
+1612211,2026-08-26T17:00:00+00:00,FT,Regular Season - 2,Petrojet,1041,El Geish,1039,2,3,True,485
+1612210,2026-08-26T17:00:00+00:00,FT,Regular Season - 2,National Bank of Egypt,15570,Zamalek SC,1040,0,3,True,477
+1612212,2026-08-27T14:00:00+00:00,FT,Regular Season - 2,Future FC,16431,Ghazl El Mehalla,13819,2,0,True,12576
+1612214,2026-08-27T17:00:00+00:00,FT,Regular Season - 2,Pyramids FC,1036,Abu Qair Semad,15731,2,0,True,
+1612213,2026-08-27T17:00:00+00:00,FT,Regular Season - 2,El Mokawloon,1575,AL Masry,1031,2,3,True,
+1612216,2026-08-28T14:00:00+00:00,NS,Regular Season - 2,Enppi,1037,Wadi Degla,1046,,,False,485
+1612215,2026-08-28T14:00:00+00:00,NS,Regular Season - 2,Olympic El Qanah,13822,El Gouna FC,1574,,,False,
+1612217,2026-08-28T17:00:00+00:00,NS,Regular Season - 2,Al Ittihad,1572,Ceramica Cleopatra,14651,,,False,
+1612218,2026-08-28T17:00:00+00:00,NS,Regular Season - 2,Masr,7520,Al Ahly,1577,,,False,
+1612219,2026-08-31T14:00:00+00:00,NS,Regular Season - 3,Asyut Petrol,18021,National Bank of Egypt,15570,,,False,
+1612220,2026-08-31T17:00:00+00:00,NS,Regular Season - 3,AL Masry,1031,Pyramids FC,1036,,,False,
+1612221,2026-08-31T17:00:00+00:00,NS,Regular Season - 3,Zamalek SC,1040,Petrojet,1041,,,False,
+1612222,2026-09-01T14:00:00+00:00,NS,Regular Season - 3,El Geish,1039,Masr,7520,,,False,
+1612223,2026-09-01T14:00:00+00:00,NS,Regular Season - 3,Ghazl El Mehalla,13819,Enppi,1037,,,False,
+1612225,2026-09-01T17:00:00+00:00,NS,Regular Season - 3,Wadi Degla,1046,Olympic El Qanah,13822,,,False,485
+1612226,2026-09-02T14:00:00+00:00,NS,Regular Season - 3,El Gouna FC,1574,El Mokawloon,1575,,,False,
+1612228,2026-09-02T17:00:00+00:00,NS,Regular Season - 3,Ceramica Cleopatra,14651,Future FC,16431,,,False,
+1612227,2026-09-02T17:00:00+00:00,NS,Regular Season - 3,Abu Qair Semad,15731,Al Ittihad,1572,,,False,
+1612224,2026-09-03T17:00:00+00:00,NS,Regular Season - 3,Al Ahly,1577,Smouha SC,1044,,,False,
+1612229,2026-09-07T14:00:00+00:00,NS,Regular Season - 4,Al Ittihad,1572,Asyut Petrol,18021,,,False,
+1612230,2026-09-07T14:00:00+00:00,NS,Regular Season - 4,Olympic El Qanah,13822,El Geish,1039,,,False,
+1612232,2026-09-07T17:00:00+00:00,NS,Regular Season - 4,Petrojet,1041,AL Masry,1031,,,False,485
+1612231,2026-09-07T17:00:00+00:00,NS,Regular Season - 4,National Bank of Egypt,15570,Ghazl El Mehalla,13819,,,False,
+1612233,2026-09-08T14:00:00+00:00,NS,Regular Season - 4,Pyramids FC,1036,El Gouna FC,1574,,,False,
+1612235,2026-09-08T17:00:00+00:00,NS,Regular Season - 4,Zamalek SC,1040,Abu Qair Semad,15731,,,False,
+1612234,2026-09-08T17:00:00+00:00,NS,Regular Season - 4,Smouha SC,1044,Ceramica Cleopatra,14651,,,False,
+1612236,2026-09-09T14:00:00+00:00,NS,Regular Season - 4,Future FC,16431,Wadi Degla,1046,,,False,12576
+1612238,2026-09-09T17:00:00+00:00,NS,Regular Season - 4,Enppi,1037,Masr,7520,,,False,485
+1612237,2026-09-09T17:00:00+00:00,NS,Regular Season - 4,El Mokawloon,1575,Al Ahly,1577,,,False,
+1612239,2026-09-14T14:00:00+00:00,NS,Regular Season - 5,El Geish,1039,Smouha SC,1044,,,False,
+1612241,2026-09-14T17:00:00+00:00,NS,Regular Season - 5,Masr,7520,Olympic El Qanah,13822,,,False,
+1612240,2026-09-14T17:00:00+00:00,NS,Regular Season - 5,Ceramica Cleopatra,14651,National Bank of Egypt,15570,,,False,
+1612243,2026-09-15T14:00:00+00:00,NS,Regular Season - 5,Wadi Degla,1046,El Mokawloon,1575,,,False,485
+1612242,2026-09-15T14:00:00+00:00,NS,Regular Season - 5,Asyut Petrol,18021,Future FC,16431,,,False,
+1612245,2026-09-15T17:00:00+00:00,NS,Regular Season - 5,AL Masry,1031,Al Ittihad,1572,,,False,
+1612244,2026-09-15T17:00:00+00:00,NS,Regular Season - 5,Al Ahly,1577,Abu Qair Semad,15731,,,False,
+1612246,2026-09-16T14:00:00+00:00,NS,Regular Season - 5,El Gouna FC,1574,Petrojet,1041,,,False,
+1612247,2026-09-16T17:00:00+00:00,NS,Regular Season - 5,Enppi,1037,Pyramids FC,1036,,,False,485
+1612248,2026-09-16T17:00:00+00:00,NS,Regular Season - 5,Ghazl El Mehalla,13819,Zamalek SC,1040,,,False,
+1612249,2026-10-11T14:00:00+00:00,NS,Regular Season - 6,Olympic El Qanah,13822,AL Masry,1031,,,False,
+1612250,2026-10-11T17:00:00+00:00,NS,Regular Season - 6,Zamalek SC,1040,Al Ahly,1577,,,False,
+1612251,2026-10-12T14:00:00+00:00,NS,Regular Season - 6,El Mokawloon,1575,Masr,7520,,,False,
+1612252,2026-10-12T14:00:00+00:00,NS,Regular Season - 6,Future FC,16431,Enppi,1037,,,False,12576
+1612253,2026-10-12T17:00:00+00:00,NS,Regular Season - 6,Pyramids FC,1036,Ceramica Cleopatra,14651,,,False,
+1612254,2026-10-12T17:00:00+00:00,NS,Regular Season - 6,Smouha SC,1044,Ghazl El Mehalla,13819,,,False,
+1612256,2026-10-13T14:00:00+00:00,NS,Regular Season - 6,National Bank of Egypt,15570,El Geish,1039,,,False,
+1612255,2026-10-13T14:00:00+00:00,NS,Regular Season - 6,Abu Qair Semad,15731,Asyut Petrol,18021,,,False,
+1612258,2026-10-13T17:00:00+00:00,NS,Regular Season - 6,Petrojet,1041,Wadi Degla,1046,,,False,485
+1612257,2026-10-13T17:00:00+00:00,NS,Regular Season - 6,Al Ittihad,1572,El Gouna FC,1574,,,False,
+1612259,2026-10-19T14:00:00+00:00,NS,Regular Season - 7,El Gouna FC,1574,Smouha SC,1044,,,False,
+1612260,2026-10-19T17:00:00+00:00,NS,Regular Season - 7,AL Masry,1031,Abu Qair Semad,15731,,,False,
+1612261,2026-10-19T17:00:00+00:00,NS,Regular Season - 7,Enppi,1037,El Mokawloon,1575,,,False,485
+1612263,2026-10-20T14:00:00+00:00,NS,Regular Season - 7,Wadi Degla,1046,National Bank of Egypt,15570,,,False,485
+1612262,2026-10-20T14:00:00+00:00,NS,Regular Season - 7,Asyut Petrol,18021,Zamalek SC,1040,,,False,
+1612264,2026-10-20T17:00:00+00:00,NS,Regular Season - 7,El Geish,1039,Pyramids FC,1036,,,False,
+1612265,2026-10-20T17:00:00+00:00,NS,Regular Season - 7,Ghazl El Mehalla,13819,Al Ittihad,1572,,,False,
+1612266,2026-10-21T14:00:00+00:00,NS,Regular Season - 7,Masr,7520,Future FC,16431,,,False,
+1612267,2026-10-21T17:00:00+00:00,NS,Regular Season - 7,Al Ahly,1577,Olympic El Qanah,13822,,,False,
+1612268,2026-10-21T17:00:00+00:00,NS,Regular Season - 7,Ceramica Cleopatra,14651,Petrojet,1041,,,False,
+1612269,2026-10-28T14:00:00+00:00,NS,Regular Season - 8,National Bank of Egypt,15570,AL Masry,1031,,,False,
+1612270,2026-10-28T17:00:00+00:00,NS,Regular Season - 8,Zamalek SC,1040,El Mokawloon,1575,,,False,
+1612271,2026-10-29T14:00:00+00:00,NS,Regular Season - 8,Future FC,16431,Al Ahly,1577,,,False,12576
+1612272,2026-10-29T17:00:00+00:00,NS,Regular Season - 8,Pyramids FC,1036,Wadi Degla,1046,,,False,
+1612273,2026-10-30T15:00:00+00:00,NS,Regular Season - 8,Asyut Petrol,18021,El Gouna FC,1574,,,False,
+1612274,2026-10-30T18:00:00+00:00,NS,Regular Season - 8,Al Ittihad,1572,El Geish,1039,,,False,
+1612275,2026-10-30T18:00:00+00:00,NS,Regular Season - 8,Olympic El Qanah,13822,Enppi,1037,,,False,
+1612276,2026-10-31T15:00:00+00:00,NS,Regular Season - 8,Abu Qair Semad,15731,Ghazl El Mehalla,13819,,,False,
+1612278,2026-10-31T18:00:00+00:00,NS,Regular Season - 8,Petrojet,1041,Smouha SC,1044,,,False,485
+1612277,2026-10-31T18:00:00+00:00,NS,Regular Season - 8,Ceramica Cleopatra,14651,Masr,7520,,,False,
+1612279,2026-11-23T15:00:00+00:00,NS,Regular Season - 9,El Gouna FC,1574,Zamalek SC,1040,,,False,
+1612280,2026-11-23T18:00:00+00:00,NS,Regular Season - 9,Al Ahly,1577,Pyramids FC,1036,,,False,
+1612281,2026-11-24T15:00:00+00:00,NS,Regular Season - 9,Smouha SC,1044,National Bank of Egypt,15570,,,False,
+1612282,2026-11-24T15:00:00+00:00,NS,Regular Season - 9,Masr,7520,Abu Qair Semad,15731,,,False,
+1612283,2026-11-24T18:00:00+00:00,NS,Regular Season - 9,AL Masry,1031,Asyut Petrol,18021,,,False,
+1612284,2026-11-24T18:00:00+00:00,NS,Regular Season - 9,Wadi Degla,1046,Al Ittihad,1572,,,False,485
+1612286,2026-11-25T15:00:00+00:00,NS,Regular Season - 9,El Geish,1039,Future FC,16431,,,False,
+1612285,2026-11-25T15:00:00+00:00,NS,Regular Season - 9,El Mokawloon,1575,Olympic El Qanah,13822,,,False,
+1612287,2026-11-25T18:00:00+00:00,NS,Regular Season - 9,Enppi,1037,Ceramica Cleopatra,14651,,,False,485
+1612288,2026-11-25T18:00:00+00:00,NS,Regular Season - 9,Ghazl El Mehalla,13819,Petrojet,1041,,,False,
+1612289,2026-12-08T15:00:00+00:00,NS,Regular Season - 10,El Geish,1039,Wadi Degla,1046,,,False,
+1612290,2026-12-08T15:00:00+00:00,NS,Regular Season - 10,National Bank of Egypt,15570,El Gouna FC,1574,,,False,
+1612291,2026-12-08T18:00:00+00:00,NS,Regular Season - 10,Al Ittihad,1572,Enppi,1037,,,False,
+1612292,2026-12-08T18:00:00+00:00,NS,Regular Season - 10,Ceramica Cleopatra,14651,El Mokawloon,1575,,,False,
+1612293,2026-12-09T15:00:00+00:00,NS,Regular Season - 10,Petrojet,1041,Pyramids FC,1036,,,False,485
+1612295,2026-12-09T18:00:00+00:00,NS,Regular Season - 10,Zamalek SC,1040,AL Masry,1031,,,False,
+1612294,2026-12-09T18:00:00+00:00,NS,Regular Season - 10,Future FC,16431,Olympic El Qanah,13822,,,False,12576
+1612296,2026-12-10T15:00:00+00:00,NS,Regular Season - 10,Asyut Petrol,18021,Masr,7520,,,False,
+1612298,2026-12-10T18:00:00+00:00,NS,Regular Season - 10,Ghazl El Mehalla,13819,Al Ahly,1577,,,False,
+1612297,2026-12-10T18:00:00+00:00,NS,Regular Season - 10,Abu Qair Semad,15731,Smouha SC,1044,,,False,
+1612299,2026-12-14T15:00:00+00:00,NS,Regular Season - 11,Smouha SC,1044,Zamalek SC,1040,,,False,
+1612300,2026-12-14T18:00:00+00:00,NS,Regular Season - 11,Pyramids FC,1036,National Bank of Egypt,15570,,,False,
+1612301,2026-12-14T18:00:00+00:00,NS,Regular Season - 11,Masr,7520,Petrojet,1041,,,False,
+1612303,2026-12-15T15:00:00+00:00,NS,Regular Season - 11,El Gouna FC,1574,Abu Qair Semad,15731,,,False,
+1612302,2026-12-15T15:00:00+00:00,NS,Regular Season - 11,Al Ahly,1577,Asyut Petrol,18021,,,False,
+1612305,2026-12-15T18:00:00+00:00,NS,Regular Season - 11,Wadi Degla,1046,Ceramica Cleopatra,14651,,,False,485
+1612304,2026-12-15T18:00:00+00:00,NS,Regular Season - 11,Olympic El Qanah,13822,Al Ittihad,1572,,,False,
+1612306,2026-12-16T15:00:00+00:00,NS,Regular Season - 11,El Mokawloon,1575,Future FC,16431,,,False,
+1612307,2026-12-16T18:00:00+00:00,NS,Regular Season - 11,AL Masry,1031,Ghazl El Mehalla,13819,,,False,
+1612308,2026-12-16T18:00:00+00:00,NS,Regular Season - 11,Enppi,1037,El Geish,1039,,,False,485
+1612309,2026-12-22T15:00:00+00:00,NS,Regular Season - 12,Abu Qair Semad,15731,Wadi Degla,1046,,,False,
+1612310,2026-12-22T15:00:00+00:00,NS,Regular Season - 12,Asyut Petrol,18021,Enppi,1037,,,False,
+1612311,2026-12-22T18:00:00+00:00,NS,Regular Season - 12,Ghazl El Mehalla,13819,El Mokawloon,1575,,,False,
+1612312,2026-12-22T18:00:00+00:00,NS,Regular Season - 12,National Bank of Egypt,15570,Olympic El Qanah,13822,,,False,
+1612313,2026-12-23T15:00:00+00:00,NS,Regular Season - 12,AL Masry,1031,El Gouna FC,1574,,,False,
+1612315,2026-12-23T18:00:00+00:00,NS,Regular Season - 12,Zamalek SC,1040,El Geish,1039,,,False,
+1612314,2026-12-23T18:00:00+00:00,NS,Regular Season - 12,Smouha SC,1044,Pyramids FC,1036,,,False,
+1612316,2026-12-24T15:00:00+00:00,NS,Regular Season - 12,Al Ittihad,1572,Masr,7520,,,False,
+1612318,2026-12-24T18:00:00+00:00,NS,Regular Season - 12,Petrojet,1041,Future FC,16431,,,False,485
+1612317,2026-12-24T18:00:00+00:00,NS,Regular Season - 12,Ceramica Cleopatra,14651,Al Ahly,1577,,,False,
+1612319,2026-12-27T15:00:00+00:00,NS,Regular Season - 13,El Gouna FC,1574,Ghazl El Mehalla,13819,,,False,
+1612320,2026-12-27T18:00:00+00:00,NS,Regular Season - 13,Enppi,1037,National Bank of Egypt,15570,,,False,485
+1612321,2026-12-27T18:00:00+00:00,NS,Regular Season - 13,Future FC,16431,AL Masry,1031,,,False,12576
+1612322,2026-12-28T15:00:00+00:00,NS,Regular Season - 13,El Mokawloon,1575,Abu Qair Semad,15731,,,False,
+1612323,2026-12-28T15:00:00+00:00,NS,Regular Season - 13,Masr,7520,Smouha SC,1044,,,False,
+1612324,2026-12-28T18:00:00+00:00,NS,Regular Season - 13,Pyramids FC,1036,Zamalek SC,1040,,,False,
+1612326,2026-12-29T15:00:00+00:00,NS,Regular Season - 13,Wadi Degla,1046,Asyut Petrol,18021,,,False,485
+1612325,2026-12-29T15:00:00+00:00,NS,Regular Season - 13,Olympic El Qanah,13822,Petrojet,1041,,,False,
+1612328,2026-12-29T18:00:00+00:00,NS,Regular Season - 13,El Geish,1039,Ceramica Cleopatra,14651,,,False,
+1612327,2026-12-29T18:00:00+00:00,NS,Regular Season - 13,Al Ahly,1577,Al Ittihad,1572,,,False,
+1612329,2027-01-04T15:00:00+00:00,NS,Regular Season - 14,Pyramids FC,1036,El Mokawloon,1575,,,False,
+1612331,2027-01-04T18:00:00+00:00,NS,Regular Season - 14,Zamalek SC,1040,Wadi Degla,1046,,,False,
+1612330,2027-01-04T18:00:00+00:00,NS,Regular Season - 14,Smouha SC,1044,Future FC,16431,,,False,
+1612332,2027-01-05T15:00:00+00:00,NS,Regular Season - 14,El Gouna FC,1574,Al Ahly,1577,,,False,
+1612334,2027-01-05T18:00:00+00:00,NS,Regular Season - 14,Petrojet,1041,Enppi,1037,,,False,485
+1612333,2027-01-05T18:00:00+00:00,NS,Regular Season - 14,Ghazl El Mehalla,13819,Masr,7520,,,False,
+1612335,2027-01-06T15:00:00+00:00,NS,Regular Season - 14,Abu Qair Semad,15731,Olympic El Qanah,13822,,,False,
+1612336,2027-01-06T15:00:00+00:00,NS,Regular Season - 14,Asyut Petrol,18021,El Geish,1039,,,False,
+1612337,2027-01-06T18:00:00+00:00,NS,Regular Season - 14,AL Masry,1031,Ceramica Cleopatra,14651,,,False,
+1612338,2027-01-06T18:00:00+00:00,NS,Regular Season - 14,National Bank of Egypt,15570,Al Ittihad,1572,,,False,
+1612339,2027-01-26T15:00:00+00:00,NS,Regular Season - 15,Ceramica Cleopatra,14651,Asyut Petrol,18021,,,False,
+1612340,2027-01-26T15:00:00+00:00,NS,Regular Season - 15,Future FC,16431,Abu Qair Semad,15731,,,False,12576
+1612342,2027-01-26T18:00:00+00:00,NS,Regular Season - 15,Wadi Degla,1046,Ghazl El Mehalla,13819,,,False,485
+1612341,2027-01-26T18:00:00+00:00,NS,Regular Season - 15,Al Ittihad,1572,Smouha SC,1044,,,False,
+1612344,2027-01-27T15:00:00+00:00,NS,Regular Season - 15,Enppi,1037,AL Masry,1031,,,False,485
+1612343,2027-01-27T15:00:00+00:00,NS,Regular Season - 15,El Geish,1039,El Gouna FC,1574,,,False,
+1612346,2027-01-27T18:00:00+00:00,NS,Regular Season - 15,Masr,7520,Zamalek SC,1040,,,False,
+1612345,2027-01-27T18:00:00+00:00,NS,Regular Season - 15,Olympic El Qanah,13822,Pyramids FC,1036,,,False,
+1612347,2027-01-28T15:00:00+00:00,NS,Regular Season - 15,El Mokawloon,1575,National Bank of Egypt,15570,,,False,
+1612348,2027-01-28T18:00:00+00:00,NS,Regular Season - 15,Al Ahly,1577,Petrojet,1041,,,False,
+1612349,2027-01-30T15:00:00+00:00,NS,Regular Season - 16,Smouha SC,1044,Wadi Degla,1046,,,False,
+1612350,2027-01-30T18:00:00+00:00,NS,Regular Season - 16,Abu Qair Semad,15731,Ceramica Cleopatra,14651,,,False,
+1612352,2027-01-31T15:00:00+00:00,NS,Regular Season - 16,Zamalek SC,1040,Future FC,16431,,,False,
+1612351,2027-01-31T15:00:00+00:00,NS,Regular Season - 16,El Gouna FC,1574,Enppi,1037,,,False,
+1612353,2027-01-31T18:00:00+00:00,NS,Regular Season - 16,AL Masry,1031,Masr,7520,,,False,
+1612354,2027-01-31T18:00:00+00:00,NS,Regular Season - 16,Pyramids FC,1036,Al Ittihad,1572,,,False,
+1612356,2027-02-01T15:00:00+00:00,NS,Regular Season - 16,Petrojet,1041,El Mokawloon,1575,,,False,485
+1612355,2027-02-01T15:00:00+00:00,NS,Regular Season - 16,Asyut Petrol,18021,Olympic El Qanah,13822,,,False,
+1612357,2027-02-01T18:00:00+00:00,NS,Regular Season - 16,Ghazl El Mehalla,13819,El Geish,1039,,,False,
+1612358,2027-02-01T18:00:00+00:00,NS,Regular Season - 16,National Bank of Egypt,15570,Al Ahly,1577,,,False,
+1612359,2027-02-04T15:00:00+00:00,NS,Regular Season - 17,Enppi,1037,Smouha SC,1044,,,False,485
+1612360,2027-02-04T18:00:00+00:00,NS,Regular Season - 17,Future FC,16431,Pyramids FC,1036,,,False,12576
+1612362,2027-02-05T15:00:00+00:00,NS,Regular Season - 17,Wadi Degla,1046,El Gouna FC,1574,,,False,485
+1612361,2027-02-05T15:00:00+00:00,NS,Regular Season - 17,Al Ittihad,1572,Petrojet,1041,,,False,
+1612364,2027-02-05T18:00:00+00:00,NS,Regular Season - 17,Masr,7520,National Bank of Egypt,15570,,,False,
+1612363,2027-02-05T18:00:00+00:00,NS,Regular Season - 17,Ceramica Cleopatra,14651,Zamalek SC,1040,,,False,
+1612366,2027-02-06T15:00:00+00:00,NS,Regular Season - 17,El Mokawloon,1575,Asyut Petrol,18021,,,False,
+1612365,2027-02-06T15:00:00+00:00,NS,Regular Season - 17,Olympic El Qanah,13822,Ghazl El Mehalla,13819,,,False,
+1612368,2027-02-06T18:00:00+00:00,NS,Regular Season - 17,El Geish,1039,Abu Qair Semad,15731,,,False,
+1612367,2027-02-06T18:00:00+00:00,NS,Regular Season - 17,Al Ahly,1577,AL Masry,1031,,,False,
+1612371,2027-02-10T19:30:00+00:00,NS,Regular Season - 18,Pyramids FC,1036,Asyut Petrol,18021,,,False,
+1612369,2027-02-10T19:30:00+00:00,NS,Regular Season - 18,El Gouna FC,1574,Masr,7520,,,False,
+1612370,2027-02-10T19:30:00+00:00,NS,Regular Season - 18,National Bank of Egypt,15570,Future FC,16431,,,False,
+1612375,2027-02-11T19:30:00+00:00,NS,Regular Season - 18,Zamalek SC,1040,Enppi,1037,,,False,
+1612374,2027-02-11T19:30:00+00:00,NS,Regular Season - 18,Smouha SC,1044,Olympic El Qanah,13822,,,False,
+1612373,2027-02-11T19:30:00+00:00,NS,Regular Season - 18,Ghazl El Mehalla,13819,Ceramica Cleopatra,14651,,,False,
+1612372,2027-02-11T19:30:00+00:00,NS,Regular Season - 18,Abu Qair Semad,15731,Petrojet,1041,,,False,
+1612378,2027-02-12T19:30:00+00:00,NS,Regular Season - 18,AL Masry,1031,Wadi Degla,1046,,,False,
+1612377,2027-02-12T19:30:00+00:00,NS,Regular Season - 18,Al Ittihad,1572,El Mokawloon,1575,,,False,
+1612376,2027-02-12T19:30:00+00:00,NS,Regular Season - 18,Al Ahly,1577,El Geish,1039,,,False,
+1612381,2027-02-18T19:30:00+00:00,NS,Regular Season - 19,Masr,7520,Pyramids FC,1036,,,False,
+1612379,2027-02-18T19:30:00+00:00,NS,Regular Season - 19,Olympic El Qanah,13822,Zamalek SC,1040,,,False,
+1612380,2027-02-18T19:30:00+00:00,NS,Regular Season - 19,Asyut Petrol,18021,Ghazl El Mehalla,13819,,,False,
+1612383,2027-02-19T19:30:00+00:00,NS,Regular Season - 19,Petrojet,1041,National Bank of Egypt,15570,,,False,485
+1612384,2027-02-19T19:30:00+00:00,NS,Regular Season - 19,Wadi Degla,1046,Al Ahly,1577,,,False,485
+1612382,2027-02-19T19:30:00+00:00,NS,Regular Season - 19,Ceramica Cleopatra,14651,El Gouna FC,1574,,,False,
+1612387,2027-02-20T19:30:00+00:00,NS,Regular Season - 19,Enppi,1037,Abu Qair Semad,15731,,,False,485
+1612386,2027-02-20T19:30:00+00:00,NS,Regular Season - 19,El Geish,1039,AL Masry,1031,,,False,
+1612385,2027-02-20T19:30:00+00:00,NS,Regular Season - 19,El Mokawloon,1575,Smouha SC,1044,,,False,
+1612388,2027-02-20T19:30:00+00:00,NS,Regular Season - 19,Future FC,16431,Al Ittihad,1572,,,False,12576

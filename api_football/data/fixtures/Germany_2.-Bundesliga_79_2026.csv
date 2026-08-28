@@ -1,22 +1,22 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1576134,2026-08-07T18:30:00+00:00,NS,Regular Season - 1,VfL Bochum,176,Hertha BSC,159,,,False,751
-1576139,2026-08-08T11:00:00+00:00,NS,Regular Season - 1,1. FC Magdeburg,179,Eintracht Braunschweig,744,,,False,
-1576137,2026-08-08T11:00:00+00:00,NS,Regular Season - 1,1. FC Heidenheim,180,VfL Osnabrück,1324,,,False,
-1576136,2026-08-08T11:00:00+00:00,NS,Regular Season - 1,SV Darmstadt 98,181,Holstein Kiel,191,,,False,705
-1576138,2026-08-08T11:00:00+00:00,NS,Regular Season - 1,Karlsruher SC,785,Arminia Bielefeld,188,,,False,11900
-1576142,2026-08-08T18:30:00+00:00,NS,Regular Season - 1,VfL Wolfsburg,161,1. FC Kaiserslautern,745,,,False,752
-1576140,2026-08-09T11:30:00+00:00,NS,Regular Season - 1,1. FC Nürnberg,171,Dynamo Dresden,183,,,False,
-1576141,2026-08-09T11:30:00+00:00,NS,Regular Season - 1,FC St. Pauli,186,SpVgg Greuther Fürth,178,,,False,745
-1576135,2026-08-09T11:30:00+00:00,NS,Regular Season - 1,Energie Cottbus,1320,Hannover 96,166,,,False,20472
-1576148,2026-08-14T16:30:00+00:00,NS,Regular Season - 2,Holstein Kiel,191,FC St. Pauli,186,,,False,725
-1576144,2026-08-14T16:30:00+00:00,NS,Regular Season - 2,Eintracht Braunschweig,744,VfL Bochum,176,,,False,708
-1576147,2026-08-15T11:00:00+00:00,NS,Regular Season - 2,Hertha BSC,159,1. FC Heidenheim,180,,,False,
-1576145,2026-08-15T11:00:00+00:00,NS,Regular Season - 2,SpVgg Greuther Fürth,178,1. FC Nürnberg,171,,,False,
-1576151,2026-08-15T11:00:00+00:00,NS,Regular Season - 2,VfL Osnabrück,1324,1. FC Magdeburg,179,,,False,
-1576149,2026-08-15T18:30:00+00:00,NS,Regular Season - 2,1. FC Kaiserslautern,745,Karlsruher SC,785,,,False,728
-1576146,2026-08-16T11:30:00+00:00,NS,Regular Season - 2,Hannover 96,166,VfL Wolfsburg,161,,,False,18858
-1576150,2026-08-16T11:30:00+00:00,NS,Regular Season - 2,Dynamo Dresden,183,SV Darmstadt 98,181,,,False,707
-1576143,2026-08-16T11:30:00+00:00,NS,Regular Season - 2,Arminia Bielefeld,188,Energie Cottbus,1320,,,False,
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1576134,2026-08-07T18:30:00+00:00,FT,Regular Season - 1,VfL Bochum,176,Hertha BSC,159,0,1,True,751
+1576139,2026-08-08T11:00:00+00:00,FT,Regular Season - 1,1. FC Magdeburg,179,Eintracht Braunschweig,744,1,6,True,
+1576137,2026-08-08T11:00:00+00:00,FT,Regular Season - 1,1. FC Heidenheim,180,VfL Osnabrück,1324,4,3,True,723
+1576136,2026-08-08T11:00:00+00:00,FT,Regular Season - 1,SV Darmstadt 98,181,Holstein Kiel,191,2,2,True,705
+1576138,2026-08-08T11:00:00+00:00,FT,Regular Season - 1,Karlsruher SC,785,Arminia Bielefeld,188,2,1,True,11900
+1576142,2026-08-08T18:30:00+00:00,FT,Regular Season - 1,VfL Wolfsburg,161,1. FC Kaiserslautern,745,0,0,True,752
+1576140,2026-08-09T11:30:00+00:00,FT,Regular Season - 1,1. FC Nürnberg,171,Dynamo Dresden,183,3,0,True,
+1576141,2026-08-09T11:30:00+00:00,FT,Regular Season - 1,FC St. Pauli,186,SpVgg Greuther Fürth,178,1,1,True,745
+1576135,2026-08-09T11:30:00+00:00,FT,Regular Season - 1,Energie Cottbus,1320,Hannover 96,166,3,1,True,20472
+1576148,2026-08-14T16:30:00+00:00,FT,Regular Season - 2,Holstein Kiel,191,FC St. Pauli,186,2,2,True,725
+1576144,2026-08-14T16:30:00+00:00,FT,Regular Season - 2,Eintracht Braunschweig,744,VfL Bochum,176,0,1,True,708
+1576147,2026-08-15T11:00:00+00:00,FT,Regular Season - 2,Hertha BSC,159,1. FC Heidenheim,180,4,1,True,
+1576145,2026-08-15T11:00:00+00:00,FT,Regular Season - 2,SpVgg Greuther Fürth,178,1. FC Nürnberg,171,2,4,True,718
+1576151,2026-08-15T11:00:00+00:00,FT,Regular Season - 2,VfL Osnabrück,1324,1. FC Magdeburg,179,0,3,True,735
+1576149,2026-08-15T18:30:00+00:00,FT,Regular Season - 2,1. FC Kaiserslautern,745,Karlsruher SC,785,0,0,True,728
+1576146,2026-08-16T11:30:00+00:00,FT,Regular Season - 2,Hannover 96,166,VfL Wolfsburg,161,0,1,True,18858
+1576150,2026-08-16T11:30:00+00:00,FT,Regular Season - 2,Dynamo Dresden,183,SV Darmstadt 98,181,1,0,True,707
+1576143,2026-08-16T11:30:00+00:00,FT,Regular Season - 2,Arminia Bielefeld,188,Energie Cottbus,1320,3,0,True,
 1576152,2026-08-28T16:30:00+00:00,NS,Regular Season - 3,VfL Bochum,176,VfL Osnabrück,1324,,,False,751
 1576153,2026-08-28T16:30:00+00:00,NS,Regular Season - 3,Eintracht Braunschweig,744,Hertha BSC,159,,,False,708
 1576156,2026-08-29T11:00:00+00:00,NS,Regular Season - 3,1. FC Heidenheim,180,Dynamo Dresden,183,,,False,

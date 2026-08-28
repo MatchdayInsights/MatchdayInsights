@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1551293,2026-07-24T16:00:00+00:00,FT,Regular Season - 1,Vejle,395,AB Copenhagen,2060,2,2,True,462
 1551294,2026-07-24T17:00:00+00:00,FT,Regular Season - 1,Aalborg,402,Hillerød,6026,1,0,True,440
 1551295,2026-07-25T12:00:00+00:00,FT,Regular Season - 1,Hvidovre,2072,Vendsyssel FF,399,2,2,True,
@@ -11,29 +11,29 @@
 1551302,2026-08-01T11:00:00+00:00,FT,Regular Season - 2,Hillerød,6026,Esbjerg,403,2,3,True,
 1551303,2026-08-01T14:00:00+00:00,FT,Regular Season - 2,Kolding IF,4676,Hvidovre,2072,0,1,True,3525
 1551304,2026-08-02T12:00:00+00:00,FT,Regular Season - 2,Vendsyssel FF,399,Hobro,408,1,2,True,448
-1551305,2026-08-08T12:00:00+00:00,NS,Regular Season - 3,Aarhus Fremad,6004,HB Koge,2063,,,False,
-1551306,2026-08-08T14:00:00+00:00,NS,Regular Season - 3,Hobro,408,AB Copenhagen,2060,,,False,449
-1551307,2026-08-09T11:00:00+00:00,NS,Regular Season - 3,Hvidovre,2072,Esbjerg,403,,,False,
-1551309,2026-08-09T12:00:00+00:00,NS,Regular Season - 3,Vejle,395,Hillerød,6026,,,False,462
-1551308,2026-08-09T12:00:00+00:00,NS,Regular Season - 3,Aalborg,402,Kolding IF,4676,,,False,440
-1551310,2026-08-09T13:00:00+00:00,NS,Regular Season - 3,FC Fredericia,2061,Vendsyssel FF,399,,,False,446
-1551311,2026-08-14T17:00:00+00:00,NS,Regular Season - 4,Aalborg,402,FC Fredericia,2061,,,False,440
-1551312,2026-08-14T17:00:00+00:00,NS,Regular Season - 4,Kolding IF,4676,Vejle,395,,,False,3525
-1551313,2026-08-15T11:00:00+00:00,NS,Regular Season - 4,Hillerød,6026,Aarhus Fremad,6004,,,False,
-1551314,2026-08-15T12:00:00+00:00,NS,Regular Season - 4,Esbjerg,403,Hobro,408,,,False,445
-1551315,2026-08-15T14:00:00+00:00,NS,Regular Season - 4,HB Koge,2063,Hvidovre,2072,,,False,11892
-1551316,2026-08-16T12:00:00+00:00,NS,Regular Season - 4,Vendsyssel FF,399,AB Copenhagen,2060,,,False,
-1551317,2026-08-20T17:00:00+00:00,NS,Regular Season - 5,Vendsyssel FF,399,Hillerød,6026,,,False,
-1551319,2026-08-21T16:00:00+00:00,NS,Regular Season - 5,Vejle,395,Esbjerg,403,,,False,462
-1551318,2026-08-21T16:00:00+00:00,NS,Regular Season - 5,Hobro,408,Aalborg,402,,,False,449
-1551320,2026-08-21T17:00:00+00:00,NS,Regular Season - 5,FC Fredericia,2061,Aarhus Fremad,6004,,,False,446
-1551321,2026-08-22T16:30:00+00:00,NS,Regular Season - 5,AB Copenhagen,2060,Hvidovre,2072,,,False,
-1551322,2026-08-23T11:00:00+00:00,NS,Regular Season - 5,HB Koge,2063,Kolding IF,4676,,,False,11892
-1551323,2026-08-28T16:00:00+00:00,NS,Regular Season - 6,Aarhus Fremad,6004,Vejle,395,,,False,
+1551305,2026-08-08T12:00:00+00:00,FT,Regular Season - 3,Aarhus Fremad,6004,HB Koge,2063,3,1,True,
+1551306,2026-08-08T14:00:00+00:00,FT,Regular Season - 3,Hobro,408,AB Copenhagen,2060,1,0,True,449
+1551307,2026-08-09T11:00:00+00:00,FT,Regular Season - 3,Hvidovre,2072,Esbjerg,403,2,1,True,
+1551309,2026-08-09T12:00:00+00:00,FT,Regular Season - 3,Vejle,395,Hillerød,6026,5,4,True,462
+1551308,2026-08-09T12:00:00+00:00,FT,Regular Season - 3,Aalborg,402,Kolding IF,4676,1,1,True,440
+1551310,2026-08-09T13:00:00+00:00,FT,Regular Season - 3,FC Fredericia,2061,Vendsyssel FF,399,1,1,True,446
+1551311,2026-08-14T17:00:00+00:00,FT,Regular Season - 4,Aalborg,402,FC Fredericia,2061,0,3,True,440
+1551312,2026-08-14T17:00:00+00:00,FT,Regular Season - 4,Kolding IF,4676,Vejle,395,2,3,True,3525
+1551313,2026-08-15T11:00:00+00:00,FT,Regular Season - 4,Hillerød,6026,Aarhus Fremad,6004,1,1,True,
+1551314,2026-08-15T12:00:00+00:00,FT,Regular Season - 4,Esbjerg,403,Hobro,408,1,2,True,445
+1551315,2026-08-15T14:00:00+00:00,FT,Regular Season - 4,HB Koge,2063,Hvidovre,2072,0,2,True,11892
+1551316,2026-08-16T12:00:00+00:00,FT,Regular Season - 4,Vendsyssel FF,399,AB Copenhagen,2060,0,3,True,448
+1551317,2026-08-20T17:00:00+00:00,FT,Regular Season - 5,Vendsyssel FF,399,Hillerød,6026,1,0,True,448
+1551319,2026-08-21T16:00:00+00:00,FT,Regular Season - 5,Vejle,395,Esbjerg,403,4,2,True,462
+1551318,2026-08-21T16:00:00+00:00,FT,Regular Season - 5,Hobro,408,Aalborg,402,2,1,True,449
+1551320,2026-08-21T17:00:00+00:00,FT,Regular Season - 5,FC Fredericia,2061,Aarhus Fremad,6004,0,0,True,446
+1551321,2026-08-22T16:30:00+00:00,FT,Regular Season - 5,AB Copenhagen,2060,Hvidovre,2072,1,1,True,
+1551322,2026-08-23T11:00:00+00:00,FT,Regular Season - 5,HB Koge,2063,Kolding IF,4676,2,2,True,11892
 1551324,2026-08-29T11:00:00+00:00,NS,Regular Season - 6,Kolding IF,4676,AB Copenhagen,2060,,,False,3525
 1551325,2026-08-29T12:00:00+00:00,NS,Regular Season - 6,Aalborg,402,HB Koge,2063,,,False,440
 1551327,2026-08-30T11:00:00+00:00,NS,Regular Season - 6,Hvidovre,2072,FC Fredericia,2061,,,False,
 1551326,2026-08-30T11:00:00+00:00,NS,Regular Season - 6,Hillerød,6026,Hobro,408,,,False,
+1551323,2026-08-30T12:00:00+00:00,NS,Regular Season - 6,Aarhus Fremad,6004,Vejle,395,,,False,
 1551328,2026-08-30T13:00:00+00:00,NS,Regular Season - 6,Esbjerg,403,Vendsyssel FF,399,,,False,445
 1551330,2026-09-04T16:00:00+00:00,NS,Regular Season - 7,Vejle,395,Vendsyssel FF,399,,,False,462
 1551329,2026-09-04T16:00:00+00:00,NS,Regular Season - 7,Hobro,408,Hvidovre,2072,,,False,449
@@ -41,18 +41,18 @@
 1551332,2026-09-05T12:00:00+00:00,NS,Regular Season - 7,AB Copenhagen,2060,Aalborg,402,,,False,
 1551333,2026-09-05T12:00:00+00:00,NS,Regular Season - 7,FC Fredericia,2061,Esbjerg,403,,,False,446
 1551334,2026-09-06T11:00:00+00:00,NS,Regular Season - 7,Aarhus Fremad,6004,Kolding IF,4676,,,False,
-1551340,2026-09-12T12:00:00+00:00,NS,Regular Season - 8,Vendsyssel FF,399,Aarhus Fremad,6004,,,False,
-1551335,2026-09-12T12:00:00+00:00,NS,Regular Season - 8,Esbjerg,403,HB Koge,2063,,,False,445
-1551337,2026-09-12T12:00:00+00:00,NS,Regular Season - 8,Hobro,408,Vejle,395,,,False,449
+1551337,2026-09-11T16:30:00+00:00,NS,Regular Season - 8,Hobro,408,Vejle,395,,,False,449
+1551340,2026-09-11T17:00:00+00:00,NS,Regular Season - 8,Vendsyssel FF,399,Aarhus Fremad,6004,,,False,448
+1551336,2026-09-12T11:00:00+00:00,NS,Regular Season - 8,Hillerød,6026,AB Copenhagen,2060,,,False,
 1551338,2026-09-12T12:00:00+00:00,NS,Regular Season - 8,Hvidovre,2072,Aalborg,402,,,False,
-1551339,2026-09-12T12:00:00+00:00,NS,Regular Season - 8,Kolding IF,4676,FC Fredericia,2061,,,False,3525
-1551336,2026-09-12T12:00:00+00:00,NS,Regular Season - 8,Hillerød,6026,AB Copenhagen,2060,,,False,
-1551341,2026-09-19T12:00:00+00:00,NS,Regular Season - 9,Aalborg,402,Vendsyssel FF,399,,,False,440
+1551335,2026-09-12T13:00:00+00:00,NS,Regular Season - 8,Esbjerg,403,HB Koge,2063,,,False,445
+1551339,2026-09-12T16:30:00+00:00,NS,Regular Season - 8,Kolding IF,4676,FC Fredericia,2061,,,False,3525
+1551346,2026-09-18T17:00:00+00:00,NS,Regular Season - 9,Kolding IF,4676,Hillerød,6026,,,False,3525
 1551343,2026-09-19T12:00:00+00:00,NS,Regular Season - 9,AB Copenhagen,2060,Esbjerg,403,,,False,
-1551344,2026-09-19T12:00:00+00:00,NS,Regular Season - 9,FC Fredericia,2061,Vejle,395,,,False,446
-1551345,2026-09-19T12:00:00+00:00,NS,Regular Season - 9,HB Koge,2063,Hobro,408,,,False,11892
-1551346,2026-09-19T12:00:00+00:00,NS,Regular Season - 9,Kolding IF,4676,Hillerød,6026,,,False,3525
 1551342,2026-09-19T12:00:00+00:00,NS,Regular Season - 9,Aarhus Fremad,6004,Hvidovre,2072,,,False,
+1551341,2026-09-20T12:00:00+00:00,NS,Regular Season - 9,Aalborg,402,Vendsyssel FF,399,,,False,440
+1551344,2026-09-20T13:00:00+00:00,NS,Regular Season - 9,FC Fredericia,2061,Vejle,395,,,False,446
+1551345,2026-09-21T17:00:00+00:00,NS,Regular Season - 9,HB Koge,2063,Hobro,408,,,False,11892
 1551351,2026-10-10T12:00:00+00:00,NS,Regular Season - 10,Vejle,395,Hvidovre,2072,,,False,462
 1551352,2026-10-10T12:00:00+00:00,NS,Regular Season - 10,Vendsyssel FF,399,HB Koge,2063,,,False,
 1551348,2026-10-10T12:00:00+00:00,NS,Regular Season - 10,Esbjerg,403,Aalborg,402,,,False,445

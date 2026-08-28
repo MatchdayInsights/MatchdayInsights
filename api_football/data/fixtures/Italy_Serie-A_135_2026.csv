@@ -1,0 +1,381 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1550095,2026-08-22T16:30:00+00:00,FT,Regular Season - 1,Udinese,494,Como,895,1,1,True,20416
+1550092,2026-08-22T16:30:00+00:00,FT,Regular Season - 1,Inter,505,Monza,1579,4,1,True,
+1550091,2026-08-22T18:45:00+00:00,FT,Regular Season - 1,Genoa,495,Napoli,492,0,2,True,
+1550093,2026-08-22T18:45:00+00:00,FT,Regular Season - 1,Parma,523,Cagliari,490,0,1,True,921
+1550090,2026-08-23T16:30:00+00:00,FT,Regular Season - 1,Frosinone,512,Juventus,496,0,1,True,904
+1550096,2026-08-23T16:30:00+00:00,FT,Regular Season - 1,Venezia,517,Lecce,867,0,2,True,
+1550088,2026-08-23T18:45:00+00:00,FT,Regular Season - 1,Atalanta,499,Sassuolo,488,2,1,True,
+1550094,2026-08-23T18:45:00+00:00,FT,Regular Season - 1,Torino,503,AC Milan,489,1,2,True,
+1550089,2026-08-24T16:30:00+00:00,FT,Regular Season - 1,Bologna,500,Lazio,487,0,1,True,
+1550087,2026-08-24T18:45:00+00:00,FT,Regular Season - 1,AS Roma,497,Fiorentina,502,4,0,True,
+1550097,2026-08-28T18:45:00+00:00,NS,Regular Season - 2,AC Milan,489,Venezia,517,,,False,
+1550106,2026-08-29T16:30:00+00:00,NS,Regular Season - 2,Sassuolo,488,Torino,503,,,False,
+1550100,2026-08-29T16:30:00+00:00,NS,Regular Season - 2,Fiorentina,502,Frosinone,512,,,False,
+1550104,2026-08-29T16:30:00+00:00,NS,Regular Season - 2,Monza,1579,Udinese,494,,,False,
+1550101,2026-08-29T18:45:00+00:00,NS,Regular Season - 2,Juventus,496,Parma,523,,,False,
+1550105,2026-08-30T16:30:00+00:00,NS,Regular Season - 2,Napoli,492,Como,895,,,False,
+1550102,2026-08-30T18:45:00+00:00,NS,Regular Season - 2,Lazio,487,Genoa,495,,,False,
+1550099,2026-08-30T18:45:00+00:00,NS,Regular Season - 2,Cagliari,490,Inter,505,,,False,12275
+1550103,2026-08-31T16:30:00+00:00,NS,Regular Season - 2,Lecce,867,AS Roma,497,,,False,
+1550098,2026-08-31T18:45:00+00:00,NS,Regular Season - 2,Atalanta,499,Bologna,500,,,False,
+1550112,2026-09-04T18:45:00+00:00,NS,Regular Season - 3,Genoa,495,Como,895,,,False,
+1550110,2026-09-05T13:00:00+00:00,NS,Regular Season - 3,Fiorentina,502,Torino,503,,,False,
+1550113,2026-09-05T16:00:00+00:00,NS,Regular Season - 3,Inter,505,Napoli,492,,,False,
+1550107,2026-09-05T18:45:00+00:00,NS,Regular Season - 3,AS Roma,497,Atalanta,499,,,False,
+1550111,2026-09-06T13:00:00+00:00,NS,Regular Season - 3,Frosinone,512,Venezia,517,,,False,904
+1550115,2026-09-06T13:00:00+00:00,NS,Regular Season - 3,Parma,523,Monza,1579,,,False,921
+1550108,2026-09-06T16:00:00+00:00,NS,Regular Season - 3,Bologna,500,Sassuolo,488,,,False,
+1550114,2026-09-06T18:45:00+00:00,NS,Regular Season - 3,Juventus,496,AC Milan,489,,,False,
+1550109,2026-09-07T16:00:00+00:00,NS,Regular Season - 3,Cagliari,490,Lecce,867,,,False,12275
+1550116,2026-09-07T18:45:00+00:00,NS,Regular Season - 3,Udinese,494,Lazio,487,,,False,
+1550126,2026-09-11T18:45:00+00:00,NS,Regular Season - 4,Venezia,517,Fiorentina,502,,,False,
+1550119,2026-09-12T13:00:00+00:00,NS,Regular Season - 4,Genoa,495,Frosinone,512,,,False,
+1550124,2026-09-12T16:00:00+00:00,NS,Regular Season - 4,Sassuolo,488,Juventus,496,,,False,
+1550117,2026-09-12T18:45:00+00:00,NS,Regular Season - 4,Atalanta,499,Cagliari,490,,,False,
+1550125,2026-09-13T10:30:00+00:00,NS,Regular Season - 4,Torino,503,AS Roma,497,,,False,
+1550122,2026-09-13T13:00:00+00:00,NS,Regular Season - 4,Lecce,867,Monza,1579,,,False,
+1550118,2026-09-13T13:00:00+00:00,NS,Regular Season - 4,Como,895,Parma,523,,,False,892
+1550123,2026-09-13T16:00:00+00:00,NS,Regular Season - 4,Napoli,492,Bologna,500,,,False,
+1550121,2026-09-13T18:45:00+00:00,NS,Regular Season - 4,Lazio,487,AC Milan,489,,,False,
+1550120,2026-09-14T18:45:00+00:00,NS,Regular Season - 4,Inter,505,Udinese,494,,,False,
+1550133,2026-09-18T18:45:00+00:00,NS,Regular Season - 5,Monza,1579,Sassuolo,488,,,False,
+1550135,2026-09-19T13:00:00+00:00,NS,Regular Season - 5,Udinese,494,Cagliari,490,,,False,
+1550129,2026-09-19T13:00:00+00:00,NS,Regular Season - 5,Bologna,500,Torino,503,,,False,
+1550128,2026-09-19T16:00:00+00:00,NS,Regular Season - 5,AS Roma,497,Inter,505,,,False,
+1550136,2026-09-19T18:45:00+00:00,NS,Regular Season - 5,Venezia,517,Lazio,487,,,False,
+1550130,2026-09-20T10:30:00+00:00,NS,Regular Season - 5,Fiorentina,502,Napoli,492,,,False,
+1550131,2026-09-20T13:00:00+00:00,NS,Regular Season - 5,Frosinone,512,Como,895,,,False,904
+1550134,2026-09-20T13:00:00+00:00,NS,Regular Season - 5,Parma,523,Genoa,495,,,False,921
+1550132,2026-09-20T16:00:00+00:00,NS,Regular Season - 5,Juventus,496,Atalanta,499,,,False,
+1550127,2026-09-20T18:45:00+00:00,NS,Regular Season - 5,AC Milan,489,Lecce,867,,,False,
+1550142,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Lazio,487,Monza,1579,,,False,
+1550145,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Sassuolo,488,AC Milan,489,,,False,
+1550138,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Cagliari,490,Juventus,496,,,False,12275
+1550144,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Napoli,492,Frosinone,512,,,False,
+1550140,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Genoa,495,Fiorentina,502,,,False,
+1550137,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Atalanta,499,Venezia,517,,,False,
+1550146,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Torino,503,Udinese,494,,,False,
+1550141,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Inter,505,Parma,523,,,False,
+1550143,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Lecce,867,Bologna,500,,,False,
+1550139,2026-10-11T16:30:00+00:00,NS,Regular Season - 6,Como,895,AS Roma,497,,,False,892
+1550147,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,AC Milan,489,Atalanta,499,,,False,
+1550155,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Udinese,494,Lecce,867,,,False,
+1550152,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Juventus,496,Lazio,487,,,False,
+1550148,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,AS Roma,497,Genoa,495,,,False,
+1550149,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Bologna,500,Inter,505,,,False,
+1550150,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Fiorentina,502,Como,895,,,False,
+1550151,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Frosinone,512,Sassuolo,488,,,False,904
+1550156,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Venezia,517,Napoli,492,,,False,
+1550154,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Parma,523,Torino,503,,,False,921
+1550153,2026-10-18T16:30:00+00:00,NS,Regular Season - 7,Monza,1579,Cagliari,490,,,False,
+1550162,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Lazio,487,Parma,523,,,False,
+1550158,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Cagliari,490,Bologna,500,,,False,12275
+1550164,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Napoli,492,AS Roma,497,,,False,
+1550166,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Udinese,494,AC Milan,489,,,False,
+1550160,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Genoa,495,Venezia,517,,,False,
+1550157,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Atalanta,499,Frosinone,512,,,False,
+1550165,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Torino,503,Monza,1579,,,False,
+1550161,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Inter,505,Fiorentina,502,,,False,
+1550163,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Lecce,867,Juventus,496,,,False,
+1550159,2026-10-25T17:30:00+00:00,NS,Regular Season - 8,Como,895,Sassuolo,488,,,False,892
+1550174,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Sassuolo,488,Lazio,487,,,False,
+1550167,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,AC Milan,489,Bologna,500,,,False,
+1550171,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Genoa,495,Juventus,496,,,False,
+1550168,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,AS Roma,497,Cagliari,490,,,False,
+1550169,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Fiorentina,502,Atalanta,499,,,False,
+1550175,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Torino,503,Como,895,,,False,
+1550170,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Frosinone,512,Lecce,867,,,False,904
+1550176,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Venezia,517,Inter,505,,,False,
+1550173,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Parma,523,Udinese,494,,,False,921
+1550172,2026-10-28T17:30:00+00:00,NS,Regular Season - 9,Monza,1579,Napoli,492,,,False,
+1550183,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Lazio,487,Cagliari,490,,,False,
+1550185,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Sassuolo,488,Fiorentina,502,,,False,
+1550177,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,AC Milan,489,Inter,505,,,False,
+1550186,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Udinese,494,AS Roma,497,,,False,
+1550182,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Juventus,496,Napoli,492,,,False,
+1550178,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Atalanta,499,Parma,523,,,False,
+1550179,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Bologna,500,Monza,1579,,,False,
+1550181,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Frosinone,512,Torino,503,,,False,904
+1550184,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Lecce,867,Genoa,495,,,False,
+1550180,2026-11-01T17:30:00+00:00,NS,Regular Season - 10,Como,895,Venezia,517,,,False,892
+1550188,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Cagliari,490,Frosinone,512,,,False,12275
+1550193,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Napoli,492,Lazio,487,,,False,
+1550190,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Genoa,495,AC Milan,489,,,False,
+1550187,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,AS Roma,497,Sassuolo,488,,,False,
+1550189,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Fiorentina,502,Juventus,496,,,False,
+1550195,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Torino,503,Lecce,867,,,False,
+1550191,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Inter,505,Como,895,,,False,
+1550196,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Venezia,517,Udinese,494,,,False,
+1550194,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Parma,523,Bologna,500,,,False,921
+1550192,2026-11-08T17:30:00+00:00,NS,Regular Season - 11,Monza,1579,Atalanta,499,,,False,
+1550202,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Lazio,487,Lecce,867,,,False,
+1550206,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Sassuolo,488,Genoa,495,,,False,
+1550197,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,AC Milan,489,Frosinone,512,,,False,
+1550204,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Napoli,492,Torino,503,,,False,
+1550201,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Juventus,496,Venezia,517,,,False,
+1550198,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Atalanta,499,Inter,505,,,False,
+1550199,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Bologna,500,Udinese,494,,,False,
+1550205,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Parma,523,AS Roma,497,,,False,921
+1550200,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Como,895,Cagliari,490,,,False,892
+1550203,2026-11-22T17:30:00+00:00,NS,Regular Season - 12,Monza,1579,Fiorentina,502,,,False,
+1550213,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Sassuolo,488,Napoli,492,,,False,
+1550208,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Cagliari,490,AC Milan,489,,,False,12275
+1550215,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Udinese,494,Fiorentina,502,,,False,
+1550207,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,AS Roma,497,Monza,1579,,,False,
+1550214,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Torino,503,Lazio,487,,,False,
+1550211,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Inter,505,Genoa,495,,,False,
+1550210,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Frosinone,512,Parma,523,,,False,904
+1550216,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Venezia,517,Bologna,500,,,False,
+1550212,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Lecce,867,Atalanta,499,,,False,
+1550209,2026-11-29T17:30:00+00:00,NS,Regular Season - 13,Como,895,Juventus,496,,,False,892
+1550223,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Lazio,487,Atalanta,499,,,False,
+1550217,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,AC Milan,489,Parma,523,,,False,
+1550225,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Napoli,492,Lecce,867,,,False,
+1550221,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Genoa,495,Torino,503,,,False,
+1550222,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Juventus,496,Udinese,494,,,False,
+1550218,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Bologna,500,AS Roma,497,,,False,
+1550219,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Fiorentina,502,Cagliari,490,,,False,
+1550220,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Frosinone,512,Inter,505,,,False,904
+1550226,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Venezia,517,Sassuolo,488,,,False,
+1550224,2026-12-06T17:30:00+00:00,NS,Regular Season - 14,Monza,1579,Como,895,,,False,
+1550232,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Lazio,487,AS Roma,497,,,False,
+1550228,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Cagliari,490,Venezia,517,,,False,12275
+1550234,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Napoli,492,AC Milan,489,,,False,
+1550236,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Udinese,494,Frosinone,512,,,False,
+1550231,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Juventus,496,Monza,1579,,,False,
+1550227,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Atalanta,499,Genoa,495,,,False,
+1550230,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Inter,505,Torino,503,,,False,
+1550235,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Parma,523,Fiorentina,502,,,False,921
+1550233,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Lecce,867,Sassuolo,488,,,False,
+1550229,2026-12-13T17:30:00+00:00,NS,Regular Season - 15,Como,895,Bologna,500,,,False,892
+1550244,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Sassuolo,488,Parma,523,,,False,
+1550237,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,AC Milan,489,Como,895,,,False,
+1550242,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Genoa,495,Udinese,494,,,False,
+1550238,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,AS Roma,497,Juventus,496,,,False,
+1550239,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Atalanta,499,Napoli,492,,,False,
+1550240,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Fiorentina,502,Bologna,500,,,False,
+1550245,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Torino,503,Cagliari,490,,,False,
+1550241,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Frosinone,512,Lazio,487,,,False,904
+1550246,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Venezia,517,Monza,1579,,,False,
+1550243,2026-12-20T17:30:00+00:00,NS,Regular Season - 16,Lecce,867,Inter,505,,,False,
+1550249,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Cagliari,490,Genoa,495,,,False,12275
+1550256,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Udinese,494,Atalanta,499,,,False,
+1550247,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,AS Roma,497,Frosinone,512,,,False,
+1550248,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Bologna,500,Juventus,496,,,False,
+1550251,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Fiorentina,502,Lazio,487,,,False,
+1550255,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Torino,503,Venezia,517,,,False,
+1550252,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Inter,505,Sassuolo,488,,,False,
+1550254,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Parma,523,Napoli,492,,,False,921
+1550250,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Como,895,Lecce,867,,,False,892
+1550253,2027-01-03T17:30:00+00:00,NS,Regular Season - 17,Monza,1579,AC Milan,489,,,False,
+1550262,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Lazio,487,Inter,505,,,False,
+1550265,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Sassuolo,488,Udinese,494,,,False,
+1550257,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,AC Milan,489,Fiorentina,502,,,False,
+1550264,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Napoli,492,Cagliari,490,,,False,
+1550260,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Genoa,495,Monza,1579,,,False,
+1550261,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Juventus,496,Torino,503,,,False,
+1550258,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Atalanta,499,Como,895,,,False,
+1550259,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Frosinone,512,Bologna,500,,,False,904
+1550266,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Venezia,517,AS Roma,497,,,False,
+1550263,2027-01-06T17:30:00+00:00,NS,Regular Season - 18,Lecce,867,Parma,523,,,False,
+1550269,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Cagliari,490,Sassuolo,488,,,False,12275
+1550276,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Udinese,494,Napoli,492,,,False,
+1550267,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,AS Roma,497,AC Milan,489,,,False,
+1550268,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Bologna,500,Genoa,495,,,False,
+1550271,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Fiorentina,502,Lecce,867,,,False,
+1550275,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Torino,503,Atalanta,499,,,False,
+1550272,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Inter,505,Juventus,496,,,False,
+1550274,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Parma,523,Venezia,517,,,False,921
+1550270,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Como,895,Lazio,487,,,False,892
+1550273,2027-01-10T17:30:00+00:00,NS,Regular Season - 19,Monza,1579,Frosinone,512,,,False,
+1550281,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Lazio,487,Bologna,500,,,False,
+1550285,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Sassuolo,488,Monza,1579,,,False,
+1550277,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,AC Milan,489,Torino,503,,,False,
+1550279,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Cagliari,490,Como,895,,,False,12275
+1550283,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Napoli,492,Fiorentina,502,,,False,
+1550280,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Juventus,496,Genoa,495,,,False,
+1550278,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Atalanta,499,AS Roma,497,,,False,
+1550286,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Venezia,517,Frosinone,512,,,False,
+1550284,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Parma,523,Inter,505,,,False,921
+1550282,2027-01-17T17:30:00+00:00,NS,Regular Season - 20,Lecce,867,Udinese,494,,,False,
+1550292,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Genoa,495,Parma,523,,,False,
+1550294,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Juventus,496,Cagliari,490,,,False,
+1550287,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,AS Roma,497,Udinese,494,,,False,
+1550288,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Bologna,500,Atalanta,499,,,False,
+1550290,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Fiorentina,502,Sassuolo,488,,,False,
+1550293,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Inter,505,Venezia,517,,,False,
+1550291,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Frosinone,512,AC Milan,489,,,False,904
+1550295,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Lecce,867,Torino,503,,,False,
+1550289,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Como,895,Napoli,492,,,False,892
+1550296,2027-01-24T17:30:00+00:00,NS,Regular Season - 21,Monza,1579,Lazio,487,,,False,
+1550301,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Lazio,487,Venezia,517,,,False,
+1550304,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Sassuolo,488,Como,895,,,False,
+1550297,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,AC Milan,489,Juventus,496,,,False,
+1550299,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Cagliari,490,Parma,523,,,False,12275
+1550303,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Napoli,492,Inter,505,,,False,
+1550306,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Udinese,494,Bologna,500,,,False,
+1550300,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Genoa,495,Lecce,867,,,False,
+1550298,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Atalanta,499,Fiorentina,502,,,False,
+1550305,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Torino,503,Frosinone,512,,,False,
+1550302,2027-01-31T17:30:00+00:00,NS,Regular Season - 22,Monza,1579,AS Roma,497,,,False,
+1550313,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Juventus,496,Sassuolo,488,,,False,
+1550307,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,AS Roma,497,Torino,503,,,False,
+1550308,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Atalanta,499,Lazio,487,,,False,
+1550309,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Bologna,500,AC Milan,489,,,False,
+1550311,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Fiorentina,502,Udinese,494,,,False,
+1550312,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Inter,505,Cagliari,490,,,False,
+1550316,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Venezia,517,Genoa,495,,,False,
+1550315,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Parma,523,Frosinone,512,,,False,921
+1550314,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Lecce,867,Napoli,492,,,False,
+1550310,2027-02-07T17:30:00+00:00,NS,Regular Season - 23,Como,895,Monza,1579,,,False,892
+1550319,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Cagliari,490,Lazio,487,,,False,12275
+1550324,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Napoli,492,Juventus,496,,,False,
+1550326,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Udinese,494,Venezia,517,,,False,
+1550321,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Genoa,495,Atalanta,499,,,False,
+1550317,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,AS Roma,497,Parma,523,,,False,
+1550318,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Bologna,500,Como,895,,,False,
+1550325,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Torino,503,Sassuolo,488,,,False,
+1550322,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Inter,505,AC Milan,489,,,False,
+1550320,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Frosinone,512,Fiorentina,502,,,False,904
+1550323,2027-02-14T17:30:00+00:00,NS,Regular Season - 24,Monza,1579,Lecce,867,,,False,
+1550332,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Lazio,487,Napoli,492,,,False,
+1550334,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Sassuolo,488,AS Roma,497,,,False,
+1550327,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,AC Milan,489,Genoa,495,,,False,
+1550335,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Udinese,494,Parma,523,,,False,
+1550331,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Juventus,496,Bologna,500,,,False,
+1550328,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Atalanta,499,Monza,1579,,,False,
+1550330,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Fiorentina,502,Inter,505,,,False,
+1550336,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Venezia,517,Cagliari,490,,,False,
+1550333,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Lecce,867,Frosinone,512,,,False,
+1550329,2027-02-21T17:30:00+00:00,NS,Regular Season - 25,Como,895,Torino,503,,,False,892
+1550339,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Cagliari,490,Udinese,494,,,False,12275
+1550342,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Genoa,495,Lazio,487,,,False,
+1550337,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,AS Roma,497,Venezia,517,,,False,
+1550338,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Bologna,500,Lecce,867,,,False,
+1550346,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Torino,503,Fiorentina,502,,,False,
+1550343,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Inter,505,Atalanta,499,,,False,
+1550341,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Frosinone,512,Napoli,492,,,False,904
+1550345,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Parma,523,Sassuolo,488,,,False,921
+1550340,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Como,895,AC Milan,489,,,False,892
+1550344,2027-02-28T17:30:00+00:00,NS,Regular Season - 26,Monza,1579,Juventus,496,,,False,
+1550351,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Lazio,487,Frosinone,512,,,False,
+1550355,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Sassuolo,488,Bologna,500,,,False,
+1550347,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,AC Milan,489,Cagliari,490,,,False,
+1550354,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Napoli,492,Parma,523,,,False,
+1550356,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Udinese,494,Inter,505,,,False,
+1550350,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Juventus,496,AS Roma,497,,,False,
+1550348,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Atalanta,499,Torino,503,,,False,
+1550349,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Fiorentina,502,Venezia,517,,,False,
+1550352,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Lecce,867,Como,895,,,False,
+1550353,2027-03-07T17:30:00+00:00,NS,Regular Season - 27,Monza,1579,Genoa,495,,,False,
+1550363,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Lazio,487,Juventus,496,,,False,
+1550357,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,AC Milan,489,Sassuolo,488,,,False,
+1550359,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Cagliari,490,Fiorentina,502,,,False,12275
+1550362,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Genoa,495,AS Roma,497,,,False,
+1550358,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Bologna,500,Napoli,492,,,False,
+1550365,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Torino,503,Inter,505,,,False,
+1550361,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Frosinone,512,Monza,1579,,,False,904
+1550366,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Venezia,517,Atalanta,499,,,False,
+1550364,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Parma,523,Lecce,867,,,False,921
+1550360,2027-03-14T17:30:00+00:00,NS,Regular Season - 28,Como,895,Udinese,494,,,False,892
+1550375,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Sassuolo,488,Cagliari,490,,,False,
+1550373,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Napoli,492,Venezia,517,,,False,
+1550376,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Udinese,494,Torino,503,,,False,
+1550371,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Juventus,496,Como,895,,,False,
+1550367,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,AS Roma,497,Lecce,867,,,False,
+1550368,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Atalanta,499,AC Milan,489,,,False,
+1550369,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Fiorentina,502,Genoa,495,,,False,
+1550370,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Inter,505,Frosinone,512,,,False,
+1550374,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Parma,523,Lazio,487,,,False,921
+1550372,2027-03-21T17:30:00+00:00,NS,Regular Season - 29,Monza,1579,Bologna,500,,,False,
+1550384,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Sassuolo,488,Atalanta,499,,,False,
+1550377,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,AC Milan,489,Monza,1579,,,False,
+1550379,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Cagliari,490,Napoli,492,,,False,12275
+1550382,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Genoa,495,Inter,505,,,False,
+1550378,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,AS Roma,497,Bologna,500,,,False,
+1550385,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Torino,503,Juventus,496,,,False,
+1550381,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Frosinone,512,Udinese,494,,,False,904
+1550386,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Venezia,517,Parma,523,,,False,
+1550383,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Lecce,867,Lazio,487,,,False,
+1550380,2027-04-04T16:30:00+00:00,NS,Regular Season - 30,Como,895,Fiorentina,502,,,False,892
+1550393,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Lazio,487,Torino,503,,,False,
+1550388,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Cagliari,490,Atalanta,499,,,False,12275
+1550394,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Napoli,492,Sassuolo,488,,,False,
+1550396,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Udinese,494,Monza,1579,,,False,
+1550392,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Juventus,496,Lecce,867,,,False,
+1550387,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Bologna,500,Venezia,517,,,False,
+1550389,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Fiorentina,502,AC Milan,489,,,False,
+1550391,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Inter,505,AS Roma,497,,,False,
+1550390,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Frosinone,512,Genoa,495,,,False,904
+1550395,2027-04-11T16:30:00+00:00,NS,Regular Season - 31,Parma,523,Como,895,,,False,921
+1550404,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Sassuolo,488,Lecce,867,,,False,
+1550397,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,AC Milan,489,Napoli,492,,,False,
+1550398,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,AS Roma,497,Lazio,487,,,False,
+1550399,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Atalanta,499,Udinese,494,,,False,
+1550400,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Bologna,500,Cagliari,490,,,False,
+1550402,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Fiorentina,502,Parma,523,,,False,
+1550405,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Torino,503,Genoa,495,,,False,
+1550406,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Venezia,517,Juventus,496,,,False,
+1550401,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Como,895,Frosinone,512,,,False,892
+1550403,2027-04-18T16:30:00+00:00,NS,Regular Season - 32,Monza,1579,Inter,505,,,False,
+1550412,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Lazio,487,Como,895,,,False,
+1550407,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Cagliari,490,Monza,1579,,,False,12275
+1550414,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Napoli,492,Udinese,494,,,False,
+1550409,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Genoa,495,Sassuolo,488,,,False,
+1550411,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Juventus,496,Fiorentina,502,,,False,
+1550410,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Inter,505,Bologna,500,,,False,
+1550408,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Frosinone,512,AS Roma,497,,,False,904
+1550416,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Venezia,517,Torino,503,,,False,
+1550415,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Parma,523,Atalanta,499,,,False,921
+1550413,2027-04-25T16:30:00+00:00,NS,Regular Season - 33,Lecce,867,AC Milan,489,,,False,
+1550424,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Sassuolo,488,Frosinone,512,,,False,
+1550417,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,AC Milan,489,Lazio,487,,,False,
+1550426,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Udinese,494,Genoa,495,,,False,
+1550418,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,AS Roma,497,Napoli,492,,,False,
+1550419,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Atalanta,499,Juventus,496,,,False,
+1550420,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Bologna,500,Fiorentina,502,,,False,
+1550425,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Torino,503,Parma,523,,,False,
+1550422,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Lecce,867,Cagliari,490,,,False,
+1550421,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Como,895,Inter,505,,,False,892
+1550423,2027-05-02T16:30:00+00:00,NS,Regular Season - 34,Monza,1579,Venezia,517,,,False,
+1550431,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Lazio,487,Sassuolo,488,,,False,
+1550432,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Napoli,492,Monza,1579,,,False,
+1550435,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Udinese,494,Juventus,496,,,False,
+1550429,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Genoa,495,Cagliari,490,,,False,
+1550427,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Fiorentina,502,AS Roma,497,,,False,
+1550434,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Torino,503,Bologna,500,,,False,
+1550430,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Inter,505,Lecce,867,,,False,
+1550428,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Frosinone,512,Atalanta,499,,,False,904
+1550436,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Venezia,517,Como,895,,,False,
+1550433,2027-05-09T16:30:00+00:00,NS,Regular Season - 35,Parma,523,AC Milan,489,,,False,921
+1550442,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Lazio,487,Udinese,494,,,False,
+1550446,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Sassuolo,488,Venezia,517,,,False,
+1550437,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,AC Milan,489,AS Roma,497,,,False,
+1550439,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Cagliari,490,Torino,503,,,False,12275
+1550445,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Napoli,492,Genoa,495,,,False,
+1550441,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Juventus,496,Inter,505,,,False,
+1550438,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Bologna,500,Frosinone,512,,,False,
+1550443,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Lecce,867,Fiorentina,502,,,False,
+1550440,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Como,895,Atalanta,499,,,False,892
+1550444,2027-05-16T16:30:00+00:00,NS,Regular Season - 36,Monza,1579,Parma,523,,,False,
+1550455,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Udinese,494,Sassuolo,488,,,False,
+1550451,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Genoa,495,Bologna,500,,,False,
+1550447,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,AS Roma,497,Como,895,,,False,
+1550448,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Atalanta,499,Lecce,867,,,False,
+1550449,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Fiorentina,502,Monza,1579,,,False,
+1550454,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Torino,503,Napoli,492,,,False,
+1550452,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Inter,505,Lazio,487,,,False,
+1550450,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Frosinone,512,Cagliari,490,,,False,904
+1550456,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Venezia,517,AC Milan,489,,,False,
+1550453,2027-05-23T16:30:00+00:00,NS,Regular Season - 37,Parma,523,Juventus,496,,,False,921
+1550462,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Lazio,487,Fiorentina,502,,,False,
+1550466,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Sassuolo,488,Inter,505,,,False,
+1550457,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,AC Milan,489,Udinese,494,,,False,
+1550459,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Cagliari,490,AS Roma,497,,,False,12275
+1550465,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Napoli,492,Atalanta,499,,,False,
+1550461,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Juventus,496,Frosinone,512,,,False,
+1550458,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Bologna,500,Parma,523,,,False,
+1550463,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Lecce,867,Venezia,517,,,False,
+1550460,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Como,895,Genoa,495,,,False,892
+1550464,2027-05-30T16:30:00+00:00,NS,Regular Season - 38,Monza,1579,Torino,503,,,False,

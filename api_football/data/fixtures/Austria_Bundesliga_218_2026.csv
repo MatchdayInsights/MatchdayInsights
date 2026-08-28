@@ -1,46 +1,46 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1561894,2026-07-31T17:30:00+00:00,FT,Regular Season - 1,Lask Linz,1026,Grazer AK,4256,3,0,True,143
 1561895,2026-08-01T15:00:00+00:00,FT,Regular Season - 1,WSG Wattens,1398,Sturm Graz,637,1,1,True,152
 1561896,2026-08-01T17:30:00+00:00,FT,Regular Season - 1,Red Bull Salzburg,571,TSV Hartberg,1072,1,0,True,
 1561898,2026-08-02T15:00:00+00:00,FT,Regular Season - 1,Wolfsberger AC,1025,Austria Vienna,601,3,0,True,1761
 1561897,2026-08-02T15:00:00+00:00,FT,Regular Season - 1,Austria Lustenau,1399,Ried,1028,1,1,True,135
 1561899,2026-08-02T17:00:00+00:00,FT,Regular Season - 1,Rapid Vienna,781,SCR Altach,618,1,0,True,
-1561900,2026-08-07T17:30:00+00:00,NS,Regular Season - 2,SCR Altach,618,WSG Wattens,1398,,,False,146
-1561901,2026-08-08T15:00:00+00:00,NS,Regular Season - 2,Grazer AK,4256,Austria Lustenau,1399,,,False,150
-1561902,2026-08-08T17:30:00+00:00,NS,Regular Season - 2,TSV Hartberg,1072,Sturm Graz,637,,,False,
-1561904,2026-08-09T15:00:00+00:00,NS,Regular Season - 2,Wolfsberger AC,1025,Red Bull Salzburg,571,,,False,1761
-1561903,2026-08-09T15:00:00+00:00,NS,Regular Season - 2,Ried,1028,Rapid Vienna,781,,,False,
-1561905,2026-08-09T17:00:00+00:00,NS,Regular Season - 2,Austria Vienna,601,Lask Linz,1026,,,False,
-1561906,2026-08-14T17:30:00+00:00,NS,Regular Season - 3,Lask Linz,1026,Ried,1028,,,False,143
-1561907,2026-08-15T15:00:00+00:00,NS,Regular Season - 3,Austria Lustenau,1399,Wolfsberger AC,1025,,,False,135
-1561908,2026-08-15T17:30:00+00:00,NS,Regular Season - 3,Sturm Graz,637,SCR Altach,618,,,False,150
-1561909,2026-08-16T15:00:00+00:00,NS,Regular Season - 3,TSV Hartberg,1072,Austria Vienna,601,,,False,
-1561910,2026-08-16T15:00:00+00:00,NS,Regular Season - 3,WSG Wattens,1398,Red Bull Salzburg,571,,,False,152
-1561911,2026-08-16T17:00:00+00:00,NS,Regular Season - 3,Rapid Vienna,781,Grazer AK,4256,,,False,
-1561912,2026-08-21T17:30:00+00:00,NS,Regular Season - 4,Ried,1028,Grazer AK,4256,,,False,
-1561913,2026-08-22T15:00:00+00:00,NS,Regular Season - 4,SCR Altach,618,TSV Hartberg,1072,,,False,146
-1561914,2026-08-22T15:00:00+00:00,NS,Regular Season - 4,Sturm Graz,637,Austria Lustenau,1399,,,False,150
-1561915,2026-08-22T17:30:00+00:00,NS,Regular Season - 4,Wolfsberger AC,1025,Lask Linz,1026,,,False,1761
-1561916,2026-08-23T15:00:00+00:00,NS,Regular Season - 4,Austria Vienna,601,WSG Wattens,1398,,,False,
-1561917,2026-08-23T17:00:00+00:00,NS,Regular Season - 4,Red Bull Salzburg,571,Rapid Vienna,781,,,False,
+1561900,2026-08-07T17:30:00+00:00,FT,Regular Season - 2,SCR Altach,618,WSG Wattens,1398,3,1,True,146
+1561901,2026-08-08T15:00:00+00:00,FT,Regular Season - 2,Grazer AK,4256,Austria Lustenau,1399,2,1,True,150
+1561902,2026-08-08T17:30:00+00:00,FT,Regular Season - 2,TSV Hartberg,1072,Sturm Graz,637,0,2,True,
+1561904,2026-08-09T15:00:00+00:00,FT,Regular Season - 2,Wolfsberger AC,1025,Red Bull Salzburg,571,1,1,True,1761
+1561903,2026-08-09T15:00:00+00:00,FT,Regular Season - 2,Ried,1028,Rapid Vienna,781,1,2,True,
+1561905,2026-08-09T17:00:00+00:00,FT,Regular Season - 2,Austria Vienna,601,Lask Linz,1026,0,2,True,
+1561906,2026-08-14T17:30:00+00:00,FT,Regular Season - 3,Lask Linz,1026,Ried,1028,4,1,True,143
+1561907,2026-08-15T15:00:00+00:00,FT,Regular Season - 3,Austria Lustenau,1399,Wolfsberger AC,1025,2,1,True,135
+1561908,2026-08-15T17:30:00+00:00,FT,Regular Season - 3,Sturm Graz,637,SCR Altach,618,1,0,True,150
+1561909,2026-08-16T15:00:00+00:00,FT,Regular Season - 3,TSV Hartberg,1072,Austria Vienna,601,0,2,True,
+1561910,2026-08-16T15:00:00+00:00,FT,Regular Season - 3,WSG Wattens,1398,Red Bull Salzburg,571,0,3,True,152
+1561911,2026-08-16T17:00:00+00:00,FT,Regular Season - 3,Rapid Vienna,781,Grazer AK,4256,8,0,True,
+1561912,2026-08-21T17:30:00+00:00,FT,Regular Season - 4,Ried,1028,Grazer AK,4256,1,0,True,
+1561913,2026-08-22T15:00:00+00:00,FT,Regular Season - 4,SCR Altach,618,TSV Hartberg,1072,1,2,True,146
+1561914,2026-08-22T17:30:00+00:00,FT,Regular Season - 4,Sturm Graz,637,Austria Lustenau,1399,1,1,True,150
 1561918,2026-08-28T17:30:00+00:00,NS,Regular Season - 5,Austria Lustenau,1399,WSG Wattens,1398,,,False,135
 1561919,2026-08-29T15:00:00+00:00,NS,Regular Season - 5,Grazer AK,4256,Wolfsberger AC,1025,,,False,150
 1561920,2026-08-29T17:30:00+00:00,NS,Regular Season - 5,Lask Linz,1026,SCR Altach,618,,,False,143
 1561922,2026-08-30T15:00:00+00:00,NS,Regular Season - 5,Rapid Vienna,781,Sturm Graz,637,,,False,
 1561921,2026-08-30T15:00:00+00:00,NS,Regular Season - 5,TSV Hartberg,1072,Ried,1028,,,False,
 1561923,2026-08-30T17:00:00+00:00,NS,Regular Season - 5,Red Bull Salzburg,571,Austria Vienna,601,,,False,
-1561925,2026-09-12T15:00:00+00:00,NS,Regular Season - 6,Austria Vienna,601,Austria Lustenau,1399,,,False,
+1561915,2026-09-01T17:30:00+00:00,NS,Regular Season - 4,Wolfsberger AC,1025,Lask Linz,1026,,,False,1761
+1561916,2026-09-02T16:30:00+00:00,NS,Regular Season - 4,Austria Vienna,601,WSG Wattens,1398,,,False,
+1561917,2026-09-02T18:30:00+00:00,NS,Regular Season - 4,Red Bull Salzburg,571,Rapid Vienna,781,,,False,
+1561926,2026-09-11T17:30:00+00:00,NS,Regular Season - 6,Ried,1028,Red Bull Salzburg,571,,,False,
 1561924,2026-09-12T15:00:00+00:00,NS,Regular Season - 6,SCR Altach,618,Grazer AK,4256,,,False,146
-1561927,2026-09-12T15:00:00+00:00,NS,Regular Season - 6,Sturm Graz,637,Lask Linz,1026,,,False,150
-1561929,2026-09-12T15:00:00+00:00,NS,Regular Season - 6,Wolfsberger AC,1025,Rapid Vienna,781,,,False,1761
-1561926,2026-09-12T15:00:00+00:00,NS,Regular Season - 6,Ried,1028,Red Bull Salzburg,571,,,False,
-1561928,2026-09-12T15:00:00+00:00,NS,Regular Season - 6,WSG Wattens,1398,TSV Hartberg,1072,,,False,152
-1561934,2026-09-19T15:00:00+00:00,NS,Regular Season - 7,Red Bull Salzburg,571,Sturm Graz,637,,,False,
-1561935,2026-09-19T15:00:00+00:00,NS,Regular Season - 7,Rapid Vienna,781,WSG Wattens,1398,,,False,
-1561933,2026-09-19T15:00:00+00:00,NS,Regular Season - 7,Ried,1028,Wolfsberger AC,1025,,,False,
-1561932,2026-09-19T15:00:00+00:00,NS,Regular Season - 7,TSV Hartberg,1072,Lask Linz,1026,,,False,
+1561929,2026-09-12T17:30:00+00:00,NS,Regular Season - 6,Wolfsberger AC,1025,Rapid Vienna,781,,,False,1761
+1561925,2026-09-13T12:30:00+00:00,NS,Regular Season - 6,Austria Vienna,601,Austria Lustenau,1399,,,False,
+1561928,2026-09-13T12:30:00+00:00,NS,Regular Season - 6,WSG Wattens,1398,TSV Hartberg,1072,,,False,152
+1561927,2026-09-13T15:00:00+00:00,NS,Regular Season - 6,Sturm Graz,637,Lask Linz,1026,,,False,150
+1561935,2026-09-18T17:30:00+00:00,NS,Regular Season - 7,Rapid Vienna,781,WSG Wattens,1398,,,False,
 1561930,2026-09-19T15:00:00+00:00,NS,Regular Season - 7,Austria Lustenau,1399,SCR Altach,618,,,False,135
-1561931,2026-09-19T15:00:00+00:00,NS,Regular Season - 7,Grazer AK,4256,Austria Vienna,601,,,False,150
+1561931,2026-09-19T17:30:00+00:00,NS,Regular Season - 7,Grazer AK,4256,Austria Vienna,601,,,False,150
+1561933,2026-09-20T12:30:00+00:00,NS,Regular Season - 7,Ried,1028,Wolfsberger AC,1025,,,False,
+1561932,2026-09-20T12:30:00+00:00,NS,Regular Season - 7,TSV Hartberg,1072,Lask Linz,1026,,,False,
+1561934,2026-09-20T15:00:00+00:00,NS,Regular Season - 7,Red Bull Salzburg,571,Sturm Graz,637,,,False,
 1561937,2026-10-10T15:00:00+00:00,NS,Regular Season - 8,Austria Vienna,601,Sturm Graz,637,,,False,
 1561936,2026-10-10T15:00:00+00:00,NS,Regular Season - 8,SCR Altach,618,Wolfsberger AC,1025,,,False,146
 1561940,2026-10-10T15:00:00+00:00,NS,Regular Season - 8,Lask Linz,1026,Rapid Vienna,781,,,False,143

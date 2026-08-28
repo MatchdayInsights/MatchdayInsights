@@ -1,0 +1,381 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1595138,2026-08-20T13:30:00+00:00,FT,Regular Season - 1,El Dakhleya,1032,Mega Sport,28011,0,0,True,
+1594796,2026-08-20T13:30:00+00:00,FT,Regular Season - 1,El Entag EL Harby,1034,AL Nasr SC,2617,1,1,True,
+1594798,2026-08-20T13:30:00+00:00,FT,Regular Season - 1,Haras El Hodood,1576,Itesalat,18032,2,0,True,
+1594797,2026-08-20T13:30:00+00:00,FT,Regular Season - 1,El Mansura,16432,Baladiyyat Al Mehalla,18036,2,1,True,
+1594799,2026-08-20T13:30:00+00:00,FT,Regular Season - 1,La Viena FC,16436,Kahraba Ismailia,20458,1,1,True,
+1594802,2026-08-21T13:30:00+00:00,FT,Regular Season - 1,Ismaily SC,1030,Masar,25468,1,3,True,
+1594804,2026-08-21T13:30:00+00:00,FT,Regular Season - 1,Tanta SC,1045,Team,25472,2,1,True,2686
+1594801,2026-08-21T13:30:00+00:00,FT,Regular Season - 1,Dayrout,18022,Maleyet Kafr El Zayiat,25467,0,2,True,
+1594800,2026-08-21T13:30:00+00:00,FT,Regular Season - 1,El Seka El Hadid,18031,Tersana,15739,0,1,True,12576
+1594803,2026-08-21T13:30:00+00:00,FT,Regular Season - 1,Proxy,20461,Pharco,15736,0,1,True,19651
+1594808,2026-08-27T13:30:00+00:00,FT,Regular Season - 2,Tersana,15739,La Viena FC,16436,0,0,True,
+1594805,2026-08-27T13:30:00+00:00,FT,Regular Season - 2,Kahraba Ismailia,20458,Proxy,20461,3,0,True,
+1594806,2026-08-27T13:30:00+00:00,FT,Regular Season - 2,Maleyet Kafr El Zayiat,25467,Tanta SC,1045,0,0,True,
+1594807,2026-08-27T13:30:00+00:00,FT,Regular Season - 2,Team,25472,El Seka El Hadid,18031,1,2,True,
+1595139,2026-08-27T13:30:00+00:00,FT,Regular Season - 2,Mega Sport,28011,El Entag EL Harby,1034,1,1,True,
+1594809,2026-08-28T13:30:00+00:00,NS,Regular Season - 2,AL Nasr SC,2617,Haras El Hodood,1576,,,False,
+1594812,2026-08-28T13:30:00+00:00,NS,Regular Season - 2,Pharco,15736,El Mansura,16432,,,False,
+1594813,2026-08-28T13:30:00+00:00,NS,Regular Season - 2,Itesalat,18032,Ismaily SC,1030,,,False,
+1594810,2026-08-28T13:30:00+00:00,NS,Regular Season - 2,Baladiyyat Al Mehalla,18036,El Dakhleya,1032,,,False,8544
+1594811,2026-08-28T13:30:00+00:00,NS,Regular Season - 2,Masar,25468,Dayrout,18022,,,False,
+1594817,2026-09-03T13:30:00+00:00,NS,Regular Season - 3,Haras El Hodood,1576,El Entag EL Harby,1034,,,False,
+1594816,2026-09-03T13:30:00+00:00,NS,Regular Season - 3,El Mansura,16432,Kahraba Ismailia,20458,,,False,
+1594818,2026-09-03T13:30:00+00:00,NS,Regular Season - 3,La Viena FC,16436,Team,25472,,,False,
+1594815,2026-09-03T13:30:00+00:00,NS,Regular Season - 3,Dayrout,18022,Itesalat,18032,,,False,
+1594814,2026-09-03T13:30:00+00:00,NS,Regular Season - 3,El Seka El Hadid,18031,Maleyet Kafr El Zayiat,25467,,,False,12576
+1595140,2026-09-03T13:30:00+00:00,NS,Regular Season - 3,Baladiyyat Al Mehalla,18036,Mega Sport,28011,,,False,8544
+1594820,2026-09-04T13:30:00+00:00,NS,Regular Season - 3,Ismaily SC,1030,AL Nasr SC,2617,,,False,
+1594819,2026-09-04T13:30:00+00:00,NS,Regular Season - 3,El Dakhleya,1032,Pharco,15736,,,False,
+1594822,2026-09-04T13:30:00+00:00,NS,Regular Season - 3,Tanta SC,1045,Masar,25468,,,False,2686
+1594821,2026-09-04T13:30:00+00:00,NS,Regular Season - 3,Proxy,20461,Tersana,15739,,,False,19651
+1594823,2026-09-10T13:30:00+00:00,NS,Regular Season - 4,AL Nasr SC,2617,Dayrout,18022,,,False,
+1594826,2026-09-10T13:30:00+00:00,NS,Regular Season - 4,Pharco,15736,Baladiyyat Al Mehalla,18036,,,False,
+1594824,2026-09-10T13:30:00+00:00,NS,Regular Season - 4,Kahraba Ismailia,20458,El Dakhleya,1032,,,False,
+1594825,2026-09-10T13:30:00+00:00,NS,Regular Season - 4,Masar,25468,El Seka El Hadid,18031,,,False,
+1595141,2026-09-10T13:30:00+00:00,NS,Regular Season - 4,Mega Sport,28011,Haras El Hodood,1576,,,False,
+1594827,2026-09-11T13:30:00+00:00,NS,Regular Season - 4,El Entag EL Harby,1034,Ismaily SC,1030,,,False,
+1594830,2026-09-11T13:30:00+00:00,NS,Regular Season - 4,Tersana,15739,El Mansura,16432,,,False,
+1594831,2026-09-11T13:30:00+00:00,NS,Regular Season - 4,Itesalat,18032,Tanta SC,1045,,,False,
+1594828,2026-09-11T13:30:00+00:00,NS,Regular Season - 4,Maleyet Kafr El Zayiat,25467,La Viena FC,16436,,,False,
+1594829,2026-09-11T13:30:00+00:00,NS,Regular Season - 4,Team,25472,Proxy,20461,,,False,
+1594834,2026-09-17T13:30:00+00:00,NS,Regular Season - 5,Ismaily SC,1030,Haras El Hodood,1576,,,False,
+1594833,2026-09-17T13:30:00+00:00,NS,Regular Season - 5,El Dakhleya,1032,Tersana,15739,,,False,
+1594836,2026-09-17T13:30:00+00:00,NS,Regular Season - 5,Tanta SC,1045,AL Nasr SC,2617,,,False,2686
+1594835,2026-09-17T13:30:00+00:00,NS,Regular Season - 5,El Mansura,16432,Team,25472,,,False,
+1594832,2026-09-17T13:30:00+00:00,NS,Regular Season - 5,Dayrout,18022,El Entag EL Harby,1034,,,False,
+1595142,2026-09-18T13:30:00+00:00,NS,Regular Season - 5,Pharco,15736,Mega Sport,28011,,,False,
+1594839,2026-09-18T13:30:00+00:00,NS,Regular Season - 5,La Viena FC,16436,Masar,25468,,,False,
+1594837,2026-09-18T13:30:00+00:00,NS,Regular Season - 5,El Seka El Hadid,18031,Itesalat,18032,,,False,12576
+1594838,2026-09-18T13:30:00+00:00,NS,Regular Season - 5,Baladiyyat Al Mehalla,18036,Kahraba Ismailia,20458,,,False,8544
+1594840,2026-09-18T13:30:00+00:00,NS,Regular Season - 5,Proxy,20461,Maleyet Kafr El Zayiat,25467,,,False,19651
+1594841,2026-09-24T13:30:00+00:00,NS,Regular Season - 6,AL Nasr SC,2617,El Seka El Hadid,18031,,,False,
+1594842,2026-09-24T13:30:00+00:00,NS,Regular Season - 6,Kahraba Ismailia,20458,Pharco,15736,,,False,
+1594843,2026-09-24T13:30:00+00:00,NS,Regular Season - 6,Maleyet Kafr El Zayiat,25467,El Mansura,16432,,,False,
+1594844,2026-09-24T13:30:00+00:00,NS,Regular Season - 6,Masar,25468,Proxy,20461,,,False,
+1594845,2026-09-24T13:30:00+00:00,NS,Regular Season - 6,Team,25472,El Dakhleya,1032,,,False,
+1594846,2026-09-25T13:30:00+00:00,NS,Regular Season - 6,El Entag EL Harby,1034,Tanta SC,1045,,,False,
+1594847,2026-09-25T13:30:00+00:00,NS,Regular Season - 6,Haras El Hodood,1576,Dayrout,18022,,,False,
+1594848,2026-09-25T13:30:00+00:00,NS,Regular Season - 6,Tersana,15739,Baladiyyat Al Mehalla,18036,,,False,
+1594849,2026-09-25T13:30:00+00:00,NS,Regular Season - 6,Itesalat,18032,La Viena FC,16436,,,False,
+1595143,2026-09-25T13:30:00+00:00,NS,Regular Season - 6,Mega Sport,28011,Ismaily SC,1030,,,False,
+1594854,2026-10-01T12:30:00+00:00,NS,Regular Season - 7,Pharco,15736,Tersana,15739,,,False,
+1594852,2026-10-01T12:30:00+00:00,NS,Regular Season - 7,El Mansura,16432,Masar,25468,,,False,
+1594853,2026-10-01T12:30:00+00:00,NS,Regular Season - 7,La Viena FC,16436,AL Nasr SC,2617,,,False,
+1594851,2026-10-01T12:30:00+00:00,NS,Regular Season - 7,Dayrout,18022,Ismaily SC,1030,,,False,
+1594850,2026-10-01T12:30:00+00:00,NS,Regular Season - 7,El Seka El Hadid,18031,El Entag EL Harby,1034,,,False,12576
+1594856,2026-10-02T12:30:00+00:00,NS,Regular Season - 7,El Dakhleya,1032,Maleyet Kafr El Zayiat,25467,,,False,
+1594858,2026-10-02T12:30:00+00:00,NS,Regular Season - 7,Tanta SC,1045,Haras El Hodood,1576,,,False,2686
+1594855,2026-10-02T12:30:00+00:00,NS,Regular Season - 7,Baladiyyat Al Mehalla,18036,Team,25472,,,False,8544
+1595144,2026-10-02T12:30:00+00:00,NS,Regular Season - 7,Kahraba Ismailia,20458,Mega Sport,28011,,,False,
+1594857,2026-10-02T12:30:00+00:00,NS,Regular Season - 7,Proxy,20461,Itesalat,18032,,,False,19651
+1594860,2026-10-08T12:30:00+00:00,NS,Regular Season - 8,Haras El Hodood,1576,El Seka El Hadid,18031,,,False,
+1594859,2026-10-08T12:30:00+00:00,NS,Regular Season - 8,AL Nasr SC,2617,Proxy,20461,,,False,
+1594862,2026-10-08T12:30:00+00:00,NS,Regular Season - 8,Tersana,15739,Kahraba Ismailia,20458,,,False,
+1594861,2026-10-08T12:30:00+00:00,NS,Regular Season - 8,Masar,25468,El Dakhleya,1032,,,False,
+1595145,2026-10-08T12:30:00+00:00,NS,Regular Season - 8,Mega Sport,28011,Dayrout,18022,,,False,
+1594864,2026-10-09T12:30:00+00:00,NS,Regular Season - 8,Ismaily SC,1030,Tanta SC,1045,,,False,
+1594863,2026-10-09T12:30:00+00:00,NS,Regular Season - 8,El Entag EL Harby,1034,La Viena FC,16436,,,False,
+1594867,2026-10-09T12:30:00+00:00,NS,Regular Season - 8,Itesalat,18032,El Mansura,16432,,,False,
+1594865,2026-10-09T12:30:00+00:00,NS,Regular Season - 8,Maleyet Kafr El Zayiat,25467,Baladiyyat Al Mehalla,18036,,,False,
+1594866,2026-10-09T12:30:00+00:00,NS,Regular Season - 8,Team,25472,Pharco,15736,,,False,
+1594868,2026-10-15T12:30:00+00:00,NS,Regular Season - 9,El Dakhleya,1032,Itesalat,18032,,,False,
+1594872,2026-10-15T12:30:00+00:00,NS,Regular Season - 9,Tanta SC,1045,Dayrout,18022,,,False,2686
+1594869,2026-10-15T12:30:00+00:00,NS,Regular Season - 9,El Mansura,16432,AL Nasr SC,2617,,,False,
+1594871,2026-10-15T12:30:00+00:00,NS,Regular Season - 9,La Viena FC,16436,Haras El Hodood,1576,,,False,
+1594870,2026-10-15T12:30:00+00:00,NS,Regular Season - 9,Kahraba Ismailia,20458,Team,25472,,,False,
+1594875,2026-10-16T12:30:00+00:00,NS,Regular Season - 9,Pharco,15736,Maleyet Kafr El Zayiat,25467,,,False,
+1595146,2026-10-16T12:30:00+00:00,NS,Regular Season - 9,Tersana,15739,Mega Sport,28011,,,False,
+1594873,2026-10-16T12:30:00+00:00,NS,Regular Season - 9,El Seka El Hadid,18031,Ismaily SC,1030,,,False,12576
+1594874,2026-10-16T12:30:00+00:00,NS,Regular Season - 9,Baladiyyat Al Mehalla,18036,Masar,25468,,,False,8544
+1594876,2026-10-16T12:30:00+00:00,NS,Regular Season - 9,Proxy,20461,El Entag EL Harby,1034,,,False,19651
+1594877,2026-10-22T12:30:00+00:00,NS,Regular Season - 10,AL Nasr SC,2617,El Dakhleya,1032,,,False,
+1594878,2026-10-22T12:30:00+00:00,NS,Regular Season - 10,Dayrout,18022,El Seka El Hadid,18031,,,False,
+1594880,2026-10-22T12:30:00+00:00,NS,Regular Season - 10,Itesalat,18032,Baladiyyat Al Mehalla,18036,,,False,
+1594879,2026-10-22T12:30:00+00:00,NS,Regular Season - 10,Maleyet Kafr El Zayiat,25467,Kahraba Ismailia,20458,,,False,
+1595147,2026-10-22T12:30:00+00:00,NS,Regular Season - 10,Mega Sport,28011,Tanta SC,1045,,,False,
+1594882,2026-10-23T12:30:00+00:00,NS,Regular Season - 10,Ismaily SC,1030,La Viena FC,16436,,,False,
+1594881,2026-10-23T12:30:00+00:00,NS,Regular Season - 10,El Entag EL Harby,1034,El Mansura,16432,,,False,
+1594883,2026-10-23T12:30:00+00:00,NS,Regular Season - 10,Haras El Hodood,1576,Proxy,20461,,,False,
+1594884,2026-10-23T12:30:00+00:00,NS,Regular Season - 10,Masar,25468,Pharco,15736,,,False,
+1594885,2026-10-23T12:30:00+00:00,NS,Regular Season - 10,Team,25472,Tersana,15739,,,False,
+1594888,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,El Dakhleya,1032,El Entag EL Harby,1034,,,False,
+1594892,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,Pharco,15736,Itesalat,18032,,,False,
+1594894,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,Tersana,15739,Maleyet Kafr El Zayiat,25467,,,False,
+1594889,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,El Mansura,16432,Haras El Hodood,1576,,,False,
+1594891,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,La Viena FC,16436,Dayrout,18022,,,False,
+1594886,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,El Seka El Hadid,18031,Tanta SC,1045,,,False,12576
+1594887,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,Baladiyyat Al Mehalla,18036,AL Nasr SC,2617,,,False,8544
+1594890,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,Kahraba Ismailia,20458,Masar,25468,,,False,
+1594893,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,Proxy,20461,Ismaily SC,1030,,,False,19651
+1595148,2026-10-29T12:30:00+00:00,NS,Regular Season - 11,Team,25472,Mega Sport,28011,,,False,
+1594897,2026-11-05T12:30:00+00:00,NS,Regular Season - 12,El Entag EL Harby,1034,Baladiyyat Al Mehalla,18036,,,False,
+1594895,2026-11-05T12:30:00+00:00,NS,Regular Season - 12,AL Nasr SC,2617,Pharco,15736,,,False,
+1594896,2026-11-05T12:30:00+00:00,NS,Regular Season - 12,Dayrout,18022,Proxy,20461,,,False,
+1594898,2026-11-05T12:30:00+00:00,NS,Regular Season - 12,Masar,25468,Tersana,15739,,,False,
+1595149,2026-11-05T12:30:00+00:00,NS,Regular Season - 12,Mega Sport,28011,El Seka El Hadid,18031,,,False,
+1594899,2026-11-06T12:30:00+00:00,NS,Regular Season - 12,Ismaily SC,1030,El Mansura,16432,,,False,
+1594902,2026-11-06T12:30:00+00:00,NS,Regular Season - 12,Tanta SC,1045,La Viena FC,16436,,,False,2686
+1594900,2026-11-06T12:30:00+00:00,NS,Regular Season - 12,Haras El Hodood,1576,El Dakhleya,1032,,,False,
+1594903,2026-11-06T12:30:00+00:00,NS,Regular Season - 12,Itesalat,18032,Kahraba Ismailia,20458,,,False,
+1594901,2026-11-06T12:30:00+00:00,NS,Regular Season - 12,Maleyet Kafr El Zayiat,25467,Team,25472,,,False,
+1594905,2026-11-19T12:30:00+00:00,NS,Regular Season - 13,El Dakhleya,1032,Ismaily SC,1030,,,False,
+1594907,2026-11-19T12:30:00+00:00,NS,Regular Season - 13,Pharco,15736,El Entag EL Harby,1034,,,False,
+1594908,2026-11-19T12:30:00+00:00,NS,Regular Season - 13,Tersana,15739,Itesalat,18032,,,False,
+1594906,2026-11-19T12:30:00+00:00,NS,Regular Season - 13,La Viena FC,16436,El Seka El Hadid,18031,,,False,
+1594904,2026-11-19T12:30:00+00:00,NS,Regular Season - 13,Baladiyyat Al Mehalla,18036,Haras El Hodood,1576,,,False,8544
+1594909,2026-11-20T12:30:00+00:00,NS,Regular Season - 13,El Mansura,16432,Dayrout,18022,,,False,
+1594910,2026-11-20T12:30:00+00:00,NS,Regular Season - 13,Kahraba Ismailia,20458,AL Nasr SC,2617,,,False,
+1594911,2026-11-20T12:30:00+00:00,NS,Regular Season - 13,Proxy,20461,Tanta SC,1045,,,False,19651
+1595150,2026-11-20T12:30:00+00:00,NS,Regular Season - 13,Maleyet Kafr El Zayiat,25467,Mega Sport,28011,,,False,
+1594912,2026-11-20T12:30:00+00:00,NS,Regular Season - 13,Team,25472,Masar,25468,,,False,
+1594916,2026-11-26T12:30:00+00:00,NS,Regular Season - 14,El Entag EL Harby,1034,Kahraba Ismailia,20458,,,False,
+1594913,2026-11-26T12:30:00+00:00,NS,Regular Season - 14,AL Nasr SC,2617,Tersana,15739,,,False,
+1594915,2026-11-26T12:30:00+00:00,NS,Regular Season - 14,Dayrout,18022,El Dakhleya,1032,,,False,
+1594914,2026-11-26T12:30:00+00:00,NS,Regular Season - 14,El Seka El Hadid,18031,Proxy,20461,,,False,12576
+1595151,2026-11-26T12:30:00+00:00,NS,Regular Season - 14,Mega Sport,28011,La Viena FC,16436,,,False,
+1594917,2026-11-27T12:30:00+00:00,NS,Regular Season - 14,Ismaily SC,1030,Baladiyyat Al Mehalla,18036,,,False,
+1594920,2026-11-27T12:30:00+00:00,NS,Regular Season - 14,Tanta SC,1045,El Mansura,16432,,,False,2686
+1594918,2026-11-27T12:30:00+00:00,NS,Regular Season - 14,Haras El Hodood,1576,Pharco,15736,,,False,
+1594921,2026-11-27T12:30:00+00:00,NS,Regular Season - 14,Itesalat,18032,Team,25472,,,False,
+1594919,2026-11-27T12:30:00+00:00,NS,Regular Season - 14,Masar,25468,Maleyet Kafr El Zayiat,25467,,,False,
+1594924,2026-12-03T12:30:00+00:00,NS,Regular Season - 15,Pharco,15736,Ismaily SC,1030,,,False,
+1594922,2026-12-03T12:30:00+00:00,NS,Regular Season - 15,El Mansura,16432,El Seka El Hadid,18031,,,False,
+1594923,2026-12-03T12:30:00+00:00,NS,Regular Season - 15,Kahraba Ismailia,20458,Haras El Hodood,1576,,,False,
+1595152,2026-12-03T12:30:00+00:00,NS,Regular Season - 15,Masar,25468,Mega Sport,28011,,,False,
+1594925,2026-12-03T12:30:00+00:00,NS,Regular Season - 15,Team,25472,AL Nasr SC,2617,,,False,
+1594927,2026-12-04T12:30:00+00:00,NS,Regular Season - 15,El Dakhleya,1032,Tanta SC,1045,,,False,
+1594930,2026-12-04T12:30:00+00:00,NS,Regular Season - 15,Tersana,15739,El Entag EL Harby,1034,,,False,
+1594926,2026-12-04T12:30:00+00:00,NS,Regular Season - 15,Baladiyyat Al Mehalla,18036,Dayrout,18022,,,False,8544
+1594929,2026-12-04T12:30:00+00:00,NS,Regular Season - 15,Proxy,20461,La Viena FC,16436,,,False,19651
+1594928,2026-12-04T12:30:00+00:00,NS,Regular Season - 15,Maleyet Kafr El Zayiat,25467,Itesalat,18032,,,False,
+1594933,2026-12-10T12:30:00+00:00,NS,Regular Season - 16,El Entag EL Harby,1034,Team,25472,,,False,
+1594934,2026-12-10T12:30:00+00:00,NS,Regular Season - 16,Haras El Hodood,1576,Tersana,15739,,,False,
+1594931,2026-12-10T12:30:00+00:00,NS,Regular Season - 16,AL Nasr SC,2617,Maleyet Kafr El Zayiat,25467,,,False,
+1594932,2026-12-10T12:30:00+00:00,NS,Regular Season - 16,Dayrout,18022,Pharco,15736,,,False,
+1595153,2026-12-10T12:30:00+00:00,NS,Regular Season - 16,Mega Sport,28011,Proxy,20461,,,False,
+1594936,2026-12-11T12:30:00+00:00,NS,Regular Season - 16,Ismaily SC,1030,Kahraba Ismailia,20458,,,False,
+1594938,2026-12-11T12:30:00+00:00,NS,Regular Season - 16,Tanta SC,1045,Baladiyyat Al Mehalla,18036,,,False,2686
+1594937,2026-12-11T12:30:00+00:00,NS,Regular Season - 16,La Viena FC,16436,El Mansura,16432,,,False,
+1594935,2026-12-11T12:30:00+00:00,NS,Regular Season - 16,El Seka El Hadid,18031,El Dakhleya,1032,,,False,12576
+1594939,2026-12-11T12:30:00+00:00,NS,Regular Season - 16,Itesalat,18032,Masar,25468,,,False,
+1594940,2026-12-17T12:30:00+00:00,NS,Regular Season - 17,El Dakhleya,1032,La Viena FC,16436,,,False,
+1594943,2026-12-17T12:30:00+00:00,NS,Regular Season - 17,Pharco,15736,Tanta SC,1045,,,False,
+1594941,2026-12-17T12:30:00+00:00,NS,Regular Season - 17,Kahraba Ismailia,20458,Dayrout,18022,,,False,
+1594942,2026-12-17T12:30:00+00:00,NS,Regular Season - 17,Maleyet Kafr El Zayiat,25467,El Entag EL Harby,1034,,,False,
+1594944,2026-12-17T12:30:00+00:00,NS,Regular Season - 17,Team,25472,Haras El Hodood,1576,,,False,
+1594948,2026-12-18T12:30:00+00:00,NS,Regular Season - 17,Tersana,15739,Ismaily SC,1030,,,False,
+1594946,2026-12-18T12:30:00+00:00,NS,Regular Season - 17,El Mansura,16432,Proxy,20461,,,False,
+1595154,2026-12-18T12:30:00+00:00,NS,Regular Season - 17,Itesalat,18032,Mega Sport,28011,,,False,
+1594945,2026-12-18T12:30:00+00:00,NS,Regular Season - 17,Baladiyyat Al Mehalla,18036,El Seka El Hadid,18031,,,False,8544
+1594947,2026-12-18T12:30:00+00:00,NS,Regular Season - 17,Masar,25468,AL Nasr SC,2617,,,False,
+1594950,2026-12-24T12:30:00+00:00,NS,Regular Season - 18,Ismaily SC,1030,Team,25472,,,False,
+1594949,2026-12-24T12:30:00+00:00,NS,Regular Season - 18,El Entag EL Harby,1034,Masar,25468,,,False,
+1594953,2026-12-24T12:30:00+00:00,NS,Regular Season - 18,Tanta SC,1045,Kahraba Ismailia,20458,,,False,2686
+1594951,2026-12-24T12:30:00+00:00,NS,Regular Season - 18,Haras El Hodood,1576,Maleyet Kafr El Zayiat,25467,,,False,
+1594952,2026-12-24T12:30:00+00:00,NS,Regular Season - 18,La Viena FC,16436,Baladiyyat Al Mehalla,18036,,,False,
+1594954,2026-12-25T12:30:00+00:00,NS,Regular Season - 18,AL Nasr SC,2617,Itesalat,18032,,,False,
+1594956,2026-12-25T12:30:00+00:00,NS,Regular Season - 18,Dayrout,18022,Tersana,15739,,,False,
+1594955,2026-12-25T12:30:00+00:00,NS,Regular Season - 18,El Seka El Hadid,18031,Pharco,15736,,,False,12576
+1594957,2026-12-25T12:30:00+00:00,NS,Regular Season - 18,Proxy,20461,El Dakhleya,1032,,,False,19651
+1595155,2026-12-25T12:30:00+00:00,NS,Regular Season - 18,Mega Sport,28011,El Mansura,16432,,,False,
+1594959,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,El Dakhleya,1032,El Mansura,16432,,,False,
+1594963,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Pharco,15736,La Viena FC,16436,,,False,
+1594965,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Tersana,15739,Tanta SC,1045,,,False,
+1594966,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Itesalat,18032,El Entag EL Harby,1034,,,False,
+1594958,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Baladiyyat Al Mehalla,18036,Proxy,20461,,,False,8544
+1594960,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Kahraba Ismailia,20458,El Seka El Hadid,18031,,,False,
+1594961,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Maleyet Kafr El Zayiat,25467,Ismaily SC,1030,,,False,
+1594962,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Masar,25468,Haras El Hodood,1576,,,False,
+1594964,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Team,25472,Dayrout,18022,,,False,
+1595156,2026-12-30T12:30:00+00:00,NS,Regular Season - 19,Mega Sport,28011,AL Nasr SC,2617,,,False,
+1594967,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,AL Nasr SC,2617,El Entag EL Harby,1034,,,False,
+1594972,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Pharco,15736,Proxy,20461,,,False,
+1594974,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Tersana,15739,El Seka El Hadid,18031,,,False,
+1594975,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Itesalat,18032,Haras El Hodood,1576,,,False,
+1594968,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Baladiyyat Al Mehalla,18036,El Mansura,16432,,,False,8544
+1594969,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Kahraba Ismailia,20458,La Viena FC,16436,,,False,
+1594970,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Maleyet Kafr El Zayiat,25467,Dayrout,18022,,,False,
+1594971,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Masar,25468,Ismaily SC,1030,,,False,
+1594973,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Team,25472,Tanta SC,1045,,,False,
+1595157,2027-01-08T12:30:00+00:00,NS,Regular Season - 20,Mega Sport,28011,El Dakhleya,1032,,,False,
+1594977,2027-01-14T12:30:00+00:00,NS,Regular Season - 21,El Dakhleya,1032,Baladiyyat Al Mehalla,18036,,,False,
+1595158,2027-01-14T12:30:00+00:00,NS,Regular Season - 21,El Entag EL Harby,1034,Mega Sport,28011,,,False,
+1594979,2027-01-14T12:30:00+00:00,NS,Regular Season - 21,Tanta SC,1045,Maleyet Kafr El Zayiat,25467,,,False,2686
+1594978,2027-01-14T12:30:00+00:00,NS,Regular Season - 21,La Viena FC,16436,Tersana,15739,,,False,
+1594976,2027-01-14T12:30:00+00:00,NS,Regular Season - 21,Dayrout,18022,Masar,25468,,,False,
+1594981,2027-01-15T12:30:00+00:00,NS,Regular Season - 21,Ismaily SC,1030,Itesalat,18032,,,False,
+1594983,2027-01-15T12:30:00+00:00,NS,Regular Season - 21,Haras El Hodood,1576,AL Nasr SC,2617,,,False,
+1594982,2027-01-15T12:30:00+00:00,NS,Regular Season - 21,El Mansura,16432,Pharco,15736,,,False,
+1594980,2027-01-15T12:30:00+00:00,NS,Regular Season - 21,El Seka El Hadid,18031,Team,25472,,,False,12576
+1594984,2027-01-15T12:30:00+00:00,NS,Regular Season - 21,Proxy,20461,Kahraba Ismailia,20458,,,False,19651
+1594985,2027-01-21T12:30:00+00:00,NS,Regular Season - 22,AL Nasr SC,2617,Ismaily SC,1030,,,False,
+1594988,2027-01-21T12:30:00+00:00,NS,Regular Season - 22,Pharco,15736,El Dakhleya,1032,,,False,
+1594986,2027-01-21T12:30:00+00:00,NS,Regular Season - 22,Kahraba Ismailia,20458,El Mansura,16432,,,False,
+1594987,2027-01-21T12:30:00+00:00,NS,Regular Season - 22,Maleyet Kafr El Zayiat,25467,El Seka El Hadid,18031,,,False,
+1594989,2027-01-21T12:30:00+00:00,NS,Regular Season - 22,Team,25472,La Viena FC,16436,,,False,
+1594990,2027-01-22T12:30:00+00:00,NS,Regular Season - 22,El Entag EL Harby,1034,Haras El Hodood,1576,,,False,
+1594992,2027-01-22T12:30:00+00:00,NS,Regular Season - 22,Tersana,15739,Proxy,20461,,,False,
+1594993,2027-01-22T12:30:00+00:00,NS,Regular Season - 22,Itesalat,18032,Dayrout,18022,,,False,
+1594991,2027-01-22T12:30:00+00:00,NS,Regular Season - 22,Masar,25468,Tanta SC,1045,,,False,
+1595159,2027-01-22T12:30:00+00:00,NS,Regular Season - 22,Mega Sport,28011,Baladiyyat Al Mehalla,18036,,,False,
+1594996,2027-01-28T12:30:00+00:00,NS,Regular Season - 23,El Dakhleya,1032,Kahraba Ismailia,20458,,,False,
+1594998,2027-01-28T12:30:00+00:00,NS,Regular Season - 23,Tanta SC,1045,Itesalat,18032,,,False,2686
+1594997,2027-01-28T12:30:00+00:00,NS,Regular Season - 23,La Viena FC,16436,Maleyet Kafr El Zayiat,25467,,,False,
+1594995,2027-01-28T12:30:00+00:00,NS,Regular Season - 23,Dayrout,18022,AL Nasr SC,2617,,,False,
+1594994,2027-01-28T12:30:00+00:00,NS,Regular Season - 23,Baladiyyat Al Mehalla,18036,Pharco,15736,,,False,8544
+1595000,2027-01-29T12:30:00+00:00,NS,Regular Season - 23,Ismaily SC,1030,El Entag EL Harby,1034,,,False,
+1595160,2027-01-29T12:30:00+00:00,NS,Regular Season - 23,Haras El Hodood,1576,Mega Sport,28011,,,False,
+1595001,2027-01-29T12:30:00+00:00,NS,Regular Season - 23,El Mansura,16432,Tersana,15739,,,False,
+1594999,2027-01-29T12:30:00+00:00,NS,Regular Season - 23,El Seka El Hadid,18031,Masar,25468,,,False,12576
+1595002,2027-01-29T12:30:00+00:00,NS,Regular Season - 23,Proxy,20461,Team,25472,,,False,19651
+1595004,2027-02-04T12:30:00+00:00,NS,Regular Season - 24,El Entag EL Harby,1034,Dayrout,18022,,,False,
+1595003,2027-02-04T12:30:00+00:00,NS,Regular Season - 24,AL Nasr SC,2617,Tanta SC,1045,,,False,
+1595005,2027-02-04T12:30:00+00:00,NS,Regular Season - 24,Kahraba Ismailia,20458,Baladiyyat Al Mehalla,18036,,,False,
+1595006,2027-02-04T12:30:00+00:00,NS,Regular Season - 24,Masar,25468,La Viena FC,16436,,,False,
+1595007,2027-02-04T12:30:00+00:00,NS,Regular Season - 24,Team,25472,El Mansura,16432,,,False,
+1595008,2027-02-05T12:30:00+00:00,NS,Regular Season - 24,Haras El Hodood,1576,Ismaily SC,1030,,,False,
+1595010,2027-02-05T12:30:00+00:00,NS,Regular Season - 24,Tersana,15739,El Dakhleya,1032,,,False,
+1595011,2027-02-05T12:30:00+00:00,NS,Regular Season - 24,Itesalat,18032,El Seka El Hadid,18031,,,False,
+1595009,2027-02-05T12:30:00+00:00,NS,Regular Season - 24,Maleyet Kafr El Zayiat,25467,Proxy,20461,,,False,
+1595161,2027-02-05T12:30:00+00:00,NS,Regular Season - 24,Mega Sport,28011,Pharco,15736,,,False,
+1595015,2027-02-18T19:30:00+00:00,NS,Regular Season - 25,El Dakhleya,1032,Team,25472,,,False,
+1595016,2027-02-18T19:30:00+00:00,NS,Regular Season - 25,Pharco,15736,Kahraba Ismailia,20458,,,False,
+1595014,2027-02-18T19:30:00+00:00,NS,Regular Season - 25,Dayrout,18022,Haras El Hodood,1576,,,False,
+1595012,2027-02-18T19:30:00+00:00,NS,Regular Season - 25,El Seka El Hadid,18031,AL Nasr SC,2617,,,False,12576
+1595013,2027-02-18T19:30:00+00:00,NS,Regular Season - 25,Baladiyyat Al Mehalla,18036,Tersana,15739,,,False,8544
+1595162,2027-02-19T19:30:00+00:00,NS,Regular Season - 25,Ismaily SC,1030,Mega Sport,28011,,,False,
+1595020,2027-02-19T19:30:00+00:00,NS,Regular Season - 25,Tanta SC,1045,El Entag EL Harby,1034,,,False,2686
+1595017,2027-02-19T19:30:00+00:00,NS,Regular Season - 25,El Mansura,16432,Maleyet Kafr El Zayiat,25467,,,False,
+1595018,2027-02-19T19:30:00+00:00,NS,Regular Season - 25,La Viena FC,16436,Itesalat,18032,,,False,
+1595019,2027-02-19T19:30:00+00:00,NS,Regular Season - 25,Proxy,20461,Masar,25468,,,False,19651
+1595022,2027-02-25T19:30:00+00:00,NS,Regular Season - 26,Ismaily SC,1030,Dayrout,18022,,,False,
+1595021,2027-02-25T19:30:00+00:00,NS,Regular Season - 26,AL Nasr SC,2617,La Viena FC,16436,,,False,
+1595023,2027-02-25T19:30:00+00:00,NS,Regular Season - 26,Maleyet Kafr El Zayiat,25467,El Dakhleya,1032,,,False,
+1595024,2027-02-25T19:30:00+00:00,NS,Regular Season - 26,Masar,25468,El Mansura,16432,,,False,
+1595163,2027-02-25T19:30:00+00:00,NS,Regular Season - 26,Mega Sport,28011,Kahraba Ismailia,20458,,,False,
+1595025,2027-02-26T19:30:00+00:00,NS,Regular Season - 26,El Entag EL Harby,1034,El Seka El Hadid,18031,,,False,
+1595026,2027-02-26T19:30:00+00:00,NS,Regular Season - 26,Haras El Hodood,1576,Tanta SC,1045,,,False,
+1595028,2027-02-26T19:30:00+00:00,NS,Regular Season - 26,Tersana,15739,Pharco,15736,,,False,
+1595029,2027-02-26T19:30:00+00:00,NS,Regular Season - 26,Itesalat,18032,Proxy,20461,,,False,
+1595027,2027-02-26T19:30:00+00:00,NS,Regular Season - 26,Team,25472,Baladiyyat Al Mehalla,18036,,,False,
+1595031,2027-03-04T19:30:00+00:00,NS,Regular Season - 27,El Dakhleya,1032,Masar,25468,,,False,
+1595034,2027-03-04T19:30:00+00:00,NS,Regular Season - 27,Tanta SC,1045,Ismaily SC,1030,,,False,2686
+1595032,2027-03-04T19:30:00+00:00,NS,Regular Season - 27,El Mansura,16432,Itesalat,18032,,,False,
+1595033,2027-03-04T19:30:00+00:00,NS,Regular Season - 27,La Viena FC,16436,El Entag EL Harby,1034,,,False,
+1595030,2027-03-04T19:30:00+00:00,NS,Regular Season - 27,Baladiyyat Al Mehalla,18036,Maleyet Kafr El Zayiat,25467,,,False,8544
+1595037,2027-03-05T19:30:00+00:00,NS,Regular Season - 27,Pharco,15736,Team,25472,,,False,
+1595164,2027-03-05T19:30:00+00:00,NS,Regular Season - 27,Dayrout,18022,Mega Sport,28011,,,False,
+1595035,2027-03-05T19:30:00+00:00,NS,Regular Season - 27,El Seka El Hadid,18031,Haras El Hodood,1576,,,False,12576
+1595036,2027-03-05T19:30:00+00:00,NS,Regular Season - 27,Kahraba Ismailia,20458,Tersana,15739,,,False,
+1595038,2027-03-05T19:30:00+00:00,NS,Regular Season - 27,Proxy,20461,AL Nasr SC,2617,,,False,19651
+1595041,2027-03-18T13:30:00+00:00,NS,Regular Season - 28,Haras El Hodood,1576,La Viena FC,16436,,,False,
+1595039,2027-03-18T13:30:00+00:00,NS,Regular Season - 28,AL Nasr SC,2617,El Mansura,16432,,,False,
+1595040,2027-03-18T13:30:00+00:00,NS,Regular Season - 28,Dayrout,18022,Tanta SC,1045,,,False,
+1595042,2027-03-18T13:30:00+00:00,NS,Regular Season - 28,Maleyet Kafr El Zayiat,25467,Pharco,15736,,,False,
+1595043,2027-03-18T13:30:00+00:00,NS,Regular Season - 28,Team,25472,Kahraba Ismailia,20458,,,False,
+1595045,2027-03-19T13:30:00+00:00,NS,Regular Season - 28,Ismaily SC,1030,El Seka El Hadid,18031,,,False,
+1595044,2027-03-19T13:30:00+00:00,NS,Regular Season - 28,El Entag EL Harby,1034,Proxy,20461,,,False,
+1595047,2027-03-19T13:30:00+00:00,NS,Regular Season - 28,Itesalat,18032,El Dakhleya,1032,,,False,
+1595046,2027-03-19T13:30:00+00:00,NS,Regular Season - 28,Masar,25468,Baladiyyat Al Mehalla,18036,,,False,
+1595165,2027-03-19T13:30:00+00:00,NS,Regular Season - 28,Mega Sport,28011,Tersana,15739,,,False,
+1595050,2027-03-25T13:30:00+00:00,NS,Regular Season - 29,El Dakhleya,1032,AL Nasr SC,2617,,,False,
+1595048,2027-03-25T13:30:00+00:00,NS,Regular Season - 29,El Seka El Hadid,18031,Dayrout,18022,,,False,12576
+1595049,2027-03-25T13:30:00+00:00,NS,Regular Season - 29,Baladiyyat Al Mehalla,18036,Itesalat,18032,,,False,8544
+1595051,2027-03-25T13:30:00+00:00,NS,Regular Season - 29,Kahraba Ismailia,20458,Maleyet Kafr El Zayiat,25467,,,False,
+1595052,2027-03-25T13:30:00+00:00,NS,Regular Season - 29,Proxy,20461,Haras El Hodood,1576,,,False,19651
+1595166,2027-03-26T13:30:00+00:00,NS,Regular Season - 29,Tanta SC,1045,Mega Sport,28011,,,False,2686
+1595055,2027-03-26T13:30:00+00:00,NS,Regular Season - 29,Pharco,15736,Masar,25468,,,False,
+1595056,2027-03-26T13:30:00+00:00,NS,Regular Season - 29,Tersana,15739,Team,25472,,,False,
+1595053,2027-03-26T13:30:00+00:00,NS,Regular Season - 29,El Mansura,16432,El Entag EL Harby,1034,,,False,
+1595054,2027-03-26T13:30:00+00:00,NS,Regular Season - 29,La Viena FC,16436,Ismaily SC,1030,,,False,
+1595061,2027-04-01T13:30:00+00:00,NS,Regular Season - 30,Tanta SC,1045,El Seka El Hadid,18031,,,False,2686
+1595058,2027-04-01T13:30:00+00:00,NS,Regular Season - 30,Haras El Hodood,1576,El Mansura,16432,,,False,
+1595057,2027-04-01T13:30:00+00:00,NS,Regular Season - 30,Dayrout,18022,La Viena FC,16436,,,False,
+1595059,2027-04-01T13:30:00+00:00,NS,Regular Season - 30,Maleyet Kafr El Zayiat,25467,Tersana,15739,,,False,
+1595060,2027-04-01T13:30:00+00:00,NS,Regular Season - 30,Masar,25468,Kahraba Ismailia,20458,,,False,
+1595064,2027-04-02T13:30:00+00:00,NS,Regular Season - 30,Ismaily SC,1030,Proxy,20461,,,False,
+1595063,2027-04-02T13:30:00+00:00,NS,Regular Season - 30,El Entag EL Harby,1034,El Dakhleya,1032,,,False,
+1595062,2027-04-02T13:30:00+00:00,NS,Regular Season - 30,AL Nasr SC,2617,Baladiyyat Al Mehalla,18036,,,False,
+1595065,2027-04-02T13:30:00+00:00,NS,Regular Season - 30,Itesalat,18032,Pharco,15736,,,False,
+1595167,2027-04-02T13:30:00+00:00,NS,Regular Season - 30,Mega Sport,28011,Team,25472,,,False,
+1595068,2027-04-08T13:30:00+00:00,NS,Regular Season - 31,Pharco,15736,AL Nasr SC,2617,,,False,
+1595067,2027-04-08T13:30:00+00:00,NS,Regular Season - 31,La Viena FC,16436,Tanta SC,1045,,,False,
+1595168,2027-04-08T13:30:00+00:00,NS,Regular Season - 31,El Seka El Hadid,18031,Mega Sport,28011,,,False,12576
+1595066,2027-04-08T13:30:00+00:00,NS,Regular Season - 31,Kahraba Ismailia,20458,Itesalat,18032,,,False,
+1595069,2027-04-08T13:30:00+00:00,NS,Regular Season - 31,Team,25472,Maleyet Kafr El Zayiat,25467,,,False,
+1595071,2027-04-09T13:30:00+00:00,NS,Regular Season - 31,El Dakhleya,1032,Haras El Hodood,1576,,,False,
+1595074,2027-04-09T13:30:00+00:00,NS,Regular Season - 31,Tersana,15739,Masar,25468,,,False,
+1595072,2027-04-09T13:30:00+00:00,NS,Regular Season - 31,El Mansura,16432,Ismaily SC,1030,,,False,
+1595070,2027-04-09T13:30:00+00:00,NS,Regular Season - 31,Baladiyyat Al Mehalla,18036,El Entag EL Harby,1034,,,False,8544
+1595073,2027-04-09T13:30:00+00:00,NS,Regular Season - 31,Proxy,20461,Dayrout,18022,,,False,19651
+1595077,2027-04-15T13:30:00+00:00,NS,Regular Season - 32,Ismaily SC,1030,El Dakhleya,1032,,,False,
+1595076,2027-04-15T13:30:00+00:00,NS,Regular Season - 32,El Entag EL Harby,1034,Pharco,15736,,,False,
+1595079,2027-04-15T13:30:00+00:00,NS,Regular Season - 32,Tanta SC,1045,Proxy,20461,,,False,2686
+1595075,2027-04-15T13:30:00+00:00,NS,Regular Season - 32,AL Nasr SC,2617,Kahraba Ismailia,20458,,,False,
+1595078,2027-04-15T13:30:00+00:00,NS,Regular Season - 32,Masar,25468,Team,25472,,,False,
+1595082,2027-04-16T13:30:00+00:00,NS,Regular Season - 32,Haras El Hodood,1576,Baladiyyat Al Mehalla,18036,,,False,
+1595081,2027-04-16T13:30:00+00:00,NS,Regular Season - 32,Dayrout,18022,El Mansura,16432,,,False,
+1595080,2027-04-16T13:30:00+00:00,NS,Regular Season - 32,El Seka El Hadid,18031,La Viena FC,16436,,,False,12576
+1595083,2027-04-16T13:30:00+00:00,NS,Regular Season - 32,Itesalat,18032,Tersana,15739,,,False,
+1595169,2027-04-16T13:30:00+00:00,NS,Regular Season - 32,Mega Sport,28011,Maleyet Kafr El Zayiat,25467,,,False,
+1595085,2027-04-22T13:30:00+00:00,NS,Regular Season - 33,El Dakhleya,1032,Dayrout,18022,,,False,
+1595088,2027-04-22T13:30:00+00:00,NS,Regular Season - 33,Tersana,15739,AL Nasr SC,2617,,,False,
+1595084,2027-04-22T13:30:00+00:00,NS,Regular Season - 33,Baladiyyat Al Mehalla,18036,Ismaily SC,1030,,,False,8544
+1595086,2027-04-22T13:30:00+00:00,NS,Regular Season - 33,Kahraba Ismailia,20458,El Entag EL Harby,1034,,,False,
+1595087,2027-04-22T13:30:00+00:00,NS,Regular Season - 33,Maleyet Kafr El Zayiat,25467,Masar,25468,,,False,
+1595090,2027-04-23T13:30:00+00:00,NS,Regular Season - 33,Pharco,15736,Haras El Hodood,1576,,,False,
+1595089,2027-04-23T13:30:00+00:00,NS,Regular Season - 33,El Mansura,16432,Tanta SC,1045,,,False,
+1595170,2027-04-23T13:30:00+00:00,NS,Regular Season - 33,La Viena FC,16436,Mega Sport,28011,,,False,
+1595091,2027-04-23T13:30:00+00:00,NS,Regular Season - 33,Proxy,20461,El Seka El Hadid,18031,,,False,19651
+1595092,2027-04-23T13:30:00+00:00,NS,Regular Season - 33,Team,25472,Itesalat,18032,,,False,
+1595097,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,Ismaily SC,1030,Pharco,15736,,,False,
+1595096,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,El Entag EL Harby,1034,Tersana,15739,,,False,
+1595100,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,Tanta SC,1045,El Dakhleya,1032,,,False,2686
+1595098,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,Haras El Hodood,1576,Kahraba Ismailia,20458,,,False,
+1595093,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,AL Nasr SC,2617,Team,25472,,,False,
+1595099,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,La Viena FC,16436,Proxy,20461,,,False,
+1595095,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,Dayrout,18022,Baladiyyat Al Mehalla,18036,,,False,
+1595094,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,El Seka El Hadid,18031,El Mansura,16432,,,False,12576
+1595101,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,Itesalat,18032,Maleyet Kafr El Zayiat,25467,,,False,
+1595171,2027-04-29T13:30:00+00:00,NS,Regular Season - 34,Mega Sport,28011,Masar,25468,,,False,
+1595105,2027-05-06T14:00:00+00:00,NS,Regular Season - 35,Tersana,15739,Haras El Hodood,1576,,,False,
+1595102,2027-05-06T14:00:00+00:00,NS,Regular Season - 35,Baladiyyat Al Mehalla,18036,Tanta SC,1045,,,False,8544
+1595172,2027-05-06T14:00:00+00:00,NS,Regular Season - 35,Proxy,20461,Mega Sport,28011,,,False,19651
+1595103,2027-05-06T14:00:00+00:00,NS,Regular Season - 35,Maleyet Kafr El Zayiat,25467,AL Nasr SC,2617,,,False,
+1595104,2027-05-06T14:00:00+00:00,NS,Regular Season - 35,Masar,25468,Itesalat,18032,,,False,
+1595106,2027-05-07T14:00:00+00:00,NS,Regular Season - 35,El Dakhleya,1032,El Seka El Hadid,18031,,,False,
+1595109,2027-05-07T14:00:00+00:00,NS,Regular Season - 35,Pharco,15736,Dayrout,18022,,,False,
+1595107,2027-05-07T14:00:00+00:00,NS,Regular Season - 35,El Mansura,16432,La Viena FC,16436,,,False,
+1595108,2027-05-07T14:00:00+00:00,NS,Regular Season - 35,Kahraba Ismailia,20458,Ismaily SC,1030,,,False,
+1595110,2027-05-07T14:00:00+00:00,NS,Regular Season - 35,Team,25472,El Entag EL Harby,1034,,,False,
+1595115,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,Ismaily SC,1030,Tersana,15739,,,False,
+1595114,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,El Entag EL Harby,1034,Maleyet Kafr El Zayiat,25467,,,False,
+1595119,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,Tanta SC,1045,Pharco,15736,,,False,2686
+1595116,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,Haras El Hodood,1576,Team,25472,,,False,
+1595111,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,AL Nasr SC,2617,Masar,25468,,,False,
+1595117,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,La Viena FC,16436,El Dakhleya,1032,,,False,
+1595113,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,Dayrout,18022,Kahraba Ismailia,20458,,,False,
+1595112,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,El Seka El Hadid,18031,Baladiyyat Al Mehalla,18036,,,False,12576
+1595118,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,Proxy,20461,El Mansura,16432,,,False,19651
+1595173,2027-05-13T14:00:00+00:00,NS,Regular Season - 36,Mega Sport,28011,Itesalat,18032,,,False,
+1595121,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,El Dakhleya,1032,Proxy,20461,,,False,
+1595125,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Pharco,15736,El Seka El Hadid,18031,,,False,
+1595127,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Tersana,15739,Dayrout,18022,,,False,
+1595174,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,El Mansura,16432,Mega Sport,28011,,,False,
+1595128,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Itesalat,18032,AL Nasr SC,2617,,,False,
+1595120,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Baladiyyat Al Mehalla,18036,La Viena FC,16436,,,False,8544
+1595122,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Kahraba Ismailia,20458,Tanta SC,1045,,,False,
+1595123,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Maleyet Kafr El Zayiat,25467,Haras El Hodood,1576,,,False,
+1595124,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Masar,25468,El Entag EL Harby,1034,,,False,
+1595126,2027-05-20T14:00:00+00:00,NS,Regular Season - 37,Team,25472,Ismaily SC,1030,,,False,
+1595132,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,Ismaily SC,1030,Maleyet Kafr El Zayiat,25467,,,False,
+1595131,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,El Entag EL Harby,1034,Itesalat,18032,,,False,
+1595137,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,Tanta SC,1045,Tersana,15739,,,False,2686
+1595134,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,Haras El Hodood,1576,Masar,25468,,,False,
+1595175,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,AL Nasr SC,2617,Mega Sport,28011,,,False,
+1595133,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,El Mansura,16432,El Dakhleya,1032,,,False,
+1595135,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,La Viena FC,16436,Pharco,15736,,,False,
+1595130,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,Dayrout,18022,Team,25472,,,False,
+1595129,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,El Seka El Hadid,18031,Kahraba Ismailia,20458,,,False,12576
+1595136,2027-05-27T14:00:00+00:00,NS,Regular Season - 38,Proxy,20461,Baladiyyat Al Mehalla,18036,,,False,19651

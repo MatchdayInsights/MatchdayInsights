@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1555019,2026-07-24T17:30:00+00:00,FT,Regular Season - 1,Neuchatel Xamax FC,1015,SC Kriens,2186,3,2,True,
 1555018,2026-07-24T17:30:00+00:00,FT,Regular Season - 1,Rapperswil,2185,FC WIL 1900,2179,4,5,True,
 1555017,2026-07-24T17:30:00+00:00,FT,Regular Season - 1,Stade Lausanne-Ouchy,4269,Stade Nyonnais,6646,2,0,True,1535
@@ -9,18 +9,18 @@
 1555024,2026-07-31T17:30:00+00:00,FT,Regular Season - 2,Yverdon Sport,6653,Étoile Carouge,6654,1,1,True,4859
 1555025,2026-07-31T18:15:00+00:00,FT,Regular Season - 2,SC Kriens,2186,FC Winterthur,2180,2,0,True,1534
 1555026,2026-08-01T16:00:00+00:00,FT,Regular Season - 2,FC Aarau,2177,Stade Lausanne-Ouchy,4269,1,1,True,
-1555029,2026-08-07T17:30:00+00:00,NS,Regular Season - 3,FC Winterthur,2180,FC WIL 1900,2179,,,False,
-1555027,2026-08-07T17:30:00+00:00,NS,Regular Season - 3,SC Kriens,2186,Yverdon Sport,6653,,,False,1534
-1555028,2026-08-07T17:30:00+00:00,NS,Regular Season - 3,Stade Lausanne-Ouchy,4269,Rapperswil,2185,,,False,1535
-1555030,2026-08-07T18:15:00+00:00,NS,Regular Season - 3,FC Aarau,2177,Stade Nyonnais,6646,,,False,
-1555031,2026-08-07T18:15:00+00:00,NS,Regular Season - 3,Étoile Carouge,6654,Neuchatel Xamax FC,1015,,,False,4860
-1555033,2026-08-21T17:30:00+00:00,NS,Regular Season - 4,Neuchatel Xamax FC,1015,Stade Lausanne-Ouchy,4269,,,False,
-1555032,2026-08-21T17:30:00+00:00,NS,Regular Season - 4,Stade Nyonnais,6646,Étoile Carouge,6654,,,False,
-1555034,2026-08-21T18:15:00+00:00,NS,Regular Season - 4,Rapperswil,2185,FC Winterthur,2180,,,False,
-1555035,2026-08-22T16:00:00+00:00,NS,Regular Season - 4,FC WIL 1900,2179,SC Kriens,2186,,,False,19218
-1555036,2026-08-23T12:00:00+00:00,NS,Regular Season - 4,Yverdon Sport,6653,FC Aarau,2177,,,False,4859
+1555029,2026-08-07T17:30:00+00:00,FT,Regular Season - 3,FC Winterthur,2180,FC WIL 1900,2179,5,0,True,
+1555027,2026-08-07T17:30:00+00:00,FT,Regular Season - 3,SC Kriens,2186,Yverdon Sport,6653,0,2,True,1534
+1555028,2026-08-07T17:30:00+00:00,FT,Regular Season - 3,Stade Lausanne-Ouchy,4269,Rapperswil,2185,2,0,True,1535
+1555030,2026-08-07T18:15:00+00:00,FT,Regular Season - 3,FC Aarau,2177,Stade Nyonnais,6646,2,1,True,
+1555031,2026-08-07T18:15:00+00:00,FT,Regular Season - 3,Étoile Carouge,6654,Neuchatel Xamax FC,1015,0,1,True,4860
+1555033,2026-08-21T17:30:00+00:00,FT,Regular Season - 4,Neuchatel Xamax FC,1015,Stade Lausanne-Ouchy,4269,1,2,True,
+1555032,2026-08-21T17:30:00+00:00,FT,Regular Season - 4,Stade Nyonnais,6646,Étoile Carouge,6654,0,0,True,
+1555034,2026-08-21T18:15:00+00:00,FT,Regular Season - 4,Rapperswil,2185,FC Winterthur,2180,0,2,True,
+1555035,2026-08-22T16:00:00+00:00,FT,Regular Season - 4,FC WIL 1900,2179,SC Kriens,2186,0,2,True,19218
+1555036,2026-08-23T12:00:00+00:00,FT,Regular Season - 4,Yverdon Sport,6653,FC Aarau,2177,2,1,True,4859
 1555038,2026-08-28T17:30:00+00:00,NS,Regular Season - 5,FC Winterthur,2180,Stade Lausanne-Ouchy,4269,,,False,
-1555037,2026-08-28T17:30:00+00:00,NS,Regular Season - 5,SC Kriens,2186,Stade Nyonnais,6646,,,False,
+1555037,2026-08-28T17:30:00+00:00,NS,Regular Season - 5,SC Kriens,2186,Stade Nyonnais,6646,,,False,1534
 1555039,2026-08-28T17:30:00+00:00,NS,Regular Season - 5,Yverdon Sport,6653,FC WIL 1900,2179,,,False,4859
 1555040,2026-08-28T18:15:00+00:00,NS,Regular Season - 5,FC Aarau,2177,Neuchatel Xamax FC,1015,,,False,
 1555041,2026-08-28T18:15:00+00:00,NS,Regular Season - 5,Étoile Carouge,6654,Rapperswil,2185,,,False,4860
@@ -30,7 +30,7 @@
 1555043,2026-09-01T17:30:00+00:00,NS,Regular Season - 6,Stade Lausanne-Ouchy,4269,Étoile Carouge,6654,,,False,1535
 1555045,2026-09-01T17:30:00+00:00,NS,Regular Season - 6,Stade Nyonnais,6646,FC Winterthur,2180,,,False,
 1555047,2026-09-04T17:30:00+00:00,NS,Regular Season - 7,FC Aarau,2177,Rapperswil,2185,,,False,
-1555048,2026-09-04T17:30:00+00:00,NS,Regular Season - 7,SC Kriens,2186,Stade Lausanne-Ouchy,4269,,,False,
+1555048,2026-09-04T17:30:00+00:00,NS,Regular Season - 7,SC Kriens,2186,Stade Lausanne-Ouchy,4269,,,False,1534
 1555050,2026-09-04T18:15:00+00:00,NS,Regular Season - 7,FC Winterthur,2180,Neuchatel Xamax FC,1015,,,False,
 1555049,2026-09-04T18:15:00+00:00,NS,Regular Season - 7,Étoile Carouge,6654,FC WIL 1900,2179,,,False,4860
 1555051,2026-09-06T12:00:00+00:00,NS,Regular Season - 7,Yverdon Sport,6653,Stade Nyonnais,6646,,,False,4859

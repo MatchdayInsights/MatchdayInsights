@@ -1,0 +1,307 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1552427,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Montpellier,82,Dijon,89,1,1,True,
+1552428,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Nantes,83,RED Star FC 93,104,0,1,True,
+1552424,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Clermont Foot,99,Reims,93,0,0,True,21429
+1552426,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Metz,112,Guingamp,90,2,1,True,
+1552431,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Sochaux,115,Saint Etienne,1063,0,3,True,678
+1552429,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,PAU,1297,Annecy,3012,0,1,True,
+1552423,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Boulogne,1299,Nancy,102,0,0,True,639
+1552430,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Rodez,1301,Laval,433,3,1,True,675
+1552425,2026-08-08T18:45:00+00:00,FT,Regular Season - 1,Dunkerque,1304,Grenoble,101,4,2,True,646
+1552433,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Dijon,89,PAU,1297,0,1,True,645
+1552435,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Guingamp,90,Boulogne,1299,1,0,True,650
+1552439,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Reims,93,Dunkerque,1304,3,3,True,22707
+1552434,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Grenoble,101,Metz,112,0,0,True,649
+1552437,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Nancy,102,Montpellier,82,0,1,True,
+1552438,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,RED Star FC 93,104,Sochaux,115,0,0,True,
+1552436,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Laval,433,Nantes,83,2,1,True,651
+1552440,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Saint Etienne,1063,Clermont Foot,99,3,1,True,676
+1552432,2026-08-14T18:45:00+00:00,FT,Regular Season - 2,Annecy,3012,Rodez,1301,2,0,True,1979
+1552442,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Clermont Foot,99,Dijon,89,1,1,True,21429
+1552448,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Sochaux,115,Guingamp,90,1,0,True,678
+1552446,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,PAU,1297,Nancy,102,0,1,True,
+1552441,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Boulogne,1299,RED Star FC 93,104,1,1,True,639
+1552443,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Dunkerque,1304,Montpellier,82,0,1,True,646
+1552445,2026-08-22T12:00:00+00:00,FT,Regular Season - 3,Nantes,83,Rodez,1301,2,5,True,
+1552444,2026-08-22T12:00:00+00:00,FT,Regular Season - 3,Metz,112,Laval,433,1,1,True,
+1552449,2026-08-22T18:00:00+00:00,FT,Regular Season - 3,Saint Etienne,1063,Grenoble,101,4,0,True,676
+1552447,2026-08-24T18:45:00+00:00,FT,Regular Season - 3,Reims,93,Annecy,3012,3,1,True,22707
+1552455,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Montpellier,82,Boulogne,1299,,,False,
+1552451,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Clermont Foot,99,Sochaux,115,,,False,21429
+1552456,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Nancy,102,Dunkerque,1304,,,False,
+1552454,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Laval,433,Grenoble,101,,,False,651
+1552458,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Rodez,1301,PAU,1297,,,False,675
+1552457,2026-08-29T12:00:00+00:00,NS,Regular Season - 4,RED Star FC 93,104,Reims,93,,,False,
+1552450,2026-08-29T12:00:00+00:00,NS,Regular Season - 4,Annecy,3012,Metz,112,,,False,1979
+1552453,2026-08-29T18:00:00+00:00,NS,Regular Season - 4,Guingamp,90,Nantes,83,,,False,
+1552452,2026-08-31T18:45:00+00:00,NS,Regular Season - 4,Dijon,89,Saint Etienne,1063,,,False,
+1552461,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,Grenoble,101,Annecy,3012,,,False,649
+1552462,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,Laval,433,RED Star FC 93,104,,,False,651
+1552465,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,PAU,1297,Sochaux,115,,,False,
+1552459,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,Boulogne,1299,Dijon,89,,,False,
+1552460,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,Dunkerque,1304,Clermont Foot,99,,,False,646
+1552466,2026-09-05T12:00:00+00:00,NS,Regular Season - 5,Reims,93,Guingamp,90,,,False,22707
+1552463,2026-09-05T12:00:00+00:00,NS,Regular Season - 5,Metz,112,Rodez,1301,,,False,
+1552467,2026-09-05T18:00:00+00:00,NS,Regular Season - 5,Saint Etienne,1063,Montpellier,82,,,False,
+1552464,2026-09-07T18:45:00+00:00,NS,Regular Season - 5,Nantes,83,Nancy,102,,,False,
+1552472,2026-09-11T18:00:00+00:00,NS,Regular Season - 6,Montpellier,82,PAU,1297,,,False,
+1552469,2026-09-11T18:00:00+00:00,NS,Regular Season - 6,Dijon,89,Laval,433,,,False,
+1552468,2026-09-11T18:00:00+00:00,NS,Regular Season - 6,Clermont Foot,99,Boulogne,1299,,,False,21429
+1552473,2026-09-11T18:00:00+00:00,NS,Regular Season - 6,Nancy,102,Reims,93,,,False,
+1552475,2026-09-11T18:00:00+00:00,NS,Regular Season - 6,Rodez,1301,Grenoble,101,,,False,675
+1552471,2026-09-12T12:00:00+00:00,NS,Regular Season - 6,Guingamp,90,Annecy,3012,,,False,
+1552476,2026-09-12T12:00:00+00:00,NS,Regular Season - 6,Sochaux,115,Nantes,83,,,False,
+1552470,2026-09-12T18:00:00+00:00,NS,Regular Season - 6,Dunkerque,1304,Saint Etienne,1063,,,False,646
+1552474,2026-09-14T18:45:00+00:00,NS,Regular Season - 6,RED Star FC 93,104,Metz,112,,,False,
+1552484,2026-09-18T18:00:00+00:00,NS,Regular Season - 7,Reims,93,Montpellier,82,,,False,22707
+1552479,2026-09-18T18:00:00+00:00,NS,Regular Season - 7,Grenoble,101,Clermont Foot,99,,,False,649
+1552481,2026-09-18T18:00:00+00:00,NS,Regular Season - 7,Laval,433,Sochaux,115,,,False,651
+1552483,2026-09-18T18:00:00+00:00,NS,Regular Season - 7,PAU,1297,Dunkerque,1304,,,False,
+1552485,2026-09-18T18:00:00+00:00,NS,Regular Season - 7,Rodez,1301,Nancy,102,,,False,675
+1552477,2026-09-18T18:00:00+00:00,NS,Regular Season - 7,Annecy,3012,Dijon,89,,,False,1979
+1552480,2026-09-19T12:00:00+00:00,NS,Regular Season - 7,Guingamp,90,RED Star FC 93,104,,,False,
+1552478,2026-09-19T12:00:00+00:00,NS,Regular Season - 7,Boulogne,1299,Nantes,83,,,False,
+1552482,2026-09-19T18:00:00+00:00,NS,Regular Season - 7,Metz,112,Saint Etienne,1063,,,False,
+1552489,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Montpellier,82,Grenoble,101,,,False,
+1552490,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Nancy,102,Guingamp,90,,,False,
+1552493,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Sochaux,115,Boulogne,1299,,,False,
+1552492,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,PAU,1297,Laval,433,,,False,
+1552488,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Dunkerque,1304,Annecy,3012,,,False,646
+1552491,2026-10-10T12:00:00+00:00,NS,Regular Season - 8,Nantes,83,Reims,93,,,False,
+1552486,2026-10-10T12:00:00+00:00,NS,Regular Season - 8,Clermont Foot,99,RED Star FC 93,104,,,False,21429
+1552494,2026-10-10T18:00:00+00:00,NS,Regular Season - 8,Saint Etienne,1063,Rodez,1301,,,False,
+1552487,2026-10-12T18:45:00+00:00,NS,Regular Season - 8,Dijon,89,Metz,112,,,False,
+1552497,2026-10-16T18:00:00+00:00,NS,Regular Season - 9,Guingamp,90,PAU,1297,,,False,
+1552502,2026-10-16T18:00:00+00:00,NS,Regular Season - 9,Reims,93,Dijon,89,,,False,22707
+1552496,2026-10-16T18:00:00+00:00,NS,Regular Season - 9,Grenoble,101,Boulogne,1299,,,False,649
+1552498,2026-10-16T18:00:00+00:00,NS,Regular Season - 9,Laval,433,Clermont Foot,99,,,False,651
+1552495,2026-10-16T18:00:00+00:00,NS,Regular Season - 9,Annecy,3012,Nancy,102,,,False,1979
+1552500,2026-10-17T12:00:00+00:00,NS,Regular Season - 9,Nantes,83,Dunkerque,1304,,,False,
+1552499,2026-10-17T12:00:00+00:00,NS,Regular Season - 9,Metz,112,Sochaux,115,,,False,
+1552501,2026-10-17T18:00:00+00:00,NS,Regular Season - 9,RED Star FC 93,104,Saint Etienne,1063,,,False,
+1552503,2026-10-19T18:45:00+00:00,NS,Regular Season - 9,Rodez,1301,Montpellier,82,,,False,675
+1552505,2026-10-23T18:00:00+00:00,NS,Regular Season - 10,Clermont Foot,99,Guingamp,90,,,False,21429
+1552509,2026-10-23T18:00:00+00:00,NS,Regular Season - 10,Nancy,102,Laval,433,,,False,
+1552511,2026-10-23T18:00:00+00:00,NS,Regular Season - 10,Sochaux,115,Annecy,3012,,,False,
+1552510,2026-10-23T18:00:00+00:00,NS,Regular Season - 10,PAU,1297,Grenoble,101,,,False,
+1552507,2026-10-23T18:00:00+00:00,NS,Regular Season - 10,Dunkerque,1304,Metz,112,,,False,646
+1552508,2026-10-24T12:00:00+00:00,NS,Regular Season - 10,Montpellier,82,RED Star FC 93,104,,,False,
+1552506,2026-10-24T12:00:00+00:00,NS,Regular Season - 10,Dijon,89,Rodez,1301,,,False,
+1552512,2026-10-24T18:00:00+00:00,NS,Regular Season - 10,Saint Etienne,1063,Nantes,83,,,False,
+1552504,2026-10-26T19:45:00+00:00,NS,Regular Season - 10,Boulogne,1299,Reims,93,,,False,
+1552518,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Nantes,83,Clermont Foot,99,,,False,
+1552515,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Guingamp,90,Saint Etienne,1063,,,False,
+1552520,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Reims,93,Sochaux,115,,,False,22707
+1552514,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Grenoble,101,Dijon,89,,,False,649
+1552519,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,RED Star FC 93,104,Nancy,102,,,False,
+1552517,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Metz,112,PAU,1297,,,False,
+1552516,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Laval,433,Boulogne,1299,,,False,651
+1552521,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Rodez,1301,Dunkerque,1304,,,False,675
+1552513,2026-10-30T19:00:00+00:00,NS,Regular Season - 11,Annecy,3012,Montpellier,82,,,False,1979
+1552527,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Montpellier,82,Metz,112,,,False,
+1552524,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Dijon,89,RED Star FC 93,104,,,False,
+1552523,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Clermont Foot,99,Rodez,1301,,,False,21429
+1552526,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Grenoble,101,Reims,93,,,False,649
+1552528,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Nancy,102,Sochaux,115,,,False,
+1552530,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Saint Etienne,1063,Laval,433,,,False,
+1552529,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,PAU,1297,Nantes,83,,,False,
+1552522,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Boulogne,1299,Annecy,3012,,,False,
+1552525,2026-11-06T19:00:00+00:00,NS,Regular Season - 12,Dunkerque,1304,Guingamp,90,,,False,646
+1552536,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Nantes,83,Grenoble,101,,,False,
+1552532,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Guingamp,90,Rodez,1301,,,False,
+1552538,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Reims,93,Saint Etienne,1063,,,False,22707
+1552535,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Nancy,102,Dijon,89,,,False,
+1552537,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,RED Star FC 93,104,PAU,1297,,,False,
+1552534,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Metz,112,Boulogne,1299,,,False,
+1552539,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Sochaux,115,Dunkerque,1304,,,False,
+1552533,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Laval,433,Montpellier,82,,,False,651
+1552531,2026-11-20T19:00:00+00:00,NS,Regular Season - 13,Annecy,3012,Clermont Foot,99,,,False,1979
+1552546,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Montpellier,82,Nantes,83,,,False,
+1552543,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Dijon,89,Sochaux,115,,,False,
+1552542,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Clermont Foot,99,Metz,112,,,False,21429
+1552545,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Grenoble,101,Guingamp,90,,,False,649
+1552548,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Saint Etienne,1063,Nancy,102,,,False,
+1552541,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Boulogne,1299,PAU,1297,,,False,
+1552547,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Rodez,1301,Reims,93,,,False,675
+1552544,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Dunkerque,1304,RED Star FC 93,104,,,False,646
+1552540,2026-12-04T19:00:00+00:00,NS,Regular Season - 14,Annecy,3012,Laval,433,,,False,1979
+1552554,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Nantes,83,Annecy,3012,,,False,
+1552550,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Guingamp,90,Dijon,89,,,False,
+1552553,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Nancy,102,Clermont Foot,99,,,False,
+1552556,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,RED Star FC 93,104,Grenoble,101,,,False,
+1552552,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Metz,112,Reims,93,,,False,
+1552557,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Sochaux,115,Montpellier,82,,,False,
+1552551,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Laval,433,Dunkerque,1304,,,False,651
+1552555,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,PAU,1297,Saint Etienne,1063,,,False,
+1552549,2026-12-11T19:00:00+00:00,NS,Regular Season - 15,Boulogne,1299,Rodez,1301,,,False,
+1552564,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Montpellier,82,Guingamp,90,,,False,
+1552560,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Dijon,89,Nantes,83,,,False,
+1552565,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Reims,93,Laval,433,,,False,22707
+1552559,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Clermont Foot,99,PAU,1297,,,False,21429
+1552562,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Grenoble,101,Sochaux,115,,,False,649
+1552563,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Metz,112,Nancy,102,,,False,
+1552566,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Rodez,1301,RED Star FC 93,104,,,False,675
+1552561,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Dunkerque,1304,Boulogne,1299,,,False,646
+1552558,2027-01-02T19:00:00+00:00,NS,Regular Season - 16,Annecy,3012,Saint Etienne,1063,,,False,1979
+1552569,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Montpellier,82,Clermont Foot,99,,,False,
+1552571,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Nantes,83,Metz,112,,,False,
+1552567,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Dijon,89,Dunkerque,1304,,,False,
+1552570,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Nancy,102,Grenoble,101,,,False,
+1552573,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,RED Star FC 93,104,Annecy,3012,,,False,
+1552574,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Sochaux,115,Rodez,1301,,,False,
+1552568,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Laval,433,Guingamp,90,,,False,651
+1552575,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,Saint Etienne,1063,Boulogne,1299,,,False,
+1552572,2027-01-15T19:00:00+00:00,NS,Regular Season - 17,PAU,1297,Reims,93,,,False,
+1552580,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Guingamp,90,Nancy,102,,,False,
+1552583,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Reims,93,RED Star FC 93,104,,,False,22707
+1552577,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Clermont Foot,99,Saint Etienne,1063,,,False,21429
+1552579,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Grenoble,101,Montpellier,82,,,False,649
+1552582,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Metz,112,Dijon,89,,,False,
+1552581,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Laval,433,PAU,1297,,,False,651
+1552576,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Boulogne,1299,Sochaux,115,,,False,
+1552584,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Rodez,1301,Annecy,3012,,,False,675
+1552578,2027-01-22T19:00:00+00:00,NS,Regular Season - 18,Dunkerque,1304,Nantes,83,,,False,646
+1552587,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Montpellier,82,Rodez,1301,,,False,
+1552589,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Nantes,83,Guingamp,90,,,False,
+1552586,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Dijon,89,Clermont Foot,99,,,False,
+1552588,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Nancy,102,Boulogne,1299,,,False,
+1552591,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,RED Star FC 93,104,Laval,433,,,False,
+1552592,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Sochaux,115,Reims,93,,,False,
+1552593,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Saint Etienne,1063,Dunkerque,1304,,,False,
+1552590,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,PAU,1297,Metz,112,,,False,
+1552585,2027-01-29T19:00:00+00:00,NS,Regular Season - 19,Annecy,3012,Grenoble,101,,,False,1979
+1552596,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Guingamp,90,Dunkerque,1304,,,False,
+1552600,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Reims,93,Nancy,102,,,False,22707
+1552595,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Grenoble,101,Saint Etienne,1063,,,False,649
+1552599,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,RED Star FC 93,104,Montpellier,82,,,False,
+1552598,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Metz,112,Annecy,3012,,,False,
+1552602,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Sochaux,115,PAU,1297,,,False,
+1552597,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Laval,433,Dijon,89,,,False,651
+1552594,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Boulogne,1299,Clermont Foot,99,,,False,
+1552601,2027-02-05T19:00:00+00:00,NS,Regular Season - 20,Rodez,1301,Nantes,83,,,False,675
+1552607,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Montpellier,82,Reims,93,,,False,
+1552609,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Nantes,83,Boulogne,1299,,,False,
+1552605,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Dijon,89,Grenoble,101,,,False,
+1552604,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Clermont Foot,99,Laval,433,,,False,21429
+1552608,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Nancy,102,RED Star FC 93,104,,,False,
+1552611,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Saint Etienne,1063,Metz,112,,,False,
+1552610,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Rodez,1301,Guingamp,90,,,False,675
+1552606,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Dunkerque,1304,PAU,1297,,,False,646
+1552603,2027-02-12T19:00:00+00:00,NS,Regular Season - 21,Annecy,3012,Sochaux,115,,,False,1979
+1552615,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Guingamp,90,Clermont Foot,99,,,False,
+1552619,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Reims,93,Nantes,83,,,False,22707
+1552614,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Grenoble,101,Rodez,1301,,,False,649
+1552617,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Metz,112,Montpellier,82,,,False,
+1552620,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Sochaux,115,Dijon,89,,,False,
+1552616,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Laval,433,Annecy,3012,,,False,651
+1552618,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,PAU,1297,RED Star FC 93,104,,,False,
+1552612,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Boulogne,1299,Saint Etienne,1063,,,False,
+1552613,2027-02-19T19:00:00+00:00,NS,Regular Season - 22,Dunkerque,1304,Nancy,102,,,False,646
+1552625,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Montpellier,82,Laval,433,,,False,
+1552626,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Nantes,83,PAU,1297,,,False,
+1552623,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Dijon,89,Nancy,102,,,False,
+1552622,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Clermont Foot,99,Dunkerque,1304,,,False,21429
+1552627,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,RED Star FC 93,104,Guingamp,90,,,False,
+1552624,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Metz,112,Grenoble,101,,,False,
+1552629,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Saint Etienne,1063,Sochaux,115,,,False,
+1552628,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Rodez,1301,Boulogne,1299,,,False,675
+1552621,2027-02-26T19:00:00+00:00,NS,Regular Season - 23,Annecy,3012,Reims,93,,,False,1979
+1552633,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Montpellier,82,Annecy,3012,,,False,
+1552636,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Reims,93,Rodez,1301,,,False,22707
+1552632,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Grenoble,101,RED Star FC 93,104,,,False,649
+1552634,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Nancy,102,Nantes,83,,,False,
+1552637,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Sochaux,115,Metz,112,,,False,
+1552638,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Saint Etienne,1063,Guingamp,90,,,False,
+1552635,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,PAU,1297,Clermont Foot,99,,,False,
+1552630,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Boulogne,1299,Laval,433,,,False,
+1552631,2027-03-05T19:00:00+00:00,NS,Regular Season - 24,Dunkerque,1304,Dijon,89,,,False,646
+1552645,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Nantes,83,Saint Etienne,1063,,,False,
+1552641,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Guingamp,90,Grenoble,101,,,False,
+1552640,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Clermont Foot,99,Montpellier,82,,,False,21429
+1552644,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Nancy,102,PAU,1297,,,False,
+1552646,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,RED Star FC 93,104,Dijon,89,,,False,
+1552643,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Metz,112,Dunkerque,1304,,,False,
+1552642,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Laval,433,Reims,93,,,False,651
+1552647,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Rodez,1301,Sochaux,115,,,False,675
+1552639,2027-03-12T19:00:00+00:00,NS,Regular Season - 25,Annecy,3012,Boulogne,1299,,,False,1979
+1552649,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Dijon,89,Annecy,3012,,,False,
+1552652,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Guingamp,90,Laval,433,,,False,
+1552654,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Reims,93,Clermont Foot,99,,,False,22707
+1552651,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Grenoble,101,Nantes,83,,,False,649
+1552655,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Sochaux,115,Nancy,102,,,False,
+1552656,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Saint Etienne,1063,RED Star FC 93,104,,,False,
+1552653,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,PAU,1297,Montpellier,82,,,False,
+1552648,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Boulogne,1299,Metz,112,,,False,
+1552650,2027-03-19T19:00:00+00:00,NS,Regular Season - 26,Dunkerque,1304,Rodez,1301,,,False,646
+1552660,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Montpellier,82,Dunkerque,1304,,,False,
+1552662,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Nantes,83,Sochaux,115,,,False,
+1552664,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Reims,93,PAU,1297,,,False,22707
+1552658,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Clermont Foot,99,Grenoble,101,,,False,21429
+1552661,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Nancy,102,Saint Etienne,1063,,,False,
+1552663,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,RED Star FC 93,104,Boulogne,1299,,,False,
+1552659,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Laval,433,Metz,112,,,False,651
+1552665,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Rodez,1301,Dijon,89,,,False,675
+1552657,2027-04-02T18:00:00+00:00,NS,Regular Season - 27,Annecy,3012,Guingamp,90,,,False,1979
+1552668,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Dijon,89,Reims,93,,,False,
+1552670,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Guingamp,90,Montpellier,82,,,False,
+1552667,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Clermont Foot,99,Nancy,102,,,False,21429
+1552671,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Metz,112,Nantes,83,,,False,
+1552673,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Sochaux,115,RED Star FC 93,104,,,False,
+1552674,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Saint Etienne,1063,Annecy,3012,,,False,
+1552672,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,PAU,1297,Rodez,1301,,,False,
+1552666,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Boulogne,1299,Grenoble,101,,,False,
+1552669,2027-04-09T18:00:00+00:00,NS,Regular Season - 28,Dunkerque,1304,Laval,433,,,False,646
+1552679,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Montpellier,82,Sochaux,115,,,False,
+1552676,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Dijon,89,Guingamp,90,,,False,
+1552682,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Reims,93,Metz,112,,,False,22707
+1552677,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Grenoble,101,Nancy,102,,,False,649
+1552681,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,RED Star FC 93,104,Nantes,83,,,False,
+1552678,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Laval,433,Saint Etienne,1063,,,False,651
+1552680,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,PAU,1297,Boulogne,1299,,,False,
+1552683,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Rodez,1301,Clermont Foot,99,,,False,675
+1552675,2027-04-16T18:00:00+00:00,NS,Regular Season - 29,Annecy,3012,Dunkerque,1304,,,False,1979
+1552689,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Nantes,83,Montpellier,82,,,False,
+1552686,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Guingamp,90,Reims,93,,,False,
+1552685,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Grenoble,101,PAU,1297,,,False,649
+1552688,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Nancy,102,Annecy,3012,,,False,
+1552690,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,RED Star FC 93,104,Rodez,1301,,,False,
+1552687,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Metz,112,Clermont Foot,99,,,False,
+1552691,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Sochaux,115,Laval,433,,,False,
+1552692,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Saint Etienne,1063,Dijon,89,,,False,
+1552684,2027-04-23T18:00:00+00:00,NS,Regular Season - 30,Boulogne,1299,Dunkerque,1304,,,False,
+1552698,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Montpellier,82,Saint Etienne,1063,,,False,
+1552695,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Dijon,89,Boulogne,1299,,,False,
+1552700,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Reims,93,Grenoble,101,,,False,22707
+1552694,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Clermont Foot,99,Nantes,83,,,False,21429
+1552697,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Laval,433,Nancy,102,,,False,651
+1552699,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,PAU,1297,Guingamp,90,,,False,
+1552701,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Rodez,1301,Metz,112,,,False,675
+1552696,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Dunkerque,1304,Sochaux,115,,,False,646
+1552693,2027-04-30T18:00:00+00:00,NS,Regular Season - 31,Annecy,3012,RED Star FC 93,104,,,False,1979
+1552707,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Nantes,83,Dijon,89,,,False,
+1552705,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Guingamp,90,Metz,112,,,False,
+1552704,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Grenoble,101,Laval,433,,,False,649
+1552706,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Nancy,102,Rodez,1301,,,False,
+1552708,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,RED Star FC 93,104,Dunkerque,1304,,,False,
+1552709,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Sochaux,115,Clermont Foot,99,,,False,
+1552710,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Saint Etienne,1063,Reims,93,,,False,
+1552703,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Boulogne,1299,Montpellier,82,,,False,
+1552702,2027-05-07T18:00:00+00:00,NS,Regular Season - 32,Annecy,3012,PAU,1297,,,False,1979
+1552715,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Montpellier,82,Nancy,102,,,False,
+1552716,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Nantes,83,Laval,433,,,False,
+1552712,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Clermont Foot,99,Annecy,3012,,,False,21429
+1552714,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Metz,112,RED Star FC 93,104,,,False,
+1552719,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Sochaux,115,Grenoble,101,,,False,
+1552717,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,PAU,1297,Dijon,89,,,False,
+1552711,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Boulogne,1299,Guingamp,90,,,False,
+1552718,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Rodez,1301,Saint Etienne,1063,,,False,675
+1552713,2027-05-14T18:00:00+00:00,NS,Regular Season - 33,Dunkerque,1304,Reims,93,,,False,646
+1552721,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Dijon,89,Montpellier,82,,,False,
+1552723,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Guingamp,90,Sochaux,115,,,False,
+1552727,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Reims,93,Boulogne,1299,,,False,22707
+1552722,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Grenoble,101,Dunkerque,1304,,,False,649
+1552725,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Nancy,102,Metz,112,,,False,
+1552726,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,RED Star FC 93,104,Clermont Foot,99,,,False,
+1552724,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Laval,433,Rodez,1301,,,False,651
+1552728,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Saint Etienne,1063,PAU,1297,,,False,
+1552720,2027-05-22T18:00:00+00:00,NS,Regular Season - 34,Annecy,3012,Nantes,83,,,False,1979

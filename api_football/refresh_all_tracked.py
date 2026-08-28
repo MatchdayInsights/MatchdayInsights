@@ -33,7 +33,7 @@ this script.
 
 SETUP:
   1. pip install requests
-  2. export API_FOOTBALL_KEY="ff088abc91c859625de9b4d1aee11136"
+  2. export API_FOOTBALL_KEY="your-key-here"
   3. Adjust OUTPUT_DIR / CLUB_METADATA_PATH / LEAGUES_CONFIG_PATH if
      they're not sitting next to this script.
   4. Run: python refresh_all_tracked.py
@@ -63,7 +63,10 @@ SCRIPT_DIR = Path(__file__).parent
 OUTPUT_DIR = SCRIPT_DIR / "data" / "fixtures"  # <-- adjust if needed
 CLUB_METADATA_PATH = SCRIPT_DIR / "club_metadata.json"
 LEAGUES_CONFIG_PATH = SCRIPT_DIR / "leagues_config.json"
-SLEEP_SECONDS = 6.5
+SLEEP_SECONDS = 0.25  # API-Football Pro plan: 300 req/min (5/sec) -
+                       # 0.25s keeps us at 4/sec, a safety margin under
+                       # the real limit rather than the free-tier-level
+                       # pace this used to run at.
 
 # Country CODE (as used in club_metadata.json) -> exact leagues_config.json
 # key, for the handful that don't auto-match by simple space-to-hyphen
@@ -99,25 +102,29 @@ def fetch_fixtures_by_date(date_str: str) -> list[dict]:
     if resp.status_code != 200:
         print(f"    HTTP {resp.status_code}: {resp.text[:200]}")
         resp.raise_for_status()
-    data = resp.json()
+    # Force UTF-8 decoding of the raw response bytes directly, instead of
+    # resp.json() (which relies on requests guessing the encoding from
+    # response headers - if the server does not send an explicit
+    # charset=utf-8 in its Content-Type, that guess can be wrong, silently
+    # mangling accented characters like Bayern MÃ¼nchen instead of München).
+    data = json.loads(resp.content.decode("utf-8"))
     if data.get("errors"):
         print(f"    API error: {data['errors']}")
     return data.get("response", [])
 
 
-def find_recently_active_league_ids(days_back: int) -> set:
-    """Checks the last `days_back` days (one API call per day, covering
-    ALL competitions at once) and returns the set of league_ids that had
-    at least one fixture in that window."""
-    from datetime import date, timedelta
-    active = set()
-    today = date.today()
-    for i in range(days_back):
-        d = (today - timedelta(days=i)).isoformat()
+def find_recently_active_league_ids(dates: list) -> dict:
+    """Checks each date in `dates` (one API call per day, covering ALL
+    competitions at once) and returns {league_id: set_of_seasons_seen} -
+    the EXACT season(s) each competition actually had a match in."""
+    active = {}
+    for d in dates:
         print(f"Checking activity on {d}...")
         fixtures = fetch_fixtures_by_date(d)
         for fx in fixtures:
-            active.add(fx["league"]["id"])
+            lid = fx["league"]["id"]
+            season = fx["league"]["season"]
+            active.setdefault(lid, set()).add(season)
         print(f"    {len(fixtures)} fixtures worldwide, "
               f"{len(set(fx['league']['id'] for fx in fixtures))} distinct competitions")
         time.sleep(SLEEP_SECONDS)
@@ -134,7 +141,12 @@ def fetch_fixtures(league_id: int, season: int) -> list[dict]:
     if resp.status_code != 200:
         print(f"    HTTP {resp.status_code}: {resp.text[:200]}")
         resp.raise_for_status()
-    data = resp.json()
+    # Force UTF-8 decoding of the raw response bytes directly, instead of
+    # resp.json() (which relies on requests guessing the encoding from
+    # response headers - if the server does not send an explicit
+    # charset=utf-8 in its Content-Type, that guess can be wrong, silently
+    # mangling accented characters like Bayern MÃ¼nchen instead of München).
+    data = json.loads(resp.content.decode("utf-8"))
     if data.get("errors"):
         print(f"    API error: {data['errors']}")
     return data.get("response", [])
@@ -150,7 +162,16 @@ def fixture_to_row(fx: dict) -> dict:
         "away_team": teams["away"]["name"], "away_team_id": teams["away"]["id"],
         "home_score": goals["home"] if goals["home"] is not None else "",
         "away_score": goals["away"] if goals["away"] is not None else "",
-        "played": status_short in ("FT", "AET", "PEN"),
+        # Require BOTH goal fields to be genuinely present, not just a
+        # played-looking status - see pull_fixtures.py for the full
+        # rationale (API-Football occasionally returns FT/AET/PEN with a
+        # null goal, and writing played=True with an empty score field
+        # crashes run_ratings.py's int(row["home_score"])).
+        "played": (
+            status_short in ("FT", "AET", "PEN")
+            and goals["home"] is not None
+            and goals["away"] is not None
+        ),
         "venue_id": fixture.get("venue", {}).get("id") or "",
     }
 
@@ -188,6 +209,15 @@ def build_country_code_to_key(leagues_config: dict) -> dict:
     return mapping
 
 
+STALE_SEASON_THRESHOLD_YEARS = 2  # a competition whose newest known season
+                                   # is older than this is very likely
+                                   # defunct/renamed (confirmed twice so
+                                   # far: NZ's old Premiership, Greece's
+                                   # Football League, both abolished
+                                   # years ago) - excluded by default
+                                   # rather than pulled forever on faith.
+
+
 def build_pull_list():
     with open(CLUB_METADATA_PATH) as f:
         club_metadata = json.load(f)
@@ -204,7 +234,11 @@ def build_pull_list():
 
     tracked_keys = set(code_to_key.values()) | {"World"}
 
-    pull_list = []  # (leagues_config_key, competition_name, league_id, [seasons])
+    from datetime import date
+    current_year = date.today().year
+
+    pull_list = []
+    likely_defunct = []
     for key in tracked_keys:
         comps = leagues_config.get(key, [])
         for comp in comps:
@@ -214,20 +248,61 @@ def build_pull_list():
                 continue
             seasons = comp.get("seasons") or []
             if not seasons:
-                continue  # never-pulled competition - use pull_fixtures.py for that first
+                continue
             latest = max(seasons)
+            if current_year - latest > STALE_SEASON_THRESHOLD_YEARS:
+                likely_defunct.append((key, comp["name"], comp["league_id"], latest))
+                continue
             pull_list.append((key, comp["name"], comp["league_id"], sorted({latest, latest + 1})))
 
+    if likely_defunct:
+        print(f"\n{len(likely_defunct)} competition(s) skipped as likely defunct "
+              f"(newest known season is {STALE_SEASON_THRESHOLD_YEARS}+ years old - "
+              f"probably renamed/abolished, like NZ's old Premiership or Greece's "
+              f"Football League. Verify before removing from leagues_config.json):")
+        for key, name, league_id, latest in likely_defunct:
+            print(f"    {key} / {name} (id={league_id}) - newest season: {latest}")
+        print()
+
     return pull_list
+
+
+def build_date_list(argv) -> list:
+    """--from=YYYY-MM-DD --to=YYYY-MM-DD for an explicit range (catch-up
+    runs), or --days=N for the last N days from today (routine matchday
+    runs) - defaults to --days=4 if neither is given."""
+    from datetime import date, timedelta
+
+    from_str = to_str = None
+    days_back = None
+    for arg in argv:
+        if arg.startswith("--from="):
+            from_str = arg.split("=", 1)[1]
+        elif arg.startswith("--to="):
+            to_str = arg.split("=", 1)[1]
+        elif arg.startswith("--days="):
+            days_back = int(arg.split("=", 1)[1])
+
+    if from_str and to_str:
+        start = date.fromisoformat(from_str)
+        end = date.fromisoformat(to_str)
+        if end < start:
+            raise SystemExit(f"--to ({to_str}) is before --from ({from_str})")
+        n_days = (end - start).days + 1
+        return [(start + timedelta(days=i)).isoformat() for i in range(n_days)]
+
+    if from_str or to_str:
+        raise SystemExit("Use --from and --to together for a date range.")
+
+    days_back = days_back or 4
+    today = date.today()
+    return [(today - timedelta(days=i)).isoformat() for i in range(days_back)]
 
 
 def main():
     dry_run = "--dry-run" in sys.argv
     skip_check = "--no-check" in sys.argv
-    days_back = 4
-    for arg in sys.argv:
-        if arg.startswith("--days="):
-            days_back = int(arg.split("=")[1])
+    dates = build_date_list(sys.argv)
 
     pull_list = build_pull_list()
     print(f"{len(pull_list)} competitions in the tracked universe.\n")
@@ -236,15 +311,21 @@ def main():
         if not API_KEY and not dry_run:
             raise SystemExit("Set API_FOOTBALL_KEY environment variable first.")
         if dry_run:
-            print(f"[dry-run] Would check the last {days_back} day(s) for activity "
-                  f"({days_back} API calls), then only pull competitions that had a match.\n")
+            print(f"[dry-run] Would check {len(dates)} day(s) ({dates[0]} to {dates[-1]}) "
+                  f"for activity ({len(dates)} API calls), then only pull the EXACT season "
+                  f"each active competition had a match in.\n")
         else:
-            active_ids = find_recently_active_league_ids(days_back)
-            print(f"\n{len(active_ids)} distinct competitions had activity in the last "
-                  f"{days_back} day(s).")
+            active = find_recently_active_league_ids(dates)
+            print(f"\n{len(active)} distinct competitions had activity across the "
+                  f"{len(dates)} checked day(s) ({dates[-1]} to {dates[0]}).")
             before = len(pull_list)
-            pull_list = [p for p in pull_list if p[2] in active_ids]
-            print(f"Narrowed from {before} to {len(pull_list)} competitions worth pulling.\n")
+            narrowed = []
+            for key, name, league_id, _guessed_seasons in pull_list:
+                if league_id in active:
+                    narrowed.append((key, name, league_id, sorted(active[league_id])))
+            pull_list = narrowed
+            print(f"Narrowed from {before} to {len(pull_list)} competitions worth pulling, "
+                  f"using the exact season(s) each one was actually active in.\n")
 
     total_calls = sum(len(seasons) for _, _, _, seasons in pull_list)
     est_minutes = round(total_calls * SLEEP_SECONDS / 60, 1)

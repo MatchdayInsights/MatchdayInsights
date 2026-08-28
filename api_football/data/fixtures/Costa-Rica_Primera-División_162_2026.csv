@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1551648,2026-07-24T02:00:00+00:00,FT,Apertura - 1,CS Herediano,815,Puntarenas FC,2045,1,1,True,402
 1551650,2026-07-25T02:00:00+00:00,FT,Apertura - 1,Deportivo Saprissa,816,Perez Zeledon,819,5,1,True,
 1551647,2026-07-25T23:00:00+00:00,FT,Apertura - 1,CS Cartagines,820,Inter San Carlos,24391,3,1,True,
@@ -8,21 +8,21 @@
 1551655,2026-08-02T22:00:00+00:00,FT,Apertura - 2,Deportivo Saprissa,816,San Carlos,823,2,1,True,
 1551653,2026-08-03T00:00:00+00:00,FT,Apertura - 2,Inter San Carlos,24391,CS Herediano,815,1,1,True,22257
 1551656,2026-08-04T02:00:00+00:00,FT,Apertura - 2,Perez Zeledon,819,CS Cartagines,820,1,0,True,
-1551657,2026-08-08T02:00:00+00:00,NS,Apertura - 3,CS Cartagines,820,Sporting San Jose,2047,,,False,
-1598808,2026-08-09T00:00:00+00:00,NS,Apertura - 3,Escorpiones Belén,17377,Perez Zeledon,819,,,False,1730
-1551661,2026-08-09T02:00:00+00:00,NS,Apertura - 3,Puntarenas FC,2045,Deportivo Saprissa,816,,,False,405
-1551659,2026-08-09T21:00:00+00:00,NS,Apertura - 3,Inter San Carlos,24391,San Carlos,823,,,False,
-1551658,2026-08-10T00:00:00+00:00,NS,Apertura - 3,CS Herediano,815,LD Alajuelense,822,,,False,402
-1551663,2026-08-15T02:00:00+00:00,NS,Apertura - 4,San Carlos,823,CS Herediano,815,,,False,
-1551662,2026-08-15T22:00:00+00:00,NS,Apertura - 4,LD Alajuelense,822,Puntarenas FC,2045,,,False,393
-1551664,2026-08-16T02:00:00+00:00,NS,Apertura - 4,Deportivo Saprissa,816,CS Cartagines,820,,,False,
-1551666,2026-08-16T22:00:00+00:00,NS,Apertura - 4,Perez Zeledon,819,Inter San Carlos,24391,,,False,
-1598809,2026-08-18T02:00:00+00:00,NS,Apertura - 4,Sporting San Jose,2047,Escorpiones Belén,17377,,,False,
-1551671,2026-08-22T01:00:00+00:00,NS,Apertura - 5,Puntarenas FC,2045,Perez Zeledon,819,,,False,405
-1598810,2026-08-22T23:00:00+00:00,NS,Apertura - 5,Escorpiones Belén,17377,CS Cartagines,820,,,False,
-1551668,2026-08-23T02:00:00+00:00,NS,Apertura - 5,CS Herediano,815,Sporting San Jose,2047,,,False,402
-1551669,2026-08-23T21:00:00+00:00,NS,Apertura - 5,Inter San Carlos,24391,Deportivo Saprissa,816,,,False,
-1551667,2026-08-24T00:00:00+00:00,NS,Apertura - 5,LD Alajuelense,822,San Carlos,823,,,False,393
+1551657,2026-08-08T02:00:00+00:00,FT,Apertura - 3,CS Cartagines,820,Sporting San Jose,2047,2,1,True,
+1598808,2026-08-09T00:00:00+00:00,FT,Apertura - 3,Escorpiones Belén,17377,Perez Zeledon,819,0,0,True,1730
+1551661,2026-08-09T02:00:00+00:00,FT,Apertura - 3,Puntarenas FC,2045,Deportivo Saprissa,816,0,2,True,405
+1551659,2026-08-09T21:00:00+00:00,FT,Apertura - 3,Inter San Carlos,24391,San Carlos,823,2,0,True,
+1551658,2026-08-10T00:00:00+00:00,FT,Apertura - 3,CS Herediano,815,LD Alajuelense,822,0,3,True,402
+1551663,2026-08-15T02:00:00+00:00,FT,Apertura - 4,San Carlos,823,CS Herediano,815,1,0,True,
+1551662,2026-08-15T22:00:00+00:00,FT,Apertura - 4,LD Alajuelense,822,Puntarenas FC,2045,2,1,True,393
+1551664,2026-08-16T02:00:00+00:00,FT,Apertura - 4,Deportivo Saprissa,816,CS Cartagines,820,3,2,True,
+1551666,2026-08-16T22:00:00+00:00,FT,Apertura - 4,Perez Zeledon,819,Inter San Carlos,24391,0,1,True,
+1598809,2026-08-18T02:00:00+00:00,FT,Apertura - 4,Sporting San Jose,2047,Escorpiones Belén,17377,2,0,True,
+1551671,2026-08-22T01:00:00+00:00,FT,Apertura - 5,Puntarenas FC,2045,Perez Zeledon,819,1,0,True,405
+1598810,2026-08-22T23:00:00+00:00,FT,Apertura - 5,Escorpiones Belén,17377,CS Cartagines,820,1,4,True,1730
+1551668,2026-08-23T02:00:00+00:00,FT,Apertura - 5,CS Herediano,815,Sporting San Jose,2047,0,3,True,402
+1551669,2026-08-23T21:00:00+00:00,FT,Apertura - 5,Inter San Carlos,24391,Deportivo Saprissa,816,1,0,True,22257
+1551667,2026-08-24T00:00:00+00:00,FT,Apertura - 5,LD Alajuelense,822,San Carlos,823,0,1,True,393
 1551675,2026-08-29T02:00:00+00:00,NS,Apertura - 6,Sporting San Jose,2047,Inter San Carlos,24391,,,False,
 1551676,2026-08-30T02:00:00+00:00,NS,Apertura - 6,Perez Zeledon,819,LD Alajuelense,822,,,False,
 1551672,2026-08-30T17:00:00+00:00,NS,Apertura - 6,CS Cartagines,820,CS Herediano,815,,,False,

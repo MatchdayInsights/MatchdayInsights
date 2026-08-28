@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1494596,2026-03-14T15:00:00+00:00,FT,Regular Season - 1,Ham-Kam,2159,Viking,759,2,1,True,1177
 1494597,2026-03-14T17:00:00+00:00,FT,Regular Season - 1,Molde,329,Rosenborg,331,2,0,True,1184
 1494598,2026-03-15T13:30:00+00:00,FT,Regular Season - 1,Kristiansund BK,320,Brann,319,3,2,True,
@@ -121,20 +121,20 @@
 1494716,2026-08-02T15:00:00+00:00,FT,Regular Season - 16,Aalesund,757,Tromso,325,2,6,True,
 1494720,2026-08-02T15:00:00+00:00,FT,Regular Season - 16,KFUM Oslo,2143,Kristiansund BK,320,2,1,True,1179
 1494718,2026-08-02T17:15:00+00:00,FT,Regular Season - 16,Brann,319,Rosenborg,331,3,2,True,1176
-1494728,2026-08-07T17:00:00+00:00,NS,Regular Season - 17,Sandefjord,332,KFUM Oslo,2143,,,False,20418
-1494730,2026-08-08T12:00:00+00:00,NS,Regular Season - 17,Valerenga,326,Bodo/Glimt,327,,,False,1203
-1494731,2026-08-08T14:00:00+00:00,NS,Regular Season - 17,Viking,759,Sarpsborg 08 FF,333,,,False,21732
-1494729,2026-08-08T16:00:00+00:00,NS,Regular Season - 17,Start,334,Fredrikstad,2149,,,False,
-1494727,2026-08-09T12:30:00+00:00,NS,Regular Season - 17,Lillestrom,321,Rosenborg,331,,,False,
-1494725,2026-08-09T15:00:00+00:00,NS,Regular Season - 17,Ham-Kam,2159,Aalesund,757,,,False,1177
-1494726,2026-08-09T17:15:00+00:00,NS,Regular Season - 17,Kristiansund BK,320,Molde,329,,,False,
-1494738,2026-08-14T17:00:00+00:00,NS,Regular Season - 18,Rosenborg,331,Viking,759,,,False,1190
-1494736,2026-08-15T14:00:00+00:00,NS,Regular Season - 18,KFUM Oslo,2143,Lillestrom,321,,,False,1179
-1494733,2026-08-16T12:30:00+00:00,NS,Regular Season - 18,Aalesund,757,Valerenga,326,,,False,
-1494734,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Brann,319,Ham-Kam,2159,,,False,1176
-1494737,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Molde,329,Tromso,325,,,False,1184
-1494739,2026-08-16T15:00:00+00:00,NS,Regular Season - 18,Sarpsborg 08 FF,333,Sandefjord,332,,,False,1193
-1494735,2026-08-16T17:15:00+00:00,NS,Regular Season - 18,Fredrikstad,2149,Kristiansund BK,320,,,False,
+1494728,2026-08-07T17:00:00+00:00,FT,Regular Season - 17,Sandefjord,332,KFUM Oslo,2143,0,1,True,20418
+1494730,2026-08-08T12:00:00+00:00,FT,Regular Season - 17,Valerenga,326,Bodo/Glimt,327,1,2,True,1203
+1494731,2026-08-08T14:00:00+00:00,FT,Regular Season - 17,Viking,759,Sarpsborg 08 FF,333,2,1,True,21732
+1494729,2026-08-08T16:00:00+00:00,FT,Regular Season - 17,Start,334,Fredrikstad,2149,0,1,True,1197
+1494727,2026-08-09T12:30:00+00:00,FT,Regular Season - 17,Lillestrom,321,Rosenborg,331,0,2,True,
+1494725,2026-08-09T15:00:00+00:00,FT,Regular Season - 17,Ham-Kam,2159,Aalesund,757,1,1,True,1177
+1494726,2026-08-09T17:15:00+00:00,FT,Regular Season - 17,Kristiansund BK,320,Molde,329,2,1,True,
+1494738,2026-08-14T17:00:00+00:00,FT,Regular Season - 18,Rosenborg,331,Viking,759,2,1,True,1190
+1494736,2026-08-15T14:00:00+00:00,FT,Regular Season - 18,KFUM Oslo,2143,Lillestrom,321,1,1,True,1179
+1494733,2026-08-16T12:30:00+00:00,FT,Regular Season - 18,Aalesund,757,Valerenga,326,5,5,True,
+1494734,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Brann,319,Ham-Kam,2159,3,0,True,1176
+1494737,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Molde,329,Tromso,325,3,2,True,1184
+1494739,2026-08-16T15:00:00+00:00,FT,Regular Season - 18,Sarpsborg 08 FF,333,Sandefjord,332,1,2,True,1193
+1494735,2026-08-16T17:15:00+00:00,FT,Regular Season - 18,Fredrikstad,2149,Kristiansund BK,320,1,0,True,
 1494746,2026-08-29T14:00:00+00:00,NS,Regular Season - 19,Valerenga,326,Molde,329,,,False,1203
 1494747,2026-08-29T16:00:00+00:00,NS,Regular Season - 19,Viking,759,Aalesund,757,,,False,21732
 1494740,2026-08-30T12:30:00+00:00,NS,Regular Season - 19,Bodo/Glimt,327,Rosenborg,331,,,False,

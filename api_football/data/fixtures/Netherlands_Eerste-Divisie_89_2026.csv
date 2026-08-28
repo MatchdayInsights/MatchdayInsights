@@ -1,34 +1,34 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1551741,2026-08-07T18:00:00+00:00,NS,Regular Season - 1,Vitesse,200,Waalwijk,417,,,False,1155
-1551740,2026-08-07T18:00:00+00:00,NS,Regular Season - 1,VVV Venlo,204,Heracles,206,,,False,
-1551738,2026-08-07T18:00:00+00:00,NS,Regular Season - 1,Emmen,208,Roda,414,,,False,10504
-1551737,2026-08-07T18:00:00+00:00,NS,Regular Season - 1,Dordrecht,409,Jong Ajax,425,,,False,20517
-1551739,2026-08-07T18:00:00+00:00,NS,Regular Season - 1,FC OSS,423,NAC Breda,203,,,False,1142
-1551742,2026-08-08T14:30:00+00:00,NS,Regular Season - 1,Den Bosch,421,Almere City FC,419,,,False,
-1551744,2026-08-09T10:15:00+00:00,NS,Regular Season - 1,Helmond Sport,424,De Graafschap,199,,,False,19214
-1551743,2026-08-09T14:45:00+00:00,NS,Regular Season - 1,MVV,412,Jong Utrecht,428,,,False,1138
-1551746,2026-08-10T18:00:00+00:00,NS,Regular Season - 1,Jong PSV U21,411,FC Volendam,416,,,False,
-1551745,2026-08-10T18:00:00+00:00,NS,Regular Season - 1,Jong AZ,418,FC Eindhoven,422,,,False,1136
-1551750,2026-08-14T18:00:00+00:00,NS,Regular Season - 2,NAC Breda,203,VVV Venlo,204,,,False,1139
-1551749,2026-08-14T18:00:00+00:00,NS,Regular Season - 2,Heracles,206,Den Bosch,421,,,False,
-1551751,2026-08-14T18:00:00+00:00,NS,Regular Season - 2,Roda,414,Helmond Sport,424,,,False,1146
-1551752,2026-08-14T18:00:00+00:00,NS,Regular Season - 2,Waalwijk,417,Dordrecht,409,,,False,1144
-1551747,2026-08-14T18:00:00+00:00,NS,Regular Season - 2,Almere City FC,419,Jong PSV U21,411,,,False,1141
-1551748,2026-08-14T18:00:00+00:00,NS,Regular Season - 2,FC Eindhoven,422,MVV,412,,,False,1126
-1551753,2026-08-15T14:30:00+00:00,NS,Regular Season - 2,FC Volendam,416,FC OSS,423,,,False,1156
-1551754,2026-08-17T18:00:00+00:00,NS,Regular Season - 2,De Graafschap,199,Jong AZ,418,,,False,
-1551755,2026-08-17T18:00:00+00:00,NS,Regular Season - 2,Jong Ajax,425,Emmen,208,,,False,
-1551756,2026-08-17T18:00:00+00:00,NS,Regular Season - 2,Jong Utrecht,428,Vitesse,200,,,False,12600
-1551762,2026-08-21T18:00:00+00:00,NS,Regular Season - 3,Vitesse,200,Almere City FC,419,,,False,1155
-1551759,2026-08-21T18:00:00+00:00,NS,Regular Season - 3,Emmen,208,Jong AZ,418,,,False,10504
-1551758,2026-08-21T18:00:00+00:00,NS,Regular Season - 3,Dordrecht,409,Roda,414,,,False,20517
-1551761,2026-08-21T18:00:00+00:00,NS,Regular Season - 3,MVV,412,FC Volendam,416,,,False,1138
-1551757,2026-08-21T18:00:00+00:00,NS,Regular Season - 3,Den Bosch,421,FC Eindhoven,422,,,False,
-1551760,2026-08-21T18:00:00+00:00,NS,Regular Season - 3,Helmond Sport,424,Waalwijk,417,,,False,19214
-1551763,2026-08-22T14:30:00+00:00,NS,Regular Season - 3,NAC Breda,203,Jong Ajax,425,,,False,1139
-1551764,2026-08-23T14:45:00+00:00,NS,Regular Season - 3,VVV Venlo,204,De Graafschap,199,,,False,
-1551765,2026-08-24T18:00:00+00:00,NS,Regular Season - 3,Jong PSV U21,411,FC OSS,423,,,False,
-1551766,2026-08-24T18:00:00+00:00,NS,Regular Season - 3,Jong Utrecht,428,Heracles,206,,,False,12600
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1551741,2026-08-07T18:00:00+00:00,FT,Regular Season - 1,Vitesse,200,Waalwijk,417,1,1,True,1155
+1551740,2026-08-07T18:00:00+00:00,FT,Regular Season - 1,VVV Venlo,204,Heracles,206,3,4,True,
+1551738,2026-08-07T18:00:00+00:00,FT,Regular Season - 1,Emmen,208,Roda,414,1,0,True,10504
+1551737,2026-08-07T18:00:00+00:00,FT,Regular Season - 1,Dordrecht,409,Jong Ajax,425,2,1,True,20517
+1551739,2026-08-07T18:00:00+00:00,FT,Regular Season - 1,FC OSS,423,NAC Breda,203,1,2,True,1142
+1551742,2026-08-08T14:30:00+00:00,FT,Regular Season - 1,Den Bosch,421,Almere City FC,419,1,1,True,
+1551744,2026-08-09T10:15:00+00:00,FT,Regular Season - 1,Helmond Sport,424,De Graafschap,199,1,1,True,19214
+1551743,2026-08-09T14:45:00+00:00,FT,Regular Season - 1,MVV,412,Jong Utrecht,428,2,1,True,1138
+1551746,2026-08-10T18:00:00+00:00,FT,Regular Season - 1,Jong PSV U21,411,FC Volendam,416,3,2,True,
+1551745,2026-08-10T18:00:00+00:00,FT,Regular Season - 1,Jong AZ,418,FC Eindhoven,422,0,1,True,1136
+1551750,2026-08-14T18:00:00+00:00,FT,Regular Season - 2,NAC Breda,203,VVV Venlo,204,0,2,True,1139
+1551749,2026-08-14T18:00:00+00:00,FT,Regular Season - 2,Heracles,206,Den Bosch,421,3,2,True,
+1551751,2026-08-14T18:00:00+00:00,FT,Regular Season - 2,Roda,414,Helmond Sport,424,2,1,True,1146
+1551752,2026-08-14T18:00:00+00:00,FT,Regular Season - 2,Waalwijk,417,Dordrecht,409,2,2,True,1144
+1551747,2026-08-14T18:00:00+00:00,FT,Regular Season - 2,Almere City FC,419,Jong PSV U21,411,3,1,True,1141
+1551748,2026-08-14T18:00:00+00:00,FT,Regular Season - 2,FC Eindhoven,422,MVV,412,2,3,True,1126
+1551753,2026-08-15T14:30:00+00:00,FT,Regular Season - 2,FC Volendam,416,FC OSS,423,3,0,True,1156
+1551754,2026-08-17T18:00:00+00:00,FT,Regular Season - 2,De Graafschap,199,Jong AZ,418,2,5,True,
+1551755,2026-08-17T18:00:00+00:00,FT,Regular Season - 2,Jong Ajax,425,Emmen,208,4,6,True,
+1551756,2026-08-17T18:00:00+00:00,FT,Regular Season - 2,Jong Utrecht,428,Vitesse,200,1,3,True,12600
+1551762,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Vitesse,200,Almere City FC,419,0,3,True,1155
+1551759,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Emmen,208,Jong AZ,418,3,1,True,10504
+1551758,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Dordrecht,409,Roda,414,0,1,True,20517
+1551761,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,MVV,412,FC Volendam,416,1,0,True,1138
+1551757,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Den Bosch,421,FC Eindhoven,422,5,2,True,
+1551760,2026-08-21T18:00:00+00:00,FT,Regular Season - 3,Helmond Sport,424,Waalwijk,417,1,1,True,19214
+1551763,2026-08-22T14:30:00+00:00,FT,Regular Season - 3,NAC Breda,203,Jong Ajax,425,3,2,True,1139
+1551764,2026-08-23T14:45:00+00:00,FT,Regular Season - 3,VVV Venlo,204,De Graafschap,199,2,1,True,
+1551765,2026-08-24T18:00:00+00:00,FT,Regular Season - 3,Jong PSV U21,411,FC OSS,423,1,0,True,
+1551766,2026-08-24T18:00:00+00:00,FT,Regular Season - 3,Jong Utrecht,428,Heracles,206,1,6,True,12600
 1551772,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Roda,414,NAC Breda,203,,,False,1146
 1551768,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,FC Volendam,416,Dordrecht,409,,,False,1156
 1551773,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Waalwijk,417,Jong PSV U21,411,,,False,1144

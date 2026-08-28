@@ -1,21 +1,21 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1541945,2026-04-21T18:00:00+00:00,FT,Regular Season - 1,Blumenau,19635,Tubarao,1204,0,0,True,0
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1541945,2026-04-21T18:00:00+00:00,FT,Regular Season - 1,Blumenau,19635,Tubarao,1204,0,0,True,
 1541946,2026-04-25T18:00:00+00:00,FT,Regular Season - 1,Guarani de Palhoça,12283,Metropolitano,7860,0,1,True,
 1541947,2026-04-26T18:00:00+00:00,FT,Regular Season - 1,Juventus SC,12912,Nação,19637,1,1,True,
 1541948,2026-04-26T18:00:00+00:00,FT,Regular Season - 1,Fluminense-SC,25116,Caravaggio,21209,1,2,True,
 1542017,2026-04-28T22:30:00+00:00,FT,Regular Season - 1,Hercílio Luz,7828,Jaraguá,25117,4,1,True,
 1541949,2026-04-29T22:30:00+00:00,FT,Regular Season - 2,Caravaggio,21209,Blumenau,19635,1,3,True,
 1541951,2026-05-01T18:00:00+00:00,FT,Regular Season - 2,Tubarao,1204,Juventus SC,12912,4,0,True,
-1541950,2026-05-03T18:00:00+00:00,FT,Regular Season - 2,Metropolitano,7860,Hercílio Luz,7828,0,0,True,0
+1541950,2026-05-03T18:00:00+00:00,FT,Regular Season - 2,Metropolitano,7860,Hercílio Luz,7828,0,0,True,
 1541952,2026-05-03T18:00:00+00:00,FT,Regular Season - 2,Nação,19637,Guarani de Palhoça,12283,1,0,True,
 1542018,2026-05-03T18:00:00+00:00,FT,Regular Season - 2,Jaraguá,25117,Fluminense-SC,25116,1,2,True,
 1542019,2026-05-06T18:00:00+00:00,FT,Regular Season - 3,Tubarao,1204,Jaraguá,25117,1,1,True,
-1541955,2026-05-06T18:00:00+00:00,FT,Regular Season - 3,Metropolitano,7860,Nação,19637,5,2,True,0
+1541955,2026-05-06T18:00:00+00:00,FT,Regular Season - 3,Metropolitano,7860,Nação,19637,5,2,True,
 1541956,2026-05-06T18:00:00+00:00,FT,Regular Season - 3,Guarani de Palhoça,12283,Caravaggio,21209,1,1,True,
 1541953,2026-05-06T18:00:00+00:00,FT,Regular Season - 3,Juventus SC,12912,Blumenau,19635,0,3,True,
 1541954,2026-05-06T23:00:00+00:00,FT,Regular Season - 3,Fluminense-SC,25116,Hercílio Luz,7828,1,0,True,
 1541959,2026-05-10T18:00:00+00:00,FT,Regular Season - 4,Hercílio Luz,7828,Guarani de Palhoça,12283,6,0,True,
-1541957,2026-05-10T18:00:00+00:00,FT,Regular Season - 4,Blumenau,19635,Fluminense-SC,25116,0,1,True,0
+1541957,2026-05-10T18:00:00+00:00,FT,Regular Season - 4,Blumenau,19635,Fluminense-SC,25116,0,1,True,
 1542020,2026-05-10T18:00:00+00:00,FT,Regular Season - 4,Jaraguá,25117,Juventus SC,12912,0,1,True,
 1541960,2026-05-10T20:00:00+00:00,FT,Regular Season - 4,Caravaggio,21209,Metropolitano,7860,2,0,True,
 1541958,2026-05-12T22:30:00+00:00,FT,Regular Season - 4,Nação,19637,Tubarao,1204,0,0,True,
@@ -47,45 +47,45 @@
 1541983,2026-06-14T18:00:00+00:00,FT,Regular Season - 10,Metropolitano,7860,Guarani de Palhoça,12283,3,1,True,
 1542026,2026-06-14T18:00:00+00:00,FT,Regular Season - 10,Jaraguá,25117,Hercílio Luz,7828,0,2,True,
 1541982,2026-06-14T19:00:00+00:00,FT,Regular Season - 10,Caravaggio,21209,Fluminense-SC,25116,1,0,True,
-1541984,2026-06-17T18:00:00+00:00,FT,Regular Season - 10,Tubarao,1204,Blumenau,19635,2,3,True,0
+1541984,2026-06-17T18:00:00+00:00,FT,Regular Season - 10,Tubarao,1204,Blumenau,19635,2,3,True,
 1541981,2026-06-17T22:30:00+00:00,FT,Regular Season - 10,Nação,19637,Juventus SC,12912,1,0,True,
-1541985,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Hercílio Luz,7828,Metropolitano,7860,3,0,True,0
-1541987,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Guarani de Palhoça,12283,Nação,19637,0,0,True,0
-1541986,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Juventus SC,12912,Tubarao,1204,0,2,True,0
-1542027,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Fluminense-SC,25116,Jaraguá,25117,1,0,True,0
-1541988,2026-06-24T18:00:00+00:00,FT,Regular Season - 11,Blumenau,19635,Caravaggio,21209,1,2,True,0
-1541989,2026-06-28T18:00:00+00:00,FT,Regular Season - 12,Hercílio Luz,7828,Fluminense-SC,25116,4,2,True,0
-1541991,2026-06-28T19:00:00+00:00,FT,Regular Season - 12,Caravaggio,21209,Guarani de Palhoça,12283,2,3,True,0
-1542028,2026-07-01T18:00:00+00:00,FT,Regular Season - 12,Jaraguá,25117,Tubarao,1204,0,3,True,0
-1541990,2026-07-01T23:00:00+00:00,FT,Regular Season - 12,Nação,19637,Metropolitano,7860,0,0,True,0
-1541994,2026-07-04T18:00:00+00:00,FT,Regular Season - 13,Guarani de Palhoça,12283,Hercílio Luz,7828,1,2,True,0
-1542029,2026-07-04T18:00:00+00:00,FT,Regular Season - 13,Juventus SC,12912,Jaraguá,25117,8,1,True,0
-1541995,2026-07-04T18:00:00+00:00,FT,Regular Season - 13,Fluminense-SC,25116,Blumenau,19635,1,1,True,0
-1541993,2026-07-05T14:00:00+00:00,FT,Regular Season - 13,Tubarao,1204,Nação,19637,1,0,True,0
-1541996,2026-07-05T14:00:00+00:00,FT,Regular Season - 13,Metropolitano,7860,Caravaggio,21209,2,1,True,0
-1541992,2026-07-08T18:00:00+00:00,FT,Regular Season - 12,Blumenau,19635,Juventus SC,12912,1,1,True,0
-1541998,2026-07-12T18:00:00+00:00,FT,Regular Season - 14,Tubarao,1204,Metropolitano,7860,2,3,True,0
-1542000,2026-07-12T18:00:00+00:00,FT,Regular Season - 14,Juventus SC,12912,Guarani de Palhoça,12283,1,0,True,0
-1541997,2026-07-12T18:00:00+00:00,FT,Regular Season - 14,Blumenau,19635,Hercílio Luz,7828,0,2,True,0
-1542030,2026-07-12T19:00:00+00:00,FT,Regular Season - 14,Caravaggio,21209,Jaraguá,25117,9,0,True,0
-1541999,2026-07-12T20:00:00+00:00,FT,Regular Season - 14,Nação,19637,Fluminense-SC,25116,1,2,True,0
-1542002,2026-07-15T18:00:00+00:00,FT,Regular Season - 15,Blumenau,19635,Metropolitano,7860,4,1,True,0
-1542004,2026-07-15T18:00:00+00:00,FT,Regular Season - 15,Fluminense-SC,25116,Guarani de Palhoça,12283,1,1,True,0
-1542031,2026-07-15T18:00:00+00:00,FT,Regular Season - 15,Jaraguá,25117,Nação,19637,0,2,True,0
-1542003,2026-07-15T22:00:00+00:00,FT,Regular Season - 15,Caravaggio,21209,Tubarao,1204,2,1,True,0
-1542001,2026-07-15T22:30:00+00:00,FT,Regular Season - 15,Hercílio Luz,7828,Juventus SC,12912,1,0,True,0
-1542032,2026-07-18T18:00:00+00:00,FT,Regular Season - 16,Metropolitano,7860,Jaraguá,25117,6,1,True,0
-1542007,2026-07-18T20:00:00+00:00,FT,Regular Season - 16,Nação,19637,Caravaggio,21209,2,2,True,0
-1542005,2026-07-19T14:00:00+00:00,FT,Regular Season - 16,Tubarao,1204,Hercílio Luz,7828,0,2,True,0
-1542006,2026-07-19T18:00:00+00:00,FT,Regular Season - 16,Guarani de Palhoça,12283,Blumenau,19635,1,1,True,0
-1542008,2026-07-19T18:00:00+00:00,FT,Regular Season - 16,Juventus SC,12912,Fluminense-SC,25116,3,0,True,0
-1542033,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Guarani de Palhoça,12283,Jaraguá,25117,7,0,True,0
-1542012,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Juventus SC,12912,Metropolitano,7860,0,2,True,0
-1542010,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Blumenau,19635,Nação,19637,0,2,True,0
-1542011,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Fluminense-SC,25116,Tubarao,1204,2,1,True,0
-1542009,2026-07-22T23:00:00+00:00,FT,Regular Season - 17,Hercílio Luz,7828,Caravaggio,21209,0,0,True,0
-1542014,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Tubarao,1204,Guarani de Palhoça,12283,0,2,True,0
-1542016,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Metropolitano,7860,Fluminense-SC,25116,3,0,True,0
-1542013,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Nação,19637,Hercílio Luz,7828,1,2,True,0
-1542015,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Caravaggio,21209,Juventus SC,12912,3,1,True,0
-1542034,2026-07-25T18:00:00+00:00,AWD,Regular Season - 18,Jaraguá,25117,Blumenau,19635,0,3,False,0
+1541985,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Hercílio Luz,7828,Metropolitano,7860,3,0,True,
+1541987,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Guarani de Palhoça,12283,Nação,19637,0,0,True,
+1541986,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Juventus SC,12912,Tubarao,1204,0,2,True,
+1542027,2026-06-21T18:00:00+00:00,FT,Regular Season - 11,Fluminense-SC,25116,Jaraguá,25117,1,0,True,
+1541988,2026-06-24T18:00:00+00:00,FT,Regular Season - 11,Blumenau,19635,Caravaggio,21209,1,2,True,
+1541989,2026-06-28T18:00:00+00:00,FT,Regular Season - 12,Hercílio Luz,7828,Fluminense-SC,25116,4,2,True,
+1541991,2026-06-28T19:00:00+00:00,FT,Regular Season - 12,Caravaggio,21209,Guarani de Palhoça,12283,2,3,True,
+1542028,2026-07-01T18:00:00+00:00,FT,Regular Season - 12,Jaraguá,25117,Tubarao,1204,0,3,True,
+1541990,2026-07-01T23:00:00+00:00,FT,Regular Season - 12,Nação,19637,Metropolitano,7860,0,0,True,
+1541994,2026-07-04T18:00:00+00:00,FT,Regular Season - 13,Guarani de Palhoça,12283,Hercílio Luz,7828,1,2,True,
+1542029,2026-07-04T18:00:00+00:00,FT,Regular Season - 13,Juventus SC,12912,Jaraguá,25117,8,1,True,
+1541995,2026-07-04T18:00:00+00:00,FT,Regular Season - 13,Fluminense-SC,25116,Blumenau,19635,1,1,True,
+1541993,2026-07-05T14:00:00+00:00,FT,Regular Season - 13,Tubarao,1204,Nação,19637,1,0,True,
+1541996,2026-07-05T14:00:00+00:00,FT,Regular Season - 13,Metropolitano,7860,Caravaggio,21209,2,1,True,
+1541992,2026-07-08T18:00:00+00:00,FT,Regular Season - 12,Blumenau,19635,Juventus SC,12912,1,1,True,
+1541998,2026-07-12T18:00:00+00:00,FT,Regular Season - 14,Tubarao,1204,Metropolitano,7860,2,3,True,
+1542000,2026-07-12T18:00:00+00:00,FT,Regular Season - 14,Juventus SC,12912,Guarani de Palhoça,12283,1,0,True,
+1541997,2026-07-12T18:00:00+00:00,FT,Regular Season - 14,Blumenau,19635,Hercílio Luz,7828,0,2,True,
+1542030,2026-07-12T19:00:00+00:00,FT,Regular Season - 14,Caravaggio,21209,Jaraguá,25117,9,0,True,
+1541999,2026-07-12T20:00:00+00:00,FT,Regular Season - 14,Nação,19637,Fluminense-SC,25116,1,2,True,
+1542002,2026-07-15T18:00:00+00:00,FT,Regular Season - 15,Blumenau,19635,Metropolitano,7860,4,1,True,
+1542004,2026-07-15T18:00:00+00:00,FT,Regular Season - 15,Fluminense-SC,25116,Guarani de Palhoça,12283,1,1,True,
+1542031,2026-07-15T18:00:00+00:00,FT,Regular Season - 15,Jaraguá,25117,Nação,19637,0,2,True,
+1542003,2026-07-15T22:00:00+00:00,FT,Regular Season - 15,Caravaggio,21209,Tubarao,1204,2,1,True,
+1542001,2026-07-15T22:30:00+00:00,FT,Regular Season - 15,Hercílio Luz,7828,Juventus SC,12912,1,0,True,
+1542032,2026-07-18T18:00:00+00:00,FT,Regular Season - 16,Metropolitano,7860,Jaraguá,25117,6,1,True,
+1542007,2026-07-18T20:00:00+00:00,FT,Regular Season - 16,Nação,19637,Caravaggio,21209,2,2,True,
+1542005,2026-07-19T14:00:00+00:00,FT,Regular Season - 16,Tubarao,1204,Hercílio Luz,7828,0,2,True,
+1542006,2026-07-19T18:00:00+00:00,FT,Regular Season - 16,Guarani de Palhoça,12283,Blumenau,19635,1,1,True,
+1542008,2026-07-19T18:00:00+00:00,FT,Regular Season - 16,Juventus SC,12912,Fluminense-SC,25116,3,0,True,
+1542033,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Guarani de Palhoça,12283,Jaraguá,25117,7,0,True,
+1542012,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Juventus SC,12912,Metropolitano,7860,0,2,True,
+1542010,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Blumenau,19635,Nação,19637,0,2,True,
+1542011,2026-07-22T18:00:00+00:00,FT,Regular Season - 17,Fluminense-SC,25116,Tubarao,1204,2,1,True,
+1542009,2026-07-22T23:00:00+00:00,FT,Regular Season - 17,Hercílio Luz,7828,Caravaggio,21209,0,0,True,
+1542014,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Tubarao,1204,Guarani de Palhoça,12283,0,2,True,
+1542016,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Metropolitano,7860,Fluminense-SC,25116,3,0,True,
+1542013,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Nação,19637,Hercílio Luz,7828,1,2,True,
+1542015,2026-07-25T18:00:00+00:00,FT,Regular Season - 18,Caravaggio,21209,Juventus SC,12912,3,1,True,
+1542034,2026-07-25T18:00:00+00:00,AWD,Regular Season - 18,Jaraguá,25117,Blumenau,19635,0,3,False,

@@ -1,0 +1,307 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1602972,2026-08-13T16:15:00+00:00,FT,Regular Season - 1,Abha,2951,Al-Hazm,2945,1,2,True,
+1602974,2026-08-13T18:00:00+00:00,FT,Regular Season - 1,Al Shabab,2940,Al-Qadisiyah FC,2933,1,3,True,
+1602973,2026-08-13T18:00:00+00:00,FT,Regular Season - 1,Al Diriyah,26738,Al-Ahli Jeddah,2929,0,1,True,
+1602975,2026-08-14T16:50:00+00:00,FT,Regular Season - 1,NEOM,10513,Al-Fayha,2944,2,1,True,
+1602977,2026-08-14T18:00:00+00:00,FT,Regular Season - 1,Al-Hilal Saudi FC,2932,Al-Faisaly FC,2930,4,2,True,20744
+1602976,2026-08-14T18:00:00+00:00,FT,Regular Season - 1,Al-Ettifaq,2934,Al Riyadh,10511,4,2,True,
+1602978,2026-08-15T16:15:00+00:00,FT,Regular Season - 1,Al Taawon,2936,Al Khaleej Saihat,2928,0,0,True,
+1602979,2026-08-15T18:00:00+00:00,FT,Regular Season - 1,Al-Ittihad FC,2938,Al Kholood,10509,1,1,True,1364
+1602980,2026-08-15T18:00:00+00:00,FT,Regular Season - 1,Al-Nassr,2939,Al-Fateh,2931,3,0,True,
+1602981,2026-08-20T18:00:00+00:00,FT,Regular Season - 2,Al-Fayha,2944,Al-Hilal Saudi FC,2932,0,3,True,
+1602982,2026-08-21T16:00:00+00:00,FT,Regular Season - 2,Al Riyadh,10511,Al-Nassr,2939,0,4,True,1374
+1602983,2026-08-21T16:15:00+00:00,FT,Regular Season - 2,Al-Hazm,2945,Al Diriyah,26738,0,1,True,
+1602984,2026-08-21T18:00:00+00:00,FT,Regular Season - 2,Al-Faisaly FC,2930,NEOM,10513,0,2,True,
+1602985,2026-08-21T18:00:00+00:00,FT,Regular Season - 2,Al-Qadisiyah FC,2933,Al-Ittihad FC,2938,0,1,True,
+1602986,2026-08-22T15:45:00+00:00,FT,Regular Season - 2,Al-Fateh,2931,Al-Ettifaq,2934,0,1,True,22271
+1602987,2026-08-22T16:10:00+00:00,FT,Regular Season - 2,Al Kholood,10509,Al Taawon,2936,3,2,True,
+1602989,2026-08-22T18:00:00+00:00,FT,Regular Season - 2,Al Khaleej Saihat,2928,Al Shabab,2940,0,0,True,1370
+1602988,2026-08-22T18:00:00+00:00,FT,Regular Season - 2,Al-Ahli Jeddah,2929,Abha,2951,4,0,True,1364
+1602990,2026-08-24T16:40:00+00:00,FT,Regular Season - 3,NEOM,10513,Al-Qadisiyah FC,2933,0,2,True,
+1602991,2026-08-24T18:00:00+00:00,FT,Regular Season - 3,Al-Ittihad FC,2938,Al-Hazm,2945,3,2,True,1364
+1602992,2026-08-25T16:05:00+00:00,FT,Regular Season - 3,Abha,2951,Al Khaleej Saihat,2928,1,1,True,
+1602993,2026-08-25T16:10:00+00:00,FT,Regular Season - 3,Al Taawon,2936,Al-Fayha,2944,0,0,True,
+1602994,2026-08-25T18:00:00+00:00,FT,Regular Season - 3,Al-Ettifaq,2934,Al-Nassr,2939,2,3,True,
+1602995,2026-08-25T18:00:00+00:00,FT,Regular Season - 3,Al Shabab,2940,Al Riyadh,10511,3,3,True,1374
+1602996,2026-08-26T16:00:00+00:00,FT,Regular Season - 3,Al-Faisaly FC,2930,Al-Fateh,2931,1,1,True,
+1602997,2026-08-26T18:00:00+00:00,FT,Regular Season - 3,Al Diriyah,26738,Al Kholood,10509,1,1,True,
+1602998,2026-08-28T15:50:00+00:00,NS,Regular Season - 4,Al Riyadh,10511,NEOM,10513,,,False,1374
+1602999,2026-08-28T16:00:00+00:00,NS,Regular Season - 4,Al-Fayha,2944,Abha,2951,,,False,
+1603000,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Al Khaleej Saihat,2928,Al-Hilal Saudi FC,2932,,,False,1370
+1603001,2026-08-28T18:00:00+00:00,NS,Regular Season - 4,Al-Nassr,2939,Al Taawon,2936,,,False,
+1603002,2026-08-29T16:05:00+00:00,NS,Regular Season - 4,Al Kholood,10509,Al-Ahli Jeddah,2929,,,False,
+1603004,2026-08-29T18:00:00+00:00,NS,Regular Season - 4,Al-Fateh,2931,Al-Ittihad FC,2938,,,False,
+1603003,2026-08-29T18:00:00+00:00,NS,Regular Season - 4,Al-Ettifaq,2934,Al Diriyah,26738,,,False,
+1603005,2026-08-30T16:05:00+00:00,NS,Regular Season - 4,Al-Hazm,2945,Al Shabab,2940,,,False,
+1603006,2026-08-30T18:00:00+00:00,NS,Regular Season - 4,Al-Qadisiyah FC,2933,Al-Faisaly FC,2930,,,False,
+1603007,2026-09-01T18:00:00+00:00,NS,Regular Season - 3,Al-Hilal Saudi FC,2932,Al-Ahli Jeddah,2929,,,False,20744
+1603008,2026-09-03T15:55:00+00:00,NS,Regular Season - 5,Al-Fayha,2944,Al Kholood,10509,,,False,
+1603009,2026-09-03T16:30:00+00:00,NS,Regular Season - 5,NEOM,10513,Al Khaleej Saihat,2928,,,False,
+1603010,2026-09-03T18:00:00+00:00,NS,Regular Season - 5,Al Diriyah,26738,Al-Qadisiyah FC,2933,,,False,
+1603011,2026-09-04T16:00:00+00:00,NS,Regular Season - 5,Abha,2951,Al-Ettifaq,2934,,,False,
+1603012,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,Al-Ahli Jeddah,2929,Al Riyadh,10511,,,False,1364
+1603013,2026-09-04T18:00:00+00:00,NS,Regular Season - 5,Al Shabab,2940,Al-Hilal Saudi FC,2932,,,False,
+1603014,2026-09-05T15:50:00+00:00,NS,Regular Season - 5,Al-Faisaly FC,2930,Al-Hazm,2945,,,False,
+1603015,2026-09-05T15:55:00+00:00,NS,Regular Season - 5,Al Taawon,2936,Al-Fateh,2931,,,False,
+1603016,2026-09-05T18:00:00+00:00,NS,Regular Season - 5,Al-Ittihad FC,2938,Al-Nassr,2939,,,False,1364
+1603017,2026-09-07T15:30:00+00:00,NS,Regular Season - 6,Al Khaleej Saihat,2928,Al Riyadh,10511,,,False,1370
+1603018,2026-09-07T18:00:00+00:00,NS,Regular Season - 6,Al-Hilal Saudi FC,2932,NEOM,10513,,,False,20744
+1603019,2026-09-08T15:30:00+00:00,NS,Regular Season - 6,Al-Ettifaq,2934,Al-Faisaly FC,2930,,,False,
+1603020,2026-09-08T15:55:00+00:00,NS,Regular Season - 6,Al-Hazm,2945,Al Taawon,2936,,,False,
+1603022,2026-09-08T18:00:00+00:00,NS,Regular Season - 6,Al-Qadisiyah FC,2933,Al-Ahli Jeddah,2929,,,False,
+1603021,2026-09-08T18:00:00+00:00,NS,Regular Season - 6,Al-Ittihad FC,2938,Al-Fayha,2944,,,False,1364
+1603023,2026-09-09T15:55:00+00:00,NS,Regular Season - 6,Al Kholood,10509,Al Shabab,2940,,,False,
+1603024,2026-09-09T18:00:00+00:00,NS,Regular Season - 6,Al-Fateh,2931,Al Diriyah,26738,,,False,
+1603025,2026-09-09T18:00:00+00:00,NS,Regular Season - 6,Al-Nassr,2939,Abha,2951,,,False,
+1603029,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al Khaleej Saihat,2928,Al-Nassr,2939,,,False,1370
+1603026,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al-Ahli Jeddah,2929,Al-Hazm,2945,,,False,1364
+1603028,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al-Faisaly FC,2930,Al-Ittihad FC,2938,,,False,
+1603030,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al-Qadisiyah FC,2933,Al-Ettifaq,2934,,,False,
+1603033,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al Taawon,2936,Al-Hilal Saudi FC,2932,,,False,
+1603032,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al Shabab,2940,Al-Fayha,2944,,,False,
+1603031,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al Riyadh,10511,Al Kholood,10509,,,False,1374
+1603034,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,NEOM,10513,Al-Fateh,2931,,,False,
+1603027,2026-09-10T18:00:00+00:00,NS,Regular Season - 7,Al Diriyah,26738,Abha,2951,,,False,
+1603037,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al-Fateh,2931,Al-Ahli Jeddah,2929,,,False,
+1603040,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al-Hilal Saudi FC,2932,Al-Ittihad FC,2938,,,False,20744
+1603036,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al-Ettifaq,2934,Al Khaleej Saihat,2928,,,False,
+1603042,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al-Nassr,2939,Al Diriyah,26738,,,False,
+1603043,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al Shabab,2940,Al Taawon,2936,,,False,
+1603038,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al-Fayha,2944,Al Riyadh,10511,,,False,
+1603039,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al-Hazm,2945,NEOM,10513,,,False,
+1603035,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Abha,2951,Al-Faisaly FC,2930,,,False,
+1603041,2026-10-09T18:00:00+00:00,NS,Regular Season - 8,Al Kholood,10509,Al-Qadisiyah FC,2933,,,False,
+1603049,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al Khaleej Saihat,2928,Al-Fayha,2944,,,False,1370
+1603044,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al-Ahli Jeddah,2929,Al-Nassr,2939,,,False,1364
+1603046,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al-Faisaly FC,2930,Al Kholood,10509,,,False,
+1603050,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al-Qadisiyah FC,2933,Abha,2951,,,False,
+1603048,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al-Ittihad FC,2938,Al Shabab,2940,,,False,1364
+1603047,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al-Hazm,2945,Al-Fateh,2931,,,False,
+1603051,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al Riyadh,10511,Al-Hilal Saudi FC,2932,,,False,1374
+1603052,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,NEOM,10513,Al-Ettifaq,2934,,,False,
+1603045,2026-10-15T17:00:00+00:00,NS,Regular Season - 9,Al Diriyah,26738,Al Taawon,2936,,,False,
+1603056,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al-Fateh,2931,Al Khaleej Saihat,2928,,,False,
+1603058,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al-Hilal Saudi FC,2932,Al-Hazm,2945,,,False,20744
+1603055,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al-Ettifaq,2934,Al-Ittihad FC,2938,,,False,
+1603061,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al Taawon,2936,Al-Qadisiyah FC,2933,,,False,
+1603059,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al-Nassr,2939,NEOM,10513,,,False,
+1603060,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al Shabab,2940,Al-Faisaly FC,2930,,,False,
+1603057,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al-Fayha,2944,Al-Ahli Jeddah,2929,,,False,
+1603053,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Abha,2951,Al Kholood,10509,,,False,
+1603054,2026-10-18T17:00:00+00:00,NS,Regular Season - 10,Al Diriyah,26738,Al Riyadh,10511,,,False,
+1603062,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al-Ahli Jeddah,2929,Al Khaleej Saihat,2928,,,False,1364
+1603063,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al-Faisaly FC,2930,Al-Nassr,2939,,,False,
+1603064,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al-Fateh,2931,Al Shabab,2940,,,False,
+1603068,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al-Qadisiyah FC,2933,Al-Hilal Saudi FC,2932,,,False,
+1603066,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al-Ittihad FC,2938,Al Diriyah,26738,,,False,1364
+1603065,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al-Hazm,2945,Al-Fayha,2944,,,False,
+1603067,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al Kholood,10509,Al-Ettifaq,2934,,,False,
+1603069,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,Al Riyadh,10511,Al Taawon,2936,,,False,1374
+1603070,2026-10-22T17:00:00+00:00,NS,Regular Season - 11,NEOM,10513,Abha,2951,,,False,
+1603075,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al Khaleej Saihat,2928,Al-Hazm,2945,,,False,1370
+1603074,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al-Hilal Saudi FC,2932,Al-Fateh,2931,,,False,20744
+1603079,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al Taawon,2936,Al-Ettifaq,2934,,,False,
+1603076,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al-Nassr,2939,Al Kholood,10509,,,False,
+1603078,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al Shabab,2940,Al-Ahli Jeddah,2929,,,False,
+1603073,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al-Fayha,2944,Al-Faisaly FC,2930,,,False,
+1603071,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Abha,2951,Al-Ittihad FC,2938,,,False,
+1603077,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al Riyadh,10511,Al-Qadisiyah FC,2933,,,False,1374
+1603072,2026-10-29T17:00:00+00:00,NS,Regular Season - 12,Al Diriyah,26738,NEOM,10513,,,False,
+1603081,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Ahli Jeddah,2929,Al Taawon,2936,,,False,1364
+1603083,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Faisaly FC,2930,Al Diriyah,26738,,,False,
+1603084,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Fateh,2931,Al Riyadh,10511,,,False,
+1603088,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Qadisiyah FC,2933,Al-Fayha,2944,,,False,
+1603082,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Ettifaq,2934,Al-Hilal Saudi FC,2932,,,False,
+1603086,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Ittihad FC,2938,NEOM,10513,,,False,1364
+1603085,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al-Hazm,2945,Al-Nassr,2939,,,False,
+1603080,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Abha,2951,Al Shabab,2940,,,False,
+1603087,2026-11-05T17:00:00+00:00,NS,Regular Season - 13,Al Kholood,10509,Al Khaleej Saihat,2928,,,False,
+1603092,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al Khaleej Saihat,2928,Al-Ittihad FC,2938,,,False,1370
+1603089,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al-Ahli Jeddah,2929,Al-Faisaly FC,2930,,,False,1364
+1603091,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al-Hilal Saudi FC,2932,Al Diriyah,26738,,,False,20744
+1603096,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al Taawon,2936,Abha,2951,,,False,
+1603093,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al-Nassr,2939,Al-Qadisiyah FC,2933,,,False,
+1603095,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al Shabab,2940,Al-Ettifaq,2934,,,False,
+1603090,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al-Fayha,2944,Al-Fateh,2931,,,False,
+1603094,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,Al Riyadh,10511,Al-Hazm,2945,,,False,1374
+1603097,2026-11-20T17:00:00+00:00,NS,Regular Season - 14,NEOM,10513,Al Kholood,10509,,,False,
+1603101,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al-Faisaly FC,2930,Al Khaleej Saihat,2928,,,False,
+1603105,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al-Qadisiyah FC,2933,Al-Fateh,2931,,,False,
+1603100,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al-Ettifaq,2934,Al-Hazm,2945,,,False,
+1603102,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al-Ittihad FC,2938,Al-Ahli Jeddah,2929,,,False,1364
+1603104,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al-Nassr,2939,Al Shabab,2940,,,False,
+1603098,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Abha,2951,Al Riyadh,10511,,,False,
+1603103,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al Kholood,10509,Al-Hilal Saudi FC,2932,,,False,
+1603106,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,NEOM,10513,Al Taawon,2936,,,False,
+1603099,2026-11-26T17:00:00+00:00,NS,Regular Season - 15,Al Diriyah,26738,Al-Fayha,2944,,,False,
+1603112,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al Khaleej Saihat,2928,Al Diriyah,26738,,,False,1370
+1603107,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al-Ahli Jeddah,2929,Al-Ettifaq,2934,,,False,1364
+1603108,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al-Fateh,2931,Al Kholood,10509,,,False,
+1603111,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al-Hilal Saudi FC,2932,Abha,2951,,,False,20744
+1603115,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al Taawon,2936,Al-Faisaly FC,2930,,,False,
+1603114,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al Shabab,2940,NEOM,10513,,,False,
+1603109,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al-Fayha,2944,Al-Nassr,2939,,,False,
+1603110,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al-Hazm,2945,Al-Qadisiyah FC,2933,,,False,
+1603113,2026-12-03T17:00:00+00:00,NS,Regular Season - 16,Al Riyadh,10511,Al-Ittihad FC,2938,,,False,1374
+1603119,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al-Faisaly FC,2930,Al Riyadh,10511,,,False,
+1603123,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al-Qadisiyah FC,2933,Al Khaleej Saihat,2928,,,False,
+1603118,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al-Ettifaq,2934,Al-Fayha,2944,,,False,
+1603120,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al-Ittihad FC,2938,Al Taawon,2936,,,False,1364
+1603122,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al-Nassr,2939,Al-Hilal Saudi FC,2932,,,False,
+1603116,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Abha,2951,Al-Fateh,2931,,,False,
+1603121,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al Kholood,10509,Al-Hazm,2945,,,False,
+1603124,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,NEOM,10513,Al-Ahli Jeddah,2929,,,False,
+1603117,2026-12-10T17:00:00+00:00,NS,Regular Season - 17,Al Diriyah,26738,Al Shabab,2940,,,False,
+1603130,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al Khaleej Saihat,2928,Al Taawon,2936,,,False,1370
+1603125,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al-Ahli Jeddah,2929,Al Diriyah,26738,,,False,1364
+1603126,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al-Faisaly FC,2930,Al-Hilal Saudi FC,2932,,,False,
+1603127,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al-Fateh,2931,Al-Nassr,2939,,,False,
+1603132,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al-Qadisiyah FC,2933,Al Shabab,2940,,,False,
+1603128,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al-Fayha,2944,NEOM,10513,,,False,
+1603129,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al-Hazm,2945,Abha,2951,,,False,
+1603131,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al Kholood,10509,Al-Ittihad FC,2938,,,False,
+1603133,2026-12-14T17:00:00+00:00,NS,Regular Season - 18,Al Riyadh,10511,Al-Ettifaq,2934,,,False,1374
+1603137,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al-Hilal Saudi FC,2932,Al-Fayha,2944,,,False,20744
+1603136,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al-Ettifaq,2934,Al-Fateh,2931,,,False,
+1603141,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al Taawon,2936,Al Kholood,10509,,,False,
+1603138,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al-Ittihad FC,2938,Al-Qadisiyah FC,2933,,,False,1364
+1603139,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al-Nassr,2939,Al Riyadh,10511,,,False,
+1603140,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al Shabab,2940,Al Khaleej Saihat,2928,,,False,
+1603134,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Abha,2951,Al-Ahli Jeddah,2929,,,False,
+1603142,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,NEOM,10513,Al-Faisaly FC,2930,,,False,
+1603135,2027-02-11T19:00:00+00:00,NS,Regular Season - 19,Al Diriyah,26738,Al-Hazm,2945,,,False,
+1603147,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al Khaleej Saihat,2928,Abha,2951,,,False,1370
+1603143,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al-Ahli Jeddah,2929,Al-Hilal Saudi FC,2932,,,False,1364
+1603144,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al-Fateh,2931,Al-Faisaly FC,2930,,,False,
+1603150,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al-Qadisiyah FC,2933,NEOM,10513,,,False,
+1603149,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al-Nassr,2939,Al-Ettifaq,2934,,,False,
+1603145,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al-Fayha,2944,Al Taawon,2936,,,False,
+1603146,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al-Hazm,2945,Al-Ittihad FC,2938,,,False,
+1603148,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al Kholood,10509,Al Diriyah,26738,,,False,
+1603151,2027-02-18T19:00:00+00:00,NS,Regular Season - 20,Al Riyadh,10511,Al Shabab,2940,,,False,1374
+1603153,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al-Ahli Jeddah,2929,Al Kholood,10509,,,False,1364
+1603155,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al-Faisaly FC,2930,Al-Qadisiyah FC,2933,,,False,
+1603156,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al-Hilal Saudi FC,2932,Al Khaleej Saihat,2928,,,False,20744
+1603159,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al Taawon,2936,Al-Nassr,2939,,,False,
+1603157,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al-Ittihad FC,2938,Al-Fateh,2931,,,False,1364
+1603158,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al Shabab,2940,Al-Hazm,2945,,,False,
+1603152,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Abha,2951,Al-Fayha,2944,,,False,
+1603160,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,NEOM,10513,Al Riyadh,10511,,,False,
+1603154,2027-02-25T19:00:00+00:00,NS,Regular Season - 21,Al Diriyah,26738,Al-Ettifaq,2934,,,False,
+1603165,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al Khaleej Saihat,2928,NEOM,10513,,,False,1370
+1603162,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al-Fateh,2931,Al Taawon,2936,,,False,
+1603164,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al-Hilal Saudi FC,2932,Al Shabab,2940,,,False,20744
+1603168,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al-Qadisiyah FC,2933,Al Diriyah,26738,,,False,
+1603161,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al-Ettifaq,2934,Abha,2951,,,False,
+1603167,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al-Nassr,2939,Al-Ittihad FC,2938,,,False,
+1603163,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al-Hazm,2945,Al-Faisaly FC,2930,,,False,
+1603166,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al Kholood,10509,Al-Fayha,2944,,,False,
+1603169,2027-03-11T18:00:00+00:00,NS,Regular Season - 22,Al Riyadh,10511,Al-Ahli Jeddah,2929,,,False,1374
+1603171,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al-Ahli Jeddah,2929,Al-Qadisiyah FC,2933,,,False,1364
+1603173,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al-Faisaly FC,2930,Al-Ettifaq,2934,,,False,
+1603177,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al Taawon,2936,Al-Hazm,2945,,,False,
+1603176,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al Shabab,2940,Al Kholood,10509,,,False,
+1603174,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al-Fayha,2944,Al-Ittihad FC,2938,,,False,
+1603170,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Abha,2951,Al-Nassr,2939,,,False,
+1603175,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al Riyadh,10511,Al Khaleej Saihat,2928,,,False,1374
+1603178,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,NEOM,10513,Al-Hilal Saudi FC,2932,,,False,
+1603172,2027-03-18T18:00:00+00:00,NS,Regular Season - 23,Al Diriyah,26738,Al-Fateh,2931,,,False,
+1603181,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Fateh,2931,NEOM,10513,,,False,
+1603184,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Hilal Saudi FC,2932,Al Taawon,2936,,,False,20744
+1603180,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Ettifaq,2934,Al-Qadisiyah FC,2933,,,False,
+1603185,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Ittihad FC,2938,Al-Faisaly FC,2930,,,False,1364
+1603187,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Nassr,2939,Al Khaleej Saihat,2928,,,False,
+1603182,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Fayha,2944,Al Shabab,2940,,,False,
+1603183,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al-Hazm,2945,Al-Ahli Jeddah,2929,,,False,
+1603179,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Abha,2951,Al Diriyah,26738,,,False,
+1603186,2027-04-02T18:00:00+00:00,NS,Regular Season - 24,Al Kholood,10509,Al Riyadh,10511,,,False,
+1603192,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al Khaleej Saihat,2928,Al-Ettifaq,2934,,,False,1370
+1603188,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al-Ahli Jeddah,2929,Al-Fateh,2931,,,False,1364
+1603190,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al-Faisaly FC,2930,Abha,2951,,,False,
+1603193,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al-Qadisiyah FC,2933,Al Kholood,10509,,,False,
+1603195,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al Taawon,2936,Al Shabab,2940,,,False,
+1603191,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al-Ittihad FC,2938,Al-Hilal Saudi FC,2932,,,False,1364
+1603194,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al Riyadh,10511,Al-Fayha,2944,,,False,1374
+1603196,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,NEOM,10513,Al-Hazm,2945,,,False,
+1603189,2027-04-08T18:00:00+00:00,NS,Regular Season - 25,Al Diriyah,26738,Al-Nassr,2939,,,False,
+1603199,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al-Fateh,2931,Al-Hazm,2945,,,False,
+1603201,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al-Hilal Saudi FC,2932,Al Riyadh,10511,,,False,20744
+1603198,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al-Ettifaq,2934,NEOM,10513,,,False,
+1603205,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al Taawon,2936,Al Diriyah,26738,,,False,
+1603203,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al-Nassr,2939,Al-Ahli Jeddah,2929,,,False,
+1603204,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al Shabab,2940,Al-Ittihad FC,2938,,,False,
+1603200,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al-Fayha,2944,Al Khaleej Saihat,2928,,,False,
+1603197,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Abha,2951,Al-Qadisiyah FC,2933,,,False,
+1603202,2027-04-15T18:00:00+00:00,NS,Regular Season - 26,Al Kholood,10509,Al-Faisaly FC,2930,,,False,
+1603210,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al Khaleej Saihat,2928,Al-Fateh,2931,,,False,1370
+1603206,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al-Ahli Jeddah,2929,Al-Fayha,2944,,,False,1364
+1603207,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al-Faisaly FC,2930,Al Shabab,2940,,,False,
+1603212,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al-Qadisiyah FC,2933,Al Taawon,2936,,,False,
+1603209,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al-Ittihad FC,2938,Al-Ettifaq,2934,,,False,1364
+1603208,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al-Hazm,2945,Al-Hilal Saudi FC,2932,,,False,
+1603211,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al Kholood,10509,Abha,2951,,,False,
+1603213,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,Al Riyadh,10511,Al Diriyah,26738,,,False,1374
+1603214,2027-04-18T18:00:00+00:00,NS,Regular Season - 27,NEOM,10513,Al-Nassr,2939,,,False,
+1603220,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al Khaleej Saihat,2928,Al-Ahli Jeddah,2929,,,False,1370
+1603219,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al-Hilal Saudi FC,2932,Al-Qadisiyah FC,2933,,,False,20744
+1603217,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al-Ettifaq,2934,Al Kholood,10509,,,False,
+1603223,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al Taawon,2936,Al Riyadh,10511,,,False,
+1603221,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al-Nassr,2939,Al-Faisaly FC,2930,,,False,
+1603222,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al Shabab,2940,Al-Fateh,2931,,,False,
+1603218,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al-Fayha,2944,Al-Hazm,2945,,,False,
+1603215,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Abha,2951,NEOM,10513,,,False,
+1603216,2027-04-22T18:00:00+00:00,NS,Regular Season - 28,Al Diriyah,26738,Al-Ittihad FC,2938,,,False,
+1603224,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Ahli Jeddah,2929,Al Shabab,2940,,,False,1364
+1603226,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Faisaly FC,2930,Al-Fayha,2944,,,False,
+1603227,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Fateh,2931,Al-Hilal Saudi FC,2932,,,False,
+1603231,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Qadisiyah FC,2933,Al Riyadh,10511,,,False,
+1603225,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Ettifaq,2934,Al Taawon,2936,,,False,
+1603229,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Ittihad FC,2938,Abha,2951,,,False,1364
+1603228,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al-Hazm,2945,Al Khaleej Saihat,2928,,,False,
+1603230,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,Al Kholood,10509,Al-Nassr,2939,,,False,
+1603232,2027-04-29T18:00:00+00:00,NS,Regular Season - 29,NEOM,10513,Al Diriyah,26738,,,False,
+1603236,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al Khaleej Saihat,2928,Al Kholood,10509,,,False,1370
+1603235,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al-Hilal Saudi FC,2932,Al-Ettifaq,2934,,,False,20744
+1603240,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al Taawon,2936,Al-Ahli Jeddah,2929,,,False,
+1603237,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al-Nassr,2939,Al-Hazm,2945,,,False,
+1603239,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al Shabab,2940,Abha,2951,,,False,
+1603234,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al-Fayha,2944,Al-Qadisiyah FC,2933,,,False,
+1603238,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al Riyadh,10511,Al-Fateh,2931,,,False,1374
+1603241,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,NEOM,10513,Al-Ittihad FC,2938,,,False,
+1603233,2027-05-06T18:00:00+00:00,NS,Regular Season - 30,Al Diriyah,26738,Al-Faisaly FC,2930,,,False,
+1603245,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al-Faisaly FC,2930,Al-Ahli Jeddah,2929,,,False,
+1603246,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al-Fateh,2931,Al-Fayha,2944,,,False,
+1603250,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al-Qadisiyah FC,2933,Al-Nassr,2939,,,False,
+1603244,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al-Ettifaq,2934,Al Shabab,2940,,,False,
+1603248,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al-Ittihad FC,2938,Al Khaleej Saihat,2928,,,False,1364
+1603247,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al-Hazm,2945,Al Riyadh,10511,,,False,
+1603242,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Abha,2951,Al Taawon,2936,,,False,
+1603249,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al Kholood,10509,NEOM,10513,,,False,
+1603243,2027-05-12T18:00:00+00:00,NS,Regular Season - 31,Al Diriyah,26738,Al-Hilal Saudi FC,2932,,,False,
+1603256,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al Khaleej Saihat,2928,Al-Faisaly FC,2930,,,False,1370
+1603251,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al-Ahli Jeddah,2929,Al-Ittihad FC,2938,,,False,1364
+1603252,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al-Fateh,2931,Al-Qadisiyah FC,2933,,,False,
+1603255,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al-Hilal Saudi FC,2932,Al Kholood,10509,,,False,20744
+1603259,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al Taawon,2936,NEOM,10513,,,False,
+1603258,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al Shabab,2940,Al-Nassr,2939,,,False,
+1603253,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al-Fayha,2944,Al Diriyah,26738,,,False,
+1603254,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al-Hazm,2945,Al-Ettifaq,2934,,,False,
+1603257,2027-05-20T18:00:00+00:00,NS,Regular Season - 32,Al Riyadh,10511,Abha,2951,,,False,1374
+1603263,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al-Faisaly FC,2930,Al Taawon,2936,,,False,
+1603267,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al-Qadisiyah FC,2933,Al-Hazm,2945,,,False,
+1603262,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al-Ettifaq,2934,Al-Ahli Jeddah,2929,,,False,
+1603264,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al-Ittihad FC,2938,Al Riyadh,10511,,,False,1364
+1603266,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al-Nassr,2939,Al-Fayha,2944,,,False,
+1603260,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Abha,2951,Al-Hilal Saudi FC,2932,,,False,
+1603265,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al Kholood,10509,Al-Fateh,2931,,,False,
+1603268,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,NEOM,10513,Al Shabab,2940,,,False,
+1603261,2027-05-24T18:00:00+00:00,NS,Regular Season - 33,Al Diriyah,26738,Al Khaleej Saihat,2928,,,False,
+1603274,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al Khaleej Saihat,2928,Al-Qadisiyah FC,2933,,,False,1370
+1603269,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al-Ahli Jeddah,2929,NEOM,10513,,,False,1364
+1603270,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al-Fateh,2931,Abha,2951,,,False,
+1603273,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al-Hilal Saudi FC,2932,Al-Nassr,2939,,,False,20744
+1603277,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al Taawon,2936,Al-Ittihad FC,2938,,,False,
+1603276,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al Shabab,2940,Al Diriyah,26738,,,False,
+1603271,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al-Fayha,2944,Al-Ettifaq,2934,,,False,
+1603272,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al-Hazm,2945,Al Kholood,10509,,,False,
+1603275,2027-05-28T18:00:00+00:00,NS,Regular Season - 34,Al Riyadh,10511,Al-Faisaly FC,2930,,,False,1374

@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1515774,2026-03-06T16:00:00+00:00,FT,Regular Season - 1,Rīgas FS,4160,Ogre United,18936,2,0,True,19577
 1515775,2026-03-07T12:00:00+00:00,FT,Regular Season - 1,BFC Daugavpils,4149,Grobiņa,4138,0,1,True,3169
 1515776,2026-03-07T14:00:00+00:00,FT,Regular Season - 1,FK Liepaja,661,Riga,10124,2,1,True,
@@ -120,27 +120,27 @@
 1515894,2026-08-01T13:00:00+00:00,FT,Regular Season - 25,BFC Daugavpils,4149,FS Jelgava,18834,2,1,True,3169
 1515895,2026-08-02T13:00:00+00:00,FT,Regular Season - 25,Tukums,4144,FK Liepaja,661,2,1,True,
 1515896,2026-08-02T15:00:00+00:00,FT,Regular Season - 25,Riga,10124,Grobiņa,4138,4,0,True,
-1515899,2026-08-08T13:00:00+00:00,NS,Regular Season - 26,BFC Daugavpils,4149,Tukums,4144,,,False,3169
-1515901,2026-08-09T13:00:00+00:00,NS,Regular Season - 26,Super Nova,4143,FK Liepaja,661,,,False,
-1515900,2026-08-09T13:00:00+00:00,NS,Regular Season - 26,FS Jelgava,18834,Auda,4135,,,False,
-1515902,2026-08-09T15:00:00+00:00,NS,Regular Season - 26,Riga,10124,Ogre United,18936,,,False,
-1515903,2026-08-10T16:30:00+00:00,NS,Regular Season - 26,Rīgas FS,4160,Grobiņa,4138,,,False,
-1515907,2026-08-21T15:00:00+00:00,NS,Regular Season - 27,FK Liepaja,661,Grobiņa,4138,,,False,
-1515904,2026-08-21T15:00:00+00:00,NS,Regular Season - 27,Auda,4135,Tukums,4144,,,False,
-1515905,2026-08-22T12:00:00+00:00,NS,Regular Season - 27,Super Nova,4143,BFC Daugavpils,4149,,,False,
-1515906,2026-08-22T14:00:00+00:00,NS,Regular Season - 27,Ogre United,18936,FS Jelgava,18834,,,False,
-1515908,2026-08-23T16:00:00+00:00,NS,Regular Season - 27,Rīgas FS,4160,Riga,10124,,,False,
-1515887,2026-08-25T16:00:00+00:00,NS,Regular Season - 23,Auda,4135,FK Liepaja,661,,,False,
-1515909,2026-08-28T16:00:00+00:00,NS,Regular Season - 28,Auda,4135,Super Nova,4143,,,False,
+1515899,2026-08-08T13:00:00+00:00,FT,Regular Season - 26,BFC Daugavpils,4149,Tukums,4144,2,0,True,3169
+1515901,2026-08-09T13:00:00+00:00,FT,Regular Season - 26,Super Nova,4143,FK Liepaja,661,1,2,True,
+1515900,2026-08-09T13:00:00+00:00,FT,Regular Season - 26,FS Jelgava,18834,Auda,4135,0,1,True,
+1515902,2026-08-09T15:00:00+00:00,FT,Regular Season - 26,Riga,10124,Ogre United,18936,4,1,True,
+1515903,2026-08-10T16:30:00+00:00,FT,Regular Season - 26,Rīgas FS,4160,Grobiņa,4138,6,1,True,
+1515907,2026-08-21T15:00:00+00:00,FT,Regular Season - 27,FK Liepaja,661,Grobiņa,4138,3,1,True,
+1515904,2026-08-21T15:00:00+00:00,FT,Regular Season - 27,Auda,4135,Tukums,4144,3,0,True,
+1515905,2026-08-22T12:30:00+00:00,FT,Regular Season - 27,Super Nova,4143,BFC Daugavpils,4149,0,0,True,
+1515906,2026-08-22T14:00:00+00:00,FT,Regular Season - 27,Ogre United,18936,FS Jelgava,18834,2,3,True,
+1515908,2026-08-23T16:00:00+00:00,FT,Regular Season - 27,Rīgas FS,4160,Riga,10124,3,3,True,
+1515887,2026-08-25T16:00:00+00:00,FT,Regular Season - 23,Auda,4135,FK Liepaja,661,1,0,True,
 1515910,2026-08-29T12:00:00+00:00,NS,Regular Season - 28,Grobiņa,4138,BFC Daugavpils,4149,,,False,
 1515911,2026-08-29T14:00:00+00:00,NS,Regular Season - 28,Tukums,4144,FS Jelgava,18834,,,False,
-1515912,2026-08-30T12:00:00+00:00,NS,Regular Season - 28,FK Liepaja,661,Riga,10124,,,False,
+1515909,2026-08-29T16:00:00+00:00,NS,Regular Season - 28,Auda,4135,Super Nova,4143,,,False,
 1515913,2026-08-30T14:00:00+00:00,NS,Regular Season - 28,Ogre United,18936,Rīgas FS,4160,,,False,
-1515914,2026-09-04T15:00:00+00:00,NS,Regular Season - 29,Auda,4135,Grobiņa,4138,,,False,
+1515912,2026-08-31T14:30:00+00:00,NS,Regular Season - 28,FK Liepaja,661,Riga,10124,,,False,
 1515915,2026-09-05T12:00:00+00:00,NS,Regular Season - 29,Tukums,4144,Ogre United,18936,,,False,
 1515916,2026-09-05T14:00:00+00:00,NS,Regular Season - 29,FS Jelgava,18834,Super Nova,4143,,,False,
-1515917,2026-09-06T14:00:00+00:00,NS,Regular Season - 29,Riga,10124,BFC Daugavpils,4149,,,False,
+1515914,2026-09-06T15:00:00+00:00,NS,Regular Season - 29,Auda,4135,Grobiņa,4138,,,False,
 1515918,2026-09-07T16:00:00+00:00,NS,Regular Season - 29,Rīgas FS,4160,FK Liepaja,661,,,False,
+1515917,2026-09-07T16:00:00+00:00,NS,Regular Season - 29,Riga,10124,BFC Daugavpils,4149,,,False,
 1515919,2026-09-10T16:00:00+00:00,NS,Regular Season - 30,Super Nova,4143,Tukums,4144,,,False,
 1515923,2026-09-11T14:00:00+00:00,NS,Regular Season - 30,Ogre United,18936,FK Liepaja,661,,,False,
 1515921,2026-09-11T15:00:00+00:00,NS,Regular Season - 30,Riga,10124,Auda,4135,,,False,

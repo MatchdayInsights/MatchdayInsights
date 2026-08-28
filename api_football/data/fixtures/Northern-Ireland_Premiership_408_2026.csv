@@ -1,40 +1,40 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
-1562026,2026-08-07T18:45:00+00:00,NS,Regular Season - 1,Cliftonville FC,2266,Crusaders FC,697,,,False,1169
-1562030,2026-08-08T14:00:00+00:00,NS,Regular Season - 1,Linfield,583,Ballymena United,668,,,False,1971
-1562027,2026-08-08T14:00:00+00:00,NS,Regular Season - 1,Carrick Rangers,5350,Portadown,5348,,,False,12606
-1562028,2026-08-08T14:00:00+00:00,NS,Regular Season - 1,Dungannon Swifts,5351,Coleraine FC,669,,,False,4043
-1562029,2026-08-08T14:00:00+00:00,NS,Regular Season - 1,Glentoran,5352,Limavady United,11114,,,False,
-1562036,2026-08-15T14:00:00+00:00,NS,Regular Season - 2,Linfield,583,Glentoran,5352,,,False,1971
-1562033,2026-08-15T14:00:00+00:00,NS,Regular Season - 2,Coleraine FC,669,Larne,5354,,,False,1170
-1562034,2026-08-15T14:00:00+00:00,NS,Regular Season - 2,Crusaders FC,697,Ballymena United,668,,,False,1171
-1562037,2026-08-15T14:00:00+00:00,NS,Regular Season - 2,Portadown,5348,Dungannon Swifts,5351,,,False,4040
-1562032,2026-08-15T14:00:00+00:00,NS,Regular Season - 2,Bangor,11112,Cliftonville FC,2266,,,False,
-1562035,2026-08-15T14:00:00+00:00,NS,Regular Season - 2,Limavady United,11114,Carrick Rangers,5350,,,False,
-1562038,2026-08-21T18:45:00+00:00,NS,Regular Season - 3,Linfield,583,Cliftonville FC,2266,,,False,1971
-1562039,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Ballymena United,668,Glentoran,5352,,,False,
-1562041,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Crusaders FC,697,Portadown,5348,,,False,1171
-1562040,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Carrick Rangers,5350,Coleraine FC,669,,,False,12606
-1562042,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Dungannon Swifts,5351,Bangor,11112,,,False,4043
-1562043,2026-08-22T14:00:00+00:00,NS,Regular Season - 3,Larne,5354,Limavady United,11114,,,False,4045
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1562026,2026-08-07T18:45:00+00:00,FT,Regular Season - 1,Cliftonville FC,2266,Crusaders FC,697,2,1,True,1169
+1562030,2026-08-08T14:00:00+00:00,FT,Regular Season - 1,Linfield,583,Ballymena United,668,0,3,True,1971
+1562027,2026-08-08T14:00:00+00:00,FT,Regular Season - 1,Carrick Rangers,5350,Portadown,5348,1,0,True,12606
+1562028,2026-08-08T14:00:00+00:00,FT,Regular Season - 1,Dungannon Swifts,5351,Coleraine FC,669,1,3,True,4043
+1562029,2026-08-08T14:00:00+00:00,FT,Regular Season - 1,Glentoran,5352,Limavady United,11114,2,0,True,
+1562036,2026-08-15T14:00:00+00:00,FT,Regular Season - 2,Linfield,583,Glentoran,5352,2,1,True,1971
+1562033,2026-08-15T14:00:00+00:00,FT,Regular Season - 2,Coleraine FC,669,Larne,5354,0,0,True,1170
+1562034,2026-08-15T14:00:00+00:00,FT,Regular Season - 2,Crusaders FC,697,Ballymena United,668,2,1,True,1171
+1562037,2026-08-15T14:00:00+00:00,FT,Regular Season - 2,Portadown,5348,Dungannon Swifts,5351,0,1,True,4040
+1562032,2026-08-15T14:00:00+00:00,FT,Regular Season - 2,Bangor,11112,Cliftonville FC,2266,0,3,True,
+1562035,2026-08-15T14:00:00+00:00,FT,Regular Season - 2,Limavady United,11114,Carrick Rangers,5350,1,2,True,
+1562038,2026-08-21T18:45:00+00:00,FT,Regular Season - 3,Linfield,583,Cliftonville FC,2266,1,0,True,1971
+1562039,2026-08-21T18:45:00+00:00,FT,Regular Season - 3,Ballymena United,668,Glentoran,5352,0,2,True,
+1562040,2026-08-22T14:00:00+00:00,FT,Regular Season - 3,Carrick Rangers,5350,Coleraine FC,669,0,2,True,12606
+1562042,2026-08-22T14:00:00+00:00,FT,Regular Season - 3,Dungannon Swifts,5351,Bangor,11112,2,0,True,4043
+1562041,2026-08-22T17:00:00+00:00,FT,Regular Season - 3,Crusaders FC,697,Portadown,5348,3,2,True,1171
+1562043,2026-08-22T14:00:00+00:00,PST,Regular Season - 3,Larne,5354,Limavady United,11114,,,False,4045
+1562044,2026-08-29T17:00:00+00:00,PST,Regular Season - 4,Ballymena United,668,Larne,5354,,,False,
 1562049,2026-08-28T18:45:00+00:00,NS,Regular Season - 4,Portadown,5348,Coleraine FC,669,,,False,4040
-1562044,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Ballymena United,668,Larne,5354,,,False,
 1562046,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Cliftonville FC,2266,Dungannon Swifts,5351,,,False,1169
 1562047,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Glentoran,5352,Crusaders FC,697,,,False,
 1562045,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Bangor,11112,Carrick Rangers,5350,,,False,
 1562048,2026-08-29T14:00:00+00:00,NS,Regular Season - 4,Limavady United,11114,Linfield,583,,,False,
+1562053,2026-09-04T18:45:00+00:00,NS,Regular Season - 5,Larne,5354,Glentoran,5352,,,False,4045
 1562055,2026-09-05T14:00:00+00:00,NS,Regular Season - 5,Linfield,583,Carrick Rangers,5350,,,False,1971
-1562052,2026-09-05T14:00:00+00:00,NS,Regular Season - 5,Coleraine FC,669,Crusaders FC,697,,,False,1170
 1562051,2026-09-05T14:00:00+00:00,NS,Regular Season - 5,Cliftonville FC,2266,Portadown,5348,,,False,1169
-1562053,2026-09-05T14:00:00+00:00,NS,Regular Season - 5,Larne,5354,Glentoran,5352,,,False,4045
 1562050,2026-09-05T14:00:00+00:00,NS,Regular Season - 5,Bangor,11112,Ballymena United,668,,,False,
 1562054,2026-09-05T14:00:00+00:00,NS,Regular Season - 5,Limavady United,11114,Dungannon Swifts,5351,,,False,
+1562052,2026-09-05T17:00:00+00:00,NS,Regular Season - 5,Coleraine FC,669,Crusaders FC,697,,,False,1170
 1562031,2026-09-08T18:45:00+00:00,NS,Regular Season - 1,Larne,5354,Bangor,11112,,,False,4045
-1562057,2026-09-12T14:00:00+00:00,NS,Regular Season - 6,Coleraine FC,669,Ballymena United,668,,,False,1170
+1562057,2026-09-11T18:45:00+00:00,NS,Regular Season - 6,Coleraine FC,669,Ballymena United,668,,,False,1170
 1562058,2026-09-12T14:00:00+00:00,NS,Regular Season - 6,Crusaders FC,697,Limavady United,11114,,,False,1171
 1562061,2026-09-12T14:00:00+00:00,NS,Regular Season - 6,Portadown,5348,Larne,5354,,,False,4040
 1562056,2026-09-12T14:00:00+00:00,NS,Regular Season - 6,Carrick Rangers,5350,Cliftonville FC,2266,,,False,12606
-1562059,2026-09-12T14:00:00+00:00,NS,Regular Season - 6,Dungannon Swifts,5351,Linfield,583,,,False,4043
 1562060,2026-09-12T14:00:00+00:00,NS,Regular Season - 6,Glentoran,5352,Bangor,11112,,,False,
+1562059,2026-09-12T17:00:00+00:00,NS,Regular Season - 6,Dungannon Swifts,5351,Linfield,583,,,False,4043
 1562062,2026-09-15T18:45:00+00:00,NS,Regular Season - 7,Ballymena United,668,Carrick Rangers,5350,,,False,
 1562063,2026-09-15T18:45:00+00:00,NS,Regular Season - 7,Crusaders FC,697,Dungannon Swifts,5351,,,False,1171
 1562067,2026-09-15T18:45:00+00:00,NS,Regular Season - 7,Portadown,5348,Linfield,583,,,False,4040
@@ -42,13 +42,13 @@
 1562065,2026-09-15T18:45:00+00:00,NS,Regular Season - 7,Larne,5354,Cliftonville FC,2266,,,False,4045
 1562066,2026-09-15T18:45:00+00:00,NS,Regular Season - 7,Limavady United,11114,Bangor,11112,,,False,
 1562073,2026-09-19T14:00:00+00:00,NS,Regular Season - 8,Linfield,583,Crusaders FC,697,,,False,1971
-1562071,2026-09-19T14:00:00+00:00,NS,Regular Season - 8,Coleraine FC,669,Limavady United,11114,,,False,1170
 1562070,2026-09-19T14:00:00+00:00,NS,Regular Season - 8,Cliftonville FC,2266,Glentoran,5352,,,False,1169
 1562069,2026-09-19T14:00:00+00:00,NS,Regular Season - 8,Carrick Rangers,5350,Larne,5354,,,False,12606
 1562072,2026-09-19T14:00:00+00:00,NS,Regular Season - 8,Dungannon Swifts,5351,Ballymena United,668,,,False,4043
 1562068,2026-09-19T14:00:00+00:00,NS,Regular Season - 8,Bangor,11112,Portadown,5348,,,False,
+1562071,2026-09-19T17:00:00+00:00,NS,Regular Season - 8,Coleraine FC,669,Limavady United,11114,,,False,1170
+1562075,2026-09-25T18:45:00+00:00,NS,Regular Season - 9,Coleraine FC,669,Linfield,583,,,False,1170
 1562074,2026-09-26T14:00:00+00:00,NS,Regular Season - 9,Ballymena United,668,Portadown,5348,,,False,
-1562075,2026-09-26T14:00:00+00:00,NS,Regular Season - 9,Coleraine FC,669,Linfield,583,,,False,1170
 1562076,2026-09-26T14:00:00+00:00,NS,Regular Season - 9,Crusaders FC,697,Bangor,11112,,,False,1171
 1562077,2026-09-26T14:00:00+00:00,NS,Regular Season - 9,Glentoran,5352,Carrick Rangers,5350,,,False,
 1562078,2026-09-26T14:00:00+00:00,NS,Regular Season - 9,Larne,5354,Dungannon Swifts,5351,,,False,4045

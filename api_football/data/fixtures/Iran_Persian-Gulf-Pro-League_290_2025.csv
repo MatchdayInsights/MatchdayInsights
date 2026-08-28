@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1431113,2025-08-18T15:45:00+00:00,FT,Regular Season - 1,Gol Gohar,2714,Aluminium Arak,2703,1,0,True,11524
 1431114,2025-08-18T15:45:00+00:00,FT,Regular Season - 1,ZOB Ahan,2738,Paykan,2741,0,1,True,
 1431115,2025-08-18T16:00:00+00:00,FT,Regular Season - 1,Kheybar Khorramabad,2716,Mes Rafsanjan,2706,3,2,True,2755
@@ -175,8 +175,8 @@
 1518885,2026-02-27T15:30:00+00:00,FT,Regular Season - 23,Paykan,2741,Sepahan FC,2744,0,0,True,
 1518886,2026-02-27T15:30:00+00:00,FT,Regular Season - 23,Shams Azar Qazvin,18159,Foolad FC,2734,0,2,True,
 1518883,2026-02-27T15:45:00+00:00,FT,Regular Season - 23,Esteghlal FC,2733,Fajr Sepasi,2713,2,1,True,22428
-1565180,2026-06-26T17:00:00+00:00,AET,Semi-finals,Chadormalu SC,20299,Persepolis FC,2742,2,1,False,
-1565181,2026-06-29T15:30:00+00:00,PEN,Final,Gol Gohar,2714,Chadormalu SC,20299,0,0,False,11524
+1565180,2026-06-26T17:00:00+00:00,AET,Semi-finals,Chadormalu SC,20299,Persepolis FC,2742,2,1,True,
+1565181,2026-06-29T15:30:00+00:00,PEN,Final,Gol Gohar,2714,Chadormalu SC,20299,0,0,True,11524
 1518887,2026-02-28T15:15:00+00:00,PST,Regular Season - 23,Mes Rafsanjan,2706,Aluminium Arak,2703,,,False,
 1518889,2026-02-28T15:45:00+00:00,PST,Regular Season - 23,ZOB Ahan,2738,Persepolis FC,2742,,,False,
 1518888,2026-03-01T15:30:00+00:00,PST,Regular Season - 23,Esteghlal Khuzestan,2739,Malavan,2717,,,False,

@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1523059,2026-03-06T11:35:00+00:00,FT,Regular Season - 1,Chengdu Better City,5648,Sichuan Jiuniu,5686,5,1,True,21696
 1523061,2026-03-07T07:30:00+00:00,FT,Regular Season - 1,Tianjin Teda,837,Chongqing Tongliang Long,21262,0,0,True,
 1523060,2026-03-07T07:30:00+00:00,FT,Regular Season - 1,Shandong Luneng,844,Shenyang Urban,5684,3,0,True,
@@ -163,40 +163,39 @@
 1523225,2026-08-02T10:00:00+00:00,FT,Regular Season - 21,Qingdao Youth Island,17265,Qingdao Jonoon,1431,2,0,True,
 1523226,2026-08-02T11:35:00+00:00,FT,Regular Season - 21,Shenyang Urban,5684,Shanghai Shenhua,833,3,1,True,
 1523224,2026-08-02T12:00:00+00:00,FT,Regular Season - 21,Sichuan Jiuniu,5686,Chongqing Tongliang Long,21262,2,0,True,
+1523227,2026-08-07T11:35:00+00:00,FT,Regular Season - 22,Beijing Guoan,830,Sichuan Jiuniu,5686,4,0,True,
+1523228,2026-08-08T11:00:00+00:00,FT,Regular Season - 22,Qingdao Jonoon,1431,Shanghai Shenhua,833,0,1,True,20427
+1523229,2026-08-08T11:35:00+00:00,FT,Regular Season - 22,Dalian Zhixing,21263,Shenyang Urban,5684,1,0,True,
+1523231,2026-08-08T12:00:00+00:00,FT,Regular Season - 22,Yunnan Yukun,21265,Chengdu Better City,5648,1,0,True,19672
+1523232,2026-08-09T11:00:00+00:00,FT,Regular Season - 22,Henan Jianye,840,Qingdao Youth Island,17265,0,0,True,355
+1523233,2026-08-09T11:35:00+00:00,FT,Regular Season - 22,Chongqing Tongliang Long,21262,SHANGHAI SIPG,836,2,3,True,19669
+1523234,2026-08-09T12:00:00+00:00,FT,Regular Season - 22,Shandong Luneng,844,Tianjin Teda,837,2,1,True,
+1523235,2026-08-14T11:35:00+00:00,FT,Regular Season - 23,Shandong Luneng,844,Qingdao Jonoon,1431,3,1,True,
+1523236,2026-08-14T11:35:00+00:00,FT,Regular Season - 23,Wuhan Three Towns,5695,SHANGHAI SIPG,836,2,3,True,11560
+1523237,2026-08-14T12:00:00+00:00,FT,Regular Season - 23,Qingdao Youth Island,17265,Chongqing Tongliang Long,21262,0,0,True,
+1523238,2026-08-15T11:00:00+00:00,FT,Regular Season - 23,Shenyang Urban,5684,Sichuan Jiuniu,5686,1,2,True,
+1523239,2026-08-15T11:35:00+00:00,FT,Regular Season - 23,Tianjin Teda,837,Beijing Guoan,830,2,4,True,
+1523240,2026-08-15T11:35:00+00:00,FT,Regular Season - 23,Hangzhou Greentown,848,Chengdu Better City,5648,2,3,True,
+1523241,2026-08-15T12:00:00+00:00,FT,Regular Season - 23,Shanghai Shenhua,833,Henan Jianye,840,4,1,True,19701
+1523242,2026-08-15T12:00:00+00:00,FT,Regular Season - 23,Yunnan Yukun,21265,Dalian Zhixing,21263,3,1,True,19672
+1523198,2026-08-18T11:35:00+00:00,FT,Regular Season - 18,Shanghai Shenhua,833,Beijing Guoan,830,0,3,True,19701
+1523202,2026-08-19T11:35:00+00:00,FT,Regular Season - 18,SHANGHAI SIPG,836,Dalian Zhixing,21263,1,1,True,
+1523243,2026-08-22T11:00:00+00:00,FT,Regular Season - 24,Wuhan Three Towns,5695,Tianjin Teda,837,0,0,True,11560
+1523244,2026-08-22T11:35:00+00:00,FT,Regular Season - 24,Chengdu Better City,5648,Shanghai Shenhua,833,4,5,True,21696
+1523245,2026-08-22T11:35:00+00:00,FT,Regular Season - 24,Sichuan Jiuniu,5686,Hangzhou Greentown,848,1,1,True,
+1523246,2026-08-22T12:00:00+00:00,FT,Regular Season - 24,Beijing Guoan,830,Yunnan Yukun,21265,3,3,True,
+1523247,2026-08-22T12:00:00+00:00,FT,Regular Season - 24,Qingdao Youth Island,17265,Shandong Luneng,844,2,0,True,
+1523248,2026-08-23T11:00:00+00:00,FT,Regular Season - 24,Shenyang Urban,5684,Henan Jianye,840,4,4,True,
+1523249,2026-08-23T11:35:00+00:00,FT,Regular Season - 24,SHANGHAI SIPG,836,Qingdao Jonoon,1431,2,1,True,
+1523250,2026-08-23T12:00:00+00:00,FT,Regular Season - 24,Chongqing Tongliang Long,21262,Dalian Zhixing,21263,0,1,True,19669
 1523196,2026-07-11T11:00:00+00:00,PST,Regular Season - 18,Wuhan Three Towns,5695,Henan Jianye,840,,,False,
-1523198,2026-07-11T11:35:00+00:00,PST,Regular Season - 18,Shanghai Shenhua,833,Beijing Guoan,830,,,False,19701
-1523201,2026-07-12T11:00:00+00:00,PST,Regular Season - 18,Tianjin Teda,837,Shenyang Urban,5684,,,False,
-1523202,2026-07-12T11:35:00+00:00,PST,Regular Season - 18,SHANGHAI SIPG,836,Dalian Zhixing,21263,,,False,
-1523227,2026-08-07T11:35:00+00:00,NS,Regular Season - 22,Beijing Guoan,830,Sichuan Jiuniu,5686,,,False,
-1523228,2026-08-08T11:00:00+00:00,NS,Regular Season - 22,Qingdao Jonoon,1431,Shanghai Shenhua,833,,,False,20427
-1523230,2026-08-08T11:35:00+00:00,NS,Regular Season - 22,Hangzhou Greentown,848,Wuhan Three Towns,5695,,,False,
-1523229,2026-08-08T11:35:00+00:00,NS,Regular Season - 22,Dalian Zhixing,21263,Shenyang Urban,5684,,,False,
-1523231,2026-08-08T12:00:00+00:00,NS,Regular Season - 22,Yunnan Yukun,21265,Chengdu Better City,5648,,,False,19672
-1523232,2026-08-09T11:00:00+00:00,NS,Regular Season - 22,Henan Jianye,840,Qingdao Youth Island,17265,,,False,355
-1523233,2026-08-09T11:35:00+00:00,NS,Regular Season - 22,Chongqing Tongliang Long,21262,SHANGHAI SIPG,836,,,False,19669
-1523234,2026-08-09T12:00:00+00:00,NS,Regular Season - 22,Shandong Luneng,844,Tianjin Teda,837,,,False,
-1523235,2026-08-14T11:35:00+00:00,NS,Regular Season - 23,Shandong Luneng,844,Qingdao Jonoon,1431,,,False,
-1523236,2026-08-14T11:35:00+00:00,NS,Regular Season - 23,Wuhan Three Towns,5695,SHANGHAI SIPG,836,,,False,
-1523237,2026-08-14T12:00:00+00:00,NS,Regular Season - 23,Qingdao Youth Island,17265,Chongqing Tongliang Long,21262,,,False,
-1523238,2026-08-15T11:00:00+00:00,NS,Regular Season - 23,Shenyang Urban,5684,Sichuan Jiuniu,5686,,,False,
-1523239,2026-08-15T11:35:00+00:00,NS,Regular Season - 23,Tianjin Teda,837,Beijing Guoan,830,,,False,
-1523240,2026-08-15T11:35:00+00:00,NS,Regular Season - 23,Hangzhou Greentown,848,Chengdu Better City,5648,,,False,
-1523241,2026-08-15T12:00:00+00:00,NS,Regular Season - 23,Shanghai Shenhua,833,Henan Jianye,840,,,False,19701
-1523242,2026-08-15T12:00:00+00:00,NS,Regular Season - 23,Yunnan Yukun,21265,Dalian Zhixing,21263,,,False,19672
-1523243,2026-08-22T11:00:00+00:00,NS,Regular Season - 24,Wuhan Three Towns,5695,Tianjin Teda,837,,,False,
-1523244,2026-08-22T11:35:00+00:00,NS,Regular Season - 24,Chengdu Better City,5648,Shanghai Shenhua,833,,,False,
-1523245,2026-08-22T11:35:00+00:00,NS,Regular Season - 24,Sichuan Jiuniu,5686,Hangzhou Greentown,848,,,False,
-1523246,2026-08-22T12:00:00+00:00,NS,Regular Season - 24,Beijing Guoan,830,Yunnan Yukun,21265,,,False,
-1523247,2026-08-22T12:00:00+00:00,NS,Regular Season - 24,Qingdao Youth Island,17265,Shandong Luneng,844,,,False,
-1523248,2026-08-23T11:00:00+00:00,NS,Regular Season - 24,Shenyang Urban,5684,Henan Jianye,840,,,False,
-1523249,2026-08-23T11:35:00+00:00,NS,Regular Season - 24,SHANGHAI SIPG,836,Qingdao Jonoon,1431,,,False,
-1523250,2026-08-23T12:00:00+00:00,NS,Regular Season - 24,Chongqing Tongliang Long,21262,Dalian Zhixing,21263,,,False,19669
+1523230,2026-08-08T11:35:00+00:00,PST,Regular Season - 22,Hangzhou Greentown,848,Wuhan Three Towns,5695,,,False,
+1523256,2026-08-28T11:35:00+00:00,NS,Regular Season - 25,Shanghai Shenhua,833,Shandong Luneng,844,,,False,19701
 1523251,2026-08-28T11:35:00+00:00,NS,Regular Season - 25,Dalian Zhixing,21263,Beijing Guoan,830,,,False,
 1523252,2026-08-28T12:00:00+00:00,NS,Regular Season - 25,Sichuan Jiuniu,5686,SHANGHAI SIPG,836,,,False,
 1523258,2026-08-29T09:00:00+00:00,NS,Regular Season - 25,Qingdao Jonoon,1431,Wuhan Three Towns,5695,,,False,20427
 1523253,2026-08-29T11:00:00+00:00,NS,Regular Season - 25,Tianjin Teda,837,Qingdao Youth Island,17265,,,False,
 1523254,2026-08-29T11:00:00+00:00,NS,Regular Season - 25,Hangzhou Greentown,848,Yunnan Yukun,21265,,,False,
-1523256,2026-08-29T11:35:00+00:00,NS,Regular Season - 25,Shanghai Shenhua,833,Shandong Luneng,844,,,False,19701
 1523255,2026-08-29T11:35:00+00:00,NS,Regular Season - 25,Chengdu Better City,5648,Shenyang Urban,5684,,,False,
 1523257,2026-08-29T12:00:00+00:00,NS,Regular Season - 25,Henan Jianye,840,Chongqing Tongliang Long,21262,,,False,355
 1523259,2026-09-05T11:00:00+00:00,NS,Regular Season - 26,Wuhan Three Towns,5695,Qingdao Youth Island,17265,,,False,
@@ -207,6 +206,7 @@
 1523264,2026-09-06T11:35:00+00:00,NS,Regular Season - 26,Henan Jianye,840,Chengdu Better City,5648,,,False,355
 1523265,2026-09-06T11:35:00+00:00,NS,Regular Season - 26,Yunnan Yukun,21265,Shenyang Urban,5684,,,False,19672
 1523266,2026-09-06T12:00:00+00:00,NS,Regular Season - 26,Tianjin Teda,837,Hangzhou Greentown,848,,,False,
+1523201,2026-09-12T11:00:00+00:00,NS,Regular Season - 18,Tianjin Teda,837,Shenyang Urban,5684,,,False,
 1523267,2026-10-09T11:35:00+00:00,NS,Regular Season - 27,Sichuan Jiuniu,5686,Henan Jianye,840,,,False,
 1523268,2026-10-09T12:00:00+00:00,NS,Regular Season - 27,Hangzhou Greentown,848,SHANGHAI SIPG,836,,,False,
 1523270,2026-10-10T11:35:00+00:00,NS,Regular Season - 27,Shanghai Shenhua,833,Yunnan Yukun,21265,,,False,19701

@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1565186,2026-07-17T15:30:00+00:00,FT,Regular Season - 1,FC Voluntari,2578,FC Botosani,2581,2,2,True,
 1565185,2026-07-17T18:30:00+00:00,FT,Regular Season - 1,FCSB,559,Arges Pitesti,2592,2,0,True,
 1565187,2026-07-18T15:30:00+00:00,FT,Regular Season - 1,Oţelul,6886,CFR 1907 Cluj,2246,2,1,True,
@@ -23,46 +23,45 @@
 1565201,2026-08-02T18:30:00+00:00,FT,Regular Season - 3,Rapid,6231,CFR 1907 Cluj,2246,3,1,True,
 1565205,2026-08-03T15:30:00+00:00,FT,Regular Season - 3,Universitatea Cluj,2599,FC Botosani,2581,2,1,True,1913
 1565202,2026-08-03T18:30:00+00:00,FT,Regular Season - 3,FCSB,559,Farul Constanta,2596,2,2,True,
-1565214,2026-08-07T18:00:00+00:00,NS,Regular Season - 4,Uta Arad,2589,Rapid,6231,,,False,
-1565209,2026-08-08T15:30:00+00:00,NS,Regular Season - 4,Farul Constanta,2596,Csikszereda,6230,,,False,
-1565208,2026-08-08T18:30:00+00:00,NS,Regular Season - 4,Dinamo Bucuresti,635,FC Voluntari,2578,,,False,
-1565211,2026-08-09T15:30:00+00:00,NS,Regular Season - 4,Petrolul Ploiesti,2598,Oţelul,6886,,,False,
-1565213,2026-08-09T18:30:00+00:00,NS,Regular Season - 4,Universitatea Craiova,632,Arges Pitesti,2592,,,False,
-1565210,2026-08-10T15:30:00+00:00,NS,Regular Season - 4,FC Botosani,2581,Corvinul Hunedoara,20034,,,False,
-1565207,2026-08-10T18:30:00+00:00,NS,Regular Season - 4,CFR 1907 Cluj,2246,Universitatea Cluj,2599,,,False,
-1565212,2026-08-10T18:30:00+00:00,NS,Regular Season - 4,Sepsi OSK Sfantu Gheorghe,2585,FCSB,559,,,False,
-1565219,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,FCSB,559,FC Botosani,2581,,,False,
-1565220,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,FC Voluntari,2578,Petrolul Ploiesti,2598,,,False,
-1565217,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,Arges Pitesti,2592,Farul Constanta,2596,,,False,
-1565222,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,Universitatea Cluj,2599,Uta Arad,2589,,,False,1913
-1565216,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,Csikszereda,6230,Sepsi OSK Sfantu Gheorghe,2585,,,False,4607
-1565218,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,Rapid,6231,Dinamo Bucuresti,635,,,False,
-1565221,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,Oţelul,6886,Universitatea Craiova,632,,,False,
-1565215,2026-08-15T17:00:00+00:00,NS,Regular Season - 5,Corvinul Hunedoara,20034,CFR 1907 Cluj,2246,,,False,11931
-1565229,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,Universitatea Craiova,632,FC Voluntari,2578,,,False,
-1565224,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,Dinamo Bucuresti,635,Universitatea Cluj,2599,,,False,
-1565223,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,CFR 1907 Cluj,2246,FCSB,559,,,False,
-1565225,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,FC Botosani,2581,Csikszereda,6230,,,False,
-1565228,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,Sepsi OSK Sfantu Gheorghe,2585,Farul Constanta,2596,,,False,
-1565230,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,Uta Arad,2589,Corvinul Hunedoara,20034,,,False,
-1565227,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,Petrolul Ploiesti,2598,Rapid,6231,,,False,
-1565226,2026-08-22T17:00:00+00:00,NS,Regular Season - 6,Oţelul,6886,Arges Pitesti,2592,,,False,
-1565236,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,FCSB,559,Uta Arad,2589,,,False,
-1565237,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,FC Voluntari,2578,Oţelul,6886,,,False,
-1565234,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,Arges Pitesti,2592,Sepsi OSK Sfantu Gheorghe,2585,,,False,
-1565233,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,Farul Constanta,2596,FC Botosani,2581,,,False,
-1565238,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,Universitatea Cluj,2599,Petrolul Ploiesti,2598,,,False,1913
-1565232,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,Csikszereda,6230,CFR 1907 Cluj,2246,,,False,4607
-1565235,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,Rapid,6231,Universitatea Craiova,632,,,False,
-1565231,2026-08-29T17:00:00+00:00,NS,Regular Season - 7,Corvinul Hunedoara,20034,Dinamo Bucuresti,635,,,False,11931
-1565245,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,Universitatea Craiova,632,Universitatea Cluj,2599,,,False,
-1565240,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,Dinamo Bucuresti,635,FCSB,559,,,False,
-1565239,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,CFR 1907 Cluj,2246,Farul Constanta,2596,,,False,
-1565242,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,FC Voluntari,2578,Arges Pitesti,2592,,,False,
-1565241,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,FC Botosani,2581,Sepsi OSK Sfantu Gheorghe,2585,,,False,
-1565246,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,Uta Arad,2589,Csikszereda,6230,,,False,
-1565244,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,Petrolul Ploiesti,2598,Corvinul Hunedoara,20034,,,False,
-1565243,2026-09-05T17:00:00+00:00,NS,Regular Season - 8,Oţelul,6886,Rapid,6231,,,False,
+1565214,2026-08-07T18:00:00+00:00,FT,Regular Season - 4,Uta Arad,2589,Rapid,6231,0,0,True,
+1565209,2026-08-08T15:30:00+00:00,FT,Regular Season - 4,Farul Constanta,2596,Csikszereda,6230,3,2,True,
+1565208,2026-08-08T18:30:00+00:00,FT,Regular Season - 4,Dinamo Bucuresti,635,FC Voluntari,2578,4,0,True,
+1565211,2026-08-09T15:30:00+00:00,FT,Regular Season - 4,Petrolul Ploiesti,2598,Oţelul,6886,1,0,True,
+1565213,2026-08-09T18:30:00+00:00,FT,Regular Season - 4,Universitatea Craiova,632,Arges Pitesti,2592,0,1,True,
+1565210,2026-08-10T15:30:00+00:00,FT,Regular Season - 4,FC Botosani,2581,Corvinul Hunedoara,20034,0,0,True,
+1565212,2026-08-10T18:30:00+00:00,FT,Regular Season - 4,Sepsi OSK Sfantu Gheorghe,2585,FCSB,559,0,0,True,12593
+1565220,2026-08-14T15:30:00+00:00,FT,Regular Season - 5,FC Voluntari,2578,Petrolul Ploiesti,2598,1,2,True,
+1565217,2026-08-14T18:30:00+00:00,FT,Regular Season - 5,Arges Pitesti,2592,Farul Constanta,2596,1,1,True,
+1565216,2026-08-15T15:30:00+00:00,FT,Regular Season - 5,Csikszereda,6230,Sepsi OSK Sfantu Gheorghe,2585,0,0,True,4607
+1565218,2026-08-15T18:30:00+00:00,FT,Regular Season - 5,Rapid,6231,Dinamo Bucuresti,635,0,1,True,
+1565221,2026-08-16T15:30:00+00:00,FT,Regular Season - 5,Oţelul,6886,Universitatea Craiova,632,1,1,True,
+1565215,2026-08-16T18:30:00+00:00,FT,Regular Season - 5,Corvinul Hunedoara,20034,CFR 1907 Cluj,2246,3,0,True,11931
+1565222,2026-08-17T15:30:00+00:00,FT,Regular Season - 5,Universitatea Cluj,2599,Uta Arad,2589,2,1,True,1913
+1565219,2026-08-17T18:30:00+00:00,FT,Regular Season - 5,FCSB,559,FC Botosani,2581,3,2,True,
+1565227,2026-08-21T17:30:00+00:00,FT,Regular Season - 6,Petrolul Ploiesti,2598,Rapid,6231,0,2,True,
+1565230,2026-08-22T15:30:00+00:00,FT,Regular Season - 6,Uta Arad,2589,Corvinul Hunedoara,20034,0,0,True,
+1565224,2026-08-22T18:30:00+00:00,FT,Regular Season - 6,Dinamo Bucuresti,635,Universitatea Cluj,2599,2,1,True,
+1565228,2026-08-23T13:00:00+00:00,FT,Regular Season - 6,Sepsi OSK Sfantu Gheorghe,2585,Farul Constanta,2596,1,1,True,1826
+1565229,2026-08-23T15:30:00+00:00,FT,Regular Season - 6,Universitatea Craiova,632,FC Voluntari,2578,3,1,True,
+1565223,2026-08-23T18:30:00+00:00,FT,Regular Season - 6,CFR 1907 Cluj,2246,FCSB,559,1,0,True,
+1565225,2026-08-24T15:30:00+00:00,FT,Regular Season - 6,FC Botosani,2581,Csikszereda,6230,1,0,True,
+1565226,2026-08-24T18:30:00+00:00,FT,Regular Season - 6,Oţelul,6886,Arges Pitesti,2592,1,0,True,
+1565237,2026-08-28T15:00:00+00:00,NS,Regular Season - 7,FC Voluntari,2578,Oţelul,6886,,,False,
+1565238,2026-08-28T18:00:00+00:00,NS,Regular Season - 7,Universitatea Cluj,2599,Petrolul Ploiesti,2598,,,False,1913
+1565232,2026-08-29T13:00:00+00:00,NS,Regular Season - 7,Csikszereda,6230,CFR 1907 Cluj,2246,,,False,4607
+1565234,2026-08-29T15:30:00+00:00,NS,Regular Season - 7,Arges Pitesti,2592,Sepsi OSK Sfantu Gheorghe,2585,,,False,
+1565231,2026-08-29T18:30:00+00:00,NS,Regular Season - 7,Corvinul Hunedoara,20034,Dinamo Bucuresti,635,,,False,11931
+1565233,2026-08-30T13:00:00+00:00,NS,Regular Season - 7,Farul Constanta,2596,FC Botosani,2581,,,False,
+1565236,2026-08-30T18:00:00+00:00,NS,Regular Season - 7,FCSB,559,Uta Arad,2589,,,False,
+1565235,2026-08-31T17:30:00+00:00,NS,Regular Season - 7,Rapid,6231,Universitatea Craiova,632,,,False,
+1565239,2026-09-04T17:30:00+00:00,NS,Regular Season - 8,CFR 1907 Cluj,2246,Farul Constanta,2596,,,False,
+1565241,2026-09-05T12:00:00+00:00,NS,Regular Season - 8,FC Botosani,2581,Sepsi OSK Sfantu Gheorghe,2585,,,False,
+1565246,2026-09-05T14:30:00+00:00,NS,Regular Season - 8,Uta Arad,2589,Csikszereda,6230,,,False,
+1565240,2026-09-05T17:30:00+00:00,NS,Regular Season - 8,Dinamo Bucuresti,635,FCSB,559,,,False,
+1565244,2026-09-06T12:00:00+00:00,NS,Regular Season - 8,Petrolul Ploiesti,2598,Corvinul Hunedoara,20034,,,False,
+1565243,2026-09-06T17:30:00+00:00,NS,Regular Season - 8,Oţelul,6886,Rapid,6231,,,False,
+1565242,2026-09-07T14:30:00+00:00,NS,Regular Season - 8,FC Voluntari,2578,Arges Pitesti,2592,,,False,
+1565245,2026-09-07T17:30:00+00:00,NS,Regular Season - 8,Universitatea Craiova,632,Universitatea Cluj,2599,,,False,
 1565252,2026-09-12T17:00:00+00:00,NS,Regular Season - 9,FCSB,559,Petrolul Ploiesti,2598,,,False,
 1565253,2026-09-12T17:00:00+00:00,NS,Regular Season - 9,Sepsi OSK Sfantu Gheorghe,2585,CFR 1907 Cluj,2246,,,False,
 1565250,2026-09-12T17:00:00+00:00,NS,Regular Season - 9,Arges Pitesti,2592,FC Botosani,2581,,,False,
@@ -79,6 +78,7 @@
 1565260,2026-09-19T17:00:00+00:00,NS,Regular Season - 10,Petrolul Ploiesti,2598,Csikszereda,6230,,,False,
 1565257,2026-09-19T17:00:00+00:00,NS,Regular Season - 10,Rapid,6231,Arges Pitesti,2592,,,False,
 1565259,2026-09-19T17:00:00+00:00,NS,Regular Season - 10,Oţelul,6886,Corvinul Hunedoara,20034,,,False,
+1565207,2026-10-08T17:00:00+00:00,NS,Regular Season - 4,CFR 1907 Cluj,2246,Universitatea Cluj,2599,,,False,
 1565268,2026-10-10T17:00:00+00:00,NS,Regular Season - 11,FCSB,559,Oţelul,6886,,,False,
 1565267,2026-10-10T17:00:00+00:00,NS,Regular Season - 11,FC Botosani,2581,Uta Arad,2589,,,False,
 1565269,2026-10-10T17:00:00+00:00,NS,Regular Season - 11,Sepsi OSK Sfantu Gheorghe,2585,Dinamo Bucuresti,635,,,False,

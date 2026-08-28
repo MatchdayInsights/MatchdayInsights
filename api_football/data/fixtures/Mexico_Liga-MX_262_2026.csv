@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1550894,2026-07-17T01:00:00+00:00,FT,Apertura - 1,Necaxa,2288,Atlante FC,2312,2,1,True,20474
 1550895,2026-07-17T03:10:00+00:00,FT,Apertura - 1,Club Tijuana,2280,Tigres UANL,2279,3,1,True,1088
 1550897,2026-07-18T01:00:00+00:00,FT,Apertura - 1,Leon,2289,Atlas,2283,2,3,True,
@@ -26,33 +26,33 @@
 1550918,2026-08-02T03:05:00+00:00,FT,Apertura - 3,Cruz Azul,2295,Atlante FC,2312,2,3,True,22432
 1550919,2026-08-02T23:00:00+00:00,FT,Apertura - 3,Club America,2287,Santos Laguna,2285,3,0,True,22432
 1550920,2026-08-03T01:10:00+00:00,FT,Apertura - 3,Toluca,2281,Necaxa,2288,3,1,True,
-1550921,2026-08-15T23:00:00+00:00,NS,Apertura - 4,Atlante FC,2312,Toluca,2281,,,False,22432
-1550922,2026-08-16T01:00:00+00:00,NS,Apertura - 4,Monterrey,2282,FC Juarez,2298,,,False,
-1550923,2026-08-16T03:00:00+00:00,NS,Apertura - 4,Atlas,2283,Tigres UANL,2279,,,False,1071
-1550924,2026-08-16T18:00:00+00:00,NS,Apertura - 4,U.N.A.M. - Pumas,2286,Club Queretaro,2290,,,False,
-1550925,2026-08-16T23:00:00+00:00,NS,Apertura - 4,Club America,2287,Atletico San Luis,2314,,,False,22432
-1550926,2026-08-17T01:00:00+00:00,NS,Apertura - 4,Santos Laguna,2285,Guadalajara Chivas,2278,,,False,
-1550927,2026-08-17T03:00:00+00:00,NS,Apertura - 4,Club Tijuana,2280,Cruz Azul,2295,,,False,1088
-1550928,2026-08-18T01:00:00+00:00,NS,Apertura - 4,Necaxa,2288,Leon,2289,,,False,20474
-1550929,2026-08-18T03:00:00+00:00,NS,Apertura - 4,CF Pachuca,2292,Puebla,2291,,,False,
-1550936,2026-08-22T01:00:00+00:00,NS,Apertura - 5,Tigres UANL,2279,Atlante FC,2312,,,False,
-1550931,2026-08-22T03:00:00+00:00,NS,Apertura - 5,FC Juarez,2298,Club America,2287,,,False,
-1550933,2026-08-22T23:00:00+00:00,NS,Apertura - 5,Club Queretaro,2290,Toluca,2281,,,False,
-1550932,2026-08-22T23:07:00+00:00,NS,Apertura - 5,Guadalajara Chivas,2278,Club Tijuana,2280,,,False,1076
-1550934,2026-08-23T01:00:00+00:00,NS,Apertura - 5,Leon,2289,Monterrey,2282,,,False,
-1550930,2026-08-23T01:00:00+00:00,NS,Apertura - 5,Puebla,2291,Santos Laguna,2285,,,False,
-1550935,2026-08-23T03:00:00+00:00,NS,Apertura - 5,Cruz Azul,2295,Atlas,2283,,,False,22432
-1550937,2026-08-23T23:00:00+00:00,NS,Apertura - 5,Atletico San Luis,2314,CF Pachuca,2292,,,False,
-1550938,2026-08-24T01:00:00+00:00,NS,Apertura - 5,U.N.A.M. - Pumas,2286,Necaxa,2288,,,False,
+1550921,2026-08-15T23:00:00+00:00,FT,Apertura - 4,Atlante FC,2312,Toluca,2281,0,0,True,22432
+1550922,2026-08-16T01:10:00+00:00,FT,Apertura - 4,Monterrey,2282,FC Juarez,2298,6,1,True,
+1550923,2026-08-16T03:10:00+00:00,FT,Apertura - 4,Atlas,2283,Tigres UANL,2279,2,1,True,1071
+1550924,2026-08-16T18:00:00+00:00,FT,Apertura - 4,U.N.A.M. - Pumas,2286,Club Queretaro,2290,0,0,True,
+1550925,2026-08-16T23:00:00+00:00,FT,Apertura - 4,Club America,2287,Atletico San Luis,2314,3,0,True,22432
+1550926,2026-08-17T01:10:00+00:00,FT,Apertura - 4,Santos Laguna,2285,Guadalajara Chivas,2278,0,1,True,20475
+1550927,2026-08-17T03:00:00+00:00,FT,Apertura - 4,Club Tijuana,2280,Cruz Azul,2295,2,1,True,1088
+1550928,2026-08-18T01:00:00+00:00,FT,Apertura - 4,Necaxa,2288,Leon,2289,1,2,True,20474
+1550929,2026-08-18T03:06:00+00:00,FT,Apertura - 4,CF Pachuca,2292,Puebla,2291,2,3,True,
+1550936,2026-08-22T01:00:00+00:00,FT,Apertura - 5,Tigres UANL,2279,Atlante FC,2312,2,0,True,
+1550934,2026-08-22T01:00:00+00:00,FT,Apertura - 5,Leon,2289,Monterrey,2282,2,0,True,
+1550933,2026-08-22T03:10:00+00:00,FT,Apertura - 5,Club Queretaro,2290,Toluca,2281,1,2,True,
+1550931,2026-08-22T03:10:00+00:00,FT,Apertura - 5,FC Juarez,2298,Club America,2287,1,2,True,1845
+1550932,2026-08-22T23:07:00+00:00,FT,Apertura - 5,Guadalajara Chivas,2278,Club Tijuana,2280,5,2,True,1076
+1550930,2026-08-23T01:00:00+00:00,FT,Apertura - 5,Puebla,2291,Santos Laguna,2285,3,2,True,1082
+1550935,2026-08-23T03:00:00+00:00,FT,Apertura - 5,Cruz Azul,2295,Atlas,2283,0,2,True,22432
+1550937,2026-08-23T23:00:00+00:00,FT,Apertura - 5,Atletico San Luis,2314,CF Pachuca,2292,1,1,True,
+1550938,2026-08-24T01:00:00+00:00,FT,Apertura - 5,U.N.A.M. - Pumas,2286,Necaxa,2288,1,1,True,
 1550940,2026-08-29T01:00:00+00:00,NS,Apertura - 6,Necaxa,2288,Cruz Azul,2295,,,False,20474
 1550939,2026-08-29T01:00:00+00:00,NS,Apertura - 6,Atlante FC,2312,Leon,2289,,,False,22432
-1550941,2026-08-29T03:00:00+00:00,NS,Apertura - 6,Club Tijuana,2280,U.N.A.M. - Pumas,2286,,,False,1088
+1550941,2026-08-29T03:10:00+00:00,NS,Apertura - 6,Club Tijuana,2280,U.N.A.M. - Pumas,2286,,,False,1088
 1550942,2026-08-29T23:00:00+00:00,NS,Apertura - 6,Atlas,2283,Club Queretaro,2290,,,False,1071
 1550943,2026-08-29T23:00:00+00:00,NS,Apertura - 6,CF Pachuca,2292,Guadalajara Chivas,2278,,,False,
-1550944,2026-08-30T01:00:00+00:00,NS,Apertura - 6,Club America,2287,Puebla,2291,,,False,22432
-1550945,2026-08-30T03:00:00+00:00,NS,Apertura - 6,Santos Laguna,2285,Tigres UANL,2279,,,False,
+1550944,2026-08-30T01:05:00+00:00,NS,Apertura - 6,Club America,2287,Puebla,2291,,,False,22432
+1550945,2026-08-30T03:10:00+00:00,NS,Apertura - 6,Santos Laguna,2285,Tigres UANL,2279,,,False,
 1550946,2026-08-31T00:00:00+00:00,NS,Apertura - 6,Toluca,2281,FC Juarez,2298,,,False,
-1550947,2026-08-31T02:00:00+00:00,NS,Apertura - 6,Monterrey,2282,Atletico San Luis,2314,,,False,
+1550947,2026-08-31T02:10:00+00:00,NS,Apertura - 6,Monterrey,2282,Atletico San Luis,2314,,,False,
 1550948,2026-09-05T01:00:00+00:00,NS,Apertura - 7,Puebla,2291,Toluca,2281,,,False,
 1550949,2026-09-05T03:00:00+00:00,NS,Apertura - 7,FC Juarez,2298,CF Pachuca,2292,,,False,
 1550951,2026-09-05T23:00:00+00:00,NS,Apertura - 7,Club Queretaro,2290,Monterrey,2282,,,False,
@@ -67,10 +67,10 @@
 1550959,2026-09-12T03:00:00+00:00,NS,Apertura - 8,Atlante FC,2312,CF Pachuca,2292,,,False,22432
 1550960,2026-09-12T23:00:00+00:00,NS,Apertura - 8,Leon,2289,Atletico San Luis,2314,,,False,
 1550962,2026-09-13T01:00:00+00:00,NS,Apertura - 8,Toluca,2281,Atlas,2283,,,False,
+1550965,2026-09-13T01:00:00+00:00,NS,Apertura - 8,Monterrey,2282,Tigres UANL,2279,,,False,
 1550961,2026-09-13T01:00:00+00:00,NS,Apertura - 8,Cruz Azul,2295,Club America,2287,,,False,22432
 1550964,2026-09-14T00:00:00+00:00,NS,Apertura - 8,Santos Laguna,2285,FC Juarez,2298,,,False,
 1550963,2026-09-14T00:07:00+00:00,NS,Apertura - 8,Guadalajara Chivas,2278,U.N.A.M. - Pumas,2286,,,False,1076
-1550965,2026-09-14T02:00:00+00:00,NS,Apertura - 8,Monterrey,2282,Tigres UANL,2279,,,False,
 1550966,2026-09-19T01:00:00+00:00,NS,Apertura - 9,Puebla,2291,Atlante FC,2312,,,False,
 1550967,2026-09-19T03:00:00+00:00,NS,Apertura - 9,FC Juarez,2298,Tigres UANL,2279,,,False,
 1550968,2026-09-19T23:00:00+00:00,NS,Apertura - 9,Atlas,2283,U.N.A.M. - Pumas,2286,,,False,1071

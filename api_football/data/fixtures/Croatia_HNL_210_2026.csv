@@ -1,29 +1,29 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1548497,2026-07-31T18:00:00+00:00,FT,Regular Season - 1,Dinamo Zagreb,620,NK Slaven Belupo,1018,2,0,True,412
 1548499,2026-08-01T16:30:00+00:00,FT,Regular Season - 1,Istra 1961,1016,NK Lokomotiva Zagreb,1017,2,3,True,416
 1548498,2026-08-01T19:00:00+00:00,FT,Regular Season - 1,HNK Gorica,1068,NK Osijek,616,0,2,True,
 1548501,2026-08-02T16:30:00+00:00,FT,Regular Season - 1,NK Varazdin,1483,HNK Hajduk Split,608,2,1,True,
 1548500,2026-08-02T19:00:00+00:00,FT,Regular Season - 1,HNK Rijeka,561,Rudes,1019,2,1,True,423
-1548504,2026-08-08T15:00:00+00:00,NS,Regular Season - 2,HNK Rijeka,561,Dinamo Zagreb,620,,,False,423
-1548505,2026-08-08T16:30:00+00:00,NS,Regular Season - 2,Rudes,1019,NK Osijek,616,,,False,
-1548503,2026-08-08T19:00:00+00:00,NS,Regular Season - 2,NK Lokomotiva Zagreb,1017,HNK Gorica,1068,,,False,412
-1548506,2026-08-09T16:30:00+00:00,NS,Regular Season - 2,NK Slaven Belupo,1018,NK Varazdin,1483,,,False,
-1548502,2026-08-09T19:00:00+00:00,NS,Regular Season - 2,HNK Hajduk Split,608,Istra 1961,1016,,,False,413
-1548507,2026-08-14T18:00:00+00:00,NS,Regular Season - 3,Dinamo Zagreb,620,Rudes,1019,,,False,412
-1548509,2026-08-15T16:30:00+00:00,NS,Regular Season - 3,Istra 1961,1016,NK Slaven Belupo,1018,,,False,416
-1548510,2026-08-15T19:00:00+00:00,NS,Regular Season - 3,NK Osijek,616,NK Lokomotiva Zagreb,1017,,,False,20730
-1548511,2026-08-16T16:30:00+00:00,NS,Regular Season - 3,NK Varazdin,1483,HNK Rijeka,561,,,False,
-1548508,2026-08-16T19:00:00+00:00,NS,Regular Season - 3,HNK Gorica,1068,HNK Hajduk Split,608,,,False,
-1548515,2026-08-21T18:00:00+00:00,NS,Regular Season - 4,Rudes,1019,NK Lokomotiva Zagreb,1017,,,False,
-1548516,2026-08-22T16:30:00+00:00,NS,Regular Season - 4,NK Slaven Belupo,1018,HNK Gorica,1068,,,False,
-1548512,2026-08-22T19:00:00+00:00,NS,Regular Season - 4,Dinamo Zagreb,620,NK Varazdin,1483,,,False,412
-1548514,2026-08-23T16:30:00+00:00,NS,Regular Season - 4,HNK Rijeka,561,Istra 1961,1016,,,False,423
-1548513,2026-08-23T19:00:00+00:00,NS,Regular Season - 4,HNK Hajduk Split,608,NK Osijek,616,,,False,413
-1548520,2026-08-29T15:00:00+00:00,NS,Regular Season - 5,NK Osijek,616,NK Slaven Belupo,1018,,,False,20730
-1548518,2026-08-29T15:00:00+00:00,NS,Regular Season - 5,Istra 1961,1016,Dinamo Zagreb,620,,,False,416
-1548519,2026-08-29T15:00:00+00:00,NS,Regular Season - 5,NK Lokomotiva Zagreb,1017,HNK Hajduk Split,608,,,False,412
-1548517,2026-08-29T15:00:00+00:00,NS,Regular Season - 5,HNK Gorica,1068,HNK Rijeka,561,,,False,
-1548521,2026-08-29T15:00:00+00:00,NS,Regular Season - 5,NK Varazdin,1483,Rudes,1019,,,False,
+1548505,2026-08-08T16:30:00+00:00,FT,Regular Season - 2,Rudes,1019,NK Osijek,616,1,6,True,
+1548503,2026-08-08T19:00:00+00:00,FT,Regular Season - 2,NK Lokomotiva Zagreb,1017,HNK Gorica,1068,3,1,True,412
+1548506,2026-08-09T16:30:00+00:00,FT,Regular Season - 2,NK Slaven Belupo,1018,NK Varazdin,1483,1,4,True,
+1548502,2026-08-09T19:00:00+00:00,FT,Regular Season - 2,HNK Hajduk Split,608,Istra 1961,1016,2,2,True,413
+1548507,2026-08-14T18:00:00+00:00,FT,Regular Season - 3,Dinamo Zagreb,620,Rudes,1019,4,0,True,412
+1548509,2026-08-15T16:30:00+00:00,FT,Regular Season - 3,Istra 1961,1016,NK Slaven Belupo,1018,3,0,True,416
+1548510,2026-08-15T19:00:00+00:00,FT,Regular Season - 3,NK Osijek,616,NK Lokomotiva Zagreb,1017,1,0,True,20730
+1548511,2026-08-16T16:30:00+00:00,FT,Regular Season - 3,NK Varazdin,1483,HNK Rijeka,561,2,0,True,
+1548508,2026-08-16T19:00:00+00:00,FT,Regular Season - 3,HNK Gorica,1068,HNK Hajduk Split,608,1,2,True,
+1548515,2026-08-21T18:00:00+00:00,FT,Regular Season - 4,Rudes,1019,NK Lokomotiva Zagreb,1017,4,1,True,
+1548516,2026-08-22T16:30:00+00:00,FT,Regular Season - 4,NK Slaven Belupo,1018,HNK Gorica,1068,2,0,True,
+1548512,2026-08-22T19:00:00+00:00,FT,Regular Season - 4,Dinamo Zagreb,620,NK Varazdin,1483,3,1,True,412
+1548514,2026-08-23T16:30:00+00:00,FT,Regular Season - 4,HNK Rijeka,561,Istra 1961,1016,3,2,True,423
+1548513,2026-08-23T19:00:00+00:00,FT,Regular Season - 4,HNK Hajduk Split,608,NK Osijek,616,4,0,True,413
+1548504,2026-08-08T15:00:00+00:00,PST,Regular Season - 2,HNK Rijeka,561,Dinamo Zagreb,620,,,False,423
+1548518,2026-08-29T16:30:00+00:00,NS,Regular Season - 5,Istra 1961,1016,Dinamo Zagreb,620,,,False,416
+1548521,2026-08-29T19:00:00+00:00,NS,Regular Season - 5,NK Varazdin,1483,Rudes,1019,,,False,
+1548520,2026-08-30T18:00:00+00:00,NS,Regular Season - 5,NK Osijek,616,NK Slaven Belupo,1018,,,False,20730
+1548519,2026-08-31T16:30:00+00:00,NS,Regular Season - 5,HNK Hajduk Split,608,NK Lokomotiva Zagreb,1017,,,False,412
+1548517,2026-08-31T19:00:00+00:00,NS,Regular Season - 5,HNK Gorica,1068,HNK Rijeka,561,,,False,
 1548523,2026-09-05T15:00:00+00:00,NS,Regular Season - 6,HNK Rijeka,561,NK Osijek,616,,,False,423
 1548522,2026-09-05T15:00:00+00:00,NS,Regular Season - 6,Dinamo Zagreb,620,HNK Gorica,1068,,,False,412
 1548525,2026-09-05T15:00:00+00:00,NS,Regular Season - 6,NK Slaven Belupo,1018,NK Lokomotiva Zagreb,1017,,,False,

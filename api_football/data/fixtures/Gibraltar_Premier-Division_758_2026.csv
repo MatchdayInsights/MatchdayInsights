@@ -1,0 +1,111 @@
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+1619726,2026-08-21T19:00:00+00:00,FT,Regular Season - 3,Hound Dogs,16790,College 1975,16130,1,1,True,
+1619727,2026-08-22T16:00:00+00:00,FT,Regular Season - 3,Lions Gibraltar,16133,Magpies,16135,1,1,True,
+1619728,2026-08-22T19:00:00+00:00,FT,Regular Season - 3,Europa,10125,Glacis United,16132,2,2,True,760
+1619729,2026-08-23T16:00:00+00:00,FT,Regular Season - 3,Lynx,16134,Europa Point,16131,2,2,True,
+1619721,2026-08-28T19:00:00+00:00,NS,Regular Season - 2,St Joseph S Fc,698,Mons Calpe,16137,,,False,
+1619722,2026-08-29T16:00:00+00:00,NS,Regular Season - 2,College 1975,16130,Lions Gibraltar,16133,,,False,
+1619723,2026-08-29T19:00:00+00:00,NS,Regular Season - 2,Magpies,16135,Lynx,16134,,,False,
+1619724,2026-08-30T16:00:00+00:00,NS,Regular Season - 2,Europa Point,16131,Europa,10125,,,False,
+1619725,2026-08-30T19:00:00+00:00,NS,Regular Season - 2,Glacis United,16132,Lincoln Red Imps FC,667,,,False,
+1619716,2026-09-04T19:00:00+00:00,NS,Regular Season - 1,Lincoln Red Imps FC,667,Europa Point,16131,,,False,760
+1619717,2026-09-05T14:30:00+00:00,NS,Regular Season - 1,Europa,10125,Magpies,16135,,,False,760
+1619718,2026-09-05T17:30:00+00:00,NS,Regular Season - 1,Lions Gibraltar,16133,Hound Dogs,16790,,,False,
+1619719,2026-09-06T14:30:00+00:00,NS,Regular Season - 1,Mons Calpe,16137,Glacis United,16132,,,False,
+1619720,2026-09-06T17:30:00+00:00,NS,Regular Season - 1,Lynx,16134,College 1975,16130,,,False,
+1619731,2026-09-11T19:00:00+00:00,NS,Regular Season - 4,Magpies,16135,Hound Dogs,16790,,,False,
+1619732,2026-09-12T14:30:00+00:00,NS,Regular Season - 4,St Joseph S Fc,698,Europa,10125,,,False,
+1619733,2026-09-12T17:30:00+00:00,NS,Regular Season - 4,Europa Point,16131,Lions Gibraltar,16133,,,False,
+1619734,2026-09-13T14:30:00+00:00,NS,Regular Season - 4,Glacis United,16132,Lynx,16134,,,False,
+1619735,2026-09-13T17:30:00+00:00,NS,Regular Season - 4,Mons Calpe,16137,Lincoln Red Imps FC,667,,,False,
+1619736,2026-09-18T19:00:00+00:00,NS,Regular Season - 5,College 1975,16130,Magpies,16135,,,False,
+1619737,2026-09-19T14:30:00+00:00,NS,Regular Season - 5,Lynx,16134,St Joseph S Fc,698,,,False,
+1619738,2026-09-19T17:30:00+00:00,NS,Regular Season - 5,Hound Dogs,16790,Europa Point,16131,,,False,
+1619739,2026-09-20T14:30:00+00:00,NS,Regular Season - 5,Europa,10125,Mons Calpe,16137,,,False,760
+1619740,2026-09-20T17:30:00+00:00,NS,Regular Season - 5,Lions Gibraltar,16133,Glacis United,16132,,,False,
+1619741,2026-10-09T19:00:00+00:00,NS,Regular Season - 6,Mons Calpe,16137,Lynx,16134,,,False,
+1619742,2026-10-10T14:30:00+00:00,NS,Regular Season - 6,Europa Point,16131,College 1975,16130,,,False,
+1619743,2026-10-10T17:30:00+00:00,NS,Regular Season - 6,St Joseph S Fc,698,Lions Gibraltar,16133,,,False,
+1619744,2026-10-11T14:30:00+00:00,NS,Regular Season - 6,Lincoln Red Imps FC,667,Europa,10125,,,False,760
+1619745,2026-10-11T17:30:00+00:00,NS,Regular Season - 6,Glacis United,16132,Hound Dogs,16790,,,False,
+1619746,2026-10-16T19:00:00+00:00,NS,Regular Season - 7,Magpies,16135,Europa Point,16131,,,False,
+1619747,2026-10-18T14:30:00+00:00,NS,Regular Season - 7,Lynx,16134,Lincoln Red Imps FC,667,,,False,
+1619748,2026-10-18T17:30:00+00:00,NS,Regular Season - 7,Hound Dogs,16790,St Joseph S Fc,698,,,False,
+1619730,2026-10-21T19:00:00+00:00,NS,Regular Season - 3,Lincoln Red Imps FC,667,St Joseph S Fc,698,,,False,760
+1619751,2026-10-23T19:00:00+00:00,NS,Regular Season - 8,Europa,10125,Lynx,16134,,,False,760
+1619752,2026-10-24T14:30:00+00:00,NS,Regular Season - 8,Mons Calpe,16137,Hound Dogs,16790,,,False,
+1619753,2026-10-24T17:30:00+00:00,NS,Regular Season - 8,Lincoln Red Imps FC,667,Lions Gibraltar,16133,,,False,760
+1619754,2026-10-25T15:30:00+00:00,NS,Regular Season - 8,St Joseph S Fc,698,College 1975,16130,,,False,
+1619755,2026-10-25T18:30:00+00:00,NS,Regular Season - 8,Glacis United,16132,Magpies,16135,,,False,
+1619749,2026-10-27T20:00:00+00:00,NS,Regular Season - 7,Lions Gibraltar,16133,Mons Calpe,16137,,,False,
+1619750,2026-10-28T20:00:00+00:00,NS,Regular Season - 7,College 1975,16130,Glacis United,16132,,,False,
+1619756,2026-10-30T20:00:00+00:00,NS,Regular Season - 9,Magpies,16135,St Joseph S Fc,698,,,False,
+1619757,2026-10-31T15:30:00+00:00,NS,Regular Season - 9,Lions Gibraltar,16133,Europa,10125,,,False,
+1619758,2026-10-31T18:30:00+00:00,NS,Regular Season - 9,College 1975,16130,Mons Calpe,16137,,,False,
+1619759,2026-11-01T15:30:00+00:00,NS,Regular Season - 9,Europa Point,16131,Glacis United,16132,,,False,
+1619760,2026-11-01T18:30:00+00:00,NS,Regular Season - 9,Hound Dogs,16790,Lincoln Red Imps FC,667,,,False,
+1619761,2026-11-06T20:00:00+00:00,NS,Regular Season - 10,Lincoln Red Imps FC,667,College 1975,16130,,,False,760
+1619762,2026-11-07T15:30:00+00:00,NS,Regular Season - 10,St Joseph S Fc,698,Europa Point,16131,,,False,
+1619763,2026-11-07T18:30:00+00:00,NS,Regular Season - 10,Mons Calpe,16137,Magpies,16135,,,False,
+1619764,2026-11-08T15:30:00+00:00,NS,Regular Season - 10,Europa,10125,Hound Dogs,16790,,,False,760
+1619765,2026-11-08T18:30:00+00:00,NS,Regular Season - 10,Lynx,16134,Lions Gibraltar,16133,,,False,
+1619766,2026-11-20T20:00:00+00:00,NS,Regular Season - 11,Europa Point,16131,Mons Calpe,16137,,,False,
+1619767,2026-11-21T15:30:00+00:00,NS,Regular Season - 11,Glacis United,16132,St Joseph S Fc,698,,,False,
+1619768,2026-11-21T18:30:00+00:00,NS,Regular Season - 11,College 1975,16130,Europa,10125,,,False,
+1619769,2026-11-22T15:30:00+00:00,NS,Regular Season - 11,Magpies,16135,Lincoln Red Imps FC,667,,,False,
+1619770,2026-11-22T18:30:00+00:00,NS,Regular Season - 11,Hound Dogs,16790,Lynx,16134,,,False,
+1619771,2026-11-27T20:00:00+00:00,NS,Regular Season - 12,Hound Dogs,16790,Lions Gibraltar,16133,,,False,
+1619772,2026-11-28T15:30:00+00:00,NS,Regular Season - 12,Glacis United,16132,Mons Calpe,16137,,,False,
+1619773,2026-11-28T18:30:00+00:00,NS,Regular Season - 12,College 1975,16130,Lynx,16134,,,False,
+1619774,2026-11-29T15:30:00+00:00,NS,Regular Season - 12,Europa Point,16131,Lincoln Red Imps FC,667,,,False,
+1619775,2026-11-29T18:30:00+00:00,NS,Regular Season - 12,Magpies,16135,Europa,10125,,,False,
+1619776,2026-12-04T20:00:00+00:00,NS,Regular Season - 13,Lincoln Red Imps FC,667,Glacis United,16132,,,False,760
+1619777,2026-12-05T15:30:00+00:00,NS,Regular Season - 13,Lynx,16134,Magpies,16135,,,False,
+1619778,2026-12-05T18:30:00+00:00,NS,Regular Season - 13,Mons Calpe,16137,St Joseph S Fc,698,,,False,
+1619779,2026-12-06T15:30:00+00:00,NS,Regular Season - 13,Europa,10125,Europa Point,16131,,,False,760
+1619780,2026-12-06T18:30:00+00:00,NS,Regular Season - 13,Lions Gibraltar,16133,College 1975,16130,,,False,
+1619781,2026-12-11T20:00:00+00:00,NS,Regular Season - 14,Europa Point,16131,Lynx,16134,,,False,
+1619782,2026-12-12T15:30:00+00:00,NS,Regular Season - 14,Glacis United,16132,Europa,10125,,,False,
+1619783,2026-12-12T18:30:00+00:00,NS,Regular Season - 14,Magpies,16135,Lions Gibraltar,16133,,,False,
+1619784,2026-12-13T15:30:00+00:00,NS,Regular Season - 14,St Joseph S Fc,698,Lincoln Red Imps FC,667,,,False,
+1619785,2026-12-13T18:30:00+00:00,NS,Regular Season - 14,College 1975,16130,Hound Dogs,16790,,,False,
+1619786,2026-12-18T20:00:00+00:00,NS,Regular Season - 15,Hound Dogs,16790,Magpies,16135,,,False,
+1619787,2026-12-19T15:30:00+00:00,NS,Regular Season - 15,Europa,10125,St Joseph S Fc,698,,,False,760
+1619788,2026-12-19T18:30:00+00:00,NS,Regular Season - 15,Lions Gibraltar,16133,Europa Point,16131,,,False,
+1619789,2026-12-20T15:30:00+00:00,NS,Regular Season - 15,Lynx,16134,Glacis United,16132,,,False,
+1619790,2026-12-20T18:30:00+00:00,NS,Regular Season - 15,Lincoln Red Imps FC,667,Mons Calpe,16137,,,False,760
+1619791,2027-01-08T20:00:00+00:00,NS,Regular Season - 16,Mons Calpe,16137,Europa,10125,,,False,
+1619792,2027-01-09T15:30:00+00:00,NS,Regular Season - 16,Magpies,16135,College 1975,16130,,,False,
+1619793,2027-01-09T18:30:00+00:00,NS,Regular Season - 16,Europa Point,16131,Hound Dogs,16790,,,False,
+1619794,2027-01-10T15:30:00+00:00,NS,Regular Season - 16,St Joseph S Fc,698,Lynx,16134,,,False,
+1619795,2027-01-10T18:30:00+00:00,NS,Regular Season - 16,Glacis United,16132,Lions Gibraltar,16133,,,False,
+1619796,2027-01-12T20:00:00+00:00,NS,Regular Season - 17,Europa,10125,Lincoln Red Imps FC,667,,,False,760
+1619797,2027-01-14T20:00:00+00:00,NS,Regular Season - 17,College 1975,16130,Europa Point,16131,,,False,
+1619798,2027-01-15T20:00:00+00:00,NS,Regular Season - 17,Lynx,16134,Mons Calpe,16137,,,False,
+1619799,2027-01-17T15:30:00+00:00,NS,Regular Season - 17,Hound Dogs,16790,Glacis United,16132,,,False,
+1619800,2027-01-17T18:30:00+00:00,NS,Regular Season - 17,Lions Gibraltar,16133,St Joseph S Fc,698,,,False,
+1619801,2027-01-19T20:00:00+00:00,NS,Regular Season - 18,Lincoln Red Imps FC,667,Lynx,16134,,,False,760
+1619802,2027-01-20T20:00:00+00:00,NS,Regular Season - 18,Europa Point,16131,Magpies,16135,,,False,
+1619803,2027-01-21T20:00:00+00:00,NS,Regular Season - 18,Glacis United,16132,College 1975,16130,,,False,
+1619804,2027-01-26T20:00:00+00:00,NS,Regular Season - 18,Mons Calpe,16137,Lions Gibraltar,16133,,,False,
+1619805,2027-01-27T20:00:00+00:00,NS,Regular Season - 18,St Joseph S Fc,698,Hound Dogs,16790,,,False,
+1619806,2027-01-29T20:00:00+00:00,NS,Regular Season - 19,Lynx,16134,Europa,10125,,,False,
+1619807,2027-01-30T15:30:00+00:00,NS,Regular Season - 19,Magpies,16135,Glacis United,16132,,,False,
+1619808,2027-01-30T18:30:00+00:00,NS,Regular Season - 19,Lions Gibraltar,16133,Lincoln Red Imps FC,667,,,False,
+1619809,2027-01-31T15:30:00+00:00,NS,Regular Season - 19,College 1975,16130,St Joseph S Fc,698,,,False,
+1619810,2027-01-31T18:30:00+00:00,NS,Regular Season - 19,Hound Dogs,16790,Mons Calpe,16137,,,False,
+1619811,2027-02-12T20:00:00+00:00,NS,Regular Season - 20,Glacis United,16132,Europa Point,16131,,,False,
+1619812,2027-02-13T15:30:00+00:00,NS,Regular Season - 20,Europa,10125,Lions Gibraltar,16133,,,False,760
+1619813,2027-02-13T18:30:00+00:00,NS,Regular Season - 20,St Joseph S Fc,698,Magpies,16135,,,False,
+1619814,2027-02-14T15:30:00+00:00,NS,Regular Season - 20,Lincoln Red Imps FC,667,Hound Dogs,16790,,,False,760
+1619815,2027-02-14T18:30:00+00:00,NS,Regular Season - 20,Mons Calpe,16137,College 1975,16130,,,False,
+1619816,2027-02-26T20:00:00+00:00,NS,Regular Season - 21,Lions Gibraltar,16133,Lynx,16134,,,False,
+1619817,2027-02-27T15:30:00+00:00,NS,Regular Season - 21,Europa Point,16131,St Joseph S Fc,698,,,False,
+1619818,2027-02-27T18:30:00+00:00,NS,Regular Season - 21,Hound Dogs,16790,Europa,10125,,,False,
+1619819,2027-02-28T15:30:00+00:00,NS,Regular Season - 21,Magpies,16135,Mons Calpe,16137,,,False,
+1619820,2027-02-28T18:30:00+00:00,NS,Regular Season - 21,College 1975,16130,Lincoln Red Imps FC,667,,,False,
+1619821,2027-03-12T20:00:00+00:00,NS,Regular Season - 22,St Joseph S Fc,698,Glacis United,16132,,,False,
+1619822,2027-03-13T15:30:00+00:00,NS,Regular Season - 22,Lynx,16134,Hound Dogs,16790,,,False,
+1619823,2027-03-13T18:30:00+00:00,NS,Regular Season - 22,Europa,10125,College 1975,16130,,,False,760
+1619824,2027-03-14T15:30:00+00:00,NS,Regular Season - 22,Lincoln Red Imps FC,667,Magpies,16135,,,False,760
+1619825,2027-03-14T18:30:00+00:00,NS,Regular Season - 22,Mons Calpe,16137,Europa Point,16131,,,False,

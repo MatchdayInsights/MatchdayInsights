@@ -3473,13 +3473,17 @@
         2026
       ],
       "type": "league",
-      "tier": 1
+      "tier": 1,
+      "season_aliases": {
+        "2027": "2026"
+      }
     },
     {
       "name": "J2 League",
       "league_id": 99,
       "seasons": [
-        2025
+        2025,
+        2026
       ],
       "type": "league",
       "tier": 2
@@ -3490,8 +3494,7 @@
       "seasons": [
         2026
       ],
-      "type": "league",
-      "tier": 2
+      "type": "cup"
     },
     {
       "name": "Emperor Cup",

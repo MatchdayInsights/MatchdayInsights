@@ -1,4 +1,4 @@
-﻿fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
+fixture_id,date,status,round,home_team,home_team_id,away_team,away_team_id,home_score,away_score,played,venue_id
 1494118,2026-04-04T13:00:00+00:00,FT,Regular Season - 1,Hammarby FF,363,Mjallby AIF,2240,3,0,True,
 1494114,2026-04-04T13:00:00+00:00,FT,Regular Season - 1,Degerfors IF,2172,Sirius,370,0,3,True,1505
 1494119,2026-04-05T12:00:00+00:00,FT,Regular Season - 1,Kalmar FF,374,Vasteras SK FK,2241,0,1,True,1517
@@ -118,29 +118,29 @@
 1494225,2026-08-02T14:30:00+00:00,FT,Regular Season - 15,AIK Stockholm,377,Orgryte IS,2166,0,3,True,21411
 1494227,2026-08-03T17:00:00+00:00,FT,Regular Season - 15,Djurgardens IF,364,Vasteras SK FK,2241,6,0,True,
 1494232,2026-08-03T17:00:00+00:00,FT,Regular Season - 15,Halmstad,766,Sirius,370,0,2,True,1512
-1494238,2026-08-08T13:00:00+00:00,NS,Regular Season - 16,Orgryte IS,2166,AIK Stockholm,377,,,False,
-1494237,2026-08-08T15:30:00+00:00,NS,Regular Season - 16,Mjallby AIF,2240,IF Elfsborg,372,,,False,
-1494235,2026-08-09T12:00:00+00:00,NS,Regular Season - 16,Hammarby FF,363,BK Hacken,367,,,False,
-1494236,2026-08-09T12:00:00+00:00,NS,Regular Season - 16,Malmo FF,375,Degerfors IF,2172,,,False,
-1494233,2026-08-09T14:30:00+00:00,NS,Regular Season - 16,IFK Goteborg,366,Kalmar FF,374,,,False,
-1494234,2026-08-09T14:30:00+00:00,NS,Regular Season - 16,Halmstad,766,Gais,2170,,,False,
-1494239,2026-08-10T17:00:00+00:00,NS,Regular Season - 16,Sirius,370,IF Brommapojkarna,371,,,False,1524
-1494240,2026-08-10T17:00:00+00:00,NS,Regular Season - 16,Vasteras SK FK,2241,Djurgardens IF,364,,,False,19703
-1494244,2026-08-14T17:00:00+00:00,NS,Regular Season - 17,IF Elfsborg,372,Vasteras SK FK,2241,,,False,
-1494248,2026-08-15T13:00:00+00:00,NS,Regular Season - 17,Mjallby AIF,2240,Sirius,370,,,False,
-1494243,2026-08-16T12:00:00+00:00,NS,Regular Season - 17,Djurgardens IF,364,AIK Stockholm,377,,,False,
-1494241,2026-08-16T12:00:00+00:00,NS,Regular Season - 17,IF Brommapojkarna,371,Orgryte IS,2166,,,False,1503
-1494242,2026-08-16T12:00:00+00:00,NS,Regular Season - 17,Degerfors IF,2172,IFK Goteborg,366,,,False,1505
-1494247,2026-08-16T14:30:00+00:00,NS,Regular Season - 17,Kalmar FF,374,Hammarby FF,363,,,False,
-1494245,2026-08-16T14:30:00+00:00,NS,Regular Season - 17,Gais,2170,Malmo FF,375,,,False,
-1494246,2026-08-17T17:00:00+00:00,NS,Regular Season - 17,BK Hacken,367,Halmstad,766,,,False,
-1494255,2026-08-21T17:00:00+00:00,NS,Regular Season - 18,Sirius,370,BK Hacken,367,,,False,1524
-1494254,2026-08-22T13:00:00+00:00,NS,Regular Season - 18,Orgryte IS,2166,Halmstad,766,,,False,
-1494251,2026-08-23T12:00:00+00:00,NS,Regular Season - 18,IFK Goteborg,366,IF Elfsborg,372,,,False,
-1494256,2026-08-23T12:00:00+00:00,NS,Regular Season - 18,Vasteras SK FK,2241,Kalmar FF,374,,,False,19703
-1494252,2026-08-23T14:30:00+00:00,NS,Regular Season - 18,Hammarby FF,363,Gais,2170,,,False,
-1494250,2026-08-23T14:30:00+00:00,NS,Regular Season - 18,IF Brommapojkarna,371,Degerfors IF,2172,,,False,1503
-1494253,2026-08-24T17:00:00+00:00,NS,Regular Season - 18,Malmo FF,375,Djurgardens IF,364,,,False,
+1494238,2026-08-08T13:00:00+00:00,FT,Regular Season - 16,Orgryte IS,2166,AIK Stockholm,377,3,4,True,
+1494237,2026-08-08T15:30:00+00:00,FT,Regular Season - 16,Mjallby AIF,2240,IF Elfsborg,372,0,1,True,
+1494235,2026-08-09T12:00:00+00:00,FT,Regular Season - 16,Hammarby FF,363,BK Hacken,367,3,0,True,
+1494236,2026-08-09T12:00:00+00:00,FT,Regular Season - 16,Malmo FF,375,Degerfors IF,2172,1,2,True,1518
+1494233,2026-08-09T14:30:00+00:00,FT,Regular Season - 16,IFK Goteborg,366,Kalmar FF,374,3,2,True,
+1494234,2026-08-09T14:30:00+00:00,FT,Regular Season - 16,Halmstad,766,Gais,2170,0,2,True,1512
+1494239,2026-08-10T17:00:00+00:00,FT,Regular Season - 16,Sirius,370,IF Brommapojkarna,371,2,2,True,1524
+1494240,2026-08-10T17:00:00+00:00,FT,Regular Season - 16,Vasteras SK FK,2241,Djurgardens IF,364,1,0,True,19703
+1494244,2026-08-14T17:00:00+00:00,FT,Regular Season - 17,IF Elfsborg,372,Vasteras SK FK,2241,3,0,True,1507
+1494248,2026-08-15T13:00:00+00:00,FT,Regular Season - 17,Mjallby AIF,2240,Sirius,370,4,3,True,
+1494243,2026-08-16T12:00:00+00:00,FT,Regular Season - 17,Djurgardens IF,364,AIK Stockholm,377,1,3,True,
+1494241,2026-08-16T12:00:00+00:00,FT,Regular Season - 17,IF Brommapojkarna,371,Orgryte IS,2166,3,1,True,1503
+1494242,2026-08-16T12:00:00+00:00,FT,Regular Season - 17,Degerfors IF,2172,IFK Goteborg,366,3,0,True,1505
+1494247,2026-08-16T14:30:00+00:00,FT,Regular Season - 17,Kalmar FF,374,Hammarby FF,363,0,4,True,1517
+1494245,2026-08-16T14:30:00+00:00,FT,Regular Season - 17,Gais,2170,Malmo FF,375,0,1,True,
+1494246,2026-08-17T17:00:00+00:00,FT,Regular Season - 17,BK Hacken,367,Halmstad,766,1,0,True,
+1494255,2026-08-21T17:00:00+00:00,FT,Regular Season - 18,Sirius,370,BK Hacken,367,0,3,True,1524
+1494254,2026-08-22T13:00:00+00:00,FT,Regular Season - 18,Orgryte IS,2166,Halmstad,766,1,1,True,
+1494251,2026-08-23T12:00:00+00:00,FT,Regular Season - 18,IFK Goteborg,366,IF Elfsborg,372,1,1,True,
+1494256,2026-08-23T12:00:00+00:00,FT,Regular Season - 18,Vasteras SK FK,2241,Kalmar FF,374,0,0,True,19703
+1494252,2026-08-23T14:30:00+00:00,FT,Regular Season - 18,Hammarby FF,363,Gais,2170,2,0,True,
+1494250,2026-08-23T14:30:00+00:00,FT,Regular Season - 18,IF Brommapojkarna,371,Degerfors IF,2172,2,0,True,1503
+1494253,2026-08-24T17:00:00+00:00,FT,Regular Season - 18,Malmo FF,375,Djurgardens IF,364,0,3,True,1518
 1494262,2026-08-29T13:00:00+00:00,NS,Regular Season - 19,BK Hacken,367,Vasteras SK FK,2241,,,False,
 1494259,2026-08-29T13:00:00+00:00,NS,Regular Season - 19,IF Elfsborg,372,Degerfors IF,2172,,,False,
 1494263,2026-08-29T15:30:00+00:00,NS,Regular Season - 19,Halmstad,766,Kalmar FF,374,,,False,
