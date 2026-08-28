@@ -3,34 +3,40 @@
 
 ---
 
-## 0. IN PROGRESS — RECORD BADGES + #1 STREAK LINE
+## 0. RECORD BADGES + #1 STREAK LINE — LIVE
 
-**Status: designed and scripted, not yet merged into `update_site.py` / `index_base.html`.**
+**Status: merged into `update_site.py` and `index_base.html`, confirmed working on the live site.**
 
-Two changes are queued for the next time `index_base.html` or `update_site.py` gets touched:
+What shipped:
 
-1. **Bug fix (`index_base.html`):** `loadAllHistory()` fetches all-time chart data from a
-   hardcoded absolute URL (`https://matchdayinsights.github.io/MatchdayInsights/all_history.json`).
-   Change it to a relative fetch — `fetch('./all_history.json')` — so it isn't dependent on that
-   exact domain/repo path matching. See section 11 for details.
+1. **Bug fix (`index_base.html`):** `loadAllHistory()` now fetches `./all_history.json` (relative)
+   instead of a hardcoded absolute GitHub Pages URL, so the all-time charts aren't dependent on
+   one exact domain/repo path matching. See section 11 for the original symptom.
 
-2. **Enhancement — record badges on the main rankings table:**
-   - Small statement under the club name (fills the dead space next to the flag/code) when a
-     club is at an all-time-record rank or rating, e.g. "new career-high rank", "career-high
-     rank — 28 matchdays", "tied career-high rank — first since 5/21/2026".
-   - A green/red bordered box drawn around the rank number and/or rating number when that
-     specific stat is at its all-time record, following a matchday the club actually played.
+2. **Record badges on the main rankings table:**
+   - A small statement under the club name (fills the dead space next to the flag/code) when a
+     club is at an all-time-record rank or rating, e.g. "new all-time-high rank", "all-time-high
+     rank — 28 matchdays", "tied all-time-high rank — first since 5/21/2026". Rank and rating
+     statements each render on their **own line** (not joined with a separator) — joining them
+     caused long combinations to get clipped, so each stat now gets full width and wraps.
+   - A green/red bordered box around the rank number and/or rating number when that specific
+     stat is at its all-time record, following a matchday the club actually played.
    - A dedicated line for the #1 club only: "N matchdays at #1".
-   - Full logic, wording rules, and field definitions are in section 6 (new fields) and the new
-     section 8c below.
-   - `compute_records.py` (kept alongside `update_site.py` in the local folder) computes the
-     needed fields from `New_Historical_Rankings_Revamp.xlsx` — run it and merge its output into
-     the `CLUBS` array by club name, or fold its logic directly into `update_site.py` step 2/3.
-     Verified against the live workbook (2,513 clubs) — output confirmed correct for new-record,
-     continuing-streak, and tied-return cases.
+   - Full logic and field definitions are in section 6 (new fields) and section 8a.
+   - The four new fields (`rank_streak`, `rank_streak_since`, `rank_prev_since`, `top1_streak`)
+     are computed directly inside `update_site.py`'s per-club loop (right where `min_r` is
+     already calculated) — no separate script or merge step needed at runtime.
+     `compute_records.py` still lives in the local folder as the original standalone reference
+     implementation the logic was validated against, but isn't part of the live pipeline.
 
-**To resume this work in a new chat:** upload `index_base.html`, `update_site.py`, and
-`New_Historical_Rankings_Revamp.xlsx`, and say "Finish the record badge enhancement — see section 0."
+3. **Known upstream data issue (not a code bug):** the `Historical Rank` sheet's newest date
+   column can occasionally be non-sequential — missing rank slots partway through — which throws
+   off `all_time_high_rank`/`all_time_low_rank` (and therefore the badges) for clubs in the
+   affected range. Confirmed by comparing the `Rank` sheet (source of truth for current rank)
+   against `Historical Rank`'s newest column across the whole table: a clean 1..N sequence should
+   match exactly, gaps mean this has recurred. Worth a quick spot-check after each update if a
+   badge looks wrong — compare a club's current rank (`Rank` sheet, column `#`) against its
+   value in `Historical Rank`'s newest date column; they should be identical.
 
 ---
 
@@ -289,12 +295,12 @@ of this if the club actually played this matchday** — gate on `last_result` be
 (never show a badge on a bye week, even if the underlying flags are true).
 
 **Statement line** (goes under the club name, in the dead space next to flag/league code):
-- `rank_ath` true, `rank_streak === 1`, `rank_prev_since === null` → "new career-high rank"
-- `rank_ath` true, `rank_streak === 1`, `rank_prev_since` set → "tied career-high rank — first since `{rank_prev_since}`"
-- `rank_ath` true, `rank_streak > 1` → "career-high rank — `{rank_streak}` matchdays"
-- `rank_atl` true → same three variants, "career-low" wording, red instead of green
-- `elo_ath` true → "new rating high" (ratings are floats — no streak/tied language, just new-high/new-low)
-- `elo_atl` true → "new rating low"
+- `rank_ath` true, `rank_streak === 1`, `rank_prev_since === null` → "new all-time-high rank"
+- `rank_ath` true, `rank_streak === 1`, `rank_prev_since` set → "tied all-time-high rank — first since `{rank_prev_since}`"
+- `rank_ath` true, `rank_streak > 1` → "all-time-high rank — `{rank_streak}` matchdays"
+- `rank_atl` true → "new all-time-low rank" (no streak/tied variants for lows — kept simple)
+- `elo_ath` true → "new all-time-high rating" (ratings are floats — no streak/tied language, just new-high/new-low)
+- `elo_atl` true → "new all-time-low rating"
 - If a club hits both a rank record and a rating record the same matchday, show both indicators
   (box both the rank number and the rating number; statement line can show either or both,
   whichever reads cleaner — decide at build time).

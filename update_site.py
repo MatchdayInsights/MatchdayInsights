@@ -69,6 +69,23 @@ df_scores  = pd.read_excel(HISTORY_FILE, sheet_name='Historical Scores', header=
 df_hrank   = pd.read_excel(HISTORY_FILE, sheet_name='Historical Rank', header=0)
 df_records = pd.read_excel(HISTORY_FILE, sheet_name='Club Records ', header=0, usecols=range(8))
 
+# Normalize club-name whitespace at load time — worldfootball.net occasionally introduces
+# stray leading/trailing spaces on a club name in one sheet but not another (or not
+# consistently across sheets). If names aren't stripped identically everywhere before use
+# as lookup keys, a club's history becomes invisible to itself: all_time_high/low silently
+# resets to today's value, season stats vanish, milestone match-counts read as zero. Strip
+# every name-bearing column right here, once, so every later exact-string lookup matches
+# regardless of what formatting quirk was in the source file.
+def _strip_col(df, col):
+    df[col] = df[col].apply(lambda x: str(x).strip() if pd.notna(x) else x)
+
+_strip_col(df_rank, 'Club')
+_strip_col(df_matches, 'Team 1')
+_strip_col(df_matches, 'Team 2')
+_strip_col(df_scores, 'Club')
+_strip_col(df_hrank, 'Club')
+_strip_col(df_records, 'Club')
+
 # Date columns: newest first in spreadsheet → reverse to oldest first
 date_cols     = [c for c in df_scores.columns if re.match(r'\d+/\d+/\d+', str(c))]
 dates_ordered = list(reversed(date_cols))  # oldest → newest

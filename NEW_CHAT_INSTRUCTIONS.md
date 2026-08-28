@@ -165,6 +165,15 @@ Go to github.com → Settings → Developer settings → Personal access tokens 
 - Spreadsheet update → script picks up new name automatically
 - Old slug becomes dead link — acceptable, Google will recrawl
 - `all_history.json` needs manual fix: find old name key, rename to new name (find & replace in text editor)
+- **Whitespace quirks are now handled automatically** (fixed after a real incident — Olympique
+  Lyonnais got a worldfootball.net trailing space `'Olympique Lyonnais '` in the Rank sheet, but
+  the historical sheets' lookup wasn't matching it consistently, silently resetting their
+  all-time-high rank/rating to that day's value and firing false "new record" badges despite
+  the club having dropped 5 spots). `update_site.py` now strips every name-bearing column
+  (`Club` in Rank/Historical Scores/Historical Rank/Club Records, `Team 1`/`Team 2` in Matches)
+  right after loading, so a stray space in one sheet but not another can't break the
+  cross-sheet lookups anymore. No manual step needed for whitespace-only differences — only a
+  genuine name change (different words) still needs the `all_history.json` manual rename above.
 
 ---
 
@@ -399,7 +408,8 @@ GOLD_ACC  = '#c8a400'   # trophies
 | CLUBS out of rank order | `CLUBS.sort(key=lambda x: x['rank'])` after building array |
 | SA clubs not showing flag | Flags injected by update_site.py — re-run script if missing |
 | SA clubs not in country dropdown | Dropdown updated by update_site.py — re-run script if missing |
-| All-time chart showed "All-time data unavailable" | `loadAllHistory()` in index_base.html fetched a hardcoded absolute URL (`https://matchdayinsights.github.io/MatchdayInsights/all_history.json`) instead of a relative path — fragile if that exact domain/repo path doesn't match. Fix: `fetch('./all_history.json')`. **Not yet applied — see section 0.** |
+| All-time chart showed "All-time data unavailable" | `loadAllHistory()` in index_base.html fetched a hardcoded absolute URL (`https://matchdayinsights.github.io/MatchdayInsights/all_history.json`) instead of a relative path — fragile if that exact domain/repo path doesn't match. Fix: `fetch('./all_history.json')`. Applied, live. |
+| Club falsely showed "new all-time-high rank/rating" right after dropping in rank | A trailing/leading space on the club's name in one sheet but not another (e.g. worldfootball.net's `'Olympique Lyonnais '`) meant the stripped name used in `CLUBS` didn't match the unstripped key in the `history` dict — history lookup silently came back empty, so today's value became both the fake all-time high and low. Fix: strip every name-bearing column (`Club`, `Team 1`, `Team 2`) right after loading each sheet, before any lookups. See section 3c. |
 
 ---
 
