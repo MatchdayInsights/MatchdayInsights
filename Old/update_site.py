@@ -18,6 +18,8 @@ OUTPUT FILES (push these to GitHub):
 """
 
 import pandas as pd
+# SEO page generator (optional — only runs if generate_club_pages.py is present)
+_seo_gen = None  # loaded after SCRIPT_DIR is defined
 import numpy as np
 import json
 import re
@@ -35,6 +37,11 @@ except ImportError:
 
 # ── File paths ─────────────────────────────────────────────────────────────────
 SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
+try:
+    import sys as _sys; _sys.path.insert(0, SCRIPT_DIR)
+    from generate_club_pages import generate_all as _seo_gen
+except ImportError:
+    _seo_gen = None
 RANK_FILE     = os.path.join(SCRIPT_DIR, 'New_UEFA_Club_Ranking_Revamp_.xlsx')
 HISTORY_FILE  = os.path.join(SCRIPT_DIR, 'New_Historical_Rankings_Revamp.xlsx')
 BASE_HTML     = os.path.join(SCRIPT_DIR, 'index_base.html')
@@ -56,7 +63,6 @@ print("=" * 60)
 print("\n[1/5] Loading spreadsheet data...")
 
 df_rank    = pd.read_excel(RANK_FILE, sheet_name='Rank', header=0)
-df_lt      = pd.read_excel(RANK_FILE, sheet_name='League Tables', header=None)
 df_matches = pd.read_excel(RANK_FILE, sheet_name='Matches', header=0,
                 usecols=['Season','Type','Team 1 Level','Team 1','Team 2 Level','Team 2'])
 df_scores  = pd.read_excel(HISTORY_FILE, sheet_name='Historical Scores', header=0)
@@ -94,6 +100,32 @@ for club in all_clubs:
 all_history = {'dates': dates_ordered, 'history': history}
 print(f"    {len(dates_ordered)} dates, {len(history)} clubs")
 
+# Fix any dates where ALL clubs have None rank (missing rank sheet column)
+# Fill from the nearest non-None value to prevent chart gaps
+for date_idx in range(len(dates_ordered)):
+    none_ranks = sum(1 for d in history.values()
+                    if len(d['r']) > date_idx and d['r'][date_idx] is None)
+    total = sum(1 for d in history.values() if len(d['r']) > date_idx)
+    if total > 0 and none_ranks / total > 0.9:  # >90% None = missing column
+        filled = 0
+        for club, data in history.items():
+            r = data['r']
+            if len(r) > date_idx and r[date_idx] is None:
+                # Try next dates first, then previous
+                replacement = None
+                for j in range(date_idx + 1, min(date_idx + 4, len(r))):
+                    if r[j] is not None:
+                        replacement = r[j]; break
+                if replacement is None:
+                    for j in range(date_idx - 1, max(date_idx - 4, -1), -1):
+                        if r[j] is not None:
+                            replacement = r[j]; break
+                if replacement is not None:
+                    r[date_idx] = replacement
+                    filled += 1
+        if filled > 0:
+            print(f"    ⚠ Fixed missing rank column at {dates_ordered[date_idx]} ({filled} clubs filled)")
+
 # ═══════════════════════════════════════════════════════════════
 # STEP 3: BUILD CLUBS ARRAY
 # ═══════════════════════════════════════════════════════════════
@@ -117,6 +149,16 @@ for _, row in league_matches.iterrows():
                             (row['Team 2'], row['Team 2 Level'])]:
             if pd.notna(team) and pd.notna(level):
                 club_season_levels[str(team)][season].append(str(level))
+
+# Total match count per club (all competitions, all tracked seasons) —
+# used to hold off milestone alerts for clubs new to the dataset until
+# they've built up a real sample size.
+match_counts = Counter()
+for _, row in df_matches.iterrows():
+    if pd.notna(row.get('Team 1')):
+        match_counts[str(row['Team 1'])] += 1
+    if pd.notna(row.get('Team 2')):
+        match_counts[str(row['Team 2'])] += 1
 
 # Form column names
 result_cols = ['< Result'] + [f'<{i} Result' for i in range(2, 11)]
@@ -203,7 +245,7 @@ for _, row in df_rank.iterrows():
     else:
         elo_pct = 50.0
 
-    prev_rank = int(row['PR']) if pd.notna(row.get('PR')) else int(row['#'])
+    prev_rank = int(row['PR']) if pd.notna(row.get('PR')) and str(row.get('PR')).strip() != 'NR' else int(row['#'])
 
     CLUBS.append({
         'rank':       int(row['#']),
@@ -247,176 +289,76 @@ CLUBS.sort(key=lambda x: x['rank'])
 print(f"    Built {len(CLUBS)} clubs")
 
 # ═══════════════════════════════════════════════════════════════
-# STEP 4: BUILD LEAGUE TABLES
+# STEP 3b: MILESTONE DETECTION
 # ═══════════════════════════════════════════════════════════════
-print("\n[4/5] Building LEAGUE_TABLES...")
+print("\n[3b] Checking for milestones...")
 
-def ss(v): return str(v).strip() if pd.notna(v) else ''
-def si(v):
-    try:    return int(v) if pd.notna(v) else 0
-    except: return 0
+TODAY = dates_ordered[-1]
+RANK_THRESHOLDS = [1, 10, 25, 50, 100]
+MIN_MATCHES_FOR_MILESTONES = 20
+milestones = []
 
-def color_zone(t):
-    t = t.lower()
-    if 'champions league' in t: return '#1F4E79' if 'qualif' not in t else '#2E5FA3'
-    if 'europa league'    in t: return '#833C00' if 'qualif' not in t else '#A04000'
-    if 'conference'       in t:
-        if 'playoff' in t or 'play-off' in t: return '#4A235A'
-        return '#375623' if 'qualif' not in t else '#4A235A'
-    if 'relega' in t: return '#A0522D' if ('playoff' in t or 'play-off' in t) else '#7B2C2C'
-    if 'promot' in t: return '#2E5FA3' if ('playoff' in t or 'play-off' in t) else '#1F4E79'
-    return '#444444'
+for c in CLUBS:
+    club = c['club']
+    played = match_counts.get(club, 0)
 
-def parse_zones(cells, nt):
-    z, sp = {}, {}
-    for cell in cells:
-        for part in str(cell).split(','):
-            p = part.strip()
-            if not p: continue
-            m = re.match(r'Top\s+(\d+):\s*(.+)', p, re.I)
-            if m:
-                n, lbl = int(m.group(1)), m.group(2).strip()
-                for i in range(1, n+1): z[str(i)] = {'label': lbl, 'color': color_zone(lbl)}
-                continue
-            m = re.match(r'(\d+)[-–](\d+)(?:\w*):\s*(.+)', p, re.I)
-            if m:
-                lo, hi, lbl = int(m.group(1)), int(m.group(2)), m.group(3).strip()
-                for i in range(lo, hi+1): z[str(i)] = {'label': lbl, 'color': color_zone(lbl)}
-                continue
-            m = re.match(r'(\d+)(?:\w*):\s*(.+)', p, re.I)
-            if m:
-                z[str(int(m.group(1)))] = {'label': m.group(2).strip(), 'color': color_zone(m.group(2))}
-                continue
-            m = re.match(r'(?:Bottom|Last)\s+(\d+)\s*[:\s]+(.+)', p, re.I)
-            if m:
-                n, lbl = int(m.group(1)), m.group(2).strip().lstrip(':').strip()
-                for i in range(nt-n+1, nt+1): z[str(i)] = {'label': lbl, 'color': color_zone(lbl)}
-                continue
-            if ':' in p and not re.match(r'^\d', p) and not re.match(r'^(Top|Bottom|Last)', p, re.I):
-                cn, lbl = p.split(':', 1)
-                sp[cn.strip()] = {'label': lbl.strip(), 'color': color_zone(lbl)}
-    return z, sp
+    # A club's rank can shift purely because OTHER clubs moved — that's not
+    # a milestone for this club. Only flag when their own rating actually
+    # changed this update, which only happens if they played a match.
+    e_list = history.get(club, {'e': []})['e']
+    played_this_update = (
+        len(e_list) >= 2
+        and e_list[-1] is not None
+        and e_list[-2] is not None
+        and e_list[-1] != e_list[-2]
+    )
 
-def read_teams(nc, cc, rc, start_row):
-    teams = []
-    r = start_row + 4
-    while r < len(df_lt):
-        cv, rv = df_lt.iloc[r, cc], df_lt.iloc[r, rc]
-        if pd.isna(cv) or not ss(cv): break
-        try:   ri = int(rv)
-        except: break
-        if ri <= 0: break
-        teams.append({
-            'note': ss(df_lt.iloc[r, nc]), 'club': ss(cv), 'rank': ri,
-            'gp': si(df_lt.iloc[r,rc+1]), 'w': si(df_lt.iloc[r,rc+2]),
-            'd':  si(df_lt.iloc[r,rc+3]), 'l': si(df_lt.iloc[r,rc+4]),
-            'gf': si(df_lt.iloc[r,rc+5]), 'ga': si(df_lt.iloc[r,rc+6]),
-            'gd': si(df_lt.iloc[r,rc+7]), 'pts': si(df_lt.iloc[r,rc+8]),
-        })
-        r += 1
-    return teams, r
+    # Only flag genuine milestones — wait until a club has a real sample size,
+    # so newly-added clubs (e.g. a new confederation rollout) don't immediately
+    # trigger "all-time high" off a handful of matches.
+    if played >= MIN_MATCHES_FOR_MILESTONES and played_this_update:
+        if c['all_time_high_elo_date'] == TODAY:
+            milestones.append(f"  \u25B2 ALL-TIME HIGH RATING  — {club}: {c['all_time_high_elo']} (rank #{c['rank']})")
+        if c['all_time_low_elo_date'] == TODAY:
+            milestones.append(f"  \u25BC ALL-TIME LOW RATING   — {club}: {c['all_time_low_elo']} (rank #{c['rank']})")
+        if c['all_time_high_rank_date'] == TODAY:
+            milestones.append(f"  \u25B2 ALL-TIME HIGH RANK    — {club}: #{c['all_time_high_rank']}")
+        if c['all_time_low_rank_date'] == TODAY:
+            milestones.append(f"  \u25BC ALL-TIME LOW RANK     — {club}: #{c['all_time_low_rank']}")
 
-def read_block(nc, cc, rc):
-    results = {}
-    r = 0
-    while r < len(df_lt):
-        code_v = ss(df_lt.iloc[r, nc])
-        if not re.match(r'^[A-Z]{2,7}(_\d)?$', code_v):
-            r += 1; continue
-        code    = code_v
-        season  = ss(df_lt.iloc[r, cc])
-        tieb    = ss(df_lt.iloc[r+1, nc]) if r+1 < len(df_lt) else ''
-        zcells  = [ss(df_lt.iloc[r+2, c]) for c in range(nc, nc+14)
-                   if c < df_lt.shape[1] and ss(df_lt.iloc[r+2, c])]
-        teams, next_r = read_teams(nc, cc, rc, r)
-        if teams:
-            teams.sort(key=lambda x: x['rank'])
-            zones, specials = parse_zones(zcells, len(teams))
-            for t in teams:
-                if t['club'] in specials: t['special_zone'] = specials[t['club']]
-            results[code] = {'name': code, 'season': season, 'tiebreaker': tieb,
-                             'zones': zones, 'teams': teams}
-        r = next_r
-    return results
+    # Round-number rank threshold crossings (entering/leaving top N)
+    prev_rank, rank = c['prev_rank'], c['rank']
+    if played >= MIN_MATCHES_FOR_MILESTONES and played_this_update and prev_rank != rank:
+        for t in RANK_THRESHOLDS:
+            if prev_rank > t and rank <= t:
+                milestones.append(f"  \u2605 ENTERED TOP {t:<4}     — {club}: #{prev_rank} \u2192 #{rank}")
+            elif prev_rank <= t and rank > t:
+                milestones.append(f"  \u2606 DROPPED OUT OF TOP {t:<4} — {club}: #{prev_rank} \u2192 #{rank}")
 
-# Build regular leagues
-LEAGUE_TABLES = {}
-for block in cfg.LEAGUE_BLOCKS:
-    nc, cc, rc = block
-    result = read_block(nc, cc, rc)
-    LEAGUE_TABLES.update(result)
+if milestones:
+    print(f"    {len(milestones)} milestone(s) this update:")
+    for m in milestones:
+        print(m)
+else:
+    print("    No milestones this update.")
 
-# Build playoff leagues
-for code, pcfg in cfg.PLAYOFF_LEAGUES.items():
-    all_teams = []
-    groups_out = {}
-    for i, grp in enumerate(pcfg['groups']):
-        teams, _ = read_teams(grp['note_col'], grp['club_col'], grp['rank_col'], grp['start_row'])
-        zr = grp['zone_row']
-        zcells = [ss(df_lt.iloc[zr, c]) for c in range(grp['note_col']-1, grp['note_col']+14)
-                  if c < df_lt.shape[1] and ss(df_lt.iloc[zr, c])]
-        zones, _ = parse_zones(zcells, len(teams))
-        # Fix note leak
-        for t in teams:
-            if t.get('note') == t['club']: t['note'] = ''
-        groups_out[pcfg['group_keys'][i]] = {
-            'name': grp['name'], 'zones': zones,
-            'teams': sorted(teams, key=lambda x: x['rank'])
-        }
-        all_teams.extend(teams)
-
-    all_teams.sort(key=lambda x: x['rank'])
-    tieb_row = pcfg['tiebreaker_row']
-    tieb_col = pcfg['tiebreaker_col']
-    tieb = ss(df_lt.iloc[tieb_row, tieb_col]) if tieb_row < len(df_lt) else ''
-
-    club_group = {}
-    for gkey, grp_data in groups_out.items():
-        for t in grp_data['teams']:
-            club_group[t['club']] = gkey
-
-    LEAGUE_TABLES[code] = {
-        'name': pcfg['full_name'], 'season': '2025-26',
-        'tiebreaker': tieb, 'playoff_format': True,
-        'club_group': club_group,
-        'teams': all_teams,
-        'zones': groups_out[pcfg['group_keys'][0]]['zones'],
-        'groups': groups_out,
-    }
-
-# Apply zone overrides from config
-for code, overrides in cfg.ZONE_OVERRIDES.items():
-    if code in LEAGUE_TABLES:
-        for rank_str, (label, color) in overrides.items():
-            LEAGUE_TABLES[code]['zones'][rank_str] = {'label': label, 'color': color}
-
-# Apply manual notes from config
-for code, notes in cfg.MANUAL_NOTES.items():
-    league = LEAGUE_TABLES.get(code)
-    if not league: continue
-    for t in league.get('teams', []):
-        if t['club'] in notes: t['note'] = notes[t['club']]
-    for grp in league.get('groups', {}).values():
-        for t in grp.get('teams', []):
-            if t['club'] in notes: t['note'] = notes[t['club']]
-
-# Add eur_rank + elo to all teams
-club_lookup = {c['club']: {'rank': c['rank'], 'elo': c['elo']} for c in CLUBS}
-for league in LEAGUE_TABLES.values():
-    for t in league.get('teams', []):
-        info = club_lookup.get(t['club'])
-        if info: t['eur_rank'] = info['rank']; t['elo'] = round(info['elo'], 1)
-    for grp in league.get('groups', {}).values():
-        for t in grp.get('teams', []):
-            info = club_lookup.get(t['club'])
-            if info: t['eur_rank'] = info['rank']; t['elo'] = round(info['elo'], 1)
-
-print(f"    Built {len(LEAGUE_TABLES)} league tables: {sorted(LEAGUE_TABLES.keys())}")
+# Append to a running log so milestones aren't lost once the console scrolls
+try:
+    log_path = os.path.join(SCRIPT_DIR, 'milestones_log.txt')
+    with open(log_path, 'a', encoding='utf-8') as f:
+        f.write(f"\n=== {TODAY} ===\n")
+        if milestones:
+            for m in milestones:
+                f.write(m.strip() + '\n')
+        else:
+            f.write("  (no milestones)\n")
+except Exception as e:
+    print(f"    WARNING: Could not write milestones_log.txt — {e}")
 
 # ═══════════════════════════════════════════════════════════════
-# STEP 5: INJECT INTO index_base.html AND SAVE
+# STEP 4: INJECT INTO index_base.html AND SAVE
 # ═══════════════════════════════════════════════════════════════
-print("\n[5/5] Injecting data and saving...")
+print("\n[4/5] Injecting data and saving...")
 
 with open(BASE_HTML, encoding='utf-8') as f:
     html = f.read()
@@ -449,7 +391,6 @@ CHART_DATES_60  = dates_ordered[-60:]
 CHART_DATES_200 = dates_ordered[-200:]
 
 html = replace_const(html, 'CLUBS',          CLUBS)
-html = replace_const(html, 'LEAGUE_TABLES',  LEAGUE_TABLES)
 html = replace_const(html, 'CHART_DATES_60', CHART_DATES_60)
 html = replace_const(html, 'CHART_DATES_200',CHART_DATES_200)
 
@@ -462,12 +403,63 @@ today = datetime.now().strftime('%B %-d, %Y') if sys.platform != 'win32' else da
 for pattern in [r'Updated \w+ \d+, \d{4}']:
     html = re.sub(pattern, f'Updated {today}', html)
 
+
+# ── South American flags (injected if missing) ────────────────────────────────
+SA_FLAGS = {
+    'ARG': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#74ACDF"/><rect y="4.67" width="20" height="4.67" fill="#fff"/><rect y="9.33" width="20" height="4.67" fill="#74ACDF"/></svg>',
+    'BOL': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#D52B1E"/><rect y="4.67" width="20" height="4.67" fill="#F9E300"/><rect y="9.33" width="20" height="4.67" fill="#007A3D"/></svg>',
+    'BRA': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#009C3B"/><polygon points="10,1.5 18.5,7 10,12.5 1.5,7" fill="#FFDF00"/><circle cx="10" cy="7" r="3" fill="#002776"/></svg>',
+    'CHI': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="7" fill="#fff"/><rect y="7" width="20" height="7" fill="#D52B1E"/><rect width="7" height="7" fill="#0032A0"/></svg>',
+    'COL': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="7" fill="#FCD116"/><rect y="7" width="20" height="3.5" fill="#003087"/><rect y="10.5" width="20" height="3.5" fill="#CE1126"/></svg>',
+    'ECU': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="5.6" fill="#FFD100"/><rect y="5.6" width="20" height="2.8" fill="#003087"/><rect y="8.4" width="20" height="5.6" fill="#CE1126"/></svg>',
+    'PAR': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#D52B1E"/><rect y="4.67" width="20" height="4.67" fill="#fff"/><rect y="9.33" width="20" height="4.67" fill="#0038A8"/></svg>',
+    'PER': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="6.67" height="14" fill="#D91023"/><rect x="6.67" width="6.67" height="14" fill="#fff"/><rect x="13.33" width="6.67" height="14" fill="#D91023"/></svg>',
+    'URU': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="14" fill="#fff"/><rect y="2.33" width="20" height="1.56" fill="#75AADB"/><rect y="4.67" width="20" height="1.56" fill="#75AADB"/><rect y="7.0" width="20" height="1.56" fill="#75AADB"/><rect y="9.33" width="20" height="1.56" fill="#75AADB"/><rect y="11.67" width="20" height="1.56" fill="#75AADB"/><rect width="7" height="7" fill="#fff"/><circle cx="3.5" cy="3.5" r="1.2" fill="#F6B40E"/></svg>',
+    'VEN': '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14"><rect width="20" height="4.67" fill="#FFD700"/><rect y="4.67" width="20" height="4.67" fill="#003087"/><rect y="9.33" width="20" height="4.67" fill="#CF142B"/></svg>',
+}
+CONMEBOL_CODES = ['ARG', 'BOL', 'BRA', 'CHI', 'COL', 'ECU', 'PAR', 'PER', 'URU', 'VEN']
+
 # Add Luxembourg flag if missing
 if 'LUX:`' not in html:
     lux_entry = f"  LUX:`{cfg.LUX_FLAG_SVG}`,"
     lva_pos = html.find("  LVA:`", html.find('SVG_FLAGS={'))
     if lva_pos > 0:
         html = html[:lva_pos] + lux_entry + '\n' + html[lva_pos:]
+
+# Add South American flags if missing
+flags_start = html.find('SVG_FLAGS={')
+flags_end   = html.find('};', flags_start) + 1
+for code, svg in SA_FLAGS.items():
+    if f'{code}:`' not in html[flags_start:flags_end]:
+        html = html[:flags_end-1] + f'\n  {code}:`{svg}`,' + '\n' + html[flags_end-1:]
+        flags_end = html.find('};', flags_start) + 1  # recalculate after insertion
+
+# Add CONMEBOL countries to dropdown if missing
+country_sel_start = html.find('id="filter-country"')
+country_sel_end   = html.find('</select>', country_sel_start) + len('</select>')
+for code in sorted(CONMEBOL_CODES):
+    if f'value="{code}"' not in html[country_sel_start:country_sel_end]:
+        insert_pos = html.find('</select>', country_sel_start)
+        html = html[:insert_pos] + f'<option value="{code}">{code}</option>\n' + html[insert_pos:]
+        country_sel_end = html.find('</select>', country_sel_start) + len('</select>')
+
+# Add confederation dropdown if missing
+if 'filter-confederation' not in html:
+    conf_select = '<select class="filter-select" id="filter-confederation"><option value="">All Confederations</option><option value="UEFA">UEFA (Europe)</option><option value="CONMEBOL">CONMEBOL (South America)</option></select>'
+    conf_consts = '\nconst CONMEBOL_COUNTRIES=[\'ARG\',\'BOL\',\'BRA\',\'CHI\',\'COL\',\'ECU\',\'PAR\',\'PER\',\'URU\',\'VEN\'];\nconst UEFA_COUNTRIES=[\'ALB\',\'AND\',\'ARM\',\'AUT\',\'AZE\',\'BEL\',\'BIH\',\'BLR\',\'BUL\',\'CRO\',\'CYP\',\'CZE\',\'DEN\',\'ENG\',\'ESP\',\'EST\',\'FIN\',\'FRA\',\'FRO\',\'GBR\',\'GEO\',\'GER\',\'GRE\',\'HUN\',\'IRL\',\'ISL\',\'ISR\',\'ITA\',\'KAZ\',\'KOS\',\'LTU\',\'LUX\',\'LVA\',\'MKD\',\'MLD\',\'MLT\',\'MNE\',\'NED\',\'NIR\',\'NOR\',\'POL\',\'POR\',\'ROU\',\'RUS\',\'SCO\',\'SMR\',\'SRB\',\'SUI\',\'SVK\',\'SVN\',\'SWE\',\'TUR\',\'UKR\',\'WAL\'];\n'
+    # Insert dropdown after country select
+    c_sel_end = html.find('</select>', html.find('id="filter-country"')) + len('</select>')
+    html = html[:c_sel_end] + '\n    ' + conf_select + html[c_sel_end:]
+    # Insert JS constants before applyFilters
+    apply_idx = html.rfind('function applyFilters()')
+    html = html[:apply_idx] + conf_consts + html[apply_idx:]
+    # Update filter logic
+    html = html.replace("const country=document.getElementById('filter-country').value;",
+        "const country=document.getElementById('filter-country').value;\n  const confederation=document.getElementById('filter-confederation').value;", 1)
+    html = html.replace("if(country&&c.country!==country)return false;",
+        "if(country&&c.country!==country)return false;\n    if(confederation==='CONMEBOL'&&!CONMEBOL_COUNTRIES.includes(c.country))return false;\n    if(confederation==='UEFA'&&!UEFA_COUNTRIES.includes(c.country))return false;", 1)
+    html = html.replace("['search','filter-country','filter-range','filter-result']",
+        "['search','filter-country','filter-confederation','filter-range','filter-result']", 1)
 
 # Save outputs
 with open(OUT_HTML, 'w', encoding='utf-8') as f:
@@ -482,22 +474,39 @@ print(f"    Saved: all_history.json ({os.path.getsize(OUT_HISTORY)/1024/1024:.1f
 # ═══════════════════════════════════════════════════════════════
 # DONE
 # ═══════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
+# STEP 6 (OPTIONAL): GENERATE SEO CLUB PAGES
+# ═══════════════════════════════════════════════════════════════
+SEO_GEN = os.path.join(SCRIPT_DIR, 'generate_club_pages.py')
+if os.path.exists(SEO_GEN) and _seo_gen:
+    print("\n[6/6] Generating SEO club pages...")
+    try:
+        _seo_gen(
+            CLUBS,
+            output_dir=os.path.join(SCRIPT_DIR, 'clubs'),
+            site_base_url='https://matchdayinsights.github.io/MatchdayInsights',
+            verbose=True
+        )
+    except Exception as e:
+        print(f"    WARNING: SEO generation failed — {e}")
+else:
+    print("\n[6/6] generate_club_pages.py not found — skipping SEO pages")
+
 print("\n" + "=" * 60)
 print("✓ UPDATE COMPLETE")
 print(f"  Clubs:   {len(CLUBS)}")
-print(f"  Leagues: {len(LEAGUE_TABLES)}")
 print(f"  Dates:   {len(dates_ordered)} ({dates_ordered[0]} → {dates_ordered[-1]})")
 print("=" * 60)
 print("\nNext step: push index.html and all_history.json to GitHub.")
 
 
 # ═══════════════════════════════════════════════════════════════
-# STEP 6: REGENERATE H2H GENERATOR (runs automatically if file exists)
+# STEP 5: REGENERATE H2H GENERATOR (runs automatically if file exists)
 # ═══════════════════════════════════════════════════════════════
 H2H_FILE = os.path.join(SCRIPT_DIR, 'h2h_generator.html')
 
 if os.path.exists(H2H_FILE):
-    print("\n[6/6] Regenerating h2h_generator.html...")
+    print("\n[5/5] Regenerating h2h_generator.html...")
     try:
         with open(H2H_FILE, encoding='utf-8') as f:
             h2h = f.read()
@@ -582,4 +591,4 @@ if os.path.exists(H2H_FILE):
         print(f"    WARNING: Could not update h2h_generator.html — {e}")
         print("    The file may need to be regenerated manually from Claude.")
 else:
-    print("\n[6/6] h2h_generator.html not in folder — skipping (place it here to auto-update)")
+    print("\n[5/5] h2h_generator.html not in folder — skipping (place it here to auto-update)")

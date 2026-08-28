@@ -107,15 +107,6 @@ td{padding:10px 14px;vertical-align:middle}
 .club-name-text{font-size:14px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
 .top3 .club-name-text{color:#eef2ee}
 .club-code{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text2);white-space:nowrap;margin-top:2px}
-.rec-note{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.3px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
-.rec-note.hi{color:var(--green)}
-.rec-note.lo{color:var(--red)}
-.top1-streak{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--gold);margin-top:2px;letter-spacing:0.3px}
-.rec-box{display:inline-block;border-radius:5px;padding:1px 7px}
-.rec-box.hi{border:1.5px solid var(--green);background:rgba(61,186,94,0.08)}
-.rec-box.lo{border:1.5px solid var(--red);background:rgba(232,68,102,0.08)}
-.rec-box.hi .elo-number,.rec-box.hi .td-rank-num{color:var(--green)}
-.rec-box.lo .elo-number,.rec-box.lo .td-rank-num{color:var(--red)}
 .td-result{width:110px}
 .result-cell{display:flex;align-items:center;gap:6px}
 .result-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;width:16px;height:16px;border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -673,8 +664,7 @@ async function loadAllHistory() {
   }
   _allHistoryLoading = true;
   try {
-    const r = await fetch('./all_history.json');
-    if(!r.ok) throw new Error('HTTP ' + r.status + ' fetching all_history.json');
+    const r = await fetch('https://matchdayinsights.github.io/MatchdayInsights/all_history.json');
     const d = await r.json();
     ALL_HISTORY = d.history;
     ALL_DATES_FULL = d.dates;
@@ -970,43 +960,6 @@ function renderMyClubsStrip(){
   }).join('');
   strip.innerHTML='<div class="my-clubs-label">&#x2605; My Clubs</div>'+cards;
 }
-function getRecordInfo(c){
-  const info={rankBox:null,eloBox:null,statement:'',top1Line:null};
-  const played=!!(c.last_result && c.last_result!=='');
-  if(!played) return info;
-  const rankStreak=c.rank_streak||0;
-  const rankAth=c.rank===c.all_time_high_rank;
-  const rankAtl=c.rank===c.all_time_low_rank;
-  const eloAth=c.elo===c.all_time_high_elo;
-  const eloAtl=c.elo===c.all_time_low_elo;
-
-  if(c.rank===1 && (c.top1_streak||0)>0){
-    const n=c.top1_streak;
-    info.top1Line = n+' matchday'+(n===1?'':'s')+' at #1';
-  }
-
-  const parts=[];
-  if(rankAth){
-    info.rankBox='hi';
-    if(rankStreak<=1){
-      parts.push(c.rank_prev_since ? ('tied career-high rank — first since '+c.rank_prev_since) : 'new career-high rank');
-    } else {
-      parts.push('career-high rank — '+rankStreak+' matchdays');
-    }
-  } else if(rankAtl){
-    info.rankBox='lo';
-    parts.push('new career-low rank');
-  }
-  if(eloAth){
-    info.eloBox='hi';
-    parts.push('new rating high');
-  } else if(eloAtl){
-    info.eloBox='lo';
-    parts.push('new rating low');
-  }
-  info.statement = parts.join(' · ');
-  return info;
-}
 function renderTable(){
   const tbody=document.getElementById('table-body');
   const start=(currentPage-1)*PAGE_SIZE,page=filtered.slice(start,start+PAGE_SIZE);
@@ -1035,14 +988,7 @@ function renderTable(){
       ?`<div style="font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;color:var(--green)">#${countryRankMap[c.rank]}</div><div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted)">#${c.rank} EUR</div>`
       :`${c.rank}`;
 
-    const rec=getRecordInfo(c);
-    const rankHtml=rec.rankBox?`<span class="rec-box ${rec.rankBox}">${rankDisplay}</span>`:rankDisplay;
-    const eloHtml=rec.eloBox?`<span class="rec-box ${rec.eloBox}"><span class="elo-number">${c.elo.toFixed(1)}</span></span>`:`<span class="elo-number">${c.elo.toFixed(1)}</span>`;
-    let noteHtml='';
-    if(rec.top1Line) noteHtml+=`<div class="top1-streak">&#9670; ${rec.top1Line}</div>`;
-    if(rec.statement) noteHtml+=`<div class="rec-note ${rec.rankBox==='lo'||rec.eloBox==='lo'?'lo':'hi'}">${rec.statement}</div>`;
-
-    return `<tr class="${rc}${isSel?' compare-selected':''}" onclick="${clickFn}">${starCell}<td class="td-rank">${rankHtml}</td><td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell">${flagHtml(c.country)}<div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code}</div>${noteHtml}</div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell">${eloHtml}<div class="elo-bar"><div class="elo-bar-fill" style="width:${c.elo_pct}%"></div></div></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
+    return `<tr class="${rc}${isSel?' compare-selected':''}" onclick="${clickFn}">${starCell}<td class="td-rank">${rankDisplay}</td><td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell">${flagHtml(c.country)}<div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code}</div></div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell"><span class="elo-number">${c.elo.toFixed(1)}</span><div class="elo-bar"><div class="elo-bar-fill" style="width:${c.elo_pct}%"></div></div></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
   }).join('');
   const s=filtered.length===0?0:start+1,e=Math.min(currentPage*PAGE_SIZE,filtered.length);
   document.getElementById('results-info').innerHTML=`Showing <strong>${s}&ndash;${e}</strong> of <strong>${filtered.length.toLocaleString()}</strong>`;

@@ -219,6 +219,27 @@ for _, row in df_rank.iterrows():
         min_r = max_r = int(row['#'])
         ath_rank_date = atl_rank_date = dates_ordered[-1]
 
+    # Career-high rank streak — how many consecutive most-recent matchdays the
+    # club has held its own all-time-best rank (min_r), the date that current
+    # run began, and (if they've been at min_r before) the date they last held
+    # it prior to this run. Only computed when currently AT the best rank.
+    rank_streak = 0
+    rank_streak_since = None
+    rank_prev_since = None
+    if r_list and r_list[-1] is not None and r_list[-1] == min_r:
+        idx = len(r_list) - 1
+        while idx >= 0 and r_list[idx] == min_r:
+            idx -= 1
+        rank_streak = (len(r_list) - 1) - idx
+        rank_streak_since = dates_ordered[idx + 1]
+        j = idx
+        while j >= 0 and r_list[j] != min_r:
+            j -= 1
+        if j >= 0:
+            rank_prev_since = dates_ordered[j]
+    # Being #1 is just the min_r==1 case of the same streak, so it falls out for free.
+    top1_streak = rank_streak if (r_list and r_list[-1] == 1) else 0
+
     tier_counts  = [sum(1 for v in r_list if v is not None and v <= t) for t in cfg.TIER_THRESHOLDS]
     elo_history  = e_list[-200:]
     rank_history = r_list[-200:]
@@ -282,6 +303,10 @@ for _, row in df_rank.iterrows():
         'tier_counts':    tier_counts,
         'season_pct':     sp,
         'season_league':  sl,
+        'rank_streak':        rank_streak,
+        'rank_streak_since':  rank_streak_since,
+        'rank_prev_since':    rank_prev_since,
+        'top1_streak':        top1_streak,
     })
 
 # Ensure clubs are sorted by rank regardless of spreadsheet order
