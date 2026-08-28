@@ -107,7 +107,7 @@ td{padding:10px 14px;vertical-align:middle}
 .club-name-text{font-size:14px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
 .top3 .club-name-text{color:#eef2ee}
 .club-code{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text2);white-space:nowrap;margin-top:2px}
-.rec-note{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.3px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.rec-note{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.3px;margin-top:2px;white-space:normal;line-height:1.4;max-width:340px}
 .rec-note.hi{color:var(--green)}
 .rec-note.lo{color:var(--red)}
 .top1-streak{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--gold);margin-top:2px;letter-spacing:0.3px}
@@ -971,7 +971,7 @@ function renderMyClubsStrip(){
   strip.innerHTML='<div class="my-clubs-label">&#x2605; My Clubs</div>'+cards;
 }
 function getRecordInfo(c){
-  const info={rankBox:null,eloBox:null,statement:'',top1Line:null};
+  const info={rankBox:null,eloBox:null,lines:[],top1Line:null};
   const played=!!(c.last_result && c.last_result!=='');
   if(!played) return info;
   const rankStreak=c.rank_streak||0;
@@ -985,26 +985,24 @@ function getRecordInfo(c){
     info.top1Line = n+' matchday'+(n===1?'':'s')+' at #1';
   }
 
-  const parts=[];
   if(rankAth){
     info.rankBox='hi';
     if(rankStreak<=1){
-      parts.push(c.rank_prev_since ? ('tied career-high rank — first since '+c.rank_prev_since) : 'new career-high rank');
+      info.lines.push({tone:'hi',text:c.rank_prev_since ? ('tied all-time-high rank — first since '+c.rank_prev_since) : 'new all-time-high rank'});
     } else {
-      parts.push('career-high rank — '+rankStreak+' matchdays');
+      info.lines.push({tone:'hi',text:'all-time-high rank — '+rankStreak+' matchdays'});
     }
   } else if(rankAtl){
     info.rankBox='lo';
-    parts.push('new career-low rank');
+    info.lines.push({tone:'lo',text:'new all-time-low rank'});
   }
   if(eloAth){
     info.eloBox='hi';
-    parts.push('new rating high');
+    info.lines.push({tone:'hi',text:'new all-time-high rating'});
   } else if(eloAtl){
     info.eloBox='lo';
-    parts.push('new rating low');
+    info.lines.push({tone:'lo',text:'new all-time-low rating'});
   }
-  info.statement = parts.join(' · ');
   return info;
 }
 function renderTable(){
@@ -1040,7 +1038,7 @@ function renderTable(){
     const eloHtml=rec.eloBox?`<span class="rec-box ${rec.eloBox}"><span class="elo-number">${c.elo.toFixed(1)}</span></span>`:`<span class="elo-number">${c.elo.toFixed(1)}</span>`;
     let noteHtml='';
     if(rec.top1Line) noteHtml+=`<div class="top1-streak">&#9670; ${rec.top1Line}</div>`;
-    if(rec.statement) noteHtml+=`<div class="rec-note ${rec.rankBox==='lo'||rec.eloBox==='lo'?'lo':'hi'}">${rec.statement}</div>`;
+    rec.lines.forEach(l=>{noteHtml+=`<div class="rec-note ${l.tone}">${l.text}</div>`;});
 
     return `<tr class="${rc}${isSel?' compare-selected':''}" onclick="${clickFn}">${starCell}<td class="td-rank">${rankHtml}</td><td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell">${flagHtml(c.country)}<div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code}</div>${noteHtml}</div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell">${eloHtml}<div class="elo-bar"><div class="elo-bar-fill" style="width:${c.elo_pct}%"></div></div></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
   }).join('');
