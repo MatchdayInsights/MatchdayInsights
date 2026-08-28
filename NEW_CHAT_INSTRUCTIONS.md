@@ -3,6 +3,37 @@
 
 ---
 
+## 0. IN PROGRESS — RECORD BADGES + #1 STREAK LINE
+
+**Status: designed and scripted, not yet merged into `update_site.py` / `index_base.html`.**
+
+Two changes are queued for the next time `index_base.html` or `update_site.py` gets touched:
+
+1. **Bug fix (`index_base.html`):** `loadAllHistory()` fetches all-time chart data from a
+   hardcoded absolute URL (`https://matchdayinsights.github.io/MatchdayInsights/all_history.json`).
+   Change it to a relative fetch — `fetch('./all_history.json')` — so it isn't dependent on that
+   exact domain/repo path matching. See section 11 for details.
+
+2. **Enhancement — record badges on the main rankings table:**
+   - Small statement under the club name (fills the dead space next to the flag/code) when a
+     club is at an all-time-record rank or rating, e.g. "new career-high rank", "career-high
+     rank — 28 matchdays", "tied career-high rank — first since 5/21/2026".
+   - A green/red bordered box drawn around the rank number and/or rating number when that
+     specific stat is at its all-time record, following a matchday the club actually played.
+   - A dedicated line for the #1 club only: "N matchdays at #1".
+   - Full logic, wording rules, and field definitions are in section 6 (new fields) and the new
+     section 8c below.
+   - `compute_records.py` (kept alongside `update_site.py` in the local folder) computes the
+     needed fields from `New_Historical_Rankings_Revamp.xlsx` — run it and merge its output into
+     the `CLUBS` array by club name, or fold its logic directly into `update_site.py` step 2/3.
+     Verified against the live workbook (2,513 clubs) — output confirmed correct for new-record,
+     continuing-streak, and tied-return cases.
+
+**To resume this work in a new chat:** upload `index_base.html`, `update_site.py`, and
+`New_Historical_Rankings_Revamp.xlsx`, and say "Finish the record badge enhancement — see section 0."
+
+---
+
 ## 1. PROJECT OVERVIEW
 
 **Site:** matchdayinsights.com  
@@ -44,15 +75,20 @@ Greg runs updates himself locally. No Claude session needed for routine updates.
 - `.gitignore` — tells Git to ignore xlsx files and other large/unnecessary files
 - `New_UEFA_Club_Ranking_Revamp_.xlsx` — rankings data (replaced each update, NOT pushed to GitHub)
 - `New_Historical_Rankings_Revamp.xlsx` — history data (replaced each update, NOT pushed to GitHub)
+- `compute_records.py` — precompute script for record badges / #1 streak (see section 0). Reads
+  `New_Historical_Rankings_Revamp.xlsx` directly; not yet folded into `update_site.py`.
 
-**To run:**
+**To run (Command Prompt — `%date%` auto-fills today's date, safe to paste as-is every time):**
 ```
 cd "C:\Users\Greg\Matchday Insights"
 python update_site.py
 git add -A
-git commit -m "Update [date]"
+git commit -m "Update %date%"
 git push origin master
 ```
+Note: `[date]` in older versions of this doc was a placeholder to type manually, not a variable —
+pasting it literally committed as "Update [date]" every time. `%date%` fixes that for cmd.exe.
+If using PowerShell instead, use `git commit -m "Update $(Get-Date -Format 'MM/dd/yyyy')"`.
 
 **Output:** `index.html`, `all_history.json`, and `clubs/` folder all pushed to GitHub in one step.
 
@@ -83,12 +119,12 @@ git remote add origin https://github.com/MatchdayInsights/MatchdayInsights.git
 git pull origin main
 ```
 
-**Every Monday/Thursday update (4 commands):**
+**Every Monday/Thursday update (4 commands, Command Prompt — safe to paste verbatim):**
 ```
 cd "C:\Users\Greg\Matchday Insights"
 python update_site.py
 git add -A
-git commit -m "Update [date]"
+git commit -m "Update %date%"
 git push origin master
 ```
 
@@ -192,6 +228,16 @@ CLUBS.sort(key=lambda x: x['rank'])
   tier_counts,    // 9 ints matching TIER_THRESHOLDS
   season_pct,     // from Club Records sheet × 100
   season_league,  // from Matches sheet
+
+  // PENDING — not yet added to update_site.py, see section 0 / 8c:
+  rank_ath, rank_atl,              // bool — current rank == all_time_high_rank / all_time_low_rank
+  rank_streak,                     // int — consecutive matchdays currently at rank_ath (0 if not rank_ath)
+  rank_streak_since,               // date string — when the current streak began
+  rank_prev_since,                 // date string or null — last time at that rank before this
+                                    // streak began (null if this is the club's first time ever there)
+  elo_ath, elo_atl,                // bool — current elo == all_time_high_elo / all_time_low_elo
+                                    // (float tolerance ~1e-6, since exact ties are rare)
+  top1_streak,                     // int — consecutive matchdays at rank #1 (0 if not currently #1)
 }
 ```
 
@@ -233,6 +279,32 @@ These are already built — never remove or rebuild:
 
 **Removed features (do not try to re-add without careful planning):**
 - League tables — removed July 2026 (too much maintenance overhead)
+
+---
+
+## 8a. RECORD BADGES + #1 STREAK LINE (pending — see section 0)
+
+Renders on the main rankings table, driven by the fields added in section 6. **Only render any
+of this if the club actually played this matchday** — gate on `last_result` being non-empty
+(never show a badge on a bye week, even if the underlying flags are true).
+
+**Statement line** (goes under the club name, in the dead space next to flag/league code):
+- `rank_ath` true, `rank_streak === 1`, `rank_prev_since === null` → "new career-high rank"
+- `rank_ath` true, `rank_streak === 1`, `rank_prev_since` set → "tied career-high rank — first since `{rank_prev_since}`"
+- `rank_ath` true, `rank_streak > 1` → "career-high rank — `{rank_streak}` matchdays"
+- `rank_atl` true → same three variants, "career-low" wording, red instead of green
+- `elo_ath` true → "new rating high" (ratings are floats — no streak/tied language, just new-high/new-low)
+- `elo_atl` true → "new rating low"
+- If a club hits both a rank record and a rating record the same matchday, show both indicators
+  (box both the rank number and the rating number; statement line can show either or both,
+  whichever reads cleaner — decide at build time).
+
+**Colored box**: green (rank_ath/elo_ath) or red (rank_atl/elo_atl) border + faint background
+drawn directly around the specific number that hit the record — the rank number cell for a rank
+record, the rating number cell for a rating record.
+
+**#1 streak line**: for the club currently ranked #1 only, a separate line (don't conflate with
+the general statement above) reading "`{top1_streak}` matchdays at #1".
 
 ---
 
@@ -321,10 +393,18 @@ GOLD_ACC  = '#c8a400'   # trophies
 | CLUBS out of rank order | `CLUBS.sort(key=lambda x: x['rank'])` after building array |
 | SA clubs not showing flag | Flags injected by update_site.py — re-run script if missing |
 | SA clubs not in country dropdown | Dropdown updated by update_site.py — re-run script if missing |
+| All-time chart showed "All-time data unavailable" | `loadAllHistory()` in index_base.html fetched a hardcoded absolute URL (`https://matchdayinsights.github.io/MatchdayInsights/all_history.json`) instead of a relative path — fragile if that exact domain/repo path doesn't match. Fix: `fetch('./all_history.json')`. **Not yet applied — see section 0.** |
 
 ---
 
 ## 12. SESSION STARTERS
+
+**Resume record badge / #1 streak enhancement (see section 0):**
+```
+Read NEW_CHAT_INSTRUCTIONS.md first.
+Upload: index_base.html, update_site.py, New_Historical_Rankings_Revamp.xlsx
+Say: "Finish the record badge enhancement — see section 0."
+```
 
 **Site update (use Claude only if local script fails):**
 ```

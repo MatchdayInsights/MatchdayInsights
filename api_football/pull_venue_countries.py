@@ -17,7 +17,7 @@ refresh cadence.
 
 SETUP:
   1. pip install requests
-  2. export API_FOOTBALL_KEY="ff088abc91c859625de9b4d1aee11136"
+  2. export API_FOOTBALL_KEY="your-key-here"
   3. Run from the same folder as data/fixtures/ and country_code_mapping.json
      (creates venue_country_overrides.json if it doesn't exist).
   4. Run: python pull_venue_countries.py
@@ -58,7 +58,13 @@ def find_all_venue_ids() -> set:
             reader = csv.DictReader(f)
             for row in reader:
                 vid = row.get("venue_id")
-                if vid:
+                # "0" is the placeholder your pull scripts write when a
+                # fixture had no real venue data - not a real venue_id,
+                # and the API-Football /venues endpoint always errors on
+                # it ("The Id field cannot be 0"). Filtering it out here
+                # means it's never wastefully re-attempted on every future
+                # incremental run either.
+                if vid and vid != "0":
                     venue_ids.add(vid)
     return venue_ids
 
@@ -122,6 +128,10 @@ def fetch_venue_country(venue_id: str) -> str | None:
 
 def main():
     dry_run = "--dry-run" in sys.argv
+    max_calls = None
+    for arg in sys.argv:
+        if arg.startswith("--max-calls="):
+            max_calls = int(arg.split("=", 1)[1])
 
     all_venue_ids = find_all_venue_ids()
     print(f"{len(all_venue_ids)} distinct venue_id(s) found across your fixtures data.")
@@ -134,6 +144,12 @@ def main():
     to_fetch = sorted(all_venue_ids - set(overrides.keys()))
     print(f"{len(to_fetch)} venue_id(s) not yet resolved "
           f"({len(all_venue_ids) - len(to_fetch)} already in venue_country_overrides.json).")
+
+    if max_calls is not None and len(to_fetch) > max_calls:
+        print(f"--max-calls={max_calls} given - will stop after {max_calls} of these this run, "
+              f"then pick up the rest next time you run this (already-resolved venues are always "
+              f"skipped, so it's safe to just re-run this daily until nothing's left).")
+        to_fetch = to_fetch[:max_calls]
 
     if dry_run:
         est_minutes = round(len(to_fetch) * SLEEP_SECONDS / 60, 1)
@@ -152,12 +168,27 @@ def main():
         canonical_names = set(json.load(f).keys())
 
     resolved, unmatched, empty = 0, [], []
+    SAVE_EVERY = 50  # write progress periodically, not just at the end -
+                      # a network blip, a hit daily quota, or you just
+                      # closing the terminal partway through should never
+                      # lose venues already successfully resolved this run.
     for i, venue_id in enumerate(to_fetch, 1):
-        if i % 100 == 0 or i == len(to_fetch):
+        if i == 1 or i % 25 == 0 or i == len(to_fetch):
             print(f"  {i}/{len(to_fetch)}...")
         raw_country = fetch_venue_country(venue_id)
         if raw_country is None:
             empty.append(venue_id)
+            # Store as null, not just omitted - functionally identical
+            # everywhere downstream (match_context_builder.py's .get()
+            # returns None either way), but critically it means this
+            # venue_id counts as "already handled" for future incremental
+            # runs, instead of wastefully re-asking the API the same
+            # question and getting the same empty answer every single day
+            # until the full backlog is done.
+            overrides[venue_id] = None
+            if len(empty) % SAVE_EVERY == 0:
+                with open(VENUE_OVERRIDES_PATH, "w") as f:
+                    json.dump(overrides, f, indent=2, sort_keys=True)
             time.sleep(SLEEP_SECONDS)
             continue
         canonical = normalize_country_name(raw_country, canonical_names)
@@ -165,6 +196,11 @@ def main():
             unmatched.append((venue_id, raw_country, canonical))
         overrides[venue_id] = canonical
         resolved += 1
+
+        if resolved % SAVE_EVERY == 0:
+            with open(VENUE_OVERRIDES_PATH, "w") as f:
+                json.dump(overrides, f, indent=2, sort_keys=True)
+
         time.sleep(SLEEP_SECONDS)
 
     with open(VENUE_OVERRIDES_PATH, "w") as f:
