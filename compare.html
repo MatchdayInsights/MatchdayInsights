@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compare Clubs | Matchday Insights</title>
+<meta name="description" content="Compare any two tracked clubs side by side - rank, rating, all-time highs, and current form.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+<link rel="stylesheet" href="club-page.css">
+<style>
+.compare-page { max-width: 900px; margin: 0 auto; padding: 32px 32px 60px; }
+.compare-title { font-size: 34px; font-weight: 900; margin-bottom: 6px; }
+.compare-sub { color: var(--text2); font-size: 15px; margin-bottom: 28px; }
+.picker-row { display: grid; grid-template-columns: 1fr auto 1fr; gap: 16px; align-items: start; margin-bottom: 32px; }
+.picker-vs { display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--muted); font-size: 15px; padding-top: 14px; }
+.picker-wrap { position: relative; }
+.picker-input { width: 100%; background: var(--surface2); border: 1px solid var(--border2); border-radius: 7px; padding: 12px 14px; color: var(--text); font-family: 'Barlow Condensed', sans-serif; font-size: 17px; outline: none; }
+.picker-input:focus { border-color: var(--green-dim); }
+.picker-dropdown { position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: var(--surface2); border: 1px solid var(--border2); border-radius: 7px; max-height: 260px; overflow-y: auto; z-index: 50; display: none; }
+.picker-dropdown.open { display: block; }
+.picker-option { padding: 10px 14px; cursor: pointer; font-size: 15px; display: flex; justify-content: space-between; gap: 10px; }
+.picker-option:hover { background: var(--surface); color: var(--green); }
+.picker-option .po-rank { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+.compare-table { width: 100%; border-collapse: collapse; }
+.compare-table th, .compare-table td { padding: 12px 14px; text-align: center; border-bottom: 1px solid var(--border2); }
+.compare-table th.stat-name { text-align: left; color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; }
+.compare-table td.club-col { font-size: 18px; font-weight: 700; }
+.compare-table td.better { color: var(--green); }
+.compare-table td.worse { color: var(--text); }
+.compare-empty { color: var(--text2); text-align: center; padding: 60px 20px; font-size: 16px; }
+.h2h-note { background: var(--surface); border: 1px solid var(--border2); border-radius: 8px; padding: 14px 16px; color: var(--text2); font-size: 13px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-logo">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </div>
+</nav>
+
+<main class="compare-page">
+  <a class="back-to-rankings" href="index.html">← See Full Rankings</a>
+  <div class="compare-title">Compare Clubs</div>
+  <div class="compare-sub">Pick any two tracked clubs to compare rank, rating, and form side by side.</div>
+
+  <div class="picker-row">
+    <div class="picker-wrap">
+      <input type="text" class="picker-input" id="picker-a" placeholder="Search club A..." autocomplete="off">
+      <div class="picker-dropdown" id="dropdown-a"></div>
+    </div>
+    <div class="picker-vs">VS</div>
+    <div class="picker-wrap">
+      <input type="text" class="picker-input" id="picker-b" placeholder="Search club B..." autocomplete="off">
+      <div class="picker-dropdown" id="dropdown-b"></div>
+    </div>
+  </div>
+
+  <div id="compare-result">
+    <div class="compare-empty">Select two clubs above to compare.</div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Matchday Insights</p>
+</footer>
+
+<script>
+let RANKINGS = null;
+let selected = { a: null, b: null };
+
+async function loadRankings() {
+  const res = await fetch('rankings_table.json');
+  RANKINGS = await res.json();
+}
+
+function searchClubs(query) {
+  if (!query || query.length < 2) return [];
+  const q = query.toLowerCase();
+  return Object.values(RANKINGS)
+    .filter(c => c.club.toLowerCase().includes(q))
+    .sort((a, b) => a.rank - b.rank)
+    .slice(0, 8);
+}
+
+function setupPicker(side) {
+  const input = document.getElementById('picker-' + side);
+  const dropdown = document.getElementById('dropdown-' + side);
+
+  input.addEventListener('input', () => {
+    const results = searchClubs(input.value);
+    if (results.length === 0) { dropdown.classList.remove('open'); return; }
+    dropdown.innerHTML = results.map(c =>
+      '<div class="picker-option" data-team-id="' + c.team_id + '">' +
+        '<span>' + c.club + ' <span style="color:var(--muted);font-size:12px;">(' + c.country + ')</span></span>' +
+        '<span class="po-rank">#' + c.rank + '</span>' +
+      '</div>'
+    ).join('');
+    dropdown.classList.add('open');
+  });
+
+  dropdown.addEventListener('click', (e) => {
+    const opt = e.target.closest('.picker-option');
+    if (!opt) return;
+    const teamId = opt.dataset.teamId;
+    selected[side] = RANKINGS[teamId];
+    input.value = RANKINGS[teamId].club;
+    dropdown.classList.remove('open');
+    renderComparison();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!input.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.remove('open');
+    }
+  });
+}
+
+function fmtDate(d) { return d || '—'; }
+
+function renderComparison() {
+  const container = document.getElementById('compare-result');
+  if (!selected.a || !selected.b) {
+    container.innerHTML = '<div class="compare-empty">Select two clubs above to compare.</div>';
+    return;
+  }
+  const a = selected.a, b = selected.b;
+
+  const rows = [
+    { label: 'Rank', a: '#' + a.rank, b: '#' + b.rank, aBetter: a.rank < b.rank, bBetter: b.rank < a.rank },
+    { label: 'Rating', a: a.elo.toFixed(1), b: b.elo.toFixed(1), aBetter: a.elo > b.elo, bBetter: b.elo > a.elo },
+    { label: 'All-Time High Rating', a: a.all_time_high_elo.toFixed(1) + ' (' + fmtDate(a.all_time_high_elo_date) + ')',
+      b: b.all_time_high_elo.toFixed(1) + ' (' + fmtDate(b.all_time_high_elo_date) + ')' },
+    { label: 'All-Time High Rank', a: '#' + a.all_time_high_rank + ' (' + fmtDate(a.all_time_high_rank_date) + ')',
+      b: '#' + b.all_time_high_rank + ' (' + fmtDate(b.all_time_high_rank_date) + ')' },
+    { label: 'Times #1', a: a.times_no1, b: b.times_no1, aBetter: a.times_no1 > b.times_no1, bBetter: b.times_no1 > a.times_no1 },
+    { label: 'Top 5 Finishes', a: a.top5, b: b.top5, aBetter: a.top5 > b.top5, bBetter: b.top5 > a.top5 },
+    { label: 'Current Season Record', a: (a.cy_w + 'W ' + a.cy_d + 'D ' + a.cy_l + 'L'), b: (b.cy_w + 'W ' + b.cy_d + 'D ' + b.cy_l + 'L') },
+    { label: 'Current Season Pts %', a: a.cy_pct != null ? a.cy_pct.toFixed(1) + '%' : '—', b: b.cy_pct != null ? b.cy_pct.toFixed(1) + '%' : '—',
+      aBetter: (a.cy_pct || 0) > (b.cy_pct || 0), bBetter: (b.cy_pct || 0) > (a.cy_pct || 0) },
+  ];
+
+  const rowsHtml = rows.map(r =>
+    '<tr>' +
+      '<td class="club-col ' + (r.aBetter ? 'better' : '') + '">' + r.a + '</td>' +
+      '<th class="stat-name">' + r.label + '</th>' +
+      '<td class="club-col ' + (r.bBetter ? 'better' : '') + '">' + r.b + '</td>' +
+    '</tr>'
+  ).join('');
+
+  container.innerHTML =
+    '<table class="compare-table">' +
+      '<thead><tr><th class="club-col" style="text-align:center;">' + a.club + '</th><th></th><th class="club-col" style="text-align:center;">' + b.club + '</th></tr></thead>' +
+      '<tbody>' + rowsHtml + '</tbody>' +
+    '</table>' +
+    '<div class="h2h-note">Head-to-head record isn\'t available yet - this comparison covers rating, ranking, and form only for now.</div>';
+}
+
+(async function() {
+  await loadRankings();
+  setupPicker('a');
+  setupPicker('b');
+})();
+</script>
+</body>
+</html>

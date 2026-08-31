@@ -92,13 +92,24 @@
 
     <div class="section">
       <h2>Recent Form</h2>
-      <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <div class="stat-card" style="padding: 8px; overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="border-bottom: 1px solid var(--border2); color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; text-transform: uppercase;">
+              <th style="padding: 6px 10px; text-align: left; width: 46px;">Result</th>
+              <th style="padding: 6px 10px; text-align: left;">Opponent</th>
+              <th style="padding: 6px 10px; text-align: right;">Change</th>
+            </tr>
+          </thead>
+          <tbody>
 
-      <div style="display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--border2); border-radius: 6px; padding: 4px 8px 4px 4px;" title="vs Septemvri Sofia">
-        <div class="form-badge L" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">L</div>
-        <div style="font-size: 15px; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Septemvri Sofia</div>
-        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--red)">-10.0</div>
-      </div>
+        <tr>
+          <td style="padding: 8px 10px;"><div class="form-badge L" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">L</div></td>
+          <td style="padding: 8px 10px; font-size: 16px;">Septemvri Sofia</td>
+          <td style="padding: 8px 10px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--red)">-10.0</td>
+        </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
@@ -119,11 +130,11 @@
 
     <div class="section">
       <h2>League Table</h2>
-      <script type="application/json" id="tables-8528">{"league:2025:172": "\n        <tr style=\"\">\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px;\">Septemvri Sofia</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center; font-weight: 700;\">3</td>\n        </tr>\n        <tr style=\"background: var(--green-dim); font-weight: 700;\">\n          <td style=\"padding: 6px 8px; text-align: center;\">2</td>\n          <td style=\"padding: 6px 8px;\">Yantra 2019</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">-1</td>\n          <td style=\"padding: 6px 8px; text-align: center; font-weight: 700;\">0</td>\n        </tr>"}</script>
+      <script type="application/json" id="tables-8528">{"league:2025:172:0": "\n        <tr style=\"\">\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px;\">Septemvri Sofia</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center; font-weight: 700;\">3</td>\n        </tr>\n        <tr style=\"background: var(--green-dim); font-weight: 700;\">\n          <td style=\"padding: 6px 8px; text-align: center;\">2</td>\n          <td style=\"padding: 6px 8px;\">Yantra 2019</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">0</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">1</td>\n          <td style=\"padding: 6px 8px; text-align: center;\">-1</td>\n          <td style=\"padding: 6px 8px; text-align: center; font-weight: 700;\">0</td>\n        </tr>"}</script>
       <div class="stat-card" style="padding: 8px; overflow-x: auto;">
         <div style="padding: 6px 6px 10px;">
           <select id="table-select-8528" class="chart-select" style="width: 100%; max-width: 420px;">
-            <option value="league:2025:172" selected>First League — Relegation - Final (2025-26)</option>
+            <option value="league:2025:172:0" selected>First League — Relegation - Final (2025-26)</option>
           </select>
         </div>
         <table style="width: 100%; border-collapse: collapse; font-size: 15px;">
@@ -156,7 +167,7 @@
 
     <div class="section">
       <h2>Rating &amp; Ranking Trend</h2>
-      <script type="application/json" id="hist-8528">{"dates": ["2026-05-28", "2026-06-01", "2026-06-04", "2026-06-08", "2026-06-11", "2026-06-15", "2026-06-18", "2026-06-22", "2026-06-25", "2026-06-29", "2026-07-02", "2026-07-06", "2026-07-09", "2026-07-13", "2026-07-16", "2026-07-20", "2026-07-23", "2026-07-27", "2026-07-30", "2026-08-03", "2026-08-06", "2026-08-10", "2026-08-13", "2026-08-17", "2026-08-20", "2026-08-24", "2026-08-27"], "e": [824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.388655, 824.661402, 824.661402, 825.727287, 825.727287, 825.665526, 825.665526, 825.332335, 825.332335, 827.31943, 827.31943, 826.510275, 826.510275, 825.762041, 825.762041, 824.353753], "r": [2739, 2741, 2741, 2748, 2744, 2743, 2742, 2740, 2743, 2741, 2739, 2738, 2733, 2724, 2719, 2729, 2729, 2725, 2729, 2711, 2692, 2698, 2706, 2706, 2712, 2725, 2739]}</script>
+      <script type="application/json" id="hist-8528">{"dates": ["2026-05-28", "2026-06-01", "2026-06-04", "2026-06-08", "2026-06-11", "2026-06-15", "2026-06-18", "2026-06-22", "2026-06-25", "2026-06-29", "2026-07-02", "2026-07-06", "2026-07-09", "2026-07-13", "2026-07-16", "2026-07-20", "2026-07-23", "2026-07-27", "2026-07-30", "2026-08-03", "2026-08-06", "2026-08-10", "2026-08-13", "2026-08-17", "2026-08-20", "2026-08-24", "2026-08-27"], "e": [824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.388652, 824.661399, 824.661399, 825.727285, 825.727285, 825.665523, 825.665523, 825.332332, 825.332332, 827.319427, 827.319427, 826.510272, 826.510272, 825.762038, 825.762038, 824.353751], "r": [2739, 2741, 2741, 2748, 2744, 2743, 2742, 2740, 2743, 2741, 2739, 2738, 2733, 2724, 2719, 2729, 2729, 2725, 2729, 2711, 2692, 2698, 2706, 2706, 2712, 2725, 2739]}</script>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
         <div class="stat-card" style="padding: 16px;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
@@ -246,7 +257,7 @@ function mdiRenderChart(svgId, selectId, captionId, dates, values, opts) {
       gridlines += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (width - padR) + '" y2="' + gy +
         '" stroke="var(--border)" stroke-width="1"/>' +
         '<text x="' + (width - padR) + '" y="' + (gy - 4) + '" text-anchor="end" ' +
-        'font-family="JetBrains Mono, monospace" font-size="13" fill="var(--muted)">' + fmt(val) + '</text>';
+        'font-family="JetBrains Mono, monospace" font-size="15" fill="var(--muted)">' + fmt(val) + '</text>';
     });
 
     var firstDate = new Date(d[0]).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
@@ -259,8 +270,8 @@ function mdiRenderChart(svgId, selectId, captionId, dates, values, opts) {
       '<polyline points="' + points + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>' +
       '<circle cx="' + x(0) + '" cy="' + y(v[0]) + '" r="3.5" fill="' + color + '"/>' +
       '<circle cx="' + x(n-1) + '" cy="' + y(v[n-1]) + '" r="3.5" fill="' + color + '"/>' +
-      '<text x="' + padL + '" y="' + (height - 2) + '" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--muted)">' + firstDate + '</text>' +
-      '<text x="' + (width - padR) + '" y="' + (height - 2) + '" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--muted)">' + lastDate + '</text>';
+      '<text x="' + padL + '" y="' + (height - 2) + '" font-family="JetBrains Mono, monospace" font-size="15" fill="var(--muted)">' + firstDate + '</text>' +
+      '<text x="' + (width - padR) + '" y="' + (height - 2) + '" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15" fill="var(--muted)">' + lastDate + '</text>';
 
     var cap = document.getElementById(captionId);
     if (cap) cap.textContent = firstDate + ' – ' + lastDate + ' · ' + n + ' updates';

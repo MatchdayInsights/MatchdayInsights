@@ -74,33 +74,44 @@
 
     <div class="section">
       <h2>Recent Form</h2>
-      <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <div class="stat-card" style="padding: 8px; overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="border-bottom: 1px solid var(--border2); color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; text-transform: uppercase;">
+              <th style="padding: 6px 10px; text-align: left; width: 46px;">Result</th>
+              <th style="padding: 6px 10px; text-align: left;">Opponent</th>
+              <th style="padding: 6px 10px; text-align: right;">Change</th>
+            </tr>
+          </thead>
+          <tbody>
 
-      <div style="display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--border2); border-radius: 6px; padding: 4px 8px 4px 4px;" title="vs Réal du Faso">
-        <div class="form-badge D" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">D</div>
-        <div style="font-size: 15px; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Réal du Faso</div>
-        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--green)">+2.6</div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--border2); border-radius: 6px; padding: 4px 8px 4px 4px;" title="vs AJEB">
-        <div class="form-badge W" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">W</div>
-        <div style="font-size: 15px; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">AJEB</div>
-        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--green)">+15.8</div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--border2); border-radius: 6px; padding: 4px 8px 4px 4px;" title="vs Sporting Cascades">
-        <div class="form-badge D" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">D</div>
-        <div style="font-size: 15px; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Sporting Cascades</div>
-        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--green)">+4.9</div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--border2); border-radius: 6px; padding: 4px 8px 4px 4px;" title="vs ASFB">
-        <div class="form-badge L" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">L</div>
-        <div style="font-size: 15px; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">ASFB</div>
-        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--red)">-15.2</div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--border2); border-radius: 6px; padding: 4px 8px 4px 4px;" title="vs Majestic">
-        <div class="form-badge W" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">W</div>
-        <div style="font-size: 15px; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Majestic</div>
-        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--green)">+20.7</div>
-      </div>
+        <tr>
+          <td style="padding: 8px 10px;"><div class="form-badge D" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">D</div></td>
+          <td style="padding: 8px 10px; font-size: 16px;">Réal du Faso</td>
+          <td style="padding: 8px 10px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--green)">+2.6</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 10px;"><div class="form-badge W" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">W</div></td>
+          <td style="padding: 8px 10px; font-size: 16px;">AJEB</td>
+          <td style="padding: 8px 10px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--green)">+15.8</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 10px;"><div class="form-badge D" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">D</div></td>
+          <td style="padding: 8px 10px; font-size: 16px;">Sporting Cascades</td>
+          <td style="padding: 8px 10px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--green)">+4.9</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 10px;"><div class="form-badge L" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">L</div></td>
+          <td style="padding: 8px 10px; font-size: 16px;">ASFB</td>
+          <td style="padding: 8px 10px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--red)">-15.2</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 10px;"><div class="form-badge W" style="width: 30px; height: 30px; font-size: 14px; border-radius: 5px;">W</div></td>
+          <td style="padding: 8px 10px; font-size: 16px;">Majestic</td>
+          <td style="padding: 8px 10px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--green)">+20.7</td>
+        </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
