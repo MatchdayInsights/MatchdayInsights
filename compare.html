@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Compare Clubs | Matchday Insights</title>
-<meta name="description" content="Compare any two tracked clubs side by side - rank, rating, all-time highs, and current form.">
+<meta name="description" content="Compare any two tracked clubs side by side - rank, rating, all-time highs, and rating/ranking history.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 <link rel="stylesheet" href="club-page.css">
 <style>
-.compare-page { max-width: 900px; margin: 0 auto; padding: 32px 32px 60px; }
+.compare-page { max-width: 1000px; margin: 0 auto; padding: 32px 32px 60px; }
 .compare-title { font-size: 34px; font-weight: 900; margin-bottom: 6px; }
 .compare-sub { color: var(--text2); font-size: 15px; margin-bottom: 28px; }
 .picker-row { display: grid; grid-template-columns: 1fr auto 1fr; gap: 16px; align-items: start; margin-bottom: 32px; }
@@ -23,14 +23,33 @@
 .picker-option { padding: 10px 14px; cursor: pointer; font-size: 15px; display: flex; justify-content: space-between; gap: 10px; }
 .picker-option:hover { background: var(--surface); color: var(--green); }
 .picker-option .po-rank { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; }
-.compare-table { width: 100%; border-collapse: collapse; }
-.compare-table th, .compare-table td { padding: 12px 14px; text-align: center; border-bottom: 1px solid var(--border2); }
-.compare-table th.stat-name { text-align: left; color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; }
-.compare-table td.club-col { font-size: 18px; font-weight: 700; }
-.compare-table td.better { color: var(--green); }
-.compare-table td.worse { color: var(--text); }
+
+.compare-header { padding: 24px 0; border-bottom: 2px solid var(--green-dim); margin-bottom: 0; }
+.compare-clubs-header { display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: center; }
+.compare-club-side { display: flex; flex-direction: column; }
+.compare-club-side.right { align-items: flex-end; text-align: right; }
+.compare-club-flag-name { display: flex; align-items: center; gap: 10px; }
+.compare-club-flag-name.right { flex-direction: row-reverse; }
+.compare-club-flag { width: 36px; height: 26px; border-radius: 4px; overflow: hidden; flex-shrink: 0; }
+.compare-club-name { font-size: clamp(20px, 3vw, 32px); font-weight: 900; text-transform: uppercase; color: var(--text); line-height: 1; }
+.compare-club-league { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text2); margin-top: 6px; }
+.compare-vs { font-family: 'JetBrains Mono', monospace; font-size: 16px; color: var(--muted); letter-spacing: 3px; text-align: center; }
+.compare-elo { font-family: 'JetBrains Mono', monospace; font-size: 30px; font-weight: 600; margin-top: 10px; }
+.compare-elo.left { color: var(--green); }
+.compare-elo.right { color: #4a90d9; }
+
+.compare-stats-section { padding: 20px 0; border-bottom: 1px solid var(--border); }
+.compare-stat-row { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(24,28,36,0.5); }
+.compare-stat-row:last-child { border-bottom: none; }
+.compare-stat-val { font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 600; color: var(--text); }
+.compare-stat-val.left { text-align: left; }
+.compare-stat-val.right { text-align: right; }
+.compare-stat-val.winner { color: var(--green); }
+.compare-stat-label { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; text-align: center; }
+.compare-stat-date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); opacity: 0.7; margin-top: 3px; }
+.compare-charts { padding: 24px 0; }
 .compare-empty { color: var(--text2); text-align: center; padding: 60px 20px; font-size: 16px; }
-.h2h-note { background: var(--surface); border: 1px solid var(--border2); border-radius: 8px; padding: 14px 16px; color: var(--text2); font-size: 13px; margin-top: 24px; }
+.compare-loading { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 20px 0; text-align: center; }
 </style>
 </head>
 <body>
@@ -44,7 +63,7 @@
 <main class="compare-page">
   <a class="back-to-rankings" href="index.html">← See Full Rankings</a>
   <div class="compare-title">Compare Clubs</div>
-  <div class="compare-sub">Pick any two tracked clubs to compare rank, rating, and form side by side.</div>
+  <div class="compare-sub">Pick any two tracked clubs to compare rank, rating, all-time highs, and rating/ranking history.</div>
 
   <div class="picker-row">
     <div class="picker-wrap">
@@ -69,11 +88,23 @@
 
 <script>
 let RANKINGS = null;
+let ALL_HISTORY = null;
 let selected = { a: null, b: null };
 
 async function loadRankings() {
   const res = await fetch('rankings_table.json');
   RANKINGS = await res.json();
+}
+
+async function loadAllHistory() {
+  if (ALL_HISTORY) return true;
+  try {
+    const res = await fetch('all_history.json');
+    ALL_HISTORY = await res.json();
+    return true;
+  } catch (e) {
+    return false;
+  }
 }
 
 function searchClubs(query) {
@@ -118,7 +149,73 @@ function setupPicker(side) {
   });
 }
 
-function fmtDate(d) { return d || '—'; }
+function fmtDate(d) {
+  if (!d) return '—';
+  try {
+    const parts = d.split('/');
+    const dt = new Date(parts[2], parts[0] - 1, parts[1]);
+    return dt.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
+  } catch (e) { return d; }
+}
+
+function getFlag(countryCode) {
+  const iso = (countryCode || '').toLowerCase().slice(0, 2);
+  return '<span class="fi fi-' + iso + '" style="width:100%;height:100%;display:block;background-size:cover;"></span>';
+}
+
+// Ported from Classic's buildCompareChart() (Greg, 2026-08) - two
+// clubs' series on the same axes, solid vs dashed line to distinguish.
+function buildCompareChart(dA, dB, colorA, colorB, reverse) {
+  var W = 780, H = 200, PL = 52, PR = 10, PT = 14, PB = 28;
+  var cw = W - PL - PR, ch = H - PT - PB;
+  var all = dA.concat(dB).filter(function(v) { return v !== null && v !== undefined; });
+  if (all.length < 2) return '<div class="compare-loading">Not enough data</div>';
+  var mn = Math.min.apply(null, all), mx = Math.max.apply(null, all);
+  var range = (mx === mn) ? 1 : (mx - mn);
+  var n = Math.max(dA.length, dB.length);
+  function xp(i) { return PL + (i / (n - 1)) * cw; }
+  function yp(v) {
+    var norm = (v - mn) / range;
+    var frac = reverse ? norm : (1 - norm);
+    return PT + frac * ch;
+  }
+  var pA = dA.map(function(v, i) { return v !== null ? xp(i).toFixed(1) + ',' + yp(v).toFixed(1) : null; }).filter(Boolean).join(' ');
+  var pB = dB.map(function(v, i) { return v !== null ? xp(i).toFixed(1) + ',' + yp(v).toFixed(1) : null; }).filter(Boolean).join(' ');
+  var ytH = '';
+  for (var g = 0; g <= 4; g++) {
+    var val = mn + (range * g / 4), gy = yp(val);
+    ytH += '<line x1="' + PL + '" y1="' + gy.toFixed(1) + '" x2="' + (PL + cw) + '" y2="' + gy.toFixed(1) +
+      '" stroke="#1e2330" stroke-width="1"/><text x="' + (PL - 4) + '" y="' + (gy + 4).toFixed(1) +
+      '" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#565e78">' +
+      (reverse ? '#' + Math.round(val) : Math.round(val)) + '</text>';
+  }
+  return '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" style="display:block">' + ytH +
+    '<polyline points="' + pA + '" fill="none" stroke="' + colorA + '" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>' +
+    '<polyline points="' + pB + '" fill="none" stroke="' + colorB + '" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6,4"/></svg>';
+}
+
+async function renderCompareCharts(teamIdA, teamIdB, clubA, clubB) {
+  const chartsWrap = document.getElementById('compare-charts-wrap');
+  chartsWrap.innerHTML = '<div class="compare-loading">Loading history…</div>';
+  const ok = await loadAllHistory();
+  if (!ok || !ALL_HISTORY[teamIdA] || !ALL_HISTORY[teamIdB]) {
+    chartsWrap.innerHTML = '<div class="compare-loading">History unavailable for one or both clubs</div>';
+    return;
+  }
+  const histA = ALL_HISTORY[teamIdA], histB = ALL_HISTORY[teamIdB];
+  const n = 60; // fixed recent window - simpler than Classic's selectable timeframe, still useful
+  const eloA = histA.e.slice(-n), eloB = histB.e.slice(-n);
+  const rankA = histA.r.slice(-n), rankB = histB.r.slice(-n);
+  const colorA = '#3dba5e', colorB = '#4a90d9';
+  const legend = '<div style="display:flex;gap:20px;margin-bottom:10px;font-family:\'JetBrains Mono\',monospace;font-size:12px">' +
+    '<span style="color:' + colorA + '">— ' + clubA.club + '</span>' +
+    '<span style="color:' + colorB + ';margin-left:8px">┈ ' + clubB.club + '</span></div>';
+  chartsWrap.innerHTML =
+    '<div class="panel-title" style="margin-bottom:8px">Rating History — Last ' + eloA.length + ' Updates</div>' +
+    legend + buildCompareChart(eloA, eloB, colorA, colorB, false) +
+    '<div class="panel-title" style="margin:24px 0 8px">Ranking History — Last ' + rankA.length + ' Updates</div>' +
+    legend + buildCompareChart(rankA, rankB, colorA, colorB, true);
+}
 
 function renderComparison() {
   const container = document.getElementById('compare-result');
@@ -129,33 +226,51 @@ function renderComparison() {
   const a = selected.a, b = selected.b;
 
   const rows = [
-    { label: 'Rank', a: '#' + a.rank, b: '#' + b.rank, aBetter: a.rank < b.rank, bBetter: b.rank < a.rank },
-    { label: 'Rating', a: a.elo.toFixed(1), b: b.elo.toFixed(1), aBetter: a.elo > b.elo, bBetter: b.elo > a.elo },
-    { label: 'All-Time High Rating', a: a.all_time_high_elo.toFixed(1) + ' (' + fmtDate(a.all_time_high_elo_date) + ')',
-      b: b.all_time_high_elo.toFixed(1) + ' (' + fmtDate(b.all_time_high_elo_date) + ')' },
-    { label: 'All-Time High Rank', a: '#' + a.all_time_high_rank + ' (' + fmtDate(a.all_time_high_rank_date) + ')',
-      b: '#' + b.all_time_high_rank + ' (' + fmtDate(b.all_time_high_rank_date) + ')' },
-    { label: 'Times #1', a: a.times_no1, b: b.times_no1, aBetter: a.times_no1 > b.times_no1, bBetter: b.times_no1 > a.times_no1 },
-    { label: 'Top 5 Finishes', a: a.top5, b: b.top5, aBetter: a.top5 > b.top5, bBetter: b.top5 > a.top5 },
-    { label: 'Current Season Record', a: (a.cy_w + 'W ' + a.cy_d + 'D ' + a.cy_l + 'L'), b: (b.cy_w + 'W ' + b.cy_d + 'D ' + b.cy_l + 'L') },
-    { label: 'Current Season Pts %', a: a.cy_pct != null ? a.cy_pct.toFixed(1) + '%' : '—', b: b.cy_pct != null ? b.cy_pct.toFixed(1) + '%' : '—',
-      aBetter: (a.cy_pct || 0) > (b.cy_pct || 0), bBetter: (b.cy_pct || 0) > (a.cy_pct || 0) },
+    { label: 'Current Rank', a: '#' + a.rank, b: '#' + b.rank, aBetter: a.rank < b.rank, bBetter: b.rank < a.rank },
+    { label: 'Current Rating', a: a.elo.toFixed(1), b: b.elo.toFixed(1), aBetter: a.elo > b.elo, bBetter: b.elo > a.elo },
+    { label: 'Rating Change (This Cycle)',
+      a: a.elo_change != null ? (a.elo_change > 0 ? '+' : '') + a.elo_change.toFixed(1) : 'N/R',
+      b: b.elo_change != null ? (b.elo_change > 0 ? '+' : '') + b.elo_change.toFixed(1) : 'N/R',
+      aBetter: (a.elo_change || 0) > (b.elo_change || 0), bBetter: (b.elo_change || 0) > (a.elo_change || 0) },
+    { label: 'All-Time High Rank', a: '#' + a.all_time_high_rank, b: '#' + b.all_time_high_rank,
+      aDate: fmtDate(a.all_time_high_rank_date), bDate: fmtDate(b.all_time_high_rank_date),
+      aBetter: a.all_time_high_rank < b.all_time_high_rank, bBetter: b.all_time_high_rank < a.all_time_high_rank },
+    { label: 'All-Time High Rating', a: a.all_time_high_elo.toFixed(1), b: b.all_time_high_elo.toFixed(1),
+      aDate: fmtDate(a.all_time_high_elo_date), bDate: fmtDate(b.all_time_high_elo_date),
+      aBetter: a.all_time_high_elo > b.all_time_high_elo, bBetter: b.all_time_high_elo > a.all_time_high_elo },
+    { label: 'Times Ranked #1', a: a.times_no1 || 0, b: b.times_no1 || 0, aBetter: (a.times_no1||0) > (b.times_no1||0), bBetter: (b.times_no1||0) > (a.times_no1||0) },
+    { label: 'Updates in Top 10', a: a.top10 || 0, b: b.top10 || 0, aBetter: (a.top10||0) > (b.top10||0), bBetter: (b.top10||0) > (a.top10||0) },
+    { label: 'Updates in Top 50', a: a.top50 || 0, b: b.top50 || 0, aBetter: (a.top50||0) > (b.top50||0), bBetter: (b.top50||0) > (a.top50||0) },
   ];
 
   const rowsHtml = rows.map(r =>
-    '<tr>' +
-      '<td class="club-col ' + (r.aBetter ? 'better' : '') + '">' + r.a + '</td>' +
-      '<th class="stat-name">' + r.label + '</th>' +
-      '<td class="club-col ' + (r.bBetter ? 'better' : '') + '">' + r.b + '</td>' +
-    '</tr>'
+    '<div class="compare-stat-row">' +
+      '<div class="compare-stat-val left ' + (r.aBetter ? 'winner' : '') + '">' + r.a + (r.aDate ? '<div class="compare-stat-date">' + r.aDate + '</div>' : '') + '</div>' +
+      '<div class="compare-stat-label">' + r.label + '</div>' +
+      '<div class="compare-stat-val right ' + (r.bBetter ? 'winner' : '') + '">' + r.b + (r.bDate ? '<div class="compare-stat-date">' + r.bDate + '</div>' : '') + '</div>' +
+    '</div>'
   ).join('');
 
   container.innerHTML =
-    '<table class="compare-table">' +
-      '<thead><tr><th class="club-col" style="text-align:center;">' + a.club + '</th><th></th><th class="club-col" style="text-align:center;">' + b.club + '</th></tr></thead>' +
-      '<tbody>' + rowsHtml + '</tbody>' +
-    '</table>' +
-    '<div class="h2h-note">Head-to-head record isn\'t available yet - this comparison covers rating, ranking, and form only for now.</div>';
+    '<div class="compare-header">' +
+      '<div class="compare-clubs-header">' +
+        '<div class="compare-club-side left">' +
+          '<div class="compare-club-flag-name"><div class="compare-club-flag">' + getFlag(a.country) + '</div><div class="compare-club-name">' + a.club + '</div></div>' +
+          '<div class="compare-club-league">' + a.country + ' · Rank #' + a.rank + '</div>' +
+          '<div class="compare-elo left">' + a.elo.toFixed(1) + '</div>' +
+        '</div>' +
+        '<div class="compare-vs">VS</div>' +
+        '<div class="compare-club-side right">' +
+          '<div class="compare-club-flag-name right"><div class="compare-club-flag">' + getFlag(b.country) + '</div><div class="compare-club-name">' + b.club + '</div></div>' +
+          '<div class="compare-club-league">' + b.country + ' · Rank #' + b.rank + '</div>' +
+          '<div class="compare-elo right">' + b.elo.toFixed(1) + '</div>' +
+        '</div>' +
+      '</div>' +
+    '</div>' +
+    '<div class="compare-stats-section">' + rowsHtml + '</div>' +
+    '<div class="compare-charts"><div id="compare-charts-wrap"><div class="compare-loading">Loading history…</div></div></div>';
+
+  renderCompareCharts(a.team_id, b.team_id, a, b);
 }
 
 (async function() {
