@@ -181,3 +181,18 @@ a:hover { text-decoration: underline; }
 .season-bar-row .season-val { font-family: 'JetBrains Mono', monospace; font-size: 16px; color: var(--text2); font-weight: 700; text-align: right; }
 .season-bar-row.current .season-val { color: var(--green); }
 
+/* Season-by-season on mobile: the full competition name and 4-digit
+   season ate most of the row, leaving the bar almost invisible. Swap in
+   the short forms the generator also emits, shrink the fonts, and give
+   the freed width to the bar (Greg, 2026-09). */
+.lbl-abbr { display: none; }
+@media (max-width: 600px) {
+  .lbl-full { display: none; }
+  .lbl-abbr { display: inline; }
+  .season-bar-row { grid-template-columns: 42px 40px 1fr 34px; gap: 6px; }
+  .season-bar-row .season-label { font-size: 11px; letter-spacing: 0; }
+  .season-bar-row .league-badge { font-size: 10px; padding: 2px 4px; letter-spacing: 0; }
+  .season-bar-row .season-val { font-size: 11px; }
+  .season-bar-track { height: 18px; }
+  .season-bars { gap: 7px; }
+}
