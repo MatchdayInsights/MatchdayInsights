@@ -36,10 +36,16 @@ a:hover { text-decoration: underline; }
   z-index: 200;
 }
 .nav-logo { display: flex; flex-direction: column; }
-.nav-brand { font-size: 16px; font-weight: 900; letter-spacing: 1.5px; color: var(--green); text-transform: uppercase; line-height: 1; }
-.nav-sub { font-family: 'JetBrains Mono', monospace; font-size: 8px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+.nav-brand { font-size: 19px; font-weight: 900; letter-spacing: 1.5px; color: var(--green); text-transform: uppercase; line-height: 1; }
+.nav-sub { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
 
-.club-page { max-width: 860px; margin: 0 auto; padding: 32px 20px 60px; }
+/* Fluid width - fills the viewport on wide desktop screens instead of
+   leaving dead space either side of a fixed 1400px column, while still
+   capping so line lengths stay readable on ultrawide (Greg, 2026-09). */
+.club-page { width: 100%; max-width: min(1700px, 94vw); margin: 0 auto;
+             padding: 32px clamp(16px, 2.5vw, 44px) 60px; }
+.back-to-rankings { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text2); letter-spacing: 0.5px; margin-bottom: 16px; display: inline-block; }
+.back-to-rankings:hover { color: var(--green); text-decoration: none; }
 
 .club-header {
   margin-bottom: 28px;
@@ -47,42 +53,47 @@ a:hover { text-decoration: underline; }
   border-bottom: 2px solid var(--green-dim);
   background: linear-gradient(135deg, rgba(10,20,13,0.7) 0%, transparent 60%);
 }
-.club-meta { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text2); letter-spacing: 0.5px; margin-bottom: 6px; }
-.club-name { font-size: 42px; font-weight: 900; line-height: 1; letter-spacing: -1px; color: var(--text); }
-.club-rank { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--green); letter-spacing: 2px; margin-top: 8px; text-transform: uppercase; }
+.club-meta { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--text2); letter-spacing: 0.5px; margin-bottom: 6px; }
+.club-name { font-size: 52px; font-weight: 900; line-height: 1; letter-spacing: -1px; color: var(--text); }
+.club-rank { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--green); letter-spacing: 2px; margin-top: 8px; text-transform: uppercase; }
+.record-box-green { display: inline-block; border: 1px solid var(--green); background: rgba(61,186,94,0.12); border-radius: 4px; padding: 1px 6px; }
+.record-box-red { display: inline-block; border: 1px solid var(--red); background: rgba(232,68,102,0.12); border-radius: 4px; padding: 1px 6px; }
+.record-statement { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--green); text-transform: none; letter-spacing: 0.3px; margin-top: 4px; }
+.record-statement.low { color: var(--red); }
+.top1-streak { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--gold); text-transform: none; letter-spacing: 0.3px; margin-top: 4px; }
 
 .stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; margin-bottom: 32px; }
 .stat-card { background: var(--surface); border-radius: 8px; padding: 14px 16px; border: 1px solid var(--border2); }
-.stat-label { font-family: 'JetBrains Mono', monospace; font-size: 8.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 5px; }
-.stat-val { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 600; line-height: 1; color: var(--text); }
+.stat-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 5px; }
+.stat-val { font-family: 'JetBrains Mono', monospace; font-size: 25px; font-weight: 600; line-height: 1; color: var(--text); }
 .stat-val.green { color: var(--green); }
 .stat-val.gold { color: var(--gold); }
 .stat-val.red { color: var(--red); }
-.stat-date { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted); margin-top: 4px; opacity: 0.7; }
+.stat-date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); margin-top: 4px; opacity: 0.7; }
 
 .section { margin-bottom: 32px; }
 .section h2 {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 2px;
   color: var(--muted);
   text-transform: uppercase;
   margin-bottom: 14px;
 }
-.form-list { display: flex; flex-direction: column; gap: 8px; }
-.form-row { display: flex; align-items: center; gap: 16px; background: var(--surface); border-radius: 8px; padding: 16px 20px; border: 1px solid var(--border2); }
+.form-list { display: flex; flex-direction: column; gap: 5px; }
+.form-row { display: flex; align-items: center; gap: 14px; background: var(--surface); border-radius: 7px; padding: 8px 16px; border: 1px solid var(--border2); }
 .form-badge {
-  width: 32px; height: 32px; border-radius: 6px;
+  width: 30px; height: 30px; border-radius: 5px;
   display: flex; align-items: center; justify-content: center;
-  font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 13px;
+  font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 14px;
   flex-shrink: 0;
 }
 .form-badge.W { background: rgba(61,186,94,0.15); color: var(--green); }
 .form-badge.D { background: rgba(100,120,180,0.15); color: #7890d0; }
 .form-badge.L { background: rgba(232,68,102,0.15); color: var(--red); }
-.form-opp { font-size: 15px; flex: 1; color: var(--text); }
-.form-pts { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; color: var(--text2); }
+.form-opp { font-size: 18px; flex: 1; color: var(--text); }
+.form-pts { font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 600; color: var(--text2); }
 
 .cta-box {
   background: var(--surface);
@@ -92,14 +103,14 @@ a:hover { text-decoration: underline; }
   text-align: center;
   margin-bottom: 32px;
 }
-.cta-box p { color: var(--text2); margin-bottom: 16px; font-size: 15px; }
+.cta-box p { color: var(--text2); margin-bottom: 16px; font-size: 17px; }
 .cta-btn {
   background: var(--green);
   color: #050a07;
-  padding: 10px 26px;
+  padding: 12px 28px;
   border-radius: 7px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-block;
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.5px;
@@ -111,8 +122,8 @@ a:hover { text-decoration: underline; }
   background: var(--surface2);
   border: 1px solid var(--border2);
   border-radius: 7px;
-  padding: 8px 14px;
-  font-size: 14px;
+  padding: 9px 16px;
+  font-size: 16px;
   color: var(--text);
   transition: border-color 0.2s;
 }
@@ -124,10 +135,49 @@ a:hover { text-decoration: underline; }
   padding: 20px 24px;
   text-align: center;
 }
-.site-footer p { font-family: 'JetBrains Mono', monospace; color: var(--muted); font-size: 11px; letter-spacing: 0.5px; }
+.site-footer p { font-family: 'JetBrains Mono', monospace; color: var(--muted); font-size: 13px; letter-spacing: 0.5px; }
 .site-footer a { color: var(--green); }
 
 @media (max-width: 600px) {
   .club-name { font-size: 30px; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* Ported from Classic's actual chart/season/form design (Greg, 2026-08) -
+   the exact proportions and structure that already looked right, rather
+   than a from-scratch recreation. Sizes bumped ~15-20% over the Classic
+   originals to match tonight's widened page layout, but the underlying
+   viewBox/padding ratios in buildSvgChart() are kept identical - that's
+   what actually made the chart readable, not the raw font-size number. */
+.panel { padding: 20px 28px; border-bottom: 1px solid var(--border); }
+.panel-title { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; margin-bottom: 14px; }
+
+.charts-grid { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--border); gap: 0; margin-bottom: 32px; }
+@media (max-width: 700px) { .charts-grid { grid-template-columns: 1fr; } }
+.chart-panel { padding: 20px 28px; }
+.chart-panel:first-child { border-right: 1px solid var(--border); }
+.chart-controls { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.chart-title-text { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; }
+.chart-range-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); opacity: 0.6; margin-bottom: 10px; }
+.timeframe-select { background: var(--surface2); border: 1px solid var(--border2); border-radius: 5px; padding: 5px 26px 5px 10px; color: var(--text2); font-family: 'JetBrains Mono', monospace; font-size: 11px; outline: none; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath d='M0 0l4 5 4-5z' fill='%23565e78'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; transition: border-color 0.2s; }
+.chart-select { background: var(--surface2); border: 1px solid var(--border2); border-radius: 5px; padding: 5px 26px 5px 10px; color: var(--text2); font-family: 'JetBrains Mono', monospace; font-size: 11px; outline: none; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath d='M0 0l4 5 4-5z' fill='%23565e78'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; transition: border-color 0.2s; }
+.timeframe-select:focus { border-color: var(--green-dim); }
+.chart-svg-wrap { width: 100%; overflow: hidden; position: relative; }
+.chart-tooltip { position: absolute; background: rgba(13,15,20,0.96); border: 1px solid rgba(61,186,94,0.3); border-radius: 6px; padding: 8px 12px; pointer-events: none; opacity: 0; transition: opacity 0.1s; z-index: 10; white-space: nowrap; }
+.chart-tooltip.show { opacity: 1; }
+.chart-tooltip-date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text2); margin-bottom: 2px; }
+.chart-tooltip-val { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 600; }
+
+.season-bars { display: flex; flex-direction: column; gap: 10px; }
+.season-bar-row { display: grid; grid-template-columns: 76px 84px 1fr 58px; align-items: center; gap: 10px; }
+.season-bar-row .season-label { font-family: 'JetBrains Mono', monospace; font-size: 16px; color: var(--text2); font-weight: 600; letter-spacing: 0.3px; }
+.season-bar-row.current .season-label { color: var(--text); }
+.season-bar-row .league-badge { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--text2); background: var(--surface2); border: 1px solid var(--border2); padding: 3px 8px; border-radius: 3px; text-align: center; letter-spacing: 0.2px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.season-bar-row.current .league-badge { color: var(--text); border-color: rgba(61,186,94,0.3); }
+.season-bar-track { position: relative; height: 22px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+.season-bar-track::after { content: ''; position: absolute; left: 50%; top: 2px; bottom: 2px; width: 1px; background: rgba(255,255,255,0.08); z-index: 1; }
+.season-bar-fill { height: 100%; background: var(--green-dim); border-radius: 2px; position: relative; z-index: 2; }
+.season-bar-row.current .season-bar-fill { background: var(--green); }
+.season-bar-row .season-val { font-family: 'JetBrains Mono', monospace; font-size: 16px; color: var(--text2); font-weight: 700; text-align: right; }
+.season-bar-row.current .season-val { color: var(--green); }
+
