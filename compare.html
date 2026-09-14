@@ -92,15 +92,17 @@ let ALL_HISTORY = null;
 let selected = { a: null, b: null };
 
 async function loadRankings() {
-  const res = await fetch('rankings_table.json');
+  // rankings.json, NOT rankings_table.json. The table file is a trimmed
+  // ARRAY built for the homepage and carries none of the all-time
+  // high/low or tier-count fields this page displays - reading it threw
+  // "Cannot read properties of undefined (reading 'toFixed')" on
+  // all_time_high_elo. rankings.json is already keyed by team_id and has
+  // every field, and it's only fetched on this page (Greg, 2026-09).
+  const res = await fetch('rankings.json');
   const data = await res.json();
-  // rankings_table.json is an ARRAY of clubs, not an object keyed by
-  // team_id. Treating it as a lookup meant search worked (Object.values
-  // of an array is fine) but clicking a result resolved to undefined, so
-  // nothing could ever be selected (Greg, 2026-09).
   RANKINGS = {};
-  (Array.isArray(data) ? data : Object.values(data)).forEach(club => {
-    if (club && club.team_id != null) RANKINGS[String(club.team_id)] = club;
+  Object.entries(data).forEach(([tid, club]) => {
+    if (club) RANKINGS[String(club.team_id || tid)] = club;
   });
 }
 
