@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Matchday Insights</title>
+<meta name="description" content="Get in touch with Matchday Insights - corrections, missing clubs or competitions, questions about the rating model.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="club-page.css">
+<style>
+.doc { max-width: min(740px, 92vw); margin: 0 auto; padding: 28px clamp(16px,2.5vw,44px) 70px; }
+.doc h1 { font-size: clamp(30px,4vw,44px); font-weight: 900; text-transform: uppercase; line-height: 1; margin-bottom: 10px; }
+.doc h1 em { font-style: normal; color: var(--green); }
+.doc .lede { font-size: 17px; color: var(--text2); line-height: 1.55; margin-bottom: 28px; }
+.doc h2 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--green); text-transform: uppercase; margin: 30px 0 12px; font-weight: 600; }
+.doc p { font-size: 15px; line-height: 1.65; color: var(--text2); margin-bottom: 13px; }
+.doc ul { margin: 0 0 13px 18px; }
+.doc li { font-size: 15px; line-height: 1.65; color: var(--text2); margin-bottom: 7px; }
+.contact-card { display: flex; align-items: center; gap: 14px; background: var(--surface2); border: 1px solid var(--border2); border-radius: 9px; padding: 16px 18px; margin-bottom: 12px; text-decoration: none; transition: border-color .15s; }
+.contact-card:hover { border-color: var(--green-dim); }
+.contact-icon { font-size: 22px; flex-shrink: 0; }
+.contact-label { font-size: 16px; font-weight: 700; color: var(--text); text-transform: uppercase; }
+.contact-sub { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); margin-top: 2px; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-logo">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </div>
+</nav>
+
+<main class="doc">
+  <a class="back-to-rankings" href="index.html">← See Full Rankings</a>
+  <h1>Get in <em>Touch</em></h1>
+  <p class="lede">Corrections, missing clubs, questions about how the model works &mdash;
+  all welcome.</p>
+
+  <a class="contact-card" href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">
+    <div class="contact-icon">&#120143;</div>
+    <div>
+      <div class="contact-label">X / Twitter</div>
+      <div class="contact-sub">@MDInsights_FC &mdash; fastest way to reach me</div>
+    </div>
+  </a>
+
+  <h2>Reporting something wrong</h2>
+  <p>The data covers thousands of clubs across every tracked division, and errors do get
+  through. These are the most useful things to flag:</p>
+  <ul>
+    <li><strong>A club in the wrong country or league.</strong> Clubs that only ever appear in
+    continental competition are the usual culprits &mdash; there is no domestic league result
+    to place them from.</li>
+    <li><strong>A club that should have dropped out, or should be included.</strong>
+    Relegations out of the tracked pyramid are the hardest case to catch automatically.</li>
+    <li><strong>A missing competition or season.</strong></li>
+    <li><strong>A result that never registered.</strong> Occasionally a match sits in the feed
+    marked as still in progress long after full time, and never gets counted.</li>
+  </ul>
+  <p>Including the club name and the competition makes it much quicker to track down.</p>
+
+  <h2>Questions about the model</h2>
+  <p>The <a href="about.html" style="color:var(--green)">about page</a> covers how the rating
+  works, how leagues are connected to each other, and how the match forecasts are calculated
+  and tested. If it doesn't answer what you're after, ask.</p>
+</main>
+
+<footer class="site-footer"><p>&copy; 2026 Matchday Insights</p></footer>
+</body>
+</html>

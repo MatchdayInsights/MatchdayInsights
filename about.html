@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Matchday Insights</title>
+<meta name="description" content="How the Matchday Insights global club football rating works: one Elo model across every tracked league, so every club in the world sits on the same scale.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="club-page.css">
+<style>
+.doc { max-width: min(820px, 92vw); margin: 0 auto; padding: 28px clamp(16px,2.5vw,44px) 70px; }
+.doc h1 { font-size: clamp(30px,4vw,44px); font-weight: 900; text-transform: uppercase; line-height: 1; margin-bottom: 10px; }
+.doc h1 em { font-style: normal; color: var(--green); }
+.doc .lede { font-size: 17px; color: var(--text2); line-height: 1.55; margin-bottom: 30px; max-width: 640px; }
+.doc h2 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--green); text-transform: uppercase; margin: 34px 0 12px; font-weight: 600; }
+.doc p { font-size: 15px; line-height: 1.65; color: var(--text2); margin-bottom: 13px; }
+.doc p strong { color: var(--text); font-weight: 600; }
+.doc ul { margin: 0 0 13px 18px; }
+.doc li { font-size: 15px; line-height: 1.65; color: var(--text2); margin-bottom: 7px; }
+.doc .callout { background: var(--surface2); border-left: 2px solid var(--green-dim); border-radius: 0 7px 7px 0; padding: 14px 18px; margin: 18px 0; }
+.doc .callout p:last-child { margin-bottom: 0; }
+.doc code { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--green); background: var(--surface2); padding: 1px 5px; border-radius: 3px; }
+.doc table { width: 100%; border-collapse: collapse; margin: 14px 0 18px; }
+.doc th { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 1px; color: var(--muted); text-transform: uppercase; text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border2); }
+.doc td { font-size: 14px; color: var(--text2); padding: 7px 10px; border-bottom: 1px solid rgba(24,28,36,0.6); }
+.doc td:first-child { color: var(--text); font-weight: 600; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-logo">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </div>
+</nav>
+
+<main class="doc">
+  <a class="back-to-rankings" href="index.html">← See Full Rankings</a>
+  <h1>About <em>Matchday Insights</em></h1>
+  <p class="lede">One rating model, every tracked league on earth, on a single comparable scale.
+  A fourth-tier German side and Real Madrid are measured the same way &mdash; so the question
+  "how far apart are they, really?" has an actual number behind it.</p>
+
+  <h2>What this is</h2>
+  <p>Most football rankings cover one league, one continent, or one competition. Matchday
+  Insights covers <strong>thousands of clubs across every tracked division</strong> and puts
+  them all on one scale. The rating a club carries here means the same thing whether they play
+  in the Premier League, the Ekstraklasa, or the Mongolian Premier League.</p>
+  <p>Every senior competitive result feeds the model: domestic leagues, domestic cups,
+  continental competitions, and global tournaments. Youth, reserve and women's competitions
+  are tracked separately and excluded from the senior ranking.</p>
+
+  <h2>How the rating works</h2>
+  <p>The engine is an <strong>Elo model</strong>. Every club carries a single number. Beat a
+  stronger opponent and you gain more than you would for beating a weaker one; lose to a
+  weaker opponent and you lose more. The size of the change also reflects the margin of
+  victory and the importance of the competition.</p>
+  <p>Ratings are rebuilt from scratch on every update, replaying every match in order from
+  2020 onward. Nothing is incremental, so a correction to an old result propagates properly
+  through everything that followed it.</p>
+
+  <h2>Connecting the leagues</h2>
+  <p>The hard part of a global ranking is not rating clubs within a league &mdash; it is
+  working out how leagues compare to each other. Two mechanisms handle it:</p>
+  <ul>
+    <li><strong>Continental results move whole leagues.</strong> When a club plays in the
+    Champions League, Copa Libertadores or AFC Champions League, the rating swing from that
+    match is applied a second time, spread across every tracked club in the same country and
+    tier. One club's European run lifts &mdash; or drags &mdash; its entire division.</li>
+    <li><strong>Absence has a cost.</strong> A top division that goes a full season with no
+    continental participation at all takes a small one-time decay. A league that stops being
+    tested against the rest of the world stops being able to claim it has kept pace.</li>
+  </ul>
+
+  <h2>Context that matters</h2>
+  <ul>
+    <li><strong>Home advantage</strong> is applied, and set aside entirely for neutral venues
+    &mdash; finals, and clubs forced to host abroad.</li>
+    <li><strong>Promotion and relegation</strong> reseed a club into its new division's real
+    range rather than carrying a rating across tiers unchanged.</li>
+    <li><strong>Long absences</strong> reset a club that has not played in over a year, rather
+    than leaving a stale rating frozen in the table.</li>
+  </ul>
+
+  <h2>Match forecasts</h2>
+  <p>Upcoming fixtures carry win, draw and loss probabilities. Elo alone cannot produce
+  these &mdash; its expected score blends winning and drawing into one number
+  (<code>P(win) + 0.5 &times; P(draw)</code>) and never separates them.</p>
+  <p>The split uses <strong>Davidson's extension of the Bradley&ndash;Terry model</strong>,
+  with the draw parameter fitted by maximum likelihood on this project's own match history
+  rather than assumed. Draws are most likely between evenly matched sides and fall away as the
+  gap widens, which is what actually happens.</p>
+  <div class="callout">
+    <p><strong>How accurate is it?</strong> Fitted on 220,495 historical matches and tested on
+    matches it had never seen, the model predicted draws at 25.1% against an actual rate of
+    25.3%. Across probability bands from 8% to 30%, predicted and actual rates tracked within
+    roughly a point.</p>
+    <p>Continental football behaves differently enough &mdash; fewer draws, and a much flatter
+    relationship with rating gap &mdash; that it gets its own fitted parameters.</p>
+  </div>
+
+  <h2>Updates</h2>
+  <p>The site refreshes daily. Ratings are recalculated from every result available at the
+  time, and the rankings, club pages, forecasts and history charts are all regenerated
+  together.</p>
+
+  <h2>Data</h2>
+  <p>Match results, fixtures and league standings come from API&#8209;Football. League
+  standings are read directly rather than inferred from results, so points deductions and
+  other administrative adjustments are reflected correctly.</p>
+
+  <h2>Who makes it</h2>
+  <p>Matchday Insights is built and maintained by one person &mdash; the rating engine, the
+  data pipeline and the site. If something looks wrong, or a club or competition is missing,
+  <a href="contact.html" style="color:var(--green)">get in touch</a>.</p>
+</main>
+
+<footer class="site-footer"><p>&copy; 2026 Matchday Insights</p></footer>
+</body>
+</html>
