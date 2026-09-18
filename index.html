@@ -4,18 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Matchday Insights | Global Club Rankings</title>
-<meta name="description" content="The most comprehensive global club football rankings. Thousands of clubs ranked by Elo rating, updated every Monday and Thursday.">
+<meta name="description" content="The most comprehensive global club football ranking. Every senior competitive result feeds one Elo model, so every club in the world sits on the same scale.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 <link rel="stylesheet" href="club-page.css?v=e3a8282d">
 <style>
-.hero{padding:40px 20px 28px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(10,20,13,0.6) 0%,transparent 50%)}
-.hero::after{content:'MDI';position:absolute;right:-10px;top:-15px;font-size:160px;font-weight:900;color:rgba(61,186,94,0.04);pointer-events:none;letter-spacing:-6px;line-height:1;font-family:'Barlow Condensed',sans-serif}
+.featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
+.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+.featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
+.fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
+.fmatch:hover{border-color:var(--green-dim)}
+.fmatch-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1px;margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fmatch-side{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
+.fmatch-name:hover{color:var(--green)}
+.fmatch-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex-shrink:0}
+.fmatch-bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin:9px 0 5px}
+.fmatch-bar span{display:block;height:100%}
+.fmatch-pcts{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10px}
+@media(max-width:640px){.featured{padding:12px 16px 4px}.fmatch{min-width:200px}}
+.hero{padding:22px 20px 16px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(10,20,13,0.6) 0%,transparent 50%)}
+.hero::after{content:'MDI';position:absolute;right:-10px;top:-20px;font-size:110px;font-weight:900;color:rgba(61,186,94,0.04);pointer-events:none;letter-spacing:-6px;line-height:1;font-family:'Barlow Condensed',sans-serif}
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
-.hero-title{font-size:clamp(40px,5vw,64px);font-weight:900;line-height:0.92;text-transform:uppercase;margin-bottom:14px;color:var(--text)}
+.hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
-.hero-desc{font-size:15px;color:var(--text2);max-width:500px;line-height:1.55;margin-bottom:22px;font-weight:400}
+.hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-stats{display:flex;gap:28px;flex-wrap:wrap}
 .hstat{display:flex;flex-direction:column;gap:2px}
 .hstat-val{font-size:28px;font-weight:900;color:var(--text);line-height:1}
@@ -98,7 +112,7 @@ td{padding:10px 14px;vertical-align:middle}
 .page-btn:disabled{opacity:0.3;cursor:not-allowed}
 .page-ellipsis{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:0 2px}
 
-@media(max-width:640px){.hero{padding:28px 16px 20px}.controls{padding:10px 16px}}
+@media(max-width:640px){.hero{padding:16px 16px 12px}.controls{padding:10px 16px}}
 </style>
 </head>
 <body>
@@ -117,14 +131,19 @@ td{padding:10px 14px;vertical-align:middle}
 
 <div class="hero">
   <div class="hero-eyebrow" id="hero-eyebrow">&#x2B21; Global Club Football &middot; &mdash; Clubs</div>
-  <h1 class="hero-title">Global<br><em>Club</em><br>Rankings</h1>
-  <p class="hero-desc">The most comprehensive Global club ranking on the internet. Every result across every tracked league updates the model. Updated every Monday and Thursday.</p>
+  <h1 class="hero-title">Global <em>Club</em> Rankings</h1>
+  <p class="hero-desc">The most comprehensive global club football ranking. Every senior competitive result in the world, from the Champions League to the fourth tier, feeds one Elo model. Every club in the world sits on the same scale.</p>
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">2&times;</div><div class="hstat-label">Weekly Updates</div></div>
+    <div class="hstat"><div class="hstat-val">273,060</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
+</div>
+
+<div class="featured" id="featured-wrap" style="display:none">
+  <div class="featured-title">Biggest Upcoming Matches</div>
+  <div class="featured-row" id="featured-row"></div>
 </div>
 
 <div class="controls">
@@ -203,6 +222,38 @@ async function init() {
   document.getElementById('stat-clubs').textContent = CLUBS.length.toLocaleString();
   const leagueCount = new Set(CLUBS.map(c => c.league_code).filter(Boolean)).size;
   document.getElementById('stat-leagues').textContent = leagueCount.toLocaleString() + '+';
+
+// Featured upcoming matches - the five with the highest average rating
+// of the two clubs, from predictions.json. Hidden entirely if that file
+// isn't there, so the page works without the prediction step.
+fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
+  if (!data || !data.featured || !data.featured.length) return;
+  const fmt = p => Math.round(p * 100) + '%';
+  document.getElementById('featured-row').innerHTML = data.featured.map(m => {
+    const d = new Date(m.date);
+    const when = d.toLocaleDateString('en-GB', {day:'numeric', month:'short'});
+    const link = (slug, name) => slug
+      ? `<a class="fmatch-name" href="clubs/${slug}.html">${name}</a>`
+      : `<span class="fmatch-name">${name}</span>`;
+    return `<div class="fmatch">
+      <div class="fmatch-meta">${when} &middot; ${m.competition}</div>
+      <div class="fmatch-side">${link(m.home_slug, m.home_team)}<span class="fmatch-rank">#${m.home_rank}</span></div>
+      <div class="fmatch-side">${link(m.away_slug, m.away_team)}<span class="fmatch-rank">#${m.away_rank}</span></div>
+      <div class="fmatch-bar">
+        <span style="width:${m.p_home*100}%;background:var(--green)"></span>
+        <span style="width:${m.p_draw*100}%;background:#5a6a8c"></span>
+        <span style="width:${m.p_away*100}%;background:var(--red)"></span>
+      </div>
+      <div class="fmatch-pcts">
+        <span style="color:var(--green)">${fmt(m.p_home)}</span>
+        <span style="color:var(--text2)">${fmt(m.p_draw)}</span>
+        <span style="color:var(--red)">${fmt(m.p_away)}</span>
+      </div>
+    </div>`;
+  }).join('');
+  document.getElementById('featured-wrap').style.display = '';
+}).catch(() => {});
+
   document.getElementById('hero-eyebrow').innerHTML = '&#x2B21; Global Club Football &middot; ' + CLUBS.length.toLocaleString() + ' Clubs';
   document.getElementById('update-chip').innerHTML = '&#x2B21; Updated ' + LATEST_UPDATE_DATE;
 
