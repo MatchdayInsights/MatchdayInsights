@@ -138,7 +138,7 @@ td{padding:10px 14px;vertical-align:middle}
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">273,671</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">273,699</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
@@ -229,17 +229,24 @@ async function init() {
 // of the two clubs, from predictions.json. Hidden entirely if that file
 // isn't there, so the page works without the prediction step.
 fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
-  if (!data || !data.featured || !data.featured.length) return;
-  // Filter by kickoff IN THE BROWSER, not at build time. The site is
-  // static, so a page generated at noon would otherwise still be
-  // advertising a 1pm kickoff at 9pm. generate_predictions.py publishes
-  // a deeper pool than the five shown so each match that kicks off is
-  // replaced by the next-biggest instead of leaving a gap.
+  if (!data) return;
+  // Pick the five IN THE BROWSER, from the FULL fixture list, on every
+  // page view. Two earlier versions got this wrong in the same way:
+  // choosing the biggest matches at build time and filtering afterwards
+  // means every one that kicks off is a permanent gap, because the pool
+  // was ranked before anything was removed from it. Ranking what's left
+  // instead always yields five while five remain - and it re-ranks as
+  // the day goes on, so the strip keeps showing the biggest matches
+  // STILL TO COME rather than the biggest of this morning's leftovers.
   const now = Date.now();
-  const upcoming = data.featured
-    .filter(m => { const t = Date.parse(m.date); return isNaN(t) || t > now; })
-    .slice(0, 5);
-  if (!upcoming.length) return;   // everything published has kicked off
+  const pool = (data.fixtures && data.fixtures.length) ? data.fixtures
+                                                       : (data.featured || []);
+  const upcoming = pool
+    .filter(m => { const t = Date.parse(m.date); return !isNaN(t) && t > now; })
+    .sort((a, b) => ((b.home_elo + b.away_elo) - (a.home_elo + a.away_elo)))
+    .slice(0, 5)
+    .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+  if (!upcoming.length) return;   // nothing left in the horizon at all
   const fmt = p => Math.round(p * 100) + '%';
   document.getElementById('featured-row').innerHTML = upcoming.map(m => {
     const d = new Date(m.date);
