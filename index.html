@@ -12,8 +12,8 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Matchday Insights | Global Club Rankings</title>
-<meta name="description" content="The most comprehensive global club football ranking. Every senior competitive result feeds one Elo model, so every club in the world sits on the same scale.">
+<title>Matchday Insights | Global Club Football (Soccer) Rankings &amp; Elo Ratings</title>
+<meta name="description" content="The most comprehensive global club football (soccer) ranking. Every senior competitive result feeds one Elo model, so every club in the world - and every league - sits on the same scale.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
@@ -39,6 +39,8 @@
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
+.hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
+.hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
 .hero-stats{display:flex;gap:28px;flex-wrap:wrap}
 .hstat{display:flex;flex-direction:column;gap:2px}
 .hstat-val{font-size:28px;font-weight:900;color:var(--text);line-height:1}
@@ -126,15 +128,15 @@ td{padding:10px 14px;vertical-align:middle}
 <link rel="canonical" href="https://matchdayinsights.com/">
 <meta property="og:site_name" content="Matchday Insights">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Matchday Insights | Global Club Rankings">
-<meta property="og:description" content="The most comprehensive global club football ranking. Every senior competitive result feeds one Elo model, so every club in the world sits on the same scale.">
+<meta property="og:title" content="Matchday Insights | Global Club Football (Soccer) Rankings &amp; Elo Ratings">
+<meta property="og:description" content="The most comprehensive global club football (soccer) ranking. Every senior competitive result feeds one Elo model, so every club in the world - and every league - sits on the same scale.">
 <meta property="og:url" content="https://matchdayinsights.com/">
 <meta property="og:image" content="https://matchdayinsights.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Matchday Insights | Global Club Rankings">
-<meta name="twitter:description" content="The most comprehensive global club football ranking. Every senior competitive result feeds one Elo model, so every club in the world sits on the same scale.">
+<meta name="twitter:title" content="Matchday Insights | Global Club Football (Soccer) Rankings &amp; Elo Ratings">
+<meta name="twitter:description" content="The most comprehensive global club football (soccer) ranking. Every senior competitive result feeds one Elo model, so every club in the world - and every league - sits on the same scale.">
 <meta name="twitter:image" content="https://matchdayinsights.com/og-image.png">
 </head>
 <body>
@@ -146,6 +148,7 @@ td{padding:10px 14px;vertical-align:middle}
   </div>
   <div class="header-right">
     <span class="update-chip" id="update-chip">&#x2B21; Updated &mdash;</span>
+    <a href="leagues.html" class="ig-link">Leagues</a>
     <a href="compare.html" class="ig-link">Compare Clubs</a>
     <a href="about.html" class="ig-link">About</a>
     <a href="contact.html" class="ig-link">Contact</a>
@@ -156,11 +159,12 @@ td{padding:10px 14px;vertical-align:middle}
 <div class="hero">
   <div class="hero-eyebrow" id="hero-eyebrow">&#x2B21; Global Club Football &middot; &mdash; Clubs</div>
   <h1 class="hero-title">Global <em>Club</em> Rankings</h1>
-  <p class="hero-desc">The most comprehensive global club football ranking. Every senior competitive result, from the Champions League to the fourth tier, feeds one Elo model &mdash; so every club in the world sits on the same scale.</p>
+  <p class="hero-desc">The most comprehensive global club football (soccer) ranking. Every senior competitive result, from the Champions League to the fourth tier, feeds one Elo model &mdash; so every club in the world sits on the same scale.</p>
+  <a class="hero-link" href="leagues.html">League &amp; country rankings &rarr;</a>
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">274,434</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">274,444</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
