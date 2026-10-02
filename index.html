@@ -164,7 +164,7 @@ td{padding:10px 14px;vertical-align:middle}
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">275,523</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">275,526</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
@@ -268,7 +268,10 @@ fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
   const pool = (data.fixtures && data.fixtures.length) ? data.fixtures
                                                        : (data.featured || []);
   const upcoming = pool
-    .filter(m => { const t = Date.parse(m.date); return !isNaN(t) && t > now; })
+    // Only the next 4 days: predictions.json now runs 21 days ahead for the
+    // club pages, and a big match a fortnight away shouldn't take a spot
+    // from this weekend's (Greg, 2026-10).
+    .filter(m => { const t = Date.parse(m.date); return !isNaN(t) && t > now && t <= now + 4 * 86400000; })
     .sort((a, b) => ((b.home_elo + b.away_elo) - (a.home_elo + a.away_elo)))
     .slice(0, 5)
     .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
