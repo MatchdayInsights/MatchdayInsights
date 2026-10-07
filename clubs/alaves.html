@@ -20,6 +20,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 <link rel="stylesheet" href="../club-page.css?v=e3a8282d">
+<style>
+.nav-club{margin-left:auto;display:flex;align-items:center;gap:10px;min-width:0;
+  opacity:0;transform:translateY(-6px);pointer-events:none;
+  transition:opacity .2s,transform .2s;text-decoration:none!important;color:var(--text)}
+.nav-club.on{opacity:1;transform:none;pointer-events:auto}
+.nav-club b{font-size:22px;font-weight:900;letter-spacing:.2px;text-transform:uppercase;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav-club span{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--green);
+  white-space:nowrap;letter-spacing:1px}
+.nav-club .fi{flex:none}
+/* Phones: while scrolled down, the club takes the whole bar */
+@media (max-width:600px){.nav-club b{font-size:19px}.nav-club span{font-size:11px}
+  .site-nav.club-on .nav-logo{display:none}.site-nav.club-on .nav-club{margin-left:0}}
+</style>
 <meta property="og:site_name" content="Matchday Insights">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Alaves — World Ranking #58 &amp; Elo Rating | Matchday Insights">
@@ -40,6 +54,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-es"></span><b>Alaves</b><span>#58 &nbsp;·&nbsp; 1418</span></a>
 </nav>
 
 <main class="club-page">
@@ -382,6 +397,19 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
 <footer class="site-footer">
   <p>&copy; 2026 Matchday Insights &nbsp;·&nbsp; <a href="https://matchdayinsights.com/index.html">Home</a> &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a></p>
 </footer>
-
+<script>(function(){
+var mini=document.getElementById('nav-club'),big=document.querySelector('.club-name');
+if(!mini||!big)return;
+mini.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});
+var nav=mini.parentNode;
+function show(on){mini.classList.toggle('on',on);nav.classList.toggle('club-on',on);
+  mini.setAttribute('aria-hidden',on?'false':'true');}
+if('IntersectionObserver' in window){
+  new IntersectionObserver(function(es){show(!es[0].isIntersecting);},
+    {rootMargin:'-58px 0px 0px 0px'}).observe(big);
+}else{
+  window.addEventListener('scroll',function(){show(big.getBoundingClientRect().bottom<58);});
+}
+})();</script>
 </body>
 </html>
