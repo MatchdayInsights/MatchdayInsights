@@ -21,7 +21,22 @@
 .mx-title{font-size:clamp(28px,4vw,40px);font-weight:900;text-transform:uppercase;line-height:.95;color:var(--text)}
 .mx-sub{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.5px;margin-top:6px}
 
-.days{display:flex;gap:6px;overflow-x:auto;padding:10px 0;scrollbar-width:thin;position:sticky;top:58px;z-index:20;background:var(--bg)}
+/* The date picker: arrows either side, no scrollbar, the dates fading out
+   at the edges rather than looking chopped off (Greg, 2026-10). */
+.days-bar{display:flex;align-items:center;gap:6px;padding:10px 0;position:sticky;top:58px;z-index:20;background:var(--bg)}
+.days{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1 1 auto;min-width:0;
+  scroll-behavior:smooth;scroll-padding:0 28px;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%)}
+.days::-webkit-scrollbar{display:none}
+.days>.day:first-child{margin-left:22px}.days>.day:last-child{margin-right:22px}
+.dnav{flex:none;width:34px;height:46px;border-radius:7px;border:1px solid var(--border2);background:var(--surface2);
+  color:var(--text);font-size:20px;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0 0 2px}
+.dnav:hover:not(:disabled){border-color:var(--green-dim);color:var(--green)}
+.dnav:disabled{opacity:.3;cursor:default}
+.dnav:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+@media(max-width:560px){.dnav{width:28px;height:42px;font-size:17px}}
+@media(prefers-reduced-motion:reduce){.days{scroll-behavior:auto}}
 .day{flex:0 0 auto;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 11px;cursor:pointer;color:var(--text2);text-align:center;min-width:64px}
 .day b{display:block;font-size:14px;font-weight:800;text-transform:uppercase;color:var(--text)}
 .day span{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.5px}
@@ -116,7 +131,11 @@ a.nm:hover{color:var(--green)}
     <h1 class="mx-title">Results &amp; Fixtures</h1>
     <div class="mx-sub" id="sub">Loading&hellip;</div>
   </div>
-  <div class="days" id="days" role="tablist" aria-label="Choose a day"></div>
+  <div class="days-bar">
+    <button class="dnav" id="dprev" type="button" aria-label="Earlier dates">&lsaquo;</button>
+    <div class="days" id="days" role="tablist" aria-label="Choose a day"></div>
+    <button class="dnav" id="dnext" type="button" aria-label="Later dates">&rsaquo;</button>
+  </div>
   <div class="tools">
     <input id="q" type="search" placeholder="Find a club or league" aria-label="Find a club or competition">
     <button id="tog" type="button">Collapse all</button>
@@ -168,7 +187,9 @@ function drawDays(){
   while(k<=INFO.last){keys.push(k);k=addDays(k,1);}
   $('days').innerHTML=keys.map(k=>`<button class="day${k===DAY?' on':''}" role="tab" aria-selected="${k===DAY}" data-k="${k}"><b>${dayLabel(k)}</b><span>${dayDate(k)}</span></button>`).join('');
   const on=$('days').querySelector('.on');
-  if(on)on.scrollIntoView({inline:'center',block:'nearest'});
+  if(on){const d=$('days');d.style.scrollBehavior='auto';
+    d.scrollLeft=on.offsetLeft-(d.clientWidth-on.offsetWidth)/2;d.style.scrollBehavior='';}
+  arrows();
 }
 
 function side(c,cls,lost){
@@ -243,6 +264,19 @@ $('list').addEventListener('keydown',e=>{
   if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('comp-h')){e.preventDefault();e.target.click();}
 });
 $('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(b)show(b.dataset.k);});
+function arrows(){
+  const d=$('days');
+  $('dprev').disabled=d.scrollLeft<=2;
+  $('dnext').disabled=d.scrollLeft+d.clientWidth>=d.scrollWidth-2;
+}
+$('dprev').addEventListener('click',()=>$('days').scrollBy({left:-$('days').clientWidth*0.75}));
+$('dnext').addEventListener('click',()=>$('days').scrollBy({left:$('days').clientWidth*0.75}));
+$('days').addEventListener('scroll',arrows,{passive:true});
+window.addEventListener('resize',arrows);
+// A mouse wheel over the dates moves them sideways (trackpads already do).
+$('days').addEventListener('wheel',e=>{
+  if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){e.preventDefault();$('days').scrollLeft+=e.deltaY;}
+},{passive:false});
 $('q').addEventListener('input',filter);
 $('tog').addEventListener('click',()=>{
   const secs=[...document.querySelectorAll('.comp')];
