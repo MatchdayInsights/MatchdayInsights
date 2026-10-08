@@ -196,3 +196,68 @@ a:hover { text-decoration: underline; }
   .season-bar-track { height: 18px; }
   .season-bars { gap: 7px; }
 }
+
+/* ---------------------------------------------------------------------------
+   Header tabs (Greg, 2026-10: "it doesn't stand out that they are there").
+   One set of rules for every page - the pages' own inline .ig-link styles
+   are older and less specific, so these win. Main tabs are picked out by
+   where they link, so no page's markup needs a new class.
+   --------------------------------------------------------------------------- */
+.site-nav .header-right { display: flex; align-items: center; gap: 4px; margin-left: auto; min-width: 0; }
+.site-nav .header-right .ig-link {
+  font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted);
+  border: 1px solid var(--border2); border-radius: 4px; padding: 4px 9px;
+  white-space: nowrap; text-decoration: none; transition: color .15s, border-color .15s;
+}
+.site-nav .header-right .ig-link:hover { color: var(--green); border-color: var(--green-dim); }
+.site-nav .header-right .ig-link[href$="index.html"],
+.site-nav .header-right .ig-link[href$="matches.html"],
+.site-nav .header-right .ig-link[href$="leagues.html"],
+.site-nav .header-right .ig-link[href$="compare.html"] {
+  font-family: 'Barlow Condensed', sans-serif; font-size: 17px; font-weight: 800;
+  letter-spacing: .6px; text-transform: uppercase; color: var(--text);
+  border: 0; border-radius: 0; padding: 0 12px; height: 56px; line-height: 56px;
+  position: relative;
+}
+.site-nav .header-right .ig-link[href$="compare.html"] { margin-right: 10px; }
+.site-nav .header-right .ig-link[href$="index.html"]:hover,
+.site-nav .header-right .ig-link[href$="matches.html"]:hover,
+.site-nav .header-right .ig-link[href$="leagues.html"]:hover,
+.site-nav .header-right .ig-link[href$="compare.html"]:hover { color: var(--green); background: rgba(61,186,94,.06); }
+.site-nav .header-right .ig-link.on { color: var(--green); }
+.site-nav .header-right .ig-link.on::before {
+  content: ""; position: absolute; left: 10px; right: 10px; bottom: -2px; height: 3px;
+  background: var(--green); border-radius: 2px 2px 0 0;
+}
+.site-nav .header-right .ig-link:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
+/* NEW tag on Matches - delete this rule once it's been live a few weeks. */
+.site-nav .header-right .ig-link[href$="matches.html"]::after {
+  content: "NEW"; font-family: 'JetBrains Mono', monospace; font-size: 8px; font-weight: 700;
+  letter-spacing: .5px; color: #050a07; background: var(--green); border-radius: 3px;
+  padding: 1px 4px; margin-left: 5px; vertical-align: 3px;
+}
+@media (max-width: 900px) {
+  .site-nav .header-right .update-chip { display: none; }
+}
+@media (max-width: 640px) {
+  .site-nav { padding: 0 12px; }
+  .site-nav .nav-sub { display: none; }
+  .site-nav .nav-brand { font-size: 15px; letter-spacing: 1px; }
+  .site-nav .header-right { gap: 0; overflow-x: auto; scrollbar-width: none; }
+  .site-nav .header-right::-webkit-scrollbar { display: none; }
+  .site-nav .header-right .ig-link { display: none; }
+  .site-nav .header-right .ig-link[href$="index.html"],
+  .site-nav .header-right .ig-link[href$="matches.html"],
+  .site-nav .header-right .ig-link[href$="leagues.html"] {
+    display: inline-block; font-size: 14px; padding: 0 7px; letter-spacing: .3px;
+  }
+  .site-nav .header-right .ig-link[href$="matches.html"]::after {
+    content: ""; width: 6px; height: 6px; padding: 0; border-radius: 50%;
+    display: inline-block; margin-left: 3px; vertical-align: 6px;
+  }
+  /* On a club page, the scrolled-in club name takes the header's space. */
+  .site-nav.club-on .header-right { display: none; }
+}
+/* The header's tabs keep their size; a long club name in the bar shrinks instead. */
+.site-nav .header-right { flex: none; }
+.site-nav .nav-club { flex: 0 1 auto; }
