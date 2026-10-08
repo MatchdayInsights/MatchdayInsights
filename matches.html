@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Results &amp; Fixtures | Matchday Insights</title>
+<meta name="description" content="Football results and fixtures from leagues and cups worldwide, with world rankings, win odds and rating changes for every match.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+<link rel="stylesheet" href="club-page.css">
+<style>
+[hidden]{display:none!important}
+.header-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+.ig-link{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);text-decoration:none;border:1px solid var(--border2);padding:4px 10px;border-radius:4px;white-space:nowrap}
+.ig-link:hover,.ig-link.on{border-color:var(--green-dim);color:var(--green);text-decoration:none}
+@media(max-width:640px){.ig-link:not(.on){display:none}}
+
+.mx{max-width:860px;margin:0 auto;padding:0 16px 40px}
+.mx-head{padding:20px 0 10px}
+.mx-title{font-size:clamp(28px,4vw,40px);font-weight:900;text-transform:uppercase;line-height:.95;color:var(--text)}
+.mx-sub{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.5px;margin-top:6px}
+
+.days{display:flex;gap:6px;overflow-x:auto;padding:10px 0;scrollbar-width:thin;position:sticky;top:58px;z-index:20;background:var(--bg)}
+.day{flex:0 0 auto;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 11px;cursor:pointer;color:var(--text2);text-align:center;min-width:64px}
+.day b{display:block;font-size:14px;font-weight:800;text-transform:uppercase;color:var(--text)}
+.day span{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.5px}
+.day:hover{border-color:var(--green-dim)}
+.day.on{background:var(--green);border-color:var(--green)}
+.day.on b,.day.on span{color:#050a07}
+.day:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+
+.tools{display:flex;gap:8px;align-items:center;margin:4px 0 12px;flex-wrap:wrap}
+.tools input{flex:1;min-width:160px;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none}
+.tools input:focus{border-color:var(--green-dim)}
+.tools button{background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px;color:var(--text2);font-family:'JetBrains Mono',monospace;font-size:10px;cursor:pointer}
+.tools button:hover{border-color:var(--green-dim);color:var(--text)}
+.count{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);white-space:nowrap}
+
+.comp{border:1px solid var(--border);border-radius:9px;margin-bottom:10px;overflow:hidden;background:var(--surface)}
+.comp-h{display:flex;align-items:center;gap:8px;padding:9px 12px;cursor:pointer;background:var(--surface2);user-select:none}
+.comp-h .fi{border-radius:2px;flex:none}
+.comp-h .glb{width:18px;text-align:center;flex:none;font-size:12px;color:var(--muted)}
+.comp-n{font-size:15px;font-weight:800;text-transform:uppercase;color:var(--text);min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.comp-c{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:.5px;white-space:nowrap}
+.comp-h a{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--green);margin-left:auto;white-space:nowrap}
+.comp-h .chev{font-size:10px;color:var(--muted);transition:transform .15s;flex:none}
+.comp-h a+.chev{margin-left:8px}
+.comp-h .chev:first-of-type:last-child{margin-left:auto}
+.comp.shut .chev{transform:rotate(-90deg)}
+.comp.shut .rows{display:none}
+
+.m{display:grid;grid-template-columns:52px minmax(0,1fr) 62px minmax(0,1fr);align-items:center;gap:8px;padding:9px 12px;border-top:1px solid var(--border)}
+.m-t{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);line-height:1.3}
+.m-t .ft{color:var(--muted)}
+.m-t .lv{color:var(--red);font-weight:700}
+.m-t .off{color:var(--muted);font-size:9px}
+.side{display:flex;align-items:center;gap:6px;min-width:0}
+.side.h{justify-content:flex-end;text-align:right}
+.nm{font-size:14px;font-weight:700;text-transform:uppercase;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;text-decoration:none}
+a.nm:hover{color:var(--green)}
+.nm.lost{color:var(--text2);font-weight:600}
+.rk{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex:none}
+.dl{font-family:'JetBrains Mono',monospace;font-size:9px;flex:none}
+.dl.p{color:var(--green)} .dl.n{color:var(--red)}
+.mid{text-align:center}
+.sc{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:900;color:var(--text);letter-spacing:1px;font-variant-numeric:tabular-nums}
+.sc.live{color:var(--red)}
+.mid .x{display:block;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--muted);letter-spacing:.5px}
+.ko{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text2)}
+.odds{grid-column:2/5;justify-self:center;display:grid;grid-template-columns:34px 200px 34px;align-items:center;column-gap:8px;margin-top:-3px}
+.odds .pc:first-child{text-align:right}
+.odds .dr{grid-column:2;text-align:center;font-family:'JetBrains Mono',monospace;font-size:8.5px;color:var(--muted);margin-top:2px}
+.bar{display:flex;height:5px;border-radius:3px;overflow:hidden}
+.bar span{display:block;height:100%}
+.pc{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.pc b{color:var(--text2);font-weight:600}
+.up{grid-column:2/5;justify-self:center;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.5px;color:#f07800;border:1px solid rgba(240,120,0,.45);background:rgba(240,120,0,.1);border-radius:4px;padding:1px 7px;margin-top:-2px}
+.empty{padding:50px 10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+.key{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--muted);line-height:1.6;margin-top:14px}
+@media(max-width:560px){
+  .m{grid-template-columns:44px minmax(0,1fr) 54px minmax(0,1fr);gap:6px;padding:9px 10px}
+  .ko{font-size:11px;white-space:nowrap}
+  .nm{font-size:13px;white-space:normal;line-height:1.1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .rk{display:none}
+  .side{flex-direction:column;align-items:flex-start;gap:1px}
+  .side.h{align-items:flex-end}
+  .side .dl{order:2}
+  .odds{grid-column:1/5;grid-template-columns:34px minmax(0,200px) 34px}
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a class="nav-logo" href="index.html" style="text-decoration:none">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </a>
+  <div class="header-right">
+    <a href="index.html" class="ig-link">Rankings</a>
+    <a href="matches.html" class="ig-link on">Matches</a>
+    <a href="leagues.html" class="ig-link">Leagues</a>
+    <a href="compare.html" class="ig-link">Compare Clubs</a>
+    <a href="about.html" class="ig-link">About</a>
+    <a href="https://x.com/MDInsights_FC" class="ig-link" target="_blank" rel="noopener">@MDInsights_FC</a>
+  </div>
+</nav>
+
+<main class="mx">
+  <div class="mx-head">
+    <h1 class="mx-title">Results &amp; Fixtures</h1>
+    <div class="mx-sub" id="sub">Loading&hellip;</div>
+  </div>
+  <div class="days" id="days" role="tablist" aria-label="Choose a day"></div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Find a club or league" aria-label="Find a club or competition">
+    <button id="tog" type="button">Collapse all</button>
+    <span class="count" id="count"></span>
+  </div>
+  <div id="list"><div class="empty">Loading matches&hellip;</div></div>
+  <p class="key">#86 = world rank in our ratings. Under results: rating points each club gained or lost.
+  Bars on upcoming matches: our chances for the home win, draw and away win.
+  UPSET = the winner had less than a 30% chance in our model.</p>
+</main>
+
+<script>
+const HOME='#3dba5e', DRAW='#5a6a8c', AWAY='#e5484d';
+let INFO=null, DAY=null, OPEN={}, CACHE={};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pad=n=>String(n).padStart(2,'0');
+const localKey=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+function addDays(key,n){const [y,m,d]=key.split('-').map(Number);const t=new Date(y,m-1,d+n);return localKey(t);}
+
+async function getUtcDay(key){
+  if(key in CACHE)return CACHE[key];
+  if(!INFO.days.includes(key))return CACHE[key]=[];
+  try{const r=await fetch(`matches/${key}.json`);CACHE[key]=r.ok?await r.json():[];}
+  catch(e){CACHE[key]=[];}
+  return CACHE[key];
+}
+
+// A local day can span two UTC days, so fetch the neighbours and keep the
+// matches whose kickoff falls on this day in the viewer's own time zone.
+async function matchesOn(key){
+  const lists=await Promise.all([addDays(key,-1),key,addDays(key,1)].map(getUtcDay));
+  return lists.flat().filter(m=>localKey(new Date(m.t.replace('Z',':00Z')))===key);
+}
+
+function dayLabel(key){
+  const today=localKey(new Date());
+  if(key===today)return 'Today';
+  if(key===addDays(today,-1))return 'Yesterday';
+  if(key===addDays(today,1))return 'Tomorrow';
+  const [y,m,d]=key.split('-').map(Number);
+  return new Date(y,m-1,d).toLocaleDateString(undefined,{weekday:'short'});
+}
+function dayDate(key){const [y,m,d]=key.split('-').map(Number);
+  return new Date(y,m-1,d).toLocaleDateString(undefined,{day:'numeric',month:'short'});}
+
+function drawDays(){
+  const keys=[];let k=INFO.first;
+  while(k<=INFO.last){keys.push(k);k=addDays(k,1);}
+  $('days').innerHTML=keys.map(k=>`<button class="day${k===DAY?' on':''}" role="tab" aria-selected="${k===DAY}" data-k="${k}"><b>${dayLabel(k)}</b><span>${dayDate(k)}</span></button>`).join('');
+  const on=$('days').querySelector('.on');
+  if(on)on.scrollIntoView({inline:'center',block:'nearest'});
+}
+
+function side(c,cls,lost){
+  const name=c.s?`<a class="nm${lost?' lost':''}" href="clubs/${esc(c.s)}.html">${esc(c.n)}</a>`
+                :`<span class="nm${lost?' lost':''}">${esc(c.n)}</span>`;
+  const rk=c.r?`<span class="rk">#${c.r}</span>`:'';
+  const d=(c.d!==undefined)?`<span class="dl ${c.d>=0?'p':'n'}">${c.d>=0?'+':''}${c.d.toFixed(1)}</span>`:'';
+  return cls==='h'?`<div class="side h">${d}${rk}${name}</div>`:`<div class="side">${name}${rk}${d}</div>`;
+}
+
+function row(m){
+  const ko=new Date(m.t.replace('Z',':00Z'));
+  const time=ko.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});
+  let t='',mid='',extra='';
+  const hl=m.sc&&m.st==='ft'&&m.sc[0]<m.sc[1], al=m.sc&&m.st==='ft'&&m.sc[0]>m.sc[1];
+  if(m.st==='ft'){t='<span class="ft">FT</span>';mid=`<span class="sc">${m.sc?m.sc.join(' - '):'-'}</span>${m.x?`<span class="x">${m.x==='pens'?'PENS':'AET'}</span>`:''}`;}
+  else if(m.st==='live'){t='<span class="lv">LIVE</span>';mid=`<span class="sc live">${m.sc?m.sc.join(' - '):'-'}</span><span class="x">AT UPDATE</span>`;}
+  else if(m.st==='off'){t=`<span class="off">${esc(m.x).toUpperCase()}</span>`;mid='<span class="ko">-</span>';}
+  else{
+    const started=ko<new Date();
+    t=started?'<span class="ft">Result<br>to come</span>':'';
+    mid=`<span class="ko">${m.st==='tbc'?'TBC':esc(time)}</span>`;
+    if(m.o){
+      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%"><span class="pc"><b>${m.o[0]}%</b></span><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"></span><span style="width:${m.o[1]}%;background:${DRAW}"></span><span style="width:${m.o[2]}%;background:${AWAY}"></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">draw ${m.o[1]}%</span></div>`;
+    }
+  }
+  if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
+  return `<div class="m" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}"><div class="m-t">${t}</div>${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
+}
+
+async function show(key){
+  DAY=key;
+  try{history.replaceState(null,'','#'+key);}catch(e){}
+  drawDays();
+  $('list').innerHTML='<div class="empty">Loading matches&hellip;</div>';
+  const ms=await matchesOn(key);
+  if(DAY!==key)return;
+  const groups={};
+  for(const m of ms)(groups[m.c]=groups[m.c]||[]).push(m);
+  const ids=Object.keys(groups).sort((a,b)=>((INFO.comps[a]||{}).o??999)-((INFO.comps[b]||{}).o??999));
+  if(!ids.length){$('list').innerHTML='<div class="empty">No matches in our competitions on this day.</div>';$('count').textContent='';return;}
+  $('list').innerHTML=ids.map(id=>{
+    const c=INFO.comps[id]||{name:'Competition',country:''};
+    const flag=c.flag?`<span class="fi fi-${esc(c.flag)}"></span>`:'<span class="glb" aria-hidden="true">&#127760;</span>';
+    const link=c.page?`<a href="${esc(c.page)}">TABLE &amp; RATINGS &rsaquo;</a>`:'';
+    const shut=OPEN[id]===false?' shut':'';
+    return `<section class="comp${shut}" data-id="${id}" data-q="${esc((c.name+' '+c.country).toLowerCase())}"><div class="comp-h" role="button" tabindex="0" aria-expanded="${!shut}">${flag}<span class="comp-n">${esc(c.name)}</span><span class="comp-c">${esc(c.country)}</span>${link}<span class="chev" aria-hidden="true">&#9662;</span></div><div class="rows">${groups[id].map(row).join('')}</div></section>`;
+  }).join('');
+  filter();
+}
+
+function filter(){
+  const q=$('q').value.toLowerCase().trim();
+  let n=0;
+  document.querySelectorAll('.comp').forEach(sec=>{
+    const compHit=!q||sec.dataset.q.includes(q);
+    let any=false;
+    sec.querySelectorAll('.m').forEach(r=>{const hit=compHit||r.dataset.q.includes(q);r.hidden=!hit;if(hit){any=true;n++;}});
+    sec.hidden=!any;
+    if(q&&any)sec.classList.remove('shut');
+  });
+  $('count').textContent=n?`${n} match${n===1?'':'es'}`:'';
+}
+
+$('list').addEventListener('click',e=>{
+  const h=e.target.closest('.comp-h');
+  if(!h||e.target.closest('a'))return;
+  const sec=h.parentElement;sec.classList.toggle('shut');
+  OPEN[sec.dataset.id]=!sec.classList.contains('shut');
+  h.setAttribute('aria-expanded',OPEN[sec.dataset.id]);
+});
+$('list').addEventListener('keydown',e=>{
+  if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('comp-h')){e.preventDefault();e.target.click();}
+});
+$('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(b)show(b.dataset.k);});
+$('q').addEventListener('input',filter);
+$('tog').addEventListener('click',()=>{
+  const secs=[...document.querySelectorAll('.comp')];
+  const close=secs.some(s=>!s.classList.contains('shut'));
+  secs.forEach(s=>{s.classList.toggle('shut',close);OPEN[s.dataset.id]=!close;});
+  $('tog').textContent=close?'Expand all':'Collapse all';
+});
+
+(async()=>{
+  try{INFO=await (await fetch('matches/days.json')).json();}
+  catch(e){$('list').innerHTML='<div class="empty">Couldn\'t load the matches. Try refreshing the page.</div>';return;}
+  const built=new Date(INFO.built.replace('Z',':00Z'));
+  $('sub').textContent=`Times in your time zone. Scores as of our last update, ${built.toLocaleString(undefined,{weekday:'short',hour:'2-digit',minute:'2-digit'})}.`;
+  const want=location.hash.slice(1), today=localKey(new Date());
+  const start=/^\d{4}-\d{2}-\d{2}$/.test(want)&&want>=INFO.first&&want<=INFO.last?want
+             :(today<INFO.first?INFO.first:today>INFO.last?INFO.last:today);
+  show(start);
+})();
+</script>
+</body>
+</html>
