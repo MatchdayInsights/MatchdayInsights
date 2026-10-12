@@ -212,6 +212,7 @@ a:hover { text-decoration: underline; }
 .site-nav .header-right .ig-link:hover { color: var(--green); border-color: var(--green-dim); }
 .site-nav .header-right .ig-link[href$="index.html"],
 .site-nav .header-right .ig-link[href$="matches.html"],
+.site-nav .header-right .ig-link[href$="predictions.html"],
 .site-nav .header-right .ig-link[href$="leagues.html"],
 .site-nav .header-right .ig-link[href$="compare.html"] {
   font-family: 'Barlow Condensed', sans-serif; font-size: 17px; font-weight: 800;
@@ -222,6 +223,7 @@ a:hover { text-decoration: underline; }
 .site-nav .header-right .ig-link[href$="compare.html"] { margin-right: 10px; }
 .site-nav .header-right .ig-link[href$="index.html"]:hover,
 .site-nav .header-right .ig-link[href$="matches.html"]:hover,
+.site-nav .header-right .ig-link[href$="predictions.html"]:hover,
 .site-nav .header-right .ig-link[href$="leagues.html"]:hover,
 .site-nav .header-right .ig-link[href$="compare.html"]:hover { color: var(--green); background: rgba(61,186,94,.06); }
 .site-nav .header-right .ig-link.on { color: var(--green); }
@@ -231,13 +233,24 @@ a:hover { text-decoration: underline; }
 }
 .site-nav .header-right .ig-link:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
 /* NEW tag on Matches - delete this rule once it's been live a few weeks. */
-.site-nav .header-right .ig-link[href$="matches.html"]::after {
+.site-nav .header-right .ig-link[href$="predictions.html"]::after {
   content: "NEW"; font-family: 'JetBrains Mono', monospace; font-size: 8px; font-weight: 700;
   letter-spacing: .5px; color: #050a07; background: var(--green); border-radius: 3px;
   padding: 1px 4px; margin-left: 5px; vertical-align: 3px;
 }
-@media (max-width: 900px) {
+/* Five main tabs since Predictions (Greg, 2026-10): keep the logo on one
+   line and drop the "Updated" chip before the bar gets crowded. */
+@media (min-width: 641px) { .site-nav .nav-brand { white-space: nowrap; } }
+@media (max-width: 1440px) {
   .site-nav .header-right .update-chip { display: none; }
+}
+@media (max-width: 1180px) {
+  .site-nav .header-right .ig-link[href$="index.html"],
+  .site-nav .header-right .ig-link[href$="matches.html"],
+  .site-nav .header-right .ig-link[href$="predictions.html"],
+  .site-nav .header-right .ig-link[href$="leagues.html"],
+  .site-nav .header-right .ig-link[href$="compare.html"] { padding: 0 8px; font-size: 16px; }
+  .site-nav .header-right .ig-link[href*="x.com/"] { display: none; }
 }
 @media (max-width: 640px) {
   .site-nav { padding: 0 12px; }
@@ -248,10 +261,10 @@ a:hover { text-decoration: underline; }
   .site-nav .header-right .ig-link { display: none; }
   .site-nav .header-right .ig-link[href$="index.html"],
   .site-nav .header-right .ig-link[href$="matches.html"],
-  .site-nav .header-right .ig-link[href$="leagues.html"] {
-    display: inline-block; font-size: 14px; padding: 0 7px; letter-spacing: .3px;
+  .site-nav .header-right .ig-link[href$="predictions.html"] {
+    display: inline-block; font-size: 14px; padding: 0 6px; letter-spacing: .2px;
   }
-  .site-nav .header-right .ig-link[href$="matches.html"]::after {
+  .site-nav .header-right .ig-link[href$="predictions.html"]::after {
     content: ""; width: 6px; height: 6px; padding: 0; border-radius: 50%;
     display: inline-block; margin-left: 3px; vertical-align: 6px;
   }
