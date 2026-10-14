@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T03:15:56+00:00",
+  "generated": "2026-10-14T03:52:38+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -294,29 +294,6 @@
   ],
   "fixtures": [
     {
-      "fixture_id": "1639863",
-      "date": "2026-10-14T00:30:00+00:00",
-      "competition": "CONMEBOL Sudamericana",
-      "competition_type": "continental",
-      "country": "World",
-      "round": "Semi-finals",
-      "status": "NS",
-      "home_team_id": "451",
-      "home_team": "Boca Juniors",
-      "home_slug": "boca-juniors-arg",
-      "home_rank": 158,
-      "home_elo": 1275.2,
-      "away_team_id": "133",
-      "away_team": "Vasco DA Gama",
-      "away_slug": "vasco-da-gama",
-      "away_rank": 249,
-      "away_elo": 1191.1,
-      "p_home": 0.5649,
-      "p_draw": 0.2174,
-      "p_away": 0.2178,
-      "expected_score": 0.6736
-    },
-    {
       "fixture_id": "1549812",
       "date": "2026-10-14T01:30:00+00:00",
       "competition": "Primera A",
@@ -346,7 +323,7 @@
       "competition_type": "league",
       "country": "Costa-Rica",
       "round": "Apertura - 11",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "823",
       "home_team": "San Carlos",
       "home_slug": "san-carlos",
