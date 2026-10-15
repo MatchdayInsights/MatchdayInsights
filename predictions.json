@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T21:06:34+00:00",
+  "generated": "2026-10-15T23:03:14+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "league",
       "country": "Guatemala",
       "round": "Regular Season - 14",
-      "status": "NS",
+      "status": "2H",
       "home_team_id": "3657",
       "home_team": "Cobán Imperial",
       "home_slug": "coban-imperial",
@@ -107817,6 +107817,52 @@
       "p_draw": 0.2733,
       "p_away": 0.4589,
       "expected_score": 0.4044
+    },
+    {
+      "fixture_id": "1492447",
+      "date": "2026-11-05T22:30:00+00:00",
+      "competition": "Serie A",
+      "competition_type": "league",
+      "country": "Brazil",
+      "round": "Regular Season - 34",
+      "status": "NS",
+      "home_team_id": "121",
+      "home_team": "Palmeiras",
+      "home_slug": "palmeiras",
+      "home_rank": 104,
+      "home_elo": 1349.9,
+      "away_team_id": "1198",
+      "away_team": "Remo",
+      "away_slug": "remo",
+      "away_rank": 747,
+      "away_elo": 1027.4,
+      "p_home": 0.7635,
+      "p_draw": 0.1514,
+      "p_away": 0.0851,
+      "expected_score": 0.8392
+    },
+    {
+      "fixture_id": "1645457",
+      "date": "2026-11-05T23:00:00+00:00",
+      "competition": "Copa de la División Profesional",
+      "competition_type": "cup",
+      "country": "Bolivia",
+      "round": "Quarter-finals",
+      "status": "NS",
+      "home_team_id": "3702",
+      "home_team": "Bolívar",
+      "home_slug": "bolivar",
+      "home_rank": 359,
+      "home_elo": 1142.9,
+      "away_team_id": "3708",
+      "away_team": "Real Potosí",
+      "away_slug": "real-potosi",
+      "away_rank": 1358,
+      "away_elo": 902.1,
+      "p_home": 0.6899,
+      "p_draw": 0.187,
+      "p_away": 0.1231,
+      "expected_score": 0.7834
     }
   ]
 }
