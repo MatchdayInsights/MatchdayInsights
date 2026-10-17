@@ -7,15 +7,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Le Havre — World Ranking #180 &amp; Elo Rating | Matchday Insights</title>
-<meta name="description" content="Le Havre (France) are ranked #180 of 3,219 football (soccer) clubs worldwide and #17 in France, with an Elo rating of 1255.8. Rating history, recent results and match forecasts.">
+<meta name="description" content="Le Havre (France) are ranked #180 of 3,218 football (soccer) clubs worldwide and #17 in France, with an Elo rating of 1255.8. Rating history, recent results and match forecasts.">
 <link rel="canonical" href="https://matchdayinsights.com/clubs/le-havre.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Matchday Insights">
 <meta property="og:title" content="Le Havre — World Ranking #180 &amp; Elo Rating | Matchday Insights">
-<meta property="og:description" content="Le Havre (France) are ranked #180 of 3,219 football (soccer) clubs worldwide and #17 in France, with an Elo rating of 1255.8. Rating history, recent results and match forecasts.">
+<meta property="og:description" content="Le Havre (France) are ranked #180 of 3,218 football (soccer) clubs worldwide and #17 in France, with an Elo rating of 1255.8. Rating history, recent results and match forecasts.">
 <meta property="og:url" content="https://matchdayinsights.com/clubs/le-havre.html">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Le Havre", "sport": "Soccer", "url": "https://matchdayinsights.com/clubs/le-havre.html", "description": "Le Havre (France) are ranked #180 of 3,219 football (soccer) clubs worldwide and #17 in France, with an Elo rating of 1255.8. Rating history, recent results and match forecasts.", "location": {"@type": "Country", "name": "France"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Le Havre", "sport": "Soccer", "url": "https://matchdayinsights.com/clubs/le-havre.html", "description": "Le Havre (France) are ranked #180 of 3,218 football (soccer) clubs worldwide and #17 in France, with an Elo rating of 1255.8. Rating history, recent results and match forecasts.", "location": {"@type": "Country", "name": "France"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
@@ -42,7 +42,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
-  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-fr"></span><b>Le Havre</b><span>#180 &nbsp;·&nbsp; 1256</span></a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-fr"></span><b>Le Havre</b><span><i data-live="rank" style="font-style:normal">#180</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">1256</i></span></a>
   <div class="header-right">
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
@@ -52,12 +52,12 @@
   </div>
 </nav>
 
-<main class="club-page">
+<main class="club-page" data-tid="111">
   <a class="back-to-rankings" href="../index.html">← See Full Rankings</a>
   <div class="club-header">
     <div class="club-meta"><span class="fi fi-fr"></span> <a href="../countries/france.html" style="color: inherit;">France</a> &nbsp;·&nbsp; <a href="../leagues/france-ligue-1.html" style="color: inherit;">Ligue 1</a></div>
     <h1 class="club-name">Le Havre</h1>
-    <div class="club-rank">Rank #180 &nbsp;·&nbsp; UEFA #167 &nbsp;·&nbsp; France #17 &nbsp;·&nbsp; Elo 1255.8</div>
+    <div class="club-rank">Rank <span data-live="rank">#180</span> &nbsp;·&nbsp; UEFA <span data-live="conf">#167</span> &nbsp;·&nbsp; France <span data-live="ctry">#17</span> &nbsp;·&nbsp; Elo <span data-live="elo">1255.8</span></div>
   </div>
 
   <div class="stats-grid">
@@ -414,6 +414,16 @@ if('IntersectionObserver' in window){
 }else{
   window.addEventListener('scroll',function(){show(big.getBoundingClientRect().bottom<58);});
 }
+})();</script>
+<script>(function(){
+  var m=document.querySelector('main[data-tid]'); if(!m||!window.fetch) return;
+  var tid=m.getAttribute('data-tid');
+  fetch('../live_ranks.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).then(function(d){
+    if(!d||!d.c||!d.c[tid]) return; var v=d.c[tid];
+    var vals={rank:'#'+v[0], elo:v[1].toFixed(1), elo0:Math.round(v[1]), conf:v[2]?'#'+v[2]:null, ctry:v[3]?'#'+v[3]:null};
+    document.querySelectorAll('[data-live]').forEach(function(e){
+      var k=e.getAttribute('data-live'); if(vals[k]!=null) e.textContent=vals[k]; });
+  }).catch(function(){});
 })();</script>
 </body>
 </html>

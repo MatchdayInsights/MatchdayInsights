@@ -7,15 +7,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Borussia Mönchengladbach — World Ranking #137 &amp; Elo Rating | Matchday Insights</title>
-<meta name="description" content="Borussia Mönchengladbach (Germany) are ranked #137 of 3,219 football (soccer) clubs worldwide and #15 in Germany, with an Elo rating of 1309.1. Rating history, recent results and match forecasts.">
+<meta name="description" content="Borussia Mönchengladbach (Germany) are ranked #137 of 3,218 football (soccer) clubs worldwide and #15 in Germany, with an Elo rating of 1309.1. Rating history, recent results and match forecasts.">
 <link rel="canonical" href="https://matchdayinsights.com/clubs/borussia-monchengladbach.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Matchday Insights">
 <meta property="og:title" content="Borussia Mönchengladbach — World Ranking #137 &amp; Elo Rating | Matchday Insights">
-<meta property="og:description" content="Borussia Mönchengladbach (Germany) are ranked #137 of 3,219 football (soccer) clubs worldwide and #15 in Germany, with an Elo rating of 1309.1. Rating history, recent results and match forecasts.">
+<meta property="og:description" content="Borussia Mönchengladbach (Germany) are ranked #137 of 3,218 football (soccer) clubs worldwide and #15 in Germany, with an Elo rating of 1309.1. Rating history, recent results and match forecasts.">
 <meta property="og:url" content="https://matchdayinsights.com/clubs/borussia-monchengladbach.html">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Borussia M\u00f6nchengladbach", "sport": "Soccer", "url": "https://matchdayinsights.com/clubs/borussia-monchengladbach.html", "description": "Borussia M\u00f6nchengladbach (Germany) are ranked #137 of 3,219 football (soccer) clubs worldwide and #15 in Germany, with an Elo rating of 1309.1. Rating history, recent results and match forecasts.", "location": {"@type": "Country", "name": "Germany"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Borussia M\u00f6nchengladbach", "sport": "Soccer", "url": "https://matchdayinsights.com/clubs/borussia-monchengladbach.html", "description": "Borussia M\u00f6nchengladbach (Germany) are ranked #137 of 3,218 football (soccer) clubs worldwide and #15 in Germany, with an Elo rating of 1309.1. Rating history, recent results and match forecasts.", "location": {"@type": "Country", "name": "Germany"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
@@ -42,7 +42,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
-  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-de"></span><b>Borussia Mönchengladbach</b><span>#137 &nbsp;·&nbsp; 1309</span></a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-de"></span><b>Borussia Mönchengladbach</b><span><i data-live="rank" style="font-style:normal">#137</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">1309</i></span></a>
   <div class="header-right">
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
@@ -52,12 +52,12 @@
   </div>
 </nav>
 
-<main class="club-page">
+<main class="club-page" data-tid="163">
   <a class="back-to-rankings" href="../index.html">← See Full Rankings</a>
   <div class="club-header">
     <div class="club-meta"><span class="fi fi-de"></span> <a href="../countries/germany.html" style="color: inherit;">Germany</a> &nbsp;·&nbsp; <a href="../leagues/germany-bundesliga.html" style="color: inherit;">Bundesliga</a></div>
     <h1 class="club-name">Borussia Mönchengladbach</h1>
-    <div class="club-rank">Rank #137 &nbsp;·&nbsp; UEFA #130 &nbsp;·&nbsp; Germany #15 &nbsp;·&nbsp; Elo 1309.1</div>
+    <div class="club-rank">Rank <span data-live="rank">#137</span> &nbsp;·&nbsp; UEFA <span data-live="conf">#130</span> &nbsp;·&nbsp; Germany <span data-live="ctry">#15</span> &nbsp;·&nbsp; Elo <span data-live="elo">1309.1</span></div>
   </div>
 
   <div class="stats-grid">
@@ -516,6 +516,16 @@ if('IntersectionObserver' in window){
 }else{
   window.addEventListener('scroll',function(){show(big.getBoundingClientRect().bottom<58);});
 }
+})();</script>
+<script>(function(){
+  var m=document.querySelector('main[data-tid]'); if(!m||!window.fetch) return;
+  var tid=m.getAttribute('data-tid');
+  fetch('../live_ranks.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).then(function(d){
+    if(!d||!d.c||!d.c[tid]) return; var v=d.c[tid];
+    var vals={rank:'#'+v[0], elo:v[1].toFixed(1), elo0:Math.round(v[1]), conf:v[2]?'#'+v[2]:null, ctry:v[3]?'#'+v[3]:null};
+    document.querySelectorAll('[data-live]').forEach(function(e){
+      var k=e.getAttribute('data-live'); if(vals[k]!=null) e.textContent=vals[k]; });
+  }).catch(function(){});
 })();</script>
 </body>
 </html>

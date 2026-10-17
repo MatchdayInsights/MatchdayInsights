@@ -7,15 +7,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tahiti United — World Ranking #3,471 &amp; Elo Rating | Matchday Insights</title>
-<meta name="description" content="Tahiti United (Tahiti) are ranked #3,471 of 3,219 football (soccer) clubs worldwide and #1 in Tahiti, with an Elo rating of 378.2. Rating history, recent results and match forecasts.">
+<meta name="description" content="Tahiti United (Tahiti) are ranked #3,471 of 3,218 football (soccer) clubs worldwide and #1 in Tahiti, with an Elo rating of 378.2. Rating history, recent results and match forecasts.">
 <link rel="canonical" href="https://matchdayinsights.com/clubs/tahiti-united.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Matchday Insights">
 <meta property="og:title" content="Tahiti United — World Ranking #3,471 &amp; Elo Rating | Matchday Insights">
-<meta property="og:description" content="Tahiti United (Tahiti) are ranked #3,471 of 3,219 football (soccer) clubs worldwide and #1 in Tahiti, with an Elo rating of 378.2. Rating history, recent results and match forecasts.">
+<meta property="og:description" content="Tahiti United (Tahiti) are ranked #3,471 of 3,218 football (soccer) clubs worldwide and #1 in Tahiti, with an Elo rating of 378.2. Rating history, recent results and match forecasts.">
 <meta property="og:url" content="https://matchdayinsights.com/clubs/tahiti-united.html">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Tahiti United", "sport": "Soccer", "url": "https://matchdayinsights.com/clubs/tahiti-united.html", "description": "Tahiti United (Tahiti) are ranked #3,471 of 3,219 football (soccer) clubs worldwide and #1 in Tahiti, with an Elo rating of 378.2. Rating history, recent results and match forecasts.", "location": {"@type": "Country", "name": "Tahiti"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Tahiti United", "sport": "Soccer", "url": "https://matchdayinsights.com/clubs/tahiti-united.html", "description": "Tahiti United (Tahiti) are ranked #3,471 of 3,218 football (soccer) clubs worldwide and #1 in Tahiti, with an Elo rating of 378.2. Rating history, recent results and match forecasts.", "location": {"@type": "Country", "name": "Tahiti"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
@@ -42,7 +42,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
-  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-pf"></span><b>Tahiti United</b><span>#3471 &nbsp;·&nbsp; 378</span></a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-pf"></span><b>Tahiti United</b><span><i data-live="rank" style="font-style:normal">#3471</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">378</i></span></a>
   <div class="header-right">
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
@@ -52,12 +52,12 @@
   </div>
 </nav>
 
-<main class="club-page">
+<main class="club-page" data-tid="27382">
   <a class="back-to-rankings" href="../index.html">← See Full Rankings</a>
   <div class="club-header">
     <div class="club-meta"><span class="fi fi-pf"></span> <a href="../countries/tahiti.html" style="color: inherit;">Tahiti</a> &nbsp;·&nbsp; <a href="../leagues/tahiti-tahiti-top-flight.html" style="color: inherit;">Tahiti Top flight</a></div>
     <h1 class="club-name">Tahiti United</h1>
-    <div class="club-rank">Rank #3471 &nbsp;·&nbsp; OFC #20 &nbsp;·&nbsp; Tahiti #1 &nbsp;·&nbsp; Elo 378.2</div>
+    <div class="club-rank">Rank <span data-live="rank">#3471</span> &nbsp;·&nbsp; OFC <span data-live="conf">#20</span> &nbsp;·&nbsp; Tahiti <span data-live="ctry">#1</span> &nbsp;·&nbsp; Elo <span data-live="elo">378.2</span></div>
   </div>
 
   <div class="stats-grid">
@@ -358,6 +358,16 @@ if('IntersectionObserver' in window){
 }else{
   window.addEventListener('scroll',function(){show(big.getBoundingClientRect().bottom<58);});
 }
+})();</script>
+<script>(function(){
+  var m=document.querySelector('main[data-tid]'); if(!m||!window.fetch) return;
+  var tid=m.getAttribute('data-tid');
+  fetch('../live_ranks.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).then(function(d){
+    if(!d||!d.c||!d.c[tid]) return; var v=d.c[tid];
+    var vals={rank:'#'+v[0], elo:v[1].toFixed(1), elo0:Math.round(v[1]), conf:v[2]?'#'+v[2]:null, ctry:v[3]?'#'+v[3]:null};
+    document.querySelectorAll('[data-live]').forEach(function(e){
+      var k=e.getAttribute('data-live'); if(vals[k]!=null) e.textContent=vals[k]; });
+  }).catch(function(){});
 })();</script>
 </body>
 </html>
