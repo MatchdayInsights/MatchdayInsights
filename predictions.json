@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T17:34:22+00:00",
+  "generated": "2026-10-19T17:45:36+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -507,7 +507,7 @@
       "competition_type": "league",
       "country": "Russia",
       "round": "Regular Season - 11",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "6822",
       "home_team": "Rodina Moskva",
       "home_slug": "rodina-moskva",
@@ -530,7 +530,7 @@
       "competition_type": "league",
       "country": "Italy",
       "round": "Regular Season - 7",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "1579",
       "home_team": "Monza",
       "home_slug": "monza",
@@ -806,7 +806,7 @@
       "competition_type": "league",
       "country": "Israel",
       "round": "Regular Season - 7",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "657",
       "home_team": "Beitar Jerusalem",
       "home_slug": "beitar-jerusalem",
