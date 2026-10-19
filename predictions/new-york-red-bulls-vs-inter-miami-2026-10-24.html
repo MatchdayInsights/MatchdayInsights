@@ -18,10 +18,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b99a98b7">
+<link rel="stylesheet" href="../club-page.css?v=6baa5612">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
-.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.featured-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.featured-select{background:var(--bg2,#12161f);color:var(--text2);border:1px solid var(--border);border-radius:6px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 6px;cursor:pointer}
+.featured-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:14px 0}
 .featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
 .fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
 .fmatch:hover{border-color:var(--green-dim)}
@@ -213,7 +217,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Inter Miami</b> (56%). More from the <a href='../leagues/united-states-major-league-soccer.html'>Major League Soccer</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-11</td><td>Inter Miami v New York Red Bulls</td><td class='r'><b>2-2</b></td></tr><tr><td>2025-07-19</td><td>New York Red Bulls v Inter Miami</td><td class='r'><b>1-5</b></td></tr><tr><td>2025-05-03</td><td>Inter Miami v New York Red Bulls</td><td class='r'><b>4-1</b></td></tr></table>
-<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>30</td><td class='r'>67</td><td class='r'>#266</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>30</td><td class='r'>55</td><td class='r'>#521</td></tr><tr class='hi'><td>3</td><td>Inter Miami</td><td class='r'>30</td><td class='r'>55</td><td class='r'>#306</td></tr><tr class=''><td>4</td><td>New England Revolution</td><td class='r'>30</td><td class='r'>52</td><td class='r'>#760</td></tr><tr class=''><td>19</td><td>Toronto FC</td><td class='r'>30</td><td class='r'>36</td><td class='r'>#912</td></tr><tr class='hi'><td>20</td><td>New York Red Bulls</td><td class='r'>30</td><td class='r'>36</td><td class='r'>#1204</td></tr><tr class=''><td>21</td><td>New York City FC</td><td class='r'>30</td><td class='r'>34</td><td class='r'>#852</td></tr></table>
+<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>30</td><td class='r'>67</td><td class='r'>#266</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>30</td><td class='r'>55</td><td class='r'>#523</td></tr><tr class='hi'><td>3</td><td>Inter Miami</td><td class='r'>30</td><td class='r'>55</td><td class='r'>#306</td></tr><tr class=''><td>4</td><td>New England Revolution</td><td class='r'>30</td><td class='r'>52</td><td class='r'>#760</td></tr><tr class=''><td>19</td><td>FC Cincinnati</td><td class='r'>29</td><td class='r'>36</td><td class='r'>#835</td></tr><tr class='hi'><td>20</td><td>New York Red Bulls</td><td class='r'>30</td><td class='r'>36</td><td class='r'>#1204</td></tr><tr class=''><td>21</td><td>Columbus Crew</td><td class='r'>30</td><td class='r'>35</td><td class='r'>#659</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

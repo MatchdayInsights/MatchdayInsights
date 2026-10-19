@@ -18,10 +18,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b99a98b7">
+<link rel="stylesheet" href="../club-page.css?v=6baa5612">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
-.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.featured-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.featured-select{background:var(--bg2,#12161f);color:var(--text2);border:1px solid var(--border);border-radius:6px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 6px;cursor:pointer}
+.featured-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:14px 0}
 .featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
 .fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
 .fmatch:hover{border-color:var(--green-dim)}
@@ -213,7 +217,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Ferencvarosi TC</b> (71%). More from the <a href='../leagues/hungary-nb-i.html'>NB I</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-18</td><td>Kisvarda FC v Ferencvarosi TC</td><td class='r'><b>1-1</b></td></tr><tr><td>2026-03-22</td><td>Kisvarda FC v Ferencvarosi TC</td><td class='r'><b>1-1</b></td></tr><tr><td>2025-12-07</td><td>Ferencvarosi TC v Kisvarda FC</td><td class='r'><b>3-0</b></td></tr><tr><td>2025-12-04</td><td>Kisvarda FC v Ferencvarosi TC</td><td class='r'><b>0-1</b></td></tr><tr><td>2024-04-20</td><td>Ferencvarosi TC v Kisvarda FC</td><td class='r'><b>0-0</b></td></tr></table>
-<h2>NB I table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>3</td><td>Vasas</td><td class='r'>10</td><td class='r'>15</td><td class='r'>#660</td></tr><tr class=''><td>4</td><td>Ujpest</td><td class='r'>10</td><td class='r'>15</td><td class='r'>#515</td></tr><tr class='hi'><td>5</td><td>Ferencvarosi TC</td><td class='r'>9</td><td class='r'>14</td><td class='r'>#69</td></tr><tr class=''><td>6</td><td>Paks</td><td class='r'>10</td><td class='r'>14</td><td class='r'>#370</td></tr><tr class=''><td>7</td><td>Debreceni VSC</td><td class='r'>10</td><td class='r'>13</td><td class='r'>#431</td></tr><tr class=''><td>8</td><td>MTK Budapest</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#673</td></tr><tr class='hi'><td>9</td><td>Kisvarda FC</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#718</td></tr><tr class=''><td>10</td><td>Budapest Honved</td><td class='r'>9</td><td class='r'>10</td><td class='r'>#806</td></tr><tr class=''><td>11</td><td>Zalaegerszegi TE</td><td class='r'>10</td><td class='r'>9</td><td class='r'>#611</td></tr></table>
+<h2>NB I table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>3</td><td>Vasas</td><td class='r'>10</td><td class='r'>15</td><td class='r'>#658</td></tr><tr class=''><td>4</td><td>Ujpest</td><td class='r'>10</td><td class='r'>15</td><td class='r'>#517</td></tr><tr class='hi'><td>5</td><td>Ferencvarosi TC</td><td class='r'>9</td><td class='r'>14</td><td class='r'>#69</td></tr><tr class=''><td>6</td><td>Paks</td><td class='r'>10</td><td class='r'>14</td><td class='r'>#370</td></tr><tr class=''><td>7</td><td>Debreceni VSC</td><td class='r'>10</td><td class='r'>13</td><td class='r'>#431</td></tr><tr class=''><td>8</td><td>MTK Budapest</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#671</td></tr><tr class='hi'><td>9</td><td>Kisvarda FC</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#718</td></tr><tr class=''><td>10</td><td>Budapest Honved</td><td class='r'>9</td><td class='r'>10</td><td class='r'>#806</td></tr><tr class=''><td>11</td><td>Zalaegerszegi TE</td><td class='r'>10</td><td class='r'>9</td><td class='r'>#610</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

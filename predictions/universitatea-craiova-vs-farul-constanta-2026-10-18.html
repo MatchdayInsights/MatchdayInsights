@@ -18,10 +18,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b99a98b7">
+<link rel="stylesheet" href="../club-page.css?v=6baa5612">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
-.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.featured-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.featured-select{background:var(--bg2,#12161f);color:var(--text2);border:1px solid var(--border);border-radius:6px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 6px;cursor:pointer}
+.featured-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:14px 0}
 .featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
 .fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
 .fmatch:hover{border-color:var(--green-dim)}
@@ -213,7 +217,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Universitatea Craiova</b> (68%). More from the <a href='../leagues/romania-liga-i.html'>Liga I</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-18</td><td>Universitatea Craiova v Farul Constanta</td><td class='r'><b>2-0</b></td></tr><tr><td>2026-02-01</td><td>Farul Constanta v Universitatea Craiova</td><td class='r'><b>4-1</b></td></tr><tr><td>2025-09-14</td><td>Universitatea Craiova v Farul Constanta</td><td class='r'><b>2-0</b></td></tr><tr><td>2025-03-01</td><td>Universitatea Craiova v Farul Constanta</td><td class='r'><b>1-0</b></td></tr><tr><td>2024-10-28</td><td>Farul Constanta v Universitatea Craiova</td><td class='r'><b>3-2</b></td></tr></table>
-<h2>Liga I table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Dinamo Bucuresti</td><td class='r'>12</td><td class='r'>29</td><td class='r'>#305</td></tr><tr class=''><td>2</td><td>Rapid</td><td class='r'>12</td><td class='r'>27</td><td class='r'>#440</td></tr><tr class='hi'><td>3</td><td>Universitatea Craiova</td><td class='r'>12</td><td class='r'>26</td><td class='r'>#236</td></tr><tr class=''><td>4</td><td>Petrolul Ploiesti</td><td class='r'>12</td><td class='r'>20</td><td class='r'>#1089</td></tr><tr class=''><td>5</td><td>Universitatea Cluj</td><td class='r'>11</td><td class='r'>18</td><td class='r'>#406</td></tr><tr class='hi'><td>6</td><td>Farul Constanta</td><td class='r'>12</td><td class='r'>17</td><td class='r'>#1014</td></tr><tr class=''><td>7</td><td>Corvinul Hunedoara</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#1252</td></tr><tr class=''><td>8</td><td>CFR 1907 Cluj</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#667</td></tr></table>
+<h2>Liga I table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Dinamo Bucuresti</td><td class='r'>12</td><td class='r'>29</td><td class='r'>#305</td></tr><tr class=''><td>2</td><td>Rapid</td><td class='r'>12</td><td class='r'>27</td><td class='r'>#440</td></tr><tr class='hi'><td>3</td><td>Universitatea Craiova</td><td class='r'>12</td><td class='r'>26</td><td class='r'>#236</td></tr><tr class=''><td>4</td><td>Petrolul Ploiesti</td><td class='r'>12</td><td class='r'>20</td><td class='r'>#1089</td></tr><tr class=''><td>5</td><td>Universitatea Cluj</td><td class='r'>11</td><td class='r'>18</td><td class='r'>#406</td></tr><tr class='hi'><td>6</td><td>Farul Constanta</td><td class='r'>12</td><td class='r'>17</td><td class='r'>#1014</td></tr><tr class=''><td>7</td><td>Corvinul Hunedoara</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#1251</td></tr><tr class=''><td>8</td><td>CFR 1907 Cluj</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#665</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

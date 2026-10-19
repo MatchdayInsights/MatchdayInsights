@@ -11,10 +11,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="club-page.css?v=b99a98b7">
+<link rel="stylesheet" href="club-page.css?v=6baa5612">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
-.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.featured-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.featured-select{background:var(--bg2,#12161f);color:var(--text2);border:1px solid var(--border);border-radius:6px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 6px;cursor:pointer}
+.featured-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:14px 0}
 .featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
 .fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
 .fmatch:hover{border-color:var(--green-dim)}
@@ -150,13 +154,24 @@ td{padding:10px 14px;vertical-align:middle}
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">280,115</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">280,152</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
 
 <div class="featured" id="featured-wrap" style="display:none">
-  <div class="featured-title">Biggest Upcoming Matches</div>
+  <div class="featured-head">
+    <div class="featured-title">Biggest Upcoming Matches</div>
+    <select id="featured-conf" class="featured-select" aria-label="Biggest matches by continent">
+      <option value="">Worldwide</option>
+      <option value="UEFA">Europe</option>
+      <option value="CONMEBOL">South America</option>
+      <option value="CONCACAF">North &amp; Central America</option>
+      <option value="CAF">Africa</option>
+      <option value="AFC">Asia</option>
+      <option value="OFC">Oceania</option>
+    </select>
+  </div>
   <div class="featured-row" id="featured-row"></div>
 </div>
 
@@ -250,20 +265,18 @@ fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
   // instead always yields five while five remain - and it re-ranks as
   // the day goes on, so the strip keeps showing the biggest matches
   // STILL TO COME rather than the biggest of this morning's leftovers.
-  const now = Date.now();
   const pool = (data.fixtures && data.fixtures.length) ? data.fixtures
                                                        : (data.featured || []);
-  const upcoming = pool
-    // Only the next 4 days: predictions.json now runs 21 days ahead for the
-    // club pages, and a big match a fortnight away shouldn't take a spot
-    // from this weekend's (Greg, 2026-10).
-    .filter(m => { const t = Date.parse(m.date); return !isNaN(t) && t > now && t <= now + 4 * 86400000; })
-    .sort((a, b) => ((b.home_elo + b.away_elo) - (a.home_elo + a.away_elo)))
-    .slice(0, 5)
-    .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
-  if (!upcoming.length) return;   // nothing left in the horizon at all
+  // Each club's continent, from the table already loaded (Greg, 2026-10:
+  // the five biggest by continent, from a dropdown; worldwide by default).
+  const confOf = {};
+  CLUBS.forEach(c => {
+    if (c.slug) confOf['s:' + c.slug] = c.confederation;
+    if (c.team_id) confOf['t:' + String(c.team_id).split('::')[0]] = c.confederation;
+  });
+  const conf = (slug, id) => confOf['s:' + slug] || confOf['t:' + id] || '';
   const fmt = p => Math.round(p * 100) + '%';
-  document.getElementById('featured-row').innerHTML = upcoming.map(m => {
+  const card = m => {
     const d = new Date(m.date);
     const when = d.toLocaleDateString('en-GB', {day:'numeric', month:'short'});
     const link = (slug, name) => slug
@@ -284,7 +297,36 @@ fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
         <span style="color:var(--red)">${fmt(m.p_away)}</span>
       </div>
     </div>`;
-  }).join('');
+  };
+  // Worldwide: the next 4 days only - predictions.json runs 21 days ahead,
+  // and a big match a fortnight away shouldn't take a spot from this
+  // weekend's. A continent with fewer than five in 4 days looks further
+  // ahead, up to 10.
+  function pick(c) {
+    const now = Date.now();
+    const mine = pool.filter(m => {
+      const t = Date.parse(m.date);
+      if (isNaN(t) || t <= now) return false;
+      return !c || conf(m.home_slug, m.home_team_id) === c || conf(m.away_slug, m.away_team_id) === c;
+    });
+    const within = days => mine.filter(m => Date.parse(m.date) <= now + days * 86400000);
+    let list = within(4);
+    if (c && list.length < 5) list = within(10);
+    return list
+      .sort((a, b) => ((b.home_elo + b.away_elo) - (a.home_elo + a.away_elo)))
+      .slice(0, 5)
+      .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+  }
+  const row = document.getElementById('featured-row');
+  const sel = document.getElementById('featured-conf');
+  function show() {
+    const list = pick(sel.value);
+    row.innerHTML = list.length ? list.map(card).join('')
+      : `<div class="featured-empty">No games coming up in the next 10 days.</div>`;
+  }
+  if (!pick('').length) return;   // nothing left in the horizon at all
+  sel.addEventListener('change', show);
+  show();
   document.getElementById('featured-wrap').style.display = '';
 }).catch(() => {});
 
