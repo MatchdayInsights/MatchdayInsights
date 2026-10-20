@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T21:03:19+00:00",
+  "generated": "2026-10-20T21:32:14+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -104344,6 +104344,29 @@
       "p_draw": 0.2871,
       "p_away": 0.4065,
       "expected_score": 0.45
+    },
+    {
+      "fixture_id": "1600654",
+      "date": "2026-11-10T21:30:00+00:00",
+      "competition": "Primera Division",
+      "competition_type": "league",
+      "country": "El-Salvador",
+      "round": "Apertura - 20",
+      "status": "NS",
+      "home_team_id": "24530",
+      "home_team": "Cacahuatique",
+      "home_slug": "cacahuatique",
+      "home_rank": 3191,
+      "home_elo": 623.8,
+      "away_team_id": "4303",
+      "away_team": "Firpo",
+      "away_slug": "firpo",
+      "away_rank": 1527,
+      "away_elo": 877.8,
+      "p_home": 0.1879,
+      "p_draw": 0.2335,
+      "p_away": 0.5786,
+      "expected_score": 0.3046
     }
   ]
 }
