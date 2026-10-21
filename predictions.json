@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T01:32:08+00:00",
+  "generated": "2026-10-21T02:03:18+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -293,29 +293,6 @@
     }
   ],
   "fixtures": [
-    {
-      "fixture_id": "1645380",
-      "date": "2026-10-20T23:00:00+00:00",
-      "competition": "Copa Chile",
-      "competition_type": "cup",
-      "country": "Chile",
-      "round": "Quarter-finals",
-      "status": "PST",
-      "home_team_id": "2326",
-      "home_team": "Union La Calera",
-      "home_slug": "union-la-calera",
-      "home_rank": 1388,
-      "home_elo": 896.9,
-      "away_team_id": "2330",
-      "away_team": "Coquimbo Unido",
-      "away_slug": "coquimbo-unido",
-      "away_rank": 623,
-      "away_elo": 1055.4,
-      "p_home": 0.2624,
-      "p_draw": 0.2712,
-      "p_away": 0.4664,
-      "expected_score": 0.398
-    },
     {
       "fixture_id": "1551004",
       "date": "2026-10-21T00:07:00+00:00",

@@ -309,7 +309,7 @@ a:hover { text-decoration: underline; }
 .am-sum b { color: var(--text); font-size: 15px; margin-right: 2px; }
 .am .w { color: var(--green) !important; } .am .d { color: #7890d0 !important; } .am .l { color: var(--red) !important; }
 
-.am-th, .am-row { display: grid; grid-template-columns: 96px minmax(120px,1.1fr) 40px minmax(180px,2fr) 82px 70px 80px;
+.am-th, .am-row { display: grid; grid-template-columns: 96px minmax(120px,1.1fr) 40px minmax(180px,2fr) 120px 70px 80px;
   gap: 10px; align-items: center; padding: 7px 10px; }
 .am-th { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 1px; color: var(--muted);
   text-transform: uppercase; border-bottom: 1px solid var(--border2); }
@@ -332,7 +332,7 @@ a:hover { text-decoration: underline; }
 .am-res .rW { background: rgba(61,186,94,.18); color: var(--green); }
 .am-res .rD { background: rgba(100,120,180,.18); color: #7890d0; }
 .am-res .rL { background: rgba(232,68,102,.18); color: var(--red); }
-.am-res b[title] { cursor: help; }
+.am-p { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); margin-left: 6px; }
 .am-meta, .am-rk2 { display: none; }
 .am-empty { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--muted); padding: 24px 10px; }
 .am-more { display: block; margin: 14px auto 0; background: var(--surface2); border: 1px solid var(--border2);
