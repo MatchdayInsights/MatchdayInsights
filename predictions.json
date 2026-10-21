@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T23:18:04+00:00",
+  "generated": "2026-10-21T23:32:42+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -369,7 +369,7 @@
       "competition_type": "cup",
       "country": "Bolivia",
       "round": "Quarter-finals",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "3708",
       "home_team": "Real Potosí",
       "home_slug": "real-potosi",
@@ -484,7 +484,7 @@
       "competition_type": "league",
       "country": "USA",
       "round": "Regular Season - 23",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "2242",
       "home_team": "FC Cincinnati",
       "home_slug": "fc-cincinnati",
@@ -507,7 +507,7 @@
       "competition_type": "league",
       "country": "Colombia",
       "round": "Clausura - 9",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "1464",
       "home_team": "Llaneros",
       "home_slug": "llaneros",
