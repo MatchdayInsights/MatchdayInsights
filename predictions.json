@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T22:02:47+00:00",
+  "generated": "2026-10-22T23:32:50+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "continental",
       "country": "World",
       "round": "Semi-finals",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "3442",
       "home_team": "Mount Pleasant Academy",
       "home_slug": "mount-pleasant-academy",
