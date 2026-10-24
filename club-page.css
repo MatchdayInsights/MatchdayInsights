@@ -375,3 +375,36 @@ a:hover { text-decoration: underline; }
 @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:swap;size-adjust:112%;src:url(https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5.1.0/files/inter-latin-ext-wght-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 :root{--text2:#a3abc6;--muted:#858fae}
 body{font-variant-numeric:tabular-nums}
+/* Club name header: was squeezed together (letter-spacing -1px at weight
+   900) and hard to read on long names; spaced out a little instead
+   (Greg, 2026-10). */
+.club-name{letter-spacing:.5px;font-weight:800}
+/* Club pages on phones (Greg, 2026-10): the Upcoming list squeezed the
+   opponent's name to a few letters, and the pre-match odds under each
+   result wrapped onto a second line. The rows are built with inline
+   styles in generate_club_page.py, so they are picked out here by
+   position and by their inline padding. */
+@media (max-width: 640px) {
+  /* Upcoming: line 1 = date, H/A, opponent (full width), PREVIEW;
+     line 2 = W / D / L across the row under the name. */
+  #upcoming-panel > .panel-title + div { display: none !important; }
+  .upcoming-row { flex-wrap: wrap !important; row-gap: 6px; }
+  .upcoming-row > a { order: 4; }
+  .upcoming-row > div:nth-child(4) {
+    order: 5; flex: 1 0 calc(100% - 62px) !important; margin-left: 62px;
+    justify-content: space-between; gap: 8px !important;
+  }
+  .upcoming-row > div:nth-child(4) > div { min-width: 0 !important; text-align: left !important; }
+  .upcoming-row > div:nth-child(4) > div:nth-child(1)::before { content: "W "; }
+  .upcoming-row > div:nth-child(4) > div:nth-child(2)::before { content: "D "; }
+  .upcoming-row > div:nth-child(4) > div:nth-child(3)::before { content: "L "; }
+  /* Last 5: the pre-match odds on one line, spread across the row. */
+  .panel div[style*="padding: 3px 0 0 92px"] {
+    padding-left: 62px !important; flex-wrap: nowrap !important;
+    justify-content: space-between; letter-spacing: 0 !important; white-space: nowrap;
+  }
+}
+/* The bigger reading font needs a little more room for the season and
+   league labels in "Points won - season by season" (Greg, 2026-10). */
+.season-bar-row { grid-template-columns: 88px 110px 1fr 58px; }
+.season-bar-row .season-label { white-space: nowrap; }
