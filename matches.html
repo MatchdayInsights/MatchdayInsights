@@ -98,6 +98,38 @@ a.nm:hover{color:var(--green)}
 .pc{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .pc b{color:var(--text2);font-weight:600}
 .up{grid-column:1/4;justify-self:center;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.5px;color:#f07800;border:1px solid rgba(240,120,0,.45);background:rgba(240,120,0,.1);border-radius:4px;padding:1px 7px;margin-top:-2px}
+/* Match details: tap a result (Greg, 2026-10). */
+.m[data-d]{cursor:pointer}
+.m[data-d]:hover{background:var(--surface2)}
+.m[data-d] .mid .x::after{content:' \25BE';opacity:.7}
+.m.open .mid .x::after{content:' \25B4'}
+.md{grid-column:1/4;border-top:1px dashed var(--border2);margin-top:6px;padding-top:8px;cursor:default;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text2)}
+.md h4{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:12px 0 6px;text-align:center}
+.md h4:first-child{margin-top:2px}
+.md .meta{text-align:center;font-size:9.5px;color:var(--muted);line-height:1.6}
+.ev{display:grid;grid-template-columns:minmax(0,1fr) 46px minmax(0,1fr);gap:6px;align-items:center;padding:3px 0}
+.ev .mn{text-align:center;color:var(--muted);font-size:10px}
+.ev .eh{text-align:right}
+.ev .who{color:var(--text)}
+.ev .sub2{color:var(--muted);font-size:9.5px}
+.ic{display:inline-block;width:9px;height:12px;border-radius:2px;vertical-align:-1px;margin:0 4px}
+.ic.y{background:#f2c200}.ic.r{background:#e5484d}
+.ic.yr{background:linear-gradient(90deg,#f2c200 50%,#e5484d 50%)}
+.in{color:var(--green)}.out{color:var(--red)}
+.strow{display:grid;grid-template-columns:44px 1fr 44px;gap:8px;align-items:center;margin:5px 0}
+.strow .v{font-variant-numeric:tabular-nums;color:var(--text)}
+.strow .v.r{text-align:right}
+.strow .lab{text-align:center;font-size:9.5px;color:var(--muted)}
+.strow .sb{display:flex;height:4px;border-radius:2px;overflow:hidden;margin-top:3px;background:var(--border)}
+.strow .sb span{display:block;height:100%}
+.lus{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.lus .t{font-weight:700;color:var(--text);margin-bottom:4px}
+.lus .f{color:var(--muted);font-size:9.5px;margin-bottom:6px}
+.lus ol{list-style:none;margin:0;padding:0}
+.lus li{padding:2px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lus li .no{display:inline-block;min-width:20px;color:var(--muted)}
+.lus .bn{margin-top:8px;color:var(--muted);font-size:9.5px}
+.md .none{text-align:center;color:var(--muted);padding:8px 0}
 .empty{padding:50px 10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
 .key{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--muted);line-height:1.6;margin-top:14px}
 @media(max-width:560px){
@@ -152,7 +184,8 @@ a.nm:hover{color:var(--green)}
   <div id="list"><div class="empty">Loading matches&hellip;</div></div>
   <p class="key">#86 = world rank in our ratings. Under results: rating points each club gained or lost.
   Bars on upcoming matches: our chances for the home win, draw and away win.
-  UPSET = the winner had less than a 30% chance in our model.</p>
+  UPSET = the winner had less than a 30% chance in our model.
+  Tap a result with &#9662; for goals, cards, lineups and stats.</p>
 </main>
 
 <script>
@@ -248,7 +281,8 @@ function row(m){
   }
   if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
   if(m.new&&!extra)extra=`<div class="up" style="color:var(--muted)">Just finished &middot; ratings update shortly</div>`;
-  return `<div class="m" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
+  const det=m.d&&m.st==='ft'?` data-d="${esc(m.id)}" tabindex="0" role="button" aria-expanded="false"`:'';
+  return `<div class="m"${det} data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
 }
 
 async function show(key,quiet){
@@ -274,6 +308,59 @@ async function show(key,quiet){
   filter();
 }
 
+// Match details (match_details.py): fetched the first time a result is
+// tapped, then kept for the rest of the visit.
+const DET={};
+async function details(id){
+  if(id in DET)return DET[id];
+  try{const r=await fetch(`match_details/${encodeURIComponent(id)}.json`);DET[id]=r.ok?await r.json():null;}
+  catch(e){DET[id]=null;}
+  return DET[id];
+}
+function evLine(e){
+  const [mn,ex,sd,k,p,o]=e;
+  const t=`${mn}${ex?'+'+ex:''}'`;
+  let txt='';
+  if(k==='g'||k==='p'||k==='og'){
+    txt=`&#9917; <span class="who">${esc(p)}</span>${k==='p'?' (pen)':k==='og'?' (og)':''}${o&&k==='g'?`<br><span class="sub2">assist ${esc(o)}</span>`:''}`;
+  }else if(k==='mp'){txt=`&#10005; <span class="who">${esc(p)}</span> <span class="sub2">missed pen</span>`;}
+  else if(k==='y'||k==='r'||k==='yr'){txt=`<i class="ic ${k}"></i><span class="who">${esc(p)}</span>`;}
+  else if(k==='s'){txt=`<span class="in">&#9650;</span> <span class="who">${esc(p)}</span><br><span class="out">&#9660;</span> <span class="sub2">${esc(o)}</span>`;}
+  else if(k==='v'){txt=`<span class="sub2">VAR: ${esc(o)}${p?' &middot; '+esc(p):''}</span>`;}
+  return sd==='h'?`<div class="ev"><div class="eh">${txt}</div><div class="mn">${t}</div><div></div></div>`
+                 :`<div class="ev"><div></div><div class="mn">${t}</div><div>${txt}</div></div>`;
+}
+function statRow(s){
+  const [lab,h,a]=s;
+  const n=v=>parseFloat(String(v).replace('%',''))||0;
+  const tot=n(h)+n(a), hp=tot?n(h)/tot*100:50;
+  return `<div class="strow"><span class="v">${esc(h)}</span><div><div class="lab">${esc(lab)}</div><div class="sb"><span style="width:${hp}%;background:${HOME}"></span><span style="width:${100-hp}%;background:${AWAY}"></span></div></div><span class="v r">${esc(a)}</span></div>`;
+}
+function lineup(t,name){
+  if(!t)return `<div><div class="t">${esc(name)}</div><div class="f">No lineup</div></div>`;
+  const li=r=>`<li><span class="no">${r[0]??''}</span>${esc(r[1])}</li>`;
+  return `<div><div class="t">${esc(name)}</div><div class="f">${esc(t.f||'')}${t.c?' &middot; '+esc(t.c):''}</div><ol>${t.xi.map(li).join('')}</ol>${t.bn&&t.bn.length?`<div class="bn">Bench: ${t.bn.map(r=>esc(r[1])).join(', ')}</div>`:''}</div>`;
+}
+function detailHtml(d,m){
+  if(!d)return '<div class="none">No details for this match.</div>';
+  let h='';
+  const meta=[d.ht?`Half time ${d.ht[0]}-${d.ht[1]}`:'',d.ven||'',d.ref?`Referee: ${d.ref}`:''].filter(Boolean);
+  if(meta.length)h+=`<div class="meta">${meta.map(esc).join('<br>')}</div>`;
+  if(d.ev&&d.ev.length)h+=`<h4>Match events</h4>${d.ev.map(evLine).join('')}`;
+  if(d.st&&d.st.length)h+=`<h4>Stats</h4>${d.st.map(statRow).join('')}`;
+  if(d.lu)h+=`<h4>Lineups</h4><div class="lus">${lineup(d.lu.h,m.h)}${lineup(d.lu.a,m.a)}</div>`;
+  return h||'<div class="none">No details for this match.</div>';
+}
+async function toggleDetails(row){
+  const open=row.querySelector('.md');
+  if(open){open.remove();row.classList.remove('open');row.setAttribute('aria-expanded','false');return;}
+  const box=document.createElement('div');box.className='md';box.innerHTML='<div class="none">Loading&hellip;</div>';
+  row.appendChild(box);row.classList.add('open');row.setAttribute('aria-expanded','true');
+  const names=row.querySelectorAll('.nm');
+  const d=await details(row.dataset.d);
+  box.innerHTML=detailHtml(d,{h:names[0]?names[0].textContent:'Home',a:names[1]?names[1].textContent:'Away'});
+}
+
 function filter(){
   const q=$('q').value.toLowerCase().trim();
   let n=0;
@@ -288,6 +375,8 @@ function filter(){
 }
 
 $('list').addEventListener('click',e=>{
+  const mr=e.target.closest('.m[data-d]');
+  if(mr&&!e.target.closest('a')&&!e.target.closest('.md')){toggleDetails(mr);return;}
   const h=e.target.closest('.comp-h');
   if(!h||e.target.closest('a'))return;
   const sec=h.parentElement;sec.classList.toggle('shut');
@@ -296,6 +385,7 @@ $('list').addEventListener('click',e=>{
 });
 $('list').addEventListener('keydown',e=>{
   if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('comp-h')){e.preventDefault();e.target.click();}
+  else if((e.key==='Enter'||e.key===' ')&&e.target.matches('.m[data-d]')){e.preventDefault();toggleDetails(e.target);}
 });
 $('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(b)show(b.dataset.k);});
 function arrows(){
