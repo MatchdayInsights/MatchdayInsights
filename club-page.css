@@ -406,5 +406,13 @@ body{font-variant-numeric:tabular-nums}
 }
 /* The bigger reading font needs a little more room for the season and
    league labels in "Points won - season by season" (Greg, 2026-10). */
-.season-bar-row { grid-template-columns: 88px 110px 1fr 58px; }
 .season-bar-row .season-label { white-space: nowrap; }
+@media (min-width: 601px) {
+  .season-bar-row { grid-template-columns: 88px 110px 1fr 58px; }
+}
+/* Phones: each label only as wide as it needs to be, so the bar - the
+   point of the chart - gets the rest of the row (Greg, 2026-10). */
+@media (max-width: 600px) {
+  .season-bar-row { grid-template-columns: max-content max-content 1fr max-content; gap: 6px; }
+  .season-bar-row .league-badge { max-width: 64px; }
+}
