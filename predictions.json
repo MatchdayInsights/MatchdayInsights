@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T02:05:18+00:00",
+  "generated": "2026-10-25T02:34:52+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -293,29 +293,6 @@
     }
   ],
   "fixtures": [
-    {
-      "fixture_id": "1583799",
-      "date": "2026-10-24T23:15:00+00:00",
-      "competition": "Liga Panameña de Fútbol",
-      "competition_type": "league",
-      "country": "Panama",
-      "round": "Apertura - 14",
-      "status": "PST",
-      "home_team_id": "2883",
-      "home_team": "Plaza Amador",
-      "home_slug": "plaza-amador",
-      "home_rank": 1295,
-      "home_elo": 910.6,
-      "away_team_id": "2881",
-      "away_team": "Alianza FC",
-      "away_slug": "alianza-fc",
-      "away_rank": 2703,
-      "away_elo": 724.8,
-      "p_home": 0.6332,
-      "p_draw": 0.2118,
-      "p_away": 0.1551,
-      "expected_score": 0.739
-    },
     {
       "fixture_id": "1559680",
       "date": "2026-10-25T00:00:00+00:00",
