@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>FC Dallas</b> (62%). More from the <a href='../leagues/united-states-major-league-soccer.html'>Major League Soccer</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-09-06</td><td>FC Dallas v Sporting Kansas City</td><td class='r'><b>4-3</b></td></tr><tr><td>2025-06-15</td><td>Sporting Kansas City v FC Dallas</td><td class='r'><b>2-4</b></td></tr><tr><td>2025-03-30</td><td>FC Dallas v Sporting Kansas City</td><td class='r'><b>2-1</b></td></tr></table><p>FC Dallas have won the last 3 meetings.</p>
-<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>31</td><td class='r'>70</td><td class='r'>#253</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#570</td></tr><tr class=''><td>3</td><td>Inter Miami</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#361</td></tr><tr class=''><td>4</td><td>New England Revolution</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#685</td></tr><tr class='hi'><td>5</td><td>FC Dallas</td><td class='r'>31</td><td class='r'>54</td><td class='r'>#414</td></tr><tr class=''><td>6</td><td>St. Louis City</td><td class='r'>31</td><td class='r'>51</td><td class='r'>#476</td></tr><tr class=''><td>29</td><td>CF Montreal</td><td class='r'>31</td><td class='r'>25</td><td class='r'>#1377</td></tr><tr class='hi'><td>30</td><td>Sporting Kansas City</td><td class='r'>31</td><td class='r'>22</td><td class='r'>#1951</td></tr></table>
+<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>31</td><td class='r'>70</td><td class='r'>#253</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#570</td></tr><tr class=''><td>3</td><td>Inter Miami</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#361</td></tr><tr class=''><td>4</td><td>New England Revolution</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#686</td></tr><tr class='hi'><td>5</td><td>FC Dallas</td><td class='r'>31</td><td class='r'>54</td><td class='r'>#414</td></tr><tr class=''><td>6</td><td>St. Louis City</td><td class='r'>31</td><td class='r'>51</td><td class='r'>#476</td></tr><tr class=''><td>29</td><td>CF Montreal</td><td class='r'>31</td><td class='r'>25</td><td class='r'>#1377</td></tr><tr class='hi'><td>30</td><td>Sporting Kansas City</td><td class='r'>31</td><td class='r'>22</td><td class='r'>#1951</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

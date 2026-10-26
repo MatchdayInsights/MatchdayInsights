@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>1º de Agosto</b> (37%). More from the <a href='../leagues/angola-girabola.html'>Girabola</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2025-11-09</td><td>Petro de Luanda v 1º de Agosto</td><td class='r'><b>0-1</b></td></tr></table>
-<h2>Girabola table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Wiliete</td><td class='r'>6</td><td class='r'>16</td><td class='r'>#642</td></tr><tr class=''><td>2</td><td>Desportivo Huíla</td><td class='r'>8</td><td class='r'>16</td><td class='r'>#953</td></tr><tr class='hi'><td>3</td><td>Petro de Luanda</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#501</td></tr><tr class=''><td>4</td><td>Bravos do Maquis FC</td><td class='r'>7</td><td class='r'>14</td><td class='r'>#1285</td></tr><tr class='hi'><td>5</td><td>1º de Agosto</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#649</td></tr><tr class=''><td>6</td><td>Interclube</td><td class='r'>8</td><td class='r'>13</td><td class='r'>#1205</td></tr><tr class=''><td>7</td><td>Sagrada Esperança</td><td class='r'>7</td><td class='r'>11</td><td class='r'>#1474</td></tr></table>
+<h2>Girabola table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Wiliete</td><td class='r'>6</td><td class='r'>16</td><td class='r'>#642</td></tr><tr class=''><td>2</td><td>Desportivo Huíla</td><td class='r'>8</td><td class='r'>16</td><td class='r'>#954</td></tr><tr class='hi'><td>3</td><td>Petro de Luanda</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#501</td></tr><tr class=''><td>4</td><td>Bravos do Maquis FC</td><td class='r'>7</td><td class='r'>14</td><td class='r'>#1286</td></tr><tr class='hi'><td>5</td><td>1º de Agosto</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#649</td></tr><tr class=''><td>6</td><td>Interclube</td><td class='r'>8</td><td class='r'>13</td><td class='r'>#1205</td></tr><tr class=''><td>7</td><td>Sagrada Esperança</td><td class='r'>7</td><td class='r'>11</td><td class='r'>#1475</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -203,7 +207,7 @@ td{padding:10px 14px;vertical-align:middle}
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>KFUM Oslo host Ham-Kam in the Eliteserien (round 25) on Sunday 01 November 2026. KFUM Oslo are #429 in our world ranking and have won 3 and drawn 2 of their last 5; Ham-Kam are #573 and have won 2 and lost 3 of their last 5. On paper that's a big gap - 144 places - in KFUM Oslo's favour.</p>
+<p>KFUM Oslo host Ham-Kam in the Eliteserien (round 25) on Sunday 01 November 2026. KFUM Oslo are #429 in our world ranking and have won 3 and drawn 2 of their last 5; Ham-Kam are #572 and have won 2 and lost 3 of their last 5. On paper that's a big gap - 143 places - in KFUM Oslo's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes KFUM Oslo the favourites at 47%, with a draw at 27% and Ham-Kam at 26%.</p>
 <div class='oddsbar'><i style='width:46.9%;background:#1f9a46'></i><i style='width:27.0%;background:#5a6888'></i><i style='width:26.0%;background:#d43c44'></i></div>
@@ -211,14 +215,14 @@ td{padding:10px 14px;vertical-align:middle}
   <span>Draw 27%</span><span style="color:#d43c44">Ham-Kam 26%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/kfum-oslo.html'>KFUM Oslo</a></div><div class='st'>World rank: <b>#429</b><br>Rating: <b>1112</b><br>Chance to win: <b>47%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Kristiansund BK'>D</span><span class='chip' style='background:#5a6888' title='Tromso'>D</span><span class='chip' style='background:#1f9a46' title='Valerenga'>W</span><span class='chip' style='background:#1f9a46' title='Hønefoss'>W</span><span class='chip' style='background:#1f9a46' title='Sarpsborg 08 FF'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/ham-kam.html'>Ham-Kam</a></div><div class='st'>World rank: <b>#573</b><br>Rating: <b>1069</b><br>Chance to win: <b>26%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Rosenborg'>L</span><span class='chip' style='background:#d43c44' title='Bodo/Glimt'>L</span><span class='chip' style='background:#1f9a46' title='Start'>W</span><span class='chip' style='background:#d43c44' title='Tromso'>L</span><span class='chip' style='background:#1f9a46' title='Kjelsås'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/ham-kam.html'>Ham-Kam</a></div><div class='st'>World rank: <b>#572</b><br>Rating: <b>1069</b><br>Chance to win: <b>26%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Rosenborg'>L</span><span class='chip' style='background:#d43c44' title='Bodo/Glimt'>L</span><span class='chip' style='background:#1f9a46' title='Start'>W</span><span class='chip' style='background:#d43c44' title='Tromso'>L</span><span class='chip' style='background:#1f9a46' title='Kjelsås'>W</span></div></div>
 </div>
 <h2>Who will win KFUM Oslo vs Ham-Kam?</h2>
-<p>KFUM Oslo are #429 and Ham-Kam #573 in our world ranking of
+<p>KFUM Oslo are #429 and Ham-Kam #572 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>KFUM Oslo</b> (47%). More from the <a href='../leagues/norway-eliteserien.html'>Eliteserien</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-19</td><td>Ham-Kam v KFUM Oslo</td><td class='r'><b>4-0</b></td></tr><tr><td>2025-08-22</td><td>KFUM Oslo v Ham-Kam</td><td class='r'><b>2-2</b></td></tr><tr><td>2025-05-02</td><td>Ham-Kam v KFUM Oslo</td><td class='r'><b>0-0</b></td></tr><tr><td>2024-12-01</td><td>Ham-Kam v KFUM Oslo</td><td class='r'><b>0-2</b></td></tr><tr><td>2024-04-02</td><td>KFUM Oslo v Ham-Kam</td><td class='r'><b>1-1</b></td></tr></table>
-<h2>Eliteserien table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>6</td><td>Lillestrom</td><td class='r'>24</td><td class='r'>39</td><td class='r'>#263</td></tr><tr class=''><td>7</td><td>Sarpsborg 08 FF</td><td class='r'>24</td><td class='r'>31</td><td class='r'>#382</td></tr><tr class='hi'><td>8</td><td>KFUM Oslo</td><td class='r'>24</td><td class='r'>30</td><td class='r'>#429</td></tr><tr class=''><td>9</td><td>Brann</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#200</td></tr><tr class=''><td>10</td><td>Valerenga</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#391</td></tr><tr class=''><td>11</td><td>Fredrikstad</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#377</td></tr><tr class='hi'><td>12</td><td>Ham-Kam</td><td class='r'>24</td><td class='r'>26</td><td class='r'>#573</td></tr><tr class=''><td>13</td><td>Sandefjord</td><td class='r'>24</td><td class='r'>24</td><td class='r'>#475</td></tr><tr class=''><td>14</td><td>Aalesund</td><td class='r'>24</td><td class='r'>24</td><td class='r'>#590</td></tr></table>
+<h2>Eliteserien table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>6</td><td>Lillestrom</td><td class='r'>24</td><td class='r'>39</td><td class='r'>#263</td></tr><tr class=''><td>7</td><td>Sarpsborg 08 FF</td><td class='r'>24</td><td class='r'>31</td><td class='r'>#382</td></tr><tr class='hi'><td>8</td><td>KFUM Oslo</td><td class='r'>24</td><td class='r'>30</td><td class='r'>#429</td></tr><tr class=''><td>9</td><td>Brann</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#200</td></tr><tr class=''><td>10</td><td>Valerenga</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#391</td></tr><tr class=''><td>11</td><td>Fredrikstad</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#377</td></tr><tr class='hi'><td>12</td><td>Ham-Kam</td><td class='r'>24</td><td class='r'>26</td><td class='r'>#572</td></tr><tr class=''><td>13</td><td>Sandefjord</td><td class='r'>24</td><td class='r'>24</td><td class='r'>#475</td></tr><tr class=''><td>14</td><td>Aalesund</td><td class='r'>24</td><td class='r'>24</td><td class='r'>#589</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

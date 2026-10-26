@@ -74,6 +74,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -154,7 +158,7 @@ td{padding:10px 14px;vertical-align:middle}
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">288,479</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">288,478</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
@@ -243,6 +247,13 @@ const changePill=v=>v===null||v===undefined?`<span class="change-pill nc">N/R</s
 async function init() {
   const res = await fetch('rankings_table.json');
   CLUBS = await res.json();
+  // Each club's place in its own country and its own continent, counted
+  // in world-rank order - shown when the table is filtered to one.
+  const byRank = [...CLUBS].sort((a, b) => a.rank - b.rank), seenC = {}, seenK = {};
+  byRank.forEach(c => {
+    if (c.country) c.country_rank = seenC[c.country] = (seenC[c.country] || 0) + 1;
+    if (c.confederation) c.conf_rank = seenK[c.confederation] = (seenK[c.confederation] || 0) + 1;
+  });
   filtered = [...CLUBS];
 
   const elos = CLUBS.map(c => c.elo);
@@ -350,8 +361,26 @@ function populateCountryDropdown(){
   });
 }
 
+const CONF_NAME={UEFA:'Europe',CONMEBOL:'South America',CONCACAF:'N. & C. America',CAF:'Africa',AFC:'Asia',OFC:'Oceania'};
+// Which local rank to show: the country's when one is picked, else the
+// continent's, else none (the world ranking as it always was).
+function localRank(){
+  const country=document.getElementById('filter-country').value;
+  const conf=document.getElementById('filter-confederation').value;
+  if(country){
+    const sel=document.getElementById('filter-country');
+    const name=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].text:country;
+    return {key:'country_rank', label:'in '+name};
+  }
+  if(conf) return {key:'conf_rank', label:'in '+(CONF_NAME[conf]||conf)};
+  return null;
+}
+
 function renderTable(){
   const tbody=document.getElementById('table-body');
+  const local=localRank();
+  const th=document.querySelector('th[data-col="rank"]');
+  if(th&&th.firstChild)th.firstChild.textContent=local?('Rank '+local.label+' '):'Rank ';
   const start=(currentPage-1)*PAGE_SIZE, page=filtered.slice(start,start+PAGE_SIZE);
   document.getElementById('empty-state').classList.toggle('show',filtered.length===0);
 
@@ -368,7 +397,10 @@ function renderTable(){
                    : badge && badge.elo_atl ? `<span class="record-box-red">${c.elo.toFixed(1)}</span>`
                    : `${c.elo.toFixed(1)}`;
     const badgeNoteHtml = badge ? `<div class="record-row-note${badge.rank_atl||badge.elo_atl?' low':''}">${badge.statement}</div>` : '';
-    return `<tr class="${rc}" onclick="window.location='clubs/${c.slug}.html'"><td class="td-rank">${rankHtml}</td><td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell"><span class="country-badge">${c.flag?`<span class="fi fi-${c.flag}"></span>`:''}</span><div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code||''}</div>${badgeNoteHtml}</div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell"><span class="elo-number">${eloHtml}</span><div class="elo-bar"><div class="elo-bar-fill" style="width:${eloPct}%"></div></div></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
+    const rankCell = local && c[local.key]
+      ? `<td class="td-rank local">${c[local.key]}<span class="rank-world">#${rankHtml} world</span></td>`
+      : `<td class="td-rank">${rankHtml}</td>`;
+    return `<tr class="${rc}" onclick="window.location='clubs/${c.slug}.html'">${rankCell}<td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell"><span class="country-badge">${c.flag?`<span class="fi fi-${c.flag}"></span>`:''}</span><div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code||''}</div>${badgeNoteHtml}</div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell"><span class="elo-number">${eloHtml}</span><div class="elo-bar"><div class="elo-bar-fill" style="width:${eloPct}%"></div></div></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
   }).join('');
 
   const s=filtered.length===0?0:start+1, e=Math.min(currentPage*PAGE_SIZE,filtered.length);

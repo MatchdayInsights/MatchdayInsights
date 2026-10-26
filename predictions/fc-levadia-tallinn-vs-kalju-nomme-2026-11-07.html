@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>FC Levadia Tallinn</b> (73%). More from the <a href='../leagues/estonia-meistriliiga.html'>Meistriliiga</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-08-30</td><td>Kalju Nomme v FC Levadia Tallinn</td><td class='r'><b>2-3</b></td></tr><tr><td>2026-06-20</td><td>FC Levadia Tallinn v Kalju Nomme</td><td class='r'><b>1-1</b></td></tr><tr><td>2026-04-12</td><td>Kalju Nomme v FC Levadia Tallinn</td><td class='r'><b>1-1</b></td></tr><tr><td>2025-09-21</td><td>Kalju Nomme v FC Levadia Tallinn</td><td class='r'><b>2-1</b></td></tr><tr><td>2025-06-21</td><td>FC Levadia Tallinn v Kalju Nomme</td><td class='r'><b>3-1</b></td></tr></table>
-<h2>Meistriliiga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>FC Levadia Tallinn</td><td class='r'>33</td><td class='r'>84</td><td class='r'>#462</td></tr><tr class=''><td>2</td><td>Paide</td><td class='r'>33</td><td class='r'>60</td><td class='r'>#1380</td></tr><tr class=''><td>3</td><td>Flora Tallinn</td><td class='r'>34</td><td class='r'>58</td><td class='r'>#1981</td></tr><tr class='hi'><td>4</td><td>Kalju Nomme</td><td class='r'>33</td><td class='r'>54</td><td class='r'>#2004</td></tr><tr class=''><td>5</td><td>Tammeka</td><td class='r'>33</td><td class='r'>50</td><td class='r'>#2494</td></tr><tr class=''><td>6</td><td>Laagri</td><td class='r'>34</td><td class='r'>47</td><td class='r'>#2320</td></tr></table>
+<h2>Meistriliiga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>FC Levadia Tallinn</td><td class='r'>33</td><td class='r'>84</td><td class='r'>#462</td></tr><tr class=''><td>2</td><td>Paide</td><td class='r'>33</td><td class='r'>60</td><td class='r'>#1380</td></tr><tr class=''><td>3</td><td>Flora Tallinn</td><td class='r'>34</td><td class='r'>58</td><td class='r'>#1981</td></tr><tr class='hi'><td>4</td><td>Kalju Nomme</td><td class='r'>33</td><td class='r'>54</td><td class='r'>#2004</td></tr><tr class=''><td>5</td><td>Tammeka</td><td class='r'>33</td><td class='r'>50</td><td class='r'>#2493</td></tr><tr class=''><td>6</td><td>Laagri</td><td class='r'>34</td><td class='r'>47</td><td class='r'>#2320</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

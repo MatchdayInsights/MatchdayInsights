@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Gamba Osaka</b> (42%). More from the <a href='../leagues/japan-j1-league.html'>J1 League</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-11</td><td>Gamba Osaka v Cerezo Osaka</td><td class='r'><b>0-1</b></td></tr><tr><td>2026-02-07</td><td>Cerezo Osaka v Gamba Osaka</td><td class='r'><b>0-0</b></td></tr><tr><td>2025-07-05</td><td>Cerezo Osaka v Gamba Osaka</td><td class='r'><b>0-1</b></td></tr><tr><td>2025-02-14</td><td>Gamba Osaka v Cerezo Osaka</td><td class='r'><b>2-5</b></td></tr></table>
-<h2>J1 League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>10</td><td>Fagiano Okayama</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#458</td></tr><tr class=''><td>11</td><td>Nagoya Grampus</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#491</td></tr><tr class='hi'><td>12</td><td>Cerezo Osaka</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#384</td></tr><tr class=''><td>13</td><td>Shimizu S-pulse</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#730</td></tr><tr class=''><td>14</td><td>V-varen Nagasaki</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#824</td></tr><tr class='hi'><td>15</td><td>Gamba Osaka</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#379</td></tr><tr class=''><td>16</td><td>Kyoto Sanga</td><td class='r'>12</td><td class='r'>10</td><td class='r'>#613</td></tr><tr class=''><td>17</td><td>Mito Hollyhock</td><td class='r'>12</td><td class='r'>9</td><td class='r'>#1096</td></tr></table>
+<h2>J1 League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>10</td><td>Fagiano Okayama</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#458</td></tr><tr class=''><td>11</td><td>Nagoya Grampus</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#491</td></tr><tr class='hi'><td>12</td><td>Cerezo Osaka</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#384</td></tr><tr class=''><td>13</td><td>Shimizu S-pulse</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#731</td></tr><tr class=''><td>14</td><td>V-varen Nagasaki</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#824</td></tr><tr class='hi'><td>15</td><td>Gamba Osaka</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#379</td></tr><tr class=''><td>16</td><td>Kyoto Sanga</td><td class='r'>12</td><td class='r'>10</td><td class='r'>#613</td></tr><tr class=''><td>17</td><td>Mito Hollyhock</td><td class='r'>12</td><td class='r'>9</td><td class='r'>#1096</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

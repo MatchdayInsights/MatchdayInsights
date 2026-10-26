@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Penafiel</b> (60%). More from the <a href='../leagues/portugal-segunda-liga.html'>Segunda Liga</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-03-15</td><td>Feirense v Penafiel</td><td class='r'><b>1-0</b></td></tr><tr><td>2025-10-19</td><td>Penafiel v Feirense</td><td class='r'><b>1-2</b></td></tr><tr><td>2025-04-19</td><td>Penafiel v Feirense</td><td class='r'><b>1-2</b></td></tr><tr><td>2024-12-07</td><td>Feirense v Penafiel</td><td class='r'><b>3-0</b></td></tr><tr><td>2024-01-29</td><td>Penafiel v Feirense</td><td class='r'><b>2-1</b></td></tr></table><p>Feirense have won 4 of the last 5 meetings.</p>
-<h2>Segunda Liga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Lusitânia Lourosa</td><td class='r'>8</td><td class='r'>18</td><td class='r'>#468</td></tr><tr class=''><td>2</td><td>Sporting CP B</td><td class='r'>8</td><td class='r'>18</td><td class='r'>#663</td></tr><tr class='hi'><td>3</td><td>Penafiel</td><td class='r'>8</td><td class='r'>16</td><td class='r'>#532</td></tr><tr class=''><td>4</td><td>Academica</td><td class='r'>8</td><td class='r'>15</td><td class='r'>#437</td></tr><tr class=''><td>17</td><td>Amarante</td><td class='r'>7</td><td class='r'>5</td><td class='r'>#688</td></tr><tr class='hi'><td>18</td><td>Feirense</td><td class='r'>8</td><td class='r'>2</td><td class='r'>#1182</td></tr></table>
+<h2>Segunda Liga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Lusitânia Lourosa</td><td class='r'>8</td><td class='r'>18</td><td class='r'>#468</td></tr><tr class=''><td>2</td><td>Sporting CP B</td><td class='r'>8</td><td class='r'>18</td><td class='r'>#664</td></tr><tr class='hi'><td>3</td><td>Penafiel</td><td class='r'>8</td><td class='r'>16</td><td class='r'>#532</td></tr><tr class=''><td>4</td><td>Academica</td><td class='r'>8</td><td class='r'>15</td><td class='r'>#437</td></tr><tr class=''><td>17</td><td>Amarante</td><td class='r'>7</td><td class='r'>5</td><td class='r'>#689</td></tr><tr class='hi'><td>18</td><td>Feirense</td><td class='r'>8</td><td class='r'>2</td><td class='r'>#1182</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

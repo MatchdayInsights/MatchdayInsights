@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Persib Bandung</b> (83%). More from the <a href='../leagues/indonesia-liga-1.html'>Liga 1</a>.</p>
 
-<h2>Liga 1 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Persija</td><td class='r'>6</td><td class='r'>15</td><td class='r'>#733</td></tr><tr class=''><td>2</td><td>Dewa United</td><td class='r'>7</td><td class='r'>14</td><td class='r'>#1214</td></tr><tr class=''><td>3</td><td>Bali United</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#1361</td></tr><tr class=''><td>4</td><td>Persepam Madura Utd</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#1944</td></tr><tr class='hi'><td>5</td><td>Persib Bandung</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#504</td></tr><tr class=''><td>6</td><td>Persita</td><td class='r'>6</td><td class='r'>12</td><td class='r'>#1919</td></tr><tr class=''><td>15</td><td>PSS Sleman</td><td class='r'>6</td><td class='r'>4</td><td class='r'>#2954</td></tr><tr class='hi'><td>16</td><td>Isenmulang Kalteng</td><td class='r'>7</td><td class='r'>3</td><td class='r'>#2987</td></tr><tr class=''><td>17</td><td>PSIM Yogyakarta</td><td class='r'>7</td><td class='r'>2</td><td class='r'>#2451</td></tr></table>
+<h2>Liga 1 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Persija</td><td class='r'>7</td><td class='r'>18</td><td class='r'>#719</td></tr><tr class=''><td>2</td><td>Dewa United</td><td class='r'>7</td><td class='r'>14</td><td class='r'>#1214</td></tr><tr class=''><td>3</td><td>Bali United</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#1360</td></tr><tr class='hi'><td>4</td><td>Persib Bandung</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#504</td></tr><tr class=''><td>5</td><td>Persepam Madura Utd</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#2032</td></tr><tr class=''><td>15</td><td>PSS Sleman</td><td class='r'>6</td><td class='r'>4</td><td class='r'>#2954</td></tr><tr class='hi'><td>16</td><td>Isenmulang Kalteng</td><td class='r'>7</td><td class='r'>3</td><td class='r'>#2987</td></tr><tr class=''><td>17</td><td>PSIM Yogyakarta</td><td class='r'>7</td><td class='r'>2</td><td class='r'>#2451</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

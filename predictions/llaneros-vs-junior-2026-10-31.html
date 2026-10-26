@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -218,7 +222,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Junior</b> (40%). More from the <a href='../leagues/colombia-primera-a.html'>Primera A</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-19</td><td>Junior v Llaneros</td><td class='r'><b>2-0</b></td></tr><tr><td>2025-08-29</td><td>Junior v Llaneros</td><td class='r'><b>4-0</b></td></tr><tr><td>2025-03-17</td><td>Llaneros v Junior</td><td class='r'><b>0-1</b></td></tr></table><p>Junior have won the last 3 meetings.</p>
-<h2>Primera A table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Atletico Nacional</td><td class='r'>19</td><td class='r'>40</td><td class='r'>#252</td></tr><tr class='hi'><td>2</td><td>Junior</td><td class='r'>19</td><td class='r'>35</td><td class='r'>#742</td></tr><tr class=''><td>3</td><td>Deportivo Pasto</td><td class='r'>19</td><td class='r'>34</td><td class='r'>#1330</td></tr><tr class=''><td>13</td><td>Bucaramanga</td><td class='r'>14</td><td class='r'>25</td><td class='r'>#672</td></tr><tr class='hi'><td>14</td><td>Llaneros</td><td class='r'>19</td><td class='r'>22</td><td class='r'>#1203</td></tr><tr class=''><td>15</td><td>Fortaleza FC</td><td class='r'>19</td><td class='r'>22</td><td class='r'>#1175</td></tr></table>
+<h2>Primera A table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Atletico Nacional</td><td class='r'>19</td><td class='r'>40</td><td class='r'>#252</td></tr><tr class='hi'><td>2</td><td>Junior</td><td class='r'>19</td><td class='r'>35</td><td class='r'>#742</td></tr><tr class=''><td>3</td><td>Deportivo Pasto</td><td class='r'>19</td><td class='r'>34</td><td class='r'>#1329</td></tr><tr class=''><td>13</td><td>Bucaramanga</td><td class='r'>14</td><td class='r'>25</td><td class='r'>#672</td></tr><tr class='hi'><td>14</td><td>Llaneros</td><td class='r'>19</td><td class='r'>22</td><td class='r'>#1203</td></tr><tr class=''><td>15</td><td>Fortaleza FC</td><td class='r'>19</td><td class='r'>22</td><td class='r'>#1175</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

@@ -81,6 +81,10 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -203,7 +207,7 @@ td{padding:10px 14px;vertical-align:middle}
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Nea Salamis host Pafos in the 1. Division (round 7) on Monday 26 October 2026. Nea Salamis are #1,382 in our world ranking and have won 2 and lost 3 of their last 5; Pafos are #193 and have won 1, drawn 2 and lost 2 of their last 5. On paper that's a big gap - 1,189 places - in Pafos's favour.</p>
+<p>Nea Salamis host Pafos in the 1. Division (round 7) on Monday 26 October 2026. Nea Salamis are #1,382 in our world ranking and have won 2 and lost 3 of their last 5; Pafos are #195 and have won 1, drawn 2 and lost 2 of their last 5. On paper that's a big gap - 1,187 places - in Pafos's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Pafos the favourites at 67%, with a draw at 20% and Nea Salamis at 13%.</p>
 <div class='oddsbar'><i style='width:13.3%;background:#1f9a46'></i><i style='width:19.5%;background:#5a6888'></i><i style='width:67.2%;background:#d43c44'></i></div>
@@ -211,14 +215,14 @@ td{padding:10px 14px;vertical-align:middle}
   <span>Draw 20%</span><span style="color:#d43c44">Pafos 67%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/nea-salamis.html'>Nea Salamis</a></div><div class='st'>World rank: <b>#1382</b><br>Rating: <b>898</b><br>Chance to win: <b>13%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='APEA'>W</span><span class='chip' style='background:#d43c44' title='Apollon Limassol'>L</span><span class='chip' style='background:#d43c44' title='Apoel Nicosia'>L</span><span class='chip' style='background:#1f9a46' title='Anorthosis'>W</span><span class='chip' style='background:#d43c44' title='AEL'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/pafos.html'>Pafos</a></div><div class='st'>World rank: <b>#193</b><br>Rating: <b>1238</b><br>Chance to win: <b>67%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Riga'>D</span><span class='chip' style='background:#5a6888' title='Apoel Nicosia'>D</span><span class='chip' style='background:#d43c44' title='Atalanta'>L</span><span class='chip' style='background:#1f9a46' title='Anorthosis'>W</span><span class='chip' style='background:#d43c44' title='AEL'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/pafos.html'>Pafos</a></div><div class='st'>World rank: <b>#195</b><br>Rating: <b>1238</b><br>Chance to win: <b>67%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Riga'>D</span><span class='chip' style='background:#5a6888' title='Apoel Nicosia'>D</span><span class='chip' style='background:#d43c44' title='Atalanta'>L</span><span class='chip' style='background:#1f9a46' title='Anorthosis'>W</span><span class='chip' style='background:#d43c44' title='AEL'>L</span></div></div>
 </div>
 <h2>Who will win Nea Salamis vs Pafos?</h2>
-<p>Nea Salamis are #1382 and Pafos #193 in our world ranking of
+<p>Nea Salamis are #1382 and Pafos #195 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Pafos</b> (67%). More from the <a href='../leagues/cyprus-1-division.html'>1. Division</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2024-12-16</td><td>Nea Salamis v Pafos</td><td class='r'><b>0-2</b></td></tr><tr><td>2024-09-18</td><td>Pafos v Nea Salamis</td><td class='r'><b>4-0</b></td></tr><tr><td>2024-02-28</td><td>Nea Salamis v Pafos</td><td class='r'><b>0-5</b></td></tr><tr><td>2024-02-19</td><td>Pafos v Nea Salamis</td><td class='r'><b>0-0</b></td></tr><tr><td>2023-12-03</td><td>Nea Salamis v Pafos</td><td class='r'><b>0-2</b></td></tr></table>
-<h2>1. Division table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>5</td><td>Aris</td><td class='r'>7</td><td class='r'>12</td><td class='r'>#338</td></tr><tr class=''><td>6</td><td>Apoel Nicosia</td><td class='r'>7</td><td class='r'>11</td><td class='r'>#417</td></tr><tr class='hi'><td>7</td><td>Pafos</td><td class='r'>6</td><td class='r'>11</td><td class='r'>#193</td></tr><tr class=''><td>8</td><td>Omonia 29is Maiou</td><td class='r'>7</td><td class='r'>8</td><td class='r'>#1389</td></tr><tr class=''><td>9</td><td>Anorthosis</td><td class='r'>7</td><td class='r'>6</td><td class='r'>#873</td></tr><tr class=''><td>10</td><td>Olympiakos</td><td class='r'>7</td><td class='r'>6</td><td class='r'>#1106</td></tr><tr class=''><td>11</td><td>Omonia Aradippou</td><td class='r'>7</td><td class='r'>6</td><td class='r'>#1125</td></tr><tr class='hi'><td>12</td><td>Nea Salamis</td><td class='r'>6</td><td class='r'>4</td><td class='r'>#1382</td></tr><tr class=''><td>13</td><td>Krasava Ypsonas</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#1261</td></tr><tr class=''><td>14</td><td>Karmiotissa</td><td class='r'>7</td><td class='r'>3</td><td class='r'>#1678</td></tr></table>
+<h2>1. Division table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>5</td><td>Aris</td><td class='r'>7</td><td class='r'>12</td><td class='r'>#339</td></tr><tr class=''><td>6</td><td>Apoel Nicosia</td><td class='r'>7</td><td class='r'>11</td><td class='r'>#418</td></tr><tr class='hi'><td>7</td><td>Pafos</td><td class='r'>6</td><td class='r'>11</td><td class='r'>#195</td></tr><tr class=''><td>8</td><td>Omonia 29is Maiou</td><td class='r'>7</td><td class='r'>8</td><td class='r'>#1389</td></tr><tr class=''><td>9</td><td>Anorthosis</td><td class='r'>7</td><td class='r'>6</td><td class='r'>#874</td></tr><tr class=''><td>10</td><td>Olympiakos</td><td class='r'>7</td><td class='r'>6</td><td class='r'>#1106</td></tr><tr class=''><td>11</td><td>Omonia Aradippou</td><td class='r'>7</td><td class='r'>6</td><td class='r'>#1125</td></tr><tr class='hi'><td>12</td><td>Nea Salamis</td><td class='r'>6</td><td class='r'>4</td><td class='r'>#1382</td></tr><tr class=''><td>13</td><td>Krasava Ypsonas</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#1262</td></tr><tr class=''><td>14</td><td>Karmiotissa</td><td class='r'>7</td><td class='r'>3</td><td class='r'>#1678</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
