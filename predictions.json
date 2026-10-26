@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:21:46+00:00",
+  "generated": "2026-10-26T17:34:29+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -599,7 +599,7 @@
       "competition_type": "league",
       "country": "Israel",
       "round": "Regular Season - 8",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "4195",
       "home_team": "Maccabi Haifa",
       "home_slug": "maccabi-haifa",
