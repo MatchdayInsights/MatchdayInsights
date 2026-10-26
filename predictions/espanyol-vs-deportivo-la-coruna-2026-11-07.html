@@ -85,6 +85,14 @@ td{padding:10px 14px;vertical-align:middle}
    rank under it (Greg, 2026-10). */
 .td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
 .td-rank.local{width:64px}
+th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-space:normal;max-width:96px;line-height:1.3}
+/* Phones: tighter columns so the club name has room (Greg, 2026-10). */
+@media(max-width:640px){
+  th{padding:8px 8px}td{padding:9px 8px}
+  table{min-width:480px}
+  .td-rank,.td-rank.local{width:52px}.td-move{width:38px}.td-result{width:96px}
+  .td-club{max-width:170px}
+}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -222,7 +230,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Espanyol</b> (42%). More from the <a href='../leagues/spain-la-liga.html'>La Liga</a>.</p>
 
-<h2>La Liga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>9</td><td>Celta Vigo</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#62</td></tr><tr class=''><td>10</td><td>Villarreal</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#43</td></tr><tr class='hi'><td>11</td><td>Deportivo La Coruna</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#129</td></tr><tr class=''><td>12</td><td>Osasuna</td><td class='r'>9</td><td class='r'>11</td><td class='r'>#97</td></tr><tr class=''><td>13</td><td>Racing Santander</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#133</td></tr><tr class=''><td>14</td><td>Levante</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#85</td></tr><tr class=''><td>15</td><td>Elche</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#76</td></tr><tr class=''><td>16</td><td>Rayo Vallecano</td><td class='r'>9</td><td class='r'>9</td><td class='r'>#64</td></tr><tr class=''><td>17</td><td>Getafe</td><td class='r'>10</td><td class='r'>9</td><td class='r'>#134</td></tr><tr class='hi'><td>18</td><td>Espanyol</td><td class='r'>10</td><td class='r'>8</td><td class='r'>#122</td></tr><tr class=''><td>19</td><td>Valencia</td><td class='r'>10</td><td class='r'>6</td><td class='r'>#78</td></tr><tr class=''><td>20</td><td>Malaga</td><td class='r'>10</td><td class='r'>5</td><td class='r'>#156</td></tr></table>
+<h2>La Liga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>9</td><td>Celta Vigo</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#62</td></tr><tr class=''><td>10</td><td>Villarreal</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#43</td></tr><tr class='hi'><td>11</td><td>Deportivo La Coruna</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#129</td></tr><tr class=''><td>12</td><td>Osasuna</td><td class='r'>9</td><td class='r'>11</td><td class='r'>#98</td></tr><tr class=''><td>13</td><td>Racing Santander</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#133</td></tr><tr class=''><td>14</td><td>Levante</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#86</td></tr><tr class=''><td>15</td><td>Elche</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#76</td></tr><tr class=''><td>16</td><td>Rayo Vallecano</td><td class='r'>9</td><td class='r'>9</td><td class='r'>#64</td></tr><tr class=''><td>17</td><td>Getafe</td><td class='r'>10</td><td class='r'>9</td><td class='r'>#134</td></tr><tr class='hi'><td>18</td><td>Espanyol</td><td class='r'>10</td><td class='r'>8</td><td class='r'>#122</td></tr><tr class=''><td>19</td><td>Valencia</td><td class='r'>10</td><td class='r'>6</td><td class='r'>#78</td></tr><tr class=''><td>20</td><td>Malaga</td><td class='r'>10</td><td class='r'>5</td><td class='r'>#156</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

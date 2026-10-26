@@ -85,6 +85,14 @@ td{padding:10px 14px;vertical-align:middle}
    rank under it (Greg, 2026-10). */
 .td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
 .td-rank.local{width:64px}
+th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-space:normal;max-width:96px;line-height:1.3}
+/* Phones: tighter columns so the club name has room (Greg, 2026-10). */
+@media(max-width:640px){
+  th{padding:8px 8px}td{padding:9px 8px}
+  table{min-width:480px}
+  .td-rank,.td-rank.local{width:52px}.td-move{width:38px}.td-result{width:96px}
+  .td-club{max-width:170px}
+}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -222,7 +230,7 @@ td{padding:10px 14px;vertical-align:middle}
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Kayserispor</b> (62%). More from the <a href='../leagues/turkey-1-lig.html'>1. Lig</a>.</p>
 
-<h2>1. Lig table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Bursaspor</td><td class='r'>12</td><td class='r'>28</td><td class='r'>#939</td></tr><tr class='hi'><td>2</td><td>Kayserispor</td><td class='r'>12</td><td class='r'>27</td><td class='r'>#590</td></tr><tr class=''><td>3</td><td>Iğdır FK</td><td class='r'>12</td><td class='r'>26</td><td class='r'>#1065</td></tr><tr class=''><td>4</td><td>Batman Petrolspor</td><td class='r'>12</td><td class='r'>23</td><td class='r'>#1271</td></tr><tr class=''><td>5</td><td>Keçiörengücü</td><td class='r'>12</td><td class='r'>20</td><td class='r'>#1241</td></tr><tr class='hi'><td>6</td><td>Muğlaspor</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#1446</td></tr><tr class=''><td>7</td><td>Mardin 1969</td><td class='r'>11</td><td class='r'>18</td><td class='r'>#1348</td></tr><tr class=''><td>8</td><td>Antalyaspor</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#1222</td></tr></table>
+<h2>1. Lig table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Bursaspor</td><td class='r'>12</td><td class='r'>28</td><td class='r'>#939</td></tr><tr class='hi'><td>2</td><td>Kayserispor</td><td class='r'>12</td><td class='r'>27</td><td class='r'>#590</td></tr><tr class=''><td>3</td><td>Iğdır FK</td><td class='r'>12</td><td class='r'>26</td><td class='r'>#1065</td></tr><tr class=''><td>4</td><td>Batman Petrolspor</td><td class='r'>12</td><td class='r'>23</td><td class='r'>#1271</td></tr><tr class=''><td>5</td><td>Keçiörengücü</td><td class='r'>12</td><td class='r'>20</td><td class='r'>#1241</td></tr><tr class='hi'><td>6</td><td>Muğlaspor</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#1446</td></tr><tr class=''><td>7</td><td>Mardin 1969</td><td class='r'>11</td><td class='r'>18</td><td class='r'>#1349</td></tr><tr class=''><td>8</td><td>Antalyaspor</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#1223</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
