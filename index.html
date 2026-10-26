@@ -78,6 +78,14 @@ td{padding:10px 14px;vertical-align:middle}
    rank under it (Greg, 2026-10). */
 .td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
 .td-rank.local{width:64px}
+th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-space:normal;max-width:96px;line-height:1.3}
+/* Phones: tighter columns so the club name has room (Greg, 2026-10). */
+@media(max-width:640px){
+  th{padding:8px 8px}td{padding:9px 8px}
+  table{min-width:480px}
+  .td-rank,.td-rank.local{width:52px}.td-move{width:38px}.td-result{width:96px}
+  .td-club{max-width:170px}
+}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -158,7 +166,7 @@ td{padding:10px 14px;vertical-align:middle}
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">288,493</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">288,496</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
@@ -380,7 +388,15 @@ function renderTable(){
   const tbody=document.getElementById('table-body');
   const local=localRank();
   const th=document.querySelector('th[data-col="rank"]');
-  if(th&&th.firstChild)th.firstChild.textContent=local?('Rank '+local.label+' '):'Rank ';
+  if(th&&th.firstChild){
+    // "RANK" with the place on a small second line, so the column stays narrow.
+    th.firstChild.textContent='Rank ';
+    let sub=th.querySelector('.rank-in');
+    if(local){
+      if(!sub){sub=document.createElement('span');sub.className='rank-in';th.appendChild(sub);}
+      sub.textContent=local.label;
+    }else if(sub)sub.remove();
+  }
   const start=(currentPage-1)*PAGE_SIZE, page=filtered.slice(start,start+PAGE_SIZE);
   document.getElementById('empty-state').classList.toggle('show',filtered.length===0);
 
