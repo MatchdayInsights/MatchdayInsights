@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Osasuna host Athletic Club in the La Liga (round 12) on Saturday 07 November 2026. Osasuna are #106 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Athletic Club are #66 and have won 1, drawn 3 and lost 1 of their last 5.</p>
+<p>Osasuna host Athletic Club in the La Liga (round 12) on Saturday 07 November 2026. Osasuna are #107 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Athletic Club are #66 and have won 1, drawn 3 and lost 1 of their last 5.</p>
 <h2>Our prediction</h2>
 <p>Our model sees Osasuna v Athletic Club as close to a coin flip: Osasuna 35%, a draw 30%, Athletic Club 35%.</p>
 <div class='oddsbar'><i style='width:35.0%;background:#1f9a46'></i><i style='width:29.9%;background:#5a6888'></i><i style='width:35.2%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Osasuna 35%</span>
   <span>Draw 30%</span><span style="color:#d43c44">Athletic Club 35%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/osasuna.html'>Osasuna</a></div><div class='st'>World rank: <b>#106</b><br>Rating: <b>1334</b><br>Chance to win: <b>35%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Sevilla'>L</span><span class='chip' style='background:#1f9a46' title='Racing Santander'>W</span><span class='chip' style='background:#d43c44' title='Real Betis'>L</span><span class='chip' style='background:#5a6888' title='Rayo Vallecano'>D</span><span class='chip' style='background:#d43c44' title='Atletico Madrid'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/osasuna.html'>Osasuna</a></div><div class='st'>World rank: <b>#107</b><br>Rating: <b>1334</b><br>Chance to win: <b>35%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Sevilla'>L</span><span class='chip' style='background:#1f9a46' title='Racing Santander'>W</span><span class='chip' style='background:#d43c44' title='Real Betis'>L</span><span class='chip' style='background:#5a6888' title='Rayo Vallecano'>D</span><span class='chip' style='background:#d43c44' title='Atletico Madrid'>L</span></div></div>
   <div class='ppcard'><div class='nm'><a href='../clubs/athletic-club-esp.html'>Athletic Club</a></div><div class='st'>World rank: <b>#66</b><br>Rating: <b>1393</b><br>Chance to win: <b>35%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Getafe'>W</span><span class='chip' style='background:#d43c44' title='Levante'>L</span><span class='chip' style='background:#5a6888' title='Valencia'>D</span><span class='chip' style='background:#5a6888' title='Alaves'>D</span><span class='chip' style='background:#5a6888' title='Elche'>D</span></div></div>
 </div>
 <h2>Who will win Osasuna vs Athletic Club?</h2>
-<p>Osasuna are #106 and Athletic Club #66 in our world ranking of
+<p>Osasuna are #107 and Athletic Club #66 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Athletic Club</b> (35%). More from the <a href='../leagues/spain-la-liga.html'>La Liga</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-21</td><td>Athletic Club v Osasuna</td><td class='r'><b>1-0</b></td></tr><tr><td>2026-01-03</td><td>Osasuna v Athletic Club</td><td class='r'><b>1-1</b></td></tr><tr><td>2025-03-30</td><td>Athletic Club v Osasuna</td><td class='r'><b>0-0</b></td></tr><tr><td>2025-01-16</td><td>Athletic Club v Osasuna</td><td class='r'><b>2-3</b></td></tr><tr><td>2024-12-21</td><td>Osasuna v Athletic Club</td><td class='r'><b>1-2</b></td></tr></table>
-<h2>La Liga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>6</td><td>Sevilla</td><td class='r'>10</td><td class='r'>17</td><td class='r'>#71</td></tr><tr class=''><td>7</td><td>Alaves</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#84</td></tr><tr class='hi'><td>8</td><td>Athletic Club</td><td class='r'>9</td><td class='r'>12</td><td class='r'>#66</td></tr><tr class=''><td>9</td><td>Celta Vigo</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#61</td></tr><tr class=''><td>10</td><td>Villarreal</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#43</td></tr><tr class=''><td>11</td><td>Deportivo La Coruna</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#126</td></tr><tr class='hi'><td>12</td><td>Osasuna</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#106</td></tr><tr class=''><td>13</td><td>Racing Santander</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#131</td></tr><tr class=''><td>14</td><td>Levante</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#85</td></tr></table>
+<h2>La Liga table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>6</td><td>Sevilla</td><td class='r'>10</td><td class='r'>17</td><td class='r'>#71</td></tr><tr class=''><td>7</td><td>Alaves</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#85</td></tr><tr class='hi'><td>8</td><td>Athletic Club</td><td class='r'>9</td><td class='r'>12</td><td class='r'>#66</td></tr><tr class=''><td>9</td><td>Celta Vigo</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#62</td></tr><tr class=''><td>10</td><td>Villarreal</td><td class='r'>10</td><td class='r'>12</td><td class='r'>#42</td></tr><tr class=''><td>11</td><td>Deportivo La Coruna</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#127</td></tr><tr class='hi'><td>12</td><td>Osasuna</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#107</td></tr><tr class=''><td>13</td><td>Racing Santander</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#132</td></tr><tr class=''><td>14</td><td>Levante</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#86</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

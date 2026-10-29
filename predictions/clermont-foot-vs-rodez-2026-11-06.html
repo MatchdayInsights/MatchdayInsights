@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Clermont Foot host Rodez in the Ligue 2 (round 12) on Friday 06 November 2026. Clermont Foot are #830 in our world ranking and have drawn 3 and lost 2 of their last 5; Rodez are #392 and have won 1 and lost 4 of their last 5. On paper that's a big gap - 438 places - in Rodez's favour.</p>
+<p>Clermont Foot host Rodez in the Ligue 2 (round 12) on Friday 06 November 2026. Clermont Foot are #834 in our world ranking and have drawn 3 and lost 2 of their last 5; Rodez are #392 and have won 1 and lost 4 of their last 5. On paper that's a big gap - 442 places - in Rodez's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Rodez the favourites at 42%, with a draw at 28% and Clermont Foot at 29%.</p>
 <div class='oddsbar'><i style='width:29.5%;background:#1f9a46'></i><i style='width:28.3%;background:#5a6888'></i><i style='width:42.2%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Clermont Foot 29%</span>
   <span>Draw 28%</span><span style="color:#d43c44">Rodez 42%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/clermont-foot.html'>Clermont Foot</a></div><div class='st'>World rank: <b>#830</b><br>Rating: <b>1003</b><br>Chance to win: <b>29%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Guingamp'>L</span><span class='chip' style='background:#5a6888' title='Laval'>D</span><span class='chip' style='background:#d43c44' title='RED Star FC 93'>L</span><span class='chip' style='background:#5a6888' title='Grenoble'>D</span><span class='chip' style='background:#5a6888' title='Boulogne'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/clermont-foot.html'>Clermont Foot</a></div><div class='st'>World rank: <b>#834</b><br>Rating: <b>1003</b><br>Chance to win: <b>29%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Guingamp'>L</span><span class='chip' style='background:#5a6888' title='Laval'>D</span><span class='chip' style='background:#d43c44' title='RED Star FC 93'>L</span><span class='chip' style='background:#5a6888' title='Grenoble'>D</span><span class='chip' style='background:#5a6888' title='Boulogne'>D</span></div></div>
   <div class='ppcard'><div class='nm'><a href='../clubs/rodez.html'>Rodez</a></div><div class='st'>World rank: <b>#392</b><br>Rating: <b>1124</b><br>Chance to win: <b>42%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Dijon'>W</span><span class='chip' style='background:#d43c44' title='Montpellier'>L</span><span class='chip' style='background:#d43c44' title='Saint Etienne'>L</span><span class='chip' style='background:#d43c44' title='Nancy'>L</span><span class='chip' style='background:#d43c44' title='Grenoble'>L</span></div></div>
 </div>
 <h2>Who will win Clermont Foot vs Rodez?</h2>
-<p>Clermont Foot are #830 and Rodez #392 in our world ranking of
+<p>Clermont Foot are #834 and Rodez #392 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Rodez</b> (42%). More from the <a href='../leagues/france-ligue-2.html'>Ligue 2</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-02-13</td><td>Clermont Foot v Rodez</td><td class='r'><b>1-2</b></td></tr><tr><td>2025-09-19</td><td>Rodez v Clermont Foot</td><td class='r'><b>0-1</b></td></tr><tr><td>2025-05-10</td><td>Rodez v Clermont Foot</td><td class='r'><b>1-1</b></td></tr><tr><td>2024-12-13</td><td>Clermont Foot v Rodez</td><td class='r'><b>1-1</b></td></tr><tr><td>2021-02-05</td><td>Rodez v Clermont Foot</td><td class='r'><b>2-0</b></td></tr></table>
-<h2>Ligue 2 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>12</td><td>Sochaux</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#780</td></tr><tr class=''><td>13</td><td>Boulogne</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#692</td></tr><tr class='hi'><td>14</td><td>Rodez</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#392</td></tr><tr class=''><td>15</td><td>Nantes</td><td class='r'>10</td><td class='r'>8</td><td class='r'>#331</td></tr><tr class=''><td>16</td><td>Grenoble</td><td class='r'>10</td><td class='r'>8</td><td class='r'>#705</td></tr><tr class='hi'><td>17</td><td>Clermont Foot</td><td class='r'>10</td><td class='r'>7</td><td class='r'>#830</td></tr><tr class=''><td>18</td><td>Laval</td><td class='r'>10</td><td class='r'>6</td><td class='r'>#816</td></tr></table>
+<h2>Ligue 2 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>12</td><td>Sochaux</td><td class='r'>10</td><td class='r'>11</td><td class='r'>#785</td></tr><tr class=''><td>13</td><td>Boulogne</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#697</td></tr><tr class='hi'><td>14</td><td>Rodez</td><td class='r'>10</td><td class='r'>10</td><td class='r'>#392</td></tr><tr class=''><td>15</td><td>Nantes</td><td class='r'>10</td><td class='r'>8</td><td class='r'>#331</td></tr><tr class=''><td>16</td><td>Grenoble</td><td class='r'>10</td><td class='r'>8</td><td class='r'>#710</td></tr><tr class='hi'><td>17</td><td>Clermont Foot</td><td class='r'>10</td><td class='r'>7</td><td class='r'>#834</td></tr><tr class=''><td>18</td><td>Laval</td><td class='r'>10</td><td class='r'>6</td><td class='r'>#819</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

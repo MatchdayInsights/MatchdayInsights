@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Abu Qair Semad host Ghazl El Mehalla in the Premier League (round 8) on Saturday 31 October 2026. Abu Qair Semad are #913 in our world ranking and have drawn 2 and lost 3 of their last 5; Ghazl El Mehalla are #683 and have won 1, drawn 1 and lost 3 of their last 5. On paper that's a big gap - 230 places - in Ghazl El Mehalla's favour.</p>
+<p>Abu Qair Semad host Ghazl El Mehalla in the Premier League (round 8) on Saturday 31 October 2026. Abu Qair Semad are #910 in our world ranking and have drawn 2 and lost 3 of their last 5; Ghazl El Mehalla are #688 and have won 1, drawn 1 and lost 3 of their last 5. On paper that's a big gap - 222 places - in Ghazl El Mehalla's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model sees Abu Qair Semad v Ghazl El Mehalla as close to a coin flip: Abu Qair Semad 36%, a draw 30%, Ghazl El Mehalla 34%.</p>
 <div class='oddsbar'><i style='width:35.9%;background:#1f9a46'></i><i style='width:29.7%;background:#5a6888'></i><i style='width:34.4%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Abu Qair Semad 36%</span>
   <span>Draw 30%</span><span style="color:#d43c44">Ghazl El Mehalla 34%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/abu-qair-semad.html'>Abu Qair Semad</a></div><div class='st'>World rank: <b>#913</b><br>Rating: <b>987</b><br>Chance to win: <b>36%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='AL Masry'>D</span><span class='chip' style='background:#d43c44' title='Asyut Petrol'>L</span><span class='chip' style='background:#5a6888' title='Ghazl El Mehalla'>D</span><span class='chip' style='background:#d43c44' title='Al Ahly'>L</span><span class='chip' style='background:#d43c44' title='Zamalek SC'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/ghazl-el-mehalla.html'>Ghazl El Mehalla</a></div><div class='st'>World rank: <b>#683</b><br>Rating: <b>1038</b><br>Chance to win: <b>34%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Al Ittihad'>W</span><span class='chip' style='background:#d43c44' title='Smouha SC'>L</span><span class='chip' style='background:#5a6888' title='Abu Qair Semad'>D</span><span class='chip' style='background:#d43c44' title='Zamalek SC'>L</span><span class='chip' style='background:#d43c44' title='National Bank of Egypt'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/abu-qair-semad.html'>Abu Qair Semad</a></div><div class='st'>World rank: <b>#910</b><br>Rating: <b>987</b><br>Chance to win: <b>36%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='AL Masry'>D</span><span class='chip' style='background:#d43c44' title='Asyut Petrol'>L</span><span class='chip' style='background:#5a6888' title='Ghazl El Mehalla'>D</span><span class='chip' style='background:#d43c44' title='Al Ahly'>L</span><span class='chip' style='background:#d43c44' title='Zamalek SC'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/ghazl-el-mehalla.html'>Ghazl El Mehalla</a></div><div class='st'>World rank: <b>#688</b><br>Rating: <b>1038</b><br>Chance to win: <b>34%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Al Ittihad'>W</span><span class='chip' style='background:#d43c44' title='Smouha SC'>L</span><span class='chip' style='background:#5a6888' title='Abu Qair Semad'>D</span><span class='chip' style='background:#d43c44' title='Zamalek SC'>L</span><span class='chip' style='background:#d43c44' title='National Bank of Egypt'>L</span></div></div>
 </div>
 <h2>Who will win Abu Qair Semad vs Ghazl El Mehalla?</h2>
-<p>Abu Qair Semad are #913 and Ghazl El Mehalla #683 in our world ranking of
+<p>Abu Qair Semad are #910 and Ghazl El Mehalla #688 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Abu Qair Semad</b> (36%). More from the <a href='../leagues/egypt-premier-league.html'>Premier League</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-08</td><td>Ghazl El Mehalla v Abu Qair Semad</td><td class='r'><b>1-1</b></td></tr></table>
-<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>16</td><td>Asyut Petrol</td><td class='r'>7</td><td class='r'>5</td><td class='r'>#949</td></tr><tr class=''><td>17</td><td>Enppi</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#514</td></tr><tr class='hi'><td>18</td><td>Ghazl El Mehalla</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#683</td></tr><tr class='hi'><td>19</td><td>Abu Qair Semad</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#913</td></tr><tr class=''><td>20</td><td>El Gouna FC</td><td class='r'>7</td><td class='r'>2</td><td class='r'>#677</td></tr></table>
+<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>16</td><td>Asyut Petrol</td><td class='r'>7</td><td class='r'>5</td><td class='r'>#946</td></tr><tr class=''><td>17</td><td>Enppi</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#514</td></tr><tr class='hi'><td>18</td><td>Ghazl El Mehalla</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#688</td></tr><tr class='hi'><td>19</td><td>Abu Qair Semad</td><td class='r'>7</td><td class='r'>4</td><td class='r'>#910</td></tr><tr class=''><td>20</td><td>El Gouna FC</td><td class='r'>7</td><td class='r'>2</td><td class='r'>#680</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

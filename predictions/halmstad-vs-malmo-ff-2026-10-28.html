@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -169,7 +187,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Halmstad vs Malmo FF", "sport": "Soccer", "startDate": "2026-10-28T18:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Orjans Vall", "address": {"@type": "PostalAddress", "addressLocality": "Halmstad", "addressCountry": "SE"}}, "homeTeam": {"@type": "SportsTeam", "name": "Halmstad"}, "awayTeam": {"@type": "SportsTeam", "name": "Malmo FF"}, "competitor": [{"@type": "SportsTeam", "name": "Halmstad"}, {"@type": "SportsTeam", "name": "Malmo FF"}], "performer": [{"@type": "SportsTeam", "name": "Halmstad"}, {"@type": "SportsTeam", "name": "Malmo FF"}], "organizer": {"@type": "SportsOrganization", "name": "Allsvenskan"}, "description": "Halmstad vs Malmo FF prediction for Wednesday 28 October 2026: our model gives Halmstad 24%, a draw 26% and Malmo FF 50%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/halmstad-vs-malmo-ff-2026-10-28.html", "endDate": "2026-10-28T20:00:00+00:00"}</script>
+</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Halmstad vs Malmo FF", "sport": "Soccer", "startDate": "2026-10-28T18:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Orjans Vall", "address": {"@type": "PostalAddress", "addressLocality": "Halmstad", "addressCountry": "SE"}}, "homeTeam": {"@type": "SportsTeam", "name": "Halmstad"}, "awayTeam": {"@type": "SportsTeam", "name": "Malmo FF"}, "competitor": [{"@type": "SportsTeam", "name": "Halmstad"}, {"@type": "SportsTeam", "name": "Malmo FF"}], "performer": [{"@type": "SportsTeam", "name": "Halmstad"}, {"@type": "SportsTeam", "name": "Malmo FF"}], "organizer": {"@type": "SportsOrganization", "name": "Allsvenskan"}, "description": "Halmstad vs Malmo FF prediction for Wednesday 28 October 2026: our model gives Halmstad 24%, a draw 26% and Malmo FF 50%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/halmstad-vs-malmo-ff-2026-10-28.html", "endDate": "2026-10-28T20:00:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -214,23 +232,23 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     text-transform:uppercase;line-height:.95;margin:10px 0 0">Halmstad vs Malmo FF<br>
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
-
-<p>Halmstad host Malmo FF in the Allsvenskan (round 26) on Wednesday 28 October 2026. Halmstad are #1,299 in our world ranking and have won 2 and lost 3 of their last 5; Malmo FF are #457 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 842 places - in Malmo FF's favour.</p>
+<div class='verdict'><b>Full time: Halmstad 0-3 Malmo FF.</b> We had Malmo FF as the most likely result at 50% - and that is how it went. The chance we gave the actual result: 50%.</div>
+<p>Halmstad host Malmo FF in the Allsvenskan (round 26) on Wednesday 28 October 2026. Halmstad are #1,388 in our world ranking and have won 2 and lost 3 of their last 5; Malmo FF are #418 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 970 places - in Malmo FF's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Malmo FF the favourites at 50%, with a draw at 26% and Halmstad at 24%.</p>
 <div class='oddsbar'><i style='width:23.6%;background:#1f9a46'></i><i style='width:26.0%;background:#5a6888'></i><i style='width:50.4%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Halmstad 24%</span>
   <span>Draw 26%</span><span style="color:#d43c44">Malmo FF 50%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/halmstad.html'>Halmstad</a></div><div class='st'>World rank: <b>#1299</b><br>Rating: <b>911</b><br>Chance to win: <b>24%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Vasteras SK FK'>W</span><span class='chip' style='background:#d43c44' title='Hammarby FF'>L</span><span class='chip' style='background:#d43c44' title='IF Elfsborg'>L</span><span class='chip' style='background:#1f9a46' title='AIK Stockholm'>W</span><span class='chip' style='background:#d43c44' title='IFK Goteborg'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/malmo-ff.html'>Malmo FF</a></div><div class='st'>World rank: <b>#457</b><br>Rating: <b>1101</b><br>Chance to win: <b>50%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='IF Elfsborg'>D</span><span class='chip' style='background:#d43c44' title='BK Hacken'>L</span><span class='chip' style='background:#1f9a46' title='Kalmar FF'>W</span><span class='chip' style='background:#d43c44' title='Vasteras SK FK'>L</span><span class='chip' style='background:#1f9a46' title='Orgryte IS'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/halmstad.html'>Halmstad</a></div><div class='st'>World rank: <b>#1388</b><br>Rating: <b>897</b><br>Chance to win: <b>24%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Malmo FF'>L</span><span class='chip' style='background:#1f9a46' title='Vasteras SK FK'>W</span><span class='chip' style='background:#d43c44' title='Hammarby FF'>L</span><span class='chip' style='background:#d43c44' title='IF Elfsborg'>L</span><span class='chip' style='background:#1f9a46' title='AIK Stockholm'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/malmo-ff.html'>Malmo FF</a></div><div class='st'>World rank: <b>#418</b><br>Rating: <b>1115</b><br>Chance to win: <b>50%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Halmstad'>W</span><span class='chip' style='background:#5a6888' title='IF Elfsborg'>D</span><span class='chip' style='background:#d43c44' title='BK Hacken'>L</span><span class='chip' style='background:#1f9a46' title='Kalmar FF'>W</span><span class='chip' style='background:#d43c44' title='Vasteras SK FK'>L</span></div></div>
 </div>
 <h2>Who will win Halmstad vs Malmo FF?</h2>
-<p>Halmstad are #1299 and Malmo FF #457 in our world ranking of
+<p>Halmstad are #1388 and Malmo FF #418 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Malmo FF</b> (50%). More from the <a href='../leagues/sweden-allsvenskan.html'>Allsvenskan</a>.</p>
-<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-05-30</td><td>Malmo FF v Halmstad</td><td class='r'><b>5-2</b></td></tr><tr><td>2026-03-08</td><td>Malmo FF v Halmstad</td><td class='r'><b>2-1</b></td></tr><tr><td>2025-08-16</td><td>Halmstad v Malmo FF</td><td class='r'><b>0-4</b></td></tr><tr><td>2025-05-18</td><td>Malmo FF v Halmstad</td><td class='r'><b>3-0</b></td></tr><tr><td>2024-08-10</td><td>Halmstad v Malmo FF</td><td class='r'><b>0-1</b></td></tr></table><p>Malmo FF have won the last 5 meetings.</p>
-<h2>Allsvenskan table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>6</td><td>Vasteras SK FK</td><td class='r'>25</td><td class='r'>38</td><td class='r'>#604</td></tr><tr class=''><td>7</td><td>AIK Stockholm</td><td class='r'>26</td><td class='r'>38</td><td class='r'>#522</td></tr><tr class='hi'><td>8</td><td>Malmo FF</td><td class='r'>25</td><td class='r'>37</td><td class='r'>#457</td></tr><tr class=''><td>9</td><td>IFK Goteborg</td><td class='r'>25</td><td class='r'>37</td><td class='r'>#428</td></tr><tr class=''><td>10</td><td>IF Brommapojkarna</td><td class='r'>25</td><td class='r'>33</td><td class='r'>#779</td></tr><tr class=''><td>11</td><td>Gais</td><td class='r'>25</td><td class='r'>31</td><td class='r'>#477</td></tr><tr class=''><td>12</td><td>Mjallby AIF</td><td class='r'>25</td><td class='r'>23</td><td class='r'>#673</td></tr><tr class=''><td>13</td><td>Kalmar FF</td><td class='r'>25</td><td class='r'>22</td><td class='r'>#1231</td></tr><tr class=''><td>14</td><td>Degerfors IF</td><td class='r'>25</td><td class='r'>20</td><td class='r'>#1195</td></tr><tr class=''><td>15</td><td>Orgryte IS</td><td class='r'>25</td><td class='r'>19</td><td class='r'>#1164</td></tr><tr class='hi'><td>16</td><td>Halmstad</td><td class='r'>25</td><td class='r'>17</td><td class='r'>#1299</td></tr></table>
+<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-28</td><td>Halmstad v Malmo FF</td><td class='r'><b>0-3</b></td></tr><tr><td>2026-05-30</td><td>Malmo FF v Halmstad</td><td class='r'><b>5-2</b></td></tr><tr><td>2026-03-08</td><td>Malmo FF v Halmstad</td><td class='r'><b>2-1</b></td></tr><tr><td>2025-08-16</td><td>Halmstad v Malmo FF</td><td class='r'><b>0-4</b></td></tr><tr><td>2025-05-18</td><td>Malmo FF v Halmstad</td><td class='r'><b>3-0</b></td></tr></table><p>Malmo FF have won the last 5 meetings.</p>
+<h2>Allsvenskan table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>5</td><td>IF Elfsborg</td><td class='r'>26</td><td class='r'>43</td><td class='r'>#395</td></tr><tr class=''><td>6</td><td>Vasteras SK FK</td><td class='r'>26</td><td class='r'>41</td><td class='r'>#541</td></tr><tr class='hi'><td>7</td><td>Malmo FF</td><td class='r'>26</td><td class='r'>40</td><td class='r'>#418</td></tr><tr class=''><td>8</td><td>AIK Stockholm</td><td class='r'>26</td><td class='r'>38</td><td class='r'>#521</td></tr><tr class=''><td>9</td><td>IFK Goteborg</td><td class='r'>26</td><td class='r'>38</td><td class='r'>#427</td></tr><tr class=''><td>10</td><td>IF Brommapojkarna</td><td class='r'>26</td><td class='r'>34</td><td class='r'>#780</td></tr><tr class=''><td>11</td><td>Gais</td><td class='r'>25</td><td class='r'>31</td><td class='r'>#476</td></tr><tr class=''><td>12</td><td>Mjallby AIF</td><td class='r'>25</td><td class='r'>23</td><td class='r'>#676</td></tr><tr class=''><td>13</td><td>Kalmar FF</td><td class='r'>25</td><td class='r'>22</td><td class='r'>#1234</td></tr><tr class=''><td>14</td><td>Degerfors IF</td><td class='r'>26</td><td class='r'>20</td><td class='r'>#1303</td></tr><tr class=''><td>15</td><td>Orgryte IS</td><td class='r'>25</td><td class='r'>19</td><td class='r'>#1154</td></tr><tr class='hi'><td>16</td><td>Halmstad</td><td class='r'>26</td><td class='r'>17</td><td class='r'>#1388</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

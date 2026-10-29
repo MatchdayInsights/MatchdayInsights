@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -169,7 +187,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Larisa vs OFI", "sport": "Soccer", "startDate": "2026-10-28T17:30:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Larisa home ground", "address": {"@type": "PostalAddress", "addressCountry": "GR"}}, "homeTeam": {"@type": "SportsTeam", "name": "Larisa"}, "awayTeam": {"@type": "SportsTeam", "name": "OFI"}, "competitor": [{"@type": "SportsTeam", "name": "Larisa"}, {"@type": "SportsTeam", "name": "OFI"}], "performer": [{"@type": "SportsTeam", "name": "Larisa"}, {"@type": "SportsTeam", "name": "OFI"}], "organizer": {"@type": "SportsOrganization", "name": "Cup"}, "description": "Larisa vs OFI prediction for Wednesday 28 October 2026: our model gives Larisa 22%, a draw 25% and OFI 52%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/larisa-vs-ofi-2026-10-28.html", "endDate": "2026-10-28T19:30:00+00:00"}</script>
+</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Larisa vs OFI", "sport": "Soccer", "startDate": "2026-10-28T17:30:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Larisa home ground", "address": {"@type": "PostalAddress", "addressCountry": "GR"}}, "homeTeam": {"@type": "SportsTeam", "name": "Larisa"}, "awayTeam": {"@type": "SportsTeam", "name": "OFI"}, "competitor": [{"@type": "SportsTeam", "name": "Larisa"}, {"@type": "SportsTeam", "name": "OFI"}], "performer": [{"@type": "SportsTeam", "name": "Larisa"}, {"@type": "SportsTeam", "name": "OFI"}], "organizer": {"@type": "SportsOrganization", "name": "Cup"}, "description": "Larisa vs OFI prediction for Wednesday 28 October 2026: our model gives Larisa 22%, a draw 25% and OFI 52%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/larisa-vs-ofi-2026-10-28.html", "endDate": "2026-10-28T19:30:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -214,22 +232,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     text-transform:uppercase;line-height:.95;margin:10px 0 0">Larisa vs OFI<br>
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
-
-<p>Larisa host OFI in the Cup (Greek Cup - 4) on Wednesday 28 October 2026. Larisa are #655 in our world ranking and have won 1, drawn 3 and lost 1 of their last 5; OFI are #181 and have won 1 and lost 4 of their last 5. On paper that's a big gap - 474 places - in OFI's favour.</p>
+<div class='verdict'><b>Full time: Larisa 1-0 OFI.</b> We had OFI as the most likely result at 52% - and it went the other way. The chance we gave the actual result: 22%.</div>
+<p>Larisa host OFI in the Cup (Greek Cup - 4) on Wednesday 28 October 2026. Larisa are #594 in our world ranking and have won 1, drawn 3 and lost 1 of their last 5; OFI are #196 and have won 1 and lost 4 of their last 5. On paper that's a big gap - 398 places - in OFI's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes OFI the favourites at 52%, with a draw at 25% and Larisa at 22%.</p>
 <div class='oddsbar'><i style='width:22.4%;background:#1f9a46'></i><i style='width:25.3%;background:#5a6888'></i><i style='width:52.3%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Larisa 22%</span>
   <span>Draw 25%</span><span style="color:#d43c44">OFI 52%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/larisa.html'>Larisa</a></div><div class='st'>World rank: <b>#655</b><br>Rating: <b>1047</b><br>Chance to win: <b>22%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Kallithea'>D</span><span class='chip' style='background:#5a6888' title='Panserraikos'>D</span><span class='chip' style='background:#d43c44' title='Marko'>L</span><span class='chip' style='background:#5a6888' title='Niki Volos'>D</span><span class='chip' style='background:#1f9a46' title='PAOK II'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/ofi.html'>OFI</a></div><div class='st'>World rank: <b>#181</b><br>Rating: <b>1253</b><br>Chance to win: <b>52%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='PAOK'>W</span><span class='chip' style='background:#d43c44' title='Bayer Leverkusen'>L</span><span class='chip' style='background:#d43c44' title='Kalamata'>L</span><span class='chip' style='background:#d43c44' title='Rennes'>L</span><span class='chip' style='background:#d43c44' title='AEK Athens FC'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/larisa.html'>Larisa</a></div><div class='st'>World rank: <b>#594</b><br>Rating: <b>1064</b><br>Chance to win: <b>22%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='OFI'>W</span><span class='chip' style='background:#5a6888' title='Kallithea'>D</span><span class='chip' style='background:#5a6888' title='Panserraikos'>D</span><span class='chip' style='background:#d43c44' title='Marko'>L</span><span class='chip' style='background:#5a6888' title='Niki Volos'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/ofi.html'>OFI</a></div><div class='st'>World rank: <b>#196</b><br>Rating: <b>1235</b><br>Chance to win: <b>52%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Larisa'>L</span><span class='chip' style='background:#1f9a46' title='PAOK'>W</span><span class='chip' style='background:#d43c44' title='Bayer Leverkusen'>L</span><span class='chip' style='background:#d43c44' title='Kalamata'>L</span><span class='chip' style='background:#d43c44' title='Rennes'>L</span></div></div>
 </div>
 <h2>Who will win Larisa vs OFI?</h2>
-<p>Larisa are #655 and OFI #181 in our world ranking of
+<p>Larisa are #594 and OFI #196 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>OFI</b> (52%). More from the <a href='../leagues/greece-super-league-2.html'>Super League 2</a>.</p>
-<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-02-28</td><td>OFI v Larisa</td><td class='r'><b>3-0</b></td></tr><tr><td>2025-11-24</td><td>Larisa v OFI</td><td class='r'><b>1-2</b></td></tr><tr><td>2021-04-24</td><td>Larisa v OFI</td><td class='r'><b>0-1</b></td></tr><tr><td>2021-03-06</td><td>OFI v Larisa</td><td class='r'><b>2-3</b></td></tr><tr><td>2020-12-12</td><td>Larisa v OFI</td><td class='r'><b>0-1</b></td></tr></table><p>OFI have won 4 of the last 5 meetings.</p>
+<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-28</td><td>Larisa v OFI</td><td class='r'><b>1-0</b></td></tr><tr><td>2026-02-28</td><td>OFI v Larisa</td><td class='r'><b>3-0</b></td></tr><tr><td>2025-11-24</td><td>Larisa v OFI</td><td class='r'><b>1-2</b></td></tr><tr><td>2021-04-24</td><td>Larisa v OFI</td><td class='r'><b>0-1</b></td></tr><tr><td>2021-03-06</td><td>OFI v Larisa</td><td class='r'><b>2-3</b></td></tr></table>
 
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world

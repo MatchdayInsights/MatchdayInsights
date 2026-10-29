@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,7 +233,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Ben Aknoun host CR Belouizdad in the Ligue 1 (round 9) on Sunday 08 November 2026. Ben Aknoun are #875 in our world ranking and have drawn 4 and lost 1 of their last 5; CR Belouizdad are #334 and have won 4 and drawn 1 of their last 5. On paper that's a big gap - 541 places - in CR Belouizdad's favour.</p>
+<p>Ben Aknoun host CR Belouizdad in the Ligue 1 (round 9) on Sunday 08 November 2026. Ben Aknoun are #875 in our world ranking and have drawn 4 and lost 1 of their last 5; CR Belouizdad are #336 and have won 4 and drawn 1 of their last 5. On paper that's a big gap - 539 places - in CR Belouizdad's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes CR Belouizdad the favourites at 46%, with a draw at 27% and Ben Aknoun at 27%.</p>
 <div class='oddsbar'><i style='width:26.6%;background:#1f9a46'></i><i style='width:27.3%;background:#5a6888'></i><i style='width:46.2%;background:#d43c44'></i></div>
@@ -223,14 +241,14 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <span>Draw 27%</span><span style="color:#d43c44">CR Belouizdad 46%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/ben-aknoun.html'>Ben Aknoun</a></div><div class='st'>World rank: <b>#875</b><br>Rating: <b>993</b><br>Chance to win: <b>27%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='JS Saoura'>D</span><span class='chip' style='background:#d43c44' title='Olympique Akbou'>L</span><span class='chip' style='background:#5a6888' title='JS El Biar'>D</span><span class='chip' style='background:#5a6888' title='Khenchela'>D</span><span class='chip' style='background:#5a6888' title='US Biskra'>D</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/cr-belouizdad.html'>CR Belouizdad</a></div><div class='st'>World rank: <b>#334</b><br>Rating: <b>1148</b><br>Chance to win: <b>46%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='USM Alger'>D</span><span class='chip' style='background:#1f9a46' title='JS El Biar'>W</span><span class='chip' style='background:#1f9a46' title='Khenchela'>W</span><span class='chip' style='background:#1f9a46' title='US Biskra'>W</span><span class='chip' style='background:#1f9a46' title='ES Setif'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/cr-belouizdad.html'>CR Belouizdad</a></div><div class='st'>World rank: <b>#336</b><br>Rating: <b>1148</b><br>Chance to win: <b>46%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='USM Alger'>D</span><span class='chip' style='background:#1f9a46' title='JS El Biar'>W</span><span class='chip' style='background:#1f9a46' title='Khenchela'>W</span><span class='chip' style='background:#1f9a46' title='US Biskra'>W</span><span class='chip' style='background:#1f9a46' title='ES Setif'>W</span></div></div>
 </div>
 <h2>Who will win Ben Aknoun vs CR Belouizdad?</h2>
-<p>Ben Aknoun are #875 and CR Belouizdad #334 in our world ranking of
+<p>Ben Aknoun are #875 and CR Belouizdad #336 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>CR Belouizdad</b> (46%). More from the <a href='../leagues/algeria-ligue-1.html'>Ligue 1</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-05-24</td><td>CR Belouizdad v Ben Aknoun</td><td class='r'><b>3-1</b></td></tr><tr><td>2026-01-03</td><td>Ben Aknoun v CR Belouizdad</td><td class='r'><b>0-2</b></td></tr></table>
-<h2>Ligue 1 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>MC Oran</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#647</td></tr><tr class='hi'><td>2</td><td>CR Belouizdad</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#334</td></tr><tr class=''><td>3</td><td>JS Kabylie</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#583</td></tr><tr class=''><td>4</td><td>MB Rouisset</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#871</td></tr><tr class=''><td>5</td><td>USM Alger</td><td class='r'>6</td><td class='r'>11</td><td class='r'>#618</td></tr><tr class=''><td>6</td><td>MC Alger</td><td class='r'>4</td><td class='r'>10</td><td class='r'>#467</td></tr><tr class=''><td>7</td><td>Olympique Akbou</td><td class='r'>6</td><td class='r'>10</td><td class='r'>#828</td></tr><tr class=''><td>8</td><td>JS El Biar</td><td class='r'>7</td><td class='r'>8</td><td class='r'>#1230</td></tr><tr class=''><td>9</td><td>Témouchent</td><td class='r'>7</td><td class='r'>8</td><td class='r'>#1448</td></tr><tr class='hi'><td>10</td><td>Ben Aknoun</td><td class='r'>6</td><td class='r'>7</td><td class='r'>#875</td></tr><tr class=''><td>11</td><td>CS Constantine</td><td class='r'>7</td><td class='r'>7</td><td class='r'>#1060</td></tr><tr class=''><td>12</td><td>ES Setif</td><td class='r'>6</td><td class='r'>5</td><td class='r'>#893</td></tr></table>
+<h2>Ligue 1 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>MC Oran</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#651</td></tr><tr class='hi'><td>2</td><td>CR Belouizdad</td><td class='r'>6</td><td class='r'>14</td><td class='r'>#336</td></tr><tr class=''><td>3</td><td>JS Kabylie</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#589</td></tr><tr class=''><td>4</td><td>MB Rouisset</td><td class='r'>7</td><td class='r'>13</td><td class='r'>#868</td></tr><tr class=''><td>5</td><td>USM Alger</td><td class='r'>6</td><td class='r'>11</td><td class='r'>#622</td></tr><tr class=''><td>6</td><td>MC Alger</td><td class='r'>4</td><td class='r'>10</td><td class='r'>#468</td></tr><tr class=''><td>7</td><td>Olympique Akbou</td><td class='r'>6</td><td class='r'>10</td><td class='r'>#832</td></tr><tr class=''><td>8</td><td>JS El Biar</td><td class='r'>7</td><td class='r'>8</td><td class='r'>#1232</td></tr><tr class=''><td>9</td><td>Témouchent</td><td class='r'>7</td><td class='r'>8</td><td class='r'>#1444</td></tr><tr class='hi'><td>10</td><td>Ben Aknoun</td><td class='r'>6</td><td class='r'>7</td><td class='r'>#875</td></tr><tr class=''><td>11</td><td>CS Constantine</td><td class='r'>7</td><td class='r'>7</td><td class='r'>#1065</td></tr><tr class=''><td>12</td><td>ES Setif</td><td class='r'>6</td><td class='r'>5</td><td class='r'>#891</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

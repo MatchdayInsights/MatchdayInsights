@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -169,7 +187,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Belshina vs Dinamo Minsk", "sport": "Soccer", "startDate": "2026-10-28T11:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Belshina home ground", "address": {"@type": "PostalAddress", "addressCountry": "BY"}}, "homeTeam": {"@type": "SportsTeam", "name": "Belshina"}, "awayTeam": {"@type": "SportsTeam", "name": "Dinamo Minsk"}, "competitor": [{"@type": "SportsTeam", "name": "Belshina"}, {"@type": "SportsTeam", "name": "Dinamo Minsk"}], "performer": [{"@type": "SportsTeam", "name": "Belshina"}, {"@type": "SportsTeam", "name": "Dinamo Minsk"}], "organizer": {"@type": "SportsOrganization", "name": "Premier League"}, "description": "Belshina vs Dinamo Minsk prediction for Wednesday 28 October 2026: our model gives Belshina 11%, a draw 18% and Dinamo Minsk 71%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/belshina-vs-dinamo-minsk-2026-10-28.html", "endDate": "2026-10-28T13:00:00+00:00"}</script>
+</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Belshina vs Dinamo Minsk", "sport": "Soccer", "startDate": "2026-10-28T11:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Belshina home ground", "address": {"@type": "PostalAddress", "addressCountry": "BY"}}, "homeTeam": {"@type": "SportsTeam", "name": "Belshina"}, "awayTeam": {"@type": "SportsTeam", "name": "Dinamo Minsk"}, "competitor": [{"@type": "SportsTeam", "name": "Belshina"}, {"@type": "SportsTeam", "name": "Dinamo Minsk"}], "performer": [{"@type": "SportsTeam", "name": "Belshina"}, {"@type": "SportsTeam", "name": "Dinamo Minsk"}], "organizer": {"@type": "SportsOrganization", "name": "Premier League"}, "description": "Belshina vs Dinamo Minsk prediction for Wednesday 28 October 2026: our model gives Belshina 11%, a draw 18% and Dinamo Minsk 71%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/belshina-vs-dinamo-minsk-2026-10-28.html", "endDate": "2026-10-28T13:00:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -214,23 +232,23 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     text-transform:uppercase;line-height:.95;margin:10px 0 0">Belshina vs Dinamo Minsk<br>
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
-
-<p>Belshina host Dinamo Minsk in the Premier League (round 17) on Wednesday 28 October 2026. Belshina are #2,821 in our world ranking and have won 2, drawn 1 and lost 2 of their last 5; Dinamo Minsk are #520 and have won all of their last 5. On paper that's a big gap - 2,301 places - in Dinamo Minsk's favour.</p>
+<div class='verdict'><b>Full time: Belshina 2-3 Dinamo Minsk.</b> We had Dinamo Minsk as the most likely result at 71% - and that is how it went. The chance we gave the actual result: 71%.</div>
+<p>Belshina host Dinamo Minsk in the Premier League (round 17) on Wednesday 28 October 2026. Belshina are #2,838 in our world ranking and have won 2 and lost 3 of their last 5; Dinamo Minsk are #504 and have won all of their last 5. On paper that's a big gap - 2,334 places - in Dinamo Minsk's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Dinamo Minsk the favourites at 71%, with a draw at 18% and Belshina at 11%.</p>
 <div class='oddsbar'><i style='width:11.4%;background:#1f9a46'></i><i style='width:17.9%;background:#5a6888'></i><i style='width:70.8%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Belshina 11%</span>
   <span>Draw 18%</span><span style="color:#d43c44">Dinamo Minsk 71%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/belshina.html'>Belshina</a></div><div class='st'>World rank: <b>#2821</b><br>Rating: <b>706</b><br>Chance to win: <b>11%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Bate Borisov'>W</span><span class='chip' style='background:#d43c44' title='Slavia Mozyr'>L</span><span class='chip' style='background:#d43c44' title='Naftan'>L</span><span class='chip' style='background:#1f9a46' title='FC Minsk'>W</span><span class='chip' style='background:#5a6888' title='FC Vitebsk'>D</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/dinamo-minsk.html'>Dinamo Minsk</a></div><div class='st'>World rank: <b>#520</b><br>Rating: <b>1083</b><br>Chance to win: <b>71%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='FC Gomel'>W</span><span class='chip' style='background:#1f9a46' title='Arsenal'>W</span><span class='chip' style='background:#1f9a46' title='Slavia Mozyr'>W</span><span class='chip' style='background:#1f9a46' title='FC Dnepr Mogilev'>W</span><span class='chip' style='background:#1f9a46' title='Bate Borisov'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/belshina.html'>Belshina</a></div><div class='st'>World rank: <b>#2838</b><br>Rating: <b>703</b><br>Chance to win: <b>11%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Dinamo Minsk'>L</span><span class='chip' style='background:#1f9a46' title='Bate Borisov'>W</span><span class='chip' style='background:#d43c44' title='Slavia Mozyr'>L</span><span class='chip' style='background:#d43c44' title='Naftan'>L</span><span class='chip' style='background:#1f9a46' title='FC Minsk'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/dinamo-minsk.html'>Dinamo Minsk</a></div><div class='st'>World rank: <b>#504</b><br>Rating: <b>1086</b><br>Chance to win: <b>71%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Belshina'>W</span><span class='chip' style='background:#1f9a46' title='FC Gomel'>W</span><span class='chip' style='background:#1f9a46' title='Arsenal'>W</span><span class='chip' style='background:#1f9a46' title='Slavia Mozyr'>W</span><span class='chip' style='background:#1f9a46' title='FC Dnepr Mogilev'>W</span></div></div>
 </div>
 <h2>Who will win Belshina vs Dinamo Minsk?</h2>
-<p>Belshina are #2821 and Dinamo Minsk #520 in our world ranking of
+<p>Belshina are #2838 and Dinamo Minsk #504 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Dinamo Minsk</b> (71%). More from the <a href='../leagues/belarus-premier-league.html'>Premier League</a>.</p>
-<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-04</td><td>Dinamo Minsk v Belshina</td><td class='r'><b>2-0</b></td></tr><tr><td>2023-11-26</td><td>Belshina v Dinamo Minsk</td><td class='r'><b>0-4</b></td></tr><tr><td>2023-07-01</td><td>Dinamo Minsk v Belshina</td><td class='r'><b>7-2</b></td></tr><tr><td>2022-08-27</td><td>Belshina v Dinamo Minsk</td><td class='r'><b>0-0</b></td></tr><tr><td>2022-04-16</td><td>Dinamo Minsk v Belshina</td><td class='r'><b>0-0</b></td></tr></table>
-<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>ML Vitebsk</td><td class='r'>25</td><td class='r'>56</td><td class='r'>#529</td></tr><tr class='hi'><td>2</td><td>Dinamo Minsk</td><td class='r'>25</td><td class='r'>55</td><td class='r'>#520</td></tr><tr class=''><td>3</td><td>FC Isloch Minsk R.</td><td class='r'>25</td><td class='r'>52</td><td class='r'>#733</td></tr><tr class=''><td>11</td><td>Baranovichi</td><td class='r'>26</td><td class='r'>28</td><td class='r'>#2493</td></tr><tr class='hi'><td>12</td><td>Belshina</td><td class='r'>25</td><td class='r'>24</td><td class='r'>#2821</td></tr><tr class=''><td>13</td><td>Arsenal</td><td class='r'>26</td><td class='r'>24</td><td class='r'>#2920</td></tr></table>
+<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-28</td><td>Belshina v Dinamo Minsk</td><td class='r'><b>2-3</b></td></tr><tr><td>2026-04-04</td><td>Dinamo Minsk v Belshina</td><td class='r'><b>2-0</b></td></tr><tr><td>2023-11-26</td><td>Belshina v Dinamo Minsk</td><td class='r'><b>0-4</b></td></tr><tr><td>2023-07-01</td><td>Dinamo Minsk v Belshina</td><td class='r'><b>7-2</b></td></tr><tr><td>2022-08-27</td><td>Belshina v Dinamo Minsk</td><td class='r'><b>0-0</b></td></tr></table>
+<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>Dinamo Minsk</td><td class='r'>26</td><td class='r'>58</td><td class='r'>#504</td></tr><tr class=''><td>2</td><td>ML Vitebsk</td><td class='r'>26</td><td class='r'>56</td><td class='r'>#584</td></tr><tr class=''><td>3</td><td>FC Isloch Minsk R.</td><td class='r'>26</td><td class='r'>55</td><td class='r'>#682</td></tr><tr class=''><td>11</td><td>Baranovichi</td><td class='r'>26</td><td class='r'>28</td><td class='r'>#2488</td></tr><tr class='hi'><td>12</td><td>Belshina</td><td class='r'>26</td><td class='r'>24</td><td class='r'>#2838</td></tr><tr class=''><td>13</td><td>Arsenal</td><td class='r'>26</td><td class='r'>24</td><td class='r'>#2914</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

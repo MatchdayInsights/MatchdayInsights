@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,7 +233,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Arsenal host Hull City in the Premier League (round 10) on Saturday 07 November 2026. Arsenal are #2 in our world ranking and have won 3 and drawn 2 of their last 5; Hull City are #170 and have drawn 3 and lost 2 of their last 5. On paper that's a big gap - 168 places - in Arsenal's favour.</p>
+<p>Arsenal host Hull City in the Premier League (round 10) on Saturday 07 November 2026. Arsenal are #2 in our world ranking and have won 3 and drawn 2 of their last 5; Hull City are #166 and have drawn 3 and lost 2 of their last 5. On paper that's a big gap - 164 places - in Arsenal's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Arsenal the favourites at 90%, with a draw at 7% and Hull City at 3%.</p>
 <div class='oddsbar'><i style='width:90.3%;background:#1f9a46'></i><i style='width:7.1%;background:#5a6888'></i><i style='width:2.5%;background:#d43c44'></i></div>
@@ -223,14 +241,14 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <span>Draw 7%</span><span style="color:#d43c44">Hull City 3%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/arsenal.html'>Arsenal</a></div><div class='st'>World rank: <b>#2</b><br>Rating: <b>1825</b><br>Chance to win: <b>90%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Fleetwood Town'>D</span><span class='chip' style='background:#1f9a46' title='Everton'>W</span><span class='chip' style='background:#5a6888' title='Bayern München'>D</span><span class='chip' style='background:#1f9a46' title='Nottingham Forest'>W</span><span class='chip' style='background:#1f9a46' title='Lille'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/hull-city.html'>Hull City</a></div><div class='st'>World rank: <b>#170</b><br>Rating: <b>1262</b><br>Chance to win: <b>3%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Brentford'>D</span><span class='chip' style='background:#d43c44' title='Fulham'>L</span><span class='chip' style='background:#5a6888' title='Everton'>D</span><span class='chip' style='background:#d43c44' title='Newcastle'>L</span><span class='chip' style='background:#5a6888' title='Chelsea'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/hull-city.html'>Hull City</a></div><div class='st'>World rank: <b>#166</b><br>Rating: <b>1262</b><br>Chance to win: <b>3%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Brentford'>D</span><span class='chip' style='background:#d43c44' title='Fulham'>L</span><span class='chip' style='background:#5a6888' title='Everton'>D</span><span class='chip' style='background:#d43c44' title='Newcastle'>L</span><span class='chip' style='background:#5a6888' title='Chelsea'>D</span></div></div>
 </div>
 <h2>Who will win Arsenal vs Hull City?</h2>
-<p>Arsenal are #2 and Hull City #170 in our world ranking of
+<p>Arsenal are #2 and Hull City #166 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Arsenal</b> (90%). More from the <a href='../leagues/england-premier-league.html'>Premier League</a>.</p>
 
-<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Manchester City</td><td class='r'>8</td><td class='r'>21</td><td class='r'>#3</td></tr><tr class='hi'><td>2</td><td>Arsenal</td><td class='r'>8</td><td class='r'>21</td><td class='r'>#2</td></tr><tr class=''><td>3</td><td>Brighton</td><td class='r'>8</td><td class='r'>16</td><td class='r'>#9</td></tr><tr class=''><td>4</td><td>Liverpool</td><td class='r'>8</td><td class='r'>15</td><td class='r'>#7</td></tr><tr class=''><td>5</td><td>Chelsea</td><td class='r'>8</td><td class='r'>13</td><td class='r'>#17</td></tr><tr class=''><td>6</td><td>Brentford</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#15</td></tr><tr class=''><td>7</td><td>Leeds</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#24</td></tr><tr class=''><td>8</td><td>Newcastle</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#22</td></tr><tr class=''><td>9</td><td>Aston Villa</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#8</td></tr><tr class='hi'><td>10</td><td>Hull City</td><td class='r'>8</td><td class='r'>10</td><td class='r'>#170</td></tr><tr class=''><td>11</td><td>Everton</td><td class='r'>8</td><td class='r'>10</td><td class='r'>#27</td></tr><tr class=''><td>12</td><td>Ipswich</td><td class='r'>8</td><td class='r'>10</td><td class='r'>#103</td></tr></table>
+<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Manchester City</td><td class='r'>8</td><td class='r'>21</td><td class='r'>#3</td></tr><tr class='hi'><td>2</td><td>Arsenal</td><td class='r'>8</td><td class='r'>21</td><td class='r'>#2</td></tr><tr class=''><td>3</td><td>Brighton</td><td class='r'>8</td><td class='r'>16</td><td class='r'>#9</td></tr><tr class=''><td>4</td><td>Liverpool</td><td class='r'>8</td><td class='r'>15</td><td class='r'>#7</td></tr><tr class=''><td>5</td><td>Chelsea</td><td class='r'>8</td><td class='r'>13</td><td class='r'>#16</td></tr><tr class=''><td>6</td><td>Brentford</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#17</td></tr><tr class=''><td>7</td><td>Leeds</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#24</td></tr><tr class=''><td>8</td><td>Newcastle</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#22</td></tr><tr class=''><td>9</td><td>Aston Villa</td><td class='r'>8</td><td class='r'>11</td><td class='r'>#11</td></tr><tr class='hi'><td>10</td><td>Hull City</td><td class='r'>8</td><td class='r'>10</td><td class='r'>#166</td></tr><tr class=''><td>11</td><td>Everton</td><td class='r'>8</td><td class='r'>10</td><td class='r'>#27</td></tr><tr class=''><td>12</td><td>Ipswich</td><td class='r'>8</td><td class='r'>10</td><td class='r'>#103</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

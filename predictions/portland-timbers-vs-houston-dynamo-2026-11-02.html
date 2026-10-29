@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Portland Timbers host Houston Dynamo in the Major League Soccer (round 33) on Monday 02 November 2026. Portland Timbers are #912 in our world ranking and have won 1, drawn 2 and lost 2 of their last 5; Houston Dynamo are #811 and have drawn 4 and lost 1 of their last 5. On paper that's a big gap - 101 places - in Houston Dynamo's favour.</p>
+<p>Portland Timbers host Houston Dynamo in the Major League Soccer (round 33) on Monday 02 November 2026. Portland Timbers are #822 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Houston Dynamo are #816 and have drawn 4 and lost 1 of their last 5. Two clubs within a few places of each other in the world ranking.</p>
 <h2>Our prediction</h2>
 <p>Our model sees Portland Timbers v Houston Dynamo as close to a coin flip: Portland Timbers 38%, a draw 29%, Houston Dynamo 33%.</p>
 <div class='oddsbar'><i style='width:37.5%;background:#1f9a46'></i><i style='width:29.4%;background:#5a6888'></i><i style='width:33.1%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Portland Timbers 38%</span>
   <span>Draw 29%</span><span style="color:#d43c44">Houston Dynamo 33%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/portland-timbers.html'>Portland Timbers</a></div><div class='st'>World rank: <b>#912</b><br>Rating: <b>987</b><br>Chance to win: <b>38%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Charlotte'>W</span><span class='chip' style='background:#5a6888' title='Colorado Rapids'>D</span><span class='chip' style='background:#d43c44' title='Los Angeles Galaxy'>L</span><span class='chip' style='background:#5a6888' title='Sporting Kansas City'>D</span><span class='chip' style='background:#d43c44' title='San Jose Earthquakes'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/houston-dynamo.html'>Houston Dynamo</a></div><div class='st'>World rank: <b>#811</b><br>Rating: <b>1006</b><br>Chance to win: <b>33%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Minnesota United FC'>D</span><span class='chip' style='background:#5a6888' title='FC Dallas'>D</span><span class='chip' style='background:#5a6888' title='San Diego'>D</span><span class='chip' style='background:#5a6888' title='Minnesota United FC'>D</span><span class='chip' style='background:#d43c44' title='Sporting Kansas City'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/portland-timbers.html'>Portland Timbers</a></div><div class='st'>World rank: <b>#822</b><br>Rating: <b>1005</b><br>Chance to win: <b>38%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='St. Louis City'>W</span><span class='chip' style='background:#1f9a46' title='Charlotte'>W</span><span class='chip' style='background:#5a6888' title='Colorado Rapids'>D</span><span class='chip' style='background:#d43c44' title='Los Angeles Galaxy'>L</span><span class='chip' style='background:#5a6888' title='Sporting Kansas City'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/houston-dynamo.html'>Houston Dynamo</a></div><div class='st'>World rank: <b>#816</b><br>Rating: <b>1006</b><br>Chance to win: <b>33%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Minnesota United FC'>D</span><span class='chip' style='background:#5a6888' title='FC Dallas'>D</span><span class='chip' style='background:#5a6888' title='San Diego'>D</span><span class='chip' style='background:#5a6888' title='Minnesota United FC'>D</span><span class='chip' style='background:#d43c44' title='Sporting Kansas City'>L</span></div></div>
 </div>
 <h2>Who will win Portland Timbers vs Houston Dynamo?</h2>
-<p>Portland Timbers are #912 and Houston Dynamo #811 in our world ranking of
+<p>Portland Timbers are #822 and Houston Dynamo #816 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Portland Timbers</b> (38%). More from the <a href='../leagues/united-states-major-league-soccer.html'>Major League Soccer</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-03-15</td><td>Houston Dynamo v Portland Timbers</td><td class='r'><b>3-2</b></td></tr><tr><td>2025-09-21</td><td>Houston Dynamo v Portland Timbers</td><td class='r'><b>1-0</b></td></tr><tr><td>2025-03-30</td><td>Portland Timbers v Houston Dynamo</td><td class='r'><b>3-1</b></td></tr></table>
-<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>31</td><td class='r'>70</td><td class='r'>#256</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#571</td></tr><tr class=''><td>3</td><td>Inter Miami</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#357</td></tr><tr class=''><td>8</td><td>San Jose Earthquakes</td><td class='r'>31</td><td class='r'>48</td><td class='r'>#771</td></tr><tr class='hi'><td>9</td><td>Houston Dynamo</td><td class='r'>31</td><td class='r'>48</td><td class='r'>#811</td></tr><tr class=''><td>10</td><td>Los Angeles FC</td><td class='r'>32</td><td class='r'>47</td><td class='r'>#540</td></tr><tr class=''><td>20</td><td>Columbus Crew</td><td class='r'>31</td><td class='r'>38</td><td class='r'>#590</td></tr><tr class='hi'><td>21</td><td>Portland Timbers</td><td class='r'>31</td><td class='r'>37</td><td class='r'>#912</td></tr><tr class=''><td>22</td><td>Toronto FC</td><td class='r'>31</td><td class='r'>36</td><td class='r'>#956</td></tr></table>
+<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>31</td><td class='r'>70</td><td class='r'>#267</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#577</td></tr><tr class=''><td>3</td><td>Inter Miami</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#374</td></tr><tr class=''><td>8</td><td>San Jose Earthquakes</td><td class='r'>31</td><td class='r'>48</td><td class='r'>#779</td></tr><tr class='hi'><td>9</td><td>Houston Dynamo</td><td class='r'>31</td><td class='r'>48</td><td class='r'>#816</td></tr><tr class=''><td>10</td><td>Los Angeles FC</td><td class='r'>32</td><td class='r'>47</td><td class='r'>#542</td></tr><tr class=''><td>20</td><td>Columbus Crew</td><td class='r'>31</td><td class='r'>38</td><td class='r'>#494</td></tr><tr class='hi'><td>21</td><td>Portland Timbers</td><td class='r'>31</td><td class='r'>37</td><td class='r'>#822</td></tr><tr class=''><td>22</td><td>Toronto FC</td><td class='r'>31</td><td class='r'>36</td><td class='r'>#929</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

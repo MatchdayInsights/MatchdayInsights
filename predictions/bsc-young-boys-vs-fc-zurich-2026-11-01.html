@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>BSC Young Boys host FC Zurich in the Super League (round 12) on Sunday 01 November 2026. BSC Young Boys are #145 in our world ranking and have won 4 and drawn 1 of their last 5; FC Zurich are #698 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 553 places - in BSC Young Boys's favour.</p>
+<p>BSC Young Boys host FC Zurich in the Super League (round 12) on Sunday 01 November 2026. BSC Young Boys are #144 in our world ranking and have won 4 and drawn 1 of their last 5; FC Zurich are #702 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 558 places - in BSC Young Boys's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes BSC Young Boys the favourites at 71%, with a draw at 18% and FC Zurich at 11%.</p>
 <div class='oddsbar'><i style='width:70.9%;background:#1f9a46'></i><i style='width:17.8%;background:#5a6888'></i><i style='width:11.3%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">BSC Young Boys 71%</span>
   <span>Draw 18%</span><span style="color:#d43c44">FC Zurich 11%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/bsc-young-boys.html'>BSC Young Boys</a></div><div class='st'>World rank: <b>#145</b><br>Rating: <b>1294</b><br>Chance to win: <b>71%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='FC ST. Gallen'>W</span><span class='chip' style='background:#1f9a46' title='Taverne'>W</span><span class='chip' style='background:#1f9a46' title='Grasshoppers'>W</span><span class='chip' style='background:#1f9a46' title='Servette FC'>W</span><span class='chip' style='background:#5a6888' title='FC Lugano'>D</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/fc-zurich.html'>FC Zurich</a></div><div class='st'>World rank: <b>#698</b><br>Rating: <b>1033</b><br>Chance to win: <b>11%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='FC Luzern'>W</span><span class='chip' style='background:#d43c44' title='FC Aarau'>L</span><span class='chip' style='background:#1f9a46' title='FC Thun'>W</span><span class='chip' style='background:#5a6888' title='FC Sion'>D</span><span class='chip' style='background:#1f9a46' title='FC Vaduz'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/bsc-young-boys.html'>BSC Young Boys</a></div><div class='st'>World rank: <b>#144</b><br>Rating: <b>1294</b><br>Chance to win: <b>71%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='FC ST. Gallen'>W</span><span class='chip' style='background:#1f9a46' title='Taverne'>W</span><span class='chip' style='background:#1f9a46' title='Grasshoppers'>W</span><span class='chip' style='background:#1f9a46' title='Servette FC'>W</span><span class='chip' style='background:#5a6888' title='FC Lugano'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/fc-zurich.html'>FC Zurich</a></div><div class='st'>World rank: <b>#702</b><br>Rating: <b>1033</b><br>Chance to win: <b>11%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='FC Luzern'>W</span><span class='chip' style='background:#d43c44' title='FC Aarau'>L</span><span class='chip' style='background:#1f9a46' title='FC Thun'>W</span><span class='chip' style='background:#5a6888' title='FC Sion'>D</span><span class='chip' style='background:#1f9a46' title='FC Vaduz'>W</span></div></div>
 </div>
 <h2>Who will win BSC Young Boys vs FC Zurich?</h2>
-<p>BSC Young Boys are #145 and FC Zurich #698 in our world ranking of
+<p>BSC Young Boys are #144 and FC Zurich #702 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>BSC Young Boys</b> (71%). More from the <a href='../leagues/switzerland-super-league.html'>Super League</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-09-01</td><td>FC Zurich v BSC Young Boys</td><td class='r'><b>2-4</b></td></tr><tr><td>2026-03-01</td><td>BSC Young Boys v FC Zurich</td><td class='r'><b>3-0</b></td></tr><tr><td>2026-02-01</td><td>BSC Young Boys v FC Zurich</td><td class='r'><b>3-0</b></td></tr><tr><td>2025-10-26</td><td>FC Zurich v BSC Young Boys</td><td class='r'><b>2-3</b></td></tr><tr><td>2025-04-21</td><td>BSC Young Boys v FC Zurich</td><td class='r'><b>2-1</b></td></tr></table><p>BSC Young Boys have won the last 5 meetings.</p>
-<h2>Super League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>FC Lugano</td><td class='r'>11</td><td class='r'>31</td><td class='r'>#70</td></tr><tr class='hi'><td>2</td><td>BSC Young Boys</td><td class='r'>11</td><td class='r'>25</td><td class='r'>#145</td></tr><tr class=''><td>3</td><td>FC Sion</td><td class='r'>11</td><td class='r'>22</td><td class='r'>#186</td></tr><tr class='hi'><td>4</td><td>FC Zurich</td><td class='r'>11</td><td class='r'>17</td><td class='r'>#698</td></tr><tr class=''><td>5</td><td>Servette FC</td><td class='r'>11</td><td class='r'>16</td><td class='r'>#236</td></tr><tr class=''><td>6</td><td>FC ST. Gallen</td><td class='r'>11</td><td class='r'>16</td><td class='r'>#215</td></tr></table>
+<h2>Super League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>FC Lugano</td><td class='r'>11</td><td class='r'>31</td><td class='r'>#70</td></tr><tr class='hi'><td>2</td><td>BSC Young Boys</td><td class='r'>11</td><td class='r'>25</td><td class='r'>#144</td></tr><tr class=''><td>3</td><td>FC Sion</td><td class='r'>11</td><td class='r'>22</td><td class='r'>#179</td></tr><tr class='hi'><td>4</td><td>FC Zurich</td><td class='r'>11</td><td class='r'>17</td><td class='r'>#702</td></tr><tr class=''><td>5</td><td>Servette FC</td><td class='r'>11</td><td class='r'>16</td><td class='r'>#239</td></tr><tr class=''><td>6</td><td>FC ST. Gallen</td><td class='r'>11</td><td class='r'>16</td><td class='r'>#219</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

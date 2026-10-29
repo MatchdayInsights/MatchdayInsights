@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,18 +233,18 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Groningen host Emmen in the KNVB Beker (Round of 64) on Thursday 29 October 2026. Groningen are #196 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Emmen are #1,080 and have won 4 and drawn 1 of their last 5. On paper that's a big gap - 884 places - in Groningen's favour.</p>
+<p>Groningen host Emmen in the KNVB Beker (Round of 64) on Thursday 29 October 2026. Groningen are #195 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Emmen are #1,085 and have won 4 and drawn 1 of their last 5. On paper that's a big gap - 890 places - in Groningen's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Groningen the favourites at 74%, with a draw at 17% and Emmen at 10%.</p>
 <div class='oddsbar'><i style='width:73.6%;background:#1f9a46'></i><i style='width:16.5%;background:#5a6888'></i><i style='width:9.9%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Groningen 74%</span>
   <span>Draw 17%</span><span style="color:#d43c44">Emmen 10%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/groningen.html'>Groningen</a></div><div class='st'>World rank: <b>#196</b><br>Rating: <b>1237</b><br>Chance to win: <b>74%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='NEC Nijmegen'>D</span><span class='chip' style='background:#d43c44' title='Ajax'>L</span><span class='chip' style='background:#1f9a46' title='Excelsior'>W</span><span class='chip' style='background:#1f9a46' title='PEC Zwolle'>W</span><span class='chip' style='background:#5a6888' title='GO Ahead Eagles'>D</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/emmen.html'>Emmen</a></div><div class='st'>World rank: <b>#1080</b><br>Rating: <b>947</b><br>Chance to win: <b>10%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Vitesse'>W</span><span class='chip' style='background:#1f9a46' title='Almere City FC'>W</span><span class='chip' style='background:#1f9a46' title='Dordrecht'>W</span><span class='chip' style='background:#5a6888' title='Waalwijk'>D</span><span class='chip' style='background:#1f9a46' title='FC OSS'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/groningen.html'>Groningen</a></div><div class='st'>World rank: <b>#195</b><br>Rating: <b>1237</b><br>Chance to win: <b>74%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='NEC Nijmegen'>D</span><span class='chip' style='background:#d43c44' title='Ajax'>L</span><span class='chip' style='background:#1f9a46' title='Excelsior'>W</span><span class='chip' style='background:#1f9a46' title='PEC Zwolle'>W</span><span class='chip' style='background:#5a6888' title='GO Ahead Eagles'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/emmen.html'>Emmen</a></div><div class='st'>World rank: <b>#1085</b><br>Rating: <b>947</b><br>Chance to win: <b>10%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Vitesse'>W</span><span class='chip' style='background:#1f9a46' title='Almere City FC'>W</span><span class='chip' style='background:#1f9a46' title='Dordrecht'>W</span><span class='chip' style='background:#5a6888' title='Waalwijk'>D</span><span class='chip' style='background:#1f9a46' title='FC OSS'>W</span></div></div>
 </div>
 <h2>Who will win Groningen vs Emmen?</h2>
-<p>Groningen are #196 and Emmen #1080 in our world ranking of
+<p>Groningen are #195 and Emmen #1085 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Groningen</b> (74%). More from the <a href='../leagues/netherlands-eredivisie.html'>Eredivisie</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2024-04-01</td><td>Emmen v Groningen</td><td class='r'><b>0-3</b></td></tr><tr><td>2023-10-23</td><td>Groningen v Emmen</td><td class='r'><b>0-0</b></td></tr><tr><td>2023-02-18</td><td>Groningen v Emmen</td><td class='r'><b>1-1</b></td></tr><tr><td>2022-10-30</td><td>Emmen v Groningen</td><td class='r'><b>0-0</b></td></tr><tr><td>2021-05-09</td><td>Emmen v Groningen</td><td class='r'><b>0-4</b></td></tr></table>

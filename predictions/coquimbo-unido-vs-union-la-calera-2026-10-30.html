@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Coquimbo Unido host Union La Calera in the Primera División (round 26) on Friday 30 October 2026. Coquimbo Unido are #688 in our world ranking and have won 3 and lost 2 of their last 5; Union La Calera are #1,213 and have won 2 and drawn 3 of their last 5. On paper that's a big gap - 525 places - in Coquimbo Unido's favour.</p>
+<p>Coquimbo Unido host Union La Calera in the Primera División (round 26) on Friday 30 October 2026. Coquimbo Unido are #691 in our world ranking and have won 3 and lost 2 of their last 5; Union La Calera are #1,217 and have won 2 and drawn 3 of their last 5. On paper that's a big gap - 526 places - in Coquimbo Unido's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Coquimbo Unido the favourites at 55%, with a draw at 24% and Union La Calera at 21%.</p>
 <div class='oddsbar'><i style='width:55.1%;background:#1f9a46'></i><i style='width:24.4%;background:#5a6888'></i><i style='width:20.5%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Coquimbo Unido 55%</span>
   <span>Draw 24%</span><span style="color:#d43c44">Union La Calera 21%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/coquimbo-unido.html'>Coquimbo Unido</a></div><div class='st'>World rank: <b>#688</b><br>Rating: <b>1037</b><br>Chance to win: <b>55%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Nublense'>L</span><span class='chip' style='background:#1f9a46' title='Colo Colo'>W</span><span class='chip' style='background:#1f9a46' title='Cobreloa'>W</span><span class='chip' style='background:#1f9a46' title='Cobreloa'>W</span><span class='chip' style='background:#d43c44' title='Cobresal'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/union-la-calera.html'>Union La Calera</a></div><div class='st'>World rank: <b>#1213</b><br>Rating: <b>924</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='U. Catolica'>W</span><span class='chip' style='background:#5a6888' title='Concepción'>D</span><span class='chip' style='background:#5a6888' title='U. Catolica'>D</span><span class='chip' style='background:#5a6888' title='U. Catolica'>D</span><span class='chip' style='background:#1f9a46' title='Deportes Limache'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/coquimbo-unido.html'>Coquimbo Unido</a></div><div class='st'>World rank: <b>#691</b><br>Rating: <b>1037</b><br>Chance to win: <b>55%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Nublense'>L</span><span class='chip' style='background:#1f9a46' title='Colo Colo'>W</span><span class='chip' style='background:#1f9a46' title='Cobreloa'>W</span><span class='chip' style='background:#1f9a46' title='Cobreloa'>W</span><span class='chip' style='background:#d43c44' title='Cobresal'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/union-la-calera.html'>Union La Calera</a></div><div class='st'>World rank: <b>#1217</b><br>Rating: <b>924</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='U. Catolica'>W</span><span class='chip' style='background:#5a6888' title='Concepción'>D</span><span class='chip' style='background:#5a6888' title='U. Catolica'>D</span><span class='chip' style='background:#5a6888' title='U. Catolica'>D</span><span class='chip' style='background:#1f9a46' title='Deportes Limache'>W</span></div></div>
 </div>
 <h2>Who will win Coquimbo Unido vs Union La Calera?</h2>
-<p>Coquimbo Unido are #688 and Union La Calera #1213 in our world ranking of
+<p>Coquimbo Unido are #691 and Union La Calera #1217 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Coquimbo Unido</b> (55%). More from the <a href='../leagues/chile-primera-division.html'>Primera División</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-07-12</td><td>Coquimbo Unido v Union La Calera</td><td class='r'><b>0-1</b></td></tr><tr><td>2026-07-08</td><td>Union La Calera v Coquimbo Unido</td><td class='r'><b>0-1</b></td></tr><tr><td>2026-04-24</td><td>Union La Calera v Coquimbo Unido</td><td class='r'><b>1-2</b></td></tr><tr><td>2025-11-02</td><td>Coquimbo Unido v Union La Calera</td><td class='r'><b>2-0</b></td></tr><tr><td>2025-07-02</td><td>Union La Calera v Coquimbo Unido</td><td class='r'><b>1-4</b></td></tr></table><p>Coquimbo Unido have won 4 of the last 5 meetings.</p>
-<h2>Primera División table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>7</td><td>Nublense</td><td class='r'>25</td><td class='r'>35</td><td class='r'>#1223</td></tr><tr class=''><td>8</td><td>D. La Serena</td><td class='r'>25</td><td class='r'>33</td><td class='r'>#1744</td></tr><tr class='hi'><td>9</td><td>Coquimbo Unido</td><td class='r'>24</td><td class='r'>32</td><td class='r'>#688</td></tr><tr class=''><td>10</td><td>Concepción</td><td class='r'>25</td><td class='r'>32</td><td class='r'>#1268</td></tr><tr class=''><td>11</td><td>Huachipato</td><td class='r'>24</td><td class='r'>32</td><td class='r'>#1459</td></tr><tr class=''><td>12</td><td>A. Italiano</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#969</td></tr><tr class=''><td>13</td><td>O&#x27;Higgins</td><td class='r'>25</td><td class='r'>28</td><td class='r'>#882</td></tr><tr class=''><td>14</td><td>Cobresal</td><td class='r'>25</td><td class='r'>26</td><td class='r'>#1960</td></tr><tr class=''><td>15</td><td>Universidad de Concepcion</td><td class='r'>25</td><td class='r'>23</td><td class='r'>#2562</td></tr><tr class='hi'><td>16</td><td>Union La Calera</td><td class='r'>25</td><td class='r'>21</td><td class='r'>#1213</td></tr></table>
+<h2>Primera División table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>7</td><td>Nublense</td><td class='r'>25</td><td class='r'>35</td><td class='r'>#1227</td></tr><tr class=''><td>8</td><td>D. La Serena</td><td class='r'>25</td><td class='r'>33</td><td class='r'>#1743</td></tr><tr class='hi'><td>9</td><td>Coquimbo Unido</td><td class='r'>24</td><td class='r'>32</td><td class='r'>#691</td></tr><tr class=''><td>10</td><td>Concepción</td><td class='r'>25</td><td class='r'>32</td><td class='r'>#1273</td></tr><tr class=''><td>11</td><td>Huachipato</td><td class='r'>24</td><td class='r'>32</td><td class='r'>#1458</td></tr><tr class=''><td>12</td><td>A. Italiano</td><td class='r'>24</td><td class='r'>29</td><td class='r'>#948</td></tr><tr class=''><td>13</td><td>O&#x27;Higgins</td><td class='r'>25</td><td class='r'>28</td><td class='r'>#881</td></tr><tr class=''><td>14</td><td>Cobresal</td><td class='r'>25</td><td class='r'>26</td><td class='r'>#1961</td></tr><tr class=''><td>15</td><td>Universidad de Concepcion</td><td class='r'>25</td><td class='r'>23</td><td class='r'>#2554</td></tr><tr class='hi'><td>16</td><td>Union La Calera</td><td class='r'>25</td><td class='r'>21</td><td class='r'>#1217</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

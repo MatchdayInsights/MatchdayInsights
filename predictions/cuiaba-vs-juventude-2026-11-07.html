@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Cuiaba host Juventude in the Serie B (round 37) on Saturday 07 November 2026. Cuiaba are #1,670 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Juventude are #730 and have won 3 and drawn 2 of their last 5. On paper that's a big gap - 940 places - in Juventude's favour.</p>
+<p>Cuiaba host Juventude in the Serie B (round 37) on Saturday 07 November 2026. Cuiaba are #1,669 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Juventude are #731 and have won 3 and drawn 2 of their last 5. On paper that's a big gap - 938 places - in Juventude's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Juventude the favourites at 47%, with a draw at 27% and Cuiaba at 26%.</p>
 <div class='oddsbar'><i style='width:25.7%;background:#1f9a46'></i><i style='width:26.9%;background:#5a6888'></i><i style='width:47.4%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Cuiaba 26%</span>
   <span>Draw 27%</span><span style="color:#d43c44">Juventude 47%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/cuiaba.html'>Cuiaba</a></div><div class='st'>World rank: <b>#1670</b><br>Rating: <b>861</b><br>Chance to win: <b>26%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='America Mineiro'>L</span><span class='chip' style='background:#d43c44' title='Londrina'>L</span><span class='chip' style='background:#d43c44' title='Avai'>L</span><span class='chip' style='background:#5a6888' title='Vila Nova'>D</span><span class='chip' style='background:#1f9a46' title='Ponte Preta'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/juventude.html'>Juventude</a></div><div class='st'>World rank: <b>#730</b><br>Rating: <b>1026</b><br>Chance to win: <b>47%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Nautico Recife'>W</span><span class='chip' style='background:#5a6888' title='Ceara'>D</span><span class='chip' style='background:#5a6888' title='São Bernardo'>D</span><span class='chip' style='background:#1f9a46' title='Ponte Preta'>W</span><span class='chip' style='background:#1f9a46' title='Operario-PR'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/cuiaba.html'>Cuiaba</a></div><div class='st'>World rank: <b>#1669</b><br>Rating: <b>861</b><br>Chance to win: <b>26%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='America Mineiro'>L</span><span class='chip' style='background:#d43c44' title='Londrina'>L</span><span class='chip' style='background:#d43c44' title='Avai'>L</span><span class='chip' style='background:#5a6888' title='Vila Nova'>D</span><span class='chip' style='background:#1f9a46' title='Ponte Preta'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/juventude.html'>Juventude</a></div><div class='st'>World rank: <b>#731</b><br>Rating: <b>1026</b><br>Chance to win: <b>47%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Nautico Recife'>W</span><span class='chip' style='background:#5a6888' title='Ceara'>D</span><span class='chip' style='background:#5a6888' title='São Bernardo'>D</span><span class='chip' style='background:#1f9a46' title='Ponte Preta'>W</span><span class='chip' style='background:#1f9a46' title='Operario-PR'>W</span></div></div>
 </div>
 <h2>Who will win Cuiaba vs Juventude?</h2>
-<p>Cuiaba are #1670 and Juventude #730 in our world ranking of
+<p>Cuiaba are #1669 and Juventude #731 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Juventude</b> (47%). More from the <a href='../leagues/brazil-serie-b.html'>Serie B</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-07-17</td><td>Juventude v Cuiaba</td><td class='r'><b>2-0</b></td></tr></table>
-<h2>Serie B table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Novorizontino</td><td class='r'>35</td><td class='r'>64</td><td class='r'>#584</td></tr><tr class='hi'><td>2</td><td>Juventude</td><td class='r'>35</td><td class='r'>64</td><td class='r'>#730</td></tr><tr class=''><td>3</td><td>Vila Nova</td><td class='r'>35</td><td class='r'>62</td><td class='r'>#1024</td></tr><tr class=''><td>12</td><td>Botafogo SP</td><td class='r'>35</td><td class='r'>47</td><td class='r'>#1374</td></tr><tr class='hi'><td>13</td><td>Cuiaba</td><td class='r'>35</td><td class='r'>47</td><td class='r'>#1670</td></tr><tr class=''><td>14</td><td>Athletic Club</td><td class='r'>35</td><td class='r'>44</td><td class='r'>#1659</td></tr></table>
+<h2>Serie B table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Novorizontino</td><td class='r'>35</td><td class='r'>64</td><td class='r'>#590</td></tr><tr class='hi'><td>2</td><td>Juventude</td><td class='r'>35</td><td class='r'>64</td><td class='r'>#731</td></tr><tr class=''><td>3</td><td>Vila Nova</td><td class='r'>35</td><td class='r'>62</td><td class='r'>#1026</td></tr><tr class=''><td>12</td><td>Botafogo SP</td><td class='r'>35</td><td class='r'>47</td><td class='r'>#1374</td></tr><tr class='hi'><td>13</td><td>Cuiaba</td><td class='r'>35</td><td class='r'>47</td><td class='r'>#1669</td></tr><tr class=''><td>14</td><td>Athletic Club</td><td class='r'>35</td><td class='r'>44</td><td class='r'>#1660</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -169,7 +187,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "SC Paderborn 07 vs VfB Stuttgart", "sport": "Soccer", "startDate": "2026-10-28T17:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Home Deluxe Arena", "address": {"@type": "PostalAddress", "addressLocality": "Paderborn", "addressCountry": "DE"}}, "homeTeam": {"@type": "SportsTeam", "name": "SC Paderborn 07"}, "awayTeam": {"@type": "SportsTeam", "name": "VfB Stuttgart"}, "competitor": [{"@type": "SportsTeam", "name": "SC Paderborn 07"}, {"@type": "SportsTeam", "name": "VfB Stuttgart"}], "performer": [{"@type": "SportsTeam", "name": "SC Paderborn 07"}, {"@type": "SportsTeam", "name": "VfB Stuttgart"}], "organizer": {"@type": "SportsOrganization", "name": "DFB Pokal"}, "description": "SC Paderborn 07 vs VfB Stuttgart prediction for Wednesday 28 October 2026: our model gives SC Paderborn 07 23%, a draw 26% and VfB Stuttgart 51%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/sc-paderborn-07-vs-vfb-stuttgart-2026-10-28.html", "endDate": "2026-10-28T19:00:00+00:00"}</script>
+</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "SC Paderborn 07 vs VfB Stuttgart", "sport": "Soccer", "startDate": "2026-10-28T17:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Home Deluxe Arena", "address": {"@type": "PostalAddress", "addressLocality": "Paderborn", "addressCountry": "DE"}}, "homeTeam": {"@type": "SportsTeam", "name": "SC Paderborn 07"}, "awayTeam": {"@type": "SportsTeam", "name": "VfB Stuttgart"}, "competitor": [{"@type": "SportsTeam", "name": "SC Paderborn 07"}, {"@type": "SportsTeam", "name": "VfB Stuttgart"}], "performer": [{"@type": "SportsTeam", "name": "SC Paderborn 07"}, {"@type": "SportsTeam", "name": "VfB Stuttgart"}], "organizer": {"@type": "SportsOrganization", "name": "DFB Pokal"}, "description": "SC Paderborn 07 vs VfB Stuttgart prediction for Wednesday 28 October 2026: our model gives SC Paderborn 07 23%, a draw 26% and VfB Stuttgart 51%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/sc-paderborn-07-vs-vfb-stuttgart-2026-10-28.html", "endDate": "2026-10-28T19:00:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -214,22 +232,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     text-transform:uppercase;line-height:.95;margin:10px 0 0">SC Paderborn 07 vs VfB Stuttgart<br>
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
-
-<p>SC Paderborn 07 host VfB Stuttgart in the DFB Pokal (Round of 32) on Wednesday 28 October 2026. SC Paderborn 07 are #142 in our world ranking and have won 2, drawn 1 and lost 2 of their last 5; VfB Stuttgart are #40 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 102 places - in VfB Stuttgart's favour.</p>
+<div class='verdict'><b>Full time: SC Paderborn 07 0-1 VfB Stuttgart.</b> We had VfB Stuttgart as the most likely result at 51% - and that is how it went. The chance we gave the actual result: 51%.</div>
+<p>SC Paderborn 07 host VfB Stuttgart in the DFB Pokal (Round of 32) on Wednesday 28 October 2026. SC Paderborn 07 are #147 in our world ranking and have won 2, drawn 1 and lost 2 of their last 5; VfB Stuttgart are #34 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 113 places - in VfB Stuttgart's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes VfB Stuttgart the favourites at 51%, with a draw at 26% and SC Paderborn 07 at 23%.</p>
 <div class='oddsbar'><i style='width:23.1%;background:#1f9a46'></i><i style='width:25.7%;background:#5a6888'></i><i style='width:51.2%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">SC Paderborn 07 23%</span>
   <span>Draw 26%</span><span style="color:#d43c44">VfB Stuttgart 51%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/sc-paderborn-07.html'>SC Paderborn 07</a></div><div class='st'>World rank: <b>#142</b><br>Rating: <b>1297</b><br>Chance to win: <b>23%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Hamburger SV'>W</span><span class='chip' style='background:#5a6888' title='Werder Bremen'>D</span><span class='chip' style='background:#d43c44' title='VfB Stuttgart'>L</span><span class='chip' style='background:#1f9a46' title='1899 Hoffenheim'>W</span><span class='chip' style='background:#d43c44' title='Borussia Dortmund'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/vfb-stuttgart.html'>VfB Stuttgart</a></div><div class='st'>World rank: <b>#40</b><br>Rating: <b>1494</b><br>Chance to win: <b>51%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Borussia Mönchengladbach'>L</span><span class='chip' style='background:#5a6888' title='Atletico Madrid'>D</span><span class='chip' style='background:#d43c44' title='Hamburger SV'>L</span><span class='chip' style='background:#1f9a46' title='Slovan Bratislava'>W</span><span class='chip' style='background:#1f9a46' title='SC Paderborn 07'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/sc-paderborn-07.html'>SC Paderborn 07</a></div><div class='st'>World rank: <b>#147</b><br>Rating: <b>1289</b><br>Chance to win: <b>23%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='VfB Stuttgart'>L</span><span class='chip' style='background:#1f9a46' title='Hamburger SV'>W</span><span class='chip' style='background:#5a6888' title='Werder Bremen'>D</span><span class='chip' style='background:#d43c44' title='VfB Stuttgart'>L</span><span class='chip' style='background:#1f9a46' title='1899 Hoffenheim'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/vfb-stuttgart.html'>VfB Stuttgart</a></div><div class='st'>World rank: <b>#34</b><br>Rating: <b>1502</b><br>Chance to win: <b>51%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='SC Paderborn 07'>W</span><span class='chip' style='background:#d43c44' title='Borussia Mönchengladbach'>L</span><span class='chip' style='background:#5a6888' title='Atletico Madrid'>D</span><span class='chip' style='background:#d43c44' title='Hamburger SV'>L</span><span class='chip' style='background:#1f9a46' title='Slovan Bratislava'>W</span></div></div>
 </div>
 <h2>Who will win SC Paderborn 07 vs VfB Stuttgart?</h2>
-<p>SC Paderborn 07 are #142 and VfB Stuttgart #40 in our world ranking of
+<p>SC Paderborn 07 are #147 and VfB Stuttgart #34 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>VfB Stuttgart</b> (51%). More from the <a href='../leagues/germany-bundesliga.html'>Bundesliga</a>.</p>
-<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-10</td><td>SC Paderborn 07 v VfB Stuttgart</td><td class='r'><b>0-2</b></td></tr><tr><td>2023-01-31</td><td>SC Paderborn 07 v VfB Stuttgart</td><td class='r'><b>1-2</b></td></tr></table>
+<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-28</td><td>SC Paderborn 07 v VfB Stuttgart</td><td class='r'><b>0-1</b></td></tr><tr><td>2026-10-10</td><td>SC Paderborn 07 v VfB Stuttgart</td><td class='r'><b>0-2</b></td></tr><tr><td>2023-01-31</td><td>SC Paderborn 07 v VfB Stuttgart</td><td class='r'><b>1-2</b></td></tr></table><p>VfB Stuttgart have won the last 3 meetings.</p>
 
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world

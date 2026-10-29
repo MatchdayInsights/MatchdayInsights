@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Korona Kielce host Radomiak Radom in the Ekstraklasa (round 14) on Saturday 07 November 2026. Korona Kielce are #370 in our world ranking and have won 2 and lost 3 of their last 5; Radomiak Radom are #717 and have lost all of their last 5. On paper that's a big gap - 347 places - in Korona Kielce's favour.</p>
+<p>Korona Kielce host Radomiak Radom in the Ekstraklasa (round 14) on Saturday 07 November 2026. Korona Kielce are #373 in our world ranking and have won 2 and lost 3 of their last 5; Radomiak Radom are #718 and have lost all of their last 5. On paper that's a big gap - 345 places - in Korona Kielce's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Korona Kielce the favourites at 54%, with a draw at 25% and Radomiak Radom at 21%.</p>
 <div class='oddsbar'><i style='width:54.2%;background:#1f9a46'></i><i style='width:24.7%;background:#5a6888'></i><i style='width:21.1%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Korona Kielce 54%</span>
   <span>Draw 25%</span><span style="color:#d43c44">Radomiak Radom 21%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/korona-kielce.html'>Korona Kielce</a></div><div class='st'>World rank: <b>#370</b><br>Rating: <b>1134</b><br>Chance to win: <b>54%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='GKS Katowice'>W</span><span class='chip' style='background:#d43c44' title='Lech Poznan'>L</span><span class='chip' style='background:#d43c44' title='Pogon Szczecin'>L</span><span class='chip' style='background:#1f9a46' title='Raków Częstochowa'>W</span><span class='chip' style='background:#d43c44' title='Gornik Zabrze'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/radomiak-radom.html'>Radomiak Radom</a></div><div class='st'>World rank: <b>#717</b><br>Rating: <b>1029</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Pogon Szczecin'>L</span><span class='chip' style='background:#d43c44' title='Wisla Plock'>L</span><span class='chip' style='background:#d43c44' title='Motor Lublin'>L</span><span class='chip' style='background:#d43c44' title='Lech Poznan'>L</span><span class='chip' style='background:#d43c44' title='Piast Gliwice'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/korona-kielce.html'>Korona Kielce</a></div><div class='st'>World rank: <b>#373</b><br>Rating: <b>1134</b><br>Chance to win: <b>54%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='GKS Katowice'>W</span><span class='chip' style='background:#d43c44' title='Lech Poznan'>L</span><span class='chip' style='background:#d43c44' title='Pogon Szczecin'>L</span><span class='chip' style='background:#1f9a46' title='Raków Częstochowa'>W</span><span class='chip' style='background:#d43c44' title='Gornik Zabrze'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/radomiak-radom.html'>Radomiak Radom</a></div><div class='st'>World rank: <b>#718</b><br>Rating: <b>1029</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Pogon Szczecin'>L</span><span class='chip' style='background:#d43c44' title='Wisla Plock'>L</span><span class='chip' style='background:#d43c44' title='Motor Lublin'>L</span><span class='chip' style='background:#d43c44' title='Lech Poznan'>L</span><span class='chip' style='background:#d43c44' title='Piast Gliwice'>L</span></div></div>
 </div>
 <h2>Who will win Korona Kielce vs Radomiak Radom?</h2>
-<p>Korona Kielce are #370 and Radomiak Radom #717 in our world ranking of
+<p>Korona Kielce are #373 and Radomiak Radom #718 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Korona Kielce</b> (54%). More from the <a href='../leagues/poland-ekstraklasa.html'>Ekstraklasa</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-02-13</td><td>Radomiak Radom v Korona Kielce</td><td class='r'><b>0-2</b></td></tr><tr><td>2025-08-08</td><td>Korona Kielce v Radomiak Radom</td><td class='r'><b>3-0</b></td></tr><tr><td>2025-03-30</td><td>Korona Kielce v Radomiak Radom</td><td class='r'><b>1-3</b></td></tr><tr><td>2024-09-20</td><td>Radomiak Radom v Korona Kielce</td><td class='r'><b>4-0</b></td></tr><tr><td>2024-04-19</td><td>Korona Kielce v Radomiak Radom</td><td class='r'><b>4-0</b></td></tr></table>
-<h2>Ekstraklasa table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>7</td><td>Zaglebie Lubin</td><td class='r'>12</td><td class='r'>19</td><td class='r'>#448</td></tr><tr class=''><td>8</td><td>GKS Katowice</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#347</td></tr><tr class='hi'><td>9</td><td>Korona Kielce</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#370</td></tr><tr class=''><td>10</td><td>Jagiellonia</td><td class='r'>11</td><td class='r'>15</td><td class='r'>#293</td></tr><tr class=''><td>11</td><td>Wisla Plock</td><td class='r'>11</td><td class='r'>14</td><td class='r'>#622</td></tr><tr class=''><td>12</td><td>Motor Lublin</td><td class='r'>12</td><td class='r'>13</td><td class='r'>#437</td></tr><tr class=''><td>13</td><td>Cracovia Krakow</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#603</td></tr><tr class=''><td>14</td><td>Widzew Łódź</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#465</td></tr><tr class=''><td>15</td><td>Slask Wroclaw</td><td class='r'>12</td><td class='r'>9</td><td class='r'>#651</td></tr><tr class=''><td>16</td><td>Wieczysta Kraków</td><td class='r'>12</td><td class='r'>8</td><td class='r'>#868</td></tr><tr class='hi'><td>17</td><td>Radomiak Radom</td><td class='r'>12</td><td class='r'>8</td><td class='r'>#717</td></tr><tr class=''><td>18</td><td>Raków Częstochowa</td><td class='r'>12</td><td class='r'>6</td><td class='r'>#424</td></tr></table>
+<h2>Ekstraklasa table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>7</td><td>Zaglebie Lubin</td><td class='r'>12</td><td class='r'>19</td><td class='r'>#447</td></tr><tr class=''><td>8</td><td>GKS Katowice</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#350</td></tr><tr class='hi'><td>9</td><td>Korona Kielce</td><td class='r'>12</td><td class='r'>18</td><td class='r'>#373</td></tr><tr class=''><td>10</td><td>Jagiellonia</td><td class='r'>11</td><td class='r'>15</td><td class='r'>#265</td></tr><tr class=''><td>11</td><td>Wisla Plock</td><td class='r'>11</td><td class='r'>14</td><td class='r'>#596</td></tr><tr class=''><td>12</td><td>Motor Lublin</td><td class='r'>12</td><td class='r'>13</td><td class='r'>#437</td></tr><tr class=''><td>13</td><td>Cracovia Krakow</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#606</td></tr><tr class=''><td>14</td><td>Widzew Łódź</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#465</td></tr><tr class=''><td>15</td><td>Slask Wroclaw</td><td class='r'>12</td><td class='r'>9</td><td class='r'>#655</td></tr><tr class=''><td>16</td><td>Wieczysta Kraków</td><td class='r'>12</td><td class='r'>8</td><td class='r'>#864</td></tr><tr class='hi'><td>17</td><td>Radomiak Radom</td><td class='r'>12</td><td class='r'>8</td><td class='r'>#718</td></tr><tr class=''><td>18</td><td>Raków Częstochowa</td><td class='r'>12</td><td class='r'>6</td><td class='r'>#426</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

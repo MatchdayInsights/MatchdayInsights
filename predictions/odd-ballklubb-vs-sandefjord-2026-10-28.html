@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -169,7 +187,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "ODD Ballklubb vs Sandefjord", "sport": "Soccer", "startDate": "2026-10-28T17:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Skagerak Arena", "address": {"@type": "PostalAddress", "addressLocality": "Skien", "addressCountry": "NO"}}, "homeTeam": {"@type": "SportsTeam", "name": "ODD Ballklubb"}, "awayTeam": {"@type": "SportsTeam", "name": "Sandefjord"}, "competitor": [{"@type": "SportsTeam", "name": "ODD Ballklubb"}, {"@type": "SportsTeam", "name": "Sandefjord"}], "performer": [{"@type": "SportsTeam", "name": "ODD Ballklubb"}, {"@type": "SportsTeam", "name": "Sandefjord"}], "organizer": {"@type": "SportsOrganization", "name": "NM Cupen"}, "description": "ODD Ballklubb vs Sandefjord prediction for Wednesday 28 October 2026: our model gives ODD Ballklubb 18%, a draw 23% and Sandefjord 58%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/odd-ballklubb-vs-sandefjord-2026-10-28.html", "endDate": "2026-10-28T19:00:00+00:00"}</script>
+</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "ODD Ballklubb vs Sandefjord", "sport": "Soccer", "startDate": "2026-10-28T17:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Skagerak Arena", "address": {"@type": "PostalAddress", "addressLocality": "Skien", "addressCountry": "NO"}}, "homeTeam": {"@type": "SportsTeam", "name": "ODD Ballklubb"}, "awayTeam": {"@type": "SportsTeam", "name": "Sandefjord"}, "competitor": [{"@type": "SportsTeam", "name": "ODD Ballklubb"}, {"@type": "SportsTeam", "name": "Sandefjord"}], "performer": [{"@type": "SportsTeam", "name": "ODD Ballklubb"}, {"@type": "SportsTeam", "name": "Sandefjord"}], "organizer": {"@type": "SportsOrganization", "name": "NM Cupen"}, "description": "ODD Ballklubb vs Sandefjord prediction for Wednesday 28 October 2026: our model gives ODD Ballklubb 18%, a draw 23% and Sandefjord 58%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/odd-ballklubb-vs-sandefjord-2026-10-28.html", "endDate": "2026-10-28T19:00:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -214,22 +232,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     text-transform:uppercase;line-height:.95;margin:10px 0 0">ODD Ballklubb vs Sandefjord<br>
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
-
-<p>ODD Ballklubb host Sandefjord in the NM Cupen (Round of 32) on Wednesday 28 October 2026. ODD Ballklubb are #1,867 in our world ranking and have won 3 and lost 2 of their last 5; Sandefjord are #480 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 1,387 places - in Sandefjord's favour.</p>
+<div class='verdict'><b>Full time: ODD Ballklubb 3-1 Sandefjord.</b> We had Sandefjord as the most likely result at 58% - and it went the other way. The chance we gave the actual result: 18%.</div>
+<p>ODD Ballklubb host Sandefjord in the NM Cupen (Round of 32) on Wednesday 28 October 2026. ODD Ballklubb are #1,639 in our world ranking and have won 3 and lost 2 of their last 5; Sandefjord are #585 and have won 1, drawn 1 and lost 3 of their last 5. On paper that's a big gap - 1,054 places - in Sandefjord's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Sandefjord the favourites at 58%, with a draw at 23% and ODD Ballklubb at 18%.</p>
 <div class='oddsbar'><i style='width:18.5%;background:#1f9a46'></i><i style='width:23.2%;background:#5a6888'></i><i style='width:58.4%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">ODD Ballklubb 18%</span>
   <span>Draw 23%</span><span style="color:#d43c44">Sandefjord 58%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/odd-ballklubb.html'>ODD Ballklubb</a></div><div class='st'>World rank: <b>#1867</b><br>Rating: <b>836</b><br>Chance to win: <b>18%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Stabaek'>L</span><span class='chip' style='background:#d43c44' title='Strommen'>L</span><span class='chip' style='background:#1f9a46' title='Sogndal'>W</span><span class='chip' style='background:#1f9a46' title='Bryne'>W</span><span class='chip' style='background:#1f9a46' title='hodd'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/sandefjord.html'>Sandefjord</a></div><div class='st'>World rank: <b>#480</b><br>Rating: <b>1095</b><br>Chance to win: <b>58%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Start'>L</span><span class='chip' style='background:#d43c44' title='Lillestrom'>L</span><span class='chip' style='background:#5a6888' title='Rosenborg'>D</span><span class='chip' style='background:#1f9a46' title='Flint'>W</span><span class='chip' style='background:#1f9a46' title='Start'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/odd-ballklubb.html'>ODD Ballklubb</a></div><div class='st'>World rank: <b>#1639</b><br>Rating: <b>865</b><br>Chance to win: <b>18%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Sandefjord'>W</span><span class='chip' style='background:#d43c44' title='Stabaek'>L</span><span class='chip' style='background:#d43c44' title='Strommen'>L</span><span class='chip' style='background:#1f9a46' title='Sogndal'>W</span><span class='chip' style='background:#1f9a46' title='Bryne'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/sandefjord.html'>Sandefjord</a></div><div class='st'>World rank: <b>#585</b><br>Rating: <b>1066</b><br>Chance to win: <b>58%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='ODD Ballklubb'>L</span><span class='chip' style='background:#d43c44' title='Start'>L</span><span class='chip' style='background:#d43c44' title='Lillestrom'>L</span><span class='chip' style='background:#5a6888' title='Rosenborg'>D</span><span class='chip' style='background:#1f9a46' title='Flint'>W</span></div></div>
 </div>
 <h2>Who will win ODD Ballklubb vs Sandefjord?</h2>
-<p>ODD Ballklubb are #1867 and Sandefjord #480 in our world ranking of
+<p>ODD Ballklubb are #1639 and Sandefjord #585 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Sandefjord</b> (58%). More from the <a href='../leagues/norway-1-division.html'>1. Division</a>.</p>
-<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2024-11-10</td><td>Sandefjord v ODD Ballklubb</td><td class='r'><b>1-0</b></td></tr><tr><td>2024-04-14</td><td>ODD Ballklubb v Sandefjord</td><td class='r'><b>2-2</b></td></tr><tr><td>2023-09-03</td><td>ODD Ballklubb v Sandefjord</td><td class='r'><b>3-2</b></td></tr><tr><td>2023-06-04</td><td>Sandefjord v ODD Ballklubb</td><td class='r'><b>4-1</b></td></tr><tr><td>2023-03-12</td><td>Sandefjord v ODD Ballklubb</td><td class='r'><b>4-1</b></td></tr></table>
+<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-28</td><td>ODD Ballklubb v Sandefjord</td><td class='r'><b>3-1</b></td></tr><tr><td>2024-11-10</td><td>Sandefjord v ODD Ballklubb</td><td class='r'><b>1-0</b></td></tr><tr><td>2024-04-14</td><td>ODD Ballklubb v Sandefjord</td><td class='r'><b>2-2</b></td></tr><tr><td>2023-09-03</td><td>ODD Ballklubb v Sandefjord</td><td class='r'><b>3-2</b></td></tr><tr><td>2023-06-04</td><td>Sandefjord v ODD Ballklubb</td><td class='r'><b>4-1</b></td></tr></table>
 
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world

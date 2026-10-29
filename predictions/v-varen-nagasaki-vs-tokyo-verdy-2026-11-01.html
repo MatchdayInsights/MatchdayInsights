@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>V-varen Nagasaki host Tokyo Verdy in the J1 League (round 13) on Sunday 01 November 2026. V-varen Nagasaki are #808 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Tokyo Verdy are #920 and have won 1, drawn 2 and lost 2 of their last 5. On paper that's a big gap - 112 places - in V-varen Nagasaki's favour.</p>
+<p>V-varen Nagasaki host Tokyo Verdy in the J1 League (round 13) on Sunday 01 November 2026. V-varen Nagasaki are #814 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Tokyo Verdy are #920 and have won 1, drawn 2 and lost 2 of their last 5. On paper that's a big gap - 106 places - in V-varen Nagasaki's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes V-varen Nagasaki the favourites at 45%, with a draw at 28% and Tokyo Verdy at 27%.</p>
 <div class='oddsbar'><i style='width:45.0%;background:#1f9a46'></i><i style='width:27.6%;background:#5a6888'></i><i style='width:27.4%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">V-varen Nagasaki 45%</span>
   <span>Draw 28%</span><span style="color:#d43c44">Tokyo Verdy 27%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/v-varen-nagasaki.html'>V-varen Nagasaki</a></div><div class='st'>World rank: <b>#808</b><br>Rating: <b>1007</b><br>Chance to win: <b>45%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Urawa'>L</span><span class='chip' style='background:#1f9a46' title='Sanfrecce Hiroshima'>W</span><span class='chip' style='background:#d43c44' title='Kashima'>L</span><span class='chip' style='background:#5a6888' title='JEF United Chiba'>D</span><span class='chip' style='background:#d43c44' title='Shimizu S-pulse'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/v-varen-nagasaki.html'>V-varen Nagasaki</a></div><div class='st'>World rank: <b>#814</b><br>Rating: <b>1007</b><br>Chance to win: <b>45%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Urawa'>L</span><span class='chip' style='background:#1f9a46' title='Sanfrecce Hiroshima'>W</span><span class='chip' style='background:#d43c44' title='Kashima'>L</span><span class='chip' style='background:#5a6888' title='JEF United Chiba'>D</span><span class='chip' style='background:#d43c44' title='Shimizu S-pulse'>L</span></div></div>
   <div class='ppcard'><div class='nm'><a href='../clubs/tokyo-verdy.html'>Tokyo Verdy</a></div><div class='st'>World rank: <b>#920</b><br>Rating: <b>986</b><br>Chance to win: <b>27%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Avispa Fukuoka'>W</span><span class='chip' style='background:#5a6888' title='Yokohama F. Marinos'>D</span><span class='chip' style='background:#d43c44' title='FC Tokyo'>L</span><span class='chip' style='background:#d43c44' title='Sanfrecce Hiroshima'>L</span><span class='chip' style='background:#5a6888' title='Gainare Tottori'>D</span></div></div>
 </div>
 <h2>Who will win V-varen Nagasaki vs Tokyo Verdy?</h2>
-<p>V-varen Nagasaki are #808 and Tokyo Verdy #920 in our world ranking of
+<p>V-varen Nagasaki are #814 and Tokyo Verdy #920 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>V-varen Nagasaki</b> (45%). More from the <a href='../leagues/japan-j1-league.html'>J1 League</a>.</p>
 
-<h2>J1 League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>12</td><td>Cerezo Osaka</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#378</td></tr><tr class=''><td>13</td><td>Shimizu S-pulse</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#709</td></tr><tr class='hi'><td>14</td><td>V-varen Nagasaki</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#808</td></tr><tr class=''><td>15</td><td>Gamba Osaka</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#372</td></tr><tr class=''><td>16</td><td>Kyoto Sanga</td><td class='r'>12</td><td class='r'>10</td><td class='r'>#550</td></tr><tr class=''><td>17</td><td>Mito Hollyhock</td><td class='r'>12</td><td class='r'>9</td><td class='r'>#1076</td></tr><tr class='hi'><td>18</td><td>Tokyo Verdy</td><td class='r'>12</td><td class='r'>8</td><td class='r'>#920</td></tr><tr class=''><td>19</td><td>Avispa Fukuoka</td><td class='r'>12</td><td class='r'>7</td><td class='r'>#1042</td></tr><tr class=''><td>20</td><td>JEF United Chiba</td><td class='r'>12</td><td class='r'>7</td><td class='r'>#1278</td></tr></table>
+<h2>J1 League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>12</td><td>Cerezo Osaka</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#359</td></tr><tr class=''><td>13</td><td>Shimizu S-pulse</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#715</td></tr><tr class='hi'><td>14</td><td>V-varen Nagasaki</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#814</td></tr><tr class=''><td>15</td><td>Gamba Osaka</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#381</td></tr><tr class=''><td>16</td><td>Kyoto Sanga</td><td class='r'>12</td><td class='r'>10</td><td class='r'>#555</td></tr><tr class=''><td>17</td><td>Mito Hollyhock</td><td class='r'>12</td><td class='r'>9</td><td class='r'>#1145</td></tr><tr class='hi'><td>18</td><td>Tokyo Verdy</td><td class='r'>12</td><td class='r'>8</td><td class='r'>#920</td></tr><tr class=''><td>19</td><td>Avispa Fukuoka</td><td class='r'>12</td><td class='r'>7</td><td class='r'>#1047</td></tr><tr class=''><td>20</td><td>JEF United Chiba</td><td class='r'>12</td><td class='r'>7</td><td class='r'>#1289</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

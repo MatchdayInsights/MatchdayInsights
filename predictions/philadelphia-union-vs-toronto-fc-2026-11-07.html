@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=ef7c9fca">
+<link rel="stylesheet" href="../club-page.css?v=73c64e96">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,24 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -215,22 +233,22 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
     <span style="color:var(--green,#3dba5e)">prediction</span></h1>
 </div>
 
-<p>Philadelphia Union host Toronto FC in the Major League Soccer (round 34) on Saturday 07 November 2026. Philadelphia Union are #420 in our world ranking and have won 3, drawn 1 and lost 1 of their last 5; Toronto FC are #956 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 536 places - in Philadelphia Union's favour.</p>
+<p>Philadelphia Union host Toronto FC in the Major League Soccer (round 34) on Saturday 07 November 2026. Philadelphia Union are #406 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Toronto FC are #929 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 523 places - in Philadelphia Union's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Philadelphia Union the favourites at 58%, with a draw at 23% and Toronto FC at 19%.</p>
-<div class='oddsbar'><i style='width:58.3%;background:#1f9a46'></i><i style='width:23.2%;background:#5a6888'></i><i style='width:18.5%;background:#d43c44'></i></div>
+<div class='oddsbar'><i style='width:57.8%;background:#1f9a46'></i><i style='width:23.4%;background:#5a6888'></i><i style='width:18.9%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Philadelphia Union 58%</span>
   <span>Draw 23%</span><span style="color:#d43c44">Toronto FC 19%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/philadelphia-union.html'>Philadelphia Union</a></div><div class='st'>World rank: <b>#420</b><br>Rating: <b>1115</b><br>Chance to win: <b>58%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='New England Revolution'>L</span><span class='chip' style='background:#5a6888' title='Charlotte'>D</span><span class='chip' style='background:#1f9a46' title='Chicago Fire'>W</span><span class='chip' style='background:#1f9a46' title='Real Salt Lake'>W</span><span class='chip' style='background:#1f9a46' title='Orlando City SC'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/toronto-fc.html'>Toronto FC</a></div><div class='st'>World rank: <b>#956</b><br>Rating: <b>974</b><br>Chance to win: <b>19%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Columbus Crew'>L</span><span class='chip' style='background:#1f9a46' title='New York Red Bulls'>W</span><span class='chip' style='background:#5a6888' title='Orlando City SC'>D</span><span class='chip' style='background:#1f9a46' title='CF Montreal'>W</span><span class='chip' style='background:#d43c44' title='Nashville SC'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/philadelphia-union.html'>Philadelphia Union</a></div><div class='st'>World rank: <b>#406</b><br>Rating: <b>1120</b><br>Chance to win: <b>58%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Nashville SC'>D</span><span class='chip' style='background:#d43c44' title='New England Revolution'>L</span><span class='chip' style='background:#5a6888' title='Charlotte'>D</span><span class='chip' style='background:#1f9a46' title='Chicago Fire'>W</span><span class='chip' style='background:#1f9a46' title='Real Salt Lake'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/toronto-fc.html'>Toronto FC</a></div><div class='st'>World rank: <b>#929</b><br>Rating: <b>984</b><br>Chance to win: <b>19%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='DC United'>W</span><span class='chip' style='background:#d43c44' title='Columbus Crew'>L</span><span class='chip' style='background:#1f9a46' title='New York Red Bulls'>W</span><span class='chip' style='background:#5a6888' title='Orlando City SC'>D</span><span class='chip' style='background:#1f9a46' title='CF Montreal'>W</span></div></div>
 </div>
 <h2>Who will win Philadelphia Union vs Toronto FC?</h2>
-<p>Philadelphia Union are #420 and Toronto FC #956 in our world ranking of
+<p>Philadelphia Union are #406 and Toronto FC #929 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Philadelphia Union</b> (58%). More from the <a href='../leagues/united-states-major-league-soccer.html'>Major League Soccer</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-22</td><td>Toronto FC v Philadelphia Union</td><td class='r'><b>3-3</b></td></tr><tr><td>2025-08-09</td><td>Philadelphia Union v Toronto FC</td><td class='r'><b>1-1</b></td></tr><tr><td>2025-05-28</td><td>Toronto FC v Philadelphia Union</td><td class='r'><b>1-2</b></td></tr></table>
-<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>31</td><td class='r'>70</td><td class='r'>#256</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#571</td></tr><tr class=''><td>3</td><td>Inter Miami</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#357</td></tr><tr class=''><td>11</td><td>Charlotte</td><td class='r'>31</td><td class='r'>47</td><td class='r'>#637</td></tr><tr class='hi'><td>12</td><td>Philadelphia Union</td><td class='r'>31</td><td class='r'>46</td><td class='r'>#420</td></tr><tr class=''><td>13</td><td>Seattle Sounders</td><td class='r'>31</td><td class='r'>43</td><td class='r'>#654</td></tr><tr class=''><td>21</td><td>Portland Timbers</td><td class='r'>31</td><td class='r'>37</td><td class='r'>#912</td></tr><tr class='hi'><td>22</td><td>Toronto FC</td><td class='r'>31</td><td class='r'>36</td><td class='r'>#956</td></tr><tr class=''><td>23</td><td>New York City FC</td><td class='r'>31</td><td class='r'>35</td><td class='r'>#827</td></tr></table>
+<h2>Major League Soccer table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Nashville SC</td><td class='r'>31</td><td class='r'>70</td><td class='r'>#267</td></tr><tr class=''><td>2</td><td>Vancouver Whitecaps</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#577</td></tr><tr class=''><td>3</td><td>Inter Miami</td><td class='r'>31</td><td class='r'>55</td><td class='r'>#374</td></tr><tr class=''><td>11</td><td>Charlotte</td><td class='r'>31</td><td class='r'>47</td><td class='r'>#601</td></tr><tr class='hi'><td>12</td><td>Philadelphia Union</td><td class='r'>31</td><td class='r'>46</td><td class='r'>#406</td></tr><tr class=''><td>13</td><td>Seattle Sounders</td><td class='r'>31</td><td class='r'>43</td><td class='r'>#658</td></tr><tr class=''><td>21</td><td>Portland Timbers</td><td class='r'>31</td><td class='r'>37</td><td class='r'>#822</td></tr><tr class='hi'><td>22</td><td>Toronto FC</td><td class='r'>31</td><td class='r'>36</td><td class='r'>#929</td></tr><tr class=''><td>23</td><td>New York City FC</td><td class='r'>31</td><td class='r'>35</td><td class='r'>#795</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the

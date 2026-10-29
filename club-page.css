@@ -416,3 +416,40 @@ body{font-variant-numeric:tabular-nums}
   .season-bar-row { grid-template-columns: max-content max-content 1fr max-content; gap: 6px; }
   .season-bar-row .league-badge { max-width: 64px; }
 }
+
+/* ---------------------------------------------------------------------------
+   Phones held upright (Greg, 2026-10): MATCHDAY INSIGHTS across the top,
+   all five tabs on a row below it - Leagues and Compare Clubs were only
+   reachable with the phone sideways. The sticky bars under the header
+   (rankings filters, the matches page's days) move down to match.
+   --------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .site-nav { flex-wrap: wrap; height: auto; padding: 0 14px; }
+  .site-nav .nav-logo { height: 40px; justify-content: center; }
+  .site-nav .nav-brand { font-size: 17px; letter-spacing: 1.2px; }
+  .site-nav .header-right {
+    order: 3; flex: 0 0 calc(100% + 28px); margin: 0 -14px; padding: 0 6px;
+    display: flex; justify-content: space-between; gap: 0; height: 38px;
+    border-top: 1px solid var(--border2); overflow-x: auto;
+  }
+  .site-nav .header-right .ig-link[href$="index.html"],
+  .site-nav .header-right .ig-link[href$="matches.html"],
+  .site-nav .header-right .ig-link[href$="predictions.html"],
+  .site-nav .header-right .ig-link[href$="leagues.html"],
+  .site-nav .header-right .ig-link[href$="compare.html"] {
+    display: inline-block; font-size: 14.5px; letter-spacing: .3px; padding: 0 6px;
+    height: 38px; line-height: 38px; margin-right: 0; flex: none;
+  }
+  .site-nav .header-right .ig-link.on::before { left: 4px; right: 4px; bottom: 0; }
+  /* Club pages: the club's name takes the top row when scrolled; the tabs stay. */
+  .site-nav.club-on .header-right { display: flex; }
+  .site-nav .nav-club { height: 40px; }
+  html body .controls, html body .days-bar { top: 79px; }
+}
+@media (max-width: 370px) {
+  .site-nav .header-right .ig-link[href$="index.html"],
+  .site-nav .header-right .ig-link[href$="matches.html"],
+  .site-nav .header-right .ig-link[href$="predictions.html"],
+  .site-nav .header-right .ig-link[href$="leagues.html"],
+  .site-nav .header-right .ig-link[href$="compare.html"] { font-size: 13px; padding: 0 4px; letter-spacing: 0; }
+}
