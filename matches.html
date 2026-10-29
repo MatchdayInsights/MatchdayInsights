@@ -130,6 +130,16 @@ a.nm:hover{color:var(--green)}
 .lus li .no{display:inline-block;min-width:20px;color:var(--muted)}
 .lus .bn{margin-top:8px;color:var(--muted);font-size:9.5px}
 .md .none{text-align:center;color:var(--muted);padding:8px 0}
+/* Continent groups below the top competitions, closed until tapped. */
+.cont{margin:14px 0 10px}
+.cont-h{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:9px;cursor:pointer;
+  background:var(--surface2);border:1px solid var(--border2);user-select:none}
+.cont-h b{font-size:16px;font-weight:800;text-transform:uppercase;color:var(--text)}
+.cont-h span{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted)}
+.cont-h i{margin-left:auto;font-style:normal;font-size:11px;color:var(--muted);transition:transform .15s}
+.cont:not(.open) .cont-b{display:none}
+.cont.open .cont-h i{transform:rotate(180deg)}
+.cont-b{margin-top:8px}
 .empty{padding:50px 10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
 .key{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--muted);line-height:1.6;margin-top:14px}
 @media(max-width:560px){
@@ -190,7 +200,7 @@ a.nm:hover{color:var(--green)}
 
 <script>
 const HOME='#3dba5e', DRAW='#5a6a8c', AWAY='#e5484d';
-let INFO=null, DAY=null, OPEN={}, CACHE={};
+let INFO=null, DAY=null, OPEN={}, OPENC={}, CACHE={};
 // Live scores (Greg, 2026-10): every minute while the page is open, from
 // our Cloudflare Worker; laid over the scores from our last update.
 const LIVE_URL='';
@@ -268,8 +278,10 @@ function row(m){
   const ko=new Date(m.t.replace('Z',':00Z'));
   const time=ko.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});
   let mid='',extra='';
-  const hl=m.sc&&m.st==='ft'&&m.sc[0]<m.sc[1], al=m.sc&&m.st==='ft'&&m.sc[0]>m.sc[1];
-  if(m.st==='ft'){mid=`<span class="sc">${m.sc?m.sc.join(' - '):'-'}</span><span class="x">${m.x==='pens'?'FT &middot; PENS':m.x==='aet'?'FT &middot; AET':'FT'}</span>`;}
+  // Level after extra time: the shoot-out decides who is greyed out.
+  const pw=m.pen&&m.pen[0]!==m.pen[1]?(m.pen[0]>m.pen[1]?'h':'a'):null;
+  const hl=m.sc&&m.st==='ft'&&(pw?pw==='a':m.sc[0]<m.sc[1]), al=m.sc&&m.st==='ft'&&(pw?pw==='h':m.sc[0]>m.sc[1]);
+  if(m.st==='ft'){mid=`<span class="sc">${m.sc?m.sc.join(' - '):'-'}</span><span class="x">${m.x==='pens'?(m.pen?`FT &middot; PENS ${m.pen[0]}-${m.pen[1]}`:'FT &middot; PENS'):m.x==='aet'?'FT &middot; AET':'FT'}</span>`;}
   else if(m.st==='live'){mid=`<span class="sc live">${m.sc?m.sc.join(' - '):'-'}</span><span class="x lv"><i class="dot"></i>${m.min?esc(String(m.min)):'LIVE'}</span>`;}
   else if(m.st==='off'){mid=`<span class="ko">-</span><span class="x">${esc(m.x).toUpperCase()}</span>`;}
   else{
@@ -298,13 +310,29 @@ async function show(key,quiet){
   for(const m of ms)(groups[m.c]=groups[m.c]||[]).push(m);
   const ids=Object.keys(groups).sort((a,b)=>((INFO.comps[a]||{}).o??999)-((INFO.comps[b]||{}).o??999));
   if(!ids.length){$('list').innerHTML='<div class="empty">No matches in our competitions on this day.</div>';$('count').textContent='';return;}
-  $('list').innerHTML=ids.map(id=>{
+  const section=id=>{
     const c=INFO.comps[id]||{name:'Competition',country:''};
     const flag=c.flag?`<span class="fi fi-${esc(c.flag)}"></span>`:'<span class="glb" aria-hidden="true">&#127760;</span>';
     const link=c.page?`<a href="${esc(c.page)}">TABLE<span class="lk-x"> &amp; RATINGS</span> &rsaquo;</a>`:'';
     const shut=OPEN[id]===false?' shut':'';
     return `<section class="comp${shut}" data-id="${id}" data-q="${esc((c.name+' '+c.country).toLowerCase())}"><div class="comp-h" role="button" tabindex="0" aria-expanded="${!shut}">${flag}<span class="comp-n">${esc(c.name)}</span><span class="comp-c">${esc(c.country)}</span>${link}<span class="chev" aria-hidden="true">&#9662;</span></div><div class="rows">${groups[id].map(row).join('')}</div></section>`;
-  }).join('');
+  };
+  // The top block as it was; everything after it in continent groups,
+  // closed unless opened (OPENC remembers which, for this visit).
+  let html='', cur=null, buf=[], n=0;
+  const flush=()=>{if(cur===null)return;
+    html+=`<div class="cont${OPENC[cur]?' open':''}" data-k="${esc(cur)}"><div class="cont-h" role="button" tabindex="0">`
+      +`<b>${esc(cur)}</b><span>${n} match${n===1?'':'es'}</span><i>&#9662;</i></div><div class="cont-b">${buf.join('')}</div></div>`;
+    buf=[];n=0;};
+  for(const id of ids){
+    const c=INFO.comps[id]||{};
+    if(c.top){html+=section(id);continue;}
+    const k=c.kn||'Other';
+    if(k!==cur){flush();cur=k;}
+    buf.push(section(id));n+=groups[id].length;
+  }
+  flush();
+  $('list').innerHTML=html;
   filter();
 }
 
@@ -371,12 +399,21 @@ function filter(){
     sec.hidden=!any;
     if(q&&any)sec.classList.remove('shut');
   });
+  // A search opens the continent groups with a hit; groups with nothing
+  // left are hidden.
+  document.querySelectorAll('.cont').forEach(ct=>{
+    const any=[...ct.querySelectorAll('.comp')].some(x=>!x.hidden);
+    ct.hidden=!any;
+    if(q)ct.classList.toggle('open',any); else ct.classList.toggle('open',!!OPENC[ct.dataset.k]);
+  });
   $('count').textContent=n?`${n} match${n===1?'':'es'}`:'';
 }
 
 $('list').addEventListener('click',e=>{
   const mr=e.target.closest('.m[data-d]');
   if(mr&&!e.target.closest('a')&&!e.target.closest('.md')){toggleDetails(mr);return;}
+  const ch=e.target.closest('.cont-h');
+  if(ch){const ct=ch.parentElement;ct.classList.toggle('open');OPENC[ct.dataset.k]=ct.classList.contains('open');return;}
   const h=e.target.closest('.comp-h');
   if(!h||e.target.closest('a'))return;
   const sec=h.parentElement;sec.classList.toggle('shut');
@@ -384,7 +421,7 @@ $('list').addEventListener('click',e=>{
   h.setAttribute('aria-expanded',OPEN[sec.dataset.id]);
 });
 $('list').addEventListener('keydown',e=>{
-  if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('comp-h')){e.preventDefault();e.target.click();}
+  if((e.key==='Enter'||e.key===' ')&&(e.target.classList.contains('comp-h')||e.target.classList.contains('cont-h'))){e.preventDefault();e.target.click();}
   else if((e.key==='Enter'||e.key===' ')&&e.target.matches('.m[data-d]')){e.preventDefault();toggleDetails(e.target);}
 });
 $('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(b)show(b.dataset.k);});
