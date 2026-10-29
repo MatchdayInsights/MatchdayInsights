@@ -292,7 +292,7 @@ function row(m){
     const started=ko<new Date();
     mid=`<span class="ko">${m.st==='tbc'?'TBC':esc(time)}</span>${started?'<span class="x">RESULT DUE</span>':''}`;
     if(m.o){
-      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%"><span class="pc"><b>${m.o[0]}%</b></span><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"></span><span style="width:${m.o[1]}%;background:${DRAW}"></span><span style="width:${m.o[2]}%;background:${AWAY}"></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">draw ${m.o[1]}%</span></div>`;
+      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%${m.oe?' (the unranked club is rated by its division)':''}"><span class="pc"><b>${m.o[0]}%</b></span><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"></span><span style="width:${m.o[1]}%;background:${DRAW}"></span><span style="width:${m.o[2]}%;background:${AWAY}"></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">${m.oe?'est. &middot; ':''}draw ${m.o[1]}%</span></div>`;
     }
   }
   if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
