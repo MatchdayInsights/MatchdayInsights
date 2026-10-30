@@ -542,68 +542,145 @@ body .hero-desc,body .hub-sub{letter-spacing:0}
    deepened so text reads on white. */
 @media (prefers-color-scheme: light) {
 
-:root{
+html:not([data-theme="dark"]) {
   --bg:#f5f6f2; --surface:#ffffff; --surface2:#ffffff;
   --border:#e4e6df; --border2:#d9dcd3;
   --text:#14182a; --text2:#4d5470; --muted:#7a8098;
   --green:#1f9a46; --green-dim:#9fd4ae; --red:#d0364f; --gold:#b98a00; --blue:#2f6fb8;
 }
-body{background:var(--bg);color:var(--text)}
-/* header: the dark bar, as on the graphics */
-.site-nav{background:#1a1a2e!important;border-bottom:3px solid #3dba5e!important}
-.site-nav .nav-brand{color:#3dba5e}
-.site-nav .nav-sub{color:#9aa0bd}
-.site-nav .header-right .ig-link{color:#e6e8f2!important;border-color:#33374f!important}
-.site-nav .header-right .ig-link.on,.site-nav .header-right .ig-link:hover{color:#3dba5e!important}
-.site-nav .header-right .ig-link.on::before{background:#3dba5e}
-.site-nav .nav-club{color:#fff}
-@media (max-width:640px){.site-nav .header-right{border-top-color:#2a2e45!important}}
-/* homepage */
-.hero{background:linear-gradient(180deg,#ffffff,#f5f6f2)!important;border-bottom:1px solid var(--border)}
-.hero::before,.hero::after{opacity:.05!important}
-.controls{background:#ffffffee!important;backdrop-filter:blur(6px)}
-tbody tr{border-bottom:1px solid #e9ebe4!important;background:#fff}
-tbody tr:hover{background:#f0f7f2!important}
-tbody tr.top3{background:#eef8f1!important} tbody tr.top10{background:#f7fbf8!important}
-thead tr{background:#f9faf6}
-.change-pill.up{background:#e3f4e8!important}.change-pill.dn{background:#fbe6ea!important}
-.result-badge.W{background:#e3f4e8!important}.result-badge.L{background:#fbe6ea!important}.result-badge.D{background:#eceef4!important}
-.fmatch,.featured-select,.search-input,.filter-select{box-shadow:0 1px 2px rgba(20,24,42,.05)}
-.filter-select{color-scheme:light!important}
-.elo-bar{background:#e4e6df!important}
-.page-btn.active{color:#fff!important}
-.update-chip{background:#e3f4e8!important}
-/* matches page */
-.comp{box-shadow:0 1px 3px rgba(20,24,42,.06)}
-.comp-h{background:#fafbf7!important}
-.days-bar{background:var(--bg)!important}
-.m>.up{color:#b85c00!important;background:#fff3e6!important;border-color:#f3c08a!important}
-.day-btn.on,.dbtn.on{color:#fff!important}
-/* predictions page */
-.motw{background:linear-gradient(135deg,#e6f5ea,#ffffff 60%)!important;border-color:#9fd4ae!important;box-shadow:0 2px 10px rgba(31,154,70,.08)}
-.motw-p div[style*="aab3cc"]{color:#7a8098!important}
-.motw-p div[style*="ff8a8e"]{color:#d0364f!important}
-.mc{box-shadow:0 1px 3px rgba(20,24,42,.06)}
-.mc:hover{box-shadow:0 4px 14px rgba(20,24,42,.08)}
-.tag.g{background:#e3f4e8!important;color:#1f7a3a!important}
-.tag.s{background:#eceef4!important;color:#4d5470!important}
-.tag.o{background:#fff1e3!important;color:#b85c00!important}
-.tag.r{background:#fbe6ea!important;color:#c22f48!important}
-.day.on{color:#fff!important}.day.on small{color:#e6f5ea!important}
-.seg button.on{background:#e3f4e8!important}
-.hub-bar{background:var(--bg)!important}
-.record{box-shadow:0 1px 3px rgba(20,24,42,.06)}
-/* club pages */
-.stat-card,.chart-wrap,.card,.panel{box-shadow:0 1px 3px rgba(20,24,42,.06)}
-/* fixes after the first look */
-.top3 .club-name-text{color:var(--text)!important}
-.featured-select{background:#fff!important;color:var(--text)!important;border-color:var(--border2)!important;color-scheme:light}
-.club-header{background:linear-gradient(135deg,#e6f5ea 0%,rgba(255,255,255,0) 60%)!important;padding:18px 20px 22px;border-radius:12px 12px 0 0}
-.record-box-red{background:#fbe6ea!important}
-.record-box-green{background:#e3f4e8!important}
+html:not([data-theme="dark"]) body {background:var(--bg);color:var(--text)}/* header: the dark bar, as on the graphics */
 
-  .site-nav .header-right { background: #1a1a2e; }
+
+html:not([data-theme="dark"]) .site-nav {background:#1a1a2e!important;border-bottom:3px solid #3dba5e!important}
+html:not([data-theme="dark"]) .site-nav .nav-brand {color:#3dba5e}
+html:not([data-theme="dark"]) .site-nav .nav-sub {color:#9aa0bd}
+html:not([data-theme="dark"]) .site-nav .header-right .ig-link {color:#e6e8f2!important;border-color:#33374f!important}
+html:not([data-theme="dark"]) .site-nav .header-right .ig-link.on, html:not([data-theme="dark"]) .site-nav .header-right .ig-link:hover {color:#3dba5e!important}
+html:not([data-theme="dark"]) .site-nav .header-right .ig-link.on::before {background:#3dba5e}
+html:not([data-theme="dark"]) .site-nav .nav-club {color:#fff}
+@media (max-width:640px) {html:not([data-theme="dark"]) .site-nav .header-right {border-top-color:#2a2e45!important}}/* homepage */
+
+
+html:not([data-theme="dark"]) .hero {background:linear-gradient(180deg,#ffffff,#f5f6f2)!important;border-bottom:1px solid var(--border)}
+html:not([data-theme="dark"]) .hero::before, html:not([data-theme="dark"]) .hero::after {opacity:.05!important}
+html:not([data-theme="dark"]) .controls {background:#ffffffee!important;backdrop-filter:blur(6px)}
+html:not([data-theme="dark"]) tbody tr {border-bottom:1px solid #e9ebe4!important;background:#fff}
+html:not([data-theme="dark"]) tbody tr:hover {background:#f0f7f2!important}
+html:not([data-theme="dark"]) tbody tr.top3 {background:#eef8f1!important} html:not([data-theme="dark"]) tbody tr.top10 {background:#f7fbf8!important}
+html:not([data-theme="dark"]) thead tr {background:#f9faf6}
+html:not([data-theme="dark"]) .change-pill.up {background:#e3f4e8!important}html:not([data-theme="dark"]) .change-pill.dn {background:#fbe6ea!important}
+html:not([data-theme="dark"]) .result-badge.W {background:#e3f4e8!important}html:not([data-theme="dark"]) .result-badge.L {background:#fbe6ea!important}html:not([data-theme="dark"]) .result-badge.D {background:#eceef4!important}
+html:not([data-theme="dark"]) .fmatch, html:not([data-theme="dark"]) .featured-select, html:not([data-theme="dark"]) .search-input, html:not([data-theme="dark"]) .filter-select {box-shadow:0 1px 2px rgba(20,24,42,.05)}
+html:not([data-theme="dark"]) .filter-select {color-scheme:light!important}
+html:not([data-theme="dark"]) .elo-bar {background:#e4e6df!important}
+html:not([data-theme="dark"]) .page-btn.active {color:#fff!important}
+html:not([data-theme="dark"]) .update-chip {background:#e3f4e8!important}/* matches page */
+
+
+html:not([data-theme="dark"]) .comp {box-shadow:0 1px 3px rgba(20,24,42,.06)}
+html:not([data-theme="dark"]) .comp-h {background:#fafbf7!important}
+html:not([data-theme="dark"]) .days-bar {background:var(--bg)!important}
+html:not([data-theme="dark"]) .m>.up {color:#b85c00!important;background:#fff3e6!important;border-color:#f3c08a!important}
+html:not([data-theme="dark"]) .day-btn.on, html:not([data-theme="dark"]) .dbtn.on {color:#fff!important}/* predictions page */
+
+
+html:not([data-theme="dark"]) .motw {background:linear-gradient(135deg,#e6f5ea,#ffffff 60%)!important;border-color:#9fd4ae!important;box-shadow:0 2px 10px rgba(31,154,70,.08)}
+html:not([data-theme="dark"]) .motw-p div[style*="aab3cc"] {color:#7a8098!important}
+html:not([data-theme="dark"]) .motw-p div[style*="ff8a8e"] {color:#d0364f!important}
+html:not([data-theme="dark"]) .mc {box-shadow:0 1px 3px rgba(20,24,42,.06)}
+html:not([data-theme="dark"]) .mc:hover {box-shadow:0 4px 14px rgba(20,24,42,.08)}
+html:not([data-theme="dark"]) .tag.g {background:#e3f4e8!important;color:#1f7a3a!important}
+html:not([data-theme="dark"]) .tag.s {background:#eceef4!important;color:#4d5470!important}
+html:not([data-theme="dark"]) .tag.o {background:#fff1e3!important;color:#b85c00!important}
+html:not([data-theme="dark"]) .tag.r {background:#fbe6ea!important;color:#c22f48!important}
+html:not([data-theme="dark"]) .day.on {color:#fff!important}html:not([data-theme="dark"]) .day.on small {color:#e6f5ea!important}
+html:not([data-theme="dark"]) .seg button.on {background:#e3f4e8!important}
+html:not([data-theme="dark"]) .hub-bar {background:var(--bg)!important}
+html:not([data-theme="dark"]) .record {box-shadow:0 1px 3px rgba(20,24,42,.06)}/* club pages */
+
+
+html:not([data-theme="dark"]) .stat-card, html:not([data-theme="dark"]) .chart-wrap, html:not([data-theme="dark"]) .card, html:not([data-theme="dark"]) .panel {box-shadow:0 1px 3px rgba(20,24,42,.06)}/* fixes after the first look */
+
+
+html:not([data-theme="dark"]) .top3 .club-name-text {color:var(--text)!important}
+html:not([data-theme="dark"]) .featured-select {background:#fff!important;color:var(--text)!important;border-color:var(--border2)!important;color-scheme:light}
+html:not([data-theme="dark"]) .club-header {background:linear-gradient(135deg,#e6f5ea 0%,rgba(255,255,255,0) 60%)!important;padding:18px 20px 22px;border-radius:12px 12px 0 0}
+html:not([data-theme="dark"]) .record-box-red {background:#fbe6ea!important}
+html:not([data-theme="dark"]) .record-box-green {background:#e3f4e8!important}
+
+  html:not([data-theme="dark"]) .site-nav .header-right { background: #1a1a2e; }
 }
+/* chosen with the light/dark button */
+
+
+html[data-theme="light"] {
+  --bg:#f5f6f2; --surface:#ffffff; --surface2:#ffffff;
+  --border:#e4e6df; --border2:#d9dcd3;
+  --text:#14182a; --text2:#4d5470; --muted:#7a8098;
+  --green:#1f9a46; --green-dim:#9fd4ae; --red:#d0364f; --gold:#b98a00; --blue:#2f6fb8;
+}
+html[data-theme="light"] body {background:var(--bg);color:var(--text)}/* header: the dark bar, as on the graphics */
+
+
+html[data-theme="light"] .site-nav {background:#1a1a2e!important;border-bottom:3px solid #3dba5e!important}
+html[data-theme="light"] .site-nav .nav-brand {color:#3dba5e}
+html[data-theme="light"] .site-nav .nav-sub {color:#9aa0bd}
+html[data-theme="light"] .site-nav .header-right .ig-link {color:#e6e8f2!important;border-color:#33374f!important}
+html[data-theme="light"] .site-nav .header-right .ig-link.on, html[data-theme="light"] .site-nav .header-right .ig-link:hover {color:#3dba5e!important}
+html[data-theme="light"] .site-nav .header-right .ig-link.on::before {background:#3dba5e}
+html[data-theme="light"] .site-nav .nav-club {color:#fff}
+@media (max-width:640px) {html[data-theme="light"] .site-nav .header-right {border-top-color:#2a2e45!important}}/* homepage */
+
+
+html[data-theme="light"] .hero {background:linear-gradient(180deg,#ffffff,#f5f6f2)!important;border-bottom:1px solid var(--border)}
+html[data-theme="light"] .hero::before, html[data-theme="light"] .hero::after {opacity:.05!important}
+html[data-theme="light"] .controls {background:#ffffffee!important;backdrop-filter:blur(6px)}
+html[data-theme="light"] tbody tr {border-bottom:1px solid #e9ebe4!important;background:#fff}
+html[data-theme="light"] tbody tr:hover {background:#f0f7f2!important}
+html[data-theme="light"] tbody tr.top3 {background:#eef8f1!important} html[data-theme="light"] tbody tr.top10 {background:#f7fbf8!important}
+html[data-theme="light"] thead tr {background:#f9faf6}
+html[data-theme="light"] .change-pill.up {background:#e3f4e8!important}html[data-theme="light"] .change-pill.dn {background:#fbe6ea!important}
+html[data-theme="light"] .result-badge.W {background:#e3f4e8!important}html[data-theme="light"] .result-badge.L {background:#fbe6ea!important}html[data-theme="light"] .result-badge.D {background:#eceef4!important}
+html[data-theme="light"] .fmatch, html[data-theme="light"] .featured-select, html[data-theme="light"] .search-input, html[data-theme="light"] .filter-select {box-shadow:0 1px 2px rgba(20,24,42,.05)}
+html[data-theme="light"] .filter-select {color-scheme:light!important}
+html[data-theme="light"] .elo-bar {background:#e4e6df!important}
+html[data-theme="light"] .page-btn.active {color:#fff!important}
+html[data-theme="light"] .update-chip {background:#e3f4e8!important}/* matches page */
+
+
+html[data-theme="light"] .comp {box-shadow:0 1px 3px rgba(20,24,42,.06)}
+html[data-theme="light"] .comp-h {background:#fafbf7!important}
+html[data-theme="light"] .days-bar {background:var(--bg)!important}
+html[data-theme="light"] .m>.up {color:#b85c00!important;background:#fff3e6!important;border-color:#f3c08a!important}
+html[data-theme="light"] .day-btn.on, html[data-theme="light"] .dbtn.on {color:#fff!important}/* predictions page */
+
+
+html[data-theme="light"] .motw {background:linear-gradient(135deg,#e6f5ea,#ffffff 60%)!important;border-color:#9fd4ae!important;box-shadow:0 2px 10px rgba(31,154,70,.08)}
+html[data-theme="light"] .motw-p div[style*="aab3cc"] {color:#7a8098!important}
+html[data-theme="light"] .motw-p div[style*="ff8a8e"] {color:#d0364f!important}
+html[data-theme="light"] .mc {box-shadow:0 1px 3px rgba(20,24,42,.06)}
+html[data-theme="light"] .mc:hover {box-shadow:0 4px 14px rgba(20,24,42,.08)}
+html[data-theme="light"] .tag.g {background:#e3f4e8!important;color:#1f7a3a!important}
+html[data-theme="light"] .tag.s {background:#eceef4!important;color:#4d5470!important}
+html[data-theme="light"] .tag.o {background:#fff1e3!important;color:#b85c00!important}
+html[data-theme="light"] .tag.r {background:#fbe6ea!important;color:#c22f48!important}
+html[data-theme="light"] .day.on {color:#fff!important}html[data-theme="light"] .day.on small {color:#e6f5ea!important}
+html[data-theme="light"] .seg button.on {background:#e3f4e8!important}
+html[data-theme="light"] .hub-bar {background:var(--bg)!important}
+html[data-theme="light"] .record {box-shadow:0 1px 3px rgba(20,24,42,.06)}/* club pages */
+
+
+html[data-theme="light"] .stat-card, html[data-theme="light"] .chart-wrap, html[data-theme="light"] .card, html[data-theme="light"] .panel {box-shadow:0 1px 3px rgba(20,24,42,.06)}/* fixes after the first look */
+
+
+html[data-theme="light"] .top3 .club-name-text {color:var(--text)!important}
+html[data-theme="light"] .featured-select {background:#fff!important;color:var(--text)!important;border-color:var(--border2)!important;color-scheme:light}
+html[data-theme="light"] .club-header {background:linear-gradient(135deg,#e6f5ea 0%,rgba(255,255,255,0) 60%)!important;padding:18px 20px 22px;border-radius:12px 12px 0 0}
+html[data-theme="light"] .record-box-red {background:#fbe6ea!important}
+html[data-theme="light"] .record-box-green {background:#e3f4e8!important}
+
+  html[data-theme="light"] .site-nav .header-right { background: #1a1a2e; }
+
 
 /* Browsers don't pass the page font on to buttons, so the matches page's
    day tabs showed in plain Arial (Greg, 2026-10). Buttons that set their
@@ -623,11 +700,19 @@ button { font-family: inherit; }
 
 /* Stronger greys (and a deeper green on white) in both themes. */
 @media (prefers-color-scheme: dark) {
-  :root { --muted: #8189a3; --text2: #a9b0ca; }
+  html:not([data-theme="light"]) { --muted: #8189a3; --text2: #a9b0ca; }
 }
+/* chosen with the light/dark button */
+
+  html[data-theme="dark"] { --muted: #8189a3; --text2: #a9b0ca; }
+
 @media (prefers-color-scheme: light) {
-  :root { --green: #157535; --muted: #575d73; --text2: #343a52; --green-dim: #8ccb9d; }
+  html:not([data-theme="dark"]) { --green: #157535; --muted: #575d73; --text2: #343a52; --green-dim: #8ccb9d; }
 }
+/* chosen with the light/dark button */
+
+  html[data-theme="light"] { --green: #157535; --muted: #575d73; --text2: #343a52; --green-dim: #8ccb9d; }
+
 
 /* The heading all one colour. */
 html body .hero-title, html body .hero-title em { color: var(--green); }
@@ -721,4 +806,17 @@ html body .mc-nm small { font-size: 10.5px; }
   html body .table-wrap th[data-col="elo_change"] { display: none; }
   html body .table-wrap .m-mv { display: block; margin-top: 3px; }
   html body .table-wrap .m-chg { display: block; }
+}
+
+/* CLUB HEADER FIX 2026-10 (Greg: "the logo is pushing everything off to the
+   side" on phones). The star / Compare row had landed in the crest's column,
+   widening it and pushing the name off the screen - which also let the page
+   scroll sideways. That row now spans the full width; on phones the crest
+   sits beside the country and name, with the rank line underneath. */
+html body .club-header.cc > div:has(.star) { grid-column: 1 / -1; }
+@media (max-width: 600px) {
+  html body .club-header.cc { grid-template-columns: 64px minmax(0, 1fr); align-items: center; }
+  html body .club-header.cc .club-crest { grid-row: 1 / 3; width: 64px; height: 64px; }
+  html body .club-header.cc .club-rank { grid-column: 1 / -1; letter-spacing: 1px; margin-top: 10px; line-height: 1.6; }
+  html body .club-header.cc .club-name { font-size: clamp(30px, 9vw, 44px); overflow-wrap: normal; }
 }

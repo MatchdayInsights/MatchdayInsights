@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b9017ea9">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Al Ittihad vs El Geish", "sport": "Soccer", "startDate": "2026-10-30T18:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Alexandria Stadium", "address": {"@type": "PostalAddress", "addressLocality": "Alexandria", "addressCountry": "EG"}}, "homeTeam": {"@type": "SportsTeam", "name": "Al Ittihad"}, "awayTeam": {"@type": "SportsTeam", "name": "El Geish"}, "competitor": [{"@type": "SportsTeam", "name": "Al Ittihad"}, {"@type": "SportsTeam", "name": "El Geish"}], "performer": [{"@type": "SportsTeam", "name": "Al Ittihad"}, {"@type": "SportsTeam", "name": "El Geish"}], "organizer": {"@type": "SportsOrganization", "name": "Premier League"}, "description": "Al Ittihad vs El Geish prediction for Friday 30 October 2026: our model gives Al Ittihad 49%, a draw 26% and El Geish 24%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/al-ittihad-vs-el-geish-2026-10-30.html", "endDate": "2026-10-30T20:00:00+00:00"}</script>
 
 <style>
@@ -278,10 +305,10 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
+<!-- match-page-v3 -->
 <div class='sb'><div class='sb-meta'>Premier League &middot; Regular Season - 8</div><div class='sb-row'><a class='sb-t' href='../clubs/al-ittihad.html'><img src='../crests/1572.png' alt='' onerror='this.remove()'><span>Al Ittihad</span><small>#451 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-10-30T18:00:00+00:00' data-f='t'>18:00 UTC</div><div class='sb-st'><span data-k='2026-10-30T18:00:00+00:00' data-f='d'>Fri 30 Oct</span></div></div><a class='sb-t' href='../clubs/el-geish.html'><img src='../crests/1039.png' alt='' onerror='this.remove()'><span>El Geish</span><small>#674 in the world</small></a></div></div><h1 class='sb-h1'>Al Ittihad vs El Geish prediction &amp; odds</h1>
 
-<div class="mpanel" id="tab-p">
+<div class="mtabs"><button type="button" data-t="p" class="on">Preview</button><button type="button" data-t="t">Table</button></div><div class="mpanel" id="tab-p">
 <p>Al Ittihad host El Geish in the Premier League (round 8) on Friday 30 October 2026. Al Ittihad are #451 in our world ranking and have won 3 and lost 2 of their last 5; El Geish are #674 and have drawn 1 and lost 4 of their last 5. On paper that's a big gap - 223 places - in Al Ittihad's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Al Ittihad the favourites at 49%, with a draw at 26% and El Geish at 24%.</p>
@@ -304,6 +331,7 @@ sits on the same scale. Before each match the two ratings, adjusted for home adv
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Premier League</div><div class='mt-scroll'><table class='mt'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class=''><td>1</td><td class='l cl'><img src='../crests/1036.png' alt='' onerror='this.remove()'><a href='../clubs/pyramids-fc.html'>Pyramids FC</a></td><td>8</td><td class='opt'>8</td><td class='opt'>0</td><td class='opt'>0</td><td>15</td><td class='pts'>24</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/1577.png' alt='' onerror='this.remove()'><a href='../clubs/al-ahly.html'>Al Ahly</a></td><td>8</td><td class='opt'>6</td><td class='opt'>2</td><td class='opt'>0</td><td>9</td><td class='pts'>20</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/1040.png' alt='' onerror='this.remove()'><a href='../clubs/zamalek-sc.html'>Zamalek SC</a></td><td>8</td><td class='opt'>6</td><td class='opt'>1</td><td class='opt'>1</td><td>7</td><td class='pts'>19</td></tr><tr class=''><td>4</td><td class='l cl'><img src='../crests/14651.png' alt='' onerror='this.remove()'><a href='../clubs/ceramica-cleopatra.html'>Ceramica Cleopatra</a></td><td>7</td><td class='opt'>5</td><td class='opt'>0</td><td class='opt'>2</td><td>6</td><td class='pts'>15</td></tr><tr class='us'><td>5</td><td class='l cl'><img src='../crests/1572.png' alt='' onerror='this.remove()'><a href='../clubs/al-ittihad.html'>Al Ittihad</a></td><td>7</td><td class='opt'>4</td><td class='opt'>1</td><td class='opt'>2</td><td>3</td><td class='pts'>13</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/16431.png' alt='' onerror='this.remove()'><a href='../clubs/future-fc.html'>Future FC</a></td><td>8</td><td class='opt'>4</td><td class='opt'>1</td><td class='opt'>3</td><td>2</td><td class='pts'>13</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/1575.png' alt='' onerror='this.remove()'><a href='../clubs/el-mokawloon.html'>El Mokawloon</a></td><td>8</td><td class='opt'>3</td><td class='opt'>2</td><td class='opt'>3</td><td>3</td><td class='pts'>11</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/15570.png' alt='' onerror='this.remove()'><a href='../clubs/national-bank-of-egypt.html'>National Bank of Egypt</a></td><td>8</td><td class='opt'>3</td><td class='opt'>2</td><td class='opt'>3</td><td>0</td><td class='pts'>11</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/7520.png' alt='' onerror='this.remove()'><a href='../clubs/masr.html'>Masr</a></td><td>7</td><td class='opt'>3</td><td class='opt'>2</td><td class='opt'>2</td><td>0</td><td class='pts'>11</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/1044.png' alt='' onerror='this.remove()'><a href='../clubs/smouha-sc.html'>Smouha SC</a></td><td>7</td><td class='opt'>3</td><td class='opt'>1</td><td class='opt'>3</td><td>0</td><td class='pts'>10</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/1031.png' alt='' onerror='this.remove()'><a href='../clubs/al-masry.html'>AL Masry</a></td><td>8</td><td class='opt'>2</td><td class='opt'>3</td><td class='opt'>3</td><td>-2</td><td class='pts'>9</td></tr><tr class=''><td>12</td><td class='l cl'><img src='../crests/13822.png' alt='' onerror='this.remove()'><a href='../clubs/olympic-el-qanah.html'>Olympic El Qanah</a></td><td>7</td><td class='opt'>1</td><td class='opt'>5</td><td class='opt'>1</td><td>0</td><td class='pts'>8</td></tr><tr class=''><td>13</td><td class='l cl'><img src='../crests/1041.png' alt='' onerror='this.remove()'><a href='../clubs/petrojet.html'>Petrojet</a></td><td>7</td><td class='opt'>2</td><td class='opt'>2</td><td class='opt'>3</td><td>-2</td><td class='pts'>8</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/1046.png' alt='' onerror='this.remove()'><a href='../clubs/wadi-degla.html'>Wadi Degla</a></td><td>8</td><td class='opt'>1</td><td class='opt'>4</td><td class='opt'>3</td><td>-2</td><td class='pts'>7</td></tr><tr class='us'><td>15</td><td class='l cl'><img src='../crests/1039.png' alt='' onerror='this.remove()'><a href='../clubs/el-geish.html'>El Geish</a></td><td>7</td><td class='opt'>2</td><td class='opt'>1</td><td class='opt'>4</td><td>-6</td><td class='pts'>7</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/18021.png' alt='' onerror='this.remove()'><a href='../clubs/asyut-petrol.html'>Asyut Petrol</a></td><td>7</td><td class='opt'>1</td><td class='opt'>2</td><td class='opt'>4</td><td>-4</td><td class='pts'>5</td></tr><tr class=''><td>17</td><td class='l cl'><img src='../crests/1037.png' alt='' onerror='this.remove()'><a href='../clubs/enppi.html'>Enppi</a></td><td>7</td><td class='opt'>1</td><td class='opt'>1</td><td class='opt'>5</td><td>-7</td><td class='pts'>4</td></tr><tr class=''><td>18</td><td class='l cl'><img src='../crests/13819.png' alt='' onerror='this.remove()'><a href='../clubs/ghazl-el-mehalla.html'>Ghazl El Mehalla</a></td><td>7</td><td class='opt'>1</td><td class='opt'>1</td><td class='opt'>5</td><td>-8</td><td class='pts'>4</td></tr><tr class=''><td>19</td><td class='l cl'><img src='../crests/15731.png' alt='' onerror='this.remove()'><a href='../clubs/abu-qair-semad.html'>Abu Qair Semad</a></td><td>7</td><td class='opt'>1</td><td class='opt'>1</td><td class='opt'>5</td><td>-8</td><td class='pts'>4</td></tr><tr class=''><td>20</td><td class='l cl'><img src='../crests/1574.png' alt='' onerror='this.remove()'><a href='../clubs/el-gouna-fc.html'>El Gouna FC</a></td><td>7</td><td class='opt'>0</td><td class='opt'>2</td><td class='opt'>5</td><td>-6</td><td class='pts'>2</td></tr></table></div></div>
 </div>
 <script>
 (function(){

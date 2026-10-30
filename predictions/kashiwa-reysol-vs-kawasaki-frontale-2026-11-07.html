@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b9017ea9">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Kashiwa Reysol vs Kawasaki Frontale", "sport": "Soccer", "startDate": "2026-11-07T07:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Sankyo Frontier Kashiwa Stadium", "address": {"@type": "PostalAddress", "addressLocality": "Kashiwa City", "addressCountry": "JP"}}, "homeTeam": {"@type": "SportsTeam", "name": "Kashiwa Reysol"}, "awayTeam": {"@type": "SportsTeam", "name": "Kawasaki Frontale"}, "competitor": [{"@type": "SportsTeam", "name": "Kashiwa Reysol"}, {"@type": "SportsTeam", "name": "Kawasaki Frontale"}], "performer": [{"@type": "SportsTeam", "name": "Kashiwa Reysol"}, {"@type": "SportsTeam", "name": "Kawasaki Frontale"}], "organizer": {"@type": "SportsOrganization", "name": "J1 League"}, "description": "Kashiwa Reysol vs Kawasaki Frontale prediction for Saturday 07 November 2026: our model gives Kashiwa Reysol 44%, a draw 28% and Kawasaki Frontale 28%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/kashiwa-reysol-vs-kawasaki-frontale-2026-11-07.html", "endDate": "2026-11-07T09:00:00+00:00"}</script>
 
 <style>
@@ -278,10 +305,10 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
+<!-- match-page-v3 -->
 <div class='sb'><div class='sb-meta'>J1 League &middot; Regular Season - 14</div><div class='sb-row'><a class='sb-t' href='../clubs/kashiwa-reysol.html'><img src='../crests/281.png' alt='' onerror='this.remove()'><span>Kashiwa Reysol</span><small>#250 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-07T07:00:00+00:00' data-f='t'>07:00 UTC</div><div class='sb-st'><span data-k='2026-11-07T07:00:00+00:00' data-f='d'>Sat 07 Nov</span></div></div><a class='sb-t' href='../clubs/kawasaki-frontale.html'><img src='../crests/294.png' alt='' onerror='this.remove()'><span>Kawasaki Frontale</span><small>#285 in the world</small></a></div></div><h1 class='sb-h1'>Kashiwa Reysol vs Kawasaki Frontale prediction &amp; odds</h1>
 
-<div class="mpanel" id="tab-p">
+<div class="mtabs"><button type="button" data-t="p" class="on">Preview</button><button type="button" data-t="t">Table</button></div><div class="mpanel" id="tab-p">
 <p>Kashiwa Reysol host Kawasaki Frontale in the J1 League (round 14) on Saturday 07 November 2026. Kashiwa Reysol are #250 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Kawasaki Frontale are #285 and have won all of their last 5.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Kashiwa Reysol the favourites at 44%, with a draw at 28% and Kawasaki Frontale at 28%.</p>
@@ -304,6 +331,7 @@ sits on the same scale. Before each match the two ratings, adjusted for home adv
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>J-League</div><div class='mt-scroll'><table class='mt'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class=''><td>1</td><td class='l cl'><img src='../crests/303.png' alt='' onerror='this.remove()'><a href='../clubs/machida-zelvia.html'>Machida Zelvia</a></td><td>12</td><td class='opt'>8</td><td class='opt'>3</td><td class='opt'>1</td><td>20</td><td class='pts'>27</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/292.png' alt='' onerror='this.remove()'><a href='../clubs/fc-tokyo.html'>FC Tokyo</a></td><td>12</td><td class='opt'>8</td><td class='opt'>3</td><td class='opt'>1</td><td>19</td><td class='pts'>27</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/282.png' alt='' onerror='this.remove()'><a href='../clubs/sanfrecce-hiroshima.html'>Sanfrecce Hiroshima</a></td><td>12</td><td class='opt'>8</td><td class='opt'>2</td><td class='opt'>2</td><td>19</td><td class='pts'>26</td></tr><tr class='us'><td>4</td><td class='l cl'><img src='../crests/281.png' alt='' onerror='this.remove()'><a href='../clubs/kashiwa-reysol.html'>Kashiwa Reysol</a></td><td>12</td><td class='opt'>8</td><td class='opt'>1</td><td class='opt'>3</td><td>6</td><td class='pts'>25</td></tr><tr class=''><td>5</td><td class='l cl'><img src='../crests/289.png' alt='' onerror='this.remove()'><a href='../clubs/vissel-kobe.html'>Vissel Kobe</a></td><td>12</td><td class='opt'>7</td><td class='opt'>2</td><td class='opt'>3</td><td>7</td><td class='pts'>23</td></tr><tr class='us'><td>6</td><td class='l cl'><img src='../crests/294.png' alt='' onerror='this.remove()'><a href='../clubs/kawasaki-frontale.html'>Kawasaki Frontale</a></td><td>12</td><td class='opt'>6</td><td class='opt'>4</td><td class='opt'>2</td><td>7</td><td class='pts'>22</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/287.png' alt='' onerror='this.remove()'><a href='../clubs/urawa.html'>Urawa</a></td><td>12</td><td class='opt'>7</td><td class='opt'>0</td><td class='opt'>5</td><td>-2</td><td class='pts'>21</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/290.png' alt='' onerror='this.remove()'><a href='../clubs/kashima.html'>Kashima</a></td><td>12</td><td class='opt'>6</td><td class='opt'>2</td><td class='opt'>4</td><td>4</td><td class='pts'>20</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/296.png' alt='' onerror='this.remove()'><a href='../clubs/yokohama-f-marinos.html'>Yokohama F. Marinos</a></td><td>12</td><td class='opt'>4</td><td class='opt'>6</td><td class='opt'>2</td><td>4</td><td class='pts'>18</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/310.png' alt='' onerror='this.remove()'><a href='../clubs/fagiano-okayama.html'>Fagiano Okayama</a></td><td>12</td><td class='opt'>5</td><td class='opt'>1</td><td class='opt'>6</td><td>-2</td><td class='pts'>16</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/288.png' alt='' onerror='this.remove()'><a href='../clubs/nagoya-grampus.html'>Nagoya Grampus</a></td><td>12</td><td class='opt'>4</td><td class='opt'>2</td><td class='opt'>6</td><td>-4</td><td class='pts'>14</td></tr><tr class=''><td>12</td><td class='l cl'><img src='../crests/291.png' alt='' onerror='this.remove()'><a href='../clubs/cerezo-osaka.html'>Cerezo Osaka</a></td><td>12</td><td class='opt'>3</td><td class='opt'>5</td><td class='opt'>4</td><td>-7</td><td class='pts'>14</td></tr><tr class=''><td>13</td><td class='l cl'><img src='../crests/283.png' alt='' onerror='this.remove()'><a href='../clubs/shimizu-s-pulse.html'>Shimizu S-pulse</a></td><td>12</td><td class='opt'>4</td><td class='opt'>2</td><td class='opt'>6</td><td>-10</td><td class='pts'>14</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/285.png' alt='' onerror='this.remove()'><a href='../clubs/v-varen-nagasaki.html'>V-varen Nagasaki</a></td><td>12</td><td class='opt'>3</td><td class='opt'>3</td><td class='opt'>6</td><td>-4</td><td class='pts'>12</td></tr><tr class=''><td>15</td><td class='l cl'><img src='../crests/293.png' alt='' onerror='this.remove()'><a href='../clubs/gamba-osaka.html'>Gamba Osaka</a></td><td>12</td><td class='opt'>2</td><td class='opt'>5</td><td class='opt'>5</td><td>-7</td><td class='pts'>11</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/302.png' alt='' onerror='this.remove()'><a href='../clubs/kyoto-sanga.html'>Kyoto Sanga</a></td><td>12</td><td class='opt'>2</td><td class='opt'>4</td><td class='opt'>6</td><td>-8</td><td class='pts'>10</td></tr><tr class=''><td>17</td><td class='l cl'><img src='../crests/305.png' alt='' onerror='this.remove()'><a href='../clubs/mito-hollyhock.html'>Mito Hollyhock</a></td><td>12</td><td class='opt'>2</td><td class='opt'>3</td><td class='opt'>7</td><td>-10</td><td class='pts'>9</td></tr><tr class=''><td>18</td><td class='l cl'><img src='../crests/306.png' alt='' onerror='this.remove()'><a href='../clubs/tokyo-verdy.html'>Tokyo Verdy</a></td><td>12</td><td class='opt'>1</td><td class='opt'>5</td><td class='opt'>6</td><td>-12</td><td class='pts'>8</td></tr><tr class=''><td>19</td><td class='l cl'><img src='../crests/316.png' alt='' onerror='this.remove()'><a href='../clubs/avispa-fukuoka.html'>Avispa Fukuoka</a></td><td>12</td><td class='opt'>2</td><td class='opt'>1</td><td class='opt'>9</td><td>-8</td><td class='pts'>7</td></tr><tr class=''><td>20</td><td class='l cl'><img src='../crests/301.png' alt='' onerror='this.remove()'><a href='../clubs/jef-united-chiba.html'>JEF United Chiba</a></td><td>12</td><td class='opt'>1</td><td class='opt'>4</td><td class='opt'>7</td><td>-12</td><td class='pts'>7</td></tr></table></div></div>
 </div>
 <script>
 (function(){

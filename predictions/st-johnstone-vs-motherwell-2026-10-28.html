@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "ST Johnstone vs Motherwell", "sport": "Soccer", "startDate": "2026-10-28T19:45:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "McDiarmid Park", "address": {"@type": "PostalAddress", "addressLocality": "Perth", "addressCountry": "GB"}}, "homeTeam": {"@type": "SportsTeam", "name": "ST Johnstone"}, "awayTeam": {"@type": "SportsTeam", "name": "Motherwell"}, "competitor": [{"@type": "SportsTeam", "name": "ST Johnstone"}, {"@type": "SportsTeam", "name": "Motherwell"}], "performer": [{"@type": "SportsTeam", "name": "ST Johnstone"}, {"@type": "SportsTeam", "name": "Motherwell"}], "organizer": {"@type": "SportsOrganization", "name": "Premiership"}, "description": "ST Johnstone vs Motherwell prediction for Wednesday 28 October 2026: our model gives ST Johnstone 41%, a draw 29% and Motherwell 31%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/st-johnstone-vs-motherwell-2026-10-28.html", "endDate": "2026-10-28T21:45:00+00:00"}</script>
 
 <style>
@@ -278,10 +305,10 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
+<!-- match-page-v3 -->
 <div class='sb'><div class='sb-meta'>Premiership &middot; Regular Season - 11</div><div class='sb-row'><a class='sb-t' href='../clubs/st-johnstone.html'><img src='../crests/258.png' alt='' onerror='this.remove()'><span>ST Johnstone</span><small>#825 in the world</small></a><div class='sb-mid'><div class='sb-score'>2 - 2</div><div class='sb-st'>Full time</div></div><a class='sb-t' href='../clubs/motherwell.html'><img src='../crests/256.png' alt='' onerror='this.remove()'><span>Motherwell</span><small>#767 in the world</small></a></div></div><h1 class='sb-h1'>ST Johnstone vs Motherwell prediction &amp; odds</h1>
 <div class='verdict'><b>Full time: ST Johnstone 2-2 Motherwell.</b> We had ST Johnstone as the most likely result at 41% - and it went the other way. The chance we gave the actual result: 29%.</div>
-<div class="mtabs"><button type="button" data-t="m" class="on">Match</button><button type="button" data-t="p">Preview</button></div><div class="mpanel mf" id="tab-m" data-fid="1556692" data-h="ST Johnstone" data-a="Motherwell"><div class="none">Loading&hellip;</div></div><div class="mpanel" id="tab-p" hidden>
+<div class="mtabs"><button type="button" data-t="m" class="on">Match</button><button type="button" data-t="t">Table</button><button type="button" data-t="p">Preview</button></div><div class="mpanel mf" id="tab-m" data-fid="1556692" data-h="ST Johnstone" data-a="Motherwell"><div class="none">Loading&hellip;</div></div><div class="mpanel" id="tab-p" hidden>
 <p>ST Johnstone host Motherwell in the Premiership (round 11) on Wednesday 28 October 2026. ST Johnstone are #825 in our world ranking and have won 1, drawn 3 and lost 1 of their last 5; Motherwell are #767 and have drawn 1 and lost 4 of their last 5.</p>
 <h2>Our prediction</h2>
 <p>Our model sees ST Johnstone v Motherwell as close to a coin flip: ST Johnstone 41%, a draw 29%, Motherwell 31%.</p>
@@ -304,6 +331,7 @@ sits on the same scale. Before each match the two ratings, adjusted for home adv
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Premier League</div><div class='mt-scroll'><table class='mt'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class=''><td>1</td><td class='l cl'><img src='../crests/247.png' alt='' onerror='this.remove()'><a href='../clubs/celtic.html'>Celtic</a></td><td>11</td><td class='opt'>9</td><td class='opt'>1</td><td class='opt'>1</td><td>19</td><td class='pts'>28</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/257.png' alt='' onerror='this.remove()'><a href='../clubs/rangers-sco.html'>Rangers</a></td><td>11</td><td class='opt'>7</td><td class='opt'>3</td><td class='opt'>1</td><td>10</td><td class='pts'>24</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/254.png' alt='' onerror='this.remove()'><a href='../clubs/heart-of-midlothian.html'>Heart Of Midlothian</a></td><td>11</td><td class='opt'>6</td><td class='opt'>2</td><td class='opt'>3</td><td>7</td><td class='pts'>20</td></tr><tr class=''><td>4</td><td class='l cl'><img src='../crests/253.png' alt='' onerror='this.remove()'><a href='../clubs/dundee.html'>Dundee</a></td><td>11</td><td class='opt'>5</td><td class='opt'>2</td><td class='opt'>4</td><td>4</td><td class='pts'>17</td></tr><tr class=''><td>5</td><td class='l cl'><img src='../crests/1386.png' alt='' onerror='this.remove()'><a href='../clubs/dundee-utd.html'>Dundee Utd</a></td><td>11</td><td class='opt'>4</td><td class='opt'>4</td><td class='opt'>3</td><td>0</td><td class='pts'>16</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/1389.png' alt='' onerror='this.remove()'><a href='../clubs/falkirk.html'>Falkirk</a></td><td>11</td><td class='opt'>4</td><td class='opt'>3</td><td class='opt'>4</td><td>1</td><td class='pts'>15</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/251.png' alt='' onerror='this.remove()'><a href='../clubs/st-mirren.html'>ST Mirren</a></td><td>11</td><td class='opt'>4</td><td class='opt'>2</td><td class='opt'>5</td><td>-7</td><td class='pts'>14</td></tr><tr class='us'><td>8</td><td class='l cl'><img src='../crests/258.png' alt='' onerror='this.remove()'><a href='../clubs/st-johnstone.html'>ST Johnstone</a></td><td>11</td><td class='opt'>3</td><td class='opt'>4</td><td class='opt'>4</td><td>-4</td><td class='pts'>13</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/252.png' alt='' onerror='this.remove()'><a href='../clubs/aberdeen.html'>Aberdeen</a></td><td>11</td><td class='opt'>3</td><td class='opt'>2</td><td class='opt'>6</td><td>-2</td><td class='pts'>11</td></tr><tr class='us'><td>10</td><td class='l cl'><img src='../crests/256.png' alt='' onerror='this.remove()'><a href='../clubs/motherwell.html'>Motherwell</a></td><td>11</td><td class='opt'>2</td><td class='opt'>3</td><td class='opt'>6</td><td>-7</td><td class='pts'>9</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/249.png' alt='' onerror='this.remove()'><a href='../clubs/hibernian.html'>Hibernian</a></td><td>11</td><td class='opt'>2</td><td class='opt'>2</td><td class='opt'>7</td><td>-6</td><td class='pts'>8</td></tr><tr class=''><td>12</td><td class='l cl'><img src='../crests/250.png' alt='' onerror='this.remove()'><a href='../clubs/kilmarnock.html'>Kilmarnock</a></td><td>11</td><td class='opt'>2</td><td class='opt'>2</td><td class='opt'>7</td><td>-15</td><td class='pts'>8</td></tr></table></div></div>
 </div>
 <script>
 (function(){

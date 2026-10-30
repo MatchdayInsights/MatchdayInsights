@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b9017ea9">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Baltika vs Akron", "sport": "Soccer", "startDate": "2026-11-01T14:30:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Rostec Arena", "address": {"@type": "PostalAddress", "addressLocality": "Kaliningrad", "addressCountry": "RU"}}, "homeTeam": {"@type": "SportsTeam", "name": "Baltika"}, "awayTeam": {"@type": "SportsTeam", "name": "Akron"}, "competitor": [{"@type": "SportsTeam", "name": "Baltika"}, {"@type": "SportsTeam", "name": "Akron"}], "performer": [{"@type": "SportsTeam", "name": "Baltika"}, {"@type": "SportsTeam", "name": "Akron"}], "organizer": {"@type": "SportsOrganization", "name": "Premier League"}, "description": "Baltika vs Akron prediction for Sunday 01 November 2026: our model gives Baltika 54%, a draw 25% and Akron 21%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/baltika-vs-akron-2026-11-01.html", "endDate": "2026-11-01T16:30:00+00:00"}</script>
 
 <style>
@@ -278,11 +305,11 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
-<div class='sb'><div class='sb-meta'>Premier League &middot; Regular Season - 13</div><div class='sb-row'><a class='sb-t' href='../clubs/baltika.html'><img src='../crests/2006.png' alt='' onerror='this.remove()'><span>Baltika</span><small>#692 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-01T14:30:00+00:00' data-f='t'>14:30 UTC</div><div class='sb-st'><span data-k='2026-11-01T14:30:00+00:00' data-f='d'>Sun 01 Nov</span></div></div><a class='sb-t' href='../clubs/akron.html'><img src='../crests/6786.png' alt='' onerror='this.remove()'><span>Akron</span><small>#1,182 in the world</small></a></div></div><h1 class='sb-h1'>Baltika vs Akron prediction &amp; odds</h1>
+<!-- match-page-v3 -->
+<div class='sb'><div class='sb-meta'>Premier League &middot; Regular Season - 13</div><div class='sb-row'><a class='sb-t' href='../clubs/baltika.html'><img src='../crests/2006.png' alt='' onerror='this.remove()'><span>Baltika</span><small>#692 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-01T14:30:00+00:00' data-f='t'>14:30 UTC</div><div class='sb-st'><span data-k='2026-11-01T14:30:00+00:00' data-f='d'>Sun 01 Nov</span></div></div><a class='sb-t' href='../clubs/akron.html'><img src='../crests/6786.png' alt='' onerror='this.remove()'><span>Akron</span><small>#1,183 in the world</small></a></div></div><h1 class='sb-h1'>Baltika vs Akron prediction &amp; odds</h1>
 
-<div class="mpanel" id="tab-p">
-<p>Baltika host Akron in the Premier League (round 13) on Sunday 01 November 2026. Baltika are #692 in our world ranking and have won 1, drawn 3 and lost 1 of their last 5; Akron are #1,182 and have won 1, drawn 2 and lost 2 of their last 5. On paper that's a big gap - 490 places - in Baltika's favour.</p>
+<div class="mtabs"><button type="button" data-t="p" class="on">Preview</button><button type="button" data-t="t">Table</button></div><div class="mpanel" id="tab-p">
+<p>Baltika host Akron in the Premier League (round 13) on Sunday 01 November 2026. Baltika are #692 in our world ranking and have won 1, drawn 3 and lost 1 of their last 5; Akron are #1,183 and have won 1, drawn 2 and lost 2 of their last 5. On paper that's a big gap - 491 places - in Baltika's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Baltika the favourites at 54%, with a draw at 25% and Akron at 21%.</p>
 <div class='oddsbar'><i style='width:54.3%;background:#1f9a46'></i><i style='width:24.7%;background:#5a6888'></i><i style='width:21.1%;background:#d43c44'></i></div>
@@ -290,20 +317,21 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <span>Draw 25%</span><span style="color:#d43c44">Akron 21%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/baltika.html'>Baltika</a></div><div class='st'>World rank: <b>#692</b><br>Rating: <b>1036</b><br>Chance to win: <b>54%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Zenit'>L</span><span class='chip' style='background:#5a6888' title='FC Krasnodar'>D</span><span class='chip' style='background:#5a6888' title='FC Rostov'>D</span><span class='chip' style='background:#1f9a46' title='Krylia Sovetov'>W</span><span class='chip' style='background:#5a6888' title='Akhmat'>D</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/akron.html'>Akron</a></div><div class='st'>World rank: <b>#1182</b><br>Rating: <b>930</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='FC Rostov'>L</span><span class='chip' style='background:#1f9a46' title='Dynamo'>W</span><span class='chip' style='background:#5a6888' title='Dinamo Makhachkala'>D</span><span class='chip' style='background:#5a6888' title='Lokomotiv'>D</span><span class='chip' style='background:#d43c44' title='FC Rostov'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/akron.html'>Akron</a></div><div class='st'>World rank: <b>#1183</b><br>Rating: <b>930</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='FC Rostov'>L</span><span class='chip' style='background:#1f9a46' title='Dynamo'>W</span><span class='chip' style='background:#5a6888' title='Dinamo Makhachkala'>D</span><span class='chip' style='background:#5a6888' title='Lokomotiv'>D</span><span class='chip' style='background:#d43c44' title='FC Rostov'>L</span></div></div>
 </div>
 <h2>Who will win Baltika vs Akron?</h2>
-<p>Baltika are #692 and Akron #1182 in our world ranking of
+<p>Baltika are #692 and Akron #1183 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Baltika</b> (54%). More from the <a href='../leagues/russia-premier-league.html'>Premier League</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-27</td><td>Baltika v Akron</td><td class='r'><b>0-1</b></td></tr><tr><td>2025-10-01</td><td>Baltika v Akron</td><td class='r'><b>3-0</b></td></tr><tr><td>2025-08-31</td><td>Akron v Baltika</td><td class='r'><b>0-2</b></td></tr><tr><td>2025-07-29</td><td>Akron v Baltika</td><td class='r'><b>2-1</b></td></tr><tr><td>2023-03-19</td><td>Baltika v Akron</td><td class='r'><b>1-1</b></td></tr></table>
-<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>7</td><td>FC Rostov</td><td class='r'>12</td><td class='r'>15</td><td class='r'>#680</td></tr><tr class=''><td>8</td><td>Krylia Sovetov</td><td class='r'>12</td><td class='r'>15</td><td class='r'>#836</td></tr><tr class='hi'><td>9</td><td>Baltika</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#692</td></tr><tr class=''><td>10</td><td>Dinamo Makhachkala</td><td class='r'>12</td><td class='r'>13</td><td class='r'>#1297</td></tr><tr class=''><td>11</td><td>Rubin</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#1060</td></tr><tr class='hi'><td>12</td><td>Akron</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#1182</td></tr><tr class=''><td>13</td><td>Lokomotiv</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#721</td></tr><tr class=''><td>14</td><td>Akhmat</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#1040</td></tr></table>
+<h2>Premier League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>7</td><td>FC Rostov</td><td class='r'>12</td><td class='r'>15</td><td class='r'>#680</td></tr><tr class=''><td>8</td><td>Krylia Sovetov</td><td class='r'>12</td><td class='r'>15</td><td class='r'>#836</td></tr><tr class='hi'><td>9</td><td>Baltika</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#692</td></tr><tr class=''><td>10</td><td>Dinamo Makhachkala</td><td class='r'>12</td><td class='r'>13</td><td class='r'>#1297</td></tr><tr class=''><td>11</td><td>Rubin</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#1060</td></tr><tr class='hi'><td>12</td><td>Akron</td><td class='r'>12</td><td class='r'>12</td><td class='r'>#1183</td></tr><tr class=''><td>13</td><td>Lokomotiv</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#721</td></tr><tr class=''><td>14</td><td>Akhmat</td><td class='r'>12</td><td class='r'>11</td><td class='r'>#1040</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Premier League</div><div class='mt-scroll'><table class='mt'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class=''><td>1</td><td class='l cl'><img src='../crests/596.png' alt='' onerror='this.remove()'><a href='../clubs/zenit.html'>Zenit</a></td><td>12</td><td class='opt'>9</td><td class='opt'>0</td><td class='opt'>3</td><td>14</td><td class='pts'>27</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/1088.png' alt='' onerror='this.remove()'><a href='../clubs/dynamo.html'>Dynamo</a></td><td>12</td><td class='opt'>8</td><td class='opt'>1</td><td class='opt'>3</td><td>7</td><td class='pts'>25</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/555.png' alt='' onerror='this.remove()'><a href='../clubs/cska-moscow.html'>CSKA Moscow</a></td><td>12</td><td class='opt'>7</td><td class='opt'>4</td><td class='opt'>1</td><td>9</td><td class='pts'>25</td></tr><tr class=''><td>4</td><td class='l cl'><img src='../crests/621.png' alt='' onerror='this.remove()'><a href='../clubs/fc-krasnodar.html'>FC Krasnodar</a></td><td>12</td><td class='opt'>6</td><td class='opt'>5</td><td class='opt'>1</td><td>6</td><td class='pts'>23</td></tr><tr class=''><td>5</td><td class='l cl'><img src='../crests/558.png' alt='' onerror='this.remove()'><a href='../clubs/spartak-moscow.html'>Spartak Moscow</a></td><td>12</td><td class='opt'>7</td><td class='opt'>2</td><td class='opt'>3</td><td>11</td><td class='pts'>23</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/1080.png' alt='' onerror='this.remove()'><a href='../clubs/fc-orenburg.html'>FC Orenburg</a></td><td>12</td><td class='opt'>3</td><td class='opt'>7</td><td class='opt'>2</td><td>2</td><td class='pts'>16</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/779.png' alt='' onerror='this.remove()'><a href='../clubs/fc-rostov.html'>FC Rostov</a></td><td>12</td><td class='opt'>4</td><td class='opt'>3</td><td class='opt'>5</td><td>-4</td><td class='pts'>15</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/1079.png' alt='' onerror='this.remove()'><a href='../clubs/krylia-sovetov.html'>Krylia Sovetov</a></td><td>12</td><td class='opt'>3</td><td class='opt'>6</td><td class='opt'>3</td><td>0</td><td class='pts'>15</td></tr><tr class='us'><td>9</td><td class='l cl'><img src='../crests/2006.png' alt='' onerror='this.remove()'><a href='../clubs/baltika.html'>Baltika</a></td><td>12</td><td class='opt'>3</td><td class='opt'>5</td><td class='opt'>4</td><td>2</td><td class='pts'>14</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/6813.png' alt='' onerror='this.remove()'><a href='../clubs/dinamo-makhachkala.html'>Dinamo Makhachkala</a></td><td>12</td><td class='opt'>4</td><td class='opt'>1</td><td class='opt'>7</td><td>-7</td><td class='pts'>13</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/1083.png' alt='' onerror='this.remove()'><a href='../clubs/rubin.html'>Rubin</a></td><td>12</td><td class='opt'>2</td><td class='opt'>6</td><td class='opt'>4</td><td>-6</td><td class='pts'>12</td></tr><tr class='us'><td>12</td><td class='l cl'><img src='../crests/6786.png' alt='' onerror='this.remove()'><a href='../clubs/akron.html'>Akron</a></td><td>12</td><td class='opt'>2</td><td class='opt'>6</td><td class='opt'>4</td><td>-6</td><td class='pts'>12</td></tr><tr class=''><td>13</td><td class='l cl'><img src='../crests/597.png' alt='' onerror='this.remove()'><a href='../clubs/lokomotiv-rus.html'>Lokomotiv</a></td><td>12</td><td class='opt'>2</td><td class='opt'>5</td><td class='opt'>5</td><td>0</td><td class='pts'>11</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/1085.png' alt='' onerror='this.remove()'><a href='../clubs/akhmat.html'>Akhmat</a></td><td>12</td><td class='opt'>2</td><td class='opt'>5</td><td class='opt'>5</td><td>-2</td><td class='pts'>11</td></tr><tr class=''><td>15</td><td class='l cl'><img src='../crests/6822.png' alt='' onerror='this.remove()'><a href='../clubs/rodina-moskva.html'>Rodina Moskva</a></td><td>12</td><td class='opt'>2</td><td class='opt'>3</td><td class='opt'>7</td><td>-14</td><td class='pts'>9</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/1993.png' alt='' onerror='this.remove()'><a href='../clubs/fakel.html'>Fakel</a></td><td>12</td><td class='opt'>1</td><td class='opt'>3</td><td class='opt'>8</td><td>-12</td><td class='pts'>6</td></tr></table></div></div>
 </div>
 <script>
 (function(){

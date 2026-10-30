@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b9017ea9">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Heracles vs Roda", "sport": "Soccer", "startDate": "2026-11-06T19:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Heracles home ground", "address": {"@type": "PostalAddress", "addressCountry": "NL"}}, "homeTeam": {"@type": "SportsTeam", "name": "Heracles"}, "awayTeam": {"@type": "SportsTeam", "name": "Roda"}, "competitor": [{"@type": "SportsTeam", "name": "Heracles"}, {"@type": "SportsTeam", "name": "Roda"}], "performer": [{"@type": "SportsTeam", "name": "Heracles"}, {"@type": "SportsTeam", "name": "Roda"}], "organizer": {"@type": "SportsOrganization", "name": "Eerste Divisie"}, "description": "Heracles vs Roda prediction for Friday 06 November 2026: our model gives Heracles 51%, a draw 26% and Roda 23%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/heracles-vs-roda-2026-11-06.html", "endDate": "2026-11-06T21:00:00+00:00"}</script>
 
 <style>
@@ -278,10 +305,10 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
+<!-- match-page-v3 -->
 <div class='sb'><div class='sb-meta'>Eerste Divisie &middot; Regular Season - 14</div><div class='sb-row'><a class='sb-t' href='../clubs/heracles.html'><img src='../crests/206.png' alt='' onerror='this.remove()'><span>Heracles</span><small>#638 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-06T19:00:00+00:00' data-f='t'>19:00 UTC</div><div class='sb-st'><span data-k='2026-11-06T19:00:00+00:00' data-f='d'>Fri 06 Nov</span></div></div><a class='sb-t' href='../clubs/roda.html'><img src='../crests/414.png' alt='' onerror='this.remove()'><span>Roda</span><small>#953 in the world</small></a></div></div><h1 class='sb-h1'>Heracles vs Roda prediction &amp; odds</h1>
 
-<div class="mpanel" id="tab-p">
+<div class="mtabs"><button type="button" data-t="p" class="on">Preview</button><button type="button" data-t="t">Table</button></div><div class="mpanel" id="tab-p">
 <p>Heracles host Roda in the Eerste Divisie (round 14) on Friday 06 November 2026. Heracles are #638 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Roda are #953 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 315 places - in Heracles's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Heracles the favourites at 51%, with a draw at 26% and Roda at 23%.</p>
@@ -297,13 +324,14 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Heracles</b> (51%). More from the <a href='../leagues/netherlands-eerste-divisie.html'>Eerste Divisie</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2023-04-14</td><td>Heracles v Roda</td><td class='r'><b>1-0</b></td></tr><tr><td>2022-12-11</td><td>Roda v Heracles</td><td class='r'><b>1-3</b></td></tr><tr><td>2022-10-18</td><td>Roda v Heracles</td><td class='r'><b>2-2</b></td></tr></table>
-<h2>Eerste Divisie table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>Heracles</td><td class='r'>12</td><td class='r'>29</td><td class='r'>#638</td></tr><tr class=''><td>2</td><td>VVV Venlo</td><td class='r'>12</td><td class='r'>25</td><td class='r'>#1123</td></tr><tr class=''><td>3</td><td>Emmen</td><td class='r'>12</td><td class='r'>25</td><td class='r'>#938</td></tr><tr class=''><td>4</td><td>Almere City FC</td><td class='r'>10</td><td class='r'>22</td><td class='r'>#661</td></tr><tr class='hi'><td>5</td><td>Roda</td><td class='r'>12</td><td class='r'>22</td><td class='r'>#953</td></tr><tr class=''><td>6</td><td>NAC Breda</td><td class='r'>12</td><td class='r'>21</td><td class='r'>#752</td></tr><tr class=''><td>7</td><td>FC Volendam</td><td class='r'>12</td><td class='r'>19</td><td class='r'>#823</td></tr></table>
+<h2>Eerste Divisie table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>Heracles</td><td class='r'>12</td><td class='r'>29</td><td class='r'>#638</td></tr><tr class=''><td>2</td><td>VVV Venlo</td><td class='r'>12</td><td class='r'>25</td><td class='r'>#1124</td></tr><tr class=''><td>3</td><td>Emmen</td><td class='r'>12</td><td class='r'>25</td><td class='r'>#938</td></tr><tr class=''><td>4</td><td>Almere City FC</td><td class='r'>10</td><td class='r'>22</td><td class='r'>#661</td></tr><tr class='hi'><td>5</td><td>Roda</td><td class='r'>12</td><td class='r'>22</td><td class='r'>#953</td></tr><tr class=''><td>6</td><td>NAC Breda</td><td class='r'>12</td><td class='r'>21</td><td class='r'>#752</td></tr><tr class=''><td>7</td><td>FC Volendam</td><td class='r'>12</td><td class='r'>19</td><td class='r'>#823</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Regular season</div><div class='mt-scroll'><table class='mt'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class='us'><td>1</td><td class='l cl'><img src='../crests/206.png' alt='' onerror='this.remove()'><a href='../clubs/heracles.html'>Heracles</a></td><td>12</td><td class='opt'>9</td><td class='opt'>2</td><td class='opt'>1</td><td>23</td><td class='pts'>29</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/204.png' alt='' onerror='this.remove()'><a href='../clubs/vvv-venlo.html'>VVV Venlo</a></td><td>12</td><td class='opt'>8</td><td class='opt'>1</td><td class='opt'>3</td><td>14</td><td class='pts'>25</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/208.png' alt='' onerror='this.remove()'><a href='../clubs/emmen.html'>Emmen</a></td><td>12</td><td class='opt'>8</td><td class='opt'>1</td><td class='opt'>3</td><td>7</td><td class='pts'>25</td></tr><tr class=''><td>4</td><td class='l cl'><img src='../crests/419.png' alt='' onerror='this.remove()'><a href='../clubs/almere-city-fc.html'>Almere City FC</a></td><td>12</td><td class='opt'>7</td><td class='opt'>1</td><td class='opt'>4</td><td>13</td><td class='pts'>22</td></tr><tr class='us'><td>5</td><td class='l cl'><img src='../crests/414.png' alt='' onerror='this.remove()'><a href='../clubs/roda.html'>Roda</a></td><td>12</td><td class='opt'>6</td><td class='opt'>4</td><td class='opt'>2</td><td>4</td><td class='pts'>22</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/203.png' alt='' onerror='this.remove()'><a href='../clubs/nac-breda.html'>NAC Breda</a></td><td>12</td><td class='opt'>6</td><td class='opt'>3</td><td class='opt'>3</td><td>3</td><td class='pts'>21</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/416.png' alt='' onerror='this.remove()'><a href='../clubs/fc-volendam.html'>FC Volendam</a></td><td>12</td><td class='opt'>6</td><td class='opt'>1</td><td class='opt'>5</td><td>9</td><td class='pts'>19</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/418.png' alt='' onerror='this.remove()'><a href='../clubs/jong-az.html'>Jong AZ</a></td><td>12</td><td class='opt'>5</td><td class='opt'>2</td><td class='opt'>5</td><td>5</td><td class='pts'>17</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/200.png' alt='' onerror='this.remove()'><a href='../clubs/vitesse-ned.html'>Vitesse</a></td><td>12</td><td class='opt'>5</td><td class='opt'>2</td><td class='opt'>5</td><td>-1</td><td class='pts'>17</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/412.png' alt='' onerror='this.remove()'><a href='../clubs/mvv.html'>MVV</a></td><td>12</td><td class='opt'>5</td><td class='opt'>2</td><td class='opt'>5</td><td>-11</td><td class='pts'>17</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/417.png' alt='' onerror='this.remove()'><a href='../clubs/waalwijk.html'>Waalwijk</a></td><td>12</td><td class='opt'>3</td><td class='opt'>7</td><td class='opt'>2</td><td>4</td><td class='pts'>16</td></tr><tr class=''><td>12</td><td class='l cl'><img src='../crests/411.png' alt='' onerror='this.remove()'><a href='../clubs/jong-psv-u21.html'>Jong PSV U21</a></td><td>12</td><td class='opt'>4</td><td class='opt'>4</td><td class='opt'>4</td><td>-2</td><td class='pts'>16</td></tr><tr class=''><td>13</td><td class='l cl'><img src='../crests/421.png' alt='' onerror='this.remove()'><a href='../clubs/den-bosch.html'>Den Bosch</a></td><td>12</td><td class='opt'>4</td><td class='opt'>3</td><td class='opt'>5</td><td>-3</td><td class='pts'>15</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/423.png' alt='' onerror='this.remove()'><a href='../clubs/fc-oss.html'>FC OSS</a></td><td>12</td><td class='opt'>4</td><td class='opt'>1</td><td class='opt'>7</td><td>-1</td><td class='pts'>13</td></tr><tr class=''><td>15</td><td class='l cl'><img src='../crests/425.png' alt='' onerror='this.remove()'><a href='../clubs/jong-ajax.html'>Jong Ajax</a></td><td>12</td><td class='opt'>3</td><td class='opt'>3</td><td class='opt'>6</td><td>-11</td><td class='pts'>12</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/199.png' alt='' onerror='this.remove()'><a href='../clubs/de-graafschap.html'>De Graafschap</a></td><td>12</td><td class='opt'>3</td><td class='opt'>3</td><td class='opt'>6</td><td>-11</td><td class='pts'>12</td></tr><tr class=''><td>17</td><td class='l cl'><img src='../crests/422.png' alt='' onerror='this.remove()'><a href='../clubs/fc-eindhoven.html'>FC Eindhoven</a></td><td>12</td><td class='opt'>3</td><td class='opt'>2</td><td class='opt'>7</td><td>-9</td><td class='pts'>11</td></tr><tr class=''><td>18</td><td class='l cl'><img src='../crests/409.png' alt='' onerror='this.remove()'><a href='../clubs/dordrecht.html'>Dordrecht</a></td><td>12</td><td class='opt'>3</td><td class='opt'>2</td><td class='opt'>7</td><td>-15</td><td class='pts'>11</td></tr><tr class=''><td>19</td><td class='l cl'><img src='../crests/424.png' alt='' onerror='this.remove()'><a href='../clubs/helmond-sport.html'>Helmond Sport</a></td><td>12</td><td class='opt'>2</td><td class='opt'>3</td><td class='opt'>7</td><td>-6</td><td class='pts'>9</td></tr><tr class=''><td>20</td><td class='l cl'><img src='../crests/428.png' alt='' onerror='this.remove()'><a href='../clubs/jong-utrecht.html'>Jong Utrecht</a></td><td>12</td><td class='opt'>2</td><td class='opt'>1</td><td class='opt'>9</td><td>-12</td><td class='pts'>7</td></tr></table></div></div>
 </div>
 <script>
 (function(){

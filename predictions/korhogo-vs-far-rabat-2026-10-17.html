@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Korhogo vs FAR Rabat", "sport": "Soccer", "startDate": "2026-10-17T16:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Korhogo home ground", "address": {"@type": "PostalAddress", "addressCountry": "CI"}}, "homeTeam": {"@type": "SportsTeam", "name": "Korhogo"}, "awayTeam": {"@type": "SportsTeam", "name": "FAR Rabat"}, "competitor": [{"@type": "SportsTeam", "name": "Korhogo"}, {"@type": "SportsTeam", "name": "FAR Rabat"}], "performer": [{"@type": "SportsTeam", "name": "Korhogo"}, {"@type": "SportsTeam", "name": "FAR Rabat"}], "organizer": {"@type": "SportsOrganization", "name": "CAF Confederation Cup"}, "description": "Korhogo vs FAR Rabat prediction for Saturday 17 October 2026: our model gives Korhogo 12%, a draw 17% and FAR Rabat 71%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/korhogo-vs-far-rabat-2026-10-17.html", "endDate": "2026-10-17T18:00:00+00:00"}</script>
 
 <style>
@@ -278,11 +305,11 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
-<div class='sb'><div class='sb-meta'>CAF Confederation Cup &middot; 2nd Preliminary Round</div><div class='sb-row'><a class='sb-t' href='../clubs/korhogo.html'><img src='../crests/18179.png' alt='' onerror='this.remove()'><span>Korhogo</span><small>#2,105 in the world</small></a><div class='sb-mid'><div class='sb-score'>0 - 0</div><div class='sb-st'>Full time</div></div><a class='sb-t' href='../clubs/far-rabat.html'><img src='../crests/969.png' alt='' onerror='this.remove()'><span>FAR Rabat</span><small>#256 in the world</small></a></div></div><h1 class='sb-h1'>Korhogo vs FAR Rabat prediction &amp; odds</h1>
+<!-- match-page-v3 -->
+<div class='sb'><div class='sb-meta'>CAF Confederation Cup &middot; 2nd Preliminary Round</div><div class='sb-row'><a class='sb-t' href='../clubs/korhogo.html'><img src='../crests/18179.png' alt='' onerror='this.remove()'><span>Korhogo</span><small>#2,105 in the world</small></a><div class='sb-mid'><div class='sb-score'>0 - 0</div><div class='sb-st'>Full time</div></div><a class='sb-t' href='../clubs/far-rabat.html'><img src='../crests/969.png' alt='' onerror='this.remove()'><span>FAR Rabat</span><small>#255 in the world</small></a></div></div><h1 class='sb-h1'>Korhogo vs FAR Rabat prediction &amp; odds</h1>
 <div class='verdict'><b>Full time: Korhogo 0-0 FAR Rabat.</b> We had FAR Rabat as the most likely result at 71% - and it went the other way. The chance we gave the actual result: 17%.</div>
 <div class="mtabs"><button type="button" data-t="m" class="on">Match</button><button type="button" data-t="p">Preview</button></div><div class="mpanel mf" id="tab-m" data-fid="1639521" data-h="Korhogo" data-a="FAR Rabat"><div class="none">Loading&hellip;</div></div><div class="mpanel" id="tab-p" hidden>
-<p>Korhogo host FAR Rabat in the CAF Confederation Cup (2nd Preliminary Round) on Saturday 17 October 2026. Korhogo are #2,105 in our world ranking and have drawn 3 and lost 2 of their last 5; FAR Rabat are #256 and have won 3 and drawn 2 of their last 5. On paper that's a big gap - 1,849 places - in FAR Rabat's favour.</p>
+<p>Korhogo host FAR Rabat in the CAF Confederation Cup (2nd Preliminary Round) on Saturday 17 October 2026. Korhogo are #2,105 in our world ranking and have drawn 3 and lost 2 of their last 5; FAR Rabat are #255 and have won 3 and drawn 2 of their last 5. On paper that's a big gap - 1,850 places - in FAR Rabat's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes FAR Rabat the favourites at 71%, with a draw at 17% and Korhogo at 12%.</p>
 <div class='oddsbar'><i style='width:11.5%;background:#1f9a46'></i><i style='width:17.3%;background:#5a6888'></i><i style='width:71.2%;background:#d43c44'></i></div>
@@ -290,10 +317,10 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <span>Draw 17%</span><span style="color:#d43c44">FAR Rabat 71%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/korhogo.html'>Korhogo</a></div><div class='st'>World rank: <b>#2105</b><br>Rating: <b>806</b><br>Chance to win: <b>12%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='FAR Rabat'>L</span><span class='chip' style='background:#5a6888' title='FAR Rabat'>D</span><span class='chip' style='background:#5a6888' title='US Tchologo'>D</span><span class='chip' style='background:#5a6888' title='Zoman'>D</span><span class='chip' style='background:#d43c44' title='ES Agboville'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/far-rabat.html'>FAR Rabat</a></div><div class='st'>World rank: <b>#256</b><br>Rating: <b>1194</b><br>Chance to win: <b>71%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Ittihad Tanger'>W</span><span class='chip' style='background:#1f9a46' title='Korhogo'>W</span><span class='chip' style='background:#5a6888' title='Korhogo'>D</span><span class='chip' style='background:#5a6888' title='Hassania Agadir'>D</span><span class='chip' style='background:#1f9a46' title='Widad Témara'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/far-rabat.html'>FAR Rabat</a></div><div class='st'>World rank: <b>#255</b><br>Rating: <b>1194</b><br>Chance to win: <b>71%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Ittihad Tanger'>W</span><span class='chip' style='background:#1f9a46' title='Korhogo'>W</span><span class='chip' style='background:#5a6888' title='Korhogo'>D</span><span class='chip' style='background:#5a6888' title='Hassania Agadir'>D</span><span class='chip' style='background:#1f9a46' title='Widad Témara'>W</span></div></div>
 </div>
 <h2>Who will win Korhogo vs FAR Rabat?</h2>
-<p>Korhogo are #2105 and FAR Rabat #256 in our world ranking of
+<p>Korhogo are #2105 and FAR Rabat #255 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>FAR Rabat</b> (71%). More from the <a href='../leagues/ivory-coast-ligue-1.html'>Ligue 1</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-25</td><td>FAR Rabat v Korhogo</td><td class='r'><b>2-1</b></td></tr><tr><td>2026-10-17</td><td>Korhogo v FAR Rabat</td><td class='r'><b>0-0</b></td></tr></table>
@@ -304,6 +331,7 @@ sits on the same scale. Before each match the two ratings, adjusted for home adv
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+
 </div>
 <script>
 (function(){

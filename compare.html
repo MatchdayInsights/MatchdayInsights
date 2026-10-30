@@ -19,7 +19,8 @@
    odds if they met; form; rating and rank history. The address bar keeps
    the two clubs (?a=42&b=40), so a comparison can be shared. */
 :root{--ca:#3dba5e;--cb:#4a90d9}
-@media (prefers-color-scheme: light){:root{--ca:#157535;--cb:#2563b0}}
+@media (prefers-color-scheme: light){html:not([data-theme="dark"]){--ca:#157535;--cb:#2563b0}}
+html[data-theme="light"]{--ca:#157535;--cb:#2563b0}
 .cp{max-width:1080px;margin:0 auto;padding:26px 20px 60px}
 .cp-ey{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
 .cp-h1{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(34px,5vw,52px);text-transform:uppercase;line-height:.95;margin:6px 0 4px;color:var(--green)}

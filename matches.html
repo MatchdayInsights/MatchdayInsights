@@ -50,6 +50,14 @@
 .rail-m .w.up{color:#f07800}
 .rail-m .crest{width:18px;height:18px}
 .rail-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:4px 4px 8px}
+.rail-g{margin-top:6px;border-top:1px solid var(--border)}
+.rail-g summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:9px 6px 7px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text2)}
+.rail-g summary::-webkit-details-marker{display:none}
+.rail-g summary::after{content:'\25BE';margin-left:auto;color:var(--muted);transition:transform .15s}
+.rail-g[open] summary::after{transform:rotate(180deg)}
+.rail-g summary span{font-weight:500;letter-spacing:0;color:var(--muted)}
+.rail-g summary:hover{color:var(--green)}
 .rail-c small{display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:0;
   text-transform:none;color:var(--muted);margin-top:1px}
 /* Phones: the crest beside the name, the rating change under it. */
@@ -145,6 +153,7 @@ a.nm:hover{color:var(--green)}
 .m[data-d]{cursor:pointer}
 .m[data-d]:hover{background:var(--surface2)}
 .m[data-d] .mid .x::after{content:' \25BE';opacity:.7}
+.m[data-d] .mid .x{cursor:pointer}
 .m.open .mid .x::after{content:' \25B4'}
 .md{grid-column:1/4;border-top:1px dashed var(--border2);margin-top:6px;padding-top:8px;cursor:default;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text2)}
 .md h4{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:12px 0 6px;text-align:center}
@@ -243,7 +252,7 @@ a.nm:hover{color:var(--green)}
   <p class="key">#86 = world rank in our ratings. Under results: rating points each club gained or lost.
   Bars on upcoming matches: our chances for the home win, draw and away win.
   UPSET = the winner had less than a 30% chance in our model.
-  Tap a result with &#9662; for goals, cards, lineups and stats.</p>
+  Tap a match for its match page; tap &#9662; under a result for goals, cards and lineups here.</p>
 </main>
 <aside class="mx-rail mx-r" id="rail-r" aria-label="Today's highlights"></aside></div>
 
@@ -392,11 +401,25 @@ async function show(key,quiet){
 function sideRails(ms,ids){
   const L=$('rail-l'), R=$('rail-r'); if(!L||!R)return;
   const n={}; for(const m of ms)n[m.c]=(n[m.c]||0)+1;
-  L.innerHTML=ids.length?`<div class="rail-box"><div class="rail-h">Competitions</div>`+ids.map(id=>{
+  // Same order as the list: the top block, then each continent as a
+  // closed group (Greg, 2026-10).
+  const item=id=>{
     const c=INFO.comps[id]||{name:'Competition'};
     const flag=c.flag?`<span class="fi fi-${esc(c.flag)}"></span>`:'<span aria-hidden="true">&#127760;</span>';
     return `<button class="rail-c" type="button" data-go="${esc(id)}">${flag}<span class="n">${esc(c.name)}${c.country?`<small>${esc(c.country)}</small>`:''}</span><span class="k">${n[id]}</span></button>`;
-  }).join('')+'</div>':'';
+  };
+  let lh='', cur=null, buf=[], cnt=0;
+  const flushG=()=>{if(cur===null)return;
+    lh+=`<details class="rail-g"><summary>${esc(cur)}<span>${cnt}</span></summary>${buf.join('')}</details>`;buf=[];cnt=0;};
+  for(const id of ids){
+    const c=INFO.comps[id]||{};
+    if(c.top){lh+=item(id);continue;}
+    const k=c.kn||'Other';
+    if(k!==cur){flushG();cur=k;}
+    buf.push(item(id));cnt+=n[id];
+  }
+  flushG();
+  L.innerHTML=ids.length?`<div class="rail-box"><div class="rail-h">Competitions</div>${lh}</div>`:'';
   const crest=c=>c.i?`<img class="crest" src="crests/${esc(c.i)}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
   const line=(m,w,cls)=>{
     const done=m.sc&&(m.st==='ft'||m.st==='live'), hw=done&&m.sc[0]>m.sc[1], aw=done&&m.sc[1]>m.sc[0];
@@ -496,8 +519,11 @@ function filter(){
 
 $('list').addEventListener('click',e=>{
   const mr=e.target.closest('.m[data-d]');
-  const pr=e.target.closest('.m[data-pg]:not([data-d])');
-  if(pr&&!e.target.closest('a')){location.href='predictions/'+pr.dataset.pg+'.html';return;}
+  // The FT button under a result opens the details in place; anywhere else
+  // on a match opens its match page, if it has one (Greg, 2026-10).
+  if(mr&&e.target.closest('.mid .x')&&!e.target.closest('.md')){toggleDetails(mr);return;}
+  const pr=e.target.closest('.m[data-pg]');
+  if(pr&&!e.target.closest('a')&&!e.target.closest('.md')){location.href='predictions/'+pr.dataset.pg+'.html';return;}
   if(mr&&!e.target.closest('a')&&!e.target.closest('.md')){toggleDetails(mr);return;}
   const ch=e.target.closest('.cont-h');
   if(ch){const ct=ch.parentElement;ct.classList.toggle('open');OPENC[ct.dataset.k]=ct.classList.contains('open');return;}

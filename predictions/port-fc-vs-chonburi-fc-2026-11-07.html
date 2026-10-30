@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../theme.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
@@ -18,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b9017ea9">
+<link rel="stylesheet" href="../club-page.css?v=f2b14880">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -241,6 +242,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
    side get the room - and a name that still won't fit at the smallest
    size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
 @media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
+</style><style>
+/* The Table tab (Greg, 2026-10). */
+.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 8px}
+.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
+.mt th.l,.mt td.l{text-align:left}
+.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
+.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+.mt td.cl a{color:inherit;text-decoration:none}
+.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.mt td.pts{font-weight:700;color:var(--text)}
+.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
+.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
+.mt-scroll{overflow-x:auto}
+.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
+.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
+.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
+.bk-t div.w{color:var(--text);font-weight:700}
+.bk-t div.us{background:rgba(61,186,94,.14)}
+.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Port FC vs Chonburi FC", "sport": "Soccer", "startDate": "2026-11-07T12:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "PAT Stadium", "address": {"@type": "PostalAddress", "addressLocality": "Bangkok", "addressCountry": "TH"}}, "homeTeam": {"@type": "SportsTeam", "name": "Port FC"}, "awayTeam": {"@type": "SportsTeam", "name": "Chonburi FC"}, "competitor": [{"@type": "SportsTeam", "name": "Port FC"}, {"@type": "SportsTeam", "name": "Chonburi FC"}], "performer": [{"@type": "SportsTeam", "name": "Port FC"}, {"@type": "SportsTeam", "name": "Chonburi FC"}], "organizer": {"@type": "SportsOrganization", "name": "Thai League 1"}, "description": "Port FC vs Chonburi FC prediction for Saturday 07 November 2026: our model gives Port FC 68%, a draw 19% and Chonburi FC 13%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/port-fc-vs-chonburi-fc-2026-11-07.html", "endDate": "2026-11-07T14:00:00+00:00"}</script>
 
 <style>
@@ -278,11 +305,11 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
-<!-- match-page-v2 -->
-<div class='sb'><div class='sb-meta'>Thai League 1 &middot; Regular Season - 8</div><div class='sb-row'><a class='sb-t' href='../clubs/port-fc.html'><img src='../crests/2789.png' alt='' onerror='this.remove()'><span>Port FC</span><small>#586 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-07T12:00:00+00:00' data-f='t'>12:00 UTC</div><div class='sb-st'><span data-k='2026-11-07T12:00:00+00:00' data-f='d'>Sat 07 Nov</span></div></div><a class='sb-t' href='../clubs/chonburi-fc.html'><img src='../crests/2772.png' alt='' onerror='this.remove()'><span>Chonburi FC</span><small>#1,825 in the world</small></a></div></div><h1 class='sb-h1'>Port FC vs Chonburi FC prediction &amp; odds</h1>
+<!-- match-page-v3 -->
+<div class='sb'><div class='sb-meta'>Thai League 1 &middot; Regular Season - 8</div><div class='sb-row'><a class='sb-t' href='../clubs/port-fc.html'><img src='../crests/2789.png' alt='' onerror='this.remove()'><span>Port FC</span><small>#586 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-07T12:00:00+00:00' data-f='t'>12:00 UTC</div><div class='sb-st'><span data-k='2026-11-07T12:00:00+00:00' data-f='d'>Sat 07 Nov</span></div></div><a class='sb-t' href='../clubs/chonburi-fc.html'><img src='../crests/2772.png' alt='' onerror='this.remove()'><span>Chonburi FC</span><small>#1,826 in the world</small></a></div></div><h1 class='sb-h1'>Port FC vs Chonburi FC prediction &amp; odds</h1>
 
-<div class="mpanel" id="tab-p">
-<p>Port FC host Chonburi FC in the Thai League 1 (round 8) on Saturday 07 November 2026. Port FC are #586 in our world ranking and have won 3 and lost 2 of their last 5; Chonburi FC are #1,825 and have won 1 and lost 4 of their last 5. On paper that's a big gap - 1,239 places - in Port FC's favour.</p>
+<div class="mtabs"><button type="button" data-t="p" class="on">Preview</button><button type="button" data-t="t">Table</button></div><div class="mpanel" id="tab-p">
+<p>Port FC host Chonburi FC in the Thai League 1 (round 8) on Saturday 07 November 2026. Port FC are #586 in our world ranking and have won 3 and lost 2 of their last 5; Chonburi FC are #1,826 and have won 1 and lost 4 of their last 5. On paper that's a big gap - 1,240 places - in Port FC's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Port FC the favourites at 68%, with a draw at 19% and Chonburi FC at 13%.</p>
 <div class='oddsbar'><i style='width:67.5%;background:#1f9a46'></i><i style='width:19.4%;background:#5a6888'></i><i style='width:13.1%;background:#d43c44'></i></div>
@@ -290,20 +317,21 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <span>Draw 19%</span><span style="color:#d43c44">Chonburi FC 13%</span></div>
 <div class="ppgrid" style="margin-top:22px">
   <div class='ppcard'><div class='nm'><a href='../clubs/port-fc.html'>Port FC</a></div><div class='st'>World rank: <b>#586</b><br>Rating: <b>1066</b><br>Chance to win: <b>68%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Johor Darul Takzim FC'>L</span><span class='chip' style='background:#1f9a46' title='Rayong FC'>W</span><span class='chip' style='background:#1f9a46' title='Rasi Salai United'>W</span><span class='chip' style='background:#1f9a46' title='Bangkok United'>W</span><span class='chip' style='background:#d43c44' title='Kashiwa Reysol'>L</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/chonburi-fc.html'>Chonburi FC</a></div><div class='st'>World rank: <b>#1825</b><br>Rating: <b>840</b><br>Chance to win: <b>13%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Ratchaburi'>W</span><span class='chip' style='background:#d43c44' title='Pattaya City'>L</span><span class='chip' style='background:#d43c44' title='Prachuap'>L</span><span class='chip' style='background:#d43c44' title='Sisaket United'>L</span><span class='chip' style='background:#d43c44' title='Buriram United'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/chonburi-fc.html'>Chonburi FC</a></div><div class='st'>World rank: <b>#1826</b><br>Rating: <b>840</b><br>Chance to win: <b>13%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Ratchaburi'>W</span><span class='chip' style='background:#d43c44' title='Pattaya City'>L</span><span class='chip' style='background:#d43c44' title='Prachuap'>L</span><span class='chip' style='background:#d43c44' title='Sisaket United'>L</span><span class='chip' style='background:#d43c44' title='Buriram United'>L</span></div></div>
 </div>
 <h2>Who will win Port FC vs Chonburi FC?</h2>
-<p>Port FC are #586 and Chonburi FC #1825 in our world ranking of
+<p>Port FC are #586 and Chonburi FC #1826 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Port FC</b> (68%). More from the <a href='../leagues/thailand-thai-league-1.html'>Thai League 1</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-08</td><td>Chonburi FC v Port FC</td><td class='r'><b>3-4</b></td></tr><tr><td>2026-01-31</td><td>Chonburi FC v Port FC</td><td class='r'><b>3-2</b></td></tr><tr><td>2025-09-19</td><td>Port FC v Chonburi FC</td><td class='r'><b>3-0</b></td></tr></table>
-<h2>Thai League 1 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>Port FC</td><td class='r'>6</td><td class='r'>15</td><td class='r'>#586</td></tr><tr class=''><td>2</td><td>Prachuap</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#876</td></tr><tr class=''><td>3</td><td>Buriram United</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#555</td></tr><tr class=''><td>14</td><td>Pattani</td><td class='r'>6</td><td class='r'>4</td><td class='r'>#2213</td></tr><tr class='hi'><td>15</td><td>Chonburi FC</td><td class='r'>6</td><td class='r'>3</td><td class='r'>#1825</td></tr><tr class=''><td>16</td><td>Rasi Salai United</td><td class='r'>6</td><td class='r'>1</td><td class='r'>#2555</td></tr></table>
+<h2>Thai League 1 table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class='hi'><td>1</td><td>Port FC</td><td class='r'>6</td><td class='r'>15</td><td class='r'>#586</td></tr><tr class=''><td>2</td><td>Prachuap</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#876</td></tr><tr class=''><td>3</td><td>Buriram United</td><td class='r'>6</td><td class='r'>13</td><td class='r'>#555</td></tr><tr class=''><td>14</td><td>Pattani</td><td class='r'>6</td><td class='r'>4</td><td class='r'>#2213</td></tr><tr class='hi'><td>15</td><td>Chonburi FC</td><td class='r'>6</td><td class='r'>3</td><td class='r'>#1826</td></tr><tr class=''><td>16</td><td>Rasi Salai United</td><td class='r'>6</td><td class='r'>1</td><td class='r'>#2555</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Premier League</div><div class='mt-scroll'><table class='mt'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class='us'><td>1</td><td class='l cl'><img src='../crests/2789.png' alt='' onerror='this.remove()'><a href='../clubs/port-fc.html'>Port FC</a></td><td>6</td><td class='opt'>5</td><td class='opt'>0</td><td class='opt'>1</td><td>7</td><td class='pts'>15</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/2791.png' alt='' onerror='this.remove()'><a href='../clubs/prachuap.html'>Prachuap</a></td><td>6</td><td class='opt'>4</td><td class='opt'>1</td><td class='opt'>1</td><td>5</td><td class='pts'>13</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/2780.png' alt='' onerror='this.remove()'><a href='../clubs/buriram-united.html'>Buriram United</a></td><td>6</td><td class='opt'>4</td><td class='opt'>1</td><td class='opt'>1</td><td>4</td><td class='pts'>13</td></tr><tr class=''><td>4</td><td class='l cl'><img src='../crests/2776.png' alt='' onerror='this.remove()'><a href='../clubs/ratchaburi.html'>Ratchaburi</a></td><td>6</td><td class='opt'>3</td><td class='opt'>1</td><td class='opt'>2</td><td>6</td><td class='pts'>10</td></tr><tr class=''><td>5</td><td class='l cl'><img src='../crests/10088.png' alt='' onerror='this.remove()'><a href='../clubs/uthai-thani.html'>Uthai Thani</a></td><td>6</td><td class='opt'>3</td><td class='opt'>1</td><td class='opt'>2</td><td>4</td><td class='pts'>10</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/2803.png' alt='' onerror='this.remove()'><a href='../clubs/ayutthaya-fc.html'>Ayutthaya FC</a></td><td>6</td><td class='opt'>3</td><td class='opt'>1</td><td class='opt'>2</td><td>2</td><td class='pts'>10</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/2770.png' alt='' onerror='this.remove()'><a href='../clubs/bangkok-united.html'>Bangkok United</a></td><td>6</td><td class='opt'>3</td><td class='opt'>1</td><td class='opt'>2</td><td>2</td><td class='pts'>10</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/18395.png' alt='' onerror='this.remove()'><a href='../clubs/sisaket-united.html'>Sisaket United</a></td><td>6</td><td class='opt'>3</td><td class='opt'>1</td><td class='opt'>2</td><td>0</td><td class='pts'>10</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/2769.png' alt='' onerror='this.remove()'><a href='../clubs/bg-pathum-united.html'>BG Pathum United</a></td><td>6</td><td class='opt'>2</td><td class='opt'>3</td><td class='opt'>1</td><td>2</td><td class='pts'>9</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/2783.png' alt='' onerror='this.remove()'><a href='../clubs/sukhothai-fc.html'>Sukhothai FC</a></td><td>6</td><td class='opt'>3</td><td class='opt'>0</td><td class='opt'>3</td><td>-3</td><td class='pts'>9</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/2797.png' alt='' onerror='this.remove()'><a href='../clubs/rayong-fc.html'>Rayong FC</a></td><td>6</td><td class='opt'>2</td><td class='opt'>2</td><td class='opt'>2</td><td>-2</td><td class='pts'>8</td></tr><tr class=''><td>12</td><td class='l cl'><img src='../crests/6572.png' alt='' onerror='this.remove()'><a href='../clubs/lamphun-warrior.html'>Lamphun Warrior</a></td><td>6</td><td class='opt'>2</td><td class='opt'>1</td><td class='opt'>3</td><td>-2</td><td class='pts'>7</td></tr><tr class=''><td>13</td><td class='l cl'><img src='../crests/2771.png' alt='' onerror='this.remove()'><a href='../clubs/chiangrai-united.html'>Chiangrai United</a></td><td>6</td><td class='opt'>1</td><td class='opt'>1</td><td class='opt'>4</td><td>-4</td><td class='pts'>4</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/6582.png' alt='' onerror='this.remove()'><a href='../clubs/pattani.html'>Pattani</a></td><td>6</td><td class='opt'>1</td><td class='opt'>1</td><td class='opt'>4</td><td>-6</td><td class='pts'>4</td></tr><tr class='us'><td>15</td><td class='l cl'><img src='../crests/2772.png' alt='' onerror='this.remove()'><a href='../clubs/chonburi-fc.html'>Chonburi FC</a></td><td>6</td><td class='opt'>1</td><td class='opt'>0</td><td class='opt'>5</td><td>-4</td><td class='pts'>3</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/15282.png' alt='' onerror='this.remove()'><a href='../clubs/rasi-salai-united.html'>Rasi Salai United</a></td><td>6</td><td class='opt'>0</td><td class='opt'>1</td><td class='opt'>5</td><td>-11</td><td class='pts'>1</td></tr></table></div></div>
 </div>
 <script>
 (function(){
