@@ -262,7 +262,7 @@ const HOME='#3dba5e', DRAW='#5a6a8c', AWAY='#e5484d';
 let INFO=null, DAY=null, OPEN={}, OPENC={}, CACHE={};
 // Live scores (Greg, 2026-10): every minute while the page is open, from
 // our Cloudflare Worker; laid over the scores from our last update.
-const LIVE_URL='';
+const LIVE_URL='https://matchday-live.gregory-m-toledo.workers.dev';
 let LIVE={}, LIVE_AT=null;
 const LIVE_ST=new Set(['1H','HT','2H','ET','BT','P','SUSP','INT','LIVE']);
 const DONE_ST=new Set(['FT','AET','PEN']);
