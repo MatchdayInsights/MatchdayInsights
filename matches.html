@@ -197,6 +197,16 @@ a.nm:hover{color:var(--green)}
 .cont:not(.open) .cont-b{display:none}
 .cont.open .cont-h i{transform:rotate(180deg)}
 .cont-b{margin-top:8px}
+/* "More from England": a top country's lower divisions, folded (Greg, 2026-10). */
+.cont.sub{margin:-2px 0 14px}
+.cont.sub>.cont-h{padding:7px 12px;background:none;border-style:dashed}
+.cont.sub>.cont-h b{font-size:13px;font-weight:700;color:var(--text2)}
+.rail-g.sub{border-top:0;margin-top:0}
+.rail-g.sub summary{font-size:10px;padding:4px 6px 6px;color:var(--muted)}
+/* The Live button. */
+.tools #live-only{display:inline-flex;align-items:center;gap:5px;font-weight:700}
+.tools #live-only i{width:7px;height:7px;border-radius:50%;background:var(--red,#e5484d)}
+.tools #live-only.on{background:rgba(229,72,77,.14);border-color:var(--red,#e5484d);color:var(--text)}
 .empty{padding:50px 10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
 .key{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--muted);line-height:1.6;margin-top:14px}
 @media(max-width:560px){
@@ -246,6 +256,7 @@ a.nm:hover{color:var(--green)}
   </div>
   <div class="tools">
     <input id="q" type="search" placeholder="Find a club or league" aria-label="Find a club or competition">
+    <button id="live-only" type="button" hidden aria-pressed="false"><i></i>Live <span></span></button>
     <button id="tog" type="button">Collapse all</button>
     <span class="count" id="count"></span>
   </div>
@@ -355,12 +366,13 @@ function row(m){
   if(m.new&&!extra)extra=`<div class="up" style="color:var(--muted)">Just finished &middot; ratings update shortly</div>`;
   const pg=(m.pg?` data-pg="${esc(m.pg)}"`:'')+(m.h.i?` data-hi="${esc(m.h.i)}"`:'')+(m.a.i?` data-ai="${esc(m.a.i)}"`:'');
   const det=m.d&&m.st==='ft'?` data-d="${esc(m.id)}" tabindex="0" role="button" aria-expanded="false"`:'';
-  return `<div class="m"${det}${pg} data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
+  return `<div class="m"${det}${pg} data-st="${esc(m.st||'')}" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
 }
 
 async function show(key,quiet){
   DAY=key;
   if(!quiet){
+    LIVEONLY=false;      // another day: everything again
     try{history.replaceState(null,'','#'+key);}catch(e){}
     drawDays();
     $('list').innerHTML='<div class="empty">Loading matches&hellip;</div>';
@@ -383,13 +395,13 @@ async function show(key,quiet){
   // closed unless opened (OPENC remembers which, for this visit).
   let html='', cur=null, buf=[], n=0;
   const flush=()=>{if(cur===null)return;
-    html+=`<div class="cont${OPENC[cur]?' open':''}" data-k="${esc(cur)}"><div class="cont-h" role="button" tabindex="0">`
+    html+=`<div class="cont${OPENC[cur]?' open':''}${cur.startsWith('More from ')?' sub':''}" data-k="${esc(cur)}"><div class="cont-h" role="button" tabindex="0">`
       +`<b>${esc(cur)}</b><span>${n} match${n===1?'':'es'}</span><i>&#9662;</i></div><div class="cont-b">${buf.join('')}</div></div>`;
     buf=[];n=0;};
   for(const id of ids){
     const c=INFO.comps[id]||{};
-    if(c.top){html+=section(id);continue;}
-    const k=c.kn||'Other';
+    if(c.top&&!c.fd){flush();cur=null;html+=section(id);continue;}
+    const k=c.fd?'More from '+c.fd:(c.kn||'Other');
     if(k!==cur){flush();cur=k;}
     buf.push(section(id));n+=groups[id].length;
   }
@@ -411,11 +423,11 @@ function sideRails(ms,ids){
   };
   let lh='', cur=null, buf=[], cnt=0;
   const flushG=()=>{if(cur===null)return;
-    lh+=`<details class="rail-g"><summary>${esc(cur)}<span>${cnt}</span></summary>${buf.join('')}</details>`;buf=[];cnt=0;};
+    lh+=`<details class="rail-g${cur.startsWith('More from ')?' sub':''}"><summary>${esc(cur)}<span>${cnt}</span></summary>${buf.join('')}</details>`;buf=[];cnt=0;};
   for(const id of ids){
     const c=INFO.comps[id]||{};
-    if(c.top){lh+=item(id);continue;}
-    const k=c.kn||'Other';
+    if(c.top&&!c.fd){flushG();cur=null;lh+=item(id);continue;}
+    const k=c.fd?'More from '+c.fd:(c.kn||'Other');
     if(k!==cur){flushG();cur=k;}
     buf.push(item(id));cnt+=n[id];
   }
@@ -439,7 +451,9 @@ function sideRails(ms,ids){
 document.addEventListener('click',e=>{
   const b=e.target.closest('.rail-c'); if(!b)return;
   const sec=document.querySelector(`.comp[data-id="${CSS.escape(b.dataset.go)}"]`); if(!sec)return;
-  const ct=sec.closest('.cont'); if(ct&&!ct.classList.contains('open')){ct.classList.add('open');if(typeof OPENC!=='undefined')OPENC[ct.dataset.k]=true;}
+  let ct=sec.closest('.cont');
+  while(ct){if(!ct.classList.contains('open')){ct.classList.add('open');if(typeof OPENC!=='undefined')OPENC[ct.dataset.k]=true;}
+    ct=ct.parentElement&&ct.parentElement.closest('.cont');}
   sec.classList.remove('shut');
   window.scrollTo({top:sec.getBoundingClientRect().top+window.scrollY-130,behavior:'smooth'});
 });
@@ -498,24 +512,31 @@ async function toggleDetails(row){
     +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full match page &rsaquo;</a>`:'');
 }
 
+let LIVEONLY=false;   // the Live button (Greg, 2026-10)
 function filter(){
   const q=$('q').value.toLowerCase().trim();
   let n=0;
   document.querySelectorAll('.comp').forEach(sec=>{
     const compHit=!q||sec.dataset.q.includes(q);
     let any=false;
-    sec.querySelectorAll('.m').forEach(r=>{const hit=compHit||r.dataset.q.includes(q);r.hidden=!hit;if(hit){any=true;n++;}});
+    sec.querySelectorAll('.m').forEach(r=>{const hit=(compHit||r.dataset.q.includes(q))&&(!LIVEONLY||r.dataset.st==='live');
+      r.hidden=!hit;if(hit){any=true;n++;}});
     sec.hidden=!any;
-    if(q&&any)sec.classList.remove('shut');
+    if((q||LIVEONLY)&&any)sec.classList.remove('shut');
   });
   // A search opens the continent groups with a hit; groups with nothing
   // left are hidden.
   document.querySelectorAll('.cont').forEach(ct=>{
     const any=[...ct.querySelectorAll('.comp')].some(x=>!x.hidden);
     ct.hidden=!any;
-    if(q)ct.classList.toggle('open',any); else ct.classList.toggle('open',!!OPENC[ct.dataset.k]);
+    const vis=ct.querySelectorAll('.comp:not([hidden]) .m:not([hidden])').length, sp=ct.querySelector('.cont-h span');
+    if(sp)sp.textContent=vis+' match'+(vis===1?'':'es');      // the count follows a search / Live
+    if(q||LIVEONLY)ct.classList.toggle('open',any); else ct.classList.toggle('open',!!OPENC[ct.dataset.k]);
   });
-  $('count').textContent=n?`${n} match${n===1?'':'es'}`:'';
+  const nl=document.querySelectorAll('#list .m[data-st="live"]').length, lb=$('live-only');
+  lb.hidden=!nl&&!LIVEONLY; lb.querySelector('span').textContent=nl||'';
+  lb.classList.toggle('on',LIVEONLY); lb.setAttribute('aria-pressed',LIVEONLY);
+  $('count').textContent=n?`${n} match${n===1?'':'es'}${LIVEONLY?' live':''}`:(LIVEONLY?'Nothing live right now':'');
 }
 
 $('list').addEventListener('click',e=>{
@@ -553,6 +574,7 @@ $('days').addEventListener('wheel',e=>{
   if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){e.preventDefault();$('days').scrollLeft+=e.deltaY;}
 },{passive:false});
 $('q').addEventListener('input',filter);
+$('live-only').addEventListener('click',()=>{LIVEONLY=!LIVEONLY;filter();});
 $('tog').addEventListener('click',()=>{
   const secs=[...document.querySelectorAll('.comp')];
   const close=secs.some(s=>!s.classList.contains('shut'));
