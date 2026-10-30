@@ -138,6 +138,7 @@ a.nm:hover{color:var(--green)}
 .sc.live{color:var(--red)}
 .mid .x{display:block;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--muted);letter-spacing:.5px;margin-top:1px}
 .mid .x.lv{color:var(--red);font-weight:700}
+.dl.est{font-style:italic;opacity:.9}.rk.lvr{color:var(--red,#e5484d)}
 .mid .x.lv .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--red);margin-right:4px;
   vertical-align:1px;animation:blink 1.4s infinite}
 @keyframes blink{50%{opacity:.25}}
@@ -274,13 +275,17 @@ let INFO=null, DAY=null, OPEN={}, OPENC={}, CACHE={};
 // Live scores (Greg, 2026-10): every minute while the page is open, from
 // our Cloudflare Worker; laid over the scores from our last update.
 const LIVE_URL='https://matchday-live.gregory-m-toledo.workers.dev';
-let LIVE={}, LIVE_AT=null;
+let LIVE={}, LIVE_AT=null, LRT=null;   // LRT: live ratings (live_ratings.js)
 const LIVE_ST=new Set(['1H','HT','2H','ET','BT','P','SUSP','INT','LIVE']);
 const DONE_ST=new Set(['FT','AET','PEN']);
 function withLive(m){
   const L=LIVE[m.id]; if(!L)return m;
   const [,,st,min,hg,ag]=L; const o={...m};
-  if(LIVE_ST.has(st)){o.st='live';o.sc=[hg??0,ag??0];o.min=st==='HT'?'HT':(min!=null?min+"'":'');}
+  if(LIVE_ST.has(st)){o.st='live';o.sc=[hg??0,ag??0];o.min=st==='HT'?'HT':(min!=null?min+"'":'');
+    // "If it ends like this": each club's rating change and live rank (Greg, 2026-10).
+    const x=LRT&&LRT.matches[String(m.id)];
+    if(x){const h=LRT.club[x.home],a=LRT.club[x.away];
+      o.h={...m.h,d:x.dh,est:1,lr:h&&h.rank};o.a={...m.a,d:x.da,est:1,lr:a&&a.rank};}}
   else if(DONE_ST.has(st)&&m.st!=='ft'){o.st='ft';o.sc=[hg,ag];if(st!=='FT')o.x=st==='PEN'?'pens':'aet';o.new=1;}
   return o;
 }
@@ -291,6 +296,7 @@ async function pollLive(){
     if(!d||!d.m){retryLive();return;}
     LIVE_FAILS=0;
     LIVE={};for(const r of d.m)LIVE[String(r[0])]=r;LIVE_AT=new Date(d.t);
+    LRT=window.MILR&&MILR.ready()?MILR.table(d.m):null;
     const today=localKey(new Date());
     if(DAY===today||DAY===addDays(today,-1))show(DAY,true);
   }catch(e){retryLive();}
@@ -301,6 +307,9 @@ function retryLive(){
   if(LIVE_RETRY||++LIVE_FAILS>3)return;
   LIVE_RETRY=setTimeout(()=>{LIVE_RETRY=null;pollLive();},10000);
 }
+document.addEventListener('milr-ready',()=>{
+  if(!window.MILR||!LIVE_AT)return;LRT=MILR.table(Object.values(LIVE));
+  const today=localKey(new Date());if(DAY===today||DAY===addDays(today,-1))show(DAY,true);});
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const pad=n=>String(n).padStart(2,'0');
@@ -346,8 +355,9 @@ function drawDays(){
 function side(c,cls,lost){
   const name=c.s?`<a class="nm${lost?' lost':''}" href="clubs/${esc(c.s)}.html">${esc(c.n)}</a>`
                 :`<span class="nm${lost?' lost':''}">${esc(c.n)}</span>`;
-  const rk=c.r?`<span class="rk">#${c.r}</span>`:'';
-  const d=(c.d!==undefined)?`<span class="dl ${c.d>=0?'p':'n'}">${c.d>=0?'+':''}${c.d.toFixed(1)}</span>`:'';
+  const rk=(c.lr&&c.r&&c.lr!==c.r)?`<span class="rk lvr" title="World rank if it ends like this">#${c.r}&rarr;#${c.lr}</span>`
+          :c.r?`<span class="rk">#${c.r}</span>`:'';
+  const d=(c.d!==undefined)?`<span class="dl ${c.d>=0?'p':'n'}${c.est?' est':''}"${c.est?' title="If it ends like this"':''}>${c.d>=0?'+':''}${c.d.toFixed(1)}</span>`:'';
   const cr=c.i?`<img class="crest" src="crests/${esc(c.i)}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
   return cls==='h'?`<div class="side h">${d}${rk}${name}${cr}</div>`:`<div class="side">${cr}${name}${rk}${d}</div>`;
 }
@@ -605,6 +615,7 @@ $('tog').addEventListener('click',()=>{
   }
 })();
 </script>
+<script src="live_ratings.js" defer></script>
 <script src="myclubs.js" defer></script>
 </body>
 </html>
