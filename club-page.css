@@ -820,3 +820,42 @@ html body .club-header.cc > div:has(.star) { grid-column: 1 / -1; }
   html body .club-header.cc .club-rank { grid-column: 1 / -1; letter-spacing: 1px; margin-top: 10px; line-height: 1.6; }
   html body .club-header.cc .club-name { font-size: clamp(30px, 9vw, 44px); overflow-wrap: normal; }
 }
+
+/* ===========================================================================
+   NAMES IN PLAIN FONT, 2026-10 (Greg chose option D): club and competition
+   names in lists, tables and cards in Inter ('JetBrains Mono' is the site's
+   name for Inter), normal case. Headings, scores and the big names at the
+   top of club and match pages stay in Barlow Condensed.
+   =========================================================================== */
+html body .club-name-text,            /* rankings table */
+html body .fmatch-name,               /* biggest-matches cards */
+html body .result-opp,                /* recent results */
+html body .top-club,                  /* Leagues page: top club */
+html body .lt td.club,                /* league tables */
+html body .m .nm,                     /* Matches page */
+html body .comp-n,                    /* Matches page: competition names */
+html body .rail-c .n,                 /* Matches page: list down the left */
+html body .rail-m .t,                 /* Matches page: side matches */
+html body .hr-c .n,                   /* Predictions page: list down the left */
+html body .ppcard .nm,                /* Predictions page cards */
+html body .mc-nm,                     /* Predictions page cards */
+html body .mt td.cl,                  /* match page: Table tab */
+html body .bk-t,                      /* match page: bracket */
+html body .res b {                    /* Compare: search results */
+  font-family: 'JetBrains Mono', sans-serif;
+  text-transform: none;
+  font-weight: 700;
+  letter-spacing: -.005em;
+}
+/* Inter is wider than the condensed font, so a touch smaller where the
+   names were large or the space is tight. */
+html body .mc-nm { font-size: 17px; }
+html body .rail-c .n, html body .hr-c .n { font-size: 13.5px; }
+@media (max-width: 600px) {
+  html body .lt td.club { font-size: 13.5px; max-width: 170px; }
+}
+
+/* STAR + COMPARE BUTTONS, 2026-10: "Add to my clubs" and "Compare" on one
+   line, same height. */
+html body .club-header div:has(> .star[data-star]) { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+html body .club-header .star { box-sizing: border-box; min-height: 34px; line-height: 18px; margin: 0 !important; vertical-align: middle; }
