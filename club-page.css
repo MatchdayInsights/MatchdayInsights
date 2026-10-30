@@ -613,3 +613,83 @@ button { font-family: inherit; }
 
 /* No more NEW tag on Predictions, or its dot on phones (Greg, 2026-10). */
 .site-nav .header-right .ig-link[href$="predictions.html"]::after { content: none !important; display: none !important; }
+
+/* ===========================================================================
+   READABILITY + WIDE SCREENS, 2026-10 (Greg: "the green and gray fonts are
+   difficult to read", "percentages should be bold or bigger", "a lot of dead
+   space on the computer"). Selectors start "html body" so they beat each
+   page's own older styles.
+   =========================================================================== */
+
+/* Stronger greys (and a deeper green on white) in both themes. */
+@media (prefers-color-scheme: dark) {
+  :root { --muted: #8189a3; --text2: #a9b0ca; }
+}
+@media (prefers-color-scheme: light) {
+  :root { --green: #157535; --muted: #575d73; --text2: #343a52; --green-dim: #8ccb9d; }
+}
+
+/* The heading all one colour. */
+html body .hero-title, html body .hero-title em { color: var(--green); }
+
+/* Small print a size up. */
+html body th { font-size: 10px; }
+html body .club-code, html body .fmatch-meta, html body .fmatch-rank { font-size: 10.5px; }
+html body .result-opp { font-size: 12px; }
+html body .result-score { font-size: 11px; }
+html body .change-pill { font-size: 11px; font-weight: 700; }
+html body .move-badge { font-size: 11px; }
+html body .record-row-note { font-size: 10px; }
+html body .hstat-label { font-size: 10.5px; }
+
+/* Percentages: bold and bigger. */
+html body .fmatch-pcts { font-size: 13.5px; font-weight: 800; }
+html body .odds { grid-template-columns: 46px 200px 46px; }
+html body .odds .pc { font-size: 13px; }
+html body .odds .pc b { color: var(--text); font-weight: 800; }
+html body .odds .dr { font-size: 10.5px; color: var(--text2); }
+html body .mc-p { font-weight: 900; }
+html body .oddslab { font-weight: 700; }
+
+/* Matches page: rating changes, ranks, and the FT / details marker. */
+html body .m .dl { font-size: 11.5px; font-weight: 700; }
+html body .m .rk { font-size: 10.5px; color: var(--text2); }
+html body .mid .x { font-size: 10px; font-weight: 700; color: var(--text2); letter-spacing: .06em; }
+html body .m[data-d] .mid .x { display: table; margin: 4px auto 0; padding: 1px 8px; border: 1px solid var(--border2);
+  border-radius: 10px; background: var(--surface); }
+@media (min-width: 561px) {
+  html body .m { grid-template-columns: minmax(0,1fr) 112px minmax(0,1fr); }
+  html body .mid .x { white-space: nowrap; }
+}
+html body .m[data-d]:hover .mid .x { border-color: var(--green-dim); color: var(--green); }
+html body .m .up, html body .m>.up { font-size: 11px; font-weight: 600; }
+html body .comp-c, html body .rail-m .w, html body .mx-sub { font-size: 11px; }
+html body .md { font-size: 12px; }
+
+/* Predictions page small print. */
+html body .mc-top { font-size: 10.5px; }
+html body .mc-f { font-size: 11px; }
+html body .tag { font-size: 10px; }
+html body .mc-nm small { font-size: 10.5px; }
+
+@media (max-width: 560px) {
+  html body .m { grid-template-columns: minmax(0,1fr) 90px minmax(0,1fr); }
+  html body .mid .x { white-space: nowrap; font-size: 9.5px; letter-spacing: 0; }
+  html body .m[data-d] .mid .x { padding: 1px 5px; }
+  html body .odds { grid-template-columns: 42px minmax(0, 200px) 42px; }
+  html body .m .dl { font-size: 11px; }
+}
+
+/* Wide screens: the homepage, Leagues and league/country pages keep their
+   full-width bands, but the content sits in a centred 1240px column instead
+   of running edge to edge. The biggest-matches cards share the row. */
+@media (min-width: 900px) {
+  html body > .hero, html body > .featured, html body > .controls, html body > .table-wrap,
+  html body > .pagination, html body > .lh, html body > .lt-wrap, html body > .ratings-h,
+  html body > .my-strip, html body > .site-footer {
+    padding-left: max(24px, calc((100% - 1240px) / 2));
+    padding-right: max(24px, calc((100% - 1240px) / 2));
+  }
+  html body > .lt-wrap > * { max-width: none; margin-left: 0; margin-right: 0; }
+  html body .featured-row .fmatch { flex: 1 1 0; min-width: 210px; }
+}

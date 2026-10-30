@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T01:03:18+00:00",
+  "generated": "2026-10-30T01:16:37+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -323,7 +323,7 @@
       "competition_type": "cup",
       "country": "Ecuador",
       "round": "Semi-finals",
-      "status": "1H",
+      "status": "2H",
       "home_team_id": "1157",
       "home_team": "Universidad Catolica",
       "home_slug": "universidad-catolica",
@@ -346,7 +346,7 @@
       "competition_type": "league",
       "country": "Guatemala",
       "round": "Regular Season - 17",
-      "status": "1H",
+      "status": "2H",
       "home_team_id": "3656",
       "home_team": "Antigua GFC",
       "home_slug": "antigua-gfc",
@@ -415,7 +415,7 @@
       "competition_type": "league",
       "country": "Nicaragua",
       "round": "Apertura - 15",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "4647",
       "home_team": "UNAN Managua",
       "home_slug": "unan-managua",
