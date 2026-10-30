@@ -29,7 +29,8 @@
     if (document.hidden) return;
     fetch(api + '/live', {cache: 'no-store'}).then(function (r) { return r.ok ? r.json() : null; })
       .then(function (d) {
-        if (!d || !d.m) return;
+        if (!d || !d.m) { retry(); return; }
+        fails = 0;
         var live = d.m.filter(function (r) { return LIVE[r[2]]; });
         if (tid) {
           var g = live.filter(function (r) { return String(r[6]) === tid || String(r[7]) === tid; })[0];
@@ -46,7 +47,13 @@
             ' on now in our competitions &rsaquo;</a>';
           box.hidden = false;
         }
-      }).catch(function () {});
+      }).catch(retry);
+  }
+  // No answer: try again in 10 seconds, up to 3 times in a row (Greg, 2026-10).
+  var fails = 0, again = null;
+  function retry() {
+    if (again || ++fails > 3) return;
+    again = setTimeout(function () { again = null; poll(); }, 10000);
   }
   poll(); setInterval(poll, 60000);
   document.addEventListener('visibilitychange', function () { if (!document.hidden) poll(); });

@@ -288,11 +288,18 @@ async function pollLive(){
   if(!LIVE_URL||document.hidden)return;
   try{
     const d=await (await fetch(LIVE_URL+'/live',{cache:'no-store'})).json();
-    if(!d||!d.m)return;
+    if(!d||!d.m){retryLive();return;}
+    LIVE_FAILS=0;
     LIVE={};for(const r of d.m)LIVE[String(r[0])]=r;LIVE_AT=new Date(d.t);
     const today=localKey(new Date());
     if(DAY===today||DAY===addDays(today,-1))show(DAY,true);
-  }catch(e){}
+  }catch(e){retryLive();}
+}
+// No answer: try again in 10 seconds, up to 3 times in a row (Greg, 2026-10).
+let LIVE_FAILS=0,LIVE_RETRY=null;
+function retryLive(){
+  if(LIVE_RETRY||++LIVE_FAILS>3)return;
+  LIVE_RETRY=setTimeout(()=>{LIVE_RETRY=null;pollLive();},10000);
 }
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
