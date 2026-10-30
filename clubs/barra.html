@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=73c64e96">
+<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
 <style>
 .nav-club{margin-left:auto;display:flex;align-items:center;gap:10px;min-width:0;
   opacity:0;transform:translateY(-6px);pointer-events:none;
@@ -30,6 +30,16 @@
 .nav-club span{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--green);
   white-space:nowrap;letter-spacing:1px}
 .nav-club .fi{flex:none}
+.nav-club .crest{width:26px;height:26px;flex:none}
+/* The club's crest and colour at the top of the page (Greg, 2026-10). */
+.club-header.cc{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:22px;align-items:center;
+  padding:22px 24px 22px 20px;border-radius:14px 14px 0 0;border-bottom:3px solid var(--club,var(--green-dim));
+  background:linear-gradient(120deg,color-mix(in srgb,var(--club,#1f9a46) 34%,transparent) 0%,
+    color-mix(in srgb,var(--club,#1f9a46) 10%,transparent) 55%,transparent 85%)!important}
+.club-header.cc .club-crest{grid-row:1/4;width:96px;height:96px;object-fit:contain;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+.club-header.cc>div{min-width:0}
+@media (max-width:600px){.club-header.cc{column-gap:14px;padding:16px 14px}.club-header.cc .club-crest{width:64px;height:64px}}
 /* Phones: while scrolled down, the club takes the whole bar */
 @media (max-width:600px){.nav-club b{font-size:19px}.nav-club span{font-size:11px}
   .site-nav.club-on .nav-logo{display:none}.site-nav.club-on .nav-club{margin-left:0}}
@@ -42,7 +52,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
-  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-br"></span><b>Barra</b><span><i data-live="rank" style="font-style:normal">#2617</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">737</i></span></a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><img class="crest" src="../crests/18271.png" alt="" onerror="this.remove()"><b>Barra</b><span><i data-live="rank" style="font-style:normal">#2617</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">737</i></span></a>
   <div class="header-right">
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
@@ -54,10 +64,13 @@
 
 <main class="club-page" data-tid="18271">
   <a class="back-to-rankings" href="../index.html">← See Full Rankings</a>
-  <div class="club-header">
+  <div class="club-header cc" style="--club:#2957a5">
+    <img class="club-crest" src="../crests/18271.png" alt="Barra crest" onerror="this.parentNode.classList.remove('cc');this.remove()">
     <div class="club-meta"><span class="fi fi-br"></span> <a href="../countries/brazil.html" style="color: inherit;">Brazil</a> &nbsp;·&nbsp; <a href="../leagues/brazil-serie-c.html" style="color: inherit;">Serie C</a></div>
     <h1 class="club-name">Barra</h1>
     <div class="club-rank">Rank <span data-live="rank">#2617</span> &nbsp;·&nbsp; CONMEBOL <span data-live="conf">#246</span> &nbsp;·&nbsp; Brazil <span data-live="ctry">#55</span> &nbsp;·&nbsp; Elo <span data-live="elo">736.9</span></div>
+    <div style="margin-top:12px"><button class="star" type="button" data-star data-i="18271" data-n="Barra" data-s="barra"></button></div>
+    <script src="../myclubs.js" defer></script>
   </div>
 
   <div class="club-tabs" role="tablist"><button class="club-tab on" data-tab="overview" role="tab">Overview</button><button class="club-tab" data-tab="matches" role="tab">All matches <span>59</span></button></div>
@@ -194,7 +207,7 @@
     </script>
 
 
-    <script type="application/json" id="hist-18271">{"dates": ["2026-01-08", "2026-01-12", "2026-01-15", "2026-01-19", "2026-01-22", "2026-01-26", "2026-01-29", "2026-02-02", "2026-02-05", "2026-02-09", "2026-02-12", "2026-02-16", "2026-02-19", "2026-02-23", "2026-02-26", "2026-03-02", "2026-03-05", "2026-03-09", "2026-03-12", "2026-03-16", "2026-03-19", "2026-03-23", "2026-03-26", "2026-03-30", "2026-04-02", "2026-04-06", "2026-04-09", "2026-04-13", "2026-04-16", "2026-04-20", "2026-04-23", "2026-04-27", "2026-04-30", "2026-05-04", "2026-05-07", "2026-05-11", "2026-05-14", "2026-05-18", "2026-05-21", "2026-05-25", "2026-05-28", "2026-06-01", "2026-06-04", "2026-06-08", "2026-06-11", "2026-06-15", "2026-06-18", "2026-06-22", "2026-06-25", "2026-06-29", "2026-07-02", "2026-07-06", "2026-07-09", "2026-07-13", "2026-07-16", "2026-07-20", "2026-07-23", "2026-07-27", "2026-07-30", "2026-08-03", "2026-08-06", "2026-08-10", "2026-08-13", "2026-08-17", "2026-08-20", "2026-08-24", "2026-08-27", "2026-08-31", "2026-09-03", "2026-09-07", "2026-09-10", "2026-09-14", "2026-09-17", "2026-09-21", "2026-09-24", "2026-09-28", "2026-10-01", "2026-10-05", "2026-10-08", "2026-10-12", "2026-10-15", "2026-10-19", "2026-10-22", "2026-10-26", "2026-10-29"], "e": [748.632722, 758.124852, 743.765259, 731.024835, 745.294933, 758.838764, 758.838764, 755.487488, 755.487488, 768.887886, 768.887886, 766.651489, 766.651489, 778.216635, 778.216635, 801.747229, 801.747229, 794.674621, 794.674621, 796.777578, 800.169721, 800.169721, 800.169721, 800.169721, 800.169721, 790.033874, 790.033874, 804.417227, 804.417227, 807.051832, 802.579576, 796.887056, 796.887056, 819.857028, 819.857028, 817.817335, 815.78731, 816.340298, 816.340298, 795.834768, 795.834768, 795.47737, 795.47737, 795.47737, 795.47737, 785.416538, 785.416538, 782.844243, 782.844243, 772.44305, 772.44305, 787.239914, 787.239914, 773.655801, 773.655801, 773.655801, 773.655801, 762.660546, 762.660546, 762.660546, 762.660546, 745.886128, 745.886128, 755.967092, 755.967092, 747.560526, 747.560526, 761.644152, 761.644152, 765.149665, 765.149665, 765.149665, 761.588702, 761.588702, 755.840014, 744.227793, 744.227793, 744.227793, 744.227793, 738.982762, 738.982762, 718.460859, 718.460859, 736.895267, 736.895267], "r": [2564, 2500, 2607, 2695, 2600, 2490, 2490, 2520, 2517, 2425, 2426, 2450, 2450, 2367, 2365, 2162, 2167, 2225, 2227, 2202, 2175, 2175, 2176, 2185, 2185, 2277, 2271, 2157, 2149, 2128, 2170, 2203, 2209, 2005, 2005, 2013, 2035, 2024, 2023, 2197, 2192, 2189, 2187, 2192, 2192, 2277, 2278, 2295, 2293, 2373, 2374, 2262, 2261, 2339, 2332, 2340, 2335, 2435, 2438, 2434, 2430, 2556, 2560, 2514, 2516, 2576, 2578, 2484, 2482, 2460, 2458, 2451, 2489, 2487, 2528, 2600, 2599, 2591, 2581, 2611, 2610, 2753, 2754, 2615, 2617]}</script>
+    <script type="application/json" id="hist-18271">{"dates": ["2026-01-08", "2026-01-12", "2026-01-15", "2026-01-19", "2026-01-22", "2026-01-26", "2026-01-29", "2026-02-02", "2026-02-05", "2026-02-09", "2026-02-12", "2026-02-16", "2026-02-19", "2026-02-23", "2026-02-26", "2026-03-02", "2026-03-05", "2026-03-09", "2026-03-12", "2026-03-16", "2026-03-19", "2026-03-23", "2026-03-26", "2026-03-30", "2026-04-02", "2026-04-06", "2026-04-09", "2026-04-13", "2026-04-16", "2026-04-20", "2026-04-23", "2026-04-27", "2026-04-30", "2026-05-04", "2026-05-07", "2026-05-11", "2026-05-14", "2026-05-18", "2026-05-21", "2026-05-25", "2026-05-28", "2026-06-01", "2026-06-04", "2026-06-08", "2026-06-11", "2026-06-15", "2026-06-18", "2026-06-22", "2026-06-25", "2026-06-29", "2026-07-02", "2026-07-06", "2026-07-09", "2026-07-13", "2026-07-16", "2026-07-20", "2026-07-23", "2026-07-27", "2026-07-30", "2026-08-03", "2026-08-06", "2026-08-10", "2026-08-13", "2026-08-17", "2026-08-20", "2026-08-24", "2026-08-27", "2026-08-31", "2026-09-03", "2026-09-07", "2026-09-10", "2026-09-14", "2026-09-17", "2026-09-21", "2026-09-24", "2026-09-28", "2026-10-01", "2026-10-05", "2026-10-08", "2026-10-12", "2026-10-15", "2026-10-19", "2026-10-22", "2026-10-26", "2026-10-29"], "e": [748.664447, 758.157736, 743.799068, 731.058628, 745.32986, 758.875033, 758.875033, 755.524748, 755.524748, 768.926172, 768.926172, 766.690502, 766.690502, 778.256634, 778.256634, 801.783134, 801.783134, 794.70836, 794.70836, 796.800506, 800.190295, 800.190295, 800.190295, 800.190295, 800.190295, 790.054652, 790.054652, 804.439481, 804.439481, 807.072669, 802.602008, 796.910042, 796.910042, 819.882532, 819.882532, 817.84343, 815.813891, 816.366916, 816.366916, 795.863089, 795.863089, 795.506237, 795.506237, 795.506237, 795.506237, 785.445154, 785.445154, 782.87209, 782.87209, 772.471318, 772.471318, 787.268257, 787.268257, 773.684982, 773.684982, 773.684982, 773.684982, 762.691027, 762.691027, 762.691027, 762.691027, 745.918577, 745.918577, 756.000338, 756.000338, 747.60685, 747.60685, 761.690048, 761.690048, 765.195821, 765.195821, 765.195821, 761.635511, 761.635511, 755.887173, 744.275625, 744.275625, 744.275625, 744.275625, 739.030929, 739.030929, 718.509613, 718.509613, 736.945077, 736.945077], "r": [2564, 2498, 2607, 2695, 2599, 2490, 2490, 2520, 2517, 2425, 2426, 2450, 2450, 2367, 2364, 2162, 2167, 2225, 2227, 2202, 2175, 2175, 2176, 2185, 2185, 2277, 2271, 2157, 2149, 2128, 2169, 2203, 2209, 2005, 2005, 2012, 2035, 2024, 2023, 2197, 2192, 2189, 2187, 2192, 2192, 2277, 2278, 2295, 2293, 2373, 2374, 2262, 2261, 2339, 2332, 2340, 2335, 2434, 2438, 2434, 2430, 2556, 2559, 2514, 2516, 2575, 2577, 2484, 2482, 2460, 2458, 2451, 2489, 2487, 2527, 2600, 2599, 2591, 2581, 2611, 2610, 2753, 2754, 2615, 2617]}</script>
     <div class="charts-grid">
       <div class="chart-panel">
         <div class="chart-controls">
@@ -343,9 +356,9 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
     <div class="section">
       <h2>Nearby in Rankings</h2>
       <div class="related-grid">
-      <a class="related-link" href="diambars.html">#2613 Diambars</a>
-      <a class="related-link" href="hegelmann-litauen.html">#2614 Hegelmann Litauen</a>
-      <a class="related-link" href="viktoria-zizkov.html">#2616 Viktoria Žižkov</a>
+      <a class="related-link" href="hegelmann-litauen.html">#2613 Hegelmann Litauen</a>
+      <a class="related-link" href="viktoria-zizkov.html">#2615 Viktoria Žižkov</a>
+      <a class="related-link" href="hougang-united.html">#2616 Hougang United</a>
       <a class="related-link" href="platinum.html">#2619 Platinum</a>
       <a class="related-link" href="rsc-anderlecht-ii.html">#2620 RSC Anderlecht II</a>
       <a class="related-link" href="caiquetio.html">#2621 Caiquetio</a>

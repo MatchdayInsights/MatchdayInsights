@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=73c64e96">
+<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
 <style>
 .nav-club{margin-left:auto;display:flex;align-items:center;gap:10px;min-width:0;
   opacity:0;transform:translateY(-6px);pointer-events:none;
@@ -30,6 +30,16 @@
 .nav-club span{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--green);
   white-space:nowrap;letter-spacing:1px}
 .nav-club .fi{flex:none}
+.nav-club .crest{width:26px;height:26px;flex:none}
+/* The club's crest and colour at the top of the page (Greg, 2026-10). */
+.club-header.cc{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:22px;align-items:center;
+  padding:22px 24px 22px 20px;border-radius:14px 14px 0 0;border-bottom:3px solid var(--club,var(--green-dim));
+  background:linear-gradient(120deg,color-mix(in srgb,var(--club,#1f9a46) 34%,transparent) 0%,
+    color-mix(in srgb,var(--club,#1f9a46) 10%,transparent) 55%,transparent 85%)!important}
+.club-header.cc .club-crest{grid-row:1/4;width:96px;height:96px;object-fit:contain;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+.club-header.cc>div{min-width:0}
+@media (max-width:600px){.club-header.cc{column-gap:14px;padding:16px 14px}.club-header.cc .club-crest{width:64px;height:64px}}
 /* Phones: while scrolled down, the club takes the whole bar */
 @media (max-width:600px){.nav-club b{font-size:19px}.nav-club span{font-size:11px}
   .site-nav.club-on .nav-logo{display:none}.site-nav.club-on .nav-club{margin-left:0}}
@@ -42,7 +52,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
-  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-ni"></span><b>San Marcos</b><span><i data-live="rank" style="font-style:normal">#3369</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">547</i></span></a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><img class="crest" src="../crests/28553.png" alt="" onerror="this.remove()"><b>San Marcos</b><span><i data-live="rank" style="font-style:normal">#3369</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">547</i></span></a>
   <div class="header-right">
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
@@ -54,11 +64,14 @@
 
 <main class="club-page" data-tid="28553">
   <a class="back-to-rankings" href="../index.html">← See Full Rankings</a>
-  <div class="club-header">
+  <div class="club-header cc">
+    <img class="club-crest" src="../crests/28553.png" alt="San Marcos crest" onerror="this.parentNode.classList.remove('cc');this.remove()">
     <div class="club-meta"><span class="fi fi-ni"></span> <a href="../countries/nicaragua.html" style="color: inherit;">Nicaragua</a> &nbsp;·&nbsp; <a href="../leagues/nicaragua-primera-division.html" style="color: inherit;">Primera Division</a></div>
     <h1 class="club-name">San Marcos</h1>
     <div class="club-rank">Rank <span class="record-box-red"><span data-live="rank">#3369</span></span> &nbsp;·&nbsp; CONCACAF <span data-live="conf">#201</span> &nbsp;·&nbsp; Nicaragua <span data-live="ctry">#9</span> &nbsp;·&nbsp; Elo <span data-live="elo">547.1</span>
     <div class="record-statement low">new all-time-low rank</div></div>
+    <div style="margin-top:12px"><button class="star" type="button" data-star data-i="28553" data-n="San Marcos" data-s="san-marcos"></button></div>
+    <script src="../myclubs.js" defer></script>
   </div>
 
   <div class="club-tabs" role="tablist"><button class="club-tab on" data-tab="overview" role="tab">Overview</button><button class="club-tab" data-tab="matches" role="tab">All matches <span>15</span></button></div>
@@ -195,7 +208,7 @@
     </script>
 
 
-    <script type="application/json" id="hist-28553">{"dates": ["2026-07-20", "2026-07-23", "2026-07-27", "2026-07-30", "2026-08-03", "2026-08-06", "2026-08-10", "2026-08-13", "2026-08-17", "2026-08-20", "2026-08-24", "2026-08-27", "2026-08-31", "2026-09-03", "2026-09-07", "2026-09-10", "2026-09-14", "2026-09-17", "2026-09-21", "2026-09-24", "2026-09-28", "2026-10-01", "2026-10-05", "2026-10-08", "2026-10-12", "2026-10-15", "2026-10-19", "2026-10-22", "2026-10-26", "2026-10-29"], "e": [597.354901, 597.354901, 603.281575, 610.945223, 596.153384, 595.790715, 581.976018, 585.752175, 570.015162, 553.460011, 565.723809, 560.668653, 573.374022, 568.422273, 588.283874, 588.283874, 588.283874, 588.283874, 588.283874, 588.283874, 588.283874, 588.283874, 588.283874, 582.423284, 563.786448, 560.6367, 552.802968, 552.802968, 551.512913, 547.050405], "r": [3135, 3134, 3145, 3131, 3167, 3169, 3218, 3210, 3272, 3296, 3293, 3301, 3290, 3292, 3316, 3314, 3308, 3312, 3321, 3320, 3315, 3312, 3308, 3310, 3346, 3352, 3363, 3361, 3369, 3369]}</script>
+    <script type="application/json" id="hist-28553">{"dates": ["2026-07-20", "2026-07-23", "2026-07-27", "2026-07-30", "2026-08-03", "2026-08-06", "2026-08-10", "2026-08-13", "2026-08-17", "2026-08-20", "2026-08-24", "2026-08-27", "2026-08-31", "2026-09-03", "2026-09-07", "2026-09-10", "2026-09-14", "2026-09-17", "2026-09-21", "2026-09-24", "2026-09-28", "2026-10-01", "2026-10-05", "2026-10-08", "2026-10-12", "2026-10-15", "2026-10-19", "2026-10-22", "2026-10-26", "2026-10-29"], "e": [597.354901, 597.354901, 603.281575, 610.945223, 596.153384, 595.790714, 581.976018, 585.752181, 570.015177, 553.460025, 565.723823, 560.668666, 573.374035, 568.422286, 588.283887, 588.283887, 588.283887, 588.283887, 588.283887, 588.283887, 588.283887, 588.283887, 588.283887, 582.423298, 563.786462, 560.636714, 552.802982, 552.802982, 551.512927, 547.05042], "r": [3135, 3134, 3145, 3131, 3167, 3169, 3218, 3210, 3272, 3296, 3293, 3301, 3290, 3292, 3316, 3314, 3308, 3312, 3321, 3320, 3315, 3312, 3308, 3310, 3346, 3352, 3363, 3361, 3369, 3369]}</script>
     <div class="charts-grid">
       <div class="chart-panel">
         <div class="chart-controls">

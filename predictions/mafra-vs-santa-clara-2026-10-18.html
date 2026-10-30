@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=b1620aec">
+<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -43,6 +43,25 @@
 .hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
 .hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
 .hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+.club-cell .country-badge{min-width:30px;justify-content:center}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
 .hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
 .hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
 .hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
@@ -81,6 +100,18 @@ tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
 td{padding:10px 14px;vertical-align:middle}
 .td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
 .top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
+th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-space:normal;max-width:96px;line-height:1.3}
+/* Phones: tighter columns so the club name has room (Greg, 2026-10). */
+@media(max-width:640px){
+  th{padding:8px 8px}td{padding:9px 8px}
+  table{min-width:480px}
+  .td-rank,.td-rank.local{width:52px}.td-move{width:38px}.td-result{width:96px}
+  .td-club{max-width:170px}
+}
 .td-move{width:56px}
 .move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
 .move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
@@ -157,6 +188,59 @@ td{padding:10px 14px;vertical-align:middle}
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
+</style><style>
+/* Match pages (Greg, 2026-10: FotMob-style). Scoreboard with crests; for a
+   played match, a Match tab (events, stats, lineups) beside the Preview. */
+.sb{margin:26px 0 6px;border-radius:16px;padding:16px 16px 18px;background:var(--surface2);border:1px solid var(--border2)}
+.sb-meta{text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sb-row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin-top:14px}
+.sb-t{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;text-decoration:none!important;color:var(--text)!important;min-width:0}
+.sb-t img{width:72px;height:72px;object-fit:contain}
+.sb-t span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(18px,3.4vw,26px);text-transform:uppercase;
+  letter-spacing:.03em;line-height:1.05;display:block;max-width:100%;overflow:hidden;overflow-wrap:normal;word-break:normal}
+.sb-t small{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+.sb-mid{text-align:center;min-width:90px}
+.sb-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(40px,8vw,58px);line-height:1;color:var(--text)}
+.sb-time{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(26px,5vw,36px);color:var(--text)}
+.sb-st{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.sb-h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:18px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--text2);text-align:center;margin:12px 0 0}
+.mtabs{display:flex;gap:4px;border-bottom:1px solid var(--border2);margin:20px 0 6px}
+.mtabs button{background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:8px 16px 9px;cursor:pointer;
+  font-family:'Barlow Condensed',sans-serif;font-size:19px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--text2)}
+.mtabs button.on{color:var(--green);border-bottom-color:var(--green)}
+.mpanel[hidden]{display:none}
+.mf{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text2)}
+.mf h3{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:22px 0 8px;text-align:center}
+.mf .meta{text-align:center;font-size:11px;color:var(--muted);line-height:1.7;margin-top:12px}
+.mf .ev{display:grid;grid-template-columns:minmax(0,1fr) 52px minmax(0,1fr);gap:8px;align-items:center;padding:5px 0;
+  border-bottom:1px solid var(--border)}
+.mf .ev .mn{text-align:center;color:var(--muted);font-size:11.5px}
+.mf .ev .eh{text-align:right}
+.mf .who{color:var(--text)}
+.mf .sub2{color:var(--muted);font-size:11px}
+.mf .ic{display:inline-block;width:10px;height:13px;border-radius:2px;vertical-align:-1px;margin:0 5px}
+.mf .ic.y{background:#f2c200}.mf .ic.r{background:#e5484d}.mf .ic.yr{background:linear-gradient(90deg,#f2c200 50%,#e5484d 50%)}
+.mf .in{color:var(--green)}.mf .out{color:var(--red)}
+.mf .strow{display:grid;grid-template-columns:52px 1fr 52px;gap:10px;align-items:center;margin:8px 0}
+.mf .strow .v{color:var(--text);font-weight:600}.mf .strow .v.r{text-align:right}
+.mf .strow .lab{text-align:center;font-size:11px;color:var(--muted)}
+.mf .strow .sbar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:4px;background:var(--border);gap:2px}
+.mf .strow .sbar span{display:block;height:100%}
+.mf .lus{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.mf .lus .t{font-weight:700;color:var(--text);margin-bottom:4px}
+.mf .lus .f{color:var(--muted);font-size:11px;margin-bottom:8px}
+.mf .lus ol{list-style:none;margin:0;padding:0}
+.mf .lus li{padding:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mf .lus li .no{display:inline-block;min-width:24px;color:var(--muted)}
+.mf .lus .bn{margin-top:10px;color:var(--muted);font-size:11px}
+.mf .none{text-align:center;color:var(--muted);padding:18px 0}
+@media (max-width:600px){.sb-t img{width:52px;height:52px}.sb{padding:14px 10px 16px}.mf{font-size:12px}}
+/* Phones: the kick-off date in the middle wraps, so the club names either
+   side get the room - and a name that still won't fit at the smallest
+   size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
+@media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Mafra vs Santa Clara", "sport": "Soccer", "startDate": "2026-10-18T14:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Estadio Municipal de Mafra", "address": {"@type": "PostalAddress", "addressLocality": "Mafra", "addressCountry": "PT"}}, "homeTeam": {"@type": "SportsTeam", "name": "Mafra"}, "awayTeam": {"@type": "SportsTeam", "name": "Santa Clara"}, "competitor": [{"@type": "SportsTeam", "name": "Mafra"}, {"@type": "SportsTeam", "name": "Santa Clara"}], "performer": [{"@type": "SportsTeam", "name": "Mafra"}, {"@type": "SportsTeam", "name": "Santa Clara"}], "organizer": {"@type": "SportsOrganization", "name": "Ta\u00e7a de Portugal"}, "description": "Mafra vs Santa Clara prediction for Sunday 18 October 2026: our model gives Mafra 16%, a draw 21% and Santa Clara 63%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/mafra-vs-santa-clara-2026-10-18.html", "endDate": "2026-10-18T16:00:00+00:00"}</script>
 
 <style>
@@ -180,7 +264,7 @@ td{padding:10px 14px;vertical-align:middle}
     <div class="nav-sub">Global Club Rankings</div>
   </a>
   <div class="header-right">
-    <span class="update-chip">&#x2B21; Updated October 23, 2026</span>
+    <span class="update-chip">&#x2B21; Updated October 29, 2026</span>
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
     <a href="../predictions.html" class="ig-link on">Predictions</a>
@@ -194,27 +278,22 @@ td{padding:10px 14px;vertical-align:middle}
 </nav>
 
 <div class="pp">
-
-<div style="padding:34px 0 8px">
-  <div style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;
-    text-transform:uppercase;opacity:.7">Taça de Portugal · Round of 64 · Sun 18 Oct, 14:00 UTC</div>
-  <h1 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(34px,7vw,58px);
-    text-transform:uppercase;line-height:.95;margin:10px 0 0">Mafra vs Santa Clara<br>
-    <span style="color:var(--green,#3dba5e)">prediction</span></h1>
-</div>
+<!-- match-page-v2 -->
+<div class='sb'><div class='sb-meta'>Taça de Portugal &middot; Round of 64</div><div class='sb-row'><a class='sb-t' href='../clubs/mafra.html'><img src='../crests/245.png' alt='' onerror='this.remove()'><span>Mafra</span><small>#835 in the world</small></a><div class='sb-mid'><div class='sb-score'>3 - 2</div><div class='sb-st'>Full time</div></div><a class='sb-t' href='../clubs/santa-clara.html'><img src='../crests/227.png' alt='' onerror='this.remove()'><span>Santa Clara</span><small>#177 in the world</small></a></div></div><h1 class='sb-h1'>Mafra vs Santa Clara prediction &amp; odds</h1>
 <div class='verdict'><b>Full time: Mafra 3-2 Santa Clara.</b> We had Santa Clara as the most likely result at 63% - and it went the other way. The chance we gave the actual result: 16%.</div>
-<p>Mafra host Santa Clara in the Taça de Portugal (Round of 64) on Sunday 18 October 2026. Mafra are #812 in our world ranking and have won 2, drawn 2 and lost 1 of their last 5; Santa Clara are #177 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 635 places - in Santa Clara's favour.</p>
+<div class="mtabs"><button type="button" data-t="m" class="on">Match</button><button type="button" data-t="p">Preview</button></div><div class="mpanel mf" id="tab-m" data-fid="1641817" data-h="Mafra" data-a="Santa Clara"><div class="none">Loading&hellip;</div></div><div class="mpanel" id="tab-p" hidden>
+<p>Mafra host Santa Clara in the Taça de Portugal (Round of 64) on Sunday 18 October 2026. Mafra are #835 in our world ranking and have won 1, drawn 3 and lost 1 of their last 5; Santa Clara are #177 and have won 2, drawn 1 and lost 2 of their last 5. On paper that's a big gap - 658 places - in Santa Clara's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Santa Clara the favourites at 63%, with a draw at 21% and Mafra at 16%.</p>
 <div class='oddsbar'><i style='width:15.9%;background:#1f9a46'></i><i style='width:21.5%;background:#5a6888'></i><i style='width:62.6%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Mafra 16%</span>
   <span>Draw 21%</span><span style="color:#d43c44">Santa Clara 63%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/mafra.html'>Mafra</a></div><div class='st'>World rank: <b>#812</b><br>Rating: <b>1007</b><br>Chance to win: <b>16%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Santa Clara'>W</span><span class='chip' style='background:#5a6888' title='CF Os Belenenses'>D</span><span class='chip' style='background:#5a6888' title='Tirsense'>D</span><span class='chip' style='background:#d43c44' title='Oliveirense'>L</span><span class='chip' style='background:#1f9a46' title='SC Covilha'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/santa-clara.html'>Santa Clara</a></div><div class='st'>World rank: <b>#177</b><br>Rating: <b>1253</b><br>Chance to win: <b>63%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Mafra'>L</span><span class='chip' style='background:#1f9a46' title='Casa Pia'>W</span><span class='chip' style='background:#5a6888' title='SC Braga'>D</span><span class='chip' style='background:#1f9a46' title='Arouca'>W</span><span class='chip' style='background:#1f9a46' title='Rio Ave'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/mafra.html'>Mafra</a></div><div class='st'>World rank: <b>#835</b><br>Rating: <b>1004</b><br>Chance to win: <b>16%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Caldas'>D</span><span class='chip' style='background:#1f9a46' title='Santa Clara'>W</span><span class='chip' style='background:#5a6888' title='CF Os Belenenses'>D</span><span class='chip' style='background:#5a6888' title='Tirsense'>D</span><span class='chip' style='background:#d43c44' title='Oliveirense'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/santa-clara.html'>Santa Clara</a></div><div class='st'>World rank: <b>#177</b><br>Rating: <b>1249</b><br>Chance to win: <b>63%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Benfica'>L</span><span class='chip' style='background:#d43c44' title='Mafra'>L</span><span class='chip' style='background:#1f9a46' title='Casa Pia'>W</span><span class='chip' style='background:#5a6888' title='SC Braga'>D</span><span class='chip' style='background:#1f9a46' title='Arouca'>W</span></div></div>
 </div>
 <h2>Who will win Mafra vs Santa Clara?</h2>
-<p>Mafra are #812 and Santa Clara #177 in our world ranking of
+<p>Mafra are #835 and Santa Clara #177 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Santa Clara</b> (63%). More from the <a href='../leagues/portugal-campeonato-de-portugal-prio.html'>Campeonato de Portugal Prio</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-10-18</td><td>Mafra v Santa Clara</td><td class='r'><b>3-2</b></td></tr><tr><td>2024-05-12</td><td>Mafra v Santa Clara</td><td class='r'><b>0-2</b></td></tr><tr><td>2024-01-06</td><td>Santa Clara v Mafra</td><td class='r'><b>0-1</b></td></tr></table>
@@ -225,6 +304,55 @@ sits on the same scale. Before each match the two ratings, adjusted for home adv
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+</div>
+<script>
+(function(){
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function fitNames(sel){const go=()=>document.querySelectorAll(sel).forEach(el=>{el.style.fontSize='';el.style.overflowWrap='';let f=parseFloat(getComputedStyle(el).fontSize);while(el.scrollWidth>el.clientWidth+1&&f>11){f-=1;el.style.fontSize=f+'px';}if(el.scrollWidth>el.clientWidth+1)el.style.overflowWrap='anywhere';});go();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);addEventListener('resize',go);}
+fitNames('.sb-t span');
+// Kick-off in the reader's own time zone.
+document.querySelectorAll('[data-k]').forEach(el=>{const d=new Date(el.dataset.k);if(isNaN(d))return;
+  el.textContent=el.dataset.f==='t'?d.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})
+    :d.toLocaleDateString([],{weekday:'long',day:'numeric',month:'long'});});
+const tabs=document.querySelector('.mtabs');
+if(tabs)tabs.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  tabs.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('.mpanel').forEach(p=>p.hidden=p.id!=='tab-'+b.dataset.t);});
+const box=document.getElementById('tab-m'); if(!box)return;
+const H=box.dataset.h, A=box.dataset.a;
+function evLine(e){
+  const [mn,ex,sd,k,p,o]=e, t=`${mn}${ex?'+'+ex:''}'`;
+  let x='';
+  if(k==='g'||k==='p'||k==='og')x=`&#9917; <span class="who">${esc(p)}</span>${k==='p'?' (pen)':k==='og'?' (og)':''}${o&&k==='g'?`<br><span class="sub2">assist ${esc(o)}</span>`:''}`;
+  else if(k==='mp')x=`&#10005; <span class="who">${esc(p)}</span> <span class="sub2">missed pen</span>`;
+  else if(k==='y'||k==='r'||k==='yr')x=`<i class="ic ${k}"></i><span class="who">${esc(p)}</span>`;
+  else if(k==='s')x=`<span class="in">&#9650;</span> <span class="who">${esc(p)}</span><br><span class="out">&#9660;</span> <span class="sub2">${esc(o)}</span>`;
+  else if(k==='v')x=`<span class="sub2">VAR: ${esc(o)}${p?' &middot; '+esc(p):''}</span>`;
+  return sd==='h'?`<div class="ev"><div class="eh">${x}</div><div class="mn">${t}</div><div></div></div>`
+                 :`<div class="ev"><div></div><div class="mn">${t}</div><div>${x}</div></div>`;
+}
+function statRow(s){
+  let [lab,h,a]=s; lab=String(lab).replace(/_/g,' ').replace(/^\w/,c=>c.toUpperCase()).replace(/^Expected goals$/i,'Expected goals (xG)');
+  const n=v=>parseFloat(String(v).replace('%',''))||0, tot=n(h)+n(a), hp=tot?n(h)/tot*100:50;
+  return `<div class="strow"><span class="v">${esc(h)}</span><div><div class="lab">${esc(lab)}</div><div class="sbar"><span style="width:${hp}%;background:#3dba5e"></span><span style="width:${100-hp}%;background:#e5484d"></span></div></div><span class="v r">${esc(a)}</span></div>`;
+}
+function lineup(t,name){
+  if(!t)return `<div><div class="t">${esc(name)}</div><div class="f">No lineup</div></div>`;
+  const li=r=>`<li><span class="no">${r[0]??''}</span>${esc(r[1])}</li>`;
+  return `<div><div class="t">${esc(name)}</div><div class="f">${esc(t.f||'')}${t.c?' &middot; '+esc(t.c):''}</div><ol>${t.xi.map(li).join('')}</ol>${t.bn&&t.bn.length?`<div class="bn">Bench: ${t.bn.map(r=>esc(r[1])).join(', ')}</div>`:''}</div>`;
+}
+fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null).then(d=>{
+  if(!d){box.innerHTML='<div class="none">No goals, cards or lineups for this match yet - see the Preview tab.</div>';return;}
+  let h='';
+  if(d.ev&&d.ev.length)h+=`<h3>Match events</h3>${d.ev.map(evLine).join('')}`;
+  if(d.st&&d.st.length)h+=`<h3>Stats</h3>${d.st.map(statRow).join('')}`;
+  if(d.lu)h+=`<h3>Lineups</h3><div class="lus">${lineup(d.lu.h,H)}${lineup(d.lu.a,A)}</div>`;
+  const meta=[d.ht?`Half time ${d.ht[0]}-${d.ht[1]}`:'',d.ven||'',d.ref?`Referee: ${d.ref}`:''].filter(Boolean);
+  if(meta.length)h+=`<div class="meta">${meta.map(esc).join('<br>')}</div>`;
+  box.innerHTML=h||'<div class="none">No goals, cards or lineups for this match yet.</div>';
+});
+})();
+</script>
 <footer class="site-footer">
   <p>&copy; 2026 Matchday Insights &nbsp;·&nbsp; <a href="../index.html">Rankings</a>
   &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a>

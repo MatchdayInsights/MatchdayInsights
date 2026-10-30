@@ -610,3 +610,6 @@ thead tr{background:#f9faf6}
    own font keep it. */
 button { font-family: inherit; }
 .day b { font-family: 'Barlow Condensed', sans-serif; letter-spacing: .03em; }
+
+/* No more NEW tag on Predictions, or its dot on phones (Greg, 2026-10). */
+.site-nav .header-right .ig-link[href$="predictions.html"]::after { content: none !important; display: none !important; }

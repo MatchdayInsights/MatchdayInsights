@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=73c64e96">
+<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
 <style>
 .nav-club{margin-left:auto;display:flex;align-items:center;gap:10px;min-width:0;
   opacity:0;transform:translateY(-6px);pointer-events:none;
@@ -30,6 +30,16 @@
 .nav-club span{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--green);
   white-space:nowrap;letter-spacing:1px}
 .nav-club .fi{flex:none}
+.nav-club .crest{width:26px;height:26px;flex:none}
+/* The club's crest and colour at the top of the page (Greg, 2026-10). */
+.club-header.cc{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:22px;align-items:center;
+  padding:22px 24px 22px 20px;border-radius:14px 14px 0 0;border-bottom:3px solid var(--club,var(--green-dim));
+  background:linear-gradient(120deg,color-mix(in srgb,var(--club,#1f9a46) 34%,transparent) 0%,
+    color-mix(in srgb,var(--club,#1f9a46) 10%,transparent) 55%,transparent 85%)!important}
+.club-header.cc .club-crest{grid-row:1/4;width:96px;height:96px;object-fit:contain;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+.club-header.cc>div{min-width:0}
+@media (max-width:600px){.club-header.cc{column-gap:14px;padding:16px 14px}.club-header.cc .club-crest{width:64px;height:64px}}
 /* Phones: while scrolled down, the club takes the whole bar */
 @media (max-width:600px){.nav-club b{font-size:19px}.nav-club span{font-size:11px}
   .site-nav.club-on .nav-logo{display:none}.site-nav.club-on .nav-club{margin-left:0}}
@@ -42,7 +52,7 @@
     <div class="nav-brand">Matchday Insights</div>
     <div class="nav-sub">Global Club Elo Ratings</div>
   </a>
-  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><span class="fi fi-es"></span><b>Gimnástica Torrelavega</b><span><i data-live="rank" style="font-style:normal">#2861</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">700</i></span></a>
+  <a class="nav-club" id="nav-club" href="#top" aria-hidden="true"><img class="crest" src="../crests/5264.png" alt="" onerror="this.remove()"><b>Gimnástica Torrelavega</b><span><i data-live="rank" style="font-style:normal">#2861</i> &nbsp;·&nbsp; <i data-live="elo0" style="font-style:normal">700</i></span></a>
   <div class="header-right">
     <a href="../index.html" class="ig-link">Rankings</a>
     <a href="../matches.html" class="ig-link">Matches</a>
@@ -54,10 +64,13 @@
 
 <main class="club-page" data-tid="5264">
   <a class="back-to-rankings" href="../index.html">← See Full Rankings</a>
-  <div class="club-header">
+  <div class="club-header cc" style="--club:#d82417">
+    <img class="club-crest" src="../crests/5264.png" alt="Gimnástica Torrelavega crest" onerror="this.parentNode.classList.remove('cc');this.remove()">
     <div class="club-meta"><span class="fi fi-es"></span> <a href="../countries/spain.html" style="color: inherit;">Spain</a> &nbsp;·&nbsp; <a href="../leagues/spain-segunda-division-rfef.html" style="color: inherit;">Segunda División RFEF</a></div>
     <h1 class="club-name">Gimnástica Torrelavega</h1>
     <div class="club-rank">Rank <span data-live="rank">#2861</span> &nbsp;·&nbsp; UEFA <span data-live="conf">#1445</span> &nbsp;·&nbsp; Spain <span data-live="ctry">#163</span> &nbsp;·&nbsp; Elo <span data-live="elo">700.1</span></div>
+    <div style="margin-top:12px"><button class="star" type="button" data-star data-i="5264" data-n="Gimnástica Torrelavega" data-s="gimnastica-torrelavega"></button></div>
+    <script src="../myclubs.js" defer></script>
   </div>
 
   <div class="club-tabs" role="tablist"><button class="club-tab on" data-tab="overview" role="tab">Overview</button><button class="club-tab" data-tab="matches" role="tab">All matches <span>117</span></button></div>

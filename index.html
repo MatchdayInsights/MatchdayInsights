@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="club-page.css?v=dc4f0dfb">
+<link rel="stylesheet" href="club-page.css?v=257f5f5b">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -185,7 +185,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">289,204</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">289,205</div><div class="hstat-label">Matches Analysed</div></div>
     <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
   </div>
 </div>
@@ -294,7 +294,7 @@ async function init() {
 
   document.getElementById('stat-clubs').textContent = CLUBS.length.toLocaleString();
   const leagueCount = new Set(CLUBS.map(c => c.league_code).filter(Boolean)).size;
-  document.getElementById('stat-leagues').textContent = leagueCount.toLocaleString() + '+';
+  document.getElementById('stat-leagues').textContent = leagueCount.toLocaleString();  // no '+' (Greg, 2026-10)
 
 // Featured upcoming matches - the five with the highest average rating
 // of the two clubs, from predictions.json. Hidden entirely if that file

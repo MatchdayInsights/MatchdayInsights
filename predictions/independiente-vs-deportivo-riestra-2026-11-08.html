@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=73c64e96">
+<link rel="stylesheet" href="../club-page.css?v=257f5f5b">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -45,6 +45,7 @@
 .hero-title em{font-style:normal;color:var(--green)}
 /* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
 .hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+.club-cell .country-badge{min-width:30px;justify-content:center}
 /* Phone held upright: rank (move under it), club, rating (change under it) -
    the whole row on screen. The full table when turned sideways. */
 .m-mv,.m-chg{display:none}
@@ -187,6 +188,59 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .pplist .cmp{font-size:11px;opacity:.7}
 @media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
   .pplist li .odds{grid-column:2}}
+</style><style>
+/* Match pages (Greg, 2026-10: FotMob-style). Scoreboard with crests; for a
+   played match, a Match tab (events, stats, lineups) beside the Preview. */
+.sb{margin:26px 0 6px;border-radius:16px;padding:16px 16px 18px;background:var(--surface2);border:1px solid var(--border2)}
+.sb-meta{text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sb-row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin-top:14px}
+.sb-t{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;text-decoration:none!important;color:var(--text)!important;min-width:0}
+.sb-t img{width:72px;height:72px;object-fit:contain}
+.sb-t span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(18px,3.4vw,26px);text-transform:uppercase;
+  letter-spacing:.03em;line-height:1.05;display:block;max-width:100%;overflow:hidden;overflow-wrap:normal;word-break:normal}
+.sb-t small{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+.sb-mid{text-align:center;min-width:90px}
+.sb-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(40px,8vw,58px);line-height:1;color:var(--text)}
+.sb-time{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(26px,5vw,36px);color:var(--text)}
+.sb-st{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.sb-h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:18px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--text2);text-align:center;margin:12px 0 0}
+.mtabs{display:flex;gap:4px;border-bottom:1px solid var(--border2);margin:20px 0 6px}
+.mtabs button{background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:8px 16px 9px;cursor:pointer;
+  font-family:'Barlow Condensed',sans-serif;font-size:19px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--text2)}
+.mtabs button.on{color:var(--green);border-bottom-color:var(--green)}
+.mpanel[hidden]{display:none}
+.mf{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text2)}
+.mf h3{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:22px 0 8px;text-align:center}
+.mf .meta{text-align:center;font-size:11px;color:var(--muted);line-height:1.7;margin-top:12px}
+.mf .ev{display:grid;grid-template-columns:minmax(0,1fr) 52px minmax(0,1fr);gap:8px;align-items:center;padding:5px 0;
+  border-bottom:1px solid var(--border)}
+.mf .ev .mn{text-align:center;color:var(--muted);font-size:11.5px}
+.mf .ev .eh{text-align:right}
+.mf .who{color:var(--text)}
+.mf .sub2{color:var(--muted);font-size:11px}
+.mf .ic{display:inline-block;width:10px;height:13px;border-radius:2px;vertical-align:-1px;margin:0 5px}
+.mf .ic.y{background:#f2c200}.mf .ic.r{background:#e5484d}.mf .ic.yr{background:linear-gradient(90deg,#f2c200 50%,#e5484d 50%)}
+.mf .in{color:var(--green)}.mf .out{color:var(--red)}
+.mf .strow{display:grid;grid-template-columns:52px 1fr 52px;gap:10px;align-items:center;margin:8px 0}
+.mf .strow .v{color:var(--text);font-weight:600}.mf .strow .v.r{text-align:right}
+.mf .strow .lab{text-align:center;font-size:11px;color:var(--muted)}
+.mf .strow .sbar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:4px;background:var(--border);gap:2px}
+.mf .strow .sbar span{display:block;height:100%}
+.mf .lus{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.mf .lus .t{font-weight:700;color:var(--text);margin-bottom:4px}
+.mf .lus .f{color:var(--muted);font-size:11px;margin-bottom:8px}
+.mf .lus ol{list-style:none;margin:0;padding:0}
+.mf .lus li{padding:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mf .lus li .no{display:inline-block;min-width:24px;color:var(--muted)}
+.mf .lus .bn{margin-top:10px;color:var(--muted);font-size:11px}
+.mf .none{text-align:center;color:var(--muted);padding:18px 0}
+@media (max-width:600px){.sb-t img{width:52px;height:52px}.sb{padding:14px 10px 16px}.mf{font-size:12px}}
+/* Phones: the kick-off date in the middle wraps, so the club names either
+   side get the room - and a name that still won't fit at the smallest
+   size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
+@media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
 </style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Independiente vs Deportivo Riestra", "sport": "Soccer", "startDate": "2026-11-08T21:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Independiente home ground", "address": {"@type": "PostalAddress", "addressCountry": "AR"}}, "homeTeam": {"@type": "SportsTeam", "name": "Independiente"}, "awayTeam": {"@type": "SportsTeam", "name": "Deportivo Riestra"}, "competitor": [{"@type": "SportsTeam", "name": "Independiente"}, {"@type": "SportsTeam", "name": "Deportivo Riestra"}], "performer": [{"@type": "SportsTeam", "name": "Independiente"}, {"@type": "SportsTeam", "name": "Deportivo Riestra"}], "organizer": {"@type": "SportsOrganization", "name": "Liga Profesional Argentina"}, "description": "Independiente vs Deportivo Riestra prediction for Sunday 08 November 2026: our model gives Independiente 54%, a draw 25% and Deportivo Riestra 21%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/independiente-vs-deportivo-riestra-2026-11-08.html", "endDate": "2026-11-08T23:00:00+00:00"}</script>
 
 <style>
@@ -224,37 +278,81 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </nav>
 
 <div class="pp">
+<!-- match-page-v2 -->
+<div class='sb'><div class='sb-meta'>Liga Profesional Argentina &middot; Clausura - 16</div><div class='sb-row'><a class='sb-t' href='../clubs/independiente.html'><img src='../crests/453.png' alt='' onerror='this.remove()'><span>Independiente</span><small>#439 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-08T21:00:00+00:00' data-f='t'>21:00 UTC</div><div class='sb-st'><span data-k='2026-11-08T21:00:00+00:00' data-f='d'>Sun 08 Nov</span></div></div><a class='sb-t' href='../clubs/deportivo-riestra.html'><img src='../crests/476.png' alt='' onerror='this.remove()'><span>Deportivo Riestra</span><small>#817 in the world</small></a></div></div><h1 class='sb-h1'>Independiente vs Deportivo Riestra prediction &amp; odds</h1>
 
-<div style="padding:34px 0 8px">
-  <div style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;
-    text-transform:uppercase;opacity:.7">Liga Profesional Argentina · Clausura - 16 · Sun 08 Nov, 21:00 UTC</div>
-  <h1 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(34px,7vw,58px);
-    text-transform:uppercase;line-height:.95;margin:10px 0 0">Independiente vs Deportivo Riestra<br>
-    <span style="color:var(--green,#3dba5e)">prediction</span></h1>
-</div>
-
-<p>Independiente host Deportivo Riestra in the Liga Profesional Argentina (Clausura - 16) on Sunday 08 November 2026. Independiente are #440 in our world ranking and have won 1, drawn 2 and lost 2 of their last 5; Deportivo Riestra are #814 and have drawn 3 and lost 2 of their last 5. On paper that's a big gap - 374 places - in Independiente's favour.</p>
+<div class="mpanel" id="tab-p">
+<p>Independiente host Deportivo Riestra in the Liga Profesional Argentina (Clausura - 16) on Sunday 08 November 2026. Independiente are #439 in our world ranking and have won 1, drawn 2 and lost 2 of their last 5; Deportivo Riestra are #817 and have drawn 3 and lost 2 of their last 5. On paper that's a big gap - 378 places - in Independiente's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Independiente the favourites at 54%, with a draw at 25% and Deportivo Riestra at 21%.</p>
 <div class='oddsbar'><i style='width:53.6%;background:#1f9a46'></i><i style='width:24.9%;background:#5a6888'></i><i style='width:21.5%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Independiente 54%</span>
   <span>Draw 25%</span><span style="color:#d43c44">Deportivo Riestra 21%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/independiente.html'>Independiente</a></div><div class='st'>World rank: <b>#440</b><br>Rating: <b>1108</b><br>Chance to win: <b>54%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Boca Juniors'>L</span><span class='chip' style='background:#5a6888' title='Racing Club'>D</span><span class='chip' style='background:#5a6888' title='Talleres Cordoba'>D</span><span class='chip' style='background:#d43c44' title='Instituto Cordoba'>L</span><span class='chip' style='background:#1f9a46' title='Union Santa Fe'>W</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/deportivo-riestra.html'>Deportivo Riestra</a></div><div class='st'>World rank: <b>#814</b><br>Rating: <b>1008</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Instituto Cordoba'>L</span><span class='chip' style='background:#5a6888' title='Union Santa Fe'>D</span><span class='chip' style='background:#d43c44' title='San Lorenzo'>L</span><span class='chip' style='background:#5a6888' title='Central Cordoba de Santiago'>D</span><span class='chip' style='background:#5a6888' title='Gimnasia M.'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/independiente.html'>Independiente</a></div><div class='st'>World rank: <b>#439</b><br>Rating: <b>1108</b><br>Chance to win: <b>54%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Boca Juniors'>L</span><span class='chip' style='background:#5a6888' title='Racing Club'>D</span><span class='chip' style='background:#5a6888' title='Talleres Cordoba'>D</span><span class='chip' style='background:#d43c44' title='Instituto Cordoba'>L</span><span class='chip' style='background:#1f9a46' title='Union Santa Fe'>W</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/deportivo-riestra.html'>Deportivo Riestra</a></div><div class='st'>World rank: <b>#817</b><br>Rating: <b>1008</b><br>Chance to win: <b>21%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Instituto Cordoba'>L</span><span class='chip' style='background:#5a6888' title='Union Santa Fe'>D</span><span class='chip' style='background:#d43c44' title='San Lorenzo'>L</span><span class='chip' style='background:#5a6888' title='Central Cordoba de Santiago'>D</span><span class='chip' style='background:#5a6888' title='Gimnasia M.'>D</span></div></div>
 </div>
 <h2>Who will win Independiente vs Deportivo Riestra?</h2>
-<p>Independiente are #440 and Deportivo Riestra #814 in our world ranking of
+<p>Independiente are #439 and Deportivo Riestra #817 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Independiente</b> (54%). More from the <a href='../leagues/argentina-liga-profesional-argentina.html'>Liga Profesional Argentina</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-04-24</td><td>Deportivo Riestra v Independiente</td><td class='r'><b>2-0</b></td></tr><tr><td>2025-11-10</td><td>Deportivo Riestra v Independiente</td><td class='r'><b>0-1</b></td></tr><tr><td>2025-04-28</td><td>Independiente v Deportivo Riestra</td><td class='r'><b>0-0</b></td></tr></table>
-<h2>Liga Profesional Argentina table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Independ. Rivadavia</td><td class='r'>16</td><td class='r'>34</td><td class='r'>#270</td></tr><tr class=''><td>2</td><td>Instituto Cordoba</td><td class='r'>14</td><td class='r'>32</td><td class='r'>#271</td></tr><tr class=''><td>3</td><td>Estudiantes L.P.</td><td class='r'>16</td><td class='r'>31</td><td class='r'>#380</td></tr><tr class=''><td>13</td><td>Lanus</td><td class='r'>14</td><td class='r'>24</td><td class='r'>#316</td></tr><tr class='hi'><td>14</td><td>Independiente</td><td class='r'>16</td><td class='r'>24</td><td class='r'>#440</td></tr><tr class=''><td>15</td><td>Huracan</td><td class='r'>16</td><td class='r'>22</td><td class='r'>#451</td></tr><tr class=''><td>27</td><td>Central Cordoba de Santiago</td><td class='r'>16</td><td class='r'>16</td><td class='r'>#871</td></tr><tr class='hi'><td>28</td><td>Deportivo Riestra</td><td class='r'>14</td><td class='r'>12</td><td class='r'>#814</td></tr><tr class=''><td>29</td><td>Aldosivi</td><td class='r'>14</td><td class='r'>11</td><td class='r'>#899</td></tr></table>
+<h2>Liga Profesional Argentina table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Independ. Rivadavia</td><td class='r'>16</td><td class='r'>34</td><td class='r'>#269</td></tr><tr class=''><td>2</td><td>Instituto Cordoba</td><td class='r'>14</td><td class='r'>32</td><td class='r'>#271</td></tr><tr class=''><td>3</td><td>Estudiantes L.P.</td><td class='r'>16</td><td class='r'>31</td><td class='r'>#381</td></tr><tr class=''><td>13</td><td>Lanus</td><td class='r'>14</td><td class='r'>24</td><td class='r'>#317</td></tr><tr class='hi'><td>14</td><td>Independiente</td><td class='r'>16</td><td class='r'>24</td><td class='r'>#439</td></tr><tr class=''><td>15</td><td>Huracan</td><td class='r'>16</td><td class='r'>22</td><td class='r'>#449</td></tr><tr class=''><td>27</td><td>Central Cordoba de Santiago</td><td class='r'>16</td><td class='r'>16</td><td class='r'>#873</td></tr><tr class='hi'><td>28</td><td>Deportivo Riestra</td><td class='r'>14</td><td class='r'>12</td><td class='r'>#817</td></tr><tr class=''><td>29</td><td>Aldosivi</td><td class='r'>14</td><td class='r'>11</td><td class='r'>#898</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
+</div>
+<script>
+(function(){
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function fitNames(sel){const go=()=>document.querySelectorAll(sel).forEach(el=>{el.style.fontSize='';el.style.overflowWrap='';let f=parseFloat(getComputedStyle(el).fontSize);while(el.scrollWidth>el.clientWidth+1&&f>11){f-=1;el.style.fontSize=f+'px';}if(el.scrollWidth>el.clientWidth+1)el.style.overflowWrap='anywhere';});go();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);addEventListener('resize',go);}
+fitNames('.sb-t span');
+// Kick-off in the reader's own time zone.
+document.querySelectorAll('[data-k]').forEach(el=>{const d=new Date(el.dataset.k);if(isNaN(d))return;
+  el.textContent=el.dataset.f==='t'?d.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})
+    :d.toLocaleDateString([],{weekday:'long',day:'numeric',month:'long'});});
+const tabs=document.querySelector('.mtabs');
+if(tabs)tabs.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  tabs.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('.mpanel').forEach(p=>p.hidden=p.id!=='tab-'+b.dataset.t);});
+const box=document.getElementById('tab-m'); if(!box)return;
+const H=box.dataset.h, A=box.dataset.a;
+function evLine(e){
+  const [mn,ex,sd,k,p,o]=e, t=`${mn}${ex?'+'+ex:''}'`;
+  let x='';
+  if(k==='g'||k==='p'||k==='og')x=`&#9917; <span class="who">${esc(p)}</span>${k==='p'?' (pen)':k==='og'?' (og)':''}${o&&k==='g'?`<br><span class="sub2">assist ${esc(o)}</span>`:''}`;
+  else if(k==='mp')x=`&#10005; <span class="who">${esc(p)}</span> <span class="sub2">missed pen</span>`;
+  else if(k==='y'||k==='r'||k==='yr')x=`<i class="ic ${k}"></i><span class="who">${esc(p)}</span>`;
+  else if(k==='s')x=`<span class="in">&#9650;</span> <span class="who">${esc(p)}</span><br><span class="out">&#9660;</span> <span class="sub2">${esc(o)}</span>`;
+  else if(k==='v')x=`<span class="sub2">VAR: ${esc(o)}${p?' &middot; '+esc(p):''}</span>`;
+  return sd==='h'?`<div class="ev"><div class="eh">${x}</div><div class="mn">${t}</div><div></div></div>`
+                 :`<div class="ev"><div></div><div class="mn">${t}</div><div>${x}</div></div>`;
+}
+function statRow(s){
+  let [lab,h,a]=s; lab=String(lab).replace(/_/g,' ').replace(/^\w/,c=>c.toUpperCase()).replace(/^Expected goals$/i,'Expected goals (xG)');
+  const n=v=>parseFloat(String(v).replace('%',''))||0, tot=n(h)+n(a), hp=tot?n(h)/tot*100:50;
+  return `<div class="strow"><span class="v">${esc(h)}</span><div><div class="lab">${esc(lab)}</div><div class="sbar"><span style="width:${hp}%;background:#3dba5e"></span><span style="width:${100-hp}%;background:#e5484d"></span></div></div><span class="v r">${esc(a)}</span></div>`;
+}
+function lineup(t,name){
+  if(!t)return `<div><div class="t">${esc(name)}</div><div class="f">No lineup</div></div>`;
+  const li=r=>`<li><span class="no">${r[0]??''}</span>${esc(r[1])}</li>`;
+  return `<div><div class="t">${esc(name)}</div><div class="f">${esc(t.f||'')}${t.c?' &middot; '+esc(t.c):''}</div><ol>${t.xi.map(li).join('')}</ol>${t.bn&&t.bn.length?`<div class="bn">Bench: ${t.bn.map(r=>esc(r[1])).join(', ')}</div>`:''}</div>`;
+}
+fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null).then(d=>{
+  if(!d){box.innerHTML='<div class="none">No goals, cards or lineups for this match yet - see the Preview tab.</div>';return;}
+  let h='';
+  if(d.ev&&d.ev.length)h+=`<h3>Match events</h3>${d.ev.map(evLine).join('')}`;
+  if(d.st&&d.st.length)h+=`<h3>Stats</h3>${d.st.map(statRow).join('')}`;
+  if(d.lu)h+=`<h3>Lineups</h3><div class="lus">${lineup(d.lu.h,H)}${lineup(d.lu.a,A)}</div>`;
+  const meta=[d.ht?`Half time ${d.ht[0]}-${d.ht[1]}`:'',d.ven||'',d.ref?`Referee: ${d.ref}`:''].filter(Boolean);
+  if(meta.length)h+=`<div class="meta">${meta.map(esc).join('<br>')}</div>`;
+  box.innerHTML=h||'<div class="none">No goals, cards or lineups for this match yet.</div>';
+});
+})();
+</script>
 <footer class="site-footer">
   <p>&copy; 2026 Matchday Insights &nbsp;·&nbsp; <a href="../index.html">Rankings</a>
   &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a>
