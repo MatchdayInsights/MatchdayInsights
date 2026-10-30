@@ -567,6 +567,9 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
     <div class="am-filters">
       <select class="chart-select" id="am-season" aria-label="Season"><option value="">All seasons</option></select>
       <select class="chart-select" id="am-comp" aria-label="Competition"><option value="">All competitions</option></select>
+      <select class="chart-select" id="am-opp" aria-label="Opponents" title="By the opponent's rank at the time of the match">
+        <option value="">All opponents</option><option value="10">v Top 10</option><option value="25">v Top 25</option>
+        <option value="50">v Top 50</option><option value="100">v Top 100</option><option value="500">v Top 500</option></select>
       <div class="am-chips" id="am-res">
         <button data-r="" class="on">All</button><button data-r="W">Wins</button>
         <button data-r="D">Draws</button><button data-r="L">Defeats</button>
@@ -638,7 +641,7 @@ if('IntersectionObserver' in window){
     seasons.forEach(function(x){ s.insertAdjacentHTML('beforeend','<option>'+esc(x)+'</option>'); });
     Object.keys(comps).sort(function(a,b){return comps[b]-comps[a];}).forEach(function(x){
       c.insertAdjacentHTML('beforeend','<option>'+esc(x)+'</option>'); });
-    s.onchange=c.onchange=apply;
+    s.onchange=c.onchange=document.getElementById('am-opp').onchange=apply;
     document.querySelectorAll('#am-res button').forEach(function(b){ b.onclick=function(){
       res=b.getAttribute('data-r');
       document.querySelectorAll('#am-res button').forEach(function(x){x.classList.toggle('on',x===b);});
@@ -647,7 +650,9 @@ if('IntersectionObserver' in window){
   }
   function apply(){
     var s=document.getElementById('am-season').value, c=document.getElementById('am-comp').value;
-    var base=DATA.filter(function(m){return (!s||m[3]===s)&&(!c||m[1]===c);});
+    // v Top N: the opponent's rank at the time of the match (Greg, 2026-10).
+    var top=+document.getElementById('am-opp').value||0;
+    var base=DATA.filter(function(m){return (!s||m[3]===s)&&(!c||m[1]===c)&&(!top||(m[7]&&m[7]<=top));});
     rows=base.filter(function(m){return !res||m[10]===res;});
     var w=0,d=0,l=0,ch=0,gf=0,ga=0;
     base.forEach(function(m){ if(m[10]==='W')w++; else if(m[10]==='D')d++; else l++; ch+=m[11]||0; gf+=m[8]; ga+=m[9]; });

@@ -1,12 +1,13 @@
 /* Matchday Insights - light / dark switch (Greg, 2026-10).
    Loaded in every page's <head> (deploy_to_site.py adds the tag), so the
    chosen look is set before anything is drawn - no flash of the wrong one.
-   Without a choice the site follows the phone or computer's own setting.
+   Dark unless the visitor picks light with the button (Greg, 2026-10:
+   DARK BY DEFAULT).
    The choice is kept in this browser (localStorage "mi_theme"). */
 (function () {
   var KEY = 'mi_theme', root = document.documentElement, saved = null;
   try { saved = localStorage.getItem(KEY); } catch (e) {}
-  if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+  root.setAttribute('data-theme', saved === 'light' ? 'light' : 'dark');
   function now() {
     var t = root.getAttribute('data-theme');
     if (t) return t;
