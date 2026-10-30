@@ -453,3 +453,160 @@ body{font-variant-numeric:tabular-nums}
   .site-nav .header-right .ig-link[href$="leagues.html"],
   .site-nav .header-right .ig-link[href$="compare.html"] { font-size: 13px; padding: 0 4px; letter-spacing: 0; }
 }
+
+/* ===========================================================================
+   SITE LOOK, 2026-10 (Greg: "I'm looking to become the new and improved
+   FotMob"). Everything below is one block so it's easy to find or remove.
+   =========================================================================== */
+
+/* --- 1. A clean font for all the small text -------------------------------
+   The small text was in JetBrains Mono, a code font - the spaced-out
+   "G l o b a l" look. It is now Inter, a plain, modern font, from the
+   site's own fonts/ folder. Every page asks for 'JetBrains Mono' by name
+   (hundreds of places across the generators), so rather than change them
+   all, that NAME now points at the Inter files. Headings and scores stay in
+   Barlow Condensed. To go back: delete these @font-face rules. */
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/inter-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/inter-latin-ext-500-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/inter-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/inter-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+body{font-feature-settings:"tnum" 1}          /* figures line up in columns */
+body .hero-eyebrow,body .hub-ey{letter-spacing:.14em;text-transform:uppercase;font-weight:600;font-size:10.5px}
+body .hero-desc,body .hub-sub{letter-spacing:0}
+
+/* --- 2. Crests -------------------------------------------------------------
+   crests/{team_id}.png, from fetch_crests.py. A crest that isn't there
+   removes itself (onerror), so nothing breaks before it's downloaded. */
+.crest{width:20px;height:20px;object-fit:contain;flex:none;vertical-align:middle}
+.crest.lg{width:30px;height:30px}
+.crest.xl{width:56px;height:56px}
+
+/* --- 3. Phones held upright: the tabs move to a bar along the bottom, like
+   an app. MATCHDAY INSIGHTS stays across the top. --------------------------- */
+@media (max-width: 640px) {
+  /* backdrop-filter on the header would pin the bottom bar inside it */
+  .site-nav { flex-wrap: nowrap; height: 46px; backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .site-nav .nav-logo { height: 46px; }
+  .site-nav .header-right {
+    position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 300;
+    margin: 0; padding: 0 4px env(safe-area-inset-bottom); height: auto; flex: none;
+    display: grid !important; grid-template-columns: repeat(5, 1fr); overflow: visible;
+    background: rgba(12,14,20,.97); backdrop-filter: blur(12px);
+    border-top: 1px solid #23283a;
+  }
+  .site-nav .header-right .ig-link[href$="index.html"],
+  .site-nav .header-right .ig-link[href$="matches.html"],
+  .site-nav .header-right .ig-link[href$="predictions.html"],
+  .site-nav .header-right .ig-link[href$="leagues.html"],
+  .site-nav .header-right .ig-link[href$="compare.html"] {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+    height: 58px; line-height: 1; padding: 0 2px; margin: 0;
+    font-family: 'JetBrains Mono', sans-serif; font-size: 10.5px; font-weight: 600;
+    letter-spacing: 0; text-transform: none; color: #8c93ad; white-space: nowrap;
+  }
+  .site-nav .header-right .ig-link[href$="compare.html"] { font-size: 0; }
+  .site-nav .header-right .ig-link[href$="compare.html"]::after {
+    content: "Compare"; font-size: 10.5px; position: static; background: none; padding: 0; margin: 0;
+    width: auto; height: auto; border-radius: 0; color: inherit; font-weight: 600; letter-spacing: 0;
+    line-height: 1;
+  }
+  .site-nav .header-right .ig-link::before,
+  .site-nav .header-right .ig-link.on::before {
+    content: ""; position: static; display: block; width: 23px; height: 23px; border-radius: 0;
+    background: currentColor; -webkit-mask-size: contain; mask-size: contain;
+    -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: center; mask-position: center;
+  }
+  .site-nav .header-right .ig-link[href$="index.html"]::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 20h18M5 20v-6h4v6M10 20V8h4v12M15 20v-9h4v9'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 20h18M5 20v-6h4v6M10 20V8h4v12M15 20v-9h4v9'/%3E%3C/svg%3E")}
+  .site-nav .header-right .ig-link[href$="matches.html"]::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 7.5l4 2.9-1.5 4.7h-5L8 10.4z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 7.5l4 2.9-1.5 4.7h-5L8 10.4z'/%3E%3C/svg%3E")}
+  .site-nav .header-right .ig-link[href$="predictions.html"]::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 18l6-6 4 3 6-7'/%3E%3Cpath d='M15 8h5v5'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 18l6-6 4 3 6-7'/%3E%3Cpath d='M15 8h5v5'/%3E%3C/svg%3E")}
+  .site-nav .header-right .ig-link[href$="leagues.html"]::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 4h8v5a4 4 0 0 1-8 0z'/%3E%3Cpath d='M8 6H5v1.5A3.5 3.5 0 0 0 8.5 11M16 6h3v1.5a3.5 3.5 0 0 1-3.5 3.5M12 13v4M8 20h8'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 4h8v5a4 4 0 0 1-8 0z'/%3E%3Cpath d='M8 6H5v1.5A3.5 3.5 0 0 0 8.5 11M16 6h3v1.5a3.5 3.5 0 0 1-3.5 3.5M12 13v4M8 20h8'/%3E%3C/svg%3E")}
+  .site-nav .header-right .ig-link[href$="compare.html"]::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 8h15l-4-4M20 16H5l4 4'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 8h15l-4-4M20 16H5l4 4'/%3E%3C/svg%3E")}
+  .site-nav .header-right .ig-link.on { color: #3dba5e; }
+  .site-nav .header-right .ig-link:hover { background: none; }
+  .site-nav .header-right .ig-link[href$="predictions.html"]::after {
+    position: absolute; top: 9px; left: calc(50% + 9px); margin: 0; content: ""; width: 7px; height: 7px;
+    padding: 0; border-radius: 50%; background: #3dba5e;
+  }
+  .site-nav.club-on .header-right { display: grid !important; }
+  body { padding-bottom: calc(60px + env(safe-area-inset-bottom)); }
+  html body .controls, html body .days-bar, html body .hub-bar { top: 46px; }
+}
+
+/* --- 4. Light or dark, following the phone or computer's own setting ------
+   Dark stays as it was. Light: the off-white of the graphics, white panels,
+   the dark navy header kept as the one dark accent, greens and reds
+   deepened so text reads on white. */
+@media (prefers-color-scheme: light) {
+
+:root{
+  --bg:#f5f6f2; --surface:#ffffff; --surface2:#ffffff;
+  --border:#e4e6df; --border2:#d9dcd3;
+  --text:#14182a; --text2:#4d5470; --muted:#7a8098;
+  --green:#1f9a46; --green-dim:#9fd4ae; --red:#d0364f; --gold:#b98a00; --blue:#2f6fb8;
+}
+body{background:var(--bg);color:var(--text)}
+/* header: the dark bar, as on the graphics */
+.site-nav{background:#1a1a2e!important;border-bottom:3px solid #3dba5e!important}
+.site-nav .nav-brand{color:#3dba5e}
+.site-nav .nav-sub{color:#9aa0bd}
+.site-nav .header-right .ig-link{color:#e6e8f2!important;border-color:#33374f!important}
+.site-nav .header-right .ig-link.on,.site-nav .header-right .ig-link:hover{color:#3dba5e!important}
+.site-nav .header-right .ig-link.on::before{background:#3dba5e}
+.site-nav .nav-club{color:#fff}
+@media (max-width:640px){.site-nav .header-right{border-top-color:#2a2e45!important}}
+/* homepage */
+.hero{background:linear-gradient(180deg,#ffffff,#f5f6f2)!important;border-bottom:1px solid var(--border)}
+.hero::before,.hero::after{opacity:.05!important}
+.controls{background:#ffffffee!important;backdrop-filter:blur(6px)}
+tbody tr{border-bottom:1px solid #e9ebe4!important;background:#fff}
+tbody tr:hover{background:#f0f7f2!important}
+tbody tr.top3{background:#eef8f1!important} tbody tr.top10{background:#f7fbf8!important}
+thead tr{background:#f9faf6}
+.change-pill.up{background:#e3f4e8!important}.change-pill.dn{background:#fbe6ea!important}
+.result-badge.W{background:#e3f4e8!important}.result-badge.L{background:#fbe6ea!important}.result-badge.D{background:#eceef4!important}
+.fmatch,.featured-select,.search-input,.filter-select{box-shadow:0 1px 2px rgba(20,24,42,.05)}
+.filter-select{color-scheme:light!important}
+.elo-bar{background:#e4e6df!important}
+.page-btn.active{color:#fff!important}
+.update-chip{background:#e3f4e8!important}
+/* matches page */
+.comp{box-shadow:0 1px 3px rgba(20,24,42,.06)}
+.comp-h{background:#fafbf7!important}
+.days-bar{background:var(--bg)!important}
+.m>.up{color:#b85c00!important;background:#fff3e6!important;border-color:#f3c08a!important}
+.day-btn.on,.dbtn.on{color:#fff!important}
+/* predictions page */
+.motw{background:linear-gradient(135deg,#e6f5ea,#ffffff 60%)!important;border-color:#9fd4ae!important;box-shadow:0 2px 10px rgba(31,154,70,.08)}
+.motw-p div[style*="aab3cc"]{color:#7a8098!important}
+.motw-p div[style*="ff8a8e"]{color:#d0364f!important}
+.mc{box-shadow:0 1px 3px rgba(20,24,42,.06)}
+.mc:hover{box-shadow:0 4px 14px rgba(20,24,42,.08)}
+.tag.g{background:#e3f4e8!important;color:#1f7a3a!important}
+.tag.s{background:#eceef4!important;color:#4d5470!important}
+.tag.o{background:#fff1e3!important;color:#b85c00!important}
+.tag.r{background:#fbe6ea!important;color:#c22f48!important}
+.day.on{color:#fff!important}.day.on small{color:#e6f5ea!important}
+.seg button.on{background:#e3f4e8!important}
+.hub-bar{background:var(--bg)!important}
+.record{box-shadow:0 1px 3px rgba(20,24,42,.06)}
+/* club pages */
+.stat-card,.chart-wrap,.card,.panel{box-shadow:0 1px 3px rgba(20,24,42,.06)}
+/* fixes after the first look */
+.top3 .club-name-text{color:var(--text)!important}
+.featured-select{background:#fff!important;color:var(--text)!important;border-color:var(--border2)!important;color-scheme:light}
+.club-header{background:linear-gradient(135deg,#e6f5ea 0%,rgba(255,255,255,0) 60%)!important;padding:18px 20px 22px;border-radius:12px 12px 0 0}
+.record-box-red{background:#fbe6ea!important}
+.record-box-green{background:#e3f4e8!important}
+
+  .site-nav .header-right { background: #1a1a2e; }
+}
+
+/* Browsers don't pass the page font on to buttons, so the matches page's
+   day tabs showed in plain Arial (Greg, 2026-10). Buttons that set their
+   own font keep it. */
+button { font-family: inherit; }
+.day b { font-family: 'Barlow Condensed', sans-serif; letter-spacing: .03em; }

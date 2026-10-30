@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="club-page.css?v=73c64e96">
+<link rel="stylesheet" href="club-page.css?v=dc4f0dfb">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -38,6 +38,7 @@
 .hero-title em{font-style:normal;color:var(--green)}
 /* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
 .hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+.club-cell .country-badge{min-width:30px;justify-content:center}
 /* Phone held upright: rank (move under it), club, rating (change under it) -
    the whole row on screen. The full table when turned sideways. */
 .m-mv,.m-chg{display:none}
@@ -189,6 +190,9 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   </div>
 </div>
 
+<!-- My clubs (myclubs.js): shown only to visitors who've starred a club -->
+<div id="my-clubs"></div>
+<script src="myclubs.js" defer></script>
 <div class="featured" id="featured-wrap" style="display:none">
   <div class="featured-head">
     <div class="featured-title">Biggest Upcoming Matches</div>
@@ -266,6 +270,9 @@ let sortDir = 1;
 let eloMin = 0, eloMax = 1;
 
 
+// Club crests (crests/{team_id}.png, fetch_crests.py). No crest yet: the
+// image removes itself, and in the table the flag shows instead.
+const crestImg=(id,cls)=>id?`<img class="crest${cls?' '+cls:''}" src="crests/${id}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
 const moveBadge=c=>c>0?`<span class="move-badge up">&#x25B2;${c}</span>`:c<0?`<span class="move-badge dn">&#x25BC;${Math.abs(c)}</span>`:`<span class="move-badge nc">&mdash;</span>`;
 const resultBadge=r=>r?`<span class="result-badge ${r}">${r}</span>`:`<span class="result-badge x">&mdash;</span>`;
 const changePill=v=>v===null||v===undefined?`<span class="change-pill nc">N/R</span>`:`<span class="change-pill ${v>0?'up':v<0?'dn':'nc'}">${v>0?'+':''}${v===0?'&mdash;':v.toFixed(1)}</span>`;
@@ -321,8 +328,8 @@ fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
       : `<span class="fmatch-name">${name}</span>`;
     return `<div class="fmatch">
       <div class="fmatch-meta">${when} &middot; ${m.competition}</div>
-      <div class="fmatch-side">${link(m.home_slug, m.home_team)}<span class="fmatch-rank">#${m.home_rank}</span></div>
-      <div class="fmatch-side">${link(m.away_slug, m.away_team)}<span class="fmatch-rank">#${m.away_rank}</span></div>
+      <div class="fmatch-side">${crestImg(m.home_team_id)}${link(m.home_slug, m.home_team)}<span class="fmatch-rank">#${m.home_rank}</span></div>
+      <div class="fmatch-side">${crestImg(m.away_team_id)}${link(m.away_slug, m.away_team)}<span class="fmatch-rank">#${m.away_rank}</span></div>
       <div class="fmatch-bar">
         <span style="width:${m.p_home*100}%;background:var(--green)"></span>
         <span style="width:${m.p_draw*100}%;background:#5a6a8c"></span>
@@ -434,7 +441,7 @@ function renderTable(){
     const rankCell = local && c[local.key]
       ? `<td class="td-rank local">${c[local.key]}<span class="rank-world">#${rankHtml} world</span><span class="m-mv">${moveBadge(c.rank_change)}</span></td>`
       : `<td class="td-rank">${rankHtml}<span class="m-mv">${moveBadge(c.rank_change)}</span></td>`;
-    return `<tr class="${rc}" onclick="window.location='clubs/${c.slug}.html'">${rankCell}<td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell"><span class="country-badge">${c.flag?`<span class="fi fi-${c.flag}"></span>`:''}</span><div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code||''}</div>${badgeNoteHtml}</div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell"><span class="elo-number">${eloHtml}</span><div class="elo-bar"><div class="elo-bar-fill" style="width:${eloPct}%"></div></div><span class="m-chg">${changePill(c.elo_change)}</span></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
+    return `<tr class="${rc}" onclick="window.location='clubs/${c.slug}.html'">${rankCell}<td class="td-move">${moveBadge(c.rank_change)}</td><td class="td-club"><div class="club-cell"><span class="country-badge">${c.team_id?`<img class="crest lg" src="crests/${c.team_id}.png" alt="" loading="lazy" onerror="if(this.nextElementSibling)this.nextElementSibling.style.display='';this.remove()">`:''}${c.flag?`<span class="fi fi-${c.flag}"${c.team_id?' style="display:none"':''}></span>`:''}</span><div><div class="club-name-text">${c.club}</div><div class="club-code">${c.league_code||''}</div>${badgeNoteHtml}</div></div></td><td class="td-result"><div class="result-cell">${resultBadge(c.last_result)}<div class="result-detail"><span class="result-opp">${opp}</span>${sc}</div></div></td><td class="td-elo"><div class="elo-cell"><span class="elo-number">${eloHtml}</span><div class="elo-bar"><div class="elo-bar-fill" style="width:${eloPct}%"></div></div><span class="m-chg">${changePill(c.elo_change)}</span></div></td><td class="td-change">${changePill(c.elo_change)}</td></tr>`;
   }).join('');
 
   const s=filtered.length===0?0:start+1, e=Math.min(currentPage*PAGE_SIZE,filtered.length);

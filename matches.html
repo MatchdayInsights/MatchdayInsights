@@ -20,6 +20,45 @@
 @media(max-width:640px){.ig-link:not(.on){display:none}}
 
 .mx{max-width:860px;margin:0 auto;padding:0 16px 40px}
+/* Wide screens: competitions on the left, the day's big games and upsets on
+   the right (Greg, 2026-10). Hidden below 1200px wide. */
+.mx-rail{display:none}
+@media(min-width:1200px){
+  .mx-grid{display:grid;grid-template-columns:230px minmax(0,820px) 290px;gap:22px;justify-content:center;padding:0 20px}
+  .mx-grid .mx{max-width:none;margin:0;padding:0 0 40px}
+  .mx-rail{display:block;position:sticky;top:72px;align-self:start;max-height:calc(100vh - 88px);overflow-y:auto;
+    scrollbar-width:thin;margin-top:84px}
+}
+.rail-box{background:var(--surface2);border:1px solid var(--border2);border-radius:12px;padding:12px 12px 8px;margin-bottom:14px}
+.rail-h{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);margin:0 2px 8px}
+.rail-c{display:flex;align-items:center;gap:8px;width:100%;background:none;border:0;border-radius:7px;padding:6px 6px;
+  cursor:pointer;color:var(--text);text-align:left;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+.rail-c:hover{background:rgba(61,186,94,.08);color:var(--green)}
+.rail-c .fi{flex:none;border-radius:2px}
+.rail-c span.n{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rail-c span.k{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;color:var(--muted)}
+.rail-m{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;padding:8px 4px;border-top:1px solid var(--border)}
+.rail-m:first-of-type{border-top:0}
+.rail-m .t{display:flex;align-items:center;gap:6px;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.03em;color:var(--text);white-space:nowrap;overflow:hidden}
+.rail-m .t span{overflow:hidden;text-overflow:ellipsis}
+.rail-m .t.lost{color:var(--text2)}
+.rail-m .v{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:16px;text-align:right;color:var(--text)}
+.rail-m .v.k{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:11px;color:var(--text2)}
+.rail-m .w{grid-column:1/3;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted)}
+.rail-m .w.up{color:#f07800}
+.rail-m .crest{width:18px;height:18px}
+.rail-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:4px 4px 8px}
+.rail-c small{display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:0;
+  text-transform:none;color:var(--muted);margin-top:1px}
+/* Phones: the crest beside the name, the rating change under it. */
+@media(max-width:560px){
+  .m .side{display:grid;column-gap:6px;row-gap:1px;align-items:center}
+  .m .side.h{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"n c" "d c";justify-items:end}
+  .m .side:not(.h){grid-template-columns:auto minmax(0,1fr);grid-template-areas:"c n" "c d";justify-items:start}
+  .m .side .nm{grid-area:n}.m .side .crest{grid-area:c}.m .side .dl{grid-area:d}
+}
 .mx-head{padding:20px 0 10px}
 .mx-title{font-size:clamp(28px,4vw,40px);font-weight:900;text-transform:uppercase;line-height:.95;color:var(--text)}
 .mx-sub{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.5px;margin-top:6px}
@@ -133,6 +172,10 @@ a.nm:hover{color:var(--green)}
 .lus li{padding:2px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .lus li .no{display:inline-block;min-width:20px;color:var(--muted)}
 .lus .bn{margin-top:8px;color:var(--muted);font-size:9.5px}
+.m[data-pg]{cursor:pointer}
+.m[data-pg]:hover{background:rgba(61,186,94,.04)}
+.mp-link{display:block;text-align:center;margin:12px 0 2px;font-family:'JetBrains Mono',monospace;font-size:11px;
+  font-weight:600;color:var(--green)}
 .md .none{text-align:center;color:var(--muted);padding:8px 0}
 /* Continent groups below the top competitions, closed until tapped. */
 .cont{margin:14px 0 10px}
@@ -180,6 +223,7 @@ a.nm:hover{color:var(--green)}
   </div>
 </nav>
 
+<div class="mx-grid"><aside class="mx-rail mx-l" id="rail-l" aria-label="Competitions"></aside>
 <main class="mx">
   <div class="mx-head">
     <h1 class="mx-title">Results &amp; Fixtures</h1>
@@ -201,6 +245,7 @@ a.nm:hover{color:var(--green)}
   UPSET = the winner had less than a 30% chance in our model.
   Tap a result with &#9662; for goals, cards, lineups and stats.</p>
 </main>
+<aside class="mx-rail mx-r" id="rail-r" aria-label="Today's highlights"></aside></div>
 
 <script>
 const HOME='#3dba5e', DRAW='#5a6a8c', AWAY='#e5484d';
@@ -275,7 +320,8 @@ function side(c,cls,lost){
                 :`<span class="nm${lost?' lost':''}">${esc(c.n)}</span>`;
   const rk=c.r?`<span class="rk">#${c.r}</span>`:'';
   const d=(c.d!==undefined)?`<span class="dl ${c.d>=0?'p':'n'}">${c.d>=0?'+':''}${c.d.toFixed(1)}</span>`:'';
-  return cls==='h'?`<div class="side h">${d}${rk}${name}</div>`:`<div class="side">${name}${rk}${d}</div>`;
+  const cr=c.i?`<img class="crest" src="crests/${esc(c.i)}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
+  return cls==='h'?`<div class="side h">${d}${rk}${name}${cr}</div>`:`<div class="side">${cr}${name}${rk}${d}</div>`;
 }
 
 function row(m){
@@ -297,8 +343,9 @@ function row(m){
   }
   if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
   if(m.new&&!extra)extra=`<div class="up" style="color:var(--muted)">Just finished &middot; ratings update shortly</div>`;
+  const pg=(m.pg?` data-pg="${esc(m.pg)}"`:'')+(m.h.i?` data-hi="${esc(m.h.i)}"`:'')+(m.a.i?` data-ai="${esc(m.a.i)}"`:'');
   const det=m.d&&m.st==='ft'?` data-d="${esc(m.id)}" tabindex="0" role="button" aria-expanded="false"`:'';
-  return `<div class="m"${det} data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
+  return `<div class="m"${det}${pg} data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
 }
 
 async function show(key,quiet){
@@ -313,6 +360,7 @@ async function show(key,quiet){
   const groups={};
   for(const m of ms)(groups[m.c]=groups[m.c]||[]).push(m);
   const ids=Object.keys(groups).sort((a,b)=>((INFO.comps[a]||{}).o??999)-((INFO.comps[b]||{}).o??999));
+  sideRails(ms,ids);
   if(!ids.length){$('list').innerHTML='<div class="empty">No matches in our competitions on this day.</div>';$('count').textContent='';return;}
   const section=id=>{
     const c=INFO.comps[id]||{name:'Competition',country:''};
@@ -339,6 +387,38 @@ async function show(key,quiet){
   $('list').innerHTML=html;
   filter();
 }
+
+// The two side columns on wide screens (Greg, 2026-10).
+function sideRails(ms,ids){
+  const L=$('rail-l'), R=$('rail-r'); if(!L||!R)return;
+  const n={}; for(const m of ms)n[m.c]=(n[m.c]||0)+1;
+  L.innerHTML=ids.length?`<div class="rail-box"><div class="rail-h">Competitions</div>`+ids.map(id=>{
+    const c=INFO.comps[id]||{name:'Competition'};
+    const flag=c.flag?`<span class="fi fi-${esc(c.flag)}"></span>`:'<span aria-hidden="true">&#127760;</span>';
+    return `<button class="rail-c" type="button" data-go="${esc(id)}">${flag}<span class="n">${esc(c.name)}${c.country?`<small>${esc(c.country)}</small>`:''}</span><span class="k">${n[id]}</span></button>`;
+  }).join('')+'</div>':'';
+  const crest=c=>c.i?`<img class="crest" src="crests/${esc(c.i)}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
+  const line=(m,w,cls)=>{
+    const done=m.sc&&(m.st==='ft'||m.st==='live'), hw=done&&m.sc[0]>m.sc[1], aw=done&&m.sc[1]>m.sc[0];
+    const time=new Date(m.t.replace('Z',':00Z')).toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});
+    return `<div class="rail-m"><div class="t${aw?' lost':''}">${crest(m.h)}<span>${esc(m.h.n)}</span></div><div class="v${done?'':' k'}">${done?m.sc[0]:time}</div>`
+      +`<div class="t${hw?' lost':''}">${crest(m.a)}<span>${esc(m.a.n)}</span></div><div class="v">${done?m.sc[1]:''}</div>`
+      +(w?`<div class="w${cls?' '+cls:''}">${w}</div>`:'')+`</div>`;
+  };
+  const big=ms.filter(m=>m.h.r&&m.a.r&&m.st!=='off').sort((a,b)=>(a.h.r+a.a.r)-(b.h.r+b.a.r)).slice(0,6);
+  const ups=ms.filter(m=>m.up);
+  R.innerHTML=`<div class="rail-box"><div class="rail-h">Biggest games</div>`
+    +(big.length?big.map(m=>line(m,`#${m.h.r} v #${m.a.r} &middot; ${esc((INFO.comps[m.c]||{}).name||'')}`)).join(''):'<div class="rail-empty">None today.</div>')+`</div>`
+    +`<div class="rail-box"><div class="rail-h">Upsets</div>`
+    +(ups.length?ups.map(m=>line(m,`${esc(m.up[0]==='h'?m.h.n:m.a.n)} had a ${m.up[1]}% chance`,'up')).join(''):'<div class="rail-empty">No upsets yet today.</div>')+`</div>`;
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.rail-c'); if(!b)return;
+  const sec=document.querySelector(`.comp[data-id="${CSS.escape(b.dataset.go)}"]`); if(!sec)return;
+  const ct=sec.closest('.cont'); if(ct&&!ct.classList.contains('open')){ct.classList.add('open');if(typeof OPENC!=='undefined')OPENC[ct.dataset.k]=true;}
+  sec.classList.remove('shut');
+  window.scrollTo({top:sec.getBoundingClientRect().top+window.scrollY-130,behavior:'smooth'});
+});
 
 // Match details (match_details.py): fetched the first time a result is
 // tapped, then kept for the rest of the visit.
@@ -390,7 +470,8 @@ async function toggleDetails(row){
   row.appendChild(box);row.classList.add('open');row.setAttribute('aria-expanded','true');
   const names=row.querySelectorAll('.nm');
   const d=await details(row.dataset.d);
-  box.innerHTML=detailHtml(d,{h:names[0]?names[0].textContent:'Home',a:names[1]?names[1].textContent:'Away'});
+  box.innerHTML=detailHtml(d,{h:names[0]?names[0].textContent:'Home',a:names[1]?names[1].textContent:'Away'})
+    +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full match page &rsaquo;</a>`:'');
 }
 
 function filter(){
@@ -415,6 +496,8 @@ function filter(){
 
 $('list').addEventListener('click',e=>{
   const mr=e.target.closest('.m[data-d]');
+  const pr=e.target.closest('.m[data-pg]:not([data-d])');
+  if(pr&&!e.target.closest('a')){location.href='predictions/'+pr.dataset.pg+'.html';return;}
   if(mr&&!e.target.closest('a')&&!e.target.closest('.md')){toggleDetails(mr);return;}
   const ch=e.target.closest('.cont-h');
   if(ch){const ct=ch.parentElement;ct.classList.toggle('open');OPENC[ct.dataset.k]=ct.classList.contains('open');return;}
@@ -466,5 +549,6 @@ $('tog').addEventListener('click',()=>{
   }
 })();
 </script>
+<script src="myclubs.js" defer></script>
 </body>
 </html>
