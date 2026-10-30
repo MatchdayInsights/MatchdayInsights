@@ -693,3 +693,32 @@ html body .mc-nm small { font-size: 10.5px; }
   html body > .lt-wrap > * { max-width: none; margin-left: 0; margin-right: 0; }
   html body .featured-row .fmatch { flex: 1 1 0; min-width: 210px; }
 }
+
+/* Wide screens: bigger ranking tables, and the Form column (Greg, 2026-10). */
+.td-form{white-space:nowrap}
+.fchip{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:4px;margin-right:3px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;color:#fff}
+.fchip.W{background:#1f9a46}.fchip.D{background:#5a6888}.fchip.L{background:#d43c44}
+@media (max-width: 899px) { .th-form, .td-form { display: none; } }
+@media (min-width: 900px) {
+  html body .table-wrap td { padding-top: 13px; padding-bottom: 13px; }
+  html body .table-wrap .club-name-text { font-size: 17px; }
+  html body .table-wrap .club-code { font-size: 11.5px; }
+  html body .table-wrap .elo-number { font-size: 16px; }
+  html body .table-wrap .td-rank { font-size: 14px; }
+  html body .table-wrap .result-opp { font-size: 13.5px; max-width: 150px; }
+  html body .table-wrap .result-score { font-size: 12px; }
+  html body .table-wrap .result-badge { width: 20px; height: 20px; font-size: 11px; }
+  html body .table-wrap .td-result { width: 190px; }
+  html body .table-wrap .crest.lg { width: 34px; height: 34px; }
+}
+
+/* PHONE TABLE FIX 2026-10. Phones: league and country pages get the homepage's simple table - rank
+   with the move under it, club, rating with the change under it - and the
+   headings match the rows (before, the rows were shorter than the headings). */
+@media (max-width: 640px) {
+  html body .table-wrap .th-res, html body .table-wrap th[data-col="rank_change"],
+  html body .table-wrap th[data-col="elo_change"] { display: none; }
+  html body .table-wrap .m-mv { display: block; margin-top: 3px; }
+  html body .table-wrap .m-chg { display: block; }
+}
