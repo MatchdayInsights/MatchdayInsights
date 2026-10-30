@@ -24,7 +24,7 @@ a { color: var(--green); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .site-nav {
-  background: rgba(8,10,13,0.95);
+  background: #080a0d;
   backdrop-filter: blur(10px);
   border-bottom: 2px solid var(--green-dim);
   padding: 0 24px;

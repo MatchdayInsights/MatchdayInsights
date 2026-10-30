@@ -367,8 +367,39 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hub-legend"><span><i style="background:#3dba5e"></i>Home win</span><span><i style="background:#5a6888"></i>Draw</span>
     <span><i style="background:#e5484d"></i>Away win</span><span>#rank = our world ranking</span></div>
 </div>
+
+<!-- page-jump -->
+<style>
+.pg-jump{position:sticky;top:var(--navh,58px);z-index:150;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;
+  padding:8px 0;margin:0 0 14px;background:var(--bg);border-bottom:1px solid var(--border)}
+.pg-jump.flat{position:static;border-bottom:0;margin:10px 0 4px}
+.pg-jump::-webkit-scrollbar{display:none}
+.pg-jump a{flex:none;padding:6px 12px;border:1px solid var(--border2);border-radius:16px;color:var(--text2);
+  text-decoration:none;font-family:'JetBrains Mono',sans-serif;font-size:12px;font-weight:600;white-space:nowrap}
+.pg-jump a:hover{border-color:var(--green-dim);color:var(--text)}
+.pg-jump a.on{background:rgba(61,186,94,.14);border-color:var(--green);color:var(--green)}
+#upcoming-panel,#form,#seasons,#league-table,#bracket,#charts,#nearby,#motw,#upcoming,#record{scroll-margin-top:calc(var(--navh,58px) + 64px)}
+.hub #motw,.hub #upcoming,.hub #record{scroll-margin-top:calc(var(--navh,58px) + 130px)}
+</style>
+<nav class="pg-jump flat" aria-label="On this page"><a href="#motw">Match of the week</a><a href="#upcoming">Upcoming matches</a><a href="#record">How we did</a></nav>
+<script>(function(){function go(){var bar=document.querySelector('.pg-jump');if(!bar)return;
+  var nav=document.querySelector('.site-nav');
+  function navh(){var h=nav?nav.getBoundingClientRect().height:58,p=nav?getComputedStyle(nav).position:'';
+    if(p!=='sticky'&&p!=='fixed')h=0;document.documentElement.style.setProperty('--navh',h+'px');}
+  navh();window.addEventListener('resize',navh);
+  if(bar.classList.contains('flat'))return;
+  var links=[].slice.call(bar.querySelectorAll('a')),last=-1;
+  var secs=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));});
+  function mark(){if(!bar.offsetParent)return;var y=bar.getBoundingClientRect().bottom+60,on=0;
+    secs.forEach(function(s,i){if(s&&s.offsetParent&&s.getBoundingClientRect().top<=y)on=i;});
+    if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)on=secs.length-1;
+    links.forEach(function(a,i){a.classList.toggle('on',i===on);});
+    if(on!==last){last=on;var a=links[on];bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:'smooth'});}}
+  window.addEventListener('scroll',mark,{passive:true});mark();}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script>
+<!-- /page-jump -->
 <div id="motw"></div>
-<div class="hub-wrap"><aside class="hub-rail" id="hub-rail" aria-label="Competitions"></aside><div class="hub-main">
+<div class="hub-wrap" id="upcoming"><aside class="hub-rail" id="hub-rail" aria-label="Competitions"></aside><div class="hub-main">
 <div class="hub-bar">
   <div class="days" id="days"></div>
   <div class="hub-row2">
@@ -379,7 +410,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 </div>
 <div class="cards" id="cards"></div>
 <button class="more" id="more" hidden>Show more</button>
-<h2>How we <em>did</em></h2>
+<h2 id="record">How we <em>did</em></h2>
 <div class='record'><div class='g'>54%<span>favourite won</span></div><div>1,150<span>matches checked</span></div><div>55%<span>top games</span></div><p>Our favourite is the most likely result - home win, draw or away win. Most matches are close calls, so even a good model is wrong a lot of the time. Every result of the last 30 days counts, not just the easy ones.</p></div>
 <div class="cards" id="rcards"></div>
 <button class="more" id="rmore" hidden>Show more results</button>

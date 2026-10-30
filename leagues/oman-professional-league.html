@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
-<link rel="stylesheet" href="../club-page.css?v=0b39004c">
+<link rel="stylesheet" href="../club-page.css?v=f1147164">
 <style>
 .featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
 .featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
@@ -222,7 +222,37 @@ table.hist-table{min-width:0}
   <p class="hero-desc"><b>Professional League</b> is the #130 league in the world by average club rating (<b>784.2</b>), out of 187 leagues we rate. Its highest-rated club is <b>Al Seeb</b>, ranked <b>#996</b> in the world.</p>
   <div class="hero-links"><a class="hero-link" href="../countries/oman.html">All Oman clubs &rarr;</a><a class="hero-link current" href="oman-professional-league.html">Professional League</a></div>
   <div class="hero-stats"><div class="hstat"><div class="hstat-val">#130</div><div class="hstat-label">League Strength of 187</div></div><div class="hstat"><div class="hstat-val">784.2</div><div class="hstat-label">Average Elo</div></div><div class="hstat"><div class="hstat-val">14</div><div class="hstat-label">Clubs Ranked</div></div><div class="hstat"><div class="hstat-val">#996</div><div class="hstat-label">Best World Rank</div></div></div>
-</div><div class="lh"><h2>League strength over time</h2><p>The average rating of its clubs, month by month. 786 in Sep 2025, 786 now (<b style="color:var(--green)">+0</b>).</p><svg viewBox="0 0 900 220" role="img" aria-label="Average club rating over time"><line class="gl" x1="56" x2="820" y1="194.0" y2="194.0"/><text class="ax" x="50" y="198.0" text-anchor="end">776</text><line class="gl" x1="56" x2="820" y1="134.0" y2="134.0"/><text class="ax" x="50" y="138.0" text-anchor="end">790</text><line class="gl" x1="56" x2="820" y1="74.0" y2="74.0"/><text class="ax" x="50" y="78.0" text-anchor="end">804</text><line class="gl" x1="56" x2="820" y1="14.0" y2="14.0"/><text class="ax" x="50" y="18.0" text-anchor="end">819</text><text class="ax" x="291.1" y="214" text-anchor="middle">2026</text><path class="ln" d="M56.0,151.8 L114.8,151.8 L173.5,57.8 L232.3,64.6 L291.1,56.2 L349.8,56.2 L408.6,72.6 L467.4,72.6 L526.2,101.7 L584.9,101.7 L643.7,101.7 L702.5,101.7 L761.2,124.4 L820.0,150.2"/><circle class="pt" cx="820.0" cy="150.2" r="4"/><text class="pl" x="828.0" y="154.2">786</text></svg></div><style>
+</div><!-- league-jump -->
+<style>
+.pg-jump{position:sticky;top:var(--navh,58px);z-index:150;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;
+  padding:8px 20px;background:var(--bg);border-bottom:1px solid var(--border)}
+.pg-jump::-webkit-scrollbar{display:none}
+.pg-jump a{flex:none;padding:6px 12px;border:1px solid var(--border2);border-radius:16px;color:var(--text2);
+  text-decoration:none;font-family:'JetBrains Mono',sans-serif;font-size:12px;font-weight:600;white-space:nowrap}
+.pg-jump a:hover{border-color:var(--green-dim);color:var(--text)}
+.pg-jump a.on{background:rgba(61,186,94,.14);border-color:var(--green);color:var(--green)}
+#strength,#table,#matches,#ratings{scroll-margin-top:calc(var(--navh,58px) + 56px)}
+@media (min-width:900px){.pg-jump{padding-left:max(24px,calc((100% - 1240px) / 2));padding-right:max(24px,calc((100% - 1240px) / 2))}}
+</style>
+<nav class="pg-jump" aria-label="On this page"><a href="#strength">Strength over time</a><a href="#table">Table</a><a href="#ratings">Our ratings</a></nav>
+<script>(function(){function go(){var bar=document.querySelector('.pg-jump');if(!bar)return;
+  var nav=document.querySelector('.site-nav');
+  function navh(){var h=nav?nav.getBoundingClientRect().height:58;
+    if(nav&&getComputedStyle(nav).position!=='sticky'&&getComputedStyle(nav).position!=='fixed')h=0;
+    document.documentElement.style.setProperty('--navh',h+'px');}
+  navh();window.addEventListener('resize',navh);
+  var links=[].slice.call(bar.querySelectorAll('a'));
+  var secs=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));});
+  var last=-1;
+  function mark(){var y=bar.getBoundingClientRect().bottom+60,on=0;
+    secs.forEach(function(s,i){if(s&&s.getBoundingClientRect().top<=y)on=i;});
+    if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)on=secs.length-1;
+    links.forEach(function(a,i){a.classList.toggle('on',i===on);});
+    if(on!==last){last=on;var a=links[on];bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:'smooth'});}}
+  window.addEventListener('scroll',mark,{passive:true});mark();}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script>
+<!-- /league-jump -->
+<div class="lh" id="strength"><h2>League strength over time</h2><p>The average rating of its clubs, month by month. 786 in Sep 2025, 786 now (<b style="color:var(--green)">+0</b>).</p><svg viewBox="0 0 900 220" role="img" aria-label="Average club rating over time"><line class="gl" x1="56" x2="820" y1="194.0" y2="194.0"/><text class="ax" x="50" y="198.0" text-anchor="end">776</text><line class="gl" x1="56" x2="820" y1="134.0" y2="134.0"/><text class="ax" x="50" y="138.0" text-anchor="end">790</text><line class="gl" x1="56" x2="820" y1="74.0" y2="74.0"/><text class="ax" x="50" y="78.0" text-anchor="end">804</text><line class="gl" x1="56" x2="820" y1="14.0" y2="14.0"/><text class="ax" x="50" y="18.0" text-anchor="end">819</text><text class="ax" x="291.1" y="214" text-anchor="middle">2026</text><path class="ln" d="M56.0,151.8 L114.8,151.8 L173.5,57.8 L232.3,64.6 L291.1,56.2 L349.8,56.2 L408.6,72.6 L467.4,72.6 L526.2,101.7 L584.9,101.7 L643.7,101.7 L702.5,101.7 L761.2,124.4 L820.0,150.2"/><circle class="pt" cx="820.0" cy="150.2" r="4"/><text class="pl" x="828.0" y="154.2">786</text></svg></div><style>
 .lt-wrap{padding:18px 20px 6px;border-bottom:1px solid var(--border);scroll-margin-top:66px}
 .lt-wrap>*{max-width:820px;margin-left:auto;margin-right:auto}
 .lt-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px}
