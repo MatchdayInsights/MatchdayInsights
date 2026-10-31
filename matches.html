@@ -110,6 +110,10 @@
 .comp-n{font-size:15px;font-weight:800;text-transform:uppercase;color:var(--text);min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .comp-c{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:.5px;white-space:nowrap}
 .comp-h a{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--green);margin-left:auto;white-space:nowrap}
+.cstar{flex:none;background:none;border:0;padding:0 4px;margin-left:8px;font-size:16px;line-height:1;cursor:pointer;color:var(--muted)}
+.cstar:hover{color:#f2c200}.cstar.on{color:#f2c200}
+.comp-h .comp-c+.cstar{margin-left:auto}
+.fav-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:16px 2px 8px}
 .comp-h .chev{font-size:10px;color:var(--muted);transition:transform .15s;flex:none}
 .comp-h a+.chev{margin-left:8px}
 .comp-h .chev:first-of-type:last-child{margin-left:auto}
@@ -224,6 +228,13 @@ a.nm:hover{color:var(--green)}
   .side .dl{order:2}
   .odds{grid-column:1/4;grid-template-columns:34px minmax(0,200px) 34px}
 }
+/* NAMES FIT AND RANK ON PHONES 2026-10 */
+.side .sx{display:contents}
+.m .side .nm{max-width:100%}
+@media(max-width:560px){
+  .m .side .sx{grid-area:d;display:flex;align-items:center;gap:6px;min-width:0}
+  .m .side .rk{display:inline;font-size:9.5px}
+}
 </style>
 </head>
 <body>
@@ -265,7 +276,7 @@ a.nm:hover{color:var(--green)}
   <p class="key">#86 = world rank in our ratings. Under results: rating points each club gained or lost.
   Bars on upcoming matches: our chances for the home win, draw and away win.
   UPSET = the winner had less than a 30% chance in our model.
-  Tap a match for its match page; tap &#9662; under a result for goals, cards and lineups here.</p>
+  Tap &#9734; on a competition to keep it at the top for you. Tap a match for its match page; tap &#9662; under a result for goals, cards and lineups here.</p>
 </main>
 <aside class="mx-rail mx-r" id="rail-r" aria-label="Today's highlights"></aside></div>
 
@@ -310,6 +321,16 @@ function retryLive(){
 document.addEventListener('milr-ready',()=>{
   if(!window.MILR||!LIVE_AT)return;LRT=MILR.table(Object.values(LIVE));
   const today=localKey(new Date());if(DAY===today||DAY===addDays(today,-1))show(DAY,true);});
+// Starred competitions (Greg, 2026-10): kept in this browser, shared by the
+// Matches and Predictions pages. Each is "name|country", letters and digits only.
+const FAVK='mi_comps', fnorm=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+let FAVS=(()=>{try{return new Set(JSON.parse(localStorage.getItem(FAVK)||'[]'));}catch(e){return new Set();}})();
+// "World" (continental competitions on the Matches page) = no country, as on
+// the Predictions page, so a star set on one page shows on the other.
+const favKey=(name,country)=>{const c=fnorm(country);return fnorm(name)+'|'+(c==='world'?'':c);};
+function favToggle(k){if(FAVS.has(k))FAVS.delete(k);else FAVS.add(k);
+  try{localStorage.setItem(FAVK,JSON.stringify([...FAVS]));}catch(e){}}
+const isFav=id=>{const c=INFO&&INFO.comps[id];return !!c&&FAVS.has(favKey(c.name,c.country));};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const pad=n=>String(n).padStart(2,'0');
@@ -352,6 +373,34 @@ function drawDays(){
   arrows();
 }
 
+// NAMES FIT AND RANK ON PHONES 2026-10: a name that won't fit gets smaller (down to 9px)
+// rather than cut off; one that still won't fit breaks onto a second line.
+// (Measured with a Range: scrollWidth rounds, and half a pixel too wide is
+// enough for the browser to cut the end off.)
+// On phones a name may take two lines (line-clamp), so "too big" also means
+// it needs a third line, which would be cut off: "Borussia Mönchengladbach"
+// on a 360px phone needs 9.5px to fit on two (Greg, 2026-10).
+function nameTooWide(el){const r=document.createRange();r.selectNodeContents(el);
+  return r.getBoundingClientRect().width>el.getBoundingClientRect().width+0.05
+    || el.scrollHeight>el.clientHeight+1;}
+function fitName(el){
+  el.style.fontSize='';el.style.overflowWrap='';
+  if(!el.clientWidth||!nameTooWide(el))return;
+  let f=parseFloat(getComputedStyle(el).fontSize);
+  while(nameTooWide(el)&&f>9){f-=0.5;el.style.fontSize=f+'px';}
+  if(nameTooWide(el))el.style.overflowWrap='anywhere';
+}
+const FITW=new WeakMap();
+const FITRO=window.ResizeObserver?new ResizeObserver(es=>es.forEach(e=>{
+  const w=Math.round(e.contentRect.width);if(!w||FITW.get(e.target)===w)return;
+  FITW.set(e.target,w);e.target.querySelectorAll('.nm').forEach(fitName);})):null;
+function fitAll(){
+  const rows=document.querySelectorAll('#list .m');
+  if(FITRO){FITRO.disconnect();rows.forEach(r=>FITRO.observe(r));}
+  else rows.forEach(r=>r.querySelectorAll('.nm').forEach(fitName));
+}
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>document.querySelectorAll('#list .m .nm').forEach(fitName));
+
 function side(c,cls,lost){
   const name=c.s?`<a class="nm${lost?' lost':''}" href="clubs/${esc(c.s)}.html">${esc(c.n)}</a>`
                 :`<span class="nm${lost?' lost':''}">${esc(c.n)}</span>`;
@@ -359,7 +408,7 @@ function side(c,cls,lost){
           :c.r?`<span class="rk">#${c.r}</span>`:'';
   const d=(c.d!==undefined)?`<span class="dl ${c.d>=0?'p':'n'}${c.est?' est':''}"${c.est?' title="If it ends like this"':''}>${c.d>=0?'+':''}${c.d.toFixed(1)}</span>`:'';
   const cr=c.i?`<img class="crest" src="crests/${esc(c.i)}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
-  return cls==='h'?`<div class="side h">${d}${rk}${name}${cr}</div>`:`<div class="side">${cr}${name}${rk}${d}</div>`;
+  return cls==='h'?`<div class="side h"><span class="sx">${d}${rk}</span>${name}${cr}</div>`:`<div class="side">${cr}${name}<span class="sx">${rk}${d}</span></div>`;
 }
 
 function row(m){
@@ -398,7 +447,7 @@ async function show(key,quiet){
   if(DAY!==key)return;
   const groups={};
   for(const m of ms)(groups[m.c]=groups[m.c]||[]).push(m);
-  const ids=Object.keys(groups).sort((a,b)=>((INFO.comps[a]||{}).o??999)-((INFO.comps[b]||{}).o??999));
+  const ids=Object.keys(groups).sort((a,b)=>(isFav(b)-isFav(a))||(((INFO.comps[a]||{}).o??999)-((INFO.comps[b]||{}).o??999)));
   sideRails(ms,ids);
   if(!ids.length){$('list').innerHTML='<div class="empty">No matches in our competitions on this day.</div>';$('count').textContent='';return;}
   const section=id=>{
@@ -406,17 +455,19 @@ async function show(key,quiet){
     const flag=c.flag?`<span class="fi fi-${esc(c.flag)}"></span>`:'<span class="glb" aria-hidden="true">&#127760;</span>';
     const link=c.page?`<a href="${esc(c.page)}">TABLE<span class="lk-x"> &amp; RATINGS</span> &rsaquo;</a>`:'';
     const shut=OPEN[id]===false?' shut':'';
-    return `<section class="comp${shut}" data-id="${id}" data-q="${esc((c.name+' '+c.country).toLowerCase())}"><div class="comp-h" role="button" tabindex="0" aria-expanded="${!shut}">${flag}<span class="comp-n">${esc(c.name)}</span><span class="comp-c">${esc(c.country)}</span>${link}<span class="chev" aria-hidden="true">&#9662;</span></div><div class="rows">${groups[id].map(row).join('')}</div></section>`;
+    return `<section class="comp${shut}" data-id="${id}" data-q="${esc((c.name+' '+c.country).toLowerCase())}"><div class="comp-h" role="button" tabindex="0" aria-expanded="${!shut}">${flag}<span class="comp-n">${esc(c.name)}</span><span class="comp-c">${esc(c.country)}</span>${link}<button class="cstar${isFav(id)?' on':''}" type="button" data-fav="${id}" aria-pressed="${isFav(id)}" title="${isFav(id)?'Remove from your competitions':'Keep at the top'}">${isFav(id)?'&#9733;':'&#9734;'}</button><span class="chev" aria-hidden="true">&#9662;</span></div><div class="rows">${groups[id].map(row).join('')}</div></section>`;
   };
   // The top block as it was; everything after it in continent groups,
   // closed unless opened (OPENC remembers which, for this visit).
-  let html='', cur=null, buf=[], n=0;
+  let html='', cur=null, buf=[], n=0, favHead=0;
   const flush=()=>{if(cur===null)return;
     html+=`<div class="cont${OPENC[cur]?' open':''}${cur.startsWith('More from ')?' sub':''}" data-k="${esc(cur)}"><div class="cont-h" role="button" tabindex="0">`
       +`<b>${esc(cur)}</b><span>${n} match${n===1?'':'es'}</span><i>&#9662;</i></div><div class="cont-b">${buf.join('')}</div></div>`;
     buf=[];n=0;};
   for(const id of ids){
     const c=INFO.comps[id]||{};
+    if(isFav(id)){if(!favHead){html+='<div class="fav-h">&#9733; Your competitions</div>';favHead=1;}html+=section(id);continue;}
+    if(favHead===1){html+='<div class="fav-h">All competitions</div>';favHead=2;}
     if(c.top&&!c.fd){flush();cur=null;html+=section(id);continue;}
     const k=c.fd?'More from '+c.fd:(c.kn||'Other');
     if(k!==cur){flush();cur=k;}
@@ -424,6 +475,7 @@ async function show(key,quiet){
   }
   flush();
   $('list').innerHTML=html;
+  fitAll();
   filter();
 }
 
@@ -438,18 +490,19 @@ function sideRails(ms,ids){
     const flag=c.flag?`<span class="fi fi-${esc(c.flag)}"></span>`:'<span aria-hidden="true">&#127760;</span>';
     return `<button class="rail-c" type="button" data-go="${esc(id)}">${flag}<span class="n">${esc(c.name)}${c.country?`<small>${esc(c.country)}</small>`:''}</span><span class="k">${n[id]}</span></button>`;
   };
-  let lh='', cur=null, buf=[], cnt=0;
+  let lh='', fl='', cur=null, buf=[], cnt=0;
   const flushG=()=>{if(cur===null)return;
     lh+=`<details class="rail-g${cur.startsWith('More from ')?' sub':''}"><summary>${esc(cur)}<span>${cnt}</span></summary>${buf.join('')}</details>`;buf=[];cnt=0;};
   for(const id of ids){
     const c=INFO.comps[id]||{};
+    if(isFav(id)){fl+=item(id);continue;}
     if(c.top&&!c.fd){flushG();cur=null;lh+=item(id);continue;}
     const k=c.fd?'More from '+c.fd:(c.kn||'Other');
     if(k!==cur){flushG();cur=k;}
     buf.push(item(id));cnt+=n[id];
   }
   flushG();
-  L.innerHTML=ids.length?`<div class="rail-box"><div class="rail-h">Competitions</div>${lh}</div>`:'';
+  L.innerHTML=ids.length?`<div class="rail-box">${fl?`<div class="rail-h">&#9733; Your competitions</div>${fl}`:''}<div class="rail-h"${fl?' style="margin-top:12px"':''}>Competitions</div>${lh}</div>`:'';
   const crest=c=>c.i?`<img class="crest" src="crests/${esc(c.i)}.png" alt="" loading="lazy" onerror="this.remove()">`:'';
   const line=(m,w,cls)=>{
     const done=m.sc&&(m.st==='ft'||m.st==='live'), hw=done&&m.sc[0]>m.sc[1], aw=done&&m.sc[1]>m.sc[0];
@@ -557,6 +610,8 @@ function filter(){
 }
 
 $('list').addEventListener('click',e=>{
+  const fb=e.target.closest('.cstar');
+  if(fb){const c=INFO.comps[fb.dataset.fav];if(c){favToggle(favKey(c.name,c.country));show(DAY,true);}return;}
   const mr=e.target.closest('.m[data-d]');
   // The FT button under a result opens the details in place; anywhere else
   // on a match opens its match page, if it has one (Greg, 2026-10).

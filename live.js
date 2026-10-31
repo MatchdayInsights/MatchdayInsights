@@ -6,7 +6,9 @@
      - a red LIVE strip under the menu: on a club page (data-tid) while that
        club plays; elsewhere "N matches on now"; not on match pages
      - a match page (data-fid): the scoreboard shows the live score and minute,
-       then the final score once it ends (until the page is rebuilt)
+       then the final score once it ends (until the page is rebuilt); and its
+       Match tab shows the line-ups (from about an hour before kick-off), then
+       the goals, cards, subs and stats, updated every minute (version 3)
      - a club page: its next match in "Upcoming" shows the live score
      - the homepage: "Biggest matches" cards being played show the score
    Other scripts can use the same data: it is kept in window.MI_LIVE and a
@@ -79,6 +81,44 @@
     }
   }
 
+  // Match page, the Match tab (version 3, Greg 2026-10): asks the worker for
+  // this match's details - every minute while it's on, every 5 minutes in
+  // the hour before kick-off (line-ups), once more when it ends.
+  var detAt = 0, detFinal = false, detBusy = false;
+  function matchTab(all) {
+    var tab = document.getElementById('tab-m');
+    if (!fid || !tab || !window.MIRenderMatch || detFinal || detBusy) return;
+    var r = all.filter(function (x) { return String(x[0]) === fid; })[0];
+    var btn = document.querySelector('.mtabs button[data-t="m"]');
+    var now = Date.now(), wait;
+    if (r && LIVE[r[2]]) wait = 50000;
+    else if (r && DONE[r[2]]) wait = 0;
+    else {
+      if (!tab.getAttribute('data-pre')) return;            // finished page: it has its own file
+      var k = document.querySelector('.sb-time[data-k]');
+      var ko = k ? new Date(k.getAttribute('data-k')).getTime() : NaN;
+      if (isNaN(ko) || ko - now > 75 * 60000 || now - ko > 4 * 3600000) return;
+      wait = 290000;
+    }
+    if (now - detAt < wait) return;
+    detAt = now; detBusy = true;
+    fetch(api + '/match?id=' + encodeURIComponent(fid), {cache: 'no-store'})
+      .then(function (x) { return x.ok ? x.json() : null; })
+      .then(function (d) {
+        if (!d || d.error) return;
+        var on = !!(d.s && LIVE[d.s[0]]);
+        if (d.s && DONE[d.s[0]]) detFinal = true;
+        if (!(d.ev || d.st || d.lu)) return;                 // nothing yet: keep the note
+        tab.setAttribute('data-got', '1');
+        window.MIRenderMatch(d, on);
+        if (btn) {
+          var dot = btn.querySelector('.ld');
+          if (on && !dot) btn.insertAdjacentHTML('afterbegin', '<i class="ld"></i>');
+          if (!on && dot) dot.remove();
+        }
+      }).catch(function () {}).then(function () { detBusy = false; });
+  }
+
   // Club page: the next match in "Upcoming" - the one that has kicked off.
   function clubPage(live) {
     if (!tid) return;
@@ -114,7 +154,7 @@
   function draw() {
     if (!last) return;
     var live = last.m.filter(function (r) { return LIVE[r[2]]; });
-    strip(live); matchPage(last.m); clubPage(live); cards(live);
+    strip(live); matchPage(last.m); matchTab(last.m); clubPage(live); cards(live);
   }
 
   var fails = 0, again = null;
