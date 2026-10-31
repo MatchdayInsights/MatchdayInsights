@@ -119,12 +119,18 @@
     det.at = now; det.busy = true;
     if (started) note(tab, 'Loading live details&hellip;');
     var btn = document.querySelector('.mtabs button[data-t="m"]');
-    var tries = 0;
+    var tries = 0, loads = 0;
     (function ask() {
       fetch(api + '/match?id=' + encodeURIComponent(fid), {cache: 'no-store'})
         .then(function (x) { return x.ok ? x.json() : null; })
         .catch(function () { return null; })
         .then(function (d) {
+          // "loading": the feeder brings this match's details within seconds -
+          // show that and ask again in 15 s, up to 2 minutes (Greg, 2026-10).
+          if (d && d.error === 'loading' && ++loads <= 8) {
+            if (started) note(tab, 'Loading live details&hellip;');
+            setTimeout(ask, 15000); return;
+          }
           if (!d || d.error) {
             if (++tries < 3) { setTimeout(ask, 4000 * tries); return; }
             if (started) note(tab, 'Live details aren&rsquo;t reachable right now &ndash; trying again in a minute.');
