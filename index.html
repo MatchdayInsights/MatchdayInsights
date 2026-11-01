@@ -159,6 +159,44 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 <link rel="canonical" href="https://matchdayinsights.com/">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://matchdayinsights.com/#website","url":"https://matchdayinsights.com/","name":"Matchday Insights","alternateName":"matchdayinsights.com","description":"Global club football (soccer) rankings, Elo ratings and match predictions.","publisher":{"@id":"https://matchdayinsights.com/#org"}},{"@type":"Organization","@id":"https://matchdayinsights.com/#org","name":"Matchday Insights","url":"https://matchdayinsights.com/","sameAs":["https://x.com/MDInsights_FC","https://www.instagram.com/matchday.insights/"]}]}</script>
 <!-- /site-identity -->
+<!-- home-compact-2026-11 --><style>
+/* Homepage on a phone: the ranking in view on opening (Greg, 2026-11). */
+@media (max-width:640px){
+  html body .hero{padding:12px 14px 10px!important}
+  html body .hero::after{display:none}
+  html body .hero-eyebrow{display:none}
+  html body .hero-title{font-size:27px!important;margin-bottom:6px!important}
+  html body .hero-desc{font-size:13px!important;line-height:1.4!important;margin-bottom:8px!important;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  html body .hero-links{display:flex;gap:6px;margin-bottom:10px;overflow-x:auto;scrollbar-width:none}
+  html body .hero-links::-webkit-scrollbar{display:none}
+  html body .hero-link{flex:0 0 auto;margin:0!important;font-size:10.5px!important;padding:4px 8px!important;white-space:nowrap}
+  html body .hero-stats{gap:0!important;flex-wrap:nowrap!important;justify-content:space-between}
+  html body .hstat-val{font-size:19px!important}
+  html body .hstat-label{font-size:8.5px!important;letter-spacing:1px!important}
+  html body .featured{padding:8px 14px 2px!important}
+  html body .featured-head{margin-bottom:6px!important}
+  html body .featured-row{gap:8px!important;padding-bottom:8px!important}
+  html body .fmatch{min-width:172px!important;padding:7px 10px!important;border-radius:8px}
+  html body .fmatch-meta{margin-bottom:4px!important;font-size:8.5px!important}
+  html body .fmatch-name{font-size:12.5px!important}
+  html body .fmatch-side{margin-bottom:1px!important}
+  html body .fmatch-bar{margin:5px 0 3px!important;height:4px!important}
+  html body .fmatch-pcts{font-size:9.5px!important}
+  html body .controls{display:grid!important;grid-template-columns:1.35fr 1fr .8fr;gap:6px!important;padding:8px 14px!important}
+  html body .controls .search-wrap{grid-column:1/-1;max-width:none!important;min-width:0}
+  html body .controls .search-input{padding:7px 10px 7px 30px!important;font-size:13px!important}
+  html body .controls .filter-select{min-width:0;width:100%;padding:6px 20px 6px 8px!important;font-size:11px!important;
+    background-position:right 6px center!important}
+  html body .controls .results-info{display:none}
+}
+/* Smaller phones (360px wide): keep the title and the matches heading on one line. */
+@media (max-width:380px){
+  html body .hero-title{font-size:24px!important}
+  html body .featured-head{flex-wrap:nowrap!important;gap:6px!important}
+  html body .featured-head select{min-width:0;max-width:128px;font-size:11px!important}
+}
+</style>
 </head>
 <body>
 
@@ -185,13 +223,14 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hero-eyebrow" id="hero-eyebrow">&#x2B21; Global Club Football &middot; &mdash; Clubs</div>
   <h1 class="hero-title">Global <em>Club</em> Rankings</h1>
   <p class="hero-desc">The most comprehensive global club football (soccer) ranking. Every senior competitive result, from the Champions League to the fourth tier, feeds one Elo model &mdash; so every club in the world sits on the same scale.</p>
+  <div class="hero-links">
   <a class="hero-link" href="leagues.html">League &amp; country rankings &rarr;</a>
   <a class="hero-link" href="best-club-in-every-country.html">&#x1F5FA; The best club in every country &rarr;</a>
+  </div>
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">286,445</div><div class="hstat-label">Matches Analysed</div></div>
-    <div class="hstat"><div class="hstat-val">2021</div><div class="hstat-label">Data Since</div></div>
+    <div class="hstat"><div class="hstat-val">286,506</div><div class="hstat-label">Matches Analysed</div></div>
   </div>
 </div>
 
