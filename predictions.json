@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T03:34:47+00:00",
+  "generated": "2026-11-02T04:05:11+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -293,29 +293,6 @@
     }
   ],
   "fixtures": [
-    {
-      "fixture_id": "1648029",
-      "date": "2026-11-02T01:00:00+00:00",
-      "competition": "Primera Division",
-      "competition_type": "league",
-      "country": "Nicaragua",
-      "round": "Apertura - 16",
-      "status": "NS",
-      "home_team_id": "4644",
-      "home_team": "Managua",
-      "home_slug": "managua",
-      "home_rank": 1697,
-      "home_elo": 851.9,
-      "away_team_id": "4647",
-      "away_team": "UNAN Managua",
-      "away_slug": "unan-managua",
-      "away_rank": 3097,
-      "away_elo": 631.4,
-      "p_home": 0.6696,
-      "p_draw": 0.1961,
-      "p_away": 0.1343,
-      "expected_score": 0.7676
-    },
     {
       "fixture_id": "1551028",
       "date": "2026-11-02T01:10:00+00:00",
