@@ -103,6 +103,7 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
   var tabs=document.querySelectorAll('.club-tab'); if(!tabs.length) return;
   var over=document.getElementById('tab-overview'), panel=document.getElementById('tab-matches');
   var DATA=null, shown=0, PAGE=25, rows=[], res='';
+  var PG={}; try{PG=JSON.parse(document.getElementById('pg-data').textContent)||{};}catch(e){}
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]});}
   function show(name, push){
     tabs.forEach(function(t){t.classList.toggle('on', t.getAttribute('data-tab')===name);});
@@ -160,12 +161,12 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
       var venTxt={H:'Home',A:'Away',N:'Neutral'}[m[4]]||'';
       var odds=m[13]!=null?'<small class="am-p" title="Our odds before the game: '+Math.round(m[13]*100)+'% to win">'+Math.round(m[13]*100)+'%</small>':'';
       var ch=m[11]==null?'':'<span class="'+(m[11]>=0?'w':'l')+'">'+(m[11]>=0?'+':'')+m[11].toFixed(1)+'</span>';
-      out.push('<div class="am-row">'+
+      out.push('<div class="am-row"'+(PG[m[0]]?' data-pg="'+esc(PG[m[0]])+'"':'')+'>'+
         '<span class="am-date">'+DAY[dt.getUTCDay()]+' '+dt.getUTCDate()+' '+MON[dt.getUTCMonth()].slice(0,3)+'</span>'+
         '<span class="am-comp"><i>'+esc(m[1])+'</i></span>'+
         '<span class="am-ven" title="'+venTxt+'">'+(m[4]||'')+'</span>'+
         '<span class="am-opp"><em>'+ven+'</em> '+opp+(m[7]?' <small>#'+m[7]+'</small>':'')+'</span>'+
-        '<span class="am-res"><b class="r'+m[10]+'">'+m[10]+' '+m[8]+'-'+m[9]+'</b>'+odds+'</span>'+
+        '<span class="am-res"><b class="r'+m[10]+'">'+m[10]+' '+m[8]+'-'+m[9]+'</b>'+odds+(PG[m[0]]?'<i class="am-gt">&rsaquo;</i>':'')+'</span>'+
         '<span class="am-ch">'+ch+(m[12]?'<small class="am-rk2"> &middot; #'+m[12]+'</small>':'')+'</span>'+
         '<span class="am-rk">'+(m[12]?'#'+m[12]:'')+'</span>'+
         '<span class="am-meta">'+DAY[dt.getUTCDay()]+' '+dt.getUTCDate()+' '+MON[dt.getUTCMonth()].slice(0,3)+' &middot; '+esc(m[1])+'</span>'+
@@ -183,6 +184,14 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
 (function(){
   // The charts and the other seasons' tables, from club_data/<slug>.json.
   var main=document.querySelector('main.club-page'); if(!main) return;
+  // MATCH LINKS 2026-11: a match with a page opens it.
+  document.head.insertAdjacentHTML('beforeend','<style>[data-pg]{cursor:pointer}[data-pg]:hover{background:rgba(61,186,94,.07)}'
+    +'.am-gt{font-style:normal;color:var(--green);font-weight:700;margin-left:6px}</style>');
+  document.addEventListener('click',function(e){
+    var r=e.target.closest&&e.target.closest('[data-pg]');
+    if(!r||e.target.closest('a,button,select')) return;
+    location.href='../predictions/'+r.getAttribute('data-pg')+'.html';
+  });
   var src=main.getAttribute('data-data'), tid=main.getAttribute('data-tid'); if(!src) return;
   var P=null;
   function data(){ if(!P) P=fetch(src).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}); return P; }

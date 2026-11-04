@@ -121,8 +121,11 @@
     var btn = document.querySelector('.mtabs button[data-t="m"]');
     var tries = 0, loads = 0;
     (function ask() {
-      fetch(api + '/match?id=' + encodeURIComponent(fid), {cache: 'no-store'})
-        .then(function (x) { return x.ok ? x.json() : null; })
+      // Version 5 (Greg, 2026-11): the page already asked from its <head>
+      // (live_tags.py) - use that answer for the first draw.
+      var early = window.MI_MDP; window.MI_MDP = null;
+      (early || fetch(api + '/match?id=' + encodeURIComponent(fid), {cache: 'no-store'})
+        .then(function (x) { return x.ok ? x.json() : null; }))
         .catch(function () { return null; })
         .then(function (d) {
           // "loading": the feeder brings this match's details within seconds -
