@@ -276,7 +276,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .bk-t div.us{background:rgba(61,186,94,.14)}
 .bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Everton vs Coventry", "sport": "Soccer", "startDate": "2026-11-06T20:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Everton home ground", "address": {"@type": "PostalAddress", "addressCountry": "GB"}}, "homeTeam": {"@type": "SportsTeam", "name": "Everton"}, "awayTeam": {"@type": "SportsTeam", "name": "Coventry"}, "competitor": [{"@type": "SportsTeam", "name": "Everton"}, {"@type": "SportsTeam", "name": "Coventry"}], "performer": [{"@type": "SportsTeam", "name": "Everton"}, {"@type": "SportsTeam", "name": "Coventry"}], "organizer": {"@type": "SportsOrganization", "name": "Premier League"}, "description": "Everton vs Coventry prediction for Friday 06 November 2026: our model gives Everton 68%, a draw 19% and Coventry 13%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/everton-vs-coventry-2026-11-06.html", "endDate": "2026-11-06T22:00:00+00:00"}</script>
+</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Everton vs Coventry", "sport": "Soccer", "startDate": "2026-11-06T20:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Hill Dickinson Stadium", "address": {"@type": "PostalAddress", "addressLocality": "Liverpool", "addressCountry": "GB"}}, "homeTeam": {"@type": "SportsTeam", "name": "Everton"}, "awayTeam": {"@type": "SportsTeam", "name": "Coventry"}, "competitor": [{"@type": "SportsTeam", "name": "Everton"}, {"@type": "SportsTeam", "name": "Coventry"}], "performer": [{"@type": "SportsTeam", "name": "Everton"}, {"@type": "SportsTeam", "name": "Coventry"}], "organizer": {"@type": "SportsOrganization", "name": "Premier League"}, "description": "Everton vs Coventry prediction for Friday 06 November 2026: our model gives Everton 68%, a draw 19% and Coventry 13%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/everton-vs-coventry-2026-11-06.html", "endDate": "2026-11-06T22:00:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -289,7 +289,8 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .td-top{max-width:200px}
 .top-club{font-size:12px;font-weight:600;text-transform:uppercase;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .top-club-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
-</style><!-- live-head -->
+</style>
+<!-- live-head -->
 <link rel="preconnect" href="https://matchday-live.gregory-m-toledo.workers.dev" crossorigin>
 <script>(function(){var k=Date.parse('2026-11-06T20:00:00Z'),n=Date.now();if(window.fetch&&n>k-75*6e4&&n<k+5*36e5){window.MI_MDP=fetch('https://matchday-live.gregory-m-toledo.workers.dev/match?id=1557460',{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}})();</script>
 <!-- /live-head -->
@@ -392,7 +393,11 @@ window.MIRenderMatch=function(d,live){
   if(!h&&box.dataset.pre)return;          // nothing yet: keep the note
   box.innerHTML=h||'<div class="none">No goals, cards or lineups for this match yet.</div>';
 };
-fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null)
+// The details are in the page when the match is over (live_tags.py puts
+// them there): drawn straight away, nothing to download (Greg, 2026-11).
+const md=document.getElementById('md-data');
+if(md){try{window.MIRenderMatch(JSON.parse(md.textContent));box.dataset.got='1';}catch(e){}}
+if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null)
   .then(d=>{if(!box.dataset.got)window.MIRenderMatch(d);});
 })();
 </script>
@@ -401,7 +406,9 @@ fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r
   &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a>
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
-</footer><!-- live-tag -->
+</footer>
+
+<!-- live-tag -->
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1557460" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>

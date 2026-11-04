@@ -389,7 +389,11 @@ window.MIRenderMatch=function(d,live){
   if(!h&&box.dataset.pre)return;          // nothing yet: keep the note
   box.innerHTML=h||'<div class="none">No goals, cards or lineups for this match yet.</div>';
 };
-fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null)
+// The details are in the page when the match is over (live_tags.py puts
+// them there): drawn straight away, nothing to download (Greg, 2026-11).
+const md=document.getElementById('md-data');
+if(md){try{window.MIRenderMatch(JSON.parse(md.textContent));box.dataset.got='1';}catch(e){}}
+if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null)
   .then(d=>{if(!box.dataset.got)window.MIRenderMatch(d);});
 })();
 </script>
@@ -398,7 +402,9 @@ fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r
   &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a>
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
-</footer><!-- live-tag -->
+</footer>
+
+<!-- live-tag -->
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1643464" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>

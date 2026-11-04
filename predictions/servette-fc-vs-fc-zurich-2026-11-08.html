@@ -289,7 +289,8 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .td-top{max-width:200px}
 .top-club{font-size:12px;font-weight:600;text-transform:uppercase;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .top-club-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
-</style><!-- live-head -->
+</style>
+<!-- live-head -->
 <link rel="preconnect" href="https://matchday-live.gregory-m-toledo.workers.dev" crossorigin>
 <script>(function(){var k=Date.parse('2026-11-08T15:30:00Z'),n=Date.now();if(window.fetch&&n>k-75*6e4&&n<k+5*36e5){window.MI_MDP=fetch('https://matchday-live.gregory-m-toledo.workers.dev/match?id=1555421',{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}})();</script>
 <!-- /live-head -->
@@ -335,7 +336,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Servette FC</b> (57%). More from the <a href='../leagues/switzerland-super-league.html'>Super League</a>.</p>
 <h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-08-01</td><td>FC Zurich v Servette FC</td><td class='r'><b>2-1</b></td></tr><tr><td>2026-05-16</td><td>FC Zurich v Servette FC</td><td class='r'><b>0-2</b></td></tr><tr><td>2026-03-07</td><td>Servette FC v FC Zurich</td><td class='r'><b>2-1</b></td></tr><tr><td>2026-01-18</td><td>Servette FC v FC Zurich</td><td class='r'><b>1-1</b></td></tr><tr><td>2025-09-13</td><td>FC Zurich v Servette FC</td><td class='r'><b>2-1</b></td></tr></table>
-<h2>Super League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>2</td><td>BSC Young Boys</td><td class='r'>12</td><td class='r'>25</td><td class='r'>#169</td></tr><tr class=''><td>3</td><td>FC Sion</td><td class='r'>12</td><td class='r'>23</td><td class='r'>#185</td></tr><tr class='hi'><td>4</td><td>FC Zurich</td><td class='r'>12</td><td class='r'>20</td><td class='r'>#589</td></tr><tr class=''><td>5</td><td>FC ST. Gallen</td><td class='r'>12</td><td class='r'>19</td><td class='r'>#204</td></tr><tr class='hi'><td>6</td><td>Servette FC</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#257</td></tr><tr class=''><td>7</td><td>FC Basel 1893</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#432</td></tr><tr class=''><td>8</td><td>FC Luzern</td><td class='r'>12</td><td class='r'>13</td><td class='r'>#367</td></tr></table>
+<h2>Super League table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>2</td><td>BSC Young Boys</td><td class='r'>12</td><td class='r'>25</td><td class='r'>#168</td></tr><tr class=''><td>3</td><td>FC Sion</td><td class='r'>12</td><td class='r'>23</td><td class='r'>#185</td></tr><tr class='hi'><td>4</td><td>FC Zurich</td><td class='r'>12</td><td class='r'>20</td><td class='r'>#589</td></tr><tr class=''><td>5</td><td>FC ST. Gallen</td><td class='r'>12</td><td class='r'>19</td><td class='r'>#204</td></tr><tr class='hi'><td>6</td><td>Servette FC</td><td class='r'>12</td><td class='r'>16</td><td class='r'>#257</td></tr><tr class=''><td>7</td><td>FC Basel 1893</td><td class='r'>12</td><td class='r'>14</td><td class='r'>#433</td></tr><tr class=''><td>8</td><td>FC Luzern</td><td class='r'>12</td><td class='r'>13</td><td class='r'>#365</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
@@ -392,7 +393,11 @@ window.MIRenderMatch=function(d,live){
   if(!h&&box.dataset.pre)return;          // nothing yet: keep the note
   box.innerHTML=h||'<div class="none">No goals, cards or lineups for this match yet.</div>';
 };
-fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null)
+// The details are in the page when the match is over (live_tags.py puts
+// them there): drawn straight away, nothing to download (Greg, 2026-11).
+const md=document.getElementById('md-data');
+if(md){try{window.MIRenderMatch(JSON.parse(md.textContent));box.dataset.got='1';}catch(e){}}
+if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r.ok?r.json():null).catch(()=>null)
   .then(d=>{if(!box.dataset.got)window.MIRenderMatch(d);});
 })();
 </script>
@@ -401,7 +406,9 @@ fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r
   &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a>
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
-</footer><!-- live-tag -->
+</footer>
+
+<!-- live-tag -->
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1555421" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>
