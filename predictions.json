@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T02:02:13+00:00",
+  "generated": "2026-11-05T02:32:21+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -293,29 +293,6 @@
     }
   ],
   "fixtures": [
-    {
-      "fixture_id": "1549845",
-      "date": "2026-11-04T23:30:00+00:00",
-      "competition": "Primera A",
-      "competition_type": "league",
-      "country": "Colombia",
-      "round": "Clausura - 17",
-      "status": "2H",
-      "home_team_id": "1470",
-      "home_team": "Cucuta",
-      "home_slug": "cucuta",
-      "home_rank": 1364,
-      "home_elo": 896.4,
-      "away_team_id": "1139",
-      "away_team": "Santa Fe",
-      "away_slug": "santa-fe",
-      "away_rank": 554,
-      "away_elo": 1074.4,
-      "p_home": 0.2462,
-      "p_draw": 0.2642,
-      "p_away": 0.4896,
-      "expected_score": 0.3783
-    },
     {
       "fixture_id": "1639722",
       "date": "2026-11-05T00:00:00+00:00",
