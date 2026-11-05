@@ -289,10 +289,8 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .td-top{max-width:200px}
 .top-club{font-size:12px;font-weight:600;text-transform:uppercase;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .top-club-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
-</style>
-<!-- live-head -->
-<link rel="preconnect" href="https://matchday-live.gregory-m-toledo.workers.dev" crossorigin>
-<script>(function(){var k=Date.parse('2026-11-05T10:00:00Z'),n=Date.now();if(window.fetch&&n>k-75*6e4&&n<k+5*36e5){window.MI_MDP=fetch('https://matchday-live.gregory-m-toledo.workers.dev/match?id=1630400',{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}})();</script>
+</style><!-- live-head -->
+<script type="application/json" id="md-data">{"ht":[3,0],"ref":"Sanzhar Zhakypbekov","ven":"Jalan Besar Stadium, Singapore","lu":{"h":{"f":"5-4-1","c":"","xi":[[1,"Victor Wehbi Aznar","G"],[2,"Jorge Karseladze","D"],[3,"Hugo Gomes","D"],[26,"Bailey Wright","D"],[4,"Toni Datkovi\u0107","D"],[29,"Diogo Costa","D"],[23,"Matthias Pha\u00ebton","M"],[8,"Kyoga Nakamura","M"],[24,"Giovanni Haag","M"],[10,"Bart Ramselaar","M"],[9,"Lennart Thy","F"]],"bn":[[14,"Hariss Harun","D"],[18,"Ryhan Stewart","D"],[17,"Ilhan Fandi Ahmad","F"],[15,"Ui-young Song","M"],[7,"Shawal Anuar","F"],[25,"Ivan Su\u0161ak","G"],[5,"Lionel Tan","D"],[19,"Farhan Zulkifi","M"],[22,"Nur Asis","M"],[11,"Glenn Kweh","M"],[16,"Hami Syahin","M"],[12,"Antonio Mance","F"]]},"a":{"f":"3-1-4-2","c":"","xi":[[22,"Joshua Smits","G"],[52,"Sotiri Phillis","D"],[4,"Panagiotis Kikianis","D"],[14,"Jay Barnett","D"],[87,"Anselmo","M"],[58,"Harry Crawford","M"],[23,"Luke Duzel","M"],[55,"Ethan Alagich","M"],[7,"Ryan Kitto","M"],[35,"Brody Burkitt","F"],[10,"Juan Mu\u00f1iz","F"]],"bn":[[65,"Joey Garuccio","M"],[17,"Ben Folami","F"],[27,"Mitchell Smith","F"],[62,"Fabian Talladira","M"],[19,"Amlani Tatu","F"],[12,"Jonny Yull","M"],[40,"Ethan Cox","G"],[79,"Feyzo Kasumovic","D"],[99,"Ajak Riak","F"]]}},"ev":[[5,0,"h","g","M. Phaeton",""],[17,0,"h","g","B. Wright",""],[41,0,"h","g","K. Nakamura","L. Thy"],[46,0,"a","s","B. Folami","Anselmo"],[46,0,"h","s","H. Harun","B. Wright"],[46,0,"a","s","M. Smith","B. Burkitt"],[46,0,"a","s","J. Garuccio","L. Duzel"],[64,0,"h","s","R. Stewart","J. Karseladze"],[64,0,"h","s","I. Fandi","L. Thy"],[71,0,"h","g","I. Fandi",""],[75,0,"h","g","M. Phaeton","B. Ramselaar"],[76,0,"a","s","J. Yull","J. Barnett"],[76,0,"a","s","F. Talladira","R. Kitto"],[76,0,"a","s","A. Tatu","J. Muniz"],[77,0,"h","s","Song Ui-Young","B. Ramselaar"],[88,0,"h","mp","M. Phaeton","M. Phaeton"],[89,0,"a","y","E. Alagich",""],[89,0,"h","s","S. Anuar","M. Phaeton"],[90,3,"h","y","Song Ui-Young",""]],"st":[["Possession","48%","52%"],["Shots",18,10],["On target",11,3],["Corners",7,6],["Fouls",12,7],["Offsides",2,2],["Saves",3,6]]}</script>
 <!-- /live-head -->
 </head>
 <body>
@@ -407,7 +405,6 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
 </footer>
-
 <!-- live-tag -->
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1630400" data-base="../" defer></script>
 <!-- /live-tag -->
