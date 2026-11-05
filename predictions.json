@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T20:24:06+00:00",
+  "generated": "2026-11-05T20:33:31+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -293,29 +293,6 @@
     }
   ],
   "fixtures": [
-    {
-      "fixture_id": "1603088",
-      "date": "2026-11-05T17:30:00+00:00",
-      "competition": "Pro League",
-      "competition_type": "league",
-      "country": "Saudi-Arabia",
-      "round": "Regular Season - 13",
-      "status": "PST",
-      "home_team_id": "2933",
-      "home_team": "Al-Qadisiyah FC",
-      "home_slug": "al-qadisiyah-fc",
-      "home_rank": 82,
-      "home_elo": 1369.1,
-      "away_team_id": "2944",
-      "away_team": "Al-Fayha",
-      "away_slug": "al-fayha",
-      "away_rank": 659,
-      "away_elo": 1046.9,
-      "p_home": 0.7633,
-      "p_draw": 0.1515,
-      "p_away": 0.0852,
-      "expected_score": 0.839
-    },
     {
       "fixture_id": "1599763",
       "date": "2026-11-05T18:30:00+00:00",
