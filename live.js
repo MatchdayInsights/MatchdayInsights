@@ -128,11 +128,12 @@
         .then(function (x) { return x.ok ? x.json() : null; }))
         .catch(function () { return null; })
         .then(function (d) {
-          // "loading": the feeder brings this match's details within seconds -
-          // show that and ask again in 15 s, up to 2 minutes (Greg, 2026-10).
-          if (d && d.error === 'loading' && ++loads <= 8) {
+          // Not in the worker's store yet: it's queued and the feeder sends it
+          // within ~10 s, so ask again every 5 s, up to 6 times (Greg, 2026-11).
+          // ('loading' is what a worker from before 5.2 says.)
+          if (d && (d.error === 'pending' || d.error === 'loading') && ++loads <= 6) {
             if (started) note(tab, 'Loading live details&hellip;');
-            setTimeout(ask, 15000); return;
+            setTimeout(ask, 5000); return;
           }
           if (!d || d.error) {
             if (++tries < 3) { setTimeout(ask, 4000 * tries); return; }
