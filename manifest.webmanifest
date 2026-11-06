@@ -1,0 +1,21 @@
+{
+  "name": "Matchday Insights",
+  "short_name": "MD Insights",
+  "description": "Every club in the world ranked on one scale - live scores, predictions and the world ranking.",
+  "id": "/",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f6f2",
+  "theme_color": "#1a1a2e",
+  "icons": [
+    {"src": "/app_icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/app_icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/app_icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Matches", "url": "/matches.html?source=app", "icons": [{"src": "/app_icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Predictions", "url": "/predictions.html?source=app", "icons": [{"src": "/app_icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
