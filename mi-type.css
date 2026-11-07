@@ -89,3 +89,13 @@ html body .mc-f span.tag, html body .motw-go span.tag { letter-spacing: 0 !impor
 
 /* Search boxes and drop-downs in the same reading font. */
 html body input, html body select, html body textarea { font-family: var(--mi-read) !important; letter-spacing: 0 !important; }
+
+/* Matches page on phones: a live rank move ("#2740→#2669") and the rating
+   change no longer run off the edge - the change drops under the rank
+   when they don't fit side by side. */
+@media (max-width:640px){
+  html body .m .side .sx{flex-wrap:wrap!important;column-gap:6px!important;row-gap:0!important;max-width:100%}
+  html body .m .side.h .sx{justify-content:flex-end!important}
+  html body .m .side .sx .rk{font-size:10.5px!important;white-space:nowrap}
+  html body .m .side .sx .dl{font-size:11px!important;white-space:nowrap}
+}
