@@ -1,0 +1,91 @@
+/* Matchday Insights - easier reading, every page (Greg, 2026-11: "option A").
+   One font for everything you read - Inter (on this site it's loaded under
+   the name 'JetBrains Mono') - in normal case, at sizes that are easy on a
+   phone, with labels no longer tiny and spaced out. Barlow Condensed stays
+   for the logo and the big page and section titles only.
+   Linked from every page by app_tags.py (after the page's own styles), so a
+   change here reaches the whole site without rebuilding any page. */
+
+:root { --mi-read: 'JetBrains Mono', Inter, system-ui, -apple-system, 'Segoe UI', sans-serif; }
+
+/* Numbers line up in columns (every digit the same width). */
+html body { font-variant-numeric: tabular-nums; }
+
+/* ---- 1. Text set in Barlow Condensed that people read -> Inter ---- */
+html body .hero-desc, html body .hero-desc b,
+html body .lh p, html body .lh b,
+html body .lgt td, html body .lgt td a, html body .me td,
+html body .doc p, html body .doc li, html body .doc a, html body .doc strong,
+html body .callout p, html body .callout strong,
+html body .cta-box p, html body .cp-sub, html body .hub-sub, html body .compare-sub, html body .compare-empty,
+html body .mpanel p, html body .mpanel a, html body .mpanel b,
+html body .related-link, html body .section summary,
+html body #bracket details div, html body #form a, html body .upcoming-row a:not([href*="predictions"]) {
+  font-family: var(--mi-read) !important; letter-spacing: 0 !important;
+}
+html body .hero-desc { font-size: 14px !important; line-height: 1.55 !important; }
+html body .lh p { font-size: 13px !important; line-height: 1.55 !important; }
+html body .lgt td, html body .me td { font-size: 12.5px !important; }
+html body .doc p, html body .doc li, html body .callout p { font-size: 15px !important; line-height: 1.65 !important; }
+html body .doc p.lede { font-size: 16.5px !important; }
+html body .cta-box p, html body .cp-sub, html body .hub-sub, html body .compare-sub, html body .compare-empty { font-size: 15px !important; line-height: 1.5 !important; }
+html body .mpanel p { font-size: 15px !important; line-height: 1.6 !important; }
+html body .related-link { font-size: 14px !important; }
+html body .section summary { font-size: 14.5px !important; font-weight: 600 !important; }
+html body #bracket details div { font-size: 13px !important; }
+
+/* ---- 2. Club names: normal case, never in capitals ---- */
+html body .upcoming-row a:not([href*="predictions"]), html body #form a { font-size: 14.5px !important; font-weight: 600 !important; text-transform: none !important; }
+html body .panel div[style*="font-size: 9px"] { font-size: 10.5px !important; letter-spacing: .2px !important; }
+html body .my-c b { font-family: var(--mi-read) !important; font-size: 14px !important; font-weight: 700 !important; text-transform: none !important; letter-spacing: 0 !important; }
+html body .sb-t span { font-family: var(--mi-read) !important; font-size: 17px !important; font-weight: 700 !important; text-transform: none !important; letter-spacing: -.1px !important; }
+html body .motw-nm { font-family: var(--mi-read) !important; font-size: 20px !important; font-weight: 700 !important; text-transform: none !important; letter-spacing: -.2px !important; line-height: 1.2 !important; }
+html body .top-club, html body .top-club a { text-transform: none !important; }
+html body .nav-club b { font-family: var(--mi-read) !important; font-size: 16px !important; font-weight: 700 !important; text-transform: none !important; letter-spacing: 0 !important; }
+
+/* ---- 3. Tabs and section headers: Inter, normal case ---- */
+html body .days button.day, html body .day b,
+html body .club-tabs button.club-tab, html body .mtabs button {
+  font-family: var(--mi-read) !important; text-transform: none !important; letter-spacing: 0 !important; font-weight: 600 !important;
+}
+html body .days button.day { font-size: 14px !important; }
+html body .day b { font-size: 13px !important; }
+html body .club-tabs button.club-tab, html body .mtabs button { font-size: 15px !important; }
+html body .cont-h b { font-family: var(--mi-read) !important; font-size: 14px !important; font-weight: 700 !important; text-transform: none !important; letter-spacing: 0 !important; }
+html body .section h2, html body .doc h2, html body .panel-title, html body .chart-title-text {
+  font-size: 15px !important; font-weight: 700 !important; text-transform: none !important; letter-spacing: 0 !important; color: var(--text) !important;
+}
+
+/* ---- 4. Small labels: a readable size, normal case, no wide spacing ---- */
+html body th, html body .featured-title, html body .hstat-label, html body .stat-label,
+html body .my-h, html body .myp-add-h, html body .motw-lab, html body .record span, html body .g span,
+html body .sb-meta, html body .sb-st span, html body .rank-in, html body .club-rank,
+html body .hero-eyebrow, html body .cp-ey, html body .hub-ey {
+  text-transform: none !important; letter-spacing: .1px !important;
+}
+html body th { font-size: 11.5px !important; font-weight: 600 !important; }
+html body .featured-title, html body .my-h, html body .myp-add-h, html body .motw-lab { font-size: 12.5px !important; font-weight: 600 !important; }
+html body .hstat-label, html body .stat-label, html body .record span, html body .g span { font-size: 11.5px !important; }
+html body .hero-eyebrow, html body .cp-ey, html body .hub-ey { font-size: 12px !important; }
+html body .sb-meta, html body .sb-st span { font-size: 12px !important; }
+html body .rank-in { font-size: 10px !important; }
+html body .club-rank, html body .club-rank span { font-size: 14px !important; letter-spacing: 0 !important; text-transform: none !important; }
+
+/* ---- 5. Nothing tiny: the smallest text goes up to 11-12px ---- */
+html body .record-row-note { font-size: 10.5px !important; letter-spacing: 0 !important; }
+html body .fmatch-meta { font-size: 11px !important; letter-spacing: 0 !important; }
+html body .day span, html body .day small { font-size: 10.5px !important; letter-spacing: 0 !important; }
+html body .comp-h a, html body .lt-key span { font-size: 10.5px !important; }
+html body .top-club-rank, html body .rank-world, html body .sx .rk, html body .fmatch-rank { font-size: 11px !important; }
+html body .club-code { font-size: 11.5px !important; }
+html body .fmatch-pcts span { font-size: 11px !important; }
+html body .mc-nm small, html body .odds .dr, html body .lm-o .dr { font-size: 11.5px !important; }
+html body .mc-top span { font-size: 11.5px !important; letter-spacing: 0 !important; text-transform: none !important; }
+html body .hero-link { font-size: 12px !important; letter-spacing: 0 !important; }
+html body .tools button, html body .tools .count, html body .cont-h span, html body .hub-legend span, html body .panel span { font-size: 11.5px !important; }
+html body .lt-sub, html body .ratings-h span, html body .motw-p span { font-size: 11px !important; letter-spacing: 0 !important; }
+html body .mx p.key { font-size: 11.5px !important; line-height: 1.5 !important; }
+html body .mc-f span.tag, html body .motw-go span.tag { letter-spacing: 0 !important; text-transform: none !important; font-size: 11px !important; }
+
+/* Search boxes and drop-downs in the same reading font. */
+html body input, html body select, html body textarea { font-family: var(--mi-read) !important; letter-spacing: 0 !important; }
