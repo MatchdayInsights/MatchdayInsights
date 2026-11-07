@@ -121,6 +121,11 @@
   document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest("[data-star]")) resync(); }, true);
   if (MIPush.supported()) window.addEventListener("load", function () { MIPush.sync(); });
 
+  // Matches page: "Top games" as one list, biggest match first (Greg, 2026-11).
+  if (document.getElementById("top-only")) {
+    var ts = document.createElement("script"); ts.src = "/matches-top.js"; document.head.appendChild(ts);
+  }
+
   if (standalone) { backButton(); return; }
 
   /* Inside the installed app there's no browser back arrow, so the top bar

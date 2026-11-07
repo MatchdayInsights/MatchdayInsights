@@ -81,7 +81,7 @@
     function mark() {
       if (busy) return; busy = true;
       var old = list.querySelector('.my-box'); if (old) old.remove();
-      var rows = [].slice.call(list.querySelectorAll('.m')).filter(function (r) {
+      var rows = [].slice.call(list.querySelectorAll('.comp .m')).filter(function (r) {
         return ids[r.dataset.hi] || ids[r.dataset.ai]; });
       if (rows.length) {
         var box = document.createElement('section');
