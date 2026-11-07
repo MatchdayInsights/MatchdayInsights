@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="theme.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>My clubs | Matchday Insights</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+<link rel="stylesheet" href="club-page.css">
+<style>
+[hidden]{display:none!important}
+.header-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+.ig-link{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);text-decoration:none;border:1px solid var(--border2);padding:4px 10px;border-radius:4px;white-space:nowrap}
+.ig-link:hover,.ig-link.on{border-color:var(--green-dim);color:var(--green);text-decoration:none}
+@media(max-width:640px){.ig-link:not(.on){display:none}}
+
+.mx{max-width:860px;margin:0 auto;padding:0 16px 40px}
+/* Wide screens: competitions on the left, the day's big games and upsets on
+   the right (Greg, 2026-10). Hidden below 1200px wide. */
+.mx-rail{display:none}
+@media(min-width:1200px){
+  .mx-grid{display:grid;grid-template-columns:230px minmax(0,820px) 290px;gap:22px;justify-content:center;padding:0 20px}
+  .mx-grid .mx{max-width:none;margin:0;padding:0 0 40px}
+  .mx-rail{display:block;position:sticky;top:72px;align-self:start;max-height:calc(100vh - 88px);overflow-y:auto;
+    scrollbar-width:thin;margin-top:84px}
+}
+.rail-box{background:var(--surface2);border:1px solid var(--border2);border-radius:12px;padding:12px 12px 8px;margin-bottom:14px}
+.rail-h{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);margin:0 2px 8px}
+.rail-c{display:flex;align-items:center;gap:8px;width:100%;background:none;border:0;border-radius:7px;padding:6px 6px;
+  cursor:pointer;color:var(--text);text-align:left;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+.rail-c:hover{background:rgba(61,186,94,.08);color:var(--green)}
+.rail-c .fi{flex:none;border-radius:2px}
+.rail-c span.n{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rail-c span.k{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;color:var(--muted)}
+.rail-m{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;padding:8px 4px;border-top:1px solid var(--border)}
+.rail-m:first-of-type{border-top:0}
+.rail-m .t{display:flex;align-items:center;gap:6px;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.03em;color:var(--text);white-space:nowrap;overflow:hidden}
+.rail-m .t span{overflow:hidden;text-overflow:ellipsis}
+.rail-m .t.lost{color:var(--text2)}
+.rail-m .v{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:16px;text-align:right;color:var(--text)}
+.rail-m .v.k{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:11px;color:var(--text2)}
+.rail-m .w{grid-column:1/3;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted)}
+.rail-m .w.up{color:#f07800}
+.rail-m .crest{width:18px;height:18px}
+.rail-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:4px 4px 8px}
+.rail-g{margin-top:6px;border-top:1px solid var(--border)}
+.rail-g summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:9px 6px 7px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text2)}
+.rail-g summary::-webkit-details-marker{display:none}
+.rail-g summary::after{content:'\25BE';margin-left:auto;color:var(--muted);transition:transform .15s}
+.rail-g[open] summary::after{transform:rotate(180deg)}
+.rail-g summary span{font-weight:500;letter-spacing:0;color:var(--muted)}
+.rail-g summary:hover{color:var(--green)}
+.rail-c small{display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:0;
+  text-transform:none;color:var(--muted);margin-top:1px}
+/* Phones: the crest beside the name, the rating change under it. */
+@media(max-width:560px){
+  .m .side{display:grid;column-gap:6px;row-gap:1px;align-items:center}
+  .m .side.h{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"n c" "d c";justify-items:end}
+  .m .side:not(.h){grid-template-columns:auto minmax(0,1fr);grid-template-areas:"c n" "c d";justify-items:start}
+  .m .side .nm{grid-area:n}.m .side .crest{grid-area:c}.m .side .dl{grid-area:d}
+}
+.mx-head{padding:20px 0 10px}
+.mx-title{font-size:clamp(28px,4vw,40px);font-weight:900;text-transform:uppercase;line-height:.95;color:var(--text)}
+.mx-sub{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.5px;margin-top:6px}
+
+/* The date picker: arrows either side, no scrollbar, the dates fading out
+   at the edges rather than looking chopped off (Greg, 2026-10). */
+.days-bar{display:flex;align-items:center;gap:6px;padding:10px 0;position:sticky;top:58px;z-index:20;background:var(--bg)}
+.days{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1 1 auto;min-width:0;
+  scroll-behavior:smooth;scroll-padding:0 28px;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%)}
+.days::-webkit-scrollbar{display:none}
+.days>.day:first-child{margin-left:22px}.days>.day:last-child{margin-right:22px}
+.dnav{flex:none;width:34px;height:46px;border-radius:7px;border:1px solid var(--border2);background:var(--surface2);
+  color:var(--text);font-size:20px;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0 0 2px}
+.dnav:hover:not(:disabled){border-color:var(--green-dim);color:var(--green)}
+.dnav:disabled{opacity:.3;cursor:default}
+.dnav:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+@media(max-width:560px){.dnav{width:28px;height:42px;font-size:17px}}
+@media(prefers-reduced-motion:reduce){.days{scroll-behavior:auto}}
+.day{flex:0 0 auto;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 11px;cursor:pointer;color:var(--text2);text-align:center;min-width:64px}
+.day b{display:block;font-size:14px;font-weight:800;text-transform:uppercase;color:var(--text)}
+.day span{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.5px}
+.day:hover{border-color:var(--green-dim)}
+.day.on{background:var(--green);border-color:var(--green)}
+.day.on b,.day.on span{color:#050a07}
+.day:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+
+.tools{display:flex;gap:8px;align-items:center;margin:4px 0 12px;flex-wrap:wrap}
+.tools input{flex:1;min-width:160px;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none}
+.tools input:focus{border-color:var(--green-dim)}
+.tools button{background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px;color:var(--text2);font-family:'JetBrains Mono',monospace;font-size:10px;cursor:pointer}
+.tools button:hover{border-color:var(--green-dim);color:var(--text)}
+.count{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);white-space:nowrap}
+
+.comp{border:1px solid var(--border);border-radius:9px;margin-bottom:10px;overflow:hidden;background:var(--surface)}
+.comp-h{display:flex;align-items:center;gap:8px;padding:9px 12px;cursor:pointer;background:var(--surface2);user-select:none}
+.comp-h .fi{border-radius:2px;flex:none}
+.comp-h .glb{width:18px;text-align:center;flex:none;font-size:12px;color:var(--muted)}
+.comp-n{font-size:15px;font-weight:800;text-transform:uppercase;color:var(--text);min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.comp-c{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:.5px;white-space:nowrap}
+.comp-h a{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--green);margin-left:auto;white-space:nowrap}
+.cstar{flex:none;background:none;border:0;padding:0 4px;margin-left:8px;font-size:16px;line-height:1;cursor:pointer;color:var(--muted)}
+.cstar:hover{color:#f2c200}.cstar.on{color:#f2c200}
+.comp-h .comp-c+.cstar{margin-left:auto}
+.fav-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:16px 2px 8px}
+.comp-h .chev{font-size:10px;color:var(--muted);transition:transform .15s;flex:none}
+.comp-h a+.chev{margin-left:8px}
+.comp-h .chev:first-of-type:last-child{margin-left:auto}
+.comp.shut .chev{transform:rotate(-90deg)}
+.comp.shut .rows{display:none}
+
+.m{display:grid;grid-template-columns:minmax(0,1fr) 84px minmax(0,1fr);align-items:center;gap:10px;padding:9px 14px;border-top:1px solid var(--border)}
+.m-t{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);line-height:1.3}
+.m-t .ft{color:var(--muted)}
+.m-t .lv{color:var(--red);font-weight:700}
+.m-t .off{color:var(--muted);font-size:9px}
+.side{display:flex;align-items:center;gap:6px;min-width:0}
+.side.h{justify-content:flex-end;text-align:right}
+.nm{font-size:14px;font-weight:700;text-transform:uppercase;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;text-decoration:none}
+a.nm:hover{color:var(--green)}
+/* Names spaced out a little, less squashed (Greg, 2026-10). */
+.nm{font-size:15.5px;letter-spacing:.05em}.nm.lost{font-weight:700}
+.comp-n{letter-spacing:.05em}
+.sc{letter-spacing:2px}
+.nm.lost{color:var(--text2);font-weight:600}
+.rk{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex:none}
+.dl{font-family:'JetBrains Mono',monospace;font-size:9px;flex:none}
+.dl.p{color:var(--green)} .dl.n{color:var(--red)}
+.mid{text-align:center}
+.sc{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:900;color:var(--text);letter-spacing:1px;font-variant-numeric:tabular-nums}
+.sc.live{color:var(--red)}
+.mid .x{display:block;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--muted);letter-spacing:.5px;margin-top:1px}
+.mid .x.lv{color:var(--red);font-weight:700}
+.dl.est{font-style:italic;opacity:.9}.rk.lvr{color:var(--red,#e5484d)}
+.mid .x.lv .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--red);margin-right:4px;
+  vertical-align:1px;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.25}}
+.ko{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text2)}
+.odds{grid-column:1/4;justify-self:center;display:grid;grid-template-columns:34px 200px 34px;align-items:center;column-gap:8px;margin-top:-3px}
+.odds .pc:first-child{text-align:right}
+.odds .dr{grid-column:2;text-align:center;font-family:'JetBrains Mono',monospace;font-size:8.5px;color:var(--muted);margin-top:2px}
+.bar{display:flex;height:5px;border-radius:3px;overflow:hidden}
+.bar span{display:block;height:100%}
+.pc{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.pc b{color:var(--text2);font-weight:600}
+.up{grid-column:1/4;justify-self:center;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.5px;color:#f07800;border:1px solid rgba(240,120,0,.45);background:rgba(240,120,0,.1);border-radius:4px;padding:1px 7px;margin-top:-2px}
+/* Match details: tap a result (Greg, 2026-10). */
+.m[data-d]{cursor:pointer}
+.m[data-d]:hover{background:var(--surface2)}
+.m[data-d] .mid .x::after{content:' \25BE';opacity:.7}
+.m[data-d] .mid .x{cursor:pointer}
+.m.open .mid .x::after{content:' \25B4'}
+.md{grid-column:1/4;border-top:1px dashed var(--border2);margin-top:6px;padding-top:8px;cursor:default;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text2)}
+.md h4{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:12px 0 6px;text-align:center}
+.md h4:first-child{margin-top:2px}
+.md .meta{text-align:center;font-size:9.5px;color:var(--muted);line-height:1.6}
+.ev{display:grid;grid-template-columns:minmax(0,1fr) 46px minmax(0,1fr);gap:6px;align-items:center;padding:3px 0}
+.ev .mn{text-align:center;color:var(--muted);font-size:10px}
+.ev .eh{text-align:right}
+.ev .who{color:var(--text)}
+.ev .sub2{color:var(--muted);font-size:9.5px}
+.ic{display:inline-block;width:9px;height:12px;border-radius:2px;vertical-align:-1px;margin:0 4px}
+.ic.y{background:#f2c200}.ic.r{background:#e5484d}
+.ic.yr{background:linear-gradient(90deg,#f2c200 50%,#e5484d 50%)}
+.in{color:var(--green)}.out{color:var(--red)}
+.strow{display:grid;grid-template-columns:44px 1fr 44px;gap:8px;align-items:center;margin:5px 0}
+.strow .v{font-variant-numeric:tabular-nums;color:var(--text)}
+.strow .v.r{text-align:right}
+.strow .lab{text-align:center;font-size:9.5px;color:var(--muted)}
+.strow .sb{display:flex;height:4px;border-radius:2px;overflow:hidden;margin-top:3px;background:var(--border)}
+.strow .sb span{display:block;height:100%}
+.lus{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.lus .t{font-weight:700;color:var(--text);margin-bottom:4px}
+.lus .f{color:var(--muted);font-size:9.5px;margin-bottom:6px}
+.lus ol{list-style:none;margin:0;padding:0}
+.lus li{padding:2px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lus li .no{display:inline-block;min-width:20px;color:var(--muted)}
+.lus .bn{margin-top:8px;color:var(--muted);font-size:9.5px}
+.m[data-pg]{cursor:pointer}
+.m[data-pg]:hover{background:rgba(61,186,94,.04)}
+.mp-link{display:block;text-align:center;margin:12px 0 2px;font-family:'JetBrains Mono',monospace;font-size:11px;
+  font-weight:600;color:var(--green)}
+.md .none{text-align:center;color:var(--muted);padding:8px 0}
+/* Continent groups below the top competitions, closed until tapped. */
+.cont{margin:14px 0 10px}
+.cont-h{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:9px;cursor:pointer;
+  background:var(--surface2);border:1px solid var(--border2);user-select:none}
+.cont-h b{font-size:16px;font-weight:800;text-transform:uppercase;color:var(--text)}
+.cont-h span{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted)}
+.cont-h i{margin-left:auto;font-style:normal;font-size:11px;color:var(--muted);transition:transform .15s}
+.cont:not(.open) .cont-b{display:none}
+.cont.open .cont-h i{transform:rotate(180deg)}
+.cont-b{margin-top:8px}
+/* "More from England": a top country's lower divisions, folded (Greg, 2026-10). */
+.cont.sub{margin:-2px 0 14px}
+.cont.sub>.cont-h{padding:7px 12px;background:none;border-style:dashed}
+.cont.sub>.cont-h b{font-size:13px;font-weight:700;color:var(--text2)}
+.rail-g.sub{border-top:0;margin-top:0}
+.rail-g.sub summary{font-size:10px;padding:4px 6px 6px;color:var(--muted)}
+/* The Live button. */
+/* TOP GAMES BUTTON 2026-11 */
+.tools #top-only{font-weight:700}
+.tools #top-only.on{background:rgba(61,186,94,.14);border-color:var(--green);color:var(--text)}
+.tools #live-only{display:inline-flex;align-items:center;gap:5px;font-weight:700}
+.tools #live-only i{width:7px;height:7px;border-radius:50%;background:var(--red,#e5484d)}
+.tools #live-only.on{background:rgba(229,72,77,.14);border-color:var(--red,#e5484d);color:var(--text)}
+.empty{padding:50px 10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+.key{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--muted);line-height:1.6;margin-top:14px}
+@media(max-width:560px){
+  .comp-h{padding:9px 10px;gap:7px}
+  .comp-h .lk-x{display:none}
+  .comp-c{display:none}
+  .comp-n{font-size:14px}
+  .m{grid-template-columns:minmax(0,1fr) 70px minmax(0,1fr);gap:6px;padding:9px 10px}
+  .ko{font-size:11px;white-space:nowrap}
+  .nm{font-size:13px;white-space:normal;line-height:1.1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .rk{display:none}
+  .side{flex-direction:column;align-items:flex-start;gap:1px}
+  .side.h{align-items:flex-end}
+  .side .dl{order:2}
+  .odds{grid-column:1/4;grid-template-columns:34px minmax(0,200px) 34px}
+}
+/* NAMES FIT AND RANK ON PHONES 2026-10 */
+.side .sx{display:contents}
+.m .side .nm{max-width:100%}
+@media(max-width:560px){
+  .m .side .sx{grid-area:d;display:flex;align-items:center;gap:6px;min-width:0}
+  .m .side .rk{display:inline;font-size:9.5px}
+}
+</style>
+<!-- mi-app-2026-11c --><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/png" sizes="32x32" href="/app_icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/app_icons/favicon-16.png"><link rel="apple-touch-icon" href="/app_icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="MD Insights"><meta name="application-name" content="MD Insights"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><style>.mi-navicon{display:inline-flex;flex:0 0 auto;margin-right:10px;align-self:center}.mi-navicon img{width:38px;height:38px;display:block}@media(max-width:640px){.mi-navicon{margin-right:8px}.mi-navicon img{width:30px;height:30px}.site-nav.club-on .mi-navicon{display:none}html body .site-nav .header-right .ig-link[href$="compare.html"]{gap:0}html body .site-nav .header-right .ig-link[href$="compare.html"]::after{margin-top:3px}}@media(max-width:640px) and (display-mode:standalone){html body .site-nav .header-right{padding-bottom:max(env(safe-area-inset-bottom),10px)!important}html body{padding-bottom:calc(60px + max(env(safe-area-inset-bottom),10px))}}@media(orientation:landscape){html body{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}}@media(max-width:640px){html body .site-nav .header-right{grid-template-columns:repeat(6,1fr)}html body .site-nav .header-right .ig-link[href$="my.html"]{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;height:58px;line-height:1;padding:0 2px;margin:0;font-family:"JetBrains Mono",sans-serif;font-size:10.5px;font-weight:600;letter-spacing:0;text-transform:none;color:#8c93ad;white-space:nowrap;border:0!important;background:none!important;border-radius:0!important;box-shadow:none!important}html body .site-nav .header-right .ig-link[href$="my.html"].on{color:#3dba5e}html body .site-nav .header-right .ig-link[href$="my.html"]::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27black%27 stroke-width=%272%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z%27/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27black%27 stroke-width=%272%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z%27/%3E%3C/svg%3E")}html body .site-nav .header-right .ig-link{font-size:10px}html body .site-nav .header-right .ig-link[href$="compare.html"]::after{font-size:10px}}@media(min-width:641px){html body .site-nav .header-right .ig-link.mi-my{font-family:"Barlow Condensed",sans-serif;font-size:17px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;padding:0 12px;border:0;border-radius:0;height:56px;line-height:56px;color:#e6e8f2;position:relative;background:none}html body .site-nav .header-right .ig-link.mi-my:hover,html body .site-nav .header-right .ig-link.mi-my.on{color:#3dba5e}}@media(min-width:641px) and (max-width:1149px){html body .site-nav .header-right .ig-link.mi-my{font-size:0;padding:0 6px;display:inline-flex;align-items:center}html body .site-nav .header-right .ig-link.mi-my::after{content:"";width:20px;height:20px;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27black%27 stroke-width=%272%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z%27/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27black%27 stroke-width=%272%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z%27/%3E%3C/svg%3E") center/contain no-repeat}}@view-transition{navigation:auto}::view-transition-old(root),::view-transition-new(root){animation-duration:.18s}.site-nav{view-transition-name:mi-top}@media(max-width:640px){.site-nav .header-right{view-transition-name:mi-tabs}}@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}</style><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.json"}}]},"eagerness":"moderate"}]}</script><script src="/app_install.js" defer></script></head>
+<body>
+<nav class="site-nav"><a class="mi-navicon" href="/" aria-label="Matchday Insights home"><img src="/app_icons/nav-icon.png" alt="" width="34" height="34"></a>
+  <a class="nav-logo" href="index.html" style="text-decoration:none">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </a>
+  <div class="header-right"><a href="/my.html" class="ig-link mi-my on">My clubs</a>
+    <a href="index.html" class="ig-link">Rankings</a>
+    <a href="matches.html" class="ig-link">Matches</a>
+    <a href="predictions.html" class="ig-link">Predictions</a>
+    <a href="leagues.html" class="ig-link">Leagues</a>
+    <a href="compare.html" class="ig-link">Compare Clubs</a>
+    <a href="about.html" class="ig-link">About</a>
+    <a href="https://x.com/MDInsights_FC" class="ig-link" target="_blank" rel="noopener">X</a>
+    <a href="https://www.instagram.com/matchday.insights/" class="ig-link" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</nav><!-- my-page-2026-11 -->
+<main class="myp" id="myp">
+  <div class="myp-head">
+    <h1 class="myp-title">My <em>clubs</em></h1>
+    <button class="myp-bell" id="myp-bell" type="button" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+      <span>Alerts</span>
+    </button>
+  </div>
+  <section class="myp-alerts" id="myp-alerts" hidden></section>
+  <div id="myp-list" class="myp-list"><div class="myp-empty">Loading&hellip;</div></div>
+  <div class="myp-add">
+    <div class="myp-add-h">Follow a club</div>
+    <input id="myp-q" type="search" placeholder="Search any club in the world" autocomplete="off" aria-label="Search clubs">
+    <div id="myp-res" class="myp-res"></div>
+  </div>
+</main>
+<script src="/my.js" defer></script>
+<script src="/live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" defer></script>
+</body>
+</html>

@@ -3,7 +3,7 @@
    can never show old numbers. Its only job is to make the site installable
    and to show a friendly "you're offline" screen instead of the browser's
    error page when there's no signal. */
-const VERSION = "mi-app-1";
+const VERSION = "mi-app-2";
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", e => {
@@ -25,4 +25,27 @@ self.addEventListener("fetch", e => {
   if (e.request.mode !== "navigate") return;          // everything else: straight to the network
   e.respondWith(fetch(e.request).catch(() =>
     new Response(OFFLINE, {headers: {"Content-Type": "text/html; charset=utf-8"}})));
+});
+
+/* Alerts (Greg, 2026-11): show what the alerts worker sends, and open the
+   right page when one is tapped. */
+self.addEventListener("push", e => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch (x) { d = {body: e.data && e.data.text()}; }
+  e.waitUntil(self.registration.showNotification(d.title || "Matchday Insights", {
+    body: d.body || "", icon: "/app_icons/icon-192.png", tag: d.tag || undefined,
+    renotify: !!d.tag, data: {url: d.url || "/my.html"}
+  }));
+});
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  const url = new URL((e.notification.data && e.notification.data.url) || "/my.html", self.location.origin).href;
+  e.waitUntil(clients.matchAll({type: "window", includeUncontrolled: true}).then(list => {
+    for (const c of list) {
+      if (c.url.indexOf(self.location.origin) === 0 && "focus" in c) {
+        return c.focus().then(w => (w || c).navigate ? (w || c).navigate(url) : clients.openWindow(url)).catch(() => clients.openWindow(url));
+      }
+    }
+    return clients.openWindow(url);
+  }));
 });

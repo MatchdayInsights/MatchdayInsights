@@ -3,7 +3,7 @@
   "short_name": "MD Insights",
   "description": "Every club in the world ranked on one scale - live scores, predictions and the world ranking.",
   "id": "/",
-  "start_url": "/?source=app",
+  "start_url": "/my.html?source=app",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
@@ -15,6 +15,7 @@
     {"src": "/app_icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
   ],
   "shortcuts": [
+    {"name": "Rankings", "url": "/?source=app", "icons": [{"src": "/app_icons/icon-192.png", "sizes": "192x192"}]},
     {"name": "Matches", "url": "/matches.html?source=app", "icons": [{"src": "/app_icons/icon-192.png", "sizes": "192x192"}]},
     {"name": "Predictions", "url": "/predictions.html?source=app", "icons": [{"src": "/app_icons/icon-192.png", "sizes": "192x192"}]}
   ]
