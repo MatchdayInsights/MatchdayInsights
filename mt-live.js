@@ -104,7 +104,7 @@
           var c = s[0]; if (!c) return;
           c.p++; c.gd += s[1] - s[2];
           if (s[1] > s[2]) { c.w++; c.pts += 3; } else if (s[1] === s[2]) { c.d++; c.pts += 1; } else c.l++;
-          c.live = hg + '-' + ag + ' ' + min;
+          c.live = s[1] + '-' + s[2] + ' ' + min;            // each club's own score first: 2-1 for the winner, 1-2 for the loser
         });
       });
       var order = now.slice();
