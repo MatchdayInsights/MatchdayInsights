@@ -1,0 +1,86 @@
+/* Matchday Insights - national team pages (2026-11). Self-contained: the
+   shared page look comes from club-page.css. */
+.pl{max-width:860px;margin:0 auto;padding:18px 16px 30px;font-family:'JetBrains Mono',Inter,system-ui,sans-serif;color:var(--text)}
+.pl h1{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(30px,8vw,44px);line-height:1;margin:0 0 6px;text-transform:uppercase;color:var(--text)}
+.pl h1 em{font-style:normal;color:var(--green)}
+.pl h2{font-size:17px;font-weight:700;margin:26px 0 10px;color:var(--text)}
+.pl h2 span{font-size:12px;font-weight:500;color:var(--muted);margin-left:6px}
+.pl a{color:inherit}
+.pl-f{font-size:12.5px;color:var(--text2);margin-top:4px}
+.pl-lead{font-size:14.5px;line-height:1.55;color:var(--text2);margin:6px 0 4px}
+.pl-lead a{color:var(--text);font-weight:600;text-decoration:none}
+.pl-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.pl-s{background:var(--surface2);border:1px solid var(--border2);border-radius:10px;padding:10px 6px;text-align:center}
+.pl-s b{display:block;font-size:21px;font-weight:800;color:var(--text);font-variant-numeric:tabular-nums}
+.pl-s span{font-size:11px;color:var(--muted)}
+.pl-t{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;margin-top:10px;table-layout:auto}
+.pl-t th{font-size:11px;font-weight:600;color:var(--muted);text-align:center;padding:7px 5px;border-bottom:1px solid var(--border2);white-space:nowrap}
+.pl-t td{padding:8px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2);white-space:nowrap}
+.pl-t .l{text-align:left}
+.pl-t td.l{color:var(--text);font-weight:600;overflow:hidden;text-overflow:ellipsis;max-width:0;width:40%}
+.pl-t td.cl{font-weight:500;color:var(--text2);width:30%}
+.pl-t td.cl img{width:16px;height:16px;object-fit:contain;vertical-align:-3px;margin-right:6px}
+.pl-t td a{text-decoration:none}
+.pl-t td.b{color:var(--text);font-weight:800}
+.pl-t tr.sq-g td{text-align:left;font-weight:700;color:var(--green);background:var(--surface2);padding:6px 8px;font-size:12px}
+.pl-t .fm i{display:inline-block;width:15px;height:15px;line-height:15px;border-radius:3px;font-style:normal;font-size:9px;color:#fff;margin:0 1px}
+.pl-t .fm i.W{background:#1f9a46}.pl-t .fm i.D{background:#8a90a8}.pl-t .fm i.L{background:#d0364f}
+.pl-sort th{cursor:pointer}.pl-sort th.on{color:var(--green)}
+.pl-more,.pl-back{display:inline-block;margin:18px 0 4px;font-size:13px;font-weight:600;color:var(--green)!important;text-decoration:none}
+.pl-back{margin:0 0 12px}
+.pl-src{font-size:11.5px;color:var(--muted);margin-top:14px}
+
+/* national team pages */
+.nt-filter{margin:14px 0 4px}
+.nt-filter select{background:var(--surface2);color:var(--text);border:1px solid var(--border2);border-radius:8px;padding:8px 10px;font:inherit;font-size:13px}
+.nt .fi{width:1.35em;line-height:1em;margin-right:8px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);vertical-align:-2px}
+.nt-t td.l{width:auto}
+.nt-t td.l small{display:block;font-size:10.5px;font-weight:500;color:var(--muted);margin:2px 0 0 calc(1.35em + 8px)}
+.nt-t td.l a{display:block;overflow:hidden;text-overflow:ellipsis}
+.nt-r{width:58px;font-weight:700;color:var(--text)!important;text-align:left!important}
+.nt-mv{display:inline-block;min-width:22px;margin-left:5px;font-size:9.5px;font-weight:700;color:var(--muted)}
+.nt-mv.up,.nt-c.up{color:#3dba5e}.nt-mv.dn,.nt-c.dn{color:#e5484d}
+.nt-rt{width:96px;text-align:right!important}
+.nt-rt b{color:var(--text);font-size:14px}
+.nt-c{display:inline-block;min-width:38px;margin-left:6px;font-size:11px;font-weight:700;color:var(--muted);text-align:right}
+.pl-s .nt-c{min-width:0;margin:0;font-size:21px;font-weight:800}
+.nt-h{display:flex;gap:14px;align-items:center;margin:4px 0 12px}
+.nt-h .fi{width:64px;height:48px;line-height:48px;flex:none;border-radius:4px;margin:0}
+.nt-cards{grid-template-columns:repeat(3,1fr)!important}
+.nt-res{display:inline-block;width:18px;height:18px;line-height:18px;border-radius:4px;color:#fff;font-size:10px;font-weight:700}
+.nt-res.W{background:#1f9a46}.nt-res.D{background:#8a90a8}.nt-res.L{background:#d0364f}
+.nt .pl-t td.l a{font-weight:600}
+.nt-fx{background:var(--surface2);border:1px solid var(--border2);border-radius:10px;padding:10px 12px;margin:8px 0}
+.nt-fx-m{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--muted)}
+.nt-fx-t{display:flex;justify-content:space-between;gap:10px;margin:7px 0 6px;font-size:14px;font-weight:700}
+.nt-fx-t a{text-decoration:none;color:var(--text);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nt-fx-t a:last-child{text-align:right}
+.nt-fx-t i{font-style:normal;font-weight:500;font-size:11px;color:var(--muted)}
+.nt-odds{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:8px;font-size:12px}
+.nt-odds .bar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--border)}
+.nt-odds .bar i{display:block;height:100%}
+.nt-odds .w{background:#3dba5e}.nt-odds .d{background:#8a90a8}.nt-odds .l{background:#e5484d}
+.nt-odds small{grid-column:1/-1;text-align:center;color:var(--muted);font-size:11px;margin-top:-3px}
+.nt-ch{position:relative;margin-top:8px;padding-bottom:18px}
+.nt-ch svg{display:block;width:100%;height:180px;border-bottom:1px solid var(--border2)}
+.nt-ch .g line{stroke:var(--border);stroke-width:1;vector-effect:non-scaling-stroke}
+.nt-hi,.nt-lo{position:absolute;right:0;font-size:10.5px;color:var(--muted);background:var(--bg);padding:0 3px}
+.nt-hi{top:0}.nt-lo{top:162px}
+.nt-yr{position:relative;height:16px;font-size:10.5px;color:var(--muted)}
+.nt-yr span{position:absolute;top:3px;transform:translateX(-50%)}
+@media (max-width:640px){.nt-ch svg{height:140px}.nt-lo{top:122px}.nt-rt{width:84px}.nt-r{width:50px}}
+.nt .pl-t td.dt,.nt .pl-t th.dt{text-align:left;width:1%;color:var(--text2)}
+.nt .pl-t td.o{text-align:left;color:var(--muted);font-size:12px;max-width:0;overflow:hidden;text-overflow:ellipsis;width:28%}
+.nt .pl-t th.o{text-align:left}
+@media (max-width:640px){
+  .nt .pl-t{font-size:12.5px}
+  .nt .pl-t .o{display:none}
+  .nt .pl-t td.dt{font-size:11.5px}
+}
+/* Live scores on the match cards (nt-live.js, Greg 2026-11). */
+.nt-fx .nt-sc{flex:none;font-size:17px;font-weight:800;color:var(--text);font-variant-numeric:tabular-nums;white-space:nowrap}
+.nt-fx.nt-on{border-color:#e5484d}
+.nt-fx.nt-on .nt-when{color:#e5484d;font-weight:700}
+.nt-fx.nt-ft .nt-when{color:var(--text2);font-weight:700}
+.nt-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e5484d;margin-right:5px;vertical-align:1px;animation:ntp 1.6s infinite}
+@keyframes ntp{50%{opacity:.35}}
