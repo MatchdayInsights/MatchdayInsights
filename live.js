@@ -200,15 +200,11 @@
   }
 
   var last = null, lrAsked = false;
-  // National team competitions (live_intl.json, Greg 2026-11): they have their
-  // own pages, so they stay out of the "matches on now" count, which links to
-  // the Matches page, and out of the club cards.
-  var INTL = {};
-  fetch(base + 'live_intl.json').then(function (r) { return r.ok ? r.json() : []; })
-    .then(function (ids) { (ids || []).forEach(function (i) { INTL[String(i)] = 1; }); draw(); }).catch(function () {});
+  // National team matches are on the Matches page too (Greg, 2026-11), so
+  // they count in "matches on now" like any other.
   function draw() {
     if (!last) return;
-    var live = last.m.filter(function (r) { return LIVE[r[2]] && !INTL[String(r[1])]; });
+    var live = last.m.filter(function (r) { return LIVE[r[2]]; });
     strip(live); matchPage(last.m); clubPage(live); cards(live);
   }
 

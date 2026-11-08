@@ -20,263 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 <link rel="stylesheet" href="../club-page.css?v=f1147164">
-<style>
-.featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
-.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
-.featured-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
-.featured-select{background:var(--bg2,#12161f);color:var(--text2);border:1px solid var(--border);border-radius:6px;
-  font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 6px;cursor:pointer}
-.featured-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:14px 0}
-.featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
-.fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
-.fmatch:hover{border-color:var(--green-dim)}
-.fmatch-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1px;margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.fmatch-side{display:flex;align-items:center;gap:6px;margin-bottom:3px}
-.fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
-.fmatch-name:hover{color:var(--green)}
-.fmatch-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex-shrink:0}
-.fmatch-bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin:9px 0 5px}
-.fmatch-bar span{display:block;height:100%}
-.fmatch-pcts{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10px}
-@media(max-width:640px){.featured{padding:12px 16px 4px}.fmatch{min-width:200px}}
-.hero{padding:22px 20px 16px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(10,20,13,0.6) 0%,transparent 50%)}
-.hero::after{content:'MDI';position:absolute;right:-10px;top:-20px;font-size:110px;font-weight:900;color:rgba(61,186,94,0.04);pointer-events:none;letter-spacing:-6px;line-height:1;font-family:'Barlow Condensed',sans-serif}
-.hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
-.hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
-.hero-title em{font-style:normal;color:var(--green)}
-/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
-.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
-.club-cell .country-badge{min-width:30px;justify-content:center}
-/* Phone held upright: rank (move under it), club, rating (change under it) -
-   the whole row on screen. The full table when turned sideways. */
-.m-mv,.m-chg{display:none}
-@media(max-width:640px){
-  .table-wrap table{min-width:0}
-  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
-  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
-  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
-  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
-  .table-wrap .td-club{max-width:none}
-  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
-  .table-wrap .m-mv{display:block;margin-top:3px}
-  .table-wrap .m-chg{display:block}
-  .table-wrap .club-name-text{font-size:16px}
-  .table-wrap .record-row-note{font-size:8.5px}
-}
-.hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
-.hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
-.hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
-.hero-stats{display:flex;gap:28px;flex-wrap:wrap}
-.hstat{display:flex;flex-direction:column;gap:2px}
-.hstat-val{font-size:28px;font-weight:900;color:var(--text);line-height:1}
-.hstat-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase}
-.header-right{display:flex;align-items:center;gap:10px;margin-left:auto}
-.update-chip{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--green);background:rgba(61,186,94,0.08);border:1px solid var(--green-dim);padding:4px 10px;border-radius:4px;white-space:nowrap}
-.ig-link{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);text-decoration:none;border:1px solid var(--border2);padding:4px 10px;border-radius:4px;transition:all 0.2s;white-space:nowrap}
-.ig-link:hover{border-color:var(--green-dim);color:var(--green);text-decoration:none}
-@media(max-width:640px){.ig-link{display:none}}
-
-.controls{padding:12px 20px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--surface);position:sticky;top:58px;z-index:99}
-.search-wrap{position:relative;flex:1;min-width:160px;max-width:280px}
-.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;pointer-events:none}
-.search-input{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px 8px 30px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none;transition:border-color 0.2s}
-.search-input::placeholder{color:var(--muted)}
-.search-input:focus{border-color:var(--green-dim)}
-.filter-select{background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 28px 8px 10px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none;cursor:pointer;appearance:none;color-scheme:dark;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23565e78'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center;transition:border-color 0.2s}
-.filter-select option{background-color:var(--surface2);color:var(--text)}
-.filter-select:focus{border-color:var(--green-dim)}
-.results-info{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);margin-left:auto;white-space:nowrap}
-.results-info strong{color:var(--green)}
-
-.table-wrap{overflow-x:auto}
-table{width:100%;border-collapse:collapse;min-width:560px}
-thead tr{border-bottom:1px solid var(--border2)}
-th{font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:500;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;padding:9px 14px;text-align:left;cursor:pointer;user-select:none;transition:color 0.15s;white-space:nowrap}
-th:hover{color:var(--text2)} th.sorted{color:var(--green)} th.ar{text-align:right}
-.sort-icon{margin-left:3px;opacity:0.4} th.sorted .sort-icon{opacity:1}
-tbody tr{border-bottom:1px solid rgba(24,28,36,0.7);transition:background 0.1s;cursor:pointer}
-tbody tr:hover{background:rgba(61,186,94,0.04)}
-tbody tr.top3{background:rgba(61,186,94,0.06)} tbody tr.top10{background:rgba(61,186,94,0.02)}
-tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
-td{padding:10px 14px;vertical-align:middle}
-.td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
-.top3 .td-rank{color:var(--green);font-size:12px}
-/* Filtered to a country or a continent: the rank there first, the world
-   rank under it (Greg, 2026-10). */
-.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
-.td-rank.local{width:64px}
-th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-space:normal;max-width:96px;line-height:1.3}
-/* Phones: tighter columns so the club name has room (Greg, 2026-10). */
-@media(max-width:640px){
-  th{padding:8px 8px}td{padding:9px 8px}
-  table{min-width:480px}
-  .td-rank,.td-rank.local{width:52px}.td-move{width:38px}.td-result{width:96px}
-  .td-club{max-width:170px}
-}
-.td-move{width:56px}
-.move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
-.move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
-.td-club{min-width:0;max-width:220px}
-.club-cell{display:flex;align-items:center;gap:8px}
-.country-badge{display:inline-flex;align-items:center;gap:4px;font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;color:var(--text2);flex-shrink:0}
-.country-badge .fi{border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,0.1)}
-.club-name-text{font-size:14px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
-.top3 .club-name-text{color:#eef2ee}
-.club-code{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text2);white-space:nowrap;margin-top:2px}
-.record-row-note{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.2px;margin-top:2px;color:var(--green)}
-.record-row-note.low{color:var(--red)}
-.record-box-green{display:inline-block;border:1px solid var(--green);background:rgba(61,186,94,0.12);border-radius:4px;padding:0 6px}
-.record-box-red{display:inline-block;border:1px solid var(--red);background:rgba(232,68,102,0.12);border-radius:4px;padding:0 6px}
-.td-result{width:110px}
-.result-cell{display:flex;align-items:center;gap:6px}
-.result-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;width:16px;height:16px;border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.result-badge.W{background:rgba(61,186,94,0.15);color:var(--green)}
-.result-badge.D{background:rgba(100,120,180,0.15);color:#7890d0}
-.result-badge.L{background:rgba(232,68,102,0.15);color:var(--red)}
-.result-badge.x{background:transparent;color:var(--muted)}
-.result-detail{display:flex;flex-direction:column;min-width:0}
-.result-opp{font-size:11px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70px;font-weight:600;text-transform:uppercase;line-height:1.2}
-.result-score{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
-.td-elo{text-align:right;width:100px}
-.elo-cell{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
-.elo-number{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:var(--text)}
-.top3 .elo-number{color:var(--green)}
-.elo-bar{width:56px;height:2px;background:var(--border2);border-radius:1px;overflow:hidden}
-.elo-bar-fill{height:100%;border-radius:1px;background:var(--muted)}
-.top3 .elo-bar-fill{background:var(--green)} .top10 .elo-bar-fill{background:var(--green-dim)}
-.td-change{text-align:right;width:80px}
-.change-pill{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:600;padding:2px 7px;border-radius:4px;display:inline-block}
-.change-pill.up{background:rgba(61,186,94,0.1);color:var(--green)}
-.change-pill.dn{background:rgba(232,68,102,0.1);color:var(--red)}
-.change-pill.nc{background:rgba(52,58,80,0.2);color:var(--muted)}
-
-.empty-state{display:none;padding:60px 20px;text-align:center;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:12px}
-.empty-state.show{display:block}
-
-.pagination{display:flex;align-items:center;justify-content:center;gap:6px;padding:20px 20px;border-top:1px solid var(--border);flex-wrap:wrap}
-.page-btn{background:var(--surface2);border:1px solid var(--border2);color:var(--text2);font-family:'JetBrains Mono',monospace;font-size:11px;padding:6px 12px;border-radius:6px;cursor:pointer;transition:all 0.15s}
-.page-btn:hover:not(:disabled){border-color:var(--green-dim);color:var(--text)}
-.page-btn.active{background:var(--green);border-color:var(--green);color:#050a07;font-weight:700}
-.page-btn:disabled{opacity:0.3;cursor:not-allowed}
-.page-ellipsis{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:0 2px}
-
-@media(max-width:640px){.hero{padding:16px 16px 12px}.controls{padding:10px 16px}}
-</style><style>
-.pp{max-width:860px;margin:0 auto;padding:0 20px 40px}
-.pp h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:26px;
-  text-transform:uppercase;margin:34px 0 12px;letter-spacing:.02em}
-.pp p{line-height:1.6}
-.pp a{color:var(--green,#3dba5e)}
-.oddsbar{display:flex;height:16px;border-radius:8px;overflow:hidden;gap:3px;margin:10px 0 6px}
-.oddsbar i{display:block;height:100%}
-.oddslab{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 14px;font-family:'JetBrains Mono',monospace;font-size:14px}
-.ppgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.ppcard{border:1px solid rgba(128,128,128,.25);border-radius:10px;padding:14px 16px}
-.ppcard .nm{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:24px;text-transform:uppercase}
-.ppcard .st{font-family:'JetBrains Mono',monospace;font-size:13px;margin-top:6px;line-height:1.7}
-.chip{display:inline-flex;width:22px;height:22px;border-radius:5px;align-items:center;justify-content:center;
-  font:700 11px 'JetBrains Mono',monospace;color:#fff;margin-right:3px}
-.pptab{width:100%;min-width:0;table-layout:auto;word-break:break-word;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px}
-.pptab td,.pptab th{padding:7px 8px;border-bottom:1px solid rgba(128,128,128,.18);text-align:left}
-.pptab th{font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.7}
-.pptab .r{text-align:right}
-.pptab tr.hi td{background:rgba(61,186,94,.14);font-weight:700}
-.rbar{margin:14px 0 18px;padding:12px 14px 10px;border:1px solid rgba(128,128,128,.25);border-radius:10px}
-.rbar-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.75}
-.rbar .oddsbar i{opacity:.22}
-.rbar .oddsbar i.hit{opacity:1}
-.rbar .oddslab span{opacity:.55}
-.rbar .oddslab span.hit{opacity:1;font-weight:800}
-.verdict{border-left:4px solid var(--green,#3dba5e);padding:10px 14px;border-radius:6px;
-  background:rgba(61,186,94,.08);margin:14px 0}
-.pplist{list-style:none;padding:0;margin:0}
-.pplist li{display:grid;grid-template-columns:70px 1fr auto;gap:10px;padding:9px 6px;
-  border-bottom:1px solid rgba(128,128,128,.18);font-family:'JetBrains Mono',monospace;font-size:13px}
-.pplist .cmp{font-size:11px;opacity:.7}
-@media (max-width:640px){.ppgrid{grid-template-columns:1fr}.pptab{font-size:12px}.pptab td,.pptab th{padding:6px 5px}.oddslab{font-size:13px}.pplist li{grid-template-columns:52px 1fr}
-  .pplist li .odds{grid-column:2}}
-</style><style>
-/* Match pages (Greg, 2026-10: FotMob-style). Scoreboard with crests; for a
-   played match, a Match tab (events, stats, lineups) beside the Preview. */
-.sb{margin:26px 0 6px;border-radius:16px;padding:16px 16px 18px;background:var(--surface2);border:1px solid var(--border2)}
-.sb-meta{text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.sb-row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin-top:14px}
-.sb-t{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;text-decoration:none!important;color:var(--text)!important;min-width:0}
-.sb-t img{width:72px;height:72px;object-fit:contain}
-.sb-t span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(18px,3.4vw,26px);text-transform:uppercase;
-  letter-spacing:.03em;line-height:1.05;display:block;max-width:100%;overflow:hidden;overflow-wrap:normal;word-break:normal}
-.sb-t small{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
-.sb-mid{text-align:center;min-width:90px}
-.sb-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(40px,8vw,58px);line-height:1;color:var(--text)}
-.sb-time{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(26px,5vw,36px);color:var(--text)}
-.sb-st{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
-.sb-h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:18px;text-transform:uppercase;letter-spacing:.04em;
-  color:var(--text2);text-align:center;margin:12px 0 0}
-.mtabs{display:flex;gap:4px;border-bottom:1px solid var(--border2);margin:20px 0 6px}
-.mtabs button{background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:8px 16px 9px;cursor:pointer;
-  font-family:'Barlow Condensed',sans-serif;font-size:19px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--text2)}
-.mtabs button.on{color:var(--green);border-bottom-color:var(--green)}
-.mpanel[hidden]{display:none}
-.mf{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text2)}
-.mf h3{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--muted);margin:22px 0 8px;text-align:center}
-.mf .meta{text-align:center;font-size:11px;color:var(--muted);line-height:1.7;margin-top:12px}
-.mf .ev{display:grid;grid-template-columns:minmax(0,1fr) 52px minmax(0,1fr);gap:8px;align-items:center;padding:5px 0;
-  border-bottom:1px solid var(--border)}
-.mf .ev .mn{text-align:center;color:var(--muted);font-size:11.5px}
-.mf .ev .eh{text-align:right}
-.mf .who{color:var(--text)}
-.mf .sub2{color:var(--muted);font-size:11px}
-.mf .ic{display:inline-block;width:10px;height:13px;border-radius:2px;vertical-align:-1px;margin:0 5px}
-.mf .ic.y{background:#f2c200}.mf .ic.r{background:#e5484d}.mf .ic.yr{background:linear-gradient(90deg,#f2c200 50%,#e5484d 50%)}
-.mf .in{color:var(--green)}.mf .out{color:var(--red)}
-.mf .strow{display:grid;grid-template-columns:52px 1fr 52px;gap:10px;align-items:center;margin:8px 0}
-.mf .strow .v{color:var(--text);font-weight:600}.mf .strow .v.r{text-align:right}
-.mf .strow .lab{text-align:center;font-size:11px;color:var(--muted)}
-.mf .strow .sbar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:4px;background:var(--border);gap:2px}
-.mf .strow .sbar span{display:block;height:100%}
-.mf .lus{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.mf .lus .t{font-weight:700;color:var(--text);margin-bottom:4px}
-.mf .lus .f{color:var(--muted);font-size:11px;margin-bottom:8px}
-.mf .lus ol{list-style:none;margin:0;padding:0}
-.mf .lus li{padding:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.mf .lus li .no{display:inline-block;min-width:24px;color:var(--muted)}
-.mf .lus .bn{margin-top:10px;color:var(--muted);font-size:11px}
-.mf .none{text-align:center;color:var(--muted);padding:18px 0}
-.mf .mlive{text-align:center;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#e5484d;margin:14px 0 0}
-.mf .mlive i,.mtabs button .ld{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e5484d;margin-right:6px;vertical-align:2px;animation:mtb 1.4s infinite}@keyframes mtb{50%{opacity:.25}}
-@media (max-width:600px){.sb-t img{width:52px;height:52px}.sb{padding:14px 10px 16px}.mf{font-size:12px}}
-/* Phones: the kick-off date in the middle wraps, so the club names either
-   side get the room - and a name that still won't fit at the smallest
-   size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
-@media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}
-</style><style>
-/* The Table tab (Greg, 2026-10). */
-.mt-h{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--muted);margin:18px 0 8px}
-.mt{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:13px;font-variant-numeric:tabular-nums}
-.mt th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;padding:6px 5px;border-bottom:1px solid var(--border2)}
-.mt th.l,.mt td.l{text-align:left}
-.mt td{padding:7px 5px;text-align:center;border-bottom:1px solid var(--border);color:var(--text2)}
-.mt td.cl{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
-.mt td.cl a{color:inherit;text-decoration:none}
-.mt td.cl img{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
-.mt td.pts{font-weight:700;color:var(--text)}
-.mt tr.us td{background:rgba(61,186,94,.14);color:var(--text);font-weight:700}
-.mt tr.us td:first-child{box-shadow:inset 3px 0 0 var(--green)}
-.mt-note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin:6px 0 0}
-.mt-scroll{overflow-x:auto}
-.bk{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
-.bk-r{min-width:170px;flex:none;display:flex;flex-direction:column;justify-content:center;gap:10px}
-.bk-rh{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center}
-.bk-t{background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:7px 9px;font-family:'Barlow Condensed',sans-serif;font-size:15px}
-.bk-t.this{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
-.bk-t div{display:flex;justify-content:space-between;gap:8px;padding:2px 4px;border-radius:4px;color:var(--text2)}
-.bk-t div.w{color:var(--text);font-weight:700}
-.bk-t div.us{background:rgba(61,186,94,.14)}
-.bk-t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media (max-width:600px){.mt{font-size:12px}.mt td,.mt th{padding:6px 3px}.mt .opt{display:none}.mt td.cl{max-width:140px;font-size:15px}}
-</style><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Sandefjord vs Molde", "sport": "Soccer", "startDate": "2026-11-08T16:00:00+00:00", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Jotun Arena", "address": {"@type": "PostalAddress", "addressLocality": "Sandefjord", "addressCountry": "NO"}}, "homeTeam": {"@type": "SportsTeam", "name": "Sandefjord"}, "awayTeam": {"@type": "SportsTeam", "name": "Molde"}, "competitor": [{"@type": "SportsTeam", "name": "Sandefjord"}, {"@type": "SportsTeam", "name": "Molde"}], "performer": [{"@type": "SportsTeam", "name": "Sandefjord"}, {"@type": "SportsTeam", "name": "Molde"}], "organizer": {"@type": "SportsOrganization", "name": "Eliteserien"}, "description": "Sandefjord vs Molde prediction for Sunday 08 November 2026: our model gives Sandefjord 27%, a draw 27% and Molde 45%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/sandefjord-vs-molde-2026-11-08.html", "endDate": "2026-11-08T18:00:00+00:00"}</script>
+<link rel="stylesheet" href="../match-page.css"><script type='application/ld+json'>{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Sandefjord vs Molde", "sport": "Soccer", "startDate": "2026-11-08T16:00:00+00:00", "eventStatus": "https://schema.org/EventCompleted", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Jotun Arena", "address": {"@type": "PostalAddress", "addressLocality": "Sandefjord", "addressCountry": "NO"}}, "homeTeam": {"@type": "SportsTeam", "name": "Sandefjord"}, "awayTeam": {"@type": "SportsTeam", "name": "Molde"}, "competitor": [{"@type": "SportsTeam", "name": "Sandefjord"}, {"@type": "SportsTeam", "name": "Molde"}], "performer": [{"@type": "SportsTeam", "name": "Sandefjord"}, {"@type": "SportsTeam", "name": "Molde"}], "organizer": {"@type": "SportsOrganization", "name": "Eliteserien"}, "description": "Sandefjord vs Molde prediction for Sunday 08 November 2026: our model gives Sandefjord 27%, a draw 27% and Molde 45%. World rankings, form, head to head and the table.", "url": "https://matchdayinsights.com/predictions/sandefjord-vs-molde-2026-11-08.html", "endDate": "2026-11-08T18:00:00+00:00"}</script>
 
 <style>
 .hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
@@ -289,10 +33,11 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 .td-top{max-width:200px}
 .top-club{font-size:12px;font-weight:600;text-transform:uppercase;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .top-club-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
-</style><!-- mi-app-2026-11g --><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/png" sizes="32x32" href="/app_icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/app_icons/favicon-16.png"><link rel="apple-touch-icon" href="/app_icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="MD Insights"><meta name="application-name" content="MD Insights"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="/mi-app.css"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.json"}}]},"eagerness":"moderate"}]}</script><link rel="stylesheet" href="/mi-type.css"><script src="/app_install.js" defer></script><!-- live-head -->
+</style>
+<!-- live-head -->
 <script type="application/json" id="md-data">{"ht":[3,4],"ref":"Mohammad Usman Aslam","ven":"Sandefjord Arena, Sandefjord","lu":{"h":{"f":"4-3-3","c":"Andreas Tegstr\u00f6m","xi":[[30,"E. Hadaya","G"],[4,"F. Pedersen","D"],[13,"R. Holten","D"],[5,"G. H\u00c3\u00b8jbjerg","D"],[3,"V. Egeli","D"],[14,"E. Pettersen","M"],[8,"T. B\u00f8rkeeiet","M"],[6,"S. M\u00f8rk","M"],[7,"E. Patoulidis","F"],[9,"O. Kapskarmo","F"],[27,"J. Dunsby","F"]],"bn":[[17,"A. Foster","F"],[19,"Bendik Berntsen","F"],[1,"A. Gr\u00f8nneberg","G"],[2,"M. Hellan","D"],[16,"H. Krogelien","D"],[24,"S. Mathisen","F"],[32,"D. Skaarud","F"],[31,"H. B. Skretteberg","D"],[37,"J. Vester","M"]]},"a":{"f":"4-2-3-1","c":"S. Tjelmeland","xi":[[12,"P. Lervik","G"],[25,"M. Linnes","D"],[19,"E. Haugan","D"],[33,"B. Risa","D"],[26,"S. Kabini","D"],[23,"S. Granaas","M"],[30,"D. Daga","M"],[11,"C. Zady Sery","M"],[6,"N. \u00d8deg\u00e5rd","M"],[16,"S. Kilen","M"],[20,"K. Lonebu","F"]],"bn":[[28,"V. Bender","M"],[10,"E. Breivik","M"],[17,"M. M\u00f8ller D\u00e6hli","M"],[4,"S. Hansen","D"],[24,"Trent Toure Kone Doherty","F"],[32,"Mads Eikrem Myklebust","G"],[21,"O. Spiten-Nys\u00e6ter","F"],[18,"H. Stenevik","D"],[9,"J. Abdulai","F"]]}},"ev":[[1,0,"h","g","Evangelos Patoulidis",""],[10,0,"h","g","Vetle Walle Egeli","Evangelos Patoulidis"],[19,0,"a","g","Caleb Sery",""],[25,0,"h","g","Evangelos Patoulidis",""],[28,0,"a","g","Kristian Lonebu","Samukele Kabini"],[35,0,"a","g","Kristian Lonebu","Martin Linnes"],[45,1,"a","y","Daniel Daga",""],[45,3,"a","og","Gustav H\u00f8jbjerg",""],[67,0,"h","y","Jakob Maslo Dunsby",""],[67,0,"a","s","Halldor Stenevik","Martin Linnes"],[69,0,"h","g","Evangelos Patoulidis","Vetle Walle Egeli"],[75,0,"h","s","Bendik Slotfeldt Berntsen","Jakob Maslo Dunsby"],[75,0,"h","s","Jakob Vester Nielsen","Sander Risan M\u00f6rk"],[77,0,"a","y","Halldor Stenevik",""],[77,0,"a","s","Mats M\u00f8ller D\u00e6hli","Daniel Daga"],[77,0,"a","s","Oskar Spiten Nysaeter","Sander Hestetun Kilen"],[84,0,"h","g","Bendik Slotfeldt Berntsen","Evangelos Patoulidis"],[88,0,"a","s","Jalal Abdullai","Kristian Lonebu"],[88,0,"a","s","Trent Kone-Doherty","Caleb Sery"],[89,0,"a","g","Sondre Granaas","Mats M\u00f8ller D\u00e6hli"],[90,9,"h","s","Martin Hellan","Fredrik Carson Pedersen"],[90,9,"h","y","Fredrik Carson Pedersen",""],[90,4,"h","s","Foster Apetorgbor","Evangelos Patoulidis"],[90,3,"h","s","Sebastian Holm Mathisen","Oscar Forsmo Kapskarmo"]],"st":[["Possession","32%","68%"],["Expected goals","2.25","3.09"],["Shots",22,26],["On target",8,9],["Corners",3,14],["Fouls",13,14],["Offsides",2,3],["Saves",4,1]]}</script>
 <!-- /live-head -->
-</head>
+<!-- mi-app-2026-11g --><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/png" sizes="32x32" href="/app_icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/app_icons/favicon-16.png"><link rel="apple-touch-icon" href="/app_icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="MD Insights"><meta name="application-name" content="MD Insights"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="/mi-app.css"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.json"}}]},"eagerness":"moderate"}]}</script><link rel="stylesheet" href="/mi-type.css"><script src="/app_install.js" defer></script></head>
 <body>
 
 <nav class="site-nav"><a class="mi-navicon" href="/" aria-label="Matchday Insights home"><img src="/app_icons/nav-icon.png" alt="" width="34" height="34"></a>
@@ -316,32 +61,32 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
 
 <div class="pp">
 <!-- match-page-v4 -->
-<div class='sb'><div class='sb-meta'>Eliteserien &middot; Regular Season - 26</div><div class='sb-row'><a class='sb-t' href='../clubs/sandefjord.html'><img src='../crests/332.png' alt='' onerror='this.remove()'><span>Sandefjord</span><small>#537 in the world</small></a><div class='sb-mid'><div class='sb-time' data-k='2026-11-08T16:00:00+00:00' data-f='t'>16:00 UTC</div><div class='sb-st'><span data-k='2026-11-08T16:00:00+00:00' data-f='d'>Sun 08 Nov</span></div></div><a class='sb-t' href='../clubs/molde.html'><img src='../crests/329.png' alt='' onerror='this.remove()'><span>Molde</span><small>#206 in the world</small></a></div></div><h1 class='sb-h1'>Sandefjord vs Molde prediction &amp; odds</h1>
-
-<div class="mtabs"><button type="button" data-t="p" class="on">Preview</button><button type="button" data-t="m">Match</button><button type="button" data-t="t">Table</button></div><div class="mpanel mf" id="tab-m" data-pre="1" data-fid="1494801" data-h="Sandefjord" data-a="Molde" hidden><div class="none">Line-ups usually appear about an hour before kick-off. Once it starts, the goals, cards, subs and stats show up here as they happen.</div></div><div class="mpanel" id="tab-p">
-<p>Sandefjord host Molde in the Eliteserien (round 26) on Sunday 08 November 2026. Sandefjord are #537 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Molde are #206 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 331 places - in Molde's favour.</p>
+<div class='sb'><div class='sb-meta'>Eliteserien &middot; Regular Season - 26</div><div class='sb-row'><a class='sb-t' href='../clubs/sandefjord.html'><img src='../crests/332.png' alt='' onerror='this.remove()'><span>Sandefjord</span><small>#526 in the world</small></a><div class='sb-mid'><div class='sb-score'>5 - 5</div><div class='sb-st'>Full time</div></div><a class='sb-t' href='../clubs/molde.html'><img src='../crests/329.png' alt='' onerror='this.remove()'><span>Molde</span><small>#208 in the world</small></a></div></div><h1 class='sb-h1'>Sandefjord vs Molde: result and our prediction</h1>
+<div class='rbar' data-ft='5-5'><div class='rbar-h'>Our odds before kick-off</div><div class='oddsbar'><i class='' style='width:27.2%;background:#1f9a46'></i><i class='hit' style='width:27.5%;background:#5a6888'></i><i class='' style='width:45.3%;background:#d43c44'></i></div><div class='oddslab'><span class='' style='color:#1f9a46'>Sandefjord 27%</span><span class='hit'>&#10003; Draw 27%</span><span class='' style='color:#d43c44'>Molde 45%</span></div></div>
+<div class="mtabs"><button type="button" data-t="m" class="on">Match</button><button type="button" data-t="t">Table</button><button type="button" data-t="p">Preview</button></div><div class="mpanel mf" id="tab-m" data-fid="1494801" data-h="Sandefjord" data-a="Molde"><div class="none">Loading&hellip;</div></div><div class="mpanel" id="tab-p" hidden>
+<p>Sandefjord host Molde in the Eliteserien (round 26) on Sunday 08 November 2026. Sandefjord are #526 in our world ranking and have won 1, drawn 1 and lost 3 of their last 5; Molde are #208 and have won 3, drawn 1 and lost 1 of their last 5. On paper that's a big gap - 318 places - in Molde's favour.</p>
 <h2>Our prediction</h2>
 <p>Our model makes Molde the favourites at 45%, with a draw at 27% and Sandefjord at 27%.</p>
 <div class='oddsbar'><i style='width:27.2%;background:#1f9a46'></i><i style='width:27.5%;background:#5a6888'></i><i style='width:45.3%;background:#d43c44'></i></div>
 <div class="oddslab"><span style="color:#1f9a46">Sandefjord 27%</span>
   <span>Draw 27%</span><span style="color:#d43c44">Molde 45%</span></div>
 <div class="ppgrid" style="margin-top:22px">
-  <div class='ppcard'><div class='nm'><a href='../clubs/sandefjord.html'>Sandefjord</a></div><div class='st'>World rank: <b>#537</b><br>Rating: <b>1080</b><br>Chance to win: <b>27%</b><br>Last 5: <span class='chip' style='background:#1f9a46' title='Aalesund'>W</span><span class='chip' style='background:#d43c44' title='ODD Ballklubb'>L</span><span class='chip' style='background:#d43c44' title='Start'>L</span><span class='chip' style='background:#d43c44' title='Lillestrom'>L</span><span class='chip' style='background:#5a6888' title='Rosenborg'>D</span></div></div>
-  <div class='ppcard'><div class='nm'><a href='../clubs/molde.html'>Molde</a></div><div class='st'>World rank: <b>#206</b><br>Rating: <b>1227</b><br>Chance to win: <b>45%</b><br>Last 5: <span class='chip' style='background:#d43c44' title='Brann'>L</span><span class='chip' style='background:#1f9a46' title='Stromsgodset'>W</span><span class='chip' style='background:#1f9a46' title='Fredrikstad'>W</span><span class='chip' style='background:#1f9a46' title='Start'>W</span><span class='chip' style='background:#5a6888' title='Lillestrom'>D</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/sandefjord.html'>Sandefjord</a></div><div class='st'>World rank: <b>#526</b><br>Rating: <b>1083</b><br>Chance to win: <b>27%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Molde'>D</span><span class='chip' style='background:#1f9a46' title='Aalesund'>W</span><span class='chip' style='background:#d43c44' title='ODD Ballklubb'>L</span><span class='chip' style='background:#d43c44' title='Start'>L</span><span class='chip' style='background:#d43c44' title='Lillestrom'>L</span></div></div>
+  <div class='ppcard'><div class='nm'><a href='../clubs/molde.html'>Molde</a></div><div class='st'>World rank: <b>#208</b><br>Rating: <b>1224</b><br>Chance to win: <b>45%</b><br>Last 5: <span class='chip' style='background:#5a6888' title='Sandefjord'>D</span><span class='chip' style='background:#d43c44' title='Brann'>L</span><span class='chip' style='background:#1f9a46' title='Stromsgodset'>W</span><span class='chip' style='background:#1f9a46' title='Fredrikstad'>W</span><span class='chip' style='background:#1f9a46' title='Start'>W</span></div></div>
 </div>
 <h2>Who will win Sandefjord vs Molde?</h2>
-<p>Sandefjord are #537 and Molde #206 in our world ranking of
+<p>Sandefjord are #526 and Molde #208 in our world ranking of
 every senior club. Based on the two clubs' ratings and home advantage, the most likely result is
 <b>Molde</b> (45%). More from the <a href='../leagues/norway-eliteserien.html'>Eliteserien</a>.</p>
-<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-05-30</td><td>Molde v Sandefjord</td><td class='r'><b>2-1</b></td></tr><tr><td>2025-10-19</td><td>Molde v Sandefjord</td><td class='r'><b>1-3</b></td></tr><tr><td>2025-04-06</td><td>Sandefjord v Molde</td><td class='r'><b>3-0</b></td></tr><tr><td>2024-10-19</td><td>Molde v Sandefjord</td><td class='r'><b>0-1</b></td></tr><tr><td>2024-05-05</td><td>Sandefjord v Molde</td><td class='r'><b>3-1</b></td></tr></table><p>Sandefjord have won 4 of the last 5 meetings.</p>
-<h2>Eliteserien table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Viking</td><td class='r'>25</td><td class='r'>59</td><td class='r'>#54</td></tr><tr class=''><td>2</td><td>Bodo/Glimt</td><td class='r'>25</td><td class='r'>59</td><td class='r'>#32</td></tr><tr class=''><td>3</td><td>Rosenborg</td><td class='r'>26</td><td class='r'>46</td><td class='r'>#165</td></tr><tr class='hi'><td>4</td><td>Molde</td><td class='r'>25</td><td class='r'>43</td><td class='r'>#206</td></tr><tr class=''><td>5</td><td>Lillestrom</td><td class='r'>25</td><td class='r'>42</td><td class='r'>#275</td></tr><tr class=''><td>11</td><td>Fredrikstad</td><td class='r'>25</td><td class='r'>29</td><td class='r'>#408</td></tr><tr class='hi'><td>12</td><td>Sandefjord</td><td class='r'>25</td><td class='r'>27</td><td class='r'>#537</td></tr><tr class=''><td>13</td><td>Ham-Kam</td><td class='r'>25</td><td class='r'>27</td><td class='r'>#497</td></tr></table>
+<h2>Head to head</h2><table class='pptab'><tr><th>Date</th><th>Match</th><th class='r'>Score</th></tr><tr><td>2026-11-08</td><td>Sandefjord v Molde</td><td class='r'><b>5-5</b></td></tr><tr><td>2026-05-30</td><td>Molde v Sandefjord</td><td class='r'><b>2-1</b></td></tr><tr><td>2025-10-19</td><td>Molde v Sandefjord</td><td class='r'><b>1-3</b></td></tr><tr><td>2025-04-06</td><td>Sandefjord v Molde</td><td class='r'><b>3-0</b></td></tr><tr><td>2024-10-19</td><td>Molde v Sandefjord</td><td class='r'><b>0-1</b></td></tr></table>
+<h2>Eliteserien table</h2><table class='pptab'><tr><th>#</th><th>Club</th><th class='r'>P</th><th class='r'>Pts</th><th class='r'>World</th></tr><tr class=''><td>1</td><td>Viking</td><td class='r'>26</td><td class='r'>62</td><td class='r'>#53</td></tr><tr class=''><td>2</td><td>Bodo/Glimt</td><td class='r'>26</td><td class='r'>62</td><td class='r'>#29</td></tr><tr class=''><td>3</td><td>Rosenborg</td><td class='r'>26</td><td class='r'>46</td><td class='r'>#166</td></tr><tr class=''><td>4</td><td>Lillestrom</td><td class='r'>26</td><td class='r'>45</td><td class='r'>#267</td></tr><tr class='hi'><td>5</td><td>Molde</td><td class='r'>26</td><td class='r'>44</td><td class='r'>#208</td></tr><tr class=''><td>6</td><td>Tromso</td><td class='r'>26</td><td class='r'>40</td><td class='r'>#291</td></tr><tr class=''><td>12</td><td>Fredrikstad</td><td class='r'>26</td><td class='r'>30</td><td class='r'>#402</td></tr><tr class='hi'><td>13</td><td>Sandefjord</td><td class='r'>26</td><td class='r'>28</td><td class='r'>#526</td></tr><tr class=''><td>14</td><td>Aalesund</td><td class='r'>26</td><td class='r'>24</td><td class='r'>#611</td></tr></table>
 <h2>How this is worked out</h2>
 <p>Every senior result from every country feeds one Elo rating system, so every club in the world
 sits on the same scale. Before each match the two ratings, adjusted for home advantage, give the
 chances of a home win, a draw and an away win. See the <a href="../index.html">full world
 ranking</a> and <a href="../matches.html">every match today</a>.</p>
 </div>
-<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Eliteserien</div><div class='mt-scroll'><table class='mt' data-built='2026-11-08T08:37:16Z'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class=''><td>1</td><td class='l cl'><img src='../crests/759.png' alt='' onerror='this.remove()'><a href='../clubs/viking.html'>Viking</a></td><td>25</td><td class='opt'>19</td><td class='opt'>2</td><td class='opt'>4</td><td>38</td><td class='pts'>59</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/327.png' alt='' onerror='this.remove()'><a href='../clubs/bodo-glimt.html'>Bodo/Glimt</a></td><td>25</td><td class='opt'>19</td><td class='opt'>2</td><td class='opt'>4</td><td>38</td><td class='pts'>59</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/331.png' alt='' onerror='this.remove()'><a href='../clubs/rosenborg.html'>Rosenborg</a></td><td>26</td><td class='opt'>14</td><td class='opt'>4</td><td class='opt'>8</td><td>21</td><td class='pts'>46</td></tr><tr class='us'><td>4</td><td class='l cl'><img src='../crests/329.png' alt='' onerror='this.remove()'><a href='../clubs/molde.html'>Molde</a></td><td>25</td><td class='opt'>13</td><td class='opt'>4</td><td class='opt'>8</td><td>20</td><td class='pts'>43</td></tr><tr class=''><td>5</td><td class='l cl'><img src='../crests/321.png' alt='' onerror='this.remove()'><a href='../clubs/lillestrom.html'>Lillestrom</a></td><td>25</td><td class='opt'>13</td><td class='opt'>3</td><td class='opt'>9</td><td>3</td><td class='pts'>42</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/325.png' alt='' onerror='this.remove()'><a href='../clubs/tromso.html'>Tromso</a></td><td>25</td><td class='opt'>11</td><td class='opt'>7</td><td class='opt'>7</td><td>5</td><td class='pts'>40</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/319.png' alt='' onerror='this.remove()'><a href='../clubs/brann.html'>Brann</a></td><td>25</td><td class='opt'>10</td><td class='opt'>2</td><td class='opt'>13</td><td>3</td><td class='pts'>32</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/326.png' alt='' onerror='this.remove()'><a href='../clubs/valerenga.html'>Valerenga</a></td><td>25</td><td class='opt'>9</td><td class='opt'>5</td><td class='opt'>11</td><td>-3</td><td class='pts'>32</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/333.png' alt='' onerror='this.remove()'><a href='../clubs/sarpsborg-08-ff.html'>Sarpsborg 08 FF</a></td><td>25</td><td class='opt'>8</td><td class='opt'>7</td><td class='opt'>10</td><td>-7</td><td class='pts'>31</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/2143.png' alt='' onerror='this.remove()'><a href='../clubs/kfum-oslo.html'>KFUM Oslo</a></td><td>25</td><td class='opt'>8</td><td class='opt'>7</td><td class='opt'>10</td><td>-9</td><td class='pts'>31</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/2149.png' alt='' onerror='this.remove()'><a href='../clubs/fredrikstad.html'>Fredrikstad</a></td><td>25</td><td class='opt'>8</td><td class='opt'>5</td><td class='opt'>12</td><td>-15</td><td class='pts'>29</td></tr><tr class='us'><td>12</td><td class='l cl'><img src='../crests/332.png' alt='' onerror='this.remove()'><a href='../clubs/sandefjord.html'>Sandefjord</a></td><td>25</td><td class='opt'>7</td><td class='opt'>6</td><td class='opt'>12</td><td>-8</td><td class='pts'>27</td></tr><tr class=''><td>13</td><td class='l cl'><img src='../crests/2159.png' alt='' onerror='this.remove()'><a href='../clubs/ham-kam.html'>Ham-Kam</a></td><td>25</td><td class='opt'>7</td><td class='opt'>6</td><td class='opt'>12</td><td>-18</td><td class='pts'>27</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/757.png' alt='' onerror='this.remove()'><a href='../clubs/aalesund.html'>Aalesund</a></td><td>25</td><td class='opt'>5</td><td class='opt'>9</td><td class='opt'>11</td><td>-14</td><td class='pts'>24</td></tr><tr class=''><td>15</td><td class='l cl'><img src='../crests/320.png' alt='' onerror='this.remove()'><a href='../clubs/kristiansund-bk.html'>Kristiansund BK</a></td><td>25</td><td class='opt'>6</td><td class='opt'>5</td><td class='opt'>14</td><td>-22</td><td class='pts'>23</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/334.png' alt='' onerror='this.remove()'><a href='../clubs/start.html'>Start</a></td><td>26</td><td class='opt'>5</td><td class='opt'>4</td><td class='opt'>17</td><td>-32</td><td class='pts'>19</td></tr></table></div></div>
+<div class="mpanel" id="tab-t" hidden><div class='mt-h'>Eliteserien</div><div class='mt-scroll'><table class='mt' data-built='2026-11-08T22:30:35Z'><tr><th>#</th><th class='l'>Club</th><th>P</th><th class='opt'>W</th><th class='opt'>D</th><th class='opt'>L</th><th>GD</th><th>Pts</th></tr><tr class=''><td>1</td><td class='l cl'><img src='../crests/759.png' alt='' onerror='this.remove()'><a href='../clubs/viking.html'>Viking</a></td><td>26</td><td class='opt'>20</td><td class='opt'>2</td><td class='opt'>4</td><td>42</td><td class='pts'>62</td></tr><tr class=''><td>2</td><td class='l cl'><img src='../crests/327.png' alt='' onerror='this.remove()'><a href='../clubs/bodo-glimt.html'>Bodo/Glimt</a></td><td>26</td><td class='opt'>20</td><td class='opt'>2</td><td class='opt'>4</td><td>40</td><td class='pts'>62</td></tr><tr class=''><td>3</td><td class='l cl'><img src='../crests/331.png' alt='' onerror='this.remove()'><a href='../clubs/rosenborg.html'>Rosenborg</a></td><td>26</td><td class='opt'>14</td><td class='opt'>4</td><td class='opt'>8</td><td>21</td><td class='pts'>46</td></tr><tr class=''><td>4</td><td class='l cl'><img src='../crests/321.png' alt='' onerror='this.remove()'><a href='../clubs/lillestrom.html'>Lillestrom</a></td><td>26</td><td class='opt'>14</td><td class='opt'>3</td><td class='opt'>9</td><td>4</td><td class='pts'>45</td></tr><tr class='us'><td>5</td><td class='l cl'><img src='../crests/329.png' alt='' onerror='this.remove()'><a href='../clubs/molde.html'>Molde</a></td><td>26</td><td class='opt'>13</td><td class='opt'>5</td><td class='opt'>8</td><td>20</td><td class='pts'>44</td></tr><tr class=''><td>6</td><td class='l cl'><img src='../crests/325.png' alt='' onerror='this.remove()'><a href='../clubs/tromso.html'>Tromso</a></td><td>26</td><td class='opt'>11</td><td class='opt'>7</td><td class='opt'>8</td><td>3</td><td class='pts'>40</td></tr><tr class=''><td>7</td><td class='l cl'><img src='../crests/319.png' alt='' onerror='this.remove()'><a href='../clubs/brann.html'>Brann</a></td><td>26</td><td class='opt'>10</td><td class='opt'>3</td><td class='opt'>13</td><td>3</td><td class='pts'>33</td></tr><tr class=''><td>8</td><td class='l cl'><img src='../crests/326.png' alt='' onerror='this.remove()'><a href='../clubs/valerenga.html'>Valerenga</a></td><td>25</td><td class='opt'>9</td><td class='opt'>5</td><td class='opt'>11</td><td>-3</td><td class='pts'>32</td></tr><tr class=''><td>9</td><td class='l cl'><img src='../crests/333.png' alt='' onerror='this.remove()'><a href='../clubs/sarpsborg-08-ff.html'>Sarpsborg 08 FF</a></td><td>26</td><td class='opt'>8</td><td class='opt'>7</td><td class='opt'>11</td><td>-10</td><td class='pts'>31</td></tr><tr class=''><td>10</td><td class='l cl'><img src='../crests/2143.png' alt='' onerror='this.remove()'><a href='../clubs/kfum-oslo.html'>KFUM Oslo</a></td><td>26</td><td class='opt'>8</td><td class='opt'>7</td><td class='opt'>11</td><td>-13</td><td class='pts'>31</td></tr><tr class=''><td>11</td><td class='l cl'><img src='../crests/2159.png' alt='' onerror='this.remove()'><a href='../clubs/ham-kam.html'>Ham-Kam</a></td><td>26</td><td class='opt'>8</td><td class='opt'>6</td><td class='opt'>12</td><td>-15</td><td class='pts'>30</td></tr><tr class=''><td>12</td><td class='l cl'><img src='../crests/2149.png' alt='' onerror='this.remove()'><a href='../clubs/fredrikstad.html'>Fredrikstad</a></td><td>26</td><td class='opt'>8</td><td class='opt'>6</td><td class='opt'>12</td><td>-15</td><td class='pts'>30</td></tr><tr class='us'><td>13</td><td class='l cl'><img src='../crests/332.png' alt='' onerror='this.remove()'><a href='../clubs/sandefjord.html'>Sandefjord</a></td><td>26</td><td class='opt'>7</td><td class='opt'>7</td><td class='opt'>12</td><td>-8</td><td class='pts'>28</td></tr><tr class=''><td>14</td><td class='l cl'><img src='../crests/757.png' alt='' onerror='this.remove()'><a href='../clubs/aalesund.html'>Aalesund</a></td><td>26</td><td class='opt'>5</td><td class='opt'>9</td><td class='opt'>12</td><td>-15</td><td class='pts'>24</td></tr><tr class=''><td>15</td><td class='l cl'><img src='../crests/320.png' alt='' onerror='this.remove()'><a href='../clubs/kristiansund-bk.html'>Kristiansund BK</a></td><td>25</td><td class='opt'>6</td><td class='opt'>5</td><td class='opt'>14</td><td>-22</td><td class='pts'>23</td></tr><tr class=''><td>16</td><td class='l cl'><img src='../crests/334.png' alt='' onerror='this.remove()'><a href='../clubs/start.html'>Start</a></td><td>26</td><td class='opt'>5</td><td class='opt'>4</td><td class='opt'>17</td><td>-32</td><td class='pts'>19</td></tr></table></div></div>
 </div>
 <script>
 (function(){
@@ -404,7 +149,9 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
   &nbsp;·&nbsp; <a href="../leagues.html">Leagues</a>
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
-</footer><!-- live-tag -->
+</footer>
+
+<!-- live-tag -->
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1494801" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>
