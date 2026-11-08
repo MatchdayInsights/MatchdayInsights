@@ -99,3 +99,20 @@ html body input, html body select, html body textarea { font-family: var(--mi-re
   html body .m .side .sx .rk{font-size:10.5px!important;white-space:nowrap}
   html body .m .side .sx .dl{font-size:11px!important;white-space:nowrap}
 }
+
+/* League tables on match pages fit a phone (no sideways scrolling): fixed
+   column widths, and a long club name is shortened with "..." instead of
+   widening the table. */
+html body .mt td.cl { font-family: var(--mi-read) !important; font-size: 14px !important; font-weight: 600 !important; letter-spacing: 0 !important; }
+@media (max-width:640px){
+  html body .mt-scroll { overflow-x: visible !important; }
+  html body table.mt { table-layout: fixed !important; width: 100% !important; }
+  html body table.mt tr:first-child th:nth-child(1) { width: 38px; }
+  html body table.mt tr:first-child th:nth-child(2) { width: auto; }
+  html body table.mt tr:first-child th:nth-child(3) { width: 28px; }
+  html body table.mt tr:first-child th.opt { width: 24px; }
+  html body table.mt tr:first-child th:nth-last-child(2) { width: 36px; }
+  html body table.mt tr:first-child th:last-child { width: 36px; }
+  html body table.mt td.cl { max-width: none !important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}
+@media (max-width:640px){ html body table.mt { min-width: 0 !important; } }
