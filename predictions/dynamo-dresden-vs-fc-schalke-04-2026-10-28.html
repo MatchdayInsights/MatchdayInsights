@@ -395,6 +395,16 @@ fetch('../match_details/'+encodeURIComponent(box.dataset.fid)+'.json').then(r=>r
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
 </footer><!-- live-tag -->
+<script>window.MI_PL={"h":{"t schreiber":"tim-schreiber-129139","v vermeij":"vincent-vermeij-37473","l herrmann":"luca-herrmann-178107","s straudi":"simon-straudi-128822","f muller":"f-muller-583659","a muhamedbegovic":"ahmet-muhamedbegovic-7408","a rossipal":"alexander-rossipal-25179","c daferner":"christoph-daferner-26254","t raschl":"tobias-raschl-129131","n hauptmann":"niklas-hauptmann-24800","j sterner":"jonas-sterner-202481","p covic":"patrice-covic-448468","k inanoglu":"kaan-inanoglu-440315","n rapp":"nicolai-rapp-24843","b bobzien":"ben-bobzien-287932","j lemmer":"jakob-lemmer-178084","n froling":"nils-froling-48232","r wagner":"robert-wagner-280024","l grill":"hannes-grill-25802","t neininger":"till-neininger-435086"},"a":{"n katic":"nikola-katic-1741","l vozar":"l-vozar-585777","e dzeko":"edin-dzeko-790","j adamu":"junior-adamu-125173","k karaman":"kenan-karaman-25466","t becker":"timo-becker-90977","b lasme":"bryan-lasme-24228","e gashi":"e-gashi-566877","hwang hee chan":"hwang-hee-chan-24888","j dina ebimbe":"eric-dina-ebimbe-90594","vitalie becker":"vitalie-becker-361411","j ndiaye":"j-ndiaye-634823","s tanaka":"satoshi-tanaka-33142","a aouchiche":"adil-aouchiche-137129","h kurucay":"hasan-kurucay-81164","d ljubicic":"dejan-ljubicic-1725","k muller":"kevin-muller-24893","l karius":"loris-karius-1972","m ayhan":"mertcan-ayhan-361362","f porath":"finn-dominik-porath-26525"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1638572" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>

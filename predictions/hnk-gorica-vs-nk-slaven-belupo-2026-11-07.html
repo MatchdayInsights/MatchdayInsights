@@ -405,6 +405,16 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
 </footer><!-- live-tag -->
+<script>window.MI_PL={"h":{"f braut":"filip-braut-14270","h moustapha":"hadji-moustapha-409128","f brodic":"fran-brodic-30904","b bogojevic":"bruno-bogojevic-14428","k custovic":"kevin-custovic-107255","o bakic":"ognjen-bakic-304857","t lacoux":"tom-lacoux-190665","b kardum":"bartol-kardum-419613","p mijic":"patrik-mijic-151837","j filipovic":"jakov-filipovic-8747","keenan nino carole":"keenan-nino-carole-278247","r josipovic":"renato-josipovic-14685","d zarkov":"darijan-zarkov-14788","d pavicic":"domagoj-pavicic-14288","d matijas":"davor-matijas-14585","d stevanovic":"dusan-stevanovic-45963","l vrzic":"luka-vrzic-462234","s peric":"stefan-peric-7144","i cvijanovic":"ivan-cvijanovic-303030","ante kavelj":"ante-kavelj-406800","j pranjic":"jakov-pranjic-337648","juraj frigan":"juraj-frigan-522288"},"a":{"i nestorovski":"ilija-nestorovski-31561","i urata":"itsuki-urata-109430","i covic":"ivan-covic-14354","j mitrovic":"josip-mitrovic-14295","k sentic":"karlo-sentic-14588","v papac":"v-papac-671049","m caimacov":"mihail-caimacov-14649","lovro loncaric":"lovro-loncaric-667957","a jonsson":"arnor-jonsson-61631","l banovec":"lovre-banovec-328631","d kovacic":"dominik-kovacic-76897","i cvetko":"ivan-cvetko-386273","m pavli":"maj-pavli-325124","f kruselj":"filip-kruselj-413949","j mersinaj":"jon-mersinaj-3568","k isasegi":"karlo-isasegi-79949","l crepulja":"ljuban-crepulja-76422","v meimorec":"vinko-meimorec-14415","m dabro":"marko-dabro-80078","a jakir":"antonio-jakir-340568","losika ratshukudu":"losika-ratshukudu-630119","d bosak":"david-bosak-380776","l bosnjak":"leon-bosnjak-425345"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1548557" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>

@@ -405,6 +405,16 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
   &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
   &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
 </footer><!-- live-tag -->
+<script>window.MI_PL={"h":{"osman bukari":"osman-bukari-61418","tomas handel":"tomas-handel-187926","aleksandar katai":"aleksandar-katai-50910","derrick luckassen":"derrick-luckassen-25341","muhammed cham saracevic":"muhammed-cham-146008","loizos loizou":"loizos-loizou-68106","mirko ivanic":"mirko-ivanic-353","rade krunic":"rade-krunic-31054","milos veljkovic":"milos-veljkovic-2821","marko arnautovic":"marko-arnautovic-18830","mahmudu bajo":"mahmudu-bajo-408543","timi max elsnik":"timi-elsnik-17789","yuta nakayama":"yuta-nakayama-36920","ivan gutesa":"ivan-gutesa-198395","vasilije kostov":"vasilije-kostov-462208","matheus":"matheus-41089","kristiyan balov":"kristiyan-balov-394173","vladimir lucic":"vladimir-lucic-264495"},"a":{}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1636399" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>
