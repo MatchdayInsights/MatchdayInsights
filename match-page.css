@@ -13,6 +13,7 @@
 .fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
 .fmatch-name:hover{color:var(--green)}
 .fmatch-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex-shrink:0}
+.fmatch-side .crest.fi{width:20px;height:15px;border-radius:2px;flex:none;background-size:cover}
 .fmatch-bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin:9px 0 5px}
 .fmatch-bar span{display:block;height:100%}
 .fmatch-pcts{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10px}

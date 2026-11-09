@@ -28,6 +28,7 @@
 .fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
 .fmatch-name:hover{color:var(--green)}
 .fmatch-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex-shrink:0}
+.fmatch-side .crest.fi{width:20px;height:15px;border-radius:2px;flex:none;background-size:cover}
 .fmatch-bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin:9px 0 5px}
 .fmatch-bar span{display:block;height:100%}
 .fmatch-pcts{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10px}
@@ -229,7 +230,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">288,793</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">288,796</div><div class="hstat-label">Matches Analysed</div></div>
   </div>
 </div>
 
@@ -342,8 +343,21 @@ async function init() {
 // Featured upcoming matches - the five with the highest average rating
 // of the two clubs, from predictions.json. Hidden entirely if that file
 // isn't there, so the page works without the prediction step.
-fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
-  if (!data) return;
+// National team matches too (nations_upcoming.json, Greg 2026-11). Their
+// ratings are on their own scale (the average team is always 1300), so each
+// team counts as the club at the same world rank: the No. 4 nation weighs like
+// the No. 4 club, and the clubs' own order doesn't change.
+const getJSON = u => fetch(u).then(r => r.ok ? r.json() : null).catch(() => null);
+Promise.all([getJSON('predictions.json'), getJSON('nations_upcoming.json')]).then(([data, nt]) => {
+  data = data || {};
+  if (Array.isArray(nt) && nt.length) {
+    const byRank = [...CLUBS].sort((a, b) => a.rank - b.rank);
+    const eloAt = r => (byRank[Math.min(Math.max(r, 1), byRank.length) - 1] || {}).elo || 0;
+    const clubs = (data.fixtures && data.fixtures.length) ? data.fixtures : (data.featured || []);
+    data = {fixtures: clubs.concat(nt.map(m => Object.assign({nt: true}, m,
+      {home_elo: eloAt(m.home_rank), away_elo: eloAt(m.away_rank)})))};
+  }
+  if (!(data.fixtures || data.featured)) return;
   // Pick the five IN THE BROWSER, from the FULL fixture list, on every
   // page view. Two earlier versions got this wrong in the same way:
   // choosing the biggest matches at build time and filtering afterwards
@@ -362,17 +376,22 @@ fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
     if (c.team_id) confOf['t:' + String(c.team_id).split('::')[0]] = c.confederation;
   });
   const conf = (slug, id) => confOf['s:' + slug] || confOf['t:' + id] || '';
+  const confs = m => m.nt ? [m.home_conf, m.away_conf]
+                          : [conf(m.home_slug, m.home_team_id), conf(m.away_slug, m.away_team_id)];
   const fmt = p => Math.round(p * 100) + '%';
   const card = m => {
     const d = new Date(m.date);
     const when = d.toLocaleDateString('en-GB', {day:'numeric', month:'short'});
-    const link = (slug, name) => slug
-      ? `<a class="fmatch-name" href="clubs/${slug}.html">${name}</a>`
+    const link = (slug, name) => m.nt
+      ? `<a class="fmatch-name" href="nations/${slug}.html">${name}</a>`
+      : slug ? `<a class="fmatch-name" href="clubs/${slug}.html">${name}</a>`
       : `<span class="fmatch-name">${name}</span>`;
+    const badge = (id, flag) => m.nt ? (flag ? `<span class="crest fi fi-${flag}"></span>` : '') : crestImg(id);
+    const hs = m.nt ? m.home_nt : m.home_slug, as = m.nt ? m.away_nt : m.away_slug;
     return `<div class="fmatch">
       <div class="fmatch-meta">${when} &middot; ${m.competition}</div>
-      <div class="fmatch-side">${crestImg(m.home_team_id)}${link(m.home_slug, m.home_team)}<span class="fmatch-rank">#${m.home_rank}</span></div>
-      <div class="fmatch-side">${crestImg(m.away_team_id)}${link(m.away_slug, m.away_team)}<span class="fmatch-rank">#${m.away_rank}</span></div>
+      <div class="fmatch-side">${badge(m.home_team_id, m.home_flag)}${link(hs, m.home_team)}<span class="fmatch-rank">#${m.home_rank}</span></div>
+      <div class="fmatch-side">${badge(m.away_team_id, m.away_flag)}${link(as, m.away_team)}<span class="fmatch-rank">#${m.away_rank}</span></div>
       <div class="fmatch-bar">
         <span style="width:${m.p_home*100}%;background:var(--green)"></span>
         <span style="width:${m.p_draw*100}%;background:#5a6a8c"></span>
@@ -394,7 +413,7 @@ fetch('predictions.json').then(r => r.ok ? r.json() : null).then(data => {
     const mine = pool.filter(m => {
       const t = Date.parse(m.date);
       if (isNaN(t) || t <= now) return false;
-      return !c || conf(m.home_slug, m.home_team_id) === c || conf(m.away_slug, m.away_team_id) === c;
+      return !c || confs(m).includes(c);
     });
     const within = days => mine.filter(m => Date.parse(m.date) <= now + days * 86400000);
     let list = within(4);
