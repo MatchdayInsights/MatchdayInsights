@@ -160,3 +160,7 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
 @media (prefers-color-scheme: light) {
   html:not([data-theme="dark"]) body select.filter-select, html:not([data-theme="dark"]) body select.featured-select, html:not([data-theme="dark"]) body select#nt-conf { color-scheme: light; }
 }
+/* Line-up names that link to a player page (live_tags.py, Greg 2026-11):
+   the text colour, a faint underline, green on hover. */
+.mf .lus a{color:inherit;text-decoration:none;border-bottom:1px solid var(--border2)}
+.mf .lus a:hover{color:var(--green);border-color:var(--green)}
