@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T23:34:19+00:00",
+  "generated": "2026-11-10T00:04:36+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -323,7 +323,7 @@
       "competition_type": "league",
       "country": "Paraguay",
       "round": "Clausura - 19",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "1183",
       "home_team": "Sportivo Luqueno",
       "home_slug": "sportivo-luqueno",
