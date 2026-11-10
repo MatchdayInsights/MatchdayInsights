@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T20:19:49+00:00",
+  "generated": "2026-11-10T20:32:18+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -600,7 +600,7 @@
       "competition_type": "cup",
       "country": "Uruguay",
       "round": "Quarter-finals",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "2361",
       "home_team": "Boston River",
       "home_slug": "boston-river",
@@ -646,7 +646,7 @@
       "competition_type": "cup",
       "country": "England",
       "round": "Group South - 8",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "1832",
       "home_team": "Bromley",
       "home_slug": "bromley",
@@ -70149,7 +70149,7 @@
       "competition_type": "cup",
       "country": "England",
       "round": "Group South - 8",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "1362",
       "home_team": "Crawley Town",
       "home_slug": "crawley-town",
