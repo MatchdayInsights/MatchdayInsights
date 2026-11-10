@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T14:06:09+00:00",
+  "generated": "2026-11-10T15:53:11+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -68888,6 +68888,29 @@
       "p_draw": 0.2868,
       "p_away": 0.4077,
       "expected_score": 0.4489
+    },
+    {
+      "fixture_id": "1640304",
+      "date": "2026-12-01T15:00:00+00:00",
+      "competition": "League Cup",
+      "competition_type": "cup",
+      "country": "Egypt",
+      "round": "Group Stage - 3",
+      "status": "NS",
+      "home_team_id": "15570",
+      "home_team": "National Bank of Egypt",
+      "home_slug": "national-bank-of-egypt",
+      "home_rank": 414,
+      "home_elo": 1119.8,
+      "away_team_id": "1044",
+      "away_team": "Smouha SC",
+      "away_slug": "smouha-sc",
+      "away_rank": 498,
+      "away_elo": 1091.2,
+      "p_home": 0.4513,
+      "p_draw": 0.2755,
+      "p_away": 0.2732,
+      "expected_score": 0.5891
     }
   ],
   "estimated": [
@@ -68898,7 +68921,7 @@
       "competition_type": "cup",
       "country": "Egypt",
       "round": "Round of 32",
-      "status": "NS",
+      "status": "HT",
       "home_team_id": "1575",
       "home_team": "El Mokawloon",
       "home_slug": "el-mokawloon",
