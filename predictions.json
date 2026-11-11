@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T23:02:02+00:00",
+  "generated": "2026-11-11T23:32:08+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -323,7 +323,7 @@
       "competition_type": "cup",
       "country": "Bolivia",
       "round": "Semi-finals",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "15702",
       "home_team": "Independiente Petrolero",
       "home_slug": "independiente-petrolero",
@@ -346,7 +346,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 38",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "148",
       "home_team": "Londrina",
       "home_slug": "londrina",
