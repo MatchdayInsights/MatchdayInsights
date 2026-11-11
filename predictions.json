@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T00:32:56+00:00",
+  "generated": "2026-11-11T01:02:01+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "cup",
       "country": "Colombia",
       "round": "Semi-finals",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "1134",
       "home_team": "Internacional de Bogota",
       "home_slug": "internacional-de-bogota",
