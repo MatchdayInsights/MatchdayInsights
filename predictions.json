@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T22:02:06+00:00",
+  "generated": "2026-11-12T22:13:27+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -369,7 +369,7 @@
       "competition_type": "league",
       "country": "Guatemala",
       "round": "Regular Season - 20",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "10154",
       "home_team": "Aurora",
       "home_slug": "aurora",
@@ -392,7 +392,7 @@
       "competition_type": "league",
       "country": "Venezuela",
       "round": "Clausura - Quadrangular - 6",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "2827",
       "home_team": "Puerto Cabello",
       "home_slug": "puerto-cabello",
