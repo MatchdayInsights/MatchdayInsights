@@ -1,0 +1,55 @@
+
+/* Match pages (Greg, 2026-10: FotMob-style). Scoreboard with crests; for a
+   played match, a Match tab (events, stats, lineups) beside the Preview. */
+.sb{margin:26px 0 6px;border-radius:16px;padding:16px 16px 18px;background:var(--surface2);border:1px solid var(--border2)}
+.sb-meta{text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sb-row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin-top:14px}
+.sb-t{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;text-decoration:none!important;color:var(--text)!important;min-width:0}
+.sb-t img{width:72px;height:72px;object-fit:contain}
+.sb-t span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(18px,3.4vw,26px);text-transform:uppercase;
+  letter-spacing:.03em;line-height:1.05;display:block;max-width:100%;overflow:hidden;overflow-wrap:normal;word-break:normal}
+.sb-t small{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+.sb-mid{text-align:center;min-width:90px}
+.sb-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(40px,8vw,58px);line-height:1;color:var(--text)}
+.sb-time{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(26px,5vw,36px);color:var(--text)}
+.sb-st{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.sb-h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:18px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--text2);text-align:center;margin:12px 0 0}
+.mtabs{display:flex;gap:4px;border-bottom:1px solid var(--border2);margin:20px 0 6px}
+.mtabs button{background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:8px 16px 9px;cursor:pointer;
+  font-family:'Barlow Condensed',sans-serif;font-size:19px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--text2)}
+.mtabs button.on{color:var(--green);border-bottom-color:var(--green)}
+.mpanel[hidden]{display:none}
+.mf{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text2)}
+.mf h3{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:22px 0 8px;text-align:center}
+.mf .meta{text-align:center;font-size:11px;color:var(--muted);line-height:1.7;margin-top:12px}
+.mf .ev{display:grid;grid-template-columns:minmax(0,1fr) 52px minmax(0,1fr);gap:8px;align-items:center;padding:5px 0;
+  border-bottom:1px solid var(--border)}
+.mf .ev .mn{text-align:center;color:var(--muted);font-size:11.5px}
+.mf .ev .eh{text-align:right}
+.mf .who{color:var(--text)}
+.mf .sub2{color:var(--muted);font-size:11px}
+.mf .ic{display:inline-block;width:10px;height:13px;border-radius:2px;vertical-align:-1px;margin:0 5px}
+.mf .ic.y{background:#f2c200}.mf .ic.r{background:#e5484d}.mf .ic.yr{background:linear-gradient(90deg,#f2c200 50%,#e5484d 50%)}
+.mf .in{color:var(--green)}.mf .out{color:var(--red)}
+.mf .strow{display:grid;grid-template-columns:52px 1fr 52px;gap:10px;align-items:center;margin:8px 0}
+.mf .strow .v{color:var(--text);font-weight:600}.mf .strow .v.r{text-align:right}
+.mf .strow .lab{text-align:center;font-size:11px;color:var(--muted)}
+.mf .strow .sbar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:4px;background:var(--border);gap:2px}
+.mf .strow .sbar span{display:block;height:100%}
+.mf .lus{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.mf .lus .t{font-weight:700;color:var(--text);margin-bottom:4px}
+.mf .lus .f{color:var(--muted);font-size:11px;margin-bottom:8px}
+.mf .lus ol{list-style:none;margin:0;padding:0}
+.mf .lus li{padding:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mf .lus li .no{display:inline-block;min-width:24px;color:var(--muted)}
+.mf .lus .bn{margin-top:10px;color:var(--muted);font-size:11px}
+.mf .none{text-align:center;color:var(--muted);padding:18px 0}
+.mf .mlive{text-align:center;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#e5484d;margin:14px 0 0}
+.mf .mlive i,.mtabs button .ld{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e5484d;margin-right:6px;vertical-align:2px;animation:mtb 1.4s infinite}@keyframes mtb{50%{opacity:.25}}
+@media (max-width:600px){.sb-t img{width:52px;height:52px}.sb{padding:14px 10px 16px}.mf{font-size:12px}}
+/* Phones: the kick-off date in the middle wraps, so the club names either
+   side get the room - and a name that still won't fit at the smallest
+   size breaks rather than losing letters (fitNames) (Greg, 2026-10). */
+@media (max-width:600px){.sb-mid{min-width:0;max-width:112px}.sb-st{white-space:normal;line-height:1.35}}

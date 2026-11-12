@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T21:47:44+00:00",
+  "generated": "2026-11-12T22:02:06+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "league",
       "country": "Jamaica",
       "round": "Regular Season - 6",
-      "status": "NS",
+      "status": "PST",
       "home_team_id": "3442",
       "home_team": "Mount Pleasant Academy",
       "home_slug": "mount-pleasant-academy",
@@ -415,7 +415,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 38",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "139",
       "home_team": "Ponte Preta",
       "home_slug": "ponte-preta",
