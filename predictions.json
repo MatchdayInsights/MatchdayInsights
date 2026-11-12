@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T16:10:34+00:00",
+  "generated": "2026-11-12T16:45:10+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -54528,6 +54528,7 @@
       "date": "2026-11-28T16:30:00+00:00",
       "competition": "Premier League",
       "competition_type": "league",
+      "neutral": "always-neutral country",
       "country": "Malta",
       "round": "First Stage - Play Out - 14",
       "status": "NS",
@@ -54541,10 +54542,10 @@
       "away_slug": "balzan-fc",
       "away_rank": 2367,
       "away_elo": 765.0,
-      "p_home": 0.4242,
-      "p_draw": 0.2827,
-      "p_away": 0.2931,
-      "expected_score": 0.5655
+      "p_home": 0.3568,
+      "p_draw": 0.2976,
+      "p_away": 0.3455,
+      "expected_score": 0.5057
     },
     {
       "fixture_id": "1572449",
@@ -74256,6 +74257,52 @@
       "p_draw": 0.247,
       "p_away": 0.5415,
       "expected_score": 0.335
+    },
+    {
+      "fixture_id": "1551112",
+      "date": "2026-12-03T16:30:00+00:00",
+      "competition": "First League",
+      "competition_type": "league",
+      "country": "Bulgaria",
+      "round": "Regular Season - 10",
+      "status": "NS",
+      "home_team_id": "646",
+      "home_team": "Levski Sofia",
+      "home_slug": "levski-sofia",
+      "home_rank": 187,
+      "home_elo": 1242.2,
+      "away_team_id": "566",
+      "away_team": "Ludogorets",
+      "away_slug": "ludogorets",
+      "away_rank": 275,
+      "away_elo": 1184.9,
+      "p_home": 0.4854,
+      "p_draw": 0.2655,
+      "p_away": 0.2491,
+      "expected_score": 0.6182
+    },
+    {
+      "fixture_id": "1560225",
+      "date": "2026-12-03T16:45:00+00:00",
+      "competition": "NB I",
+      "competition_type": "league",
+      "country": "Hungary",
+      "round": "Regular Season - 5",
+      "status": "NS",
+      "home_team_id": "651",
+      "home_team": "Ferencvarosi TC",
+      "home_slug": "ferencvarosi-tc",
+      "home_rank": 48,
+      "home_elo": 1451.8,
+      "away_team_id": "576",
+      "away_team": "Budapest Honved",
+      "away_slug": "budapest-honved",
+      "away_rank": 883,
+      "away_elo": 991.3,
+      "p_home": 0.8567,
+      "p_draw": 0.1002,
+      "p_away": 0.0432,
+      "expected_score": 0.9068
     }
   ],
   "estimated": [

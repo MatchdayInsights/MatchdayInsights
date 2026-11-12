@@ -113,3 +113,35 @@
   .nt-rec{grid-template-columns:repeat(3,1fr)!important}
   .nt-hons{grid-template-columns:1fr}
 }
+/* Competition pages: tables, the knockout rounds, matches (generate_competition_pages.py, Greg 2026-11). */
+.cp h1 em{font-style:normal;color:var(--muted);font-weight:600;margin-left:8px}
+.cp-ts{display:grid;grid-template-columns:1fr;gap:14px}
+.cp-ts.cp-many{grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}
+.cp-t h3{font-size:13px;letter-spacing:.06em;color:var(--muted);margin:4px 0 6px;text-transform:uppercase}
+.cp .pl-t img.cr,.cp-br img.cr{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+.cp .pl-t .cp-fl,.cp-ms .cp-fl{width:20px;height:15px;border-radius:2px;margin-right:7px;vertical-align:-2px;background-size:cover}
+.cp .pl-t td.l a{text-decoration:none;font-weight:600;color:var(--text)}
+.cp-our{font-style:normal;color:var(--muted);font-size:11px;margin-left:6px;font-weight:500}
+.cp-br{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 10px}
+.cp-rd{min-width:190px;flex:none;display:flex;flex-direction:column;justify-content:space-around;gap:8px}
+.cp-rd h4{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center;margin:0 0 4px}
+.cp-tie{background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:6px 9px;font-size:13px}
+.cp-tie>div{display:flex;align-items:center;gap:2px;padding:3px 0;color:var(--text2)}
+.cp-tie>div a{color:inherit;text-decoration:none;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cp-tie>div b{font-family:'JetBrains Mono',monospace;font-size:12px;margin-left:8px}
+.cp-tie>div.w{color:var(--text);font-weight:700}
+.cp-ms{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.cp-ms .nt-fx-t span{display:flex;align-items:center}
+.cp-ms .nt-fx-t a{color:var(--text);text-decoration:none;font-weight:600}
+.cp-ms .nt-fx-t i{font-style:normal;color:var(--muted);font-size:11px;margin-left:6px}
+.cp-pv{color:var(--green);text-decoration:none;font-weight:600}
+.cp-res td{padding:7px 6px}
+.cp-res td.cp-h{text-align:right}
+.cp-res td.cp-sc{text-align:center;white-space:nowrap;font-family:'JetBrains Mono',monospace}
+.cp-res td.cp-sc i{display:block;font-style:normal;font-size:10px;color:var(--muted)}
+.cp-res a{color:var(--text);text-decoration:none;font-weight:600}
+.cp-res img.cr,.cp-res .cp-fl{margin:0 7px}
+@media (max-width:640px){
+  .cp-ts.cp-many{grid-template-columns:1fr}
+  .cp-res td.dt{display:none}
+}
