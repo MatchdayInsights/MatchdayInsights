@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T21:14:09+00:00",
+  "generated": "2026-11-12T21:47:44+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -318,12 +318,12 @@
     },
     {
       "fixture_id": "1600658",
-      "date": "2026-11-12T21:00:00+00:00",
+      "date": "2026-11-12T21:30:00+00:00",
       "competition": "Primera Division",
       "competition_type": "league",
       "country": "El-Salvador",
       "round": "Apertura - 20",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "4310",
       "home_team": "Águila",
       "home_slug": "aguila",
@@ -346,7 +346,7 @@
       "competition_type": "league",
       "country": "El-Salvador",
       "round": "Apertura - 20",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "28018",
       "home_team": "Atletico Balboa",
       "home_slug": "atletico-balboa",
