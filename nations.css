@@ -149,3 +149,13 @@
 .cp-odds{margin-top:10px}
 .cp-oh{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:2px 0 4px}
 .cp-odds td.cp-hi{color:var(--green);font-weight:700}
+.cp-odds td.cp-lo{color:var(--red);font-weight:700}
+/* Group stage / Knockout tabs on competition pages (Greg, 2026-11) */
+.cp-tabs{display:flex;gap:6px;margin:16px 0 4px;border-bottom:1px solid var(--border2)}
+.cp-tb{appearance:none;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;
+  padding:9px 14px;font:700 14px Inter,'Segoe UI',sans-serif;color:var(--muted);cursor:pointer}
+.cp-tb.on{color:var(--text);border-bottom-color:var(--green)}
+.cp-tb:hover{color:var(--text)}
+.cp-pane[hidden]{display:none}
+.cp-none{color:var(--muted);font-size:14px;padding:18px 2px}
+.cp-pen{display:block;font-style:normal;font-size:11px;color:var(--muted);text-align:right;margin-top:2px}
