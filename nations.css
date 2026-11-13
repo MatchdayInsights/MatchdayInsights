@@ -145,3 +145,7 @@
   .cp-ts.cp-many{grid-template-columns:1fr}
   .cp-res td.dt{display:none}
 }
+/* "Who will win it?" under each competition table (comp_odds.py, Greg 2026-11). */
+.cp-odds{margin-top:10px}
+.cp-oh{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:2px 0 4px}
+.cp-odds td.cp-hi{color:var(--green);font-weight:700}

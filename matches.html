@@ -187,6 +187,8 @@ a.nm:hover{color:var(--green)}
 .lus ol{list-style:none;margin:0;padding:0}
 .lus li{padding:2px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .lus li .no{display:inline-block;min-width:20px;color:var(--muted)}
+.lus a.pl-a{color:inherit;text-decoration:none;border-bottom:1px solid var(--border2)}
+.lus a.pl-a:hover{color:var(--green);border-color:var(--green)}
 .lus .bn{margin-top:8px;color:var(--muted);font-size:9.5px}
 .m[data-pg]{cursor:pointer}
 .m[data-pg]:hover{background:rgba(61,186,94,.04)}
@@ -564,10 +566,14 @@ function statRow(s){
   const tot=n(h)+n(a), hp=tot?n(h)/tot*100:50;
   return `<div class="strow"><span class="v">${esc(h)}</span><div><div class="lab">${esc(lab)}</div><div class="sb"><span style="width:${hp}%;background:${HOME}"></span><span style="width:${100-hp}%;background:${AWAY}"></span></div></div><span class="v r">${esc(a)}</span></div>`;
 }
-function lineup(t,name){
+// Names with a player page are links (d.pl, from match_details.py; plain()
+// matches player_links.plain) (Greg, 2026-11).
+const plain=n=>String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();
+function lineup(t,name,pl){
   if(!t)return `<div><div class="t">${esc(name)}</div><div class="f">No lineup</div></div>`;
-  const li=r=>`<li><span class="no">${r[0]??''}</span>${esc(r[1])}</li>`;
-  return `<div><div class="t">${esc(name)}</div><div class="f">${esc(t.f||'')}${t.c?' &middot; '+esc(t.c):''}</div><ol>${t.xi.map(li).join('')}</ol>${t.bn&&t.bn.length?`<div class="bn">Bench: ${t.bn.map(r=>esc(r[1])).join(', ')}</div>`:''}</div>`;
+  const nm=n=>{const s=pl&&pl[plain(n)];return s?`<a class="pl-a" href="players/${esc(s)}.html">${esc(n)}</a>`:esc(n);};
+  const li=r=>`<li><span class="no">${r[0]??''}</span>${nm(r[1])}</li>`;
+  return `<div><div class="t">${esc(name)}</div><div class="f">${esc(t.f||'')}${t.c?' &middot; '+esc(t.c):''}</div><ol>${t.xi.map(li).join('')}</ol>${t.bn&&t.bn.length?`<div class="bn">Bench: ${t.bn.map(r=>nm(r[1])).join(', ')}</div>`:''}</div>`;
 }
 function detailHtml(d,m){
   if(!d)return '<div class="none">No details for this match.</div>';
@@ -576,7 +582,7 @@ function detailHtml(d,m){
   if(meta.length)h+=`<div class="meta">${meta.map(esc).join('<br>')}</div>`;
   if(d.ev&&d.ev.length)h+=`<h4>Match events</h4>${d.ev.map(evLine).join('')}`;
   if(d.st&&d.st.length)h+=`<h4>Stats</h4>${d.st.map(statRow).join('')}`;
-  if(d.lu)h+=`<h4>Lineups</h4><div class="lus">${lineup(d.lu.h,m.h)}${lineup(d.lu.a,m.a)}</div>`;
+  if(d.lu)h+=`<h4>Lineups</h4><div class="lus">${lineup(d.lu.h,m.h,(d.pl||{}).h)}${lineup(d.lu.a,m.a,(d.pl||{}).a)}</div>`;
   return h||'<div class="none">No details for this match.</div>';
 }
 async function toggleDetails(row){
