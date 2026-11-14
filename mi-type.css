@@ -218,3 +218,53 @@ html[data-theme="light"] .elo-bar { background: #ebebeb !important; }
 html[data-theme="light"] .comp-h { background: #fcfcfc !important; }
 html[data-theme="light"] tbody tr.top3 { background: #f4faf6 !important; }
 html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
+
+/* ---- Matches on phones: two short lines a match, like the rankings
+   (Greg, 2026-11: "I don't like the draw % below the chart ... minimize
+   the height of everything"). Line 1: name, crest, time or score, crest,
+   name. Line 2: each side's rank (and rating change) at the ends, our
+   chances as one bar in the middle with the three numbers written inside
+   it - no separate "draw 30%" line. Needs the matches page built with the
+   <i> labels in the bar (generate_matches_page, 2026-11); an older page
+   still shows its bar, just without the numbers. ---- */
+@media (max-width: 640px) {
+  html body :is(.comp, .mi-top) .m {
+    grid-template-columns: minmax(0,1fr) 22px 78px 22px minmax(0,1fr) !important;
+    grid-template-areas: "hn hc mid ac an" "hx ob ob ob ax" "up up up up up";
+    column-gap: 6px !important; row-gap: 4px; padding: 8px 12px !important; align-items: center;
+  }
+  html body :is(.comp, .mi-top) .m .side { display: contents !important; }
+  html body :is(.comp, .mi-top) .m .side .nm {
+    font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0 !important; line-height: 1.2 !important;
+    display: -webkit-box !important; -webkit-box-orient: vertical; -webkit-line-clamp: 2 !important;
+    white-space: normal !important; overflow: hidden; min-width: 0; max-width: 100%;
+  }
+  html body :is(.comp, .mi-top) .m .side .nm.lost { font-weight: 500 !important; }
+  html body :is(.comp, .mi-top) .m .side.h .nm { grid-area: hn; justify-self: end; text-align: right; }
+  html body :is(.comp, .mi-top) .m .side:not(.h) .nm { grid-area: an; justify-self: start; text-align: left; }
+  html body :is(.comp, .mi-top) .m .side .crest { width: 20px; height: 20px; justify-self: center; }
+  html body :is(.comp, .mi-top) .m .side .crest.fi { width: 20px; height: 15px; border-radius: 2px; background-size: cover; }
+  html body :is(.comp, .mi-top) .m .side.h .crest { grid-area: hc; }
+  html body :is(.comp, .mi-top) .m .side:not(.h) .crest { grid-area: ac; }
+  html body :is(.comp, .mi-top) .m .mid { grid-area: mid; }
+  html body :is(.comp, .mi-top) .m .side .sx { display: flex !important; gap: 5px; align-items: center; min-width: 0; }
+  html body :is(.comp, .mi-top) .m .side.h .sx { grid-area: hx; justify-self: end; }
+  html body :is(.comp, .mi-top) .m .side:not(.h) .sx { grid-area: ax; justify-self: start; }
+  html body :is(.comp, .mi-top) .m .side .sx .rk { display: inline !important; font-size: 10px !important; }
+  html body :is(.comp, .mi-top) .m .side .sx .dl { font-size: 10px !important; }
+  html body :is(.comp, .mi-top) .m .ko { font-size: 12px !important; font-weight: 500; }
+  html body :is(.comp, .mi-top) .m .sc { font-size: 19px !important; }
+  html body :is(.comp, .mi-top) .m .mid .x { font-size: 9px !important; margin-top: 0; }
+  html body :is(.comp, .mi-top) .m .odds { grid-area: ob !important; display: block !important; width: 100%; margin: 0 !important; }
+  html body :is(.comp, .mi-top) .m .odds .pc, html body :is(.comp, .mi-top) .m .odds .dr { display: none !important; }
+  html body :is(.comp, .mi-top) .m .odds .bar { height: 15px; border-radius: 4px; gap: 2px; background: none; }
+  html body :is(.comp, .mi-top) .m .odds .bar span { display: flex; align-items: center; justify-content: center; min-width: 24px; border-radius: 3px; }
+  html body :is(.comp, .mi-top) .m .odds .bar span i { display: inline; font-style: normal; font-size: 9.5px; font-weight: 700; color: #fff; letter-spacing: 0; }
+  html body :is(.comp, .mi-top) .m .up { grid-area: up !important; margin: 0 !important; }
+  /* Results (no chances bar): the score and crests sit across both lines,
+     rank and rating change straight under each name. */
+  html body :is(.comp, .mi-top) .m:not(:has(.odds)) { grid-template-areas: "hn hc mid ac an" "hx hc mid ac ax" "up up up up up"; row-gap: 1px; }
+  html body :is(.comp, .mi-top) .m:not(:has(.odds)) .side .nm { align-self: end; }
+  html body :is(.comp, .mi-top) .m:not(:has(.odds)) .side .sx { align-self: start; }
+  html body .comp .comp-n { font-size: 13.5px !important; }
+}

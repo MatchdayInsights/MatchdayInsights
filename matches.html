@@ -152,6 +152,8 @@ a.nm:hover{color:var(--green)}
 .odds .pc:first-child{text-align:right}
 .odds .dr{grid-column:2;text-align:center;font-family:'JetBrains Mono',monospace;font-size:8.5px;color:var(--muted);margin-top:2px}
 .bar{display:flex;height:5px;border-radius:3px;overflow:hidden}
+/* The chances written inside the bar - shown on phones only, by mi-type.css (Greg, 2026-11). */
+.bar span i{display:none}
 .bar span{display:block;height:100%}
 .pc{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .pc b{color:var(--text2);font-weight:600}
@@ -434,7 +436,7 @@ function row(m){
     const started=ko<new Date();
     mid=`<span class="ko">${m.st==='tbc'?'TBC':esc(time)}</span>${started?'<span class="x">RESULT DUE</span>':''}`;
     if(m.o){
-      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%${m.oe?' (the unranked club is rated by its division)':''}"><span class="pc"><b>${m.o[0]}%</b></span><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"></span><span style="width:${m.o[1]}%;background:${DRAW}"></span><span style="width:${m.o[2]}%;background:${AWAY}"></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">${m.oe?'est. &middot; ':''}draw ${m.o[1]}%</span></div>`;
+      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%${m.oe?' (the unranked club is rated by its division)':''}"><span class="pc"><b>${m.o[0]}%</b></span><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"><i>${m.o[0]}%</i></span><span style="width:${m.o[1]}%;background:${DRAW}"><i>${m.o[1]}%</i></span><span style="width:${m.o[2]}%;background:${AWAY}"><i>${m.o[2]}%</i></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">${m.oe?'est. &middot; ':''}draw ${m.o[1]}%</span></div>`;
     }
   }
   if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
