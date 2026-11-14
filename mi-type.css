@@ -164,3 +164,57 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
    the text colour, a faint underline, green on hover. */
 .mf .lus a{color:inherit;text-decoration:none;border-bottom:1px solid var(--border2)}
 .mf .lus a:hover{color:var(--green);border-color:var(--green)}
+
+/* ---- Rankings on phones: one row per club (Greg, 2026-11: "smaller font
+   ... like fotmob ... the info on one row instead of two"). Rank + arrow,
+   flag, name + country code, rating + change, all on one line - about 14
+   clubs on a screen instead of 8. Only the world ranking's rows (a
+   .td-rank without .local); league pages' local + world rank stay as they
+   are. The "#1 since" / record notes are left out here - the green or red
+   box round the rank still marks a record. ---- */
+@media (max-width: 640px) {
+  html body .table-wrap tbody tr:has(> td.td-rank:not(.local)) { height: 46px; }
+  html body .table-wrap tbody tr:has(> td.td-rank:not(.local)) > td { padding-top: 0 !important; padding-bottom: 0 !important; vertical-align: middle; }
+  html body .table-wrap td.td-rank:not(.local) { width: 44px !important; text-align: left !important; padding-left: 12px !important; white-space: nowrap; font-size: 12.5px !important; font-weight: 600 !important; }
+  html body .table-wrap td.td-rank:not(.local) .record-box-green,
+  html body .table-wrap td.td-rank:not(.local) .record-box-red { padding: 0 4px; }
+  html body .table-wrap td.td-rank:not(.local) .m-mv { display: inline !important; margin: 0 0 0 4px !important; }
+  html body .table-wrap td.td-rank:not(.local) .m-mv .move-badge { font-size: 9.5px; vertical-align: 1px; }
+  html body .table-wrap td.td-rank:not(.local) .m-mv .move-badge.nc { display: none; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .td-club { padding-left: 2px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-cell { gap: 9px; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-cell .country-badge { min-width: 18px; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-cell > div { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-name-text { font-size: 13px !important; font-weight: 600 !important; min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: none; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .record-row-note { display: none !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .td-elo { width: 118px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .m-chg { display: block !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local)) .m-chg .change-pill { font-size: 10.5px !important; min-width: 40px; text-align: center; padding: 2px 4px; }
+}
+
+/* ---- Light mode a little whiter (Greg, 2026-11): the page background was
+   a warm off-white (#f5f6f2) with greenish-grey lines; now a plain near-white
+   with neutral grey lines, and the top-10 rows no longer tinted green (the
+   top 3 keep a faint green). Cards and rows were already white. Both ways of
+   getting light mode: the phone's setting and the button. ---- */
+@media (prefers-color-scheme: light) {
+  html:not([data-theme="dark"]) { --bg: #fbfbfb; --border: #ebebeb; --border2: #e0e0e0; }
+  html:not([data-theme="dark"]) .hero { background: linear-gradient(180deg, #ffffff, #fbfbfb) !important; }
+  html:not([data-theme="dark"]) tbody tr { border-bottom-color: #eeeeee !important; }
+  html:not([data-theme="dark"]) thead tr { background: #fcfcfc; }
+  html:not([data-theme="dark"]) .elo-bar { background: #ebebeb !important; }
+  html:not([data-theme="dark"]) .comp-h { background: #fcfcfc !important; }
+  html:not([data-theme="dark"]) tbody tr.top3 { background: #f4faf6 !important; }
+  html:not([data-theme="dark"]) tbody tr.top10 { background: #ffffff !important; }
+}
+html[data-theme="light"] { --bg: #fbfbfb; --border: #ebebeb; --border2: #e0e0e0; }
+html[data-theme="light"] .hero { background: linear-gradient(180deg, #ffffff, #fbfbfb) !important; }
+html[data-theme="light"] tbody tr { border-bottom-color: #eeeeee !important; }
+html[data-theme="light"] thead tr { background: #fcfcfc; }
+html[data-theme="light"] .elo-bar { background: #ebebeb !important; }
+html[data-theme="light"] .comp-h { background: #fcfcfc !important; }
+html[data-theme="light"] tbody tr.top3 { background: #f4faf6 !important; }
+html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
