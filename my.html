@@ -152,8 +152,8 @@ a.nm:hover{color:var(--green)}
 .odds .pc:first-child{text-align:right}
 .odds .dr{grid-column:2;text-align:center;font-family:'JetBrains Mono',monospace;font-size:8.5px;color:var(--muted);margin-top:2px}
 .bar{display:flex;height:5px;border-radius:3px;overflow:hidden}
-/* The chances written inside the bar - shown on phones only, by mi-type.css (Greg, 2026-11). */
-.bar span i{display:none}
+/* The three chances on one line over the bar - phones only, by mi-type.css (Greg, 2026-11). */
+.odds .op{display:none}
 .bar span{display:block;height:100%}
 .pc{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .pc b{color:var(--text2);font-weight:600}
@@ -196,6 +196,16 @@ a.nm:hover{color:var(--green)}
 .m[data-pg]:hover{background:rgba(61,186,94,.04)}
 .mp-link{display:block;text-align:center;margin:12px 0 2px;font-family:'JetBrains Mono',monospace;font-size:11px;
   font-weight:600;color:var(--green)}
+.m[data-u]{cursor:pointer}
+.pv-r{display:grid;grid-template-columns:72px 1fr 1fr 1fr;align-items:center;text-align:center;padding:3px 0}
+.pv-r .pv-l{text-align:left;color:var(--muted);font-size:10.5px}
+.pv-r b{font-weight:600;color:var(--text2)} .pv-us b{color:var(--text);font-weight:700}
+.pv-h span{font-size:10px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 2px}
+.pv-n{text-align:center;color:var(--muted);font-size:10.5px;margin:4px 0}
+.pv-f{display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:center}
+.pv-f span{display:block;font-size:10.5px;color:var(--muted);margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pv-f i{display:inline-block;width:18px;height:18px;line-height:18px;margin:0 1px;border-radius:4px;font-style:normal;font-size:10px;font-weight:700;color:#fff}
+.pv-f .pv-W{background:#3dba5e}.pv-f .pv-D{background:#7a8098}.pv-f .pv-L{background:#e5484d}
 .md .none{text-align:center;color:var(--muted);padding:8px 0}
 /* Continent groups below the top competitions, closed until tapped. */
 .cont{margin:14px 0 10px}

@@ -214,3 +214,10 @@
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", show); else show();
   }
 })();
+
+// Club pages on phones show the written summary cut to three lines
+// (mi-type.css); a tap opens the rest (Greg, 2026-11).
+document.addEventListener("click", function (e) {
+  var p = e.target.closest && e.target.closest("p.club-summary");
+  if (p && !e.target.closest("a")) p.classList.toggle("open");
+});

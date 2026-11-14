@@ -223,10 +223,11 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
    (Greg, 2026-11: "I don't like the draw % below the chart ... minimize
    the height of everything"). Line 1: name, crest, time or score, crest,
    name. Line 2: each side's rank (and rating change) at the ends, our
-   chances as one bar in the middle with the three numbers written inside
-   it - no separate "draw 30%" line. Needs the matches page built with the
-   <i> labels in the bar (generate_matches_page, 2026-11); an older page
-   still shows its bar, just without the numbers. ---- */
+   chances in the middle - the three numbers on one line (home left, draw
+   middle, away right) over a thin bar; no separate "draw 30%" line. A fat
+   bar with the numbers inside was tried and dropped (Greg, 2026-11: "I
+   don't like the look of the fat bar"). The .op line comes from
+   generate_matches_page; an older page shows just the thin bar. ---- */
 @media (max-width: 640px) {
   html body :is(.comp, .mi-top) .m {
     grid-template-columns: minmax(0,1fr) 22px 78px 22px minmax(0,1fr) !important;
@@ -257,9 +258,11 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
   html body :is(.comp, .mi-top) .m .mid .x { font-size: 9px !important; margin-top: 0; }
   html body :is(.comp, .mi-top) .m .odds { grid-area: ob !important; display: block !important; width: 100%; margin: 0 !important; }
   html body :is(.comp, .mi-top) .m .odds .pc, html body :is(.comp, .mi-top) .m .odds .dr { display: none !important; }
-  html body :is(.comp, .mi-top) .m .odds .bar { height: 15px; border-radius: 4px; gap: 2px; background: none; }
-  html body :is(.comp, .mi-top) .m .odds .bar span { display: flex; align-items: center; justify-content: center; min-width: 24px; border-radius: 3px; }
-  html body :is(.comp, .mi-top) .m .odds .bar span i { display: inline; font-style: normal; font-size: 9.5px; font-weight: 700; color: #fff; letter-spacing: 0; }
+  html body :is(.comp, .mi-top) .m .odds .op { display: flex !important; justify-content: space-between; margin-bottom: 3px; line-height: 1; }
+  html body :is(.comp, .mi-top) .m .odds .op b { font-size: 10px; font-weight: 700; color: var(--text2); }
+  html body :is(.comp, .mi-top) .m .odds .op b:first-child { color: #2e9e4f; }
+  html body :is(.comp, .mi-top) .m .odds .op b:last-child { color: #e5484d; }
+  html body :is(.comp, .mi-top) .m .odds .bar { height: 4px; border-radius: 2px; }
   html body :is(.comp, .mi-top) .m .up { grid-area: up !important; margin: 0 !important; }
   /* Results (no chances bar): the score and crests sit across both lines,
      rank and rating change straight under each name. */
@@ -267,4 +270,35 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
   html body :is(.comp, .mi-top) .m:not(:has(.odds)) .side .nm { align-self: end; }
   html body :is(.comp, .mi-top) .m:not(:has(.odds)) .side .sx { align-self: start; }
   html body .comp .comp-n { font-size: 13.5px !important; }
+}
+@media (max-width: 640px) {
+  html body :is(.comp, .mi-top) .m .md { grid-column: 1 / -1 !important; grid-row: auto; }
+}
+
+/* ---- Club pages on phones: the important things on the first screen
+   (2026-11, Greg's pick from a list of ideas). A smaller header, the
+   written summary cut to three lines (it's all still in the page for
+   Google), then the rating chart and the next matches straight after the
+   tabs; the stat cards and the rest follow. Order only - nothing removed. ---- */
+@media (max-width: 640px) {
+  html body .club-page .back-to-rankings { display: none; }
+  html body .club-header { padding: 12px 14px 14px !important; }
+  html body .club-header .club-crest { width: 48px !important; height: 48px !important; }
+  html body .club-header .club-name { font-size: 28px !important; line-height: 1.05 !important; }
+  html body .club-header .club-meta, html body .club-header .club-meta a { font-size: 12.5px !important; }
+  html body .club-header .club-rank, html body .club-header .club-rank span { font-size: 13px !important; }
+  html body .club-header .star { font-size: 12px !important; padding: 5px 10px !important; min-height: 0 !important; }
+  html body p.club-summary { font-size: 13.5px !important; line-height: 1.5 !important; margin: 10px 0 !important;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+  html body p.club-summary { cursor: pointer; }
+  html body p.club-summary.open { -webkit-line-clamp: unset; }
+  html body .club-tab { padding-top: 8px !important; padding-bottom: 8px !important; }
+  html body #tab-overview:not([hidden]) { display: flex; flex-direction: column; }
+  html body #tab-overview > * { order: 10; }
+  html body #tab-overview > .charts-grid { display: contents; }
+  html body #tab-overview > .charts-grid > .chart-panel:first-child { order: 1; margin-top: 4px; }
+  html body #tab-overview > #upcoming-panel { order: 2; }
+  html body #tab-overview > #form { order: 3; }
+  html body #tab-overview > .pg-jump { order: 4; }
+  html body #tab-overview > .charts-grid > .chart-panel:not(:first-child) { order: 11; }
 }

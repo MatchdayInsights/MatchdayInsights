@@ -152,8 +152,8 @@ a.nm:hover{color:var(--green)}
 .odds .pc:first-child{text-align:right}
 .odds .dr{grid-column:2;text-align:center;font-family:'JetBrains Mono',monospace;font-size:8.5px;color:var(--muted);margin-top:2px}
 .bar{display:flex;height:5px;border-radius:3px;overflow:hidden}
-/* The chances written inside the bar - shown on phones only, by mi-type.css (Greg, 2026-11). */
-.bar span i{display:none}
+/* The three chances on one line over the bar - phones only, by mi-type.css (Greg, 2026-11). */
+.odds .op{display:none}
 .bar span{display:block;height:100%}
 .pc{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .pc b{color:var(--text2);font-weight:600}
@@ -196,6 +196,16 @@ a.nm:hover{color:var(--green)}
 .m[data-pg]:hover{background:rgba(61,186,94,.04)}
 .mp-link{display:block;text-align:center;margin:12px 0 2px;font-family:'JetBrains Mono',monospace;font-size:11px;
   font-weight:600;color:var(--green)}
+.m[data-u]{cursor:pointer}
+.pv-r{display:grid;grid-template-columns:72px 1fr 1fr 1fr;align-items:center;text-align:center;padding:3px 0}
+.pv-r .pv-l{text-align:left;color:var(--muted);font-size:10.5px}
+.pv-r b{font-weight:600;color:var(--text2)} .pv-us b{color:var(--text);font-weight:700}
+.pv-h span{font-size:10px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 2px}
+.pv-n{text-align:center;color:var(--muted);font-size:10.5px;margin:4px 0}
+.pv-f{display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:center}
+.pv-f span{display:block;font-size:10.5px;color:var(--muted);margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pv-f i{display:inline-block;width:18px;height:18px;line-height:18px;margin:0 1px;border-radius:4px;font-style:normal;font-size:10px;font-weight:700;color:#fff}
+.pv-f .pv-W{background:#3dba5e}.pv-f .pv-D{background:#7a8098}.pv-f .pv-L{background:#e5484d}
 .md .none{text-align:center;color:var(--muted);padding:8px 0}
 /* Continent groups below the top competitions, closed until tapped. */
 .cont{margin:14px 0 10px}
@@ -436,15 +446,17 @@ function row(m){
     const started=ko<new Date();
     mid=`<span class="ko">${m.st==='tbc'?'TBC':esc(time)}</span>${started?'<span class="x">RESULT DUE</span>':''}`;
     if(m.o){
-      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%${m.oe?' (the unranked club is rated by its division)':''}"><span class="pc"><b>${m.o[0]}%</b></span><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"><i>${m.o[0]}%</i></span><span style="width:${m.o[1]}%;background:${DRAW}"><i>${m.o[1]}%</i></span><span style="width:${m.o[2]}%;background:${AWAY}"><i>${m.o[2]}%</i></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">${m.oe?'est. &middot; ':''}draw ${m.o[1]}%</span></div>`;
+      extra=`<div class="odds" title="Our chances: home ${m.o[0]}%, draw ${m.o[1]}%, away ${m.o[2]}%${m.oe?' (the unranked club is rated by its division)':''}"><span class="pc"><b>${m.o[0]}%</b></span><div class="op"><b>${m.o[0]}%</b><b>${m.o[1]}%</b><b>${m.o[2]}%</b></div><div class="bar"><span style="width:${m.o[0]}%;background:${HOME}"></span><span style="width:${m.o[1]}%;background:${DRAW}"></span><span style="width:${m.o[2]}%;background:${AWAY}"></span></div><span class="pc"><b>${m.o[2]}%</b></span><span class="dr">${m.oe?'est. &middot; ':''}draw ${m.o[1]}%</span></div>`;
     }
   }
   if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
   if(m.new&&!extra)extra=`<div class="up" style="color:var(--muted)">Just finished &middot; ratings update shortly</div>`;
   const pg=(m.pg?` data-pg="${esc(m.pg)}"`:'')+(m.h.i?` data-hi="${esc(m.h.i)}"`:'')+(m.a.i?` data-ai="${esc(m.a.i)}"`:'');
   const det=m.d&&m.st==='ft'?` data-d="${esc(m.id)}" tabindex="0" role="button" aria-expanded="false"`:'';
+  // Upcoming: tap opens our odds, the bookies' and each side's form (Greg, 2026-11).
+  const pv=m.o&&!det?` data-u="1" data-o="${m.o.join(',')}"${m.b?` data-b="${m.b.join(',')}"`:''}${m.h.f?` data-fh="${esc(m.h.f)}"`:''}${m.a.f?` data-fa="${esc(m.a.f)}"`:''} tabindex="0" role="button" aria-expanded="false"`:'';
   const hr=m.h.r||9999, ar=m.a.r||9999, top=Math.min(hr,ar)<=100||Math.max(hr,ar)<=400;
-  return `<div class="m"${det}${pg}${top?' data-top="1"':''} data-st="${esc(m.st||'')}" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
+  return `<div class="m"${det}${pv}${pg}${top?' data-top="1"':''} data-st="${esc(m.st||'')}" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
 }
 
 async function show(key,quiet){
@@ -598,6 +610,24 @@ async function toggleDetails(row){
     +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full match page &rsaquo;</a>`:'');
 }
 
+function togglePreview(row){
+  const open=row.querySelector('.md');
+  if(open){open.remove();row.classList.remove('open');row.setAttribute('aria-expanded','false');return;}
+  const names=row.querySelectorAll('.nm'), h=names[0]?names[0].textContent:'Home', a=names[1]?names[1].textContent:'Away';
+  const o=(row.dataset.o||'').split(',').map(Number), b=row.dataset.b?row.dataset.b.split(',').map(Number):null;
+  const line=(lab,p,cls)=>`<div class="pv-r${cls?' '+cls:''}"><span class="pv-l">${lab}</span><b>${p[0]}%</b><b>${p[1]}%</b><b>${p[2]}%</b></div>`;
+  let note='';
+  if(b){const k=[0,1,2].reduce((x,i)=>Math.abs(o[i]-b[i])>Math.abs(o[x]-b[x])?i:x,0), gap=o[k]-b[k];
+    if(Math.abs(gap)>=8){const who=k===0?h:k===2?a:'a draw';note=`<div class="pv-n">We rate ${esc(who)} ${gap>0?'higher':'lower'} than the bookies (${o[k]}% v ${b[k]}%).</div>`;}}
+  const tiles=f=>f?[...f].map(r=>`<i class="pv-${r}">${r}</i>`).join(''):'<span class="pv-x">-</span>';
+  const box=document.createElement('div');box.className='md pv';
+  box.innerHTML=`<div class="pv-r pv-h"><span class="pv-l"></span><span>${esc(h)}</span><span>Draw</span><span>${esc(a)}</span></div>`
+    +line('Our odds',o,'pv-us')+(b?line('Bookies',b,''):'<div class="pv-n">No bookmakers\' odds yet.</div>')+note
+    +(row.dataset.fh||row.dataset.fa?`<h4>Last 5 &middot; oldest first</h4><div class="pv-f"><div><span>${esc(h)}</span>${tiles(row.dataset.fh)}</div><div><span>${esc(a)}</span>${tiles(row.dataset.fa)}</div></div>`:'')
+    +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full preview &rsaquo;</a>`:'');
+  row.appendChild(box);row.classList.add('open');row.setAttribute('aria-expanded','true');
+}
+
 let LIVEONLY=false;   // the Live button (Greg, 2026-10)
 let TOPONLY=false;    // the Top games button (Greg, 2026-11)
 function filter(){
@@ -637,6 +667,8 @@ $('list').addEventListener('click',e=>{
   // The FT button under a result opens the details in place; anywhere else
   // on a match opens its match page, if it has one (Greg, 2026-10).
   if(mr&&e.target.closest('.mid .x')&&!e.target.closest('.md')){toggleDetails(mr);return;}
+  const ur=e.target.closest('.m[data-u]');
+  if(ur&&!e.target.closest('a')&&!e.target.closest('.md')){togglePreview(ur);return;}
   const pr=e.target.closest('.m[data-pg]');
   if(pr&&!e.target.closest('a')&&!e.target.closest('.md')){location.href='predictions/'+pr.dataset.pg+'.html';return;}
   if(mr&&!e.target.closest('a')&&!e.target.closest('.md')){toggleDetails(mr);return;}
