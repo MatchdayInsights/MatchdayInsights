@@ -169,30 +169,31 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
    ... like fotmob ... the info on one row instead of two"). Rank + arrow,
    flag, name + country code, rating + change, all on one line - about 14
    clubs on a screen instead of 8. Only the world ranking's rows (a
-   .td-rank without .local); league pages' local + world rank stay as they
-   are. The "#1 since" / record notes are left out here - the green or red
+   .td-rank without .local, with an up/down arrow); league pages' local +
+   world rank and the Leagues page stay as they are (Greg, 2026-11:
+   "Leagues page got messed up"). The "#1 since" / record notes are left out here - the green or red
    box round the rank still marks a record. ---- */
 @media (max-width: 640px) {
-  html body .table-wrap tbody tr:has(> td.td-rank:not(.local)) { height: 46px; }
-  html body .table-wrap tbody tr:has(> td.td-rank:not(.local)) > td { padding-top: 0 !important; padding-bottom: 0 !important; vertical-align: middle; }
-  html body .table-wrap td.td-rank:not(.local) { width: 44px !important; text-align: left !important; padding-left: 12px !important; white-space: nowrap; font-size: 12.5px !important; font-weight: 600 !important; }
-  html body .table-wrap td.td-rank:not(.local) .record-box-green,
-  html body .table-wrap td.td-rank:not(.local) .record-box-red { padding: 0 4px; }
-  html body .table-wrap td.td-rank:not(.local) .m-mv { display: inline !important; margin: 0 0 0 4px !important; }
-  html body .table-wrap td.td-rank:not(.local) .m-mv .move-badge { font-size: 9.5px; vertical-align: 1px; }
-  html body .table-wrap td.td-rank:not(.local) .m-mv .move-badge.nc { display: none; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .td-club { padding-left: 2px !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-cell { gap: 9px; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-cell .country-badge { min-width: 18px; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-cell > div { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-name-text { font-size: 13px !important; font-weight: 600 !important; min-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: none; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .record-row-note { display: none !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .td-elo { width: 118px !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .m-chg { display: block !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local)) .m-chg .change-pill { font-size: 10.5px !important; min-width: 40px; text-align: center; padding: 2px 4px; }
+  html body .table-wrap tbody tr:has(> td.td-rank:not(.local) > .m-mv) { height: 46px; }
+  html body .table-wrap tbody tr:has(> td.td-rank:not(.local) > .m-mv) > td { padding-top: 0 !important; padding-bottom: 0 !important; vertical-align: middle; }
+  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) { width: 44px !important; text-align: left !important; padding-left: 12px !important; white-space: nowrap; font-size: 12.5px !important; font-weight: 600 !important; }
+  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .record-box-green,
+  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .record-box-red { padding: 0 4px; }
+  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .m-mv { display: inline !important; margin: 0 0 0 4px !important; }
+  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .m-mv .move-badge { font-size: 9.5px; vertical-align: 1px; }
+  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .m-mv .move-badge.nc { display: none; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-club { padding-left: 2px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell { gap: 9px; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell .country-badge { min-width: 18px; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell > div { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-name-text { font-size: 13px !important; font-weight: 600 !important; min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: none; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .record-row-note { display: none !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-elo { width: 118px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg { display: block !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg .change-pill { font-size: 10.5px !important; min-width: 40px; text-align: center; padding: 2px 4px; }
 }
 
 /* ---- Light mode a little whiter (Greg, 2026-11): the page background was
