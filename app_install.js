@@ -129,6 +129,10 @@
   if (document.querySelector("table.mt")) {
     var tl = document.createElement("script"); tl.src = "/mt-live.js"; document.head.appendChild(tl);
   }
+  // Match pages: player of the match, scorers' faces, the line-ups on a pitch (Greg, 2026-11).
+  if (document.getElementById("tab-m")) {
+    var mp = document.createElement("script"); mp.src = "/match-plus.js"; document.head.appendChild(mp);
+  }
 
   if (standalone) { backButton(); return; }
 
