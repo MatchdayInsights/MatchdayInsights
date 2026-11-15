@@ -225,3 +225,64 @@ document.addEventListener("click", function (e) {
   var p = e.target.closest && e.target.closest("p.club-summary");
   if (p && !e.target.closest("a")) p.classList.toggle("open");
 });
+
+// Share button on club and match pages (Greg, 2026-11): one tap opens the
+// phone's own share menu (WhatsApp, Messages...) with a line and the link;
+// computers without one copy the link instead.
+(function () {
+  function add() {
+    if (document.getElementById("mi-share")) return;
+    var text = "", spot = null, after = true;
+    var club = document.querySelector("main.club-page .club-name");
+    var sbh = document.querySelector("h1.sb-h1");
+    var nt = /\/predictions\//.test(location.pathname) && document.querySelector("main.pl > h1 + .pl-f");
+    if (club) {
+      var rk = document.querySelector('[data-live="rank"]');
+      text = club.textContent.trim() + (rk ? " - " + rk.textContent.trim() + " in the world" : "") +
+        " in the Matchday Insights club ranking";
+      var star = document.querySelector(".club-header [data-star]");
+      spot = star ? star.parentNode : club; after = !star;
+    } else if (sbh) {
+      var sc = document.querySelector(".sb-score"), st = document.querySelector(".sb-st");
+      var t = document.querySelectorAll(".sb-t span");
+      var done = sc && st && /full|ft|aet|pen/i.test(st.textContent) && t.length === 2;
+      text = done ? t[0].textContent + " " + sc.textContent.replace(/\s+/g, "") + " " + t[1].textContent +
+        " - stats, line-ups and our odds" : sbh.textContent.replace(/:.*$/, "").trim() + " - our prediction and odds";
+      spot = sbh;
+    } else if (nt) {
+      text = nt.previousElementSibling.textContent.trim() + " - our prediction and odds";
+      spot = nt;
+    }
+    if (!spot) return;
+    var css = document.createElement("style");
+    css.textContent = "#mi-share{display:inline-flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;" +
+      "-webkit-tap-highlight-color:transparent;vertical-align:middle}#mi-share svg{width:15px;height:15px}#mi-share:active{opacity:.6}" +
+      "#mi-share:not(.star){font:600 13px/1 Inter,system-ui,sans-serif;padding:7px 13px;border-radius:999px;" +
+      "border:1px solid var(--green,#3dba5e);background:none;color:var(--green,#3dba5e)}.mi-share-row{text-align:center;margin:8px 0 4px}" +
+      // Next to "Add to my clubs" and "Compare" it takes their look, icon
+      // only, so the three fit on one line on a phone.
+      ".club-header #mi-share.star span{display:none}";
+    document.head.appendChild(css);
+    var b = document.createElement("button");
+    b.id = "mi-share"; b.type = "button";
+    b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" ' +
+      'stroke-linejoin="round"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span>Share</span>';
+    var url = location.origin + location.pathname;
+    b.onclick = function () {
+      if (navigator.share) {
+        navigator.share({title: document.title, text: text, url: url}).catch(function () {});
+        return;
+      }
+      var lab = b.querySelector("span");
+      var ok = function () { lab.textContent = "Link copied"; setTimeout(function () { lab.textContent = "Share"; }, 2000); };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(ok, function () { prompt("Copy this link:", url); });
+      else prompt("Copy this link:", url);
+    };
+    if (club && !after) { b.className = "star"; b.setAttribute("aria-label", "Share"); spot.appendChild(b); return; }
+    var row = document.createElement("div");
+    row.className = "mi-share-row"; row.appendChild(b);
+    if (nt) row.style.textAlign = "left";            // national pages' titles sit on the left
+    spot.parentNode.insertBefore(row, spot.nextSibling);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add); else add();
+})();

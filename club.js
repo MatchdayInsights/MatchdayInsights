@@ -102,7 +102,7 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
 (function(){
   var tabs=document.querySelectorAll('.club-tab'); if(!tabs.length) return;
   var over=document.getElementById('tab-overview'), panel=document.getElementById('tab-matches');
-  var DATA=null, shown=0, PAGE=25, rows=[], res='';
+  var DATA=null, CLUB='', shown=0, PAGE=25, rows=[], res='';
   var PG={}; try{PG=JSON.parse(document.getElementById('pg-data').textContent)||{};}catch(e){}
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]});}
   function show(name, push){
@@ -117,7 +117,7 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
     DATA=[];
     fetch(panel.getAttribute('data-src')).then(function(r){return r.ok?r.json():null}).then(function(d){
       if(!d){document.getElementById('am-list').innerHTML='<div class="am-empty">Couldn’t load the matches - try again later.</div>';return;}
-      DATA=d.m; fill(); apply();
+      DATA=d.m; CLUB=d.club||''; fill(); apply();
     }).catch(function(){document.getElementById('am-list').innerHTML='<div class="am-empty">Couldn’t load the matches - try again later.</div>';});
   }
   function fill(){
@@ -161,12 +161,15 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
       var venTxt={H:'Home',A:'Away',N:'Neutral'}[m[4]]||'';
       var odds=m[13]!=null?'<small class="am-p" title="Our odds before the game: '+Math.round(m[13]*100)+'% to win">'+Math.round(m[13]*100)+'%</small>':'';
       var ch=m[11]==null?'':'<span class="'+(m[11]>=0?'w':'l')+'">'+(m[11]>=0?'+':'')+m[11].toFixed(1)+'</span>';
-      out.push('<div class="am-row"'+(PG[m[0]]?' data-pg="'+esc(PG[m[0]])+'"':'')+'>'+
+      // A match with saved details but no match page (gone after 30 days, or
+      // never made) opens its goals, cards and stats in place (Greg, 2026-11).
+      var md=!PG[m[0]]&&m[14]?' data-md="'+esc(m[14][0])+'" data-sd="'+esc(m[14][1])+'" data-op="'+esc(m[5])+'"':'';
+      out.push('<div class="am-row"'+(PG[m[0]]?' data-pg="'+esc(PG[m[0]])+'"':'')+md+'>'+
         '<span class="am-date">'+DAY[dt.getUTCDay()]+' '+dt.getUTCDate()+' '+MON[dt.getUTCMonth()].slice(0,3)+'</span>'+
         '<span class="am-comp"><i>'+esc(m[1])+'</i></span>'+
         '<span class="am-ven" title="'+venTxt+'">'+(m[4]||'')+'</span>'+
         '<span class="am-opp"><em>'+ven+'</em> '+opp+(m[7]?' <small>#'+m[7]+'</small>':'')+'</span>'+
-        '<span class="am-res"><b class="r'+m[10]+'">'+m[10]+' '+m[8]+'-'+m[9]+'</b>'+odds+(PG[m[0]]?'<i class="am-gt">&rsaquo;</i>':'')+'</span>'+
+        '<span class="am-res"><b class="r'+m[10]+'">'+m[10]+' '+m[8]+'-'+m[9]+'</b>'+odds+(PG[m[0]]?'<i class="am-gt">&rsaquo;</i>':(md?'<i class="am-gt am-dn">&#9662;</i>':''))+'</span>'+
         '<span class="am-ch">'+ch+(m[12]?'<small class="am-rk2"> &middot; #'+m[12]+'</small>':'')+'</span>'+
         '<span class="am-rk">'+(m[12]?'#'+m[12]:'')+'</span>'+
         '<span class="am-meta">'+DAY[dt.getUTCDay()]+' '+dt.getUTCDate()+' '+MON[dt.getUTCMonth()].slice(0,3)+' &middot; '+esc(m[1])+'</span>'+
@@ -179,14 +182,60 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
     more.hidden = shown>=rows.length;
     more.textContent='Show '+Math.min(PAGE, rows.length-shown)+' more ('+(rows.length-shown)+' left)';
   }
+  // The in-place details (data-md rows, above).
+  var DET={};
+  function plain(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+  function detHtml(d,home,away){
+    if(!d) return '<div class="am-dx">No details saved for this match.</div>';
+    var pl=d.pl||{}, h='';
+    function nm(n,sd){var s=(pl[sd]||{})[plain(n)];return s?'<a href="../players/'+esc(s)+'.html">'+esc(n)+'</a>':esc(n);}
+    var meta=[d.ht?'Half time '+d.ht[0]+'-'+d.ht[1]:'',d.ven||''].filter(Boolean);
+    h+='<div class="am-dt"><b>'+esc(home)+'</b><span>'+meta.map(esc).join(' &middot; ')+'</span><b>'+esc(away)+'</b></div>';
+    var ev=(d.ev||[]).filter(function(e){return 'g p og mp r yr y'.indexOf(e[3])>=0;});
+    ev.forEach(function(e){
+      var k=e[3], t=e[0]+(e[1]?'+'+e[1]:'')+"'", ic;
+      if(k==='g'||k==='p'||k==='og') ic='&#9917;'; else if(k==='mp') ic='&#10005;';
+      else ic='<i class="am-cd '+(k==='y'?'y':'r')+'"></i>';
+      var txt=ic+' '+nm(e[4],e[2])+(k==='p'?' (pen)':k==='og'?' (og)':k==='mp'?' <small>missed pen</small>':'');
+      h+='<div class="am-ev'+(k==='y'?' y':'')+'">'+(e[2]==='h'?'<span>'+txt+'</span><i>'+t+'</i><span></span>':'<span></span><i>'+t+'</i><span>'+txt+'</span>')+'</div>';
+    });
+    (d.st||[]).forEach(function(r){
+      var n=function(v){return parseFloat(String(v).replace('%',''))||0;}, tot=n(r[1])+n(r[2]), hp=tot?n(r[1])/tot*100:50;
+      h+='<div class="am-st"><span>'+esc(r[1])+'</span><div><small>'+esc(r[0])+'</small><p><i style="width:'+hp+'%"></i></p></div><span>'+esc(r[2])+'</span></div>';
+    });
+    if(!ev.length&&!(d.st||[]).length) h+='<div class="am-dx">No goals, cards or stats saved for this match.</div>';
+    return h;
+  }
+  document.addEventListener('click',function(e){
+    var r=e.target.closest&&e.target.closest('.am-row[data-md]');
+    if(!r||e.target.closest('a,button,select')) return;
+    var nx=r.nextElementSibling;
+    if(nx&&nx.classList.contains('am-det')){ nx.remove(); r.classList.remove('open'); return; }
+    var box=document.createElement('div'); box.className='am-det'; box.innerHTML='<div class="am-dx">Loading&hellip;</div>';
+    r.after(box); r.classList.add('open');
+    var id=r.getAttribute('data-md'), mine=r.getAttribute('data-sd')==='h', op=r.getAttribute('data-op');
+    var go=DET[id]?Promise.resolve(DET[id]):fetch('../match_details/'+encodeURIComponent(id)+'.json')
+      .then(function(x){return x.ok?x.json():null;}).catch(function(){return null;});
+    go.then(function(d){ DET[id]=d; box.innerHTML=detHtml(d, mine?CLUB:op, mine?op:CLUB); });
+  });
   if(location.hash==='#matches') show('matches', false);
 })();
 (function(){
   // The charts and the other seasons' tables, from club_data/<slug>.json.
   var main=document.querySelector('main.club-page'); if(!main) return;
   // MATCH LINKS 2026-11: a match with a page opens it.
-  document.head.insertAdjacentHTML('beforeend','<style>[data-pg]{cursor:pointer}[data-pg]:hover{background:rgba(61,186,94,.07)}'
-    +'.am-gt{font-style:normal;color:var(--green);font-weight:700;margin-left:6px}</style>');
+  document.head.insertAdjacentHTML('beforeend','<style>[data-pg],[data-md]{cursor:pointer}[data-pg]:hover,[data-md]:hover{background:rgba(61,186,94,.07)}'
+    +'.am-gt{font-style:normal;color:var(--green);font-weight:700;margin-left:6px}.am-dn{font-size:.8em}.am-row.open .am-dn{display:inline-block;transform:rotate(180deg)}'
+    // In-place match details (Greg, 2026-11).
+    +'.am-det{border-bottom:1px solid var(--border);padding:8px 6px 12px;font-size:13px;max-width:560px;margin:0 auto}'
+    +'.am-dt{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin-bottom:6px}.am-dt b{font-size:14px}.am-dt b:last-child{text-align:right}'
+    +'.am-dt span{font-size:11px;color:var(--muted);text-align:center}'
+    +'.am-ev{display:grid;grid-template-columns:1fr 46px 1fr;align-items:center;padding:3px 0}.am-ev span:first-child{text-align:right}.am-ev i{text-align:center;font-style:normal;color:var(--muted);font-size:12px}'
+    +'.am-ev.y{opacity:.75;font-size:12px}.am-ev a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--muted)}'
+    +'.am-cd{display:inline-block;width:8px;height:11px;border-radius:1.5px;vertical-align:-1px}.am-cd.y{background:#f2c94c}.am-cd.r{background:#e5484d}'
+    +'.am-st{display:grid;grid-template-columns:44px 1fr 44px;align-items:center;gap:8px;margin-top:6px}.am-st>span{font-weight:700;text-align:center}'
+    +'.am-st small{display:block;text-align:center;color:var(--muted);font-size:11px}.am-st p{margin:2px 0 0;height:4px;border-radius:2px;background:var(--border2);overflow:hidden}'
+    +'.am-st p i{display:block;height:100%;background:var(--green)}.am-dx{text-align:center;color:var(--muted);padding:6px 0}</style>');
   document.addEventListener('click',function(e){
     var r=e.target.closest&&e.target.closest('[data-pg]');
     if(!r||e.target.closest('a,button,select')) return;
