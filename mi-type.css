@@ -303,3 +303,11 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
   html body #tab-overview > .pg-jump { order: 4; }
   html body #tab-overview > .charts-grid > .chart-panel:not(:first-child) { order: 11; }
 }
+
+/* World map page (best-club-in-every-country): the club card and the zoom
+   buttons were always dark, so in light mode the text was dark on dark
+   (Greg, 2026-11). They follow light/dark now; generate_map_page does the
+   same from its next rebuild. */
+html body .mapwrap .card, html body .mapwrap .zoomb button {
+  background: var(--surface2, #161b26) !important; color: var(--text, #dde0ec) !important; }
+html body .mapwrap .card b { color: var(--text, #fff) !important; }
