@@ -7,7 +7,8 @@
    Uses the live scores live.js already fetches every minute (its "mi-live"
    event). A match that finished is only counted while it isn't in the
    official table yet (it finished after this page was built).
-   Loaded by app_install.js on match pages that have a table. */
+   Loaded by app_install.js on match pages that have a table. National team
+   pages' rows carry the API team id as data-tid (no crest) (Greg, 2026-11). */
 (function () {
   var tables = [].slice.call(document.querySelectorAll('table.mt'));
   if (!tables.length || window.MI_MTLIVE) return;
@@ -45,7 +46,7 @@
       var img = tr.querySelector('img'), m = img && (img.getAttribute('src') || '').match(/crests\/([^/]+)\.png/);
       var num = function (k) { var c = tr.cells[col[k]]; return c ? parseInt(c.textContent, 10) || 0 : 0; };
       var a = tr.querySelector('td.cl a, td.cl');
-      return {tr: tr, id: m ? m[1].replace(/-/g, ':') : null, nm: a ? a.textContent.trim().toLowerCase() : '', pos: i, p: num('P'), w: num('W'), d: num('D'), l: num('L'),
+      return {tr: tr, id: tr.getAttribute('data-tid') || (m ? m[1].replace(/-/g, ':') : null), nm: a ? a.textContent.trim().toLowerCase() : '', pos: i, p: num('P'), w: num('W'), d: num('D'), l: num('L'),
               gd: num('GD'), pts: num('PTS')};
     });
     // Each club by its id (from its crest) and, if its crest is missing, by name.

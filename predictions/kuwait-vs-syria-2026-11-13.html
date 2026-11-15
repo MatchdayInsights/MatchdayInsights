@@ -16,6 +16,9 @@
 <link rel="stylesheet" href="/nations.css">
 <link rel='stylesheet' href='../match-tab.css'>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Kuwait vs Syria", "startDate": "2026-11-13T16:30:00+00:00", "sport": "Soccer", "description": "Friendlies: Our ratings make Syria the favourites, with a 42% chance to win (draw 28%).", "homeTeam": {"@type": "SportsTeam", "name": "Kuwait"}, "awayTeam": {"@type": "SportsTeam", "name": "Syria"}, "eventStatus": "https://schema.org/EventScheduled", "url": "https://matchdayinsights.com/predictions/kuwait-vs-syria-2026-11-13.html"}</script>
+<!-- live-head -->
+<script type="application/json" id="md-data">{"ht":[2,0],"ven":"Al-Sadaqua Walsalam Stadium, Adailiya","lu":{"h":{"f":"4-3-3","c":"","xi":[[1,"Khaled Al Rashidi","G"],[2,"Abdulwahab Awadi","D"],[26,"Abdulaziz Murad","D"],[6,"Khaled Waleed Sabah Al Fadhli","D"],[3,"Moaath Al Dhafiri","D"],[24,"Abdullah Al Qarzaei","M"],[21,"Jasem Al-Mutar","D"],[8,"Ahmad Al Dhefiri","M"],[11,"Eid Al Rashedi","M"],[10,"Shabaib Al Khaldi","F"],[7,"Bandar Al-Salama","F"]],"bn":[[13,"Walid Saad","D"],[17,"Abdullah Al Awadhi","F"],[19,"Mahdi Dashti","M"],[9,"Mohsen Falah","M"],[15,"Yousef Majed","M"],[14,"Ali Hassan","M"],[12,"Humoud Al Sanousi","M"],[18,"Moath Al-Enezi","F"],[27,"Saud Al Hoshan","G"],[22,"Abdulrahman Al Fadhli","G"],[4,"Rashed Al Dosari","D"],[20,"Saleh Faisal","D"],[null,"Eid Al Rashidi","M"],[25,"Abdullah Al-Saeedi","M"],[16,"Mubarak Al-Fnaini",""]]},"a":{"f":"4-2-3-1","c":"","xi":[[1,"Elias Hadaya","G"],[19,"Zakaria Hannan","D"],[4,"Aiham Ousou","D"],[2,"Ahmad Faqa","D"],[6,"Khaled Kourdoghli","D"],[10,"Mahmoud Dahoud","M"],[15,"Ahmad Dali","M"],[11,"Mahmoud Al Aswad","F"],[12,"Can Yahya Moustfa","M"],[18,"Noah Shamoun","M"],[9,"Omar Al Soma","F"]],"bn":[[17,"Wessam Dukhan","M"],[8,"Mohammad Al-Hallaq","F"],[13,"Abdulrazzak Al Mohammad","D"],[21,"Mohammed Al-Mustafa","F"],[20,"George Younan","F"],[22,"Shaher Al Shakir","G"],[23,"Khaled Ibrahim","G"],[3,"Ziad Ghanoum","D"],[5,"Abdullah Al Shami","D"],[16,"Elmar Abraham","M"]]}},"ev":[[33,0,"h","g","S. Al Khaldi",""],[44,0,"h","g","E. Al Rashedi",""],[71,0,"h","g","A. Murad",""]],"pl":{"a":{"ahmad faqa":"ahmad-faqa-343379"}}}</script>
+<!-- /live-head -->
 <!-- mi-app-2026-11g --><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/png" sizes="32x32" href="/app_icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/app_icons/favicon-16.png"><link rel="apple-touch-icon" href="/app_icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="MD Insights"><meta name="application-name" content="MD Insights"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="/mi-app.css"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.json"}}]},"eagerness":"moderate"}]}</script><link rel="stylesheet" href="/mi-type.css"><script src="/app_install.js" defer></script></head>
 <body>
 <nav class="site-nav"><a class="mi-navicon" href="/" aria-label="Matchday Insights home"><img src="/app_icons/nav-icon.png" alt="" width="34" height="34"></a>
@@ -93,5 +96,18 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
 })();
 </script>
 <footer class="site-footer"><p>&copy; 2026 Matchday Insights &nbsp;&middot;&nbsp; <a href="../about.html">About</a></p></footer>
+<!-- live-tag -->
+<script>window.MI_PL={"h":{},"a":{"ahmad faqa":"ahmad-faqa-343379"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
+<script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1649542" data-base="../" defer></script>
+<!-- /live-tag -->
 </body>
 </html>

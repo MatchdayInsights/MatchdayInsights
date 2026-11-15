@@ -216,7 +216,7 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
     var id=r.getAttribute('data-md'), mine=r.getAttribute('data-sd')==='h', op=r.getAttribute('data-op');
     var go=DET[id]?Promise.resolve(DET[id]):fetch('../match_details/'+encodeURIComponent(id)+'.json')
       .then(function(x){return x.ok?x.json():null;}).catch(function(){return null;});
-    go.then(function(d){ DET[id]=d; box.innerHTML=detHtml(d, mine?CLUB:op, mine?op:CLUB); });
+    go.then(function(d){ if(d&&window.MIFixNames)window.MIFixNames(d); DET[id]=d; box.innerHTML=detHtml(d, mine?CLUB:op, mine?op:CLUB); });
   });
   if(location.hash==='#matches') show('matches', false);
 })();

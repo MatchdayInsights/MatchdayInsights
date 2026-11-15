@@ -557,7 +557,8 @@ document.addEventListener('click',e=>{
 const DET={};
 async function details(id){
   if(id in DET)return DET[id];
-  try{const r=await fetch(`match_details/${encodeURIComponent(id)}.json`);DET[id]=r.ok?await r.json():null;}
+  try{const r=await fetch(`match_details/${encodeURIComponent(id)}.json`);DET[id]=r.ok?await r.json():null;
+    if(DET[id]&&window.MIFixNames)window.MIFixNames(DET[id]);}   // names as people write them (Greg, 2026-11)
   catch(e){DET[id]=null;}
   return DET[id];
 }

@@ -21,9 +21,17 @@
   var H = box.dataset.h || "Home", A = box.dataset.a || "Away";
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function key(n) { return String(n || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^\x00-\x7f]/g, "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim(); }
+  var CUR = null;            // the details being drawn: their own "pl" links too
   function page(side, name) {
-    var L = window.MI_PL; if (!L || !L[side]) return null;
-    return L[side][key(name)] || null;
+    var k = key(name), L = window.MI_PL, P = CUR && CUR.pl;
+    var t = k.split(" "), k2 = t.length > 1 ? t[0].charAt(0) + " " + t.slice(1).join(" ") : k;   // "adrian svanback" -> "a svanback"
+    if (k2 !== k) return page2(side, k, L, P) || page2(side, k2, L, P);
+    return page2(side, k, L, P);
+  }
+  function page2(side, k, L, P) {
+    // National match pages and older pages have no MI_PL: the details file's
+    // own "pl" (match_details.py) links the names then (Greg, 2026-11).
+    return (L && L[side] && L[side][k]) || (P && P[side] && P[side][k]) || null;
   }
   function named(side, name, text) {
     var p = page(side, name), t = esc(text == null ? name : text);
@@ -42,6 +50,7 @@
   function rateCls(r) { return r >= 8 ? "r8" : r >= 7 ? "r7" : r >= 6 ? "r6" : "r5"; }
 
   var CSS = "" +
+    "#tab-m .ev a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}" +
     ".mp-key{display:grid;grid-template-columns:1fr;gap:10px;margin:18px 0 6px}" +
     ".mp-motm{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:linear-gradient(120deg,rgba(61,186,94,.16),rgba(61,186,94,.04));border:1px solid rgba(61,186,94,.35)}" +
     ".mp-motm .mp-face{width:58px;height:58px}" +
@@ -189,16 +198,43 @@
     void mf;
   }
 
+  // The names in the match events link to player pages too: scorer,
+  // assist, cards, both players of a sub (Greg, 2026-11: "everything should
+  // link everywhere").
+  function linkEvents() {
+    box.querySelectorAll(".ev").forEach(function (ev) {
+      var cells = ev.children; if (cells.length < 3) return;
+      var side = cells[0].textContent.trim() ? "h" : "a";
+      ev.querySelectorAll(".who, .sub2").forEach(function (sp) {
+        if (sp.querySelector("a") || /^(VAR|missed pen)/.test(sp.textContent)) return;
+        var txt = sp.textContent, pre = "";
+        if (/^assist /.test(txt)) { pre = "assist "; txt = txt.slice(7); }
+        var p = page(side, txt);
+        if (p) sp.innerHTML = esc(pre) + '<a href="../players/' + p + '.html">' + esc(txt) + "</a>";
+      });
+    });
+  }
+
   var f = window.MIRenderMatch;
   if (typeof f === "function") {
-    window.MIRenderMatch = function (d) { var r = f.apply(this, arguments); try { decorate(d); } catch (e) {} return r; };
+    // Names tidied first (window.MIFixNames, app_install.js), then the page's
+    // own drawing, then ours - live updates too (live.js calls this).
+    window.MIRenderMatch = function (d, live) {
+      if (d && window.MIFixNames) try { window.MIFixNames(d); } catch (e) {}
+      CUR = d || CUR;
+      var r = f.apply(this, arguments); try { decorate(d); } catch (e) {} try { linkEvents(); } catch (e) {} return r;
+    };
   }
-  // Already drawn from the page's own data (finished matches).
+  // Already drawn from the page's own data (finished matches): drawn again,
+  // with the names tidied and the extras.
   var md = document.getElementById("md-data");
-  if (md) { try { decorate(JSON.parse(md.textContent)); } catch (e) {} }
+  // Live: live.js drew the latest details before this file loaded - drawn
+  // again now with the pitch, photos and tidy names (Greg, 2026-11).
+  if (window.MI_LASTDET) { try { window.MIRenderMatch(window.MI_LASTDET[0], window.MI_LASTDET[1]); } catch (e) {} }
+  else if (md) { try { window.MIRenderMatch(JSON.parse(md.textContent)); } catch (e) {} }
   else if (box.dataset.got !== "1") {
-    // Drawn from match_details/<id>.json: fetch the same file (cached) to decorate it.
+    // Drawn from match_details/<id>.json: fetch the same file (cached) and draw it again.
     fetch("../match_details/" + encodeURIComponent(box.dataset.fid) + ".json").then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (d) { if (d && box.querySelector(".mf,h3,.lus")) try { decorate(d); } catch (e) {} }).catch(function () {});
+      .then(function (d) { if (d && box.querySelector(".mf,h3,.lus") && !box.querySelector(".mlive")) try { window.MIRenderMatch(d); } catch (e) {} }).catch(function () {});
   }
 })();

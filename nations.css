@@ -203,3 +203,15 @@
   border:1px solid var(--border2);color:var(--text);text-decoration:none;font-family:inherit}
 .cp-res a.cp-ml small{color:var(--green);font-size:14px;line-height:1;font-weight:700}
 .cp-res a.cp-ml:hover{border-color:var(--green)}
+
+/* National match pages: the group table, kept live by mt-live.js (Greg, 2026-11). */
+.nt-mtw{overflow-x:auto;margin:6px 0 18px}
+table.nt-mt{width:100%;min-width:0;border-collapse:collapse;font-size:13.5px}
+table.nt-mt th{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--text2,#7880a0);font-weight:600;text-align:center;padding:6px 4px}
+table.nt-mt td{padding:8px 4px;text-align:center;border-top:1px solid rgba(128,128,128,.16);white-space:nowrap}
+table.nt-mt th.cl,table.nt-mt td.cl{text-align:left}
+table.nt-mt td.cl .fi{margin-right:7px;border-radius:2px}
+table.nt-mt td.cl a{color:inherit;text-decoration:none}
+table.nt-mt td.pt{font-weight:800}
+table.nt-mt tr.me td{background:rgba(61,186,94,.09)}
+@media(max-width:640px){table.nt-mt .opt{display:none}}

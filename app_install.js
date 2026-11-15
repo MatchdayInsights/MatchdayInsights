@@ -1,3 +1,74 @@
+/* Player names as people write them (names.py has the same rules; keep the
+   two alike): broken accents ("LÃ¤hteenmÃ¤ki"), odd dots ("Samuel·Pancotti"),
+   lower case ("adrian svanback"), and the events' names spelt as in the
+   line-ups ("Adrian Svanbäck") (Greg, 2026-11: "these all need to work
+   flawlessly"). window.MIFixNames(details) tidies a match's details in
+   place - the match pages, the Matches page and club pages call it. */
+(function () {
+  var PART = {de:1,da:1,das:1,"do":1,dos:1,del:1,della:1,di:1,du:1,van:1,von:1,der:1,den:1,le:1,la:1,el:1,al:1,bin:1,ben:1,y:1,e:1,ter:1,ten:1,op:1,st:1};
+  var MOJI = /[ÃÂÅÄÆÐÑ][\u0080-¿]/;
+  function plain(s) { return String(s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^\x00-\x7f]/g, "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim(); }
+  function demoji(s) {
+    if (!MOJI.test(s)) return s;
+    try { var t = decodeURIComponent(escape(s)); if (!MOJI.test(t)) return t; } catch (e) {}
+    return s;
+  }
+  function cap(w, first) {
+    if (!w || w !== w.toLowerCase() || w === w.toUpperCase()) return w;
+    if (!first && PART[w]) return w;
+    return w.split("-").map(function (p) { return p.charAt(0).toUpperCase() + p.slice(1); }).join("-");
+  }
+  function clean(n) {
+    if (typeof n !== "string" || !n.trim()) return n;
+    var s = demoji(n).replace(/[·•‧・_]+/g, " ").replace(/\s+/g, " ").trim();
+    return s.split(" ").map(function (w, i) { return cap(w, i === 0); }).join(" ");
+  }
+  function surname(full) {
+    var p = full.split(" ");
+    if (p.length > 1 && /^[^\s.]{1,2}\.$/.test(p[0])) return [p.slice(1).join(" "), p[0].charAt(0)];
+    return [full, null];
+  }
+  function match(name, roster) {
+    var s = clean(name);
+    if (!s) return s;
+    var toks = s.split(" "), pt = toks.map(plain);
+    for (var i = 0; i < roster.length; i++) {
+      var su = surname(roster[i]), st = su[0].split(" "), ps = st.map(plain), n = ps.length, ini = su[1];
+      if (!n || ps.join("").length < 3) continue;
+      if (pt.slice(-n).join(" ") === ps.join(" ")) {
+        var rest = toks.slice(0, toks.length - n);
+        if (!rest.length || !ini || plain(rest[0]).charAt(0) === plain(ini)) return rest.concat(st).join(" ");
+      }
+      if (n > 1 && toks.length > n && ps.every(function (p) { return pt.indexOf(p) >= 0; })) {
+        var r2 = toks.filter(function (t, j) { return ps.indexOf(pt[j]) < 0; });
+        if (r2.length && (!ini || plain(r2[0]).charAt(0) === plain(ini))) return r2.concat(st).join(" ");
+      }
+    }
+    return s;
+  }
+  window.MIFixNames = function (d) {
+    if (!d || typeof d !== "object" || d._nm) return d;
+    var R = {h: [], a: []}, lu = d.lu || {};
+    ["h", "a"].forEach(function (sd) {
+      var t = lu[sd]; if (!t) return;
+      if (t.c) t.c = clean(t.c);
+      (t.xi || []).concat(t.bn || []).forEach(function (r) { if (r && typeof r[1] === "string") { r[1] = clean(r[1]); R[sd].push(r[1]); } });
+    });
+    var both = R.h.concat(R.a);
+    (d.ev || []).forEach(function (e) {
+      if (!e || e.length < 5) return;
+      var mine = (R[e[2]] || []).concat(both);
+      e[4] = match(e[4], mine);
+      if (e.length > 5 && e[3] !== "v" && typeof e[5] === "string" && e[5]) e[5] = match(e[5], mine);
+    });
+    if (d.tp && typeof d.tp[2] === "string") d.tp[2] = clean(d.tp[2]);
+    if (typeof d.ref === "string") d.ref = clean(d.ref);
+    if (typeof d.ven === "string") d.ven = demoji(d.ven);
+    try { Object.defineProperty(d, "_nm", {value: 1}); } catch (e) {}
+    return d;
+  };
+})();
+
 /* Matchday Insights - "get the app" (Greg, 2026-11).
    Registers the service worker, and after a few visits offers to install:
    Android/Chrome gets an Install button; iPhone Safari gets the

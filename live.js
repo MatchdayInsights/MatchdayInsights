@@ -91,7 +91,11 @@
   var det = { at: 0, busy: false, fin: false, got: false, on: false };
   function kickoff() {
     var k = document.querySelector('.sb-time[data-k]');
-    return k ? new Date(k.getAttribute('data-k')).getTime() : NaN;
+    if (k) return new Date(k.getAttribute('data-k')).getTime();
+    // National team match pages have no scoreboard: their match card carries
+    // the kick-off - without it their Match tab never went live (Greg, 2026-11).
+    var n = document.querySelector('.nt-fx[data-kick]');
+    return n ? Date.parse(n.getAttribute('data-kick')) : NaN;
   }
   function note(tab, text) {
     if (!det.got) tab.innerHTML = '<div class="none">' + text + '</div>';
@@ -148,6 +152,7 @@
           if (d.ev || d.st || d.lu) {
             det.got = true;
             tab.setAttribute('data-got', '1');
+            window.MI_LASTDET = [d, det.on];       // match-plus.js redraws it if it loads later
             window.MIRenderMatch(d, det.on);
           } else if (started) {
             note(tab, 'No goals, cards or line-ups reported for this match yet. ' +

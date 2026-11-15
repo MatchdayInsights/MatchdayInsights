@@ -16,6 +16,10 @@
 <link rel="stylesheet" href="/nations.css">
 <link rel='stylesheet' href='../match-tab.css'>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsEvent", "name": "Cuba vs Grenada", "startDate": "2026-11-16T19:00:00+00:00", "sport": "Soccer", "description": "CONCACAF Nations League: Our ratings make Cuba the favourites, with a 65% chance to win (draw 23%).", "homeTeam": {"@type": "SportsTeam", "name": "Cuba"}, "awayTeam": {"@type": "SportsTeam", "name": "Grenada"}, "eventStatus": "https://schema.org/EventScheduled", "url": "https://matchdayinsights.com/predictions/cuba-vs-grenada-2026-11-16.html"}</script>
+<!-- live-head -->
+<link rel="preconnect" href="https://matchday-live.gregory-m-toledo.workers.dev" crossorigin>
+<script>(function(){var k=Date.parse('2026-11-16T19:00:00Z'),n=Date.now();if(window.fetch&&n>k-75*6e4&&n<k+5*36e5){window.MI_MDP=fetch('https://matchday-live.gregory-m-toledo.workers.dev/match?id=1640009',{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}})();</script>
+<!-- /live-head -->
 <!-- mi-app-2026-11g --><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/png" sizes="32x32" href="/app_icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/app_icons/favicon-16.png"><link rel="apple-touch-icon" href="/app_icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="MD Insights"><meta name="application-name" content="MD Insights"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="/mi-app.css"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.json"}}]},"eagerness":"moderate"}]}</script><link rel="stylesheet" href="/mi-type.css"><script src="/app_install.js" defer></script></head>
 <body>
 <nav class="site-nav"><a class="mi-navicon" href="/" aria-label="Matchday Insights home"><img src="/app_icons/nav-icon.png" alt="" width="34" height="34"></a>
@@ -93,5 +97,18 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
 })();
 </script>
 <footer class="site-footer"><p>&copy; 2026 Matchday Insights &nbsp;&middot;&nbsp; <a href="../about.html">About</a></p></footer>
+<!-- live-tag -->
+<script>window.MI_PL={"h":{"e nebreda":"e-nebreda-641858"},"a":{"d johnson":"darius-johnson-129065"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
+<script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1640009" data-base="../" defer></script>
+<!-- /live-tag -->
 </body>
 </html>
