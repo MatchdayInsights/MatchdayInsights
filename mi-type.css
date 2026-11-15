@@ -311,3 +311,15 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
 html body .mapwrap .card, html body .mapwrap .zoomb button {
   background: var(--surface2, #161b26) !important; color: var(--text, #dde0ec) !important; }
 html body .mapwrap .card b { color: var(--text, #fff) !important; }
+
+/* Phones: the bottom tab bar sits inside the top header. The header was
+   "sticky", and on iPhones a sticky header can drift while the page is
+   scrolled - taking the tab bar with it, which then floated up to the
+   middle of the screen with the header gone off the top (Greg, 2026-11).
+   A header fixed to the top doesn't drift, so the bar stays at the bottom.
+   The page starts 46px lower to make room for it, as before. */
+@media (max-width: 640px) {
+  html body .site-nav { position: fixed !important; top: 0; left: 0; right: 0; }
+  html body { padding-top: 46px; }
+  html { scroll-padding-top: 54px; }
+}

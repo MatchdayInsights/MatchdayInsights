@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="theme.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SBHKVZ9G1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7SBHKVZ9G1');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>What If Your Club Played in Another League? | Matchday Insights</title>
+<meta name="description" content="Drop any football club into any league and play the season out 4,000 times - where would Celtic finish in the Premier League? Every club on one world scale.">
+<link rel="canonical" href="https://matchdayinsights.com/whatif.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Matchday Insights">
+<meta property="og:title" content="What If Your Club Played in Another League? | Matchday Insights">
+<meta property="og:description" content="Drop any football club into any league and play the season out 4,000 times - where would Celtic finish in the Premier League? Every club on one world scale.">
+<meta property="og:url" content="https://matchdayinsights.com/whatif.html">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+<link rel="stylesheet" href="club-page.css?v=f1147164">
+<style>
+.featured{padding:16px 20px 4px;border-bottom:1px solid var(--border)}
+.featured-title{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.featured-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.featured-select{background:var(--bg2,#12161f);color:var(--text2);border:1px solid var(--border);border-radius:6px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 6px;cursor:pointer}
+.featured-empty{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:14px 0}
+.featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
+.fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
+.fmatch:hover{border-color:var(--green-dim)}
+.fmatch-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1px;margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fmatch-side{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
+.fmatch-name:hover{color:var(--green)}
+.fmatch-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);flex-shrink:0}
+.fmatch-side .crest.fi{width:20px;height:15px;border-radius:2px;flex:none;background-size:cover}
+.fmatch-bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin:9px 0 5px}
+.fmatch-bar span{display:block;height:100%}
+.fmatch-pcts{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10px}
+@media(max-width:640px){.featured{padding:12px 16px 4px}.fmatch{min-width:200px}}
+.hero{padding:22px 20px 16px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(10,20,13,0.6) 0%,transparent 50%)}
+.hero::after{content:'MDI';position:absolute;right:-10px;top:-20px;font-size:110px;font-weight:900;color:rgba(61,186,94,0.04);pointer-events:none;letter-spacing:-6px;line-height:1;font-family:'Barlow Condensed',sans-serif}
+.hero-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--green);margin-bottom:10px;opacity:0.8}
+.hero-title{font-size:clamp(28px,3.2vw,42px);font-weight:900;line-height:0.95;text-transform:uppercase;margin-bottom:8px;color:var(--text)}
+.hero-title em{font-style:normal;color:var(--green)}
+/* GLOBAL and RANKINGS green, CLUB white (Greg, 2026-10). */
+.hero-title{color:var(--green)} .hero-title em{color:var(--text)}
+.club-cell .country-badge{min-width:30px;justify-content:center}
+/* Phone held upright: rank (move under it), club, rating (change under it) -
+   the whole row on screen. The full table when turned sideways. */
+.m-mv,.m-chg{display:none}
+@media(max-width:640px){
+  .table-wrap table{min-width:0}
+  .table-wrap th[data-col="rank_change"],.table-wrap .td-move,.table-wrap thead th:nth-child(4),
+  .table-wrap .td-result,.table-wrap th[data-col="elo_change"],.table-wrap .td-change{display:none}
+  .table-wrap th{padding:8px 6px}.table-wrap td{padding:9px 6px}
+  .table-wrap .td-rank,.table-wrap .td-rank.local{width:46px;text-align:center}
+  .table-wrap .td-club{max-width:none}
+  .table-wrap .td-elo{width:84px}.table-wrap .elo-bar{display:none}
+  .table-wrap .m-mv{display:block;margin-top:3px}
+  .table-wrap .m-chg{display:block}
+  .table-wrap .club-name-text{font-size:16px}
+  .table-wrap .record-row-note{font-size:8.5px}
+}
+.hero-desc{font-size:14px;color:var(--text2);max-width:560px;line-height:1.5;margin-bottom:14px;font-weight:400}
+.hero-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.5px;color:var(--green);border:1px solid var(--green-dim);border-radius:4px;padding:5px 10px;margin:0 0 16px;text-decoration:none}
+.hero-link:hover{background:rgba(61,186,94,0.08);text-decoration:none}
+.hero-stats{display:flex;gap:28px;flex-wrap:wrap}
+.hstat{display:flex;flex-direction:column;gap:2px}
+.hstat-val{font-size:28px;font-weight:900;color:var(--text);line-height:1}
+.hstat-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase}
+.header-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+.update-chip{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--green);background:rgba(61,186,94,0.08);border:1px solid var(--green-dim);padding:4px 10px;border-radius:4px;white-space:nowrap}
+.ig-link{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text2);text-decoration:none;border:1px solid var(--border2);padding:4px 10px;border-radius:4px;transition:all 0.2s;white-space:nowrap}
+.ig-link:hover{border-color:var(--green-dim);color:var(--green);text-decoration:none}
+@media(max-width:640px){.ig-link{display:none}}
+
+.controls{padding:12px 20px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--surface);position:sticky;top:58px;z-index:99}
+.search-wrap{position:relative;flex:1;min-width:160px;max-width:280px}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;pointer-events:none}
+.search-input{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 10px 8px 30px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none;transition:border-color 0.2s}
+.search-input::placeholder{color:var(--muted)}
+.search-input:focus{border-color:var(--green-dim)}
+.filter-select{background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:8px 28px 8px 10px;color:var(--text);font-family:'JetBrains Mono',monospace;font-size:11px;outline:none;cursor:pointer;appearance:none;color-scheme:dark;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23565e78'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center;transition:border-color 0.2s}
+.filter-select option{background-color:var(--surface2);color:var(--text)}
+.filter-select:focus{border-color:var(--green-dim)}
+.results-info{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);margin-left:auto;white-space:nowrap}
+.results-info strong{color:var(--green)}
+
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:560px}
+thead tr{border-bottom:1px solid var(--border2)}
+th{font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:500;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;padding:9px 14px;text-align:left;cursor:pointer;user-select:none;transition:color 0.15s;white-space:nowrap}
+th:hover{color:var(--text2)} th.sorted{color:var(--green)} th.ar{text-align:right}
+.sort-icon{margin-left:3px;opacity:0.4} th.sorted .sort-icon{opacity:1}
+tbody tr{border-bottom:1px solid rgba(24,28,36,0.7);transition:background 0.1s;cursor:pointer}
+tbody tr:hover{background:rgba(61,186,94,0.04)}
+tbody tr.top3{background:rgba(61,186,94,0.06)} tbody tr.top10{background:rgba(61,186,94,0.02)}
+tbody tr.top3:hover{background:rgba(61,186,94,0.09)}
+td{padding:10px 14px;vertical-align:middle}
+.td-rank{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--muted);width:44px}
+.top3 .td-rank{color:var(--green);font-size:12px}
+/* Filtered to a country or a continent: the rank there first, the world
+   rank under it (Greg, 2026-10). */
+.td-rank .rank-world{display:block;font-size:9.5px;font-weight:400;color:var(--muted);margin-top:2px;white-space:nowrap}
+.td-rank.local{width:64px}
+th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-space:normal;max-width:96px;line-height:1.3}
+/* Phones: tighter columns so the club name has room (Greg, 2026-10). */
+@media(max-width:640px){
+  th{padding:8px 8px}td{padding:9px 8px}
+  table{min-width:480px}
+  .td-rank,.td-rank.local{width:52px}.td-move{width:38px}.td-result{width:96px}
+  .td-club{max-width:170px}
+}
+.td-move{width:56px}
+.move-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;display:inline-flex;align-items:center;gap:1px}
+.move-badge.up{color:var(--green)} .move-badge.dn{color:var(--red)} .move-badge.nc{color:var(--muted)}
+.td-club{min-width:0;max-width:220px}
+.club-cell{display:flex;align-items:center;gap:8px}
+.country-badge{display:inline-flex;align-items:center;gap:4px;font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;color:var(--text2);flex-shrink:0}
+.country-badge .fi{border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,0.1)}
+.club-name-text{font-size:14px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
+.top3 .club-name-text{color:#eef2ee}
+.club-code{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text2);white-space:nowrap;margin-top:2px}
+.record-row-note{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.2px;margin-top:2px;color:var(--green)}
+.record-row-note.low{color:var(--red)}
+.record-box-green{display:inline-block;border:1px solid var(--green);background:rgba(61,186,94,0.12);border-radius:4px;padding:0 6px}
+.record-box-red{display:inline-block;border:1px solid var(--red);background:rgba(232,68,102,0.12);border-radius:4px;padding:0 6px}
+.td-result{width:110px}
+.result-cell{display:flex;align-items:center;gap:6px}
+.result-badge{font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;width:16px;height:16px;border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.result-badge.W{background:rgba(61,186,94,0.15);color:var(--green)}
+.result-badge.D{background:rgba(100,120,180,0.15);color:#7890d0}
+.result-badge.L{background:rgba(232,68,102,0.15);color:var(--red)}
+.result-badge.x{background:transparent;color:var(--muted)}
+.result-detail{display:flex;flex-direction:column;min-width:0}
+.result-opp{font-size:11px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70px;font-weight:600;text-transform:uppercase;line-height:1.2}
+.result-score{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
+.td-elo{text-align:right;width:100px}
+.elo-cell{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.elo-number{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:var(--text)}
+.top3 .elo-number{color:var(--green)}
+.elo-bar{width:56px;height:2px;background:var(--border2);border-radius:1px;overflow:hidden}
+.elo-bar-fill{height:100%;border-radius:1px;background:var(--muted)}
+.top3 .elo-bar-fill{background:var(--green)} .top10 .elo-bar-fill{background:var(--green-dim)}
+.td-change{text-align:right;width:80px}
+.change-pill{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:600;padding:2px 7px;border-radius:4px;display:inline-block}
+.change-pill.up{background:rgba(61,186,94,0.1);color:var(--green)}
+.change-pill.dn{background:rgba(232,68,102,0.1);color:var(--red)}
+.change-pill.nc{background:rgba(52,58,80,0.2);color:var(--muted)}
+
+.empty-state{display:none;padding:60px 20px;text-align:center;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:12px}
+.empty-state.show{display:block}
+
+.pagination{display:flex;align-items:center;justify-content:center;gap:6px;padding:20px 20px;border-top:1px solid var(--border);flex-wrap:wrap}
+.page-btn{background:var(--surface2);border:1px solid var(--border2);color:var(--text2);font-family:'JetBrains Mono',monospace;font-size:11px;padding:6px 12px;border-radius:6px;cursor:pointer;transition:all 0.15s}
+.page-btn:hover:not(:disabled){border-color:var(--green-dim);color:var(--text)}
+.page-btn.active{background:var(--green);border-color:var(--green);color:#050a07;font-weight:700}
+.page-btn:disabled{opacity:0.3;cursor:not-allowed}
+.page-ellipsis{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);padding:0 2px}
+
+@media(max-width:640px){.hero{padding:16px 16px 12px}.controls{padding:10px 16px}}
+</style><style>
+.ws{max-width:900px;margin:0 auto;padding:0 18px 60px}
+.ws h1{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(34px,7vw,58px);
+  text-transform:uppercase;line-height:.95;margin:30px 0 10px}
+.ws h1 span{color:var(--green,#3dba5e)}
+.ws h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:24px;text-transform:uppercase;margin:34px 0 10px}
+.ws .lead{font-size:15px;line-height:1.6;color:var(--text2,#7880a0);max-width:720px}
+.ws .lead b{color:var(--text,#dde0ec)}
+.ws a{color:var(--green,#3dba5e)}
+.ws-hero{display:flex;gap:16px;align-items:center;background:var(--surface2,#161b26);border:1px solid var(--border2,#1e2330);
+  border-radius:14px;padding:18px;margin:18px 0}
+.ws-hero img{width:84px;height:84px;object-fit:contain;flex:none}
+.ws-hero .k{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text2,#7880a0)}
+.ws-hero .n{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:34px;line-height:1;margin:4px 0 6px;text-transform:uppercase}
+.ws-hero .n a{color:inherit}
+.ws-hero .s{font-size:14px;color:var(--text2,#7880a0);line-height:1.5}
+.ws-hero .s b{color:var(--text,#dde0ec)}
+.ws-belt{font-size:44px;line-height:1;flex:none}
+.ws-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:10px 0}
+.ws-card{background:var(--surface2,#161b26);border:1px solid var(--border2,#1e2330);border-radius:12px;padding:12px 14px}
+.ws-card .k{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text2,#7880a0)}
+.ws-card .v{font-size:20px;font-weight:800;margin:4px 0 2px}
+.ws-card .v a{color:inherit}
+.ws-card .s{font-size:12.5px;color:var(--text2,#7880a0)}
+.ws-tl{width:100%;min-width:0;border-collapse:collapse;font-size:13.5px}
+.ws-tl td,.ws-tl th{white-space:normal;padding:8px 6px;border-bottom:1px solid rgba(128,128,128,.16);text-align:left;vertical-align:top}
+.ws-tl th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text2,#7880a0);font-weight:600}
+.ws-tl .r{text-align:right;white-space:nowrap}
+.ws-tl td a{color:inherit}.ws-tl td a:hover{color:var(--green,#3dba5e)}
+.ws-tl small{display:block;color:var(--text2,#7880a0);font-size:11.5px;margin-top:2px}
+.ws-tl tr.now td{background:rgba(61,186,94,.08)}
+.ws-more{display:block;margin:12px auto 0;padding:9px 16px;border-radius:999px;border:1px solid var(--border2,#1e2330);
+  background:none;color:var(--text,#dde0ec);font:600 13px Inter,system-ui,sans-serif;cursor:pointer}
+.ws-cr{width:22px;height:22px;object-fit:contain;vertical-align:-6px;margin-right:6px}
+.ws-note{font-size:12.5px;color:var(--text2,#7880a0);line-height:1.6;margin-top:14px}
+@media(max-width:640px){.ws-tl .opt{display:none}.ws-hero .n{font-size:28px}.ws-hero img{width:64px;height:64px}}
+</style>
+
+<style>
+.hero-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.hero-links .hero-link{margin:0}
+.hero-link.current{background:rgba(61,186,94,0.12);color:var(--text)}
+.club-name-text a,.lg-name a{color:inherit;text-decoration:none}
+.club-name-text a:hover,.lg-name a:hover{color:var(--green);text-decoration:none}
+.hero-desc b{color:var(--text);font-weight:600}
+.td-count{text-align:right;width:70px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text2)}
+.td-top{max-width:200px}
+.top-club{font-size:12px;font-weight:600;text-transform:uppercase;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top-club-rank{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
+</style>
+<!-- mi-app-2026-11g --><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/png" sizes="32x32" href="/app_icons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/app_icons/favicon-16.png"><link rel="apple-touch-icon" href="/app_icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="MD Insights"><meta name="application-name" content="MD Insights"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="/mi-app.css"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.json"}}]},"eagerness":"moderate"}]}</script><link rel="stylesheet" href="/mi-type.css"><script src="/app_install.js" defer></script></head>
+<body>
+
+<nav class="site-nav"><a class="mi-navicon" href="/" aria-label="Matchday Insights home"><img src="/app_icons/nav-icon.png" alt="" width="34" height="34"></a>
+  <a class="nav-logo" href="index.html" style="text-decoration: none;">
+    <div class="nav-brand">Matchday Insights</div>
+    <div class="nav-sub">Global Club Rankings</div>
+  </a>
+  <div class="header-right"><a href="/my.html" class="ig-link mi-my">My clubs</a>
+    <span class="update-chip">&#x2B21; Updated November 15, 2026</span>
+    <a href="index.html" class="ig-link">Rankings</a>
+    <a href="matches.html" class="ig-link">Matches</a>
+    <a href="predictions.html" class="ig-link">Predictions</a>
+    <a href="leagues.html" class="ig-link">Leagues</a><a href="/nations.html" class="ig-link mi-nt">National teams</a>
+    <a href="compare.html" class="ig-link">Compare Clubs</a>
+    <a href="about.html" class="ig-link">About</a>
+    <a href="contact.html" class="ig-link">Contact</a>
+    <a href="https://x.com/MDInsights_FC" class="ig-link" target="_blank">X</a>
+    <a href="https://www.instagram.com/matchday.insights/" class="ig-link" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</nav>
+<div class="ws">
+<h1>What if they played <span>in another league?</span></h1>
+<p class="lead">Every club is on one scale, so we can drop any club into any league and play the season out
+4,000 times. <b>Where would Celtic finish in the Premier League? Could Flamengo win Serie A?</b> Pick a club and a league.</p>
+<div class="ws-card" style="margin:16px 0;display:grid;gap:10px">
+ <label class="k">Club<input id="wf-q" type="search" placeholder="Type a club..." autocomplete="off" class="wf-in"></label>
+ <div id="wf-s"></div>
+ <label class="k">League<select id="wf-l" class="wf-in"></select></label>
+ <button id="wf-go" class="wf-go" type="button">Play the season</button>
+</div>
+<div id="wf-out"></div>
+<p class="ws-note">A whole season from scratch with today's ratings: everyone plays everyone home and away, the club you pick
+is added (or plays as itself if it's already in that league). Real leagues can differ - splits, play-offs, a different number
+of clubs - so treat it as a strength test, not a forecast. Our <a href="track-record.html">track record</a> shows how good the
+ratings are.</p>
+</div>
+<style>
+.wf-in{display:block;width:100%;box-sizing:border-box;margin-top:5px;padding:11px 12px;border-radius:9px;border:1px solid var(--border2,#1e2330);
+ background:var(--bg,#0d0f14);color:var(--text,#dde0ec);font:15px Inter,system-ui,sans-serif;text-transform:none;letter-spacing:0}
+.wf-go{padding:12px;border-radius:999px;border:0;background:var(--green,#3dba5e);color:#fff;font:700 15px Inter,system-ui,sans-serif;cursor:pointer}
+#wf-s button{display:block;width:100%;text-align:left;padding:9px 6px;background:none;border:0;border-bottom:1px solid rgba(128,128,128,.14);
+ color:var(--text,#dde0ec);font:14px Inter,system-ui,sans-serif;cursor:pointer}
+#wf-s button small{color:var(--text2,#7880a0);margin-left:6px}
+.wf-big{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(28px,6vw,40px);text-transform:uppercase;line-height:1.02;margin:6px 0 12px}
+.wf-big span{color:var(--green,#3dba5e)}
+.wf-tb{width:100%;min-width:0;border-collapse:collapse;font-size:13.5px;margin-top:8px}
+.wf-tb td,.wf-tb th{white-space:normal;padding:6px 6px;border-bottom:1px solid rgba(128,128,128,.14);text-align:left}
+.wf-tb th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text2,#7880a0);font-weight:600}
+.wf-tb .r{text-align:right}.wf-tb tr.me td{background:rgba(61,186,94,.13);font-weight:700}
+.wf-tb a{color:inherit}
+.wf-sh{margin-top:12px}
+</style>
+<script>(function(){
+var D=null,pick=null,q=document.getElementById('wf-q'),s=document.getElementById('wf-s'),L=document.getElementById('wf-l'),out=document.getElementById('wf-out');
+function e(t){return String(t==null?'':t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function plain(t){return String(t||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
+function ord(n){var s=['th','st','nd','rd'],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0]);}
+function choose(i){pick=i;q.value=D.C[i][1];s.innerHTML='';}
+q.addEventListener('input',function(){
+  if(!D)return;var t=plain(q.value.trim());pick=null;if(t.length<2){s.innerHTML='';return;}
+  var hits=[];for(var i=0;i<D.C.length&&hits.length<8;i++){if(plain(D.C[i][1]).indexOf(t)>=0)hits.push(i);}
+  s.innerHTML=hits.map(function(i){var lg=D.L[D.C[i][5]];return '<button data-i="'+i+'">'+e(D.C[i][1])+'<small>#'+D.C[i][4]+(lg?' &middot; '+e(lg[1]):'')+'</small></button>'}).join('');
+});
+s.addEventListener('click',function(ev){var b=ev.target.closest('button');if(b)choose(+b.getAttribute('data-i'));});
+function season(ids,runs){
+  var n=ids.length,R=ids.map(function(i){return D.C[i][2]}),nu=D.draw[0],dc=D.draw[1],ha=D.ha;
+  var P=[];for(var a=0;a<n;a++){P[a]=[];for(var b=0;b<n;b++){if(a===b)continue;
+    var gap=Math.abs(R[a]+ha-R[b]),nue=nu*Math.exp(-dc*gap/400),h=Math.pow(10,(R[a]+ha)/400),w=Math.pow(10,R[b]/400),t=nue*Math.sqrt(h*w),tot=h+w+t;
+    P[a][b]=[h/tot,(h+t)/tot];}}
+  var pos=ids.map(function(){return new Array(n).fill(0)}),pts=new Array(n).fill(0);
+  for(var r=0;r<runs;r++){var p=new Array(n).fill(0);
+    for(var a=0;a<n;a++)for(var b=0;b<n;b++){if(a===b)continue;var x=Math.random(),c=P[a][b];
+      if(x<c[0])p[a]+=3;else if(x<c[1]){p[a]++;p[b]++;}else p[b]+=3;}
+    var order=ids.map(function(_,i){return i}).sort(function(i,j){return (p[j]-p[i])||(Math.random()-.5)});
+    order.forEach(function(i,k){pos[i][k]++;pts[i]+=p[i];});}
+  return ids.map(function(id,i){var avg=0;pos[i].forEach(function(c,k){avg+=c*(k+1)});
+    return {id:id,avg:avg/runs,pts:pts[i]/runs,pos:pos[i].map(function(c){return c/runs})};});
+}
+function run(){
+  if(!D)return;if(pick==null){out.innerHTML='<p class="ws-note">Pick a club from the list first.</p>';return;}
+  var li=+L.value,lg=D.L[li],ids=lg[4].slice(),inIt=ids.indexOf(pick)>=0;if(!inIt)ids.push(pick);
+  var res=season(ids,4000).sort(function(a,b){return a.avg-b.avg}),me=res.filter(function(r){return r.id===pick})[0];
+  var n=ids.length,place=res.indexOf(me)+1,c=D.C[pick];
+  var title=me.pos[0],top4=me.pos.slice(0,4).reduce(function(a,b){return a+b},0),bot3=me.pos.slice(n-3).reduce(function(a,b){return a+b},0);
+  function pc(x){return x<.005&&x>0?'&lt;1%':Math.round(x*100)+'%'}
+  var line=c[1]+(inIt?' would finish ':' would finish ')+ord(place)+' in '+lg[1];
+  var h='<div class="wf-big">'+e(c[1])+' would finish <span>'+ord(place)+'</span> in '+e(lg[1])+(lg[2]&&lg[1].indexOf(lg[2])<0?' ('+e(lg[2])+')':'')+'</div>';
+  h+='<div class="ws-grid"><div class="ws-card"><div class="k">Win the league</div><div class="v">'+pc(title)+'</div></div>'+
+     '<div class="ws-card"><div class="k">Top 4</div><div class="v">'+pc(top4)+'</div></div>'+
+     '<div class="ws-card"><div class="k">Bottom 3</div><div class="v">'+pc(bot3)+'</div></div></div>';
+  h+='<table class="wf-tb"><tr><th>#</th><th>Club</th><th class="r">Pts</th><th class="r">Title</th></tr>'+res.map(function(r,k){var x=D.C[r.id];
+    var nm=x[3]?'<a href="clubs/'+e(x[3])+'.html">'+e(x[1])+'</a>':e(x[1]);
+    return '<tr'+(r.id===pick?' class="me"':'')+'><td>'+(k+1)+'</td><td>'+nm+'</td><td class="r">'+Math.round(r.pts)+'</td><td class="r">'+pc(r.pos[0])+'</td></tr>'}).join('')+'</table>';
+  h+='<div class="wf-sh"><button class="ws-more" id="wf-share" type="button" style="margin:0">Share this</button></div>';
+  out.innerHTML=h;
+  try{history.replaceState(null,'','?club='+encodeURIComponent(c[3]||c[0])+'&league='+encodeURIComponent(lg[0]));}catch(x){}
+  document.getElementById('wf-share').onclick=function(){var u=location.href,t=line+' - played out 4,000 times on Matchday Insights';
+    if(navigator.share)navigator.share({title:document.title,text:t,url:u}).catch(function(){});
+    else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){document.getElementById('wf-share').textContent='Link copied'});};
+  out.scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.getElementById('wf-go').onclick=run;
+fetch('whatif.json').then(function(r){return r.json()}).then(function(d){D=d;
+  L.innerHTML=D.L.map(function(lg,i){return '<option value="'+i+'">'+e(lg[1])+(lg[2]&&lg[1].indexOf(lg[2])<0?' - '+e(lg[2]):'')+'</option>'}).join('');
+  var u=new URLSearchParams(location.search),cl=u.get('club'),lg=u.get('league');
+  if(lg){D.L.forEach(function(x,i){if(x[0]===lg)L.value=i;});}
+  if(cl){for(var i=0;i<D.C.length;i++){if(D.C[i][3]===cl||D.C[i][0]===cl){choose(i);break;}}}
+  if(cl&&lg&&pick!=null)run();
+});
+})();</script>
+<footer class="site-footer">
+  <p>&copy; 2026 Matchday Insights &nbsp;·&nbsp; <a href="index.html">Rankings</a>
+  &nbsp;·&nbsp; <a href="leagues.html">Leagues</a>
+  &nbsp;·&nbsp; <a href="https://www.instagram.com/matchday.insights/" target="_blank" rel="noopener">Instagram</a>
+  &nbsp;·&nbsp; <a href="https://x.com/MDInsights_FC" target="_blank" rel="noopener">X</a></p>
+</footer>
+
+</body>
+</html>
