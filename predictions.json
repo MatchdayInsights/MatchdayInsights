@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T00:00:37+00:00",
+  "generated": "2026-11-15T00:07:15+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -438,7 +438,7 @@
       "competition_type": "league",
       "country": "Uruguay",
       "round": "Clausura - 14",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "2356",
       "home_team": "Club Nacional",
       "home_slug": "club-nacional",
