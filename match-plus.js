@@ -84,7 +84,10 @@
     ".mp-tm b{color:var(--text)}" +
     ".mp-hidexi .lus ol{display:none}.mp-hidexi .lus .bn{margin-top:2px}" +
     ".mf .strow .v.lead{font-weight:800}.mf .strow .v.lead.h{color:" + HOME + "}.mf .strow .v.lead.a{color:" + AWAY + "}" +
-    "@media (max-width:600px){.mp-pl .sh{width:26px;height:26px;font-size:11px}.mp-pl .nm{font-size:9.5px}.mp-pl .rt{right:-14px;font-size:9px}}";
+    ".mp-pl .sh{width:40px;height:40px;border-width:2.5px}" +
+    ".mp-pl .sh img.hs{position:absolute;inset:0;width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:50% 15%;background:#e9ecef}" +
+    ".mp-pl .sh .rt,.mp-pl .sh .ic{z-index:1}" +
+    "@media (max-width:600px){.mp-pl .sh{width:34px;height:34px;font-size:11px}.mp-pl .nm{font-size:9.5px}.mp-pl .rt{right:-14px;font-size:9px}}";
   var st = document.createElement("style"); st.textContent = CSS; document.head.appendChild(st);
 
   function goalsBy(d) {
@@ -160,7 +163,11 @@
           var rt = r[5] ? '<span class="rt ' + rateCls(r[5]) + '">' + Number(r[5]).toFixed(1) + "</span>" : "";
           var ic = mk[s + "|" + r[1]] ? '<span class="ic">' + mk[s + "|" + r[1]] + "</span>" : "";
           out += '<div class="mp-pl" style="left:' + x.toFixed(1) + "%;top:" + y.toFixed(1) + '%">' +
-            '<span class="sh" style="background:' + (s === "h" ? HOME : AWAY) + '">' + esc(r[0] == null ? "" : r[0]) + rt + ic + "</span>" +
+            // Headshot in a ring of the team's colour; the shirt number shows
+            // if there's no photo (Greg, 2026-11: "headshots on the lineup").
+            '<span class="sh" style="background:' + (s === "h" ? HOME : AWAY) + ";border-color:" + (s === "h" ? HOME : AWAY) + '">' +
+            esc(r[0] == null ? "" : r[0]) +
+            (r[4] ? '<img class="hs" src="' + photo(r[4]) + '" alt="" loading="lazy" onerror="this.remove()">' : "") + rt + ic + "</span>" +
             '<span class="nm">' + named(s, r[1], surname(r[1])) + "</span></div>";
         });
       });
