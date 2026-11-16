@@ -98,6 +98,16 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
 </script>
 <footer class="site-footer"><p>&copy; 2026 Matchday Insights &nbsp;&middot;&nbsp; <a href="../about.html">About</a></p></footer>
 <!-- live-tag -->
+<script>window.MI_PL={"h":{"e martinez":"damian-martinez-19599","j musso":"juan-musso-2465","g rulli":"geronimo-rulli-47296","lisandro martinez":"lisandro-martinez-2467","f medina":"facundo-medina-6231","n molina":"nahuel-molina-6503","g montiel":"gonzalo-montiel-2468","n otamendi":"nicolas-otamendi-624","c romero":"cristian-romero-30776","n tagliafico":"nicolas-tagliafico-529","v barco":"valentin-barco-319572","e fernandez":"enzo-fernandez-5996","g lo celso":"giovani-lo-celso-1578","a mac allister":"alexis-mac-allister-6716","e palacios":"exequiel-palacios-6002","l paredes":"leandro-paredes-271","n gonzalez":"nicolas-gonzalez-26315","r de paul":"rodrigo-de-paul-2472","t almada":"thiago-almada-6067","j alvarez":"julian-alvarez-6009","n paz":"nicolas-paz-350037","j lopez":"jose-lopez-295513","lautaro martinez":"lautaro-martinez-217","l messi":"lionel-messi-154","g simeone":"giuliano-simeone-323935","m senesi":"marcos-senesi-6610"},"a":{"k navas":"keylor-navas-731","p sequeira":"patrick-sequeira-135148","j mitchell":"jeyland-mitchell-297583","j peraza":"joseth-peraza-295228","j vargas":"juan-vargas-2836","j alcocer":"josimar-alcocer-323942","c nunez":"cristopher-nunez-13977","m ugalde":"manfred-ugalde-13898","a zamora":"alvaro-zamora-196254"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1647372" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>

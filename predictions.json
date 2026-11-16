@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T22:32:22+00:00",
+  "generated": "2026-11-16T23:32:31+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "league",
       "country": "Uruguay",
       "round": "Clausura - 14",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "2360",
       "home_team": "Wanderers",
       "home_slug": "wanderers",
@@ -87804,6 +87804,29 @@
       "p_draw": 0.2529,
       "p_away": 0.5243,
       "expected_score": 0.3492
+    },
+    {
+      "fixture_id": "1650025",
+      "date": "2026-12-07T23:00:00+00:00",
+      "competition": "Premier Division",
+      "competition_type": "league",
+      "country": "Antigua-And-Barbuda",
+      "round": "Regular Season - 7",
+      "status": "NS",
+      "home_team_id": "25288",
+      "home_team": "Potters Tigers",
+      "home_slug": "potters-tigers",
+      "home_rank": 2693,
+      "home_elo": 717.4,
+      "away_team_id": "22791",
+      "away_team": "All Saints United",
+      "away_slug": "all-saints-united",
+      "away_rank": 2100,
+      "away_elo": 799.6,
+      "p_home": 0.3292,
+      "p_draw": 0.2936,
+      "p_away": 0.3771,
+      "expected_score": 0.476
     }
   ],
   "estimated": [
