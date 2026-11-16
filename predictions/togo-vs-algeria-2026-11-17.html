@@ -98,6 +98,16 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
 </script>
 <footer class="site-footer"><p>&copy; 2026 Matchday Insights &nbsp;&middot;&nbsp; <a href="../about.html">About</a></p></footer>
 <!-- live-tag -->
+<script>window.MI_PL={"h":{"m barcola":"malcolm-barcola-153708","l bessile":"loic-bessile-22135","k boateng":"kennedy-boateng-7061","k boma":"kevin-boma-174774","d dakonam":"djene-dakonam-47250","s fofana":"sadik-fofana-280431","h koudossou":"henri-koudossou-319858","p nadjombe":"pierre-nadjombe-280459","f sana":"faad-sana-303325","s zuberu":"sharani-zuberu-131516","d karim":"dermane-karim-322865","s nador":"steven-nador-342045","s ouro":"samsondin-ouro-159379","y annor":"yaw-annor-119966","k denkey":"ahoueke-denkey-21036","k komlavi":"k-komlavi-577113","k laba":"kodjo-laba-36679","m ouro tagba":"mansour-ouro-tagba-380547"},"a":{"o benbot":"oussama-benbot-4414","m mastil":"melvin-mastil-304229","l zidane":"luca-zidane-732","a abada":"achref-abada-342740","r ait nouri":"rayan-ait-nouri-21138","z belaid":"zineddine-belaid-4561","r belghali":"rafik-belghali-303362","r bensebaini":"amir-bensebaini-2194","s chergui":"samir-chergui-20869","j hadjam":"jaouen-hadjam-271539","a mandi":"aissa-mandi-1567","h aouar":"houssem-eddine-aouar-658","n bentaleb":"nabil-bentaleb-409","h boudaoui":"hicham-boudaoui-4399","i maza":"ibrahim-maza-380587","y titraoui":"yacine-titraoui-327599","r zerrouki":"ramiz-zerrouki-129047","f chaibi":"fares-chaibi-276670","m amoura":"mohammed-amoura-200139","a benbouali":"ahmed-benbouali-292924","a boulbina":"adil-boulbina-329163","f ghedjemis":"fares-ghedjemis-334915","a gouiri":"amine-gouiri-85041","a hadj moussa":"anis-hadj-moussa-326067"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1545908" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>

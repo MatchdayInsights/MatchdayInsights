@@ -98,6 +98,16 @@ if(!box.dataset.got)fetch('../match_details/'+encodeURIComponent(box.dataset.fid
 </script>
 <footer class="site-footer"><p>&copy; 2026 Matchday Insights &nbsp;&middot;&nbsp; <a href="../about.html">About</a></p></footer>
 <!-- live-tag -->
+<script>window.MI_PL={"h":{},"a":{"a abdi":"ali-abdi-49583","a arous":"adam-arous-393977","a ben hmida":"mohamed-ben-hmida-135059","d bronn":"dylan-bronn-2945","o rekik":"omar-rekik-163068","m talbi":"montassar-talbi-50030","m ben ouanes":"ahmed-ben-ouanes-49469","k ayari":"k-ayari-533295","ismael gharbi":"ismael-gharbi-310196","i gharbi":"ismael-gharbi-310196","r khedira":"rani-khedira-25300","h mejbri":"hannibal-mejbri-180560","e skhiri":"ellyes-skhiri-21587","a ben slimane":"anis-ben-slimane-199310","s tounekti":"sebastian-tounekti-57518","e achouri":"mohamed-achouri-42012","r elloumi":"rayan-elloumi-566059","e saad":"elias-saad-323974"}};</script>
+<script>(function(){var L=window.MI_PL;if(!L)return;
+function k(n){return String(n||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function go(){var b=document.querySelectorAll('#tab-m .lus>div');[L.h,L.a].forEach(function(m,i){var d=b[i];if(!d||!m)return;
+d.querySelectorAll('ol li').forEach(function(li){var t=li.lastChild;if(!t||t.nodeType!==3)return;var s=m[k(t.textContent)];if(!s)return;
+var a=document.createElement('a');a.href='../players/'+s+'.html';a.textContent=t.textContent;li.replaceChild(a,t);});
+var bn=d.querySelector('.bn');if(bn&&!bn.querySelector('a')){var n=bn.textContent.replace(/^Bench: /,'').split(', ');
+if(n.some(function(x){return m[k(x)];}))bn.innerHTML='Bench: '+n.map(function(x){var s=m[k(x)];return s?'<a href="../players/'+s+'.html">'+e(x)+'</a>':e(x);}).join(', ');}});}
+var f=window.MIRenderMatch;if(f)window.MIRenderMatch=function(){var r=f.apply(this,arguments);go();return r;};go();})();</script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-fid="1545897" data-base="../" defer></script>
 <!-- /live-tag -->
 </body>
