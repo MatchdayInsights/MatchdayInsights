@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T18:32:27+00:00",
+  "generated": "2026-11-16T19:02:31+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "league",
       "country": "Peru",
       "round": "Clausura - 17",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "2539",
       "home_team": "UTC Cajamarca",
       "home_slug": "utc-cajamarca",
@@ -87867,6 +87867,29 @@
       "p_draw": 0.2053,
       "p_away": 0.1818,
       "expected_score": 0.7155
+    },
+    {
+      "fixture_id": "1551916",
+      "date": "2026-12-07T19:00:00+00:00",
+      "competition": "Eerste Divisie",
+      "competition_type": "league",
+      "country": "Netherlands",
+      "round": "Regular Season - 18",
+      "status": "NS",
+      "home_team_id": "411",
+      "home_team": "Jong PSV U21",
+      "home_slug": "jong-psv-u21",
+      "home_rank": 1631,
+      "home_elo": 861.5,
+      "away_team_id": "199",
+      "away_team": "De Graafschap",
+      "away_slug": "de-graafschap",
+      "away_rank": 1399,
+      "away_elo": 893.4,
+      "p_home": 0.3807,
+      "p_draw": 0.2929,
+      "p_away": 0.3264,
+      "expected_score": 0.5271
     }
   ],
   "estimated": [
