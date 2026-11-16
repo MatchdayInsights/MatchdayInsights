@@ -237,4 +237,79 @@
     fetch("../match_details/" + encodeURIComponent(box.dataset.fid) + ".json").then(function (r) { return r.ok ? r.json() : null; })
       .then(function (d) { if (d && box.querySelector(".mf,h3,.lus") && !box.querySelector(".mlive")) try { window.MIRenderMatch(d); } catch (e) {} }).catch(function () {});
   }
+
+  /* Tabs like FotMob's (Greg, 2026-11: "the full match data ... called
+     Facts, and then a tab up top that lists table, lineup, and all the
+     other data found in the facts"): Facts (everything, as before) |
+     Lineup | Stats | Table | Preview. Lineup and Stats show just that part
+     of the Facts tab; they appear once the match has them. National match
+     pages' group table becomes the Table tab. Look-only: no rebuild. */
+  var SEC = {"Match events": "ev", "Stats": "st", "Lineups": "lu", "Lineup": "lu"};
+  function markSections() {
+    var cur = "key";
+    [].forEach.call(box.children, function (c) {
+      if (c.tagName === "H3") cur = SEC[c.textContent.trim()] || "other";
+      else if (c.classList.contains("meta")) cur = "meta";
+      else if (c.classList.contains("mp-key")) cur = "key";
+      c.setAttribute("data-sec", cur);
+    });
+  }
+  var tabsBar = document.querySelector(".mtabs"), btnLu = null, btnSt = null;
+  function setView(v) {
+    ["lu", "st"].forEach(function (k) { box.classList.toggle("mv-" + k, v === k); });
+  }
+  function initTabs() {
+    if (!tabsBar || tabsBar.getAttribute("data-mi")) return;
+    tabsBar.setAttribute("data-mi", "1");
+    var facts = tabsBar.querySelector('button[data-t="m"]'); if (!facts) return;
+    facts.lastChild && facts.lastChild.nodeType === 3 ? (facts.lastChild.textContent = "Facts") : (facts.textContent = "Facts");
+    function mk(label, v) {
+      var b = document.createElement("button"); b.type = "button"; b.setAttribute("data-t", "m"); b.setAttribute("data-v", v);
+      b.textContent = label; b.hidden = true; return b;
+    }
+    btnLu = mk("Lineup", "lu"); btnSt = mk("Stats", "st");
+    facts.after(btnLu); btnLu.after(btnSt);
+    // National pages: the group table sits under the tabs - give it its own tab.
+    if (!document.getElementById("tab-t")) {
+      var tw = document.querySelector(".nt-mtw");
+      if (tw) {
+        var panel = document.createElement("div"); panel.className = "mpanel"; panel.id = "tab-t"; panel.hidden = true;
+        var h2 = tw.previousElementSibling && tw.previousElementSibling.tagName === "H2" ? tw.previousElementSibling : null;
+        tw.parentNode.insertBefore(panel, h2 || tw);
+        if (h2) panel.appendChild(h2);
+        panel.appendChild(tw);
+        var tb = document.createElement("button"); tb.type = "button"; tb.setAttribute("data-t", "t"); tb.textContent = "Table";
+        var prev = tabsBar.querySelector('button[data-t="p"]');
+        prev ? tabsBar.insertBefore(tb, prev) : tabsBar.appendChild(tb);
+      }
+    }
+    tabsBar.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      // The page's own handler shows the panel; this picks the part of Facts.
+      setView(b.getAttribute("data-v") || "");
+      tabsBar.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
+    });
+    var st = document.createElement("style");
+    st.textContent = ".mtabs[data-mi]{display:flex;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}" +
+      ".mtabs[data-mi]::-webkit-scrollbar{display:none}.mtabs[data-mi] button{flex:1 0 auto;white-space:nowrap}" +
+      "@media(max-width:640px){.mtabs[data-mi] button{padding-left:6px!important;padding-right:6px!important;font-size:15px!important}}" +
+      "#tab-m.mv-lu>:not([data-sec=lu]),#tab-m.mv-st>:not([data-sec=st]){display:none!important}" +
+      "#tab-m.mv-lu>h3[data-sec=lu],#tab-m.mv-st>h3[data-sec=st]{margin-top:4px}" +
+      "#tab-t>h2{margin-top:6px}";
+    document.head.appendChild(st);
+  }
+  function updateTabs() {
+    markSections();
+    if (!btnLu) return;
+    btnLu.hidden = !box.querySelector('[data-sec=lu]:not(h3)');
+    btnSt.hidden = !box.querySelector('[data-sec=st]:not(h3)');
+    var on = tabsBar.querySelector("button.on");
+    if (on && on.hidden) { var f = tabsBar.querySelector('button[data-t="m"]'); f.classList.add("on"); on.classList.remove("on"); setView(""); }
+  }
+  try { initTabs(); updateTabs(); } catch (e) {}
+  var f2 = window.MIRenderMatch;
+  if (typeof f2 === "function") {
+    window.MIRenderMatch = function () { var r = f2.apply(this, arguments); try { updateTabs(); } catch (e) {} return r; };
+  }
+  new MutationObserver(function () { try { updateTabs(); } catch (e) {} }).observe(box, {childList: true});
 })();
