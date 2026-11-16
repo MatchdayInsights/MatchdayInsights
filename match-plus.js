@@ -37,6 +37,11 @@
     var p = page(side, name), t = esc(text == null ? name : text);
     return p ? '<a href="../players/' + p + '.html">' + t + "</a>" : t;
   }
+  // The face links to the player's page too, like the name (Greg, 2026-11).
+  function linked(side, name, html) {
+    var p = page(side, name);
+    return p ? '<a class="mp-fl" href="../players/' + p + '.html" aria-label="' + esc(name) + '">' + html + "</a>" : html;
+  }
   function photo(id) { return id ? "https://media.api-sports.io/football/players/" + id + ".png" : ""; }
   function face(id, name, cls) {
     var ini = String(name || "?").split(" ").map(function (w) { return w[0] || ""; }).join("").slice(0, 2).toUpperCase();
@@ -85,6 +90,7 @@
     ".mp-hidexi .lus ol{display:none}.mp-hidexi .lus .bn{margin-top:2px}" +
     ".mf .strow .v.lead{font-weight:800}.mf .strow .v.lead.h{color:" + HOME + "}.mf .strow .v.lead.a{color:" + AWAY + "}" +
     ".mp-pl .sh{width:40px;height:40px;border-width:2.5px}" +
+    "a.mp-fl{display:inline-flex;color:inherit;text-decoration:none;border:0;-webkit-tap-highlight-color:transparent}a.mp-fl:active{opacity:.7}" +
     ".mp-pl .sh img.hs{position:absolute;inset:0;width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:50% 15%;background:#e9ecef}" +
     ".mp-pl .sh .rt,.mp-pl .sh .ic{z-index:1}" +
     "@media (max-width:600px){.mp-pl .sh{width:34px;height:34px;font-size:11px}.mp-pl .nm{font-size:9.5px}.mp-pl .rt{right:-14px;font-size:9px}}";
@@ -108,7 +114,7 @@
     var h = "", tp = d.tp;
     if (tp && tp[3]) {
       var tm = tp[0] === "h" ? H : A;
-      h += '<div class="mp-motm">' + face(tp[1], tp[2]) +
+      h += '<div class="mp-motm">' + linked(tp[0], tp[2], face(tp[1], tp[2])) +
         '<div><div class="mt">Player of the match</div><div class="mn">' + named(tp[0], tp[2]) +
         '</div><div class="ms">' + esc(tm) + " &middot; top match rating</div></div>" +
         '<div class="mr ' + rateCls(tp[3]) + '">' + Number(tp[3]).toFixed(1) + "</div></div>";
@@ -117,7 +123,7 @@
     if (g.h.length || g.a.length) {
       var col = function (list, side) {
         return list.map(function (x) {
-          return '<div class="mp-g">' + face(x.id, x.n) + "<span>" + named(x.from, x.n) +
+          return '<div class="mp-g">' + linked(x.from, x.n, face(x.id, x.n)) + "<span>" + named(x.from, x.n) +
             "<small>" + esc(x.m.join(", ")) + "</small></span></div>";
         }).join("");
       };
@@ -165,9 +171,9 @@
           out += '<div class="mp-pl" style="left:' + x.toFixed(1) + "%;top:" + y.toFixed(1) + '%">' +
             // Headshot in a ring of the team's colour; the shirt number shows
             // if there's no photo (Greg, 2026-11: "headshots on the lineup").
-            '<span class="sh" style="background:' + (s === "h" ? HOME : AWAY) + ";border-color:" + (s === "h" ? HOME : AWAY) + '">' +
+            linked(s, r[1], '<span class="sh" style="background:' + (s === "h" ? HOME : AWAY) + ";border-color:" + (s === "h" ? HOME : AWAY) + '">' +
             esc(r[0] == null ? "" : r[0]) +
-            (r[4] ? '<img class="hs" src="' + photo(r[4]) + '" alt="" loading="lazy" onerror="this.remove()">' : "") + rt + ic + "</span>" +
+            (r[4] ? '<img class="hs" src="' + photo(r[4]) + '" alt="" loading="lazy" onerror="this.remove()">' : "") + rt + ic + "</span>") +
             '<span class="nm">' + named(s, r[1], surname(r[1])) + "</span></div>";
         });
       });
