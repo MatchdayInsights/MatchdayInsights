@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T19:02:31+00:00",
+  "generated": "2026-11-16T19:32:32+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "league",
       "country": "Peru",
       "round": "Clausura - 17",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "2539",
       "home_team": "UTC Cajamarca",
       "home_slug": "utc-cajamarca",
@@ -323,7 +323,7 @@
       "competition_type": "league",
       "country": "Mali",
       "round": "Regular Season - 3",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "12668",
       "home_team": "Bakaridjan",
       "home_slug": "bakaridjan",
