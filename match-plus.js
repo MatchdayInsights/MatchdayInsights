@@ -91,31 +91,47 @@
     ".mp-g .mp-face{width:34px;height:34px}" +
     ".mp-face{position:relative;flex:none;border-radius:50%;overflow:hidden;background:var(--surface2);border:2px solid var(--border2);display:inline-flex;align-items:center;justify-content:center}" +
     ".mp-face b{font-size:12px;color:var(--muted)}.mp-face img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--surface2)}" +
-    ".mp-pw{max-width:560px;margin:10px auto 6px;border-radius:16px;overflow:hidden;background:#3d8f5a}" +
-    ".mp-tb{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#47a066;color:#fff;font-size:15px}" +
-    ".mp-tb b{font-weight:700}.mp-tb span:not(.rt){color:rgba(255,255,255,.75);font-weight:600;margin-left:2px}" +
-    ".mp-tb .rt{font-size:13px;font-weight:800;border-radius:999px;padding:3px 9px;color:#fff}" +
-    ".mp-pitch{position:relative;aspect-ratio:68/150;background:#3d8f5a;overflow:hidden}" +
-    ".mp-pitch .ln{position:absolute;border:2px solid rgba(255,255,255,.18);pointer-events:none}" +
+    // Our own pitch (Greg, 2026-11: "is there any risk of fotmob ... saying
+    // that i am copying"): mown stripes, white value chips under the faces in
+    // our own colour bands, our own goal / assist / sub marks.
+    ".mp-pw{max-width:560px;margin:10px auto 6px;border-radius:16px;overflow:hidden;background:#1f6b45;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}" +
+    ".mp-tb{display:flex;align-items:center;gap:8px;padding:11px 14px;background:rgba(0,0,0,.2);color:#fff;font-size:15px}" +
+    ".mp-tb .dot{width:9px;height:9px;border-radius:50%;flex:none}.mp-tb b{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
+    ".mp-tb span.fm{color:rgba(255,255,255,.65);font-weight:600}" +
+    ".mp-tb .rt{margin-left:auto;font-size:13px;font-weight:800;border-radius:6px;padding:2px 7px;background:#fff}" +
+    ".mp-vw{display:flex;gap:4px;padding:8px 10px 0;background:#1f6b45}" +
+    ".mp-vw button{flex:1;font:inherit;font-size:12.5px;font-weight:700;color:rgba(255,255,255,.75);background:rgba(0,0,0,.18);border:0;border-radius:999px;padding:7px 4px;cursor:pointer;-webkit-tap-highlight-color:transparent}" +
+    ".mp-vw button.on{background:#fff;color:#1f6b45}" +
+    ".mp-pitch{position:relative;aspect-ratio:68/150;overflow:hidden;background:repeating-linear-gradient(180deg,#1f6b45 0 6.25%,#23744b 6.25% 12.5%)}" +
+    ".mp-pitch .ln{position:absolute;border:2px solid rgba(255,255,255,.16);pointer-events:none}" +
     ".mp-pitch .half{left:0;right:0;top:50%;height:0;border-width:2px 0 0}" +
     ".mp-pitch .cc{left:50%;top:50%;width:30%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%}" +
     ".mp-pitch .bx{left:20%;right:20%;height:11%;border-radius:0 0 6px 6px}.mp-pitch .bx.t{top:-2px}.mp-pitch .bx.b{bottom:-2px;border-radius:6px 6px 0 0}" +
     ".mp-pitch .gx{left:36%;right:36%;height:4%}.mp-pitch .gx.t{top:-2px}.mp-pitch .gx.b{bottom:-2px}" +
-    ".mp-pl{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;width:25%;text-align:center}" +
+    ".mp-pl{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;width:24%;text-align:center}" +
     ".mp-pl .mk{position:relative;width:52px;height:52px}" +
     ".mp-pl a.mp-fl{display:block;width:100%;height:100%}" +
-    ".mp-pl .ph{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-radius:50%;overflow:hidden;background:#eef0f2;box-shadow:0 1px 4px rgba(0,0,0,.25)}" +
-    ".mp-pl .ph b{font-size:15px;font-weight:800;color:#3d8f5a}" +
-    ".mp-pl .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%;background:#eef0f2}" +
-    ".mp-pl .rt{position:absolute;top:-6px;right:-14px;font-size:11.5px;font-weight:800;color:#fff;border-radius:999px;padding:2px 7px;line-height:1.25;z-index:2}" +
-    ".mp-pl .so{position:absolute;top:-4px;left:-6px;width:19px;height:19px;z-index:2}" +
-    ".mp-pl .sm{position:absolute;top:-21px;left:-10px;font-size:11px;font-weight:600;color:#fff;z-index:2}" +
-    ".mp-pl .br{position:absolute;bottom:-4px;right:-8px;display:flex;z-index:2}.mp-pl .br .bi{width:18px;height:18px;margin-left:-5px;display:block}" +
-    ".mp-pl .cd{position:absolute;bottom:-2px;left:-4px;width:11px;height:15px;border-radius:2px;z-index:2;box-shadow:0 0 0 1.5px #fff}.mp-pl .cd.y{background:#f5c518}.mp-pl .cd.r{background:#e5484d}" +
-    ".mp-pl .nm{display:block;width:100%;margin-top:7px;font-size:13px;font-weight:600;color:#fff;line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
-    ".mp-pl .nm i{font-style:normal;color:rgba(255,255,255,.65);font-weight:500}.mp-pl .nm a{color:#fff;text-decoration:none}" +
-    "@media (max-width:600px){.mp-pl .mk{width:46px;height:46px}.mp-pl .nm{font-size:11.5px}.mp-pl .nm i{font-size:10.5px}.mp-pl .rt{font-size:10.5px;right:-12px}}" +
-    ".r8{background:#1a9b55}.r7{background:#4caf50}.r6{background:#ef8a2e}.r5{background:#e5484d}" +
+    ".mp-pl .ph{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-radius:50%;overflow:hidden;background:#e9eee9;box-shadow:0 0 0 2px rgba(255,255,255,.9),0 2px 6px rgba(0,0,0,.3)}" +
+    ".mp-pl .ph b{font-size:15px;font-weight:800;color:#1f6b45}" +
+    ".mp-pl .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%;background:#e9eee9}" +
+    // The value chip: under the face, centred - rating, crest, flag or rank.
+    ".mp-pl .ch{display:none;position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);z-index:2;background:#fff;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.35);font-size:11.5px;font-weight:800;line-height:1;padding:3px 5px;white-space:nowrap;color:#26313a}" +
+    ".mp-pl .ch img{display:block;width:18px;height:18px;object-fit:contain}.mp-pl .ch.fl{padding:3px}.mp-pl .ch.fl img{width:20px;height:15px;object-fit:cover;border-radius:2px}" +
+    ".mp-pl .ch.cr{padding:2px}" +
+    ".mp-pw[data-m=r] .v-r,.mp-pw[data-m=c] .v-c,.mp-pw[data-m=k] .v-k,.mp-pw[data-m=n] .v-n{display:block}" +
+    ".mp-pl .so{position:absolute;top:-8px;left:-12px;z-index:2;display:flex;align-items:center;gap:1px;background:rgba(15,25,20,.78);color:#fff;font-size:10.5px;font-weight:700;border-radius:6px;padding:2px 4px 2px 2px;line-height:1}" +
+    ".mp-pl .so svg{width:11px;height:11px}" +
+    ".mp-pl .br{position:absolute;top:-6px;right:-10px;display:flex;gap:2px;z-index:2}.mp-pl .br .bi{width:17px;height:17px;display:block}" +
+    ".mp-pl .br .as{width:17px;height:17px;border-radius:50%;background:#fff;color:#1f6b45;font-size:10px;font-weight:900;font-style:normal;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 2px rgba(0,0,0,.3)}" +
+    ".mp-pl .cd{position:absolute;top:50%;left:-9px;margin-top:-7px;width:10px;height:14px;border-radius:2px;z-index:2;box-shadow:0 0 0 1.5px #fff}.mp-pl .cd.y{background:#f5c518}.mp-pl .cd.r{background:#e5484d}" +
+    ".mp-pl .nm{display:block;width:100%;margin-top:13px;font-size:13px;font-weight:600;color:#fff;line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
+    ".mp-pl .nm i{font-style:normal;color:rgba(255,255,255,.6);font-weight:500}.mp-pl .nm a{color:#fff;text-decoration:none}" +
+    ".mp-pl .wl{display:none;width:100%;font-size:10.5px;color:rgba(255,255,255,.72);line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
+    ".mp-pw[data-m=c] .wl.v-c,.mp-pw[data-m=k] .wl.v-k,.mp-pw[data-m=n] .wl.v-n{display:block}" +
+    "@media (max-width:600px){.mp-pl .mk{width:46px;height:46px}.mp-pl .nm{font-size:11.5px}.mp-pl .nm i{font-size:10.5px}.mp-pl .ch{font-size:10.5px}.mp-pl .wl{font-size:9.5px}}" +
+    // Our colour bands (8+ deep green, 7+ green, 6+ slate, under 6 burnt orange).
+    ".r8{background:#0a7d40}.r7{background:#2f9e57}.r6{background:#5f6b75}.r5{background:#c2410c}" +
+    ".q8,.mp-pl .ch.q8{color:#0a7d40}.q7,.mp-pl .ch.q7{color:#2f9e57}.q6,.mp-pl .ch.q6{color:#4b5661}.q5,.mp-pl .ch.q5{color:#c2410c}" +
     ".mp-tm{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);max-width:520px;margin:10px auto 0}" +
     ".mp-tm b{color:var(--text)}" +
     ".mp-hidexi .lus ol{display:none}.mp-hidexi .lus .bn{margin-top:2px}" +
@@ -174,29 +190,47 @@
     return m;
   }
 
-  /* The pitch, FotMob-style (Greg, 2026-11: "look at fotmob, look at mine.
-     Mine looks amateur"): one tall pitch, home keeper at the top and the
-     away keeper at the bottom, each team's bar (average rating, name,
-     formation) at its end; big headshots on white with the rating at the
-     top right, the minute and a red arrow when subbed off, balls for goals,
-     a boot for assists, cards; "13 Treu" under each face. */
-  var BALL = '<svg viewBox="0 0 24 24" width="100%" height="100%"><circle cx="12" cy="12" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/><path d="M12 7l4 3-1.5 4.6h-5L8 10z" fill="#222"/><path d="M12 7V3.5M16 10l3.4-1.2M14.5 14.6l2.2 3M9.5 14.6l-2.2 3M8 10L4.6 8.8" stroke="#222" stroke-width="1.3"/></svg>';
-  var BOOT = '<svg viewBox="0 0 24 24" width="100%" height="100%"><circle cx="12" cy="12" r="11.5" fill="#fff"/><path d="M5 9h5l1.5 3.5c2.5.4 5.5 1 7 2.2.6.5.5 1.8-.4 1.8H5.5A1 1 0 0 1 4.5 15z" fill="#222"/></svg>';
-  var OFF = '<svg viewBox="0 0 24 24" width="100%" height="100%"><circle cx="12" cy="12" r="11.5" fill="#fff"/><circle cx="12" cy="12" r="9" fill="#e5484d"/><path d="M16 12H8.5M11.5 8.5L8 12l3.5 3.5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  /* The pitch (Greg, 2026-11): one tall pitch, home keeper at the top and
+     the away keeper at the bottom, each team's bar (name, formation, average
+     rating) at its end; headshots with a value chip under each face, the
+     minute subbed off, goals, assists and cards; "13 Treu" under the face.
+     Views above it (Greg: "have the club rank be a tab ... the club in the
+     case of national team matches and nation in the case of club matches.
+     And have it default to the match rating"): Rating | Club | Club rank on
+     national team matches, Rating | Nation on club matches - from
+     window.MI_WHO (player_who.py via live_tags.py). A view shows only when
+     at least 5 starters have its data. */
+  var BALL = '<svg viewBox="0 0 20 20" width="100%" height="100%"><circle cx="10" cy="10" r="9.2" fill="#fff" stroke="#26313a" stroke-width="1.4"/><circle cx="10" cy="10" r="3.2" fill="#26313a"/><path d="M10 1.5v5.3M18.2 8l-5 1.2M15 17l-3-4.4M5 17l3-4.4M1.8 8l5 1.2" stroke="#26313a" stroke-width="1.2"/></svg>';
+  var DOWN = '<svg viewBox="0 0 12 12"><path d="M6 2v7M2.8 6.2L6 9.4l3.2-3.2" stroke="#ff8a7a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var MODE = "r";
+  var NATIONAL = !!document.querySelector(".nt-fx,.nt-mtw,main.nt");
+  var FLAG = "https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/flags/4x3/";
+  function pid(side, r) {
+    if (r[4]) return String(r[4]);
+    var p = page(side, r[1]), m = p && /-(\d+)$/.exec(p);
+    return m ? m[1] : null;
+  }
+  function who(side, r) {
+    var W = window.MI_WHO, id = W && pid(side, r), v = id && W.p && W.p[id];
+    if (!v) return null;
+    var c = v[0] && W.c && W.c[v[0]], n = v[1] && W.n && W.n[v[1]];
+    return {cid: v[0], club: c ? c[0] : "", crank: c ? c[1] : null, nat: v[1] || "", flag: n ? n[0] : "", nrank: n ? n[1] : null};
+  }
   function avg(xi) {
     var r = xi.map(function (x) { return +x[5] || 0; }).filter(function (v) { return v > 0; });
     return r.length ? r.reduce(function (a, b) { return a + b; }, 0) / r.length : 0;
   }
   function bar(side, t) {
     var a = avg(t.xi), nm = side === "h" ? H : A;
-    return '<div class="mp-tb ' + side + '">' + (a ? '<span class="rt ' + rateCls(a) + '">' + a.toFixed(1) + "</span>" : "") +
-      "<b>" + esc(nm) + "</b>" + (t.f ? "<span>" + esc(t.f) + "</span>" : "") + "</div>";
+    return '<div class="mp-tb ' + side + '"><span class="dot" style="background:' + (side === "h" ? HOME : AWAY) + '"></span>' +
+      "<b>" + esc(nm) + "</b>" + (t.f ? '<span class="fm">' + esc(t.f) + "</span>" : "") +
+      (a ? '<span class="rt ' + rateCls(a).replace("r", "q") + '">' + a.toFixed(1) + "</span>" : "") + "</div>";
   }
   function pitch(d) {
     var lu = d.lu || {};
     var ok = function (s) { var t = lu[s]; return t && t.xi && t.xi.length >= 7 && t.xi.every(function (r) { return r[3] && /^\d+:\d+$/.test(r[3]); }); };
     if (!ok("h") && !ok("a")) return "";
-    var mk = marks(d), out = "";
+    var mk = marks(d), out = "", have = {c: 0, k: 0, n: 0};
     ["h", "a"].forEach(function (s) {
       if (!ok(s)) return;
       var xi = lu[s].xi, rows = {};
@@ -209,29 +243,54 @@
           // Home: keeper at the top, attack down to the middle; away mirrored.
           var depth = nrows > 1 ? (row - 1) / (nrows - 1) : 0;
           var y = s === "h" ? 6 + depth * 37 : 94 - depth * 37;
-          var x = (i + 1) / (n + 1) * 100;
+          // Spread each line across the pitch, not bunched in the middle
+          // (Greg, 2026-11: "make the lineup wider").
+          var edge = n >= 5 ? 10 : n === 4 ? 12 : n === 3 ? 20 : 30;
+          var x = n > 1 ? edge + i * (100 - 2 * edge) / (n - 1) : 50;
           if (s === "h") x = 100 - x;                    // the home side faces down the page
-          var badges = "";
-          if (r[5]) badges += '<span class="rt ' + rateCls(r[5]) + '">' + Number(r[5]).toFixed(1) + "</span>";
-          if (m.off) badges += '<span class="so">' + OFF + '</span><span class="sm">' + esc(m.off) + "</span>";
+          var badges = "", lines = "", w = who(s, r);
+          if (r[5]) badges += '<span class="ch v-r ' + rateCls(r[5]).replace("r", "q") + '">' + Number(r[5]).toFixed(1) + "</span>";
+          if (w && w.cid) {
+            have.c++; badges += '<span class="ch cr v-c"><img src="../crests/' + esc(w.cid) + '.png" alt="" loading="lazy" onerror="this.remove()"></span>';
+            lines += '<span class="wl v-c">' + esc(w.club) + "</span>";
+            if (w.crank) { have.k++; badges += '<span class="ch v-k">#' + esc(w.crank) + "</span>"; lines += '<span class="wl v-k">' + esc(w.club) + "</span>"; }
+          }
+          if (w && w.nat) {
+            have.n++;
+            badges += '<span class="ch fl v-n">' + (w.flag ? '<img src="' + FLAG + esc(w.flag) + '.svg" alt="" loading="lazy">' : esc(w.nat.slice(0, 3).toUpperCase())) + "</span>";
+            lines += '<span class="wl v-n">' + esc(w.nat) + (w.nrank ? " &middot; No. " + esc(w.nrank) : "") + "</span>";
+          }
+          if (m.off) badges += '<span class="so">' + DOWN + esc(m.off) + "</span>";
           var bl = "";
           for (var gi = 0; gi < Math.min(m.g || 0, 3); gi++) bl += '<i class="bi">' + BALL + "</i>";
-          for (var ai = 0; ai < Math.min(m.a || 0, 2); ai++) bl += '<i class="bi">' + BOOT + "</i>";
+          for (var ai = 0; ai < Math.min(m.a || 0, 2); ai++) bl += '<i class="as">A</i>';
           if (bl) badges += '<span class="br">' + bl + "</span>";
           if (m.r) badges += '<span class="cd r"></span>'; else if (m.y) badges += '<span class="cd y"></span>';
           var ph = '<span class="ph"><b>' + esc(r[0] == null ? "" : r[0]) + "</b>" +
             (r[4] ? '<img src="' + photo(r[4]) + '" alt="" loading="lazy" onerror="this.remove()">' : "") + "</span>";
           out += '<div class="mp-pl" style="left:' + x.toFixed(1) + "%;top:" + y.toFixed(1) + '%">' +
             '<div class="mk">' + linked(s, r[1], ph, r[4]) + badges + "</div>" +
-            '<span class="nm">' + (r[0] != null ? "<i>" + esc(r[0]) + "</i> " : "") + named(s, r[1], surname(r[1]), r[4]) + "</span></div>";
+            '<span class="nm">' + (r[0] != null ? "<i>" + esc(r[0]) + "</i> " : "") + named(s, r[1], surname(r[1]), r[4]) + "</span>" + lines + "</div>";
         });
       });
     });
-    var lines = '<span class="ln half"></span><span class="ln cc"></span><span class="ln bx t"></span><span class="ln bx b"></span>' +
+    var views = NATIONAL ? [["r", "Rating"], ["c", "Club"], ["k", "Club rank"]] : [["r", "Rating"], ["n", "Nation"]];
+    views = views.filter(function (v) { return v[0] === "r" || have[v[0]] >= 5; });
+    if (!views.some(function (v) { return v[0] === MODE; })) MODE = "r";
+    var tabs = views.length > 1 ? '<div class="mp-vw" role="tablist">' + views.map(function (v) {
+      return '<button type="button" data-m="' + v[0] + '"' + (v[0] === MODE ? ' class="on"' : "") + ">" + v[1] + "</button>";
+    }).join("") + "</div>" : "";
+    var pl = '<span class="ln half"></span><span class="ln cc"></span><span class="ln bx t"></span><span class="ln bx b"></span>' +
       '<span class="ln gx t"></span><span class="ln gx b"></span>';
-    return '<div class="mp-pw">' + (ok("h") ? bar("h", lu.h) : "") + '<div class="mp-pitch">' + lines + out + "</div>" +
+    return '<div class="mp-pw" data-m="' + MODE + '">' + tabs + (ok("h") ? bar("h", lu.h) : "") + '<div class="mp-pitch">' + pl + out + "</div>" +
       (ok("a") ? bar("a", lu.a) : "") + "</div>";
   }
+  box.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".mp-vw button"); if (!b) return;
+    MODE = b.getAttribute("data-m");
+    var pw = b.closest(".mp-pw"); pw.setAttribute("data-m", MODE);
+    pw.querySelectorAll(".mp-vw button").forEach(function (x) { x.classList.toggle("on", x === b); });
+  });
 
   function decorate(d) {
     if (!d) return;
