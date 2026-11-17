@@ -451,7 +451,9 @@ function row(m){
   }
   if(m.up){const who=m.up[0]==='h'?m.h.n:m.a.n;extra=`<div class="up">UPSET &middot; ${esc(who)} had a ${m.up[1]}% chance</div>`;}
   if(m.new&&!extra)extra=`<div class="up" style="color:var(--muted)">Just finished &middot; ratings update shortly</div>`;
-  const pg=(m.pg?` data-pg="${esc(m.pg)}"`:'')+(m.h.i?` data-hi="${esc(m.h.i)}"`:'')+(m.a.i?` data-ai="${esc(m.a.i)}"`:'');
+  // National teams carry "nt:<slug>", the id they're followed by (Greg, 2026-11).
+  const hi=m.h.i||(m.h.nt?'nt:'+m.h.nt:''), ai=m.a.i||(m.a.nt?'nt:'+m.a.nt:'');
+  const pg=(m.pg?` data-pg="${esc(m.pg)}"`:'')+(hi?` data-hi="${esc(hi)}"`:'')+(ai?` data-ai="${esc(ai)}"`:'');
   const det=m.d&&m.st==='ft'?` data-d="${esc(m.id)}" tabindex="0" role="button" aria-expanded="false"`:'';
   // Upcoming: tap opens our odds, the bookies' and each side's form (Greg, 2026-11).
   const pv=m.o&&!det?` data-u="1" data-o="${m.o.join(',')}"${m.b?` data-b="${m.b.join(',')}"`:''}${m.h.f?` data-fh="${esc(m.h.f)}"`:''}${m.a.f?` data-fa="${esc(m.a.f)}"`:''} tabindex="0" role="button" aria-expanded="false"`:'';
