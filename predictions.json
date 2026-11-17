@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T19:01:58+00:00",
+  "generated": "2026-11-17T19:31:54+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "cup",
       "country": "England",
       "round": "Group South - 4",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "1359",
       "home_team": "Luton",
       "home_slug": "luton",
