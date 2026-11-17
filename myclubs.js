@@ -1,5 +1,5 @@
 /* Matchday Insights - "My clubs" (Greg, 2026-10).
-   Star a club on its page; starred clubs then show first:
+   Star a club (or, from 2026-11, a national team) on its page; starred clubs then show first:
      - homepage: a strip of your clubs with rank, rating and last move
      - matches page: a "My clubs" box at the top with their matches that day
    Saved in this browser only (localStorage), nothing on our side.
@@ -45,8 +45,14 @@
     b.addEventListener('click', function () {
       var list = load(), id = String(b.dataset.i);
       if (has(id)) list = list.filter(function (c) { return String(c.i) !== id; });
-      else list.push({i: id, n: b.dataset.n, s: b.dataset.s});
+      else {
+        var e = {i: id, n: b.dataset.n, s: b.dataset.s};
+        // National teams (Greg, 2026-11): their API id for live scores/alerts, and the flag.
+        if (id.indexOf('nt:') === 0) { e.nt = 1; e.a = b.dataset.a || ''; e.f = b.dataset.f || ''; }
+        list.push(e);
+      }
       save(list); paint();
+      try { document.dispatchEvent(new CustomEvent('mi-myclubs')); } catch (er) {}
     });
     paint();
   });
@@ -61,6 +67,11 @@
       var by = {}; all.forEach(function (c) { by[String(c.team_id)] = c; });
       strip.className = 'my-strip';
       strip.innerHTML = '<div class="my-h">' + STAR + 'My clubs</div><div class="my-row">' + mine.map(function (m) {
+        if (m.nt) {                       // a national team: flag, its page, no club rank
+          return '<a class="my-c" href="' + base + 'nations/' + esc(m.s) + '.html">' +
+            (m.f ? '<img src="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/flags/4x3/' + esc(m.f) + '.svg" alt="" style="width:30px;height:22px;border-radius:3px;object-fit:cover" onerror="this.remove()">' : '') +
+            '<div><b>' + esc(m.n) + '</b><span>National team</span></div></a>';
+        }
         var c = by[String(m.i)] || {};
         var mv = c.rank_change > 0 ? '<span class="up">&#9650;' + c.rank_change + '</span>'
                : c.rank_change < 0 ? '<span class="dn">&#9660;' + (-c.rank_change) + '</span>' : '';

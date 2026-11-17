@@ -114,7 +114,9 @@
     var CFG = null, asked = null;
     function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
     function set(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} }
-    function clubs() { try { return (JSON.parse(get("mi_myclubs") || "[]") || []).map(function (c) { return String(c.i); }); } catch (e) { return []; } }
+    // A national team is followed as "nt:<slug>" (kick-off reminders) and by
+    // its API-Football id "a" (goals and full time come with that) - 2026-11.
+    function clubs() { try { var o = []; (JSON.parse(get("mi_myclubs") || "[]") || []).forEach(function (c) { o.push(String(c.i)); if (c.a) o.push(String(c.a)); }); return o; } catch (e) { return []; } }
     function prefs() {
       var p = {ft: 1, rk: 1, ko: 0, gl: 0};
       try { var s = JSON.parse(get("mi_push_prefs") || "null"); if (s) for (var k in p) if (k in s) p[k] = s[k] ? 1 : 0; } catch (e) {}

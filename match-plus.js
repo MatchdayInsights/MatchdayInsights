@@ -230,12 +230,13 @@
     var lu = d.lu || {};
     var ok = function (s) { var t = lu[s]; return t && t.xi && t.xi.length >= 7 && t.xi.every(function (r) { return r[3] && /^\d+:\d+$/.test(r[3]); }); };
     if (!ok("h") && !ok("a")) return "";
-    var mk = marks(d), out = "", have = {c: 0, k: 0, n: 0};
+    var mk = marks(d), out = "", have = {c: 0, k: 0, n: 0}, deepest = 4;
     ["h", "a"].forEach(function (s) {
       if (!ok(s)) return;
       var xi = lu[s].xi, rows = {};
       xi.forEach(function (r) { var g = r[3].split(":"), row = +g[0]; (rows[row] = rows[row] || []).push([+g[1], r]); });
       var nrows = Math.max.apply(null, Object.keys(rows).map(Number));
+      deepest = Math.max(deepest, nrows);
       Object.keys(rows).forEach(function (rk) {
         var list = rows[rk].sort(function (x, y) { return x[0] - y[0]; }), n = list.length, row = +rk;
         list.forEach(function (c, i) {
@@ -280,9 +281,13 @@
     var tabs = views.length > 1 ? '<div class="mp-vw" role="tablist">' + views.map(function (v) {
       return '<button type="button" data-m="' + v[0] + '"' + (v[0] === MODE ? ' class="on"' : "") + ">" + v[1] + "</button>";
     }).join("") + "</div>" : "";
+    // Five or more lines (4-2-3-1...) get a taller pitch, so a club or nation
+    // line under a name doesn't run into the next row's faces (Greg, 2026-11:
+    // "Overlaps").
+    var tall = deepest >= 5 ? ' style="aspect-ratio:68/' + Math.round(150 * (deepest - 1) / 3) + '"' : "";
     var pl = '<span class="ln half"></span><span class="ln cc"></span><span class="ln bx t"></span><span class="ln bx b"></span>' +
       '<span class="ln gx t"></span><span class="ln gx b"></span>';
-    return '<div class="mp-pw" data-m="' + MODE + '">' + tabs + (ok("h") ? bar("h", lu.h) : "") + '<div class="mp-pitch">' + pl + out + "</div>" +
+    return '<div class="mp-pw" data-m="' + MODE + '">' + tabs + (ok("h") ? bar("h", lu.h) : "") + '<div class="mp-pitch"' + tall + '>' + pl + out + "</div>" +
       (ok("a") ? bar("a", lu.a) : "") + "</div>";
   }
   box.addEventListener("click", function (e) {

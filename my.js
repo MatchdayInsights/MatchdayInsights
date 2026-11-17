@@ -24,6 +24,16 @@
   function fname(id) { return String(id).replace(/:/g, '-'); }
   function sign(x, d) { return (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(d == null ? 1 : d); }
   function rk(n) { return 'No. ' + Number(n).toLocaleString('en-US'); }
+  // National teams can be followed too (Greg, 2026-11): id "nt:<slug>", a flag
+  // instead of a crest, their page under nations/, and "a" = the API id the
+  // live scores use.
+  var FLAG = 'https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/flags/4x3/';
+  function isNt(id) { return String(id).indexOf('nt:') === 0; }
+  function badge(id, fl, cls) {
+    if (isNt(id)) return fl ? '<img class="' + (cls || '') + ' mc-flag" src="' + FLAG + esc(fl) + '.svg" alt="" onerror="this.style.visibility=\'hidden\'">' : '<span class="mc-flag"></span>';
+    return '<img src="/crests/' + esc(fname(id)) + '.png" alt="" onerror="this.style.visibility=\'hidden\'">';
+  }
+  function liveId(m) { return m.a || (DATA[m.i] && DATA[m.i].a) || m.i; }
 
   var css = document.createElement('style');
   css.textContent =
@@ -40,7 +50,8 @@
     '.mc{background:var(--surface2);border:1px solid var(--border2);border-radius:14px;overflow:hidden}' +
     '.mc.live{border-color:rgba(229,72,77,.55)}' +
     '.mc-top{display:flex;align-items:center;gap:12px;padding:13px 14px 11px;text-decoration:none!important;color:var(--text)}' +
-    '.mc-top img{width:44px;height:44px;object-fit:contain;flex:none}' +
+    '.mc-top img{width:44px;height:44px;object-fit:contain;flex:none}.mc-top .mc-flag{width:44px;height:33px;object-fit:cover;border-radius:4px;box-shadow:0 0 0 1px var(--border2)}' +
+    '.myp-res .mc-flag{width:26px;height:19px;object-fit:cover;border-radius:3px}' +
     '.mc-nm{flex:1;min-width:0}.mc-nm b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;' +
     'font-family:"JetBrains Mono",Inter,sans-serif;font-size:18px;font-weight:700;line-height:1.15;letter-spacing:-.01em;overflow-wrap:anywhere}' +
     '.mc-nm span{font-family:"JetBrains Mono",sans-serif;font-size:11.5px;color:var(--text2)}' +
@@ -100,12 +111,13 @@
              : '<span class="mcx-same">&mdash;</span>';
     var ch = c.c != null ? ' &middot; <span class="' + (c.c >= 0 ? 'mcx-up' : 'mcx-dn') + '">' + sign(c.c) + '</span>' : '';
     var h = '<div class="mc" data-i="' + esc(m.i) + '">' +
-      '<div class="mc-top"><a href="/clubs/' + esc(slug) + '.html" style="display:contents;color:inherit">' +
-      '<img src="/crests/' + esc(fname(m.i)) + '.png" alt="" onerror="this.style.visibility=\'hidden\'">' +
-      '<div class="mc-nm"><b>' + esc(name) + '</b><span>' + (c.e != null ? 'Rating ' + c.e.toFixed(1) + ch : 'Not ranked') + '</span></div>' +
+      '<div class="mc-top"><a href="/' + (isNt(m.i) ? 'nations/' : 'clubs/') + esc(slug) + '.html" style="display:contents;color:inherit">' +
+      badge(m.i, c.fl || m.f) +
+      '<div class="mc-nm"><b>' + esc(name) + '</b><span>' + (isNt(m.i) ? 'National team &middot; ' : '') +
+      (c.e != null ? 'Rating ' + c.e.toFixed(isNt(m.i) ? 0 : 1) + ch : 'Not ranked') + '</span></div>' +
       '<div class="mc-rk">' + (c.r ? '<b>' + rk(c.r) + '</b>' + mv : '') + '</div></a>' +
       '<button class="mc-star" type="button" aria-label="Unfollow ' + esc(name) + '">' + STAR + '</button></div>';
-    h += liveRow(m.i, name);
+    h += liveRow(liveId(m), name);
     var l = c.l;
     if (l && l.r) {
       var where = l.v === 'H' ? 'v' : l.v === 'A' ? 'at' : 'v';
@@ -116,7 +128,7 @@
         form + '</small></span>' + (l.pg ? '<span class="mcx-gt">&rsaquo;</span></a>' : '</div>');
     }
     var x = c.x;
-    if (x && !(LIVEROWS && findRow(m.i) && findRow(m.i).fid == x.fid)) {
+    if (x && !(LIVEROWS && findRow(liveId(m)) && findRow(liveId(m)).fid == x.fid)) {
       var p = x.p || [];
       var odds = p[0] != null ? '<span class="mcx-odds"><i class="w" style="width:' + (p[0] * 100) + '%"></i><i class="d" style="width:' +
         (p[1] * 100) + '%"></i><i class="l" style="width:' + (p[2] * 100) + '%"></i></span>' +
@@ -162,15 +174,16 @@
   function draw() {
     var mine = load();
     if (!mine.length) {
-      listEl.innerHTML = '<div class="myp-empty"><b>Follow your clubs</b>Search below and tap a club. Its rank, live score, ' +
+      listEl.innerHTML = '<div class="myp-empty"><b>Follow your clubs</b>Search below and tap a club or a national team. Its rank, live score, ' +
         'last result and next match will live here.</div>';
       return;
     }
-    var live = mine.filter(function (m) { var f = findRow(m.i); return f && LIVE[f.row[2]]; });
+    var live = mine.filter(function (m) { var f = findRow(liveId(m)); return f && LIVE[f.row[2]]; });
     var rest = mine.filter(function (m) { return live.indexOf(m) < 0; });
     listEl.innerHTML = live.concat(rest).map(card).join('');
     listEl.querySelectorAll('.mc').forEach(function (el) {
-      var f = findRow(el.getAttribute('data-i'));
+      var id = el.getAttribute('data-i'), mm = mine.filter(function (m) { return String(m.i) === id; })[0];
+      var f = findRow(mm ? liveId(mm) : id);
       if (f && LIVE[f.row[2]]) el.classList.add('live');
     });
   }
@@ -203,8 +216,10 @@
     if (ALL) return cb();
     after.push(cb);
     if (asking) return; asking = true;
-    fetch('/rankings_table.json').then(function (r) { return r.json(); }).then(function (rows) {
-      ALL = rows.map(function (c) { return {i: String(c.team_id), n: c.club, s: c.slug, r: c.rank, k: norm(c.club), co: c.country}; });
+    var nts = fetch('/my_clubs/nations.json').then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
+    Promise.all([fetch('/rankings_table.json').then(function (r) { return r.json(); }), nts]).then(function (got) {
+      ALL = got[0].map(function (c) { return {i: String(c.team_id), n: c.club, s: c.slug, r: c.rank, k: norm(c.club), co: c.country}; })
+        .concat((got[1] || []).map(function (t) { return {i: t[0], n: t[1], s: t[2], r: t[3], f: t[4], a: t[5], nt: 1, k: norm(t[1])}; }));
       var w = after; after = []; w.forEach(function (f) { f(); });
     }).catch(function () { asking = false; after = []; });
   }
@@ -215,11 +230,12 @@
     all(function () {
       var mine = {}; load().forEach(function (m) { mine[String(m.i)] = 1; });
       var hits = ALL.filter(function (c) { return c.k.indexOf(t) >= 0; })
-        .sort(function (a, b) { return (a.k.indexOf(t) === 0 ? 0 : 1) - (b.k.indexOf(t) === 0 ? 0 : 1) || a.r - b.r; }).slice(0, 8);
+        .sort(function (a, b) { return (a.k === t ? 0 : 1) - (b.k === t ? 0 : 1) || (a.k.indexOf(t) === 0 ? 0 : 1) - (b.k.indexOf(t) === 0 ? 0 : 1) ||
+          (a.nt ? 0 : 1) - (b.nt ? 0 : 1) || a.r - b.r; }).slice(0, 8);
       res.innerHTML = hits.length ? hits.map(function (c) {
-        return '<button type="button" data-i="' + esc(c.i) + '"' + (mine[c.i] ? ' class="on"' : '') + '><img src="/crests/' + esc(fname(c.i)) +
-          '.png" alt="" onerror="this.style.visibility=\'hidden\'">' + esc(c.n) + '<span>' + (mine[c.i] ? '&#9733; Following' : rk(c.r) + ' &middot; Follow') + '</span></button>';
-      }).join('') : '<div style="padding:10px 4px;color:var(--text2);font-size:13px">No club found</div>';
+        return '<button type="button" data-i="' + esc(c.i) + '"' + (mine[c.i] ? ' class="on"' : '') + '>' + badge(c.i, c.f) +
+          esc(c.n) + '<span>' + (mine[c.i] ? '&#9733; Following' : (c.nt ? 'National team ' : '') + rk(c.r) + ' &middot; Follow') + '</span></button>';
+      }).join('') : '<div style="padding:10px 4px;color:var(--text2);font-size:13px">No club or national team found</div>';
     });
   }
   if (q) {
@@ -229,7 +245,8 @@
       var b = e.target.closest('button[data-i]'); if (!b) return;
       var id = b.getAttribute('data-i'), list = load();
       if (list.some(function (m) { return String(m.i) === id; })) list = list.filter(function (m) { return String(m.i) !== id; });
-      else { var c = ALL.filter(function (x) { return x.i === id; })[0]; list.push({i: id, n: c.n, s: c.s}); }
+      else { var c = ALL.filter(function (x) { return x.i === id; })[0];
+        list.push(c.nt ? {i: id, n: c.n, s: c.s, nt: 1, a: c.a || '', f: c.f || ''} : {i: id, n: c.n, s: c.s}); }
       save(list); search(); fetchClubs();
     });
   }
@@ -252,7 +269,7 @@
         '<br><small style="color:var(--text2);font-size:11.5px">' + d + '</small></span></label>';
     };
     return '<b>' + (on ? 'Alerts are on' : 'Alerts for the clubs you follow') + '</b>' +
-      (load().length ? '' : '<br>Follow a club first - alerts are only for your clubs.') +
+      (load().length ? '' : '<br>Follow a club or national team first - alerts are only for the ones you follow.') +
       opt('ft', 'Full time', 'The result, and how it moves their rating and rank') +
       opt('rk', 'Ranking moves', 'When their world rank changes - at most once a day') +
       opt('ko', 'Kick-off in 1 hour', 'With our odds for the match') +
