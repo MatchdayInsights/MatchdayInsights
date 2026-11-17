@@ -1,6 +1,7 @@
 /* Matchday Insights - "My clubs" (Greg, 2026-10).
    Star a club (or, from 2026-11, a national team) on its page; starred clubs then show first:
-     - homepage: a strip of your clubs with rank, rating and last move
+     - rankings page: a gold star on your clubs' rows (the strip above the
+       table went, 2026-11)
      - matches page: a "My clubs" box at the top with their matches that day
    Saved in this browser only (localStorage), nothing on our side.
    <script src="myclubs.js" defer></script>  (club pages: ../myclubs.js) */
@@ -60,26 +61,26 @@
   var mine = load();
   if (!mine.length) return;
 
-  // Homepage: a strip of your clubs, from the same ranking file the table uses.
-  var strip = document.getElementById('my-clubs');
-  if (strip && window.fetch) {
-    fetch(base + 'rankings_table.json').then(function (r) { return r.ok ? r.json() : []; }).then(function (all) {
-      var by = {}; all.forEach(function (c) { by[String(c.team_id)] = c; });
-      strip.className = 'my-strip';
-      strip.innerHTML = '<div class="my-h">' + STAR + 'My clubs</div><div class="my-row">' + mine.map(function (m) {
-        if (m.nt) {                       // a national team: flag, its page, no club rank
-          return '<a class="my-c" href="' + base + 'nations/' + esc(m.s) + '.html">' +
-            (m.f ? '<img src="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/flags/4x3/' + esc(m.f) + '.svg" alt="" style="width:30px;height:22px;border-radius:3px;object-fit:cover" onerror="this.remove()">' : '') +
-            '<div><b>' + esc(m.n) + '</b><span>National team</span></div></a>';
-        }
-        var c = by[String(m.i)] || {};
-        var mv = c.rank_change > 0 ? '<span class="up">&#9650;' + c.rank_change + '</span>'
-               : c.rank_change < 0 ? '<span class="dn">&#9660;' + (-c.rank_change) + '</span>' : '';
-        return '<a class="my-c" href="' + base + 'clubs/' + esc(m.s) + '.html"><img src="' + base + 'crests/' + esc(m.i) +
-          '.png" alt="" onerror="this.remove()"><div><b>' + esc(c.club || m.n) + '</b><span>' +
-          (c.rank ? '#' + c.rank + ' &middot; ' + c.elo.toFixed(0) + ' ' : 'Unranked ') + mv + '</span></div></a>';
-      }).join('') + '</div>';
-    }).catch(function () {});
+  // Rankings page: no strip of your clubs above the table any more - that
+  // space is for the ranking itself (Greg, 2026-11: "I don't like how
+  // prominent my clubs is on the rankings page"). The My clubs tab has them;
+  // here a small gold star marks your clubs' rows in the table.
+  var tb = document.getElementById('table-body');
+  if (tb && window.MutationObserver) {
+    var follow = {}; mine.forEach(function (m) { if (!m.nt) follow[String(m.i)] = 1; });
+    var starring = false;
+    function starRows() {
+      if (starring) return; starring = true;
+      tb.querySelectorAll('tr').forEach(function (tr) {
+        var img = tr.querySelector('img.crest'), m = img && /crests\/(\d+)\.png/.exec(img.getAttribute('src') || '');
+        var nm = tr.querySelector('.club-name-text');
+        if (nm && m && follow[m[1]] && !nm.querySelector('.my-rs'))
+          nm.insertAdjacentHTML('afterbegin', '<span class="my-rs" title="One of your clubs" style="color:#e9b10a;margin-right:5px">&#9733;</span>');
+      });
+      starring = false;
+    }
+    starRows();
+    new MutationObserver(starRows).observe(tb, {childList: true});
   }
 
   // Matches page: your clubs' matches that day in a box at the top. The rows
