@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T00:03:08+00:00",
+  "generated": "2026-11-17T00:32:55+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "league",
       "country": "Uruguay",
       "round": "Clausura - 14",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "2360",
       "home_team": "Wanderers",
       "home_slug": "wanderers",
@@ -87827,6 +87827,29 @@
       "p_draw": 0.2922,
       "p_away": 0.3838,
       "expected_score": 0.4701
+    },
+    {
+      "fixture_id": "1647142",
+      "date": "2026-12-08T00:30:00+00:00",
+      "competition": "Division di Honor",
+      "competition_type": "league",
+      "country": "Aruba",
+      "round": "Regular Season - 7",
+      "status": "NS",
+      "home_team_id": "8239",
+      "home_team": "La Fama",
+      "home_slug": "la-fama",
+      "home_rank": 2590,
+      "home_elo": 732.4,
+      "away_team_id": "8234",
+      "away_team": "Britannia",
+      "away_slug": "britannia",
+      "away_rank": 1708,
+      "away_elo": 851.2,
+      "p_home": 0.2966,
+      "p_draw": 0.2839,
+      "p_away": 0.4195,
+      "expected_score": 0.4386
     }
   ],
   "estimated": [
