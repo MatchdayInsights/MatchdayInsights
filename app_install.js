@@ -204,6 +204,17 @@
   if (document.getElementById("tab-m")) {
     var mp = document.createElement("script"); mp.src = "/match-plus.js"; document.head.appendChild(mp);
   }
+  // A way to our track record from the odds, for app users too - the app
+  // hides the Rankings intro that links it (Greg, 2026-11).
+  if (/\/predictions\//.test(location.pathname)) {
+    var od = document.querySelector(".oddslab") || document.querySelector("main .nt-odds");
+    if (od && !document.querySelector(".mi-acc")) {
+      var acc = document.createElement("a"); acc.className = "mi-acc"; acc.href = "/track-record.html";
+      acc.textContent = "How accurate are our odds? \u203a";
+      acc.style.cssText = "display:inline-block;margin:8px 0 2px;font-size:13px;font-weight:600;color:var(--green,#3dba5e);text-decoration:none";
+      od.insertAdjacentElement("afterend", acc);
+    }
+  }
 
   if (standalone) { backButton(); return; }
 

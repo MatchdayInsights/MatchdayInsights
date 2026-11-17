@@ -625,7 +625,8 @@ function togglePreview(row){
   box.innerHTML=`<div class="pv-r pv-h"><span class="pv-l"></span><span>${esc(h)}</span><span>Draw</span><span>${esc(a)}</span></div>`
     +line('Our odds',o,'pv-us')+(b?line('Bookies',b,''):'<div class="pv-n">No bookmakers\' odds yet.</div>')+note
     +(row.dataset.fh||row.dataset.fa?`<h4>Last 5 &middot; oldest first</h4><div class="pv-f"><div><span>${esc(h)}</span>${tiles(row.dataset.fh)}</div><div><span>${esc(a)}</span>${tiles(row.dataset.fa)}</div></div>`:'')
-    +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full preview &rsaquo;</a>`:'');
+    +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full preview &rsaquo;</a>`:'')
+    +`<a class="mp-link" href="track-record.html">How accurate are our odds? &rsaquo;</a>`;
   row.appendChild(box);row.classList.add('open');row.setAttribute('aria-expanded','true');
 }
 
