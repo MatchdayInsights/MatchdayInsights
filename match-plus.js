@@ -285,7 +285,7 @@
     if (a) pills += '<span class="rt tv v-r v-n ' + rateCls(a).replace("r", "q") + '">' + a.toFixed(1) + "</span>";
     if (ca && ca.n) {
       var e = ca.sum / ca.n, rk = rankOf(e), est = ca.est ? '<small> &middot; ' + ca.est + " est.</small>" : "";
-      pills += '<span class="rt tv v-c cav">Clubs ' + Math.round(e).toLocaleString("en-US") + est + "</span>";
+      pills += '<span class="rt tv v-c cav">Clubs ' + Math.round(e) + est + "</span>";
       if (rk) pills += '<span class="rt tv v-k cav">Clubs &asymp; #' + rk.toLocaleString("en-US") + est + "</span>";
     }
     return '<div class="mp-tb ' + side + '"><span class="dot" style="background:' + (side === "h" ? HOME : AWAY) + '"></span>' +
