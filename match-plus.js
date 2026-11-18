@@ -111,6 +111,8 @@
     ".mp-tb .dot{width:9px;height:9px;border-radius:50%;flex:none}.mp-tb b{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
     ".mp-tb span.fm{color:rgba(255,255,255,.65);font-weight:600}" +
     ".mp-tb .rt{margin-left:auto;font-size:13px;font-weight:800;border-radius:6px;padding:2px 7px;background:#fff}" +
+    ".mp-tb .tv{display:none}.mp-pw[data-m=r] .mp-tb .tv.v-r,.mp-pw[data-m=n] .mp-tb .tv.v-n,.mp-pw[data-m=c] .mp-tb .tv.v-c,.mp-pw[data-m=k] .mp-tb .tv.v-k{display:inline-block}" +
+    ".mp-tb .rt.cav{background:#fff;color:#1f6b45;white-space:nowrap}.mp-tb .rt.cav small{font-size:10.5px;font-weight:600;color:#5f6b75}" +
     // A gap under the view buttons, so they don't touch the team bar (Greg, 2026-11).
     ".mp-vw{display:flex;gap:4px;padding:10px 10px 10px;background:#1f6b45}" +
     ".mp-vw button{flex:1;font:inherit;font-size:12.5px;font-weight:700;color:rgba(255,255,255,.75);background:rgba(0,0,0,.18);border:0;border-radius:999px;padding:7px 4px;cursor:pointer;-webkit-tap-highlight-color:transparent}" +
@@ -254,23 +256,46 @@
     var W = window.MI_WHO, id = W && pid(side, r), v = id && W.p && W.p[id];
     if (!v) return null;
     var c = v[0] && W.c && W.c[v[0]], n = v[1] && W.n && W.n[v[1]];
-    return {cid: v[0], club: c ? c[0] : "", crank: c ? c[1] : null, nat: v[1] || "", flag: n ? n[0] : "", nrank: n ? n[1] : null};
+    return {cid: v[0], club: c ? c[0] : "", crank: c ? c[1] : null, celo: c && typeof c[3] === "number" ? c[3] : null, nat: v[1] || "", flag: n ? n[0] : "", nrank: n ? n[1] : null};
   }
   function avg(xi) {
     var r = xi.map(function (x) { return +x[5] || 0; }).filter(function (v) { return v > 0; });
     return r.length ? r.reduce(function (a, b) { return a + b; }, 0) / r.length : 0;
   }
-  function bar(side, t) {
-    var a = avg(t.xi), nm = side === "h" ? H : A;
+  // The world rank a club rating matches, from MI_WHO.q (every 25th rank's rating).
+  function rankOf(elo) {
+    var q = (window.MI_WHO || {}).q || []; if (!q.length) return null;
+    for (var i = 0; i < q.length; i++) {
+      if (q[i] < elo) {
+        if (!i) return 1;
+        var hi = q[i - 1], lo = q[i];
+        return Math.max(1, Math.round((i - 1) * 25 + 1 + 25 * (hi - elo) / Math.max(1, hi - lo)));
+      }
+    }
+    return q.length * 25;
+  }
+  /* Team bar: the average match rating, or - in the Club / Club rank views of
+     national team matches - the average rating of the starters' clubs and
+     the world rank that matches (Greg, 2026-11: "the average rating from the
+     clubs the players come from ... an apples to apples comparison").
+     A starter whose club we can't rate counts at MI_WHO.x, an estimate
+     (the club at the 90th percentile of our ranking); "2 est." says how many. */
+  function bar(side, t, ca) {
+    var a = avg(t.xi), nm = side === "h" ? H : A, pills = "";
+    if (a) pills += '<span class="rt tv v-r v-n ' + rateCls(a).replace("r", "q") + '">' + a.toFixed(1) + "</span>";
+    if (ca && ca.n) {
+      var e = ca.sum / ca.n, rk = rankOf(e), est = ca.est ? '<small> &middot; ' + ca.est + " est.</small>" : "";
+      pills += '<span class="rt tv v-c cav">Clubs ' + Math.round(e).toLocaleString("en-US") + est + "</span>";
+      if (rk) pills += '<span class="rt tv v-k cav">Clubs &asymp; #' + rk.toLocaleString("en-US") + est + "</span>";
+    }
     return '<div class="mp-tb ' + side + '"><span class="dot" style="background:' + (side === "h" ? HOME : AWAY) + '"></span>' +
-      "<b>" + esc(nm) + "</b>" + (t.f ? '<span class="fm">' + esc(t.f) + "</span>" : "") +
-      (a ? '<span class="rt ' + rateCls(a).replace("r", "q") + '">' + a.toFixed(1) + "</span>" : "") + "</div>";
+      "<b>" + esc(nm) + "</b>" + (t.f ? '<span class="fm">' + esc(t.f) + "</span>" : "") + pills + "</div>";
   }
   function pitch(d) {
     var lu = d.lu || {};
     var ok = function (s) { var t = lu[s]; return t && t.xi && t.xi.length >= 7 && t.xi.every(function (r) { return r[3] && /^\d+:\d+$/.test(r[3]); }); };
     if (!ok("h") && !ok("a")) return "";
-    var mk = marks(d), out = "", have = {c: 0, k: 0, n: 0}, deepest = 4;
+    var mk = marks(d), out = "", have = {c: 0, k: 0, n: 0}, deepest = 4, cavg = {};
     ["h", "a"].forEach(function (s) {
       if (!ok(s)) return;
       var xi = lu[s].xi, rows = {};
@@ -291,6 +316,12 @@
           if (s === "h") x = 100 - x;                    // the home side faces down the page
           var badges = "", lines = "", w = who(s, r);
           if (r[5]) badges += '<span class="ch v-r ' + rateCls(r[5]).replace("r", "q") + '">' + Number(r[5]).toFixed(1) + "</span>";
+          // the starters' club ratings, for the team bar (national team matches)
+          if (NATIONAL && (window.MI_WHO || {}).x) {
+            var ce = w && w.celo != null ? w.celo : null, cv = cavg[s] = cavg[s] || {sum: 0, n: 0, est: 0};
+            if (ce == null) { ce = window.MI_WHO.x; cv.est++; }
+            cv.sum += ce; cv.n++;
+          }
           if (w && w.cid) {
             have.c++; badges += '<span class="ch cr v-c"><img src="../crests/' + esc(w.cid) + '.png" alt="" loading="lazy" onerror="this.remove()"></span>';
             lines += '<span class="wl v-c">' + esc(w.club) + "</span>";
@@ -327,8 +358,8 @@
     var tall = deepest >= 5 ? ' style="aspect-ratio:68/' + Math.round(150 * (deepest - 1) / 3) + '"' : "";
     var pl = '<span class="ln half"></span><span class="ln cc"></span><span class="ln bx t"></span><span class="ln bx b"></span>' +
       '<span class="ln gx t"></span><span class="ln gx b"></span>';
-    return '<div class="mp-pw" data-m="' + MODE + '">' + tabs + (ok("h") ? bar("h", lu.h) : "") + '<div class="mp-pitch"' + tall + '>' + pl + out + "</div>" +
-      (ok("a") ? bar("a", lu.a) : "") + "</div>";
+    return '<div class="mp-pw" data-m="' + MODE + '">' + tabs + (ok("h") ? bar("h", lu.h, cavg.h) : "") + '<div class="mp-pitch"' + tall + '>' + pl + out + "</div>" +
+      (ok("a") ? bar("a", lu.a, cavg.a) : "") + "</div>";
   }
   box.addEventListener("click", function (e) {
     var b = e.target.closest && e.target.closest(".mp-vw button"); if (!b) return;
