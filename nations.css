@@ -229,3 +229,11 @@ table.nt-mt tr.me td{background:rgba(61,186,94,.09)}
 .cp-res td.cp-sc,.cp-res td.cp-sc b{font-weight:500;vertical-align:middle}
 .cp-tie>div b{font-weight:500}
 @media (max-width:600px){.cp-res .cp-tm{gap:5px}}
+
+/* The score link chip fits its column (it ran over the away flag - Greg,
+   2026-11); every team in the bracket keeps a flag-sized space. */
+.cp-res td.cp-sc{width:76px}
+.cp-res a.cp-ml{padding:3px 6px;gap:2px}
+@media (max-width:600px){.cp-res td.cp-sc{width:64px}.cp-res a.cp-ml{padding:2px 5px}}
+.cp-tie>div .cp-fl,.cp-tie>div .cp-nofl{display:inline-block;flex:none;width:20px;height:15px;border-radius:2px;margin-right:8px;background-size:cover}
+.cp-tie>div{gap:0}
