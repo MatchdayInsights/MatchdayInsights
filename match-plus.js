@@ -63,6 +63,18 @@
     var p = page(side, name, id);
     return p ? '<a class="mp-fl" href="../players/' + p + '.html" aria-label="' + esc(name) + '">' + html + "</a>" : html;
   }
+  // The API id of a name in the match (line-ups, bench, events), so the
+  // event names link by id like the faces - "F. Mastantuono" had a page but
+  // wasn't linked in the events (Greg, 2026-11).
+  function idFor(name) {
+    var d = CUR, k = key(name), hit = null; if (!d || !k) return null;
+    ["h", "a"].forEach(function (sd) {
+      var t = (d.lu || {})[sd] || {};
+      (t.xi || []).concat(t.bn || []).forEach(function (r) { if (!hit && r[4] && key(r[1]) === k) hit = r[4]; });
+    });
+    (d.ev || []).forEach(function (e) { if (!hit && e[6] && key(e[4]) === k) hit = e[6]; });
+    return hit;
+  }
   function photo(id) { return id ? "https://media.api-sports.io/football/players/" + id + ".png" : ""; }
   function face(id, name, cls) {
     var ini = String(name || "?").split(" ").map(function (w) { return w[0] || ""; }).join("").slice(0, 2).toUpperCase();
@@ -129,6 +141,26 @@
     ".mp-pl .wl{display:none;width:100%;font-size:10.5px;color:rgba(255,255,255,.72);line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
     ".mp-pw[data-m=c] .wl.v-c,.mp-pw[data-m=k] .wl.v-k,.mp-pw[data-m=n] .wl.v-n{display:block}" +
     "@media (max-width:600px){.mp-pl .mk{width:46px;height:46px}.mp-pl .nm{font-size:11.5px}.mp-pl .nm i{font-size:10.5px}.mp-pl .ch{font-size:10.5px}.mp-pl .wl{font-size:9.5px}}" +
+    // Substitutes list (Greg, 2026-11).
+    ".mp-hidelus .lus{display:none}" +
+    ".mp-subs{display:grid;grid-template-columns:1fr;gap:14px;max-width:560px;margin:8px auto 4px}" +
+    "@media (min-width:760px){.mp-subs{grid-template-columns:1fr 1fr;max-width:none}}" +
+    ".ms-side{background:var(--surface,#fff);border:1px solid var(--border2,#e3e6e3);border-radius:14px;padding:10px 12px;min-width:0}" +
+    ".ms-h{display:flex;align-items:center;gap:7px;font-weight:700;font-size:14px;margin:2px 0 6px;flex-wrap:wrap}.ms-h .dot{width:8px;height:8px;border-radius:50%}" +
+    ".ms-c{margin-left:auto;font-weight:500;font-size:12px;color:var(--muted)}" +
+    ".ms-r{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--border2,#eceeec)}" +
+    ".ms-r .mp-face.ms-f{width:38px;height:38px}" +
+    ".ms-n{flex:1;min-width:0;font-weight:600;font-size:14px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
+    ".ms-n i{font-style:normal;color:var(--muted);font-weight:500;margin-right:2px}.ms-n a{color:inherit;text-decoration:none}" +
+    ".ms-n small{display:block;font-weight:500;font-size:12px;color:var(--muted);margin-top:2px}" +
+    ".ms-ic{display:flex;gap:3px;align-items:center}.ms-ic .bi{width:17px;height:17px;display:block}" +
+    ".ms-ic .as{width:17px;height:17px;border-radius:50%;background:#1f6b45;color:#fff;font-size:10px;font-weight:900;font-style:normal;display:flex;align-items:center;justify-content:center}" +
+    ".ms-ic .cd{width:10px;height:14px;border-radius:2px}.ms-ic .cd.y{background:#f5c518}.ms-ic .cd.r{background:#e5484d}" +
+    ".ms-rt{font-size:12.5px;font-weight:800;border:1.5px solid currentColor;border-radius:6px;padding:2px 6px}" +
+    ".ms-ul{border-top:1px solid var(--border2,#eceeec);padding-top:8px;margin-top:2px}.ms-ul b{display:block;font-size:12px;color:var(--muted);font-weight:600;margin-bottom:6px}" +
+    ".ms-uw{display:flex;flex-wrap:wrap;gap:6px 12px}" +
+    ".ms-u{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}.ms-u a{color:inherit;text-decoration:none}" +
+    ".ms-u .mp-face.ms-uf{width:26px;height:26px;opacity:.85}.ms-u .mp-face b{font-size:9px}" +
     // Our colour bands (8+ deep green, 7+ green, 6+ slate, under 6 burnt orange).
     ".r8{background:#0a7d40}.r7{background:#2f9e57}.r6{background:#5f6b75}.r5{background:#c2410c}" +
     ".q8,.mp-pl .ch.q8{color:#0a7d40}.q7,.mp-pl .ch.q7{color:#2f9e57}.q6,.mp-pl .ch.q6{color:#4b5661}.q5,.mp-pl .ch.q5{color:#c2410c}" +
@@ -297,6 +329,50 @@
     pw.querySelectorAll(".mp-vw button").forEach(function (x) { x.classList.toggle("on", x === b); });
   });
 
+  // Same player? The events often spell him in full ("Fredrik Jensen") and
+  // the line-up short ("F. Jensen"), or jumbled ("Balda Enea Della").
+  function same(a, b) {
+    var x = key(a), y = key(b); if (!x || !y) return false; if (x === y) return true;
+    var p = x.split(" "), q = y.split(" ");
+    if (p.length > 1 && q.length > 1 && p[p.length - 1] === q[q.length - 1] && p[0].charAt(0) === q[0].charAt(0)) return true;
+    var lp = p.filter(function (w) { return w.length > 2; }).sort().join(" "), lq = q.filter(function (w) { return w.length > 2; }).sort().join(" ");
+    return lp && lp === lq;
+  }
+  function subs(d) {
+    var lu = d.lu || {}, mk = marks(d), out = "";
+    ["h", "a"].forEach(function (s) {
+      var t = lu[s]; if (!t || !(t.bn || []).length) return;
+      var bench = t.bn.slice(), used = [];
+      (d.ev || []).forEach(function (e) {
+        if (e[3] !== "s" || e[2] !== s || !e[4]) return;
+        var i = -1;
+        bench.forEach(function (r, j) { if (i < 0 && ((e[6] && r[4] && String(r[4]) === String(e[6])) || same(r[1], e[4]))) i = j; });
+        var r = i >= 0 ? bench.splice(i, 1)[0] : [null, e[4], null, null, e[6] || null, null];
+        used.push({r: r, ev: e[4], t: e[0] + (e[1] ? "+" + e[1] : "") + "'", off: e[5]});
+      });
+      if (!used.length && !bench.length) return;
+      var rows = used.map(function (u) {
+        var r = u.r, m = {}, ic = "";
+        for (var mkk in mk) if (mkk.charAt(0) === s && (same(mkk.slice(2), r[1]) || same(mkk.slice(2), u.ev))) m = mk[mkk];
+        for (var g = 0; g < Math.min(m.g || 0, 3); g++) ic += '<i class="bi">' + BALL + "</i>";
+        for (var a = 0; a < Math.min(m.a || 0, 2); a++) ic += '<i class="as">A</i>';
+        if (m.r) ic += '<i class="cd r"></i>'; else if (m.y) ic += '<i class="cd y"></i>';
+        return '<div class="ms-r">' + linked(s, r[1], face(r[4], r[1], "ms-f"), r[4]) +
+          '<div class="ms-n">' + (r[0] != null ? "<i>" + esc(r[0]) + "</i> " : "") + named(s, r[1], null, r[4]) +
+          "<small>&#8593; " + esc(u.t) + (u.off ? " for " + esc(surname(u.off)) : "") + "</small></div>" +
+          (ic ? '<span class="ms-ic">' + ic + "</span>" : "") +
+          (r[5] ? '<span class="ms-rt ' + rateCls(r[5]).replace("r", "q") + '">' + Number(r[5]).toFixed(1) + "</span>" : "") + "</div>";
+      }).join("");
+      var unused = bench.map(function (r) {
+        return '<span class="ms-u">' + linked(s, r[1], face(r[4], r[1], "ms-uf"), r[4]) + named(s, r[1], surname(r[1]), r[4]) + "</span>";
+      }).join("");
+      out += '<div class="ms-side"><div class="ms-h"><span class="dot" style="background:' + (s === "h" ? HOME : AWAY) + '"></span>' +
+        esc(s === "h" ? H : A) + " &middot; substitutes" + (t.c ? '<span class="ms-c">Coach: ' + esc(t.c) + "</span>" : "") + "</div>" +
+        rows + (unused ? '<div class="ms-ul">' + (used.length ? "<b>Not used</b>" : "") + '<div class="ms-uw">' + unused + "</div></div>" : "") + "</div>";
+    });
+    return out ? '<div class="mp-subs">' + out + "</div>" : "";
+  }
+
   function decorate(d) {
     if (!d) return;
     var mf = box.querySelector(".mf") || box;
@@ -312,6 +388,14 @@
     var p = pitch(d), lus = box.querySelector(".lus");
     if (p && lus) { lus.insertAdjacentHTML("beforebegin", p); box.classList.add("mp-hidexi"); }
     else box.classList.remove("mp-hidexi");
+    // Substitutes under the line-ups, one row each with photo and link, in
+    // place of the "Bench: a, b, c" line (Greg, 2026-11: "subs ... listed
+    // with photos and links below the lineups, instead of in a bunch ... if
+    // one comes on and scores or assists, it's indicated").
+    box.querySelectorAll(".mp-subs").forEach(function (x) { x.remove(); });
+    var sb = p && lus ? subs(d) : "";
+    if (sb) { lus.insertAdjacentHTML("afterend", sb); box.classList.add("mp-hidelus"); }
+    else box.classList.remove("mp-hidelus");
     // The bigger number in each stat in its side's colour.
     box.querySelectorAll(".strow").forEach(function (r) {
       var v = r.querySelectorAll(".v"); if (v.length < 2) return;
@@ -334,7 +418,7 @@
         if (sp.querySelector("a") || /^(VAR|missed pen)/.test(sp.textContent)) return;
         var txt = sp.textContent, pre = "";
         if (/^assist /.test(txt)) { pre = "assist "; txt = txt.slice(7); }
-        var p = page(side, txt);
+        var p = page(side, txt, idFor(txt));
         if (p) sp.innerHTML = esc(pre) + '<a href="../players/' + p + '.html">' + esc(txt) + "</a>";
       });
     });
