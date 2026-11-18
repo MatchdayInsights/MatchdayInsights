@@ -237,3 +237,7 @@ table.nt-mt tr.me td{background:rgba(61,186,94,.09)}
 @media (max-width:600px){.cp-res td.cp-sc{width:64px}.cp-res a.cp-ml{padding:2px 5px}}
 .cp-tie>div .cp-fl,.cp-tie>div .cp-nofl{display:inline-block;flex:none;width:20px;height:15px;border-radius:2px;margin-right:8px;background-size:cover}
 .cp-tie>div{gap:0}
+/* The score always sits at the right edge, also for teams with no page
+   (their name is plain text, not a stretching link - Greg, 2026-11:
+   "Scores still misaligned"). */
+.cp-tie>div b{margin-left:auto;padding-left:8px}
