@@ -51,3 +51,11 @@
 #tab-squad .pl-t, #tab-squad .pl-t td, #tab-squad .pl-t th, #tab-squad .pl-t a{font-family:'JetBrains Mono',Inter,system-ui,sans-serif!important;text-transform:none!important;letter-spacing:0!important}
 #tab-squad .pl-t td.l a{color:var(--text)!important;font-weight:600;font-size:13.5px}
 #tab-squad{margin-top:8px}
+/* Rating points earned - our own number (Greg, 2026-11). */
+.pl-worth{display:flex;align-items:center;gap:14px;background:rgba(61,186,94,.08);border:1px solid rgba(61,186,94,.35);border-radius:14px;padding:14px 16px;margin:6px 0 4px}
+.pl-worth>b{font-size:30px;font-weight:800;color:var(--green,#3dba5e);line-height:1;flex:none}
+.pl-worth span{display:block;font-size:14px;line-height:1.35}
+.pl-worth small{display:block;margin-top:4px;color:var(--muted);font-size:12.5px}
+.pl-wn{color:var(--muted);font-size:12px;line-height:1.45;margin:6px 0 14px}
+/* Transfers */
+.pl-tr td.cl{white-space:normal}

@@ -111,7 +111,8 @@
     ".mp-tb .dot{width:9px;height:9px;border-radius:50%;flex:none}.mp-tb b{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
     ".mp-tb span.fm{color:rgba(255,255,255,.65);font-weight:600}" +
     ".mp-tb .rt{margin-left:auto;font-size:13px;font-weight:800;border-radius:6px;padding:2px 7px;background:#fff}" +
-    ".mp-vw{display:flex;gap:4px;padding:8px 10px 0;background:#1f6b45}" +
+    // A gap under the view buttons, so they don't touch the team bar (Greg, 2026-11).
+    ".mp-vw{display:flex;gap:4px;padding:10px 10px 10px;background:#1f6b45}" +
     ".mp-vw button{flex:1;font:inherit;font-size:12.5px;font-weight:700;color:rgba(255,255,255,.75);background:rgba(0,0,0,.18);border:0;border-radius:999px;padding:7px 4px;cursor:pointer;-webkit-tap-highlight-color:transparent}" +
     ".mp-vw button.on{background:#fff;color:#1f6b45}" +
     ".mp-pitch{position:relative;aspect-ratio:68/150;overflow:hidden;background:repeating-linear-gradient(180deg,#1f6b45 0 6.25%,#23744b 6.25% 12.5%)}" +
@@ -156,14 +157,21 @@
     ".ms-ic{display:flex;gap:3px;align-items:center}.ms-ic .bi{width:17px;height:17px;display:block}" +
     ".ms-ic .as{width:17px;height:17px;border-radius:50%;background:#1f6b45;color:#fff;font-size:10px;font-weight:900;font-style:normal;display:flex;align-items:center;justify-content:center}" +
     ".ms-ic .cd{width:10px;height:14px;border-radius:2px}.ms-ic .cd.y{background:#f5c518}.ms-ic .cd.r{background:#e5484d}" +
-    ".ms-rt{font-size:12.5px;font-weight:800;border:1.5px solid currentColor;border-radius:6px;padding:2px 6px}" +
+    ".ms-rt{font-size:12.5px;font-weight:800;border-radius:6px;padding:3px 7px}" +
     ".ms-ul{border-top:1px solid var(--border2,#eceeec);padding-top:8px;margin-top:2px}.ms-ul b{display:block;font-size:12px;color:var(--muted);font-weight:600;margin-bottom:6px}" +
     ".ms-uw{display:flex;flex-wrap:wrap;gap:6px 12px}" +
     ".ms-u{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}.ms-u a{color:inherit;text-decoration:none}" +
     ".ms-u .mp-face.ms-uf{width:26px;height:26px;opacity:.85}.ms-u .mp-face b{font-size:9px}" +
     // Our colour bands (8+ deep green, 7+ green, 6+ slate, under 6 burnt orange).
-    ".r8{background:#0a7d40}.r7{background:#2f9e57}.r6{background:#5f6b75}.r5{background:#c2410c}" +
-    ".q8,.mp-pl .ch.q8{color:#0a7d40}.q7,.mp-pl .ch.q7{color:#2f9e57}.q6,.mp-pl .ch.q6{color:#4b5661}.q5,.mp-pl .ch.q5{color:#c2410c}" +
+    // Ratings as filled boxes that pop (Greg, 2026-11: "a green or red or
+    // yellow box with the rating"): 8+ deep green, 7+ green, 6+ amber
+    // (dark text, for contrast), under 6 red. Same on the pitch, the team
+    // bars, the subs and the player of the match.
+    ".r8,.q8,.mp-pl .ch.q8,.mp-tb .rt.q8{background:#0a7d40;color:#fff}" +
+    ".r7,.q7,.mp-pl .ch.q7,.mp-tb .rt.q7{background:#22a052;color:#fff}" +
+    ".r6,.q6,.mp-pl .ch.q6,.mp-tb .rt.q6{background:#f2b705;color:#1d2329}" +
+    ".r5,.q5,.mp-pl .ch.q5,.mp-tb .rt.q5{background:#dc3b3b;color:#fff}" +
+    ".mp-pl .ch.v-r{box-shadow:0 0 0 1.5px #fff,0 1px 3px rgba(0,0,0,.35)}" +
     ".mp-tm{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);max-width:520px;margin:10px auto 0}" +
     ".mp-tm b{color:var(--text)}" +
     ".mp-hidexi .lus ol{display:none}.mp-hidexi .lus .bn{margin-top:2px}" +
