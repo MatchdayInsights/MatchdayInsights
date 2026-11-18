@@ -353,3 +353,9 @@ html.mi-store-tab body .hero{padding:10px 14px 2px!important;min-height:0!import
 html.mi-store-tab body .hero .hero-links{margin:0 0 6px!important}
 html.mi-store-tab body .hero>.hero-link{margin:0 6px 8px 0!important}
 html.mi-store-tab body .table-wrap~.hero .hero-eyebrow{display:block!important}
+
+/* "Our odds · N matches left" line was cut off top and bottom on league
+   pages (pulled up under the key, Greg 2026-11) - room above and a full
+   line height. */
+html body .cp-odds{margin-top:12px}
+html body .cp-oh{line-height:1.5;padding:2px 0;margin:0 0 6px;position:relative;z-index:1;overflow:visible}

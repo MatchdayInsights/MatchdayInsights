@@ -249,3 +249,10 @@ table.nt-mt tr.me td{background:rgba(61,186,94,.09)}
    (their name is plain text, not a stretching link - Greg, 2026-11:
    "Scores still misaligned"). */
 .cp-tie>div b{margin-left:auto;padding-left:8px}
+
+/* Bracket lined up (Greg, 2026-11: "Bracket isn't centered"): the round's
+   name stays at the top and only the ties share out the height, so each
+   tie sits halfway between the two it comes from. */
+.cp-rd{justify-content:flex-start;gap:8px}
+.cp-rd>h4{flex:none;margin:0 0 2px}
+.cp-rd>.cp-tie{margin:auto 0}
