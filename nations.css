@@ -122,6 +122,14 @@
 .cp .pl-t .cp-fl,.cp-ms .cp-fl{width:20px;height:15px;border-radius:2px;margin-right:7px;vertical-align:-2px;background-size:cover}
 .cp .pl-t td.l a{text-decoration:none;font-weight:600;color:var(--text)}
 .cp-our{font-style:normal;color:var(--muted);font-size:11px;margin-left:6px;font-weight:500}
+/* Table names: flag centred, long names wrap, rank raised like an exponent, names not bold (Greg, 2026-11). */
+.cp .pl-t td.l:has(.cp-tn){white-space:normal;overflow:visible;font-weight:500}
+.cp-tn{display:flex;align-items:center;min-width:0;line-height:1.25}
+.cp-tn>img.cr,.cp-tn>.cp-fl,.cp-tn>.cp-nofl{flex:none}
+.cp-tn>.cp-nofl{width:20px;height:15px;margin-right:7px}
+.cp .pl-t .cp-tn>.cp-fl,.cp .pl-t .cp-tn>img.cr{vertical-align:0}
+.cp .pl-t .cp-tn a{font-weight:500}
+sup.cp-our{font-size:9.5px;font-weight:600;margin-left:2px;vertical-align:super;line-height:0;white-space:nowrap}
 .cp-br{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 10px}
 .cp-rd{min-width:190px;flex:none;display:flex;flex-direction:column;justify-content:space-around;gap:8px}
 .cp-rd h4{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center;margin:0 0 4px}
