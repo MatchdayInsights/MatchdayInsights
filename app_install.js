@@ -81,6 +81,26 @@
     });
   }
   var standalone = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone;
+  /* The app from the App Store / Google Play (Greg, 2026-11): it acts like the
+     installed app - no "get the app" prompts (Apple turns apps down for
+     those), a back button, no page introductions (html.mi-store in
+     mi-type.css, for wrappers that don't count as "standalone"). Known by:
+     the iPhone wrapper's browser name ("MatchdayInsightsApp"), Android's
+     app opening the site (referrer android-app://), or ?app=store, which
+     the store apps start on - kept for the rest of the visit. */
+  var store = false;
+  try {
+    store = /MatchdayInsightsApp/i.test(navigator.userAgent) || /^android-app:\/\//.test(document.referrer) ||
+      /[?&]app=store\b/.test(location.search) || sessionStorage.getItem("mi_store") === "1";
+    if (store) sessionStorage.setItem("mi_store", "1");
+  } catch (e) {}
+  if (store) {
+    standalone = true;
+    document.documentElement.classList.add("mi-store");
+    var pth = location.pathname;
+    if (pth === "/" || /\/(index|leagues)\.html$/.test(pth)) document.documentElement.classList.add("mi-store-tab");
+  }
+  window.MI_STORE_APP = store;
 
   /* Start loading a page the moment a finger lands on its link, so it's
      (nearly) there by the time the finger lifts. Chrome does this itself

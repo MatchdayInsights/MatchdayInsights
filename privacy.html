@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Privacy - Matchday Insights</title>
+<meta name="description" content="What Matchday Insights (website and app) keeps about you, and what it doesn't.">
+<link rel="icon" href="/favicon.ico">
+<!-- Privacy policy for the website and the store apps (Greg, 2026-11: both
+     stores ask for one). A plain page in app_kit/, copied to the site's root
+     at every deploy. Keep it true: change it when what we collect changes. -->
+<style>
+:root{--bg:#fbfbfb;--card:#fff;--text:#1d2329;--muted:#5f6b75;--line:#e3e6e3;--green:#22a052}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14141f;--card:#1d1d2e;--text:#eceef5;--muted:#9aa2bd;--line:#2c2c44;--green:#3dba5e}}
+:root[data-theme="dark"]{--bg:#14141f;--card:#1d1d2e;--text:#eceef5;--muted:#9aa2bd;--line:#2c2c44;--green:#3dba5e}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:#1a1a2e;padding:14px 18px;padding-top:max(14px,env(safe-area-inset-top))}
+header a{color:#3dba5e;font-weight:800;text-decoration:none;letter-spacing:.5px}
+main{max-width:720px;margin:0 auto;padding:22px 18px 60px}
+h1{font-size:28px;line-height:1.2;margin:4px 0 6px}
+h2{font-size:18px;margin:28px 0 6px}
+p,li{color:var(--text)}
+.sub{color:var(--muted);margin:0 0 18px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+ul{padding-left:20px}li{margin:4px 0}
+a{color:var(--green)}
+</style>
+</head>
+<body>
+<header><a href="/">MATCHDAY INSIGHTS</a></header>
+<main>
+<h1>Privacy</h1>
+<p class="sub">For the website matchdayinsights.com and the Matchday Insights app. Last updated November 2026.</p>
+
+<div class="box"><b>In short:</b> there are no accounts and we never ask for your name or email.
+The clubs you follow stay on your phone. If you turn on alerts, we keep only what's needed to send them.
+We don't sell anything about you, and there are no ads.</div>
+
+<h2>What stays on your device</h2>
+<ul>
+<li>The clubs and national teams you follow.</li>
+<li>Small settings, like light or dark mode, how a list is sorted, and whether you closed a tip.</li>
+</ul>
+<p>These are saved in your browser or the app on your phone, not by us. Clearing the app's or the site's data removes them.</p>
+
+<h2>Alerts</h2>
+<p>If you turn on alerts (goals, full time, kick-off, ranking moves), we store your phone's push address
+(a code your phone's browser or system gives us for sending notifications) and the list of teams you follow.
+They're kept on our alerts service, which runs on Cloudflare, and are used only to send you those alerts.
+Turn alerts off and both are deleted. If your phone tells us the push address no longer works, it's deleted too.</p>
+
+<h2>Visitor numbers</h2>
+<p>We use Google Analytics to count visits: which pages are read, roughly where from (country or city), and the kind of
+device and browser. It uses cookies and Google's own rules apply:
+<a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a>.
+We use it to see what people read, nothing else.</p>
+
+<h2>Pictures and live scores from other services</h2>
+<p>To show them, your device loads some things straight from other companies, which then see your device's internet address
+(IP address), like any website you visit:</p>
+<ul>
+<li>Player photos: API-Sports (the football data we use). Club crests are on our own site.</li>
+<li>Flags: jsDelivr. Fonts: Google Fonts.</li>
+<li>Live scores: our own live-scores service on Cloudflare. It doesn't keep who asked.</li>
+<li>The site itself is hosted by GitHub Pages.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Matchday Insights is a football statistics site for a general audience. It isn't aimed at children under 13
+and doesn't knowingly collect anything from them.</p>
+
+<h2>Odds</h2>
+<p>We show our own chances for each match and, next to them, bookmakers' average odds for comparison.
+There's no betting in the app or on the site, and no links to bookmakers.</p>
+
+<h2>Questions</h2>
+<p>Email <a href="mailto:contact@matchdayinsights.com">contact@matchdayinsights.com</a>. If this page changes, the date at the top changes too.</p>
+</main>
+</body>
+</html>

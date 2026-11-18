@@ -335,3 +335,21 @@ html body .m:has(.nm.lost) .nm:not(.lost){font-weight:650}
 .m .sc{font-weight:600}
 .fmatch-name{font-weight:500}
 .am-opp{font-weight:500}
+
+/* The store apps (html.mi-store, app_install.js - Greg, 2026-11): the same
+   as the installed app's "@media (display-mode: standalone)" rules in
+   app_tags.py, for wrappers that don't count as standalone (the iPhone one).
+   Keep the two alike. */
+@media (max-width:640px){html.mi-store body .site-nav .header-right{padding-bottom:max(env(safe-area-inset-bottom),10px)!important}
+html.mi-store body{padding-bottom:calc(60px + max(env(safe-area-inset-bottom),10px))}}
+html.mi-store .mx-head,html.mi-store .mx .key{display:none!important}
+html.mi-store .hub-hero .hub-ey,html.mi-store .hub-hero .hub-h1,html.mi-store .hub-hero .hub-sub{display:none!important}
+html.mi-store body .hub-hero{padding:12px 0 4px!important}
+html.mi-store body .hub-hero .hub-legend{margin-top:0!important}
+html.mi-store .compare-page .back-to-rankings,html.mi-store .compare-page .compare-title,html.mi-store .compare-page .compare-sub{display:none!important}
+html.mi-store body .compare-page{padding-top:14px!important}
+html.mi-store-tab .hero .hero-eyebrow,html.mi-store-tab .hero .hero-title,html.mi-store-tab .hero .hero-desc,html.mi-store-tab .hero .hero-stats,html.mi-store-tab .hero::after{display:none!important}
+html.mi-store-tab body .hero{padding:10px 14px 2px!important;min-height:0!important}
+html.mi-store-tab body .hero .hero-links{margin:0 0 6px!important}
+html.mi-store-tab body .hero>.hero-link{margin:0 6px 8px 0!important}
+html.mi-store-tab body .table-wrap~.hero .hero-eyebrow{display:block!important}
