@@ -230,51 +230,51 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
    don't like the look of the fat bar"). The .op line comes from
    generate_matches_page; an older page shows just the thin bar. ---- */
 @media (max-width: 640px) {
-  html body :is(.comp, .mi-top) .m {
+  html body :is(.comp, .mi-top, .my-box) .m {
     grid-template-columns: minmax(0,1fr) 22px 78px 22px minmax(0,1fr) !important;
     grid-template-areas: "hn hc mid ac an" "hx ob ob ob ax" "up up up up up";
     column-gap: 6px !important; row-gap: 4px; padding: 8px 12px !important; align-items: center;
   }
-  html body :is(.comp, .mi-top) .m .side { display: contents !important; }
-  html body :is(.comp, .mi-top) .m .side .nm {
+  html body :is(.comp, .mi-top, .my-box) .m .side { display: contents !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .nm {
     font-size: 13px !important; font-weight: 500 !important; letter-spacing: 0 !important; line-height: 1.2 !important;
     display: -webkit-box !important; -webkit-box-orient: vertical; -webkit-line-clamp: 2 !important;
     white-space: normal !important; overflow: hidden; min-width: 0; max-width: 100%;
   }
-  html body :is(.comp, .mi-top) .m .side .nm.lost { font-weight: 400 !important; }
-  html body :is(.comp, .mi-top) .m:has(.nm.lost) .side .nm:not(.lost) { font-weight: 650 !important; }
-  html body :is(.comp, .mi-top) .m .side.h .nm { grid-area: hn; justify-self: end; text-align: right; }
-  html body :is(.comp, .mi-top) .m .side:not(.h) .nm { grid-area: an; justify-self: start; text-align: left; }
-  html body :is(.comp, .mi-top) .m .side .crest { width: 20px; height: 20px; justify-self: center; }
-  html body :is(.comp, .mi-top) .m .side .crest.fi { width: 20px; height: 15px; border-radius: 2px; background-size: cover; }
-  html body :is(.comp, .mi-top) .m .side.h .crest { grid-area: hc; }
-  html body :is(.comp, .mi-top) .m .side:not(.h) .crest { grid-area: ac; }
-  html body :is(.comp, .mi-top) .m .mid { grid-area: mid; }
-  html body :is(.comp, .mi-top) .m .side .sx { display: flex !important; gap: 5px; align-items: center; min-width: 0; }
-  html body :is(.comp, .mi-top) .m .side.h .sx { grid-area: hx; justify-self: end; }
-  html body :is(.comp, .mi-top) .m .side:not(.h) .sx { grid-area: ax; justify-self: start; }
-  html body :is(.comp, .mi-top) .m .side .sx .rk { display: inline !important; font-size: 10px !important; }
-  html body :is(.comp, .mi-top) .m .side .sx .dl { font-size: 10px !important; }
-  html body :is(.comp, .mi-top) .m .ko { font-size: 12px !important; font-weight: 500; }
-  html body :is(.comp, .mi-top) .m .sc { font-size: 19px !important; }
-  html body :is(.comp, .mi-top) .m .mid .x { font-size: 9px !important; margin-top: 0; }
-  html body :is(.comp, .mi-top) .m .odds { grid-area: ob !important; display: block !important; width: 100%; margin: 0 !important; }
-  html body :is(.comp, .mi-top) .m .odds .pc, html body :is(.comp, .mi-top) .m .odds .dr { display: none !important; }
-  html body :is(.comp, .mi-top) .m .odds .op { display: flex !important; justify-content: space-between; margin-bottom: 3px; line-height: 1; }
-  html body :is(.comp, .mi-top) .m .odds .op b { font-size: 10px; font-weight: 700; color: var(--text2); }
-  html body :is(.comp, .mi-top) .m .odds .op b:first-child { color: #2e9e4f; }
-  html body :is(.comp, .mi-top) .m .odds .op b:last-child { color: #e5484d; }
-  html body :is(.comp, .mi-top) .m .odds .bar { height: 4px; border-radius: 2px; }
-  html body :is(.comp, .mi-top) .m .up { grid-area: up !important; margin: 0 !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .nm.lost { font-weight: 400 !important; }
+  html body :is(.comp, .mi-top, .my-box) .m:has(.nm.lost) .side .nm:not(.lost) { font-weight: 650 !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .side.h .nm { grid-area: hn; justify-self: end; text-align: right; }
+  html body :is(.comp, .mi-top, .my-box) .m .side:not(.h) .nm { grid-area: an; justify-self: start; text-align: left; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .crest { width: 20px; height: 20px; justify-self: center; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .crest.fi { width: 20px; height: 15px; border-radius: 2px; background-size: cover; }
+  html body :is(.comp, .mi-top, .my-box) .m .side.h .crest { grid-area: hc; }
+  html body :is(.comp, .mi-top, .my-box) .m .side:not(.h) .crest { grid-area: ac; }
+  html body :is(.comp, .mi-top, .my-box) .m .mid { grid-area: mid; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .sx { display: flex !important; gap: 5px; align-items: center; min-width: 0; }
+  html body :is(.comp, .mi-top, .my-box) .m .side.h .sx { grid-area: hx; justify-self: end; }
+  html body :is(.comp, .mi-top, .my-box) .m .side:not(.h) .sx { grid-area: ax; justify-self: start; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .sx .rk { display: inline !important; font-size: 10px !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .side .sx .dl { font-size: 10px !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .ko { font-size: 12px !important; font-weight: 500; }
+  html body :is(.comp, .mi-top, .my-box) .m .sc { font-size: 19px !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .mid .x { font-size: 9px !important; margin-top: 0; }
+  html body :is(.comp, .mi-top, .my-box) .m .odds { grid-area: ob !important; display: block !important; width: 100%; margin: 0 !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .odds .pc, html body :is(.comp, .mi-top, .my-box) .m .odds .dr { display: none !important; }
+  html body :is(.comp, .mi-top, .my-box) .m .odds .op { display: flex !important; justify-content: space-between; margin-bottom: 3px; line-height: 1; }
+  html body :is(.comp, .mi-top, .my-box) .m .odds .op b { font-size: 10px; font-weight: 700; color: var(--text2); }
+  html body :is(.comp, .mi-top, .my-box) .m .odds .op b:first-child { color: #2e9e4f; }
+  html body :is(.comp, .mi-top, .my-box) .m .odds .op b:last-child { color: #e5484d; }
+  html body :is(.comp, .mi-top, .my-box) .m .odds .bar { height: 4px; border-radius: 2px; }
+  html body :is(.comp, .mi-top, .my-box) .m .up { grid-area: up !important; margin: 0 !important; }
   /* Results (no chances bar): the score and crests sit across both lines,
      rank and rating change straight under each name. */
-  html body :is(.comp, .mi-top) .m:not(:has(.odds)) { grid-template-areas: "hn hc mid ac an" "hx hc mid ac ax" "up up up up up"; row-gap: 1px; }
-  html body :is(.comp, .mi-top) .m:not(:has(.odds)) .side .nm { align-self: end; }
-  html body :is(.comp, .mi-top) .m:not(:has(.odds)) .side .sx { align-self: start; }
+  html body :is(.comp, .mi-top, .my-box) .m:not(:has(.odds)) { grid-template-areas: "hn hc mid ac an" "hx hc mid ac ax" "up up up up up"; row-gap: 1px; }
+  html body :is(.comp, .mi-top, .my-box) .m:not(:has(.odds)) .side .nm { align-self: end; }
+  html body :is(.comp, .mi-top, .my-box) .m:not(:has(.odds)) .side .sx { align-self: start; }
   html body .comp .comp-n { font-size: 13.5px !important; }
 }
 @media (max-width: 640px) {
-  html body :is(.comp, .mi-top) .m .md { grid-column: 1 / -1 !important; grid-row: auto; }
+  html body :is(.comp, .mi-top, .my-box) .m .md { grid-column: 1 / -1 !important; grid-row: auto; }
 }
 
 /* ---- Club pages on phones: the important things on the first screen
