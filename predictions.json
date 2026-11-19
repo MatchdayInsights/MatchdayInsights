@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T22:33:19+00:00",
+  "generated": "2026-11-19T23:02:44+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -369,7 +369,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 35",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "133",
       "home_team": "Vasco DA Gama",
       "home_slug": "vasco-da-gama",
@@ -392,7 +392,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 35",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "136",
       "home_team": "Vitoria",
       "home_slug": "vitoria",
@@ -93416,6 +93416,29 @@
       "p_draw": 0.196,
       "p_away": 0.6448,
       "expected_score": 0.2572
+    },
+    {
+      "fixture_id": "1645292",
+      "date": "2026-12-10T23:00:00+00:00",
+      "competition": "Eerste Divisie",
+      "competition_type": "league",
+      "country": "Suriname",
+      "round": "Group Stage",
+      "status": "NS",
+      "home_team_id": "12213",
+      "home_team": "Broki",
+      "home_slug": "broki",
+      "home_rank": 2788,
+      "home_elo": 701.9,
+      "away_team_id": "12217",
+      "away_team": "PVV",
+      "away_slug": "pvv",
+      "away_rank": 3346,
+      "away_elo": 491.1,
+      "p_home": 0.6596,
+      "p_draw": 0.2005,
+      "p_away": 0.1399,
+      "expected_score": 0.7599
     }
   ],
   "estimated": [
