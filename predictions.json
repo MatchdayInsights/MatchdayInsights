@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T16:15:44+00:00",
+  "generated": "2026-11-19T16:32:59+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -369,7 +369,7 @@
       "competition_type": "league",
       "country": "United-Arab-Emirates",
       "round": "Regular Season - 9",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "2865",
       "home_team": "Al Ain",
       "home_slug": "al-ain",
@@ -392,7 +392,7 @@
       "competition_type": "league",
       "country": "Iraq",
       "round": "Regular Season - 14",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "26600",
       "home_team": "Gharraf",
       "home_slug": "gharraf",
@@ -416,7 +416,7 @@
       "neutral": "neither club's ground",
       "country": "Qatar",
       "round": "Regular Season - 10",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "2896",
       "home_team": "Al Ahli Doha",
       "home_slug": "al-ahli-doha",
@@ -76122,6 +76122,7 @@
       "date": "2026-12-05T16:30:00+00:00",
       "competition": "Premier League",
       "competition_type": "league",
+      "neutral": "always-neutral country",
       "country": "Malta",
       "round": "First Stage - Top 6 - 15",
       "status": "NS",
@@ -76135,10 +76136,10 @@
       "away_slug": "floriana",
       "away_rank": 1376,
       "away_elo": 897.0,
-      "p_home": 0.3896,
-      "p_draw": 0.291,
-      "p_away": 0.3194,
-      "expected_score": 0.5351
+      "p_home": 0.3288,
+      "p_draw": 0.2935,
+      "p_away": 0.3777,
+      "expected_score": 0.4755
     },
     {
       "fixture_id": "1608776",
