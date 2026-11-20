@@ -191,6 +191,10 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .record-row-note { display: none !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-elo { width: 118px !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
+  /* The live line ("LIVE -11.7 → #2") goes under the rating, wrapping if it must -
+     on one line it made the table wider than the phone (Greg, 2026-11). */
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-wrap: wrap !important; row-gap: 2px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .row-lr { flex: 0 0 100%; order: 9; margin-top: 0; text-align: right; white-space: normal; font-size: 10px; line-height: 1.25; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg { display: block !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg .change-pill { font-size: 10.5px !important; min-width: 40px; text-align: center; padding: 2px 4px; }
