@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T23:03:12+00:00",
+  "generated": "2026-11-20T23:32:55+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -300,7 +300,7 @@
       "competition_type": "cup",
       "country": "Portugal",
       "round": "Round of 32",
-      "status": "ET",
+      "status": "P",
       "home_team_id": "212",
       "home_team": "FC Porto",
       "home_slug": "fc-porto",
@@ -323,7 +323,7 @@
       "competition_type": "league",
       "country": "Colombia",
       "round": "Clausura - Quadrangular - 1",
-      "status": "INT",
+      "status": "1H",
       "home_team_id": "1128",
       "home_team": "Independiente Medellin",
       "home_slug": "independiente-medellin",
@@ -346,7 +346,7 @@
       "competition_type": "league",
       "country": "Paraguay",
       "round": "Clausura - 20",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "10476",
       "home_team": "Deportivo Recoleta",
       "home_slug": "deportivo-recoleta",
