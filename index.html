@@ -231,7 +231,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">290,396</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">290,419</div><div class="hstat-label">Matches Analysed</div></div>
   </div>
 </div>
 
@@ -421,10 +421,23 @@ Promise.all([getJSON('predictions.json'), getJSON('nations_upcoming.json')]).the
     const r = d && d.m && d.m.find(x => String(x[0]) === String(m.fixture_id));
     return r && LIVE_ST[r[2]] ? r : null;
   };
+  // With a continent chosen, "big" is a top-25 club on that continent - the
+  // world top 100 is nearly all European, so Africa's or Asia's live games
+  // would never show (Greg, 2026-11: "Adjust the top 100 requirement if
+  // filtering to the other continents").
+  const CONT_TOP = 25, contRank = {};
+  const byConf = {};
+  CLUBS.forEach(cl => { if (cl.confederation && cl.rank) (byConf[cl.confederation] = byConf[cl.confederation] || []).push(cl); });
+  Object.values(byConf).forEach(list => list.sort((a, b) => a.rank - b.rank).forEach((cl, i) => {
+    if (cl.slug) contRank['s:' + cl.slug] = i + 1;
+    if (cl.team_id) contRank['t:' + String(cl.team_id).split('::')[0]] = i + 1;
+  }));
+  const contTop = (slug, id) => (contRank['s:' + slug] || contRank['t:' + id] || 1e9) <= CONT_TOP;
   function pick(c) {
     const now = Date.now();
-    const live = pool.filter(m => !m.nt && liveRow(m) && (m.home_rank <= 100 || m.away_rank <= 100)
-                                 && (!c || confs(m).includes(c)))
+    const big = m => c ? (contTop(m.home_slug, m.home_team_id) || contTop(m.away_slug, m.away_team_id))
+                       : (m.home_rank <= 100 || m.away_rank <= 100);
+    const live = pool.filter(m => !m.nt && liveRow(m) && big(m) && (!c || confs(m).includes(c)))
       .sort((a, b) => ((b.home_elo + b.away_elo) - (a.home_elo + a.away_elo)))
       .slice(0, 5);
     return live.concat(pickUpcoming(c, now).slice(0, 5 - live.length));
