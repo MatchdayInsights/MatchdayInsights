@@ -555,6 +555,14 @@
     if (on && on.hidden) { var f = tabsBar.querySelector('button[data-t="m"]'); f.classList.add("on"); on.classList.remove("on"); setView(""); }
   }
   try { initTabs(); updateTabs(); } catch (e) {}
+  // "#m" in the address opens Facts straight away - links from the homepage's
+  // live cards and the Matches page's kicked-off matches (Greg, 2026-11).
+  try {
+    if (/^#(m|facts)$/i.test(location.hash) && tabsBar) {
+      var fb = tabsBar.querySelector('button[data-t="m"]:not([data-v])');
+      if (fb && !fb.classList.contains("on")) fb.click();
+    }
+  } catch (e) {}
   var f2 = window.MIRenderMatch;
   if (typeof f2 === "function") {
     window.MIRenderMatch = function () { var r = f2.apply(this, arguments); try { updateTabs(); } catch (e) {} return r; };

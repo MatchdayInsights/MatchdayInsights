@@ -23,7 +23,7 @@
 .featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
 .fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
 .fmatch:hover{border-color:var(--green-dim)}
-.fmatch.fm-live{border-color:#e5484d}.fmatch.fm-live .fmatch-meta{color:#e5484d;font-weight:700}
+.fmatch.fm-live{border-color:#e5484d}.fmatch[data-href]{cursor:pointer}.fmatch.fm-live .fmatch-meta{color:#e5484d;font-weight:700}
 .fmatch-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1px;margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .fmatch-side{display:flex;align-items:center;gap:6px;margin-bottom:3px}
 .fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
@@ -231,7 +231,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">290,461</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">290,467</div><div class="hstat-label">Matches Analysed</div></div>
   </div>
 </div>
 
@@ -385,13 +385,16 @@ Promise.all([getJSON('predictions.json'), getJSON('nations_upcoming.json')]).the
     const lr = liveRow(m);
     const when = lr ? `<i class="dot"></i>LIVE ${lr[2] === 'HT' ? 'HT' : (lr[3] ? lr[3] + "'" : '')} &middot; ${lr[4] || 0}-${lr[5] || 0}`
                     : d.toLocaleDateString('en-GB', {day:'numeric', month:'short'});
-    const link = (slug, name) => m.nt
+    // A live card opens the match page on its Facts tab - the whole card,
+    // names too (Greg, 2026-11: "too many clicks to get to a match page").
+    const go = lr && m.pg ? `predictions/${m.pg}.html#m` : '';
+    const link = (slug, name) => go ? `<span class="fmatch-name">${name}</span>` : m.nt
       ? `<a class="fmatch-name" href="nations/${slug}.html">${name}</a>`
       : slug ? `<a class="fmatch-name" href="clubs/${slug}.html">${name}</a>`
       : `<span class="fmatch-name">${name}</span>`;
     const badge = (id, flag) => m.nt ? (flag ? `<span class="crest fi fi-${flag}"></span>` : '') : crestImg(id);
     const hs = m.nt ? m.home_nt : m.home_slug, as = m.nt ? m.away_nt : m.away_slug;
-    return `<div class="fmatch${lr ? ' fm-live' : ''}">
+    return `<div class="fmatch${lr ? ' fm-live' : ''}"${go ? ` data-href="${go}" role="link" tabindex="0"` : ''}>
       <div class="fmatch-meta${lr ? ' lv' : ''}">${when} &middot; ${m.competition}</div>
       <div class="fmatch-side">${badge(m.home_team_id, m.home_flag)}${link(hs, m.home_team)}<span class="fmatch-rank">#${m.home_rank}</span></div>
       <div class="fmatch-side">${badge(m.away_team_id, m.away_flag)}${link(as, m.away_team)}<span class="fmatch-rank">#${m.away_rank}</span></div>
@@ -436,7 +439,7 @@ Promise.all([getJSON('predictions.json'), getJSON('nations_upcoming.json')]).the
   function pick(c) {
     const now = Date.now();
     const big = m => c ? (contTop(m.home_slug, m.home_team_id) || contTop(m.away_slug, m.away_team_id))
-                       : (m.home_rank <= 100 || m.away_rank <= 100);
+                       : (m.home_rank <= 250 || m.away_rank <= 250);   // world top 250 (Greg, 2026-11)
     const live = pool.filter(m => !m.nt && liveRow(m) && big(m) && (!c || confs(m).includes(c)))
       .sort((a, b) => ((b.home_elo + b.away_elo) - (a.home_elo + a.away_elo)))
       .slice(0, 5);
@@ -466,6 +469,10 @@ Promise.all([getJSON('predictions.json'), getJSON('nations_upcoming.json')]).the
   if (!pick('').length) return;   // nothing left in the horizon at all
   sel.addEventListener('change', show);
   document.addEventListener('mi-live', show);
+  row.addEventListener('click', e => {
+    const c = e.target.closest('.fmatch[data-href]');
+    if (c && !e.target.closest('a')) location.href = c.dataset.href;
+  });
   show();
   document.getElementById('featured-wrap').style.display = '';
 }).catch(() => {});

@@ -458,7 +458,7 @@ function row(m){
   // Upcoming: tap opens our odds, the bookmakers' and each side's form (Greg, 2026-11).
   const pv=m.o&&!det?` data-u="1" data-o="${m.o.join(',')}"${m.b?` data-b="${m.b.join(',')}"`:''}${m.h.f?` data-fh="${esc(m.h.f)}"`:''}${m.a.f?` data-fa="${esc(m.a.f)}"`:''} tabindex="0" role="button" aria-expanded="false"`:'';
   const hr=m.h.r||9999, ar=m.a.r||9999, top=Math.min(hr,ar)<=100||Math.max(hr,ar)<=400;
-  return `<div class="m"${det}${pv}${pg}${top?' data-top="1"':''} data-st="${esc(m.st||'')}" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
+  return `<div class="m"${det}${pv}${pg}${top?' data-top="1"':''} data-st="${esc(m.st||'')}" data-t="${esc(m.t||'')}" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
 }
 
 async function show(key,quiet){
@@ -671,6 +671,12 @@ $('list').addEventListener('click',e=>{
   // The FT button under a result opens the details in place; anywhere else
   // on a match opens its match page, if it has one (Greg, 2026-10).
   if(mr&&e.target.closest('.mid .x')&&!e.target.closest('.md')){toggleDetails(mr);return;}
+  // Kicked off (live, or past its kick-off time): straight to the match
+  // page's Facts tab, no panel first (Greg, 2026-11: "too many clicks").
+  const kr=e.target.closest('.m[data-pg]');
+  if(kr&&!mr&&!e.target.closest('a')&&!e.target.closest('.md')&&(kr.dataset.st==='live'
+     ||(kr.dataset.t&&Date.parse(kr.dataset.t.replace('Z',':00Z'))<=Date.now()))){
+    location.href='predictions/'+kr.dataset.pg+'.html#m';return;}
   const ur=e.target.closest('.m[data-u]');
   if(ur&&!e.target.closest('a')&&!e.target.closest('.md')){togglePreview(ur);return;}
   const pr=e.target.closest('.m[data-pg]');
