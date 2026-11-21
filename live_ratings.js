@@ -6,7 +6,9 @@
      - club page: next to the rank in the header
      - homepage: in the rankings table, next to the rating
      - Matches page: the rating change and new rank under each live score
-   Provisional - confirmed by the next update. Loaded by live.js when a match
+   Provisional - confirmed by the next update. A match that has finished but
+   isn't in an update yet shows too (NEW / RATING CHANGE, Greg 2026-11), so
+   the ranking moves the moment a game ends. Loaded by live.js when a match
    is live (and by the Matches page); reads live_model.json and
    live_ranks.json. */
 (function () {
@@ -44,12 +46,13 @@
 
   // Live ranks: every club's rating, plus the live changes, re-ordered.
   function liveTable(rows) {
-    var delta = {}, info = {};
+    var delta = {}, info = {}, on = {};
     rows.forEach(function (r) {
       var f = MODEL.f[String(r[0])]; if (!f || !LIVE[r[2]] && r[2] !== 'FT' && r[2] !== 'AET' && r[2] !== 'PEN') return;
       var c = change(f, r[4] || 0, r[5] || 0, r[2]);
       delta[f[0]] = (delta[f[0]] || 0) + c.home; delta[f[1]] = (delta[f[1]] || 0) + c.away;
-      info[String(r[0])] = {fid: String(r[0]), home: f[0], away: f[1], dh: c.home, da: c.away};
+      if (LIVE[r[2]]) { on[f[0]] = 1; on[f[1]] = 1; }    // still playing: "if it ends like this"
+      info[String(r[0])] = {fid: String(r[0]), home: f[0], away: f[1], dh: c.home, da: c.away, live: !!LIVE[r[2]]};
     });
     var ids = Object.keys(delta);
     if (!ids.length) return {matches: info, club: {}};
@@ -61,7 +64,7 @@
       if (!all[t]) return;
       var r = all[t][1] + delta[t], lo = 0, hi = list.length;
       while (lo < hi) { var mid = (lo + hi) >> 1; if (list[mid] > r) lo = mid + 1; else hi = mid; }
-      club[t] = {d: delta[t], rank: lo + 1, was: all[t][0], rating: r};
+      club[t] = {d: delta[t], rank: lo + 1, was: all[t][0], rating: r, live: !!on[t]};
     });
     return {matches: info, club: club};
   }
@@ -72,6 +75,7 @@
   var css = document.createElement('style');
   css.textContent = '.lr{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--text2)}' +
     '.lr b.p{color:var(--green,#3dba5e)}.lr b.n{color:#e5484d}.lr .lrt{color:#e5484d;font-weight:700;letter-spacing:.06em}' +
+    '.lr .lrt.ft{color:var(--green,#3dba5e)}' +
     '.sb-lr{text-align:center;margin:8px 0 0;line-height:1.7}' +
     '.club-lr{display:block;margin-top:6px;letter-spacing:0;text-transform:none}' +
     '.row-lr{display:block;font-size:10.5px;margin-top:2px;white-space:nowrap}';
@@ -93,13 +97,15 @@
       var m = t.matches[fidEl.getAttribute('data-fid')], old = sb.querySelector('.sb-lr');
       if (old) old.remove();
       var row = d.m.filter(function (r) { return String(r[0]) === fidEl.getAttribute('data-fid'); })[0];
-      if (m && row && LIVE[row[2]]) {
+      if (m && row) {
         var names = sb.querySelectorAll('.sb-t span');
         var side = function (id, dv, nm) {
           return esc(nm) + ' <b class="' + (dv >= 0 ? 'p' : 'n') + '">' + sign(dv) + '</b>' +
             (t.club[id] ? ' (' + rankMove(t.club[id]) + ')' : '');
         };
-        sb.insertAdjacentHTML('beforeend', '<div class="lr sb-lr"><span class="lrt">IF IT ENDS LIKE THIS</span><br>' +
+        // Finished, not yet in an update: the change as it will be (Greg, 2026-11).
+        sb.insertAdjacentHTML('beforeend', '<div class="lr sb-lr">' + (LIVE[row[2]] ? '<span class="lrt">IF IT ENDS LIKE THIS</span>'
+          : '<span class="lrt ft">RATING CHANGE</span>') + '<br>' +
           side(m.home, m.dh, names[0] ? names[0].textContent : 'Home') + ' &middot; ' +
           side(m.away, m.da, names[1] ? names[1].textContent : 'Away') + '</div>');
       }
@@ -110,8 +116,9 @@
     if (rank && tidEl) {
       var old2 = rank.querySelector('.club-lr'); if (old2) old2.remove();
       var c = t.club[(tidEl.getAttribute('data-tid') || '').split('::')[0]];
-      if (c) rank.insertAdjacentHTML('beforeend', '<span class="lr club-lr"><span class="lrt">LIVE</span> ' +
-        rankMove(c) + ' <b class="' + (c.d >= 0 ? 'p' : 'n') + '">' + sign(c.d) + '</b> if it ends like this</span>');
+      if (c) rank.insertAdjacentHTML('beforeend', '<span class="lr club-lr">' + (c.live ? '<span class="lrt">LIVE</span> '
+        : '<span class="lrt ft">NEW</span> ') + rankMove(c) + ' <b class="' + (c.d >= 0 ? 'p' : 'n') + '">' + sign(c.d) + '</b>' +
+        (c.live ? ' if it ends like this' : ' after the latest result') + '</span>');
     }
     // Homepage rankings table.
     var rowsT = document.querySelectorAll('.table-wrap tbody tr');
@@ -125,7 +132,8 @@
         var slug = mm[1];
         var tid = bySlug[slug]; var cc = tid && t.club[tid]; if (!cc) continue;
         var cell = rowsT[i].querySelector('.elo-cell') || rowsT[i].lastElementChild;
-        cell.insertAdjacentHTML('beforeend', '<span class="lr row-lr"><span class="lrt">LIVE</span> <b class="' +
+        cell.insertAdjacentHTML('beforeend', '<span class="lr row-lr">' + (cc.live ? '<span class="lrt">LIVE</span>'
+          : '<span class="lrt ft">NEW</span>') + ' <b class="' +
           (cc.d >= 0 ? 'p' : 'n') + '">' + sign(cc.d) + '</b> → #' + cc.rank + '</span>');
       }
     }

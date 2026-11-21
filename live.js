@@ -225,8 +225,10 @@
         if (!d || !d.m) { retry(); return; }
         fails = 0; last = d; window.MI_LIVE = d;
         draw();
-        // Live ratings ("if it ends like this"): loaded the first time a match is on.
-        if (!window.MILR && !lrAsked && d.m.some(function (r) { return LIVE[r[2]]; })) {
+        // Live ratings ("if it ends like this"): loaded the first time a match is on -
+        // or has just finished: its rating change shows straight away, not at the next
+        // update (Greg, 2026-11: "ratings update automatically upon completion of a game").
+        if (!window.MILR && !lrAsked && d.m.some(function (r) { return LIVE[r[2]] || r[2] === 'FT' || r[2] === 'AET' || r[2] === 'PEN'; })) {
           lrAsked = true;
           var sc = document.createElement('script');
           sc.src = base + 'live_ratings.js'; sc.setAttribute('data-base', base);
