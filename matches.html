@@ -455,7 +455,7 @@ function row(m){
   const hi=m.h.i||(m.h.nt?'nt:'+m.h.nt:''), ai=m.a.i||(m.a.nt?'nt:'+m.a.nt:'');
   const pg=(m.pg?` data-pg="${esc(m.pg)}"`:'')+(hi?` data-hi="${esc(hi)}"`:'')+(ai?` data-ai="${esc(ai)}"`:'');
   const det=m.d&&m.st==='ft'?` data-d="${esc(m.id)}" tabindex="0" role="button" aria-expanded="false"`:'';
-  // Upcoming: tap opens our odds, the bookies' and each side's form (Greg, 2026-11).
+  // Upcoming: tap opens our odds, the bookmakers' and each side's form (Greg, 2026-11).
   const pv=m.o&&!det?` data-u="1" data-o="${m.o.join(',')}"${m.b?` data-b="${m.b.join(',')}"`:''}${m.h.f?` data-fh="${esc(m.h.f)}"`:''}${m.a.f?` data-fa="${esc(m.a.f)}"`:''} tabindex="0" role="button" aria-expanded="false"`:'';
   const hr=m.h.r||9999, ar=m.a.r||9999, top=Math.min(hr,ar)<=100||Math.max(hr,ar)<=400;
   return `<div class="m"${det}${pv}${pg}${top?' data-top="1"':''} data-st="${esc(m.st||'')}" data-q="${esc((m.h.n+' '+m.a.n).toLowerCase())}">${side(m.h,'h',hl)}<div class="mid">${mid}</div>${side(m.a,'a',al)}${extra}</div>`;
@@ -621,11 +621,11 @@ function togglePreview(row){
   const line=(lab,p,cls)=>`<div class="pv-r${cls?' '+cls:''}"><span class="pv-l">${lab}</span><b>${p[0]}%</b><b>${p[1]}%</b><b>${p[2]}%</b></div>`;
   let note='';
   if(b){const k=[0,1,2].reduce((x,i)=>Math.abs(o[i]-b[i])>Math.abs(o[x]-b[x])?i:x,0), gap=o[k]-b[k];
-    if(Math.abs(gap)>=8){const who=k===0?h:k===2?a:'a draw';note=`<div class="pv-n">We rate ${esc(who)} ${gap>0?'higher':'lower'} than the bookies (${o[k]}% v ${b[k]}%).</div>`;}}
+    if(Math.abs(gap)>=8){const who=k===0?h:k===2?a:'a draw';note=`<div class="pv-n">We rate ${esc(who)} ${gap>0?'higher':'lower'} than the bookmakers (${o[k]}% v ${b[k]}%).</div>`;}}
   const tiles=f=>f?[...f].map(r=>`<i class="pv-${r}">${r}</i>`).join(''):'<span class="pv-x">-</span>';
   const box=document.createElement('div');box.className='md pv';
   box.innerHTML=`<div class="pv-r pv-h"><span class="pv-l"></span><span>${esc(h)}</span><span>Draw</span><span>${esc(a)}</span></div>`
-    +line('Our odds',o,'pv-us')+(b?line('Bookies',b,''):'<div class="pv-n">No bookmakers\' odds yet.</div>')+note
+    +line('Our odds',o,'pv-us')+(b?line('Bookmakers',b,''):'<div class="pv-n">No bookmakers\' odds yet.</div>')+note
     +(row.dataset.fh||row.dataset.fa?`<h4>Last 5 &middot; oldest first</h4><div class="pv-f"><div><span>${esc(h)}</span>${tiles(row.dataset.fh)}</div><div><span>${esc(a)}</span>${tiles(row.dataset.fa)}</div></div>`:'')
     +(row.dataset.pg?`<a class="mp-link" href="predictions/${esc(row.dataset.pg)}.html">Full preview &rsaquo;</a>`:'')
     +`<a class="mp-link" href="track-record.html">How accurate are our odds? &rsaquo;</a>`;

@@ -136,11 +136,25 @@
     });
   }
 
+  // Draw the live scores at once; the kick-off times (three files, ~300 KB)
+  // only matter for matches already finished, so they load behind it and the
+  // table is drawn again when they're in. It used to wait for them first -
+  // on a phone the table could sit unchanged while a match was on (Greg, 2026-11).
   function onLive(d) {
-    var rows = (d && d.m) || [];
-    var needKick = rows.some(function (r) { return DONE[r[2]]; });
-    (needKick ? kickoffs() : Promise.resolve()).then(function () { try { draw(rows); } catch (e) {} });
+    var rows = ((d && d.m) || []).filter(function (r) { return r && r.length > 9; });
+    try { draw(rows); } catch (e) {}
+    if (!KICK && rows.some(function (r) { return DONE[r[2]]; })) {
+      kickoffs().then(function () {
+        var now = ((window.MI_LIVE && window.MI_LIVE.m) || rows).filter(function (r) { return r && r.length > 9; });
+        try { draw(now); } catch (e) {}
+      }).catch(function () { KICK = KICK || {}; });
+    }
   }
   document.addEventListener('mi-live', function (e) { onLive(e.detail); });
+  // And again whenever the Table tab is opened.
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('button[data-t="t"]');
+    if (b && window.MI_LIVE) setTimeout(function () { onLive(window.MI_LIVE); }, 0);
+  });
   if (window.MI_LIVE) onLive(window.MI_LIVE);
 })();
