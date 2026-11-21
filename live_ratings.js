@@ -120,8 +120,19 @@
         : '<span class="lrt ft">NEW</span> ') + rankMove(c) + ' <b class="' + (c.d >= 0 ? 'p' : 'n') + '">' + sign(c.d) + '</b>' +
         (c.live ? ' if it ends like this' : ' after the latest result') + '</span>');
     }
-    // Homepage rankings table.
+    // Homepage rankings table - with the score (Greg, 2026-11: "I want the
+    // live score to show on the rankings"): "LIVE 0-1 v Fulham 33' -21.2 → #6",
+    // the club's own goals first; "FT 0-1 v Fulham" once it's over.
     var rowsT = document.querySelectorAll('.table-wrap tbody tr');
+    var game = {};
+    d.m.forEach(function (r) {
+      var f = MODEL.f[String(r[0])]; if (!f) return;
+      if (!LIVE[r[2]] && r[2] !== 'FT' && r[2] !== 'AET' && r[2] !== 'PEN') return;
+      var when = LIVE[r[2]] ? (r[2] === 'HT' ? ' HT' : r[3] ? ' ' + r[3] + "'" : '') : '';
+      var hg = r[4] || 0, ag = r[5] || 0;
+      game[f[0]] = {live: !!LIVE[r[2]], txt: hg + '-' + ag + ' v ' + (r[9] || '') + when};
+      game[f[1]] = {live: !!LIVE[r[2]], txt: ag + '-' + hg + ' v ' + (r[8] || '') + when};
+    });
     if (rowsT.length) {
       var bySlug = window.MILR_SLUGS || {};
       document.querySelectorAll('.row-lr').forEach(function (x) { x.remove(); });
@@ -132,8 +143,9 @@
         var slug = mm[1];
         var tid = bySlug[slug]; var cc = tid && t.club[tid]; if (!cc) continue;
         var cell = rowsT[i].querySelector('.elo-cell') || rowsT[i].lastElementChild;
+        var gm = game[tid];
         cell.insertAdjacentHTML('beforeend', '<span class="lr row-lr">' + (cc.live ? '<span class="lrt">LIVE</span>'
-          : '<span class="lrt ft">NEW</span>') + ' <b class="' +
+          : '<span class="lrt ft">' + (gm ? 'FT' : 'NEW') + '</span>') + (gm ? ' ' + esc(gm.txt) + ' &middot;' : '') + ' <b class="' +
           (cc.d >= 0 ? 'p' : 'n') + '">' + sign(cc.d) + '</b> → #' + cc.rank + '</span>');
       }
     }
