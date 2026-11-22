@@ -231,7 +231,7 @@ th .rank-in{display:block;font-size:8px;letter-spacing:1px;margin-top:3px;white-
   <div class="hero-stats">
     <div class="hstat"><div class="hstat-val" id="stat-clubs">&mdash;</div><div class="hstat-label">Clubs Ranked</div></div>
     <div class="hstat"><div class="hstat-val" id="stat-leagues">&mdash;</div><div class="hstat-label">Leagues</div></div>
-    <div class="hstat"><div class="hstat-val">290,608</div><div class="hstat-label">Matches Analysed</div></div>
+    <div class="hstat"><div class="hstat-val">290,791</div><div class="hstat-label">Matches Analysed</div></div>
   </div>
 </div>
 
@@ -571,7 +571,48 @@ function goPage(n){
   window.scrollTo({top:document.querySelector('.controls').offsetTop-60,behavior:'smooth'});
 }
 
-function applyFilters(){
+// Results since the last update, counted at once (Greg, 2026-11: "My wish
+// is for the ranking to update automatically upon match completion, but
+// it's paramount that a match doesn't get double counted"). live_ratings.js
+// calls this with each club's change from FINISHED matches that the live
+// model still holds (so not yet in rankings_table.json) and whose pre-match
+// ratings match this file. The file's own numbers are kept (base_*), so
+// every call starts from them - nothing is ever added twice, and once the
+// update lands the match drops out of the model and the change with it.
+let LIVE_SIG = '';
+window.MIRankLive = function(delta, n){
+  if(!CLUBS.length) return;
+  const sig = JSON.stringify(delta);
+  if(sig === LIVE_SIG) return;
+  LIVE_SIG = sig;
+  CLUBS.forEach(c=>{
+    if(c.base_elo===undefined){c.base_elo=c.elo;c.base_rank=c.rank;c.base_rc=c.rank_change;c.base_ec=c.elo_change;}
+    const d = delta[String(c.team_id)] || 0;
+    c.live_d = d;
+    c.elo = Math.round((c.base_elo + d) * 10) / 10;
+    c.elo_change = d ? Math.round(((c.base_ec || 0) + d) * 10) / 10 : c.base_ec;
+  });
+  CLUBS.sort((a,b)=> (b.base_elo + b.live_d) - (a.base_elo + a.live_d) || a.base_rank - b.base_rank);
+  const seenC = {}, seenK = {};
+  CLUBS.forEach((c,i)=>{
+    c.rank = i + 1;
+    c.rank_change = c.base_rc === null || c.base_rc === undefined ? (c.rank !== c.base_rank ? c.base_rank - c.rank : c.base_rc)
+                  : c.base_rc + (c.base_rank - c.rank);
+    if (c.country) c.country_rank = seenC[c.country] = (seenC[c.country] || 0) + 1;
+    if (c.confederation) c.conf_rank = seenK[c.confederation] = (seenK[c.confederation] || 0) + 1;
+  });
+  let note = document.getElementById('live-count');
+  if(!note){
+    note = document.createElement('div'); note.id = 'live-count';
+    note.style.cssText = 'font-size:12px;color:var(--muted);margin:6px 0 8px';
+    const tw = document.querySelector('.table-wrap');
+    if(tw && tw.parentNode) tw.parentNode.insertBefore(note, tw);
+  }
+  note.innerHTML = n ? `<b style="color:var(--green,#3dba5e)">&#9679; ${n} result${n>1?'s':''}</b> since the last update already counted (marked FT). Matches still on aren't counted until they finish.` : '';
+  applyFilters(true);
+};
+
+function applyFilters(keepPage){
   const q=document.getElementById('search').value.toLowerCase().trim();
   const confederation=document.getElementById('filter-confederation').value;
   const country=document.getElementById('filter-country').value;
@@ -586,7 +627,22 @@ function applyFilters(){
     if(range==='top100'&&c.rank>100)return false;
     return true;
   });
-  currentPage=1;renderTable();
+  if(sortCol!=='rank'||sortDir!==1) sortFiltered();
+  if(keepPage!==true) currentPage=1;
+  const pages=Math.max(1,Math.ceil(filtered.length/PAGE_SIZE));
+  if(currentPage>pages) currentPage=pages;
+  renderTable();
+}
+
+function sortFiltered(){
+  const col=sortCol, dir=sortDir;
+  filtered.sort((a,b)=>{
+    const av=a[col],bv=b[col];
+    if(av===null||av===undefined)return 1;
+    if(bv===null||bv===undefined)return -1;
+    if(typeof av==='string')return av.localeCompare(bv)*dir;
+    return(av-bv)*dir;
+  });
 }
 
 function wireControls(){
@@ -596,13 +652,7 @@ function wireControls(){
       if(sortCol===col)sortDir*=-1;else{sortCol=col;sortDir=col==='rank'?1:-1;}
       document.querySelectorAll('th').forEach(t=>t.classList.remove('sorted'));
       th.classList.add('sorted');
-      filtered.sort((a,b)=>{
-        const av=a[col],bv=b[col];
-        if(av===null||av===undefined)return 1;
-        if(bv===null||bv===undefined)return -1;
-        if(typeof av==='string')return av.localeCompare(bv)*sortDir;
-        return(av-bv)*sortDir;
-      });
+      sortFiltered();
       currentPage=1;renderTable();
     });
   });

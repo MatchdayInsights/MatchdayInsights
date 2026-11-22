@@ -29,32 +29,67 @@
     if (status === 'P') res = 0.5;                      // a shoot-out counts as a draw
     var margin = Math.abs(hg - ag);
     var ea = expected(ra, rb, ha);
-    var da = k * gdm(margin) * (res - ea), db = -da;
+    var da = k * gdm(margin) * (res - ea), db = -da, sh = 0, sa = 0;
     if (!f[6]) da = 0;                                  // an unranked side doesn't move
     if (!f[7]) db = 0;
     if (f[5]) {                                         // continental: shared across the division
       if (f[10] && f[8]) {                              // both clubs from the same division:
         var both = (da + db) * conf / f[8];             //   both shares land on both of them
         da += both; db += both;
+        sh = both; sa = both;
       } else {
-        if (f[8]) da += da * conf / f[8];
-        if (f[9]) db += db * conf / f[9];
+        if (f[8]) { sh = da * conf / f[8]; da += sh; }
+        if (f[9]) { sa = db * conf / f[9]; db += sa; }
       }
     }
-    return {home: da, away: db};
+    // sh / sa: what each other club in the home / away side's division gets.
+    return {home: da, away: db, sh: sh, sa: sa};
+  }
+
+  // Only a match whose pre-match ratings are the ratings this page has: if
+  // the update that rated it is already here (a stale live_model.json), the
+  // ratings differ and it's left out - a match is never counted twice
+  // (Greg, 2026-11: "paramount that a match doesn't get double counted").
+  function fresh(f) {
+    var c = RANKS.c, a = c[f[0]], b = c[f[1]];
+    if (f[6] && a && Math.abs(a[1] - f[2]) > 0.06) return false;
+    if (f[7] && b && Math.abs(b[1] - f[3]) > 0.06) return false;
+    return true;
+  }
+
+  // Every club's change from the given matches, league-mates' continental
+  // shares included when the page knows the divisions (MILR_LG, rankings).
+  function deltas(rows, finishedOnly) {
+    var delta = {}, info = {}, on = {}, lg = window.MILR_LG, mates = null;
+    rows.forEach(function (r) {
+      var f = MODEL.f[String(r[0])], st = r[2];
+      if (!f || !fresh(f)) return;
+      var done = st === 'FT' || st === 'AET' || st === 'PEN';
+      if (!LIVE[st] && !done) return;
+      if (finishedOnly && !done) return;
+      var c = change(f, r[4] || 0, r[5] || 0, st);
+      delta[f[0]] = (delta[f[0]] || 0) + c.home; delta[f[1]] = (delta[f[1]] || 0) + c.away;
+      if (lg && (c.sh || c.sa)) {
+        if (!mates) { mates = {}; for (var t in lg) (mates[lg[t]] = mates[lg[t]] || []).push(t); }
+        var add = function (club, share) {
+          if (!share || !lg[club]) return;
+          (mates[lg[club]] || []).forEach(function (m) {
+            if (m !== f[0] && m !== f[1]) delta[m] = (delta[m] || 0) + share;
+          });
+        };
+        if (f[10]) add(f[0], c.sh); else { add(f[0], c.sh); add(f[1], c.sa); }
+      }
+      if (LIVE[st]) { on[f[0]] = 1; on[f[1]] = 1; }    // still playing: "if it ends like this"
+      info[String(r[0])] = {fid: String(r[0]), home: f[0], away: f[1], dh: c.home, da: c.away, live: !!LIVE[st]};
+    });
+    return {delta: delta, info: info, on: on};
   }
 
   // Live ranks: every club's rating, plus the live changes, re-ordered.
   function liveTable(rows) {
-    var delta = {}, info = {}, on = {};
-    rows.forEach(function (r) {
-      var f = MODEL.f[String(r[0])]; if (!f || !LIVE[r[2]] && r[2] !== 'FT' && r[2] !== 'AET' && r[2] !== 'PEN') return;
-      var c = change(f, r[4] || 0, r[5] || 0, r[2]);
-      delta[f[0]] = (delta[f[0]] || 0) + c.home; delta[f[1]] = (delta[f[1]] || 0) + c.away;
-      if (LIVE[r[2]]) { on[f[0]] = 1; on[f[1]] = 1; }    // still playing: "if it ends like this"
-      info[String(r[0])] = {fid: String(r[0]), home: f[0], away: f[1], dh: c.home, da: c.away, live: !!LIVE[r[2]]};
-    });
-    var ids = Object.keys(delta);
+    var dd = deltas(rows, false), delta = dd.delta, info = dd.info, on = dd.on;
+    var ids = [];
+    for (var fid in info) { ids.push(info[fid].home); ids.push(info[fid].away); }
     if (!ids.length) return {matches: info, club: {}};
     var club = {};
     var all = RANKS.c, list = [];
@@ -123,6 +158,14 @@
     // Homepage rankings table - with the score (Greg, 2026-11: "I want the
     // live score to show on the rankings"): "LIVE 0-1 v Fulham 33' -21.2 → #6",
     // the club's own goals first; "FT 0-1 v Fulham" once it's over.
+    // Rankings page: results that have finished but aren't in an update yet
+    // move clubs to their new places at once (Greg, 2026-11: "My wish is for
+    // the ranking to update automatically upon match completion"). Matches
+    // still on don't move anything - they keep "if it ends like this".
+    if (window.MIRankLive) {
+      var fin = deltas(d.m, true);
+      window.MIRankLive(fin.delta, Object.keys(fin.info).length);
+    }
     var rowsT = document.querySelectorAll('.table-wrap tbody tr');
     var game = {};
     d.m.forEach(function (r) {
@@ -154,12 +197,16 @@
   function load() {
     Promise.all([
       fetch(base + 'live_model.json', {cache: 'no-store'}).then(function (r) { return r.ok ? r.json() : null; }),
-      fetch(base + 'live_ranks.json').then(function (r) { return r.ok ? r.json() : null; }),
+      fetch(base + 'live_ranks.json', {cache: 'no-cache'}).then(function (r) { return r.ok ? r.json() : null; }),
       document.querySelector('.table-wrap') ? fetch(base + 'rankings_table.json').then(function (r) { return r.ok ? r.json() : null; }) : null
     ]).then(function (x) {
       if (!x[0] || !x[1]) return;
       MODEL = x[0]; RANKS = x[1];
-      if (x[2]) { var s = {}; x[2].forEach(function (r) { s[r.slug] = String(r.team_id); }); window.MILR_SLUGS = s; }
+      if (x[2]) {
+        var s = {}, lg = {};
+        x[2].forEach(function (r) { s[r.slug] = String(r.team_id); if (r.league_code) lg[String(r.team_id)] = r.league_code; });
+        window.MILR_SLUGS = s; window.MILR_LG = lg;
+      }
       READY = true;
       waiting.forEach(function (f) { f(); }); waiting = [];
       if (window.MI_LIVE) draw(window.MI_LIVE);

@@ -186,14 +186,42 @@
     var g = { h: [], a: [] };
     (d.ev || []).forEach(function (e) {
       var k = e[3]; if (k !== "g" && k !== "p" && k !== "og") return;
-      // An own goal counts for the other side.
-      var side = k === "og" ? (e[2] === "h" ? "a" : "h") : e[2];
-      var nm = e[4] || "?", prev = null;
+      var nm = e[4] || "?", prev = null, side = e[2], from = e[2];
+      // An own goal counts for the other side. Which team the API files it
+      // under isn't reliable (Barcelona v Villarreal put Pau Navarro's under
+      // Barcelona), so the player's team comes from the line-ups; only when
+      // he isn't in either is the API's side kept (Greg, 2026-11).
+      if (k === "og") {
+        var own = teamOf(d, e[6], nm);
+        if (own) { from = own; side = own === "h" ? "a" : "h"; }
+        else from = side === "h" ? "a" : "h";
+      }
       g[side].forEach(function (x) { if (x.n === nm && x.og === (k === "og")) prev = x; });
       var m = e[0] + (e[1] ? "+" + e[1] : "") + "'" + (k === "p" ? " pen" : k === "og" ? " og" : "");
-      if (prev) prev.m.push(m); else g[side].push({ n: nm, id: e[6], m: [m], og: k === "og", from: e[2] });
+      if (prev) prev.m.push(m); else g[side].push({ n: nm, id: e[6], m: [m], og: k === "og", from: from });
     });
     return g;
+  }
+
+  // "h" / "a": the side whose line-up (XI or bench) holds this player - by
+  // id, else by name - or null.
+  function teamOf(d, id, nm) {
+    var lu = d.lu || {}, hit = null, low = String(nm || "").toLowerCase();
+    ["h", "a"].forEach(function (s) {
+      var t = lu[s] || {};
+      (t.xi || []).concat(t.bn || []).forEach(function (r) {
+        if (hit) return;
+        if (id != null && r[4] != null && String(r[4]) === String(id)) hit = s;
+      });
+    });
+    if (hit || !low) return hit;
+    ["h", "a"].forEach(function (s) {
+      var t = lu[s] || {};
+      (t.xi || []).concat(t.bn || []).forEach(function (r) {
+        if (!hit && String(r[1] || "").toLowerCase() === low) hit = s;
+      });
+    });
+    return hit;
   }
 
   function keyPlayers(d) {
