@@ -305,7 +305,10 @@ html[data-theme="light"] tbody tr.top10 { background: #ffffff !important; }
   html body #tab-overview > .charts-grid > .chart-panel:first-child { order: 1; margin-top: 4px; }
   html body #tab-overview > #upcoming-panel { order: 2; }
   html body #tab-overview > #form { order: 3; }
-  html body #tab-overview > .pg-jump { order: 4; }
+  /* The section links go back to the top of the Overview, where they stay as
+     you scroll - the re-ordering had left them halfway down the page (Greg,
+     2026-11: "the tabs on the club page are down by the middle"). */
+  html body #tab-overview > .pg-jump { order: 0; }
   html body #tab-overview > .charts-grid > .chart-panel:not(:first-child) { order: 11; }
 }
 
