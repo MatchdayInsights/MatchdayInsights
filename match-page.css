@@ -8,6 +8,7 @@
 .featured-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
 .fmatch{flex:0 0 auto;min-width:230px;background:var(--surface2);border:1px solid var(--border2);border-radius:9px;padding:11px 13px;transition:border-color .15s}
 .fmatch:hover{border-color:var(--green-dim)}
+.fmatch.fm-live{border-color:#e5484d}.fmatch[data-href]{cursor:pointer}.fmatch.fm-live .fmatch-meta{color:#e5484d;font-weight:700}
 .fmatch-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1px;margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .fmatch-side{display:flex;align-items:center;gap:6px;margin-bottom:3px}
 .fmatch-name{flex:1;min-width:0;font-size:14px;font-weight:700;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);text-decoration:none}
