@@ -91,10 +91,10 @@
   text-decoration:none;font-family:'JetBrains Mono',sans-serif;font-size:12px;font-weight:600;white-space:nowrap}
 .pg-jump a:hover{border-color:var(--green-dim);color:var(--text)}
 .pg-jump a.on{background:rgba(61,186,94,.14);border-color:var(--green);color:var(--green)}
-#upcoming-panel,#form,#seasons,#league-table,#bracket,#charts,#nearby,#motw,#upcoming,#record{scroll-margin-top:calc(var(--navh,58px) + 64px)}
+#upcoming-panel,#form,#seasons,#playoffs,#league-table,#cups,#bracket,#charts,#nearby,#motw,#upcoming,#record{scroll-margin-top:calc(var(--navh,58px) + 64px)}
 .hub #motw,.hub #upcoming,.hub #record{scroll-margin-top:calc(var(--navh,58px) + 130px)}
 </style>
-<nav class="pg-jump" aria-label="On this page"><a href="#upcoming-panel">Upcoming</a><a href="#form">Form</a><a href="#seasons">Season by season</a><a href="#league-table">League table</a><a href="#charts">Rating &amp; rank charts</a><a href="#nearby">Nearby in rankings</a></nav>
+<nav class="pg-jump" aria-label="On this page"><a href="#upcoming-panel">Upcoming</a><a href="#form">Form</a><a href="#seasons">Season by season</a><a href="#league-table">League table</a><a href="#cups">Cups</a><a href="#charts">Rating &amp; rank charts</a><a href="#nearby">Nearby in rankings</a></nav>
 <script>(function(){function go(){var bar=document.querySelector('.pg-jump');if(!bar)return;
   var nav=document.querySelector('.site-nav');
   function navh(){var h=nav?nav.getBoundingClientRect().height:58,p=nav?getComputedStyle(nav).position:'';
@@ -210,6 +210,7 @@
       </div>
     </div>
 
+
     <div class="section" id="league-table">
       <h2>League Table</h2>
       <div class="stat-card" style="padding: 8px; overflow-x: auto;">
@@ -252,6 +253,28 @@
         </table>
         
       </div>
+    </div>
+<style>
+.cr-card{border:1px solid var(--border2);border-radius:10px;background:var(--surface2);margin:0 0 14px;overflow:hidden}
+.cr-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)}
+.cr-h b{font-size:15px}
+.cr-st{font-size:12px;font-weight:600;white-space:nowrap}
+.cr-st.in{color:var(--green)}.cr-st.out{color:var(--muted)}.cr-st.won{color:#c9a227}
+.cr-row{display:grid;grid-template-columns:minmax(90px,1.1fr) 2fr auto;gap:8px;align-items:center;padding:8px 12px;font-size:13px}
+.cr-row+.cr-row{border-top:1px solid var(--border)}
+.cr-rd{color:var(--muted);font-size:12px}
+.cr-op{display:flex;align-items:center;gap:6px;min-width:0}
+.cr-op span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cr-op a{color:inherit;text-decoration:none}
+.cr-op img{width:18px;height:18px;object-fit:contain;flex:none}
+.cr-sc{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.cr-sc i{font-style:normal;font-size:11px;font-weight:700;display:inline-block;width:18px;text-align:center;border-radius:4px;margin-left:6px;color:#fff}
+.cr-sc i.W{background:#22a052}.cr-sc i.L{background:#dc3b3b}.cr-sc i.D{background:#9a9a9a}
+.cr-sc small{display:block;color:var(--muted);font-size:11px}
+</style>
+    <div class="section" id="cups">
+      <h2>Cup runs</h2>
+      <div class="cr-card"><div class="cr-h"><b>Coupe de France</b><span class="cr-st in">Next: Round of 128</span></div><div class="cr-row"><div class="cr-rd">1/128-finals</div><div class="cr-op"><img src="../crests/28653.png" alt="" loading="lazy" onerror="this.remove()"><span>v Tatinghem</span></div><div class="cr-sc" title="away">2-1<i class="W">W</i></div></div><div class="cr-row"><div class="cr-rd">Round of 128</div><div class="cr-op"><img src="../crests/13654.png" alt="" loading="lazy" onerror="this.remove()"><span>v Loon-Plage</span></div><div class="cr-sc" title="away"><small>Sat 28 Nov</small></div></div></div>
     </div>
 
 

@@ -236,7 +236,7 @@ table.hist-table{min-width:0}
 #strength,#playoffs,#table,#matches,#ratings{scroll-margin-top:calc(var(--navh,58px) + 56px)}
 @media (min-width:900px){.pg-jump{padding-left:max(24px,calc((100% - 1240px) / 2));padding-right:max(24px,calc((100% - 1240px) / 2))}}
 </style>
-<nav class="pg-jump" aria-label="On this page"><a href="#strength">Strength over time</a><a href="#table">Table</a><a href="#ratings">Our ratings</a></nav>
+<nav class="pg-jump" aria-label="On this page"><a href="#strength">Strength over time</a><a href="#playoffs">Play-offs</a><a href="#table">Table</a><a href="#ratings">Our ratings</a></nav>
 <script>(function(){function go(){var bar=document.querySelector('.pg-jump');if(!bar)return;
   var nav=document.querySelector('.site-nav');
   function navh(){var h=nav?nav.getBoundingClientRect().height:58;
@@ -255,6 +255,44 @@ table.hist-table{min-width:0}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script>
 <!-- /league-jump -->
 <div class="lh" id="strength"><h2>League strength over time</h2><p>The average rating of its clubs, month by month. 703 in Aug 2025, 702 now (<b style="color:var(--red)">-0</b>).</p><svg viewBox="0 0 900 220" role="img" aria-label="Average club rating over time"><line class="gl" x1="56" x2="820" y1="194.0" y2="194.0"/><text class="ax" x="50" y="198.0" text-anchor="end">667</text><line class="gl" x1="56" x2="820" y1="134.0" y2="134.0"/><text class="ax" x="50" y="138.0" text-anchor="end">687</text><line class="gl" x1="56" x2="820" y1="74.0" y2="74.0"/><text class="ax" x="50" y="78.0" text-anchor="end">707</text><line class="gl" x1="56" x2="820" y1="14.0" y2="14.0"/><text class="ax" x="50" y="18.0" text-anchor="end">728</text><text class="ax" x="310.7" y="214" text-anchor="middle">2026</text><path class="ln" d="M56.0,87.9 L106.9,164.4 L157.9,164.4 L208.8,164.4 L259.7,164.4 L310.7,164.4 L361.6,164.4 L412.5,136.1 L463.5,83.2 L514.4,47.4 L565.3,47.4 L616.3,47.4 L667.2,85.8 L718.1,43.6 L769.1,80.8 L820.0,88.2"/><circle class="pt" cx="820.0" cy="88.2" r="4"/><text class="pl" x="828.0" y="92.2">702</text></svg></div><style>
+/* A real bracket: lines join each pair of ties to the tie they lead to.
+   Computers fit every round across the page with full names; phones keep
+   full names and swipe sideways (Greg, 2026-11: picked "A for web, C for
+   mobile/app" from mock-ups). */
+.po-wrap{padding:18px 20px 10px;border-bottom:1px solid var(--border);scroll-margin-top:66px}
+.po-wrap>*{max-width:980px;margin-left:auto;margin-right:auto}
+.po-br{display:flex;gap:24px;overflow-x:auto;padding:4px 2px 12px;-webkit-overflow-scrolling:touch}
+.po-rd{flex:1 0 170px;display:flex;flex-direction:column;min-width:0}
+.po-rd h4{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center;margin:0 0 6px;min-height:28px}
+.po-col{flex:1;display:flex;flex-direction:column}
+.po-pair{flex:2;display:flex;flex-direction:column;position:relative}
+.po-one{flex:1;display:flex;flex-direction:column}
+.po-slot{flex:1;display:flex;flex-direction:column;justify-content:center;padding:9px 0 16px;position:relative}
+.po-pair::after{content:'';position:absolute;right:-12px;top:25%;bottom:25%;border-right:1.5px solid var(--border2)}
+.po-pair>.po-slot::after{content:'';position:absolute;right:-12px;top:50%;width:12px;border-top:1.5px solid var(--border2)}
+.po-in>.po-slot::before{content:'';position:absolute;left:-12px;top:50%;width:12px;border-top:1.5px solid var(--border2)}
+.po-tie{position:relative;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;font-size:13px}
+.po-tie>div{display:flex;align-items:center;gap:6px;padding:5px 8px;color:var(--muted)}
+.po-tie>div+div{border-top:1px solid var(--border)}
+.po-tie>div span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.po-tie>div span a{color:inherit;text-decoration:none}
+.po-tie>div b{font-weight:600;font-variant-numeric:tabular-nums}
+.po-tie>div.w{color:var(--text);font-weight:600}
+.po-tie>div.w b{color:var(--green)}
+.po-tie:not(.done)>div{color:var(--text2)}
+.po-tie .po-when{position:absolute;left:0;right:0;top:100%;margin-top:2px;font-size:10.5px;color:var(--muted);text-align:center;border:0;padding:0;display:block}
+.po-tie img.crest{width:18px;height:18px}
+.po-tie .po-tbd{color:var(--muted);font-style:italic}
+.po-later{border-style:dashed}
+.po-tie.po-me{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.po-swipe{display:none;font-size:11.5px;color:var(--green);margin-top:2px}
+@media (max-width:700px){
+  .po-wrap{padding:16px 12px 10px}
+  .po-rd{flex:0 0 156px}
+  .po-tie{font-size:12.5px}
+  .po-swipe.many{display:block}
+}
+</style><section class="po-wrap" id="playoffs"><div class="lt-h"><span class="lt-title">Play-offs</span><span class="lt-sub">Winners in bold.</span></div><div class="po-br"><div class="po-rd"><h4>Quarter-finals</h4><div class="po-col"><div class="po-pair"><div class="po-slot"><div class="po-tie"><div class=""><img class="crest" src="../crests/19763.png" alt="" loading="lazy" onerror="this.remove()"><span><a href="../clubs/platense-slv.html">Platense</a></span><b></b></div><div class=""><img class="crest" src="../crests/4302.png" alt="" loading="lazy" onerror="this.remove()"><span><a href="../clubs/fas.html">FAS</a></span><b></b></div><div class="po-when">Wed 25 Nov</div></div></div><div class="po-slot"><div class="po-tie"><div class=""><img class="crest" src="../crests/26154.png" alt="" loading="lazy" onerror="this.remove()"><span><a href="../clubs/inter.html">Inter</a></span><b></b></div><div class=""><img class="crest" src="../crests/4310.png" alt="" loading="lazy" onerror="this.remove()"><span><a href="../clubs/aguila.html">Águila</a></span><b></b></div><div class="po-when">Wed 25 Nov</div></div></div></div></div></div><div class="po-rd"><h4>Final</h4><div class="po-col"><div class="po-one po-in"><div class="po-slot"><div class="po-tie po-later"><div class="po-tbd"><span>TBD</span><b></b></div><div class="po-tbd"><span>TBD</span><b></b></div></div></div></div></div></div></div><div class="po-swipe">Swipe for the later rounds &rarr;</div></section><style>
 .lt-wrap{padding:18px 20px 6px;border-bottom:1px solid var(--border);scroll-margin-top:66px}
 .lt-wrap>*{max-width:820px;margin-left:auto;margin-right:auto}
 .lt-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px}
