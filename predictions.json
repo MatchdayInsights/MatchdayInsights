@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T20:21:42+00:00",
+  "generated": "2026-11-23T20:33:42+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -424,7 +424,7 @@
       "competition_type": "league",
       "country": "Spain",
       "round": "Regular Season - 15",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "10139",
       "home_team": "AD Ceuta FC",
       "home_slug": "ad-ceuta-fc",
@@ -447,7 +447,7 @@
       "competition_type": "league",
       "country": "Italy",
       "round": "Girone B - 15",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "9499",
       "home_team": "Grosseto",
       "home_slug": "grosseto",
