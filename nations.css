@@ -256,3 +256,6 @@ table.nt-mt tr.me td{background:rgba(61,186,94,.09)}
 .cp-rd{justify-content:flex-start;gap:8px}
 .cp-rd>h4{flex:none;margin:0 0 2px}
 .cp-rd>.cp-tie{margin:auto 0}
+/* Promotion / relegation play-offs under the bracket, apart from the road to
+   the final (Greg, 2026-11: CONCACAF Nations League mixed them together). */
+.cp-side{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:18px 0 6px}

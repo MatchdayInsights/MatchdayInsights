@@ -187,7 +187,14 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell .country-badge { min-width: 18px; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell > div { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-name-text { font-size: 13px !important; font-weight: 600 !important; min-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: none; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: 0 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  /* The club column takes what's left and long words shrink to "...", so the
+     rating always fits on screen - league pages show the league's full name
+     there ("Liga Profesional Argentina") and pushed the rating off the side
+     (Greg, 2026-11: "you have to scroll to see the rating"). */
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-club { width: 100%; max-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell { min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-name-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .record-row-note { display: none !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-elo { width: 118px !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
