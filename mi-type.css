@@ -196,15 +196,26 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell { min-width: 0; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-name-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .record-row-note { display: none !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-elo { width: 118px !important; }
+  /* min-width keeps the rating and its change on one line now the club column
+     takes the rest; padding keeps them off the screen's edge (Greg, 2026-11:
+     "move the ratings slightly to the left"). */
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-elo { width: 140px !important; min-width: 140px !important; padding-right: 16px !important; box-sizing: border-box; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
   /* The live line ("LIVE -11.7 → #2") goes under the rating, wrapping if it must -
      on one line it made the table wider than the phone (Greg, 2026-11). */
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-wrap: wrap !important; row-gap: 2px !important; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell > :not(.row-lr) { white-space: nowrap; }
+  html body .table-wrap:has(td.td-rank:not(.local) > .m-mv) thead th:last-child { padding-right: 16px !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .row-lr { flex: 0 0 100%; order: 9; margin-top: 0; text-align: right; white-space: normal; font-size: 10px; line-height: 1.25; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg { display: block !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg .change-pill { font-size: 10.5px !important; min-width: 40px; text-align: center; padding: 2px 4px; }
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg { display: block !important; flex: none; width: 38px; text-align: right; }
+  /* The change as plain coloured text, no box - calmer (Greg, 2026-11: picked
+     "B" from a mock-up: "I don't want it looking too crowded"). */
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg .change-pill { font-size: 11px !important; font-weight: 600 !important; min-width: 38px; display: inline-block; text-align: right; padding: 0 !important; background: none !important; border: 0 !important; box-shadow: none !important; font-variant-numeric: tabular-nums; }
+  /* Straight columns (Greg, 2026-11: "align it, it's not straight"): the change
+     sits in a fixed 38px slot and every digit is the same width, so ratings
+     and changes line up down the table. */
+  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-variant-numeric: tabular-nums; text-align: right; }
 }
 
 /* ---- Light mode a little whiter (Greg, 2026-11): the page background was
