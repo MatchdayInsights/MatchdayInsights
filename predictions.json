@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T22:25:40+00:00",
+  "generated": "2026-11-23T22:45:36+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -401,7 +401,7 @@
       "competition_type": "league",
       "country": "Uruguay",
       "round": "Clausura - 15",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "2378",
       "home_team": "Albion FC",
       "home_slug": "albion-fc",
@@ -425,7 +425,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 36",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "119",
       "home_team": "Internacional",
       "home_slug": "internacional",
