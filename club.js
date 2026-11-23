@@ -265,5 +265,13 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
   if(sel&&body) sel.addEventListener('change',function(){
     var k=sel.value;
     data().then(function(d){ var t=d&&d.t&&d.t[k]; if(t&&sel.value===k) body.innerHTML=rows(t); });
+    // Cup runs follow the season picked (Greg, 2026-11). A continental
+    // table leaves them as they are.
+    var cb=document.getElementById('cup-runs-'+tid), m=/^league:([^:]+):/.exec(k);
+    if(cb&&m) data().then(function(d){
+      if(sel.value!==k) return;
+      var c=d&&d.c||{};
+      cb.innerHTML=c[m[1]]||'<p class="cr-none">No cup games for this season.</p>';
+    });
   });
 })();
