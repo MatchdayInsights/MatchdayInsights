@@ -261,17 +261,17 @@ function mdiRenderChart(svgId, selectId, captionId, tooltipId, dates, values, op
     mdiRenderChart('rank-svg-'+tid,'rank-select-'+tid,'rank-caption-'+tid,'rank-tooltip-'+tid,
       d.h.dates,d.h.r,{invert:true,color:'#7880a0',fmt:function(v){return '#'+v.toFixed(0);}});
   });
+  // Cup / continental runs' own season drop-downs (Greg, 2026-11).
+  [['cup','c'],['cont','k']].forEach(function(p){
+    var cs=document.getElementById(p[0]+'-season-'+tid), cb=document.getElementById(p[0]+'-runs-'+tid);
+    if(cs&&cb) cs.addEventListener('change',function(){
+      var k=cs.value;
+      data().then(function(d){ var c=d&&d[p[1]]&&d[p[1]][k]; if(c&&cs.value===k) cb.innerHTML=c; });
+    });
+  });
   var sel=document.getElementById('table-select-'+tid), body=document.getElementById('table-body-'+tid);
   if(sel&&body) sel.addEventListener('change',function(){
     var k=sel.value;
     data().then(function(d){ var t=d&&d.t&&d.t[k]; if(t&&sel.value===k) body.innerHTML=rows(t); });
-    // Cup runs follow the season picked (Greg, 2026-11). A continental
-    // table leaves them as they are.
-    var cb=document.getElementById('cup-runs-'+tid), m=/^league:([^:]+):/.exec(k);
-    if(cb&&m) data().then(function(d){
-      if(sel.value!==k) return;
-      var c=d&&d.c||{};
-      cb.innerHTML=c[m[1]]||'<p class="cr-none">No cup games for this season.</p>';
-    });
   });
 })();
