@@ -206,6 +206,10 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-wrap: wrap !important; row-gap: 2px !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell > :not(.row-lr) { white-space: nowrap; }
   html body .table-wrap:has(td.td-rank:not(.local) > .m-mv) thead th:last-child { padding-right: 16px !important; }
+  /* The heading sits over the rating, not the change: 16px edge + 38px
+     change slot + 8px gap (Greg, 2026-11: "Elos not lining up" - th:last-
+     child was the hidden Change heading, so "Elo" sat at the screen edge). */
+  html body .table-wrap:has(td.td-rank:not(.local) > .m-mv) thead th[data-col="elo"] { text-align: right !important; padding-right: 62px !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .row-lr { flex: 0 0 100%; order: 9; margin-top: 0; text-align: right; white-space: normal; font-size: 10px; line-height: 1.25; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
   html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg { display: block !important; flex: none; width: 38px; text-align: right; }
