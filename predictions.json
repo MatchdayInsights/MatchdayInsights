@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T23:03:31+00:00",
+  "generated": "2026-11-24T23:33:32+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -309,7 +309,7 @@
       "competition_type": "cup",
       "country": "Chile",
       "round": "Quarter-finals",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "2330",
       "home_team": "Coquimbo Unido",
       "home_slug": "coquimbo-unido",
@@ -333,7 +333,7 @@
       "competition_type": "league",
       "country": "Colombia",
       "round": "Clausura - Quadrangular - 2",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "1125",
       "home_team": "Millonarios",
       "home_slug": "millonarios",
