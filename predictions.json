@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T23:36:11+00:00",
+  "generated": "2026-11-24T00:04:15+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -355,7 +355,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 36",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "119",
       "home_team": "Internacional",
       "home_slug": "internacional",
@@ -402,7 +402,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 36",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "120",
       "home_team": "Botafogo",
       "home_slug": "botafogo",
