@@ -77,7 +77,7 @@
 
   
 <!-- club-summary -->
-<style>.club-summary{max-width:860px;margin:4px 0 18px;font-family:'JetBrains Mono',sans-serif;font-size:15px;line-height:1.65;color:var(--text2)}.club-summary b{color:var(--text);font-weight:700}@media (max-width:640px){.club-summary{font-size:14px}}</style><p class="club-summary"><b>San Telmo</b> are ranked <b><span data-live="rank">#2,069</span> in the world and <span data-live="ctry">#60</span> in Argentina</b> out of 3,158 clubs in our ratings. They play in Primera Nacional. Their best since 2021 was #1,058 in February 2025, and their lowest #2,383 in August 2026. So far in 2026 they have won 10, drawn 11 and lost 15 of 36 games; most recently they beat Central Norte 1-0.</p>
+<style>.club-summary{max-width:860px;margin:4px 0 18px;font-family:'JetBrains Mono',sans-serif;font-size:15px;line-height:1.65;color:var(--text2)}.club-summary b{color:var(--text);font-weight:700}@media (max-width:640px){.club-summary{font-size:14px}}</style><p class="club-summary"><b>San Telmo</b> are ranked <b><span data-live="rank">#2,069</span> in the world and <span data-live="ctry">#60</span> in Argentina</b> out of 3,159 clubs in our ratings. They play in Primera Nacional. Their best since 2021 was #1,058 in February 2025, and their lowest #2,383 in August 2026. So far in 2026 they have won 10, drawn 11 and lost 15 of 36 games; most recently they beat Central Norte 1-0.</p>
 <!-- /club-summary -->
 <div class="club-tabs" role="tablist"><button class="club-tab on" data-tab="overview" role="tab">Overview</button><button class="club-tab" data-tab="matches" role="tab">All matches <span>71</span></button></div>
   <div id="tab-overview">
@@ -94,7 +94,7 @@
 #upcoming-panel,#form,#seasons,#playoffs,#league-table,#cups,#bracket,#charts,#nearby,#motw,#upcoming,#record{scroll-margin-top:calc(var(--navh,58px) + 64px)}
 .hub #motw,.hub #upcoming,.hub #record{scroll-margin-top:calc(var(--navh,58px) + 130px)}
 </style>
-<nav class="pg-jump" aria-label="On this page"><a href="#form">Form</a><a href="#seasons">Season by season</a><a href="#league-table">League table</a><a href="#charts">Rating &amp; rank charts</a><a href="#nearby">Nearby in rankings</a></nav>
+<nav class="pg-jump" aria-label="On this page"><a href="#form">Form</a><a href="#seasons">Season by season</a><a href="#league-table">League table</a><a href="#cups">Cups</a><a href="#charts">Rating &amp; rank charts</a><a href="#nearby">Nearby in rankings</a></nav>
 <script>(function(){function go(){var bar=document.querySelector('.pg-jump');if(!bar)return;
   var nav=document.querySelector('.site-nav');
   function navh(){var h=nav?nav.getBoundingClientRect().height:58,p=nav?getComputedStyle(nav).position:'';
@@ -247,7 +247,29 @@
         
       </div>
     </div>
-
+<style>
+.cr-card{border:1px solid var(--border2);border-radius:10px;background:var(--surface2);margin:0 0 14px;overflow:hidden}
+.cr-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)}
+.cr-h b{font-size:15px}
+.cr-st{font-size:12px;font-weight:600;white-space:nowrap}
+.cr-st.in{color:var(--green)}.cr-st.out{color:var(--muted)}.cr-st.won{color:#c9a227}
+.cr-row{display:grid;grid-template-columns:minmax(90px,1.1fr) 2fr auto;gap:8px;align-items:center;padding:8px 12px;font-size:13px}
+.cr-row+.cr-row{border-top:1px solid var(--border)}
+.cr-rd{color:var(--muted);font-size:12px}
+.cr-op{display:flex;align-items:center;gap:6px;min-width:0}
+.cr-op span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cr-op a{color:inherit;text-decoration:none}
+.cr-op img{width:18px;height:18px;object-fit:contain;flex:none}
+.cr-sc{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.cr-sc i{font-style:normal;font-size:11px;font-weight:700;display:inline-block;width:18px;text-align:center;border-radius:4px;margin-left:6px;color:#fff}
+.cr-sc i.W{background:#22a052}.cr-sc i.L{background:#dc3b3b}.cr-sc i.D{background:#9a9a9a}
+.cr-sc small{display:block;color:var(--muted);font-size:11px}
+.cr-ssn{font-size:12px;color:var(--muted);margin:0 0 8px}
+</style>
+    <div class="section" id="cups">
+      <h2>Cup runs</h2>
+      <div class="cr-ssn">2025</div><div id="cup-runs-1932"><div class="cr-card"><div class="cr-h"><b>Copa Argentina</b><span class="cr-st out">Out in the 1st Round</span></div><div class="cr-row"><div class="cr-rd">1st Round</div><div class="cr-op"><img src="../crests/476.png" alt="" loading="lazy" onerror="this.remove()"><span>v <a href="deportivo-riestra.html">Deportivo Riestra</a></span></div><div class="cr-sc" title="away">2-2<i class="D">D</i><small>on penalties</small></div></div></div></div>
+    </div>
 
 
     <div class="charts-grid">
@@ -356,7 +378,7 @@ if('IntersectionObserver' in window){
       var k=e.getAttribute('data-live'); if(vals[k]!=null) e.textContent=vals[k]; });
   }).catch(function(){});
 })();</script>
-<script src="../club.js?v=7379f8d5" defer></script>
+<script src="../club.js?v=3883a79f" defer></script>
 <script src="../live.js" data-api="https://matchday-live.gregory-m-toledo.workers.dev" data-tid="1932" data-base="../" defer></script>
 </body>
 </html>
