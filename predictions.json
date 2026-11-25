@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T22:32:18+00:00",
+  "generated": "2026-11-25T23:02:27+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -497,7 +497,7 @@
       "competition_type": "league",
       "country": "Nicaragua",
       "round": "Apertura - 18",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "4647",
       "home_team": "UNAN Managua",
       "home_slug": "unan-managua",
@@ -521,7 +521,7 @@
       "competition_type": "cup",
       "country": "Venezuela",
       "round": "Semi-finals",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "2807",
       "home_team": "Deportivo Tachira FC",
       "home_slug": "deportivo-tachira-fc",
