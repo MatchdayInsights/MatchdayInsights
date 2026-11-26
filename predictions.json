@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T23:02:35+00:00",
+  "generated": "2026-11-26T23:32:37+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -310,7 +310,7 @@
       "competition_type": "league",
       "country": "Nicaragua",
       "round": "Apertura - 18",
-      "status": "HT",
+      "status": "2H",
       "home_team_id": "10160",
       "home_team": "Jalapa",
       "home_slug": "jalapa",
@@ -334,7 +334,7 @@
       "competition_type": "cup",
       "country": "Paraguay",
       "round": "3rd place",
-      "status": "1H",
+      "status": "HT",
       "home_team_id": "1176",
       "home_team": "Cerro Porteno",
       "home_slug": "cerro-porteno",
@@ -381,7 +381,7 @@
       "competition_type": "league",
       "country": "Brazil",
       "round": "Regular Season - 37",
-      "status": "NS",
+      "status": "1H",
       "home_team_id": "126",
       "home_team": "Sao Paulo",
       "home_slug": "sao-paulo",
