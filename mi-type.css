@@ -174,52 +174,58 @@ html[data-theme="light"] body select.filter-select, html[data-theme="light"] bod
    "Leagues page got messed up"). The "#1 since" / record notes are left out here - the green or red
    box round the rank still marks a record. ---- */
 @media (max-width: 640px) {
-  html body .table-wrap tbody tr:has(> td.td-rank:not(.local) > .m-mv) { height: 46px; }
-  html body .table-wrap tbody tr:has(> td.td-rank:not(.local) > .m-mv) > td { padding-top: 0 !important; padding-bottom: 0 !important; vertical-align: middle; }
-  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) { width: 44px !important; text-align: left !important; padding-left: 12px !important; white-space: nowrap; font-size: 12.5px !important; font-weight: 600 !important; }
-  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .record-box-green,
-  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .record-box-red { padding: 0 4px; }
-  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .m-mv { display: inline !important; margin: 0 0 0 4px !important; }
-  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .m-mv .move-badge { font-size: 9.5px; vertical-align: 1px; }
-  html body .table-wrap td.td-rank:not(.local):has(> .m-mv) .m-mv .move-badge.nc { display: none; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-club { padding-left: 2px !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell { gap: 9px; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell .country-badge { min-width: 18px; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell > div { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-name-text { font-size: 13px !important; font-weight: 600 !important; min-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: 0 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  html body .table-wrap tbody tr:has(> td.td-rank > .m-mv) { height: 46px; }
+  html body .table-wrap tbody tr:has(> td.td-rank > .m-mv) > td { padding-top: 0 !important; padding-bottom: 0 !important; vertical-align: middle; }
+  html body .table-wrap td.td-rank:has(> .m-mv) { width: 44px !important; text-align: left !important; padding-left: 12px !important; white-space: nowrap; font-size: 12.5px !important; font-weight: 600 !important; }
+  html body .table-wrap td.td-rank:has(> .m-mv) .record-box-green,
+  html body .table-wrap td.td-rank:has(> .m-mv) .record-box-red { padding: 0 4px; }
+  html body .table-wrap td.td-rank:has(> .m-mv) .m-mv { display: inline !important; margin: 0 0 0 4px !important; }
+  html body .table-wrap td.td-rank:has(> .m-mv) .m-mv .move-badge { font-size: 9.5px; vertical-align: 1px; }
+  html body .table-wrap td.td-rank:has(> .m-mv) .m-mv .move-badge.nc { display: none; }
+  /* A confederation picked: the cell is .local ("1", "#71 world", arrow) -
+     the same one-row look, the continent rank + arrow; "#71 world" goes
+     (Greg, 2026-11: "when filtering for a confederation it reverts back to
+     the old font type that sometimes requires a scroll"). League pages'
+     .local cells have no arrow, so they keep their own layout. */
+  html body .table-wrap td.td-rank.local:has(> .m-mv) .rank-world { display: none !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .td-club { padding-left: 2px !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-cell { gap: 9px; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-cell .country-badge { min-width: 18px; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-cell > div { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-name-text { font-size: 13px !important; font-weight: 600 !important; min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-code { font-size: 10px !important; color: var(--muted) !important; margin: 0 !important; flex: 0 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   /* The club column takes what's left and long words shrink to "...", so the
      rating always fits on screen - league pages show the league's full name
      there ("Liga Profesional Argentina") and pushed the rating off the side
      (Greg, 2026-11: "you have to scroll to see the rating"). */
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-club { width: 100%; max-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-cell { min-width: 0; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .club-name-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .record-row-note { display: none !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .td-club { width: 100%; max-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-cell { min-width: 0; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .club-name-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .record-row-note { display: none !important; }
   /* min-width keeps the rating and its change on one line now the club column
      takes the rest; padding keeps them off the screen's edge (Greg, 2026-11:
      "move the ratings slightly to the left"). */
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .td-elo { width: 140px !important; min-width: 140px !important; padding-right: 16px !important; box-sizing: border-box; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .td-elo { width: 140px !important; min-width: 140px !important; padding-right: 16px !important; box-sizing: border-box; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .elo-cell { flex-direction: row !important; align-items: center !important; justify-content: flex-end; gap: 8px !important; }
   /* The live line ("LIVE -11.7 → #2") goes under the rating, wrapping if it must -
      on one line it made the table wider than the phone (Greg, 2026-11). */
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell { flex-wrap: wrap !important; row-gap: 2px !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-cell > :not(.row-lr) { white-space: nowrap; }
-  html body .table-wrap:has(td.td-rank:not(.local) > .m-mv) thead th:last-child { padding-right: 16px !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .elo-cell { flex-wrap: wrap !important; row-gap: 2px !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .elo-cell > :not(.row-lr) { white-space: nowrap; }
+  html body .table-wrap:has(td.td-rank > .m-mv) thead th:last-child { padding-right: 16px !important; }
   /* The heading sits over the rating, not the change: 16px edge + 38px
      change slot + 8px gap (Greg, 2026-11: "Elos not lining up" - th:last-
      child was the hidden Change heading, so "Elo" sat at the screen edge). */
-  html body .table-wrap:has(td.td-rank:not(.local) > .m-mv) thead th[data-col="elo"] { text-align: right !important; padding-right: 62px !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .row-lr { flex: 0 0 100%; order: 9; margin-top: 0; text-align: right; white-space: normal; font-size: 10px; line-height: 1.25; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg { display: block !important; flex: none; width: 38px; text-align: right; }
+  html body .table-wrap:has(td.td-rank > .m-mv) thead th[data-col="elo"] { text-align: right !important; padding-right: 62px !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .row-lr { flex: 0 0 100%; order: 9; margin-top: 0; text-align: right; white-space: normal; font-size: 10px; line-height: 1.25; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .elo-number { font-size: 12.5px !important; font-weight: 600 !important; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .m-chg { display: block !important; flex: none; width: 38px; text-align: right; }
   /* The change as plain coloured text, no box - calmer (Greg, 2026-11: picked
      "B" from a mock-up: "I don't want it looking too crowded"). */
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .m-chg .change-pill { font-size: 11px !important; font-weight: 600 !important; min-width: 38px; display: inline-block; text-align: right; padding: 0 !important; background: none !important; border: 0 !important; box-shadow: none !important; font-variant-numeric: tabular-nums; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .m-chg .change-pill { font-size: 11px !important; font-weight: 600 !important; min-width: 38px; display: inline-block; text-align: right; padding: 0 !important; background: none !important; border: 0 !important; box-shadow: none !important; font-variant-numeric: tabular-nums; }
   /* Straight columns (Greg, 2026-11: "align it, it's not straight"): the change
      sits in a fixed 38px slot and every digit is the same width, so ratings
      and changes line up down the table. */
-  html body .table-wrap tr:has(> td.td-rank:not(.local) > .m-mv) .elo-number { font-variant-numeric: tabular-nums; text-align: right; }
+  html body .table-wrap tr:has(> td.td-rank > .m-mv) .elo-number { font-variant-numeric: tabular-nums; text-align: right; }
 }
 
 /* ---- Light mode a little whiter (Greg, 2026-11): the page background was
@@ -352,6 +358,17 @@ html body .mapwrap .card b { color: var(--text, #fff) !important; }
   html body .site-nav { position: fixed !important; top: 0; left: 0; right: 0; }
   html body { padding-top: 46px; }
   html { scroll-padding-top: 54px; }
+}
+/* The bar still floated up mid-screen while scrolling a confederation's
+   ranking (Greg, 2026-11). Those rows were wider than the phone (a "LIVE"
+   line ran off the right edge), and a page that can slide sideways makes
+   iPhones misplace fixed bars. The page itself never slides sideways now
+   (tables keep their own sideways scroll), and the bar gets its own layer
+   so it is redrawn in place. A transform on .site-nav itself would pin
+   the bar to the header, so only the bar gets one. */
+@media (max-width: 640px) {
+  html, html body { overflow-x: clip; }
+  html body .site-nav .header-right { -webkit-transform: translateZ(0); transform: translateZ(0); }
 }
 
 /* Lighter type across the site (Greg, 2026-11: "I like the font change.
