@@ -226,6 +226,8 @@ a.nm:hover{color:var(--green)}
 /* The Live button. */
 /* TOP GAMES BUTTON 2026-11 */
 .tools #top-only{font-weight:700}
+/* The day's recap (day_recap.py, Greg 2026-11) - a plain link, no button. */
+.tools #recap-link{font-size:12px;font-weight:600;color:var(--green);text-decoration:none;white-space:nowrap}
 .tools #top-only.on{background:rgba(61,186,94,.14);border-color:var(--green);color:var(--text)}
 .tools #live-only{display:inline-flex;align-items:center;gap:5px;font-weight:700}
 .tools #live-only i{width:7px;height:7px;border-radius:50%;background:var(--red,#e5484d)}
@@ -289,6 +291,7 @@ a.nm:hover{color:var(--green)}
     <button id="top-only" type="button" aria-pressed="false">&#9733; Top games</button>
     <button id="live-only" type="button" hidden aria-pressed="false"><i></i>Live <span></span></button>
     <button id="tog" type="button">Collapse all</button>
+    <a id="recap-link" href="recap.html">The day in football &rsaquo;</a>
     <span class="count" id="count"></span>
   </div>
   <div id="list"><div class="empty">Loading matches&hellip;</div></div>
