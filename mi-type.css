@@ -8,6 +8,13 @@
 
 :root { --mi-read: 'JetBrains Mono', Inter, system-ui, -apple-system, 'Segoe UI', sans-serif; }
 
+/* iPhones turned sideways blow up the text of some blocks on their own
+   ("text autosizing") - on club pages the Upcoming rows without a PREVIEW
+   link came out much bigger than the rows with one (Greg, 2026-11: "Font
+   changes when preview not available on landscape"). Keep every size as
+   written, on every page. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
 /* Numbers line up in columns (every digit the same width). */
 html body { font-variant-numeric: tabular-nums; }
 
