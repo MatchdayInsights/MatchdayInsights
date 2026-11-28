@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-28T03:03:08+00:00",
+  "generated": "2026-11-28T03:35:31+00:00",
   "horizon_days": 21,
   "model": {
     "description": "Davidson tie model on Elo ratings, nu fitted by maximum likelihood on this project's match history",
@@ -303,29 +303,6 @@
     }
   ],
   "fixtures": [
-    {
-      "fixture_id": "1647133",
-      "date": "2026-11-28T00:30:00+00:00",
-      "competition": "Division di Honor",
-      "competition_type": "league",
-      "country": "Aruba",
-      "round": "Regular Season - 6",
-      "status": "NS",
-      "home_team_id": "8240",
-      "home_team": "RCA",
-      "home_slug": "rca",
-      "home_rank": 2748,
-      "home_elo": 712.9,
-      "away_team_id": "8243",
-      "away_team": "Caiquetio",
-      "away_slug": "caiquetio",
-      "away_rank": 2421,
-      "away_elo": 760.5,
-      "p_home": 0.3629,
-      "p_draw": 0.2965,
-      "p_away": 0.3406,
-      "expected_score": 0.5111
-    },
     {
       "fixture_id": "1649500",
       "pg": "columbus-crew-vs-inter-miami-2026-11-28",
