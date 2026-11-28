@@ -50,13 +50,30 @@
   function score(r) { return (r[4] == null ? 0 : r[4]) + ' - ' + (r[5] == null ? 0 : r[5]); }
   function norm(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
+  // The club's live match: its own page (the Upcoming row's PREVIEW link,
+  // opened on the Facts tab), else the Matches page. Rows carry data-fid;
+  // older pages don't, so the row that kicked off is used (Greg, 2026-11:
+  // the strip went to the Matches tab instead of the match).
+  function matchLink(g) {
+    var a = document.querySelector('.upcoming-row[data-fid="' + String(g[0]).replace(/\D/g, '') + '"] a[href*="predictions/"]');
+    if (!a) {
+      var rows = document.querySelectorAll('.upcoming-row[data-kickoff]');
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i].getAttribute('data-fid')) continue;
+        if (new Date(rows[i].getAttribute('data-kickoff')) <= new Date(Date.now() + 15 * 60000)) {
+          a = rows[i].querySelector('a[href*="predictions/"]'); break;
+        }
+      }
+    }
+    return a ? a.getAttribute('href').split('#')[0] + '#m' : base + 'matches.html';
+  }
   function strip(live) {
     if (!box) return;
     if (tid) {
       var g = live.filter(function (r) { return String(r[6]) === tid || String(r[7]) === tid; })[0];
       if (!g) { box.hidden = true; return; }
       box.innerHTML = '<span class="lv"><i class="dot"></i>' + esc(g[2] === 'HT' ? 'HALF TIME' : minute(g)) + '</span>' +
-        '<a href="' + base + 'matches.html"><b>' + esc(g[8]) + ' ' + esc(score(g)) + ' ' + esc(g[9]) + '</b> &rsaquo;</a>';
+        '<a href="' + esc(matchLink(g)) + '"><b>' + esc(g[8]) + ' ' + esc(score(g)) + ' ' + esc(g[9]) + '</b> &rsaquo;</a>';
       box.hidden = false;
     } else {
       if (!live.length) { box.hidden = true; return; }
