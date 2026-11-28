@@ -218,6 +218,10 @@
   if (document.getElementById("top-only")) {
     var ts = document.createElement("script"); ts.src = "/matches-top.js"; document.head.appendChild(ts);
   }
+  // Compare page: days each club was ahead, by rating and rank (Greg, 2026-11).
+  if (document.getElementById("htabs") && document.getElementById("chart")) {
+    var cc = document.createElement("script"); cc.src = "/compare-count.js"; document.head.appendChild(cc);
+  }
   // Match pages: the league table live while its matches are on (Greg, 2026-11).
   if (document.querySelector("table.mt")) {
     var tl = document.createElement("script"); tl.src = "/mt-live.js"; document.head.appendChild(tl);

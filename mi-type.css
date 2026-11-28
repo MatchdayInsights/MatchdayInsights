@@ -412,3 +412,19 @@ html.mi-store-tab body .table-wrap~.hero .hero-eyebrow{display:block!important}
    line height. */
 html body .cp-odds{margin-top:12px}
 html body .cp-oh{line-height:1.5;padding:2px 0;margin:0 0 6px;position:relative;z-index:1;overflow:visible}
+
+/* ---- Match reports and league round-ups (match_recap.py, Greg 2026-11) ---- */
+html body .mr-box { margin: 14px 0 16px; padding: 14px 16px; border: 1px solid var(--border2, rgba(128,128,128,.25)); border-radius: 12px; background: var(--surface2, transparent); }
+html body .mr-h { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 18px; text-transform: uppercase; letter-spacing: .3px; margin-bottom: 6px; }
+html body .mr-box p { font-family: var(--mi-read); font-size: 14.5px; line-height: 1.6; margin: 0 0 8px; color: var(--text); }
+html body .mr-box p b { font-weight: 650; }
+html body .mr-src { font-family: var(--mi-read); font-size: 11.5px; color: var(--muted, #7880a0); margin-top: 4px; }
+html body .rr .rr-lines { margin: 4px 0 12px; padding-left: 18px; font-family: var(--mi-read); font-size: 14px; line-height: 1.6; }
+html body .rr .rr-lines b { font-weight: 650; }
+html body .rr-list { display: grid; gap: 0; }
+html body .rr-row { display: grid; grid-template-columns: 1fr 64px 1fr; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid rgba(128,128,128,.16); font-family: var(--mi-read); font-size: 14px; }
+html body .rr-t { font-weight: 400; overflow-wrap: anywhere; }
+html body .rr-t.h { text-align: right; }
+html body .rr-t.w { font-weight: 650; }
+html body .rr-s { text-align: center; font-weight: 600; font-variant-numeric: tabular-nums; }
+html body .rr-s a { color: var(--green, #3dba5e); text-decoration: none; }
